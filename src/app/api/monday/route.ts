@@ -34,12 +34,17 @@ export async function POST(request: Request) {
       }
     `;
 
+    const headers: Record<string, string> = {
+      "Content-Type": "application/json",
+    };
+
+    if (MONDAY_API_KEY) {
+      headers.Authorization = MONDAY_API_KEY;
+    }
+
     const response = await fetch(MONDAY_API_URL, {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: MONDAY_API_KEY,
-      },
+      headers,
       body: JSON.stringify({ query }),
     });
 

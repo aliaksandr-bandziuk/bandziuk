@@ -10,7 +10,7 @@ interface SchemaBlogPostProps {
   lang: string;
 }
 
-const siteUrl = "https://cyprusvipestates.com";
+const siteUrl = "https://bandziuk.com";
 
 const SchemaBlogPost: React.FC<SchemaBlogPostProps> = ({ blog, lang }) => {
   // Собираем канонический URL

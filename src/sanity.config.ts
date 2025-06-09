@@ -10,7 +10,7 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET as string;
 
 export default defineConfig({
   badePath: "/admin",
-  name: "cyprusvipestates",
+  name: "bandziuk",
   title: "Bandziuk",
   projectId,
   dataset,

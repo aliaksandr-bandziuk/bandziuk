@@ -17,8 +17,8 @@ const LogosCarousel: FC<Props> = ({ logos }) => {
         {logos.map((logo) => (
           <div key={logo._key} className={styles.logoLink}>
             <Image
-              alt={logo.image?.alt || "Property Developer in Cyprus"}
-              title={logo.image?.alt || "Property Developer in Cyprus"}
+              alt={logo.image?.alt || "Aliaksandr Bandziuk Partners"}
+              title={logo.image?.alt || "Aliaksandr Bandziuk Partners"}
               src={urlFor(logo).url()}
               width={250}
               height={200}

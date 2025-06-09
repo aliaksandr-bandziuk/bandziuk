@@ -20,7 +20,6 @@ import benefitsBlock from "./benefitsBlock";
 import reviewsFullBlock from "./reviewsFullBlock";
 import faqBlock from "./faqBlock";
 import formMinimalBlock from "./formMinimalBlock";
-import howWeWorkBlock from "./howWeWorkBlock";
 import bulletsBlock from "./bulletsBlock";
 import blog from "./blog";
 import category from "./category";
@@ -52,7 +51,6 @@ export const schemaTypes = [
   reviewsFullBlock,
   imageBulletsBlock,
   benefitsBlock,
-  howWeWorkBlock,
   bulletsBlock,
   docFile,
   localizedSlug,

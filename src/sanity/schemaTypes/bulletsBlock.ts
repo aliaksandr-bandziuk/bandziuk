@@ -1,4 +1,3 @@
-import HowWeWorkBlock from "@/app/components/HowWeWorkBlock/HowWeWorkBlock";
 import { defineType, defineField, defineArrayMember } from "sanity";
 
 const bulletsBlock = defineType({

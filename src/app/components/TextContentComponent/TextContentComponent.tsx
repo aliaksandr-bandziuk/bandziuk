@@ -3,7 +3,6 @@ import React, { FC } from "react";
 import { PortableText } from "@portabletext/react";
 import { RichText } from "../RichText/RichText";
 import styles from "./TextContentComponent.module.scss";
-import FadeUpAnimate from "../FadeUpAnimate/FadeUpAnimate";
 
 type Props = {
   block: TextContent;
@@ -43,24 +42,22 @@ const TextContentComponent: FC<Props> = ({ block }) => {
             : "0",
       }}
     >
-      <FadeUpAnimate>
-        <div className="container">
-          <div
-            className={styles.textContentComponent}
-            style={{
-              background: block.backgroundColor || "transparent",
-              paddingTop: computedPaddingVertical,
-              paddingBottom: computedPaddingVertical,
-              paddingLeft: computedPaddingHorizontal,
-              paddingRight: computedPaddingHorizontal,
-              textAlign: block.textAlign || "left",
-              color: block.textColor || "inherit",
-            }}
-          >
-            <PortableText value={block.content} components={RichText} />
-          </div>
+      <div className="container">
+        <div
+          className={styles.textContentComponent}
+          style={{
+            background: block.backgroundColor || "transparent",
+            paddingTop: computedPaddingVertical,
+            paddingBottom: computedPaddingVertical,
+            paddingLeft: computedPaddingHorizontal,
+            paddingRight: computedPaddingHorizontal,
+            textAlign: block.textAlign || "left",
+            color: block.textColor || "inherit",
+          }}
+        >
+          <PortableText value={block.content} components={RichText} />
         </div>
-      </FadeUpAnimate>
+      </div>
     </div>
   );
 };

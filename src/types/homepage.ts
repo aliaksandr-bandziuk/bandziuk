@@ -1,5 +1,4 @@
 import { ReviewsFullBlock } from "./blog";
-import { ImageAlt } from "./project";
 
 export type City = "Paphos" | "Limassol" | "Larnaca";
 export type PropertyType = "Apartment" | "Villa";
@@ -20,6 +19,18 @@ export type Image = {
   _type: string;
   url: string;
 };
+
+// ====== Image Alt Type =====
+export type ImageAlt = {
+  _key: string;
+  _type: "image";
+  alt?: string;
+  asset: {
+    _ref: string;
+    _type: "reference";
+  };
+};
+// ====== End Image Alt Type =====
 
 export type ListItem = {
   _key: string;
@@ -66,6 +77,35 @@ export type Bullet = {
 };
 
 export type DescriptionField = any;
+
+// ====== Hero Button =====
+export type HeroButton =
+  | {
+      _key: string;
+      _type: "button";
+      type: "link";
+      label: string;
+      link: string;
+    }
+  | {
+      _key: string;
+      _type: "button";
+      type: "popup";
+      label: string;
+    };
+// ====== End Hero Button =====
+
+// ====== Hero Section =====
+export type HeroSection = {
+  _key: string;
+  _type: "heroSection";
+  title: string;
+  subtitle: string;
+  text: string;
+  heroImage: ImageAlt;
+  heroButtons: HeroButton[];
+};
+// ====== End Hero Section =====
 
 export type AboutBlock = {
   _key: string;
@@ -179,18 +219,8 @@ export type Homepage = {
   _rev: string;
   title: string;
   seo: Seo;
-  sliderMain: Slide[];
   homepageTitle: string;
-  brochureBlock: Brochure;
-  aboutBlock: AboutBlock;
-  descriptionBlock: DescriptionBlock;
-  projectsBlock: ProjectsBlock;
-  logosBlock: LogosBlock;
-  parallaxImage: Image;
-  benefitsBlock: BenefitsBlock;
-  howWeWorkBlock: HowWeWorkBlock;
-  reviewsFullBlock: ReviewsFullBlock;
-  reviewsBlock: ReviewsBlock;
+  heroSection: HeroSection;
   language: string;
   slug: {
     [lang: string]: {

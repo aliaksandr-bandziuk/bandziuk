@@ -10,8 +10,6 @@ import {
 } from "@/types/footer"; // Импортируйте тип Link и переименуйте его, чтобы избежать конфликта с Link из next/link
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
-import NewsletterForm from "../NewsletterForm/NewsletterForm";
-import ContactLink from "../ContactLink/ContactLink";
 
 type Props = {
   params: { lang: string };
@@ -129,20 +127,20 @@ const Footer = async ({ params }: Props) => {
             </div>
             <div className={styles.contactBlock}>
               <p className={styles.title}>{contactTitle}</p>
-              <div className={styles.contacts}>
+              {/* <div className={styles.contacts}>
                 {contacts.map((contact: Contact) => (
                   <ContactLink key={contact._key} contact={contact} />
                 ))}
-              </div>
+              </div> */}
             </div>
-            <div className={styles.newsLetterBlock}>
+            {/* <div className={styles.newsLetterBlock}>
               <p className={styles.title}>{newsletterTitle}</p>
               <NewsletterForm
                 placeholder={getPlaceholderText(params.lang)}
                 buttonLabel={newsletterButtonLabel}
                 lang={params.lang}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

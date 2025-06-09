@@ -31,37 +31,8 @@ export async function getHomePageByLang(lang: string): Promise<Homepage> {
     _id,
     title,
     seo,
-    sliderMain[]{
-      _key,
-      _type,
-      image,
-      title,
-      description,
-      type,
-      linkLabel,
-      linkDestination,
-      buttonLabel,
-    },
-    brochureBlock,
     homepageTitle,
-    aboutBlock,
-    descriptionBlock{
-      _key,
-      _type,
-      title,
-      descriptionFields[]{
-        _key,
-        _type,
-        descriptionField
-      }
-    },
-    projectsBlock,
-    logosBlock,
-    parallaxImage,
-    benefitsBlock,
-    howWeWorkBlock,
-    reviewsFullBlock,
-    reviewsBlock,
+    heroSection,
     language,
     slug,
     "_translations": *[_type == "translation.metadata" && references(^._id)].translations[].value->{
@@ -229,39 +200,9 @@ export async function getSinglePageByLang(
           marginTop,
           marginBottom
         },
-        _type == "projectsSectionBlock" => {
-          _key,
-          _type,
-          title,
-          filterCity,
-          filterPropertyType,
-          projects[]->{
-            _id,
-            title,
-            excerpt,
-            previewImage,
-            "slug": slug[$lang].current,
-            keyFeatures
-          },
-          "filteredProjects": *[
-            _type == "project" &&
-            language == $lang &&
-            (!defined(^.filterCity) || keyFeatures.city == ^.filterCity) &&
-            (!defined(^.filterPropertyType) || keyFeatures.propertyType == ^.filterPropertyType)
-          ] | order(keyFeatures.price asc)[]{
-            _id,
-            title,
-            "slug": slug[$lang].current,
-            previewImage,
-            keyFeatures
-          },
-          marginTop,
-          marginBottom
-        },
         _type != "textContent" &&
         _type != "contactFullBlock" &&
-        _type != "formMinimalBlock" &&
-        _type != "projectsSectionBlock" => @
+        _type != "formMinimalBlock" && => @
       },
       "parentPage": parentPage->{
         _id,
@@ -464,54 +405,10 @@ export async function getBlogPostByLang(
           }
         },
         // === секция проектов ===
-        _type == "projectsSectionBlock" => {
-          _key,
-          _type,
-          title,
-          filterCity,
-          filterPropertyType,
-          projects[]->{
-            _id,
-            title,
-            excerpt,
-            previewImage {
-              asset->{
-                _id,
-                url,
-                metadata { dimensions { width, height } }
-              },
-              alt
-            },
-            "slug": slug[$lang].current,
-            keyFeatures
-          },
-          "filteredProjects": *[
-            _type == "project" &&
-            language == $lang &&
-            (!defined(^.filterCity) || keyFeatures.city == ^.filterCity) &&
-            (!defined(^.filterPropertyType) || keyFeatures.propertyType == ^.filterPropertyType)
-          ] | order(keyFeatures.price asc)[] {
-            _id,
-            title,
-            previewImage {
-              asset->{
-                _id,
-                url,
-                metadata { dimensions { width, height } }
-              },
-              alt
-            },
-            "slug": slug[$lang].current,
-            keyFeatures
-          },
-          marginTop,
-          marginBottom
-        },
         // все прочие блоки пропускаем «как есть»
         _type != "textContent" &&
         _type != "contactFullBlock" &&
-        _type != "formMinimalBlock" &&
-        _type != "projectsSectionBlock" => @
+        _type != "formMinimalBlock" && => @
       },
       videoBlock {
         videoId,

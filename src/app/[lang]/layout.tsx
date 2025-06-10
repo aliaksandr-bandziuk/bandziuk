@@ -49,7 +49,7 @@ export default function RootLayout({
         <GoogleAnalyticsWrapper />
         <MicrosoftClarity />
         <GoogleTagManager gtmId="GTM-MQNF6L9V" />
-        <GoogleAdsScript />
+        {/* <GoogleAdsScript /> */}
 
         <CustomCookieConsent lang={params.lang as "en" | "de" | "pl" | "ru"} />
       </body>

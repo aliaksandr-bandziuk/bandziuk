@@ -13,6 +13,7 @@ import { FormStandardDocument } from "@/types/formStandardDocument";
 import FormStatic from "../components/FormStatic/FormStatic";
 import LogosCarousel from "../components/LogosCarousel/LogosCarousel";
 import homepage from "@/sanity/schemaTypes/homepage";
+import Hero from "../components/Hero/Hero";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -76,7 +77,9 @@ export default async function Home({ params }: Props) {
   return (
     <>
       <Header params={params} translations={translations} />
-      <main></main>
+      <main>
+        <Hero heroSection={homePage?.heroSection} />
+      </main>
     </>
   );
 }

@@ -6,7 +6,7 @@ export default function GoogleAnalyticsWrapper() {
   return (
     <>
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-WLD3B6GN9P"
+        src="https://www.googletagmanager.com/gtag/js?id=G-LXSBE4EEP9"
         strategy="afterInteractive"
       />
       <Script id="gtag-init" strategy="afterInteractive">
@@ -14,7 +14,7 @@ export default function GoogleAnalyticsWrapper() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-WLD3B6GN9P');
+          gtag('config', 'G-LXSBE4EEP9');
         `}
       </Script>
     </>

@@ -27,7 +27,7 @@
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
-  color: #bd8948;
+  color: var(--corp-color);
 }
 
 .cookieBanner p {
@@ -51,7 +51,7 @@
     input {
       width: 16px;
       height: 16px;
-      accent-color: #bd8948;
+      accent-color: var(--corp-color);;
     }
   }
 }
@@ -81,7 +81,7 @@
   }
 
   button:last-of-type {
-    background-color: #bd8948;
+    background-color: var(--corp-color);;
     color: #000;
 
     &:hover {
@@ -95,7 +95,7 @@
   margin-top: 0.5rem;
 
   a {
-    color: #bd8948;
+    color: var(--corp-color);;
     text-decoration: underline;
     transition: color 0.2s ease;
 

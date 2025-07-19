@@ -1,18 +1,19 @@
+// ClientAnimationLayer.tsx
 "use client";
 
 import React, { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { useScroll } from "framer-motion";
 import styles from "./WorkProcess.module.scss";
-import type { ReactElement, ReactNode } from "react";
+import { FillSegment } from "./FillSegment";
+import { AnimatedMarker } from "./AnimatedMarker";
 
 type Props = {
   stepsCount: number;
-  children: ReactNode;
+  children: React.ReactNode;
 };
 
 const ClientAnimationLayer: React.FC<Props> = ({ stepsCount, children }) => {
   const ref = useRef<HTMLDivElement>(null);
-
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0.2 1", "1 0.5"],
@@ -22,105 +23,74 @@ const ClientAnimationLayer: React.FC<Props> = ({ stepsCount, children }) => {
     { length: stepsCount },
     (_, i) => i / (stepsCount - 1)
   );
-  const segments = thresholds.slice(0, -1);
-
-  // Создаём все useTransform заранее
-  const segmentFills = segments.map((t, i) => {
-    const next = thresholds[i + 1];
-    return useTransform(scrollYProgress, [t, next], [0, 1], { clamp: true });
-  });
-
-  const markerTransforms = thresholds.map((_, i) => {
-    const prev = i === 0 ? 0 : thresholds[i - 1];
-    const curr = i === 0 ? 1 / (stepsCount - 1) : thresholds[i];
-
-    const markerOn = useTransform(scrollYProgress, [prev, curr], [0, 1]);
-    const markerColor = useTransform(
-      markerOn,
-      [0, 1],
-      ["#fff", "rgb(255, 162, 96)"]
-    );
-    const markerShadow = useTransform(
-      markerOn,
-      [0.7, 1],
-      ["none", "0 0 8px rgba(255,162,96,0.8)"]
-    );
-
-    return { markerColor, markerShadow };
-  });
 
   return (
     <div className={styles.timeline} ref={ref}>
       <div className={styles.line} />
 
-      {/* Рисуем линии между сегментами */}
-      {segments.map((t, i) => {
-        const next = thresholds[i + 1];
-        return (
-          <motion.div
-            key={i}
-            className={styles.fillSegment}
-            style={{
-              top: `${t * 100}%`,
-              height: `${(next - t) * 100}%`,
-              scaleY: segmentFills[i],
-            }}
-          />
-        );
-      })}
+      {/* Заливка сегментов */}
+      {thresholds.slice(0, -1).map((from, i) => (
+        <FillSegment
+          key={i}
+          scrollY={scrollYProgress}
+          from={from}
+          to={thresholds[i + 1]}
+        />
+      ))}
 
-      {React.Children.map(children, (child) => {
-        if (!React.isValidElement(child)) return child;
+      {/* Маркеры */}
+      {React.Children.map(children, (wrapper) => {
+        // 1) Гардимся и кастим обёртку
+        if (!React.isValidElement<{ children?: React.ReactNode }>(wrapper))
+          return wrapper;
+        const wrapperEl = wrapper as React.ReactElement<{
+          children?: React.ReactNode;
+        }>;
 
-        const stepsWrapper = child.props.children;
+        // 2) Идём по шагам внутри обёртки
+        const steps = React.Children.map(
+          wrapperEl.props.children,
+          (stepEl, i) => {
+            // Гардимся и кастим сам шаг
+            if (!React.isValidElement(stepEl)) return stepEl;
+            const stepElement = stepEl as React.ReactElement<any>;
 
-        const steps = React.Children.map(stepsWrapper, (stepEl, i) => {
-          if (!React.isValidElement(stepEl)) return stepEl;
+            // Генерим новые “inner children”
+            const newChildren = React.Children.map(
+              stepElement.props.children,
+              (inner) => {
+                if (!React.isValidElement(inner)) return inner;
+                const el = inner as React.ReactElement<any>;
+                const className = el.props.className as string | undefined;
 
-          const marker = markerTransforms[i];
-          if (!marker) return stepEl;
-
-          const { markerColor, markerShadow } = marker;
-
-          const step = stepEl as ReactElement;
-
-          const innerChildren = React.Children.map(
-            step.props.children,
-            (inner) => {
-              if (React.isValidElement(inner)) {
-                const el = inner as ReactElement<any>;
-                const className = el.props.className;
-
-                if (
-                  typeof className === "string" &&
-                  className.includes("marker")
-                ) {
+                // Если это маркер — заменяем на AnimatedMarker
+                if (className?.includes("marker")) {
+                  const prev = i === 0 ? 0 : thresholds[i - 1];
+                  const curr = thresholds[i];
                   return (
-                    <motion.div
+                    <AnimatedMarker
+                      key={i}
+                      scrollY={scrollYProgress}
+                      prev={prev}
+                      curr={curr}
                       className={className}
-                      style={{
-                        backgroundColor: markerColor,
-                        boxShadow: markerShadow,
-                      }}
                     />
                   );
                 }
 
                 return inner;
               }
+            );
 
-              return inner;
-            }
-          );
+            // Клонируем шаг с новыми детьми
+            return React.cloneElement(stepElement, {
+              children: newChildren,
+            });
+          }
+        );
 
-          return React.cloneElement(step, {
-            children: innerChildren,
-          });
-        });
-
-        return React.cloneElement(child as ReactElement, {
-          children: steps,
-        });
+        // Клонируем обёртку с анимированными шагами
+        return React.cloneElement(wrapperEl, { children: steps });
       })}
     </div>
   );

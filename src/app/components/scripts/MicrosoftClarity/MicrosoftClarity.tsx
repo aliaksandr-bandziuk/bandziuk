@@ -17,7 +17,7 @@ const MicrosoftClarity = () => {
       if (y && y.parentNode) {
         y.parentNode.insertBefore(t, y);
       }
-    })(window, document, "clarity", "script", "qoasnhd0ms");
+    })(window, document, "clarity", "script", "shkdmxspc0");
   }, []);
 
   return null;

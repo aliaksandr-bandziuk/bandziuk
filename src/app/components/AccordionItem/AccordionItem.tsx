@@ -2,7 +2,7 @@ import React from "react";
 import { AccordionItem as Item } from "@szhsin/react-accordion";
 import styles from "./AccordionItem.module.scss";
 import { PortableText } from "@portabletext/react";
-import { RichText } from "../RichText/RichText";
+import { RichText } from "../shared/RichText/RichText";
 
 type AccordionItemProps = {
   title: string;

@@ -1,51 +1,42 @@
-type ContactType = "Email" | "Phone" | "Link";
-
 type Image = {
-  _key: string;
-  _ref: string;
-  _type: string;
-  url: string;
+  _type: "image";
+  asset: {
+    _ref: string;
+    _type: "reference";
+  };
 };
 
-export type Link = {
+// Тип ссылки (label + link)
+export type FooterLink = {
   _key: string;
   label: string;
   link: string;
 };
 
+// Соцсети
 export type SocialLink = {
   _key: string;
   label: string;
   link: string;
-  icon: Image;
 };
 
-export type Paragraph = {
+// Колонки футера
+export type FooterColumn = {
   _key: string;
-  paragraph: string;
+  title: string;
+  links: FooterLink[];
 };
 
-export type Contact = {
-  _key: string;
-  _type: string;
-  icon: Image;
-  label: string;
-  type: ContactType;
-};
-
+// Основной тип Footer
 export type Footer = {
   _type: "footer";
   _id: string;
-  _rev: string;
+  _rev?: string;
+  title: string;
   logo: Image;
   socialLinks: SocialLink[];
-  companyTitle: string;
-  companyParagraphs: Paragraph[];
-  vatNumber: string;
-  contactTitle: string;
-  contacts: Contact[];
-  newsletterTitle: string;
-  newsletterButtonLabel: string;
+  footerColumns: FooterColumn[];
   copyright: string;
-  policyLinks: Link[];
+  finalText: string;
+  language: string;
 };

@@ -1,0 +1,132 @@
+.problemsSection {
+  margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  gap: clamp(1.25rem, 0.625rem + 2vw, 2.5rem);
+  margin-bottom: clamp(3.75rem, 2.5rem + 5vw, 6.25rem);
+
+  @media screen and (min-width: 980px) {
+    flex-direction: row;
+    gap: clamp(3.125rem, -1.563rem + 18.75vw, 12.5rem);
+    text-align: left;
+    
+  }
+}
+
+.content {
+  flex: 1;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.875rem, 1.563rem + 1.25vw, 2.5rem);
+
+  @media screen and (min-width: 768px) {
+    position: sticky;
+    top: 120px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pretitle {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: clamp(1.563rem, 1.25rem + 1.25vw, 2.188rem);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--corp-color);
+  font-style: italic;
+
+  @media screen and (min-width: 768px) {
+    max-width: 700px;
+  }
+}
+
+.problems {
+  flex: 1;
+  
+  @media screen and (min-width: 768px) {
+    flex: 1.8;
+  }
+}
+
+.problemsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1.875rem, 0.625rem + 5vw, 4.375rem);
+}
+
+.problemItem {
+  background-color: #000;
+  border: 1px solid rgba(109, 107, 107, 0.3);
+  border-radius: 12px;
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  @media screen and (min-width: 768px) {
+    padding: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .problemsList {
+    position: relative;
+  }
+
+  .problemItem {
+    position: sticky;
+    left: 0;        /* не съезжает влево */
+    width: 100%;    /* или ваш нужный размер */
+    /* все динамические top/z‑index — из React */
+  }
+}
+
+
+.problemTitle {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--corp-color);
+  font-style: italic;
+  text-align: center;
+}
+
+.problemDescription {
+  font-size: 24px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.fullButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -18,4 +18,5 @@ export type Header = {
   logo: Image;
   logoMobile: Image;
   navLinks: navLink[];
+  buttonLabel: string;
 };

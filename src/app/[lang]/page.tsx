@@ -6,14 +6,22 @@ import {
 } from "../../sanity/sanity.utils";
 import { i18n } from "@/i18n.config";
 import { Translation } from "@/types/homepage";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import HeaderWrapper from "../components/HeaderWrapper/HeaderWrapper";
+import Footer from "../components/layout/Footer/Footer";
+import HeaderWrapper from "../components/wrappers/HeaderWrapper/HeaderWrapper";
 import { FormStandardDocument } from "@/types/formStandardDocument";
-import FormStatic from "../components/FormStatic/FormStatic";
-import LogosCarousel from "../components/LogosCarousel/LogosCarousel";
+import FormStatic from "../components/forms/FormStatic/FormStatic";
+import LogosCarousel from "../components/sections/LogosCarousel/LogosCarousel";
 import homepage from "@/sanity/schemaTypes/homepage";
-import Hero from "../components/Hero/Hero";
+import Hero from "../components/sections/Hero/Hero";
+import ModalFull from "../components/modals/ModalFull/ModalFull";
+import Header from "../components/layout/Header/Header";
+import About from "../components/sections/About/About";
+import Services from "../components/sections/Services/Services";
+import Problems from "../components/sections/Problems/Problems";
+import Portfolio from "../components/sections/Portfolio/Portfolio";
+import WorkProcess from "../components/sections/WorkProcess/WorkProcess";
+import Reviews from "../components/sections/Reviews/Reviews";
+import Contacts from "../components/sections/Contacts/Contacts";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -79,7 +87,20 @@ export default async function Home({ params }: Props) {
       <Header params={params} translations={translations} />
       <main>
         <Hero heroSection={homePage?.heroSection} />
+        <About aboutSection={homePage?.aboutSection} />
+        <Services servicesSection={homePage?.servicesSection} />
+        <Problems problemsSection={homePage?.problemsSection} />
+        {/* <Portfolio /> */}
+        <WorkProcess processSection={homePage?.processSection} />
+        <Reviews reviews={homePage?.reviewsSection} />
+        <Contacts
+          contacts={homePage?.contactsSection}
+          lang={params.lang}
+          formDocument={formDocument}
+        />
       </main>
+      <Footer params={params} />
+      <ModalFull lang={params.lang} formDocument={formDocument} />
     </>
   );
 }

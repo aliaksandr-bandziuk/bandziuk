@@ -102,10 +102,136 @@ export type HeroSection = {
   title: string;
   subtitle: string;
   text: string;
-  heroImage: ImageAlt;
   heroButtons: HeroButton[];
 };
 // ====== End Hero Section =====
+
+// ===== About Section =====
+export type AboutSection = {
+  _key: string;
+  _type: "aboutSection";
+  pretitle: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  buttonLabel: string;
+  image: ImageAlt;
+};
+// ===== End About Section =====
+
+// ====== Services Section =====
+export type ServiceItem = {
+  _key: string;
+  _type: "serviceItem";
+  icon: ImageAlt;
+  title: string;
+  description: string;
+  linkLabel: string;
+  linkDestination: string;
+};
+
+export type ServicesSection = {
+  _key: string;
+  _type: "servicesSection";
+  pretitle: string;
+  title: string;
+  subtitle: string;
+  serviceItems: ServiceItem[];
+  fullLink: {
+    _key: string;
+    _type: "fullLink";
+    label: string;
+    url: string;
+  };
+};
+// ====== End Services Section =====
+
+// ====== Problems Section =====
+export type ProblemItem = {
+  _key: string;
+  _type: "problemItem";
+  icon: ImageAlt;
+  problem: string;
+  solution: string;
+  buttonLabel: string;
+};
+
+export type ProblemsSection = {
+  _key: string;
+  _type: "problemsSection";
+  pretitle: string;
+  title: string;
+  subtitle: string;
+  problemsItems: ProblemItem[];
+  fullButtonLabel: string;
+};
+// ====== End Problems Section =====
+
+// ====== Process Section =====
+export type StepItem = {
+  _key: string;
+  _type: "stepItem";
+  icon: ImageAlt;
+  title: string;
+  description: string;
+};
+
+export type ProcessSection = {
+  _key: string;
+  _type: "processSection";
+  pretitle: string;
+  title: string;
+  subtitle: string;
+  stepItems: StepItem[];
+};
+// ====== End Process Section =====
+
+// ====== Reviews Section =====
+export type ReviewItem = {
+  _key: string;
+  _type: "review";
+  image: ImageAlt;
+  reviewText: any;
+  name: string;
+  position: string;
+  country: string;
+};
+
+export type ReviewsSection = {
+  _key: string;
+  _type: "reviewsSection";
+  pretitle: string;
+  title: string;
+  subtitle: string;
+  reviews: ReviewItem[];
+};
+// ====== End Reviews Section =====
+
+// ====== Contacts Section =====
+export type ContactSocialLink = {
+  _key: string;
+  _type: "socialLink";
+  icon: ImageAlt;
+  label: string;
+  link: string;
+};
+
+export type ContactsSection = {
+  _key: string;
+  _type: "contactsSection";
+  pretitle: string;
+  title: string;
+  subtitle: string;
+  emailLabel: string;
+  emailAddress: string;
+  socialLinks: ContactSocialLink[];
+  officeAddressLabel: string;
+  officeAddress: string;
+  formTitle: string;
+  formDescription: string;
+  formButtonLabel: string;
+};
+// ====== End Contacts Section =====
 
 export type AboutBlock = {
   _key: string;
@@ -221,6 +347,12 @@ export type Homepage = {
   seo: Seo;
   homepageTitle: string;
   heroSection: HeroSection;
+  aboutSection: AboutSection;
+  servicesSection: ServicesSection;
+  problemsSection: ProblemsSection;
+  processSection: ProcessSection;
+  reviewsSection: ReviewsSection;
+  contactsSection: ContactsSection;
   language: string;
   slug: {
     [lang: string]: {

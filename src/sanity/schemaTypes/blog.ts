@@ -93,7 +93,6 @@ const blog = {
         { type: "benefitsBlock" },
         { type: "reviewsFullBlock" },
         { type: "formMinimalBlock" },
-        { type: "howWeWorkBlock" },
         { type: "bulletsBlock" },
         { type: "tableBlock" },
       ],

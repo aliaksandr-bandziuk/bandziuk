@@ -33,90 +33,48 @@ const footer = {
               title: "Link",
               type: "string",
             }),
-            defineField({
-              name: "icon",
-              title: "Icon",
-              type: "image",
-            }),
           ],
         },
       ],
     }),
     defineField({
-      name: "companyTitle",
-      title: "Company title",
-      type: "string",
-    }),
-    defineField({
-      name: "companyParagraphs",
-      title: "Company paragraphs",
+      name: "footerColumns",
+      title: "Footer Columns",
       type: "array",
       of: [
         {
           type: "object",
           fields: [
             defineField({
-              name: "paragraph",
-              title: "Paragraph",
+              name: "title",
+              title: "Title",
               type: "string",
+            }),
+            defineField({
+              name: "links",
+              title: "Links",
+              type: "array",
+              of: [
+                {
+                  type: "object",
+                  fields: [
+                    defineField({
+                      name: "label",
+                      title: "Label",
+                      type: "string",
+                    }),
+                    defineField({
+                      name: "link",
+                      title: "Link",
+                      type: "string",
+                    }),
+                  ],
+                },
+              ],
             }),
           ],
         },
       ],
-    }),
-    defineField({
-      name: "vatNumber",
-      title: "VAT number",
-      type: "string",
-    }),
-    defineField({
-      name: "contactTitle",
-      title: "Contact title",
-      type: "string",
-    }),
-    defineField({
-      name: "contacts",
-      title: "Contacts",
-      type: "array",
-      of: [
-        {
-          type: "object",
-          fields: [
-            defineField({
-              name: "icon",
-              title: "Icon",
-              type: "image",
-            }),
-            defineField({
-              name: "label",
-              title: "Label",
-              type: "string",
-            }),
-            defineField({
-              name: "type",
-              title: "Type",
-              type: "string",
-              options: {
-                list: [
-                  { title: "Email", value: "Email" },
-                  { title: "Phone", value: "Phone" },
-                  { title: "Link", value: "Link" },
-                ],
-              },
-            }),
-          ],
-        },
-      ],
-    }),
-    defineField({
-      name: "newsletterTitle",
-      title: "Newsletter Title",
-      type: "string",
-    }),
-    defineField({
-      name: "newsletterButtonLabel",
-      title: "Newsletter Button Label",
-      type: "string",
     }),
     defineField({
       name: "copyright",
@@ -124,26 +82,9 @@ const footer = {
       type: "string",
     }),
     defineField({
-      name: "policyLinks",
-      title: "Policy links",
-      type: "array",
-      of: [
-        {
-          type: "object",
-          fields: [
-            defineField({
-              name: "label",
-              title: "Label",
-              type: "string",
-            }),
-            defineField({
-              name: "link",
-              title: "Link",
-              type: "string",
-            }),
-          ],
-        },
-      ],
+      name: "finalText",
+      title: "Final Text",
+      type: "string",
     }),
     defineField({
       name: "language",

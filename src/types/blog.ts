@@ -330,7 +330,6 @@ export type Blog = {
     | ReviewsFullBlock
     | FaqBlock
     | FormMinimalBlock
-    | HowWeWorkBlock
     | BulletsBlock
     | ProjectsSectionBlock
     | TableBlock

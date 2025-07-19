@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #272730;
+  background: #000;
   color: #fff;
 }
 
@@ -78,9 +78,27 @@ input[type="number"]::-webkit-outer-spin-button {
 /* styles for the flag */
 .PhoneInputInput {
   height: 100%;
-  background-color: #f5f5f5;
+  background-color: transparent;
   padding: 2px 0 3px 0;
+  width: 100% !important;
+  box-sizing: border-box;
+  font-size: transparent;
+  color: #fff;
 }
+
+.PhoneInputInput:-webkit-autofill,
+.PhoneInputInput:-webkit-autofill:hover,
+.PhoneInputInput:-webkit-autofill:focus,
+.PhoneInputInput:-webkit-autofill:active {
+  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.001) inset !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-clip: content-box !important;
+  appearance: none !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
 
 .PhoneInputInput:focus {
   outline: none;
@@ -99,15 +117,15 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .PhoneInputInternationalIconPhone {
-  stroke: #bd8948; /* Цвет линии */
-  fill: #bd8948; /* Цвет заливки */
+  stroke: var(--corp-color); /* Цвет линии */
+  fill: var(--corp-color); /* Цвет заливки */
   stroke-width: 3px; /* Толщина линии */
   width: 32px; /* Ширина значка */
   height: 32px; /* Высота значка */
 }
 
 .PhoneInputInternationalIconGlobe {
-  stroke: #bd8948; /* Цвет линии */
+  stroke: var(--corp-color); /* Цвет линии */
   stroke-width: 3px; /* Толщина линии */
   width: 32px; /* Ширина значка */
   height: 32px; /* Высота значка */
@@ -117,10 +135,8 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-right: 8px; /* Отступ справа */
 }
 
-.PhoneInputInput {
-  width: 100% !important;
-  box-sizing: border-box;
-  font-size: transparent;
+textarea {
+  resize: none;
 }
 
 .grayscale-flag img {
@@ -152,21 +168,33 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .swiper-pagination-bullet {
-  background-color: #fff !important;
-  width: 12px !important;
-  height: 12px !important;
-  opacity: 0.8 !important;
+  width: 16px !important;
+  height: 16px !important;
+  border: 1px solid #fff !important;
+  border-radius: 50% !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  position: relative;
   transition: all 0.3s ease !important;
-
-  &.swiper-pagination-bullet-active {
-    background-color: #bd8948 !important;
-    opacity: 1;
-    width: 50px !important;
-    height: 12px !important;
-    border-radius: 5px !important;
-    transition: all 0.3s ease !important;
-  }
 }
+
+.swiper-pagination-bullet-active {
+  border-color: var(--corp-color) !important;
+}
+
+.swiper-pagination-bullet-active::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 9px; /* увеличено ядро */
+  height: 9px;
+  background-color: var(--corp-color);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 .prev-button {
   position: absolute;

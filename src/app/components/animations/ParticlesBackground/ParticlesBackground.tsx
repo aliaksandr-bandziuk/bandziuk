@@ -2,17 +2,21 @@
 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { useCallback } from "react";
+import { useCallback, useId } from "react";
 import type { Engine } from "tsparticles-engine";
 
 const ParticlesBackground = () => {
+  // генерирует стабильный id, одинаковый на сервере и клиенте
+  const reactId = useId();
+  const particlesId = `tsparticles-${reactId}`;
+
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadFull(engine);
   }, []);
 
   return (
     <Particles
-      id="tsparticles"
+      id={particlesId}
       init={particlesInit}
       className="absolute inset-0 z-0"
       options={{

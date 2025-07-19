@@ -1,0 +1,204 @@
+.how {
+  position: relative;
+  padding: 100px 20px;
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  position: relative;
+}
+
+.bgCenter {
+  -webkit-filter: blur(100px);
+  aspect-ratio: 1.675 / 1;
+  background: linear-gradient(180deg, #6957ba00, #7ec2f4 48.07563126087189%, #6957ba00);
+  border-radius: 100%;
+  filter: blur(100px);
+  height: 482px;
+  opacity: .21;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 0;
+
+  @media screen and (min-width: 980px) {
+    width: 808px;
+  }
+}
+
+.line {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #ddd;
+}
+
+/* новый класс: сегмент заполнения */
+.fillSegment {
+  position: absolute;
+  left: 20px; // по умолчанию: мобилки
+  width: 2px;
+  background: var(--corp-color);
+  transform-origin: top;
+}
+
+@media screen and (min-width: 768px) {
+  .fillSegment {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+.step {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 80px;
+  padding-left: 60px;
+  text-align: left;
+}
+
+.marker {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--corp-color);
+  z-index: 3;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media screen and (min-width: 768px) {
+  .marker {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .line,
+  .fillSegment {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .step {
+    width: 50%;
+    padding: 0;
+  }
+  .step:nth-child(odd) {
+    margin-left: 50%;
+    text-align: left;
+  }
+  .step:nth-child(even) {
+    margin-right: 50%;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .step:nth-child(odd) .content {
+    padding-left: 40px;
+  }
+  .step:nth-child(even) .content {
+    padding-right: 40px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
+}
+
+.pretitle {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: clamp(1.563rem, 1.25rem + 1.25vw, 2.188rem);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--corp-color);
+  font-style: italic;
+
+  @media screen and (min-width: 768px) {
+    max-width: 700px;
+  }
+}
+
+.step {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 30px;
+
+  @media screen and (min-width: 768px) {
+    padding: 55px;
+  }
+}
+
+.stepWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.stepText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.stepTitle {
+  font-size: clamp(1.125rem, 0.938rem + 0.75vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 1);
+}
+
+.stepDescription {
+  font-size: clamp(1rem, 0.938rem + 0.25vw, 1.125rem);
+  color: rgba(199, 196, 196, 0.8);
+}
+
+.clientLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}

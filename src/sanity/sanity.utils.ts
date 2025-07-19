@@ -19,6 +19,7 @@ export async function getHeaderByLang(lang: string): Promise<Header> {
     logo,
     logoMobile,
     navLinks,
+    buttonLabel,
   }`;
 
   const header = await client.fetch(headerQuery, { lang });
@@ -33,6 +34,12 @@ export async function getHomePageByLang(lang: string): Promise<Homepage> {
     seo,
     homepageTitle,
     heroSection,
+    aboutSection,
+    servicesSection,
+    problemsSection,
+    processSection,
+    reviewsSection,
+    contactsSection,
     language,
     slug,
     "_translations": *[_type == "translation.metadata" && references(^._id)].translations[].value->{
@@ -58,15 +65,9 @@ export async function getFooterByLang(lang: string) {
     _id,
     logo,
     socialLinks,
-    companyTitle,
-    companyParagraphs,
-    vatNumber,
-    contactTitle,
-    contacts,
-    newsletterTitle,
-    newsletterButtonLabel,
+    footerColumns,
     copyright,
-    policyLinks,
+    finalText,
   }`;
 
   const footer = await client.fetch(footerQuery, { lang });

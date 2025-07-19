@@ -43,6 +43,11 @@ const header = {
       ],
     }),
     defineField({
+      name: "buttonLabel",
+      title: "Button label",
+      type: "string",
+    }),
+    defineField({
       name: "language",
       type: "string",
       initialValue: "id",

@@ -24,16 +24,38 @@ const ClientAnimationLayer: React.FC<Props> = ({ stepsCount, children }) => {
   );
   const segments = thresholds.slice(0, -1);
 
+  // Создаём все useTransform заранее
+  const segmentFills = segments.map((t, i) => {
+    const next = thresholds[i + 1];
+    return useTransform(scrollYProgress, [t, next], [0, 1], { clamp: true });
+  });
+
+  const markerTransforms = thresholds.map((_, i) => {
+    const prev = i === 0 ? 0 : thresholds[i - 1];
+    const curr = i === 0 ? 1 / (stepsCount - 1) : thresholds[i];
+
+    const markerOn = useTransform(scrollYProgress, [prev, curr], [0, 1]);
+    const markerColor = useTransform(
+      markerOn,
+      [0, 1],
+      ["#fff", "rgb(255, 162, 96)"]
+    );
+    const markerShadow = useTransform(
+      markerOn,
+      [0.7, 1],
+      ["none", "0 0 8px rgba(255,162,96,0.8)"]
+    );
+
+    return { markerColor, markerShadow };
+  });
+
   return (
     <div className={styles.timeline} ref={ref}>
       <div className={styles.line} />
 
+      {/* Рисуем линии между сегментами */}
       {segments.map((t, i) => {
         const next = thresholds[i + 1];
-        const segmentFill = useTransform(scrollYProgress, [t, next], [0, 1], {
-          clamp: true,
-        });
-
         return (
           <motion.div
             key={i}
@@ -41,7 +63,7 @@ const ClientAnimationLayer: React.FC<Props> = ({ stepsCount, children }) => {
             style={{
               top: `${t * 100}%`,
               height: `${(next - t) * 100}%`,
-              scaleY: segmentFill,
+              scaleY: segmentFills[i],
             }}
           />
         );
@@ -55,29 +77,19 @@ const ClientAnimationLayer: React.FC<Props> = ({ stepsCount, children }) => {
         const steps = React.Children.map(stepsWrapper, (stepEl, i) => {
           if (!React.isValidElement(stepEl)) return stepEl;
 
+          const marker = markerTransforms[i];
+          if (!marker) return stepEl;
+
+          const { markerColor, markerShadow } = marker;
+
           const step = stepEl as ReactElement;
-
-          const prev = i === 0 ? 0 : thresholds[i - 1];
-          const curr = i === 0 ? 1 / (stepsCount - 1) : thresholds[i];
-
-          const markerOn = useTransform(scrollYProgress, [prev, curr], [0, 1]);
-          const markerColor = useTransform(
-            markerOn,
-            [0, 1],
-            ["#fff", "rgb(255, 162, 96)"]
-          );
-          const markerShadow = useTransform(
-            markerOn,
-            [0.7, 1],
-            ["none", "0 0 8px rgba(255,162,96,0.8)"]
-          );
 
           const innerChildren = React.Children.map(
             step.props.children,
             (inner) => {
               if (React.isValidElement(inner)) {
-                const el = inner as ReactElement;
-                const className = el.props?.className;
+                const el = inner as ReactElement<any>;
+                const className = el.props.className;
 
                 if (
                   typeof className === "string" &&

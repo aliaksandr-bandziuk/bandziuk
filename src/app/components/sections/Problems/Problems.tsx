@@ -49,7 +49,9 @@ const Problems: FC<Props> = ({ problemsSection }) => {
                       height={100}
                     />
                   </div>
-                  <h3 className={styles.problemTitle}>"{item.problem}"</h3>
+                  <h3 className={styles.problemTitle}>
+                    &quot;{item.problem}&quot;
+                  </h3>
                   <p className={styles.problemDescription}>{item.solution}</p>
                   <ButtonModal>{item.buttonLabel}</ButtonModal>
                 </div>

@@ -14,7 +14,7 @@ type Consent = {
 };
 
 type Props = {
-  lang: "en" | "de" | "pl" | "ru";
+  lang: "en" | "pl" | "ru";
 };
 
 const dictionary = {
@@ -24,13 +24,6 @@ const dictionary = {
       "By continuing to use our site, you agree to our Cookie Policy.",
     accept: "Continue",
     privacy: "Cookie Policy",
-  },
-  de: {
-    title: "Wir verwenden Cookies",
-    description:
-      "Wenn Sie unsere Website weiterhin nutzen, stimmen Sie unserer Cookie-Richtlinie zu.",
-    accept: "Weiter",
-    privacy: "Cookie-Richtlinie",
   },
   pl: {
     title: "Używamy plików cookie",

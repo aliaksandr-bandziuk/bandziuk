@@ -7,7 +7,7 @@ import {
   getBlogPostsByLang,
 } from "@/sanity/sanity.utils";
 
-const websiteUrl = "https://bandziuk.com";
+const websiteUrl = "https://www.bandziuk.com";
 
 const langs = ["en", "pl", "ru"];
 

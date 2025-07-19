@@ -56,12 +56,12 @@ export default function RootLayout({
           <>
           </>
         )} */}
-        {/* <GoogleAnalyticsWrapper /> */}
-        {/* <MicrosoftClarity /> */}
+        <GoogleAnalyticsWrapper />
+        <MicrosoftClarity />
         {/* <GoogleTagManager gtmId="GTM-MQNF6L9V" /> */}
         {/* <GoogleAdsScript /> */}
 
-        <CustomCookieConsent lang={params.lang as "en" | "de" | "pl" | "ru"} />
+        <CustomCookieConsent lang={params.lang as "en" | "pl" | "ru"} />
       </body>
     </html>
   );

@@ -5,23 +5,24 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: "/",
+        allow: ["/"],
         disallow: [
           "/admin",
           "/api",
           "/_next",
           "/_assets",
           "/_static",
-          "*?gtm",
-          "*?utm",
-          "*?gclid",
-          "*?from",
-          " *?gbraid",
-          "*?matchtype=",
+          "/*?gtm",
+          "/*?utm",
+          "/*?gclid",
+          "/*?from",
+          "/*?gbraid",
+          "/*?matchtype=",
         ],
       },
     ],
-    sitemap: "https://bandziuk.com/sitemap.xml",
-    host: "https://bandziuk.com",
+    // теперь указываем www
+    sitemap: "https://www.bandziuk.com/sitemap.xml",
+    host: "https://www.bandziuk.com",
   };
 }

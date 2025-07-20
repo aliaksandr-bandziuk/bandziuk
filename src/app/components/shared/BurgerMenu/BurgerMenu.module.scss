@@ -5,8 +5,8 @@
   height: 35px;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  border-radius: 50%;
+  // background-color: #fff;
+  // border-radius: 50%;
 
   @media (max-width: 768px) {
     display: flex;
@@ -16,25 +16,27 @@
   }
 }
 
+.burgerIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px; /* вычислите: 3 линии по 2px + 2 промежутка по 8px, например */
+}
 .bar {
-  width: 15px;
+  width: 20px;
   height: 2px;
-  background-color: #c09d75; /* Цвет полос бургер-меню */
-  transition: 0.4s; /* Анимация для перехода состояния полос */
-
-  &:not(:last-child) {
-    margin-bottom: 4px;
-  }
+  background-color: #fff;
+  transition: transform 0.4s, opacity 0.4s;
+  transform-origin: center;
 }
 
+/* при открытом меню */
 .rotateBar1 {
-  transform: rotate(-45deg) translate(-1px, 1px);
-  width: 20px;
-  // background-color: #fff;
+  transform: rotate(45deg) translateY(11px) translateX(2px);
 }
-
 .rotateBar2 {
-  transform: rotate(45deg) translate(-3px, -3px);
-  width: 20px;
-  // background-color: #fff;
+  opacity: 0;
+}
+.rotateBar3 {
+  transform: rotate(-45deg) translateY(-11px) translateX(2px);
 }

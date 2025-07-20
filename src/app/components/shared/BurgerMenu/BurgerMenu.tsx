@@ -32,6 +32,9 @@ const BurgerMenu: React.FC<Props> = ({ isMenuOpen, onToggle }) => {
         <div
           className={`${styles.bar} ${isMenuOpen ? styles.rotateBar2 : ""}`}
         />
+        <div
+          className={`${styles.bar} ${isMenuOpen ? styles.rotateBar3 : ""}`}
+        />
       </div>
     </div>
   );

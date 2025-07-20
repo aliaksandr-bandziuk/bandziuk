@@ -5,7 +5,6 @@ import { urlFor } from "@/sanity/sanity.client";
 import styles from "./Header.module.scss";
 import Link from "next/link";
 import { Translation } from "@/types/homepage";
-import LocaleSwitcher from "../../shared/LocaleSwitcher/LocaleSwitcher";
 import NavWrapper from "../../wrappers/NavWrapper/NavWrapper";
 import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
 
@@ -49,7 +48,6 @@ const Header = async ({ translations, params }: Props) => {
             </div>
             <div className={styles.contactData}>
               <div className={styles.contactButtons}>
-                {/* <LocaleSwitcher translations={translations} /> */}
                 <ButtonModal>{data.buttonLabel}</ButtonModal>
               </div>
             </div>

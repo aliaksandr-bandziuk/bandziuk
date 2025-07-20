@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
   });
 
   // Проверка наличия всех полей
-  if (data.name && data.phone && data.country && data.email) {
+  if (data.name && data.phone && data.email) {
     const mailBody = `Name: ${data.name}\nPhone: ${data.phone}\nEmail: ${data.email}`;
 
     const mailOptions: Mail.Options = {

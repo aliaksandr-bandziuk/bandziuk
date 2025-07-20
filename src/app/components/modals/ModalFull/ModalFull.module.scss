@@ -1,34 +1,32 @@
 .modalTitle {
-  color: #091728;
+  color: var(--corp-color);
   font-size: clamp(1.5rem, 1rem + 2vw, 2.5rem);
-  font-style: normal;
+  font-style: italic;
   font-weight: 500;
   line-height: 120%; /* 125% */
-  letter-spacing: -0.64px;
   max-width: 350px;
   margin-bottom: clamp(1.25rem, 0.938rem + 1.25vw, 1.875rem);
 
   @media screen and (min-width: 570px) {
-    letter-spacing: -2.8px;
+    max-width: 100%;
   }
 }
 
 .modalText {
-  color: #000;
-  font-size: 16px;
+  color: #fff;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.64px;
   margin-bottom: clamp(1.25rem, 0.938rem + 1.25vw, 1.875rem);
 }
 
 .closeButton {
   position: absolute;
-  // top: 15px;
-  // right: 15px;
-  top: 30px;
-  right: 50px;
+  top: 20px;
+  right: 20px;
+  // top: 30px;
+  // right: 50px;
   border: none;
   cursor: pointer;
   font-size: 22px;
@@ -64,8 +62,8 @@
 
 .popupContentWrapper {
   position: relative;
-  background-color: #fff;
-  border-radius: 35px;
+  background-color: #101213;
+  border-radius: 12px;
   overflow: hidden;
   padding-top: clamp(1.875rem, 0.563rem + 5.25vw, 4.5rem);
   padding-left: clamp(1.875rem, 0.563rem + 5.25vw, 4.5rem);
@@ -187,5 +185,5 @@
 }
 
 .formInner label {
-  color: #091728 !important;
+  color: #fff !important;
 }

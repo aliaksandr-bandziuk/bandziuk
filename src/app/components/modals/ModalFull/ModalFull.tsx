@@ -6,6 +6,8 @@ import styles from "./ModalFull.module.scss";
 import { useModal } from "@/app/context/ModalContext";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import FormStandard from "../../forms/FormStandard/FormStandard";
+import FormFull from "../../forms/FormFull/FormFull";
+import { Bitter } from "next/font/google";
 
 const customStyles: ReactModal.Styles = {
   overlay: {
@@ -30,6 +32,12 @@ type Props = {
   lang: string;
   formDocument: FormStandardDocument;
 };
+
+const bitter = Bitter({
+  subsets: ["latin", "cyrillic"],
+  style: ["normal", "italic"],
+  weight: ["500"],
+});
 
 const ModalFull = ({ lang, formDocument }: Props) => {
   const { isModalOpen, closeModal } = useModal(); // Используйте хук useModal для управления состоянием модального окна
@@ -67,28 +75,24 @@ const ModalFull = ({ lang, formDocument }: Props) => {
             <div className={styles.popupContentWrapper}>
               <div className={styles.formContent}>
                 <div className={styles.formText}>
-                  <h3 className={styles.modalTitle}>
+                  <h3 className={`${styles.modalTitle} ${bitter.className}`}>
                     {lang === "ru"
                       ? "Укажите контакты для связи"
-                      : lang === "de"
-                        ? "Kontaktieren Sie mich!"
-                        : lang === "pl"
-                          ? "Proszę podać swoje dane kontaktowe"
-                          : "Please provide your contact details"}
+                      : lang === "pl"
+                        ? "Proszę podać swoje dane kontaktowe"
+                        : "Please provide your contact details"}
                   </h3>
                   <p className={styles.modalText}>
                     {lang === "ru"
-                      ? "Свяжемся с вами как можно скорее"
-                      : lang === "de"
-                        ? "Geben Sie Ihre Daten ein, damit wir Sie kontaktieren können"
-                        : lang === "pl"
-                          ? "Skontaktujemy się z Tobą jak najszybciej"
-                          : "We will contact you as soon as possible"}
+                      ? "Я свяжусь с вами как можно скорее"
+                      : lang === "pl"
+                        ? "Skontaktuję się z Tobą jak najszybciej"
+                        : "I will contact you as soon as possible"}
                   </p>
                 </div>
 
                 <div className={styles.formInner}>
-                  <FormStandard form={formDocument} lang={lang} />
+                  <FormFull form={formDocument} lang={lang} />
                 </div>
               </div>
               <button className={styles.closeButton} onClick={closeModal}>

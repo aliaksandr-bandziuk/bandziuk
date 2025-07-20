@@ -132,12 +132,10 @@ const FormFull: FC<ContactFormProps> = ({
         onFormSubmitSuccess && onFormSubmitSuccess();
         setMessage(
           lang === "ru"
-            ? "Мы получили вашу заявку и свяжемся с вами в ближайшее время."
-            : lang === "de"
-              ? "Wir haben Ihre Anfrage erhalten und werden uns in Kürze bei Ihnen melden."
-              : lang === "pl"
-                ? "Otrzymaliśmy Twoje zapytanie i skontaktujemy się z Tobą wkrótce."
-                : "We have received your request and will contact you shortly."
+            ? "Я получил вашу заявку и свяжусь с вами в ближайшее время."
+            : lang === "pl"
+              ? "Otrzymałem Twoje zapytanie i skontaktuję się z Tobą wkrótce."
+              : "I received your request and will contact you shortly."
         );
         setTimeout(() => {
           setMessage(null);
@@ -149,12 +147,12 @@ const FormFull: FC<ContactFormProps> = ({
       console.error("Error:", error);
       setMessage(
         lang === "ru"
-          ? "Произошла ошибка при отправке заявки. Попробуйте позже."
-          : lang === "de"
-            ? "Beim Senden der Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
-            : lang === "pl"
-              ? "Wystąpił błąd podczas wysyłania zapytania. Spróbuj ponownie później."
-              : "An error occurred while sending the request. Please try again later."
+          ? "Произошла ошибка при отправке заявки. Попробуйте позже или напишите мне на почту info@bandziuk.com"
+          : lang === "pl"
+            ? "Wystąpił błąd podczas wysyłania zapytania. Spróbuj ponownie później lub napisz do mnie na adres info@bandziuk.com"
+            : lang === "en"
+              ? "An error occurred while sending the request. Please try again later or email me at info@bandziuk.com"
+              : "An error occurred while sending the request. Please try again later or email me at info@bandziuk.com"
       );
       setTimeout(() => {
         setMessage(null);

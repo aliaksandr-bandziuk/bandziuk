@@ -38,7 +38,7 @@ const Problems: FC<Props> = ({ problemsSection }) => {
             </div>
           </div>
           <div className={styles.problems}>
-            <StickyStack offset={120} spacing={30}>
+            <StickyStack offset={120} spacing={10}>
               {problemsItems.map((item) => (
                 <div key={item._key} className={styles.problemItem}>
                   <div className={styles.icon}>

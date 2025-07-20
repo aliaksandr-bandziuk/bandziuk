@@ -37,8 +37,6 @@ const WorkProcess = ({ processSection }: Props) => {
             {stepItems.map((step, i) => (
               <div key={i} className={styles.step}>
                 <FadeInOnScroll index={i}>
-                  {/* Это будет заменено на motion.div в клиентском компоненте */}
-                  <div className={styles.marker} data-index={i} />
                   <div className={styles.stepWrapper}>
                     <div className={styles.serviceItemIcon}>
                       <Image

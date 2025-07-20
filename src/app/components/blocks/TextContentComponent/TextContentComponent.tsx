@@ -2,7 +2,7 @@ import { TextContent } from "@/types/blog";
 import React, { FC } from "react";
 import { PortableText } from "@portabletext/react";
 import styles from "./TextContentComponent.module.scss";
-import { RichText } from "../shared/RichText/RichText";
+import { RichText } from "../../shared/RichText/RichText";
 
 type Props = {
   block: TextContent;

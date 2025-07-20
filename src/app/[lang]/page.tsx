@@ -22,6 +22,7 @@ import Portfolio from "../components/sections/Portfolio/Portfolio";
 import WorkProcess from "../components/sections/WorkProcess/WorkProcess";
 import Reviews from "../components/sections/Reviews/Reviews";
 import Contacts from "../components/sections/Contacts/Contacts";
+import FaqHomepage from "../components/sections/FaqHomepage/FaqHomepage";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -93,6 +94,7 @@ export default async function Home({ params }: Props) {
         {/* <Portfolio /> */}
         <WorkProcess processSection={homePage?.processSection} />
         <Reviews reviews={homePage?.reviewsSection} />
+        <FaqHomepage faqSection={homePage?.faqSection} />
         <Contacts
           contacts={homePage?.contactsSection}
           lang={params.lang}

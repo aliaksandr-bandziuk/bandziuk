@@ -10,9 +10,46 @@
   width: 100%;
 }
 
+/* Контейнер иконки */
+.toggleIcon {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+/* Сам SVG подгоняем под currentColor */
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #fff;               /* или ваш цвет */
+  overflow: visible;
+}
+
+/* Общие настройки для обеих планок */
+.icon rect {
+  transform-origin: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Горизонтальная планка — ничего не меняем */
+.horizontal {
+  /* остаётся размером 16×2px — это “минус” */
+}
+
+/* Вертикальная планка — исчезает */
+.vertical {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+/* Состояние “развернуто” — вертикальная ──> scaleY(0) */
+.expanded .vertical {
+  opacity: 0;
+  transform: scaleY(0);
+}
+
 .item {
-  // background: #FFF;
-  border: 1px solid #bd8948;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
 
   button {
     border-radius: 0 !important;
@@ -23,11 +60,13 @@
   }
 }
 
+.itemExpanded {
+  border: 1px solid var(--corp-color);
+}
+
 .accordionIcon {
   transform: rotate(-45deg);
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
-  border-radius: 50%;
-  border: 1px solid #bd8948;
 }
 
 .accordionIcon.rotate {
@@ -41,7 +80,7 @@
   width: 100%;
   margin: 0;
   padding: 10px 20px;
-  font-size: clamp(1rem, 0.75rem + 1vw, 1.5rem);
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -65,14 +104,15 @@
 }
 
 .itemPanel {
-  padding: 10px 45px 30px 45px;
+  padding: 10px 45px 30px 20px;
   line-height: 150%;
   color: #fff;
-  width: 70%;
+  width: 100%;
 
   p {
     font-size: 18px;
     font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
   }
 
   @media screen and (max-width: 1024px){

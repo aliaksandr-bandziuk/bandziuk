@@ -228,7 +228,7 @@ export type AccordionBlock = {
   items: Array<{
     _key: string;
     question: string;
-    answer: any; // Убедитесь, что поле называется 'answer', если оно содержит данные
+    answer: any;
   }>;
 };
 

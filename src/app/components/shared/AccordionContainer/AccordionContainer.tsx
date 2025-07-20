@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { AccordionBlock } from "@/types/blog";
-import { AccordionBlockComponent } from "@/app/components/AccordionBlockComponent/AccordionBlockComponent";
+import { AccordionBlockComponent } from "@/app/components/blocks/AccordionBlockComponent/AccordionBlockComponent";
 
 type AccordionContainerProps = {
   block: AccordionBlock;

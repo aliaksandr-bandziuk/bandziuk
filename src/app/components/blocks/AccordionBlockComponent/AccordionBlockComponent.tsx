@@ -1,7 +1,7 @@
 import React from "react";
 import { AccordionBlock } from "@/types/blog";
-import Accordion from "../Accordion/Accordion";
-import AccordionItem from "../AccordionItem/AccordionItem";
+import Accordion from "../../shared/Accordion/Accordion";
+import AccordionItem from "../../shared/AccordionItem/AccordionItem";
 
 type AccordionBlockComponentProps = {
   block: AccordionBlock;

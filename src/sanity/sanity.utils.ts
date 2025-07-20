@@ -39,6 +39,7 @@ export async function getHomePageByLang(lang: string): Promise<Homepage> {
     problemsSection,
     processSection,
     reviewsSection,
+    faqSection,
     contactsSection,
     language,
     slug,

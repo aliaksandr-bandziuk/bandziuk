@@ -420,6 +420,33 @@ export default defineType({
       ],
     }),
     defineField({
+      name: "faqSection",
+      title: "FAQ Section",
+      type: "object",
+      fields: [
+        defineField({
+          name: "pretitle",
+          title: "Preitle",
+          type: "string",
+        }),
+        defineField({
+          name: "title",
+          title: "Title",
+          type: "string",
+        }),
+        defineField({
+          name: "subtitle",
+          title: "Subtitle",
+          type: "string",
+        }),
+        defineField({
+          name: "faq",
+          title: "FAQ",
+          type: "accordionBlock",
+        }),
+      ],
+    }),
+    defineField({
       name: "contactsSection",
       title: "Contacts Section",
       type: "object",

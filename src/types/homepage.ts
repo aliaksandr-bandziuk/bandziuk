@@ -1,4 +1,4 @@
-import { ReviewsFullBlock } from "./blog";
+import { AccordionBlock, ReviewsFullBlock } from "./blog";
 
 export type City = "Paphos" | "Limassol" | "Larnaca";
 export type PropertyType = "Apartment" | "Villa";
@@ -233,6 +233,17 @@ export type ContactsSection = {
 };
 // ====== End Contacts Section =====
 
+// ====== FAQ Section =====
+export type FaqSection = {
+  _key: string;
+  _type: "faqSection";
+  pretitle: string;
+  title: string;
+  subtitle: string;
+  faq: AccordionBlock;
+};
+// ====== End FAQ Section =====
+
 export type AboutBlock = {
   _key: string;
   _type: string;
@@ -352,6 +363,7 @@ export type Homepage = {
   problemsSection: ProblemsSection;
   processSection: ProcessSection;
   reviewsSection: ReviewsSection;
+  faqSection: FaqSection;
   contactsSection: ContactsSection;
   language: string;
   slug: {

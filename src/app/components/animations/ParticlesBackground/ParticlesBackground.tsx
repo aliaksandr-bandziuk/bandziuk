@@ -2,17 +2,25 @@
 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { useCallback, useId } from "react";
+import { useCallback, useEffect, useId, useState } from "react";
 import type { Engine } from "tsparticles-engine";
 
 const ParticlesBackground = () => {
   // генерирует стабильный id, одинаковый на сервере и клиенте
   const reactId = useId();
   const particlesId = `tsparticles-${reactId}`;
+  const [mounted, setMounted] = useState(false);
 
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadFull(engine);
   }, []);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => setMounted(true), 100);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  if (!mounted) return null;
 
   return (
     <Particles

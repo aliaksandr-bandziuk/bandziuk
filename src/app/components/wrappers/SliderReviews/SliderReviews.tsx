@@ -55,6 +55,7 @@ const SliderReviews: FC<Props> = ({ reviews }) => {
                       alt={review.image.alt ?? review.name}
                       width={100}
                       height={100}
+                      unoptimized
                       className={styles.authorImage}
                     />
                   ) : (

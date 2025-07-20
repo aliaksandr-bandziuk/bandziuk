@@ -69,6 +69,7 @@ const Reviews: FC<Props> = ({ reviews }) => {
               alt={title}
               width={134}
               height={114}
+              unoptimized
               className={styles.imageQuote}
             />
             <SliderReviews reviews={reviews.reviews} />

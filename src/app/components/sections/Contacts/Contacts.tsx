@@ -94,6 +94,7 @@ const Contacts: FC<Props> = ({ contacts, lang, formDocument }) => {
                             alt={link.icon.alt ?? link.label}
                             width={30}
                             height={30}
+                            unoptimized
                             className={styles.socialLinkImage}
                           />
                           <p className={styles.socialLinkLabel}>{link.label}</p>

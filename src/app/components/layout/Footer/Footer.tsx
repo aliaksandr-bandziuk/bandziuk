@@ -51,6 +51,7 @@ const Footer = async ({ params }: Props) => {
                   src={urlFor(logo).url()}
                   width={400}
                   height={400}
+                  unoptimized
                   className={styles.image}
                 />
               </div>

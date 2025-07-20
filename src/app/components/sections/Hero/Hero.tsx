@@ -56,15 +56,6 @@ const Hero: FC<Props> = ({ heroSection }) => {
               })}
             </div>
           </div>
-          {/* <div className={styles.heroSectionImage}>
-            <Image
-              src={urlFor(heroImage).url()}
-              alt={heroImage.alt || "Aliaksandr Bandziuk's Photo"}
-              width={500}
-              height={700}
-              className={styles.heroImage}
-            />
-          </div> */}
         </div>
       </div>
     </section>

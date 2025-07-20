@@ -30,7 +30,7 @@
 
   @media screen and (min-width: 768px){
     display: block;
-    width: 200px;
+    width: 150px;
     height: auto;
     object-fit: cover;
   }
@@ -174,6 +174,11 @@
   display: flex;
   align-items: center;
   gap: 15px;
+
+  button {
+    width: 9rem;
+    height: 2.5rem;
+  }
 }
 
 .phoneButton {

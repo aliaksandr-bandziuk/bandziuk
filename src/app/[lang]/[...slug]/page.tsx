@@ -148,9 +148,9 @@ const SinglePage = async ({ params }: Props) => {
   const generateSlug = (slugObj: any, language: string) => {
     const cur = slugObj?.[language]?.current;
     if (!cur) return "#";
-    return language === "de"
-      ? `https://cyprusvipestates.com/${cur}`
-      : `https://cyprusvipestates.com/${language}/${cur}`;
+    return language === "en"
+      ? `https://www.bandziuk.com/${cur}`
+      : `https://www.bandziuk.com/${language}/${cur}`;
   };
 
   const url = generateSlug({ [lang]: { current } }, lang);

@@ -14,10 +14,8 @@ import {
   FaPeopleRoof,
   FaHouseFlag,
 } from "react-icons/fa6";
-import PropertyPhotoGallery from "../PropertyPhotoGallery/PropertyPhotoGallery";
-import { ButtonModal } from "../ButtonModal/ButtonModal";
-import ResponsiveMedia from "../ResponsiveMedia/ResponsiveMedia";
 import { urlFor } from "@/sanity/sanity.client";
+import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
 
 type Props = {
   title: string;
@@ -38,12 +36,6 @@ const PropertyIntro: FC<Props> = ({
 }) => {
   return (
     <section className={styles.popertyIntro}>
-      <ResponsiveMedia
-        title={title}
-        previewImage={previewImage}
-        videoId={videoId}
-        videoPreview={videoPreview}
-      />
       <div className={`container ${styles.contentInner}`}>
         <div className={styles.overlay}></div>
         <div className={styles.content}>

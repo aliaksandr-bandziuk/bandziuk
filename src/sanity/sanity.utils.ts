@@ -204,7 +204,7 @@ export async function getSinglePageByLang(
         },
         _type != "textContent" &&
         _type != "contactFullBlock" &&
-        _type != "formMinimalBlock" && => @
+        _type != "formMinimalBlock" => @
       },
       "parentPage": parentPage->{
         _id,

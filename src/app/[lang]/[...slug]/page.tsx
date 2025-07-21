@@ -224,32 +224,6 @@ const SinglePage = async ({ params }: Props) => {
       //       block={block as ImageBulletsBlock}
       //     />
       //   );
-      // case "projectsSectionBlock": {
-      //   const b = block as ProjectsSectionBlock;
-      //   // Если поле projects отсутствует или null — считаем его пустым массивом
-      //   const manual = Array.isArray(b.projects) ? b.projects : [];
-      //   const projectsToShow =
-      //     manual.length > 0
-      //       ? manual
-      //       : Array.isArray(b.filteredProjects)
-      //         ? b.filteredProjects
-      //         : [];
-
-      //   return (
-      //     <ProjectsSectionBlockComponent
-      //       key={b._key}
-      //       block={{
-      //         _key: b._key,
-      //         _type: b._type,
-      //         title: b.title,
-      //         projects: projectsToShow,
-      //         marginTop: b.marginTop,
-      //         marginBottom: b.marginBottom,
-      //       }}
-      //       lang={lang}
-      //     />
-      //   );
-      // }
       case "faqBlock":
         return (
           <div className="container" key={block._key}>

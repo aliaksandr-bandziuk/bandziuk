@@ -26,11 +26,13 @@ import category from "./category";
 import blogPage from "./blogPage";
 import tableBlock from "./tableBlock";
 import portfolio from "./portfolio";
+import singlepage from "./singlepage";
 
 export const schemaTypes = [
   header,
   homepage,
   portfolio,
+  singlepage,
   blog,
   blogPage,
   category,

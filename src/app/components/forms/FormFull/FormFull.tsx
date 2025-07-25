@@ -178,6 +178,16 @@ const FormFull: FC<ContactFormProps> = ({
           <Form>
             {/* Поле для имени */}
             <div className={styles.inputWrapper}>
+              <svg
+                className={styles.icon}
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="rgb(255, 162, 96)"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z" />
+              </svg>
               <label
                 // htmlFor="name"
                 htmlFor={`${uid}-name`}
@@ -212,7 +222,7 @@ const FormFull: FC<ContactFormProps> = ({
                 // id="phone"
                 id={`${uid}-phone`}
                 name="phone"
-                className={`${styles.inputField}`}
+                className={`${styles.phoneInput}`}
                 onBlur={handleBlur}
                 onChange={(value) => setFieldValue("phone", value)}
               />
@@ -224,6 +234,16 @@ const FormFull: FC<ContactFormProps> = ({
             </div>
 
             <div className={styles.inputWrapper}>
+              <svg
+                className={styles.icon}
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="rgb(255, 162, 96)"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 13.5l-11-7.5v15h22v-15l-11 7.5zm0-2.5l11-7h-22l11 7z" />
+              </svg>
               <label
                 // htmlFor="email"
                 htmlFor={`${uid}-email`}
@@ -247,6 +267,16 @@ const FormFull: FC<ContactFormProps> = ({
             </div>
 
             <div className={styles.inputWrapper}>
+              <svg
+                className={styles.iconMessage}
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="rgb(255, 162, 96)"
+                viewBox="0 0 24 24"
+              >
+                <path d="M2 2v20l4-4h16v-16h-20zm18 12h-12v-2h12v2zm0-4h-12v-2h12v2z" />
+              </svg>
               <label
                 // htmlFor="message"
                 htmlFor={`${uid}-message`}
@@ -287,39 +317,26 @@ const FormFull: FC<ContactFormProps> = ({
               <label htmlFor={`${uid}-agreedToPolicy`}>
                 {lang === "ru"
                   ? "Я согласен с "
-                  : lang === "de"
-                    ? "Ich habe die Bedingungen der "
-                    : lang === "pl"
-                      ? "Zgadzam się z "
-                      : "I agree with the terms of the "}
+                  : lang === "pl"
+                    ? "Zgadzam się z "
+                    : "I agree with the terms of the "}
                 <Link
                   className={styles.policyLink}
                   href={
                     lang === "ru"
-                      ? "/ru/politika-privatnosti"
-                      : lang === "de"
-                        ? "/datenschutzrichtlinie"
-                        : lang === "pl"
-                          ? "/pl/polityka-prywatnosci"
-                          : "/en/privacy-policy"
+                      ? "/ru/politika-konfidencialnosti"
+                      : lang === "pl"
+                        ? "/pl/polityka-prywatnosci"
+                        : "/privacy-policy"
                   }
                   target="_blank"
                 >
                   {lang === "ru"
-                    ? "Пользовательским соглашением"
-                    : lang === "de"
-                      ? "Benutzervereinbarung"
-                      : lang === "pl"
-                        ? "Umowa użytkownika"
-                        : "User agreement"}
-                </Link>
-                {lang === "ru"
-                  ? " прочитал и принимаю их"
-                  : lang === "de"
-                    ? " gelesen und akzeptiere sie"
+                    ? "Политикой конфиденциальности"
                     : lang === "pl"
-                      ? " przeczytałem i akceptuję je"
-                      : " read and accept them"}
+                      ? "Polityką prywatności"
+                      : "Privacy Policy"}
+                </Link>
               </label>
             </div>
 

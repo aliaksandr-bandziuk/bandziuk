@@ -84,6 +84,7 @@ input[type="number"]::-webkit-outer-spin-button {
   box-sizing: border-box;
   font-size: transparent;
   color: #fff;
+  padding-left: 0;
 }
 
 .PhoneInputInput:-webkit-autofill,
@@ -104,35 +105,35 @@ input[type="number"]::-webkit-outer-spin-button {
   outline: none;
 }
 
-.PhoneInputCountry {
+/* .PhoneInputCountry {
   left: -5px;
 
   @media screen and (min-width: 768px) {
-    left: -20px;
+    left: 0;
   }
-}
+} */
 
 .PhoneInputCountrySelectArrow {
   display: none !important;
 }
 
 .PhoneInputInternationalIconPhone {
-  stroke: var(--corp-color); /* Цвет линии */
-  fill: var(--corp-color); /* Цвет заливки */
+  stroke: var(--corp-color) !important; /* Цвет линии */
+  fill: var(--corp-color) !important; /* Цвет заливки */
   stroke-width: 3px; /* Толщина линии */
   width: 32px; /* Ширина значка */
   height: 32px; /* Высота значка */
 }
 
 .PhoneInputInternationalIconGlobe {
-  stroke: var(--corp-color); /* Цвет линии */
+  stroke: var(--corp-color) !important; /* Цвет линии */
   stroke-width: 3px; /* Толщина линии */
   width: 32px; /* Ширина значка */
   height: 32px; /* Высота значка */
 }
 
 .PhoneInputCountryIcon {
-  margin-right: 8px; /* Отступ справа */
+  margin-right: 4px;
 }
 
 textarea {

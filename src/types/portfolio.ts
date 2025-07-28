@@ -14,13 +14,7 @@ export type Technology = {
   _id: string;
   title: string;
   slug: { [lang: string]: { current: string } };
-  logo?: {
-    alt?: string;
-    asset: {
-      _ref: string;
-      _type: "reference";
-    };
-  };
+  svg: string;
 };
 
 export type ProjectCategory = {

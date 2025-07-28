@@ -315,15 +315,7 @@ export async function getPortfolioByLang(
         _id,
         title,
         slug,
-        logo {
-          alt,
-          asset->{
-            _ref,
-            _type,
-            url,
-            metadata { dimensions { width, height } }
-          }
-        }
+        svg,
       },
       publishedAt,
       language,
@@ -355,13 +347,7 @@ export async function getAllPortfoliosByLang(
         _id,
         title,
         slug,
-        logo {
-          alt,
-          asset->{
-            _ref,
-            _type
-          }
-        }
+        svg,
       },
       keyFeatures[] {
         _key,

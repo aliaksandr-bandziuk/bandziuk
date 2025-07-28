@@ -12,17 +12,14 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: "logo",
-      title: "Logo",
-      type: "image",
-      options: { hotspot: true },
-      fields: [
-        {
-          name: "alt",
-          title: "Alt Text",
-          type: "string",
-        },
-      ],
+      name: "svg",
+      title: "SVG Icon (inline)",
+      type: "code",
+      options: {
+        language: "xml",
+        theme: "github", // или 'monokai', 'dracula', и т.п.
+      },
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: "slug",

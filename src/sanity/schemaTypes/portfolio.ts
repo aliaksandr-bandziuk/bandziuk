@@ -1,7 +1,7 @@
 import { defineField } from "sanity";
 
 export const projectCategories = [
-  { title: "Full Website Development", value: "full-website" },
+  { title: "Website Development", value: "full-website" },
   { title: "Landing Pages", value: "landing" },
   { title: "CMS & Integrations", value: "cms" },
   { title: "SEO & Traffic Growth", value: "seo" },
@@ -9,11 +9,61 @@ export const projectCategories = [
   { title: "Business Tools & Automation", value: "automation" },
 ];
 
+export const technologiesUsed = [
+  { title: "Next.js", value: "nextjs" },
+  { title: "React", value: "react" },
+  { title: "TypeScript", value: "typescript" },
+  { title: "Sanity.io", value: "sanity" },
+  { title: "Tailwind CSS", value: "tailwind" },
+  { title: "GraphQL", value: "graphql" },
+  { title: "WordPress", value: "wordpress" },
+  { title: "PHP", value: "php" },
+  { title: "JavaScript", value: "javascript" },
+  { title: "SEO", value: "seo" },
+  { title: "SEO Strategy", value: "seo-strategy" },
+  { title: "Content Marketing", value: "content-marketing" },
+  { title: "Google Analytics", value: "google-analytics" },
+  { title: "Google Search Console", value: "google-search-console" },
+  { title: "Google Tag Manager", value: "google-tag-manager" },
+  { title: "Ahrefs", value: "ahrefs" },
+  { title: "SEMrush", value: "semrush" },
+  { title: "Figma", value: "figma" },
+  { title: "Photoshop", value: "photoshop" },
+  { title: "Contentful", value: "contentful" },
+  { title: "Shopify", value: "shopify" },
+  { title: "WooCommerce", value: "woocommerce" },
+  { title: "Magento", value: "magento" },
+  { title: "eCommerce", value: "ecommerce" },
+  { title: "Payment Gateways", value: "payment-gateways" },
+  { title: "API Integrations", value: "api-integrations" },
+  { title: "Web Performance", value: "web-performance" },
+  { title: "Accessibility", value: "accessibility" },
+  { title: "Hosting & Deployment", value: "hosting-deployment" },
+  { title: "Version Control (Git)", value: "git" },
+  { title: "UI/UX Design", value: "ui-ux-design" },
+  { title: "Content Strategy", value: "content-strategy" },
+  { title: "Email Marketing", value: "email-marketing" },
+];
+
 const portfolio = {
   name: "portfolio",
   title: "Portfolio",
   type: "document",
   fields: [
+    defineField({
+      name: "title",
+      title: "Portfolio Title",
+      type: "string",
+      validation: (Rule) =>
+        Rule.required()
+          .max(200)
+          .error("Name should be less than 200 characters"),
+    }),
+    defineField({
+      name: "slug",
+      title: "Slug",
+      type: "localizedSlug",
+    }),
     defineField({
       name: "seo",
       title: "SEO",
@@ -42,23 +92,9 @@ const portfolio = {
       ],
     }),
     defineField({
-      name: "title",
-      title: "Portfolio Title",
-      type: "string",
-      validation: (Rule) =>
-        Rule.required()
-          .max(200)
-          .error("Name should be less than 200 characters"),
-    }),
-    defineField({
       name: "fullTitle",
       title: "Full Portfolio Title",
       type: "string",
-    }),
-    defineField({
-      name: "slug",
-      title: "Slug",
-      type: "localizedSlug",
     }),
     defineField({
       name: "excerpt",
@@ -69,6 +105,67 @@ const portfolio = {
         Rule.required()
           .max(200)
           .error("Excerpt should be less than 200 characters"),
+    }),
+    defineField({
+      name: "keyFeatures",
+      title: "Key Features",
+      type: "array",
+      of: [
+        {
+          type: "object",
+          fields: [
+            { name: "clientName", title: "Client Name", type: "string" },
+            { name: "industry", title: "Industry", type: "string" },
+            { name: "service", title: "Service", type: "string" },
+            {
+              name: "category",
+              title: "Project Categories",
+              type: "array",
+              of: [{ type: "string" }],
+              options: {
+                list: projectCategories,
+                layout: "tags",
+              },
+            },
+            {
+              name: "website",
+              title: "Website",
+              type: "object",
+              fields: [
+                {
+                  name: "type",
+                  title: "Type",
+                  type: "string",
+                  options: {
+                    list: [
+                      { title: "Link", value: "link" },
+                      { title: "Text", value: "text" },
+                    ],
+                  },
+                },
+                {
+                  name: "linkLabel",
+                  title: "Link Label",
+                  type: "string",
+                  hidden: ({ parent }) => parent?.type !== "link",
+                },
+                {
+                  name: "linkDestination",
+                  title: "Link Destination",
+                  type: "url",
+                  hidden: ({ parent }) => parent?.type !== "link",
+                },
+                {
+                  name: "text",
+                  title: "Text",
+                  type: "string",
+                  hidden: ({ parent }) => parent?.type !== "text",
+                },
+              ],
+            },
+          ],
+        },
+      ],
     }),
     defineField({
       name: "previewImage",
@@ -86,56 +183,6 @@ const portfolio = {
       ],
     }),
     defineField({
-      name: "screenShots",
-      title: "Screenshots",
-      type: "array",
-      of: [
-        {
-          type: "image",
-          fields: [
-            {
-              name: "alt",
-              title: "Alt Text",
-              type: "string",
-            },
-          ],
-        },
-      ],
-      validation: (Rule) => Rule.required().min(3).error("Minimum 3 images"),
-    }),
-    defineField({
-      name: "keyFeatures",
-      title: "Key features",
-      type: "object",
-      fields: [
-        {
-          name: "clientName",
-          title: "Client Name",
-          type: "string",
-        },
-        {
-          name: "category",
-          title: "Project Categories",
-          type: "array",
-          of: [{ type: "string" }],
-          options: {
-            list: projectCategories,
-            layout: "tags",
-          },
-        },
-        {
-          name: "industry",
-          title: "Industry",
-          type: "string",
-        },
-        {
-          name: "website",
-          title: "Website",
-          type: "string",
-        },
-      ],
-    }),
-    defineField({
       name: "challenges",
       title: "Challenges",
       type: "object",
@@ -146,8 +193,8 @@ const portfolio = {
           type: "contentBlock",
         },
         {
-          name: "solution",
-          title: "Solution",
+          name: "task",
+          title: "Task",
           type: "contentBlock",
         },
         {
@@ -156,15 +203,52 @@ const portfolio = {
           type: "contentBlock",
         },
         {
-          name: "technologies",
-          title: "Technologies Used",
-          type: "array",
-          of: [{ type: "string" }],
-          options: {
-            layout: "tags",
-          },
+          name: "workDone",
+          title: "Work Done",
+          type: "contentBlock",
         },
       ],
+    }),
+    defineField({
+      name: "screenshots",
+      title: "Screenshots",
+      type: "array",
+      of: [
+        {
+          type: "object",
+          fields: [
+            {
+              name: "image",
+              title: "Image",
+              type: "image",
+              options: { hotspot: true },
+              fields: [{ name: "alt", title: "Alt Text", type: "string" }],
+            },
+            {
+              name: "caption",
+              title: "Caption",
+              type: "contentBlock",
+              description: "Optional caption",
+            },
+          ],
+        },
+      ],
+    }),
+    defineField({
+      name: "mainContent",
+      title: "Main Content",
+      type: "array",
+      of: [{ type: "contentBlock" }],
+    }),
+    defineField({
+      name: "technologiesUsed",
+      title: "Technologies Used",
+      type: "array",
+      of: [{ type: "string" }],
+      options: {
+        list: technologiesUsed,
+        layout: "tags",
+      },
     }),
     defineField({
       name: "publishedAt",

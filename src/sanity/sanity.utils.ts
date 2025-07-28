@@ -12,6 +12,7 @@ import { ProjectsPage } from "@/types/projectsPage";
 import { Developer } from "@/types/developer";
 import { Blog } from "@/types/blog";
 import { BlogPage } from "@/types/blogPage";
+import { Portfolio } from "@/types/portfolio";
 
 export async function getHeaderByLang(lang: string): Promise<Header> {
   const headerQuery = groq`*[_type == "header" && language == $lang][0] {
@@ -275,6 +276,79 @@ export async function getAllPathsForLang(lang: string): Promise<string[][]> {
   }
   return Object.values(map);
 }
+
+// === Portfolio ===
+export async function getPortfolioByLang(
+  lang: string,
+  slug: string
+): Promise<Portfolio | null> {
+  const query = groq`
+    *[
+      _type == "portfolio" &&
+      language == $lang &&
+      slug[$lang].current == $slug
+    ][0] {
+      _id,
+      _type,
+      title,
+      fullTitle,
+      excerpt,
+      seo,
+      slug,
+      previewImage,
+      keyFeatures,
+      challenges,
+      screenshots,
+      mainContent,
+      technologiesUsed,
+      publishedAt,
+      language,
+      "_translations": *[
+        _type == "translation.metadata" && references(^._id)
+      ].translations[].value->{
+        slug
+      }
+    }
+  `;
+
+  return await client.fetch(query, { lang, slug });
+}
+// === Portfolio ===
+
+// === Portfolio List ===
+export async function getAllPortfoliosByLang(
+  lang: string
+): Promise<Portfolio[]> {
+  const query = groq`
+    *[_type == "portfolio" && language == $lang] | order(publishedAt desc) {
+      _id,
+      _type,
+      title,
+      excerpt,
+      slug,
+      previewImage {
+        alt,
+        asset->{
+          _ref,
+          _type,
+          url,
+          metadata { dimensions { width, height } }
+        }
+      },
+      technologiesUsed,
+      keyFeatures,
+      publishedAt,
+      "_translations": *[
+        _type == "translation.metadata" && references(^._id)
+      ].translations[].value->{
+        slug
+      }
+    }
+  `;
+
+  return await client.fetch(query, { lang });
+}
+// === Portfolio List ===
 
 // === Blog Post ===
 export async function getBlogPostByLang(

@@ -14,11 +14,8 @@ export default defineType({
     defineField({
       name: "svg",
       title: "SVG Icon (inline)",
-      type: "code",
-      options: {
-        language: "xml",
-        theme: "github", // или 'monokai', 'dracula', и т.п.
-      },
+      type: "text",
+      rows: 8,
       validation: (Rule) => Rule.required(),
     }),
     defineField({

@@ -10,15 +10,11 @@ export const projectCategories = [
 ];
 
 export const technologiesUsed = [
-  { title: "Next.js", value: "nextjs" },
   { title: "React", value: "react" },
   { title: "TypeScript", value: "typescript" },
   { title: "Sanity.io", value: "sanity" },
   { title: "Tailwind CSS", value: "tailwind" },
   { title: "GraphQL", value: "graphql" },
-  { title: "WordPress", value: "wordpress" },
-  { title: "PHP", value: "php" },
-  { title: "JavaScript", value: "javascript" },
   { title: "SEO", value: "seo" },
   { title: "SEO Strategy", value: "seo-strategy" },
   { title: "Content Marketing", value: "content-marketing" },
@@ -27,8 +23,6 @@ export const technologiesUsed = [
   { title: "Google Tag Manager", value: "google-tag-manager" },
   { title: "Ahrefs", value: "ahrefs" },
   { title: "SEMrush", value: "semrush" },
-  { title: "Figma", value: "figma" },
-  { title: "Photoshop", value: "photoshop" },
   { title: "Contentful", value: "contentful" },
   { title: "Shopify", value: "shopify" },
   { title: "WooCommerce", value: "woocommerce" },
@@ -120,11 +114,15 @@ const portfolio = {
             {
               name: "category",
               title: "Project Categories",
-              type: "array",
-              of: [{ type: "string" }],
+              type: "reference",
+              to: [{ type: "projectCategory" }],
               options: {
-                list: projectCategories,
-                layout: "tags",
+                filter: ({ document }) => {
+                  return {
+                    filter: "language == $language",
+                    params: { language: document.language },
+                  };
+                },
               },
             },
             {
@@ -243,11 +241,15 @@ const portfolio = {
     defineField({
       name: "technologiesUsed",
       title: "Technologies Used",
-      type: "array",
-      of: [{ type: "string" }],
+      type: "reference",
+      to: [{ type: "technology" }],
       options: {
-        list: technologiesUsed,
-        layout: "tags",
+        filter: ({ document }) => {
+          return {
+            filter: "language == $language",
+            params: { language: document.language },
+          };
+        },
       },
     }),
     defineField({

@@ -10,48 +10,24 @@ export type ImageAlt = {
   };
 };
 
-export type ProjectCategory =
-  | "full-website"
-  | "landing"
-  | "cms"
-  | "seo"
-  | "performance"
-  | "automation";
+export type Technology = {
+  _id: string;
+  title: string;
+  slug: { [lang: string]: { current: string } };
+  logo?: {
+    alt?: string;
+    asset: {
+      _ref: string;
+      _type: "reference";
+    };
+  };
+};
 
-export type TechnologiesUsed =
-  | "nextjs"
-  | "react"
-  | "typescript"
-  | "sanity"
-  | "tailwind"
-  | "graphql"
-  | "wordpress"
-  | "php"
-  | "javascript"
-  | "seo"
-  | "seo-strategy"
-  | "content-marketing"
-  | "google-analytics"
-  | "google-search-console"
-  | "google-tag-manager"
-  | "ahrefs"
-  | "semrush"
-  | "figma"
-  | "photoshop"
-  | "contentful"
-  | "shopify"
-  | "woocommerce"
-  | "magento"
-  | "ecommerce"
-  | "payment-gateways"
-  | "api-integrations"
-  | "web-performance"
-  | "accessibility"
-  | "hosting-deployment"
-  | "git"
-  | "ui-ux-design"
-  | "content-strategy"
-  | "email-marketing";
+export type ProjectCategory = {
+  _id: string;
+  title: string;
+  slug: { [lang: string]: { current: string } };
+};
 
 export type Seo = {
   metaTitle: string;
@@ -114,7 +90,7 @@ export type Portfolio = {
   challenges: Challenges;
   screenshots: Screenshot[];
   mainContent: ContentBlock[];
-  technologiesUsed: TechnologiesUsed[];
+  technologiesUsed: Technology[];
   publishedAt: string;
   language: string;
   slug: {

@@ -296,11 +296,35 @@ export async function getPortfolioByLang(
       seo,
       slug,
       previewImage,
-      keyFeatures,
+      keyFeatures[] {
+        _key,
+        clientName,
+        industry,
+        service,
+        category[]->{
+          _id,
+          title,
+          slug
+        },
+        website
+      },
       challenges,
       screenshots,
       mainContent,
-      technologiesUsed,
+      technologiesUsed[]->{
+        _id,
+        title,
+        slug,
+        logo {
+          alt,
+          asset->{
+            _ref,
+            _type,
+            url,
+            metadata { dimensions { width, height } }
+          }
+        }
+      },
       publishedAt,
       language,
       "_translations": *[
@@ -326,17 +350,31 @@ export async function getAllPortfoliosByLang(
       title,
       excerpt,
       slug,
-      previewImage {
-        alt,
-        asset->{
-          _ref,
-          _type,
-          url,
-          metadata { dimensions { width, height } }
+      previewImage,
+      technologiesUsed[]->{
+        _id,
+        title,
+        slug,
+        logo {
+          alt,
+          asset->{
+            _ref,
+            _type
+          }
         }
       },
-      technologiesUsed,
-      keyFeatures,
+      keyFeatures[] {
+        _key,
+        clientName,
+        industry,
+        service,
+        category[]->{
+          _id,
+          title,
+          slug
+        },
+        website
+      },
       publishedAt,
       "_translations": *[
         _type == "translation.metadata" && references(^._id)

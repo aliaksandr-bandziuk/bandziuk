@@ -14,6 +14,7 @@ import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
 import PortfolioIntro from "@/app/components/sections/PortfolioIntro/PortfolioIntro";
 import BreadcrumbsPortfolio from "@/app/components/layout/BreadcrumbsPortfolio/BreadcrumbsPortfolio";
 import PortfolioChallenges from "@/app/components/sections/PortfolioChallenges/PortfolioChallenges";
+import PortfolioScreenshots from "@/app/components/sections/PortfolioScreenshots/PortfolioScreenshots";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -109,6 +110,10 @@ const PortfolioPage = async ({ params }: Props) => {
         <PortfolioChallenges
           lang={params.lang}
           challenges={portfolio.challenges}
+        />
+        <PortfolioScreenshots
+          lang={params.lang}
+          screenshots={portfolio.screenshots}
         />
       </main>
 

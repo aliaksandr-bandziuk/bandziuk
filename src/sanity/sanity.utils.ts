@@ -307,7 +307,26 @@ export async function getPortfolioByLang(
         website
       },
       challenges,
-      screenshots,
+      screenshots[]{
+        _key,
+        _type,
+        title,
+        caption,
+        image{
+          alt,
+          asset->{
+            _id,
+            url,
+            metadata{
+              dimensions{
+                width,
+                height,
+                aspectRatio
+              }
+            }
+          }
+        }
+      },
       mainContent,
       technologiesUsed[]->{
         _id,

@@ -10,6 +10,23 @@ export type ImageAlt = {
   };
 };
 
+export type ImageWithMetadata = {
+  _key?: string;
+  _type: "image";
+  alt?: string;
+  asset: {
+    _id: string;
+    url: string;
+    metadata: {
+      dimensions: {
+        width: number;
+        height: number;
+        aspectRatio: number;
+      };
+    };
+  };
+};
+
 export type Technology = {
   _id: string;
   title: string;
@@ -73,7 +90,8 @@ export type Challenges = {
 export type Screenshot = {
   _key: string;
   _type: "screenshot";
-  image: ImageAlt;
+  title: string;
+  image: ImageWithMetadata;
   caption?: ContentBlock;
 };
 

@@ -11,7 +11,7 @@ import { FormStandardDocument } from "@/types/formStandardDocument";
 import Header from "@/app/components/layout/Header/Header";
 import Footer from "@/app/components/layout/Footer/Footer";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
-import PortfolioIntro from "@/app/components/layout/PortfolioIntro/PortfolioIntro";
+import PortfolioIntro from "@/app/components/sections/PortfolioIntro/PortfolioIntro";
 import BreadcrumbsPortfolio from "@/app/components/layout/BreadcrumbsPortfolio/BreadcrumbsPortfolio";
 
 type Props = {

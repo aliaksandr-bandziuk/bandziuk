@@ -3,18 +3,11 @@ import styles from "./PortfolioChallenges.module.scss";
 import { Challenges } from "@/types/portfolio";
 import { PortableText } from "next-sanity";
 import { RichText } from "../../shared/RichText/RichText";
-import { Bitter } from "next/font/google";
 
 type Props = {
   lang: string;
   challenges: Challenges;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
   return (
@@ -22,7 +15,7 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
       <div className="container">
         <div className={styles.challengesList}>
           <div className={styles.challengeItem}>
-            <h3 className={`${styles.challengeTitle} ${bitter.className}`}>
+            <h3 className={styles.challengeTitle}>
               {lang === "en"
                 ? "Problem"
                 : lang === "pl"
@@ -36,7 +29,7 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
             </div>
           </div>
           <div className={styles.challengeItem}>
-            <h3 className={`${styles.challengeTitle} ${bitter.className}`}>
+            <h3 className={styles.challengeTitle}>
               {lang === "en"
                 ? "Task"
                 : lang === "pl"
@@ -50,7 +43,7 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
             </div>
           </div>
           <div className={styles.challengeItem}>
-            <h3 className={`${styles.challengeTitle} ${bitter.className}`}>
+            <h3 className={styles.challengeTitle}>
               {lang === "en"
                 ? "Results"
                 : lang === "pl"
@@ -64,7 +57,7 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
             </div>
           </div>
           <div className={styles.challengeItem}>
-            <h3 className={`${styles.challengeTitle} ${bitter.className}`}>
+            <h3 className={styles.challengeTitle}>
               {lang === "en"
                 ? "Completed Work"
                 : lang === "pl"

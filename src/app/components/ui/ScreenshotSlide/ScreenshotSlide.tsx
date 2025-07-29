@@ -5,13 +5,6 @@ import { RichText } from "../../shared/RichText/RichText";
 import { PortableText } from "next-sanity";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   screenshot: Screenshot;
@@ -23,9 +16,7 @@ const ScreenshotSlide: FC<Props> = ({ screenshot }) => {
       <div className={styles.slideWrapper}>
         <div className={styles.slideText}>
           {screenshot.title && (
-            <h3 className={`${bitter.className} ${styles.slideTitle}`}>
-              {screenshot.title}
-            </h3>
+            <h3 className={styles.slideTitle}>{screenshot.title}</h3>
           )}
           <PortableText value={screenshot.caption} components={RichText} />
         </div>

@@ -9,36 +9,6 @@ export const projectCategories = [
   { title: "Business Tools & Automation", value: "automation" },
 ];
 
-export const technologiesUsed = [
-  { title: "React", value: "react" },
-  { title: "TypeScript", value: "typescript" },
-  { title: "Sanity.io", value: "sanity" },
-  { title: "Tailwind CSS", value: "tailwind" },
-  { title: "GraphQL", value: "graphql" },
-  { title: "SEO", value: "seo" },
-  { title: "SEO Strategy", value: "seo-strategy" },
-  { title: "Content Marketing", value: "content-marketing" },
-  { title: "Google Analytics", value: "google-analytics" },
-  { title: "Google Search Console", value: "google-search-console" },
-  { title: "Google Tag Manager", value: "google-tag-manager" },
-  { title: "Ahrefs", value: "ahrefs" },
-  { title: "SEMrush", value: "semrush" },
-  { title: "Contentful", value: "contentful" },
-  { title: "Shopify", value: "shopify" },
-  { title: "WooCommerce", value: "woocommerce" },
-  { title: "Magento", value: "magento" },
-  { title: "eCommerce", value: "ecommerce" },
-  { title: "Payment Gateways", value: "payment-gateways" },
-  { title: "API Integrations", value: "api-integrations" },
-  { title: "Web Performance", value: "web-performance" },
-  { title: "Accessibility", value: "accessibility" },
-  { title: "Hosting & Deployment", value: "hosting-deployment" },
-  { title: "Version Control (Git)", value: "git" },
-  { title: "UI/UX Design", value: "ui-ux-design" },
-  { title: "Content Strategy", value: "content-strategy" },
-  { title: "Email Marketing", value: "email-marketing" },
-];
-
 const portfolio = {
   name: "portfolio",
   title: "Portfolio",
@@ -103,63 +73,58 @@ const portfolio = {
     defineField({
       name: "keyFeatures",
       title: "Key Features",
-      type: "array",
-      of: [
+      type: "object",
+      fields: [
+        { name: "clientName", title: "Client Name", type: "string" },
+        { name: "industry", title: "Industry", type: "string" },
+        { name: "service", title: "Service", type: "string" },
         {
+          name: "category",
+          title: "Project Categories",
+          type: "reference",
+          to: [{ type: "projectCategory" }],
+          options: {
+            filter: ({ document }) => {
+              return {
+                filter: "language == $language",
+                params: { language: document.language },
+              };
+            },
+          },
+        },
+        {
+          name: "website",
+          title: "Website",
           type: "object",
           fields: [
-            { name: "clientName", title: "Client Name", type: "string" },
-            { name: "industry", title: "Industry", type: "string" },
-            { name: "service", title: "Service", type: "string" },
             {
-              name: "category",
-              title: "Project Categories",
-              type: "reference",
-              to: [{ type: "projectCategory" }],
+              name: "type",
+              title: "Type",
+              type: "string",
               options: {
-                filter: ({ document }) => {
-                  return {
-                    filter: "language == $language",
-                    params: { language: document.language },
-                  };
-                },
+                list: [
+                  { title: "Link", value: "link" },
+                  { title: "Text", value: "text" },
+                ],
               },
             },
             {
-              name: "website",
-              title: "Website",
-              type: "object",
-              fields: [
-                {
-                  name: "type",
-                  title: "Type",
-                  type: "string",
-                  options: {
-                    list: [
-                      { title: "Link", value: "link" },
-                      { title: "Text", value: "text" },
-                    ],
-                  },
-                },
-                {
-                  name: "linkLabel",
-                  title: "Link Label",
-                  type: "string",
-                  hidden: ({ parent }) => parent?.type !== "link",
-                },
-                {
-                  name: "linkDestination",
-                  title: "Link Destination",
-                  type: "url",
-                  hidden: ({ parent }) => parent?.type !== "link",
-                },
-                {
-                  name: "text",
-                  title: "Text",
-                  type: "string",
-                  hidden: ({ parent }) => parent?.type !== "text",
-                },
-              ],
+              name: "linkLabel",
+              title: "Link Label",
+              type: "string",
+              hidden: ({ parent }) => parent?.type !== "link",
+            },
+            {
+              name: "linkDestination",
+              title: "Link Destination",
+              type: "url",
+              hidden: ({ parent }) => parent?.type !== "link",
+            },
+            {
+              name: "text",
+              title: "Text",
+              type: "string",
+              hidden: ({ parent }) => parent?.type !== "text",
             },
           ],
         },
@@ -232,26 +197,55 @@ const portfolio = {
         },
       ],
     }),
+    // defineField({
+    //   name: "contentBlocks",
+    //   title: "Main Content",
+    //   type: "array",
+    //   description:
+    //     "Блоки контента, которые будут отображаться в статье. Это основное содержание статьи",
+    //   of: [
+    //     { type: "textContent" },
+    //     { type: "accordionBlock" },
+    //     { type: "contactFullBlock" },
+    //     { type: "faqBlock" },
+    //     { type: "teamBlock" },
+    //     { type: "locationBlock" },
+    //     { type: "imageFullBlock" },
+    //     { type: "buttonBlock" },
+    //     { type: "imageBulletsBlock" },
+    //     { type: "benefitsBlock" },
+    //     { type: "reviewsFullBlock" },
+    //     { type: "formMinimalBlock" },
+    //     { type: "howWeWorkBlock" },
+    //     { type: "bulletsBlock" },
+    //     { type: "projectsSectionBlock" },
+    //     { type: "tableBlock" },
+    //   ],
+    // }),
     defineField({
       name: "mainContent",
       title: "Main Content",
       type: "array",
-      of: [{ type: "contentBlock" }],
+      of: [{ type: "textContent" }],
     }),
     defineField({
       name: "technologiesUsed",
       title: "Technologies Used",
-      type: "reference",
-      to: [{ type: "technology" }],
-      options: {
-        filter: ({ document }) => {
-          return {
-            filter: "language == $language",
-            params: { language: document.language },
-          };
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "technology" }],
+          options: {
+            filter: ({ document }: { document: any }) => ({
+              filter: "language == $language",
+              params: { language: document.language },
+            }),
+          },
         },
-      },
+      ],
     }),
+
     defineField({
       name: "publishedAt",
       title: "Published At",

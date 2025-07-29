@@ -46,13 +46,14 @@ const SliderScreenshots: FC<Props> = ({ screenshots }) => {
         speed={2000}
         spaceBetween={20}
         grabCursor={true}
+        resistanceRatio={0}
+        edgeSwipeDetection={true}
         slidesPerView={1.3}
         breakpoints={{
           980: {
             slidesPerView: 2.3,
           },
         }}
-        loop={true}
       >
         {screenshots.map((screenshot, i) => (
           <SwiperSlide key={screenshot._key} className={styles.slide}>

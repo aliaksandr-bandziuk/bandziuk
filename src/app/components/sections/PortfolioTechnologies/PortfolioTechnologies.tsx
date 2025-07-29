@@ -29,7 +29,7 @@ const PortfolioTechnologies: FC<Props> = ({ lang, technologies }) => {
         </h2>
         <div className={styles.technologiesList}>
           {technologies.map((tech) => (
-            <div key={tech._key} className={styles.technologyItem}>
+            <div key={tech._id} className={styles.technologyItem}>
               <div
                 className={styles.technologyIcon}
                 dangerouslySetInnerHTML={{ __html: tech.svg }}

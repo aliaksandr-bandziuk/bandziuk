@@ -95,13 +95,8 @@ export default async function Home({ params }: Props) {
         <WorkProcess processSection={homePage?.processSection} />
         <Reviews reviews={homePage?.reviewsSection} />
         <FaqHomepage faqSection={homePage?.faqSection} />
-        <Contacts
-          contacts={homePage?.contactsSection}
-          lang={params.lang}
-          formDocument={formDocument}
-        />
       </main>
-      <Footer params={params} />
+      <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={params.lang} formDocument={formDocument} />
     </>
   );

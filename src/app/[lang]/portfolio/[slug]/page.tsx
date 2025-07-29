@@ -124,7 +124,7 @@ const PortfolioPage = async ({ params }: Props) => {
         />
       </main>
 
-      <Footer params={params} />
+      <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={params.lang} formDocument={formDocument} />
     </>
   );

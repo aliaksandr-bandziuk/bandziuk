@@ -43,8 +43,8 @@ const SliderScreenshots: FC<Props> = ({ screenshots }) => {
       <Swiper
         modules={[Pagination]}
         pagination={{ clickable: true }}
-        speed={2000}
-        spaceBetween={20}
+        speed={1000}
+        spaceBetween={30}
         grabCursor={true}
         resistanceRatio={0}
         edgeSwipeDetection={true}

@@ -117,7 +117,10 @@ const PortfolioPage = async ({ params }: Props) => {
           lang={params.lang}
           screenshots={portfolio.screenshots}
         />
-        <ContentDescription content={portfolio.mainContent} />
+        <ContentDescription
+          lang={params.lang}
+          content={portfolio.mainContent}
+        />
         <PortfolioTechnologies
           lang={params.lang}
           technologies={portfolio.technologiesUsed}

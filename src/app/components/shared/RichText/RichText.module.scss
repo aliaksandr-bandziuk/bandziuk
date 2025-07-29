@@ -14,9 +14,13 @@
       width: 12px; /* Задает фиксированную ширину */
       height: 8px; /* Задает фиксированную высоту */
       margin-right: 9px; /* расстояние между SVG и текстом */
-      margin-top: 7px;
+      margin-top: 8px;
     }
   }
+}
+
+.customBulletList:has(+ *) {
+  margin-bottom: 20px; // или нужное тебе значение
 }
 
 .listItem {

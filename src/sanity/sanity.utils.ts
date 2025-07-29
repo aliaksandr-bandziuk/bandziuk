@@ -70,6 +70,7 @@ export async function getFooterByLang(lang: string) {
     footerColumns,
     copyright,
     finalText,
+    contactsSection,
   }`;
 
   const footer = await client.fetch(footerQuery, { lang });

@@ -1,3 +1,5 @@
+import { ContactsSection } from "./homepage";
+
 type Image = {
   _type: "image";
   asset: {
@@ -33,6 +35,7 @@ export type Footer = {
   _id: string;
   _rev?: string;
   title: string;
+  contactsSection: ContactsSection;
   logo: Image;
   socialLinks: SocialLink[];
   footerColumns: FooterColumn[];

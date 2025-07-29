@@ -26,6 +26,9 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  border-radius: 12px;
+  padding: 20px 40px;
+  background-color: #2A2A2A;
 
   svg {
     width: 114px;
@@ -55,7 +58,7 @@
 .technologyTitle {
   font-size: clamp(1rem, 0.938rem + 0.25vw, 1.125rem);
   font-weight: 500;
-  color: var(--grey-color);
+  color: #fff;
   text-align: center;
   margin-top: 10px;
 }

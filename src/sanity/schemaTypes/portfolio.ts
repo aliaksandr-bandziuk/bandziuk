@@ -77,12 +77,11 @@ const portfolio = {
       fields: [
         { name: "clientName", title: "Client Name", type: "string" },
         { name: "industry", title: "Industry", type: "string" },
-        { name: "service", title: "Service", type: "string" },
         {
-          name: "category",
-          title: "Project Categories",
+          name: "service",
+          title: "Service",
           type: "reference",
-          to: [{ type: "projectCategory" }],
+          to: [{ type: "service" }],
           options: {
             filter: ({ document }) => {
               return {

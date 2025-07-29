@@ -1,44 +1,47 @@
-// app/components/Breadcrumbs/Breadcrumbs.tsx
 import React from "react";
 import Link from "next/link";
-import styles from "./Breadcrumbs.module.scss";
+import styles from "./BreadcrumbsPortfolio.module.scss";
 
 type BreadcrumbsProps = {
   lang: string;
-  /** Сегменты URL: ["apartments-in-cyprus","just-subpage","sub-sub-page"] */
-  segments: string[];
-  /** Заголовок текущей (последней) страницы */
+  segments: string[]; // e.g. ['my-post']
   currentTitle: string;
 };
 
 const humanize = (s: string) =>
-  s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()); // Just Subpage
+  s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
+const portfolioLabelByLang: Record<string, string> = {
+  en: "Portfolio",
+  ru: "Портфолио",
+  pl: "Portfolio",
+};
+
+const homeLabelByLang: Record<string, string> = {
+  en: "Home",
+  ru: "Главная",
+  pl: "Strona główna",
+};
+
+const BreadcrumbsPortfolio: React.FC<BreadcrumbsProps> = ({
   lang,
   segments,
   currentTitle,
 }) => {
   const base = lang === "en" ? "" : `/${lang}`;
-  const homeTitle =
-    lang === "en"
-      ? "Home"
-      : lang === "ru"
-        ? "Главная"
-        : lang === "pl"
-          ? "Strona główna"
-          : "Home";
+  const homeTitle = homeLabelByLang[lang] ?? homeLabelByLang.en;
+  const portfolioTitle = portfolioLabelByLang[lang] ?? portfolioLabelByLang.en;
 
-  // Собираем массив крошек
   const crumbs = [
     { name: homeTitle, href: base || "/" },
-    // промежуточные сегменты
+    { name: portfolioTitle, href: `${base}/portfolio` },
+    // Если у вас будут вложенные рубрики внутри портфолио, их тоже можно вывести:
     ...segments.slice(0, -1).map((seg, i) => {
       const path = segments.slice(0, i + 1).join("/");
-      return { name: humanize(seg), href: `${base}/${path}` };
+      return { name: humanize(seg), href: `${base}/portfolio/${path}` };
     }),
-    // последняя — уже настоящий заголовок страницы
-    { name: currentTitle, href: `${base}/${segments.join("/")}` },
+    // Наконец — сама статья
+    { name: currentTitle, href: `${base}/portfolio/${segments.join("/")}` },
   ];
 
   return (
@@ -76,4 +79,4 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
   );
 };
 
-export default Breadcrumbs;
+export default BreadcrumbsPortfolio;

@@ -296,12 +296,10 @@ export async function getPortfolioByLang(
       seo,
       slug,
       previewImage,
-      keyFeatures[] {
-        _key,
+      keyFeatures {
         clientName,
         industry,
-        service,
-        category[]->{
+        service->{
           _id,
           title,
           slug
@@ -349,12 +347,10 @@ export async function getAllPortfoliosByLang(
         slug,
         svg,
       },
-      keyFeatures[] {
-        _key,
+      keyFeatures {
         clientName,
         industry,
-        service,
-        category[]->{
+        service->{
           _id,
           title,
           slug

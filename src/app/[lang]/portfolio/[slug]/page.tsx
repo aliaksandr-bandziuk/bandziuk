@@ -11,6 +11,8 @@ import { FormStandardDocument } from "@/types/formStandardDocument";
 import Header from "@/app/components/layout/Header/Header";
 import Footer from "@/app/components/layout/Footer/Footer";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
+import PortfolioIntro from "@/app/components/layout/PortfolioIntro/PortfolioIntro";
+import BreadcrumbsPortfolio from "@/app/components/layout/BreadcrumbsPortfolio/BreadcrumbsPortfolio";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -38,20 +40,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const PortfolioPage = async ({ params }: Props) => {
   const { lang, slug } = params;
-  const project = await getPortfolioByLang(lang, slug);
+  const portfolio = await getPortfolioByLang(lang, slug);
 
-  if (!project) {
+  if (!portfolio) {
     return null;
   }
 
-  // console.log("faq", project.faq);
+  // console.log("faq", portfolio.faq);
 
   const formDocument: FormStandardDocument =
     await getFormStandardDocumentByLang(params.lang);
 
   const propertyPageTranslationSlugs: {
     [key: string]: { current: string };
-  }[] = project?._translations.map((item) => {
+  }[] = portfolio?._translations.map((item) => {
     const newItem: { [key: string]: { current: string } } = {};
 
     for (const key in item.slug) {
@@ -81,7 +83,7 @@ const PortfolioPage = async ({ params }: Props) => {
           ...acc,
           {
             language: lang.id,
-            path: `/${lang.id}/projects/${translationSlug}`,
+            path: `/${lang.id}/portfolio/${translationSlug}`,
           },
         ]
       : acc;
@@ -90,15 +92,19 @@ const PortfolioPage = async ({ params }: Props) => {
   return (
     <>
       <Header params={params} translations={translations} />
+      <BreadcrumbsPortfolio
+        lang={params.lang}
+        segments={[slug]}
+        currentTitle={portfolio.title}
+      />
       <main>
-        {/* <PropertyIntro
-          title={project.title}
-          excerpt={project.excerpt}
-          previewImage={project.previewImage}
-          videoId={project.videoId}
-          videoPreview={project.videoPreview}
+        <PortfolioIntro
+          title={portfolio.fullTitle}
+          excerpt={portfolio.excerpt}
+          previewImage={portfolio.previewImage}
+          keyFeatures={portfolio.keyFeatures}
           lang={params.lang}
-        /> */}
+        />
       </main>
 
       <Footer params={params} />

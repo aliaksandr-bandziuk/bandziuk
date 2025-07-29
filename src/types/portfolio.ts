@@ -23,6 +23,12 @@ export type ProjectCategory = {
   slug: { [lang: string]: { current: string } };
 };
 
+export type Service = {
+  _id: string;
+  title: string;
+  slug: { [lang: string]: { current: string } };
+};
+
 export type Seo = {
   metaTitle: string;
   metaDescription: string;
@@ -51,8 +57,7 @@ export type KeyFeature = {
   _key: string;
   clientName: string;
   industry: string;
-  service: string;
-  category: ProjectCategory[];
+  service: Service;
   website: WebsiteField;
 };
 
@@ -79,7 +84,7 @@ export type Portfolio = {
   seo: Seo;
   fullTitle: string;
   excerpt: string;
-  keyFeatures: KeyFeature[];
+  keyFeatures: KeyFeature;
   previewImage: ImageAlt;
   challenges: Challenges;
   screenshots: Screenshot[];

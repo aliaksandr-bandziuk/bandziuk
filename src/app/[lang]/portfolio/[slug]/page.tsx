@@ -16,6 +16,7 @@ import BreadcrumbsPortfolio from "@/app/components/layout/BreadcrumbsPortfolio/B
 import PortfolioChallenges from "@/app/components/sections/PortfolioChallenges/PortfolioChallenges";
 import PortfolioScreenshots from "@/app/components/sections/PortfolioScreenshots/PortfolioScreenshots";
 import ContentDescription from "@/app/components/layout/ContentDescription/ContentDescription";
+import PortfolioTechnologies from "@/app/components/sections/PortfolioTechnologies/PortfolioTechnologies";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -117,6 +118,10 @@ const PortfolioPage = async ({ params }: Props) => {
           screenshots={portfolio.screenshots}
         />
         <ContentDescription content={portfolio.mainContent} />
+        <PortfolioTechnologies
+          lang={params.lang}
+          technologies={portfolio.technologiesUsed}
+        />
       </main>
 
       <Footer params={params} />

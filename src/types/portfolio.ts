@@ -28,6 +28,7 @@ export type ImageWithMetadata = {
 };
 
 export type Technology = {
+  _key: string;
   _id: string;
   title: string;
   slug: { [lang: string]: { current: string } };

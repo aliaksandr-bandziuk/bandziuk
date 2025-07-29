@@ -1,0 +1,44 @@
+.challenges {
+  margin-bottom: clamp(4.375rem, 3.438rem + 3.75vw, 6.25rem);
+}
+
+.challengesList {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 18px;
+
+  @media screen and (min-width: 980px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+.serviceItemWrapperGrid {
+  display: flex;
+  height: 100%;
+}
+
+.challengeItem {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  height: 100%;
+}
+
+.challengeTitle {
+  font-size: clamp(1.25rem, 1.125rem + 0.5vw, 1.5rem);
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--corp-color)
+}
+
+.challengeContent {
+
+  p {
+    font-size: clamp(1rem, 0.875rem + 0.25vw, 1.125rem);
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 16px;
+  }
+}

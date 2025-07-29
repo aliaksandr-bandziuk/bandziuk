@@ -13,6 +13,7 @@ import Footer from "@/app/components/layout/Footer/Footer";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
 import PortfolioIntro from "@/app/components/sections/PortfolioIntro/PortfolioIntro";
 import BreadcrumbsPortfolio from "@/app/components/layout/BreadcrumbsPortfolio/BreadcrumbsPortfolio";
+import PortfolioChallenges from "@/app/components/sections/PortfolioChallenges/PortfolioChallenges";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -104,6 +105,10 @@ const PortfolioPage = async ({ params }: Props) => {
           previewImage={portfolio.previewImage}
           keyFeatures={portfolio.keyFeatures}
           lang={params.lang}
+        />
+        <PortfolioChallenges
+          lang={params.lang}
+          challenges={portfolio.challenges}
         />
       </main>
 

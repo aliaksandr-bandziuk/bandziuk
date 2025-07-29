@@ -270,7 +270,7 @@ const SinglePage = async ({ params }: Props) => {
         )}
         {allBlocks.map(renderContentBlock)}
       </main>
-      <Footer params={params} />
+      <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={lang} formDocument={formDocument} />
     </>
   );

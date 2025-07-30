@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: clamp(1.25rem, 0.625rem + 2.5vw, 2.5rem);
 }
 
 .technologyItem {
@@ -27,12 +27,21 @@
   justify-content: center;
   gap: 10px;
   border-radius: 12px;
-  padding: 20px 40px;
+  padding: 20px 30px;
   background-color: #2A2A2A;
 
+  @media screen and (min-width: 768px) {
+      padding: 20px 40px;
+    }
+
   svg {
-    width: 114px;
-    height: 114px;
+    width: 80px;
+    height: 80px;
+
+    @media screen and (min-width: 768px) {
+      width: 120px;
+      height: 120px;
+    }
 
     @media screen and (min-width: 1024px) {
       width: 160px;

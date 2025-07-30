@@ -1,12 +1,13 @@
 import React from "react";
-import { Bitter } from "next/font/google";
-import { urlFor } from "@/sanity/sanity.client";
 import styles from "./PortfolioIntro.module.scss";
-import { ImageAlt } from "@/types/property";
-import { KeyFeature } from "@/types/portfolio";
+import { Bitter } from "next/font/google";
 import Image from "next/image";
+import { urlFor } from "@/sanity/sanity.client";
+import { KeyFeature } from "@/types/portfolio";
+import { ImageAlt } from "@/types/property";
 import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
-import ClientAnimationLayer from "./ClientAnimationLayer"; // 👈 тут анимация
+import ParticlesBackground from "../../animations/ParticlesBackground/ParticlesBackground";
+import PortfolioIntroClient from "./PortfolioIntroClient";
 
 const bitter = Bitter({
   subsets: ["latin", "cyrillic"],
@@ -25,14 +26,16 @@ type Props = {
 const PortfolioIntro = ({
   title,
   excerpt,
-  previewImage,
   keyFeatures,
+  previewImage,
   lang,
 }: Props) => {
   return (
     <section className={styles.portfolioIntro}>
-      <ClientAnimationLayer /> {/* 👈 клиентская анимация */}
       <div className={styles.contentInner}>
+        <div className={styles.particlesWrapper}>
+          <ParticlesBackground />
+        </div>
         <div className="container">
           <div className={styles.content}>
             <div className={styles.contentWrapper}>
@@ -40,69 +43,14 @@ const PortfolioIntro = ({
               <p className={`${bitter.className} ${styles.description}`}>
                 {excerpt}
               </p>
-
               <div className={styles.keyFeatures}>
-                <div className={styles.keyFeature}>
-                  <div className={styles.keyFeatureWrapper}>
-                    <p className={styles.keyFeatureTitle}>
-                      {lang === "en"
-                        ? "Client"
-                        : lang === "pl"
-                          ? "Klient"
-                          : lang === "ru"
-                            ? "Клиент"
-                            : "Client"}
-                    </p>
-                    <p className={styles.keyFeatureValue}>
-                      {keyFeatures.clientName}
-                    </p>
-                  </div>
-                </div>
-                <div className={styles.keyFeature}>
-                  <div className={styles.keyFeatureWrapper}>
-                    <p className={styles.keyFeatureTitle}>
-                      {lang === "en"
-                        ? "Industry"
-                        : lang === "pl"
-                          ? "Branża"
-                          : lang === "ru"
-                            ? "Отрасль"
-                            : "Industry"}
-                    </p>
-                    <p className={styles.keyFeatureValue}>
-                      {keyFeatures.industry}
-                    </p>
-                  </div>
-                </div>
-                <div className={styles.keyFeature}>
-                  <div className={styles.keyFeatureWrapper}>
-                    <p className={styles.keyFeatureTitle}>
-                      {lang === "en"
-                        ? "Service"
-                        : lang === "pl"
-                          ? "Usługa"
-                          : lang === "ru"
-                            ? "Услуга"
-                            : "Service"}
-                    </p>
-                    <p className={styles.keyFeatureValue}>
-                      {keyFeatures.service.title}
-                    </p>
-                  </div>
-                </div>
-                <div className={styles.keyFeature}>
-                  <div className={styles.keyFeatureWrapper}>
-                    <p className={styles.keyFeatureTitle}>
-                      {lang === "en"
-                        ? "Website"
-                        : lang === "pl"
-                          ? "Strona internetowa"
-                          : lang === "ru"
-                            ? "Веб-сайт"
-                            : "Website"}
-                    </p>
-                    {keyFeatures.website?.type === "link" &&
-                    keyFeatures.website.linkDestination ? (
+                {/* key features layout */}
+                {Object.entries({
+                  client: keyFeatures.clientName,
+                  industry: keyFeatures.industry,
+                  service: keyFeatures.service.title,
+                  website:
+                    keyFeatures.website?.type === "link" ? (
                       <a
                         href={keyFeatures.website.linkDestination}
                         target="_blank"
@@ -113,21 +61,48 @@ const PortfolioIntro = ({
                           keyFeatures.website.linkDestination}
                       </a>
                     ) : keyFeatures.website?.type === "text" ? (
-                      <p className={styles.keyFeatureValue}>
-                        {keyFeatures.website.text || "—"}
-                      </p>
+                      keyFeatures.website.text
                     ) : (
-                      <p className={styles.keyFeatureValue}>—</p>
-                    )}
+                      "—"
+                    ),
+                }).map(([label, value]) => (
+                  <div className={styles.keyFeature} key={label}>
+                    <div className={styles.keyFeatureWrapper}>
+                      <p className={styles.keyFeatureTitle}>
+                        {lang === "en"
+                          ? label[0].toUpperCase() + label.slice(1)
+                          : lang === "pl"
+                            ? (
+                                {
+                                  client: "Klient",
+                                  industry: "Branża",
+                                  service: "Usługa",
+                                  website: "Strona internetowa",
+                                } as any
+                              )[label]
+                            : lang === "ru"
+                              ? (
+                                  {
+                                    client: "Клиент",
+                                    industry: "Отрасль",
+                                    service: "Услуга",
+                                    website: "Веб-сайт",
+                                  } as any
+                                )[label]
+                              : label}
+                      </p>
+                      <p className={styles.keyFeatureValue}>{value}</p>
+                    </div>
                   </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="container">
-        <div className={styles.image}>
+        <div className={styles.image} data-animate-image>
           <Image
             src={urlFor(previewImage).url()}
             alt={previewImage.alt ?? title}
@@ -135,7 +110,6 @@ const PortfolioIntro = ({
             className={styles.previewImage}
           />
         </div>
-
         <div className={styles.button}>
           <ButtonModal>
             {lang === "en"
@@ -148,6 +122,8 @@ const PortfolioIntro = ({
           </ButtonModal>
         </div>
       </div>
+
+      <PortfolioIntroClient />
     </section>
   );
 };

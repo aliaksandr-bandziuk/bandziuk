@@ -7,6 +7,11 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
+
+  @media screen and (min-width: 1024px) {
+    position: sticky;
+    top: 5rem;
+  }
 }
 
 .contentWrapper {
@@ -15,7 +20,7 @@
 }
 
 .title {
-  font-size: 64px;
+  font-size: clamp(2rem, 1rem + 4vw, 4rem);
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: clamp(1.875rem, 1.563rem + 1.25vw, 2.5rem);

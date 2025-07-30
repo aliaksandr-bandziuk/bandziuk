@@ -1,12 +1,18 @@
-import { ImageAlt } from "@/types/property";
-import React, { FC } from "react";
-import styles from "./PortfolioIntro.module.scss";
-import { urlFor } from "@/sanity/sanity.client";
-import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
-import { KeyFeature } from "@/types/portfolio";
+import React from "react";
 import { Bitter } from "next/font/google";
+import { urlFor } from "@/sanity/sanity.client";
+import styles from "./PortfolioIntro.module.scss";
+import { ImageAlt } from "@/types/property";
+import { KeyFeature } from "@/types/portfolio";
 import Image from "next/image";
-import ParticlesBackground from "../../animations/ParticlesBackground/ParticlesBackground";
+import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import ClientAnimationLayer from "./ClientAnimationLayer"; // 👈 тут анимация
+
+const bitter = Bitter({
+  subsets: ["latin", "cyrillic"],
+  style: ["italic"],
+  weight: ["400"],
+});
 
 type Props = {
   title: string;
@@ -16,25 +22,17 @@ type Props = {
   lang: string;
 };
 
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["italic"],
-  weight: ["400"],
-});
-
-const PortfolioIntro: FC<Props> = ({
+const PortfolioIntro = ({
   title,
   excerpt,
   previewImage,
   keyFeatures,
   lang,
-}) => {
+}: Props) => {
   return (
     <section className={styles.portfolioIntro}>
+      <ClientAnimationLayer /> {/* 👈 клиентская анимация */}
       <div className={styles.contentInner}>
-        <div className={styles.particlesWrapper}>
-          <ParticlesBackground />
-        </div>
         <div className="container">
           <div className={styles.content}>
             <div className={styles.contentWrapper}>
@@ -42,6 +40,7 @@ const PortfolioIntro: FC<Props> = ({
               <p className={`${bitter.className} ${styles.description}`}>
                 {excerpt}
               </p>
+
               <div className={styles.keyFeatures}>
                 <div className={styles.keyFeature}>
                   <div className={styles.keyFeatureWrapper}>
@@ -136,6 +135,7 @@ const PortfolioIntro: FC<Props> = ({
             className={styles.previewImage}
           />
         </div>
+
         <div className={styles.button}>
           <ButtonModal>
             {lang === "en"

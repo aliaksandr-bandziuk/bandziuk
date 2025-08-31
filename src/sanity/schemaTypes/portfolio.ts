@@ -77,20 +77,29 @@ const portfolio = {
       fields: [
         { name: "clientName", title: "Client Name", type: "string" },
         { name: "industry", title: "Industry", type: "string" },
-        {
-          name: "service",
-          title: "Service",
-          type: "reference",
-          to: [{ type: "service" }],
-          options: {
-            filter: ({ document }) => {
-              return {
-                filter: "language == $language",
-                params: { language: document.language },
-              };
+        defineField({
+          name: "services",
+          title: "Services",
+          type: "array",
+          of: [
+            {
+              type: "reference",
+              to: [{ type: "service" }],
+              options: {
+                filter: ({ document }) => ({
+                  filter: "language == $language",
+                  params: { language: document.language },
+                }),
+              },
             },
+          ],
+          options: {
+            // необязательно, но удобно в Студии
+            layout: "tags",
           },
-        },
+          validation: (Rule) =>
+            Rule.required().min(1).max(6).error("Select at least one service"),
+        }),
         {
           name: "website",
           title: "Website",
@@ -201,31 +210,6 @@ const portfolio = {
         },
       ],
     }),
-    // defineField({
-    //   name: "contentBlocks",
-    //   title: "Main Content",
-    //   type: "array",
-    //   description:
-    //     "Блоки контента, которые будут отображаться в статье. Это основное содержание статьи",
-    //   of: [
-    //     { type: "textContent" },
-    //     { type: "accordionBlock" },
-    //     { type: "contactFullBlock" },
-    //     { type: "faqBlock" },
-    //     { type: "teamBlock" },
-    //     { type: "locationBlock" },
-    //     { type: "imageFullBlock" },
-    //     { type: "buttonBlock" },
-    //     { type: "imageBulletsBlock" },
-    //     { type: "benefitsBlock" },
-    //     { type: "reviewsFullBlock" },
-    //     { type: "formMinimalBlock" },
-    //     { type: "howWeWorkBlock" },
-    //     { type: "bulletsBlock" },
-    //     { type: "projectsSectionBlock" },
-    //     { type: "tableBlock" },
-    //   ],
-    // }),
     defineField({
       name: "mainContent",
       title: "Main Content",

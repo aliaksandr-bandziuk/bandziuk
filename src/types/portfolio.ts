@@ -75,7 +75,7 @@ export type KeyFeature = {
   _key: string;
   clientName: string;
   industry: string;
-  service: Service;
+  services: Service[];
   website: WebsiteField;
 };
 

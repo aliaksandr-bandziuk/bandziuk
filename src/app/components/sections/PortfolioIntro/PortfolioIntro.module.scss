@@ -38,17 +38,19 @@
 .keyFeatures {
   margin-top: clamp(3.125rem, 2.5rem + 2.5vw, 4.375rem);
   margin-bottom: clamp(3.125rem, 2.5rem + 2.5vw, 4.375rem);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
   // flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
+  // @media screen and (min-width: 768px) {
+  //   flex-direction: row;
+  //   justify-content: space-between;
+  //   flex-wrap: nowrap;
+  // }
 }
 
 .keyFeature {
@@ -81,14 +83,7 @@
   font-weight: 700;
   color: #ffffff;
   margin-top: 0.25rem;
-
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-  }
-
-  @media screen and (min-width: 980px) {
-    font-size: 20px;
-  }
+  text-align: left;
 }
 
 .image {

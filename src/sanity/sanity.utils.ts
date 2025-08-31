@@ -300,10 +300,8 @@ export async function getPortfolioByLang(
       keyFeatures {
         clientName,
         industry,
-        service->{
-          _id,
-          title,
-          slug
+        services[]->{
+          _id, title, slug
         },
         website
       },

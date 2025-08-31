@@ -38,6 +38,7 @@ export async function getHomePageByLang(lang: string): Promise<Homepage> {
     aboutSection,
     servicesSection,
     problemsSection,
+    portfolioSection,
     processSection,
     reviewsSection,
     faqSection,
@@ -92,6 +93,76 @@ export async function getFormStandardDocumentByLang(
   });
 
   return formStandardDocument;
+}
+
+export async function getLastFourPortfolioByLang(
+  lang: string
+): Promise<Portfolio[]> {
+  const lastFourPortfolioQuery = groq`
+    *[
+      _type == "portfolio" &&
+      language == $lang &&
+      defined(previewImage)
+    ] | order(_createdAt desc)[0...4]{
+      _id,
+      title,
+      slug,
+      previewImage,
+      keyFeatures{
+        industry,
+        services[]->{
+          _id,
+          title,
+          slug
+        }
+      }
+    }
+  `;
+
+  const portfolio = await client.fetch(
+    lastFourPortfolioQuery,
+    { lang },
+    {
+      next: { revalidate: 60 },
+    }
+  );
+
+  return portfolio;
+}
+
+export async function getAllPortfolioByLang(
+  lang: string
+): Promise<Portfolio[]> {
+  const allPortfolioQuery = groq`
+    *[
+      _type == "portfolio" &&
+      language == $lang &&
+      defined(previewImage)
+    ] {
+      _id,
+      title,
+      slug,
+      previewImage,
+      keyFeatures{
+        industry,
+        services[]->{
+          _id,
+          title,
+          slug
+        }
+      }
+    }
+  `;
+
+  const portfolio = await client.fetch(
+    allPortfolioQuery,
+    { lang },
+    {
+      next: { revalidate: 60 },
+    }
+  );
+
+  return portfolio;
 }
 
 export async function getSinglePageByLang(
@@ -903,30 +974,6 @@ export async function getThreeProjectsBySameCity(
 
   // Берем ровно первые 4 проекта (если их меньше 4 – вернутся все)
   return shuffledProjects.slice(0, 3);
-}
-
-export async function getLastFiveProjectsByLang(
-  lang: string
-): Promise<Project[]> {
-  const lastFiveProjectsQuery = groq`
-    *[_type == "project" && language == $lang] | order(_createdAt desc)[0...5] {
-      _id,
-      title,
-      slug,
-      previewImage,
-      keyFeatures
-    }
-  `;
-
-  const projects = await client.fetch(
-    lastFiveProjectsQuery,
-    { lang },
-    {
-      next: { revalidate: 60 },
-    }
-  );
-
-  return projects;
 }
 
 export async function getAllProjectsByLang(lang: string): Promise<Project[]> {

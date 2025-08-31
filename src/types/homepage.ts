@@ -167,6 +167,16 @@ export type ProblemsSection = {
 };
 // ====== End Problems Section =====
 
+// ====== Portfolio Section =====
+export type PortfolioSection = {
+  _key: string;
+  _type: "portfolioSection";
+  pretitle: string;
+  title: string;
+  subtitle: string;
+};
+// ====== End Portfolio Section =====
+
 // ====== Process Section =====
 export type StepItem = {
   _key: string;
@@ -361,6 +371,7 @@ export type Homepage = {
   aboutSection: AboutSection;
   servicesSection: ServicesSection;
   problemsSection: ProblemsSection;
+  portfolioSection: PortfolioSection;
   processSection: ProcessSection;
   reviewsSection: ReviewsSection;
   faqSection: FaqSection;

@@ -91,7 +91,10 @@ export default async function Home({ params }: Props) {
         <About aboutSection={homePage?.aboutSection} />
         <Services servicesSection={homePage?.servicesSection} />
         <Problems problemsSection={homePage?.problemsSection} />
-        {/* <Portfolio /> */}
+        <Portfolio
+          portfolioSection={homePage?.portfolioSection}
+          lang={params.lang}
+        />
         <WorkProcess processSection={homePage?.processSection} />
         <Reviews reviews={homePage?.reviewsSection} />
         <FaqHomepage faqSection={homePage?.faqSection} />

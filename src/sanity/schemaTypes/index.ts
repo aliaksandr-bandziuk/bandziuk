@@ -30,6 +30,7 @@ import singlepage from "./singlepage";
 import technology from "./technology";
 import projectCategory from "./projectCategory";
 import service from "./service";
+import portfolioPage from "./portfolioPage";
 
 export const schemaTypes = [
   header,
@@ -38,6 +39,7 @@ export const schemaTypes = [
   singlepage,
   blog,
   blogPage,
+  portfolioPage,
   category,
   projectCategory,
   service,

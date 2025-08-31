@@ -13,6 +13,7 @@ import { Developer } from "@/types/developer";
 import { Blog } from "@/types/blog";
 import { BlogPage } from "@/types/blogPage";
 import { Portfolio } from "@/types/portfolio";
+import { PortfolioPage } from "@/types/portfolioPage";
 
 export async function getHeaderByLang(lang: string): Promise<Header> {
   const headerQuery = groq`*[_type == "header" && language == $lang][0] {
@@ -656,6 +657,69 @@ export async function getBlogPageByLang(lang: string): Promise<BlogPage> {
   return blogPage;
 }
 // === Blog Page All ===
+
+// === Portfolio Page All ===
+export async function getPortfolioPageByLang(
+  lang: string
+): Promise<PortfolioPage> {
+  const portfolioPageQuery = groq`*[_type == "portfolioPage" && language == $lang][0] {
+    _id,
+    title,
+    metaTitle,
+    metaDescription,
+    content,
+    language,
+    "_translations": *[_type == "translation.metadata" && references(^._id)].translations[].value->{
+      slug,
+    },
+  }`;
+
+  const portfolioPage = await client.fetch(
+    portfolioPageQuery,
+    { lang },
+    {
+      next: {
+        revalidate: 60,
+      },
+    }
+  );
+
+  return portfolioPage;
+}
+// === Portfolio Page All ===
+
+// === Portfolio Items All ===
+export async function getPortfolioItemsByLang(
+  lang: string
+): Promise<Portfolio[]> {
+  const portfolioItemsQuery = groq`*[_type == "portfolio" && language == $lang] | order(publishedAt desc) {
+    _id,
+    title,
+    slug,
+    previewImage,
+    keyFeatures{
+      industry,
+      services[]->{
+        _id,
+        title,
+        slug
+      }
+    }
+  }`;
+
+  const portfolioItems = await client.fetch(
+    portfolioItemsQuery,
+    { lang },
+    {
+      next: {
+        revalidate: 60,
+      },
+    }
+  );
+
+  return portfolioItems;
+}
+// === End Portfolio Items All ===
 
 // === Blog Posts All ===
 export async function getBlogPostsByLang(lang: string): Promise<Blog[]> {

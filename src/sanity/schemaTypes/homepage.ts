@@ -298,6 +298,28 @@ export default defineType({
       ],
     }),
     defineField({
+      name: "portfolioSection",
+      title: "Portfolio Section",
+      type: "object",
+      fields: [
+        defineField({
+          name: "pretitle",
+          title: "Preitle",
+          type: "string",
+        }),
+        defineField({
+          name: "title",
+          title: "Title",
+          type: "string",
+        }),
+        defineField({
+          name: "subtitle",
+          title: "Subtitle",
+          type: "string",
+        }),
+      ],
+    }),
+    defineField({
       name: "processSection",
       title: "Process Section",
       type: "object",

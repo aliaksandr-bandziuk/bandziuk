@@ -20,7 +20,7 @@ type Props = {
   excerpt: string;
   keyFeatures: KeyFeature; // ожидает keyFeatures.services: Service[]
   previewImage: ImageAlt;
-  lang: "en" | "pl" | "ru";
+  lang: string;
 };
 
 const PortfolioIntro: React.FC<Props> = ({

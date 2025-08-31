@@ -232,7 +232,7 @@ textarea {
 
 .loader {
   /* базовый размер (пропорциональная высота посчитается сама) */
-  width: 50px;
+  width: 200px;
   aspect-ratio: 772 / 242; /* сохраняем пропорции 772×242 */
   border-bottom-color: transparent;
   border-radius: 50%;

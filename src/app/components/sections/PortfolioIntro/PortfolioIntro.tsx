@@ -124,8 +124,8 @@ const PortfolioIntro: React.FC<Props> = ({
               alt={previewImage.alt ?? title}
               fill
               className={styles.previewImage}
-              sizes="(max-width: 768px) 100vw, 900px"
               priority
+              quality={100}
             />
           </div>
         )}

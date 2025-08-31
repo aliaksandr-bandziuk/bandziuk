@@ -31,12 +31,12 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
           <div className={styles.challengeItem}>
             <h3 className={styles.challengeTitle}>
               {lang === "en"
-                ? "Task"
+                ? "Goal"
                 : lang === "pl"
                   ? "Zadanie"
                   : lang === "ru"
                     ? "Задача"
-                    : "Task"}
+                    : "Goal"}
             </h3>
             <div className={styles.challengeContent}>
               <PortableText value={challenges.task} components={RichText} />

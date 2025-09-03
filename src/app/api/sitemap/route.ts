@@ -5,6 +5,7 @@ import {
   getAllDevelopersByLang,
   getAllPathsForLang,
   getBlogPostsByLang,
+  getAllPortfolioByLang,
 } from "@/sanity/sanity.utils";
 
 const websiteUrl = "https://www.bandziuk.com";
@@ -80,6 +81,30 @@ async function generateSitemap(): Promise<SitemapPage[]> {
     //     })
     //     .filter((x): x is SitemapPage => Boolean(x))
     // );
+
+    // Pages Portfolio
+    const portfolioProjects = await getAllPortfolioByLang(lang);
+    pages.push(
+      ...portfolioProjects
+        .map((proj) => {
+          const slug = proj.slug[lang]?.current;
+          if (!slug) return null;
+          const route = `${prefix}/portfolio/${slug}`;
+          return {
+            route,
+            url: `${websiteUrl}${route}`,
+            changefreq: "weekly",
+            priority: 0.8,
+          };
+        })
+        .filter((x): x is SitemapPage => Boolean(x))
+    );
+    pages.push({
+      route: `${prefix}/portfolio`,
+      url: `${websiteUrl}${prefix}/portfolio`,
+      changefreq: "weekly",
+      priority: 0.9,
+    });
 
     // — Обычные «одноуровневые» страницы (singlepage) любой вложенности —
     const allPaths = await getAllPathsForLang(lang);

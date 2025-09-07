@@ -7,8 +7,15 @@ import type {
   WebsiteField,
 } from "@/types/portfolio";
 
-/** Организация/издатель сайта — поправь name/url/logo под себя */
-const PUBLISHER = {
+type BuildJsonLdArgs = {
+  doc: Portfolio;
+  lang: string;
+  canonical: string; // абсолютный URL текущей страницы
+  previewImageUrl?: string; // абсолютный URL превью (через urlFor)
+};
+
+// ==== ВЕРХ ФАЙЛА: оставь Organization как publisher, добавим WebSite ====
+const ORG = {
   "@type": "Organization",
   name: "Aliaksandr Bandziuk",
   url: "https://www.bandziuk.com",
@@ -18,11 +25,13 @@ const PUBLISHER = {
   },
 };
 
-type BuildJsonLdArgs = {
-  doc: Portfolio;
-  lang: string;
-  canonical: string; // абсолютный URL текущей страницы
-  previewImageUrl?: string; // абсолютный URL превью (через urlFor)
+// Введём сущность WebSite, чтобы на неё ссылаться из isPartOf
+const WEBSITE = {
+  "@type": "WebSite",
+  "@id": "https://www.bandziuk.com/#website",
+  url: "https://www.bandziuk.com",
+  name: "bandziuk.com",
+  publisher: ORG, // тут как раз корректно использовать Organization
 };
 
 /** Безопасная сборка массива изображений */
@@ -53,65 +62,65 @@ export function getPortfolioJsonLd({
 }: BuildJsonLdArgs) {
   const images = collectImages(doc, previewImageUrl);
 
-  // about: технологии
-  const about =
-    (doc.technologiesUsed || []).map((t: Technology) => ({
-      "@type": "Thing",
-      name: t.title,
-    })) || [];
-
-  // mentions: услуги
-  const mentions =
-    (doc.keyFeatures?.services || []).map((s: Service) => ({
-      "@type": "Thing",
-      name: s.title,
-    })) || [];
+  const about = (doc.technologiesUsed || []).map((t) => ({
+    "@type": "Thing",
+    name: t.title,
+  }));
+  const mentions = (doc.keyFeatures?.services || []).map((s) => ({
+    "@type": "Thing",
+    name: s.title,
+  }));
 
   const clientName = doc.keyFeatures?.clientName || undefined;
   const industry = doc.keyFeatures?.industry || undefined;
   const clientSite = getClientWebsiteUrl(doc.keyFeatures?.website);
 
-  const caseStudyId = `${canonical}#casestudy`;
-  const webpageId = `${canonical}#webpage`;
+  const webPageId = `${canonical}#webpage`;
+  const articleId = `${canonical}#article`; // было #casestudy
 
   const webPage = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": webpageId,
+    "@id": webPageId,
     url: canonical,
     inLanguage: lang,
     name: doc.seo?.metaTitle || doc.fullTitle || doc.title,
     description: doc.seo?.metaDescription || doc.excerpt,
-    isPartOf: PUBLISHER,
+    // было Organization — валидатор ругался. Делаем ссылку на WebSite:
+    isPartOf: { "@id": WEBSITE["@id"] },
     primaryImageOfPage: images[0]
       ? { "@type": "ImageObject", url: images[0] }
       : undefined,
     datePublished: doc.publishedAt || undefined,
-    mainEntity: { "@id": caseStudyId },
+    // mainEntity → наш Article
+    mainEntity: { "@id": articleId },
   };
 
-  const caseStudy = {
+  // Заменили CaseStudy на Article для совместимости
+  const article = {
     "@context": "https://schema.org",
-    "@type": "CaseStudy",
-    "@id": caseStudyId,
+    "@type": "Article",
+    "@id": articleId,
     url: canonical,
     inLanguage: lang,
     headline: doc.fullTitle || doc.title,
     name: doc.fullTitle || doc.title,
     description: doc.excerpt,
     image: images.length ? images : undefined,
-    publisher: PUBLISHER,
-    author: PUBLISHER,
+    isPartOf: { "@id": WEBSITE["@id"] }, // опционально, но красиво
+    mainEntityOfPage: { "@id": webPageId }, // двусторонняя связь
+    publisher: ORG,
+    author: ORG,
     about: about.length ? about : undefined,
     mentions: mentions.length ? mentions : undefined,
     articleSection: industry ? [industry] : undefined,
     recipient: clientName
       ? { "@type": "Organization", name: clientName }
       : undefined,
-    relatedLink: clientSite ? [clientSite] : undefined,
+    sameAs: clientSite ? [clientSite] : undefined,
     datePublished: doc.publishedAt || undefined,
   };
 
-  // возвращаем массив, чтобы можно было легко расширять в будущем
-  return [webPage, caseStudy].filter(Boolean);
+  // ВОЗВРАЩАЕМ ТРИ НОДЫ: WebSite, WebPage, Article
+  return [WEBSITE, webPage, article];
 }

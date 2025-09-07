@@ -115,9 +115,6 @@ export function getPortfolioJsonLd({
     about: about.length ? about : undefined,
     mentions: mentions.length ? mentions : undefined,
     articleSection: industry ? [industry] : undefined,
-    recipient: clientName
-      ? { "@type": "Organization", name: clientName }
-      : undefined,
     sameAs: clientSite ? [clientSite] : undefined,
     datePublished: doc.publishedAt || undefined,
   };

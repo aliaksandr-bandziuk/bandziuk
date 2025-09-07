@@ -17,6 +17,8 @@ import PortfolioChallenges from "@/app/components/sections/PortfolioChallenges/P
 import PortfolioScreenshots from "@/app/components/sections/PortfolioScreenshots/PortfolioScreenshots";
 import ContentDescription from "@/app/components/layout/ContentDescription/ContentDescription";
 import PortfolioTechnologies from "@/app/components/sections/PortfolioTechnologies/PortfolioTechnologies";
+import { getPortfolioJsonLd } from "@/app/components/seo/SchemaPortfolio/SchemaPortfolio";
+import Script from "next/script";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -49,6 +51,30 @@ const PortfolioPage = async ({ params }: Props) => {
   if (!portfolio) {
     return null;
   }
+
+  const generateSlug = (
+    slugObj: { [lang: string]: { current?: string } } | undefined,
+    language: string
+  ) => {
+    const cur = slugObj?.[language]?.current;
+    if (!cur) return "#";
+
+    return language === "en"
+      ? `https://www.bandziuk.com/portfolio/${cur}`
+      : `https://www.bandziuk.com/${language}/portfolio/${cur}`;
+  };
+
+  const canonical = generateSlug(portfolio?.slug, lang);
+  const previewImageUrl = portfolio?.previewImage
+    ? urlFor(portfolio.previewImage).width(1200).url()
+    : undefined;
+
+  const jsonLd = getPortfolioJsonLd({
+    doc: portfolio,
+    lang,
+    canonical,
+    previewImageUrl,
+  });
 
   // console.log("faq", portfolio.faq);
 
@@ -129,6 +155,12 @@ const PortfolioPage = async ({ params }: Props) => {
 
       <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={params.lang} formDocument={formDocument} />
+
+      <Script
+        id="portfolio-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </>
   );
 };

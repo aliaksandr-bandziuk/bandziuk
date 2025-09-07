@@ -27,11 +27,12 @@ const ORG = {
 
 // Введём сущность WebSite, чтобы на неё ссылаться из isPartOf
 const WEBSITE = {
+  "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": "https://www.bandziuk.com/#website",
   url: "https://www.bandziuk.com",
   name: "bandziuk.com",
-  publisher: ORG, // тут как раз корректно использовать Organization
+  publisher: ORG,
 };
 
 /** Безопасная сборка массива изображений */

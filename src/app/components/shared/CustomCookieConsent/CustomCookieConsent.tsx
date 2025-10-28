@@ -21,39 +21,42 @@ const dictionary = {
   en: {
     title: "We use cookies",
     description:
-      "By continuing to use our site, you agree to our Cookie Policy.",
-    accept: "Continue",
+      "We use necessary cookies for the site to work. We also use analytics and marketing cookies to improve our services – only if you agree.",
+    acceptAll: "Accept all",
+    rejectAll: "Only necessary",
     privacy: "Cookie Policy",
   },
   pl: {
     title: "Używamy plików cookie",
     description:
-      "Kontynuując korzystanie z naszej witryny, zgadzasz się z polityką plików cookie.",
-    accept: "Kontynuuj",
+      "Używamy niezbędnych plików cookie, aby strona działała poprawnie. Analityczne i marketingowe pliki cookie wykorzystujemy tylko za Twoją zgodą.",
+    acceptAll: "Akceptuj wszystkie",
+    rejectAll: "Tylko niezbędne",
     privacy: "Polityka plików cookie",
   },
   ru: {
-    title: "Мы используем cookies",
+    title: "Мы используем файлы cookie",
     description:
-      "Используя наш сайт, вы соглашаетесь с нашей политикой в отношении cookies.",
-    accept: "Продолжить",
+      "Мы используем необходимые файлы cookie для работы сайта. Аналитические и маркетинговые файлы cookie используются только с вашего согласия.",
+    acceptAll: "Принять все",
+    rejectAll: "Только необходимые",
     privacy: "Политика использования cookies",
   },
 };
 
 export default function CustomCookieConsent({ lang }: Props) {
   const router = useRouter();
+  const t = dictionary[lang] || dictionary.en;
 
   const getNormalizedHref = (lang: string, link: string) => {
     const normalizedLink = link.startsWith("/") ? link.slice(1) : link;
-    const languagePrefix = lang === "de" ? "" : `/${lang}`;
+    const languagePrefix = lang === "en" ? "" : `/${lang}`;
     return `${languagePrefix}/${normalizedLink}`;
   };
 
-  const t = dictionary[lang] || dictionary.en;
-
   const [visible, setVisible] = useState(false);
 
+  // показываем баннер только если согласие ещё не сохранено
   useEffect(() => {
     const saved = Cookies.get(COOKIE_NAME);
     if (!saved) {
@@ -67,7 +70,10 @@ export default function CustomCookieConsent({ lang }: Props) {
       analytics: true,
       marketing: true,
     };
-    Cookies.set(COOKIE_NAME, JSON.stringify(consent), { expires: 180 });
+    Cookies.set(COOKIE_NAME, JSON.stringify(consent), {
+      expires: 180,
+      sameSite: "Lax",
+    });
     setVisible(false);
     router.refresh();
   };
@@ -78,7 +84,10 @@ export default function CustomCookieConsent({ lang }: Props) {
       analytics: false,
       marketing: false,
     };
-    Cookies.set(COOKIE_NAME, JSON.stringify(consent), { expires: 180 });
+    Cookies.set(COOKIE_NAME, JSON.stringify(consent), {
+      expires: 180,
+      sameSite: "Lax",
+    });
     setVisible(false);
     router.refresh();
   };
@@ -91,7 +100,17 @@ export default function CustomCookieConsent({ lang }: Props) {
       <p>{t.description}</p>
 
       <div className={styles.buttons}>
-        <button onClick={acceptAll}>{t.accept}</button>
+        <button
+          type="button"
+          onClick={acceptAll}
+          className={styles.primaryButton}
+        >
+          {t.acceptAll}
+        </button>
+
+        <button type="button" onClick={rejectAll} className={styles.linkButton}>
+          {t.rejectAll}
+        </button>
       </div>
 
       <p className={styles.policyLink}>
@@ -100,7 +119,6 @@ export default function CustomCookieConsent({ lang }: Props) {
             lang,
             {
               en: "privacy-policy",
-              de: "datenschutzrichtlinie",
               pl: "polityka-prywatnosci",
               ru: "politika-privatnosti",
             }[lang]

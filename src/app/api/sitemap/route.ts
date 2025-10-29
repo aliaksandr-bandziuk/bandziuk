@@ -86,9 +86,9 @@ async function generateSitemap(): Promise<SitemapPage[]> {
     const portfolioProjects = await getAllPortfolioByLang(lang);
     pages.push(
       ...portfolioProjects
+        .filter((proj) => proj?.slug?.[lang]?.current)
         .map((proj) => {
-          const slug = proj.slug[lang]?.current;
-          if (!slug) return null;
+          const slug = proj.slug[lang].current;
           const route = `${prefix}/portfolio/${slug}`;
           return {
             route,
@@ -97,7 +97,6 @@ async function generateSitemap(): Promise<SitemapPage[]> {
             priority: 0.8,
           };
         })
-        .filter((x): x is SitemapPage => Boolean(x))
     );
     pages.push({
       route: `${prefix}/portfolio`,

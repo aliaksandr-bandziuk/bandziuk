@@ -104,7 +104,7 @@ export async function getLastFourPortfolioByLang(
       _type == "portfolio" &&
       language == $lang &&
       defined(previewImage)
-    ] | order(_createdAt desc)[0...4]{
+    ] | order(_publishedAt desc)[0...4]{
       _id,
       title,
       slug,

@@ -3,7 +3,6 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import styles from "./ImageFullBlockComponent.module.scss";
 import { ImageFullBlock } from "@/types/blog";
-import FadeUpAnimate from "../FadeUpAnimate/FadeUpAnimate";
 
 type Props = {
   block: ImageFullBlock;

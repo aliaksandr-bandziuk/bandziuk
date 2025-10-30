@@ -42,6 +42,7 @@ import Footer from "@/app/components/layout/Footer/Footer";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
 import Breadcrumbs from "@/app/components/layout/Breadcrumbs/Breadcrumbs";
 import PropertyIntro from "@/app/components/blocks/PropertyIntro/PropertyIntro";
+import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/TableBlockComponent";
 
 type Props = {
   params: {
@@ -230,10 +231,10 @@ const SinglePage = async ({ params }: Props) => {
             <AccordionContainer block={(block as FaqBlock).faq} />
           </div>
         );
-      // case "tableBlock":
-      //   return (
-      //     <TableBlockComponent key={block._key} block={block as TableBlock} />
-      //   );
+      case "tableBlock":
+        return (
+          <TableBlockComponent key={block._key} block={block as TableBlock} />
+        );
       // default:
       //   return <p key={block._key}>Unsupported block type</p>;
     }
@@ -243,7 +244,7 @@ const SinglePage = async ({ params }: Props) => {
     <>
       <Header params={params} translations={translations} />
       <StructuredData {...structuredDataProps} />
-      <main>
+      <main className="singlepage">
         {page.previewImage && page.allowIntroBlock && (
           <>
             <PropertyIntro

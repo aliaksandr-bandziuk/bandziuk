@@ -16,6 +16,7 @@ import {
 } from "react-icons/fa6";
 import { urlFor } from "@/sanity/sanity.client";
 import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import ResponsiveMedia from "../../ui/ResponsiveMedia/ResponsiveMedia";
 
 type Props = {
   title: string;
@@ -36,8 +37,15 @@ const PropertyIntro: FC<Props> = ({
 }) => {
   return (
     <section className={styles.popertyIntro}>
+      <div className={styles.overlayFull}></div>
+      <ResponsiveMedia
+        title={title}
+        previewImage={previewImage}
+        videoId={videoId}
+        videoPreview={videoPreview}
+      />
       <div className={`container ${styles.contentInner}`}>
-        <div className={styles.overlay}></div>
+        {/* <div className={styles.overlay}></div> */}
         <div className={styles.content}>
           <div className={styles.contentWrapper}>
             <h1 className={styles.title}>{title}</h1>

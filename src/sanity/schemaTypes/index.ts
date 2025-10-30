@@ -31,6 +31,8 @@ import technology from "./technology";
 import projectCategory from "./projectCategory";
 import service from "./service";
 import portfolioPage from "./portfolioPage";
+import serviceFeature from "./serviceFeature";
+import serviceFeaturesBlock from "./serviceFeaturesBlock";
 
 export const schemaTypes = [
   header,
@@ -64,6 +66,8 @@ export const schemaTypes = [
   imageBulletsBlock,
   benefitsBlock,
   bulletsBlock,
+  serviceFeature,
+  serviceFeaturesBlock,
   docFile,
   localizedSlug,
 ];

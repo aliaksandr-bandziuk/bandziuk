@@ -1,0 +1,56 @@
+.features { /* секция под блок */ }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+.title { font-size: clamp(20px, 2.2vw, 28px); font-weight: 700; margin-bottom: 16px; }
+
+/* базовая сетка */
+.grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr; /* мобилка: одна колонка */
+}
+
+/* ≥640px: две колонки по умолчанию */
+@media (min-width: 640px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Модификаторы под реальное кол-во фич.
+   На md и выше начинаем различать 3/4/5. */
+
+@media (min-width: 768px) {
+  /* 3 фичи: делаем 3 колонки и держим так дальше */
+  .cols3 { grid-template-columns: repeat(3, 1fr); }
+
+  /* 4 фичи: на md — 2 колонки для «дыхания», на lg — 4 */
+  .cols4 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .cols4 { grid-template-columns: repeat(4, 1fr); }
+
+  /* 5 фичей: на lg — 4, на xl — 5 (ниже) */
+  .cols5 { grid-template-columns: repeat(4, 1fr); }
+}
+@media (min-width: 1280px) {
+  .cols5 { grid-template-columns: repeat(5, 1fr); }
+}
+
+/* карточки и иконки */
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 16px;
+  background: #fff;
+}
+
+.iconWrap {
+  width: 48px; height: 48px;
+  border-radius: 12px;
+  display: grid; place-items: center;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 12px;
+}
+
+.iconImg { width: 24px; height: 24px; object-fit: contain; }
+
+.cardTitle { font-weight: 600; margin-bottom: 6px; }
+.desc { color: #4b5563; line-height: 1.6; }

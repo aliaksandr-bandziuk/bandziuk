@@ -17,6 +17,26 @@ export type Seo = {
   metaDescription: string;
 };
 
+export type ServiceFeature = {
+  title: string;
+  image: ImageAlt;
+};
+
+export type ServiceFeatureItem = {
+  _key: string;
+  title: string; // локальный заголовок элемента в блоке
+  description?: string; // локальное описание
+  feature: ServiceFeature; // дереференс из reference
+};
+
+export type ServiceFeaturesBlock = {
+  _key: string;
+  _type: "serviceFeaturesBlock";
+  title: string;
+  features: ServiceFeatureItem[]; // 👈 было ServiceFeature[] — ДОЛЖНО быть ServiceFeatureItem[]
+  // если нужны отступы — добавь marginTop/marginBottom при желании
+};
+
 export type UnknownBlock = {
   _key: string;
   _type: string;

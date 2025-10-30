@@ -16,6 +16,7 @@ import {
   HowWeWorkBlock,
   BulletsBlock,
   TableBlock,
+  ServiceFeaturesBlock,
 } from "./blog";
 import { BenefitsBlock, Image } from "./homepage";
 import { ImageAlt, Project } from "./project";
@@ -66,6 +67,7 @@ export type Singlepage = {
     | HowWeWorkBlock
     | BulletsBlock
     | TableBlock
+    | ServiceFeaturesBlock
   >;
   projectSection?: ProjectSection;
   parentPage?: SinglepageRef;

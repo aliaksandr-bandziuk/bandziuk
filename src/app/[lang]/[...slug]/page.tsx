@@ -26,6 +26,7 @@ import {
   HowWeWorkBlock,
   BulletsBlock,
   TableBlock,
+  ServiceFeaturesBlock,
 } from "@/types/blog";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import {
@@ -43,6 +44,7 @@ import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
 import Breadcrumbs from "@/app/components/layout/Breadcrumbs/Breadcrumbs";
 import PropertyIntro from "@/app/components/blocks/PropertyIntro/PropertyIntro";
 import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/TableBlockComponent";
+import ServiceFeaturesBlockComponent from "@/app/components/blocks/ServiceFeaturesBlockComponent/ServiceFeaturesBlockComponent";
 
 type Props = {
   params: {
@@ -191,6 +193,13 @@ const SinglePage = async ({ params }: Props) => {
       case "textContent":
         return (
           <TextContentComponent key={block._key} block={block as TextContent} />
+        );
+      case "serviceFeaturesBlock":
+        return (
+          <ServiceFeaturesBlockComponent
+            key={block._key}
+            block={block as ServiceFeaturesBlock}
+          />
         );
       // case "accordionBlock":
       //   return (

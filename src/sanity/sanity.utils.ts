@@ -209,6 +209,26 @@ export async function getSinglePageByLang(
             }
           }
         },
+        _type == "serviceFeaturesBlock" => {
+          _key,
+          _type,
+          title,
+          features[] {
+            _key,
+            title,
+            description,
+            feature->{
+              title,
+              image{
+                _type,      // сохранить тип
+                asset,      // ВАЖНО: без "->", нужен asset._ref
+                alt
+              }
+            }
+          },
+          marginTop,
+          marginBottom
+        },
         _type == "contactFullBlock" => {
           _key,
           _type,
@@ -277,6 +297,7 @@ export async function getSinglePageByLang(
           marginBottom
         },
         _type != "textContent" &&
+        _type != "serviceFeaturesBlock" &&
         _type != "contactFullBlock" &&
         _type != "formMinimalBlock" => @
       },

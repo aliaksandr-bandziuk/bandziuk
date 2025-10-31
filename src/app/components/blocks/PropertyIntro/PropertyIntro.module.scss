@@ -41,6 +41,7 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
 }
 
 .contentInner {
@@ -49,10 +50,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
   max-width: 750px;
-  border-radius: 10px;
 }
 
 .content {

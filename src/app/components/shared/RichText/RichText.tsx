@@ -3,6 +3,13 @@ import Link from "next/link";
 import React from "react";
 import styles from "./RichText.module.scss";
 import { urlFor } from "@/sanity/sanity.client";
+import { Bitter } from "next/font/google";
+
+const bitter = Bitter({
+  subsets: ["latin", "cyrillic"],
+  style: ["normal", "italic"],
+  weight: ["400"],
+});
 
 // Компонент для SVG
 const BulletIcon = () => (
@@ -75,9 +82,15 @@ export const RichText = {
     //     {children}
     //   </h1>
     // ),
-    h2: ({ children }: any) => <h2 className={styles.h2}>{children}</h2>,
-    h3: ({ children }: any) => <h3 className={styles.h3}>{children}</h3>,
-    h4: ({ children }: any) => <h4 className={styles.h4}>{children}</h4>,
+    h2: ({ children }: any) => (
+      <h2 className={`${styles.h2} ${bitter.className}`}>{children}</h2>
+    ),
+    h3: ({ children }: any) => (
+      <h3 className={`${styles.h3} ${bitter.className}`}>{children}</h3>
+    ),
+    h4: ({ children }: any) => (
+      <h4 className={`${styles.h4} ${bitter.className}`}>{children}</h4>
+    ),
     blockquote: ({ children }: any) => (
       <blockquote className={styles.blockquote}>{children}</blockquote>
     ),

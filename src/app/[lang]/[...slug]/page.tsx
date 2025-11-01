@@ -45,6 +45,7 @@ import Breadcrumbs from "@/app/components/layout/Breadcrumbs/Breadcrumbs";
 import PropertyIntro from "@/app/components/blocks/PropertyIntro/PropertyIntro";
 import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/TableBlockComponent";
 import ServiceFeaturesBlockComponent from "@/app/components/blocks/ServiceFeaturesBlockComponent/ServiceFeaturesBlockComponent";
+import ImageFullBlockComponent from "@/app/components/blocks/ImageFullBlockComponent/ImageFullBlockComponent";
 
 type Props = {
   params: {
@@ -216,13 +217,13 @@ const SinglePage = async ({ params }: Props) => {
       //       lang={lang}
       //     />
       //   );
-      // case "imageFullBlock":
-      //   return (
-      //     <ImageFullBlockComponent
-      //       key={block._key}
-      //       block={block as ImageFullBlock}
-      //     />
-      //   );
+      case "imageFullBlock":
+        return (
+          <ImageFullBlockComponent
+            key={block._key}
+            block={block as ImageFullBlock}
+          />
+        );
       // case "buttonBlock":
       //   return (
       //     <ButtonBlockComponent key={block._key} block={block as ButtonBlock} />

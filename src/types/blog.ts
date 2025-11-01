@@ -146,8 +146,8 @@ export type ImageFullBlock = {
   _type: "imageFullBlock";
   title: string;
   imageMain: ImageMain;
-  hasDescription: boolean;
-  description?: DescriptionFull;
+  // hasDescription: boolean;
+  // description?: DescriptionFull;
 };
 // === Конец типов для imageFullBlock ===
 

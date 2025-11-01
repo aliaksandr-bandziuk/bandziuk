@@ -9,20 +9,25 @@ type Props = {
 };
 
 const ImageFullBlockComponent: FC<Props> = ({ block }) => {
-  const { title, imageMain, hasDescription, description } = block;
+  const {
+    title,
+    imageMain,
+    // hasDescription,
+    // description
+  } = block;
   const { picture, aspectRatio } = imageMain;
 
   // Выбираем HTML-тег для описания (h1 | h2 | h3 | p)
-  const Tag = description?.tag ?? "p";
+  // const Tag = description?.tag ?? "p";
   // Применяем стили в зависимости от тега
-  const tagStyle =
-    Tag === "h1"
-      ? styles.h1
-      : Tag === "h2"
-        ? styles.h2
-        : Tag === "h3"
-          ? styles.h3
-          : styles.paragraph;
+  // const tagStyle =
+  //   Tag === "h1"
+  //     ? styles.h1
+  //     : Tag === "h2"
+  //       ? styles.h2
+  //       : Tag === "h3"
+  //         ? styles.h3
+  //         : styles.paragraph;
 
   return (
     <section className={styles.imageFullBlock}>
@@ -42,7 +47,7 @@ const ImageFullBlockComponent: FC<Props> = ({ block }) => {
       </div>
 
       {/* Описание, если включено */}
-      {hasDescription && description && (
+      {/* {hasDescription && description && (
         <div className={styles.contentParent}>
           <div className={`container ${styles.contentInner}`}>
             <div className={styles.overlay}></div>
@@ -61,7 +66,7 @@ const ImageFullBlockComponent: FC<Props> = ({ block }) => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 };

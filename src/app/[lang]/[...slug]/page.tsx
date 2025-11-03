@@ -31,6 +31,7 @@ import {
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import {
   BenefitsBlock as BenefitsBlockType,
+  FaqSection,
   Translation,
 } from "@/types/homepage";
 import { Singlepage } from "@/types/singlepage";
@@ -46,6 +47,7 @@ import PropertyIntro from "@/app/components/blocks/PropertyIntro/PropertyIntro";
 import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/TableBlockComponent";
 import ServiceFeaturesBlockComponent from "@/app/components/blocks/ServiceFeaturesBlockComponent/ServiceFeaturesBlockComponent";
 import ImageFullBlockComponent from "@/app/components/blocks/ImageFullBlockComponent/ImageFullBlockComponent";
+import FaqHomepage from "@/app/components/sections/FaqHomepage/FaqHomepage";
 
 type Props = {
   params: {
@@ -235,12 +237,24 @@ const SinglePage = async ({ params }: Props) => {
       //       block={block as ImageBulletsBlock}
       //     />
       //   );
-      case "faqBlock":
-        return (
-          <div className="container" key={block._key}>
-            <AccordionContainer block={(block as FaqBlock).faq} />
-          </div>
-        );
+      // внутри renderContentBlock
+      case "faqBlock": {
+        const fb = block as FaqBlock;
+
+        // Собираем структуру, которую ждёт FaqHomepage
+        const faqSection: FaqSection = {
+          // если каких-то полей нет в твоём FaqBlock — подставляем пустые строки
+          _key: fb._key, // добавили
+          _type: "faqSection",
+          title: (fb as any).title ?? "",
+          pretitle: (fb as any).pretitle ?? "",
+          subtitle: (fb as any).subtitle ?? "",
+          faq: fb.faq, // это AccordionBlock
+        };
+
+        return <FaqHomepage key={fb._key} faqSection={faqSection} />;
+      }
+
       case "tableBlock":
         return (
           <TableBlockComponent key={block._key} block={block as TableBlock} />

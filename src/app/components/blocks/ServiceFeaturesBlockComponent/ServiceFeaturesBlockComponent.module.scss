@@ -30,6 +30,7 @@
 /* базовая сетка */
 .grid {
   display: grid;
+  align-items: start;
   gap: 24px;
   grid-template-columns: 1fr; /* мобилка: одна колонка */
 }

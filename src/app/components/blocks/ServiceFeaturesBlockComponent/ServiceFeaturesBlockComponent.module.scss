@@ -16,9 +16,14 @@
   font-weight: 500;
   color: #fff;
   font-style: italic;
+  text-align: center;
 
   @media screen and (min-width: 768px) {
     max-width: 700px;
+  }
+
+  @media screen and (min-width: 980px) {
+    max-width: 950px;
   }
 }
 

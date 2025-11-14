@@ -55,11 +55,11 @@ const PropertyIntro: FC<Props> = ({
                 {lang === "en"
                   ? "Request Personal Offer"
                   : lang === "de"
-                    ? "Persönliches Angebot anfordern"
+                    ? "Persönliches anfordern"
                     : lang === "pl"
-                      ? "Poproś o indywidualną ofertę"
+                      ? "Poproś o ofertę"
                       : lang === "ru"
-                        ? "Запросить персональное предложение"
+                        ? "Запросить предложение"
                         : "Request Personal Offer"}
               </ButtonModal>
             </div>

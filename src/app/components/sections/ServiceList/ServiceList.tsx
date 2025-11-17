@@ -1,4 +1,7 @@
 import { SinglepageRef } from "@/types/singlepage";
+import Link from "next/link";
+import styles from "./ServiceList.module.scss";
+import ServiceItem from "../../ui/ServiceItem/ServiceItem";
 
 type ServiceListProps = {
   services: SinglepageRef[];
@@ -11,37 +14,29 @@ const ServiceList = ({ services, lang, parentSlug }: ServiceListProps) => {
   if (!services?.length) return null;
 
   return (
-    <section className="services-list">
-      <div className="services-list__grid">
-        {services.map((service) => {
-          const childSlug = service.slug[lang]?.current;
-          if (!childSlug) return null;
+    <div className="container">
+      <section className={styles.serviceList}>
+        <div className={styles.servicesListGrid}>
+          {services.map((service) => {
+            const childSlug = service.slug[lang]?.current;
+            if (!childSlug) return null;
 
-          const pathSegments = [parentSlug, childSlug]
-            .filter(Boolean)
-            .join("/");
+            const pathSegments = [parentSlug, childSlug]
+              .filter(Boolean)
+              .join("/");
 
-          const href =
-            lang === "en" ? `/${pathSegments}` : `/${lang}/${pathSegments}`;
+            const href =
+              lang === "en" ? `/${pathSegments}` : `/${lang}/${pathSegments}`;
 
-          return (
-            <article key={service._id} className="services-list__item">
-              {/* лучше Link, но если тебе сейчас не критично — можно оставить <a> */}
-              <a href={href}>
-                {/* {service.previewImage && (
-                  <img
-                    src={service.previewImage.asset?.url}
-                    alt={service.previewImage.alt || service.title}
-                  />
-                )} */}
-                <h2>{service.title}</h2>
-                {service.excerpt && <p>{service.excerpt}</p>}
-              </a>
-            </article>
-          );
-        })}
-      </div>
-    </section>
+            return (
+              <Link href={href} className={styles.servicesListItem}>
+                <ServiceItem title={service.title} excerpt={service.excerpt} />
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+    </div>
   );
 };
 

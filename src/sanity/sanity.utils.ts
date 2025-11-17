@@ -318,7 +318,7 @@ export async function getSinglePageByLang(
         language == $lang &&
         pageType == "service" &&
         parentPage._ref == ^._id
-      ] | order(_createdAt desc) {
+      ] | order(_createdAt asc) {
         _id,
         title,
         slug,

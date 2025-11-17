@@ -183,6 +183,7 @@ export async function getSinglePageByLang(
       excerpt,
       previewImage,
       allowIntroBlock,
+      pageType,
       contentBlocks[] {
       _type == "textContent" => {
           _key,
@@ -305,6 +306,31 @@ export async function getSinglePageByLang(
         _id,
         title,
         slug,
+        "_translations": *[
+          _type == "translation.metadata" &&
+          references(^._id)
+        ].translations[].value->{
+          slug
+        }
+      },
+      "childrenServices": *[
+        _type == "singlepage" &&
+        language == $lang &&
+        pageType == "service" &&
+        parentPage._ref == ^._id
+      ] | order(_createdAt desc) {
+        _id,
+        title,
+        slug,
+        excerpt,
+        previewImage{
+          asset->{
+            _id,
+            url,
+            metadata { dimensions { width, height } }
+          },
+          alt
+        },
         "_translations": *[
           _type == "translation.metadata" &&
           references(^._id)

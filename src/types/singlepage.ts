@@ -21,6 +21,8 @@ import {
 import { BenefitsBlock, Image } from "./homepage";
 import { ImageAlt, Project } from "./project";
 
+export type PageType = "page" | "service" | "servicesIndex";
+
 export type ProjectSection = {
   title: string;
   projects: Project[];
@@ -33,7 +35,8 @@ export type SinglepageRef = {
   slug: {
     [lang: string]: { current: string };
   };
-
+  excerpt?: string;
+  previewImage?: ImageAlt;
   _translations?: Array<{
     slug: {
       [lang: string]: { current: string };
@@ -80,4 +83,6 @@ export type Singlepage = {
       [lang: string]: { current: string };
     };
   }>;
+  pageType?: PageType;
+  childrenServices?: SinglepageRef[];
 };

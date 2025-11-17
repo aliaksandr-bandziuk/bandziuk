@@ -48,6 +48,7 @@ import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/Tab
 import ServiceFeaturesBlockComponent from "@/app/components/blocks/ServiceFeaturesBlockComponent/ServiceFeaturesBlockComponent";
 import ImageFullBlockComponent from "@/app/components/blocks/ImageFullBlockComponent/ImageFullBlockComponent";
 import FaqHomepage from "@/app/components/sections/FaqHomepage/FaqHomepage";
+import ServiceList from "@/app/components/sections/ServiceList/ServiceList";
 
 type Props = {
   params: {
@@ -284,14 +285,12 @@ const SinglePage = async ({ params }: Props) => {
             />
           </>
         )}
-        {!page.previewImage && !page.allowIntroBlock && (
-          <div className="breadcrumbs-mt">
-            <Breadcrumbs
-              lang={lang}
-              segments={params.slug}
-              currentTitle={page.title}
-            />
-          </div>
+        {page.pageType === "servicesIndex" && (
+          <ServiceList
+            services={page.childrenServices || []}
+            lang={lang}
+            parentSlug={page.slug[lang]?.current}
+          />
         )}
         {allBlocks.map(renderContentBlock)}
       </main>

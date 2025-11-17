@@ -98,6 +98,20 @@ const singlepage = {
       },
     }),
     defineField({
+      name: "pageType",
+      title: "Page Type",
+      type: "string",
+      options: {
+        list: [
+          { title: "Regular page", value: "page" },
+          { title: "Service", value: "service" },
+          { title: "Services index", value: "servicesIndex" },
+        ],
+        layout: "radio",
+      },
+      initialValue: "page",
+    }),
+    defineField({
       name: "language",
       type: "string",
       initialValue: "id",

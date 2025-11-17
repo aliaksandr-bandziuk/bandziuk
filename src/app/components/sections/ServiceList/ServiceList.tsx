@@ -29,7 +29,11 @@ const ServiceList = ({ services, lang, parentSlug }: ServiceListProps) => {
               lang === "en" ? `/${pathSegments}` : `/${lang}/${pathSegments}`;
 
             return (
-              <Link href={href} className={styles.servicesListItem}>
+              <Link
+                href={href}
+                key={service._id}
+                className={styles.servicesListItem}
+              >
                 <ServiceItem title={service.title} excerpt={service.excerpt} />
               </Link>
             );

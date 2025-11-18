@@ -168,6 +168,11 @@ const SinglePage = async ({ params }: Props) => {
     metaDescription: page.seo.metaDescription,
     url,
     blocks: sdBlocks,
+    pageType: page.pageType,
+    pageTitle: page.title,
+    excerpt: page.excerpt,
+    servicesParentSlug: page.slug[lang]?.current,
+    services: page.childrenServices || [],
   };
 
   // Правильный маппинг переводов без ошибки TS

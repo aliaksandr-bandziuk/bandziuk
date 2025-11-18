@@ -7,6 +7,7 @@ import {
   ReviewsFullBlock,
   ReviewFull,
 } from "@/types/blog";
+import { PageType as SinglePageType, SinglepageRef } from "@/types/singlepage";
 
 export type PageInput = {
   slug: string;
@@ -17,6 +18,11 @@ export type PageInput = {
   blocks: Array<
     ContactFullBlock | TeamBlock | LocationBlock | ReviewsFullBlock
   >;
+  pageType?: SinglePageType;
+  pageTitle?: string;
+  excerpt?: string;
+  servicesParentSlug?: string; // slug разводящей страницы в текущем языке
+  services?: SinglepageRef[];
 };
 
 // ---- Type guards ----
@@ -60,28 +66,32 @@ export function generateStructuredData({
   metaDescription,
   url,
   blocks,
+  pageType,
+  pageTitle,
+  excerpt,
+  servicesParentSlug,
+  services,
 }: PageInput) {
   const aboutKeywords = ["ueber-uns", "about", "o-kompanii", "o-nas"];
   const contactsKeywords = ["kontakt", "contacts", "kontakty"];
   const slugLower = slug.toLowerCase();
 
-  const pageType: "AboutPage" | "ContactPage" | "WebPage" = aboutKeywords.some(
-    (kw) => slugLower.includes(kw)
-  )
-    ? "AboutPage"
-    : contactsKeywords.some((kw) => slugLower.includes(kw))
-      ? "ContactPage"
-      : "WebPage";
+  const schemaPageType: "AboutPage" | "ContactPage" | "WebPage" =
+    aboutKeywords.some((kw) => slugLower.includes(kw))
+      ? "AboutPage"
+      : contactsKeywords.some((kw) => slugLower.includes(kw))
+        ? "ContactPage"
+        : "WebPage";
 
   const jsonLd: any = {
     "@context": "https://schema.org",
-    "@type": pageType,
+    "@type": schemaPageType,
     name: metaTitle,
     description: metaDescription,
     url,
   };
 
-  if (pageType === "ContactPage") {
+  if (schemaPageType === "ContactPage") {
     // Собираем контакты
     const contactPoints = blocks.filter(isContactFullBlock).flatMap((b) =>
       b.contacts.map((c) => {
@@ -131,6 +141,61 @@ export function generateStructuredData({
     };
 
     return jsonLd;
+  }
+
+  // 1) Services Index → ItemList из Service
+  if (pageType === "servicesIndex" && services && services.length > 0) {
+    const buildServiceUrl = (serviceSlug: string) => {
+      const pathSegments = [servicesParentSlug, serviceSlug]
+        .filter(Boolean)
+        .join("/");
+
+      return lang === "en"
+        ? `https://www.bandziuk.com/${pathSegments}`
+        : `https://www.bandziuk.com/${lang}/${pathSegments}`;
+    };
+
+    jsonLd.mainEntity = {
+      "@type": "ItemList",
+      itemListElement: services
+        .map((service, index) => {
+          const childSlug = service.slug[lang]?.current;
+          if (!childSlug) return null;
+
+          return {
+            "@type": "Service",
+            position: index + 1,
+            name: service.title,
+            description: service.excerpt || undefined,
+            url: buildServiceUrl(childSlug),
+            provider: {
+              "@type": "Person",
+              name: "Aliaksandr Bandziuk",
+              url: "https://www.bandziuk.com",
+            },
+          };
+        })
+        .filter(Boolean),
+    };
+  }
+
+  // 2) Конкретная страница услуги → Service
+  if (pageType === "service") {
+    jsonLd.mainEntity = {
+      "@type": "Service",
+      name: pageTitle || metaTitle,
+      description: excerpt || metaDescription,
+      serviceType: pageTitle || metaTitle,
+      provider: {
+        "@type": "Person",
+        name: "Aliaksandr Bandziuk",
+        url: "https://www.bandziuk.com",
+      },
+      areaServed: {
+        "@type": "Country",
+        name: "Poland",
+      },
+    };
   }
 
   // Для AboutPage и WebPage обрабатываем отзывы

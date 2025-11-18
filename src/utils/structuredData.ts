@@ -83,15 +83,18 @@ export function generateStructuredData({
         ? "ContactPage"
         : "WebPage";
 
+  const baseType =
+    pageType === "service" ? ["WebPage", "Service"] : schemaPageType;
+
   const jsonLd: any = {
     "@context": "https://schema.org",
-    "@type": schemaPageType,
+    "@type": baseType,
     name: metaTitle,
     description: metaDescription,
     url,
   };
 
-  if (schemaPageType === "ContactPage") {
+  if (schemaPageType === "ContactPage" && pageType !== "service") {
     // Собираем контакты
     const contactPoints = blocks.filter(isContactFullBlock).flatMap((b) =>
       b.contacts.map((c) => {
@@ -181,20 +184,18 @@ export function generateStructuredData({
 
   // 2) Конкретная страница услуги → Service
   if (pageType === "service") {
-    jsonLd.mainEntity = {
-      "@type": "Service",
-      name: pageTitle || metaTitle,
-      description: excerpt || metaDescription,
-      serviceType: pageTitle || metaTitle,
-      provider: {
-        "@type": "Person",
-        name: "Aliaksandr Bandziuk",
-        url: "https://www.bandziuk.com",
-      },
-      areaServed: {
-        "@type": "Country",
-        name: "Poland",
-      },
+    // корень уже @type: ["WebPage","Service"], просто добавляем поля услуги
+    jsonLd.name = pageTitle || metaTitle; // имя услуги
+    jsonLd.description = excerpt || metaDescription;
+    jsonLd.serviceType = pageTitle || metaTitle;
+    jsonLd.provider = {
+      "@type": "Person",
+      name: "Aliaksandr Bandziuk",
+      url: "https://www.bandziuk.com",
+    };
+    jsonLd.areaServed = {
+      "@type": "Country",
+      name: "Poland",
     };
   }
 

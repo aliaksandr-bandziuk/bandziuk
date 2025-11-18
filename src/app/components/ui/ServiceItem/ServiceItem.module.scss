@@ -4,6 +4,8 @@
   border-radius: 12px;
   padding: 30px;
   height: 100%;
+  position: relative;
+  overflow: hidden;
 
   svg {
     margin-left: auto;
@@ -32,10 +34,20 @@
   }
 }
 
+.bg {
+  opacity: 0.1;
+
+  img {
+    object-fit: cover;
+  }
+}
+
 .serviceItemWrapper {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 0.2fr;
+  position: relative;
+  z-index: 1;
 }
 
 .content {

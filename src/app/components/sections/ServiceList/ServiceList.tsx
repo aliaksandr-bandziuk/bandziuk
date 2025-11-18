@@ -34,7 +34,11 @@ const ServiceList = ({ services, lang, parentSlug }: ServiceListProps) => {
                 key={service._id}
                 className={styles.servicesListItem}
               >
-                <ServiceItem title={service.title} excerpt={service.excerpt} />
+                <ServiceItem
+                  title={service.title}
+                  excerpt={service.excerpt}
+                  previewImage={service.previewImage}
+                />
               </Link>
             );
           })}

@@ -137,6 +137,20 @@ const doubleTextBlock = defineType({
         ],
       },
     }),
+    // vertical alignment
+    defineField({
+      name: "verticalAlign",
+      title: "Vertical Align",
+      type: "string",
+      options: {
+        list: [
+          { title: "Top", value: "top" },
+          { title: "Center", value: "center" },
+          { title: "Bottom", value: "bottom" },
+        ],
+      },
+      initialValue: "top",
+    }),
   ],
 });
 

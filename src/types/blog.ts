@@ -176,6 +176,7 @@ export type DoubleTextBlock = {
   marginBottom?: "small" | "medium" | "large";
   paddingTop?: "small" | "medium" | "large";
   paddingBottom?: "small" | "medium" | "large";
+  verticalAlign?: "top" | "center" | "bottom";
 };
 // === Конец типов для DoubleTextBlock ===
 

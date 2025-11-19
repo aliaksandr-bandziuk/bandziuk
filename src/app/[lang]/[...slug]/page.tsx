@@ -49,6 +49,7 @@ import ServiceFeaturesBlockComponent from "@/app/components/blocks/ServiceFeatur
 import ImageFullBlockComponent from "@/app/components/blocks/ImageFullBlockComponent/ImageFullBlockComponent";
 import FaqHomepage from "@/app/components/sections/FaqHomepage/FaqHomepage";
 import ServiceList from "@/app/components/sections/ServiceList/ServiceList";
+import DoubleTextBlockComponent from "@/app/components/blocks/DoubleTextBlockComponent/DoubleTextBlockComponent";
 
 type Props = {
   params: {
@@ -230,6 +231,13 @@ const SinglePage = async ({ params }: Props) => {
           <ImageFullBlockComponent
             key={block._key}
             block={block as ImageFullBlock}
+          />
+        );
+      case "doubleTextBlock":
+        return (
+          <DoubleTextBlockComponent
+            key={block._key}
+            block={block as DoubleTextBlock}
           />
         );
       // case "buttonBlock":

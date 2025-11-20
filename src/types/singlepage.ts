@@ -17,6 +17,7 @@ import {
   BulletsBlock,
   TableBlock,
   ServiceFeaturesBlock,
+  GridBlock,
 } from "./blog";
 import { BenefitsBlock, Image } from "./homepage";
 import { ImageAlt, Project } from "./project";
@@ -71,6 +72,7 @@ export type Singlepage = {
     | BulletsBlock
     | TableBlock
     | ServiceFeaturesBlock
+    | GridBlock
   >;
   projectSection?: ProjectSection;
   parentPage?: SinglepageRef;

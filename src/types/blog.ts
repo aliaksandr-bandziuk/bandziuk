@@ -1,6 +1,6 @@
 import { FormStandardDocument } from "./formStandardDocument";
 import { navLink } from "./header";
-import { BenefitsBlock } from "./homepage";
+import { BenefitsBlock, ServiceItem } from "./homepage";
 import { GeoPoint, ImageAlt, Project } from "./project";
 
 type ContactType = "Email" | "Phone" | "Link";
@@ -299,6 +299,17 @@ export type TableBlock = {
   marginBottom?: "small" | "medium" | "large";
 };
 // === Конец типов для TableBlock ===
+
+// === Типы для GridBlock ===
+export type GridBlock = {
+  _key: string;
+  _type: "gridBlock";
+  title: string;
+  items: ServiceItem[];
+  marginTop?: "small" | "medium" | "large";
+  marginBottom?: "small" | "medium" | "large";
+};
+// === Конец типов для GridBlock ===
 
 export type TabsBlock = {
   _key: string;

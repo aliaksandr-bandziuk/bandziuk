@@ -1,15 +1,11 @@
 import React, { FC } from "react";
-import styles from "./Services.module.scss";
-import { ServicesSection } from "@/types/homepage";
-import { Bitter } from "next/font/google";
+import { GridBlock } from "@/types/blog";
+import styles from "./GridBlockComponent.module.scss";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import Link from "next/link";
+import { Bitter } from "next/font/google";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
-
-type Props = {
-  servicesSection: ServicesSection;
-};
 
 const bitter = Bitter({
   subsets: ["latin", "cyrillic"],
@@ -17,23 +13,46 @@ const bitter = Bitter({
   weight: ["400"],
 });
 
-const Services: FC<Props> = ({ servicesSection }) => {
-  if (!servicesSection) {
-    return null;
-  }
+type Props = {
+  block: GridBlock;
+};
 
-  const { pretitle, title, subtitle, serviceItems, fullLink } = servicesSection;
+const marginValues: Record<string, string> = {
+  small: "clamp(0.625rem, 2.5vw, 1.875rem)",
+  medium: "clamp(1.25rem, 0.5rem + 3vw, 2.75rem)",
+  large: "clamp(1.25rem, 5vw, 3.75rem)",
+};
+
+const GridBlockComponent: FC<Props> = ({ block }) => {
+  const { title, items, marginTop, marginBottom } = block;
+
+  const computedMarginTop =
+    marginTop && marginValues[marginTop] ? marginValues[marginTop] : "0";
+
+  const computedMarginBottom =
+    marginBottom && marginValues[marginBottom]
+      ? marginValues[marginBottom]
+      : "0";
+
+  if (!items?.length) return null;
 
   return (
-    <section className={styles.servicesSection} id="services">
+    <section
+      className={styles.gridBlock}
+      style={{
+        marginTop: computedMarginTop,
+        marginBottom: computedMarginBottom,
+      }}
+    >
       <div className="container">
-        <div className={styles.text}>
-          <div className={styles.pretitle}>{pretitle}</div>
-          <h2 className={styles.title}>{title}</h2>
-          <p className={`${styles.subtitle} ${bitter.className}`}>{subtitle}</p>
-        </div>
-        <div className={styles.servicesItems}>
-          {serviceItems.map((item, index) => (
+        {title && (
+          <div className={styles.text}>
+            <h2 className={`${styles.title} ${bitter.className}`}>{title}</h2>
+          </div>
+        )}
+
+        <div className={styles.items}>
+          {items.map((item, index) => (
             <div key={item._key} className={styles.serviceItemWrapperGrid}>
               <FadeInOnScroll index={index}>
                 <div className={styles.serviceItem}>
@@ -73,4 +92,4 @@ const Services: FC<Props> = ({ servicesSection }) => {
   );
 };
 
-export default Services;
+export default GridBlockComponent;

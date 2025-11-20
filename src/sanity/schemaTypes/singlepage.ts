@@ -81,6 +81,7 @@ const singlepage = {
         { type: "reviewsFullBlock" },
         { type: "formMinimalBlock" },
         { type: "bulletsBlock" },
+        { type: "gridBlock" },
         { type: "tableBlock" },
         { type: "serviceFeaturesBlock" },
       ],

@@ -126,8 +126,8 @@ export type ServiceItem = {
   icon: ImageAlt;
   title: string;
   description: string;
-  linkLabel: string;
-  linkDestination: string;
+  linkLabel?: string;
+  linkDestination?: string;
 };
 
 export type ServicesSection = {

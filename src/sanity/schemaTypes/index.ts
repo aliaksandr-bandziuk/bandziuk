@@ -33,6 +33,7 @@ import service from "./service";
 import portfolioPage from "./portfolioPage";
 import serviceFeature from "./serviceFeature";
 import serviceFeaturesBlock from "./serviceFeaturesBlock";
+import gridBlock from "./gridBlock";
 
 export const schemaTypes = [
   header,
@@ -61,6 +62,7 @@ export const schemaTypes = [
   buttonBlock,
   accordionBlock,
   locationBlock,
+  gridBlock,
   tableBlock,
   reviewsFullBlock,
   imageBulletsBlock,

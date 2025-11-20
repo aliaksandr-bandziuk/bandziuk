@@ -1,4 +1,4 @@
-.gridBlock {
+.servicesSection {
   margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
 }
 
@@ -20,9 +20,11 @@
 }
 
 .title {
+  color: inherit;
   font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
   line-height: 1.2;
   font-weight: 500;
+  font-style: italic;
 }
 
 .subtitle {
@@ -37,7 +39,7 @@
   }
 }
 
-.servicesItems {
+.items {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 18px;

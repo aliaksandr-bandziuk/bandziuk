@@ -35,6 +35,7 @@ import serviceFeature from "./serviceFeature";
 import serviceFeaturesBlock from "./serviceFeaturesBlock";
 import gridBlock from "./gridBlock";
 import animationBulletsBlock from "./animationBulletsBlock";
+import workProcessBlock from "./workProcessBlock";
 
 export const schemaTypes = [
   header,
@@ -72,6 +73,7 @@ export const schemaTypes = [
   bulletsBlock,
   serviceFeature,
   serviceFeaturesBlock,
+  workProcessBlock,
   docFile,
   localizedSlug,
 ];

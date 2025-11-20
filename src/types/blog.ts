@@ -263,15 +263,15 @@ export type FaqBlock = {
 };
 // === Конец типов для FAQBlock ===
 
-// === Типы для HowWeWorkBlock ===
-export type HowWeWorkBlock = {
+// === Типы для WorkProcessBlock ===
+export type WorkProcessBlock = {
   _key: string;
-  _type: "howWeWorkBlock";
+  _type: "workProcessBlock";
   title: string;
   marginTop?: "small" | "medium" | "large";
   marginBottom?: "small" | "medium" | "large";
 };
-// === Конец типов для HowWeWorkBlock ===
+// === Конец типов для WorkProcessBlock ===
 
 // === Типы для BulletsBlock ===
 export type BulletsBlock = {

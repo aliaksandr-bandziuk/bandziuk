@@ -85,6 +85,7 @@ const singlepage = {
         { type: "animationBulletsBlock" },
         { type: "tableBlock" },
         { type: "serviceFeaturesBlock" },
+        { type: "workProcessBlock" },
       ],
     }),
     defineField({

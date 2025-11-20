@@ -23,7 +23,7 @@ import {
   ProjectsSectionBlock,
   FaqBlock,
   FormMinimalBlock,
-  HowWeWorkBlock,
+  WorkProcessBlock,
   BulletsBlock,
   TableBlock,
   ServiceFeaturesBlock,
@@ -54,6 +54,7 @@ import ServiceList from "@/app/components/sections/ServiceList/ServiceList";
 import DoubleTextBlockComponent from "@/app/components/blocks/DoubleTextBlockComponent/DoubleTextBlockComponent";
 import GridBlockComponent from "@/app/components/blocks/GridBlockComponent/GridBlockComponent";
 import AnimationBulletsBlockComponent from "@/app/components/blocks/AnimationBulletsBlock/AnimationBulletsBlock";
+import WorkProcessBlockComponent from "@/app/components/blocks/WorkProcessBlockComponent/WorkProcessBlockComponent";
 
 type Props = {
   params: {
@@ -253,6 +254,14 @@ const SinglePage = async ({ params }: Props) => {
           <AnimationBulletsBlockComponent
             key={block._key}
             block={block as AnimationBulletsBlock}
+          />
+        );
+      case "workProcessBlock":
+        return (
+          <WorkProcessBlockComponent
+            key={block._key}
+            block={block as WorkProcessBlock}
+            lang={lang}
           />
         );
       // case "buttonBlock":

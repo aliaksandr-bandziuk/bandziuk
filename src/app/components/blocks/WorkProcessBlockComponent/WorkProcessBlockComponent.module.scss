@@ -1,0 +1,105 @@
+.howWeWorkBlock {
+  width: 100%;
+}
+
+.inner {
+  text-align: center;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin-top: 3rem;
+
+  @media (min-width: 980px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  // @media (min-width: 1200px) {
+  //   grid-template-columns: repeat(6, 1fr);
+  // }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.stepItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  @media screen and (min-width: 980px) {
+    flex-direction: column;
+    justify-content: unset;
+  }
+}
+
+@media (min-width: 1200px) {
+  .stepItem.isEven {
+    flex-direction: column-reverse;     // текст вниз
+  }
+}
+
+.textBlock {
+  max-width: 220px;
+}
+
+.stepTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.stepDescription {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
+/* ------ ФОРМЫ ------ */
+
+.shape {
+  position: relative;
+  width: 170px;
+  height: 110px;
+  margin: 1.5rem 0;
+}
+
+.shapeSvg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* нечётные шаги — "веер" вниз, как в верхнем ряду на примере */
+.shapeDown .shapeSvg {
+  transform: none;
+}
+
+/* чётные шаги — перевёрнутая фигура, как нижний ряд */
+.shapeUp .shapeSvg {
+  transform: scaleY(-1);
+}
+
+/* иконка по центру формы */
+.icon {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.stepNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--corp-color);
+}

@@ -13,7 +13,6 @@ import {
   ProjectsSectionBlock,
   FaqBlock,
   FormMinimalBlock,
-  HowWeWorkBlock,
   BulletsBlock,
   TableBlock,
   ServiceFeaturesBlock,

@@ -1,0 +1,64 @@
+.bulletsBlock {
+  margin-bottom: clamp(1.875rem, 0.284rem + 7.95vw, 6.25rem);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
+}
+
+.title {
+  color: inherit;
+  font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
+  line-height: 1.2;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.bulletsList {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}
+
+.bullet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(0.313rem, 0.085rem + 1.14vw, 0.938rem);
+  color: #fff;
+  padding: clamp(0.625rem, 0.352rem + 1.36vw, 1.375rem);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.bulletTitle {
+  font-size: clamp(1.5rem, 0.341rem + 5.8vw, 4.688rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  display: flex;
+  color: var(--corp-color)
+}
+
+.bulletText {
+  font-size: clamp(0.75rem, 0.568rem + 0.91vw, 1.25rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    letter-spacing: -0.6px;
+  }
+}

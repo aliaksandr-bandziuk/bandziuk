@@ -311,6 +311,25 @@ export type GridBlock = {
 };
 // === Конец типов для GridBlock ===
 
+// === Типы для AnimationBulletsBlock ===
+export type AnimationBullet = {
+  _key: string;
+  _type: string;
+  number: string;
+  sign?: string;
+  text: string;
+};
+
+export type AnimationBulletsBlock = {
+  _key: string;
+  _type: "animationBulletsBlock";
+  title: string;
+  bullets: AnimationBullet[];
+  marginTop?: "small" | "medium" | "large";
+  marginBottom?: "small" | "medium" | "large";
+};
+// === Конец типов для AnimationBulletsBlock ===
+
 export type TabsBlock = {
   _key: string;
   _type: string;

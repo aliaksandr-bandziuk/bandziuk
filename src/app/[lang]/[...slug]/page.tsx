@@ -28,6 +28,7 @@ import {
   TableBlock,
   ServiceFeaturesBlock,
   GridBlock,
+  AnimationBulletsBlock,
 } from "@/types/blog";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import {
@@ -52,6 +53,7 @@ import FaqHomepage from "@/app/components/sections/FaqHomepage/FaqHomepage";
 import ServiceList from "@/app/components/sections/ServiceList/ServiceList";
 import DoubleTextBlockComponent from "@/app/components/blocks/DoubleTextBlockComponent/DoubleTextBlockComponent";
 import GridBlockComponent from "@/app/components/blocks/GridBlockComponent/GridBlockComponent";
+import AnimationBulletsBlockComponent from "@/app/components/blocks/AnimationBulletsBlock/AnimationBulletsBlock";
 
 type Props = {
   params: {
@@ -245,6 +247,13 @@ const SinglePage = async ({ params }: Props) => {
       case "gridBlock":
         return (
           <GridBlockComponent key={block._key} block={block as GridBlock} />
+        );
+      case "animationBulletsBlock":
+        return (
+          <AnimationBulletsBlockComponent
+            key={block._key}
+            block={block as AnimationBulletsBlock}
+          />
         );
       // case "buttonBlock":
       //   return (

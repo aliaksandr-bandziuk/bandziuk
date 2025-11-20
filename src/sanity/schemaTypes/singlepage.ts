@@ -82,6 +82,7 @@ const singlepage = {
         { type: "formMinimalBlock" },
         { type: "bulletsBlock" },
         { type: "gridBlock" },
+        { type: "animationBulletsBlock" },
         { type: "tableBlock" },
         { type: "serviceFeaturesBlock" },
       ],

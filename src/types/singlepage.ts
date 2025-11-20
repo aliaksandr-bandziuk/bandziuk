@@ -67,7 +67,6 @@ export type Singlepage = {
     | ProjectsSectionBlock
     | FaqBlock
     | FormMinimalBlock
-    | HowWeWorkBlock
     | BulletsBlock
     | TableBlock
     | ServiceFeaturesBlock

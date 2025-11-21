@@ -297,9 +297,32 @@ export async function getSinglePageByLang(
           marginTop,
           marginBottom
         },
+        _type == "portfolioBlock" => {
+          _key,
+          _type,
+          title,
+          portfolioItems[]->{
+            _id,
+            title,
+            excerpt,
+            previewImage {
+              asset->{
+                _id,
+                url,
+                metadata { dimensions { width, height } }
+              },
+              alt
+            },
+            "slug": slug[$lang].current,
+            keyFeatures
+          },
+          marginTop,
+          marginBottom
+        },
         _type != "textContent" &&
         _type != "serviceFeaturesBlock" &&
         _type != "contactFullBlock" &&
+        _type != "portfolioBlock" &&
         _type != "formMinimalBlock" => @
       },
       "parentPage": parentPage->{

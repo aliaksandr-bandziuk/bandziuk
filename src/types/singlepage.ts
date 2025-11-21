@@ -10,7 +10,7 @@ import {
   ButtonBlock,
   ImageBulletsBlock,
   ReviewsFullBlock,
-  ProjectsSectionBlock,
+  PortfolioBlock,
   FaqBlock,
   FormMinimalBlock,
   BulletsBlock,
@@ -64,7 +64,7 @@ export type Singlepage = {
     | ImageBulletsBlock
     | BenefitsBlock
     | ReviewsFullBlock
-    | ProjectsSectionBlock
+    | PortfolioBlock
     | FaqBlock
     | FormMinimalBlock
     | BulletsBlock

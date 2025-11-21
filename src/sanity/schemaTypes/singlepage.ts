@@ -86,6 +86,7 @@ const singlepage = {
         { type: "tableBlock" },
         { type: "serviceFeaturesBlock" },
         { type: "workProcessBlock" },
+        { type: "portfolioBlock" },
       ],
     }),
     defineField({

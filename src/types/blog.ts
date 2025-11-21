@@ -1,6 +1,7 @@
 import { FormStandardDocument } from "./formStandardDocument";
 import { navLink } from "./header";
 import { BenefitsBlock, ServiceItem } from "./homepage";
+import { Portfolio } from "./portfolio";
 import { GeoPoint, ImageAlt, Project } from "./project";
 
 type ContactType = "Email" | "Phone" | "Link";
@@ -223,25 +224,16 @@ export type ReviewsFullBlock = {
 };
 // === Конец типов для ReviewsFullBlock ===
 
-// === Типы для ProjectsSectionBlick ===
-export type ProjectsSectionBlock = {
+// === Типы для PortfolioBlock ===
+export type PortfolioBlock = {
   _key: string;
-  _type: "projectsSectionBlock";
+  _type: "portfolioBlock";
   title: string;
-  filterCity?: "Paphos" | "Limassol" | "Larnaca";
-  filterPropertyType?:
-    | "Apartment"
-    | "Villa"
-    | "Townhouse"
-    | "Semi-detached villa"
-    | "Office"
-    | "Shop";
-  projects: Project[];
-  filteredProjects?: Project[];
+  portfolioItems: Portfolio[];
   marginTop?: "small" | "medium" | "large";
   marginBottom?: "small" | "medium" | "large";
 };
-// === Конец типов для ProjectsSectionBlick ===
+// === Конец типов для PortfolioBlock ===
 
 export type AccordionBlock = {
   _key: string;
@@ -382,7 +374,7 @@ export type Blog = {
     | FaqBlock
     | FormMinimalBlock
     | BulletsBlock
-    | ProjectsSectionBlock
+    | PortfolioBlock
     | TableBlock
   >;
   videoBlock: VideoBlock;

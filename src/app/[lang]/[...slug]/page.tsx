@@ -20,7 +20,7 @@ import {
   ButtonBlock,
   ImageBulletsBlock,
   ReviewsFullBlock,
-  ProjectsSectionBlock,
+  PortfolioBlock,
   FaqBlock,
   FormMinimalBlock,
   WorkProcessBlock,
@@ -55,6 +55,7 @@ import DoubleTextBlockComponent from "@/app/components/blocks/DoubleTextBlockCom
 import GridBlockComponent from "@/app/components/blocks/GridBlockComponent/GridBlockComponent";
 import AnimationBulletsBlockComponent from "@/app/components/blocks/AnimationBulletsBlock/AnimationBulletsBlock";
 import WorkProcessBlockComponent from "@/app/components/blocks/WorkProcessBlockComponent/WorkProcessBlockComponent";
+import PortfolioBlockComponent from "@/app/components/blocks/PortfolioBlockComponent/PortfolioBlockComponent";
 
 type Props = {
   params: {
@@ -254,6 +255,14 @@ const SinglePage = async ({ params }: Props) => {
           <AnimationBulletsBlockComponent
             key={block._key}
             block={block as AnimationBulletsBlock}
+          />
+        );
+      case "portfolioBlock":
+        return (
+          <PortfolioBlockComponent
+            key={block._key}
+            block={block as PortfolioBlock}
+            lang={lang}
           />
         );
       case "workProcessBlock":

@@ -56,6 +56,7 @@ import GridBlockComponent from "@/app/components/blocks/GridBlockComponent/GridB
 import AnimationBulletsBlockComponent from "@/app/components/blocks/AnimationBulletsBlock/AnimationBulletsBlock";
 import WorkProcessBlockComponent from "@/app/components/blocks/WorkProcessBlockComponent/WorkProcessBlockComponent";
 import PortfolioBlockComponent from "@/app/components/blocks/PortfolioBlockComponent/PortfolioBlockComponent";
+import FormMinimalBlockComponent from "@/app/components/blocks/FormMinimalBlockComponent/FormMinimalBlockComponent";
 
 type Props = {
   params: {
@@ -273,6 +274,16 @@ const SinglePage = async ({ params }: Props) => {
             lang={lang}
           />
         );
+      case "formMinimalBlock":
+        return (
+          <FormMinimalBlockComponent
+            key={(block as FormMinimalBlock)._key}
+            title={(block as FormMinimalBlock).title}
+            form={(block as FormMinimalBlock).form}
+            lang={lang}
+            offerButtonCustomText={(block as FormMinimalBlock).buttonText}
+          />
+        );
       // case "buttonBlock":
       //   return (
       //     <ButtonBlockComponent key={block._key} block={block as ButtonBlock} />
@@ -306,8 +317,8 @@ const SinglePage = async ({ params }: Props) => {
         return (
           <TableBlockComponent key={block._key} block={block as TableBlock} />
         );
-      // default:
-      //   return <p key={block._key}>Unsupported block type</p>;
+      default:
+        return <p key={block._key}>Unsupported block type</p>;
     }
   };
 

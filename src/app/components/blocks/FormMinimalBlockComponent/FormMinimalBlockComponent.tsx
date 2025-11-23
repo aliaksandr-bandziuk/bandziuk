@@ -21,7 +21,7 @@ const bitter = Bitter({
 
 export type FormData = {
   name: string;
-  phone: string;
+  // phone: string;
   email: string;
   // message: string;
   preferredContact: string;
@@ -47,7 +47,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
   const [message, setMessage] = useState<string | null>(null);
   const [filled, setFilled] = useState({
     name: false,
-    phone: false,
+    // phone: false,
     email: false,
     // message: false,
   });
@@ -57,7 +57,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
 
   useEffect(() => {
     const interval = setInterval(() => {
-      (["name", "phone", "email", "message"] as const).forEach((field) => {
+      (["name", "email"] as const).forEach((field) => {
         const el = document.getElementById(field) as
           | HTMLInputElement
           | HTMLTextAreaElement;
@@ -76,7 +76,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
 
   const initialValues: FormData = {
     name: "",
-    phone: "",
+    // phone: "",
     email: "",
     // message: "",
     preferredContact: "",
@@ -85,7 +85,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
 
   const validationSchema = Yup.object({
     name: Yup.string().required(`${dataForm.validationNameRequired}`),
-    phone: Yup.string().required(`${dataForm.validationPhoneRequired}`),
+    // phone: Yup.string().required(`${dataForm.validationPhoneRequired}`),
     // country: Yup.string().required(`${dataForm.validationCountryRequired}`),
     email: Yup.string()
       .email(`${dataForm.validationEmailInvalid}`)
@@ -109,7 +109,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
       });
       if (response.status === 200) {
         resetForm({});
-        setFilled({ name: false, phone: false, email: false });
+        setFilled({ name: false, email: false });
 
         // GTM event
         if (typeof window !== "undefined" && window.dataLayer) {
@@ -123,12 +123,12 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
         onFormSubmitSuccess && onFormSubmitSuccess();
         setMessage(
           lang === "ru"
-            ? "Мы получили вашу заявку и свяжемся с вами в ближайшее время."
+            ? "Я получил вашу заявку и свяжусь с вами в ближайшее время."
             : lang === "de"
-              ? "Wir haben Ihre Anfrage erhalten und werden uns in Kürze bei Ihnen melden."
+              ? "Ich habe Ihre Anfrage erhalten und werde mich in Kürze bei Ihnen melden."
               : lang === "pl"
-                ? "Otrzymaliśmy Twoje zapytanie i skontaktujemy się z Tobą wkrótce."
-                : "We have received your request and will contact you shortly."
+                ? "Otrzymałem Twoje zapytanie i skontaktuję się z Tobą wkrótce."
+                : "I have received your request and will contact you shortly."
         );
         setTimeout(() => {
           setMessage(null);
@@ -212,7 +212,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
                     />
                   </div>
 
-                  <div className={styles.inputWrapper}>
+                  {/* <div className={styles.inputWrapper}>
                     <label
                       // htmlFor="phone"
                       htmlFor={`${uid}-phone`}
@@ -233,7 +233,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
                       component="div"
                       className={styles.error}
                     />
-                  </div>
+                  </div> */}
 
                   <div className={styles.inputWrapper}>
                     <svg

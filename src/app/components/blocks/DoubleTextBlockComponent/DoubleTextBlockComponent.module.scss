@@ -1,6 +1,10 @@
 .doubleTextBlock {
   margin-bottom: 70px;
 
+  h2, h3, h4 {
+    line-height: 1.2;
+  }
+
   p, li {
     font-size: clamp(1rem, 0.875rem + 0.5vw, 1.25rem);
     font-weight: 400;

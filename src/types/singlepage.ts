@@ -17,6 +17,9 @@ import {
   ServiceFeaturesBlock,
   GridBlock,
   FormFullBlock,
+  ContactMethodsBlock,
+  WorkProcessBlock,
+  AnimationBulletsBlock,
 } from "./blog";
 import { BenefitsBlock, Image } from "./homepage";
 import { ImageAlt, Project } from "./project";
@@ -71,6 +74,9 @@ export type Singlepage = {
     | TableBlock
     | ServiceFeaturesBlock
     | GridBlock
+    | ContactMethodsBlock
+    | WorkProcessBlock
+    | AnimationBulletsBlock
   >;
   projectSection?: ProjectSection;
   parentPage?: SinglepageRef;

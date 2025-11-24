@@ -43,6 +43,22 @@
   font-style: italic;
 }
 
+.indirect {
+
+  @media screen and (min-width: 786px) {
+    max-width: 500px;
+    margin-inline: auto;
+  }
+
+  @media screen and (min-width: 980px) {
+    max-width: 700px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 900px;
+  }
+}
+
 .inputWrapper {
   margin-bottom: 15px;
   position: relative;
@@ -260,6 +276,7 @@
   display: flex;
   align-items: center;
   // padding-inline: 10px;
+  margin-left: 18px;
   margin-bottom: 15px;
   position: relative;
 

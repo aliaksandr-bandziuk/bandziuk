@@ -7,7 +7,7 @@ import axios from "axios";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 
-import styles from "./FormMinimalBlockComponent.module.scss";
+import styles from "./FormFullBlockComponent.module.scss";
 import { Form as FormType } from "@/types/form";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -21,9 +21,9 @@ const bitter = Bitter({
 
 export type FormData = {
   name: string;
-  // phone: string;
+  phone: string;
   email: string;
-  // message: string;
+  message: string;
   preferredContact: string;
   agreedToPolicy: boolean;
 };
@@ -36,7 +36,7 @@ export interface ContactFormProps {
   offerButtonCustomText?: string;
 }
 
-const FormMinimalBlockComponent: FC<ContactFormProps> = ({
+const FormFullBlockComponent: FC<ContactFormProps> = ({
   onFormSubmitSuccess,
   form,
   lang,
@@ -47,9 +47,9 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
   const [message, setMessage] = useState<string | null>(null);
   const [filled, setFilled] = useState({
     name: false,
-    // phone: false,
+    phone: false,
     email: false,
-    // message: false,
+    message: false,
   });
 
   const dataForm = form.form;
@@ -76,21 +76,21 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
 
   const initialValues: FormData = {
     name: "",
-    // phone: "",
+    phone: "",
     email: "",
-    // message: "",
+    message: "",
     preferredContact: "",
     agreedToPolicy: false,
   };
 
   const validationSchema = Yup.object({
     name: Yup.string().required(`${dataForm.validationNameRequired}`),
-    // phone: Yup.string().required(`${dataForm.validationPhoneRequired}`),
+    phone: Yup.string().required(`${dataForm.validationPhoneRequired}`),
     // country: Yup.string().required(`${dataForm.validationCountryRequired}`),
     email: Yup.string()
       .email(`${dataForm.validationEmailInvalid}`)
       .required(`${dataForm.validationEmailRequired}`),
-    // message: Yup.string().required(dataForm.validationMessageRequired!),
+    message: Yup.string().required(dataForm.validationMessageRequired!),
     agreedToPolicy: Yup.boolean()
       .required(`${dataForm.validationAgreementRequired}`)
       .oneOf([true], `${dataForm.validationAgreementOneOf}`),
@@ -109,7 +109,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
       });
       if (response.status === 200) {
         resetForm({});
-        setFilled({ name: false, email: false });
+        setFilled({ name: false, phone: false, email: false, message: false });
 
         // GTM event
         if (typeof window !== "undefined" && window.dataLayer) {
@@ -212,7 +212,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
                     />
                   </div>
 
-                  {/* <div className={styles.inputWrapper}>
+                  <div className={styles.inputWrapper}>
                     <label
                       // htmlFor="phone"
                       htmlFor={`${uid}-phone`}
@@ -233,7 +233,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
                       component="div"
                       className={styles.error}
                     />
-                  </div> */}
+                  </div>
 
                   <div className={styles.inputWrapper}>
                     <svg
@@ -263,6 +263,38 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
                     />
                     <ErrorMessage
                       name="email"
+                      component="div"
+                      className={styles.error}
+                    />
+                  </div>
+                  <div className={styles.inputWrapper}>
+                    <svg
+                      className={styles.iconMessage}
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="rgb(255, 162, 96)"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M2 2v20l4-4h16v-16h-20zm18 12h-12v-2h12v2zm0-4h-12v-2h12v2z" />
+                    </svg>
+                    <label
+                      // htmlFor="message"
+                      htmlFor={`${uid}-message`}
+                      className={`${styles.label} ${styles.labelMessage} ${filled.message ? styles.filled : ""}`}
+                    >
+                      {dataForm.inputMessage}
+                    </label>
+                    <Field
+                      as="textarea"
+                      // id="message"
+                      id={`${uid}-message`}
+                      name="message"
+                      className={styles.inputField}
+                      onBlur={handleBlur}
+                    />
+                    <ErrorMessage
+                      name="message"
                       component="div"
                       className={styles.error}
                     />
@@ -335,4 +367,4 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
   );
 };
 
-export default FormMinimalBlockComponent;
+export default FormFullBlockComponent;

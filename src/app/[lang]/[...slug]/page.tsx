@@ -29,6 +29,7 @@ import {
   ServiceFeaturesBlock,
   GridBlock,
   AnimationBulletsBlock,
+  FormFullBlock,
 } from "@/types/blog";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import {
@@ -58,6 +59,7 @@ import WorkProcessBlockComponent from "@/app/components/blocks/WorkProcessBlockC
 import PortfolioBlockComponent from "@/app/components/blocks/PortfolioBlockComponent/PortfolioBlockComponent";
 import FormMinimalBlockComponent from "@/app/components/blocks/FormMinimalBlockComponent/FormMinimalBlockComponent";
 import ContactMethodsBlockComponent from "@/app/components/blocks/ContactMethodsBlockComponent/ContactMethodsBlockComponent";
+import FormFullBlockComponent from "@/app/components/blocks/FormFullBlockComponent/FormFullBlockComponent";
 
 type Props = {
   params: {
@@ -289,6 +291,16 @@ const SinglePage = async ({ params }: Props) => {
             form={(block as FormMinimalBlock).form}
             lang={lang}
             offerButtonCustomText={(block as FormMinimalBlock).buttonText}
+          />
+        );
+      case "formFullBlock":
+        return (
+          <FormFullBlockComponent
+            key={(block as FormFullBlock)._key}
+            title={(block as FormFullBlock).title}
+            form={(block as FormFullBlock).form}
+            lang={lang}
+            offerButtonCustomText={(block as FormFullBlock).buttonText}
           />
         );
       // case "buttonBlock":

@@ -80,6 +80,7 @@ const singlepage = {
         { type: "benefitsBlock" },
         { type: "reviewsFullBlock" },
         { type: "formMinimalBlock" },
+        { type: "formFullBlock" },
         { type: "bulletsBlock" },
         { type: "gridBlock" },
         { type: "animationBulletsBlock" },
@@ -87,6 +88,7 @@ const singlepage = {
         { type: "serviceFeaturesBlock" },
         { type: "workProcessBlock" },
         { type: "portfolioBlock" },
+        { type: "contactMethodsBlock" },
       ],
     }),
     defineField({

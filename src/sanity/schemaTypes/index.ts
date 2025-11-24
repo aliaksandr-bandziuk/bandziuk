@@ -37,6 +37,8 @@ import gridBlock from "./gridBlock";
 import animationBulletsBlock from "./animationBulletsBlock";
 import workProcessBlock from "./workProcessBlock";
 import portfolioBlock from "./portfolioBlock";
+import contactMethodsBlock from "./contactMethodsBlock";
+import formFullBlock from "./formFullBlock";
 
 export const schemaTypes = [
   header,
@@ -58,6 +60,7 @@ export const schemaTypes = [
   faqBlock,
   contactFullBlock,
   formMinimalBlock,
+  formFullBlock,
   teamBlock,
   imageFullBlock,
   doubleTextBlock,
@@ -72,6 +75,7 @@ export const schemaTypes = [
   imageBulletsBlock,
   animationBulletsBlock,
   benefitsBlock,
+  contactMethodsBlock,
   bulletsBlock,
   serviceFeature,
   serviceFeaturesBlock,

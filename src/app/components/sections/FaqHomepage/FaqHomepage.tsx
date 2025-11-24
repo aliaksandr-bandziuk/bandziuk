@@ -25,13 +25,17 @@ const FaqHomepage: FC<Props> = ({ faqSection }) => {
     <section className={styles.faqSection}>
       <div className="container">
         <div className={styles.content}>
-          <div className={styles.text}>
-            <div className={styles.pretitle}>{pretitle}</div>
-            <h2 className={styles.title}>{title}</h2>
-            <p className={`${styles.subtitle} ${bitter.className}`}>
-              {subtitle}
-            </p>
-          </div>
+          {pretitle ||
+            subtitle ||
+            (title && (
+              <div className={styles.text}>
+                <div className={styles.pretitle}>{pretitle}</div>
+                <h2 className={styles.title}>{title}</h2>
+                <p className={`${styles.subtitle} ${bitter.className}`}>
+                  {subtitle}
+                </p>
+              </div>
+            ))}
         </div>
         <div className={styles.faq}>
           <div className={styles.bgCenter}></div>

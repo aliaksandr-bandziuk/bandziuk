@@ -12,7 +12,7 @@ import {
 import {
   AccordionBlock,
   TextContent,
-  ContactFullBlock,
+  ContactMethodsBlock,
   TeamBlock,
   LocationBlock,
   ImageFullBlock,
@@ -57,6 +57,7 @@ import AnimationBulletsBlockComponent from "@/app/components/blocks/AnimationBul
 import WorkProcessBlockComponent from "@/app/components/blocks/WorkProcessBlockComponent/WorkProcessBlockComponent";
 import PortfolioBlockComponent from "@/app/components/blocks/PortfolioBlockComponent/PortfolioBlockComponent";
 import FormMinimalBlockComponent from "@/app/components/blocks/FormMinimalBlockComponent/FormMinimalBlockComponent";
+import ContactMethodsBlockComponent from "@/app/components/blocks/ContactMethodsBlockComponent/ContactMethodsBlockComponent";
 
 type Props = {
   params: {
@@ -151,9 +152,15 @@ const SinglePage = async ({ params }: Props) => {
 
   const allBlocks = page.contentBlocks || [];
   const sdBlocks = allBlocks.filter(
-    (b): b is ContactFullBlock | TeamBlock | LocationBlock | ReviewsFullBlock =>
+    (
+      b
+    ): b is
+      | ContactMethodsBlock
+      | TeamBlock
+      | LocationBlock
+      | ReviewsFullBlock =>
       [
-        "contactFullBlock",
+        "contactMethodsBlock",
         "locationBlock",
         "teamBlock",
         "reviewsFullBlock",
@@ -312,7 +319,14 @@ const SinglePage = async ({ params }: Props) => {
 
         return <FaqHomepage key={fb._key} faqSection={faqSection} />;
       }
-
+      case "contactMethodsBlock":
+        return (
+          <ContactMethodsBlockComponent
+            key={block._key}
+            block={block as ContactMethodsBlock}
+            lang={lang}
+          />
+        );
       case "tableBlock":
         return (
           <TableBlockComponent key={block._key} block={block as TableBlock} />

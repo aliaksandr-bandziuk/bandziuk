@@ -79,14 +79,13 @@ export type FullContact = {
   type: ContactType;
 };
 
-export type ContactFullBlock = {
+export type ContactMethodsBlock = {
   _key: string;
   _type: string;
   title: string;
   buttonText: string;
   description: string;
   contacts: FullContact[];
-  form: FormStandardDocument;
 };
 
 export type FormMinimalBlock = {
@@ -363,7 +362,7 @@ export type Blog = {
   contentBlocks: Array<
     | TextContent
     | AccordionBlock
-    | ContactFullBlock
+    | ContactMethodsBlock
     | TeamBlock
     | LocationBlock
     | ImageFullBlock

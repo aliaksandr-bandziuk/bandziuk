@@ -16,9 +16,9 @@ type Props = {
 };
 
 const marginValues: Record<string, string> = {
-  small: "clamp(0.625rem, 2.5vw, 1.875rem)",
-  medium: "clamp(1.25rem, 0.5rem + 3vw, 2.75rem)",
-  large: "clamp(1.25rem, 5vw, 3.75rem)",
+  small: "clamp(0.9375rem, 3.75vw, 2.8125rem)",
+  medium: "clamp(1.875rem, 0.75rem + 4.5vw, 4.125rem)",
+  large: "clamp(1.875rem, 7.5vw, 5.625rem)",
 };
 
 type Step = {

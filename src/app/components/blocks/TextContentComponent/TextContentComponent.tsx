@@ -9,10 +9,9 @@ type Props = {
 };
 
 const marginValues: Record<string, string> = {
-  none: "0",
-  small: "clamp(1.563rem, 0.938rem + 2.5vw, 2.813rem)",
-  medium: "clamp(1.563rem, 6.25vw, 4.688rem)",
-  large: "clamp(1.563rem, -1.406rem + 11.88vw, 7.5rem)",
+  small: "clamp(0.9375rem, 3.75vw, 2.8125rem)",
+  medium: "clamp(1.875rem, 0.75rem + 4.5vw, 4.125rem)",
+  large: "clamp(1.875rem, 7.5vw, 5.625rem)",
 };
 
 const TextContentComponent: FC<Props> = ({ block }) => {

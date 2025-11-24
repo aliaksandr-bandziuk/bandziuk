@@ -1,7 +1,8 @@
 // app/utils/structuredData.ts
 
 import {
-  ContactFullBlock,
+  // ContactFullBlock,
+  ContactMethodsBlock,
   TeamBlock,
   LocationBlock,
   ReviewsFullBlock,
@@ -16,7 +17,7 @@ export type PageInput = {
   metaDescription: string;
   url: string;
   blocks: Array<
-    ContactFullBlock | TeamBlock | LocationBlock | ReviewsFullBlock
+    TeamBlock | LocationBlock | ReviewsFullBlock | ContactMethodsBlock
   >;
   pageType?: SinglePageType;
   pageTitle?: string;
@@ -26,9 +27,9 @@ export type PageInput = {
 };
 
 // ---- Type guards ----
-function isContactFullBlock(b: any): b is ContactFullBlock {
-  return b._type === "contactFullBlock";
-}
+// function isContactFullBlock(b: any): b is ContactFullBlock {
+//   return b._type === "contactFullBlock";
+// }
 function isLocationBlock(b: any): b is LocationBlock {
   return b._type === "locationBlock";
 }
@@ -96,19 +97,19 @@ export function generateStructuredData({
 
   if (schemaPageType === "ContactPage" && pageType !== "service") {
     // Собираем контакты
-    const contactPoints = blocks.filter(isContactFullBlock).flatMap((b) =>
-      b.contacts.map((c) => {
-        const cp: any = {
-          "@type": "ContactPoint",
-          contactType: c.type.toLowerCase(),
-          availableLanguage: lang.toUpperCase(),
-        };
-        if (c.type === "Phone") cp.telephone = c.label;
-        if (c.type === "Email") cp.email = c.label;
-        if (c.type === "Link") cp.url = c.label;
-        return cp;
-      })
-    );
+    // const contactPoints = blocks.filter(isContactFullBlock).flatMap((b) =>
+    //   b.contacts.map((c) => {
+    //     const cp: any = {
+    //       "@type": "ContactPoint",
+    //       contactType: c.type.toLowerCase(),
+    //       availableLanguage: lang.toUpperCase(),
+    //     };
+    //     if (c.type === "Phone") cp.telephone = c.label;
+    //     if (c.type === "Email") cp.email = c.label;
+    //     if (c.type === "Link") cp.url = c.label;
+    //     return cp;
+    //   })
+    // );
 
     // Локация (Place)
     const loc = blocks.find(isLocationBlock);
@@ -138,7 +139,7 @@ export function generateStructuredData({
       "@type": "Organization",
       name: metaTitle,
       url,
-      ...(contactPoints.length && { contactPoint: contactPoints }),
+      // ...(contactPoints.length && { contactPoint: contactPoints }),
       ...(place && { location: place }),
       ...(members.length && { member: members }),
     };

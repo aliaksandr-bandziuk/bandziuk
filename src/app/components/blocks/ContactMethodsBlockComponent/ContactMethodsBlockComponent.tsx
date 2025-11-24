@@ -17,8 +17,24 @@ type Props = {
   lang: string;
 };
 
+const marginValues: Record<string, string> = {
+  small: "clamp(0.9375rem, 3.75vw, 2.8125rem)",
+  medium: "clamp(1.875rem, 0.75rem + 4.5vw, 4.125rem)",
+  large: "clamp(1.875rem, 7.5vw, 5.625rem)",
+};
+
 const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
   // console.log("ContactMethodsBlockComponent", block);
+
+  const computedMarginTop =
+    block.marginTop && marginValues[block.marginTop]
+      ? marginValues[block.marginTop]
+      : "0";
+
+  const computedMarginBottom =
+    block.marginBottom && marginValues[block.marginBottom]
+      ? marginValues[block.marginBottom]
+      : "0";
 
   const cleanLink = (link: string) => {
     // Оставляем буквы, цифры, символы @ и +
@@ -55,7 +71,13 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
 
   const { title, description, contacts } = block;
   return (
-    <section className={styles.contactFull}>
+    <section
+      className={styles.contactFull}
+      style={{
+        marginTop: computedMarginTop,
+        marginBottom: computedMarginBottom,
+      }}
+    >
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.contactsBlock}>

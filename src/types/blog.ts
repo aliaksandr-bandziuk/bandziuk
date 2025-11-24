@@ -86,6 +86,8 @@ export type ContactMethodsBlock = {
   buttonText: string;
   description: string;
   contacts: FullContact[];
+  marginTop?: "small" | "medium" | "large";
+  marginBottom?: "small" | "medium" | "large";
 };
 
 export type FormMinimalBlock = {

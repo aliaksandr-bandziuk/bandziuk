@@ -2,7 +2,6 @@ import {
   AccordionBlock,
   Seo,
   TextContent,
-  ContactFullBlock,
   TeamBlock,
   LocationBlock,
   ImageFullBlock,
@@ -17,6 +16,7 @@ import {
   TableBlock,
   ServiceFeaturesBlock,
   GridBlock,
+  FormFullBlock,
 } from "./blog";
 import { BenefitsBlock, Image } from "./homepage";
 import { ImageAlt, Project } from "./project";
@@ -55,7 +55,6 @@ export type Singlepage = {
   contentBlocks: Array<
     | TextContent
     | AccordionBlock
-    | ContactFullBlock
     | TeamBlock
     | LocationBlock
     | ImageFullBlock
@@ -67,6 +66,7 @@ export type Singlepage = {
     | PortfolioBlock
     | FaqBlock
     | FormMinimalBlock
+    | FormFullBlock
     | BulletsBlock
     | TableBlock
     | ServiceFeaturesBlock

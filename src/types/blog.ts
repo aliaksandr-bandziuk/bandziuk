@@ -98,6 +98,16 @@ export type FormMinimalBlock = {
   marginBottom?: "small" | "medium" | "large";
 };
 
+export type FormFullBlock = {
+  _key: string;
+  _type: "formFullBlock";
+  title: string;
+  buttonText: string;
+  form: FormStandardDocument;
+  marginTop?: "small" | "medium" | "large";
+  marginBottom?: "small" | "medium" | "large";
+};
+
 export type Member = {
   _key: string;
   image: ImageAlt;
@@ -372,6 +382,7 @@ export type Blog = {
     | ReviewsFullBlock
     | FaqBlock
     | FormMinimalBlock
+    | FormFullBlock
     | BulletsBlock
     | PortfolioBlock
     | TableBlock

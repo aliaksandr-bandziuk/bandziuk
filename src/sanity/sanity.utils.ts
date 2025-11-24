@@ -297,6 +297,40 @@ export async function getSinglePageByLang(
           marginTop,
           marginBottom
         },
+        _type == "formFullBlock" => {
+          _key,
+          _type,
+          title,
+          buttonText,
+          form->{
+            _id,
+            _type,
+            language,
+            form{
+              inputName,
+              inputPhone,
+              inputCountry,
+              inputEmail,
+              inputMessage,
+              buttonText,
+              agreementText,
+              agreementLinkLabel,
+              agreementLinkDestination,
+              validationNameRequired,
+              validationPhoneRequired,
+              validationCountryRequired,
+              validationEmailRequired,
+              validationEmailInvalid,
+              validationMessageRequired,
+              validationAgreementRequired,
+              validationAgreementOneOf,
+              successMessage,
+              errorMessage
+            }
+          },
+          marginTop,
+          marginBottom
+        },
         _type == "portfolioBlock" => {
           _key,
           _type,
@@ -323,7 +357,8 @@ export async function getSinglePageByLang(
         _type != "serviceFeaturesBlock" &&
         _type != "contactFullBlock" &&
         _type != "portfolioBlock" &&
-        _type != "formMinimalBlock" => @
+        _type != "formMinimalBlock" &&
+        _type != "formFullBlock" => @
       },
       "parentPage": parentPage->{
         _id,

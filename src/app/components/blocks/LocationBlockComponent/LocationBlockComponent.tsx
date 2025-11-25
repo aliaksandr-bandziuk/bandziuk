@@ -85,14 +85,6 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
                 />
               </div>
             )}
-            {/* {block.regionsServed && (
-            <div className={styles.locationItem}>
-              <h3 className={styles.locationItemTitle}>Regions Served</h3>
-              <p className={`${styles.locationItemText} ${bitter.className}`}>
-                {block.regionsServed}
-              </p>
-            </div>
-          )} */}
           </div>
         </div>
         <div className={styles.mapContainer}>

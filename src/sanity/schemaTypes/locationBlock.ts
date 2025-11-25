@@ -32,11 +32,6 @@ const locationBlock = defineType({
       type: "string",
     }),
     defineField({
-      name: "regionsServed",
-      title: "Regions Served",
-      type: "string",
-    }),
-    defineField({
       name: "marginTop",
       title: "Margin Top",
       type: "string",

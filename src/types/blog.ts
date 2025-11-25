@@ -133,7 +133,6 @@ export type LocationBlock = {
   countryAndCity: string;
   timezone: string;
   workingHours: string;
-  regionsServed: string;
   marginTop?: "small" | "medium" | "large";
   marginBottom?: "small" | "medium" | "large";
 };

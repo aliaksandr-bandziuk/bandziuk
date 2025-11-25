@@ -130,6 +130,12 @@ export type LocationBlock = {
   _type: string;
   title: string;
   location: GeoPoint;
+  countryAndCity: string;
+  timezone: string;
+  workingHours: string;
+  regionsServed: string;
+  marginTop?: "small" | "medium" | "large";
+  marginBottom?: "small" | "medium" | "large";
 };
 
 // === Типы для imageFullBlock ===

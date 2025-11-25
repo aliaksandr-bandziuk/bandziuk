@@ -60,6 +60,7 @@ import PortfolioBlockComponent from "@/app/components/blocks/PortfolioBlockCompo
 import FormMinimalBlockComponent from "@/app/components/blocks/FormMinimalBlockComponent/FormMinimalBlockComponent";
 import ContactMethodsBlockComponent from "@/app/components/blocks/ContactMethodsBlockComponent/ContactMethodsBlockComponent";
 import FormFullBlockComponent from "@/app/components/blocks/FormFullBlockComponent/FormFullBlockComponent";
+import LocationBlockComponent from "@/app/components/blocks/LocationBlockComponent/LocationBlockComponent";
 
 type Props = {
   params: {
@@ -291,6 +292,14 @@ const SinglePage = async ({ params }: Props) => {
             form={(block as FormMinimalBlock).form}
             lang={lang}
             offerButtonCustomText={(block as FormMinimalBlock).buttonText}
+          />
+        );
+      case "locationBlock":
+        return (
+          <LocationBlockComponent
+            key={block._key}
+            block={block as LocationBlock}
+            lang={lang}
           />
         );
       case "formFullBlock":

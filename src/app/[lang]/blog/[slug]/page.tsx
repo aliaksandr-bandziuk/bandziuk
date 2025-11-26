@@ -36,6 +36,7 @@ import BreadcrumbsBlog from "@/app/components/layout/BreadcrumbsBlog/Breadcrumbs
 import BlogIntro from "@/app/components/layout/BlogIntro/BlogIntro";
 import RelatedArticle from "@/app/components/ui/RelatedArticle/RelatedArticle";
 import { Bitter } from "next/font/google";
+import ServiceOffered from "@/app/components/sections/ServiceOffered/ServiceOffered";
 
 const bitter = Bitter({
   subsets: ["latin", "cyrillic"],
@@ -198,19 +199,26 @@ const PagePost = async ({ params }: Props) => {
               </BlogButtonWrapper> */}
             </div>
             <div className="post-content sidebar">
-              <aside className="aside"></aside>
-              {/* {blog.popularProperties && (
-                <PopularProperties
-                  lang={lang}
-                  popularProperties={blog.popularProperties}
-                />
-              )} */}
+              <aside className="aside">
+                {blog.serviceOffered && blog.serviceOffered.length > 0 && (
+                  <ServiceOffered
+                    serviceOffered={blog.serviceOffered}
+                    lang={lang}
+                  />
+                )}
+              </aside>
             </div>
           </div>
           {blog.relatedArticles && blog.relatedArticles.length > 0 && (
             <div className="related-articles-section">
               <h2 className={bitter.className}>
-                {lang === "en" ? "Related Articles" : "Похожие статьи"}
+                {lang === "en"
+                  ? "Related Articles"
+                  : lang === "pl"
+                    ? "Powiązane artykuły"
+                    : lang === "ru"
+                      ? "Похожие статьи"
+                      : "Related Articles"}
               </h2>
               <div className="related-articles-list">
                 {blog.relatedArticles.map((article: RelatedArticleType) => (

@@ -701,9 +701,9 @@ export async function getBlogPostByLang(
         _type != "contactFullBlock" &&
         _type != "formMinimalBlock" => @
       },
-      serviceOffered[] {
-        label,
-        link
+      serviceOffered[]->{
+        "label": title,
+        "link": slug[$lang].current
       },
       relatedArticles[]->{
         _id,

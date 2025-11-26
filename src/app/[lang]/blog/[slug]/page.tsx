@@ -166,15 +166,16 @@ const PagePost = async ({ params }: Props) => {
         currentTitle={blog.title}
       />
       <main>
+        <BlogIntro
+          title={blog.title}
+          excerpt={blog.excerpt}
+          categoryTitle={blog.category.title}
+          date={blog.publishedAt}
+          previewImage={blog.previewImage}
+        />
         <div className="container">
           <div className="post-grid">
             <div className="post-content">
-              <BlogIntro
-                title={blog.title}
-                categoryTitle={blog.category.title}
-                date={blog.publishedAt}
-                previewImage={blog.previewImage}
-              />
               <article>
                 {blog.contentBlocks &&
                   blog.contentBlocks.map((block) => renderContentBlock(block))}

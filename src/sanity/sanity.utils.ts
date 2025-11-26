@@ -699,7 +699,7 @@ export async function getBlogPostByLang(
         // все прочие блоки пропускаем «как есть»
         _type != "textContent" &&
         _type != "contactFullBlock" &&
-        _type != "formMinimalBlock" && => @
+        _type != "formMinimalBlock" => @
       },
       videoBlock {
         videoId,

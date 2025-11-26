@@ -701,20 +701,30 @@ export async function getBlogPostByLang(
         _type != "contactFullBlock" &&
         _type != "formMinimalBlock" => @
       },
-      videoBlock {
-        videoId,
-        posterImage {
+      serviceOffered[] {
+        label,
+        link
+      },
+      relatedArticles[]->{
+        _id,
+        title,
+        category->{
+          _id,
+          _type,
+          title,
+          slug,
+          language
+        },
+        slug,
+        publishedAt,
+        previewImage{
+          alt,
           asset->{
             _id,
             url,
             metadata { dimensions { width, height } }
-          },
-          alt
+          }
         }
-      },
-      popularProperties[] {
-        label,
-        link
       },
       language,
       "_translations": *[

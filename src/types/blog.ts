@@ -7,6 +7,7 @@ import { GeoPoint, ImageAlt, Project } from "./project";
 type ContactType = "Email" | "Phone" | "Link";
 
 export type Image = {
+  alt: string;
   _key: string;
   _ref: string;
   _type: string;
@@ -394,8 +395,8 @@ export type Blog = {
     | PortfolioBlock
     | TableBlock
   >;
-  videoBlock: VideoBlock;
-  popularProperties: navLink[];
+  serviceOffered: navLink[];
+  relatedArticles: RelatedArticle[];
   language: string;
   slug: {
     [lang: string]: {

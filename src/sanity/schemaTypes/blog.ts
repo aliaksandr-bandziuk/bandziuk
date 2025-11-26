@@ -98,48 +98,53 @@ const blog = {
       ],
     }),
     defineField({
-      name: "videoBlock",
-      title: "Video Block",
-      type: "object",
-      fields: [
-        defineField({
-          name: "videoId",
-          title: "Video ID",
-          type: "string",
-        }),
-        defineField({
-          name: "posterImage",
-          title: "Video Image",
-          type: "image",
-          fields: [
-            {
-              name: "alt",
-              title: "Alt Text",
-              type: "string",
-            },
-          ],
-        }),
-      ],
-    }),
-    defineField({
-      name: "popularProperties",
-      title: "Popular Properties",
+      name: "serviceOffered",
+      title: "Service Offered",
       type: "array",
       of: [
         {
-          type: "object",
-          fields: [
-            defineField({
-              name: "label",
-              title: "Label",
-              type: "string",
+          type: "reference",
+          to: [{ type: "singlepage" }],
+          options: {
+            filter: ({ document }) => ({
+              filter: 'language == $language && pageType == "service"',
+              params: {
+                language: document.language,
+              },
             }),
-            defineField({
-              name: "link",
-              title: "Link",
-              type: "string",
-            }),
-          ],
+          },
+        },
+      ],
+    }),
+    defineField({
+      name: "relatedArticles",
+      title: "Related Articles",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "blog" }, { type: "singlepage" }, { type: "portfolio" }],
+          options: {
+            filter: ({ document }) => {
+              const id = document._id;
+
+              // черновик и публикация
+              const draftId = id.startsWith("drafts.") ? id : `drafts.${id}`;
+              const publishedId = id.replace(/^drafts\./, "");
+
+              return {
+                filter: `
+              language == $language &&
+              !(_id in [$draftId, $publishedId])
+            `,
+                params: {
+                  language: document.language,
+                  draftId,
+                  publishedId,
+                },
+              };
+            },
+          },
         },
       ],
     }),

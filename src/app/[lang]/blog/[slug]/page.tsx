@@ -16,6 +16,7 @@ import {
   FaqBlock,
   FormMinimalBlock,
   TableBlock,
+  RelatedArticle as RelatedArticleType,
 } from "@/types/blog";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import { Metadata } from "next";
@@ -33,6 +34,14 @@ import Footer from "@/app/components/layout/Footer/Footer";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
 import BreadcrumbsBlog from "@/app/components/layout/BreadcrumbsBlog/BreadcrumbsBlog";
 import BlogIntro from "@/app/components/layout/BlogIntro/BlogIntro";
+import RelatedArticle from "@/app/components/ui/RelatedArticle/RelatedArticle";
+import { Bitter } from "next/font/google";
+
+const bitter = Bitter({
+  subsets: ["latin", "cyrillic"],
+  style: ["normal", "italic"],
+  weight: ["400"],
+});
 
 type Props = {
   params: { lang: string; slug: string };
@@ -189,17 +198,7 @@ const PagePost = async ({ params }: Props) => {
               </BlogButtonWrapper> */}
             </div>
             <div className="post-content sidebar">
-              <aside className="aside">
-                {/* {blog.videoBlock &&
-                  blog.videoBlock.videoId &&
-                  blog.videoBlock.posterImage && (
-                    <BlogVideo
-                      videoId={blog.videoBlock.videoId}
-                      posterImage={blog.videoBlock.posterImage}
-                      title={blog.title}
-                    />
-                  )} */}
-              </aside>
+              <aside className="aside"></aside>
               {/* {blog.popularProperties && (
                 <PopularProperties
                   lang={lang}
@@ -208,9 +207,27 @@ const PagePost = async ({ params }: Props) => {
               )} */}
             </div>
           </div>
+          {blog.relatedArticles && blog.relatedArticles.length > 0 && (
+            <div className="related-articles-section">
+              <h2 className={bitter.className}>
+                {lang === "en" ? "Related Articles" : "Похожие статьи"}
+              </h2>
+              <div className="related-articles-list">
+                {blog.relatedArticles.map((article: RelatedArticleType) => (
+                  <RelatedArticle
+                    key={article._id}
+                    title={article.title}
+                    category={article.category}
+                    slug={article.slug}
+                    previewImage={article.previewImage}
+                    lang={lang}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
           {/* <LastArticles params={{ lang, id: currentPostId }} /> */}
         </div>
-        <FormStatic lang={params.lang} />
       </main>
       <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={lang} formDocument={formDocument} />

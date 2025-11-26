@@ -432,3 +432,23 @@ textarea {
     font-size: 1.2rem;
   }
 }
+
+.related-articles-section {
+  
+  h2 {
+    font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+}
+
+.related-articles-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+  @media screen and (min-width: 980px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

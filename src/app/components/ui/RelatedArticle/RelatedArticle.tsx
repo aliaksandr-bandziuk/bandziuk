@@ -14,6 +14,7 @@ const bitter = Bitter({
 
 export type Props = {
   title: string;
+  excerpt: string;
   category: Category;
   slug: {
     [lang: string]: {
@@ -26,6 +27,7 @@ export type Props = {
 
 const RelatedArticle: FC<Props> = ({
   title,
+  excerpt,
   slug,
   category,
   previewImage,
@@ -40,11 +42,6 @@ const RelatedArticle: FC<Props> = ({
 
   const PLACEHOLDER =
     "https://cdn.sanity.io/files/88gk88s2/production/1580d3312e8cb973526a4d8f1019c78868ab3a45.jpg";
-
-  const hasValidImage =
-    previewImage &&
-    (previewImage as any).asset &&
-    (previewImage as any).asset._ref;
 
   return (
     <Link
@@ -73,6 +70,7 @@ const RelatedArticle: FC<Props> = ({
         <h3 className={`${styles.articleTitle} ${bitter.className}`}>
           {title}
         </h3>
+        <p className={styles.excerpt}>{excerpt}</p>
       </div>
     </Link>
   );

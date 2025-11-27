@@ -358,6 +358,7 @@ export type Category = {
 export type RelatedArticle = {
   _id: string;
   title: string;
+  excerpt: string;
   category: Category;
   slug: {
     [lang: string]: {

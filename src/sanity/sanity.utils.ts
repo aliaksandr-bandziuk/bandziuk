@@ -708,6 +708,7 @@ export async function getBlogPostByLang(
       relatedArticles[]->{
         _id,
         title,
+        excerpt,
         category->{
           _id,
           _type,

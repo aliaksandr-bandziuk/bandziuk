@@ -122,6 +122,7 @@ const BlogPostsRenderer: FC<Props> = ({ blogPosts, totalPosts, lang }) => {
                 <RelatedArticle
                   key={post._id}
                   title={post.title}
+                  excerpt={post.excerpt}
                   category={post.category}
                   slug={post.slug}
                   previewImage={post.previewImage as any}

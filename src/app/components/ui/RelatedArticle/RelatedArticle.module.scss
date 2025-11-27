@@ -1,4 +1,6 @@
 .relatedArticle {
+  display: flex;
+  flex-direction: column;
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 12px;
@@ -21,6 +23,7 @@
   overflow: hidden;
   margin-bottom: 20px;
   border-radius: 8px;
+  flex-shrink: 0;
 
   @media screen and (min-width: 768px) {
     aspect-ratio: 10/5;
@@ -55,6 +58,11 @@
 
 .content {
   padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  // height: 100%;
+  flex: 1;
 
   @media screen and (min-width: 768px) {
     padding: 0 16px;
@@ -67,4 +75,12 @@
   font-weight: 500;
   line-height: 1.4;
   margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.excerpt {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: auto;
 }

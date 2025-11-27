@@ -225,6 +225,7 @@ const PagePost = async ({ params }: Props) => {
                   <RelatedArticle
                     key={article._id}
                     title={article.title}
+                    excerpt={article.excerpt}
                     category={article.category}
                     slug={article.slug}
                     previewImage={article.previewImage}

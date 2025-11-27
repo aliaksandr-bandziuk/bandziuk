@@ -11,6 +11,11 @@ const blogPage = defineType({
       type: "string",
     }),
     defineField({
+      name: "description",
+      title: "Description",
+      type: "string",
+    }),
+    defineField({
       name: "metaTitle",
       title: "Meta Title",
       type: "string",

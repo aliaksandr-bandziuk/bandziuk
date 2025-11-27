@@ -3,6 +3,7 @@ export type BlogPage = {
   _id: string;
   _rev: string;
   title: string;
+  description: string;
   metaTitle: string;
   metaDescription: string;
   content: any;

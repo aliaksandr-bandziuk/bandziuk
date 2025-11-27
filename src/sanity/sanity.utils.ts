@@ -751,6 +751,7 @@ export async function getBlogPageByLang(lang: string): Promise<BlogPage> {
   const blogPageQuery = groq`*[_type == "blogPage" && language == $lang][0] {
     _id,
     title,
+    description,
     metaTitle,
     metaDescription,
     content,

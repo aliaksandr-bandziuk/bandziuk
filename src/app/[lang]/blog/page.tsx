@@ -16,6 +16,7 @@ import FormStatic from "@/app/components/forms/FormStatic/FormStatic";
 import Footer from "@/app/components/layout/Footer/Footer";
 import Header from "@/app/components/layout/Header/Header";
 import BlogPostsAll from "@/app/components/layout/BlogPostsAll/BlogPostsAll";
+import BlogPageContent from "@/app/components/layout/BlogPageContent/BlogPageContent";
 
 type Props = {
   params: { lang: string };
@@ -86,7 +87,7 @@ const PageBlog = async ({ params }: Props) => {
           blogPosts={posts}
           lang={params.lang}
         />
-        {/* <BlogPageContent content={blogPage.content} lang={params.lang} /> */}
+        <BlogPageContent content={blogPage.content} lang={params.lang} />
       </main>
       <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={params.lang} formDocument={formDocument} />

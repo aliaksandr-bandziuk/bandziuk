@@ -5,9 +5,7 @@ import { i18n } from "@/i18n.config";
 import {
   getBlogPageByLang,
   getBlogPostsByLang,
-  getBlogPostsByLangWithPagination,
   getFormStandardDocumentByLang,
-  getTotalBlogPostsByLang,
 } from "@/sanity/sanity.utils";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import { Translation } from "@/types/homepage";
@@ -17,6 +15,7 @@ import Footer from "@/app/components/layout/Footer/Footer";
 import Header from "@/app/components/layout/Header/Header";
 import BlogPostsAll from "@/app/components/layout/BlogPostsAll/BlogPostsAll";
 import BlogPageContent from "@/app/components/layout/BlogPageContent/BlogPageContent";
+import BlogIntro from "@/app/components/layout/BlogIntro/BlogIntro";
 
 type Props = {
   params: { lang: string };
@@ -82,11 +81,8 @@ const PageBlog = async ({ params }: Props) => {
     <>
       <Header params={params} translations={translations} />
       <main>
-        <BlogPostsAll
-          title={blogPage.title}
-          blogPosts={posts}
-          lang={params.lang}
-        />
+        <BlogIntro title={blogPage.title} excerpt={blogPage.description} />
+        <BlogPostsAll blogPosts={posts} lang={params.lang} />
         <BlogPageContent content={blogPage.content} lang={params.lang} />
       </main>
       <Footer params={params} formDocument={formDocument} />

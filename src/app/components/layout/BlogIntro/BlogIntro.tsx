@@ -14,9 +14,9 @@ const bitter = Bitter({
 type Props = {
   title: string;
   excerpt?: string;
-  categoryTitle: string;
-  date: string;
-  previewImage: ImageAlt;
+  categoryTitle?: string;
+  date?: string;
+  previewImage?: ImageAlt;
 };
 
 const BlogIntro: FC<Props> = ({
@@ -37,21 +37,23 @@ const BlogIntro: FC<Props> = ({
         <div className={styles.blogIntroWrapper}>
           <div className={styles.blogIntroContent}>
             <div className={styles.data}>
-              <div className={`${styles.category} ${bitter.className}`}>
-                {categoryTitle}
-              </div>
-              <div className={styles.date}>{formatDate(date)}</div>
+              {categoryTitle && (
+                <div className={`${styles.category} ${bitter.className}`}>
+                  {categoryTitle}
+                </div>
+              )}
+              {date && <div className={styles.date}>{formatDate(date)}</div>}
             </div>
             <h1 className={`${styles.blogHeading} ${bitter.className}`}>
               {title}
             </h1>
             <p className={styles.excerpt}>{excerpt}</p>
           </div>
-          <div className={styles.blogIntroImage}>
-            {previewImage && (
+          {previewImage && (
+            <div className={styles.blogIntroImage}>
               <Image src={urlFor(previewImage).url()} alt={title} fill={true} />
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </section>

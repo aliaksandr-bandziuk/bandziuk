@@ -6,21 +6,16 @@ import BlogPostsRenderer from "../BlogPostsRenderer/BlogPostsRenderer";
 type Props = {
   title: string;
   blogPosts: Blog[];
-  totalPosts: number;
   lang: string;
 };
 
-const BlogPostsAll: FC<Props> = ({ title, blogPosts, totalPosts, lang }) => {
+const BlogPostsAll: FC<Props> = ({ title, blogPosts, lang }) => {
   return (
     <section className={styles.blogPosts}>
       <div className="container">
         {title && <h1 className={styles.pageTitle}>{title}</h1>}
       </div>
-      <BlogPostsRenderer
-        blogPosts={blogPosts}
-        totalPosts={totalPosts}
-        lang={lang}
-      />
+      <BlogPostsRenderer blogPosts={blogPosts} lang={lang} />
     </section>
   );
 };

@@ -842,6 +842,7 @@ export async function getBlogPostsByLang(lang: string): Promise<Blog[]> {
   const blogPostsQuery = groq`*[_type == 'blog' && language == $lang] | order(publishedAt desc) {
     _id,
     title,
+    excerpt,
     slug,
     previewImage,
     category->{

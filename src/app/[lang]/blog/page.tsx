@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import { i18n } from "@/i18n.config";
 import {
   getBlogPageByLang,
+  getBlogPostsByLang,
   getBlogPostsByLangWithPagination,
   getFormStandardDocumentByLang,
   getTotalBlogPostsByLang,
@@ -32,8 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const PageBlog = async ({ params }: Props) => {
   const { lang } = params;
-  const initialPosts = await getBlogPostsByLangWithPagination(lang, 12, 0);
-  const totalPosts = await getTotalBlogPostsByLang(lang);
+
+  const posts = await getBlogPostsByLang(lang);
   const blogPage = await getBlogPageByLang(lang);
 
   const formDocument: FormStandardDocument =
@@ -82,8 +83,7 @@ const PageBlog = async ({ params }: Props) => {
       <main>
         <BlogPostsAll
           title={blogPage.title}
-          blogPosts={initialPosts}
-          totalPosts={totalPosts}
+          blogPosts={posts}
           lang={params.lang}
         />
         {/* <BlogPageContent content={blogPage.content} lang={params.lang} /> */}

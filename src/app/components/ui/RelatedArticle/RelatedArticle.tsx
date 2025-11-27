@@ -20,7 +20,7 @@ export type Props = {
       current: string;
     };
   };
-  previewImage: ImageType;
+  previewImage?: ImageType;
   lang: string;
 };
 
@@ -38,18 +38,35 @@ const RelatedArticle: FC<Props> = ({
     Object.values(slug ?? {})[0]?.current ??
     "";
 
+  const PLACEHOLDER =
+    "https://cdn.sanity.io/files/88gk88s2/production/1580d3312e8cb973526a4d8f1019c78868ab3a45.jpg";
+
+  const hasValidImage =
+    previewImage &&
+    (previewImage as any).asset &&
+    (previewImage as any).asset._ref;
+
   return (
     <Link
       href={lang === "en" ? `/blog/${current}` : `/${lang}/blog/${current}`}
       className={styles.relatedArticle}
     >
       <div className={styles.relatedArticleImage}>
-        <Image
-          src={urlFor(previewImage).url()}
-          alt={previewImage.alt ?? title}
-          fill
-          className={styles.previewImage}
-        />
+        {previewImage ? (
+          <Image
+            src={urlFor(previewImage).url()}
+            alt={previewImage.alt ?? title}
+            fill
+            className={styles.previewImage}
+          />
+        ) : (
+          <Image
+            src={PLACEHOLDER}
+            alt="Placeholder"
+            fill
+            className={styles.previewImage}
+          />
+        )}
         {category && <p className={styles.categoryTitle}>{category.title}</p>}
       </div>
       <div className={styles.content}>

@@ -16,6 +16,7 @@ import Header from "@/app/components/layout/Header/Header";
 import BlogPostsAll from "@/app/components/layout/BlogPostsAll/BlogPostsAll";
 import BlogPageContent from "@/app/components/layout/BlogPageContent/BlogPageContent";
 import BlogIntro from "@/app/components/layout/BlogIntro/BlogIntro";
+import BreadcrumbsBlog from "@/app/components/layout/BreadcrumbsBlog/BreadcrumbsBlog";
 
 type Props = {
   params: { lang: string };
@@ -80,6 +81,11 @@ const PageBlog = async ({ params }: Props) => {
   return (
     <>
       <Header params={params} translations={translations} />
+      <BreadcrumbsBlog
+        lang={lang}
+        segments={[]}
+        currentTitle={blogPage.title}
+      />
       <main>
         <BlogIntro title={blogPage.title} excerpt={blogPage.description} />
         <BlogPostsAll blogPosts={posts} lang={params.lang} />

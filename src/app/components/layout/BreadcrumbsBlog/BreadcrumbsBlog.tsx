@@ -35,17 +35,23 @@ const BreadcrumbsBlog: React.FC<BreadcrumbsProps> = ({
   const homeTitle = homeLabelByLang[lang] ?? homeLabelByLang.en;
   const blogTitle = blogLabelByLang[lang] ?? blogLabelByLang.en;
 
-  const crumbs = [
-    { name: homeTitle, href: base || "/" },
-    { name: blogTitle, href: `${base}/blog` },
-    // Если у вас будут вложенные рубрики внутри блога, их тоже можно вывести:
-    ...segments.slice(0, -1).map((seg, i) => {
-      const path = segments.slice(0, i + 1).join("/");
-      return { name: humanize(seg), href: `${base}/blog/${path}` };
-    }),
-    // Наконец — сама статья
-    { name: currentTitle, href: `${base}/blog/${segments.join("/")}` },
-  ];
+  const crumbs =
+    segments.length === 0
+      ? [
+          // LIST PAGE: Home > Blog (blog is active page)
+          { name: homeTitle, href: base || "/" },
+          { name: blogTitle, href: `${base}/blog` }, // active
+        ]
+      : [
+          // POST PAGE: Home > Blog > Post
+          { name: homeTitle, href: base || "/" },
+          { name: blogTitle, href: `${base}/blog` },
+          ...segments.slice(0, -1).map((seg, i) => {
+            const path = segments.slice(0, i + 1).join("/");
+            return { name: humanize(seg), href: `${base}/blog/${path}` };
+          }),
+          { name: currentTitle, href: `${base}/blog/${segments.join("/")}` },
+        ];
 
   return (
     <div className="container">

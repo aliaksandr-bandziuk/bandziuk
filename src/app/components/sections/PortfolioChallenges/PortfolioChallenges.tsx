@@ -29,7 +29,7 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
             </div>
           </div>
           <div className={styles.challengeItem}>
-            <h3 className={styles.challengeTitle}>
+            <h2 className={styles.challengeTitle}>
               {lang === "en"
                 ? "Goal"
                 : lang === "pl"
@@ -37,13 +37,13 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
                   : lang === "ru"
                     ? "Задача"
                     : "Goal"}
-            </h3>
+            </h2>
             <div className={styles.challengeContent}>
               <PortableText value={challenges.task} components={RichText} />
             </div>
           </div>
           <div className={styles.challengeItem}>
-            <h3 className={styles.challengeTitle}>
+            <h2 className={styles.challengeTitle}>
               {lang === "en"
                 ? "Results"
                 : lang === "pl"
@@ -51,13 +51,13 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
                   : lang === "ru"
                     ? "Результаты"
                     : "Results"}
-            </h3>
+            </h2>
             <div className={styles.challengeContent}>
               <PortableText value={challenges.results} components={RichText} />
             </div>
           </div>
           <div className={styles.challengeItem}>
-            <h3 className={styles.challengeTitle}>
+            <h2 className={styles.challengeTitle}>
               {lang === "en"
                 ? "Completed Work"
                 : lang === "pl"
@@ -65,7 +65,7 @@ const PortfolioChallenges: FC<Props> = ({ lang, challenges }) => {
                   : lang === "ru"
                     ? "Проделанная работа"
                     : "Completed Work"}
-            </h3>
+            </h2>
             <div className={styles.challengeContent}>
               <PortableText value={challenges.workDone} components={RichText} />
             </div>

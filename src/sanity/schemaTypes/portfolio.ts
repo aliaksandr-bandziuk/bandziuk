@@ -165,7 +165,7 @@ const portfolio = {
         },
         {
           name: "task",
-          title: "Task",
+          title: "Goal",
           type: "contentBlock",
         },
         {

@@ -9,7 +9,7 @@ const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID as string;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET as string;
 
 export default defineConfig({
-  badePath: "/admin",
+  basePath: "/admin",
   name: "bandziuk",
   title: "Bandziuk",
   projectId,
@@ -58,7 +58,7 @@ export default defineConfig({
             "projectCategory",
             "service",
             "technology",
-          ].includes(template.id)
+          ].includes(template.id),
       ),
   },
 });

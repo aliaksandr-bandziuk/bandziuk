@@ -37,7 +37,6 @@ import BlogIntro from "@/app/components/layout/BlogIntro/BlogIntro";
 import RelatedArticle from "@/app/components/ui/RelatedArticle/RelatedArticle";
 import { Bitter } from "next/font/google";
 import ServiceOffered from "@/app/components/sections/ServiceOffered/ServiceOffered";
-import SchemaFaq from "@/app/components/seo/SchemaFaq/SchemaFaq";
 
 const bitter = Bitter({
   subsets: ["latin", "cyrillic"],
@@ -167,16 +166,10 @@ const PagePost = async ({ params }: Props) => {
 
   const currentPostId = blog._id;
 
-  const faqItems =
-    blog.contentBlocks
-      ?.filter((b: any) => b?._type === "faqBlock" && b?.faq?.items?.length)
-      .flatMap((b: any) => b.faq.items) || [];
-
   return (
     <>
       <Header params={params} translations={translations} />
       <SchemaBlogPost blog={blog} lang={lang} />
-      <SchemaFaq items={faqItems} />
       <BreadcrumbsBlog
         lang={lang}
         segments={[slug]}

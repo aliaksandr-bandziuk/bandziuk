@@ -25,13 +25,17 @@
   }
 }
 
+.icon {
+  font-size: 2.5rem;
+  color: var(--corp-color);
+}
+
 .benefitItem {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
-  // color: #000307;
 }
 
 .content {
@@ -47,10 +51,6 @@
   font-weight: 400;
   line-height: 120%;
   display: flex;
-
-  p, span {
-    color: var(--corp-color);
-  }
 }
 
 .text {

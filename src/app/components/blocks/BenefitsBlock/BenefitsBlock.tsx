@@ -1,15 +1,10 @@
 import React, { FC } from "react";
 import styles from "./BenefitsBlock.module.scss";
 import { BenefitsBlock as BenefitsBlockType } from "@/types/homepage";
-import Image from "next/image";
 import CountNumber from "../../animations/CountNumber/CountNumber";
-import { Bitter } from "next/font/google";
+import { FiCheckCircle, FiClock, FiLayers, FiGlobe } from "react-icons/fi";
 
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
+const benefitIcons = [FiCheckCircle, FiClock, FiLayers, FiGlobe];
 
 type Props = {
   benefitsBlock: BenefitsBlockType;
@@ -124,22 +119,35 @@ const BenefitsBlock: FC<Props> = ({ benefitsBlock, lang }) => {
       <div className="container">
         <div className={styles.inner}>
           <div className={styles.benefitsList}>
-            {benefits.map((benefit) => (
-              <div key={benefit.title} className={styles.benefitItem}>
-                <div className={styles.content}>
-                  <div className={styles.conuting}>
-                    <div className={styles.conuter}>
-                      <CountNumber>{benefit.number}</CountNumber>
-                      {benefit.sign && <span>{benefit.sign}</span>}
+            {benefits.map((benefit, index) => {
+              const Icon = benefitIcons[index];
+
+              return (
+                <div key={benefit.title} className={styles.benefitItem}>
+                  <div className={styles.image}>
+                    <div className={styles.iconWrapper}>
+                      {Icon && <Icon className={styles.icon} />}
                     </div>
                   </div>
-                  <div className={styles.text}>
-                    <p className={styles.title}>{benefit.title}</p>
-                    <p className={styles.description}>{benefit.description}</p>
+
+                  <div className={styles.content}>
+                    <div className={styles.conuting}>
+                      <div className={styles.conuter}>
+                        <CountNumber>{benefit.number}</CountNumber>
+                        {benefit.sign && <span>{benefit.sign}</span>}
+                      </div>
+                    </div>
+
+                    <div className={styles.text}>
+                      <p className={styles.title}>{benefit.title}</p>
+                      <p className={styles.description}>
+                        {benefit.description}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

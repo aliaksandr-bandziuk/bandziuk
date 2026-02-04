@@ -164,9 +164,8 @@ const WorkProcessBlockComponent: FC<Props> = ({ block, lang }) => {
               const isEven = (index + 1) % 2 === 0;
 
               return (
-                <FadeInOnScroll index={index}>
+                <FadeInOnScroll index={index} key={`step-${index}`}>
                   <div
-                    key={`step-${index}`}
                     className={`${styles.stepItem} ${isEven ? styles.isEven : ""}`}
                   >
                     <div className={styles.textBlock}>

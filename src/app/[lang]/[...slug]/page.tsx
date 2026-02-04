@@ -61,6 +61,7 @@ import FormMinimalBlockComponent from "@/app/components/blocks/FormMinimalBlockC
 import ContactMethodsBlockComponent from "@/app/components/blocks/ContactMethodsBlockComponent/ContactMethodsBlockComponent";
 import FormFullBlockComponent from "@/app/components/blocks/FormFullBlockComponent/FormFullBlockComponent";
 import LocationBlockComponent from "@/app/components/blocks/LocationBlockComponent/LocationBlockComponent";
+import BenefitsBlock from "@/app/components/blocks/BenefitsBlock/BenefitsBlock";
 
 type Props = {
   params: {
@@ -86,7 +87,7 @@ export async function generateStaticParams(): Promise<Props["params"][]> {
         "current": slug[$lang].current,
         "parent": parentPage->slug[$lang].current
       }`,
-      { lang }
+      { lang },
     );
 
     // строим вложенные массивы slug
@@ -156,7 +157,7 @@ const SinglePage = async ({ params }: Props) => {
   const allBlocks = page.contentBlocks || [];
   const sdBlocks = allBlocks.filter(
     (
-      b
+      b,
     ): b is
       | ContactMethodsBlock
       | TeamBlock
@@ -167,7 +168,7 @@ const SinglePage = async ({ params }: Props) => {
         "locationBlock",
         "teamBlock",
         "reviewsFullBlock",
-      ].includes(b._type)
+      ].includes(b._type),
   );
 
   const generateSlug = (slugObj: any, language: string) => {
@@ -281,6 +282,14 @@ const SinglePage = async ({ params }: Props) => {
           <WorkProcessBlockComponent
             key={block._key}
             block={block as WorkProcessBlock}
+            lang={lang}
+          />
+        );
+      case "benefitsBlock":
+        return (
+          <BenefitsBlock
+            key={block._key}
+            benefitsBlock={block as BenefitsBlockType}
             lang={lang}
           />
         );

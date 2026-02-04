@@ -57,16 +57,18 @@ const GridBlockComponent: FC<Props> = ({ block }) => {
               <FadeInOnScroll index={index}>
                 <div className={styles.serviceItem}>
                   <div className={styles.serviceItemWrapper}>
-                    <div className={styles.serviceItemIcon}>
-                      <Image
-                        src={urlFor(item.icon).url()}
-                        alt={item.icon.alt ?? title}
-                        width={70}
-                        height={70}
-                        unoptimized
-                        className={styles.image}
-                      />
-                    </div>
+                    {item.icon && (
+                      <div className={styles.serviceItemIcon}>
+                        <Image
+                          src={urlFor(item.icon).url()}
+                          alt={item.icon.alt ?? title}
+                          width={70}
+                          height={70}
+                          unoptimized
+                          className={styles.image}
+                        />
+                      </div>
+                    )}
                     <div className={styles.serviceItemText}>
                       <h3 className={styles.serviceItemTitle}>{item.title}</h3>
                       <p className={styles.serviceItemDescription}>

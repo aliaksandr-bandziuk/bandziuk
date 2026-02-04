@@ -39,6 +39,7 @@ import workProcessBlock from "./workProcessBlock";
 import portfolioBlock from "./portfolioBlock";
 import contactMethodsBlock from "./contactMethodsBlock";
 import formFullBlock from "./formFullBlock";
+import landingCtaBlock from "./landingCtaBlock";
 
 export const schemaTypes = [
   header,
@@ -68,6 +69,7 @@ export const schemaTypes = [
   buttonBlock,
   accordionBlock,
   locationBlock,
+  landingCtaBlock,
   portfolioBlock,
   gridBlock,
   tableBlock,

@@ -62,6 +62,7 @@ import ContactMethodsBlockComponent from "@/app/components/blocks/ContactMethods
 import FormFullBlockComponent from "@/app/components/blocks/FormFullBlockComponent/FormFullBlockComponent";
 import LocationBlockComponent from "@/app/components/blocks/LocationBlockComponent/LocationBlockComponent";
 import BenefitsBlock from "@/app/components/blocks/BenefitsBlock/BenefitsBlock";
+import LandingCtaBlock from "@/app/components/blocks/LandingCtaBlock/LandingCtaBlock";
 
 type Props = {
   params: {
@@ -293,6 +294,8 @@ const SinglePage = async ({ params }: Props) => {
             lang={lang}
           />
         );
+      case "landingCtaBlock":
+        return <LandingCtaBlock key={block._key} lang={lang} />;
       case "formMinimalBlock":
         return (
           <FormMinimalBlockComponent

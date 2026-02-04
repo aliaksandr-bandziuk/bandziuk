@@ -20,6 +20,7 @@ import {
   ContactMethodsBlock,
   WorkProcessBlock,
   AnimationBulletsBlock,
+  LandingCtaBlock,
 } from "./blog";
 import { BenefitsBlock, Image } from "./homepage";
 import { ImageAlt, Project } from "./project";
@@ -77,6 +78,7 @@ export type Singlepage = {
     | ContactMethodsBlock
     | WorkProcessBlock
     | AnimationBulletsBlock
+    | LandingCtaBlock
   >;
   projectSection?: ProjectSection;
   parentPage?: SinglepageRef;

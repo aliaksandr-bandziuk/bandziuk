@@ -282,6 +282,16 @@ export type WorkProcessBlock = {
 };
 // === Конец типов для WorkProcessBlock ===
 
+// === Типы для LandingCtaBlock ===
+export type LandingCtaBlock = {
+  _key: string;
+  _type: "landingCtaBlock";
+  title: string;
+  marginTop: "small" | "medium" | "large";
+  marginBottom: "small" | "medium" | "large";
+};
+// === Конец типов для LandingCtaBlock ===
+
 // === Типы для BulletsBlock ===
 export type BulletsBlock = {
   _key: string;

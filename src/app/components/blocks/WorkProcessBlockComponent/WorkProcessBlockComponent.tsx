@@ -3,6 +3,7 @@ import styles from "./WorkProcessBlockComponent.module.scss";
 import { WorkProcessBlock as WorkProcessBlockType } from "@/types/blog";
 import Image from "next/image";
 import { Bitter } from "next/font/google";
+import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 
 const bitter = Bitter({
   subsets: ["latin", "cyrillic"],
@@ -26,85 +27,103 @@ type Step = {
   description: string;
 };
 
-const stepsText: Record<string, { title: string; description: string }[]> = {
+const stepsText: Record<string, Step[]> = {
   en: [
     {
-      title: "Goal & Requirements",
-      description: "We define what the website must achieve.",
+      title: "Brief & Goals",
+      description:
+        "We clarify your business goal, the target audience, and what success should look like (leads, sales, visibility, speed, trust).",
     },
     {
-      title: "Structure & Content Plan",
-      description: "I create the page structure and logic.",
+      title: "Quick Audit",
+      description:
+        "I review your current situation: website, content, competitors, and analytics (if available). I identify what blocks growth and what can be improved first.",
     },
     {
-      title: "Technical Setup",
-      description: "I configure Next.js and Sanity CMS.",
+      title: "Action Plan & Scope",
+      description:
+        "You get a clear plan: what I will do, in what order, what the deliverables are, and what timeline makes sense for your case.",
     },
     {
-      title: "UI Development",
-      description: "I build fast and clean components.",
+      title: "Implementation",
+      description:
+        "I execute the work step by step: structure, content improvements, technical changes, and everything needed to reach the goal — without unnecessary complexity.",
     },
     {
-      title: "Integrations & Features",
-      description: "Forms, filters, maps, languages, analytics.",
+      title: "Review & Quality Check",
+      description:
+        "Before launch or delivery, I test and verify key points: usability, clarity, tracking, and technical correctness. You approve the final result.",
     },
     {
-      title: "SEO & Launch",
-      description: "Speed optimization, SEO, deployment.",
+      title: "Launch & Next Steps",
+      description:
+        "We publish or deliver the final work and define what’s next: growth actions, maintenance, or the next iteration — depending on your priorities.",
     },
   ],
 
   pl: [
     {
-      title: "Cel i wymagania",
-      description: "Ustalamy, co strona ma osiągnąć.",
+      title: "Krótki brief i cel",
+      description:
+        "Ustalamy cel biznesowy, grupę docelową i jak mierzymy sukces (zapytania, sprzedaż, widoczność, szybkość, zaufanie).",
     },
     {
-      title: "Struktura i treści",
-      description: "Tworzę architekturę i logikę projektu.",
+      title: "Szybka analiza sytuacji",
+      description:
+        "Sprawdzam aktualny stan: stronę, treści, konkurencję i analitykę (jeśli jest). Wskazuję, co blokuje wzrost i co warto zrobić najpierw.",
     },
     {
-      title: "Przygotowanie techniczne",
-      description: "Konfiguruję Next.js i Sanity CMS.",
+      title: "Plan działań i zakres",
+      description:
+        "Otrzymujesz konkretny plan: co zrobię, w jakiej kolejności, co dokładnie będzie dostarczone i jaki termin ma sens w Twoim przypadku.",
     },
     {
-      title: "Development UI",
-      description: "Buduję szybkie i przejrzyste komponenty.",
+      title: "Realizacja",
+      description:
+        "Wdrażam prace krok po kroku: struktura, ulepszenia treści, elementy techniczne i wszystko, co jest potrzebne do osiągnięcia celu — bez zbędnego komplikowania.",
     },
     {
-      title: "Integracje i funkcje",
-      description: "Formularze, filtry, mapy, języki, analityka.",
+      title: "Weryfikacja jakości",
+      description:
+        "Przed publikacją lub przekazaniem sprawdzam kluczowe rzeczy: czytelność, wygodę użytkownika, pomiar wyników i poprawność techniczną. Akceptujesz finalny efekt.",
     },
     {
-      title: "SEO i wdrożenie",
-      description: "Optymalizacja szybkości, SEO i wdrożenie.",
+      title: "Publikacja i kolejne kroki",
+      description:
+        "Publikujemy lub przekazuję gotowy efekt i ustalamy, co dalej: rozwój, utrzymanie albo kolejny etap — zależnie od priorytetów.",
     },
   ],
 
   ru: [
     {
-      title: "Цели и требования",
-      description: "Определяем, что должен делать сайт.",
+      title: "Короткий бриф и цель",
+      description:
+        "Уточняем бизнес-цель, аудиторию и критерии успеха (заявки, продажи, видимость, скорость, доверие).",
     },
     {
-      title: "Структура и контент",
-      description: "Создаю архитектуру страниц и логику.",
+      title: "Быстрая диагностика",
+      description:
+        "Я смотрю текущую ситуацию: сайт, контент, конкурентов и аналитику (если она подключена). Понимаю, что тормозит рост и что даст результат быстрее всего.",
     },
     {
-      title: "Техническая подготовка",
-      description: "Настраиваю Next.js и Sanity CMS.",
+      title: "План работ и понятный объём",
+      description:
+        "Вы получаете чёткий план: что я сделаю, в какой последовательности, какой результат будет на выходе и какие сроки реалистичны именно для вашей задачи.",
     },
     {
-      title: "Разработка UI",
-      description: "Делаю быстрые и аккуратные компоненты.",
+      title: "Реализация",
+      description:
+        "Выполняю работу по шагам: структура, улучшения контента, технические правки и всё необходимое, чтобы прийти к цели — без лишней сложности и «магии».",
     },
     {
-      title: "Интеграции и функции",
-      description: "Формы, фильтры, карты, языки, аналитика.",
+      title: "Проверка качества",
+      description:
+        "Перед публикацией или сдачей проекта проверяю ключевые вещи: удобство, понятность, корректность измерений и техническую часть. Вы утверждаете итог.",
     },
     {
-      title: "SEO и запуск",
-      description: "Оптимизация, SEO, публикация сайта.",
+      title: "Запуск и следующие шаги",
+      description:
+        "Публикуем результат или передаю готовую работу и фиксируем, что делаем дальше: рост, поддержка или следующий этап — в зависимости от приоритетов.",
     },
   ],
 };
@@ -133,26 +152,37 @@ const WorkProcessBlockComponent: FC<Props> = ({ block, lang }) => {
         <div className={styles.inner}>
           <h2 className="h2">{title}</h2>
           <div className={styles.steps}>
-            {texts.map((step, index) => {
-              if (!step) return null;
+            {/* Timeline: line + dots */}
+            <div className={styles.timelineDots} aria-hidden>
+              {Array.from({ length: texts.length }).map((_, i) => (
+                <span key={`dot-${i}`} className={styles.dot} />
+              ))}
+            </div>
 
+            {/* Steps */}
+            {texts.map((step, index) => {
               const isEven = (index + 1) % 2 === 0;
 
               return (
-                <div
-                  key={index}
-                  className={`${styles.stepItem} ${(index + 1) % 2 === 0 ? styles.isEven : ""}`}
-                >
-                  <div className={styles.textBlock}>
-                    <p className={styles.stepTitle}>{step.title}</p>
-                    <p className={styles.stepDescription}>{step.description}</p>
-                  </div>
-                  <div className={styles.shape}>
-                    <div className={styles.stepNumber}>
-                      <p className={bitter.className}>{index + 1}</p>
+                <FadeInOnScroll index={index}>
+                  <div
+                    key={`step-${index}`}
+                    className={`${styles.stepItem} ${isEven ? styles.isEven : ""}`}
+                  >
+                    <div className={styles.textBlock}>
+                      <p className={styles.stepTitle}>{step.title}</p>
+                      <p className={styles.stepDescription}>
+                        {step.description}
+                      </p>
+                    </div>
+
+                    <div className={styles.shape}>
+                      <div className={styles.stepNumber}>
+                        <p className={bitter.className}>{index + 1}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </FadeInOnScroll>
               );
             })}
           </div>

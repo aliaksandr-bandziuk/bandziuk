@@ -16,30 +16,91 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  // @media (min-width: 1200px) {
-  //   grid-template-columns: repeat(6, 1fr);
-  // }
-
   @media (min-width: 1200px) {
+    position: relative;
     grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    padding-top: 2.25rem; // место под линию
+    padding-bottom: 2.25rem;
   }
 }
 
+/* ===== TIMELINE (LINE + DOTS) ===== */
+
+.timelineDots {
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: grid;
+    position: absolute;
+    inset: 0;
+
+    /* ВАЖНО: должны совпадать с .steps */
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+
+    align-items: center;
+    justify-items: center;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  @media (min-width: 1200px) {
+    &::before {
+      content: "";
+      position: absolute;
+      left: 2%;
+      right: 2%;
+      top: 50%;
+      height: 2px;
+      transform: translateY(-50%);
+      opacity: 0.25;
+      background: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.6),
+        transparent
+      );
+      pointer-events: none;
+      z-index: 1;
+    }
+  }
+}
+
+
+/* точки — строго по центрам колонок */
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--corp-color);
+  opacity: 0.7;
+}
+
+/* ===== STEP ITEMS ===== */
+
 .stepItem {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
 
-  @media screen and (min-width: 980px) {
+  @media (min-width: 980px) {
     flex-direction: column;
-    justify-content: unset;
+    justify-content: space-around;
+  }
+
+  @media (min-width: 1200px) {
+    position: relative;
+    gap: 0.75rem;
+    z-index: 3; // чтобы текст был поверх линии
   }
 }
 
 @media (min-width: 1200px) {
   .stepItem.isEven {
-    flex-direction: column-reverse;     // текст вниз
+    flex-direction: column-reverse; // текст вниз
   }
 }
 
@@ -48,9 +109,13 @@
 }
 
 .stepTitle {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0.35rem;
+
+  @media (min-width: 980px) {
+    font-size: 1.2rem;
+  }
 }
 
 .stepDescription {
@@ -74,12 +139,12 @@
   display: block;
 }
 
-/* нечётные шаги — "веер" вниз, как в верхнем ряду на примере */
+/* нечётные шаги — "веер" вниз */
 .shapeDown .shapeSvg {
   transform: none;
 }
 
-/* чётные шаги — перевёрнутая фигура, как нижний ряд */
+/* чётные шаги — перевёрнутая фигура */
 .shapeUp .shapeSvg {
   transform: scaleY(-1);
 }

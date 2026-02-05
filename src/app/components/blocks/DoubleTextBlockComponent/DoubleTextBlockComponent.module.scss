@@ -19,19 +19,19 @@
     word-break: break-word;
   }
 
-  @media screen and (min-width: 980px) {
-    &:not(last-child) {
-      .dividerHorizontal {
-        display: block;
-      }
-    }
-  }
+  // @media screen and (min-width: 980px) {
+  //   &:not(last-child) {
+  //     .dividerHorizontal {
+  //       display: block;
+  //     }
+  //   }
+  // }
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
 
   @media screen and (min-width: 980px) {
     flex-direction: row;

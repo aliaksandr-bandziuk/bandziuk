@@ -88,8 +88,7 @@ const translations: Record<string, PartnersCountTranslation> = {
     {
       number: "15",
       title: "Лет опыта",
-      description:
-        "Практический опыт в SEO, разработке сайтов и digital-стратегии.",
+      description: "Опыт в SEO, разработке сайтов и digital-стратегии.",
     },
     {
       number: "17",

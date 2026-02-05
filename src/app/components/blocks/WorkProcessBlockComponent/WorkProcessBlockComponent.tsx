@@ -65,32 +65,32 @@ const stepsText: Record<string, Step[]> = {
     {
       title: "Krótki brief i cel",
       description:
-        "Ustalamy cel biznesowy, grupę docelową i jak mierzymy sukces (zapytania, sprzedaż, widoczność, szybkość, zaufanie).",
+        "Ustalamy cel biznesowy, grupę docelową i definicję sukcesu (zapytania, sprzedaż, widoczność, szybkość, zaufanie).",
     },
     {
       title: "Szybka analiza sytuacji",
       description:
-        "Sprawdzam aktualny stan: stronę, treści, konkurencję i analitykę (jeśli jest). Wskazuję, co blokuje wzrost i co warto zrobić najpierw.",
+        "Sprawdzam stronę, treści, konkurencję i analitykę (jeśli jest). Wskazuję blokady wzrostu i priorytety.",
     },
     {
       title: "Plan działań i zakres",
       description:
-        "Otrzymujesz konkretny plan: co zrobię, w jakiej kolejności, co dokładnie będzie dostarczone i jaki termin ma sens w Twoim przypadku.",
+        "Dostajesz jasny plan: kolejność prac, konkretne deliverables i realistyczny termin dla Twojej sytuacji.",
     },
     {
       title: "Realizacja",
       description:
-        "Wdrażam prace krok po kroku: struktura, ulepszenia treści, elementy techniczne i wszystko, co jest potrzebne do osiągnięcia celu — bez zbędnego komplikowania.",
+        "Realizuję krok po kroku: struktura, treści, zmiany techniczne i wszystko, co prowadzi do celu — bez przerostu formy.",
     },
     {
       title: "Weryfikacja jakości",
       description:
-        "Przed publikacją lub przekazaniem sprawdzam kluczowe rzeczy: czytelność, wygodę użytkownika, pomiar wyników i poprawność techniczną. Akceptujesz finalny efekt.",
+        "Przed publikacją sprawdzam UX, czytelność, tracking i poprawność techniczną. Akceptujesz finalny efekt.",
     },
     {
       title: "Publikacja i kolejne kroki",
       description:
-        "Publikujemy lub przekazuję gotowy efekt i ustalamy, co dalej: rozwój, utrzymanie albo kolejny etap — zależnie od priorytetów.",
+        "Publikujemy gotowy efekt i ustalamy, co dalej: rozwój, utrzymanie lub kolejny etap — wg priorytetów.",
     },
   ],
 
@@ -98,32 +98,32 @@ const stepsText: Record<string, Step[]> = {
     {
       title: "Короткий бриф и цель",
       description:
-        "Уточняем бизнес-цель, аудиторию и критерии успеха (заявки, продажи, видимость, скорость, доверие).",
+        "Уточняем цель, аудиторию и критерии успеха (заявки, продажи, видимость, скорость, доверие).",
     },
     {
       title: "Быстрая диагностика",
       description:
-        "Я смотрю текущую ситуацию: сайт, контент, конкурентов и аналитику (если она подключена). Понимаю, что тормозит рост и что даст результат быстрее всего.",
+        "Смотрю сайт, контент, конкурентов и аналитику (если подключена). Нахожу узкие места и приоритеты.",
     },
     {
-      title: "План работ и понятный объём",
+      title: "План работ и объём",
       description:
-        "Вы получаете чёткий план: что я сделаю, в какой последовательности, какой результат будет на выходе и какие сроки реалистичны именно для вашей задачи.",
+        "Даю понятный план: что делаем, в каком порядке, что получите на выходе и какие сроки реалистичны.",
     },
     {
       title: "Реализация",
       description:
-        "Выполняю работу по шагам: структура, улучшения контента, технические правки и всё необходимое, чтобы прийти к цели — без лишней сложности и «магии».",
+        "Делаю шаг за шагом: структура, контент, технические правки — всё нужное для цели, без лишней сложности.",
     },
     {
       title: "Проверка качества",
       description:
-        "Перед публикацией или сдачей проекта проверяю ключевые вещи: удобство, понятность, корректность измерений и техническую часть. Вы утверждаете итог.",
+        "Перед сдачей проверяю UX, понятность, корректность измерений и техническую часть. Вы утверждаете итог.",
     },
     {
       title: "Запуск и следующие шаги",
       description:
-        "Публикуем результат или передаю готовую работу и фиксируем, что делаем дальше: рост, поддержка или следующий этап — в зависимости от приоритетов.",
+        "Публикуем результат и фиксируем, что дальше: рост, поддержка или следующий этап — по вашим приоритетам.",
     },
   ],
 };

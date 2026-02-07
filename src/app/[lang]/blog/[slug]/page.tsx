@@ -53,9 +53,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = params;
   const data = await getBlogPostByLang(lang, slug);
 
+  const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
+  const pathname = `/blog/${slug}`;
+  const canonicalPath = `${langPrefix}${pathname}`;
+
   return {
     title: data?.seo.metaTitle,
     description: data?.seo.metaDescription,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      title: data?.seo.metaTitle,
+      description: data?.seo.metaDescription,
+      url: canonicalPath,
+    },
+    twitter: {
+      title: data?.seo.metaTitle,
+      description: data?.seo.metaDescription,
+    },
   };
 }
 

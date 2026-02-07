@@ -28,6 +28,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = params;
   const data = await getPortfolioByLang(lang, slug);
 
+  const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
+  const pathname = `/portfolio/${slug}`;
+  const canonicalPath = `${langPrefix}${pathname}`;
+
   let previewImageUrl: string | undefined = undefined;
   if (data?.previewImage) {
     previewImageUrl = urlFor(data.previewImage).width(1200).url();
@@ -36,7 +40,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: data?.seo.metaTitle,
     description: data?.seo.metaDescription,
+    alternates: {
+      canonical: canonicalPath,
+    },
     openGraph: {
+      title: data?.seo.metaTitle,
+      description: data?.seo.metaDescription,
+      images: previewImageUrl ? [{ url: previewImageUrl }] : [],
+      url: canonicalPath,
+    },
+    twitter: {
       title: data?.seo.metaTitle,
       description: data?.seo.metaDescription,
       images: previewImageUrl ? [{ url: previewImageUrl }] : [],
@@ -54,7 +67,7 @@ const PortfolioPage = async ({ params }: Props) => {
 
   const generateSlug = (
     slugObj: { [lang: string]: { current?: string } } | undefined,
-    language: string
+    language: string,
   ) => {
     const cur = slugObj?.[language]?.current;
     if (!cur) return "#";
@@ -104,7 +117,7 @@ const PortfolioPage = async ({ params }: Props) => {
           }
           return acc;
         },
-        []
+        [],
       )
       .join(" ");
 

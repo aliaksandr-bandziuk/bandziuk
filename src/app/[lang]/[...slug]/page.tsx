@@ -130,9 +130,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const current = slug[slug.length - 1] || "";
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
 
+  const langPrefix = lang === "en" ? "" : `/${lang}`;
+  const pathname = slug.length ? `/${slug.join("/")}` : ""; // "" для корня
+  const canonicalPath = pathname
+    ? `${langPrefix}${pathname}`
+    : langPrefix || "/";
+
   return {
     title: page?.seo.metaTitle,
     description: page?.seo.metaDescription,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      title: page?.seo.metaTitle,
+      description: page?.seo.metaDescription,
+      url: canonicalPath,
+    },
+    twitter: {
+      title: page?.seo.metaTitle,
+      description: page?.seo.metaDescription,
+    },
   };
 }
 

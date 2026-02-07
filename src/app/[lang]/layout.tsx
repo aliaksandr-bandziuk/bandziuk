@@ -21,6 +21,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.bandziuk.com"),
   title: "Bandziuk - Full Stack Developer & SEO Manager",
   description:
     "Full Stack Developer with a focus on SEO optimization, creating high-performance web applications and enhancing online visibility.",

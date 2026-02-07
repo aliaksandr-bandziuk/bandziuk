@@ -21,9 +21,25 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = await getPortfolioPageByLang(params.lang);
 
+  const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
+  const pathname = "/portfolio";
+  const canonicalPath = `${langPrefix}${pathname}`;
+
   return {
     title: data?.metaTitle,
     description: data?.metaDescription,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      title: data?.metaTitle,
+      description: data?.metaDescription,
+      url: canonicalPath,
+    },
+    twitter: {
+      title: data?.metaTitle,
+      description: data?.metaDescription,
+    },
   };
 }
 
@@ -57,7 +73,7 @@ const PortfolioAll = async ({ params }: Props) => {
           }
           return acc;
         },
-        []
+        [],
       )
       .join(" ");
 

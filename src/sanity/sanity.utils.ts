@@ -24,7 +24,7 @@ export async function getHeaderByLang(lang: string): Promise<Header> {
     buttonLabel,
   }`;
 
-  const header = await client.fetch(headerQuery, { lang });
+  const header = await client.fetch(headerQuery, { lang }, { next: { revalidate: 60 } });
 
   return header;
 }
@@ -75,7 +75,7 @@ export async function getFooterByLang(lang: string) {
     contactsSection,
   }`;
 
-  const footer = await client.fetch(footerQuery, { lang });
+  const footer = await client.fetch(footerQuery, { lang }, { next: { revalidate: 60 } });
 
   return footer;
 }

@@ -1,5 +1,4 @@
 // app/components/SchemaBlogPost.tsx
-"use client";
 import Script from "next/script";
 import { urlFor } from "@/sanity/sanity.client";
 import { defaultLocale } from "@/i18n.config";

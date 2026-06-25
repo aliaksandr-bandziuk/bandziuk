@@ -1,8 +1,5 @@
 import {
   getHomePageByLang,
-  getAllProjectsByLang,
-  getProjectsPageByLang,
-  getAllDevelopersByLang,
   getAllPathsForLang,
   getBlogPostsByLang,
   getAllPortfolioByLang,

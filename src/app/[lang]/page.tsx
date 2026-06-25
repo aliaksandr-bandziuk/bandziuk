@@ -11,7 +11,6 @@ import HeaderWrapper from "../components/wrappers/HeaderWrapper/HeaderWrapper";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import FormStatic from "../components/forms/FormStatic/FormStatic";
 import LogosCarousel from "../components/sections/LogosCarousel/LogosCarousel";
-import homepage from "@/sanity/schemaTypes/homepage";
 import Hero from "../components/sections/Hero/Hero";
 import ModalFull from "../components/modals/ModalFull/ModalFull";
 import Header from "../components/layout/Header/Header";

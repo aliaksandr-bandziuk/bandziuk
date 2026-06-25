@@ -2,7 +2,7 @@
 import React, { FC, useEffect, useState } from "react";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
-import { ImageAlt } from "@/types/property";
+import { ImageAlt } from "@/types/common";
 import VideoPreview from "../VideoPreview/VideoPreview";
 
 type ResponsiveMediaProps = {

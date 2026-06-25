@@ -4,7 +4,7 @@ import { Bitter } from "next/font/google";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import type { KeyFeature, Service } from "@/types/portfolio";
-import type { ImageAlt } from "@/types/property";
+import type { ImageAlt } from "@/types/common";
 import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
 import ParticlesBackground from "../../animations/ParticlesBackground/ParticlesBackground";
 import PortfolioIntroClient from "./PortfolioIntroClient";

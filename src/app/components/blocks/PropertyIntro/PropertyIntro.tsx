@@ -1,4 +1,4 @@
-import { ImageAlt } from "@/types/property";
+import { ImageAlt } from "@/types/common";
 import React, { FC } from "react";
 import styles from "./PropertyIntro.module.scss";
 import {

@@ -2,7 +2,7 @@
 import React, { FC, useRef, useState } from "react";
 import styles from "./VideoPreview.module.scss";
 import YouTube, { YouTubePlayer } from "react-youtube";
-import { ImageAlt } from "@/types/project";
+import { ImageAlt } from "@/types/common";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 

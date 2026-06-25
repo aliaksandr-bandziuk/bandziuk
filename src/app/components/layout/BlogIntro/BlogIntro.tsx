@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import styles from "./BlogIntro.module.scss";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
-import { ImageAlt } from "@/types/project";
+import { ImageAlt } from "@/types/common";
 import { Bitter } from "next/font/google";
 
 const bitter = Bitter({

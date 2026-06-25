@@ -7,3 +7,10 @@ export type ImageAlt = {
     _type: "reference";
   };
 };
+
+export type GeoPoint = {
+  _type: "geopoint";
+  lat: number;
+  lng: number;
+  alt?: number;
+};

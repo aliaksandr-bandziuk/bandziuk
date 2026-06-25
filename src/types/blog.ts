@@ -2,7 +2,7 @@ import { FormStandardDocument } from "./formStandardDocument";
 import { navLink } from "./header";
 import { BenefitsBlock, ServiceItem } from "./homepage";
 import { Portfolio } from "./portfolio";
-import { GeoPoint, ImageAlt, Project } from "./project";
+import { GeoPoint, ImageAlt } from "./common";
 
 type ContactType = "Email" | "Phone" | "Link";
 

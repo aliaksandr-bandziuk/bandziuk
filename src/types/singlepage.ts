@@ -23,14 +23,9 @@ import {
   LandingCtaBlock,
 } from "./blog";
 import { BenefitsBlock, Image } from "./homepage";
-import { ImageAlt, Project } from "./project";
+import { ImageAlt } from "./common";
 
 export type PageType = "page" | "service" | "servicesIndex";
-
-export type ProjectSection = {
-  title: string;
-  projects: Project[];
-};
 
 /** Минимальный «референс» на страницу, без дочерних блоков */
 export type SinglepageRef = {
@@ -80,7 +75,6 @@ export type Singlepage = {
     | AnimationBulletsBlock
     | LandingCtaBlock
   >;
-  projectSection?: ProjectSection;
   parentPage?: SinglepageRef;
   language: string;
   slug: {

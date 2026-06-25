@@ -129,7 +129,7 @@ const FormStatic: FC<ContactFormProps> = ({ onFormSubmitSuccess, lang }) => {
     setSubmitting(true);
     try {
       const currentPage = window.location.href; // Получаем текущий URL
-      const response = await axios.post("/api/monday", {
+      const response = await axios.post("/api/email", {
         ...values,
         currentPage,
       });
@@ -160,7 +160,7 @@ const FormStatic: FC<ContactFormProps> = ({ onFormSubmitSuccess, lang }) => {
           setMessage(null);
         }, 5000);
       } else {
-        throw new Error("Failed to send lead to monday.com");
+        throw new Error("Failed to send request");
       }
     } catch (error) {
       console.error("Error:", error);

@@ -160,7 +160,7 @@ const SinglePage = async ({ params }: Props) => {
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
 
   if (!page) {
-    return <p>Страница не найдена</p>;
+    notFound();
   }
 
   if (slug.length === 1 && page?.parentPage) {

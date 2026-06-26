@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useEffect } from "react";
+import React, { useEffect, forwardRef } from "react";
 import styles from "./BurgerMenu.module.scss";
 
 type Props = {
@@ -10,47 +10,48 @@ type Props = {
   onToggle: () => void;
 };
 
-const BurgerMenu: React.FC<Props> = ({ isMenuOpen, onToggle }) => {
-  const toggleMenu = () => {
-    onToggle();
-  };
+const BurgerMenu = forwardRef<HTMLDivElement, Props>(
+  ({ isMenuOpen, onToggle }, ref) => {
+    useEffect(() => {
+      if (isMenuOpen) {
+        document.body.classList.add("menu-open");
+      } else {
+        document.body.classList.remove("menu-open");
+      }
+    }, [isMenuOpen]);
 
-  useEffect(() => {
-    if (isMenuOpen) {
-      document.body.classList.add("menu-open");
-    } else {
-      document.body.classList.remove("menu-open");
-    }
-  }, [isMenuOpen]);
-
-  return (
-    <div className={styles.burgerMenu}>
-      <div
-        className={styles.burgerIcon}
-        role="button"
-        tabIndex={0}
-        aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
-        aria-expanded={isMenuOpen}
-        onClick={toggleMenu}
-        onKeyDown={(e) => {
-          if (e.key === "Enter" || e.key === " ") {
-            e.preventDefault();
-            toggleMenu();
-          }
-        }}
-      >
+    return (
+      <div className={styles.burgerMenu}>
         <div
-          className={`${styles.bar} ${isMenuOpen ? styles.rotateBar1 : ""}`}
-        />
-        <div
-          className={`${styles.bar} ${isMenuOpen ? styles.rotateBar2 : ""}`}
-        />
-        <div
-          className={`${styles.bar} ${isMenuOpen ? styles.rotateBar3 : ""}`}
-        />
+          ref={ref}
+          className={styles.burgerIcon}
+          role="button"
+          tabIndex={0}
+          aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={isMenuOpen}
+          onClick={onToggle}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              onToggle();
+            }
+          }}
+        >
+          <div
+            className={`${styles.bar} ${isMenuOpen ? styles.rotateBar1 : ""}`}
+          />
+          <div
+            className={`${styles.bar} ${isMenuOpen ? styles.rotateBar2 : ""}`}
+          />
+          <div
+            className={`${styles.bar} ${isMenuOpen ? styles.rotateBar3 : ""}`}
+          />
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+);
+
+BurgerMenu.displayName = "BurgerMenu";
 
 export default BurgerMenu;

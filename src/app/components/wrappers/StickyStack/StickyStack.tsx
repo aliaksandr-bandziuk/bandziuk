@@ -31,6 +31,7 @@ const StickyStack: FC<StickyStackProps> = ({
                 position: "sticky",
                 top,
                 zIndex,
+                willChange: "transform",
               }}
               initial={animate ? { opacity: 0, y: 20 } : undefined}
               whileInView={animate ? { opacity: 1, y: 0 } : undefined}

@@ -30,9 +30,23 @@ type Props = {
 // Dynamic metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const homePage = await getHomePageByLang(params.lang);
+  const canonicalPath = params.lang === "en" ? "/" : `/${params.lang}`;
+
   return {
     title: homePage?.seo?.metaTitle,
     description: homePage?.seo?.metaDescription,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      title: homePage?.seo?.metaTitle,
+      description: homePage?.seo?.metaDescription,
+      url: canonicalPath,
+    },
+    twitter: {
+      title: homePage?.seo?.metaTitle,
+      description: homePage?.seo?.metaDescription,
+    },
   };
 }
 

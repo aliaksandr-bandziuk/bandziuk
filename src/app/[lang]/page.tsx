@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { BASE_URL } from "@/utils/hreflang";
 import {
   getFormStandardDocumentByLang,
   getHomePageByLang,
@@ -37,6 +38,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: homePage?.seo?.metaDescription,
     alternates: {
       canonical: canonicalPath,
+      languages: {
+        en: `${BASE_URL}/`,
+        pl: `${BASE_URL}/pl`,
+        ru: `${BASE_URL}/ru`,
+        "x-default": `${BASE_URL}/`,
+      },
     },
     openGraph: {
       title: homePage?.seo?.metaTitle,

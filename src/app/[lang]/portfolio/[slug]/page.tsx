@@ -1,6 +1,7 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import { BASE_URL, localePrefix, findAltSlug, buildLanguageAlternates } from "@/utils/hreflang";
 import {
   getFormStandardDocumentByLang,
   getPortfolioByLang,
@@ -29,13 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = params;
   const data = await getPortfolioByLang(lang, slug);
 
-  const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
-  const pathname = `/portfolio/${slug}`;
-  const canonicalPath = `${langPrefix}${pathname}`;
+  const canonicalPath = `${localePrefix(lang)}/portfolio/${slug}`;
 
   let previewImageUrl: string | undefined = undefined;
   if (data?.previewImage) {
     previewImageUrl = urlFor(data.previewImage).width(1200).url();
+  }
+
+  // Build hreflang alternates from _translations — only emit locales that exist
+  const translations = data?._translations ?? [];
+  const altEntries: Record<string, string> = {
+    [lang]: `${BASE_URL}${localePrefix(lang)}/portfolio/${slug}`,
+  };
+  for (const locale of ["en", "pl", "ru"]) {
+    if (locale === lang) continue;
+    const altSlug = findAltSlug(translations, locale);
+    if (!altSlug) continue;
+    altEntries[locale] = `${BASE_URL}${localePrefix(locale)}/portfolio/${altSlug}`;
   }
 
   return {
@@ -43,6 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: data?.seo.metaDescription,
     alternates: {
       canonical: canonicalPath,
+      languages: buildLanguageAlternates(altEntries),
     },
     openGraph: {
       title: data?.seo.metaTitle,

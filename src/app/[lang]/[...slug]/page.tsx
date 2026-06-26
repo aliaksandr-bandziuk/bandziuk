@@ -9,6 +9,7 @@ import {
   getSinglePageByLang,
   getAllPathsForLang,
 } from "@/sanity/sanity.utils";
+import { BASE_URL, localePrefix, findAltSlug, buildLanguageAlternates } from "@/utils/hreflang";
 import {
   AccordionBlock,
   TextContent,
@@ -130,17 +131,35 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const current = slug[slug.length - 1] || "";
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
 
-  const langPrefix = lang === "en" ? "" : `/${lang}`;
-  const pathname = slug.length ? `/${slug.join("/")}` : ""; // "" для корня
+  const pathname = slug.length ? `/${slug.join("/")}` : "";
   const canonicalPath = pathname
-    ? `${langPrefix}${pathname}`
-    : langPrefix || "/";
+    ? `${localePrefix(lang)}${pathname}`
+    : localePrefix(lang) || "/";
+
+  // Build hreflang alternates — only emit locales whose translation exists.
+  // Singlepage slugs may be nested (e.g. /services/web-dev), so we resolve
+  // the full path via getAllPathsForLang, same as the LocaleSwitcher.
+  const altEntries: Record<string, string> = {
+    [lang]: `${BASE_URL}${localePrefix(lang)}${pathname || "/"}`,
+  };
+
+  const translations = page?._translations ?? [];
+  for (const locale of ["en", "pl", "ru"]) {
+    if (locale === lang) continue;
+    const childSlug = findAltSlug(translations, locale);
+    if (!childSlug) continue;
+    const allPaths = await getAllPathsForLang(locale);
+    const match = allPaths.find((arr) => arr[arr.length - 1] === childSlug);
+    if (!match) continue;
+    altEntries[locale] = `${BASE_URL}${localePrefix(locale)}/${match.join("/")}`;
+  }
 
   return {
     title: page?.seo.metaTitle,
     description: page?.seo.metaDescription,
     alternates: {
       canonical: canonicalPath,
+      languages: buildLanguageAlternates(altEntries),
     },
     openGraph: {
       title: page?.seo.metaTitle,

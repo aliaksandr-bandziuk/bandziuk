@@ -1,6 +1,7 @@
 // page.tsx
 import React from "react";
 import { Metadata } from "next";
+import { BASE_URL } from "@/utils/hreflang";
 import { i18n } from "@/i18n.config";
 import {
   getBlogPageByLang,
@@ -35,6 +36,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: data?.metaDescription,
     alternates: {
       canonical: canonicalPath,
+      languages: {
+        en: `${BASE_URL}/blog`,
+        pl: `${BASE_URL}/pl/blog`,
+        ru: `${BASE_URL}/ru/blog`,
+        "x-default": `${BASE_URL}/blog`,
+      },
     },
     openGraph: {
       title: data?.metaTitle,

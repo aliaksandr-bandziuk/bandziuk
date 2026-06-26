@@ -1,5 +1,6 @@
 import React from "react";
 import { notFound } from "next/navigation";
+import { BASE_URL, localePrefix, findAltSlug, buildLanguageAlternates } from "@/utils/hreflang";
 // import LastArticles from "@/app/components/LastArticles/LastArticles";
 // import LinkPrimary from "@/app/components/LinkPrimary/LinkPrimary";
 
@@ -54,15 +55,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = params;
   const data = await getBlogPostByLang(lang, slug);
 
-  const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
-  const pathname = `/blog/${slug}`;
-  const canonicalPath = `${langPrefix}${pathname}`;
+  const canonicalPath = `${localePrefix(lang)}/blog/${slug}`;
+
+  // Build hreflang alternates from _translations — only emit locales that exist
+  const translations = data?._translations ?? [];
+  const altEntries: Record<string, string> = {
+    [lang]: `${BASE_URL}${localePrefix(lang)}/blog/${slug}`,
+  };
+  for (const locale of ["en", "pl", "ru"]) {
+    if (locale === lang) continue;
+    const altSlug = findAltSlug(translations, locale);
+    if (!altSlug) continue;
+    altEntries[locale] = `${BASE_URL}${localePrefix(locale)}/blog/${altSlug}`;
+  }
 
   return {
     title: data?.seo.metaTitle,
     description: data?.seo.metaDescription,
     alternates: {
       canonical: canonicalPath,
+      languages: buildLanguageAlternates(altEntries),
     },
     openGraph: {
       title: data?.seo.metaTitle,

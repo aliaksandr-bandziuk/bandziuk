@@ -1,4 +1,5 @@
 import Footer from "@/app/components/layout/Footer/Footer";
+import { BASE_URL } from "@/utils/hreflang";
 import Header from "@/app/components/layout/Header/Header";
 import PortfolioItems from "@/app/components/layout/PortfolioItems/PortfolioItems";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
@@ -30,6 +31,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: data?.metaDescription,
     alternates: {
       canonical: canonicalPath,
+      languages: {
+        en: `${BASE_URL}/portfolio`,
+        pl: `${BASE_URL}/pl/portfolio`,
+        ru: `${BASE_URL}/ru/portfolio`,
+        "x-default": `${BASE_URL}/portfolio`,
+      },
     },
     openGraph: {
       title: data?.metaTitle,

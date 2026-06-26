@@ -14,10 +14,14 @@ import ScreenshotSlide from "../../ui/ScreenshotSlide/ScreenshotSlide";
 
 type Props = {
   screenshots: Screenshot[];
+  onSlideClick?: (index: number) => void;
 };
 
-const SliderScreenshots: FC<Props> = ({ screenshots }) => {
+const SliderScreenshots: FC<Props> = ({ screenshots, onSlideClick }) => {
   const slidesRef = useRef<HTMLDivElement[]>([]);
+  // Drag detection: track pointer origin so a swipe doesn't open the lightbox.
+  const pointerStart = useRef<{ x: number; y: number } | null>(null);
+  const didDrag = useRef(false);
 
   useEffect(() => {
     if (!slidesRef.current.length) return;
@@ -61,7 +65,20 @@ const SliderScreenshots: FC<Props> = ({ screenshots }) => {
               ref={(el) => {
                 if (el) slidesRef.current[i] = el;
               }}
-              className={styles.slide}
+              className={`${styles.slide} ${onSlideClick ? styles.clickable : ""}`}
+              onPointerDown={(e) => {
+                pointerStart.current = { x: e.clientX, y: e.clientY };
+                didDrag.current = false;
+              }}
+              onPointerMove={(e) => {
+                if (!pointerStart.current) return;
+                const dx = Math.abs(e.clientX - pointerStart.current.x);
+                const dy = Math.abs(e.clientY - pointerStart.current.y);
+                if (dx > 5 || dy > 5) didDrag.current = true;
+              }}
+              onClick={() => {
+                if (!didDrag.current) onSlideClick?.(i);
+              }}
             >
               <ScreenshotSlide screenshot={screenshot} />
             </div>

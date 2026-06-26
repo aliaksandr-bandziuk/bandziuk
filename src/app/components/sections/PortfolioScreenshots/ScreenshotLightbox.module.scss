@@ -1,0 +1,173 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  background-color: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  max-height: 100dvh;
+  padding: 60px 20px 20px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    padding: 60px 80px 30px;
+  }
+}
+
+.closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  z-index: 10;
+
+  &:hover,
+  &:focus-visible {
+    background: rgba(255, 255, 255, 0.18);
+    outline: 2px solid var(--corp-color);
+    outline-offset: 2px;
+  }
+}
+
+// Wrapper gives nav buttons a positioned ancestor they can be offset from.
+// Left/right positions are negative so buttons sit in the gutter between
+// the panel edge and the swiper content area.
+.swiperWrapper {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navPrev,
+.navNext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--corp-color);
+    outline-offset: 2px;
+  }
+
+  // Swiper adds this class when at the first/last slide
+  &:global(.swiper-button-disabled) {
+    opacity: 0.3;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+.navPrev {
+  left: -22px;
+
+  @media screen and (min-width: 768px) {
+    left: -60px;
+  }
+}
+
+.navNext {
+  right: -22px;
+
+  @media screen and (min-width: 768px) {
+    right: -60px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  min-height: 0;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 0 10px;
+
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.imageWrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 60vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+
+  @media screen and (min-width: 768px) {
+    max-height: 65vh;
+  }
+}
+
+.caption {
+  text-align: center;
+  max-width: 700px;
+
+  p {
+    font-size: clamp(0.938rem, 0.875rem + 0.25vw, 1.063rem);
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.captionTitle {
+  font-size: clamp(1rem, 0.938rem + 0.25vw, 1.125rem) !important;
+  font-weight: 500;
+  color: var(--corp-color) !important;
+  margin-bottom: 6px;
+}

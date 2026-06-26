@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import styles from "./PortfolioScreenshots.module.scss";
 import { Screenshot } from "@/types/portfolio";
 import { Bitter } from "next/font/google";
-import SliderScreenshots from "../../wrappers/SliderScreenshots/SliderScreenshots";
+import PortfolioScreenshotsClient from "./PortfolioScreenshotsClient";
 
 const bitter = Bitter({
   subsets: ["latin", "cyrillic"],
@@ -30,7 +30,7 @@ const PortfolioScreenshots: FC<Props> = ({ lang, screenshots }) => {
         </h2>
       </div>
       <div className="container-content">
-        <SliderScreenshots screenshots={screenshots} />
+        <PortfolioScreenshotsClient screenshots={screenshots} />
       </div>
     </section>
   );

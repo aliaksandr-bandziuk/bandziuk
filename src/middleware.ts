@@ -9,6 +9,7 @@ export default async function middleware(request: NextRequest) {
     defaultLocale,
     localePrefix: "as-needed",
     localeDetection: false,
+    alternateLinks: false,
   });
 
   return handleI18nRouting(request);

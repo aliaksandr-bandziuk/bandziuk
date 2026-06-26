@@ -1,4 +1,5 @@
 import React from "react";
+import { notFound } from "next/navigation";
 // import LastArticles from "@/app/components/LastArticles/LastArticles";
 // import LinkPrimary from "@/app/components/LinkPrimary/LinkPrimary";
 
@@ -80,7 +81,7 @@ const PagePost = async ({ params }: Props) => {
   const blog = await getBlogPostByLang(lang, slug);
 
   if (!blog) {
-    return <p>Страница не найдена</p>;
+    notFound();
   }
 
   const formDocument: FormStandardDocument =

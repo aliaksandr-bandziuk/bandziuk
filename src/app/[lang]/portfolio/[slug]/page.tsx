@@ -1,4 +1,5 @@
 import React from "react";
+import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import {
   getFormStandardDocumentByLang,
@@ -62,7 +63,7 @@ const PortfolioPage = async ({ params }: Props) => {
   const portfolio = await getPortfolioByLang(lang, slug);
 
   if (!portfolio) {
-    return null;
+    notFound();
   }
 
   const generateSlug = (

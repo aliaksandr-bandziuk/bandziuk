@@ -9,7 +9,7 @@ interface SchemaBlogPostProps {
   lang: string;
 }
 
-const siteUrl = "https://bandziuk.com";
+const siteUrl = "https://www.bandziuk.com";
 
 const SchemaBlogPost: React.FC<SchemaBlogPostProps> = ({ blog, lang }) => {
   // Собираем канонический URL
@@ -40,10 +40,7 @@ const SchemaBlogPost: React.FC<SchemaBlogPostProps> = ({ blog, lang }) => {
     publisher: {
       "@type": "Organization",
       name: "Aliaksandr Bandziuk",
-      logo: {
-        "@type": "ImageObject",
-        url: "", // путь к логотипу
-      },
+      url: siteUrl,
     },
     datePublished: blog.publishedAt,
     dateModified: blog.publishedAt,
@@ -54,9 +51,8 @@ const SchemaBlogPost: React.FC<SchemaBlogPostProps> = ({ blog, lang }) => {
       id="schema-blogpost"
       type="application/ld+json"
       strategy="beforeInteractive"
-    >
-      {JSON.stringify(jsonLd)}
-    </Script>
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
   );
 };
 

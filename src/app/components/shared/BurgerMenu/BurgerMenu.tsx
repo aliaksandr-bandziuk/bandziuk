@@ -25,7 +25,20 @@ const BurgerMenu: React.FC<Props> = ({ isMenuOpen, onToggle }) => {
 
   return (
     <div className={styles.burgerMenu}>
-      <div className={styles.burgerIcon} onClick={toggleMenu}>
+      <div
+        className={styles.burgerIcon}
+        role="button"
+        tabIndex={0}
+        aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+        aria-expanded={isMenuOpen}
+        onClick={toggleMenu}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggleMenu();
+          }
+        }}
+      >
         <div
           className={`${styles.bar} ${isMenuOpen ? styles.rotateBar1 : ""}`}
         />

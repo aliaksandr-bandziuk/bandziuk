@@ -63,7 +63,21 @@ const LocaleSwitcher = ({ translations }: Props) => {
 
   return (
     <div className={styles.localeSwitcher} ref={dropdownRef}>
-      <div className={styles.localeSwitcherButton} onClick={toggleDropdown}>
+      <div
+        className={styles.localeSwitcherButton}
+        role="button"
+        tabIndex={0}
+        aria-label="Switch language"
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
+        onClick={toggleDropdown}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggleDropdown();
+          }
+        }}
+      >
         {currentLang}
         {/* <svg
           className={`${styles.arrow} ${isOpen ? styles.open : ""}`}
@@ -81,7 +95,7 @@ const LocaleSwitcher = ({ translations }: Props) => {
         </svg> */}
       </div>
       {isOpen && (
-        <ul className={styles.localeSwitcherList}>
+        <ul className={styles.localeSwitcherList} role="listbox" aria-label="Available languages">
           {availableTranslations.map((version) => (
             <li
               key={version.language}

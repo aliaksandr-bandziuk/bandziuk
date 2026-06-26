@@ -80,7 +80,9 @@ const PortfolioIntro: React.FC<Props> = ({
     website: websiteNode,
   };
 
-  const imgUrl = previewImage?.asset ? urlFor(previewImage).url() : undefined;
+  const imgUrl = previewImage?.asset
+    ? urlFor(previewImage).width(1920).url()
+    : undefined;
 
   return (
     <section className={styles.portfolioIntro}>
@@ -123,9 +125,9 @@ const PortfolioIntro: React.FC<Props> = ({
               src={imgUrl}
               alt={previewImage.alt ?? title}
               fill
+              sizes="(max-width: 768px) 100vw, 1400px"
               className={styles.previewImage}
               priority
-              quality={100}
             />
           </div>
         )}

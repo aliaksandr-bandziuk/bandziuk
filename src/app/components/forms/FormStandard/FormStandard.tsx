@@ -1,6 +1,6 @@
 "use client";
 
-import { FC, useState, useEffect, useId } from "react";
+import { FC, useState, useId } from "react";
 import { Formik, Form, Field, ErrorMessage, FormikHelpers } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -43,20 +43,7 @@ const FormStandard: FC<ContactFormProps> = ({
   });
 
   const dataForm = form.form;
-  const router = useRouter(); // Используйте useRouter из next/navigation
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      ["name", "phone", "email"].forEach((field) => {
-        const input = document.getElementById(field) as HTMLInputElement;
-        if (input && input.value) {
-          setFilled((f) => ({ ...f, [field]: true }));
-        }
-      });
-    }, 100);
-
-    return () => clearInterval(interval);
-  }, []);
+  const router = useRouter();
 
   const handleBlur = (e: React.FocusEvent<HTMLInputElement>) => {
     const { name, value } = e.target;

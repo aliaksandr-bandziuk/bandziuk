@@ -107,12 +107,20 @@
 // -webkit-box-shadow используется для изменения фона поля. #363a3e — это цвет фона; замените его на цвет, который вы используете для полей ввода. Важно, что использование box-shadow вместо background-color позволяет обойти ограничения браузера на прямое изменение фона автозаполненных полей.
 // transition: background-color 5000s — это трюк, который замедляет любые попытки браузера изменить фон после автозаполнения, практически предотвращая его изменение.
 .inputField:-webkit-autofill,
-.inputField:-webkit-autofill:hover, 
-.inputField:-webkit-autofill:focus, 
-.inputField:-webkit-autofill:active  {
-    -webkit-text-fill-color: #000 !important; /* Цвет текста */
-    -webkit-box-shadow: 0 0 0px 1000px #fff inset; /* Фон поля, замените на желаемый цвет */
-    transition: background-color 5000s ease-in-out 0s; /* Задержка изменения фона, чтобы предотвратить мерцание */
+.inputField:-webkit-autofill:hover,
+.inputField:-webkit-autofill:focus,
+.inputField:-webkit-autofill:active {
+  -webkit-text-fill-color: #000 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+// When the browser autofills an input the label must also float/hide.
+// JS polling can't detect autofill reliably; :has() is the CSS-native solution.
+.inputWrapper:has(.inputField:-webkit-autofill) .label {
+  top: 5px;
+  font-size: 0.75rem;
+  opacity: 0;
 }
 
 .error {

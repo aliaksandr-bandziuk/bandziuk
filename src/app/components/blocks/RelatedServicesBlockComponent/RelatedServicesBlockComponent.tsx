@@ -29,9 +29,9 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
   const { title, items, marginTop, marginBottom } = block;
 
   const computedMarginTop =
-    marginTop && marginValues[marginTop] ? marginValues[marginTop] : "0";
+    marginTop && marginValues[marginTop] ? marginValues[marginTop] : undefined;
   const computedMarginBottom =
-    marginBottom && marginValues[marginBottom] ? marginValues[marginBottom] : "0";
+    marginBottom && marginValues[marginBottom] ? marginValues[marginBottom] : undefined;
 
   if (!items?.length) return null;
 
@@ -55,20 +55,21 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
             return (
               <li key={item._id} className={styles.item}>
                 <FadeInOnScroll index={index}>
-                  <Link href={href} className={styles.itemLink}>
+                  <Link href={href} className={styles.card}>
                     {item.previewImage && (
-                      <div className={styles.imageWrapper}>
-                        <Image
-                          src={urlFor(item.previewImage).width(600).url()}
-                          alt={item.previewImage.alt ?? item.title}
-                          fill
-                          className={styles.image}
-                          sizes="(max-width: 768px) 100vw, 400px"
-                          unoptimized
-                        />
-                      </div>
+                      <Image
+                        src={urlFor(item.previewImage).width(900).url()}
+                        alt={item.previewImage.alt ?? item.title}
+                        fill
+                        className={styles.cardImage}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 33vw"
+                        unoptimized
+                      />
                     )}
-                    <span className={styles.itemLabel}>{item.title}</span>
+                    <div className={styles.cardGradient} />
+                    <div className={styles.cardContent}>
+                      <h3 className={styles.cardTitle}>{item.title}</h3>
+                    </div>
                   </Link>
                 </FadeInOnScroll>
               </li>

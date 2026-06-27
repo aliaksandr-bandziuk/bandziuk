@@ -70,20 +70,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: data?.seo.metaTitle,
-    description: data?.seo.metaDescription,
+    title: data?.seo?.metaTitle,
+    description: data?.seo?.metaDescription,
     alternates: {
       canonical: canonicalPath,
       languages: buildLanguageAlternates(altEntries),
     },
     openGraph: {
-      title: data?.seo.metaTitle,
-      description: data?.seo.metaDescription,
+      title: data?.seo?.metaTitle,
+      description: data?.seo?.metaDescription,
       url: canonicalPath,
     },
     twitter: {
-      title: data?.seo.metaTitle,
-      description: data?.seo.metaDescription,
+      title: data?.seo?.metaTitle,
+      description: data?.seo?.metaDescription,
     },
   };
 }

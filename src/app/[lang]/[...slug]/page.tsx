@@ -155,20 +155,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: page?.seo.metaTitle,
-    description: page?.seo.metaDescription,
+    title: page?.seo?.metaTitle,
+    description: page?.seo?.metaDescription,
     alternates: {
       canonical: canonicalPath,
       languages: buildLanguageAlternates(altEntries),
     },
     openGraph: {
-      title: page?.seo.metaTitle,
-      description: page?.seo.metaDescription,
+      title: page?.seo?.metaTitle,
+      description: page?.seo?.metaDescription,
       url: canonicalPath,
     },
     twitter: {
-      title: page?.seo.metaTitle,
-      description: page?.seo.metaDescription,
+      title: page?.seo?.metaTitle,
+      description: page?.seo?.metaDescription,
     },
   };
 }

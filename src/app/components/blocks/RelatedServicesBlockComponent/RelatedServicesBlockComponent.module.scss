@@ -43,30 +43,44 @@
 .itemLink {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 12px;
-  padding: 28px 20px;
+  overflow: hidden;
   text-decoration: none;
   transition: border-color 0.3s ease, background-color 0.3s ease;
 
   &:hover {
     border-color: rgba(255, 255, 255, 0.15);
     background-color: rgba(255, 255, 255, 0.08);
+
+    .image {
+      transform: scale(1.04);
+    }
   }
 }
 
-.itemLabel {
-  font-size: clamp(1.125rem, 0.938rem + 0.75vw, 1.5rem);
-  font-weight: 500;
-  line-height: 1.2;
-  color: var(--corp-color);
+// Image slot: fixed aspect ratio so all cards are same height regardless
+// of whether they have an image or not.
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.04);
 }
 
-.itemDescription {
-  font-size: clamp(1rem, 0.938rem + 0.25vw, 1.125rem);
-  color: rgba(199, 196, 196, 0.8);
-  line-height: 1.5;
+.image {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.itemLabel {
+  display: block;
+  padding: 20px 20px 24px;
+  font-size: clamp(1.125rem, 0.938rem + 0.75vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--corp-color);
 }

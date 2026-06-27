@@ -1,7 +1,9 @@
 import React, { FC } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Bitter } from "next/font/google";
 import { RelatedServicesBlock } from "@/types/blog";
+import { urlFor } from "@/sanity/sanity.client";
 import { localePrefix } from "@/utils/hreflang";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import styles from "./RelatedServicesBlockComponent.module.scss";
@@ -46,8 +48,6 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
         )}
         <ul className={styles.items}>
           {items.map((item, index) => {
-            // Build full path: localePrefix + /parentSlug/slug or /slug for root pages.
-            // parentSlug is null for root-level singlepages.
             const fullSlug = item.parentSlug
               ? `${item.parentSlug}/${item.slug}`
               : item.slug;
@@ -56,12 +56,19 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
               <li key={item._id} className={styles.item}>
                 <FadeInOnScroll index={index}>
                   <Link href={href} className={styles.itemLink}>
-                    <span className={styles.itemLabel}>{item.title}</span>
-                    {item.excerpt && (
-                      <span className={styles.itemDescription}>
-                        {item.excerpt}
-                      </span>
+                    {item.previewImage && (
+                      <div className={styles.imageWrapper}>
+                        <Image
+                          src={urlFor(item.previewImage).width(600).url()}
+                          alt={item.previewImage.alt ?? item.title}
+                          fill
+                          className={styles.image}
+                          sizes="(max-width: 768px) 100vw, 400px"
+                          unoptimized
+                        />
+                      </div>
                     )}
+                    <span className={styles.itemLabel}>{item.title}</span>
                   </Link>
                 </FadeInOnScroll>
               </li>

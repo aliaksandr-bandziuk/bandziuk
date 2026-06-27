@@ -357,7 +357,7 @@ export async function getSinglePageByLang(
             title,
             "slug": slug[$lang].current,
             "parentSlug": parentPage->slug[$lang].current,
-            excerpt
+            previewImage { asset, alt }
           },
           marginTop,
           marginBottom

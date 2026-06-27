@@ -336,7 +336,7 @@ export type RelatedServiceItem = {
   title: string;
   slug: string;
   parentSlug?: string | null;
-  excerpt?: string;
+  previewImage?: ImageAlt;
 };
 
 export type RelatedServicesBlock = {

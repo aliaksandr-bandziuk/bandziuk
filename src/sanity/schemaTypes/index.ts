@@ -41,6 +41,7 @@ import contactMethodsBlock from "./contactMethodsBlock";
 import formFullBlock from "./formFullBlock";
 import landingCtaBlock from "./landingCtaBlock";
 import stepsBlock from "./stepsBlock";
+import relatedServicesBlock from "./relatedServicesBlock";
 
 export const schemaTypes = [
   header,
@@ -84,6 +85,7 @@ export const schemaTypes = [
   serviceFeaturesBlock,
   workProcessBlock,
   stepsBlock,
+  relatedServicesBlock,
   docFile,
   localizedSlug,
 ];

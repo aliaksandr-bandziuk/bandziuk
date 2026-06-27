@@ -330,6 +330,24 @@ export type GridBlock = {
 };
 // === Конец типов для GridBlock ===
 
+// === Типы для RelatedServicesBlock ===
+export type RelatedServiceItem = {
+  _key: string;
+  label: string;
+  slug: string;
+  description?: string;
+};
+
+export type RelatedServicesBlock = {
+  _key: string;
+  _type: "relatedServicesBlock";
+  title: string;
+  items: RelatedServiceItem[];
+  marginTop?: "small" | "medium" | "large";
+  marginBottom?: "small" | "medium" | "large";
+};
+// === Конец типов для RelatedServicesBlock ===
+
 // === Типы для StepsBlock ===
 export type StepItem = {
   _key: string;

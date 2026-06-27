@@ -266,6 +266,7 @@ export type AccordionBlock = {
 export type FaqBlock = {
   _key: string;
   _type: "faqBlock";
+  title?: string;
   faq: AccordionBlock;
   marginTop?: "small" | "medium" | "large";
   marginBottom?: "small" | "medium" | "large";

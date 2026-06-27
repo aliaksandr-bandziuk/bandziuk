@@ -405,13 +405,12 @@ const SinglePage = async ({ params }: Props) => {
 
         // Собираем структуру, которую ждёт FaqHomepage
         const faqSection: FaqSection = {
-          // если каких-то полей нет в твоём FaqBlock — подставляем пустые строки
-          _key: fb._key, // добавили
+          _key: fb._key,
           _type: "faqSection",
-          title: (fb as any).title ?? "",
-          pretitle: (fb as any).pretitle ?? "",
-          subtitle: (fb as any).subtitle ?? "",
-          faq: fb.faq, // это AccordionBlock
+          title: fb.title ?? "",
+          pretitle: "",
+          subtitle: "",
+          faq: fb.faq,
         };
 
         return <FaqHomepage key={fb._key} faqSection={faqSection} />;

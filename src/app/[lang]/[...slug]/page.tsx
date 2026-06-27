@@ -68,6 +68,7 @@ import BenefitsBlock from "@/app/components/blocks/BenefitsBlock/BenefitsBlock";
 import LandingCtaBlock from "@/app/components/blocks/LandingCtaBlock/LandingCtaBlock";
 import StepsBlockComponent from "@/app/components/blocks/StepsBlockComponent/StepsBlockComponent";
 import RelatedServicesBlockComponent from "@/app/components/blocks/RelatedServicesBlockComponent/RelatedServicesBlockComponent";
+import ReviewsFullBlockComponent from "@/app/components/blocks/ReviewsFullBlockComponent/ReviewsFullBlockComponent";
 
 type Props = {
   params: {
@@ -340,6 +341,13 @@ const SinglePage = async ({ params }: Props) => {
             key={block._key}
             block={block as RelatedServicesBlock}
             lang={lang}
+          />
+        );
+      case "reviewsFullBlock":
+        return (
+          <ReviewsFullBlockComponent
+            key={block._key}
+            block={block as ReviewsFullBlock}
           />
         );
       case "benefitsBlock":

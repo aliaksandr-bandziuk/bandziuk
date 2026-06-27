@@ -330,6 +330,25 @@ export type GridBlock = {
 };
 // === Конец типов для GridBlock ===
 
+// === Типы для StepsBlock ===
+export type StepItem = {
+  _key: string;
+  stepNumber: number;
+  title: string;
+  description?: string;
+  icon?: ImageAlt;
+};
+
+export type StepsBlock = {
+  _key: string;
+  _type: "stepsBlock";
+  title: string;
+  steps: StepItem[];
+  marginTop?: "small" | "medium" | "large";
+  marginBottom?: "small" | "medium" | "large";
+};
+// === Конец типов для StepsBlock ===
+
 // === Типы для AnimationBulletsBlock ===
 export type AnimationBullet = {
   _key: string;

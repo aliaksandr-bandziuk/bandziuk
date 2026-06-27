@@ -88,6 +88,7 @@ const singlepage = {
         { type: "tableBlock" },
         { type: "serviceFeaturesBlock" },
         { type: "workProcessBlock" },
+        { type: "stepsBlock" },
         { type: "portfolioBlock" },
         { type: "contactMethodsBlock" },
       ],

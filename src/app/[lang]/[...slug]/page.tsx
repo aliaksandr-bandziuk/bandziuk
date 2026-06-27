@@ -31,6 +31,7 @@ import {
   GridBlock,
   AnimationBulletsBlock,
   FormFullBlock,
+  StepsBlock,
 } from "@/types/blog";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import {
@@ -64,6 +65,7 @@ import FormFullBlockComponent from "@/app/components/blocks/FormFullBlockCompone
 import LocationBlockComponent from "@/app/components/blocks/LocationBlockComponent/LocationBlockComponent";
 import BenefitsBlock from "@/app/components/blocks/BenefitsBlock/BenefitsBlock";
 import LandingCtaBlock from "@/app/components/blocks/LandingCtaBlock/LandingCtaBlock";
+import StepsBlockComponent from "@/app/components/blocks/StepsBlockComponent/StepsBlockComponent";
 
 type Props = {
   params: {
@@ -321,6 +323,13 @@ const SinglePage = async ({ params }: Props) => {
             key={block._key}
             block={block as WorkProcessBlock}
             lang={lang}
+          />
+        );
+      case "stepsBlock":
+        return (
+          <StepsBlockComponent
+            key={block._key}
+            block={block as StepsBlock}
           />
         );
       case "benefitsBlock":

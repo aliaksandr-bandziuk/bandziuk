@@ -46,16 +46,20 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
         )}
         <ul className={styles.items}>
           {items.map((item, index) => {
-            // localePrefix("en") = "", ("pl") = "/pl", ("ru") = "/ru"
-            const href = `${localePrefix(lang)}/${item.slug}`;
+            // Build full path: localePrefix + /parentSlug/slug or /slug for root pages.
+            // parentSlug is null for root-level singlepages.
+            const fullSlug = item.parentSlug
+              ? `${item.parentSlug}/${item.slug}`
+              : item.slug;
+            const href = `${localePrefix(lang)}/${fullSlug}`;
             return (
-              <li key={item._key} className={styles.item}>
+              <li key={item._id} className={styles.item}>
                 <FadeInOnScroll index={index}>
                   <Link href={href} className={styles.itemLink}>
-                    <span className={styles.itemLabel}>{item.label}</span>
-                    {item.description && (
+                    <span className={styles.itemLabel}>{item.title}</span>
+                    {item.excerpt && (
                       <span className={styles.itemDescription}>
-                        {item.description}
+                        {item.excerpt}
                       </span>
                     )}
                   </Link>

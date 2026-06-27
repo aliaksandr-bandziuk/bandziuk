@@ -348,12 +348,27 @@ export async function getSinglePageByLang(
           marginTop,
           marginBottom
         },
+        _type == "relatedServicesBlock" => {
+          _key,
+          _type,
+          title,
+          items[]->{
+            _id,
+            title,
+            "slug": slug[$lang].current,
+            "parentSlug": parentPage->slug[$lang].current,
+            excerpt
+          },
+          marginTop,
+          marginBottom
+        },
         _type != "textContent" &&
         _type != "serviceFeaturesBlock" &&
         _type != "contactFullBlock" &&
         _type != "portfolioBlock" &&
         _type != "formMinimalBlock" &&
-        _type != "formFullBlock" => @
+        _type != "formFullBlock" &&
+        _type != "relatedServicesBlock" => @
       },
       "parentPage": parentPage->{
         _id,

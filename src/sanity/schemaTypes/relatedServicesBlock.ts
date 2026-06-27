@@ -16,26 +16,14 @@ const relatedServicesBlock = defineType({
       type: "array",
       of: [
         defineArrayMember({
-          type: "object",
-          fields: [
-            defineField({
-              name: "label",
-              title: "Label",
-              type: "string",
+          type: "reference",
+          to: [{ type: "singlepage" }],
+          options: {
+            filter: ({ document }) => ({
+              filter: "language == $language",
+              params: { language: document.language },
             }),
-            defineField({
-              name: "slug",
-              title: "Slug",
-              type: "string",
-              description:
-                "Path segments without locale prefix or leading slash, e.g. uslugi/razrabotka-saitov",
-            }),
-            defineField({
-              name: "description",
-              title: "Description",
-              type: "string",
-            }),
-          ],
+          },
         }),
       ],
     }),

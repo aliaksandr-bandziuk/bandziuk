@@ -332,10 +332,11 @@ export type GridBlock = {
 
 // === Типы для RelatedServicesBlock ===
 export type RelatedServiceItem = {
-  _key: string;
-  label: string;
+  _id: string;
+  title: string;
   slug: string;
-  description?: string;
+  parentSlug?: string | null;
+  excerpt?: string;
 };
 
 export type RelatedServicesBlock = {

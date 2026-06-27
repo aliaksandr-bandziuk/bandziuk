@@ -1,7 +1,4 @@
 .stepsBlock {
-  // Default bottom margin matches gridBlock (.servicesSection) so the block
-  // never runs into the next section when Studio leaves marginBottom unset.
-  // An explicit Studio marginBottom written as inline style overrides this.
   margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
 }
 
@@ -21,90 +18,70 @@
   font-style: italic;
 }
 
-// Grid: 1 col mobile → 2 col tablet → 3 col desktop.
-// Steps wrap to a new row naturally: 3 steps = one row, 6 = two rows.
 .steps {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 18px;
-
-  @media screen and (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-
-  @media screen and (min-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
-// No height: 100% here — grid's default align-items: stretch already gives
-// every .step the row height without creating the height:100%/auto-track
-// circular dependency that collapses row heights to 0.
 .step {
-  display: flex;
-}
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 
-.stepInner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  padding: 40px 16px;
-
-  @media screen and (min-width: 768px) {
-    padding: 55px 20px;
+  &:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   }
 }
 
-// Numbered badge — corp-color circle, same token as gridBlock icon area
-.stepNumber {
-  flex-shrink: 0;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background-color: var(--corp-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #fff;
+// FadeInOnScroll renders a motion.div — the stepInner inside defines the layout
+.stepInner {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: clamp(20px, 4vw, 48px);
+  align-items: start;
+  padding: clamp(28px, 4vw, 48px) 0;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 120px 1fr;
+  }
 }
 
-.stepContent {
+// Large editorial number — replaces the circle badge
+.stepNumber {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: 700;
+  color: var(--corp-color);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+  padding-top: 4px; // optical alignment with title cap-height
+}
+
+.stepBody {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 12px;
+  gap: 10px;
+}
+
+.stepTitle {
+  font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.3;
+  color: #ffffff;
+  margin: 0;
+}
+
+.stepDescription {
+  font-size: clamp(0.9375rem, 0.875rem + 0.25vw, 1.0625rem);
+  color: rgba(199, 196, 196, 0.75);
+  line-height: 1.75;
+  margin: 0;
+  max-width: 64ch;
 }
 
 .stepIcon {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .icon {
   object-fit: contain;
-}
-
-.stepTitle {
-  font-size: clamp(1.125rem, 0.938rem + 0.75vw, 1.5rem);
-  font-weight: 500;
-  line-height: 1.2;
-  color: rgba(255, 255, 255, 1);
-}
-
-.stepDescription {
-  font-size: clamp(1rem, 0.938rem + 0.25vw, 1.125rem);
-  color: rgba(199, 196, 196, 0.8);
-  line-height: 1.6;
 }

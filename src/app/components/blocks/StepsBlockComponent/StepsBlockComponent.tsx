@@ -25,10 +25,12 @@ const marginValues: Record<string, string> = {
 const StepsBlockComponent: FC<Props> = ({ block }) => {
   const { title, steps, marginTop, marginBottom } = block;
 
+  // undefined → inline style omitted → SCSS default margin-bottom takes effect.
+  // An explicit Studio value still overrides via inline style.
   const computedMarginTop =
-    marginTop && marginValues[marginTop] ? marginValues[marginTop] : "0";
+    marginTop && marginValues[marginTop] ? marginValues[marginTop] : undefined;
   const computedMarginBottom =
-    marginBottom && marginValues[marginBottom] ? marginValues[marginBottom] : "0";
+    marginBottom && marginValues[marginBottom] ? marginValues[marginBottom] : undefined;
 
   if (!steps?.length) return null;
 

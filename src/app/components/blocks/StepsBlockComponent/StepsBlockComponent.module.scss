@@ -1,5 +1,8 @@
 .stepsBlock {
-  // margin handled via inline style
+  // Default bottom margin matches gridBlock (.servicesSection) so the block
+  // never runs into the next section when Studio leaves marginBottom unset.
+  // An explicit Studio marginBottom written as inline style overrides this.
+  margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
 }
 
 .text {
@@ -19,8 +22,7 @@
 }
 
 // Grid: 1 col mobile → 2 col tablet → 3 col desktop.
-// Steps wrap onto a new row naturally, so 3 steps = one clean row,
-// 6 steps = two rows of three. No shrinking.
+// Steps wrap to a new row naturally: 3 steps = one row, 6 = two rows.
 .steps {
   list-style: none;
   padding: 0;
@@ -39,9 +41,11 @@
   }
 }
 
+// No height: 100% here — grid's default align-items: stretch already gives
+// every .step the row height without creating the height:100%/auto-track
+// circular dependency that collapses row heights to 0.
 .step {
   display: flex;
-  height: 100%;
 }
 
 .stepInner {

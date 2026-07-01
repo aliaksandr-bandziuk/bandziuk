@@ -41,7 +41,7 @@ function isReviewsFullBlock(b: any): b is ReviewsFullBlock {
 }
 
 // ---- Portable Text → plain text helper ----
-function portableTextToPlainText(pt: any): string {
+export function portableTextToPlainText(pt: any): string {
   if (typeof pt === "string") {
     return pt;
   }

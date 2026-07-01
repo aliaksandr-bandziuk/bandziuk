@@ -8,7 +8,11 @@
 // Static entries take precedence over dynamic ones (first-match wins in Next.js).
 // ──────────────────────────────────────────────────────────────────────────────
 const STATIC_REDIRECTS = [
-  // (empty — add historical parent-changed entries here as needed)
+  // Orphan blog URL — no blog document exists with this slug; the correct page is under /portfolio/.
+  // Google had it indexed at position ~95 from a previous crawl; redirect closes the loop.
+  { source: '/blog/build-and-optimize-a-multilingual-real-estate-platform',    destination: '/portfolio/build-and-optimize-a-multilingual-real-estate-platform',    permanent: true },
+  { source: '/pl/blog/build-and-optimize-a-multilingual-real-estate-platform', destination: '/pl/portfolio/build-and-optimize-a-multilingual-real-estate-platform', permanent: true },
+  { source: '/ru/blog/build-and-optimize-a-multilingual-real-estate-platform', destination: '/ru/portfolio/build-and-optimize-a-multilingual-real-estate-platform', permanent: true },
 ];
 
 async function buildDynamicRedirects() {

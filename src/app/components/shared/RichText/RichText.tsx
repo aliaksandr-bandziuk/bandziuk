@@ -92,7 +92,12 @@ export const RichText = {
       <h4 className={`${styles.h4} ${bitter.className}`}>{children}</h4>
     ),
     blockquote: ({ children }: any) => (
-      <blockquote className={styles.blockquote}>{children}</blockquote>
+      <blockquote className={`${styles.blockquote} ${bitter.className}`}>
+        <span className={styles.quoteMark} aria-hidden="true">
+          &ldquo;
+        </span>
+        <div className={styles.quoteText}>{children}</div>
+      </blockquote>
     ),
   },
   marks: {

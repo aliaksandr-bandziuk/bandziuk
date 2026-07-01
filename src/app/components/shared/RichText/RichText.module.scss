@@ -32,16 +32,28 @@
 }
 
 .blockquote {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto clamp(1.25rem, 5vw, 2.5rem);
+  padding: 0 clamp(0rem, 4vw, 2rem);
   color: #fff;
   text-align: center;
-  font-size: clamp(1.5rem, 0.75rem + 3vw, 3rem);
-  font-style: normal;
-  font-weight: 500;
-  line-height: 35px; /* 145.833% */
+  font-style: italic;
+  font-weight: 400;
+}
 
-  @media screen and (min-width: 768px) {
-    line-height: 55px; /* 114.583% */
-  }
+.quoteMark {
+  display: block;
+  font-style: normal;
+  font-size: clamp(2.5rem, 2rem + 2vw, 3.5rem);
+  line-height: 1;
+  color: var(--corp-color);
+  margin-bottom: -0.5rem;
+}
+
+.quoteText {
+  font-size: 1.25rem;
+  line-height: 25px; /* 168.75%, matches .paragraph */
 }
 
 .paragraph {

@@ -93,6 +93,7 @@ Tags with a value on the same line use the format `[TAG: value]`.
 | `[FEATURES]` | landing, service | `gridBlock` |
 | `[STEPS]` | landing only | `stepsBlock` (inline numbered steps) |
 | `[PROCESS]` | service only | `workProcessBlock.title` (title-only block) |
+| `[SEO_TEXT]` | landing only (optional) | `textContent` block — plain-paragraph body, placed after `gridBlock` and before `stepsBlock` |
 | `[FAQ]` | landing, service | `faqBlock` wrapping `accordionBlock` |
 | `[CTA]` | landing only | `landingCtaBlock.title` |
 | `[RELATED]` | service only | `relatedServicesBlock` (references + optional title) |
@@ -132,7 +133,7 @@ Supported: `150+`, `98%`, `3x`, or omit `metric:` line for no counter.
 ### Block sequence
 
 ```
-benefitsBlock → gridBlock → stepsBlock → faqBlock → landingCtaBlock
+benefitsBlock → gridBlock → textContent (SEO_TEXT, optional) → stepsBlock → faqBlock → landingCtaBlock
 ```
 
 All blocks are optional — omit the tag if the block is not needed.
@@ -154,6 +155,7 @@ All blocks are optional — omit the tag if the block is not needed.
 | `[PAIN]` → `benefit N: en/pl/ru:` | `benefit.title \| benefit.description` per locale |
 | `[FEATURES]` → `block title:` | `gridBlock.title` per locale |
 | `[FEATURES]` → `feature N: en/pl/ru:` | `item.title \| item.description` per locale |
+| `[SEO_TEXT]` → `en:/pl:/ru:` | `textContent.content` per locale — plain paragraphs, one PortableText `block` (style `normal`) per blank-line-separated paragraph |
 | `[STEPS]` → `block title:` | `stepsBlock.title` per locale |
 | `[STEPS]` → `step N: en/pl/ru:` | `step.title \| step.description` per locale (stepNumber = N) |
 | `[FAQ]` → `block title:` | `faqBlock.title` per locale |
@@ -168,6 +170,7 @@ All blocks are optional — omit the tag if the block is not needed.
 - `seo.metaTitle` and `seo.metaDescription` non-empty for all three locales (noindex guard)
 - Every FAQ question has a corresponding answer in all three locales
 - Every step/feature present in EN is also present in PL and RU
+- If `[SEO_TEXT]` is given, all three locales are present (partial locale text = error)
 - If `[PARENT]` is given, the target exists in Sanity
 
 ### Post-creation verification
@@ -464,8 +467,9 @@ ru: Готовы Развивать Бизнес в Интернете?
 | `pageType` | `"page"` | `"service"` | n/a |
 | Route | `[...slug]` static | `[...slug]` static | `blog/[slug]` dynamic |
 | `[PARENT]` | optional | **required** | n/a |
-| Block 3 | `[STEPS]` inline steps | `[PROCESS]` title-only | n/a |
-| Block 5 | `[CTA]` | `[RELATED]` references | n/a |
+| Block 3 (optional) | `[SEO_TEXT]` plain-paragraph `textContent` | n/a | n/a |
+| Block 4 | `[STEPS]` inline steps | `[PROCESS]` title-only | n/a |
+| Block 6 | `[CTA]` | `[RELATED]` references | n/a |
 | `[CATEGORY]` | n/a | n/a | **required** |
 | `[DATE]` | n/a | n/a | **required** |
 | `[BODY]` | n/a | n/a | primary body |

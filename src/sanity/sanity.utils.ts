@@ -530,7 +530,7 @@ export async function getPortfolioByLang(
     }
   `;
 
-  return await client.fetch(query, { lang, slug });
+  return await client.fetch(query, { lang, slug }, { next: { revalidate: 60 } });
 }
 // === Portfolio ===
 

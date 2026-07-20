@@ -304,3 +304,17 @@ Bonus (trivial): fix the `notFound()` call (#J) and remove the dead import (#F).
   (content/comment changes), skip it entirely.
 - Never leave orphaned node processes on port 3000 — always kill 
   the server you started.
+
+## Git & deploy policy
+
+- Do NOT commit and do NOT push unless the owner explicitly asks 
+  in the current session. Leave all changes uncommitted in the 
+  working tree.
+- When the owner asks to commit: one commit for the session with a 
+  descriptive message (or the structure the owner specifies).
+- Pushing deploys to production via Vercel — deploy timing is 
+  always the owner's call. Never push as a side effect of 
+  "finishing" a task.
+- At the end of each session, include a short summary of the 
+  uncommitted changes (files touched, one line what/why) so the 
+  owner can decide when to commit and push.

@@ -1,6 +1,11 @@
 import React from "react";
 import { notFound } from "next/navigation";
-import { BASE_URL, localePrefix, findAltSlug, buildLanguageAlternates } from "@/utils/hreflang";
+import {
+  BASE_URL,
+  localePrefix,
+  findAltSlug,
+  buildLanguageAlternates,
+} from "@/utils/hreflang";
 // import LastArticles from "@/app/components/LastArticles/LastArticles";
 // import LinkPrimary from "@/app/components/LinkPrimary/LinkPrimary";
 
@@ -222,7 +227,11 @@ const PagePost = async ({ params }: Props) => {
         <div className={styles.pageContainer}>
           {headings.length > 0 && (
             <div className={styles.mobileSidebar}>
-              <TableOfContents headings={headings} variant="mobile" lang={lang} />
+              <TableOfContents
+                headings={headings}
+                variant="mobile"
+                lang={lang}
+              />
             </div>
           )}
           <div className={styles.postGrid}>
@@ -241,19 +250,31 @@ const PagePost = async ({ params }: Props) => {
               )}
             </div>
             <aside className={styles.sidebar}>
-              <TableOfContents headings={headings} variant="sidebar" lang={lang} />
+              <TableOfContents
+                headings={headings}
+                variant="sidebar"
+                lang={lang}
+              />
               {blog.serviceOffered && blog.serviceOffered.length > 0 && (
                 <ServiceOffered
                   serviceOffered={blog.serviceOffered}
                   lang={lang}
                 />
               )}
-              <Button href={`/${lang === "en" ? "" : lang + "/"}contacts`} variant="secondary" className={styles.sidebarCta}>
+              <Button
+                href={`/${lang === "en" ? "" : lang + "/"}contacts`}
+                variant="secondary"
+                className={styles.sidebarCta}
+              >
                 {contactCtaLabel}
               </Button>
             </aside>
           </div>
           {blog.author && <AuthorCard author={blog.author} lang={lang} />}
+
+          {/* <LastArticles params={{ lang, id: currentPostId }} /> */}
+        </div>
+        <div className="container">
           {blog.relatedArticles && blog.relatedArticles.length > 0 && (
             <div className="related-articles-section">
               <h2>
@@ -280,7 +301,6 @@ const PagePost = async ({ params }: Props) => {
               </div>
             </div>
           )}
-          {/* <LastArticles params={{ lang, id: currentPostId }} /> */}
         </div>
       </main>
       <Footer params={params} formDocument={formDocument} />

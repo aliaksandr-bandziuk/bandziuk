@@ -2,14 +2,7 @@ import React, { FC } from "react";
 import styles from "./WorkProcessBlockComponent.module.scss";
 import { WorkProcessBlock as WorkProcessBlockType } from "@/types/blog";
 import Image from "next/image";
-import { Bitter } from "next/font/google";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   block: WorkProcessBlockType;
@@ -177,7 +170,7 @@ const WorkProcessBlockComponent: FC<Props> = ({ block, lang }) => {
 
                     <div className={styles.shape}>
                       <div className={styles.stepNumber}>
-                        <p className={bitter.className}>{index + 1}</p>
+                        <p>{index + 1}</p>
                       </div>
                     </div>
                   </div>

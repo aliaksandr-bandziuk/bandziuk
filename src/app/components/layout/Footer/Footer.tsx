@@ -5,7 +5,6 @@ import Link from "next/link"; // Импортируйте тип Link и пер�
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import { FooterColumn, FooterLink, SocialLink } from "@/types/footer";
-import { Bitter } from "next/font/google";
 import dynamic from "next/dynamic";
 import Contacts from "../../sections/Contacts/Contacts";
 import { FormStandardDocument } from "@/types/formStandardDocument";
@@ -14,12 +13,6 @@ type Props = {
   params: { lang: string };
   formDocument: FormStandardDocument;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const ParticlesBackground = dynamic(
   () => import("../../animations/ParticlesBackground/ParticlesBackground"),
@@ -69,7 +62,7 @@ const Footer = async ({ params, formDocument }: Props) => {
                     <a
                       href={socialLink.link}
                       key={socialLink._key}
-                      className={`${styles.socialLink} ${bitter.className}`}
+                      className={styles.socialLink}
                       target="_blank"
                       rel="noopener nofollow"
                     >

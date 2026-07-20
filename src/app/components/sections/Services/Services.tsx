@@ -1,21 +1,15 @@
 import React, { FC } from "react";
 import styles from "./Services.module.scss";
 import { ServicesSection } from "@/types/homepage";
-import { Bitter } from "next/font/google";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import Link from "next/link";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   servicesSection: ServicesSection;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const Services: FC<Props> = ({ servicesSection }) => {
   if (!servicesSection) {
@@ -28,9 +22,7 @@ const Services: FC<Props> = ({ servicesSection }) => {
     <section className={styles.servicesSection} id="services">
       <div className="container">
         <div className={styles.text}>
-          <div className={styles.pretitle}>{pretitle}</div>
-          <h2 className={styles.title}>{title}</h2>
-          <p className={`${styles.subtitle} ${bitter.className}`}>{subtitle}</p>
+          <SectionHeading eyebrow={pretitle} title={title} subtitle={subtitle} />
         </div>
         <div className={styles.servicesItems}>
           {serviceItems.map((item, index) => (

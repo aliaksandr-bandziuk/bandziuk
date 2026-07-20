@@ -3,13 +3,6 @@ import styles from "./BlogIntro.module.scss";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import { ImageAlt } from "@/types/common";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400", "500", "600"],
-});
 
 type Props = {
   title: string;
@@ -38,15 +31,11 @@ const BlogIntro: FC<Props> = ({
           <div className={styles.blogIntroContent}>
             <div className={styles.data}>
               {categoryTitle && (
-                <div className={`${styles.category} ${bitter.className}`}>
-                  {categoryTitle}
-                </div>
+                <div className={styles.category}>{categoryTitle}</div>
               )}
               {date && <div className={styles.date}>{formatDate(date)}</div>}
             </div>
-            <h1 className={`${styles.blogHeading} ${bitter.className}`}>
-              {title}
-            </h1>
+            <h1 className={styles.blogHeading}>{title}</h1>
             <p className={styles.excerpt}>{excerpt}</p>
           </div>
           {previewImage && (

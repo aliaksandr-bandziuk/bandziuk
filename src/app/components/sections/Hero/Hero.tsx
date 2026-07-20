@@ -2,9 +2,9 @@ import { HeroSection } from "@/types/homepage";
 import React, { FC } from "react";
 import styles from "./Hero.module.scss";
 import dynamic from "next/dynamic";
-import { Bitter } from "next/font/google";
 import LinkPrimary from "../../ui/LinkPrimary/LinkPrimary";
 import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 export type Props = {
   heroSection: HeroSection;
@@ -16,12 +16,6 @@ const ParticlesBackground = dynamic(
     ssr: false,
   }
 );
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const Hero: FC<Props> = ({ heroSection }) => {
   if (!heroSection) {
@@ -38,10 +32,7 @@ const Hero: FC<Props> = ({ heroSection }) => {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.heroSectionContent}>
-            <h1 className={styles.title}>{title}</h1>
-            <h2 className={`${styles.subtitle} ${bitter.className}`}>
-              {subtitle}
-            </h2>
+            <SectionHeading as="h1" size="hero" title={title} subtitle={subtitle} />
             <p className={styles.text}>{text}</p>
             <div className={styles.buttons}>
               {heroButtons.map((btn) => {

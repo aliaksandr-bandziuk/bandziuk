@@ -40,7 +40,6 @@
 
 .bottom {
   margin-top: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
-  // background-color: #2A2415;
   padding: 20px 0;
 }
 
@@ -187,11 +186,11 @@
 }
 
 .socialLink {
+  font-family: var(--font-heading);
   font-size: 25px;
   font-weight: 500;
   line-height: 1.5;
-  color: rgba(255, 255, 255, 0.8);
-  font-style: italic;
+  color: var(--text-primary);
   transition: color 0.3s ease;
   position: relative;
   width: fit-content;

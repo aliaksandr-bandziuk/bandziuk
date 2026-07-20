@@ -17,11 +17,11 @@ export const AnimatedMarker: React.FC<AnimatedMarkerProps> = ({
   className,
 }) => {
   const progress = useTransform(scrollY, [prev, curr], [0, 1]);
-  const bgColor = useTransform(progress, [0, 1], ["#fff", "rgb(255,162,96)"]);
+  const bgColor = useTransform(progress, [0, 1], ["#fff", "rgb(255,138,60)"]);
   const boxShadowVal = useTransform(
     progress,
     [0.7, 1],
-    ["none", "0 0 8px rgba(255,162,96,0.8)"]
+    ["none", "0 0 8px rgba(255,138,60,0.8)"]
   );
 
   return (

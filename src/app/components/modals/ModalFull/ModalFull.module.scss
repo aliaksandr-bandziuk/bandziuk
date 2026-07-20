@@ -1,7 +1,6 @@
 .modalTitle {
-  color: var(--corp-color);
+  color: var(--accent);
   font-size: clamp(1.5rem, 1rem + 2vw, 2.5rem);
-  font-style: italic;
   font-weight: 500;
   line-height: 120%; /* 125% */
   max-width: 95%;
@@ -82,7 +81,7 @@
 
 .mainImage {
   border-radius: 15px;
-  border: 4px solid #bd8948;
+  border: 4px solid var(--accent);
   aspect-ratio: 16/9;
 
   @media screen and (max-width: 880px) {
@@ -99,7 +98,7 @@
   opacity: 0.8;
   background: #032540;
   border-radius: 15px;
-  border: 4px solid #bd8948;
+  border: 4px solid var(--accent);
   aspect-ratio: 10/6;
 }
 
@@ -164,7 +163,7 @@
   left: 40%;
   width: 55%;
   border-radius: 15px;
-  border: 4px solid #bd8948;
+  border: 4px solid var(--accent);
   display: flex;
   flex-direction: column;
   justify-content: center;

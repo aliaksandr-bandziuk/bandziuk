@@ -2,13 +2,6 @@ import { AnimationBulletsBlock } from "@/types/blog";
 import React, { FC } from "react";
 import styles from "./AnimationBulletsBlock.module.scss";
 import CountNumber from "../../animations/CountNumber/CountNumber";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   block: AnimationBulletsBlock;
@@ -44,7 +37,7 @@ const AnimationBulletsBlockComponent: FC<Props> = ({ block }) => {
       <div className="container">
         {title && (
           <div className={styles.text}>
-            <h2 className={`${styles.title} ${bitter.className}`}>{title}</h2>
+            <h2 className={styles.title}>{title}</h2>
           </div>
         )}
         <div className={styles.bulletsList}>

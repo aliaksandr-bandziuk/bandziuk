@@ -3,13 +3,6 @@ import styles from "./ContentDescription.module.scss";
 import { ContentBlock } from "@/types/portfolio";
 import { PortableText } from "next-sanity";
 import { RichText } from "../../shared/RichText/RichText";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   lang: string; // Добавлено для поддержки локализации, если нужно
@@ -20,7 +13,7 @@ const ContentDescription: FC<Props> = ({ lang, content }) => {
   return (
     <section className={styles.contentDescription}>
       <div className="container">
-        <h2 className={`${styles.title} ${bitter.className}`}>
+        <h2 className={styles.title}>
           {lang === "en"
             ? "Project Description"
             : lang === "ru"

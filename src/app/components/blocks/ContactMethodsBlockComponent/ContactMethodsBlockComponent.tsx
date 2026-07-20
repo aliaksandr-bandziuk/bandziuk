@@ -4,13 +4,6 @@ import { ContactMethodsBlock, FullContact } from "@/types/blog";
 import Link from "next/link";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   block: ContactMethodsBlock;
@@ -97,9 +90,7 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
                     height={70}
                     unoptimized
                   />
-                  <p className={`${styles.contactLabel} ${bitter.className}`}>
-                    {contact.title}
-                  </p>
+                  <p className={styles.contactLabel}>{contact.title}</p>
                 </Link>
               ))}
             </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./PortfolioIntro.module.scss";
-import { Bitter } from "next/font/google";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import type { KeyFeature, Service } from "@/types/portfolio";
@@ -8,12 +7,6 @@ import type { ImageAlt } from "@/types/common";
 import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
 import ParticlesBackground from "../../animations/ParticlesBackground/ParticlesBackground";
 import PortfolioIntroClient from "./PortfolioIntroClient";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["italic"],
-  weight: ["400"],
-});
 
 type Props = {
   title: string;
@@ -95,7 +88,7 @@ const PortfolioIntro: React.FC<Props> = ({
           <div className={styles.content}>
             <div className={styles.contentWrapper}>
               <h1 className={styles.title}>{title}</h1>
-              <p className={`${bitter.className} ${styles.description}`}>
+              <p className={styles.description}>
                 {excerpt}
               </p>
 

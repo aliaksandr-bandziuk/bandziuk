@@ -10,7 +10,6 @@
   font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
   line-height: 1.2;
   font-weight: 500;
-  font-style: italic;
 }
 
 .locationData {
@@ -58,6 +57,7 @@
 }
 
 .locationItemText {
+  font-family: var(--font-body);
   font-size: 2rem;
   color: #000;
 }

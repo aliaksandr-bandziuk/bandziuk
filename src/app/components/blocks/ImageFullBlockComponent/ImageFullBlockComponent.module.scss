@@ -103,7 +103,7 @@
   max-width: 90%;
 
   @media screen and (min-width: 768px) {
-    color: #bd8948;
+    color: var(--accent);
     text-align: center;
     margin: 0 auto;
   }

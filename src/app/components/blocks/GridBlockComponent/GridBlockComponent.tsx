@@ -4,14 +4,7 @@ import styles from "./GridBlockComponent.module.scss";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import Link from "next/link";
-import { Bitter } from "next/font/google";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   block: GridBlock;
@@ -47,7 +40,7 @@ const GridBlockComponent: FC<Props> = ({ block }) => {
       <div className="container">
         {title && (
           <div className={styles.text}>
-            <h2 className={`${styles.title} ${bitter.className}`}>{title}</h2>
+            <h2 className={styles.title}>{title}</h2>
           </div>
         )}
 

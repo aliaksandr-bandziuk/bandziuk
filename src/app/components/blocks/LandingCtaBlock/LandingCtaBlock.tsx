@@ -1,13 +1,7 @@
 import React, { FC } from "react";
 import styles from "./LandingCtaBlock.module.scss";
-import { Oswald } from "next/font/google";
 import Image from "next/image";
 import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
-
-const oswald = Oswald({
-  subsets: ["latin", "cyrillic"],
-  weight: ["300", "400"],
-});
 
 type Props = {
   lang: string;
@@ -54,7 +48,7 @@ const LandingCtaBlock: FC<Props> = ({ lang }) => {
         <div className={styles.cta}>
           <div className={styles.ctaWrapper}>
             <div className={styles.ctaContent}>
-              <h2 className={`${styles.title} ${oswald.className}`}>
+              <h2 className={styles.title}>
                 {t.titleStart}
                 <span className={styles.highlight}>{t.titleHighlight}</span>
               </h2>

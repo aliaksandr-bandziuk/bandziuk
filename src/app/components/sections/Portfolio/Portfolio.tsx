@@ -1,22 +1,16 @@
 import React, { FC } from "react";
 import styles from "./Portfolio.module.scss";
-import { Bitter } from "next/font/google";
 import { PortfolioSection } from "@/types/homepage";
 import { getLastFourPortfolioByLang } from "@/sanity/sanity.utils";
 import { Portfolio as PortfolioType } from "@/types/portfolio";
 import PortfolioItem from "../../ui/PortfolioItem/PortfolioItem";
 import LinkPrimary from "../../ui/LinkPrimary/LinkPrimary";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   portfolioSection: PortfolioSection;
   lang: string;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const Portfolio: FC<Props> = async ({ portfolioSection, lang }) => {
   if (!portfolioSection) {
@@ -29,9 +23,7 @@ const Portfolio: FC<Props> = async ({ portfolioSection, lang }) => {
     <section className={styles.portfolioSection} id="portfolio">
       <div className="container">
         <div className={styles.text}>
-          <div className={styles.pretitle}>{pretitle}</div>
-          <h2 className={styles.title}>{title}</h2>
-          <p className={`${styles.subtitle} ${bitter.className}`}>{subtitle}</p>
+          <SectionHeading eyebrow={pretitle} title={title} subtitle={subtitle} />
         </div>
         <div className={styles.grid}>
           {portfolioProjects.map((project) => (

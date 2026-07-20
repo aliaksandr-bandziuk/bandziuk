@@ -1,18 +1,11 @@
 import React, { FC } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Bitter } from "next/font/google";
 import { RelatedServicesBlock } from "@/types/blog";
 import { urlFor } from "@/sanity/sanity.client";
 import { localePrefix } from "@/utils/hreflang";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import styles from "./RelatedServicesBlockComponent.module.scss";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   block: RelatedServicesBlock;
@@ -43,7 +36,7 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
       <div className="container">
         {title && (
           <div className={styles.text}>
-            <h2 className={`${styles.title} ${bitter.className}`}>{title}</h2>
+            <h2 className={styles.title}>{title}</h2>
           </div>
         )}
         <ul className={styles.items}>

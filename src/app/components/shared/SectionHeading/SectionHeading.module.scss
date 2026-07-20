@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+.left {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  background: var(--accent-muted);
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
+  line-height: 1.15;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.title.titleHero {
+  font-size: clamp(2.188rem, 1.656rem + 2.13vw, 3.25rem);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-size: clamp(1.063rem, 1rem + 0.35vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  font-style: normal;
+  max-width: 640px;
+  margin: 0;
+}
+
+.center .subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtitle.subtitleHero {
+  font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem);
+  color: var(--text-primary);
+  font-weight: 500;
+  max-width: 720px;
+}

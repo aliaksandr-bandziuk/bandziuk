@@ -1,14 +1,7 @@
 import React, { FC } from "react";
 import styles from "./PortfolioScreenshots.module.scss";
 import { Screenshot } from "@/types/portfolio";
-import { Bitter } from "next/font/google";
 import PortfolioScreenshotsClient from "./PortfolioScreenshotsClient";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   lang: string;
@@ -19,7 +12,7 @@ const PortfolioScreenshots: FC<Props> = ({ lang, screenshots }) => {
   return (
     <section className={styles.screenshotsSection}>
       <div className="container">
-        <h2 className={`${styles.screenshotsTitle} ${bitter.className}`}>
+        <h2 className={styles.screenshotsTitle}>
           {lang === "en"
             ? "Project Highlights"
             : lang === "pl"

@@ -1,20 +1,14 @@
 import React, { FC } from "react";
 import styles from "./Reviews.module.scss";
-import { Bitter } from "next/font/google";
 import { ReviewsSection } from "@/types/homepage";
 import SliderReviews from "../../wrappers/SliderReviews/SliderReviews";
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   reviews: ReviewsSection;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const ParticlesBackground = dynamic(
   () => import("../../animations/ParticlesBackground/ParticlesBackground"),
@@ -38,11 +32,7 @@ const Reviews: FC<Props> = ({ reviews }) => {
       <div className="container">
         <div className={styles.content}>
           <div className={styles.text}>
-            <div className={styles.pretitle}>{pretitle}</div>
-            <h2 className={styles.title}>{title}</h2>
-            <p className={`${styles.subtitle} ${bitter.className}`}>
-              {subtitle}
-            </p>
+            <SectionHeading eyebrow={pretitle} title={title} subtitle={subtitle} />
           </div>
         </div>
         <div className={styles.reviewsWrapper}>
@@ -59,7 +49,7 @@ const Reviews: FC<Props> = ({ reviews }) => {
                 fillRule="evenodd"
                 clipRule="evenodd"
                 d="M125 0H75V39.644L46.9672 11.6113L11.6118 46.9668L39.645 75H0V125H39.6444L11.6117 153.033L46.967 188.388L75 160.355V200H125V160.355L153.033 188.388L188.389 153.033L160.356 125H200V75H160.355L188.388 46.9668L153.033 11.6113L125 39.6445V0Z"
-                fill="rgba(255, 162, 96, 0.8)"
+                fill="rgba(255, 138, 60, 0.8)"
               />
             </svg>
           </div>

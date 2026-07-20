@@ -36,9 +36,9 @@
   max-width: 800px;
   margin: 0 auto clamp(1.25rem, 5vw, 2.5rem);
   padding: 0 clamp(0rem, 4vw, 2rem);
-  color: #fff;
+  font-family: var(--font-heading);
+  color: var(--text-primary);
   text-align: center;
-  font-style: italic;
   font-weight: 400;
 }
 
@@ -54,6 +54,19 @@
 .quoteText {
   font-size: 1.25rem;
   line-height: 25px; /* 168.75%, matches .paragraph */
+}
+
+.orderedList {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+.link {
+  text-decoration: underline;
 }
 
 .paragraph {
@@ -73,7 +86,6 @@
   font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
   line-height: 1.2;
   font-weight: 500;
-  font-style: italic;
 }
 
 .h3 {
@@ -81,7 +93,6 @@
   font-size: clamp(1.75rem, 1.438rem + 1.25vw, 2.625rem);
   line-height: 1.2;
   font-weight: 500;
-  font-style: italic;
 }
 
 .h4 {
@@ -90,7 +101,6 @@
   line-height: 1.2;
   font-weight: 500;
   line-height: 25px; /* 160% */
-  font-style: italic;
 }
 
 .blogImage {

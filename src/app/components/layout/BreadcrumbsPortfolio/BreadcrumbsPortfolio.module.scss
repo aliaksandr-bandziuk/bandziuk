@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
-  color: #8A929C;
+  color: var(--text-secondary);
   margin-top: 150px;
   margin-bottom: clamp(3.75rem, 2.5rem + 5vw, 6.25rem);
   margin-inline: auto;
@@ -29,7 +29,7 @@
 .breadcrumbItem::after {
   content: "→";
   margin: 0 8px;
-  color: #8A929C;
+  color: var(--text-secondary);
   position: relative;
   top: -1px;
 }

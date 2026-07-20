@@ -7,7 +7,6 @@ import { useModal } from "@/app/context/ModalContext";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import FormStandard from "../../forms/FormStandard/FormStandard";
 import FormFull from "../../forms/FormFull/FormFull";
-import { Bitter } from "next/font/google";
 
 const customStyles: ReactModal.Styles = {
   overlay: {
@@ -32,12 +31,6 @@ type Props = {
   lang: string;
   formDocument: FormStandardDocument;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["500"],
-});
 
 const FOCUSABLE =
   'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])';
@@ -109,7 +102,7 @@ const ModalFull = ({ lang, formDocument }: Props) => {
             <div ref={contentRef} className={styles.popupContentWrapper}>
               <div className={styles.formContent}>
                 <div className={styles.formText}>
-                  <h3 className={`${styles.modalTitle} ${bitter.className}`}>
+                  <h3 className={styles.modalTitle}>
                     {lang === "ru"
                       ? "Укажите контакты для связи"
                       : lang === "pl"

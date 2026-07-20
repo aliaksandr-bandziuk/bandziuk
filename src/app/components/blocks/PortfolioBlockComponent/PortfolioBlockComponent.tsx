@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import styles from "./PortfolioBlockComponent.module.scss";
-import { Bitter } from "next/font/google";
 import { PortfolioSection } from "@/types/homepage";
 import { getLastFourPortfolioByLang } from "@/sanity/sanity.utils";
 import { Portfolio as PortfolioType } from "@/types/portfolio";
@@ -12,12 +11,6 @@ type Props = {
   block: PortfolioBlock;
   lang: string;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const PortfolioBlockComponent: FC<Props> = async ({ block, lang }) => {
   if (!block) {
@@ -31,7 +24,7 @@ const PortfolioBlockComponent: FC<Props> = async ({ block, lang }) => {
       <div className="container-wide">
         <div className={styles.text}>
           {/* <div className={styles.pretitle}>{pretitle}</div> */}
-          <h2 className={`${styles.title} ${bitter.className}`}>{title}</h2>
+          <h2 className={styles.title}>{title}</h2>
           {/* <p className={`${styles.subtitle} ${bitter.className}`}>{subtitle}</p> */}
         </div>
         <div className={styles.grid}>

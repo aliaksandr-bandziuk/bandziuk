@@ -2,7 +2,7 @@
   position: relative;
   height: 100dvh;
   overflow: hidden;
-  background-color: #000;
+  background-color: var(--bg-base);
 
   @media screen and (min-width: 768px) {
     height: 100vh;
@@ -66,28 +66,6 @@
   }
 }
 
-.title {
-  font-size: clamp(2.188rem, 1.656rem + 2.13vw, 3.25rem);
-  font-weight: 600;
-  line-height: 1.2;
-  text-transform: uppercase;
-
-  @media screen and (min-width: 980px) {
-    
-  }
-}
-.subtitle {
-  font-size: clamp(1.563rem, 1.25rem + 1.25vw, 2.188rem);
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--corp-color);
-  font-style: italic;
-
-  @media screen and (min-width: 768px) {
-    max-width: 700px;
-  }
-
-}
 .text {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.6);

@@ -1,21 +1,15 @@
 import React from "react";
 import styles from "./WorkProcess.module.scss";
-import { Bitter } from "next/font/google";
 import { ProcessSection } from "@/types/homepage";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import ClientAnimationLayer from "./ClientAnimationLayer";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   processSection: ProcessSection;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const WorkProcess = ({ processSection }: Props) => {
   if (!processSection) return null;
@@ -26,9 +20,7 @@ const WorkProcess = ({ processSection }: Props) => {
     <section className={styles.how} id="work-process">
       <div className="container">
         <div className={styles.text}>
-          <div className={styles.pretitle}>{pretitle}</div>
-          <h2 className={styles.title}>{title}</h2>
-          <p className={`${styles.subtitle} ${bitter.className}`}>{subtitle}</p>
+          <SectionHeading eyebrow={pretitle} title={title} subtitle={subtitle} />
         </div>
 
         <ClientAnimationLayer stepsCount={stepItems.length}>

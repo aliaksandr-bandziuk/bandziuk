@@ -1,21 +1,15 @@
 "use client";
 import React, { FC } from "react";
 import styles from "./Problems.module.scss";
-import { Bitter } from "next/font/google";
 import { ProblemsSection } from "@/types/homepage";
 import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import { motion } from "framer-motion";
 import StickyStack from "../../wrappers/StickyStack/StickyStack";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = { problemsSection: ProblemsSection };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const STICKY_OFFSET = 120; // px — отступ от верха, как у .content
 const STACK_SPACING = 30; // px — насколько каждая карточка «сдвинута» вниз относительно предыдущей
@@ -30,11 +24,12 @@ const Problems: FC<Props> = ({ problemsSection }) => {
         <div className={styles.wrapper}>
           <div className={styles.content}>
             <div className={styles.text}>
-              <div className={styles.pretitle}>{pretitle}</div>
-              <h2 className={styles.title}>{title}</h2>
-              <p className={`${styles.subtitle} ${bitter.className}`}>
-                {subtitle}
-              </p>
+              <SectionHeading
+                align="left"
+                eyebrow={pretitle}
+                title={title}
+                subtitle={subtitle}
+              />
             </div>
           </div>
           <div className={styles.problems}>

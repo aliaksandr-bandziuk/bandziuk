@@ -3,13 +3,6 @@ import Link from "next/link";
 import React from "react";
 import styles from "./RichText.module.scss";
 import { urlFor } from "@/sanity/sanity.client";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 // Компонент для SVG
 const BulletIcon = () => (
@@ -71,7 +64,7 @@ export const RichText = {
     ),
   },
   number: ({ children }: any) => (
-    <ol className="mt-lg list-decimal">{children}</ol>
+    <ol className={styles.orderedList}>{children}</ol>
   ),
   block: {
     normal: ({ children }: any) => (
@@ -82,17 +75,11 @@ export const RichText = {
     //     {children}
     //   </h1>
     // ),
-    h2: ({ children }: any) => (
-      <h2 className={`${styles.h2} ${bitter.className}`}>{children}</h2>
-    ),
-    h3: ({ children }: any) => (
-      <h3 className={`${styles.h3} ${bitter.className}`}>{children}</h3>
-    ),
-    h4: ({ children }: any) => (
-      <h4 className={`${styles.h4} ${bitter.className}`}>{children}</h4>
-    ),
+    h2: ({ children }: any) => <h2 className={styles.h2}>{children}</h2>,
+    h3: ({ children }: any) => <h3 className={styles.h3}>{children}</h3>,
+    h4: ({ children }: any) => <h4 className={styles.h4}>{children}</h4>,
     blockquote: ({ children }: any) => (
-      <blockquote className={`${styles.blockquote} ${bitter.className}`}>
+      <blockquote className={styles.blockquote}>
         <span className={styles.quoteMark} aria-hidden="true">
           &ldquo;
         </span>
@@ -104,7 +91,7 @@ export const RichText = {
     link: ({ children, value }: any) => {
       const rel = !value.href ? "noreferrer noopener" : undefined;
       return (
-        <Link href={value.href} rel={rel} className="underline">
+        <Link href={value.href} rel={rel} className={styles.link}>
           {children}
         </Link>
       );

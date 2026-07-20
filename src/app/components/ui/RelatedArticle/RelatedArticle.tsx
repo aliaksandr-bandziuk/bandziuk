@@ -4,13 +4,6 @@ import { Category, Image as ImageType } from "@/types/blog";
 import Link from "next/link";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400", "500"],
-});
 
 export type Props = {
   title: string;
@@ -67,9 +60,7 @@ const RelatedArticle: FC<Props> = ({
         {category && <p className={styles.categoryTitle}>{category.title}</p>}
       </div>
       <div className={styles.content}>
-        <h3 className={`${styles.articleTitle} ${bitter.className}`}>
-          {title}
-        </h3>
+        <h3 className={styles.articleTitle}>{title}</h3>
         <p className={styles.excerpt}>{excerpt}</p>
       </div>
     </Link>

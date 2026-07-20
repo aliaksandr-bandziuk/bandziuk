@@ -3,13 +3,6 @@ import styles from "./LocationBlockComponent.module.scss";
 import dynamic from "next/dynamic";
 import { LocationBlock } from "@/types/blog";
 import CurrentTime from "../../ui/CurrentTime/CurrentTime";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   block: LocationBlock;
@@ -51,9 +44,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
       <div className="container">
         {block.title && (
           <div className={styles.text}>
-            <h2 className={`${styles.title} ${bitter.className}`}>
-              {block.title}
-            </h2>
+            <h2 className={styles.title}>{block.title}</h2>
           </div>
         )}
       </div>
@@ -63,7 +54,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
             {block.countryAndCity && (
               <div className={styles.locationItem}>
                 <h3 className={styles.locationItemTitle}>Country and City</h3>
-                <p className={`${styles.locationItemText} ${bitter.className}`}>
+                <p className={styles.locationItemText}>
                   {block.countryAndCity}
                 </p>
               </div>
@@ -71,7 +62,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
             {block.workingHours && (
               <div className={styles.locationItem}>
                 <h3 className={styles.locationItemTitle}>Working Hours</h3>
-                <p className={`${styles.locationItemText} ${bitter.className}`}>
+                <p className={styles.locationItemText}>
                   {block.workingHours}
                 </p>
               </div>
@@ -81,7 +72,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
                 <h3 className={styles.locationItemTitle}>Current Time</h3>
                 <CurrentTime
                   timezone={block.timezone}
-                  className={`${styles.locationItemText} ${bitter.className}`}
+                  className={styles.locationItemText}
                 />
               </div>
             )}

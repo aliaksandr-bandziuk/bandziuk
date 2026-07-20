@@ -37,14 +37,7 @@ import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
 import BreadcrumbsBlog from "@/app/components/layout/BreadcrumbsBlog/BreadcrumbsBlog";
 import BlogIntro from "@/app/components/layout/BlogIntro/BlogIntro";
 import RelatedArticle from "@/app/components/ui/RelatedArticle/RelatedArticle";
-import { Bitter } from "next/font/google";
 import ServiceOffered from "@/app/components/sections/ServiceOffered/ServiceOffered";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   params: { lang: string; slug: string };
@@ -240,7 +233,7 @@ const PagePost = async ({ params }: Props) => {
           </div>
           {blog.relatedArticles && blog.relatedArticles.length > 0 && (
             <div className="related-articles-section">
-              <h2 className={bitter.className}>
+              <h2>
                 {lang === "en"
                   ? "Related Articles"
                   : lang === "pl"

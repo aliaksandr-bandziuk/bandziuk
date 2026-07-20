@@ -1,25 +1,19 @@
 import React, { FC } from "react";
 import styles from "./Contacts.module.scss";
 import { ContactsSection } from "@/types/homepage";
-import { Bitter } from "next/font/google";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import FormFull from "../../forms/FormFull/FormFull";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import FormStandard from "../../forms/FormStandard/FormStandard";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   contacts: ContactsSection;
   lang: string;
   formDocument: FormStandardDocument;
 };
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 const Contacts: FC<Props> = ({ contacts, lang, formDocument }) => {
   const {
@@ -45,11 +39,7 @@ const Contacts: FC<Props> = ({ contacts, lang, formDocument }) => {
       <div className="container">
         <div className={styles.content}>
           <div className={styles.text}>
-            <div className={styles.pretitle}>{pretitle}</div>
-            <h2 className={styles.title}>{title}</h2>
-            <p className={`${styles.subtitle} ${bitter.className}`}>
-              {subtitle}
-            </p>
+            <SectionHeading eyebrow={pretitle} title={title} subtitle={subtitle} />
           </div>
         </div>
         <FadeInOnScroll>

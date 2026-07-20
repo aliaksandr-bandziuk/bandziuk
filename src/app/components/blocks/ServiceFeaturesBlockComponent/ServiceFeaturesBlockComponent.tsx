@@ -3,13 +3,6 @@ import styles from "./ServiceFeaturesBlockComponent.module.scss";
 import { ServiceFeatureItem, ServiceFeaturesBlock } from "@/types/blog";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   block: ServiceFeaturesBlock;
@@ -25,9 +18,7 @@ const ServiceFeaturesBlockComponent: FC<Props> = ({ block }) => {
       <div className="container">
         <div className={styles.text}>
           {block.title && (
-            <h2 className={`${styles.subtitle} ${bitter.className}`}>
-              {block.title}
-            </h2>
+            <h2 className={styles.subtitle}>{block.title}</h2>
           )}
         </div>
 

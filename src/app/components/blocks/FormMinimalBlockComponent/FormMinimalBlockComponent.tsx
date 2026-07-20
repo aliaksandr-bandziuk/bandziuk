@@ -11,13 +11,6 @@ import styles from "./FormMinimalBlockComponent.module.scss";
 import { Form as FormType } from "@/types/form";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 export type FormData = {
   name: string;
@@ -165,7 +158,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
         <div className="container">
           {title && (
             <div className={styles.text}>
-              <h2 className={`${styles.title} ${bitter.className}`}>{title}</h2>
+              <h2 className={styles.title}>{title}</h2>
             </div>
           )}
           <div className={styles.indirect}>
@@ -185,7 +178,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
                       height="20"
-                      fill="rgb(255, 162, 96)"
+                      fill="var(--accent)"
                       viewBox="0 0 24 24"
                     >
                       <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z" />
@@ -241,7 +234,7 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
                       height="20"
-                      fill="rgb(255, 162, 96)"
+                      fill="var(--accent)"
                       viewBox="0 0 24 24"
                     >
                       <path d="M12 13.5l-11-7.5v15h22v-15l-11 7.5zm0-2.5l11-7h-22l11 7z" />

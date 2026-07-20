@@ -1,6 +1,6 @@
 import "@/app/globals.css";
 import type { Metadata } from "next";
-import { Rubik, Roboto, Inter } from "next/font/google";
+import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import { cookies } from "next/headers";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { ModalProvider } from "../context/ModalContext";
@@ -10,14 +10,22 @@ import GoogleAnalyticsWrapper from "../components/scripts/GoogleAnalyticsWrapper
 import MicrosoftClarity from "../components/scripts/MicrosoftClarity/MicrosoftClarity";
 import LenisProvider from "../components/animations/LenisProvider/LenisProvider";
 
-const rubik = Rubik({ subsets: ["latin", "cyrillic"] });
-const roboto = Roboto({
-  subsets: ["latin", "cyrillic"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+const fontHeading = Space_Grotesk({
+  subsets: ["latin", "latin-ext"],
+  weight: ["500", "700"],
+  variable: "--font-heading",
 });
-const inter = Inter({
-  subsets: ["latin", "cyrillic"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+
+const fontBody = Inter({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600"],
+  variable: "--font-body",
+});
+
+const fontMono = JetBrains_Mono({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500"],
+  variable: "--font-mono",
 });
 
 export const metadata: Metadata = {
@@ -49,7 +57,9 @@ export default function RootLayout({
 
   return (
     <html lang={params.lang}>
-      <body className={roboto.className}>
+      <body
+        className={`${fontHeading.variable} ${fontBody.variable} ${fontMono.variable}`}
+      >
         <LenisProvider />
         <ModalProvider>{children}</ModalProvider>
 

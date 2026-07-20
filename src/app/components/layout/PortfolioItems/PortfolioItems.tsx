@@ -2,13 +2,6 @@ import React, { FC } from "react";
 import styles from "./PortfolioItems.module.scss";
 import { Portfolio } from "@/types/portfolio";
 import PortfolioItem from "../../ui/PortfolioItem/PortfolioItem";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-  subsets: ["latin", "cyrillic"],
-  style: ["normal", "italic"],
-  weight: ["400"],
-});
 
 type Props = {
   totalProjects: Portfolio[];
@@ -38,7 +31,7 @@ const PortfolioItems: FC<Props> = ({ totalProjects, lang }) => {
                   ? "Моё Портфолио"
                   : "My Portfolio"}
           </h1>
-          <p className={`${styles.subtitle} ${bitter.className}`}>
+          <p className={styles.subtitle}>
             {lang === "en"
               ? "Web Development & SEO Projects"
               : lang === "pl"

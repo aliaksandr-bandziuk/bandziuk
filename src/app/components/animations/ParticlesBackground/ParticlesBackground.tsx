@@ -4,6 +4,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useCallback, useEffect, useId, useState } from "react";
 import type { Engine } from "tsparticles-engine";
+import styles from "./ParticlesBackground.module.scss";
 
 const ParticlesBackground = () => {
   // генерирует стабильный id, одинаковый на сервере и клиенте
@@ -26,7 +27,7 @@ const ParticlesBackground = () => {
     <Particles
       id={particlesId}
       init={particlesInit}
-      className="absolute inset-0 z-0"
+      className={styles.particles}
       options={{
         fullScreen: false,
         background: { color: "transparent" },

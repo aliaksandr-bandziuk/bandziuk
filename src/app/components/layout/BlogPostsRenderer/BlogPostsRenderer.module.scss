@@ -140,7 +140,7 @@
 .articleCategory {
   padding: 3px 15px;
   background: #FFF;
-  color: #bd8948;
+  color: var(--accent);
   text-align: center;
   font-size: clamp(0.75rem, 0.625rem + 0.5vw, 1rem);
   font-style: normal;
@@ -208,7 +208,7 @@
   display: flex;
   height: 35px;
   padding: 12px 28px;
-  border: 1px solid #bd8948;
+  border: 1px solid var(--accent);
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -225,7 +225,7 @@
   @media screen and (min-width: 768px){
     
     &:hover {
-      background: #bd8948;
+      background: var(--accent);
       color: #FFF;
     }
   }
@@ -236,7 +236,7 @@
 }
 
 .tab.active {
-  background: #bd8948;
+  background: var(--accent);
   color: #FFF;
 }
 

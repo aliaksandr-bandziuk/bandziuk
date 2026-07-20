@@ -2,8 +2,8 @@ import { HeroSection } from "@/types/homepage";
 import React, { FC } from "react";
 import styles from "./Hero.module.scss";
 import dynamic from "next/dynamic";
-import LinkPrimary from "../../ui/LinkPrimary/LinkPrimary";
-import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import Button from "../../ui/Button/Button";
+import { ModalButton } from "../../ui/Button/ModalButton";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 export type Props = {
@@ -37,12 +37,16 @@ const Hero: FC<Props> = ({ heroSection }) => {
             <div className={styles.buttons}>
               {heroButtons.map((btn) => {
                 if (btn.type === "popup") {
-                  return <ButtonModal key={btn._key}>{btn.label}</ButtonModal>;
+                  return (
+                    <ModalButton key={btn._key} variant="secondary">
+                      {btn.label}
+                    </ModalButton>
+                  );
                 }
                 return (
-                  <LinkPrimary key={btn._key} link={btn.link}>
+                  <Button key={btn._key} href={btn.link} variant="primary">
                     {btn.label}
-                  </LinkPrimary>
+                  </Button>
                 );
               })}
             </div>

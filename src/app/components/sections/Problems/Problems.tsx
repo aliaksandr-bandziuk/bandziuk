@@ -2,7 +2,7 @@
 import React, { FC } from "react";
 import styles from "./Problems.module.scss";
 import { ProblemsSection } from "@/types/homepage";
-import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import { ModalButton } from "../../ui/Button/ModalButton";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import { motion } from "framer-motion";
@@ -48,14 +48,14 @@ const Problems: FC<Props> = ({ problemsSection }) => {
                     &quot;{item.problem}&quot;
                   </h3>
                   <p className={styles.problemDescription}>{item.solution}</p>
-                  <ButtonModal>{item.buttonLabel}</ButtonModal>
+                  <ModalButton variant="secondary">{item.buttonLabel}</ModalButton>
                 </div>
               ))}
             </StickyStack>
           </div>
         </div>
         <div className={styles.fullButton}>
-          <ButtonModal>{problemsSection.fullButtonLabel}</ButtonModal>
+          <ModalButton variant="primary">{problemsSection.fullButtonLabel}</ModalButton>
         </div>
       </div>
     </section>

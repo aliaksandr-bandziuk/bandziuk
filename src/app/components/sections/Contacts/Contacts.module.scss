@@ -145,21 +145,6 @@
   }
 }
 
-.bgImage {
-  -webkit-filter: blur(100px);
-  aspect-ratio: 1.675 / 1;
-  background: linear-gradient(180deg, #6957ba00, #7ec2f4 48.07563126087189%, #6957ba00);
-  border-radius: 100%;
-  filter: blur(100px);
-  height: 482px;
-  opacity: .18;
-  position: absolute;
-  top: -150px;
-  left: -50px;
-  width: 808px;
-  z-index: -1;
-}
-
 .indirectWrapper {
   display: flex;
   flex-direction: column;

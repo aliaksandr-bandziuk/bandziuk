@@ -23,21 +23,3 @@
   overflow: hidden;
 }
 
-.bgCenter {
-  -webkit-filter: blur(100px);
-  aspect-ratio: 1.675 / 1;
-  background: linear-gradient(180deg, #6957ba00, #7ec2f4 48.07563126087189%, #6957ba00);
-  border-radius: 100%;
-  filter: blur(100px);
-  height: 482px;
-  opacity: .21;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 808px;
-  z-index: -1;
-
-  @media screen and (min-width: 768px) {
-    left: 50%;
-  }
-}

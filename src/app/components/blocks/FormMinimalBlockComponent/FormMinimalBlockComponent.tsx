@@ -162,7 +162,6 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
             </div>
           )}
           <div className={styles.indirect}>
-            <div className={styles.bgImage}></div>
             {message && <div className={styles.popup}>{message}</div>}
             <Formik
               initialValues={initialValues}

@@ -25,7 +25,6 @@ const WorkProcess = ({ processSection }: Props) => {
 
         <ClientAnimationLayer stepsCount={stepItems.length}>
           <div className={styles.steps}>
-            <div className={styles.bgCenter}></div>
             {stepItems.map((step, i) => (
               <div key={i} className={styles.step}>
                 <FadeInOnScroll index={i}>

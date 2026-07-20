@@ -4,7 +4,7 @@ import { PortfolioSection } from "@/types/homepage";
 import { getLastFourPortfolioByLang } from "@/sanity/sanity.utils";
 import { Portfolio as PortfolioType } from "@/types/portfolio";
 import PortfolioItem from "../../ui/PortfolioItem/PortfolioItem";
-import LinkPrimary from "../../ui/LinkPrimary/LinkPrimary";
+import Button from "../../ui/Button/Button";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
@@ -31,8 +31,9 @@ const Portfolio: FC<Props> = async ({ portfolioSection, lang }) => {
           ))}
         </div>
         <div className={styles.linkAll}>
-          <LinkPrimary
-            link={lang === "en" ? `/portfolio` : `/${lang}/portfolio`}
+          <Button
+            variant="secondary"
+            href={lang === "en" ? `/portfolio` : `/${lang}/portfolio`}
           >
             {lang === "en"
               ? "View All Projects"
@@ -41,7 +42,7 @@ const Portfolio: FC<Props> = async ({ portfolioSection, lang }) => {
                 : lang === "ru"
                   ? "Показать все проекты"
                   : "View All Projects"}
-          </LinkPrimary>
+          </Button>
         </div>
       </div>
     </section>

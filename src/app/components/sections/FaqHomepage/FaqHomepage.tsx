@@ -32,7 +32,6 @@ const FaqHomepage: FC<Props> = ({ faqSection }) => {
             ))}
         </div>
         <div className={styles.faq}>
-          <div className={styles.bgCenter}></div>
           <AccordionContainer block={faq} />
         </div>
       </div>

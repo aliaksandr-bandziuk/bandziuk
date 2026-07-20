@@ -291,3 +291,16 @@ The middleware `matcher` omits `/admin`. If you add it back, Sanity Studio redir
 | 5 | **Remove unused packages** (`locomotive-scroll`, `styled-components`, `node-fetch`, `@studio-freight/lenis`, `csv-parse`, `node-cron`, `xml2js`, `dotenv`) | Low-Medium — smaller bundle, fewer security surface | Low — `npm remove` + verify build |
 
 Bonus (trivial): fix the `notFound()` call (#J) and remove the dead import (#F).
+
+## Build policy
+
+- Do NOT run `npm run build` after individual tasks or parts. 
+  Every push auto-builds and deploys via Vercel.
+- Use `next dev` for all in-session checks, including Playwright 
+  screenshots.
+- Run `npm run build` AT MOST ONCE per session, as the final gate 
+  before finishing — only to confirm the session's combined changes 
+  compile. If the session was research-only or trivially safe 
+  (content/comment changes), skip it entirely.
+- Never leave orphaned node processes on port 3000 — always kill 
+  the server you started.

@@ -6,7 +6,7 @@ import styles from "./Header.module.scss";
 import Link from "next/link";
 import { Translation } from "@/types/homepage";
 import NavWrapper from "../../wrappers/NavWrapper/NavWrapper";
-import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import { ModalButton } from "../../ui/Button/ModalButton";
 
 type Props = {
   translations?: Translation[];
@@ -50,7 +50,7 @@ const Header = async ({ translations, params }: Props) => {
             </div>
             <div className={styles.contactData}>
               <div className={styles.contactButtons}>
-                <ButtonModal>{data.buttonLabel}</ButtonModal>
+                <ModalButton variant="primary" size="md">{data.buttonLabel}</ModalButton>
               </div>
             </div>
           </div>

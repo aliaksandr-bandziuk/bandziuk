@@ -4,7 +4,7 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import type { KeyFeature, Service } from "@/types/portfolio";
 import type { ImageAlt } from "@/types/common";
-import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import { ModalButton } from "../../ui/Button/ModalButton";
 import ParticlesBackground from "../../animations/ParticlesBackground/ParticlesBackground";
 import PortfolioIntroClient from "./PortfolioIntroClient";
 
@@ -126,7 +126,7 @@ const PortfolioIntro: React.FC<Props> = ({
         )}
 
         <div className={styles.button}>
-          <ButtonModal>
+          <ModalButton variant="secondary">
             {lang === "en"
               ? "Create a Similar Project"
               : lang === "pl"
@@ -134,7 +134,7 @@ const PortfolioIntro: React.FC<Props> = ({
                 : lang === "ru"
                   ? "Сделать похожий проект"
                   : "Create a Similar Project"}
-          </ButtonModal>
+          </ModalButton>
         </div>
       </div>
 

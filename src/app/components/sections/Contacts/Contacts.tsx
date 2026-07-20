@@ -95,7 +95,6 @@ const Contacts: FC<Props> = ({ contacts, lang, formDocument }) => {
                 </div>
               </div>
               <div className={styles.indirect}>
-                <div className={styles.bgImage}></div>
                 <div className={styles.indirectWrapper}>
                   <div className={styles.indirectContent}>
                     <h3 className={styles.indirectTitle}>{formTitle}</h3>

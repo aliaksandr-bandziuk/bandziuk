@@ -42,7 +42,6 @@ const Footer = async ({ params, formDocument }: Props) => {
         <div className={styles.particlesWrapper}>
           <ParticlesBackground />
         </div>
-        <div className={styles.bgCenter}></div>
         <div className={styles.top}>
           <div className="container">
             <div className={styles.footerWrapper}>

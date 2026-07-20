@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styles from "./LandingCtaBlock.module.scss";
 import Image from "next/image";
-import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import { ModalButton } from "../../ui/Button/ModalButton";
 
 type Props = {
   lang: string;
@@ -55,7 +55,7 @@ const LandingCtaBlock: FC<Props> = ({ lang }) => {
               <p className={styles.description}>{t.description}</p>
             </div>
             <div className={styles.ctaButton}>
-              <ButtonModal>{t.button}</ButtonModal>
+              <ModalButton variant="primary">{t.button}</ModalButton>
             </div>
           </div>
           <Image

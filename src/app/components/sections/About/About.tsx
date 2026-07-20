@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./About.module.scss";
 import exp from "constants";
 import { AboutSection } from "@/types/homepage";
-import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import { ModalButton } from "../../ui/Button/ModalButton";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import Floating from "../../animations/Floating/Floating";
@@ -34,7 +34,7 @@ const About: React.FC<Props> = ({ aboutSection }) => {
               <p className={styles.description}>{description}</p>
             </div>
             <div className={styles.button}>
-              <ButtonModal>{buttonLabel}</ButtonModal>
+              <ModalButton variant="primary">{buttonLabel}</ModalButton>
             </div>
           </div>
           <div className={styles.aboutImage}>

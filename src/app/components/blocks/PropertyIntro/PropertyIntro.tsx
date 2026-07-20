@@ -15,7 +15,7 @@ import {
   FaHouseFlag,
 } from "react-icons/fa6";
 import { urlFor } from "@/sanity/sanity.client";
-import { ButtonModal } from "../../ui/ButtonModal/ButtonModal";
+import { ModalButton } from "../../ui/Button/ModalButton";
 import ResponsiveMedia from "../../ui/ResponsiveMedia/ResponsiveMedia";
 
 type Props = {
@@ -51,7 +51,7 @@ const PropertyIntro: FC<Props> = ({
             <h1 className={styles.title}>{title}</h1>
             <p className={styles.description}>{excerpt}</p>
             <div className={styles.button}>
-              <ButtonModal>
+              <ModalButton variant="primary">
                 {lang === "en"
                   ? "Request Personal Offer"
                   : lang === "de"
@@ -61,7 +61,7 @@ const PropertyIntro: FC<Props> = ({
                       : lang === "ru"
                         ? "Запросить предложение"
                         : "Request Personal Offer"}
-              </ButtonModal>
+              </ModalButton>
             </div>
           </div>
         </div>

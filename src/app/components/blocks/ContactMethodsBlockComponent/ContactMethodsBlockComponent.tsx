@@ -6,6 +6,7 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import Icon from "../../ui/Icon/Icon";
 import IconBadge from "../../ui/Icon/IconBadge";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   block: ContactMethodsBlock;
@@ -64,7 +65,7 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
     }
   };
 
-  const { title, description, contacts } = block;
+  const { title, contacts } = block;
   return (
     <section
       className={styles.contactFull}
@@ -76,7 +77,9 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.contactsBlock}>
-            <p className={styles.description}>{description}</p>
+            {title && (
+              <SectionHeading title={title} align="center" className={styles.heading} />
+            )}
             <div className={styles.contacts}>
               {contacts.map((contact) => (
                 <Link

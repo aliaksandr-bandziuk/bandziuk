@@ -3,6 +3,8 @@ import styles from "./LocationBlockComponent.module.scss";
 import dynamic from "next/dynamic";
 import { LocationBlock } from "@/types/blog";
 import CurrentTime from "../../ui/CurrentTime/CurrentTime";
+import Icon from "../../ui/Icon/Icon";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   block: LocationBlock;
@@ -43,9 +45,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
     >
       <div className="container">
         {block.title && (
-          <div className={styles.text}>
-            <h2 className={styles.title}>{block.title}</h2>
-          </div>
+          <SectionHeading title={block.title} align="left" className={styles.heading} />
         )}
       </div>
       <div className={styles.locationData}>
@@ -53,6 +53,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
           <div className={styles.locationItems}>
             {block.countryAndCity && (
               <div className={styles.locationItem}>
+                <Icon name="map-pin" size={18} className={styles.locationItemIcon} />
                 <h3 className={styles.locationItemTitle}>Country and City</h3>
                 <p className={styles.locationItemText}>
                   {block.countryAndCity}
@@ -61,6 +62,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
             )}
             {block.workingHours && (
               <div className={styles.locationItem}>
+                <Icon name="clock" size={18} className={styles.locationItemIcon} />
                 <h3 className={styles.locationItemTitle}>Working Hours</h3>
                 <p className={styles.locationItemText}>
                   {block.workingHours}
@@ -69,6 +71,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
             )}
             {block.timezone && (
               <div className={styles.locationItem}>
+                <Icon name="timer" size={18} className={styles.locationItemIcon} />
                 <h3 className={styles.locationItemTitle}>Current Time</h3>
                 <CurrentTime
                   timezone={block.timezone}

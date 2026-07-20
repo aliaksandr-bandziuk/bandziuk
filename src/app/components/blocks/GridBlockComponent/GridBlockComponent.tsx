@@ -7,6 +7,7 @@ import Link from "next/link";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import Icon from "../../ui/Icon/Icon";
 import IconBadge from "../../ui/Icon/IconBadge";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   block: GridBlock;
@@ -41,9 +42,7 @@ const GridBlockComponent: FC<Props> = ({ block }) => {
     >
       <div className="container">
         {title && (
-          <div className={styles.text}>
-            <h2 className={styles.title}>{title}</h2>
-          </div>
+          <SectionHeading title={title} align="center" className={styles.heading} />
         )}
 
         <div className={styles.items}>

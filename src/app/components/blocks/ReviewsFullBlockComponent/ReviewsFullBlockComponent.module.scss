@@ -25,9 +25,9 @@
 }
 
 .review {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
 .reviewText {
   flex: 1;
   font-size: clamp(1rem, 0.938rem + 0.25vw, 1.125rem);
-  color: rgba(199, 196, 196, 0.9);
+  color: var(--text-secondary);
   line-height: 1.7;
 }
 
@@ -64,5 +64,5 @@
 .authorName {
   font-size: 1rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-primary);
 }

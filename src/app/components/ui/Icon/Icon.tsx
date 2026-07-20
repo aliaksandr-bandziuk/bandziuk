@@ -24,6 +24,8 @@ import {
   Users,
   Zap,
   Check,
+  Clock,
+  Timer,
   Link as LinkIcon,
   type LucideIcon,
 } from "lucide-react";
@@ -57,6 +59,8 @@ const LUCIDE_ICONS: Record<string, LucideIcon> = {
   users: Users,
   zap: Zap,
   check: Check,
+  clock: Clock,
+  timer: Timer,
   link: LinkIcon,
 };
 

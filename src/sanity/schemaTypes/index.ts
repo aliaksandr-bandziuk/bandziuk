@@ -8,19 +8,14 @@ import header from "./header";
 import homepage from "./homepage";
 import localizedSlug from "./localizedSlug";
 import textContent from "./textContent";
-import contactFullBlock from "./contactFullBlock";
-import teamBlock from "./teamBlock";
 import locationBlock from "./locationBlock";
 import imageFullBlock from "./imageFullBlock";
 import doubleTextBlock from "./doubleTextBlock";
 import blockContentWithStyle from "./blockContentWithStyle";
-import buttonBlock from "./buttonBlock";
-import imageBulletsBlock from "./imageBulletsBlock";
 import benefitsBlock from "./benefitsBlock";
 import reviewsFullBlock from "./reviewsFullBlock";
 import faqBlock from "./faqBlock";
 import formMinimalBlock from "./formMinimalBlock";
-import bulletsBlock from "./bulletsBlock";
 import blog from "./blog";
 import category from "./category";
 import blogPage from "./blogPage";
@@ -63,14 +58,11 @@ export const schemaTypes = [
   contentBlock,
   textContent,
   faqBlock,
-  contactFullBlock,
   formMinimalBlock,
   formFullBlock,
-  teamBlock,
   imageFullBlock,
   doubleTextBlock,
   blockContentWithStyle,
-  buttonBlock,
   accordionBlock,
   locationBlock,
   landingCtaBlock,
@@ -78,11 +70,9 @@ export const schemaTypes = [
   gridBlock,
   tableBlock,
   reviewsFullBlock,
-  imageBulletsBlock,
   animationBulletsBlock,
   benefitsBlock,
   contactMethodsBlock,
-  bulletsBlock,
   serviceFeature,
   serviceFeaturesBlock,
   workProcessBlock,

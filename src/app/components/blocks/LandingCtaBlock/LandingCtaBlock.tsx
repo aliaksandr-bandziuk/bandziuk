@@ -8,6 +8,7 @@ type Props = {
 };
 
 type PartnersCtaTranslation = {
+  eyebrow: string;
   titleStart: string;
   titleHighlight: string;
   description: string;
@@ -16,6 +17,7 @@ type PartnersCtaTranslation = {
 
 const translations: Record<string, PartnersCtaTranslation> = {
   en: {
+    eyebrow: "let's talk",
     titleStart: "let’s discuss your ",
     titleHighlight: "project goals",
     description:
@@ -23,6 +25,7 @@ const translations: Record<string, PartnersCtaTranslation> = {
     button: "discuss my project",
   },
   pl: {
+    eyebrow: "porozmawiajmy",
     titleStart: "porozmawiajmy o Twoich ",
     titleHighlight: "celach projektu",
     description:
@@ -30,6 +33,7 @@ const translations: Record<string, PartnersCtaTranslation> = {
     button: "omów mój projekt",
   },
   ru: {
+    eyebrow: "давайте обсудим",
     titleStart: "давайте обсудим ",
     titleHighlight: "вашу задачу",
     description:
@@ -38,34 +42,39 @@ const translations: Record<string, PartnersCtaTranslation> = {
   },
 };
 
+// Deliberately kept for now (the car selfie) — a better portrait will
+// replace it later. Swap the file at this path only; nothing else to touch.
+const CTA_PHOTO_SRC = "/images/landing-cta-photo.jpg";
+
 const LandingCtaBlock: FC<Props> = ({ lang }) => {
   const t = translations[lang] ?? translations["en"];
 
   return (
-    <section className={styles.partnersCta}>
-      <div className={styles.overlay}></div>
+    <section className={styles.ctaBand}>
       <div className="container">
-        <div className={styles.cta}>
-          <div className={styles.ctaWrapper}>
-            <div className={styles.ctaContent}>
-              <h2 className={styles.title}>
-                {t.titleStart}
-                <span className={styles.highlight}>{t.titleHighlight}</span>
-              </h2>
-              <p className={styles.description}>{t.description}</p>
-            </div>
+        <div className={styles.grid}>
+          <div className={styles.content}>
+            <p className={styles.eyebrow}>{t.eyebrow}</p>
+            <h2 className={styles.title}>
+              {t.titleStart}
+              <span className={styles.highlight}>{t.titleHighlight}</span>
+            </h2>
+            <p className={styles.description}>{t.description}</p>
             <div className={styles.ctaButton}>
-              <ModalButton variant="primary">{t.button}</ModalButton>
+              <ModalButton variant="primary" size="lg">
+                {t.button}
+              </ModalButton>
             </div>
           </div>
-          <Image
-            src="https://cdn.sanity.io/files/x6jc462y/production/a1bcd2f54c75f3d58141c81aa81e6abc8699668c.jpg"
-            alt={t.description}
-            width={600}
-            height={520}
-            className={styles.image}
-            unoptimized
-          />
+          <div className={styles.imageWrap}>
+            <Image
+              src={CTA_PHOTO_SRC}
+              alt={t.description}
+              fill
+              sizes="(max-width: 980px) 100vw, 40vw"
+              className={styles.image}
+            />
+          </div>
         </div>
       </div>
     </section>

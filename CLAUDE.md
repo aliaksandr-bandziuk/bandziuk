@@ -108,7 +108,7 @@ Slug field structure: `slug: { en: { current: "..." }, pl: { current: "..." }, r
 | Group | Types |
 |-------|-------|
 | Core pages | `homepage`, `singlepage`, `blog`, `portfolio`, `blogPage`, `portfolioPage`, `header`, `footer` |
-| Content blocks | `textContent`, `doubleTextBlock`, `imageFullBlock`, `gridBlock`, `tableBlock`, `bulletsBlock`, `imageBulletsBlock`, `accordionBlock`, `faqBlock`, `serviceFeaturesBlock`, `animationBulletsBlock`, `benefitsBlock`, `landingCtaBlock`, `workProcessBlock`, `portfolioBlock`, `formMinimalBlock`, `formFullBlock`, `contactFullBlock`, `contactMethodsBlock`, `locationBlock`, `reviewsFullBlock`, `teamBlock`, `buttonBlock`, `howWeWorkBlock`, `projectsSectionBlock` |
+| Content blocks | `textContent`, `doubleTextBlock`, `imageFullBlock`, `gridBlock`, `tableBlock`, `accordionBlock`, `faqBlock`, `serviceFeaturesBlock`, `animationBulletsBlock`, `benefitsBlock`, `landingCtaBlock`, `workProcessBlock`, `portfolioBlock`, `formMinimalBlock`, `formFullBlock`, `contactMethodsBlock`, `locationBlock`, `reviewsFullBlock`, `howWeWorkBlock`, `projectsSectionBlock` |
 | Reference types | `category`, `projectCategory`, `service`, `technology`, `serviceFeature` |
 | Utilities | `localizedSlug`, `blockContentWithStyle`, `docFile`, `formStandard`, `formStandardDocument` |
 
@@ -273,6 +273,17 @@ The middleware `matcher` omits `/admin`. If you add it back, Sanity Studio redir
 
 ### The `formDocument` prop pattern
 `formDocument` (a `FormStandardDocument`) is fetched on every page that renders a modal or form, then passed down to `ModalFull` and footer forms. This is how multi-language form validation strings reach client components without a separate API call. Don't refactor this into a context/store without confirming SSR implications.
+
+### Hardcoded content in `landingCtaBlock`, `benefitsBlock`, `workProcessBlock`, and `portfolioBlock`'s auto-fetch
+
+Four singlepage builder blocks look editable in Sanity Studio but aren't, and this is **intentional**, not a bug:
+
+- `landingCtaBlock` (44 uses) — the component only takes `lang`; all copy (title, description, button label) and the panel photo are hardcoded per-language inside `LandingCtaBlock.tsx`. The schema's `title` field is never read.
+- `benefitsBlock` (44 uses) — the schema has a real `benefits[]` array (counting number/sign/title/description), but `BenefitsBlock.tsx` ignores it entirely and renders a hardcoded 4-stat array per language instead.
+- `workProcessBlock` (38 uses) — the schema only has `title` (no field for steps at all); the 6 timeline steps and their copy are hardcoded per language in `WorkProcessBlockComponent.tsx`.
+- `portfolioBlock` (3 uses, /about only) — the schema's `portfolioItems[]` reference array is fetched but never read; the component always shows the 4 most recent portfolio docs via `getLastFourPortfolioByLang`, same as the homepage's `Portfolio.tsx`.
+
+**Why:** single source of truth across ~44 pages per block, without needing to keep dozens of documents in sync. **Do not** wire these Sanity fields through to "fix" this without an explicit request from the owner — editing their copy today means editing the component, not Studio. (Full block-by-block audit: `drafts/singlepage-block-audit.md`.)
 
 ---
 

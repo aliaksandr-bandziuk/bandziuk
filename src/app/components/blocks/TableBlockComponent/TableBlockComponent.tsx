@@ -32,28 +32,30 @@ const TableBlockComponent: React.FC<Props> = ({ block }) => {
       }}
     >
       <div className="container">
-        <table className={styles.table}>
-          <thead>
-            <tr>
-              {block.columns.map((col, i) => (
-                <th key={i} className={styles.th}>
-                  {col}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {block.rows.map((row) => (
-              <tr key={row._key}>
-                {row.cells.map((cell, j) => (
-                  <td key={j} className={styles.td}>
-                    {cell}
-                  </td>
+        <div className={styles.tableWrapper}>
+          <table className={styles.table}>
+            <thead>
+              <tr>
+                {block.columns.map((col, i) => (
+                  <th key={i} className={styles.th}>
+                    {col}
+                  </th>
                 ))}
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {block.rows.map((row) => (
+                <tr key={row._key}>
+                  {row.cells.map((cell, j) => (
+                    <td key={j} className={styles.td}>
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

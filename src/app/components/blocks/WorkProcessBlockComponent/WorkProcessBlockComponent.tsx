@@ -3,6 +3,7 @@ import styles from "./WorkProcessBlockComponent.module.scss";
 import { WorkProcessBlock as WorkProcessBlockType } from "@/types/blog";
 import Image from "next/image";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   block: WorkProcessBlockType;
@@ -143,7 +144,7 @@ const WorkProcessBlockComponent: FC<Props> = ({ block, lang }) => {
     >
       <div className="container">
         <div className={styles.inner}>
-          <h2 className="h2">{title}</h2>
+          {title && <SectionHeading title={title} align="center" />}
           <div className={styles.steps}>
             {/* Timeline: line + dots */}
             <div className={styles.timelineDots} aria-hidden>

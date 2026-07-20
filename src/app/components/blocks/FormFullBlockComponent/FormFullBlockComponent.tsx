@@ -154,7 +154,7 @@ const FormFullBlockComponent: FC<ContactFormProps> = ({
 
   return (
     <>
-      <div className={styles.formMinimalBlock}>
+      <div className={styles.formFullBlock}>
         <div className="container">
           {title && (
             <div className={styles.text}>

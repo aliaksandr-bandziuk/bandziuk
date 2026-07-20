@@ -3,27 +3,8 @@
   margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.heading {
   margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
-}
-
-.subtitle {
-  font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
-  line-height: 1.2;
-  font-weight: 500;
-  color: #fff;
-  text-align: center;
-
-  @media screen and (min-width: 768px) {
-    max-width: 700px;
-  }
-
-  @media screen and (min-width: 980px) {
-    max-width: 950px;
-  }
 }
 
 /* базовая сетка */
@@ -61,7 +42,10 @@
 
 /* карточки и иконки */
 .card {
-  padding: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,12 +72,14 @@
   gap: 10px;
 }
 
-.cardTitle { 
-  font-weight: 400; 
+.cardTitle {
+  font-family: var(--font-heading);
+  font-weight: 500;
   font-size: 1.5rem;
+  color: var(--text-primary);
 }
-.desc { 
-  color: rgba(255, 255, 255, 0.5);
-  line-height: 1.6; 
+.desc {
+  color: var(--text-secondary);
+  line-height: 1.6;
   font-size: 1rem;
 }

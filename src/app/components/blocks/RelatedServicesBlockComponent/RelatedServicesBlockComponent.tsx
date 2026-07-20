@@ -5,6 +5,7 @@ import { RelatedServicesBlock } from "@/types/blog";
 import { urlFor } from "@/sanity/sanity.client";
 import { localePrefix } from "@/utils/hreflang";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 import styles from "./RelatedServicesBlockComponent.module.scss";
 
 type Props = {
@@ -35,9 +36,7 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
     >
       <div className="container">
         {title && (
-          <div className={styles.text}>
-            <h2 className={styles.title}>{title}</h2>
-          </div>
+          <SectionHeading title={title} align="center" className={styles.heading} />
         )}
         <ul className={styles.items}>
           {items.map((item, index) => {

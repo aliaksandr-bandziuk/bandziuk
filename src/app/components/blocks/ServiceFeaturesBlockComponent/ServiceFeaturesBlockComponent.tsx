@@ -5,6 +5,7 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import Icon from "../../ui/Icon/Icon";
 import IconBadge from "../../ui/Icon/IconBadge";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   block: ServiceFeaturesBlock;
@@ -18,11 +19,9 @@ const ServiceFeaturesBlockComponent: FC<Props> = ({ block }) => {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className={styles.text}>
-          {block.title && (
-            <h2 className={styles.subtitle}>{block.title}</h2>
-          )}
-        </div>
+        {block.title && (
+          <SectionHeading title={block.title} align="center" className={styles.heading} />
+        )}
 
         <div className={`${styles.grid} ${colsClass}`}>
           {block.features?.map((f: ServiceFeatureItem) => {

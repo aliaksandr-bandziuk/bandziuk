@@ -443,29 +443,6 @@ textarea {
   }
 }
 
-.singlepage table {
-  margin-top: clamp(1.563rem, 0.938rem + 2.5vw, 2.813rem);
-  margin-bottom: clamp(1.563rem, 0.938rem + 2.5vw, 2.813rem);
-}
-
-.singlepage th,
-.singlepage td {
-  width: calc(100% / 2);
-  border: 1px solid #fff;
-}
-
-.singlepage th {
-  background-color: unset;
-  color: var(--corp-color);
-  font-size: 1.4rem;
-  font-weight: 400;
-  text-align: center;
-}
-
-.singlepage td {
-  font-size: 1.2rem;
-}
-
 .related-articles-section {
   
   h2 {

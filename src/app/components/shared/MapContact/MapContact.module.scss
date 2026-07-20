@@ -2,7 +2,14 @@
   height: clamp(18.75rem, 12.5rem + 25vw, 31.25rem);
 }
 
+// Dark-theme adaptation of the OSM light tiles: grayscale removes color
+// noise, then inverting flips lightness (light bg -> dark, dark
+// roads/labels -> light) without needing a hue-rotate correction since
+// there's no hue left after the grayscale step.
 .grayscaleTile {
-  filter: grayscale(100%);
-  opacity: 0.9; /* Регулируйте прозрачность по необходимости */
+  filter: grayscale(1) invert(1) brightness(0.92) contrast(0.85);
+}
+
+.markerIcon {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.6));
 }

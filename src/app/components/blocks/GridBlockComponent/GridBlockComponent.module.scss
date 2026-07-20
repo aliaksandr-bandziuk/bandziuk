@@ -1,41 +1,10 @@
-.servicesSection {
-  margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
+// The component's root <section> uses styles.gridBlock (kept as an empty
+// hook — see the comment history in this file's git blame for why).
+.gridBlock {
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+.heading {
   margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
-}
-
-.pretitle {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 5px 10px;
-  width: fit-content;
-  border-radius: 10px;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.title {
-  color: inherit;
-  font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
-  line-height: 1.2;
-  font-weight: 500;
-}
-
-.subtitle {
-  font-size: clamp(1.563rem, 1.25rem + 1.25vw, 2.188rem);
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--corp-color);
-  font-style: italic;
-
-  @media screen and (min-width: 768px) {
-    max-width: 700px;
-  }
 }
 
 .items {
@@ -59,9 +28,9 @@
 }
 
 .serviceItem {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
   padding: 30px 10px;
   height: 100%;
 
@@ -86,27 +55,28 @@
 }
 
 .serviceItemTitle {
+  font-family: var(--font-heading);
   font-size: clamp(1.125rem, 0.938rem + 0.75vw, 1.5rem);
   font-weight: 500;
   line-height: 1.2;
-  color: rgba(255, 255, 255, 1);
+  color: var(--text-primary);
 }
 
 .serviceItemDescription {
   font-size: clamp(1rem, 0.938rem + 0.25vw, 1.125rem);
-  color: rgba(199, 196, 196, 0.8);
+  color: var(--text-secondary);
 }
 
 .serviceItemLink {
   font-size: clamp(0.875rem, 0.75rem + 0.25vw, 1rem);
-  color: var(--corp-color);
+  color: var(--accent);
   text-decoration: none;
   transition: color 0.3s ease;
   padding: 10px 20px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-subtle);
 
   &:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--accent-strong);
   }
 }

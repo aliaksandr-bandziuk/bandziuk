@@ -1,23 +1,56 @@
 .tableBlockComponent {
-  /* даём контейнеру таблицы собственную прокрутку, а не всей странице */
+}
+
+// The bordered/rounded "chrome" and the horizontal scroll area are the
+// same element on purpose: overflow-x:auto lets wide tables scroll on
+// mobile while overflow-y:hidden keeps the rounded corners clipping
+// cleanly (no table row ever needs vertical scroll here).
+.tableWrapper {
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch; /* плавный скролл на iOS */
-  }
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
 
 .table {
   width: 100%;
   border-collapse: collapse;
+
+  tbody tr:nth-child(even) td {
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
 }
 
 .th {
-  padding: 0.7rem;           /* эквивалент px-4 py-2 */
-  border: 1px solid #e5e7eb; /* Tailwind border-gray-200 */
-  background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+  padding: 0.875rem 1rem;
+  background-color: var(--bg-elevated);
+  border-bottom: 1px solid var(--border-strong);
   text-align: left;
-  color: #000;             /* текст чёрный */
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 .td {
-  padding: 0.7rem;           /* эквивалент px-4 py-2 */
-  border: 1px solid #e5e7eb; /* Tailwind border-gray-200 */
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-reading);
+
+  // First column reads as the row's label in every real usage sampled
+  // (comparison/pricing tables) — styled as such consistently.
+  &:first-child {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
 }

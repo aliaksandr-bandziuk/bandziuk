@@ -3,6 +3,10 @@
   padding-bottom: clamp(2.813rem, 1.563rem + 6.25vw, 6.25rem);
 }
 
+.heading {
+  margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
+}
+
 .benefitsList {
   display: grid;
   grid-template-columns: 1fr;
@@ -21,7 +25,7 @@
 
 .icon {
   font-size: 2.5rem;
-  color: var(--corp-color);
+  color: var(--accent);
 }
 
 .benefitItem {

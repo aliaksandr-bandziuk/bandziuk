@@ -6,6 +6,7 @@ import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import styles from "./StepsBlockComponent.module.scss";
 import Icon from "../../ui/Icon/Icon";
 import IconBadge from "../../ui/Icon/IconBadge";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   block: StepsBlock;
@@ -34,9 +35,7 @@ const StepsBlockComponent: FC<Props> = ({ block }) => {
     >
       <div className="container">
         {title && (
-          <div className={styles.text}>
-            <h2 className={styles.title}>{title}</h2>
-          </div>
+          <SectionHeading title={title} align="center" className={styles.heading} />
         )}
         <ol className={styles.steps}>
           {steps.map((step, index) => {

@@ -1,3 +1,13 @@
+// The component's root <section> (styles.serviceList) and each card link
+// (styles.servicesListItem) were both referenced in JSX but never defined
+// here, so they rendered with no class attribute. Kept empty (no visual
+// change) — real hooks for future styling.
+.serviceList {
+}
+
+.servicesListItem {
+}
+
 .servicesListGrid {
   display: grid;
   grid-template-columns: 1fr;

@@ -1,3 +1,21 @@
+// The following four classes are referenced by the component's JSX
+// (root <section>, and the .wrapper > .contactsBlock > .description
+// ancestor chain) but were never actually defined here, so they rendered
+// with no class attribute. Kept empty (no visual change) — real hooks
+// for future styling.
+.contactFull {
+}
+
+.wrapper {
+}
+
+.contactsBlock {
+}
+
+.heading {
+  margin-bottom: 32px;
+}
+
 .contacts {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -10,9 +28,9 @@
 }
 
 .contact {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
   padding: 30px 10px;
   height: 100%;
   display: flex;

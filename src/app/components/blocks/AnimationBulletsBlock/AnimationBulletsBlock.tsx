@@ -2,6 +2,7 @@ import { AnimationBulletsBlock } from "@/types/blog";
 import React, { FC } from "react";
 import styles from "./AnimationBulletsBlock.module.scss";
 import CountNumber from "../../animations/CountNumber/CountNumber";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   block: AnimationBulletsBlock;
@@ -36,9 +37,7 @@ const AnimationBulletsBlockComponent: FC<Props> = ({ block }) => {
     >
       <div className="container">
         {title && (
-          <div className={styles.text}>
-            <h2 className={styles.title}>{title}</h2>
-          </div>
+          <SectionHeading title={title} align="center" className={styles.heading} />
         )}
         <div className={styles.bulletsList}>
           {bullets.map((bullet, index) => (

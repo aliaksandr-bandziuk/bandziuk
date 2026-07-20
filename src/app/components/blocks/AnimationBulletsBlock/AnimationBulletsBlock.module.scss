@@ -2,19 +2,8 @@
   margin-bottom: clamp(1.875rem, 0.284rem + 7.95vw, 6.25rem);
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+.heading {
   margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
-}
-
-.title {
-  color: inherit;
-  font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
-  line-height: 1.2;
-  font-weight: 500;
 }
 
 .bulletsList {
@@ -33,11 +22,11 @@
   flex-direction: column;
   align-items: center;
   gap: clamp(0.313rem, 0.085rem + 1.14vw, 0.938rem);
-  color: #fff;
+  color: var(--text-primary);
   padding: clamp(0.625rem, 0.352rem + 1.36vw, 1.375rem);
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
 }
 
 .bulletTitle {
@@ -46,7 +35,7 @@
   font-weight: 400;
   line-height: 1.2;
   display: flex;
-  color: var(--corp-color)
+  color: var(--accent);
 }
 
 .bulletText {

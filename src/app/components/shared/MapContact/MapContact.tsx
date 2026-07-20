@@ -21,6 +21,7 @@ const customMarkerIcon = new L.Icon({
   iconSize: [90, 90], // размер изображения
   iconAnchor: [20, 100], // точка привязки (середина нижней части)
   popupAnchor: [0, -41], // положение всплывающего окна относительно маркера
+  className: styles.markerIcon, // drop-shadow so it pops against the now-dark tiles
 });
 
 type Props = {

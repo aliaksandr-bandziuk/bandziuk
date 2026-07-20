@@ -2,9 +2,19 @@ import React, { FC } from "react";
 import styles from "./BenefitsBlock.module.scss";
 import { BenefitsBlock as BenefitsBlockType } from "@/types/homepage";
 import CountNumber from "../../animations/CountNumber/CountNumber";
+import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 import { FiCheckCircle, FiClock, FiLayers, FiGlobe } from "react-icons/fi";
 
 const benefitIcons = [FiCheckCircle, FiClock, FiLayers, FiGlobe];
+
+// This block is a placement toggle (see CLAUDE.md) — content lives here,
+// not in Sanity. The heading is the same: a short, topic-agnostic label
+// since this block appears on many differently-themed pages.
+const sectionTitles: Record<string, string> = {
+  en: "By the numbers",
+  pl: "W liczbach",
+  ru: "В цифрах",
+};
 
 type Props = {
   benefitsBlock: BenefitsBlockType;
@@ -112,11 +122,13 @@ const BenefitsBlock: FC<Props> = ({ benefitsBlock, lang }) => {
   // }
 
   const benefits = translations[lang] ?? translations["en"];
+  const sectionTitle = sectionTitles[lang] ?? sectionTitles.en;
 
   return (
     <section className={styles.benefitsBlock}>
       <div className="container">
         <div className={styles.inner}>
+          <SectionHeading title={sectionTitle} align="center" className={styles.heading} />
           <div className={styles.benefitsList}>
             {benefits.map((benefit, index) => {
               const Icon = benefitIcons[index];

@@ -1,4 +1,5 @@
 import { defineType, defineField } from "sanity";
+import { ICON_NAME_OPTIONS } from "./iconOptions";
 
 export default defineType({
   name: "serviceFeature",
@@ -26,6 +27,16 @@ export default defineType({
         },
       ],
       validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: "iconName",
+      title: "Icon (Lucide/brand name)",
+      type: "string",
+      description:
+        "Optional. When set, renders a Lucide/brand icon instead of the image above.",
+      options: {
+        list: ICON_NAME_OPTIONS,
+      },
     }),
   ],
   preview: {

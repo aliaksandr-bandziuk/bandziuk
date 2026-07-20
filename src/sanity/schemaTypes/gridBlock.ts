@@ -1,4 +1,5 @@
 import { defineType, defineField, defineArrayMember } from "sanity";
+import { ICON_NAME_OPTIONS } from "./iconOptions";
 
 const gridBlock = defineType({
   name: "gridBlock",
@@ -29,6 +30,16 @@ const gridBlock = defineType({
                   type: "string",
                 },
               ],
+            }),
+            defineField({
+              name: "iconName",
+              title: "Icon (Lucide/brand name)",
+              type: "string",
+              description:
+                "Optional. When set, renders a Lucide/brand icon instead of the image above.",
+              options: {
+                list: ICON_NAME_OPTIONS,
+              },
             }),
             defineField({
               name: "title",

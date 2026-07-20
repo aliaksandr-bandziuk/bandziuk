@@ -22,6 +22,7 @@ export type Seo = {
 export type ServiceFeature = {
   title: string;
   image: ImageAlt;
+  iconName?: string;
 };
 
 export type ServiceFeatureItem = {
@@ -75,6 +76,7 @@ export type FullContact = {
   _key: string;
   _type: string;
   icon: Image;
+  iconName?: string;
   title: string;
   label: string;
   type: ContactType;
@@ -357,6 +359,7 @@ export type StepItem = {
   title: string;
   description?: string;
   icon?: ImageAlt;
+  iconName?: string;
 };
 
 export type StepsBlock = {

@@ -3,6 +3,8 @@ import styles from "./ServiceFeaturesBlockComponent.module.scss";
 import { ServiceFeatureItem, ServiceFeaturesBlock } from "@/types/blog";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
+import Icon from "../../ui/Icon/Icon";
+import IconBadge from "../../ui/Icon/IconBadge";
 
 type Props = {
   block: ServiceFeaturesBlock;
@@ -25,20 +27,27 @@ const ServiceFeaturesBlockComponent: FC<Props> = ({ block }) => {
         <div className={`${styles.grid} ${colsClass}`}>
           {block.features?.map((f: ServiceFeatureItem) => {
             const img = f?.feature?.image;
+            const iconName = f?.feature?.iconName;
 
             return (
               <div key={f._key} className={styles.card}>
-                <div className={styles.iconWrap}>
-                  {img?.asset && (
-                    <Image
-                      src={urlFor(img).url()}
-                      alt={f.title}
-                      fill
-                      style={{ objectFit: "cover" }}
-                      unoptimized
-                    />
-                  )}
-                </div>
+                {iconName ? (
+                  <IconBadge>
+                    <Icon name={iconName} />
+                  </IconBadge>
+                ) : (
+                  <div className={styles.iconWrap}>
+                    {img?.asset && (
+                      <Image
+                        src={urlFor(img).url()}
+                        alt={f.title}
+                        fill
+                        style={{ objectFit: "cover" }}
+                        unoptimized
+                      />
+                    )}
+                  </div>
+                )}
                 <div className={styles.cardContent}>
                   <h3 className={styles.cardTitle}>{f.title}</h3>
                   {f.description && (

@@ -4,6 +4,8 @@ import { ContactMethodsBlock, FullContact } from "@/types/blog";
 import Link from "next/link";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
+import Icon from "../../ui/Icon/Icon";
+import IconBadge from "../../ui/Icon/IconBadge";
 
 type Props = {
   block: ContactMethodsBlock;
@@ -83,13 +85,19 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
                   key={contact._key}
                   className={styles.contact}
                 >
-                  <Image
-                    alt={contact.label}
-                    src={urlFor(contact.icon).url()}
-                    width={70}
-                    height={70}
-                    unoptimized
-                  />
+                  {contact.iconName ? (
+                    <IconBadge>
+                      <Icon name={contact.iconName} />
+                    </IconBadge>
+                  ) : (
+                    <Image
+                      alt={contact.label}
+                      src={urlFor(contact.icon).url()}
+                      width={70}
+                      height={70}
+                      unoptimized
+                    />
+                  )}
                   <p className={styles.contactLabel}>{contact.title}</p>
                 </Link>
               ))}

@@ -4,6 +4,8 @@ import { StepsBlock } from "@/types/blog";
 import { urlFor } from "@/sanity/sanity.client";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import styles from "./StepsBlockComponent.module.scss";
+import Icon from "../../ui/Icon/Icon";
+import IconBadge from "../../ui/Icon/IconBadge";
 
 type Props = {
   block: StepsBlock;
@@ -48,17 +50,23 @@ const StepsBlockComponent: FC<Props> = ({ block }) => {
                       {displayNum}
                     </div>
                     <div className={styles.stepBody}>
-                      {step.icon && (
-                        <div className={styles.stepIcon}>
-                          <Image
-                            src={urlFor(step.icon).url()}
-                            alt={step.icon.alt ?? step.title}
-                            width={32}
-                            height={32}
-                            unoptimized
-                            className={styles.icon}
-                          />
-                        </div>
+                      {step.iconName ? (
+                        <IconBadge>
+                          <Icon name={step.iconName} />
+                        </IconBadge>
+                      ) : (
+                        step.icon && (
+                          <div className={styles.stepIcon}>
+                            <Image
+                              src={urlFor(step.icon).url()}
+                              alt={step.icon.alt ?? step.title}
+                              width={32}
+                              height={32}
+                              unoptimized
+                              className={styles.icon}
+                            />
+                          </div>
+                        )
                       )}
                       <h3 className={styles.stepTitle}>{step.title}</h3>
                       {step.description && (

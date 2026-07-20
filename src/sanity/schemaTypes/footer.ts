@@ -1,4 +1,5 @@
 import { defineField } from "sanity";
+import { ICON_NAME_OPTIONS } from "./iconOptions";
 
 const footer = {
   name: "footer",
@@ -69,6 +70,16 @@ const footer = {
                       type: "string",
                     },
                   ],
+                }),
+                defineField({
+                  name: "iconName",
+                  title: "Icon (Lucide/brand name)",
+                  type: "string",
+                  description:
+                    "Optional. When set, renders a Lucide/brand icon instead of the image above.",
+                  options: {
+                    list: ICON_NAME_OPTIONS,
+                  },
                 }),
                 defineField({
                   name: "label",

@@ -6,6 +6,8 @@ import { urlFor } from "@/sanity/sanity.client";
 import ClientAnimationLayer from "./ClientAnimationLayer";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
+import Icon from "../../ui/Icon/Icon";
+import IconBadge from "../../ui/Icon/IconBadge";
 
 type Props = {
   processSection: ProcessSection;
@@ -29,16 +31,22 @@ const WorkProcess = ({ processSection }: Props) => {
               <div key={i} className={styles.step}>
                 <FadeInOnScroll index={i}>
                   <div className={styles.stepWrapper}>
-                    <div className={styles.serviceItemIcon}>
-                      <Image
-                        src={urlFor(step.icon).url()}
-                        alt={step.icon.alt ?? title}
-                        width={70}
-                        height={70}
-                        unoptimized
-                        className={styles.image}
-                      />
-                    </div>
+                    {step.iconName ? (
+                      <IconBadge>
+                        <Icon name={step.iconName} />
+                      </IconBadge>
+                    ) : (
+                      <div className={styles.serviceItemIcon}>
+                        <Image
+                          src={urlFor(step.icon).url()}
+                          alt={step.icon.alt ?? title}
+                          width={70}
+                          height={70}
+                          unoptimized
+                          className={styles.image}
+                        />
+                      </div>
+                    )}
                     <div className={styles.stepText}>
                       <h3 className={styles.stepTitle}>{step.title}</h3>
                       <p className={styles.stepDescription}>

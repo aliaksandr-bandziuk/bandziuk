@@ -124,6 +124,7 @@ export type ServiceItem = {
   _key: string;
   _type: "serviceItem";
   icon: ImageAlt;
+  iconName?: string;
   title: string;
   description: string;
   linkLabel?: string;
@@ -151,6 +152,7 @@ export type ProblemItem = {
   _key: string;
   _type: "problemItem";
   icon: ImageAlt;
+  iconName?: string;
   problem: string;
   solution: string;
   buttonLabel: string;
@@ -182,6 +184,7 @@ export type StepItem = {
   _key: string;
   _type: "stepItem";
   icon: ImageAlt;
+  iconName?: string;
   title: string;
   description: string;
 };
@@ -222,6 +225,7 @@ export type ContactSocialLink = {
   _key: string;
   _type: "socialLink";
   icon: ImageAlt;
+  iconName?: string;
   label: string;
   link: string;
 };

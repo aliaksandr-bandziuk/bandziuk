@@ -8,6 +8,8 @@ import { urlFor } from "@/sanity/sanity.client";
 import { motion } from "framer-motion";
 import StickyStack from "../../wrappers/StickyStack/StickyStack";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
+import Icon from "../../ui/Icon/Icon";
+import IconBadge from "../../ui/Icon/IconBadge";
 
 type Props = { problemsSection: ProblemsSection };
 
@@ -36,14 +38,20 @@ const Problems: FC<Props> = ({ problemsSection }) => {
             <StickyStack offset={120} spacing={10}>
               {problemsItems.map((item) => (
                 <div key={item._key} className={styles.problemItem}>
-                  <div className={styles.icon}>
-                    <img
-                      src={urlFor(item.icon).url()}
-                      alt={item.icon.alt ?? title}
-                      width={100}
-                      height={100}
-                    />
-                  </div>
+                  {item.iconName ? (
+                    <IconBadge>
+                      <Icon name={item.iconName} />
+                    </IconBadge>
+                  ) : (
+                    <div className={styles.icon}>
+                      <img
+                        src={urlFor(item.icon).url()}
+                        alt={item.icon.alt ?? title}
+                        width={100}
+                        height={100}
+                      />
+                    </div>
+                  )}
                   <h3 className={styles.problemTitle}>
                     &quot;{item.problem}&quot;
                   </h3>

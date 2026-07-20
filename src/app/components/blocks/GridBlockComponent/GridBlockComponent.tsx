@@ -5,6 +5,8 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import Link from "next/link";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
+import Icon from "../../ui/Icon/Icon";
+import IconBadge from "../../ui/Icon/IconBadge";
 
 type Props = {
   block: GridBlock;
@@ -50,17 +52,23 @@ const GridBlockComponent: FC<Props> = ({ block }) => {
               <FadeInOnScroll index={index}>
                 <div className={styles.serviceItem}>
                   <div className={styles.serviceItemWrapper}>
-                    {item.icon && (
-                      <div className={styles.serviceItemIcon}>
-                        <Image
-                          src={urlFor(item.icon).url()}
-                          alt={item.icon.alt ?? title}
-                          width={70}
-                          height={70}
-                          unoptimized
-                          className={styles.image}
-                        />
-                      </div>
+                    {item.iconName ? (
+                      <IconBadge>
+                        <Icon name={item.iconName} />
+                      </IconBadge>
+                    ) : (
+                      item.icon && (
+                        <div className={styles.serviceItemIcon}>
+                          <Image
+                            src={urlFor(item.icon).url()}
+                            alt={item.icon.alt ?? title}
+                            width={70}
+                            height={70}
+                            unoptimized
+                            className={styles.image}
+                          />
+                        </div>
+                      )
                     )}
                     <div className={styles.serviceItemText}>
                       <h3 className={styles.serviceItemTitle}>{item.title}</h3>

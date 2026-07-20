@@ -215,6 +215,7 @@ export async function getSinglePageByLang(
             description,
             feature->{
               title,
+              iconName,
               image{
                 _type,      // сохранить тип
                 asset,      // ВАЖНО: без "->", нужен asset._ref

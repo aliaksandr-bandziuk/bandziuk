@@ -1,4 +1,5 @@
 import { defineArrayMember, defineField, defineType } from "sanity";
+import { ICON_NAME_OPTIONS } from "./iconOptions";
 
 export default defineType({
   name: "homepage",
@@ -189,6 +190,16 @@ export default defineType({
                   ],
                 }),
                 defineField({
+                  name: "iconName",
+                  title: "Icon (Lucide/brand name)",
+                  type: "string",
+                  description:
+                    "Optional. When set, renders a Lucide/brand icon instead of the image above.",
+                  options: {
+                    list: ICON_NAME_OPTIONS,
+                  },
+                }),
+                defineField({
                   name: "title",
                   title: "Title",
                   type: "string",
@@ -270,6 +281,16 @@ export default defineType({
                       type: "string",
                     },
                   ],
+                }),
+                defineField({
+                  name: "iconName",
+                  title: "Icon (Lucide/brand name)",
+                  type: "string",
+                  description:
+                    "Optional. When set, renders a Lucide/brand icon instead of the image above.",
+                  options: {
+                    list: ICON_NAME_OPTIONS,
+                  },
                 }),
                 defineField({
                   name: "problem",
@@ -358,6 +379,16 @@ export default defineType({
                       type: "string",
                     },
                   ],
+                }),
+                defineField({
+                  name: "iconName",
+                  title: "Icon (Lucide/brand name)",
+                  type: "string",
+                  description:
+                    "Optional. When set, renders a Lucide/brand icon instead of the image above.",
+                  options: {
+                    list: ICON_NAME_OPTIONS,
+                  },
                 }),
                 defineField({
                   name: "title",
@@ -527,6 +558,16 @@ export default defineType({
                       type: "string",
                     },
                   ],
+                }),
+                defineField({
+                  name: "iconName",
+                  title: "Icon (Lucide/brand name)",
+                  type: "string",
+                  description:
+                    "Optional. When set, renders a Lucide/brand icon instead of the image above.",
+                  options: {
+                    list: ICON_NAME_OPTIONS,
+                  },
                 }),
                 defineField({
                   name: "label",

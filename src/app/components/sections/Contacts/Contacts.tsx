@@ -8,6 +8,8 @@ import { FormStandardDocument } from "@/types/formStandardDocument";
 import FormStandard from "../../forms/FormStandard/FormStandard";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
+import Icon from "../../ui/Icon/Icon";
+import IconBadge from "../../ui/Icon/IconBadge";
 
 type Props = {
   contacts: ContactsSection;
@@ -79,14 +81,20 @@ const Contacts: FC<Props> = ({ contacts, lang, formDocument }) => {
                         target="_blank"
                       >
                         <div className={styles.socialLinkWrapper}>
-                          <Image
-                            src={urlFor(link.icon).url()}
-                            alt={link.icon.alt ?? link.label}
-                            width={30}
-                            height={30}
-                            unoptimized
-                            className={styles.socialLinkImage}
-                          />
+                          {link.iconName ? (
+                            <IconBadge>
+                              <Icon name={link.iconName} />
+                            </IconBadge>
+                          ) : (
+                            <Image
+                              src={urlFor(link.icon).url()}
+                              alt={link.icon.alt ?? link.label}
+                              width={30}
+                              height={30}
+                              unoptimized
+                              className={styles.socialLinkImage}
+                            />
+                          )}
                           <p className={styles.socialLinkLabel}>{link.label}</p>
                         </div>
                       </a>

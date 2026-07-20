@@ -1,4 +1,5 @@
 import { defineType, defineField, defineArrayMember } from "sanity";
+import { ICON_NAME_OPTIONS } from "./iconOptions";
 
 const contactMethodsBlock = defineType({
   name: "contactMethodsBlock",
@@ -22,6 +23,16 @@ const contactMethodsBlock = defineType({
               name: "icon",
               title: "Icon",
               type: "image",
+            }),
+            defineField({
+              name: "iconName",
+              title: "Icon (Lucide/brand name)",
+              type: "string",
+              description:
+                "Optional. When set, renders a Lucide/brand icon instead of the image above.",
+              options: {
+                list: ICON_NAME_OPTIONS,
+              },
             }),
             defineField({
               name: "title",

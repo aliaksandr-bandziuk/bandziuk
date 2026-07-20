@@ -16,7 +16,7 @@ const FadeInOnScroll: React.FC<Props> = ({
   children,
   index = 0,
   yOffset = 40,
-  once = false,
+  once = true,
 }) => {
   const isMounted = useIsMounted();
   const [ref, inView] = useInView({

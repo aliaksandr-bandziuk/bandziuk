@@ -1,0 +1,116 @@
+.postGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  margin-bottom: clamp(3.125rem, 2.5rem + 2.5vw, 4.375rem);
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 64px;
+    align-items: start;
+  }
+}
+
+.articleColumn {
+  min-width: 0;
+
+  @media screen and (min-width: 1024px) {
+    max-width: var(--measure-article);
+  }
+}
+
+// Typography overrides for the article body — scoped here (not in
+// RichText.module.scss) so singlepage/FAQ RichText usages elsewhere are
+// untouched. Element selectors beat RichText's own single-class rules on
+// specificity regardless of source order.
+.articleBody {
+  p {
+    font-size: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem);
+    line-height: 1.75;
+    color: var(--text-reading);
+  }
+
+  h2 {
+    font-family: var(--font-heading);
+    color: var(--text-primary);
+    margin-top: 48px;
+    margin-bottom: 16px;
+    scroll-margin-top: 110px;
+  }
+
+  h3 {
+    font-family: var(--font-heading);
+    color: var(--text-primary);
+    margin-top: 36px;
+    margin-bottom: 12px;
+    scroll-margin-top: 110px;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--accent-strong);
+    }
+  }
+
+  blockquote {
+    max-width: none;
+    text-align: left;
+    font-family: inherit;
+    font-weight: 400;
+    color: var(--text-reading);
+    background: var(--bg-surface);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-sm);
+    padding: 20px 24px;
+    margin: 0 0 25px;
+
+    // hide the decorative pull-quote mark — this is now an AEO callout box,
+    // not a centered quote; the answer text is what matters.
+    > span:first-child {
+      display: none;
+    }
+  }
+
+  img {
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-subtle);
+  }
+
+  ul,
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  ul li::marker,
+  ol li::marker {
+    color: var(--accent);
+  }
+}
+
+.sidebar {
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: block;
+    position: sticky;
+    top: 110px;
+  }
+}
+
+.sidebarCta {
+  width: 100%;
+}
+
+.mobileSidebar {
+  display: block;
+  margin-bottom: 32px;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}

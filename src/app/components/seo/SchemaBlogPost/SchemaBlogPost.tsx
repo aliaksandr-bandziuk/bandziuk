@@ -24,6 +24,22 @@ const SchemaBlogPost: React.FC<SchemaBlogPostProps> = ({ blog, lang }) => {
     ? urlFor(blog.previewImage).url()
     : undefined;
 
+  const author = blog.author;
+  const authorSchema = author
+    ? {
+        "@type": "Person",
+        name: author.name,
+        jobTitle: author.role || undefined,
+        url: `${siteUrl}/about`,
+        sameAs: author.socialLinks?.length
+          ? author.socialLinks.map((link) => link.url)
+          : undefined,
+      }
+    : {
+        "@type": "Person",
+        name: "Aliaksandr Bandziuk",
+      };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -34,17 +50,14 @@ const SchemaBlogPost: React.FC<SchemaBlogPostProps> = ({ blog, lang }) => {
     headline: blog.title,
     description: blog.seo.metaDescription,
     image: imageUrl ? [imageUrl] : undefined,
-    author: {
-      "@type": "Person",
-      name: "Aliaksandr Bandziuk", // или реальный автор
-    },
+    author: authorSchema,
     publisher: {
       "@type": "Organization",
       name: "Aliaksandr Bandziuk",
       url: siteUrl,
     },
     datePublished: blog.publishedAt,
-    dateModified: blog.publishedAt,
+    dateModified: blog._updatedAt || blog.publishedAt,
   };
 
   // FAQPage schema — generated from the same faqBlock that renders on the page,

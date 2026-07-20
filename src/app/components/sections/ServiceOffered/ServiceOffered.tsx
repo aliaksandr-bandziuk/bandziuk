@@ -8,9 +8,18 @@ export type Props = {
   lang: string;
 };
 
+const LABELS: Record<string, string> = {
+  en: "Related Services",
+  pl: "Powiązane usługi",
+  ru: "Похожие услуги",
+};
+
 const ServiceOffered = ({ serviceOffered, lang }: Props) => {
+  const label = LABELS[lang] ?? LABELS.en;
+
   return (
     <div className={styles.serviceOffered}>
+      <p className={styles.eyebrow}>{label}</p>
       <div className={styles.serviceOfferedList}>
         {serviceOffered
           .filter((service) => service.link)

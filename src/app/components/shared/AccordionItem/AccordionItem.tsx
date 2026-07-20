@@ -65,7 +65,6 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
           expanded ? styles.itemBtnExpanded : styles.itemBtnCollapsed
         }`,
         onClick,
-        style: { borderRadius: expanded ? "30px 30px 0 0" : "30px" },
       }}
       contentProps={{ className: styles.itemContent }}
       panelProps={{ className: styles.itemPanel }}

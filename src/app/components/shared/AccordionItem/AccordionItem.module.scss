@@ -1,7 +1,3 @@
-.accordion {
-  margin-bottom: clamp(1.25rem, 0.938rem + 1.25vw, 1.875rem);
-}
-
 .headerFlex {
   display: flex;
   align-items: center;
@@ -10,67 +6,50 @@
   width: 100%;
 }
 
-/* Контейнер иконки */
+/* Toggle icon container */
 .toggleIcon {
   display: inline-flex;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
-/* Сам SVG подгоняем под currentColor */
+/* SVG uses currentColor */
 .icon {
   width: 24px;
   height: 24px;
-  color: #fff;               /* или ваш цвет */
+  color: var(--accent);
   overflow: visible;
 }
 
-/* Общие настройки для обеих планок */
 .icon rect {
   transform-origin: center;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Горизонтальная планка — ничего не меняем */
 .horizontal {
-  /* остаётся размером 16×2px — это “минус” */
+  /* stays 16x2px — this is the "minus" */
 }
 
-/* Вертикальная планка — исчезает */
 .vertical {
   opacity: 1;
   transform: scaleY(1);
 }
 
-/* Состояние “развернуто” — вертикальная ──> scaleY(0) */
 .expanded .vertical {
   opacity: 0;
   transform: scaleY(0);
 }
 
 .item {
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
+  border-bottom: 1px solid var(--border-subtle);
+
+  &:last-child {
+    border-bottom: none;
+  }
 
   button {
     border-radius: 0 !important;
   }
-
-  &:not(:last-child) {
-    margin-bottom: 20px;
-  }
-}
-
-.itemExpanded {
-  border: 1px solid var(--corp-color);
-}
-
-.accordionIcon {
-  transform: rotate(-45deg);
-  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
-}
-
-.accordionIcon.rotate {
-  transform: rotate(-135deg);
 }
 
 .itemBtn {
@@ -79,69 +58,42 @@
   align-items: center;
   width: 100%;
   margin: 0;
-  padding: 10px 20px;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
+  padding: 20px 24px;
+  font-family: var(--font-heading);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.4;
   text-align: left;
-  color: #fff;
-  // background-color: #fff;
+  color: var(--text-primary);
+  background: transparent;
   border: none;
-  border-radius: 0;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--accent);
+  }
 }
-
-// .itemBtn:hover {
-//   // background-color: #f3f3f3;
-// }
-
-// .itemBtnExpanded {
-//   // background-color: #e7e7e7;
-// }
 
 .itemContent {
   transition: height 0.25s cubic-bezier(0, 0, 0, 1);
 }
 
 .itemPanel {
-  padding: 10px 45px 30px 20px;
-  line-height: 150%;
-  color: #fff;
+  padding: 0 24px 20px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-secondary);
   width: 100%;
 
-  p {
-    font-size: 18px;
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.8);
-  }
-
-  @media screen and (max-width: 1024px){
-    width: 80%;
-  }
-
-  @media screen and (max-width: 980px){
-    width: 90%;
-  }
-
-  @media screen and (max-width: 768px){
-    width: 100%;
+  a {
+    color: var(--accent);
   }
 }
-
-.itemBtnExpanded .chevron {
-  transform: rotate(180deg);
-}
-
-// .item p {
-//   // color: red;
-// }
 
 .itemBtnExpanded {
-  // background-color: #fff;
-  color: #fff;
+  color: var(--text-primary);
 }
 
 .itemBtnCollapsed {
-  // background-color: #fff;
-  color: #fff;
+  color: var(--text-primary);
 }

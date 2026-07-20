@@ -42,6 +42,7 @@ import formFullBlock from "./formFullBlock";
 import landingCtaBlock from "./landingCtaBlock";
 import stepsBlock from "./stepsBlock";
 import relatedServicesBlock from "./relatedServicesBlock";
+import author from "./author";
 
 export const schemaTypes = [
   header,
@@ -55,6 +56,7 @@ export const schemaTypes = [
   projectCategory,
   service,
   technology,
+  author,
   footer,
   formStandard,
   formStandardDocument,

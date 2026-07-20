@@ -554,10 +554,26 @@ export async function getBlogPostByLang(
         metaDescription
       },
       publishedAt,
+      _updatedAt,
       category->{
         _id,
         title,
         slug
+      },
+      author->{
+        _id,
+        name,
+        role,
+        bio,
+        photo {
+          asset->{
+            _id,
+            url,
+            metadata { dimensions { width, height } }
+          },
+          alt
+        },
+        socialLinks
       },
       previewImage {
         asset->{

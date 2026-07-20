@@ -38,6 +38,11 @@ import BreadcrumbsBlog from "@/app/components/layout/BreadcrumbsBlog/Breadcrumbs
 import BlogIntro from "@/app/components/layout/BlogIntro/BlogIntro";
 import RelatedArticle from "@/app/components/ui/RelatedArticle/RelatedArticle";
 import ServiceOffered from "@/app/components/sections/ServiceOffered/ServiceOffered";
+import TableOfContents from "@/app/components/layout/TableOfContents/TableOfContents";
+import Button from "@/app/components/ui/Button/Button";
+import AuthorCard from "@/app/components/ui/AuthorCard/AuthorCard";
+import { extractH2Headings } from "@/utils/tableOfContents";
+import styles from "./page.module.scss";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -187,6 +192,14 @@ const PagePost = async ({ params }: Props) => {
   };
 
   const currentPostId = blog._id;
+  const headings = extractH2Headings(blog.contentBlocks);
+
+  const contactCtaLabel =
+    lang === "pl"
+      ? "Skontaktuj się ze mną"
+      : lang === "ru"
+        ? "Связаться со мной"
+        : "Get in touch";
 
   return (
     <>
@@ -204,33 +217,43 @@ const PagePost = async ({ params }: Props) => {
           categoryTitle={blog.category.title}
           date={blog.publishedAt}
           previewImage={blog.previewImage}
+          author={blog.author}
         />
         <div className="container">
-          <div className="post-grid">
-            <div className="post-content">
-              <article>
+          {headings.length > 0 && (
+            <div className={styles.mobileSidebar}>
+              <TableOfContents headings={headings} variant="mobile" lang={lang} />
+            </div>
+          )}
+          <div className={styles.postGrid}>
+            <div className={styles.articleColumn}>
+              <article className={styles.articleBody}>
                 {blog.contentBlocks &&
                   blog.contentBlocks.map((block) => renderContentBlock(block))}
               </article>
-              {/* <BlogButtonWrapper>
-                <LinkPrimary href={`/${lang}/blog`}>
-                  {lang === "en"
-                    ? "Back to all articles"
-                    : "Вернуться ко всем статьям"}
-                </LinkPrimary>
-              </BlogButtonWrapper> */}
-            </div>
-            <div className="post-content sidebar">
-              <aside className="aside">
-                {blog.serviceOffered && blog.serviceOffered.length > 0 && (
+              {blog.serviceOffered && blog.serviceOffered.length > 0 && (
+                <div className={styles.mobileSidebar}>
                   <ServiceOffered
                     serviceOffered={blog.serviceOffered}
                     lang={lang}
                   />
-                )}
-              </aside>
+                </div>
+              )}
             </div>
+            <aside className={styles.sidebar}>
+              <TableOfContents headings={headings} variant="sidebar" lang={lang} />
+              {blog.serviceOffered && blog.serviceOffered.length > 0 && (
+                <ServiceOffered
+                  serviceOffered={blog.serviceOffered}
+                  lang={lang}
+                />
+              )}
+              <Button href={`/${lang === "en" ? "" : lang + "/"}contacts`} variant="secondary" className={styles.sidebarCta}>
+                {contactCtaLabel}
+              </Button>
+            </aside>
           </div>
+          {blog.author && <AuthorCard author={blog.author} lang={lang} />}
           {blog.relatedArticles && blog.relatedArticles.length > 0 && (
             <div className="related-articles-section">
               <h2>

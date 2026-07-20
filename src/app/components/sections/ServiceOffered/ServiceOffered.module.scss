@@ -1,30 +1,33 @@
 .serviceOffered {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  padding: 10px;
-  height: 100%;
-  transition: all 0.3s ease-in-out;
+  border-left: 1px solid var(--border-subtle);
+  padding-left: 16px;
+  margin-bottom: 40px;
+}
 
-  @media screen and (min-width: 768px) {
-    padding: 16px;
-  }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-tertiary);
+  margin: 0 0 12px;
 }
 
 .serviceOfferedList {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .serviceOfferedLink {
   color: var(--text-secondary);
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 300;
-  transition: color 0.3s ease-in-out;
+  font-size: 14px;
+  line-height: 1.4;
+  transition: color 0.2s ease;
 
   &:hover {
-    color: #fff;
+    color: var(--accent);
   }
 }

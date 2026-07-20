@@ -421,13 +421,30 @@ export type RelatedArticle = {
   previewImage: Image;
 };
 
+export type AuthorSocialLink = {
+  _key: string;
+  platform: "linkedin" | "facebook" | "whatsapp";
+  url: string;
+};
+
+export type Author = {
+  _id: string;
+  name: string;
+  role?: string;
+  bio?: string;
+  photo?: ImageAlt;
+  socialLinks?: AuthorSocialLink[];
+};
+
 export type Blog = {
   _id: string;
   _type: string;
   title: string;
   seo: Seo;
   publishedAt: string;
+  _updatedAt?: string;
   category: Category;
+  author?: Author;
   previewImage: ImageAlt;
   excerpt: string;
   contentBlocks: Array<

@@ -1,3 +1,13 @@
+// Tighter wrapper for the reading area (intro/hero keeps the site-wide
+// .container) so the article + sidebar fill the width without a big dead
+// gap between the (measure-capped) text column and the sidebar. Scoped to
+// this page only — the global .container is untouched.
+.pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .postGrid {
   display: grid;
   grid-template-columns: 1fr;
@@ -6,7 +16,7 @@
 
   @media screen and (min-width: 1024px) {
     grid-template-columns: minmax(0, 1fr) 300px;
-    gap: 64px;
+    gap: 56px;
     align-items: start;
   }
 }
@@ -53,6 +63,22 @@
     &:hover {
       color: var(--accent-strong);
     }
+  }
+
+  strong {
+    color: var(--text-primary);
+  }
+
+  // Element selectors (not class names) so this reaches list item text
+  // regardless of which RichText renderer produced it — the checkmark/arrow
+  // bullet list (RichText's .customBulletList) sets its own `li { color:
+  // #fff }`, which ties on specificity with a single-class rule; going
+  // through `ul`/`ol` here (class + 2 elements) reliably outranks it.
+  ul li,
+  ol li {
+    color: var(--text-reading);
+    font-size: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem);
+    line-height: 1.75;
   }
 
   blockquote {

@@ -219,7 +219,7 @@ const PagePost = async ({ params }: Props) => {
           previewImage={blog.previewImage}
           author={blog.author}
         />
-        <div className="container">
+        <div className={styles.pageContainer}>
           {headings.length > 0 && (
             <div className={styles.mobileSidebar}>
               <TableOfContents headings={headings} variant="mobile" lang={lang} />

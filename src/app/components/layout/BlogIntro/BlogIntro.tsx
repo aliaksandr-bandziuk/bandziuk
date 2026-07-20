@@ -27,18 +27,18 @@ const BlogIntro: FC<Props> = ({
     return parsedDate.toLocaleDateString("en-GB").replace(/\//g, ".");
   };
 
+  const metaParts: React.ReactNode[] = [];
+  if (author?.role) metaParts.push(author.role);
+  if (categoryTitle) metaParts.push(categoryTitle);
+  if (date) metaParts.push(formatDate(date));
+
   return (
     <section className={styles.blogIntro}>
       <div className="container">
         <div className={styles.blogIntroWrapper}>
           <div className={styles.blogIntroContent}>
-            <div className={styles.data}>
-              {categoryTitle && (
-                <div className={styles.category}>{categoryTitle}</div>
-              )}
-            </div>
             <h1 className={styles.blogHeading}>{title}</h1>
-            {(author?.name || date) && (
+            {(author?.name || metaParts.length > 0) && (
               <div className={styles.byline}>
                 {author?.photo && (
                   <Image
@@ -53,19 +53,25 @@ const BlogIntro: FC<Props> = ({
                 {author?.name && (
                   <span className={styles.bylineName}>{author.name}</span>
                 )}
-                {author?.role && (
-                  <span className={styles.bylineRole}>{author.role}</span>
-                )}
-                {date && (
-                  <>
-                    {author?.name && (
+                {metaParts.map((part, index) => (
+                  <React.Fragment key={index}>
+                    {(author?.name || index > 0) && (
                       <span className={styles.bylineDot} aria-hidden="true">
                         &bull;
                       </span>
                     )}
-                    <span className={styles.bylineDate}>{formatDate(date)}</span>
-                  </>
-                )}
+                    <span
+                      className={
+                        // category reads as a quiet mono label; role/date stay plain
+                        categoryTitle && part === categoryTitle
+                          ? styles.bylineCategory
+                          : styles.bylineMeta
+                      }
+                    >
+                      {part}
+                    </span>
+                  </React.Fragment>
+                ))}
               </div>
             )}
             <p className={styles.excerpt}>{excerpt}</p>

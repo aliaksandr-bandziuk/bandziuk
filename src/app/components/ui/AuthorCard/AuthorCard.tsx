@@ -27,32 +27,41 @@ const AuthorCard: React.FC<Props> = ({ author, lang }) => {
           <Image
             src={urlFor(author.photo).url()}
             alt={author.photo.alt ?? author.name}
-            width={64}
-            height={64}
+            width={48}
+            height={48}
             unoptimized
             className={styles.avatar}
           />
         )}
         <div className={styles.text}>
-          <p className={styles.name}>{author.name}</p>
-          {author.role && <p className={styles.role}>{author.role}</p>}
+          <div className={styles.nameRow}>
+            <span className={styles.name}>{author.name}</span>
+            {author.role && (
+              <>
+                <span className={styles.roleDot} aria-hidden="true">
+                  &bull;
+                </span>
+                <span className={styles.role}>{author.role}</span>
+              </>
+            )}
+            {author.socialLinks && author.socialLinks.length > 0 && (
+              <div className={styles.social}>
+                {author.socialLinks.map((link) => (
+                  <a
+                    key={link._key}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={link.platform}
+                    className={styles.socialLink}
+                  >
+                    <Icon name={link.platform} size={16} />
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
           {author.bio && <p className={styles.bio}>{author.bio}</p>}
-          {author.socialLinks && author.socialLinks.length > 0 && (
-            <div className={styles.social}>
-              {author.socialLinks.map((link) => (
-                <a
-                  key={link._key}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={link.platform}
-                  className={styles.socialLink}
-                >
-                  <Icon name={link.platform} size={18} />
-                </a>
-              ))}
-            </div>
-          )}
         </div>
       </div>
     </div>

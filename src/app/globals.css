@@ -92,7 +92,7 @@ table {
   --text-reading: #d4d4d8;
 
   /* Long-form reading measure */
-  --measure-article: 700px;
+  --measure-article: 760px;
 
   /* Accent — single hue */
   --accent: rgb(255, 138, 60);

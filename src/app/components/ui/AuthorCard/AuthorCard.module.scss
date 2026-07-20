@@ -1,8 +1,9 @@
 .card {
+  max-width: var(--measure-article);
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 24px;
+  padding: 22px;
   margin-bottom: clamp(2.5rem, 1.563rem + 3.75vw, 4.375rem);
 }
 
@@ -13,58 +14,69 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-tertiary);
-  margin: 0 0 16px;
+  margin: 0 0 10px;
 }
 
 .content {
   display: flex;
-  gap: 16px;
+  gap: 14px;
 }
 
 .avatar {
   flex-shrink: 0;
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .text {
   min-width: 0;
+  flex: 1;
+}
+
+.nameRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
 .name {
   font-family: var(--font-heading);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--text-primary);
-  margin: 0;
+}
+
+.roleDot {
+  color: var(--text-tertiary);
+  font-size: 13px;
 }
 
 .role {
   font-size: 13px;
   color: var(--text-tertiary);
-  margin: 4px 0 0;
 }
 
 .bio {
-  font-size: 15px;
+  font-size: 14.5px;
   line-height: 1.6;
   color: var(--text-secondary);
-  margin: 12px 0 0;
+  margin: 6px 0 0;
 }
 
 .social {
   display: flex;
-  gap: 10px;
-  margin-top: 14px;
+  gap: 8px;
+  margin-left: auto;
 }
 
 .socialLink {
   display: grid;
   place-items: center;
-  width: 32px;
-  height: 32px;
+  width: 26px;
+  height: 26px;
   border-radius: var(--radius-sm);
   background: var(--accent-muted);
   color: var(--accent);

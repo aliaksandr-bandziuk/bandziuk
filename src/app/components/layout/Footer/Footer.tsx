@@ -12,6 +12,9 @@ import { FormStandardDocument } from "@/types/formStandardDocument";
 type Props = {
   params: { lang: string };
   formDocument: FormStandardDocument;
+  // /contacts already renders its own full contact form mid-page — showing
+  // this same band again right above the footer would be a duplicate ask.
+  hideContactBand?: boolean;
 };
 
 const ParticlesBackground = dynamic(
@@ -21,7 +24,7 @@ const ParticlesBackground = dynamic(
   }
 );
 
-const Footer = async ({ params, formDocument }: Props) => {
+const Footer = async ({ params, formDocument, hideContactBand }: Props) => {
   const data = await getFooterByLang(params.lang);
 
   const { logo, socialLinks, footerColumns, copyright, finalText } = data;
@@ -33,11 +36,13 @@ const Footer = async ({ params, formDocument }: Props) => {
 
   return (
     <>
-      <Contacts
-        contacts={data?.contactsSection}
-        lang={params.lang}
-        formDocument={formDocument}
-      />
+      {!hideContactBand && (
+        <Contacts
+          contacts={data?.contactsSection}
+          lang={params.lang}
+          formDocument={formDocument}
+        />
+      )}
       <footer className={styles.footer} id="footer">
         <div className={styles.particlesWrapper}>
           <ParticlesBackground />

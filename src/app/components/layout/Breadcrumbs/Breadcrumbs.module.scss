@@ -1,38 +1,24 @@
-.breadcrumbs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  color: var(--text-tertiary);
-  // The route wrapper's own top padding on the first section only supplies
-  // half the section-rhythm gap (44/28px) — this margin supplies the other
-  // half so breadcrumbs -> first section reads as a full 88/56px break,
-  // same as every other section boundary on the page.
-  margin-bottom: 28px;
+@use "../../shared/breadcrumbs/breadcrumbs" as breadcrumbs;
 
-  @media screen and (min-width: 768px) {
-    margin-bottom: 44px;
-  }
+.breadcrumbs {
+  @include breadcrumbs.breadcrumb-nav;
+  justify-content: center;
+  // Small gap to the H1 that follows, inside the hero's own content column —
+  // not a section-rhythm boundary anymore now that this trail lives inside
+  // the hero rather than between it and the first section.
+  margin-bottom: 16px;
 }
 
 .breadcrumb {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  @include breadcrumbs.breadcrumb-list;
 }
 
 .breadcrumbItem {
-  display: flex;
-  align-items: center;
+  @include breadcrumbs.breadcrumb-item;
 }
 
 .breadcrumbItem::after {
-  content: "/";
-  margin: 0 8px;
-  color: var(--border-strong);
+  @include breadcrumbs.breadcrumb-separator;
 }
 
 .breadcrumbItem:last-child::after {

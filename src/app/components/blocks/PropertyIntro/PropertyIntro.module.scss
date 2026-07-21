@@ -1,6 +1,16 @@
 .popertyIntro {
   // margin-top: 70px;
-  margin-bottom: 20px;
+  // Breadcrumbs used to sit between the hero and the first section,
+  // contributing half the section-rhythm gap themselves (see
+  // Breadcrumbs.module.scss's old history). Now that they live inside the
+  // hero, this margin alone must supply the wrapper's own per-side rhythm
+  // value so hero -> first section still reads as a full 88/56px break.
+  margin-bottom: 28px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 44px;
+  }
+
   position: relative;
   width: 100%;
   height: 100dvh;
@@ -28,6 +38,17 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+}
+
+// Applied when the first content block after this hero is a banded one
+// (bg-surface card) — its own internal padding provides the air instead,
+// so the hero should sit flush against it with no bg-base strip between.
+.noBottomGap {
+  margin-bottom: 0 !important;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0 !important;
   }
 }
 

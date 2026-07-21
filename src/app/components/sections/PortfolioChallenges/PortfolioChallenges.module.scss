@@ -27,10 +27,11 @@
 }
 
 .challengeTitle {
+  font-family: var(--font-heading);
   font-size: clamp(1.25rem, 1.125rem + 0.5vw, 1.5rem);
   font-weight: 500;
   margin-bottom: 20px;
-  color: var(--corp-color)
+  color: var(--text-primary);
 }
 
 .challengeContent {

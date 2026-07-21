@@ -42,37 +42,35 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
   ];
 
   return (
-    <div className="container">
-      <nav
-        aria-label="breadcrumb"
-        className={styles.breadcrumbs}
-        itemScope
-        itemType="https://schema.org/BreadcrumbList"
-      >
-        <ol className={styles.breadcrumb}>
-          {crumbs.map((crumb, idx) => (
-            <li
-              key={idx}
-              className={`${styles.breadcrumbItem} ${
-                idx === crumbs.length - 1 ? styles.breadcrumbItemActive : ""
-              }`}
-              itemProp="itemListElement"
-              itemScope
-              itemType="https://schema.org/ListItem"
-            >
-              {idx < crumbs.length - 1 ? (
-                <Link href={crumb.href} itemProp="item">
-                  <span itemProp="name">{crumb.name}</span>
-                </Link>
-              ) : (
+    <nav
+      aria-label="breadcrumb"
+      className={styles.breadcrumbs}
+      itemScope
+      itemType="https://schema.org/BreadcrumbList"
+    >
+      <ol className={styles.breadcrumb}>
+        {crumbs.map((crumb, idx) => (
+          <li
+            key={idx}
+            className={`${styles.breadcrumbItem} ${
+              idx === crumbs.length - 1 ? styles.breadcrumbItemActive : ""
+            }`}
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            {idx < crumbs.length - 1 ? (
+              <Link href={crumb.href} itemProp="item">
                 <span itemProp="name">{crumb.name}</span>
-              )}
-              <meta itemProp="position" content={String(idx + 1)} />
-            </li>
-          ))}
-        </ol>
-      </nav>
-    </div>
+              </Link>
+            ) : (
+              <span itemProp="name">{crumb.name}</span>
+            )}
+            <meta itemProp="position" content={String(idx + 1)} />
+          </li>
+        ))}
+      </ol>
+    </nav>
   );
 };
 

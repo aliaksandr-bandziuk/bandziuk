@@ -1,32 +1,26 @@
+@use "../../shared/breadcrumbs/breadcrumbs" as breadcrumbs;
+
 .breadcrumbs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 300;
-  color: var(--text-secondary);
+  @include breadcrumbs.breadcrumb-nav;
+  justify-content: flex-start;
+  // Header is position:fixed with a solid background — this page has no
+  // full-height hero to clear it the way PropertyIntro's vertical centering
+  // does, so the breadcrumb trail (the first thing in normal flow) still
+  // needs its own top offset.
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
 .breadcrumb {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  @include breadcrumbs.breadcrumb-list;
 }
 
 .breadcrumbItem {
-  display: flex;
-  align-items: center;
+  @include breadcrumbs.breadcrumb-item;
 }
 
 .breadcrumbItem::after {
-  content: "/";
-  margin: 0 8px;
-  color: var(--text-secondary);
+  @include breadcrumbs.breadcrumb-separator;
 }
 
 .breadcrumbItem:last-child::after {

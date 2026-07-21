@@ -6,9 +6,14 @@ import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 
 type Props = {
   faqSection: FaqSection;
+  // The singlepage route's own .sectionRhythm wrapper already owns vertical
+  // rhythm — this component is also reused directly by the homepage (which
+  // has no such wrapper and needs its own outer spacing), so the margin
+  // stays the default and only the singlepage caller opts out of it.
+  noOuterMargin?: boolean;
 };
 
-const FaqHomepage: FC<Props> = ({ faqSection }) => {
+const FaqHomepage: FC<Props> = ({ faqSection, noOuterMargin }) => {
   const { title, pretitle, subtitle, faq } = faqSection;
 
   if (!faq) {
@@ -16,7 +21,11 @@ const FaqHomepage: FC<Props> = ({ faqSection }) => {
   }
 
   return (
-    <section className={styles.faqSection}>
+    <section
+      className={[styles.faqSection, noOuterMargin ? styles.noOuterMargin : ""]
+        .filter(Boolean)
+        .join(" ")}
+    >
       <div className="container">
         <div className={styles.content}>
           {pretitle ||

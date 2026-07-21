@@ -18,6 +18,7 @@ import { urlFor } from "@/sanity/sanity.client";
 import { ModalButton } from "../../ui/Button/ModalButton";
 import ResponsiveMedia from "../../ui/ResponsiveMedia/ResponsiveMedia";
 import WhatsAppButton from "../../ui/WhatsAppButton/WhatsAppButton";
+import Breadcrumbs from "../../layout/Breadcrumbs/Breadcrumbs";
 
 type Props = {
   title: string;
@@ -26,6 +27,8 @@ type Props = {
   videoId?: string;
   videoPreview?: ImageAlt;
   lang: string;
+  segments?: string[];
+  collapseBottomGap?: boolean;
 };
 
 const PropertyIntro: FC<Props> = ({
@@ -35,9 +38,15 @@ const PropertyIntro: FC<Props> = ({
   videoId,
   videoPreview,
   lang,
+  segments,
+  collapseBottomGap,
 }) => {
   return (
-    <section className={styles.popertyIntro}>
+    <section
+      className={[styles.popertyIntro, collapseBottomGap ? styles.noBottomGap : ""]
+        .filter(Boolean)
+        .join(" ")}
+    >
       <div className={styles.overlayFull}></div>
       <ResponsiveMedia
         title={title}
@@ -49,6 +58,9 @@ const PropertyIntro: FC<Props> = ({
         {/* <div className={styles.overlay}></div> */}
         <div className={styles.content}>
           <div className={styles.contentWrapper}>
+            {segments && segments.length > 0 && (
+              <Breadcrumbs lang={lang} segments={segments} currentTitle={title} />
+            )}
             <h1 className={styles.title}>{title}</h1>
             <p className={styles.description}>{excerpt}</p>
             <div className={styles.button}>

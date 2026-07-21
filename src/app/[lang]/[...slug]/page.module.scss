@@ -19,3 +19,16 @@
 .sectionBanded {
   background: var(--bg-surface);
 }
+
+// When the first content block after the hero is SELF-banded (its own
+// component already draws a bg-surface card — landingCtaBlock, the form
+// blocks), this wrapper's own padding-top would just be extra invisible
+// bg-base air before that card's own colored box starts. Zero it here so
+// the card's own internal padding is the only air, and pair with
+// PropertyIntro's own collapsed bottom margin so the two sides meet with
+// no bg-base strip between them. Wrapper-banded first blocks (tableBlock,
+// serviceFeaturesBlock) do NOT get this — for those the wrapper itself is
+// what turns bg-surface, so its padding-top IS the internal air.
+.noPaddingTop {
+  padding-top: 0 !important;
+}

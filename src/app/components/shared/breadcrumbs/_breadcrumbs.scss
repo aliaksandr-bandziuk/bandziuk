@@ -1,0 +1,35 @@
+// Shared visual spec for every breadcrumb trail on the site (Breadcrumbs,
+// BreadcrumbsBlog, BreadcrumbsPortfolio) — each keeps its own route-specific
+// crumb-building logic in its .tsx, this file is the single source for how
+// a breadcrumb trail looks. Quiet utility navigation: small, muted, never
+// competing with the H1 that follows it.
+
+// Alignment is left to each consumer (left-aligned inside a hero vs.
+// centered in a plain content column are both legitimate layouts) — this
+// covers only the shared visual identity: size, color, spacing rhythm.
+@mixin breadcrumb-nav {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+
+@mixin breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+@mixin breadcrumb-separator {
+  content: "/";
+  margin: 0 8px;
+  color: var(--border-strong);
+}

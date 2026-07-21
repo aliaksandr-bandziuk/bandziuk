@@ -2,6 +2,13 @@
   margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
 }
 
+// The singlepage route's own .sectionRhythm wrapper owns vertical rhythm —
+// this escaped the original per-block margin audit since faqBlock renders
+// through this shared component rather than its own block file.
+.noOuterMargin {
+  margin-bottom: 0;
+}
+
 .text {
   display: flex;
   flex-direction: column;

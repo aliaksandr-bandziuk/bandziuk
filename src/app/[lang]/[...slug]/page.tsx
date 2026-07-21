@@ -49,7 +49,6 @@ import AccordionContainer from "@/app/components/shared/AccordionContainer/Accor
 import Header from "@/app/components/layout/Header/Header";
 import Footer from "@/app/components/layout/Footer/Footer";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
-import Breadcrumbs from "@/app/components/layout/Breadcrumbs/Breadcrumbs";
 import PropertyIntro from "@/app/components/blocks/PropertyIntro/PropertyIntro";
 import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/TableBlockComponent";
 import ServiceFeaturesBlockComponent from "@/app/components/blocks/ServiceFeaturesBlockComponent/ServiceFeaturesBlockComponent";
@@ -415,7 +414,9 @@ const SinglePage = async ({ params }: Props) => {
           faq: fb.faq,
         };
 
-        return <FaqHomepage key={fb._key} faqSection={faqSection} />;
+        return (
+          <FaqHomepage key={fb._key} faqSection={faqSection} noOuterMargin />
+        );
       }
       case "contactMethodsBlock":
         return (
@@ -434,25 +435,38 @@ const SinglePage = async ({ params }: Props) => {
     }
   };
 
+  // Wrapper-banded: the wrapper div itself turns bg-surface, so its own
+  // padding-top remains the internal air. Self-banded: the block's own
+  // component already draws a bg-surface card, so the wrapper's padding-top
+  // (which would just be extra invisible bg-base space before that card)
+  // gets zeroed for the first block instead.
+  const WRAPPER_BANDED_TYPES = new Set(["tableBlock", "serviceFeaturesBlock"]);
+  const SELF_BANDED_TYPES = new Set([
+    "landingCtaBlock",
+    "formMinimalBlock",
+    "formFullBlock",
+  ]);
+  const hasHero = Boolean(page.previewImage && page.allowIntroBlock);
+  const firstBlockType = allBlocks[0]?._type;
+  const firstBlockIsWrapperBanded =
+    hasHero && !!firstBlockType && WRAPPER_BANDED_TYPES.has(firstBlockType);
+  const firstBlockIsSelfBanded =
+    hasHero && !!firstBlockType && SELF_BANDED_TYPES.has(firstBlockType);
+
   return (
     <>
       <Header params={params} translations={translations} />
       <StructuredData {...structuredDataProps} />
       <main className="singlepage">
-        {page.previewImage && page.allowIntroBlock && (
-          <>
-            <PropertyIntro
-              title={page.title}
-              previewImage={page.previewImage}
-              excerpt={page.excerpt}
-              lang={lang}
-            />
-            <Breadcrumbs
-              lang={lang}
-              segments={params.slug}
-              currentTitle={page.title}
-            />
-          </>
+        {hasHero && (
+          <PropertyIntro
+            title={page.title}
+            previewImage={page.previewImage}
+            excerpt={page.excerpt}
+            lang={lang}
+            segments={params.slug}
+            collapseBottomGap={firstBlockIsWrapperBanded || firstBlockIsSelfBanded}
+          />
         )}
         {page.pageType === "servicesIndex" && (
           <ServiceList
@@ -461,15 +475,20 @@ const SinglePage = async ({ params }: Props) => {
             parentSlug={page.slug[lang]?.current}
           />
         )}
-        {allBlocks.map((block) => {
+        {allBlocks.map((block, index) => {
           // "Proof" sections get a surface band so long pages read as
           // chapters — same treatment landingCtaBlock already has.
-          const isBanded =
-            block._type === "tableBlock" || block._type === "serviceFeaturesBlock";
+          const isBanded = WRAPPER_BANDED_TYPES.has(block._type);
+          const isFirstSelfBanded =
+            index === 0 && firstBlockIsSelfBanded && SELF_BANDED_TYPES.has(block._type);
           return (
             <div
               key={block._key}
-              className={[styles.sectionRhythm, isBanded ? styles.sectionBanded : ""]
+              className={[
+                styles.sectionRhythm,
+                isBanded ? styles.sectionBanded : "",
+                isFirstSelfBanded ? styles.noPaddingTop : "",
+              ]
                 .filter(Boolean)
                 .join(" ")}
             >
@@ -478,7 +497,11 @@ const SinglePage = async ({ params }: Props) => {
           );
         })}
       </main>
-      <Footer params={params} formDocument={formDocument} />
+      <Footer
+        params={params}
+        formDocument={formDocument}
+        hideContactBand={allBlocks.some((b) => b._type === "contactMethodsBlock")}
+      />
       <ModalFull lang={lang} formDocument={formDocument} />
       <FloatingWhatsAppButton lang={lang} />
     </>

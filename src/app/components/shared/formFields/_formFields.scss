@@ -30,6 +30,17 @@
   }
 }
 
+// react-phone-number-input's className prop lands on the OUTER wrapper div,
+// not the actual <input> — so the input-field mixin's own &:focus never
+// fires (focus lands on the descendant input, not this element). Use
+// :focus-within instead so the phone field's focus border matches every
+// other field.
+@mixin phone-input-focus {
+  &:focus-within {
+    border-color: var(--accent);
+  }
+}
+
 @mixin input-label {
   display: block;
   font-size: 1rem;

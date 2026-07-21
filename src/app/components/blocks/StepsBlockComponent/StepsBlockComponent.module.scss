@@ -1,5 +1,8 @@
 .stepsBlock {
-  margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
+  // Outer vertical spacing is owned solely by the route-level
+  // .sectionRhythm wrapper. The Sanity-driven marginTop/marginBottom
+  // (applied inline from the block's own fields) stays — that's an
+  // editor-controlled extra, not a hardcoded default.
 }
 
 .heading {

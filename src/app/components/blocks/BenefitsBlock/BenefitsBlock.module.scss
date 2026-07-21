@@ -1,6 +1,6 @@
 .benefitsBlock {
-  padding-top: clamp(2.813rem, 1.563rem + 6.25vw, 6.25rem);
-  padding-bottom: clamp(2.813rem, 1.563rem + 6.25vw, 6.25rem);
+  // Outer vertical spacing is owned solely by the route-level
+  // .sectionRhythm wrapper — don't reintroduce it here.
 }
 
 .heading {

@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import styles from "./LandingCtaBlock.module.scss";
 import Image from "next/image";
 import { ModalButton } from "../../ui/Button/ModalButton";
+import WhatsAppButton from "../../ui/WhatsAppButton/WhatsAppButton";
 
 type Props = {
   lang: string;
@@ -64,6 +65,7 @@ const LandingCtaBlock: FC<Props> = ({ lang }) => {
               <ModalButton variant="primary" size="lg">
                 {t.button}
               </ModalButton>
+              <WhatsAppButton lang={lang} placement="cta_band" variant="secondary" size="lg" />
             </div>
           </div>
           <div className={styles.imageWrap}>

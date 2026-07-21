@@ -1,6 +1,7 @@
 // app/[lang]/[[...slug]]/page.tsx
 import React from "react";
 import { groq } from "next-sanity";
+import styles from "./page.module.scss";
 import { notFound } from "next/navigation";
 import { client } from "@/sanity/sanity.client";
 import { i18n } from "@/i18n.config";
@@ -69,6 +70,7 @@ import LandingCtaBlock from "@/app/components/blocks/LandingCtaBlock/LandingCtaB
 import StepsBlockComponent from "@/app/components/blocks/StepsBlockComponent/StepsBlockComponent";
 import RelatedServicesBlockComponent from "@/app/components/blocks/RelatedServicesBlockComponent/RelatedServicesBlockComponent";
 import ReviewsFullBlockComponent from "@/app/components/blocks/ReviewsFullBlockComponent/ReviewsFullBlockComponent";
+import FloatingWhatsAppButton from "@/app/components/ui/FloatingWhatsAppButton/FloatingWhatsAppButton";
 
 type Props = {
   params: {
@@ -459,10 +461,26 @@ const SinglePage = async ({ params }: Props) => {
             parentSlug={page.slug[lang]?.current}
           />
         )}
-        {allBlocks.map(renderContentBlock)}
+        {allBlocks.map((block) => {
+          // "Proof" sections get a surface band so long pages read as
+          // chapters — same treatment landingCtaBlock already has.
+          const isBanded =
+            block._type === "tableBlock" || block._type === "serviceFeaturesBlock";
+          return (
+            <div
+              key={block._key}
+              className={[styles.sectionRhythm, isBanded ? styles.sectionBanded : ""]
+                .filter(Boolean)
+                .join(" ")}
+            >
+              {renderContentBlock(block)}
+            </div>
+          );
+        })}
       </main>
       <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={lang} formDocument={formDocument} />
+      <FloatingWhatsAppButton lang={lang} />
     </>
   );
 };

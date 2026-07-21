@@ -1,9 +1,7 @@
 import React, { FC } from "react";
-import Image from "next/image";
-import { PortableText } from "@portabletext/react";
 import { ReviewsFullBlock } from "@/types/blog";
-import { urlFor } from "@/sanity/sanity.client";
-import { RichText } from "../../shared/RichText/RichText";
+import { ReviewItem } from "@/types/homepage";
+import ReviewsPanel from "../../shared/ReviewsPanel/ReviewsPanel";
 import styles from "./ReviewsFullBlockComponent.module.scss";
 
 type Props = {
@@ -11,42 +9,32 @@ type Props = {
 };
 
 const ReviewsFullBlockComponent: FC<Props> = ({ block }) => {
-  const { title, reviews } = block;
+  const { title, pretitle, subtitle, reviews } = block;
 
   if (!reviews?.length) return null;
+
+  // Same panel the homepage reviews section uses — map this block's own
+  // field names (text) onto ReviewItem's shape (reviewText) rather than
+  // reimplementing the presentation here.
+  const sliderReviews: ReviewItem[] = reviews.map((review) => ({
+    _key: review._key,
+    _type: "review",
+    image: review.image,
+    reviewText: review.text,
+    name: review.name,
+    position: review.position ?? "",
+    country: review.country ?? "",
+  }));
 
   return (
     <section className={styles.reviewsFullBlock}>
       <div className="container">
-        {title && (
-          <h2 className={styles.title}>{title}</h2>
-        )}
-        <ul className={styles.reviews}>
-          {reviews.map((review) => (
-            <li key={review._key} className={styles.review}>
-              {review.text && (
-                <div className={styles.reviewText}>
-                  <PortableText value={review.text} components={RichText} />
-                </div>
-              )}
-              <div className={styles.author}>
-                {review.image && (
-                  <div className={styles.authorAvatar}>
-                    <Image
-                      src={urlFor(review.image).url()}
-                      alt={review.image.alt ?? review.name}
-                      width={64}
-                      height={64}
-                      unoptimized
-                      className={styles.authorImage}
-                    />
-                  </div>
-                )}
-                <p className={styles.authorName}>{review.name}</p>
-              </div>
-            </li>
-          ))}
-        </ul>
+        <ReviewsPanel
+          pretitle={pretitle}
+          title={title}
+          subtitle={subtitle}
+          reviews={sliderReviews}
+        />
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 .bulletsBlock {
-  margin-bottom: clamp(1.875rem, 0.284rem + 7.95vw, 6.25rem);
+  // Outer vertical spacing is owned solely by the route-level
+  // .sectionRhythm wrapper — don't reintroduce it here.
 }
 
 .heading {

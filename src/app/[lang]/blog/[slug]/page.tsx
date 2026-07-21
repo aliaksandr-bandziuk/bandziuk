@@ -36,7 +36,6 @@ import FormMinimalBlockComponent from "@/app/components/blocks/FormMinimalBlockC
 import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/TableBlockComponent";
 import Header from "@/app/components/layout/Header/Header";
 import SchemaBlogPost from "@/app/components/seo/SchemaBlogPost/SchemaBlogPost";
-import FormStatic from "@/app/components/forms/FormStatic/FormStatic";
 import Footer from "@/app/components/layout/Footer/Footer";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
 import BreadcrumbsBlog from "@/app/components/layout/BreadcrumbsBlog/BreadcrumbsBlog";

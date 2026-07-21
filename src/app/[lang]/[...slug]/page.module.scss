@@ -1,0 +1,21 @@
+// Wrapper-level rhythm for the singlepage block renderer — a consistent
+// vertical scale so long landing pages read as chapters, without touching
+// every block component's own (Sanity-driven) marginTop/marginBottom
+// logic. The two coexist: this is the baseline gap between sections: a
+// block's own configured margin just adds to it.
+.sectionRhythm {
+  padding-top: 28px;
+  padding-bottom: 28px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+}
+
+// "Proof" sections (tableBlock, serviceFeaturesBlock) get a surface band so
+// long pages read as chapters instead of one flat black scroll — same
+// treatment as landingCtaBlock's own band.
+.sectionBanded {
+  background: var(--bg-surface);
+}

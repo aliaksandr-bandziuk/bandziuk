@@ -17,6 +17,7 @@ import {
 import { urlFor } from "@/sanity/sanity.client";
 import { ModalButton } from "../../ui/Button/ModalButton";
 import ResponsiveMedia from "../../ui/ResponsiveMedia/ResponsiveMedia";
+import WhatsAppButton from "../../ui/WhatsAppButton/WhatsAppButton";
 
 type Props = {
   title: string;
@@ -62,6 +63,7 @@ const PropertyIntro: FC<Props> = ({
                         ? "Запросить предложение"
                         : "Request Personal Offer"}
               </ModalButton>
+              <WhatsAppButton lang={lang} placement="hero" variant="secondary" />
             </div>
           </div>
         </div>

@@ -7,10 +7,12 @@
   background-color: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 30px;
+  // Same value as the route-level .sectionRhythm padding, so the band
+  // doesn't read taller than a plain section.
+  padding: 28px;
 
   @media screen and (min-width: 768px) {
-    padding: 55px;
+    padding: 44px;
   }
 }
 
@@ -90,6 +92,7 @@
 
 .phoneInput {
   @extend .inputField;
+  @include formFields.phone-input-focus;
   padding: 15px 16px;
   display: flex;
   align-items: center;

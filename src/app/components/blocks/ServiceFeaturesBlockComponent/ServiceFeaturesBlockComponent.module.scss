@@ -1,6 +1,6 @@
 .features {
-  margin-top: clamp(2.5rem, 1.25rem + 5vw, 5rem);
-  margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
+  // Outer vertical spacing is owned solely by the route-level
+  // .sectionRhythm wrapper — don't reintroduce it here.
 }
 
 .heading {
@@ -10,7 +10,7 @@
 /* базовая сетка */
 .grid {
   display: grid;
-  align-items: start;
+  align-items: stretch;
   gap: 24px;
   grid-template-columns: 1fr; /* мобилка: одна колонка */
 }
@@ -42,6 +42,7 @@
 
 /* карточки и иконки */
 .card {
+  height: 100%;
   background: var(--bg-elevated);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);

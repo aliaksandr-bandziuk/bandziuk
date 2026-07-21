@@ -1,12 +1,12 @@
 import React, { FC } from "react";
 import styles from "./ContactMethodsBlockComponent.module.scss";
 import { ContactMethodsBlock, FullContact } from "@/types/blog";
-import Link from "next/link";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import Icon from "../../ui/Icon/Icon";
 import IconBadge from "../../ui/Icon/IconBadge";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
+import TrackedLink from "../../ui/TrackedLink/TrackedLink";
 
 type Props = {
   block: ContactMethodsBlock;
@@ -82,11 +82,13 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
             )}
             <div className={styles.contacts}>
               {contacts.map((contact) => (
-                <Link
+                <TrackedLink
                   href={getContactHref(contact)}
                   rel="noopener noreferrer"
                   key={contact._key}
                   className={styles.contact}
+                  trackAs={contact.iconName === "whatsapp" ? "whatsapp_click" : undefined}
+                  trackParams={{ placement: "contacts" }}
                 >
                   {contact.iconName ? (
                     <IconBadge>
@@ -102,7 +104,7 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
                     />
                   )}
                   <p className={styles.contactLabel}>{contact.title}</p>
-                </Link>
+                </TrackedLink>
               ))}
             </div>
           </div>

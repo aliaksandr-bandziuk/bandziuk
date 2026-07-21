@@ -5,7 +5,6 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import FormFull from "../../forms/FormFull/FormFull";
 import { FormStandardDocument } from "@/types/formStandardDocument";
-import FormStandard from "../../forms/FormStandard/FormStandard";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 import Icon from "../../ui/Icon/Icon";

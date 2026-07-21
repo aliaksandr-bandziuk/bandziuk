@@ -128,7 +128,7 @@ const BenefitsBlock: FC<Props> = ({ benefitsBlock, lang }) => {
     <section className={styles.benefitsBlock}>
       <div className="container">
         <div className={styles.inner}>
-          <SectionHeading title={sectionTitle} align="center" className={styles.heading} />
+          <SectionHeading eyebrow={sectionTitle} align="center" className={styles.heading} />
           <div className={styles.benefitsList}>
             {benefits.map((benefit, index) => {
               const Icon = benefitIcons[index];

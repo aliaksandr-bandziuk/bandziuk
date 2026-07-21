@@ -40,6 +40,17 @@
   white-space: nowrap;
 }
 
+// Only applied when the column is detected as a pro/con comparison side
+// (see TableBlockComponent.tsx) — plain informational tables keep the
+// neutral .th background above.
+.thPositive {
+  background-color: var(--success-muted);
+}
+
+.thNegative {
+  background-color: var(--danger-muted);
+}
+
 .td {
   padding: 0.875rem 1rem;
   border-bottom: 1px solid var(--border-subtle);
@@ -53,4 +64,22 @@
     color: var(--text-primary);
     font-weight: 500;
   }
+}
+
+.cellWithIcon {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.iconSuccess {
+  flex-shrink: 0;
+  color: var(--success);
+  margin-top: 3px;
+}
+
+.iconDanger {
+  flex-shrink: 0;
+  color: var(--danger);
+  margin-top: 3px;
 }

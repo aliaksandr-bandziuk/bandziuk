@@ -5,7 +5,7 @@ type HeadingLevel = "h1" | "h2" | "h3";
 
 type Props = {
   eyebrow?: string;
-  title: string | React.ReactNode;
+  title?: string | React.ReactNode;
   subtitle?: string | React.ReactNode;
   align?: "center" | "left";
   as?: HeadingLevel;
@@ -35,13 +35,15 @@ const SectionHeading: React.FC<Props> = ({
         .join(" ")}
     >
       {eyebrow && <div className={styles.eyebrow}>{eyebrow}</div>}
-      <Heading
-        className={[styles.title, size === "hero" ? styles.titleHero : ""]
-          .filter(Boolean)
-          .join(" ")}
-      >
-        {title}
-      </Heading>
+      {title && (
+        <Heading
+          className={[styles.title, size === "hero" ? styles.titleHero : ""]
+            .filter(Boolean)
+            .join(" ")}
+        >
+          {title}
+        </Heading>
+      )}
       {subtitle && (
         <p
           className={[

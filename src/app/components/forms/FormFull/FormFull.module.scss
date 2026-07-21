@@ -46,6 +46,7 @@
 
 .phoneInput {
   @extend .inputField;
+  @include formFields.phone-input-focus;
   padding: 15px 16px;
   display: flex;
   align-items: center;

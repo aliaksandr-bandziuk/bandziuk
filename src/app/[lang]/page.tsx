@@ -10,7 +10,6 @@ import { Translation } from "@/types/homepage";
 import Footer from "../components/layout/Footer/Footer";
 import HeaderWrapper from "../components/wrappers/HeaderWrapper/HeaderWrapper";
 import { FormStandardDocument } from "@/types/formStandardDocument";
-import FormStatic from "../components/forms/FormStatic/FormStatic";
 import LogosCarousel from "../components/sections/LogosCarousel/LogosCarousel";
 import Hero from "../components/sections/Hero/Hero";
 import ModalFull from "../components/modals/ModalFull/ModalFull";

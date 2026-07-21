@@ -11,6 +11,7 @@ import styles from "./FormMinimalBlockComponent.module.scss";
 import { Form as FormType } from "@/types/form";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { trackEvent } from "@/utils/analytics";
 
 export type FormData = {
   name: string;
@@ -104,14 +105,10 @@ const FormMinimalBlockComponent: FC<ContactFormProps> = ({
         resetForm({});
         setFilled({ name: false, email: false });
 
-        // GTM event
-        if (typeof window !== "undefined" && window.dataLayer) {
-          window.dataLayer.push({
-            event: "form_submission_success",
-            form_name: "form_minimal",
-            page_url: window.location.href,
-          });
-        }
+        trackEvent("form_submission_success", {
+          placement: "form_minimal_block",
+          page_path: window.location.pathname,
+        });
 
         onFormSubmitSuccess && onFormSubmitSuccess();
         setMessage(

@@ -102,6 +102,9 @@ table {
 
   /* Semantic */
   --danger: #e61212;
+  --danger-muted: rgba(230, 18, 18, 0.1);
+  --success: #4ade80;
+  --success-muted: rgba(74, 222, 128, 0.1);
 
   /* Radii */
   --radius-sm: 8px;
@@ -204,6 +207,11 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: transparent;
   color: #fff;
   padding-left: 0;
+  /* The wrapping .phoneInput (see _formFields.scss) already supplies the
+     field's border via the input-field mixin — without this reset the
+     browser's native input border/outline shows through underneath it. */
+  border: none;
+  outline: none;
 }
 
 .PhoneInputInput:-webkit-autofill,

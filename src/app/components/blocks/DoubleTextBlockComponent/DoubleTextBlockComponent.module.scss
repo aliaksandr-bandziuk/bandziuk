@@ -1,5 +1,6 @@
 .doubleTextBlock {
-  margin-bottom: 70px;
+  // Outer vertical spacing is owned solely by the route-level
+  // .sectionRhythm wrapper — don't reintroduce it here.
 
   h2, h3, h4 {
     line-height: 1.2;

@@ -1,0 +1,70 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
+}
+
+.reviewsWrapper {
+  background-color: #181916;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: clamp(1.25rem, 0.313rem + 3.75vw, 3.125rem);
+  overflow: hidden;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 100px;
+  }
+}
+
+.decoration {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  opacity: 0.5;
+
+  @media screen and (min-width: 768px) {
+    position: unset;
+    top: unset;
+    left: unset;
+    opacity: 1;
+  }
+}
+
+.svgDecorationIcon {
+  animation: rotateInfinite 10s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes rotateInfinite {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sliderBlock {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageQuote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 134px;
+  z-index: 1;
+  pointer-events: none;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}

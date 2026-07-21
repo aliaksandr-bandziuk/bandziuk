@@ -11,7 +11,6 @@ import {
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import { Translation } from "@/types/homepage";
 import ModalFull from "@/app/components/modals/ModalFull/ModalFull";
-import FormStatic from "@/app/components/forms/FormStatic/FormStatic";
 import Footer from "@/app/components/layout/Footer/Footer";
 import Header from "@/app/components/layout/Header/Header";
 import BlogPostsAll from "@/app/components/layout/BlogPostsAll/BlogPostsAll";

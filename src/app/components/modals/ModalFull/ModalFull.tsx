@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import styles from "./ModalFull.module.scss";
 import { useModal } from "@/app/context/ModalContext";
 import { FormStandardDocument } from "@/types/formStandardDocument";
-import FormStandard from "../../forms/FormStandard/FormStandard";
 import FormFull from "../../forms/FormFull/FormFull";
 
 const customStyles: ReactModal.Styles = {

@@ -232,13 +232,17 @@ export type ImageBulletsBlock = {
 export type ReviewFull = {
   _key: string;
   name: string;
+  position?: string;
+  country?: string;
   text: any;
   image: ImageAlt;
 };
 export type ReviewsFullBlock = {
   _key: string;
   _type: "reviewsFullBlock";
+  pretitle?: string;
   title: string;
+  subtitle?: string;
   reviews: ReviewFull[];
 };
 // === Конец типов для ReviewsFullBlock ===

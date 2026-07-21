@@ -1,0 +1,200 @@
+[
+  {
+    "_key": "benefitsBlock-1-1782734311371",
+    "_type": "benefitsBlock",
+    "benefits": [
+      {
+        "_key": "benefit-2-1782734311371",
+        "counting": {
+          "conuntNumber": 1500,
+          "sign": "+"
+        },
+        "description": "From a real estate catalog site I built — steady search traffic with no ad spend.",
+        "title": "organic visitors"
+      },
+      {
+        "_key": "benefit-3-1782734311371",
+        "counting": {
+          "conuntNumber": 99,
+          "sign": "%"
+        },
+        "description": "Real buyers and investors, not spam — thanks to proper form setup and anti-spam protection.",
+        "title": "qualified leads"
+      }
+    ],
+    "title": "Why a developer's website needs to do more than look impressive"
+  },
+  {
+    "_key": "gridBlock-4-1782734311371",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "feature-5-1782734311371",
+        "description": "Present all your developments and available units in one structured, easy-to-browse place.",
+        "iconName": "database",
+        "title": "Full project & unit catalog"
+      },
+      {
+        "_key": "feature-6-1782734311371",
+        "description": "Buyers and investors quickly find the right project by location, price, type, completion stage.",
+        "iconName": "settings",
+        "title": "Smart filters"
+      },
+      {
+        "_key": "feature-7-1782734311371",
+        "description": "Inquiries flow automatically into your sales system — no lead is lost.",
+        "iconName": "plug",
+        "title": "CRM integration"
+      },
+      {
+        "_key": "feature-8-1782734311371",
+        "description": "Reach foreign investors in their own language — essential for cross-border real estate.",
+        "iconName": "globe",
+        "title": "Multilingual for international buyers"
+      },
+      {
+        "_key": "feature-9-1782734311371",
+        "description": "Every project page, button and form works toward an inquiry, not just a view.",
+        "iconName": "target",
+        "title": "Tuned for lead generation"
+      },
+      {
+        "_key": "feature-10-1782734311371",
+        "description": "A fast site Google ranks, with analytics and pixel so you see where buyers come from.",
+        "iconName": "trending-up",
+        "title": "Analytics, speed and SEO"
+      }
+    ],
+    "title": "What your developer website gets"
+  },
+  {
+    "_key": "stepsBlock-11-1782734311371",
+    "_type": "stepsBlock",
+    "steps": [
+      {
+        "_key": "step-12-1782734311371",
+        "description": "Your projects, your portfolio scale, your buyers and target markets.",
+        "iconName": "message-circle",
+        "stepNumber": 1,
+        "title": "Discuss the task"
+      },
+      {
+        "_key": "step-13-1782734311371",
+        "description": "The site as a business tool: project catalog, unit pages, client journey, conversion points.",
+        "iconName": "layout",
+        "stepNumber": 2,
+        "title": "Design the structure"
+      },
+      {
+        "_key": "step-14-1782734311371",
+        "description": "Catalog, filters, CRM, analytics, multilingual — a platform that scales with your portfolio.",
+        "iconName": "wrench",
+        "stepNumber": 3,
+        "title": "Build and integrate"
+      },
+      {
+        "_key": "step-15-1782734311371",
+        "description": "Speed, SEO, lead-generation setup — so the site brings buyers from day one.",
+        "iconName": "rocket",
+        "stepNumber": 4,
+        "title": "Launch and optimize"
+      }
+    ],
+    "title": "How we'll work"
+  },
+  {
+    "_key": "faqBlock-16-1782734311371",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "faqItem-17-1782734311371",
+          "answer": [
+            {
+              "_key": "pt-18-1782734311371",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span-19-1782734311371",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "It depends on scope: number of projects and units, CRM integration, multilingual support, filter complexity. I work from individual tasks to a full turnkey platform. Write to me — I'll prepare a quote for your task."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "How much does a property developer website cost?"
+        },
+        {
+          "_key": "faqItem-20-1782734311371",
+          "answer": [
+            {
+              "_key": "pt-21-1782734311371",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span-22-1782734311371",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. I build catalog-based sites designed to scale — many projects, many units, with filters that keep it easy to navigate."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can the site handle a large portfolio of projects?"
+        },
+        {
+          "_key": "faqItem-23-1782734311371",
+          "answer": [
+            {
+              "_key": "pt-24-1782734311371",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span-25-1782734311371",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. I set up integration via API so inquiries land in your sales system automatically."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can you integrate the site with my CRM?"
+        },
+        {
+          "_key": "faqItem-26-1782734311371",
+          "answer": [
+            {
+              "_key": "pt-27-1782734311371",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span-28-1782734311371",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. I build multilingual sites and work with clients in Europe, the UK, the US and worldwide. For reference, I built a multilingual real estate catalog site for the Cyprus agency Cyprus VIP Estates."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Do you work with international developers?"
+        }
+      ]
+    },
+    "title": "Frequently asked questions"
+  },
+  {
+    "_key": "ctaBlock-29-1782734311371",
+    "_type": "landingCtaBlock",
+    "title": "Let's build a website that showcases all your projects"
+  }
+]

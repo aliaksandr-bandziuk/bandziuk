@@ -1,0 +1,1855 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "42050085e523",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "375acaace466",
+                "_type": "span",
+                "marks": [],
+                "text": "Разработка сайта СТО как система роста, а не «визитка»"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "0ac49fa33a87",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "99733a1c4164",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "680d9b7e708d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9e9dd9497f0b",
+                "_type": "span",
+                "marks": [],
+                "text": "Я создаю сайты для автомастерских под ключ как инструмент, который помогает СТО стабильно получать обращения из поиска и превращать трафик в запись. Для автосервиса важно не просто “быть в интернете”, а дать клиенту быстрый ответ на три вопроса: какие услуги, сколько стоит, как записаться."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "dcf03bc05a72",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "445fe4da098e",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "875361985fa0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "66828fd63835",
+                "_type": "span",
+                "marks": [],
+                "text": "Хороший сайт помогает:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "6590136b6174",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3dc76121dd3f",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c3d9b232edc1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "64935a47986b",
+                "_type": "span",
+                "marks": [],
+                "text": "увеличивать загрузку боксов за счёт обращений из поиска,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "869a8e839956",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1b96af256367",
+                "_type": "span",
+                "marks": [],
+                "text": "повышать доверие (прозрачные условия, фото работ, отзывы),"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b0107978203d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "aa5761aaceab",
+                "_type": "span",
+                "marks": [],
+                "text": "усиливать продажи доп. услуг через правильную структуру и подачу."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "создание сайта для автосервиса с онлайн записью",
+        "asset": {
+          "_ref": "image-f071c01a1c44ef9200ab7d26da6198873d8e8acb-1000x1197-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Страницы под диагностику, ремонт, шиномонтаж, автоэлектрику и другие направления, которые реально приносят заявки.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Структура под услуги и прибыль"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "Минимум шагов: форма, мессенджеры, кнопка звонка, запись.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Онлайн-запись и заявки"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Геозапросы, техническая оптимизация и база для роста органики.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Локальное SEO с нуля"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Сайт быстро загружается и удобен со смартфона (там большинство клиентов).",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "Скорость и мобильность"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Подключение инструментов, чтобы видеть заявки и точки роста.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Аналитика и контроль результата"
+      }
+    ],
+    "title": "Как я работаю над сайтом для СТО (коротко, по делу)"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "онлайн запись на ремонт автомобиля через сайт",
+        "asset": {
+          "_ref": "image-b2fa8a2422f03a4076b5781c0cfeff87f2f0ee80-1000x1195-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "f161c9ac7862",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cd0e188d38c6",
+                "_type": "span",
+                "marks": [],
+                "text": "Техническая основа: SEO, скорость и конверсия сайта автосервиса"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "3b9a1b3a6b48",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "dfbfef6f0e8c",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b402c26503b1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c96fac856d57",
+                "_type": "span",
+                "marks": [],
+                "text": "Разработка сайта автосервиса должна учитывать поведение клиентов: решение часто принимается быстро, особенно в ситуациях “срочно нужно”. Поэтому критичны скорость, мобильная версия и понятный путь к записи."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d7634c968d6f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7c524ea10738",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "2a9a110e2a95",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "bfe1434a8096",
+                "_type": "span",
+                "marks": [],
+                "text": "Я закладываю в основу:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "63204b72c797",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3ab8f1d61d7f",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "6953aafab9b0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4b776f7c374c",
+                "_type": "span",
+                "marks": [],
+                "text": "корректную структуру URL и навигацию,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "142c99568797",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7d521f994aab",
+                "_type": "span",
+                "marks": [],
+                "text": "правильные заголовки и мета-данные,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "bdc0e19f2177",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "eb4a2fde8467",
+                "_type": "span",
+                "marks": [],
+                "text": "оптимизацию изображений и скорости,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3b06da17a9ec",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7a42279e7c8c",
+                "_type": "span",
+                "marks": [],
+                "text": "блоки доверия (отзывы, фото работ, гарантии, сертификаты),"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "6b4fb3caee1b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "19fabce5378d",
+                "_type": "span",
+                "marks": [],
+                "text": "понятный прайс и условия записи."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "7c07a207cb19",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5d5da21b9e87",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "32046a0cb51f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b8d4957d85f0",
+                "_type": "span",
+                "marks": [],
+                "text": "Это напрямую влияет на конверсию и на видимость в поиске."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Какому СТО нужен сайт для — и когда он не даст результата"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Подходит",
+      "Не подходит"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ СТО, которое хочет больше заявок и стабильную загрузку",
+          "❌ Если нет цели привлекать новых клиентов"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Шиномонтаж, кузовной ремонт, детейлинг, автоэлектрика",
+          "❌ Если сервис принципиально работает только “по знакомым”"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Новый автосервис, который выходит на рынок",
+          "❌ Если нет ресурсов обрабатывать обращения"
+        ]
+      },
+      {
+        "_key": "36da7efae96d",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Сервис, который хочет расти и масштабироваться",
+          "❌ Если не планируются улучшения сервиса/качества"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Понятная структура, быстрый контакт, онлайн-запись.",
+        "iconName": "trending-up",
+        "title": "Сайт, ориентированный на заявки"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "Фундамент для органического трафика и роста.",
+        "iconName": "layers",
+        "title": "Страницы услуг под SEO"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Подготовка под запросы “рядом”, “в городе”, “срочно”.",
+        "iconName": "zap",
+        "title": "Локальная видимость"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Комфорт для клиента и выше конверсия.",
+        "iconName": "sparkles",
+        "title": "Быстрая мобильная версия"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "Понимание, откуда приходят обращения и что улучшать.",
+        "iconName": "target",
+        "title": "Система аналитики"
+      },
+      {
+        "_key": "6aa2869ca992",
+        "description": "Сайт готов к SEO и дальнейшему развитию.",
+        "iconName": "rocket",
+        "title": "Основа для продвижения"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "Результат: что вы получите после запуска"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Часто задаваемые вопросы"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "07ed69ca8ade",
+          "answer": [
+            {
+              "_key": "73a006f135b8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6b24b09e41dc",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Стоимость создания сайта для автосервиса зависит от задач бизнеса и функционала. Если нужен лендинг с онлайн-записью — это один бюджет. Если требуется многостраничный сайт с отдельными страницами услуг, интеграцией CRM, аналитикой и SEO-структурой — бюджет будет выше."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "7b7c89c98562",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e43bc43c3d0a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "f3e41db665c7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "298ce02ce99d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "На цену влияют:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "adb088a651e7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a0446fa7da77",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "4b8588be6ddf",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "5fa3e605be70",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "количество страниц (услуги, блог, акции);"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "f9cef7a6f859",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e09a6d42c9f6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "наличие онлайн-записи;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "673811c1869e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "72f5a618428c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "интеграция с CRM;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "7d9f1664053f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b012fccdde1e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "подключение аналитики;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "20293468fa8b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7c20aa1983d9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "подготовка под SEO;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b4740aad7782",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1ae3519dfebe",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "сложность дизайна."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a176d4083a8f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "483dd4fb197b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b507b8d172b2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "27f5e7456104",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Я формирую решение под цели конкретного СТО: увеличение заявок, рост загрузки или выход на новый рынок."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько стоит создание сайта для автосервиса?"
+        },
+        {
+          "_key": "db0545041e01",
+          "answer": [
+            {
+              "_key": "09f8862620b2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "929887e5fab5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Разработка сайта для автосервиса обычно занимает от 3 до 6 недель. Срок зависит от объёма работ и скорости согласования материалов."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "74c47ae75839",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cfd5eabdfe5e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a0257451b087",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e370935d1a89",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Процесс включает:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "5cc4274d0448",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3ea14a71d834",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e8a9edbcc921",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b4f8c2d8af88",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Анализ бизнеса и услуг."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "92ace5aace57",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3fd0ea700614",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Проектирование структуры под поисковые запросы."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "079ffd922088",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e52edada1537",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Разработку и адаптивную верстку."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e9c6d0f0716b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9919a636a243",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Настройку онлайн-записи и аналитики."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cb551a5f616f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6c2b4ea44508",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Базовую SEO-оптимизацию."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "4447b5be7f80",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1cdc75258a69",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "63af8dbefa3c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e42de82bc29d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Если требуется расширенная структура (много услуг, блог, локальные страницы под разные районы), сроки могут увеличиться."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько времени занимает разработка сайта для СТО?"
+        },
+        {
+          "_key": "a6a1a7128545",
+          "answer": [
+            {
+              "_key": "50b8c5a111ba",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3afb70f9a9c9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Обычно 10–20 рабочих дней."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько времени занимает разработка?"
+        },
+        {
+          "_key": "ef2301ae1e2e",
+          "answer": [
+            {
+              "_key": "68557dfdbad9",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e2106faa946d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да, сайт автосервису нужен даже при активных социальных сетях. Соцсети помогают удерживать внимание и показывать работы, но клиенты с намерением “сделать ремонт” чаще приходят из поисковых систем."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "29ac72dcca13",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "f1eb4eab9a05",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bfc5aec0bdd7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "55266b33f3cf",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Когда пользователь вводит “СТО рядом” или “ремонт двигателя в [городе]”, он ищет конкретную услугу. В этот момент ему важно:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "67d7bdb19bf7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "bf2007160eb7",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b8e30eceafac",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b59c10e65b98",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "быстро увидеть цены и услуги;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "570ee6097b5e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "003d28d9b796",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "понять, где вы находитесь;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "de1b79790b19",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "447de2a404b8",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "записаться онлайн;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e495762878b3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "91448e83855d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "проверить отзывы."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bf811bfef02f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2e5a28afad4a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cef0f8d2bb88",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6f900bf2d488",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Сайт становится точкой конверсии, где пользователь принимает решение и оставляет заявку."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Нужен ли сайт автосервису, если есть Instagram или другие соцсети?"
+        },
+        {
+          "_key": "3e49889f3221",
+          "answer": [
+            {
+              "_key": "63d22fc1b4f2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4401e20ebf4d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да, продвигать сайт автосервиса можно через SEO и локальную оптимизацию. Органический трафик строится вокруг коммерческих и геозапросов: “ремонт авто в [городе]”, “шиномонтаж рядом”, “диагностика автомобиля срочно”."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e6a6448a2465",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ff16034e84bf",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "0997a007b904",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "08ad1436d201",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Для этого важно:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a567ea9fe98c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b304e8d9cfd5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "c2f8d0c4f138",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2f32800246ef",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "создать отдельные страницы под каждую услугу;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "829752c02336",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "8dd6c858c165",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "оптимизировать сайт технически;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "477bdc678fed",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1715eb5537d9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "проработать структуру заголовков;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e965a12a7f47",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "227f25297f9c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "добавить региональную привязку;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "07c35e4634a8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "8954eccde06f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "регулярно обновлять контент."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b5b3d37b8571",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0c280a23a1f2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "6d299795b1af",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "446efc6ef4ef",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SEO не даёт мгновенного результата, но формирует стабильный поток клиентов без постоянных затрат на рекламу."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Можно ли продвигать сайт автосервиса без платной рекламы?"
+        },
+        {
+          "_key": "f87014285697",
+          "answer": [
+            {
+              "_key": "69d1efd3b585",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "69dec6e91047",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Сайт автосервиса должен быть ориентирован на удобство и конверсию. Минимальный набор элементов:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3db2569c76a6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "abe8d152ef5f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "be2272197811",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "179fcff536e2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "понятный список услуг;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e53c92916ac7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9f1911bae3aa",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "прозрачный прайс или диапазон цен;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b0cb3a7d855e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "bed9c16986bf",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "онлайн-запись или форма быстрой заявки;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "8233399dc3b4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "93a683537165",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "контакты и карта проезда;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bb4cf7db0258",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "52f0a199424d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "фотографии работ;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a92d56c65cfd",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7df0fda9e83e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "отзывы клиентов;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "db60175c3e71",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fa946fe64e96",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "мобильная версия;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "84e7533bb231",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "80b8eca7d6ac",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "быстрая загрузка."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "5136cc9529f0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "986fcd71de0b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "7055d6fc81e3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3e3cb3057b88",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Если структура продумана, а пользователь видит ответы на свои вопросы за 30–60 секунд, вероятность записи значительно возрастает."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Что должно быть на сайте автосервиса, чтобы он приносил заявки?"
+        },
+        {
+          "_key": "78c0f423f7a6",
+          "answer": [
+            {
+              "_key": "a18376fc1ffb",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a80f53355047",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Создание сайта для автосервиса влияет на загрузку сервиса через три механизма:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "672919853102",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "d3dc4535ce5d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fa0b916e8752",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "8772b77e25ec",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Видимость в поиске по коммерческим запросам."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fa39c6504ee6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "d6158c520009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Упрощённая онлайн-запись."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "0236fe8883f3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "031820aef1c9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Повышение доверия за счёт прозрачной информации."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e05f4d12adad",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c143a9f58ee6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fe8bb526feee",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "71d61de3d5d7",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Когда сайт структурирован под реальные услуги и удобен для клиента, он начинает работать как постоянный источник обращений, снижая зависимость от сарафанного радио и нестабильной рекламы."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Как сайт помогает увеличить загрузку СТО?"
+        },
+        {
+          "_key": "0e8c3863a0f3",
+          "answer": [
+            {
+              "_key": "b07ca8f113de",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e383d58c0d0e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Для начала работы необходимы:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "db8cb00857a2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c34c61764094",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "89e6ef30df00",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "819c74a6922b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "список услуг;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ddba4e7f4c2a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cbbe3e3ea0ec",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "примерные цены или ценовые диапазоны;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "9a5b66443ba3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "51dff020166f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "фотографии сервиса и работ;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "d41c335103b9",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cff92819343b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "контактные данные;"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "0cf28e96aa22",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ba8c2b103a6b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "описание преимуществ и особенностей СТО."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "9746f63addb3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "67b771f9f6dc",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a12e10828184",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "053f81ee7919",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Если часть материалов отсутствует, я помогаю структурировать информацию и подготовить контент."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Что нужно от владельца автосервиса для старта проекта?"
+        },
+        {
+          "_key": "f227b544ff73",
+          "answer": [
+            {
+              "_key": "16d471c210a0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "70bdf2ca12da",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да, работа по созданию сайта для автосервиса оформляется договором с фиксированным объёмом задач, сроками и этапами. Это снижает риски и делает процесс прозрачным."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "99f9867d8322",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c1f2932e95d5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "298dca4c412a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ec1d5b31b9e3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "После запуска сайт остаётся в вашем распоряжении. Возможна дальнейшая поддержка, SEO-продвижение или развитие проекта по согласованию."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Заключается ли договор и есть ли гарантии?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "88ccc7561ab2",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "74c5163843a1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1bf7ec77b0b4",
+            "_type": "span",
+            "marks": [],
+            "text": "Разработка сайта автосервиса — один из самых понятных способов усилить поток клиентов: люди регулярно ищут СТО рядом, диагностику, ремонт, шиномонтаж, кузовные работы и выбирают по удобству записи, доверию и прозрачности цены. Поэтому сайт должен отвечать на запрос клиента быстро: услуги, прайс, время, контакты, запись."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f035c2f347f8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bb02f7327243",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "94db138be6d7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e8790ec62dbd",
+            "_type": "span",
+            "marks": [],
+            "text": "Коммерческие запросы, по которым можно получать органический трафик: сайт для СТО, сайт для автосервиса под ключ, разработка сайта автосервиса, сайт для шиномонтажа, сайт для кузовного ремонта, сайт для автоэлектрика. Важно, чтобы эти направления были оформлены не одной страницей “услуги”, а структурой с отдельными разделами и понятными посадочными страницами."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4f97f8f22b9a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2df7a7feeb75",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "cf5b0a4f9845",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "87369c6f5fce",
+            "_type": "span",
+            "marks": [],
+            "text": "Если сайт технически корректный, быстро загружается и оптимизирован под локальные запросы, он начинает приносить обращения и помогает повышать загрузку сервиса. Я делаю такие сайты как систему: структура под прибыльные услуги, удобная онлайн-запись, SEO-база, аналитика и подготовка к дальнейшему продвижению."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

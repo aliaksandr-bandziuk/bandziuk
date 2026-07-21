@@ -1,0 +1,1294 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "5929fd7e9cfb",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4dec9a827ca3",
+                "_type": "span",
+                "marks": [],
+                "text": "Зачем модели нужен собственный сайт, если есть соцсети"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "64e116660726",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "bf9ae61fde78",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9b2369e0e118",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9ee4090d51e6",
+                "_type": "span",
+                "marks": [],
+                "text": "Социальные сети удобны, но они не принадлежат вам. "
+              },
+              {
+                "_key": "3b1d09e19ef3",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Алгоритмы меняются, аккаунты блокируются, охваты падают."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "2914303959a6",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9f09ca930837",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d1215d62ef34",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8f361a584a44",
+                "_type": "span",
+                "marks": [],
+                "text": "Персональный сайт модели:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e86162596df8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6d35b798ecb0",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b149872b336a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6fb97f4a43a7",
+                "_type": "span",
+                "marks": [],
+                "text": "формирует профессиональный образ"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c9c300a46909",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "65e17e84eba9",
+                "_type": "span",
+                "marks": [],
+                "text": "объединяет портфолио в одном месте"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "927c83eec735",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4a62fbaa29db",
+                "_type": "span",
+                "marks": [],
+                "text": "позволяет отправлять прямую ссылку агентствам и клиентам"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "30302004443d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d2ff198d02bc",
+                "_type": "span",
+                "marks": [],
+                "text": "усиливает доверие"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1ce8fa3a751e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fa1df8130bcb",
+                "_type": "span",
+                "marks": [],
+                "text": "помогает выделиться на фоне других моделей"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ff3ce0cca71d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1bef4fe79359",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "73ecce481f37",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9472cd2f0fb3",
+                "_type": "span",
+                "marks": [],
+                "text": "Когда кастинг-директор или бренд открывает ваш сайт, он видит структуру, аккуратную подачу и серьёзный подход к карьере."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9dc1e8b36621",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "713abb1133cc",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "99d4bbb563ee",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f889581ab0ba",
+                "_type": "span",
+                "marks": [],
+                "text": "Сайт работает на вас 24/7."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Создание сайта модели",
+        "asset": {
+          "_ref": "image-934196bd283f98b61c84d9d7b0cb3a8f1c5e408e-1200x1500-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Фокус на фотографиях и вашем образе.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Стильный минималистичный дизайн"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "Разделение по: fashion, commercial и др.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Удобная структура портфолио"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Большинство просмотров — со смартфона.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Оптимизация под мобильные устройства"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Сайт работает стабильно и быстро.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "Быстрая загрузка и техническая чистота"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Клиенты могут связаться напрямую.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Подключение обратной связи"
+      }
+    ],
+    "title": "Как я создаю сайт для модели"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Сайт-портфолио как инструмент развития карьеры модели",
+        "asset": {
+          "_ref": "image-0f1bcce2c3a0e0223a2c7b63be094ef68d093beb-1300x1625-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "682950435cb1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ea9c973e4111",
+                "_type": "span",
+                "marks": [],
+                "text": "Сайт-портфолио как инструмент развития карьеры"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "cf08fe05e3d6",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "728c55a86e6e",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fdc8c3301836",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "356f370edc74",
+                "_type": "span",
+                "marks": [],
+                "text": "Правильно сделанный сайт помогает:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3df4f9b22fe9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "47c8ac9d5f22",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e396fbebc3af",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "2f8e8f02119f",
+                "_type": "span",
+                "marks": [],
+                "text": "отправлять портфолио на кастинги одной ссылкой"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "7cd0d2ffe418",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f05c8b9c5726",
+                "_type": "span",
+                "marks": [],
+                "text": "сотрудничать напрямую с брендами"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "28056bcf226e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "45632038a76c",
+                "_type": "span",
+                "marks": [],
+                "text": "работать без посредников"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d829d24cca01",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d56f17aa281a",
+                "_type": "span",
+                "marks": [],
+                "text": "выстраивать личный бренд"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fbad2db81845",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9dadc816138a",
+                "_type": "span",
+                "marks": [],
+                "text": "продвигаться в поиске по имени"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3d847d5fa8ed",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "25394fcd3d00",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "659effca7414",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "976d525c6224",
+                "_type": "span",
+                "marks": [],
+                "text": "Если человек вводит ваше имя в Google — он должен находить профессиональный сайт, а не только соцсети."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9a0fda445b08",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e76aed2bf0ed",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b3b4f5f310d0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "07fb80593dc4",
+                "_type": "span",
+                "marks": [],
+                "text": "Я создаю сайты, которые:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "060fd7cc167b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "60ade2226095",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e87109cfea2f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "113e3d5e3b2d",
+                "_type": "span",
+                "marks": [],
+                "text": "подчёркивают индивидуальность"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c20ecbe0fb3c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e60c4a179b4d",
+                "_type": "span",
+                "marks": [],
+                "text": "не перегружены лишними элементами"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "bbab511ff9a8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a2715412e5ae",
+                "_type": "span",
+                "marks": [],
+                "text": "выглядят современно"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9381effbd81d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0d2ab90a0cac",
+                "_type": "span",
+                "marks": [],
+                "text": "легко обновляются"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3b9bd51b9e15",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "33ca44e9316e",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "231cfa20fbf7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "add3f7f5bf5b",
+                "_type": "span",
+                "marks": [
+                  "e9127d4c6267"
+                ],
+                "text": "Сайт"
+              },
+              {
+                "_key": "e97eb6381230",
+                "_type": "span",
+                "marks": [],
+                "text": " остаётся вашим активом независимо от платформ."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "e9127d4c6267",
+                "_type": "link",
+                "href": "https://www.bandziuk.com/ru/uslugi/razrabotka-saitov"
+              }
+            ],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Когда модели нужен вебсайт, а когда - нет"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Подходит",
+      "Не подходит"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Начинающим моделям",
+          "❌ Тем, кто не планирует развивать карьеру"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Моделям, работающим с агентствами",
+          "❌ Тем, кому достаточно только соцсетей"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Фриланс-моделям",
+          "❌ Тем, кто не готов обновлять портфолио"
+        ]
+      },
+      {
+        "_key": "f7f9d661012592266e843169093fc417",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Тем, кто строит личный бренд",
+          "❌ Проектам без качественных фотографий"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Выглядите серьёзно и уверенно.",
+        "iconName": "trending-up",
+        "title": "Профессиональный имидж в интернете"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "Все работы структурированы и доступны.",
+        "iconName": "target",
+        "title": "Удобное онлайн-портфолио"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "Возможность получать предложения напрямую.",
+        "iconName": "layers",
+        "title": "Прямой канал связи с клиентами"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Сайт полностью принадлежит вам.",
+        "iconName": "zap",
+        "title": "Контроль над своим цифровым образом"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Одна ссылка — и всё портфолио перед глазами.",
+        "iconName": "sparkles",
+        "title": "Готовность к кастингам и сотрудничеству"
+      },
+      {
+        "_key": "6aa2869ca992",
+        "description": "Сайт можно масштабировать и дополнять.",
+        "iconName": "rocket",
+        "title": "Основа для развития личного бренда"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "Что вы получаете в результате"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Часто задаваемые вопросы"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "0105705134d7",
+          "answer": [
+            {
+              "_key": "0df0e3d1e55b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2eedd0c61d87",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Социальные сети удобны, но они зависят от алгоритмов. Персональный сайт — это независимая платформа, где вы полностью контролируете подачу и контакты."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Нужен ли сайт, если у меня уже есть Instagram?"
+        },
+        {
+          "_key": "a06380ba19a5",
+          "answer": [
+            {
+              "_key": "d081936eb1b3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b46db3e0c88d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Даже на старте карьеры сайт помогает выглядеть профессионально и формирует серьёзное впечатление."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Подойдёт ли сайт начинающей модели?"
+        },
+        {
+          "_key": "6e5cbb88210c",
+          "answer": [
+            {
+              "_key": "8553ce354b66",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c73bbf36e311",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Сайт можно сделать с удобной системой управления, чтобы вы могли добавлять новые съёмки без технических знаний."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Можно ли обновлять фотографии самостоятельно?"
+        },
+        {
+          "_key": "92f5467f4e80",
+          "answer": [
+            {
+              "_key": "b7a472f60ca4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0e1e9c32f809",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Обычно разработка занимает от 2 до 4 недель в зависимости от объёма портфолио и требований к дизайну."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько времени занимает создание сайта для модели?"
+        },
+        {
+          "_key": "d0d4cef86d55",
+          "answer": [
+            {
+              "_key": "253881e3a867",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00ec34ff7578",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Большинство посетителей просматривают портфолио со смартфона, поэтому адаптивность обязательна."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Будет ли сайт адаптирован под мобильные устройства?"
+        },
+        {
+          "_key": "587b2c4a55e4",
+          "answer": [
+            {
+              "_key": "719b41242548",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "42cec71e8d08",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Если вы работаете с международными агентствами или брендами, можно добавить английскую версию сайта."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Можно ли сделать сайт на нескольких языках?"
+        },
+        {
+          "_key": "f768c4af5a08",
+          "answer": [
+            {
+              "_key": "9a34906dc9ac",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "619e2e746138",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. При необходимости можно настроить базовую SEO-оптимизацию, чтобы сайт находился по имени и связанным запросам."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Можно ли продвигать сайт модели в Google?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "5b90845ff9dc",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "b4e07a7c6c67",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d478457d79e4",
+            "_type": "span",
+            "marks": [],
+            "text": "Создание сайта для модели — стратегический подход"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "2dab0f568d3c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5717bd8db827",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8fc81704f223",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ff3e842084c3",
+            "_type": "span",
+            "marks": [],
+            "text": "Персональный сайт — это не просто галерея фотографий. Это инструмент, который усиливает вашу профессиональную позицию."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8492f3da82b5",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7d253352d787",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "30ccfce424af",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b6800c3e9cb7",
+            "_type": "span",
+            "marks": [],
+            "text": "Правильно выстроенная структура включает:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "422390d00582",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2f9ddf5d2e51",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f55203a67441",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5a565c365dfa",
+            "_type": "span",
+            "marks": [],
+            "text": "главную страницу с акцентом на образ"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f6ec4ec4c98b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f29f01f8a0fb",
+            "_type": "span",
+            "marks": [],
+            "text": "портфолио с разделением по типам съёмок"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "32221ce35843",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "16a181ce8b92",
+            "_type": "span",
+            "marks": [],
+            "text": "краткую биографию"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d0ec28f5bb52",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8ef577a4c5fa",
+            "_type": "span",
+            "marks": [],
+            "text": "параметры (рост, размер, контакты)"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8eda1f814ded",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "34513bda932a",
+            "_type": "span",
+            "marks": [],
+            "text": "форму обратной связи"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "eff36ad7cbb9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "666b36fb1bef",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "6fddee5e6a58",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7075aa7fb371",
+            "_type": "span",
+            "marks": [],
+            "text": "Дополнительно можно добавить:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "73033ca42596",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "38e68f6f0ec2",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "31d737ef26dc",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "37d69e58e17a",
+            "_type": "span",
+            "marks": [],
+            "text": "блог"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4315059d277a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "92688e564698",
+            "_type": "span",
+            "marks": [],
+            "text": "раздел “пресса”"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f8fcaaf21f5c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "614d2eb22ef3",
+            "_type": "span",
+            "marks": [],
+            "text": "страницу для агентств"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d1e66944cf8a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7df917cc69f9",
+            "_type": "span",
+            "marks": [],
+            "text": "отдельные галереи под проекты"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2e5ba3555d25",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b1c49af38f0b",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "da0a3f3f6c28",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "853a0eedf7c8",
+            "_type": "span",
+            "marks": [],
+            "text": "Сайт помогает выстраивать карьеру системно."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f8195068bbb0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e57cda28f5d3",
+            "_type": "span",
+            "marks": [
+              "strong",
+              "em"
+            ],
+            "text": "Он создаёт ощущение стабильности, серьёзности и профессионального подхода."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "6139c53ebdf8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "079961ac27a4",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "075f9ae93354",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e09bf059687d",
+            "_type": "span",
+            "marks": [],
+            "text": "В мире, где большинство моделей ограничиваются соцсетями, персональный сайт становится конкурентным преимуществом."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

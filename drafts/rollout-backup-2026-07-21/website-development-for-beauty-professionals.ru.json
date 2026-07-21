@@ -1,0 +1,1603 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "b0107978203d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "aa5761aaceab",
+                "_type": "span",
+                "marks": [],
+                "text": "Почему сайт — главный инструмент для роста beauty-бизнеса"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "a96c5c95f9e4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4a4e5249c088",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d82a07089d02",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4b3cefd944b3",
+                "_type": "span",
+                "marks": [],
+                "text": "Современные мастера и салоны не могут опираться только на Instagram или сарафанное радио. Клиенты ищут услуги в Google, хотят записываться онлайн и видеть реальные примеры работ."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a7f83577afd8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "2f2483806f76",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "11e8331c8add",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "2245fded0637",
+                "_type": "span",
+                "marks": [],
+                "text": "Мой подход — создание сайтов, которые работают на конверсию: понятная структура, SEO-оптимизация, адаптация под смартфоны и простая онлайн-запись."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5d0b795d6c3a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8baf38e32f55",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "37ce71d83eee",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "208c5da219c2",
+                "_type": "span",
+                "marks": [
+                  "strong",
+                  "em"
+                ],
+                "text": "Вебсайт — это не визитка, а полноценный канал продаж."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "639c8281c219",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "49440e045b27",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "68b4ad478012",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "05cdf55edbed",
+                "_type": "span",
+                "marks": [],
+                "text": "Я анализирую нишу, целевую аудиторию и помогаю выстроить сайт как инструмент доверия — с отзывами, ценами, примерами и быстрой связью."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Почему сайт — главный инструмент для роста beauty-бизнеса",
+        "asset": {
+          "_ref": "image-5f4e0507f06e03b991023b4eef430112851ca882-800x1000-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Разбираюсь, какие услуги вы продвигаете и как клиенты ищут их онлайн.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Анализ ниши и ЦА"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "В бьюти-индустрии визуал решает: сайт должен быть современным, чистым и “с ароматом доверия”.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Дизайн под эмоции"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Каждая страница оптимизируется под запросы вроде «сайт для косметолога», «сайт салона красоты».",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "SEO с первого дня"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Внедряю онлайн-бронирование, Telegram-уведомления и CRM-учёт.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "Онлайн-запись"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Структура сайта такая, чтобы пользователь не полюбовался, а записался.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Рост клиентов"
+      }
+    ],
+    "title": "Ключевые особенности моего подхода"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Как создаётся сайт для бьюти-услуг",
+        "asset": {
+          "_ref": "image-2f14169d4b8a5f8de5c6a9c1606fa29e026b3c13-800x1000-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "32046a0cb51f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b8d4957d85f0",
+                "_type": "span",
+                "marks": [],
+                "text": "Как создаётся сайт для бьюти-услуг"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "e3f510d73061",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "20f1d5879fe3",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ca724b53b756",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b7cff6a8fcf3",
+                "_type": "span",
+                "marks": [],
+                "text": "Каждый проект начинается с понимания вашего бренда — стиля, философии, целевой аудитории.\nЯ не предлагаю шаблоны: структура и контент продумываются под конкретную нишу."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0786b45d1cbe",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6acadfc4b6cc",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "335a41fc2005",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9f6f49f5fccc",
+                "_type": "span",
+                "marks": [],
+                "text": "Примерный процесс:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "94e06e0a4252",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b4cd78d19290",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9c0eaa8a66f7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "382f5fdb2f9b",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Брифинг"
+              },
+              {
+                "_key": "8e177b6a9050",
+                "_type": "span",
+                "marks": [],
+                "text": " — разбираем бизнес-цели, аудиторию, конкурентов."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0339113b45df",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "80c0ca1516d5",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Создание прототипа"
+              },
+              {
+                "_key": "c4bc9f1f2e3e",
+                "_type": "span",
+                "marks": [],
+                "text": " — определяем ключевые блоки: услуги, прайс, портфолио, отзывы, запись."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "243b2769cea2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "af116fd8566d",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Дизайн "
+              },
+              {
+                "_key": "90a4a02e053e",
+                "_type": "span",
+                "marks": [],
+                "text": "— разрабатываю визуальную концепцию, отражающую стиль вашего бренда."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "07fdf0085e2b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "444515bef186",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "SEO-настройка и контент"
+              },
+              {
+                "_key": "c244e4fd88ff",
+                "_type": "span",
+                "marks": [],
+                "text": " — прописываю тексты, мета-данные, оптимизирую изображения."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a8f23b1af9cd",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c8d9533f543c",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Запуск и поддержка"
+              },
+              {
+                "_key": "eb27111648e7",
+                "_type": "span",
+                "marks": [],
+                "text": " — подключаю аналитику, обучаю пользоваться сайтом, обеспечиваю техническое сопровождение."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Когда бьюти-бизнеесу нужен сайт"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Подходит",
+      "Не подходит"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Салонам красоты, студиям, мастерам, бровистам, косметологам",
+          "❌ Тем, кто не готов развивать бизнес онлайн"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Тем, кто хочет систематизировать работу и онлайн-запись",
+          "❌ Тем, кто ищет сайт «на один день»"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Мастерам, которые продвигаются за рубежом (Кипр, Германия, Израиль и др.)",
+          "❌ Тем, кто не готов к вложениям в имидж и маркетинг"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Ваш сайт будет говорить о вас без слов. Чистый, визуально привлекательный дизайн с акцентом на фото и атмосферу вашего бизнеса поможет вызвать доверие и выделиться среди конкурентов.",
+        "iconName": "trending-up",
+        "title": "Современный сайт, отражающий эстетику вашего бренда"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "Я интегрирую систему бронирования и быстрые способы связи — кнопки WhatsApp, Telegram, формы заявки, онлайн-запись по времени. Это сокращает путь клиента от интереса до записи.",
+        "iconName": "layers",
+        "title": "Онлайн-запись и контактные формы"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Каждая страница будет оптимизирована под поисковые запросы вроде «сайт для косметолога» или «создание сайта салона красоты». Это поможет вашему сайту стабильно привлекать новых клиентов из Google, Chat GPT, Perplexity, Copilot.",
+        "iconName": "zap",
+        "title": "SEO-оптимизация для роста трафика"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Вы сможете самостоятельно менять фотографии, тексты, цены и даже добавлять новые услуги. Всё просто и понятно — без необходимости обращаться к разработчику.",
+        "iconName": "sparkles",
+        "title": "Удобная админ-панель"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "Сайт можно связать с Instagram, Telegram, YouTube и другими площадками, чтобы клиенты переходили между каналами без потери внимания.",
+        "iconName": "target",
+        "title": "Интеграции с социальными сетями"
+      },
+      {
+        "_key": "6aa2869ca992",
+        "description": "После запуска сайта вы получаете не просто онлайн-визитку, а инструмент для продаж: меньше переписок в мессенджерах, больше записей, понятная аналитика и рост репутации в сети.",
+        "iconName": "rocket",
+        "title": "Реальная выгода для бизнеса"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "Что вы получаете на выходе"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Часто задаваемые вопросы"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "dd526285fa12",
+          "answer": [
+            {
+              "_key": "7d86da8b84c3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2f211844839e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Соцсети хороши для визуала, но они не индексируются поисковыми системами.\nСайт даёт вам:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "7c4ca52f463f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fc87d4b5db7d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "856dde2fa2b7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "042699dbf809",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "постоянный поток клиентов из Google и Яндекса,"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "6a6b380f2e12",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "db9a410b6bdd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "возможность ранжироваться по запросам («мастер маникюра на Кипре», «салон красоты в Варшаве»),"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "44e54a51247a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "898a82ba28cc",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "долгосрочную платформу, которая не зависит от алгоритмов соцсетей."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "5d2578940eea",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ab887b32bbf3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "f3bc5a37daa4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "5c15be735633",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Кроме того, сайт выглядит профессионально и повышает доверие клиентов, особенно за рубежом."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Почему сайт важнее, чем просто страница в Instagram или Telegram?"
+        },
+        {
+          "_key": "a380d16efaf2",
+          "answer": [
+            {
+              "_key": "7925d8ef179c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cee9d2487600",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Стоимость зависит от сложности проекта, дизайна и функций (онлайн-запись, языковые версии и т. д.). В среднем:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "5fea20b054d2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "12db4850012f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a92bfdac7b22",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "210920a6708d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "персональный сайт мастера — от €400,"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "f0d75e4c1884",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9e01c006d167",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "сайт салона или студии — от €700."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ced1f06de02b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "d98ac3ecfc25",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "f8cf9a3352f4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "178960857ec0",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "После обсуждения задач я составляю прозрачное коммерческое предложение с детальной сметой."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько стоит создание сайта для бьюти-услуг?"
+        },
+        {
+          "_key": "6dea8d70cbe9",
+          "answer": [
+            {
+              "_key": "beb8a2dcdbd5",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c100134fb092",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Полный цикл:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cef8311d33a9",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "027a0d8e2bb8",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cb59d8324552",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6c09751ac932",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "анализ целевой аудитории и конкурентов,"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3dcbd9dd6a98",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cd8d6b3bb12f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "UX/UI-дизайн,"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a9c712638c6c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "89c171feaa3d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "верстка и разработка,"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "eb601717000d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0a102867fd47",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SEO-оптимизация,"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "c3d7fcda2fad",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6763d34c0237",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "настройка домена и хостинга,"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ac3e77319396",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "292200e169fd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "28fc36d3b088",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ac325d46e552",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "подключение аналитики и обучение работе с сайтом."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Что входит в услугу по созданию сайта?"
+        },
+        {
+          "_key": "19693b90acad",
+          "answer": [
+            {
+              "_key": "46d562d43d58",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2b6893155f11",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Я делаю админ-панель интуитивной, чтобы вы могли добавлять новые услуги, редактировать тексты, цены и фото без риска что-то “сломать”."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Можно ли обновлять сайт самостоятельно?"
+        },
+        {
+          "_key": "4a5fc00bc19c",
+          "answer": [
+            {
+              "_key": "698627b96891",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "90dd41dd7ea4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Я разрабатываю мультиязычные сайты (RU / EN / PL). Это особенно важно для мастеров, которые работают с русскоязычной аудиторией в разных странах: Кипр, Германия, Польша, Израиль, ОАЭ."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Делаете ли вы сайты на нескольких языках?"
+        },
+        {
+          "_key": "6959467c86c4",
+          "answer": [
+            {
+              "_key": "1c64ce5039c3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "012e194774e0",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Средний срок — от 2 до 3 недель."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "62929cd95faa",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "5e7843c8a371",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Если сайт сложный или включает несколько языков, процесс может занять до 4 недель."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cdf2d5dee001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a73b0019aa70",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Я всегда согласую дедлайн и предоставляю промежуточные версии для обратной связи."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько времени занимает разработка сайта?"
+        },
+        {
+          "_key": "9e9c81c7f6d2",
+          "answer": [
+            {
+              "_key": "69a48da0d648",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "369758a5d04e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Я внедряю системы бронирования и приёма оплаты (Stripe, Fondy, PayPal, YooMoney и др.) с автоматическим уведомлением мастера и клиента. Это особенно полезно для бьюти-салонов и специалистов, работающих по записи."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Можно ли интегрировать онлайн-запись и приём оплаты?"
+        },
+        {
+          "_key": "906b426c391c",
+          "answer": [
+            {
+              "_key": "c8af74313853",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00391ceee125",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "После публикации я провожу базовую SEO-оптимизацию, подключаю аналитику и обучаю вас, как обновлять контент."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "d44ab2c1e0e4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "51fe144bb3c4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "По желанию можно заказать долгосрочное SEO-сопровождение — продвижение сайта в поиске, написание статей, анализ позиций."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Как продвигается сайт после запуска?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "88ccc7561ab2",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "cc1b409394cc",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "572ad376e33f",
+            "_type": "span",
+            "marks": [],
+            "text": "Почему бьюти-бизнесу нужен сайт"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "3eded16350ba",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bb8793f6b0f1",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d6de55ad2a71",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a47faadd9a76",
+            "_type": "span",
+            "marks": [],
+            "text": "Сайт в бьюти-сфере — это не роскошь, а необходимость. Клиенты выбирают мастеров по отзывам, фото и удобству записи. Если у вас нет сайта, вы теряете тех, кто ищет услуги через Google."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "43627d71e49a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bc7f74bfc4bd",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d1dd8ac3df16",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e01a7183bcbd",
+            "_type": "span",
+            "marks": [],
+            "text": "Хорошо сделанный вебсайт помогает:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c1497d85bd94",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "87eadabde1c7",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c331bc236a3c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7695d28d261e",
+            "_type": "span",
+            "marks": [],
+            "text": "показать профессионализм,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "6d5caf65bc08",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d0bdde7389a4",
+            "_type": "span",
+            "marks": [],
+            "text": "повысить доверие,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "40982af6ada9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "52f2edc9a735",
+            "_type": "span",
+            "marks": [],
+            "text": "автоматизировать коммуникацию,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a5f9bcf94628",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "df15fe4ca79f",
+            "_type": "span",
+            "marks": [],
+            "text": "продавать без участия менеджера."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8d04f06dcf6b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "29f77db50320",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "658280b48c7e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "77c1ed4516a9",
+            "_type": "span",
+            "marks": [],
+            "text": "Какие сайты я создаю для бьюти-индустрии"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "61d93ece2ff1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9476e51b4d63",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4245212768e3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f98ba482d245",
+            "_type": "span",
+            "marks": [],
+            "text": "Мой опыт охватывает все направления индустрии красоты:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d18f70b37f19",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "67573e637e0f",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ce9781b62a3e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "551e03cb7108",
+            "_type": "span",
+            "marks": [
+              "strong",
+              "b2cff076aa74"
+            ],
+            "text": "Сайты салонов красоты"
+          },
+          {
+            "_key": "2cc19fcd6853",
+            "_type": "span",
+            "marks": [],
+            "text": " с онлайн-записью, отзывами, командой и прайс-листом."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [
+          {
+            "_key": "b2cff076aa74",
+            "_type": "link",
+            "href": "https://www.bandziuk.com/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty"
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "a8bcba473188",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "94933af7568f",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Персональные сайты косметологов"
+          },
+          {
+            "_key": "d4151d2018e1",
+            "_type": "span",
+            "marks": [],
+            "text": " с портфолио, сертификатами, формой записи и блогом."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f4b2742bc4fa",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f691153ebbf5",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Сайты мастеров маникюра и бровистов"
+          },
+          {
+            "_key": "8e5ad24bc2d8",
+            "_type": "span",
+            "marks": [],
+            "text": " — визуальные, с акцентом на фото работ."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1c25307da46a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a58b46799cc0",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Сайты барберов"
+          },
+          {
+            "_key": "0b917816bb12",
+            "_type": "span",
+            "marks": [],
+            "text": " — с атмосферным дизайном, минималистикой и стильной подачей."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "87d514d87e2e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b85ce9b89088",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "7dbf4bcd9352",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "62617a7ea61f",
+            "_type": "span",
+            "marks": [],
+            "text": "Главные принципы разработки"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "f839d186dede",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9dbb7f570237",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "005f785f73a9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "249cf238a520",
+            "_type": "span",
+            "marks": [],
+            "text": "При разработке я придерживаюсь трёх ключевых принципов:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "80be064e9416",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "68b24e79c176",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1e1106abcdbd",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "566c14c7bb7c",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Конверсия "
+          },
+          {
+            "_key": "852f03f4d350",
+            "_type": "span",
+            "marks": [],
+            "text": "— сайт должен не просто “нравиться”, а приносить клиентов."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ef05b95a34a2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4056bf778be3",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Скорость "
+          },
+          {
+            "_key": "46a07c318bb6",
+            "_type": "span",
+            "marks": [],
+            "text": "— быстрая загрузка на смартфонах повышает SEO и лояльность."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "815230ca21fa",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f1fda333002d",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Адаптация под пользователя"
+          },
+          {
+            "_key": "1e3321113cc8",
+            "_type": "span",
+            "marks": [],
+            "text": " — разные сценарии для desktop и mobile."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0263e9ab286f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "12db156890d0",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e45c5f973889",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4f329f94959e",
+            "_type": "span",
+            "marks": [],
+            "text": "Сайт для бьюти-услуг — это инвестиция, которая возвращается в виде постоянного потока клиентов, роста доверия и продаж."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "85724a8c266d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "33b2d006cb6d",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4a2ab2c5be32",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a05f22c0d125",
+            "_type": "span",
+            "marks": [],
+            "text": "Я создаю ресурсы, которые работают на вас 24/7, упрощают коммуникацию, повышают авторитет и расширяют географию клиентов."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

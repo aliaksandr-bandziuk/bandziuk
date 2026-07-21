@@ -1,0 +1,1143 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "ac08b8401e6c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "de2abb38bd9c",
+                "_type": "span",
+                "marks": [],
+                "text": "Tworzenie strony internetowej dla firmy zaczyna się od strategii"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "003fd38ed904",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "bdcda9e96825",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a8579fb96ccb",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ebc73f7bb82e",
+                "_type": "span",
+                "marks": [],
+                "text": "Brak strategii przy tworzeniu strony internetowej dla firmy zazwyczaj kończy się tym, że strona „jest”, ale nie spełnia swojej roli."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5d7236c841d0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1580e587ffa8",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "725509a1a784",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ce2549fbec4d",
+                "_type": "span",
+                "marks": [],
+                "text": "Dlatego cały proces zaczynam od określenia:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "82ddc6a608a4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8156310250e8",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8ff318ce4d4e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e8d5f948afed",
+                "_type": "span",
+                "marks": [],
+                "text": "jaką funkcję strona ma pełnić w procesie sprzedaży,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b837d607d1a6",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a66766b489a3",
+                "_type": "span",
+                "marks": [],
+                "text": "jakie decyzje podejmuje użytkownik,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "84ac0d7c077f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "95cde6c7a813",
+                "_type": "span",
+                "marks": [],
+                "text": "które elementy mają największy wpływ na konwersję,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "68de865eacb5",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7a24690d90f5",
+                "_type": "span",
+                "marks": [],
+                "text": "jak strona będzie rozwijana w przyszłości."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5a57e6625957",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8a7a6668bbfa",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d9cf57711516",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "adbf7a5763e1",
+                "_type": "span",
+                "marks": [],
+                "text": "Dzięki temu powstaje strona, która jest spójna, logiczna i gotowa na długoterminowy rozwój."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Tworzenie strony internetowej dla firmy zaczyna się od strategii",
+        "asset": {
+          "_ref": "image-a4b23bc699bef78039d09625b1451ecb72709d37-800x1138-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Zaczynam od zrozumienia modelu biznesowego, oferty i grupy docelowej, a nie od gotowych szablonów.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Punkt wyjścia: cele biznesowe"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "Architektura strony jest projektowana tak, aby ułatwiać użytkownikom podjęcie decyzji i wspierać widoczność w Google.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Przemyślana struktura strony"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Strony są tworzone z myślą o wydajności. Docelowy czas ładowania to poniżej 2 sekund, co ma wpływ na SEO i konwersję.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Szybkość i wydajność"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Struktura uwzględnia klasyczne SEO oraz aktualne trendy związane z AI search (GEO, AEO), bez zbędnego komplikowania.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "SEO i gotowość na nowe algorytmy"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Strona jest łatwa w zarządzaniu, rozbudowie i dalszym rozwoju wraz z biznesem.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Rozwiązania przyjazne w utrzymaniu"
+      }
+    ],
+    "title": "Główne cechy"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Strona internetowa dla firmy: SEO, UX i konwersja",
+        "asset": {
+          "_ref": "image-311f54b0e7b25723b62b5ae6afc7676255b4ec25-800x1140-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "e30fb175a4a2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8890c1156221",
+                "_type": "span",
+                "marks": [],
+                "text": "Strona internetowa dla firmy: SEO, UX i konwersja"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "dffbbe165054",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c9353b7b8a22",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "dfe6e885e45a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "69aa6c9df461",
+                "_type": "span",
+                "marks": [],
+                "text": "Tworzenie strony internetowej dla firmy musi łączyć wymagania techniczne z doświadczeniem użytkownika."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8804d0ed1daf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c8fca5940f09",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ba58f37b208a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a280111c353c",
+                "_type": "span",
+                "marks": [],
+                "text": "Już na etapie projektowania uwzględniam:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "59c573ebf602",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7089c2c49cc4",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "592ea01775ef",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e75b31ba4e09",
+                "_type": "span",
+                "marks": [],
+                "text": "logiczną hierarchię podstron,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f6ac8b416b25",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "dd45a7ab77c7",
+                "_type": "span",
+                "marks": [],
+                "text": "przyjazne adresy URL,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fe4df4591a51",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a7cca8eb220d",
+                "_type": "span",
+                "marks": [],
+                "text": "strukturę treści pod SEO,"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "4208b026cbe3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7b07b8bf0a9c",
+                "_type": "span",
+                "marks": [],
+                "text": "stabilną i szybką realizację techniczną."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a67b5bd76662",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c3551d2378a3",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "03f3b1cbd43e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "792445c71edc",
+                "_type": "span",
+                "marks": [],
+                "text": "Jednocześnie dbam o użyteczność: czytelne treści, intuicyjną nawigację i wyraźne elementy konwersji."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "23fc7d3a57bf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a3d0912ec20c",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b4f7a37b908a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9a19e8434b8b",
+                "_type": "span",
+                "marks": [],
+                "text": "Efektem jest strona, która jest zrozumiała, wygodna i skuteczna."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Tworzenie strony internetowej dla firmy: dla kogo jest odpowiednia, a dla kogo nie"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Dla kogo",
+      "Dla kogo nie"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Firmy nastawione na rozwój",
+          "❌ Projekty tylko „pod design”"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Biznesy planujące SEO",
+          "❌ Strony bez jasno określonych celów"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Usługi B2B i złożone oferty",
+          "❌ Szybkie i tanie realizacje"
+        ]
+      },
+      {
+        "_key": "36da7efae96d",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Firmy myślące długoterminowo",
+          "❌ Projekty bez strategii"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Każda podstrona ma jasno określoną funkcję.",
+        "iconName": "trending-up",
+        "title": "Stronę dopasowaną do celów biznesowych"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "Możliwość dodawania usług, treści i wersji językowych bez przebudowy strony.",
+        "iconName": "layers",
+        "title": "Strukturę gotową na rozbudowę"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Lepsze doświadczenie użytkownika i solidna baza pod SEO.",
+        "iconName": "zap",
+        "title": "Szybką i zoptymalizowaną stronę"
+      },
+      {
+        "_key": "7310750ac823",
+        "description": "Strona wspiera pozyskiwanie zapytań i kontaktów.",
+        "iconName": "map-pin",
+        "title": "Logikę konwersji"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Komunikacja oparta na realnych potrzebach klientów.",
+        "iconName": "sparkles",
+        "title": "Przemyślane treści"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "Strona, która rośnie razem z firmą.",
+        "iconName": "target",
+        "title": "Długoterminowy zasób biznesowy"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "Co otrzymujesz na końcu"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Najczęściej zadawane pytania dotyczące tworzenia witryn internetowych dla firm"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "07ed69ca8ade",
+          "answer": [
+            {
+              "_key": "d575d3a4297e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "97a62e60b28d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Zazwyczaj od 2 do 8 tygodni, w zależności od zakresu projektu."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Ile trwa tworzenie strony internetowej dla firmy?"
+        },
+        {
+          "_key": "db0545041e01",
+          "answer": [
+            {
+              "_key": "8eff294b4a5d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3f55b42a86cd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak, jednak często bardziej efektywne jest stworzenie nowej struktury od podstaw."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Czy możliwa jest przebudowa istniejącej strony?"
+        },
+        {
+          "_key": "a6a1a7128545",
+          "answer": [
+            {
+              "_key": "66c74e2dbd9c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "313af889e3fd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak. SEO jest uwzględniane już na etapie projektowania."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Czy strona jest gotowa pod SEO po uruchomieniu?"
+        },
+        {
+          "_key": "ef2301ae1e2e",
+          "answer": [
+            {
+              "_key": "68557dfdbad9",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e2106faa946d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak, strona jest projektowana z myślą o skalowalności."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Czy stronę można później rozbudować?"
+        },
+        {
+          "_key": "4b3a817ec727",
+          "answer": [
+            {
+              "_key": "1d96d5ca4b0f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "60536ca60299",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Cena zależy od zakresu i złożoności projektu."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Jak ustalana jest cena?"
+        },
+        {
+          "_key": "22260917457c",
+          "answer": [
+            {
+              "_key": "ae531b4807da",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9a9280026240",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Klient otrzymuje pełny dostęp i prawa do strony."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Kto jest właścicielem strony po zakończeniu prac?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "d42b37ca5ef1",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "d301fb78e82b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "52214ed85362",
+            "_type": "span",
+            "marks": [],
+            "text": "Tworzenie stron internetowych dla firm jako inwestycja"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "1b565517717e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6304860bb901",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8066a7c1c458",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "affd904ab414",
+            "_type": "span",
+            "marks": [],
+            "text": "Tworzenie stron internetowych dla firm należy traktować jako inwestycję w rozwój, a nie jednorazowy koszt. Dobrze zaprojektowana strona pomaga budować widoczność, zaufanie i wspiera proces sprzedaży."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3f7f7ecb9304",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1ae90043be2b",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "df175292a976",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9795ea854062",
+            "_type": "span",
+            "marks": [],
+            "text": "Strony tworzone bez strategii często wymagają szybkich poprawek, zmian struktury lub całkowitej przebudowy. Podejście oparte na analizie i planowaniu pozwala tego uniknąć."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "346dfcb48d62",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "43d3034f023c",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3438d542abb6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "46a4e81d8b8d",
+            "_type": "span",
+            "marks": [],
+            "text": "Dlaczego warto wybrać kompleksowe tworzenie strony dla firmy"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "0f2e5a1af34b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "be232abb1085",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b17d2e254632",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a6d61ec34e30",
+            "_type": "span",
+            "marks": [],
+            "text": "Kompleksowe tworzenie strony internetowej dla firmy oznacza spójność wszystkich elementów: struktury, treści, UX i technologii. Dzięki temu strona jest gotowa do działania od momentu uruchomienia."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c3927adfa2df",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "28be39348363",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3da90869c1d2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1dce0ef7f18e",
+            "_type": "span",
+            "marks": [],
+            "text": "Korzyści takiego podejścia to:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "cc785ad2cf5a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c3fe6f1b1184",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "bda01429e4ea",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5619b5ce480e",
+            "_type": "span",
+            "marks": [],
+            "text": "szybsze osiąganie efektów,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8c2a54662278",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "26ba1591226d",
+            "_type": "span",
+            "marks": [],
+            "text": "stabilna podstawa pod SEO,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c22d4be37865",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a71c8293dc18",
+            "_type": "span",
+            "marks": [],
+            "text": "niższe koszty zmian w przyszłości,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "742a0adbd183",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "fca9154feb01",
+            "_type": "span",
+            "marks": [],
+            "text": "większa przewidywalność rozwoju strony."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "cfefa72f4b9a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5ce6f5e94505",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f5ee07616f0e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2fa022a20423",
+            "_type": "span",
+            "marks": [],
+            "text": "Strony internetowe dla firm działających na różnych rynkach"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "f29b28c0e5f4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "af42601e2d43",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "bfa2ee47fed8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e3e285c29902",
+            "_type": "span",
+            "marks": [],
+            "text": "Tworzę strony internetowe dla firm działających lokalnie i międzynarodowo. Uwzględniam różnice rynkowe, konkurencję oraz potrzeby użytkowników, co jest szczególnie istotne przy planowaniu SEO i rozwoju treści."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f0b29f5259a2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5c11a9bfd031",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ffdcb6fda0f9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "59c0573204a1",
+            "_type": "span",
+            "marks": [],
+            "text": "Nowoczesne strony muszą być czytelne nie tylko dla użytkowników, ale także dla systemów wyszukiwania opartych na AI, co ma coraz większe znaczenie w długiej perspektywie."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "dec44335d873",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "202989ed452e",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9b7a774690fd",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2d3e0b5b78d7",
+            "_type": "span",
+            "marks": [],
+            "text": "Dlaczego rozwiązania indywidualne są lepsze niż szablony"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "0c84e1679259",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "caaddc5785f7",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3104e078a3f9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0d9a1b958425",
+            "_type": "span",
+            "marks": [],
+            "text": "Szablonowe strony internetowe często ograniczają rozwój firmy. Indywidualne tworzenie strony dla firmy pozwala lepiej dopasować strukturę, treści i funkcjonalności do realnych potrzeb biznesowych."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

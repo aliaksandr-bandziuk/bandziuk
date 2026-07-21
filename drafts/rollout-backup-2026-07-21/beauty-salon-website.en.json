@@ -1,0 +1,1273 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "249cd1a2c842",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "05966fa8063e",
+                "_type": "span",
+                "marks": [],
+                "text": "Why beauty salon website design is a key part of client growth"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "2d17d6ab658a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "561eb652fd93",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ec876991e188",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0ad1fc86a906",
+                "_type": "span",
+                "marks": [],
+                "text": "Your salon’s website is the first impression for most clients. They don’t call anymore — they Google you. If your site doesn’t appear or looks outdated, they book elsewhere."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f518b8acde1d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "25189ad09bf2",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d23414973687",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0a44e387cc95",
+                "_type": "span",
+                "marks": [],
+                "text": "I design websites that combine beauty and function: clear structure, high-quality visuals, and booking in a few clicks."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "55b46e4b8f4b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "015f58a78b5c",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3abf0d09a96c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "036c1cee72c5",
+                "_type": "span",
+                "marks": [],
+                "text": "Strategy Logic — Why It Matters:"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "23d2daebddc8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "080606c41e9b",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "81d13a164f8a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4c10a82faf7c",
+                "_type": "span",
+                "marks": [],
+                "text": "Reduces manual booking time for staff."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c60f8ed251ff",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "24de1ffc9716",
+                "_type": "span",
+                "marks": [],
+                "text": "Converts browsers into clients through a simple UX flow."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5056f9713be2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "322a76b41fb9",
+                "_type": "span",
+                "marks": [],
+                "text": "Builds trust through reviews, team profiles, and consistent branding."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "The owner of the salon website with a contact card",
+        "asset": {
+          "_ref": "image-9318242118d54f5152cec1e5671c8dabf7e1cec3-1200x1350-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Easy path from service selection to booking.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Client-Centric UX"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "Pages for each service rank organically.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "SEO-Optimized Structure"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Synchronized calendars and reminders.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Integrated Online Booking"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Fast loading on all devices.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "Mobile-Friendly Performance"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Update photos and pricing yourself anytime.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Editable CMS"
+      }
+    ],
+    "title": "Key features of my approach"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Beauty salon webpage with schedule and appointment form",
+        "asset": {
+          "_ref": "image-951624d5bb81cd9d43ab04c0eef8d9700862da35-1200x1350-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "d5f9c4623e75",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4e3b87498c37",
+                "_type": "span",
+                "marks": [],
+                "text": "Technical side of website development for beauty salons: speed, security & SEO"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "ee2448c853f6",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "943b30201f4d",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8b554339fc6d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "953581ee775a",
+                "_type": "span",
+                "marks": [],
+                "text": "Performance and security are as important as aesthetics. Each project is built with:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b59f494678ed",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "712fb954427e",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d8d035562841",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0a44ed90df66",
+                "_type": "span",
+                "marks": [],
+                "text": "optimized images and lazy-loading for speed;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1c8e4d8f36fe",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "dc1312efdbc0",
+                "_type": "span",
+                "marks": [],
+                "text": "SSL encryption and spam protection;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "112df475bb4b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0a74cc5fb424",
+                "_type": "span",
+                "marks": [],
+                "text": "SEO-ready markup (LocalBusiness, FAQ schema);"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "87a7b8cf5a17",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9285c363ddc8",
+                "_type": "span",
+                "marks": [],
+                "text": "responsive layouts tested on all devices."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "cf09a7c50695",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "de2f1779e78a",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "71c1bf68dfba",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "db850364b3af",
+                "_type": "span",
+                "marks": [],
+                "text": "These details help your website rank higher and convert better."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "When a beauty salon needs a website"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Perfect For",
+      "Not For"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Beauty salons and studios wanting to increase online bookings",
+          "❌ Those uninterested in digital promotion"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Local businesses and multi-location brands",
+          "❌ One-time projects with no growth plan"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Owners focused on client experience and brand reputation",
+          "❌ Those looking for the cheapest template solution"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Clear structure and conversion-driven UX help turn visitors into appointments within seconds.",
+        "iconName": "trending-up",
+        "title": "A Website That Generates Bookings"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "Full calendar management with automatic notifications — less no-shows, more productivity.",
+        "iconName": "layers",
+        "title": "Online Booking System Integrated"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Elegant visual identity matching your salon’s style, colours and tone.",
+        "iconName": "zap",
+        "title": "Design Tailored to Your Brand"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Pages optimized for queries like “beauty salon near me” and “hair and make-up services online booking”.",
+        "iconName": "sparkles",
+        "title": "SEO for Beauty Salon Website"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "Edit content yourself — add photos, change prices, post updates with ease.",
+        "iconName": "target",
+        "title": "Simple Admin Dashboard"
+      },
+      {
+        "_key": "6aa2869ca992",
+        "description": "Technical updates, backups and SEO growth plans after launch.",
+        "iconName": "rocket",
+        "title": "Ongoing Support & Maintenance"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "What You Get"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Frequently Asked Questions"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "e9ef92447798",
+          "answer": [
+            {
+              "_key": "cb9491214a67",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "8668bf4e5f11",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A standard beauty salon website takes 2–3 weeks, including design, booking integration and SEO setup. More complex projects (multi-language, CRM integration) may take up to 4 weeks."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "How long does it take to build a salon website?"
+        },
+        {
+          "_key": "ed0e988a46e5",
+          "answer": [
+            {
+              "_key": "4aa17c445fe4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9c2ec0eaee9d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Projects start at €700 / $750, depending on features and content scope. After a short briefing, I provide a detailed quote with timeline and milestones."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "What’s the cost of beauty salon website design?"
+        },
+        {
+          "_key": "f1921df7d438",
+          "answer": [
+            {
+              "_key": "727158cad64f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "32d816d63aa4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. Social media shows your work, but it doesn’t rank on Google. A website gives you search visibility, credibility, and automated bookings — plus full control over your brand."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Do I need a website if I already have Instagram or Facebook?"
+        },
+        {
+          "_key": "38d5570d730b",
+          "answer": [
+            {
+              "_key": "f78e9e9d404e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fef8189b5a2c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Absolutely. I integrate Stripe, PayPal or local payment systems with online scheduling so clients can reserve and prepay securely."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can clients book and pay online?"
+        },
+        {
+          "_key": "4593651ebb2e",
+          "answer": [
+            {
+              "_key": "e0920e392960",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "f9db1f3cc4af",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. You’ll get a clean admin panel and step-by-step training to edit text, photos and offers independently."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Will I be able to update my website myself?"
+        },
+        {
+          "_key": "89495fe824ff",
+          "answer": [
+            {
+              "_key": "39f547ab8f2f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2e1a39c623fe",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. Each site is built for both — local SEO to reach clients near you, and global SEO to attract international audiences."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Is the website optimized for local and international SEO?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "88ccc7561ab2",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "a1f0ce784ef5",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f08047df0e42",
+            "_type": "span",
+            "marks": [],
+            "text": "Why Invest in a Beauty Salon Website"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "765d46b5c1a9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "098e3b878802",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3348260b2ffb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1a4bc99d1828",
+            "_type": "span",
+            "marks": [],
+            "text": "A professional website is a long-term asset — not an expense. It brings clients through search engines, reduces staff workload and strengthens your brand."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "45e8e0490b08",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "397a57a018dd",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8b86d42b93e9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "45e6ca26136e",
+            "_type": "span",
+            "marks": [],
+            "text": "Key benefits:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b72ef000ac3e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "65ae8e9882be",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d75b5628a79a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ac907a98a803",
+            "_type": "span",
+            "marks": [],
+            "text": "attract new clients from Google Search and Maps;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "5c3dd721d28c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "23234a381673",
+            "_type": "span",
+            "marks": [],
+            "text": "automate appointments and reminders;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3b38d5b6db25",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "415e6f55bb4f",
+            "_type": "span",
+            "marks": [],
+            "text": "showcase services and special offers;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "80859e0ca142",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f9bc6b92eb8a",
+            "_type": "span",
+            "marks": [],
+            "text": "collect reviews and build reputation."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "62fc06dd18d3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5ba5c79fc3ff",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "349185d65c80",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b94a00005e8f",
+            "_type": "span",
+            "marks": [],
+            "text": "What Every Salon Website Should Include"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "1095eff4ba63",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "81529cdc3b2f",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d0c227d4bd1e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0f47b92b8792",
+            "_type": "span",
+            "marks": [],
+            "text": "homepage with value proposition and CTA;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "57b3e3cb3ea4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "eb328c24aea1",
+            "_type": "span",
+            "marks": [],
+            "text": "service pages with clear pricing and duration;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b961c46756c1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4f8da1408b1d",
+            "_type": "span",
+            "marks": [],
+            "text": "team profiles with photos and specialties;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "245ab2f0d301",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1e32a5ee213c",
+            "_type": "span",
+            "marks": [],
+            "text": "gallery of real work;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "5e3a0f940f4b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8e9ee43acc31",
+            "_type": "span",
+            "marks": [],
+            "text": "booking form with calendar sync;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2c49ea07064b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "46d7c9dc8a72",
+            "_type": "span",
+            "marks": [],
+            "text": "reviews section;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "bf8b4ea332ae",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9e2a5f505ae5",
+            "_type": "span",
+            "marks": [],
+            "text": "contact page with Google Maps and working hours."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "feed401bbe25",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c1cfae72a1bd",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a2a0a1674c9f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d8cb8b5e5320",
+            "_type": "span",
+            "marks": [],
+            "text": "Responsive Design & Performance"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "8b9fd8004c94",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7d3bd1e0b225",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "7a7e23dbbf63",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "cde382103044",
+            "_type": "span",
+            "marks": [],
+            "text": "Modern clients browse from phones. All my beauty salon websites are mobile-first, tested for speed and optimized for Core Web Vitals."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "05f82c655339",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "cc1561bae112",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "36f674d8f842",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5abf3df32d6a",
+            "_type": "span",
+            "marks": [],
+            "text": "Local SEO and Global Reach"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "bd5e80f7daf0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9236494176d4",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f543f120d18a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d747e08c0548",
+            "_type": "span",
+            "marks": [],
+            "text": "Each project includes on-page SEO, Google Business setup and localized content. This helps you rank for both “salon near me” and city-specific queries like “hair studio in London / Dubai / Miami.”"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "edcb0c994570",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9d5b83891342",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d114de58175d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "22cd453bc23e",
+            "_type": "span",
+            "marks": [],
+            "text": "Content and Photography Guidelines"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "81b196d20772",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "cc7dd8eb4d74",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "6873575af1ee",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "534d14d50324",
+            "_type": "span",
+            "marks": [],
+            "text": "I advise on photo style and copywriting to ensure your website looks authentic and aligned with your brand voice. High-quality visuals are crucial for conversion."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a8d3a52592b8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "fbcbf6a6ebd9",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "48801b56d299",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ebad4f651d25",
+            "_type": "span",
+            "marks": [],
+            "text": "Analytics and Continuous Growth"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "90cd664a5141",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c440b8b22ea8",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "cc0701eb96b3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d004aab48261",
+            "_type": "span",
+            "marks": [],
+            "text": "Google Analytics and Search Console are integrated by default. We track bookings, clicks and traffic sources — then refine UX and SEO for steady growth."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "03e64f0dc0c9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "451f09b99b42",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0a4dfd116526",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "61b51491a054",
+            "_type": "span",
+            "marks": [],
+            "text": "Conclusion"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "c0fef5b7bee4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c155f5e3ac3d",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "caac244830eb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "76c720ee4bea",
+            "_type": "span",
+            "marks": [],
+            "text": "A well-built beauty salon website is your digital receptionist — it welcomes clients, books appointments and promotes your brand 24/7. I’ll create a website that reflects your style, brings results and grows with your business."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

@@ -1,0 +1,1249 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "eddf9151629e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a2c1b7894228",
+                "_type": "span",
+                "marks": [],
+                "text": "Business Website Development Starts with Strategy"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "4b0a91a239c6",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b0e04cfee298",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1bc44dc278ea",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d173600ab2a0",
+                "_type": "span",
+                "marks": [],
+                "text": "Developing a business website without a clear strategy usually leads to predictable results: the site exists, but it does not influence growth.\nThat is why I approach website development as a strategic process."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a16020666bd9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c389141e2c43",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c9eaf84b47fe",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d2111dd6e529",
+                "_type": "span",
+                "marks": [],
+                "text": "Before building anything, I define:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5f1418f1de8f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "85dff5e296b0",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0a3d86cf46fe",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "653fdf507fd7",
+                "_type": "span",
+                "marks": [],
+                "text": "the role of the website in your sales process;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "659969703bae",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1f1dc0b3147a",
+                "_type": "span",
+                "marks": [],
+                "text": "how users should move through the site;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b46a7285379c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "edda4b40a64e",
+                "_type": "span",
+                "marks": [],
+                "text": "where and why conversion decisions happen;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "4da2849727a7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f4cb5860bc62",
+                "_type": "span",
+                "marks": [],
+                "text": "how the website will scale over time."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "440998f13ccb",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "739579c2659a",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ac08b8401e6c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "de2abb38bd9c",
+                "_type": "span",
+                "marks": [],
+                "text": "Websites developed with this approach tend to generate results faster, require fewer redesigns, and remain effective as the business evolves."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Business Website Development Starts with Strategy",
+        "asset": {
+          "_ref": "image-a4b23bc699bef78039d09625b1451ecb72709d37-800x1138-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Starts with understanding your business model, target audience, and goals — not with templates or design trends.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Business-first approach"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "I design site architecture that simplifies decision-making for users and helps search engines clearly understand page priorities.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Structured for users and search engines"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Websites are built with performance in mind. Typical load time targets are under 2 seconds, impacts SEO and conversions.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Speed and performance"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Website is prepared for classic SEO and modern AI-driven search approaches (GEO / AEO) at the structural leve.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "SEO and future-ready architecture"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "You get a website that is easy to manage, expand, and adapt as your business grows.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Practical and scalable solutions"
+      }
+    ],
+    "title": "Key Features"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "SEO-Ready and Conversion-Focused Website Development",
+        "asset": {
+          "_ref": "image-311f54b0e7b25723b62b5ae6afc7676255b4ec25-800x1140-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "81547ed94680",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fa417ca51d96",
+                "_type": "span",
+                "marks": [],
+                "text": "SEO-Ready and Conversion-Focused Website Development"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "7305d41fb100",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9614ea207b41",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a8a70e013c7e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4a7229fb186d",
+                "_type": "span",
+                "marks": [],
+                "text": "Business website development should support both visibility and usability."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f5e498bf9edc",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "44ab0001c91b",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0a3bcad6ece7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a44f726c2183",
+                "_type": "span",
+                "marks": [],
+                "text": "From the very beginning, I focus on:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "698c2097b407",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "166ebd6789a0",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8f5f4516bd0f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "65c283f87d3a",
+                "_type": "span",
+                "marks": [],
+                "text": "logical page hierarchy;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "94a0d3f8c2ee",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "382fe784e898",
+                "_type": "span",
+                "marks": [],
+                "text": "clean URL structure;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "781575f37e11",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4435d041af33",
+                "_type": "span",
+                "marks": [],
+                "text": "SEO-friendly content architecture;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "4d3a9cbc3077",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "30124cbf5db5",
+                "_type": "span",
+                "marks": [],
+                "text": "fast and stable technical implementation."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "aa73d84817f2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0f4908a40856",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f726a6439c84",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "df2f0c3c4777",
+                "_type": "span",
+                "marks": [],
+                "text": "At the same time, user experience is carefully designed. Pages are easy to scan, navigation is intuitive, and key actions are always clear."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "dd107ea80f6a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "05fead85c8a9",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e30fb175a4a2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8890c1156221",
+                "_type": "span",
+                "marks": [],
+                "text": "This balance between SEO and UX leads to higher engagement, better behavioral metrics, and improved conversion rates."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Creating a website for business: who it is suitable for and who it is not suitable for"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Suitable For",
+      "Not Suitable For"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Businesses that need measurable results",
+          "❌ Projects focused only on visuals"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Companies planning long-term growth",
+          "❌ One-page sites with no strategy"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ B2B and complex services",
+          "❌ “Quick and cheap” solutions"
+        ]
+      },
+      {
+        "_key": "36da7efae96d",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Brands investing in SEO and structure",
+          "❌ Projects without clear goals"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Each page serves a purpose and supports your conversion funnel.",
+        "iconName": "trending-up",
+        "title": "A website aligned with business goals"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "The website can grow with new services, pages, languages, and SEO content without breaking logic.",
+        "iconName": "layers",
+        "title": "A scalable structure"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Performance-focused development improves both user satisfaction and search visibility.",
+        "iconName": "zap",
+        "title": "A fast and technically optimized website"
+      },
+      {
+        "_key": "7310750ac823",
+        "description": "Layouts and content structure increase the likelihood of inquiries and contact requests.",
+        "iconName": "map-pin",
+        "title": "Conversion-oriented page logic"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Texts answer real user questions and build trust.",
+        "iconName": "sparkles",
+        "title": "Clear content and messaging"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "The website becomes part of your business infrastructure, not a one-time expense.",
+        "iconName": "target",
+        "title": "A long-term digital asset"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "What You Get"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "FAQ About Business Website Development"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "07ed69ca8ade",
+          "answer": [
+            {
+              "_key": "d575d3a4297e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "97a62e60b28d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Typically between 2 and 8 weeks, depending on complexity and scope."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "How long does business website development take?"
+        },
+        {
+          "_key": "db0545041e01",
+          "answer": [
+            {
+              "_key": "8eff294b4a5d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3f55b42a86cd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Both options are possible, but many projects benefit from a clean, strategic rebuild."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Do you redesign existing websites or only build new ones?"
+        },
+        {
+          "_key": "a6a1a7128545",
+          "answer": [
+            {
+              "_key": "66c74e2dbd9c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "313af889e3fd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. The site is built with SEO fundamentals integrated from the start."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Is the website ready for SEO after launch?"
+        },
+        {
+          "_key": "ef2301ae1e2e",
+          "answer": [
+            {
+              "_key": "68557dfdbad9",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e2106faa946d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Absolutely. Scalability is part of the core architecture."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can the website be expanded later?"
+        },
+        {
+          "_key": "4b3a817ec727",
+          "answer": [
+            {
+              "_key": "1d96d5ca4b0f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "60536ca60299",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Pricing depends on structure, functionality, and project requirements."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "How is pricing determined?"
+        },
+        {
+          "_key": "22260917457c",
+          "answer": [
+            {
+              "_key": "ae531b4807da",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9a9280026240",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "You receive full ownership and access."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Who owns the website after completion?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "d42b37ca5ef1",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "7f51eec4d271",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "3a08646157f6",
+            "_type": "span",
+            "marks": [],
+            "text": "Business Website Development as a Strategic Investment"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "3b3b335745d2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4d7b5a39633d",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4a85f3a3a646",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "cfb8a2838760",
+            "_type": "span",
+            "marks": [],
+            "text": "Business website development should be viewed as an investment, not a cost."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "90d5757a0f6b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "47b7da779c65",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f1a16f0d5598",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "944970ac3ed1",
+            "_type": "span",
+            "marks": [],
+            "text": "A well-structured website helps attract qualified traffic, communicate value clearly, and support decision-making at every stage of the customer journey. When websites are built without structure and strategy, businesses often face limitations: poor SEO performance, low engagement, and the need for constant redesigns. A strategic approach avoids these issues and creates a stable foundation for growth."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ecf50e246e37",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4c937ff621fa",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "843eb0c20b35",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "70dd67a99ccd",
+            "_type": "span",
+            "marks": [],
+            "text": "Why End-to-End Business Website Development Matters"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "6a27a08c62f2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0864085cc383",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c1cb6aa6fe62",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bffefdd7c3fb",
+            "_type": "span",
+            "marks": [],
+            "text": "End-to-end website development means all elements work together: structure, content, UX, and technical performance. Instead of fixing issues after launch, everything is planned upfront."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "5f32615fc694",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e9a8bf71eb28",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "fee13013ef1d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "853a9726eee9",
+            "_type": "span",
+            "marks": [],
+            "text": "This approach results in:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "aee1b84f9847",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "93ecec16f698",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b6d9944579b9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "18ddac9b7609",
+            "_type": "span",
+            "marks": [],
+            "text": "faster time to measurable results;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "97f8487e153a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "00ac1b19daed",
+            "_type": "span",
+            "marks": [],
+            "text": "better SEO performance over time;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "dc6c0da9be04",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "45e960dc8424",
+            "_type": "span",
+            "marks": [],
+            "text": "lower maintenance and redesign costs;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "aa64a10f8496",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6db0cc9708c0",
+            "_type": "span",
+            "marks": [],
+            "text": "a clearer understanding of how the website supports business goals."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a9d97687560e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "3cb4f62bfad6",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a5ed247d6d57",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c0a8902809ff",
+            "_type": "span",
+            "marks": [],
+            "text": "Business Website Development for a Global Audience"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "0935df8099a7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "05d40819de94",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9ddcda17016f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d30b893c9ca5",
+            "_type": "span",
+            "marks": [],
+            "text": "I develop business websites for companies working with international and multilingual audiences. This includes consideration of:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "20a0e55ffbbe",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0d09309e30cf",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "98d026ca1b97",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "28c97f778396",
+            "_type": "span",
+            "marks": [],
+            "text": "different user expectations;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1001686284c9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8dc497c5cd24",
+            "_type": "span",
+            "marks": [],
+            "text": "competitive markets;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "89065763888c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "238fa6c15a43",
+            "_type": "span",
+            "marks": [],
+            "text": "multi-language SEO;"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "79131603adc7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "83d1c510829d",
+            "_type": "span",
+            "marks": [],
+            "text": "trust and credibility across regions."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f7235c8a30d1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "11bb52eacb98",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c6107b27837c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "550643be58f9",
+            "_type": "span",
+            "marks": [],
+            "text": "Such websites are designed to adapt, expand, and remain effective regardless of geography."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "aaf98e2e6710",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "397931c9171e",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "db60d50c3e70",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a5a71a702e3d",
+            "_type": "span",
+            "marks": [],
+            "text": "Why Custom Business Website Development Outperforms Templates"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "2329828c1903",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b60a34a27ae9",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "43ba557dddc6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "422dec61b9b8",
+            "_type": "span",
+            "marks": [],
+            "text": "Template-based websites often limit growth. They may look acceptable initially but become restrictive as business needs evolve. Custom business website development allows for flexible structure, tailored content, and a clearer competitive advantage."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e1273eeb9361",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4ebf202fcdd3",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d301fb78e82b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "52214ed85362",
+            "_type": "span",
+            "marks": [],
+            "text": "Modern website development also considers how content is interpreted by AI-powered search systems, which increasingly influences visibility and traffic quality."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

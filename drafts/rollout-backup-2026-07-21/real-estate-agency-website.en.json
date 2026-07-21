@@ -1,0 +1,200 @@
+[
+  {
+    "_key": "benefitsBlock-1-1782722340526",
+    "_type": "benefitsBlock",
+    "benefits": [
+      {
+        "_key": "benefit-2-1782722340526",
+        "counting": {
+          "conuntNumber": 1500,
+          "sign": "+"
+        },
+        "description": "A steady flow from search with no ad spend.",
+        "title": "organic visitors"
+      },
+      {
+        "_key": "benefit-3-1782722340526",
+        "counting": {
+          "conuntNumber": 99,
+          "sign": "%"
+        },
+        "description": "Real potential buyers, not spam — thanks to proper form setup and anti-spam protection.",
+        "title": "qualified leads"
+      }
+    ],
+    "title": "Why most real estate agency websites don't sell"
+  },
+  {
+    "_key": "gridBlock-4-1782722340526",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "feature-5-1782722340526",
+        "description": "Buyers quickly find what they need by price, location, type, number of rooms.",
+        "iconName": "database",
+        "title": "Property catalog with smart filters"
+      },
+      {
+        "_key": "feature-6-1782722340526",
+        "description": "Inquiries flow automatically into your system — no lead is lost.",
+        "iconName": "plug",
+        "title": "CRM integration"
+      },
+      {
+        "_key": "feature-7-1782722340526",
+        "description": "The site works in several languages and attracts international buyers.",
+        "iconName": "globe",
+        "title": "Multilingual"
+      },
+      {
+        "_key": "feature-8-1782722340526",
+        "description": "Every button, form and section works toward an inquiry, not just a \"look\".",
+        "iconName": "target",
+        "title": "Tuned for lead generation"
+      },
+      {
+        "_key": "feature-9-1782722340526",
+        "description": "Google Analytics, events and pixel connected — you see where clients come from.",
+        "iconName": "trending-up",
+        "title": "Analytics and pixels"
+      },
+      {
+        "_key": "feature-10-1782722340526",
+        "description": "A fast site that Google ranks and that brings organic traffic.",
+        "iconName": "gauge",
+        "title": "Speed and SEO"
+      }
+    ],
+    "title": "What your agency gets"
+  },
+  {
+    "_key": "stepsBlock-11-1782722340526",
+    "_type": "stepsBlock",
+    "steps": [
+      {
+        "_key": "step-12-1782722340526",
+        "description": "Who your buyers are, what properties, what goals.",
+        "iconName": "message-circle",
+        "stepNumber": 1,
+        "title": "Discuss the task"
+      },
+      {
+        "_key": "step-13-1782722340526",
+        "description": "The site as a business tool: client journey, catalog, conversion points.",
+        "iconName": "layout",
+        "stepNumber": 2,
+        "title": "Design the structure"
+      },
+      {
+        "_key": "step-14-1782722340526",
+        "description": "Catalog, filters, CRM, analytics, multilingual.",
+        "iconName": "wrench",
+        "stepNumber": 3,
+        "title": "Build and integrate"
+      },
+      {
+        "_key": "step-15-1782722340526",
+        "description": "Speed, SEO, lead-generation setup.",
+        "iconName": "rocket",
+        "stepNumber": 4,
+        "title": "Launch and optimize"
+      }
+    ],
+    "title": "How we'll work"
+  },
+  {
+    "_key": "faqBlock-16-1782722340526",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "faqItem-17-1782722340526",
+          "answer": [
+            {
+              "_key": "pt-18-1782722340526",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span-19-1782722340526",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "It depends on scope: number of properties, CRM integration, multilingual support, filter complexity. I work from individual tasks to a full turnkey package. Write to me — I'll prepare a quote for your task."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "How much does a real estate agency website cost?"
+        },
+        {
+          "_key": "faqItem-20-1782722340526",
+          "answer": [
+            {
+              "_key": "pt-21-1782722340526",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span-22-1782722340526",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. I set up integration via API so inquiries land in your system automatically."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can you integrate the site with my CRM?"
+        },
+        {
+          "_key": "faqItem-23-1782722340526",
+          "answer": [
+            {
+              "_key": "pt-24-1782722340526",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span-25-1782722340526",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes — I build SEO-ready sites and optimize for organic traffic. Case: Cyprus VIP Estates, 1500+ organic visitors."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Will the site bring clients from search?"
+        },
+        {
+          "_key": "faqItem-26-1782722340526",
+          "answer": [
+            {
+              "_key": "pt-27-1782722340526",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span-28-1782722340526",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. I build multilingual sites and work with clients in Europe, the UK, the US and worldwide."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Do you work with international agencies?"
+        }
+      ]
+    },
+    "title": "Frequently asked questions"
+  },
+  {
+    "_key": "ctaBlock-29-1782722340526",
+    "_type": "landingCtaBlock",
+    "title": "Let's discuss a website for your agency"
+  }
+]

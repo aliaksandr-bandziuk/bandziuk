@@ -1,0 +1,1368 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "99d4bbb563ee",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f889581ab0ba",
+                "_type": "span",
+                "marks": [],
+                "text": "Why Every Model Needs a Personal Website — Even If You Have Instagram"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "67ea3753dcf2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "bfe3ad9a881c",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f2bf99419395",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b3f5c1ec94e0",
+                "_type": "span",
+                "marks": [],
+                "text": "Social media platforms are useful — but they are not yours."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8f2bb709e455",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9e6159aa3e95",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "162e1ede121c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4e0347d577bf",
+                "_type": "span",
+                "marks": [],
+                "text": "Algorithms change. Accounts get restricted. Reach drops. And casting directors or agencies often prefer a clean, structured portfolio link rather than scrolling through a feed."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "62a846bdd1e0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e4d0d40b15b6",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "583277d6e9ea",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "afc647aacd2c",
+                "_type": "span",
+                "marks": [],
+                "text": "A personal website for a model:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "313f9f19d154",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "618a214bbd10",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "874e77df4c3b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "789f44e27cef",
+                "_type": "span",
+                "marks": [],
+                "text": "Presents your portfolio in a structured way"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b2a5e285187b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a60898f28e32",
+                "_type": "span",
+                "marks": [],
+                "text": "Creates a professional first impression"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ebda7434d571",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "455a0e8050d6",
+                "_type": "span",
+                "marks": [],
+                "text": "Allows you to send one clear link for castings"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ce8329af6354",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cf33d0aad594",
+                "_type": "span",
+                "marks": [],
+                "text": "Strengthens your personal brand"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5cdc8474b4c8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6c0a2cc9b584",
+                "_type": "span",
+                "marks": [],
+                "text": "Makes you searchable by name on Google"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "2a8e9351c878",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5f21295fa626",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "56912716ce7f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "379a08121d84",
+                "_type": "span",
+                "marks": [],
+                "text": "When someone searches your name, they should find a "
+              },
+              {
+                "_key": "e4a41795681e",
+                "_type": "span",
+                "marks": [
+                  "strong",
+                  "em",
+                  "059ea3b02116"
+                ],
+                "text": "professional website"
+              },
+              {
+                "_key": "7e9e809f24a3",
+                "_type": "span",
+                "marks": [],
+                "text": " — not only social profiles."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "059ea3b02116",
+                "_type": "link",
+                "href": "https://www.bandziuk.com/services/website-development"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "0ee53183aee8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d512e6913c69",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f62bd55c2c09",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "226e6d7effb8",
+                "_type": "span",
+                "marks": [],
+                "text": "Your website works for you 24/7."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Website Design for Models and Portfolio Development",
+        "asset": {
+          "_ref": "image-934196bd283f98b61c84d9d7b0cb3a8f1c5e408e-1200x1500-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Focus on your photos and visual presence.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Clean, Minimal Portfolio Design"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "Fashion, commercial, editorial, runway and more.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Structured Portfolio Sections"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Most agencies review portfolios on smartphones.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Mobile-Optimised Experience"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Smooth performance without distractions.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "Fast Loading & Technical Stability"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Easy way for brands and agencies to reach you.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Direct Contact Integration"
+      }
+    ],
+    "title": "How I Build a Website for Models"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Portfolio Website as a Career Growth Tool",
+        "asset": {
+          "_ref": "image-0f1bcce2c3a0e0223a2c7b63be094ef68d093beb-1300x1625-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "cd4ecce75e3a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e73bcf094b59",
+                "_type": "span",
+                "marks": [],
+                "text": "Your Portfolio Website as a Career Growth Tool"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "0cd7f1160fbe",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6a58bb2ab3d5",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "7801e14ebc95",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "741cef36ee2a",
+                "_type": "span",
+                "marks": [],
+                "text": "A professionally built model website helps you:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "31977ebfdb7c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f6c51c5c6e1c",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e92d8485b59d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "dae59b3e9681",
+                "_type": "span",
+                "marks": [],
+                "text": "Submit your portfolio to castings with one link"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c1f2ee71c14f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5dcff7f3527f",
+                "_type": "span",
+                "marks": [],
+                "text": "Work directly with brands and photographers"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "aafa224ad034",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8c34408762ea",
+                "_type": "span",
+                "marks": [],
+                "text": "Build independence beyond agencies"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b4014893d8b2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b0d81bdbfa71",
+                "_type": "span",
+                "marks": [],
+                "text": "Strengthen your professional positioning"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f36680f8a28f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "466b350b912d",
+                "_type": "span",
+                "marks": [],
+                "text": "Control your digital image"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "4c354202e83c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f8913b1e4f8c",
+                "_type": "span",
+                "marks": [],
+                "text": "The goal is not just to display photos."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "676f924c509e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "17b65bccf1ec",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8d2650527a0b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1d124e096849",
+                "_type": "span",
+                "marks": [],
+                "text": "It is to present yourself clearly, confidently and professionally."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8a914bba6eb4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7c64943feed0",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a4d9eef59e7f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c7ca29e8f1c1",
+                "_type": "span",
+                "marks": [],
+                "text": "Your website can include:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b3eef99bea3f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1e2e1c3d5fbf",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "7655b8b7935e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b22bce260077",
+                "_type": "span",
+                "marks": [],
+                "text": "Main portfolio gallery"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "025570ebbd24",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e853ff11ce78",
+                "_type": "span",
+                "marks": [],
+                "text": "About / bio section"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b615a429cd71",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1bc797cc3394",
+                "_type": "span",
+                "marks": [],
+                "text": "Measurements and stats"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "811666da6d61",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "37c6d44f366e",
+                "_type": "span",
+                "marks": [],
+                "text": "Client list (if applicable)"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d984681ae7b8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1accd2e3fd61",
+                "_type": "span",
+                "marks": [],
+                "text": "Contact form"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "61fbd940bd57",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "45d1c0bf8e49",
+                "_type": "span",
+                "marks": [],
+                "text": "Optional blog or updates section"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "46e9dc083945",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "aed9abe4f4ea",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "48b47b089132",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "889c5eda69d7",
+                "_type": "span",
+                "marks": [],
+                "text": "The structure remains simple, elegant and focused on you."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "When model needs a website"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Ideal For",
+      "Not Suitable For"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Beginner models starting their career",
+          "❌ Those not planning to grow professionally"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Agency-represented models",
+          "❌ Those relying only on social media"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Freelance commercial models",
+          "❌ Projects without quality images"
+        ]
+      },
+      {
+        "_key": "f7f9d661012592266e843169093fc417",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Models building a personal brand",
+          "❌ Short-term hobby projects"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "A polished image that builds trust instantly.",
+        "iconName": "trending-up",
+        "title": "Professional Online Presence"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "Clear and organised presentation of your work.",
+        "iconName": "target",
+        "title": "Structured Digital Portfolio"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "Clients can contact you without intermediaries.",
+        "iconName": "layers",
+        "title": "Direct Booking Channel"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Your platform, your rules.",
+        "iconName": "zap",
+        "title": "Full Control Over Your Image"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Appear professionally in Google results.",
+        "iconName": "sparkles",
+        "title": "Search Visibility by Your Name"
+      },
+      {
+        "_key": "6aa2869ca992",
+        "description": "A website you can grow as your career expands.",
+        "iconName": "rocket",
+        "title": "Scalable Personal Brand Foundation"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "What You Receive as a Result"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Frequently Asked Questions"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "0105705134d7",
+          "answer": [
+            {
+              "_key": "0df0e3d1e55b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2eedd0c61d87",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. Social media depends on platform algorithms. A personal website is independent and provides a clean, structured portfolio link for agencies and brands."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Do I need a personal website if I already have Instagram?"
+        },
+        {
+          "_key": "a06380ba19a5",
+          "answer": [
+            {
+              "_key": "d081936eb1b3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b46db3e0c88d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Absolutely. A professional website helps you stand out early and present yourself seriously from the beginning of your career."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Is a website useful for beginner models?"
+        },
+        {
+          "_key": "6e5cbb88210c",
+          "answer": [
+            {
+              "_key": "8553ce354b66",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c73bbf36e311",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. The website can include an easy-to-use content management system so you can upload new photos without technical knowledge."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can I update my portfolio myself?"
+        },
+        {
+          "_key": "92f5467f4e80",
+          "answer": [
+            {
+              "_key": "b7a472f60ca4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0e1e9c32f809",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Typically between 2–4 weeks, depending on the amount of content and design preferences."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "How long does it take to build a model portfolio website?"
+        },
+        {
+          "_key": "d0d4cef86d55",
+          "answer": [
+            {
+              "_key": "253881e3a867",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00ec34ff7578",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. Most agencies and casting directors review portfolios on mobile devices, so responsive design is essential."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Will the website be mobile-friendly?"
+        },
+        {
+          "_key": "587b2c4a55e4",
+          "answer": [
+            {
+              "_key": "719b41242548",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "42cec71e8d08",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. If you work internationally, we can create English and additional language versions."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can the website be multilingual?"
+        },
+        {
+          "_key": "f768c4af5a08",
+          "answer": [
+            {
+              "_key": "9a34906dc9ac",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "619e2e746138",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. Basic SEO optimisation is included so your website ranks when someone searches your name."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can the website appear in Google search results?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "5b90845ff9dc",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "c2de3990e2f7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "25b3e142052b",
+            "_type": "span",
+            "marks": [],
+            "text": "Strategic Approach to Building a Model Portfolio Website"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "854f08002619",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5a99a8bd547c",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "84b111ef1bb4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d2ef98707827",
+            "_type": "span",
+            "marks": [],
+            "text": "A model website is more than a gallery."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a99b8f5ec714",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "33bcc6b5acd7",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "dd472fef4d31",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bdc6e338413a",
+            "_type": "span",
+            "marks": [],
+            "text": "It is a digital positioning tool."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "eb70b33ec21b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e798ab10ea52",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "151a0d3b4a6a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "66838140c7fc",
+            "_type": "span",
+            "marks": [],
+            "text": "The structure is designed around clarity and visual impact:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "883042b9fb93",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a9ec0104a989",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8d46b444c57b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "51a06bf6e10e",
+            "_type": "span",
+            "marks": [],
+            "text": "Strong first visual impression"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f5f511d4f496",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8d5394722c89",
+            "_type": "span",
+            "marks": [],
+            "text": "Clean navigation"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9c328ba30eef",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "84dad51fc0cf",
+            "_type": "span",
+            "marks": [],
+            "text": "Clearly separated portfolio categories"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b687fc21b771",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "34a671ef788e",
+            "_type": "span",
+            "marks": [],
+            "text": "Easy access to contact information"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "682f8603a3ff",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4648aeef6fd9",
+            "_type": "span",
+            "marks": [],
+            "text": "Minimal distractions"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d8f4b37334d4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6ec9f9e57e7b",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2d8414a220b6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c72651c0ed61",
+            "_type": "span",
+            "marks": [],
+            "text": "The design supports your photos, not competes with them."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d0ba1b636b15",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2c45509cbb25",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "356f2fb01bf8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "22feb04e9fd8",
+            "_type": "span",
+            "marks": [],
+            "text": "For models working internationally, the website can also serve as a professional digital portfolio for agencies, fashion houses and casting directors worldwide."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "198328000391",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "460d8125cbf6",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "6767b2025936",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ada3fc76376b",
+            "_type": "span",
+            "marks": [
+              "strong",
+              "em"
+            ],
+            "text": "Unlike social media, a website creates a stable, controlled and professional digital environmen"
+          },
+          {
+            "_key": "791282b184d9",
+            "_type": "span",
+            "marks": [],
+            "text": "t."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3060a376ab35",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1f5f30d8f2fa",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "22851035b61f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "23cbf5d4a47e",
+            "_type": "span",
+            "marks": [],
+            "text": "It signals seriousness."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e883a3582f33",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ef2174d3faef",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e1cbe2123716",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "942b49374155",
+            "_type": "span",
+            "marks": [],
+            "text": "And in a competitive industry, seriousness matters."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

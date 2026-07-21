@@ -285,6 +285,10 @@ Four singlepage builder blocks look editable in Sanity Studio but aren't, and th
 
 **Why:** single source of truth across ~44 pages per block, without needing to keep dozens of documents in sync. **Do not** wire these Sanity fields through to "fix" this without an explicit request from the owner — editing their copy today means editing the component, not Studio. (Full block-by-block audit: `drafts/singlepage-block-audit.md`.)
 
+### `reviewsFullBlock` with empty fields = homepage reviews, single source of truth
+
+Unlike the four blocks above, `reviewsFullBlock`'s own Sanity fields (`pretitle`, `title`, `subtitle`, `reviews[]`) ARE read and rendered when present — this is a genuine content-optional fallback, not hardcoding. `getSinglePageByLang` (`src/sanity/sanity.utils.ts`) checks each `reviewsFullBlock` instance after fetching: if `reviews` is empty, it fetches the current locale's `homepage` `reviewsSection` and substitutes its `pretitle`/`title`/`subtitle`/`reviews` wholesale (mapping `reviewText` → the block's own `text` field). A block with its own reviews (e.g. the `/seo-for-law-firms` etalon) is never touched by the fallback. This means most landing pages can insert an empty `reviewsFullBlock` and automatically show the same real testimonials as the homepage, kept in sync from one place, while pages that need different testimonials can still fill in their own.
+
 ---
 
 ## 7. Summary & Improvement Priorities

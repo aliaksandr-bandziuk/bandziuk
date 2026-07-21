@@ -1,0 +1,1167 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "9de6a3cdf7da",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "47d928893d45",
+                "_type": "span",
+                "marks": [],
+                "text": "Pozycjonowanie salonu kosmetycznego, które zwiększa liczbę rezerwacji"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "2a46c22591ff",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "526313a44de0",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "737396601359",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "454033fd99d4",
+                "_type": "span",
+                "marks": [],
+                "text": "Jeśli Twój salon kosmetyczny ma "
+              },
+              {
+                "_key": "faf937f849c4",
+                "_type": "span",
+                "marks": [
+                  "4f1bddbc490a"
+                ],
+                "text": "stronę internetową"
+              },
+              {
+                "_key": "ea46a90f1ba9",
+                "_type": "span",
+                "marks": [],
+                "text": ", ale większość klientek pochodzi z Instagrama, Booksy lub płatnych reklam, oznacza to, że potencjał Google nie jest wykorzystany. Oferuję SEO dla salonu kosmetycznego jako narzędzie budowy stabilnego kanału pozyskiwania klientek."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "4f1bddbc490a",
+                "_type": "link",
+                "href": "https://www.bandziuk.com/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "cfecea581f23",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "33e16593055b",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a86dc5279ff3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "57f37110a21f",
+                "_type": "span",
+                "marks": [],
+                "text": "Kiedy ktoś wpisuje w Google „manicure hybrydowy + miasto”, „kosmetyczka blisko mnie” albo „laserowe usuwanie owłosienia + dzielnica”, to nie przegląda inspiracji — szuka miejsca, w którym może się umówić. Pozycjonowanie strony salonu kosmetycznego polega na tym, aby Twój biznes był widoczny właśnie w takich momentach."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fce0ed4433e3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f7b5129c184c",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "7a662a4f420a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "19ac1ec231a2",
+                "_type": "span",
+                "marks": [],
+                "text": "To nie jest „marketing dla widoczności”. To system, który ma prowadzić do pełnego kalendarza."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Pozycjonowanie salonu kosmetycznego, które zwiększa liczbę rezerwacji",
+        "asset": {
+          "_ref": "image-9318242118d54f5152cec1e5671c8dabf7e1cec3-1200x1350-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Strategia wynika z realnych zapytań klientek.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Zaczynam od popytu"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "Miasto, dzielnica, mapa, opinie, frazy „blisko mnie”.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Stawiam na lokalność"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Każda usługa ma swoją podstronę.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Promuję usługi, nie „stronę ogólnie”"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Widoczność ma prowadzić do rezerwacji.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "Łączę SEO i konwersję"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Priorytety, plan i mierzalne cele bez „magii SEO”.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Pracuję transparentnie"
+      }
+    ],
+    "title": "5 zasad pozycjonowania salonu kosmetycznego"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Ddlaczego SEO salonu urody to stabilny kanał pozyskiwania klientek",
+        "asset": {
+          "_ref": "image-951624d5bb81cd9d43ab04c0eef8d9700862da35-1200x1350-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "039b2b38e43d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cbe739542c5a",
+                "_type": "span",
+                "marks": [],
+                "text": "Ddlaczego SEO salonu urody to stabilny kanał pozyskiwania klientek"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "17479e5a0e31",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fe22044ac20e",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ad409255ff8d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a9b6077db926",
+                "_type": "span",
+                "marks": [],
+                "text": "W branży beauty najczęściej wygrywa ten salon, który ma stały dopływ klientek — nie ten, który akurat ma „dobry miesiąc” w social media. Problem w tym, że zasięgi i reklamy bywają nieprzewidywalne: rośnie koszt kliknięcia, zmieniają się algorytmy, a wyniki zależą od budżetu i sezonu."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0dc66d510241",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "511122307105",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9e6aec51acfb",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ee3b25ae93fe",
+                "_type": "span",
+                "marks": [],
+                "text": "Pozycjonowanie salonu kosmetycznego działa inaczej. Google przechwytuje popyt, który istnieje każdego dnia. Jeśli Twoja oferta pojawia się wysoko na zapytania usługowe i lokalne, salon zaczyna budować przewidywalność: rezerwacje nie są „szczęściem”, tylko efektem dobrze zaprojektowanej widoczności."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c3ecc8af2066",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "580e803ac327",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "865ad852de59",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "04dbdfa00cca",
+                "_type": "span",
+                "marks": [],
+                "text": "W praktyce SEO dla salonu kosmetycznego to połączenie:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b320784af2a3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a2217b565ae8",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "245e3184b5a8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "bd704ac0f5d5",
+                "_type": "span",
+                "marks": [],
+                "text": "struktury usług (co promujemy i na jakie zapytania),"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "85c9e123c3f4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "be072e6b133e",
+                "_type": "span",
+                "marks": [],
+                "text": "lokalnej widoczności (miasto, dzielnica, mapa),"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "732e466a253b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cb6f2ed8a5d4",
+                "_type": "span",
+                "marks": [],
+                "text": "wiarygodności (opinie, dowody jakości),"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "773370dc3a73",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0c1adab9c2c8",
+                "_type": "span",
+                "marks": [],
+                "text": "oraz ścieżki rezerwacji (UX, zaufanie, prosty kontakt)."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "2b966a07c69e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "abb29d8652a2",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1ae2db189655",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3bbb225ae640",
+                "_type": "span",
+                "marks": [],
+                "text": "To podejście buduje długoterminową wartość, bo strona staje się aktywem biznesu."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Kiedy promocja witryny WWW salonu kosmetycznego jest odpowiednia?"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Dla kogo to pasuje",
+      "Dla kogo to nie pasuje"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Salon chce stałych rezerwacji z Google",
+          "❌ Oczekujesz efektu „na jutro”"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Biznes lokalny (miasto/dzielnica)",
+          "❌ Nie masz strony i nie planujesz jej wdrożyć"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Chcesz uniezależnić się od reklam",
+          "❌ Chcesz jednorazowej akcji bez strategii"
+        ]
+      },
+      {
+        "_key": "f7f9d661012592266e843169093fc417",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Masz kluczowe usługi do promowania",
+          "❌ Nie chcesz dostarczyć podstawowych materiałów"
+        ]
+      },
+      {
+        "_key": "dfcbb764400aa63a79db68e7e6ad9c78",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Chcesz wzrostu w dłuższej perspektywie",
+          "❌ Szukasz gwarancji 1. miejsca"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Dostajesz uporządkowany plan działań pod Twoje usługi, lokalizację i konkurencję — z priorytetami i jasną logiką wzrostu.",
+        "iconName": "trending-up",
+        "title": "Strategię SEO dopasowaną do salonu"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "Najważniejsze usługi (np. manicure, stylizacja rzęs, kosmetologia) zyskują osobne punkty wejścia i lepsze pozycje na zapytania klientek.",
+        "iconName": "layers",
+        "title": "Większą widoczność kluczowych usług"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Wzmacniamy widoczność na frazy lokalne, aby salon pojawiał się w wynikach dla osób szukających w Twojej okolicy.",
+        "iconName": "zap",
+        "title": "Silniejszą obecność lokalną w Google"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Optymalizujemy strukturę i treść tak, aby użytkowniczka szybko rozumiała ofertę, ufała i mogła łatwo się umówić.",
+        "iconName": "sparkles",
+        "title": "Podstrony usług, które prowadzą do rezerwacji"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "W miarę wzrostu organicznego ruchu maleje presja stałego „dokładania” budżetu reklamowego.",
+        "iconName": "target",
+        "title": "Mniejszą zależność od płatnych reklam"
+      },
+      {
+        "_key": "6aa2869ca992",
+        "description": "SEO staje się aktywem: rośnie razem z salonem, nowymi usługami, zespołem i kolejnymi lokalizacjami.",
+        "iconName": "rocket",
+        "title": "Skalowalny kanał pozyskiwania klientek"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "Co otrzymujesz w wyniku współpracy"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Najczęściej zadawane pytania"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "ca52f80c7ed2",
+          "answer": [
+            {
+              "_key": "26fba96805a7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "5f78e5b9f546",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Cena zależy od miasta, konkurencji, liczby usług i stanu strony. Po analizie przygotowuję plan i zakres działań dopasowany do celu: rezerwacje, lokalna widoczność i wzrost usług."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Ile kosztuje pozycjonowanie salonu kosmetycznego?"
+        },
+        {
+          "_key": "c5e21c329f26",
+          "answer": [
+            {
+              "_key": "2b49a70e44a3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "35697deff106",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Pierwsze zmiany widoczności często widać po 6–10 tygodniach. Stabilny wzrost zwykle buduje się w perspektywie 3–6 miesięcy, w zależności od konkurencji."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Kiedy pojawią się pierwsze efekty SEO?"
+        },
+        {
+          "_key": "267bcd1f3e04",
+          "answer": [
+            {
+              "_key": "a2b741c1dcee",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ec28b2d104e4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak, bo Google przechwytuje popyt „tu i teraz”. Social media budują relację, ale SEO daje stały dopływ osób, które już chcą się umówić."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Czy SEO ma sens, jeśli salon działa głównie przez Instagram/Booksy?"
+        },
+        {
+          "_key": "a6ed3aab2deb",
+          "answer": [
+            {
+              "_key": "79ef02b56142",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4b4e8b3eb391",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "To praca nad widocznością na zapytania lokalne oraz w mapach Google: lokalizacja, spójne dane, opinie, struktura podstron usług i dopasowanie do zapytań „blisko mnie”."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Na czym polega lokalne SEO dla salonu urody?"
+        },
+        {
+          "_key": "9f75f15f8d58",
+          "answer": [
+            {
+              "_key": "0a796a8f2913",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "99bce7327080",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak. Nowy salon może zbudować przewagę dzięki dobrej strukturze strony, odpowiednim podstronom usług oraz lokalnym sygnałom od początku."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Czy nowe studio urody może się wypozycjonować?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "5b90845ff9dc",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "95c1ce2e0680",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "fff215e58482",
+            "_type": "span",
+            "marks": [],
+            "text": "Pozycjonowanie strony salonu kosmetycznego w Google — głęboko i praktycznie"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "a1bc2387372d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c9bbb2e03b71",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d813735b7516",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "eff127ee84b0",
+            "_type": "span",
+            "marks": [],
+            "text": "Pozycjonowanie salonu kosmetycznego zaczyna się od pytania: jak klientki faktycznie szukają usług. W beauty niemal wszystko jest usługowe i lokalne. Użytkowniczka nie wpisuje „salon kosmetyczny”, tylko szuka konkretu: manicure, rzęsy, kosmetolog, depilacja laserowa — najlepiej w swojej okolicy."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ac9526434739",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d05061d2d3f3",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0f5c50589c7e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bb3cc11d398a",
+            "_type": "span",
+            "marks": [],
+            "text": "Dlatego skuteczna strategia SEO dla salonu kosmetycznego opiera się na architekturze usług. Zamiast jednej podstrony „Usługi” tworzy się czytelne kategorie i podstrony dla kluczowych zabiegów. Każda taka podstrona odpowiada na konkretne intencje: co to jest, dla kogo, efekty, przeciwwskazania, orientacyjny koszt, czas trwania, jak umówić wizytę. To nie jest „pisanie pod Google” — to jest budowanie strony, która ułatwia decyzję."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "154aa6cbacec",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "981d30ad0745",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f6f2ad9f6f81",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "82c3fa252453",
+            "_type": "span",
+            "marks": [],
+            "text": "Lokalne pozycjonowanie salonu kosmetycznego — gdzie powstaje przewaga"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "d3337c9fbfcc",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "db1727fa4c7b",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "af15ee8b0886",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0fbad8a25d2a",
+            "_type": "span",
+            "marks": [],
+            "text": "Lokalne SEO jest krytyczne, bo klientki często wpisują: „blisko mnie”, nazwę dzielnicy albo miasta. Dobra widoczność lokalna powstaje wtedy, gdy strona jasno komunikuje:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "058ea0926564",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2611c9c8af8e",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4e77f3a78f3a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "67f1fc02e2f2",
+            "_type": "span",
+            "marks": [],
+            "text": "gdzie salon działa,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f233517aea4d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "031f589e6ecc",
+            "_type": "span",
+            "marks": [],
+            "text": "jakie usługi są dostępne,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "fe27edeef1a4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "80a59ff9eb9b",
+            "_type": "span",
+            "marks": [],
+            "text": "dlaczego warto wybrać właśnie ten salon,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "5ad42002981f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4b69ea569aab",
+            "_type": "span",
+            "marks": [],
+            "text": "jak szybko można się umówić."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "aded42f800b9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "104d0377e86f",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4b5386bdcfc4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6b116c6b6e6b",
+            "_type": "span",
+            "marks": [],
+            "text": "W praktyce pozycjonowanie strony studia urody obejmuje nie tylko treści, ale też spójność danych, mapę, opinie i strukturę serwisu. To zestaw sygnałów, które budują wiarygodność w oczach Google i użytkowniczek."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8d287d98cb65",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d27c54513a5f",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b95aa16a4c11",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "73201971539f",
+            "_type": "span",
+            "marks": [],
+            "text": "Dlaczego wiele salonów „nie ma efektów z SEO”"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "7b29c1aae6f1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "dfb1f9fa4295",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9c36438322b2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6d4a34d14694",
+            "_type": "span",
+            "marks": [],
+            "text": "Najczęstszy problem nie jest w tym, że „SEO nie działa”. Problemem jest brak podstaw:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b5490373aef2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ac5f98dcc25a",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "dc83a2f6e75f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4b184e35cce8",
+            "_type": "span",
+            "marks": [],
+            "text": "brak podstron usług (wszystko w jednym miejscu),"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "59250329993c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e94ff1d8b959",
+            "_type": "span",
+            "marks": [],
+            "text": "treści są zbyt ogólne i nie odpowiadają na pytania,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ca59deff68af",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4e3918e69b06",
+            "_type": "span",
+            "marks": [],
+            "text": "strona na telefonie ładuje się wolno,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "287af629071b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c65136a82840",
+            "_type": "span",
+            "marks": [],
+            "text": "brak lokalnego kontekstu,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1583f5cde4e8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1119ea2a56ac",
+            "_type": "span",
+            "marks": [],
+            "text": "brak zaufania (opinie, dowody jakości, jasny kontakt)."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3a9d0f26d971",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c0e81c68c316",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "549247f573cd",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "38312f2057e3",
+            "_type": "span",
+            "marks": [],
+            "text": "Pozycjonowanie salonu kosmetycznego zaczyna działać, kiedy strona jest zbudowana jak narzędzie sprzedaży usług, a nie tylko wizytówka."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "63b252ad062a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a0016397c88c",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "317184337edc",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "3ca84343a8a7",
+            "_type": "span",
+            "marks": [],
+            "text": "SEO jako system wzrostu rezerwacji"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "1bf1b8f23026",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d8974d8316a2",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "faa256298264",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5b6839fd602f",
+            "_type": "span",
+            "marks": [],
+            "text": "Gdy SEO jest wdrożone poprawnie, salon zyskuje stabilność: mniej „pustych okien”, większa przewidywalność miesiąca, wzrost najbardziej opłacalnych usług i mniejsza zależność od płatnych kampanii. To długoterminowy kanał pozyskiwania klientek, który rośnie razem z Twoim biznesem."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

@@ -1,0 +1,1527 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "2ec9bec3a8a7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b5719316cb18",
+                "_type": "span",
+                "marks": [],
+                "text": "Почему SEO-продвижение салона красоты — это актив, а не расход"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "c0ffd32254f5",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7bc2658a52ef",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d3ca3e77c7af",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ae5cec6ad268",
+                "_type": "span",
+                "marks": [],
+                "text": "Салон красоты часто опирается на социальные сети и рекламу. Но в реальности это создаёт зависимость: сегодня есть бюджет — есть лиды, завтра бюджет уменьшился — запись просела. SEO-продвижение сайта салона красоты работает иначе: вы создаёте актив, который приводит клиентов регулярно, потому что поисковый спрос существует каждый день."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "693a7861757d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e2771fecd435",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "465da11e5783",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4fc1807aec3d",
+                "_type": "span",
+                "marks": [],
+                "text": "Ключевой момент: люди не «листают» поиск, как соцсети. Они формулируют конкретную потребность — и выбирают из первых результатов. Запросы вроде «студия маникюра рядом», «косметолог в [районе]», «лазерная эпиляция [город]» показывают высокую готовность записаться. SEO салона красоты — это способ системно попадать в такие запросы."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "eaab98188819",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "938866a474b7",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9de6a3cdf7da",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "79a026d85ae4",
+                "_type": "span",
+                "marks": [],
+                "text": "Ещё одна причина, почему это важно: "
+              },
+              {
+                "_key": "33e2c67aa097",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "салон — локальный бизнес"
+              },
+              {
+                "_key": "47d928893d45",
+                "_type": "span",
+                "marks": [],
+                "text": ". Это значит, что побеждает не тот, кто громче, а тот, кто точнее: лучше представлен в локальной выдаче, имеет сильные страницы услуг, понятные цены/оффер и доверие (отзывы, портфолио, результаты)."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Владелица салона красоты",
+        "asset": {
+          "_ref": "image-9318242118d54f5152cec1e5671c8dabf7e1cec3-1200x1350-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Сначала запросы и интенты, потом структура страниц.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Начинаю со спроса"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "Район, город, карта, отзывы, геозапросы.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Упор на локальность"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Логика страницы и доверие важнее «красивых слов».",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Упрощаю путь к записи"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Каждая услуга получает свою точку входа.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "Продвигаю услуги, а не сайт"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Понятный план, приоритеты и измеримые цели.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Работаю прозрачно"
+      }
+    ],
+    "title": "5 принципов работы над SEO салона красоты"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "SEO-продвижение сайта салона красоты",
+        "asset": {
+          "_ref": "image-951624d5bb81cd9d43ab04c0eef8d9700862da35-1200x1350-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "c80c485f5407",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b761e5a164db",
+                "_type": "span",
+                "marks": [],
+                "text": "Техническая база и конверсия: без этого «раскрутка сайта студии красоты» не взлетит"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "b29437d6be6b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6d7d761f1698",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b49ae8624e1d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "01b4a0cdfe31",
+                "_type": "span",
+                "marks": [],
+                "text": "Даже сильный контент не даст результата, если сайт неудобен или технически слабый. В SEO-продвижении салона красоты я всегда смотрю на фундамент: скорость, мобильную версию, корректную индексацию, структуру заголовков, дубляжи страниц, навигацию и перелинковку."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "709155820457",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "36e9b7e51d30",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5651207baff1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "67e26578ccd7",
+                "_type": "span",
+                "marks": [],
+                "text": "Но техническая часть — это только половина. Вторая половина — конверсия. В бьюти-сфере клиент выбирает быстро: ему нужно понять, что вы делаете, где вы находитесь, сколько примерно стоит, почему вам можно доверять и как записаться. Поэтому на странице услуг важны: понятные блоки, фото работ, ответы на частые вопросы, реальные преимущества, удобные контакты и быстрые сценарии записи."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "adc6b25c19fa",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "31c929aad10f",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c5fdca575186",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "10afdae1ec50",
+                "_type": "span",
+                "marks": [],
+                "text": "SEO "
+              },
+              {
+                "_key": "990e6016a7a8",
+                "_type": "span",
+                "marks": [
+                  "af32603fe08f"
+                ],
+                "text": "салона красоты"
+              },
+              {
+                "_key": "d2c772b0b52e",
+                "_type": "span",
+                "marks": [],
+                "text": " выигрывает там, где сайт не просто «в топе», а действительно превращает трафик в заявки."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "af32603fe08f",
+                "_type": "link",
+                "href": "https://www.bandziuk.com/ru/portfolio/e-commerce-lending-i-zashita-videokursa"
+              }
+            ],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Когда салону красоты подходит раскрутка сайта"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Подходит, если хотите",
+      "Не подходит, если ожидаете"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Стабильные записи из Google",
+          "❌ «Мгновенный топ за 2 недели»"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Рост клиентов в своём районе/городе",
+          "❌ Продвижение без сайта или без контента"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Уменьшить зависимость от рекламы",
+          "❌ Результат без участия и предоставления материалов"
+        ]
+      },
+      {
+        "_key": "f7f9d661012592266e843169093fc417",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Продвигать конкретные услуги (маникюр, косметологию и т.д.)",
+          "❌ Продажи без улучшения сайта и доверия"
+        ]
+      },
+      {
+        "_key": "dfcbb764400aa63a79db68e7e6ad9c78",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Построить долгосрочный канал привлечения",
+          "❌ Разовый «рывок», а не системную работу"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Что продвигаем, куда ведём трафик, почему это сработает.",
+        "iconName": "trending-up",
+        "title": "Стратегию продвижения салона"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "По услугам и по геозапросам, а не «по общим словам».",
+        "iconName": "layers",
+        "title": "Рост видимости в Google"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Структура, тексты, доверие, сценарий записи.",
+        "iconName": "zap",
+        "title": "Страницы услуг, которые продают"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Усиление выдачи в районе/городе и поддержка локальных запросов.",
+        "iconName": "sparkles",
+        "title": "Локальное присутствие"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "Приоритеты, сроки, логика действий и контрольные точки.",
+        "iconName": "target",
+        "title": "Прозрачный план работ"
+      },
+      {
+        "_key": "6aa2869ca992",
+        "description": "Трафик, который не выключается вместе с рекламным бюджетом.",
+        "iconName": "rocket",
+        "title": "Долгосрочный актив"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "Что вы получаете на выходе"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Частые вопросы о раскрутке"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "d8bc278578bd",
+          "answer": [
+            {
+              "_key": "f9385629ec8d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1ff7f639f46a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Стоимость зависит от конкуренции в вашем городе, количества услуг, состояния сайта и целей (например, нужен ли упор на локальную выдачу и Google Maps). Я начинаю с анализа и формирую понятный план: что делаем в первую очередь и почему именно это даст рост."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько стоит SEO-продвижение сайта салона красоты?"
+        },
+        {
+          "_key": "86dea44cfd42",
+          "answer": [
+            {
+              "_key": "40660eaf39c5",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "f8214e25b86d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Обычно первые изменения видимости появляются через 6–10 недель, когда устраняются технические ограничения и сайт получает правильную структуру под спрос. Устойчивый рост чаще всего формируется в горизонте 3–6 месяцев — это нормально для конкурентных локальных ниш."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Когда появятся первые результаты SEO для салона красоты?"
+        },
+        {
+          "_key": "954da613a539",
+          "answer": [
+            {
+              "_key": "e530b3876fe4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "96d323230fdb",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Для нового салона особенно важны правильные страницы услуг, локальные сигналы (район, адрес, карта), доверие (фото, результаты, отзывы) и точная семантика. SEO помогает «встроиться» в спрос даже без большой аудитории в соцсетях."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Можно ли продвигать новую студию красоты без сильного бренда?"
+        },
+        {
+          "_key": "d8eae7c88453",
+          "answer": [
+            {
+              "_key": "26379de0dbe9",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2d1908c6c74d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Это разные формулировки одного намерения. «Раскрутка» чаще используют, когда хотят быстро понять, как получить клиентов. «SEO-продвижение» — более профессиональный запрос. На странице должны быть обе группы формулировок, чтобы покрыть весь спрос."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Что важнее: «продвижение сайта салона красоты» или «раскрутка сайта студии красоты»?"
+        },
+        {
+          "_key": "e5ba9e391a73",
+          "answer": [
+            {
+              "_key": "83c04b639641",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "eade82eacd92",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Часто да. В большинстве случаев требуется улучшить структуру, логику страницы услуг, скорость, мобильную версию, тексты и доверие. Это не «доработки ради доработок», а необходимые элементы, чтобы посетитель действительно записывался."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Нужно ли что-то менять на сайте, чтобы SEO работало?"
+        },
+        {
+          "_key": "f457934df8b1",
+          "answer": [
+            {
+              "_key": "43e9551629e0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "660e8b8dc019",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Минимум: список услуг, локация (город/район), конкурентные преимущества, фото работ/интерьера, цены (или диапазоны), контакты и способ записи. Чем быстрее эти материалы есть, тем быстрее SEO начинает давать эффект."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Какие данные и материалы нужны от салона?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "5b90845ff9dc",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "8514ebe888b0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "feace5f8791b",
+            "_type": "span",
+            "marks": [],
+            "text": "Продвижение сайта салона красоты начинается с понимания того, как клиент ищет услуги. В бьюти-сфере почти все запросы «приземлены» к конкретной задаче и месту: человек хочет решить вопрос быстро и рядом. Поэтому SEO салона красоты строится не вокруг абстрактных фраз, а вокруг коммерческих запросов и страниц, которые точно отвечают на намерение."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b0375243f545",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9865d043acfa",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "defb9dd65733",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "27a957e6199f",
+            "_type": "span",
+            "marks": [],
+            "text": "Какие запросы приводит SEO салона красоты"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "dad313ffc2f2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8a51b9866447",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "fad4db8bff79",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "615a7d008072",
+            "_type": "span",
+            "marks": [],
+            "text": "Клиенты ищут по-разному, и задача продвижения — охватить все типы запросов:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "71f32c9c751d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4b9f6869e495",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "353468ef8cd7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f53db174bf0d",
+            "_type": "span",
+            "marks": [],
+            "text": "Запросы по услугам"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+        "_key": "bcae763c58b3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1217ca8c5bab",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0a037d1dbe1e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "987f9103534a",
+            "_type": "span",
+            "marks": [],
+            "text": "студия маникюра [город/район]"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "7b7a7bd4e63a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0c79ceae3032",
+            "_type": "span",
+            "marks": [],
+            "text": "косметолог [город/район]"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "90dcbfb5d702",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0e77df35f3f4",
+            "_type": "span",
+            "marks": [],
+            "text": "лазерная эпиляция [город/район]"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1cb5e1e72105",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "db019e3f5a69",
+            "_type": "span",
+            "marks": [],
+            "text": "оформление бровей [город/район]"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e9843add5ae3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "49de75779b40",
+            "_type": "span",
+            "marks": [],
+            "text": "окрашивание волос [город/район]"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c85cbe07d803",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f48efb0c853a",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "82876230516f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8e271e210435",
+            "_type": "span",
+            "marks": [],
+            "text": "Запросы «рядом» и локальные сценарии"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+        "_key": "3153c1db4a4f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8c340fd0f04c",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "812c4bf17d81",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4e459ea0bcc6",
+            "_type": "span",
+            "marks": [],
+            "text": "салон красоты рядом"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "703f0680a327",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8424047081df",
+            "_type": "span",
+            "marks": [],
+            "text": "маникюр рядом"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "5d90b9a00026",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f6fe027b9172",
+            "_type": "span",
+            "marks": [],
+            "text": "косметолог рядом"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "cdf7ac1a52fd",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d3b466fa6902",
+            "_type": "span",
+            "marks": [],
+            "text": "студия красоты рядом со мной"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c6c5835a8af4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1b21afd42750",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b43f71ed661c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "330e9c4b9448",
+            "_type": "span",
+            "marks": [],
+            "text": "Именно вторая группа — основа локального SEO: здесь клиент обычно выбирает быстро, потому что потребность сформирована, а выбор ограничен локацией."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "dfb6f1c99888",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "fff7b7244623",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "39a874e750f4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "60ae024572d5",
+            "_type": "span",
+            "marks": [],
+            "text": "Почему локальное SEO критично для студии красоты"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "977627d6e288",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d6718ebe684b",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "15cb0d556b2f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "3e7541ca4054",
+            "_type": "span",
+            "marks": [],
+            "text": "Салон красоты — это бизнес, который выигрывает у конкурентов не только качеством услуг, но и заметностью в правильный момент. Локальная выдача Google (в том числе карты) часто показывает результаты ещё до привычных сайтов. Поэтому продвижение салона красоты включает работу с локальными факторами: карточка компании, точные данные о локации, отзывы, соответствие страниц услуг реальному спросу."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "eba7aa1dcaad",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0a539ed36958",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "14a82becb6c9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "fe6fc89ebe0c",
+            "_type": "span",
+            "marks": [],
+            "text": "Если вы продвигаете сайт без локальной составляющей, вы теряете самый «горячий» трафик — людей, готовых записаться сегодня или завтра."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "7e2899de8316",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "16fa43be2750",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "5da0adbb8068",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4c5b35fb1d95",
+            "_type": "span",
+            "marks": [],
+            "text": "Почему «просто сделать SEO» недостаточно"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "4a391dc5ab56",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a9acf184f410",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9667b988d567",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5857a24b0465",
+            "_type": "span",
+            "marks": [],
+            "text": "Многие ожидают, что раскрутка сайта студии красоты — это добавление ключевых слов и пара технических правок. На практике этого недостаточно, потому что клиент выбирает салон не только по позиции в поиске. Он выбирает по ясности, доверению и удобству записи."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3fc2a0a3126f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7e30f7630a75",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "7323b7e3b267",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b20cf1299355",
+            "_type": "span",
+            "marks": [],
+            "text": "Поэтому продвижение сайта салона красоты должно включать:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "05f44017bbbe",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e637ccf68c7b",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "61ac66e7cda3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4ddf8540d46f",
+            "_type": "span",
+            "marks": [],
+            "text": "структуру страниц под услуги и под географию"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8afb14a4f26f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "840992c87488",
+            "_type": "span",
+            "marks": [],
+            "text": "понятный оффер и доказательства качества (фото работ, опыт, отзывы)"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "069970b36b28",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "12e2e27c7ce0",
+            "_type": "span",
+            "marks": [],
+            "text": "удобный путь к записи (контакты, мессенджеры, форма, кнопки)"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "98147478c985",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8a12da90036f",
+            "_type": "span",
+            "marks": [],
+            "text": "тексты, которые не «восхваляют», а объясняют и помогают выбрать"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4be516ea1bea",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "eb80fee26709",
+            "_type": "span",
+            "marks": [],
+            "text": "техническую базу: скорость, мобильность, корректная индексация"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f73caf8636cd",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f67f56e5517d",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "009dfda65622",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e605c7b15567",
+            "_type": "span",
+            "marks": [],
+            "text": "Когда это собрано в систему, SEO превращается в канал роста, а сайт — в инструмент продаж."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "dca7b7d46d12",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "33a0916ae9a1",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f5c76ce08def",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "26544beb03ff",
+            "_type": "span",
+            "marks": [],
+            "text": "Что даёт SEO-продвижение салону в бизнес-цифрах"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "689cacaada6d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "68b04201e128",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9eaf6a48fe80",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5be2d7167880",
+            "_type": "span",
+            "marks": [],
+            "text": "Правильное SEO влияет не только на «посещаемость». Оно влияет на управляемость бизнеса:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3d72feea6cdf",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "50990ada5e3a",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "479faecd6f55",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "736aabdc6781",
+            "_type": "span",
+            "marks": [],
+            "text": "меньше пустых окон в расписании"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2f1556681b07",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5d7a14dce3f7",
+            "_type": "span",
+            "marks": [],
+            "text": "рост повторных обращений (клиент запомнил и вернулся)"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "fb0532619100",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b0fd18fc46b2",
+            "_type": "span",
+            "marks": [],
+            "text": "возможность планировать нагрузку мастеров"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "7bb5d45b2aa5",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6c425d216cd2",
+            "_type": "span",
+            "marks": [],
+            "text": "снижение зависимости от рекламы"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "bb760197f6a8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "43deab3df94d",
+            "_type": "span",
+            "marks": [],
+            "text": "укрепление бренда на локальном рынке"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e87a709d9ffc",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b53d7db1e961",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "65814be4bfcb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f60f07e7406a",
+            "_type": "span",
+            "marks": [],
+            "text": "Продвижение студии красоты через Google особенно эффективно, когда салон понимает свою экономику: какие услуги маржинальны, какие мастера требуют загрузки, какие направления нужно развивать. Тогда SEO не просто приводит трафик — оно усиливает именно те услуги, которые дают рост прибыли."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c520a27ebb44",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "3c3b241e24c5",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "abe127c66eaa",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "882e843bc421",
+            "_type": "span",
+            "marks": [],
+            "text": "С чего начинается работа над раскруткой сайта студии красоты"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "c9f6d1a116eb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "74ddcd66d4a1",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "eaed00688e23",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f80ed0e169d2",
+            "_type": "span",
+            "marks": [],
+            "text": "Я начинаю с анализа спроса и конкурентов в вашем городе/районе, затем формирую семантические кластеры и структуру: какие страницы нужны, какие запросы они закрывают, как выстроить доверие и конверсию. После этого — техническая база, контент и локальные факторы. Это последовательный процесс, который делает результат предсказуемым."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a4150bb0998d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5c350ae04705",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3d6f980b1c3f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5835078c0cb6",
+            "_type": "span",
+            "marks": [],
+            "text": "Если вам нужно SEO-продвижение сайта салона красоты, которое приводит клиентов из поиска, а не просто «красивый отчёт», я выстрою стратегию под ваши услуги и вашу локацию — и "
+          },
+          {
+            "_key": "5f66c3b6d745",
+            "_type": "span",
+            "marks": [
+              "49f1f0064ee7"
+            ],
+            "text": "сделаю сайт"
+          },
+          {
+            "_key": "da28ead6523f",
+            "_type": "span",
+            "marks": [],
+            "text": " инструментом роста бизнеса."
+          }
+        ],
+        "markDefs": [
+          {
+            "_key": "49f1f0064ee7",
+            "_type": "link",
+            "href": "https://www.bandziuk.com/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty"
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

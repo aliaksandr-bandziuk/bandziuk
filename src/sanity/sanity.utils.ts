@@ -417,7 +417,50 @@ export async function getSinglePageByLang(
     }
   `;
 
-  return await client.fetch(singlePageQuery, { lang, slug });
+  const page = await client.fetch(singlePageQuery, { lang, slug });
+  if (page) {
+    await hydrateReviewsFullBlockFallback(page, lang);
+  }
+  return page;
+}
+
+// reviewsFullBlock is a content-optional toggle block (see CLAUDE.md):
+// an instance with no reviews of its own renders the current locale's
+// homepage reviewsSection instead, so editors don't have to keep the same
+// testimonials duplicated across every landing page. Own fields (when the
+// block has its own reviews, e.g. the etalon) always take priority — this
+// only fills in blocks that were left empty.
+async function hydrateReviewsFullBlockFallback(page: any, lang: string) {
+  const emptyBlocks = (page.contentBlocks ?? []).filter(
+    (block: any) => block._type === "reviewsFullBlock" && !block.reviews?.length
+  );
+  if (!emptyBlocks.length) return;
+
+  const homepageReviews = await client.fetch(
+    groq`*[_type == "homepage" && language == $lang][0]{
+      "pretitle": reviewsSection.pretitle,
+      "title": reviewsSection.title,
+      "subtitle": reviewsSection.subtitle,
+      "reviews": reviewsSection.reviews
+    }`,
+    { lang },
+    { next: { revalidate: 60 } }
+  );
+  if (!homepageReviews?.reviews?.length) return;
+
+  for (const block of emptyBlocks) {
+    block.pretitle = homepageReviews.pretitle;
+    block.title = homepageReviews.title;
+    block.subtitle = homepageReviews.subtitle;
+    block.reviews = homepageReviews.reviews.map((review: any) => ({
+      _key: review._key,
+      name: review.name,
+      position: review.position,
+      country: review.country,
+      text: review.reviewText,
+      image: review.image,
+    }));
+  }
 }
 
 export async function getAllSinglePagesByLang(lang: string): Promise<

@@ -1,0 +1,835 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "652cfd538530",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4909bb58e47a",
+                "_type": "span",
+                "marks": [],
+                "text": "SEO for Auto Repair Shop as a Business Growth Strategy"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "753fb40b2854",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "deb2dfb90eff",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "df7a730faaba",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "96423cedb318",
+                "_type": "span",
+                "marks": [],
+                "text": "SEO for an auto repair shop is not about adding keywords to a website. It is a structured approach to attracting customers who already need your services. Users typically look for precise services — whether it’s brake maintenance, engine diagnostics, tire replacement, or finding a nearby auto repair shop."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a67cd0b5c802",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "143a9de28efa",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "db28efb064a9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7d3340a74a4a",
+                "_type": "span",
+                "marks": [],
+                "text": "Effective auto repair SEO ensures that your website appears when potential customers are ready to contact a service provider. That means your website needs a clear structure, dedicated pages for each service, and content that earns the confidence of both visitors and search engines."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e7a7ad380d62",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ed8490fa15d0",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "465f7ff58186",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7fe439b01b76",
+                "_type": "span",
+                "marks": [],
+                "text": "My approach focuses on turning search traffic into phone calls, bookings, and real customers."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "SEO for Auto Repair Shop as a Business Growth Strategy",
+        "asset": {
+          "_ref": "image-a4b23bc699bef78039d09625b1451ecb72709d37-800x1138-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Understanding your local competition.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Market and competitor analysis"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "High-intent and long-tail searches.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Keyword research and clustering"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Service-focused pages.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Website structure optimization"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Titles, headings, SEO content.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "On-page SEO and content optimization"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Clients from Chat GPT, Perplexity, Copilot and other AI.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "AI search optimization (GEO / AEO)"
+      }
+    ],
+    "title": "How I Work on SEO for Auto Repair Shop Websites"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Technical SEO and Website Optimization for Auto Repair Shops",
+        "asset": {
+          "_ref": "image-311f54b0e7b25723b62b5ae6afc7676255b4ec25-800x1140-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "76149b4b45d4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6e60e3562026",
+                "_type": "span",
+                "marks": [],
+                "text": "Technical SEO and Website Optimization for Auto Repair Shops"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "0359a4924ecc",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "da6ffcb2572f",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "dd4a6915b2e3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4f3b3f0d0068",
+                "_type": "span",
+                "marks": [],
+                "text": "Technical SEO is the foundation of successful auto repair shop SEO. Search engines and AI systems evaluate page speed, mobile usability, website structure, and data accuracy."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a20cdcd9313a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3763e7bb429e",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "715cf0fa6f99",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "040087c6df5a",
+                "_type": "span",
+                "marks": [],
+                "text": "This includes:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1a4afcd9bc6f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5782df4f44df",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fa8e4e01ce65",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1118c1373851",
+                "_type": "span",
+                "marks": [],
+                "text": "technical SEO audits;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c05dae2f0996",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6d7d08f8a937",
+                "_type": "span",
+                "marks": [],
+                "text": "page speed optimization;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e05a18cad751",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3bdc35c8cdf6",
+                "_type": "span",
+                "marks": [],
+                "text": "mobile-first improvements;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b058789afaab",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f87f83cd055a",
+                "_type": "span",
+                "marks": [],
+                "text": "fixing indexing and crawl issues;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1e4cb521aaf5",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "13fb7618fb75",
+                "_type": "span",
+                "marks": [],
+                "text": "preparing the website for AI-driven search visibility."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "6dfa14a3bbcf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "89ffe66338b9",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c4e34336c86e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "90063fc0cac9",
+                "_type": "span",
+                "marks": [],
+                "text": "Without a solid technical foundation, it’s impossible to achieve long-term, stable search visibility."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Who SEO for Auto Repair Shop Is and Is Not For"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Suitable For",
+      "Not Suitable For"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Established auto repair shops",
+          "❌ Temporary businesses"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Auto service centers with physical locations",
+          "❌ Businesses without real addresses"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Owners focused on long-term growth",
+          "❌ Those expecting instant results"
+        ]
+      },
+      {
+        "_key": "36da7efae96d",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Companies willing to improve their website",
+          "❌ Those unwilling to make changes"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "You attract visitors who are actively searching for auto repair services, diagnostics, or maintenance — not random website traffic with no conversion potential.",
+        "iconName": "trending-up",
+        "title": "Targeted Traffic with High Purchase Intent"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "SEO focuses on actions that matter for auto repair businesses: phone calls, service inquiries, and booking requests from motivated customers.",
+        "iconName": "layers",
+        "title": "More Calls and Booking Requests"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Your website ranks for specific services such as engine repair, brake service, diagnostics, or tire replacement — not just generic auto repair terms.",
+        "iconName": "zap",
+        "title": "Service-Based SEO Growth"
+      },
+      {
+        "_key": "7310750ac823",
+        "description": "Your auto repair shop becomes visible in local search results and Google Maps, helping customers find you when they search for services nearby.",
+        "iconName": "map-pin",
+        "title": "Strong Local Visibility in Your Area"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Your website is structured to be understood and referenced by AI-powered search engines, increasing brand exposure through AI recommendations.",
+        "iconName": "sparkles",
+        "title": "AI Search Visibility in ChatGPT and Perplexity"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "SEO delivers sustainable traffic and leads over time, reducing dependency on paid advertising and third-party platforms.",
+        "iconName": "target",
+        "title": "Long-Term Results Without Constant Ad Spend"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "What You Get from SEO for Auto Repair Shop"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "FAQ"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "07ed69ca8ade",
+          "answer": [
+            {
+              "_key": "d575d3a4297e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "97a62e60b28d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "You can usually notice the first positive changes within 2–3 months, while consistent and steady growth tends to develop over the following 4–6 months."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "How long does SEO for an auto repair shop take?"
+        },
+        {
+          "_key": "db0545041e01",
+          "answer": [
+            {
+              "_key": "8eff294b4a5d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3f55b42a86cd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. Local SEO delivers particularly strong results for small and medium-sized automotive service businesses."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Is SEO effective for small auto repair shops?"
+        },
+        {
+          "_key": "a6a1a7128545",
+          "answer": [
+            {
+              "_key": "50b8c5a111ba",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3afb70f9a9c9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. AI-powered search systems increasingly recommend businesses based on trusted content sources."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Can customers come from ChatGPT or AI search tools?"
+        },
+        {
+          "_key": "ef2301ae1e2e",
+          "answer": [
+            {
+              "_key": "68557dfdbad9",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e2106faa946d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Traditional SEO is aimed at improving search rankings, whereas GEO and AEO are designed to increase visibility within AI-generated responses."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "What is the difference between SEO and AI search optimization?"
+        },
+        {
+          "_key": "4b3a817ec727",
+          "answer": [
+            {
+              "_key": "1d96d5ca4b0f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "60536ca60299",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "No. SEO can work as a standalone lead generation channel."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Do I need paid ads together with SEO?"
+        },
+        {
+          "_key": "22260917457c",
+          "answer": [
+            {
+              "_key": "ae531b4807da",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9a9280026240",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да, SEO — самостоятельный канал привлечения клиентов."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Работает ли SEO без рекламы?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "d42b37ca5ef1",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "31000efb21a4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2a9f3a59152e",
+            "_type": "span",
+            "marks": [],
+            "text": "SEO for Auto Repair Shop with AI Search Optimization (GEO & AEO)"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "ab83f1383fd1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d0883a4207b0",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c26883eb8809",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "896012c70995",
+            "_type": "span",
+            "marks": [],
+            "text": "Modern SEO for auto repair shops goes beyond traditional search engines. More and more people turn to AI-driven tools such as ChatGPT or Perplexity when searching for and evaluating service providers."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e8f4341ce419",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7dc9d7bc0e49",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a803fe6ee89d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8318fb3aeedd",
+            "_type": "span",
+            "marks": [],
+            "text": "By applying Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO), I structure website content so it can be correctly interpreted and referenced by AI systems. This increases trust, authority, and visibility across new search channels while strengthening traditional SEO performance."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9036aae2e829",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "831723efe2c2",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ed14270cf129",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "21ef83f0afd5",
+            "_type": "span",
+            "marks": [],
+            "text": "SEO for Auto Repair Shop That Brings Real Customers"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "08a1b23b9318",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1e6be71ae7ca",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "676119657c27",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ee65a9dfe1c6",
+            "_type": "span",
+            "marks": [],
+            "text": "I offer SEO for auto repair shop businesses designed to attract customers exactly when they are searching for repair, diagnostics, or maintenance services. Today, clients find auto services not only through Google search results but also through AI-powered search tools like ChatGPT and Perplexity, which recommend businesses directly in their answers."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "928524557c8d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "41901c8738f9",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "46c92eafd520",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0ffed7009c11",
+            "_type": "span",
+            "marks": [],
+            "text": "SEO allows auto repair shops, auto service centers, and automotive businesses to generate steady leads without relying solely on paid advertising or third-party platforms."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

@@ -1,0 +1,975 @@
+[
+  {
+    "_key": "786ab188e69c",
+    "_type": "benefitsBlock",
+    "title": "Benefits Block"
+  },
+  {
+    "_key": "1b5aa27deb8b",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой справа",
+    "isDivider": false,
+    "leftContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "315e1f499063",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c2f77e63b63f",
+                "_type": "span",
+                "marks": [],
+                "text": "Почему адвокату нужен сайт: имидж, доверие и поток клиентов"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "d91d652b4577",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c1233456c1a2",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "ccc0e968a38c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c1bec417527d",
+                "_type": "span",
+                "marks": [],
+                "text": "Сайт адвоката — это не просто визитка. Это показатель профессионализма и современного подхода. Когда человек ищет юриста, он проверяет не только квалификацию, но и присутствие в интернете."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f00925422497",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8bb2d350110c",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f712103c48ad",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "52afcb1230c1",
+                "_type": "span",
+                "marks": [
+                  "em"
+                ],
+                "text": "Если вас нет онлайн — вы для клиента не существуете."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "6e3db024199b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "76db4167fcc7",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "68c9105dad2f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6026bc0a1416",
+                "_type": "span",
+                "marks": [],
+                "text": "Я часто вижу отличных адвокатов, о которых невозможно найти ни слова. Несколько лет назад я сам обратился к юристу, который помог мне выиграть гражданское дело. Он был отличным специалистом, но у него не было ни сайта, ни страницы в сети."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "2245c93f5650",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0ff05e72e575",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "42050085e523",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "375acaace466",
+                "_type": "span",
+                "marks": [],
+                "text": "Позже я создал ему сайт. И теперь его находят, записываются на консультации и рекомендуют другим. Сайт стал для него инструментом роста, который работает без рекламы и без лишних усилий."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "rightContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Почему адвокату нужен сайт и как он влияет на репутацию",
+        "asset": {
+          "_ref": "image-ca7578da1f50370307d254b964841a80bbb56167-731x763-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5ed3187fcd19",
+    "_type": "serviceFeaturesBlock",
+    "features": [
+      {
+        "_key": "760203cead88",
+        "_type": "serviceFeatureItem",
+        "description": "Каждый элемент сайта подчинён задаче: как сделать так, чтобы клиент доверился вам.",
+        "feature": {
+          "_ref": "995c7982-272e-45d8-b0a2-b1f27f9ec693",
+          "_type": "reference"
+        },
+        "title": "Работаю от бизнес-целей и метрик"
+      },
+      {
+        "_key": "edce0fcee603",
+        "_type": "serviceFeatureItem",
+        "description": "Страницы строятся логично и ведут пользователя к действию.",
+        "feature": {
+          "_ref": "a0d0934f-55f9-43cc-8a24-892c9474c5a1",
+          "_type": "reference"
+        },
+        "title": "Проектирую чёткую структуру"
+      },
+      {
+        "_key": "b4475ae25c85",
+        "_type": "serviceFeatureItem",
+        "description": "Техническая база сайта влияет на конверсию и SEO.",
+        "feature": {
+          "_ref": "044d7909-f835-4b26-96a6-faadb758e0df",
+          "_type": "reference"
+        },
+        "title": "Оптимизирую скорость загрузки"
+      },
+      {
+        "_key": "46452e342a01",
+        "_type": "serviceFeatureItem",
+        "description": "Сайт становится понятным поисковым системам и масштабируемым.",
+        "feature": {
+          "_ref": "b899fe88-5b28-4f45-91a8-6e7d87869437",
+          "_type": "reference"
+        },
+        "title": "Техническое SEO без перегруза"
+      },
+      {
+        "_key": "8d17b41a3881",
+        "_type": "serviceFeatureItem",
+        "description": "Простая навигация, читаемость и удобство записи на консультацию.",
+        "feature": {
+          "_ref": "92927324-6423-4b03-a904-56bea2243855",
+          "_type": "reference"
+        },
+        "title": "Сайт удобен для пользователей"
+      }
+    ],
+    "title": "Как я работаю над созданием сайта адвоката"
+  },
+  {
+    "_key": "89a49547e576",
+    "_type": "doubleTextBlock",
+    "doubleTextBlockTitle": "Текстовый блок с картинкой слева",
+    "isDivider": false,
+    "leftContent": {
+      "image": {
+        "_type": "image",
+        "alt": "Создание сайта для адвоката с учётом SEO и UX",
+        "asset": {
+          "_ref": "image-70bd3ef054e019d24f4fa163193baa1d85b54f46-910x909-jpg",
+          "_type": "reference"
+        }
+      },
+      "type": "image"
+    },
+    "rightContent": {
+      "blockContent": {
+        "_type": "blockContentWithStyle",
+        "content": [
+          {
+            "_key": "671c7d5f7f71",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "28bdfb656978",
+                "_type": "span",
+                "marks": [],
+                "text": "Создание сайта для адвоката с учётом SEO и UX"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "5d9751298978",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "467c6fe2760b",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "49e4d6086aaf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "405448f45fea",
+                "_type": "span",
+                "marks": [],
+                "text": "При разработке я всегда закладываю SEO-основу:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8f29cb9de131",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "00658d57b747",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "16e910139c27",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "426b0882929c",
+                "_type": "span",
+                "marks": [],
+                "text": "локальную видимость по запросам “адвокат + город”;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9badf1cf1828",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d0c8cbebb4ac",
+                "_type": "span",
+                "marks": [],
+                "text": "правильную структуру и заголовки;"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c635b067e1f1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7ed044e164af",
+                "_type": "span",
+                "marks": [],
+                "text": "оптимизированные тексты, адаптированные под юридическую тематику."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3f2fe2dc527e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a00c34ec6a11",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "57a4ba3e747c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4a66a0af4e41",
+                "_type": "span",
+                "marks": [],
+                "text": "Но сайт адвоката — это не только SEO. Это ещё и UX-дизайн: понятные формы, кнопки записи, видимые контакты, доверительные тексты."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "57beeb003cc3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "995f8fdf6207",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d0b109fd5502",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "45df599f6350",
+                "_type": "span",
+                "marks": [],
+                "text": "Я проектирую ресурсы, которые убеждают: к вам стоит обратиться."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "196238eba0e1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c8903fab0d24",
+                "_type": "span",
+                "marks": [],
+                "text": ""
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f161c9ac7862",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "72a251ecab8b",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Результат:"
+              },
+              {
+                "_key": "cd0e188d38c6",
+                "_type": "span",
+                "marks": [],
+                "text": " сайт, который приносит клиентов, формирует имидж и работает на вас 24/7."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "type": "text"
+    },
+    "verticalAlign": "center"
+  },
+  {
+    "_key": "5fa6f5c2f51e",
+    "_type": "workProcessBlock",
+    "title": "Work Process"
+  },
+  {
+    "_key": "1f31d2b3baa6",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "f3274faeb52e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1f455e92745",
+            "_type": "span",
+            "marks": [],
+            "text": "Создание сайта для адвоката: кому подходит / кому не подходит"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "9c957727698a",
+    "_type": "tableBlock",
+    "columns": [
+      "Подходит",
+      "Не подходит"
+    ],
+    "rows": [
+      {
+        "_key": "2e838905ce57",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Адвокатам, которые хотят укрепить личный бренд",
+          "❌ Тем, кто не планирует продвигаться онлайн"
+        ]
+      },
+      {
+        "_key": "28a7e6fccd9c",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Юрфирмам, которые хотят привлекать клиентов через интернет",
+          "❌ Тем, кто ищет шаблонное решение"
+        ]
+      },
+      {
+        "_key": "5d28a7f46588",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Частным практикам с экспертной специализацией",
+          "❌ Тем, кто не готов инвестировать в имидж"
+        ]
+      },
+      {
+        "_key": "36da7efae96d",
+        "_type": "tableRow",
+        "cells": [
+          "✔ Адвокатам, ценящим структуру и стратегию",
+          "—"
+        ]
+      }
+    ]
+  },
+  {
+    "_key": "47ee602bb5c0",
+    "_type": "landingCtaBlock",
+    "title": "Landing CTA Block"
+  },
+  {
+    "_key": "2c7dcffcd789",
+    "_type": "gridBlock",
+    "items": [
+      {
+        "_key": "7d3574015939",
+        "description": "Сайт, отражающий ваш профессионализм. Современный дизайн, который внушает доверие.",
+        "iconName": "trending-up",
+        "title": "Современную визитку"
+      },
+      {
+        "_key": "e654be6ce7f9",
+        "description": "Сайт оптимизирован под поисковые запросы вашей специализации и региона.",
+        "iconName": "layers",
+        "title": "SEO-структура, готовая к росту"
+      },
+      {
+        "_key": "136ca6018909",
+        "description": "Клиенты смогут быстро связаться с вами.",
+        "iconName": "zap",
+        "title": "Формы записи и обратной связи"
+      },
+      {
+        "_key": "f8b3c37ab413",
+        "description": "Корректная работа на всех устройствах.",
+        "iconName": "sparkles",
+        "title": "Адаптивность и скорость"
+      },
+      {
+        "_key": "c43dd10df408",
+        "description": "Чёткие тексты о ваших услугах, преимуществах и кейсах.",
+        "iconName": "target",
+        "title": "Контент, который убеждает"
+      },
+      {
+        "_key": "6aa2869ca992",
+        "description": "Возможность масштабировать сайт, добавлять языки и разделы.",
+        "iconName": "rocket",
+        "title": "Фундамент для роста"
+      }
+    ],
+    "marginBottom": "medium",
+    "marginTop": "medium",
+    "title": "Что вы получаете на выходе"
+  },
+  {
+    "_key": "4b3d4dde2479",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "25557bb3582e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1789eb6ae5be",
+            "_type": "span",
+            "marks": [],
+            "text": "Часто задаваемые вопросы о юридических сайтах"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      }
+    ],
+    "textAlign": "left"
+  },
+  {
+    "_key": "cf6de7c7afb1",
+    "_type": "faqBlock",
+    "faq": {
+      "_type": "accordionBlock",
+      "items": [
+        {
+          "_key": "07ed69ca8ade",
+          "answer": [
+            {
+              "_key": "73a006f135b8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6b24b09e41dc",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Стоимость зависит от объёма, дизайна и SEO. Средний диапазон — от 600 €."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько стоит создание сайта для адвоката?"
+        },
+        {
+          "_key": "db0545041e01",
+          "answer": [
+            {
+              "_key": "09f8862620b2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "929887e5fab5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Это повышает доверие и помогает SEO-продвижению."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Можно ли добавить блог с кейсами и новостями?"
+        },
+        {
+          "_key": "a6a1a7128545",
+          "answer": [
+            {
+              "_key": "50b8c5a111ba",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3afb70f9a9c9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Обычно 10–20 рабочих дней."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Сколько времени занимает разработка?"
+        },
+        {
+          "_key": "ef2301ae1e2e",
+          "answer": [
+            {
+              "_key": "68557dfdbad9",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e2106faa946d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да, базовое SEO — структура, теги, ключевые слова, аналитика — входит."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "question": "Входит ли SEO-оптимизация в стоимость?"
+        }
+      ]
+    }
+  },
+  {
+    "_key": "d42b37ca5ef1",
+    "_type": "textContent",
+    "content": [
+      {
+        "_key": "8299528e8418",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d33ee43bd03f",
+            "_type": "span",
+            "marks": [],
+            "text": "Создание сайта для адвоката как инвестиция, а не расход"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "7bdf09691af0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d1e1183f96e9",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2f5403e6e265",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "458ec0e642d5",
+            "_type": "span",
+            "marks": [],
+            "text": "Сайт для адвоката — это не трата, а инструмент, который работает на вас. Он усиливает доверие, помогает получать клиентов без рекламы и формирует экспертное восприятие вашей личности или фирмы."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "14441c77423c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "73ea9098876d",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1e7f8f781cdb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d4cf491c06c7",
+            "_type": "span",
+            "marks": [],
+            "text": "Когда человек ищет адвоката, он сравнивает: у кого сайт лучше, кто вызывает уверенность, кто оставляет ощущение профессионала. Ваш сайт должен отвечать на три вопроса: кто вы, чем вы можете помочь и как с вами связаться."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3d96e0e26217",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1ceaa879f9ab",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "992f35366c6e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "06577dc2be6f",
+            "_type": "span",
+            "marks": [],
+            "text": "Почему важно заказывать сайт у SEO-разработчика"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "eb6a7a475145",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "17c9def31c27",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "efbe6274351b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "fff03ec3ef08",
+            "_type": "span",
+            "marks": [],
+            "text": "Юридический сайт требует аккуратного подхода. Он должен быть не просто красивым, а стратегически выстроенным:"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "08112b4216d6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "66e7c6849d4c",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "7f74c92a2919",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "70687acf4a64",
+            "_type": "span",
+            "marks": [],
+            "text": "корректно оптимизирован под юридические запросы,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8034426ff846",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a64144b47240",
+            "_type": "span",
+            "marks": [],
+            "text": "содержать качественные тексты,"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ba649238d6ff",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "55811aecfcdc",
+            "_type": "span",
+            "marks": [],
+            "text": "работать быстро и стабильно."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f1b49e1ac922",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b127f0bce5fb",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "87c845c20967",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6ffc3d200085",
+            "_type": "span",
+            "marks": [],
+            "text": "Я разрабатываю сайты, которые готовы к продвижению в Google и Яндексе уже на старте — без дополнительной доработки."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8ce47cb6356b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d3aba177e616",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b4accfb64578",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "46f00c07313a",
+            "_type": "span",
+            "marks": [],
+            "text": "Сайт адвоката для русскоязычной аудитории по всему миру"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "4610b35126d6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a9104c040e2a",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9b87ff4289da",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8e6aa0ae03d5",
+            "_type": "span",
+            "marks": [],
+            "text": "Русскоязычные клиенты ищут адвокатов не только в СНГ, но и в Европе, Израиле, на Кипре, в ОАЭ. Я разрабатываю сайты с адаптацией под разные географические сегменты и поисковые системы."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e68fe7a50853",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "967e45b7b23e",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0b72b6df123e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "016f72bc8bc0",
+            "_type": "span",
+            "marks": [],
+            "text": "Вы можете привлекать клиентов из-за рубежа, не меняя язык и стиль коммуникации."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "textAlign": "left"
+  }
+]

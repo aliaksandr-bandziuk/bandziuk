@@ -47,6 +47,12 @@ export default defineType({
           title: "Alt Text",
           type: "string",
         }),
+        defineField({
+          name: "caption",
+          title: "Caption",
+          type: "contentBlock",
+          description: "Optional caption shown below the image",
+        }),
       ],
     }),
   ],

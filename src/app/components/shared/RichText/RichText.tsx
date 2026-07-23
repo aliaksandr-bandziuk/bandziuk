@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { PortableText } from "@portabletext/react";
 import styles from "./RichText.module.scss";
 import { urlFor } from "@/sanity/sanity.client";
 import { slugifyHeading } from "@/utils/tableOfContents";
@@ -33,26 +34,26 @@ const BulletIcon = () => (
 export const RichText = {
   types: {
     image: ({ value }: any) => {
-      const {
-        alt,
-        asset: {
-          url,
-          metadata: {
-            dimensions: { width, height },
-          },
-        },
-      } = value;
+      const { alt, caption, asset } = value;
+      if (!asset?.url) return null;
+      const { url, metadata } = asset;
+      const { width, height } = metadata?.dimensions ?? {};
       return (
-        <div className={styles.blogImage}>
+        <figure className={styles.blogImage}>
           <Image
             src={url}
-            alt={alt || "Cyprus VIP Estates image"}
+            alt={alt || ""}
             width={width}
             height={height}
             style={{ width: "100%", height: "auto" }}
             loading="lazy"
           />
-        </div>
+          {caption && (
+            <figcaption className={styles.imageCaption}>
+              <PortableText value={caption} components={RichText} />
+            </figcaption>
+          )}
+        </figure>
       );
     },
   },

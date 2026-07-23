@@ -124,3 +124,14 @@
     transition: all 0.2s ease-in-out;
   }
 }
+
+.imageCaption {
+  margin-top: 0.75rem;
+
+  p {
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    color: var(--text-secondary, #6b7280);
+    margin-bottom: 0;
+  }
+}

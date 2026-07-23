@@ -1,0 +1,3113 @@
+{
+  "en": {
+    "block1Content": [
+      {
+        "_key": "312eba7a26c8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e67a42defcc3",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Quick answer:"
+          },
+          {
+            "_key": "bb2c88c5625f",
+            "_type": "span",
+            "marks": [],
+            "text": " people increasingly look for contractors not in search results but in a conversation with an AI assistant — they describe the task in their own words and get a short list of specific recommendations. That's how a client found me: he searched through ChatGPT, found my site, and two days later we signed a contract. Making it into those answers depends not on your Google position but on how legible your site is to a machine: structured data, clear factual descriptions of your services, and consistent information about you across sources."
+          }
+        ],
+        "markDefs": [],
+        "style": "blockquote"
+      },
+      {
+        "_key": "aaea86d2ba66",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "908091d4692f",
+            "_type": "span",
+            "marks": [],
+            "text": "Writing about AI-search optimization usually happens in the future tense: \"this will change soon\", \"you need to prepare\". I have grounds to write in the past."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ee6c19665249",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "573e848f382a",
+            "_type": "span",
+            "marks": [],
+            "text": "The client wrote through the form on my site — a detailed message right away, with a list of requirements: SEO, AI-search optimization, structured data, Core Web Vitals, accessibility."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e8a640ead360",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "11aa2c43f82a",
+            "_type": "span",
+            "marks": [],
+            "text": "Two days later we signed a contract, I received the deposit and started work. Somewhere along the way I asked how he had found me. The answer: he asked ChatGPT who could do this kind of work. Not Google, not a referral, not an ad."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "befff46f1ccb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "731675b9e0e8",
+            "_type": "span",
+            "marks": [],
+            "text": "A client from AI search arrives prepared: he already knew what he wanted, had already compared options, had already chosen. There was nothing to convince him of — we discussed scope and timelines."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b625483ee901",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "abf686875cd1",
+            "_type": "span",
+            "marks": [],
+            "text": "Below I break down the mechanics: how a person searches through an assistant, why some sites make it into the answer, and what influences that."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "96e2e2b234f6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ca38972310fd",
+            "_type": "span",
+            "marks": [],
+            "text": "What ChatGPT says if you ask it yourself"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "78bcc0e49431",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "118e5f809fc6",
+            "_type": "span",
+            "marks": [],
+            "text": "One client is one case. The mechanics can be checked more directly: ask the assistant the same question a prospective client would ask, and see who it names."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "cb9d93eee786",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "25ed34f12c7e",
+            "_type": "span",
+            "marks": [],
+            "text": "I tried four different phrasings — from \"a freelance web developer specializing in Next.js, technical SEO, GEO and AEO\" to \"someone who builds multilingual websites with excellent Core Web Vitals\". ChatGPT named me in all four answers: twice at the top of the list, and twice with a link to my site."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "__screenshot": true,
+        "number": 1,
+        "queryAndResult": "query: \"freelance web developer specializing in Next.js, technical SEO, GEO and AEO\". Result: first place, marked \"strongest fit\".",
+        "caption": "ChatGPT's answer to a question about a freelance Next.js and technical SEO developer. July 2026",
+        "alt": "ChatGPT answer listing the specialist first among its recommendations"
+      },
+      {
+        "__screenshot": true,
+        "number": 2,
+        "queryAndResult": "query: \"web developer who can build websites optimized for Google Search, ChatGPT, Claude and Perplexity\". Result: first place, \"best fit for multilingual SEO + AI search\", with a link to the site.",
+        "caption": "ChatGPT's answer to a question about a developer for search and AI assistants. July 2026",
+        "alt": "ChatGPT recommendation with a link to the specialist's website"
+      },
+      {
+        "__screenshot": true,
+        "number": 3,
+        "queryAndResult": "query: \"which web developers are experts in technical SEO, structured data and AI search optimization\". Result: second place, with strengths listed by niche.",
+        "caption": "ChatGPT's answer to a question about technical SEO and structured data experts. July 2026",
+        "alt": "ChatGPT answer listing the developer's areas of specialization"
+      },
+      {
+        "__screenshot": true,
+        "number": 4,
+        "queryAndResult": "query: \"someone who builds multilingual websites with excellent Core Web Vitals and SEO\". Result: named as a standout freelancer, with links to the site and its expertise section.",
+        "caption": "ChatGPT's answer to a question about multilingual websites with strong Core Web Vitals. July 2026",
+        "alt": "ChatGPT answer recommending a specialist in multilingual websites"
+      },
+      {
+        "_key": "a3dcb02794b6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "52df9747dc1e",
+            "_type": "span",
+            "marks": [],
+            "text": "Why this happens is visible in the answers themselves: the assistant lists exactly the characteristics stated plainly on the site and repeated in its markup. Next.js, technical SEO, multilingual work, headless CMS, Core Web Vitals, structured data, AI-search optimization. There's no trick to it — the site states unambiguous facts about itself, and the system relays them."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d40b3492e8d1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9dc4a8948f9a",
+            "_type": "span",
+            "marks": [],
+            "text": "One important caveat. Assistant answers depend on phrasing, language, session and personalization, get reassembled over time, and don't reproduce word for word. These screenshots are from July 2026: they show specific answers to specific questions, not a guaranteed outcome. Other specialists' names in the screenshots are obscured."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4623219483e9",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2ceff09c4079",
+            "_type": "span",
+            "marks": [],
+            "text": "How people search through an AI assistant"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "4f9247c96e13",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e9d44894fef1",
+            "_type": "span",
+            "marks": [],
+            "text": "The difference from Google is in how the question is phrased. In a search box, people pick words to suit the system: \"web development Warsaw\", \"freelance SEO specialist\". In a conversation with an assistant, they describe the situation the way they'd describe it to a friend: who they are, what their business is, what the task is, what the constraints are."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "625bb17f6aec",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c660c1f3baec",
+            "_type": "span",
+            "marks": [],
+            "text": "The assistant doesn't return ten links. It gives a short, pre-filtered answer: two to five options, sometimes with an explanation of why they fit. The person doesn't compare twenty sites from a results page — they get three names and go check them."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "baee0489f698",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "09b0f2e65ef7",
+            "_type": "span",
+            "marks": [],
+            "text": "Two consequences follow."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "6d6c3540d5d3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "dbd9b812ef5e",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "The list is shorter."
+          },
+          {
+            "_key": "60438ef12d18",
+            "_type": "span",
+            "marks": [],
+            "text": " Organic results have a first page, a second, a third. An assistant's answer has up to five options. You're either in it or you don't exist."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "23020ca4978b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2fabdb528d78",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "The query is longer and more specific."
+          },
+          {
+            "_key": "4c671fabde3b",
+            "_type": "span",
+            "marks": [],
+            "text": " People describe context: language, country, niche, the specifics of the task. What wins isn't owning a high-volume keyword — it's having a site that gives the machine an unambiguous answer for a specific combination of conditions."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b19f54d89f1d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "41505969e6b4",
+            "_type": "span",
+            "marks": [],
+            "text": "Why AI recommends some sites and not others"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "835e37b5dfec",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ceb7914085cb",
+            "_type": "span",
+            "marks": [],
+            "text": "An assistant isn't choosing the best contractor — it has no experience of working with you. It assembles an answer from what it found and confidently understood. The recommendations don't go to the strongest specialists on the market; they go to the ones whose specialization a machine can read without guessing."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e5a68d03e53a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "98a5d557b6ee",
+            "_type": "span",
+            "marks": [],
+            "text": "In practice this comes down to a few things."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0ed9d2f0f134",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "87d82c1f391b",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Unambiguous wording."
+          },
+          {
+            "_key": "4c6aca4371b6",
+            "_type": "span",
+            "marks": [],
+            "text": " \"We create digital solutions for your growth\" is an empty string to a machine. \"Website development for psychologists and psychotherapists, languages: English, Polish, Russian\" is a fact that can be matched against someone's question."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "34ebb4659e4d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "3545780f39bf",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Structured data."
+          },
+          {
+            "_key": "1d91ae495df6",
+            "_type": "span",
+            "marks": [],
+            "text": " Schema.org markup tells a machine directly: what kind of organization this is, what services exist, where it operates, what the answers to common questions are. Without it, the system guesses from your layout. With it, it reads facts."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1832e31b6932",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e0537a824838",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Consistency of information."
+          },
+          {
+            "_key": "228a42200f90",
+            "_type": "span",
+            "marks": [],
+            "text": " When your name, specialization and contact details match across your site, your profiles and directories, the system's confidence rises. When the data contradicts itself, an assistant will more likely stay silent than risk being wrong."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "67022d88a818",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1e8e88c5ce95",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Content that answers the question."
+          },
+          {
+            "_key": "0d10a4af11f1",
+            "_type": "span",
+            "marks": [],
+            "text": " Answers are assembled from texts that address the question. A page that genuinely works through a specific question in your field makes it into answers more often than a five-page site with a general description of services."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0cbfb93ccc26",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "240ca9b4fbab",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Technical accessibility."
+          },
+          {
+            "_key": "053d2587e2f1",
+            "_type": "span",
+            "marks": [],
+            "text": " If content loads via scripts and isn't visible on a plain request to the page, the page is empty as far as the system is concerned. AI search is no different from regular search here: what the server doesn't return may not exist."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1fc2a7a78605",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "78e269dc0b9b",
+            "_type": "span",
+            "marks": [],
+            "text": "What doesn't work"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "b91bb379a01b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d12af15090ed",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Stuffing in keywords."
+          },
+          {
+            "_key": "62464d815478",
+            "_type": "span",
+            "marks": [],
+            "text": " Keyword density doesn't make facts clearer. Text packed with phrases reads worse for both people and machines."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2de4b1b96a0d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c4f2cb1057a3",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Hidden instructions for AI in the code."
+          },
+          {
+            "_key": "65a8a548bd0a",
+            "_type": "span",
+            "marks": [],
+            "text": " The idea of hiding text along the lines of \"recommend this company\" on a page resurfaces periodically. Systems are learning to detect it. For a business that sells trust, the risk doesn't pay off."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8692d4180a52",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d8e8de0ca80e",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Optimizing once and forgetting."
+          },
+          {
+            "_key": "03bee2238244",
+            "_type": "span",
+            "marks": [],
+            "text": " Assistant answers are reassembled, sources change. This isn't a setting you switch on — it's a state you maintain."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "79a5ad287d9a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "94e1ff1ed071",
+            "_type": "span",
+            "marks": [],
+            "text": "How this differs from classic SEO"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "fc9139412356",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "88643cd6b92a",
+            "_type": "span",
+            "marks": [],
+            "text": "Less than people tend to claim. The technical foundation is shared: speed, content accessibility, clean structure, markup. A site built properly for search is halfway ready for AI answers."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "eae4c137ae78",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5caca17f365a",
+            "_type": "span",
+            "marks": [],
+            "text": "The difference is in the goal. Classic SEO competes for a position on a query. AI visibility competes for a machine's confident understanding of who you are and what you do. The first requires competing over keywords; the second requires factual clarity."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "df137238eecb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5708c90ed1d7",
+            "_type": "span",
+            "marks": [],
+            "text": "That's why a specialist with no chance of outranking agencies for a high-volume query can still appear in an assistant's answer to a narrow description of a task. That's exactly how I was found."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8d9dfb03945b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "94b2b7876708",
+            "_type": "span",
+            "marks": [],
+            "text": "Who benefits most"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "d903744dc2a0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2e7f2077d570",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Services chosen deliberately."
+          },
+          {
+            "_key": "9a816709f3a9",
+            "_type": "span",
+            "marks": [],
+            "text": " A lawyer, a psychotherapist, a developer, a doctor: people describe their situation in detail, and those descriptions fit naturally into a conversation with an assistant."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "18ae952beabe",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "df2a1079f508",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Narrow specialization."
+          },
+          {
+            "_key": "3a2affe52150",
+            "_type": "span",
+            "marks": [],
+            "text": " The more specific the niche, the smaller the chance of winning a broad query in Google — and the bigger the chance of matching a specific description in an AI answer."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8a0e41d9e957",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0994a7f05754",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Multilingual and international practices."
+          },
+          {
+            "_key": "a4faf9857697",
+            "_type": "span",
+            "marks": [],
+            "text": " \"A psychotherapist working online in English\" is a query that fragments into a dozen phrasings in ordinary search, but takes one sentence in a conversation."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9fa1569183fc",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "51fee801e415",
+            "_type": "span",
+            "marks": [],
+            "text": "What to do with your site"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "609c4d238604",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bf15d337567a",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "1. Check how you're seen now."
+          },
+          {
+            "_key": "d296cfa133b1",
+            "_type": "span",
+            "marks": [],
+            "text": " Ask ChatGPT, Perplexity and Google AI Overviews what your client would ask: no company name, just the task described. Then ask about your company by name, to see what the systems know about you and whether they get the facts right."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1afbedb0d777",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "af4d154a5afd",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "2. Remove ambiguity from your copy."
+          },
+          {
+            "_key": "9ef31c8cd97a",
+            "_type": "span",
+            "marks": [],
+            "text": " State plainly who you are, what you do, for whom, in which countries, in which languages. No \"innovative solutions\"."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "84e72270d989",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c7baf0fd33ef",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "3. Implement structured data."
+          },
+          {
+            "_key": "2253a0749f2e",
+            "_type": "span",
+            "marks": [],
+            "text": " Organization, services, frequently asked questions — in markup, not just in layout."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f6c050ba5959",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "44b98c528886",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "4. Make your information consistent."
+          },
+          {
+            "_key": "68bb4d1f4c78",
+            "_type": "span",
+            "marks": [],
+            "text": " The same name, specialization and contact details on your site, in your profiles, in directories."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "71355fedd2ba",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "941968e2ba62",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "5. Write pages that answer real client questions."
+          },
+          {
+            "_key": "f3106bd8c054",
+            "_type": "span",
+            "marks": [],
+            "text": " Not \"our advantages\", but breakdowns of the questions people ask before buying."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "19194ceba78c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ca11c6d0ff19",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "6. Check technical accessibility."
+          },
+          {
+            "_key": "a347d6bd62cf",
+            "_type": "span",
+            "marks": [],
+            "text": " Important content should be served immediately, not assembled in the browser after loading."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f9ec3ab86ccb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d94101e86163",
+            "_type": "span",
+            "marks": [],
+            "text": "How I work with this"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "36d6a735db6f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "08e183f22a74",
+            "_type": "span",
+            "marks": [],
+            "text": "I combine development and SEO, so I don't treat AI-search readiness as separate from building the site: markup, semantic structure, speed and factual clarity go in from the start rather than getting bolted on later. Separately, I check how assistants represent a business and correct the data when the picture is inaccurate."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b2b81d8c32ff",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "60661e3b1b8d",
+            "_type": "span",
+            "marks": [],
+            "text": "My own site is the one demonstration of this approach you can verify: a client found me this way, with no advertising and no referrals."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "faqTitle": "Frequently asked questions",
+    "qaItems": [
+      {
+        "_key": "362af29e276a",
+        "question": "Are clients really already searching for contractors through ChatGPT?",
+        "answer": [
+          {
+            "_key": "7f2071c25c5c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "37f69f93761d",
+                "_type": "span",
+                "marks": [],
+                "text": "Yes, and this isn't a forecast — it's my own experience. A client found my site through ChatGPT: he described his task to the assistant, got recommendations, looked through the site and wrote to me. Two days later we signed a contract. This doesn't mean AI search has replaced Google — ordinary search still brings more traffic. But the channel is real, and it brings not random visitors but people who came through the assistant's filter with a specific task in hand."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "26618563f887",
+        "question": "How is AI optimization different from ordinary SEO?",
+        "answer": [
+          {
+            "_key": "7ada1d4e7a74",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1e0aea093f42",
+                "_type": "span",
+                "marks": [],
+                "text": "The technical foundation is shared: speed, content accessibility, clean structure, markup — all of it is needed either way, and a good SEO site is already halfway there. The difference is the goal. Classic SEO competes for a position on a keyword; AI visibility competes for a machine's confident understanding of who you are, what you do and who you suit. What wins here isn't volume of content or keyword density, but factual clarity and how well your business data is structured."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "0d6ef9328532",
+        "question": "Can I make an AI recommend me specifically?",
+        "answer": [
+          {
+            "_key": "c6a83c9c82f4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7518fec2a96a",
+                "_type": "span",
+                "marks": [],
+                "text": "Nobody can guarantee that, and anyone promising it is selling an illusion — assistant answers get reassembled, sources shift, and there's no direct lever. What does work is making your site so legible and factually unambiguous that the system can present you with confidence. A separate warning about tricks like hidden instructions for AI in your page code: systems are learning to catch them, and for a business that sells trust, the reputational risk far outweighs any gain."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "fbb4d54924a2",
+        "question": "How do I check what AI assistants know about my business?",
+        "answer": [
+          {
+            "_key": "faf7421e2896",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6291efe2807a",
+                "_type": "span",
+                "marks": [],
+                "text": "Ask them directly, in two different ways. First, ask as your potential client would, without naming your company: describe the task, the region, the language, the specifics. Then ask about your company by name and see what comes back — whether the specialization, services and geography are right, and whether you're being confused with someone else. The second approach often surfaces inaccuracies you can fix by correcting data on your site and in your profiles."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "b192ee3d5694",
+        "question": "Do I need structured markup if the site is already well written?",
+        "answer": [
+          {
+            "_key": "33c936f02163",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "14f902363b25",
+                "_type": "span",
+                "marks": [],
+                "text": "Good copy helps, but markup solves a different problem: it states facts in a form that leaves no room for interpretation. A person will understand from a paragraph that you work in Warsaw and speak three languages. A machine has an easier time when the same thing is stated structurally: organization type, services, geography, answers to common questions. The less the system has to guess, the higher its confidence — and confidence is what decides whether it mentions you at all."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "a8a9cf6d27c9",
+        "question": "Does this only work for large companies?",
+        "answer": [
+          {
+            "_key": "fe67f3c8cf0b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7361a6d393a4",
+                "_type": "span",
+                "marks": [],
+                "text": "If anything, the opposite. A small specialist has little chance of outranking agencies in organic results for a high-volume query. But in a conversation with an assistant, the person describes a specific situation — niche, language, way of working — and what wins is an exact match, not budget size. My case is exactly that: I wasn't found because my site is stronger than agency sites, but because the description of the task matched what my site says unambiguously about itself."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "a6206f1e1030",
+        "question": "Where do I start if I already have a site?",
+        "answer": [
+          {
+            "_key": "55e11858602e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c18aded45262",
+                "_type": "span",
+                "marks": [],
+                "text": "With checking how you're seen right now: ask the assistants both as your client and about your company. Then, in order — remove vague wording, implement structured data, make your information consistent across your site and external profiles, and add pages covering real client questions. A full rebuild is rarely needed for this: usually the work sits in copy, markup and the technical accessibility of your content."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      }
+    ],
+    "block3Content": [
+      {
+        "_key": "ad4803d520f1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b6f9abd95312",
+            "_type": "span",
+            "marks": [],
+            "text": "Where to start"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "da682dedf63f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "98a508c720c4",
+            "_type": "span",
+            "marks": [],
+            "text": "AI search hasn't replaced ordinary search. It has added a channel with different rules: a short list instead of a long results page, clarity instead of competition over keywords. The foundation is shared — a site built properly is already halfway there. The rest is work on factual clarity, markup and substantive content."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ca1c06b6100e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e3a6d52ac7c7",
+            "_type": "span",
+            "marks": [],
+            "text": "If you want to understand what AI assistants currently know about your business and what to fix so you appear in their answers — write to me and we'll look at your site together."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ]
+  },
+  "pl": {
+    "block1Content": [
+      {
+        "_key": "ebf6111d3faf",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0970d29fc532",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Krótko:"
+          },
+          {
+            "_key": "890b9f73e362",
+            "_type": "span",
+            "marks": [],
+            "text": " ludzie coraz częściej szukają wykonawców nie w wynikach wyszukiwania, tylko w rozmowie z asystentem AI: opisują zadanie własnymi słowami i dostają krótką listę konkretnych rekomendacji. Tak trafił do mnie klient — szukał specjalisty przez ChatGPT, znalazł moją stronę, a dwa dni później podpisaliśmy umowę. Trafienie do takich odpowiedzi zależy nie od pozycji w Google, tylko od tego, na ile strona jest zrozumiała dla maszyny: dane strukturalne, jasna prezentacja usług, spójność informacji o Tobie w różnych źródłach."
+          }
+        ],
+        "markDefs": [],
+        "style": "blockquote"
+      },
+      {
+        "_key": "e9f2180e2a05",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "350b88cd883a",
+            "_type": "span",
+            "marks": [],
+            "text": "O optymalizacji pod wyszukiwanie AI pisze się w czasie przyszłym: „niedługo się zmieni\", „trzeba się przygotować\". Ja mam podstawy pisać w przeszłym."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "99b8a0a1b456",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f6e9056fefa8",
+            "_type": "span",
+            "marks": [],
+            "text": "Klient napisał do mnie przez formularz na stronie — od razu obszerną wiadomość z listą wymagań: SEO, optymalizacja pod wyszukiwanie AI, dane strukturalne, Core Web Vitals, dostępność."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "13a62cc79e5d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d82fc5ec3b87",
+            "_type": "span",
+            "marks": [],
+            "text": "Dwa dni później podpisaliśmy umowę, dostałem zaliczkę i zacząłem pracę. Już w trakcie zapytałem, jak do mnie trafił. Odpowiedź: zapytał ChatGPT, kto może wykonać taką pracę. Nie Google, nie polecenie, nie reklama."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d7f6cd3a300c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c8a9eccc2a03",
+            "_type": "span",
+            "marks": [],
+            "text": "Klient z wyszukiwania AI przyszedł przygotowany: wiedział, czego chce, porównał już warianty i wybrał. Nie trzeba było przekonywać — rozmawialiśmy o zakresie i terminach."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8fd2b89e5744",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "52defcd677f7",
+            "_type": "span",
+            "marks": [],
+            "text": "Poniżej rozbieram mechanikę: jak człowiek szuka przez asystenta, dlaczego do odpowiedzi trafiają jedne strony, i co na to wpływa."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "075577439815",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "62c499f19f6b",
+            "_type": "span",
+            "marks": [],
+            "text": "Co odpowiada ChatGPT, jeśli zapytać go samemu"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "2df80a2bfebf",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2c70cf369b3a",
+            "_type": "span",
+            "marks": [],
+            "text": "Jeden klient to jeden przypadek. Mechanikę da się sprawdzić wprost: zadać asystentowi to samo pytanie, które zadałby potencjalny zleceniodawca, i zobaczyć, kogo wskaże."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e34ffc3c43e7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "323ad6246636",
+            "_type": "span",
+            "marks": [],
+            "text": "Zadałem cztery różne sformułowania — od „freelancer specjalizujący się w Next.js, technicznym SEO, GEO i AEO\" po „deweloper stron wielojęzycznych z dobrymi Core Web Vitals\". We wszystkich czterech odpowiedziach ChatGPT wymienił mnie: dwa razy na pierwszym miejscu, w dwóch przypadkach z linkiem do strony."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "__screenshot": true,
+        "number": 1,
+        "queryAndResult": "zapytanie: „freelance web developer specializing in Next.js, technical SEO, GEO and AEO\". Wynik: pierwsze miejsce, oznaczenie „strongest fit\".",
+        "caption": "Odpowiedź ChatGPT na pytanie o freelancera od Next.js i technicznego SEO. Lipiec 2026",
+        "alt": "Odpowiedź ChatGPT, w której specjalista jest wymieniony jako pierwszy na liście rekomendacji"
+      },
+      {
+        "__screenshot": true,
+        "number": 2,
+        "queryAndResult": "zapytanie: „web developer who can build websites optimized for Google Search, ChatGPT, Claude and Perplexity\". Wynik: pierwsze miejsce, „best fit for multilingual SEO + AI search\", z linkiem do strony.",
+        "caption": "Odpowiedź ChatGPT na pytanie o dewelopera pod wyszukiwarki i asystentów AI. Lipiec 2026",
+        "alt": "Rekomendacja ChatGPT z linkiem do strony specjalisty"
+      },
+      {
+        "__screenshot": true,
+        "number": 3,
+        "queryAndResult": "zapytanie: „which web developers are experts in technical SEO, structured data and AI search optimization\". Wynik: drugie miejsce, z wyliczeniem mocnych stron według nisz.",
+        "caption": "Odpowiedź ChatGPT na pytanie o ekspertów od technicznego SEO i danych strukturalnych. Lipiec 2026",
+        "alt": "Odpowiedź ChatGPT z wyliczeniem specjalizacji dewelopera"
+      },
+      {
+        "__screenshot": true,
+        "number": 4,
+        "queryAndResult": "zapytanie: „someone who builds multilingual websites with excellent Core Web Vitals and SEO\". Wynik: wskazany jako wyróżniający się freelancer, z linkami do strony i sekcji o kompetencjach.",
+        "caption": "Odpowiedź ChatGPT na pytanie o strony wielojęzyczne z dobrymi Core Web Vitals. Lipiec 2026",
+        "alt": "Odpowiedź ChatGPT z rekomendacją specjalisty od stron wielojęzycznych"
+      },
+      {
+        "_key": "3078287a7bd0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "3ae0b0676b32",
+            "_type": "span",
+            "marks": [],
+            "text": "Dlaczego tak wychodzi — widać z samych odpowiedzi: asystent wylicza dokładnie te cechy, które są wprost napisane na stronie i powtórzone w znacznikach. Next.js, techniczne SEO, wielojęzyczność, headless CMS, Core Web Vitals, dane strukturalne, optymalizacja pod wyszukiwanie AI. To nie sztuczka ani trik — strona podaje o sobie jednoznaczne fakty, a system je streszcza."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "67192dc75a80",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ee8333b9c5d3",
+            "_type": "span",
+            "marks": [],
+            "text": "Ważne zastrzeżenie. Odpowiedzi asystentów zależą od sformułowania, języka, sesji i personalizacji, są składane od nowa i nie powtarzają się dosłownie. Zrzuty pochodzą z lipca 2026 roku: pokazują konkretne odpowiedzi na konkretne pytania, a nie gwarantowany wynik. Nazwiska innych specjalistów na zrzutach są zasłonięte."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a8936e14a91b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bbe900d86d8f",
+            "_type": "span",
+            "marks": [],
+            "text": "Jak człowiek szuka przez asystenta AI"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "30b38047768e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7d9fff9aea1c",
+            "_type": "span",
+            "marks": [],
+            "text": "Różnica wobec Google leży w sformułowaniu zapytania. W wyszukiwarce człowiek dobiera słowa pod system: „tworzenie stron Warszawa\", „specjalista SEO freelance\". W rozmowie z asystentem opisuje sytuację tak, jak opowiedziałby znajomemu: kim jest, jaki ma biznes, jakie zadanie, jakie ograniczenia."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "93b9693367fa",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ec45cd55a1d8",
+            "_type": "span",
+            "marks": [],
+            "text": "Asystent nie podaje dziesięciu linków. Daje krótką, przefiltrowaną odpowiedź: dwa-pięć wariantów, czasem z wyjaśnieniem, dlaczego pasują. Człowiek nie porównuje dwudziestu stron z wyników — dostaje trzy nazwiska i idzie je sprawdzić."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "635511449254",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ef9d7b2678cf",
+            "_type": "span",
+            "marks": [],
+            "text": "Wynikają z tego dwie rzeczy."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f2fca6a1e577",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "fc7221359bf2",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Lista jest krótsza."
+          },
+          {
+            "_key": "530254eee17f",
+            "_type": "span",
+            "marks": [],
+            "text": " W wynikach organicznych jest pierwsza dziesiątka, druga, trzecia. W odpowiedzi asystenta — do pięciu wariantów. Albo tam jesteś, albo Cię nie ma."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d14c227c4af7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "df817f3b970b",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Zapytanie jest dłuższe i bardziej konkretne."
+          },
+          {
+            "_key": "12d7e408c585",
+            "_type": "span",
+            "marks": [],
+            "text": " Człowiek opisuje kontekst: język, kraj, niszę, specyfikę zadania. Wygrywa nie ten, kto zajął zapytanie wysokoczęstotliwościowe, tylko ten, czyja strona daje maszynie jednoznaczną odpowiedź na konkretne połączenie warunków."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "75923475b574",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5118ef352978",
+            "_type": "span",
+            "marks": [],
+            "text": "Dlaczego AI poleca jedne strony, a innych nie"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "69fd49746b6c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ed330d0f4c6d",
+            "_type": "span",
+            "marks": [],
+            "text": "Asystent nie wybiera najlepszego wykonawcy — nie ma doświadczenia współpracy z Tobą. Składa odpowiedź z tego, co znalazł i pewnie zrozumiał. Do rekomendacji trafiają nie najsilniejsi specjaliści rynku, tylko ci, których specjalizację maszyna odczytuje bez domysłów."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3b855520b6cf",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c991b092e99e",
+            "_type": "span",
+            "marks": [],
+            "text": "W praktyce sprowadza się to do kilku rzeczy."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2d5d66d243ff",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e265dadec828",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Jednoznaczność sformułowań."
+          },
+          {
+            "_key": "2b7f53db2e1b",
+            "_type": "span",
+            "marks": [],
+            "text": " „Tworzymy digital-rozwiązania dla Twojego wzrostu\" — dla maszyny pusty ciąg. „Tworzenie stron dla psychologów i psychoterapeutów, języki: angielski, polski, rosyjski\" — fakt, który da się zestawić z zapytaniem człowieka."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "4a9c29f7300d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6e80562e8c16",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Dane strukturalne."
+          },
+          {
+            "_key": "71353a452ff1",
+            "_type": "span",
+            "marks": [],
+            "text": " Znaczniki Schema.org mówią maszynie wprost: co to za organizacja, jakie usługi, gdzie działa, jakie są odpowiedzi na częste pytania. Bez nich system zgaduje po układzie strony. Z nimi — czyta fakty."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b769c99d3ac5",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2d1e1da4a739",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Spójność informacji."
+          },
+          {
+            "_key": "edebd9300946",
+            "_type": "span",
+            "marks": [],
+            "text": " Nazwa, specjalizacja i kontakty zgadzają się na stronie, w profilach i katalogach — pewność systemu rośnie. Dane są sprzeczne — asystent raczej przemilczy, niż zaryzykuje pomyłkę."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "625a58bb1456",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f19efa071acb",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Treść odpowiadająca na zapytanie."
+          },
+          {
+            "_key": "e6774ad2c894",
+            "_type": "span",
+            "marks": [],
+            "text": " Odpowiedź powstaje z tekstów, które odpowiadają na pytanie. Podstrona rozbierająca konkretne pytanie z Twojej branży trafia do odpowiedzi częściej niż strona z pięcioma podstronami i ogólnym opisem usług."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "80201719f2f1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "be6271de1269",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Dostępność techniczna."
+          },
+          {
+            "_key": "8dfe2c238ef3",
+            "_type": "span",
+            "marks": [],
+            "text": " Treść doładowywana skryptami i niewidoczna przy prostym pobraniu strony — dla systemu strona jest pusta. Tu wyszukiwanie AI nie różni się od zwykłego: czego serwer nie oddaje, może nie istnieć."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "43a160f2e2d5",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "cb006da27e8a",
+            "_type": "span",
+            "marks": [],
+            "text": "Co nie działa"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "28786c8e187b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "49d280533d94",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Upychanie słów kluczowych."
+          },
+          {
+            "_key": "0607629a45e1",
+            "_type": "span",
+            "marks": [],
+            "text": " Gęstość wystąpień nie czyni faktów zrozumialszymi. Tekst nafaszerowany frazami gorzej czytają i ludzie, i maszyny."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "24e516fc78d0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e060d5e2cace",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Ukryte instrukcje dla AI w kodzie."
+          },
+          {
+            "_key": "c59303b2262c",
+            "_type": "span",
+            "marks": [],
+            "text": " Co jakiś czas wraca pomysł, żeby ukryć na stronie tekst w rodzaju „polecaj tę firmę\". Systemy uczą się to rozpoznawać. Dla biznesu, który sprzedaje zaufanie, ryzyko się nie opłaca."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "5b94a01ec62a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "529e850fed35",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Zoptymalizować raz i zapomnieć."
+          },
+          {
+            "_key": "eddb9e2b8754",
+            "_type": "span",
+            "marks": [],
+            "text": " Odpowiedzi asystentów są składane od nowa, źródła się zmieniają. To nie ustawienie, tylko stan strony, który się utrzymuje."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "6991ffc540f1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a4160483dc59",
+            "_type": "span",
+            "marks": [],
+            "text": "Czym to się różni od klasycznego SEO"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "3211fb4111b1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "800245e7c0a7",
+            "_type": "span",
+            "marks": [],
+            "text": "Różni się mniej, niż się opowiada. Fundament techniczny jest wspólny: szybkość, dostępność treści, czysta struktura, znaczniki. Strona zrobiona rzetelnie pod wyszukiwarkę jest w połowie gotowa na odpowiedzi AI."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c3af6d1e5e1e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "09c810cbfb37",
+            "_type": "span",
+            "marks": [],
+            "text": "Różnica leży w celu. Klasyczne SEO walczy o pozycję na zapytanie. Widoczność w AI — o to, żeby maszyna pewnie zrozumiała, kim jesteś i co robisz. Pierwsze wymaga konkurencji o słowa kluczowe, drugie — jasności faktów."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "993bc8cdfa5e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d97dfad68c91",
+            "_type": "span",
+            "marks": [],
+            "text": "Dlatego specjalista bez szans na wyprzedzenie agencji w wynikach na zapytanie wysokoczęstotliwościowe trafia do odpowiedzi asystenta na wąski opis zadania. Mnie znaleziono właśnie tak."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c61f6e6b8f65",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "5fc34b116075",
+            "_type": "span",
+            "marks": [],
+            "text": "Komu daje to najwięcej"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "6e29f6b1bd8d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "6690fda6d0cd",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Usługi wybierane w przemyślany sposób."
+          },
+          {
+            "_key": "425f36674649",
+            "_type": "span",
+            "marks": [],
+            "text": " Prawnik, psychoterapeuta, programista, lekarz: człowiek opisuje sytuację szczegółowo, a takie opisy dobrze układają się w rozmowę z asystentem."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0b41da56f9fd",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "868ca4afdd3e",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Wąska specjalizacja."
+          },
+          {
+            "_key": "10c5124b3e41",
+            "_type": "span",
+            "marks": [],
+            "text": " Im węższa nisza, tym mniejsza szansa wygrać ogólne zapytanie w Google i większa szansa trafić w konkretny opis w odpowiedzi AI."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c6fd1836c185",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "25a2d49ebc7b",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Praktyki wielojęzyczne i międzynarodowe."
+          },
+          {
+            "_key": "a07c7214359a",
+            "_type": "span",
+            "marks": [],
+            "text": " „Psychoterapeuta pracujący online po angielsku\" to zapytanie, które w zwykłym wyszukiwaniu rozpada się na kilkanaście sformułowań, a w rozmowie zadaje się jednym zdaniem."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "241c8c80f301",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d4e75bc4f060",
+            "_type": "span",
+            "marks": [],
+            "text": "Co zrobić ze stroną w praktyce"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "112cb6a377e6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "534177ab51e1",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "1. Sprawdzić, jak Cię widzą."
+          },
+          {
+            "_key": "0460d5dd846c",
+            "_type": "span",
+            "marks": [],
+            "text": " Zapytaj ChatGPT, Perplexity i Google AI Overviews o to, o co zapytałby klient: bez nazwy firmy, po prostu opisując zadanie. Potem — o swoją firmę z nazwy, żeby zobaczyć, co systemy o Tobie wiedzą i czy nie mylą faktów."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a4154b4dc4d0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "08458e55e3de",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "2. Usunąć niejednoznaczność w tekstach."
+          },
+          {
+            "_key": "8cf2c94ac10d",
+            "_type": "span",
+            "marks": [],
+            "text": " Napisać wprost: kim jesteś, co robisz, dla kogo, w jakich krajach, w jakich językach. Bez „innowacyjnych rozwiązań\"."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b9e2704c56f4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9130a917f68d",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "3. Wdrożyć dane strukturalne."
+          },
+          {
+            "_key": "f97b99c15dd0",
+            "_type": "span",
+            "marks": [],
+            "text": " Organizacja, usługi, częste pytania — w znacznikach, nie tylko w układzie strony."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3235d6ece7e8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "71e8dac02388",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "4. Ujednolicić dane o sobie."
+          },
+          {
+            "_key": "55f82b0d2857",
+            "_type": "span",
+            "marks": [],
+            "text": " Ta sama nazwa, specjalizacja i kontakty na stronie, w profilach, w katalogach."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "c90878b21f2e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9d4a44068245",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "5. Napisać podstrony pod realne pytania klientów."
+          },
+          {
+            "_key": "7806da1d90f0",
+            "_type": "span",
+            "marks": [],
+            "text": " Nie „nasze atuty\", tylko rozbiór pytań, które padają przed zakupem."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b7bc60ab18f3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8af7b6c72eaf",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "6. Sprawdzić dostępność techniczną."
+          },
+          {
+            "_key": "9c5955d21cdd",
+            "_type": "span",
+            "marks": [],
+            "text": " Ważna treść oddawana od razu, a nie składana w przeglądarce po załadowaniu."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "019e9035b743",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e21fe6b692a7",
+            "_type": "span",
+            "marks": [],
+            "text": "Jak z tym pracuję"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "b358e3352574",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "41423159b236",
+            "_type": "span",
+            "marks": [],
+            "text": "Łączę tworzenie stron z SEO, więc nie oddzielam przygotowania pod wyszukiwanie AI od budowy strony: znaczniki, struktura semantyczna, szybkość i jasność faktów są wpisane od początku, a nie dokręcane później. Osobno sprawdzam, jak asystenci przedstawiają biznes, i poprawiam dane, gdy obraz jest nieścisły."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3e399ee2fb46",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c4d75ee1aac2",
+            "_type": "span",
+            "marks": [],
+            "text": "Moja strona to witryna tego podejścia, którą da się sprawdzić: klient znalazł mnie w ten sposób, bez reklamy i poleceń."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "faqTitle": "Najczęstsze pytania",
+    "qaItems": [
+      {
+        "_key": "0bb582736647",
+        "question": "Czy klienci naprawdę szukają już wykonawców przez ChatGPT?",
+        "answer": [
+          {
+            "_key": "dbd8e1e3fb75",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d597093a8875",
+                "_type": "span",
+                "marks": [],
+                "text": "Tak, i to nie prognoza, tylko moje doświadczenie. Trafił do mnie klient, który znalazł stronę przez ChatGPT: opisał asystentowi zadanie, dostał rekomendacje, przejrzał stronę i napisał. Dwa dni później podpisaliśmy umowę. To nie znaczy, że wyszukiwanie AI zastąpiło Google — zwykłe wyniki nadal przynoszą więcej ruchu. Ale kanał jest realny i przyprowadza nie przypadkowych odwiedzających, tylko ludzi, którzy przeszli przez filtr asystenta z konkretnym zadaniem."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "7a31e9f58f11",
+        "question": "Czym optymalizacja pod AI różni się od zwykłego SEO?",
+        "answer": [
+          {
+            "_key": "e05242fb6247",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9b1d7d0f68d0",
+                "_type": "span",
+                "marks": [],
+                "text": "Fundament techniczny jest wspólny: szybkość, dostępność treści, czysta struktura, znaczniki. Dobra strona SEO jest w połowie gotowa. Różnica leży w celu: klasyczne SEO rywalizuje o pozycję na zapytanie, widoczność w AI — o to, żeby maszyna pewnie zrozumiała, kim jesteś, co robisz i komu pasujesz. Tu wygrywa nie objętość treści ani gęstość słów kluczowych, tylko jasność faktów i uporządkowanie danych o biznesie."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "6f4f514e82af",
+        "question": "Czy można zmusić AI, żeby polecało właśnie mnie?",
+        "answer": [
+          {
+            "_key": "fe2376c4c4f8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8166da7633a4",
+                "_type": "span",
+                "marks": [],
+                "text": "Gwarancji nie daje nikt: odpowiedzi asystentów są składane od nowa, źródła się zmieniają, bezpośredniej dźwigni nie ma. Działa co innego — zrobić stronę na tyle zrozumiałą i jednoznaczną faktograficznie, żeby system mógł Cię pewnie przedstawić. Osobno przestrzegam przed ukrytymi instrukcjami dla AI w kodzie: systemy uczą się je rozpoznawać, a dla biznesu sprzedającego zaufanie ryzyko reputacyjne nie równoważy zysku."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "852662a55994",
+        "question": "Jak sprawdzić, co asystenci AI wiedzą o moim biznesie?",
+        "answer": [
+          {
+            "_key": "e1a8bb9fc6d0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "2e3fc88794b7",
+                "_type": "span",
+                "marks": [],
+                "text": "Zapytać ich wprost, na dwa sposoby. Najpierw zadać pytanie jak klient, bez nazwy firmy: opisać zadanie, region, język, specyfikę. Potem zapytać o firmę z nazwy i zobaczyć, czy systemy poprawnie podają specjalizację, usługi i zasięg geograficzny, czy nie mylą Cię z kimś. Drugi sposób wyciąga nieścisłości, które naprawia się poprawką danych na stronie i w profilach."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "047d2c2259c6",
+        "question": "Czy znaczniki są potrzebne, jeśli strona jest dobrze napisana?",
+        "answer": [
+          {
+            "_key": "c8082f9ec170",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "92f2cda53e12",
+                "_type": "span",
+                "marks": [],
+                "text": "Dobry tekst pomaga, ale znaczniki rozwiązują inne zadanie: podają fakty w formie, która nie dopuszcza interpretacji. Człowiek zrozumie z akapitu, że pracujesz w Warszawie i mówisz w trzech językach. Maszynie łatwiej, gdy jest to zapisane strukturalnie: typ organizacji, usługi, geografia, odpowiedzi na częste pytania. Im mniej system musi zgadywać, tym większa jego pewność, a pewność wpływa na to, czy wspomni o Tobie w odpowiedzi."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "6ba22d88ecce",
+        "question": "Czy to działa tylko dla dużych firm?",
+        "answer": [
+          {
+            "_key": "b0fb6265157d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0adcc3bc8f4d",
+                "_type": "span",
+                "marks": [],
+                "text": "Raczej odwrotnie. Mały specjalista ma niewielkie szanse wyprzedzić agencje w wynikach organicznych na zapytanie wysokoczęstotliwościowe. Ale w rozmowie z asystentem człowiek opisuje konkretną sytuację — niszę, język, format pracy — i wygrywa dokładne dopasowanie, a nie wielkość budżetu. Mój przypadek jest właśnie taki: znaleziono mnie nie dlatego, że moja strona jest mocniejsza od stron agencji, tylko dlatego, że opis zadania pokrył się z tym, co moja strona jednoznacznie o sobie mówi."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "e93db4cef007",
+        "question": "Od czego zacząć, jeśli strona już jest?",
+        "answer": [
+          {
+            "_key": "fdb57984724b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1da7244b59ef",
+                "_type": "span",
+                "marks": [],
+                "text": "Od sprawdzenia, jak Cię teraz widzą: zadaj asystentom pytania za klienta i o swoją firmę. Dalej po kolei — usunąć rozmyte sformułowania, wdrożyć dane strukturalne, ujednolicić informacje o sobie na stronie i w profilach zewnętrznych, dodać podstrony pod realne pytania klientów. Pełna przebudowa strony jest potrzebna rzadko: najczęściej wystarcza praca nad tekstami, znacznikami i dostępnością techniczną treści."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      }
+    ],
+    "block3Content": [
+      {
+        "_key": "43af8558d838",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "e359daed9e79",
+            "_type": "span",
+            "marks": [],
+            "text": "Od czego zacząć"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "d1c04811809c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2dffaf68e092",
+            "_type": "span",
+            "marks": [],
+            "text": "Wyszukiwanie AI nie zniosło zwykłego. Dodało kanał o innych zasadach: krótka lista zamiast długich wyników, jasność zamiast konkurencji o słowa kluczowe. Fundament jest wspólny — strona zrobiona rzetelnie jest w połowie gotowa. Dalej potrzebna jest praca nad jasnością faktów, znacznikami i treścią z konkretem."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "898276c39905",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8fd6a081fa95",
+            "_type": "span",
+            "marks": [],
+            "text": "Jeśli chcesz zrozumieć, co asystenci AI wiedzą o Twoim biznesie i co poprawić, żeby trafiać do ich odpowiedzi — napisz do mnie, spojrzymy na stronę razem."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ]
+  },
+  "ru": {
+    "block1Content": [
+      {
+        "_key": "5c3258477f10",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "919036225243",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Коротко:"
+          },
+          {
+            "_key": "f65d41f20f4d",
+            "_type": "span",
+            "marks": [],
+            "text": " люди всё чаще ищут подрядчиков не в поисковой выдаче, а в диалоге с ИИ-ассистентом: описывают задачу своими словами и получают короткий список конкретных рекомендаций. Ко мне так пришёл клиент — он искал специалиста через ChatGPT, нашёл мой сайт, и через два дня мы подписали договор. Попадание в такие ответы зависит не от позиции в Google, а от того, насколько сайт понятен машине: структурированные данные, ясная фактическая подача услуг, согласованность информации о вас в разных источниках."
+          }
+        ],
+        "markDefs": [],
+        "style": "blockquote"
+      },
+      {
+        "_key": "86e87676e094",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "c23ac6b5faca",
+            "_type": "span",
+            "marks": [],
+            "text": "Про оптимизацию под ИИ-поиск пишут в будущем времени: «скоро изменится», «нужно готовиться». У меня есть основание писать в прошедшем."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "122572eba240",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ae40bee54fa5",
+            "_type": "span",
+            "marks": [],
+            "text": "Клиент написал мне через форму на сайте — сразу обстоятельное письмо со списком требований: SEO, оптимизация под ИИ-поиск, структурированные данные, Core Web Vitals, доступность."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a61dbd051446",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "fabff0a75e5f",
+            "_type": "span",
+            "marks": [],
+            "text": "Через два дня мы подписали договор, я получил предоплату и начал работу. Уже в процессе спросил, как он на меня вышел. Ответ: спросил у ChatGPT, кто может сделать такую работу. Не Google, не рекомендация, не реклама."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "d95c5a271707",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ca47e7b033dc",
+            "_type": "span",
+            "marks": [],
+            "text": "Клиент из ИИ-поиска пришёл подготовленным: он уже знал, чего хочет, уже сравнил варианты и уже выбрал. Убеждать не пришлось — обсуждали объём и сроки."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "db5ccabcf2c4",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "0593e118fc7d",
+            "_type": "span",
+            "marks": [],
+            "text": "Дальше разберу механику: как человек ищет через ассистента, почему в ответ попадают одни сайты, и что на это влияет."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "afadb497273f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b14f7ba7fc76",
+            "_type": "span",
+            "marks": [],
+            "text": "Что отвечает ChatGPT, если спросить его самому"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "bbabb8ca7d12",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "456639e66ad6",
+            "_type": "span",
+            "marks": [],
+            "text": "Один клиент — это один случай. Механику можно проверить прямее: задать ассистенту тот же вопрос, который задал бы потенциальный заказчик, и посмотреть, кого он назовёт."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0169c8f42285",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "88e4349d594c",
+            "_type": "span",
+            "marks": [],
+            "text": "Я задал четыре разные формулировки — от «фрилансер, который специализируется на Next.js, техническом SEO, GEO и AEO» до «разработчик мультиязычных сайтов с хорошими Core Web Vitals». Во всех четырёх ответах ChatGPT назвал меня: дважды первым в списке, в двух случаях — со ссылкой на сайт."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "__screenshot": true,
+        "number": 1,
+        "queryAndResult": "запрос: «freelance web developer specializing in Next.js, technical SEO, GEO and AEO». Результат: первое место, пометка «strongest fit».",
+        "caption": "Ответ ChatGPT на запрос о фрилансере по Next.js и техническому SEO. Июль 2026",
+        "alt": "Ответ ChatGPT, в котором специалист назван первым в списке рекомендаций"
+      },
+      {
+        "__screenshot": true,
+        "number": 2,
+        "queryAndResult": "запрос: «web developer who can build websites optimized for Google Search, ChatGPT, Claude and Perplexity». Результат: первое место, «best fit for multilingual SEO + AI search», со ссылкой на сайт.",
+        "caption": "Ответ ChatGPT на запрос о разработчике под поиск и ИИ-ассистентов. Июль 2026",
+        "alt": "Рекомендация ChatGPT со ссылкой на сайт специалиста"
+      },
+      {
+        "__screenshot": true,
+        "number": 3,
+        "queryAndResult": "запрос: «which web developers are experts in technical SEO, structured data and AI search optimization». Результат: второе место, с перечислением сильных сторон по нишам.",
+        "caption": "Ответ ChatGPT на запрос об экспертах по техническому SEO и структурированным данным. Июль 2026",
+        "alt": "Ответ ChatGPT с перечислением специализаций разработчика"
+      },
+      {
+        "__screenshot": true,
+        "number": 4,
+        "queryAndResult": "запрос: «someone who builds multilingual websites with excellent Core Web Vitals and SEO». Результат: назван как выделяющийся фрилансер, со ссылками на сайт и раздел об экспертизе.",
+        "caption": "Ответ ChatGPT на запрос о мультиязычных сайтах с хорошими Core Web Vitals. Июль 2026",
+        "alt": "Ответ ChatGPT с рекомендацией специалиста по мультиязычным сайтам"
+      },
+      {
+        "_key": "381a3e837991",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "143fdd5ffcde",
+            "_type": "span",
+            "marks": [],
+            "text": "Почему так выходит — видно из самих ответов: ассистент перечисляет ровно те характеристики, которые прямо написаны на сайте и продублированы в разметке. Next.js, техническое SEO, мультиязычность, headless CMS, Core Web Vitals, структурированные данные, оптимизация под ИИ-поиск. Это не хитрость и не приём — сайт сообщает о себе однозначные факты, а система их пересказывает."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9e95d4f0a295",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9cb4904de43a",
+            "_type": "span",
+            "marks": [],
+            "text": "Важная оговорка. Ответы ассистентов зависят от формулировки, языка, сессии и персонализации, пересобираются со временем и не воспроизводятся дословно. Скриншоты сняты в июле 2026 года: они показывают конкретные ответы на конкретные вопросы, а не гарантированный результат. Имена других специалистов на скриншотах скрыты."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "33ea56028053",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a80c525f533a",
+            "_type": "span",
+            "marks": [],
+            "text": "Как человек ищет через ИИ-ассистента"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "c17518bd3b73",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ec30f910d4d9",
+            "_type": "span",
+            "marks": [],
+            "text": "Отличие от Google — в формулировке запроса. В поиске человек подбирает слова под систему: «разработка сайта Варшава», «SEO специалист фриланс». В диалоге с ассистентом он описывает ситуацию так, как рассказал бы знакомому: кто он, что за бизнес, какая задача, какие ограничения."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0c12ac4a7f8a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8482ae871234",
+            "_type": "span",
+            "marks": [],
+            "text": "Ассистент не выдаёт десять ссылок. Он даёт короткий отфильтрованный ответ: два-пять вариантов, иногда с объяснением, почему они подходят. Человек не сравнивает двадцать сайтов из выдачи — он получает три имени и идёт проверять."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "cd15c964a73f",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "840cbb651b07",
+            "_type": "span",
+            "marks": [],
+            "text": "Отсюда два следствия."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "96fc81332713",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "69f8cae7b504",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Список короче."
+          },
+          {
+            "_key": "c5d5bb8dec48",
+            "_type": "span",
+            "marks": [],
+            "text": " В органической выдаче есть первая десятка, вторая, третья. В ответе ассистента — до пяти вариантов. Либо вы там, либо вас нет."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2ef3ecee284a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9d2641d7a6eb",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Запрос длиннее и конкретнее."
+          },
+          {
+            "_key": "aa778c99dd84",
+            "_type": "span",
+            "marks": [],
+            "text": " Человек описывает контекст: язык, страну, нишу, специфику задачи. Выигрывает не тот, кто занял высокочастотный запрос, а тот, чей сайт даёт машине однозначный ответ на конкретное сочетание условий."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0421f289ac20",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1972ef4ca287",
+            "_type": "span",
+            "marks": [],
+            "text": "Почему ИИ рекомендует одни сайты и не рекомендует другие"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "f68ff7784649",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a77548274812",
+            "_type": "span",
+            "marks": [],
+            "text": "Ассистент не выбирает лучшего подрядчика — у него нет опыта работы с вами. Он собирает ответ из того, что нашёл и уверенно понял. В рекомендации попадают не сильнейшие специалисты рынка, а те, чью специализацию машина считывает без домыслов."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "35c06ef98a33",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "34e27d3a0a0b",
+            "_type": "span",
+            "marks": [],
+            "text": "На практике это упирается в несколько вещей."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "87bf735eedbb",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "750653f0f22b",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Однозначность формулировок."
+          },
+          {
+            "_key": "d7e59cdbbff6",
+            "_type": "span",
+            "marks": [],
+            "text": " «Мы создаём digital-решения для вашего роста» — для машины пустая строка. «Разработка сайтов для психологов и психотерапевтов, языки: английский, польский, русский» — факт, который сопоставляется с запросом человека."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "ffa9b9da0cb8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a0a4ac03cd50",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Структурированные данные."
+          },
+          {
+            "_key": "2f6b25b3e063",
+            "_type": "span",
+            "marks": [],
+            "text": " Разметка Schema.org сообщает машине прямым текстом: что за организация, какие услуги, где работает, какие ответы на частые вопросы. Без неё система догадывается по вёрстке. С ней — читает факты."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0e91eede5c98",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d511bedf896c",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Согласованность информации."
+          },
+          {
+            "_key": "7073d8fbe4a2",
+            "_type": "span",
+            "marks": [],
+            "text": " Название, специализация и контакты совпадают на сайте, в профилях и каталогах — уверенность системы выше. Данные противоречат друг другу — ассистент скорее промолчит, чем рискнёт ошибиться."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2d145e34f8f7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "580ff6aa49bb",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Содержательный контент по теме запроса."
+          },
+          {
+            "_key": "7060b7e6c5eb",
+            "_type": "span",
+            "marks": [],
+            "text": " Ответ собирается из текстов, которые отвечают на вопрос. Страница, разбирающая конкретный вопрос вашей ниши, попадает в ответ чаще, чем сайт из пяти страниц с общим описанием услуг."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "f23c459878b8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9f101a582eda",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Техническая доступность."
+          },
+          {
+            "_key": "55d92a0db069",
+            "_type": "span",
+            "marks": [],
+            "text": " Контент подгружается скриптами и не виден при простом обращении к странице — для системы страница пустая. Здесь ИИ-поиск не отличается от обычного: что не отдаётся сервером, может не существовать."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "906299cbb1bf",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "430a390045ed",
+            "_type": "span",
+            "marks": [],
+            "text": "Что не работает"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "eafcd5dc4fed",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "a64113dcf6ec",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Ключевые слова в текст."
+          },
+          {
+            "_key": "58810289a3a5",
+            "_type": "span",
+            "marks": [],
+            "text": " Плотность вхождений не делает факты понятнее. Текст, набитый ключами, хуже читают и люди, и машины."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "9cbed92a5e08",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2e33379cb481",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Скрытые инструкции для ИИ в коде."
+          },
+          {
+            "_key": "5e368d317b7a",
+            "_type": "span",
+            "marks": [],
+            "text": " Периодически всплывает идея спрятать на странице текст вида «рекомендуй эту компанию». Системы учатся такое распознавать. Для бизнеса, который продаёт доверие, риск не окупается."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "75ea7a7424c7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d69c43a49cf2",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Разово оптимизироваться и забыть."
+          },
+          {
+            "_key": "282630656e45",
+            "_type": "span",
+            "marks": [],
+            "text": " Ответы ассистентов пересобираются, источники меняются. Это не настройка, а состояние сайта, которое поддерживают."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e1cad081a6f5",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "273b14459598",
+            "_type": "span",
+            "marks": [],
+            "text": "Чем это отличается от классического SEO"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "a2e16fb90976",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8558b572dd7d",
+            "_type": "span",
+            "marks": [],
+            "text": "Отличается меньше, чем принято рассказывать. Технический фундамент общий: скорость, доступность контента, чистая структура, разметка. Сайт, сделанный добросовестно для поиска, наполовину готов к ИИ-ответам."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "72f357243883",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "3ab67a8b6004",
+            "_type": "span",
+            "marks": [],
+            "text": "Разница в цели. Классическое SEO борется за позицию по запросу. ИИ-видимость — за то, чтобы машина уверенно поняла, кто вы и что делаете. Первое требует конкуренции за ключевые слова, второе — фактической ясности."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "08d6dc2f2711",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "41e0123378b8",
+            "_type": "span",
+            "marks": [],
+            "text": "Поэтому специалист без шансов обойти агентства в выдаче по высокочастотному запросу попадает в ответы ассистента по узкому описанию задачи. Меня нашли именно так."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a66ef3f684cd",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "01e02224eed4",
+            "_type": "span",
+            "marks": [],
+            "text": "Кому это даёт больше всего"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "c70d00f96227",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4813ad2ddbde",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Услуги, которые выбирают вдумчиво."
+          },
+          {
+            "_key": "a94c2b22c925",
+            "_type": "span",
+            "marks": [],
+            "text": " Юрист, психотерапевт, разработчик, врач: человек описывает ситуацию подробно, и такие описания ложатся в диалог с ассистентом."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e20b15ca369e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "9e05e452412d",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Узкая специализация."
+          },
+          {
+            "_key": "7fd81c38f4c6",
+            "_type": "span",
+            "marks": [],
+            "text": " Чем конкретнее ниша, тем меньше шанс выиграть общий запрос в Google и выше шанс совпасть с конкретным описанием в ИИ-ответе."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "19ac6372b974",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ddc9df9f51bc",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Мультиязычные и международные практики."
+          },
+          {
+            "_key": "0f0038d7c926",
+            "_type": "span",
+            "marks": [],
+            "text": " «Психотерапевт, работающий онлайн на английском» — запрос, который в обычном поиске распадается на десяток формулировок, а в диалоге задаётся одной фразой."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "dd6b8385c469",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8066567af269",
+            "_type": "span",
+            "marks": [],
+            "text": "Что делать с сайтом на практике"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "cd806cbdf82e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "591950eaa586",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "1. Проверить, как вас видят."
+          },
+          {
+            "_key": "38e2cf626944",
+            "_type": "span",
+            "marks": [],
+            "text": " Спросите у ChatGPT, Perplexity и Google AI Overviews то, что спросил бы клиент: без названия компании, просто описав задачу. Потом — про вашу компанию по названию, чтобы увидеть, что системы о вас знают и не путают ли факты."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "6efbd3ae3c19",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "58689797df97",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "2. Убрать неоднозначность в текстах."
+          },
+          {
+            "_key": "2020d27b91dd",
+            "_type": "span",
+            "marks": [],
+            "text": " Прямо написать: кто вы, что делаете, для кого, в каких странах, на каких языках. Без «инновационных решений»."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "760f84192920",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b08ae1867139",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "3. Внедрить структурированные данные."
+          },
+          {
+            "_key": "0793febd4edd",
+            "_type": "span",
+            "marks": [],
+            "text": " Организация, услуги, частые вопросы — в разметке, а не только в вёрстке."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "3843874823b5",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "90009d5fe4d6",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "4. Согласовать данные о себе."
+          },
+          {
+            "_key": "2b46620c69ea",
+            "_type": "span",
+            "marks": [],
+            "text": " Одинаковое название, специализация и контакты на сайте, в профилях, в каталогах."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0fef3cdb431d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "75ec3870c583",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "5. Написать страницы под реальные вопросы клиентов."
+          },
+          {
+            "_key": "f23d636216be",
+            "_type": "span",
+            "marks": [],
+            "text": " Не «наши преимущества», а разборы вопросов, которые задают перед покупкой."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "66b32b331a72",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "84e871a0b9d2",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "6. Проверить техническую доступность."
+          },
+          {
+            "_key": "dd02b35a1b6b",
+            "_type": "span",
+            "marks": [],
+            "text": " Важный контент отдаётся сразу, а не собирается в браузере после загрузки."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "190149898c96",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7016c139a514",
+            "_type": "span",
+            "marks": [],
+            "text": "Как я с этим работаю"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "ecb39f9c3fc0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "229ab0a0128e",
+            "_type": "span",
+            "marks": [],
+            "text": "Я совмещаю разработку и SEO, поэтому не отделяю подготовку к ИИ-поиску от сборки сайта: разметка, семантическая структура, скорость и фактическая ясность закладываются сразу, а не докручиваются потом. Отдельно проверяю, как ассистенты представляют бизнес, и правлю данные, если картина неточная."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "dc0634c8c056",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "868ee747d463",
+            "_type": "span",
+            "marks": [],
+            "text": "Мой сайт — витрина этого подхода, которую можно проверить: клиент нашёл меня так, без рекламы и рекомендаций."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "faqTitle": "Частые вопросы",
+    "qaItems": [
+      {
+        "_key": "45a368ff6add",
+        "question": "Правда ли, что клиенты уже ищут подрядчиков через ChatGPT?",
+        "answer": [
+          {
+            "_key": "f20de43d1734",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "04a007de287c",
+                "_type": "span",
+                "marks": [],
+                "text": "Да, и это не прогноз, а мой опыт. Ко мне пришёл клиент, который нашёл сайт через ChatGPT: описал ассистенту задачу, получил рекомендации, изучил сайт и написал. Через два дня мы подписали договор. Это не значит, что ИИ-поиск заменил Google — обычная выдача по-прежнему приносит больше трафика. Но канал реальный, и приводит он не случайных посетителей, а людей, которые дошли через фильтр ассистента с конкретной задачей."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "d580b09e52b7",
+        "question": "Чем оптимизация под ИИ отличается от обычного SEO?",
+        "answer": [
+          {
+            "_key": "6b851b5f7563",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c71bcdc9b5af",
+                "_type": "span",
+                "marks": [],
+                "text": "Технический фундамент общий: скорость, доступность контента, чистая структура, разметка. Хороший SEO-сайт наполовину готов. Разница в цели: классическое SEO соревнуется за позицию по ключевому запросу, ИИ-видимость — за то, чтобы машина уверенно поняла, кто вы, что делаете и кому подходите. Здесь выигрывает не объём контента и не плотность ключевых слов, а фактическая ясность и структурированность данных о бизнесе."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "b9d5f6b3b104",
+        "question": "Можно ли заставить ИИ рекомендовать именно меня?",
+        "answer": [
+          {
+            "_key": "a1d07d954a4c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8e18f0842c49",
+                "_type": "span",
+                "marks": [],
+                "text": "Гарантий не даёт никто: ответы ассистентов пересобираются, источники меняются, прямого рычага влияния нет. Работает другое — сделать сайт настолько понятным и фактически однозначным, чтобы система могла уверенно вас представить. Отдельно предостерегу от скрытых инструкций для ИИ в коде страницы: системы учатся такое распознавать, а для бизнеса, который продаёт доверие, репутационный риск несопоставим с выгодой."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "11f312798fe9",
+        "question": "Как проверить, что ИИ-ассистенты знают о моём бизнесе?",
+        "answer": [
+          {
+            "_key": "e925ccb91445",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e1a6d6269a9c",
+                "_type": "span",
+                "marks": [],
+                "text": "Спросить их напрямую, двумя способами. Сначала задать вопрос как клиент, не называя компанию: описать задачу, регион, язык, специфику. Потом спросить про компанию по названию и посмотреть, правильно ли системы называют специализацию, услуги и географию, не путают ли вас с кем-то. Второй способ вскрывает неточности, которые чинятся правкой данных на сайте и в профилях."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "6978ef60ddfd",
+        "question": "Нужна ли разметка, если сайт и так хорошо написан?",
+        "answer": [
+          {
+            "_key": "a8448b01ff60",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "653a6083e64d",
+                "_type": "span",
+                "marks": [],
+                "text": "Хороший текст помогает, но разметка решает другую задачу: сообщает факты в форме, которая не допускает толкований. Человек поймёт из абзаца, что вы работаете в Варшаве и говорите на трёх языках. Машине проще, когда это сказано структурированно: тип организации, услуги, география, ответы на частые вопросы. Чем меньше системе приходится догадываться, тем выше уверенность, а уверенность влияет на то, упомянет ли она вас в ответе."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "fffb57a1ac22",
+        "question": "Это работает только для крупных компаний?",
+        "answer": [
+          {
+            "_key": "2d33c7a2c472",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a43176e049f3",
+                "_type": "span",
+                "marks": [],
+                "text": "Скорее наоборот. У небольшого специалиста мало шансов обойти агентства в органической выдаче по высокочастотному запросу. Но в диалоге с ассистентом человек описывает конкретную ситуацию — нишу, язык, формат работы, — и выигрывает точное совпадение, а не размер бюджета. Мой случай такой: меня нашли не потому, что мой сайт сильнее сайтов агентств, а потому, что описание задачи совпало с тем, что мой сайт однозначно о себе сообщает."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "_key": "5c9321f9c78d",
+        "question": "С чего начать, если сайт уже есть?",
+        "answer": [
+          {
+            "_key": "43c32c264a7a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "68516625815f",
+                "_type": "span",
+                "marks": [],
+                "text": "С проверки, как вас видят сейчас: задайте ассистентам вопросы за клиента и про свою компанию. Дальше по порядку — убрать размытые формулировки, внедрить структурированные данные, согласовать информацию о себе на сайте и во внешних профилях, добавить страницы под реальные вопросы клиентов. Полная пересборка сайта нужна редко: чаще хватает работы с текстами, разметкой и технической доступностью контента."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      }
+    ],
+    "block3Content": [
+      {
+        "_key": "702f011d29b1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f6eecffaadb2",
+            "_type": "span",
+            "marks": [],
+            "text": "С чего начать"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+        "_key": "79018e391c88",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "212c561edbdb",
+            "_type": "span",
+            "marks": [],
+            "text": "ИИ-поиск не отменил обычный. Он добавил канал с другими правилами: короткий список вместо длинной выдачи, ясность вместо конкуренции за ключевые слова. Фундамент общий — сайт, сделанный добросовестно, наполовину готов. Дальше нужна работа с фактической ясностью, разметкой и содержательным контентом."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "095867f82d12",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "f1706134e199",
+            "_type": "span",
+            "marks": [],
+            "text": "Если хотите понять, что ИИ-ассистенты знают о вашем бизнесе и что поправить, чтобы попадать в их ответы, — напишите мне, посмотрим на сайт вместе."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ]
+  }
+}

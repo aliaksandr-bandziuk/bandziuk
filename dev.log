@@ -1,0 +1,60 @@
+
+> bandziuk@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+[redirects] EN: 8 flat→nested redirects generated
+[redirects] PL: 8 flat→nested redirects generated
+[redirects] RU: 8 flat→nested redirects generated
+[redirects] Done: 30 total redirects (24 dynamic from Sanity + 6 static overrides)
+ ✓ Ready in 4.4s
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 866ms (123 modules)
+ ○ Compiling /[lang]/blog/[slug] ...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ✓ Compiled /[lang]/blog/[slug] in 22.3s (7329 modules)
+ GET /blog/perche-ho-sempre-bisogno-di-conferme 200 in 24784ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 8.9s (4234 modules)
+ GET /favicon.ico 200 in 9200ms
+ ○ Compiling /[lang]/[...slug] ...
+ ✓ Compiled /[lang]/[...slug] in 5.9s (7714 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /blog/perche-ho-sempre-bisogno-di-conferme 200 in 479ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1253ms (4452 modules)
+ GET /favicon.ico 200 in 1348ms
+ GET /services/ai-ready-seo-and-geo-optimization 200 in 9476ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 998ms (7480 modules)
+ GET /pl/services/ai-ready-seo-and-geo-optimization 404 in 1605ms
+ GET /pl/services/ai-ready-seo-and-geo-optimization 404 in 1563ms
+ GET /blog/perche-ho-sempre-bisogno-di-conferme 200 in 1268ms
+ GET /ru/services/ai-ready-seo-and-geo-optimization 404 in 141ms
+ GET /ru/services/ai-ready-seo-and-geo-optimization 404 in 43ms
+ GET /blog/how-to-check-what-ai-says-about-your-company 200 in 557ms
+ GET /favicon.ico 200 in 238ms
+ GET /blog/how-to-correct-wrong-information-in-chatgpt 200 in 330ms
+ GET /blog/when-ai-attributes-your-features-to-a-competitor 200 in 279ms
+ GET /blog/how-to-monitor-brand-mentions-in-ai-answers 200 in 269ms
+ GET /pl/blog/co-asystenci-ai-mowia-o-twojej-firmie 200 in 459ms
+ GET /pl/blog/jak-poprawic-bledne-dane-o-firmie-w-chatgpt 200 in 256ms
+ GET /pl/blog/ai-przypisuje-wasze-funkcje-konkurentowi 200 in 290ms
+ GET /pl/blog/monitoring-wzmianek-o-marce-w-odpowiedziach-ai 200 in 253ms
+ GET /ru/blog/chto-ii-assistenty-govoryat-o-vashey-kompanii 200 in 384ms
+ GET /ru/blog/kak-ispravit-nevernye-dannye-o-kompanii-v-chatgpt 200 in 261ms
+ GET /ru/blog/ii-pripisyvaet-vashi-funkcii-konkurentu 200 in 252ms
+ GET /ru/blog/monitoring-upominaniy-brenda-v-ii-otvetah 200 in 483ms
+ GET /pl/oferty/ai-seo-and-geo-optymalizacja 200 in 858ms
+ GET /ru/uslugi/ai-seo-i-geo-optimizaciya 200 in 540ms
+ GET /ru/uslugi/ai-seo-i-geo-optimizaciya 200 in 501ms
+ GET /pl/oferty/ai-seo-and-geo-optymalizacja 200 in 399ms
+ GET /services/ai-ready-seo-and-geo-optimization 200 in 520ms
+ GET /services/ai-ready-seo-and-geo-optimization 200 in 471ms

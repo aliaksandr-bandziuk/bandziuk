@@ -1,0 +1,242 @@
+// scripts/assemble-blog-batch4.cjs
+// Batch 4 (articles 10-12): website-build-timeline, multilingual-website-cost, chatgpt-recommendations.
+const fs = require("fs");
+const path = require("path");
+const crypto = require("crypto");
+const { markdownToPortableText } = require("./lib/markdown-to-portable-text.cjs");
+
+function key() { return crypto.randomBytes(6).toString("hex"); }
+
+const DRAFTS = path.resolve(__dirname, "../drafts");
+function readFile(name) { return fs.readFileSync(path.join(DRAFTS, name), "utf8"); }
+
+function parseHeaderEN(raw) {
+  const metaTitle = raw.match(/meta-title \([^)]*\):\s*(.+)/)[1].trim();
+  const metaDescription = raw.match(/meta-description \([^)]*\):\s*(.+)/)[1].trim();
+  const excerpt = raw.match(/^excerpt:\s*(.+)/m)[1].trim();
+  const coverAlt = raw.match(/- Cover:\s*"([^"]+)"/)[1];
+  return { metaTitle, metaDescription, excerpt, coverAlt };
+}
+function parseHeaderPL(raw) {
+  const metaTitle = raw.match(/meta-title \([^)]*\):\s*(.+)/)[1].trim();
+  const metaDescription = raw.match(/meta-description \([^)]*\):\s*(.+)/)[1].trim();
+  const excerpt = raw.match(/^excerpt:\s*(.+)/m)[1].trim();
+  const coverAlt = raw.match(/- Okładka:\s*„([^"]+)"/)[1];
+  return { metaTitle, metaDescription, excerpt, coverAlt };
+}
+function parseHeaderRU(raw) {
+  const metaTitle = raw.match(/meta-title \([^)]*\):\s*(.+)/)[1].trim();
+  const metaDescription = raw.match(/meta-description \([^)]*\):\s*(.+)/)[1].trim();
+  const excerpt = raw.match(/^excerpt:\s*(.+)/m)[1].trim();
+  const coverAlt = raw.match(/- Обложка:\s*«([^»]+)»/)[1];
+  return { metaTitle, metaDescription, excerpt, coverAlt };
+}
+function parseTitle(raw) {
+  const afterHeader = raw.replace(/^---\n[\s\S]*?\n---\n/, "");
+  return afterHeader.match(/^\s*#\s+(.+)/m)[1].trim();
+}
+
+const CATEGORY_WEB_DEV = {
+  en: "7fabc480-902f-4133-8951-3f6c1ba3fb29",
+  pl: "a082cd4a-1681-4952-a0e7-88e70dc6f61c",
+  ru: "9b17021c-1a92-432b-a0e1-1c057e25353b",
+};
+const CATEGORY_AI_SEO = {
+  en: "c5f6ed68-8b92-4f9d-81b4-2db766b752e1",
+  pl: "fbbcc050-0f47-4289-97f5-f2b62b16c5cd",
+  ru: "2c48e7d6-6853-4190-8fd2-b48f481362e9",
+};
+const AUTHOR = {
+  en: "author-aliaksandr-bandziuk",
+  pl: "author-aliaksandr-bandziuk.pl",
+  ru: "author-aliaksandr-bandziuk.ru",
+};
+
+// SEO Optimization and Strategy (general SEO service page)
+const SEO_SERVICE = {
+  en: "42a469a6-28f3-4015-8b88-414c8eb3d4fa",
+  pl: "77c5f5df-a6f3-49ca-8f42-f1439e3490c6",
+  ru: "6a81eab0-6993-41a6-adc3-d9047a3b35a0",
+};
+// AI-Ready SEO & GEO Optimization
+const GEO_SERVICE = {
+  en: "831dc620-2863-4d55-baa0-aa874a7374ac",
+  pl: "3a759a28-4135-4731-a318-cffee1b512f0",
+  ru: "1c0a4ea3-2dd6-4081-a0a0-58ee87633f71",
+};
+
+function ref(id) { return { _type: "reference", _ref: id }; }
+function refKeyed(id) { return { _key: key(), _type: "reference", _ref: id }; }
+
+const ARTICLES = [
+  {
+    baseId: "blog-website-build-timeline",
+    category: CATEGORY_WEB_DEV,
+    files: {
+      en: "blog-how-long-does-it-take-to-build-a-website-EN.md",
+      pl: "blog-ile-trwa-stworzenie-strony-PL.md",
+      ru: "blog-skolko-vremeni-zanimaet-razrabotka-saita-RU.md",
+    },
+    slug: {
+      en: "how-long-does-it-take-to-build-a-website",
+      pl: "ile-trwa-stworzenie-strony-internetowej",
+      ru: "skolko-vremeni-zanimaet-razrabotka-saita",
+    },
+    imageFile: "HOW-LONG-IT-TAKES-TO-BUILD-A-WEBSITE.jpg",
+    serviceOffered: {
+      en: ["singlepage-web-development-warsaw", "singlepage-startup-website"],
+      pl: ["singlepage-web-development-warsaw.pl", "singlepage-startup-website.pl"],
+      ru: ["singlepage-web-development-warsaw.ru", "singlepage-startup-website.ru"],
+    },
+    relatedArticles: {
+      en: ["blog-how-to-choose-developer", "blog-freelancer-vs-agency", "blog-platform-choice"],
+      pl: ["blog-how-to-choose-developer.pl", "blog-freelancer-vs-agency.pl", "blog-platform-choice.pl"],
+      ru: ["blog-how-to-choose-developer.ru", "blog-freelancer-vs-agency.ru", "blog-platform-choice.ru"],
+    },
+    publishedAt: { en: "2026-07-31T12:00:00Z", pl: "2026-07-31T12:00:00Z", ru: "2026-07-31T12:00:00Z" },
+  },
+  {
+    baseId: "blog-multilingual-website-cost",
+    category: CATEGORY_WEB_DEV,
+    files: {
+      en: "blog-multilingual-website-cost-EN.md",
+      pl: "blog-ile-kosztuje-strona-wielojezyczna-PL.md",
+      ru: "blog-skolko-stoit-multiyazychnyi-sait-RU.md",
+    },
+    slug: {
+      en: "multilingual-website-cost",
+      pl: "ile-kosztuje-strona-wielojezyczna",
+      ru: "skolko-stoit-multiyazychnyi-sait",
+    },
+    imageFile: "HOW-MUCH-A-MULTILINGUAL-WEBSITE-COSTS.jpg",
+    serviceOffered: {
+      en: ["singlepage-multilingual-website", "singlepage-platform-migration"],
+      pl: ["singlepage-multilingual-website.pl", "singlepage-platform-migration.pl"],
+      ru: ["singlepage-multilingual-website.ru", "singlepage-platform-migration.ru"],
+    },
+    relatedArticles: {
+      en: ["blog-redesign-traffic-loss", "blog-platform-choice", "blog-website-build-timeline"],
+      pl: ["blog-redesign-traffic-loss.pl", "blog-platform-choice.pl", "blog-website-build-timeline.pl"],
+      ru: ["blog-redesign-traffic-loss.ru", "blog-platform-choice.ru", "blog-website-build-timeline.ru"],
+    },
+    publishedAt: { en: "2026-07-31T13:00:00Z", pl: "2026-07-31T13:00:00Z", ru: "2026-07-31T13:00:00Z" },
+  },
+  {
+    baseId: "blog-chatgpt-recommendations",
+    category: CATEGORY_AI_SEO,
+    files: {
+      en: "blog-how-to-get-recommended-by-chatgpt-EN.md",
+      pl: "blog-jak-trafic-do-rekomendacji-chatgpt-PL.md",
+      ru: "blog-kak-popast-v-rekomendacii-chatgpt-RU.md",
+    },
+    slug: {
+      en: "how-to-get-recommended-by-chatgpt",
+      pl: "jak-trafic-do-rekomendacji-chatgpt",
+      ru: "kak-popast-v-rekomendacii-chatgpt",
+    },
+    imageFile: "HOW-TO-GET-RECOMMENDED-BY-CHATGPT.jpg",
+    serviceOffered: {
+      en: [GEO_SERVICE.en, SEO_SERVICE.en],
+      pl: [GEO_SERVICE.pl, SEO_SERVICE.pl],
+      ru: [GEO_SERVICE.ru, SEO_SERVICE.ru],
+    },
+    relatedArticles: {
+      en: ["blog-found-via-chatgpt", "blog-not-showing-in-google", "blog-seo-cost"],
+      pl: ["blog-found-via-chatgpt.pl", "blog-not-showing-in-google.pl", "blog-seo-cost.pl"],
+      ru: ["blog-found-via-chatgpt.ru", "blog-not-showing-in-google.ru", "blog-seo-cost.ru"],
+    },
+    publishedAt: { en: "2026-07-31T14:00:00Z", pl: "2026-07-31T14:00:00Z", ru: "2026-07-31T14:00:00Z" },
+  },
+];
+
+function docIdFor(baseId, lang) { return lang === "en" ? baseId : `${baseId}.${lang}`; }
+const PARSE_HEADER = { en: parseHeaderEN, pl: parseHeaderPL, ru: parseHeaderRU };
+
+const output = {};
+for (const art of ARTICLES) {
+  const docs = {};
+  for (const lang of ["en", "pl", "ru"]) {
+    const raw = readFile(art.files[lang]);
+    const { metaTitle, metaDescription, excerpt, coverAlt } = PARSE_HEADER[lang](raw);
+    const title = parseTitle(raw);
+    const content = markdownToPortableText(raw);
+
+    docs[lang] = {
+      _id: docIdFor(art.baseId, lang),
+      _type: "blog",
+      language: lang,
+      title,
+      slug: { _type: "localizedSlug", [lang]: { _type: "slug", current: art.slug[lang] } },
+      seo: { metaTitle, metaDescription },
+      publishedAt: art.publishedAt[lang],
+      category: ref(art.category[lang]),
+      author: ref(AUTHOR[lang]),
+      excerpt,
+      contentBlocks: [{ _key: key(), _type: "textContent", content }],
+      serviceOffered: art.serviceOffered[lang].map(refKeyed),
+      relatedArticles: art.relatedArticles[lang].map(refKeyed),
+      _coverAlt: coverAlt,
+      _imageFile: art.imageFile,
+    };
+  }
+  const metaDoc = {
+    _id: `${art.baseId}.i18n`,
+    _type: "translation.metadata",
+    documentId: art.baseId,
+    translations: [
+      { _key: "en", value: ref(docIdFor(art.baseId, "en")) },
+      { _key: "pl", value: ref(docIdFor(art.baseId, "pl")) },
+      { _key: "ru", value: ref(docIdFor(art.baseId, "ru")) },
+    ],
+  };
+  output[art.baseId] = { docs, metaDoc };
+}
+
+fs.writeFileSync(path.resolve(__dirname, "../drafts/_blog-batch4-docs.json"), JSON.stringify(output, null, 2));
+
+console.log("=== VALIDATION ===");
+const errors = [];
+for (const art of ARTICLES) {
+  const { docs } = output[art.baseId];
+  for (const lang of ["en", "pl", "ru"]) {
+    const d = docs[lang];
+    if (!d.seo.metaTitle) errors.push(`${art.baseId}/${lang}: missing metaTitle`);
+    if (!d.seo.metaDescription) errors.push(`${art.baseId}/${lang}: missing metaDescription`);
+    if (!d.excerpt) errors.push(`${art.baseId}/${lang}: missing excerpt`);
+    if (!d.title) errors.push(`${art.baseId}/${lang}: missing title`);
+    if (!d.publishedAt) errors.push(`${art.baseId}/${lang}: missing publishedAt`);
+    if (!d.category?._ref) errors.push(`${art.baseId}/${lang}: missing category`);
+    if (!d.author?._ref) errors.push(`${art.baseId}/${lang}: missing author`);
+    if (!d.slug[lang]?.current) errors.push(`${art.baseId}/${lang}: missing own-locale slug`);
+    if (Object.keys(d.slug).filter((k) => k !== "_type").length !== 1) errors.push(`${art.baseId}/${lang}: slug has extra locale keys`);
+    if (d.contentBlocks.length !== 1 || d.contentBlocks[0]._type !== "textContent") errors.push(`${art.baseId}/${lang}: contentBlocks is not a single textContent block`);
+    if (d.serviceOffered.length < 2) errors.push(`${art.baseId}/${lang}: serviceOffered has fewer than 2 entries`);
+    if (d.relatedArticles.length !== 3) errors.push(`${art.baseId}/${lang}: relatedArticles does not have exactly 3 entries`);
+    if (!d._coverAlt) errors.push(`${art.baseId}/${lang}: missing cover alt text`);
+  }
+}
+if (errors.length) { console.log("FAILED:"); errors.forEach((e) => console.log(`  - ${e}`)); }
+else console.log("OK — all required fields present, one slug per doc, single textContent block, 2+ serviceOffered, 3 relatedArticles.");
+
+console.log("\n=== DOC SUMMARY ===");
+for (const art of ARTICLES) {
+  const { docs, metaDoc } = output[art.baseId];
+  console.log(`\n### ${art.baseId} ###`);
+  for (const lang of ["en", "pl", "ru"]) {
+    const d = docs[lang];
+    console.log(`--- ${lang.toUpperCase()} (${d._id}) ---`);
+    console.log(`  title: ${d.title}`);
+    console.log(`  slug: ${lang} -> ${d.slug[lang].current}`);
+    console.log(`  metaTitle: ${d.seo.metaTitle}`);
+    console.log(`  metaDescription: ${d.seo.metaDescription}`);
+    console.log(`  excerpt: ${d.excerpt}`);
+    console.log(`  publishedAt: ${d.publishedAt}`);
+    console.log(`  category: ${d.category._ref}`);
+    console.log(`  cover: ${d._imageFile}  alt="${d._coverAlt}"`);
+    console.log(`  textContent: ${d.contentBlocks[0].content.length} PT blocks`);
+    console.log(`  serviceOffered: ${d.serviceOffered.map((r) => r._ref).join(", ")}`);
+    console.log(`  relatedArticles: ${d.relatedArticles.map((r) => r._ref).join(", ")}`);
+  }
+  console.log(`i18n: ${metaDoc._id}`);
+}
+console.log("\nFull resolved docs written to drafts/_blog-batch4-docs.json");

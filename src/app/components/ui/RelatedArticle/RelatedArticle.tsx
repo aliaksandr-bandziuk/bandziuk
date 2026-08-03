@@ -6,6 +6,7 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 
 export type Props = {
+  _type?: string;
   title: string;
   excerpt: string;
   category: Category;
@@ -18,7 +19,13 @@ export type Props = {
   lang: string;
 };
 
+const SEGMENT_BY_TYPE: Record<string, string> = {
+  blog: "blog",
+  portfolio: "portfolio",
+};
+
 const RelatedArticle: FC<Props> = ({
+  _type,
   title,
   excerpt,
   slug,
@@ -36,9 +43,14 @@ const RelatedArticle: FC<Props> = ({
   const PLACEHOLDER =
     "https://cdn.sanity.io/files/88gk88s2/production/1580d3312e8cb973526a4d8f1019c78868ab3a45.jpg";
 
+  // Only blog/portfolio docs live under a fixed path segment; singlepage docs (and
+  // anything else referenced via relatedArticles) resolve at the site root.
+  const segment = _type ? SEGMENT_BY_TYPE[_type] : "blog";
+  const path = segment ? `${segment}/${current}` : current;
+
   return (
     <Link
-      href={lang === "en" ? `/blog/${current}` : `/${lang}/blog/${current}`}
+      href={lang === "en" ? `/${path}` : `/${lang}/${path}`}
       className={styles.relatedArticle}
     >
       <div className={styles.relatedArticleImage}>

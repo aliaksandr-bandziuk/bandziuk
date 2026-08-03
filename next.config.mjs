@@ -13,6 +13,13 @@ const STATIC_REDIRECTS = [
   { source: '/blog/build-and-optimize-a-multilingual-real-estate-platform',    destination: '/portfolio/build-and-optimize-a-multilingual-real-estate-platform',    permanent: true },
   { source: '/pl/blog/build-and-optimize-a-multilingual-real-estate-platform', destination: '/pl/portfolio/build-and-optimize-a-multilingual-real-estate-platform', permanent: true },
   { source: '/ru/blog/build-and-optimize-a-multilingual-real-estate-platform', destination: '/ru/portfolio/build-and-optimize-a-multilingual-real-estate-platform', permanent: true },
+
+  // Merged into the core Website Development service page (2026-08-03 hub/orphan cleanup):
+  // no niche, no location, no differentiating angle from the core service — direct duplicate.
+  // Unique "strategic process" framing was folded into the destination page before this redirect.
+  { source: '/business-website-development',                    destination: '/services/website-development',                  permanent: true },
+  { source: '/pl/tworzenie-stron-internetowych-dla-firm',        destination: '/pl/oferty/tworzenie-stron-internetowych',       permanent: true },
+  { source: '/ru/razrabotka-saita-dlya-biznesa',                 destination: '/ru/uslugi/razrabotka-saitov',                   permanent: true },
 ];
 
 async function buildDynamicRedirects() {

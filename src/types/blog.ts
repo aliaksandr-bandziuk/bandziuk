@@ -413,6 +413,7 @@ export type Category = {
 
 export type RelatedArticle = {
   _id: string;
+  _type: string;
   title: string;
   excerpt: string;
   category: Category;

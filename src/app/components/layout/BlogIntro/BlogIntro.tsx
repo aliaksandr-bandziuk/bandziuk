@@ -78,7 +78,7 @@ const BlogIntro: FC<Props> = ({
           </div>
           {previewImage && (
             <div className={styles.blogIntroImage}>
-              <Image src={urlFor(previewImage).url()} alt={title} fill={true} />
+              <Image src={urlFor(previewImage).url()} alt={previewImage.alt ?? title} fill={true} />
             </div>
           )}
         </div>

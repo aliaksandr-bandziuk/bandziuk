@@ -289,6 +289,7 @@ const PagePost = async ({ params }: Props) => {
                 {blog.relatedArticles.map((article: RelatedArticleType) => (
                   <RelatedArticle
                     key={article._id}
+                    _type={article._type}
                     title={article.title}
                     excerpt={article.excerpt}
                     category={article.category}

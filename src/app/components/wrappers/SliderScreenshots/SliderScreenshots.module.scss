@@ -10,3 +10,15 @@
 .clickable {
   cursor: pointer;
 }
+
+// Swiper's own pagination.css sets `.swiper-pagination { position: absolute }`,
+// which Swiper's Pagination module applies directly to whatever `el` you pass
+// it — including this external one. Overridden back to normal flow so it
+// centers on this section's own `.container`, not the (wider, overflowing)
+// swiper track it used to live inside.
+.pagination {
+  position: static !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}

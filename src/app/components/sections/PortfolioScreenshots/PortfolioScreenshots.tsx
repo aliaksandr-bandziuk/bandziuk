@@ -27,9 +27,7 @@ const PortfolioScreenshots: FC<Props> = ({ lang, screenshots }) => {
           }
         />
       </div>
-      <div className="container-content">
-        <PortfolioScreenshotsClient screenshots={screenshots} />
-      </div>
+      <PortfolioScreenshotsClient screenshots={screenshots} />
     </section>
   );
 };

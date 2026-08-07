@@ -1,5 +1,5 @@
 "use client";
-import React, { FC, useEffect, useRef } from "react";
+import React, { FC, useEffect, useRef, useState } from "react";
 import styles from "./SliderScreenshots.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
@@ -22,6 +22,13 @@ const SliderScreenshots: FC<Props> = ({ screenshots, onSlideClick }) => {
   // Drag detection: track pointer origin so a swipe doesn't open the lightbox.
   const pointerStart = useRef<{ x: number; y: number } | null>(null);
   const didDrag = useRef(false);
+  // The pagination must live outside the swiper track (which overflows the
+  // viewport for the peeking-next-slide effect) so it centers on the page's
+  // normal container instead of the wider track. A state setter (rather than
+  // a plain ref) is required here: Swiper reads `pagination.el` at mount
+  // time, and a plain ref's `.current` is still null on that first render —
+  // the state update forces the second render where the DOM node exists.
+  const [paginationEl, setPaginationEl] = useState<HTMLDivElement | null>(null);
 
   useEffect(() => {
     if (!slidesRef.current.length) return;
@@ -44,47 +51,52 @@ const SliderScreenshots: FC<Props> = ({ screenshots, onSlideClick }) => {
 
   return (
     <div className={styles.sliderScreenshots}>
-      <Swiper
-        modules={[Pagination]}
-        pagination={{ clickable: true }}
-        speed={1000}
-        spaceBetween={30}
-        grabCursor={true}
-        resistanceRatio={0}
-        edgeSwipeDetection={true}
-        slidesPerView={1.3}
-        breakpoints={{
-          980: {
-            slidesPerView: 2.3,
-          },
-        }}
-      >
-        {screenshots.map((screenshot, i) => (
-          <SwiperSlide key={screenshot._key} className={styles.slide}>
-            <div
-              ref={(el) => {
-                if (el) slidesRef.current[i] = el;
-              }}
-              className={`${styles.slide} ${onSlideClick ? styles.clickable : ""}`}
-              onPointerDown={(e) => {
-                pointerStart.current = { x: e.clientX, y: e.clientY };
-                didDrag.current = false;
-              }}
-              onPointerMove={(e) => {
-                if (!pointerStart.current) return;
-                const dx = Math.abs(e.clientX - pointerStart.current.x);
-                const dy = Math.abs(e.clientY - pointerStart.current.y);
-                if (dx > 5 || dy > 5) didDrag.current = true;
-              }}
-              onClick={() => {
-                if (!didDrag.current) onSlideClick?.(i);
-              }}
-            >
-              <ScreenshotSlide screenshot={screenshot} />
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="container-content">
+        <Swiper
+          modules={[Pagination]}
+          pagination={paginationEl ? { el: paginationEl, clickable: true } : false}
+          speed={1000}
+          spaceBetween={30}
+          grabCursor={true}
+          resistanceRatio={0}
+          edgeSwipeDetection={true}
+          slidesPerView={1.3}
+          breakpoints={{
+            980: {
+              slidesPerView: 2.3,
+            },
+          }}
+        >
+          {screenshots.map((screenshot, i) => (
+            <SwiperSlide key={screenshot._key} className={styles.slide}>
+              <div
+                ref={(el) => {
+                  if (el) slidesRef.current[i] = el;
+                }}
+                className={`${styles.slide} ${onSlideClick ? styles.clickable : ""}`}
+                onPointerDown={(e) => {
+                  pointerStart.current = { x: e.clientX, y: e.clientY };
+                  didDrag.current = false;
+                }}
+                onPointerMove={(e) => {
+                  if (!pointerStart.current) return;
+                  const dx = Math.abs(e.clientX - pointerStart.current.x);
+                  const dy = Math.abs(e.clientY - pointerStart.current.y);
+                  if (dx > 5 || dy > 5) didDrag.current = true;
+                }}
+                onClick={() => {
+                  if (!didDrag.current) onSlideClick?.(i);
+                }}
+              >
+                <ScreenshotSlide screenshot={screenshot} />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+      <div className="container">
+        <div ref={setPaginationEl} className={styles.pagination} />
+      </div>
     </div>
   );
 };

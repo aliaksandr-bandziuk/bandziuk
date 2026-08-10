@@ -87,4 +87,5 @@ export type Singlepage = {
   }>;
   pageType?: PageType;
   childrenServices?: SinglepageRef[];
+  areaServed?: string[];
 };

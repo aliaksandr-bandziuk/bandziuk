@@ -9,6 +9,7 @@ import {
   getFormStandardDocumentByLang,
   getSinglePageByLang,
   getAllPathsForLang,
+  getPageTitlesByLang,
 } from "@/sanity/sanity.utils";
 import { BASE_URL, localePrefix, findAltSlug, buildLanguageAlternates } from "@/utils/hreflang";
 import {
@@ -34,6 +35,7 @@ import {
   FormFullBlock,
   StepsBlock,
   RelatedServicesBlock,
+  LandingCtaBlock as LandingCtaBlockType,
 } from "@/types/blog";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import {
@@ -195,8 +197,18 @@ const SinglePage = async ({ params }: Props) => {
   const parentSlug = page.parentPage?.slug[lang]?.current;
   const parentTitle = page.parentPage?.title;
 
+  // Full ancestor-chain path of the CURRENT page (e.g. "services/locations"),
+  // not just its own slug — needed as the prefix for any children it lists
+  // (ServiceList, the servicesIndex JSON-LD ItemList) once it's nested itself.
+  const fullPath = slug.join("/");
+
   const formDocument: FormStandardDocument =
     await getFormStandardDocumentByLang(lang);
+
+  // Real page titles for intermediate breadcrumb segments, so a slug like
+  // "uae" shows its actual Sanity title instead of a humanized guess ("Uae").
+  const crumbTitles =
+    slug.length > 1 ? await getPageTitlesByLang(lang) : undefined;
 
   const allBlocks = page.contentBlocks || [];
   const sdBlocks = allBlocks.filter(
@@ -234,8 +246,9 @@ const SinglePage = async ({ params }: Props) => {
     pageType: page.pageType,
     pageTitle: page.title,
     excerpt: page.excerpt,
-    servicesParentSlug: page.slug[lang]?.current,
+    servicesParentSlug: fullPath,
     services: page.childrenServices || [],
+    areaServed: page.areaServed,
   };
 
   // Правильный маппинг переводов без ошибки TS
@@ -360,7 +373,13 @@ const SinglePage = async ({ params }: Props) => {
           />
         );
       case "landingCtaBlock":
-        return <LandingCtaBlock key={block._key} lang={lang} />;
+        return (
+          <LandingCtaBlock
+            key={block._key}
+            lang={lang}
+            image={(block as LandingCtaBlockType).image}
+          />
+        );
       case "formMinimalBlock":
         return (
           <FormMinimalBlockComponent
@@ -465,6 +484,7 @@ const SinglePage = async ({ params }: Props) => {
             excerpt={page.excerpt}
             lang={lang}
             segments={params.slug}
+            crumbTitles={crumbTitles}
             collapseBottomGap={firstBlockIsWrapperBanded || firstBlockIsSelfBanded}
           />
         )}
@@ -472,7 +492,8 @@ const SinglePage = async ({ params }: Props) => {
           <ServiceList
             services={page.childrenServices || []}
             lang={lang}
-            parentSlug={page.slug[lang]?.current}
+            parentSlug={fullPath}
+            variant={page.parentPage ? "compact" : "default"}
           />
         )}
         {allBlocks.map((block, index) => {

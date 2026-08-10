@@ -1,102 +1,30 @@
 
 > bandziuk@0.1.0 dev
-> next dev
+> next dev -p 3001
 
   ▲ Next.js 14.2.35
-  - Local:        http://localhost:3000
+  - Local:        http://localhost:3001
   - Environments: .env.local
 
  ✓ Starting...
-[redirects] EN: 8 flat→nested redirects generated
-[redirects] PL: 8 flat→nested redirects generated
-[redirects] RU: 8 flat→nested redirects generated
-[redirects] Done: 30 total redirects (24 dynamic from Sanity + 6 static overrides)
- ✓ Ready in 9.2s
+[redirects] EN: 12 flat→nested redirects generated
+[redirects] PL: 12 flat→nested redirects generated
+[redirects] RU: 12 flat→nested redirects generated
+[redirects] Done: 42 total redirects (36 dynamic from Sanity + 6 static overrides)
+ ✓ Ready in 4.7s
  ○ Compiling /src/middleware ...
- ✓ Compiled /src/middleware in 2.3s (123 modules)
- ○ Compiling /[lang]/portfolio/[slug] ...
+ ✓ Compiled /src/middleware in 1582ms (123 modules)
+ ○ Compiling /[lang]/[...slug] ...
 Browserslist: caniuse-lite is outdated. Please run:
   npx update-browserslist-db@latest
   Why you should do it regularly: https://github.com/browserslist/update-db#readme
- ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-Warning
-
-(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
-
-Import trace for requested module:
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-Warning
-
-(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
-
-Import trace for requested module:
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
-./src/app/[lang]/portfolio/[slug]/page.tsx
- GET /portfolio/auto-repair-seo-and-ux-boost 200 in 68482ms
- GET /portfolio/auto-repair-seo-and-ux-boost 200 in 2297ms
-<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|javascript/auto|D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\next-flight-css-loader.js??ruleSet[1].rules[14].oneOf[9].use[0]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[9].use[1]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[9].use[2]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\resolve-url-loader\index.js??ruleSet[1].rules[14].oneOf[9].use[3]!D:\applications\bandziuk\node_modules\next\dist\compiled\sass-loader\cjs.js??ruleSet[1].rules[14].oneOf[9].use[4]!D:\applications\bandziuk\src\app\components\sections\PortfolioIntro\PortfolioIntro.module.scss|rsc': No serializer registered for Warning
-<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
-<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[9].use[2]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[9].use[3]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\resolve-url-loader\index.js??ruleSet[1].rules[14].oneOf[9].use[4]!D:\applications\bandziuk\node_modules\next\dist\compiled\sass-loader\cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!D:\applications\bandziuk\src\app\components\sections\PortfolioIntro\PortfolioIntro.module.scss': No serializer registered for Warning
-<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
- GET /portfolio/auto-repair-seo-and-ux-boost 200 in 587ms
- GET /portfolio/auto-repair-seo-and-ux-boost 200 in 302ms
- GET /portfolio/auto-repair-seo-and-ux-boost 200 in 337ms
- GET /portfolio/auto-repair-seo-and-ux-boost 200 in 316ms
- GET /portfolio/build-and-optimize-a-multilingual-real-estate-platform 200 in 809ms
- GET /portfolio/build-and-optimize-a-multilingual-real-estate-platform 200 in 333ms
- ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-Warning
-
-(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
-
-Import trace for requested module:
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-Warning
-
-(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
-
-Import trace for requested module:
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
-./src/app/[lang]/portfolio/[slug]/page.tsx
- ⨯ ./src/app/components/wrappers/SliderScreenshots/SliderScreenshots.tsx
-Error: 
-  [31mx[0m Unexpected token `div`. Expected jsx identifier
-    ,-[[36;1;4mD:\applications\bandziuk\src\app\components\wrappers\SliderScreenshots\SliderScreenshots.tsx[0m:50:1]
- [2m50[0m |   if (!screenshots || screenshots.length === 0) return null;
- [2m51[0m | 
- [2m52[0m |   return (
- [2m53[0m |     <div className={styles.sliderScreenshots}>
-    : [31;1m     ^^^[0m
- [2m54[0m |       <div className="container-content">
- [2m55[0m |       <Swiper
- [2m55[0m |         modules={[Pagination]}
-    `----
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./src/app/components/wrappers/SliderScreenshots/SliderScreenshots.tsx
-./src/app/components/sections/PortfolioScreenshots/PortfolioScreenshotsClient.tsx
- ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-Warning
-
-(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
-
-Import trace for requested module:
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
-./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
-./src/app/[lang]/portfolio/[slug]/page.tsx
- GET /portfolio/auto-repair-seo-and-ux-boost 200 in 2661ms
- GET /portfolio/auto-repair-seo-and-ux-boost 200 in 1043ms
- GET /portfolio/build-and-optimize-a-multilingual-real-estate-platform 200 in 537ms
- GET /portfolio/build-and-optimize-a-multilingual-real-estate-platform 200 in 553ms
- GET /portfolio/build-and-optimize-a-multilingual-real-estate-platform 200 in 528ms
+ ✓ Compiled /[lang]/[...slug] in 67.1s (7924 modules)
+ GET /services/seo-optimization-and-strategy 200 in 78061ms
+ GET /services/seo-optimization-and-strategy 200 in 596ms
+ GET /pl/oferty/strategia-i-optymalizacja-seo 200 in 561ms
+ GET /ru/uslugi/seo-optimizaciya-i-strategiya 200 in 560ms
+ GET /services/seo-optimization-and-strategy 200 in 1264ms
+ GET /pl/oferty/strategia-i-optymalizacja-seo 200 in 404ms
+ GET /ru/uslugi/seo-optimizaciya-i-strategiya 200 in 421ms
+ GET /services 200 in 637ms
+ GET /services 200 in 561ms

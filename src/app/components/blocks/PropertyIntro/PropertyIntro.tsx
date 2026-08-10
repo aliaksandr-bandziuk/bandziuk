@@ -28,6 +28,7 @@ type Props = {
   videoPreview?: ImageAlt;
   lang: string;
   segments?: string[];
+  crumbTitles?: Record<string, string>;
   collapseBottomGap?: boolean;
 };
 
@@ -39,6 +40,7 @@ const PropertyIntro: FC<Props> = ({
   videoPreview,
   lang,
   segments,
+  crumbTitles,
   collapseBottomGap,
 }) => {
   return (
@@ -59,7 +61,12 @@ const PropertyIntro: FC<Props> = ({
         <div className={styles.content}>
           <div className={styles.contentWrapper}>
             {segments && segments.length > 0 && (
-              <Breadcrumbs lang={lang} segments={segments} currentTitle={title} />
+              <Breadcrumbs
+                lang={lang}
+                segments={segments}
+                currentTitle={title}
+                titles={crumbTitles}
+              />
             )}
             <h1 className={styles.title}>{title}</h1>
             <p className={styles.description}>{excerpt}</p>

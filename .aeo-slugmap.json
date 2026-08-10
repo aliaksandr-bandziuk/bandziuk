@@ -1,0 +1,22 @@
+{
+ "audit": {
+  "en": "ai-visibility-audit",
+  "pl": "audyt-widocznosci-w-ai",
+  "ru": "audit-vidimosti-v-ii-poiske"
+ },
+ "correction": {
+  "en": "fix-ai-misinformation",
+  "pl": "poprawa-blednych-danych-w-ai",
+  "ru": "ispravlenie-nevernyh-dannyh-v-ii"
+ },
+ "monitoring": {
+  "en": "ai-brand-monitoring",
+  "pl": "monitoring-marki-w-ai",
+  "ru": "monitoring-brenda-v-ii"
+ },
+ "readiness": {
+  "en": "ai-search-readiness",
+  "pl": "przygotowanie-strony-do-wyszukiwania-ai",
+  "ru": "podgotovka-saita-k-ii-poisku"
+ }
+}

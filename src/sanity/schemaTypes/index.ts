@@ -38,6 +38,7 @@ import landingCtaBlock from "./landingCtaBlock";
 import stepsBlock from "./stepsBlock";
 import relatedServicesBlock from "./relatedServicesBlock";
 import author from "./author";
+import siteDefaults from "./siteDefaults";
 
 export const schemaTypes = [
   header,
@@ -80,4 +81,5 @@ export const schemaTypes = [
   relatedServicesBlock,
   docFile,
   localizedSlug,
+  siteDefaults,
 ];

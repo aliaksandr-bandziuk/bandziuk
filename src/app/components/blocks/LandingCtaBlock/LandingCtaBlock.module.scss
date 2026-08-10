@@ -25,6 +25,16 @@
   }
 }
 
+// Neither a per-block nor a site-default image resolved — collapse to a
+// single centered column instead of leaving an empty second grid track.
+.noImage {
+  @media screen and (min-width: 980px) {
+    grid-template-columns: 1fr;
+    max-width: 720px;
+    margin-inline: auto;
+  }
+}
+
 .content {
   display: flex;
   flex-direction: column;

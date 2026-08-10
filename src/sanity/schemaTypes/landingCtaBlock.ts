@@ -11,6 +11,21 @@ const landingCtaBlock = defineType({
       type: "string",
     }),
     defineField({
+      name: "image",
+      title: "Image",
+      description:
+        "Optional. Falls back to the shared default image (Site Defaults) when empty.",
+      type: "image",
+      options: { hotspot: true },
+      fields: [
+        {
+          name: "alt",
+          title: "Alt Text",
+          type: "string",
+        },
+      ],
+    }),
+    defineField({
       name: "marginTop",
       title: "Margin Top",
       type: "string",

@@ -115,6 +115,15 @@ const singlepage = {
       initialValue: "page",
     }),
     defineField({
+      name: "areaServed",
+      title: "Area Served (countries, JSON-LD)",
+      description:
+        "Only for service pages, and only the countries this specific service's own copy actually names. Leave empty rather than guessing — the field is omitted from the page's structured data entirely when empty, which is correct: no claim beats a wrong one.",
+      type: "array",
+      of: [{ type: "string" }],
+      hidden: ({ document }) => document?.pageType !== "service",
+    }),
+    defineField({
       name: "language",
       type: "string",
       initialValue: "id",

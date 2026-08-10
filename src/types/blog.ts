@@ -294,6 +294,11 @@ export type LandingCtaBlock = {
   _key: string;
   _type: "landingCtaBlock";
   title: string;
+  image?: {
+    _type: "image";
+    alt?: string;
+    asset: { _ref: string; _type: "reference" };
+  };
   marginTop: "small" | "medium" | "large";
   marginBottom: "small" | "medium" | "large";
 };

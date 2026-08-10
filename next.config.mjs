@@ -40,17 +40,14 @@ async function buildDynamicRedirects() {
 
   for (const lang of langs) {
     try {
-      // Fetch every singlepage doc that has a parentPage reference,
-      // and resolve the immediate parent's slug in the same locale.
-      // This covers arbitrary nesting depth for the "old flat URL → current nested URL"
-      // case, because destination is always /{parentSlug}/{slug} regardless of depth.
-      // NOTE: if a grandchild page ever gets a flat-URL redirect, the destination will
-      // only be one level deep (/{parent}/{child}), not the full path. Add a manual
-      // override in STATIC_REDIRECTS for any such 3-level case if it arises.
+      // Fetch every singlepage doc's own slug and its IMMEDIATE parent's slug,
+      // then resolve the full ancestor chain in JS below — same two-pass
+      // approach as generateStaticParams() and getAllPathsForLang(), so this
+      // covers arbitrary nesting depth instead of only one level.
       const query = encodeURIComponent(
-        `*[_type=='singlepage' && language=='${lang}' && defined(parentPage)]{` +
-          `"slug": slug.${lang}.current,` +
-          `"parentSlug": parentPage->slug.${lang}.current` +
+        `*[_type=='singlepage' && language=='${lang}']{` +
+          `"current": slug.${lang}.current,` +
+          `"parent": parentPage->slug.${lang}.current` +
         `}`
       );
 
@@ -67,18 +64,38 @@ async function buildDynamicRedirects() {
       }
 
       const items = (await res.json()).result ?? [];
+
+      // Build full ancestor-chain slug arrays, e.g. ["services","locations","uae"].
+      const chains = {};
+      items.forEach(({ current, parent }) => {
+        if (current && !parent) chains[current] = [current];
+      });
+      let added = true;
+      while (added) {
+        added = false;
+        items.forEach(({ current, parent }) => {
+          if (current && parent && chains[parent] && !chains[current]) {
+            chains[current] = [...chains[parent], current];
+            added = true;
+          }
+        });
+      }
+
       // EN uses no locale prefix (localePrefix: "as-needed"), PL/RU get /{lang}
       const prefix = lang === 'en' ? '' : `/${lang}`;
       let count = 0;
 
-      for (const { slug, parentSlug } of items) {
-        // Skip docs whose slug or whose parent's slug isn't set for this locale yet
-        // (e.g. a parent document that hasn't had its RU slug filled in).
-        if (!slug || !parentSlug) continue;
+      for (const { current, parent } of items) {
+        // Only pages with a parent need a flat→nested redirect at all.
+        if (!current || !parent) continue;
+        const chain = chains[current];
+        // Skip if the chain didn't fully resolve (e.g. an ancestor's slug
+        // isn't filled in yet for this locale).
+        if (!chain || chain.length < 2) continue;
 
         rules.push({
-          source:      `${prefix}/${slug}`,
-          destination: `${prefix}/${parentSlug}/${slug}`,
+          source:      `${prefix}/${current}`,
+          destination: `${prefix}/${chain.join('/')}`,
           permanent: true,
         });
         count++;

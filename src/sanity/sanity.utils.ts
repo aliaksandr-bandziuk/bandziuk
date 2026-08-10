@@ -75,6 +75,13 @@ export async function getFooterByLang(lang: string) {
   return footer;
 }
 
+// Not per-language — a single shared fallback (e.g. LandingCtaBlock's default
+// image) that used to be a hardcoded path in component code.
+export async function getSiteDefaults() {
+  const query = groq`*[_id == "site-defaults"][0] { landingCtaImage }`;
+  return client.fetch(query, {}, { next: { revalidate: 60 } });
+}
+
 export async function getFormStandardDocumentByLang(
   lang: string
 ): Promise<FormStandardDocument> {
@@ -179,6 +186,7 @@ export async function getSinglePageByLang(
       previewImage,
       allowIntroBlock,
       pageType,
+      areaServed,
       contentBlocks[] {
       _type == "textContent" => {
           _key,
@@ -507,6 +515,28 @@ export async function getAllPathsForLang(lang: string): Promise<string[][]> {
     });
   }
   return Object.values(map);
+}
+
+// slug -> title, for every singlepage doc in a language. Used for breadcrumb
+// labels on intermediate URL segments, so nested pages show their real title
+// instead of a humanized guess derived from the slug (e.g. "uae" -> "Uae").
+export async function getPageTitlesByLang(
+  lang: string
+): Promise<Record<string, string>> {
+  const items: { slug: string; title: string }[] = await client.fetch(
+    groq`
+      *[_type=='singlepage' && language==$lang && defined(slug[$lang].current)]{
+        "slug": slug[$lang].current,
+        title
+      }
+    `,
+    { lang }
+  );
+
+  return items.reduce<Record<string, string>>((map, { slug, title }) => {
+    if (slug && title) map[slug] = title;
+    return map;
+  }, {});
 }
 
 // === Portfolio ===

@@ -24,6 +24,10 @@ export type PageInput = {
   excerpt?: string;
   servicesParentSlug?: string; // slug разводящей страницы в текущем языке
   services?: SinglepageRef[];
+  // Countries this specific service actually serves, stated in the page's
+  // own copy (singlepage.areaServed). Omitted from the JSON-LD entirely when
+  // empty — no locale-based guess; language isn't geography.
+  areaServed?: string[];
 };
 
 // ---- Type guards ----
@@ -72,6 +76,7 @@ export function generateStructuredData({
   excerpt,
   servicesParentSlug,
   services,
+  areaServed,
 }: PageInput) {
   const aboutKeywords = ["ueber-uns", "about", "o-kompanii", "o-nas"];
   const contactsKeywords = ["kontakt", "contacts", "kontakty"];
@@ -93,6 +98,7 @@ export function generateStructuredData({
     name: metaTitle,
     description: metaDescription,
     url,
+    inLanguage: lang,
   };
 
   if (schemaPageType === "ContactPage" && pageType !== "service") {
@@ -139,6 +145,7 @@ export function generateStructuredData({
       "@type": "Organization",
       name: metaTitle,
       url,
+      inLanguage: lang,
       // ...(contactPoints.length && { contactPoint: contactPoints }),
       ...(place && { location: place }),
       ...(members.length && { member: members }),
@@ -172,6 +179,7 @@ export function generateStructuredData({
             name: service.title,
             description: service.excerpt || undefined,
             url: buildServiceUrl(childSlug),
+            inLanguage: lang,
             provider: {
               "@type": "Person",
               name: "Aliaksandr Bandziuk",
@@ -194,10 +202,16 @@ export function generateStructuredData({
       name: "Aliaksandr Bandziuk",
       url: "https://www.bandziuk.com",
     };
-    jsonLd.areaServed = {
-      "@type": "Country",
-      name: "Poland",
-    };
+    // Only emitted when the page's own copy states a real service area
+    // (singlepage.areaServed). No locale-based default — see structuredData
+    // findings: language isn't geography, and a plausible-looking guess is
+    // worse than an absent field.
+    if (areaServed && areaServed.length > 0) {
+      jsonLd.areaServed = areaServed.map((name) => ({
+        "@type": "Country",
+        name,
+      }));
+    }
   }
 
   // Для AboutPage и WebPage обрабатываем отзывы

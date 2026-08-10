@@ -9,6 +9,9 @@ type BreadcrumbsProps = {
   segments: string[];
   /** Заголовок текущей (последней) страницы */
   currentTitle: string;
+  /** slug -> real Sanity title, for intermediate crumbs. Falls back to a
+   * humanized slug for any segment not present (e.g. non-singlepage routes). */
+  titles?: Record<string, string>;
 };
 
 const humanize = (s: string) =>
@@ -18,6 +21,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
   lang,
   segments,
   currentTitle,
+  titles,
 }) => {
   const base = lang === "en" ? "" : `/${lang}`;
   const homeTitle =
@@ -35,7 +39,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
     // промежуточные сегменты
     ...segments.slice(0, -1).map((seg, i) => {
       const path = segments.slice(0, i + 1).join("/");
-      return { name: humanize(seg), href: `${base}/${path}` };
+      return { name: titles?.[seg] ?? humanize(seg), href: `${base}/${path}` };
     }),
     // последняя — уже настоящий заголовок страницы
     { name: currentTitle, href: `${base}/${segments.join("/")}` },

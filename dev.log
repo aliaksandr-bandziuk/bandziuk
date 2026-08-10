@@ -7,24 +7,32 @@
   - Environments: .env.local
 
  ✓ Starting...
-[redirects] EN: 12 flat→nested redirects generated
-[redirects] PL: 12 flat→nested redirects generated
-[redirects] RU: 12 flat→nested redirects generated
-[redirects] Done: 42 total redirects (36 dynamic from Sanity + 6 static overrides)
- ✓ Ready in 4.7s
+[redirects] EN: 14 flat→nested redirects generated
+[redirects] PL: 13 flat→nested redirects generated
+[redirects] RU: 14 flat→nested redirects generated
+[redirects] Done: 47 total redirects (41 dynamic from Sanity + 6 static overrides)
+ ✓ Ready in 11.1s
  ○ Compiling /src/middleware ...
- ✓ Compiled /src/middleware in 1582ms (123 modules)
+ ✓ Compiled /src/middleware in 1364ms (123 modules)
  ○ Compiling /[lang]/[...slug] ...
 Browserslist: caniuse-lite is outdated. Please run:
   npx update-browserslist-db@latest
   Why you should do it regularly: https://github.com/browserslist/update-db#readme
- ✓ Compiled /[lang]/[...slug] in 67.1s (7924 modules)
- GET /services/seo-optimization-and-strategy 200 in 78061ms
- GET /services/seo-optimization-and-strategy 200 in 596ms
- GET /pl/oferty/strategia-i-optymalizacja-seo 200 in 561ms
- GET /ru/uslugi/seo-optimizaciya-i-strategiya 200 in 560ms
- GET /services/seo-optimization-and-strategy 200 in 1264ms
- GET /pl/oferty/strategia-i-optymalizacja-seo 200 in 404ms
- GET /ru/uslugi/seo-optimizaciya-i-strategiya 200 in 421ms
- GET /services 200 in 637ms
- GET /services 200 in 561ms
+The user aborted a request.
+
+Retrying 1/3...
+The user aborted a request.
+
+Retrying 1/3...
+The user aborted a request.
+
+Retrying 1/3...
+ ✓ Compiled /[lang]/[...slug] in 75.6s (7924 modules)
+ GET /services/locations 200 in 83713ms
+ GET /services/locations 200 in 721ms
+ GET /pl/oferty/lokalizacje 200 in 2525ms
+ GET /ru/uslugi/lokacii 200 in 1525ms
+ GET /services/locations/web-development-and-seo-uae 200 in 1038ms
+ GET /ru/uslugi/lokacii/razrabotka-saitov-i-seo-oae 200 in 739ms
+ GET /services 200 in 807ms
+[?25h

@@ -227,15 +227,14 @@ const SinglePage = async ({ params }: Props) => {
       ].includes(b._type),
   );
 
-  const generateSlug = (slugObj: any, language: string) => {
-    const cur = slugObj?.[language]?.current;
-    if (!cur) return "#";
-    return language === "en"
-      ? `https://www.bandziuk.com/${cur}`
-      : `https://www.bandziuk.com/${language}/${cur}`;
-  };
-
-  const url = generateSlug({ [lang]: { current } }, lang);
+  // Canonical URL for this page's own JSON-LD — must be the FULL ancestor
+  // path (fullPath), not just this page's own slug segment. Using `current`
+  // alone previously produced a wrong url on every nested page (e.g. a
+  // 2-level service reporting itself at the site root).
+  const url =
+    lang === "en"
+      ? `https://www.bandziuk.com/${fullPath}`
+      : `https://www.bandziuk.com/${lang}/${fullPath}`;
   const structuredDataProps = {
     slug: current,
     lang,

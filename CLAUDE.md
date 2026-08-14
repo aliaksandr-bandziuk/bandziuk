@@ -91,7 +91,10 @@ const data = await client.fetch(groqQuery, { lang }, { next: { revalidate: 60 } 
 ```
 
 **No cache tags (`revalidateTag`) are used — only time-based ISR (60 s).**
-No webhook endpoint for on-demand revalidation.
+No webhook endpoint for on-demand revalidation. A Sanity webhook does exist
+(added 2026) at `/api/indexnow/webhook`, but it's scoped to IndexNow
+notification only (see §8) — it does not trigger revalidation or touch the
+cache in any way.
 
 ### Translation pattern (Sanity Document Internationalization v3)
 
@@ -244,6 +247,10 @@ if (!page) { return <p>Страница не найдена</p>; }
 ```
 Should call `notFound()` to render the proper 404 page and set the HTTP 404 status. The current code returns a 200 with Russian placeholder text.
 
+### K — `api/email` accepts any request body with no authentication
+
+`src/app/api/email/route.ts` has no secret, token, or origin check — any POST with a `name` and `email` field triggers a real email send via the Hostinger SMTP account. Found and flagged while building the IndexNow webhook (`/api/indexnow/webhook`, §8), which needed a secret-validation pattern and found no precedent to reuse. Worth its own fix (rate limiting and/or a shared-secret/turnstile check), not folded into that unrelated change.
+
 ---
 
 ## 6. What NOT to Touch
@@ -306,6 +313,70 @@ Unlike the four blocks above, `reviewsFullBlock`'s own Sanity fields (`pretitle`
 | 5 | **Remove unused packages** (`locomotive-scroll`, `styled-components`, `node-fetch`, `@studio-freight/lenis`, `csv-parse`, `node-cron`, `xml2js`, `dotenv`) | Low-Medium — smaller bundle, fewer security surface | Low — `npm remove` + verify build |
 
 Bonus (trivial): fix the `notFound()` call (#J) and remove the dead import (#F).
+
+## 8. IndexNow Integration
+
+Added 2026. Notifies Bing, Yandex, and other IndexNow participants that a
+`singlepage`, `blog`, or `portfolio` document was published or changed — the
+part of the index that feeds AI-assistant answers, since Google does not
+participate in IndexNow. **It notifies; it does not guarantee indexation and
+has no effect on rankings.** Don't let any future doc, comment, or copy near
+this feature imply otherwise.
+
+### Pieces
+
+| Piece | Location |
+|---|---|
+| Key file | `src/app/api/indexnow/key.txt/route.ts` — serves `INDEXNOW_KEY` as plain text from an env var, nothing else |
+| URL resolver | `src/lib/indexnow/resolveUrls.ts` — reuses `getAllPathsForLang` (the same nested-path resolver as the sitemap, `generateStaticParams`, and the page's own canonical URL) rather than a new URL builder |
+| Submission helper | `src/lib/indexnow/submit.ts` — dedupes, batches at 10,000 URLs/request, logs the documented response code (200/202/400/403/422/429) |
+| Webhook endpoint | `src/app/api/indexnow/webhook/route.ts` — validates a shared secret, resolves affected URLs, submits |
+| One-off bulk script | `scripts/indexnow-bulk-submit.cjs` — sources its URL list from the live `/sitemap.xml`, not a reimplementation; run once by hand, not scheduled |
+
+### Env vars
+
+`INDEXNOW_KEY` and `INDEXNOW_WEBHOOK_SECRET` live in `.env.local` (gitignored)
+and must be mirrored into Vercel's project env vars for production. Neither
+value should ever appear in a report, log line, or commit message — treat
+both like any other credential.
+
+### Why the key file is a route handler, not a static file
+
+The IndexNow standard is a static `<key>.txt` at the site root. This project
+put it behind a route handler instead, for two reasons: (1)
+`public/images/landing-cta-photo.jpg` was deleted wholesale by an unrelated
+"cleanup" commit in August 2026 and had to be manually restored — `public/`
+has already lost a file it needed once; (2) the standard naming convention
+puts the raw key into a committed filename permanently, in git history, which
+a route reading from an env var avoids entirely. Because the key isn't at the
+root, every submission includes `keyLocation` pointing at
+`/api/indexnow/key.txt`, per the IndexNow spec's "Option 2" verification.
+
+### The noindex substitute — deliberate, not a gap
+
+There is no per-document `noindex` field anywhere in this schema. Rather than
+add one or skip the check, `resolveDocumentUrls` treats "does this locale
+resolve to a real path via `getAllPathsForLang`" as the reachability guard: a
+document that's unpublished, orphaned, or has a broken parent chain
+structurally cannot produce a URL, so nothing unreachable can ever be
+submitted. This is stronger than a flag, because it can't drift out of sync
+with what's actually live. **If a real `noindex` field is ever added to the
+schema, that's where the check belongs** — inside `resolveDocumentUrls`,
+before a URL is added to the result set.
+
+### Webhook configuration (done outside this repo, in manage.sanity.io)
+
+- Trigger on `singlepage`, `blog`, `portfolio`; filter:
+  `!(_id in path("drafts.**"))`. Without this filter every autosave fires a
+  submission and the account looks like a spammer within a day.
+- Projection sent as the payload body: `{ _id, _type, language, slug }`.
+- Custom header: `Authorization: Bearer <INDEXNOW_WEBHOOK_SECRET>`.
+
+This is also the first authenticated API route in the codebase — the
+header-plus-env-var shared-secret pattern in `isAuthorized()`
+(`src/app/api/indexnow/webhook/route.ts`) is written to be reusable by future
+webhooks. It does not fix `api/email`'s lack of auth (#K) — that's a separate,
+pre-existing gap this change happened to surface, not touch.
 
 ## Build policy
 

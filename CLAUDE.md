@@ -388,6 +388,28 @@ header-plus-env-var shared-secret pattern in `isAuthorized()`
 webhooks. It does not fix `api/email`'s lack of auth (#K) — that's a separate,
 pre-existing gap this change happened to surface, not touch.
 
+### Verifying a submission actually worked — check two layers, not one
+
+`POST /api/indexnow/webhook` returning 200 means our own route accepted the
+request, resolved URLs, and forwarded them. **It says nothing about whether
+IndexNow accepted them.** That's a general pattern, not just an IndexNow
+quirk: a success code from your own layer only confirms your own layer;
+whatever's beyond it needs its own check. The two are separate here on
+purpose — our 200 body carries a `results` array with IndexNow's *own*
+response code inside it:
+
+```json
+{"submittedUrls": [...], "results": [{"status": 202, "urlCount": 2}]}
+```
+
+Read `results[].status`, not the HTTP status of the call to our endpoint.
+This is exactly the gap that produced a false "it's working" earlier: the
+webhook returned 200 while IndexNow itself was rejecting every URL with 422
+(see the path-prefix bug above) — the 200 was real, it just wasn't the
+check that mattered. Confirming the mechanism works means confirming the
+*inner* status is 200/202, and separately, in Bing Webmaster Tools after a
+day or two, that submitted URLs aren't coming back rejected.
+
 ## Build policy
 
 - Do NOT run `npm run build` after individual tasks or parts. 

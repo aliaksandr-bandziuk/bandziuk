@@ -327,7 +327,7 @@ this feature imply otherwise.
 
 | Piece | Location |
 |---|---|
-| Key file | `src/app/api/indexnow/key.txt/route.ts` — serves `INDEXNOW_KEY` as plain text from an env var, nothing else |
+| Key file | `src/app/indexnow-key.txt/route.ts` — serves `INDEXNOW_KEY` as plain text from an env var, nothing else |
 | URL resolver | `src/lib/indexnow/resolveUrls.ts` — reuses `getAllPathsForLang` (the same nested-path resolver as the sitemap, `generateStaticParams`, and the page's own canonical URL) rather than a new URL builder |
 | Submission helper | `src/lib/indexnow/submit.ts` — dedupes, batches at 10,000 URLs/request, logs the documented response code (200/202/400/403/422/429) |
 | Webhook endpoint | `src/app/api/indexnow/webhook/route.ts` — validates a shared secret, resolves affected URLs, submits |
@@ -340,7 +340,7 @@ and must be mirrored into Vercel's project env vars for production. Neither
 value should ever appear in a report, log line, or commit message — treat
 both like any other credential.
 
-### Why the key file is a route handler, not a static file
+### Why the key file is a route handler, not a static file — and why it's at the root
 
 The IndexNow standard is a static `<key>.txt` at the site root. This project
 put it behind a route handler instead, for two reasons: (1)
@@ -348,9 +348,19 @@ put it behind a route handler instead, for two reasons: (1)
 "cleanup" commit in August 2026 and had to be manually restored — `public/`
 has already lost a file it needed once; (2) the standard naming convention
 puts the raw key into a committed filename permanently, in git history, which
-a route reading from an env var avoids entirely. Because the key isn't at the
-root, every submission includes `keyLocation` pointing at
-`/api/indexnow/key.txt`, per the IndexNow spec's "Option 2" verification.
+a route reading from an env var avoids entirely. Every submission includes
+`keyLocation` pointing at it, per the IndexNow spec's "Option 2" verification.
+
+**It must be at the site root, not nested under `/api/`.** The first version
+of this route lived at `/api/indexnow/key.txt` and every real submission
+came back 422. That wasn't a caching fluke — IndexNow's Option 2 scopes
+validation to the key file's own path prefix ("a key file at `/catalog/`
+can only validate URLs under `/catalog/`"). A key nested under
+`/api/indexnow/` can never vouch for `/services/...`, `/blog/...`,
+`/pl/...`, or any other real page. It has to sit at a path that's a prefix
+of everything being submitted — for a whole-site claim, that's only the
+root. The filename itself (`indexnow-key.txt`, not the key value) is still
+free to be anything; only the location was ever the constraint.
 
 ### The noindex substitute — deliberate, not a gap
 

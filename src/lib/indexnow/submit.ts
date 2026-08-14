@@ -1,6 +1,6 @@
 const INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow";
 const HOST = "www.bandziuk.com";
-const KEY_LOCATION = "https://www.bandziuk.com/api/indexnow/key.txt";
+const KEY_LOCATION = "https://www.bandziuk.com/indexnow-key.txt";
 
 // Up to 10,000 URLs are allowed in a single IndexNow submission.
 const MAX_URLS_PER_BATCH = 10000;

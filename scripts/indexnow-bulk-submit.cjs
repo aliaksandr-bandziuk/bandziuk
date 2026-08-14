@@ -11,7 +11,7 @@ require("dotenv").config({ path: path.resolve(__dirname, "../.env.local") });
 const SITEMAP_URL = "https://www.bandziuk.com/sitemap.xml";
 const INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow";
 const HOST = "www.bandziuk.com";
-const KEY_LOCATION = "https://www.bandziuk.com/api/indexnow/key.txt";
+const KEY_LOCATION = "https://www.bandziuk.com/indexnow-key.txt";
 const MAX_URLS_PER_BATCH = 10000;
 
 const STATUS_MEANING = {

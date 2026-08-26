@@ -1,0 +1,13 @@
+{
+  "background_color": "#E8E2D6",
+  "output_size": [2000, 1126],
+  "jpeg_quality": 88,
+  "output_dir": "output",
+  "output_name": "orzel-realty",
+  "slots": {
+    "desktop": { "source": "orzel-realty/shots/homepage-clean.png", "crop_anchor": "top" },
+    "laptop":  { "source": "orzel-realty/shots/homepage-clean.png", "crop_anchor": "top" },
+    "tablet":  { "source": "orzel-realty/shots/calc-tablet-top-aligned.png", "crop_anchor": "top" },
+    "mobile":  { "source": "orzel-realty/shots/calc-mobile-top-aligned.png", "crop_anchor": "top" }
+  }
+}

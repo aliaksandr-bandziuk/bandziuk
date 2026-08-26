@@ -1,0 +1,7 @@
+# Python dependencies for scripts/build-portfolio-cover.py.
+# This is a Node/Next.js project — nothing else here uses Python.
+#
+# Install with:
+#   python -m pip install -r scripts/requirements.txt
+
+Pillow>=12.3.0

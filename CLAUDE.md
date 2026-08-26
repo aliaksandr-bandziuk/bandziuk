@@ -251,6 +251,12 @@ Should call `notFound()` to render the proper 404 page and set the HTTP 404 stat
 
 `src/app/api/email/route.ts` has no secret, token, or origin check — any POST with a `name` and `email` field triggers a real email send via the Hostinger SMTP account. Found and flagged while building the IndexNow webhook (`/api/indexnow/webhook`, §8), which needed a secret-validation pattern and found no precedent to reuse. Worth its own fix (rate limiting and/or a shared-secret/turnstile check), not folded into that unrelated change.
 
+### L — `scripts/capture-portfolio-screenshots.cjs` silently skips text-only website fields
+
+The script only captures a portfolio case whose `keyFeatures.website.type === "link"`. Several real cases (confirmed: Felgilab, Cyprus VIP Estates) store their site as `type: "text"` (a plain label like `"felgilab.pl"`, not a clickable URL) — the script has no way to derive a fetchable URL from that, so it drops straight into the "skipped, no URL" bucket with no warning that a real, working website was right there as text. Found while using the script for portfolio-cover verification (2026-08-25): only 2 of 12 EN portfolio cases have `type: "link"`, so in practice this script currently captures a sixth of the archive and silently no-ops on the rest. Not fixed — reported for the owner to decide (e.g. treat `text` as a URL when it looks like a bare domain, or require a real link field before capture).
+
+A second, nastier failure in the same script: `dismissCookieBanner`'s generic selector list (`text=Accept`, `text=OK`, `text=Got it`, etc.) is tried blind against the whole page, with no check that a cookie banner is even present. On a site with no consent banner, one of those generic selectors can coincidentally match unrelated page text — a button, a nav item, anything — and click it, changing page state before the screenshot is taken. Caught this by accident building the Orzeł Realty portfolio cover (2026-08-26): a capture of `orzel-realty.pl`'s homepage using this selector list landed on a different hero state entirely (a single-CTA living-room image) than the page's actual default (a two-button "renovation vs. investment" split) — the misclick almost certainly hit some unrelated text matching one of the generic patterns. The capture itself succeeded, the screenshot looked completely normal, and nothing in the script's output flagged anything wrong. Unlike the `type: "text"` skip above (which is at least visible as a "skipped" line), this failure is silent — the only way to catch it is to look at the actual output image and know what the page is supposed to show. Worth a real fix (check for a specific known consent-banner selector, or verify page state is unchanged after the click) before trusting this script's captures unattended.
+
 ---
 
 ## 6. What NOT to Touch
@@ -409,6 +415,22 @@ webhook returned 200 while IndexNow itself was rejecting every URL with 422
 check that mattered. Confirming the mechanism works means confirming the
 *inner* status is 200/202, and separately, in Bing Webmaster Tools after a
 day or two, that submitted URLs aren't coming back rejected.
+
+## 9. Portfolio Cover Mockup Generator
+
+`scripts/build-portfolio-cover.py` composites site screenshots into the
+device mockup (desktop/laptop/tablet/phone) used on portfolio covers, using
+the two prepared layers in `scripts/images/` (`mockup_back.png`,
+`mockup_front.png`) and a per-case JSON config in `scripts/cover-configs/`.
+
+**This is the only Python in the project — everything else here is
+Node/Next.js.** It needs a real Python install (not the Windows Store stub
+that ships on PATH by default) and Pillow, tracked in
+`scripts/requirements.txt` (`python -m pip install -r
+scripts/requirements.txt`). If the script errors on `import PIL` or `python`
+isn't found at all, that's an environment gap, not a broken script — install
+Python and the requirements file before assuming something's wrong with the
+code itself.
 
 ## Build policy
 

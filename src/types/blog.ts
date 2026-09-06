@@ -348,6 +348,8 @@ export type RelatedServiceItem = {
   title: string;
   slug: string;
   parentSlug?: string | null;
+  grandparentSlug?: string | null;
+  greatGrandparentSlug?: string | null;
   previewImage?: ImageAlt;
 };
 

@@ -365,7 +365,15 @@ export async function getSinglePageByLang(
             _id,
             title,
             "slug": slug[$lang].current,
+            // Referenced items can sit up to 3 levels deep (e.g.
+            // services/locations/seo-for-swiss-market/seo-for-car-business-switzerland).
+            // A single parentSlug only covers 1-level-deep references — every
+            // curated item used before this went at most 1 level, so it never
+            // surfaced. Resolving the full chain here keeps this block usable
+            // for deeper references without an extra request-time lookup.
             "parentSlug": parentPage->slug[$lang].current,
+            "grandparentSlug": parentPage->parentPage->slug[$lang].current,
+            "greatGrandparentSlug": parentPage->parentPage->parentPage->slug[$lang].current,
             previewImage { asset, alt }
           },
           marginTop,
@@ -496,7 +504,8 @@ export async function getAllPathsForLang(lang: string): Promise<string[][]> {
         "parent": parentPage->slug[$lang].current
       }
     `,
-    { lang }
+    { lang },
+    { next: { revalidate: 60 } }
   );
 
   // строим дерево — точно так же, как в generateStaticParams
@@ -515,6 +524,24 @@ export async function getAllPathsForLang(lang: string): Promise<string[][]> {
     });
   }
   return Object.values(map);
+}
+
+/**
+ * Real ancestor-chain path of a single slug in one locale, e.g.
+ * "seo-for-uk-market" -> ["services", "locations", "seo-for-uk-market"].
+ * Returns null when no singlepage in this locale owns that slug.
+ *
+ * Needed because the [...slug] route looks a page up by its LAST segment
+ * only: without this, /anything/<valid-slug> renders the page and declares
+ * itself canonical. Compare a requested path against this before rendering.
+ */
+export async function getPathForSlug(
+  lang: string,
+  slug: string
+): Promise<string[] | null> {
+  if (!slug) return null;
+  const paths = await getAllPathsForLang(lang);
+  return paths.find((arr) => arr[arr.length - 1] === slug) ?? null;
 }
 
 // slug -> title, for every singlepage doc in a language. Used for breadcrumb

@@ -57,6 +57,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = params;
   const data = await getBlogPostByLang(lang, slug);
 
+  // No post with this slug in this locale. loading.tsx puts a Suspense boundary
+  // above the route, so the response is already streaming with status 200 by
+  // the time the component calls notFound() — the status cannot say "gone".
+  // Say it in the head instead: no canonical, no alternates, explicit noindex.
+  // Only an empty query result reaches this branch; a failed Sanity request
+  // throws (there is no try/catch in sanity.utils.ts), so a live post can
+  // never be noindexed by a transient API error.
+  if (!data) {
+    return {
+      title: "404",
+      robots: { index: false, follow: false },
+    };
+  }
+
   const canonicalPath = `${localePrefix(lang)}/blog/${slug}`;
 
   // Build hreflang alternates from _translations — only emit locales that exist

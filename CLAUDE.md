@@ -257,6 +257,12 @@ The script only captures a portfolio case whose `keyFeatures.website.type === "l
 
 A second, nastier failure in the same script: `dismissCookieBanner`'s generic selector list (`text=Accept`, `text=OK`, `text=Got it`, etc.) is tried blind against the whole page, with no check that a cookie banner is even present. On a site with no consent banner, one of those generic selectors can coincidentally match unrelated page text — a button, a nav item, anything — and click it, changing page state before the screenshot is taken. Caught this by accident building the Orzeł Realty portfolio cover (2026-08-26): a capture of `orzel-realty.pl`'s homepage using this selector list landed on a different hero state entirely (a single-CTA living-room image) than the page's actual default (a two-button "renovation vs. investment" split) — the misclick almost certainly hit some unrelated text matching one of the generic patterns. The capture itself succeeded, the screenshot looked completely normal, and nothing in the script's output flagged anything wrong. Unlike the `type: "text"` skip above (which is at least visible as a "skipped" line), this failure is silent — the only way to catch it is to look at the actual output image and know what the page is supposed to show. Worth a real fix (check for a specific known consent-banner selector, or verify page state is unchanged after the click) before trusting this script's captures unattended.
 
+### M — Homepage's "4 latest" portfolio cases are selected by `_id`, not recency
+
+`getLastFourPortfolioByLang` (`src/sanity/sanity.utils.ts`, feeds both the homepage's Portfolio section and `/about`'s `portfolioBlock`) sorts on `order(_publishedAt desc)` — Sanity's own system field, set only when a document goes through Studio's Publish action. Every portfolio document in this dataset was created directly via the API (same pattern this whole project uses), so `_publishedAt` is `null` on all of them. With the sort key null everywhere, GROQ falls back to a stable secondary order that — confirmed empirically against the live homepage on 2026-08-26 — is ascending `_id`. The result: the "4 latest" cases shown to every visitor are actually just the 4 with the lowest document IDs, which has no relationship to when the work was actually done or published. Publishing a new case doesn't reliably rotate the block either — a new doc's `_id` can sort anywhere in that ordering, so it may never surface there no matter how recent or good the work is (confirmed: the new Orzeł Realty case, `_id` starting with `p`, sorts after all 12 existing UUID-style ids and would not appear).
+
+The archive page (`getPortfolioItemsByLang`) does **not** have this problem — it already sorts on the document's own `publishedAt` field, which every case has populated with a real, sensible value (verified across all 13 cases, none null). The fix for the homepage/`/about` block is a one-line query change (`_publishedAt` → `publishedAt` in that one `order()` clause) with no data cleanup needed. Not fixed as part of this task — reported for the owner to decide, along with whether curated selection (reviving `portfolioBlock.portfolioItems`, an already-built same-locale reference array that's fetched and silently ignored by `PortfolioBlockComponent.tsx`) would serve better than any automatic ordering for a homepage block that's really a sales decision. Note `portfolioBlock.portfolioItems` only covers `/about`'s block — the homepage's own `portfolioSection` (`homepage.ts`) has no equivalent field at all (just `pretitle`/`title`/`subtitle`); giving the homepage the same curation would mean adding a new field there, not just wiring up an existing one.
+
 ---
 
 ## 6. What NOT to Touch
@@ -457,3 +463,14 @@ code itself.
 - At the end of each session, include a short summary of the 
   uncommitted changes (files touched, one line what/why) so the 
   owner can decide when to commit and push.
+- Reading repo state: ALWAYS use `git --no-optional-locks` for 
+  inspection (`status`, `diff`, `log`). Plain `git status` and 
+  `git diff` refresh the index and take `.git/index.lock` — and an 
+  agent shell that cannot delete files (the Cowork device shell 
+  can't) leaves that lock behind, after which every git command 
+  the owner runs on Windows dies with "Unable to create 
+  .git/index.lock: File exists". Happened 2026-09-06; the fix was 
+  renaming the stale lock, since it couldn't be deleted.
+- Never run mutating git commands (`add`, `commit`, `checkout`, 
+  `stash`, `restore`) from an agent shell that lacks delete 
+  permission: they all take the same lock and can strand it.

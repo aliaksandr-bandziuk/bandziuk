@@ -2,13 +2,14 @@
 import React from "react";
 import { groq } from "next-sanity";
 import styles from "./page.module.scss";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { client } from "@/sanity/sanity.client";
 import { i18n } from "@/i18n.config";
 import {
   getFormStandardDocumentByLang,
   getSinglePageByLang,
   getAllPathsForLang,
+  getPathForSlug,
   getPageTitlesByLang,
 } from "@/sanity/sanity.utils";
 import { BASE_URL, localePrefix, findAltSlug, buildLanguageAlternates } from "@/utils/hreflang";
@@ -139,7 +140,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const current = slug[slug.length - 1] || "";
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
 
-  const pathname = slug.length ? `/${slug.join("/")}` : "";
+  // Canonical must describe the page's REAL path, never the requested one.
+  // This route resolves a page by its LAST slug segment, so /anything/<slug>
+  // also reaches it; echoing the request back as canonical would turn every
+  // such URL into a self-canonical duplicate of the same page.
+  // Status and redirects must be decided HERE, not in the component below:
+  // loading.tsx puts a Suspense boundary above the page, so the response is
+  // already streaming with status 200 by the time the component runs — a
+  // notFound() down there renders 404 content under a 200 header.
+  const realPath = page ? await getPathForSlug(lang, current) : null;
+
+  if (!page || !realPath) {
+    notFound();
+  }
+
+  // A mismatched path is NOT redirected from here on purpose. generateMetadata
+  // runs while the response already streams, so a redirect thrown here cannot
+  // set a status — and throwing would also drop the canonical. Point the
+  // canonical at the real path instead: that consolidates duplicates whatever
+  // the status ends up being. The component below still redirects when routing
+  // lets it.
+  const pathname = `/${realPath.join("/")}`;
   const canonicalPath = pathname
     ? `${localePrefix(lang)}${pathname}`
     : localePrefix(lang) || "/";
@@ -190,8 +211,19 @@ const SinglePage = async ({ params }: Props) => {
     notFound();
   }
 
-  if (slug.length === 1 && page?.parentPage) {
+  // A page is looked up by its LAST slug segment, so every path ending in a
+  // valid slug reaches this route — /foo/bar/<slug> included. Compare the
+  // requested path with the page's real ancestor chain and send anything else
+  // to the canonical URL with a permanent redirect; without this check each
+  // variant renders the full page and declares itself canonical.
+  const realPath = await getPathForSlug(lang, current);
+
+  if (!realPath) {
     notFound();
+  }
+
+  if (realPath.join("/") !== slug.join("/")) {
+    permanentRedirect(`${localePrefix(lang)}/${realPath.join("/")}`);
   }
 
   const parentSlug = page.parentPage?.slug[lang]?.current;

@@ -1,0 +1,14 @@
+
+> bandziuk@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+[redirects] EN: 42 flat→nested redirects generated
+[redirects] PL: 37 flat→nested redirects generated
+[redirects] RU: 50 flat→nested redirects generated
+[redirects] Done: 136 total redirects (129 dynamic from Sanity + 7 static overrides)
+ ✓ Ready in 11.4s

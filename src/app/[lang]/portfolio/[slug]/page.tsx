@@ -30,6 +30,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = params;
   const data = await getPortfolioByLang(lang, slug);
 
+  // No case study with this slug in this locale. A Suspense boundary above the
+  // route means the response is already streaming with status 200 by the time
+  // the component calls notFound(), so the status cannot say "gone". Say it in
+  // the head instead: no canonical, no alternates, explicit noindex. Only an
+  // empty query result reaches this branch; a failed Sanity request throws.
+  if (!data) {
+    return {
+      title: "404",
+      robots: { index: false, follow: false },
+    };
+  }
+
   const canonicalPath = `${localePrefix(lang)}/portfolio/${slug}`;
 
   let previewImageUrl: string | undefined = undefined;

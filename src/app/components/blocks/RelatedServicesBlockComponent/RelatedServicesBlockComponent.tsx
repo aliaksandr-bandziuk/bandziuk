@@ -40,9 +40,14 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
         )}
         <ul className={styles.items}>
           {items.map((item, index) => {
-            const fullSlug = item.parentSlug
-              ? `${item.parentSlug}/${item.slug}`
-              : item.slug;
+            const fullSlug = [
+              item.greatGrandparentSlug,
+              item.grandparentSlug,
+              item.parentSlug,
+              item.slug,
+            ]
+              .filter(Boolean)
+              .join("/");
             const href = `${localePrefix(lang)}/${fullSlug}`;
             return (
               <li key={item._id} className={styles.item}>

@@ -20,6 +20,14 @@ const STATIC_REDIRECTS = [
   { source: '/business-website-development',                    destination: '/services/website-development',                  permanent: true },
   { source: '/pl/tworzenie-stron-internetowych-dla-firm',        destination: '/pl/oferty/tworzenie-stron-internetowych',       permanent: true },
   { source: '/ru/razrabotka-saita-dlya-biznesa',                 destination: '/ru/uslugi/razrabotka-saitov',                   permanent: true },
+
+  // PL geo pages ended up indexed under two URL families at once —
+  // /pl/lokalizacje/<country> and /pl/oferty/lokalizacje/<country> — because the
+  // [...slug] route resolved a page by its last segment alone. The real chain is
+  // oferty/lokalizacje (the hub /pl/lokalizacje already redirects there). Both
+  // variants carry impressions in Search Console, so the flat family gets a 301
+  // rather than the 404 the new path check would otherwise return.
+  { source: '/pl/lokalizacje/:slug',                             destination: '/pl/oferty/lokalizacje/:slug',                   permanent: true },
 ];
 
 async function buildDynamicRedirects() {

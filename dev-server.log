@@ -29,3 +29,81 @@ The user aborted a request.
 Retrying 1/3...
  ✓ Compiled /[lang] in 83.9s (7542 modules)
  GET / 200 in 88562ms
+ ○ Compiling /[lang]/[...slug] ...
+ ✓ Compiled /[lang]/[...slug] in 26.1s (7694 modules)
+ GET /ru/uslugi/lokacii 200 in 33774ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok 200 in 1373ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok 200 in 1366ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok 200 in 1296ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok 200 in 879ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok 200 in 795ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok 200 in 892ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok 200 in 732ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok 200 in 705ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok 200 in 688ms
+ GET /ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok 200 in 692ms
+ GET /ru/uslugi/lokacii 200 in 803ms
+ ○ Compiling /[lang]/portfolio ...
+ ✓ Compiled /[lang]/portfolio in 5s (7461 modules)
+ ○ Compiling /[lang] ...
+ ✓ Compiled /[lang] in 8s (4442 modules)
+ GET / 200 in 13241ms
+ ○ Compiling /[lang]/portfolio/[slug] ...
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ GET /portfolio/residency-by-investment-guide-with-sourced-figures 200 in 29857ms
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|javascript/auto|D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\next-flight-css-loader.js??ruleSet[1].rules[14].oneOf[9].use[0]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[9].use[1]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[9].use[2]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\resolve-url-loader\index.js??ruleSet[1].rules[14].oneOf[9].use[3]!D:\applications\bandziuk\node_modules\next\dist\compiled\sass-loader\cjs.js??ruleSet[1].rules[14].oneOf[9].use[4]!D:\applications\bandziuk\src\app\components\sections\PortfolioIntro\PortfolioIntro.module.scss|rsc': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[9].use[2]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[9].use[3]!D:\applications\bandziuk\node_modules\next\dist\build\webpack\loaders\resolve-url-loader\index.js??ruleSet[1].rules[14].oneOf[9].use[4]!D:\applications\bandziuk\node_modules\next\dist\compiled\sass-loader\cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!D:\applications\bandziuk\src\app\components\sections\PortfolioIntro\PortfolioIntro.module.scss': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+ GET /pricing 200 in 3093ms
+ GET /pricing 200 in 1041ms
+ GET /ru/ceny 200 in 1243ms
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ GET /ru/blog/skolko-stoit-prodvizhenie-saita 200 in 8929ms
+ GET /blog/how-much-seo-costs 200 in 727ms
+ GET /pl/blog/ile-kosztuje-pozycjonowanie-strony 200 in 1693ms
+ GET /ru/uslugi 200 in 1465ms
+ GET /pl/oferty 200 in 1018ms

@@ -1,0 +1,669 @@
+[
+  {
+    "_id": "0e071d28-ee05-42a2-81a6-5be75b4264bc",
+    "type": "singlepage",
+    "lang": "en",
+    "slug": "seo-audit",
+    "title": "Website SEO Audit",
+    "excerpt": "Is your website not generating enquiries? Have you tried SEO before with little or no results — or you simply don’t know where to start? An SEO audit helps identify what is actually holding your website back, where real growth opportunities are, and which actions make business sense before investing in long-term SEO or rebuilding your site.",
+    "seo": {
+      "metaDescription": "Professional SEO audit for websites. Technical issues, Google visibility, competitors, and growth potential — before you invest in SEO or a new website.",
+      "metaTitle": "SEO Audit for Websites — Identify What’s Blocking Growth"
+    },
+    "blocks": [
+      {
+        "_type": "textContent",
+        "_key": "9d23de424f5e"
+      },
+      {
+        "_type": "doubleTextBlock",
+        "_key": "5284d84f732d"
+      },
+      {
+        "_type": "textContent",
+        "_key": "31ff5c473769"
+      },
+      {
+        "_type": "formMinimalBlock",
+        "_key": "d313a486089d"
+      },
+      {
+        "_type": "textContent",
+        "_key": "1755c2f8416f"
+      },
+      {
+        "_type": "tableBlock",
+        "_key": "6c3c5bd62db9"
+      },
+      {
+        "_type": "textContent",
+        "_key": "e6ffcf650a65"
+      },
+      {
+        "_type": "formFullBlock",
+        "_key": "02c307f58dee"
+      },
+      {
+        "_type": "textContent",
+        "_key": "9868c5aa7a4d"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "2d1765bee67f"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"9d23de424f5e\"].content[_key==\"95351cca058d\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "When an SEO audit is the right first step"
+      },
+      {
+        "path": "contentBlocks[_key==\"9d23de424f5e\"].content[_key==\"850db7a64b6a\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "What I analyse during an SEO audit"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].leftContent.blockContent.content[_key==\"fd5e94055ea8\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Technical SEO"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].leftContent.blockContent.content[_key==\"89b3897a2222\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Visibility & keyword potential"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].rightContent.blockContent.content[_key==\"f138bad851f1\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Structure & content"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].rightContent.blockContent.content[_key==\"bb52ac55e0e9\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Competitor analysis"
+      },
+      {
+        "path": "contentBlocks[_key==\"31ff5c473769\"].content[_key==\"410794bf648f\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "What You Get After SEO Audig"
+      },
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"260d68eb21b2\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "How much does an SEO audit cost?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"2161e6a04700\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Is an SEO audit right for you?"
+      },
+      {
+        "path": "contentBlocks[_key==\"e6ffcf650a65\"].content[_key==\"ff97891777ec\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "SEO audit process — step by step"
+      },
+      {
+        "path": "contentBlocks[_key==\"e6ffcf650a65\"].content[_key==\"8ff914ff50f5\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Want to know what’s holding your website back?"
+      },
+      {
+        "path": "contentBlocks[_key==\"e6ffcf650a65\"].content[_key==\"5327a32cb95e\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Instead of guessing — let’s analyse it properly."
+      },
+      {
+        "path": "contentBlocks[_key==\"9868c5aa7a4d\"].content[_key==\"db615c7a6b01\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Frequently asked questions"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"d313a486089d\"].title",
+        "key": "title",
+        "value": "Request an SEO audit"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"69ea775ee4fa\"].question",
+        "key": "question",
+        "value": "Can I order only an audit without ongoing SEO?"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"a6b764d5a6f8\"].question",
+        "key": "question",
+        "value": "What format will I receive the audit in?"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"108faf470d7d\"].question",
+        "key": "question",
+        "value": "Does an audit guarantee ranking improvements?"
+      }
+    ],
+    "money": []
+  },
+  {
+    "_id": "0ba09f41-cdc6-40b1-8b57-e56ac656e979",
+    "type": "singlepage",
+    "lang": "ru",
+    "slug": "seo-audit-saita",
+    "title": "SEO-аудит сайта",
+    "excerpt": "Сайт не приносит заявок? SEO уже делали, но результата нет — или вы просто не понимаете, с чего начать? SEO-аудит помогает разобраться, что именно мешает росту, где есть реальный потенциал и какие действия имеют бизнес-смысл, прежде чем вкладывать деньги в долгосрочное продвижение или разработку нового сайта.",
+    "seo": {
+      "metaDescription": "SEO-аудит сайта: технические ошибки, видимость в Google, конкуренты. Поймите, что не работает и с чего начинать, прежде чем инвестировать в SEO.",
+      "metaTitle": "SEO-аудит сайта — узнайте, что мешает росту и заявкам"
+    },
+    "blocks": [
+      {
+        "_type": "textContent",
+        "_key": "9d23de424f5e"
+      },
+      {
+        "_type": "doubleTextBlock",
+        "_key": "5284d84f732d"
+      },
+      {
+        "_type": "textContent",
+        "_key": "31ff5c473769"
+      },
+      {
+        "_type": "formMinimalBlock",
+        "_key": "d313a486089d"
+      },
+      {
+        "_type": "textContent",
+        "_key": "1755c2f8416f"
+      },
+      {
+        "_type": "tableBlock",
+        "_key": "6c3c5bd62db9"
+      },
+      {
+        "_type": "textContent",
+        "_key": "e6ffcf650a65"
+      },
+      {
+        "_type": "formFullBlock",
+        "_key": "02c307f58dee"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "2d1765bee67f"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"9d23de424f5e\"].content[_key==\"086af2f275d8\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Зачем нужен SEO-аудит сайта"
+      },
+      {
+        "path": "contentBlocks[_key==\"9d23de424f5e\"].content[_key==\"5c7a69fc6483\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Что мы будем анализировать во время аудита"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].leftContent.blockContent.content[_key==\"41e6c00ac3cb\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Техническое SEO"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].leftContent.blockContent.content[_key==\"7c11d43f572c\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Видимость и ключевые запросы"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].rightContent.blockContent.content[_key==\"0f4012d4373a\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Структуру и контент"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].rightContent.blockContent.content[_key==\"b5685a9d76bb\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Конкурентов"
+      },
+      {
+        "path": "contentBlocks[_key==\"31ff5c473769\"].content[_key==\"6794b8082910\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Что вы получаете по итогу SEO-аудита"
+      },
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"e20f23484703\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Сколько стоит SEO-аудит?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"a1bb5461f808\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Кому SEO-аудит будет полезен"
+      },
+      {
+        "path": "contentBlocks[_key==\"e6ffcf650a65\"].content[_key==\"87d4ba8970be\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Как проходит SEO-аудит — шаг за шагом"
+      },
+      {
+        "path": "contentBlocks[_key==\"e6ffcf650a65\"].content[_key==\"947c868547c8\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Хотите понять, что мешает росту вашего сайта?"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"d313a486089d\"].title",
+        "key": "title",
+        "value": "Закажите SEO-аудит сейчас"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"69ea775ee4fa\"].question",
+        "key": "question",
+        "value": "Можно заказать только аудит, без дальнейшего SEO?"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"a6b764d5a6f8\"].question",
+        "key": "question",
+        "value": "В каком виде я получу результат?"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"108faf470d7d\"].question",
+        "key": "question",
+        "value": "Гарантирует ли аудит рост позиций?"
+      }
+    ],
+    "money": [
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"21b5d0ac410c\"]",
+        "kind": "portable-text",
+        "spanCount": 1,
+        "text": "от 150 € (разово)"
+      },
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"21b5d0ac410c\"].children[_key==\"f3ce79975c49\"].text",
+        "kind": "string-field",
+        "text": "от 150 € (разово)"
+      }
+    ]
+  },
+  {
+    "_id": "8b7c6b4c-412c-4fa1-b8f8-ec0a1b2816b5",
+    "type": "singlepage",
+    "lang": "pl",
+    "slug": "audyt-seo-strony-internetowej",
+    "title": "Audyt SEO strony internetowej",
+    "excerpt": "Audyt SEO pozwala sprawdzić, co faktycznie blokuje widoczność strony i dlaczego nie generuje ona zapytań. To pierwszy krok przed inwestycją w pozycjonowanie lub przebudowę strony — oparty na danych, a nie domysłach.",
+    "seo": {
+      "metaDescription": "Audyt SEO strony internetowej: technika, widoczność, konkurencja. Dowiedz się, co nie działa i co warto poprawić, zanim zainwestujesz w SEO.",
+      "metaTitle": "Audyt SEO strony internetowej — sprawdź, co blokuje wyniki"
+    },
+    "blocks": [
+      {
+        "_type": "textContent",
+        "_key": "9d23de424f5e"
+      },
+      {
+        "_type": "doubleTextBlock",
+        "_key": "5284d84f732d"
+      },
+      {
+        "_type": "textContent",
+        "_key": "31ff5c473769"
+      },
+      {
+        "_type": "formMinimalBlock",
+        "_key": "d313a486089d"
+      },
+      {
+        "_type": "textContent",
+        "_key": "1755c2f8416f"
+      },
+      {
+        "_type": "tableBlock",
+        "_key": "6c3c5bd62db9"
+      },
+      {
+        "_type": "textContent",
+        "_key": "e6ffcf650a65"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "2d1765bee67f"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"9d23de424f5e\"].content[_key==\"f187e580f542\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Kiedy audyt SEO jest najlepszym pierwszym krokiem?"
+      },
+      {
+        "path": "contentBlocks[_key==\"9d23de424f5e\"].content[_key==\"e1d96339ece7\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Co dokładnie sprawdzam podczas audytu?"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].leftContent.blockContent.content[_key==\"189ea90baf10\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "SEO techniczne"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].leftContent.blockContent.content[_key==\"8bc5d54227dc\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Widoczność i słowa kluczowe"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].rightContent.blockContent.content[_key==\"30bdc19f1989\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Struktura i treści"
+      },
+      {
+        "path": "contentBlocks[_key==\"5284d84f732d\"].rightContent.blockContent.content[_key==\"ed1e5f43a88d\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Konkurencja"
+      },
+      {
+        "path": "contentBlocks[_key==\"31ff5c473769\"].content[_key==\"9c185dc28fb2\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Co otrzymujesz po audycie SEO?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"10cbdb09d0ce\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Ile kosztuje audyt SEO?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"87a2f99cefb6\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Dla kogo audyt SEO będzie dobrym rozwiązaniem?"
+      },
+      {
+        "path": "contentBlocks[_key==\"e6ffcf650a65\"].content[_key==\"fa305967fab4\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Jak wygląda proces audytu SEO krok po kroku?"
+      },
+      {
+        "path": "contentBlocks[_key==\"e6ffcf650a65\"].content[_key==\"fdbac48679fe\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Najczęstsze pytania o audyt SEO"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"d313a486089d\"].title",
+        "key": "title",
+        "value": "Zamów audyt SEO"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"69ea775ee4fa\"].question",
+        "key": "question",
+        "value": "Czy mogę zamówić tylko audyt, bez SEO?"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"a6b764d5a6f8\"].question",
+        "key": "question",
+        "value": "Czy dostanę raport PDF?"
+      },
+      {
+        "path": "contentBlocks[_key==\"2d1765bee67f\"].faq.items[_key==\"108faf470d7d\"].question",
+        "key": "question",
+        "value": "Czy audyt gwarantuje wyniki?"
+      }
+    ],
+    "money": [
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"545e08cb32d8\"]",
+        "kind": "portable-text",
+        "spanCount": 1,
+        "text": "od 250 € (jednorazowo)"
+      },
+      {
+        "path": "contentBlocks[_key==\"1755c2f8416f\"].content[_key==\"545e08cb32d8\"].children[_key==\"6443284df02f\"].text",
+        "kind": "string-field",
+        "text": "od 250 € (jednorazowo)"
+      }
+    ]
+  },
+  {
+    "_id": "blog-seo-cost.pl",
+    "type": "blog",
+    "lang": "pl",
+    "slug": "ile-kosztuje-pozycjonowanie-strony",
+    "title": "Ile kosztuje SEO: kompletny przewodnik po cenach",
+    "excerpt": "Szczegółowy przewodnik po kosztach pozycjonowania strony: z czego składa się cena SEO, czym różni się obsługa małej firmy od konkurencyjnych nisz, i dlaczego pełne prowadzenie projektu przez jednego specjalistę bywa korzystniejsze niż zespół.",
+    "seo": {
+      "metaDescription": "Sprawdź, ile kosztuje pozycjonowanie strony: od czego zależy cena SEO, jakie są poziomy współpracy i dlaczego tanie SEO w efekcie kosztuje drożej.",
+      "metaTitle": "Ile kosztuje pozycjonowanie strony: ceny SEO w 2026"
+    },
+    "blocks": [
+      {
+        "_type": "textContent",
+        "_key": "64583d1eb354"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "3f8c2381c211"
+      },
+      {
+        "_type": "textContent",
+        "_key": "f32e20165c05"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"8470b70bd00a\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Od czego zależy cena pozycjonowania strony"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"2382fd8cf957\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Dlaczego SEO to proces, a nie jednorazowa usługa"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"1c5335958337\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Ile kosztuje audyt SEO i konsultacja"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"8baba8cb4f06\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Bezpłatna konsultacja — 15-30 minut"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"6099a415e6a0\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Audyt SEO — od 1000 zł"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"d908bb79ce6a\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Ile kosztuje comiesięczna obsługa SEO"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"1ba9f2f3140f\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Dla małej i średniej firmy — od 3500 zł miesięcznie"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"079b4830f816\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Dla konkurencyjnych nisz — od 5500 zł miesięcznie"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"9f5ee06d184f\"]",
+        "style": "h3",
+        "spanCount": 1,
+        "text": "Pełne prowadzenie projektu — 13 000 zł miesięcznie"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"b058e5e26cc4\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Jednorazowe usługi SEO — od 1000 do 3000 zł"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"a74f217d5d92\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Dlaczego tanie SEO często kosztuje drożej"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"3f5c53900fd7\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Jak prowadzę pozycjonowanie SEO"
+      },
+      {
+        "path": "contentBlocks[_key==\"f32e20165c05\"].content[_key==\"3cdd630b3ce1\"]",
+        "style": "h2",
+        "spanCount": 1,
+        "text": "Podsumowanie"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"3e7b41f3a4ca\"].question",
+        "key": "question",
+        "value": "Ile kosztuje pozycjonowanie strony?"
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"bb5f3c892371\"].question",
+        "key": "question",
+        "value": "Czy można zacząć tylko od audytu, bez stałej obsługi?"
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"8247d75d6dcd\"].question",
+        "key": "question",
+        "value": "Dlaczego SEO ma minimalny okres współpracy?"
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"236d482c14dd\"].question",
+        "key": "question",
+        "value": "Czym pełne prowadzenie projektu różni się od zwykłej comiesięcznej obsługi?"
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"43dd088124f0\"].question",
+        "key": "question",
+        "value": "Jak poznać, że oferta SEO jest zbyt tania, by być wiarygodna?"
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"35d680b879ab\"].question",
+        "key": "question",
+        "value": "Czy pracujesz z firmami z różnych krajów?"
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].title",
+        "key": "title",
+        "value": "Najczęstsze pytania"
+      }
+    ],
+    "money": [
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"d07fdf3b783e\"].children[_key==\"82283efa3c55\"].text",
+        "kind": "string-field",
+        "text": " jednorazowy audyt SEO kosztuje od 1000 zł. Miesięczna obsługa dla małej firmy — od 3500 zł miesięcznie przy minimalnym okresie 3-6 miesięcy. Pozycjonowanie w konkurencyjnych niszach — od 5500 zł miesięcznie, minimum pół roku. Pełne prowadzenie projektu przez jednego specjalistę, łącznie z techniczną przebudową kodu i marketingiem — 13 000 zł miesięcznie. Ostateczna cena zależy od konkurencji w niszy, aktualnego stanu strony i tego, co dokładnie wchodzi w zakres pracy."
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"6099a415e6a0\"].children[_key==\"516c1840a6d4\"].text",
+        "kind": "string-field",
+        "text": "Audyt SEO — od 1000 zł"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"1ba9f2f3140f\"].children[_key==\"f3a4ac4bdf50\"].text",
+        "kind": "string-field",
+        "text": "Dla małej i średniej firmy — od 3500 zł miesięcznie"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"079b4830f816\"].children[_key==\"de8319e696fb\"].text",
+        "kind": "string-field",
+        "text": "Dla konkurencyjnych nisz — od 5500 zł miesięcznie"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"9f5ee06d184f\"].children[_key==\"4515b74bd6dd\"].text",
+        "kind": "string-field",
+        "text": "Pełne prowadzenie projektu — 13 000 zł miesięcznie"
+      },
+      {
+        "path": "contentBlocks[_key==\"64583d1eb354\"].content[_key==\"b058e5e26cc4\"].children[_key==\"684d40473024\"].text",
+        "kind": "string-field",
+        "text": "Jednorazowe usługi SEO — od 1000 do 3000 zł"
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"3e7b41f3a4ca\"].answer[_key==\"f598850839cc\"]",
+        "kind": "portable-text",
+        "spanCount": 1,
+        "text": "Jednorazowy audyt SEO kosztuje od 1000 zł. Comiesięczna obsługa dla małej i średniej firmy — od 3500 zł miesięcznie przy minimalnym okresie 3-6 miesięcy. Pozycjonowanie w konkurencyjnych niszach — od 5500 zł miesięcznie, minimum pół roku. Pełne prowadzenie projektu przez jednego specjalistę, łącznie z techniczną przebudową kodu i marketingiem — 13 000 zł miesięcznie. Dokładny koszt zależy od konkurencji w niszy i aktualnego stanu strony — opisz swoją sytuację, a przygotuję wycenę."
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"3e7b41f3a4ca\"].answer[_key==\"f598850839cc\"].children[_key==\"158b35328acd\"].text",
+        "kind": "string-field",
+        "text": "Jednorazowy audyt SEO kosztuje od 1000 zł. Comiesięczna obsługa dla małej i średniej firmy — od 3500 zł miesięcznie przy minimalnym okresie 3-6 miesięcy. Pozycjonowanie w konkurencyjnych niszach — od 5500 zł miesięcznie, minimum pół roku. Pełne prowadzenie projektu przez jednego specjalistę, łącznie z techniczną przebudową kodu i marketingiem — 13 000 zł miesięcznie. Dokładny koszt zależy od konkurencji w niszy i aktualnego stanu strony — opisz swoją sytuację, a przygotuję wycenę."
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"8247d75d6dcd\"].answer[_key==\"9fdf0b2af797\"]",
+        "kind": "portable-text",
+        "spanCount": 1,
+        "text": "Bo wyszukiwarki nie zmieniają oceny strony natychmiast — ponowne indeksowanie zmian i budowanie zaufania zajmuje miesiące. Minimalny okres (3-6 miesięcy dla średniej firmy, od 6 miesięcy dla konkurencyjnych nisz) to nie sztuczne ograniczenie, ale realistyczny czas, w którym rzeczywiście można zobaczyć i ocenić efekt."
+      },
+      {
+        "path": "contentBlocks[_key==\"3f8c2381c211\"].faq.items[_key==\"8247d75d6dcd\"].answer[_key==\"9fdf0b2af797\"].children[_key==\"a12fc324cd32\"].text",
+        "kind": "string-field",
+        "text": "Bo wyszukiwarki nie zmieniają oceny strony natychmiast — ponowne indeksowanie zmian i budowanie zaufania zajmuje miesiące. Minimalny okres (3-6 miesięcy dla średniej firmy, od 6 miesięcy dla konkurencyjnych nisz) to nie sztuczne ograniczenie, ale realistyczny czas, w którym rzeczywiście można zobaczyć i ocenić efekt."
+      },
+      {
+        "path": "contentBlocks[_key==\"f32e20165c05\"].content[_key==\"d1362253eaca\"]",
+        "kind": "portable-text",
+        "spanCount": 1,
+        "text": "Pozycjonowanie strony kosztuje od 1000 zł za jednorazowy audyt, od 3500 zł miesięcznie za obsługę małej firmy, od 5500 zł miesięcznie dla konkurencyjnych nisz, i 13 000 zł miesięcznie za pełne prowadzenie projektu przez jednego specjalistę. Ale liczby to tylko część obrazu. Najważniejsze to zrozumieć, że SEO to proces wymagający czasu, i że luka między rekomendacją a jej technicznym wdrożeniem często kosztuje biznes więcej niż różnica w cenie między wykonawcami. Właśnie dlatego łączę ekspertyzę SEO z tworzeniem stron — to zamyka lukę, która inaczej opłacana jest utraconymi tygodniami i miesiącami."
+      },
+      {
+        "path": "contentBlocks[_key==\"f32e20165c05\"].content[_key==\"d1362253eaca\"].children[_key==\"559fb08a205a\"].text",
+        "kind": "string-field",
+        "text": "Pozycjonowanie strony kosztuje od 1000 zł za jednorazowy audyt, od 3500 zł miesięcznie za obsługę małej firmy, od 5500 zł miesięcznie dla konkurencyjnych nisz, i 13 000 zł miesięcznie za pełne prowadzenie projektu przez jednego specjalistę. Ale liczby to tylko część obrazu. Najważniejsze to zrozumieć, że SEO to proces wymagający czasu, i że luka między rekomendacją a jej technicznym wdrożeniem często kosztuje biznes więcej niż różnica w cenie między wykonawcami. Właśnie dlatego łączę ekspertyzę SEO z tworzeniem stron — to zamyka lukę, która inaczej opłacana jest utraconymi tygodniami i miesiącami."
+      }
+    ]
+  }
+]

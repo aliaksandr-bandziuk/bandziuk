@@ -1,0 +1,40 @@
+
+======================================================================
+en/seo-audit  (0e071d28-ee05-42a2-81a6-5be75b4264bc)
+  seo.metaTitle
+    было : SEO Audit for Websites — Identify What’s Blocking Growth
+    стало: Website SEO Audit — Cost, Scope and What You Get
+  seo.metaDescription
+    было : Professional SEO audit for websites. Technical issues, Google visibility, competitors, and growth potential — before you invest in SEO or a new website.
+    стало: Website SEO audit from €250 one-time: technical errors, Google visibility, competitors. What the audit covers, how long it takes and what you end up with.
+  → применено: 2 полей
+
+======================================================================
+ru/seo-audit-saita  (0ba09f41-cdc6-40b1-8b57-e56ac656e979)
+  seo.metaTitle
+    было : SEO-аудит сайта — узнайте, что мешает росту и заявкам
+    стало: SEO-аудит сайта: сколько стоит, что входит и что вы получите
+  seo.metaDescription
+    было : SEO-аудит сайта: технические ошибки, видимость в Google, конкуренты. Поймите, что не работает и с чего начинать, прежде чем инвестировать в SEO.
+    стало: SEO-аудит сайта от 250 € разово: технические ошибки, видимость в Google, конкуренты. Что входит в аудит, сколько он занимает и что остаётся у вас на руках.
+  contentBlocks[_key=="1755c2f8416f"].content[_key=="21b5d0ac410c"].children[_key=="f3ce79975c49"].text
+    было : от 150 € (разово)
+    стало: от 250 € (разово)
+    причина: противоречило /ru/ceny, где SEO-аудит от 250 € — цифра осталась с до июльского пересмотра
+  → применено: 3 полей
+
+======================================================================
+pl/audyt-seo-strony-internetowej  (8b7c6b4c-412c-4fa1-b8f8-ec0a1b2816b5)
+  seo.metaTitle
+    было : Audyt SEO strony internetowej — sprawdź, co blokuje wyniki
+    стало: Ile kosztuje audyt SEO strony? Koszt, cennik i zakres
+  seo.metaDescription
+    было : Audyt SEO strony internetowej: technika, widoczność, konkurencja. Dowiedz się, co nie działa i co warto poprawić, zanim zainwestujesz w SEO.
+    стало: Audyt SEO strony internetowej od 1 000 zł jednorazowo: co obejmuje, ile trwa i co dostajesz na wyjściu. Bezpłatna konsultacja przed zamówieniem.
+  contentBlocks[_key=="1755c2f8416f"].content[_key=="545e08cb32d8"].children[_key=="6443284df02f"].text
+    было : od 250 € (jednorazowo)
+    стало: od 1 000 zł (jednorazowo)
+    причина: польские цены везде в злотых: /pl/cennik и ценовая статья говорят od 1000 zł, только эта страница называла евро
+  → применено: 3 полей
+
+Итого правок: 8.

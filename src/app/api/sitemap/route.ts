@@ -18,6 +18,60 @@ type SitemapPage = {
   alternates: AlternateLink[];
 };
 
+/**
+ * Дата последнего изменения по каждому документу, ключ `${lang}:${slug}`.
+ *
+ * Зачем: Google игнорирует changefreq и priority и решает, перечитывать ли карту
+ * и что в ней нового, по <lastmod>. Без него карта для него неизменна — она была
+ * прочитана один раз и больше не перечитывалась (в Search Console: last read
+ * 14.09.2025, discovered 27 при 415 URL в файле).
+ */
+async function buildLastmodMap(): Promise<{ map: Map<string, string>; newest: string }> {
+  type Row = {
+    lang?: string;
+    slugEn?: string;
+    slugPl?: string;
+    slugRu?: string;
+    updated: string;
+  };
+  const rows: Row[] = await client.fetch(
+    groq`*[_type in ["singlepage", "blog", "portfolio"]]{
+      "lang": language,
+      "slugEn": slug.en.current,
+      "slugPl": slug.pl.current,
+      "slugRu": slug.ru.current,
+      "updated": _updatedAt
+    }`,
+    {},
+    { next: { revalidate: 60 } },
+  );
+
+  const map = new Map<string, string>();
+  let newest = "";
+  for (const r of rows) {
+    if (!r.updated) continue;
+    if (r.updated > newest) newest = r.updated;
+    const slug =
+      r.lang === "pl" ? r.slugPl : r.lang === "ru" ? r.slugRu : r.slugEn;
+    if (r.lang && slug) map.set(`${r.lang}:${slug}`, r.updated);
+  }
+  return { map, newest: newest || new Date().toISOString() };
+}
+
+/** Разбирает URL обратно в пару «локаль + последний сегмент», чтобы найти его дату. */
+function lastmodFor(
+  url: string,
+  lm: { map: Map<string, string>; newest: string },
+): string {
+  const path = url.replace(BASE_URL, "");
+  const seg = path.split("/").filter(Boolean);
+  const lang = seg[0] === "pl" || seg[0] === "ru" ? seg[0] : "en";
+  const slug = seg.length ? seg[seg.length - 1] : "";
+  // Листинги и главные собственного документа не имеют — им отдаём самую свежую
+  // дату по сайту: они действительно меняются при каждой новой публикации.
+  return lm.map.get(`${lang}:${slug}`) ?? lm.newest;
+}
+
 /** Build a self-consistent alternate set for a group of locale URLs. */
 function buildAlts(
   urlsByLocale: Partial<Record<string, string>>,
@@ -226,12 +280,13 @@ async function generateSitemap(): Promise<SitemapPage[]> {
 
 export async function GET() {
   const pages = await generateSitemap();
+  const lastmod = await buildLastmodMap();
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${pages
-  .map(({ url, changefreq, priority, alternates }) => {
+  .map(({ url, alternates }) => {
     const altXml =
       alternates.length > 0
         ? `\n    ${alternates
@@ -244,14 +299,19 @@ ${pages
     return `
   <url>
     <loc>${url}</loc>
-    <changefreq>${changefreq}</changefreq>
-    <priority>${priority.toFixed(1)}</priority>${altXml}
+    <lastmod>${lastmodFor(url, lastmod)}</lastmod>${altXml}
   </url>`;
   })
   .join("")}
 </urlset>`;
 
   return new Response(xml, {
-    headers: { "Content-Type": "application/xml" },
+    headers: {
+      "Content-Type": "application/xml",
+      // Краулер не должен ждать полной пересборки карты: отдаём из кэша CDN
+      // и обновляем в фоне. Три запроса к Sanity на каждый заход робота —
+      // лишний риск таймаута на холодном старте.
+      "Cache-Control": "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400",
+    },
   });
 }

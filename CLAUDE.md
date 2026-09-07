@@ -482,3 +482,20 @@ code itself.
 - Never run mutating git commands (`add`, `commit`, `checkout`, 
   `stash`, `restore`) from an agent shell that lacks delete 
   permission: they all take the same lock and can strand it.
+
+## Content policy
+
+- Before proposing a NEW page for a query, check whether existing 
+  pages already cover that topic — read their headings and body, 
+  don't just check whether a URL with that slug exists. Absence of 
+  a URL is not absence of coverage. Two pages answering one query 
+  is the cannibalisation this site already suffers from 
+  (`/pricing` vs the RU cost article: 9 697 impressions, 1 click).
+  Happened 2026-09-06: a PL article on audit pricing was proposed 
+  and dropped after finding the topic already covered by an H2 on 
+  the service page AND a full H2 section in the SEO-cost article.
+- When a page's headings promise an answer, the answer must be on 
+  the page. Found the same day: the PL audit service page carries 
+  the heading "Ile kosztuje audyt SEO?" and contains no price at 
+  all — the figure lives only on /pl/cennik. That loses enquiries, 
+  not rankings.

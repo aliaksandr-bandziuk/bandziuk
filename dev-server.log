@@ -107,3 +107,133 @@ Import trace for requested module:
  GET /pl/blog/ile-kosztuje-pozycjonowanie-strony 200 in 1693ms
  GET /ru/uslugi 200 in 1465ms
  GET /pl/oferty 200 in 1018ms
+ GET /pl/cennik 200 in 6384ms
+ GET /pl/cennik 200 in 2528ms
+ GET /pl/oferty/audyt-seo-strony-internetowej 200 in 1068ms
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ GET /pl/blog 200 in 19408ms
+ GET /pl/oferty/audyt-seo-strony-internetowej 200 in 991ms
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ GET /pl/blog/ile-kosztuje-pozycjonowanie-strony 200 in 4137ms
+ GET /pricing 200 in 1168ms
+ GET /ru/ceny 200 in 902ms
+ GET /services/seo-audit 200 in 751ms
+ GET /ru/uslugi/seo-audit-saita 200 in 815ms
+ GET /services/seo-audit 200 in 825ms
+ GET /ru/uslugi/seo-audit-saita 200 in 738ms
+ GET /pl/oferty/audyt-seo-strony-internetowej 200 in 692ms
+ GET /pl/oferty/audyt-seo-strony-internetowej 200 in 841ms
+ GET /ru/uslugi/seo-audit-saita 200 in 720ms
+ GET /services/seo-audit 200 in 727ms
+ GET /services/seo-audit 200 in 894ms
+ GET /ru/ceny 200 in 831ms
+ GET /pricing 200 in 768ms
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ GET /sitemap.xml 200 in 6279ms
+ GET /pl 200 in 739ms
+ GET /pl 200 in 553ms
+ GET /pl/oferty 200 in 865ms
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ GET /pl/blog 200 in 1760ms
+ GET /pl/cennik 200 in 690ms
+ GET /pl/oferty/strategia-i-optymalizacja-seo 200 in 553ms
+ GET /pl/tworzenie-stron-internetowych-warszawa 200 in 597ms
+ GET /pl/oferty/pozycjonowanie-strony-kancelarii-prawnej-warszawa 200 in 542ms
+ GET /sitemap.xml 200 in 2290ms
+ GET /sitemap.xml 200 in 1754ms
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ ⚠ ./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+Warning
+
+(65:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.module.scss
+./src/app/components/sections/PortfolioIntro/PortfolioIntro.tsx
+./src/app/[lang]/portfolio/[slug]/page.tsx
+ GET /sitemap.xml 200 in 4710ms

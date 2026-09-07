@@ -28,6 +28,26 @@ const STATIC_REDIRECTS = [
   // variants carry impressions in Search Console, so the flat family gets a 301
   // rather than the 404 the new path check would otherwise return.
   { source: '/pl/lokalizacje/:slug',                             destination: '/pl/oferty/lokalizacje/:slug',                   permanent: true },
+
+  // ── Устаревшие адреса из отчёта «Excluded by noindex» (GSC, 07.09.2026) ──
+  // Все восемь отдавали 404 со встроенным noindex фреймворка, из-за чего Google
+  // числил их как исключённые тегом. У каждого есть живой аналог, поэтому 301,
+  // а не 404: адрес уже известен Google и может нести хоть какой-то сигнал.
+
+  // Русские слаги без языкового префикса — следы структуры до локалей.
+  { source: '/kontakty',                                        destination: '/ru/kontakty',                                   permanent: true },
+  { source: '/uslugi',                                          destination: '/ru/uslugi',                                     permanent: true },
+  { source: '/sozdanie-saita-dlya-advokata',                    destination: '/ru/sozdanie-saita-dlya-advokata',               permanent: true },
+
+  // Опечатка и старые английские адреса.
+  { source: '/blogs',                                           destination: '/blog',                                          permanent: true },
+  { source: '/contact',                                         destination: '/contacts',                                      permanent: true },
+  { source: '/web-development',                                 destination: '/services/website-development',                  permanent: true },
+  { source: '/seo-management',                                  destination: '/services/seo-optimization-and-strategy',        permanent: true },
+  { source: '/custom-business-solutions',                       destination: '/services',                                      permanent: true },
+
+  // Английский слаг под русским префиксом: русская версия статьи существует.
+  { source: '/ru/blog/real-estate-website-cyprus-case-study',   destination: '/ru/blog/sait-agentstva-nedvizhimosti-kipr-keis', permanent: true },
 ];
 
 async function buildDynamicRedirects() {

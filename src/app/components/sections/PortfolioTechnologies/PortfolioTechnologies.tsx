@@ -17,6 +17,9 @@ import {
   SiPhp,
   SiGoogleanalytics,
   SiSwiper,
+  SiSanity,
+  SiVercel,
+  SiSass,
 } from "react-icons/si";
 import type { IconType } from "react-icons";
 
@@ -44,6 +47,9 @@ const BRAND_ICONS: Record<string, IconType> = {
   PHP: SiPhp,
   "Google Analytics": SiGoogleanalytics,
   Swiper: SiSwiper,
+  Sanity: SiSanity,
+  Vercel: SiVercel,
+  SCSS: SiSass,
 };
 
 // Concept technologies (not brands) are separate Sanity documents per

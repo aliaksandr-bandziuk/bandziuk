@@ -79,6 +79,30 @@ export function getPortfolioJsonLd({
   const webPageId = `${canonical}#webpage`;
   const articleId = `${canonical}#article`; // было #casestudy
 
+  // Сайт проекта — самостоятельная сущность WebSite, а не sameAs у статьи.
+  // sameAs означает «это тот же объект», то есть прежняя разметка утверждала,
+  // что кейс и сайт клиента — одно и то же. Правильная связь: статья ABOUT
+  // сайта, сайт SUBJECT OF статьи.
+  const projectSiteId = clientSite
+    ? `${clientSite.replace(/\/$/, "")}/#website`
+    : undefined;
+  const projectSiteName =
+    (doc.keyFeatures?.website?.type === "link"
+      ? doc.keyFeatures.website.linkLabel
+      : undefined) ||
+    (clientSite ? clientSite.replace(/^https?:\/\//, "").replace(/\/$/, "") : undefined);
+  const projectSite = clientSite
+    ? {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": projectSiteId,
+        url: clientSite,
+        name: projectSiteName,
+        creator: ORG,
+        subjectOf: { "@id": articleId },
+      }
+    : undefined;
+
   const webPage = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -112,13 +136,19 @@ export function getPortfolioJsonLd({
     mainEntityOfPage: { "@id": webPageId }, // двусторонняя связь
     publisher: ORG,
     author: ORG,
-    about: about.length ? about : undefined,
+    about: (() => {
+      const list = [
+        ...(projectSiteId ? [{ "@id": projectSiteId }] : []),
+        ...about,
+      ];
+      return list.length ? list : undefined;
+    })(),
     mentions: mentions.length ? mentions : undefined,
     articleSection: industry ? [industry] : undefined,
-    sameAs: clientSite ? [clientSite] : undefined,
     datePublished: doc.publishedAt || undefined,
   };
 
-  // ВОЗВРАЩАЕМ ТРИ НОДЫ: WebSite, WebPage, Article
-  return [WEBSITE, webPage, article];
+  // WebSite (bandziuk.com), WebPage, Article — и, если у проекта указан
+  // адрес, отдельная нода WebSite для самого проекта.
+  return [WEBSITE, webPage, article, ...(projectSite ? [projectSite] : [])];
 }

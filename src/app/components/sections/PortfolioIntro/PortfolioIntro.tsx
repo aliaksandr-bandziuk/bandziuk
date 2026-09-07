@@ -50,7 +50,7 @@ const PortfolioIntro: React.FC<Props> = ({
       <a
         href={keyFeatures.website.linkDestination}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         className={styles.keyFeatureValue}
       >
         {keyFeatures.website.linkLabel || keyFeatures.website.linkDestination}

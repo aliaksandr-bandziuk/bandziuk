@@ -449,6 +449,14 @@ code itself.
   config-only changes — Vercel builds on push anyway.
 - Never leave orphaned node processes on port 3000 — always kill 
   the server you started.
+- Verify against localhost, NOT against www.bandziuk.com. Every 
+  request to the live site burns Vercel quota, so status-code, 
+  canonical, hreflang and redirect checks are run against the dev 
+  server on port 3000. Hitting production is the owner's call, and 
+  only when the question genuinely cannot be answered locally 
+  (e.g. confirming a deploy actually shipped) — then it is a 
+  handful of requests, not a sweep. Owner's instruction, 
+  2026-09-06.
 
 ## Git & deploy policy
 

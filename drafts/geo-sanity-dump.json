@@ -1,0 +1,1087 @@
+[
+  {
+    "_id": "singlepage-seo-france.ru",
+    "isDraft": false,
+    "_publishedAt": null,
+    "_updatedAt": "2026-08-13T16:25:39Z",
+    "slug": "prodvizhenie-na-frantsuzskiy-rynok",
+    "pageType": "service",
+    "title": "SEO-продвижение сайта на французский рынок",
+    "excerpt": "Поисковая работа на покупателей во Франции, для компаний, продающих туда откуда угодно. Это единственный рынок в списке, где языковая версия, в которую вы вкладываетесь, не заканчивается на границе: французский контент, адаптированный, а не скопированный, достаёт до Бельгии, западной Швейцарии, Люксембурга и дальше. Это меняет арифметику того, стоит ли заходить.",
+    "seo": {
+      "metaDescription": "Поисковая работа на покупателей во Франции — единственный рынок, где создаваемая языковая версия достаёт и до нескольких других стран.",
+      "metaTitle": "SEO-продвижение сайта на французский рынок | Bandziuk"
+    },
+    "parentPage": "singlepage-locations.ru",
+    "blocks": [
+      {
+        "_type": "benefitsBlock",
+        "_key": "8435eaed1a7f"
+      },
+      {
+        "_type": "gridBlock",
+        "_key": "a3684f02ec12"
+      },
+      {
+        "_type": "textContent",
+        "_key": "104797b8e48c"
+      },
+      {
+        "_type": "stepsBlock",
+        "_key": "3ba5fc7bb262"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "1773bf13f0ae"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"104797b8e48c\"].content[_key==\"a9ddb4e8e289\"]",
+        "style": "h2",
+        "blockKey": "a9ddb4e8e289",
+        "spanKeys": [
+          "72622078fb50"
+        ],
+        "spanCount": 1,
+        "text": "Почему одна французская версия достаёт до нескольких рынков и что это меняет"
+      },
+      {
+        "path": "contentBlocks[_key==\"104797b8e48c\"].content[_key==\"7933c649c7ae\"]",
+        "style": "h3",
+        "blockKey": "7933c649c7ae",
+        "spanKeys": [
+          "2a2fd0a2ed09"
+        ],
+        "spanCount": 1,
+        "text": "Где английский перестаёт работать, а перестаёт он здесь раньше"
+      },
+      {
+        "path": "contentBlocks[_key==\"104797b8e48c\"].content[_key==\"1077e8dcda1f\"]",
+        "style": "h3",
+        "blockKey": "1077e8dcda1f",
+        "spanKeys": [
+          "05bbcba12799"
+        ],
+        "spanCount": 1,
+        "text": "Домашнее поле развитее, чем ожидают новички"
+      },
+      {
+        "path": "contentBlocks[_key==\"104797b8e48c\"].content[_key==\"2a4e26f940a5\"]",
+        "style": "h3",
+        "blockKey": "2a4e26f940a5",
+        "spanKeys": [
+          "3cc14dd14289"
+        ],
+        "spanCount": 1,
+        "text": "Глубина читается здесь лучше краткости"
+      },
+      {
+        "path": "contentBlocks[_key==\"104797b8e48c\"].content[_key==\"9f527baf4f14\"]",
+        "style": "h3",
+        "blockKey": "9f527baf4f14",
+        "spanKeys": [
+          "8ddc767562cc"
+        ],
+        "spanCount": 1,
+        "text": "ИИ-ответы на французском лежат между английским и малыми рынками"
+      },
+      {
+        "path": "contentBlocks[_key==\"104797b8e48c\"].content[_key==\"6bd261ae94db\"]",
+        "style": "h3",
+        "blockKey": "6bd261ae94db",
+        "spanKeys": [
+          "f559c6bd8b4b"
+        ],
+        "spanCount": 1,
+        "text": "Что проверяется до того, как что-то сдаётся"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"8435eaed1a7f\"].benefits[_key==\"a34133c3f056\"].title",
+        "key": "title",
+        "value": "Предполагалось, что рынок вынесет английская версия"
+      },
+      {
+        "path": "contentBlocks[_key==\"8435eaed1a7f\"].benefits[_key==\"9edd177353bb\"].title",
+        "key": "title",
+        "value": "Французская версия — перевод английской"
+      },
+      {
+        "path": "contentBlocks[_key==\"8435eaed1a7f\"].benefits[_key==\"0836786b5484\"].title",
+        "key": "title",
+        "value": "Домашнюю конкуренцию недооценили"
+      },
+      {
+        "path": "contentBlocks[_key==\"8435eaed1a7f\"].benefits[_key==\"2a282f798616\"].title",
+        "key": "title",
+        "value": "Решили, что одна французская версия покроет все франкоязычные рынки"
+      },
+      {
+        "path": "contentBlocks[_key==\"8435eaed1a7f\"].title",
+        "key": "title",
+        "value": "Почему английский контент недорабатывает на французском рынке"
+      },
+      {
+        "path": "contentBlocks[_key==\"a3684f02ec12\"].items[_key==\"753693f8ed6e\"].title",
+        "key": "title",
+        "value": "Сбор запросов на французском, построенный, а не переведённый"
+      },
+      {
+        "path": "contentBlocks[_key==\"a3684f02ec12\"].items[_key==\"005029ac1d3c\"].title",
+        "key": "title",
+        "value": "Реалистичная оценка домашнего поля"
+      },
+      {
+        "path": "contentBlocks[_key==\"a3684f02ec12\"].items[_key==\"df529554682b\"].title",
+        "key": "title",
+        "value": "Контент, взвешенный под то, как читает этот рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"a3684f02ec12\"].items[_key==\"1fc1d9818615\"].title",
+        "key": "title",
+        "value": "Французская версия, построенная под адаптацию, а не только под копирование"
+      },
+      {
+        "path": "contentBlocks[_key==\"a3684f02ec12\"].items[_key==\"da0eee353b85\"].title",
+        "key": "title",
+        "value": "Видимость в ИИ на французском, измеряемая отдельно"
+      },
+      {
+        "path": "contentBlocks[_key==\"a3684f02ec12\"].items[_key==\"163b59a7e819\"].title",
+        "key": "title",
+        "value": "Отчётность, отделяющая французских покупателей от остальных"
+      },
+      {
+        "path": "contentBlocks[_key==\"a3684f02ec12\"].title",
+        "key": "title",
+        "value": "Что входит в SEO-продвижение сайта на французский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"3ba5fc7bb262\"].steps[_key==\"d7c4b9f84d8f\"].title",
+        "key": "title",
+        "value": "Установление, ищет ли ваша категория по-французски или по-английски"
+      },
+      {
+        "path": "contentBlocks[_key==\"3ba5fc7bb262\"].steps[_key==\"2f4c33865a\"].title",
+        "key": "title",
+        "value": "Сбор запросов, построенный на французском"
+      },
+      {
+        "path": "contentBlocks[_key==\"3ba5fc7bb262\"].steps[_key==\"0dc1fbea921b\"].title",
+        "key": "title",
+        "value": "Структура, глубина и техническая работа"
+      },
+      {
+        "path": "contentBlocks[_key==\"3ba5fc7bb262\"].steps[_key==\"cfe0e1dada71\"].title",
+        "key": "title",
+        "value": "Измерение и решение о соседних рынках"
+      },
+      {
+        "path": "contentBlocks[_key==\"3ba5fc7bb262\"].title",
+        "key": "title",
+        "value": "Как начинается раскрутка сайта под французский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"1773bf13f0ae\"].faq.items[_key==\"b0fa5798b76e\"].question",
+        "key": "question",
+        "value": "Сколько стоит продвижение сайта на французский рынок?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1773bf13f0ae\"].faq.items[_key==\"91226079e61f\"].question",
+        "key": "question",
+        "value": "Сработает ли одна французская версия и для Бельгии со Швейцарией?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1773bf13f0ae\"].faq.items[_key==\"3cd387d9b472\"].question",
+        "key": "question",
+        "value": "У нашего английского сайта уже есть немного трафика из Франции. Разве этого мало?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1773bf13f0ae\"].faq.items[_key==\"bcbde9581836\"].question",
+        "key": "question",
+        "value": "Нужна ли французская компания или домен .fr?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1773bf13f0ae\"].faq.items[_key==\"554892677e6c\"].question",
+        "key": "question",
+        "value": "Почему контент для Франции должен быть длиннее?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1773bf13f0ae\"].faq.items[_key==\"73a042e19df0\"].question",
+        "key": "question",
+        "value": "Через сколько что-то будет видно?"
+      },
+      {
+        "path": "contentBlocks[_key==\"1773bf13f0ae\"].faq.title",
+        "key": "title",
+        "value": "Частые вопросы о SEO-продвижении сайта на французский рынок"
+      }
+    ]
+  },
+  {
+    "_id": "singlepage-seo-ireland.ru",
+    "isDraft": false,
+    "_publishedAt": null,
+    "_updatedAt": "2026-08-13T16:25:52Z",
+    "slug": "prodvizhenie-na-irlandskiy-rynok",
+    "pageType": "service",
+    "title": "SEO-продвижение сайта на ирландский рынок",
+    "excerpt": "Поисковая работа на покупателей в Ирландии, для компаний, продающих туда откуда угодно. Это единственный заметный англоязычный рынок внутри Европейского союза — английский контент, цены в евро, счёт из ЕС, — и он же чаще всего теряется не для конкурента, а внутри британской выдачи.",
+    "seo": {
+      "metaDescription": "Поисковая работа на покупателей в Ирландии — англоязычном рынке ЕС, который тихо перекрывает британская выдача.",
+      "metaTitle": "SEO-продвижение сайта на ирландский рынок | Bandziuk"
+    },
+    "parentPage": "singlepage-locations.ru",
+    "blocks": [
+      {
+        "_type": "benefitsBlock",
+        "_key": "872511e9a805"
+      },
+      {
+        "_type": "gridBlock",
+        "_key": "3a5e2283801a"
+      },
+      {
+        "_type": "textContent",
+        "_key": "da3d018ff7cb"
+      },
+      {
+        "_type": "stepsBlock",
+        "_key": "7bfd59c7a635"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "4c74f45eaecf"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"da3d018ff7cb\"].content[_key==\"2ad6a8823ec9\"]",
+        "style": "h2",
+        "blockKey": "2ad6a8823ec9",
+        "spanKeys": [
+          "f2f9f0c7d9c3"
+        ],
+        "spanCount": 1,
+        "text": "Почему Ирландия теряется внутри британской выдачи"
+      },
+      {
+        "path": "contentBlocks[_key==\"da3d018ff7cb\"].content[_key==\"35602169510f\"]",
+        "style": "h3",
+        "blockKey": "35602169510f",
+        "spanKeys": [
+          "4218a5cac430"
+        ],
+        "spanCount": 1,
+        "text": "Если ваши покупатели на самом деле британские, вам нужна соседняя страница"
+      },
+      {
+        "path": "contentBlocks[_key==\"da3d018ff7cb\"].content[_key==\"94316d4f1c94\"]",
+        "style": "h3",
+        "blockKey": "94316d4f1c94",
+        "spanKeys": [
+          "e7720c856dd5"
+        ],
+        "spanCount": 1,
+        "text": "Единственный англоязычный рынок внутри ЕС"
+      },
+      {
+        "path": "contentBlocks[_key==\"da3d018ff7cb\"].content[_key==\"5d81caa194ce\"]",
+        "style": "h3",
+        "blockKey": "5d81caa194ce",
+        "spanKeys": [
+          "5208885f0a3d"
+        ],
+        "spanCount": 1,
+        "text": "Что отличает ирландскую страницу от британской"
+      },
+      {
+        "path": "contentBlocks[_key==\"da3d018ff7cb\"].content[_key==\"d79837f87039\"]",
+        "style": "h3",
+        "blockKey": "d79837f87039",
+        "spanKeys": [
+          "daf8e1e0ccd7"
+        ],
+        "spanCount": 1,
+        "text": "ИИ-ответы на малом рынке с большим языком"
+      },
+      {
+        "path": "contentBlocks[_key==\"da3d018ff7cb\"].content[_key==\"8eb3ddeb8ca1\"]",
+        "style": "h3",
+        "blockKey": "8eb3ddeb8ca1",
+        "spanKeys": [
+          "ed907ff4dd4f"
+        ],
+        "spanCount": 1,
+        "text": "Что проверяется до того, как что-то сдаётся"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"872511e9a805\"].benefits[_key==\"af334c75cfbb\"].title",
+        "key": "title",
+        "value": "Британская выдача занимает это место"
+      },
+      {
+        "path": "contentBlocks[_key==\"872511e9a805\"].benefits[_key==\"011310520ab3\"].title",
+        "key": "title",
+        "value": "Ирландию вложили в британскую кампанию"
+      },
+      {
+        "path": "contentBlocks[_key==\"872511e9a805\"].benefits[_key==\"c149a0ded357\"].title",
+        "key": "title",
+        "value": "Ничто на сайте не отличает ирландское нацеливание от британского"
+      },
+      {
+        "path": "contentBlocks[_key==\"872511e9a805\"].benefits[_key==\"bad7b2f51ac4\"].title",
+        "key": "title",
+        "value": "Рынок сочли слишком маленьким"
+      },
+      {
+        "path": "contentBlocks[_key==\"872511e9a805\"].title",
+        "key": "title",
+        "value": "Почему ирландских покупателей трудно достать даже с английским сайтом"
+      },
+      {
+        "path": "contentBlocks[_key==\"3a5e2283801a\"].items[_key==\"bce33478d5c8\"].title",
+        "key": "title",
+        "value": "Решение, отдельный ли это рынок или перелив из Британии"
+      },
+      {
+        "path": "contentBlocks[_key==\"3a5e2283801a\"].items[_key==\"da4538b9f0da\"].title",
+        "key": "title",
+        "value": "Сигналы, отделяющие ирландское нацеливание от британского"
+      },
+      {
+        "path": "contentBlocks[_key==\"3a5e2283801a\"].items[_key==\"119ef8ee718e\"].title",
+        "key": "title",
+        "value": "Сбор запросов при ирландских объёмах и ирландских формулировках"
+      },
+      {
+        "path": "contentBlocks[_key==\"3a5e2283801a\"].items[_key==\"6056bf571a35\"].title",
+        "key": "title",
+        "value": "Работа в рамке ЕС, а не против неё"
+      },
+      {
+        "path": "contentBlocks[_key==\"3a5e2283801a\"].items[_key==\"5fd5e45c3b36\"].title",
+        "key": "title",
+        "value": "Видимость в ИИ, где источники английские, а рынок маленький"
+      },
+      {
+        "path": "contentBlocks[_key==\"3a5e2283801a\"].items[_key==\"42130efb2094\"].title",
+        "key": "title",
+        "value": "Отчётность, отделяющая ирландских покупателей от британских"
+      },
+      {
+        "path": "contentBlocks[_key==\"3a5e2283801a\"].title",
+        "key": "title",
+        "value": "Что входит в SEO-продвижение сайта на ирландский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"7bfd59c7a635\"].steps[_key==\"1753f16d27f3\"].title",
+        "key": "title",
+        "value": "Решение, отдельный ли для вас это рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"7bfd59c7a635\"].steps[_key==\"a1907d9a7dc6\"].title",
+        "key": "title",
+        "value": "Сбор запросов в ирландских формулировках и при ирландских объёмах"
+      },
+      {
+        "path": "contentBlocks[_key==\"7bfd59c7a635\"].steps[_key==\"36452d010df5\"].title",
+        "key": "title",
+        "value": "Разделяющие сигналы и техническая работа"
+      },
+      {
+        "path": "contentBlocks[_key==\"7bfd59c7a635\"].steps[_key==\"9ab4b81ac346\"].title",
+        "key": "title",
+        "value": "Измерение, отделённое от британского"
+      },
+      {
+        "path": "contentBlocks[_key==\"7bfd59c7a635\"].title",
+        "key": "title",
+        "value": "Как начинается раскрутка сайта под ирландский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"4c74f45eaecf\"].faq.items[_key==\"fd68907f5fb1\"].question",
+        "key": "question",
+        "value": "Сколько стоит продвижение сайта на ирландский рынок?"
+      },
+      {
+        "path": "contentBlocks[_key==\"4c74f45eaecf\"].faq.items[_key==\"f4e48b1baf7e\"].question",
+        "key": "question",
+        "value": "Мы уже целимся в Британию. Разве Ирландия не покрыта заодно?"
+      },
+      {
+        "path": "contentBlocks[_key==\"4c74f45eaecf\"].faq.items[_key==\"f2ee42fbd0cb\"].question",
+        "key": "question",
+        "value": "Нужна ли ирландская компания или домен .ie?"
+      },
+      {
+        "path": "contentBlocks[_key==\"4c74f45eaecf\"].faq.items[_key==\"7eaa4adfe47a\"].question",
+        "key": "question",
+        "value": "Не слишком ли мал этот рынок, чтобы им заниматься?"
+      },
+      {
+        "path": "contentBlocks[_key==\"4c74f45eaecf\"].faq.items[_key==\"eb808522e0b0\"].question",
+        "key": "question",
+        "value": "Цены в евро или в фунтах?"
+      },
+      {
+        "path": "contentBlocks[_key==\"4c74f45eaecf\"].faq.items[_key==\"2e41562ee827\"].question",
+        "key": "question",
+        "value": "Можно ли работать над Ирландией и Британией вместе?"
+      },
+      {
+        "path": "contentBlocks[_key==\"4c74f45eaecf\"].faq.title",
+        "key": "title",
+        "value": "Частые вопросы о SEO-продвижении сайта на ирландский рынок"
+      }
+    ]
+  },
+  {
+    "_id": "singlepage-seo-netherlands.ru",
+    "isDraft": false,
+    "_publishedAt": null,
+    "_updatedAt": "2026-08-13T16:25:49Z",
+    "slug": "prodvizhenie-na-gollandskiy-rynok",
+    "pageType": "service",
+    "title": "SEO-продвижение сайта на нидерландский рынок",
+    "excerpt": "Поисковая работа на покупателей в Нидерландах, для компаний, продающих туда откуда угодно. Английским здесь владеют почти поголовно, и именно поэтому столько компаний пропускают рынок по ошибке: люди, свободно говорящие по-английски, всё равно набирают запросы по-голландски.",
+    "seo": {
+      "metaDescription": "Поисковая работа на покупателей в Нидерландах — рынке, где все говорят по-английски и почти никто по-английски не ищет.",
+      "metaTitle": "SEO-продвижение сайта на нидерландский рынок | Bandziuk"
+    },
+    "parentPage": "singlepage-locations.ru",
+    "blocks": [
+      {
+        "_type": "benefitsBlock",
+        "_key": "9918741a6c1d"
+      },
+      {
+        "_type": "gridBlock",
+        "_key": "64b5edd3eaae"
+      },
+      {
+        "_type": "textContent",
+        "_key": "c15ffdc6850c"
+      },
+      {
+        "_type": "stepsBlock",
+        "_key": "4629cf569984"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "8b2dc3c7b2fd"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"c15ffdc6850c\"].content[_key==\"36ef1ed10835\"]",
+        "style": "h2",
+        "blockKey": "36ef1ed10835",
+        "spanKeys": [
+          "dc850868b782"
+        ],
+        "spanCount": 1,
+        "text": "Почему владение английским не означает поиск по-английски в Нидерландах"
+      },
+      {
+        "path": "contentBlocks[_key==\"c15ffdc6850c\"].content[_key==\"2588911c45b1\"]",
+        "style": "h3",
+        "blockKey": "2588911c45b1",
+        "spanKeys": [
+          "54cb99e1f353"
+        ],
+        "spanCount": 1,
+        "text": "Где английский здесь действительно работает"
+      },
+      {
+        "path": "contentBlocks[_key==\"c15ffdc6850c\"].content[_key==\"ecac3dafb912\"]",
+        "style": "h3",
+        "blockKey": "ecac3dafb912",
+        "spanKeys": [
+          "114b87f7ec0c"
+        ],
+        "spanCount": 1,
+        "text": "Прямота как свойство рынка, а не стилистическое предпочтение"
+      },
+      {
+        "path": "contentBlocks[_key==\"c15ffdc6850c\"].content[_key==\"d37837948e1c\"]",
+        "style": "h3",
+        "blockKey": "d37837948e1c",
+        "spanKeys": [
+          "c610b2415feb"
+        ],
+        "spanCount": 1,
+        "text": "Голландский слой ИИ-ответов меньше английского"
+      },
+      {
+        "path": "contentBlocks[_key==\"c15ffdc6850c\"].content[_key==\"b16eafc125c9\"]",
+        "style": "h3",
+        "blockKey": "b16eafc125c9",
+        "spanKeys": [
+          "d99a2690a69c"
+        ],
+        "spanCount": 1,
+        "text": "Что проверяется до того, как что-то сдаётся"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"9918741a6c1d\"].benefits[_key==\"51ec3078dbe6\"].title",
+        "key": "title",
+        "value": "Все говорили по-английски, и никто ничего не сделал по-голландски"
+      },
+      {
+        "path": "contentBlocks[_key==\"9918741a6c1d\"].benefits[_key==\"a3dbd8d65ff1\"].title",
+        "key": "title",
+        "value": "Сайт написан маркетинговым языком"
+      },
+      {
+        "path": "contentBlocks[_key==\"9918741a6c1d\"].benefits[_key==\"c44b466cf9af\"].title",
+        "key": "title",
+        "value": "Цены нигде нет"
+      },
+      {
+        "path": "contentBlocks[_key==\"9918741a6c1d\"].benefits[_key==\"490bba5d362e\"].title",
+        "key": "title",
+        "value": "Ничто не отличает вас от конкурента с теми же заявлениями"
+      },
+      {
+        "path": "contentBlocks[_key==\"9918741a6c1d\"].title",
+        "key": "title",
+        "value": "Почему компании случайно пропускают нидерландский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"64b5edd3eaae\"].items[_key==\"69b4ee88155f\"].title",
+        "key": "title",
+        "value": "Сбор запросов на голландском, на каком бы языке ни был ваш сайт"
+      },
+      {
+        "path": "contentBlocks[_key==\"64b5edd3eaae\"].items[_key==\"6f7250c4e6aa\"].title",
+        "key": "title",
+        "value": "Оценка, где английский действительно ещё работает"
+      },
+      {
+        "path": "contentBlocks[_key==\"64b5edd3eaae\"].items[_key==\"7c1600f5a17b\"].title",
+        "key": "title",
+        "value": "Названные цены, потому что этот рынок их ожидает"
+      },
+      {
+        "path": "contentBlocks[_key==\"64b5edd3eaae\"].items[_key==\"3dc9d65d5b1f\"].title",
+        "key": "title",
+        "value": "Конкретика там, где у конкурентов прилагательные"
+      },
+      {
+        "path": "contentBlocks[_key==\"64b5edd3eaae\"].items[_key==\"0e27ec9ff035\"].title",
+        "key": "title",
+        "value": "Видимость в ИИ на голландском, измеряемая отдельно"
+      },
+      {
+        "path": "contentBlocks[_key==\"64b5edd3eaae\"].items[_key==\"2c3a863fa94a\"].title",
+        "key": "title",
+        "value": "Отчётность, отделяющая нидерландских покупателей от остальных"
+      },
+      {
+        "path": "contentBlocks[_key==\"64b5edd3eaae\"].title",
+        "key": "title",
+        "value": "Что входит в SEO-продвижение сайта на нидерландский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"4629cf569984\"].steps[_key==\"9d81c235ef66\"].title",
+        "key": "title",
+        "value": "Установление, на каком языке ваши покупатели действительно ищут"
+      },
+      {
+        "path": "contentBlocks[_key==\"4629cf569984\"].steps[_key==\"252c4dfd085a\"].title",
+        "key": "title",
+        "value": "Сбор запросов на том языке, который получился"
+      },
+      {
+        "path": "contentBlocks[_key==\"4629cf569984\"].steps[_key==\"7554e19bf264\"].title",
+        "key": "title",
+        "value": "Контент и структура, которые этот рынок хорошо читает"
+      },
+      {
+        "path": "contentBlocks[_key==\"4629cf569984\"].steps[_key==\"275916ee4325\"].title",
+        "key": "title",
+        "value": "Измерение в обоих слоях"
+      },
+      {
+        "path": "contentBlocks[_key==\"4629cf569984\"].title",
+        "key": "title",
+        "value": "Как начинается раскрутка сайта под нидерландский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"8b2dc3c7b2fd\"].faq.items[_key==\"146f125c58c6\"].question",
+        "key": "question",
+        "value": "Сколько стоит продвижение сайта на нидерландский рынок?"
+      },
+      {
+        "path": "contentBlocks[_key==\"8b2dc3c7b2fd\"].faq.items[_key==\"e56febb471dc\"].question",
+        "key": "question",
+        "value": "Все, с кем мы имеем дело, говорят по-английски. Нам правда нужен голландский?"
+      },
+      {
+        "path": "contentBlocks[_key==\"8b2dc3c7b2fd\"].faq.items[_key==\"4bd44aab40c0\"].question",
+        "key": "question",
+        "value": "Нужна ли нидерландская компания или домен .nl?"
+      },
+      {
+        "path": "contentBlocks[_key==\"8b2dc3c7b2fd\"].faq.items[_key==\"24b5cd8b5cee\"].question",
+        "key": "question",
+        "value": "Обязательно ли публиковать цены?"
+      },
+      {
+        "path": "contentBlocks[_key==\"8b2dc3c7b2fd\"].faq.items[_key==\"d99cfb014595\"].question",
+        "key": "question",
+        "value": "Можно ли работать над Нидерландами параллельно с Германией?"
+      },
+      {
+        "path": "contentBlocks[_key==\"8b2dc3c7b2fd\"].faq.items[_key==\"79e6468ab3f4\"].question",
+        "key": "question",
+        "value": "Через сколько что-то будет видно?"
+      },
+      {
+        "path": "contentBlocks[_key==\"8b2dc3c7b2fd\"].faq.title",
+        "key": "title",
+        "value": "Частые вопросы о SEO-продвижении сайта на нидерландский рынок"
+      }
+    ]
+  },
+  {
+    "_id": "singlepage-seo-switzerland.ru",
+    "isDraft": false,
+    "_publishedAt": null,
+    "_updatedAt": "2026-08-22T10:18:46Z",
+    "slug": "prodvizhenie-na-shveytsarskiy-rynok",
+    "pageType": "service",
+    "title": "SEO-продвижение сайта на швейцарский рынок",
+    "excerpt": "Поисковая работа на покупателей в Швейцарии, для компаний, продающих туда откуда угодно. Это рынок, где обычная арифметика переворачивается: объёмы поиска малы, ценность сделки велика, и десять нужных посетителей в месяц могут оказаться лучшим результатом, чем тысяча ненужных где-то ещё.",
+    "seo": {
+      "metaDescription": "Поисковая работа на покупателей в Швейцарии — рынке, где малые объёмы и высокая ценность сделки переворачивают обычную арифметику продвижения.",
+      "metaTitle": "SEO-продвижение сайта на швейцарский рынок | Bandziuk"
+    },
+    "parentPage": "singlepage-locations.ru",
+    "blocks": [
+      {
+        "_type": "benefitsBlock",
+        "_key": "58e41a5a6919"
+      },
+      {
+        "_type": "gridBlock",
+        "_key": "44fab1d2d3cf"
+      },
+      {
+        "_type": "textContent",
+        "_key": "7c14dac0cd3d"
+      },
+      {
+        "_type": "stepsBlock",
+        "_key": "3431f77fdfa7"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "33a3dca5869c"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"7c14dac0cd3d\"].content[_key==\"b0715df14eca\"]",
+        "style": "h2",
+        "blockKey": "b0715df14eca",
+        "spanKeys": [
+          "85548c2c5103"
+        ],
+        "spanCount": 1,
+        "text": "Почему малый объём поиска не повод пропустить швейцарский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"7c14dac0cd3d\"].content[_key==\"3e57833c2950\"]",
+        "style": "h3",
+        "blockKey": "3e57833c2950",
+        "spanKeys": [
+          "9b9c4178664d"
+        ],
+        "spanCount": 1,
+        "text": "Три языковых региона, ведущих себя как три рынка"
+      },
+      {
+        "path": "contentBlocks[_key==\"7c14dac0cd3d\"].content[_key==\"fd18745ab040\"]",
+        "style": "h3",
+        "blockKey": "fd18745ab040",
+        "spanKeys": [
+          "e53df5ff310a"
+        ],
+        "spanCount": 1,
+        "text": "Что швейцарские покупатели проверяют до обращения"
+      },
+      {
+        "path": "contentBlocks[_key==\"7c14dac0cd3d\"].content[_key==\"9105f281ebea\"]",
+        "style": "h3",
+        "blockKey": "9105f281ebea",
+        "spanKeys": [
+          "3d27707dd666"
+        ],
+        "spanCount": 1,
+        "text": "Слой ИИ-ответов здесь необычно достижим"
+      },
+      {
+        "path": "contentBlocks[_key==\"7c14dac0cd3d\"].content[_key==\"179c0d1956e7\"]",
+        "style": "h3",
+        "blockKey": "179c0d1956e7",
+        "spanKeys": [
+          "76fcaf41340e"
+        ],
+        "spanCount": 1,
+        "text": "Что проверяется до того, как что-то сдаётся"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"58e41a5a6919\"].benefits[_key==\"d785a1d53810\"].title",
+        "key": "title",
+        "value": "Сбор запросов не показал объёмов, и рынок списали"
+      },
+      {
+        "path": "contentBlocks[_key==\"58e41a5a6919\"].benefits[_key==\"adcdce455864\"].title",
+        "key": "title",
+        "value": "Страну приняли за один рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"58e41a5a6919\"].benefits[_key==\"092ff6e6cf48\"].title",
+        "key": "title",
+        "value": "Сайт читается как чужой, и покупатель это замечает"
+      },
+      {
+        "path": "contentBlocks[_key==\"58e41a5a6919\"].benefits[_key==\"a4bcf600bd39\"].title",
+        "key": "title",
+        "value": "Успех измеряли трафиком"
+      },
+      {
+        "path": "contentBlocks[_key==\"58e41a5a6919\"].title",
+        "key": "title",
+        "value": "Почему обычный подход к продвижению не работает в Швейцарии"
+      },
+      {
+        "path": "contentBlocks[_key==\"44fab1d2d3cf\"].items[_key==\"860322cc8a2a\"].title",
+        "key": "title",
+        "value": "Выбор языкового региона, в который вы заходите"
+      },
+      {
+        "path": "contentBlocks[_key==\"44fab1d2d3cf\"].items[_key==\"d7d2f42a560c\"].title",
+        "key": "title",
+        "value": "Сбор запросов, где низкий объём — ожидаемый результат"
+      },
+      {
+        "path": "contentBlocks[_key==\"44fab1d2d3cf\"].items[_key==\"d6b47d0ecb06\"].title",
+        "key": "title",
+        "value": "Сигналы, которые проверяет покупатель"
+      },
+      {
+        "path": "contentBlocks[_key==\"44fab1d2d3cf\"].items[_key==\"e01dabc2f644\"].title",
+        "key": "title",
+        "value": "Видимость в ИИ там, где источников мало"
+      },
+      {
+        "path": "contentBlocks[_key==\"44fab1d2d3cf\"].items[_key==\"ebb8f1ba2278\"].title",
+        "key": "title",
+        "value": "Отчётность, построенная под малые числа"
+      },
+      {
+        "path": "contentBlocks[_key==\"44fab1d2d3cf\"].items[_key==\"f7cabbf8dfc8\"].title",
+        "key": "title",
+        "value": "Работа, переносимая на Германию и Австрию"
+      },
+      {
+        "path": "contentBlocks[_key==\"44fab1d2d3cf\"].title",
+        "key": "title",
+        "value": "Что входит в SEO-продвижение сайта на швейцарский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"3431f77fdfa7\"].steps[_key==\"644e1258d637\"].title",
+        "key": "title",
+        "value": "Арифметика прежде запросов"
+      },
+      {
+        "path": "contentBlocks[_key==\"3431f77fdfa7\"].steps[_key==\"ed55477a5514\"].title",
+        "key": "title",
+        "value": "Выбор языкового региона"
+      },
+      {
+        "path": "contentBlocks[_key==\"3431f77fdfa7\"].steps[_key==\"7eb4cdef5fb8\"].title",
+        "key": "title",
+        "value": "Сбор запросов при швейцарских объёмах"
+      },
+      {
+        "path": "contentBlocks[_key==\"3431f77fdfa7\"].steps[_key==\"b8a712568da2\"].title",
+        "key": "title",
+        "value": "Структура, сигналы, измерение"
+      },
+      {
+        "path": "contentBlocks[_key==\"3431f77fdfa7\"].title",
+        "key": "title",
+        "value": "Как начинается раскрутка сайта под швейцарский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"33a3dca5869c\"].faq.items[_key==\"0decae53a6db\"].question",
+        "key": "question",
+        "value": "Сколько стоит продвижение сайта на швейцарский рынок?"
+      },
+      {
+        "path": "contentBlocks[_key==\"33a3dca5869c\"].faq.items[_key==\"a29342251240\"].question",
+        "key": "question",
+        "value": "Инструмент показывает почти нулевой объём. Стоит ли оно того вообще?"
+      },
+      {
+        "path": "contentBlocks[_key==\"33a3dca5869c\"].faq.items[_key==\"6d15530498d2\"].question",
+        "key": "question",
+        "value": "С какого языкового региона начинать?"
+      },
+      {
+        "path": "contentBlocks[_key==\"33a3dca5869c\"].faq.items[_key==\"b295327103cb\"].question",
+        "key": "question",
+        "value": "Нужна ли швейцарская компания или домен .ch?"
+      },
+      {
+        "path": "contentBlocks[_key==\"33a3dca5869c\"].faq.items[_key==\"052ea1ddd1ff\"].question",
+        "key": "question",
+        "value": "Выставляете ли вы счета во франках?"
+      },
+      {
+        "path": "contentBlocks[_key==\"33a3dca5869c\"].faq.items[_key==\"e763a90b2c8c\"].question",
+        "key": "question",
+        "value": "Через сколько что-то будет видно?"
+      },
+      {
+        "path": "contentBlocks[_key==\"33a3dca5869c\"].faq.title",
+        "key": "title",
+        "value": "Частые вопросы о SEO-продвижении сайта на швейцарский рынок"
+      }
+    ]
+  },
+  {
+    "_id": "singlepage-seo-usa.ru",
+    "isDraft": false,
+    "_publishedAt": null,
+    "_updatedAt": "2026-08-13T16:25:36Z",
+    "slug": "prodvizhenie-na-amerikanskiy-rynok",
+    "pageType": "service",
+    "title": "SEO-продвижение сайта на американский рынок",
+    "excerpt": "Поисковая работа на покупателей в США, для компаний, продающих туда откуда угодно. Эта страна не является одним рынком, и относиться к ней как к одному — самая дорогая из доступных здесь ошибок. Работает выбор достаточно узкого куска, который реально выиграть, и понимание, какого именно, до того как бюджет куда-то уйдёт.",
+    "seo": {
+      "metaDescription": "Поисковая работа на покупателей в США — где целиться в страну целиком ошибка, а стратегия состоит в сужении.",
+      "metaTitle": "SEO-продвижение сайта на американский рынок | Bandziuk"
+    },
+    "parentPage": "singlepage-locations.ru",
+    "blocks": [
+      {
+        "_type": "benefitsBlock",
+        "_key": "40dc9f48d059"
+      },
+      {
+        "_type": "gridBlock",
+        "_key": "052c8b70e806"
+      },
+      {
+        "_type": "textContent",
+        "_key": "b5bb1aaa3bbd"
+      },
+      {
+        "_type": "stepsBlock",
+        "_key": "ce1660c62f1b"
+      },
+      {
+        "_type": "faqBlock",
+        "_key": "847d31b0ad62"
+      }
+    ],
+    "headings": [
+      {
+        "path": "contentBlocks[_key==\"b5bb1aaa3bbd\"].content[_key==\"21aa2d966d1c\"]",
+        "style": "h2",
+        "blockKey": "21aa2d966d1c",
+        "spanKeys": [
+          "414e0ae41fa8"
+        ],
+        "spanCount": 1,
+        "text": "Почему целиться в «США» — это ошибка, а не цель"
+      },
+      {
+        "path": "contentBlocks[_key==\"b5bb1aaa3bbd\"].content[_key==\"039b591446d7\"]",
+        "style": "h3",
+        "blockKey": "039b591446d7",
+        "spanKeys": [
+          "ee1d4a77a308"
+        ],
+        "spanCount": 1,
+        "text": "Сужение — это стратегия, а не компромисс"
+      },
+      {
+        "path": "contentBlocks[_key==\"b5bb1aaa3bbd\"].content[_key==\"d39e4fcfdc28\"]",
+        "style": "h3",
+        "blockKey": "d39e4fcfdc28",
+        "spanKeys": [
+          "87f6197e92af"
+        ],
+        "spanCount": 1,
+        "text": "Что этот рынок проверяет прежде, чем проверить ваш сайт"
+      },
+      {
+        "path": "contentBlocks[_key==\"b5bb1aaa3bbd\"].content[_key==\"f71c4f6c74a7\"]",
+        "style": "h3",
+        "blockKey": "f71c4f6c74a7",
+        "spanKeys": [
+          "74f107bcdd63"
+        ],
+        "spanCount": 1,
+        "text": "Доступность и почему она всплывает именно на этом рынке"
+      },
+      {
+        "path": "contentBlocks[_key==\"b5bb1aaa3bbd\"].content[_key==\"bb87b704e9fe\"]",
+        "style": "h3",
+        "blockKey": "bb87b704e9fe",
+        "spanKeys": [
+          "4176e24489bd"
+        ],
+        "spanCount": 1,
+        "text": "Где у нового участника действительно есть преимущество"
+      },
+      {
+        "path": "contentBlocks[_key==\"b5bb1aaa3bbd\"].content[_key==\"9182fdebcb60\"]",
+        "style": "h3",
+        "blockKey": "9182fdebcb60",
+        "spanKeys": [
+          "cda95379506c"
+        ],
+        "spanCount": 1,
+        "text": "Что проверяется до того, как что-то сдаётся"
+      }
+    ],
+    "fields": [
+      {
+        "path": "contentBlocks[_key==\"40dc9f48d059\"].benefits[_key==\"053c432a1d23\"].title",
+        "key": "title",
+        "value": "Целью были «США»"
+      },
+      {
+        "path": "contentBlocks[_key==\"40dc9f48d059\"].benefits[_key==\"c3276f0d8f23\"].title",
+        "key": "title",
+        "value": "У сайта нет отзывов, а рынок работает на отзывах"
+      },
+      {
+        "path": "contentBlocks[_key==\"40dc9f48d059\"].benefits[_key==\"c2f2a409d3d6\"].title",
+        "key": "title",
+        "value": "Ничто не подтверждает, что компания настоящая"
+      },
+      {
+        "path": "contentBlocks[_key==\"40dc9f48d059\"].benefits[_key==\"285292530eb3\"].title",
+        "key": "title",
+        "value": "О доступности никто не думал"
+      },
+      {
+        "path": "contentBlocks[_key==\"40dc9f48d059\"].title",
+        "key": "title",
+        "value": "Почему компании сжигают бюджет, заходя на американский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"052c8b70e806\"].items[_key==\"dfdb9bf432b6\"].title",
+        "key": "title",
+        "value": "Выбор куска до того, как что-то потрачено"
+      },
+      {
+        "path": "contentBlocks[_key==\"052c8b70e806\"].items[_key==\"b344a4d367b2\"].title",
+        "key": "title",
+        "value": "Сбор запросов на том уровне, где вы действительно конкурируете"
+      },
+      {
+        "path": "contentBlocks[_key==\"052c8b70e806\"].items[_key==\"23e98e9eed0f\"].title",
+        "key": "title",
+        "value": "Сигналы локации там, где география важна"
+      },
+      {
+        "path": "contentBlocks[_key==\"052c8b70e806\"].items[_key==\"6815c9f17157\"].title",
+        "key": "title",
+        "value": "Сигналы доверия, которые этот рынок действительно читает"
+      },
+      {
+        "path": "contentBlocks[_key==\"052c8b70e806\"].items[_key==\"f81c1567c0ef\"].title",
+        "key": "title",
+        "value": "Видимость в ИИ там, где использование самое плотное"
+      },
+      {
+        "path": "contentBlocks[_key==\"052c8b70e806\"].items[_key==\"18baa111666b\"].title",
+        "key": "title",
+        "value": "Отчётность, отделяющая американских покупателей от остальных"
+      },
+      {
+        "path": "contentBlocks[_key==\"052c8b70e806\"].title",
+        "key": "title",
+        "value": "Что входит в SEO-продвижение сайта на американский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"ce1660c62f1b\"].steps[_key==\"39943a8472fa\"].title",
+        "key": "title",
+        "value": "Выбор цели"
+      },
+      {
+        "path": "contentBlocks[_key==\"ce1660c62f1b\"].steps[_key==\"5281754a06a9\"].title",
+        "key": "title",
+        "value": "Сбор запросов на этом уровне"
+      },
+      {
+        "path": "contentBlocks[_key==\"ce1660c62f1b\"].steps[_key==\"ff9229290ea6\"].title",
+        "key": "title",
+        "value": "Структура, сигналы и техническая работа"
+      },
+      {
+        "path": "contentBlocks[_key==\"ce1660c62f1b\"].steps[_key==\"272e7d147aef\"].title",
+        "key": "title",
+        "value": "Измерение с первого месяца"
+      },
+      {
+        "path": "contentBlocks[_key==\"ce1660c62f1b\"].title",
+        "key": "title",
+        "value": "Как начинается раскрутка сайта под американский рынок"
+      },
+      {
+        "path": "contentBlocks[_key==\"847d31b0ad62\"].faq.items[_key==\"7b37c0dd900c\"].question",
+        "key": "question",
+        "value": "Сколько стоит продвижение сайта на американский рынок?"
+      },
+      {
+        "path": "contentBlocks[_key==\"847d31b0ad62\"].faq.items[_key==\"8cf97911eca7\"].question",
+        "key": "question",
+        "value": "Нужна ли американская компания или адрес?"
+      },
+      {
+        "path": "contentBlocks[_key==\"847d31b0ad62\"].faq.items[_key==\"c5dd4af095f4\"].question",
+        "key": "question",
+        "value": "Мы хотим целиться в страну целиком. Почему это не сработает?"
+      },
+      {
+        "path": "contentBlocks[_key==\"847d31b0ad62\"].faq.items[_key==\"afd9571cca0f\"].question",
+        "key": "question",
+        "value": "У нас мало отзывов. Это перечёркивает всё?"
+      },
+      {
+        "path": "contentBlocks[_key==\"847d31b0ad62\"].faq.items[_key==\"b6f22bc38abf\"].question",
+        "key": "question",
+        "value": "Доступность — это правда юридический вопрос для нас?"
+      },
+      {
+        "path": "contentBlocks[_key==\"847d31b0ad62\"].faq.items[_key==\"38819705c530\"].question",
+        "key": "question",
+        "value": "Через сколько что-то будет видно?"
+      },
+      {
+        "path": "contentBlocks[_key==\"847d31b0ad62\"].faq.title",
+        "key": "title",
+        "value": "Частые вопросы о SEO-продвижении сайта на американский рынок"
+      }
+    ]
+  }
+]

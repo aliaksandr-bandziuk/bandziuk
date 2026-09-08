@@ -1,0 +1,67 @@
+
+======================================================================
+[en] website-performance-and-code-audit
+  причина: описание про ИИ-поиск вместо аудита скорости; заголовок 68 симв.
+  title (H1, не меняю): Website Performance & Code Audit
+  metaTitle
+     было:  Website Performance & Code Audit — Improve Speed, Stability, and SEO   [68 ⚠]
+     будет: Website Performance & Code Audit — Speed and Stability   [54]
+  metaDescription
+     было:  I optimize websites for the AI-powered future of search. GEO (Generative Engine Optimization), structured data, and AI-ready SEO to help Google SGE and AI systems understand your content.   [187 ⚠]
+     будет: A performance and code audit for sites that are slow or unstable: Core Web Vitals measured on real-user data, causes ranked by impact, fixes implemented.   [153]
+
+======================================================================
+[ru] uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti
+  причина: заголовок 65 симв. — обрезается; описание оставляем как есть
+  title (H1, не меняю): Ускорение сайта и улучшение поисковой видимости
+  metaTitle
+     было:  Аудит производительности и кода — ускорение сайта и улучшение SEO   [65 ⚠]
+     будет: Аудит производительности и кода — ускорение сайта   [49]
+  · metaDescription: не трогаю   [170 ⚠]
+
+======================================================================
+[pl] audyt-wydajnosci-i-kodu
+  причина: заголовок 73 симв. — обрезается; описание оставляем как есть
+  title (H1, не меняю): Audyt wydajności i kodu
+  metaTitle
+     было:  Audyt wydajności i kodu — popraw szybkość, stabilność i SEO swojej strony   [73 ⚠]
+     будет: Audyt wydajności i kodu — szybkość i stabilność strony   [54]
+  · metaDescription: не трогаю   [158]
+
+======================================================================
+[en] services
+  причина: описание 214 симв., обрезается на середине мысли
+  title (H1, не меняю): Services
+  · metaTitle: не трогаю   [48]
+  metaDescription
+     было:  High-performance website development, SEO optimisation and conversion-focused landing pages. Work directly with a full-stack developer & SEO specialist to build a site that loads fast, ranks high, and drives leads.   [214 ⚠]
+     будет: Website development, SEO and conversion-focused landing pages — working directly with the developer who also does the SEO, with no agency layer in between.   [155]
+
+======================================================================
+[pl] oferty
+  причина: заголовок 81 симв., вторая половина — англоязычный довесок; описание 168
+  title (H1, не меняю): Oferty
+  metaTitle
+     было:  Tworzenie stron internetowych i SEO | Web Development, Optymalizacja i Integracje   [81 ⚠]
+     будет: Usługi: tworzenie stron, SEO i integracje | Bandziuk   [52]
+  metaDescription
+     было:  Profesjonalne tworzenie stron internetowych, SEO, landing page i audyty techniczne. Full-stack developer – od projektu po optymalizację wydajności i integracje CMS/API.   [168 ⚠]
+     будет: Tworzenie stron internetowych, SEO, landing page i audyty techniczne. Full-stack developer: od projektu po wydajność i integracje CMS/API.   [138]
+
+======================================================================
+[ru] uslugi
+  причина: в заголовке вертикальная черта посреди фразы и двойной пробел
+  title (H1, не меняю): Услуги
+  metaTitle
+     было:  Разработка сайтов и SEO |  для бизнеса в Европе, США и СНГ   [58]
+     будет: Разработка сайтов и SEO для бизнеса в Европе, США и СНГ   [55]
+  · metaDescription: не трогаю   [155]
+
+======================================================================
+→ en/website-performance-and-code-audit: seo.metaTitle, seo.metaDescription
+→ ru/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti: seo.metaTitle
+→ pl/audyt-wydajnosci-i-kodu: seo.metaTitle
+→ en/services: seo.metaDescription
+→ pl/oferty: seo.metaTitle, seo.metaDescription
+→ ru/uslugi: seo.metaTitle
+Применено полей: 8 на 6 страницах.

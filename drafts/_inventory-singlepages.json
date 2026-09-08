@@ -2090,6 +2090,40 @@
               }
             ],
             "style": "normal"
+          },
+          {
+            "_key": "6107f40aacb8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6ec1f9668320",
+                "_type": "span",
+                "marks": [],
+                "text": "A worked example from this niche: "
+              },
+              {
+                "_key": "05c1f47ee494",
+                "_type": "span",
+                "marks": [
+                  "b9a234703881"
+                ],
+                "text": "Architecture Website Rebuild and SEO"
+              },
+              {
+                "_key": "9748e6bb85ef",
+                "_type": "span",
+                "marks": [],
+                "text": " — the same trade-off between image quality and speed, solved on a live site."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "b9a234703881",
+                "_type": "link",
+                "href": "/portfolio/architecture-website-rebuild-and-seo-scan"
+              }
+            ],
+            "style": "normal"
           }
         ],
         "textAlign": "left"
@@ -6740,6 +6774,40 @@
             ],
             "markDefs": [],
             "style": "h2"
+          },
+          {
+            "_key": "a0c9e9a4c649",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "df92f1920cde",
+                "_type": "span",
+                "marks": [],
+                "text": "A worked example from this niche: "
+              },
+              {
+                "_key": "c89a07ee2eb4",
+                "_type": "span",
+                "marks": [
+                  "98d237467e94"
+                ],
+                "text": "Auto Repair SEO & UX Boost"
+              },
+              {
+                "_key": "c71800b71540",
+                "_type": "span",
+                "marks": [],
+                "text": " — what was changed on the site and why."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "98d237467e94",
+                "_type": "link",
+                "href": "/portfolio/auto-repair-seo-and-ux-boost"
+              }
+            ],
+            "style": "normal"
           }
         ],
         "textAlign": "left"
@@ -10882,6 +10950,152 @@
         "title": "What your developer website gets"
       },
       {
+        "_key": "9d18f02d3d4c",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "a12d703dfcfd",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "013f3e032d11",
+                "_type": "span",
+                "marks": [],
+                "text": "Why a property developer website has to sell something the buyer cannot see yet"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "b48799f9e0ed",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "049dad96a9ab",
+                "_type": "span",
+                "marks": [],
+                "text": "A developer sells a building that does not exist. There is nothing to walk through, nothing to touch, and often nothing on site but a fence and a board. Everything the buyer uses to decide has to be carried by the website, which makes it a different instrument from an agency site: not a catalogue of what is available, but the substitute for a physical object."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "44f8bc3c545b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9cf31ab680ea",
+                "_type": "span",
+                "marks": [],
+                "text": "That changes what belongs on it. Floor plans and renders are the easy part. What decides the inquiry is the material that makes an unbuilt property feel real and safe — construction progress with dates, the permits and the legal structure of the purchase, the payment schedule, and who exactly is behind the company."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "71f9a35c4835",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "869ff9b370ee",
+                "_type": "span",
+                "marks": [],
+                "text": "What a buyer of an off-plan unit checks on a developer website"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "89b6f29e7306",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cbc4c75c785d",
+                "_type": "span",
+                "marks": [],
+                "text": "Someone buying before completion is managing risk, not choosing a kitchen layout. They look for what has already been delivered, whether the previous projects were finished on time, whether progress is documented rather than promised, and whether the terms of the deal are written down before a call."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3cb87bda598b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6ffdf6a34c54",
+                "_type": "span",
+                "marks": [],
+                "text": "A site that answers those questions loses fewer buyers at the point where they hesitate. A site that shows only renders leaves the question open, and an open question at that price point usually ends the visit."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e0305dbcfeb9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "caa5ec978b47",
+                "_type": "span",
+                "marks": [],
+                "text": "Why a developer website needs traffic before the launch, not after"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "18de2935d88e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "073480a2143e",
+                "_type": "span",
+                "marks": [],
+                "text": "Search visibility takes months to build. A developer's selling window is fixed by the construction schedule, so a site that starts earning organic traffic at launch has already missed the part of the cycle where inquiries matter most. The work has to begin while the project is still in permits — the pages, the structure and the search visibility built ahead of the sales phase, not alongside it."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e62190c12c77",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "29f28e5b09c3",
+                "_type": "span",
+                "marks": [
+                  "afdd5dc27313"
+                ],
+                "text": "Renovation and investment website with a premium feel and 96/98/100/100 performance"
+              },
+              {
+                "_key": "dacc154003de",
+                "_type": "span",
+                "marks": [],
+                "text": " is a case study from the same market, where speed and trust signals were treated as part of the sales instrument rather than as a finishing touch."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "afdd5dc27313",
+                "_type": "link",
+                "href": "/portfolio/renovation-and-investment-website-with-premium-design"
+              }
+            ],
+            "style": "normal"
+          }
+        ]
+      },
+      {
         "_key": "6babeb6230e9",
         "_type": "formFullBlock",
         "buttonText": "Send Message",
@@ -11152,6 +11366,158 @@
           }
         ],
         "title": "What your agency gets"
+      },
+      {
+        "_key": "6925f8a58d53",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "f26e78d335fe",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "859090f35c1b",
+                "_type": "span",
+                "marks": [],
+                "text": "Why a real estate agency website loses to the property portals it competes with"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "507f5ebc9ac1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b7bb37ce968b",
+                "_type": "span",
+                "marks": [],
+                "text": "An agency website almost always starts as a catalogue. Listings go up, filters get added, and the site is considered done. The problem is that a catalogue is the one thing an agency will never win on. Portals hold more inventory, more traffic and larger search budgets, and a buyer looking only for listings goes there first. A site that competes on inventory competes on the single axis where it is guaranteed to lose."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0b5afea729bf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f938b1a3011d",
+                "_type": "span",
+                "marks": [],
+                "text": "What the agency does own is everything a portal cannot show: which districts you actually work in, which segment you know, which language your buyers speak, and what happens after the first inquiry. That is the material the site should be built from."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "540333054c5d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "539267b7759a",
+                "_type": "span",
+                "marks": [],
+                "text": "What a buyer checks on a real estate agency website before making contact"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "c9bc111ba564",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1f0849557e24",
+                "_type": "span",
+                "marks": [],
+                "text": "By the time someone reaches your site they have usually seen the property somewhere else. The visit is not a search — it is a check. They are deciding whether to send the inquiry to you or to the agency open in the next tab. They look for how long you have worked this market, whether the listings are current, whether a named person answers, and whether terms are stated or withheld until a call."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "639078905f3d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0ab830b6c3fd",
+                "_type": "span",
+                "marks": [],
+                "text": "None of that is decoration. It is the content that decides between an inquiry and a closed tab, and it is exactly what a catalogue with a contact form at the bottom leaves out."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "99d936fd065e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cadc94b98d14",
+                "_type": "span",
+                "marks": [],
+                "text": "Why multilingual work matters more for a real estate agency than for most businesses"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "de817b9824b7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "291f935f5a07",
+                "_type": "span",
+                "marks": [],
+                "text": "Property is one of the few categories where the buyer routinely sits in a different country from the asset. A single-language site quietly filters out everyone searching in another language, and the agency never finds out — those buyers simply never appear in the statistics."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d879d443aeef",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ee985c505671",
+                "_type": "span",
+                "marks": [],
+                "text": "Building the second and third language properly is not translation. It means separate keyword research per language, content adapted to how that market reads, and a URL structure search engines can tell apart. "
+              },
+              {
+                "_key": "0ef4659c0f02",
+                "_type": "span",
+                "marks": [
+                  "a60011dfaafe"
+                ],
+                "text": "Build and optimize a multilingual real estate platform"
+              },
+              {
+                "_key": "af0a976728aa",
+                "_type": "span",
+                "marks": [],
+                "text": " is the case study for exactly that work."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "a60011dfaafe",
+                "_type": "link",
+                "href": "/portfolio/build-and-optimize-a-multilingual-real-estate-platform"
+              }
+            ],
+            "style": "normal"
+          }
+        ]
       },
       {
         "_key": "546ad102bd88",
@@ -15491,6 +15857,40 @@
             ],
             "markDefs": [],
             "style": "h2"
+          },
+          {
+            "_key": "19fb45189277",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "48034c5fe485",
+                "_type": "span",
+                "marks": [],
+                "text": "A worked example from this niche: "
+              },
+              {
+                "_key": "54b8b4dbd7b5",
+                "_type": "span",
+                "marks": [
+                  "2fe762033064"
+                ],
+                "text": "Auto Repair SEO & UX Boost"
+              },
+              {
+                "_key": "a77430881598",
+                "_type": "span",
+                "marks": [],
+                "text": " — what was changed on the site and why."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "2fe762033064",
+                "_type": "link",
+                "href": "/portfolio/auto-repair-seo-and-ux-boost"
+              }
+            ],
+            "style": "normal"
           }
         ],
         "textAlign": "left"
@@ -47367,7 +47767,7 @@
                 "_key": "e586a44a5c0f",
                 "_type": "span",
                 "marks": [],
-                "text": "What You Get After SEO Audig"
+                "text": "What You Get After SEO Audit"
               }
             ],
             "markDefs": [],
@@ -47513,6 +47913,124 @@
         ],
         "marginBottom": "medium",
         "textAlign": "left"
+      },
+      {
+        "_key": "a065ca2c29b0",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "cef57b1a7175",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "962762d131cc",
+                "_type": "span",
+                "marks": [],
+                "text": "What an SEO audit can tell you — and what it cannot"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "fd1dd1ea4a84",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4e2491a555e7",
+                "_type": "span",
+                "marks": [],
+                "text": "An audit answers a narrow set of questions precisely: why the pages you already have are not ranking, which of them have potential and which are dead weight, what is technically blocking indexation, and what a realistic order of work looks like. Those answers are worth having before money goes into content or links, because most wasted SEO budget is spent doing correct work on the wrong pages."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b50148f7b65c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8d1c6e09bbdc",
+                "_type": "span",
+                "marks": [],
+                "text": "What an audit cannot do is predict positions. Anyone who attaches a ranking forecast to a diagnostic is selling certainty that does not exist — search results depend on what competitors do next, and that is not knowable in advance. An audit also cannot substitute for the work itself: it produces a prioritised list, not a finished site."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "53a7c0872463",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9c3caa81ef84",
+                "_type": "span",
+                "marks": [],
+                "text": "The honest framing is that an audit buys you a decision, not a result. If the conclusion is that search is the wrong channel for your business, that is a useful outcome — it saves the months and the budget that would have gone into finding out slowly."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f622fa7d3b3c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "e3e3040a9055",
+                "_type": "span",
+                "marks": [],
+                "text": "How to tell a real SEO audit from an automated tool report"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "20c276894da7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b98add560b70",
+                "_type": "span",
+                "marks": [],
+                "text": "A tool report is generated in seconds and lists every deviation from a generic checklist, sorted by the tool's own severity scale. It will tell you that eighty images lack alt text and that a heading is out of order. Neither fact explains why the site does not bring enquiries."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d9f8091da9d2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "93fc85a41855",
+                "_type": "span",
+                "marks": [],
+                "text": "A real audit starts from the business question and works backwards. It looks at which queries your buyers actually use, which of your pages compete with each other for the same query, what competitors rank for and why, and which two or three changes would move the most. The output is ordered by impact on your situation, not by a scanner's severity colour."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3ddfebb6978c",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3e07cc0e8aa7",
+                "_type": "span",
+                "marks": [],
+                "text": "The practical test: if the document could have been produced without knowing what you sell and to whom, it is a tool report with a cover page."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
       },
       {
         "_key": "d313a486089d",
@@ -72191,6 +72709,40 @@
             ],
             "markDefs": [],
             "style": "h2"
+          },
+          {
+            "_key": "4d2bd5b7b054",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a91c46615e21",
+                "_type": "span",
+                "marks": [],
+                "text": "Jak to wygląda na realnym projekcie: "
+              },
+              {
+                "_key": "a4c7dce5173c",
+                "_type": "span",
+                "marks": [
+                  "51988d73861b"
+                ],
+                "text": "SEO warsztatu i wzrost konwersji"
+              },
+              {
+                "_key": "933f551e0a0f",
+                "_type": "span",
+                "marks": [],
+                "text": " — co dokładnie zmieniłem na stronie i dlaczego."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "51988d73861b",
+                "_type": "link",
+                "href": "/pl/portfolio/seo-warsztatu-i-wzrost-konwersji"
+              }
+            ],
+            "style": "normal"
           }
         ],
         "textAlign": "left"
@@ -77044,6 +77596,40 @@
             ],
             "markDefs": [],
             "style": "h2"
+          },
+          {
+            "_key": "591e777fb55e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5e6cd087a65f",
+                "_type": "span",
+                "marks": [],
+                "text": "Jak to wygląda na realnym projekcie: "
+              },
+              {
+                "_key": "61c3a28fe592",
+                "_type": "span",
+                "marks": [
+                  "ffd94d37af4f"
+                ],
+                "text": "SEO warsztatu i wzrost konwersji"
+              },
+              {
+                "_key": "46b355b8a5b3",
+                "_type": "span",
+                "marks": [],
+                "text": " — co dokładnie zmieniłem na stronie i dlaczego."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "ffd94d37af4f",
+                "_type": "link",
+                "href": "/pl/portfolio/seo-warsztatu-i-wzrost-konwersji"
+              }
+            ],
+            "style": "normal"
           }
         ],
         "textAlign": "left"
@@ -77501,6 +78087,158 @@
           }
         ],
         "title": "Co otrzymuje Twoja agencja"
+      },
+      {
+        "_key": "3fe8228612f1",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "e71ea2e4eea9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1970667c1f22",
+                "_type": "span",
+                "marks": [],
+                "text": "Dlaczego strona agencji nieruchomości przegrywa z portalami, z którymi konkuruje"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "9bb47be9081a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6286877e13f1",
+                "_type": "span",
+                "marks": [],
+                "text": "Strona agencji prawie zawsze zaczyna się jako katalog. Oferty wgrane, filtry dodane, strona uznana za gotową. Kłopot w tym, że katalog to jedyne, w czym agencja nigdy nie wygra. Portale mają więcej ofert, więcej ruchu i większe budżety na wyszukiwarki, a kupujący, któremu potrzebne są tylko ogłoszenia, idzie tam najpierw. Strona konkurująca wielkością bazy konkuruje dokładnie na tej osi, na której przegrana jest pewna."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "4e7a57c0e0bf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7ec5061fe878",
+                "_type": "span",
+                "marks": [],
+                "text": "Agencja ma za to wszystko, czego portal pokazać nie może: w jakich dzielnicach naprawdę pracujecie, jaki segment znacie, w jakim języku mówią wasi kupujący i co dzieje się po pierwszym zapytaniu. Z tego warto budować stronę."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "6b15d4f02c1f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "47c54c6ce0c4",
+                "_type": "span",
+                "marks": [],
+                "text": "Co kupujący sprawdza na stronie agencji nieruchomości przed kontaktem"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "e9ff49dca9f0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b5c4e3cf66fd",
+                "_type": "span",
+                "marks": [],
+                "text": "Zanim ktoś trafi na waszą stronę, nieruchomość zwykle widział już gdzie indziej. Ta wizyta to nie wyszukiwanie, tylko sprawdzenie. Rozstrzyga się, czy zapytanie pójdzie do was, czy do agencji otwartej w sąsiedniej karcie. Patrzą, od ilu lat działacie na tym rynku, czy oferty są aktualne, czy odpowiada konkretna osoba i czy warunki są podane, czy ukryte do rozmowy."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e3a750fccf02",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "2cad359175de",
+                "_type": "span",
+                "marks": [],
+                "text": "To nie ozdobnik. To treść, która decyduje między zapytaniem a zamkniętą kartą, i właśnie jej nie ma w katalogu z formularzem na dole."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "6116c066d772",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "261b623af03e",
+                "_type": "span",
+                "marks": [],
+                "text": "Dlaczego wielojęzyczność ma dla agencji nieruchomości większe znaczenie niż dla innych firm"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "b9bbca605df8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f4ae0b0e4989",
+                "_type": "span",
+                "marks": [],
+                "text": "Nieruchomości to jedna z niewielu kategorii, w których kupujący regularnie znajduje się w innym kraju niż sam obiekt. Strona w jednym języku po cichu odsiewa wszystkich szukających w innym, a agencja się o tym nie dowiaduje: ci kupujący po prostu nie pojawiają się w statystykach."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "58537c201083",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "83ef2200eaa9",
+                "_type": "span",
+                "marks": [],
+                "text": "Zrobienie drugiej i trzeciej wersji językowej porządnie to nie tłumaczenie. To osobne badanie zapytań w każdym języku, treść dopasowana do tego, jak czyta dany rynek, i struktura adresów, którą wyszukiwarka rozróżnia. "
+              },
+              {
+                "_key": "fd7a24fac796",
+                "_type": "span",
+                "marks": [
+                  "5799ad43dff1"
+                ],
+                "text": "Rozwój wielojęzycznej platformy nieruchomości premium"
+              },
+              {
+                "_key": "3e654b3886e8",
+                "_type": "span",
+                "marks": [],
+                "text": " to case study dokładnie o tej pracy."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "5799ad43dff1",
+                "_type": "link",
+                "href": "/pl/portfolio/rozwoj-wielojezycznej-platformy-nieruchomosci-premium"
+              }
+            ],
+            "style": "normal"
+          }
+        ]
       },
       {
         "_key": "79c458514c0f",
@@ -79254,6 +79992,152 @@
         "title": "Co otrzymuje strona Twojej firmy deweloperskiej"
       },
       {
+        "_key": "61cdec37a8f9",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "e62e80220be7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4a893ce29746",
+                "_type": "span",
+                "marks": [],
+                "text": "Dlaczego strona dewelopera sprzedaje to, czego kupujący jeszcze nie może zobaczyć"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "a9932f2cbeac",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "633248f94427",
+                "_type": "span",
+                "marks": [],
+                "text": "Deweloper sprzedaje budynek, którego nie ma. Nie ma po czym przejść, nie ma czego dotknąć, a na działce często stoi tylko ogrodzenie i tablica. Wszystko, na czym kupujący opiera decyzję, musi unieść strona — i to czyni ją narzędziem innego rodzaju niż strona agencji: nie katalogiem dostępnych ofert, lecz zamiennikiem fizycznego obiektu."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "2f1f412ac1cb",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f826f05316bb",
+                "_type": "span",
+                "marks": [],
+                "text": "To zmienia zawartość. Rzuty i wizualizacje są łatwą częścią. O zapytaniu decyduje to, co sprawia, że niewybudowane mieszkanie staje się realne i bezpieczne: postęp budowy z datami, pozwolenia i prawna konstrukcja zakupu, harmonogram płatności oraz to, kto konkretnie stoi za spółką."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "cfc1ac58ff7d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "45bc37813853",
+                "_type": "span",
+                "marks": [],
+                "text": "Co kupujący mieszkania z rynku pierwotnego sprawdza na stronie dewelopera"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "a9988463ef85",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5d6259f3836a",
+                "_type": "span",
+                "marks": [],
+                "text": "Ktoś, kto kupuje przed odbiorem, zarządza ryzykiem, a nie wybiera układ kuchni. Patrzy, co zostało już oddane, czy poprzednie inwestycje kończyły się w terminie, czy postęp budowy jest dokumentowany, czy tylko obiecywany, i czy warunki transakcji są spisane przed rozmową."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "6a5d9a3a29e2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a1e1ad93479c",
+                "_type": "span",
+                "marks": [],
+                "text": "Strona, która na te pytania odpowiada, traci mniej kupujących dokładnie tam, gdzie się wahają. Strona pokazująca same wizualizacje zostawia pytanie otwarte, a otwarte pytanie przy takiej kwocie zwykle kończy wizytę."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "508379771ac9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "bc951c42d29d",
+                "_type": "span",
+                "marks": [],
+                "text": "Dlaczego strona dewelopera potrzebuje ruchu przed startem sprzedaży, a nie po nim"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "8404d585c782",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c8cc01fb6947",
+                "_type": "span",
+                "marks": [],
+                "text": "Widoczność w wyszukiwarce buduje się miesiącami. Okno sprzedaży dewelopera wyznacza harmonogram budowy, więc strona, która zaczyna przynosić ruch organiczny dopiero na starcie, przegapiła już tę część cyklu, w której zapytania znaczą najwięcej. Praca powinna zaczynać się, gdy inwestycja jest jeszcze na etapie pozwoleń: strony, struktura i widoczność przygotowane z wyprzedzeniem, a nie równolegle ze sprzedażą."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3ee67ead5aa2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "57a13243424a",
+                "_type": "span",
+                "marks": [
+                  "4d399da8fe5d"
+                ],
+                "text": "Strona dla firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100"
+              },
+              {
+                "_key": "3c11f058602d",
+                "_type": "span",
+                "marks": [],
+                "text": " to case study z tego samego rynku, gdzie szybkość i sygnały zaufania potraktowano jako część narzędzia sprzedaży, a nie jako wykończenie."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "4d399da8fe5d",
+                "_type": "link",
+                "href": "/pl/portfolio/strona-dla-firmy-remontowej-i-inwestycyjnej-warszawa"
+              }
+            ],
+            "style": "normal"
+          }
+        ]
+      },
+      {
         "_key": "ab74d0e34c68",
         "_type": "formFullBlock",
         "buttonText": "Wyślij",
@@ -80711,6 +81595,40 @@
                 "_key": "1049b4160bc3",
                 "_type": "link",
                 "href": "/pl/blog/dlaczego-strona-nie-generuje-zapytan"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "5f49327ba19b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "93a9ad1437a0",
+                "_type": "span",
+                "marks": [],
+                "text": "Jak to wygląda na realnym projekcie: "
+              },
+              {
+                "_key": "97430b711d4f",
+                "_type": "span",
+                "marks": [
+                  "c5de566a5552"
+                ],
+                "text": "Tworzenie i SEO strony architektonicznej"
+              },
+              {
+                "_key": "6c1549db7a6e",
+                "_type": "span",
+                "marks": [],
+                "text": " — ten sam kompromis między jakością zdjęć a szybkością, rozwiązany na żywej stronie."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "c5de566a5552",
+                "_type": "link",
+                "href": "/pl/portfolio/tworzenie-i-seo-strony-architektonicznej-scan"
               }
             ],
             "style": "normal"
@@ -90632,6 +91550,124 @@
         ],
         "marginBottom": "medium",
         "textAlign": "left"
+      },
+      {
+        "_key": "cb416f46de09",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "c035c803f796",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0f9b1b1202ca",
+                "_type": "span",
+                "marks": [],
+                "text": "Co audyt SEO strony może pokazać, a czego nie"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "2fa85937c475",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1abad813a537",
+                "_type": "span",
+                "marks": [],
+                "text": "Audyt precyzyjnie odpowiada na wąski zestaw pytań: dlaczego nie rankują strony, które już macie, które z nich mają potencjał, a które są martwym balastem, co technicznie blokuje indeksację i w jakiej kolejności rozsądnie prowadzić prace. Te odpowiedzi warto mieć, zanim pieniądze pójdą w treści albo linki: większość zmarnowanego budżetu SEO to poprawna praca wykonana na niewłaściwych stronach."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "94e222c6e8ac",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8f949e9c0e74",
+                "_type": "span",
+                "marks": [],
+                "text": "Czego audyt nie potrafi — przewidzieć pozycji. Kto dokłada do diagnostyki prognozę miejsc w wynikach, sprzedaje pewność, która nie istnieje: wynik zależy również od tego, co zrobią dalej konkurenci, a tego nie da się wiedzieć z góry. Audyt nie zastępuje też samej pracy: na wyjściu jest lista priorytetów, a nie gotowa strona."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "4bfa9e85eec3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cef319270332",
+                "_type": "span",
+                "marks": [],
+                "text": "Uczciwie rzecz ujmując, audyt kupuje wam decyzję, a nie wynik. Jeśli wniosek okaże się taki, że wyszukiwarka nie jest waszym kanałem, to również pożyteczny rezultat: oszczędza miesiące i budżet, które poszłyby na powolne dochodzenie do tego samego."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "e0ec55d10308",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4d7d5fd88ec3",
+                "_type": "span",
+                "marks": [],
+                "text": "Czym prawdziwy audyt SEO różni się od raportu z automatycznego narzędzia"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "34727edf19ad",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0f0f60e8aaa0",
+                "_type": "span",
+                "marks": [],
+                "text": "Raport narzędzia powstaje w kilka sekund i wylicza wszystkie odstępstwa od uniwersalnej listy kontrolnej, posortowane według własnej skali ważności narzędzia. Powie, że osiemdziesiąt obrazków nie ma atrybutu alt i że gdzieś zaburzona jest kolejność nagłówków. Żaden z tych faktów nie wyjaśnia, dlaczego strona nie przynosi zapytań."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c846cb9be291",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3cbdb6fe1545",
+                "_type": "span",
+                "marks": [],
+                "text": "Prawdziwy audyt idzie od pytania biznesowego wstecz. Sprawdza, jakich zapytań naprawdę używają wasi kupujący, które wasze strony konkurują ze sobą o to samo zapytanie, na czym rankują konkurenci i dlaczego oraz które dwie–trzy zmiany dadzą najwięcej. Wynik jest uporządkowany według wpływu na waszą sytuację, a nie według koloru ważności w skanerze."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "014708f15456",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "64b20612e151",
+                "_type": "span",
+                "marks": [],
+                "text": "Praktyczny test: jeśli dokument mógłby powstać bez wiedzy o tym, co i komu sprzedajecie, to raport narzędzia z okładką."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
       },
       {
         "_key": "d313a486089d",
@@ -119357,6 +120393,40 @@
             ],
             "markDefs": [],
             "style": "h2"
+          },
+          {
+            "_key": "6c7c1394f48a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c70a95156720",
+                "_type": "span",
+                "marks": [],
+                "text": "Как это выглядит на реальном проекте: "
+              },
+              {
+                "_key": "f324bda4e0bb",
+                "_type": "span",
+                "marks": [
+                  "263f0f80744e"
+                ],
+                "text": "Улучшение SEO и UX для авторемонтной компании"
+              },
+              {
+                "_key": "fe52fa5c1ba6",
+                "_type": "span",
+                "marks": [],
+                "text": " — что именно меняли на сайте и зачем."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "263f0f80744e",
+                "_type": "link",
+                "href": "/ru/portfolio/seo-i-ux-dlya-avtoremontnoi-kompanii"
+              }
+            ],
+            "style": "normal"
           }
         ],
         "textAlign": "left"
@@ -125936,6 +127006,40 @@
                 "_key": "c0442b540ab5",
                 "_type": "link",
                 "href": "/ru/blog/pochemu-sait-ne-prinosit-zayavok"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "88ab38555353",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "386cda1334f6",
+                "_type": "span",
+                "marks": [],
+                "text": "Как это выглядит на реальном проекте: "
+              },
+              {
+                "_key": "4e0501877356",
+                "_type": "span",
+                "marks": [
+                  "72286321203a"
+                ],
+                "text": "Создание и SEO-продвижение сайта архитектурной тематики"
+              },
+              {
+                "_key": "132bd5498708",
+                "_type": "span",
+                "marks": [],
+                "text": " — тот же компромисс между качеством изображений и скоростью, решённый на живом сайте."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "72286321203a",
+                "_type": "link",
+                "href": "/ru/portfolio/sozdanie-i-seo-prodvizhenie-saita-arkhitekturnoi-tematiki"
               }
             ],
             "style": "normal"
@@ -134397,6 +135501,158 @@
         "title": "Что получает агентство недвижимости"
       },
       {
+        "_key": "072d53edd037",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "e2655d4a070d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1a9265518194",
+                "_type": "span",
+                "marks": [],
+                "text": "Почему сайт агентства недвижимости проигрывает порталам, с которыми конкурирует"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "9c0da5be605b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b48b35df8c28",
+                "_type": "span",
+                "marks": [],
+                "text": "Сайт агентства почти всегда начинается как каталог. Объекты выгружены, фильтры добавлены, сайт считается готовым. Загвоздка в том, что каталог — единственное, в чём агентство никогда не выиграет. У порталов больше объектов, больше трафика и больше денег на поиск, и покупатель, которому нужны только объявления, идёт туда первым. Сайт, конкурирующий объёмом базы, конкурирует ровно по той оси, где проигрыш гарантирован."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "c628610fc7cd",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "758b1d3f269a",
+                "_type": "span",
+                "marks": [],
+                "text": "Зато у агентства есть то, чего портал показать не может: в каких районах вы действительно работаете, какой сегмент знаете, на каком языке говорят ваши покупатели и что происходит после первого обращения. Вот из этого и стоит строить сайт."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b081f7568946",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "87e1a1850255",
+                "_type": "span",
+                "marks": [],
+                "text": "Что покупатель проверяет на сайте агентства недвижимости перед обращением"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "110593908f0f",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "38fc7f286c7b",
+                "_type": "span",
+                "marks": [],
+                "text": "К моменту, когда человек попадает на ваш сайт, объект он обычно уже где-то увидел. Этот визит — не поиск, а проверка. Решается, отправить заявку вам или агентству в соседней вкладке. Смотрят, сколько лет вы работаете на этом рынке, актуальны ли объявления, отвечает ли конкретный человек и названы ли условия или их скрывают до звонка."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f599c9bc7bdc",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "118263820ee3",
+                "_type": "span",
+                "marks": [],
+                "text": "Это не украшение страницы. Это содержание, которое решает, будет заявка или закрытая вкладка, и именно его не содержит каталог с формой обратной связи внизу."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "dd5e1abd1129",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f0fee4f0ff3b",
+                "_type": "span",
+                "marks": [],
+                "text": "Почему мультиязычность для агентства недвижимости важнее, чем для большинства бизнесов"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "34fa740f300e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "27f6542aa0e9",
+                "_type": "span",
+                "marks": [],
+                "text": "Недвижимость — одна из немногих категорий, где покупатель регулярно находится в другой стране, чем сам объект. Одноязычный сайт молча отсекает всех, кто ищет на другом языке, и агентство об этом не узнаёт: такие покупатели просто не появляются в статистике."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "f7b0ebd4829b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "28c3465556d7",
+                "_type": "span",
+                "marks": [],
+                "text": "Сделать вторую и третью языковую версию как следует — это не перевод. Это отдельный сбор запросов на каждом языке, контент под то, как читает этот рынок, и структура адресов, которую поисковик различает. "
+              },
+              {
+                "_key": "0a07cf08dd0e",
+                "_type": "span",
+                "marks": [
+                  "391f2496db14"
+                ],
+                "text": "Разработка сайта для агентства элитной недвижимости на Кипре"
+              },
+              {
+                "_key": "92ec354bf661",
+                "_type": "span",
+                "marks": [],
+                "text": " — кейс ровно про эту работу."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "391f2496db14",
+                "_type": "link",
+                "href": "/ru/portfolio/razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre"
+              }
+            ],
+            "style": "normal"
+          }
+        ]
+      },
+      {
         "_key": "f82a985d2994",
         "_type": "formFullBlock",
         "buttonText": "Отправить",
@@ -134666,6 +135922,152 @@
           }
         ],
         "title": "Что получает сайт застройщика"
+      },
+      {
+        "_key": "dd35105cfa8e",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "17ef7a279697",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "13fe7166d573",
+                "_type": "span",
+                "marks": [],
+                "text": "Почему сайт застройщика продаёт то, чего покупатель ещё не может увидеть"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "5747d06606a9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a087d9f0d786",
+                "_type": "span",
+                "marks": [],
+                "text": "Застройщик продаёт дом, которого нет. Не по чему пройтись, нечего потрогать, а на площадке часто только забор и щит. Всё, на чём покупатель принимает решение, должен нести сайт — и это делает его инструментом другого рода, чем сайт агентства: не каталогом того, что есть в наличии, а заменой физического объекта."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1d9a92b947b6",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d465d2269047",
+                "_type": "span",
+                "marks": [],
+                "text": "От этого меняется и содержание. Планировки и рендеры — простая часть. Заявку решает то, что делает непостроенное жильё настоящим и безопасным: ход стройки с датами, разрешения и юридическая схема покупки, график платежей и то, кто конкретно стоит за компанией."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "01ee18ea174d",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "76a72657408b",
+                "_type": "span",
+                "marks": [],
+                "text": "Что покупатель проверяет на сайте застройщика перед сделкой на этапе стройки"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "ac1f553b1d55",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8e24074443c6",
+                "_type": "span",
+                "marks": [],
+                "text": "Человек, покупающий до сдачи, управляет риском, а не выбирает планировку кухни. Он смотрит, что уже сдано, укладывались ли прошлые проекты в срок, документируется ход стройки или обещается, и записаны ли условия сделки до звонка."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0cef5637a800",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "96b859dee81d",
+                "_type": "span",
+                "marks": [],
+                "text": "Сайт, отвечающий на эти вопросы, теряет меньше покупателей ровно в той точке, где они колеблются. Сайт, показывающий одни рендеры, оставляет вопрос открытым, а открытый вопрос при таком чеке обычно заканчивает визит."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5747a4eb17f7",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9d2adc1e343a",
+                "_type": "span",
+                "marks": [],
+                "text": "Почему сайту застройщика нужен трафик до старта продаж, а не после"
+              }
+            ],
+            "markDefs": [],
+            "style": "h3"
+          },
+          {
+            "_key": "b1caddd48fb9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "2571ff612594",
+                "_type": "span",
+                "marks": [],
+                "text": "Поисковая видимость набирается месяцами. Окно продаж у застройщика задано графиком стройки, поэтому сайт, начинающий приносить органику к моменту старта, уже пропустил ту часть цикла, где заявки нужнее всего. Работа должна начинаться, пока проект ещё на стадии разрешений: страницы, структура и видимость готовятся заранее, а не параллельно с продажами."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d1eae322f643",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "17fb82ff7df0",
+                "_type": "span",
+                "marks": [
+                  "d188ac5e25b3"
+                ],
+                "text": "Сайт для ремонтной и инвестиционной компании с результатом 96/98/100/100"
+              },
+              {
+                "_key": "e9198bd238a0",
+                "_type": "span",
+                "marks": [],
+                "text": " — кейс из того же рынка, где скорость и сигналы доверия рассматривались как часть инструмента продаж, а не как финальная отделка."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "d188ac5e25b3",
+                "_type": "link",
+                "href": "/ru/portfolio/sayt-dlya-remontnoy-i-investicionnoy-kompanii"
+              }
+            ],
+            "style": "normal"
+          }
+        ]
       },
       {
         "_key": "a34bbf5ab2fb",
@@ -135292,6 +136694,40 @@
             ],
             "markDefs": [],
             "style": "h2"
+          },
+          {
+            "_key": "089b50d2e4fc",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "edac72eccfd3",
+                "_type": "span",
+                "marks": [],
+                "text": "Как это выглядит на реальном проекте: "
+              },
+              {
+                "_key": "1f147df6250f",
+                "_type": "span",
+                "marks": [
+                  "087b8e4f7432"
+                ],
+                "text": "Улучшение SEO и UX для авторемонтной компании"
+              },
+              {
+                "_key": "893b83d69879",
+                "_type": "span",
+                "marks": [],
+                "text": " — что именно меняли на сайте и зачем."
+              }
+            ],
+            "markDefs": [
+              {
+                "_key": "087b8e4f7432",
+                "_type": "link",
+                "href": "/ru/portfolio/seo-i-ux-dlya-avtoremontnoi-kompanii"
+              }
+            ],
+            "style": "normal"
           }
         ],
         "textAlign": "left"
@@ -147700,6 +149136,124 @@
         ],
         "marginBottom": "medium",
         "textAlign": "left"
+      },
+      {
+        "_key": "d6d37a973b4b",
+        "_type": "textContent",
+        "content": [
+          {
+            "_key": "deeb3ad1ae52",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5f04fd9eb422",
+                "_type": "span",
+                "marks": [],
+                "text": "Что SEO-аудит сайта может показать, а что нет"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "1ecd30f87dba",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "79dbac811510",
+                "_type": "span",
+                "marks": [],
+                "text": "Аудит точно отвечает на узкий набор вопросов: почему не ранжируются страницы, которые уже есть, у каких из них есть потенциал, а какие — мёртвый груз, что технически мешает индексации и в каком порядке разумно делать работу. Эти ответы стоит иметь до того, как деньги уйдут в контент или ссылки: большая часть потраченного впустую SEO-бюджета — это правильная работа, сделанная не на тех страницах."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "0c93c74dc682",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "b537efb18258",
+                "_type": "span",
+                "marks": [],
+                "text": "Чего аудит не может — предсказать позиции. Тот, кто прикладывает к диагностике прогноз по местам в выдаче, продаёт определённость, которой не существует: результат зависит и от того, что сделают конкуренты дальше, а это заранее неизвестно. Аудит также не заменяет саму работу: на выходе приоритизированный список, а не готовый сайт."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "375f1b9cf7f2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a6951868856e",
+                "_type": "span",
+                "marks": [],
+                "text": "Честная формулировка такая: аудит покупает вам решение, а не результат. Если вывод окажется, что поиск — не ваш канал, это тоже полезный итог: он экономит месяцы и бюджет, которые ушли бы на то, чтобы выяснить это медленно."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "8212e19ef6bf",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6b62a771c549",
+                "_type": "span",
+                "marks": [],
+                "text": "Чем настоящий SEO-аудит отличается от отчёта автоматического сервиса"
+              }
+            ],
+            "markDefs": [],
+            "style": "h2"
+          },
+          {
+            "_key": "daed58639d40",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7fce6c029675",
+                "_type": "span",
+                "marks": [],
+                "text": "Отчёт сервиса генерируется за секунды и перечисляет все отклонения от универсального чек-листа, отсортированные по его собственной шкале важности. Он сообщит, что у восьмидесяти картинок нет alt и что где-то нарушен порядок заголовков. Ни один из этих фактов не объясняет, почему сайт не приносит заявок."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "9ef6b17d6625",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f41b12dc2da9",
+                "_type": "span",
+                "marks": [],
+                "text": "Настоящий аудит идёт от бизнес-вопроса назад. Он смотрит, какими запросами реально пользуются ваши покупатели, какие ваши страницы конкурируют между собой за один запрос, по чему ранжируются конкуренты и почему, и какие два-три изменения сдвинут больше всего. Результат отсортирован по влиянию на вашу ситуацию, а не по цвету важности в сканере."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "387338da9226",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "6106213b8e70",
+                "_type": "span",
+                "marks": [],
+                "text": "Практическая проверка: если документ мог быть составлен без знания того, что и кому вы продаёте, — это отчёт сервиса с титульным листом."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
       },
       {
         "_key": "d313a486089d",

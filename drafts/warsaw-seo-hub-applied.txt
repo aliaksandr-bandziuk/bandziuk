@@ -1,0 +1,31 @@
+Баннер переиспользован со страницы локального SEO: image-e51f69cf938eb17547bb5e0281a65681910cbbcf-2172x724-jpg / image-e51f69cf938eb17547bb5e0281a65681910cbbcf-2172x724-jpg
+Если нужна своя картинка — поменяйте previewImage в Студии после создания.
+
+======================================================================
+[pl] singlepage-pozycjonowanie-warszawa.pl
+  URL: /pl/oferty/pozycjonowanie-stron-warszawa
+  H1: Pozycjonowanie stron w Warszawie
+  metaTitle [43]: Pozycjonowanie stron w Warszawie | Bandziuk
+  metaDescription [156]
+  блоки: benefitsBlock > gridBlock > textContent > stepsBlock > faqBlock
+  H2 текста: Dlaczego „pierwsze miejsce w Warszawie" nic nie znaczy
+  слов в теле: 390, ссылок: 12 (ожидалось 12)
+  пункты: боли 4, возможности 4, шаги 4, FAQ 5
+
+======================================================================
+[ru] singlepage-pozycjonowanie-warszawa.ru
+  URL: /ru/uslugi/prodvizhenie-saitov-varshava
+  H1: Продвижение сайтов в Варшаве
+  metaTitle [39]: Продвижение сайтов в Варшаве | Bandziuk
+  metaDescription [146]
+  блоки: benefitsBlock > gridBlock > textContent > stepsBlock > faqBlock
+  H2 текста: Почему «первое место в Варшаве» ничего не значит
+  слов в теле: 369, ссылок: 12 (ожидалось 12)
+  пункты: боли 4, возможности 4, шаги 4, FAQ 5
+
+======================================================================
+Головная страница /pl/oferty/strategia-i-optymalizacja-seo
+  было:  Pozycjonowanie stron internetowych — Warszawa | Bandziuk
+  будет: Pozycjonowanie stron internetowych | Bandziuk
+
+→ создано: singlepage-pozycjonowanie-warszawa.i18n, 77c5f5df-a6f3-49ca-8f42-f1439e3490c6, singlepage-pozycjonowanie-warszawa.pl, singlepage-pozycjonowanie-warszawa.ru

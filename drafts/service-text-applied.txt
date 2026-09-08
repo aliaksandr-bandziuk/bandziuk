@@ -1,0 +1,51 @@
+
+======================================================================
+[en] /services/website-performance-and-code-audit
+  вставка после блока 3 (последний textContent), перед: imageFullBlock
+  H2: 2, абзацев: 8, слов: 421, ссылок: 2
+  заголовки: What you actually get from a performance audit // Performance audit or SEO audit — which one do you need?
+  ссылки: why a website loads slowly → /blog/why-is-my-website-slow | an SEO audit → /services/seo-audit
+  → применено
+
+======================================================================
+[ru] /ru/uslugi/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti
+  вставка после блока 3 (последний textContent), перед: imageFullBlock
+  H2: 2, абзацев: 8, слов: 353, ссылок: 2
+  заголовки: Что вы получаете на выходе аудита производительности // Аудит производительности или SEO-аудит — что именно вам нужно
+  ссылки: почему сайт медленно загружается → /ru/blog/sait-medlenno-zagruzhaetsya | SEO-аудита → /ru/uslugi/seo-audit-saita
+  → применено
+
+======================================================================
+[pl] /pl/oferty/audyt-wydajnosci-i-kodu
+  вставка после блока 3 (последний textContent), перед: imageFullBlock
+  H2: 2, абзацев: 8, слов: 368, ссылок: 2
+  заголовки: Co realnie otrzymujesz po audycie wydajności // Audyt wydajności czy audyt SEO — którego z nich potrzebujesz
+  ссылки: dlaczego strona ładuje się wolno → /pl/blog/wolno-ladujaca-sie-strona | audytu SEO → /pl/oferty/audyt-seo-strony-internetowej
+  → применено
+
+======================================================================
+[en] /services/cms-integration-and-api-work
+  вставка после блока 3 (последний textContent), перед: imageFullBlock
+  H2: 2, абзацев: 6, слов: 391, ссылок: 1
+  заголовки: When a no-code connector is enough — and when it is not // What makes an integration keep working after launch
+  ссылки: automating page production → /blog/how-i-automated-website-page-production
+  → применено
+
+======================================================================
+[ru] /ru/uslugi/integraciya-cms-i-api
+  вставка после блока 3 (последний textContent), перед: imageFullBlock
+  H2: 2, абзацев: 6, слов: 326, ссылок: 1
+  заголовки: Когда достаточно Zapier или Make, а когда нужна своя интеграция // Почему интеграции ломаются со временем и что это меняет
+  ссылки: автоматизировал создание страниц → /ru/blog/kak-ya-avtomatiziroval-sozdanie-stranic-v-cms
+  → применено
+
+======================================================================
+[pl] /pl/oferty/integracja-cms-i-api
+  заголовок: "Problems I solve with CMS and API support" → "Problemy, które rozwiązuję przy integracji CMS i API" (1)
+  вставка после блока 3 (последний textContent), перед: imageFullBlock
+  H2: 2, абзацев: 6, слов: 341, ссылок: 1
+  заголовки: Kiedy wystarczy Zapier lub Make, a kiedy potrzebna jest własna integracja // Dlaczego integracje przestają działać po wdrożeniu i co to zmienia
+  ссылки: zautomatyzowałem tworzenie stron → /pl/blog/jak-zautomatyzowalem-tworzenie-stron-w-cms
+  → применено
+
+Запланировано: 6. Применено: 6.

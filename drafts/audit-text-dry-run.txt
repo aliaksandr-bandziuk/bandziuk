@@ -1,0 +1,22 @@
+
+======================================================================
+[en] /services/seo-audit
+  опечатка: "What You Get After SEO Audig" → "What You Get After SEO Audit" (1)
+  вставка после блока 2 («What You Get After SEO»), перед: formMinimalBlock
+  H2: 2, абзацев: 6, слов: 340
+  заголовки: What an SEO audit can tell you — and what it cannot // How to tell a real SEO audit from an automated tool report
+
+======================================================================
+[ru] /ru/uslugi/seo-audit-saita
+  вставка после блока 2 («Что вы получаете по итогу SEO-аудита»), перед: formMinimalBlock
+  H2: 2, абзацев: 6, слов: 283
+  заголовки: Что SEO-аудит сайта может показать, а что нет // Чем настоящий SEO-аудит отличается от отчёта автоматического сервиса
+
+======================================================================
+[pl] /pl/oferty/audyt-seo-strony-internetowej
+  вставка после блока 2 («Co otrzymujesz po audycie SEO»), перед: formMinimalBlock
+  H2: 2, абзацев: 6, слов: 284
+  заголовки: Co audyt SEO strony może pokazać, a czego nie // Czym prawdziwy audyt SEO różni się od raportu z automatycznego narzędzia
+
+Запланировано: 3. Применено: 0.
+Это сухой прогон. Применить: node scripts/apply-audit-text.cjs --apply

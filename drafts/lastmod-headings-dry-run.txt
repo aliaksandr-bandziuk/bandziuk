@@ -1,0 +1,79 @@
+
+======================================================================
+[en] blog-sitemap-lastmod
+  слаг (не меняю): google-stopped-reading-sitemap-lastmod
+  title
+     было:  Google Stopped Reading the Sitemap: The lastmod Field Nobody Checks
+     будет: Sitemap lastmod: why Google stops re-reading your sitemap and how to fix it
+  seo.metaTitle [47]
+     было:  Google Stopped Reading Your Sitemap | lastmod
+     будет: Sitemap lastmod: why Google stops re-reading it
+  seo.metaDescription [146]
+     было:  A sitemap listed 415 URLs and Google had discovered 27. The cause was a missing lastmod field. How to check it in Search Console and what fixing it does.
+     будет: A sitemap without lastmod gets re-read less and less, so new URLs stay undiscovered. How to check the Last read date in Search Console and fix it.
+  excerpt
+     было:  A sitemap listing 415 URLs while Google has discovered 27 — with no error reported anywhere. The cause is one field most generators omit, and five minutes in Search Console tells you whether it is yours.
+     будет: If a sitemap has no lastmod field, Google re-reads it less and less often, and URLs added since the last read stay undiscovered. How to check the Last read date in Search Console, what to change in the sitemap generator, and what the fix does not solve.
+  H2
+     было:  Sitemap submitted 415 URLs, Google discovered 27
+     будет: 415 URLs in the sitemap, 27 discovered pages in Search Console
+  H2
+     было:  What fixing lastmod changed: discovered pages 27 to 415
+     будет: What changed after fixing lastmod: discovered pages went from 27 to 415
+  H2
+     было:  What a sitemap fix does not solve
+     будет: Problems that fixing the sitemap does not solve
+
+======================================================================
+[pl] blog-sitemap-lastmod.pl
+  слаг (не меняю): google-przestal-czytac-mape-witryny-lastmod
+  title
+     было:  Google przestał czytać mapę witryny: pole lastmod, którego nikt nie sprawdza
+     будет: lastmod w mapie witryny: dlaczego Google przestaje ją czytać i jak to naprawić
+  seo.metaTitle [54]
+     было:  Google przestał czytać mapę witryny | lastmod
+     будет: lastmod w mapie witryny: dlaczego Google jej nie czyta
+  seo.metaDescription [160]
+     было:  Mapa witryny zgłaszała 415 adresów, Google wykrył 27. Przyczyną było brakujące pole lastmod. Jak to sprawdzić w Search Console i co daje naprawa.
+     будет: Mapa witryny bez pola lastmod jest odczytywana coraz rzadziej, więc nowe adresy pozostają niewykryte. Jak sprawdzić datę odczytu w Search Console i to naprawić.
+  excerpt
+     было:  Mapa witryny wymienia 415 adresów, a Google wykrył 27 — i nigdzie nie ma żadnego błędu. Przyczyną jest jedno pole, które większość generatorów pomija; pięć minut w Search Console powie, czy to wasz przypadek.
+     будет: Jeśli mapa witryny nie ma pola lastmod, Google odczytuje ją coraz rzadziej, a adresy dodane po ostatnim odczycie pozostają niewykryte. Jak sprawdzić datę ostatniego odczytania w Search Console, co poprawić w generatorze mapy i czego ta poprawka nie rozwiązuje.
+  H2
+     было:  Mapa witryny zgłosiła 415 adresów, Google wykrył 27
+     будет: 415 adresów w mapie witryny, 27 wykrytych stron w Search Console
+  H2
+     было:  Co zmieniła naprawa lastmod: wykryte strony z 27 do 415
+     будет: Co zmieniła naprawa lastmod: wykryte strony wzrosły z 27 do 415
+  H2
+     было:  Czego naprawa mapy witryny nie rozwiązuje
+     будет: Problemy, których naprawa mapy witryny nie rozwiązuje
+
+======================================================================
+[ru] blog-sitemap-lastmod.ru
+  слаг (не меняю): google-perestal-chitat-kartu-saita-lastmod
+  title
+     было:  Google перестал читать карту сайта: поле lastmod, которое никто не проверяет
+     будет: lastmod в карте сайта: почему Google перестаёт её перечитывать и как это исправить
+  seo.metaTitle [55]
+     было:  Google перестал читать карту сайта | lastmod
+     будет: lastmod в карте сайта: почему Google её не перечитывает
+  seo.metaDescription [155]
+     было:  Карта сайта отдавала 415 адресов, Google обнаружил 27. Причина — отсутствующее поле lastmod. Как проверить это в Search Console и что даёт исправление.
+     будет: Карту сайта без поля lastmod Google перечитывает всё реже, и новые адреса остаются необнаруженными. Как проверить дату чтения в Search Console и исправить.
+  excerpt
+     было:  Карта сайта перечисляет 415 адресов, а Google обнаружил 27 — и нигде никакой ошибки. Причина в одном поле, которое большинство генераторов не выводит; пять минут в Search Console покажут, ваш ли это случай.
+     будет: Если в карте сайта нет поля lastmod, Google перечитывает её всё реже, а адреса, добавленные после последнего чтения, остаются необнаруженными. Как проверить дату последнего чтения в Search Console, что поправить в генераторе карты и чего это исправление не решает.
+  H2
+     было:  Карта сайта отдала 415 адресов, Google обнаружил 27
+     будет: 415 адресов в карте сайта, 27 обнаруженных страниц в Search Console
+  H2
+     было:  Что изменило исправление lastmod: обнаруженные страницы с 27 до 415
+     будет: Что изменило исправление lastmod: обнаруженные страницы выросли с 27 до 415
+  H2
+     было:  Чего исправление карты сайта не решает
+     будет: Проблемы, которых исправление карты сайта не решает
+
+======================================================================
+Это сухой прогон. Полей: 12, заголовков: 9, документов: 3.
+Применить: node scripts/fix-lastmod-headings.cjs --apply

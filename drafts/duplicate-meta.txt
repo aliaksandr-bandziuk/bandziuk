@@ -1,0 +1,70 @@
+======================================================================
+Проверено документов: 406
+
+======================================================================
+metaTitle: наборов-дублей 0
+
+======================================================================
+metaDescription: наборов-дублей 0
+
+======================================================================
+title: наборов-дублей 0
+
+======================================================================
+Пустые и слишком длинные поля
+
+  metaTitle: пусто у 0, длиннее 60 симв. у 55
+     81 симв.: [pl] singlepage oferty
+     81 симв.: [ru] singlepage sait-dlya-agentstva-nedvizhimosti
+     80 симв.: [pl] singlepage strona-dla-agencji-nieruchomosci
+     77 симв.: [ru] blog sait-agentstva-nedvizhimosti-kipr-keis
+     75 симв.: [en] blog ai-response-risks
+     73 симв.: [pl] singlepage audyt-wydajnosci-i-kodu
+     72 симв.: [pl] singlepage strona-dla-dewelopera
+     71 симв.: [pl] blog strona-agencji-nieruchomosci-cypr
+     71 симв.: [pl] singlepage pozycjonowanie-strony-gabinetu-stomatologicznego-warszawa
+     70 симв.: [ru] singlepage ai-seo-i-geo-optimizaciya
+     70 симв.: [pl] singlepage ai-seo-and-geo-optymalizacja
+     68 симв.: [en] singlepage website-performance-and-code-audit
+     68 симв.: [pl] singlepage pozycjonowanie-strony-warsztatu-samochodowego-warszawa
+     67 симв.: [ru] singlepage seo-optimizaciya-i-strategiya
+     67 симв.: [en] singlepage property-developer-website
+     67 симв.: [pl] singlepage pozycjonowanie-na-rynek-australijski
+     67 симв.: [en] singlepage seo-for-consulting-firms-switzerland
+     66 симв.: [en] singlepage seo-optimization-and-strategy
+     66 симв.: [pl] singlepage pozycjonowanie-na-rynek-holenderski
+     66 симв.: [pl] singlepage pozycjonowanie-na-rynek-szwajcarski
+     66 симв.: [pl] singlepage pozycjonowanie-na-rynek-amerykanski
+     65 симв.: [en] blog real-estate-website-cyprus-case-study
+     65 симв.: [ru] singlepage uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti
+     65 симв.: [ru] singlepage razrabotka-lendingov
+     65 симв.: [en] singlepage website-development-georgia
+     …и ещё 30
+
+  metaDescription: пусто у 0, длиннее 160 симв. у 99
+     214 симв.: [en] singlepage services
+     189 симв.: [ru] singlepage ai-seo-i-geo-optimizaciya
+     187 симв.: [en] singlepage website-performance-and-code-audit
+     184 симв.: [ru] singlepage razrabotka-lendingov
+     181 симв.: [pl] blog strona-agencji-nieruchomosci-cypr
+     179 симв.: [pl] singlepage strona-katalogowa-z-filtrami
+     177 симв.: [en] singlepage seo-for-real-estate
+     176 симв.: [en] portfolio build-and-optimize-a-multilingual-real-estate-platform
+     176 симв.: [ru] singlepage razrabotka-saitov-tailand
+     175 симв.: [en] singlepage manufacturing-company-website
+     174 симв.: [en] singlepage seo-optimization-and-strategy
+     173 симв.: [pl] singlepage seo-dla-stron-nieruchomosci
+     172 симв.: [pl] singlepage strona-dla-firmy-transportowej
+     172 симв.: [pl] singlepage strona-z-rezerwacja-online
+     172 симв.: [pl] singlepage migracja-strony-na-inna-platforme
+     171 симв.: [pl] blog jak-klienci-znajduja-specjalistow-przez-chatgpt
+     171 симв.: [pl] singlepage strona-dla-biura-rachunkowego
+     171 симв.: [en] singlepage veterinary-clinic-website
+     170 симв.: [ru] singlepage uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti
+     170 симв.: [en] blog multilingual-website-cost
+     170 симв.: [pl] blog co-powinno-byc-na-stronie-psychologa
+     170 симв.: [ru] singlepage sait-dlya-startapa
+     169 симв.: [en] blog when-ai-attributes-your-features-to-a-competitor
+     169 симв.: [pl] blog ile-kosztuje-strona-wielojezyczna
+     169 симв.: [en] singlepage seo-for-lingerie-manufacturers
+     …и ещё 74

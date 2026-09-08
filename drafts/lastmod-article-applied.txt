@@ -1,0 +1,50 @@
+
+======================================================================
+[en] blog-sitemap-lastmod
+  URL: /blog/google-stopped-reading-sitemap-lastmod
+  title: Google Stopped Reading the Sitemap: The lastmod Field Nobody Checks
+  metaTitle [45]: Google Stopped Reading Your Sitemap | lastmod
+  metaDescription [153]
+  excerpt [203]: A sitemap listing 415 URLs while Google has discovered 27 — with no error report…
+  блоков: 34 (blockquote:1, normal:26, h2:7)
+  категория: Technical SEO
+  автор: author-aliaksandr-bandziuk
+  услуги: Website SEO Audit | SEO Optimization and Strategy
+  связанные: Website Not Showing in Google: Finding t | Why Is My Website Slow: What to Do and W | Website Redesign Without Losing Traffic:
+  ссылка в теле: «crawled and declined» → /blog/website-not-showing-in-google
+  alt картинки: A sitemap where only the entries carrying a lastmod value have been visited
+
+======================================================================
+[pl] blog-sitemap-lastmod.pl
+  URL: /pl/blog/google-przestal-czytac-mape-witryny-lastmod
+  title: Google przestał czytać mapę witryny: pole lastmod, którego nikt nie sprawdza
+  metaTitle [45]: Google przestał czytać mapę witryny | lastmod
+  metaDescription [145]
+  excerpt [208]: Mapa witryny wymienia 415 adresów, a Google wykrył 27 — i nigdzie nie ma żadnego…
+  блоков: 34 (blockquote:1, normal:26, h2:7)
+  категория: Techniczne SEO
+  автор: author-aliaksandr-bandziuk.pl
+  услуги: Audyt SEO strony internetowej | Pozycjonowanie stron internetowych
+  связанные: Strona nie pojawia się w Google: jak zna | Wolno ładująca się strona: co zrobić i o | Redesign strony bez utraty ruchu: co spr
+  ссылка в теле: «przeskanowana i odrzucona» → /pl/blog/strona-nie-pojawia-sie-w-google
+  alt картинки: Mapa witryny, w której odwiedzone zostały tylko wpisy z wartością lastmod
+
+======================================================================
+[ru] blog-sitemap-lastmod.ru
+  URL: /ru/blog/google-perestal-chitat-kartu-saita-lastmod
+  title: Google перестал читать карту сайта: поле lastmod, которое никто не проверяет
+  metaTitle [44]: Google перестал читать карту сайта | lastmod
+  metaDescription [151]
+  excerpt [206]: Карта сайта перечисляет 415 адресов, а Google обнаружил 27 — и нигде никакой оши…
+  блоков: 34 (blockquote:1, normal:26, h2:7)
+  категория: Техническое SEO
+  автор: author-aliaksandr-bandziuk.ru
+  услуги: SEO-аудит сайта | SEO-оптимизация и стратегия
+  связанные: Сайта нет в поиске Google: как найти при | Сайт медленно загружается: что делать и  | Редизайн сайта без потери трафика: что п
+  ссылка в теле: «просканируют и отклонят» → /ru/blog/saita-net-v-poiske-google
+  alt картинки: Карта сайта, в которой посещены только записи с заполненным lastmod
+
+======================================================================
+Загружаю картинку...
+  ассет: image-832d5c7f7f095871cd2cb12975dddeec228dd68a-1200x480-jpg
+→ создано: blog-sitemap-lastmod, blog-sitemap-lastmod.pl, blog-sitemap-lastmod.ru, blog-sitemap-lastmod.i18n

@@ -1,0 +1,71 @@
+======================================================================
+ПРАВКА
+
+  [en] website-performance-and-code-audit
+     title (H1, не меняю): Website Performance & Code Audit
+     metaTitle
+        было:  Website Performance & Code Audit — Improve Speed, Stability, and SEO   [68 ⚠]
+        будет: Website Performance & Code Audit | Bandziuk   [43]
+     metaDescription
+        было:  I optimize websites for the AI-powered future of search. GEO (Generative Engine Optimization), structured data, and AI-ready SEO to help Google SGE and AI systems understand your content.   [187 ⚠]
+        будет: A performance and code audit for sites that are slow or unstable: Core Web Vitals measured on real-user data, causes ranked by impact, and the fixes implemented.   [161 ⚠]
+
+  [ru] uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti
+     title (H1, не меняю): Ускорение сайта и улучшение поисковой видимости
+     metaTitle
+        было:  Аудит производительности и кода — ускорение сайта и улучшение SEO   [65 ⚠]
+        будет: Аудит производительности и кода сайта | Bandziuk   [48]
+     metaDescription
+        было:  Провожу технический аудит производительности и кода. Оптимизирую скорость, Core Web Vitals и структуру сайта. Реальные результаты — сайт работает быстрее и выше в поиске.   [170 ⚠]
+        будет: Аудит скорости и кода: Core Web Vitals по данным реальных пользователей, причины по степени влияния, исправления в коде и проверка результата после правок.   [155]
+
+  [pl] audyt-wydajnosci-i-kodu
+     title (H1, не меняю): Audyt wydajności i kodu
+     metaTitle
+        было:  Audyt wydajności i kodu — popraw szybkość, stabilność i SEO swojej strony   [73 ⚠]
+        будет: Audyt wydajności i kodu strony | Bandziuk   [41]
+     metaDescription
+        было:  Wykonuję techniczny audyt wydajności i kodu. Poprawiam Core Web Vitals, optymalizuję kod, szybkość ładowania i SEO Twojej witryny. Realne wyniki, nie raporty.   [158]
+        будет: Audyt szybkości i kodu: Core Web Vitals na danych rzeczywistych użytkowników, przyczyny uporządkowane według wpływu, poprawki wdrożone i sprawdzone po zmianach.   [160]
+
+======================================================================
+ДИАГНОСТИКА (только чтение)
+
+  [en] services
+     title: Services
+     metaTitle [48]: Custom Web Development & SEO Services | Bandziuk
+     metaDescription [214 ⚠]: High-performance website development, SEO optimisation and conversion-focused landing pages. Work directly with a full-stack developer & SEO specialist to build a site that loads fast, ranks high, and drives leads.
+
+  [pl] oferty
+     title: Oferty
+     metaTitle [81 ⚠]: Tworzenie stron internetowych i SEO | Web Development, Optymalizacja i Integracje
+     metaDescription [168 ⚠]: Profesjonalne tworzenie stron internetowych, SEO, landing page i audyty techniczne. Full-stack developer – od projektu po optymalizację wydajności i integracje CMS/API.
+
+  [ru] uslugi
+     title: Услуги
+     metaTitle [58]: Разработка сайтов и SEO |  для бизнеса в Европе, США и СНГ
+     metaDescription [155]: Профессиональная веб-разработка, SEO-оптимизация, лендинги и технический аудит. Создаю сайты, которые быстро работают, видимы в поиске и приносят клиентов.
+
+  [en] cms-integration-and-api-work
+     title: CMS Integration & API Work
+     metaTitle [43]: CMS & API Integration — Aliaksandr Bandziuk
+     metaDescription [147]: I connect CMS, APIs, CRMs, and payment systems into one ecosystem. Integrations with Stripe, HubSpot, WhatsApp, and more — fast, secure, automated.
+
+  [pl] integracja-cms-i-api
+     title: Integracja CMS i API
+     metaTitle [42]: Integracja CMS i API — Aliaksandr Bandziuk
+     metaDescription [150]: Integruję CMS, API, CRM, Stripe i inne systemy. Automatyzuję formularze, płatności i powiadomienia. Strony, które działają inteligentnie i bez błędów.
+
+  [ru] integraciya-cms-i-api
+     title: Интеграция CMS и API
+     metaTitle [56]: Интеграция CMS и API — автоматизация без лишних действий
+     metaDescription [157]: Подключаю CRM, Stripe, WhatsApp и другие сервисы к сайту. Заявки автоматически в CRM, платежи и уведомления настроены — без ручной работы и потерянных лидов.
+
+  [pl] strategia-i-optymalizacja-seo
+     title: Pozycjonowanie stron internetowych
+     metaTitle [56]: Pozycjonowanie stron internetowych — Warszawa | Bandziuk
+     metaDescription [146]: Pozycjonowanie stron internetowych: audyt, strategia, optymalizacja techniczna i treści. Stała współpraca od 3500 zł/mies. Warszawa i cała Polska.
+
+======================================================================
+Это сухой прогон. Полей к изменению: 6 на 3 страницах.
+Применить: node scripts/apply-perf-meta.cjs --apply

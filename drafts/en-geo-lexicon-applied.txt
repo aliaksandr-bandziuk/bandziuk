@@ -1,0 +1,64 @@
+======================================================================
+ДИАГНОСТИКА: английские ИИ-страницы — что стоит в title и meta сейчас
+
+  /services/ai-ready-seo-and-geo-optimization
+    title: AI-Ready SEO & GEO Optimization
+    metaTitle: AI-Ready SEO & GEO Optimization — Future-Proof Your Website for AI Search   [73]
+    metaDescription: I optimize websites for the AI-powered future of search. GEO (Generative Experience Optimization), structured data, and AI-ready SEO to help Google SGE and AI systems understand your content.   [191]
+    полные фразы в title/meta: GEO нет, AEO нет
+
+  /services/ai-visibility-audit
+    title: AI visibility audit
+    metaTitle: AI Visibility Audit | Bandziuk   [30]
+    metaDescription: A baseline audit of what ChatGPT, Perplexity and Google's AI answers say about your company: a fixed prompt set, source tracing for every error, and a written report.   [166]
+    полные фразы в title/meta: GEO нет, AEO нет
+
+  /services/ai-brand-monitoring
+    title: AI brand monitoring
+    metaTitle: AI Brand Monitoring | Bandziuk   [30]
+    metaDescription: Monthly monitoring of what AI assistants say about your company: a frozen prompt set, presence rate, errors found, cited sources and assistant referral traffic.   [160]
+    полные фразы в title/meta: GEO нет, AEO нет
+
+  /services/ai-search-readiness
+    title: Preparing a website for AI search
+    metaTitle: Preparing a Website for AI Search | Bandziuk   [44]
+    metaDescription: Making a site legible to AI assistants: facts stated as checkable claims, structured data, content reachable without scripts, and copy that survives summarisation.   [163]
+    полные фразы в title/meta: GEO нет, AEO нет
+
+  /services/fix-ai-misinformation
+    title: Correcting wrong information about your company in AI answers
+    metaTitle: Correcting Wrong Information in AI Answers | Bandziuk   [53]
+    metaDescription: An AI assistant describes your company incorrectly. I trace the claim to its source, correct what's correctable, and tell you plainly what isn't.   [145]
+    полные фразы в title/meta: GEO нет, AEO нет
+
+======================================================================
+ПРАВКА: /services/ai-ready-seo-and-geo-optimization   (831dc620-2863-4d55-baa0-aa874a7374ac)
+
+--- поля ---
+  title
+     было:  AI-Ready SEO & GEO Optimization
+     будет: Generative Engine Optimization (GEO) and AI-Ready SEO   [53 симв.]
+  excerpt
+     было:  I prepare websites for how AI search engines understand and present information today. My approach combines technical SEO, structured data, and GEO (Generative Experience Optimization) to make your site visible and relevant in AI-driven results.
+     будет: Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), AI SEO — names for one job: being named, and named correctly, when buyers ask an assistant instead of searching.   [184 симв.]
+  seo.metaTitle
+     было:  AI-Ready SEO & GEO Optimization — Future-Proof Your Website for AI Search
+     будет: Generative Engine Optimization (GEO) & AEO | Bandziuk   [53 симв.]
+  seo.metaDescription
+     было:  I optimize websites for the AI-powered future of search. GEO (Generative Experience Optimization), structured data, and AI-ready SEO to help Google SGE and AI systems understand your content.
+     будет: Generative Engine Optimization and Answer Engine Optimization: getting your business named — and named correctly — in ChatGPT, Perplexity and Google AI answers.   [160 симв.]
+
+--- точечные замены в тексте ---
+  H2:
+     было:  AI-ready SEO and GEO: two problems, four services
+     будет: AI-ready SEO and Generative Engine Optimization: two problems, four services
+  вопрос FAQ:
+     было:  Is GEO the same as AEO?
+     будет: Is Generative Engine Optimization the same as Answer Engine Optimization?
+  ответ FAQ:
+     было:  Different names circulating for overlapping work: making a business legible and quotable to AI answer systems. I use them interchangeably rather than claiming a distinction, because the mechanics are the same regardless of the acronym.
+     будет: Generative Engine Optimization (GEO), Answer Engine Optimization (AEO) and AI SEO are different names circulating for overlapping work: making a business legible and quotable to AI answer systems. I use them interchangeably rather than claiming a distinction, because the mechanics are the same regardless of the acronym.
+
+  контроль длины: было 11504, стало 11667, ожидаемая разница 163, фактическая 163
+
+→ применено: полей 4, замен 3

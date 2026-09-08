@@ -1,0 +1,50 @@
+======================================================================
+Замена: «Generative Experience Optimization» → «Generative Engine Optimization»
+Документов всего: 406. С ошибкой: 8.
+
+  [ru] singlepage ai-seo-i-geo-optimizaciya — вхождений: 1
+     …ption":"Оптимизирую сайты под поиск с искусственным интеллектом: GEO ([Generative Experience Optimization]), структурированные данные, семантика, Core Web V…
+     поля к записи: seo
+     → применено
+
+  [en] singlepage website-performance-and-code-audit — вхождений: 1
+     …ption":"I optimize websites for the AI-powered future of search. GEO ([Generative Experience Optimization]), structured data, and AI-ready SEO to help Googl…
+     поля к записи: seo
+     → применено
+
+  [pl] singlepage tworzenie-landing-page — вхождений: 2
+     …45","_type":"span","marks":[],"text":"dostosowany do AI-Search i GEO ([Generative Experience Optimization]),"}],"level":1,"listItem":"bullet","markDefs":[],…
+     …an","marks":[],"text":"Dlatego tworzę strony zoptymalizowane pod GEO ([Generative Experience Optimization]):"}],"markDefs":[],"style":"normal"},{"_key":"8a0…
+     поля к записи: contentBlocks
+     → применено
+
+  [pl] singlepage ai-seo-and-geo-optymalizacja — вхождений: 1
+     …eo":{"metaDescription":"Optymalizuję strony pod wyszukiwanie AI: GEO ([Generative Experience Optimization]), dane strukturalne, semantyka i Core Web Vitals.…
+     поля к записи: seo
+     → применено
+
+  [en] singlepage seo-optimization-and-strategy — вхождений: 2
+     …f2a6f6","_type":"span","marks":[],"text":"Websites optimized for GEO ([Generative Experience Optimization]) are already gaining extra exposure — appearing d…
+     …ks":[],"text":"I prepare every project for the future of search. With [Generative Experience Optimization] (GEO), your content becomes understandable for AI…
+     поля к записи: contentBlocks
+     → применено
+
+  [ru] singlepage seo-optimizaciya-i-strategiya — вхождений: 1
+     …32dc1503eec","_type":"span","marks":[],"text":"Я внедряю подход GEO — [Generative Experience Optimization]:"}],"markDefs":[],"style":"h3"},{"_key":"8353a759…
+     поля к записи: contentBlocks
+     → применено
+
+  [pl] singlepage strategia-i-optymalizacja-seo — вхождений: 2
+     …ableRow","cells":["Strona nie jest gotowa na AI-Search","Wdrażam GEO ([Generative Experience Optimization]) i dostosowuję dane pod wyszukiwanie oparte na AI…
+     …ch na sztucznej inteligencji (AI-Search, Google SGE), ważne staje się [Generative Experience Optimization] (GEO) — optymalizacja treści i danych, które AI p…
+     …":"db56026d52340","_type":"span","marks":[],"text":"Tak. Wdrażam GEO ([Generative Experience Optimization]) i analizuję dane z pomocą sztucznej inteligencji…
+     поля к записи: contentBlocks
+     → применено
+
+  [ru] singlepage razrabotka-lendingov — вхождений: 2
+     …c","_type":"span","marks":[],"text":"адаптированы под AI-поиск (GEO — [Generative Experience Optimization]),"}],"level":1,"listItem":"bullet","markDefs":[],…
+     …a5","_type":"span","marks":[],"text":"Я оптимизирую лендинги под GEO ([Generative Experience Optimization]): структурирую контент, добавляю разметку и делаю…
+     поля к записи: contentBlocks
+     → применено
+
+Документов с ошибкой: 8. Вхождений всего: 12.

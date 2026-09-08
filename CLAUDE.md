@@ -499,3 +499,11 @@ code itself.
   the heading "Ile kosztuje audyt SEO?" and contains no price at 
   all — the figure lives only on /pl/cennik. That loses enquiries, 
   not rankings.
+
+- Keywords belong in subheadings, not only in body text. H2 and H3
+  are the strongest on-page signal after the title, and they are
+  what assistants quote when summarising a page. Generic headings
+  ("The fix", "What changed", "Что дальше") waste that slot — each
+  one should carry the term the section is about. Stated by the
+  owner 2026-09-08 after a draft came back with 5 of 7 H2s carrying
+  no target term.

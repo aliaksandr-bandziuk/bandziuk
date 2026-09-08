@@ -1,0 +1,39 @@
+======================================================================
+/pl/oferty/strategia-i-optymalizacja-seo   (77c5f5df-a6f3-49ca-8f42-f1439e3490c6)
+структура: 0:serviceFeaturesBlock 1:textContent 2:tableBlock 3:textContent 4:imageFullBlock 5:faqBlock
+
+--- поля ---
+  title
+     было:  Strategia i optymalizacja SEO
+     будет: Pozycjonowanie stron internetowych   [34 симв.]
+  excerpt
+     было:  Opracowuję i realizuję strategie SEO dopasowane do celów Twojej firmy. Łączę analizę, techniczne SEO i optymalizację pod Google oraz AI-Search, aby Twój biznes był widoczny tam, gdzie szukają go klienci.
+     будет: Pozycjonowanie stron w Google i w wyszukiwarkach opartych na AI: audyt, strategia, optymalizacja techniczna i treści. Warszawa i cała Polska — pracujesz bezpośrednio ze mną, bez agencji i pośredników.   [200 симв.]
+  seo.metaTitle
+     было:  Strategia i optymalizacja SEO — Techniczne SEO dla Google i AI Search
+     будет: Pozycjonowanie stron internetowych — Warszawa | Bandziuk   [56 симв.]
+  seo.metaDescription
+     было:  Tworzę i wdrażam skuteczne strategie SEO: audyt, optymalizację techniczną, strukturę, schema.org, hreflang i SEO gotowe na AI-Search (GEO).
+     будет: Pozycjonowanie stron internetowych: audyt, strategia, optymalizacja techniczna i treści. Stała współpraca od 3500 zł/mies. Warszawa i cała Polska.   [146 симв.]
+
+--- текст ---
+  вставка после блока 3 (последний textContent), перед: imageFullBlock
+  H2: 3, абзацев: 9, слов: 463, ссылок: 11
+     · Czym jest pozycjonowanie stron i czym różni się od reklamy w Google
+     · Ile trwa pozycjonowanie i po czym poznać, że działa
+     · Pozycjonowanie stron w Warszawie — branże, w których pracuję
+  ссылки:
+     · ile to kosztuje i od czego zależy cena → /pl/blog/ile-kosztuje-pozycjonowanie-strony
+     · od 3500 zł miesięcznie → /pl/cennik
+     · kancelarii prawnej → /pl/oferty/pozycjonowanie-strony-kancelarii-prawnej-warszawa
+     · gabinetu stomatologicznego → /pl/oferty/pozycjonowanie-strony-gabinetu-stomatologicznego-warszawa
+     · przychodni lekarskiej → /pl/oferty/pozycjonowanie-strony-przychodni-warszawa
+     · warsztatu samochodowego → /pl/oferty/pozycjonowanie-strony-warsztatu-samochodowego-warszawa
+     · salonu kosmetycznego → /pl/oferty/pozycjonowanie-strony-salonu-kosmetycznego-warszawa
+     · restauracji → /pl/oferty/pozycjonowanie-strony-restauracji-warszawa
+     · firmy budowlanej → /pl/oferty/pozycjonowanie-strony-firmy-budowlanej-warszawa
+     · firmy sprzątającej → /pl/oferty/pozycjonowanie-strony-firmy-sprzatajacej-warszawa
+     · rynkami zagranicznymi → /pl/oferty/lokalizacje
+
+Это сухой прогон. Полей к изменению: 4, вставка текста: да.
+Применить: node scripts/apply-pl-pozycjonowanie.cjs --apply

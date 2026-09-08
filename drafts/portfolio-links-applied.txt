@@ -1,0 +1,65 @@
+
+======================================================================
+[en] /seo-for-auto-repair-shop  (923390d3-cf00-427c-bef1-2fdf903a7808)
+  добавляется абзац: A worked example from this niche: Auto Repair SEO & UX Boost — what was changed on the site and why.
+  анкор: "Auto Repair SEO & UX Boost" → /portfolio/auto-repair-seo-and-ux-boost
+  ссылка проставлена: да
+  → применено
+
+======================================================================
+[en] /garage-and-auto-repair-website  (61a47860-d61d-499c-8606-1831231b222e)
+  добавляется абзац: A worked example from this niche: Auto Repair SEO & UX Boost — what was changed on the site and why.
+  анкор: "Auto Repair SEO & UX Boost" → /portfolio/auto-repair-seo-and-ux-boost
+  ссылка проставлена: да
+  → применено
+
+======================================================================
+[ru] /ru/seo-prodvizhenie-avtoservisa  (4238514d-8c66-4766-8b78-71675a466b7a)
+  добавляется абзац: Как это выглядит на реальном проекте: Улучшение SEO и UX для авторемонтной компании — что именно меняли на сайте и зачем.
+  анкор: "Улучшение SEO и UX для авторемонтной компании" → /ru/portfolio/seo-i-ux-dlya-avtoremontnoi-kompanii
+  ссылка проставлена: да
+  → применено
+
+======================================================================
+[ru] /ru/sozdanie-saita-dlya-avtoservisa  (d0a6b052-1ea6-41ba-9e6f-4bb873946e29)
+  добавляется абзац: Как это выглядит на реальном проекте: Улучшение SEO и UX для авторемонтной компании — что именно меняли на сайте и зачем.
+  анкор: "Улучшение SEO и UX для авторемонтной компании" → /ru/portfolio/seo-i-ux-dlya-avtoremontnoi-kompanii
+  ссылка проставлена: да
+  → применено
+
+======================================================================
+[pl] /pl/seo-dla-warsztatu-samochodowego  (55f6003b-f543-4591-8bea-d1a327144c73)
+  добавляется абзац: Jak to wygląda na realnym projekcie: SEO warsztatu i wzrost konwersji — co dokładnie zmieniłem na stronie i dlaczego.
+  анкор: "SEO warsztatu i wzrost konwersji" → /pl/portfolio/seo-warsztatu-i-wzrost-konwersji
+  ссылка проставлена: да
+  → применено
+
+======================================================================
+[pl] /pl/tworzenie-stron-dla-warsztatow-samochodowych  (f62631da-bb64-44fb-8a41-6f2ee35d13c5)
+  добавляется абзац: Jak to wygląda na realnym projekcie: SEO warsztatu i wzrost konwersji — co dokładnie zmieniłem na stronie i dlaczego.
+  анкор: "SEO warsztatu i wzrost konwersji" → /pl/portfolio/seo-warsztatu-i-wzrost-konwersji
+  ссылка проставлена: да
+  → применено
+
+======================================================================
+[en] /architecture-studio-website  (singlepage-architecture-studio)
+  добавляется абзац: A worked example from this niche: Architecture Website Rebuild and SEO — the same trade-off between image quality and speed, solved on a live site.
+  анкор: "Architecture Website Rebuild and SEO" → /portfolio/architecture-website-rebuild-and-seo-scan
+  ссылка проставлена: да
+  → применено
+
+======================================================================
+[ru] /ru/sait-dlya-arhitekturnogo-byuro  (singlepage-architecture-studio.ru)
+  добавляется абзац: Как это выглядит на реальном проекте: Создание и SEO-продвижение сайта архитектурной тематики — тот же компромисс между качеством изображений и скоростью, решённый на живом сайте.
+  анкор: "Создание и SEO-продвижение сайта архитектурной тематики" → /ru/portfolio/sozdanie-i-seo-prodvizhenie-saita-arkhitekturnoi-tematiki
+  ссылка проставлена: да
+  → применено
+
+======================================================================
+[pl] /pl/strona-dla-biura-architektonicznego  (singlepage-architecture-studio.pl)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Tworzenie i SEO strony architektonicznej — ten sam kompromis między jakością zdjęć a szybkością, rozwiązany na żywej stronie.
+  анкор: "Tworzenie i SEO strony architektonicznej" → /pl/portfolio/tworzenie-i-seo-strony-architektonicznej-scan
+  ссылка проставлена: да
+  → применено
+
+Запланировано: 9. Применено: 9.

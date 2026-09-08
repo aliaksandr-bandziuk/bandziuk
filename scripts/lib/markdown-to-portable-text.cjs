@@ -2,7 +2,9 @@
 // Converts a blog article's markdown body (after the deliverables header, and with the leading
 // `# Title` stripped since the page renders its own H1 from the `title` field) into a single
 // contentBlock-compatible PortableText array: block (normal/h1-h4/blockquote, bullet lists,
-// strong/em, link) + image. Markdown tables are converted to bullet lists since contentBlock has
+// strong/em) + image. Markdown tables are converted to bullet lists since contentBlock has
+// ВНИМАНИЕ: ссылки [text](url) этот конвертер НЕ разбирает — parseInline знает только **bold**.
+// Для ссылок используйте insertInlineLink из ./portable-text-links.cjs уже после конвертации.
 // no table member.
 const crypto = require("crypto");
 

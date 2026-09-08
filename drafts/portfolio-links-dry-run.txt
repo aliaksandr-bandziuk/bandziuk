@@ -1,0 +1,201 @@
+
+======================================================================
+[en] multilingual-website-development  (singlepage-multilingual-website)
+  добавляется абзац: A worked example from this niche: Full Multilingual Website Development & SEO for Student Services — what was built and why.
+  анкор: "Full Multilingual Website Development & SEO for Student Services" → /portfolio/full-multilingual-website-development-and-seo-for-student-services
+  ссылка проставлена: да
+
+======================================================================
+[en] language-school-website  (singlepage-language-school)
+  добавляется абзац: A worked example from this niche: Full Multilingual Website Development & SEO for Student Services — what was built and why.
+  анкор: "Full Multilingual Website Development & SEO for Student Services" → /portfolio/full-multilingual-website-development-and-seo-for-student-services
+  ссылка проставлена: да
+
+======================================================================
+[ru] razrabotka-multiyazychnogo-saita  (singlepage-multilingual-website.ru)
+  добавляется абзац: Как это выглядит на реальном проекте: Полная разработка и SEO для образовательной платформы — что именно делали и зачем.
+  анкор: "Полная разработка и SEO для образовательной платформы" → /ru/portfolio/polnaya-razrabotka-i-seo-dlya-obrazovatelnoi-platformy
+  ссылка проставлена: да
+
+======================================================================
+[ru] sait-dlya-yazykovoy-shkoly  (singlepage-language-school.ru)
+  добавляется абзац: Как это выглядит на реальном проекте: Полная разработка и SEO для образовательной платформы — что именно делали и зачем.
+  анкор: "Полная разработка и SEO для образовательной платформы" → /ru/portfolio/polnaya-razrabotka-i-seo-dlya-obrazovatelnoi-platformy
+  ссылка проставлена: да
+
+======================================================================
+[pl] tworzenie-stron-wielojezycznych  (singlepage-multilingual-website.pl)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Pełny rozwój i SEO dla platformy edukacyjnej — co dokładnie zrobiłem i dlaczego.
+  анкор: "Pełny rozwój i SEO dla platformy edukacyjnej" → /pl/portfolio/pelny-rozwoj-i-seo-dla-platformy-edukacyjnej
+  ссылка проставлена: да
+
+======================================================================
+[pl] strona-dla-szkoly-jezykowej  (singlepage-language-school.pl)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Pełny rozwój i SEO dla platformy edukacyjnej — co dokładnie zrobiłem i dlaczego.
+  анкор: "Pełny rozwój i SEO dla platformy edukacyjnej" → /pl/portfolio/pelny-rozwoj-i-seo-dla-platformy-edukacyjnej
+  ссылка проставлена: да
+
+======================================================================
+[en] startup-website  (singlepage-startup-website)
+  добавляется абзац: A worked example from this niche: Investment Platform with AI-Guided Learning — what was built and why.
+  анкор: "Investment Platform with AI-Guided Learning" → /portfolio/investment-platform-with-ai-guided-learning
+  ссылка проставлена: да
+
+======================================================================
+[ru] sait-dlya-startapa  (singlepage-startup-website.ru)
+  добавляется абзац: Как это выглядит на реальном проекте: Разработка инвестиционного вебсайта PeakProfit — что именно делали и зачем.
+  анкор: "Разработка инвестиционного вебсайта PeakProfit" → /ru/portfolio/razrabotka-investicionnogo-vebsaita-peakprofit
+  ссылка проставлена: да
+
+======================================================================
+[pl] strona-dla-startupu  (singlepage-startup-website.pl)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Rozwój platformy inwestycyjnej PeakProfit — co dokładnie zrobiłem i dlaczego.
+  анкор: "Rozwój platformy inwestycyjnej PeakProfit" → /pl/portfolio/rozwoj-platformy-inwestycyjnej-peakprofit
+  ссылка проставлена: да
+
+======================================================================
+[en] landing-page-development  (f9269d94-976e-43cd-bacb-8ed3c60039cd)
+  добавляется абзац: A worked example from this niche: E-commerce landing page with secured video access — what was built and why.
+  анкор: "E-commerce landing page with secured video access" → /portfolio/e-commerce-landing-page-with-secured-video-access
+  ссылка проставлена: да
+
+======================================================================
+[en] catalog-website-with-filters  (singlepage-catalog-website)
+  добавляется абзац: A worked example from this niche: E-commerce landing page with secured video access — what was built and why.
+  анкор: "E-commerce landing page with secured video access" → /portfolio/e-commerce-landing-page-with-secured-video-access
+  ссылка проставлена: да
+
+======================================================================
+[ru] razrabotka-lendingov  (dd5a054f-83a1-4865-93f3-625c2ecdacc2)
+  добавляется абзац: Как это выглядит на реальном проекте: E-commerce лендинг и защита видеокурса — что именно делали и зачем.
+  анкор: "E-commerce лендинг и защита видеокурса" → /ru/portfolio/e-commerce-lending-i-zashita-videokursa
+  ссылка проставлена: да
+
+======================================================================
+[ru] sait-katalog-s-filtrami  (singlepage-catalog-website.ru)
+  добавляется абзац: Как это выглядит на реальном проекте: E-commerce лендинг и защита видеокурса — что именно делали и зачем.
+  анкор: "E-commerce лендинг и защита видеокурса" → /ru/portfolio/e-commerce-lending-i-zashita-videokursa
+  ссылка проставлена: да
+
+======================================================================
+[pl] tworzenie-landing-page  (285c29ad-bc6b-4fde-a1bf-91aebd7e47e6)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Landing sprzedażowy z płatnością i zabezpieczonym kursem wideo — co dokładnie zrobiłem i dlaczego.
+  анкор: "Landing sprzedażowy z płatnością i zabezpieczonym kursem wideo" → /pl/portfolio/landing-sprzedazowy-z-platnoscia-i-zabezpieczonym-kursem-wideo
+  ссылка проставлена: да
+
+======================================================================
+[pl] strona-katalogowa-z-filtrami  (singlepage-catalog-website.pl)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Landing sprzedażowy z płatnością i zabezpieczonym kursem wideo — co dokładnie zrobiłem i dlaczego.
+  анкор: "Landing sprzedażowy z płatnością i zabezpieczonym kursem wideo" → /pl/portfolio/landing-sprzedazowy-z-platnoscia-i-zabezpieczonym-kursem-wideo
+  ссылка проставлена: да
+
+======================================================================
+[en] cms-integration-and-api-work  (ab99b964-1aa8-4ad8-a8a3-7fb0863cf549)
+  добавляется абзац: A worked example from this niche: Anti-Spam Protection for Website Forms — what was built and why.
+  анкор: "Anti-Spam Protection for Website Forms" → /portfolio/anti-spam-protection-for-website-forms
+  ссылка проставлена: да
+
+======================================================================
+[en] website-performance-and-code-audit  (26f33bcc-eaa6-4cbc-96a1-9135cf55431f)
+  добавляется абзац: A worked example from this niche: Anti-Spam Protection for Website Forms — what was built and why.
+  анкор: "Anti-Spam Protection for Website Forms" → /portfolio/anti-spam-protection-for-website-forms
+  ссылка проставлена: да
+
+======================================================================
+[ru] integraciya-cms-i-api  (fe3ab5a9-816f-4562-b412-602ef6bd1bb1)
+  добавляется абзац: Как это выглядит на реальном проекте: Защита форм от спама без CAPTCHA — что именно делали и зачем.
+  анкор: "Защита форм от спама без CAPTCHA" → /ru/portfolio/zashita-form-ot-spama
+  ссылка проставлена: да
+
+======================================================================
+[ru] uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti  (24354662-e684-4a9c-ad37-3e196d3b40c4)
+  добавляется абзац: Как это выглядит на реальном проекте: Защита форм от спама без CAPTCHA — что именно делали и зачем.
+  анкор: "Защита форм от спама без CAPTCHA" → /ru/portfolio/zashita-form-ot-spama
+  ссылка проставлена: да
+
+======================================================================
+[pl] integracja-cms-i-api  (5ddf5532-8ec3-4bb8-a031-6fd3967aefc3)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Ochrona formularzy przed spamem bez CAPTCHA — co dokładnie zrobiłem i dlaczego.
+  анкор: "Ochrona formularzy przed spamem bez CAPTCHA" → /pl/portfolio/ochrona-formularzy-przed-spamem-bez-captcha
+  ссылка проставлена: да
+
+======================================================================
+[pl] audyt-wydajnosci-i-kodu  (1166b8b4-0d4c-4dc3-a0c2-452422445008)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Ochrona formularzy przed spamem bez CAPTCHA — co dokładnie zrobiłem i dlaczego.
+  анкор: "Ochrona formularzy przed spamem bez CAPTCHA" → /pl/portfolio/ochrona-formularzy-przed-spamem-bez-captcha
+  ссылка проставлена: да
+
+======================================================================
+[en] website-design-for-models  (636f4976-f588-4f6c-a386-23feb6570fbf)
+  добавляется абзац: A worked example from this niche: Official Website for DJ and Producer Sasha Dith — what was built and why.
+  анкор: "Official Website for DJ and Producer Sasha Dith" → /portfolio/official-website-for-dj-and-producer-sasha-dith
+  ссылка проставлена: да
+
+======================================================================
+[ru] sozdanie-saita-modeli  (835b0b35-29d4-4854-9d8a-bb3c52c0e468)
+  добавляется абзац: Как это выглядит на реальном проекте: Официальный сайт диджея и продюсера Sasha Dith — что именно делали и зачем.
+  анкор: "Официальный сайт диджея и продюсера Sasha Dith" → /ru/portfolio/oficialnyi-sait-sasha-dith
+  ссылка проставлена: да
+
+======================================================================
+[pl] strona-internetowa-dla-modelki  (fc3bbb10-9408-4ceb-9d00-3a2f22b32b21)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Landing page DJ-a i producenta muzycznego — co dokładnie zrobiłem i dlaczego.
+  анкор: "Landing page DJ-a i producenta muzycznego" → /pl/portfolio/landing-page-dj-i-producenta-muzycznego
+  ссылка проставлена: да
+
+======================================================================
+[en] photographer-website  (singlepage-photographer)
+  добавляется абзац: A worked example from this niche: Develop and optimize a personal website with SEO — what was built and why.
+  анкор: "Develop and optimize a personal website with SEO" → /portfolio/develop-and-optimize-a-personal-website-with-seo
+  ссылка проставлена: да
+
+======================================================================
+[ru] sait-dlya-fotografa  (singlepage-photographer.ru)
+  добавляется абзац: Как это выглядит на реальном проекте: Разработка и SEO оптимизация персонального сайта — что именно делали и зачем.
+  анкор: "Разработка и SEO оптимизация персонального сайта" → /ru/portfolio/razrabotka-i-seo-optimizaciya-personalnogo-saita
+  ссылка проставлена: да
+
+======================================================================
+[pl] strona-dla-fotografa  (singlepage-photographer.pl)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Tworzenie i optymalizacja strony osobistej z SEO — co dokładnie zrobiłem i dlaczego.
+  анкор: "Tworzenie i optymalizacja strony osobistej z SEO" → /pl/portfolio/tworzenie-i-optymalizacja-strony-osobistej-z-seo
+  ссылка проставлена: да
+
+======================================================================
+[en] website-development  (8701994a-d9ba-4230-84b5-2e491b87cb61)
+  добавляется абзац: A worked example from this niche: Digital Agency Website Development — what was built and why.
+  анкор: "Digital Agency Website Development" → /portfolio/proscore-agency-website-development
+  ссылка проставлена: да
+
+======================================================================
+[ru] razrabotka-saitov  (21d6001f-5181-4249-aef2-5ed9425bf81d)
+  добавляется абзац: Как это выглядит на реальном проекте: Создание сайта digital-агентства — что именно делали и зачем.
+  анкор: "Создание сайта digital-агентства" → /ru/portfolio/sozdanie-saita-digital-agentstva-proscore
+  ссылка проставлена: да
+
+======================================================================
+[pl] tworzenie-stron-internetowych  (b35e57c9-9cce-4ebd-ab05-5121ffa38fef)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Stworzenie strony internetowej dla agencji marketingowej — co dokładnie zrobiłem i dlaczego.
+  анкор: "Stworzenie strony internetowej dla agencji marketingowej" → /pl/portfolio/stworzenie-strony-internetowej-dla-agencji-marketingowej-proscore
+  ссылка проставлена: да
+
+======================================================================
+[en] web-development-warsaw  (singlepage-web-development-warsaw)
+  добавляется абзац: A worked example from this niche: Renovation and investment website with a premium feel and 96/98/100/100 performance — what was built and why.
+  анкор: "Renovation and investment website with a premium feel and 96/98/100/100 performance" → /portfolio/renovation-and-investment-website-with-premium-design
+  ссылка проставлена: да
+
+======================================================================
+[ru] razrabotka-saitov-varshava  (singlepage-web-development-warsaw.ru)
+  добавляется абзац: Как это выглядит на реальном проекте: Сайт для ремонтной и инвестиционной компании с результатом 96/98/100/100 — что именно делали и зачем.
+  анкор: "Сайт для ремонтной и инвестиционной компании с результатом 96/98/100/100" → /ru/portfolio/sayt-dlya-remontnoy-i-investicionnoy-kompanii
+  ссылка проставлена: да
+
+======================================================================
+[pl] tworzenie-stron-internetowych-warszawa  (singlepage-web-development-warsaw.pl)
+  добавляется абзац: Jak to wygląda na realnym projekcie: Strona dla firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100 — co dokładnie zrobiłem i dlaczego.
+  анкор: "Strona dla firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100" → /pl/portfolio/strona-dla-firmy-remontowej-i-inwestycyjnej-warszawa
+  ссылка проставлена: да
+
+Запланировано: 33. Применено: 0.
+Это сухой прогон. Применить: node scripts/apply-portfolio-links.cjs --apply

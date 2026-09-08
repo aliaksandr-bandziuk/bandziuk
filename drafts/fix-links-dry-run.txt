@@ -1,0 +1,31 @@
+
+======================================================================
+/pl/oferty/pozycjonowanie-lokalne  (service-local-seo.pl)
+  было : /pl/oferty/lokacii
+  стало: /pl/oferty/lokalizacje
+  причина: русский слаг lokacii в польском пути — польский хаб называется lokalizacje
+  найдено вхождений: 1
+
+======================================================================
+/pl/oferty/seo-miedzynarodowe  (service-international-seo.pl)
+  было : /pl/oferty/lokacii
+  стало: /pl/oferty/lokalizacje
+  причина: то же самое
+  найдено вхождений: 1
+
+======================================================================
+/pl/oferty/pozycjonowanie-kliniki-na-pacjentow-z-niemiec  (singlepage-medtourism-de-pl)
+  было : /pl/oferty/pozycjonowanie-na-rynek-niemiecki
+  стало: /pl/oferty/lokalizacje/pozycjonowanie-na-rynek-niemiecki
+  причина: пропущен сегмент lokalizacje в пути
+  найдено вхождений: 1
+
+======================================================================
+/portfolio/web-development-a-website-for-internet-prowider  (8b0ed15c-bf8e-4659-80a4-6accd7f11fcc)
+  заголовок было : Web Development a Website for Internet Prowider
+  заголовок стало: Website Development for an Internet Provider
+  причина: опечатка Prowider плюс сломанная грамматика; заголовок рендерится как H1
+  слаг НЕ меняется: web-development-a-website-for-internet-prowider
+
+Запланировано: 4. Применено: 0.
+Это сухой прогон. Применить: node scripts/fix-broken-links.cjs --apply

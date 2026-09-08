@@ -45,8 +45,22 @@ async function main() {
     }
   `);
 
+  // Портфолио: анализатор графа ссылок читает _inventory-portfolio.json,
+  // а этот скрипт его раньше не писал — analyze-link-graph.cjs падал на старте.
+  const portfolio = await client.fetch(`
+    *[_type == "portfolio" && defined(slug)] | order(language asc, title asc) {
+      _id,
+      _createdAt,
+      language,
+      title,
+      "slug": ${SLUG_PROJ},
+      contentBlocks
+    }
+  `);
+
   console.log(`\n=== COUNTS ===`);
   console.log(`blog docs: ${blogs.length}`);
+  console.log(`portfolio docs: ${portfolio.length}`);
   console.log(`singlepage docs: ${singlepages.length}`);
   console.log(`blogs with null slug: ${blogs.filter((b) => !b.slug).length}`);
   console.log(`singlepages with null slug: ${singlepages.filter((d) => !d.slug).length}`);
@@ -59,7 +73,8 @@ async function main() {
 
   fs.writeFileSync(path.resolve(__dirname, "../drafts/_inventory-blogs.json"), JSON.stringify(blogs, null, 2));
   fs.writeFileSync(path.resolve(__dirname, "../drafts/_inventory-singlepages.json"), JSON.stringify(singlepages, null, 2));
-  console.log("\nWritten to drafts/_inventory-blogs.json and drafts/_inventory-singlepages.json");
+  fs.writeFileSync(path.resolve(__dirname, "../drafts/_inventory-portfolio.json"), JSON.stringify(portfolio, null, 2));
+  console.log("\nWritten to drafts/_inventory-{blogs,singlepages,portfolio}.json");
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });

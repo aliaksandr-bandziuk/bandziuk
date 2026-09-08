@@ -1,0 +1,51 @@
+
+======================================================================
+[en] real-estate-agency-website  (singlepage-real-estate-agency-website)
+  вставляется после блока: gridBlock (позиция 5 из 7)
+  H2: 1, H3: 2, абзацев: 6, ссылок: 1
+  слов: 364
+  первый заголовок: Why a real estate agency website loses to the property portals it competes with
+  ожидалось ссылок: 1, проставлено: 1
+
+======================================================================
+[ru] sait-dlya-agentstva-nedvizhimosti  (singlepage-real-estate-agency-website.ru)
+  вставляется после блока: gridBlock (позиция 5 из 7)
+  H2: 1, H3: 2, абзацев: 6, ссылок: 1
+  слов: 291
+  первый заголовок: Почему сайт агентства недвижимости проигрывает порталам, с которыми конкурирует
+  ожидалось ссылок: 1, проставлено: 1
+
+======================================================================
+[pl] strona-dla-agencji-nieruchomosci  (singlepage-real-estate-agency-website.pl)
+  вставляется после блока: gridBlock (позиция 5 из 7)
+  H2: 1, H3: 2, абзацев: 6, ссылок: 1
+  слов: 303
+  первый заголовок: Dlaczego strona agencji nieruchomości przegrywa z portalami, z którymi konkuruje
+  ожидалось ссылок: 1, проставлено: 1
+
+======================================================================
+[en] property-developer-website  (singlepage-property-developer-website)
+  вставляется после блока: gridBlock (позиция 5 из 7)
+  H2: 1, H3: 2, абзацев: 6, ссылок: 1
+  слов: 351
+  первый заголовок: Why a property developer website has to sell something the buyer cannot see yet
+  ожидалось ссылок: 1, проставлено: 1
+
+======================================================================
+[ru] sait-dlya-zastroishchika  (singlepage-property-developer-website.ru)
+  вставляется после блока: gridBlock (позиция 5 из 7)
+  H2: 1, H3: 2, абзацев: 6, ссылок: 1
+  слов: 268
+  первый заголовок: Почему сайт застройщика продаёт то, чего покупатель ещё не может увидеть
+  ожидалось ссылок: 1, проставлено: 1
+
+======================================================================
+[pl] strona-dla-dewelopera  (singlepage-property-developer-website.pl)
+  вставляется после блока: gridBlock (позиция 5 из 7)
+  H2: 1, H3: 2, абзацев: 6, ссылок: 1
+  слов: 284
+  первый заголовок: Dlaczego strona dewelopera sprzedaje to, czego kupujący jeszcze nie może zobaczyć
+  ожидалось ссылок: 1, проставлено: 1
+
+Запланировано: 6. Применено: 0.
+Это сухой прогон. Применить: node scripts/apply-realestate-text.cjs --apply

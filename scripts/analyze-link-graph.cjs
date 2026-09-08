@@ -26,11 +26,38 @@ for (const p of portfolio) {
   urlMap[pth] = { id: p._id, type: "portfolio", lang: p.language, title: p.title };
   byId[p._id] = { path: pth, type: "portfolio", lang: p.language, title: p.title, slug: p.slug };
 }
+// Полная цепочка предков по локали: слаг -> [предок, ..., слаг].
+// Раньше путь строился с ОДНИМ уровнем родителя, поэтому трёхсегментные адреса
+// (/services/locations/seo-for-german-market) в карте не находились, и 63 рабочие
+// ссылки из 66 попадали в «нерезолвнутые». Та же ошибка одного уровня, что была
+// в [...slug]/page.tsx.
+const chainByLangSlug = {};
+for (const lang of ["en", "pl", "ru"]) {
+  const inLang = singlepages.filter((d) => d.language === lang && d.slug);
+  const chains = {};
+  inLang.forEach((d) => { if (!d.parentPage) chains[d.slug] = [d.slug]; });
+  let added = true;
+  while (added) {
+    added = false;
+    inLang.forEach((d) => {
+      const parent = d.parentPage ? d.parentPage.slug : null;
+      if (parent && chains[parent] && !chains[d.slug]) {
+        chains[d.slug] = [...chains[parent], d.slug];
+        added = true;
+      }
+    });
+  }
+  chainByLangSlug[lang] = chains;
+}
+
 for (const s of singlepages) {
   const parentSlug = s.parentPage ? s.parentPage.slug : null;
-  const p = parentSlug
-    ? `${localePrefix(s.language)}/${parentSlug}/${s.slug}`
-    : `${localePrefix(s.language)}/${s.slug}`;
+  const chain = (chainByLangSlug[s.language] || {})[s.slug];
+  const p = chain
+    ? `${localePrefix(s.language)}/${chain.join("/")}`
+    : parentSlug
+      ? `${localePrefix(s.language)}/${parentSlug}/${s.slug}`
+      : `${localePrefix(s.language)}/${s.slug}`;
   urlMap[p] = { id: s._id, type: "singlepage", lang: s.language, title: s.title };
   byId[s._id] = { path: p, type: "singlepage", lang: s.language, title: s.title, slug: s.slug, pageType: s.pageType, parentSlug };
   // Also register the flat (pre-redirect) form so old/flat inline links still resolve in the audit.

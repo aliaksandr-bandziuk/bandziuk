@@ -1,0 +1,3572 @@
+{
+  "49046caa-9185-4bba-a350-700b5eac9c86": {
+    "path": "/blog/how-to-define-a-bad-seo-specialist",
+    "type": "blog",
+    "lang": "en",
+    "title": "How to define a Bad SEO Specialist",
+    "slug": "how-to-define-a-bad-seo-specialist",
+    "publishedAt": "2026-02-09T15:33:34.210Z",
+    "category": "Business & Freelancing"
+  },
+  "cb90f4d1-2c77-4561-9449-50bb32737505": {
+    "path": "/blog/ai-response-risks",
+    "type": "blog",
+    "lang": "en",
+    "title": "AI Response Risks: How AI Can Misrepresent Your Brand and How to Protect It",
+    "slug": "ai-response-risks",
+    "publishedAt": "2026-02-18T14:29:20.824Z",
+    "category": "AI for SEO & Web"
+  },
+  "870bdfc3-bad0-458a-ae8d-5b8bf87636af": {
+    "path": "/blog/how-i-automated-website-page-production",
+    "type": "blog",
+    "lang": "en",
+    "title": "How I Automated Website Page Production and Reduced Operational Costs by 75%",
+    "slug": "how-i-automated-website-page-production",
+    "publishedAt": "2026-02-20T09:00:20.770Z",
+    "category": "Case Studies"
+  },
+  "53f4a797-8b17-4427-9b13-74b8c4db71e0": {
+    "path": "/blog/why-lawyer-needs-a-website",
+    "type": "blog",
+    "lang": "en",
+    "title": "Why Every Lawyer Needs a Website: The Complete 2026 Guide",
+    "slug": "why-lawyer-needs-a-website",
+    "publishedAt": "2026-02-23T10:33:54.489Z",
+    "category": "Analytics"
+  },
+  "ded57929-434f-4c23-857a-52c1a0814b6e": {
+    "path": "/blog/website-development-cost-in-cyprus",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much Does Website Development Cost in Cyprus in 2026?",
+    "slug": "website-development-cost-in-cyprus",
+    "publishedAt": "2026-02-24T15:17:37.710Z",
+    "category": "Business & Freelancing"
+  },
+  "1d442fbd-0483-48e3-9063-7fdef9e1d322": {
+    "path": "/blog/real-estate-website-cyprus-case-study",
+    "type": "blog",
+    "lang": "en",
+    "title": "How a Professional Website Helps a Real Estate Agency in Cyprus Attract Premium International Clients",
+    "slug": "real-estate-website-cyprus-case-study",
+    "publishedAt": "2026-02-25T09:50:45.859Z",
+    "category": "Case Studies"
+  },
+  "blog-developer-website-cost": {
+    "path": "/blog/property-developer-website-cost",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much a Property Developer Website Costs: A Complete Guide to Price and Features",
+    "slug": "property-developer-website-cost",
+    "publishedAt": "2026-06-29T10:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-agency-website-cost": {
+    "path": "/blog/real-estate-agency-website-cost",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much a Real Estate Agency Website Costs: A Complete Guide to Price and Features",
+    "slug": "real-estate-agency-website-cost",
+    "publishedAt": "2026-06-30T10:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-vibecoding-rescue-case": {
+    "path": "/blog/how-vibecoding-almost-killed-a-website",
+    "type": "blog",
+    "lang": "en",
+    "title": "How I Rescued a Site That Uncontrolled Vibecoding Almost Killed",
+    "slug": "how-vibecoding-almost-killed-a-website",
+    "publishedAt": "2026-07-01T10:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-psychologist-website-cost": {
+    "path": "/blog/psychologist-website-cost",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much a Website for a Psychologist or Therapist Costs: A Complete Pricing Guide",
+    "slug": "psychologist-website-cost",
+    "publishedAt": "2026-07-02T10:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-psychologist-website-checklist": {
+    "path": "/blog/what-a-psychologist-website-needs",
+    "type": "blog",
+    "lang": "en",
+    "title": "What a Psychologist Website Needs: A Section-by-Section Breakdown",
+    "slug": "what-a-psychologist-website-needs",
+    "publishedAt": "2026-07-10T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-auto-repair-website-cost": {
+    "path": "/blog/auto-repair-shop-website-cost",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much an Auto Repair Shop Website Costs: Price and Features",
+    "slug": "auto-repair-shop-website-cost",
+    "publishedAt": "2026-07-10T13:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-construction-website-cost": {
+    "path": "/blog/construction-company-website-cost",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much a Construction Company Website Costs: Price and Scope",
+    "slug": "construction-company-website-cost",
+    "publishedAt": "2026-07-10T14:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-ai-brand-audit": {
+    "path": "/blog/how-to-check-what-ai-says-about-your-company",
+    "type": "blog",
+    "lang": "en",
+    "title": "How to Check What AI Assistants Say About Your Company",
+    "slug": "how-to-check-what-ai-says-about-your-company",
+    "publishedAt": "2026-07-13T12:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-beauty-salon-website-cost": {
+    "path": "/blog/beauty-salon-website-cost",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much a Beauty Salon Website Costs: A Complete Pricing Guide",
+    "slug": "beauty-salon-website-cost",
+    "publishedAt": "2026-07-15T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-how-to-choose-developer": {
+    "path": "/blog/how-to-choose-a-web-developer",
+    "type": "blog",
+    "lang": "en",
+    "title": "How to Choose a Web Developer: Questions, Checks and Red Flags",
+    "slug": "how-to-choose-a-web-developer",
+    "publishedAt": "2026-07-17T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-freelancer-vs-agency": {
+    "path": "/blog/freelancer-vs-agency-web-development",
+    "type": "blog",
+    "lang": "en",
+    "title": "Freelancer vs Agency for Web Development: Which to Choose",
+    "slug": "freelancer-vs-agency-web-development",
+    "publishedAt": "2026-07-17T13:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-platform-choice": {
+    "path": "/blog/what-to-build-a-business-website-on",
+    "type": "blog",
+    "lang": "en",
+    "title": "What to Build a Business Website On: WordPress or a Modern Framework",
+    "slug": "what-to-build-a-business-website-on",
+    "publishedAt": "2026-07-17T14:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-seo-cost": {
+    "path": "/blog/how-much-seo-costs",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much SEO Costs: A Complete Pricing Guide",
+    "slug": "how-much-seo-costs",
+    "publishedAt": "2026-07-19T12:00:00Z",
+    "category": "SEO Strategy"
+  },
+  "blog-correct-ai-misinformation": {
+    "path": "/blog/how-to-correct-wrong-information-in-chatgpt",
+    "type": "blog",
+    "lang": "en",
+    "title": "How to Correct Wrong Information About Your Company in ChatGPT and Gemini",
+    "slug": "how-to-correct-wrong-information-in-chatgpt",
+    "publishedAt": "2026-07-20T12:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-ai-outdated-information": {
+    "path": "/blog/where-ai-gets-outdated-information-about-your-company",
+    "type": "blog",
+    "lang": "en",
+    "title": "Where AI Gets Outdated Information About Your Company",
+    "slug": "where-ai-gets-outdated-information-about-your-company",
+    "publishedAt": "2026-07-20T13:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-legal-seo-cost": {
+    "path": "/blog/how-much-legal-seo-costs",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much SEO for a Law Firm Costs: A Complete Pricing Guide",
+    "slug": "how-much-legal-seo-costs",
+    "publishedAt": "2026-07-22T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-found-via-chatgpt": {
+    "path": "/blog/how-clients-find-you-through-chatgpt",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Clients Find Specialists Through ChatGPT: A Real Case and How It Works",
+    "slug": "how-clients-find-you-through-chatgpt",
+    "publishedAt": "2026-07-23T12:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-website-no-leads": {
+    "path": "/blog/why-my-website-gets-no-leads",
+    "type": "blog",
+    "lang": "en",
+    "title": "Why My Website Gets No Leads: A Step-by-Step Diagnosis",
+    "slug": "why-my-website-gets-no-leads",
+    "publishedAt": "2026-07-24T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-slow-website": {
+    "path": "/blog/why-is-my-website-slow",
+    "type": "blog",
+    "lang": "en",
+    "title": "Why Is My Website Slow: What to Do and Where to Start",
+    "slug": "why-is-my-website-slow",
+    "publishedAt": "2026-07-24T13:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-not-showing-in-google": {
+    "path": "/blog/website-not-showing-in-google",
+    "type": "blog",
+    "lang": "en",
+    "title": "Website Not Showing in Google: Finding the Cause and Fixing It",
+    "slug": "website-not-showing-in-google",
+    "publishedAt": "2026-07-24T14:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-redesign-traffic-loss": {
+    "path": "/blog/website-redesign-without-losing-traffic",
+    "type": "blog",
+    "lang": "en",
+    "title": "Website Redesign Without Losing Traffic: What to Check Before, During and After",
+    "slug": "website-redesign-without-losing-traffic",
+    "publishedAt": "2026-07-25T12:00:00Z",
+    "category": "Technical SEO"
+  },
+  "blog-ai-misattribution-competitor": {
+    "path": "/blog/when-ai-attributes-your-features-to-a-competitor",
+    "type": "blog",
+    "lang": "en",
+    "title": "When AI Attributes Your Features to a Competitor",
+    "slug": "when-ai-attributes-your-features-to-a-competitor",
+    "publishedAt": "2026-07-27T12:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-ai-brand-monitoring": {
+    "path": "/blog/how-to-monitor-brand-mentions-in-ai-answers",
+    "type": "blog",
+    "lang": "en",
+    "title": "How to Monitor Brand Mentions in AI Answers",
+    "slug": "how-to-monitor-brand-mentions-in-ai-answers",
+    "publishedAt": "2026-07-27T13:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-builder-vs-custom": {
+    "path": "/blog/website-builder-vs-custom-development",
+    "type": "blog",
+    "lang": "en",
+    "title": "Website Builder vs Custom Development: How to Choose and Not Pay Twice",
+    "slug": "website-builder-vs-custom-development",
+    "publishedAt": "2026-07-29T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-real-estate-agency-checklist": {
+    "path": "/blog/what-a-real-estate-agency-website-needs",
+    "type": "blog",
+    "lang": "en",
+    "title": "What a Real Estate Agency Website Needs: A Checklist",
+    "slug": "what-a-real-estate-agency-website-needs",
+    "publishedAt": "2026-07-29T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-website-build-timeline": {
+    "path": "/blog/how-long-does-it-take-to-build-a-website",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Long It Takes to Build a Website: Realistic Stage-by-Stage Timelines",
+    "slug": "how-long-does-it-take-to-build-a-website",
+    "publishedAt": "2026-07-31T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-multilingual-website-cost": {
+    "path": "/blog/multilingual-website-cost",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much a Multilingual Website Costs: The Real Breakdown",
+    "slug": "multilingual-website-cost",
+    "publishedAt": "2026-07-31T13:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-chatgpt-recommendations": {
+    "path": "/blog/how-to-get-recommended-by-chatgpt",
+    "type": "blog",
+    "lang": "en",
+    "title": "How to Get Recommended by ChatGPT: A Checklist for Businesses",
+    "slug": "how-to-get-recommended-by-chatgpt",
+    "publishedAt": "2026-07-31T14:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-ai-describes-company-unreliable": {
+    "path": "/blog/when-ai-describes-your-company-as-unreliable",
+    "type": "blog",
+    "lang": "en",
+    "title": "When AI Describes Your Company as Unreliable",
+    "slug": "when-ai-describes-your-company-as-unreliable",
+    "publishedAt": "2026-08-03T12:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-ai-distorts-marketing-message": {
+    "path": "/blog/how-ai-answers-distort-your-marketing-message",
+    "type": "blog",
+    "lang": "en",
+    "title": "How AI Answers Distort Your Marketing Message",
+    "slug": "how-ai-answers-distort-your-marketing-message",
+    "publishedAt": "2026-08-03T13:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-branded-traffic-bought-links": {
+    "path": "/blog/branded-traffic-and-bought-links-seo-reports",
+    "type": "blog",
+    "lang": "en",
+    "title": "Branded Traffic and Bought Links: Three Substitutions in SEO Reports",
+    "slug": "branded-traffic-and-bought-links-seo-reports",
+    "publishedAt": "2026-08-07T12:00:00Z",
+    "category": "SEO Strategy"
+  },
+  "blog-high-value-clients-search": {
+    "path": "/blog/high-value-clients-dont-click-ads",
+    "type": "blog",
+    "lang": "en",
+    "title": "High-Value Clients Don't Click Ads: How They Find a Contractor in Google",
+    "slug": "high-value-clients-dont-click-ads",
+    "publishedAt": "2026-08-10T12:00:00Z",
+    "category": "SEO Strategy"
+  },
+  "blog-llms-txt": {
+    "path": "/blog/does-your-site-need-llms-txt",
+    "type": "blog",
+    "lang": "en",
+    "title": "Does Your Site Need an llms.txt File? An Honest Answer",
+    "slug": "does-your-site-need-llms-txt",
+    "publishedAt": "2026-08-14T12:00:00Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-brand-vs-retailers": {
+    "path": "/blog/why-lingerie-brands-lose-to-their-retailers",
+    "type": "blog",
+    "lang": "en",
+    "title": "Why a Lingerie Brand Loses in Search to Its Own Retailers",
+    "slug": "why-lingerie-brands-lose-to-their-retailers",
+    "publishedAt": "2026-08-24T12:00:00Z",
+    "category": "Web Development"
+  },
+  "blog-black-gold-premium": {
+    "path": "/blog/black-and-gold-web-design-no-longer-reads-expensive",
+    "type": "blog",
+    "lang": "en",
+    "title": "Black and Gold Web Design No Longer Reads as Expensive",
+    "slug": "black-and-gold-web-design-no-longer-reads-expensive",
+    "publishedAt": "2026-09-03T12:00:00Z",
+    "category": "Web Development"
+  },
+  "df268cec-62b6-4079-b231-591a5dfbbe07": {
+    "path": "/pl/blog/jak-rozpoznac-kiepskiego-specjaliste-seo",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak rozpoznać kiepskiego specjalistę SEO",
+    "slug": "jak-rozpoznac-kiepskiego-specjaliste-seo",
+    "publishedAt": "2026-02-09T15:33:34.210Z",
+    "category": "Biznes i Freelancing"
+  },
+  "600594dc-8578-41ba-81d8-49af59922ac0": {
+    "path": "/pl/blog/ryzyka-odpowiedzi-ai",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ryzyka odpowiedzi AI: jak AI może błędnie opisać Twoją markę i jak się chronić",
+    "slug": "ryzyka-odpowiedzi-ai",
+    "publishedAt": "2026-02-18T14:29:20.824Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "e0bda01b-1225-4bc7-9be8-e21c024f176c": {
+    "path": "/pl/blog/jak-zautomatyzowalem-tworzenie-stron-w-cms",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak zautomatyzowałem tworzenie stron w CMS i obniżyłem koszty produkcji treści o 75%",
+    "slug": "jak-zautomatyzowalem-tworzenie-stron-w-cms",
+    "publishedAt": "2026-02-20T09:00:20.770Z",
+    "category": "Studia Przypadków"
+  },
+  "d7c4dc47-ce4c-4324-b334-46300222b521": {
+    "path": "/pl/blog/dlaczego-prawnikowi-potrzebna-strona-www",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Dlaczego prawnikowi potrzebna jest strona internetowa — pełny przewodnik",
+    "slug": "dlaczego-prawnikowi-potrzebna-strona-www",
+    "publishedAt": "2026-02-23T10:33:54.489Z",
+    "category": "Analityka"
+  },
+  "70ad1e7c-e5e9-487a-abde-4f24a9105329": {
+    "path": "/pl/blog/strona-agencji-nieruchomosci-cypr",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak strona internetowa pomaga agencji nieruchomości pozyskiwać klientów na Cyprze",
+    "slug": "strona-agencji-nieruchomosci-cypr",
+    "publishedAt": "2026-02-25T09:50:45.859Z",
+    "category": "Studia Przypadków"
+  },
+  "blog-developer-website-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-strona-dla-dewelopera",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje strona dla dewelopera: kompletny przewodnik po cenie i funkcjach",
+    "slug": "ile-kosztuje-strona-dla-dewelopera",
+    "publishedAt": "2026-06-29T10:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-agency-website-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-strona-dla-agencji-nieruchomosci",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje strona dla agencji nieruchomości: kompletny przewodnik po cenie i funkcjach",
+    "slug": "ile-kosztuje-strona-dla-agencji-nieruchomosci",
+    "publishedAt": "2026-06-30T10:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-vibecoding-rescue-case.pl": {
+    "path": "/pl/blog/jak-vibecoding-prawie-zabil-strone",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak uratowałem stronę, którą niemal zabił niekontrolowany vibecoding",
+    "slug": "jak-vibecoding-prawie-zabil-strone",
+    "publishedAt": "2026-07-01T10:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-psychologist-website-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-strona-dla-psychologa",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje strona dla psychologa i psychoterapeuty: kompletny przewodnik po cenie",
+    "slug": "ile-kosztuje-strona-dla-psychologa",
+    "publishedAt": "2026-07-02T10:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-psychologist-website-checklist.pl": {
+    "path": "/pl/blog/co-powinno-byc-na-stronie-psychologa",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Co powinno być na stronie psychologa: rozbiór sekcja po sekcji",
+    "slug": "co-powinno-byc-na-stronie-psychologa",
+    "publishedAt": "2026-07-10T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-auto-repair-website-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-strona-dla-warsztatu-samochodowego",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje strona dla warsztatu samochodowego: rozbiór ceny i funkcji",
+    "slug": "ile-kosztuje-strona-dla-warsztatu-samochodowego",
+    "publishedAt": "2026-07-10T13:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-construction-website-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-strona-dla-firmy-budowlanej",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje strona dla firmy budowlanej: cena i zakres prac",
+    "slug": "ile-kosztuje-strona-dla-firmy-budowlanej",
+    "publishedAt": "2026-07-10T14:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-ai-brand-audit.pl": {
+    "path": "/pl/blog/co-asystenci-ai-mowia-o-twojej-firmie",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Co asystenci AI mówią o Twojej firmie: jak to sprawdzić",
+    "slug": "co-asystenci-ai-mowia-o-twojej-firmie",
+    "publishedAt": "2026-07-13T12:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-beauty-salon-website-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-strona-dla-salonu-kosmetycznego",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje strona dla salonu kosmetycznego: kompletny przewodnik po cenie",
+    "slug": "ile-kosztuje-strona-dla-salonu-kosmetycznego",
+    "publishedAt": "2026-07-15T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-how-to-choose-developer.pl": {
+    "path": "/pl/blog/jak-wybrac-wykonawce-strony-internetowej",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak wybrać wykonawcę strony internetowej: pytania, weryfikacja i czerwone flagi",
+    "slug": "jak-wybrac-wykonawce-strony-internetowej",
+    "publishedAt": "2026-07-17T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-freelancer-vs-agency.pl": {
+    "path": "/pl/blog/freelancer-czy-agencja",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Freelancer czy agencja: komu zlecić stronę internetową",
+    "slug": "freelancer-czy-agencja",
+    "publishedAt": "2026-07-17T13:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-platform-choice.pl": {
+    "path": "/pl/blog/na-czym-zbudowac-strone-firmowa",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Na czym zbudować stronę firmową: WordPress czy nowoczesny framework",
+    "slug": "na-czym-zbudowac-strone-firmowa",
+    "publishedAt": "2026-07-17T14:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-seo-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-pozycjonowanie-strony",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje SEO: kompletny przewodnik po cenach",
+    "slug": "ile-kosztuje-pozycjonowanie-strony",
+    "publishedAt": "2026-07-19T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-correct-ai-misinformation.pl": {
+    "path": "/pl/blog/jak-poprawic-bledne-dane-o-firmie-w-chatgpt",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak poprawić błędne informacje o firmie w ChatGPT i Gemini",
+    "slug": "jak-poprawic-bledne-dane-o-firmie-w-chatgpt",
+    "publishedAt": "2026-07-20T12:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-ai-outdated-information.pl": {
+    "path": "/pl/blog/skad-ai-bierze-nieaktualne-informacje-o-firmie",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Skąd AI bierze nieaktualne informacje o Twojej firmie",
+    "slug": "skad-ai-bierze-nieaktualne-informacje-o-firmie",
+    "publishedAt": "2026-07-20T13:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-legal-seo-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-seo-dla-kancelarii-prawnej",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje pozycjonowanie SEO strony kancelarii prawnej",
+    "slug": "ile-kosztuje-seo-dla-kancelarii-prawnej",
+    "publishedAt": "2026-07-22T12:00:00Z",
+    "category": "Strategia SEO"
+  },
+  "blog-found-via-chatgpt.pl": {
+    "path": "/pl/blog/jak-klienci-znajduja-specjalistow-przez-chatgpt",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak klienci znajdują specjalistów przez ChatGPT: prawdziwy case i rozbiór mechaniki",
+    "slug": "jak-klienci-znajduja-specjalistow-przez-chatgpt",
+    "publishedAt": "2026-07-23T12:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-website-no-leads.pl": {
+    "path": "/pl/blog/dlaczego-strona-nie-generuje-zapytan",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Dlaczego strona nie generuje zapytań: diagnoza krok po kroku",
+    "slug": "dlaczego-strona-nie-generuje-zapytan",
+    "publishedAt": "2026-07-24T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-slow-website.pl": {
+    "path": "/pl/blog/wolno-ladujaca-sie-strona",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Wolno ładująca się strona: co zrobić i od czego zacząć",
+    "slug": "wolno-ladujaca-sie-strona",
+    "publishedAt": "2026-07-24T13:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-not-showing-in-google.pl": {
+    "path": "/pl/blog/strona-nie-pojawia-sie-w-google",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Strona nie pojawia się w Google: jak znaleźć przyczynę i co zrobić",
+    "slug": "strona-nie-pojawia-sie-w-google",
+    "publishedAt": "2026-07-24T14:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-redesign-traffic-loss.pl": {
+    "path": "/pl/blog/redesign-strony-bez-utraty-ruchu",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Redesign strony bez utraty ruchu: co sprawdzić przed, w trakcie i po",
+    "slug": "redesign-strony-bez-utraty-ruchu",
+    "publishedAt": "2026-07-25T12:00:00Z",
+    "category": "Techniczne SEO"
+  },
+  "blog-ai-misattribution-competitor.pl": {
+    "path": "/pl/blog/ai-przypisuje-wasze-funkcje-konkurentowi",
+    "type": "blog",
+    "lang": "pl",
+    "title": "AI przypisuje Wasze funkcje konkurentowi: dlaczego i co z tym zrobić",
+    "slug": "ai-przypisuje-wasze-funkcje-konkurentowi",
+    "publishedAt": "2026-07-27T12:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-ai-brand-monitoring.pl": {
+    "path": "/pl/blog/monitoring-wzmianek-o-marce-w-odpowiedziach-ai",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Monitoring wzmianek o marce w odpowiedziach AI: jak go prowadzić",
+    "slug": "monitoring-wzmianek-o-marce-w-odpowiedziach-ai",
+    "publishedAt": "2026-07-27T13:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-builder-vs-custom.pl": {
+    "path": "/pl/blog/kreator-stron-czy-strona-na-zamowienie",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Kreator stron czy strona na zamówienie: jak wybrać i nie zapłacić dwa razy",
+    "slug": "kreator-stron-czy-strona-na-zamowienie",
+    "publishedAt": "2026-07-29T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-real-estate-agency-checklist.pl": {
+    "path": "/pl/blog/co-powinno-byc-na-stronie-biura-nieruchomosci",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Co powinno być na stronie biura nieruchomości: checklista",
+    "slug": "co-powinno-byc-na-stronie-biura-nieruchomosci",
+    "publishedAt": "2026-07-29T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-website-build-timeline.pl": {
+    "path": "/pl/blog/ile-trwa-stworzenie-strony-internetowej",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile trwa stworzenie strony internetowej: realne terminy według etapów",
+    "slug": "ile-trwa-stworzenie-strony-internetowej",
+    "publishedAt": "2026-07-31T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-multilingual-website-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-strona-wielojezyczna",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje strona wielojęzyczna: z czego składa się cena",
+    "slug": "ile-kosztuje-strona-wielojezyczna",
+    "publishedAt": "2026-07-31T13:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-chatgpt-recommendations.pl": {
+    "path": "/pl/blog/jak-trafic-do-rekomendacji-chatgpt",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak trafić do rekomendacji ChatGPT: checklista dla firm",
+    "slug": "jak-trafic-do-rekomendacji-chatgpt",
+    "publishedAt": "2026-07-31T14:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-ai-describes-company-unreliable.pl": {
+    "path": "/pl/blog/gdy-ai-opisuje-wasza-firme-jako-niewiarygodna",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Gdy AI opisuje Waszą firmę jako niewiarygodną",
+    "slug": "gdy-ai-opisuje-wasza-firme-jako-niewiarygodna",
+    "publishedAt": "2026-08-03T12:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-ai-distorts-marketing-message.pl": {
+    "path": "/pl/blog/jak-odpowiedzi-ai-znieksztalcaja-przekaz-marketingowy",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak odpowiedzi AI zniekształcają Wasz przekaz marketingowy",
+    "slug": "jak-odpowiedzi-ai-znieksztalcaja-przekaz-marketingowy",
+    "publishedAt": "2026-08-03T13:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-branded-traffic-bought-links.pl": {
+    "path": "/pl/blog/ruch-brandowy-i-kupione-linki-w-raportach-seo",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ruch brandowy i kupione linki: trzy podmiany w raportach z pozycjonowania strony",
+    "slug": "ruch-brandowy-i-kupione-linki-w-raportach-seo",
+    "publishedAt": "2026-08-07T12:00:00Z",
+    "category": "Strategia SEO"
+  },
+  "blog-high-value-clients-search.pl": {
+    "path": "/pl/blog/drodzy-klienci-nie-klikaja-w-reklamy",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Drodzy klienci nie klikają w reklamy: jak szukają wykonawcy w Google",
+    "slug": "drodzy-klienci-nie-klikaja-w-reklamy",
+    "publishedAt": "2026-08-10T12:00:00Z",
+    "category": "Strategia SEO"
+  },
+  "blog-llms-txt.pl": {
+    "path": "/pl/blog/czy-strona-potrzebuje-pliku-llms-txt",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Czy Twoja strona potrzebuje pliku llms.txt? Uczciwa odpowiedź",
+    "slug": "czy-strona-potrzebuje-pliku-llms-txt",
+    "publishedAt": "2026-08-14T12:00:00Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-brand-vs-retailers.pl": {
+    "path": "/pl/blog/dlaczego-marka-bielizny-przegrywa-z-detalistami",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Dlaczego marka bielizny przegrywa w wyszukiwarce z własnymi detalistami",
+    "slug": "dlaczego-marka-bielizny-przegrywa-z-detalistami",
+    "publishedAt": "2026-08-24T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-black-gold-premium.pl": {
+    "path": "/pl/blog/czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Czarno-złoty projekt strony nie czyta się już jako drogi",
+    "slug": "czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi",
+    "publishedAt": "2026-09-03T12:00:00Z",
+    "category": "Tworzenie Stron"
+  },
+  "90cd9906-6186-4afd-be5c-1d1243f2c844": {
+    "path": "/ru/blog/kak-ponyat-chto-pered-vami-plokhoi-seo-specialist",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как понять, что перед вами плохой SEO-специалист: глубокий разбор и признаки",
+    "slug": "kak-ponyat-chto-pered-vami-plokhoi-seo-specialist",
+    "publishedAt": "2026-02-09T15:33:34.210Z",
+    "category": "Бизнес и фриланс"
+  },
+  "5df13421-2160-4793-8efe-4b3d283dcf31": {
+    "path": "/ru/blog/riski-ai-otvetov",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Риски AI-ответов: как ИИ может “соврать” про ваш бренд и как защититься",
+    "slug": "riski-ai-otvetov",
+    "publishedAt": "2026-02-18T14:29:20.824Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "e4b050be-f977-4602-9438-38ffaa543169": {
+    "path": "/ru/blog/kak-ya-avtomatiziroval-sozdanie-stranic-v-cms",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как я автоматизировал создание страниц в CMS и сократил затраты на производство контента на 75%",
+    "slug": "kak-ya-avtomatiziroval-sozdanie-stranic-v-cms",
+    "publishedAt": "2026-02-20T09:00:20.770Z",
+    "category": "Кейсы"
+  },
+  "d7738e6f-7b91-4e01-9f6a-0fea502450b6": {
+    "path": "/ru/blog/zachem-advokatu-sait",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Зачем адвокату сайт и как он помогает привлекать клиентов",
+    "slug": "zachem-advokatu-sait",
+    "publishedAt": "2026-02-23T10:33:54.489Z",
+    "category": "Аналитика"
+  },
+  "996d404e-2638-48ec-95f3-9ef5c06bf74e": {
+    "path": "/ru/blog/skolko-stoit-sozdanie-saita-na-kipre",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит создание сайта на Кипре в 2026 году",
+    "slug": "skolko-stoit-sozdanie-saita-na-kipre",
+    "publishedAt": "2026-02-24T15:17:37.710Z",
+    "category": "Бизнес и фриланс"
+  },
+  "2f9b4f91-19e4-41c0-8208-9ec3a7cd1856": {
+    "path": "/ru/blog/sait-agentstva-nedvizhimosti-kipr-keis",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как сайт помогает агентству недвижимости на Кипре привлекать премиум-клиентов",
+    "slug": "sait-agentstva-nedvizhimosti-kipr-keis",
+    "publishedAt": "2026-02-25T09:50:45.859Z",
+    "category": "Кейсы"
+  },
+  "blog-developer-website-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-sait-zastroishchika",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит сайт для застройщика: полное руководство по цене и функционалу",
+    "slug": "skolko-stoit-sait-zastroishchika",
+    "publishedAt": "2026-06-29T10:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-agency-website-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-sait-agentstva-nedvizhimosti",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит сайт для агентства недвижимости: полное руководство по цене и функционалу",
+    "slug": "skolko-stoit-sait-agentstva-nedvizhimosti",
+    "publishedAt": "2026-06-30T10:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-vibecoding-rescue-case.ru": {
+    "path": "/ru/blog/kak-vaibkoding-pochti-ubil-sait",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как я спас сайт, который почти убил бесконтрольный вайбкодинг",
+    "slug": "kak-vaibkoding-pochti-ubil-sait",
+    "publishedAt": "2026-07-01T10:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-psychologist-website-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-sait-psihologa",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит сайт для психолога и психотерапевта: полное руководство по цене",
+    "slug": "skolko-stoit-sait-psihologa",
+    "publishedAt": "2026-07-02T10:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-psychologist-website-checklist.ru": {
+    "path": "/ru/blog/chto-dolzhno-byt-na-saite-psihologa",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Что должно быть на сайте психолога: разбор по разделам",
+    "slug": "chto-dolzhno-byt-na-saite-psihologa",
+    "publishedAt": "2026-07-10T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-auto-repair-website-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-sait-dlya-avtoservisa",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит сайт для автосервиса: разбор цены и функций",
+    "slug": "skolko-stoit-sait-dlya-avtoservisa",
+    "publishedAt": "2026-07-10T13:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-construction-website-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-sait-dlya-stroitelnoy-kompanii",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит сайт для строительной компании: цена и что в неё входит",
+    "slug": "skolko-stoit-sait-dlya-stroitelnoy-kompanii",
+    "publishedAt": "2026-07-10T14:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-ai-brand-audit.ru": {
+    "path": "/ru/blog/chto-ii-assistenty-govoryat-o-vashey-kompanii",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Что ИИ-ассистенты говорят о вашей компании: аудит",
+    "slug": "chto-ii-assistenty-govoryat-o-vashey-kompanii",
+    "publishedAt": "2026-07-13T12:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-beauty-salon-website-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-sait-salona-krasoty",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит сайт салона красоты: полное руководство по цене",
+    "slug": "skolko-stoit-sait-salona-krasoty",
+    "publishedAt": "2026-07-15T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-how-to-choose-developer.ru": {
+    "path": "/ru/blog/kak-vybrat-razrabotchika-saita",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как выбрать разработчика сайта: вопросы, проверки и красные флаги",
+    "slug": "kak-vybrat-razrabotchika-saita",
+    "publishedAt": "2026-07-17T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-freelancer-vs-agency.ru": {
+    "path": "/ru/blog/frilanser-ili-agentstvo",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Фрилансер или агентство для разработки сайта: что выбрать",
+    "slug": "frilanser-ili-agentstvo",
+    "publishedAt": "2026-07-17T13:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-platform-choice.ru": {
+    "path": "/ru/blog/na-chem-delat-sait-biznesu",
+    "type": "blog",
+    "lang": "ru",
+    "title": "На чём делать сайт бизнесу: WordPress или современный фреймворк",
+    "slug": "na-chem-delat-sait-biznesu",
+    "publishedAt": "2026-07-17T14:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-seo-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-prodvizhenie-saita",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит продвижение сайта: полное руководство по ценам на SEO",
+    "slug": "skolko-stoit-prodvizhenie-saita",
+    "publishedAt": "2026-07-19T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-correct-ai-misinformation.ru": {
+    "path": "/ru/blog/kak-ispravit-nevernye-dannye-o-kompanii-v-chatgpt",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как исправить неверные данные о компании в ChatGPT и Gemini",
+    "slug": "kak-ispravit-nevernye-dannye-o-kompanii-v-chatgpt",
+    "publishedAt": "2026-07-20T12:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-ai-outdated-information.ru": {
+    "path": "/ru/blog/otkuda-ii-beryot-ustarevshie-svedeniya-o-kompanii",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Откуда ИИ берёт устаревшие сведения о вашей компании",
+    "slug": "otkuda-ii-beryot-ustarevshie-svedeniya-o-kompanii",
+    "publishedAt": "2026-07-20T13:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-legal-seo-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-seo-yuristov",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит SEO-продвижение сайта юридической компании",
+    "slug": "skolko-stoit-seo-yuristov",
+    "publishedAt": "2026-07-22T12:00:00Z",
+    "category": "SEO-стратегия"
+  },
+  "blog-found-via-chatgpt.ru": {
+    "path": "/ru/blog/kak-klienty-nahodyat-cherez-chatgpt",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как клиенты находят специалистов через ChatGPT: реальный кейс и разбор механики",
+    "slug": "kak-klienty-nahodyat-cherez-chatgpt",
+    "publishedAt": "2026-07-23T12:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-website-no-leads.ru": {
+    "path": "/ru/blog/pochemu-sait-ne-prinosit-zayavok",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Почему сайт не приносит заявок: диагностика по шагам",
+    "slug": "pochemu-sait-ne-prinosit-zayavok",
+    "publishedAt": "2026-07-24T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-slow-website.ru": {
+    "path": "/ru/blog/sait-medlenno-zagruzhaetsya",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сайт медленно загружается: что делать и с чего начать",
+    "slug": "sait-medlenno-zagruzhaetsya",
+    "publishedAt": "2026-07-24T13:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-not-showing-in-google.ru": {
+    "path": "/ru/blog/saita-net-v-poiske-google",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сайта нет в поиске Google: как найти причину и что делать",
+    "slug": "saita-net-v-poiske-google",
+    "publishedAt": "2026-07-24T14:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-redesign-traffic-loss.ru": {
+    "path": "/ru/blog/redizayn-sayta-bez-poteri-trafika",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Редизайн сайта без потери трафика: что проверить до, во время и после",
+    "slug": "redizayn-sayta-bez-poteri-trafika",
+    "publishedAt": "2026-07-25T12:00:00Z",
+    "category": "Техническое SEO"
+  },
+  "blog-ai-misattribution-competitor.ru": {
+    "path": "/ru/blog/ii-pripisyvaet-vashi-funkcii-konkurentu",
+    "type": "blog",
+    "lang": "ru",
+    "title": "ИИ приписывает ваши функции конкуренту: почему и что делать",
+    "slug": "ii-pripisyvaet-vashi-funkcii-konkurentu",
+    "publishedAt": "2026-07-27T12:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-ai-brand-monitoring.ru": {
+    "path": "/ru/blog/monitoring-upominaniy-brenda-v-ii-otvetah",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Мониторинг упоминаний бренда в ИИ-ответах: как его вести",
+    "slug": "monitoring-upominaniy-brenda-v-ii-otvetah",
+    "publishedAt": "2026-07-27T13:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-builder-vs-custom.ru": {
+    "path": "/ru/blog/konstruktor-ili-razrabotka-saita",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Конструктор или индивидуальная разработка: как выбрать и не переплатить дважды",
+    "slug": "konstruktor-ili-razrabotka-saita",
+    "publishedAt": "2026-07-29T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-real-estate-agency-checklist.ru": {
+    "path": "/ru/blog/chto-dolzhno-byt-na-saite-agentstva-nedvizhimosti",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Что должно быть на сайте агентства недвижимости: чек-лист",
+    "slug": "chto-dolzhno-byt-na-saite-agentstva-nedvizhimosti",
+    "publishedAt": "2026-07-29T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-website-build-timeline.ru": {
+    "path": "/ru/blog/skolko-vremeni-zanimaet-razrabotka-saita",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько времени занимает разработка сайта: реальные сроки по этапам",
+    "slug": "skolko-vremeni-zanimaet-razrabotka-saita",
+    "publishedAt": "2026-07-31T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-multilingual-website-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-multiyazychnyi-sait",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит мультиязычный сайт: из чего складывается цена",
+    "slug": "skolko-stoit-multiyazychnyi-sait",
+    "publishedAt": "2026-07-31T13:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-chatgpt-recommendations.ru": {
+    "path": "/ru/blog/kak-popast-v-rekomendacii-chatgpt",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как попасть в рекомендации ChatGPT: чек-лист для бизнеса",
+    "slug": "kak-popast-v-rekomendacii-chatgpt",
+    "publishedAt": "2026-07-31T14:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-ai-describes-company-unreliable.ru": {
+    "path": "/ru/blog/esli-ii-opisyvaet-kompaniyu-kak-nenadyozhnuyu",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Если ИИ описывает вашу компанию как ненадёжную",
+    "slug": "esli-ii-opisyvaet-kompaniyu-kak-nenadyozhnuyu",
+    "publishedAt": "2026-08-03T12:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-ai-distorts-marketing-message.ru": {
+    "path": "/ru/blog/kak-ii-otvety-iskazhayut-marketingovoe-soobshchenie",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как ИИ-ответы искажают ваше маркетинговое сообщение",
+    "slug": "kak-ii-otvety-iskazhayut-marketingovoe-soobshchenie",
+    "publishedAt": "2026-08-03T13:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-branded-traffic-bought-links.ru": {
+    "path": "/ru/blog/brendovyi-trafik-i-kuplennye-ssylki-v-otchetah-seo",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Брендовый трафик и купленные ссылки: три подмены в отчётах по SEO-продвижению сайта",
+    "slug": "brendovyi-trafik-i-kuplennye-ssylki-v-otchetah-seo",
+    "publishedAt": "2026-08-07T12:00:00Z",
+    "category": "SEO-стратегия"
+  },
+  "blog-high-value-clients-search.ru": {
+    "path": "/ru/blog/dorogie-klienty-ne-klikayut-po-reklame",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Дорогие клиенты не кликают по рекламе: как они находят подрядчика в Гугле",
+    "slug": "dorogie-klienty-ne-klikayut-po-reklame",
+    "publishedAt": "2026-08-10T12:00:00Z",
+    "category": "SEO-стратегия"
+  },
+  "blog-llms-txt.ru": {
+    "path": "/ru/blog/nuzhen-li-saitu-fail-llms-txt",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Нужен ли сайту файл llms.txt: честный ответ",
+    "slug": "nuzhen-li-saitu-fail-llms-txt",
+    "publishedAt": "2026-08-14T12:00:00Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-brand-vs-retailers.ru": {
+    "path": "/ru/blog/pochemu-brend-belya-proigryvaet-riteyleram",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Почему бренд белья проигрывает в поиске собственным ритейлерам",
+    "slug": "pochemu-brend-belya-proigryvaet-riteyleram",
+    "publishedAt": "2026-08-24T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "blog-black-gold-premium.ru": {
+    "path": "/ru/blog/chernyy-s-zolotom-dizayn-sayta-ne-chitaetsya-kak-dorogo",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Дизайн сайта в чёрном с золотом больше не читается как дорого",
+    "slug": "chernyy-s-zolotom-dizayn-sayta-ne-chitaetsya-kak-dorogo",
+    "publishedAt": "2026-09-03T12:00:00Z",
+    "category": "Веб-разработка"
+  },
+  "portfolio-moveandinvest": {
+    "path": "/portfolio/residency-by-investment-guide-with-sourced-figures",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "A residency-by-investment guide covering five jurisdictions",
+    "slug": "residency-by-investment-guide-with-sourced-figures"
+  },
+  "9fe5b88b-edd7-47a4-9fc5-b049e7e40237": {
+    "path": "/portfolio/anti-spam-protection-for-website-forms",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Anti-Spam Protection for Website Forms",
+    "slug": "anti-spam-protection-for-website-forms"
+  },
+  "ad33d2a6-b34d-4afd-8f7a-ff10094690d1": {
+    "path": "/portfolio/architecture-website-rebuild-and-seo-scan",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Architecture Website Rebuild and SEO",
+    "slug": "architecture-website-rebuild-and-seo-scan"
+  },
+  "01ee8990-d677-4c15-8f1b-a97e77b239cd": {
+    "path": "/portfolio/auto-repair-seo-and-ux-boost",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Auto Repair SEO & UX Boost",
+    "slug": "auto-repair-seo-and-ux-boost"
+  },
+  "0d395501-cc48-4c01-a395-789065b976eb": {
+    "path": "/portfolio/build-and-optimize-a-multilingual-real-estate-platform",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Build and optimize a multilingual real estate platform",
+    "slug": "build-and-optimize-a-multilingual-real-estate-platform"
+  },
+  "b2f47b45-2a4a-4812-a236-63a3f6cee106": {
+    "path": "/portfolio/develop-and-optimize-a-personal-website-with-seo",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Develop and optimize a personal website with SEO",
+    "slug": "develop-and-optimize-a-personal-website-with-seo"
+  },
+  "1c5a69fb-e00a-4e2d-aa4d-eee83fb384f6": {
+    "path": "/portfolio/proscore-agency-website-development",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Digital Agency Website Development",
+    "slug": "proscore-agency-website-development"
+  },
+  "71c2478b-d9f3-4227-813e-72bded5f62ad": {
+    "path": "/portfolio/e-commerce-landing-page-with-secured-video-access",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "E-commerce landing page with secured video access",
+    "slug": "e-commerce-landing-page-with-secured-video-access"
+  },
+  "44c4e531-15f9-46ec-82a3-e5a336e02fbb": {
+    "path": "/portfolio/full-multilingual-website-development-and-seo-for-student-services",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Full Multilingual Website Development & SEO for Student Services",
+    "slug": "full-multilingual-website-development-and-seo-for-student-services"
+  },
+  "8f6d568e-cecd-4502-be33-fed897830566": {
+    "path": "/portfolio/felgilab-wordpress-rebuild",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Full WordPress Rebuild for a Car Rim Restoration Company",
+    "slug": "felgilab-wordpress-rebuild"
+  },
+  "bbf28495-ca0d-4626-9133-0173a9bd47b8": {
+    "path": "/portfolio/investment-platform-with-ai-guided-learning",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Investment Platform with AI-Guided Learning",
+    "slug": "investment-platform-with-ai-guided-learning"
+  },
+  "6d40e06c-7257-4eaa-950b-3f1166b22d1b": {
+    "path": "/portfolio/official-website-for-dj-and-producer-sasha-dith",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Official Website for DJ and Producer Sasha Dith",
+    "slug": "official-website-for-dj-and-producer-sasha-dith"
+  },
+  "portfolio-orzel-realty": {
+    "path": "/portfolio/renovation-and-investment-website-with-premium-design",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Renovation and investment website with a premium feel and 96/98/100/100 performance",
+    "slug": "renovation-and-investment-website-with-premium-design"
+  },
+  "8b0ed15c-bf8e-4659-80a4-6accd7f11fcc": {
+    "path": "/portfolio/web-development-a-website-for-internet-prowider",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Web Development a Website for Internet Prowider",
+    "slug": "web-development-a-website-for-internet-prowider"
+  },
+  "3f848cef-12c8-466f-8f9f-57f8537e89b6": {
+    "path": "/pl/portfolio/przebudowa-strony-felgilab-wordpress",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Kompletna przebudowa strony dla firmy zajmującej się renowacją felg",
+    "slug": "przebudowa-strony-felgilab-wordpress"
+  },
+  "987ed405-390e-471d-ba20-bef922c2c684": {
+    "path": "/pl/portfolio/landing-page-dj-i-producenta-muzycznego",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Landing page DJ-a i producenta muzycznego",
+    "slug": "landing-page-dj-i-producenta-muzycznego"
+  },
+  "1ddcc3ef-c2a5-4fac-824f-29cde5543600": {
+    "path": "/pl/portfolio/landing-sprzedazowy-z-platnoscia-i-zabezpieczonym-kursem-wideo",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Landing sprzedażowy z płatnością i zabezpieczonym kursem wideo",
+    "slug": "landing-sprzedazowy-z-platnoscia-i-zabezpieczonym-kursem-wideo"
+  },
+  "f9157248-80b1-4f58-9adb-23ad8da15d8a": {
+    "path": "/pl/portfolio/ochrona-formularzy-przed-spamem-bez-captcha",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Ochrona formularzy przed spamem bez CAPTCHA",
+    "slug": "ochrona-formularzy-przed-spamem-bez-captcha"
+  },
+  "aee4bb83-d4c1-44b2-9a8c-2ae2dc8b30e4": {
+    "path": "/pl/portfolio/pelny-rozwoj-i-seo-dla-platformy-edukacyjnej",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Pełny rozwój i SEO dla platformy edukacyjnej",
+    "slug": "pelny-rozwoj-i-seo-dla-platformy-edukacyjnej"
+  },
+  "portfolio-moveandinvest.pl": {
+    "path": "/pl/portfolio/przewodnik-po-rezydencji-za-inwestycje-ze-zrodlami",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Przewodnik po rezydencji za inwestycje w pięciu jurysdykcjach",
+    "slug": "przewodnik-po-rezydencji-za-inwestycje-ze-zrodlami"
+  },
+  "c16a3e51-a479-4542-b0bb-d9b4ed802d93": {
+    "path": "/pl/portfolio/rozwoj-platformy-inwestycyjnej-peakprofit",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Rozwój platformy inwestycyjnej PeakProfit",
+    "slug": "rozwoj-platformy-inwestycyjnej-peakprofit"
+  },
+  "b0bcc24a-a4ec-497b-8e87-47729903ec43": {
+    "path": "/pl/portfolio/rozwoj-wielojezycznej-platformy-nieruchomosci-premium",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Rozwój wielojęzycznej platformy nieruchomości premium",
+    "slug": "rozwoj-wielojezycznej-platformy-nieruchomosci-premium"
+  },
+  "4e0cfdf8-4ffa-4dba-a9b4-753b9b91fcc8": {
+    "path": "/pl/portfolio/seo-warsztatu-i-wzrost-konwersji",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "SEO warsztatu i wzrost konwersji",
+    "slug": "seo-warsztatu-i-wzrost-konwersji"
+  },
+  "portfolio-orzel-realty.pl": {
+    "path": "/pl/portfolio/strona-dla-firmy-remontowej-i-inwestycyjnej-warszawa",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Strona dla firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100",
+    "slug": "strona-dla-firmy-remontowej-i-inwestycyjnej-warszawa"
+  },
+  "e9967345-4a53-4cfe-903b-3b5f891c398d": {
+    "path": "/pl/portfolio/stworzenie-strony-internetowej-dla-agencji-marketingowej-proscore",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Stworzenie strony internetowej dla agencji marketingowej",
+    "slug": "stworzenie-strony-internetowej-dla-agencji-marketingowej-proscore"
+  },
+  "88639b5d-51fd-43f0-b376-3cee40fb8246": {
+    "path": "/pl/portfolio/stworzenie-strony-internetowej-dostawcy-internetu",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Stworzenie strony internetowej dostawcy internetu",
+    "slug": "stworzenie-strony-internetowej-dostawcy-internetu"
+  },
+  "ab135ddf-f66b-4ef8-b83a-0b0b1a74a3ab": {
+    "path": "/pl/portfolio/tworzenie-i-seo-strony-architektonicznej-scan",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Tworzenie i SEO strony architektonicznej",
+    "slug": "tworzenie-i-seo-strony-architektonicznej-scan"
+  },
+  "081bf2f2-f90b-4309-aac5-3f0d37b1c845": {
+    "path": "/pl/portfolio/tworzenie-i-optymalizacja-strony-osobistej-z-seo",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Tworzenie i optymalizacja strony osobistej z SEO",
+    "slug": "tworzenie-i-optymalizacja-strony-osobistej-z-seo"
+  },
+  "8e9a1788-18c1-4c1f-a329-3bf0a2c432e1": {
+    "path": "/ru/portfolio/e-commerce-lending-i-zashita-videokursa",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "E-commerce лендинг и защита видеокурса",
+    "slug": "e-commerce-lending-i-zashita-videokursa"
+  },
+  "bd20e72f-9820-4a23-b467-49b9ff4a2599": {
+    "path": "/ru/portfolio/zashita-form-ot-spama",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Защита форм от спама без CAPTCHA",
+    "slug": "zashita-form-ot-spama"
+  },
+  "2530b598-90c4-456d-8ffc-82718be69fc5": {
+    "path": "/ru/portfolio/oficialnyi-sait-sasha-dith",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Официальный сайт диджея и продюсера Sasha Dith",
+    "slug": "oficialnyi-sait-sasha-dith"
+  },
+  "e593f097-9f05-48b4-a0ea-6254c19d36af": {
+    "path": "/ru/portfolio/pererabotka-saita-felgilab-wordpress",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Переработка сайта на WordPress для компании по реставрации дисков",
+    "slug": "pererabotka-saita-felgilab-wordpress"
+  },
+  "24382384-f8a3-4401-82c8-e687f8173e8d": {
+    "path": "/ru/portfolio/polnaya-razrabotka-i-seo-dlya-obrazovatelnoi-platformy",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Полная разработка и SEO для образовательной платформы",
+    "slug": "polnaya-razrabotka-i-seo-dlya-obrazovatelnoi-platformy"
+  },
+  "f1f8420f-d74b-42a0-8ce6-3c54e7972e51": {
+    "path": "/ru/portfolio/razrabotka-i-seo-optimizaciya-personalnogo-saita",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Разработка и SEO оптимизация персонального сайта",
+    "slug": "razrabotka-i-seo-optimizaciya-personalnogo-saita"
+  },
+  "933107b9-ac93-43cf-8cee-fd3b0babf0d9": {
+    "path": "/ru/portfolio/razrabotka-investicionnogo-vebsaita-peakprofit",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Разработка инвестиционного вебсайта PeakProfit",
+    "slug": "razrabotka-investicionnogo-vebsaita-peakprofit"
+  },
+  "27524aa0-da00-4e24-8862-6e92b967082e": {
+    "path": "/ru/portfolio/razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Разработка сайта для агентства элитной недвижимости на Кипре",
+    "slug": "razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre"
+  },
+  "portfolio-orzel-realty.ru": {
+    "path": "/ru/portfolio/sayt-dlya-remontnoy-i-investicionnoy-kompanii",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Сайт для ремонтной и инвестиционной компании с результатом 96/98/100/100",
+    "slug": "sayt-dlya-remontnoy-i-investicionnoy-kompanii"
+  },
+  "6419ee71-18ca-4b7e-8e25-a6d7ddb7057b": {
+    "path": "/ru/portfolio/sozdanie-i-seo-prodvizhenie-saita-arkhitekturnoi-tematiki",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Создание и SEO-продвижение сайта архитектурной тематики",
+    "slug": "sozdanie-i-seo-prodvizhenie-saita-arkhitekturnoi-tematiki"
+  },
+  "e5b09e48-60fe-439e-b6cf-641f18b2a832": {
+    "path": "/ru/portfolio/sozdanie-saita-digital-agentstva-proscore",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Создание сайта digital-агентства",
+    "slug": "sozdanie-saita-digital-agentstva-proscore"
+  },
+  "343736d1-8d79-47dc-85a3-33dd6bca6d5d": {
+    "path": "/ru/portfolio/sozdanie-saita-internet-provaidera",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Создание сайта интернет-провайдера в Техасе",
+    "slug": "sozdanie-saita-internet-provaidera"
+  },
+  "portfolio-moveandinvest.ru": {
+    "path": "/ru/portfolio/spravochnik-po-vnzh-za-investicii-s-pervoistochnikami",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Справочник по ВНЖ за инвестиции в пяти юрисдикциях",
+    "slug": "spravochnik-po-vnzh-za-investicii-s-pervoistochnikami"
+  },
+  "38d19fbe-6676-4c5c-ab23-a3aa05f2b869": {
+    "path": "/ru/portfolio/seo-i-ux-dlya-avtoremontnoi-kompanii",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Улучшение SEO и UX для авторемонтной компании",
+    "slug": "seo-i-ux-dlya-avtoremontnoi-kompanii"
+  },
+  "e0fd3298-9a46-4281-bbea-e23dca38284c": {
+    "path": "/about",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "About",
+    "slug": "about",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-accounting-firm": {
+    "path": "/accounting-firm-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Accounting firm website development",
+    "slug": "accounting-firm-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-architecture-studio": {
+    "path": "/architecture-studio-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Architecture studio website development",
+    "slug": "architecture-studio-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "405bd22d-5aee-45a3-8f9b-108821d9006a": {
+    "path": "/website-development-for-beauty-professionals/beauty-salon-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Beauty Salon Website Design",
+    "slug": "beauty-salon-website",
+    "pageType": "page",
+    "parentSlug": "website-development-for-beauty-professionals"
+  },
+  "singlepage-catalog-website": {
+    "path": "/catalog-website-with-filters",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Catalogue website development",
+    "slug": "catalog-website-with-filters",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cleaning-company": {
+    "path": "/cleaning-company-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Cleaning company website development",
+    "slug": "cleaning-company-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "7d66c37d-0158-4aa4-9293-8f4a9e8891e9": {
+    "path": "/contacts",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Contact with Alex Bandziuk",
+    "slug": "contacts",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-dental-clinic-website": {
+    "path": "/dental-clinic-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Dental clinic website development",
+    "slug": "dental-clinic-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-fitness-studio": {
+    "path": "/fitness-studio-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Fitness studio website development",
+    "slug": "fitness-studio-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "61a47860-d61d-499c-8606-1831231b222e": {
+    "path": "/garage-and-auto-repair-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Garage & Auto Repair Website Design and Development",
+    "slug": "garage-and-auto-repair-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hotel-website": {
+    "path": "/hotel-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Hotel website development",
+    "slug": "hotel-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-language-school": {
+    "path": "/language-school-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Language school website development",
+    "slug": "language-school-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "f4a4b3c0-2d0e-4416-9909-04dcc667318b": {
+    "path": "/lawyer-website-development",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Lawyer Website Development",
+    "slug": "lawyer-website-development",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-manufacturing-company": {
+    "path": "/manufacturing-company-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Manufacturing company website development",
+    "slug": "manufacturing-company-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-multilingual-website": {
+    "path": "/multilingual-website-development",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Multilingual website development",
+    "slug": "multilingual-website-development",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-photographer": {
+    "path": "/photographer-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Photographer website development",
+    "slug": "photographer-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-property-developer-website": {
+    "path": "/property-developer-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Property Developer Website Development",
+    "slug": "property-developer-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-real-estate-agency-website": {
+    "path": "/real-estate-agency-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Real Estate Agency Website Development",
+    "slug": "real-estate-agency-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-recruitment-agency": {
+    "path": "/recruitment-agency-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Recruitment agency website development",
+    "slug": "recruitment-agency-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restaurant": {
+    "path": "/restaurant-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Restaurant website development",
+    "slug": "restaurant-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "16ee2ac2-4506-4d2e-bd9f-3519c5ecf794": {
+    "path": "/pricing",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO & Website Development Pricing",
+    "slug": "pricing",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "923390d3-cf00-427c-bef1-2fdf903a7808": {
+    "path": "/seo-for-auto-repair-shop",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Auto Repair Shop",
+    "slug": "seo-for-auto-repair-shop",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "5869ba72-348b-498e-b419-861e52ccb6ef": {
+    "path": "/seo-for-beauty-salons",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Beauty Salons",
+    "slug": "seo-for-beauty-salons",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "dc0a0998-d7e5-485a-b405-233ebfcb1630": {
+    "path": "/seo-for-law-firms",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Law Firms and Legal Websites",
+    "slug": "seo-for-law-firms",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "9b8d7d33-0df4-4d4f-967c-9ff454a07a39": {
+    "path": "/seo-for-real-estate",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Real Estate Businesses Focused on Traffic, Rankings and Buyer Leads",
+    "slug": "seo-for-real-estate",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "3399fa5f-8de5-4b6c-8b31-6b5068b9692f": {
+    "path": "/seo-for-real-estate-in-cyprus",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Real Estate in Cyprus That Brings Buyer Leads",
+    "slug": "seo-for-real-estate-in-cyprus",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-startup-website": {
+    "path": "/startup-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Startup website development",
+    "slug": "startup-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-logistics-company": {
+    "path": "/logistics-company-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Transport company website development",
+    "slug": "logistics-company-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-travel-agency": {
+    "path": "/travel-agency-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Travel agency website development",
+    "slug": "travel-agency-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-veterinary-clinic": {
+    "path": "/veterinary-clinic-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Veterinary clinic website development",
+    "slug": "veterinary-clinic-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "d629bed8-f17a-47df-9ced-ba4c8236a463": {
+    "path": "/web-development-cyprus",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Web Design & Website Development in Cyprus",
+    "slug": "web-development-cyprus",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "636f4976-f588-4f6c-a386-23feb6570fbf": {
+    "path": "/website-design-for-models",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website Design for Models and Portfolio Development",
+    "slug": "website-design-for-models",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "dab61d1a-28d8-4a10-a2c4-de17399cdbe7": {
+    "path": "/website-development-for-beauty-professionals",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website Development for Beauty Professionals That Attracts and Converts",
+    "slug": "website-development-for-beauty-professionals",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-psychologists-therapists": {
+    "path": "/website-for-psychologists-therapists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website Development for Psychologists & Therapists",
+    "slug": "website-for-psychologists-therapists",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-web-development-warsaw": {
+    "path": "/web-development-warsaw",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development in Warsaw",
+    "slug": "web-development-warsaw",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-online-booking": {
+    "path": "/website-with-online-booking",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development with online booking",
+    "slug": "website-with-online-booking",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-platform-migration": {
+    "path": "/website-platform-migration",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website migration to a new platform",
+    "slug": "website-platform-migration",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "service-ai-brand-monitoring": {
+    "path": "/services/ai-brand-monitoring",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "AI brand monitoring",
+    "slug": "ai-brand-monitoring",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "service-ai-visibility-audit": {
+    "path": "/services/ai-visibility-audit",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "AI visibility audit",
+    "slug": "ai-visibility-audit",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "831dc620-2863-4d55-baa0-aa874a7374ac": {
+    "path": "/services/ai-ready-seo-and-geo-optimization",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "AI-Ready SEO & GEO Optimization",
+    "slug": "ai-ready-seo-and-geo-optimization",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "ab99b964-1aa8-4ad8-a8a3-7fb0863cf549": {
+    "path": "/services/cms-integration-and-api-work",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "CMS Integration & API Work",
+    "slug": "cms-integration-and-api-work",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "service-ai-misinformation-correction": {
+    "path": "/services/fix-ai-misinformation",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Correcting wrong information about your company in AI answers",
+    "slug": "fix-ai-misinformation",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "service-international-seo": {
+    "path": "/services/international-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "International and multilingual SEO",
+    "slug": "international-seo",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "f9269d94-976e-43cd-bacb-8ed3c60039cd": {
+    "path": "/services/landing-page-development",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Landing Page Development",
+    "slug": "landing-page-development",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "service-local-seo": {
+    "path": "/services/local-seo-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Local SEO for businesses with an address",
+    "slug": "local-seo-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "service-ai-search-readiness": {
+    "path": "/services/ai-search-readiness",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Preparing a website for AI search",
+    "slug": "ai-search-readiness",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "42a469a6-28f3-4015-8b88-414c8eb3d4fa": {
+    "path": "/services/seo-optimization-and-strategy",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO Optimization and Strategy",
+    "slug": "seo-optimization-and-strategy",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-medtourism-de-pl.en": {
+    "path": "/services/seo-for-polish-clinics-targeting-german-patients",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Polish clinics targeting German patients",
+    "slug": "seo-for-polish-clinics-targeting-german-patients",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-swiss-premium": {
+    "path": "/services/locations/seo-for-swiss-market/seo-for-luxury-goods-switzerland",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Swiss watchmakers, jewellers and premium makers",
+    "slug": "seo-for-luxury-goods-switzerland",
+    "pageType": "service",
+    "parentSlug": "seo-for-swiss-market"
+  },
+  "singlepage-swiss-auto": {
+    "path": "/services/locations/seo-for-swiss-market/seo-for-car-business-switzerland",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for car dealers and exporters in Switzerland",
+    "slug": "seo-for-car-business-switzerland",
+    "pageType": "service",
+    "parentSlug": "seo-for-swiss-market"
+  },
+  "singlepage-germany-auto": {
+    "path": "/services/locations/seo-for-german-market/seo-for-car-exporters-germany",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for car exporters and dealers in Germany",
+    "slug": "seo-for-car-exporters-germany",
+    "pageType": "service",
+    "parentSlug": "seo-for-german-market"
+  },
+  "singlepage-uae-auto": {
+    "path": "/services/locations/seo-for-car-exporters-uae",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for car exporters in the UAE",
+    "slug": "seo-for-car-exporters-uae",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-swiss-consulting": {
+    "path": "/services/locations/seo-for-swiss-market/seo-for-consulting-firms-switzerland",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for consulting and professional firms in Switzerland",
+    "slug": "seo-for-consulting-firms-switzerland",
+    "pageType": "service",
+    "parentSlug": "seo-for-swiss-market"
+  },
+  "singlepage-lingerie-seo": {
+    "path": "/services/seo-for-lingerie-manufacturers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for lingerie manufacturers",
+    "slug": "seo-for-lingerie-manufacturers",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-spain-realestate": {
+    "path": "/services/locations/seo-for-real-estate-spain",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for real estate agencies in Spain",
+    "slug": "seo-for-real-estate-spain",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-uae-realestate": {
+    "path": "/services/locations/seo-for-real-estate-uae",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for real estate agencies in the UAE",
+    "slug": "seo-for-real-estate-uae",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "service-traffic-drop-recovery": {
+    "path": "/services/traffic-drop-recovery",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Traffic drop recovery",
+    "slug": "traffic-drop-recovery",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "8701994a-d9ba-4230-84b5-2e491b87cb61": {
+    "path": "/services/website-development",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website Development",
+    "slug": "website-development",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "26f33bcc-eaa6-4cbc-96a1-9135cf55431f": {
+    "path": "/services/website-performance-and-code-audit",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website Performance & Code Audit",
+    "slug": "website-performance-and-code-audit",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "0e071d28-ee05-42a2-81a6-5be75b4264bc": {
+    "path": "/services/seo-audit",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO Audit",
+    "slug": "seo-audit",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-seo-australia": {
+    "path": "/services/locations/seo-for-australian-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Australian market",
+    "slug": "seo-for-australian-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-baltics": {
+    "path": "/services/locations/seo-for-baltic-markets",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Baltic markets",
+    "slug": "seo-for-baltic-markets",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-netherlands": {
+    "path": "/services/locations/seo-for-dutch-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Dutch market",
+    "slug": "seo-for-dutch-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-france": {
+    "path": "/services/locations/seo-for-french-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the French market",
+    "slug": "seo-for-french-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-germany": {
+    "path": "/services/locations/seo-for-german-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the German market",
+    "slug": "seo-for-german-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-ireland": {
+    "path": "/services/locations/seo-for-irish-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Irish market",
+    "slug": "seo-for-irish-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-italy": {
+    "path": "/services/locations/seo-for-italian-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Italian market",
+    "slug": "seo-for-italian-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-switzerland": {
+    "path": "/services/locations/seo-for-swiss-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Swiss market",
+    "slug": "seo-for-swiss-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-uk": {
+    "path": "/services/locations/seo-for-uk-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the UK market",
+    "slug": "seo-for-uk-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-seo-usa": {
+    "path": "/services/locations/seo-for-us-market",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the US market",
+    "slug": "seo-for-us-market",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-montenegro": {
+    "path": "/services/locations/website-development-montenegro",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for businesses in Montenegro",
+    "slug": "website-development-montenegro",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-portugal": {
+    "path": "/services/locations/website-development-portugal",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for businesses in Portugal",
+    "slug": "website-development-portugal",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-spain": {
+    "path": "/services/locations/website-development-spain",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for businesses in Spain",
+    "slug": "website-development-spain",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-thailand": {
+    "path": "/services/locations/website-development-thailand",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for businesses in Thailand",
+    "slug": "website-development-thailand",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-georgia": {
+    "path": "/services/locations/website-development-georgia",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for companies in Georgia",
+    "slug": "website-development-georgia",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-uae": {
+    "path": "/services/locations/website-development-uae",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for companies in the UAE",
+    "slug": "website-development-uae",
+    "pageType": "service",
+    "parentSlug": "locations"
+  },
+  "singlepage-lingerie-website": {
+    "path": "/services/website-development-for-lingerie-manufacturers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for lingerie manufacturers",
+    "slug": "website-development-for-lingerie-manufacturers",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-locations": {
+    "path": "/services/locations",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Locations and markets",
+    "slug": "locations",
+    "pageType": "servicesIndex",
+    "parentSlug": "services"
+  },
+  "4de72361-ec2a-469d-8b56-813ddbf3adca": {
+    "path": "/services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Services",
+    "slug": "services",
+    "pageType": "servicesIndex",
+    "parentSlug": null
+  },
+  "70ddf25f-9982-4f9c-a81b-084ff5e9dbf6": {
+    "path": "/privacy-policy",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Privacy Policy",
+    "slug": "privacy-policy",
+    "pageType": null,
+    "parentSlug": null
+  },
+  "f5016d51-2a60-4075-92e0-664a174c2643": {
+    "path": "/pl/cennik",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Ceny SEO i stron internetowych — bez ściemy i ukrytych kosztów",
+    "slug": "cennik",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "c046dd91-3a5c-4774-a069-1a5778d79bfb": {
+    "path": "/pl/kontakt",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Kontakt",
+    "slug": "kontakt",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-platform-migration.pl": {
+    "path": "/pl/migracja-strony-na-inna-platforme",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Migracja strony na inną platformę",
+    "slug": "migracja-strony-na-inna-platforme",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "5fb61b86-903d-4cdb-81b6-55ce34d1d319": {
+    "path": "/pl/o-mnie",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "O mnie",
+    "slug": "o-mnie",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "6d8ed7b1-9fac-49b9-b25f-632f52e94ae3": {
+    "path": "/pl/seo-salonu-kosmetycznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony salonu kosmetycznego",
+    "slug": "seo-salonu-kosmetycznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "1c9c94f6-3eb3-4f2a-8e8e-7e7ce88ce196": {
+    "path": "/pl/seo-dla-kancelarii-prawnych",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "SEO dla kancelarii prawnych i adwokatów",
+    "slug": "seo-dla-kancelarii-prawnych",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "c8cf5d0e-433d-4b3c-b080-2ceaef128848": {
+    "path": "/pl/seo-dla-nieruchomosci-na-cyprze",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "SEO dla stron nieruchomości na Cyprze",
+    "slug": "seo-dla-nieruchomosci-na-cyprze",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "55f6003b-f543-4591-8bea-d1a327144c73": {
+    "path": "/pl/seo-dla-warsztatu-samochodowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "SEO dla warsztatu samochodowego",
+    "slug": "seo-dla-warsztatu-samochodowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "34295d10-118c-4e25-aacd-599fab92f23f": {
+    "path": "/pl/seo-dla-stron-nieruchomosci",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "SEO i pozycjonowanie stron nieruchomości nastawione na leady i sprzedaż",
+    "slug": "seo-dla-stron-nieruchomosci",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "fc3bbb10-9408-4ceb-9d00-3a2f22b32b21": {
+    "path": "/pl/strona-internetowa-dla-modelki",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla modelki",
+    "slug": "strona-internetowa-dla-modelki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "a095405f-8a0a-4f89-ba80-8e287923e2a8": {
+    "path": "/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa salonu kosmetycznego",
+    "slug": "strona-salonu-kosmetycznego",
+    "pageType": "page",
+    "parentSlug": "tworzenie-stron-internetowych-dla-branzy-beauty"
+  },
+  "singlepage-psychologists-therapists.pl": {
+    "path": "/pl/strona-dla-psychologow-terapeutow",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron dla psychologów i terapeutów",
+    "slug": "strona-dla-psychologow-terapeutow",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "f62631da-bb64-44fb-8a41-6f2ee35d13c5": {
+    "path": "/pl/tworzenie-stron-dla-warsztatow-samochodowych",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron dla warsztatów samochodowych",
+    "slug": "tworzenie-stron-dla-warsztatow-samochodowych",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-real-estate-agency-website.pl": {
+    "path": "/pl/strona-dla-agencji-nieruchomosci",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych dla agencji nieruchomości",
+    "slug": "strona-dla-agencji-nieruchomosci",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "a2b00f93-6d28-4b36-b2c9-e5c01867b5b4": {
+    "path": "/pl/tworzenie-stron-internetowych-dla-branzy-beauty",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych dla branży beauty",
+    "slug": "tworzenie-stron-internetowych-dla-branzy-beauty",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-property-developer-website.pl": {
+    "path": "/pl/strona-dla-dewelopera",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych dla deweloperów",
+    "slug": "strona-dla-dewelopera",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-web-development-warsaw.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych w Warszawie",
+    "slug": "tworzenie-stron-internetowych-warszawa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-recruitment-agency.pl": {
+    "path": "/pl/strona-dla-agencji-rekrutacyjnej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla agencji rekrutacyjnej",
+    "slug": "strona-dla-agencji-rekrutacyjnej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-architecture-studio.pl": {
+    "path": "/pl/strona-dla-biura-architektonicznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla biura architektonicznego",
+    "slug": "strona-dla-biura-architektonicznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-travel-agency.pl": {
+    "path": "/pl/strona-dla-biura-podrozy",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla biura podróży",
+    "slug": "strona-dla-biura-podrozy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-accounting-firm.pl": {
+    "path": "/pl/strona-dla-biura-rachunkowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla biura rachunkowego",
+    "slug": "strona-dla-biura-rachunkowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-manufacturing-company.pl": {
+    "path": "/pl/strona-dla-firmy-produkcyjnej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla firmy produkcyjnej",
+    "slug": "strona-dla-firmy-produkcyjnej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cleaning-company.pl": {
+    "path": "/pl/strona-dla-firmy-sprzatajacej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla firmy sprzątającej",
+    "slug": "strona-dla-firmy-sprzatajacej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-logistics-company.pl": {
+    "path": "/pl/strona-dla-firmy-transportowej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla firmy transportowej",
+    "slug": "strona-dla-firmy-transportowej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-photographer.pl": {
+    "path": "/pl/strona-dla-fotografa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla fotografa",
+    "slug": "strona-dla-fotografa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-dental-clinic-website.pl": {
+    "path": "/pl/strona-dla-gabinetu-stomatologicznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla gabinetu stomatologicznego",
+    "slug": "strona-dla-gabinetu-stomatologicznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hotel-website.pl": {
+    "path": "/pl/strona-dla-hotelu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla hotelu",
+    "slug": "strona-dla-hotelu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-veterinary-clinic.pl": {
+    "path": "/pl/strona-dla-przychodni-weterynaryjnej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla przychodni weterynaryjnej",
+    "slug": "strona-dla-przychodni-weterynaryjnej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restaurant.pl": {
+    "path": "/pl/strona-dla-restauracji",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla restauracji",
+    "slug": "strona-dla-restauracji",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-startup-website.pl": {
+    "path": "/pl/strona-dla-startupu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla startupu",
+    "slug": "strona-dla-startupu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-fitness-studio.pl": {
+    "path": "/pl/strona-dla-studia-fitness",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla studia fitness",
+    "slug": "strona-dla-studia-fitness",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-language-school.pl": {
+    "path": "/pl/strona-dla-szkoly-jezykowej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony dla szkoły językowej",
+    "slug": "strona-dla-szkoly-jezykowej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "9f22ba45-fc9d-4644-8d6f-ec4696618d63": {
+    "path": "/pl/strona-internetowa-dla-adwokata",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony internetowej dla adwokata",
+    "slug": "strona-internetowa-dla-adwokata",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-catalog-website.pl": {
+    "path": "/pl/strona-katalogowa-z-filtrami",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony katalogowej z filtrami",
+    "slug": "strona-katalogowa-z-filtrami",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-multilingual-website.pl": {
+    "path": "/pl/tworzenie-stron-wielojezycznych",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony wielojęzycznej",
+    "slug": "tworzenie-stron-wielojezycznych",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-online-booking.pl": {
+    "path": "/pl/strona-z-rezerwacja-online",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony z rezerwacją online",
+    "slug": "strona-z-rezerwacja-online",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "3a759a28-4135-4731-a318-cffee1b512f0": {
+    "path": "/pl/oferty/ai-seo-and-geo-optymalizacja",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "AI SEO & GEO Optymalizacja ",
+    "slug": "ai-seo-and-geo-optymalizacja",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "8b7c6b4c-412c-4fa1-b8f8-ec0a1b2816b5": {
+    "path": "/pl/oferty/audyt-seo-strony-internetowej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Audyt SEO strony internetowej",
+    "slug": "audyt-seo-strony-internetowej",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "service-ai-visibility-audit.pl": {
+    "path": "/pl/oferty/audyt-widocznosci-w-ai",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Audyt widoczności w wyszukiwaniu AI",
+    "slug": "audyt-widocznosci-w-ai",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "1166b8b4-0d4c-4dc3-a0c2-452422445008": {
+    "path": "/pl/oferty/audyt-wydajnosci-i-kodu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Audyt wydajności i kodu",
+    "slug": "audyt-wydajnosci-i-kodu",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "5ddf5532-8ec3-4bb8-a031-6fd3967aefc3": {
+    "path": "/pl/oferty/integracja-cms-i-api",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Integracja CMS i API",
+    "slug": "integracja-cms-i-api",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "service-ai-brand-monitoring.pl": {
+    "path": "/pl/oferty/monitoring-marki-w-ai",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Monitoring marki w odpowiedziach AI",
+    "slug": "monitoring-marki-w-ai",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "service-traffic-drop-recovery.pl": {
+    "path": "/pl/oferty/odzyskanie-pozycji-po-spadku-ruchu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Odzyskanie pozycji po spadku ruchu",
+    "slug": "odzyskanie-pozycji-po-spadku-ruchu",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "service-ai-misinformation-correction.pl": {
+    "path": "/pl/oferty/poprawa-blednych-danych-w-ai",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Poprawa błędnych informacji o firmie w odpowiedziach AI",
+    "slug": "poprawa-blednych-danych-w-ai",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-medtourism-de-pl": {
+    "path": "/pl/oferty/pozycjonowanie-kliniki-na-pacjentow-z-niemiec",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie kliniki na pacjentów z Niemiec",
+    "slug": "pozycjonowanie-kliniki-na-pacjentow-z-niemiec",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "service-local-seo.pl": {
+    "path": "/pl/oferty/pozycjonowanie-lokalne",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie lokalne dla firm z adresem",
+    "slug": "pozycjonowanie-lokalne",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-usa.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-amerykanski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek amerykański",
+    "slug": "pozycjonowanie-na-rynek-amerykanski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-australia.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-australijski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek australijski",
+    "slug": "pozycjonowanie-na-rynek-australijski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-uk.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-brytyjski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek brytyjski",
+    "slug": "pozycjonowanie-na-rynek-brytyjski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-france.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek francuski",
+    "slug": "pozycjonowanie-na-rynek-francuski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-netherlands.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-holenderski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek holenderski",
+    "slug": "pozycjonowanie-na-rynek-holenderski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-ireland.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-irlandzki",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek irlandzki",
+    "slug": "pozycjonowanie-na-rynek-irlandzki",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-germany.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-niemiecki",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek niemiecki",
+    "slug": "pozycjonowanie-na-rynek-niemiecki",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-switzerland.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-szwajcarski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek szwajcarski",
+    "slug": "pozycjonowanie-na-rynek-szwajcarski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-italy.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynek włoski",
+    "slug": "pozycjonowanie-na-rynek-wloski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-baltics.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych na rynki bałtyckie",
+    "slug": "pozycjonowanie-na-rynki-baltyckie",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-budowlana-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-firmy-budowlanej-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy budowlanej w Warszawie",
+    "slug": "pozycjonowanie-strony-firmy-budowlanej-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-sprzatanie-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-firmy-sprzatajacej-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy sprzątającej w Warszawie",
+    "slug": "pozycjonowanie-strony-firmy-sprzatajacej-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-stomatologia-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-gabinetu-stomatologicznego-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony gabinetu stomatologicznego w Warszawie",
+    "slug": "pozycjonowanie-strony-gabinetu-stomatologicznego-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-kancelaria-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-kancelarii-prawnej-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony kancelarii prawnej w Warszawie",
+    "slug": "pozycjonowanie-strony-kancelarii-prawnej-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-lingerie-seo.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-producenta-bielizny",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony producenta bielizny",
+    "slug": "pozycjonowanie-strony-producenta-bielizny",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-przychodnia-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-przychodni-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony przychodni w Warszawie",
+    "slug": "pozycjonowanie-strony-przychodni-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-restauracja-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-restauracji-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony restauracji w Warszawie",
+    "slug": "pozycjonowanie-strony-restauracji-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-salon-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-salonu-kosmetycznego-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony salonu kosmetycznego w Warszawie",
+    "slug": "pozycjonowanie-strony-salonu-kosmetycznego-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-warsztat-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-strony-warsztatu-samochodowego-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony warsztatu samochodowego w Warszawie",
+    "slug": "pozycjonowanie-strony-warsztatu-samochodowego-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "service-ai-search-readiness.pl": {
+    "path": "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Przygotowanie strony do wyszukiwania AI",
+    "slug": "przygotowanie-strony-do-wyszukiwania-ai",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "service-international-seo.pl": {
+    "path": "/pl/oferty/seo-miedzynarodowe",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "SEO międzynarodowe i wielojęzyczne",
+    "slug": "seo-miedzynarodowe",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "77c5f5df-a6f3-49ca-8f42-f1439e3490c6": {
+    "path": "/pl/oferty/strategia-i-optymalizacja-seo",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strategia i optymalizacja SEO",
+    "slug": "strategia-i-optymalizacja-seo",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-lingerie-website.pl": {
+    "path": "/pl/oferty/strona-internetowa-dla-producenta-bielizny",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla producenta bielizny",
+    "slug": "strona-internetowa-dla-producenta-bielizny",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "285c29ad-bc6b-4fde-a1bf-91aebd7e47e6": {
+    "path": "/pl/oferty/tworzenie-landing-page",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie landing page",
+    "slug": "tworzenie-landing-page",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "b35e57c9-9cce-4ebd-ab05-5121ffa38fef": {
+    "path": "/pl/oferty/tworzenie-stron-internetowych",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych",
+    "slug": "tworzenie-stron-internetowych",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-locations.pl": {
+    "path": "/pl/oferty/lokalizacje",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Lokalizacje i rynki",
+    "slug": "lokalizacje",
+    "pageType": "servicesIndex",
+    "parentSlug": "oferty"
+  },
+  "631d883e-6f87-4346-9c6d-48b596c2daa7": {
+    "path": "/pl/oferty",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Oferty",
+    "slug": "oferty",
+    "pageType": "servicesIndex",
+    "parentSlug": null
+  },
+  "6bdfd047-dcab-4bdb-bec9-fbfc643934b0": {
+    "path": "/pl/polityka-prywatnosci",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Polityka prywatności",
+    "slug": "polityka-prywatnosci",
+    "pageType": null,
+    "parentSlug": null
+  },
+  "078241d2-78f2-4f3c-a919-022e1de7b2da": {
+    "path": "/ru/seo-dlya-nedvizhimosti",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO для недвижимости: продвижение сайта, трафик и клиенты из поиска",
+    "slug": "seo-dlya-nedvizhimosti",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "d0eb4a85-35a0-4738-be86-148e6cbdb398": {
+    "path": "/ru/seo-dlya-nedvizhimosti-na-kipre",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO для продвижения недвижимости на Кипре",
+    "slug": "seo-dlya-nedvizhimosti-na-kipre",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "4238514d-8c66-4766-8b78-71675a466b7a": {
+    "path": "/ru/seo-prodvizhenie-avtoservisa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение автосервиса с оптимизацией под ИИ-поиск",
+    "slug": "seo-prodvizhenie-avtoservisa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "79ec90f6-dd97-4c3d-8378-83a4512cc676": {
+    "path": "/ru/seo-salona-krasoty",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение сайта салона красоты",
+    "slug": "seo-salona-krasoty",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "84798707-8328-4ca5-ad3f-6e4f17c95664": {
+    "path": "/ru/seo-dlya-yuridicheskogo-sayta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение юридического сайта",
+    "slug": "seo-dlya-yuridicheskogo-sayta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "d9c9cdff-b48c-43c0-a8b2-657007757dc7": {
+    "path": "/ru/kontakty",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Контакты",
+    "slug": "kontakty",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "55558168-9538-43ee-be55-6f7f62a777ef": {
+    "path": "/ru/obo-mne",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Обо мне",
+    "slug": "obo-mne",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-platform-migration.ru": {
+    "path": "/ru/perenos-saita-na-druguyu-platformu",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Перенос сайта на другую платформу",
+    "slug": "perenos-saita-na-druguyu-platformu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-multilingual-website.ru": {
+    "path": "/ru/razrabotka-multiyazychnogo-saita",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка мультиязычного сайта",
+    "slug": "razrabotka-multiyazychnogo-saita",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-architecture-studio.ru": {
+    "path": "/ru/sait-dlya-arhitekturnogo-byuro",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для архитектурного бюро",
+    "slug": "sait-dlya-arhitekturnogo-byuro",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-accounting-firm.ru": {
+    "path": "/ru/sait-dlya-buhgalterskoy-firmy",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для бухгалтерской фирмы",
+    "slug": "sait-dlya-buhgalterskoy-firmy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-veterinary-clinic.ru": {
+    "path": "/ru/sait-dlya-veterinarnoy-kliniki",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для ветеринарной клиники",
+    "slug": "sait-dlya-veterinarnoy-kliniki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-recruitment-agency.ru": {
+    "path": "/ru/sait-dlya-kadrovogo-agentstva",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для кадрового агентства",
+    "slug": "sait-dlya-kadrovogo-agentstva",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cleaning-company.ru": {
+    "path": "/ru/sait-dlya-kliningovoy-kompanii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для клининговой компании",
+    "slug": "sait-dlya-kliningovoy-kompanii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hotel-website.ru": {
+    "path": "/ru/sait-dlya-otelya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для отеля",
+    "slug": "sait-dlya-otelya",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-manufacturing-company.ru": {
+    "path": "/ru/sait-dlya-proizvodstvennoy-kompanii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для производственной компании",
+    "slug": "sait-dlya-proizvodstvennoy-kompanii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-psychologists-therapists.ru": {
+    "path": "/ru/sait-dlya-psihologov-terapevtov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для психолога и психотерапевта",
+    "slug": "sait-dlya-psihologov-terapevtov",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restaurant.ru": {
+    "path": "/ru/sait-dlya-restorana",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для ресторана",
+    "slug": "sait-dlya-restorana",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-startup-website.ru": {
+    "path": "/ru/sait-dlya-startapa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для стартапа",
+    "slug": "sait-dlya-startapa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-dental-clinic-website.ru": {
+    "path": "/ru/sait-dlya-stomatologicheskoy-kliniki",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для стоматологической клиники",
+    "slug": "sait-dlya-stomatologicheskoy-kliniki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-logistics-company.ru": {
+    "path": "/ru/sait-dlya-transportnoy-kompanii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для транспортной компании",
+    "slug": "sait-dlya-transportnoy-kompanii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-travel-agency.ru": {
+    "path": "/ru/sait-dlya-turagentstva",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для турагентства",
+    "slug": "sait-dlya-turagentstva",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-fitness-studio.ru": {
+    "path": "/ru/sait-dlya-fitnes-studii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для фитнес-студии",
+    "slug": "sait-dlya-fitnes-studii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-photographer.ru": {
+    "path": "/ru/sait-dlya-fotografa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для фотографа",
+    "slug": "sait-dlya-fotografa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-language-school.ru": {
+    "path": "/ru/sait-dlya-yazykovoy-shkoly",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для языковой школы",
+    "slug": "sait-dlya-yazykovoy-shkoly",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-online-booking.ru": {
+    "path": "/ru/sait-s-onlain-zapisyu",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта с онлайн-записью",
+    "slug": "sait-s-onlain-zapisyu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-catalog-website.ru": {
+    "path": "/ru/sait-katalog-s-filtrami",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта-каталога с фильтрами",
+    "slug": "sait-katalog-s-filtrami",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-web-development-warsaw.ru": {
+    "path": "/ru/razrabotka-saitov-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов в Варшаве",
+    "slug": "razrabotka-saitov-varshava",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-real-estate-agency-website.ru": {
+    "path": "/ru/sait-dlya-agentstva-nedvizhimosti",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для агентств недвижимости",
+    "slug": "sait-dlya-agentstva-nedvizhimosti",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-property-developer-website.ru": {
+    "path": "/ru/sait-dlya-zastroishchika",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для застройщиков",
+    "slug": "sait-dlya-zastroishchika",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "d0a6b052-1ea6-41ba-9e6f-4bb873946e29": {
+    "path": "/ru/sozdanie-saita-dlya-avtoservisa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Создание сайта для автосервиса с фокусом на заявки",
+    "slug": "sozdanie-saita-dlya-avtoservisa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "2fedad09-513a-438c-950a-8562d0a89b8f": {
+    "path": "/ru/sozdanie-saita-dlya-advokata",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Создание сайта для адвоката под ключ",
+    "slug": "sozdanie-saita-dlya-advokata",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "ec128e15-9d97-47df-9aaa-d5b0db480966": {
+    "path": "/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Создание сайта для салона красоты",
+    "slug": "sait-salona-krasoty",
+    "pageType": "page",
+    "parentSlug": "sozdanie-saitov-dlya-byuti-uslug"
+  },
+  "835b0b35-29d4-4854-9d8a-bb3c52c0e468": {
+    "path": "/ru/sozdanie-saita-modeli",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Создание сайта модели и фотомодели",
+    "slug": "sozdanie-saita-modeli",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "4128719c-e187-4191-9120-eee3f5f9fa6f": {
+    "path": "/ru/sozdanie-saitov-dlya-byuti-uslug",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Создание сайтов для бьюти-услуг, которые приносят клиентов",
+    "slug": "sozdanie-saitov-dlya-byuti-uslug",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "c524242b-5bfe-41a3-ae41-9acd93f64559": {
+    "path": "/ru/sozdanie-saitov-na-kipre",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Создание сайтов на Кипре для роста бизнеса",
+    "slug": "sozdanie-saitov-na-kipre",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "a381d7a3-302c-4dc0-9362-2bc2e05790c7": {
+    "path": "/ru/ceny",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Цены на SEO и разработку сайтов",
+    "slug": "ceny",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "1c0a4ea3-2dd6-4081-a0a0-58ee87633f71": {
+    "path": "/ru/uslugi/ai-seo-i-geo-optimizaciya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "AI SEO и GEO-оптимизация",
+    "slug": "ai-seo-i-geo-optimizaciya",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "0ba09f41-cdc6-40b1-8b57-e56ac656e979": {
+    "path": "/ru/uslugi/seo-audit-saita",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-аудит сайта",
+    "slug": "seo-audit-saita",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "6a81eab0-6993-41a6-adc3-d9047a3b35a0": {
+    "path": "/ru/uslugi/seo-optimizaciya-i-strategiya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-оптимизация и стратегия",
+    "slug": "seo-optimizaciya-i-strategiya",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-australia.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-avstraliyskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение сайта на австралийский рынок",
+    "slug": "prodvizhenie-na-avstraliyskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-uk.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение сайта на британский рынок",
+    "slug": "prodvizhenie-na-britanskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-italy.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение сайта на итальянский рынок",
+    "slug": "prodvizhenie-na-italyanskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-germany.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение сайта на немецкий рынок",
+    "slug": "prodvizhenie-na-nemetskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-baltics.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-rynki-baltii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение сайта на рынки Балтии",
+    "slug": "prodvizhenie-na-rynki-baltii",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "service-ai-visibility-audit.ru": {
+    "path": "/ru/uslugi/audit-vidimosti-v-ii-poiske",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Аудит видимости в ИИ-поиске",
+    "slug": "audit-vidimosti-v-ii-poiske",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "service-traffic-drop-recovery.ru": {
+    "path": "/ru/uslugi/vosstanovlenie-pozitsiy-posle-padeniya-trafika",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Восстановление позиций после падения трафика",
+    "slug": "vosstanovlenie-pozitsiy-posle-padeniya-trafika",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "fe3ab5a9-816f-4562-b412-602ef6bd1bb1": {
+    "path": "/ru/uslugi/integraciya-cms-i-api",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Интеграция CMS и API",
+    "slug": "integraciya-cms-i-api",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "service-ai-misinformation-correction.ru": {
+    "path": "/ru/uslugi/ispravlenie-nevernyh-dannyh-v-ii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Исправление неверных данных о компании в ИИ-ответах",
+    "slug": "ispravlenie-nevernyh-dannyh-v-ii",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "service-local-seo.ru": {
+    "path": "/ru/uslugi/lokalnoe-seo-prodvizhenie",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Локальное SEO для бизнеса с адресом",
+    "slug": "lokalnoe-seo-prodvizhenie",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "service-international-seo.ru": {
+    "path": "/ru/uslugi/mezhdunarodnoe-seo",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Международное и мультиязычное SEO",
+    "slug": "mezhdunarodnoe-seo",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "service-ai-brand-monitoring.ru": {
+    "path": "/ru/uslugi/monitoring-brenda-v-ii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Мониторинг упоминаний бренда в ИИ-ответах",
+    "slug": "monitoring-brenda-v-ii",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "service-ai-search-readiness.ru": {
+    "path": "/ru/uslugi/podgotovka-saita-k-ii-poisku",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Подготовка сайта к ИИ-поиску",
+    "slug": "podgotovka-saita-k-ii-poisku",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-medtourism-de-pl.ru": {
+    "path": "/ru/uslugi/prodvizhenie-kliniki-v-polshe-na-nemeckih-pacientov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка клиники в Польше на немецких пациентов",
+    "slug": "prodvizhenie-kliniki-v-polshe-na-nemeckih-pacientov",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-warsztat-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-avtoservisa-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайта автосервиса в Варшаве",
+    "slug": "prodvizhenie-saita-avtoservisa-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-sprzatanie-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-kliningovoy-kompanii-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайта клининговой компании в Варшаве",
+    "slug": "prodvizhenie-saita-kliningovoy-kompanii-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-przychodnia-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-medicinskoy-kliniki-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайта медицинской клиники в Варшаве",
+    "slug": "prodvizhenie-saita-medicinskoy-kliniki-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-restauracja-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-restorana-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайта ресторана в Варшаве",
+    "slug": "prodvizhenie-saita-restorana-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-salon-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-salona-krasoty-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайта салона красоты в Варшаве",
+    "slug": "prodvizhenie-saita-salona-krasoty-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-stomatologia-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-stomatologii-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайта стоматологии в Варшаве",
+    "slug": "prodvizhenie-saita-stomatologii-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-budowlana-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-stroitelnoy-kompanii-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайта строительной компании в Варшаве",
+    "slug": "prodvizhenie-saita-stroitelnoy-kompanii-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-kancelaria-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-yurista-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайта юриста в Варшаве",
+    "slug": "prodvizhenie-saita-yurista-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-germany-auto.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok/prodvizhenie-saitov-avtoeksporta-germaniya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайтов автоэкспорта в Германии",
+    "slug": "prodvizhenie-saitov-avtoeksporta-germaniya",
+    "pageType": "service",
+    "parentSlug": "prodvizhenie-na-nemetskiy-rynok"
+  },
+  "singlepage-uae-auto.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-saitov-avtoeksporta-oae",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайтов автоэкспорта в ОАЭ",
+    "slug": "prodvizhenie-saitov-avtoeksporta-oae",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-spain-realestate.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-saitov-nedvizhimosti-ispaniya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайтов недвижимости в Испании",
+    "slug": "prodvizhenie-saitov-nedvizhimosti-ispaniya",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-uae-realestate.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-saitov-nedvizhimosti-oae",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение и раскрутка сайтов недвижимости в ОАЭ",
+    "slug": "prodvizhenie-saitov-nedvizhimosti-oae",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-ireland.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта в Ирландии",
+    "slug": "prodvizhenie-na-irlandskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-netherlands.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта в Нидерландах",
+    "slug": "prodvizhenie-na-gollandskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-usa.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта в США",
+    "slug": "prodvizhenie-na-amerikanskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-switzerland.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта в Швейцарии",
+    "slug": "prodvizhenie-na-shveytsarskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-france.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта во Франции",
+    "slug": "prodvizhenie-na-frantsuzskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-lingerie-seo.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita-proizvoditelya-nizhnego-belya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта производителя нижнего белья",
+    "slug": "prodvizhenie-saita-proizvoditelya-nizhnego-belya",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-swiss-auto.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-avtobiznesa-shveytsariya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайтов автобизнеса в Швейцарии",
+    "slug": "prodvizhenie-saitov-avtobiznesa-shveytsariya",
+    "pageType": "service",
+    "parentSlug": "prodvizhenie-na-shveytsarskiy-rynok"
+  },
+  "singlepage-swiss-consulting.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-konsaltinga-shveytsariya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайтов консалтинга и профуслуг в Швейцарии",
+    "slug": "prodvizhenie-saitov-konsaltinga-shveytsariya",
+    "pageType": "service",
+    "parentSlug": "prodvizhenie-na-shveytsarskiy-rynok"
+  },
+  "singlepage-swiss-premium.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-premialnyh-tovarov-shveytsariya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайтов часовых, ювелирных и премиальных мастерских Швейцарии",
+    "slug": "prodvizhenie-saitov-premialnyh-tovarov-shveytsariya",
+    "pageType": "service",
+    "parentSlug": "prodvizhenie-na-shveytsarskiy-rynok"
+  },
+  "21d6001f-5181-4249-aef2-5ed9425bf81d": {
+    "path": "/ru/uslugi/razrabotka-saitov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка вебсайтов",
+    "slug": "razrabotka-saitov",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "dd5a054f-83a1-4865-93f3-625c2ecdacc2": {
+    "path": "/ru/uslugi/razrabotka-lendingov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка кастомных посадочных страниц",
+    "slug": "razrabotka-lendingov",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-spain.ru": {
+    "path": "/ru/uslugi/lokacii/razrabotka-saitov-ispaniya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для бизнеса в Испании",
+    "slug": "razrabotka-saitov-ispaniya",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-portugal.ru": {
+    "path": "/ru/uslugi/lokacii/razrabotka-saitov-portugaliya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для бизнеса в Португалии",
+    "slug": "razrabotka-saitov-portugaliya",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-thailand.ru": {
+    "path": "/ru/uslugi/lokacii/razrabotka-saitov-tailand",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для бизнеса в Таиланде",
+    "slug": "razrabotka-saitov-tailand",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-montenegro.ru": {
+    "path": "/ru/uslugi/lokacii/razrabotka-saitov-chernogoriya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для бизнеса в Черногории",
+    "slug": "razrabotka-saitov-chernogoriya",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-georgia.ru": {
+    "path": "/ru/uslugi/lokacii/razrabotka-saitov-gruziya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для компаний в Грузии",
+    "slug": "razrabotka-saitov-gruziya",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-uae.ru": {
+    "path": "/ru/uslugi/lokacii/razrabotka-saitov-oae",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для компаний в ОАЭ",
+    "slug": "razrabotka-saitov-oae",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-lingerie-website.ru": {
+    "path": "/ru/uslugi/sozdanie-saita-dlya-proizvoditelya-nizhnego-belya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Создание сайта для производителя нижнего белья",
+    "slug": "sozdanie-saita-dlya-proizvoditelya-nizhnego-belya",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "24354662-e684-4a9c-ad37-3e196d3b40c4": {
+    "path": "/ru/uslugi/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Ускорение сайта и улучшение поисковой видимости",
+    "slug": "uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-locations.ru": {
+    "path": "/ru/uslugi/lokacii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Рынки и страны",
+    "slug": "lokacii",
+    "pageType": "servicesIndex",
+    "parentSlug": "uslugi"
+  },
+  "3774c0a1-8857-4149-be24-9a357af4be00": {
+    "path": "/ru/uslugi",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Услуги",
+    "slug": "uslugi",
+    "pageType": "servicesIndex",
+    "parentSlug": null
+  },
+  "697b1a85-7a96-4a70-b4e9-e6b1b3a96a76": {
+    "path": "/ru/politika-konfidencialnosti",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Политика конфиденциальности",
+    "slug": "politika-konfidencialnosti",
+    "pageType": null,
+    "parentSlug": null
+  }
+}

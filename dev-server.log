@@ -12,3 +12,8 @@
 [redirects] RU: 50 flat→nested redirects generated
 [redirects] Done: 145 total redirects (129 dynamic from Sanity + 16 static overrides)
  ✓ Ready in 22s
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 607ms (123 modules)
+ ○ Compiling /[lang] ...
+ ✓ Compiled /[lang] in 37.4s (7210 modules)
+ GET / 200 in 44225ms

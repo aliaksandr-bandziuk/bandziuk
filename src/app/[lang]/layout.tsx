@@ -1,7 +1,6 @@
 import "@/app/globals.css";
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
-import { cookies } from "next/headers";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { ModalProvider } from "../context/ModalContext";
 import CustomCookieConsent from "../components/shared/CustomCookieConsent/CustomCookieConsent";
@@ -42,19 +41,6 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { lang: string };
 }) {
-  const cookieStore = cookies();
-  const consentCookie = cookieStore.get("cookieConsent");
-  let hasAnalytics = false;
-
-  try {
-    const consent = consentCookie?.value
-      ? JSON.parse(consentCookie.value)
-      : null;
-    hasAnalytics = consent?.analytics === true;
-  } catch {
-    // ignore error
-  }
-
   return (
     <html lang={params.lang}>
       <body
@@ -63,12 +49,10 @@ export default function RootLayout({
         <LenisProvider />
         <ModalProvider>{children}</ModalProvider>
 
-        {hasAnalytics && (
-          <>
-            <GoogleAnalyticsWrapper />
-            <MicrosoftClarity />
-          </>
-        )}
+        {/* Treated as necessary, per owner's explicit instruction (2026-09-09):
+            these load unconditionally and no longer wait on analytics consent. */}
+        <GoogleAnalyticsWrapper />
+        <MicrosoftClarity />
 
         {/* <GoogleTagManager gtmId="GTM-MQNF6L9V" /> */}
         {/* <GoogleAdsScript /> */}

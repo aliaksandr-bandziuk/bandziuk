@@ -3,7 +3,7 @@
 # Названия отчётов GSC даны по-русски с английским оригиналом в скобках.
 
 Title: lastmod в карте сайта: почему Google перестаёт её перечитывать и как это исправить
-Slug: google-perestal-chitat-kartu-saita-lastmod
+Slug: lastmod-v-karte-saita
 Meta title: lastmod в карте сайта: почему Google её не перечитывает
 Meta description: Карту сайта без поля lastmod Google перечитывает всё реже, и новые адреса остаются необнаруженными. Как проверить дату чтения в Search Console и исправить.
 

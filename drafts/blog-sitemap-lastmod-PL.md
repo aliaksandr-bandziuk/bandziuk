@@ -3,7 +3,7 @@
 # Названия отчётов GSC даны по-польски с английским оригиналом в скобках.
 
 Title: lastmod w mapie witryny: dlaczego Google przestaje ją czytać i jak to naprawić
-Slug: google-przestal-czytac-mape-witryny-lastmod
+Slug: lastmod-w-mapie-witryny
 Meta title: lastmod w mapie witryny: dlaczego Google jej nie czyta
 Meta description: Mapa witryny bez pola lastmod jest odczytywana coraz rzadziej, więc nowe adresy pozostają niewykryte. Jak sprawdzić datę odczytu w Search Console i to naprawić.
 

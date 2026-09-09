@@ -48,6 +48,12 @@ const STATIC_REDIRECTS = [
 
   // Английский слаг под русским префиксом: русская версия статьи существует.
   { source: '/ru/blog/real-estate-website-cyprus-case-study',   destination: '/ru/blog/sait-agentstva-nedvizhimosti-kipr-keis', permanent: true },
+
+  // Слаг статьи про lastmod сменён в день публикации: прежний адрес повторял
+  // газетную рамку заголовка. Редирект на случай, если Google успел его увидеть.
+  { source: '/blog/google-stopped-reading-sitemap-lastmod',         destination: '/blog/sitemap-lastmod',            permanent: true },
+  { source: '/pl/blog/google-przestal-czytac-mape-witryny-lastmod', destination: '/pl/blog/lastmod-w-mapie-witryny', permanent: true },
+  { source: '/ru/blog/google-perestal-chitat-kartu-saita-lastmod',  destination: '/ru/blog/lastmod-v-karte-saita',   permanent: true },
 ];
 
 async function buildDynamicRedirects() {

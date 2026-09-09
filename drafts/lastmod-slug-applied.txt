@@ -1,35 +1,14 @@
 
 ======================================================================
 [en] blog-sitemap-lastmod
-  было:  /blog/google-stopped-reading-sitemap-lastmod
-  будет: /blog/sitemap-lastmod
+  = слаг уже "sitemap-lastmod"
 
 ======================================================================
 [pl] blog-sitemap-lastmod.pl
-  было:  /pl/blog/google-przestal-czytac-mape-witryny-lastmod
-  будет: /pl/blog/lastmod-w-mapie-witryny
+  = слаг уже "lastmod-w-mapie-witryny"
 
 ======================================================================
 [ru] blog-sitemap-lastmod.ru
-  было:  /ru/blog/google-perestal-chitat-kartu-saita-lastmod
-  будет: /ru/blog/lastmod-v-karte-saita
+  = слаг уже "lastmod-v-karte-saita"
 
-→ blog-sitemap-lastmod: google-stopped-reading-sitemap-lastmod → sitemap-lastmod
-
-→ blog-sitemap-lastmod.pl: google-przestal-czytac-mape-witryny-lastmod → lastmod-w-mapie-witryny
-
-→ blog-sitemap-lastmod.ru: google-perestal-chitat-kartu-saita-lastmod → lastmod-v-karte-saita
-
-Применено: 3.
-
-======================================================================
-Вставить в next.config.mjs, в массив статических редиректов,
-после блока «Английский слаг под русским префиксом»:
-
-  // Слаг статьи про lastmod сменён в день публикации: адрес повторял
-  // газетную рамку заголовка. Редирект на случай, если Google успел его увидеть.
-  { source: '/blog/google-stopped-reading-sitemap-lastmod',           destination: '/blog/sitemap-lastmod',                      permanent: true },
-  { source: '/pl/blog/google-przestal-czytac-mape-witryny-lastmod',   destination: '/pl/blog/lastmod-w-mapie-witryny',           permanent: true },
-  { source: '/ru/blog/google-perestal-chitat-kartu-saita-lastmod',    destination: '/ru/blog/lastmod-v-karte-saita',             permanent: true },
-
-Без деплоя редиректы не заработают: старые адреса до него отдают 404.
+Изменений нет — слаги уже новые.

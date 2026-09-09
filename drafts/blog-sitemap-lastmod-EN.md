@@ -5,7 +5,7 @@
 # Заявления про поведение Google сверены с developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
 
 Title: Sitemap lastmod: why Google stops re-reading your sitemap and how to fix it
-Slug: google-stopped-reading-sitemap-lastmod
+Slug: sitemap-lastmod
 Meta title: Sitemap lastmod: why Google stops re-reading it
 Meta description: A sitemap without lastmod gets re-read less and less, so new URLs stay undiscovered. How to check the Last read date in Search Console and fix it.
 

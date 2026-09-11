@@ -22,7 +22,7 @@ const Hero: FC<Props> = ({ heroSection }) => {
     return null;
   }
 
-  const { title, subtitle, text, heroButtons } = heroSection;
+  const { eyebrow, title, subtitle, text, facts, heroButtons } = heroSection;
 
   return (
     <section className={styles.heroSection}>
@@ -32,8 +32,29 @@ const Hero: FC<Props> = ({ heroSection }) => {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.heroSectionContent}>
-            <SectionHeading as="h1" size="hero" title={title} subtitle={subtitle} />
+            <SectionHeading
+              as="h1"
+              size="hero"
+              eyebrow={eyebrow}
+              title={title}
+              subtitle={subtitle}
+            />
             <p className={styles.text}>{text}</p>
+
+            {/* Label/value pairs, not prose: assistants quote these directly,
+                and they restate areaServed and knowsLanguage from the Person
+                schema as visible text. */}
+            {facts && facts.length > 0 && (
+              <dl className={styles.facts}>
+                {facts.map((fact) => (
+                  <div key={fact._key} className={styles.fact}>
+                    <dt className={styles.factLabel}>{fact.label}</dt>
+                    <dd className={styles.factValue}>{fact.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            )}
+
             <div className={styles.buttons}>
               {heroButtons.map((btn) => {
                 if (btn.type === "popup") {

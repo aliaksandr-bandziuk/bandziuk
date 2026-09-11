@@ -47,6 +47,8 @@ export type Singlepage = {
   _id: string;
   _type: string;
   title: string;
+  /** Optional H1 override; `title` stays the short navigational label. */
+  heading?: string;
   seo: Seo;
   excerpt: string;
   previewImage: ImageAlt;

@@ -11,6 +11,13 @@ const singlepage = {
       type: "string",
     }),
     defineField({
+      name: "heading",
+      title: "H1 override",
+      type: "string",
+      description:
+        "Optional. Use when the H1 needs its keywords but the short Title must stay for breadcrumbs and parent listings — e.g. Title 'Services', H1 'Web development and SEO services'. Leave empty and the Title is used.",
+    }),
+    defineField({
       name: "slug",
       title: "Slug",
       type: "localizedSlug",

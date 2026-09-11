@@ -96,12 +96,20 @@ export type HeroButton =
 // ====== End Hero Button =====
 
 // ====== Hero Section =====
+export type HeroFact = {
+  _key: string;
+  label: string;
+  value: string;
+};
+
 export type HeroSection = {
   _key: string;
   _type: "heroSection";
+  eyebrow?: string;
   title: string;
   subtitle: string;
   text: string;
+  facts?: HeroFact[];
   heroButtons: HeroButton[];
 };
 // ====== End Hero Section =====

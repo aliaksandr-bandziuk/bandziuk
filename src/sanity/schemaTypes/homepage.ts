@@ -47,6 +47,13 @@ export default defineType({
       type: "object",
       fields: [
         defineField({
+          name: "eyebrow",
+          title: "Eyebrow (name and role)",
+          description:
+            "Small line above the H1. Keep it identical to the name and jobTitle in the Person schema (src/lib/schema/identity.ts) — matching visible text is what confirms the entity rather than merely asserting it.",
+          type: "string",
+        }),
+        defineField({
           name: "title",
           title: "Title",
           type: "string",
@@ -60,6 +67,37 @@ export default defineType({
           name: "text",
           title: "Text",
           type: "string",
+        }),
+        defineField({
+          name: "facts",
+          title: "Fact row",
+          description:
+            "Short label/value pairs shown under the hero text. Assistants lift these as ready-made attribute pairs without having to parse prose, so keep them factual: location, languages, stack, response time.",
+          type: "array",
+          validation: (Rule) => Rule.max(4),
+          of: [
+            defineArrayMember({
+              name: "fact",
+              type: "object",
+              fields: [
+                defineField({
+                  name: "label",
+                  title: "Label",
+                  type: "string",
+                  validation: (Rule) => Rule.required(),
+                }),
+                defineField({
+                  name: "value",
+                  title: "Value",
+                  type: "string",
+                  validation: (Rule) => Rule.required(),
+                }),
+              ],
+              preview: {
+                select: { title: "label", subtitle: "value" },
+              },
+            }),
+          ],
         }),
         defineField({
           name: "heroButtons",

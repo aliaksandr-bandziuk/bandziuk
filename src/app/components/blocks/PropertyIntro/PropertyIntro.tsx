@@ -22,6 +22,13 @@ import Breadcrumbs from "../../layout/Breadcrumbs/Breadcrumbs";
 
 type Props = {
   title: string;
+  /**
+   * Optional H1 override. `title` is also the breadcrumb label and the card
+   * label in parent listings, so a heading that needs its keywords ("Web
+   * development and SEO services") would make those unreadable. When set, this
+   * is used for the H1 only and `title` keeps its short navigational form.
+   */
+  heading?: string;
   excerpt: string;
   previewImage: ImageAlt;
   videoId?: string;
@@ -34,6 +41,7 @@ type Props = {
 
 const PropertyIntro: FC<Props> = ({
   title,
+  heading,
   excerpt,
   previewImage,
   videoId,
@@ -68,7 +76,7 @@ const PropertyIntro: FC<Props> = ({
                 titles={crumbTitles}
               />
             )}
-            <h1 className={styles.title}>{title}</h1>
+            <h1 className={styles.title}>{heading || title}</h1>
             <p className={styles.description}>{excerpt}</p>
             <div className={styles.button}>
               <ModalButton variant="primary">

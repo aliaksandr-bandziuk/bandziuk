@@ -1,11 +1,16 @@
 .heroSection {
   position: relative;
-  height: 100dvh;
+  // min-height rather than a hard height: the hero now carries an eyebrow and
+  // a four-item fact row, which on a narrow viewport is taller than the screen.
+  // With a fixed height plus overflow:hidden the top of the H1 was clipped.
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
   overflow: hidden;
   background-color: var(--bg-base);
 
   @media screen and (min-width: 768px) {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
@@ -15,14 +20,15 @@
   // justify-content: center;
   // align-items: center;
   // gap: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  // Centring is done by the flex parent now, so the wrapper stays in flow and
+  // the section can grow past the viewport instead of clipping its contents.
+  position: relative;
+  z-index: 1;
   width: 100%;
 
   max-width: 1440px;
-  padding: 0 20px;
+  // Top padding clears the fixed header; bottom keeps the CTAs off the edge.
+  padding: 120px 20px 60px;
   margin: 0 auto;
 
   @media screen and (max-width: 1440px) {
@@ -35,11 +41,11 @@
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
-    padding: 0 20px;
+    padding: 110px 20px 48px;
   }
 
   @media screen and (max-width: 480px) {
-    padding: 0 20px;
+    padding: 100px 20px 40px;
   }
 
   @media screen and (min-width: 768px) {
@@ -88,6 +94,48 @@
       
     }
   }
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px 32px;
+  margin: 0;
+  width: 100%;
+
+  @media screen and (min-width: 560px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media screen and (min-width: 992px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 900px;
+  }
+}
+
+.fact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: center;
+
+  @media screen and (min-width: 560px) {
+    text-align: left;
+  }
+}
+
+.factLabel {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.factValue {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .buttons {

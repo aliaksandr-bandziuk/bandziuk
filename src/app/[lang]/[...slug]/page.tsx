@@ -511,6 +511,7 @@ const SinglePage = async ({ params }: Props) => {
         {hasHero && (
           <PropertyIntro
             title={page.title}
+            heading={page.heading}
             previewImage={page.previewImage}
             excerpt={page.excerpt}
             lang={lang}

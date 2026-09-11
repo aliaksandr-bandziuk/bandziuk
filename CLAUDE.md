@@ -463,13 +463,20 @@ code itself.
 
 ## Build policy
 
-- Do NOT run `npm run build` after individual tasks or parts. 
-  Every push auto-builds and deploys via Vercel.
+- **NEVER run `npm run build` locally. No exceptions.** Vercel builds
+  on every push; a local build buys nothing and actively breaks things.
+  Owner's instruction, 2026-09-12.
+- Why it breaks things: `next build` and `next dev` share the `.next`
+  directory. Running a build while the dev server is up overwrites the
+  chunks the dev server is serving, and every route then 500s with
+  `MODULE_NOT_FOUND` from `webpack-runtime.js`. Happened 2026-09-12.
+  Recovery is to stop the dev server, delete `.next`, and restart it.
+- This supersedes an earlier rule that allowed a local build when the
+  session touched schemas, types, or component structure. It does not.
 - Use `next dev` for all in-session checks, including Playwright 
   screenshots.
-- Run `npm run build` only when the session touched schemas, types, 
-  or component structure. Skip it for CSS-only, content-only, or 
-  config-only changes — Vercel builds on push anyway.
+- For type safety without a build, run `npx tsc --noEmit`. It is safe
+  to run at any time and does not touch `.next`.
 - Never leave orphaned node processes on port 3000 — always kill 
   the server you started.
 - Verify against localhost, NOT against www.bandziuk.com. Every 

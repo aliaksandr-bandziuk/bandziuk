@@ -180,6 +180,7 @@ export async function getSinglePageByLang(
     ][0] {
       _id,
       title,
+      heading,
       slug,
       seo,
       excerpt,

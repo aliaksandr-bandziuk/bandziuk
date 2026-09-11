@@ -1,8 +1,15 @@
+// Hero — variant A: everything on one left-aligned reading axis, with the
+// fact pairs sitting below the CTAs behind a hairline so they read as a spec
+// strip rather than competing with the copy.
+//
+// Mobile-first: the base rules describe the narrow viewport and every media
+// query is min-width. Nothing here uses max-width.
+
 .heroSection {
   position: relative;
-  // min-height rather than a hard height: the hero now carries an eyebrow and
-  // a four-item fact row, which on a narrow viewport is taller than the screen.
-  // With a fixed height plus overflow:hidden the top of the H1 was clipped.
+  // min-height, never a fixed height: the eyebrow and the four fact pairs make
+  // this section taller than a short viewport, and a fixed height with
+  // overflow:hidden clipped the top of the H1 on a 390px screen.
   min-height: 100dvh;
   display: flex;
   align-items: center;
@@ -15,141 +22,137 @@
 }
 
 .wrapper {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  // gap: 40px;
-  // Centring is done by the flex parent now, so the wrapper stays in flow and
-  // the section can grow past the viewport instead of clipping its contents.
+  // Vertical centring belongs to the flex parent, so this stays in normal flow
+  // and the section grows instead of cropping.
   position: relative;
   z-index: 1;
   width: 100%;
-
-  max-width: 1440px;
-  // Top padding clears the fixed header; bottom keeps the CTAs off the edge.
-  padding: 120px 20px 60px;
+  max-width: 100%;
+  // Top padding clears the fixed header.
+  padding: 100px 20px 40px;
   margin: 0 auto;
 
-  @media screen and (max-width: 1440px) {
-    max-width: 1280px;
-  }
-
-  @media screen and (max-width: 1280px) {
+  @media screen and (min-width: 768px) {
+    padding: 120px 32px 56px;
     max-width: 1140px;
   }
 
-  @media screen and (max-width: 768px) {
-    max-width: 100%;
-    padding: 110px 20px 48px;
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
   }
 
-  @media screen and (max-width: 480px) {
-    padding: 100px 20px 40px;
-  }
-
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0;
-    
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    padding: 120px 40px 60px;
   }
 }
 
 .heroSectionContent {
-  
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
+  align-items: flex-start;
+  text-align: left;
+  gap: 18px;
 
   @media screen and (min-width: 768px) {
-    gap: 30px;
-    margin: 0 auto;
+    gap: 22px;
   }
 }
 
 .text {
-  font-size: 18px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
   color: rgba(255, 255, 255, 0.6);
 
   @media screen and (min-width: 768px) {
-    max-width: 700px;
+    font-size: 16px;
+    max-width: 62ch;
   }
 }
 
 .heroSectionImage {
-  
-  @media screen and (min-width: 768px) {
-    flex: 1 0 40%;
-  }
-
   img {
-
     @media screen and (min-width: 768px) {
       margin-left: auto;
-      
     }
   }
 }
 
-.facts {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px 32px;
-  margin: 0;
-  width: 100%;
+// ---- fact strip -------------------------------------------------------
 
-  @media screen and (min-width: 560px) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+.facts {
+  width: 100%;
+  margin: 14px 0 0;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+  display: grid;
+  // Two columns even on the narrowest screen: four stacked rows would push the
+  // CTAs an entire screen away on mobile.
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 20px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+    padding-top: 26px;
+    gap: 22px 28px;
   }
 
   @media screen and (min-width: 992px) {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    max-width: 900px;
   }
 }
 
 .fact {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  text-align: center;
-
-  @media screen and (min-width: 560px) {
-    text-align: left;
-  }
+  gap: 5px;
+  min-width: 0;
 }
 
 .factLabel {
-  font-size: 12px;
-  letter-spacing: 0.08em;
+  font-size: 11px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.42);
+
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+  }
 }
 
 .factValue {
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.4;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.88);
+  // Long values like "Warsaw, working across Europe" must not overflow the
+  // narrow column.
+  overflow-wrap: anywhere;
+
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
 }
+
+// ---- calls to action --------------------------------------------------
 
 .buttons {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: stretch;
+  gap: 12px;
+  width: 100%;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 560px) {
     flex-direction: row;
-    gap: 20px;
+    align-items: center;
+    width: auto;
+    gap: 16px;
   }
 
-  @media screen and (max-width: 480px) {
-    width: 100%;
-    align-items: center;
+  @media screen and (min-width: 768px) {
+    gap: 20px;
   }
 }

@@ -27,6 +27,22 @@
   margin-bottom: 16px;
 }
 
+// For sentence-length eyebrows, where a pill around wrapped text reads as a
+// rendering bug rather than a badge.
+.eyebrowPlain {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+  }
+}
+
 .title {
   font-family: var(--font-heading);
   font-size: clamp(2.5rem, 2.031rem + 1.88vw, 3.438rem);
@@ -58,9 +74,13 @@
   margin-right: auto;
 }
 
+// Stepped down from 20–26px: at the old size it had nearly the same visual
+// weight as the H1 and the two competed instead of reading as a hierarchy.
+// Used only by the hero (the single `size="hero"` call site).
 .subtitle.subtitleHero {
-  font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem);
-  color: var(--text-primary);
-  font-weight: 500;
-  max-width: 720px;
+  font-size: clamp(1.0625rem, 1rem + 0.4vw, 1.25rem);
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 400;
+  line-height: 1.55;
+  max-width: 58ch;
 }

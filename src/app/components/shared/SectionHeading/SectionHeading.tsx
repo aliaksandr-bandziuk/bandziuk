@@ -10,6 +10,12 @@ type Props = {
   align?: "center" | "left";
   as?: HeadingLevel;
   size?: "default" | "hero";
+  /**
+   * "pill" is the section default. "plain" drops the rounded background for
+   * eyebrows that are a full sentence — the hero's name-and-role line wraps to
+   * two lines on a phone, and a pill around wrapped text looks broken.
+   */
+  eyebrowVariant?: "pill" | "plain";
   className?: string;
 };
 
@@ -20,6 +26,7 @@ const SectionHeading: React.FC<Props> = ({
   align = "center",
   as = "h2",
   size = "default",
+  eyebrowVariant = "pill",
   className,
 }) => {
   const Heading = as;
@@ -34,7 +41,18 @@ const SectionHeading: React.FC<Props> = ({
         .filter(Boolean)
         .join(" ")}
     >
-      {eyebrow && <div className={styles.eyebrow}>{eyebrow}</div>}
+      {eyebrow && (
+        <div
+          className={[
+            styles.eyebrow,
+            eyebrowVariant === "plain" ? styles.eyebrowPlain : "",
+          ]
+            .filter(Boolean)
+            .join(" ")}
+        >
+          {eyebrow}
+        </div>
+      )}
       {title && (
         <Heading
           className={[styles.title, size === "hero" ? styles.titleHero : ""]

@@ -35,25 +35,13 @@ const Hero: FC<Props> = ({ heroSection }) => {
             <SectionHeading
               as="h1"
               size="hero"
+              align="left"
               eyebrow={eyebrow}
+              eyebrowVariant="plain"
               title={title}
               subtitle={subtitle}
             />
             <p className={styles.text}>{text}</p>
-
-            {/* Label/value pairs, not prose: assistants quote these directly,
-                and they restate areaServed and knowsLanguage from the Person
-                schema as visible text. */}
-            {facts && facts.length > 0 && (
-              <dl className={styles.facts}>
-                {facts.map((fact) => (
-                  <div key={fact._key} className={styles.fact}>
-                    <dt className={styles.factLabel}>{fact.label}</dt>
-                    <dd className={styles.factValue}>{fact.value}</dd>
-                  </div>
-                ))}
-              </dl>
-            )}
 
             <div className={styles.buttons}>
               {heroButtons.map((btn) => {
@@ -71,6 +59,21 @@ const Hero: FC<Props> = ({ heroSection }) => {
                 );
               })}
             </div>
+
+            {/* Below the CTAs on purpose: label/value pairs are supporting
+                evidence, not a step on the way to the buttons. Assistants
+                quote them directly, and they restate areaServed and
+                knowsLanguage from the Person schema as visible text. */}
+            {facts && facts.length > 0 && (
+              <dl className={styles.facts}>
+                {facts.map((fact) => (
+                  <div key={fact._key} className={styles.fact}>
+                    <dt className={styles.factLabel}>{fact.label}</dt>
+                    <dd className={styles.factValue}>{fact.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            )}
           </div>
         </div>
       </div>

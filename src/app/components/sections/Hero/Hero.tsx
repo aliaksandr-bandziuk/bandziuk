@@ -32,32 +32,37 @@ const Hero: FC<Props> = ({ heroSection }) => {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.heroSectionContent}>
-            <SectionHeading
-              as="h1"
-              size="hero"
-              align="left"
-              eyebrow={eyebrow}
-              eyebrowVariant="plain"
-              title={title}
-              subtitle={subtitle}
-            />
-            <p className={styles.text}>{text}</p>
+            {/* Everything above the fact strip is one group, so the strip can
+                be pushed to the bottom of the section with a single auto
+                margin while this block stays near the top. */}
+            <div className={styles.main}>
+              <SectionHeading
+                as="h1"
+                size="hero"
+                align="left"
+                eyebrow={eyebrow}
+                eyebrowVariant="plain"
+                title={title}
+                subtitle={subtitle}
+              />
+              <p className={styles.text}>{text}</p>
 
-            <div className={styles.buttons}>
-              {heroButtons.map((btn) => {
-                if (btn.type === "popup") {
+              <div className={styles.buttons}>
+                {heroButtons.map((btn) => {
+                  if (btn.type === "popup") {
+                    return (
+                      <ModalButton key={btn._key} variant="secondary">
+                        {btn.label}
+                      </ModalButton>
+                    );
+                  }
                   return (
-                    <ModalButton key={btn._key} variant="secondary">
+                    <Button key={btn._key} href={btn.link} variant="primary">
                       {btn.label}
-                    </ModalButton>
+                    </Button>
                   );
-                }
-                return (
-                  <Button key={btn._key} href={btn.link} variant="primary">
-                    {btn.label}
-                  </Button>
-                );
-              })}
+                })}
+              </div>
             </div>
 
             {/* Below the CTAs on purpose: label/value pairs are supporting

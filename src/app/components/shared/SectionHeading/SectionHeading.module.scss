@@ -56,6 +56,11 @@
   font-size: clamp(2.188rem, 1.656rem + 2.13vw, 3.25rem);
   font-weight: 600;
   text-transform: uppercase;
+  // Measured in em so the cap tracks the clamped font size. 18.5em ≈ 962px at
+  // the 52px ceiling: "…WEBSITES AND" measures ~922px and fits, adding "RUN"
+  // takes it to ~1030px and does not. Caps the headline only — the content
+  // column keeps its full width (see .heroSection > .container in Hero).
+  max-width: 18.5em;
 }
 
 .subtitle {

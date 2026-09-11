@@ -12,7 +12,9 @@
   // overflow:hidden clipped the top of the H1 on a 390px screen.
   min-height: 100dvh;
   display: flex;
-  align-items: center;
+  // stretch, not center: the wrapper has to span the full section height for
+  // the fact strip to sit on its bottom edge.
+  align-items: stretch;
   overflow: hidden;
   background-color: var(--bg-base);
 
@@ -21,13 +23,31 @@
   }
 }
 
+// The global .container declares max-width and auto margins but no width, so
+// as a flex item of this section it would size to its widest child. That made
+// the whole content column collapse the moment the H1 got a max-width. Force
+// it to fill the row so the fact strip keeps spanning the full column no
+// matter how narrow the headline is.
+.heroSection > :global(.container) {
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  // Also a column, so the wrapper inside it can stretch to the section's full
+  // height — otherwise the wrapper is only as tall as its content and the
+  // fact strip has no free space to be pushed into.
+  display: flex;
+  flex-direction: column;
+}
+
 .wrapper {
-  // Vertical centring belongs to the flex parent, so this stays in normal flow
-  // and the section grows instead of cropping.
   position: relative;
   z-index: 1;
   width: 100%;
   max-width: 100%;
+  // Full-height column so its last child can be pinned to the bottom edge.
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   // Top padding clears the fixed header.
   padding: 100px 20px 40px;
   margin: 0 auto;
@@ -48,14 +68,26 @@
 }
 
 .heroSectionContent {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+}
+
+// Heading, lede, supporting line and CTAs. Sits high in the section with a
+// small breathing offset rather than dead centre — the fact strip below takes
+// the remaining space via its auto margin.
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 18px;
+  width: 100%;
 
   @media screen and (min-width: 768px) {
     gap: 22px;
+    margin-top: clamp(0px, 5vh, 64px);
   }
 }
 
@@ -83,7 +115,10 @@
 
 .facts {
   width: 100%;
-  margin: 14px 0 0;
+  // auto pushes the strip to the bottom edge of the section; the 32px floor
+  // keeps it off the CTAs when content is taller than the viewport and there
+  // is no free space left to absorb.
+  margin: 32px 0 0;
   padding-top: 22px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 
@@ -94,7 +129,7 @@
   gap: 18px 20px;
 
   @media screen and (min-width: 768px) {
-    margin-top: 20px;
+    margin-top: auto;
     padding-top: 26px;
     gap: 22px 28px;
   }

@@ -158,9 +158,32 @@ All `page.tsx` files, `layout.tsx` files, Header, Footer, Hero, About, Services,
 
 ### "use client" — questionable / unnecessary
 
-| Component | Issue |
-|-----------|-------|
-| `SchemaBlogPost` | Only builds a JSON-LD object and renders `<Script strategy="beforeInteractive">`. Has no hooks, no state, no event handlers. Can be a server component — removing `"use client"` would push JSON-LD into the initial HTML, which is better for SEO. |
+None currently known.
+
+**Correction, 2026-09-12.** This table used to claim `SchemaBlogPost` carried a
+`"use client"` directive that should be removed to get JSON-LD into the initial
+HTML. **That was wrong on the facts** — the file never had the directive, and
+anyone acting on the note would have gone looking for a line that does not
+exist. The symptom was real, the cause was not: see §10.
+
+---
+
+## 4a. JSON-LD must use a plain `<script>`, never `next/script`
+
+Verified 2026-09-12 against the dev server. `next/script` — with or without
+`strategy="beforeInteractive"` — does not put JSON-LD in the server HTML. It
+queues the content into `self.__next_s` and injects it after hydration. The
+proof was visible on a single page: `Accordion` emitted its `FAQPage` through a
+plain `<script>` and appeared in `curl` output, while `SchemaBlogPost` emitted
+`BlogPosting` through `next/script` on the same page and did not.
+
+Google executes JavaScript and would eventually see either. Most of the fetchers
+behind LLM answers do not, so anything rendered through `next/script` is
+invisible to them.
+
+**Rule: every `application/ld+json` block in this project uses a plain
+`<script>` tag with `suppressHydrationWarning`.** Do not "modernise" these back
+to `next/script`.
 
 ---
 
@@ -507,3 +530,61 @@ code itself.
   one should carry the term the section is about. Stated by the
   owner 2026-09-08 after a draft came back with 5 of 7 H2s carrying
   no target term.
+
+## 10. Entity identity graph (`src/lib/schema/identity.ts`)
+
+Added 2026-09-12. **One file defines who this site is about, and everything
+else references it by `@id`.** Do not declare an inline `Person` or
+`Organization` anywhere else — that is the exact bug this replaced.
+
+### Why it exists
+
+A SERP check on `"Aliaksandr Bandziuk"` (Poland, depth 30) returned at least
+five different entities sharing the surname: a rower (`worldrowing.com`), a
+transport company (`DP-TRANS.PL`, three separate registry domains), a news item
+about a namesake's detention, `Tatiana Bandziuk`, and — at position 7 — a
+**different** developer's LinkedIn, while the site owner's own LinkedIn was
+absent from the top 20. There is no knowledge panel for the name.
+
+With the entity that ambiguous, an assistant asked "who should I hire" cannot
+tell which Bandziuk builds websites, so it names someone whose entity is clean.
+This is the best available explanation for the measured result: **named in 1 of
+141 AI answers** (Google AI Mode 0/47, ChatGPT 0/47, Perplexity 1/47, plus 4
+source-only citations). Full method and data: `drafts/ai-visibility-results-2026-09.md`.
+
+### Shape
+
+| Node | `@id` | Notes |
+|---|---|---|
+| `Person` | `/#person` | `jobTitle`, `knowsAbout`, `knowsLanguage`, `sameAs` |
+| `ProfessionalService` | `/#organization` | `areaServed`, `logo`, `founder` → Person |
+| `WebSite` | `/#website` | `publisher` → org |
+
+Emitted once per page by `SchemaIdentity` from `[lang]/layout.tsx`.
+
+### Rules
+
+- **`SAME_AS` is the entity-merge signal.** Every new directory or social
+  profile goes in that array and nowhere else. An incomplete list is the most
+  common reason disambiguation fails.
+- `provider`, `author`, `publisher`, `mainEntity` reference `personRef()` /
+  `orgRef()`. Never restate the object.
+- A blog post by a guest author (name ≠ `PERSON_NAME`) still gets its own
+  inline `Person`. Only the owner's posts reference the shared node.
+- **Never emit a second node under an `@id` the identity graph owns.**
+  `SchemaPortfolio` used to declare its own `WebSite` at `/#website` with
+  different content, putting two conflicting definitions of one entity on the
+  same page.
+- `FAQPage` comes from `Accordion`, co-located with the visible questions.
+  `SchemaBlogPost` must not also emit one — that produced two `FAQPage` blocks
+  per article.
+
+### Not done, and deliberately so
+
+Google Business Profile is **not** a prerequisite here. An earlier draft of the
+AI-visibility report claimed ChatGPT cites GBP listings, based on it linking to
+Google Maps in 23 of 47 answers. Checking the link shapes killed that: all 507
+Maps links are `maps/search/<name>,+<city>` — constructed queries the model
+draws as a convenience affordance. Real listing links (`maps/place/`) numbered
+**zero**. The owner's GBP verification was rejected (home address) and it cost
+almost nothing.

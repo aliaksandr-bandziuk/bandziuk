@@ -6,6 +6,7 @@ import type {
   Screenshot,
   WebsiteField,
 } from "@/types/portfolio";
+import { orgRef, personRef, WEBSITE_ID } from "@/lib/schema/identity";
 
 type BuildJsonLdArgs = {
   doc: Portfolio;
@@ -14,26 +15,14 @@ type BuildJsonLdArgs = {
   previewImageUrl?: string; // абсолютный URL превью (через urlFor)
 };
 
-// ==== ВЕРХ ФАЙЛА: оставь Organization как publisher, добавим WebSite ====
-const ORG = {
-  "@type": "Organization",
-  name: "Aliaksandr Bandziuk",
-  url: "https://www.bandziuk.com",
-  logo: {
-    "@type": "ImageObject",
-    url: "https://cdn.sanity.io/images/x6jc462y/production/f070d11f862c00400711d6efca18504713a95c27-772x242.png",
-  },
-};
-
-// Введём сущность WebSite, чтобы на неё ссылаться из isPartOf
-const WEBSITE = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://www.bandziuk.com/#website",
-  url: "https://www.bandziuk.com",
-  name: "bandziuk.com",
-  publisher: ORG,
-};
+// Publisher, author and the site node all live in the site-wide identity graph
+// (src/lib/schema/identity.ts, emitted from [lang]/layout.tsx). This file used
+// to declare its own Organization and its own WebSite under the very @id the
+// shared node uses, which put two conflicting definitions of the same entity on
+// one page — the opposite of what the identity work is for. Reference them
+// instead.
+const ORG = orgRef();
+const WEBSITE_REF = { "@id": WEBSITE_ID };
 
 /** Безопасная сборка массива изображений */
 function collectImages(doc: Portfolio, previewImageUrl?: string): string[] {
@@ -112,7 +101,7 @@ export function getPortfolioJsonLd({
     name: doc.seo?.metaTitle || doc.fullTitle || doc.title,
     description: doc.seo?.metaDescription || doc.excerpt,
     // было Organization — валидатор ругался. Делаем ссылку на WebSite:
-    isPartOf: { "@id": WEBSITE["@id"] },
+    isPartOf: WEBSITE_REF,
     primaryImageOfPage: images[0]
       ? { "@type": "ImageObject", url: images[0] }
       : undefined,
@@ -132,10 +121,10 @@ export function getPortfolioJsonLd({
     name: doc.fullTitle || doc.title,
     description: doc.excerpt,
     image: images.length ? images : undefined,
-    isPartOf: { "@id": WEBSITE["@id"] }, // опционально, но красиво
+    isPartOf: WEBSITE_REF, // опционально, но красиво
     mainEntityOfPage: { "@id": webPageId }, // двусторонняя связь
     publisher: ORG,
-    author: ORG,
+    author: personRef(),
     about: (() => {
       const list = [
         ...(projectSiteId ? [{ "@id": projectSiteId }] : []),
@@ -148,7 +137,8 @@ export function getPortfolioJsonLd({
     datePublished: doc.publishedAt || undefined,
   };
 
-  // WebSite (bandziuk.com), WebPage, Article — и, если у проекта указан
-  // адрес, отдельная нода WebSite для самого проекта.
-  return [WEBSITE, webPage, article, ...(projectSite ? [projectSite] : [])];
+  // WebPage and Article for this case, plus a separate WebSite node for the
+  // client's own site when the case states its address. The bandziuk.com
+  // WebSite node is NOT emitted here — the site-wide identity graph owns it.
+  return [webPage, article, ...(projectSite ? [projectSite] : [])];
 }

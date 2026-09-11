@@ -20,7 +20,6 @@ import PortfolioScreenshots from "@/app/components/sections/PortfolioScreenshots
 import ContentDescription from "@/app/components/layout/ContentDescription/ContentDescription";
 import PortfolioTechnologies from "@/app/components/sections/PortfolioTechnologies/PortfolioTechnologies";
 import { getPortfolioJsonLd } from "@/app/components/seo/SchemaPortfolio/SchemaPortfolio";
-import Script from "next/script";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -194,9 +193,11 @@ const PortfolioPage = async ({ params }: Props) => {
       <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={params.lang} formDocument={formDocument} />
 
-      <Script
-        id="portfolio-jsonld"
+      {/* Plain <script>: next/script defers JSON-LD past hydration, so it
+          never reaches the server HTML. See SchemaBlogPost for the check. */}
+      <script
         type="application/ld+json"
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
     </>

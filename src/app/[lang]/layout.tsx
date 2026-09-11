@@ -8,6 +8,7 @@ import GoogleAdsScript from "../components/scripts/GoogleAdsScript/GoogleAdsScri
 import GoogleAnalyticsWrapper from "../components/scripts/GoogleAnalyticsWrapper/GoogleAnalyticsWrapper";
 import MicrosoftClarity from "../components/scripts/MicrosoftClarity/MicrosoftClarity";
 import LenisProvider from "../components/animations/LenisProvider/LenisProvider";
+import SchemaIdentity from "../components/seo/SchemaIdentity/SchemaIdentity";
 
 const fontHeading = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
@@ -46,6 +47,10 @@ export default function RootLayout({
       <body
         className={`${fontHeading.variable} ${fontBody.variable} ${fontMono.variable}`}
       >
+        {/* Site-wide entity graph. Must stay on every page: it's the node all
+            other schema on the site references by @id. */}
+        <SchemaIdentity lang={params.lang} />
+
         <LenisProvider />
         <ModalProvider>{children}</ModalProvider>
 

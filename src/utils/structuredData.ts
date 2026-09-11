@@ -9,6 +9,7 @@ import {
   ReviewFull,
 } from "@/types/blog";
 import { PageType as SinglePageType, SinglepageRef } from "@/types/singlepage";
+import { orgRef, personRef } from "@/lib/schema/identity";
 
 export type PageInput = {
   slug: string;
@@ -141,12 +142,11 @@ export function generateStructuredData({
       }))
     );
 
+    // The contact page's main entity is the practice itself, referenced by @id
+    // so it merges with the site-wide node rather than creating a second,
+    // competing Organization named after the page title.
     jsonLd.mainEntity = {
-      "@type": "Organization",
-      name: metaTitle,
-      url,
-      inLanguage: lang,
-      // ...(contactPoints.length && { contactPoint: contactPoints }),
+      ...orgRef(),
       ...(place && { location: place }),
       ...(members.length && { member: members }),
     };
@@ -180,11 +180,7 @@ export function generateStructuredData({
             description: service.excerpt || undefined,
             url: buildServiceUrl(childSlug),
             inLanguage: lang,
-            provider: {
-              "@type": "Person",
-              name: "Aliaksandr Bandziuk",
-              url: "https://www.bandziuk.com",
-            },
+            provider: personRef(),
           };
         })
         .filter(Boolean),
@@ -197,11 +193,7 @@ export function generateStructuredData({
     jsonLd.name = pageTitle || metaTitle; // имя услуги
     jsonLd.description = excerpt || metaDescription;
     jsonLd.serviceType = pageTitle || metaTitle;
-    jsonLd.provider = {
-      "@type": "Person",
-      name: "Aliaksandr Bandziuk",
-      url: "https://www.bandziuk.com",
-    };
+    jsonLd.provider = personRef();
     // Only emitted when the page's own copy states a real service area
     // (singlepage.areaServed). No locale-based default — see structuredData
     // findings: language isn't geography, and a plausible-looking guess is

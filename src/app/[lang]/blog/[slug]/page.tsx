@@ -229,10 +229,13 @@ const PagePost = async ({ params }: Props) => {
         currentTitle={blog.title}
       />
       <main>
+        {/* categoryTitle is optional-chained on purpose: category is not a
+            required field, and a post saved without one threw here, which
+            blanked the whole article body behind a 200 response. */}
         <BlogIntro
           title={blog.title}
           excerpt={blog.excerpt}
-          categoryTitle={blog.category.title}
+          categoryTitle={blog.category?.title}
           date={blog.publishedAt}
           previewImage={blog.previewImage}
           author={blog.author}

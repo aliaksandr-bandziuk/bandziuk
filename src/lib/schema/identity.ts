@@ -32,9 +32,11 @@ export const LOGO_URL =
  */
 export const SAME_AS: string[] = [
   "https://www.linkedin.com/in/bandziuk",
+  "https://x.com/bandziuk",
   "https://dev.to/aliaksandrbandziuk",
   "https://medium.com/@aliaksandr_bandziuk",
   "https://themanifest.com/company/aliaksandr-bandziuk",
+  "https://www.designrush.com/agency/profile/aliaksandr-bandziuk",
   "https://www.sortlist.com/agency/aliaksandr-bandziuk",
   "https://www.oferteo.pl/aliaksandr-bandziuk/firma/7647076",
   "https://www.gowork.pl/aliaksandr-bandziuk,27173802/dane-kontaktowe-firmy",

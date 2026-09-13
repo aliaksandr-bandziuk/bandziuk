@@ -4,6 +4,14 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import { ImageAlt } from "@/types/common";
 import { Author } from "@/types/blog";
+import { clampedAspectRatio } from "@/utils/sanityImageDimensions";
+
+// The frame follows the cover's own proportions instead of forcing one crop on
+// every article: most covers are 16:9 and were losing their top and bottom edge
+// to a hardcoded 21:9. The bounds keep an unusually tall or wide upload from
+// distorting the page — 16:9 is as tall as a hero may get, 21:9 as wide.
+const MIN_COVER_RATIO = 16 / 9;
+const MAX_COVER_RATIO = 21 / 9;
 
 type Props = {
   title: string;
@@ -77,8 +85,24 @@ const BlogIntro: FC<Props> = ({
             <p className={styles.excerpt}>{excerpt}</p>
           </div>
           {previewImage && (
-            <div className={styles.blogIntroImage}>
-              <Image src={urlFor(previewImage).url()} alt={previewImage.alt ?? title} fill={true} />
+            <div
+              className={styles.blogIntroImage}
+              style={{
+                aspectRatio:
+                  clampedAspectRatio(
+                    previewImage,
+                    MIN_COVER_RATIO,
+                    MAX_COVER_RATIO
+                  ) ?? undefined,
+              }}
+            >
+              <Image
+                src={urlFor(previewImage).url()}
+                alt={previewImage.alt ?? title}
+                fill={true}
+                sizes="(max-width: 1024px) 100vw, 1200px"
+                priority
+              />
             </div>
           )}
         </div>

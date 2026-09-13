@@ -12,3 +12,21 @@
 [redirects] RU: 51 flat→nested redirects generated
 [redirects] Done: 150 total redirects (131 dynamic from Sanity + 19 static overrides)
  ✓ Ready in 7.6s
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 5.4s (123 modules)
+ ○ Compiling /[lang] ...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+The user aborted a request.
+
+Retrying 1/3...
+The user aborted a request.
+
+Retrying 1/3...
+The user aborted a request.
+
+Retrying 1/3...
+ ✓ Compiled /[lang] in 111.8s (7542 modules)
+ GET / 200 in 117141ms
+[?25h

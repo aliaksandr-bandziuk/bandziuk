@@ -3,6 +3,7 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import styles from "./ImageFullBlockComponent.module.scss";
 import { ImageFullBlock } from "@/types/blog";
+import { imageDimensions } from "@/utils/sanityImageDimensions";
 
 type Props = {
   block: ImageFullBlock;
@@ -17,12 +18,7 @@ const ImageFullBlockComponent: FC<Props> = ({ block }) => {
   } = block;
   const { picture, aspectRatio } = imageMain;
 
-  // Sanity encodes the dimensions in the asset id: image-<hash>-<w>x<h>-<ext>.
-  const dimensions = (() => {
-    const ref = (picture as any)?.asset?._ref ?? (picture as any)?.asset?._id;
-    const m = typeof ref === "string" ? ref.match(/-(\d+)x(\d+)-[a-z]+$/) : null;
-    return m ? { width: Number(m[1]), height: Number(m[2]) } : null;
-  })();
+  const dimensions = imageDimensions(picture);
 
   // No aspect ratio means an inline figure: render at the image's own size so
   // nothing is cropped. `fill` plus a forced ratio is object-fit: cover, which

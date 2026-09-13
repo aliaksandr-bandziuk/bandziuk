@@ -64,6 +64,8 @@
 
 .blogIntroImage {
   position: relative;
+  // Fallback only: the component sets the real ratio inline from the asset's
+  // own dimensions. This applies when they can't be read from the asset id.
   aspect-ratio: 21/9;
   overflow: hidden;
   margin-bottom: 30px;

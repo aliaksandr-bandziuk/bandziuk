@@ -80,6 +80,8 @@ is written up step by step in
 Assistants do not return ten links. They return a shortlist, and how much
 evidence sits behind that shortlist varies by an order of magnitude.
 
+![How much each assistant cites per answer: Perplexity 16.7, Google AI Mode 3.7, ChatGPT 1.6](article-figures/fig-citations-per-answer.png)
+
 | Engine | Total citations across 47 answers | Per answer |
 |---|---:|---:|
 | Perplexity | 787 | 16.7 |
@@ -104,6 +106,8 @@ This is the finding with the most practical weight, and it is the reason
 Every citation across all 141 answers was classified into four buckets: the
 provider's own website, a directory such as Clutch or Sortlist, a platform such
 as LinkedIn or Reddit, and Google Maps.
+
+![Share of citations by source type: Perplexity and Google AI Mode build answers from provider websites, ChatGPT takes 31 per cent from Google Maps](article-figures/fig-source-mix-by-engine.png)
 
 | Engine | Own sites | Directories | Platforms | Google Maps | Answers citing Maps |
 |---|---:|---:|---:|---:|---:|
@@ -131,6 +135,8 @@ Half of ChatGPT's answers referencing Google Maps invites an obvious
 conclusion: a verified Google Business Profile must be the entry ticket for AI
 visibility. The link format disproves it.
 
+![507 constructed Maps search queries against zero links to real business listings](article-figures/fig-maps-links-checked.png)
+
 | Link form | Count in dataset | What it is |
 |---|---:|---|
 | `google.com/maps/search/<name>,+<city>` | 507 | a constructed search query |
@@ -152,6 +158,8 @@ the URL in about a minute.
 
 Asked about generative engine optimization as a subject, assistants cite these
 sources:
+
+![Sources cited when the topic is generative engine optimization: YouTube 896, LinkedIn and Reddit 512 each, ahead of the trade press](article-figures/fig-cited-sources-geo.png)
 
 | Source | Mentions |
 |---|---:|
@@ -315,6 +323,24 @@ general pattern rather than a confession. The author is the researcher.
 **One judgement call to confirm.** Competitor names are kept because a study
 that names nobody is not a study, and every name comes from public search
 results. Say the word and they become categories.
+
+**Figures.** Four, in `drafts/article-figures/`, rendered at 2400px wide for
+retina and served at half that. Colours are the four categorical slots run
+through the palette validator against the site's own dark surface `#111114`:
+all six checks pass, worst adjacent colour-blindness separation ΔE 8.4 against
+a threshold of 8. Every figure also has its numbers in a table beside it, so
+nothing depends on reading the colours. Source file `figures.html` is included
+— re-render it after the monthly re-run rather than editing the PNGs.
+
+| File | Where it goes |
+|---|---|
+| `fig-citations-per-answer.png` | "How much each assistant cites per answer" |
+| `fig-source-mix-by-engine.png` | "Where each assistant takes its sources" |
+| `fig-maps-links-checked.png` | "Why ChatGPT's Google Maps citations are not business listings" |
+| `fig-cited-sources-geo.png` | "LLM SEO versus classic SEO" |
+
+The alt text in the draft carries the finding rather than describing the chart
+type, because that is what a screen reader and an assistant both need.
 
 **Internal links to add on publish:**
 

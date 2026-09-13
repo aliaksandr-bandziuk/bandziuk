@@ -54,6 +54,15 @@ const STATIC_REDIRECTS = [
   { source: '/blog/google-stopped-reading-sitemap-lastmod',         destination: '/blog/sitemap-lastmod',            permanent: true },
   { source: '/pl/blog/google-przestal-czytac-mape-witryny-lastmod', destination: '/pl/blog/lastmod-w-mapie-witryny', permanent: true },
   { source: '/ru/blog/google-perestal-chitat-kartu-saita-lastmod',  destination: '/ru/blog/lastmod-v-karte-saita',   permanent: true },
+
+  // Multilingual development moved from the site root into the services tree
+  // (2026-09-13). It was a root-level orphan with pageType "page", one inbound
+  // link, no breadcrumbs, absent from the hub's ItemList schema and served a
+  // plain WebPage instead of Service — which is why the strongest service page
+  // on the site, price and client results included, had zero impressions.
+  { source: '/multilingual-website-development',   destination: '/services/multilingual-website-development',      permanent: true },
+  { source: '/pl/tworzenie-stron-wielojezycznych', destination: '/pl/oferty/tworzenie-stron-wielojezycznych',      permanent: true },
+  { source: '/ru/razrabotka-multiyazychnogo-saita', destination: '/ru/uslugi/razrabotka-multiyazychnogo-saita',    permanent: true },
 ];
 
 async function buildDynamicRedirects() {

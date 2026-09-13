@@ -49,6 +49,15 @@ export type Singlepage = {
   title: string;
   /** Optional H1 override; `title` stays the short navigational label. */
   heading?: string;
+  /** Prices printed on the page, restated for JSON-LD. */
+  offers?: Array<{
+    _key?: string;
+    name: string;
+    price: number;
+    maxPrice?: number;
+    currency?: string;
+    unit?: "one-off" | "month";
+  }>;
   seo: Seo;
   excerpt: string;
   previewImage: ImageAlt;

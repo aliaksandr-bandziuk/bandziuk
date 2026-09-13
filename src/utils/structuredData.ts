@@ -29,6 +29,16 @@ export type PageInput = {
   // own copy (singlepage.areaServed). Omitted from the JSON-LD entirely when
   // empty — no locale-based guess; language isn't geography.
   areaServed?: string[];
+  // Prices the page already prints in visible text, restated so a machine can
+  // read them. A page can carry eight figures in prose and expose none of them
+  // to an assistant, which is what /pricing did before this existed.
+  offers?: Array<{
+    name: string;
+    price: number;
+    maxPrice?: number;
+    currency?: string;
+    unit?: "one-off" | "month";
+  }>;
 };
 
 // ---- Type guards ----
@@ -78,6 +88,7 @@ export function generateStructuredData({
   servicesParentSlug,
   services,
   areaServed,
+  offers,
 }: PageInput) {
   const aboutKeywords = ["ueber-uns", "about", "o-kompanii", "o-nas"];
   const contactsKeywords = ["kontakt", "contacts", "kontakty"];
@@ -204,6 +215,35 @@ export function generateStructuredData({
         name,
       }));
     }
+  }
+
+  // Prices, as Offer nodes a machine can read. Emitted on any page type that
+  // states them — the pricing page is a WebPage, not a Service, and it is the
+  // page where this matters most.
+  if (offers && offers.length > 0) {
+    jsonLd.offers = offers.map((o) => {
+      const currency = o.currency || "EUR";
+      const spec: any = {
+        "@type": "PriceSpecification",
+        priceCurrency: currency,
+        // A range gets both bounds; a "from X" price gets a minimum only, which
+        // is the honest reading of "from".
+        ...(o.maxPrice
+          ? { minPrice: o.price, maxPrice: o.maxPrice }
+          : { minPrice: o.price }),
+        ...(o.unit === "month" ? { unitText: "MONTH" } : {}),
+      };
+      return {
+        "@type": "Offer",
+        name: o.name,
+        priceCurrency: currency,
+        price: o.price,
+        priceSpecification: spec,
+        availability: "https://schema.org/InStock",
+        seller: personRef(),
+        url,
+      };
+    });
   }
 
   // Для AboutPage и WebPage обрабатываем отзывы

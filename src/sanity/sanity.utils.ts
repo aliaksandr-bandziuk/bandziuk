@@ -188,6 +188,7 @@ export async function getSinglePageByLang(
       allowIntroBlock,
       pageType,
       areaServed,
+      offers,
       contentBlocks[] {
       _type == "textContent" => {
           _key,

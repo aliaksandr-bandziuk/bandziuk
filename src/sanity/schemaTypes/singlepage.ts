@@ -1,4 +1,4 @@
-import { defineField } from "sanity";
+import { defineArrayMember, defineField } from "sanity";
 
 const singlepage = {
   name: "singlepage",
@@ -129,6 +129,70 @@ const singlepage = {
       type: "array",
       of: [{ type: "string" }],
       hidden: ({ document }) => document?.pageType !== "service",
+    }),
+    defineField({
+      name: "offers",
+      title: "Prices (JSON-LD Offer)",
+      description:
+        "Machine-readable copies of prices the page already states in visible text. A price is the most quotable fact a service page has, and assistants read it from structured data rather than from prose. Only add entries that match a figure actually printed on the page — markup that disagrees with the visible copy is worse than none.",
+      type: "array",
+      of: [
+        defineArrayMember({
+          name: "offer",
+          type: "object",
+          fields: [
+            defineField({
+              name: "name",
+              title: "What is being priced",
+              type: "string",
+              validation: (Rule) => Rule.required(),
+            }),
+            defineField({
+              name: "price",
+              title: "Price (number only)",
+              type: "number",
+              validation: (Rule) => Rule.required().positive(),
+            }),
+            defineField({
+              name: "maxPrice",
+              title: "Upper bound, for a range",
+              description: "Leave empty for a 'from X' price.",
+              type: "number",
+            }),
+            defineField({
+              name: "currency",
+              title: "Currency",
+              type: "string",
+              initialValue: "EUR",
+              options: { list: ["EUR", "PLN", "USD"] },
+            }),
+            defineField({
+              name: "unit",
+              title: "Billing period",
+              type: "string",
+              initialValue: "one-off",
+              options: { list: ["one-off", "month"] },
+            }),
+          ],
+          preview: {
+            select: { title: "name", price: "price", currency: "currency", unit: "unit" },
+            prepare: ({
+              title,
+              price,
+              currency,
+              unit,
+            }: {
+              title?: string;
+              price?: number;
+              currency?: string;
+              unit?: string;
+            }) => ({
+              title: title ?? "",
+              subtitle: `${price ?? "?"} ${currency ?? "EUR"}${unit === "month" ? " / month" : ""}`,
+            }),
+          },
+        }),
+      ],
     }),
     defineField({
       name: "language",

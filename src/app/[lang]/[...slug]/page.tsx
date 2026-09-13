@@ -280,6 +280,7 @@ const SinglePage = async ({ params }: Props) => {
     servicesParentSlug: fullPath,
     services: page.childrenServices || [],
     areaServed: page.areaServed,
+    offers: page.offers,
   };
 
   // Правильный маппинг переводов без ошибки TS

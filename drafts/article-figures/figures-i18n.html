@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* Four categorical slots, validated with the dataviz validator against this
+     surface (#111114, dark): all six checks pass, worst adjacent CVD dE 8.4. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:20px 0 0}
+  .legend{display:flex;gap:20px;flex-wrap:wrap;margin:0 0 20px}
+  .legend span{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2)}
+  .legend i{width:12px;height:12px;border-radius:3px;display:block}
+  text{font-family:var(--sans)}
+  .lbl{fill:var(--ink);font-size:15px;font-weight:500}
+  .val{fill:var(--ink);font-size:15px;font-weight:600}
+  .ax{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+  .inseg{font-size:13px;font-weight:600}
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:4px}
+  .stat{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:26px 28px}
+  .stat .lab{font-size:14px;color:var(--ink-2);margin:0 0 12px;line-height:1.45}
+  .stat code{font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+  .stat .num{font-size:72px;font-weight:600;color:var(--ink);line-height:1;margin:0}
+  .stat .num.zero{color:var(--s2)}
+  .stat .cap{font-family:var(--mono);font-size:12px;color:var(--muted);margin:12px 0 0;letter-spacing:.06em}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script>
+const T = {
+  en: {
+    f1:{k:"47 prompts · 141 answers · September 2026",
+        h:"How much each assistant cites per answer",
+        s:"Total sources referenced across 47 answers, divided by 47. Perplexity reads the open web an order of magnitude more heavily than ChatGPT does.",
+        n:"Counted from the citation lists returned with each answer."},
+    f2:{k:"Where the names come from",
+        h:"Each assistant draws on a different kind of source",
+        s:"Share of all citations per engine. Perplexity and Google AI Mode build answers out of provider websites; ChatGPT leans on Google Maps in half of its answers.",
+        l:["Provider websites","Directories","Platforms (LinkedIn, Reddit)","Google Maps"],
+        n:"Totals: Perplexity 787 citations, Google AI Mode 175, ChatGPT 74."},
+    f3:{k:"The Google Maps citations, checked",
+        h:"Not one of those Maps links points at a business listing",
+        s:"Every Maps URL in the dataset is a search query the model composed from a name and a city. A verified Google Business Profile is not what puts a company in the answer.",
+        lab:"Links of the form", c1:"constructed search queries", c2:"real business listings"},
+    f4:{k:"Topic: generative engine optimization",
+        h:"What assistants cite when the subject is GEO itself",
+        s:"Video, professional networks and forums outweigh the trade press. The Google results page for the same commercial terms is dominated by agency listicles instead — two channels, two different winners.",
+        n:"Mentions recorded across the LLM-mentions dataset for the topic."},
+  },
+  ru: {
+    f1:{k:"47 промптов · 141 ответ · сентябрь 2026",
+        h:"Сколько источников цитирует каждый ассистент на один ответ",
+        s:"Всего источников по 47 ответам, делённое на 47. Perplexity читает открытый веб на порядок активнее, чем ChatGPT.",
+        n:"Посчитано по спискам источников, которые движок отдаёт вместе с ответом."},
+    f2:{k:"Откуда берутся имена",
+        h:"Каждый ассистент опирается на свой тип источников",
+        s:"Доля всех цитирований по каждому движку. Perplexity и Google AI Mode собирают ответ из сайтов исполнителей, а ChatGPT в половине ответов опирается на Google Карты.",
+        l:["Сайты исполнителей","Каталоги","Площадки (LinkedIn, Reddit)","Google Карты"],
+        n:"Всего цитирований: Perplexity 787, Google AI Mode 175, ChatGPT 74."},
+    f3:{k:"Ссылки на карты, проверены",
+        h:"Ни одна из этих ссылок не ведёт на карточку компании",
+        s:"Каждая ссылка на карты в наборе данных — это поисковый запрос, составленный моделью из названия и города. Подтверждённая карточка в Google не является тем, что помещает компанию в ответ.",
+        lab:"Ссылки вида", c1:"составленных поисковых запросов", c2:"реальных карточек компаний"},
+    f4:{k:"Тема: generative engine optimization",
+        h:"Что цитируют ассистенты, когда тема — сам GEO",
+        s:"Видео, профессиональные сети и форумы перевешивают отраслевую прессу. Выдача Google по тем же коммерческим запросам, наоборот, занята подборками агентств: два канала, два разных победителя.",
+        n:"Упоминания по набору данных об упоминаниях в языковых моделях."},
+  },
+  pl: {
+    f1:{k:"47 promptów · 141 odpowiedzi · wrzesień 2026",
+        h:"Ile źródeł cytuje każdy asystent na jedną odpowiedź",
+        s:"Suma źródeł ze 47 odpowiedzi podzielona przez 47. Perplexity czyta otwarty internet o rząd wielkości intensywniej niż ChatGPT.",
+        n:"Policzone z list źródeł zwracanych razem z odpowiedzią."},
+    f2:{k:"Skąd biorą się nazwy",
+        h:"Każdy asystent opiera się na innym rodzaju źródeł",
+        s:"Udział wszystkich cytowań w podziale na silnik. Perplexity i Google AI Mode budują odpowiedź ze stron wykonawców, a ChatGPT w połowie odpowiedzi opiera się na Mapach Google.",
+        l:["Strony wykonawców","Katalogi","Platformy (LinkedIn, Reddit)","Mapy Google"],
+        n:"Łącznie cytowań: Perplexity 787, Google AI Mode 175, ChatGPT 74."},
+    f3:{k:"Linki do Map, sprawdzone",
+        h:"Żaden z tych linków nie prowadzi do wizytówki firmy",
+        s:"Każdy link do Map w zbiorze to zapytanie wyszukiwania złożone przez model z nazwy i miasta. Zweryfikowana wizytówka Google nie jest tym, co wprowadza firmę do odpowiedzi.",
+        lab:"Linki w formacie", c1:"złożonych zapytań wyszukiwania", c2:"prawdziwych wizytówek firm"},
+    f4:{k:"Temat: generative engine optimization",
+        h:"Co cytują asystenci, gdy tematem jest samo GEO",
+        s:"Wideo, sieci profesjonalne i fora przeważają nad prasą branżową. Wyniki Google dla tych samych fraz komercyjnych są za to zdominowane przez zestawienia agencji: dwa kanały, dwóch różnych zwycięzców.",
+        n:"Wzmianki zarejestrowane w zbiorze wzmianek w modelach językowych."},
+  },
+};
+
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a = {}) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+const S = getComputedStyle(document.documentElement);
+const c = (n) => S.getPropertyValue(n).trim();
+const barPath = (x, y, w, h, r = 4) => { r = Math.min(r, w); return `M${x},${y} H${x + w - r} A${r},${r} 0 0 1 ${x + w},${y + r} V${y + h - r} A${r},${r} 0 0 1 ${x + w - r},${y + h} H${x} Z`; };
+
+function section(lang, id, t) {
+  const s = document.createElement("section");
+  s.className = "fig";
+  s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2><p class="sub">${t.s}</p>`;
+  return s;
+}
+
+function fig1(lang, t) {
+  const s = section(lang, "fig1", t.f1);
+  const svg = el("svg", { width: 1104, height: 210 });
+  const data = [["Perplexity", 16.7], ["Google AI Mode", 3.7], ["ChatGPT", 1.6]];
+  const padL = 190, top = 12, band = 58, barH = 24, W = 1104 - padL - 90, max = 18;
+  [0, 5, 10, 15].forEach(v => {
+    const x = padL + (v / max) * W;
+    svg.appendChild(el("line", { x1: x, y1: top, x2: x, y2: top + band * 3 - 18, stroke: c("--grid"), "stroke-width": 1 }));
+    const g = el("text", { x, y: top + band * 3 + 4, "text-anchor": "middle", class: "ax" }); g.textContent = v; svg.appendChild(g);
+  });
+  data.forEach(([name, v], i) => {
+    const y = top + i * band + (band - barH) / 2 - 9, w = (v / max) * W;
+    svg.appendChild(el("path", { d: barPath(padL, y, w, barH), fill: c("--s1") }));
+    const l = el("text", { x: padL - 16, y: y + barH / 2 + 5, "text-anchor": "end", class: "lbl" }); l.textContent = name; svg.appendChild(l);
+    const val = el("text", { x: padL + w + 14, y: y + barH / 2 + 5, class: "val" }); val.textContent = v.toFixed(1).replace(".", lang === "en" ? "." : ","); svg.appendChild(val);
+  });
+  svg.appendChild(el("line", { x1: padL, y1: top, x2: padL, y2: top + band * 3 - 18, stroke: c("--baseline"), "stroke-width": 1 }));
+  s.appendChild(svg);
+  const n = document.createElement("p"); n.className = "note"; n.textContent = t.f1.n; s.appendChild(n);
+  return s;
+}
+
+function fig2(lang, t) {
+  const s = section(lang, "fig2", t.f2);
+  const leg = document.createElement("div"); leg.className = "legend";
+  const hues = [c("--s1"), c("--s2"), c("--s3"), c("--s4")];
+  t.f2.l.forEach((label, i) => { leg.innerHTML += `<span><i style="background:${hues[i]}"></i>${label}</span>`; });
+  s.appendChild(leg);
+  const svg = el("svg", { width: 1104, height: 210 });
+  const rows = [["Perplexity", [667, 61, 50, 9]], ["Google AI Mode", [141, 13, 17, 4]], ["ChatGPT", [47, 3, 1, 23]]];
+  const padL = 190, top = 14, band = 66, barH = 24, W = 1104 - padL - 40, GAP = 2;
+  rows.forEach(([name, vals], i) => {
+    const total = vals.reduce((a, b) => a + b, 0);
+    const y = top + i * band; let x = padL;
+    vals.forEach((v, j) => {
+      const w = (v / total) * W, last = j === vals.length - 1, dw = Math.max(0, last ? w : w - GAP);
+      if (dw > 0.5) {
+        svg.appendChild(el("path", { d: last ? barPath(x, y, dw, barH) : `M${x},${y} h${dw} v${barH} h${-dw} Z`, fill: hues[j] }));
+        if (dw > 54) {
+          const p = el("text", { x: x + dw / 2, y: y + barH / 2 + 5, "text-anchor": "middle", class: "inseg", fill: (j === 1 || j === 3) ? "#1a1200" : "#ffffff" });
+          p.textContent = Math.round((v / total) * 100) + "%"; svg.appendChild(p);
+        }
+      }
+      x += w;
+    });
+    const l = el("text", { x: padL - 16, y: y + barH / 2 + 5, "text-anchor": "end", class: "lbl" }); l.textContent = name; svg.appendChild(l);
+  });
+  s.appendChild(svg);
+  const n = document.createElement("p"); n.className = "note"; n.textContent = t.f2.n; s.appendChild(n);
+  return s;
+}
+
+function fig3(lang, t) {
+  const s = section(lang, "fig3", t.f3);
+  const d = document.createElement("div"); d.className = "stats";
+  d.innerHTML = `
+    <div class="stat"><p class="lab">${t.f3.lab}<br><code>maps/search/&lt;name&gt;,+&lt;city&gt;</code></p><p class="num">507</p><p class="cap">${t.f3.c1}</p></div>
+    <div class="stat"><p class="lab">${t.f3.lab}<br><code>maps/place/&lt;listing&gt;</code></p><p class="num zero">0</p><p class="cap">${t.f3.c2}</p></div>`;
+  s.appendChild(d);
+  return s;
+}
+
+function fig4(lang, t) {
+  const s = section(lang, "fig4", t.f4);
+  const svg = el("svg", { width: 1104, height: 410 });
+  const data = [["youtube.com", 896], ["linkedin.com", 512], ["reddit.com", 512], ["digitalmarketinginstitute.com", 384], ["searchengineland.com", 256], ["seo.com", 256], ["tryprofound.com", 256], ["hubspot.com", 256]];
+  const padL = 260, top = 10, band = 45, barH = 22, W = 1104 - padL - 90, max = 900;
+  [0, 300, 600, 900].forEach(v => {
+    const x = padL + (v / max) * W;
+    svg.appendChild(el("line", { x1: x, y1: top, x2: x, y2: top + band * 8 - 12, stroke: c("--grid"), "stroke-width": 1 }));
+    const g = el("text", { x, y: top + band * 8 + 8, "text-anchor": "middle", class: "ax" }); g.textContent = v; svg.appendChild(g);
+  });
+  data.forEach(([name, v], i) => {
+    const y = top + i * band + (band - barH) / 2 - 4, w = (v / max) * W;
+    svg.appendChild(el("path", { d: barPath(padL, y, w, barH), fill: c("--s1") }));
+    const l = el("text", { x: padL - 16, y: y + barH / 2 + 5, "text-anchor": "end", class: "lbl" }); l.textContent = name; svg.appendChild(l);
+    const val = el("text", { x: padL + w + 14, y: y + barH / 2 + 5, class: "val" }); val.textContent = v; svg.appendChild(val);
+  });
+  svg.appendChild(el("line", { x1: padL, y1: top, x2: padL, y2: top + band * 8 - 12, stroke: c("--baseline"), "stroke-width": 1 }));
+  s.appendChild(svg);
+  const n = document.createElement("p"); n.className = "note"; n.textContent = t.f4.n; s.appendChild(n);
+  return s;
+}
+
+const root = document.getElementById("root");
+for (const lang of ["en", "ru", "pl"]) {
+  const t = T[lang];
+  [fig1(lang, t), fig2(lang, t), fig3(lang, t), fig4(lang, t)].forEach(s => root.appendChild(s));
+}
+</script>
+</body>
+</html>

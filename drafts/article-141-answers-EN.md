@@ -80,7 +80,7 @@ is written up step by step in
 Assistants do not return ten links. They return a shortlist, and how much
 evidence sits behind that shortlist varies by an order of magnitude.
 
-![How much each assistant cites per answer: Perplexity 16.7, Google AI Mode 3.7, ChatGPT 1.6](article-figures/fig-citations-per-answer.png)
+![How much each assistant cites per answer: Perplexity 16.7, Google AI Mode 3.7, ChatGPT 1.6](article-figures/fig-citations-per-answer-en.png)
 
 | Engine | Total citations across 47 answers | Per answer |
 |---|---:|---:|
@@ -107,7 +107,7 @@ Every citation across all 141 answers was classified into four buckets: the
 provider's own website, a directory such as Clutch or Sortlist, a platform such
 as LinkedIn or Reddit, and Google Maps.
 
-![Share of citations by source type: Perplexity and Google AI Mode build answers from provider websites, ChatGPT takes 31 per cent from Google Maps](article-figures/fig-source-mix-by-engine.png)
+![Share of citations by source type: Perplexity and Google AI Mode build answers from provider websites, ChatGPT takes 31 per cent from Google Maps](article-figures/fig-source-mix-by-engine-en.png)
 
 | Engine | Own sites | Directories | Platforms | Google Maps | Answers citing Maps |
 |---|---:|---:|---:|---:|---:|
@@ -135,7 +135,7 @@ Half of ChatGPT's answers referencing Google Maps invites an obvious
 conclusion: a verified Google Business Profile must be the entry ticket for AI
 visibility. The link format disproves it.
 
-![507 constructed Maps search queries against zero links to real business listings](article-figures/fig-maps-links-checked.png)
+![507 constructed Maps search queries against zero links to real business listings](article-figures/fig-maps-links-checked-en.png)
 
 | Link form | Count in dataset | What it is |
 |---|---:|---|
@@ -159,7 +159,7 @@ the URL in about a minute.
 Asked about generative engine optimization as a subject, assistants cite these
 sources:
 
-![Sources cited when the topic is generative engine optimization: YouTube 896, LinkedIn and Reddit 512 each, ahead of the trade press](article-figures/fig-cited-sources-geo.png)
+![Sources cited when the topic is generative engine optimization: YouTube 896, LinkedIn and Reddit 512 each, ahead of the trade press](article-figures/fig-cited-sources-geo-en.png)
 
 | Source | Mentions |
 |---|---:|
@@ -186,25 +186,41 @@ Two channels, two different sets of winners, and effort spent on one does not
 transfer to the other. This is the most expensive misunderstanding in the
 category.
 
-## Which providers get named for generative engine optimization services
+## What kind of provider gets named for generative engine optimization services
 
-Across the agency-intent prompts, in the United States and the United Kingdom:
+Individual company names are withheld: this is a study of a mechanism, not a
+ranking of firms, and publishing a shortlist built from 47 prompts would
+overstate what the sample supports. The pattern is the finding.
 
-| Market | Named providers |
+| Prompt type and market | What the assistants named |
 |---|---|
-| United Kingdom | Quirky Digital, Impression Digital, Found, Epic New Media, Ink Digital, Click Intelligence, Derivatex |
-| United States | Percepture, GreenBanana SEO, Directive Consulting, Stellarising |
-| Entity and source maintenance, UK | Pure Reputation, Found, Ink Digital, Solvid, WikiWriters |
+| GEO agency, United Kingdom | seven mid-sized independent agencies, most with a dedicated GEO landing page rather than a GEO section on a general SEO page |
+| GEO agency, United States | four providers, skewing larger and more B2B-specialised than the UK set |
+| Entity and source maintenance, United Kingdom | five providers, of which two were reputation and Wikipedia specialists rather than SEO agencies at all |
+| Next.js developer with SEO, any market | individuals with personal sites, not firms |
 
-One detail in the last row outweighs the rest of the list. Solvid was cited not
-through its own website but through its profile in an agency directory. A
-directory profile did the work a homepage could not.
+Three things in that table are worth more than any list of names.
 
-For prompts phrased as "who can build a Next.js site with good SEO", the
-assistants named individuals rather than firms — ChetanJS, Vlad Sedenko, Yash
-Kapure — each with a personal site and, in one case, a page whose URL is
-literally the service being asked for. In this niche, being a single specialist
-is not a disadvantage. Being unreadable is.
+**A dedicated page beats a section.** In the UK agency set, the providers named
+overwhelmingly had a page whose entire subject was the service being asked
+about. Providers offering the same service as a section inside a broader SEO
+page were largely absent, even where the broader page was stronger overall.
+
+**One provider was cited through a directory profile rather than its own
+website.** Its homepage did not make the answer; its listing in an agency
+directory did. If there is a single repeatable tactic in this study, that is
+it.
+
+**For the developer prompts, assistants named people rather than companies.**
+Each had a personal site, and in one case a page whose URL was literally the
+service being asked for. In this niche being a single specialist is not the
+disadvantage it looks like. Being unreadable is.
+
+**The category boundary moved, too.** For the entity-maintenance prompts, two
+of the five named providers were reputation-management and Wikipedia
+specialists rather than search agencies. An assistant asked a question phrased
+around sources and records does not restrict itself to the industry that
+usually claims the keyword.
 
 ## What makes an assistant name one provider over another
 

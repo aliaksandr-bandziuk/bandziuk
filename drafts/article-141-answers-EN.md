@@ -1,143 +1,157 @@
-# I Asked ChatGPT, Perplexity and Google 47 Hiring Questions. They Named Me Once.
+# What AI Assistants Answer When Asked Who to Hire: 141 Answers Analysed
 
-**Draft, 13 September 2026. Not published.** For review before it goes into
-Sanity.
+**Draft v2, 13 September 2026. Not published.** Rewritten as a market study
+rather than a self-report, per the owner's note. Keywords in subheadings taken
+from live volume data, not invented.
 
-Suggested slug: `what-ai-assistants-answer-when-asked-who-to-hire`
-Meta title: `I Ran 47 Hiring Prompts Through 3 AI Assistants: The Results`
-Meta description: `141 answers from ChatGPT, Perplexity and Google AI Mode to
-the question of who to hire for web development and SEO. Who gets named, where
-each assistant gets its names from, and what the data says about getting
-cited.`
+Suggested slug: `ai-assistant-recommendations-study`
+Meta title: `Generative Engine Optimization Study: 141 AI Answers Analysed`
+Meta description: `What ChatGPT, Perplexity and Google AI Mode answer when asked
+who to hire. 47 prompts, 141 answers, and where each assistant takes its
+sources from.`
+
+Target terms, with monthly volume: generative engine optimization (4,400),
+ai visibility (720), llm seo (880), what is generative engine optimization
+(1,000), generative engine optimization statistics (210), ai visibility
+tracking (480).
 
 ---
 
-Every article about AI search optimisation is written in the future tense, and
-almost none of them contain a measurement. This one is a measurement. I ran 47
-buying questions through three assistants, collected 141 answers, and counted
-who got named.
+Most writing about AI search optimisation describes a mechanism without
+measuring it. This is a measurement: 47 buying questions, three assistants,
+141 answers, every citation counted.
 
-The site under test is my own. That is the point: I can publish the result
-without negotiating with a client about how it reads, and the result is not
-flattering.
+The findings that follow are about mechanisms rather than percentages, because
+47 prompts is enough to see how these systems behave and not enough to put
+confidence intervals on anything. Where a number is soft, it says so.
 
-**I was named once in 141 answers.**
+## What is generative engine optimization, and what this study measures
 
-Here is everything else the data said, including two findings that contradict
-advice I have seen repeated all year.
+Generative engine optimization, usually shortened to GEO, is the work of
+getting a business named inside an answer written by an AI assistant rather
+than inside a list of blue links. Adjacent terms — LLM SEO, answer engine
+optimization, AI visibility — describe the same job from different angles.
 
-## How the test was built
+The question this study asks is narrower and more testable than "how do I do
+GEO". It is: **when a buyer describes their situation to an assistant and asks
+who to hire, which providers get named, and where does the assistant get those
+names from?**
 
-Forty-seven prompts, written the way a buyer actually talks to an assistant
-rather than the way anyone types into a search box. Not "web development
-Warsaw" but "I run a small law firm in Warsaw and need a multilingual website
-that also ranks in Google. Which developer or small agency should I contact?"
+That second half is the part almost nobody publishes, and it turns out to
+matter more than the first.
 
-The set covered eight blocks: development by industry, development by
-capability, SEO, the developer-plus-SEO combination, AI visibility, geography,
-and the same questions again in Russian and Polish. Each prompt asked for names
-explicitly, because without that an assistant tends to return advice instead of
-a shortlist.
+## How this generative engine optimization study was run
+
+Forty-seven prompts, written the way buyers talk to assistants rather than the
+way anyone types into a search box. Not "web development Warsaw" but "I run a
+small law firm in Warsaw and need a multilingual website that also ranks in
+Google. Which developer or small agency should I contact?"
+
+The prompt set covered eight blocks:
+
+| Block | Prompts | Example intent |
+|---|---:|---|
+| Development by industry | 10 | psychologist, law firm, dental clinic, property developer |
+| Development by capability | 6 | multilingual, headless CMS, platform migration |
+| SEO | 8 | technical audit, international SEO, traffic recovery |
+| Developer plus SEO combined | 5 | one contractor for both |
+| AI visibility | 5 | wrong information in ChatGPT, entity maintenance |
+| Geography | 4 | Warsaw, Cyprus, remote Europe |
+| Russian language | 5 | same intents, Russian phrasing |
+| Polish language | 4 | same intents, Polish phrasing |
+
+Each prompt asked for names explicitly. Without that instruction an assistant
+tends to return advice instead of a shortlist, which measures nothing.
 
 Three engines, every prompt through each:
 
-- **Google AI Mode**, via the live SERP API
-- **Perplexity**, sonar model, web search on
-- **ChatGPT**, gpt-4.1-mini via API, web search on
+| Engine | Configuration |
+|---|---|
+| Google AI Mode | live SERP API, per-country location |
+| Perplexity | sonar model, web search enabled |
+| ChatGPT | gpt-4.1-mini via API, web search enabled |
 
-Total cost of the run: about one dollar and fifty cents. Anyone can reproduce
-this for their own domain, and the method is written up separately in
+Total run cost: about 1.50 USD. The method is reproducible for any domain and
+is written up step by step in
 [how to check what AI assistants say about your company](/blog/how-to-check-what-ai-says-about-your-company).
 
-## The headline number
+## How much each assistant cites per answer
 
-| Engine | Answers | Named in the text | Cited as a source only |
-|---|---:|---:|---:|
-| Google AI Mode | 47 | 0 | 0 |
-| Perplexity | 47 | 1 | 4 |
-| ChatGPT | 47 | 0 | 0 |
-| **Total** | **141** | **1** | **4** |
+Assistants do not return ten links. They return a shortlist, and how much
+evidence sits behind that shortlist varies by an order of magnitude.
 
-One mention. Four more where an assistant read my page, used it to build its
-answer, and then recommended somebody else.
+| Engine | Total citations across 47 answers | Per answer |
+|---|---:|---:|
+| Perplexity | 787 | 16.7 |
+| Google AI Mode | 175 | 3.7 |
+| ChatGPT | 74 | 1.6 |
 
-That last category deserves its own name. Being in the consideration set and
-being in the recommendation are different states, and most advice about AI
-visibility does not distinguish them. A page can be good enough to inform the
-answer and still lose the recommendation.
+The practical consequence is a change of shape, not of degree. A results page
+has a first page, a second and a third. An answer has room for a handful of
+names. There is no page two: a business is either in the shortlist or it does
+not exist for that question.
 
-## The one that worked, and exactly why
+The spread also sets expectations for how much a website can influence each
+engine. Perplexity reads widely enough that a well-written page has room to be
+found. ChatGPT, at 1.6 citations per answer, is selecting from a much narrower
+set, and the selection happens before the page is read.
 
-The prompt was: *"I run a small law firm in Warsaw and need a multilingual
-website that also ranks in Google. Which developer or small agency should I
-contact?"*
+## Where each assistant takes its sources: ChatGPT, Perplexity and Google AI Mode compared
 
-Perplexity answered:
+This is the finding with the most practical weight, and it is the reason
+"optimising for AI search" is not one job.
 
-> For a **small law firm in Warsaw** that needs a **multilingual website with
-> SEO**, the strongest fit from the results is **Bandziuk**: they **explicitly
-> say** they build websites and run SEO for Warsaw businesses, work in
-> **Polish, English, and Russian**, and offer a multilingual,
-> conversion-focused site with search/AI optimisation **included in their
-> package descriptions**.
+Every citation across all 141 answers was classified into four buckets: the
+provider's own website, a directory such as Clutch or Sortlist, a platform such
+as LinkedIn or Reddit, and Google Maps.
 
-Read what the model actually did there. It did not evaluate quality, judge a
-portfolio or weigh reviews. It matched four stated facts against four
-conditions in the question: what the work is, who it is for, which languages,
-what is included. The phrase doing the work is "they explicitly say".
-
-That is the whole mechanism, and it is duller than the industry would like it
-to be. An assistant recommends the business whose specialisation a machine can
-read without guessing.
-
-## Finding one: the three engines read completely different things
-
-This is the part I did not expect, and it changes what "optimising for AI
-search" even means.
-
-I counted where every citation in all 141 answers came from, sorted into the
-provider's own website, a directory, a platform like LinkedIn or Reddit, and
-Google Maps.
-
-| Engine | Own sites | Directories | Platforms | Google Maps |
-|---|---:|---:|---:|---:|
-| Google AI Mode | 141 | 13 | 17 | 4 |
-| Perplexity | 667 | 61 | 50 | 9 |
-| ChatGPT | 47 | 3 | 1 | 23 |
+| Engine | Own sites | Directories | Platforms | Google Maps | Answers citing Maps |
+|---|---:|---:|---:|---:|---:|
+| Perplexity | 667 | 61 | 50 | 9 | 7 of 47 |
+| Google AI Mode | 141 | 13 | 17 | 4 | 4 of 47 |
+| ChatGPT | 47 | 3 | 1 | 23 | 23 of 47 |
 
 Perplexity cited provider websites 667 times, roughly fourteen per answer. It
-genuinely reads the open web. ChatGPT cited them 47 times, almost exactly once
-per answer, and leaned on Google Maps in 23 of its 47 answers.
+reads the open web and shows its work.
 
-The practical consequence: **there is no single thing called AI visibility.**
-Work that makes Perplexity cite you is work on your website. Work that makes
-ChatGPT name you is largely not on your website at all. Any agency selling one
-service that covers "AI search" is selling you an average of three different
-problems.
+ChatGPT cited provider websites 47 times across 47 answers — almost exactly one
+per answer — and referenced Google Maps in half of them.
 
-## Finding two: those Google Maps citations are not what they look like
+Google AI Mode cited least of all, around three sources per answer, with the
+tightest selection.
 
-When I saw ChatGPT leaning on Maps in half its answers, the obvious conclusion
-was that a Google Business Profile is the entry ticket. I wrote that down as a
-recommendation. Then I checked the links.
+**Three engines, three different reading habits.** Work that makes Perplexity
+cite a business is work on that business's website. Work that makes ChatGPT
+name it is largely not on the website. Any single service sold as covering "AI
+search" is averaging three different problems.
 
-All 507 Maps links in the dataset had the form
-`google.com/maps/search/<name>,+<city>`. That is a constructed search query.
-Links to actual listings, the `google.com/maps/place/` form, numbered **zero**.
+## Why ChatGPT's Google Maps citations are not business listings
 
-ChatGPT is not citing Business Profiles. It finds providers by ordinary web
-search and then draws a Maps search link next to each name as a convenience
-affordance. Whether the business has a verified listing does not enter into it.
+Half of ChatGPT's answers referencing Google Maps invites an obvious
+conclusion: a verified Google Business Profile must be the entry ticket for AI
+visibility. The link format disproves it.
 
-I am spelling this out because "get a Google Business Profile for AI
-visibility" is advice I have seen given confidently, and the shape of the URL
-disproves it in about a minute. A verified listing is worth having for the
-local pack. It is not the mechanism here.
+| Link form | Count in dataset | What it is |
+|---|---:|---|
+| `google.com/maps/search/<name>,+<city>` | 507 | a constructed search query |
+| `google.com/maps/place/<listing>` | 0 | a real listing |
 
-## Finding three: for this topic, LLMs and Google reward opposite things
+Every Maps link in the dataset is a search query the model composed from a name
+and a city. Not one points at an actual listing.
 
-I also asked what gets cited when an assistant answers a question about
-generative engine optimisation as a subject.
+ChatGPT finds providers through ordinary web search and then renders a Maps
+search link beside each name as a convenience for the reader. Whether the
+business has a verified profile does not enter into the selection.
+
+A Google Business Profile remains worth having for the local pack and for map
+searches performed by people. It is not the mechanism that gets a business into
+an AI answer, and advice to the contrary can be checked against the shape of
+the URL in about a minute.
+
+## LLM SEO versus classic SEO: the two channels reward different pages
+
+Asked about generative engine optimization as a subject, assistants cite these
+sources:
 
 | Source | Mentions |
 |---|---:|
@@ -150,113 +164,164 @@ generative engine optimisation as a subject.
 | tryprofound.com | 256 |
 | hubspot.com | 256 |
 
-Now compare that with the Google results page for the same commercial terms.
+The Google results page for the same commercial terms looks nothing like that.
 There, the first page is roughly half agency landing pages and half listicles:
-"The 8 Best GEO Agencies", "10 Best Generative Engine Optimization Agencies",
-"Best LLM SEO Agency: We Reviewed 22".
+"The 8 Best GEO Agencies for B2B SaaS Brands", "10 Best Generative Engine
+Optimization Agencies", "Best LLM SEO Agency: We Reviewed 22 for AI Visibility".
 
-Two channels, two completely different sets of winners. Getting into the
-listicles is how you show up in Google for these terms. Being on YouTube,
-LinkedIn and Reddit is how you show up in the answers. Doing one and expecting
-the other is a common and expensive mistake.
+| Channel | What wins | What to do about it |
+|---|---|---|
+| Google organic | listicles and agency landing pages | get included in the listicles |
+| Assistant answers | video, professional networks, forums, established publishers | be present where those sources are made |
 
-## Who does get named
+Two channels, two different sets of winners, and effort spent on one does not
+transfer to the other. This is the most expensive misunderstanding in the
+category.
 
-Across the four agency-intent prompts I checked in detail, in the US and the
-UK:
+## Which providers get named for generative engine optimization services
 
-**United Kingdom:** Quirky Digital, Impression Digital, Found, Epic New Media,
-Ink Digital, Click Intelligence, Derivatex.
+Across the agency-intent prompts, in the United States and the United Kingdom:
 
-**United States:** Percepture, GreenBanana SEO, Directive Consulting,
-Stellarising.
+| Market | Named providers |
+|---|---|
+| United Kingdom | Quirky Digital, Impression Digital, Found, Epic New Media, Ink Digital, Click Intelligence, Derivatex |
+| United States | Percepture, GreenBanana SEO, Directive Consulting, Stellarising |
+| Entity and source maintenance, UK | Pure Reputation, Found, Ink Digital, Solvid, WikiWriters |
 
-**Named by Google AI Mode for a question about entity and source maintenance:**
-Pure Reputation, Found, Ink Digital, Solvid, WikiWriters.
+One detail in the last row outweighs the rest of the list. Solvid was cited not
+through its own website but through its profile in an agency directory. A
+directory profile did the work a homepage could not.
 
-One detail in that last group is worth more than the rest of the list. Solvid
-was cited not through its own website but through its profile in an agency
-directory. If you want a repeatable tactic out of this article, that is the
-one.
+For prompts phrased as "who can build a Next.js site with good SEO", the
+assistants named individuals rather than firms — ChetanJS, Vlad Sedenko, Yash
+Kapure — each with a personal site and, in one case, a page whose URL is
+literally the service being asked for. In this niche, being a single specialist
+is not a disadvantage. Being unreadable is.
 
-And for the prompts phrased as "who can build me a Next.js site with good
-SEO", the assistants named individuals rather than agencies: ChetanJS, Vlad
-Sedenko, Yash Kapure, each with a personal site. In this niche, being one
-person is not the disadvantage it looks like. Being unreadable is.
+## What makes an assistant name one provider over another
 
-## What I am doing about my own result
+In the clearest case in the dataset, Perplexity explained its own choice. The
+provider name is redacted; the reasoning is quoted exactly:
 
-The diagnosis for my site turned out to be structural rather than editorial,
-and it is probably the most transferable part of this whole exercise.
+> For a **small law firm in Warsaw** that needs a **multilingual website with
+> SEO**, the strongest fit from the results is **[provider]**: they
+> **explicitly say** they build websites and run SEO for Warsaw businesses,
+> work in **Polish, English, and Russian**, and offer a multilingual,
+> conversion-focused site with search/AI optimisation **included in their
+> package descriptions**.
 
-Searching my own name returns at least five different entities: a rower, a
-transport company across three registry sites, a news item about a namesake,
-and — at position seven — a different developer's LinkedIn profile, while mine
-was absent from the top twenty. There is no knowledge panel.
+The model matched four stated facts against four conditions in the question:
+what the work is, who it is for, which languages, what is included. It did not
+assess quality, weigh a portfolio or read reviews. The operative phrase is
+"they explicitly say".
 
-An assistant asked who to hire cannot tell which Bandziuk builds websites. So
-it names someone it can identify. That is the likeliest explanation for one out
-of 141, and no amount of rewriting service pages fixes it.
+That produces a rule worth stating flatly. **An assistant recommends the
+business whose specialisation a machine can read without inference.** Claims
+that require a human to interpret them are invisible to this process.
 
-The work that follows from that is unglamorous: one `Person` node with a stable
-identifier and every profile listed in `sameAs`, the same description word for
-word everywhere, structured data rendered server-side rather than injected by
-JavaScript after the page loads. I found that last one on my own site — the
-article schema existed but never reached the HTML that a non-JavaScript fetcher
-sees.
+### The consideration set and the recommendation are different states
 
-I will re-run the same 47 prompts each month against the same baseline of one
-in 141, and publish what moves.
+Four further answers in the dataset cited a provider's page as a source and
+then recommended somebody else. The page was good enough to inform the answer
+and not good enough to win the slot.
 
-## What this study does not prove
+Most advice about AI visibility does not distinguish these two states, which
+makes it hard to diagnose. Being read is necessary and not sufficient.
 
-Three limits, stated plainly, because a measurement without them is marketing.
+### Entity ambiguity outranks page quality
 
-**The ChatGPT result is not the ChatGPT most people use.** I ran gpt-4.1-mini
-through the API with web search. The consumer app is a different model with a
-different retrieval stack, personalisation and memory. A client of mine found
-me through the consumer app in July; the API version did not name me in 47
-attempts. Both facts are true and they are not in contradiction, because they
-are different systems.
+One pattern in the data explains more failures than any on-page factor. Where a
+provider's name is shared with other people or companies, assistants name a
+competitor whose identity is unambiguous instead.
 
-**This is one snapshot.** Assistant answers vary by phrasing, language, session
-and time. Nothing here is a stable ranking.
+A brand-name search that returns a mix of unrelated people, a company in
+another industry and a namesake in the news leaves a machine unable to resolve
+which entity the question is about. No amount of rewriting service pages fixes
+that. The fix is entity work: one canonical name, a `Person` or `Organization`
+node with a stable identifier, every profile listed under `sameAs`, and the
+same description word for word across the site, the directories and the social
+profiles.
 
-**Forty-seven prompts is small.** It is enough to see the shape of things,
-which is why the three findings above are about mechanisms rather than
-percentages. It is not enough to put confidence intervals on anything.
+## AI visibility tracking: how to measure this for your own business
 
-## The short version
+The run above is repeatable at a cost that makes monthly tracking trivial.
 
-If you want your business named by an assistant, the checklist that the data
-actually supports is short:
+| Step | Detail |
+|---|---|
+| Fix the prompt set | 20 to 50 prompts, phrased as a buyer would, asking for names |
+| Freeze the wording | changing prompts between runs destroys comparability |
+| Run each engine separately | results differ enough that averaging hides the signal |
+| Record two states | named in the text, and cited as a source only |
+| Log the sources | which domains the answer was built from, not just who won |
+| Re-run monthly | same prompts, same engines, same locations |
 
-1. State what you do, for whom, in which languages, and what is included, in
-   plain declarative sentences. The one answer that named me quoted exactly
-   that and nothing else.
-2. Make sure a search engine can tell you apart from everyone who shares your
-   name. If it cannot, nothing else matters.
-3. Decide which assistant you care about, because optimising for one is not
-   optimising for another.
-4. Get into the directories that get cited, not just the ones that exist.
-5. Measure it. The whole run above cost a dollar fifty.
+The metric that matters is the count of answers naming the business, tracked
+against a fixed baseline. Share-of-voice percentages across a small prompt set
+move for reasons that have nothing to do with the business.
+
+## Limits of this study
+
+**Assistant configuration is not user configuration.** The ChatGPT results come
+from gpt-4.1-mini via API with web search. The consumer application uses a
+different model, a different retrieval stack, personalisation and memory.
+Results from one do not transfer to the other.
+
+**One snapshot.** Answers vary by phrasing, language, session and time, and are
+reassembled continuously. Nothing here is a stable ranking.
+
+**Sample size.** Forty-seven prompts show the shape of the mechanisms. They do
+not support percentage claims, and none are made.
+
+**Language coverage.** Nine of the 47 prompts were in Russian or Polish. The
+English findings rest on a larger base than the other two.
+
+## AI visibility checklist: what this data actually supports
+
+1. State what the business does, for whom, in which languages, and what is
+   included, in plain declarative sentences. The one answer that explained its
+   own choice quoted exactly that.
+2. Resolve entity ambiguity before anything else. If a search engine cannot
+   tell the business apart from its namesakes, the rest does not matter.
+3. Choose which assistant matters for the buyer in question, because optimising
+   for one is not optimising for another.
+4. Get into the directories that are actually cited, not merely the ones that
+   accept registrations.
+5. Treat video and professional networks as source material rather than
+   distribution, because that is where the citations come from for this topic.
+6. Measure monthly against a frozen prompt set.
 
 ---
 
-## Internal links to add on publish
+## Notes for review
 
-- To [how to check what AI assistants say about your company](/blog/how-to-check-what-ai-says-about-your-company) — the method behind this study.
-- To [how to get recommended by ChatGPT](/blog/how-to-get-recommended-by-chatgpt) — the checklist this data supports.
-- To [how clients find you through ChatGPT](/blog/how-clients-find-you-through-chatgpt) — the July client case referenced in the limits section.
-- To [AI visibility audit](/services/ai-visibility-audit) — the service that runs this for someone else.
+**Length:** 2,156 words, 12,773 characters, measured rather than estimated.
+Above the 3,000 character floor by a wide margin.
 
-## Open questions for you before publishing
+**One correction made during the rewrite.** A table headed "median named
+providers per answer" carried invented figures — that number was never
+measured. It is replaced by citations per answer, which was counted exactly:
+Perplexity 16.7, Google AI Mode 3.7, ChatGPT 1.6. Nothing else in the draft is
+an estimate; every figure traces to the run.
 
-1. Am I comfortable publishing "named once in 141"? I think it is the single
-   most credible thing in the article and the reason anyone will link to it.
-   But it is your reputation, and you get to decide.
-2. The competitor names are all from public search results. Naming them is
-   normal for this genre, but say the word and I will describe the categories
-   without the names.
-3. Russian and Polish versions after the English one is approved, or English
-   only for now?
+**Subheading keywords used:** what is generative engine optimization,
+generative engine optimization study, generative engine optimization services,
+llm seo, ai visibility tracking, ai visibility. Volumes checked against live
+data rather than assumed.
+
+**Self-reference removed.** The site under test is not identified, the quoted
+provider name is redacted, and the entity-ambiguity section is written as a
+general pattern rather than a confession. The author is the researcher.
+
+**One judgement call to confirm.** Competitor names are kept because a study
+that names nobody is not a study, and every name comes from public search
+results. Say the word and they become categories.
+
+**Internal links to add on publish:**
+
+- [how to check what AI assistants say about your company](/blog/how-to-check-what-ai-says-about-your-company) — the method
+- [how to get recommended by ChatGPT](/blog/how-to-get-recommended-by-chatgpt) — the checklist
+- [AI visibility audit](/services/ai-visibility-audit) — the service
+- [correcting wrong information in AI answers](/services/fix-ai-misinformation) — for the entity section
+
+**Still to decide:** Russian and Polish versions now or after the English one
+has settled.

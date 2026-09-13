@@ -157,7 +157,12 @@ export type DescriptionFull = {
 /** Основное изображение с альтернативным текстом и соотношением сторон */
 export type ImageMain = {
   picture: ImageAlt;
-  aspectRatio: "16:9" | "4:3" | "1:1";
+  /**
+   * Omit for an inline figure: the image then renders at its own dimensions
+   * instead of being cropped to fit a forced ratio. Set it only for full-bleed
+   * imagery where the crop is the intent.
+   */
+  aspectRatio?: "16:9" | "10:5" | "10:4" | "5:4" | "4:3" | "1:1";
 };
 
 /** Полный блок изображения с опциональным описанием */

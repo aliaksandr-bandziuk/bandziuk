@@ -17,6 +17,33 @@ const ImageFullBlockComponent: FC<Props> = ({ block }) => {
   } = block;
   const { picture, aspectRatio } = imageMain;
 
+  // Sanity encodes the dimensions in the asset id: image-<hash>-<w>x<h>-<ext>.
+  const dimensions = (() => {
+    const ref = (picture as any)?.asset?._ref ?? (picture as any)?.asset?._id;
+    const m = typeof ref === "string" ? ref.match(/-(\d+)x(\d+)-[a-z]+$/) : null;
+    return m ? { width: Number(m[1]), height: Number(m[2]) } : null;
+  })();
+
+  // No aspect ratio means an inline figure: render at the image's own size so
+  // nothing is cropped. `fill` plus a forced ratio is object-fit: cover, which
+  // silently cut the edges off charts.
+  if (!aspectRatio && dimensions) {
+    return (
+      <section className={styles.imageFullBlock}>
+        <div className={`container ${styles.figure}`}>
+          <Image
+            src={urlFor(picture).url()}
+            alt={picture.alt ?? title}
+            width={dimensions.width}
+            height={dimensions.height}
+            sizes="(max-width: 900px) 100vw, 900px"
+            className={styles.figureImage}
+          />
+        </div>
+      </section>
+    );
+  }
+
   // Выбираем HTML-тег для описания (h1 | h2 | h3 | p)
   // const Tag = description?.tag ?? "p";
   // Применяем стили в зависимости от тега
@@ -35,8 +62,10 @@ const ImageFullBlockComponent: FC<Props> = ({ block }) => {
       <div
         className={[
           styles.imageWrapper,
-          styles[`ratio_${aspectRatio.replace(":", "_")}`],
-        ].join(" ")}
+          aspectRatio ? styles[`ratio_${aspectRatio.replace(":", "_")}`] : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
       >
         <Image
           src={urlFor(picture).url()}

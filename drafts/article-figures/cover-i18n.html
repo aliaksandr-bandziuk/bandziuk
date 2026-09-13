@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* Site palette rather than the older navy/gold blog covers, so the image
+     reads as this site. Density of each column is the real citations-per-answer
+     figure, which makes the cover unusable on any other article. */
+  :root{
+    --bg:#0a0a0b; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#7b7a74;
+    --accent:#f5a05c; --cool:#3987e5;
+    --head:"Space Grotesk",system-ui,sans-serif;
+    --body:"Inter",system-ui,sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000}
+  .cover{
+    position:relative;width:1672px;height:941px;overflow:hidden;
+    background:
+      radial-gradient(1100px 620px at 22% -10%, rgba(245,160,92,.16), transparent 62%),
+      radial-gradient(900px 520px at 88% 110%, rgba(57,135,229,.13), transparent 60%),
+      var(--bg);
+    font-family:var(--body);
+  }
+  .grain{position:absolute;inset:0;opacity:.5}
+  .grain i{position:absolute;border-radius:50%;background:#fff}
+  svg{position:absolute;inset:0}
+  .eyebrow{
+    position:absolute;left:96px;top:196px;width:820px;
+    font-family:var(--mono);font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);
+  }
+  h1{
+    position:absolute;left:96px;top:240px;width:860px;margin:0;
+    font-family:var(--head);font-weight:700;font-size:70px;line-height:1.04;
+    letter-spacing:-.015em;color:var(--ink);
+  }
+  h1 em{font-style:normal;color:var(--accent)}
+  .dek{
+    position:absolute;left:96px;top:500px;width:700px;margin:0;
+    font-size:20px;line-height:1.55;color:var(--ink-2);
+  }
+  .engine{position:absolute;text-align:center;transform:translateX(-50%);width:230px}
+  .engine .num{font-family:var(--head);font-weight:700;font-size:46px;line-height:1;color:var(--ink-2);margin:0}
+  .engine.lead .num{color:var(--accent)}
+  .engine .name{font-family:var(--head);font-weight:600;font-size:19px;color:var(--ink);margin:10px 0 0}
+  .engine .cap{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:6px 0 0}
+  .foot{
+    position:absolute;left:96px;bottom:78px;width:640px;margin:0;
+    font-family:var(--mono);font-size:13px;letter-spacing:.05em;color:var(--muted);
+  }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    eyebrow: "47 prompts · 3 assistants · 141 answers",
+    h1: 'Every assistant reads a <em>different</em> web',
+    dek: "Same question, same day. One builds its answer from sixteen sources, another from fewer than two — and that gap decides whether your website can influence the result at all.",
+    cap: "sources per answer",
+    foot: "Measured across 141 answers, September 2026",
+  },
+  ru: {
+    eyebrow: "47 промптов · 3 ассистента · 141 ответ",
+    h1: 'Каждый ассистент читает <em>свой</em> интернет',
+    dek: "Один и тот же вопрос в один и тот же день. Один собирает ответ из шестнадцати источников, другой меньше чем из двух — и этот разрыв решает, способен ли ваш сайт вообще повлиять на результат.",
+    cap: "источников на ответ",
+    foot: "Измерено по 141 ответу, сентябрь 2026",
+  },
+  pl: {
+    eyebrow: "47 promptów · 3 asystentów · 141 odpowiedzi",
+    h1: 'Każdy asystent czyta <em>inny</em> internet',
+    dek: "To samo pytanie, tego samego dnia. Jeden buduje odpowiedź z szesnastu źródeł, drugi z mniej niż dwóch — i ta różnica decyduje, czy Twoja strona może w ogóle wpłynąć na wynik.",
+    cap: "źródeł na odpowiedź",
+    foot: "Zmierzone na 141 odpowiedziach, wrzesień 2026",
+  },
+};
+
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a = {}) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+
+// x positions match the labels underneath exactly.
+const COLS = [
+  { x: 1010, n: 167, hue: "warm", glow: "#f5a05c" },
+  { x: 1262, n: 37, hue: "cool", glow: "#3987e5" },
+  { x: 1490, n: 16, hue: "cool", glow: "#3987e5" },
+];
+const ENGINES = [["Perplexity", "16.7", 1010, true], ["Google AI Mode", "3.7", 1262, false], ["ChatGPT", "1.6", 1490, false]];
+const TOP = 92, BOT = 726;
+
+function build(lang) {
+  const t = T[lang];
+  const c = document.createElement("div");
+  c.className = "cover";
+  c.id = "cover-" + lang;
+
+  const grain = document.createElement("div");
+  grain.className = "grain";
+  let g = "";
+  for (let i = 0; i < 130; i++) {
+    const s = Math.random() < 0.12 ? 2.5 : 1.4;
+    g += `<i style="left:${Math.random() * 100}%;top:${Math.random() * 100}%;width:${s}px;height:${s}px;opacity:${0.08 + Math.random() * 0.5}"></i>`;
+  }
+  grain.innerHTML = g;
+  c.appendChild(grain);
+
+  const svg = el("svg", { width: 1672, height: 941 });
+  const defs = el("defs");
+  defs.innerHTML = `
+    <linearGradient id="warm-${lang}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5a05c" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#f5a05c" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="#d9762b" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="cool-${lang}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb6ee" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#6aa0ea" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#3987e5" stop-opacity=".75"/>
+    </linearGradient>
+    <filter id="soft-${lang}" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="9"/></filter>`;
+  svg.appendChild(defs);
+
+  for (const col of COLS) {
+    const spread = 74;
+    svg.appendChild(el("path", {
+      d: `M${col.x - spread},${TOP} L${col.x - 13},${BOT} M${col.x + spread},${TOP} L${col.x + 13},${BOT}`,
+      stroke: "rgba(255,255,255,.07)", "stroke-width": 1, fill: "none",
+    }));
+    svg.appendChild(el("ellipse", {
+      cx: col.x, cy: BOT + 8, rx: Math.max(26, col.n / 3.2), ry: 12,
+      fill: col.glow, opacity: 0.3, filter: `url(#soft-${lang})`,
+    }));
+    for (let i = 0; i < col.n; i++) {
+      const p = Math.random();
+      const y = TOP + Math.pow(p, 0.62) * (BOT - TOP);
+      const narrowing = 1 - (y - TOP) / (BOT - TOP);
+      const x = col.x + (Math.random() - 0.5) * (26 + narrowing * 132);
+      svg.appendChild(el("circle", {
+        cx: x.toFixed(1), cy: y.toFixed(1), r: (1.6 + Math.random() * 2.3).toFixed(1),
+        fill: `url(#${col.hue}-${lang})`,
+        opacity: (0.35 + Math.random() * 0.6).toFixed(2),
+      }));
+    }
+    const w = Math.max(18, col.n / 1.35);
+    svg.appendChild(el("rect", { x: col.x - w / 2, y: BOT + 2, width: w, height: 5, rx: 2.5, fill: col.glow, opacity: 0.9 }));
+  }
+  c.appendChild(svg);
+
+  c.insertAdjacentHTML("beforeend", `
+    <p class="eyebrow">${t.eyebrow}</p>
+    <h1>${t.h1}</h1>
+    <p class="dek">${t.dek}</p>
+    <p class="foot">${t.foot}</p>`);
+
+  for (const [name, num, x, lead] of ENGINES) {
+    c.insertAdjacentHTML("beforeend", `
+      <div class="engine${lead ? " lead" : ""}" style="left:${x}px;top:762px">
+        <p class="num">${num.replace(".", lang === "en" ? "." : ",")}</p>
+        <p class="name">${name}</p>
+        <p class="cap">${t.cap}</p>
+      </div>`);
+  }
+  return c;
+}
+
+const root = document.getElementById("root");
+["en", "ru", "pl"].forEach((l) => root.appendChild(build(l)));
+</script>
+</body>
+</html>

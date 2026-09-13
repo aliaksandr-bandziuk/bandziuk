@@ -2,6 +2,26 @@
   position: relative;
 }
 
+/* Inline figure: the image keeps its own proportions and gets the vertical
+   rhythm an article needs. Full-bleed images (those with an aspect ratio) are
+   untouched — several pages rely on them sitting flush against neighbours. */
+.figure {
+  margin-top: 34px;
+  margin-bottom: 34px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 46px;
+    margin-bottom: 46px;
+  }
+}
+
+.figureImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
 .imageWrapper {
   position: relative;
   width: 100%;      // контейнер по ширине страницы

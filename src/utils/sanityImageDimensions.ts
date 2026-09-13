@@ -18,19 +18,3 @@ export function imageDimensions(source: unknown): ImageDimensions | null {
 
   return { width, height };
 }
-
-/**
- * The image's own aspect ratio, kept inside `min`…`max` so one odd upload
- * cannot blow a shared frame out of proportion. Returns null when the asset id
- * carries no dimensions, so the caller can fall back to its own default.
- */
-export function clampedAspectRatio(
-  source: unknown,
-  min: number,
-  max: number
-): number | null {
-  const dimensions = imageDimensions(source);
-  if (!dimensions) return null;
-
-  return Math.min(Math.max(dimensions.width / dimensions.height, min), max);
-}

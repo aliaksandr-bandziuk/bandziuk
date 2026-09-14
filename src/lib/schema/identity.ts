@@ -31,6 +31,9 @@ export const LOGO_URL =
  * than anywhere else.
  */
 export const SAME_AS: string[] = [
+  // Wikidata first: it is a knowledge-graph source in its own right, the
+  // strongest node in this list for telling this person apart from namesakes.
+  "https://www.wikidata.org/wiki/Q141452391",
   "https://www.linkedin.com/in/bandziuk",
   "https://x.com/bandziuk",
   "https://dev.to/aliaksandrbandziuk",

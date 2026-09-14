@@ -126,9 +126,7 @@ w całości uśrednia trzy różne problemy.
 
 ## Dlaczego linki ChatGPT do Map Google nie są wizytówkami firm
 
-Połowa odpowiedzi ChatGPT z linkami do Map podsuwa oczywisty wniosek:
-zweryfikowana wizytówka Google musi być biletem wstępu do widoczności w AI.
-Forma linku ten wniosek obala.
+Połowa odpowiedzi ChatGPT z linkami do Map podsuwa oczywisty wniosek: zweryfikowana wizytówka Google musi być biletem wstępu do widoczności w AI. Forma linku temu przeczy, ale treść odpowiedzi dodaje ważne zastrzeżenie.
 
 ![507 złożonych zapytań wyszukiwania wobec zera linków do prawdziwych wizytówek firm](article-figures/fig-maps-links-checked-pl.png)
 
@@ -140,14 +138,11 @@ Forma linku ten wniosek obala.
 Każdy link do Map to zapytanie, które model złożył z nazwy i miasta. Żaden nie
 prowadzi do realnej wizytówki.
 
-ChatGPT znajduje wykonawców zwykłym wyszukiwaniem w sieci, a link do Map dorysowuje
-obok nazwy jako wygodny przycisk dla czytelnika. To, czy firma ma zweryfikowaną
-wizytówkę, nie wchodzi do selekcji.
+Większość wykonawców ChatGPT znajduje zwykłym wyszukiwaniem w sieci, a link do Map dorysowuje obok nazwy jako wygodny przycisk dla czytelnika. W 44 z 47 odpowiedzi nic w treści nie wskazuje, że wizytówka miała udział w wyborze.
 
-Wizytówka Google nadal jest warta posiadania dla pakietu lokalnego i dla ludzi
-szukających po mapach. Nie jest jednak mechanizmem, który wprowadza firmę do
-odpowiedzi AI, a twierdzenie przeciwne sprawdza się po kształcie adresu w około
-minutę.
+Pozostałe trzy odpowiedzi wyglądają inaczej i wszystkie dotyczyły pytań z lokalizacją: specjalisty SEO dla kancelarii w Warszawie, programisty na Cyprze i studia, które robi strony klinikom szukającym pacjentów z Niemiec. Tam ChatGPT opisał firmy danymi, które ma tylko wizytówka na mapie: czy firma jest otwarta, kategorię wizytówki, a w dwóch z trzech także ocenę i liczbę opinii, w formie „Open now · Marketing agency · 4.8 (28 reviews)”. Przy takich pytaniach wizytówka była czytana jako źródło. Pierwsza wersja tego rozdziału ich pominęła.
+
+Wizytówka nie jest więc głównym mechanizmem: to 3 odpowiedzi na 47. Przy pytaniach związanych z miastem jest jednak jednym ze źródeł, które ChatGPT czyta, a wizytówka z prawdziwymi opiniami daje mu więcej do zacytowania. Warto ją mieć dla pakietu lokalnego, dla ludzi szukających po mapach i dla tej części odpowiedzi AI.
 
 ## LLM SEO kontra klasyczne SEO: dwa kanały nagradzają co innego
 

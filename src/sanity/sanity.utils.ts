@@ -91,9 +91,11 @@ export async function getFormStandardDocumentByLang(
   language
   }`;
 
-  const formStandardDocument = await client.fetch(formStandardDocumentQuery, {
-    lang,
-  });
+  const formStandardDocument = await client.fetch(
+    formStandardDocumentQuery,
+    { lang },
+    { next: { revalidate: 60 } }
+  );
 
   return formStandardDocument;
 }
@@ -106,7 +108,10 @@ export async function getLastFourPortfolioByLang(
       _type == "portfolio" &&
       language == $lang &&
       defined(previewImage)
-    ] | order(_publishedAt desc)[0...4]{
+    // The document's own publishedAt, not Sanity's _publishedAt: the latter is
+    // only set by Studio's Publish button, is null on every API-created case,
+    // and silently fell back to _id order.
+    ] | order(publishedAt desc)[0...4]{
       _id,
       title,
       slug,
@@ -791,7 +796,15 @@ export async function getBlogPostByLang(
       },
       serviceOffered[]->{
         "label": title,
-        "link": slug[$lang].current
+        // Full path, not the bare slug: most services sit under a parent
+        // (services/…, uslugi/…, oferty/…), and a bare slug only reached them
+        // through the flat→nested redirect, one extra hop per link on every post.
+        "link": array::join(array::compact([
+          parentPage->parentPage->parentPage->slug[$lang].current,
+          parentPage->parentPage->slug[$lang].current,
+          parentPage->slug[$lang].current,
+          slug[$lang].current
+        ]), "/")
       },
       relatedArticles[]->{
         _id,

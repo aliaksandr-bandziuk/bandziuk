@@ -206,15 +206,11 @@ Matching dead artefacts: type files (`property.ts`, `project.ts`, `developer.ts`
 
 Should be consolidated into one.
 
-### C — Missing revalidation on header and footer queries
+### C — Missing revalidation on header and footer queries — RESOLVED
 
-```ts
-// getHeaderByLang and getFooterByLang — no fetch options passed:
-const header = await client.fetch(headerQuery, { lang });
-const footer = await client.fetch(footerQuery, { lang });
-```
-
-In Next.js 14 App Router, `fetch()` without options in a dynamic request defaults to `no-store` (not cached). Header and footer are fetched on every page, so they should at minimum get `{ next: { revalidate: 60 } }`.
+Header and footer already carry `{ next: { revalidate: 60 } }`. The last
+per-page query without it, `getFormStandardDocumentByLang`, got the same option
+on 2026-09-14.
 
 ### D — `urlFor(source: any)` — weak typing
 
@@ -262,13 +258,15 @@ import homepage from "@/sanity/schemaTypes/homepage"; // never used
 
 Comments in `sanity.utils.ts`, `sanity.client.ts`, and several components are in Russian (e.g., `// строим дерево`, `// Экспорт настроек для Node.js`). Not a bug, but creates friction for non-Russian collaborators.
 
-### J — Non-standard 404 for unknown single pages
+### J — Non-standard 404 for unknown single pages — RESOLVED
 
-In `[...slug]/page.tsx` line 163:
-```ts
-if (!page) { return <p>Страница не найдена</p>; }
-```
-Should call `notFound()` to render the proper 404 page and set the HTTP 404 status. The current code returns a 200 with Russian placeholder text.
+`[...slug]/page.tsx` calls `notFound()` and unknown single pages return a real
+404 (verified 2026-09-14). Unknown **blog** and **portfolio** slugs still return
+200: those routes have a `loading.tsx` Suspense boundary, so the response is
+already streaming when `notFound()` runs. That is deliberate and mitigated —
+`generateMetadata` emits `noindex, nofollow` with no canonical for a missing
+post. Do not "fix" it by removing the check; the status can only change if the
+loading boundary goes.
 
 ### K — `api/email` accepts any request body with no authentication
 
@@ -280,7 +278,10 @@ The script only captures a portfolio case whose `keyFeatures.website.type === "l
 
 A second, nastier failure in the same script: `dismissCookieBanner`'s generic selector list (`text=Accept`, `text=OK`, `text=Got it`, etc.) is tried blind against the whole page, with no check that a cookie banner is even present. On a site with no consent banner, one of those generic selectors can coincidentally match unrelated page text — a button, a nav item, anything — and click it, changing page state before the screenshot is taken. Caught this by accident building the Orzeł Realty portfolio cover (2026-08-26): a capture of `orzel-realty.pl`'s homepage using this selector list landed on a different hero state entirely (a single-CTA living-room image) than the page's actual default (a two-button "renovation vs. investment" split) — the misclick almost certainly hit some unrelated text matching one of the generic patterns. The capture itself succeeded, the screenshot looked completely normal, and nothing in the script's output flagged anything wrong. Unlike the `type: "text"` skip above (which is at least visible as a "skipped" line), this failure is silent — the only way to catch it is to look at the actual output image and know what the page is supposed to show. Worth a real fix (check for a specific known consent-banner selector, or verify page state is unchanged after the click) before trusting this script's captures unattended.
 
-### M — Homepage's "4 latest" portfolio cases are selected by `_id`, not recency
+### M — Homepage's "4 latest" portfolio cases are selected by `_id`, not recency — RESOLVED 2026-09-14
+
+The sort now uses `publishedAt`; the homepage shows the four most recent cases.
+The history below explains why `_publishedAt` must not come back.
 
 `getLastFourPortfolioByLang` (`src/sanity/sanity.utils.ts`, feeds both the homepage's Portfolio section and `/about`'s `portfolioBlock`) sorts on `order(_publishedAt desc)` — Sanity's own system field, set only when a document goes through Studio's Publish action. Every portfolio document in this dataset was created directly via the API (same pattern this whole project uses), so `_publishedAt` is `null` on all of them. With the sort key null everywhere, GROQ falls back to a stable secondary order that — confirmed empirically against the live homepage on 2026-08-26 — is ascending `_id`. The result: the "4 latest" cases shown to every visitor are actually just the 4 with the lowest document IDs, which has no relationship to when the work was actually done or published. Publishing a new case doesn't reliably rotate the block either — a new doc's `_id` can sort anywhere in that ordering, so it may never surface there no matter how recent or good the work is (confirmed: the new Orzeł Realty case, `_id` starting with `p`, sorts after all 12 existing UUID-style ids and would not appear).
 
@@ -586,12 +587,83 @@ Emitted once per page by `SchemaIdentity` from `[lang]/layout.tsx`.
   `SchemaBlogPost` must not also emit one — that produced two `FAQPage` blocks
   per article.
 
-### Not done, and deliberately so
+### Google Business Profile: a secondary source, not zero
 
-Google Business Profile is **not** a prerequisite here. An earlier draft of the
-AI-visibility report claimed ChatGPT cites GBP listings, based on it linking to
-Google Maps in 23 of 47 answers. Checking the link shapes killed that: all 507
-Maps links are `maps/search/<name>,+<city>` — constructed queries the model
-draws as a convenience affordance. Real listing links (`maps/place/`) numbered
-**zero**. The owner's GBP verification was rejected (home address) and it cost
-almost nothing.
+This section went through two wrong versions, and both mistakes are worth
+remembering.
+
+1. The first AI-visibility draft claimed ChatGPT cites GBP listings, because it
+   linked to Google Maps in 23 of 47 answers.
+2. Checking the link shapes seemed to kill that: all 507 Maps links are
+   `maps/search/<name>,+<city>`, constructed queries, and real listing links
+   (`maps/place/`) number **zero**. The conclusion drawn — "a listing plays no
+   part" — was published in the study.
+3. **Corrected 2026-09-14.** The answer *text* tells a different story. In 3 of
+   47 ChatGPT answers, all to location-bound questions (law-firm SEO in Warsaw,
+   a developer in Cyprus, clinics targeting German patients), ChatGPT quoted
+   listing data: `Open now · Marketing agency · 4.8 (28 reviews)`. The first
+   run of the AI checker showed the same for a Warsaw query. The study was
+   corrected in all three locales with a visible note.
+
+What holds: a listing is not the main route into an answer (3 in 47), but for
+city-bound questions it is read, and ratings and review counts are what gets
+quoted. The owner's GBP verification was rejected (home address); re-applying
+as a service-area business is worth doing, not optional.
+
+**Lesson:** a link's shape shows what a model links to, not everything it
+reads. Check the text before concluding a source is unused.
+
+## 11. Free AI visibility checker (`/tools/ai-visibility-checker`)
+
+Added 2026-09-14. A visitor enters a company, website, what they sell and an
+email; the server asks ChatGPT and Perplexity three questions each through
+DataForSEO and returns a report: named when a buyer asks who to hire, recognised
+when asked about the company, own site cited.
+
+### Pieces
+
+| Piece | Location |
+|---|---|
+| Page (EN/PL/RU, same slug) | `src/app/[lang]/tools/ai-visibility-checker/page.tsx` |
+| Form and report (client) | `src/app/components/tools/AiVisibilityChecker/` — all copy in `copy.ts` |
+| API | `src/app/api/ai-check/route.ts` |
+| Logic | `src/lib/aiCheck/` — `config`, `prompts`, `engines`, `analyze`, `store`, `notify` |
+| Studio record | `aiVisibilityCheck` schema, read-only, hidden from "create new" |
+
+### It is off by default, and that is the safety mechanism
+
+Every check spends real money. The API returns 503 and the form renders
+disabled unless **all** of these are set: `AI_CHECK_ENABLED=true`,
+`DATAFORSEO_API_LOGIN`, `DATAFORSEO_API_PASSWORD`. While off, the page is
+`noindex`. On Vercel, env changes need a redeploy; the page is static and reads
+the flag at build time.
+
+Optional: `AI_CHECK_DAILY_LIMIT` (default 20 reports / 24 h, all visitors),
+`AI_CHECK_PER_EMAIL_LIMIT` (2), `AI_CHECK_PER_IP_LIMIT` (3), `AI_CHECK_IP_SALT`
+(falls back to the Sanity token). Owner notification reuses `EMAIL_USER` /
+`EMAIL_PASSWORD`.
+
+**Putting DataForSEO credentials into Vercel is the owner's decision.** They
+asked on 2026-09-11 not to mirror them. A sub-account or a key with a hard
+budget cap is the safer way to reverse that.
+
+### Cost, measured
+
+One report = 6 live answers, **$0.107** in the end-to-end test (ChatGPT live
+≈ $0.03 per answer, Perplexity ≈ $0.006). The default daily limit caps spend at
+about $2.14 a day. ChatGPT's `task_post` is a third of the price but
+asynchronous, unusable for a visitor waiting on the page.
+
+### Rules
+
+- Limits are counted from `aiVisibilityCheck` documents in the last 24 h, read
+  through a **non-CDN** client. The record is created before any engine call,
+  so parallel requests see each other. Do not edit or duplicate these
+  documents in Studio; that changes who gets blocked.
+- "Named" counts **only** on the recommendation question. The other two prompts
+  contain the company name and assistants repeat it even when they found
+  nothing, so counting them reports visibility that does not exist.
+- IPs are stored only as a salted SHA-256 hash.
+- Protection today is a honeypot, consent, validation and the limits. A captcha
+  (e.g. Cloudflare Turnstile) is recommended before promoting the page; it
+  needs keys from the owner.

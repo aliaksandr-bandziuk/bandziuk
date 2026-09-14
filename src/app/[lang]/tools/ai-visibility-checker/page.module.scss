@@ -1,0 +1,81 @@
+.page {
+  // The header is position:fixed. Other inner pages clear it with a 100px
+  // breadcrumb offset; this page has no breadcrumb trail, so it clears it here.
+  padding-top: calc(100px + clamp(1rem, 0.5rem + 2vw, 2.5rem));
+  padding-bottom: clamp(3.5rem, 2.5rem + 4vw, 6rem);
+}
+
+.intro {
+  max-width: 900px;
+  margin-bottom: 32px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 44px;
+  }
+}
+
+.lead {
+  margin-top: 16px;
+  font-size: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  line-height: 1.6;
+  color: var(--text-secondary);
+  max-width: var(--measure-article);
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 20px;
+}
+
+.fact {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--text-reading);
+
+  &::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+}
+
+.limits {
+  margin-top: 56px;
+  max-width: var(--measure-article);
+
+  @media screen and (min-width: 768px) {
+    margin-top: 80px;
+  }
+}
+
+.limitsTitle {
+  font-size: clamp(1.375rem, 1.1rem + 1vw, 1.875rem);
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+.limitsText {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--text-reading);
+
+  & + & {
+    margin-top: 14px;
+  }
+}
+
+.link {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+
+  &:hover {
+    color: var(--accent);
+  }
+}

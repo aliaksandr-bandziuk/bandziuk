@@ -1,0 +1,412 @@
+@use "../../shared/formFields/formFields" as formFields;
+
+.checker {
+  width: 100%;
+}
+
+// ── Form ────────────────────────────────────────────────────────────────
+.form {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+
+  @media screen and (min-width: 768px) {
+    padding: 36px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.fieldWide {
+  @media screen and (min-width: 768px) {
+    grid-column: 1 / -1;
+  }
+}
+
+.label {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.input {
+  @include formFields.input-field;
+
+  // The shared mixin pads for a leading icon; these fields have none.
+  padding: 14px 16px;
+
+  @media screen and (min-width: 768px) {
+    padding: 14px 18px;
+  }
+
+  &::placeholder {
+    color: var(--text-tertiary);
+  }
+
+  &:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+
+  &:-webkit-autofill {
+    @include formFields.autofill-fix;
+  }
+}
+
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+
+  input {
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    accent-color: var(--accent);
+  }
+}
+
+.inlineLink {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+.submit {
+  @include formFields.submit-button;
+  gap: 10px;
+  height: 56px;
+  text-decoration: none;
+
+  @media screen and (min-width: 768px) {
+    height: 60px;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(10, 10, 11, 0.35);
+  border-top-color: #0a0a0b;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation-duration: 2.4s;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.status {
+  min-height: 1.5em;
+  margin-top: 14px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.error {
+  margin-top: 8px;
+  padding: 12px 14px;
+  border: 1px solid var(--danger);
+  background: var(--danger-muted);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+// ── Report ──────────────────────────────────────────────────────────────
+.report {
+  scroll-margin-top: 100px;
+}
+
+.reportTitle {
+  font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.25rem);
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 18px 20px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--text-primary);
+}
+
+.statValueAccent {
+  color: var(--accent);
+}
+
+.statLabel {
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--text-secondary);
+}
+
+.verdict {
+  margin: 24px 0 8px;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--text-reading);
+  max-width: var(--measure-article);
+}
+
+.group {
+  margin-top: 36px;
+}
+
+.groupTitle {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.prompt {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  max-width: var(--measure-article);
+}
+
+.promptLabel {
+  color: var(--text-tertiary);
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+
+  @media screen and (min-width: 900px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+  padding: 18px 20px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.answerHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.engine {
+  font-family: var(--font-heading);
+  font-size: 1.0625rem;
+  color: var(--text-primary);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+// Badge text stays in text-primary: the semantic reds and greens are too dark
+// for small text on this surface, so colour lives in the border and fill only.
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-primary);
+
+  &::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--text-tertiary);
+  }
+}
+
+.badgeGood {
+  border-color: var(--success);
+  background: var(--success-muted);
+
+  &::before {
+    background: var(--success);
+  }
+}
+
+.badgeBad {
+  border-color: var(--danger);
+  background: var(--danger-muted);
+
+  &::before {
+    background: var(--danger);
+  }
+}
+
+.badgeMuted {
+  background: var(--bg-elevated);
+}
+
+.excerpt {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-reading);
+  overflow-wrap: anywhere;
+}
+
+.sources {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  overflow-wrap: anywhere;
+}
+
+.cta {
+  margin-top: 44px;
+  padding: 24px;
+  background: var(--accent-muted);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+
+  @media screen and (min-width: 768px) {
+    padding: 36px;
+  }
+}
+
+.ctaText {
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--text-reading);
+  margin-bottom: 20px;
+  max-width: var(--measure-article);
+}
+
+.ctaButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+
+    > * {
+      width: auto;
+      margin-inline: 0;
+      padding-inline: 32px;
+    }
+  }
+}
+
+.secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  padding: 0 28px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: border-color 0.2s ease;
+
+  @media screen and (min-width: 768px) {
+    height: 60px;
+  }
+
+  &:hover {
+    border-color: var(--accent);
+  }
+}
+
+.again {
+  margin-top: 18px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--text-primary);
+  }
+}

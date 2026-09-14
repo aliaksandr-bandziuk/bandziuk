@@ -131,9 +131,7 @@ search" is averaging three different problems.
 
 ## Why ChatGPT's Google Maps citations are not business listings
 
-Half of ChatGPT's answers referencing Google Maps invites an obvious
-conclusion: a verified Google Business Profile must be the entry ticket for AI
-visibility. The link format disproves it.
+Half of ChatGPT's answers referencing Google Maps invites an obvious conclusion: a verified Google Business Profile must be the entry ticket for AI visibility. The link format says otherwise, but the text of the answers adds a qualification.
 
 ![507 constructed Maps search queries against zero links to real business listings](article-figures/fig-maps-links-checked-en.png)
 
@@ -145,14 +143,11 @@ visibility. The link format disproves it.
 Every Maps link in the dataset is a search query the model composed from a name
 and a city. Not one points at an actual listing.
 
-ChatGPT finds providers through ordinary web search and then renders a Maps
-search link beside each name as a convenience for the reader. Whether the
-business has a verified profile does not enter into the selection.
+ChatGPT finds most providers through ordinary web search and then renders a Maps search link beside each name as a convenience for the reader. In 44 of the 47 answers, nothing in the text suggests a business listing played any part in the selection.
 
-A Google Business Profile remains worth having for the local pack and for map
-searches performed by people. It is not the mechanism that gets a business into
-an AI answer, and advice to the contrary can be checked against the shape of
-the URL in about a minute.
+The other three answers are different, and all three came from questions with a location: an SEO specialist for a law firm in Warsaw, a web developer in Cyprus, and a studio building websites for clinics that want German patients. There ChatGPT described named businesses with data only a map listing carries: whether they were open, the listing category and, in two of the three, the rating and review count, in the form "Open now · Marketing agency · 4.8 (28 reviews)". For those questions the listing was read as a source. The first version of this section missed them.
+
+So the listing is not the main mechanism: 3 answers in 47. For questions tied to a city, though, it is one of the sources ChatGPT reads, and a listing with genuine reviews gives it more to quote. It is worth having for the local pack, for people searching maps, and for that share of AI answers.
 
 ## LLM SEO versus classic SEO: the two channels reward different pages
 

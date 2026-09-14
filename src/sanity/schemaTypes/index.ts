@@ -39,6 +39,7 @@ import stepsBlock from "./stepsBlock";
 import relatedServicesBlock from "./relatedServicesBlock";
 import author from "./author";
 import siteDefaults from "./siteDefaults";
+import aiVisibilityCheck from "./aiVisibilityCheck";
 
 export const schemaTypes = [
   header,
@@ -82,4 +83,5 @@ export const schemaTypes = [
   docFile,
   localizedSlug,
   siteDefaults,
+  aiVisibilityCheck,
 ];

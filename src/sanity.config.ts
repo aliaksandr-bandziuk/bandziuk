@@ -60,6 +60,8 @@ export default defineConfig({
             "service",
             "technology",
             "author",
+            // Written only by /api/ai-check, which counts these for its limits.
+            "aiVisibilityCheck",
           ].includes(template.id),
       ),
   },

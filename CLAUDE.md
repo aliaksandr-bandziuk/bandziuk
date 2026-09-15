@@ -743,6 +743,15 @@ Production response headers showed two separate problems:
 | `/`, `/[lang]`, blog posts, `/portfolio` | `private, no-store`, `X-Vercel-Cache: MISS` on every request | rendered from scratch for every visitor and every bot |
 | `[...slug]` service pages | `STALE` / `HIT` | cached, but regenerated for any request more than 60 s after the last one |
 
+**There were two causes, and the first fix only removed one.** After the
+wrapper below shipped, production still answered  with  for the
+homepage, blog posts and the portfolio, while service pages were cached. The
+pattern matched exactly: cached routes were the ones exporting
+. **In Next.js 14 a page under the dynamic segment without  is rendered on every request and never
+cached**, however its fetches are configured. All five such pages now export
+one ( supplies blog and portfolio slugs). Any new page
+under  needs one too.
+
 The cause of the first: the Sanity client sends an `Authorization` header (the
 token is required, §3), and **Next.js 14 does not cache a fetch with an
 Authorization header unless the fetch or the segment sets an explicit cache
@@ -755,6 +764,9 @@ that 60-second lifetime itself: every bot pass over ~500 pages rewrote them.
 - `src/sanity/sanity.client.ts` wraps `fetch`: every query gets
   `next: { revalidate: 86400, tags: ["sanity"] }`. `{ cache: "no-store" }` is
   passed through untouched, for the webhook's own URL lookup.
+- Every page under `[lang]` exports `generateStaticParams` (languages, or
+  language + slug). `dynamicParams` stays true for blog and portfolio, so a post
+  published after a build renders once on first visit and is then cached.
 - `[lang]/layout.tsx` and `[...slug]/page.tsx` export `revalidate = 86400`.
   These must be literals; keep them equal to `SANITY_REVALIDATE_SECONDS`.
 - `/api/indexnow/webhook` calls `revalidateTag("sanity")` for **every** document

@@ -13,6 +13,7 @@ import { i18n } from "@/i18n.config";
 import {
   getBlogPostByLang,
   getFormStandardDocumentByLang,
+  getStaticSlugParams,
 } from "@/sanity/sanity.utils";
 import {
   AccordionBlock,
@@ -51,6 +52,12 @@ import styles from "./page.module.scss";
 type Props = {
   params: { lang: string; slug: string };
 };
+
+// Without this the route renders on every request and is never cached (see
+// getStaticSlugParams). Posts published after a build render once, then cache.
+export async function generateStaticParams() {
+  return getStaticSlugParams("blog", i18n.languages.map((l) => l.id));
+}
 
 // Dynamic metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -22,6 +22,11 @@ type Props = {
   params: { lang: string };
 };
 
+// Without this the blog index renders on every request and is never cached.
+export function generateStaticParams() {
+  return i18n.languages.map((l) => ({ lang: l.id }));
+}
+
 // Dynamic metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = await getBlogPageByLang(params.lang);

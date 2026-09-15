@@ -29,6 +29,11 @@ type Props = {
   params: { lang: string; slug: string };
 };
 
+// Without this the homepage renders on every request and is never cached.
+export function generateStaticParams() {
+  return i18n.languages.map((l) => ({ lang: l.id }));
+}
+
 // Dynamic metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const homePage = await getHomePageByLang(params.lang);

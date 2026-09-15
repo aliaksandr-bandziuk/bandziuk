@@ -78,6 +78,30 @@ export async function getFeaturedPricingByLang(lang: string): Promise<FeaturedPr
   return client.fetch(query, { lang }, { next: { revalidate: 60 } });
 }
 
+/**
+ * Every published blog post or portfolio case as `{ lang, slug }`, for
+ * `generateStaticParams`. In Next.js 14 a page under the dynamic `[lang]`
+ * segment without generateStaticParams is rendered on every request and never
+ * cached, whatever its fetches say (2026-09-15, §13 in CLAUDE.md). New
+ * documents published after a build still work: `dynamicParams` stays true,
+ * and those pages are rendered once on first visit and then cached.
+ */
+export async function getStaticSlugParams(
+  type: "blog" | "portfolio",
+  langs: string[],
+): Promise<{ lang: string; slug: string }[]> {
+  const perLang = await Promise.all(
+    langs.map(async (lang) => {
+      const slugs: string[] = await client.fetch(
+        groq`*[_type == $type && language == $lang && !(_id in path("drafts.**")) && defined(slug[$lang].current)].slug[$lang].current`,
+        { type, lang },
+      );
+      return slugs.map((slug) => ({ lang, slug }));
+    }),
+  );
+  return perLang.flat();
+}
+
 export async function getFooterByLang(lang: string) {
   const footerQuery = groq`*[_type == "footer" && language == $lang][0] {
     _id,

@@ -18,6 +18,11 @@ type Props = {
   params: { lang: string };
 };
 
+// Without this the portfolio index renders on every request and is never cached.
+export function generateStaticParams() {
+  return i18n.languages.map((l) => ({ lang: l.id }));
+}
+
 // Dynamic metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = await getPortfolioPageByLang(params.lang);

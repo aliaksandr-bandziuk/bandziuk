@@ -5,6 +5,7 @@ import { BASE_URL, localePrefix, findAltSlug, buildLanguageAlternates } from "@/
 import {
   getFormStandardDocumentByLang,
   getPortfolioByLang,
+  getStaticSlugParams,
 } from "@/sanity/sanity.utils";
 import { i18n } from "@/i18n.config";
 import { Translation } from "@/types/homepage";
@@ -24,6 +25,12 @@ import { getPortfolioJsonLd } from "@/app/components/seo/SchemaPortfolio/SchemaP
 type Props = {
   params: { lang: string; slug: string };
 };
+
+// Without this the route renders on every request and is never cached (see
+// getStaticSlugParams). Posts published after a build render once, then cache.
+export async function generateStaticParams() {
+  return getStaticSlugParams("portfolio", i18n.languages.map((l) => l.id));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = params;

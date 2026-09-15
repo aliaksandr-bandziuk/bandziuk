@@ -1,0 +1,1885 @@
+[
+  {
+    "section": "3. About",
+    "documentId": "64fbff10-16af-4b4b-9bee-160c21e3aa0b",
+    "set": {
+      "aboutSection.title": "A web developer who designs the site and makes it visible",
+      "aboutSection.buttonLabel": "Contact me"
+    },
+    "unset": [
+      "aboutSection.subtitle"
+    ]
+  },
+  {
+    "section": "4. Services",
+    "documentId": "64fbff10-16af-4b4b-9bee-160c21e3aa0b",
+    "set": {
+      "servicesSection.title": "Web design and development, SEO and AI search services",
+      "servicesSection.subtitle": "Three directions that usually need three contractors, with one goal: more enquiries and clients. Take one, or all three from the same person."
+    },
+    "unset": []
+  },
+  {
+    "section": "4b. Problems",
+    "documentId": "64fbff10-16af-4b4b-9bee-160c21e3aa0b",
+    "set": {
+      "problemsSection.title": "Problems I solve with websites, SEO and AI search",
+      "problemsSection.fullButtonLabel": "Describe your problem",
+      "problemsSection.problemsItems": [
+        {
+          "_key": "6073f8b342b5",
+          "iconName": "target",
+          "problem": "The site looks fine but brings no leads",
+          "solution": "I rebuild the structure, offers and forms around what buyers actually search for, so visits turn into enquiries.",
+          "buttonLabel": "I have the same problem"
+        },
+        {
+          "_key": "8f5a004488623d2fac51347df369131a",
+          "iconName": "gauge",
+          "problem": "It was built on a page builder: slow, and it doesn’t rank",
+          "solution": "A custom-coded site replaces the builder: faster on mobile, cleaner for search engines, still easy for your team to edit.",
+          "buttonLabel": "I have the same problem"
+        },
+        {
+          "_key": "7e106dc9ef1c345aae6524e8326d27b6",
+          "iconName": "search",
+          "problem": "We’re invisible in Google",
+          "solution": "An audit finds what blocks rankings, and I fix it in the code and content, not just list it in a report.",
+          "buttonLabel": "I have the same problem"
+        },
+        {
+          "_key": "08caa7049de9c77a",
+          "iconName": "sparkles",
+          "problem": "ChatGPT recommends our competitors, not us",
+          "solution": "GEO and AEO work makes your business easy for assistants to identify and quote: entity data, structured markup, sources and answer-ready pages.",
+          "buttonLabel": "I have the same problem"
+        },
+        {
+          "_key": "3de4b05c8800bbb8",
+          "iconName": "message-circle",
+          "problem": "AI assistants describe our company wrongly",
+          "solution": "I trace each wrong claim to its source, correct what can be corrected, and tell you plainly what can’t.",
+          "buttonLabel": "I have the same problem"
+        },
+        {
+          "_key": "8426ebe2472cc3e9aaf5e7c2e07e240c",
+          "iconName": "trending-up",
+          "problem": "SEO was done, but there’s no clarity or results",
+          "solution": "You get a plan with priorities, reporting in plain language and changes you can see in Search Console.",
+          "buttonLabel": "I have the same problem"
+        },
+        {
+          "_key": "d1be82ffa2f109d9ea6baebc45382174",
+          "iconName": "layout",
+          "problem": "We have a Figma design but no developer to build it",
+          "solution": "I build it pixel-accurately on Next.js, with the CMS, languages and SEO set up from the first release.",
+          "buttonLabel": "I have the same problem"
+        },
+        {
+          "_key": "29d956cbe890096a9370fb1ca5826f7d",
+          "iconName": "users",
+          "problem": "Our developer is slow, expensive or gone",
+          "solution": "I take over the codebase, document it and keep it moving: fixes, new pages and integrations without starting from scratch.",
+          "buttonLabel": "I have the same problem"
+        }
+      ]
+    },
+    "unset": [
+      "problemsSection.subtitle"
+    ]
+  },
+  {
+    "section": "7. Portfolio",
+    "documentId": "64fbff10-16af-4b4b-9bee-160c21e3aa0b",
+    "set": {
+      "portfolioSection.pretitle": "Work",
+      "portfolioSection.title": "Recent projects: websites, platforms and SEO"
+    },
+    "unset": [
+      "portfolioSection.subtitle"
+    ]
+  },
+  {
+    "section": "9. Process",
+    "documentId": "64fbff10-16af-4b4b-9bee-160c21e3aa0b",
+    "set": {
+      "processSection.pretitle": "Process",
+      "processSection.title": "How I work: from design and build to visibility in Google and AI search",
+      "processSection.stepItems[_key==\"2d2051fabc88\"].title": "01. Goal and scope",
+      "processSection.stepItems[_key==\"2d2051fabc88\"].description": "What success means for you, which markets and languages, and a fixed price.",
+      "processSection.stepItems[_key==\"7a17d917f7f1\"].title": "02. Audit",
+      "processSection.stepItems[_key==\"7a17d917f7f1\"].description": "Your current site, rankings and visibility in AI assistants, or a competitor review for a new build.",
+      "processSection.stepItems[_key==\"9df29ff068d0\"].title": "03. Design and architecture",
+      "processSection.stepItems[_key==\"9df29ff068d0\"].description": "Interface design, page structure, URLs per language and the CMS model.",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].title": "04. Build with SEO inside",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].description": "Clean Next.js code, structured data, hreflang and speed, done together.",
+      "processSection.stepItems[_key==\"320a93e9de26\"].title": "05. Launch and measure",
+      "processSection.stepItems[_key==\"320a93e9de26\"].description": "Enquiries, conversions, rankings and AI visibility, tracked from the first week.",
+      "processSection.stepItems[_key==\"5a79d4589a3f\"].title": "06. Grow",
+      "processSection.stepItems[_key==\"5a79d4589a3f\"].description": "New pages, languages, markets and GEO work when the numbers justify them.",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].iconName": "code"
+    },
+    "unset": [
+      "processSection.subtitle"
+    ]
+  },
+  {
+    "section": "10. Reviews",
+    "documentId": "64fbff10-16af-4b4b-9bee-160c21e3aa0b",
+    "set": {
+      "reviewsSection.title": "What clients say",
+      "reviewsSection.reviews[_key==\"ef304cbed5776572d8da0eaf13da902b\"].reviewText[_key==\"8b87f821b9c0\"].children[_key==\"0b3eeeefe0220\"].text": "Aliaksandr created a luxury real estate website for me completely from scratch — and nailed every detail."
+    },
+    "unset": [
+      "reviewsSection.subtitle"
+    ]
+  },
+  {
+    "section": "11. FAQ",
+    "documentId": "64fbff10-16af-4b4b-9bee-160c21e3aa0b",
+    "set": {
+      "faqSection.title": "Web development, SEO and AI search: questions clients ask",
+      "faqSection.faq.items": [
+        {
+          "_key": "53b6ad7fc554",
+          "question": "Will the website actually bring me leads?",
+          "answer": [
+            {
+              "_key": "16cd3c684be7",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "639401db2524",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "That is what it is built for. Design, code, SEO and GEO are the means; enquiries and clients are the point. Every project gets clear offers, short forms, contact buttons where buyers decide and conversion tracking in GA4, so you can see which pages and channels bring leads."
+                }
+              ]
+            },
+            {
+              "_key": "ee065d4285e2",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "8ab3cc90ccd5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "No one can promise a number before seeing your market, but after the audit you will know what is realistic."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "faf70bd2e633",
+          "question": "How much does a website or platform cost?",
+          "answer": [
+            {
+              "_key": "3c66724f0b32",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "54c71f0991bd",
+                  "_type": "link",
+                  "href": "/pricing"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "c09686a70a36",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A business website starts from €2,000 and a landing page costs €700–1,400. A redesign of an existing site starts from €1,000. Larger platforms with custom integrations are quoted after a short call. Once the scope is agreed, the price is fixed in writing before work starts. "
+                },
+                {
+                  "_key": "89a6d53f3213",
+                  "_type": "span",
+                  "marks": [
+                    "54c71f0991bd"
+                  ],
+                  "text": "All prices"
+                },
+                {
+                  "_key": "9ff025be77dd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " are on the pricing page."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "cad3056afed3",
+          "question": "Do you design the website too, or do I need a designer?",
+          "answer": [
+            {
+              "_key": "61fe39e06859",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "c3e19fd5e7f4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "I design it. Every project gets a custom interface built for your business and its buyers. If you already have a design in Figma, I build it pixel-accurately instead."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "0698d4863ef0",
+          "question": "What are GEO and AEO, and how are they different from SEO?",
+          "answer": [
+            {
+              "_key": "6e926a9d5ffe",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "2506ae96bb7a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SEO gets your pages ranked in Google’s results. GEO, generative engine optimisation, gets your business named and cited when an assistant such as ChatGPT or Perplexity writes an answer. AEO, answer engine optimisation, structures your content so assistants, Google AI Overviews and AI agents can take the exact answer from your page."
+                }
+              ]
+            },
+            {
+              "_key": "2f1bc2ce6473",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "b30d39722c68",
+                  "_type": "link",
+                  "href": "/services/ai-ready-seo-and-geo-optimization"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "6cb14ea6945a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "They overlap, and I build all three into the same site. More on the "
+                },
+                {
+                  "_key": "524c441a302a",
+                  "_type": "span",
+                  "marks": [
+                    "b30d39722c68"
+                  ],
+                  "text": "GEO and AI search page"
+                },
+                {
+                  "_key": "64031d8902bd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "103c8ed813a2",
+          "question": "Can you get my business recommended by ChatGPT, Perplexity, Gemini or Claude?",
+          "answer": [
+            {
+              "_key": "fbfed922d30c",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "b1fa01eea01b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "No one can guarantee a recommendation. What I can do is make your business easy to identify and verify: consistent entity data, structured markup, directory profiles and pages that answer the questions buyers actually ask."
+                }
+              ]
+            },
+            {
+              "_key": "8e2db3100347",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "afeea08c5eed",
+                  "_type": "link",
+                  "href": "/blog/ai-assistant-recommendations-study"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "f7a3afb2ce54",
+                  "_type": "span",
+                  "marks": [
+                    "afeea08c5eed"
+                  ],
+                  "text": "My study of 141 AI answers"
+                },
+                {
+                  "_key": "d9802049c4e5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " shows which sources ChatGPT, Perplexity and Google AI Mode cite when they recommend a business."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "aae46902a658",
+          "question": "Can you redesign my website without losing rankings?",
+          "answer": [
+            {
+              "_key": "f89da45b610e",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "66df8b1d5d4a",
+                  "_type": "link",
+                  "href": "/blog/website-redesign-without-losing-traffic"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "f71ce9db9764",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. Before anything changes I map every URL, redirect and piece of structured data, then carry them into the new design. Most traffic lost in a redesign is lost through URLs and markup, not through the design itself. The "
+                },
+                {
+                  "_key": "bdf106815f51",
+                  "_type": "span",
+                  "marks": [
+                    "66df8b1d5d4a"
+                  ],
+                  "text": "redesign checklist"
+                },
+                {
+                  "_key": "a6902c47776f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " shows what to check before, during and after."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "9cb8eb3edbca",
+          "question": "How much does SEO cost?",
+          "answer": [
+            {
+              "_key": "50dcd865dc6c",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "d97a24232a80",
+                  "_type": "link",
+                  "href": "/pricing"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "b0c7d5dfb486",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "An SEO audit starts from €250. Ongoing SEO for a service business starts from €800 a month, and from €1,300 in competitive industries. "
+                },
+                {
+                  "_key": "a843adce1e61",
+                  "_type": "span",
+                  "marks": [
+                    "d97a24232a80"
+                  ],
+                  "text": "All prices"
+                },
+                {
+                  "_key": "5f463fb5adec",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " are on the pricing page."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "baf6e1fde01f",
+          "question": "Can I start with just part of the work, for example SEO only?",
+          "answer": [
+            {
+              "_key": "a0ed6a1f821f",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "e4ab593a657b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. Many clients begin with a focused task, such as an audit, a single landing page or a consultation, and expand later as the business grows."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "c1c7c740a203",
+          "question": "Should I hire a freelancer or an agency?",
+          "answer": [
+            {
+              "_key": "1425921dd1ce",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "dbfa8572009f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "An agency makes sense when you need a large team across many channels at once. A freelancer makes sense when you want the person you talk to to be the one doing the work. With me, that person designs, builds and optimises, and brings in trusted designers or writers when a project needs more hands."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "fd868883e0f9",
+          "question": "Do you work with clients in the UK, the US and elsewhere?",
+          "answer": [
+            {
+              "_key": "f0164d0b67a7",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "105ad29ceb1f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. I work remotely with clients in 12 countries, including the UK, the US, Canada and Australia. Calls fit European and North American business hours, and contracts and invoices come from my registered EU business."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "fa9ee5f5e059",
+          "question": "How long does it take to build a website?",
+          "answer": [
+            {
+              "_key": "d8272dc462be",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "ff62f19e6f23",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A landing page takes one to two weeks. Websites and platforms with a CMS, several languages, filters and integrations take three to six weeks. You get a realistic timeline before work starts."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "a19bfc053a4f",
+          "question": "How long does SEO take to show results?",
+          "answer": [
+            {
+              "_key": "fe748e0a4389",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "a338632f5f35",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Technical fixes on an existing site often show in Search Console within weeks. Rankings for competitive terms usually take three to six months, and longer for a new domain. At the audit stage I tell you which goals are realistic."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "2a70faf81605",
+          "question": "What technologies do you use?",
+          "answer": [
+            {
+              "_key": "a3075577711e",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "5c5951b39bd1",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Development: Next.js, React, TypeScript, Sanity CMS, WordPress and API integrations. SEO: Google Search Console, Screaming Frog, Ahrefs and schema.org. Tracking: GA4, Google Tag Manager, Facebook Pixel and conversion tracking. For GEO, my own checks of how AI assistants answer about your market."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "196999cef2cb",
+          "question": "Do you provide contracts, invoices and support after launch?",
+          "answer": [
+            {
+              "_key": "d3e197fd3d18",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "3bb5c65740c4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Yes. I work as a registered sole proprietor in the EU and issue contracts, VAT-compliant invoices and closing documents. After launch I can continue with development, SEO, analytics and AI visibility work. Everything is documented, so you can also take the site over yourself."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "unset": [
+      "faqSection.subtitle"
+    ]
+  },
+  {
+    "section": "13. Contact (footer, all EN pages)",
+    "documentId": "c8cc9b39-a167-4bc1-8f36-d737ecfb2bc0",
+    "set": {
+      "contactsSection.title": "Tell me about your project",
+      "contactsSection.subtitle": "A website, a platform, a redesign or more leads from Google and AI search. A short description is enough; I reply within one business day."
+    },
+    "unset": []
+  },
+  {
+    "section": "RU 1. SEO and hero",
+    "documentId": "9677b6b7-c228-48c6-9331-407daa716652",
+    "set": {
+      "seo.metaTitle": "Создание и раскрутка сайтов, SEO и GEO",
+      "seo.metaDescription": "Сайты на Next.js, которые выходят в Google, попадают в ответы ИИ-ассистентов и приводят клиентов. Раскрутка сайтов, SEO и GEO. С 2010 года, 100+ проектов.",
+      "heroSection.eyebrow": "Александр Бандюк — веб-разработчик и SEO-специалист, с 2010 года",
+      "heroSection.title": "Создание сайтов, SEO и GEO: привожу клиентов из Google и ИИ-поиска",
+      "heroSection.subtitle": "Сайты и платформы на Next.js с дизайном под конверсию, техническим SEO и GEO: чтобы вас находили в Google и рекомендовали ChatGPT, Perplexity, Gemini, Claude и Google AI Overviews.",
+      "heroSection.text": "Один специалист — от первого макета до первой заявки.",
+      "heroSection.facts": [
+        {
+          "_key": "fact-1",
+          "_type": "fact",
+          "label": "Опыт",
+          "value": "16+ лет, с 2010 года"
+        },
+        {
+          "_key": "fact-2",
+          "_type": "fact",
+          "label": "Проекты",
+          "value": "100+ сайтов и платформ"
+        },
+        {
+          "_key": "fact-3",
+          "_type": "fact",
+          "label": "Клиенты из",
+          "value": "12 стран: Великобритания, США, ЕС и другие"
+        },
+        {
+          "_key": "fact-4",
+          "_type": "fact",
+          "label": "Языки",
+          "value": "русский · английский · польский"
+        }
+      ],
+      "heroSection.heroButtons[_key==\"ac86ec09e8aa\"].label": "Смотреть работы",
+      "heroSection.heroButtons[_key==\"e8206441367e\"].label": "Обсудить проект"
+    },
+    "unset": []
+  },
+  {
+    "section": "RU 3. About",
+    "documentId": "9677b6b7-c228-48c6-9331-407daa716652",
+    "set": {
+      "aboutSection.title": "Веб-разработчик, который сам проектирует сайт и делает его заметным",
+      "aboutSection.buttonLabel": "Связаться со мной"
+    },
+    "unset": [
+      "aboutSection.subtitle"
+    ]
+  },
+  {
+    "section": "RU 4. Services",
+    "documentId": "9677b6b7-c228-48c6-9331-407daa716652",
+    "set": {
+      "servicesSection.title": "Разработка и раскрутка сайтов, SEO и GEO для ИИ-поиска",
+      "servicesSection.subtitle": "Три направления, для которых обычно нанимают трёх подрядчиков, и одна цель: больше заявок и клиентов. Берите одно направление или все три у одного специалиста."
+    },
+    "unset": []
+  },
+  {
+    "section": "RU 4b. Problems",
+    "documentId": "9677b6b7-c228-48c6-9331-407daa716652",
+    "set": {
+      "problemsSection.title": "Какие проблемы я решаю сайтами, SEO и GEO",
+      "problemsSection.fullButtonLabel": "Опишите вашу задачу",
+      "problemsSection.problemsItems": [
+        {
+          "_key": "6073f8b342b5",
+          "iconName": "target",
+          "problem": "Сайт выглядит нормально, но заявок нет",
+          "solution": "Перестраиваю структуру, предложения и формы под то, что клиенты действительно ищут, чтобы посещения превращались в заявки.",
+          "buttonLabel": "У меня такая же проблема"
+        },
+        {
+          "_key": "8f5a004488623d2fac51347df369131a",
+          "iconName": "gauge",
+          "problem": "Сайт на конструкторе: медленный и не продвигается",
+          "solution": "Меняю конструктор на сайт с чистым кодом: он быстрее на телефоне, понятнее поисковикам и по-прежнему удобен для редактирования.",
+          "buttonLabel": "У меня такая же проблема"
+        },
+        {
+          "_key": "7e106dc9ef1c345aae6524e8326d27b6",
+          "iconName": "search",
+          "problem": "Нас не видно в Google",
+          "solution": "Аудит показывает, что мешает позициям, и я исправляю это в коде и контенте, а не просто перечисляю в отчёте.",
+          "buttonLabel": "У меня такая же проблема"
+        },
+        {
+          "_key": "9ae134a1e6f4",
+          "iconName": "sparkles",
+          "problem": "ChatGPT советует конкурентов, а не нас",
+          "solution": "GEO и AEO делают ваш бизнес понятным для ассистентов: данные о компании, структурированная разметка, источники и страницы с готовыми ответами.",
+          "buttonLabel": "У меня такая же проблема"
+        },
+        {
+          "_key": "4c8152c5169c",
+          "iconName": "message-circle",
+          "problem": "ИИ-ассистенты пишут о компании неправду",
+          "solution": "Нахожу источник каждой ошибки, исправляю то, что можно исправить, и честно говорю, что исправить нельзя.",
+          "buttonLabel": "У меня такая же проблема"
+        },
+        {
+          "_key": "8426ebe2472cc3e9aaf5e7c2e07e240c",
+          "iconName": "trending-up",
+          "problem": "SEO делали, но нет ни результата, ни понимания",
+          "solution": "Вы получаете план с приоритетами, понятные отчёты и изменения, которые видно в Search Console.",
+          "buttonLabel": "У меня такая же проблема"
+        },
+        {
+          "_key": "d1be82ffa2f109d9ea6baebc45382174",
+          "iconName": "layout",
+          "problem": "Есть дизайн в Figma, но нет разработчика",
+          "solution": "Верстаю его точно по макету на Next.js, с CMS, языковыми версиями и SEO с первого релиза.",
+          "buttonLabel": "У меня такая же проблема"
+        },
+        {
+          "_key": "29d956cbe890096a9370fb1ca5826f7d",
+          "iconName": "users",
+          "problem": "Разработчик пропал, всё медленно и дорого",
+          "solution": "Беру проект на себя, документирую его и продолжаю работу: исправления, новые страницы и интеграции без разработки с нуля.",
+          "buttonLabel": "У меня такая же проблема"
+        }
+      ]
+    },
+    "unset": [
+      "problemsSection.subtitle"
+    ]
+  },
+  {
+    "section": "RU 7. Portfolio",
+    "documentId": "9677b6b7-c228-48c6-9331-407daa716652",
+    "set": {
+      "portfolioSection.pretitle": "Работы",
+      "portfolioSection.title": "Последние проекты: сайты, платформы и SEO"
+    },
+    "unset": [
+      "portfolioSection.subtitle"
+    ]
+  },
+  {
+    "section": "RU 9. Process",
+    "documentId": "9677b6b7-c228-48c6-9331-407daa716652",
+    "set": {
+      "processSection.title": "Как я работаю: от дизайна и разработки до видимости в Google и ИИ-поиске",
+      "processSection.stepItems[_key==\"2d2051fabc88\"].title": "01. Цель и объём работ",
+      "processSection.stepItems[_key==\"2d2051fabc88\"].description": "Что для вас успех, какие рынки и языки, и фиксированная цена.",
+      "processSection.stepItems[_key==\"7a17d917f7f1\"].title": "02. Аудит",
+      "processSection.stepItems[_key==\"7a17d917f7f1\"].description": "Текущий сайт, позиции и видимость в ИИ-ассистентах, а для нового проекта — разбор конкурентов.",
+      "processSection.stepItems[_key==\"9df29ff068d0\"].title": "03. Дизайн и архитектура",
+      "processSection.stepItems[_key==\"9df29ff068d0\"].description": "Дизайн интерфейса, структура страниц, адреса для каждого языка и модель CMS.",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].title": "04. Разработка с SEO внутри",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].description": "Чистый код на Next.js, микроразметка, hreflang и скорость, всё вместе.",
+      "processSection.stepItems[_key==\"320a93e9de26\"].title": "05. Запуск и измерение",
+      "processSection.stepItems[_key==\"320a93e9de26\"].description": "Заявки, конверсии, позиции и видимость в ИИ отслеживаются с первой недели.",
+      "processSection.stepItems[_key==\"5a79d4589a3f\"].title": "06. Рост",
+      "processSection.stepItems[_key==\"5a79d4589a3f\"].description": "Новые страницы, языки, рынки и GEO, когда это оправдывают цифры.",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].iconName": "code"
+    },
+    "unset": [
+      "processSection.subtitle"
+    ]
+  },
+  {
+    "section": "RU 10. Reviews",
+    "documentId": "9677b6b7-c228-48c6-9331-407daa716652",
+    "set": {
+      "reviewsSection.title": "Что говорят клиенты",
+      "reviewsSection.reviews[_key==\"b42d8219a7ee7489f26e818fbc7f10b3\"].reviewText[_key==\"8f96eb3d1bd5\"].children[_key==\"2066372c05ae0\"].text": "Работа с Александром — это был настоящий прорыв. Он создал сайт AcademGo с нуля на Next.js с серверным рендерингом, что обеспечило отличную скорость и готовность к SEO. Он продумал всё: структуру фронтенда, админку, удобное редактирование контента и мощную оптимизацию. Особенно впечатлило, как он сочетает технические знания с маркетинговым мышлением — благодаря этому сайт стал заметнее и эффективнее."
+    },
+    "unset": [
+      "reviewsSection.subtitle"
+    ]
+  },
+  {
+    "section": "RU 11. FAQ",
+    "documentId": "9677b6b7-c228-48c6-9331-407daa716652",
+    "set": {
+      "faqSection.title": "Создание и раскрутка сайтов, SEO и GEO: частые вопросы",
+      "faqSection.faq.items": [
+        {
+          "_key": "e6986e14849b",
+          "question": "Будет ли сайт приносить заявки?",
+          "answer": [
+            {
+              "_key": "c8024871d210",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "586bdde17fb9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Для этого он и делается. Дизайн, код, SEO и GEO — это средства, а цель — заявки и клиенты. В каждом проекте есть понятные предложения, короткие формы, кнопки связи там, где клиент принимает решение, и отслеживание заявок в GA4, чтобы вы видели, какие страницы и каналы приводят клиентов."
+                }
+              ]
+            },
+            {
+              "_key": "f64bfab032d2",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "c8e199352291",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Обещать цифру, не изучив ваш рынок, не может никто, но после аудита вы будете знать, на что реально рассчитывать."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "7ec8b555d5f2",
+          "question": "Сколько стоит сайт под ключ?",
+          "answer": [
+            {
+              "_key": "6bae457083a7",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "62248edec6d4",
+                  "_type": "link",
+                  "href": "/ru/ceny"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "786133ed44e2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Сайт для бизнеса стоит от 2000 €, лендинг — 700–1400 €, редизайн существующего сайта — от 1000 €. Крупные платформы с интеграциями оцениваю после короткого созвона. Когда объём работ согласован, цена фиксируется письменно до начала работы. "
+                },
+                {
+                  "_key": "b67a9ab95cff",
+                  "_type": "span",
+                  "marks": [
+                    "62248edec6d4"
+                  ],
+                  "text": "Все цены"
+                },
+                {
+                  "_key": "552d0adf4f1a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " есть на странице цен."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "7c5861650823",
+          "question": "Вы делаете дизайн сайта или нужен отдельный дизайнер?",
+          "answer": [
+            {
+              "_key": "798e6a4d19eb",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "7eb5f7dffabb",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Дизайн делаю я. Каждый проект получает индивидуальный интерфейс под ваш бизнес и ваших клиентов. Если у вас уже есть макет в Figma, верстаю точно по нему."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "eb6c7ced9b6f",
+          "question": "Что такое GEO и AEO и чем они отличаются от SEO?",
+          "answer": [
+            {
+              "_key": "9067918fe33d",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "572852b09998",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SEO выводит страницы в результаты Google. GEO, генеративная оптимизация, помогает, чтобы ваш бизнес называли и цитировали, когда ChatGPT или Perplexity пишут ответ. AEO, оптимизация под ответы, устраивает контент так, чтобы ассистенты, Google AI Overviews и ИИ-агенты могли взять с вашей страницы точный ответ."
+                }
+              ]
+            },
+            {
+              "_key": "a99f9265b611",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "7aa0a9bcd602",
+                  "_type": "link",
+                  "href": "/ru/uslugi/ai-seo-i-geo-optimizaciya"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "a43cc6f56e85",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Эти направления пересекаются, и я закладываю все три в один сайт. Подробнее на "
+                },
+                {
+                  "_key": "e96f4bc81140",
+                  "_type": "span",
+                  "marks": [
+                    "7aa0a9bcd602"
+                  ],
+                  "text": "странице о GEO и продвижении в ИИ-поиске"
+                },
+                {
+                  "_key": "a485e18d33b6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "58bc11bd095c",
+          "question": "Как попасть в ответы ИИ, чтобы ChatGPT, Perplexity, Gemini или Claude рекомендовали компанию?",
+          "answer": [
+            {
+              "_key": "bc91b2fc794f",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "f7ac1dc14aef",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Гарантировать рекомендацию не может никто. Я могу сделать ваш бизнес легко узнаваемым и проверяемым: единые данные о компании, структурированная разметка, профили в каталогах и страницы, которые отвечают на вопросы клиентов."
+                }
+              ]
+            },
+            {
+              "_key": "61e30059466f",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "155da2e25856",
+                  "_type": "link",
+                  "href": "/ru/blog/issledovanie-otvetov-ii-assistentov"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "36ff9d620a8f",
+                  "_type": "span",
+                  "marks": [
+                    "155da2e25856"
+                  ],
+                  "text": "Моё исследование 141 ответа"
+                },
+                {
+                  "_key": "6ecac28e82fe",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " показывает, на какие источники ссылаются ChatGPT, Perplexity и Google AI Mode, когда рекомендуют исполнителей."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "dfab1ec764a4",
+          "question": "Можно ли сделать редизайн сайта без потери позиций?",
+          "answer": [
+            {
+              "_key": "c04cf8172ed3",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "488f64eba973",
+                  "_type": "link",
+                  "href": "/ru/blog/redizayn-sayta-bez-poteri-trafika"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "02eaad808537",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. До любых изменений я фиксирую все адреса, редиректы и микроразметку и переношу их в новый дизайн. Трафик при редизайне чаще всего теряется из-за адресов и разметки, а не из-за самого дизайна. В "
+                },
+                {
+                  "_key": "f27381d9632d",
+                  "_type": "span",
+                  "marks": [
+                    "488f64eba973"
+                  ],
+                  "text": "чек-листе по редизайну"
+                },
+                {
+                  "_key": "15b75f9e4d2c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " — что проверить до, во время и после."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "f489b532bbc2",
+          "question": "Сколько стоит раскрутка и SEO-продвижение сайта?",
+          "answer": [
+            {
+              "_key": "e58cc14c4bc6",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "86fcc5ec2f9f",
+                  "_type": "link",
+                  "href": "/ru/ceny"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "884e004a74a3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Раскрутка сайта и SEO-продвижение — это одна и та же работа. SEO-аудит стоит от 250 €. Постоянное продвижение для компаний из сферы услуг — от 800 € в месяц, в конкурентных нишах — от 1300 € в месяц. "
+                },
+                {
+                  "_key": "99d1fa56f564",
+                  "_type": "span",
+                  "marks": [
+                    "86fcc5ec2f9f"
+                  ],
+                  "text": "Все цены"
+                },
+                {
+                  "_key": "7cb658f875de",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " есть на странице цен."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "395b00d8b10a",
+          "question": "Что входит в раскрутку и SEO-продвижение сайта?",
+          "answer": [
+            {
+              "_key": "69a258e01cef",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "a4afa1e310d1",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Технический аудит и исправление ошибок в коде, структура и тексты под реальные запросы, микроразметка, скорость, внутренние ссылки, работа с профилями компании и регулярные отчёты по Search Console и заявкам. Для сайтов на нескольких языках — ещё отдельные адреса и hreflang для каждой версии."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "6a2dc7a711e0",
+          "question": "Можно начать только с части работы, например только с SEO?",
+          "answer": [
+            {
+              "_key": "f85c581f0867",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "8e3028ea4789",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Многие клиенты начинают с одной задачи: аудита, лендинга или консультации — и расширяют сотрудничество по мере роста бизнеса."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "714ca3c62e2c",
+          "question": "Кого выбрать: фрилансера или агентство?",
+          "answer": [
+            {
+              "_key": "f992a5db7acd",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "e2ccdaf82bb6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Агентство имеет смысл, когда нужна большая команда сразу по многим каналам. Фрилансер — когда вы хотите, чтобы с вами общался тот, кто делает работу. Со мной это один человек, который проектирует, разрабатывает и продвигает, а при необходимости подключает проверенных дизайнеров или копирайтеров."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "8183e0ab5118",
+          "question": "Вы работаете с клиентами из других стран?",
+          "answer": [
+            {
+              "_key": "46aac952b734",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "1ce4ce145a30",
+                  "_type": "link",
+                  "href": "/ru/uslugi/lokacii"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "9aa0eb307a70",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Я работаю удалённо с клиентами из 12 стран, в том числе с русскоязычными компаниями, которые продвигаются в Европе, США и Великобритании. Созвоны — в рабочие часы Европы и Северной Америки, договор и счета — от зарегистрированного предпринимателя в ЕС. Отдельные страницы есть "
+                },
+                {
+                  "_key": "ddeab40a3f95",
+                  "_type": "span",
+                  "marks": [
+                    "1ce4ce145a30"
+                  ],
+                  "text": "по каждому рынку"
+                },
+                {
+                  "_key": "1c4a109534c4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "d6e2a09b65f8",
+          "question": "Сколько времени занимает создание сайта?",
+          "answer": [
+            {
+              "_key": "6d42a3b1701d",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "912e55d1a99d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Лендинг делается за одну–две недели. Сайты и платформы с CMS, несколькими языками, фильтрами и интеграциями — за три–шесть недель. Реалистичный срок вы узнаёте до начала работы."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "f88545f8a212",
+          "question": "Когда будут результаты SEO?",
+          "answer": [
+            {
+              "_key": "c1250b9b02eb",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "54add4d31543",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Технические исправления на существующем сайте часто видны в Search Console уже через несколько недель. Позиции по конкурентным запросам обычно растут три–шесть месяцев, у нового домена дольше. Какие цели реалистичны, я говорю ещё на этапе аудита."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "8dde9ec564c7",
+          "question": "Какие технологии вы используете?",
+          "answer": [
+            {
+              "_key": "4a18f94d6d62",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "16b8c7f6cfd6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Разработка: Next.js, React, TypeScript, Sanity CMS, WordPress и интеграции через API. SEO: Google Search Console, Screaming Frog, Ahrefs и schema.org. Аналитика: GA4, Google Tag Manager, Facebook Pixel и отслеживание конверсий. Для GEO — собственные проверки того, что ИИ-ассистенты отвечают о вашем рынке."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "471e67640f64",
+          "question": "Вы работаете по договору и поддерживаете сайт после запуска?",
+          "answer": [
+            {
+              "_key": "7471a09955c6",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "5d9896ea3595",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Да. Я зарегистрированный предприниматель в ЕС: заключаю договор, выставляю счета с НДС и даю закрывающие документы. После запуска могу продолжить разработку, SEO, аналитику и работу над видимостью в ИИ-поиске. Всё документируется, так что сайт можно вести и без меня."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "unset": [
+      "faqSection.subtitle"
+    ]
+  },
+  {
+    "section": "RU 13. Contact (footer, all RU pages)",
+    "documentId": "65fdd3bf-c1fc-4b17-b95d-9f87310ba44d",
+    "set": {
+      "contactsSection.title": "Расскажите о вашем проекте",
+      "contactsSection.subtitle": "Сайт, платформа, редизайн или больше заявок из Google и ИИ-поиска. Достаточно короткого описания — отвечаю в течение рабочего дня."
+    },
+    "unset": []
+  },
+  {
+    "section": "RU portfolio page meta",
+    "documentId": "61add7c6-b7b1-481c-a23a-6839dad857b8",
+    "set": {
+      "metaDescription": "Ознакомьтесь с портфолио Александра Бандюка: сайты на заказ, SEO-стратегии и цифровые решения для роста бизнеса."
+    },
+    "unset": []
+  },
+  {
+    "section": "PL 1. SEO and hero",
+    "documentId": "4cdd99bc-2e3e-4ec6-9f67-c4bb9c7f7919",
+    "set": {
+      "seo.metaTitle": "Tworzenie stron internetowych, pozycjonowanie i GEO",
+      "seo.metaDescription": "Strony na Next.js, które pozycjonują się w Google, trafiają do odpowiedzi AI i przyprowadzają klientów. Pozycjonowanie, SEO i GEO. Warszawa, od 2010 roku.",
+      "heroSection.eyebrow": "Aliaksandr Bandziuk — web developer i specjalista SEO z Warszawy, od 2010 roku",
+      "heroSection.title": "Tworzenie stron, pozycjonowanie i GEO: klienci z Google i wyszukiwarek AI",
+      "heroSection.subtitle": "Strony i platformy na Next.js zaprojektowane pod konwersję, z SEO technicznym i GEO: żeby znajdowało Cię Google, a polecali ChatGPT, Perplexity, Gemini, Claude i Google AI Overviews.",
+      "heroSection.text": "Jeden specjalista — od pierwszego projektu do pierwszego zapytania.",
+      "heroSection.facts": [
+        {
+          "_key": "fact-1",
+          "_type": "fact",
+          "label": "Doświadczenie",
+          "value": "16+ lat, od 2010 roku"
+        },
+        {
+          "_key": "fact-2",
+          "_type": "fact",
+          "label": "Projekty",
+          "value": "100+ stron i platform"
+        },
+        {
+          "_key": "fact-3",
+          "_type": "fact",
+          "label": "Klienci z",
+          "value": "12 krajów: Polska, UE, USA i inne"
+        },
+        {
+          "_key": "fact-4",
+          "_type": "fact",
+          "label": "Języki",
+          "value": "polski · angielski · rosyjski"
+        }
+      ],
+      "heroSection.heroButtons[_key==\"ac86ec09e8aa\"].label": "Zobacz realizacje",
+      "heroSection.heroButtons[_key==\"e8206441367e\"].label": "Porozmawiajmy o projekcie"
+    },
+    "unset": []
+  },
+  {
+    "section": "PL 3. About",
+    "documentId": "4cdd99bc-2e3e-4ec6-9f67-c4bb9c7f7919",
+    "set": {
+      "aboutSection.title": "Web developer, który sam projektuje stronę i sprawia, że jest widoczna",
+      "aboutSection.buttonLabel": "Skontaktuj się ze mną"
+    },
+    "unset": [
+      "aboutSection.subtitle"
+    ]
+  },
+  {
+    "section": "PL 4. Services",
+    "documentId": "4cdd99bc-2e3e-4ec6-9f67-c4bb9c7f7919",
+    "set": {
+      "servicesSection.title": "Tworzenie stron internetowych, pozycjonowanie i GEO dla wyszukiwarek AI",
+      "servicesSection.subtitle": "Trzy obszary, do których zwykle zatrudnia się trzech wykonawców, i jeden cel: więcej zapytań i klientów. Wybierz jeden obszar albo wszystkie trzy u jednego specjalisty."
+    },
+    "unset": []
+  },
+  {
+    "section": "PL 4b. Problems",
+    "documentId": "4cdd99bc-2e3e-4ec6-9f67-c4bb9c7f7919",
+    "set": {
+      "problemsSection.title": "Problemy, które rozwiązuję stronami, pozycjonowaniem i GEO",
+      "problemsSection.fullButtonLabel": "Opisz swój problem",
+      "problemsSection.problemsItems": [
+        {
+          "_key": "6073f8b342b5",
+          "iconName": "target",
+          "problem": "Strona wygląda dobrze, ale nie przynosi zapytań",
+          "solution": "Przebudowuję strukturę, oferty i formularze pod to, czego klienci naprawdę szukają, żeby odwiedziny zamieniały się w zapytania.",
+          "buttonLabel": "Mam ten sam problem"
+        },
+        {
+          "_key": "8f5a004488623d2fac51347df369131a",
+          "iconName": "gauge",
+          "problem": "Strona z kreatora: wolna i się nie pozycjonuje",
+          "solution": "Zamieniam kreator na stronę z czystym kodem: szybszą na telefonie, czytelniejszą dla wyszukiwarek i nadal łatwą w edycji.",
+          "buttonLabel": "Mam ten sam problem"
+        },
+        {
+          "_key": "7e106dc9ef1c345aae6524e8326d27b6",
+          "iconName": "search",
+          "problem": "Nie ma nas w Google",
+          "solution": "Audyt pokazuje, co blokuje pozycje, a ja naprawiam to w kodzie i treści, a nie tylko wypisuję w raporcie.",
+          "buttonLabel": "Mam ten sam problem"
+        },
+        {
+          "_key": "e855d3268a23",
+          "iconName": "sparkles",
+          "problem": "ChatGPT poleca konkurencję, a nie nas",
+          "solution": "GEO i AEO sprawiają, że asystenci łatwo rozpoznają i cytują Twoją firmę: dane o firmie, dane strukturalne, źródła i strony z gotowymi odpowiedziami.",
+          "buttonLabel": "Mam ten sam problem"
+        },
+        {
+          "_key": "33033fe61054",
+          "iconName": "message-circle",
+          "problem": "Asystenci AI piszą o firmie nieprawdę",
+          "solution": "Znajduję źródło każdego błędu, poprawiam to, co da się poprawić, i uczciwie mówię, czego się nie da.",
+          "buttonLabel": "Mam ten sam problem"
+        },
+        {
+          "_key": "8426ebe2472cc3e9aaf5e7c2e07e240c",
+          "iconName": "trending-up",
+          "problem": "SEO było robione, ale nie ma ani efektów, ani jasności",
+          "solution": "Dostajesz plan z priorytetami, zrozumiałe raporty i zmiany, które widać w Search Console.",
+          "buttonLabel": "Mam ten sam problem"
+        },
+        {
+          "_key": "d1be82ffa2f109d9ea6baebc45382174",
+          "iconName": "layout",
+          "problem": "Jest projekt w Figmie, ale nie ma programisty",
+          "solution": "Koduję go wiernie w Next.js, z CMS, wersjami językowymi i SEO od pierwszego wdrożenia.",
+          "buttonLabel": "Mam ten sam problem"
+        },
+        {
+          "_key": "29d956cbe890096a9370fb1ca5826f7d",
+          "iconName": "users",
+          "problem": "Programista zniknął, wszystko trwa i drogo kosztuje",
+          "solution": "Przejmuję projekt, dokumentuję go i prowadzę dalej: poprawki, nowe podstrony i integracje bez budowania od zera.",
+          "buttonLabel": "Mam ten sam problem"
+        }
+      ]
+    },
+    "unset": [
+      "problemsSection.subtitle"
+    ]
+  },
+  {
+    "section": "PL 7. Portfolio",
+    "documentId": "4cdd99bc-2e3e-4ec6-9f67-c4bb9c7f7919",
+    "set": {
+      "portfolioSection.pretitle": "Realizacje",
+      "portfolioSection.title": "Najnowsze projekty: strony, platformy i SEO"
+    },
+    "unset": [
+      "portfolioSection.subtitle"
+    ]
+  },
+  {
+    "section": "PL 9. Process",
+    "documentId": "4cdd99bc-2e3e-4ec6-9f67-c4bb9c7f7919",
+    "set": {
+      "processSection.title": "Jak pracuję: od projektu i budowy strony do widoczności w Google i AI",
+      "processSection.stepItems[_key==\"2d2051fabc88\"].title": "01. Cel i zakres prac",
+      "processSection.stepItems[_key==\"2d2051fabc88\"].description": "Co jest dla Ciebie sukcesem, jakie rynki i języki, oraz stała cena.",
+      "processSection.stepItems[_key==\"7a17d917f7f1\"].title": "02. Audyt",
+      "processSection.stepItems[_key==\"7a17d917f7f1\"].description": "Obecna strona, pozycje i widoczność w asystentach AI, a przy nowym projekcie analiza konkurencji.",
+      "processSection.stepItems[_key==\"9df29ff068d0\"].title": "03. Projekt i architektura",
+      "processSection.stepItems[_key==\"9df29ff068d0\"].description": "Projekt interfejsu, struktura podstron, adresy dla każdego języka i model CMS.",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].title": "04. Budowa z SEO w środku",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].description": "Czysty kod w Next.js, dane strukturalne, hreflang i szybkość, wszystko razem.",
+      "processSection.stepItems[_key==\"320a93e9de26\"].title": "05. Wdrożenie i pomiar",
+      "processSection.stepItems[_key==\"320a93e9de26\"].description": "Zapytania, konwersje, pozycje i widoczność w AI mierzone od pierwszego tygodnia.",
+      "processSection.stepItems[_key==\"5a79d4589a3f\"].title": "06. Rozwój",
+      "processSection.stepItems[_key==\"5a79d4589a3f\"].description": "Nowe podstrony, języki, rynki i GEO, kiedy uzasadniają to liczby.",
+      "processSection.stepItems[_key==\"3c24fcdf8225\"].iconName": "code"
+    },
+    "unset": [
+      "processSection.subtitle"
+    ]
+  },
+  {
+    "section": "PL 10. Reviews",
+    "documentId": "4cdd99bc-2e3e-4ec6-9f67-c4bb9c7f7919",
+    "set": {
+      "reviewsSection.title": "Co mówią klienci"
+    },
+    "unset": [
+      "reviewsSection.subtitle"
+    ]
+  },
+  {
+    "section": "PL 11. FAQ",
+    "documentId": "4cdd99bc-2e3e-4ec6-9f67-c4bb9c7f7919",
+    "set": {
+      "faqSection.title": "Tworzenie stron, pozycjonowanie i GEO: najczęstsze pytania",
+      "faqSection.faq.items": [
+        {
+          "_key": "48dee9d9507b",
+          "question": "Czy strona naprawdę przyniesie mi zapytania od klientów?",
+          "answer": [
+            {
+              "_key": "ab1a75df78fe",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "3d3e5419c5a2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Po to ją buduję. Projekt, kod, SEO i GEO to środki, a celem są zapytania i klienci. Każdy projekt ma jasne oferty, krótkie formularze, przyciski kontaktu tam, gdzie klient podejmuje decyzję, i śledzenie konwersji w GA4, żeby było widać, które podstrony i kanały przyprowadzają klientów."
+                }
+              ]
+            },
+            {
+              "_key": "daeb0270df78",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "9c7838bba44f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Nikt nie obieca konkretnej liczby bez poznania Twojego rynku, ale po audycie będziesz wiedzieć, na co realnie liczyć."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "5ad94943d7ef",
+          "question": "Ile kosztuje strona internetowa dla firmy?",
+          "answer": [
+            {
+              "_key": "0412c1f4f4eb",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "041f1ec55309",
+                  "_type": "link",
+                  "href": "/pl/cennik"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "8f43c5374b12",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Strona firmowa kosztuje od 8500 zł, landing page 3000–6000 zł, a redesign istniejącej strony od 4500 zł. Większe platformy z integracjami wyceniam po krótkiej rozmowie. Gdy zakres jest ustalony, cenę zapisuję w umowie przed rozpoczęciem pracy. "
+                },
+                {
+                  "_key": "04028dce8a5b",
+                  "_type": "span",
+                  "marks": [
+                    "041f1ec55309"
+                  ],
+                  "text": "Wszystkie ceny"
+                },
+                {
+                  "_key": "b88a6671d0f3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " są w cenniku."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "4eaacfb0d940",
+          "question": "Czy projektujesz stronę, czy potrzebuję osobnego grafika?",
+          "answer": [
+            {
+              "_key": "ef7dabc0f490",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "32c6432f7440",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Projektuję ją sam. Każdy projekt dostaje indywidualny interfejs pod Twoją firmę i Twoich klientów. Jeśli masz już projekt w Figmie, wiernie go koduję."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "a14b4879af8c",
+          "question": "Czy SEO i pozycjonowanie to to samo?",
+          "answer": [
+            {
+              "_key": "c1df2bb04967",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "618a3548a9cb",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak. Pozycjonowanie stron to polska nazwa SEO: praca nad tym, żeby strona była wyżej w Google na zapytania, które wpisują Twoi klienci. Obejmuje technikę strony, treści, dane strukturalne, szybkość i linkowanie."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "fbb17186bcce",
+          "question": "Co to jest GEO i AEO i czym różnią się od SEO?",
+          "answer": [
+            {
+              "_key": "971df1aeb28b",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "9f04b7bf7246",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SEO pozycjonuje strony w wynikach Google. GEO, optymalizacja pod generatywne wyszukiwarki, sprawia, że asystent taki jak ChatGPT czy Perplexity wymienia i cytuje Twoją firmę w odpowiedzi. AEO, optymalizacja pod odpowiedzi, porządkuje treść tak, żeby asystenci, Google AI Overviews i agenci AI mogli wziąć z Twojej strony dokładną odpowiedź."
+                }
+              ]
+            },
+            {
+              "_key": "e895898aece0",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "d9f294eb2a0a",
+                  "_type": "link",
+                  "href": "/pl/oferty/ai-seo-and-geo-optymalizacja"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "0e7c397d9f5a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Te obszary się przenikają i buduję wszystkie trzy w jednej stronie. Więcej na "
+                },
+                {
+                  "_key": "8f38cb2d8e4f",
+                  "_type": "span",
+                  "marks": [
+                    "d9f294eb2a0a"
+                  ],
+                  "text": "stronie o GEO i pozycjonowaniu w AI"
+                },
+                {
+                  "_key": "c02950d7d255",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "1db54da4da58",
+          "question": "Jak pozycjonować firmę w AI, żeby ChatGPT, Perplexity, Gemini czy Claude ją polecali?",
+          "answer": [
+            {
+              "_key": "9b3e80404631",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "77e8e2368905",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Nikt nie zagwarantuje rekomendacji. Mogę sprawić, że Twoja firma będzie łatwa do rozpoznania i sprawdzenia: spójne dane o firmie, dane strukturalne, profile w katalogach i strony, które odpowiadają na pytania klientów."
+                }
+              ]
+            },
+            {
+              "_key": "cab52c0ab579",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "8c0fcaba7d30",
+                  "_type": "link",
+                  "href": "/pl/blog/pozycjonowanie-w-ai-badanie"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "c30c05de3afb",
+                  "_type": "span",
+                  "marks": [
+                    "8c0fcaba7d30"
+                  ],
+                  "text": "Moje badanie 141 odpowiedzi"
+                },
+                {
+                  "_key": "23330988e88f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " pokazuje, na jakie źródła powołują się ChatGPT, Perplexity i Google AI Mode, gdy polecają wykonawców."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "b39561a419fa",
+          "question": "Czy możesz zrobić redesign strony bez utraty pozycji?",
+          "answer": [
+            {
+              "_key": "982771d6134f",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "3d733f191748",
+                  "_type": "link",
+                  "href": "/pl/blog/redesign-strony-bez-utraty-ruchu"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "a88944418b2f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak. Zanim cokolwiek się zmieni, spisuję wszystkie adresy, przekierowania i dane strukturalne i przenoszę je do nowego projektu. Ruch przy redesignie najczęściej ginie przez adresy i kod, a nie przez sam wygląd. W "
+                },
+                {
+                  "_key": "b9f183e831ae",
+                  "_type": "span",
+                  "marks": [
+                    "3d733f191748"
+                  ],
+                  "text": "checkliście redesignu"
+                },
+                {
+                  "_key": "4064656642a2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " jest to, co sprawdzić przed, w trakcie i po."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "3b231295d069",
+          "question": "Ile kosztuje pozycjonowanie strony miesięcznie?",
+          "answer": [
+            {
+              "_key": "82d9f0d729a5",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [
+                {
+                  "_key": "69f1ca08a0dd",
+                  "_type": "link",
+                  "href": "/pl/cennik"
+                }
+              ],
+              "children": [
+                {
+                  "_key": "0523a0453987",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Audyt SEO kosztuje od 1000 zł. Stałe pozycjonowanie dla firm usługowych kosztuje od 3500 zł miesięcznie, a w konkurencyjnych branżach od 5500 zł miesięcznie. "
+                },
+                {
+                  "_key": "dbe34c5a8dda",
+                  "_type": "span",
+                  "marks": [
+                    "69f1ca08a0dd"
+                  ],
+                  "text": "Wszystkie ceny"
+                },
+                {
+                  "_key": "533628aaf94e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " są w cenniku."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "df3c91002129",
+          "question": "Na czym polega audyt SEO?",
+          "answer": [
+            {
+              "_key": "30545eaff42a",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "44c3fd054f96",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Sprawdzam technikę strony, indeksowanie, strukturę i treści pod realne zapytania, dane strukturalne, szybkość i linkowanie wewnętrzne. Dostajesz listę problemów z priorytetami, a wybrane poprawki mogę od razu wprowadzić w kodzie."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "54ce270721e6",
+          "question": "Czy można zacząć tylko od części prac, np. od samego SEO?",
+          "answer": [
+            {
+              "_key": "f6376cbaeb3f",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "e81c4b927b9c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak. Wielu klientów zaczyna od jednego zadania: audytu, landing page’a albo konsultacji, i rozszerza współpracę, gdy firma rośnie."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "c02172daa690",
+          "question": "Agencja SEO czy freelancer: kogo wybrać?",
+          "answer": [
+            {
+              "_key": "6e2679193bf8",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "3057920f870e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Agencja ma sens, gdy potrzebujesz dużego zespołu w wielu kanałach naraz. Freelancer ma sens, gdy chcesz, żeby rozmawiała z Tobą osoba, która wykonuje pracę. U mnie to jedna osoba, która projektuje, programuje i pozycjonuje, a w razie potrzeby zaprasza sprawdzonych projektantów lub copywriterów."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "8ba13fa2573b",
+          "question": "Czy pracujesz z firmami spoza Polski?",
+          "answer": [
+            {
+              "_key": "9c9f39dcec00",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "d6318197855d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak. Pracuję z klientami z 12 krajów, w tym z Wielkiej Brytanii, USA, Kanady i Australii, a polskim firmom pomagam wejść na rynki zagraniczne. Rozmowy w godzinach pracy Europy i Ameryki Północnej, umowa i faktury z polskiej działalności gospodarczej."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "7ebbda56b74e",
+          "question": "Ile trwa stworzenie strony internetowej?",
+          "answer": [
+            {
+              "_key": "54173dff0ed6",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "61d007041895",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Landing page powstaje w jeden–dwa tygodnie. Strony i platformy z CMS, kilkoma językami, filtrami i integracjami — w trzy–sześć tygodni. Realny termin poznasz przed rozpoczęciem pracy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "da540f733537",
+          "question": "Kiedy widać efekty pozycjonowania?",
+          "answer": [
+            {
+              "_key": "1a2f6ea251ce",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "cc7d8a1943c6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Poprawki techniczne na istniejącej stronie często widać w Search Console już po kilku tygodniach. Pozycje na konkurencyjne frazy rosną zwykle trzy–sześć miesięcy, a przy nowej domenie dłużej. Już na etapie audytu mówię, które cele są realne."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "e34a74000267",
+          "question": "Jakich technologii używasz?",
+          "answer": [
+            {
+              "_key": "6032812c8f7a",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "62d6a0740d08",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tworzenie stron: Next.js, React, TypeScript, Sanity CMS, WordPress i integracje przez API. SEO: Google Search Console, Screaming Frog, Ahrefs i schema.org. Analityka: GA4, Google Tag Manager, Facebook Pixel i śledzenie konwersji. Do GEO: własne sprawdzanie, co asystenci AI odpowiadają o Twoim rynku."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "5f855ccf89d3",
+          "question": "Czy pracujesz na umowę i wspierasz stronę po wdrożeniu?",
+          "answer": [
+            {
+              "_key": "92c63bc806ab",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "f079b19d1305",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tak. Prowadzę zarejestrowaną działalność gospodarczą: podpisuję umowę i wystawiam faktury VAT. Po wdrożeniu mogę dalej rozwijać stronę, prowadzić SEO, analitykę i widoczność w AI. Wszystko dokumentuję, więc stronę możesz też prowadzić beze mnie."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "unset": [
+      "faqSection.subtitle"
+    ]
+  },
+  {
+    "section": "PL 13. Contact (footer, all PL pages)",
+    "documentId": "9a3a828f-b576-451e-bce5-01bbd1fe284a",
+    "set": {
+      "contactsSection.title": "Opowiedz mi o swoim projekcie",
+      "contactsSection.subtitle": "Strona, platforma, redesign albo więcej zapytań z Google i wyszukiwarek AI. Wystarczy krótki opis — odpowiadam w ciągu jednego dnia roboczego."
+    },
+    "unset": []
+  }
+]

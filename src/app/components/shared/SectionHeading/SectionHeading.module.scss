@@ -77,6 +77,8 @@
 .center .subtitle {
   margin-left: auto;
   margin-right: auto;
+  // centred lines look ragged with a single word left on the last one
+  text-wrap: balance;
 }
 
 // Stepped down from 20–26px: at the old size it had nearly the same visual

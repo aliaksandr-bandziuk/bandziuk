@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import Button from "../../ui/Button/Button";
 import { ModalButton } from "../../ui/Button/ModalButton";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
+import ScrambleOnView from "../../animations/ScrambleOnView/ScrambleOnView";
 
 export type Props = {
   heroSection: HeroSection;
@@ -74,7 +75,11 @@ const Hero: FC<Props> = ({ heroSection }) => {
                 {facts.map((fact) => (
                   <div key={fact._key} className={styles.fact}>
                     <dt className={styles.factLabel}>{fact.label}</dt>
-                    <dd className={styles.factValue}>{fact.value}</dd>
+                    <dd className={styles.factValue}>
+                      {/* The dd and its text stay server-rendered; the client
+                          wrapper only animates the characters inside. */}
+                      <ScrambleOnView>{fact.value}</ScrambleOnView>
+                    </dd>
                   </div>
                 ))}
               </dl>

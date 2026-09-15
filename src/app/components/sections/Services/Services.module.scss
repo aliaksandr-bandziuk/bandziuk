@@ -8,6 +8,12 @@
   align-items: center;
   gap: 16px;
   margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 5rem);
+
+  // no single orphaned word on the last line of the heading or subtitle
+  :global(h2),
+  :global(p) {
+    text-wrap: balance;
+  }
 }
 
 
@@ -82,4 +88,172 @@
   &:hover {
     color: rgba(255, 255, 255, 0.8);
   }
+}
+
+// ---- service directions (pillars) ---------------------------------------
+
+.pillars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+  }
+}
+
+// FadeInOnScroll wraps the card in its own div: stretch it so the three
+// columns share one height.
+.pillarCell {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    flex: 1 1 auto;
+  }
+}
+
+.pillar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(1.5rem, 1.1rem + 1.2vw, 2.25rem);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.pillarHead {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.pillarTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 1.05rem + 0.6vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+.pillarDescription {
+  color: var(--text-secondary);
+  line-height: 1.55;
+
+  // one line of description in one column should not push the lists out of
+  // step with the other two
+  @media screen and (min-width: 1024px) {
+    min-height: 3.1em;
+  }
+}
+
+.pillarList {
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 0;
+}
+
+.pillarItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 14px;
+  padding: 13px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pillarLink {
+  color: var(--text-primary);
+  text-decoration: none;
+  line-height: 1.4;
+  transition: color 0.2s ease;
+
+  &:is(a):hover {
+    color: var(--accent);
+  }
+}
+
+.pillarPrice {
+  flex-shrink: 0;
+  font-size: 13px;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.assistants {
+  margin-top: clamp(1.75rem, 1.25rem + 1.5vw, 2.5rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 14px;
+}
+
+.assistantsLabel {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.assistantList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+
+  li {
+    font-size: 14px;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: var(--text-reading);
+  }
+}
+
+.definitions {
+  margin: clamp(1.75rem, 1.25rem + 1.5vw, 2.5rem) 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px 32px;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.definition {
+  color: var(--text-secondary);
+  line-height: 1.6;
+
+  dt {
+    display: inline;
+    font-weight: 600;
+    color: var(--text-primary);
+
+    &::after {
+      content: ", ";
+      font-weight: 400;
+      color: var(--text-secondary);
+    }
+  }
+
+  dd {
+    display: inline;
+    margin: 0;
+  }
+}
+
+.fullLinkWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: clamp(2rem, 1.5rem + 1.5vw, 3rem);
 }

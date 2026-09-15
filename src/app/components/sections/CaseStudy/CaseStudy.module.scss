@@ -1,0 +1,166 @@
+.caseSection {
+  margin-top: clamp(3.125rem, 1.563rem + 6.25vw, 6.25rem);
+  margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 4rem);
+
+  // no single orphaned word on the last line
+  :global(h2) {
+    text-wrap: balance;
+  }
+}
+
+// ---- story and scope ----------------------------------------------------
+
+.story {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: start;
+
+  @media screen and (min-width: 980px) {
+    grid-template-columns: 1.3fr 1fr;
+    gap: 48px;
+  }
+}
+
+.storyText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.lead {
+  font-size: clamp(1.05rem, 1rem + 0.3vw, 1.2rem);
+  line-height: 1.6;
+  color: var(--text-reading);
+}
+
+.text {
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.scope {
+  padding: clamp(1.5rem, 1.1rem + 1.2vw, 2rem);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background:
+    linear-gradient(135deg, rgba(255, 138, 60, 0.1), transparent 60%),
+    rgba(255, 255, 255, 0.05);
+}
+
+.scopeLabel {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.scopeList {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  li {
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 999px;
+    background-color: rgba(255, 255, 255, 0.06);
+    color: var(--text-reading);
+  }
+}
+
+// ---- metrics ------------------------------------------------------------
+
+.metrics {
+  list-style: none;
+  margin: clamp(1.75rem, 1.25rem + 1.5vw, 2.5rem) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+
+  @media screen and (min-width: 760px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+  }
+}
+
+// FadeInOnScroll wraps the card in its own div: stretch it so the cards share
+// one height.
+.metricCell {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    flex: 1 1 auto;
+  }
+}
+
+.metric {
+  // the figure scales with the card, not only the viewport (see .metricValue)
+  container-type: inline-size;
+  height: 100%;
+  padding: clamp(1.5rem, 1.1rem + 1.2vw, 2rem);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.metricValue {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(1.8rem, 1.4rem + 1.4vw, 2.6rem);
+  // "1,500–2,000" must fit a narrow three-column card on a tablet
+  font-size: min(clamp(1.8rem, 1.4rem + 1.4vw, 2.6rem), 15cqi);
+  line-height: 1.05;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.metricLabel {
+  margin-top: 10px;
+  line-height: 1.5;
+  color: var(--text-reading);
+}
+
+// ---- note and link ------------------------------------------------------
+
+.footer {
+  margin-top: clamp(1.5rem, 1.1rem + 1.2vw, 2rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px 32px;
+}
+
+.note {
+  max-width: 700px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.link {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover {
+    color: var(--accent-strong);
+  }
+}

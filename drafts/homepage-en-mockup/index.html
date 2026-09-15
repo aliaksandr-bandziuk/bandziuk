@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup v4 — bandziuk.com homepage (EN), September 2026</title>
+<!-- Proposed <title>: Web Design, Development, SEO & GEO That Bring Leads | Bandziuk -->
+<!-- Proposed description: Websites and platforms on Next.js, found in Google and cited by AI assistants, built to bring enquiries and clients. SEO, GEO, AEO. 16+ years, 100+ projects in 12 countries. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-base: #0a0a0b; --bg-surface: #111114; --bg-elevated: #1a1a1f;
+    --border-subtle: rgba(255,255,255,.08); --border-strong: rgba(255,255,255,.16);
+    --text-primary: #fafafa; --text-secondary: #a1a1aa; --text-tertiary: #71717a; --text-reading: #d4d4d8;
+    --accent: rgb(255,138,60); --accent-strong: rgb(234,108,28); --accent-muted: rgba(255,138,60,.12);
+    --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px;
+    --font-heading: "Space Grotesk", system-ui, sans-serif;
+    --font-body: "Inter", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, monospace;
+    --note-new: #3fb950; --note-rewrite: #58a6ff; --note-moved: #d29922; --note-removed: #f85149;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg-base); color: var(--text-primary); font: 16px/1.6 var(--font-body); }
+  a { color: inherit; }
+  .container { width: 100%; max-width: 1240px; margin: 0 auto; padding-inline: clamp(16px, 4vw, 40px); }
+  section { padding-block: clamp(56px, 8vw, 110px); position: relative; }
+  section + section { border-top: 1px solid var(--border-subtle); }
+  h1, h2, h3 { font-family: var(--font-heading); font-weight: 700; margin: 0; letter-spacing: -.01em; }
+  h1 { font-size: clamp(2.3rem, 1.5rem + 3.4vw, 4.4rem); line-height: 1.05; max-width: 16em; }
+  h2 { font-size: clamp(1.8rem, 1.3rem + 1.8vw, 2.9rem); line-height: 1.12; max-width: 22em; }
+  h3 { font-size: 1.2rem; line-height: 1.3; font-weight: 500; }
+  p { margin: 0; }
+  .eyebrow { font: 500 12px/1.5 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); display: inline-block; padding: 7px 12px; border-radius: 999px; background: var(--accent-muted); }
+  .eyebrow.plain { background: none; padding: 0; }
+  .lead { color: var(--text-reading); font-size: clamp(1.05rem, 1rem + .3vw, 1.25rem); max-width: 40em; }
+  .muted { color: var(--text-secondary); }
+  .stack > * + * { margin-top: 18px; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 15px 26px; border-radius: var(--radius-sm); font-weight: 500; text-decoration: none; border: 1px solid var(--border-strong); }
+  .btn.primary { background: var(--accent); color: #0a0a0b; border-color: transparent; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  .grid { display: grid; gap: 16px; }
+  .g2 { grid-template-columns: 1fr; } .g3 { grid-template-columns: 1fr; } .g4 { grid-template-columns: 1fr 1fr; }
+  @media (min-width: 760px) { .g2 { grid-template-columns: 1fr 1fr; } .g3 { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .g3 { grid-template-columns: repeat(3, 1fr); } .g4 { grid-template-columns: repeat(4, 1fr); } }
+  .card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: clamp(20px, 2.4vw, 30px); min-width: 0; }
+  .card h3 + p { margin-top: 10px; color: var(--text-secondary); }
+  .link { color: var(--accent); text-decoration: none; font-weight: 500; display: inline-block; margin-top: 14px; }
+
+  /* change annotations */
+  .note { position: absolute; top: 18px; right: clamp(16px, 4vw, 40px); font: 600 11px/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; padding: 6px 9px; border-radius: 6px; color: #0a0a0b; z-index: 2; }
+  .note.new { background: var(--note-new); } .note.rewrite { background: var(--note-rewrite); } .note.moved { background: var(--note-moved); } .note.keep { background: #8b949e; }
+  .why { margin-top: 26px; font-size: 13px; color: var(--text-tertiary); border-left: 2px solid var(--border-strong); padding-left: 12px; max-width: 60em; }
+  .legend { position: sticky; top: 0; z-index: 20; background: rgba(10,10,11,.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border-subtle); font-size: 13px; }
+  .legend .container { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; padding-block: 10px; }
+  .legend b { font-family: var(--font-mono); font-size: 11px; padding: 4px 7px; border-radius: 5px; color: #0a0a0b; }
+  .legend label { margin-left: auto; color: var(--text-secondary); cursor: pointer; }
+  body.clean .note, body.clean .why, body.clean .removed { display: none; }
+
+  /* hero */
+  .hero { min-height: min(92vh, 880px); display: flex; flex-direction: column; }
+  .hero .container { flex: 1; display: flex; flex-direction: column; }
+  .hero-main { margin-top: clamp(24px, 6vh, 90px); margin-bottom: 48px; }
+  .hero h1 { margin-top: 22px; }
+  .hero .lead { margin-top: 22px; }
+  .facts { margin-top: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); overflow: hidden; }
+  @media (min-width: 760px) { .facts { grid-template-columns: repeat(4, 1fr); } }
+  .fact { background: var(--bg-base); padding: 18px 20px; }
+  .fact .v { font: 700 clamp(1.5rem, 1.2rem + 1vw, 2.1rem)/1.1 var(--font-heading); }
+  .fact .l { font-size: 13px; color: var(--text-secondary); margin-top: 6px; }
+
+  /* proof */
+  .study { display: grid; gap: 24px; grid-template-columns: 1fr; align-items: center; background: linear-gradient(135deg, rgba(255,138,60,.10), transparent 60%), var(--bg-surface); }
+  @media (min-width: 900px) { .study { grid-template-columns: 1.3fr 1fr; } }
+  .bars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; align-items: end; height: 150px; }
+  .bar { border-radius: 6px 6px 0 0; background: var(--accent); position: relative; }
+  .bar.cool { background: #3987e5; }
+  .bar span { position: absolute; top: -26px; left: 0; right: 0; text-align: center; font: 700 18px var(--font-heading); }
+  .bar em { position: absolute; bottom: -22px; left: 0; right: 0; text-align: center; font-style: normal; font-size: 11px; color: var(--text-secondary); }
+  .profiles { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+  .profiles span { font-size: 14px; padding: 9px 14px; border: 1px solid var(--border-strong); border-radius: 999px; color: var(--text-reading); }
+  blockquote { margin: 0; }
+  .quote p { color: var(--text-reading); font-size: 1.05rem; }
+  .quote footer { margin-top: 14px; font-size: 13px; color: var(--text-secondary); }
+
+  /* about */
+  .about { display: grid; gap: 40px; grid-template-columns: 1fr; }
+  @media (min-width: 960px) { .about { grid-template-columns: 1fr 1.2fr; } }
+  .portrait { aspect-ratio: 4/5; max-width: 100%; border-radius: var(--radius-lg); background: repeating-linear-gradient(135deg, #16161a 0 14px, #121215 14px 28px); border: 1px solid var(--border-subtle); display: grid; place-items: center; color: var(--text-tertiary); font-size: 13px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tags span { font-size: 13px; padding: 6px 11px; border-radius: 999px; background: var(--bg-elevated); color: var(--text-secondary); }
+
+  /* case */
+  .metrics { display: grid; gap: 16px; grid-template-columns: 1fr; margin-top: 30px; }
+  @media (min-width: 760px) { .metrics { grid-template-columns: repeat(3, 1fr); } }
+  .metric .v { font: 700 clamp(1.8rem, 1.4rem + 1.4vw, 2.6rem)/1.05 var(--font-heading); color: var(--accent); }
+  .metric .l { margin-top: 8px; color: var(--text-reading); }
+
+  /* compare */
+  .compare { width: 100%; border-collapse: collapse; min-width: 640px; }
+  .compare th, .compare td { text-align: left; padding: 16px 18px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; }
+  .compare th { font: 500 12px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--text-tertiary); }
+  .compare td:first-child { color: var(--text-secondary); width: 22%; }
+  .compare td:last-child { color: var(--text-primary); background: var(--accent-muted); }
+  .scroll { overflow-x: auto; margin-top: 30px; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); }
+
+  /* process */
+  .step .n { font: 500 13px var(--font-mono); color: var(--accent); }
+  .step h3 { margin-top: 8px; }
+
+  /* faq */
+  details { border-bottom: 1px solid var(--border-subtle); padding: 18px 0; }
+  details summary { cursor: pointer; font: 500 1.08rem/1.4 var(--font-heading); list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+  details summary::after { content: "+"; color: var(--accent); font-size: 1.4rem; line-height: 1; }
+  details[open] summary::after { content: "–"; }
+  details p { color: var(--text-reading); margin-top: 12px; max-width: 52em; }
+  .faq { max-width: 980px; margin-top: 30px; }
+  .faq .tag-new { font: 600 10px var(--font-mono); color: var(--note-new); margin-left: 8px; vertical-align: middle; }
+  body.clean .faq .tag-new { display: none; }
+
+  /* pricing */
+  .price .n { color: var(--text-secondary); min-height: 2.8em; }
+  .price .v { font: 700 2rem/1.1 var(--font-heading); margin-top: 12px; }
+  .price .u { color: var(--accent); font-size: 14px; margin-top: 8px; }
+
+  .removed { background: repeating-linear-gradient(135deg, rgba(248,81,73,.06) 0 12px, transparent 12px 24px); }
+  .removed .inner { border: 1px dashed rgba(248,81,73,.5); border-radius: var(--radius-md); padding: 24px; color: var(--text-secondary); }
+  .center { text-align: center; } .center h2, .center .lead { margin-inline: auto; }
+
+  /* v2: service directions */
+  .pillars { display: grid; gap: 16px; grid-template-columns: 1fr; margin-top: 34px; }
+  @media (min-width: 1000px) { .pillars { grid-template-columns: repeat(3, 1fr); } }
+  .pillar { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: clamp(22px, 2.4vw, 30px); display: flex; flex-direction: column; min-width: 0; }
+  .pillar-head .pn { font: 500 13px var(--font-mono); color: var(--accent); }
+  .pillar-head h3 { font-size: 1.45rem; font-weight: 700; margin-top: 8px; }
+  .pillar-head p { color: var(--text-secondary); margin-top: 6px; min-height: 3.2em; }
+  .pillar ul { list-style: none; margin: 18px 0 0; padding: 0; }
+  .pillar li { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 12px 0; border-top: 1px solid var(--border-subtle); }
+  .pillar li a { text-decoration: none; color: var(--text-primary); }
+  .pillar li a:hover { color: var(--accent); }
+  .pillar li span { flex-shrink: 0; font-size: 13px; color: var(--accent); white-space: nowrap; }
+  .assistants { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: 26px; }
+  .chip { font-size: 14px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--border-strong); color: var(--text-reading); }
+  .defs { margin-top: 22px; }
+  .defs p { color: var(--text-secondary); font-size: 15px; }
+  .defs b { color: var(--text-primary); font-family: var(--font-mono); font-weight: 500; }
+  .craft .v { font: 700 clamp(1.3rem, 1.1rem + .8vw, 1.8rem)/1.1 var(--font-heading); color: var(--accent); margin-bottom: 14px; }
+  .btn.small { padding: 10px 16px; font-size: 14px; margin-top: 16px; }
+  .problem h3 { font-size: 1.15rem; }
+  .problem p { margin-top: 10px; color: var(--text-secondary); }
+</style>
+</head>
+<body>
+
+<div class="legend">
+  <div class="container">
+    <span><b style="background:var(--note-new)">NEW</b> new section</span>
+    <span><b style="background:var(--note-rewrite)">REWRITTEN</b> same section, new copy</span>
+    <span><b style="background:var(--note-moved)">MOVED</b> moved higher</span>
+    <span><b style="background:#8b949e">KEEP</b> unchanged</span>
+    <label><input type="checkbox" onchange="document.body.classList.toggle('clean', this.checked)"> hide notes</label>
+  </div>
+</div>
+
+<!-- 1. HERO -->
+<section class="hero">
+  <span class="note rewrite">Rewritten</span>
+  <div class="container">
+    <div class="hero-main">
+      <span class="eyebrow">Aliaksandr Bandziuk · web developer, SEO &amp; GEO specialist · since 2010</span>
+      <h1>Web design, development, SEO and GEO that bring you leads</h1>
+      <p class="lead">Custom websites and platforms on Next.js that rank in Google, get cited by ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews, and turn that attention into enquiries and clients. One specialist, from the first design to your first lead.</p>
+      <div class="actions">
+        <a class="btn primary" href="#">Discuss your project</a>
+        <a class="btn" href="#">See the work</a>
+      </div>
+    </div>
+    <div class="facts">
+      <div class="fact"><div class="v">16+ years</div><div class="l">designing and building since 2010</div></div>
+      <div class="fact"><div class="v">100+</div><div class="l">websites and platforms delivered</div></div>
+      <div class="fact"><div class="v">12 countries</div><div class="l">UK, US, Canada, Australia, EU</div></div>
+      <div class="fact"><div class="v">EN · PL · RU</div><div class="l">working languages</div></div>
+    </div>
+    <p class="why">The goal is named in the H1: leads. Still an offer rather than “I do…”, 10 words, and it keeps the searched terms: web design (880 UK / 1,900 US for “web design and development”), SEO and GEO. Alternatives: “Websites with SEO and GEO that bring in clients” · “Web design and development with SEO and GEO built in”.</p>
+  </div>
+</section>
+
+<!-- 2. PROOF -->
+<section>
+  <span class="note new">New · moved up</span>
+  <div class="container">
+    <span class="eyebrow">Proof</span>
+    <h2 style="margin-top:18px">Research, verified profiles and what clients say</h2>
+    <div class="grid" style="margin-top:34px">
+      <div class="card study">
+        <div class="stack">
+          <span class="eyebrow plain">Original research</span>
+          <h3 style="font-size:1.5rem">141 AI assistant answers, every source counted</h3>
+          <p class="muted">I put 47 buying questions to ChatGPT, Perplexity and Google AI Mode and classified every citation behind the answers. The study shows which websites assistants actually read, and why most businesses never get named.</p>
+          <a class="link" href="#">Read the study →</a>
+        </div>
+        <div class="bars" aria-label="Citations per answer">
+          <div class="bar" style="height:100%"><span>16.7</span><em>Perplexity</em></div>
+          <div class="bar cool" style="height:22%"><span>3.7</span><em>AI Mode</em></div>
+          <div class="bar cool" style="height:10%"><span>1.6</span><em>ChatGPT</em></div>
+        </div>
+      </div>
+    </div>
+    <div class="profiles">
+      <span>DesignRush</span><span>Sortlist</span><span>The Manifest</span><span>Wikidata</span><span>LinkedIn</span>
+    </div>
+    <div class="grid g3" style="margin-top:22px">
+      <blockquote class="card quote">
+        <p>“The site ranks well, loads instantly, and consistently brings in high-quality leads.”</p>
+        <footer>Head of marketing, premium real estate agency · Cyprus</footer>
+      </blockquote>
+      <blockquote class="card quote">
+        <p>“The site loads instantly, looks beautiful on phones, and converts visitors into paying students.”</p>
+        <footer>CEO, professional training business · Poland</footer>
+      </blockquote>
+      <blockquote class="card quote">
+        <p>“What impressed me most was how he combines technical depth with marketing awareness, optimizing the site’s structure, Schema markup, and speed in ways that clearly impact visibility.”</p>
+        <footer>Supervisor, education platform · Poland</footer>
+      </blockquote>
+    </div>
+    <p class="why">Two of three quotes now speak about results a buyer cares about: leads and paying customers. All three are verbatim from existing, published testimonials, attributed by role and country only.</p>
+  </div>
+</section>
+
+<!-- 3. ABOUT -->
+<section>
+  <span class="note rewrite">Rewritten</span>
+  <div class="container about">
+    <div class="portrait">portrait photo</div>
+    <div class="stack">
+      <span class="eyebrow">About</span>
+      <h2>A web developer who designs the site and makes it visible</h2>
+      <p class="lead">I’m Aliaksandr Bandziuk. Since 2010 I have designed and built more than 100 websites and platforms, from landing pages to multilingual real estate platforms with custom CMS, CRM and payment integrations, for businesses in Poland, the US, the UK, Canada, Australia, Germany, France, Italy, Switzerland, Cyprus, Lithuania and Kazakhstan.</p>
+      <p class="muted">Design, code and search visibility are one job to me, not three contracts. Most ranking problems are created in the build: slow templates, one URL for three languages, markup no search engine or AI assistant can read. When the same person designs the interface, writes the code and answers for visibility, those decisions are made once and made right.</p>
+      <p class="muted">I’m based in Warsaw and work as a registered EU business, with contracts and VAT invoices, remotely for clients in European and North American time zones.</p>
+      <div class="tags">
+        <span>Real estate</span><span>Construction</span><span>Automotive</span><span>Law</span><span>Healthcare</span><span>Psychology</span><span>Renovation</span><span>Education</span><span>Beauty</span><span>E-commerce</span><span>Online services</span><span>Crypto</span><span>Modelling</span>
+      </div>
+      <div class="actions" style="margin-top:12px"><a class="btn" href="#">Contact me</a></div>
+    </div>
+  </div>
+  <div class="container"><p class="why">Leads with building, as the business does: design, platforms, integrations. SEO and AI visibility follow as part of the same job, not a separate trade.</p></div>
+</section>
+
+<!-- 4. SERVICES -->
+<section>
+  <span class="note rewrite">Rebuilt: three directions</span>
+  <div class="container">
+    <span class="eyebrow">Services</span>
+    <h2 style="margin-top:18px">Web design and development, SEO and AI search services</h2>
+    <p class="lead" style="margin-top:14px">Three directions that usually need three contractors, with one goal: more enquiries and clients. Take one, or all three from the same person.</p>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar-head"><span class="pn">01</span><h3>Design &amp; development</h3><p>Websites and platforms designed to turn visitors into enquiries</p></div>
+        <ul>
+          <li><a href="#">Websites and platforms on Next.js</a><span>from €2,000</span></li>
+          <li><a href="#">Multilingual websites</a><span>from €2,000</span></li>
+          <li><a href="#">Website redesign without losing rankings</a><span>from €1,000</span></li>
+          <li><a href="#">Landing pages</a><span>€700–1,400</span></li>
+          <li><a href="#">CMS &amp; API integration</a><span>from €500</span></li>
+          <li><a href="#">Performance &amp; code audits</a></li>
+        </ul>
+      </div>
+      <div class="pillar">
+        <div class="pillar-head"><span class="pn">02</span><h3>SEO</h3><p>Traffic from Google, in every market and language, that converts</p></div>
+        <ul>
+          <li><a href="#">SEO strategy and ongoing SEO</a><span>from €800 / mo</span></li>
+          <li><a href="#">SEO audit</a><span>from €250</span></li>
+          <li><a href="#">Technical SEO</a></li>
+          <li><a href="#">International &amp; multilingual SEO</a></li>
+          <li><a href="#">Local SEO</a></li>
+          <li><a href="#">Traffic drop recovery</a></li>
+        </ul>
+      </div>
+      <div class="pillar">
+        <div class="pillar-head"><span class="pn">03</span><h3>AI search: GEO &amp; AEO</h3><p>Be the business AI assistants name when buyers ask who to hire</p></div>
+        <ul>
+          <li><a href="#">GEO: generative engine optimisation</a></li>
+          <li><a href="#">AEO: answer engine optimisation</a></li>
+          <li><a href="#">AI visibility audit</a><span>from €250</span></li>
+          <li><a href="#">Preparing your site for AI search and AI agents</a><span>from €800</span></li>
+          <li><a href="#">AI brand monitoring</a></li>
+          <li><a href="#">Fixing wrong information in AI answers</a><span>from €800</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="assistants">
+      <span class="muted">Optimised for</span>
+      <span class="chip">ChatGPT</span><span class="chip">Perplexity</span><span class="chip">Google AI Overviews &amp; AI Mode</span><span class="chip">Gemini</span><span class="chip">Claude</span><span class="chip">Copilot</span>
+    </div>
+    <div class="grid g2 defs">
+      <p><b>GEO</b>, generative engine optimisation: getting your business named and cited when an assistant writes an answer about your market.</p>
+      <p><b>AEO</b>, answer engine optimisation: structuring your pages so assistants, AI Overviews and AI agents can lift the exact answer and trust its source.</p>
+    </div>
+    <p class="why">Version 1 had six equal SEO-leaning cards. Now three directions with every live service page linked and prices where the price list has them. Search demand behind each: website redesign services 1,300 / 6,600 (KD 10), custom web application development 50 / 390 (KD 4); technical SEO services 480 / 2,400; AI SEO services 390 / 1,300 (KD 2), AEO agency 170 / 590 (KD 1), SEO for ChatGPT 40 / 320. The redesign and AEO lines point to pages that still need to be created or extended.</p>
+  </div>
+</section>
+
+<!-- 4b. PROBLEMS -->
+<section>
+  <span class="note rewrite">Kept · copy reworked · design unchanged</span>
+  <div class="container">
+    <span class="eyebrow">Solutions</span>
+    <h2 style="margin-top:18px">Problems I solve with websites, SEO and AI search</h2>
+    <div class="grid g2" style="margin-top:30px">
+      <div class="card problem"><h3>“The site looks fine but brings no leads”</h3><p>I rebuild the structure, offers and forms around what buyers actually search for, so visits turn into enquiries.</p><a class="btn small" href="#">I have the same problem</a></div>
+      <div class="card problem"><h3>“It was built on a page builder: slow, and it doesn’t rank”</h3><p>A custom-coded site replaces the builder: faster on mobile, cleaner for search engines, still easy for your team to edit.</p><a class="btn small" href="#">I have the same problem</a></div>
+      <div class="card problem"><h3>“We’re invisible in Google”</h3><p>An audit finds what blocks rankings, and I fix it in the code and content, not just list it in a report.</p><a class="btn small" href="#">I have the same problem</a></div>
+      <div class="card problem"><h3>“ChatGPT recommends our competitors, not us”</h3><p>GEO and AEO work makes your business easy for assistants to identify and quote: entity data, structured markup, sources and answer-ready pages.</p><a class="btn small" href="#">I have the same problem</a></div>
+      <div class="card problem"><h3>“AI assistants describe our company wrongly”</h3><p>I trace each wrong claim to its source, correct what can be corrected, and tell you plainly what can’t.</p><a class="btn small" href="#">I have the same problem</a></div>
+      <div class="card problem"><h3>“SEO was done, but there’s no clarity or results”</h3><p>You get a plan with priorities, reporting in plain language and changes you can see in Search Console.</p><a class="btn small" href="#">I have the same problem</a></div>
+      <div class="card problem"><h3>“We have a Figma design but no developer to build it”</h3><p>I build it pixel-accurately on Next.js, with the CMS, languages and SEO set up from the first release.</p><a class="btn small" href="#">I have the same problem</a></div>
+      <div class="card problem"><h3>“Our developer is slow, expensive or gone”</h3><p>I take over the codebase, document it and keep it moving: fixes, new pages and integrations without starting from scratch.</p><a class="btn small" href="#">I have the same problem</a></div>
+    </div>
+    <div class="actions" style="justify-content:center"><a class="btn primary" href="#">Describe your problem</a></div>
+    <p class="why">Kept at the owner’s request. The current sticky-stack card animation stays as it is; only the texts change in Sanity. Changes: the H2 names the three directions; two AI problems replace the overlapping “worked with freelancers” and “no SEO, analytics or funnel” cards; each solution names a concrete deliverable; the button reads “I have the same problem” (was “I have same problem”).</p>
+  </div>
+</section>
+
+<!-- 5. DESIGN & CODE -->
+<section>
+  <span class="note new">New</span>
+  <div class="container">
+    <span class="eyebrow">Design &amp; code</span>
+    <h2 style="margin-top:18px">Custom design and clean code, built to convert</h2>
+    <div class="grid g4 craft" style="margin-top:34px">
+      <div class="card"><div class="v">Custom</div><h3>Design, not templates</h3><p>Every interface is designed for the business and its buyers. No page builders, no themes stretched to fit, or a pixel-accurate build from your Figma.</p></div>
+      <div class="card"><div class="v">Next.js + Sanity</div><h3>Clean code your team can edit</h3><p>Server-rendered Next.js and TypeScript, with a Sanity CMS your team uses to manage pages, languages and content.</p></div>
+      <div class="card"><div class="v">96 · 98 · 100 · 100</div><h3>Lighthouse on a recent build</h3><p>Performance, accessibility, best practices and SEO, measured on a live renovation and investment website.</p></div>
+      <div class="card"><div class="v">Leads</div><h3>Built for enquiries</h3><p>Clear offers, short forms, call and WhatsApp buttons where buyers decide, and conversion tracking in GA4 so you see which pages bring clients.</p></div>
+    </div>
+    <p class="why">Design and code are shown as the means, leads as the end. Each card is a claim a buyer can check. The Lighthouse figures are the ones already published in the portfolio.</p>
+  </div>
+</section>
+
+<!-- 6. CASE STUDY -->
+<section>
+  <span class="note new">New</span>
+  <div class="container">
+    <span class="eyebrow">Case study</span>
+    <h2 style="margin-top:18px">A premium real estate platform, designed, built and grown from zero</h2>
+    <div class="grid g2" style="margin-top:30px">
+      <div class="stack">
+        <p class="lead">A luxury real estate agency in Cyprus, with no website and no search presence, selling to buyers who expect the site to look and work like the properties it offers.</p>
+        <p class="muted">I designed the interface, planned the platform and its content structure in Sanity, built the multilingual front end in Next.js, and set up technical SEO, structured data and lead capture from the first release. The business existed offline; online it started from nothing.</p>
+      </div>
+      <div class="card stack">
+        <span class="eyebrow plain">Full cycle</span>
+        <p class="muted">UI design · platform architecture · Sanity CMS · multilingual Next.js front end · property search · technical SEO · structured data · lead forms</p>
+      </div>
+    </div>
+    <div class="metrics">
+      <div class="card metric"><div class="v">1,500–2,000</div><div class="l">unique visitors a month within the first year</div></div>
+      <div class="card metric"><div class="v">~10</div><div class="l">enquiries every week</div></div>
+      <div class="card metric"><div class="v">From zero</div><div class="l">no site, no traffic, no listings before</div></div>
+    </div>
+    <p class="muted" style="margin-top:18px">In the premium segment, where one enquiry can be a high-value sale, that is a strong result.</p>
+    <div class="actions"><a class="btn" href="#">See more projects</a></div>
+    <p class="why">Presented as a full-cycle project (design, platform, SEO) rather than an SEO result. The client is not named, as agreed.</p>
+  </div>
+</section>
+
+<!-- 7. PORTFOLIO -->
+<section>
+  <span class="note rewrite">Heading only</span>
+  <div class="container">
+    <span class="eyebrow">Work</span>
+    <h2 style="margin-top:18px">Recent projects: websites, platforms and SEO</h2>
+    <div class="grid g2" style="margin-top:30px">
+      <div class="card"><div class="portrait" style="aspect-ratio:16/10">project cover</div><h3 style="margin-top:16px">Renovation and investment website with a premium feel and 96/98/100/100 performance</h3></div>
+      <div class="card"><div class="portrait" style="aspect-ratio:16/10">project cover</div><h3 style="margin-top:16px">A residency-by-investment guide covering five jurisdictions</h3></div>
+    </div>
+    <div class="actions"><a class="btn" href="#">View all projects</a></div>
+  </div>
+</section>
+
+<!-- 8. FREELANCER VS AGENCY -->
+<section>
+  <span class="note new">New</span>
+  <div class="container">
+    <span class="eyebrow">Freelancer or agency</span>
+    <h2 style="margin-top:18px">One developer and search specialist, or an agency: what changes for you</h2>
+    <div class="scroll">
+      <table class="compare">
+        <thead><tr><th></th><th>Typical agency</th><th>Working with me</th></tr></thead>
+        <tbody>
+          <tr><td>Design, code and SEO</td><td>Three departments or three contractors, with hand-offs between them</td><td>One person, so decisions are made once and made with visibility in mind</td></tr>
+          <tr><td>Who you talk to</td><td>An account manager relaying to a team</td><td>The person designing, coding and optimising</td></tr>
+          <tr><td>What you pay for</td><td>The work, plus overhead and margins</td><td>The work itself. Prices are public before we talk</td></tr>
+          <tr><td>Accountability</td><td>Split between design, development and SEO</td><td>One person answers for the site and its visibility</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted" style="margin-top:18px;max-width:52em">The trade-off is capacity. I take on a small number of projects at a time and bring in trusted designers, writers or developers when a platform needs more hands.</p>
+  </div>
+</section>
+
+<!-- 9. PROCESS -->
+<section>
+  <span class="note keep">Keep design &amp; animation · text only</span>
+  <div class="container">
+    <span class="eyebrow">Process</span>
+    <h2 style="margin-top:18px">How I work: from design and build to visibility in Google and AI search</h2>
+    <div class="card" style="margin-top:30px">
+      <p class="muted">The current Work Process section stays exactly as it is, with its scroll animation. Only the heading and step texts in Sanity change:</p>
+      <div class="grid g3" style="margin-top:22px">
+        <div class="step"><div class="n">01</div><h3>Goal and scope</h3><p class="muted">What success means for you, which markets and languages, and a fixed price.</p></div>
+        <div class="step"><div class="n">02</div><h3>Audit</h3><p class="muted">Your current site, rankings and visibility in AI assistants, or a competitor review for a new build.</p></div>
+        <div class="step"><div class="n">03</div><h3>Design and architecture</h3><p class="muted">Interface design, page structure, URLs per language and the CMS model.</p></div>
+        <div class="step"><div class="n">04</div><h3>Build with SEO inside</h3><p class="muted">Clean Next.js code, structured data, hreflang and speed, done together.</p></div>
+        <div class="step"><div class="n">05</div><h3>Launch and measure</h3><p class="muted">Enquiries, conversions, rankings and AI visibility, tracked from the first week.</p></div>
+        <div class="step"><div class="n">06</div><h3>Grow</h3><p class="muted">New pages, languages, markets and GEO work when the numbers justify them.</p></div>
+      </div>
+    </div>
+    <p class="why">Was “Our Proven Development &amp; SEO”: agency voice and no design step. Still six steps, so the animation needs no change.</p>
+  </div>
+</section>
+
+<!-- 10. REVIEWS -->
+<section>
+  <span class="note keep">Keep</span>
+  <div class="container">
+    <span class="eyebrow">Testimonials</span>
+    <h2 style="margin-top:18px">What clients say</h2>
+    <div class="card quote" style="margin-top:30px"><p>(existing reviews slider, unchanged)</p></div>
+  </div>
+</section>
+
+<!-- 11. FAQ -->
+<section>
+  <span class="note rewrite">Expanded</span>
+  <div class="container">
+    <span class="eyebrow">FAQ</span>
+    <h2 style="margin-top:18px">Web development, SEO and AI search: questions clients ask</h2>
+    <div class="faq">
+      <details open><summary>Will the website actually bring me leads?<span class="tag-new">NEW</span></summary><p>That is what it is built for. Design, code, SEO and GEO are the means; enquiries and clients are the point. Every project gets clear offers, short forms, contact buttons where buyers decide and conversion tracking, so you can see which pages and channels bring leads. No one can promise a number before seeing your market, but you will know from the audit what is realistic.</p></details>
+      <details><summary>How much does a website or platform cost?</summary><p>A business website starts from €2,000 and a landing page costs €700–1,400. A redesign of an existing site starts from €1,000. Larger platforms with custom integrations are quoted after a short call, and every price is fixed in writing before work starts.</p></details>
+      <details><summary>Do you design the website too, or do I need a designer?<span class="tag-new">NEW</span></summary><p>I design it. Every project gets a custom interface built for your business and buyers. If you already have a design in Figma, I build it pixel-accurately instead.</p></details>
+      <details><summary>What are GEO and AEO, and how are they different from SEO?<span class="tag-new">NEW</span></summary><p>SEO gets your pages ranked in Google’s results. GEO, generative engine optimisation, gets your business named and cited when an assistant such as ChatGPT or Perplexity writes an answer. AEO, answer engine optimisation, structures your content so assistants, Google AI Overviews and AI agents can take the exact answer from your page. They overlap, and I build all three into the same site.</p></details>
+      <details><summary>Can you get my business recommended by ChatGPT, Perplexity, Gemini or Claude?<span class="tag-new">NEW</span></summary><p>No one can guarantee a recommendation. What I can do is make your business easy to identify and verify: consistent entity data, structured markup, directory profiles and pages that answer the questions buyers actually ask. My research on 141 AI answers shows which of those signals each assistant relies on.</p></details>
+      <details><summary>Can you redesign my website without losing rankings?<span class="tag-new">NEW</span></summary><p>Yes. Before anything changes I map every URL, redirect and piece of structured data, then carry them into the new design. Most traffic lost in a redesign is lost through URLs and markup, not through the design itself.</p></details>
+      <details><summary>How much does SEO cost?</summary><p>An SEO audit starts from €250. Ongoing SEO for a service business starts from €800 a month, and from €1,300 in competitive industries. All prices are on the pricing page.</p></details>
+      <details><summary>Should I hire a freelancer or an agency?<span class="tag-new">NEW</span></summary><p>An agency makes sense when you need a large team across many channels at once. A freelancer makes sense when you want the person you talk to be the one doing the work. With me, that person designs, builds and optimises, so nothing is lost between departments.</p></details>
+      <details><summary>Do you work with clients in the UK, the US and elsewhere?<span class="tag-new">NEW</span></summary><p>Yes. I work remotely with clients in 12 countries, including the UK, the US, Canada and Australia. Calls fit European and North American business hours, and contracts and invoices come from my registered EU business.</p></details>
+      <details><summary>How long does it take to build a website?</summary><p>A landing page takes one to three weeks, a business website two to four. Platforms with a CMS, several languages and integrations take longer, and you get a realistic date before work starts.</p></details>
+      <details><summary>How long does SEO take to show results?<span class="tag-new">NEW</span></summary><p>Technical fixes on an existing site often show in Search Console within weeks. Rankings for competitive terms usually take three to six months, and longer for a new domain. I will tell you at the audit stage which goals are realistic.</p></details>
+      <details><summary>What technologies do you use?</summary><p>Next.js, React, TypeScript, Sanity and WordPress for design and development; Google Search Console, Screaming Frog, Ahrefs and schema.org for SEO; GA4 and Google Tag Manager for tracking; my own AI visibility checks for GEO.</p></details>
+      <details><summary>Do you provide contracts, invoices and support after launch?</summary><p>Yes. I work as a registered sole proprietor in the EU, with contracts and VAT invoices, and offer ongoing development, SEO and AI visibility work after launch. Everything is documented, so you can also take the site over yourself.</p></details>
+    </div>
+    <p class="why">Rebalanced across the three directions: cost of a build, design, redesign, GEO and AEO explained, assistants by name, plus the questions from search demand.</p>
+  </div>
+</section>
+
+<!-- 12. PRICING -->
+<section>
+  <span class="note keep">Keep</span>
+  <div class="container center">
+    <span class="eyebrow">Pricing</span>
+    <h2 style="margin-top:18px">Prices you can see before we talk</h2>
+    <div class="grid g4" style="margin-top:34px;text-align:left">
+      <div class="card price"><div class="n">Business website</div><div class="v">from €2,000</div><div class="u">one-off</div></div>
+      <div class="card price"><div class="n">Simple landing page</div><div class="v">€700–1,400</div><div class="u">one-off</div></div>
+      <div class="card price"><div class="n">SEO audit</div><div class="v">from €250</div><div class="u">one-off</div></div>
+      <div class="card price"><div class="n">SEO for service businesses</div><div class="v">from €800</div><div class="u">per month</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 13. CONTACT -->
+<section>
+  <span class="note rewrite">Heading only</span>
+  <div class="container center">
+    <span class="eyebrow">Contact</span>
+    <h2 style="margin-top:18px">Tell me about your project</h2>
+    <p class="lead" style="margin-top:14px">A website, a platform, a redesign or more leads from Google and AI search. A short description is enough; I reply within one business day.</p>
+  </div>
+</section>
+
+</body>
+</html>

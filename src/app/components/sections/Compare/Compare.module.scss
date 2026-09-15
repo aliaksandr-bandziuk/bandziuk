@@ -1,0 +1,154 @@
+.compareSection {
+  margin-top: clamp(3.125rem, 1.563rem + 6.25vw, 6.25rem);
+  margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 4rem);
+
+  // no single orphaned word on the last line
+  :global(h2) {
+    text-wrap: balance;
+  }
+}
+
+// The visible H2 already names the table; the caption is for screen readers.
+.caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+
+  th,
+  td {
+    text-align: left;
+    vertical-align: top;
+    padding: 20px 24px;
+    line-height: 1.55;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  tbody tr:last-child > * {
+    border-bottom: 0;
+  }
+
+  thead th {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+  }
+}
+
+.meColumn {
+  color: var(--accent) !important;
+  background-color: rgba(255, 138, 60, 0.08);
+}
+
+.criterion {
+  width: 22%;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.agency {
+  color: var(--text-secondary);
+}
+
+.me {
+  color: var(--text-primary);
+  background-color: rgba(255, 138, 60, 0.08);
+}
+
+// ---- phone: one card per row -------------------------------------------
+
+@media screen and (max-width: 767px) {
+  .table {
+    border: 0;
+    background: none;
+    border-radius: 0;
+    overflow: visible;
+
+    thead {
+      display: none;
+    }
+
+    tbody {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    tr {
+      display: block;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      background-color: rgba(255, 255, 255, 0.05);
+      overflow: hidden;
+    }
+
+    th,
+    td {
+      display: block;
+      width: auto;
+      padding: 14px 20px;
+    }
+
+    // repeats the last row too, which the desktop rule leaves without lines
+    tbody tr > *,
+    tbody tr:last-child > * {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    tbody tr > *:last-child,
+    tbody tr:last-child > *:last-child {
+      border-bottom: 0;
+    }
+
+    td::before {
+      content: attr(data-label);
+      display: block;
+      margin-bottom: 4px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+    }
+  }
+
+  .criterion {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+  }
+
+  .me::before {
+    color: var(--accent) !important;
+  }
+}
+
+.note {
+  max-width: 760px;
+  margin: clamp(1.5rem, 1.1rem + 1.2vw, 2rem) auto 0;
+  text-align: center;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}

@@ -24,6 +24,10 @@ import Reviews from "../components/sections/Reviews/Reviews";
 import Contacts from "../components/sections/Contacts/Contacts";
 import FaqHomepage from "../components/sections/FaqHomepage/FaqHomepage";
 import PricingHomepage from "../components/sections/PricingHomepage/PricingHomepage";
+import Proof from "../components/sections/Proof/Proof";
+import DesignCode from "../components/sections/DesignCode/DesignCode";
+import CaseStudy from "../components/sections/CaseStudy/CaseStudy";
+import Compare from "../components/sections/Compare/Compare";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -116,13 +120,17 @@ export default async function Home({ params }: Props) {
       <Header params={params} translations={translations} />
       <main>
         <Hero heroSection={homePage?.heroSection} />
+        <Proof proofSection={homePage?.proofSection} />
         <About aboutSection={homePage?.aboutSection} />
         <Services servicesSection={homePage?.servicesSection} />
         <Problems problemsSection={homePage?.problemsSection} />
+        <DesignCode designSection={homePage?.designSection} />
+        <CaseStudy caseSection={homePage?.caseSection} />
         <Portfolio
           portfolioSection={homePage?.portfolioSection}
           lang={params.lang}
         />
+        <Compare compareSection={homePage?.compareSection} />
         <WorkProcess processSection={homePage?.processSection} />
         <Reviews reviews={homePage?.reviewsSection} />
         <FaqHomepage faqSection={homePage?.faqSection} />

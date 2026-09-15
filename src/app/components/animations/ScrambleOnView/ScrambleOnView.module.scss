@@ -1,0 +1,5 @@
+// Equal-width digits: a scrambling "16" is as wide as the settled one. Letters
+// are swapped for letters of the same case, which keeps word widths close.
+.scramble {
+  font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup — bandziuk.com homepage (EN), September 2026</title>
+<!-- Proposed <title>: SEO Consultant & Web Developer | Aliaksandr Bandziuk -->
+<!-- Proposed description: Freelance SEO consultant and web developer since 2010. 100+ projects in 12 countries: multilingual Next.js websites, technical and international SEO, AI search. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-base: #0a0a0b; --bg-surface: #111114; --bg-elevated: #1a1a1f;
+    --border-subtle: rgba(255,255,255,.08); --border-strong: rgba(255,255,255,.16);
+    --text-primary: #fafafa; --text-secondary: #a1a1aa; --text-tertiary: #71717a; --text-reading: #d4d4d8;
+    --accent: rgb(255,138,60); --accent-strong: rgb(234,108,28); --accent-muted: rgba(255,138,60,.12);
+    --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px;
+    --font-heading: "Space Grotesk", system-ui, sans-serif;
+    --font-body: "Inter", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, monospace;
+    --note-new: #3fb950; --note-rewrite: #58a6ff; --note-moved: #d29922; --note-removed: #f85149;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg-base); color: var(--text-primary); font: 16px/1.6 var(--font-body); }
+  a { color: inherit; }
+  .container { width: 100%; max-width: 1240px; margin: 0 auto; padding-inline: clamp(16px, 4vw, 40px); }
+  section { padding-block: clamp(56px, 8vw, 110px); position: relative; }
+  section + section { border-top: 1px solid var(--border-subtle); }
+  h1, h2, h3 { font-family: var(--font-heading); font-weight: 700; margin: 0; letter-spacing: -.01em; }
+  h1 { font-size: clamp(2.3rem, 1.5rem + 3.4vw, 4.4rem); line-height: 1.05; max-width: 16em; }
+  h2 { font-size: clamp(1.8rem, 1.3rem + 1.8vw, 2.9rem); line-height: 1.12; max-width: 22em; }
+  h3 { font-size: 1.2rem; line-height: 1.3; font-weight: 500; }
+  p { margin: 0; }
+  .eyebrow { font: 500 12px/1.5 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); display: inline-block; padding: 7px 12px; border-radius: 999px; background: var(--accent-muted); }
+  .eyebrow.plain { background: none; padding: 0; }
+  .lead { color: var(--text-reading); font-size: clamp(1.05rem, 1rem + .3vw, 1.25rem); max-width: 40em; }
+  .muted { color: var(--text-secondary); }
+  .stack > * + * { margin-top: 18px; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 15px 26px; border-radius: var(--radius-sm); font-weight: 500; text-decoration: none; border: 1px solid var(--border-strong); }
+  .btn.primary { background: var(--accent); color: #0a0a0b; border-color: transparent; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  .grid { display: grid; gap: 16px; }
+  .g2 { grid-template-columns: 1fr; } .g3 { grid-template-columns: 1fr; } .g4 { grid-template-columns: 1fr 1fr; }
+  @media (min-width: 760px) { .g2 { grid-template-columns: 1fr 1fr; } .g3 { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1080px) { .g3 { grid-template-columns: repeat(3, 1fr); } .g4 { grid-template-columns: repeat(4, 1fr); } }
+  .card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: clamp(20px, 2.4vw, 30px); min-width: 0; }
+  .card h3 + p { margin-top: 10px; color: var(--text-secondary); }
+  .link { color: var(--accent); text-decoration: none; font-weight: 500; display: inline-block; margin-top: 14px; }
+
+  /* change annotations */
+  .note { position: absolute; top: 18px; right: clamp(16px, 4vw, 40px); font: 600 11px/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; padding: 6px 9px; border-radius: 6px; color: #0a0a0b; z-index: 2; }
+  .note.new { background: var(--note-new); } .note.rewrite { background: var(--note-rewrite); } .note.moved { background: var(--note-moved); } .note.keep { background: #8b949e; }
+  .why { margin-top: 26px; font-size: 13px; color: var(--text-tertiary); border-left: 2px solid var(--border-strong); padding-left: 12px; max-width: 60em; }
+  .legend { position: sticky; top: 0; z-index: 20; background: rgba(10,10,11,.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border-subtle); font-size: 13px; }
+  .legend .container { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; padding-block: 10px; }
+  .legend b { font-family: var(--font-mono); font-size: 11px; padding: 4px 7px; border-radius: 5px; color: #0a0a0b; }
+  .legend label { margin-left: auto; color: var(--text-secondary); cursor: pointer; }
+  body.clean .note, body.clean .why, body.clean .removed { display: none; }
+
+  /* hero */
+  .hero { min-height: min(92vh, 880px); display: flex; flex-direction: column; }
+  .hero .container { flex: 1; display: flex; flex-direction: column; }
+  .hero-main { margin-top: clamp(24px, 6vh, 90px); margin-bottom: 48px; }
+  .hero h1 { margin-top: 22px; }
+  .hero .lead { margin-top: 22px; }
+  .facts { margin-top: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); overflow: hidden; }
+  @media (min-width: 760px) { .facts { grid-template-columns: repeat(4, 1fr); } }
+  .fact { background: var(--bg-base); padding: 18px 20px; }
+  .fact .v { font: 700 clamp(1.5rem, 1.2rem + 1vw, 2.1rem)/1.1 var(--font-heading); }
+  .fact .l { font-size: 13px; color: var(--text-secondary); margin-top: 6px; }
+
+  /* proof */
+  .study { display: grid; gap: 24px; grid-template-columns: 1fr; align-items: center; background: linear-gradient(135deg, rgba(255,138,60,.10), transparent 60%), var(--bg-surface); }
+  @media (min-width: 900px) { .study { grid-template-columns: 1.3fr 1fr; } }
+  .bars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; align-items: end; height: 150px; }
+  .bar { border-radius: 6px 6px 0 0; background: var(--accent); position: relative; }
+  .bar.cool { background: #3987e5; }
+  .bar span { position: absolute; top: -26px; left: 0; right: 0; text-align: center; font: 700 18px var(--font-heading); }
+  .bar em { position: absolute; bottom: -22px; left: 0; right: 0; text-align: center; font-style: normal; font-size: 11px; color: var(--text-secondary); }
+  .profiles { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+  .profiles span { font-size: 14px; padding: 9px 14px; border: 1px solid var(--border-strong); border-radius: 999px; color: var(--text-reading); }
+  blockquote { margin: 0; }
+  .quote p { color: var(--text-reading); font-size: 1.05rem; }
+  .quote footer { margin-top: 14px; font-size: 13px; color: var(--text-secondary); }
+
+  /* about */
+  .about { display: grid; gap: 40px; grid-template-columns: 1fr; }
+  @media (min-width: 960px) { .about { grid-template-columns: 1fr 1.2fr; } }
+  .portrait { aspect-ratio: 4/5; max-width: 100%; border-radius: var(--radius-lg); background: repeating-linear-gradient(135deg, #16161a 0 14px, #121215 14px 28px); border: 1px solid var(--border-subtle); display: grid; place-items: center; color: var(--text-tertiary); font-size: 13px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tags span { font-size: 13px; padding: 6px 11px; border-radius: 999px; background: var(--bg-elevated); color: var(--text-secondary); }
+
+  /* case */
+  .metrics { display: grid; gap: 16px; grid-template-columns: 1fr; margin-top: 30px; }
+  @media (min-width: 760px) { .metrics { grid-template-columns: repeat(3, 1fr); } }
+  .metric .v { font: 700 clamp(1.8rem, 1.4rem + 1.4vw, 2.6rem)/1.05 var(--font-heading); color: var(--accent); }
+  .metric .l { margin-top: 8px; color: var(--text-reading); }
+
+  /* compare */
+  .compare { width: 100%; border-collapse: collapse; min-width: 640px; }
+  .compare th, .compare td { text-align: left; padding: 16px 18px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; }
+  .compare th { font: 500 12px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--text-tertiary); }
+  .compare td:first-child { color: var(--text-secondary); width: 22%; }
+  .compare td:last-child { color: var(--text-primary); background: var(--accent-muted); }
+  .scroll { overflow-x: auto; margin-top: 30px; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); }
+
+  /* process */
+  .step .n { font: 500 13px var(--font-mono); color: var(--accent); }
+  .step h3 { margin-top: 8px; }
+
+  /* faq */
+  details { border-bottom: 1px solid var(--border-subtle); padding: 18px 0; }
+  details summary { cursor: pointer; font: 500 1.08rem/1.4 var(--font-heading); list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+  details summary::after { content: "+"; color: var(--accent); font-size: 1.4rem; line-height: 1; }
+  details[open] summary::after { content: "–"; }
+  details p { color: var(--text-reading); margin-top: 12px; max-width: 52em; }
+  .faq { max-width: 980px; margin-top: 30px; }
+  .faq .tag-new { font: 600 10px var(--font-mono); color: var(--note-new); margin-left: 8px; vertical-align: middle; }
+  body.clean .faq .tag-new { display: none; }
+
+  /* pricing */
+  .price .n { color: var(--text-secondary); min-height: 2.8em; }
+  .price .v { font: 700 2rem/1.1 var(--font-heading); margin-top: 12px; }
+  .price .u { color: var(--accent); font-size: 14px; margin-top: 8px; }
+
+  .removed { background: repeating-linear-gradient(135deg, rgba(248,81,73,.06) 0 12px, transparent 12px 24px); }
+  .removed .inner { border: 1px dashed rgba(248,81,73,.5); border-radius: var(--radius-md); padding: 24px; color: var(--text-secondary); }
+  .center { text-align: center; } .center h2, .center .lead { margin-inline: auto; }
+</style>
+</head>
+<body>
+
+<div class="legend">
+  <div class="container">
+    <span><b style="background:var(--note-new)">NEW</b> new section</span>
+    <span><b style="background:var(--note-rewrite)">REWRITTEN</b> same section, new copy</span>
+    <span><b style="background:var(--note-moved)">MOVED</b> moved higher</span>
+    <span><b style="background:#8b949e">KEEP</b> unchanged</span>
+    <label><input type="checkbox" onchange="document.body.classList.toggle('clean', this.checked)"> hide notes</label>
+  </div>
+</div>
+
+<!-- 1. HERO -->
+<section class="hero">
+  <span class="note rewrite">Rewritten</span>
+  <div class="container">
+    <div class="hero-main">
+      <span class="eyebrow">Aliaksandr Bandziuk · SEO consultant &amp; web developer since 2010</span>
+      <h1>SEO consultant who builds your website too</h1>
+      <p class="lead">Multilingual websites on Next.js with technical SEO and AI search visibility built in, for businesses that sell in more than one country or language. You work with the person who writes the code and runs the SEO: no agency layer, no hand-offs.</p>
+      <div class="actions">
+        <a class="btn primary" href="#">Request a free SEO audit</a>
+        <a class="btn" href="#">See the work</a>
+      </div>
+    </div>
+    <div class="facts">
+      <div class="fact"><div class="v">16+ years</div><div class="l">building websites since 2010</div></div>
+      <div class="fact"><div class="v">100+</div><div class="l">projects delivered</div></div>
+      <div class="fact"><div class="v">12 countries</div><div class="l">UK, US, Canada, Australia, EU</div></div>
+      <div class="fact"><div class="v">EN · PL · RU</div><div class="l">working languages</div></div>
+    </div>
+    <p class="why">H1 now carries “SEO consultant”, the term people search (SEO consultant: 2,900 UK + 8,100 US a month; freelance SEO consultant: 1,300 UK). Every ranking competitor states experience in figures on the first screen; the fact strip swaps “Stack / Reply time” for years, projects and countries.</p>
+  </div>
+</section>
+
+<!-- 2. PROOF -->
+<section>
+  <span class="note new">New · moved up</span>
+  <div class="container">
+    <span class="eyebrow">Proof</span>
+    <h2 style="margin-top:18px">Research, verified profiles and what clients say</h2>
+    <div class="grid" style="margin-top:34px">
+      <div class="card study">
+        <div class="stack">
+          <span class="eyebrow plain">Original research</span>
+          <h3 style="font-size:1.5rem">141 AI assistant answers, every source counted</h3>
+          <p class="muted">I put 47 buying questions to ChatGPT, Perplexity and Google AI Mode and classified every citation behind the answers. The study shows which websites assistants actually read, and why most businesses never get named.</p>
+          <a class="link" href="#">Read the study →</a>
+        </div>
+        <div class="bars" aria-label="Citations per answer">
+          <div class="bar" style="height:100%"><span>16.7</span><em>Perplexity</em></div>
+          <div class="bar cool" style="height:22%"><span>3.7</span><em>AI Mode</em></div>
+          <div class="bar cool" style="height:10%"><span>1.6</span><em>ChatGPT</em></div>
+        </div>
+      </div>
+    </div>
+    <div class="profiles">
+      <span>DesignRush</span><span>Sortlist</span><span>The Manifest</span><span>Wikidata</span><span>LinkedIn</span>
+    </div>
+    <div class="grid g2" style="margin-top:22px">
+      <blockquote class="card quote">
+        <p>“He combines technical depth with marketing awareness, optimizing the site’s structure, Schema markup, and speed in ways that clearly impact visibility.”</p>
+        <footer>Supervisor, education platform · Poland</footer>
+      </blockquote>
+      <blockquote class="card quote">
+        <p>“He integrated an interactive coverage map, connected real-time data from our CRM, and made the entire site scalable and easy to manage.”</p>
+        <footer>CEO, telecom company · United States</footer>
+      </blockquote>
+    </div>
+    <p class="why">Ranking competitors put proof straight after the first screen: “as featured on”, client logos, reviews. Here reviews were the second-to-last section. The study is a credential none of the eight competitors has. Quotes are from existing, published testimonials, attributed by role and country only.</p>
+  </div>
+</section>
+
+<!-- 3. ABOUT -->
+<section>
+  <span class="note rewrite">Rewritten</span>
+  <div class="container about">
+    <div class="portrait">portrait photo</div>
+    <div class="stack">
+      <span class="eyebrow">About</span>
+      <h2>An SEO consultant who writes the code</h2>
+      <p class="lead">I’m Aliaksandr Bandziuk. I’ve been building websites since 2010 and doing SEO on the sites I build for most of that time: more than 100 projects for businesses in Poland, the US, the UK, Canada, Australia, Germany, France, Italy, Switzerland, Cyprus, Lithuania and Kazakhstan.</p>
+      <p class="muted">Most SEO problems start in the build: slow templates, one URL for three languages, markup no search engine can read. When the same person makes the technical decisions and answers for the rankings, nothing gets lost between a developer and an agency.</p>
+      <p class="muted">I’m based in Warsaw and work as a registered EU business, with contracts and VAT invoices, remotely for clients in European and North American time zones.</p>
+      <div class="tags">
+        <span>Real estate</span><span>Construction</span><span>Automotive</span><span>Law</span><span>Healthcare</span><span>Psychology</span><span>Renovation</span><span>Education</span><span>Beauty</span><span>E-commerce</span><span>Online services</span><span>Crypto</span><span>Modelling</span>
+      </div>
+      <div class="actions" style="margin-top:12px"><a class="btn" href="#">Contact me</a></div>
+    </div>
+  </div>
+  <div class="container"><p class="why">Was 36 words of general claims (“help businesses grow online… smart content structure”). Facts are what both a buyer and an AI assistant can repeat: since 2010, 100+ projects, 12 countries, Warsaw, EU business, industries.</p></div>
+</section>
+
+<!-- 4. SERVICES -->
+<section>
+  <span class="note rewrite">Rewritten headings</span>
+  <div class="container">
+    <span class="eyebrow">Services</span>
+    <h2 style="margin-top:18px">SEO consulting and web development services</h2>
+    <p class="lead" style="margin-top:14px">Six services, each a separate piece of work with its own scope and price.</p>
+    <div class="grid g3" style="margin-top:34px">
+      <div class="card"><h3>Technical SEO consulting</h3><p>Audits, crawlability, structured data, hreflang and Core Web Vitals, fixed in the code rather than listed in a report.</p><a class="link" href="#">Technical SEO →</a></div>
+      <div class="card"><h3>International &amp; multilingual SEO</h3><p>A separate URL for each language, correct hreflang, localised metadata and content that ranks in every market you sell in.</p><a class="link" href="#">International SEO →</a></div>
+      <div class="card"><h3>AI search optimisation (GEO)</h3><p>Entity data, structured markup and source work that help ChatGPT, Perplexity and Google AI Mode identify and name your business.</p><a class="link" href="#">AI search →</a></div>
+      <div class="card"><h3>SEO-ready website development</h3><p>Custom websites on Next.js, Sanity or WordPress: fast on mobile and built so search engines read them correctly from day one.</p><a class="link" href="#">Website development →</a></div>
+      <div class="card"><h3>Website performance &amp; code audits</h3><p>For slow or page-builder sites: what is costing you speed and rankings, and what to fix first.</p><a class="link" href="#">Performance audit →</a></div>
+      <div class="card"><h3>CMS &amp; API integration</h3><p>Headless CMS, CRM, payments and notifications connected, so enquiries and orders flow without manual work.</p><a class="link" href="#">Integrations →</a></div>
+    </div>
+    <p class="why">“My Special Services / For Your Business Growth” carried no search term. Card headings now match the clusters people search (technical SEO services 2,400 US; international SEO consultant 260 + 260; AI SEO consultant 90 + 260) and link to the page that targets each one. “Landing pages” moves to the website development page.</p>
+  </div>
+</section>
+
+<!-- 5. CASE STUDY -->
+<section>
+  <span class="note new">New</span>
+  <div class="container">
+    <span class="eyebrow">Case study</span>
+    <h2 style="margin-top:18px">A premium real estate business built online from zero</h2>
+    <div class="grid g2" style="margin-top:30px">
+      <div class="stack">
+        <p class="lead">A luxury real estate agency in Cyprus, with no website and no search presence, selling to buyers who expect the site to look and work like the properties it offers.</p>
+        <p class="muted">I planned the platform and its content structure in Sanity, built the multilingual front end in Next.js, and set up technical SEO, structured data and lead capture from the first release. Nothing was added on later: the site was designed to be found.</p>
+      </div>
+      <div class="card stack">
+        <span class="eyebrow plain">Scope</span>
+        <p class="muted">Platform architecture · CMS · multilingual Next.js front end · technical SEO · structured data · lead forms</p>
+      </div>
+    </div>
+    <div class="metrics">
+      <div class="card metric"><div class="v">1,500–2,000</div><div class="l">unique visitors a month within the first year</div></div>
+      <div class="card metric"><div class="v">~10</div><div class="l">enquiries every week</div></div>
+      <div class="card metric"><div class="v">From zero</div><div class="l">no site, no traffic, no listings before</div></div>
+    </div>
+    <p class="muted" style="margin-top:18px">In the premium segment, where one enquiry can be a high-value sale, that is a strong result.</p>
+    <div class="actions"><a class="btn" href="#">See more projects</a></div>
+    <p class="why">Every strong competitor shows one result with a number on the homepage (“142% increase in enquiries”, “£10m in sales”). The client is not named, as agreed.</p>
+  </div>
+</section>
+
+<!-- 6. PORTFOLIO -->
+<section>
+  <span class="note rewrite">Heading only</span>
+  <div class="container">
+    <span class="eyebrow">Work</span>
+    <h2 style="margin-top:18px">Recent projects: multilingual websites and SEO</h2>
+    <div class="grid g2" style="margin-top:30px">
+      <div class="card"><div class="portrait" style="aspect-ratio:16/10">project cover</div><h3 style="margin-top:16px">A multilingual landing page for a wheel and tyre storage business</h3></div>
+      <div class="card"><div class="portrait" style="aspect-ratio:16/10">project cover</div><h3 style="margin-top:16px">A residency-by-investment guide covering five jurisdictions</h3></div>
+    </div>
+    <div class="actions"><a class="btn" href="#">View all projects</a></div>
+    <p class="why">Section unchanged; “The Portfolio Speaks For Myself” replaced with a heading that says what the projects are.</p>
+  </div>
+</section>
+
+<!-- 7. FREELANCER VS AGENCY -->
+<section>
+  <span class="note new">New</span>
+  <div class="container">
+    <span class="eyebrow">Freelancer or agency</span>
+    <h2 style="margin-top:18px">Freelance SEO consultant or agency: what changes for you</h2>
+    <div class="scroll">
+      <table class="compare">
+        <thead><tr><th></th><th>Typical agency</th><th>Working with me</th></tr></thead>
+        <tbody>
+          <tr><td>Who does the work</td><td>An account manager, then a team you rarely speak to</td><td>The person you talk to writes the code and runs the SEO</td></tr>
+          <tr><td>What you pay for</td><td>The work, plus team overhead and margins</td><td>The work itself. Prices are public before we talk</td></tr>
+          <tr><td>Speed of changes</td><td>Tickets and hand-offs between departments</td><td>One person decides and ships</td></tr>
+          <tr><td>Accountability</td><td>Split between developers and the SEO team</td><td>One person answers for the site and its rankings</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted" style="margin-top:18px;max-width:52em">The trade-off is capacity. I take on a small number of projects at a time and bring in trusted designers or writers when a project needs them.</p>
+    <p class="why">The main doubt a buyer has about hiring one person. One of the top UK consultants dedicates a section to it; the site already has a blog post on it and gets impressions for “should I use a freelancer or an agency for my website?”.</p>
+  </div>
+</section>
+
+<!-- 8. PROCESS -->
+<section>
+  <span class="note rewrite">Rewritten heading</span>
+  <div class="container">
+    <span class="eyebrow">Process</span>
+    <h2 style="margin-top:18px">How I work: from SEO audit to launch and growth</h2>
+    <div class="grid g3" style="margin-top:30px">
+      <div class="card step"><div class="n">01</div><h3>Understanding the goal</h3><p class="muted">What success means for you: more leads, a new market, a faster site.</p></div>
+      <div class="card step"><div class="n">02</div><h3>Auditing what’s there</h3><p class="muted">What works, what’s missing, what holds rankings back.</p></div>
+      <div class="card step"><div class="n">03</div><h3>Building the strategy</h3><p class="muted">A plan with priorities, scope and a fixed price.</p></div>
+      <div class="card step"><div class="n">04</div><h3>Implementation</h3><p class="muted">Code, content structure and SEO, done together.</p></div>
+      <div class="card step"><div class="n">05</div><h3>Measuring and optimising</h3><p class="muted">Search Console, analytics and AI visibility checks.</p></div>
+      <div class="card step"><div class="n">06</div><h3>Growing further</h3><p class="muted">New pages, markets and languages when the numbers justify them.</p></div>
+    </div>
+    <p class="why">“Our Proven Development &amp; SEO” spoke as an agency on a page that says “no agency”. Steps stay; the heading gets the term and the first person.</p>
+  </div>
+</section>
+
+<!-- 9. REVIEWS -->
+<section>
+  <span class="note keep">Keep</span>
+  <div class="container">
+    <span class="eyebrow">Testimonials</span>
+    <h2 style="margin-top:18px">What clients say</h2>
+    <div class="card quote" style="margin-top:30px"><p>(existing reviews slider, unchanged)</p></div>
+  </div>
+</section>
+
+<!-- 10. FAQ -->
+<section>
+  <span class="note rewrite">Expanded</span>
+  <div class="container">
+    <span class="eyebrow">FAQ</span>
+    <h2 style="margin-top:18px">SEO consulting and web development: questions clients ask</h2>
+    <div class="faq">
+      <details open><summary>How much does an SEO consultant cost?<span class="tag-new">NEW</span></summary><p>An SEO audit starts from €250. Ongoing SEO for a service business starts from €800 a month, and from €1,300 in competitive industries. A business website starts from €2,000. Every figure is on the pricing page, and your final price is fixed in writing before work starts.</p></details>
+      <details><summary>Should I hire a freelance SEO consultant or an agency?<span class="tag-new">NEW</span></summary><p>An agency makes sense when you need a large team across many channels at once. A freelance consultant makes sense when you want the person you talk to be the one doing the work, with no margin for layers in between. With me, that person also builds the website, so technical SEO problems are fixed in the code rather than passed between teams.</p></details>
+      <details><summary>Do you work with clients in the UK, the US and elsewhere?<span class="tag-new">NEW</span></summary><p>Yes. I work remotely with clients in 12 countries, including the UK, the US, Canada and Australia. Calls fit European and North American business hours, and contracts and invoices come from my registered EU business.</p></details>
+      <details><summary>How long does SEO take to show results?<span class="tag-new">NEW</span></summary><p>Technical fixes on an existing site often show in Search Console within weeks. Rankings for competitive terms usually take three to six months, and longer for a new domain. I will tell you at the audit stage which of your goals are realistic and which are not.</p></details>
+      <details><summary>Can you get my business recommended by ChatGPT and other AI assistants?<span class="tag-new">NEW</span></summary><p>No one can guarantee a recommendation. What I can do is make your business easy to identify and verify: consistent entity data, structured markup, directory profiles and pages that answer the questions buyers actually ask. My research on 141 AI answers shows which of those signals matter for each assistant.</p></details>
+      <details><summary>What is international SEO, and does my multilingual site need it?<span class="tag-new">NEW</span></summary><p>International SEO makes each language or country version of your site rank in its own market: a separate URL per language, correct hreflang, localised titles and content, and no duplicate pages competing with each other. If you sell in more than one language, you need it, and it is far cheaper to build in than to fix later.</p></details>
+      <details><summary>Why have one person build the website and do the SEO?<span class="tag-new">NEW</span></summary><p>Because most SEO problems are created during the build: page structure, URLs, language versions, speed and markup. When the developer and the SEO consultant are the same person, those decisions are made once and made with rankings in mind.</p></details>
+      <details><summary>How long does it take to build a website?</summary><p>A landing page takes one to three weeks, a business website two to four. Larger projects with a CMS, several languages and filtering take longer, and you get a realistic date before work starts.</p></details>
+      <details><summary>Can I start with an SEO audit or a consultation only?</summary><p>Yes. Many clients start with an audit or a one-off consultation and decide on further work afterwards.</p></details>
+      <details><summary>Do you provide contracts and invoices?</summary><p>Yes. I work as a registered sole proprietor in the EU, with contracts and VAT invoices.</p></details>
+      <details><summary>What technologies do you use?</summary><p>Next.js, React, Sanity and WordPress for development; Google Search Console, Screaming Frog, Ahrefs and schema.org for SEO; GA4 and Google Tag Manager for tracking.</p></details>
+      <details><summary>Do you offer support after launch?</summary><p>Yes: ongoing SEO, analytics and improvements. Everything is documented, so you can also take the site over yourself.</p></details>
+    </div>
+    <p class="why">From 8 to 12 questions, answers written out (the section showed questions only). New questions come from search demand and from what buyers ask assistants. “Are you an agency or a freelancer?” is replaced by the fuller freelancer-or-agency answer; “consultation only” is merged into the audit question. Build times aligned with the pricing page (landing 1–3 weeks, site 2–4).</p>
+  </div>
+</section>
+
+<!-- 11. PRICING -->
+<section>
+  <span class="note keep">Keep</span>
+  <div class="container center">
+    <span class="eyebrow">Pricing</span>
+    <h2 style="margin-top:18px">Prices you can see before we talk</h2>
+    <div class="grid g4" style="margin-top:34px;text-align:left">
+      <div class="card price"><div class="n">Business website</div><div class="v">from €2,000</div><div class="u">one-off</div></div>
+      <div class="card price"><div class="n">Simple landing page</div><div class="v">€700–1,400</div><div class="u">one-off</div></div>
+      <div class="card price"><div class="n">SEO audit</div><div class="v">from €250</div><div class="u">one-off</div></div>
+      <div class="card price"><div class="n">SEO for service businesses</div><div class="v">from €800</div><div class="u">per month</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 12. CONTACT -->
+<section>
+  <span class="note rewrite">Heading only</span>
+  <div class="container center">
+    <span class="eyebrow">Contact</span>
+    <h2 style="margin-top:18px">Tell me about your project</h2>
+    <p class="lead" style="margin-top:14px">A short description is enough. I reply within one business day.</p>
+    <p class="why" style="text-align:left;margin-inline:auto">“Let’s Elevate Your Business / Get In Touch Today!” replaced. The form itself stays.</p>
+  </div>
+</section>
+
+<!-- REMOVED -->
+<section class="removed">
+  <div class="container">
+    <div class="inner">
+      <span class="note" style="background:var(--note-removed)">Removed</span>
+      <h3>“Problems I Solve” — 8 problem cards, 220 words</h3>
+      <p style="margin-top:10px">Duplicates the services section in a different wording and pushes proof further down. Its strongest points move into the About text and the FAQ. If you would rather keep it, it can stay as four cards below the process section.</p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

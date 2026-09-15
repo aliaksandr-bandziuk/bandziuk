@@ -122,6 +122,9 @@ export type AboutSection = {
   title: string;
   subtitle: string;
   description: string;
+  /** Replaces description when present; the first one renders as the lead. */
+  paragraphs?: string[];
+  industries?: string[];
   buttonLabel: string;
   image: ImageAlt;
 };
@@ -139,6 +142,14 @@ export type ServiceItem = {
   linkDestination?: string;
 };
 
+export type ServicePillar = {
+  _key: string;
+  iconName?: string;
+  title: string;
+  description?: string;
+  items?: { _key: string; label: string; link?: string; price?: string }[];
+};
+
 export type ServicesSection = {
   _key: string;
   _type: "servicesSection";
@@ -146,6 +157,11 @@ export type ServicesSection = {
   title: string;
   subtitle: string;
   serviceItems: ServiceItem[];
+  /** Replaces serviceItems when present. */
+  pillars?: ServicePillar[];
+  assistantsLabel?: string;
+  assistants?: string[];
+  definitions?: { _key: string; term: string; text: string }[];
   fullLink: {
     _key: string;
     _type: "fullLink";
@@ -265,6 +281,66 @@ export type FaqSection = {
   faq: AccordionBlock;
 };
 // ====== End FAQ Section =====
+
+// ====== Proof Section =====
+export type ProofSection = {
+  pretitle?: string;
+  title?: string;
+  study?: {
+    kicker?: string;
+    title?: string;
+    text?: string;
+    linkLabel?: string;
+    link?: string;
+    chartLabel?: string;
+    stats?: { _key: string; label: string; value: string }[];
+  };
+  profiles?: { _key: string; label: string; url: string }[];
+  quotes?: { _key: string; text: string; name?: string; attribution: string }[];
+};
+// ====== End Proof Section =====
+
+// ====== Design & Code Section =====
+export type DesignSection = {
+  pretitle?: string;
+  title?: string;
+  cards?: {
+    _key: string;
+    value?: string;
+    title: string;
+    text?: string;
+    linkLabel?: string;
+    link?: string;
+  }[];
+};
+// ====== End Design & Code Section =====
+
+// ====== Case Study Section =====
+export type CaseSection = {
+  pretitle?: string;
+  title?: string;
+  lead?: string;
+  text?: string;
+  scopeLabel?: string;
+  scope?: string[];
+  metrics?: { _key: string; value: string; label: string }[];
+  note?: string;
+  linkLabel?: string;
+  link?: string;
+};
+// ====== End Case Study Section =====
+
+// ====== Freelancer vs Agency Section =====
+export type CompareSection = {
+  pretitle?: string;
+  title?: string;
+  criterionLabel?: string;
+  agencyLabel?: string;
+  meLabel?: string;
+  rows?: { _key: string; criterion: string; agency: string; me: string }[];
+  note?: string;
+};
+// ====== End Freelancer vs Agency Section =====
 
 // ====== Pricing Section =====
 export type PricingSection = {
@@ -397,6 +473,10 @@ export type Homepage = {
   processSection: ProcessSection;
   reviewsSection: ReviewsSection;
   faqSection: FaqSection;
+  proofSection?: ProofSection;
+  designSection?: DesignSection;
+  caseSection?: CaseSection;
+  compareSection?: CompareSection;
   pricingSection?: PricingSection;
   contactsSection: ContactsSection;
   language: string;

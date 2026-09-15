@@ -1,0 +1,98 @@
+.designSection {
+  margin-top: clamp(3.125rem, 1.563rem + 6.25vw, 6.25rem);
+  margin-bottom: clamp(4.375rem, 1.875rem + 10vw, 9.375rem);
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: clamp(2.5rem, 1.25rem + 5vw, 4rem);
+
+  // no single orphaned word on the last line
+  :global(h2) {
+    text-wrap: balance;
+  }
+}
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+
+  @media screen and (min-width: 640px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media screen and (min-width: 1100px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+  }
+}
+
+// FadeInOnScroll wraps the card in its own div: stretch it so cards in a row
+// share one height.
+.cardCell {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    flex: 1 1 auto;
+  }
+}
+
+.card {
+  // the value line scales with the card, not the viewport (see .value)
+  container-type: inline-size;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: clamp(1.5rem, 1.1rem + 1.2vw, 2rem);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.value {
+  margin-bottom: 4px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(1.35rem, 1.15rem + 0.7vw, 1.8rem);
+  // "96 · 98 · 100 · 100" must stay on one line in a narrow four-column card
+  font-size: min(1.8rem, 10.5cqi);
+  white-space: nowrap;
+  line-height: 1.15;
+  color: var(--accent);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 1rem + 0.35vw, 1.25rem);
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--text-primary);
+}
+
+.text {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.link {
+  margin-top: auto;
+  padding-top: 6px;
+  align-self: flex-start;
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--accent-strong);
+  }
+}

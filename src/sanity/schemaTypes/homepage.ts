@@ -163,7 +163,22 @@ export default defineType({
         defineField({
           name: "description",
           title: "Description",
+          description: "Single-line fallback. Ignored when Paragraphs are filled in.",
           type: "string",
+        }),
+        defineField({
+          name: "paragraphs",
+          title: "Paragraphs",
+          description: "The first paragraph is shown larger, as the lead. Replaces Description when filled in.",
+          type: "array",
+          of: [defineArrayMember({ type: "text", rows: 4 })],
+        }),
+        defineField({
+          name: "industries",
+          title: "Industries",
+          description: "Short tags shown under the text, e.g. Real estate, Law, Healthcare.",
+          type: "array",
+          of: [defineArrayMember({ type: "string" })],
         }),
         defineField({
           name: "buttonLabel",
@@ -258,6 +273,76 @@ export default defineType({
                   type: "string",
                 }),
               ],
+            }),
+          ],
+        }),
+        defineField({
+          name: "pillars",
+          title: "Service directions",
+          description:
+            "When filled, replaces Service Items: one column per direction, each a list of services with links and prices.",
+          type: "array",
+          of: [
+            defineArrayMember({
+              type: "object",
+              fields: [
+                defineField({
+                  name: "iconName",
+                  title: "Icon",
+                  type: "string",
+                  options: { list: ICON_NAME_OPTIONS },
+                }),
+                defineField({ name: "title", title: "Title", type: "string" }),
+                defineField({ name: "description", title: "Description", type: "string" }),
+                defineField({
+                  name: "items",
+                  title: "Services",
+                  type: "array",
+                  of: [
+                    defineArrayMember({
+                      type: "object",
+                      fields: [
+                        defineField({ name: "label", title: "Label", type: "string" }),
+                        defineField({ name: "link", title: "Link", type: "string" }),
+                        defineField({
+                          name: "price",
+                          title: "Price",
+                          type: "string",
+                          description: "Copy it from the price list, in the page's currency. Leave empty if there is none.",
+                        }),
+                      ],
+                      preview: { select: { title: "label", subtitle: "price" } },
+                    }),
+                  ],
+                }),
+              ],
+              preview: { select: { title: "title", subtitle: "description" } },
+            }),
+          ],
+        }),
+        defineField({
+          name: "assistantsLabel",
+          title: "Assistants label",
+          type: "string",
+        }),
+        defineField({
+          name: "assistants",
+          title: "AI assistants",
+          type: "array",
+          of: [{ type: "string" }],
+        }),
+        defineField({
+          name: "definitions",
+          title: "Term definitions",
+          type: "array",
+          of: [
+            defineArrayMember({
+              type: "object",
+              fields: [
+                defineField({ name: "term", title: "Term", type: "string" }),
+                defineField({ name: "text", title: "Definition", type: "text", rows: 2 }),
+              ],
+              preview: { select: { title: "term", subtitle: "text" } },
             }),
           ],
         }),
@@ -534,6 +619,182 @@ export default defineType({
           name: "faq",
           title: "FAQ",
           type: "accordionBlock",
+        }),
+      ],
+    }),
+    defineField({
+      name: "designSection",
+      title: "Design & Code Section",
+      description: "Four short claims about design and code, each one a buyer can check.",
+      type: "object",
+      fields: [
+        defineField({ name: "pretitle", title: "Pretitle", type: "string" }),
+        defineField({ name: "title", title: "Title", type: "string" }),
+        defineField({
+          name: "cards",
+          title: "Cards",
+          type: "array",
+          of: [
+            defineArrayMember({
+              type: "object",
+              fields: [
+                defineField({
+                  name: "value",
+                  title: "Value",
+                  type: "string",
+                  description: "The short accent line on top, e.g. a figure.",
+                }),
+                defineField({ name: "title", title: "Title", type: "string" }),
+                defineField({ name: "text", title: "Text", type: "text", rows: 3 }),
+                defineField({ name: "linkLabel", title: "Link label", type: "string" }),
+                defineField({ name: "link", title: "Link", type: "string" }),
+              ],
+              preview: { select: { title: "title", subtitle: "value" } },
+            }),
+          ],
+        }),
+      ],
+    }),
+    defineField({
+      name: "caseSection",
+      title: "Case Study Section",
+      description: "One full-cycle project with its results. The client is not named here.",
+      type: "object",
+      fields: [
+        defineField({ name: "pretitle", title: "Pretitle", type: "string" }),
+        defineField({ name: "title", title: "Title", type: "string" }),
+        defineField({ name: "lead", title: "Lead", type: "text", rows: 3 }),
+        defineField({ name: "text", title: "Text", type: "text", rows: 4 }),
+        defineField({ name: "scopeLabel", title: "Scope label", type: "string" }),
+        defineField({
+          name: "scope",
+          title: "Scope",
+          description: "What was done, one item per entry.",
+          type: "array",
+          of: [{ type: "string" }],
+        }),
+        defineField({
+          name: "metrics",
+          title: "Metrics",
+          type: "array",
+          of: [
+            defineArrayMember({
+              type: "object",
+              fields: [
+                defineField({ name: "value", title: "Value", type: "string" }),
+                defineField({ name: "label", title: "Label", type: "string" }),
+              ],
+              preview: { select: { title: "value", subtitle: "label" } },
+            }),
+          ],
+        }),
+        defineField({ name: "note", title: "Note under the metrics", type: "string" }),
+        defineField({ name: "linkLabel", title: "Link label", type: "string" }),
+        defineField({ name: "link", title: "Link", type: "string" }),
+      ],
+    }),
+    defineField({
+      name: "compareSection",
+      title: "Freelancer vs Agency Section",
+      description: "A comparison table: a typical agency against working with me.",
+      type: "object",
+      fields: [
+        defineField({ name: "pretitle", title: "Pretitle", type: "string" }),
+        defineField({ name: "title", title: "Title", type: "string" }),
+        defineField({ name: "criterionLabel", title: "First column label", type: "string", description: "Optional; usually empty." }),
+        defineField({ name: "agencyLabel", title: "Agency column label", type: "string" }),
+        defineField({ name: "meLabel", title: "My column label", type: "string" }),
+        defineField({
+          name: "rows",
+          title: "Rows",
+          type: "array",
+          of: [
+            defineArrayMember({
+              type: "object",
+              fields: [
+                defineField({ name: "criterion", title: "Criterion", type: "string" }),
+                defineField({ name: "agency", title: "Typical agency", type: "text", rows: 2 }),
+                defineField({ name: "me", title: "Working with me", type: "text", rows: 2 }),
+              ],
+              preview: { select: { title: "criterion", subtitle: "me" } },
+            }),
+          ],
+        }),
+        defineField({ name: "note", title: "Note under the table", type: "text", rows: 3 }),
+      ],
+    }),
+    defineField({
+      name: "proofSection",
+      title: "Proof Section",
+      description:
+        "Shown straight after the hero: original research, verified profiles and short client quotes. Quote text must be verbatim from a published testimonial.",
+      type: "object",
+      fields: [
+        defineField({ name: "pretitle", title: "Pretitle", type: "string" }),
+        defineField({ name: "title", title: "Title", type: "string" }),
+        defineField({
+          name: "study",
+          title: "Research card",
+          type: "object",
+          fields: [
+            defineField({ name: "kicker", title: "Kicker", type: "string" }),
+            defineField({ name: "title", title: "Title", type: "string" }),
+            defineField({ name: "text", title: "Text", type: "text", rows: 3 }),
+            defineField({ name: "linkLabel", title: "Link label", type: "string" }),
+            defineField({ name: "link", title: "Link (path, e.g. /blog/…)", type: "string" }),
+            defineField({ name: "chartLabel", title: "Chart description (for screen readers)", type: "string" }),
+            defineField({
+              name: "stats",
+              title: "Chart bars",
+              type: "array",
+              validation: (Rule) => Rule.max(4),
+              of: [
+                defineArrayMember({
+                  name: "stat",
+                  type: "object",
+                  fields: [
+                    defineField({ name: "label", title: "Label", type: "string", validation: (Rule) => Rule.required() }),
+                    defineField({ name: "value", title: "Value (number, as shown)", type: "string", validation: (Rule) => Rule.required() }),
+                  ],
+                  preview: { select: { title: "label", subtitle: "value" } },
+                }),
+              ],
+            }),
+          ],
+        }),
+        defineField({
+          name: "profiles",
+          title: "Verified profiles",
+          type: "array",
+          of: [
+            defineArrayMember({
+              name: "profile",
+              type: "object",
+              fields: [
+                defineField({ name: "label", title: "Label", type: "string", validation: (Rule) => Rule.required() }),
+                defineField({ name: "url", title: "URL", type: "url", validation: (Rule) => Rule.required() }),
+              ],
+              preview: { select: { title: "label", subtitle: "url" } },
+            }),
+          ],
+        }),
+        defineField({
+          name: "quotes",
+          title: "Client quotes",
+          type: "array",
+          validation: (Rule) => Rule.max(3),
+          of: [
+            defineArrayMember({
+              name: "quote",
+              type: "object",
+              fields: [
+                defineField({ name: "text", title: "Quote (verbatim)", type: "text", rows: 3, validation: (Rule) => Rule.required() }),
+                defineField({ name: "name", title: "Name (as in the published review)", type: "string" }),
+                defineField({ name: "attribution", title: "Attribution (role, industry · country)", type: "string", validation: (Rule) => Rule.required() }),
+              ],
+              preview: { select: { title: "name", subtitle: "attribution" } },
+            }),
+          ],
         }),
       ],
     }),

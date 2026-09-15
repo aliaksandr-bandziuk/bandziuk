@@ -36,7 +36,7 @@ const Portfolio: FC<Props> = async ({ portfolioSection, lang }) => {
             href={lang === "en" ? `/portfolio` : `/${lang}/portfolio`}
           >
             {lang === "en"
-              ? "View All Projects"
+              ? "View all projects"
               : lang === "pl"
                 ? "Zobacz wszystkie projekty"
                 : lang === "ru"

@@ -31,6 +31,11 @@
   }
 }
 
+// With left-aligned paragraphs a centred button looks detached on mobile.
+.aboutContentLeft {
+  align-items: flex-start;
+}
+
 .text {
   display: flex;
   flex-direction: column;
@@ -49,5 +54,50 @@
 
   @media screen and (min-width: 768px) {
     max-width: 700px;
+  }
+}
+
+// Several paragraphs read badly centred, so the body is left-aligned on every
+// width even where the heading above it is centred.
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+  max-width: 700px;
+}
+
+.lead {
+  font-size: clamp(1.05rem, 1rem + 0.3vw, 1.2rem);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.6);
+
+  @media screen and (min-width: 768px) {
+    font-size: 17px;
+  }
+}
+
+.industries {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
+  max-width: 700px;
+
+  li {
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background-color: rgba(255, 255, 255, 0.06);
+    color: rgba(255, 255, 255, 0.65);
   }
 }

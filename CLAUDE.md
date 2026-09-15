@@ -744,13 +744,14 @@ Production response headers showed two separate problems:
 | `[...slug]` service pages | `STALE` / `HIT` | cached, but regenerated for any request more than 60 s after the last one |
 
 **There were two causes, and the first fix only removed one.** After the
-wrapper below shipped, production still answered  with  for the
+wrapper below shipped, production still answered `MISS` with `no-store` for the
 homepage, blog posts and the portfolio, while service pages were cached. The
 pattern matched exactly: cached routes were the ones exporting
-. **In Next.js 14 a page under the dynamic segment without  is rendered on every request and never
+`generateStaticParams`. **In Next.js 14 a page under the dynamic `[lang]`
+segment without `generateStaticParams` is rendered on every request and never
 cached**, however its fetches are configured. All five such pages now export
-one ( supplies blog and portfolio slugs). Any new page
-under  needs one too.
+one (`getStaticSlugParams` supplies blog and portfolio slugs). Any new page
+under `[lang]` needs one too.
 
 The cause of the first: the Sanity client sends an `Authorization` header (the
 token is required, §3), and **Next.js 14 does not cache a fetch with an
@@ -799,3 +800,26 @@ next request refetch from Sanity.
 - After a deploy, confirm with a handful of requests that `/`, a blog post and
   `/portfolio` answer `X-Vercel-Cache: HIT` or `STALE` on a repeat request, not
   `MISS` with `no-store`.
+
+## 14. Homepage sections (rebuilt September 2026)
+
+Order in `src/app/[lang]/page.tsx`: Hero, Proof, About, Services, Problems,
+DesignCode, CaseStudy, Portfolio, Compare, WorkProcess, Reviews, FAQ, Pricing,
+then the footer contact block. Copy for EN, RU and PL was written from separate
+keyword research per language (`drafts/homepage-*-research-2026-09.md`), not
+translated.
+
+- **New sections render nothing until their Sanity field is filled**
+  (`proofSection`, `designSection`, `caseSection`, `compareSection`). Services
+  falls back to the old `serviceItems` cards and About to `description` when
+  `pillars` / `paragraphs` are empty, so a language can be migrated on its own.
+- **Animated figures stay server-rendered.** `ScrambleOnView` only rewrites the
+  text nodes of markup rendered on the server; never pass it data as props.
+- **Decimal commas.** RU and PL write "16,7"; `Proof` parses values with the
+  comma replaced. Keep that when adding charts.
+- **FAQ heading bug, fixed.** `FaqHomepage` used to render only the bare
+  pretitle whenever one was set, so the homepage FAQ had no H2 in any language.
+- **The contact block is the footer document**, shared by every page of a
+  language: changing its heading changes it site-wide.
+- **Russian copy:** the owner's surname is "Бандюк"; do not write "частный";
+  cover both "раскрутка" and "продвижение"; no Yandex. Polish prices are in PLN.

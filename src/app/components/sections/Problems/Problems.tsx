@@ -53,7 +53,7 @@ const Problems: FC<Props> = ({ problemsSection }) => {
                     </div>
                   )}
                   <h3 className={styles.problemTitle}>
-                    &quot;{item.problem}&quot;
+                    “{item.problem}”
                   </h3>
                   <p className={styles.problemDescription}>{item.solution}</p>
                   <ModalButton variant="secondary">{item.buttonLabel}</ModalButton>

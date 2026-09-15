@@ -28,17 +28,18 @@ const FaqHomepage: FC<Props> = ({ faqSection, noOuterMargin }) => {
     >
       <div className="container">
         <div className={styles.content}>
-          {pretitle ||
-            subtitle ||
-            (title && (
-              <div className={styles.text}>
-                <SectionHeading
-                  eyebrow={pretitle}
-                  title={title}
-                  subtitle={subtitle}
-                />
-              </div>
-            ))}
+          {/* Was `pretitle || subtitle || (title && …)`, which rendered the bare
+              pretitle string and dropped the whole heading, H2 included,
+              whenever a pretitle was set: the homepage FAQ had no H2. */}
+          {(pretitle || title || subtitle) && (
+            <div className={styles.text}>
+              <SectionHeading
+                eyebrow={pretitle}
+                title={title}
+                subtitle={subtitle}
+              />
+            </div>
+          )}
         </div>
         <div className={styles.faq}>
           <AccordionContainer block={faq} />

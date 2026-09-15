@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.module.scss";
-import exp from "constants";
 import { AboutSection } from "@/types/homepage";
 import { ModalButton } from "../../ui/Button/ModalButton";
 import Image from "next/image";
@@ -16,14 +15,18 @@ const About: React.FC<Props> = ({ aboutSection }) => {
   if (!aboutSection) {
     return null;
   }
-  const { pretitle, title, subtitle, description, buttonLabel, image } =
+  const { pretitle, title, subtitle, description, paragraphs, industries, buttonLabel, image } =
     aboutSection;
+
+  const body = paragraphs?.filter(Boolean) ?? [];
 
   return (
     <section className={styles.about} id="about">
       <div className="container">
         <div className={styles.wrapper}>
-          <div className={styles.aboutContent}>
+          <div
+            className={`${styles.aboutContent} ${body.length > 0 ? styles.aboutContentLeft : ""}`}
+          >
             <div className={styles.text}>
               <SectionHeading
                 align="left"
@@ -31,7 +34,24 @@ const About: React.FC<Props> = ({ aboutSection }) => {
                 title={title}
                 subtitle={subtitle}
               />
-              <p className={styles.description}>{description}</p>
+              {body.length > 0 ? (
+                <div className={styles.paragraphs}>
+                  {body.map((paragraph, i) => (
+                    <p key={i} className={i === 0 ? styles.lead : styles.paragraph}>
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                description && <p className={styles.description}>{description}</p>
+              )}
+              {industries && industries.length > 0 && (
+                <ul className={styles.industries} aria-label="Industries">
+                  {industries.map((industry) => (
+                    <li key={industry}>{industry}</li>
+                  ))}
+                </ul>
+              )}
             </div>
             <div className={styles.button}>
               <ModalButton variant="primary">{buttonLabel}</ModalButton>

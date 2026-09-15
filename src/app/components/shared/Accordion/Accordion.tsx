@@ -27,7 +27,10 @@ const Accordion: React.FC<AccordionProps> = ({ children }) => {
                           ? block.children.map((c: any) => c.text).join("")
                           : "",
                       )
-                      .join("")
+                      // A space between paragraphs: joined with "" they fused
+                      // into "…€2,000.It depends…" in the FAQPage answer text.
+                      .filter(Boolean)
+                      .join(" ")
                   : "",
               },
             })),

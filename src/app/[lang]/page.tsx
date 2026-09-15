@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { BASE_URL } from "@/utils/hreflang";
 import {
+  getFeaturedPricingByLang,
   getFormStandardDocumentByLang,
   getHomePageByLang,
 } from "../../sanity/sanity.utils";
@@ -22,6 +23,7 @@ import WorkProcess from "../components/sections/WorkProcess/WorkProcess";
 import Reviews from "../components/sections/Reviews/Reviews";
 import Contacts from "../components/sections/Contacts/Contacts";
 import FaqHomepage from "../components/sections/FaqHomepage/FaqHomepage";
+import PricingHomepage from "../components/sections/PricingHomepage/PricingHomepage";
 
 type Props = {
   params: { lang: string; slug: string };
@@ -61,6 +63,8 @@ export default async function Home({ params }: Props) {
 
   const formDocument: FormStandardDocument =
     await getFormStandardDocumentByLang(params.lang);
+
+  const featuredPricing = await getFeaturedPricingByLang(params.lang);
 
   // console.log("homePage", homePage);
   // console.log("formDocument", formDocument);
@@ -117,6 +121,12 @@ export default async function Home({ params }: Props) {
         <WorkProcess processSection={homePage?.processSection} />
         <Reviews reviews={homePage?.reviewsSection} />
         <FaqHomepage faqSection={homePage?.faqSection} />
+        {/* Directly before the footer's contact form: prices, then the form. */}
+        <PricingHomepage
+          section={homePage?.pricingSection}
+          pricing={featuredPricing}
+          lang={params.lang}
+        />
       </main>
       <Footer params={params} formDocument={formDocument} />
       <ModalFull lang={params.lang} formDocument={formDocument} />

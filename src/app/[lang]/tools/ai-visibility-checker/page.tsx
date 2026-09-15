@@ -73,7 +73,8 @@ export default async function AiVisibilityCheckerPage({ params }: Props) {
     applicationCategory: "BusinessApplication",
     operatingSystem: "Any",
     isAccessibleForFree: true,
-    offers: { "@type": "Offer", price: 0, priceCurrency: "EUR" },
+    // Polish pages always price in złoty, even a price of zero.
+    offers: { "@type": "Offer", price: 0, priceCurrency: lang === "pl" ? "PLN" : "EUR" },
     provider: personRef(),
   };
 

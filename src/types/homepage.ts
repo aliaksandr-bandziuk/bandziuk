@@ -266,6 +266,31 @@ export type FaqSection = {
 };
 // ====== End FAQ Section =====
 
+// ====== Pricing Section =====
+export type PricingSection = {
+  pretitle?: string;
+  title?: string;
+  subtitle?: string;
+  linkLabel?: string;
+  buttonLabel?: string;
+};
+
+export type FeaturedOffer = {
+  _key: string;
+  name: string;
+  price: number;
+  maxPrice?: number;
+  currency?: string;
+  unit?: "one-off" | "month";
+};
+
+export type FeaturedPricing = {
+  /** Path of the pricing page without the locale prefix, e.g. "pricing". */
+  path: string;
+  offers: FeaturedOffer[];
+};
+// ====== End Pricing Section =====
+
 export type AboutBlock = {
   _key: string;
   _type: string;
@@ -387,6 +412,7 @@ export type Homepage = {
   processSection: ProcessSection;
   reviewsSection: ReviewsSection;
   faqSection: FaqSection;
+  pricingSection?: PricingSection;
   contactsSection: ContactsSection;
   language: string;
   slug: {

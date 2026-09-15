@@ -1,6 +1,6 @@
 import { groq } from "next-sanity";
 import { client } from "./sanity.client";
-import { Homepage } from "@/types/homepage";
+import { FeaturedPricing, Homepage } from "@/types/homepage";
 import { Header } from "@/types/header";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import { Singlepage } from "@/types/singlepage";
@@ -38,6 +38,7 @@ export async function getHomePageByLang(lang: string): Promise<Homepage> {
     processSection,
     reviewsSection,
     faqSection,
+    pricingSection,
     contactsSection,
     language,
     slug,
@@ -57,6 +58,24 @@ export async function getHomePageByLang(lang: string): Promise<Homepage> {
   );
 
   return homepage;
+}
+
+/**
+ * Offers ticked "Show on the homepage" on this language's pricing page, with
+ * that page's path. The homepage pricing section renders these instead of
+ * keeping its own copy of the numbers, so a price lives in one place.
+ */
+export async function getFeaturedPricingByLang(lang: string): Promise<FeaturedPricing | null> {
+  const query = groq`*[_type == "singlepage" && language == $lang && count(offers[featured == true]) > 0][0]{
+    "path": array::join(array::compact([
+      parentPage->parentPage->slug[$lang].current,
+      parentPage->slug[$lang].current,
+      slug[$lang].current
+    ]), "/"),
+    "offers": offers[featured == true]{ _key, name, price, maxPrice, currency, unit }
+  }`;
+
+  return client.fetch(query, { lang }, { next: { revalidate: 60 } });
 }
 
 export async function getFooterByLang(lang: string) {

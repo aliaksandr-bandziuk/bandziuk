@@ -57,6 +57,8 @@ export type Singlepage = {
     maxPrice?: number;
     currency?: string;
     unit?: "one-off" | "month";
+    /** Shown in the homepage pricing section (read on the pricing page only). */
+    featured?: boolean;
   }>;
   seo: Seo;
   excerpt: string;

@@ -173,6 +173,14 @@ const singlepage = {
               initialValue: "one-off",
               options: { list: ["one-off", "month"] },
             }),
+            defineField({
+              name: "featured",
+              title: "Show on the homepage",
+              description:
+                "Only read on the pricing page: ticked offers appear in the homepage pricing section, so a price is changed once, here, and the homepage follows.",
+              type: "boolean",
+              initialValue: false,
+            }),
           ],
           preview: {
             select: { title: "name", price: "price", currency: "currency", unit: "unit" },

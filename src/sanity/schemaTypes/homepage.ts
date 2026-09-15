@@ -538,6 +538,20 @@ export default defineType({
       ],
     }),
     defineField({
+      name: "pricingSection",
+      title: "Pricing Section",
+      description:
+        "Headings only. The prices themselves come from the offers ticked 'Show on the homepage' on this language's pricing page.",
+      type: "object",
+      fields: [
+        defineField({ name: "pretitle", title: "Pretitle", type: "string" }),
+        defineField({ name: "title", title: "Title", type: "string" }),
+        defineField({ name: "subtitle", title: "Subtitle", type: "string" }),
+        defineField({ name: "linkLabel", title: "Link to the pricing page", type: "string" }),
+        defineField({ name: "buttonLabel", title: "Button that opens the contact form", type: "string" }),
+      ],
+    }),
+    defineField({
       name: "contactsSection",
       title: "Contacts Section",
       type: "object",

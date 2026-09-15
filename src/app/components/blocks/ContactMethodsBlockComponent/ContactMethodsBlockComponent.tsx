@@ -100,7 +100,6 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
                       src={urlFor(contact.icon).url()}
                       width={70}
                       height={70}
-                      unoptimized
                     />
                   )}
                   <p className={styles.contactLabel}>{contact.title}</p>

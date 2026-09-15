@@ -27,7 +27,6 @@ const Header = async ({ translations, params }: Props) => {
                 src={urlFor(data.logo).url()}
                 width={300}
                 height={300}
-                unoptimized
                 className={styles.logoImage}
               />
               <Image
@@ -35,7 +34,6 @@ const Header = async ({ translations, params }: Props) => {
                 src={urlFor(data.logoMobile).url()}
                 width={40}
                 height={40}
-                unoptimized
                 className={`${styles.logoImageMobile} logoImageMobile`}
               />
             </Link>

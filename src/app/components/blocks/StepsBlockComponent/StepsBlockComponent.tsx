@@ -61,7 +61,6 @@ const StepsBlockComponent: FC<Props> = ({ block }) => {
                               alt={step.icon.alt ?? step.title}
                               width={32}
                               height={32}
-                              unoptimized
                               className={styles.icon}
                             />
                           </div>

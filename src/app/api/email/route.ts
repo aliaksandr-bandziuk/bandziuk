@@ -1,49 +1,57 @@
 import { type NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 import Mail from "nodemailer/lib/mailer";
+import { guardContactRequest } from "@/lib/formGuard/server";
 
 export async function POST(request: NextRequest) {
-  const data = await request.json();
+  const guard = await guardContactRequest(request);
 
-  // console.log("Received data:", data);
+  if (!guard.ok) {
+    if (guard.silent) return NextResponse.json({ message: "Email sent" });
+    console.warn(`[api/email] rejected: ${guard.reason}`);
+    return NextResponse.json({ error: "Invalid request" }, { status: guard.status });
+  }
+
+  const data = guard.data;
 
   const transport = nodemailer.createTransport({
     host: "smtp.hostinger.com",
     port: 465,
-    secure: true, // true для порта 465, false для 587
+    secure: true, // true for port 465, false for 587
     auth: {
-      user: process.env.EMAIL_USER, // например: contact@yourdomain.com
-      pass: process.env.EMAIL_PASSWORD, // пароль или пароль приложения
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASSWORD,
     },
+    // Fail fast instead of holding a serverless function open on a slow SMTP.
+    connectionTimeout: 10_000,
+    socketTimeout: 15_000,
   });
 
-  // Проверка наличия всех полей
-  if (data.name && data.email) {
-    const mailBody = [
-      `Name: ${data.name}`,
-      `Phone: ${data.phone || "No phone provided"}`,
-      `Email: ${data.email}`,
-      `Message: ${data.message || "No message provided"}`,
-      `Current Page: ${data.currentPage || "No page info"}`,
-      `Policy agreed: ${data.agreedToPolicy ? "Yes" : "No"}`,
-      ...(data.preferredContact ? [`Preferred contact: ${data.preferredContact}`] : []),
-    ].join("\n");
+  const mailBody = [
+    `Name: ${data.name}`,
+    `Phone: ${data.phone || "No phone provided"}`,
+    `Email: ${data.email}`,
+    `Message: ${data.message || "No message provided"}`,
+    `Current Page: ${data.currentPage || "No page info"}`,
+    `Policy agreed: ${data.agreedToPolicy ? "Yes" : "No"}`,
+    ...(data.preferredContact ? [`Preferred contact: ${data.preferredContact}`] : []),
+  ].join("\n");
 
-    const mailOptions: Mail.Options = {
-      from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_USER,
-      subject: `Request from Bandziuk.Com`,
-      text: mailBody,
-    };
+  const mailOptions: Mail.Options = {
+    from: process.env.EMAIL_USER,
+    to: process.env.EMAIL_USER,
+    // Reply goes straight to the enquirer. The address passed validation.
+    replyTo: data.email,
+    subject: `Request from Bandziuk.Com`,
+    text: mailBody,
+  };
 
-    try {
-      await transport.sendMail(mailOptions);
-      return NextResponse.json({ message: "Email sent" });
-    } catch (err: any) {
-      return NextResponse.json({ error: err.message }, { status: 500 });
-    }
+  try {
+    await transport.sendMail(mailOptions);
+    return NextResponse.json({ message: "Email sent" });
+  } catch (err) {
+    // Logged, not returned: SMTP errors can carry server and account details.
+    console.error("[api/email] send failed:", err);
+    return NextResponse.json({ error: "Could not send" }, { status: 500 });
   }
-
-  // Если какие-то данные отсутствуют, вернуть ошибку
-  return NextResponse.json({ error: "Invalid data" }, { status: 400 });
 }

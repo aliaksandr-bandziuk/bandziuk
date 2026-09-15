@@ -42,7 +42,7 @@ const ServiceFeaturesBlockComponent: FC<Props> = ({ block }) => {
                         alt={f.title}
                         fill
                         style={{ objectFit: "cover" }}
-                        unoptimized
+                        sizes="140px"
                       />
                     )}
                   </div>

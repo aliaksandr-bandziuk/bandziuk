@@ -158,6 +158,10 @@ async function buildDynamicRedirects() {
 
 const nextConfig = {
   images: {
+    // Sanity's image CDN resizes and re-encodes, not Vercel's /_next/image
+    // optimizer: its monthly transformation quota is not spent. See the loader.
+    loader: 'custom',
+    loaderFile: './src/lib/images/sanityLoader.ts',
     minimumCacheTTL: 86400,
     remotePatterns: [
       {

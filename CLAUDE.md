@@ -12,13 +12,13 @@
 | Language | TypeScript 5.8 (strict) |
 | CMS | Sanity v3 (3.99.0) + next-sanity 9.12.3 |
 | i18n | next-intl 3.19.1 — EN (no prefix, default), PL, RU |
-| Styling | Tailwind CSS 3.4.1 + SCSS modules + CSS custom properties |
+| Styling | SCSS modules + CSS custom properties (Tailwind was removed in July 2026) |
 | Animation | Lenis 1.3.4 (smooth scroll), Framer Motion 11, GSAP 3, AOS 2 |
 | Forms | Formik + Yup validation |
 | Path alias | `@/` → `src/` |
 | Domain | `https://www.bandziuk.com` |
 
-**next.config.mjs** — image remote patterns for `cdn.sanity.io`, GitHub, Google CDN; `/sitemap.xml` rewritten to `/api/sitemap`.
+**next.config.mjs** — custom image loader (Sanity CDN, not Vercel; §12) and remote patterns for `cdn.sanity.io`, GitHub, Google CDN; `/sitemap.xml` rewritten to `/api/sitemap`.
 
 ---
 
@@ -51,7 +51,7 @@ src/app/
 │   │
 │   └── [...slug]/page.tsx      catch-all for all single/service pages
 │       ├── dynamicParams = false
-│       ├── revalidate = 60
+│       ├── revalidate = 86400 (refreshed on publish, see §13)
 │       └── generateStaticParams() — builds nested slug arrays from parent-child tree
 │
 ├── admin/
@@ -74,27 +74,28 @@ src/app/
 
 ### Client (`src/sanity/sanity.client.ts`)
 
-```ts
-export const client = createClient({ projectId, dataset, apiVersion: "2023-10-16", useCdn, token });
-// useCdn = (NODE_ENV === "production") — intentional: CDN off in dev to avoid stale data
-export function urlFor(source: any) { return builder.image(source); }
-```
+`client` is a thin wrapper around `createClient`: its only method, `fetch`,
+adds an explicit cache lifetime and the `sanity` tag to every query. See §13
+before changing anything here.
 
-`SANITY_API_TOKEN` is a private env var (server-only). `NEXT_PUBLIC_SANITY_PROJECT_ID` and `NEXT_PUBLIC_SANITY_DATASET` are public (used in Studio config too).
+`SANITY_API_TOKEN` is a private env var (server-only) and is **required**:
+documents whose `_id` contains a dot — every translation, e.g. `blog-foo.pl` —
+are private in Sanity. Without the token roughly half the site disappears
+(checked 2026-09-15: 128 blog posts with it, 54 without). `NEXT_PUBLIC_SANITY_PROJECT_ID` and `NEXT_PUBLIC_SANITY_DATASET` are public (used in Studio config too).
 
 ### Queries (`src/sanity/sanity.utils.ts` — ~1,300 lines)
 
 All GROQ queries live in one file. Data fetching pattern:
 
 ```ts
-const data = await client.fetch(groqQuery, { lang }, { next: { revalidate: 60 } });
+const data = await client.fetch(groqQuery, { lang });
+// the wrapper adds { next: { revalidate: 86400, tags: ["sanity"] } }
 ```
 
-**No cache tags (`revalidateTag`) are used — only time-based ISR (60 s).**
-No webhook endpoint for on-demand revalidation. A Sanity webhook does exist
-(added 2026) at `/api/indexnow/webhook`, but it's scoped to IndexNow
-notification only (see §8) — it does not trigger revalidation or touch the
-cache in any way.
+Pages are cached for a day and refreshed on publish: the Sanity webhook at
+`/api/indexnow/webhook` calls `revalidateTag("sanity")` before its IndexNow
+work (§8, §13). Many calls still pass `{ next: { revalidate: 60 } }`; the
+wrapper overrides that value on purpose.
 
 ### Translation pattern (Sanity Document Internationalization v3)
 
@@ -111,7 +112,7 @@ Slug field structure: `slug: { en: { current: "..." }, pl: { current: "..." }, r
 | Group | Types |
 |-------|-------|
 | Core pages | `homepage`, `singlepage`, `blog`, `portfolio`, `blogPage`, `portfolioPage`, `header`, `footer` |
-| Content blocks | `textContent`, `doubleTextBlock`, `imageFullBlock`, `gridBlock`, `tableBlock`, `accordionBlock`, `faqBlock`, `serviceFeaturesBlock`, `animationBulletsBlock`, `benefitsBlock`, `landingCtaBlock`, `workProcessBlock`, `portfolioBlock`, `formMinimalBlock`, `formFullBlock`, `contactMethodsBlock`, `locationBlock`, `reviewsFullBlock`, `howWeWorkBlock`, `projectsSectionBlock` |
+| Content blocks | `textContent`, `doubleTextBlock`, `imageFullBlock`, `gridBlock`, `tableBlock`, `accordionBlock`, `faqBlock`, `serviceFeaturesBlock`, `animationBulletsBlock`, `benefitsBlock`, `landingCtaBlock`, `workProcessBlock`, `portfolioBlock`, `formMinimalBlock`, `formFullBlock`, `contactMethodsBlock`, `locationBlock`, `reviewsFullBlock` |
 | Reference types | `category`, `projectCategory`, `service`, `technology`, `serviceFeature` |
 | Utilities | `localizedSlug`, `blockContentWithStyle`, `docFile`, `formStandard`, `formStandardDocument` |
 
@@ -135,7 +136,7 @@ All `page.tsx` files, `layout.tsx` files, Header, Footer, Hero, About, Services,
 | `FormMinimalBlockComponent`, `FormFullBlockComponent` | wraps forms |
 | `BurgerMenu` | toggle state |
 | `LocaleSwitcher` | reads `usePathname` + `useRouter` |
-| `NavLinks`, `NavLink`, `NavWrapper` | active link detection |
+| `NavLinks`, `NavWrapper` | active link detection |
 | `SliderReviews`, `SliderScreenshots` | Swiper (needs DOM) |
 | `BlogPostsRenderer` | "load more" pagination |
 | `AccordionContainer` | open/close state |
@@ -189,22 +190,20 @@ to `next/script`.
 
 ## 5. Identified Issues
 
-### A — Dead code / orphaned vertical
+### A — Dead code / orphaned vertical — RESOLVED
 
-`sanity.utils.ts` contains ~400 lines of GROQ queries for a **real-estate vertical** that has no routes: `getPropertyByLang`, `getProjectByLang`, `getProjectsPageByLang`, `getDeveloperByLang`, `getThreeProjectsBySameCity`, `getFilteredProjects`, `getFilteredProjectsCount`, `getAllProperties`, `getAllProjectsByLang`, `getProjectsByDeveloper`.
+The real-estate queries, types and schemas were already gone when checked on
+2026-09-15 (zero documents of those types in the dataset). The same sweep
+removed six more modules nothing imported: `FeaturesBlock`, `SchemaFaq`,
+`NavLink`, `src/lib/consent.ts`, and the unregistered `howWeWorkBlock` and
+`projectsSectionBlock` schemas (zero documents each). `PropertyIntro` is still
+used by the catch-all route and stays.
 
-Matching dead artefacts: type files (`property.ts`, `project.ts`, `developer.ts`, `propertiesPage.ts`, `projectsPage.ts`) and Sanity schemas for those types. None of these are referenced by any page or route.
+### B — Duplicate portfolio query functions — partly resolved
 
-**Risk if removed:** Zero — no route serves them. But remove sanity schemas carefully to avoid Sanity Studio errors on existing documents.
-
-### B — Three duplicate portfolio query functions
-
-`sanity.utils.ts` exports three functions that fetch essentially the same portfolio list with minor field differences:
-- `getAllPortfolioByLang` (line 134) — used by sitemap
-- `getAllPortfoliosByLang` (line 528) — used nowhere (dead)
-- `getPortfolioItemsByLang` (line 809) — used by portfolio page
-
-Should be consolidated into one.
+The dead `getAllPortfoliosByLang` is gone. Two remain, both in use:
+`getAllPortfolioByLang` (sitemap) and `getPortfolioItemsByLang` (portfolio
+page). Merging them is optional tidying, not a bug.
 
 ### C — Missing revalidation on header and footer queries — RESOLVED
 
@@ -216,39 +215,37 @@ on 2026-09-14.
 
 The image URL builder accepts `any`. Should be typed as `SanityImageSource` from `@sanity/image-url/lib/types/types`.
 
-### E — `urlFor().url()` in components bypasses Next.js Image
+### E — Images bypassing optimisation — RESOLVED 2026-09-15, see §12
 
-Several components use raw `<img src={urlFor(x).url()}>` instead of `<Image>` from `next/image`. Examples:
-- `Header.tsx` — logo
-- `Footer.tsx` — logo
-- `Services.tsx` — service icons
-- `WorkProcess.tsx` — step icons
-- `Contacts.tsx` — contact icons
-- `LogosCarousel.tsx` — client logos
-- `ServiceFeaturesBlockComponent.tsx` — feature images
-- `About.tsx` — images
-- `SliderReviews.tsx` — reviewer photo
+Every `next/image` now goes through a Sanity loader; the remaining raw `<img>`
+tags are deliberate (§12).
 
-These miss: lazy loading, WebP auto-conversion, layout shift prevention, responsive srcset.
+### F — Dead import in homepage page — RESOLVED
 
-### F — Dead import in homepage page
+The unused `homepage` schema import is no longer in `src/app/[lang]/page.tsx`.
 
-`src/app/[lang]/page.tsx` line 14:
-```ts
-import homepage from "@/sanity/schemaTypes/homepage"; // never used
-```
+### G — Dependencies — RESOLVED 2026-09-15
 
-### G — Bloated / duplicate dependencies
+Removed because nothing imports them: `negotiator`,
+`@formatjs/intl-localematcher`, `@types/negotiator`, `react-select`,
+`react-use`, `swr`. (`locomotive-scroll`, `node-fetch`, `@studio-freight/lenis`,
+`node-cron`, `xml2js` were already gone.)
 
-| Package | Issue |
-|---------|-------|
-| `@studio-freight/lenis` v1.0.42 | Duplicate of `lenis` v1.3.4 — the hook uses one, check which |
-| `locomotive-scroll` v5.0.0-beta.9 | Not imported anywhere in `src/` |
-| `node-fetch` v3 | Redundant — Node 18+ has native fetch |
-| `react-tsparticles` + `tsparticles` + `tsparticles-engine` | All v2 (outdated); `tsparticles` v3 changed API significantly |
-| `csv-parse`, `node-cron`, `xml2js` | No imports found in `src/` |
-| `dotenv` | Loaded at runtime in Next.js env automatically |
-| `styled-components` v6 | No `.styled.ts` files found; likely unused |
+**Keep, despite looking unused in `src/`:**
+- `styled-components` — a peer dependency of Sanity Studio and its plugins.
+  Removing it breaks `/admin`.
+- `dotenv`, `csv-parse` — used by the one-off scripts in `scripts/`.
+- `react-is`, `sass`, `postcss`, `eslint-config-next`, all `@types/*` — peers,
+  build tooling or type packages, never imported directly.
+
+**Trap found doing this:** `react-use` was silently supplying `@types/js-cookie`.
+Removing it made `tsc` fail, which on Vercel means a failed build. The types
+and `@sanity/image-url` (imported directly, previously only arriving through
+`next-sanity`) are now declared in `package.json`. After removing any package,
+run `npx tsc --noEmit` before pushing.
+
+`react-tsparticles` + `tsparticles` + `tsparticles-engine` are still v2; an
+upgrade to v3 changes the API and is its own task.
 
 ### H — `Math.random()` shuffle in a cached server function
 
@@ -268,9 +265,31 @@ already streaming when `notFound()` runs. That is deliberate and mitigated —
 post. Do not "fix" it by removing the check; the status can only change if the
 loading boundary goes.
 
-### K — `api/email` accepts any request body with no authentication
+### K — `api/email` accepted any request body — RESOLVED 2026-09-15
 
-`src/app/api/email/route.ts` has no secret, token, or origin check — any POST with a `name` and `email` field triggers a real email send via the Hostinger SMTP account. Found and flagged while building the IndexNow webhook (`/api/indexnow/webhook`, §8), which needed a secret-validation pattern and found no precedent to reuse. Worth its own fix (rate limiting and/or a shared-secret/turnstile check), not folded into that unrelated change.
+The route only ever mailed the owner, so it could not spam third parties; the
+risk was flooding the inbox and tripping Hostinger's sending limits, which
+would stop real enquiries. `src/lib/formGuard/server.ts` now checks, in order:
+
+1. `Origin` must match the request host (keeps localhost and Vercel previews working).
+2. Body under 20 KB, valid JSON.
+3. Honeypot field `fax_extension_2` filled → **200 with no mail** (a bot learns nothing).
+4. `fillMs` (time since the form mounted) at least 1.5 s → otherwise 400.
+5. Rate limit: 5 per IP and 40 per instance per 10 minutes.
+6. Field lengths, email shape, consent `true`.
+
+The three forms (`FormFull`, `FormMinimalBlockComponent`,
+`FormFullBlockComponent`) add the fields through `useFormGuard()`. Any new form
+posting to `/api/email` must use the hook too, or every submission is rejected.
+
+- **A missing `fillMs` is a 400, never a silent 200.** A visitor on a page
+  bundle from before a deploy must see the error with the email fallback, not a
+  false "sent".
+- **Do not rename the honeypot to anything autofill recognises** (`website`,
+  `url`, `company`…): browsers would fill it and real leads would vanish silently.
+- The rate limit is per serverless instance, not global. If a distributed flood
+  ever gets through, add Cloudflare Turnstile (needs keys from the owner).
+- SMTP errors are logged, not returned.
 
 ### L — `scripts/capture-portfolio-screenshots.cjs` silently skips text-only website fields
 
@@ -296,11 +315,20 @@ These are deliberate, working solutions that look unusual but must stay:
 ### The `[...slug]` static path tree-builder
 `generateStaticParams` in `src/app/[lang]/[...slug]/page.tsx` (lines 81–122) iterates parent-child documents in multiple passes to build correct nested slug arrays. The `while(added)` loop is intentional BFS. Do not replace it with a simpler flat approach — it breaks nested service routes (e.g., `services/web/frontend`).
 
-### `dynamicParams = false` + `revalidate = 60` on `[...slug]`
-These work together: pages are generated at build time and ISR-refreshed every 60 s. Removing `dynamicParams = false` would allow Next.js to attempt server-rendering unknown slugs, bypassing the content check. Removing `revalidate` would freeze pages at build-time permanently.
+### `dynamicParams = false` + `revalidate` on `[...slug]`
+These work together: pages are generated at build time and ISR-refreshed. Removing `dynamicParams = false` would allow Next.js to attempt server-rendering unknown slugs, bypassing the content check. Removing `revalidate` would freeze pages at build-time permanently.
 
-### `useCdn = (NODE_ENV === "production")`
-Deliberate: CDN in production for performance; CDN disabled in dev to avoid serving stale Sanity data during content editing sessions.
+**The value is 86400, not 60, since 2026-09-15.** Sixty seconds, together with
+uncached authenticated fetches, exceeded Vercel's free ISR-write and CPU limits
+with almost no human traffic. Do not lower it to make edits appear faster:
+edits already appear on publish through the webhook. Full story in §13.
+
+### Sanity API CDN is off in production
+It used to be on (`useCdn = NODE_ENV === "production"`). Now Next's data cache
+sits in front of every query, so Sanity is only called when a page regenerates,
+and regeneration happens right after a publish, which is exactly when the API
+CDN can still return the old version and freeze it into the cache for a day.
+Keep `useCdn: false` in the site client.
 
 ### Translation metadata GROQ pattern
 ```groq
@@ -338,17 +366,12 @@ Unlike the four blocks above, `reviewsFullBlock`'s own Sanity fields (`pretitle`
 
 **Overall health:** The codebase is production-quality for its primary purpose — a multilingual portfolio+blog site with Sanity CMS. The App Router usage is correct, ISR is in place, SEO metadata is thorough, and the server/client component split is well-considered. The main liabilities are accumulated dead code from a past real-estate phase and a few low-effort consistency gaps.
 
-### Top 5 improvements (impact ÷ effort)
+### Improvement list — status 2026-09-15
 
-| # | Task | Impact | Effort |
-|---|------|--------|--------|
-| 1 | **Add `revalidation: 60` to `getHeaderByLang` and `getFooterByLang`** | Medium — these are fetched on every page; caching them properly reduces Sanity API calls | Very low — 2 lines |
-| 2 | **Remove real-estate dead code** (queries, types, schemas) | Medium — reduces codebase noise by ~400 lines of queries + 5 type files | Low — delete only; verify no Sanity documents exist first |
-| 3 | **Consolidate the 3 portfolio query functions into 1** | Low-Medium — eliminates confusion about which to use | Low — update 2 callers |
-| 4 | **Replace `<img src={urlFor(x).url()}>` with `<Image>`** in server components | High — lazy loading, WebP, layout shift prevention for every page | Medium — each site needs explicit width/height or fill layout |
-| 5 | **Remove unused packages** (`locomotive-scroll`, `styled-components`, `node-fetch`, `@studio-freight/lenis`, `csv-parse`, `node-cron`, `xml2js`, `dotenv`) | Low-Medium — smaller bundle, fewer security surface | Low — `npm remove` + verify build |
-
-Bonus (trivial): fix the `notFound()` call (#J) and remove the dead import (#F).
+All five original items and both bonus items are done (see §5 C, A, B, E, G,
+J, F). What remains open: typing `urlFor` (#D), merging the two portfolio
+queries (#B, optional), the `tsparticles` v3 upgrade (#G), and the screenshot
+script bugs (#L).
 
 ## 8. IndexNow Integration
 
@@ -366,7 +389,7 @@ this feature imply otherwise.
 | Key file | `src/app/indexnow-key.txt/route.ts` — serves `INDEXNOW_KEY` as plain text from an env var, nothing else |
 | URL resolver | `src/lib/indexnow/resolveUrls.ts` — reuses `getAllPathsForLang` (the same nested-path resolver as the sitemap, `generateStaticParams`, and the page's own canonical URL) rather than a new URL builder |
 | Submission helper | `src/lib/indexnow/submit.ts` — dedupes, batches at 10,000 URLs/request, logs the documented response code (200/202/400/403/422/429) |
-| Webhook endpoint | `src/app/api/indexnow/webhook/route.ts` — validates a shared secret, resolves affected URLs, submits |
+| Webhook endpoint | `src/app/api/indexnow/webhook/route.ts` — validates a shared secret, **calls `revalidateTag("sanity")` for any document type** (§13), then resolves affected URLs and submits |
 | One-off bulk script | `scripts/indexnow-bulk-submit.cjs` — sources its URL list from the live `/sitemap.xml`, not a reimplementation; run once by hand, not scheduled |
 
 ### Env vars
@@ -667,3 +690,100 @@ asynchronous, unusable for a visitor waiting on the page.
 - Protection today is a honeypot, consent, validation and the limits. A captcha
   (e.g. Cloudflare Turnstile) is recommended before promoting the page; it
   needs keys from the owner.
+
+## 12. Images are resized by Sanity, not Vercel
+
+Added 2026-09-15 at the owner's request, to stop spending Vercel's image
+optimisation quota. `next.config.mjs` sets `images.loader: 'custom'` with
+`src/lib/images/sanityLoader.ts`, so **no image goes through `/_next/image`**.
+
+### How it works
+
+- `cdn.sanity.io/images/...` URLs get `w`, `q`, `auto=format` (WebP or AVIF by
+  browser support) and `fit=max` (never upscales). Crop and hotspot params that
+  `urlFor()` added are kept; a baked-in `.width()` is overridden by the srcset.
+- Everything else is returned untouched: Sanity `files/` URLs (not
+  transformable), local `/public` paths (`?w=` appended only so srcset entries
+  differ), other hosts.
+- SVGs pass through unchanged: Sanity serves an SVG as SVG even with params.
+
+Measured on the dev server, five pages at two widths: image weight
+**7.9 MB → 3.7 MB**; the homepage on mobile **1.56 MB → 0.28 MB**. The single
+biggest cause was three homepage icons marked `unoptimized` (up to 357 KB each,
+shown at ~70 px; 11 KB now).
+
+### Rules
+
+- **Do not add `unoptimized` to a Sanity raster image.** It skips the loader and
+  ships the original file. The one remaining use is a 2 KB `files/` PNG.
+- **`fill` images need a real `sizes`**, or the browser picks a
+  viewport-wide candidate for a small card.
+- **Do not switch back to the default loader** without the owner: that returns
+  every image to Vercel's quota.
+- A picture uploaded to Sanity as a *file* cannot be resized. Re-upload it as an
+  *image* asset if it needs optimising (done for the review avatar placeholder).
+- Deliberate raw `<img>` tags: the footer world map in `Contacts.tsx` (indexed
+  PNG; WebP is larger, 99 KB vs 73 KB, so it stays the original, lazy-loaded
+  with dimensions) and `files/[slug]/page.tsx` (arbitrary uploaded files).
+- Sanity's own CDN bandwidth now carries the image traffic instead. It is a
+  different, larger allowance than Vercel's transformation count, but it is not
+  unlimited.
+
+## 13. Caching: a day by default, refreshed on publish
+
+Changed 2026-09-15 after Vercel's free limits were exceeded with almost no
+human traffic: **ISR Writes 254K / 200K** and **Fluid Active CPU 4h33m / 4h**.
+
+### What was wrong
+
+Production response headers showed two separate problems:
+
+| Route | Header before | Meaning |
+|---|---|---|
+| `/`, `/[lang]`, blog posts, `/portfolio` | `private, no-store`, `X-Vercel-Cache: MISS` on every request | rendered from scratch for every visitor and every bot |
+| `[...slug]` service pages | `STALE` / `HIT` | cached, but regenerated for any request more than 60 s after the last one |
+
+The cause of the first: the Sanity client sends an `Authorization` header (the
+token is required, §3), and **Next.js 14 does not cache a fetch with an
+Authorization header unless the fetch or the segment sets an explicit cache
+lifetime**. One such fetch makes the whole route dynamic. `[...slug]` escaped
+only because it exported `revalidate = 60` at segment level. The second was
+that 60-second lifetime itself: every bot pass over ~500 pages rewrote them.
+
+### What it is now
+
+- `src/sanity/sanity.client.ts` wraps `fetch`: every query gets
+  `next: { revalidate: 86400, tags: ["sanity"] }`. `{ cache: "no-store" }` is
+  passed through untouched, for the webhook's own URL lookup.
+- `[lang]/layout.tsx` and `[...slug]/page.tsx` export `revalidate = 86400`.
+  These must be literals; keep them equal to `SANITY_REVALIDATE_SECONDS`.
+- `/api/indexnow/webhook` calls `revalidateTag("sanity")` for **every** document
+  type, before the IndexNow logic. A publish refreshes the whole site; pages then
+  regenerate lazily, only when someone requests them.
+- `useCdn: false` (§6).
+- `robots.ts` disallows SEO-tool crawlers (Ahrefs, Semrush, MJ12, DotBot,
+  DataForSeoBot and others). Search engines, AI crawlers and link-preview bots
+  (`facebookexternalhit`, LinkedInBot, WhatsApp) stay allowed on purpose.
+
+Verified on the dev server: fetch-cache entries carry the tag and the 86400
+lifetime, a repeat request leaves them untouched, and a webhook call makes the
+next request refetch from Sanity.
+
+### Rules
+
+- **Never call Sanity with the raw `createClient` result from a page or
+  component.** Always go through `client` from `sanity.client.ts`, or the route
+  goes dynamic again. The only exceptions are scripts and `src/lib/aiCheck`,
+  which need uncached writes.
+- **Content edited through the API or Studio appears on publish.** If it does
+  not, the webhook did not fire. Refresh by hand:
+  `POST /api/indexnow/webhook`, header `Authorization: Bearer <INDEXNOW_WEBHOOK_SECRET>`,
+  body `{"_id":"manual","_type":"manual"}`.
+- The webhook in manage.sanity.io triggers on `singlepage`, `blog`, `portfolio`
+  only. Edits to `homepage`, `header`, `footer`, `formStandardDocument`,
+  `blogPage` or `portfolioPage` wait up to a day, or need the manual call above.
+  Widening the webhook filter fixes that (keep excluding drafts and
+  `aiVisibilityCheck`).
+- After a deploy, confirm with a handful of requests that `/`, a blog post and
+  `/portfolio` answer `X-Vercel-Cache: HIT` or `STALE` on a repeat request, not
+  `MISS` with `no-store`.

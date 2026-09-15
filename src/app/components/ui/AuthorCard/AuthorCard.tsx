@@ -29,7 +29,6 @@ const AuthorCard: React.FC<Props> = ({ author, lang }) => {
             alt={author.photo.alt ?? author.name}
             width={48}
             height={48}
-            unoptimized
             className={styles.avatar}
           />
         )}

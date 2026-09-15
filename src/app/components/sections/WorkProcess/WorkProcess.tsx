@@ -42,7 +42,6 @@ const WorkProcess = ({ processSection }: Props) => {
                           alt={step.icon.alt ?? title}
                           width={70}
                           height={70}
-                          unoptimized
                           className={styles.image}
                         />
                       </div>

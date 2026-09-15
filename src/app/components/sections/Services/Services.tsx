@@ -43,7 +43,6 @@ const Services: FC<Props> = ({ servicesSection }) => {
                           alt={item.icon.alt ?? title}
                           width={70}
                           height={70}
-                          unoptimized
                           className={styles.image}
                         />
                       </div>

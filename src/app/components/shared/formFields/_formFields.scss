@@ -7,7 +7,11 @@
 
 @mixin input-field {
   width: 100%;
-  padding: 15px 28px;
+  // The left padding clears the leading icon (left: 20px, 20px wide) on every
+  // width and lines the typed text up with the floating label (left: 50px).
+  // It used to be 28px below 768px, so on phones the first characters ran
+  // under the icon. Only the right side tightens on small screens.
+  padding: 15px 20px 15px 50px;
   font-size: 1rem;
   background: var(--bg-base);
   outline: none;

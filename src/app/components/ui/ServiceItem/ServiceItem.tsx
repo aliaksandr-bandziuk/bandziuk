@@ -20,7 +20,7 @@ const ServiceItem = ({ title, excerpt, previewImage }: Props) => {
             src={urlFor(previewImage).url()}
             alt={title}
             fill
-            unoptimized
+            sizes="(max-width: 768px) 100vw, (max-width: 1100px) 50vw, 33vw"
             className={styles.imageQuote}
           />
         )}

@@ -338,21 +338,6 @@ export type BenefitsBlock = {
   benefits: Benefit[];
 };
 
-export type Step = {
-  _key: string;
-  _type: "steps";
-  icon: Image;
-  text: string;
-};
-
-export type HowWeWorkBlock = {
-  _key: string;
-  _type: "howWeWorkBlock";
-  title: string;
-  steps: Step[];
-  description: string;
-};
-
 export type Review = {
   _key: string;
   _type: string;

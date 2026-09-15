@@ -58,6 +58,8 @@ export async function resolveDocumentUrls(
       "_translations": *[_type == "translation.metadata" && references(^._id)].translations[].value->{ slug }
     }`,
     { id: _id, language },
+    // Runs inside the publish webhook: must see the document just published.
+    { cache: "no-store" },
   );
   if (!result?.slug) return [];
 

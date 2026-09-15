@@ -60,7 +60,6 @@ const RelatedServicesBlockComponent: FC<Props> = ({ block, lang }) => {
                         fill
                         className={styles.cardImage}
                         sizes="(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 33vw"
-                        unoptimized
                       />
                     )}
                     <div className={styles.cardGradient} />

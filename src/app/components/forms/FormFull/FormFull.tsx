@@ -12,6 +12,7 @@ import { Form as FormType } from "@/types/form";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { trackEvent } from "@/utils/analytics";
+import { useFormGuard } from "@/app/components/forms/FormGuard/useFormGuard";
 
 export type FormData = {
   name: string;
@@ -45,6 +46,7 @@ const FormFull: FC<ContactFormProps> = ({
 
   const dataForm = form.form;
   const router = useRouter(); // Используйте useRouter из next/navigation
+  const { honeypot, guardFields } = useFormGuard();
 
   useEffect(() => {
     const autofilledFields = ["name", "phone", "email", "message"] as const;
@@ -116,6 +118,7 @@ const FormFull: FC<ContactFormProps> = ({
       const response = await axios.post("/api/email", {
         ...values,
         currentPage,
+        ...guardFields(),
       });
       if (response.status === 200) {
         resetForm({});
@@ -173,6 +176,7 @@ const FormFull: FC<ContactFormProps> = ({
       >
         {({ isSubmitting, setFieldValue }) => (
           <Form>
+            {honeypot}
             {/* Поле для имени */}
             <div className={styles.inputWrapper}>
               <svg

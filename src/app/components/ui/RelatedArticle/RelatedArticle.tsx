@@ -59,6 +59,7 @@ const RelatedArticle: FC<Props> = ({
             src={urlFor(previewImage).url()}
             alt={previewImage.alt ?? title}
             fill
+            sizes="(max-width: 980px) 100vw, 33vw"
             className={styles.previewImage}
           />
         ) : (
@@ -66,6 +67,7 @@ const RelatedArticle: FC<Props> = ({
             src={PLACEHOLDER}
             alt="Placeholder"
             fill
+            sizes="(max-width: 980px) 100vw, 33vw"
             className={styles.previewImage}
           />
         )}

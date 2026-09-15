@@ -48,9 +48,19 @@ const Contacts: FC<Props> = ({ contacts, lang, formDocument }) => {
             <div className={styles.contactsWrapper}>
               <div className={styles.direct}>
                 <div className={styles.directImage}>
+                  {/* A plain <img> on purpose. This dotted map is an indexed PNG
+                      that WebP encodes larger (99 KB vs 73 KB), so there is
+                      nothing for an optimizer to gain. It sits in the footer on
+                      every page, so it loads lazily, with its real size to
+                      reserve space. */}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="https://cdn.sanity.io/files/x6jc462y/production/61b823d8e4d34037dd42c28841d0f12bd957658f.png"
                     alt={title}
+                    width={600}
+                    height={359}
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className={styles.directContacts}>
@@ -90,7 +100,6 @@ const Contacts: FC<Props> = ({ contacts, lang, formDocument }) => {
                               alt={link.icon.alt ?? link.label}
                               width={30}
                               height={30}
-                              unoptimized
                               className={styles.socialLinkImage}
                             />
                           )}

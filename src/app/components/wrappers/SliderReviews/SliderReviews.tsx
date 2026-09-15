@@ -16,8 +16,10 @@ type Props = {
 };
 
 const SliderReviews: FC<Props> = ({ reviews }) => {
+  // Same picture as the old files/ URL, uploaded as an image asset so Sanity's
+  // image CDN can resize it (18 KB PNG → 3 KB WebP).
   const avatarUrl =
-    "https://cdn.sanity.io/files/x6jc462y/production/d355838057446111a204245c97aed7a0cec7acba.png";
+    "https://cdn.sanity.io/images/x6jc462y/production/d355838057446111a204245c97aed7a0cec7acba-300x300.png";
 
   if (!reviews || reviews.length === 0) return null;
 
@@ -55,13 +57,14 @@ const SliderReviews: FC<Props> = ({ reviews }) => {
                       alt={review.image.alt ?? review.name}
                       width={100}
                       height={100}
-                      unoptimized
                       className={styles.authorImage}
                     />
                   ) : (
-                    <img
+                    <Image
                       src={avatarUrl}
                       alt={review.name}
+                      width={100}
+                      height={100}
                       className={styles.authorImage}
                     />
                   )}

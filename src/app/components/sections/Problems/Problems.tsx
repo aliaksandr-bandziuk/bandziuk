@@ -44,7 +44,7 @@ const Problems: FC<Props> = ({ problemsSection }) => {
                     </IconBadge>
                   ) : (
                     <div className={styles.icon}>
-                      <img
+                      <Image
                         src={urlFor(item.icon).url()}
                         alt={item.icon.alt ?? title}
                         width={100}

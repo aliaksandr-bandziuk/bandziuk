@@ -28,6 +28,11 @@ const fontMono = JetBrains_Mono({
   variable: "--font-mono",
 });
 
+// Default cache lifetime for every page under [lang]. Must be a literal; keep
+// equal to SANITY_REVALIDATE_SECONDS. Content changes arrive through the
+// publish webhook's revalidateTag, not through this timer.
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bandziuk.com"),
   title: "Bandziuk - Full Stack Developer & SEO Manager",

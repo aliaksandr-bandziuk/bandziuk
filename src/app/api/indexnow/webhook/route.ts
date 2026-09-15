@@ -1,5 +1,7 @@
 import { timingSafeEqual } from "crypto";
+import { revalidateTag } from "next/cache";
 import { NextRequest, NextResponse } from "next/server";
+import { SANITY_CACHE_TAG } from "@/sanity/sanity.client";
 import {
   resolveDocumentUrls,
   type IndexNowWebhookPayload,
@@ -49,8 +51,14 @@ export async function POST(request: NextRequest) {
     );
   }
 
+  // Refresh the site before anything else, for every document type: pages are
+  // cached for a day and this is how a publish reaches them immediately. It
+  // also runs first so the URL resolution below reads fresh data. A manual
+  // refresh is a POST with the secret and body {"_id":"manual","_type":"manual"}.
+  revalidateTag(SANITY_CACHE_TAG);
+
   if (!TRACKED_TYPES.has(payload._type)) {
-    return NextResponse.json({ skipped: true, reason: "type not tracked" });
+    return NextResponse.json({ revalidated: true, skipped: true, reason: "type not tracked" });
   }
 
   const urls = await resolveDocumentUrls(payload);
@@ -58,9 +66,9 @@ export async function POST(request: NextRequest) {
     console.log(
       `[indexnow] ${payload._id}: no reachable URL resolved, nothing submitted`,
     );
-    return NextResponse.json({ skipped: true, reason: "no resolvable URL" });
+    return NextResponse.json({ revalidated: true, skipped: true, reason: "no resolvable URL" });
   }
 
   const results = await submitToIndexNow(urls);
-  return NextResponse.json({ submittedUrls: urls, results });
+  return NextResponse.json({ revalidated: true, submittedUrls: urls, results });
 }

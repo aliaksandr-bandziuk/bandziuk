@@ -82,7 +82,9 @@ type Props = {
 };
 
 export const dynamicParams = false;
-export const revalidate = 60;
+// Must be a literal (Next reads it statically). Keep equal to
+// SANITY_REVALIDATE_SECONDS; publishes refresh pages through revalidateTag.
+export const revalidate = 86400;
 
 /**
  * Собираем все combinations [lang, slug[]] для SSG

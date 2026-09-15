@@ -46,7 +46,6 @@ const BlogIntro: FC<Props> = ({
                     alt={author.photo.alt ?? author.name}
                     width={36}
                     height={36}
-                    unoptimized
                     className={styles.bylineAvatar}
                   />
                 )}
@@ -78,7 +77,7 @@ const BlogIntro: FC<Props> = ({
           </div>
           {previewImage && (
             <div className={styles.blogIntroImage}>
-              <Image src={urlFor(previewImage).url()} alt={previewImage.alt ?? title} fill={true} />
+              <Image src={urlFor(previewImage).url()} alt={previewImage.alt ?? title} fill={true} sizes="(max-width: 1300px) 100vw, 1240px" priority />
             </div>
           )}
         </div>

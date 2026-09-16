@@ -436,6 +436,8 @@ export type RelatedArticle = {
   };
   publishedAt: string;
   previewImage: Image;
+  /** Parent slugs of a referenced service page, empty for blog and portfolio. */
+  parentPath?: string;
 };
 
 export type AuthorSocialLink = {

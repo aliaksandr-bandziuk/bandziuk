@@ -1,0 +1,125 @@
+[
+  {
+    "page": "/pl/oferty/seo-miedzynarodowe",
+    "docId": "service-international-seo.pl",
+    "fixLinks": [
+      { "from": "/pl/oferty/lokacii", "to": "/pl/oferty/lokalizacje", "why": "russian slug, answers 404" },
+      { "from": "/pl/tworzenie-stron-wielojezycznych", "to": "/pl/oferty/tworzenie-stron-wielojezycznych", "why": "old flat URL, 308 redirect" }
+    ],
+    "paragraphs": [
+      {
+        "text": "Pracę na konkretnych rynkach opisują osobne strony: rynek francuski, rynek irlandzki, rynek włoski, rynek holenderski, rynki bałtyckie i rynek australijski.",
+        "links": [
+          { "anchor": "rynek francuski", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski" },
+          { "anchor": "rynek irlandzki", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-irlandzki" },
+          { "anchor": "rynek włoski", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski" },
+          { "anchor": "rynek holenderski", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-holenderski" },
+          { "anchor": "rynki bałtyckie", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie" },
+          { "anchor": "rynek australijski", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-australijski" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/tworzenie-stron-internetowych",
+    "docId": "b35e57c9-9cce-4ebd-ab05-5121ffa38fef",
+    "paragraphs": [
+      {
+        "text": "Dla części branż mam osobne strony: strona dla fotografa, strona dla biura rachunkowego, strona dla biura architektonicznego, strona dla szkoły językowej, strona dla agencji rekrutacyjnej, strona dla biura podróży, strona dla przychodni weterynaryjnej oraz strona dla modelki.",
+        "links": [
+          { "anchor": "strona dla fotografa", "href": "/pl/strona-dla-fotografa" },
+          { "anchor": "strona dla biura rachunkowego", "href": "/pl/strona-dla-biura-rachunkowego" },
+          { "anchor": "strona dla biura architektonicznego", "href": "/pl/strona-dla-biura-architektonicznego" },
+          { "anchor": "strona dla szkoły językowej", "href": "/pl/strona-dla-szkoly-jezykowej" },
+          { "anchor": "strona dla agencji rekrutacyjnej", "href": "/pl/strona-dla-agencji-rekrutacyjnej" },
+          { "anchor": "strona dla biura podróży", "href": "/pl/strona-dla-biura-podrozy" },
+          { "anchor": "strona dla przychodni weterynaryjnej", "href": "/pl/strona-dla-przychodni-weterynaryjnej" },
+          { "anchor": "strona dla modelki", "href": "/pl/strona-internetowa-dla-modelki" }
+        ]
+      },
+      {
+        "text": "Zrealizowane projekty: platforma inwestycyjna PeakProfit, strona agencji marketingowej ProScore oraz strona osobista z SEO.",
+        "links": [
+          { "anchor": "platforma inwestycyjna PeakProfit", "href": "/pl/portfolio/rozwoj-platformy-inwestycyjnej-peakprofit" },
+          { "anchor": "strona agencji marketingowej ProScore", "href": "/pl/portfolio/stworzenie-strony-internetowej-dla-agencji-marketingowej-proscore" },
+          { "anchor": "strona osobista z SEO", "href": "/pl/portfolio/tworzenie-i-optymalizacja-strony-osobistej-z-seo" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/tworzenie-landing-page",
+    "docId": "285c29ad-bc6b-4fde-a1bf-91aebd7e47e6",
+    "paragraphs": [
+      {
+        "text": "Przykłady moich landingów: landing sprzedażowy z płatnością i zabezpieczonym kursem wideo oraz landing page DJ-a i producenta muzycznego.",
+        "links": [
+          { "anchor": "landing sprzedażowy z płatnością i zabezpieczonym kursem wideo", "href": "/pl/portfolio/landing-sprzedazowy-z-platnoscia-i-zabezpieczonym-kursem-wideo" },
+          { "anchor": "landing page DJ-a i producenta muzycznego", "href": "/pl/portfolio/landing-page-dj-i-producenta-muzycznego" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/integracja-cms-i-api",
+    "docId": "5ddf5532-8ec3-4bb8-a031-6fd3967aefc3",
+    "paragraphs": [
+      {
+        "text": "Jak to wygląda w praktyce: platforma edukacyjna z własnym CMS, strona dostawcy internetu z panelem administracyjnym oraz ochrona formularzy przed spamem bez CAPTCHA.",
+        "links": [
+          { "anchor": "platforma edukacyjna z własnym CMS", "href": "/pl/portfolio/pelny-rozwoj-i-seo-dla-platformy-edukacyjnej" },
+          { "anchor": "strona dostawcy internetu z panelem administracyjnym", "href": "/pl/portfolio/stworzenie-strony-internetowej-dostawcy-internetu" },
+          { "anchor": "ochrona formularzy przed spamem bez CAPTCHA", "href": "/pl/portfolio/ochrona-formularzy-przed-spamem-bez-captcha" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai",
+    "docId": "service-ai-search-readiness.pl",
+    "paragraphs": [
+      {
+        "text": "O jednym z plików, o które pytają klienci przy tej usłudze, piszę osobno: czy strona potrzebuje pliku llms.txt.",
+        "links": [
+          { "anchor": "czy strona potrzebuje pliku llms.txt", "href": "/pl/blog/czy-strona-potrzebuje-pliku-llms-txt" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/audyt-seo-strony-internetowej",
+    "docId": "8b7c6b4c-412c-4fa1-b8f8-ec0a1b2816b5",
+    "paragraphs": [
+      {
+        "text": "W audycie sprawdzam też mapę witryny, a o jej najczęstszym błędzie piszę w tekście o znaczniku lastmod w mapie witryny.",
+        "links": [
+          { "anchor": "lastmod w mapie witryny", "href": "/pl/blog/lastmod-w-mapie-witryny" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/tworzenie-stron-internetowych-dla-branzy-beauty",
+    "docId": "a2b00f93-6d28-4b36-b2c9-e5c01867b5b4",
+    "paragraphs": [
+      {
+        "text": "O samym projekcie graficznym w tej branży piszę osobno: czarno-złoty projekt strony nie czyta się jako drogi.",
+        "links": [
+          { "anchor": "czarno-złoty projekt strony nie czyta się jako drogi", "href": "/pl/blog/czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/seo-dla-nieruchomosci-na-cyprze",
+    "docId": "c8cf5d0e-433d-4b3c-b080-2ceaef128848",
+    "paragraphs": [
+      {
+        "text": "Ogólne zasady dla tej branży, niezależnie od rynku, opisuje strona SEO dla stron nieruchomości.",
+        "links": [
+          { "anchor": "SEO dla stron nieruchomości", "href": "/pl/seo-dla-stron-nieruchomosci" }
+        ]
+      }
+    ]
+  }
+]

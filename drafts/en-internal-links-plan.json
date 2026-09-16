@@ -1,0 +1,135 @@
+[
+  {
+    "page": "/services/international-seo",
+    "docId": "service-international-seo",
+    "paragraphs": [
+      {
+        "text": "Individual markets have their own pages: the French market, the Irish market, the Italian market, the Dutch market, the Baltic markets and the Australian market.",
+        "links": [
+          { "anchor": "the French market", "href": "/services/locations/seo-for-french-market" },
+          { "anchor": "the Irish market", "href": "/services/locations/seo-for-irish-market" },
+          { "anchor": "the Italian market", "href": "/services/locations/seo-for-italian-market" },
+          { "anchor": "the Dutch market", "href": "/services/locations/seo-for-dutch-market" },
+          { "anchor": "the Baltic markets", "href": "/services/locations/seo-for-baltic-markets" },
+          { "anchor": "the Australian market", "href": "/services/locations/seo-for-australian-market" }
+        ]
+      },
+      {
+        "text": "For companies building from a base abroad there are separate pages on website development in Montenegro, in Portugal, in Thailand and in Georgia.",
+        "links": [
+          { "anchor": "website development in Montenegro", "href": "/services/locations/website-development-montenegro" },
+          { "anchor": "in Portugal", "href": "/services/locations/website-development-portugal" },
+          { "anchor": "in Thailand", "href": "/services/locations/website-development-thailand" },
+          { "anchor": "in Georgia", "href": "/services/locations/website-development-georgia" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/website-development",
+    "docId": "8701994a-d9ba-4230-84b5-2e491b87cb61",
+    "paragraphs": [
+      {
+        "text": "Some industries have a page of their own: a photographer website, an accounting firm website, an architecture studio website, a language school website, a recruitment agency website, a travel agency website, a cleaning company website, a restaurant website, a veterinary clinic website and a website for models.",
+        "links": [
+          { "anchor": "a photographer website", "href": "/photographer-website" },
+          { "anchor": "an accounting firm website", "href": "/accounting-firm-website" },
+          { "anchor": "an architecture studio website", "href": "/architecture-studio-website" },
+          { "anchor": "a language school website", "href": "/language-school-website" },
+          { "anchor": "a recruitment agency website", "href": "/recruitment-agency-website" },
+          { "anchor": "a travel agency website", "href": "/travel-agency-website" },
+          { "anchor": "a cleaning company website", "href": "/cleaning-company-website" },
+          { "anchor": "a restaurant website", "href": "/restaurant-website" },
+          { "anchor": "a veterinary clinic website", "href": "/veterinary-clinic-website" },
+          { "anchor": "a website for models", "href": "/website-design-for-models" }
+        ]
+      },
+      {
+        "text": "Built and shipped: an investment platform with AI-guided learning, a digital agency website and a personal website with SEO.",
+        "links": [
+          { "anchor": "an investment platform with AI-guided learning", "href": "/portfolio/investment-platform-with-ai-guided-learning" },
+          { "anchor": "a digital agency website", "href": "/portfolio/proscore-agency-website-development" },
+          { "anchor": "a personal website with SEO", "href": "/portfolio/develop-and-optimize-a-personal-website-with-seo" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/seo-optimization-and-strategy",
+    "docId": "42a469a6-28f3-4015-8b88-414c8eb3d4fa",
+    "paragraphs": [
+      {
+        "text": "Industry pages go into the detail of a market: SEO for real estate, SEO for beauty salons, SEO for auto repair shops and SEO for Polish clinics targeting German patients.",
+        "links": [
+          { "anchor": "SEO for real estate", "href": "/seo-for-real-estate" },
+          { "anchor": "SEO for beauty salons", "href": "/seo-for-beauty-salons" },
+          { "anchor": "SEO for auto repair shops", "href": "/seo-for-auto-repair-shop" },
+          { "anchor": "SEO for Polish clinics targeting German patients", "href": "/services/seo-for-polish-clinics-targeting-german-patients" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/landing-page-development",
+    "docId": "f9269d94-976e-43cd-bacb-8ed3c60039cd",
+    "paragraphs": [
+      {
+        "text": "Examples: an e-commerce landing page with secured video access and the official website for DJ and producer Sasha Dith.",
+        "links": [
+          { "anchor": "an e-commerce landing page with secured video access", "href": "/portfolio/e-commerce-landing-page-with-secured-video-access" },
+          { "anchor": "the official website for DJ and producer Sasha Dith", "href": "/portfolio/official-website-for-dj-and-producer-sasha-dith" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/cms-integration-and-api-work",
+    "docId": "ab99b964-1aa8-4ad8-a8a3-7fb0863cf549",
+    "paragraphs": [
+      {
+        "text": "How that looks in practice: a multilingual platform for student services, a website for an internet provider with its own admin panel and anti-spam protection for website forms.",
+        "links": [
+          { "anchor": "a multilingual platform for student services", "href": "/portfolio/full-multilingual-website-development-and-seo-for-student-services" },
+          { "anchor": "a website for an internet provider with its own admin panel", "href": "/portfolio/web-development-a-website-for-internet-prowider" },
+          { "anchor": "anti-spam protection for website forms", "href": "/portfolio/anti-spam-protection-for-website-forms" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/seo-audit",
+    "docId": "0e071d28-ee05-42a2-81a6-5be75b4264bc",
+    "paragraphs": [
+      {
+        "text": "The audit covers the sitemap too, and its most common fault has its own write-up: what happens to lastmod in a sitemap.",
+        "links": [
+          { "anchor": "what happens to lastmod in a sitemap", "href": "/blog/sitemap-lastmod" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/ai-search-readiness",
+    "docId": "service-ai-search-readiness",
+    "paragraphs": [
+      {
+        "text": "One file clients keep asking about has its own answer: does your site need llms.txt.",
+        "links": [
+          { "anchor": "does your site need llms.txt", "href": "/blog/does-your-site-need-llms-txt" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/seo-for-beauty-salons",
+    "docId": "5869ba72-348b-498e-b419-861e52ccb6ef",
+    "paragraphs": [
+      {
+        "text": "On the look of these sites there is a separate piece: why black-and-gold web design no longer reads as expensive.",
+        "links": [
+          { "anchor": "why black-and-gold web design no longer reads as expensive", "href": "/blog/black-and-gold-web-design-no-longer-reads-expensive" }
+        ]
+      }
+    ]
+  }
+]

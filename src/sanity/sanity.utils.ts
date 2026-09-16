@@ -858,6 +858,13 @@ export async function getBlogPostByLang(
         _type,
         title,
         excerpt,
+        // Parent chain, like serviceOffered above: a referenced service page lives
+        // under services/ oferty/ uslugi, and linking to the bare slug only
+        // reached it through the flat→nested redirect.
+        "parentPath": array::join(array::compact([
+          parentPage->parentPage->slug[$lang].current,
+          parentPage->slug[$lang].current
+        ]), "/"),
         category->{
           _id,
           _type,

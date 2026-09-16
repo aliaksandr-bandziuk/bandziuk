@@ -1,0 +1,74 @@
+[
+  {
+    "page": "/services/multilingual-website-development",
+    "docId": "singlepage-multilingual-website",
+    "paragraphs": [
+      {
+        "text": "A recent one: a residency-by-investment guide covering five jurisdictions, built in three languages on native URLs per language.",
+        "links": [
+          { "anchor": "a residency-by-investment guide covering five jurisdictions", "href": "/portfolio/residency-by-investment-guide-with-sourced-figures" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/landing-page-development",
+    "docId": "f9269d94-976e-43cd-bacb-8ed3c60039cd",
+    "paragraphs": [
+      {
+        "text": "A multilingual example: a landing page for a wheel and tyre storage business, in three languages with SEO its owner can edit.",
+        "links": [
+          { "anchor": "a landing page for a wheel and tyre storage business", "href": "/portfolio/tyre-storage-landing-page-with-editable-seo" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/tworzenie-stron-wielojezycznych",
+    "docId": "singlepage-multilingual-website.pl",
+    "paragraphs": [
+      {
+        "text": "Świeży przykład: przewodnik po rezydencji za inwestycje w pięciu jurysdykcjach, zbudowany w trzech językach na osobnych adresach dla każdego z nich.",
+        "links": [
+          { "anchor": "przewodnik po rezydencji za inwestycje w pięciu jurysdykcjach", "href": "/pl/portfolio/przewodnik-po-rezydencji-za-inwestycje-ze-zrodlami" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/tworzenie-landing-page",
+    "docId": "285c29ad-bc6b-4fde-a1bf-91aebd7e47e6",
+    "paragraphs": [
+      {
+        "text": "Przykład wielojęzyczny: trójjęzyczny landing przechowalni opon w Warszawie, w którym SEO edytuje sam właściciel.",
+        "links": [
+          { "anchor": "trójjęzyczny landing przechowalni opon w Warszawie", "href": "/pl/portfolio/landing-przechowalni-opon-w-warszawie" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/razrabotka-multiyazychnogo-saita",
+    "docId": "singlepage-multilingual-website.ru",
+    "paragraphs": [
+      {
+        "text": "Свежий пример: справочник по ВНЖ за инвестиции в пяти юрисдикциях, сделанный на трёх языках с отдельными адресами для каждого.",
+        "links": [
+          { "anchor": "справочник по ВНЖ за инвестиции в пяти юрисдикциях", "href": "/ru/portfolio/spravochnik-po-vnzh-za-investicii-s-pervoistochnikami" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/razrabotka-lendingov",
+    "docId": "dd5a054f-83a1-4865-93f3-625c2ecdacc2",
+    "paragraphs": [
+      {
+        "text": "Многоязычный пример: трёхъязычный лендинг склада сезонного хранения колёс, где SEO правит сам владелец.",
+        "links": [
+          { "anchor": "трёхъязычный лендинг склада сезонного хранения колёс", "href": "/ru/portfolio/lending-sklada-sezonnogo-hraneniya-koles" }
+        ]
+      }
+    ]
+  }
+]

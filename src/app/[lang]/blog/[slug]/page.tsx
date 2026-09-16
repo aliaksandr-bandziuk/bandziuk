@@ -226,6 +226,12 @@ const PagePost = async ({ params }: Props) => {
         ? "Связаться со мной"
         : "Get in touch";
 
+  // The contact page has its own slug per language. This CTA used to build
+  // "/pl/contacts" and "/ru/contacts" from the English one: a 404 on every
+  // Polish and Russian post, for readers and for crawlers alike.
+  const contactHref =
+    lang === "pl" ? "/pl/kontakt" : lang === "ru" ? "/ru/kontakty" : "/contacts";
+
   return (
     <>
       <Header params={params} translations={translations} />
@@ -285,7 +291,7 @@ const PagePost = async ({ params }: Props) => {
                 />
               )}
               <Button
-                href={`/${lang === "en" ? "" : lang + "/"}contacts`}
+                href={contactHref}
                 variant="secondary"
                 className={styles.sidebarCta}
               >
@@ -319,6 +325,7 @@ const PagePost = async ({ params }: Props) => {
                     category={article.category}
                     slug={article.slug}
                     previewImage={article.previewImage}
+                    parentPath={article.parentPath}
                     lang={lang}
                   />
                 ))}

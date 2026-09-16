@@ -1,0 +1,120 @@
+[
+  {
+    "page": "/ru/uslugi/mezhdunarodnoe-seo",
+    "docId": "service-international-seo.ru",
+    "paragraphs": [
+      {
+        "text": "Работу на конкретных рынках описывают отдельные страницы: продвижение на австралийский рынок, продвижение на рынки Балтии, а также разработка сайтов в Черногории, в Грузии и в Таиланде.",
+        "links": [
+          { "anchor": "продвижение на австралийский рынок", "href": "/ru/uslugi/lokacii/prodvizhenie-na-avstraliyskiy-rynok" },
+          { "anchor": "продвижение на рынки Балтии", "href": "/ru/uslugi/lokacii/prodvizhenie-na-rynki-baltii" },
+          { "anchor": "разработка сайтов в Черногории", "href": "/ru/uslugi/lokacii/razrabotka-saitov-chernogoriya" },
+          { "anchor": "в Грузии", "href": "/ru/uslugi/lokacii/razrabotka-saitov-gruziya" },
+          { "anchor": "в Таиланде", "href": "/ru/uslugi/lokacii/razrabotka-saitov-tailand" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/lokalnoe-seo-prodvizhenie",
+    "docId": "service-local-seo.ru",
+    "paragraphs": [
+      {
+        "text": "Для города, где я живу и работаю, есть отдельная страница: продвижение сайтов в Варшаве.",
+        "links": [
+          { "anchor": "продвижение сайтов в Варшаве", "href": "/ru/uslugi/prodvizhenie-saitov-varshava" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/razrabotka-saitov",
+    "docId": "21d6001f-5181-4249-aef2-5ed9425bf81d",
+    "paragraphs": [
+      {
+        "text": "Для части ниш есть отдельные страницы: сайт для фотографа, сайт для бухгалтерской фирмы, сайт для архитектурного бюро, сайт для языковой школы, сайт для кадрового агентства, сайт для турагентства, сайт для ветеринарной клиники и сайт модели.",
+        "links": [
+          { "anchor": "сайт для фотографа", "href": "/ru/sait-dlya-fotografa" },
+          { "anchor": "сайт для бухгалтерской фирмы", "href": "/ru/sait-dlya-buhgalterskoy-firmy" },
+          { "anchor": "сайт для архитектурного бюро", "href": "/ru/sait-dlya-arhitekturnogo-byuro" },
+          { "anchor": "сайт для языковой школы", "href": "/ru/sait-dlya-yazykovoy-shkoly" },
+          { "anchor": "сайт для кадрового агентства", "href": "/ru/sait-dlya-kadrovogo-agentstva" },
+          { "anchor": "сайт для турагентства", "href": "/ru/sait-dlya-turagentstva" },
+          { "anchor": "сайт для ветеринарной клиники", "href": "/ru/sait-dlya-veterinarnoy-kliniki" },
+          { "anchor": "сайт модели", "href": "/ru/sozdanie-saita-modeli" }
+        ]
+      },
+      {
+        "text": "Примеры работ: инвестиционная платформа PeakProfit, сайт digital-агентства ProScore и персональный сайт с SEO.",
+        "links": [
+          { "anchor": "инвестиционная платформа PeakProfit", "href": "/ru/portfolio/razrabotka-investicionnogo-vebsaita-peakprofit" },
+          { "anchor": "сайт digital-агентства ProScore", "href": "/ru/portfolio/sozdanie-saita-digital-agentstva-proscore" },
+          { "anchor": "персональный сайт с SEO", "href": "/ru/portfolio/razrabotka-i-seo-optimizaciya-personalnogo-saita" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/razrabotka-lendingov",
+    "docId": "dd5a054f-83a1-4865-93f3-625c2ecdacc2",
+    "paragraphs": [
+      {
+        "text": "Примеры лендингов: лендинг с продажей и защитой видеокурса и сайт диджея и продюсера Sasha Dith.",
+        "links": [
+          { "anchor": "лендинг с продажей и защитой видеокурса", "href": "/ru/portfolio/e-commerce-lending-i-zashita-videokursa" },
+          { "anchor": "сайт диджея и продюсера Sasha Dith", "href": "/ru/portfolio/oficialnyi-sait-sasha-dith" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/integraciya-cms-i-api",
+    "docId": "fe3ab5a9-816f-4562-b412-602ef6bd1bb1",
+    "paragraphs": [
+      {
+        "text": "Как это выглядит на практике: образовательная платформа с собственной CMS, сайт интернет-провайдера с личным кабинетом и защита форм от спама без капчи.",
+        "links": [
+          { "anchor": "образовательная платформа с собственной CMS", "href": "/ru/portfolio/polnaya-razrabotka-i-seo-dlya-obrazovatelnoi-platformy" },
+          { "anchor": "сайт интернет-провайдера с личным кабинетом", "href": "/ru/portfolio/sozdanie-saita-internet-provaidera" },
+          { "anchor": "защита форм от спама без капчи", "href": "/ru/portfolio/zashita-form-ot-spama" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/seo-audit-saita",
+    "docId": "0ba09f41-cdc6-40b1-8b57-e56ac656e979",
+    "paragraphs": [
+      {
+        "text": "В аудите я проверяю и карту сайта, а о самой частой ошибке в ней написан отдельный разбор: lastmod в карте сайта.",
+        "links": [
+          { "anchor": "lastmod в карте сайта", "href": "/ru/blog/lastmod-v-karte-saita" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/sozdanie-saitov-dlya-byuti-uslug",
+    "docId": "4128719c-e187-4191-9120-eee3f5f9fa6f",
+    "paragraphs": [
+      {
+        "text": "Об оформлении в этой нише есть отдельный разбор: дизайн сайта в чёрном с золотом больше не читается как дорого.",
+        "links": [
+          { "anchor": "дизайн сайта в чёрном с золотом больше не читается как дорого", "href": "/ru/blog/chernyy-s-zolotom-dizayn-sayta-ne-chitaetsya-kak-dorogo" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/seo-dlya-nedvizhimosti-na-kipre",
+    "docId": "d0eb4a85-35a0-4738-be86-148e6cbdb398",
+    "paragraphs": [
+      {
+        "text": "Общие правила отрасли, независимо от рынка, описывает страница про SEO для недвижимости в целом.",
+        "links": [
+          { "anchor": "SEO для недвижимости в целом", "href": "/ru/seo-dlya-nedvizhimosti" }
+        ]
+      }
+    ]
+  }
+]

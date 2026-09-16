@@ -16,6 +16,8 @@ export type Props = {
     };
   };
   previewImage?: ImageType;
+  /** Parent slugs of a referenced service page, e.g. "services" or "oferty/lokalizacje". */
+  parentPath?: string;
   lang: string;
 };
 
@@ -31,6 +33,7 @@ const RelatedArticle: FC<Props> = ({
   slug,
   category,
   previewImage,
+  parentPath,
   lang,
 }) => {
   const langKey = lang as keyof typeof slug;
@@ -43,10 +46,12 @@ const RelatedArticle: FC<Props> = ({
   const PLACEHOLDER =
     "https://cdn.sanity.io/files/88gk88s2/production/1580d3312e8cb973526a4d8f1019c78868ab3a45.jpg";
 
-  // Only blog/portfolio docs live under a fixed path segment; singlepage docs (and
-  // anything else referenced via relatedArticles) resolve at the site root.
+  // Blog and portfolio docs live under a fixed path segment. A service page
+  // lives under its parents (services/…, oferty/lokalizacje/…): linking to the
+  // bare slug was a link to a redirect on every related-article card.
   const segment = _type ? SEGMENT_BY_TYPE[_type] : "blog";
-  const path = segment ? `${segment}/${current}` : current;
+  const prefix = segment || parentPath || "";
+  const path = prefix ? `${prefix}/${current}` : current;
 
   return (
     <Link

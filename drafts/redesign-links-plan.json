@@ -1,0 +1,110 @@
+[
+  {
+    "page": "/blog/website-redesign-without-losing-traffic",
+    "docId": "blog-redesign-traffic-loss",
+    "paragraphs": [
+      {
+        "text": "If you would rather hand the whole thing over: website redesign services, with the URL map, the redirects and the technical SEO included.",
+        "links": [
+          { "anchor": "website redesign services", "href": "/services/website-redesign-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/blog/redesign-strony-bez-utraty-ruchu",
+    "docId": "blog-redesign-traffic-loss.pl",
+    "paragraphs": [
+      {
+        "text": "Jeśli wolisz oddać całość w jedne ręce: przebudowa strony internetowej razem z mapą adresów, przekierowaniami i SEO technicznym.",
+        "links": [
+          { "anchor": "przebudowa strony internetowej", "href": "/pl/oferty/przebudowa-strony-internetowej" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/blog/redizayn-sayta-bez-poteri-trafika",
+    "docId": "blog-redesign-traffic-loss.ru",
+    "paragraphs": [
+      {
+        "text": "Если проще отдать всё целиком: редизайн сайта вместе с картой адресов, редиректами и техническим SEO.",
+        "links": [
+          { "anchor": "редизайн сайта", "href": "/ru/uslugi/redizayn-sayta" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/website-platform-migration",
+    "docId": "singlepage-platform-migration",
+    "paragraphs": [
+      {
+        "text": "If the platform is staying and the site only needs to look and convert better, that is a redesign rather than a migration.",
+        "links": [
+          { "anchor": "that is a redesign", "href": "/services/website-redesign-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/migracja-strony-na-inna-platforme",
+    "docId": "singlepage-platform-migration.pl",
+    "paragraphs": [
+      {
+        "text": "Jeśli platforma zostaje, a strona ma tylko wyglądać i sprzedawać lepiej, potrzebna jest przebudowa strony, a nie migracja.",
+        "links": [
+          { "anchor": "przebudowa strony", "href": "/pl/oferty/przebudowa-strony-internetowej" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/perenos-saita-na-druguyu-platformu",
+    "docId": "singlepage-platform-migration.ru",
+    "paragraphs": [
+      {
+        "text": "Если платформа остаётся, а сайту нужно только лучше выглядеть и лучше продавать, это редизайн сайта, а не перенос.",
+        "links": [
+          { "anchor": "это редизайн сайта", "href": "/ru/uslugi/redizayn-sayta" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/website-development",
+    "docId": "8701994a-d9ba-4230-84b5-2e491b87cb61",
+    "paragraphs": [
+      {
+        "text": "When a site already exists and has rankings worth keeping, the work is a redesign without losing rankings rather than a build from scratch.",
+        "links": [
+          { "anchor": "a redesign without losing rankings", "href": "/services/website-redesign-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/tworzenie-stron-internetowych",
+    "docId": "b35e57c9-9cce-4ebd-ab05-5121ffa38fef",
+    "paragraphs": [
+      {
+        "text": "Gdy strona już istnieje i ma wypracowane pozycje, właściwą pracą jest przebudowa strony bez utraty pozycji, a nie budowa od zera.",
+        "links": [
+          { "anchor": "przebudowa strony bez utraty pozycji", "href": "/pl/oferty/przebudowa-strony-internetowej" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/razrabotka-saitov",
+    "docId": "21d6001f-5181-4249-aef2-5ed9425bf81d",
+    "paragraphs": [
+      {
+        "text": "Когда сайт уже есть и у него есть заработанные позиции, нужна не разработка с нуля, а редизайн сайта без потери позиций.",
+        "links": [
+          { "anchor": "редизайн сайта без потери позиций", "href": "/ru/uslugi/redizayn-sayta" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,216 @@
+{
+  "baseId": "singlepage-website-redesign",
+  "pageType": "service",
+  "parent": { "en": "4de72361-ec2a-469d-8b56-813ddbf3adca", "pl": "631d883e-6f87-4346-9c6d-48b596c2daa7", "ru": "3774c0a1-8857-4149-be24-9a357af4be00" },
+  "targets": {
+    "en": "website redesign services — 6 600 US / 1 300 UK, KD 10; secondary: website redesign and seo (480), website redesign cost (260)",
+    "pl": "przebudowa strony internetowej (110) + redesign strony internetowej (50)",
+    "ru": "редизайн сайта (90 UA/KZ; Россия в данных недоступна)"
+  },
+  "locales": {
+    "en": {
+      "slug": "website-redesign-services",
+      "title": "Website redesign services that keep your rankings",
+      "excerpt": "A redesign that keeps the traffic the site already earns: every URL mapped, redirects and structured data carried over, a faster build, and a design made for enquiries rather than for a portfolio shot.",
+      "metaTitle": "Website Redesign Services Without Losing Rankings",
+      "metaDescription": "Website redesign that keeps your rankings: URL map, redirects, structured data and speed move into the new design. From €1,000, fixed before work starts.",
+      "pain": {
+        "title": "What usually goes wrong in a redesign",
+        "items": [
+          { "metric": "100%", "title": "The old addresses are dropped", "description": "New page, new URL, no redirect. Every link and every position pointing at the old address goes to a 404, and the drop shows up two weeks later." },
+          { "title": "The markup is left behind", "description": "Schema, hreflang, canonical tags and the sitemap were built over years and then rebuilt from scratch, so search engines and AI assistants read the site as new." },
+          { "title": "It looks new and converts worse", "description": "The design is refreshed and the offers, forms and buttons that brought enquiries are quietly rearranged out of the way." },
+          { "title": "Speed is traded for effects", "description": "Sliders, heavy fonts and animations arrive with the new look, and the mobile page becomes slower than the one being replaced." }
+        ]
+      },
+      "features": {
+        "title": "What a website redesign includes",
+        "items": [
+          { "title": "A URL map before anything changes", "description": "Every address, its traffic and its position are recorded, then matched to the new structure. Where a page disappears, a redirect takes its place." },
+          { "title": "Design for the business, not a template", "description": "The interface is drawn for your buyers and your offers, or your existing Figma file is built pixel-accurately." },
+          { "title": "A rebuild on Next.js", "description": "Server-rendered pages, clean code and images that carry their dimensions. Speed stops being a compromise for the design." },
+          { "title": "SEO carried over, not redone", "description": "Titles, headings, structured data, hreflang and internal links move into the new build with their meaning intact." },
+          { "title": "A CMS your team can edit", "description": "Sanity, with pages, languages and content your team manages without a developer." },
+          { "title": "Lead capture rebuilt", "description": "Offers, short forms, call and WhatsApp buttons where buyers decide, and conversion tracking in GA4 so the effect of the redesign is measurable." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "How a redesign keeps your SEO",
+            "body": "Traffic is rarely lost because of a new design. It is lost through addresses and markup: a page that moved without a redirect, a heading that turned into an image, structured data that was never rebuilt, an internal link left pointing at the old path.\n\nSo the work starts before the design. I export every URL with its impressions and positions, decide which page in the new structure takes its place, and write the redirect map. Structured data, hreflang, titles and headings move over as content, not as decoration. After launch, Search Console and the redirect map are checked against each other for a month, which is when a mistake is still cheap to fix."
+          },
+          {
+            "h2": "How much a website redesign costs",
+            "body": "A redesign of an existing site starts from €1,000 and covers the design, the rebuild, the URL and redirect map and the technical SEO that goes with it. A larger platform with a catalogue, several languages or integrations is quoted after a short call.\n\nThe price is fixed in writing before the work starts, so it does not grow mid-project. Every figure is on the pricing page, not behind a form."
+          },
+          {
+            "h2": "Redesign or migration: which one you need",
+            "body": "A redesign changes how the site looks and works while it stays on its platform. A migration moves it to a different platform, which brings its own risks and its own checklist.\n\nIf you are moving from WordPress or a site builder to Next.js, that is a migration and there is a separate page for it. If the platform stays and the site needs to look and convert better, it is a redesign."
+          },
+          {
+            "h2": "What you get at the end",
+            "body": "A site that loads faster than the one it replaces, keeps the positions it had, and has the forms and offers in the places where buyers actually decide.\n\nOn a recent build the live scores are 96, 98, 100 and 100 in PageSpeed, on a site carrying full-screen interior photography. The same checks run on your project before launch, and you see them."
+          }
+        ]
+      },
+      "steps": {
+        "title": "How a redesign runs, step by step",
+        "items": [
+          { "title": "Audit of what exists", "description": "Pages, positions, traffic, structured data and the technical state of the current site." },
+          { "title": "Structure and URL map", "description": "The new page structure, matched page by page to the old addresses, with the redirect map written down." },
+          { "title": "Design", "description": "Interface design for your buyers and offers, or a pixel-accurate build of your Figma file." },
+          { "title": "Build with SEO inside", "description": "Next.js, clean markup, structured data, hreflang and speed, all in the same pass." },
+          { "title": "Launch and a month of checks", "description": "Redirects, Search Console, positions and enquiries watched while a mistake is still cheap to fix." }
+        ]
+      },
+      "faq": {
+        "title": "Website redesign: frequently asked questions",
+        "items": [
+          { "q": "How much does a website redesign cost?", "a": "From €1,000 for an existing site, including the design, the rebuild, the URL and redirect map and the technical SEO. Platforms with a catalogue, several languages or integrations are quoted after a short call, and the price is fixed in writing before work starts." },
+          { "q": "How do you redesign a website without losing SEO?", "a": "Every URL is exported with its traffic and positions and matched to a page in the new structure before the design starts. Redirects, structured data, hreflang, titles and headings move across with it, and after launch the redirect map and Search Console are checked against each other for a month." },
+          { "q": "How long does a redesign take?", "a": "Two to four weeks for a business website. A platform with a catalogue, several languages or integrations takes longer, and you get a realistic date before work starts." },
+          { "q": "Will my URLs change?", "a": "Only where the structure genuinely improves. Where an address changes, a permanent redirect carries the old one, so links and rankings follow the page." },
+          { "q": "Can you keep my current CMS?", "a": "Yes, if it does not stand in the way of speed and search. Where it does, I explain what it costs to keep and what moving to Sanity would change for your team." },
+          { "q": "Can AI redesign my existing website?", "a": "AI can produce a look quickly. It does not map your URLs, keep your redirects, carry your structured data or know which page brings your enquiries — and those are what a redesign is judged on." }
+        ]
+      }
+    },
+    "pl": {
+      "slug": "przebudowa-strony-internetowej",
+      "title": "Przebudowa strony internetowej bez utraty pozycji",
+      "excerpt": "Redesign, po którym strona zachowuje ruch, na który już pracuje: spisane adresy, przeniesione przekierowania i dane strukturalne, szybszy kod i projekt nastawiony na zapytania od klientów.",
+      "metaTitle": "Przebudowa strony internetowej bez utraty pozycji",
+      "metaDescription": "Redesign strony z zachowaniem pozycji: mapa adresów, przekierowania, dane strukturalne i szybkość w nowym projekcie. Od 4500 zł, cena ustalana przed startem.",
+      "pain": {
+        "title": "Co zwykle idzie źle przy przebudowie strony",
+        "items": [
+          { "metric": "100%", "title": "Stare adresy znikają", "description": "Nowa podstrona, nowy adres, brak przekierowania. Każdy link i każda pozycja prowadząca pod stary adres trafia w 404, a spadek widać dwa tygodnie później." },
+          { "title": "Znaczniki zostają po staremu", "description": "Schema, hreflang, canonical i mapa witryny powstawały latami, a przy przebudowie są pisane od zera. Wyszukiwarki i asystenci AI czytają stronę jak nową." },
+          { "title": "Wygląda nowocześniej, a sprzedaje gorzej", "description": "Projekt się odświeża, a oferty, formularze i przyciski, które przynosiły zapytania, wędrują w mniej widoczne miejsca." },
+          { "title": "Szybkość idzie na efekty", "description": "Razem z nowym wyglądem pojawiają się slidery, ciężkie fonty i animacje, a strona na telefonie ładuje się wolniej niż ta, którą zastąpiła." }
+        ]
+      },
+      "features": {
+        "title": "Co obejmuje przebudowa strony",
+        "items": [
+          { "title": "Mapa adresów przed jakąkolwiek zmianą", "description": "Spisuję każdy adres z jego ruchem i pozycją, przypisuję mu miejsce w nowej strukturze, a tam gdzie podstrona znika, wchodzi przekierowanie." },
+          { "title": "Projekt pod firmę, nie szablon", "description": "Interfejs projektuję pod Twoich klientów i Twoje oferty albo wiernie koduję gotowy projekt z Figmy." },
+          { "title": "Nowy kod w Next.js", "description": "Renderowanie po stronie serwera, czysty kod i obrazy z wymiarami. Szybkość przestaje być ceną za wygląd." },
+          { "title": "SEO przeniesione, nie pisane od nowa", "description": "Tytuły, nagłówki, dane strukturalne, hreflang i linkowanie wewnętrzne trafiają do nowej wersji z zachowaniem sensu." },
+          { "title": "CMS, który obsłuży zespół", "description": "Sanity: podstrony, języki i treści prowadzi Twój zespół, bez programisty." },
+          { "title": "Odbudowane pozyskiwanie zapytań", "description": "Oferty, krótkie formularze, przyciski telefonu i WhatsApp tam, gdzie klient decyduje, oraz śledzenie konwersji w GA4, żeby efekt przebudowy dało się zmierzyć." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Jak przebudowa zachowuje pozycje w Google",
+            "body": "Ruch rzadko ginie przez sam nowy wygląd. Ginie przez adresy i znaczniki: podstrona przeniesiona bez przekierowania, nagłówek zamieniony na obrazek, dane strukturalne, których nikt nie odtworzył, link wewnętrzny prowadzący pod starą ścieżkę.\n\nDlatego praca zaczyna się przed projektem. Eksportuję wszystkie adresy z wyświetleniami i pozycjami, ustalam, która podstrona w nowej strukturze je przejmuje, i spisuję mapę przekierowań. Dane strukturalne, hreflang, tytuły i nagłówki przenoszę jako treść, a nie jako ozdobnik. Po wdrożeniu przez miesiąc zestawiam Search Console z mapą przekierowań, bo wtedy błąd jest jeszcze tani."
+          },
+          {
+            "h2": "Ile kosztuje przebudowa strony internetowej",
+            "body": "Redesign istniejącej strony kosztuje od 4500 zł i obejmuje projekt, nowy kod, mapę adresów i przekierowań oraz SEO techniczne. Większą platformę z katalogiem, kilkoma językami albo integracjami wyceniam po krótkiej rozmowie.\n\nCenę zapisuję w umowie przed startem, więc nie rośnie w trakcie. Wszystkie stawki są w cenniku, a nie za formularzem."
+          },
+          {
+            "h2": "Przebudowa czy migracja: co jest Ci potrzebne",
+            "body": "Przebudowa zmienia wygląd i działanie strony, która zostaje na swojej platformie. Migracja przenosi ją na inną platformę i ma własne ryzyka oraz własną listę kontrolną.\n\nJeśli przechodzisz z WordPressa albo z kreatora na Next.js, to migracja i jest na nią osobna strona. Jeśli platforma zostaje, a strona ma wyglądać i sprzedawać lepiej, to przebudowa."
+          },
+          {
+            "h2": "Co dostajesz na końcu",
+            "body": "Stronę, która ładuje się szybciej od poprzedniej, zachowuje wypracowane pozycje i ma formularze oraz oferty w miejscach, gdzie klient faktycznie podejmuje decyzję.\n\nNa ostatnim wdrożeniu PageSpeed na działającej stronie pokazuje 96, 98, 100 i 100 — przy pełnoekranowych zdjęciach wnętrz. Te same pomiary robimy na Twoim projekcie przed startem i je widzisz."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Jak przebiega przebudowa, krok po kroku",
+        "items": [
+          { "title": "Audyt tego, co jest", "description": "Podstrony, pozycje, ruch, dane strukturalne i stan techniczny obecnej strony." },
+          { "title": "Struktura i mapa adresów", "description": "Nowa struktura podstron przypisana adres po adresie do starych, ze spisaną mapą przekierowań." },
+          { "title": "Projekt", "description": "Interfejs pod Twoich klientów i oferty albo wierne zakodowanie gotowego projektu z Figmy." },
+          { "title": "Kodowanie z SEO w środku", "description": "Next.js, czysty kod, dane strukturalne, hreflang i szybkość w jednym przebiegu." },
+          { "title": "Wdrożenie i miesiąc kontroli", "description": "Przekierowania, Search Console, pozycje i zapytania pod obserwacją, dopóki poprawka jest tania." }
+        ]
+      },
+      "faq": {
+        "title": "Przebudowa strony: najczęstsze pytania",
+        "items": [
+          { "q": "Ile kosztuje przebudowa strony internetowej?", "a": "Od 4500 zł za istniejącą stronę: projekt, nowy kod, mapa adresów i przekierowań oraz SEO techniczne. Platformy z katalogiem, kilkoma językami lub integracjami wyceniam po krótkiej rozmowie, a cenę zapisuję w umowie przed startem." },
+          { "q": "Jak zrobić redesign strony bez utraty pozycji?", "a": "Przed projektem eksportuję wszystkie adresy z ruchem i pozycjami i przypisuję każdy do podstrony w nowej strukturze. Razem z nimi przenoszę przekierowania, dane strukturalne, hreflang, tytuły i nagłówki, a po wdrożeniu przez miesiąc zestawiam mapę przekierowań z Search Console." },
+          { "q": "Ile trwa przebudowa strony?", "a": "Dwa do czterech tygodni dla strony firmowej. Platforma z katalogiem, kilkoma językami albo integracjami trwa dłużej, a realny termin poznasz przed startem." },
+          { "q": "Czy adresy podstron się zmienią?", "a": "Tylko tam, gdzie nowa struktura naprawdę jest lepsza. Każdy zmieniony adres dostaje przekierowanie trwałe, więc linki i pozycje idą za podstroną." },
+          { "q": "Czy można zostać przy obecnym CMS?", "a": "Tak, jeśli nie stoi na drodze szybkości i widoczności. Jeśli stoi, pokazuję, ile kosztuje jego utrzymanie i co dałoby przejście na Sanity." },
+          { "q": "Czy AI przebuduje moją stronę?", "a": "AI szybko wygeneruje wygląd. Nie spisze Twoich adresów, nie utrzyma przekierowań, nie przeniesie danych strukturalnych i nie wie, która podstrona przynosi zapytania, a właśnie po tym ocenia się przebudowę." }
+        ]
+      }
+    },
+    "ru": {
+      "slug": "redizayn-sayta",
+      "title": "Редизайн сайта без потери позиций",
+      "excerpt": "Редизайн, после которого сайт сохраняет заработанный трафик: все адреса переписаны, редиректы и микроразметка перенесены, код быстрее, а интерфейс сделан под заявки.",
+      "metaTitle": "Редизайн сайта без потери позиций и трафика",
+      "metaDescription": "Редизайн сайта с сохранением позиций: карта адресов, редиректы, микроразметка и скорость переезжают в новый дизайн. От 1000 €, цена фиксируется до начала работ.",
+      "pain": {
+        "title": "Что обычно ломается при редизайне",
+        "items": [
+          { "metric": "100%", "title": "Старые адреса теряются", "description": "Новая страница, новый адрес, редиректа нет. Все ссылки и позиции, которые вели на старый адрес, упираются в 404, а падение видно через две недели." },
+          { "title": "Разметку оставляют позади", "description": "Schema, hreflang, canonical и карта сайта собирались годами, а при редизайне пишутся заново. Поисковики и ИИ-ассистенты читают сайт как новый." },
+          { "title": "Стало красивее, а заявок меньше", "description": "Дизайн обновили, а предложения, формы и кнопки, которые приносили заявки, переехали туда, где их не видно." },
+          { "title": "Скорость меняют на эффекты", "description": "Вместе с новым видом появляются слайдеры, тяжёлые шрифты и анимации, и на телефоне сайт грузится дольше, чем тот, который заменили." }
+        ]
+      },
+      "features": {
+        "title": "Что входит в редизайн сайта",
+        "items": [
+          { "title": "Карта адресов до любых изменений", "description": "Выписываю каждый адрес с его трафиком и позицией, назначаю ему место в новой структуре, а там, где страница исчезает, ставлю редирект." },
+          { "title": "Дизайн под бизнес, а не шаблон", "description": "Интерфейс проектируется под ваших клиентов и ваши предложения. Или я точно верстаю готовый макет из Figma." },
+          { "title": "Новый код на Next.js", "description": "Серверный рендеринг, чистый код и изображения с размерами. Скорость перестаёт быть платой за внешний вид." },
+          { "title": "SEO переносится, а не пишется заново", "description": "Заголовки, структура, микроразметка, hreflang и внутренние ссылки переезжают в новую версию со смыслом, а не формально." },
+          { "title": "CMS, с которой справится команда", "description": "Sanity: страницами, языками и контентом управляет ваша команда, без разработчика." },
+          { "title": "Восстановленный сбор заявок", "description": "Предложения, короткие формы, кнопки звонка и WhatsApp там, где клиент принимает решение, и отслеживание заявок в GA4, чтобы эффект редизайна был виден в цифрах." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Как редизайн сохраняет позиции в поиске",
+            "body": "Трафик редко теряется из-за самого дизайна. Он теряется из-за адресов и разметки: страница переехала без редиректа, заголовок стал картинкой, микроразметку никто не восстановил, внутренняя ссылка осталась на старом пути.\n\nПоэтому работа начинается до дизайна. Я выгружаю все адреса с показами и позициями, определяю, какая страница в новой структуре их принимает, и записываю карту редиректов. Микроразметка, hreflang, заголовки и структура переносятся как содержание, а не как оформление. После запуска месяц сверяю Search Console с картой редиректов: в этот момент ошибка ещё дешёвая."
+          },
+          {
+            "h2": "Сколько стоит редизайн сайта",
+            "body": "Редизайн существующего сайта стоит от 1000 € и включает дизайн, новый код, карту адресов и редиректов и техническое SEO. Крупную платформу с каталогом, несколькими языками или интеграциями оцениваю после короткого созвона.\n\nЦена фиксируется письменно до начала работ и не растёт по ходу. Все суммы есть на странице цен, а не за формой."
+          },
+          {
+            "h2": "Редизайн или перенос на другую платформу",
+            "body": "Редизайн меняет внешний вид и работу сайта, который остаётся на своей платформе. Перенос — это смена платформы, и у него свои риски и свой чек-лист.\n\nЕсли вы уходите с WordPress или с конструктора на Next.js, это перенос, и для него есть отдельная страница. Если платформа остаётся, а сайт должен выглядеть и продавать лучше, это редизайн."
+          },
+          {
+            "h2": "Что вы получаете в итоге",
+            "body": "Сайт, который грузится быстрее предыдущего, сохраняет заработанные позиции и держит формы и предложения там, где клиент принимает решение.\n\nНа последнем проекте PageSpeed на рабочем сайте показывает 96, 98, 100 и 100 — и это при полноэкранных фотографиях интерьеров. Те же замеры делаются на вашем проекте до запуска, и вы их видите."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Как проходит редизайн, шаг за шагом",
+        "items": [
+          { "title": "Аудит того, что есть", "description": "Страницы, позиции, трафик, микроразметка и техническое состояние текущего сайта." },
+          { "title": "Структура и карта адресов", "description": "Новая структура страниц, сопоставленная адрес к адресу со старой, и записанная карта редиректов." },
+          { "title": "Дизайн", "description": "Интерфейс под ваших клиентов и предложения или точная вёрстка готового макета из Figma." },
+          { "title": "Разработка с SEO внутри", "description": "Next.js, чистая разметка, микроразметка, hreflang и скорость в одном проходе." },
+          { "title": "Запуск и месяц проверок", "description": "Редиректы, Search Console, позиции и заявки под наблюдением, пока ошибка стоит дёшево." }
+        ]
+      },
+      "faq": {
+        "title": "Редизайн сайта: частые вопросы",
+        "items": [
+          { "q": "Сколько стоит редизайн сайта?", "a": "От 1000 € за существующий сайт: дизайн, новый код, карта адресов и редиректов и техническое SEO. Платформы с каталогом, несколькими языками или интеграциями оцениваю после короткого созвона, а цену фиксирую письменно до начала работ." },
+          { "q": "Как сделать редизайн сайта без потери позиций?", "a": "До дизайна я выгружаю все адреса с трафиком и позициями и назначаю каждому страницу в новой структуре. Вместе с ними переезжают редиректы, микроразметка, hreflang, заголовки и структура, а после запуска я месяц сверяю карту редиректов с Search Console." },
+          { "q": "Сколько времени занимает редизайн?", "a": "Две–четыре недели для сайта компании. Платформа с каталогом, несколькими языками или интеграциями дольше, и реальный срок вы узнаёте до начала работ." },
+          { "q": "Изменятся ли адреса страниц?", "a": "Только там, где новая структура действительно лучше. На каждый изменённый адрес ставится постоянный редирект, поэтому ссылки и позиции идут за страницей." },
+          { "q": "Можно ли остаться на текущей CMS?", "a": "Да, если она не мешает скорости и видимости. Если мешает, я показываю, во что обходится её сохранение и что даст переход на Sanity." },
+          { "q": "Может ли ИИ сделать редизайн сайта?", "a": "ИИ быстро нарисует внешний вид. Он не выпишет ваши адреса, не сохранит редиректы, не перенесёт микроразметку и не знает, какая страница приносит заявки, — а именно по этому оценивают редизайн." }
+        ]
+      }
+    }
+  }
+}

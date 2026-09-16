@@ -1,0 +1,110 @@
+[
+  {
+    "page": "/services/seo-audit",
+    "docId": "0e071d28-ee05-42a2-81a6-5be75b4264bc",
+    "paragraphs": [
+      {
+        "text": "The audit is the diagnosis. Applying it in the code is technical SEO, and that is a separate piece of work.",
+        "links": [
+          { "anchor": "Applying it in the code is technical SEO", "href": "/services/technical-seo-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/audyt-seo-strony-internetowej",
+    "docId": "8b7c6b4c-412c-4fa1-b8f8-ec0a1b2816b5",
+    "paragraphs": [
+      {
+        "text": "Audyt to diagnoza. Wdrożenie jego wniosków w kodzie to SEO techniczne i jest osobną pracą.",
+        "links": [
+          { "anchor": "Wdrożenie jego wniosków w kodzie to SEO techniczne", "href": "/pl/oferty/seo-techniczne" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/seo-audit-saita",
+    "docId": "0ba09f41-cdc6-40b1-8b57-e56ac656e979",
+    "paragraphs": [
+      {
+        "text": "Аудит — это диагноз. Внесение правок в код — это техническое SEO, и это отдельная работа.",
+        "links": [
+          { "anchor": "Внесение правок в код — это техническое SEO", "href": "/ru/uslugi/tehnicheskoe-seo" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/seo-optimization-and-strategy",
+    "docId": "42a469a6-28f3-4015-8b88-414c8eb3d4fa",
+    "paragraphs": [
+      {
+        "text": "The part of this work that lives in the code — crawling, indexing, speed and structured data — is described on the technical SEO page.",
+        "links": [
+          { "anchor": "the technical SEO page", "href": "/services/technical-seo-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/strategia-i-optymalizacja-seo",
+    "docId": "77c5f5df-a6f3-49ca-8f42-f1439e3490c6",
+    "paragraphs": [
+      {
+        "text": "Ta część pracy, która dzieje się w kodzie — indeksowanie, szybkość i dane strukturalne — jest opisana na stronie SEO techniczne.",
+        "links": [
+          { "anchor": "SEO techniczne", "href": "/pl/oferty/seo-techniczne" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/seo-optimizaciya-i-strategiya",
+    "docId": "6a81eab0-6993-41a6-adc3-d9047a3b35a0",
+    "paragraphs": [
+      {
+        "text": "Та часть работы, которая живёт в коде — индексация, скорость и микроразметка, — описана на странице технического SEO.",
+        "links": [
+          { "anchor": "на странице технического SEO", "href": "/ru/uslugi/tehnicheskoe-seo" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/website-development",
+    "docId": "8701994a-d9ba-4230-84b5-2e491b87cb61",
+    "paragraphs": [
+      {
+        "text": "After launch the site does not look after itself: updates, fixes and small changes are covered by website maintenance and support.",
+        "links": [
+          { "anchor": "website maintenance and support", "href": "/services/website-maintenance-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/tworzenie-stron-internetowych",
+    "docId": "b35e57c9-9cce-4ebd-ab05-5121ffa38fef",
+    "paragraphs": [
+      {
+        "text": "Po wdrożeniu strona nie pilnuje się sama: aktualizacje, poprawki i drobne zmiany obejmuje utrzymanie strony internetowej.",
+        "links": [
+          { "anchor": "utrzymanie strony internetowej", "href": "/pl/oferty/utrzymanie-strony-internetowej" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/razrabotka-saitov",
+    "docId": "21d6001f-5181-4249-aef2-5ed9425bf81d",
+    "paragraphs": [
+      {
+        "text": "После запуска сайт не следит за собой сам: обновления, исправления и мелкие правки закрывает поддержка сайта.",
+        "links": [
+          { "anchor": "поддержка сайта", "href": "/ru/uslugi/podderzhka-saita" }
+        ]
+      }
+    ]
+  }
+]

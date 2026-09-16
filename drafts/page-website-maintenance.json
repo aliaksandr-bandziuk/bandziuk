@@ -1,0 +1,201 @@
+{
+  "baseId": "singlepage-website-maintenance",
+  "pageType": "service",
+  "parent": { "en": "4de72361-ec2a-469d-8b56-813ddbf3adca", "pl": "631d883e-6f87-4346-9c6d-48b596c2daa7", "ru": "3774c0a1-8857-4149-be24-9a357af4be00" },
+  "targets": {
+    "en": "website maintenance services — 1 900 US / 480 UK, KD 5; secondary: website maintenance cost (480, KD 13), wordpress website maintenance services (880, KD 16)",
+    "pl": "utrzymanie strony internetowej (70) + opieka nad stroną internetową (40)",
+    "ru": "поддержка сайта (30) + сопровождение сайта (10)"
+  },
+  "locales": {
+    "en": {
+      "slug": "website-maintenance-services",
+      "title": "Website maintenance and support, by the developer who built it",
+      "excerpt": "Updates, fixes, new pages and the checks that catch a problem before your visitors do — handled by one person who knows the codebase, not by a ticket queue.",
+      "metaTitle": "Website Maintenance and Support Services",
+      "metaDescription": "Website maintenance by the developer, not a queue: updates, fixes, new pages, uptime and speed checks, backups and a written record of every change.",
+      "pain": {
+        "title": "What usually happens to a site after launch",
+        "items": [
+          { "metric": "100%", "title": "Nobody owns it", "description": "The build is finished, the agency moved on, and small changes wait for someone who has time rather than someone who knows the code." },
+          { "title": "It breaks quietly", "description": "A form stops sending, an integration expires, a plugin update takes a page down — and it is a client who notices first." },
+          { "title": "Speed drifts back down", "description": "Every new banner, script and tracking tag adds weight, and a year later the page is slower than the day it launched." },
+          { "title": "Changes are undocumented", "description": "Nobody can say what was changed, when or why, so the next developer starts by guessing." }
+        ]
+      },
+      "features": {
+        "title": "What maintenance covers",
+        "items": [
+          { "title": "Updates and security", "description": "Dependencies, CMS and plugins updated deliberately, on a copy first, so an update never takes the live site with it." },
+          { "title": "Fixes and small changes", "description": "A broken form, a wrong price, a new section — done by the person who wrote the code, without a hand-over every time." },
+          { "title": "New pages and content work", "description": "Adding pages, languages and sections in the structure the site already uses, so nothing drifts out of shape." },
+          { "title": "Uptime, forms and speed checks", "description": "The site is watched, forms are test-submitted, and Core Web Vitals are measured on real devices, not once at launch." },
+          { "title": "Backups and a way back", "description": "Content and code backed up, and every release reversible, because the fastest fix is sometimes stepping back one version." },
+          { "title": "A written record", "description": "Every change logged in plain language: what changed, when, and what it was meant to do." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Maintenance, not a retainer for nothing",
+            "body": "A support agreement here is not a monthly fee for being on a list. It is a defined amount of work: updates, checks, fixes and the small changes your business actually needs that month, with the hours accounted for.\n\nIf a month is quiet, the time goes into speed, structured data or the pages that need attention rather than into a report about how quiet it was."
+          },
+          {
+            "h2": "Maintenance and SEO are not the same thing",
+            "body": "Maintenance keeps the site working: it updates, fixes, restores and adds. Ongoing SEO moves the site forward: research, content, structure and links, measured in positions and enquiries.\n\nMost sites need both, but they are separate agreements, and mixing them is how one of the two quietly stops happening. If you want the search side, the ongoing SEO page covers it."
+          },
+          {
+            "h2": "What you keep, whatever happens",
+            "body": "The code, the CMS and the documentation are yours. Nothing runs on a licence that only I can renew, and nothing is hidden behind an account only I can open.\n\nThat is deliberate: support should be something you continue because it works, not something you cannot leave."
+          }
+        ]
+      },
+      "steps": {
+        "title": "How support runs",
+        "items": [
+          { "title": "A look at what exists", "description": "The stack, the integrations, the weak points and what has been left undone since launch." },
+          { "title": "An agreed scope", "description": "What is covered every month, what counts as a separate job, and how quickly each is answered." },
+          { "title": "The regular work", "description": "Updates on a copy first, checks, fixes and the changes you ask for that month." },
+          { "title": "A monthly note", "description": "One short message: what changed, what was found, what I recommend next — in plain language." }
+        ]
+      },
+      "faq": {
+        "title": "Website maintenance: frequently asked questions",
+        "items": [
+          { "q": "How much does website maintenance cost?", "a": "There is no one-size package: the amount of work differs too much between a five-page site and a platform with integrations. The plan is agreed after a short call and fixed in writing before it starts, and one-off jobs are quoted the same way. Prices for the standard services are on the pricing page." },
+          { "q": "Do you maintain sites you did not build?", "a": "Yes. It starts with a look at the code and the integrations, so I can say honestly what can be supported as it is and what should be fixed first." },
+          { "q": "Do you maintain WordPress sites?", "a": "Yes, including updates, security and speed. Where a site is held back by the platform itself, I say so and show what moving to Next.js would change — rather than charging monthly to keep something slow alive." },
+          { "q": "How quickly do you respond?", "a": "Within one business day for normal requests. For anything that takes the site or its forms down, the same day." },
+          { "q": "Can I stop whenever I want?", "a": "Yes. The code, the CMS and the documentation are yours, and there is no licence or account that only I can renew." },
+          { "q": "Is SEO included in maintenance?", "a": "No, and deliberately. Maintenance keeps the site working; ongoing SEO moves it up. They are separate agreements so neither one quietly absorbs the other." }
+        ]
+      }
+    },
+    "pl": {
+      "slug": "utrzymanie-strony-internetowej",
+      "title": "Utrzymanie i opieka nad stroną internetową",
+      "excerpt": "Aktualizacje, poprawki, nowe podstrony i kontrole, które wyłapują problem zanim zauważy go klient — po stronie jednej osoby, która zna kod, a nie kolejki zgłoszeń.",
+      "metaTitle": "Utrzymanie strony internetowej i opieka techniczna",
+      "metaDescription": "Opieka nad stroną prowadzona przez programistę: aktualizacje, poprawki, nowe podstrony, kontrola formularzy i szybkości, kopie zapasowe i zapis każdej zmiany.",
+      "pain": {
+        "title": "Co zwykle dzieje się ze stroną po wdrożeniu",
+        "items": [
+          { "metric": "100%", "title": "Nikt za nią nie odpowiada", "description": "Projekt skończony, agencja poszła dalej, a drobne zmiany czekają na kogoś, kto ma czas, a nie na kogoś, kto zna kod." },
+          { "title": "Psuje się po cichu", "description": "Formularz przestaje wysyłać, integracja wygasa, aktualizacja wtyczki wyłącza podstronę — i pierwszy zauważa to klient." },
+          { "title": "Szybkość znowu spada", "description": "Każdy baner, skrypt i kod śledzący dokłada wagi, a po roku strona ładuje się wolniej niż w dniu startu." },
+          { "title": "Zmiany nigdzie nie są zapisane", "description": "Nikt nie powie, co, kiedy i po co zmieniono, więc następny programista zaczyna od zgadywania." }
+        ]
+      },
+      "features": {
+        "title": "Co obejmuje opieka nad stroną",
+        "items": [
+          { "title": "Aktualizacje i bezpieczeństwo", "description": "Zależności, CMS i wtyczki aktualizowane świadomie, najpierw na kopii, żeby aktualizacja nie zabrała ze sobą działającej strony." },
+          { "title": "Poprawki i drobne zmiany", "description": "Zepsuty formularz, zła cena, nowa sekcja — robi je osoba, która pisała kod, bez przekazywania tematu za każdym razem." },
+          { "title": "Nowe podstrony i treści", "description": "Dodawanie podstron, języków i sekcji w strukturze, której strona już używa, żeby nic się nie rozjechało." },
+          { "title": "Kontrola dostępności, formularzy i szybkości", "description": "Strona pod obserwacją, formularze testowo wysyłane, Core Web Vitals mierzone na realnych urządzeniach, a nie raz przy starcie." },
+          { "title": "Kopie zapasowe i droga powrotna", "description": "Treść i kod w kopiach, a każde wdrożenie odwracalne, bo czasem najszybszą naprawą jest cofnięcie o jedną wersję." },
+          { "title": "Zapis zmian", "description": "Każda zmiana opisana prostym językiem: co, kiedy i po co zostało zrobione." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Opieka, a nie abonament za nic",
+            "body": "Umowa o opiekę to nie opłata za bycie na liście. To określona porcja pracy: aktualizacje, kontrole, poprawki i te drobne zmiany, których firma faktycznie w danym miesiącu potrzebuje, z rozliczonymi godzinami.\n\nJeśli miesiąc jest spokojny, czas idzie w szybkość, dane strukturalne albo podstrony wymagające uwagi, a nie w raport o tym, jak było spokojnie."
+          },
+          {
+            "h2": "Opieka to nie to samo co SEO",
+            "body": "Opieka utrzymuje stronę w działaniu: aktualizuje, naprawia, przywraca i dokłada. Stałe SEO posuwa stronę do przodu: analiza zapytań, treści, struktura i linkowanie, mierzone pozycjami i zapytaniami od klientów.\n\nWiększość stron potrzebuje obu, ale to osobne umowy. Mieszanie ich kończy się tym, że jedna z tych prac po cichu przestaje się dziać."
+          },
+          {
+            "h2": "Co zostaje u Ciebie niezależnie od wszystkiego",
+            "body": "Kod, CMS i dokumentacja są Twoje. Nic nie działa na licencji, którą tylko ja mogę odnowić, i nic nie jest schowane na koncie, do którego tylko ja mam dostęp.\n\nTo celowe: opiekę kontynuuje się dlatego, że działa, a nie dlatego, że nie da się z niej wyjść."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Jak wygląda opieka",
+        "items": [
+          { "title": "Przegląd tego, co jest", "description": "Technologie, integracje, słabe punkty i to, co zostało niedokończone od wdrożenia." },
+          { "title": "Ustalony zakres", "description": "Co wchodzi w każdy miesiąc, co jest osobnym zleceniem i w jakim czasie odpowiadam na jedno i drugie." },
+          { "title": "Bieżąca praca", "description": "Aktualizacje najpierw na kopii, kontrole, poprawki i zmiany zamówione w danym miesiącu." },
+          { "title": "Notatka co miesiąc", "description": "Jedna krótka wiadomość: co się zmieniło, co znalazłem i co radzę zrobić dalej, prostym językiem." }
+        ]
+      },
+      "faq": {
+        "title": "Utrzymanie strony: najczęstsze pytania",
+        "items": [
+          { "q": "Ile kosztuje utrzymanie strony internetowej?", "a": "Nie ma jednego pakietu: nakład pracy przy stronie na pięć podstron i przy platformie z integracjami różni się zbyt mocno. Zakres ustalam po krótkiej rozmowie i zapisuję w umowie przed startem, a jednorazowe zlecenia wyceniam tak samo. Stawki pozostałych usług są w cenniku." },
+          { "q": "Czy opiekujesz się stronami, których nie robiłeś?", "a": "Tak. Zaczynam od przeglądu kodu i integracji, żeby uczciwie powiedzieć, co da się utrzymywać w obecnej formie, a co trzeba najpierw naprawić." },
+          { "q": "Czy obsługujesz strony na WordPressie?", "a": "Tak, razem z aktualizacjami, bezpieczeństwem i szybkością. Jeśli stronę ogranicza sama platforma, mówię o tym i pokazuję, co zmieniłoby przejście na Next.js, zamiast brać co miesiąc za podtrzymywanie czegoś wolnego." },
+          { "q": "Jak szybko odpowiadasz?", "a": "W ciągu jednego dnia roboczego na zwykłe zgłoszenia. Jeśli strona albo formularze przestają działać — tego samego dnia." },
+          { "q": "Czy mogę zrezygnować w dowolnym momencie?", "a": "Tak. Kod, CMS i dokumentacja są Twoje, nie ma licencji ani konta, które mogę odnowić tylko ja." },
+          { "q": "Czy SEO wchodzi w opiekę?", "a": "Nie i jest to celowe. Opieka utrzymuje stronę w działaniu, a stałe SEO posuwa ją w górę. To osobne umowy, żeby jedna praca nie wchłonęła po cichu drugiej." }
+        ]
+      }
+    },
+    "ru": {
+      "slug": "podderzhka-saita",
+      "title": "Поддержка и сопровождение сайта разработчиком",
+      "excerpt": "Обновления, исправления, новые страницы и проверки, которые находят проблему раньше клиента, — у одного человека, который знает код, а не у очереди заявок.",
+      "metaTitle": "Поддержка и сопровождение сайта разработчиком",
+      "metaDescription": "Поддержка сайта разработчиком, а не очередью заявок: обновления, исправления, новые страницы, проверка форм и скорости, резервные копии и запись всех изменений.",
+      "pain": {
+        "title": "Что обычно происходит с сайтом после запуска",
+        "items": [
+          { "metric": "100%", "title": "За него никто не отвечает", "description": "Проект сдан, подрядчик ушёл дальше, и мелкие правки ждут того, у кого есть время, а не того, кто знает код." },
+          { "title": "Ломается тихо", "description": "Форма перестаёт отправлять, интеграция истекает, обновление плагина роняет страницу — и первым это замечает клиент." },
+          { "title": "Скорость снова падает", "description": "Каждый новый баннер, скрипт и код аналитики добавляют вес, и через год сайт грузится дольше, чем в день запуска." },
+          { "title": "Изменения нигде не записаны", "description": "Никто не скажет, что, когда и зачем поменяли, поэтому следующий разработчик начинает с догадок." }
+        ]
+      },
+      "features": {
+        "title": "Что входит в поддержку сайта",
+        "items": [
+          { "title": "Обновления и безопасность", "description": "Зависимости, CMS и плагины обновляются осознанно и сначала на копии, чтобы обновление не увело за собой рабочий сайт." },
+          { "title": "Исправления и мелкие правки", "description": "Сломанная форма, неверная цена, новый блок — делает тот, кто писал код, без передачи задачи каждый раз." },
+          { "title": "Новые страницы и контент", "description": "Добавление страниц, языков и разделов в той структуре, которая на сайте уже есть, чтобы ничего не разъезжалось." },
+          { "title": "Проверка доступности, форм и скорости", "description": "Сайт под наблюдением, формы отправляются тестово, Core Web Vitals измеряются на реальных устройствах, а не один раз на запуске." },
+          { "title": "Резервные копии и путь назад", "description": "Контент и код в копиях, каждый релиз обратим: иногда самое быстрое решение — откатиться на одну версию." },
+          { "title": "Запись изменений", "description": "Каждое изменение описано простым языком: что, когда и зачем сделано." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Поддержка, а не абонплата ни за что",
+            "body": "Договор на поддержку — это не плата за присутствие в списке. Это определённый объём работы: обновления, проверки, исправления и те мелкие изменения, которые бизнесу действительно нужны в этом месяце, с понятным учётом часов.\n\nЕсли месяц спокойный, время уходит в скорость, микроразметку или страницы, которым нужно внимание, а не в отчёт о том, каким спокойным был месяц."
+          },
+          {
+            "h2": "Поддержка и SEO — это разные работы",
+            "body": "Поддержка держит сайт в рабочем состоянии: обновляет, чинит, восстанавливает и дополняет. Постоянное SEO двигает сайт вперёд: запросы, тексты, структура и ссылки, а результат меряется позициями и заявками.\n\nБольшинству сайтов нужны обе, но это разные договорённости. Когда их смешивают, одна из работ незаметно перестаёт выполняться."
+          },
+          {
+            "h2": "Что остаётся у вас в любом случае",
+            "body": "Код, CMS и документация — ваши. Ничего не работает на лицензии, которую могу продлить только я, и ничего не спрятано в аккаунте, доступ к которому есть только у меня.\n\nЭто сделано намеренно: поддержку продолжают потому, что она работает, а не потому, что из неё нельзя выйти."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Как устроено сопровождение",
+        "items": [
+          { "title": "Разбор того, что есть", "description": "Технологии, интеграции, слабые места и то, что осталось недоделанным с запуска." },
+          { "title": "Согласованный объём", "description": "Что входит в каждый месяц, что считается отдельной задачей и за какое время я отвечаю на то и другое." },
+          { "title": "Текущая работа", "description": "Обновления сначала на копии, проверки, исправления и правки, которые вы попросили в этом месяце." },
+          { "title": "Короткий отчёт раз в месяц", "description": "Одно сообщение: что изменилось, что нашлось и что рекомендую дальше, простым языком." }
+        ]
+      },
+      "faq": {
+        "title": "Поддержка сайта: частые вопросы",
+        "items": [
+          { "q": "Сколько стоит поддержка сайта?", "a": "Единого пакета нет: объём работ у сайта на пять страниц и у платформы с интеграциями отличается слишком сильно. Условия согласуются после короткого созвона и фиксируются письменно до начала, разовые задачи оцениваются так же. Цены на остальные услуги есть на странице цен." },
+          { "q": "Берёте на поддержку сайты, которые делали не вы?", "a": "Да. Начинаю с разбора кода и интеграций, чтобы честно сказать, что можно поддерживать как есть, а что стоит сначала исправить." },
+          { "q": "Поддерживаете сайты на WordPress?", "a": "Да, вместе с обновлениями, безопасностью и скоростью. Если сайт упирается в саму платформу, я говорю об этом и показываю, что даст переход на Next.js, вместо того чтобы ежемесячно поддерживать медленное решение." },
+          { "q": "Как быстро вы отвечаете?", "a": "В течение рабочего дня на обычные задачи. Если сайт или формы перестали работать — в тот же день." },
+          { "q": "Можно ли прекратить в любой момент?", "a": "Да. Код, CMS и документация ваши, нет лицензий и аккаунтов, которые могу продлить только я." },
+          { "q": "Входит ли SEO в поддержку?", "a": "Нет, и это сделано намеренно. Поддержка держит сайт рабочим, а постоянное SEO поднимает его в выдаче. Это разные договорённости, чтобы одна работа незаметно не съела другую." }
+        ]
+      }
+    }
+  }
+}

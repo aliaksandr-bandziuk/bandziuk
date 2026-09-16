@@ -30,7 +30,9 @@ const APPLY = process.argv.includes("--apply");
 const PLAN_FILE = process.argv.find((a) => a.endsWith(".json"));
 if (!PLAN_FILE) { console.error("Укажите файл плана: node scripts/apply-internal-links.cjs drafts/<lang>-internal-links-plan.json [--apply]"); process.exit(1); }
 const PLAN = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), PLAN_FILE), "utf8"));
-const DEV = "http://localhost:3000";
+// Цели проверяются на dev по умолчанию; BASE=https://www.bandziuk.com — когда
+// страница только что создана и в маршрутах dev-сервера её ещё нет.
+const DEV = process.env.BASE || "http://localhost:3000";
 
 function newParagraph(text) {
   return { _key: key(), _type: "block", style: "normal", markDefs: [], children: [{ _key: key(), _type: "span", text, marks: [] }] };

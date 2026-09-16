@@ -1,0 +1,201 @@
+{
+  "baseId": "singlepage-technical-seo",
+  "pageType": "service",
+  "parent": { "en": "4de72361-ec2a-469d-8b56-813ddbf3adca", "pl": "631d883e-6f87-4346-9c6d-48b596c2daa7", "ru": "3774c0a1-8857-4149-be24-9a357af4be00" },
+  "targets": {
+    "en": "technical seo services — 2 400 US / 480 UK, KD 14; secondary: technical seo specialist (1 300, KD 9), technical seo audit services (480, KD 0)",
+    "pl": "seo techniczne / techniczne seo (70–110)",
+    "ru": "техническое seo (низкий спрос в доступных странах, страница нужна для полноты набора услуг)"
+  },
+  "locales": {
+    "en": {
+      "slug": "technical-seo-services",
+      "title": "Technical SEO services: the fixes, not another report",
+      "excerpt": "Crawling, indexing, speed, structured data and hreflang — found and then fixed in the code, by the person who writes it. An audit tells you what is wrong; this is the work that makes it right.",
+      "metaTitle": "Technical SEO Services: Fixes Made in the Code",
+      "metaDescription": "Technical SEO by the developer who writes the code: crawling, indexing, Core Web Vitals, structured data and hreflang fixed, not just listed. Audit from €250.",
+      "pain": {
+        "title": "What technical SEO usually runs into",
+        "items": [
+          { "metric": "100%", "title": "The audit was delivered and nothing changed", "description": "A PDF with 80 findings, no developer to apply them, and six months later the same 80 findings are still there." },
+          { "title": "Pages are crawled but not indexed", "description": "Google fetches the page and leaves it out. The cause is usually structure, duplication or thin templates, not a missing keyword." },
+          { "title": "The markup is decorative", "description": "Schema copied from an example, headings turned into styled divs, canonical tags that point at the wrong page." },
+          { "title": "Speed is measured in the wrong place", "description": "A green score on the developer's laptop and a slow page on a phone in the real world, because the test never matched the audience." }
+        ]
+      },
+      "features": {
+        "title": "What technical SEO work covers",
+        "items": [
+          { "title": "Crawling and indexing", "description": "Robots rules, sitemaps that carry real lastmod, canonical logic, pagination and the pages that should never have been indexed." },
+          { "title": "Structure and internal links", "description": "How the sections connect, which pages get link weight and which sit one link away from nowhere." },
+          { "title": "Core Web Vitals in the code", "description": "Images, fonts, scripts and rendering fixed where the numbers actually come from, not with a caching plugin." },
+          { "title": "Structured data", "description": "Schema for the pages that can win a rich result, checked against what the page really says." },
+          { "title": "Multilingual technical work", "description": "hreflang across every version, per-language URLs, and reporting that never blends the markets together." },
+          { "title": "Readability for AI assistants", "description": "Clean HTML, answerable sections and entity data, so assistants can quote the page rather than guess at it." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "An audit finds it, technical SEO fixes it",
+            "body": "Most sites do not need another list of problems. The SEO audit is the diagnosis: it says what is wrong, in what order it matters and what it will cost. Technical SEO is the treatment: the same problems, fixed in the code and confirmed in Search Console.\n\nIf you already have an audit from someone else, I can work from it. If you do not, the audit comes first, and the fixing starts from its priorities rather than from a guess."
+          },
+          {
+            "h2": "Who does the work",
+            "body": "The same person who writes the code. That is the difference between a recommendation and a change: no ticket queue, no translation from SEO language into developer language, no fix that never ships because it was nobody's job.\n\nThe stack I work in daily is Next.js, React, TypeScript and Sanity, with WordPress where it is the right call. Everything is documented, so your own developer can keep it running afterwards."
+          },
+          {
+            "h2": "How much technical SEO costs",
+            "body": "An audit is from €250 and ends with a prioritised list. Fixes are quoted after it, when the work is known rather than guessed at, and the price is fixed in writing before it starts.\n\nOngoing technical work as part of monthly SEO starts from €800 a month. Every figure is on the pricing page."
+          }
+        ]
+      },
+      "steps": {
+        "title": "How the work runs",
+        "items": [
+          { "title": "Crawl and measure", "description": "A full crawl, Search Console, Core Web Vitals on real devices and a check of how assistants read the site." },
+          { "title": "Sort by what it is worth", "description": "Findings ordered by the traffic and the enquiries they hold back, not by the colour of the warning." },
+          { "title": "Fix in the code", "description": "Templates, markup, redirects, speed and structured data changed at the source." },
+          { "title": "Confirm it took", "description": "Re-crawl, Search Console and the live numbers, so a fix is only finished when it shows." }
+        ]
+      },
+      "faq": {
+        "title": "Technical SEO: frequently asked questions",
+        "items": [
+          { "q": "What is technical SEO?", "a": "Everything that decides whether a search engine or an AI assistant can reach, read and trust your pages: crawling and indexing, site structure, speed, structured data, hreflang and clean HTML. Content and links sit on top of it and cannot compensate for it." },
+          { "q": "How much do technical SEO services cost?", "a": "An audit is from €250 and produces a prioritised list. The fixes are quoted after it, with the price fixed in writing, and ongoing technical work inside monthly SEO starts from €800 a month." },
+          { "q": "Can you work from an audit I already have?", "a": "Yes. I check its findings against the live site first, because audits age and some items stop being true, then I fix what still holds in the order that matters." },
+          { "q": "Do you only fix, or do you also explain?", "a": "Both. Every change is written down in plain language with what it was meant to do, so you and any future developer can tell what was done and why." },
+          { "q": "Is technical SEO still worth it with AI search?", "a": "More than before. Assistants read pages with far less patience than Google: clean HTML, answerable sections and consistent entity data decide whether your page can be quoted at all." },
+          { "q": "Will you work with my developer?", "a": "Yes, when there is one. I can hand over a fix list with exact changes, or make the changes myself if I have access — whichever gets it live faster." }
+        ]
+      }
+    },
+    "pl": {
+      "slug": "seo-techniczne",
+      "title": "SEO techniczne: poprawki w kodzie, a nie kolejny raport",
+      "excerpt": "Indeksowanie, szybkość, dane strukturalne i hreflang — znalezione i od razu naprawione w kodzie przez osobę, która ten kod pisze. Audyt mówi, co jest nie tak; to jest praca, która to naprawia.",
+      "metaTitle": "SEO techniczne: poprawki wykonane w kodzie",
+      "metaDescription": "SEO techniczne robione przez programistę: indeksowanie, Core Web Vitals, dane strukturalne i hreflang naprawione, a nie tylko wypisane. Audyt od 1000 zł.",
+      "pain": {
+        "title": "Na czym zwykle zatrzymuje się SEO techniczne",
+        "items": [
+          { "metric": "100%", "title": "Audyt oddany, nic się nie zmieniło", "description": "PDF z 80 punktami, brak programisty, który je wdroży, i pół roku później te same 80 punktów nadal czeka." },
+          { "title": "Strony są skanowane, ale nie indeksowane", "description": "Google pobiera podstronę i jej nie dodaje. Powód zwykle leży w strukturze, duplikatach albo ubogich szablonach, a nie w brakującym słowie kluczowym." },
+          { "title": "Znaczniki są ozdobą", "description": "Schema skopiowana z przykładu, nagłówki zamienione na stylowane divy, canonical wskazujący nie tę podstronę." },
+          { "title": "Szybkość mierzona w złym miejscu", "description": "Zielony wynik na laptopie programisty i wolna strona na telefonie klienta, bo test nigdy nie odpowiadał realnym warunkom." }
+        ]
+      },
+      "features": {
+        "title": "Co obejmuje SEO techniczne",
+        "items": [
+          { "title": "Skanowanie i indeksowanie", "description": "Reguły robots, mapa witryny z prawdziwym lastmod, logika canonical, paginacja i podstrony, których w indeksie być nie powinno." },
+          { "title": "Struktura i linkowanie wewnętrzne", "description": "Jak łączą się sekcje, które podstrony dostają moc linków, a które stoją jeden link od nikąd." },
+          { "title": "Core Web Vitals w kodzie", "description": "Obrazy, fonty, skrypty i renderowanie naprawiane tam, skąd naprawdę biorą się wyniki, a nie wtyczką do cache." },
+          { "title": "Dane strukturalne", "description": "Schema dla podstron, które mogą zdobyć rozszerzony wynik, zgodna z tym, co na stronie faktycznie jest." },
+          { "title": "Część techniczna wielu języków", "description": "hreflang we wszystkich wersjach, osobne adresy dla języków i raportowanie, które nie uśrednia rynków." },
+          { "title": "Czytelność dla asystentów AI", "description": "Czysty HTML, sekcje z gotową odpowiedzią i spójne dane o firmie, żeby asystent mógł zacytować stronę, a nie zgadywać." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Audyt znajduje, SEO techniczne naprawia",
+            "body": "Większość stron nie potrzebuje kolejnej listy problemów. Audyt SEO to diagnoza: mówi, co jest nie tak, co jest ważniejsze i ile będzie kosztować. SEO techniczne to leczenie: te same problemy naprawione w kodzie i potwierdzone w Search Console.\n\nJeśli masz już audyt od kogoś innego, mogę pracować na nim. Jeśli nie, zaczynamy od audytu, a kolejność poprawek wynika z jego priorytetów, a nie z przeczucia."
+          },
+          {
+            "h2": "Kto wykonuje pracę",
+            "body": "Ta sama osoba, która pisze kod. To różnica między rekomendacją a zmianą: bez kolejki zgłoszeń, bez tłumaczenia z języka SEO na język programisty i bez poprawki, która nigdy nie trafia na produkcję, bo nie była niczyim zadaniem.\n\nNa co dzień pracuję w Next.js, React, TypeScript i Sanity, a tam gdzie ma to sens, w WordPressie. Wszystko dokumentuję, więc Twój programista może to później utrzymać."
+          },
+          {
+            "h2": "Ile kosztuje SEO techniczne",
+            "body": "Audyt kosztuje od 1000 zł i kończy się listą z priorytetami. Poprawki wyceniam po nim, gdy zakres jest znany, a nie zgadywany, i cenę zapisuję w umowie przed startem.\n\nStała praca techniczna w ramach miesięcznego SEO zaczyna się od 3500 zł miesięcznie. Wszystkie stawki są w cenniku."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Jak przebiega praca",
+        "items": [
+          { "title": "Skan i pomiar", "description": "Pełny crawl, Search Console, Core Web Vitals na realnych urządzeniach i sprawdzenie, jak stronę czytają asystenci AI." },
+          { "title": "Kolejność według wartości", "description": "Znaleziska uszeregowane według ruchu i zapytań, które blokują, a nie według koloru ostrzeżenia." },
+          { "title": "Poprawki w kodzie", "description": "Szablony, znaczniki, przekierowania, szybkość i dane strukturalne zmieniane u źródła." },
+          { "title": "Potwierdzenie efektu", "description": "Ponowny crawl, Search Console i realne liczby: poprawka jest skończona dopiero wtedy, gdy widać ją w danych." }
+        ]
+      },
+      "faq": {
+        "title": "SEO techniczne: najczęstsze pytania",
+        "items": [
+          { "q": "Czym jest SEO techniczne?", "a": "Wszystkim, co decyduje, czy wyszukiwarka i asystent AI mogą dotrzeć do Twoich podstron, przeczytać je i im zaufać: indeksowanie, struktura, szybkość, dane strukturalne, hreflang i czysty HTML. Treść i linki są warstwą wyżej i nie zastąpią tej podstawy." },
+          { "q": "Ile kosztuje SEO techniczne?", "a": "Audyt od 1000 zł i lista z priorytetami na końcu. Poprawki wyceniam po audycie, z ceną zapisaną w umowie, a stała praca techniczna w ramach miesięcznego SEO zaczyna się od 3500 zł miesięcznie." },
+          { "q": "Czy możesz pracować na audycie, który już mam?", "a": "Tak. Najpierw weryfikuję jego punkty na żywej stronie, bo audyty się starzeją i część uwag przestaje być prawdziwa, a potem naprawiam to, co nadal obowiązuje, w kolejności według wagi." },
+          { "q": "Czy tylko naprawiasz, czy też tłumaczysz?", "a": "Jedno i drugie. Każdą zmianę opisuję prostym językiem razem z tym, co miała dać, więc Ty i każdy kolejny programista wiecie, co i po co zostało zrobione." },
+          { "q": "Czy SEO techniczne ma sens przy wyszukiwaniu AI?", "a": "Większy niż wcześniej. Asystenci czytają strony z dużo mniejszą cierpliwością niż Google: czysty HTML, sekcje z gotową odpowiedzią i spójne dane o firmie decydują, czy stronę da się w ogóle zacytować." },
+          { "q": "Czy będziesz pracować z moim programistą?", "a": "Tak, jeśli go masz. Mogę przekazać listę poprawek z konkretnymi zmianami albo wprowadzić je sam, jeśli dostanę dostęp — zależnie od tego, co szybciej trafi na produkcję." }
+        ]
+      }
+    },
+    "ru": {
+      "slug": "tehnicheskoe-seo",
+      "title": "Техническое SEO: правки в коде, а не ещё один отчёт",
+      "excerpt": "Индексация, скорость, микроразметка и hreflang — находятся и сразу исправляются в коде тем же человеком, который этот код пишет. Аудит говорит, что не так; это работа, которая это чинит.",
+      "metaTitle": "Техническое SEO: правки, сделанные в коде",
+      "metaDescription": "Техническое SEO делает разработчик: индексация, Core Web Vitals, микроразметка и hreflang исправляются, а не перечисляются в отчёте. Аудит от 250 €.",
+      "pain": {
+        "title": "На чём обычно застревает техническое SEO",
+        "items": [
+          { "metric": "100%", "title": "Аудит сдали, а ничего не изменилось", "description": "PDF на 80 пунктов, разработчика под них нет, и через полгода те же 80 пунктов на месте." },
+          { "title": "Страницы сканируются, но не индексируются", "description": "Google забирает страницу и не добавляет её в индекс. Причина обычно в структуре, дублях или пустых шаблонах, а не в недостающем ключевом слове." },
+          { "title": "Разметка как украшение", "description": "Schema скопирована из примера, заголовки превращены в стилизованные блоки, canonical указывает не на ту страницу." },
+          { "title": "Скорость меряют не там", "description": "Зелёная оценка на ноутбуке разработчика и медленная страница на телефоне клиента, потому что замер не совпадал с реальными условиями." }
+        ]
+      },
+      "features": {
+        "title": "Что входит в техническое SEO",
+        "items": [
+          { "title": "Сканирование и индексация", "description": "Правила robots, карта сайта с настоящим lastmod, логика canonical, пагинация и страницы, которых в индексе быть не должно." },
+          { "title": "Структура и внутренние ссылки", "description": "Как связаны разделы, какие страницы получают вес, а какие стоят в одном шаге от пустоты." },
+          { "title": "Core Web Vitals в коде", "description": "Изображения, шрифты, скрипты и рендеринг чинятся там, откуда берутся цифры, а не плагином кэширования." },
+          { "title": "Микроразметка", "description": "Schema для страниц, которые могут получить расширенный сниппет, и проверка, что она совпадает с содержимым страницы." },
+          { "title": "Техническая часть многоязычности", "description": "hreflang во всех версиях, отдельные адреса для языков и отчётность, которая не усредняет рынки." },
+          { "title": "Читаемость для ИИ-ассистентов", "description": "Чистый HTML, разделы с готовым ответом и единые данные о компании, чтобы ассистент мог процитировать страницу, а не догадываться." }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Аудит находит, техническое SEO чинит",
+            "body": "Большинству сайтов не нужен ещё один список проблем. SEO-аудит — это диагноз: что не так, что важнее и сколько это стоит. Техническое SEO — это лечение: те же проблемы, исправленные в коде и подтверждённые в Search Console.\n\nЕсли у вас уже есть чужой аудит, я могу работать по нему. Если нет, начинаем с аудита, и порядок правок идёт от его приоритетов, а не от ощущений."
+          },
+          {
+            "h2": "Кто делает работу",
+            "body": "Тот же человек, который пишет код. В этом разница между рекомендацией и изменением: нет очереди задач, нет перевода с языка SEO на язык разработчика и нет правки, которая так и не вышла, потому что не была ничьей задачей.\n\nКаждый день работаю с Next.js, React, TypeScript и Sanity, а там, где это уместно, с WordPress. Всё документируется, поэтому ваш разработчик сможет поддерживать это дальше."
+          },
+          {
+            "h2": "Сколько стоит техническое SEO",
+            "body": "Аудит стоит от 250 € и заканчивается списком с приоритетами. Правки оцениваю после него, когда объём известен, а не предполагается, и цена фиксируется письменно до начала.\n\nПостоянная техническая работа в рамках ежемесячного SEO начинается от 800 € в месяц. Все суммы есть на странице цен."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Как идёт работа",
+        "items": [
+          { "title": "Сканирование и замеры", "description": "Полный обход сайта, Search Console, Core Web Vitals на реальных устройствах и проверка того, как страницу читают ИИ-ассистенты." },
+          { "title": "Порядок по ценности", "description": "Находки выстраиваются по трафику и заявкам, которые они держат, а не по цвету предупреждения." },
+          { "title": "Правки в коде", "description": "Шаблоны, разметка, редиректы, скорость и микроразметка меняются в источнике." },
+          { "title": "Подтверждение результата", "description": "Повторный обход, Search Console и живые цифры: правка закончена только тогда, когда её видно в данных." }
+        ]
+      },
+      "faq": {
+        "title": "Техническое SEO: частые вопросы",
+        "items": [
+          { "q": "Что такое техническое SEO?", "a": "Это всё, от чего зависит, сможет ли поисковик или ИИ-ассистент дойти до ваших страниц, прочитать их и доверять им: сканирование и индексация, структура, скорость, микроразметка, hreflang и чистый HTML. Контент и ссылки лежат сверху и эту основу не заменяют." },
+          { "q": "Сколько стоит техническое SEO?", "a": "Аудит от 250 €, на выходе список с приоритетами. Правки оцениваются после аудита, цена фиксируется письменно, а постоянная техническая работа в рамках ежемесячного SEO начинается от 800 € в месяц." },
+          { "q": "Можно работать по аудиту, который у меня уже есть?", "a": "Да. Сначала я сверяю его пункты с живым сайтом, потому что аудиты стареют и часть замечаний перестаёт быть верной, а потом чиню то, что осталось актуальным, в порядке важности." },
+          { "q": "Вы только чините или объясняете тоже?", "a": "И то и другое. Каждое изменение описано простым языком вместе с тем, что оно должно было дать, поэтому вам и любому следующему разработчику понятно, что и зачем сделано." },
+          { "q": "Нужно ли техническое SEO при ИИ-поиске?", "a": "Нужнее, чем раньше. Ассистенты читают страницы гораздо менее терпеливо, чем Google: чистый HTML, разделы с готовым ответом и единые данные о компании решают, можно ли вообще процитировать вашу страницу." },
+          { "q": "Будете работать с моим разработчиком?", "a": "Да, если он есть. Я могу передать список правок с конкретными изменениями или внести их сам, если получу доступ, — смотря что быстрее доведёт дело до продакшена." }
+        ]
+      }
+    }
+  }
+}

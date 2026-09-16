@@ -1,0 +1,281 @@
+{
+  "baseId": "singlepage-answer-engine-optimization",
+  "pageType": "service",
+  "parent": {
+    "en": "4de72361-ec2a-469d-8b56-813ddbf3adca",
+    "pl": "631d883e-6f87-4346-9c6d-48b596c2daa7"
+  },
+  "targets": {
+    "en": "aeo agency (590, KD 1), answer engine optimization services (590, KD 15), aeo services (480, KD 9), best answer engine optimization services (110, KD 5), answer engine optimization aeo services (170, KD 20); informational head term answer engine optimization (2 400, KD 43)",
+    "pl": "pozycjonowanie w ai (260, KD 16), pozycjonowanie w chatgpt (210), aeo seo (90), answer engine optimization (50). Samo 'aeo' (1 300) w Polsce to status celny upoważnionego przedsiębiorcy — jako cel odrzucone, w wynikach wyłącznie puesc.gov.pl i firmy celne.",
+    "ru": "страница не создаётся: спроса нет (aeo оптимизация 10/мес, остальные формулировки без данных). Вместо неё абзац и вопрос в FAQ на существующей /ru/uslugi/ai-seo-i-geo-optimizaciya"
+  },
+  "locales": {
+    "en": {
+      "slug": "answer-engine-optimization-services",
+      "title": "Answer Engine Optimization (AEO) Services",
+      "excerpt": "The questions your buyers ask, assigned to pages that answer them in the opening lines, marked up so the answer can be quoted, and measured before and after.",
+      "metaTitle": "Answer Engine Optimization (AEO) Services | Bandziuk",
+      "metaDescription": "AEO services: a question map from real queries, one owner page per question, answers written to be quoted, and inclusion measured in AI Overviews and chatbots.",
+      "pain": {
+        "title": "What AEO usually runs into",
+        "items": [
+          {
+            "metric": "4",
+            "title": "The page ranks and still isn't the answer",
+            "description": "Position four in the classic results, absent from the AI Overview sitting above them, because the answer is buried under six hundred words of introduction."
+          },
+          {
+            "metric": "9",
+            "title": "One page trying to answer nine questions",
+            "description": "A long service page that mentions everything a buyer might ask and owns none of those questions clearly enough to be quoted for any of them."
+          },
+          {
+            "title": "Markup that says what the page doesn't",
+            "description": "FAQPage data carrying questions that appear nowhere in the visible text. The mismatch is a reason to trust neither the markup nor the page."
+          },
+          {
+            "title": "No before and no after",
+            "description": "Changes made on instinct, with nothing recorded, so nobody can say whether inclusion improved or the model simply changed that week."
+          }
+        ]
+      },
+      "features": {
+        "title": "What answer engine optimization covers",
+        "items": [
+          {
+            "title": "A question map built from real queries",
+            "description": "The questions your buyers actually type — from People Also Ask, assistant prompts, Search Console queries and the ones that arrive in your inbox. Not a list invented at a whiteboard."
+          },
+          {
+            "title": "One question per page, answered first",
+            "description": "Each question gets one owner page, and that page answers it in the opening forty to sixty words — before the background, the credentials and the sales copy."
+          },
+          {
+            "title": "Answer formats that survive extraction",
+            "description": "A definition, a table of options, a numbered procedure, a figure with the date it was true. These are the shapes answer engines lift. A paragraph of hedging is not one of them."
+          },
+          {
+            "title": "Answer boxes and AI Overviews, not only chatbots",
+            "description": "The same work is measurable in classic Google search today, where the answer box and the AI Overview sit above your ranked link and take the click you were counting on."
+          },
+          {
+            "title": "Markup that repeats the visible answer",
+            "description": "FAQPage, HowTo and Article data that matches the text on the page rather than a second, tidier version of it, so the page and its structured data say the same thing."
+          },
+          {
+            "title": "Inclusion measured question by question",
+            "description": "A frozen set of questions run before the work and after it, across Google, ChatGPT and Perplexity, so the report says which answers you now appear in — and which you still don't."
+          }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "AEO vs SEO vs GEO: three terms, three different jobs",
+            "body": "The three labels are sold interchangeably and they are not the same work. SEO gets a link ranked so a person clicks it. Answer engine optimization gets your wording lifted into the answer itself — Google's answer box and AI Overview, an assistant's reply, a voice result — whether or not a click follows. Generative engine optimization is about being named as a provider when someone asks who to hire, which is a recommendation rather than an answer to a factual question.\n\nThe honest way to tell them apart is what each one measures. SEO counts positions and clicks. AEO counts the questions your page appears in as the answer. GEO counts how often you are named among the two or three companies an assistant suggests. A site can do well at one and badly at the other two, which is why a single number for AI visibility says almost nothing.\n\nMost businesses need parts of all three, and the order matters more than the labels. Everything about visibility and accuracy across AI assistants, including which of those services applies to you, is set out on the page about AI SEO and GEO optimization."
+          },
+          {
+            "h2": "What answer engine optimization changes on a page",
+            "body": "An example from this site, because it is the clearest kind. The Polish SEO audit page carried the heading \"Ile kosztuje audyt SEO?\" — how much does an SEO audit cost — and contained no price anywhere on it. The figure lived on the pricing page instead. Ranking was never the problem: the page could not be the answer to the question it asked, because it did not hold one.\n\nThe fix is unglamorous, and it is most of what AEO actually is. The question is restated as a heading in the words people use. The answer follows in the next sentence, with a number and the date it was true. The caveats and the detail come after it, not before. The same figure appears in the structured data, so the markup repeats the page rather than paraphrasing it. Then the paragraph can be quoted — by a featured snippet, by an AI Overview, by an assistant reading the page.\n\nWhat this is not: adding a frequently asked questions block to the bottom of every page. Questions nobody asks, answered in text nobody reads, change nothing except the size of the page."
+          },
+          {
+            "h2": "When AEO is not the work you need",
+            "body": "If assistants describe your company incorrectly — old prices, services you dropped, a capability credited to a competitor — that is accuracy work, and the fix is correcting the source they read, not reformatting your pages. If you do not yet know what is said about you, the measurement comes first: an AI visibility audit answers that for a defined set of prompts instead of a single screenshot.\n\nIf the site cannot be read without executing JavaScript, or its facts are not stated as claims anything can check, then preparing the website for AI search comes before any question mapping. Answer formatting on a page a fetcher never finishes reading is worth nothing. And if the answers are already right and the real question is whether they hold, that is AI brand monitoring, which is a subscription rather than a project.\n\nAEO is the layer above all of those: which questions you intend to own, and whether your wording is the version that gets quoted."
+          }
+        ]
+      },
+      "steps": {
+        "title": "How the work runs",
+        "items": [
+          {
+            "title": "The question list",
+            "description": "We agree on the questions worth owning — what your buyers ask, what already brings impressions, and what your competitors are being quoted for."
+          },
+          {
+            "title": "Baseline",
+            "description": "Every question on the list is asked in Google, ChatGPT and Perplexity, and the answers are recorded, so there is a before to compare against."
+          },
+          {
+            "title": "Pages rewritten and marked up",
+            "description": "Each question gets one owner page: the question as a heading, the answer in the opening lines, a format that can be extracted, and structured data that repeats it."
+          },
+          {
+            "title": "Re-test",
+            "description": "The same questions asked again after the pages are re-crawled, with the change written down per question — including the ones that did not move."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Answer engine optimization: frequently asked questions",
+        "items": [
+          {
+            "q": "What is AEO vs SEO?",
+            "a": "SEO is about ranking a link that someone clicks. AEO — answer engine optimization — is about the answer itself: your wording appearing in Google's answer box or AI Overview, in an assistant's reply, or read out as a voice result, whether or not a click follows. The page work overlaps; the measurement does not. SEO counts positions and clicks, AEO counts the questions you appear in as the answer."
+          },
+          {
+            "q": "What is an example of AEO?",
+            "a": "A page whose heading asks \"How much does an SEO audit cost?\" and whose very next sentence gives a figure with the date it was true, followed by what changes it, with the same number in the structured data. Before: the heading asked the question and the price lived on a different page. After: the paragraph can be quoted as the answer."
+          },
+          {
+            "q": "How do you do answer engine optimization?",
+            "a": "Map the questions your buyers ask, give each one a single owner page, answer it in the opening lines in the format the question calls for — a definition, a table, a numbered procedure — make the markup repeat the visible answer, and re-run the same questions afterwards to see what actually changed."
+          },
+          {
+            "q": "Do I need AEO if I already do SEO?",
+            "a": "If your pages rank and you are losing the click to an answer box or an AI Overview sitting above them, yes: the same content, reformatted, is what gets quoted there. If the pages do not rank at all, or a crawler cannot read them, fix that first. AEO does not substitute for the work underneath it."
+          },
+          {
+            "q": "Which answer engines do you optimise for?",
+            "a": "Google's answer box and AI Overviews, ChatGPT, Perplexity and Copilot. One set of changes usually serves all of them, because they read the same HTML — but each is measured separately, since they cite almost non-overlapping sources. The 141-answer study behind that claim is on the AI SEO and GEO optimization page."
+          },
+          {
+            "q": "How long does answer engine optimization take to show results?",
+            "a": "In classic Google search, weeks — as soon as the pages are re-crawled and the answer box is recalculated. In assistants it is slower and less predictable: some answers come from a live fetch and can change within days, others from training data that does not move until the model is retrained. Anyone giving you a date for the second kind is guessing."
+          },
+          {
+            "q": "How much do AEO services cost?",
+            "a": "It depends on what the site already has. Measuring where you stand starts at €250, preparing a site for AI search starts at €800, and ongoing monitoring starts at €250 a month. The question mapping and page work are quoted once we have been through your questions — after that call I name a fixed price, not a range."
+          },
+          {
+            "q": "Can you guarantee I'll appear in AI Overviews?",
+            "a": "No, and neither can anyone else. Inclusion is decided per query, varies between runs of the same query, and depends on the model as much as on your page. What is controllable is whether your page answers the question in a form that can be quoted, and whether the change is measured rather than assumed."
+          }
+        ]
+      }
+    },
+    "pl": {
+      "slug": "pozycjonowanie-w-ai-i-chatgpt",
+      "title": "Pozycjonowanie w AI i ChatGPT (AEO)",
+      "excerpt": "Pytania, które zadają Wasi klienci, przypisane do stron odpowiadających na nie w pierwszych zdaniach, opisane danymi strukturalnymi i zmierzone przed i po.",
+      "metaTitle": "Pozycjonowanie w AI i ChatGPT (AEO) | Bandziuk",
+      "metaDescription": "Pozycjonowanie w AI: mapa pytań klientów, jedna strona na pytanie, odpowiedzi pisane tak, żeby dało się je zacytować, i pomiar w AI Overviews oraz ChatGPT.",
+      "pain": {
+        "title": "Na co zwykle trafia pozycjonowanie w AI",
+        "items": [
+          {
+            "metric": "4",
+            "title": "Strona jest w wynikach i nadal nie jest odpowiedzią",
+            "description": "Czwarta pozycja w klasycznych wynikach i brak w podsumowaniu AI, które stoi nad nimi — bo odpowiedź leży pod sześciuset słowami wstępu."
+          },
+          {
+            "metric": "9",
+            "title": "Jedna strona na dziewięć pytań",
+            "description": "Długa strona usługi, która wspomina o wszystkim, o co klient mógłby zapytać, i żadnego z tych pytań nie zajmuje na tyle wyraźnie, żeby dało się ją zacytować."
+          },
+          {
+            "title": "Dane strukturalne mówią co innego niż strona",
+            "description": "Znaczniki FAQPage z pytaniami, których nie ma w widocznym tekście. Rozjazd jest powodem, żeby nie ufać ani znacznikom, ani stronie."
+          },
+          {
+            "title": "Brak punktu odniesienia",
+            "description": "Zmiany robione na wyczucie, nic nie zapisane — i nikt nie potrafi powiedzieć, czy cytowań przybyło, czy po prostu zmienił się model."
+          }
+        ]
+      },
+      "features": {
+        "title": "Co obejmuje pozycjonowanie w AI i ChatGPT",
+        "items": [
+          {
+            "title": "Mapa pytań z realnych zapytań",
+            "description": "Pytania, które Wasi klienci naprawdę wpisują — z sekcji „Podobne pytania”, z zapytań do asystentów, z Search Console i z Waszej skrzynki. Nie lista wymyślona przy tablicy."
+          },
+          {
+            "title": "Jedno pytanie na stronę, odpowiedź na początku",
+            "description": "Każde pytanie dostaje jedną stronę właściciela, a ta strona odpowiada na nie w pierwszych czterdziestu–sześćdziesięciu słowach, przed historią firmy i argumentami sprzedażowymi."
+          },
+          {
+            "title": "Formaty odpowiedzi, które da się wyciąć",
+            "description": "Definicja, tabela wariantów, ponumerowana procedura, liczba z datą, na którą była prawdziwa. To są kształty, które silniki odpowiedzi wyjmują ze strony. Akapit pełen zastrzeżeń nim nie jest."
+          },
+          {
+            "title": "Wyróżnione odpowiedzi i AI Overviews, nie tylko czaty",
+            "description": "Tę samą pracę widać już dziś w klasycznym Google, gdzie ramka z odpowiedzią i podsumowanie AI stoją nad Waszym wynikiem i zabierają kliknięcie, na które liczyliście."
+          },
+          {
+            "title": "Znaczniki powtarzające widoczną odpowiedź",
+            "description": "FAQPage, HowTo i Article zgodne z tekstem na stronie, a nie z jego drugą, ładniejszą wersją — żeby strona i jej dane strukturalne mówiły to samo."
+          },
+          {
+            "title": "Pomiar pytanie po pytaniu",
+            "description": "Zamrożony zestaw pytań zadany przed pracą i po niej, w Google, ChatGPT i Perplexity, żeby raport mówił, w których odpowiedziach już jesteście — i w których nadal Was nie ma."
+          }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "AEO, GEO i SEO: trzy nazwy, trzy różne prace",
+            "body": "Te trzy skróty bywają sprzedawane zamiennie, a nie oznaczają tej samej pracy. SEO doprowadza link na pozycję, którą ktoś klika. AEO, czyli answer engine optimization, sprawia, że Wasze sformułowanie trafia do samej odpowiedzi — do ramki z odpowiedzią i podsumowania AI w Google, do repliki asystenta, do wyniku czytanego głosem — niezależnie od tego, czy kliknięcie nastąpi. GEO dotyczy tego, czy zostaniecie wymienieni, gdy ktoś pyta, kogo zatrudnić; to rekomendacja, a nie odpowiedź na pytanie faktograficzne.\n\nNajuczciwiej odróżnia je to, co każda z nich mierzy. SEO liczy pozycje i kliknięcia. AEO liczy pytania, w których Wasza strona jest odpowiedzią. GEO liczy, jak często jesteście wymieniani wśród dwóch–trzech firm, które asystent podaje. Strona może wypadać dobrze w jednym i źle w pozostałych dwóch — dlatego jedna liczba opisująca „widoczność w AI” nie mówi prawie nic.\n\nWiększość firm potrzebuje części każdej z tych prac, a kolejność znaczy więcej niż nazwy. Cały podział na widoczność i wiarygodność, razem z tym, która usługa dotyczy Was, jest opisany na stronie o AI SEO i optymalizacji GEO.\n\nJedna uwaga porządkowa dla polskiego czytelnika: skrót AEO oznacza w Polsce także status celny upoważnionego przedsiębiorcy. Tutaj chodzi wyłącznie o optymalizację pod silniki odpowiedzi."
+          },
+          {
+            "h2": "Co pozycjonowanie w AI zmienia na stronie",
+            "body": "Przykład z tej witryny, bo jest najczytelniejszy. Polska strona audytu SEO miała nagłówek „Ile kosztuje audyt SEO?” i nie zawierała żadnej ceny. Kwota leżała na stronie z cennikiem. Problemem nigdy nie była pozycja: ta strona nie mogła być odpowiedzią na pytanie, które sama zadawała, bo odpowiedzi na niej nie było.\n\nNaprawa jest nieefektowna i to właśnie jest w większości AEO. Pytanie wraca jako nagłówek, w słowach, których używają ludzie. Odpowiedź pada w następnym zdaniu, z liczbą i datą, na którą była prawdziwa. Zastrzeżenia i szczegóły idą po niej, nie przed nią. Ta sama liczba trafia do danych strukturalnych, więc znacznik powtarza stronę, zamiast ją parafrazować. Dopiero wtedy akapit da się zacytować — w wyróżnionej odpowiedzi, w podsumowaniu AI, w replice asystenta.\n\nCzym to nie jest: doklejaniem sekcji z pytaniami na dole każdej podstrony. Pytania, których nikt nie zadaje, z odpowiedziami, których nikt nie czyta, zmieniają tylko objętość strony."
+          },
+          {
+            "h2": "Kiedy pozycjonowanie w ChatGPT nie jest tym, czego potrzebujecie",
+            "body": "Jeśli asystenci opisują Waszą firmę błędnie — nieaktualne ceny, usługi, z których zrezygnowaliście, możliwość przypisana konkurentowi — to praca nad wiarygodnością, a naprawia się ją przy źródle, które model przeczytał, nie przez przeformatowanie Waszych stron. Jeśli nie wiecie jeszcze, co się o Was mówi, najpierw idzie pomiar: audyt widoczności w AI odpowiada na to na zamrożonym zestawie zapytań, a nie na jednym zrzucie ekranu.\n\nJeśli strony nie da się przeczytać bez wykonania JavaScriptu albo fakty nie są na niej podane jako sprawdzalne twierdzenia, to najpierw idzie przygotowanie strony do wyszukiwania AI. Formatowanie odpowiedzi na stronie, której robot nigdy nie doczyta, jest warte tyle co nic. A jeśli odpowiedzi są już poprawne i pytanie brzmi, czy się utrzymają, to monitoring marki w AI — abonament, nie projekt.\n\nAEO jest warstwą nad tym wszystkim: które pytania zamierzacie zająć i czy to Wasze sformułowanie zostanie zacytowane."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Jak przebiega praca",
+        "items": [
+          {
+            "title": "Lista pytań",
+            "description": "Ustalamy pytania warte zajęcia — to, o co pytają Wasi klienci, to, co już daje wyświetlenia, i to, za co cytowani są konkurenci."
+          },
+          {
+            "title": "Punkt odniesienia",
+            "description": "Każde pytanie z listy zadaję w Google, ChatGPT i Perplexity, a odpowiedzi zapisuję, żeby było „przed”, z czym porównać."
+          },
+          {
+            "title": "Przepisanie stron i znaczniki",
+            "description": "Każde pytanie dostaje jedną stronę właściciela: pytanie w nagłówku, odpowiedź w pierwszych zdaniach, format, który da się wyciąć, i dane strukturalne, które to powtarzają."
+          },
+          {
+            "title": "Ponowny pomiar",
+            "description": "Te same pytania zadane jeszcze raz po ponownym zeskanowaniu stron, ze zmianą zapisaną przy każdym z nich — łącznie z tymi, które nie drgnęły."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Pozycjonowanie w AI: najczęstsze pytania",
+        "items": [
+          {
+            "q": "Czym pozycjonowanie w AI różni się od klasycznego SEO?",
+            "a": "SEO doprowadza link na pozycję, którą ktoś klika. AEO dotyczy samej odpowiedzi: tego, czy Wasze sformułowanie pojawi się w ramce z odpowiedzią, w podsumowaniu AI albo w replice ChatGPT, niezależnie od kliknięcia. Praca na stronie częściowo się pokrywa, pomiar nie: SEO liczy pozycje i kliknięcia, AEO liczy pytania, w których jesteście odpowiedzią."
+          },
+          {
+            "q": "Czy AEO to ten sam skrót co status celny AEO?",
+            "a": "Nie. W polskim internecie AEO to najczęściej status upoważnionego przedsiębiorcy w przepisach celnych i tego dotyczy większość wyników wyszukiwania. Na tej stronie AEO znaczy answer engine optimization — optymalizacja pod silniki odpowiedzi. Te dwa znaczenia nie mają ze sobą nic wspólnego poza skrótem."
+          },
+          {
+            "q": "Jak wygląda przykład pozycjonowania pod odpowiedzi AI?",
+            "a": "Strona, której nagłówek brzmi „Ile kosztuje audyt SEO?”, a kolejne zdanie podaje kwotę z datą, na którą była aktualna, potem to, co ją zmienia, i ta sama liczba siedzi w danych strukturalnych. Przed: nagłówek pytał, a cena leżała na innej podstronie. Po: akapit da się zacytować jako odpowiedź."
+          },
+          {
+            "q": "Czy potrzebuję AEO, skoro robię już SEO?",
+            "a": "Jeśli Wasze strony są w wynikach, a kliknięcie zabiera ramka z odpowiedzią albo podsumowanie AI nad nimi — tak, bo cytowana jest ta sama treść, tylko inaczej ułożona. Jeśli strony w ogóle nie rankują albo robot ich nie czyta, najpierw to. AEO nie zastępuje pracy, która leży pod nim."
+          },
+          {
+            "q": "Które silniki odpowiedzi obejmuje praca?",
+            "a": "Ramkę z odpowiedzią i AI Overviews w Google, ChatGPT, Perplexity oraz Copilota. Jeden zestaw zmian zwykle obsługuje wszystkie, bo czytają ten sam HTML — ale mierzy się je osobno, bo cytują niemal rozłączne źródła. Badanie 141 odpowiedzi, z którego to wynika, jest na stronie o AI SEO i optymalizacji GEO."
+          },
+          {
+            "q": "Po jakim czasie widać efekty?",
+            "a": "W klasycznym Google — tygodnie, licząc od ponownego zeskanowania stron. U asystentów wolniej i mniej przewidywalnie: część odpowiedzi powstaje z pobrania na żywo i potrafi zmienić się w kilka dni, część z danych treningowych, które nie drgną do przetrenowania modelu. Kto podaje datę dla tego drugiego przypadku, zgaduje."
+          },
+          {
+            "q": "Ile kosztuje pozycjonowanie w AI?",
+            "a": "Zależy od tego, co strona już ma. Pomiar stanu wyjściowego zaczyna się od 1000 zł, przygotowanie strony do wyszukiwania AI od 3500 zł, a stały monitoring od 1000 zł miesięcznie. Mapę pytań i pracę na stronach wyceniam po przejściu przez Wasze pytania — po tej rozmowie podaję cenę stałą, nie widełki."
+          },
+          {
+            "q": "Czy gwarantujecie obecność w podsumowaniach AI?",
+            "a": "Nie i nikt uczciwie nie może. O włączeniu decyduje pojedyncze zapytanie, wynik potrafi różnić się między przebiegami tego samego pytania i zależy od modelu tak samo jak od Waszej strony. Kontrolowalne jest to, czy strona odpowiada na pytanie w formie, którą da się zacytować, i czy zmiana jest mierzona, a nie zakładana."
+          }
+        ]
+      }
+    }
+  }
+}

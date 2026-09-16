@@ -27,7 +27,10 @@ const APPLY = process.argv.includes("--apply");
 const DATA_FILE = process.argv.find((a) => a.endsWith(".json"));
 if (!DATA_FILE) { console.error("Укажите файл контента: node scripts/create-service-page.cjs drafts/page-<имя>.json [--apply]"); process.exit(1); }
 const DATA = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), DATA_FILE), "utf8"));
-const LANGS = ["en", "pl", "ru"];
+// Локали берём из файла контента: страницу делаем только там, где есть спрос.
+// Русской версии AEO, например, нет — 10 запросов в месяц не оправдывают страницу.
+const LANGS = ["en", "pl", "ru"].filter((l) => DATA.locales[l]);
+if (!LANGS.includes("en")) throw new Error("В locales должна быть как минимум английская версия");
 const key = () => crypto.randomBytes(6).toString("hex");
 const span = (text) => ({ _key: key(), _type: "span", text, marks: [] });
 const block = (text, style = "normal") => ({ _key: key(), _type: "block", style, markDefs: [], children: [span(text)] });

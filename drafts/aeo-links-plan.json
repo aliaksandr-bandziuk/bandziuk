@@ -1,0 +1,74 @@
+[
+  {
+    "page": "/services/ai-ready-seo-and-geo-optimization",
+    "docId": "831dc620-2863-4d55-baa0-aa874a7374ac",
+    "paragraphs": [
+      {
+        "text": "The four services above are about being named and being described correctly. Which questions your pages answer — and whether your wording is the one quoted in an answer box, an AI Overview or an assistant's reply — is a separate job: answer engine optimization.",
+        "links": [
+          { "anchor": "answer engine optimization", "href": "/services/answer-engine-optimization-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/ai-search-readiness",
+    "docId": "service-ai-search-readiness",
+    "paragraphs": [
+      {
+        "text": "Readiness decides whether a page can be read at all. Which questions it is meant to answer, and in what form, comes after that and is covered by AEO services.",
+        "links": [
+          { "anchor": "covered by AEO services", "href": "/services/answer-engine-optimization-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/seo-optimization-and-strategy",
+    "docId": "42a469a6-28f3-4015-8b88-414c8eb3d4fa",
+    "paragraphs": [
+      {
+        "text": "Ranking is no longer the whole result. When an answer box or an AI Overview sits above your listing, the click goes to whoever wrote the answer it quotes — that part of the work is answer engine optimization (AEO).",
+        "links": [
+          { "anchor": "answer engine optimization (AEO)", "href": "/services/answer-engine-optimization-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/ai-seo-and-geo-optymalizacja",
+    "docId": "3a759a28-4135-4731-a318-cffee1b512f0",
+    "paragraphs": [
+      {
+        "text": "Cztery powyższe usługi dotyczą tego, czy jesteście wymieniani i czy opisują Was poprawnie. To, na które pytania odpowiadają Wasze strony i czy to Wasze sformułowanie trafi do ramki z odpowiedzią albo repliki asystenta, jest osobną pracą: pozycjonowanie w AI i ChatGPT.",
+        "links": [
+          { "anchor": "pozycjonowanie w AI i ChatGPT", "href": "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai",
+    "docId": "service-ai-search-readiness.pl",
+    "paragraphs": [
+      {
+        "text": "Przygotowanie rozstrzyga, czy stronę w ogóle da się przeczytać. To, na które pytania ma odpowiadać i w jakiej formie, idzie po tym i obejmuje je pozycjonowanie pod odpowiedzi AI.",
+        "links": [
+          { "anchor": "pozycjonowanie pod odpowiedzi AI", "href": "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/strategia-i-optymalizacja-seo",
+    "docId": "77c5f5df-a6f3-49ca-8f42-f1439e3490c6",
+    "paragraphs": [
+      {
+        "text": "Pozycja przestała być całym wynikiem. Gdy nad Waszym wpisem stoi ramka z odpowiedzią albo podsumowanie AI, kliknięcie idzie do tego, czyją odpowiedź zacytowano — tę część pracy obejmuje pozycjonowanie w AI i ChatGPT (AEO).",
+        "links": [
+          { "anchor": "pozycjonowanie w AI i ChatGPT (AEO)", "href": "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt" }
+        ]
+      }
+    ]
+  }
+]

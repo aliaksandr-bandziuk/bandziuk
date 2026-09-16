@@ -1,6 +1,6 @@
 "use client";
 
-import { i18n } from "@/i18n.config";
+import { i18n, defaultLocale } from "@/i18n.config";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import React, { useMemo, useState, useEffect, useRef } from "react";
@@ -32,6 +32,14 @@ const LocaleSwitcher = ({ translations }: Props) => {
       }, []),
     [translations, currentLang]
   );
+
+  // Every page builds these paths as `/${lang}/...`, but English has no prefix
+  // (localePrefix: "as-needed"): "/en/blog/x" only 307-redirects to "/blog/x".
+  // Link to the final URL instead, so no internal link is a redirect.
+  const hrefFor = (translation: Translation) =>
+    translation.language === defaultLocale
+      ? translation.path.replace(new RegExp(`^/${defaultLocale}(?=/|$)`), "") || "/"
+      : translation.path;
 
   const toggleDropdown = () => {
     setIsOpen((prev) => !prev);
@@ -94,15 +102,23 @@ const LocaleSwitcher = ({ translations }: Props) => {
           <polyline points="6 9 12 15 18 9" />
         </svg> */}
       </div>
-      {isOpen && (
-        <ul className={styles.localeSwitcherList} role="listbox" aria-label="Available languages">
+      {/* The list is always in the markup, only hidden with CSS: rendering it
+          on click put the links to the other languages nowhere in the server
+          HTML, so nothing on an EN page linked to /ru or /pl and a crawler
+          could reach them only through the sitemap. */}
+      {availableTranslations.length > 0 && (
+        <ul
+          className={[styles.localeSwitcherList, isOpen ? styles.listOpen : ""].filter(Boolean).join(" ")}
+          role="listbox"
+          aria-label="Available languages"
+        >
           {availableTranslations.map((version) => (
             <li
               key={version.language}
               className={styles.localeSwitcherListItem}
             >
               <Link
-                href={version.path}
+                href={hrefFor(version)}
                 locale={version.language}
                 className={styles.localeSwitcherLink}
                 onClick={() => setIsOpen(false)}

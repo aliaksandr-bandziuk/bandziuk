@@ -83,6 +83,8 @@ function buildDoc(lang) {
     _type: "singlepage",
     language: lang,
     pageType: DATA.pageType,
+    // Без этого флага [...slug] не рендерит шапку, а значит и H1 страницы.
+    allowIntroBlock: true,
     title: d.title,
     excerpt: d.excerpt,
     // Только собственный slug локали — иначе плагин переводов ругается.

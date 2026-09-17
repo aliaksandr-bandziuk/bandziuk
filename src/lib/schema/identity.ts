@@ -35,6 +35,9 @@ export const SAME_AS: string[] = [
   // A self-created item is removed again, so do not re-add one until an
   // independent source (press coverage, a conference) makes the person notable.
   // A deleted item in sameAs points the entity graph at nothing.
+  // Google Business Profile, verified 2026-09-17, addressed by its Knowledge
+  // Graph id rather than the share.google redirect the dashboard hands out.
+  "https://www.google.com/search?kgmid=/g/11nw1z00dz",
   "https://www.linkedin.com/in/bandziuk",
   "https://x.com/bandziuk",
   "https://dev.to/aliaksandrbandziuk",

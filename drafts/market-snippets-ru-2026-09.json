@@ -1,0 +1,65 @@
+{
+  "why": "Пять русских страниц рынков стоят на 7–18 позициях (Search Console, 3 месяца до 2026-09-11), но ноль кликов. Выдача (Google, русский, Казахстан — Россия в DataForSEO недоступна, 2026-09-17) показывает у конкурентов «цена», «заказать», «цена услуги от», а главный вопрос в «Похожих вопросах» — «Сколько стоит раскрутка сайта в месяц?» (Франция, Нидерланды, США) и «Какова цена на продвижение сайтов?» (Швейцария). Цена у нас есть в FAQ каждой страницы (от 800 € в месяц, аудит от 250 €), но не в сниппете: описания заканчивались на «Работа по договору». Заголовки, которые уже держат 10–18 места, не трогаются. На трёх страницах, переименованных сегодня, вопрос о цене в FAQ приведён к формулировке «в [стране]».",
+  "items": [
+    {
+      "id": "singlepage-seo-france.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok",
+      "set": {
+        "seo.metaDescription": "Продвижение и раскрутка сайта во Франции: SEO на французском, которое работает и на Бельгию со Швейцарией. От 800 € в месяц, аудит — от 250 €."
+      }
+    },
+    {
+      "id": "singlepage-seo-switzerland.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok",
+      "set": {
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Швейцарии: три языковых региона и высокая цена сделки. SEO и видимость в ИИ — от 800 € в месяц, аудит от 250 €."
+      }
+    },
+    {
+      "id": "singlepage-seo-netherlands.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok",
+      "set": {
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Нидерландах: SEO на нидерландском и там, где английский ещё работает. От 800 € в месяц, аудит — от 250 €."
+      }
+    },
+    {
+      "id": "singlepage-seo-ireland.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok",
+      "set": {
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Ирландии: отдельная работа под ирландскую выдачу, а не довесок к британской. От 800 € в месяц, аудит — от 250 €."
+      }
+    },
+    {
+      "id": "singlepage-seo-usa.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok",
+      "set": {
+        "seo.metaDescription": "Продвижение и раскрутка сайта в США: конкретный штат и город вместо «всей Америки». SEO и видимость в ИИ — от 800 € в месяц, аудит от 250 €."
+      }
+    },
+    {
+      "id": "singlepage-seo-uk.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok",
+      "set": {
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Англии и Великобритании: SEO на английском для британских покупателей. От 800 € в месяц, аудит — от 250 €.",
+        "contentBlocks[_key==\"3671682864d7\"].faq.items[_key==\"3fe356e5a41e\"].question": "Сколько стоит продвижение сайта в Великобритании?",
+        "contentBlocks[_key==\"3671682864d7\"].faq.items[_key==\"1add5b9667f1\"].question": "А если аудит скажет, что в Великобританию заходить не стоит?"
+      }
+    },
+    {
+      "id": "singlepage-seo-italy.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",
+      "set": {
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Италии: SEO на итальянском на рынке, где конкуренция в поиске ниже его размера. От 800 € в месяц, аудит — от 250 €.",
+        "contentBlocks[_key==\"38a628810b07\"].faq.items[_key==\"5a51eef0c91d\"].question": "Сколько стоит продвижение сайта в Италии?"
+      }
+    },
+    {
+      "id": "singlepage-seo-germany.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok",
+      "set": {
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Германии: SEO в немецком Google без регистрации компании в Германии. От 800 € в месяц, аудит — от 250 €.",
+        "contentBlocks[_key==\"0de0654c4a80\"].faq.items[_key==\"3ceb56b8c1a3\"].question": "Сколько стоит продвижение сайта в Германии?"
+      }
+    }
+  ]
+}

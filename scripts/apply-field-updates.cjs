@@ -26,7 +26,14 @@ if (!PLAN_FILE) { console.error("Укажите план: node scripts/apply-fie
 const plan = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), PLAN_FILE), "utf8"));
 const items = Array.isArray(plan) ? plan : plan.items;
 
-const get = (obj, dotted) => dotted.split(".").reduce((o, k) => (o == null ? o : o[k]), obj);
+// Понимает и простые пути (seo.metaTitle), и адресацию по ключу:
+// contentBlocks[_key=="abc"].faq.items[_key=="def"].question
+const get = (obj, path) =>
+  path.match(/[^.[\]]+(\[_key=="[^"]+"\])?/g).reduce((o, part) => {
+    if (o == null) return o;
+    const m = part.match(/^([^[]+)\[_key=="([^"]+)"\]$/);
+    return m ? (o[m[1]] || []).find((x) => x._key === m[2]) : o[part];
+  }, obj);
 const LIMITS = { "seo.metaTitle": 60, "seo.metaDescription": 160 };
 
 async function main() {

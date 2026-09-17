@@ -1,0 +1,122 @@
+{
+  "why": "Русские страницы рынков с заголовком «Продвижение сайта в [стране]» стоят на 7–18 позициях (Франция, Швейцария, Нидерланды, Ирландия), а с «SEO-продвижение сайта на X рынок» — на 20–47 (Великобритания, Италия, Германия). Запросы в Search Console (3 месяца до 2026-09-11) сформулированы через страну: «продвижение сайтов в англии» 38, «раскрутка сайтов в англии» 32, «продвижение сайтов в италии» 39, «продвижение сайта в немецком гугле» 31; по-польски «pozycjonowanie szwajcaria» 75, «pozycjonowanie anglia» 26, «pozycjonowanie stron w usa» 21, «pozycjonowanie irlandia» 21, «pozycjonowanie we francji» 20, «pozycjonowanie londyn» 15, «pozycjonowanie po niemiecku» 13. Польские заголовки все были «na rynek X». title — это H1 и название в хлебных крошках и карточках хаба; адреса страниц не меняются.",
+  "items": [
+    {
+      "id": "singlepage-seo-uk.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok",
+      "set": {
+        "title": "Продвижение сайта в Великобритании",
+        "seo.metaTitle": "Продвижение сайта в Англии и Великобритании: SEO | Bandziuk",
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Англии и Великобритании: SEO на английском для британских покупателей и видимость в ответах ИИ."
+      }
+    },
+    {
+      "id": "singlepage-seo-italy.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",
+      "set": {
+        "title": "Продвижение сайта в Италии",
+        "seo.metaTitle": "Продвижение сайта в Италии: SEO и раскрутка | Bandziuk",
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Италии: запросы на итальянском, контент под этот рынок и видимость в Google и в ответах ИИ."
+      }
+    },
+    {
+      "id": "singlepage-seo-germany.ru",
+      "page": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok",
+      "set": {
+        "title": "Продвижение сайта в Германии",
+        "seo.metaTitle": "Продвижение сайта в Германии: SEO и раскрутка | Bandziuk",
+        "seo.metaDescription": "Продвижение и раскрутка сайта в Германии: запросы на немецком, SEO в немецком Google и видимость в ответах ИИ — без регистрации компании в Германии."
+      }
+    },
+    {
+      "id": "singlepage-seo-uk.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-brytyjski",
+      "set": {
+        "title": "Pozycjonowanie stron w Wielkiej Brytanii",
+        "seo.metaTitle": "Pozycjonowanie stron w Wielkiej Brytanii i Anglii — SEO UK",
+        "seo.metaDescription": "Pozycjonowanie stron w Anglii i Wielkiej Brytanii, także dla klientów z Londynu: SEO po angielsku pod brytyjski rynek i widoczność w odpowiedziach AI."
+      }
+    },
+    {
+      "id": "singlepage-seo-france.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski",
+      "set": {
+        "title": "Pozycjonowanie stron we Francji",
+        "seo.metaTitle": "Pozycjonowanie stron we Francji: SEO na rynek francuski",
+        "seo.metaDescription": "Pozycjonowanie stron we Francji: SEO i widoczność w AI po francusku — wersja językowa, która sięga też Belgii, Szwajcarii i Luksemburga."
+      }
+    },
+    {
+      "id": "singlepage-seo-usa.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-amerykanski",
+      "set": {
+        "title": "Pozycjonowanie stron w USA",
+        "seo.metaTitle": "Pozycjonowanie stron w USA: SEO na rynek amerykański",
+        "seo.metaDescription": "Pozycjonowanie stron w USA i Stanach Zjednoczonych: SEO i widoczność w AI dla klientów w Ameryce — zaczynając od wycinka rynku, który da się wygrać."
+      }
+    },
+    {
+      "id": "singlepage-seo-switzerland.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-szwajcarski",
+      "set": {
+        "title": "Pozycjonowanie stron w Szwajcarii",
+        "seo.metaTitle": "Pozycjonowanie stron w Szwajcarii: SEO na rynek szwajcarski",
+        "seo.metaDescription": "Pozycjonowanie stron w Szwajcarii: SEO i widoczność w AI na rynku, gdzie niskie wolumeny i wysoka wartość transakcji odwracają zwykłą arytmetykę."
+      }
+    },
+    {
+      "id": "singlepage-seo-germany.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-niemiecki",
+      "set": {
+        "title": "Pozycjonowanie stron w Niemczech",
+        "seo.metaTitle": "Pozycjonowanie stron w Niemczech: SEO po niemiecku",
+        "seo.metaDescription": "Pozycjonowanie stron w Niemczech: SEO po niemiecku i widoczność w AI dla firm sprzedających na rynek niemiecki — bez rejestracji w Niemczech."
+      }
+    },
+    {
+      "id": "singlepage-seo-australia.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-australijski",
+      "set": {
+        "title": "Pozycjonowanie stron w Australii",
+        "seo.metaTitle": "Pozycjonowanie stron w Australii: SEO na rynek australijski",
+        "seo.metaDescription": "Pozycjonowanie stron w Australii: SEO i widoczność w AI dla klientów, którzy najpierw sprawdzają, czy naprawdę obsługujecie ich rynek."
+      }
+    },
+    {
+      "id": "singlepage-seo-ireland.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-irlandzki",
+      "set": {
+        "title": "Pozycjonowanie stron w Irlandii",
+        "seo.metaTitle": "Pozycjonowanie stron w Irlandii: SEO na rynek irlandzki",
+        "seo.metaDescription": "Pozycjonowanie stron w Irlandii: SEO i widoczność w AI na anglojęzycznym rynku UE, który po cichu przykrywają brytyjskie wyniki wyszukiwania."
+      }
+    },
+    {
+      "id": "singlepage-seo-italy.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski",
+      "set": {
+        "title": "Pozycjonowanie stron we Włoszech",
+        "seo.metaTitle": "Pozycjonowanie stron we Włoszech: SEO na rynek włoski",
+        "seo.metaDescription": "Pozycjonowanie stron we Włoszech: SEO i widoczność w AI na rynku dość dużym, by się liczył, i mniej zatłoczonym w wyszukiwarce, niż sugeruje jego wielkość."
+      }
+    },
+    {
+      "id": "singlepage-seo-netherlands.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-holenderski",
+      "set": {
+        "title": "Pozycjonowanie stron w Holandii",
+        "seo.metaTitle": "Pozycjonowanie stron w Holandii: SEO na rynek holenderski",
+        "seo.metaDescription": "Pozycjonowanie stron w Holandii: SEO i widoczność w AI po niderlandzku — bo nawet ludzie mówiący świetnie po angielsku szukają w swoim języku."
+      }
+    },
+    {
+      "id": "singlepage-seo-baltics.pl",
+      "page": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",
+      "set": {
+        "title": "Pozycjonowanie stron na Litwie, Łotwie i w Estonii",
+        "seo.metaTitle": "Pozycjonowanie stron na Litwie, Łotwie i w Estonii",
+        "seo.metaDescription": "Pozycjonowanie stron na Litwie, Łotwie i w Estonii: trzy rynki, trzy języki i trzy zestawy konkurentów, na które najlepiej wchodzić po kolei."
+      }
+    }
+  ]
+}

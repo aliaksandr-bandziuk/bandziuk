@@ -1,0 +1,147 @@
+{
+  "baseId": "singlepage-shopify-seo",
+  "pageType": "service",
+  "parent": {
+    "en": "4de72361-ec2a-469d-8b56-813ddbf3adca"
+  },
+  "targets": {
+    "en": "shopify seo services (1 300, KD 9; 720 UK, KD 6), shopify seo agency (1 300, KD 0), shopify seo service (1 300, KD 4), seo services for shopify (1 300, KD 9), shopify seo agencies (1 300, KD 10), shopify seo expert (480, KD 0), shopify seo audit (50, KD 3)",
+    "pl": "страница не создаётся: pozycjonowanie shopify 140/мес, кластер закрывается общей страницей о магазинах",
+    "ru": "страница не создаётся: спроса нет"
+  },
+  "locales": {
+    "en": {
+      "slug": "shopify-seo-services",
+      "title": "Shopify SEO Services",
+      "excerpt": "Shopify SEO done inside the platform's own limits: duplicate collection URLs, theme speed, app scripts, structured data and archived products.",
+      "metaTitle": "Shopify SEO Services | Bandziuk",
+      "metaDescription": "Shopify SEO services: duplicate collection URLs fixed, theme and app speed, product schema that matches the page, and a rule for archived and sold-out products.",
+      "pain": {
+        "title": "What Shopify SEO usually runs into",
+        "items": [
+          {
+            "metric": "2",
+            "title": "Every product reachable at two addresses",
+            "description": "Shopify serves an item at /products/item and again at /collections/whatever/products/item, and the store competes with itself unless the links are made to point one way."
+          },
+          {
+            "metric": "30",
+            "title": "Apps quietly loading on every page",
+            "description": "Reviews, upsells, pop-ups, currency switchers — each adds scripts to the theme, and by the time there are a dozen the product template no longer passes on a phone."
+          },
+          {
+            "title": "Theme SEO settings that don't exist",
+            "description": "Collections share one template, so a title or an intro written for one collection applies to all of them unless the template is taught to take them per page."
+          },
+          {
+            "title": "Deleted products falling straight to 404",
+            "description": "Delete a product in Shopify and its page is gone, along with every link and every ranking it had, with no redirect offered and no warning given."
+          }
+        ]
+      },
+      "features": {
+        "title": "What Shopify SEO services cover",
+        "items": [
+          {
+            "title": "One canonical address per product",
+            "description": "Internal links, sitemaps and canonicals pointed at /products/, so the collection-path duplicate stops splitting signals with the page you actually want ranked."
+          },
+          {
+            "title": "Collection templates that take their own content",
+            "description": "Titles, headings and intro text taken from metafields per collection instead of one shared template line, so every collection can target its own demand."
+          },
+          {
+            "title": "Tags, filters and sorting under control",
+            "description": "Shopify turns tags and filters into crawlable URLs. Which of those deserve to be indexed because people search them, and which are blocked, decided as a rule."
+          },
+          {
+            "title": "Theme and app speed on a real product page",
+            "description": "The script budget audited app by app, images served at the size they are displayed, and Core Web Vitals measured on the product and collection templates rather than the homepage."
+          },
+          {
+            "title": "Structured data without duplicates",
+            "description": "Shopify themes and review apps often emit Product markup twice, with different prices. One correct block per page, matching the price and availability a visitor sees."
+          },
+          {
+            "title": "A rule for archived and sold-out products",
+            "description": "Redirect where the page earned links, keep with alternatives where the item returns, and let go what nobody asks for — set up before the next catalogue clean-up, not after it."
+          }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "What Shopify SEO has to work around",
+            "body": "Shopify takes a set of decisions out of your hands, and most Shopify SEO work is about the consequences. The URL structure is fixed: products live under /products/, collections under /collections/, the blog under /blogs/. You cannot flatten those, so the work is to make every internal link, the sitemap and the canonical agree on one address per item — which they do not do by default, because a product linked from inside a collection is served at a second address with the collection in the path.\n\nThe theme is the second constraint. All collections share one template and all products share another, so anything written once appears everywhere unless the template is taught to read per-page values. That is a one-off piece of theme work, after which every collection can carry its own title and its own intro without a developer being involved again.\n\nThe third is apps. Every app that adds a review widget, an upsell, a pop-up or a currency switcher adds scripts to the same page, and the cost lands on the product template where the buying happens. Auditing that is unglamorous and it is usually where the largest speed win on a Shopify store sits."
+          },
+          {
+            "h2": "Shopify SEO and ordinary ecommerce SEO: what is different",
+            "body": "The strategy is the same as for any online store: collection pages are the landing pages, one address per product, a policy for items that stop being sold, markup that matches the visible page. The differences are all in how a fix is applied.\n\nOn a custom store a developer changes the routing. On Shopify the routing is fixed and the fix is in the links, the canonicals and the sitemap. On a custom store structured data is written once in the template. On Shopify it is often emitted twice — by the theme and again by a review app — with two different prices, and the work is removing one of them rather than adding anything.\n\nWhat carries over unchanged is the thinking about categories, filters and dead products, which is described on the ecommerce SEO services page. This page is about the platform's own limits."
+          },
+          {
+            "h2": "What Shopify SEO costs and what you get for it",
+            "body": "A Shopify SEO audit is from €250: a crawl of the store, the duplicate-URL picture, the app and speed budget, the structured data actually being emitted, and a prioritised list of what to fix first. Ongoing monthly SEO starts from €800 a month. After looking at the store I put a fixed price in writing before anything starts.\n\nTheme work is quoted separately from monthly SEO, because it is a one-off: once the collection template reads per-page titles and intros and the duplicate markup is gone, it stays fixed. I can apply it in the theme myself or write it up for whoever maintains it and check the result afterwards.\n\nWhat I will not do is install another SEO app and call that the work. Most of them add a settings panel over the same theme files, plus more scripts on the page that is already too heavy."
+          }
+        ]
+      },
+      "steps": {
+        "title": "How the work runs",
+        "items": [
+          {
+            "title": "Crawl and app audit",
+            "description": "A full crawl of the store, every URL pattern it can produce, the scripts each app adds, and what the theme currently emits as structured data."
+          },
+          {
+            "title": "Duplicates and canonicals",
+            "description": "Internal links, sitemap and canonicals pointed at one address per product; tag, filter and sort URLs sorted into indexable and blocked."
+          },
+          {
+            "title": "Theme work, once",
+            "description": "Collection and product templates taught to read per-page titles, headings and intros; duplicate Product markup removed; images served at display size."
+          },
+          {
+            "title": "Content, links and monthly measurement",
+            "description": "Collections built out for the demand that exists, internal links pointing at them, and a monthly report by collection rather than one number for the store."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Shopify SEO: frequently asked questions",
+        "items": [
+          {
+            "q": "Is Shopify good for SEO?",
+            "a": "It is fine, with known limits. You cannot change the URL structure, all collections share one template, and apps add scripts to every page. None of that stops a Shopify store from ranking; it just means the work is in links, canonicals, templates and the app budget rather than in routing and server configuration."
+          },
+          {
+            "q": "How much do Shopify SEO services cost?",
+            "a": "An audit is from €250 and ends with a prioritised list. Ongoing monthly work starts from €800 a month, and one-off theme work is quoted separately because it does not repeat. After looking at the store I put a fixed price in writing before anything starts."
+          },
+          {
+            "q": "Why does the same product have two URLs on Shopify?",
+            "a": "Because a product opened from inside a collection is served at /collections/name/products/item as well as at /products/item. Shopify sets a canonical to the second one, but internal links, sitemaps and shared links often point at the first, which splits the signals. The fix is making every link agree with the canonical."
+          },
+          {
+            "q": "Do I need an SEO app for Shopify?",
+            "a": "Usually not. Most of what those apps offer is a settings panel over theme files that can be edited directly, and each one adds scripts to a page that is often already too heavy. The exceptions are narrow — a redirect manager on a large catalogue, for example — and worth choosing deliberately rather than by default."
+          },
+          {
+            "q": "What happens to products I delete?",
+            "a": "They 404, immediately, taking their links and rankings with them. Before a catalogue clean-up there should be a rule: redirect anything that earned links to the collection above it, keep what is coming back with alternatives shown, and let go of what nobody asks for. Shopify's redirect tool does the work once the decision is made."
+          },
+          {
+            "q": "Can you work inside my theme, or do you hand over a list?",
+            "a": "Either. I can make the changes in the theme and in the admin directly, or write them up for whoever maintains the store and then check the result. Theme changes go to a duplicate of the live theme first, not straight to what customers see."
+          },
+          {
+            "q": "Do you work with Shopify Plus and Shopify Markets?",
+            "a": "Yes. Markets is where multi-country stores usually go wrong: subfolders per market with hreflang that does not match them, duplicate catalogues and price-based content differences that read as duplication. That is checked as part of the audit rather than assumed to be configured correctly."
+          },
+          {
+            "q": "How long does Shopify SEO take to show results?",
+            "a": "Technical and speed fixes show within weeks of the pages being crawled again. Collection rankings move over three to six months. A store in a seasonal niche moves on its season, whenever the work was done."
+          }
+        ]
+      }
+    }
+  }
+}

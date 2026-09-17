@@ -1,0 +1,86 @@
+[
+  {
+    "page": "/services/ecommerce-seo-services",
+    "docId": "singlepage-ecommerce-seo",
+    "paragraphs": [
+      {
+        "text": "If the store runs on Shopify, the platform sets a few of these decisions for you — fixed URLs, one shared collection template, apps loading on every page. Those limits and the way around them are covered by Shopify SEO services.",
+        "links": [
+          { "anchor": "Shopify SEO services", "href": "/services/shopify-seo-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/seo-optimization-and-strategy",
+    "docId": "42a469a6-28f3-4015-8b88-414c8eb3d4fa",
+    "paragraphs": [
+      {
+        "text": "A catalogue is a different job from a brochure site: the money sits on category pages, filters generate more URLs than there are products, and the assortment changes every week. That work is described under ecommerce SEO services.",
+        "links": [
+          { "anchor": "ecommerce SEO services", "href": "/services/ecommerce-seo-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/services/technical-seo-services",
+    "docId": "singlepage-technical-seo",
+    "paragraphs": [
+      {
+        "text": "On an online store the same technical questions arrive at a different scale — faceted navigation, duplicate product addresses and dead SKUs. How they are handled in a catalogue is set out on the ecommerce SEO page.",
+        "links": [
+          { "anchor": "the ecommerce SEO page", "href": "/services/ecommerce-seo-services" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/strategia-i-optymalizacja-seo",
+    "docId": "77c5f5df-a6f3-49ca-8f42-f1439e3490c6",
+    "paragraphs": [
+      {
+        "text": "Katalog to inna praca niż strona wizytówkowa: pieniądze leżą na kategoriach, filtry tworzą więcej adresów, niż jest produktów, a asortyment zmienia się co tydzień. Tę część opisuje pozycjonowanie sklepów internetowych.",
+        "links": [
+          { "anchor": "pozycjonowanie sklepów internetowych", "href": "/pl/oferty/pozycjonowanie-sklepow-internetowych" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/seo-techniczne",
+    "docId": "singlepage-technical-seo.pl",
+    "paragraphs": [
+      {
+        "text": "W sklepie internetowym te same pytania techniczne pojawiają się w innej skali — filtry, zduplikowane adresy produktów i martwe karty towarów. Jak wygląda to w katalogu, opisuje strona o pozycjonowaniu sklepów internetowych.",
+        "links": [
+          { "anchor": "pozycjonowaniu sklepów internetowych", "href": "/pl/oferty/pozycjonowanie-sklepow-internetowych" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/seo-optimizaciya-i-strategiya",
+    "docId": "6a81eab0-6993-41a6-adc3-d9047a3b35a0",
+    "paragraphs": [
+      {
+        "text": "Каталог — работа другого рода, чем сайт-визитка: деньги лежат на категориях, фильтры порождают больше адресов, чем в магазине товаров, а ассортимент меняется каждую неделю. Эта часть описана на странице о продвижении интернет-магазина.",
+        "links": [
+          { "anchor": "продвижении интернет-магазина", "href": "/ru/uslugi/prodvizhenie-internet-magazina" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/uslugi/tehnicheskoe-seo",
+    "docId": "singlepage-technical-seo.ru",
+    "paragraphs": [
+      {
+        "text": "В интернет-магазине те же технические вопросы приходят в другом масштабе — фильтры, дублирующиеся адреса товаров и мёртвые карточки. Как это решается в каталоге, описано на странице о раскрутке интернет-магазина.",
+        "links": [
+          { "anchor": "раскрутке интернет-магазина", "href": "/ru/uslugi/prodvizhenie-internet-magazina" }
+        ]
+      }
+    ]
+  }
+]

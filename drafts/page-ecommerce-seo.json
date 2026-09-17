@@ -1,0 +1,415 @@
+{
+  "baseId": "singlepage-ecommerce-seo",
+  "pageType": "service",
+  "parent": {
+    "en": "4de72361-ec2a-469d-8b56-813ddbf3adca",
+    "pl": "631d883e-6f87-4346-9c6d-48b596c2daa7",
+    "ru": "3774c0a1-8857-4149-be24-9a357af4be00"
+  },
+  "targets": {
+    "en": "ecommerce seo services (1 300 US, KD 4; 720 UK, KD 0), ecommerce seo agency (1 000 US KD 7; 880 UK KD 0), seo services for ecommerce websites (210, KD 24). Shopify-кластер вынесен на отдельную страницу.",
+    "pl": "pozycjonowanie sklepu internetowego (880, KD 7), pozycjonowanie sklepu (1 300, KD 17), seo sklepu internetowego (480, KD 2), seo dla sklepu internetowego (210, KD 17)",
+    "ru": "продвижение интернет-магазина (90, KD 3 — Украина), раскрутка интернет-магазина (50, KD 0). Спрос небольшой, но настоящий; обе формулировки покрыты."
+  },
+  "locales": {
+    "en": {
+      "slug": "ecommerce-seo-services",
+      "title": "Ecommerce SEO Services",
+      "excerpt": "SEO for online stores: category pages that rank, faceted navigation that does not burn the crawl budget, product templates that survive going out of stock, measured monthly.",
+      "metaTitle": "Ecommerce SEO Services | Bandziuk",
+      "metaDescription": "Ecommerce SEO services: category pages built to rank, filters and duplicates under control, product data that matches the page, results measured by category.",
+      "pain": {
+        "title": "What ecommerce SEO usually runs into",
+        "items": [
+          {
+            "metric": "1",
+            "title": "The homepage ranks and nothing else does",
+            "description": "The store is found by its own brand name and by nothing a buyer would type when they do not yet know the shop exists."
+          },
+          {
+            "metric": "90",
+            "title": "Most of the catalogue is never crawled",
+            "description": "Filter combinations generate thousands of URLs, the crawler spends its budget there, and the category pages that could earn money wait in the queue."
+          },
+          {
+            "title": "The same product on three addresses",
+            "description": "One item sitting in three categories, reachable at three URLs, each competing with the other two and none of them winning."
+          },
+          {
+            "title": "Discontinued products left to rot",
+            "description": "A sold-out SKU either 404s and loses every link it earned, or stays live forever as a dead page. Both decisions get made by accident."
+          }
+        ]
+      },
+      "features": {
+        "title": "What ecommerce SEO services cover",
+        "items": [
+          {
+            "title": "Category pages treated as landing pages",
+            "description": "Buyers search for the category, not the shop: a title that matches the demand, an intro that answers the buying question, and internal links from the content that supports it."
+          },
+          {
+            "title": "Faceted navigation with rules",
+            "description": "Which filter combinations are worth indexing because people search them, which are blocked, and which canonical to the clean category. Written down as rules, not decided per page."
+          },
+          {
+            "title": "One product, one address",
+            "description": "A single canonical URL per item regardless of how many categories it belongs to, so the item competes with other shops rather than with itself."
+          },
+          {
+            "title": "A policy for out-of-stock and discontinued items",
+            "description": "Keep with alternatives shown, redirect to the parent category, or return 410 — decided per case by whether the page has links and demand, not by whatever the platform does by default."
+          },
+          {
+            "title": "Product and offer markup that matches the page",
+            "description": "Price, availability, delivery and review data in the structured data and in the visible text, the same values in both, so search engines and AI assistants read one version of the truth."
+          },
+          {
+            "title": "Speed measured on the templates that sell",
+            "description": "Core Web Vitals on a real category page and a real product page on a phone, not on the homepage, because that is where the revenue and the images are."
+          }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Where ecommerce SEO earns: category pages, not the homepage",
+            "body": "People who already know your shop type its name. Everyone else types the thing they want to buy, and that phrasing matches a category or a filtered view of one — not the homepage and not the blog. In most catalogues those pages are the weakest part of the site: a grid of products with no text, a title generated from the category name, and a URL that changes as soon as anything is filtered.\n\nSo the work starts there. Each category worth ranking gets a title that matches how people actually phrase the need, a short piece of text that answers the question a buyer has at that moment — sizing, compatibility, what to choose between two options — and internal links pointing at it from whatever content already attracts attention.\n\nThe blog is not the point of this work, but it is not decoration either: its job is to bring links and attention to the pages that carry the products. A guide that ranks and links to nothing is a hobby."
+          },
+          {
+            "h2": "Faceted navigation and duplicates: the two things that break a catalogue",
+            "body": "Ten filters on one category produce more URL combinations than the catalogue has products. A crawler will happily spend weeks on colour-plus-size-plus-sort-order variations, and the pages you wanted crawled wait behind them. The fix is not one setting: it is a written rule for which filters create indexable pages because there is real search demand behind them, which are blocked from crawling, which canonical back to the clean category, and how pagination and sort orders behave.\n\nThe second problem is the same product living at several addresses because it belongs to several categories. Each copy splits the signals of the others. One canonical address per item, everything else pointing at it.\n\nThe third — the one that quietly costs the most — is what happens when something stops being sold. A page that 404s loses every link and every ranking it earned. A page that stays live with no stock and no alternative wastes the visit. Each discontinued item needs a decision: keep it with alternatives shown, redirect it to the category above it, or return 410 and let it go. That decision belongs to a rule, not to the platform's default behaviour."
+          },
+          {
+            "h2": "What ecommerce SEO costs and when it starts to show",
+            "body": "An audit of the store is from €250 and ends with a prioritised list: what is broken, in what order it matters, and what each fix will take. Ongoing monthly SEO starts from €800 a month. After we go through your catalogue I name a fixed price in writing, not a range.\n\nA shop with fifty products and a shop with fifty thousand are different jobs, and the difference is not the amount of text — it is how much of the work can be done in templates and how much has to be done page by page. Template work is where a large catalogue gets cheap, and it is the first thing I look at.\n\nTiming, honestly: technical fixes show up within weeks of being crawled again. Category rankings move over three to six months, and seasonal categories move on their season's schedule regardless of when the work was done. Anything promising a fixed position by a fixed date is selling you a number, not a plan."
+          }
+        ]
+      },
+      "steps": {
+        "title": "How the work runs",
+        "items": [
+          {
+            "title": "Crawl and catalogue audit",
+            "description": "A full crawl of the store, the log of what search engines actually fetch, Search Console, and a list of every URL pattern the catalogue can produce."
+          },
+          {
+            "title": "Architecture: categories, filters, pagination",
+            "description": "Which categories exist and which should, which filters are indexable, how pagination and sorting behave, and one address per product."
+          },
+          {
+            "title": "Templates: titles, text, markup, speed",
+            "description": "Category and product templates fixed once and applied to the whole catalogue: titles, headings, intro text, Product and Offer data, image handling and speed."
+          },
+          {
+            "title": "Content, links and monthly measurement",
+            "description": "Content that brings attention to the money pages, internal links pointing at them, and a monthly report by category rather than one number for the store."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Ecommerce SEO: frequently asked questions",
+        "items": [
+          {
+            "q": "What do ecommerce SEO services include?",
+            "a": "A crawl and catalogue audit, category and filter architecture, one canonical address per product, a policy for out-of-stock and discontinued items, product and offer markup that matches the visible page, speed work on the category and product templates, and content and internal links pointing at the pages that carry the products. Reporting is per category, not one number for the whole store."
+          },
+          {
+            "q": "How much do ecommerce SEO services cost?",
+            "a": "An audit of the store is from €250 and ends with a prioritised list. Ongoing monthly work starts from €800 a month. The exact figure depends on the size of the catalogue and how much of the work can be done in templates rather than page by page — after we go through your store I put a fixed price in writing before anything starts."
+          },
+          {
+            "q": "How long before an online store sees results?",
+            "a": "Technical fixes show within weeks of the pages being crawled again. Category rankings move over three to six months. Seasonal categories move on their season, whenever the work was done. A fixed position by a fixed date is not something anyone can promise honestly."
+          },
+          {
+            "q": "Which platforms do you work with?",
+            "a": "Shopify, WooCommerce, PrestaShop and custom-built stores. The platform changes how a fix is applied, not what needs fixing — every catalogue has the same four problems: categories, filters, duplicates and dead products. Shopify has enough platform-specific limits to deserve its own page."
+          },
+          {
+            "q": "What should happen to products that are out of stock?",
+            "a": "It depends on whether the item is coming back. Temporarily out of stock: keep the page, show availability honestly and offer alternatives. Discontinued with links and traffic: redirect to the category above it, so what it earned is not lost. Discontinued with neither: return 410 and let the index drop it. What must not happen is the platform deciding this by accident."
+          },
+          {
+            "q": "Do category pages need text on them?",
+            "a": "They need an answer, not a wall of text. A few sentences at the top that help someone choose — sizing, compatibility, the difference between two options — are worth more than six paragraphs of keywords pushed below the product grid, which nobody reads and which no assistant will quote."
+          },
+          {
+            "q": "Do you make the changes or hand a list to my developer?",
+            "a": "Either. I can work in the code and in the platform's admin directly, or write the changes up so your developer can apply them and then check the result. What I will not do is deliver a list and call it done."
+          },
+          {
+            "q": "Is ecommerce SEO different from ordinary SEO?",
+            "a": "The principles are the same; the scale and the failure modes are not. A brochure site has thirty pages and no duplicates. A store generates URLs automatically, hides its best pages behind filters, and changes what it sells every week. That is why most of the work happens in templates and rules rather than on individual pages."
+          }
+        ]
+      }
+    },
+    "pl": {
+      "slug": "pozycjonowanie-sklepow-internetowych",
+      "title": "Pozycjonowanie sklepów internetowych",
+      "excerpt": "SEO dla sklepu internetowego: kategorie, które rankują, filtry, które nie zjadają budżetu indeksowania, karty produktów przygotowane na wyprzedanie się towaru.",
+      "metaTitle": "Pozycjonowanie sklepów internetowych — SEO dla e-commerce",
+      "metaDescription": "Pozycjonowanie sklepu internetowego: kategorie jako strony docelowe, filtry i duplikaty pod kontrolą, dane produktowe zgodne ze stroną, pomiar co miesiąc.",
+      "pain": {
+        "title": "Na co zwykle trafia pozycjonowanie sklepu",
+        "items": [
+          {
+            "metric": "1",
+            "title": "Rankuje strona główna i nic poza nią",
+            "description": "Sklep znajdują ci, którzy znają jego nazwę. Nikt, kto dopiero szuka produktu, na niego nie trafia."
+          },
+          {
+            "metric": "90",
+            "title": "Większość katalogu nigdy nie zostaje zeskanowana",
+            "description": "Kombinacje filtrów tworzą tysiące adresów, robot zużywa na nie budżet, a kategorie, które mogłyby zarabiać, czekają w kolejce."
+          },
+          {
+            "title": "Ten sam produkt pod trzema adresami",
+            "description": "Jeden towar w trzech kategoriach, dostępny pod trzema adresami, z których każdy konkuruje z pozostałymi i żaden nie wygrywa."
+          },
+          {
+            "title": "Wycofane produkty zostawione samym sobie",
+            "description": "Wyprzedany towar albo zwraca 404 i traci wszystkie zdobyte linki, albo wisi martwy w nieskończoność. Obie decyzje zapadają przypadkiem."
+          }
+        ]
+      },
+      "features": {
+        "title": "Co obejmuje pozycjonowanie sklepu internetowego",
+        "items": [
+          {
+            "title": "Kategorie traktowane jak strony docelowe",
+            "description": "Kupujący szukają kategorii, nie sklepu: tytuł zgodny z tym, jak formułują potrzebę, wstęp odpowiadający na pytanie zakupowe i linki wewnętrzne z treści, które je wspierają."
+          },
+          {
+            "title": "Filtry z regułami, nie z przypadku",
+            "description": "Które kombinacje filtrów warto indeksować, bo stoi za nimi realne zapytanie, które blokujemy, a które wskazują kanonicznie czystą kategorię. Zapisane jako reguła, nie rozstrzygane przy każdej podstronie."
+          },
+          {
+            "title": "Jeden produkt, jeden adres",
+            "description": "Jeden adres kanoniczny na towar, niezależnie od tego, w ilu kategoriach się znajduje — żeby konkurował z innymi sklepami, a nie sam ze sobą."
+          },
+          {
+            "title": "Zasada dla towarów niedostępnych i wycofanych",
+            "description": "Zostawić z pokazaniem alternatyw, przekierować do kategorii nadrzędnej albo zwrócić 410 — decyzja zależy od linków i zapytań, a nie od tego, co platforma robi domyślnie."
+          },
+          {
+            "title": "Dane produktowe zgodne ze stroną",
+            "description": "Cena, dostępność, wysyłka i opinie w danych strukturalnych i w widocznym tekście, w tych samych wartościach — żeby wyszukiwarki i asystenci AI czytali jedną wersję."
+          },
+          {
+            "title": "Szybkość mierzona na szablonach, które sprzedają",
+            "description": "Core Web Vitals na prawdziwej kategorii i prawdziwej karcie produktu, na telefonie — a nie na stronie głównej, bo to tam są przychody i zdjęcia."
+          }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Gdzie pozycjonowanie sklepu zarabia: na kategoriach, nie na stronie głównej",
+            "body": "Kto zna Wasz sklep, wpisuje jego nazwę. Wszyscy pozostali wpisują to, co chcą kupić, a takie sformułowanie pasuje do kategorii albo do jej odfiltrowanego widoku — nie do strony głównej i nie do bloga. W większości katalogów to właśnie najsłabsza część serwisu: siatka produktów bez tekstu, tytuł wygenerowany z nazwy kategorii i adres, który zmienia się przy pierwszym kliknięciu filtra.\n\nDlatego praca zaczyna się tam. Każda kategoria warta pozycji dostaje tytuł zgodny z tym, jak ludzie nazywają swoją potrzebę, krótki tekst odpowiadający na pytanie, które mają w tym momencie — rozmiarówka, kompatybilność, różnica między dwoma wariantami — i linki wewnętrzne z treści, które już przyciągają uwagę.\n\nBlog nie jest celem tej pracy, ale nie jest też ozdobą: jego zadaniem jest przynosić linki i uwagę stronom, na których leżą produkty. Poradnik, który rankuje i nie linkuje do niczego, jest hobby."
+          },
+          {
+            "h2": "Filtry i duplikaty: dwie rzeczy, które psują katalog",
+            "body": "Dziesięć filtrów na jednej kategorii tworzy więcej kombinacji adresów, niż katalog ma produktów. Robot potrafi spędzić tygodnie na wariantach kolor plus rozmiar plus sortowanie, a podstrony, na których Wam zależało, czekają za nimi. Naprawą nie jest jedno ustawienie, tylko spisana reguła: które filtry tworzą strony do indeksowania, bo stoi za nimi realne zapytanie, które są wyłączone ze skanowania, które wskazują kanonicznie czystą kategorię i jak zachowuje się stronicowanie oraz sortowanie.\n\nDrugi problem to ten sam produkt pod kilkoma adresami, bo należy do kilku kategorii. Każda kopia dzieli sygnały pozostałych. Jeden adres kanoniczny na towar, reszta wskazuje na niego.\n\nTrzeci — po cichu najdroższy — to co dzieje się, gdy towar znika z oferty. Podstrona zwracająca 404 traci wszystkie linki i pozycje, które zdobyła. Podstrona żywa, ale bez towaru i bez alternatywy, marnuje wizytę. Każdy wycofany produkt potrzebuje decyzji: zostawić z alternatywami, przekierować do kategorii nadrzędnej albo zwrócić 410 i odpuścić. Ta decyzja należy do reguły, a nie do domyślnego zachowania platformy."
+          },
+          {
+            "h2": "Ile kosztuje pozycjonowanie sklepu internetowego i kiedy widać efekty",
+            "body": "Audyt sklepu kosztuje od 1000 zł i kończy się listą z priorytetami: co jest zepsute, w jakiej kolejności to boli i czego wymaga każda poprawka. Stała praca miesięczna zaczyna się od 3500 zł miesięcznie. Po przejściu przez Wasz katalog podaję cenę stałą na piśmie, nie widełki.\n\nSklep z pięćdziesięcioma produktami i sklep z pięćdziesięcioma tysiącami to dwie różne prace, a różnica nie leży w ilości tekstu — tylko w tym, ile da się zrobić w szablonach, a ile trzeba zrobić podstrona po podstronie. Praca szablonowa jest tym, co czyni duży katalog tanim, i to sprawdzam najpierw.\n\nCzas, uczciwie: poprawki techniczne widać w tygodniach od ponownego zeskanowania. Pozycje kategorii ruszają się przez trzy do sześciu miesięcy. Kategorie sezonowe ruszają się w swoim sezonie, niezależnie od tego, kiedy wykonano pracę. Kto obiecuje konkretną pozycję na konkretną datę, sprzedaje liczbę, a nie plan."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Jak przebiega praca",
+        "items": [
+          {
+            "title": "Skan i audyt katalogu",
+            "description": "Pełne zeskanowanie sklepu, log tego, co wyszukiwarki naprawdę pobierają, Search Console i lista wszystkich wzorców adresów, jakie katalog potrafi wytworzyć."
+          },
+          {
+            "title": "Architektura: kategorie, filtry, stronicowanie",
+            "description": "Które kategorie istnieją, a które powinny, które filtry są indeksowane, jak zachowuje się stronicowanie i sortowanie, jeden adres na produkt."
+          },
+          {
+            "title": "Szablony: tytuły, teksty, dane, szybkość",
+            "description": "Szablon kategorii i karty produktu poprawiony raz i zastosowany do całego katalogu: tytuły, nagłówki, wstępy, dane Product i Offer, obsługa zdjęć i szybkość."
+          },
+          {
+            "title": "Treści, linki i pomiar co miesiąc",
+            "description": "Treści przyciągające uwagę do stron z produktami, linkowanie wewnętrzne w ich stronę i raport w podziale na kategorie, a nie jedna liczba dla sklepu."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Pozycjonowanie sklepu internetowego: najczęstsze pytania",
+        "items": [
+          {
+            "q": "Co obejmuje pozycjonowanie sklepu internetowego?",
+            "a": "Skan i audyt katalogu, architekturę kategorii i filtrów, jeden adres kanoniczny na produkt, zasadę dla towarów niedostępnych i wycofanych, dane Product i Offer zgodne z widoczną stroną, pracę nad szybkością szablonów kategorii i karty produktu oraz treści i linkowanie wewnętrzne w stronę podstron z produktami. Raport jest w podziale na kategorie, a nie jedną liczbą dla całego sklepu."
+          },
+          {
+            "q": "Ile kosztuje pozycjonowanie sklepu internetowego?",
+            "a": "Audyt sklepu od 1000 zł, z listą priorytetów na końcu. Stała praca miesięczna od 3500 zł miesięcznie. Kwota zależy od wielkości katalogu i od tego, ile da się zrobić w szablonach zamiast podstrona po podstronie — po przejściu przez Wasz sklep zapisuję cenę stałą przed startem prac."
+          },
+          {
+            "q": "Po jakim czasie sklep widzi efekty?",
+            "a": "Poprawki techniczne widać w tygodniach od ponownego zeskanowania. Pozycje kategorii ruszają się przez trzy do sześciu miesięcy. Kategorie sezonowe idą w rytmie swojego sezonu. Konkretna pozycja na konkretną datę nie jest czymś, co da się uczciwie obiecać."
+          },
+          {
+            "q": "Na jakich platformach pracujecie?",
+            "a": "Shopify, WooCommerce, PrestaShop, Shoper oraz sklepy pisane na zamówienie. Platforma zmienia sposób wykonania poprawki, a nie to, co wymaga poprawy: każdy katalog ma te same cztery problemy — kategorie, filtry, duplikaty i martwe produkty."
+          },
+          {
+            "q": "Co zrobić z produktami, których nie ma w magazynie?",
+            "a": "To zależy, czy towar wróci. Chwilowo niedostępny: zostawić podstronę, uczciwie pokazać dostępność i zaproponować alternatywy. Wycofany, ale z linkami i ruchem: przekierować do kategorii nadrzędnej, żeby nie stracić tego, co zdobył. Wycofany bez jednego i drugiego: zwrócić 410. Nie może być tak, że rozstrzyga o tym przypadek."
+          },
+          {
+            "q": "Czy kategorie potrzebują tekstu?",
+            "a": "Potrzebują odpowiedzi, a nie ściany tekstu. Kilka zdań na górze, które pomagają wybrać — rozmiarówka, kompatybilność, różnica między wariantami — jest warte więcej niż sześć akapitów ze słowami kluczowymi pod siatką produktów, których nikt nie czyta i których żaden asystent nie zacytuje."
+          },
+          {
+            "q": "Wprowadzacie zmiany sami czy przekazujecie listę programiście?",
+            "a": "Jedno albo drugie. Mogę pracować w kodzie i w panelu platformy albo opisać zmiany tak, żeby wdrożył je Wasz programista, a potem sprawdzić wynik. Czego nie zrobię, to nie oddam listy i nie nazwę tego zakończoną pracą."
+          },
+          {
+            "q": "Czym pozycjonowanie sklepu różni się od zwykłego SEO?",
+            "a": "Zasady są te same, skala i sposoby psucia się — nie. Strona wizytówkowa ma trzydzieści podstron i zero duplikatów. Sklep generuje adresy automatycznie, chowa najlepsze podstrony za filtrami i co tydzień zmienia asortyment. Dlatego większość pracy dzieje się w szablonach i regułach, a nie na pojedynczych podstronach."
+          }
+        ]
+      }
+    },
+    "ru": {
+      "slug": "prodvizhenie-internet-magazina",
+      "title": "Продвижение интернет-магазина",
+      "excerpt": "SEO для интернет-магазина: категории, которые ранжируются, фильтры, не съедающие бюджет обхода, карточки товаров, готовые к тому, что товар закончится.",
+      "metaTitle": "Продвижение интернет-магазина — раскрутка и SEO каталога",
+      "metaDescription": "Продвижение и раскрутка интернет-магазина: категории как посадочные страницы, фильтры и дубли под контролем, разметка товаров, совпадающая со страницей.",
+      "pain": {
+        "title": "На что обычно натыкается продвижение интернет-магазина",
+        "items": [
+          {
+            "metric": "1",
+            "title": "Ранжируется главная и больше ничего",
+            "description": "Магазин находят те, кто знает его название. Тот, кто просто ищет товар, до него не доходит."
+          },
+          {
+            "metric": "90",
+            "title": "Большую часть каталога никогда не обходят",
+            "description": "Комбинации фильтров создают тысячи адресов, робот тратит бюджет на них, а категории, которые могли бы зарабатывать, ждут в очереди."
+          },
+          {
+            "title": "Один товар по трём адресам",
+            "description": "Товар лежит в трёх категориях и доступен по трём адресам, каждый конкурирует с двумя другими, и не выигрывает ни один."
+          },
+          {
+            "title": "Снятые товары брошены",
+            "description": "Проданный товар либо отдаёт 404 и теряет все заработанные ссылки, либо висит мёртвым бесконечно. Оба решения принимаются случайно."
+          }
+        ]
+      },
+      "features": {
+        "title": "Что входит в продвижение интернет-магазина",
+        "items": [
+          {
+            "title": "Категории как посадочные страницы",
+            "description": "Покупатель ищет категорию, а не магазин: заголовок под то, как формулируют потребность, вступление с ответом на вопрос выбора и внутренние ссылки с материалов, которые её поддерживают."
+          },
+          {
+            "title": "Фильтры по правилам, а не по случайности",
+            "description": "Какие сочетания фильтров индексируются, потому что за ними стоит реальный запрос, какие закрыты от обхода, какие канонично ведут на чистую категорию. Это записанное правило, а не решение по каждой странице."
+          },
+          {
+            "title": "Один товар — один адрес",
+            "description": "Один канонический адрес на позицию, в скольких бы категориях она ни лежала, чтобы товар конкурировал с другими магазинами, а не сам с собой."
+          },
+          {
+            "title": "Правило для отсутствующих и снятых товаров",
+            "description": "Оставить и показать замену, перенаправить в родительскую категорию или отдать 410 — решение зависит от ссылок и спроса, а не от того, как ведёт себя платформа по умолчанию."
+          },
+          {
+            "title": "Разметка товара, совпадающая со страницей",
+            "description": "Цена, наличие, доставка и отзывы — в микроразметке и в видимом тексте, одними и теми же значениями, чтобы поисковые системы и ИИ-ассистенты читали одну версию."
+          },
+          {
+            "title": "Скорость на тех шаблонах, которые продают",
+            "description": "Core Web Vitals на настоящей категории и настоящей карточке товара, на телефоне, а не на главной — потому что выручка и тяжёлые изображения именно там."
+          }
+        ]
+      },
+      "text": {
+        "sections": [
+          {
+            "h2": "Где продвижение интернет-магазина зарабатывает: на категориях, а не на главной",
+            "body": "Кто знает ваш магазин, вводит его название. Все остальные вводят то, что хотят купить, и такая формулировка попадает в категорию или в её отфильтрованный вид — не в главную и не в блог. В большинстве каталогов это самая слабая часть сайта: сетка товаров без текста, заголовок, собранный из названия категории, и адрес, который меняется при первом же клике по фильтру.\n\nПоэтому работа начинается там. Каждая категория, за которую имеет смысл бороться, получает заголовок под реальную формулировку, короткий текст с ответом на вопрос, который стоит перед покупателем в этот момент — размер, совместимость, разница между двумя вариантами, — и внутренние ссылки с материалов, которые уже привлекают внимание.\n\nБлог здесь не самоцель, но и не украшение: его задача — приводить ссылки и внимание на страницы с товарами. Руководство, которое ранжируется и никуда не ведёт, — это хобби."
+          },
+          {
+            "h2": "Фильтры и дубли: две вещи, которые ломают каталог",
+            "body": "Десять фильтров в одной категории дают больше сочетаний адресов, чем в каталоге товаров. Робот способен неделями ходить по вариантам «цвет плюс размер плюс сортировка», а страницы, ради которых всё затевалось, ждут за ними. Лечится это не одной настройкой, а записанным правилом: какие фильтры создают индексируемые страницы, потому что за ними есть спрос, какие закрыты от обхода, какие канонично ведут на чистую категорию и как ведут себя постраничная навигация и сортировка.\n\nВторая беда — один и тот же товар по нескольким адресам, потому что он лежит в нескольких категориях. Каждая копия делит сигналы остальных. Один канонический адрес на товар, остальные указывают на него.\n\nТретья, и по деньгам самая дорогая, — что происходит, когда товар уходит из продажи. Страница с 404 теряет все заработанные ссылки и позиции. Живая страница без товара и без замены тратит визит впустую. По каждому снятому товару нужно решение: оставить и показать альтернативы, перенаправить в категорию выше или отдать 410 и отпустить. Это решение принадлежит правилу, а не поведению платформы по умолчанию."
+          },
+          {
+            "h2": "Сколько стоит раскрутка интернет-магазина и когда видно результат",
+            "body": "Аудит магазина — от 250 €, на выходе список с приоритетами: что сломано, в каком порядке это важно и чего потребует каждая правка. Постоянная ежемесячная работа начинается от 800 € в месяц. После разбора вашего каталога я называю фиксированную цену письменно, а не вилку.\n\nМагазин на пятьдесят товаров и магазин на пятьдесят тысяч — разные работы, и разница не в объёме текста, а в том, какую часть можно сделать в шаблонах, а какую придётся делать страница за страницей. Шаблонная работа — это то, что делает большой каталог дешёвым, и смотрю я на неё первой.\n\nСроки честно: технические правки видны через недели после повторного обхода. Позиции категорий двигаются три-шесть месяцев. Сезонные категории двигаются в свой сезон, когда бы работа ни была сделана. Обещание конкретной позиции к конкретной дате — это продажа числа, а не плана."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Как идёт работа",
+        "items": [
+          {
+            "title": "Обход и аудит каталога",
+            "description": "Полный обход магазина, лог того, что поисковые системы действительно скачивают, Search Console и список всех шаблонов адресов, которые каталог умеет порождать."
+          },
+          {
+            "title": "Архитектура: категории, фильтры, постраничная навигация",
+            "description": "Какие категории есть и какие должны быть, какие фильтры индексируются, как ведут себя пагинация и сортировка, один адрес на товар."
+          },
+          {
+            "title": "Шаблоны: заголовки, тексты, разметка, скорость",
+            "description": "Шаблон категории и карточки правится один раз и применяется ко всему каталогу: заголовки, подзаголовки, вступления, данные Product и Offer, работа с изображениями и скорость."
+          },
+          {
+            "title": "Контент, ссылки и ежемесячный замер",
+            "description": "Материалы, приводящие внимание к страницам с товарами, внутренние ссылки в их сторону и отчёт в разрезе категорий, а не одно число по магазину."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Продвижение интернет-магазина: частые вопросы",
+        "items": [
+          {
+            "q": "Что входит в продвижение интернет-магазина?",
+            "a": "Обход и аудит каталога, архитектура категорий и фильтров, один канонический адрес на товар, правило для отсутствующих и снятых позиций, разметка Product и Offer, совпадающая с видимой страницей, работа над скоростью шаблонов категории и карточки, а также материалы и внутренние ссылки в сторону страниц с товарами. Отчёт — в разрезе категорий, а не одним числом по магазину."
+          },
+          {
+            "q": "Сколько стоит раскрутка интернет-магазина?",
+            "a": "Аудит магазина — от 250 €, в конце список с приоритетами. Постоянная ежемесячная работа — от 800 € в месяц. Сумма зависит от размера каталога и от того, какую часть работы удастся сделать в шаблонах, а не страница за страницей. После разбора вашего магазина цена фиксируется письменно до начала работ."
+          },
+          {
+            "q": "Через сколько магазин увидит результат?",
+            "a": "Технические правки видны через недели после повторного обхода. Позиции категорий двигаются три-шесть месяцев. Сезонные категории идут в ритме своего сезона. Конкретную позицию к конкретной дате честно пообещать нельзя."
+          },
+          {
+            "q": "С какими платформами вы работаете?",
+            "a": "Shopify, WooCommerce, PrestaShop и магазины, написанные на заказ. Платформа меняет способ внесения правки, а не то, что нужно править: у любого каталога одни и те же четыре беды — категории, фильтры, дубли и мёртвые товары."
+          },
+          {
+            "q": "Что делать с товарами, которых нет в наличии?",
+            "a": "Зависит от того, вернётся ли товар. Временно нет: оставить страницу, честно показать наличие и предложить замену. Снят, но со ссылками и трафиком: перенаправить в категорию выше, чтобы не потерять заработанное. Снят и без того, и без другого: отдать 410. Чего быть не должно — чтобы это решалось само собой."
+          },
+          {
+            "q": "Нужен ли текст на страницах категорий?",
+            "a": "Нужен ответ, а не стена текста. Несколько предложений сверху, которые помогают выбрать — размер, совместимость, разница между вариантами, — стоят больше, чем шесть абзацев с ключевыми словами под сеткой товаров, которые никто не читает и которые не процитирует ни один ассистент."
+          },
+          {
+            "q": "Вы вносите правки сами или отдаёте список разработчику?",
+            "a": "И так, и так. Могу работать в коде и в админке платформы или описать изменения так, чтобы их внедрил ваш разработчик, а потом проверить результат. Чего я не сделаю — не отдам список и не назову это выполненной работой."
+          },
+          {
+            "q": "Чем продвижение магазина отличается от обычного SEO?",
+            "a": "Принципы те же, масштаб и способы ломаться — нет. У сайта-визитки тридцать страниц и ноль дублей. Магазин порождает адреса сам, прячет лучшие страницы за фильтрами и каждую неделю меняет ассортимент. Поэтому основная работа идёт в шаблонах и правилах, а не на отдельных страницах."
+          }
+        ]
+      }
+    }
+  }
+}

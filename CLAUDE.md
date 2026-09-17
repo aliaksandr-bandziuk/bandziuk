@@ -596,8 +596,13 @@ Emitted once per page by `SchemaIdentity` from `[lang]/layout.tsx`.
 ### Rules
 
 - **`SAME_AS` is the entity-merge signal.** Every new directory or social
-  profile goes in that array and nowhere else. An incomplete list is the most
-  common reason disambiguation fails.
+  profile goes in that array. An incomplete list is the most common reason
+  disambiguation fails.
+- **The homepage Proof block keeps its own profile list.** It lives in Sanity
+  (`homepage.proofSection.profiles`, one list per language) and is rendered
+  with `rel="me"`, but nothing syncs it with `SAME_AS`. Adding or removing a
+  profile means changing both. Found 2026-09-17: the deleted Wikidata item
+  was gone from `SAME_AS` but still linked from all three homepages.
 - `provider`, `author`, `publisher`, `mainEntity` reference `personRef()` /
   `orgRef()`. Never restate the object.
 - A blog post by a guest author (name ≠ `PERSON_NAME`) still gets its own

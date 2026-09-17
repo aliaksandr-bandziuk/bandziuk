@@ -1,0 +1,64 @@
+[
+  {
+    "page": "/ru/uslugi/mezhdunarodnoe-seo",
+    "docId": "service-international-seo.ru",
+    "paragraphs": [
+      {
+        "text": "Чаще всего русскоязычный бизнес выходит на несколько соседних рынков, и у каждого есть своя страница: продвижение сайта во Франции, продвижение сайта в Швейцарии и продвижение сайта в Нидерландах, а для англоязычных рынков — раскрутку сайта в Великобритании, продвижение сайта в Ирландии и SEO в США. Отдельно описаны продвижение сайта в Германии и раскрутка сайта в Италии.",
+        "links": [
+          { "anchor": "продвижение сайта во Франции", "href": "/ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok" },
+          { "anchor": "продвижение сайта в Швейцарии", "href": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok" },
+          { "anchor": "продвижение сайта в Нидерландах", "href": "/ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok" },
+          { "anchor": "раскрутку сайта в Великобритании", "href": "/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok" },
+          { "anchor": "продвижение сайта в Ирландии", "href": "/ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok" },
+          { "anchor": "SEO в США", "href": "/ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok" },
+          { "anchor": "продвижение сайта в Германии", "href": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok" },
+          { "anchor": "раскрутка сайта в Италии", "href": "/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/oferty/seo-miedzynarodowe",
+    "docId": "service-international-seo.pl",
+    "paragraphs": [
+      {
+        "text": "Osobne strony opisują też rynki, na które polskie firmy wchodzą najczęściej: pozycjonowanie stron w Niemczech, pozycjonowanie stron w Wielkiej Brytanii, pozycjonowanie stron w USA oraz pozycjonowanie stron w Szwajcarii.",
+        "links": [
+          { "anchor": "pozycjonowanie stron w Niemczech", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-niemiecki" },
+          { "anchor": "pozycjonowanie stron w Wielkiej Brytanii", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-brytyjski" },
+          { "anchor": "pozycjonowanie stron w USA", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-amerykanski" },
+          { "anchor": "pozycjonowanie stron w Szwajcarii", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-szwajcarski" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/ru/blog/sait-agentstva-nedvizhimosti-kipr-keis",
+    "docId": "2f9b4f91-19e4-41c0-8208-9ec3a7cd1856",
+    "paragraphs": [
+      {
+        "text": "Если сайт должен приводить покупателей из конкретной страны, работа под неё описана отдельно: продвижение сайта в Великобритании, продвижение сайта в Германии и продвижение сайта в Швейцарии.",
+        "links": [
+          { "anchor": "продвижение сайта в Великобритании", "href": "/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok" },
+          { "anchor": "продвижение сайта в Германии", "href": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok" },
+          { "anchor": "продвижение сайта в Швейцарии", "href": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok" }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "/pl/blog/strona-agencji-nieruchomosci-cypr",
+    "docId": "70ad1e7c-e5e9-487a-abde-4f24a9105329",
+    "paragraphs": [
+      {
+        "text": "Jeśli strona ma przyciągać klientów z konkretnego kraju, praca pod ten rynek jest opisana osobno: pozycjonowanie stron w Wielkiej Brytanii, pozycjonowanie stron w Niemczech i pozycjonowanie stron w Szwajcarii.",
+        "links": [
+          { "anchor": "pozycjonowanie stron w Wielkiej Brytanii", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-brytyjski" },
+          { "anchor": "pozycjonowanie stron w Niemczech", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-niemiecki" },
+          { "anchor": "pozycjonowanie stron w Szwajcarii", "href": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-szwajcarski" }
+        ]
+      }
+    ]
+  }
+]

@@ -97,4 +97,23 @@ function insertInlineLink(blocks, matchText, href) {
   return result;
 }
 
-module.exports = { insertInlineLink, replaceText, key };
+// Builds a new PortableText block from text where "[[anchor|/href]]" marks a link.
+// For writing new paragraphs; use insertInlineLink to link text that already exists.
+function blockFromMarkup(text, style = "normal", extra = {}) {
+  const children = [];
+  const markDefs = [];
+  const re = /\[\[([^|\]]+)\|([^\]]+)\]\]/g;
+  let last = 0;
+  let m;
+  while ((m = re.exec(text))) {
+    if (m.index > last) children.push({ _key: key(), _type: "span", marks: [], text: text.slice(last, m.index) });
+    const markKey = key();
+    markDefs.push({ _key: markKey, _type: "link", href: m[2] });
+    children.push({ _key: key(), _type: "span", marks: [markKey], text: m[1] });
+    last = re.lastIndex;
+  }
+  if (last < text.length || !children.length) children.push({ _key: key(), _type: "span", marks: [], text: text.slice(last) });
+  return { _key: key(), _type: "block", style, markDefs, children, ...extra };
+}
+
+module.exports = { insertInlineLink, replaceText, blockFromMarkup, key };

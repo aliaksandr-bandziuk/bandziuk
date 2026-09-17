@@ -31,9 +31,10 @@ export const LOGO_URL =
  * than anywhere else.
  */
 export const SAME_AS: string[] = [
-  // Wikidata first: it is a knowledge-graph source in its own right, the
-  // strongest node in this list for telling this person apart from namesakes.
-  "https://www.wikidata.org/wiki/Q141452391",
+  // No Wikidata item: Q141452391 was deleted on 2026-09-14 as not notable.
+  // A self-created item is removed again, so do not re-add one until an
+  // independent source (press coverage, a conference) makes the person notable.
+  // A deleted item in sameAs points the entity graph at nothing.
   "https://www.linkedin.com/in/bandziuk",
   "https://x.com/bandziuk",
   "https://dev.to/aliaksandrbandziuk",

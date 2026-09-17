@@ -1,0 +1,198 @@
+{
+  "why": "Страница /about описывала владельца как разработчика, который когда-то занимался SEO. Позиционирование сайта — SEO и GEO в первую очередь. Спрос на роль (DataForSEO, Google Ads, 2026-09-17): US seo consultant 8 100, seo specialist 3 600, seo expert 3 600, seo freelancer 1 600, technical seo specialist 1 300; UK seo consultant 2 900, freelance seo consultant 1 300; PL pozycjonowanie stron 5 400, freelancer seo 720, specjalista seo 390, konsultant seo 260; RU (Украина) seo специалист 590, продвижение сайтов 590, раскрутка сайта 590, сео специалист 140. Синтаксис [[анкор|/ссылка]] превращается во внутреннюю ссылку.",
+  "docs": {
+    "en": "e0fd3298-9a46-4281-bbea-e23dca38284c",
+    "pl": "5fb61b86-903d-4cdb-81b6-55ce34d1d319",
+    "ru": "55558168-9538-43ee-be55-6f7f62a777ef"
+  },
+  "locales": {
+    "en": {
+      "heading": "Aliaksandr Bandziuk — SEO consultant and web developer",
+      "excerpt": "Freelance SEO consultant and web developer: I bring businesses customers from Google and AI search, and build websites that rank from launch.",
+      "metaTitle": "About Aliaksandr Bandziuk — SEO Consultant & Web Developer",
+      "metaDescription": "Freelance SEO consultant, 15 years in search: SEO strategy, technical SEO, AI search visibility and websites built to rank. Clients across the EU, UK and US.",
+      "imageAlt": "SEO consultant and web developer Aliaksandr Bandziuk",
+      "intro": [
+        "I'm Aliaksandr Bandziuk, a freelance SEO consultant and web developer. For 15 years I have been bringing businesses customers from search — first from Google, and now also from ChatGPT, Perplexity and Google's AI answers. I work with companies in Europe, the UK, the US, Cyprus and Israel, in English, Polish and Russian.",
+        "Most of my work is [[SEO|/services/seo-optimization-and-strategy]]: strategy and ongoing optimisation, [[technical SEO|/services/technical-seo-services]], [[international SEO|/services/international-seo]] and [[visibility in AI search|/services/ai-ready-seo-and-geo-optimization]]. The other part is [[building websites|/services/website-development]] — and I build them because a site made with search in mind from day one does not need fixing later.",
+        "You deal with one person who does the research, puts the fixes into the code and reports the results. No account manager, and no handover between an agency's SEO team and its developers."
+      ],
+      "who": {
+        "h2": "Meet Aliaksandr: an SEO consultant first",
+        "h3": "An SEO specialist who can also build the site.",
+        "before": [
+          "I started in SEO — keyword research, site structure, content, analytics and technical audits — and SEO is still the core of what I do.",
+          "What pushed me into development was the same problem, over and over: an audit showed what was wrong, and nobody was there to apply the fixes. The site was slow, the structure was chaotic, the CMS fought every change. So I learned to build — Next.js, React and Sanity, as well as WordPress and MODX — to fix things in the code myself.",
+          "Today that means:"
+        ],
+        "bullets": [
+          "SEO strategy and monthly SEO work, judged by enquiries rather than positions alone",
+          "technical SEO applied in the code, not handed over as a PDF",
+          "visibility in AI search — being named and quoted by ChatGPT, Perplexity and Google's AI answers",
+          "websites built to rank from launch"
+        ],
+        "after": [
+          "I live in Poland and work with clients across Europe, the UK, the US, Cyprus and Israel. Outside work I run, and I like simple, clear solutions — in code and in copy."
+        ]
+      },
+      "grid": {
+        "title": "SEO, AI search and websites: my expertise",
+        "items": [
+          ["search", "SEO strategy and ongoing SEO", "Keyword research, site structure, content plans and internal linking, run month by month and reported in enquiries and revenue, not only in positions."],
+          ["wrench", "Technical SEO and SEO audits", "Crawling, indexing, Core Web Vitals, structured data and redirects — found in an audit and then fixed in the code, not left in a report."],
+          ["sparkles", "GEO and AI search visibility", "Getting your business named and quoted by ChatGPT, Perplexity and Google's AI Overviews: measured with a fixed set of prompts, then improved at the source."],
+          ["globe", "International and multilingual SEO", "hreflang, language-version structure and content for each market, for businesses selling in several countries and languages."],
+          ["gauge", "Websites built to rank", "Fast Next.js sites with clean architecture, structured data and a CMS that does not fight you — search built in from the first page."],
+          ["layout", "Redesigns and migrations without losing traffic", "A redirect map, content carried over page by page and rankings checked after launch, so a new site does not start from zero."]
+        ]
+      },
+      "whyTitle": "Why businesses hire me as their SEO consultant",
+      "whyItems": [
+        ["1. You work with the specialist, not an account manager", "The person who researches your market is the one who reports to you and makes the changes."],
+        ["2. SEO that actually gets implemented", "Most SEO specialists stop at recommendations, and most developers don't know SEO. I do both, so fixes reach the site in days, not quarters."],
+        ["3. International and multilingual markets", "English, Polish and Russian, with SEO set up per country for businesses that sell across borders."],
+        ["4. AI search, measured rather than promised", "Visibility in ChatGPT and AI answers is checked every month with the same questions — I have published my own study of 141 AI answers."],
+        ["5. Results in enquiries, not vanity metrics", "Reports show traffic, leads and revenue by page, along with what did not work."],
+        ["6. A real portfolio", "Real businesses, not student projects — see the selected projects below."]
+      ],
+      "faq": [
+        { "q": "What does an SEO consultant do for my business?", "a": "Makes sure the customers who search for what you sell find you — in Google and, increasingly, in AI search. In practice: research into queries and competitors, site structure, content, technical SEO, links, and a monthly report on what actually brought enquiries." },
+        { "q": "How much does SEO cost?", "a": "An [[SEO audit|/services/seo-audit]] is from €250 and ends with a prioritised list. Ongoing monthly SEO starts from €800 a month. After a short call I put a fixed price in writing." },
+        { "q": "Do you only do SEO, or do you build websites too?", "a": "Both, but SEO is the core of my work. I build websites so that SEO does not have to repair what was broken during development — and so that SEO fixes can go straight into the code." },
+        { "q": "Do you work on visibility in ChatGPT and AI search?", "a": "Yes. I check whether ChatGPT, Perplexity and Google's AI answers name your business and what they say about it, then fix the sources they read. Progress is measured every month with the same set of questions." },
+        { "keep": "What kinds of businesses do you typically collaborate with?" },
+        { "keep": "Do you also collaborate with clients based outside of Europe?" },
+        { "keep": "How much does a website cost?" },
+        { "keep": "Is it possible for you to review and assess my current website before we begin?", "a": "Yes — an SEO audit is the most common first step. It covers indexing, structure, content, speed and structured data, and ends with a list of fixes in order of impact. It costs from €250." },
+        { "keep": "What is the typical timeline for completing a website?" },
+        { "keep": "Do you provide ongoing support and maintenance once the website is launched??", "q": "Do you provide ongoing support and maintenance once the website is launched?" },
+        { "q": "Do you do international and multilingual SEO?", "a": "Yes. I set up language versions with correct hreflang, research queries and content for each market separately, and check that Google shows the right version in each country." }
+      ]
+    },
+    "pl": {
+      "heading": "Aliaksandr Bandziuk — specjalista SEO i web developer",
+      "excerpt": "Specjalista SEO i web developer: pozyskuję klientów z Google i wyszukiwarek AI oraz tworzę strony, które rankują od pierwszego dnia.",
+      "metaTitle": "Aliaksandr Bandziuk — specjalista SEO, freelancer | O mnie",
+      "metaDescription": "Specjalista SEO z 15-letnim doświadczeniem: pozycjonowanie stron, SEO techniczne, widoczność w wyszukiwarkach AI i strony tworzone pod SEO. Polska i Europa.",
+      "imageAlt": "Specjalista SEO i web developer Aliaksandr Bandziuk",
+      "intro": [
+        "Nazywam się Aliaksandr Bandziuk. Jestem specjalistą SEO i web developerem, pracuję jako freelancer. Od 15 lat pozyskuję firmom klientów z wyszukiwarek — najpierw z Google, dziś także z ChatGPT, Perplexity i odpowiedzi AI w Google. Pracuję z firmami w Polsce, Europie, Wielkiej Brytanii, USA i Izraelu — po polsku, angielsku i rosyjsku.",
+        "Większość mojej pracy to [[pozycjonowanie stron|/pl/oferty/strategia-i-optymalizacja-seo]]: strategia i stała optymalizacja, [[SEO techniczne|/pl/oferty/seo-techniczne]], [[SEO międzynarodowe|/pl/oferty/seo-miedzynarodowe]] oraz [[widoczność w wyszukiwarkach AI|/pl/oferty/ai-seo-and-geo-optymalizacja]]. Drugą częścią jest [[tworzenie stron internetowych|/pl/oferty/tworzenie-stron-internetowych]] — robię je dlatego, że strona budowana od początku pod wyszukiwarki nie wymaga późniejszego naprawiania.",
+        "Rozmawiacie z jedną osobą, która robi analizę, wprowadza poprawki w kodzie i raportuje wyniki. Bez opiekuna klienta i bez przekazywania zadań między działem SEO a programistami."
+      ],
+      "who": {
+        "h2": "Kim jestem: przede wszystkim specjalista SEO",
+        "before": [
+          "Zaczynałem od SEO — analizy słów kluczowych, struktury stron, treści, analityki i audytów technicznych — i SEO do dziś jest rdzeniem mojej pracy.",
+          "Do programowania popchnął mnie ten sam, powtarzający się problem: audyt pokazywał, co jest nie tak, a nie było komu wdrożyć poprawek. Strona była wolna, struktura chaotyczna, a CMS utrudniał każdą zmianę. Dlatego nauczyłem się budować strony — na Next.js, React i Sanity, a także na WordPressie i MODX — żeby naprawiać je w kodzie samodzielnie.",
+          "Dziś oznacza to:"
+        ],
+        "bullets": [
+          "strategię SEO i stałe pozycjonowanie, oceniane po zapytaniach od klientów, a nie tylko po pozycjach,",
+          "SEO techniczne wdrażane w kodzie, a nie oddawane w PDF-ie,",
+          "widoczność w wyszukiwarkach AI — żeby ChatGPT, Perplexity i odpowiedzi AI w Google wymieniały i cytowały Waszą firmę,",
+          "strony tworzone tak, by rankowały od startu."
+        ],
+        "after": [
+          "Mieszkam w Polsce i współpracuję z klientami w całej Europie, Wielkiej Brytanii, USA i Izraelu. Poza pracą dużo biegam i cenię proste, jasne rozwiązania — w kodzie i w tekstach."
+        ]
+      },
+      "grid": {
+        "title": "Moje specjalizacje: SEO, wyszukiwarki AI i strony",
+        "items": [
+          ["search", "Pozycjonowanie stron i strategia SEO", "Analiza słów kluczowych, struktura serwisu, plan treści i linkowanie wewnętrzne — prowadzone co miesiąc i rozliczane zapytaniami i sprzedażą, nie tylko pozycjami."],
+          ["wrench", "SEO techniczne i audyty SEO", "Indeksowanie, Core Web Vitals, dane strukturalne i przekierowania — znalezione w audycie i naprawione w kodzie, a nie zostawione w raporcie."],
+          ["sparkles", "GEO i widoczność w AI", "Żeby ChatGPT, Perplexity i AI Overviews w Google wymieniały i cytowały Waszą firmę: pomiar na stałym zestawie pytań, potem poprawa u źródła."],
+          ["globe", "SEO międzynarodowe i wielojęzyczne", "hreflang, struktura wersji językowych i treści dla każdego rynku — dla firm, które sprzedają w kilku krajach."],
+          ["gauge", "Strony tworzone pod SEO", "Szybkie strony na Next.js z przemyślaną architekturą, danymi strukturalnymi i wygodnym CMS — z SEO wbudowanym od pierwszej podstrony."],
+          ["layout", "Redesign i migracja bez utraty ruchu", "Mapa przekierowań, treści przeniesione podstrona po podstronie i kontrola pozycji po wdrożeniu — żeby nowa strona nie startowała od zera."]
+        ]
+      },
+      "whyTitle": "Dlaczego klienci wybierają mnie jako specjalistę SEO",
+      "whyParagraphs": [
+        "Bezpośredni kontakt ze specjalistą — osoba, która analizuje Wasz rynek, sama raportuje i wprowadza zmiany.",
+        "SEO, które zostaje wdrożone — większość specjalistów SEO kończy na rekomendacjach, a większość programistów nie zna SEO. Robię jedno i drugie, więc poprawki trafiają na stronę w kilka dni.",
+        "Rynki zagraniczne i wielojęzyczne — polski, angielski i rosyjski, z SEO ustawionym osobno dla każdego kraju.",
+        "Wyszukiwarki AI mierzone, a nie obiecywane — widoczność w ChatGPT i odpowiedziach AI sprawdzam co miesiąc tym samym zestawem pytań; opublikowałem własną analizę 141 odpowiedzi asystentów AI.",
+        "Wyniki w zapytaniach, a nie w ładnych wykresach — raport pokazuje ruch, leady i sprzedaż w podziale na podstrony, łącznie z tym, co nie zadziałało.",
+        "Współpraca długoterminowa — większość klientów wraca z kolejnymi zadaniami."
+      ],
+      "howTitle": "Jak pracuję",
+      "faq": [
+        { "q": "Czym zajmuje się specjalista SEO?", "a": "Sprawia, że firmę znajdują klienci, którzy szukają jej usług w Google i w wyszukiwarkach AI. W praktyce: analiza zapytań i konkurencji, struktura strony, treści, SEO techniczne, linkowanie i comiesięczny raport pokazujący, co przyniosło zapytania od klientów." },
+        { "q": "Ile kosztuje pozycjonowanie strony?", "a": "[[Audyt SEO|/pl/oferty/audyt-seo-strony-internetowej]] kosztuje od 1000 zł i kończy się listą priorytetów. Stałe pozycjonowanie zaczyna się od 3500 zł miesięcznie. Po krótkiej rozmowie podaję cenę stałą na piśmie." },
+        { "q": "Zajmujesz się tylko SEO czy tworzysz też strony?", "a": "Jedno i drugie, ale SEO jest główną częścią mojej pracy. Strony tworzę po to, żeby pozycjonowanie nie musiało naprawiać tego, co zepsuto przy budowie — i żeby poprawki SEO trafiały prosto do kodu." },
+        { "q": "Czy pracujesz nad widocznością w ChatGPT i wyszukiwarkach AI?", "a": "Tak. Sprawdzam, czy ChatGPT, Perplexity i odpowiedzi AI w Google wymieniają Waszą firmę i co o niej mówią, a potem poprawiam źródła, z których korzystają. Wynik mierzę co miesiąc tym samym zestawem pytań." },
+        { "keep": "Z jakimi firmami współpracujesz?" },
+        { "keep": "Czy współpracujesz z klientami spoza Polski?" },
+        { "keep": "Ile kosztuje strona?" },
+        { "keep": "Czy możesz zrobić audyt obecnej strony?", "a": "Tak — audyt SEO to najczęstszy pierwszy krok. Obejmuje indeksowanie, strukturę, treści, szybkość i dane strukturalne, a kończy się listą poprawek ułożoną od najważniejszej. Kosztuje od 1000 zł." },
+        { "keep": "Ile trwa stworzenie strony?" },
+        { "keep": "Czy oferujesz wsparcie po wdrożeniu?" },
+        { "q": "Czy robisz SEO międzynarodowe?", "a": "Tak. Ustawiam wersje językowe z poprawnym hreflang, dobieram zapytania i treści osobno dla każdego rynku i sprawdzam, czy Google pokazuje właściwą wersję w każdym kraju." }
+      ]
+    },
+    "ru": {
+      "heading": "Александр Бандюк — SEO-специалист и веб-разработчик",
+      "excerpt": "SEO-специалист и веб-разработчик: привожу клиентов из Google и ИИ-поиска и делаю сайты, которые ранжируются с первого дня.",
+      "metaTitle": "Александр Бандюк — SEO-специалист, продвижение сайтов",
+      "metaDescription": "SEO-специалист, 15 лет в поиске: продвижение и раскрутка сайтов, техническое SEO, видимость в ИИ-поиске и сайты, созданные под SEO. Работаю с ЕС, UK и США.",
+      "imageAlt": "SEO-специалист и веб-разработчик Александр Бандюк",
+      "intro": [
+        "Меня зовут Александр Бандюк, я SEO-специалист и веб-разработчик. 15 лет привожу бизнесу клиентов из поиска — сначала из Google, теперь ещё и из ChatGPT, Perplexity и ИИ-ответов Google. Работаю с русскоязычным бизнесом в Европе, Великобритании, США, Израиле и странах СНГ.",
+        "Основная часть моей работы — [[продвижение сайтов|/ru/uslugi/seo-optimizaciya-i-strategiya]]: стратегия и ежемесячная оптимизация, [[техническое SEO|/ru/uslugi/tehnicheskoe-seo]], [[международное SEO|/ru/uslugi/mezhdunarodnoe-seo]] и [[видимость в ИИ-поиске|/ru/uslugi/ai-seo-i-geo-optimizaciya]]. Вторая часть — [[создание сайтов|/ru/uslugi/razrabotka-saitov]], и делаю я их потому, что сайт, с первого дня собранный под поиск, не приходится потом переделывать.",
+        "Вы общаетесь с одним человеком, который проводит анализ, вносит правки в код и отчитывается о результатах. Без менеджера и без передачи задач между SEO-отделом и разработчиками."
+      ],
+      "who": {
+        "h2": "Кто я: прежде всего SEO-специалист",
+        "before": [
+          "Я начинал с SEO — семантика, структура сайтов, контент, аналитика, технические аудиты, — и SEO до сих пор остаётся основой моей работы.",
+          "В разработку меня привела одна и та же повторяющаяся проблема: аудит показывал, что не так, а внедрять правки было некому. Сайт тормозил, структура была хаотичной, CMS мешала любому изменению. Поэтому я научился делать сайты сам — на Next.js, React и Sanity, а также на WordPress и MODX, — чтобы исправлять всё прямо в коде.",
+          "Сегодня это значит:"
+        ],
+        "bullets": [
+          "стратегия и ежемесячное продвижение сайта, которое оценивается заявками, а не только позициями,",
+          "техническое SEO, внесённое в код, а не отданное PDF-файлом,",
+          "видимость в ИИ-поиске: чтобы ChatGPT, Perplexity и ИИ-ответы Google называли и цитировали вашу компанию,",
+          "сайты, которые ранжируются с запуска."
+        ],
+        "after": [
+          "Живу в Польше и работаю с клиентами по всему миру. Вне работы много бегаю, люблю простые и честные решения — в коде и в текстах."
+        ]
+      },
+      "grid": {
+        "title": "Чем я могу быть полезен: SEO, ИИ-поиск и сайты",
+        "items": [
+          ["search", "Продвижение и раскрутка сайтов", "Семантика, структура, план контента и внутренняя перелинковка — ежемесячно, с отчётом в заявках и продажах, а не только в позициях."],
+          ["wrench", "Техническое SEO и SEO-аудит", "Индексация, Core Web Vitals, микроразметка и редиректы — найдены в аудите и исправлены в коде, а не оставлены в отчёте."],
+          ["sparkles", "GEO и видимость в ИИ-поиске", "Чтобы ChatGPT, Perplexity и ИИ-обзоры Google называли и цитировали вашу компанию: замер на постоянном наборе вопросов, затем правки в источниках."],
+          ["globe", "Международное и мультиязычное SEO", "hreflang, структура языковых версий и контент под каждый рынок — для бизнеса, который продаёт в нескольких странах."],
+          ["gauge", "Сайты, созданные под SEO", "Быстрые сайты на Next.js с продуманной архитектурой, микроразметкой и удобной CMS — поиск заложен с первой страницы."],
+          ["layout", "Редизайн и переезд без потери трафика", "Карта редиректов, перенос контента страница за страницей и контроль позиций после запуска, чтобы новый сайт не начинал с нуля."]
+        ]
+      },
+      "whyTitle": "Почему меня выбирают как SEO-специалиста",
+      "whyItems": [
+        ["1. Вы работаете напрямую со специалистом.", "Тот, кто анализирует ваш рынок, сам отчитывается и сам вносит изменения. Без менеджеров и «потерянной информации»."],
+        ["2. SEO, которое внедряется.", "Большинство SEO-специалистов останавливаются на рекомендациях, большинство разработчиков не разбираются в SEO. Я делаю и то, и другое, поэтому правки попадают на сайт за дни, а не за кварталы."],
+        ["3. Международный опыт.", "Русский, английский и польский, SEO под каждую страну — для бизнеса в Европе, Великобритании, США, Израиле и СНГ."],
+        ["4. ИИ-поиск — с замерами, а не с обещаниями.", "Видимость в ChatGPT и ИИ-ответах проверяется каждый месяц одним и тем же набором вопросов; я опубликовал собственный разбор 141 ответа ИИ-ассистентов."],
+        ["5. Результат в заявках, а не в «галочках».", "Отчёт показывает трафик, заявки и продажи по страницам — вместе с тем, что не сработало."],
+        ["6. Долгосрочное сотрудничество.", "Большинство клиентов остаются на сопровождении и возвращаются с новыми задачами."]
+      ],
+      "faq": [
+        { "q": "Чем занимается SEO-специалист?", "a": "Делает так, чтобы компанию находили клиенты, которые ищут её услуги в Google и в ИИ-поиске. На практике: анализ запросов и конкурентов, структура сайта, контент, техническое SEO, ссылки и ежемесячный отчёт о том, что принесло заявки." },
+        { "q": "Сколько стоит продвижение сайта?", "a": "[[SEO-аудит|/ru/uslugi/seo-audit-saita]] — от 250 €, на выходе список приоритетов. Ежемесячное продвижение — от 800 € в месяц. После короткого созвона называю фиксированную цену письменно." },
+        { "q": "Вы занимаетесь только SEO или делаете и сайты?", "a": "И то, и другое, но основа моей работы — SEO. Сайты я делаю для того, чтобы продвижению не пришлось исправлять ошибки, допущенные при разработке, и чтобы правки по SEO сразу шли в код." },
+        { "q": "Вы работаете с видимостью в ChatGPT и ИИ-поиске?", "a": "Да. Проверяю, называют ли вашу компанию ChatGPT, Perplexity и ИИ-ответы Google и что о ней говорят, затем исправляю источники, которые они читают. Результат замеряю каждый месяц одним и тем же набором вопросов." },
+        { "keep": "С какими бизнесами вы работаете?", "a": "С малым и средним бизнесом, экспертами, которые работают на себя, и компаниями в сферах недвижимости, образования, beauty, медицины, услуг, онлайн-курсов, SaaS и медиа. Главное — чтобы у проекта были реальные задачи по трафику, заявкам и росту." },
+        { "keep": "Вы работаете только с клиентами из одной страны?" },
+        { "keep": "Сколько стоит разработка сайта?" },
+        { "keep": "Можете ли вы сначала сделать аудит существующего сайта?", "a": "Да, SEO-аудит — самый частый первый шаг. Он охватывает индексацию, структуру, контент, скорость и микроразметку и заканчивается списком правок по приоритету. Стоит от 250 €." },
+        { "keep": "Сколько времени занимает разработка сайта?" },
+        { "keep": "Вы ведёте проекты после запуска?" },
+        { "q": "Вы делаете международное SEO?", "a": "Да. Настраиваю языковые версии с корректным hreflang, подбираю запросы и контент под каждый рынок и проверяю, что Google показывает нужную версию в каждой стране." }
+      ]
+    }
+  }
+}

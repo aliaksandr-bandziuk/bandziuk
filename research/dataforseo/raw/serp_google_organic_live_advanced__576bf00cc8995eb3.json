@@ -1,0 +1,1103 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "5.4799 sec.",
+ "cost": 0.00415,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09181720-2505-0139-0000-61087cbcd880",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "5.4240 sec.",
+   "cost": 0.00415,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "consultant website examples",
+    "location_code": 2826,
+    "language_code": "en",
+    "depth": 20,
+    "people_also_ask_click_depth": 1,
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "consultant website examples",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2826,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=consultant%20website%20examples&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+     "datetime": "2026-09-18 17:20:14 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "organic",
+      "people_also_ask",
+      "images",
+      "related_searches"
+     ],
+     "se_results_count": 123,
+     "pages_count": 2,
+     "items_count": 22,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.freelancecake.com",
+       "title": "29 Best Consultant Website Examples Worth Imitating",
+       "url": "https://www.freelancecake.com/blog/consultant-website-examples",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.freelancecake.com › blog › consultant-web...",
+       "website_name": "Freelance Cake",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "1 Mar 2024 — Here are the 29 best consulting website examples worth emulating · 1. Path for Growth · 2. Katie Little · 3. Blue Growth Advisors · 4. Media ... Read more",
+       "pre_snippet": "03/01/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "1. Path for Growth"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.freelancecake.com/blog/consultant-website-examples#:~:text=Here%20are%20the%2029%20best,consulting%20website%20examples%20worth%20emulating&text=1.%20Path%20for%20Growth&text=2.%20Katie%20Little&text=3.%20Blue%20Growth%20Advisors&text=4.%20Media%20Club",
+         "domain": "www.freelancecake.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-03-01 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Can anyone recommend examples of well-designed ...",
+       "url": "https://www.reddit.com/r/consulting/comments/1h18hee/can_anyone_recommend_examples_of_welldesigned/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "8 comments  ·  1 year ago",
+       "website_name": "Reddit · r/consulting",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Can anyone recommend examples of well-designed consultant websites? Enjoy: https://stewartadvisory.co/ 20 Real Consulting Website Examples: ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "consultant websites"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Personal Website Examples? : r/consulting - Reddit",
+         "description": null,
+         "url": "https://www.reddit.com/r/consulting/comments/mt4q6b/personal_website_examples/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "20 Real Consulting Website Examples: Insights and Lessons ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/WebDesignHive/comments/1sw07d1/20_real_consulting_website_examples_insights_and/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=consultant+website+examples+site:www.reddit.com&sca_esv=40a79c977c37d534&hl=en&gl=GB&sa=X&ved=2ahUKEwikt5rm0fiWAxWWcaQEHZsNMcMQrQIoAnoECC8QAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]",
+       "domain": "dribbble.com",
+       "title": "Consulting Website",
+       "url": "https://dribbble.com/tags/consulting-website",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://dribbble.com › tags › consulting-website",
+       "website_name": "Dribbble",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Discover 400+ Consulting Website designs on Dribbble. 482 inspirational designs, illustrations, and graphic elements from the world's best designers. to help ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "400+ Consulting Website designs on Dribbble"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+       "domain": "websitevice.com",
+       "title": "Consulting Website Examples for Design Inspiration",
+       "url": "https://websitevice.com/consulting-examples",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://websitevice.com › consulting-examples",
+       "website_name": "Websitevice",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Consulting website examples and design inspiration for business, startup, financial, management, marketing, compliance and legal.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Consulting website examples"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+       "domain": "nanoglobals.com",
+       "title": "Marketing Consultant Websites: 9 Example Designs (2026)",
+       "url": "https://nanoglobals.com/marketing-consultant-websites/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://nanoglobals.com › marketing-consultant-websites",
+       "website_name": "NanoGlobals",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "30 Apr 2026 — We evaluated dozens of marketing consultant websites on five criteria to find the ones that actually win clients. Multi-page screenshots ...",
+       "pre_snippet": "04/30/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "marketing consultant websites"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-04-30 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]",
+       "domain": "www.consultingsuccess.com",
+       "title": "45 Best Consulting Websites That Attract New Clients (2025)",
+       "url": "https://www.consultingsuccess.com/best-consulting-websites",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.consultingsuccess.com › best-consulting-w...",
+       "website_name": "Consulting Success",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "13 Oct 2025 — This updated guide highlights 45 top consulting websites, showcasing how strategic design, compelling content, and clear positioning transform ...",
+       "pre_snippet": "10/13/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "45 top consulting websites"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Best Consulting Website...",
+         "description": null,
+         "url": "https://www.consultingsuccess.com/best-consulting-websites#best-consulting-website-examples",
+         "domain": "www.consultingsuccess.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Consulting Website Best...",
+         "description": null,
+         "url": "https://www.consultingsuccess.com/best-consulting-websites#consulting-website-best-practices",
+         "domain": "www.consultingsuccess.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-10-13 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[11]/div[1]/div[1]",
+       "domain": "onepagelove.com",
+       "title": "Consulting Website Examples",
+       "url": "https://onepagelove.com/tag/consulting",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://onepagelove.com › tag › consulting",
+       "website_name": "One Page Love",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A curated collection of 26 consulting websites for inspiration and references. Each review includes a full screenshot of the website design along with ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "26 consulting websites"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://onepagelove.com/tag/consulting#:~:text=A%20curated%20collection%20of%2026,design%20along%20with%20noteworthy%20features.",
+         "domain": "onepagelove.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]",
+       "domain": "muffingroup.com",
+       "title": "The Best Consulting Websites That Will Inspire You",
+       "url": "https://muffingroup.com/blog/best-consulting-websites/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://muffingroup.com › blog › best-consulting-websi...",
+       "website_name": "Muffin Group",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "11 Nov 2025 — These examples represent different consulting niches, firm sizes, and design approaches. Each demonstrates specific principles worth studying. Read more",
+       "pre_snippet": "11/11/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "represent different consulting niches, firm sizes, and design approaches"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://muffingroup.com/blog/best-consulting-websites/#:~:text=These%20examples%20represent%20different%20consulting,demonstrates%20specific%20principles%20worth%20studying.",
+         "domain": "muffingroup.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-11-11 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[15]/div[1]/div[1]",
+       "domain": "www.squarespace.com",
+       "title": "6 Consulting Website Examples to Attract Clients",
+       "url": "https://www.squarespace.com/blog/consulting-website-examples",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.squarespace.com › blog › consulting-websi...",
+       "website_name": "Squarespace",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "22 May 2025 — Use these 6 consulting website examples to inspire your own design and learn best practices to convert visitors into clients, ...",
+       "pre_snippet": "05/22/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Use these 6 consulting website examples"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-05-22 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What are some good examples of consulting websites?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the top 5 consulting websites?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the 7 C's of consulting?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the best consulting websites in 2026?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How to make a consulting website?",
+         "seed_question": "What are the best consulting websites in 2026?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the trends in consulting for 2026?",
+         "seed_question": "What are the best consulting websites in 2026?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sca_esv=40a79c977c37d534&hl=en&gl=GB&q=consultant+website+examples&udm=2&source=univ&fir=Q82p1eoXrq6voM%252CdtGbatxoTV19jM%252C_%253B2aKbKke_-47_uM%252CtSwbO8UMV3w9ZM%252C_%253B-rNrwXEndFuVDM%252CdtGbatxoTV19jM%252C_%253BL25WO58ZObre9M%252CWwZg3dsJPjrf6M%252C_%253BIn30VNVUQLtCxM%252CIFh1hmmjgBC9bM%252C_%253BS6HS4tblGB1WuM%252CdtGbatxoTV19jM%252C_%253BoPpiME5irGshwM%252C9Rbt8QLOUYdKrM%252C_%253BacqaJ2cbW17OqM%252CWwZg3dsJPjrf6M%252C_%253BPmUJyJ9lXOD1KM%252CIFh1hmmjgBC9bM%252C_&usg=AI4_-kThkY-SLltToolkRbP0GcukUPmwUw&sa=X&ved=2ahUKEwikt5rm0fiWAxWWcaQEHZsNMcMQ7Al6BAhVEAU",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "Best Consultant Website Examples | Freelance Cake",
+         "url": "https://www.freelancecake.com/blog/consultant-website-examples",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWFuLK2vnLTvzAt1Qt4pBuC4KrhWrfS1lbwdm11vlfxqTOHqwExkDjX9o&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "6 Consulting Website Examples to Attract Clients — Squarespace",
+         "url": "https://www.squarespace.com/blog/consulting-website-examples",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwpKB1xI_DB2lpyUF4qm8bk5T4kePL7LiadZK79XED0RKXofHrdQCE4Bk&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Best Consultant Website Examples | Freelance Cake",
+         "url": "https://www.freelancecake.com/blog/consultant-website-examples",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBUxA4bgKVnfXH6gUhcunXxgK7A8ukHie0TcWOQ-ABYmWo3Om-5tmIrHA&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "The Best Consulting Websites That Will Inspire You",
+         "url": "https://muffingroup.com/blog/best-consulting-websites/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnfPLxQeHEmojIB-YkI7WGKsztyY24pGeSGsEGcpOcnu3ON6bkOtl2dA&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "28 Consulting website examples (that made six figures)",
+         "url": "https://www.makingthatwebsite.com/consulting-websites/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3_oCVxr6qkLCWIvJG9oD-GlpDty7OYkndKb6zlcqoRR1ebK1QaWkIQRQ&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Best Consultant Website Examples | Freelance Cake",
+         "url": "https://www.freelancecake.com/blog/consultant-website-examples",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSseTR1g8SMcjhuS98YZ06YAdMB6OlZLi4l0A8mEUBPEPsxugYAg8H-7s&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "30+ Best Consulting Websites & Design Examples in 2026",
+         "url": "https://knapsackcreative.com/best-consulting-websites",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRopcZJnaIixBvkxl2kO9xWEwwRkgZb-0jlF-a-z9JHnz1LbA7CNSV8TmQ&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "The Best Consulting Websites That Will Inspire You",
+         "url": "https://muffingroup.com/blog/best-consulting-websites/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOg7Vmr1wzvIeQtwIadwbG1YiTvmlyVv0w7pCkc2Z6e2RPNm57fo3czOY&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "28 Consulting website examples (that made six figures)",
+         "url": "https://www.makingthatwebsite.com/consulting-websites/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzU1GE6JpR3TS9G8dleBX_0RcBF_4KhajcwBLouSoss1tIEtT91h_NWwU&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Independent consultant website examples",
+        "Professional consultant website examples",
+        "Free consultant website examples",
+        "Best consultant website examples",
+        "Best independent consultant websites",
+        "Consulting website Template",
+        "Consulting website design",
+        "Business consulting websites"
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 10,
+       "rank_absolute": 13,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "Complete English Grammar Lesson with Examples",
+       "url": "https://www.youtube.com/watch?v=6gfpUgsAvEg",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.youtube.com › watch",
+       "website_name": "YouTube",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "1 Feb 2024 — How do we use HAVE BEEN, HAS BEEN and HAD BEEN? Learn how to use these forms correctly in this full English grammar lesson.",
+       "pre_snippet": "02/01/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Learn how to use these forms correctly"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-02-01 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 11,
+       "rank_absolute": 14,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "ico.org.uk",
+       "title": "Examples of processing 'likely to result in high risk' | ICO",
+       "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/examples-of-processing-likely-to-result-in-high-risk/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://ico.org.uk › accountability-and-governance › ex...",
+       "website_name": "Information Commissioner's Office",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The following list details processing operations for which the ICO requires you to complete a DPIA as they are 'likely to result in high risk'. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/examples-of-processing-likely-to-result-in-high-risk/#:~:text=The%20following%20list%20details%20processing,to%20result%20in%20high%20risk'.",
+         "domain": "ico.org.uk"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 12,
+       "rank_absolute": 15,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "cellprofiler.org",
+       "title": "Examples",
+       "url": "https://cellprofiler.org/examples",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://cellprofiler.org › examples",
+       "website_name": "CellProfiler",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "CellProfiler can be used to analyze the resulting images from imaging flow cytometry, whether brightfield, darkfield, or fluorescence. The IFC website page has ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "website page"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://cellprofiler.org/examples#:~:text=CellProfiler%20can%20be%20used%20to,further%20details%20on%20this%20workflow.",
+         "domain": "cellprofiler.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 13,
+       "rank_absolute": 16,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "Example - 'All Night' (OUT NOW)",
+       "url": "https://www.youtube.com/watch?v=_G1soKzXJUo",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.youtube.com › watch",
+       "website_name": "YouTube",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "10 Jan 2019 — 'All Night' is OUT NOW on Staneric Recordings/AWAL Stream/Download/Buy here: https://bangers.lnk.to/allnight Stream Example Essentials here: ...",
+       "pre_snippet": "01/10/2019 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Example"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2019-01-10 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 2,
+       "rank_absolute": 17,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sa=N&hl=en&gl=GB&sca_esv=40a79c977c37d534&q=consultant+website+examples&udm=2&source=univ&fir=UpAhUIYry6o_QM%252CjsHUM07s15vChM%252C_%253BY3-TwPj7VEZdAM%252CGE34-___JIM6yM%252C_%253BlWWBe2PfhX3zvM%252CKdYCanzL1eSDkM%252C_%253BqScEkmiFYfSlxM%252C9Rbt8QLOUYdKrM%252C_%253BSBxXRyEpCtc1pM%252CR_AulB8ldUsCCM%252C_%253BCMSAG79cMd4HXM%252CGE34-___JIM6yM%252C_%253BoCnHxsm304l80M%252CE8YehSzY0iDyuM%252C_%253Bt_nz5gPvcCs22M%252CtSwbO8UMV3w9ZM%252C_%253BsHFGx7LtEe9UtM%252CdtGbatxoTV19jM%252C_&usg=AI4_-kT-dhq6bPgNO5hbQAr7W1F-Z-30og&ved=2ahUKEwi54JTn0fiWAxXPRaQEHZHGLFk4ChDsCXoECBQQBQ",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "Consulting And Consultant websites - 236+ Best Consultant ...",
+         "url": "https://99designs.com/inspiration/websites/consultant",
+         "image_url": "https://api.dataforseo.com/cdn/i/09181720-2505-0139-0000-61087cbcd880:0"
+        },
+        {
+         "type": "images_element",
+         "alt": "Consulting Firm Website Design Examples | Orbit Media",
+         "url": "https://www.orbitmedia.com/consulting-website-design-examples/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09181720-2505-0139-0000-61087cbcd880:1"
+        },
+        {
+         "type": "images_element",
+         "alt": "Business Consultant Website Template Free - TemplateOnWeb",
+         "url": "https://www.templateonweb.com/free-business-website-template",
+         "image_url": "https://api.dataforseo.com/cdn/i/09181720-2505-0139-0000-61087cbcd880:2"
+        },
+        {
+         "type": "images_element",
+         "alt": "30+ Best Consulting Websites & Design Examples in 2026",
+         "url": "https://knapsackcreative.com/best-consulting-websites",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiAHued2Ck-o0DnBo79UcTpKus5jzFz_aLyR1Pjw105GmykSDju4LF-6I&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Essential Consultant Pages Part 1: Home Page",
+         "url": "https://tsavoneal.com/essential-consultant-website-pages-home-page/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnkK1pUZ3C2r0-VUNbrCRgzaJDGib89IYgzgZIPMVyoGtlYaTT8-auJE&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Consulting Firm Website Design Examples | Orbit Media",
+         "url": "https://www.orbitmedia.com/consulting-website-design-examples/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEVG4N3bwcHP0B6HuP0x5ZR5-mtICyXWP7STWRqraHZtNE5AQJ_jJGmsc&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "The Best Consulting Website Templates You Can Find",
+         "url": "https://www.sliderrevolution.com/design/consulting-website-template/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTAfXjtu_5ff1VZha66oyIVjC15FHuePJK2JcXaRWMJ9_AR2wi8OHp2-Y&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "6 Consulting Website Examples to Attract Clients — Squarespace",
+         "url": "https://www.squarespace.com/blog/consulting-website-examples",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlYcufOL8iVP52BrqGuSlRcwG7rKs364CPjCM_ayJLHt_-wpPNz_l0aT0&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Best Consultant Website Examples | Freelance Cake",
+         "url": "https://www.freelancecake.com/blog/consultant-website-examples",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6272kq18DtCVLOb9i0bBijaEmneYJ5tLDPdQHFpW-PPMu5uhvvPtMwY&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 14,
+       "rank_absolute": 18,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.edpb.europa.eu",
+       "title": "Guidelines 01/2021 on Examples regarding Personal Data ...",
+       "url": "https://www.edpb.europa.eu/documents/guideline/guidelines-012021-on-examples-regarding-personal-data-breach-notification_en",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.edpb.europa.eu › Home › Documents",
+       "website_name": "European Data Protection Board",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "3 Jan 2022 — Guidelines 01/2021 on Examples regarding Personal Data Breach Notification · Guideline · 03 January 2022 ... Read more",
+       "pre_snippet": "01/03/2022 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Examples regarding"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.edpb.europa.eu/documents/guideline/guidelines-012021-on-examples-regarding-personal-data-breach-notification_en#:~:text=Guidelines%2001%2F2021%20on%20Examples%20regarding,Personal%20Data%20Breach%20Notification&text=Guideline&text=03%20January%202022",
+         "domain": "www.edpb.europa.eu"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2022-01-03 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 15,
+       "rank_absolute": 19,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "www.ifrs.org",
+       "title": "IASB issues illustrative examples on reporting uncertainties ...",
+       "url": "https://www.ifrs.org/news-and-events/news/2025/11/iasb-issues-illustrative-examples-reporting-uncertainties-financial-statements/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.ifrs.org › Home › News",
+       "website_name": "IFRS Foundation",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "28 Nov 2025 — The International Accounting Standards Board (IASB) has today issued illustrative examples demonstrating how companies can apply IFRS ... Read more",
+       "pre_snippet": "11/28/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "illustrative examples"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.ifrs.org/news-and-events/news/2025/11/iasb-issues-illustrative-examples-reporting-uncertainties-financial-statements/#:~:text=The%20International%20Accounting%20Standards%20Board,uncertainties%20in%20their%20financial%20statements.",
+         "domain": "www.ifrs.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-11-28 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 16,
+       "rank_absolute": 20,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "Predicting The Products of Chemical Reactions",
+       "url": "https://www.youtube.com/watch?v=MYmrWHzT1oI&vl=en",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.youtube.com › watch",
+       "website_name": "YouTube",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "17 Aug 2017 — This chemistry video tutorial explains the process of predicting the products of chemical reactions. This video contains plenty of examples ...",
+       "pre_snippet": "08/17/2017 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "examples"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2017-08-17 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 17,
+       "rank_absolute": 21,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "everydayfeminism.com",
+       "title": "25 Everyday Examples of Rape Culture",
+       "url": "https://everydayfeminism.com/2014/03/examples-of-rape-culture/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://everydayfeminism.com › 2014/03 › examples-of...",
+       "website_name": "Everyday Feminism",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "10 Mar 2014 — We're talking about the way that we collectively think about rape. More often than not, it's situations in which sexual assault, rape, and ... Read more",
+       "pre_snippet": "03/10/2014 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://everydayfeminism.com/2014/03/examples-of-rape-culture/#:~:text=We're%20talking%20about%20the%20way,normalized%2C%20or%20made%20into%20jokes.",
+         "domain": "everydayfeminism.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2014-03-10 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 18,
+       "rank_absolute": 22,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "The Bass GENIUS of Stuart Zender (10 ICONIC examples)",
+       "url": "https://www.youtube.com/watch?v=JZ2V6Qz4ehc",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.youtube.com › watch",
+       "website_name": "YouTube",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "18 Oct 2024 — 7 Jamiroquai Bass Lines that PROVE their GENIUS. Scott's Bass Lessons · 812K views ; The Bass GENIUS of Pino Palladino (12 ICONIC examples). Read more",
+       "pre_snippet": "10/18/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "examples"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.youtube.com/watch?v=JZ2V6Qz4ehc#:~:text=7%20Jamiroquai%20Bass%20Lines%20that,Scott's%20Bass%20Lessons%E2%80%A2812K%20views&text=Scott's%20Bass%20Lessons%E2%80%A2812K%20views&text=The%20Bass%20GENIUS%20of%20Pino,Palladino%20(12%20ICONIC%20examples)",
+         "domain": "www.youtube.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-10-18 00:00:00 +00:00",
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

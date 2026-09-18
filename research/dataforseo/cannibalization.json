@@ -1,0 +1,970 @@
+{
+ "en": [
+  {
+   "query": "consulting website",
+   "pages": [
+    {
+     "url": "/blog/website-development-cost-in-cyprus",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "consulting website design",
+   "pages": [
+    {
+     "url": "/blog/website-development-cost-in-cyprus",
+     "kind": "article",
+     "inStrong": 0.3333333333333333,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "consulting website examples",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "expert website",
+   "pages": [
+    {
+     "url": "/blog/how-vibecoding-almost-killed-a-website",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/services",
+     "kind": "page",
+     "inStrong": 0,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "website for consultants",
+   "pages": [
+    {
+     "url": "/about",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "consultant website design",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "consultant website examples",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "best consultant websites",
+   "pages": [
+    {
+     "url": "/about",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "website consultant",
+   "pages": [
+    {
+     "url": "/about",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "website development consultant",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "seo case study",
+   "pages": [
+    {
+     "url": "/portfolio/auto-repair-seo-and-ux-boost",
+     "kind": "case",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/portfolio/tyre-storage-landing-page-with-editable-seo",
+     "kind": "case",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/blog/real-estate-website-cyprus-case-study",
+     "kind": "article",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (case)"
+  },
+  {
+   "query": "website case study",
+   "pages": [
+    {
+     "url": "/portfolio/anti-spam-protection-for-website-forms",
+     "kind": "case",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/portfolio/renovation-and-investment-website-with-premium-design",
+     "kind": "case",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/blog/real-estate-website-cyprus-case-study",
+     "kind": "article",
+     "inStrong": 1,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (case)"
+  },
+  {
+   "query": "web design case study",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "website redesign case study",
+   "pages": [
+    {
+     "url": "/blog/auto-repair-shop-website-cost",
+     "kind": "article",
+     "inStrong": 0.25,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "calculator website",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "llm seo",
+   "pages": [
+    {
+     "url": "/blog/ai-assistant-recommendations-study",
+     "kind": "article",
+     "inStrong": 0,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "ai overview optimization",
+   "pages": [
+    {
+     "url": "/services/answer-engine-optimization-services",
+     "kind": "page",
+     "inStrong": 0.3333333333333333,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "how to get cited by chatgpt",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "how to optimize for ai overviews",
+   "pages": [
+    {
+     "url": "/website-for-psychologists-therapists",
+     "kind": "page",
+     "inStrong": 0,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "multilingual website examples",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "sanity cms",
+   "pages": [
+    {
+     "url": "/blog/how-i-automated-website-page-production",
+     "kind": "article",
+     "inStrong": 0,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "sanity cms examples",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "sanity headless cms",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "next js website development",
+   "pages": [
+    {
+     "url": "/services/website-development",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  },
+  {
+   "query": "multilingual website development",
+   "pages": [
+    {
+     "url": "/portfolio/full-multilingual-website-development-and-seo-for-student-services",
+     "kind": "case",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/services/multilingual-website-development",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/website-design-for-models",
+     "kind": "page",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (case)"
+  },
+  {
+   "query": "headless cms website",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "generative engine optimization",
+   "pages": [
+    {
+     "url": "/services/ai-ready-seo-and-geo-optimization",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/blog/ai-assistant-recommendations-study",
+     "kind": "article",
+     "inStrong": 1,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  },
+  {
+   "query": "ai search optimization",
+   "pages": [
+    {
+     "url": "/services/seo-optimization-and-strategy",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/seo-for-auto-repair-shop",
+     "kind": "page",
+     "inStrong": 0.3333333333333333,
+     "inAny": 1
+    },
+    {
+     "url": "/services",
+     "kind": "page",
+     "inStrong": 0,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  }
+ ],
+ "pl": [
+  {
+   "query": "strona internetowa dla eksperta",
+   "pages": [
+    {
+     "url": "/pl/blog/dlaczego-prawnikowi-potrzebna-strona-www",
+     "kind": "article",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "strona osobista",
+   "pages": [
+    {
+     "url": "/pl/portfolio/tworzenie-i-optymalizacja-strony-osobistej-z-seo",
+     "kind": "case",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/tworzenie-stron-internetowych-warszawa",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/ile-kosztuje-strona-dla-salonu-kosmetycznego",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (case)"
+  },
+  {
+   "query": "przykłady stron internetowych",
+   "pages": [
+    {
+     "url": "/pl/oferty/strategia-i-optymalizacja-seo",
+     "kind": "page",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "strona internetowa przykłady",
+   "pages": [
+    {
+     "url": "/pl/oferty/strategia-i-optymalizacja-seo",
+     "kind": "page",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "przykładowa strona internetowa",
+   "pages": [
+    {
+     "url": "/pl/oferty/strategia-i-optymalizacja-seo",
+     "kind": "page",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "portfolio stron internetowych",
+   "pages": [
+    {
+     "url": "/pl/strona-internetowa-dla-modelki",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/strona-dla-dewelopera",
+     "kind": "page",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/jak-wybrac-wykonawce-strony-internetowej",
+     "kind": "article",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  },
+  {
+   "query": "sanity cms",
+   "pages": [
+    {
+     "url": "/pl/blog/jak-zautomatyzowalem-tworzenie-stron-w-cms",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "strona dla freelancerów",
+   "pages": [
+    {
+     "url": "/pl/blog/freelancer-czy-agencja",
+     "kind": "article",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/o-mnie",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (article)"
+  },
+  {
+   "query": "strona internetowa dla psychologa",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "kalkulator na stronie",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "strona dla konsultanta",
+   "pages": [
+    {
+     "url": "/pl/cennik",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/ile-kosztuje-pozycjonowanie-strony",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/ile-kosztuje-strona-dla-psychologa",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "strona dla eksperta",
+   "pages": [
+    {
+     "url": "/pl/blog/jak-vibecoding-prawie-zabil-strone",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/dlaczego-prawnikowi-potrzebna-strona-www",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "pozycjonowanie w ai",
+   "pages": [
+    {
+     "url": "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/pozycjonowanie-w-ai-badanie",
+     "kind": "article",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/seo-dla-stron-nieruchomosci",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  },
+  {
+   "query": "pozycjonowanie w chatgpt",
+   "pages": [
+    {
+     "url": "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/pozycjonowanie-w-ai-badanie",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/seo-dla-warsztatu-samochodowego",
+     "kind": "page",
+     "inStrong": 0,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  },
+  {
+   "query": "tworzenie stron next js",
+   "pages": [
+    {
+     "url": "/pl/oferty/tworzenie-stron-internetowych",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/jak-zautomatyzowalem-tworzenie-stron-w-cms",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  },
+  {
+   "query": "strona wielojęzyczna",
+   "pages": [
+    {
+     "url": "/pl/oferty/tworzenie-stron-wielojezycznych",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/ile-kosztuje-strona-wielojezyczna",
+     "kind": "article",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/tworzenie-stron-internetowych-dla-branzy-beauty",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  },
+  {
+   "query": "pozycjonowanie pod ai",
+   "pages": [
+    {
+     "url": "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt",
+     "kind": "page",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/blog/jak-odpowiedzi-ai-znieksztalcaja-przekaz-marketingowy",
+     "kind": "article",
+     "inStrong": 0.3333333333333333,
+     "inAny": 1
+    },
+    {
+     "url": "/pl/seo-dla-warsztatu-samochodowego",
+     "kind": "page",
+     "inStrong": 0,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  }
+ ],
+ "ru": [
+  {
+   "query": "сайт аналитика",
+   "pages": [
+    {
+     "url": "/ru/uslugi",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/skolko-stoit-sait-agentstva-nedvizhimosti",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/skolko-stoit-sait-zastroishchika",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "сайт консультанта",
+   "pages": [
+    {
+     "url": "/ru/ceny",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/skolko-stoit-prodvizhenie-saita",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/skolko-stoit-sait-psihologa",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "личный сайт",
+   "pages": [
+    {
+     "url": "/ru/razrabotka-saitov-varshava",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "калькулятор для сайта",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "калькулятор на сайт",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "сайт эксперта",
+   "pages": [
+    {
+     "url": "/ru/blog/kak-vaibkoding-pochti-ubil-sait",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/zachem-advokatu-sait",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "кейс создание сайта",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "портфолио веб разработчика",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "сайт на next js",
+   "pages": [
+    {
+     "url": "/ru/portfolio/oficialnyi-sait-sasha-dith",
+     "kind": "case",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/uslugi/razrabotka-saitov",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/uslugi/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
+     "kind": "page",
+     "inStrong": 0.3333333333333333,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (case)"
+  },
+  {
+   "query": "sanity cms",
+   "pages": [
+    {
+     "url": "/ru/blog/kak-ya-avtomatiziroval-sozdanie-stranic-v-cms",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "сайт для психолога",
+   "pages": [
+    {
+     "url": "/ru/sait-dlya-psihologov-terapevtov",
+     "kind": "page",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/chto-dolzhno-byt-na-saite-psihologa",
+     "kind": "article",
+     "inStrong": 1,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/skolko-stoit-sait-psihologa",
+     "kind": "article",
+     "inStrong": 1,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "не для кейса — занят (page)"
+  },
+  {
+   "query": "сайт визитка",
+   "pages": [
+    {
+     "url": "/ru/ceny",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/sozdanie-saita-dlya-avtoservisa",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/sait-agentstva-nedvizhimosti-kipr-keis",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "сайт для консультанта",
+   "pages": [
+    {
+     "url": "/ru/ceny",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/skolko-stoit-prodvizhenie-saita",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/skolko-stoit-sait-psihologa",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "многоязычный сайт",
+   "pages": [
+    {
+     "url": "/ru/sozdanie-saitov-na-kipre",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/uslugi/razrabotka-saitov",
+     "kind": "page",
+     "inStrong": 0.5,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/sait-agentstva-nedvizhimosti-kipr-keis",
+     "kind": "article",
+     "inStrong": 0.5,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  },
+  {
+   "query": "продвижение в нейросетях",
+   "pages": [],
+   "ranks": [],
+   "verdict": "свободен"
+  },
+  {
+   "query": "как попасть в ответы chatgpt",
+   "pages": [
+    {
+     "url": "/ru/blog/kak-popast-v-rekomendacii-chatgpt",
+     "kind": "article",
+     "inStrong": 0.6666666666666666,
+     "inAny": 1
+    },
+    {
+     "url": "/ru/blog/issledovanie-otvetov-ii-assistentov",
+     "kind": "article",
+     "inStrong": 0.3333333333333333,
+     "inAny": 1
+    }
+   ],
+   "ranks": [],
+   "verdict": "можно, но пересекается частично"
+  }
+ ],
+ "gscTopical": [
+  {
+   "q": "beauty salon website consultant",
+   "imp": 32,
+   "pos": 48.72
+  },
+  {
+   "q": "кейс недвижимость на кипре",
+   "imp": 9,
+   "pos": 27
+  },
+  {
+   "q": "стоимость seo консультация",
+   "imp": 6,
+   "pos": 69.33
+  },
+  {
+   "q": "modelki portfolio",
+   "imp": 2,
+   "pos": 26
+  },
+  {
+   "q": "portfolio modelki",
+   "imp": 2,
+   "pos": 45.5
+  },
+  {
+   "q": "seo consulting price",
+   "imp": 2,
+   "pos": 50.5
+  },
+  {
+   "q": "landing page conversion consultant",
+   "imp": 2,
+   "pos": 90
+  }
+ ]
+}

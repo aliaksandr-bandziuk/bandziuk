@@ -1,0 +1,375 @@
+
+######## en  ИИ-блок: 10 of 11
+
+## consultant website design  | AI: true
+   блоки: organic, ai_overview, related_searches, images
+   1. www.freelancecake.com — 29 Best Consultant Website Examples Worth Imitating
+   2. dribbble.com — Consulting Website
+   3. www.reddit.com — Can anyone recommend examples of well-designed ...
+   4. primeliondigital.co.uk — Best Website Design for Consulting Business
+   5. www.pinterest.com — Design Inspiration and consulting company website ideas
+   6. webflow.com — Best Consulting Websites | Free Examples & Designs
+
+## website for consultants  | AI: true refs: www.freelancecake.com, www.squarespace.com, webflow.com, wpastra.com
+   блоки: organic, ai_overview, people_also_ask, related_searches
+   1. www.freelancecake.com — 29 Best Consultant Website Examples Worth Imitating
+   2. www.reddit.com — Can anyone recommend examples of well-designed ...
+   3. consultport.com — Consultport: Find Top Consultants and Digital Experts
+   4. dribbble.com — Consulting Website
+   5. www.moorhouseconsulting.com — Moorhouse Consulting: Consultancy Services Company London
+   6. muffingroup.com — The Best Consulting Websites That Will Inspire You
+   PAA: What are some good websites for consultants?
+   PAA: What are the 7 C's of consulting?
+   PAA: What are some good websites for consultancy services?
+   PAA: Who are the Big 4 in consultancy?
+   PAA: Who are the big 5 consulting firms in the UK?
+   PAA: What is the minimum salary in Big 4?
+
+## consultant website examples  | AI: false
+   блоки: organic, people_also_ask, images, related_searches
+   1. www.freelancecake.com — 29 Best Consultant Website Examples Worth Imitating
+   2. www.reddit.com — Can anyone recommend examples of well-designed ...
+   3. dribbble.com — Consulting Website
+   4. websitevice.com — Consulting Website Examples for Design Inspiration
+   5. nanoglobals.com — Marketing Consultant Websites: 9 Example Designs (2026)
+   6. www.consultingsuccess.com — 45 Best Consulting Websites That Attract New Clients (2025)
+   PAA: What are some good examples of consulting websites?
+   PAA: What are the top 5 consulting websites?
+   PAA: What are the 7 C's of consulting?
+   PAA: What are the best consulting websites in 2026?
+   PAA: How to make a consulting website?
+   PAA: What are the trends in consulting for 2026?
+
+## web design case study  | AI: true refs: www.youtube.com, www.behance.net, www.awwwards.com, webflow.com, thedesignspace.co, www.articulatemarketing.com
+   блоки: organic, ai_overview, related_searches, images
+   1. forgeandsmith.com — Web Design Case Studies
+   2. www.behance.net — Website Case Study Projects
+   3. authenticstyle.co.uk — Website Redesign Case Studies - Authentic Style
+   4. www.awwwards.com — Case Study - Awwwards Blog
+   5. www.casestudy.club — The Best UX Design Case Studies
+   6. dribbble.com — Web Design Case Study
+
+## website case study  | AI: true refs: www.emerald.com, www.thecasecentre.org, www.awwwards.com, webflow.com, www.articulatemarketing.com, www.youtube.com
+   блоки: ai_overview, organic, people_also_ask, related_searches
+   1. www.behance.net — Website Case Study Projects
+   2. forgeandsmith.com — Web Design Case Studies
+   3. dribbble.com — Website Case Study
+   4. www.awwwards.com — Case Study - Awwwards Blog
+   5. land-book.com — The best case study website design inspiration
+   6. authenticstyle.co.uk — Website Redesign Case Studies - Authentic Style
+   PAA: Can ChatGPT write a case study?
+   PAA: What are the 7 C's of a website?
+   PAA: What is the best website for free case studies?
+   PAA: Can you provide some examples of case studies for websites?
+   PAA: What is a good example of a case study?
+   PAA: What are the 10 examples of websites?
+
+## sanity cms examples  | AI: true
+   блоки: organic, video, people_also_ask, ai_overview, related_searches, images
+   1. www.sanity.io — Showcase projects built with Sanity
+   2. www.sanity.io — Sanity: The Content Operating System for the AI era
+   3. www.awwwards.com — Best Sanity Websites | Web Design Inspiration
+   4. weareadaptable.com — Sanity CMS | Features, Benefits & Use Cases - Adaptable
+   5. github.com — GitHub - sanity-io/example-company-website-gatsby ...
+   6. vercel.com — Sanity Templates
+   PAA: What is Sanity in CMS?
+   PAA: Is Sanity a good CMS?
+   PAA: Is Sanity CMS better than WordPress?
+   PAA: What are the key differences between Payload CMS and Sanity CMS?
+   PAA: What are some alternatives to Sanity CMS?
+   PAA: Can you use Sanity for free?
+
+## headless cms website  | AI: true
+   блоки: ai_overview, organic, people_also_ask, video, related_searches
+   1. www.contentful.com — Headless CMS explained in one minute
+   2. www.storyblok.com — Headless CMS Explained | Storyblok Tutorial
+   3. www.reddit.com — What is a headless CMS? : r/webdev
+   4. jamstack.org — Headless CMS - Top Content Management Systems
+   5. strapi.io — Strapi - Open-Source TypeScript Headless CMS
+   6. payloadcms.com — Payload: The Next.js Headless CMS and App Framework
+   PAA: What is a headless CMS platform?
+   PAA: What does it mean for a CMS to be headless?
+   PAA: What are some headless CMS examples?
+   PAA: What does it mean for a website to be headless?
+   PAA: What are the drawbacks of headless CMS?
+   PAA: Is headless CMS free?
+
+## multilingual website examples  | AI: true
+   блоки: organic, ai_overview, people_also_ask, related_searches, images
+   1. lokalise.com — We analyzed the best 5 examples of multilingual websites
+   2. www.wix.com — How to Build a Multilingual Website (With Examples)
+   3. www.weglot.com — 5 Multilingual Websites That Did Everything Right
+   4. webflow.com — Best multi-language Websites | Free Examples & Designs
+   5. blog.duda.co — Five Standout Multi-language Website Examples - Duda Blog
+   6. www.motionpoint.com — Multilingual Website Best Practices: SEO, Localization & ...
+   PAA: What is the most multilingual website?
+   PAA: What is a multilingual website?
+   PAA: What are the 10 examples of websites?
+   PAA: How do I add multi language in a website?
+   PAA: Can you give me an example of a multilingual website?
+   PAA: How to make a multilingual website in HTML?
+
+## how to get cited by chatgpt  | AI: true
+   блоки: ai_overview, organic, people_also_ask, video, related_searches
+   1. www.reddit.com — 5 steps to get cited in ChatGPT (AI visibility)
+   2. searchengineland.com — How to get cited by ChatGPT: The content traits LLMs ...
+   3. www.linkedin.com — 9 Ways to Structure Your Content to Be Cited by ChatGPT
+   4. business.quora.com — How to Get Cited by ChatGPT: A Practical Playbook for 2026
+   5. aioseo.com — How to Get Cited by ChatGPT, Perplexity, and AI Search ...
+   6. apastyle.apa.org — How to cite ChatGPT - APA Style
+   PAA: Can I Cite ChatGPT as a source?
+   PAA: How to check ChatGPT citations?
+   PAA: Is ChatGPT a good citation generator?
+   PAA: Which AI tool is best for citations?
+   PAA: Is it okay to use AI to make citations?
+   PAA: Which AI is better than ChatGPT for writing?
+
+## how to optimize for ai overviews  | AI: true
+   блоки: ai_overview, organic, people_also_ask, related_searches
+   1. developers.google.com — Top ways to ensure your content performs well in Google's ...
+   2. www.reddit.com — How do you optimize for Google AI Overview : r/SEO
+   3. searchengineland.com — AI Overviews optimization guide: Ranking in Google ...
+   4. seranking.com — How to Get Featured in AI Overviews: 7 Top Strategies
+   5. finch.com — 7 Strategies to Optimize for Google AI Overviews SEO
+   6. www.semrush.com — AI Overviews: What Are They & How to Optimize for Them
+   PAA: What is the 30% rule in AI?
+   PAA: How to improve AI search optimization?
+   PAA: What is the 80/20 rule in SEO?
+   PAA: How to rank AI overview?
+   PAA: Which country is no. 1 in AI?
+   PAA: Is Google AI as good as ChatGPT?
+
+## calculator website  | AI: true
+   блоки: organic, ai_overview, related_searches
+   1. www.online-calculator.com — Online Calculator
+   2. www.calculator.net — Calculator.net: Free Online Calculators - Math, Fitness ...
+   3. www.thecalculatorsite.com — The Calculator Site - Free Online Calculators
+   4. www.theonlinecalculator.com — The Online Calculator
+   5. www.calculatoria.com — CALCULATORIA.com: Online scientific calculator with tape
+   6. mathda.com — 991 Scientific Calculator Online | Free AI Math Scanner
+
+######## pl  ИИ-блок: 9 of 9
+
+## przykłady stron internetowych  | AI: true refs: nicepage.com, www.pixpa.com, pl.wix.com, www.droptica.pl, www.figma.com, www.shopify.com
+   блоки: ai_overview, organic, people_also_ask, related_searches, images
+   1. pl.wix.com — Najlepsze strony internetowe – 28 ciekawych projektów
+   2. www.pixpa.com — 23 najlepsze projekty stron internetowych, które zainspirują ...
+   3. www.shopify.com — Piękne strony internetowe - 26 inspiracji na 2026 rok. ...
+   4. www.droptica.pl — 11 rodzajów stron internetowych z przykładami
+   5. www.figma.com — 12 Zawrotnych pomysłów na układy stron internetowych
+   6. thenewlook.pl — Trendy stron internetowych 2026, najlepsze strony internetowe
+   PAA: Jakie są strony internetowe?
+   PAA: Jakie są 10 najpopularniejszych stron internetowych w Polsce?
+   PAA: Jakie są przykłady nowoczesnych stron internetowych?
+   PAA: Jakie są fajne strony internetowe?
+   PAA: Jakie są przykładowe strony internetowe?
+   PAA: Jakie są najpopularniejsze polskie strony internetowe?
+
+## strona internetowa przykłady  | AI: true refs: nicepage.com, www.pixpa.com, pl.wix.com, www.droptica.pl, www.figma.com, www.shopify.com
+   блоки: ai_overview, organic, people_also_ask, related_searches, images
+   1. www.shopify.com — Piękne strony internetowe - 26 inspiracji na 2026 rok. ...
+   2. pl.wix.com — 53 pomysły na własną stronę internetową
+   3. www.youstable.com — 21 najlepszych przykładów witryn internetowych dla ...
+   4. dstdesign.pl — Jakie są rodzaje stron internetowych? Poznaj 11 przykładów
+   5. pixlab.pl — Ciekawe strony internetowe - 25 najlepszych przykładów
+   6. wenet.pl — Rodzaje stron internetowych - 22 pomysły na własną witrynę
+   PAA: Jakie są 10 najpopularniejszych stron internetowych w Polsce?
+   PAA: Jakie są strony internetowe?
+   PAA: Jakie są fajne strony internetowe?
+   PAA: Jak wygląda strona internetowa?
+   PAA: Co musi zawierać strona internetowa?
+   PAA: Czym się różni witryna od strony internetowej?
+
+## sanity cms  | AI: true refs: www.sanity.io, jamstack.org, scandiweb.com
+   блоки: organic, ai_overview, video, related_searches
+   1. www.sanity.io — Sanity: The Content Operating System for the AI era
+   2. pagepro.co — What is Sanity CMS: A 2026 Guide
+   3. jamstack.org — Sanity
+   4. www.reddit.com — What are your thoughts on Sanity IO? : r/reactjs
+   5. github.com — Sanity Studio – Rapidly configure content workspaces ...
+   6. boringowl.io — Sanity headless CMS | System zarządzania treścią Sanity
+
+## strona dla eksperta  | AI: true
+   блоки: ai_overview, organic, related_searches
+   1. stronaeksperta.pl — Łukasz Braniewski: Strony Internetowe dla Ekspertów
+   2. ore.edu.pl — Ekspert – Ośrodek Rozwoju Edukacji
+   3. stronadlaeksperta.pl — Strony internetowe dla ekspertów — abonament lub zakup na ...
+   4. widoczni.com — Zapytaj eksperta - Bezpłatne konsultacje Google Ads
+   5. www.pkn.pl — EKSPERT WG
+   6. www.archiwum.nowoczesnagospodarka.gov.pl — Eksperci - Ministerstwo Funduszy i Polityki Regionalnej
+
+## strona dla konsultanta  | AI: true
+   блоки: ai_overview, organic, related_searches
+   1. konsultantkrajowy-psychoterapiauzaleznien.pl — PSYCHOTERAPIA UZALEŻNIEŃ – strona konsultanta ...
+   2. psychologia-konsultanci.pl — Psychologia Kliniczna – Strona Konsultanta Krajowego i ...
+   3. dueconsulting.pl — Jak wybrać konsultanta biznesowego
+   4. www.facebook.com — Praca konsultanta to znacznie więcej niż udział w projektach ...
+   5. kkro.io.gliwice.pl — Strona konsultanta wojewódzkiego
+   6. projectmakers.pl — Konsultant IT - kogo wybrać do wsparcia projektu ...
+
+## strona internetowa dla doradcy  | AI: true
+   блоки: ai_overview, organic, people_also_ask, related_searches
+   1. kidp.pl — Strona internetowa dla doradcy podatkowego
+   2. kidp.pl — KRAJOWA IZBA DORADCÓW PODATKOWYCH - KIDP ...
+   3. www.investnet.pl — Strona internetowa dla doradcy podatkowego
+   4. www.biznes.gov.pl — Doradca podatkowy – zmiana danych
+   5. www.wolterskluwer.com — Akademia Doradcy Podatkowego
+   6. www.doradztwo-podatkowe.net.pl — Porady podatkowe ONLINE
+   PAA: Gdzie szukać doradcy podatkowego?
+   PAA: Jak zostać doradcą podatkowym?
+   PAA: Kiedy odbędzie się Bal doradców Podatkowej w 2026 roku?
+   PAA: Czy biegły rewident może być doradcą podatkowym?
+   PAA: Ile średnio zarabia biegły rewident?
+   PAA: Co jest lepsze doradca podatkowy czy biegły rewident?
+
+## kalkulator na stronie  | AI: true
+   блоки: ai_overview, organic, people_also_ask
+   1. pomoc.webwavecms.com — Kalkulator na stronie utworzonej w WebWave
+   2. www.youtube.com — Jak zrobić kalkulator na stronie internetowej (WordPress + WS ...
+   3. elfsight.pl — Jak stworzyć niestandardowy kalkulator na stronie za darmo
+   4. www.elektroda.pl — Kalkulator na stronie www - Jak zrobic kalkulator na stronie
+   5. webzo.pl — Kalkulatory na stronę www - Szablony stron WebWave
+   6. przemyslawklasa.pl — Kalkulator wyceny strony internetowej - Szybka wycena online
+   PAA: Gdzie znajdę kalkulator?
+   PAA: Gdzie na komputerze jest kalkulator?
+   PAA: Jaki jest najlepszy kalkulator?
+   PAA: Jak zainstalować kalkulator?
+   PAA: Jak włączyć kalkulator?
+   PAA: Jaka jest dobra bezpłatna aplikacja kalkulatora?
+
+## realizacja strony internetowej  | AI: true
+   блоки: ai_overview, organic, people_also_ask, video, people_also_search, related_searches
+   1. arturkosinski.pl — Tworzenie stron internetowych
+   2. home.pl — Projektowanie stron internetowych – zrobimy dla Ciebie ...
+   3. www.premiumdigital.pl — Tworzenie Stron WWW | Agencja PremiumDigital
+   4. projektowaniestroncennik.pl — 1900zł. Projektowanie stron www - cennik na 2026 rok ...
+   5. polskabezgotowkowa.pl — Tworzenie stron internetowych – jak wybrać firmę?
+   6. pikseo.pl — Tworzenie stron internetowych - zobacz naszą ofertę!
+   PAA: Ile kosztuje usługa zrobienia strony internetowej?
+   PAA: Jakie są 7 podstawowych zasad tworzenia stron internetowych?
+   PAA: Ile zarabia się na robieniu stron internetowych?
+   PAA: Ile kosztuje zrobienie zwykłej strony internetowej?
+   PAA: Ile programista bierze za stronę internetową?
+   PAA: Ile trwa zrobienie strony internetowej?
+
+## jak pojawić się w odpowiedziach ai  | AI: true
+   блоки: ai_overview, organic, people_also_ask, video, related_searches
+   1. www.silence.pl — Widoczność w AI – jak sprawić, żeby Twoja marka pojawiała ...
+   2. widoczni.com — Jak pojawić się w Google AI Overviews?
+   3. www.reddit.com — Jak sprawić, żeby twój produkt pojawiał się w ...
+   4. seolit.pl — SEO w AI. Czy pozycjonowanie w AI jest możliwe? | Seolit
+   5. synergynet.pl — Jak pojawić się w odpowiedziach AI: SEO pod ChatGPT
+   6. morelikes.pl — Jak "pozycjonować się" w odpowiedziach AI? Co wpływa na ...
+   PAA: Jak uruchomić AI?
+   PAA: Jak włączyć odpowiedzi AI w Google?
+   PAA: Gdzie jest mój tryb AI?
+   PAA: Jak wyszukiwać w trybie AI?
+   PAA: Jak włączyć tryb AI na telefonie?
+   PAA: Jak działa przegląd od AI w Google?
+
+######## ru  ИИ-блок: 8 of 9
+
+## сайт эксперта  | AI: true
+   блоки: organic, ai_overview, related_searches
+   1. expert.ru — Эксперт - последние новости и публикации журнала Эксперт
+   2. ru.pinterest.com — Сайт Эксперта Дизайн
+   3. www.navika.pro — Как создать хороший продающий сайт эксперта
+   4. www.reg.ru — Каким должен быть сайт-визитка для эксперта
+   5. vc.ru — Как сделать личный сайт эксперта: мой опыт успеха и ...
+   6. blog.maed.ru — Как создать экспертный сайт: пошаговая инструкция
+
+## сайт для консультанта  | AI: true
+   блоки: ai_overview, organic, related_searches
+   1. www.carrotquest.io — Обзор 10 лучших онлайн-консультантов для сайта
+   2. blog.click.ru — Что такое онлайн-консультант
+   3. envybox.io — Как выбрать онлайн-консультант для сайта
+   4. www.rush-analytics.ru — Лучшие онлайн-консультанты для сайта в 2025 году
+   5. marketing-tech.ru — ТОП - 10 сервисов онлайн консультанта - 2026
+   6. rookee.ru — Топ-10 лучших онлайн-консультантов для сайта: обзор ...
+
+## кейс создание сайта  | AI: true
+   блоки: organic, ai_overview, people_also_ask, related_searches
+   1. web-c.ru — Кейсы по разработке и созданию сайтов (Москва, Санкт ...
+   2. workspace.ru — Кейсы по разработке сайтов 16905 - Workspace.ru
+   3. ratingruneta.ru — Кейсы по созданию сайтов
+   4. 1ps.ru — Кейсы по созданию сайтов
+   5. www.infinitystudio.ru — Кейсы — разработка сайтов на 1С-Битрикс - Инфинити
+   6. up-advert.ru — Кейсы по созданию и разработке сайтов
+   PAA: Что такое кейс по SEO?
+   PAA: Сколько берут денег за создание сайта?
+   PAA: Какая самая лучшая платформа для создания сайта?
+   PAA: Что такое кейс простыми словами?
+   PAA: Как сказать кейс по-русски?
+   PAA: Что должно быть в кейсе?
+
+## калькулятор на сайт  | AI: true
+   блоки: organic, ai_overview, people_also_ask, related_searches
+   1. ucalc.pro — uCalc — универсальный конструктор калькуляторов и форм
+   2. stepform.io — Конструктор калькуляторов
+   3. calculator888.ru — Калькулятор онлайн - лучший и бесплатно | Calculator888
+   4. www.youtube.com — Как сделать калькулятор услуг для любого сайта без ...
+   5. serpstat.com — Как создать калькулятор цены на сайте
+   6. elfsight.com — Как создать бесплатный калькулятор на сайте
+   PAA: Как добавить калькулятор на сайт?
+   PAA: Как сделать калькулятор на сайте HTML?
+   PAA: Какой есть простой онлайн-калькулятор?
+   PAA: Как открыть калькулятор?
+   PAA: Как установить калькулятор?
+   PAA: Как настроить калькулятор?
+
+## сайт с калькулятором  | AI: false
+   блоки: organic, images, related_searches
+   1. calculator888.ru — Калькулятор онлайн - лучший и бесплатно | Calculator888
+   2. x-calculator.ru — Калькулятор онлайн - СТАНДАРТНЫЙ
+   3. calcus.ru — Онлайн калькулятор — calcus.ru
+   4. ipipip.ru — Простой калькулятор онлайн: две памяти, ИИ
+   5. okcalc.com — Калькулятор онлайн
+   6. planetcalc.ru — Онлайн калькуляторы
+
+## пример сайта эксперта  | AI: true
+   блоки: ai_overview, organic, related_searches
+   1. megagroup.ru — Шаблоны сайтов для специалистов и услуг: как выбрать ...
+   2. ru.pinterest.com — Сайт Эксперта Дизайн
+   3. vc.ru — Как сделать личный сайт эксперта: мой опыт успеха и ...
+   4. tilda.cc — Создать сайт специалиста на шаблоне от Tilda Publishing
+   5. www.reg.ru — Каким должен быть сайт-визитка для эксперта
+   6. blog.maed.ru — Как создать экспертный сайт: пошаговая инструкция
+
+## портфолио веб разработчика  | AI: true
+   блоки: organic, ai_overview, related_searches
+   1. www.reddit.com — Ищу примеры портфолио веб-разработчиков
+   2. www.behance.net — Web Developer Portfolio Projects
+   3. skillbox.ru — Портфолио разработчика: каким должно быть и что в ...
+   4. highload.tech — 10 примеров портфолио для разработчиков
+   5. nicepage.com — Портфолио веб-разработчика HTML шаблоны
+   6. ru.pinterest.com — Сайт Портфолио Программиста
+
+## sanity cms  | AI: true refs: www.sanity.io, jamstack.org, dev.to
+   блоки: organic, ai_overview, people_also_ask, video, related_searches
+   1. www.sanity.io — Sanity: The Content Operating System for the AI era
+   2. pagepro.co — What is Sanity CMS: A 2026 Guide
+   3. www.reddit.com — What are your thoughts on Sanity IO? : r/reactjs
+   4. jamstack.org — Sanity
+   5. github.com — Sanity Studio – Rapidly configure content workspaces ...
+   6. www.represent.no — Sanity CMS Overview - Content Management at Represent
+   PAA: What is a sanity CMS?
+   PAA: Is sanity cms better than WordPress?
+   PAA: Is sanity CMS free?
+   PAA: Is Sanity a good CMS?
+   PAA: How much does Sanity cost?
+   PAA: Is Sanity a CDN?
+
+## как попасть в ответы chatgpt  | AI: true
+   блоки: ai_overview, organic, people_also_ask, related_searches
+   1. habr.com — Как попасть в ответы нейросетей: ChatGPT, Google AI, ...
+   2. ipos.digital — Как попасть в ответы ChatGPT: полное руководство по ...
+   3. smmbot.net — как попасть в ответы ChatGPT и других ИИ-моделей?
+   4. secrets.tbank.ru — Как вашему бизнесу попасть в ответы ChatGPT?
+   5. www.sostav.ru — Как попасть в ответы ChatGPT: что должен сделать бренд
+   6. workspace.ru — Как попасть в ответы ChatGPT и Perplexity - Workspace.ru
+   PAA: Как попасть в выдачу ChatGPT?
+   PAA: Как получить ответ от ИИ?
+   PAA: Как попасть в чат Джипити?
+   PAA: Как попасть в выдачу Ии?
+   PAA: Какой ИИ самый лучший и бесплатный?
+   PAA: Можно ли с помощью ИИ заработать деньги?

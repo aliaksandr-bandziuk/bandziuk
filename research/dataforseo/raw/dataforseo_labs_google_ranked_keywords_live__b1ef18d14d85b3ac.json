@@ -1,0 +1,48 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1886 sec.",
+ "cost": 0.012,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09181718-2505-0381-0000-31b14260d39d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.1751 sec.",
+   "cost": 0.012,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "ranked_keywords",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "ranked_keywords",
+    "se_type": "google",
+    "target": "bandziuk.com",
+    "location_code": 2616,
+    "language_code": "pl",
+    "limit": 1000
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "target": "bandziuk.com",
+     "location_code": 2616,
+     "language_code": "pl",
+     "total_count": null,
+     "items_count": 0,
+     "metrics": null,
+     "metrics_absolute": null,
+     "items": null
+    }
+   ]
+  }
+ ]
+}

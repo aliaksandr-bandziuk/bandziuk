@@ -1,0 +1,1870 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0866 sec.",
+ "cost": 0.0138,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09181715-2505-0399-0000-f81bfd4a28cc",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0571 sec.",
+   "cost": 0.0138,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "website for consultants",
+    "location_code": 2826,
+    "language_code": "en",
+    "limit": 100,
+    "include_seed_keyword": true
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "website for consultants",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "website for consultants",
+      "location_code": 2826,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-09-14 11:55:01 +00:00",
+       "competition": 0.66,
+       "competition_level": "MEDIUM",
+       "cpc": 5.23,
+       "search_volume": 110,
+       "low_top_of_page_bid": 1.73,
+       "high_top_of_page_bid": 6.07,
+       "categories": [
+        10007,
+        11493,
+        13418
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 8,
+         "search_volume": 50
+        },
+        {
+         "year": 2026,
+         "month": 7,
+         "search_volume": 70
+        },
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 70
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 90
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 90
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 110
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 70
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 110
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 110
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 90
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 110
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 260
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": -29,
+        "quarterly": -29,
+        "yearly": -29
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": "consultant website",
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 34,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 3
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=website%20for%20consultants&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+       "serp_item_types": [
+        "organic",
+        "ai_overview",
+        "video",
+        "related_searches",
+        "images"
+       ],
+       "se_results_count": 222000000,
+       "last_updated_time": "2026-03-09 01:52:23 +00:00",
+       "previous_updated_time": "2026-01-27 08:03:39 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "commercial",
+       "foreign_intent": [
+        "informational"
+       ],
+       "last_updated_time": "2026-04-30 06:14:43 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 23165.1,
+       "dofollow": 17724.8,
+       "referring_pages": 18968.5,
+       "referring_domains": 2764.5,
+       "referring_main_domains": 2499.2,
+       "rank": 204.5,
+       "main_domain_rank": 431.5,
+       "last_updated_time": "2026-03-09 01:52:24 +00:00"
+      }
+     },
+     "location_code": 2826,
+     "language_code": "en",
+     "total_count": 15,
+     "items_count": 15,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxNSwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6IndlYnNpdGUgZm9yIGNvbnN1bHRhbnRzIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6MjgyNiwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjEwMCwib2Zmc2V0IjowLCJhaWQiOjI1MDUyMywidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDkxODE3MTUtMjUwNS0wMzk5LTAwMDAtZjgxYmZkNGEyOGNjIiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiJlY2MwYjk0YS1lNWI0LTRhM2MtODViNy1iYTYwM2JiZmIxNDYiLCJTZWFyY2hBZnRlckRhdGEiOlstOTIyMzM3MjAzNjg1NDc3NTgwOCwiNDRlOTYyZTEtYWU3MC1lZDIzLTA3NzYtNDcxNmU1NTQxYmM1Il0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "website for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 11:55:01 +00:00",
+        "competition": 0.66,
+        "competition_level": "MEDIUM",
+        "cpc": 5.23,
+        "search_volume": 110,
+        "low_top_of_page_bid": 1.73,
+        "high_top_of_page_bid": 6.07,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -29,
+         "quarterly": -29,
+         "yearly": -29
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "consultant website",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 34,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 23165.1,
+        "dofollow": 17724.8,
+        "referring_pages": 18968.5,
+        "referring_domains": 2764.5,
+        "referring_main_domains": 2499.2,
+        "rank": 204.5,
+        "main_domain_rank": 431.5,
+        "last_updated_time": "2026-03-09 01:52:24 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-30 06:14:43 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "website templates for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 23:06:53 +00:00",
+        "competition": 0.9,
+        "competition_level": "HIGH",
+        "cpc": 4.48,
+        "search_volume": 30,
+        "low_top_of_page_bid": 1.43,
+        "high_top_of_page_bid": 4.77,
+        "categories": [
+         10007,
+         10019,
+         10168,
+         10885,
+         11493,
+         12204,
+         13404,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -67,
+         "quarterly": -67,
+         "yearly": -80
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "consultation website templates",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 3,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 98.5,
+        "dofollow": 88.5,
+        "referring_pages": 91,
+        "referring_domains": 4.5,
+        "referring_main_domains": 2.3,
+        "rank": 55.1,
+        "main_domain_rank": 629.3,
+        "last_updated_time": "2026-04-20 10:45:48 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-30 02:45:49 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "best website for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 12:30:41 +00:00",
+        "competition": 0.74,
+        "competition_level": "HIGH",
+        "cpc": 5.89,
+        "search_volume": 30,
+        "low_top_of_page_bid": 1.88,
+        "high_top_of_page_bid": 7.48,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -25
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "best websites consulting",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 14,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 90.2,
+        "dofollow": 38,
+        "referring_pages": 79.2,
+        "referring_domains": 19.3,
+        "referring_main_domains": 34.6,
+        "rank": 57.1,
+        "main_domain_rank": 409.6,
+        "last_updated_time": "2023-06-09 12:05:01 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 06:54:02 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "arbonne website for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 08:12:32 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10276,
+         11088,
+         12376
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "arbonne consultant websites",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 00:53:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "website builder for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 03:46:05 +00:00",
+        "competition": 0.86,
+        "competition_level": "HIGH",
+        "cpc": 6.12,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10007,
+         10273,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": null
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "website builder consultant",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 06:52:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "mary kay website for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 02:50:25 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10276,
+         11098
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 16:34:02 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "website for independent consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 20:38:23 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "independent consulting website",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-30 01:22:04 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "website design for business consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 13:37:49 +00:00",
+        "competition": 0.86,
+        "competition_level": "HIGH",
+        "cpc": 4.26,
+        "search_volume": 10,
+        "low_top_of_page_bid": 2,
+        "high_top_of_page_bid": 3.31,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:33:58 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "website design for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 18:05:32 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10004,
+         10007,
+         10273,
+         10273,
+         11068,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "consultation website design",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 17.6,
+        "dofollow": 9,
+        "referring_pages": 17,
+        "referring_domains": 7.2,
+        "referring_main_domains": 8.6,
+        "rank": 46,
+        "main_domain_rank": 567,
+        "last_updated_time": "2023-11-07 04:53:26 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 13:50:19 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "mary kay website for independent beauty consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 09:33:55 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10586
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -100,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 18:19:27 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "best website builder for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 16:18:58 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": 0,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 05:26:43 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "tupperware website for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 20:02:53 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 0,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "tupperware consultant website",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 23:02:52 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "best website templates for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 15:59:47 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 0,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         10019,
+         10168,
+         10885,
+         11493,
+         12204,
+         13404,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 00:11:49 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "lularoe website for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 02:42:53 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 0,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 15:31:41 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "best website builders for consultants",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-04 10:21:55 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "best website builder for consultants",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-04 10:25:25 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

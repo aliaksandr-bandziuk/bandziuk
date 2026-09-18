@@ -1,0 +1,900 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "3.8385 sec.",
+ "cost": 0.09,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09181717-2505-0367-0000-39006c0e9a02",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "3.7862 sec.",
+   "cost": 0.09,
+   "result_count": 25,
+   "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+   ],
+   "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "keywords": [
+     "strona dla konsultanta",
+     "strona internetowa dla konsultanta",
+     "strona dla doradcy",
+     "strona dla eksperta",
+     "strona internetowa dla eksperta",
+     "strona internetowa dla analityka",
+     "strona z kalkulatorem",
+     "kalkulator na stronie",
+     "przykładowa strona internetowa",
+     "strona internetowa przykłady",
+     "przykłady stron internetowych",
+     "strona wielojęzyczna przykład",
+     "strona next js",
+     "sanity cms",
+     "jak pojawić się w chatgpt",
+     "pozycjonowanie w chatgpt",
+     "pozycjonowanie w ai",
+     "case study strona internetowa",
+     "realizacja strony internetowej",
+     "portfolio stron internetowych",
+     "strona dla freelancera",
+     "strona dla coacha",
+     "strona internetowa dla doradcy biznesowego",
+     "strona internetowa dla konsultanta biznesowego",
+     "wielojęzyczna strona internetowa"
+    ],
+    "location_code": 2616,
+    "language_code": "pl"
+   },
+   "result": [
+    {
+     "keyword": "strona dla konsultanta",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla konsultanta",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla doradcy",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla eksperta",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla eksperta",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla analityka",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona z kalkulatorem",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "kalkulator na stronie",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "przykładowa strona internetowa",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 15,
+     "search_volume": 70,
+     "low_top_of_page_bid": 0.52,
+     "high_top_of_page_bid": 1.55,
+     "cpc": 0.97,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "strona internetowa przykłady",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 22,
+     "search_volume": 70,
+     "low_top_of_page_bid": 0.47,
+     "high_top_of_page_bid": 0.89,
+     "cpc": 1.38,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 70
+      }
+     ]
+    },
+    {
+     "keyword": "przykłady stron internetowych",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 33,
+     "search_volume": 90,
+     "low_top_of_page_bid": 0.49,
+     "high_top_of_page_bid": 1.23,
+     "cpc": 1.69,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 70
+      }
+     ]
+    },
+    {
+     "keyword": "strona wielojęzyczna przykład",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona next js",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "sanity cms",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 6,
+     "search_volume": 480,
+     "low_top_of_page_bid": 0.38,
+     "high_top_of_page_bid": 3.82,
+     "cpc": 3.59,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 320
+      }
+     ]
+    },
+    {
+     "keyword": "jak pojawić się w chatgpt",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "pozycjonowanie w chatgpt",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 66,
+     "search_volume": 210,
+     "low_top_of_page_bid": 4.05,
+     "high_top_of_page_bid": 9.08,
+     "cpc": 10.46,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 210
+      }
+     ]
+    },
+    {
+     "keyword": "pozycjonowanie w ai",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 75,
+     "search_volume": 260,
+     "low_top_of_page_bid": 4.28,
+     "high_top_of_page_bid": 13.08,
+     "cpc": 15.66,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 140
+      }
+     ]
+    },
+    {
+     "keyword": "case study strona internetowa",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "realizacja strony internetowej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "portfolio stron internetowych",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 46,
+     "search_volume": 50,
+     "low_top_of_page_bid": 0.75,
+     "high_top_of_page_bid": 1.78,
+     "cpc": 2.1,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 30
+      }
+     ]
+    },
+    {
+     "keyword": "strona dla freelancera",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla coacha",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla doradcy biznesowego",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla konsultanta biznesowego",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "wielojęzyczna strona internetowa",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    }
+   ]
+  }
+ ]
+}

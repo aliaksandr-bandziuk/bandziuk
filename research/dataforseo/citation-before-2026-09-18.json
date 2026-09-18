@@ -1,0 +1,4082 @@
+{
+ "label": "before-2026-09-18",
+ "generatedAt": "2026-09-18T18:44:03.278Z",
+ "spent": 0.002,
+ "rows": [
+  {
+   "lang": "en",
+   "q": "What should a consultant website include?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 18,
+    "sources": [
+     "brilliantauthor.com",
+     "madebykindred.com",
+     "squarespace.com",
+     "advertaimarketing.com",
+     "umbrex.com",
+     "freelancecake.com",
+     "diversekit.com",
+     "wpminds.com",
+     "weblium.com",
+     "mailchimp.com",
+     "consultingsuccess.com",
+     "jimdo.com",
+     "muffingroup.com",
+     "sliderrevolution.com",
+     "webflow.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "What are good examples of consultant websites?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "getfishtank.com",
+     "fadimalouf.com",
+     "10web.io",
+     "lifepurposeapp.com",
+     "zarla.com",
+     "ndconnection.co.uk",
+     "makingthatwebsite.com",
+     "businessengineer.ai"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "sitebuilderreport.com",
+     "freelancecake.com",
+     "zarla.com",
+     "wix.com",
+     "squarespace.com",
+     "vandelaydesign.com",
+     "colorlib.com",
+     "cyberoptik.net",
+     "blog.hubspot.com",
+     "weblium.com",
+     "wpminds.com",
+     "elementor.com",
+     "assembly.com",
+     "mycodelesswebsite.com",
+     "founderjar.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How do I design a website for a consulting business?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "dribbble.com",
+     "thomasdigital.com",
+     "wpastra.com",
+     "framer.com",
+     "squarespace.com",
+     "sitebuilderreport.com",
+     "colorlib.com",
+     "yola.com",
+     "webflow.com",
+     "knapsackcreative.com",
+     "weblium.com",
+     "wpminds.com",
+     "wix.com",
+     "bopdesign.com",
+     "jimdo.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "What makes a consulting website turn visitors into enquiries?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "schmidtconsulting.group",
+     "leadhaste.com",
+     "consultingsuccess.com",
+     "consultantsexperts.com",
+     "hostadvice.com",
+     "dizzito.com",
+     "diversekit.com",
+     "vrid.ai",
+     "syspree.com",
+     "threedaylaunch.com",
+     "tsavoneal.com",
+     "landy-ai.com",
+     "linkedin.com",
+     "clicksgeek.com",
+     "loonis.co"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Should a consultant's website offer free tools like calculators?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "hourcap.com",
+     "awezzom.com",
+     "incommand.ai",
+     "myconsultbase.com",
+     "getharvest.com",
+     "slickmedia.io",
+     "calcapp.net",
+     "consultingsuccess.com",
+     "sevenedge.pl",
+     "reputigo.com",
+     "freelancepricing.com",
+     "merthopia.com",
+     "planmysaas.com",
+     "staging.oakbusinessconsultant.com",
+     "moydus.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How do you build a website for a retail analytics consultant?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "grigora.co",
+     "vidi-corp.com",
+     "retailsolutions.io",
+     "dedicatted.com",
+     "nextdigitalagency.com",
+     "archer-its.com",
+     "clarkstonconsulting.com",
+     "instantsite.app",
+     "p3adaptive.com",
+     "cleartelligence.com",
+     "digital-scientists.co.uk",
+     "justrelate.com",
+     "pearllemonai.com",
+     "diversekit.com",
+     "umbrex.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How can an expert website prove expertise in the first few seconds?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "linkedin.com",
+     "moxieinstitute.com",
+     "pmc.ncbi.nlm.nih.gov",
+     "confidenceplaybook.org",
+     "useviralize.com",
+     "freelancermap.com",
+     "journalofexpertise.org",
+     "theses.hal.science",
+     "sciencepetal.substack.com",
+     "twinlabs.co.za",
+     "quikbooksummary.com",
+     "bura.brunel.ac.uk",
+     "psychologicalscience.org",
+     "thinkinsights.net",
+     "neuroscienceofexpertise.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How can a consultant website get cited in Google AI Overviews?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 29,
+    "sources": [
+     "airops.com",
+     "omnibound.ai",
+     "stridec.com",
+     "thehoth.com",
+     "seobility.net",
+     "contently.com",
+     "globenewswire.com",
+     "vanitech.com.au",
+     "backlinko.com",
+     "linkedin.com",
+     "onely.com",
+     "discoveredlabs.com",
+     "developers.google.com",
+     "dreamhost.com",
+     "searchengineland.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How do I make my website content easy for ChatGPT to quote?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 17,
+    "sources": [
+     "thehoopstudio.com",
+     "managed-code.com",
+     "citelark.com",
+     "webinvolved.com",
+     "quicksprout.com",
+     "medium.com",
+     "citedly.co",
+     "searchengineland.com",
+     "hostpapa.com",
+     "blog.hubspot.com",
+     "babypenguin.ai",
+     "jakobnielsenphd.substack.com",
+     "ai-marketinglabs.com",
+     "naypache-studio.com",
+     "mo.agency"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Do AI chatbots read FAQ answers that are collapsed on the page?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "medium.com",
+     "conferbot.com",
+     "yourgpt.ai",
+     "happysupport.ai",
+     "currai.app",
+     "aleeup.com",
+     "zipchat.ai",
+     "vivollo.com",
+     "sitegpt.ai",
+     "00f.net",
+     "livehelpnow.net",
+     "instantpress.co",
+     "eesel.ai",
+     "chatty.net",
+     "featurebase.app"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Do ChatGPT and Perplexity run JavaScript when they read a website?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 13,
+    "sources": [
+     "seobro.com",
+     "seo.ai",
+     "spruik.co",
+     "texta.ai",
+     "linkedin.com",
+     "amicited.com",
+     "ranqo.ai",
+     "visively.com",
+     "gsqi.com",
+     "innflows.com",
+     "sorank.com",
+     "capconvert.com",
+     "radiantelephant.com"
+    ]
+   },
+   "google": {
+    "answered": false,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Should formulas and tables on a website be text rather than images?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "seamk.libguides.com",
+     "vamk.libguides.com",
+     "tei-c.org",
+     "analysisfunction.civilservice.gov.uk",
+     "owl.purdue.edu",
+     "jats4r.niso.org",
+     "aims.edu",
+     "w3.org",
+     "developers.google.com",
+     "stylemanual.gov.au",
+     "boia.org",
+     "queensu.ca",
+     "imgtotable.com",
+     "bobmcd.com",
+     "tib-op.org"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Which crawlers should a website allow for AI search, and which can it block?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 29,
+    "sources": [
+     "searchscore.io",
+     "qwairy.co",
+     "genrank.io",
+     "chromewebstore.google.com",
+     "searchengineland.com",
+     "businesswire.com",
+     "ai-visibility.org.uk",
+     "sunilpratapsingh.com",
+     "itbrief.com.au",
+     "seoptimer.com",
+     "copylume.com",
+     "digitaltoday.co.kr",
+     "llmpulse.ai",
+     "mrs.digital",
+     "fastly.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How should structured data describe a consultant and their qualifications?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 17,
+    "sources": [
+     "remotejobs.org",
+     "developers.google.com",
+     "remotive.com",
+     "structureddata.co.uk",
+     "jp.trabajo.org",
+     "sprintcv.com",
+     "linkedin.com",
+     "mcpmarket.com",
+     "jobgether.com",
+     "jobs.smartrecruiters.com",
+     "jcainc.com",
+     "zippia.com",
+     "mintresume.com",
+     "velvetjobs.com",
+     "wahresume.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Is it better to translate a website or write each language separately?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 18,
+    "sources": [
+     "vamudo.com",
+     "weglot.com",
+     "ten4design.co.uk",
+     "developers.google.com",
+     "stepes.com",
+     "collaborada.com",
+     "hexdocs.pm",
+     "xicweb.de",
+     "better-i18n.com",
+     "lrswebsolutions.com",
+     "localizely.com",
+     "globallink.transperfect.com",
+     "hosted.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How do I structure a website for the UK, Poland and Russian-speaking readers?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 17,
+    "sources": [
+     "buildbyalex.com",
+     "seohead.tech",
+     "seoguru.ai",
+     "woorank.com",
+     "seohandbook.co.uk",
+     "contentful.com",
+     "searchengineland.com",
+     "siteguru.co",
+     "developers.google.com",
+     "ten4design.co.uk",
+     "seoclarity.net",
+     "digidop.com",
+     "altagency.co.uk",
+     "businesswest.co.uk",
+     "aumcore.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Is Next.js with Sanity a good stack for a consultant website?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "sanity.io",
+     "pandacodegen.com",
+     "linkedin.com",
+     "nrtechstudio.com",
+     "nayankyada.com",
+     "reddit.com",
+     "dev.to",
+     "luckymedia.dev",
+     "focusreactive.com",
+     "dylanyoung.dev"
+    ]
+   },
+   "google": {
+    "answered": false,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "What are examples of websites built with Sanity CMS?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 5,
+    "sources": [
+     "ladybird.org",
+     "avmedianow.com",
+     "zigzag.global",
+     "gigazine.net",
+     "envzone.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "sanity.io",
+     "datafragment.com",
+     "somar.co.nz",
+     "tailwindresources.com",
+     "wappalyzer.com",
+     "shadcnblocks.com",
+     "jamstack.org",
+     "technologychecker.io",
+     "ful.io",
+     "comcreate.io",
+     "github.com",
+     "builtwith.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How do you build a website that still works if the CMS goes down?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 18,
+    "sources": [
+     "playcode.io",
+     "static.app",
+     "wasmer.io",
+     "themeisle.com",
+     "appwrite.io",
+     "uideck.com",
+     "websiteplanet.com",
+     "tiiny.host",
+     "dev.to",
+     "bonto.dev",
+     "nocodeexport.com",
+     "medium.com",
+     "bootstrap.build",
+     "hostmora.com",
+     "geekflare.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Should calculators be separate pages or widgets inside articles for SEO?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "reddit.com",
+     "github.com",
+     "wprenderblocks.com",
+     "nngroup.com",
+     "fintactix.com",
+     "apwebsolutions.com.au",
+     "dev.to",
+     "answers.chimney.io",
+     "calclet.com",
+     "blog.powr.io",
+     "wpcaloriecalculator.com",
+     "chimney.io",
+     "pooniya.com",
+     "amicited.com",
+     "ralfvanveen.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How do you protect a contact form from spam without a captcha?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 18,
+    "sources": [
+     "splitforms.com",
+     "stackoverflow.com",
+     "inspectwp.com",
+     "sendlayer.com",
+     "stytch.com",
+     "webtechs.net",
+     "tw.wordpress.org",
+     "blog.cleantalk.org",
+     "formhook.app",
+     "formester.com",
+     "akismet.com",
+     "stonegatewebsecurity.com",
+     "malcare.com",
+     "staticforms.dev",
+     "reform.app"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How do you make charts on a website visible without JavaScript?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "dev.to",
+     "sliderrevolution.com",
+     "medium.com",
+     "claudiorimann.com",
+     "groups.google.com",
+     "softwarerecs.stackexchange.com",
+     "roboleary.net",
+     "smashingmagazine.com",
+     "anychart.com",
+     "lists.w3.org",
+     "adagger.com",
+     "chartjs.org",
+     "sitepoint.com",
+     "javascriptkicks.com",
+     "ranaldo.co.uk"
+    ]
+   },
+   "google": {
+    "answered": false,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "What does a good web design case study include?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "webflow.com",
+     "wix.com",
+     "ibiblio.org",
+     "siteswan.com",
+     "shopify.com",
+     "madebyevoke.com",
+     "dribbble.com",
+     "qodeinteractive.com",
+     "sitepoint.com",
+     "aamax.co",
+     "designmodo.com",
+     "ixdf.org",
+     "articulatemarketing.com",
+     "vev.design",
+     "linkedin.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Who designs websites for consultants in Poland?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "clutch.co",
+     "upwork.com",
+     "webflow.com",
+     "onelittleweb.com",
+     "sortlist.com",
+     "brokermedia.pl",
+     "digitalfactory.pl",
+     "roudstudio.com",
+     "goodfirms.co",
+     "themanifest.com",
+     "ggsolutions.pl",
+     "epicagency.pl",
+     "linkedin.com",
+     "designrush.com",
+     "10clouds.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Who can build a multilingual website optimised for AI search in Europe?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 7,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "digitalstrategyforce.com",
+     "weglot.com",
+     "clone.eldris.ai",
+     "maxdesign.rs",
+     "developers.google.com",
+     "globalizationpartners.com",
+     "seocircular.com",
+     "multilingualseo.agency",
+     "simonweb.eu",
+     "thatware.co",
+     "thestacc.com",
+     "maximuslabs.ai",
+     "blog.applabx.com",
+     "strapi.io",
+     "llmrefs.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Which freelance developers build Next.js and Sanity websites for consultants?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "jamesrea.co",
+     "upwork.com",
+     "sanity.io",
+     "nayankyada.com",
+     "linkedin.com",
+     "toptal.com",
+     "freelancer.com"
+    ]
+   },
+   "google": {
+    "answered": false,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Co powinna zawierać strona internetowa eksperta?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "arturkosinski.pl",
+     "hauerpower.com",
+     "agencjaecho.pl",
+     "polskabezgotowkowa.pl",
+     "poradnikiprawne.pl",
+     "poradnikprzedsiebiorcy.pl",
+     "zaprojektowani.com",
+     "ideanow.pl",
+     "gorillaweb.pl",
+     "kpoblockawebstudio.com",
+     "artnova.com.pl",
+     "uniquedevs.com",
+     "wenet.pl",
+     "cyberfolks.pl",
+     "brief.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak zaprojektować stronę dla eksperta lub konsultanta biznesowego?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "martawojewnik.pl",
+     "weblymate.com",
+     "marcetino.pl",
+     "canva.com",
+     "speedyweb.pl",
+     "ansite.pl",
+     "cyberfolks.pl",
+     "webwavecms.com",
+     "pl.wix.com",
+     "adwise.pl",
+     "kamilglapinski.pl",
+     "edios.pl",
+     "kodopol.eu",
+     "prowebdev.eu",
+     "expertisepolska.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jakie są dobre przykłady stron internetowych ekspertów?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 39,
+    "sources": [
+     "sprawdzonyekspert.pl",
+     "kwestiabezpieczenstwa.pl",
+     "owocni.pl",
+     "trustado.com",
+     "rw7.pl",
+     "forsal.pl",
+     "zdrowie.pap.pl",
+     "kursar.pl",
+     "interprima.pl",
+     "kreacjamarki.pl",
+     "premiumdigital.pl",
+     "lifegeek.pl",
+     "mamaija.info.pl",
+     "politykabezpieczenstwa.pl",
+     "flyweb.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Czy warto dodać kalkulator na stronę internetową?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "digitalpromotion.eu",
+     "it-manuals.info",
+     "wpbeginner.com",
+     "atwi.pl",
+     "kpoblockawebstudio.com",
+     "webtom.pl",
+     "aurabiot.com",
+     "acwp.pl",
+     "thenewlook.pl",
+     "elfsight.com",
+     "ucalc.pro",
+     "convertcalculator.com",
+     "involve.me",
+     "pl.blogpascher.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak dodać kalkulator na stronę, żeby pomagał w SEO?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "blumo.pl",
+     "seoestimator.com",
+     "cczgr.com",
+     "patrickstox.com",
+     "novaverb.com",
+     "seojuice.com",
+     "ranknibbler.com",
+     "ettvi.com",
+     "frase.io",
+     "piotrpawlos.pl",
+     "seosklep24.pl",
+     "searchengineland.com",
+     "semstorm.com",
+     "senuto.com",
+     "seobility.net"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Czy kalkulatory powinny mieć osobne podstrony?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "reddit.com",
+     "digitay.pl",
+     "marketingonline.pl",
+     "toniemarketing.pl",
+     "icomseo.pl",
+     "jaaqob.pl",
+     "seomasterclass.pl",
+     "qa10.io",
+     "qualix.pl",
+     "portalmarketingowy.pl",
+     "soluma.pl",
+     "netzure.pl",
+     "woobox.pl",
+     "grupatense.pl",
+     "dhosting.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak sprawić, żeby strona była cytowana w odpowiedziach AI?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "wlasna-firma.pl",
+     "senuto.com",
+     "pushpushgo.com",
+     "vistrixlabs.agency",
+     "cyberfolks.pl",
+     "seoptimer.com",
+     "biegun.studio",
+     "launchmind.io",
+     "ranktracker.com",
+     "wiszniewsky.pl",
+     "sembilitypodcast.com",
+     "clicklaboratory.com",
+     "widoczni.com",
+     "w2b.agency",
+     "thenewlook.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak przygotować treści pod Google AI Overviews?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "sprawnymarketing.pl",
+     "ibif.pl",
+     "kreacjamarki.pl",
+     "wenet.pl",
+     "medializer.pl",
+     "jellinek.pl",
+     "senuto.com",
+     "launchmind.io",
+     "pragmago.pl",
+     "nprofit.net",
+     "chatbenchmark.com",
+     "sedestral.com",
+     "techoteka.pl",
+     "gracker.ai",
+     "aeoflow.io"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Czy ChatGPT widzi treść schowaną w rozwijanych sekcjach FAQ?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 33,
+    "sources": [
+     "feb.net.pl",
+     "rejestracjadomen.pl",
+     "help.openai.com",
+     "openai.com",
+     "promptowy.com",
+     "cometapi.com",
+     "semly.ai",
+     "funkymedia.pl",
+     "smartbuzz.pl",
+     "adplus.pl",
+     "discoverge.pl",
+     "filipnocny.pl",
+     "performanceliebe.de",
+     "smartwww.pl",
+     "android.com.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Czy boty AI wykonują JavaScript na stronie?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "ekspertodsztucznejinteligencji.pl",
+     "wiszniewsky.pl",
+     "jakubsawa.pl",
+     "roiandshine.com",
+     "walachowski.pl",
+     "vistrixlabs.agency",
+     "seotools.davidbreder.com",
+     "amicited.com",
+     "vercel.com",
+     "wppoland.com",
+     "aiseo-optimalizace.cz",
+     "rankry.ai",
+     "averi.ai",
+     "app.diagnoseo.com",
+     "dimaq.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jakie dane strukturalne dodać na stronie eksperta?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "funkymedia.pl",
+     "efectownia.pl",
+     "ibif.pl",
+     "kompan.pl",
+     "wenet.pl",
+     "michaldanieluk.pl",
+     "seogroup.pl",
+     "brandnewbrand.pl",
+     "webwavecms.com",
+     "webmetric.com",
+     "keo.com.pl",
+     "icomseo.pl",
+     "ideoforce.pl",
+     "widoczni.com",
+     "salesrobots.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Czy stronę wielojęzyczną lepiej tłumaczyć, czy pisać osobno dla każdego rynku?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "weglot.com",
+     "developers.google.com",
+     "scribd.com",
+     "linguise.com",
+     "ksj.konin.edu.pl",
+     "wuw.pl",
+     "pl.smartcat.com",
+     "seoptimer.com",
+     "wenet.pl",
+     "ranktracker.com",
+     "empressia.pl",
+     "pixpa.com",
+     "hostragons.com",
+     "ecommercefastlane.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak zbudować adresy URL w polskiej wersji strony bez polskich znaków?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "acwp.pl",
+     "onet.pl",
+     "verseo.pl",
+     "1stplace.pl",
+     "sp-odra.opole.pl",
+     "delante.pl",
+     "bluerank.com",
+     "devagroup.pl",
+     "seohost.pl",
+     "seo-profi.pl",
+     "seocrawl.ai",
+     "webp.pl",
+     "mobirank.pl",
+     "feb.net.pl",
+     "landingi.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Czy Sanity CMS to dobry wybór dla strony firmowej?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "strivelab.pl",
+     "marcinsiwonia.pl",
+     "adamweb.pl",
+     "two-colours.com",
+     "busyless.space",
+     "noevu.ch",
+     "semurai.pl",
+     "zaplostudio.com",
+     "sanity.io",
+     "appcrates.pl",
+     "gmweb.pl",
+     "webstacks.com",
+     "multidots.com",
+     "robotostudio.com",
+     "dev.to"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Next.js czy WordPress dla strony eksperta?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "damianweglarz.pl",
+     "axperts.pl",
+     "sgweb.pl",
+     "falconworks.pl",
+     "webyjuice.pl",
+     "soft-synergy.com",
+     "proscinski.com",
+     "essateam.pl",
+     "paskomichal.pl",
+     "appfly.pl",
+     "dchouse.pl",
+     "adamweb.pl",
+     "brandrums.com",
+     "code-site.art",
+     "codingart.io"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Co zrobić, żeby strona działała, gdy panel CMS jest niedostępny?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "webiso.pl",
+     "icomseo.pl",
+     "seohost.pl",
+     "divloy.pl",
+     "wp-opieka.pl",
+     "agencjaecho.pl",
+     "basap.pl",
+     "jaroslaw-wrobel.pl",
+     "wpbeginner.com",
+     "semcore.pl",
+     "ilabs.dev",
+     "cal.pl",
+     "netin.pro",
+     "infozasoby.pl",
+     "qlos.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak zabezpieczyć formularz kontaktowy przed spamem bez captchy?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "wprbs.com",
+     "hitme.pl",
+     "dhosting.pl",
+     "stackoverflow.com",
+     "cyberfolks.pl",
+     "koder.ai",
+     "wpbeginner.com",
+     "nanopo.st",
+     "sendlayer.com",
+     "webtechs.net",
+     "autodudes.de",
+     "formester.com",
+     "formhook.app",
+     "leesugano.com",
+     "wpcerber.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak pokazać kompetencje eksperta na stronie w kilka sekund?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "jaceklipski.com.pl",
+     "uczeszmniemamo.pl",
+     "ministerstworeklamy.pl",
+     "techoteka.pl",
+     "jakzalozycbloga.com.pl",
+     "gadu-sklep.pl",
+     "marketerplus.pl",
+     "aboutmarketing.pl",
+     "westom.pl",
+     "akademia-internetu.pl",
+     "pb.pl",
+     "semcore.pl",
+     "funkymedia.pl",
+     "widoczni.com",
+     "itmajlo.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Czy strona eksperta powinna mieć szablony Excel do pobrania?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "plikidopracy.pl",
+     "excel.cloud.microsoft",
+     "excel-praktyczny.com",
+     "adminwzor.com",
+     "pl.wps.com",
+     "pl-excel.com",
+     "vertex42.com",
+     "shortcut.ai",
+     "electe.net",
+     "excel-szablony.pl",
+     "excelfirma.com",
+     "zarzadzanie-wzor.com",
+     "clickup.com",
+     "pl.pikbest.com",
+     "chandoo.org"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak wysłać plik do pobrania po zapisie z formularza?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "kobietydokodu.pl",
+     "forum.pasja-informatyki.pl",
+     "pomoc.salesmanago.pl",
+     "sardynkibiznesu.pl",
+     "download.net.pl",
+     "lektorski.pl",
+     "bitedu.pl",
+     "wnioski.rpu.knf.gov.pl",
+     "transfernow.net",
+     "programowanie.celary.net",
+     "plikomat.pl",
+     "php.net",
+     "creamsoft.com",
+     "microfocus.com",
+     "shebang.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak powinno wyglądać case study strony internetowej?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "ideative.pl",
+     "webiso.pl",
+     "adwise.pl",
+     "mitgroup.pl",
+     "thestory.is",
+     "webintegro.pl",
+     "wearerethink.pl",
+     "webflow.com",
+     "veneo.pl",
+     "wenet.pl",
+     "delante.pl",
+     "empressia.pl",
+     "digispot.pl",
+     "grupatense.pl",
+     "concept21.agency"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Kto robi strony internetowe dla ekspertów w Polsce?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "panoramafirm.pl",
+     "oferteo.pl",
+     "webmania.pl",
+     "fixly.pl",
+     "piotrpawlos.pl",
+     "range.pl",
+     "t4m.pl",
+     "mindandmatter.pl",
+     "agencies.semrush.com",
+     "empressia.pl",
+     "opensolution.org",
+     "vertesdesign.pl",
+     "it-poland.pl",
+     "epicagency.pl",
+     "proformat.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Kto zrobi wielojęzyczną stronę przygotowaną pod wyszukiwarki AI?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "weglot.com",
+     "launchmind.io",
+     "seogroup.pl",
+     "stgambit.com",
+     "two-colours.com",
+     "amicited.com",
+     "gptranslate.storejextensions.org",
+     "cityhost.ua",
+     "webtor.ai",
+     "webwavecms.com",
+     "getgenie.ai",
+     "translated.com",
+     "empressia.pl",
+     "widoczni.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jaki freelancer robi strony na Next.js i Sanity w Warszawie?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 6,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "linkedin.com",
+     "jamesrea.co",
+     "justjoin.it",
+     "sanity.io",
+     "wppoland.com",
+     "freelancermap.com",
+     "upwork.com",
+     "siteq.pl",
+     "useme.com",
+     "sedenko.net",
+     "freelancer.com",
+     "clutch.co"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Что должно быть на сайте эксперта?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 18,
+    "sources": [
+     "project-team24.com",
+     "scrile.ru",
+     "vc.ru",
+     "tenchat.ru",
+     "postium.ru",
+     "b17.ru",
+     "takprosto.ai",
+     "rush-analytics.ru",
+     "kokoc.com",
+     "workspace.ru",
+     "reg.ru",
+     "blog.maed.ru",
+     "perspektiva.agency",
+     "tproger.ru",
+     "beseller.by"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как сделать личный сайт эксперта, который приводит клиентов?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "unisender.com",
+     "estetic-web-design.com.ua",
+     "digitalexperts.tv",
+     "postium.ru",
+     "blog.maed.ru",
+     "vc.ru",
+     "ou3.org.ru",
+     "tenchat.ru",
+     "seohead.pro",
+     "zenclass.ru",
+     "lpmotor.ru",
+     "mosgu.pro",
+     "blog.whiteedtech.ru",
+     "netology.ru",
+     "uprav.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Какие есть примеры хороших сайтов экспертов?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 33,
+    "sources": [
+     "markakachestva.ru",
+     "skillbox.ru",
+     "rating-experts.ru",
+     "reviews.ink",
+     "irecommend.ru",
+     "profi.ru",
+     "ya.ru",
+     "bestspeakers.ru",
+     "101poisk.ru",
+     "goodbuild.pro",
+     "vc.ru",
+     "hightime.media",
+     "otzovik.com",
+     "sports.ru",
+     "scrile.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Зачем эксперту на сайте калькуляторы?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 42,
+    "sources": [
+     "stepform.io",
+     "saby.ru",
+     "netology.ru",
+     "webstudio2u.net",
+     "omegait.ru",
+     "maryproject.ru",
+     "blog.ucoz.ru",
+     "seohead.pro",
+     "paladin-engineering.ru",
+     "lz.media",
+     "kompot.bz",
+     "ya.ru",
+     "avbessonov.ru",
+     "metawebart.com",
+     "webolution.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как добавить калькулятор на сайт так, чтобы он работал на SEO?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "mamontov.top",
+     "microestimates.com",
+     "smirnov.marketing",
+     "pixelplus.ru",
+     "lz.media",
+     "a25.ru",
+     "site-direct-seo.ru",
+     "key-client.ru",
+     "blog.ucoz.ru",
+     "seogift.ru",
+     "team-b.ru",
+     "netology.ru",
+     "completo.ru",
+     "pawetta.com",
+     "tenchat.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Калькулятор лучше делать отдельной страницей или виджетом в статье?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 40,
+    "sources": [
+     "searchengines.guru",
+     "calculate.studio",
+     "pawetta.com",
+     "smink.ru",
+     "pr-cy.ru",
+     "qna.habr.com",
+     "blog.ucoz.ru",
+     "lpmotor.ru",
+     "uguide.ru",
+     "companies.rbc.ru",
+     "zvonobot.ru",
+     "envybox.io",
+     "konstruktorysajtov.com",
+     "vyatka-it.ru",
+     "digital.spb.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как сделать, чтобы сайт цитировали в ответах ИИ?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "ideadigital.agency",
+     "vc.ru",
+     "tvgram.ru",
+     "seo.viento.ru",
+     "seonews.ru",
+     "e-xecutive.ru",
+     "hated.ru",
+     "sostav.ru",
+     "hostiq.ua",
+     "enterno.io",
+     "m.seonews.ru",
+     "lred.ru",
+     "falconspace.ru",
+     "workspace.ru",
+     "secrets.tbank.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Видят ли ChatGPT и Perplexity ответы в свёрнутых блоках FAQ?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 33,
+    "sources": [
+     "habr.com",
+     "vc.ru",
+     "it-agency.ru",
+     "help.openai.com",
+     "setka.ru",
+     "pickles.team",
+     "openai.com",
+     "getmentio.io",
+     "theivansergeev.com",
+     "sergeisivkov.ru",
+     "companies.rbc.ru",
+     "hitz.agency",
+     "visiobrand.io",
+     "forklog.com",
+     "rb.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Выполняют ли ИИ-боты JavaScript на сайте?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "clickrank.ai",
+     "enterno.io",
+     "sk-seo.ru",
+     "rainz.ai",
+     "hitz.agency",
+     "seotika.ru",
+     "getpassionfruit.com",
+     "geoscout.pro",
+     "qna.habr.com",
+     "rush-agency.ru",
+     "spark.ru",
+     "habr.com",
+     "developers.google.com",
+     "oweb-solutions.ru",
+     "alejandrorioja.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Почему формулы и таблицы на сайте лучше давать текстом, а не картинкой?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "seomind.biz",
+     "ya.ru",
+     "ru.ruodiantong.com",
+     "twt.mpei.ac.ru",
+     "studfile.net",
+     "tobiz.net",
+     "novaya-shkola.com",
+     "slavshkola.ru",
+     "files.lbz.ru",
+     "practicum.yandex.ru",
+     "uplab.ru",
+     "lms.kgeu.ru",
+     "cossa.ru",
+     "habr.com",
+     "blog.skillfactory.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Каких роботов пускать на сайт ради ИИ-поиска, а каких можно закрыть?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "ovs-agency.ru",
+     "texterra.ru",
+     "private-seo.ru",
+     "plaan.ai",
+     "nepolyakov.ru",
+     "cetera.ru",
+     "yandex.cloud",
+     "developers.google.com",
+     "habr.com",
+     "lpmotor.ru",
+     "like-sites.ru",
+     "blog.arealidea.ru",
+     "cinar.ru",
+     "enterno.io",
+     "theivansergeev.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Какую микроразметку Schema.org ставить на сайт эксперта?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "kokoc.com",
+     "seotika.ru",
+     "ws512.ru",
+     "intelsib.ru",
+     "ingate.ru",
+     "seo-crawler.ru",
+     "habr.com",
+     "avigroup.pro",
+     "pr-cy.ru",
+     "m.seonews.ru",
+     "rookee.ru",
+     "1ps.ru",
+     "pressaff.com",
+     "mwi.me",
+     "seointellect.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как показать дипломы и сертификаты эксперта в микроразметке?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "seo-molodtsov.ru",
+     "altera-media.com",
+     "media-maxi.by",
+     "mintrud.gov.ru",
+     "iziweb.com.ua",
+     "nft-diploma.ru",
+     "tenchat.ru",
+     "specialist.ru",
+     "exprus.ru",
+     "mctrewards.ru",
+     "tgu-dpo.ru",
+     "anodpo.com",
+     "dpo.edu-sigma.ru",
+     "stadika.ru",
+     "media.future-hub.io"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Переводить сайт на другие языки или писать отдельно под каждый рынок?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "ru.gtranslate.io",
+     "support.google.com",
+     "ru.smartcat.com",
+     "free-website-translation.com",
+     "conveythis.com",
+     "browser.yandex.ru",
+     "ru.wordpress.org",
+     "mrtranslate.ru",
+     "translate.google.ru",
+     "translate.google.com",
+     "dreamhost.com",
+     "hostenko.com",
+     "nubex.ru",
+     "support.mozilla.org",
+     "webbulktranslator.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как делать адреса русских страниц: кириллицей или латиницей?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "translityandex.ru",
+     "sites.reviews",
+     "seo-crawler.ru",
+     "digitalgeeks.ru",
+     "neorank.ru",
+     "liderpoiska.ru",
+     "vladkas.com",
+     "advego.com",
+     "divitio.ru",
+     "transliteraciya-online.ru",
+     "seo-prodvizhenie-biznesa.ru",
+     "mayai.ru",
+     "raskruty.ru",
+     "votix.ru",
+     "dzdl.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Подходит ли связка Next.js и Sanity для сайта эксперта?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 17,
+    "sources": [
+     "sanity.io",
+     "hontran.dev",
+     "github.com",
+     "nweb42.com",
+     "vercel.com",
+     "nayankyada.com",
+     "noqta.tn",
+     "blog.logrocket.com",
+     "freecodecamp.org"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как сделать, чтобы сайт работал, если админка недоступна?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "fozzy.com",
+     "paulzotoff.ru",
+     "makerpress.ru",
+     "saitporyadke.ru",
+     "webmasters.ru",
+     "de-bor.ru",
+     "dev.1c-bitrix.ru",
+     "acrit-studio.ru",
+     "sites-creator.com.ua",
+     "internet-technologies.ru",
+     "sciencestory.ru",
+     "start-luck.ru",
+     "kalinkindev.ru",
+     "olegweb.ru",
+     "kodnado.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как защитить форму на сайте от спама без капчи?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 18,
+    "sources": [
+     "ihc.ru",
+     "xn--80adbv1ag.xn--80aswg",
+     "marketplace.1c-bitrix.ru",
+     "internet10k.com",
+     "saxonov-marketing.ru",
+     "capyba.ru",
+     "ru.qform.io",
+     "arturgolubev.ru",
+     "habr.com",
+     "ru.wordpress.org",
+     "ittrustworld.ru",
+     "devorra.ru",
+     "demento174.ru",
+     "qna.habr.com",
+     "leadplan.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как отправить посетителю файл на почту после заявки с сайта?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "qna.habr.com",
+     "tobiz.net",
+     "4esnokov.ru",
+     "dev.1c-bitrix.ru",
+     "learn.microsoft.com",
+     "sendsay.ru",
+     "azoogle.ru",
+     "transfernow.net",
+     "wp-kama.ru",
+     "zdrons.ru",
+     "dropbox.com",
+     "aimblog.ru",
+     "timeweb.com",
+     "webriz.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Что должно быть в кейсе по созданию сайта?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "workspace.ru",
+     "sostav.ru",
+     "craftum.com",
+     "sdelaem.agency",
+     "lz.media",
+     "tgu-dpo.ru",
+     "ratingruneta.ru",
+     "skillbox.ru",
+     "serpstat.com",
+     "it-agency.ru",
+     "marketolog.mts.ru",
+     "neiros.ru",
+     "secrets.tbank.ru",
+     "convertmonster.ru",
+     "kokoc.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как на сайте показать экспертность за несколько секунд?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "hostenko.com",
+     "trigger-journal.ru",
+     "petr-panda.ru",
+     "irinausichenko.ru",
+     "remarketing.bz",
+     "seohead.pro",
+     "topprnews.ru",
+     "berserk-group.by",
+     "webobuchenie.ru",
+     "seojazz.ru",
+     "hrustalev.com",
+     "tobiz.net",
+     "workspace.ru",
+     "guide.expert-content.ru",
+     "klerk.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Кто делает сайты для экспертов в Польше на русском языке?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "polpred.com",
+     "poland-consult.com",
+     "in-poland.com",
+     "travelask.ru",
+     "polska.ru",
+     "russian-world.info",
+     "rupoland.com",
+     "poland.hh.ru",
+     "rr-buro.ru",
+     "dyjalog.by",
+     "pasport.online",
+     "tripmydream.com",
+     "skilldocs.pl",
+     "vemigracii.ru",
+     "cyclowiki.org"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Кто сделает многоязычный сайт, подготовленный к ИИ-поиску?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "linguanalanguages.com",
+     "linguana.io",
+     "appsumo.com",
+     "conveythis.com",
+     "liblogo.com",
+     "gooetranslate.com",
+     "factworks.com",
+     "fact-dock.com",
+     "nexuspipefitting.com",
+     "worldsearch.site"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 20,
+    "sources": [
+     "conveythis.com",
+     "glonin.kz",
+     "rush-analytics.ru",
+     "bowwe.com",
+     "spioniro.ru",
+     "takprosto.ai",
+     "pinshop.cn",
+     "smink.ru",
+     "developers.google.com",
+     "journal.topvisor.com",
+     "seo-akademiya.com",
+     "habr.com",
+     "nic.ru",
+     "x10seo.ru",
+     "pandawm.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Какой разработчик делает сайты на Next.js и Sanity для консультантов?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 5,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": true,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 19,
+    "sources": [
+     "bandziuk.com",
+     "sedenko.net",
+     "quick-offer.ru",
+     "lab-kode.ru",
+     "sanity.io",
+     "adlab.ee",
+     "apri-code.com",
+     "weblancer.net",
+     "vercel.com",
+     "evelan.de",
+     "freecodecamp.org",
+     "freelancehunt.com",
+     "jsjob.ru"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,5097 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0986 sec.",
+ "cost": 0.01752,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09181716-2505-0399-0000-a667bb15f8e8",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0899 sec.",
+   "cost": 0.01752,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "strona internetowa dla",
+    "location_code": 2616,
+    "language_code": "pl",
+    "limit": 100,
+    "include_seed_keyword": true
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "strona internetowa dla",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "strona internetowa dla",
+      "location_code": 2616,
+      "language_code": "pl",
+      "keyword_info": null,
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": null,
+      "serp_info": null,
+      "search_intent_info": null,
+      "avg_backlinks_info": null
+     },
+     "location_code": 2616,
+     "language_code": "pl",
+     "total_count": 46,
+     "items_count": 46,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0Ijo0NiwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6InN0cm9uYSBpbnRlcm5ldG93YSBkbGEiLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6InBsIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyNjE2LCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MTAwLCJvZmZzZXQiOjAsImFpZCI6MjUwNTIzLCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwOTE4MTcxNi0yNTA1LTAzOTktMDAwMC1hNjY3YmIxNWY4ZTgiLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6Ijk5MTU0OTJiLTA1Y2ItNDI0ZC1hN2Y0LWE4Y2RkOTNkNTU0NCIsIlNlYXJjaEFmdGVyRGF0YSI6Wy05MjIzMzcyMDM2ODU0Nzc1ODA4LCIyYjQ0ODkwZi1kNGJjLTc1OTEtMDFiNy02NGQ2NDcyMDU2NzUiXSwiRXhlY3V0b3IiOi05MTg0NDA1OTQwNDQ0NTE3NjMzfQ==",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla firm",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 15:01:52 +00:00",
+        "competition": 0.67,
+        "competition_level": "MEDIUM",
+        "cpc": 8.11,
+        "search_volume": 480,
+        "low_top_of_page_bid": 3.36,
+        "high_top_of_page_bid": 7.01,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": 0,
+         "yearly": 88
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "strona internetowa dla firmy",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 79,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2285.4,
+        "dofollow": 2211.3,
+        "referring_pages": 2247.2,
+        "referring_domains": 41.1,
+        "referring_main_domains": 35,
+        "rank": 255,
+        "main_domain_rank": 495.7,
+        "last_updated_time": "2025-06-09 13:22:08 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 22:23:03 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla firmy",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 03:57:38 +00:00",
+        "competition": 0.67,
+        "competition_level": "MEDIUM",
+        "cpc": 8.11,
+        "search_volume": 480,
+        "low_top_of_page_bid": 3.36,
+        "high_top_of_page_bid": 7.01,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": 0,
+         "yearly": 88
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 25,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 153.6,
+        "dofollow": 129.9,
+        "referring_pages": 148.9,
+        "referring_domains": 47.8,
+        "referring_main_domains": 37,
+        "rank": 160.4,
+        "main_domain_rank": 457.2,
+        "last_updated_time": "2026-07-08 11:26:15 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 23:54:25 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla psychologa",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 01:29:06 +00:00",
+        "competition": 0.27,
+        "competition_level": "LOW",
+        "cpc": 2.94,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.73,
+        "high_top_of_page_bid": 2.46,
+        "categories": [
+         10011,
+         10091,
+         10518
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -29,
+         "quarterly": 0,
+         "yearly": 67
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-28 22:50:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla fotografa",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 21:58:23 +00:00",
+        "competition": 0.27,
+        "competition_level": "LOW",
+        "cpc": 3.47,
+        "search_volume": 140,
+        "low_top_of_page_bid": 1.12,
+        "high_top_of_page_bid": 4.66,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 40,
+         "yearly": 40
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 21:12:18 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla dewelopera",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 05:08:06 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 6.72,
+        "search_volume": 140,
+        "low_top_of_page_bid": 2.68,
+        "high_top_of_page_bid": 5.2,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -44,
+         "quarterly": -29,
+         "yearly": -64
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 21:54:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ile kosztuje strona internetowa dla firmy",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 05:26:08 +00:00",
+        "competition": 0.75,
+        "competition_level": "HIGH",
+        "cpc": 2.51,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.95,
+        "high_top_of_page_bid": 2.7,
+        "categories": [
+         10004,
+         10276,
+         13411
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 50,
+         "quarterly": 50,
+         "yearly": 50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 17:11:52 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla biura nieruchomości",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 17:25:53 +00:00",
+        "competition": 0.5,
+        "competition_level": "MEDIUM",
+        "cpc": 11.57,
+        "search_volume": 110,
+        "low_top_of_page_bid": 2.52,
+        "high_top_of_page_bid": 8.95,
+        "categories": [
+         10016,
+         10141,
+         10758,
+         12046
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -44,
+         "quarterly": 67,
+         "yearly": 67
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:36:47 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla biura nieruchomosci",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 20:39:52 +00:00",
+        "competition": 0.5,
+        "competition_level": "MEDIUM",
+        "cpc": 11.57,
+        "search_volume": 110,
+        "low_top_of_page_bid": 2.52,
+        "high_top_of_page_bid": 8.95,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -44,
+         "quarterly": 67,
+         "yearly": 67
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "strona internetowa dla biura nieruchomości",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 23:02:50 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla restauracji",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 19:23:44 +00:00",
+        "competition": 0.4,
+        "competition_level": "MEDIUM",
+        "cpc": 4.1,
+        "search_volume": 90,
+        "low_top_of_page_bid": 1.32,
+        "high_top_of_page_bid": 4.33,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -57,
+         "quarterly": -57,
+         "yearly": -25
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:41:08 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla firmy budowlanej",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 14:08:59 +00:00",
+        "competition": 0.55,
+        "competition_level": "MEDIUM",
+        "cpc": 6.23,
+        "search_volume": 90,
+        "low_top_of_page_bid": 2.24,
+        "high_top_of_page_bid": 6.7,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 40
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -67,
+         "quarterly": -57,
+         "yearly": -57
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 23:02:50 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla trenera personalnego",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 01:30:45 +00:00",
+        "competition": 0.31,
+        "competition_level": "LOW",
+        "cpc": 4.57,
+        "search_volume": 90,
+        "low_top_of_page_bid": 1.18,
+        "high_top_of_page_bid": 3.07,
+        "categories": [
+         10014,
+         10123,
+         10669
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -67,
+         "quarterly": -67,
+         "yearly": -50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 23:02:50 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla prawnika",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 11:09:07 +00:00",
+        "competition": 0.46,
+        "competition_level": "MEDIUM",
+        "cpc": 5.45,
+        "search_volume": 90,
+        "low_top_of_page_bid": 2.41,
+        "high_top_of_page_bid": 5.36,
+        "categories": [
+         10018,
+         10163,
+         10866
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -73,
+         "quarterly": 50,
+         "yearly": -40
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-28 22:49:43 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla stomatologa",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 10:08:16 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 70,
+        "low_top_of_page_bid": 1.46,
+        "high_top_of_page_bid": 4.29,
+        "categories": [
+         10011,
+         10011,
+         10085,
+         10087,
+         10487,
+         11234,
+         11747
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 200,
+         "quarterly": 0,
+         "yearly": 200
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:59:55 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla firmy szkoleniowej",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 22:26:03 +00:00",
+        "competition": 0.41,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 70,
+        "low_top_of_page_bid": 2.62,
+        "high_top_of_page_bid": 6.04,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": 0,
+         "yearly": 100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-03 06:13:14 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla gastronomii",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 03:36:45 +00:00",
+        "competition": 0.77,
+        "competition_level": "HIGH",
+        "cpc": 3.26,
+        "search_volume": 50,
+        "low_top_of_page_bid": 1.37,
+        "high_top_of_page_bid": 3.74,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -67,
+         "quarterly": 0,
+         "yearly": -75
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:36:47 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla hotelu",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 17:37:42 +00:00",
+        "competition": 0.43,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 50,
+        "low_top_of_page_bid": 1.65,
+        "high_top_of_page_bid": 5.99,
+        "categories": [
+         10017,
+         10142,
+         10769,
+         12067,
+         13022
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -75,
+         "quarterly": -50,
+         "yearly": -75
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:50:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla firmy transportowej",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 21:28:34 +00:00",
+        "competition": 0.19,
+        "competition_level": "LOW",
+        "cpc": 12.67,
+        "search_volume": 50,
+        "low_top_of_page_bid": 2.63,
+        "high_top_of_page_bid": 6.69,
+        "categories": [
+         10004,
+         10276,
+         11088
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -29,
+         "quarterly": 25,
+         "yearly": 400
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-28 21:57:58 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla biura rachunkowego",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 11:06:03 +00:00",
+        "competition": 0.47,
+        "competition_level": "MEDIUM",
+        "cpc": 3.32,
+        "search_volume": 40,
+        "low_top_of_page_bid": 2.19,
+        "high_top_of_page_bid": 4.5,
+        "categories": [
+         10019,
+         10168,
+         10537,
+         10885,
+         12209
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 67,
+         "quarterly": 150,
+         "yearly": 150
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 22:06:57 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla kancelarii adwokackiej",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 17:56:03 +00:00",
+        "competition": 0.26,
+        "competition_level": "LOW",
+        "cpc": 4.62,
+        "search_volume": 40,
+        "low_top_of_page_bid": 2.06,
+        "high_top_of_page_bid": 4.33,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-04 19:18:12 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla małej firmy",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 02:52:18 +00:00",
+        "competition": 0.58,
+        "competition_level": "MEDIUM",
+        "cpc": 5.01,
+        "search_volume": 40,
+        "low_top_of_page_bid": 1.95,
+        "high_top_of_page_bid": 4.75,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -40,
+         "quarterly": 50,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-28 22:27:23 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla trenera",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 05:32:45 +00:00",
+        "competition": 0.1,
+        "competition_level": "LOW",
+        "cpc": 5.87,
+        "search_volume": 40,
+        "low_top_of_page_bid": 2.26,
+        "high_top_of_page_bid": 4.34,
+        "categories": [
+         10014,
+         10123,
+         10669
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -56,
+         "quarterly": -20,
+         "yearly": 100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:36:47 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla przedszkola",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 11:35:49 +00:00",
+        "competition": 0.25,
+        "competition_level": "LOW",
+        "cpc": 4.5,
+        "search_volume": 40,
+        "low_top_of_page_bid": 1.85,
+        "high_top_of_page_bid": 4.32,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 33,
+         "quarterly": 33,
+         "yearly": 300
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:41:08 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla lekarza",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 21:24:39 +00:00",
+        "competition": 0.08,
+        "competition_level": "LOW",
+        "cpc": 6.24,
+        "search_volume": 40,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10011,
+         10087,
+         12488
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -57,
+         "quarterly": 0,
+         "yearly": 200
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:04:07 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla niepełnosprawnych",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 02:38:03 +00:00",
+        "competition": 0.09,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 30,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 100,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 22:54:50 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla parafii",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 00:21:55 +00:00",
+        "competition": 0.34,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 30,
+        "low_top_of_page_bid": 1.08,
+        "high_top_of_page_bid": 1.96,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -60,
+         "quarterly": 0,
+         "yearly": 100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:36:47 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla projektanta wnętrz",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 16:16:31 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 30,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10273
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -50,
+         "quarterly": -50,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-04 18:38:57 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla firmy cena",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 11:12:03 +00:00",
+        "competition": 0.66,
+        "competition_level": "MEDIUM",
+        "cpc": 2.91,
+        "search_volume": 30,
+        "low_top_of_page_bid": 1.87,
+        "high_top_of_page_bid": 5.32,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 67,
+         "quarterly": 25,
+         "yearly": 400
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 21:53:44 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla szkoły",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 01:16:40 +00:00",
+        "competition": 0.67,
+        "competition_level": "HIGH",
+        "cpc": 3.7,
+        "search_volume": 20,
+        "low_top_of_page_bid": 1.8,
+        "high_top_of_page_bid": 4.33,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:50:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla salonu",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 04:27:27 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10006,
+         10369,
+         11482,
+         13493
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": null,
+         "quarterly": null,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial",
+         "informational"
+        ],
+        "last_updated_time": "2026-04-28 22:27:23 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla szkół",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 06:50:33 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": null,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 22:23:03 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla fundacji",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 15:51:28 +00:00",
+        "competition": 0.12,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -67,
+         "quarterly": 0,
+         "yearly": -50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:50:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla spółki akcyjnej",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 15:09:40 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-29 22:23:03 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla kancelarii",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 02:15:39 +00:00",
+        "competition": 0.37,
+        "competition_level": "MEDIUM",
+        "cpc": 4.86,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -75,
+         "quarterly": 0,
+         "yearly": -50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 23:14:47 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla bezdomnych",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 22:08:37 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 21:49:14 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla dzieci",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 10:14:21 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11499,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 21:47:07 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla twojej firmy",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 04:25:52 +00:00",
+        "competition": 0.86,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-04 03:41:10 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla biura podróży",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 03:34:56 +00:00",
+        "competition": 0.9,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": null,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:07:19 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla firmy za darmo",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 08:27:04 +00:00",
+        "competition": 0.79,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational",
+         "transactional"
+        ],
+        "last_updated_time": "2026-05-04 04:10:32 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla niewidomych",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 07:56:41 +00:00",
+        "competition": 0.57,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10302,
+         11359,
+         12684,
+         13464
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": null,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:49:43 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "okno życia dla zwierząt strona internetowa",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 15:00:24 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11499,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 17:01:11 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "edukacyjna strona internetowa dla dzieci",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 21:12:19 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11499,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": null,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 17:46:44 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "darmowa strona internetowa dla firmy",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 13:04:46 +00:00",
+        "competition": 0.84,
+        "competition_level": "HIGH",
+        "cpc": 5.96,
+        "search_volume": 10,
+        "low_top_of_page_bid": 2.45,
+        "high_top_of_page_bid": 5.49,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 19:06:36 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla początkujących",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 04:59:28 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-28 22:49:43 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla gejów",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 08:04:50 +00:00",
+        "competition": 0.41,
+        "competition_level": "MEDIUM",
+        "cpc": 0.52,
+        "search_volume": 10,
+        "low_top_of_page_bid": 0.29,
+        "high_top_of_page_bid": 0.69,
+        "categories": [
+         10002,
+         10007,
+         10031,
+         10240,
+         11035,
+         11493,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -50,
+         "yearly": null
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-04 03:18:08 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ile kosztuje strona internetowa dla restauracji",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-04 03:07:04 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10007,
+         11493,
+         11504,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-04 03:08:08 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "strona internetowa dla psychoterapeuty",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-04 03:21:04 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10011,
+         10085,
+         10091,
+         10488,
+         10518,
+         11749
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-04 03:22:57 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

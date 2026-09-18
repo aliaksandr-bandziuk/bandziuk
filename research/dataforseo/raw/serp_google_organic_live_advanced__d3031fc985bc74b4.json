@@ -1,0 +1,1079 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "7.4584 sec.",
+ "cost": 0.00415,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09181720-2505-0139-0000-f451f43df003",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "7.3446 sec.",
+   "cost": 0.00415,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "sanity cms examples",
+    "location_code": 2826,
+    "language_code": "en",
+    "depth": 20,
+    "people_also_ask_click_depth": 1,
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "sanity cms examples",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2826,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=sanity%20cms%20examples&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+     "datetime": "2026-09-18 17:20:44 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "video",
+      "people_also_ask",
+      "related_searches",
+      "images"
+     ],
+     "se_results_count": 131,
+     "pages_count": 2,
+     "items_count": 23,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.sanity.io",
+       "title": "Showcase projects built with Sanity",
+       "url": "https://www.sanity.io/projects",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.sanity.io › projects",
+       "website_name": "Sanity",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sanity Fleet - Every Sanity project in your organization, in one sortable table, and one click into the Studio that owns the document. Henrik Larsson's picture. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity Fleet"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.sanity.io/projects#:~:text=Sanity%20Fleet%20-%20Every%20Sanity,Studio%20that%20owns%20the%20document.",
+         "domain": "www.sanity.io"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "www.sanity.io",
+       "title": "Sanity: The Content Operating System for the AI era",
+       "url": "https://www.sanity.io/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.sanity.io",
+       "website_name": "Sanity",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sanity is the back-end built for AI content operations. Power web, mobile, and agentic applications at scale.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity is the back-end built for AI content operations"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube · Sanity",
+         "title": "Sanity Studio 101 (Headless CMS)",
+         "timestamp": "2025-12-17 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=3riK4DWWhbw"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · Traversy Media",
+         "title": "Sanity.io Crash Course | Headless CMS",
+         "timestamp": "2020-12-07 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=32RP-sG1njE"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · Tinloof",
+         "title": "Content editing demo with Sanity",
+         "timestamp": "2023-01-15 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=92lmvO7Mw9M"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · James Q Quick",
+         "title": "Getting Started with Sanity.io - A Headless CMS You Can ...",
+         "timestamp": "2020-04-21 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=RrcQfAZDq7Q"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is Sanity in CMS?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Is Sanity a good CMS?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Is Sanity CMS better than WordPress?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the key differences between Payload CMS and Sanity CMS?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are some alternatives to Sanity CMS?",
+         "seed_question": "What are the key differences between Payload CMS and Sanity CMS?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Can you use Sanity for free?",
+         "seed_question": "What are the key differences between Payload CMS and Sanity CMS?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.awwwards.com",
+       "title": "Best Sanity Websites | Web Design Inspiration",
+       "url": "https://www.awwwards.com/websites/sanity/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.awwwards.com › websites › sanity",
+       "website_name": "Awwwards",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Best selection of Sanity Website examples for your inspiration... Read more. Sanity.io is a unified content platform for real-time collaboration and version ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity Website examples"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.awwwards.com/websites/sanity/#:~:text=Best%20selection%20of%20Sanity%20Website,for%20your%20inspiration...%20Read%20more",
+         "domain": "www.awwwards.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "weareadaptable.com",
+       "title": "Sanity CMS | Features, Benefits & Use Cases - Adaptable",
+       "url": "https://weareadaptable.com/insights/sanity-cms-features-and-benefits/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://weareadaptable.com › insights › sanity-cms-featu...",
+       "website_name": "weareadaptable.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "5 Nov 2024 — An example of this would be a web app functioning as a quote funnel, like the ones we developed for Utilita Energy. We created a series of user ... Read more",
+       "pre_snippet": "11/05/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "web app functioning as a quote funnel"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://weareadaptable.com/insights/sanity-cms-features-and-benefits/#:~:text=An%20example%20of%20this%20would,Utilita%20Energy's%20home%20service%20offerings.",
+         "domain": "weareadaptable.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-11-05 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "github.com",
+       "title": "GitHub - sanity-io/example-company-website-gatsby ...",
+       "url": "https://github.com/sanity-io/example-company-website-gatsby-sanity-combo",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://github.com › sanity-io › example-company-websi...",
+       "website_name": "GitHub",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "12 Apr 2023 — This examples combines Gatsby site generation with Sanity content management in a neat little company website. Read the blog post and see the ... Read more",
+       "pre_snippet": "04/12/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity content management"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://github.com/sanity-io/example-company-website-gatsby-sanity-combo#:~:text=This%20examples%20combines%20Gatsby%20site,see%20the%20getting%20started%20video.",
+         "domain": "github.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-04-12 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "vercel.com",
+       "title": "Sanity Templates",
+       "url": "https://vercel.com/templates/sanity",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://vercel.com › templates › sanity",
+       "website_name": "Vercel",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sanity starter templates and themes. Discover Sanity templates, starters, and themes to jumpstart your application or website build. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity starter templates and themes"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://vercel.com/templates/sanity#:~:text=Sanity%20starter%20templates%20and%20themes,your%20application%20or%20website%20build.",
+         "domain": "vercel.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "dev.to",
+       "title": "Sanity.io: a really good CMS",
+       "url": "https://dev.to/shubhampatilsd/sanityio-a-really-good-cms-42h9",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://dev.to › shubhampatilsd › sanityio-a-really-good...",
+       "website_name": "DEV Community",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "29 Jun 2022 — Here is an example of it: // First, we must import the schema creator import createSchema from \"part:@sanity/base/schema-creator\"; // Then ... Read more",
+       "pre_snippet": "06/29/2022 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Here is an example of it"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://dev.to/shubhampatilsd/sanityio-a-really-good-cms-42h9#:~:text=Here%20is%20an%20example%20of,createSchema%20from%20%22part%3A%40sanity%2Fbase%2Fschema-creator%22%3B%20%2F%2F%20Then",
+         "domain": "dev.to"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2022-06-29 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "My journey to Sanity.io. and the Headless CMS of choice",
+       "url": "https://medium.com/ionic-prototyping/my-journey-to-sanity-io-fe0a6576a417",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "200+ likes  ·  7 years ago",
+       "website_name": "Medium · Hieu Pham",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Schema in Sanity.io is pretty straightforward and you can easily figure it out by just looking at the sample dataset. Press enter or click to ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity",
+        "sample"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://medium.com/ionic-prototyping/my-journey-to-sanity-io-fe0a6576a417#:~:text=Schema%20in%20Sanity.io%20is%20pretty,looking%20at%20the%20sample%20dataset.",
+         "domain": "medium.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Sanity cms examples github",
+        "Sanity cms examples pdf",
+        "Sanity cms examples free",
+        "Is Sanity CMS open source",
+        "Sanity CMS demo",
+        "Sanity CMS alternative",
+        "Sanity example sentence",
+        "Sanity CMS login"
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 13,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "My journey to Sanity.io. and the Headless CMS of choice",
+       "url": "https://medium.com/ionic-prototyping/my-journey-to-sanity-io-fe0a6576a417",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "200+ likes  ·  7 years ago",
+       "website_name": "Medium · Hieu Pham",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Schema in Sanity.io is pretty straightforward and you can easily figure it out by just looking at the sample dataset. Press enter or click to ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity",
+        "sample"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://medium.com/ionic-prototyping/my-journey-to-sanity-io-fe0a6576a417#:~:text=Schema%20in%20Sanity.io%20is%20pretty,looking%20at%20the%20sample%20dataset.",
+         "domain": "medium.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 10,
+       "rank_absolute": 14,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.nicktaylor.io",
+       "title": "Using Sanity.io as a Headless CMS - Nick Taylor",
+       "url": "https://www.nicktaylor.io/blog/using-sanity-io-as-a-headless-cms/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.nicktaylor.io › blog › using-sanity-io-as-a-...",
+       "website_name": "nicktaylor.io",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "11 Jul 2020 — Getting up and running with Sanity was very simple, they have plenty of samples for both React and Vue frameworks, which is great, and the ... Read more",
+       "pre_snippet": "07/11/2020 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "React and Vue frameworks"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.nicktaylor.io/blog/using-sanity-io-as-a-headless-cms/#:~:text=Getting%20up%20and%20running%20with,the%20more%20complex%2C%20customisable%20functionality.",
+         "domain": "www.nicktaylor.io"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2020-07-11 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 11,
+       "rank_absolute": 15,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "jamstack.org",
+       "title": "Sanity",
+       "url": "https://jamstack.org/headless-cms/sanity/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://jamstack.org › headless-cms › sanity",
+       "website_name": "Jamstack",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sanity is the modern headless CMS that uses structured content to endlessly re-use content across any channel and a composable approach to help businesses ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity is the modern headless CMS"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://jamstack.org/headless-cms/sanity/#:~:text=Sanity%20is%20the%20modern%20headless,source%2C%20and%20front%20end%20framework.",
+         "domain": "jamstack.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 12,
+       "rank_absolute": 16,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.sanity.io",
+       "title": "Sanity templates: get up and running in minutes",
+       "url": "https://www.sanity.io/templates",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.sanity.io › templates",
+       "website_name": "Sanity",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A Sanity.io + Next.js template for building a complete CMS-powered website. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity.io + Next.js template"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.sanity.io/templates#:~:text=A%20Sanity.io%20%2B%20Next.js%20template,building%20a%20complete%20CMS-powered%20website.",
+         "domain": "www.sanity.io"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 13,
+       "rank_absolute": 17,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "domain": "weframetech.com",
+       "title": "10 Best Sanity CMS Websites for Design Inspiration (2026)",
+       "url": "https://weframetech.com/blog/best-sanity-cms-websites-examples-2026",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://weframetech.com › Blog",
+       "website_name": "Weframe Tech",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "19 Apr 2026 — Explore the best Sanity CMS websites for inspiration. Discover top design, UX, and headless commerce examples.",
+       "pre_snippet": "04/19/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Explore the best Sanity CMS websites for inspiration"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-04-19 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 14,
+       "rank_absolute": 18,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "focusreactive.com",
+       "title": "Sanity CMS: Features, Use Cases & Why Teams Choose It ...",
+       "url": "https://focusreactive.com/sanity-cms-overview/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://focusreactive.com › sanity-cms-overview",
+       "website_name": "FocusReactive",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "12 Mar 2026 — Sanity allows multiple editors to work on the same document simultaneously, with changes appearing instantly for all team members. This makes it ... Read more",
+       "pre_snippet": "03/12/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity allows multiple editors to work on the same document simultaneously"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://focusreactive.com/sanity-cms-overview/#:~:text=Sanity%20allows%20multiple%20editors%20to,teams%20rather%20than%20solo%20editors.",
+         "domain": "focusreactive.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-03-12 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 15,
+       "rank_absolute": 19,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "pagepro.co",
+       "title": "What is Sanity CMS: A 2026 Guide",
+       "url": "https://pagepro.co/blog/what-is-sanity/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://pagepro.co › Blog",
+       "website_name": "Pagepro",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "30 May 2025 — Sanity Use Cases. To prove Sanity's flexibility, here are a few real-world examples showing how different teams use Sanity to solve practical ... Read more",
+       "pre_snippet": "05/30/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "here are a few real-world examples"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://pagepro.co/blog/what-is-sanity/#:~:text=Sanity%20Use%20Cases,to%20solve%20practical%20content%20challenges%3A",
+         "domain": "pagepro.co"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-05-30 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 20,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sa=N&hl=en&gl=GB&sca_esv=40a79c977c37d534&q=sanity+cms+examples&udm=2&source=univ&fir=sYQnNQ-Gr3g3TM%252CYI_0Yqhgzu7zYM%252C_%253Bo2ArZrMwMLUKgM%252CgJxbgMg1dvhk0M%252C_%253B5-KcHfMwTsLHDM%252Cziw836CKFWdGHM%252C_%253Bmi-JClruyliCkM%252CYZvGs6X9LSsu_M%252C_%253BGR8dY5nUR1Lb-M%252CGP_XoyBzTK6igM%252C_%253BBNRtGzcAAv9dMM%252CrlNxPtlPMaw2jM%252C_%253B9QqINGmEcedkXM%252CENBhXdFxf5LebM%252C_%253BxEn5a4AqC8O3yM%252CP1AfKLYFEsuFtM%252C_%253BisZ1sZUZ2BOzfM%252CGAx4pNtuhrE8dM%252C_&usg=AI4_-kQVMcFlfonCv1XUC1ir0uIk7_TayQ&ved=2ahUKEwj4pZH20fiWAxXUle4BHUasBcA4ChDsCXoECDcQBQ",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "YouTube video in Sanity.io",
+         "url": "https://www.sanity.io/blog/getting-started-with-sanity-as-a-headless-cms",
+         "image_url": "https://api.dataforseo.com/cdn/i/09181720-2505-0139-0000-f451f43df003:0"
+        },
+        {
+         "type": "images_element",
+         "alt": "Sanity | Jamstack",
+         "url": "https://jamstack.org/headless-cms/sanity/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09181720-2505-0139-0000-f451f43df003:1"
+        },
+        {
+         "type": "images_element",
+         "alt": "Headless CMS: A Beginner's Guide with Sanity Studio",
+         "url": "https://ayushisreal.hashnode.dev/understanding-headless-cms-a-simple-explanation",
+         "image_url": "https://api.dataforseo.com/cdn/i/09181720-2505-0139-0000-f451f43df003:2"
+        },
+        {
+         "type": "images_element",
+         "alt": "GitHub - sanity-io/sanity: Sanity Studio – Rapidly configure ...",
+         "url": "https://github.com/sanity-io/sanity",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2k7EHkIbDggR1wkS1gzlYCmzPrcZrIOvCra85FnUd_qsYF4ftYFyHFrc&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Sanity CMS Boilerplate - Shadcnblocks.com",
+         "url": "https://www.shadcnblocks.com/sanity-cms",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7FLk7WCfqS9peVdjFnbRxkLimAn4JgZGSPoktIWNqUca4Ep4ZBGS3i4&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Headless CMS 101: The Only Guide You'll Ever Need | Sanity",
+         "url": "https://www.sanity.io/headless-cms",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAErssTxHNyJS5sJFKgfrN7qKZQ21T9Ta-25FGQocWF4F3RCszd89xRFI&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Sanity CMS Overview: Features, Benefits, and How It Works",
+         "url": "https://www.somar.co.nz/blog/sanity-cms-for-modern-websites/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4j7Jndu4VV6uF38GBxvHmzsXNXV824V1B82v1082Sx0Snp1KDkj02-kg&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Sanity CMS Overview - Content Management at Represent",
+         "url": "https://www.represent.no/sanity",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2799rjAticbcXwb3NapwH0ipNyrPEyZ8QqyfogPUn8dcKZFJEVx-BztU&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Sanity templates: get up and running in minutes",
+         "url": "https://www.sanity.io/templates",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-aur0hfigEoVYbtLSOzLGlAMDJxj87-66-Ki-lfsYXXKN5c2Kfp6tb9M&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 16,
+       "rank_absolute": 21,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "www.somar.co.nz",
+       "title": "Sanity CMS Overview: Features, Benefits, and How It Works",
+       "url": "https://www.somar.co.nz/blog/sanity-cms-for-modern-websites/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.somar.co.nz › blog › sanity-cms-for-moder...",
+       "website_name": "Somar Digital",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "17 Nov 2025 — A well-built Sanity CMS implementation gives teams a powerful, flexible, and highly scalable way to manage content across channels. Read more",
+       "pre_snippet": "11/17/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity CMS"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.somar.co.nz/blog/sanity-cms-for-modern-websites/#:~:text=A%20well-built%20Sanity%20CMS%20implementation,to%20manage%20content%20across%20channels.",
+         "domain": "www.somar.co.nz"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-11-17 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 17,
+       "rank_absolute": 22,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.samiharaketi.com",
+       "title": "Your First Website with Sanity CMS: A Beginner's Step-by- ...",
+       "url": "https://www.samiharaketi.com/post/your-first-website-with-sanity-cms-a-beginners-step-by-step-guide-to-building-and-seo",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.samiharaketi.com › post › your-first-websit...",
+       "website_name": "Sami Haraketi",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Details of Your First Website with Sanity CMS: A Beginner's Step-by-Step Guide to Building and SEO – a Blog Post created by Sami Haraketi.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Sanity CMS"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 2,
+       "rank_absolute": 23,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Sanity cms examples github",
+        "Sanity cms examples pdf",
+        "Sanity cms examples free",
+        "Is Sanity CMS open source",
+        "Sanity CMS demo",
+        "Sanity CMS alternative",
+        "Sanity example sentence",
+        "Sanity CMS login"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

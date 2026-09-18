@@ -1,0 +1,495 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.2640 sec.",
+ "cost": 0.01224,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09181718-2505-0381-0000-b9a712e6f134",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.2348 sec.",
+   "cost": 0.01224,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "ranked_keywords",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "ranked_keywords",
+    "se_type": "google",
+    "target": "bandziuk.com",
+    "location_code": 2826,
+    "language_code": "en",
+    "limit": 1000
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "target": "bandziuk.com",
+     "location_code": 2826,
+     "language_code": "en",
+     "total_count": 2,
+     "items_count": 2,
+     "metrics": {
+      "organic": {
+       "pos_1": 0,
+       "pos_2_3": 0,
+       "pos_4_10": 0,
+       "pos_11_20": 0,
+       "pos_21_30": 0,
+       "pos_31_40": 0,
+       "pos_41_50": 1,
+       "pos_51_60": 1,
+       "pos_61_70": 0,
+       "pos_71_80": 0,
+       "pos_81_90": 0,
+       "pos_91_100": 0,
+       "etv": 0.02553566827555187,
+       "count": 2,
+       "estimated_paid_traffic_cost": 0.10597302333917469,
+       "is_new": 2,
+       "is_up": 0,
+       "is_down": 0,
+       "is_lost": 0,
+       "clickstream_etv": null,
+       "clickstream_gender_distribution": null,
+       "clickstream_age_distribution": null
+      },
+      "paid": {
+       "pos_1": 0,
+       "pos_2_3": 0,
+       "pos_4_10": 0,
+       "pos_11_20": 0,
+       "pos_21_30": 0,
+       "pos_31_40": 0,
+       "pos_41_50": 0,
+       "pos_51_60": 0,
+       "pos_61_70": 0,
+       "pos_71_80": 0,
+       "pos_81_90": 0,
+       "pos_91_100": 0,
+       "etv": 0,
+       "count": 0,
+       "estimated_paid_traffic_cost": 0,
+       "is_new": 0,
+       "is_up": 0,
+       "is_down": 0,
+       "is_lost": 0,
+       "clickstream_etv": null,
+       "clickstream_gender_distribution": null,
+       "clickstream_age_distribution": null
+      },
+      "featured_snippet": null,
+      "local_pack": null,
+      "ai_overview_reference": null
+     },
+     "metrics_absolute": null,
+     "items": [
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "why my website is not showing in google search",
+        "location_code": 2826,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-08-20 17:04:35 +00:00",
+         "competition": 0.49000000953674316,
+         "competition_level": "MEDIUM",
+         "cpc": 4.150000095367432,
+         "search_volume": 90,
+         "low_top_of_page_bid": 1.5699999332427979,
+         "high_top_of_page_bid": 4.599999904632568,
+         "categories": [
+          10004,
+          10276,
+          11088,
+          12376,
+          13152,
+          13316
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 70
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 70
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 50
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 140
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 90
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 260
+          },
+          {
+           "year": 2025,
+           "month": 8,
+           "search_volume": 50
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 75,
+          "quarterly": 75,
+          "yearly": 40
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "why is my website not showing in google search",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=why%20my%20website%20is%20not%20showing%20in%20google%20search&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "video",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 97,
+         "last_updated_time": "2026-08-13 11:39:06 +00:00",
+         "previous_updated_time": "2026-05-11 10:42:33 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 1,
+         "dofollow": 0.800000011920929,
+         "referring_pages": 1,
+         "referring_domains": 0.800000011920929,
+         "referring_main_domains": 0.699999988079071,
+         "rank": 25.700000762939453,
+         "main_domain_rank": 499.20001220703125,
+         "last_updated_time": "2026-08-13 11:42:20 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-29 23:58:32 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 49,
+         "rank_absolute": 57,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "www.bandziuk.com",
+         "title": "Website Not Showing in Google: Causes and Fixes",
+         "url": "https://www.bandziuk.com/blog/website-not-showing-in-google",
+         "breadcrumb": "https://www.bandziuk.com › Home › Blog",
+         "website_name": "bandziuk.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "description": "24 Jul 2026 — Table: how to find why your site isn't appearing in search · Searching by domain returns nothing — Search Console, URL inspection — Noindex or a ... Read more",
+         "pre_snippet": "07/24/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "isn't appearing",
+          "search",
+          "Searching",
+          "Search"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "bandziuk.com",
+         "relative_url": "/blog/website-not-showing-in-google",
+         "etv": 0.025223642587661743,
+         "estimated_paid_traffic_cost": 0.10467811673879623,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 214
+         }
+        },
+        "check_url": "https://www.google.com/search?q=why%20my%20website%20is%20not%20showing%20in%20google%20search&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+        "serp_item_types": [
+         "ai_overview",
+         "organic",
+         "video",
+         "people_also_ask",
+         "related_searches"
+        ],
+        "se_results_count": 97,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-08-13 11:39:06 +00:00",
+        "previous_updated_time": "2026-05-11 10:42:33 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "why is my website not showing in google search",
+        "location_code": 2826,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-08-21 17:47:07 +00:00",
+         "competition": 0.49000000953674316,
+         "competition_level": "MEDIUM",
+         "cpc": 4.150000095367432,
+         "search_volume": 90,
+         "low_top_of_page_bid": 1.5699999332427979,
+         "high_top_of_page_bid": 4.599999904632568,
+         "categories": [
+          10004,
+          10276,
+          11088,
+          12376,
+          13152,
+          13316
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 70
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 70
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 50
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 140
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 90
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 260
+          },
+          {
+           "year": 2025,
+           "month": 8,
+           "search_volume": 50
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 75,
+          "quarterly": 75,
+          "yearly": 40
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=why%20is%20my%20website%20not%20showing%20in%20google%20search&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 93,
+         "last_updated_time": "2026-08-13 11:53:10 +00:00",
+         "previous_updated_time": "2026-06-07 04:54:42 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3.299999952316284,
+         "dofollow": 2.5,
+         "referring_pages": 3.200000047683716,
+         "referring_domains": 2.5999999046325684,
+         "referring_main_domains": 2.4000000953674316,
+         "rank": 46.79999923706055,
+         "main_domain_rank": 545.4000244140625,
+         "last_updated_time": "2026-08-13 11:55:27 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 00:43:56 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 51,
+         "rank_absolute": 58,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+         "domain": "www.bandziuk.com",
+         "title": "Website Not Showing in Google: Causes and Fixes",
+         "url": "https://www.bandziuk.com/blog/website-not-showing-in-google",
+         "breadcrumb": "https://www.bandziuk.com › Home › Blog",
+         "website_name": "bandziuk.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "description": "24 Jul 2026 — Table: how to find why your site isn't appearing in search · Searching by domain returns nothing — Search Console, URL inspection — Noindex or a ... Read more",
+         "pre_snippet": "07/24/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "isn't appearing",
+          "search",
+          "Searching",
+          "Search"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "bandziuk.com",
+         "relative_url": "/blog/website-not-showing-in-google",
+         "etv": 0.0003120256878901273,
+         "estimated_paid_traffic_cost": 0.0012949066003784537,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 214
+         }
+        },
+        "check_url": "https://www.google.com/search?q=why%20is%20my%20website%20not%20showing%20in%20google%20search&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+        "serp_item_types": [
+         "ai_overview",
+         "organic",
+         "people_also_ask",
+         "related_searches"
+        ],
+        "se_results_count": 93,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-08-13 11:53:10 +00:00",
+        "previous_updated_time": "2026-06-07 04:54:42 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

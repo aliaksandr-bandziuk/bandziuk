@@ -522,6 +522,15 @@ code itself.
 - Pushing deploys to production via Vercel — deploy timing is 
   always the owner's call. Never push as a side effect of 
   "finishing" a task.
+- `vercel.json` skips the build when nothing outside `drafts/`,
+  `scripts/` and `CLAUDE.md` changed since the last successful
+  deployment (`VERCEL_GIT_PREVIOUS_SHA`). Added 2026-09-18 after the
+  daily deployment limit was hit: 8 of 11 pushes in two days changed
+  no site code. Consequences: an empty commit no longer redeploys (use
+  "Redeploy" in the Vercel dashboard), and if the previous SHA cannot
+  be resolved the command exits non-zero, so Vercel builds as before.
+  Still batch drafts-only commits with the next code change rather than
+  pushing them alone.
 - At the end of each session, include a short summary of the 
   uncommitted changes (files touched, one line what/why) so the 
   owner can decide when to commit and push.

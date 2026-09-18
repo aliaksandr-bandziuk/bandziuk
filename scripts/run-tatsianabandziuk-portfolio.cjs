@@ -35,6 +35,7 @@ const PREVIEW_FILE = "tatsianabandziuk-00.png";
 // Power BI case page, calculators and templates, content, languages.
 const SLIDER_FILES = [
   "1-hero-en.png",
+  "15-pagespeed.jpg",
   "13-service-charts.png",
   "2-contact-form-excel.png",
   "4-datasheet-statusbar.png",
@@ -380,11 +381,12 @@ async function main() {
     return;
   }
 
-  // --patch: the documents already exist; update only the H1 and the slider,
-  // keeping publishedAt, _createdAt and everything else untouched.
+  // --patch: the documents already exist; update the H1, the slider and the
+  // problem / task / results block, keeping publishedAt, _createdAt and the
+  // main content untouched.
   if (process.argv.includes("--patch")) {
     const ptx = client.transaction();
-    docs.forEach((doc) => ptx.patch(doc._id, (p) => p.set({ fullTitle: doc.fullTitle, screenshots: doc.screenshots })));
+    docs.forEach((doc) => ptx.patch(doc._id, (p) => p.set({ fullTitle: doc.fullTitle, screenshots: doc.screenshots, challenges: doc.challenges })));
     const res = await ptx.commit();
     console.log("Patched:", res.results.map((r) => r.id).join(", "));
     return;

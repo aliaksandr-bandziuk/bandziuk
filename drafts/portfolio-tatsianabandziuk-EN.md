@@ -48,6 +48,7 @@ The brief was wider than a business card. The site had to be recognisable at a g
 
 [RESULTS]
 - 153 pages: 52 in English, 51 in Polish, 50 in Russian
+- PageSpeed Insights, mobile: 100 for performance, accessibility, best practices and SEO; readiness for AI agents 3 of 3
 - 54 articles, 18 service pages, 18 case studies, 15 calculator pages, 18 blog categories
 - 572 questions answered in the site's text: 205 in English, 188 in Polish, 179 in Russian
 - Five retail calculators in three languages: margin and markup, sell-through, stock turnover, GMROI, open-to-buy
@@ -142,6 +143,11 @@ The brief was wider than a business card. The site had to be recognisable at a g
    title: "Status bar with a word count"
    alt: "Article with a selected paragraph and the status bar at the bottom showing the number of words and characters"
    caption: Select a paragraph and the status bar at the bottom shows the words and characters, as in Excel. The formulas in the article are text, so they can be quoted.
+
+15. (15-pagespeed.jpg)
+   title: "PageSpeed Insights: 100 in all four categories"
+   alt: "PageSpeed Insights report for the mobile site: Performance, Accessibility, Best Practices and SEO at 100, Agentic Browsing 3 of 3"
+   caption: The mobile PageSpeed Insights test: 100 for performance, accessibility, best practices and SEO, and 3 of 3 in the new check of readiness for AI agents. First Contentful Paint 1.2 s, Largest Contentful Paint 1.7 s, layout shift 0.002.
 
 [MAIN CONTENT]
 

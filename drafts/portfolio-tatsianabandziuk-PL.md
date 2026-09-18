@@ -49,6 +49,7 @@ Zadanie było szersze niż wizytówka. Strona miała od pierwszego spojrzenia wy
 
 [RESULTS]
 - 153 podstrony: 52 po angielsku, 51 po polsku, 50 po rosyjsku
+- PageSpeed Insights, wersja mobilna: 100 za wydajność, dostępność, dobre praktyki i SEO; gotowość na agentów AI — 3 z 3
 - 54 artykuły, 18 podstron usług, 18 realizacji, 15 podstron kalkulatorów, 18 kategorii bloga
 - 572 pytania z odpowiedziami w treściach strony: 205 po angielsku, 188 po polsku, 179 po rosyjsku
 - Pięć kalkulatorów dla handlu w trzech językach: marża i narzut, sell-through, rotacja zapasów, GMROI, open-to-buy
@@ -143,6 +144,11 @@ Zadanie było szersze niż wizytówka. Strona miała od pierwszego spojrzenia wy
    title: „Pasek stanu z licznikiem słów”
    alt: „Artykuł z zaznaczonym akapitem i paskiem stanu na dole ekranu, który pokazuje liczbę słów i znaków”
    caption: Zaznacz akapit, a pasek stanu na dole pokaże liczbę słów i znaków, jak w Excelu. Wzory w artykule są tekstem, więc można je zacytować.
+
+15. (15-pagespeed.jpg)
+   title: „Wynik PageSpeed Insights: 100 we wszystkich czterech kategoriach”
+   alt: „Raport PageSpeed Insights dla wersji mobilnej: Performance, Accessibility, Best Practices i SEO po 100, Agentic Browsing 3 z 3”
+   caption: Mobilny test PageSpeed Insights: 100 za wydajność, dostępność, dobre praktyki i SEO oraz 3 z 3 w nowym teście gotowości strony na agentów AI. Pierwsze wyrenderowanie treści 1,2 s, największy element 1,7 s, przesunięcie układu 0,002.
 
 [MAIN CONTENT]
 

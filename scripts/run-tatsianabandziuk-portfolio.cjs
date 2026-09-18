@@ -31,12 +31,19 @@ const MANIFEST = path.join(SHOTS, "assets.json");
 // out of the slider. The home-page screenshot 1-hero-en.png goes into the slider.
 const PREVIEW_FILE = "tatsianabandziuk-00.png";
 // Slider order. Filenames must match assets.json keys.
+// Grouped by topic: the site and its charts, the Excel-style interface, the
+// Power BI case page, calculators and templates, content, languages.
 const SLIDER_FILES = [
   "1-hero-en.png",
+  "13-service-charts.png",
   "2-contact-form-excel.png",
-  "3-case-slicer.png",
   "4-datasheet-statusbar.png",
+  "14-statusbar-word-count.png",
+  "3-case-slicer.png",
+  "10-calculators-hub.png",
   "5-calculator.png",
+  "11-open-to-buy-calculator.png",
+  "12-excel-templates.png",
   "6-article.png",
   "7-diplomas.png",
   "8-polish-version.png",
@@ -370,6 +377,16 @@ async function main() {
       console.log("internal links:   ", links);
     }
     console.log("\nDry run — nothing written.");
+    return;
+  }
+
+  // --patch: the documents already exist; update only the H1 and the slider,
+  // keeping publishedAt, _createdAt and everything else untouched.
+  if (process.argv.includes("--patch")) {
+    const ptx = client.transaction();
+    docs.forEach((doc) => ptx.patch(doc._id, (p) => p.set({ fullTitle: doc.fullTitle, screenshots: doc.screenshots })));
+    const res = await ptx.commit();
+    console.log("Patched:", res.results.map((r) => r.id).join(", "));
     return;
   }
 

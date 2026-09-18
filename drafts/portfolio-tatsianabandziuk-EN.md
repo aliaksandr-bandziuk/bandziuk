@@ -14,7 +14,7 @@ consultant-website-design-retail-analytics
 A consultant website for a retail analytics expert
 
 [FULL TITLE — H1]
-Consulting website design case study: a trilingual site for a retail analytics consultant
+Consultant website design, SEO and GEO: a trilingual site for a retail analytics consultant
 
 [EXCERPT] (≤200 characters)
 A consultant website that answers the client's questions before it sells: 153 pages in three languages, five retail calculators, downloadable templates and pages built to be quoted by AI.
@@ -117,6 +117,31 @@ The brief was wider than a business card. The site had to be recognisable at a g
    title: "Russian version of the site"
    alt: "Russian version of the retail analytics consultant website"
    caption: The Russian version works for trust and for AI answers: search demand for this topic in the markets that can be measured is close to zero.
+
+10. (10-calculators-hub.png)
+   title: "Five retail calculators on one page"
+   alt: "Calculators page with five retail calculators numbered like Excel formulas, from =01 to =05"
+   caption: All five calculators sit on one page, and the cards are numbered the way Excel writes formulas: =01 to =05.
+
+11. (11-open-to-buy-calculator.png)
+   title: "Open-to-buy calculator with spreadsheet-cell inputs"
+   alt: "Open-to-buy calculator with five inputs addressed A1 to A5, the result in cell B1 and the formula below"
+   caption: The inputs are cells A1 to A5 and the result is B1. The formula sits below as text, with a note that the numbers never leave the browser.
+
+12. (12-excel-templates.png)
+   title: "Free templates: an open-to-buy Excel model and a dashboard checklist"
+   alt: "Preview of the open-to-buy template as an Excel sheet with a colour scale, next to a preview of the Power BI KPI dashboard checklist"
+   caption: The open-to-buy model and the dashboard checklist are sent to the visitor by email. Every formula in the model is checked by a script that recalculates the whole workbook.
+
+13. (13-service-charts.png)
+   title: "Service cards with mini charts"
+   alt: "The consultant's service cards with mini charts: a size curve, a price ladder and a dashboard layout"
+   caption: Each service has its own mini chart. The charts are drawn on the server, so they are visible even without JavaScript.
+
+14. (14-statusbar-word-count.png)
+   title: "Status bar with a word count"
+   alt: "Article with a selected paragraph and the status bar at the bottom showing the number of words and characters"
+   caption: Select a paragraph and the status bar at the bottom shows the words and characters, as in Excel. The formulas in the article are text, so they can be quoted.
 
 [MAIN CONTENT]
 

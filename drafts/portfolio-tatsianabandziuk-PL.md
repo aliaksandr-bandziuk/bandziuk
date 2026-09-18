@@ -15,7 +15,7 @@ strona-dla-eksperta-od-analityki-handlu
 Strona internetowa dla eksperta od analityki handlu
 
 [FULL TITLE — H1]
-Strona internetowa dla eksperta od analityki handlu: projekt, wdrożenie i przygotowanie pod odpowiedzi AI
+Strona internetowa dla eksperta od analityki handlu: projekt, SEO i GEO pod wyszukiwarki AI
 
 [EXCERPT] (≤200 znaków)
 Strona eksperta, która najpierw pomaga, a potem sprzedaje: 153 podstrony w trzech językach, pięć kalkulatorów dla handlu, szablony do pobrania i treści gotowe do cytowania przez AI.
@@ -118,6 +118,31 @@ Zadanie było szersze niż wizytówka. Strona miała od pierwszego spojrzenia wy
    title: „Rosyjska wersja strony”
    alt: „Rosyjska wersja strony ekspertki od analityki handlu”
    caption: Wersja rosyjska pracuje na zaufanie i na odpowiedzi AI: popytu wyszukiwania na ten temat na dostępnych rynkach prawie nie ma.
+
+10. (10-calculators-hub.png)
+   title: „Pięć kalkulatorów dla handlu na jednej stronie”
+   alt: „Strona z pięcioma kalkulatorami dla handlu, ponumerowanymi jak formuły Excela od =01 do =05”
+   caption: Pięć kalkulatorów jest zebranych na jednej stronie, a karty są ponumerowane tak, jak Excel zapisuje formuły: od =01 do =05.
+
+11. (11-open-to-buy-calculator.png)
+   title: „Kalkulator open-to-buy z polami jak komórki arkusza”
+   alt: „Kalkulator open-to-buy z pięcioma polami o adresach A1–A5, wynikiem w komórce B1 i wzorem pod spodem”
+   caption: Pola to komórki A1–A5, a wynik to B1. Pod obliczeniem jest wzór zapisany tekstem i informacja, że liczby nie opuszczają przeglądarki.
+
+12. (12-excel-templates.png)
+   title: „Darmowe szablony: model open-to-buy w Excelu i checklista dashboardu”
+   alt: „Podgląd szablonu open-to-buy jako arkusza Excel ze skalą kolorów obok podglądu checklisty dashboardu KPI w Power BI”
+   caption: Model open-to-buy i checklista dashboardu trafiają do odwiedzającego mailem. Każdą formułę w modelu sprawdza skrypt, który przelicza cały skoroszyt.
+
+13. (13-service-charts.png)
+   title: „Karty usług z mini-wykresami”
+   alt: „Karty usług ekspertki z mini-wykresami: krzywa rozmiarów, drabina cen i schemat dashboardu”
+   caption: Każda usługa ma własny mini-wykres. Wykresy są rysowane na serwerze, więc widać je także bez JavaScriptu.
+
+14. (14-statusbar-word-count.png)
+   title: „Pasek stanu z licznikiem słów”
+   alt: „Artykuł z zaznaczonym akapitem i paskiem stanu na dole ekranu, który pokazuje liczbę słów i znaków”
+   caption: Zaznacz akapit, a pasek stanu na dole pokaże liczbę słów i znaków, jak w Excelu. Wzory w artykule są tekstem, więc można je zacytować.
 
 [MAIN CONTENT]
 

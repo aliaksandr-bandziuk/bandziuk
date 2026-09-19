@@ -1,3 +1,4 @@
+import { assertLocale } from "@/lib/assertLocale";
 import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -31,6 +32,8 @@ export function generateStaticParams() {
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const lang = params.lang as AiCheckLang;
   const t = CHECKER_COPY[lang];
   if (!t) return {};
@@ -54,6 +57,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
 export default async function AiVisibilityCheckerPage(props: Props) {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const lang = params.lang as AiCheckLang;
   const t = CHECKER_COPY[lang];
   if (!t) notFound();

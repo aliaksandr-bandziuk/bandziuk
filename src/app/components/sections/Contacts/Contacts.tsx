@@ -3,7 +3,7 @@ import styles from "./Contacts.module.scss";
 import { ContactsSection } from "@/types/homepage";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
-import FormFull from "../../forms/FormFull/FormFull";
+import FormFull from "../../forms/FormFull/FormFullOnView";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import FadeInOnScroll from "../../animations/FadeInOnScroll/FadeInOnScroll";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";

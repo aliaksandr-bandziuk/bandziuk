@@ -884,6 +884,11 @@ PageSpeed "Legacy JavaScript" warning is gone.
 - **`next build` no longer lints.** Run `npm run lint` yourself. Four React
   Compiler rules (`set-state-in-effect`, `refs`, `immutability`,
   `static-components`) are warnings: they flag working code here.
+- **Particles start from our own effect, not the `react-tsparticles` component.**
+  Its v2 class runs twice under React 19 StrictMode (dev) and crashed the
+  animation loop ("reading `position`"). `ParticlesBackground` loads the
+  engine once and destroys its container on unmount. `react-tsparticles` is
+  no longer imported; remove it with the tsparticles v3 upgrade.
 - `react-icons` is pinned to 5.5.0: 5.7 removed `SiAdobephotoshop`, used by
   `PortfolioTechnologies`.
 
@@ -895,3 +900,66 @@ PageSpeed "Legacy JavaScript" warning is gone.
   Studio isn't connected": add the origin to CORS in manage.sanity.io.
 - Still open, separate tasks: swiper 14 and nodemailer 10 (security advisories),
   tsparticles v3.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
+
+## 16. PageSpeed: what keeps the mobile score up (September 2026)
+
+Mobile Lighthouse, locally with CPU slowdown 2 (calibrated to PageSpeed's
+machines; this laptop's benchmark index is ~700): homepage 37 → ~90, service
+page 39 → ~90, blog post ~85; accessibility 100. Measure with
+`research/next16/measure.sh` in the worktree, median of 3 runs.
+
+**How Lighthouse scores LCP here.** The H1 paints at first paint (~0.6 s). The
+simulated LCP is when everything *requested before that paint* would finish on
+a slow 4G link: scripts, fonts and non-low-priority images. So LCP is decided
+by bytes requested early, not by when the H1 appears. Every rule below follows
+from that.
+
+- **Nothing optional before the first paint.** `src/lib/defer.ts`:
+  `afterInteraction` (GA, Clarity: first scroll/tap/key or 4 s after load) and
+  `afterLoadIdle` (Lenis, particles: 1.5 s after load, then idle). `load` can
+  fire before the first paint, hence the delay.
+- **Fonts are not preloaded** (`preload: false`, `display: "swap"` in
+  `[lang]/layout.tsx`). Preloads went onto the H1's path.
+- **`FadeInOnScroll` is CSS and leaves on-screen blocks alone.** The
+  framer-motion version hid the whole page after hydration and re-showed it.
+  Do not bring framer-motion back into anything that renders on page load; it
+  now lives only in the lazily loaded contact dialog.
+- **Heavy client widgets load when needed:** the contact dialog on first open
+  (warmed on hover/focus of `ModalButton`), the footer form and in-page form
+  blocks (`FormFullOnView`, `FormBlockOnView`, which still server-render the
+  block's H2), the reviews Swiper (`SliderReviewsOnView`, all reviews stay in
+  the HTML). Swiper autoplay runs only while the slider is visible.
+- **Client components import `urlFor` from `@/sanity/imageUrl`,** never from
+  `sanity.client.ts`: that pulled the whole Sanity client into the browser.
+- **Particles use `tsparticles-basic` + the twinkle updater,** not `loadFull`
+  (a single 0.5 s task).
+- **Images:** no `priority` below the fold (portfolio cards had it); a
+  `fill` or oversized image needs a real `sizes` (the loader logo in
+  `loading.tsx` was fetched at 1920 px).
+- **The cookie banner is server-rendered** so it is in the first paint (a late
+  banner cost Speed Index). An inline script in `<head>` hides it for returning
+  visitors before paint; the buttons are a small client component. Its
+  constants live in `consent.ts`, not in a `"use client"` module.
+- **`--text-tertiary` is #84848d** (≥4.5:1 on every dark background).
+- `experimental.inlineCss` was tried and made the service page slower. Off.
+
+**Also fixed on the way:** any path with a dot skips the proxy and reached
+`[lang]` as a language: `/llms.txt` answered 500 in production. Every page
+under `[lang]` now calls `assertLocale()` right after awaiting params (the
+layout check alone lost the race to the page and still gave 500), and
+`src/app/llms.txt/route.ts` serves an llmstxt.org file built from Sanity.
+
+**Still open:** JetBrains Mono (31 KB) is requested before first paint for the
+eyebrow labels; a system monospace stack measured +2-3 points and half the
+homepage CLS (owner's design call). Blog posts occasionally show CLS ~0.12
+from the `loading.tsx` fallback swap (§5 J explains why that boundary stays).

@@ -1,3 +1,4 @@
+import { assertLocale } from "@/lib/assertLocale";
 import React from "react";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
@@ -34,6 +35,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const { lang, slug } = params;
   const data = await getPortfolioByLang(lang, slug);
 
@@ -91,6 +94,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
 const PortfolioPage = async (props: Props) => {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const { lang, slug } = params;
   const portfolio = await getPortfolioByLang(lang, slug);
 

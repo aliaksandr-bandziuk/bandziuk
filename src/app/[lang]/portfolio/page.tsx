@@ -1,3 +1,4 @@
+import { assertLocale } from "@/lib/assertLocale";
 import Footer from "@/app/components/layout/Footer/Footer";
 import { BASE_URL } from "@/utils/hreflang";
 import Header from "@/app/components/layout/Header/Header";
@@ -26,6 +27,8 @@ export function generateStaticParams() {
 // Dynamic metadata for SEO
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const data = await getPortfolioPageByLang(params.lang);
 
   const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
@@ -58,6 +61,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
 const PortfolioAll = async (props: Props) => {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const totalProjects = await getPortfolioItemsByLang(params.lang);
   const portfolioPage = await getPortfolioPageByLang(params.lang);
 

@@ -6,7 +6,7 @@ import { Navigation, Keyboard } from "swiper/modules";
 import "swiper/css";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
-import { urlFor } from "@/sanity/sanity.client";
+import { urlFor } from "@/sanity/imageUrl";
 import { Screenshot } from "@/types/portfolio";
 import { RichText } from "../../shared/RichText/RichText";
 import styles from "./ScreenshotLightbox.module.scss";

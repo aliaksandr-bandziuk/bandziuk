@@ -1,3 +1,4 @@
+import { assertLocale } from "@/lib/assertLocale";
 import { Metadata } from "next";
 import Link from "next/link";
 import { BASE_URL } from "@/utils/hreflang";
@@ -41,6 +42,8 @@ export function generateStaticParams() {
 // Dynamic metadata for SEO
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const homePage = await getHomePageByLang(params.lang);
   const canonicalPath = params.lang === "en" ? "/" : `/${params.lang}`;
 
@@ -70,6 +73,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
 export default async function Home(props: Props) {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const homePage = await getHomePageByLang(params.lang);
 
   const formDocument: FormStandardDocument =

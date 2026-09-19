@@ -104,3 +104,8 @@
     }
   }
 }
+
+// Set before the first paint by CONSENT_HEAD_SCRIPT, or by a click.
+:global(html.cookie-consent-set) .cookieBanner {
+  display: none;
+}

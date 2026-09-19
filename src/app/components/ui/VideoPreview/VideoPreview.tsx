@@ -4,7 +4,7 @@ import styles from "./VideoPreview.module.scss";
 import YouTube, { YouTubePlayer } from "react-youtube";
 import { ImageAlt } from "@/types/common";
 import Image from "next/image";
-import { urlFor } from "@/sanity/sanity.client";
+import { urlFor } from "@/sanity/imageUrl";
 
 type Props = {
   videoId: string;

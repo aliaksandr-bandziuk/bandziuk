@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import Image from "next/image";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import SliderReviews from "../../wrappers/SliderReviews/SliderReviews";
+import SliderReviews from "../../wrappers/SliderReviews/SliderReviewsOnView";
 import { ReviewItem } from "@/types/homepage";
 import styles from "./ReviewsPanel.module.scss";
 

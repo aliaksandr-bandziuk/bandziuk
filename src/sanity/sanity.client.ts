@@ -1,7 +1,6 @@
 // Imported from @sanity/client, not the next-sanity root: the root entry pulls
 // Studio and live-preview code into the site bundle.
 import { createClient, type QueryParams } from "@sanity/client";
-import { createImageUrlBuilder } from "@sanity/image-url";
 
 export const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID as string;
 export const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET as string;
@@ -73,11 +72,9 @@ export const client = {
   },
 };
 
-const builder = createImageUrlBuilder({ projectId, dataset });
-
-export function urlFor(source: any) {
-  return builder.image(source);
-}
+// Server code may keep importing urlFor from here; client components must use
+// @/sanity/imageUrl directly (see that file).
+export { urlFor } from "./imageUrl";
 
 // Settings for Node.js scripts
 export const sanityConfig = {

@@ -1,17 +1,5 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import Cookies from "js-cookie";
 import styles from "./CustomCookieConsent.module.scss";
-
-const COOKIE_NAME = "cookieConsent";
-
-type Consent = {
-  necessary: true;
-  analytics: boolean;
-  marketing: boolean;
-};
+import CookieConsentButtons from "./CookieConsentButtons";
 
 type Props = {
   lang: "en" | "pl" | "ru";
@@ -44,87 +32,30 @@ const dictionary = {
   },
 };
 
+const policyPath = {
+  en: "/privacy-policy",
+  pl: "/pl/polityka-prywatnosci",
+  ru: "/ru/politika-privatnosti",
+};
+
+/**
+ * Server-rendered, so the banner is part of the first paint. It used to appear
+ * only after the JS loaded, as the last change to the first screen, which
+ * PageSpeed scored as a slow Speed Index. A visitor who already chose is
+ * covered by CONSENT_HEAD_SCRIPT, which hides it before anything paints.
+ */
 export default function CustomCookieConsent({ lang }: Props) {
-  const router = useRouter();
   const t = dictionary[lang] || dictionary.en;
-
-  const getNormalizedHref = (lang: string, link: string) => {
-    const normalizedLink = link.startsWith("/") ? link.slice(1) : link;
-    const languagePrefix = lang === "en" ? "" : `/${lang}`;
-    return `${languagePrefix}/${normalizedLink}`;
-  };
-
-  const [visible, setVisible] = useState(false);
-
-  // показываем баннер только если согласие ещё не сохранено
-  useEffect(() => {
-    const saved = Cookies.get(COOKIE_NAME);
-    if (!saved) {
-      setVisible(true);
-    }
-  }, []);
-
-  const acceptAll = () => {
-    const consent: Consent = {
-      necessary: true,
-      analytics: true,
-      marketing: true,
-    };
-    Cookies.set(COOKIE_NAME, JSON.stringify(consent), {
-      expires: 180,
-      sameSite: "Lax",
-    });
-    setVisible(false);
-    router.refresh();
-  };
-
-  const rejectAll = () => {
-    const consent: Consent = {
-      necessary: true,
-      analytics: false,
-      marketing: false,
-    };
-    Cookies.set(COOKIE_NAME, JSON.stringify(consent), {
-      expires: 180,
-      sameSite: "Lax",
-    });
-    setVisible(false);
-    router.refresh();
-  };
-
-  if (!visible) return null;
 
   return (
     <div className={styles.cookieBanner}>
       <h3>{t.title}</h3>
       <p>{t.description}</p>
 
-      <div className={styles.buttons}>
-        <button
-          type="button"
-          onClick={acceptAll}
-          className={styles.primaryButton}
-        >
-          {t.acceptAll}
-        </button>
-
-        <button type="button" onClick={rejectAll} className={styles.linkButton}>
-          {t.rejectAll}
-        </button>
-      </div>
+      <CookieConsentButtons acceptLabel={t.acceptAll} rejectLabel={t.rejectAll} />
 
       <p className={styles.policyLink}>
-        <a
-          href={getNormalizedHref(
-            lang,
-            {
-              en: "privacy-policy",
-              pl: "polityka-prywatnosci",
-              ru: "politika-privatnosti",
-            }[lang]
-          )}
-          target="_blank"
-        >
+        <a href={policyPath[lang] ?? policyPath.en} target="_blank">
           {t.privacy}
         </a>
       </p>

@@ -41,7 +41,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  // Dark on orange, like the primary button: white on #ff8a3c is 2.3:1.
+  color: var(--bg-base);
   text-align: center;
   font-size: 14px;
   font-style: normal;

@@ -9,6 +9,9 @@ export default function Loading() {
           alt="Loading..."
           width={772}
           height={242}
+          // Shown 200px wide (.loader in globals.css); without sizes the srcset
+          // served the 1920px candidate.
+          sizes="200px"
         />
       </span>
     </div>

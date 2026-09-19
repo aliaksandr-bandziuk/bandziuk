@@ -1,30 +1,42 @@
 "use client";
-import React, { FC } from "react";
+import React, { FC, useEffect, useRef } from "react";
+import type { Swiper as SwiperInstance } from "swiper";
 import styles from "./SliderReviews.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Parallax } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import { PortableText } from "@portabletext/react";
-import { RichText } from "../../shared/RichText/RichText";
 import { ReviewItem } from "@/types/homepage";
-import Image from "next/image";
-import { urlFor } from "@/sanity/sanity.client";
+import ReviewSlide from "./ReviewSlide";
 
 type Props = {
   reviews: ReviewItem[];
 };
 
 const SliderReviews: FC<Props> = ({ reviews }) => {
-  // Same picture as the old files/ URL, uploaded as an image asset so Sanity's
-  // image CDN can resize it (18 KB PNG → 3 KB WebP).
-  const avatarUrl =
-    "https://cdn.sanity.io/images/x6jc462y/production/d355838057446111a204245c97aed7a0cec7acba-300x300.png";
+  const rootRef = useRef<HTMLDivElement>(null);
+  const swiperRef = useRef<SwiperInstance | null>(null);
+
+  // Autoplay runs only while the slider is on screen. Swiper's autoplay keeps a
+  // requestAnimationFrame loop going the whole time, which PageSpeed counted as
+  // seconds of main-thread work on a slider far below the first screen.
+  useEffect(() => {
+    const el = rootRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver((entries) => {
+      const autoplay = swiperRef.current?.autoplay;
+      if (!autoplay) return;
+      if (entries[0]?.isIntersecting) autoplay.start();
+      else autoplay.stop();
+    });
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   if (!reviews || reviews.length === 0) return null;
 
   return (
-    <div className={styles.sliderReviews}>
+    <div className={styles.sliderReviews} ref={rootRef}>
       <Swiper
         modules={[Pagination, Autoplay, Parallax]}
         pagination={{ clickable: true }}
@@ -34,49 +46,14 @@ const SliderReviews: FC<Props> = ({ reviews }) => {
         slidesPerView={1}
         loop={true}
         autoplay={{ delay: 5000, disableOnInteraction: true }}
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
+          swiper.autoplay?.stop(); // started by the observer when visible
+        }}
       >
         {reviews.map((review) => (
           <SwiperSlide key={review._key} className={styles.slide}>
-            <div className={styles.reviewBlock}>
-              <div
-                className={styles.textReview}
-                data-swiper-parallax="-500"
-                data-swiper-parallax-duration="600"
-              >
-                <PortableText value={review.reviewText} components={RichText} />
-              </div>
-              <div
-                className={styles.author}
-                data-swiper-parallax="-650"
-                data-swiper-parallax-duration="1000"
-              >
-                <div className={styles.authorAvatar}>
-                  {review.image ? (
-                    <Image
-                      src={urlFor(review.image).url()}
-                      alt={review.image.alt ?? review.name}
-                      width={100}
-                      height={100}
-                      className={styles.authorImage}
-                    />
-                  ) : (
-                    <Image
-                      src={avatarUrl}
-                      alt={review.name}
-                      width={100}
-                      height={100}
-                      className={styles.authorImage}
-                    />
-                  )}
-                </div>
-                <div className={styles.authorText}>
-                  <p className={styles.authorName}>
-                    <span>{review.name}</span> | <span>{review.position}</span>
-                  </p>
-                  <p className={styles.authorCountry}>{review.country}</p>
-                </div>
-              </div>
-            </div>
+            <ReviewSlide review={review} />
           </SwiperSlide>
         ))}
       </Swiper>

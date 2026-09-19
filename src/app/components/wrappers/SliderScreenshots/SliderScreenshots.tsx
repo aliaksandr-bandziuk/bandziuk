@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { PortableText } from "@portabletext/react";
 import { RichText } from "../../shared/RichText/RichText";
 import Image from "next/image";
-import { urlFor } from "@/sanity/sanity.client";
+import { urlFor } from "@/sanity/imageUrl";
 import { Screenshot } from "@/types/portfolio";
 import ScreenshotSlide from "../../ui/ScreenshotSlide/ScreenshotSlide";
 

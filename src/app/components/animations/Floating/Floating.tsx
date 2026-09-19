@@ -1,27 +1,14 @@
-"use client";
 import React, { ReactElement } from "react";
-import { motion } from "framer-motion";
+import styles from "./Floating.module.scss";
 
 type Props = {
   children: ReactElement;
 };
 
+// Endless drift in CSS keyframes: runs on the compositor, needs no JS. The
+// framer-motion version kept the main thread busy on every frame.
 const Floating = ({ children }: Props) => {
-  return (
-    <motion.div
-      animate={{
-        y: [0, -50, 0, 20, 0], // вверх-вниз
-        x: [0, 10, 0, -10, 0], // немного по сторонам
-      }}
-      transition={{
-        duration: 8,
-        repeat: Infinity,
-        ease: "easeInOut",
-      }}
-    >
-      {children}
-    </motion.div>
-  );
+  return <div className={styles.floating}>{children}</div>;
 };
 
 export default Floating;

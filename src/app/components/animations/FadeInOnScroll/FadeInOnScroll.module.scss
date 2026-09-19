@@ -1,0 +1,12 @@
+.hidden {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 40px));
+  transition:
+    opacity 0.6s ease-out var(--reveal-delay, 0s),
+    transform 0.6s ease-out var(--reveal-delay, 0s);
+}
+
+.shown {
+  opacity: 1;
+  transform: none;
+}

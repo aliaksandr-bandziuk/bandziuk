@@ -41,7 +41,6 @@ const PortfolioItem = ({ project, lang }: Props) => {
           height={563}
           className={styles.screenshot}
           sizes="(max-width: 768px) 100vw, 900px"
-          priority
         />
       </div>
 

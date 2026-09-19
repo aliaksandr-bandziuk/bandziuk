@@ -48,6 +48,10 @@ export default function ScrambleOnView({ children }: Props) {
   useLayoutEffect(() => {
     const root = ref.current;
     if (!root || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    // Already on screen when the page hydrates (the hero facts): no scramble.
+    // Rewriting visible text late in the load counts against Speed Index and
+    // LCP; the effect is for values the visitor scrolls to.
+    if (root.getBoundingClientRect().top < window.innerHeight) return;
 
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
     const nodes: { node: Text; original: string }[] = [];

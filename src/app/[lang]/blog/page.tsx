@@ -1,4 +1,5 @@
 // page.tsx
+import { assertLocale } from "@/lib/assertLocale";
 import React from "react";
 import { Metadata } from "next";
 import { BASE_URL } from "@/utils/hreflang";
@@ -30,6 +31,8 @@ export function generateStaticParams() {
 // Dynamic metadata for SEO
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const data = await getBlogPageByLang(params.lang);
 
   const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
@@ -62,6 +65,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
 const PageBlog = async (props: Props) => {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const { lang } = params;
 
   const posts = await getBlogPostsByLang(lang);

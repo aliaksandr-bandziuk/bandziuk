@@ -1,3 +1,4 @@
+import { assertLocale } from "@/lib/assertLocale";
 import React from "react";
 import { notFound } from "next/navigation";
 import {
@@ -33,7 +34,7 @@ import TextContentComponent from "@/app/components/blocks/TextContentComponent/T
 import AccordionContainer from "@/app/components/shared/AccordionContainer/AccordionContainer";
 import ImageFullBlockComponent from "@/app/components/blocks/ImageFullBlockComponent/ImageFullBlockComponent";
 import DoubleTextBlockComponent from "@/app/components/blocks/DoubleTextBlockComponent/DoubleTextBlockComponent";
-import FormMinimalBlockComponent from "@/app/components/blocks/FormMinimalBlockComponent/FormMinimalBlockComponent";
+import FormBlockOnView from "@/app/components/blocks/FormBlockOnView/FormBlockOnView";
 import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/TableBlockComponent";
 import Header from "@/app/components/layout/Header/Header";
 import SchemaBlogPost from "@/app/components/seo/SchemaBlogPost/SchemaBlogPost";
@@ -62,6 +63,8 @@ export async function generateStaticParams() {
 // Dynamic metadata for SEO
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const { lang, slug } = params;
   const data = await getBlogPostByLang(lang, slug);
 
@@ -114,6 +117,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
 const PagePost = async (props: Props) => {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const { lang, slug } = params;
   const blog = await getBlogPostByLang(lang, slug);
 
@@ -202,7 +207,8 @@ const PagePost = async (props: Props) => {
         );
       case "formMinimalBlock":
         return (
-          <FormMinimalBlockComponent
+          <FormBlockOnView
+            variant="minimal"
             key={(block as FormMinimalBlock)._key}
             form={(block as FormMinimalBlock).form}
             lang={lang}

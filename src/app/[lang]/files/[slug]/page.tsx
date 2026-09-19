@@ -1,12 +1,15 @@
+import { assertLocale } from "@/lib/assertLocale";
 import { getFileBySlug } from "@/sanity/sanity.utils";
 import { SanityFile } from "@/types/sanityFile";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ lang: string; slug: string }>;
 };
 
 const FilePage = async (props: Props) => {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const { slug } = params;
   const file: SanityFile | null = await getFileBySlug(slug);
 

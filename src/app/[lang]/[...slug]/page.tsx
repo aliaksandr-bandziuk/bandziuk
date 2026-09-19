@@ -1,4 +1,5 @@
 // app/[lang]/[[...slug]]/page.tsx
+import { assertLocale } from "@/lib/assertLocale";
 import React from "react";
 import groq from "groq";
 import styles from "./page.module.scss";
@@ -63,9 +64,8 @@ import GridBlockComponent from "@/app/components/blocks/GridBlockComponent/GridB
 import AnimationBulletsBlockComponent from "@/app/components/blocks/AnimationBulletsBlock/AnimationBulletsBlock";
 import WorkProcessBlockComponent from "@/app/components/blocks/WorkProcessBlockComponent/WorkProcessBlockComponent";
 import PortfolioBlockComponent from "@/app/components/blocks/PortfolioBlockComponent/PortfolioBlockComponent";
-import FormMinimalBlockComponent from "@/app/components/blocks/FormMinimalBlockComponent/FormMinimalBlockComponent";
+import FormBlockOnView from "@/app/components/blocks/FormBlockOnView/FormBlockOnView";
 import ContactMethodsBlockComponent from "@/app/components/blocks/ContactMethodsBlockComponent/ContactMethodsBlockComponent";
-import FormFullBlockComponent from "@/app/components/blocks/FormFullBlockComponent/FormFullBlockComponent";
 import LocationBlockComponent from "@/app/components/blocks/LocationBlockComponent/LocationBlockComponent";
 import BenefitsBlock from "@/app/components/blocks/BenefitsBlock/BenefitsBlock";
 import LandingCtaBlock from "@/app/components/blocks/LandingCtaBlock/LandingCtaBlock";
@@ -139,6 +139,8 @@ export async function generateStaticParams(): Promise<{ lang: string; slug: stri
  */
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const { lang, slug = [] } = params;
   const current = slug[slug.length - 1] || "";
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
@@ -207,6 +209,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
 const SinglePage = async (props: Props) => {
   const params = await props.params;
+
+  assertLocale(params.lang);
   const { lang, slug } = params;
   const current = slug[slug.length - 1] || "";
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
@@ -418,7 +422,8 @@ const SinglePage = async (props: Props) => {
         );
       case "formMinimalBlock":
         return (
-          <FormMinimalBlockComponent
+          <FormBlockOnView
+            variant="minimal"
             key={(block as FormMinimalBlock)._key}
             title={(block as FormMinimalBlock).title}
             form={(block as FormMinimalBlock).form}
@@ -436,7 +441,8 @@ const SinglePage = async (props: Props) => {
         );
       case "formFullBlock":
         return (
-          <FormFullBlockComponent
+          <FormBlockOnView
+            variant="full"
             key={(block as FormFullBlock)._key}
             title={(block as FormFullBlock).title}
             form={(block as FormFullBlock).form}

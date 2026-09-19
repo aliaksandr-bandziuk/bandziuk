@@ -88,7 +88,8 @@ table {
   /* Text */
   --text-primary: #fafafa;
   --text-secondary: #a1a1aa;
-  --text-tertiary: #71717a;
+  /* #71717a was 3.6-4.1:1 on the dark backgrounds, below WCAG AA (4.5). */
+  --text-tertiary: #84848d;
   --text-reading: #d4d4d8;
 
   /* Long-form reading measure */

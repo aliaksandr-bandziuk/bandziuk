@@ -1,7 +1,7 @@
 "use client";
 import React, { FC, useEffect, useState } from "react";
 import Image from "next/image";
-import { urlFor } from "@/sanity/sanity.client";
+import { urlFor } from "@/sanity/imageUrl";
 import { ImageAlt } from "@/types/common";
 import VideoPreview from "../VideoPreview/VideoPreview";
 

@@ -119,7 +119,6 @@ const LocaleSwitcher = ({ translations }: Props) => {
             >
               <Link
                 href={hrefFor(version)}
-                locale={version.language}
                 className={styles.localeSwitcherLink}
                 onClick={() => setIsOpen(false)}
               >

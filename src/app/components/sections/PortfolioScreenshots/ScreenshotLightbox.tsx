@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Keyboard } from "swiper/modules";
 import "swiper/css";
-import { PortableText } from "next-sanity";
+import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import { Screenshot } from "@/types/portfolio";

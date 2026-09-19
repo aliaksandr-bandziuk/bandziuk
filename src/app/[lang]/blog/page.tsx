@@ -19,7 +19,7 @@ import BlogIntro from "@/app/components/layout/BlogIntro/BlogIntro";
 import BreadcrumbsBlog from "@/app/components/layout/BreadcrumbsBlog/BreadcrumbsBlog";
 
 type Props = {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 };
 
 // Without this the blog index renders on every request and is never cached.
@@ -28,7 +28,8 @@ export function generateStaticParams() {
 }
 
 // Dynamic metadata for SEO
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const data = await getBlogPageByLang(params.lang);
 
   const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
@@ -59,7 +60,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const PageBlog = async ({ params }: Props) => {
+const PageBlog = async (props: Props) => {
+  const params = await props.params;
   const { lang } = params;
 
   const posts = await getBlogPostsByLang(lang);

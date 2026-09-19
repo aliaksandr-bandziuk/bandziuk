@@ -30,7 +30,7 @@ import CaseStudy from "../components/sections/CaseStudy/CaseStudy";
 import Compare from "../components/sections/Compare/Compare";
 
 type Props = {
-  params: { lang: string; slug: string };
+  params: Promise<{ lang: string; slug: string }>;
 };
 
 // Without this the homepage renders on every request and is never cached.
@@ -39,7 +39,8 @@ export function generateStaticParams() {
 }
 
 // Dynamic metadata for SEO
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const homePage = await getHomePageByLang(params.lang);
   const canonicalPath = params.lang === "en" ? "/" : `/${params.lang}`;
 
@@ -67,7 +68,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function Home({ params }: Props) {
+export default async function Home(props: Props) {
+  const params = await props.params;
   const homePage = await getHomePageByLang(params.lang);
 
   const formDocument: FormStandardDocument =

@@ -18,7 +18,7 @@ import AiVisibilityChecker from "@/app/components/tools/AiVisibilityChecker/AiVi
 import { CHECKER_COPY } from "@/app/components/tools/AiVisibilityChecker/copy";
 import styles from "./page.module.scss";
 
-type Props = { params: { lang: string } };
+type Props = { params: Promise<{ lang: string }> };
 
 const PATH = "/tools/ai-visibility-checker";
 const LANGS: AiCheckLang[] = ["en", "pl", "ru"];
@@ -29,7 +29,8 @@ export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const lang = params.lang as AiCheckLang;
   const t = CHECKER_COPY[lang];
   if (!t) return {};
@@ -51,7 +52,8 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
-export default async function AiVisibilityCheckerPage({ params }: Props) {
+export default async function AiVisibilityCheckerPage(props: Props) {
+  const params = await props.params;
   const lang = params.lang as AiCheckLang;
   const t = CHECKER_COPY[lang];
   if (!t) notFound();

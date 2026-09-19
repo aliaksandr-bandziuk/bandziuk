@@ -1,19 +1,12 @@
 import React, { FC } from "react";
 import styles from "./Reviews.module.scss";
 import { ReviewsSection } from "@/types/homepage";
-import dynamic from "next/dynamic";
+import ParticlesBackground from "@/app/components/animations/ParticlesBackground/ParticlesBackgroundLazy";
 import ReviewsPanel from "../../shared/ReviewsPanel/ReviewsPanel";
 
 type Props = {
   reviews: ReviewsSection;
 };
-
-const ParticlesBackground = dynamic(
-  () => import("../../animations/ParticlesBackground/ParticlesBackground"),
-  {
-    ssr: false,
-  }
-);
 
 const Reviews: FC<Props> = ({ reviews }) => {
   const { pretitle, title, subtitle } = reviews;

@@ -1,7 +1,8 @@
 import { useState, useEffect, RefObject } from "react";
 
 const useIntersectionObserver = (
-  ref: RefObject<Element>,
+  // React 19: useRef<T>(null) returns RefObject<T | null>.
+  ref: RefObject<Element | null>,
   options: IntersectionObserverInit = {}
 ) => {
   const [isIntersecting, setIsIntersecting] = useState(false);

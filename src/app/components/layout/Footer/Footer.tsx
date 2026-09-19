@@ -5,7 +5,7 @@ import Link from "next/link"; // Импортируйте тип Link и пер�
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 import { FooterColumn, FooterLink, SocialLink } from "@/types/footer";
-import dynamic from "next/dynamic";
+import ParticlesBackground from "@/app/components/animations/ParticlesBackground/ParticlesBackgroundLazy";
 import Contacts from "../../sections/Contacts/Contacts";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 
@@ -16,13 +16,6 @@ type Props = {
   // this same band again right above the footer would be a duplicate ask.
   hideContactBand?: boolean;
 };
-
-const ParticlesBackground = dynamic(
-  () => import("../../animations/ParticlesBackground/ParticlesBackground"),
-  {
-    ssr: false,
-  }
-);
 
 const Footer = async ({ params, formDocument, hideContactBand }: Props) => {
   const data = await getFooterByLang(params.lang);

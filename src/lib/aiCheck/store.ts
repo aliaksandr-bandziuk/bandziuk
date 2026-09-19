@@ -1,5 +1,5 @@
 import crypto from "crypto";
-import { createClient } from "next-sanity";
+import { createClient } from "@sanity/client";
 import { apiVersion, dataset, projectId } from "@/sanity/sanity.client";
 import { aiCheckConfig } from "./config";
 import type { AiCheckInput, AiCheckReport } from "./types";

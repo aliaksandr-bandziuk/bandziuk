@@ -1,7 +1,7 @@
 import { HeroSection } from "@/types/homepage";
 import React, { FC } from "react";
 import styles from "./Hero.module.scss";
-import dynamic from "next/dynamic";
+import ParticlesBackground from "@/app/components/animations/ParticlesBackground/ParticlesBackgroundLazy";
 import Button from "../../ui/Button/Button";
 import { ModalButton } from "../../ui/Button/ModalButton";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
@@ -10,13 +10,6 @@ import ScrambleOnView from "../../animations/ScrambleOnView/ScrambleOnView";
 export type Props = {
   heroSection: HeroSection;
 };
-
-const ParticlesBackground = dynamic(
-  () => import("../../animations/ParticlesBackground/ParticlesBackground"),
-  {
-    ssr: false,
-  }
-);
 
 const Hero: FC<Props> = ({ heroSection }) => {
   if (!heroSection) {

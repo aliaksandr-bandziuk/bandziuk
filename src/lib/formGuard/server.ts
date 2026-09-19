@@ -72,7 +72,12 @@ function rateLimited(ip: string, now = Date.now()): boolean {
 }
 
 function clientIp(req: NextRequest): string {
-  return req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || req.ip || "unknown";
+  // NextRequest.ip was removed in Next 15; Vercel sets both headers.
+  return (
+    req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+    req.headers.get("x-real-ip") ||
+    "unknown"
+  );
 }
 
 /**

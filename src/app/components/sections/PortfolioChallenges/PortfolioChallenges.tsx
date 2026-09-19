@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styles from "./PortfolioChallenges.module.scss";
 import { Challenges } from "@/types/portfolio";
-import { PortableText } from "next-sanity";
+import { PortableText } from "@portabletext/react";
 import { RichText } from "../../shared/RichText/RichText";
 
 type Props = {

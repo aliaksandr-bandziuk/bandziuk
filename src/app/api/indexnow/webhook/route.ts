@@ -55,7 +55,13 @@ export async function POST(request: NextRequest) {
   // cached for a day and this is how a publish reaches them immediately. It
   // also runs first so the URL resolution below reads fresh data. A manual
   // refresh is a POST with the secret and body {"_id":"manual","_type":"manual"}.
-  revalidateTag(SANITY_CACHE_TAG);
+  // Next 16 requires a cache profile. It must be "max", NOT { expire: 0 }:
+  // expire: 0 deletes the cached pages, and routes with dynamicParams = false
+  // ([...slug], the AI checker) then answer 404 (NoFallbackError) until the
+  // next deploy. "max" marks them stale: the first request after a publish gets
+  // the old page and triggers regeneration with fresh Sanity data, every later
+  // request gets the new one. Verified on a local build, 2026-09-19.
+  revalidateTag(SANITY_CACHE_TAG, "max");
 
   if (!TRACKED_TYPES.has(payload._type)) {
     return NextResponse.json({ revalidated: true, skipped: true, reason: "type not tracked" });

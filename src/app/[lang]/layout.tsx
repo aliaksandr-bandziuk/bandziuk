@@ -40,13 +40,18 @@ export const metadata: Metadata = {
     "Full Stack Developer with a focus on SEO optimization, creating high-performance web applications and enhancing online visibility.",
 };
 
-export default function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: { lang: string };
-}) {
+export default async function RootLayout(
+  props: {
+    children: React.ReactNode;
+    params: Promise<{ lang: string }>;
+  }
+) {
+  const params = await props.params;
+
+  const {
+    children
+  } = props;
+
   return (
     <html lang={params.lang}>
       <body

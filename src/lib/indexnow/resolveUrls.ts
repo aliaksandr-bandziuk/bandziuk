@@ -1,4 +1,4 @@
-import { groq } from "next-sanity";
+import groq from "groq";
 import { client } from "@/sanity/sanity.client";
 import { getAllPathsForLang } from "@/sanity/sanity.utils";
 import { BASE_URL, localePrefix, findAltSlug } from "@/utils/hreflang";

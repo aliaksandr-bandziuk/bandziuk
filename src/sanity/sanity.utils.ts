@@ -1,4 +1,4 @@
-import { groq } from "next-sanity";
+import groq from "groq";
 import { client } from "./sanity.client";
 import { FeaturedPricing, Homepage } from "@/types/homepage";
 import { Header } from "@/types/header";

@@ -1,6 +1,6 @@
 // app/[lang]/[[...slug]]/page.tsx
 import React from "react";
-import { groq } from "next-sanity";
+import groq from "groq";
 import styles from "./page.module.scss";
 import { notFound, permanentRedirect } from "next/navigation";
 import { client } from "@/sanity/sanity.client";
@@ -75,10 +75,10 @@ import ReviewsFullBlockComponent from "@/app/components/blocks/ReviewsFullBlockC
 import FloatingWhatsAppButton from "@/app/components/ui/FloatingWhatsAppButton/FloatingWhatsAppButton";
 
 type Props = {
-  params: {
+  params: Promise<{
     lang: string;
     slug: string[];
-  };
+  }>;
 };
 
 export const dynamicParams = false;
@@ -89,9 +89,9 @@ export const revalidate = 86400;
 /**
  * Собираем все combinations [lang, slug[]] для SSG
  */
-export async function generateStaticParams(): Promise<Props["params"][]> {
+export async function generateStaticParams(): Promise<{ lang: string; slug: string[] }[]> {
   const langs = i18n.languages.map((l) => l.id);
-  const paths: Props["params"][] = [];
+  const paths: { lang: string; slug: string[] }[] = [];
 
   for (const lang of langs) {
     // получаем у каждого документа current и parent
@@ -137,7 +137,8 @@ export async function generateStaticParams(): Promise<Props["params"][]> {
 /**
  * Динамическая SEO-мета
  */
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const { lang, slug = [] } = params;
   const current = slug[slug.length - 1] || "";
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
@@ -204,7 +205,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const SinglePage = async ({ params }: Props) => {
+const SinglePage = async (props: Props) => {
+  const params = await props.params;
   const { lang, slug } = params;
   const current = slug[slug.length - 1] || "";
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;

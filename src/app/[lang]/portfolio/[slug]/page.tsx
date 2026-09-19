@@ -23,7 +23,7 @@ import PortfolioTechnologies from "@/app/components/sections/PortfolioTechnologi
 import { getPortfolioJsonLd } from "@/app/components/seo/SchemaPortfolio/SchemaPortfolio";
 
 type Props = {
-  params: { lang: string; slug: string };
+  params: Promise<{ lang: string; slug: string }>;
 };
 
 // Without this the route renders on every request and is never cached (see
@@ -32,7 +32,8 @@ export async function generateStaticParams() {
   return getStaticSlugParams("portfolio", i18n.languages.map((l) => l.id));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const { lang, slug } = params;
   const data = await getPortfolioByLang(lang, slug);
 
@@ -88,7 +89,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const PortfolioPage = async ({ params }: Props) => {
+const PortfolioPage = async (props: Props) => {
+  const params = await props.params;
   const { lang, slug } = params;
   const portfolio = await getPortfolioByLang(lang, slug);
 

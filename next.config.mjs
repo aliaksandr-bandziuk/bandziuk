@@ -157,6 +157,17 @@ async function buildDynamicRedirects() {
 }
 
 const nextConfig = {
+  // Next 16 supports Chrome/Edge/Firefox 111+ and Safari 16.4+, which ship every
+  // feature in Next's polyfill module, so it is swapped for an empty file
+  // (PageSpeed "Legacy JavaScript"). app-globals.js requires it by this exact
+  // relative path; aliasing only the package path does not work. After each
+  // Next upgrade, check the path in node_modules/next/dist/client/app-globals.js.
+  turbopack: {
+    resolveAlias: {
+      "../build/polyfills/polyfill-module": "./src/lib/empty-polyfills.js",
+      "next/dist/build/polyfills/polyfill-module": "./src/lib/empty-polyfills.js",
+    },
+  },
   images: {
     // Sanity's image CDN resizes and re-encodes, not Vercel's /_next/image
     // optimizer: its monthly transformation quota is not spent. See the loader.

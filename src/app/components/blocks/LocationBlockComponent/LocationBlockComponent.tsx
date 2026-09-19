@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import styles from "./LocationBlockComponent.module.scss";
-import dynamic from "next/dynamic";
+import MapContactLazy from "@/app/components/shared/MapContact/MapContactLazy";
 import { LocationBlock } from "@/types/blog";
 import CurrentTime from "../../ui/CurrentTime/CurrentTime";
 import Icon from "../../ui/Icon/Icon";
@@ -18,13 +18,6 @@ const marginValues: Record<string, string> = {
 };
 
 const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
-  const MapWithNoSSR = dynamic(
-    () => import("../../shared/MapContact/MapContact"),
-    {
-      ssr: false,
-    }
-  );
-
   const computedMarginTop =
     block.marginTop && marginValues[block.marginTop]
       ? marginValues[block.marginTop]
@@ -82,7 +75,7 @@ const LocationBlockComponent: FC<Props> = ({ block, lang }) => {
           </div>
         </div>
         <div className={styles.mapContainer}>
-          <MapWithNoSSR
+          <MapContactLazy
             lat={block.location.lat}
             lng={block.location.lng}
             lang={lang}

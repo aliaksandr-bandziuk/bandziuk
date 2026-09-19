@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import styles from "./ScreenshotSlide.module.scss";
 import { Screenshot } from "@/types/portfolio";
 import { RichText } from "../../shared/RichText/RichText";
-import { PortableText } from "next-sanity";
+import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import { urlFor } from "@/sanity/sanity.client";
 

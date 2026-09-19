@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styles from "./ContentDescription.module.scss";
 import { ContentBlock } from "@/types/portfolio";
-import { PortableText } from "next-sanity";
+import { PortableText } from "@portabletext/react";
 import { RichText } from "../../shared/RichText/RichText";
 import SectionHeading from "../../shared/SectionHeading/SectionHeading";
 

@@ -50,7 +50,7 @@ import { extractH2Headings } from "@/utils/tableOfContents";
 import styles from "./page.module.scss";
 
 type Props = {
-  params: { lang: string; slug: string };
+  params: Promise<{ lang: string; slug: string }>;
 };
 
 // Without this the route renders on every request and is never cached (see
@@ -60,7 +60,8 @@ export async function generateStaticParams() {
 }
 
 // Dynamic metadata for SEO
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const { lang, slug } = params;
   const data = await getBlogPostByLang(lang, slug);
 
@@ -111,7 +112,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const PagePost = async ({ params }: Props) => {
+const PagePost = async (props: Props) => {
+  const params = await props.params;
   const { lang, slug } = params;
   const blog = await getBlogPostByLang(lang, slug);
 

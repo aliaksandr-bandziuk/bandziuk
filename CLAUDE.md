@@ -8,13 +8,15 @@
 
 | Layer | Choice |
 |-------|--------|
-| Framework | Next.js 14.2.5, App Router |
+| Framework | Next.js 16.3.5, App Router, Turbopack (migrated from 14 in September 2026, see §15) |
+| Runtime | React 19, Node 24.x (`engines` in `package.json`) |
 | Language | TypeScript 5.8 (strict) |
-| CMS | Sanity v3 (3.99.0) + next-sanity 9.12.3 |
-| i18n | next-intl 3.19.1 — EN (no prefix, default), PL, RU |
+| CMS | Sanity 6 + next-sanity 13 (Studio only); the site uses `@sanity/client` 8 and `groq` directly |
+| i18n | next-intl 4 — EN (no prefix, default), PL, RU |
 | Styling | SCSS modules + CSS custom properties (Tailwind was removed in July 2026) |
 | Animation | Lenis 1.3.4 (smooth scroll), Framer Motion 11, GSAP 3, AOS 2 |
 | Forms | Formik + Yup validation |
+| Lint | ESLint 9 flat config (`eslint.config.mjs`), `npm run lint`; `next lint` no longer exists |
 | Path alias | `@/` → `src/` |
 | Domain | `https://www.bandziuk.com` |
 
@@ -66,7 +68,7 @@ src/app/
     └── monday-newsletter/route.ts  newsletter subscription
 ```
 
-**Middleware** (`src/middleware.ts`): next-intl `createIntlMiddleware` with `localeDetection: false`, `localePrefix: "as-needed"`. Matcher excludes `/api`, `/admin`, `/robots`, `/sitemap`, `/favicon.ico`.
+**Proxy** (`src/proxy.ts`, called middleware before Next 16): next-intl `createIntlMiddleware` with `localeDetection: false`, `localePrefix: "as-needed"`. Matcher excludes `/api`, `/admin`, `/robots`, `/sitemap`, `/favicon.ico`.
 
 ---
 
@@ -74,7 +76,8 @@ src/app/
 
 ### Client (`src/sanity/sanity.client.ts`)
 
-`client` is a thin wrapper around `createClient`: its only method, `fetch`,
+`client` is a thin wrapper around `createClient` from `@sanity/client` (never from
+the `next-sanity` root, see §15): its only method, `fetch`,
 adds an explicit cache lifetime and the `sanity` tag to every query. See §13
 before changing anything here.
 
@@ -93,7 +96,7 @@ const data = await client.fetch(groqQuery, { lang });
 ```
 
 Pages are cached for a day and refreshed on publish: the Sanity webhook at
-`/api/indexnow/webhook` calls `revalidateTag("sanity")` before its IndexNow
+`/api/indexnow/webhook` calls `revalidateTag("sanity", "max")` before its IndexNow
 work (§8, §13). Many calls still pass `{ next: { revalidate: 60 } }`; the
 wrapper overrides that value on purpose.
 
@@ -389,7 +392,7 @@ this feature imply otherwise.
 | Key file | `src/app/indexnow-key.txt/route.ts` — serves `INDEXNOW_KEY` as plain text from an env var, nothing else |
 | URL resolver | `src/lib/indexnow/resolveUrls.ts` — reuses `getAllPathsForLang` (the same nested-path resolver as the sitemap, `generateStaticParams`, and the page's own canonical URL) rather than a new URL builder |
 | Submission helper | `src/lib/indexnow/submit.ts` — dedupes, batches at 10,000 URLs/request, logs the documented response code (200/202/400/403/422/429) |
-| Webhook endpoint | `src/app/api/indexnow/webhook/route.ts` — validates a shared secret, **calls `revalidateTag("sanity")` for any document type** (§13), then resolves affected URLs and submits |
+| Webhook endpoint | `src/app/api/indexnow/webhook/route.ts` — validates a shared secret, **calls `revalidateTag("sanity", "max")` for any document type** (§13, §15), then resolves affected URLs and submits |
 | One-off bulk script | `scripts/indexnow-bulk-submit.cjs` — sources its URL list from the live `/sitemap.xml`, not a reimplementation; run once by hand, not scheduled |
 
 ### Env vars
@@ -497,6 +500,11 @@ code itself.
   Recovery is to stop the dev server, delete `.next`, and restart it.
 - This supersedes an earlier rule that allowed a local build when the
   session touched schemas, types, or component structure. It does not.
+- **The one exception: a separate git worktree** (own `node_modules` and
+  `.next`, e.g. `D:/applications/bandziuk-next16`), and only when the owner
+  approves it for that task — dependency or framework upgrades, where only a
+  real `next build` catches the errors (§15). Serve it with
+  `npx next start -p 3005`, never on 3000, and stop it afterwards.
 - Use `next dev` for all in-session checks, including Playwright 
   screenshots.
 - For type safety without a build, run `npx tsc --noEmit`. It is safe
@@ -784,9 +792,10 @@ that 60-second lifetime itself: every bot pass over ~500 pages rewrote them.
   published after a build renders once on first visit and is then cached.
 - `[lang]/layout.tsx` and `[...slug]/page.tsx` export `revalidate = 86400`.
   These must be literals; keep them equal to `SANITY_REVALIDATE_SECONDS`.
-- `/api/indexnow/webhook` calls `revalidateTag("sanity")` for **every** document
-  type, before the IndexNow logic. A publish refreshes the whole site; pages then
-  regenerate lazily, only when someone requests them.
+- `/api/indexnow/webhook` calls `revalidateTag("sanity", "max")` for **every**
+  document type, before the IndexNow logic. A publish marks the whole site stale:
+  the first request to a page after it gets the old version and triggers
+  regeneration, every later request gets the new one. Never `{ expire: 0 }` (§15).
 - `useCdn: false` (§6).
 - `robots.ts` disallows SEO-tool crawlers (Ahrefs, Semrush, MJ12, DotBot,
   DataForSeoBot and others). Search engines, AI crawlers and link-preview bots
@@ -837,3 +846,52 @@ translated.
   language: changing its heading changes it site-wide.
 - **Russian copy:** the owner's surname is "Бандюк"; do not write "частный";
   cover both "раскрутка" and "продвижение"; no Yandex. Polish prices are in PLN.
+
+## 15. Next.js 16 (migrated from 14, September 2026)
+
+Done in a separate worktree, verified with a real build: 457 static pages, all
+444 sitemap URLs 200, redirects 308, canonicals and hreflang unchanged, JSON-LD
+still in the server HTML, no page errors in the browser, client-side navigation
+without full reloads. Homepage JS 497 → 441 KiB, unused JS 240 → 135 KiB, the
+PageSpeed "Legacy JavaScript" warning is gone.
+
+### Rules that changed
+
+- **`params` and `searchParams` are Promises.** Pages and layouts take `props`
+  and `await props.params`. `generateStaticParams` still returns plain objects.
+- **`src/proxy.ts`, not `middleware.ts`.** Same matcher, same next-intl setup.
+- **`revalidateTag("sanity", "max")` — never `{ expire: 0 }`.** Found in the
+  migration test: `expire: 0` deletes the cached pages, and every route with
+  `dynamicParams = false` (`[...slug]`, the AI checker) then answers 404
+  (`NoFallbackError`) until the next deploy — one publish would take down every
+  service page. With `"max"` the first request after a publish gets the old
+  page and regenerates it with fresh Sanity data (checked against GROQ `now()`).
+- **`next/dynamic` with `ssr: false` only inside a Client Component.** In a server
+  component it is a build error that `tsc` does not catch. Use the wrappers
+  `ParticlesBackgroundLazy` and `MapContactLazy`.
+- **No `next-sanity` root imports in site code.** The root entry pulls
+  live-preview code and the whole client into every page's bundle. Use
+  `@sanity/client`, `import groq from "groq"`, `@portabletext/react`,
+  `createImageUrlBuilder` from `@sanity/image-url`. Only Studio imports
+  `next-sanity/studio`.
+- **`NextRequest.ip` is gone.** The form guard reads `x-forwarded-for`, then
+  `x-real-ip`.
+- **Polyfills are aliased to an empty file** (`turbopack.resolveAlias` in
+  `next.config.mjs`, `src/lib/empty-polyfills.js`). After every Next upgrade,
+  check that `node_modules/next/dist/client/app-globals.js` still requires
+  `../build/polyfills/polyfill-module`, and after a build that no chunk in
+  `.next/static/chunks` contains `"trimStart"in String.prototype`.
+- **`next build` no longer lints.** Run `npm run lint` yourself. Four React
+  Compiler rules (`set-state-in-effect`, `refs`, `immutability`,
+  `static-components`) are warnings: they flag working code here.
+- `react-icons` is pinned to 5.5.0: 5.7 removed `SiAdobephotoshop`, used by
+  `PortfolioTechnologies`.
+
+### Known and harmless
+
+- Some segment prefetches (`/services?_rsc=…` for a segment of another route)
+  answer 404 in the console. The router drops them; navigation works.
+- Studio on any new origin (`localhost:3005`, Vercel previews) shows "This
+  Studio isn't connected": add the origin to CORS in manage.sanity.io.
+- Still open, separate tasks: swiper 14 and nodemailer 10 (security advisories),
+  tsparticles v3.

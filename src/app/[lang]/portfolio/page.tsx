@@ -15,7 +15,7 @@ import { Metadata } from "next";
 import React from "react";
 
 type Props = {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 };
 
 // Without this the portfolio index renders on every request and is never cached.
@@ -24,7 +24,8 @@ export function generateStaticParams() {
 }
 
 // Dynamic metadata for SEO
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const data = await getPortfolioPageByLang(params.lang);
 
   const langPrefix = params.lang === "en" ? "" : `/${params.lang}`;
@@ -55,7 +56,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const PortfolioAll = async ({ params }: Props) => {
+const PortfolioAll = async (props: Props) => {
+  const params = await props.params;
   const totalProjects = await getPortfolioItemsByLang(params.lang);
   const portfolioPage = await getPortfolioPageByLang(params.lang);
 

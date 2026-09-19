@@ -2,10 +2,11 @@ import { getFileBySlug } from "@/sanity/sanity.utils";
 import { SanityFile } from "@/types/sanityFile";
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
-const FilePage = async ({ params }: Props) => {
+const FilePage = async (props: Props) => {
+  const params = await props.params;
   const { slug } = params;
   const file: SanityFile | null = await getFileBySlug(slug);
 

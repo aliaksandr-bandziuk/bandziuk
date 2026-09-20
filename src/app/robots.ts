@@ -15,12 +15,9 @@ export default function robots(): MetadataRoute.Robots {
       // WhatsApp (link previews when the owner shares a page).
       {
         userAgent: [
-          "AhrefsBot",
-          "SemrushBot",
           "MJ12bot",
           "DotBot",
           "BLEXBot",
-          "DataForSeoBot",
           "serpstatbot",
           "Barkrowler",
           "SeekportBot",

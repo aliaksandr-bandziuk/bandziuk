@@ -1413,7 +1413,7 @@
     }
   },
   "singlepage-property-developer-website": {
-    "textContent": false,
+    "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": true,
@@ -1423,12 +1423,13 @@
       "landingCtaBlock": 1,
       "reviewsFullBlock": 1,
       "gridBlock": 1,
+      "textContent": 1,
       "formFullBlock": 1,
       "faqBlock": 1
     }
   },
   "singlepage-real-estate-agency-website": {
-    "textContent": false,
+    "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": true,
@@ -1438,6 +1439,7 @@
       "landingCtaBlock": 1,
       "reviewsFullBlock": 1,
       "gridBlock": 1,
+      "textContent": 1,
       "formFullBlock": 1,
       "faqBlock": 1
     }
@@ -2043,7 +2045,7 @@
     "doubleTextBlock": true,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "textContent": 5,
+      "textContent": 6,
       "doubleTextBlock": 1,
       "formMinimalBlock": 1,
       "tableBlock": 1,
@@ -2530,7 +2532,7 @@
     }
   },
   "singlepage-real-estate-agency-website.pl": {
-    "textContent": false,
+    "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": true,
@@ -2540,6 +2542,7 @@
       "landingCtaBlock": 1,
       "reviewsFullBlock": 1,
       "gridBlock": 1,
+      "textContent": 1,
       "formFullBlock": 1,
       "faqBlock": 1
     }
@@ -2564,7 +2567,7 @@
     }
   },
   "singlepage-property-developer-website.pl": {
-    "textContent": false,
+    "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": true,
@@ -2574,6 +2577,7 @@
       "landingCtaBlock": 1,
       "reviewsFullBlock": 1,
       "gridBlock": 1,
+      "textContent": 1,
       "formFullBlock": 1,
       "faqBlock": 1
     }
@@ -2883,7 +2887,7 @@
     "doubleTextBlock": true,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "textContent": 4,
+      "textContent": 5,
       "doubleTextBlock": 1,
       "formMinimalBlock": 1,
       "tableBlock": 1,
@@ -3775,7 +3779,7 @@
     }
   },
   "singlepage-real-estate-agency-website.ru": {
-    "textContent": false,
+    "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": true,
@@ -3785,12 +3789,13 @@
       "landingCtaBlock": 1,
       "reviewsFullBlock": 1,
       "gridBlock": 1,
+      "textContent": 1,
       "formFullBlock": 1,
       "faqBlock": 1
     }
   },
   "singlepage-property-developer-website.ru": {
-    "textContent": false,
+    "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": true,
@@ -3800,6 +3805,7 @@
       "landingCtaBlock": 1,
       "reviewsFullBlock": 1,
       "gridBlock": 1,
+      "textContent": 1,
       "formFullBlock": 1,
       "faqBlock": 1
     }
@@ -3950,7 +3956,7 @@
     "doubleTextBlock": true,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "textContent": 4,
+      "textContent": 5,
       "doubleTextBlock": 1,
       "formMinimalBlock": 1,
       "tableBlock": 1,

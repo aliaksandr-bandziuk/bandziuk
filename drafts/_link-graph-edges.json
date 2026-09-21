@@ -2225,6 +2225,14 @@
   },
   {
     "sourceId": "singlepage-architecture-studio",
+    "targetId": "ad33d2a6-b34d-4afd-8f7a-ff10094690d1",
+    "kind": "inline-body",
+    "lang": "en",
+    "href": "/portfolio/architecture-website-rebuild-and-seo-scan",
+    "text": "A worked example from this niche: Architecture Website Rebuild and SEO — the same trade-off between image quality and speed, solved on a live site."
+  },
+  {
+    "sourceId": "singlepage-architecture-studio",
     "targetId": "16ee2ac2-4506-4d2e-bd9f-3519c5ecf794",
     "kind": "inline-body",
     "lang": "en",
@@ -2440,6 +2448,14 @@
     "lang": "en",
     "href": "/pricing",
     "text": "From €2,000. The main variables are how the schedule is managed, whether memberships are paid online, how many class types need their own pages, and whether you need language versions. Describe your studio and I'll prepare a quote."
+  },
+  {
+    "sourceId": "61a47860-d61d-499c-8606-1831231b222e",
+    "targetId": "01ee8990-d677-4c15-8f1b-a97e77b239cd",
+    "kind": "inline-body",
+    "lang": "en",
+    "href": "/portfolio/auto-repair-seo-and-ux-boost",
+    "text": "A worked example from this niche: Auto Repair SEO & UX Boost — what was changed on the site and why."
   },
   {
     "sourceId": "61a47860-d61d-499c-8606-1831231b222e",
@@ -2707,6 +2723,14 @@
   },
   {
     "sourceId": "singlepage-property-developer-website",
+    "targetId": "portfolio-orzel-realty",
+    "kind": "inline-body",
+    "lang": "en",
+    "href": "/portfolio/renovation-and-investment-website-with-premium-design",
+    "text": "Renovation and investment website with a premium feel and 96/98/100/100 performance is a case study from the same market, where speed and trust signals were treated as part of the sales instrument rather than as a finishing touch."
+  },
+  {
+    "sourceId": "singlepage-property-developer-website",
     "targetId": "blog-developer-website-cost",
     "kind": "inline-body",
     "lang": "en",
@@ -2728,6 +2752,14 @@
     "lang": "en",
     "href": "/web-development-cyprus",
     "text": "Yes. I build multilingual sites and work with clients in Europe, the UK, the US and worldwide. For reference, I built a multilingual real estate catalog site for the Cyprus agency Cyprus VIP Estates."
+  },
+  {
+    "sourceId": "singlepage-real-estate-agency-website",
+    "targetId": "0d395501-cc48-4c01-a395-789065b976eb",
+    "kind": "inline-body",
+    "lang": "en",
+    "href": "/portfolio/build-and-optimize-a-multilingual-real-estate-platform",
+    "text": "Building the second and third language properly is not translation. It means separate keyword research per language, content adapted to how that market reads, and a URL structure search engines can tell apart. Build and optimize a multilingual real estate platform is the case study for exactly that work."
   },
   {
     "sourceId": "singlepage-real-estate-agency-website",
@@ -2832,6 +2864,14 @@
     "lang": "en",
     "href": "/pricing",
     "text": "A simple site is €700-1,400. A site with a structured menu, reservations, events and local optimisation starts from €2,000. Describe your venue and I'll prepare a quote."
+  },
+  {
+    "sourceId": "923390d3-cf00-427c-bef1-2fdf903a7808",
+    "targetId": "01ee8990-d677-4c15-8f1b-a97e77b239cd",
+    "kind": "inline-body",
+    "lang": "en",
+    "href": "/portfolio/auto-repair-seo-and-ux-boost",
+    "text": "A worked example from this niche: Auto Repair SEO & UX Boost — what was changed on the site and why."
   },
   {
     "sourceId": "5869ba72-348b-498e-b419-861e52ccb6ef",
@@ -4991,6 +5031,14 @@
   },
   {
     "sourceId": "55f6003b-f543-4591-8bea-d1a327144c73",
+    "targetId": "4e0cfdf8-4ffa-4dba-a9b4-753b9b91fcc8",
+    "kind": "inline-body",
+    "lang": "pl",
+    "href": "/pl/portfolio/seo-warsztatu-i-wzrost-konwersji",
+    "text": "Jak to wygląda na realnym projekcie: SEO warsztatu i wzrost konwersji — co dokładnie zmieniłem na stronie i dlaczego."
+  },
+  {
+    "sourceId": "55f6003b-f543-4591-8bea-d1a327144c73",
     "targetId": "singlepage-seo-warsztat-warszawa.pl",
     "kind": "inline-body",
     "lang": "pl",
@@ -5039,11 +5087,27 @@
   },
   {
     "sourceId": "f62631da-bb64-44fb-8a41-6f2ee35d13c5",
+    "targetId": "4e0cfdf8-4ffa-4dba-a9b4-753b9b91fcc8",
+    "kind": "inline-body",
+    "lang": "pl",
+    "href": "/pl/portfolio/seo-warsztatu-i-wzrost-konwersji",
+    "text": "Jak to wygląda na realnym projekcie: SEO warsztatu i wzrost konwersji — co dokładnie zmieniłem na stronie i dlaczego."
+  },
+  {
+    "sourceId": "f62631da-bb64-44fb-8a41-6f2ee35d13c5",
     "targetId": "blog-auto-repair-website-cost.pl",
     "kind": "inline-body",
     "lang": "pl",
     "href": "/pl/blog/ile-kosztuje-strona-dla-warsztatu-samochodowego",
     "text": "Koszt zależy od zakresu projektu: liczby podstron, systemu rezerwacji, dodatkowych funkcjonalności oraz stopnia rozbudowania oferty. Prosta strona wizytówka różni się od strukturalnej strony z wieloma usługami i rozbudowanym systemem zgłoszeń. Cena jest uzależniona od funkcjonalności i skalowalności, nie tylko od wyglądu."
+  },
+  {
+    "sourceId": "singlepage-real-estate-agency-website.pl",
+    "targetId": "b0bcc24a-a4ec-497b-8e87-47729903ec43",
+    "kind": "inline-body",
+    "lang": "pl",
+    "href": "/pl/portfolio/rozwoj-wielojezycznej-platformy-nieruchomosci-premium",
+    "text": "Zrobienie drugiej i trzeciej wersji językowej porządnie to nie tłumaczenie. To osobne badanie zapytań w każdym języku, treść dopasowana do tego, jak czyta dany rynek, i struktura adresów, którą wyszukiwarka rozróżnia. Rozwój wielojęzycznej platformy nieruchomości premium to case study dokładnie o tej pracy."
   },
   {
     "sourceId": "singlepage-real-estate-agency-website.pl",
@@ -5076,6 +5140,14 @@
     "lang": "pl",
     "href": "/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",
     "text": "salonów kosmetycznych i SPA — z cennikiem, rezerwacją i opiniami,"
+  },
+  {
+    "sourceId": "singlepage-property-developer-website.pl",
+    "targetId": "portfolio-orzel-realty.pl",
+    "kind": "inline-body",
+    "lang": "pl",
+    "href": "/pl/portfolio/strona-dla-firmy-remontowej-i-inwestycyjnej-warszawa",
+    "text": "Strona dla firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100 to case study z tego samego rynku, gdzie szybkość i sygnały zaufania potraktowano jako część narzędzia sprzedaży, a nie jako wykończenie."
   },
   {
     "sourceId": "singlepage-property-developer-website.pl",
@@ -5284,6 +5356,14 @@
     "lang": "pl",
     "href": "/pl/blog/dlaczego-strona-nie-generuje-zapytan",
     "text": "Jest jeszcze proces. Klienci, którzy nie zamawiali wcześniej projektu, nie znają etapów, nie wiedzą, co powstaje na każdym z nich, ile trwają ani od czego zależy koszt. Pracownie tłumaczące to wprost usuwają niepewność, która po cichu kończy wiele zapytań — i przy okazji tworzą treści odpowiadające na to, czego ludzie szukają na długo przed wyborem pracowni. Tak wygląda tworzenie strony internetowej, kiedy struktura jest na pierwszym miejscu."
+  },
+  {
+    "sourceId": "singlepage-architecture-studio.pl",
+    "targetId": "ab135ddf-f66b-4ef8-b83a-0b0b1a74a3ab",
+    "kind": "inline-body",
+    "lang": "pl",
+    "href": "/pl/portfolio/tworzenie-i-seo-strony-architektonicznej-scan",
+    "text": "Jak to wygląda na realnym projekcie: Tworzenie i SEO strony architektonicznej — ten sam kompromis między jakością zdjęć a szybkością, rozwiązany na żywej stronie."
   },
   {
     "sourceId": "singlepage-architecture-studio.pl",
@@ -7335,6 +7415,14 @@
   },
   {
     "sourceId": "4238514d-8c66-4766-8b78-71675a466b7a",
+    "targetId": "38d19fbe-6676-4c5c-ab23-a3aa05f2b869",
+    "kind": "inline-body",
+    "lang": "ru",
+    "href": "/ru/portfolio/seo-i-ux-dlya-avtoremontnoi-kompanii",
+    "text": "Как это выглядит на реальном проекте: Улучшение SEO и UX для авторемонтной компании — что именно меняли на сайте и зачем."
+  },
+  {
+    "sourceId": "4238514d-8c66-4766-8b78-71675a466b7a",
     "targetId": "singlepage-seo-warsztat-warszawa.ru",
     "kind": "inline-body",
     "lang": "ru",
@@ -7548,6 +7636,14 @@
     "lang": "ru",
     "href": "/ru/blog/pochemu-sait-ne-prinosit-zayavok",
     "text": "И есть процесс. Заказчики, которые раньше не заказывали проектирование, не знают этапов, не понимают, что появляется на каждом, сколько они занимают и от чего зависит стоимость. Бюро, объясняющие это прямо, снимают неопределённость, которая тихо заканчивает многие обращения, — и попутно создают контент, отвечающий на то, что ищут задолго до выбора бюро. Так выглядит разработка сайта, когда структура стоит на первом месте."
+  },
+  {
+    "sourceId": "singlepage-architecture-studio.ru",
+    "targetId": "6419ee71-18ca-4b7e-8e25-a6d7ddb7057b",
+    "kind": "inline-body",
+    "lang": "ru",
+    "href": "/ru/portfolio/sozdanie-i-seo-prodvizhenie-saita-arkhitekturnoi-tematiki",
+    "text": "Как это выглядит на реальном проекте: Создание и SEO-продвижение сайта архитектурной тематики — тот же компромисс между качеством изображений и скоростью, решённый на живом сайте."
   },
   {
     "sourceId": "singlepage-architecture-studio.ru",
@@ -8441,6 +8537,14 @@
   },
   {
     "sourceId": "singlepage-real-estate-agency-website.ru",
+    "targetId": "27524aa0-da00-4e24-8862-6e92b967082e",
+    "kind": "inline-body",
+    "lang": "ru",
+    "href": "/ru/portfolio/razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre",
+    "text": "Сделать вторую и третью языковую версию как следует — это не перевод. Это отдельный сбор запросов на каждом языке, контент под то, как читает этот рынок, и структура адресов, которую поисковик различает. Разработка сайта для агентства элитной недвижимости на Кипре — кейс ровно про эту работу."
+  },
+  {
+    "sourceId": "singlepage-real-estate-agency-website.ru",
     "targetId": "singlepage-catalog-website.ru",
     "kind": "inline-body",
     "lang": "ru",
@@ -8465,6 +8569,14 @@
   },
   {
     "sourceId": "singlepage-property-developer-website.ru",
+    "targetId": "portfolio-orzel-realty.ru",
+    "kind": "inline-body",
+    "lang": "ru",
+    "href": "/ru/portfolio/sayt-dlya-remontnoy-i-investicionnoy-kompanii",
+    "text": "Сайт для ремонтной и инвестиционной компании с результатом 96/98/100/100 — кейс из того же рынка, где скорость и сигналы доверия рассматривались как часть инструмента продаж, а не как финальная отделка."
+  },
+  {
+    "sourceId": "singlepage-property-developer-website.ru",
     "targetId": "blog-developer-website-cost.ru",
     "kind": "inline-body",
     "lang": "ru",
@@ -8486,6 +8598,14 @@
     "lang": "ru",
     "href": "/ru/sozdanie-saitov-na-kipre",
     "text": "Да. Я делаю мультиязычные сайты и работаю с клиентами в Европе, UK, US и по всему миру. Для примера — я построил мультиязычный каталожный сайт недвижимости для кипрского агентства Cyprus VIP Estates."
+  },
+  {
+    "sourceId": "d0a6b052-1ea6-41ba-9e6f-4bb873946e29",
+    "targetId": "38d19fbe-6676-4c5c-ab23-a3aa05f2b869",
+    "kind": "inline-body",
+    "lang": "ru",
+    "href": "/ru/portfolio/seo-i-ux-dlya-avtoremontnoi-kompanii",
+    "text": "Как это выглядит на реальном проекте: Улучшение SEO и UX для авторемонтной компании — что именно меняли на сайте и зачем."
   },
   {
     "sourceId": "d0a6b052-1ea6-41ba-9e6f-4bb873946e29",

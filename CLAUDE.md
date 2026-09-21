@@ -963,3 +963,37 @@ layout check alone lost the race to the page and still gave 500), and
 eyebrow labels; a system monospace stack measured +2-3 points and half the
 homepage CLS (owner's design call). Blog posts occasionally show CLS ~0.12
 from the `loading.tsx` fallback swap (§5 J explains why that boundary stays).
+
+## 17. Temporary sitemap of old addresses (`/sitemap-old.xml`)
+
+Added 21 September 2026, **to be removed in late November 2026** together with
+its entry in Search Console.
+
+Pages moved to nested URLs on 7–9 September (`/pl/oferty/…`, `/ru/uslugi/…`,
+`/services/…`), and internal links to the old addresses were fixed only on
+16 September. The GSC export of 20 September (`drafts/gsc-20-09/`) showed the
+result: 69 pages "discovered, currently not indexed", 40 of them post-move
+URLs, and Google keeping old addresses as canonical (`/pl/lokalizacje/…` over
+`/pl/oferty/lokalizacje/…`). Nothing was broken: every old URL answers 308 in
+one hop, the main sitemap lists only new URLs, and all 69 pages have three or
+more inbound internal links. Google had simply not recrawled the old URLs.
+
+`src/app/sitemap-old.xml/route.ts` lists every old address so Googlebot
+revisits it, meets the redirect and moves its signals — Google's own advice
+for a site move. It reads the same sources as the redirects: flat → nested
+from `getAllPathsForLang`, and `STATIC_REDIRECTS`, which now lives in
+`src/lib/redirects/staticRedirects.mjs` and is imported by `next.config.mjs`.
+
+Rules:
+
+- **Every URL in it must redirect.** Verified on 21 September: 177 URLs, all
+  308. A URL that serves a page does not belong in this file.
+- **Do not move pages again while it is live.** A second restructure restarts
+  the process; the market-page merge proposed the same day was dropped for
+  this reason.
+- Remove it when the "Discovered — currently not indexed" count has fallen
+  back and the old URLs no longer show in the index.
+- The analyser `scripts/analyze-link-graph.cjs` reported three "unresolved"
+  PL links that day (`/pl/oferty/lokacii`); the documents and the rendered
+  pages carry the right hrefs. Check the rendered page before fixing what the
+  analyser lists.

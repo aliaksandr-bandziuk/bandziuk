@@ -1,0 +1,72 @@
+{
+  "case": {
+    "en": { "docId": "portfolio-giuseppeiannone", "href": "/portfolio/psychotherapist-website-milan", "title": "Bilingual psychotherapist website in Milan and Monza" },
+    "pl": { "docId": "portfolio-giuseppeiannone.pl", "href": "/pl/portfolio/strona-internetowa-dla-psychoterapeuty", "title": "Strona internetowa dla psychoterapeuty w Mediolanie i Monzy" },
+    "ru": { "docId": "portfolio-giuseppeiannone.ru", "href": "/ru/portfolio/sayt-psikhoterapevta-v-milane", "title": "Сайт психотерапевта в Милане и Монце на двух языках" }
+  },
+
+  "outbound": [
+    { "lang": "en", "anchor": "A private psychotherapist's website", "href": "/website-for-psychologists-therapists", "target": "Website Development for Psychologists & Therapists" },
+    { "lang": "en", "anchor": "visibility in AI answers", "href": "/services/ai-search-readiness", "target": "Preparing a website for AI search" },
+    { "lang": "en", "anchor": "found me through ChatGPT", "href": "/blog/how-clients-find-you-through-chatgpt", "target": "How Clients Find Specialists Through ChatGPT" },
+    { "lang": "en", "anchor": "All 468 posts came across", "href": "/website-platform-migration", "target": "Website migration to a new platform" },
+    { "lang": "en", "anchor": "Page addresses are translated", "href": "/multilingual-website-development", "target": "Multilingual website development" },
+
+    { "lang": "pl", "anchor": "Strona prywatnego psychoterapeuty", "href": "/pl/strona-dla-psychologow-terapeutow", "target": "Tworzenie stron dla psychologów i terapeutów" },
+    { "lang": "pl", "anchor": "widoczność w odpowiedziach AI", "href": "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai", "target": "Przygotowanie strony do wyszukiwania AI" },
+    { "lang": "pl", "anchor": "znalazł mnie przez ChatGPT", "href": "/pl/blog/jak-klienci-znajduja-specjalistow-przez-chatgpt", "target": "Jak klienci znajdują specjalistów przez ChatGPT" },
+    { "lang": "pl", "anchor": "Przeniesione zostały wszystkie 468 wpisów", "href": "/pl/migracja-strony-na-inna-platforme", "target": "Migracja strony na inną platformę" },
+    { "lang": "pl", "anchor": "Adresy stron są przetłumaczone", "href": "/pl/tworzenie-stron-wielojezycznych", "target": "Tworzenie strony wielojęzycznej" },
+
+    { "lang": "ru", "anchor": "сайта частного психотерапевта", "href": "/ru/sait-dlya-psihologov-terapevtov", "target": "Разработка сайта для психолога и психотерапевта" },
+    { "lang": "ru", "anchor": "видимость в ИИ-ответах", "href": "/ru/uslugi/podgotovka-saita-k-ii-poisku", "target": "Подготовка сайта к ИИ-поиску" },
+    { "lang": "ru", "anchor": "нашёл меня через ChatGPT", "href": "/ru/blog/kak-klienty-nahodyat-cherez-chatgpt", "target": "Как клиенты находят специалистов через ChatGPT" },
+    { "lang": "ru", "anchor": "перенесены со старого сайта", "href": "/ru/perenos-saita-na-druguyu-platformu", "target": "Перенос сайта на другую платформу" },
+    { "lang": "ru", "anchor": "Адреса страниц переведены", "href": "/ru/razrabotka-multiyazychnogo-saita", "target": "Разработка мультиязычного сайта" }
+  ],
+
+  "inbound": [
+    { "lang": "en", "docId": "singlepage-psychologists-therapists", "page": "website-for-psychologists-therapists",
+      "text": "A worked example from this niche: Bilingual psychotherapist website in Milan and Monza — what was built, and why." },
+    { "lang": "en", "docId": "singlepage-seo-italy", "page": "services/locations/seo-for-italian-market",
+      "text": "A project in this market: Bilingual psychotherapist website in Milan and Monza — Italian as the primary language, English under /en." },
+    { "lang": "en", "docId": "service-ai-search-readiness", "page": "services/ai-search-readiness",
+      "text": "How this looks on a live site: Bilingual psychotherapist website in Milan and Monza — its new pages already appear in ChatGPT answers." },
+    { "lang": "en", "docId": "singlepage-platform-migration", "page": "website-platform-migration",
+      "text": "A migration done this way: Bilingual psychotherapist website in Milan and Monza — 468 blog posts moved off WordPress with every old URL still working." },
+    { "lang": "en", "docId": "blog-found-via-chatgpt", "page": "blog/how-clients-find-you-through-chatgpt",
+      "text": "The same story from the developer's side: Bilingual psychotherapist website in Milan and Monza — this client found me through ChatGPT, and his own site was then built for AI search." },
+    { "lang": "en", "docId": "blog-psychologist-website-checklist", "page": "blog/what-a-psychologist-website-needs",
+      "text": "All of it on a finished project: Bilingual psychotherapist website in Milan and Monza." },
+    { "lang": "en", "docId": "blog-psychologist-website-cost", "page": "blog/psychologist-website-cost",
+      "text": "What a finished site of this kind looks like: Bilingual psychotherapist website in Milan and Monza." },
+
+    { "lang": "pl", "docId": "singlepage-psychologists-therapists.pl", "page": "pl/strona-dla-psychologow-terapeutow",
+      "text": "Przykład z tej niszy: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — co powstało i dlaczego." },
+    { "lang": "pl", "docId": "singlepage-seo-italy.pl", "page": "pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski",
+      "text": "Projekt na tym rynku: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — włoski jako język główny, angielski pod /en." },
+    { "lang": "pl", "docId": "service-ai-search-readiness.pl", "page": "pl/oferty/przygotowanie-strony-do-wyszukiwania-ai",
+      "text": "Jak to wygląda na działającej stronie: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — jej nowe podstrony pojawiają się już w odpowiedziach ChatGPT." },
+    { "lang": "pl", "docId": "singlepage-platform-migration.pl", "page": "pl/migracja-strony-na-inna-platforme",
+      "text": "Migracja przeprowadzona w ten sposób: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — 468 wpisów bloga przeniesionych z WordPressa, wszystkie stare adresy nadal działają." },
+    { "lang": "pl", "docId": "blog-found-via-chatgpt.pl", "page": "pl/blog/jak-klienci-znajduja-specjalistow-przez-chatgpt",
+      "text": "Ta sama historia od strony wykonawcy: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — ten klient znalazł mnie przez ChatGPT, a jego własna strona powstała pod wyszukiwanie AI." },
+    { "lang": "pl", "docId": "blog-psychologist-website-checklist.pl", "page": "pl/blog/co-powinno-byc-na-stronie-psychologa",
+      "text": "Wszystko to na gotowym projekcie: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy." },
+    { "lang": "pl", "docId": "blog-psychologist-website-cost.pl", "page": "pl/blog/ile-kosztuje-strona-dla-psychologa",
+      "text": "Jak wygląda gotowa strona tego rodzaju: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy." },
+
+    { "lang": "ru", "docId": "singlepage-psychologists-therapists.ru", "page": "ru/sait-dlya-psihologov-terapevtov",
+      "text": "Как это выглядит на реальном проекте: Сайт психотерапевта в Милане и Монце на двух языках — что именно делали и зачем." },
+    { "lang": "ru", "docId": "singlepage-seo-italy.ru", "page": "ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",
+      "text": "Проект на этом рынке: Сайт психотерапевта в Милане и Монце на двух языках — итальянский основной, английский под /en." },
+    { "lang": "ru", "docId": "service-ai-search-readiness.ru", "page": "ru/uslugi/podgotovka-saita-k-ii-poisku",
+      "text": "Как это работает на живом сайте: Сайт психотерапевта в Милане и Монце на двух языках — его новые страницы уже появляются в ответах ChatGPT." },
+    { "lang": "ru", "docId": "singlepage-platform-migration.ru", "page": "ru/perenos-saita-na-druguyu-platformu",
+      "text": "Перенос, сделанный по этой схеме: Сайт психотерапевта в Милане и Монце на двух языках — 468 статей блога ушли с WordPress, все старые адреса продолжают работать." },
+    { "lang": "ru", "docId": "blog-found-via-chatgpt.ru", "page": "ru/blog/kak-klienty-nahodyat-cherez-chatgpt",
+      "text": "Та же история со стороны исполнителя: Сайт психотерапевта в Милане и Монце на двух языках — этот клиент нашёл меня через ChatGPT, а его собственный сайт делался под ИИ-поиск." },
+    { "lang": "ru", "docId": "blog-psychologist-website-cost.ru", "page": "ru/blog/skolko-stoit-sait-psihologa",
+      "text": "Как выглядит готовый сайт такого рода: Сайт психотерапевта в Милане и Монце на двух языках." }
+  ]
+}

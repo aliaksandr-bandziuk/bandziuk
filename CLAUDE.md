@@ -950,6 +950,15 @@ from that.
   banner cost Speed Index). An inline script in `<head>` hides it for returning
   visitors before paint; the buttons are a small client component. Its
   constants live in `consent.ts`, not in a `"use client"` module.
+  **A class set imperatively on `<html>` does not survive a client-side
+  navigation between languages** (fixed 2026-09-23): switching language
+  re-renders the `[lang]` layout, React rewrites the attributes of `<html>`,
+  and the `cookie-consent-set` class goes with them — the head script only runs
+  on a full document load, so the banner came back on every switch and stayed
+  until the next hard reload, however many times the visitor had accepted.
+  `CookieConsentButtons` re-applies the class on mount, in a layout effect so
+  nothing flashes. Anything else that keeps state in a class on `<html>` needs
+  the same treatment (Lenis already re-adds its own).
 - **`--text-tertiary` is #84848d** (≥4.5:1 on every dark background).
 - `experimental.inlineCss` was tried and made the service page slower. Off.
 

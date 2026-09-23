@@ -1,0 +1,170 @@
+
+######################################################################
+ССЫЛКИ ИЗ КЕЙСА
+######################################################################
+
+[en] раздел: What a psychotherapist in Italy needs from a website: search, trust and professional rules
+  анкор: "A private psychotherapist's website" → /website-for-psychologists-therapists  (Website Development for Psychologists & Therapists)
+  → применено
+
+[en] раздел: How the psychotherapist's website was prepared for ChatGPT, Perplexity and Google
+  анкор: "visibility in AI answers" → /services/ai-search-readiness  (Preparing a website for AI search)
+  → применено
+
+[en] раздел: How the psychotherapist's website was prepared for ChatGPT, Perplexity and Google
+  анкор: "found me through ChatGPT" → /blog/how-clients-find-you-through-chatgpt  (How Clients Find Specialists Through ChatGPT)
+  → применено
+
+[en] раздел: Migrating 468 blog posts from WordPress to Sanity without losing a single URL
+  анкор: "All 468 posts came across" → /website-platform-migration  (Website migration to a new platform)
+  → применено
+
+[en] раздел: Site structure built around what patients actually search for
+  анкор: "Page addresses are translated" → /multilingual-website-development  (Multilingual website development)
+  → применено
+
+[pl] раздел: Czego psychoterapeuta we Włoszech potrzebuje od strony internetowej: wyszukiwarka, zaufanie i kodeks zawodu
+  анкор: "Strona prywatnego psychoterapeuty" → /pl/strona-dla-psychologow-terapeutow  (Tworzenie stron dla psychologów i terapeutów)
+  → применено
+
+[pl] раздел: Jak przygotowałem stronę psychoterapeuty do odpowiedzi ChatGPT, Perplexity i Google
+  анкор: "widoczność w odpowiedziach AI" → /pl/oferty/przygotowanie-strony-do-wyszukiwania-ai  (Przygotowanie strony do wyszukiwania AI)
+  → применено
+
+[pl] раздел: Jak przygotowałem stronę psychoterapeuty do odpowiedzi ChatGPT, Perplexity i Google
+  анкор: "znalazł mnie przez ChatGPT" → /pl/blog/jak-klienci-znajduja-specjalistow-przez-chatgpt  (Jak klienci znajdują specjalistów przez ChatGPT)
+  → применено
+
+[pl] раздел: Migracja 468 wpisów bloga z WordPressa do Sanity bez utraty adresów
+  анкор: "Przeniesione zostały wszystkie 468 wpisów" → /pl/migracja-strony-na-inna-platforme  (Migracja strony na inną platformę)
+  → применено
+
+[pl] раздел: Struktura serwisu zbudowana pod pytania pacjentów: tematy, miasta, terapia online
+  анкор: "Adresy stron są przetłumaczone" → /pl/tworzenie-stron-wielojezycznych  (Tworzenie strony wielojęzycznej)
+  → применено
+
+[ru] раздел: Какой сайт нужен психотерапевту в Италии: поиск, доверие и правила профессии
+  анкор: "сайта частного психотерапевта" → /ru/sait-dlya-psihologov-terapevtov  (Разработка сайта для психолога и психотерапевта)
+  → применено
+
+[ru] раздел: Как сайт психотерапевта готовили к ответам ChatGPT, Perplexity и Google
+  анкор: "видимость в ИИ-ответах" → /ru/uslugi/podgotovka-saita-k-ii-poisku  (Подготовка сайта к ИИ-поиску)
+  → применено
+
+[ru] раздел: Как сайт психотерапевта готовили к ответам ChatGPT, Perplexity и Google
+  анкор: "нашёл меня через ChatGPT" → /ru/blog/kak-klienty-nahodyat-cherez-chatgpt  (Как клиенты находят специалистов через ChatGPT)
+  → применено
+
+[ru] раздел: Перенос 468 статей блога о психологии с WordPress на Sanity без потери адресов
+  анкор: "перенесены со старого сайта" → /ru/perenos-saita-na-druguyu-platformu  (Перенос сайта на другую платформу)
+  → применено
+
+[ru] раздел: Страницы сайта психолога под запросы пациентов: темы, города, онлайн-терапия
+  анкор: "Адреса страниц переведены" → /ru/razrabotka-multiyazychnogo-saita  (Разработка мультиязычного сайта)
+  → применено
+
+######################################################################
+ССЫЛКИ НА КЕЙС
+######################################################################
+
+[en] /website-for-psychologists-therapists  (singlepage-psychologists-therapists)
+  абзац: A worked example from this niche: Bilingual psychotherapist website in Milan and Monza — what was built, and why.
+  анкор: "Bilingual psychotherapist website in Milan and Monza" → /portfolio/psychotherapist-website-milan
+  → применено
+
+[en] /services/locations/seo-for-italian-market  (singlepage-seo-italy)
+  абзац: A project in this market: Bilingual psychotherapist website in Milan and Monza — Italian as the primary language, English under /en.
+  анкор: "Bilingual psychotherapist website in Milan and Monza" → /portfolio/psychotherapist-website-milan
+  → применено
+
+[en] /services/ai-search-readiness  (service-ai-search-readiness)
+  абзац: How this looks on a live site: Bilingual psychotherapist website in Milan and Monza — its new pages already appear in ChatGPT answers.
+  анкор: "Bilingual psychotherapist website in Milan and Monza" → /portfolio/psychotherapist-website-milan
+  → применено
+
+[en] /website-platform-migration  (singlepage-platform-migration)
+  абзац: A migration done this way: Bilingual psychotherapist website in Milan and Monza — 468 blog posts moved off WordPress with every old URL still working.
+  анкор: "Bilingual psychotherapist website in Milan and Monza" → /portfolio/psychotherapist-website-milan
+  → применено
+
+[en] /blog/how-clients-find-you-through-chatgpt  (blog-found-via-chatgpt)
+  абзац: The same story from the developer's side: Bilingual psychotherapist website in Milan and Monza — this client found me through ChatGPT, and his own site was then built for AI search.
+  анкор: "Bilingual psychotherapist website in Milan and Monza" → /portfolio/psychotherapist-website-milan
+  → применено
+
+[en] /blog/what-a-psychologist-website-needs  (blog-psychologist-website-checklist)
+  абзац: All of it on a finished project: Bilingual psychotherapist website in Milan and Monza.
+  анкор: "Bilingual psychotherapist website in Milan and Monza" → /portfolio/psychotherapist-website-milan
+  → применено
+
+[en] /blog/psychologist-website-cost  (blog-psychologist-website-cost)
+  абзац: What a finished site of this kind looks like: Bilingual psychotherapist website in Milan and Monza.
+  анкор: "Bilingual psychotherapist website in Milan and Monza" → /portfolio/psychotherapist-website-milan
+  → применено
+
+[pl] /pl/strona-dla-psychologow-terapeutow  (singlepage-psychologists-therapists.pl)
+  абзац: Przykład z tej niszy: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — co powstało i dlaczego.
+  анкор: "Strona internetowa dla psychoterapeuty w Mediolanie i Monzy" → /pl/portfolio/strona-internetowa-dla-psychoterapeuty
+  → применено
+
+[pl] /pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski  (singlepage-seo-italy.pl)
+  абзац: Projekt na tym rynku: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — włoski jako język główny, angielski pod /en.
+  анкор: "Strona internetowa dla psychoterapeuty w Mediolanie i Monzy" → /pl/portfolio/strona-internetowa-dla-psychoterapeuty
+  → применено
+
+[pl] /pl/oferty/przygotowanie-strony-do-wyszukiwania-ai  (service-ai-search-readiness.pl)
+  абзац: Jak to wygląda na działającej stronie: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — jej nowe podstrony pojawiają się już w odpowiedziach ChatGPT.
+  анкор: "Strona internetowa dla psychoterapeuty w Mediolanie i Monzy" → /pl/portfolio/strona-internetowa-dla-psychoterapeuty
+  → применено
+
+[pl] /pl/migracja-strony-na-inna-platforme  (singlepage-platform-migration.pl)
+  абзац: Migracja przeprowadzona w ten sposób: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — 468 wpisów bloga przeniesionych z WordPressa, wszystkie stare adresy nadal działają.
+  анкор: "Strona internetowa dla psychoterapeuty w Mediolanie i Monzy" → /pl/portfolio/strona-internetowa-dla-psychoterapeuty
+  → применено
+
+[pl] /pl/blog/jak-klienci-znajduja-specjalistow-przez-chatgpt  (blog-found-via-chatgpt.pl)
+  абзац: Ta sama historia od strony wykonawcy: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy — ten klient znalazł mnie przez ChatGPT, a jego własna strona powstała pod wyszukiwanie AI.
+  анкор: "Strona internetowa dla psychoterapeuty w Mediolanie i Monzy" → /pl/portfolio/strona-internetowa-dla-psychoterapeuty
+  → применено
+
+[pl] /pl/blog/co-powinno-byc-na-stronie-psychologa  (blog-psychologist-website-checklist.pl)
+  абзац: Wszystko to na gotowym projekcie: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy.
+  анкор: "Strona internetowa dla psychoterapeuty w Mediolanie i Monzy" → /pl/portfolio/strona-internetowa-dla-psychoterapeuty
+  → применено
+
+[pl] /pl/blog/ile-kosztuje-strona-dla-psychologa  (blog-psychologist-website-cost.pl)
+  абзац: Jak wygląda gotowa strona tego rodzaju: Strona internetowa dla psychoterapeuty w Mediolanie i Monzy.
+  анкор: "Strona internetowa dla psychoterapeuty w Mediolanie i Monzy" → /pl/portfolio/strona-internetowa-dla-psychoterapeuty
+  → применено
+
+[ru] /ru/sait-dlya-psihologov-terapevtov  (singlepage-psychologists-therapists.ru)
+  абзац: Как это выглядит на реальном проекте: Сайт психотерапевта в Милане и Монце на двух языках — что именно делали и зачем.
+  анкор: "Сайт психотерапевта в Милане и Монце на двух языках" → /ru/portfolio/sayt-psikhoterapevta-v-milane
+  → применено
+
+[ru] /ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok  (singlepage-seo-italy.ru)
+  абзац: Проект на этом рынке: Сайт психотерапевта в Милане и Монце на двух языках — итальянский основной, английский под /en.
+  анкор: "Сайт психотерапевта в Милане и Монце на двух языках" → /ru/portfolio/sayt-psikhoterapevta-v-milane
+  → применено
+
+[ru] /ru/uslugi/podgotovka-saita-k-ii-poisku  (service-ai-search-readiness.ru)
+  абзац: Как это работает на живом сайте: Сайт психотерапевта в Милане и Монце на двух языках — его новые страницы уже появляются в ответах ChatGPT.
+  анкор: "Сайт психотерапевта в Милане и Монце на двух языках" → /ru/portfolio/sayt-psikhoterapevta-v-milane
+  → применено
+
+[ru] /ru/perenos-saita-na-druguyu-platformu  (singlepage-platform-migration.ru)
+  абзац: Перенос, сделанный по этой схеме: Сайт психотерапевта в Милане и Монце на двух языках — 468 статей блога ушли с WordPress, все старые адреса продолжают работать.
+  анкор: "Сайт психотерапевта в Милане и Монце на двух языках" → /ru/portfolio/sayt-psikhoterapevta-v-milane
+  → применено
+
+[ru] /ru/blog/kak-klienty-nahodyat-cherez-chatgpt  (blog-found-via-chatgpt.ru)
+  абзац: Та же история со стороны исполнителя: Сайт психотерапевта в Милане и Монце на двух языках — этот клиент нашёл меня через ChatGPT, а его собственный сайт делался под ИИ-поиск.
+  анкор: "Сайт психотерапевта в Милане и Монце на двух языках" → /ru/portfolio/sayt-psikhoterapevta-v-milane
+  → применено
+
+[ru] /ru/blog/skolko-stoit-sait-psihologa  (blog-psychologist-website-cost.ru)
+  абзац: Как выглядит готовый сайт такого рода: Сайт психотерапевта в Милане и Монце на двух языках.
+  анкор: "Сайт психотерапевта в Милане и Монце на двух языках" → /ru/portfolio/sayt-psikhoterapevta-v-milane
+  → применено
+
+Запланировано связок: 35. Применено: 35.

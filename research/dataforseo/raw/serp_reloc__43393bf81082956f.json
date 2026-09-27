@@ -1,0 +1,1035 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "8.7758 sec.",
+ "cost": 0.00415,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09270728-2505-0139-0000-faba0dc28867",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "8.7180 sec.",
+   "cost": 0.00415,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "immigration services",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 20,
+    "people_also_ask_click_depth": 1,
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "immigration services",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=immigration%20services&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-09-27 07:28:09 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "people_also_ask",
+      "organic",
+      "related_searches",
+      "images"
+     ],
+     "se_results_count": 161000,
+     "pages_count": 2,
+     "items_count": 22,
+     "items": [
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What do immigration services do?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Can I call ICE immigration on someone?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Where can I get free immigration help?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Is ICE arresting legal immigrants?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Can ICE deport you if you are a U.S. citizen?",
+         "seed_question": "Is ICE arresting legal immigrants?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Can ICE just stop you and ask for ID?",
+         "seed_question": "Is ICE arresting legal immigrants?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.immigrationadvocates.org",
+       "title": "Nashville International Center for Empowerment",
+       "url": "https://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.810046-Nashville_International_Center_for_Empowerment",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.immigrationadvocates.org › legaldirectory",
+       "website_name": "Immigration Advocates Network",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "(615) 315-9681. Resettlement agency that provides social services for refugees and immigrants. provide low-cost immigration services.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "services",
+        "immigration services"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.findhelp.org",
+       "title": "Immigration Services - Refugees Helping ...",
+       "url": "https://www.findhelp.org/refugees-helping-refugees--rochester-ny-immigration-services/5021061977014272?postal=14428",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.findhelp.org › refugees-helping-refugees--...",
+       "website_name": "FindHelp.org",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Refugees provides legal assistance to support asylum applications, representation in immigration court, green card applications, work permit applications, and ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Refugees provides legal assistance"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "211ventura.org",
+       "title": "IMMIGRATION AND NATURALIZATION ADJUDICATION ...",
+       "url": "https://211ventura.org/211-service/211sofcali-55594518/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://211ventura.org › 211-service",
+       "website_name": "211 Ventura County",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jun 2, 2026 — Administers immigration, citizenship, and naturalization services. Provides processing and adjudication of immigrant visa petitions, ... Read more",
+       "pre_snippet": "06/02/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Administers immigration, citizenship, and naturalization services"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://211ventura.org/211-service/211sofcali-55594518/#:~:text=Administers%20immigration%2C%20citizenship%2C%20and%20naturalization,naturalization%2C%20asylum%2C%20and%20refugee%20applications.",
+         "domain": "211ventura.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-06-02 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.immigrationadvocates.org",
+       "title": "El Pueblo - National Immigration Legal Services Directory",
+       "url": "https://www.immigrationadvocates.org/legaldirectory/organization.393057-El_Pueblo",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.immigrationadvocates.org › legaldirectory",
+       "website_name": "Immigration Advocates Network",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Phone: (228) 436-3986. Provided Areas of immigration legal assistance: Adjustment of Status, Asylum applications, Consular Processing,",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "immigration"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "careertools.binghamton.edu",
+       "title": "U.S. Citizenship and Immigration Services",
+       "url": "https://careertools.binghamton.edu/resources/u-s-citizenship-and-immigration-services/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://careertools.binghamton.edu › resources › u-s-citi...",
+       "website_name": "Binghamton University",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Government agency that oversees lawful immigration to the United States. Phone 607-777-2400. Hours M Monday 9 a.m. - 4:00 p.m.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "immigration"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "ccctx.org",
+       "title": "Jamshid's Immigration Services Story",
+       "url": "https://ccctx.org/impact-stories/jamshids-immigration-services-story/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://ccctx.org › Impact Stories",
+       "website_name": "Catholic Charities of Central Texas",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Mr. Jamshid Arfany, an Afghan, sought legal representation from the CCCTX immigration legal services program after a long journey from his home country.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "CCCTX immigration legal services program"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "www.facebook.com",
+       "title": "U.S.... - U.S. Citizenship and Immigration Services",
+       "url": "https://www.facebook.com/uscis/photos/1025093422997118/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "9.4K+ reactions  ·  1 year ago",
+       "website_name": "Facebook · U.S. Citizenship and Immigration Services",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "U.S. Citizenship and Immigration Services … takes 14 years wait. Plus get the visa waver. Seek legal help.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "takes 14 years wait"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "ccdenver.org",
+       "title": "Immigration Services Archives",
+       "url": "https://ccdenver.org/category/immigration-services/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://ccdenver.org › category › immigration-services",
+       "website_name": "Catholic Charities of Denver",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Serving Immigrant Families … engaged in client work, legal research and the day-to-day realities of practicing immigration law. client's case management ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "immigration"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "hr.uams.edu",
+       "title": "Employment of Spouses and Children",
+       "url": "https://hr.uams.edu/immigration-services/destination-arkansas/employment-of-spouses-and-children/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://hr.uams.edu › destination-arkansas › employmen...",
+       "website_name": "UAMS Human Resources",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Immigration Services · Destination Arkansas: Relocation for International Employees; Employment of Spouses and Children. Employment of Spouses and Children. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Immigration Services"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://hr.uams.edu/immigration-services/destination-arkansas/employment-of-spouses-and-children/#:~:text=Immigration%20Services,Employment%20of%20Spouses%20and%20Children",
+         "domain": "hr.uams.edu"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "immigration services near california",
+        "immigration services near texas"
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 10,
+       "rank_absolute": 12,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.ladwp.com",
+       "title": "Immigration Enforcement & Customer Privacy",
+       "url": "https://www.ladwp.com/residential-services/assistance-programs/ladwp-cares/immigration-enforcement-customer-privacy",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.ladwp.com › ... › LADWP Cares",
+       "website_name": "Los Angeles Department of Water and Power",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "If in doubt, call us to verify the identity of our employees, at (800) DIAL-DWP / (800) 342-5397. LADWP never calls customers threatening to turn off water and ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "800) DIAL-DWP / (800) 342-5397"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.ladwp.com/residential-services/assistance-programs/ladwp-cares/immigration-enforcement-customer-privacy#:~:text=If%20in%20doubt%2C%20call%20us,power%20service%20over%20the%20phone.",
+         "domain": "www.ladwp.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 11,
+       "rank_absolute": 13,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "mn.gov",
+       "title": "Immigration/Naturalization Legal Services - Minnesota.gov",
+       "url": "https://mn.gov/adresources/search/?query=FT-3600&query_label=Immigration%2FNaturalization%20Legal%20Services&query_type=taxonomy",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://mn.gov › adresources › search › Naturalization Le...",
+       "website_name": "mn.gov",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Helps people complete applications or other required steps to receive benefits or services. What's Here. Certificates/Forms AssistanceImmigrant Visa ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Helps people complete applications or other required steps to receive benefits or services"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://mn.gov/adresources/search/?query=FT-3600&query_label=Immigration/Naturalization+Legal+Services&query_type=taxonomy#:~:text=Helps%20people%20complete%20applications%20or,Filing%20AssistanceRefugees%2FEntrants%2FAsyleesImmigrant%20Benefits%20AssistanceImmigrantsSomali%20Community",
+         "domain": "mn.gov"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 12,
+       "rank_absolute": 14,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "isss.olemiss.edu",
+       "title": "Immigration Services for Students and Scholars,Announcements",
+       "url": "https://isss.olemiss.edu/index.cfm?FuseAction=Announcements.Announcement",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://isss.olemiss.edu › ...",
+       "website_name": "University of Mississippi | Ole Miss",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Immigration Services for Students & Scholars. Monday-Friday; 8:00a.m. to 5:00p.m. P 001-662-915-7404 ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Immigration Services for Students & Scholars"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://isss.olemiss.edu/index.cfm?FuseAction=Announcements.Announcement#:~:text=Immigration%20Services%20for%20Students%20%26,P%20001-662-915-7404",
+         "domain": "isss.olemiss.edu"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 13,
+       "rank_absolute": 15,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "illinoismaya.web.illinois.edu",
+       "title": "Legal & Immigration Services",
+       "url": "https://illinoismaya.web.illinois.edu/legal-immigration-services/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://illinoismaya.web.illinois.edu › legal-immigration...",
+       "website_name": "University of Illinois Urbana-Champaign",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Legal & Immigration Services · 1001 S. Wright Street Champaign, Illinois 61801 (217) 359-9622 · Gloria Yen at (217)337-1500 or gloria@universityymca.org ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "1001 S. Wright Street Champaign, Illinois 61801"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://illinoismaya.web.illinois.edu/legal-immigration-services/#:~:text=Legal%20%26%20Immigration%20Services&text=1001%20S.%20Wright%20Street%20Champaign%2C,Illinois%2061801%20(217)%20359-9622&text=Gloria%20Yen%20at%20(217)337-1500%20or,gloria%40universityymca.org",
+         "domain": "illinoismaya.web.illinois.edu"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 14,
+       "rank_absolute": 16,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "domain": "www.ohiolegalhelp.org",
+       "title": "Community Refugee and Immigration Services (CRIS)",
+       "url": "https://www.ohiolegalhelp.org/resource/cris",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.ohiolegalhelp.org › resource › cris",
+       "website_name": "Ohio Legal Help",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "They help with a wide range of legal filings and applications like citizenship, visas, employment and more. Fees: CRIS generally charges a $25 fee for the ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "They help with a wide range of legal filings and applications"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.ohiolegalhelp.org/resource/cris#:~:text=They%20help%20with%20a%20wide,fee%20for%20the%20intake%20consultation.",
+         "domain": "www.ohiolegalhelp.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 15,
+       "rank_absolute": 17,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "risccmke.org",
+       "title": "Special Immigrant Visas",
+       "url": "https://risccmke.org/en/special-immigrant-visas/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://risccmke.org › special-immigrant-visas",
+       "website_name": "Catholic Charities Refugee and Immigration Services",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Dec 2, 2021 — If you have a Special Immigrant Visa, you can sign up for these benefits and services at the state government benefits office, or closest ... Read more",
+       "pre_snippet": "12/02/2021 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "sign up for these benefits and services"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://risccmke.org/en/special-immigrant-visas/#:~:text=If%20you%20have%20a%20Special,in%20the%20state%20you%20resettled.",
+         "domain": "risccmke.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2021-12-02 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 16,
+       "rank_absolute": 18,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "www.facebook.com",
+       "title": "Sacramento Immigration Services",
+       "url": "https://www.facebook.com/sacramentoimmigrationservices/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "90+ followers",
+       "website_name": "Facebook · Sacramento Immigration Services",
+       "is_image": true,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_image"
+       ],
+       "description": "Sacramento Immigration Services provides specialized help to Corporate Sector in their immigrant and non-immigrant visa petitions. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": [
+        {
+         "type": "images_element",
+         "alt": "immigration services from www.facebook.com",
+         "url": "https://www.facebook.com/sacramentoimmigrationservices/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09270728-2505-0139-0000-faba0dc28867:0"
+        }
+       ],
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Immigration Services"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.facebook.com/sacramentoimmigrationservices/#:~:text=Sacramento%20Immigration%20Services%20provides%20specialized,immigrant%20and%20non-immigrant%20visa%20petitions.",
+         "domain": "www.facebook.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 19,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sa=N&hl=en&gl=US&sca_esv=5e1010fa43cff023&sxsrf=APpeQnuw_HgmOuErDGdnWOhqgh4u0LUY-g:1790494088482&q=immigration+services&udm=2&source=univ&fir=lqjII2v__kLKNM%252CF29vIU1tj6K7gM%252C_%253BK722yKC_jC2w5M%252CF29vIU1tj6K7gM%252C_%253B1rKFx2jRY4lZLM%252CyCHcj8ztKQ7wTM%252C_%253BkFEnufRwdLM2KM%252CAapCTtMFEGeBhM%252C_%253BzRRgrzIFA9OdbM%252CPAb6EiPJKinO9M%252C_%253BAa3PLMBo2FfXvM%252Cd-4vPttALgysnM%252C_%253BOj4rS2FeeK4JhM%252CZNbzPDnx8Phf4M%252C_%253B9h-mpz2Y7AGAIM%252Cd-4vPttALgysnM%252C_%253BmeIU7GTSsoFaXM%252CZNbzPDnx8Phf4M%252C_&usg=AI4_-kTJpclDphhzy9fSXoNttTcFZLmKQg&ved=2ahUKEwix3_agno6XAxXm1wIHHbqdNzI4ChDsCXoECDEQBQ",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "U.S. Citizenship and Immigration Services",
+         "url": "https://www.facebook.com/uscis/posts/1411399514366505/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09270728-2505-0139-0000-faba0dc28867:1"
+        },
+        {
+         "type": "images_element",
+         "alt": "U.S. Citizenship and Immigration Services",
+         "url": "https://www.facebook.com/uscis/posts/1411399514366505/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09270728-2505-0139-0000-faba0dc28867:2"
+        },
+        {
+         "type": "images_element",
+         "alt": "U.S.... - U.S. Citizenship and Immigration Services",
+         "url": "https://www.facebook.com/uscis/photos/2389175041093702/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09270728-2505-0139-0000-faba0dc28867:3"
+        },
+        {
+         "type": "images_element",
+         "alt": "If you’re waiting to hear back from the U.S. government about an  immigration application, you need to listen to this., U.S. Citizenship and  Immigration Services is putting a significant number of ...",
+         "url": "https://www.facebook.com/TheAmericanImmigrationCouncil/videos/if-youre-waiting-to-hear-back-from-the-us-government-about-an-immigration-applic/1403297191375579/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUmVc8ajqVKG9HMtzaavMHX15DJL_0v2P8a6BCIgBwO1ohTYVV_iivDQ&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Immigration Services Archives - Catholic Charities of Denver",
+         "url": "https://ccdenver.org/category/immigration-services/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8yR3oKNaLiqUa9qZqbTvggQbv5Z53rOJQfqeqRRfvVLIaLvhlsk62KIE&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Sacramento Immigration Services | Sacramento CA",
+         "url": "https://www.facebook.com/sacramentoimmigrationservices/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi1SEe69R3E-1Labp67A_uRSdf0JsuXmfDW-_6WTmldHOoTfDkWdiHUaY&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Jamshid's Immigration Services Story - Catholic Charities of ...",
+         "url": "https://ccctx.org/impact-stories/jamshids-immigration-services-story/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2qKO7nphpcX_S0-J6RZHnfmx8RhESMBy1nrvvY_cggYRJJHYAMJVy9SgUew&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Sacramento Immigration Services | Sacramento CA",
+         "url": "https://www.facebook.com/sacramentoimmigrationservices/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShkEeGfNlQWGqVq2QKlbQhA59KsAdYj4u3Y8lsYPt7LNh1_d7LZIZN1Tc&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Jamshid's Immigration Services Story - Catholic Charities of ...",
+         "url": "https://ccctx.org/impact-stories/jamshids-immigration-services-story/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBD_Zk8IjmzqbQLFMpCdzB6Urlp2Nx_AwY4fJwM26mCTqudmOK1Op7-e0&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 17,
+       "rank_absolute": 20,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "www.findhelp.org",
+       "title": "Immigration Services - American Dream Center serving ...",
+       "url": "https://www.findhelp.org/american-dream-center--tulsa-ok--immigration-services/6037635059548160?postal=74101",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.findhelp.org › american-dream-center--tuls...",
+       "website_name": "FindHelp.org",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The American Dream Center provides assistance to immigrants and refugees in need. This program is designed to help those lacking in material resources to ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "provides assistance to immigrants and refugees in need"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.findhelp.org/american-dream-center--tulsa-ok--immigration-services/6037635059548160?postal=74101#:~:text=The%20American%20Dream%20Center%20provides,navigate%20often%20complex%20legal%20systems.",
+         "domain": "www.findhelp.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 18,
+       "rank_absolute": 21,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.scotusblog.com",
+       "title": "U.S. Citizenship and Immigration Services v. City and ...",
+       "url": "https://www.scotusblog.com/cases/u-s-citizenship-and-immigration-services-v-city-and-county-of-san-francisco-california/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.scotusblog.com › cases › u-s-citizenship-an...",
+       "website_name": "SCOTUSblog",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Mar 9, 2021 — U.S. Citizenship and Immigration Services v. City and County of San Francisco, California. Petition for certiorari dismissed pursuant to Rule ... Read more",
+       "pre_snippet": "03/09/2021 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Immigration Services"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.scotusblog.com/cases/u-s-citizenship-and-immigration-services-v-city-and-county-of-san-francisco-california/#:~:text=U.S.%20Citizenship%20and%20Immigration%20Services,46%2C%20on%20March%209%2C%202021",
+         "domain": "www.scotusblog.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2021-03-09 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 2,
+       "rank_absolute": 22,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "immigration services near california",
+        "immigration services near texas"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

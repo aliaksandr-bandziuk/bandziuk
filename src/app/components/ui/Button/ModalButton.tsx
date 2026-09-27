@@ -10,9 +10,11 @@ type Props = {
   variant?: "primary" | "secondary";
   size?: "md" | "lg";
   className?: string;
+  /** Runs before the dialog opens — the mobile menu uses it to close itself. */
+  onClick?: () => void;
 };
 
-export const ModalButton = ({ children, variant, size, className }: Props) => {
+export const ModalButton = ({ children, variant, size, className, onClick }: Props) => {
   const { openModal } = useModal();
 
   return (
@@ -21,7 +23,10 @@ export const ModalButton = ({ children, variant, size, className }: Props) => {
       variant={variant}
       size={size}
       className={className}
-      onClick={openModal}
+      onClick={() => {
+        onClick?.();
+        openModal();
+      }}
       // Start loading the dialog before the click lands.
       onMouseEnter={loadModalDialog}
       onFocus={loadModalDialog}

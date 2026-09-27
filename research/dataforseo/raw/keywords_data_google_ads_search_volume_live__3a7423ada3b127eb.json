@@ -1,0 +1,869 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "2.6347 sec.",
+ "cost": 0.09,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09270716-2505-0367-0000-665895fea8eb",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "2.5643 sec.",
+   "cost": 0.09,
+   "result_count": 27,
+   "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+   ],
+   "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "keywords": [
+     "strona dla agencji relokacyjnej",
+     "strona internetowa dla agencji relokacyjnej",
+     "strona dla biura legalizacji pobytu",
+     "strona dla doradcy imigracyjnego",
+     "strona dla biura tłumaczeń",
+     "strona internetowa dla biura tłumaczeń",
+     "strona dla tłumacza",
+     "strona internetowa dla tłumacza",
+     "strona dla agencji pracy",
+     "strona internetowa dla agencji pracy",
+     "strona dla agencji pracy tymczasowej",
+     "strona dla szkoły językowej",
+     "strona internetowa dla szkoły językowej",
+     "strona dla szkoły",
+     "strona dla kancelarii",
+     "strona dla prawnika",
+     "strona internetowa dla prawnika",
+     "strona dla adwokata",
+     "strona dla agencji nieruchomości",
+     "strona internetowa dla agencji nieruchomości",
+     "strona dla biura nieruchomości",
+     "strona dla biura rachunkowego",
+     "strona internetowa dla biura rachunkowego",
+     "strona dla księgowej",
+     "strona dla biura podróży",
+     "strona internetowa dla biura podróży",
+     "strona dla agencji turystycznej"
+    ],
+    "location_code": 2616,
+    "language_code": "pl"
+   },
+   "result": [
+    {
+     "keyword": "strona dla agencji relokacyjnej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla agencji relokacyjnej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla biura legalizacji pobytu",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla doradcy imigracyjnego",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla biura tłumaczeń",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla biura tłumaczeń",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla tłumacza",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla tłumacza",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla agencji pracy",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla agencji pracy",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla agencji pracy tymczasowej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla szkoły językowej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla szkoły językowej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla szkoły",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 30
+      }
+     ]
+    },
+    {
+     "keyword": "strona dla kancelarii",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 31,
+     "search_volume": 40,
+     "low_top_of_page_bid": 1.34,
+     "high_top_of_page_bid": 5.34,
+     "cpc": 5.43,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "strona dla prawnika",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla prawnika",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 46,
+     "search_volume": 90,
+     "low_top_of_page_bid": 2.41,
+     "high_top_of_page_bid": 5.36,
+     "cpc": 5.45,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "strona dla adwokata",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla agencji nieruchomości",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 30,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "strona internetowa dla agencji nieruchomości",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla biura nieruchomości",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 19,
+     "search_volume": 90,
+     "low_top_of_page_bid": 3.44,
+     "high_top_of_page_bid": 12.46,
+     "cpc": 12.58,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 50
+      }
+     ]
+    },
+    {
+     "keyword": "strona dla biura rachunkowego",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla biura rachunkowego",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 47,
+     "search_volume": 40,
+     "low_top_of_page_bid": 2.19,
+     "high_top_of_page_bid": 4.5,
+     "cpc": 3.32,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 30
+      }
+     ]
+    },
+    {
+     "keyword": "strona dla księgowej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla biura podróży",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla biura podróży",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 90,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "strona dla agencji turystycznej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    }
+   ]
+  }
+ ]
+}

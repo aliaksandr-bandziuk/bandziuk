@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Translation } from "@/types/homepage";
 import NavWrapper from "../../wrappers/NavWrapper/NavWrapper";
 import { ModalButton } from "../../ui/Button/ModalButton";
+import { defaultLocale } from "@/i18n.config";
 
 type Props = {
   translations?: Translation[];
@@ -21,7 +22,12 @@ const Header = async ({ translations, params }: Props) => {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.companyData}>
-            <Link className={styles.logoLink} href={`/${params.lang}`}>
+            {/* English has no prefix, so `/${lang}` would make the most
+                clicked link on every English page a 308 to "/". */}
+            <Link
+              className={styles.logoLink}
+              href={params.lang === defaultLocale ? "/" : `/${params.lang}`}
+            >
               <Image
                 alt="Bandziuk Logo"
                 src={urlFor(data.logo).url()}
@@ -44,6 +50,9 @@ const Header = async ({ translations, params }: Props) => {
                 navLinks={data.navLinks}
                 params={params}
                 translations={translations}
+                buttonLabel={data.buttonLabel}
+                phone={data.phone}
+                whatsappNumber={data.whatsappNumber}
               />
             </div>
             <div className={styles.contactData}>

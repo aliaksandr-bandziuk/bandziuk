@@ -17,6 +17,8 @@ export async function getHeaderByLang(lang: string): Promise<Header> {
     logoMobile,
     navLinks,
     buttonLabel,
+    phone,
+    whatsappNumber,
   }`;
 
   const header = await client.fetch(headerQuery, { lang }, { next: { revalidate: 60 } });

@@ -1,0 +1,976 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "1.5144 sec.",
+ "cost": 0.09,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09270722-2505-0367-0000-86329c4c4e3d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "1.4397 sec.",
+   "cost": 0.09,
+   "result_count": 26,
+   "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+   ],
+   "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "keywords": [
+     "strona dla biura obsługi cudzoziemców",
+     "strona internetowa dla biura obsługi cudzoziemców",
+     "strona dla agencji legalizacji pobytu",
+     "strona dla firmy legalizującej pobyt",
+     "strona dla biura imigracyjnego",
+     "strona www dla agencji relokacyjnej",
+     "tworzenie strony dla agencji pracy",
+     "strona dla pośrednika pracy",
+     "strona dla firmy outsourcingowej dla cudzoziemców",
+     "pozycjonowanie agencji relokacyjnej",
+     "pozycjonowanie biura legalizacji pobytu",
+     "reklama google agencja pracy",
+     "marketing obsługa cudzoziemców",
+     "jak zdobyć klientów cudzoziemców",
+     "jak reklamować usługi dla cudzoziemców",
+     "pozycjonowanie strony dla cudzoziemców",
+     "obsługa cudzoziemców",
+     "biuro obsługi cudzoziemców",
+     "legalizacja zatrudnienia cudzoziemców",
+     "zezwolenie na pracę dla cudzoziemca",
+     "pomoc w uzyskaniu karty pobytu",
+     "usługi imigracyjne",
+     "biuro imigracyjne",
+     "agencja legalizacji pobytu",
+     "pośrednictwo pracy dla cudzoziemców",
+     "outsourcing kadrowy cudzoziemcy"
+    ],
+    "location_code": 2616,
+    "language_code": "pl"
+   },
+   "result": [
+    {
+     "keyword": "strona dla biura obsługi cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona internetowa dla biura obsługi cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla agencji legalizacji pobytu",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla firmy legalizującej pobyt",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla biura imigracyjnego",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona www dla agencji relokacyjnej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "tworzenie strony dla agencji pracy",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla pośrednika pracy",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "strona dla firmy outsourcingowej dla cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "pozycjonowanie agencji relokacyjnej",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "pozycjonowanie biura legalizacji pobytu",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "reklama google agencja pracy",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "marketing obsługa cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "jak zdobyć klientów cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "jak reklamować usługi dla cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "pozycjonowanie strony dla cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "obsługa cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 32,
+     "search_volume": 50,
+     "low_top_of_page_bid": 0.47,
+     "high_top_of_page_bid": 1.2,
+     "cpc": 1.96,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "biuro obsługi cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 7,
+     "search_volume": 110,
+     "low_top_of_page_bid": 0.6,
+     "high_top_of_page_bid": 2.42,
+     "cpc": 2.64,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 70
+      }
+     ]
+    },
+    {
+     "keyword": "legalizacja zatrudnienia cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 59,
+     "search_volume": 110,
+     "low_top_of_page_bid": 1.08,
+     "high_top_of_page_bid": 3.26,
+     "cpc": 3.03,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 90
+      }
+     ]
+    },
+    {
+     "keyword": "zezwolenie na pracę dla cudzoziemca",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 24,
+     "search_volume": 480,
+     "low_top_of_page_bid": 0.38,
+     "high_top_of_page_bid": 2.04,
+     "cpc": 1.72,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 480
+      }
+     ]
+    },
+    {
+     "keyword": "pomoc w uzyskaniu karty pobytu",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 70,
+     "search_volume": 50,
+     "low_top_of_page_bid": 0.37,
+     "high_top_of_page_bid": 1.06,
+     "cpc": 1.39,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 30
+      }
+     ]
+    },
+    {
+     "keyword": "usługi imigracyjne",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "biuro imigracyjne",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 18,
+     "search_volume": 40,
+     "low_top_of_page_bid": 0.31,
+     "high_top_of_page_bid": 2.01,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 50
+      }
+     ]
+    },
+    {
+     "keyword": "agencja legalizacji pobytu",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 71,
+     "search_volume": 10,
+     "low_top_of_page_bid": 0.69,
+     "high_top_of_page_bid": 3.12,
+     "cpc": 1.7,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "pośrednictwo pracy dla cudzoziemców",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 69,
+     "search_volume": 10,
+     "low_top_of_page_bid": 0.3,
+     "high_top_of_page_bid": 1.32,
+     "cpc": 1.58,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "outsourcing kadrowy cudzoziemcy",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "pl",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    }
+   ]
+  }
+ ]
+}

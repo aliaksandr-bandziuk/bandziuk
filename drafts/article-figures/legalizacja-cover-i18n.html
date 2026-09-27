@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Textless cover — the owner asked for no wording on the preview, which is
+     also the OG image. The first attempt was an abstract results list, which
+     read as "a search results page" and said nothing about the subject. This
+     one puts the subject in the picture: a browser window holding a stylised
+     residence card with a stamp, next to the results it competes in.
+     Deliberately generic — no emblem, no flag, no country, nothing that could
+     pass for a real document. Palette and geometry as cover-i18n.html. */
+  :root{
+    --bg:#0a0a0b; --accent:#f5a05c; --cool:#3987e5;
+    --line:#26262a; --line-2:#1b1b1f; --chrome:#17171a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000}
+  .cover{
+    position:relative;width:1672px;height:941px;overflow:hidden;
+    background:
+      radial-gradient(1000px 600px at 16% -14%, rgba(245,160,92,.17), transparent 62%),
+      radial-gradient(900px 560px at 94% 114%, rgba(57,135,229,.14), transparent 60%),
+      var(--bg);
+  }
+  .grain{position:absolute;inset:0;opacity:.4}
+  .grain i{position:absolute;border-radius:50%;background:#fff}
+
+  .browser{
+    position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1180px;
+    background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.09);
+    border-radius:26px;overflow:hidden;box-shadow:0 60px 140px rgba(0,0,0,.6);
+  }
+  .chrome{
+    height:62px;background:var(--chrome);border-bottom:1px solid rgba(255,255,255,.07);
+    display:flex;align-items:center;gap:11px;padding:0 26px;
+  }
+  .chrome .dot{width:12px;height:12px;border-radius:50%;background:#2e2e33}
+  .chrome .url{
+    margin-left:18px;height:26px;flex:1;max-width:620px;border-radius:13px;
+    background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.05);
+  }
+  .body{display:flex;gap:52px;padding:52px 56px 56px}
+
+  /* the stylised residence card */
+  .permit{
+    position:relative;width:470px;height:296px;flex:none;border-radius:20px;
+    background:linear-gradient(145deg, rgba(245,160,92,.22), rgba(245,160,92,.06) 58%, rgba(255,255,255,.03));
+    border:1px solid rgba(245,160,92,.45);
+    transform:rotate(-3deg);padding:30px 32px;
+    box-shadow:0 30px 70px rgba(0,0,0,.45);
+  }
+  .permit .top{display:flex;gap:24px}
+  .permit .photo{width:104px;height:130px;border-radius:10px;background:rgba(255,255,255,.16);flex:none}
+  .permit .fields{flex:1;padding-top:6px}
+  .permit .f{height:10px;border-radius:5px;background:rgba(255,255,255,.34);margin:0 0 15px}
+  .permit .f.sm{background:rgba(255,255,255,.2);height:8px}
+  .permit .chip{
+    position:absolute;left:32px;bottom:34px;width:52px;height:38px;border-radius:7px;
+    background:linear-gradient(135deg, var(--accent), rgba(245,160,92,.45));opacity:.85;
+  }
+  .permit .mrz{position:absolute;left:100px;right:32px;bottom:34px}
+  .permit .mrz i{display:block;height:7px;border-radius:4px;background:rgba(255,255,255,.2);margin-bottom:8px}
+  .permit .mrz i:last-child{margin-bottom:0;width:62%}
+
+  /* the stamp over the card corner */
+  .stamp{
+    position:absolute;right:22px;bottom:20px;width:132px;height:132px;border-radius:50%;
+    border:5px solid rgba(245,160,92,.7);transform:rotate(-14deg);
+  }
+  .stamp::after{
+    content:"";position:absolute;inset:13px;border-radius:50%;
+    border:2px solid rgba(245,160,92,.45);
+  }
+  /* a tick, so the ring reads as "approved" rather than as a magnifier */
+  .stamp i{
+    position:absolute;left:50%;top:46%;width:52px;height:26px;
+    border-left:8px solid rgba(245,160,92,.85);
+    border-bottom:8px solid rgba(245,160,92,.85);
+    border-radius:3px;
+    transform:translate(-50%,-50%) rotate(-45deg);
+  }
+
+  /* the results it competes in */
+  .results{flex:1;padding-top:6px}
+  .row{display:flex;gap:16px;align-items:flex-start;margin:0 0 26px}
+  .row:last-child{margin-bottom:0}
+  .row .dot{width:10px;height:10px;border-radius:50%;background:var(--line);margin-top:4px;flex:none}
+  .row.on .dot{background:var(--accent)}
+  .row .lines{flex:1}
+  .row .t{height:12px;border-radius:6px;background:var(--line);margin:0 0 10px}
+  .row.on .t{background:var(--accent)}
+  .row .s{height:7px;border-radius:4px;background:var(--line-2)}
+  .row .s + .s{margin-top:7px}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// Accent rows = private firms in the real top eight, trimmed to the five rows
+// that fit beside the card: PL 3 of 5, RU 4 of 5, EN 3 of 5 keep each
+// language's proportion without pretending to show all eight.
+const ON = { pl: [1,1,0,1,0], ru: [1,1,1,0,1], en: [1,0,1,1,0] };
+const W  = [ [82,94,58], [68,88,52], [75,96,61], [61,84,49], [79,91,55] ];
+
+function grain(n) {
+  let s = 20260927, out = "";
+  const rnd = () => (s = (s * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+  for (let i = 0; i < n; i++) {
+    const x = (rnd() * 1672).toFixed(0), y = (rnd() * 941).toFixed(0);
+    const d = (rnd() * 1.6 + 0.6).toFixed(2), o = (rnd() * 0.3 + 0.05).toFixed(2);
+    out += `<i style="left:${x}px;top:${y}px;width:${d}px;height:${d}px;opacity:${o}"></i>`;
+  }
+  return out;
+}
+
+const root = document.getElementById("root");
+for (const lang of ["pl", "ru", "en"]) {
+  const rows = ON[lang].map((on, i) => `
+    <div class="row${on ? " on" : ""}">
+      <span class="dot"></span>
+      <div class="lines">
+        <div class="t" style="width:${W[i][0]}%"></div>
+        <div class="s" style="width:${W[i][1]}%"></div>
+        <div class="s" style="width:${W[i][2]}%"></div>
+      </div>
+    </div>`).join("");
+
+  root.insertAdjacentHTML("beforeend", `
+    <div class="cover" id="cover-${lang}">
+      <div class="grain">${grain(240)}</div>
+      <div class="browser">
+        <div class="chrome">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="url"></span>
+        </div>
+        <div class="body">
+          <div class="permit">
+            <div class="top">
+              <div class="photo"></div>
+              <div class="fields">
+                <div class="f" style="width:86%"></div>
+                <div class="f sm" style="width:64%"></div>
+                <div class="f sm" style="width:74%"></div>
+                <div class="f sm" style="width:52%"></div>
+              </div>
+            </div>
+            <div class="chip"></div>
+            <div class="mrz"><i style="width:100%"></i><i></i></div>
+            <div class="stamp"><i></i></div>
+          </div>
+          <div class="results">${rows}</div>
+        </div>
+      </div>
+    </div>`);
+}
+</script>
+</body>
+</html>

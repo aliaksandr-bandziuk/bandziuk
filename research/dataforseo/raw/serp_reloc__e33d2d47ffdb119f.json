@@ -1,0 +1,1089 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "11.5179 sec.",
+ "cost": 0.00415,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09270728-2505-0139-0000-57b62e979640",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "11.4606 sec.",
+   "cost": 0.00415,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "relocation assistance",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 20,
+    "people_also_ask_click_depth": 1,
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "relocation assistance",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=relocation%20assistance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-09-27 07:28:21 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "product_considerations",
+      "related_searches"
+     ],
+     "se_results_count": 140,
+     "pages_count": 2,
+     "items_count": 24,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.sa.gov",
+       "title": "Resident Relocation Assistance Program (RRAP)",
+       "url": "https://www.sa.gov/Directory/Departments/NHSD/Housing-Support/Renter-Support/RRAP",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.sa.gov › Housing-Support › Renter-Support",
+       "website_name": "City of San Antonio (.gov)",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "This program provides relocation help to households facing financial hardship and housing instability. The assistance can be used after eligibility has been ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "provides relocation help to households facing financial hardship and housing instability"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.sa.gov/Directory/Departments/NHSD/Housing-Support/Renter-Support/RRAP#:~:text=This%20program%20provides%20relocation%20help,established%20and%20housing%20is%20secured.",
+         "domain": "www.sa.gov"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What states will pay you to relocate?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What qualifies you for relocation assistance?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What city will pay you $15000 to move and work there?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How to get free money to move?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Who will help me move for free?",
+         "seed_question": "How to get free money to move?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What state will pay you $12000 to move there?",
+         "seed_question": "How to get free money to move?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "uwcm.org",
+       "title": "Relocation Assistance Program",
+       "url": "https://uwcm.org/what-we-do/housing/relocation-assistance-program/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://uwcm.org › what-we-do › housing › relocation-...",
+       "website_name": "United Way of Central Maryland",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The Relocation Program assists Baltimore City tenants whose needs can't be met by other eviction prevention and rental assistance programs. Who it Helps. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "assists Baltimore City tenants"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://uwcm.org/what-we-do/housing/relocation-assistance-program/#:~:text=Who%20it%20Helps",
+         "domain": "uwcm.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "www.michigan.gov",
+       "title": "Relocation Assistance",
+       "url": "https://www.michigan.gov/mdhhs/assistance-programs/emergency-relief/relocation",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.michigan.gov › mdhhs › emergency-relief",
+       "website_name": "State of Michigan (.gov)",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Relocation housing must be affordable (total housing costs cannot exceed 75 percent of the group's net income). Applicant(s) must have good cause for non- ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Relocation housing must be affordable"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.michigan.gov/mdhhs/assistance-programs/emergency-relief/relocation#:~:text=Relocation%20housing%20must%20be%20affordable,reason%20they%20are%20in%20need.",
+         "domain": "www.michigan.gov"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "wioa-alabama.org",
+       "title": "Relocation Assistance - Alabama",
+       "url": "https://wioa-alabama.org/relocation-assistance/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://wioa-alabama.org › relocation-assistance",
+       "website_name": "Alabama Workforce Innovation & Opportunity Act",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Mar 18, 2019 — Relocation Assistance is available for citizens in need of assistance to accept employment in a location more than 75 miles from their ... Read more",
+       "pre_snippet": "03/18/2019 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Relocation Assistance is"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://wioa-alabama.org/relocation-assistance/#:~:text=Relocation%20Assistance%20is%20available%20for,miles%20from%20their%20current%20residence.",
+         "domain": "wioa-alabama.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2019-03-18 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "www.rocketmortgage.com",
+       "title": "Relocation assistance: Programs, eligibility and grants",
+       "url": "https://www.rocketmortgage.com/learn/low-income-moving-assistance",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.rocketmortgage.com › ... › Moving tips",
+       "website_name": "Rocket Mortgage",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jul 14, 2026 — The Federal Relocation Assistance program supports those who need to move because their home was acquired or demolished. Through the Uniform ... Read more",
+       "pre_snippet": "07/14/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "supports those who need to move because their home was acquired or demolished"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.rocketmortgage.com/learn/low-income-moving-assistance#:~:text=The%20Federal%20Relocation%20Assistance%20program,or%20demolished.%20Through%20the%20Uniform",
+         "domain": "www.rocketmortgage.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-07-14 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "www.northamerican.com",
+       "title": "States That Pay You to Move There 2026 Guide",
+       "url": "https://www.northamerican.com/moving-resources/relocation-guides/pay-to-move-states",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.northamerican.com › relocation-guides › pa...",
+       "website_name": "North American Van Lines",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Indiana has several relocation programs available for 20 different communities. The incentives value is between $5,000 and $20,000, depending on the city. Most ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Indiana has several relocation programs available for 20 different communities"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.northamerican.com/moving-resources/relocation-guides/pay-to-move-states#:~:text=Indiana%20has%20several%20relocation%20programs,depending%20on%20the%20city.%20Most",
+         "domain": "www.northamerican.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "housing.az.gov",
+       "title": "Relocation Assistance Plan",
+       "url": "https://housing.az.gov/resources/relocation-assistance-plan",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://housing.az.gov › resources › relocation-assistance...",
+       "website_name": "Arizona Housing Department (.gov)",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Main navigation · Home · Resources · Relocation Assistance Plan. Relocation Assistance Plan. Document Type. CDBG · Resolution%20-%20Relocation%20Assistance% ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Relocation Assistance Plan"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://housing.az.gov/resources/relocation-assistance-plan#:~:text=Document%20Type%20Reference&text=Home&text=Resources&text=Relocation%20Assistance%20Plan,Resolution%20-%20Relocation%20Assistance%20Plan.doc",
+         "domain": "housing.az.gov"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "www.indeed.com",
+       "title": "Relocation Assistance & Housing Provided jobs in Florida",
+       "url": "https://www.indeed.com/q-relocation-assistance-&-housing-provided-l-florida-jobs.html",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.indeed.com › q-relocation-assistance-&-hou...",
+       "website_name": "Indeed",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Browse 4978 Relocation Assistance & Housing Provided jobs in Florida. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Browse 4978 Relocation Assistance & Housing Provided jobs in Florida"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "careersourcecapitalregion.com",
+       "title": "Relocation Resources",
+       "url": "https://careersourcecapitalregion.com/job-seekers/i-am-new/relocation",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://careersourcecapitalregion.com › i-am-new › reloc...",
+       "website_name": "| CareerSource Capital Region",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "If you are seeking information about relocation assistance through benefits you receive through FloridaCommerce, visit our Food and Cash Assistance page. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "relocation assistance"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://careersourcecapitalregion.com/job-seekers/i-am-new/relocation#:~:text=If%20you%20are%20seeking%20information,Food%20and%20Cash%20Assistance%20page.",
+         "domain": "careersourcecapitalregion.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "product_considerations",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]",
+       "title": "Things to know",
+       "items": [
+        {
+         "type": "product_considerations_element",
+         "title": "How much relocation assistance is typically offered?",
+         "consideration_category": "Typical Amount",
+         "expanded_element": null
+        },
+        {
+         "type": "product_considerations_element",
+         "title": "What are the limitations of relocation assistance?",
+         "consideration_category": "Limitations",
+         "expanded_element": null
+        },
+        {
+         "type": "product_considerations_element",
+         "title": "What are the tax implications of relocation assistance?",
+         "consideration_category": "Tax Implications",
+         "expanded_element": null
+        },
+        {
+         "type": "product_considerations_element",
+         "title": "What are the benefits of relocation assistance?",
+         "consideration_category": "Benefits",
+         "expanded_element": null
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Relocation assistance for individuals",
+        "Relocation assistance for housing",
+        "Relocation assistance jobs",
+        "Relocation assistance for seniors",
+        "Relocation assistance california",
+        "Free government relocation assistance program",
+        "Out of state relocation assistance",
+        "Emergency relocation assistance San Antonio"
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 10,
+       "rank_absolute": 14,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "doa.wi.gov",
+       "title": "DOA Relocation Assistance - Wisconsin.gov",
+       "url": "https://doa.wi.gov/Pages/AboutDOA/RelocationAssistance.aspx",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://doa.wi.gov › Pages › AboutDOA › RelocationAssi...",
+       "website_name": "Wisconsin.Gov Home (.gov)",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "For more information, interested agencies and governments should call (608) 266-2887 or email DOARelocation@wisconsin.gov. Mailing Address​. Attn: Relocation ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "608) 266-2887"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 11,
+       "rank_absolute": 15,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.lsnjlaw.org",
+       "title": "Relocation Assistance",
+       "url": "https://www.lsnjlaw.org/legal-topics/housing/relocation-assistance",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.lsnjlaw.org › legal-topics › housing › relocat...",
+       "website_name": "LSNJLAW",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Relocation Assistance · Legal Information · Community Resources · Statewide Legal Assistance Hotline. Call or apply online for free legal assistance: 1-888-LSNJ ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Relocation Assistance"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.lsnjlaw.org/legal-topics/housing/relocation-assistance#:~:text=Relocation%20Assistance&text=Legal%20Information&text=Community%20Resources&text=Statewide%20Legal%20Assistance%20Hotline,1-888-LSNJ-LAW%20(1-888-576-5529)",
+         "domain": "www.lsnjlaw.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 12,
+       "rank_absolute": 16,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "arcrelocation.com",
+       "title": "Relocation Assistance Programs to Help With Moving Costs",
+       "url": "https://arcrelocation.com/relocation-assistance-programs/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://arcrelocation.com › ARC Relocation Blog",
+       "website_name": "ARC Relocation",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The purpose of a relocation assistance program is to provide financial assistance to individuals and families to cover moving expenses. The exact benefits of ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "provide financial assistance to individuals and families to cover moving expenses"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://arcrelocation.com/relocation-assistance-programs/#:~:text=The%20purpose%20of%20a%20relocation,reimbursements%2C%20or%20direct%20support%20services.",
+         "domain": "arcrelocation.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 13,
+       "rank_absolute": 17,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.makemymove.com",
+       "title": "MakeMyMove: Your next hometown is looking for you.",
+       "url": "https://www.makemymove.com/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.makemymove.com",
+       "website_name": "MakeMyMove",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Explore communities ready to welcome you with relocation programs — including cash, local perks, and hands-on support to help you make your move. Match me to ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Explore communities ready to welcome you with relocation programs"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.makemymove.com/#:~:text=Explore%20communities%20ready%20to%20welcome,Match%20me%20to%20programs",
+         "domain": "www.makemymove.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 14,
+       "rank_absolute": 18,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "domain": "dlg.colorado.gov",
+       "title": "CDBG Section 7 - Relocation Assistance",
+       "url": "https://dlg.colorado.gov/cdbg-relocation-assistance",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://dlg.colorado.gov › cdbg-relocation-assistance",
+       "website_name": "Colorado Division of Local Government (.gov)",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Provide certain relocation assistance to any lower income person displaced as a direct result of the demolition or conversion of a low/moderate income dwelling ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Provide certain relocation assistance"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://dlg.colorado.gov/cdbg-relocation-assistance#:~:text=Provide%20certain%20relocation%20assistance%20to,with%20a%20CDBG%20assisted%20activity.",
+         "domain": "dlg.colorado.gov"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 15,
+       "rank_absolute": 19,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.consumeraffairs.com",
+       "title": "What Are Relocation Assistance Programs? (2026)",
+       "url": "https://www.consumeraffairs.com/movers/what-are-relocation-assistance-programs.html",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.consumeraffairs.com › ... › Best Movers",
+       "website_name": "ConsumerAffairs",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Aug 27, 2026 — Relocation assistance programs offer financial support to those who are moving. Discover available programs and find the right one for your ...",
+       "pre_snippet": "08/27/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Relocation assistance programs offer financial support to those who are moving"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 16,
+       "rank_absolute": 20,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "www.ttecjobs.com",
+       "title": "Relocation Assistance Package Explained: Benefits & Tips",
+       "url": "https://www.ttecjobs.com/en/what-is-relocation-assistance-what-should-a-typical-package-include",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.ttecjobs.com › what-is-relocation-assistance-...",
+       "website_name": "TTEC Jobs",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Mar 20, 2025 — Relocation assistance benefits include financial support for moving expenses, temporary housing, and travel costs. You'll also get to focus on ... Read more",
+       "pre_snippet": "03/20/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "financial support for moving expenses, temporary housing, and travel costs"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.ttecjobs.com/en/what-is-relocation-assistance-what-should-a-typical-package-include#:~:text=Relocation%20assistance%20benefits%20include%20financial,logistics%20and%20costs%20of%20relocating.",
+         "domain": "www.ttecjobs.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-03-20 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 17,
+       "rank_absolute": 21,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "www.amerisave.com",
+       "title": "Low-Income Moving Assistance: Programs, Grants, and ...",
+       "url": "https://www.amerisave.com/learn/lowincome-moving-assistance-programs-grants-and-resources-for",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amerisave.com › learn › lowincome-moving...",
+       "website_name": "Amerisave",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "There are federal programs that help people and families move and relocate. For example, HUD, FEMA, the USDA Rural Housing Service, and the Emergency Solutions ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "federal programs that help people and families move and relocate"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.amerisave.com/learn/lowincome-moving-assistance-programs-grants-and-resources-for#:~:text=There%20are%20federal%20programs%20that,people%20who%20meet%20certain%20criteria.",
+         "domain": "www.amerisave.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 18,
+       "rank_absolute": 22,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "knowledge.anbtx.com",
+       "title": "Relocation Assistance",
+       "url": "https://knowledge.anbtx.com/workplace-finances/employee-benefits/article/relocation-assistance",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://knowledge.anbtx.com › employee-benefits › article",
+       "website_name": "American National Bank of Texas",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Many employers offer relocation plans that help cover the costs of company-mandated moves. Make sure you understand the relocation plan available to you.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "relocation plans that help cover the costs of company-mandated moves"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 19,
+       "rank_absolute": 23,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.sacrd.org",
+       "title": "Resident Relocation Assistance Program (RRAP)",
+       "url": "https://www.sacrd.org/directory/program/14951",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.sacrd.org › directory › program",
+       "website_name": "SACRD",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "This program is designed to provide relocation assistance to low-income households impacted by financial hardship and housing instability. Services. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "relocation assistance to low-income households"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.sacrd.org/directory/program/14951#:~:text=This%20program%20is%20designed%20to,Services",
+         "domain": "www.sacrd.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 2,
+       "rank_absolute": 24,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Relocation assistance for individuals",
+        "Relocation assistance for housing",
+        "Relocation assistance jobs",
+        "Relocation assistance for seniors",
+        "Relocation assistance california",
+        "Free government relocation assistance program",
+        "Out of state relocation assistance",
+        "Emergency relocation assistance San Antonio"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

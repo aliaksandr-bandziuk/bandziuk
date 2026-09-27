@@ -1,0 +1,977 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "1.5167 sec.",
+ "cost": 0.09,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09270714-2505-0367-0000-5098f02f52f8",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "1.5025 sec.",
+   "cost": 0.09,
+   "result_count": 22,
+   "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+   ],
+   "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "keywords": [
+     "сайт для релокационного агентства",
+     "сайт для миграционного агентства",
+     "сайт для визового центра",
+     "многоязычный сайт для агентства",
+     "сайт для юриста по миграции",
+     "разработка сайта для агентства",
+     "как привлечь клиентов на релокацию",
+     "продвижение миграционного агентства",
+     "реклама визовых услуг",
+     "как найти клиентов на визы",
+     "продвижение юриста по миграции",
+     "маркетинг для релокационного агентства",
+     "релокация",
+     "релокация в польшу",
+     "карта побыту",
+     "вид на жительство в польше",
+     "легализация пребывания в польше",
+     "миграционный юрист",
+     "визовый центр",
+     "золотая виза",
+     "гражданство за инвестиции",
+     "вид на жительство за инвестиции"
+    ],
+    "location_code": 2616,
+    "language_code": "ru"
+   },
+   "result": [
+    {
+     "keyword": "сайт для релокационного агентства",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "сайт для миграционного агентства",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "сайт для визового центра",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "многоязычный сайт для агентства",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "сайт для юриста по миграции",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "разработка сайта для агентства",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "как привлечь клиентов на релокацию",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "продвижение миграционного агентства",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "реклама визовых услуг",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "как найти клиентов на визы",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "продвижение юриста по миграции",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "маркетинг для релокационного агентства",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "релокация",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 50,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "релокация в польшу",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "карта побыту",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 34,
+     "search_volume": 2400,
+     "low_top_of_page_bid": 0.61,
+     "high_top_of_page_bid": 2.15,
+     "cpc": 2.51,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2900
+      }
+     ]
+    },
+    {
+     "keyword": "вид на жительство в польше",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 40,
+     "search_volume": 110,
+     "low_top_of_page_bid": 0.48,
+     "high_top_of_page_bid": 1.89,
+     "cpc": 0.96,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 140
+      }
+     ]
+    },
+    {
+     "keyword": "легализация пребывания в польше",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "миграционный юрист",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 48,
+     "search_volume": 20,
+     "low_top_of_page_bid": 0.43,
+     "high_top_of_page_bid": 1.56,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "визовый центр",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 90,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 90
+      }
+     ]
+    },
+    {
+     "keyword": "золотая виза",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 54,
+     "search_volume": 10,
+     "low_top_of_page_bid": 0.31,
+     "high_top_of_page_bid": 2.12,
+     "cpc": 2.55,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "гражданство за инвестиции",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 36,
+     "search_volume": 30,
+     "low_top_of_page_bid": 0.13,
+     "high_top_of_page_bid": 1.67,
+     "cpc": 1.83,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 30
+      }
+     ]
+    },
+    {
+     "keyword": "вид на жительство за инвестиции",
+     "spell": null,
+     "location_code": 2616,
+     "language_code": "ru",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 43,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

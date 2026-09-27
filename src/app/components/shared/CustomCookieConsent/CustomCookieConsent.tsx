@@ -35,7 +35,10 @@ const dictionary = {
 const policyPath = {
   en: "/privacy-policy",
   pl: "/pl/polityka-prywatnosci",
-  ru: "/ru/politika-privatnosti",
+  // The Russian page is politika-konfidencialnosti; the slug below used to be
+  // politika-privatnosti, so the banner's policy link 404'd on every Russian
+  // page. Every other place in the codebase already used the right one.
+  ru: "/ru/politika-konfidencialnosti",
 };
 
 /**

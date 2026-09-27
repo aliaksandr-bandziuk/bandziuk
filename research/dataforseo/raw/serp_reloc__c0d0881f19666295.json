@@ -1,0 +1,1475 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "7.3297 sec.",
+ "cost": 0.00415,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09270729-2505-0139-0000-5d6a53231f82",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "7.1983 sec.",
+   "cost": 0.00415,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "golden visa",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 20,
+    "people_also_ask_click_depth": 1,
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "golden visa",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=golden%20visa&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-09-27 07:29:12 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "product_considerations",
+      "related_searches",
+      "images"
+     ],
+     "se_results_count": 120,
+     "pages_count": 2,
+     "items_count": 24,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "A [Golden Visa](https://www.henleyglobal.com/residence-investment/golden-visa) is `a residency-by-investment program that grants foreign nationals the right to live, work, and study in a country in exchange for a qualifying financial investment`.[[1]](https://www.henleyglobal.com/residence-investment/golden-visa)[[2]](https://en.wikipedia.org/wiki/Immigrant_investor_programs)[[3]](https://immigrantinvest.com/blog/golden-visa-for-us-citizens/)\n\n### How It Works\n\n- **Investment Required:** Applicants must buy real estate, fund local businesses, invest in government bonds, or make a cultural donation.\n- **Residency vs. Citizenship:** A golden visa gives you legal residency, not an immediate passport. It can often lead to permanent residency or citizenship after meeting time and language requirements.\n- **Family Inclusion:** Most programs let you include your spouse and dependent children on a single application.\n- **Travel Freedom:** European golden visas typically grant visa-free travel across the [Schengen Area](https://etias.com/articles/guide-to-european-golden-visas).[[1]](https://www.nytimes.com/2026/06/23/realestate/golden-visa-panama-portugal-greece-costa-rica.html)[[2]](https://www.investopedia.com/golden-visa-countries-8356287)[[3]](https://www.henleyglobal.com/residence-investment/golden-visa)[[4]](https://www.myexpattaxes.com/expat-tax-tips/investing/top-5-golden-visas-in-europe-guide/)[[5]](https://immigrantinvest.com/blog/golden-visa-for-us-citizens/)\n\n### Popular Destinations\n\n- **Greece:** Requires investments starting at €250,000 for specific real estate or up to €800,000 in high-demand areas, plus fund or business options.\n- **Portugal:** Focuses heavily on fund investments or cultural donations starting around €500,000, with minimal physical stay requirements.\n- **Costa Rica:** Offers residency through a $150,000 investment in real estate or approved financial assets.\n- **United States:** Operates the employment-based [EB-5 Program](https://www.investopedia.com/golden-visa-countries-8356287) requiring qualifying job-creating commercial investments.[[1]](https://www.nytimes.com/2026/06/23/realestate/golden-visa-panama-portugal-greece-costa-rica.html)[[2]](https://www.goldenvisas.com/portugal)[[3]](https://www.investopedia.com/golden-visa-countries-8356287)\n\n### Recent Changes and Risks\n\n- **Program Closures:** Countries like the UK, Ireland, and Spain have tightened or ended their programs due to housing market pressures and security concerns.\n- **Tax Status:** Holding a golden visa does not automatically make you a tax resident, but rules vary widely by country.[[1]](https://www.myexpattaxes.com/expat-tax-tips/investing/top-5-golden-visas-in-europe-guide/)[[2]](https://www.facebook.com/BloombergTelevision/videos/whats-a-golden-visa-and-where-can-you-get-one/2023357131522777/)[[3]](https://www.youtube.com/shorts/ys6e2d6-EPc)\n\nIf you want to narrow this down, tell me:\n\n- What is your **target budget**?\n- Do you prefer **Europe, the Americas, or Asia**?\n- Is your goal **relocation or just a backup plan**?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "A Golden Visa is a residency-by-investment program that grants foreign nationals the right to live, work, and study in a country in exchange for a qualifying financial investment.",
+         "markdown": "A [Golden Visa](https://www.henleyglobal.com/residence-investment/golden-visa) is `a residency-by-investment program that grants foreign nationals the right to live, work, and study in a country in exchange for a qualifying financial investment`.[[1]](https://www.henleyglobal.com/residence-investment/golden-visa)[[2]](https://en.wikipedia.org/wiki/Immigrant_investor_programs)[[3]](https://immigrantinvest.com/blog/golden-visa-for-us-citizens/)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Golden Visa",
+           "description": null,
+           "url": "https://www.henleyglobal.com/residence-investment/golden-visa",
+           "domain": "www.henleyglobal.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Henley & Partners",
+           "domain": "www.henleyglobal.com",
+           "url": "https://www.henleyglobal.com/residence-investment/golden-visa",
+           "title": "Golden Visa",
+           "text": "Golden Visa Frequently Asked Questions * Can a golden visa lead to citizenship? Yes, golden visa citizenship is possible in many c..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Wikipedia",
+           "domain": "en.wikipedia.org",
+           "url": "https://en.wikipedia.org/wiki/Immigrant_investor_programs",
+           "title": "Immigrant investor programs - Wikipedia",
+           "text": "Not to be confused with Golden Age Passport. For the 2017 book, see The Golden Passport. Immigrant investor programs are immigrati..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Immigrant Invest",
+           "domain": "immigrantinvest.com",
+           "url": "https://immigrantinvest.com/blog/golden-visa-for-us-citizens/",
+           "title": "8 Best Golden Visa Programs for Americans: Ultimate List",
+           "text": "Golden Visa is a common term for residence by investment programs that allow foreigners to obtain legal residence by making an inv..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "How It Works",
+         "text": "Investment Required: Applicants must buy real estate, fund local businesses, invest in government bonds, or make a cultural donation. Residency vs. Citizenship: A golden visa gives you legal residency, not an immediate passport. It can often lead to permanent residency or citizenship after meeting time and language requirements. Family Inclusion: Most programs let you include your spouse and dependent children on a single application. Travel Freedom: European golden visas typically grant visa-free travel across the Schengen Area.",
+         "markdown": "- **Investment Required:** Applicants must buy real estate, fund local businesses, invest in government bonds, or make a cultural donation.\n- **Residency vs. Citizenship:** A golden visa gives you legal residency, not an immediate passport. It can often lead to permanent residency or citizenship after meeting time and language requirements.\n- **Family Inclusion:** Most programs let you include your spouse and dependent children on a single application.\n- **Travel Freedom:** European golden visas typically grant visa-free travel across the [Schengen Area](https://etias.com/articles/guide-to-european-golden-visas).[[1]](https://www.nytimes.com/2026/06/23/realestate/golden-visa-panama-portugal-greece-costa-rica.html)[[2]](https://www.investopedia.com/golden-visa-countries-8356287)[[3]](https://www.henleyglobal.com/residence-investment/golden-visa)[[4]](https://www.myexpattaxes.com/expat-tax-tips/investing/top-5-golden-visas-in-europe-guide/)[[5]](https://immigrantinvest.com/blog/golden-visa-for-us-citizens/)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Schengen Area",
+           "description": null,
+           "url": "https://etias.com/articles/guide-to-european-golden-visas",
+           "domain": "etias.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "The New York Times",
+           "domain": "www.nytimes.com",
+           "url": "https://www.nytimes.com/2026/06/23/realestate/golden-visa-panama-portugal-greece-costa-rica.html",
+           "title": "Want to Live Abroad? You Can Still Find a Great Golden Visa.",
+           "text": "COSTA RICA * Long known for its high quality of life and friendly tax environment, the Central American nation, whose Nicoya Penin..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Investopedia",
+           "domain": "www.investopedia.com",
+           "url": "https://www.investopedia.com/golden-visa-countries-8356287",
+           "title": "Golden Visa Countries: Unlock Residency Through Investment",
+           "text": "Key Takeaways * Golden visa programs offer residency or citizenship through financial investments in a country. * These programs a..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Henley & Partners",
+           "domain": "www.henleyglobal.com",
+           "url": "https://www.henleyglobal.com/residence-investment/golden-visa",
+           "title": "Golden Visa",
+           "text": "Golden Visa Frequently Asked Questions * Can a golden visa lead to citizenship? Yes, golden visa citizenship is possible in many c..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "MyExpatTaxes",
+           "domain": "www.myexpattaxes.com",
+           "url": "https://www.myexpattaxes.com/expat-tax-tips/investing/top-5-golden-visas-in-europe-guide/",
+           "title": "Top 5 Golden Visas in Europe (2026 Guide)",
+           "text": "Fequently Asked Questions * Are Golden Visas the same as citizenship-by-investment programs? No. Golden Visas typically grant resi..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Immigrant Invest",
+           "domain": "immigrantinvest.com",
+           "url": "https://immigrantinvest.com/blog/golden-visa-for-us-citizens/",
+           "title": "8 Best Golden Visa Programs for Americans: Ultimate List",
+           "text": "Golden Visa is a common term for residence by investment programs that allow foreigners to obtain legal residence by making an inv..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Popular Destinations",
+         "text": "Greece: Requires investments starting at €250,000 for specific real estate or up to €800,000 in high-demand areas, plus fund or business options. Portugal: Focuses heavily on fund investments or cultural donations starting around €500,000, with minimal physical stay requirements. Costa Rica: Offers residency through a $150,000 investment in real estate or approved financial assets. United States: Operates the employment-based EB-5 Program requiring qualifying job-creating commercial investments.",
+         "markdown": "- **Greece:** Requires investments starting at €250,000 for specific real estate or up to €800,000 in high-demand areas, plus fund or business options.\n- **Portugal:** Focuses heavily on fund investments or cultural donations starting around €500,000, with minimal physical stay requirements.\n- **Costa Rica:** Offers residency through a $150,000 investment in real estate or approved financial assets.\n- **United States:** Operates the employment-based [EB-5 Program](https://www.investopedia.com/golden-visa-countries-8356287) requiring qualifying job-creating commercial investments.[[1]](https://www.nytimes.com/2026/06/23/realestate/golden-visa-panama-portugal-greece-costa-rica.html)[[2]](https://www.goldenvisas.com/portugal)[[3]](https://www.investopedia.com/golden-visa-countries-8356287)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "EB-5 Program",
+           "description": null,
+           "url": "https://www.investopedia.com/golden-visa-countries-8356287",
+           "domain": "www.investopedia.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "The New York Times",
+           "domain": "www.nytimes.com",
+           "url": "https://www.nytimes.com/2026/06/23/realestate/golden-visa-panama-portugal-greece-costa-rica.html",
+           "title": "Want to Live Abroad? You Can Still Find a Great Golden Visa.",
+           "text": "COSTA RICA * Long known for its high quality of life and friendly tax environment, the Central American nation, whose Nicoya Penin..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "La Vida Golden Visas",
+           "domain": "www.goldenvisas.com",
+           "url": "https://www.goldenvisas.com/portugal",
+           "title": "Portugal Golden Visa: Apply For European Residency",
+           "text": "Advising on the Portugal Golden Visa since launch in 2012 * Portugal Golden Visa Program Overview The Portugal Golden Visa is one ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Investopedia",
+           "domain": "www.investopedia.com",
+           "url": "https://www.investopedia.com/golden-visa-countries-8356287",
+           "title": "Golden Visa Countries: Unlock Residency Through Investment",
+           "text": "Key Takeaways * Golden visa programs offer residency or citizenship through financial investments in a country. * These programs a..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Recent Changes and Risks",
+         "text": "Program Closures: Countries like the UK, Ireland, and Spain have tightened or ended their programs due to housing market pressures and security concerns. Tax Status: Holding a golden visa does not automatically make you a tax resident, but rules vary widely by country.",
+         "markdown": "- **Program Closures:** Countries like the UK, Ireland, and Spain have tightened or ended their programs due to housing market pressures and security concerns.\n- **Tax Status:** Holding a golden visa does not automatically make you a tax resident, but rules vary widely by country.[[1]](https://www.myexpattaxes.com/expat-tax-tips/investing/top-5-golden-visas-in-europe-guide/)[[2]](https://www.facebook.com/BloombergTelevision/videos/whats-a-golden-visa-and-where-can-you-get-one/2023357131522777/)[[3]](https://www.youtube.com/shorts/ys6e2d6-EPc)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "MyExpatTaxes",
+           "domain": "www.myexpattaxes.com",
+           "url": "https://www.myexpattaxes.com/expat-tax-tips/investing/top-5-golden-visas-in-europe-guide/",
+           "title": "Top 5 Golden Visas in Europe (2026 Guide)",
+           "text": "Fequently Asked Questions * Are Golden Visas the same as citizenship-by-investment programs? No. Golden Visas typically grant resi..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Facebook",
+           "domain": "www.facebook.com",
+           "url": "https://www.facebook.com/BloombergTelevision/videos/whats-a-golden-visa-and-where-can-you-get-one/2023357131522777/",
+           "title": "From Singapore to Greece — these are some of the popular destinations for ...",
+           "text": "new Zealand has joined countries like Greece and Singapore. as an attractive golden visa destination. that's after it lowered the ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/shorts/ys6e2d6-EPc",
+           "title": "What's a golden visa and how do you get one? #travel",
+           "text": "What's a golden visa and how do you get one? #travel new Zealand has joined countries like Greece and Singapore. as an attractive ..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you want to narrow this down, tell me:What is your target budget ?\nDo you prefer Europe, the Americas, or Asia ?\nIs your goal relocation or just a backup plan ?",
+         "markdown": "If you want to narrow this down, tell me:\n\n- What is your **target budget**?\n- Do you prefer **Europe, the Americas, or Asia**?\n- Is your goal **relocation or just a backup plan**?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Henley & Partners",
+         "domain": "www.henleyglobal.com",
+         "url": "https://www.henleyglobal.com/residence-investment/golden-visa",
+         "title": "Golden Visa",
+         "text": "Golden Visa Frequently Asked Questions * Can a golden visa lead to citizenship? Yes, golden visa citizenship is possible in many c..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Wikipedia",
+         "domain": "en.wikipedia.org",
+         "url": "https://en.wikipedia.org/wiki/Immigrant_investor_programs",
+         "title": "Immigrant investor programs - Wikipedia",
+         "text": "Not to be confused with Golden Age Passport. For the 2017 book, see The Golden Passport. Immigrant investor programs are immigrati..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "The New York Times",
+         "domain": "www.nytimes.com",
+         "url": "https://www.nytimes.com/2026/06/23/realestate/golden-visa-panama-portugal-greece-costa-rica.html",
+         "title": "Want to Live Abroad? You Can Still Find a Great Golden Visa.",
+         "text": "COSTA RICA * Long known for its high quality of life and friendly tax environment, the Central American nation, whose Nicoya Penin..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "La Vida Golden Visas",
+         "domain": "www.goldenvisas.com",
+         "url": "https://www.goldenvisas.com/portugal",
+         "title": "Portugal Golden Visa: Apply For European Residency",
+         "text": "Advising on the Portugal Golden Visa since launch in 2012 * Portugal Golden Visa Program Overview The Portugal Golden Visa is one ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Investopedia",
+         "domain": "www.investopedia.com",
+         "url": "https://www.investopedia.com/golden-visa-countries-8356287",
+         "title": "Golden Visa Countries: Unlock Residency Through Investment",
+         "text": "Key Takeaways * Golden visa programs offer residency or citizenship through financial investments in a country. * These programs a..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Immigrant Invest",
+         "domain": "immigrantinvest.com",
+         "url": "https://immigrantinvest.com/blog/golden-visa-for-us-citizens/",
+         "title": "8 Best Golden Visa Programs for Americans: Ultimate List",
+         "text": "Golden Visa is a common term for residence by investment programs that allow foreigners to obtain legal residence by making an inv..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "MyExpatTaxes",
+         "domain": "www.myexpattaxes.com",
+         "url": "https://www.myexpattaxes.com/expat-tax-tips/investing/top-5-golden-visas-in-europe-guide/",
+         "title": "Top 5 Golden Visas in Europe (2026 Guide)",
+         "text": "Fequently Asked Questions * Are Golden Visas the same as citizenship-by-investment programs? No. Golden Visas typically grant resi..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Facebook",
+         "domain": "www.facebook.com",
+         "url": "https://www.facebook.com/BloombergTelevision/videos/whats-a-golden-visa-and-where-can-you-get-one/2023357131522777/",
+         "title": "From Singapore to Greece — these are some of the popular destinations for ...",
+         "text": "new Zealand has joined countries like Greece and Singapore. as an attractive golden visa destination. that's after it lowered the ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/shorts/ys6e2d6-EPc",
+         "title": "What's a golden visa and how do you get one? #travel",
+         "text": "What's a golden visa and how do you get one? #travel new Zealand has joined countries like Greece and Singapore. as an attractive ..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+       "domain": "www.henleyglobal.com",
+       "title": "Golden Visa",
+       "url": "https://www.henleyglobal.com/residence-investment/golden-visa",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.henleyglobal.com › residence-investment",
+       "website_name": "Henley & Partners",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A golden visa grants residence in return for investment. Explore available golden visa programs and their requirements, benefits, and application steps.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Explore available golden visa programs"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]",
+       "domain": "www.goldenvisas.com",
+       "title": "Golden Visa & Citizenship by Investment | La Vida",
+       "url": "https://www.goldenvisas.com/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.goldenvisas.com",
+       "website_name": "La Vida Golden Visas",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A golden visa is any government program that grants residency or citizenship in exchange for qualifying investment – whether that's European residency, ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "golden visa"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Countries",
+         "description": null,
+         "url": "https://www.goldenvisas.com/country",
+         "domain": "www.goldenvisas.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Investments",
+         "description": null,
+         "url": "https://www.goldenvisas.com/investment",
+         "domain": "www.goldenvisas.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Resources",
+         "description": null,
+         "url": "https://www.goldenvisas.com/resources",
+         "domain": "www.goldenvisas.com"
+        },
+        {
+         "type": "link_element",
+         "title": "About",
+         "description": null,
+         "url": "https://www.goldenvisas.com/about-us",
+         "domain": "www.goldenvisas.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the golden visa for?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Who qualifies for a golden visa?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How much is the golden visa for the USA?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How much money is required for a UAE Golden Visa?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What happens after 10 years of Golden Visa in Dubai?",
+         "seed_question": "How much money is required for a UAE Golden Visa?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Who has the cheapest Golden Visa?",
+         "seed_question": "How much money is required for a UAE Golden Visa?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+       "domain": "u.ae",
+       "title": "Golden visa | The Official Platform of the UAE Government",
+       "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/golden-visa",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://u.ae › visa-and-emirates-id › residence-visas › g...",
+       "website_name": "المنصة الرسمية لحكومة الإمارات العربية المتحدة",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jul 28, 2026 — The Golden visa is a long-term residence visa which enables foreign talents to live, work or study in the UAE while enjoying exclusive benefits.",
+       "pre_snippet": "07/28/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The Golden visa is a long-term residence visa"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-07-28 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+       "domain": "en.wikipedia.org",
+       "title": "Immigrant investor programs",
+       "url": "https://en.wikipedia.org/wiki/Immigrant_investor_programs",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://en.wikipedia.org › wiki › Immigrant_investor_p...",
+       "website_name": "Wikipedia",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The EB-5 visa program, which is also called as the Golden Visa program, requires applicants to invest between US$900,000 and US$1.8",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "visa",
+        "Golden Visa"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+       "domain": "www.visum-usa.com",
+       "title": "Gold Card for the USA | Legal Advice by U.S. Visa Lawyer",
+       "url": "https://www.visum-usa.com/en/gold-card.html",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.visum-usa.com › gold-card",
+       "website_name": "visum-usa.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The “Gold Card” presented by Donald Trump in February 2025 offers an exciting opportunity for skilled workers and investors to gain a foothold in the USA. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 571,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "offers an exciting opportunity for skilled workers and investors"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.visum-usa.com/en/gold-card.html#:~:text=The%20%E2%80%9CGold%20Card%E2%80%9D%20presented%20by,a%20foothold%20in%20the%20USA.",
+         "domain": "www.visum-usa.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+       "domain": "getgoldenvisa.com",
+       "title": "Top 20 Golden Visa Countries 2026: Best & Most Popular",
+       "url": "https://getgoldenvisa.com/golden-visa-countries",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://getgoldenvisa.com › Residency by Investment",
+       "website_name": "Get Golden Visa",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Golden Visa countries offer residency in exchange for a qualifying investment. , you can opt for Greece, Malta, Latvia, Cyprus, Panama, and the UAE. The most ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Greece, Malta, Latvia, Cyprus, Panama, and the UAE"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+       "domain": "immigrantinvest.com",
+       "title": "8 Best Golden Visa Programs for Americans: Ultimate List",
+       "url": "https://immigrantinvest.com/blog/golden-visa-for-us-citizens/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://immigrantinvest.com › Blog",
+       "website_name": "Immigrant Invest",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "4 days ago — Golden Visa is a common term for residence by investment programs that allow foreigners to obtain legal residence by making an investment.",
+       "pre_snippet": "4 days ago",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Golden Visa"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-09-23 07:29:08 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Anyone here who has done the golden visa route?",
+       "url": "https://www.reddit.com/r/AmerExit/comments/1j7e99n/anyone_here_who_has_done_the_golden_visa_route/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "140+ comments  ·  1 year ago",
+       "website_name": "Reddit · r/AmerExit",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "I recognize that this is an extremely privileged route and not everyone will be able to achieve it. Can anyone who HAS achieved it give a rundown of their exit?",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "143 answers",
+         "description": null,
+         "url": "https://www.reddit.com/r/AmerExit/comments/1j7e99n/anyone_here_who_has_done_the_golden_visa_route/mgwlnd4/",
+         "domain": "www.reddit.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+       "domain": "holbornpass.com",
+       "title": "What is the U.S. Golden Visa?",
+       "url": "https://holbornpass.com/usa-eb5/what-is-the-us-golden-visa/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://holbornpass.com › usa-eb5 › what-is-the-us-gold...",
+       "website_name": "Holborn Pass",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A golden visa is the name given to either a residency or citizenship by investment program. They allow foreign nationals to become citizens or residents in a ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "They allow foreign nationals to become citizens or residents"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://holbornpass.com/usa-eb5/what-is-the-us-golden-visa/#:~:text=A%20golden%20visa%20is%20the,by%20investing%20in%20its%20economy.",
+         "domain": "holbornpass.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "product_considerations",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[21]/div[1]",
+       "title": "Things to know",
+       "items": [
+        {
+         "type": "product_considerations_element",
+         "title": "What are the requirements for immigrant investor programs?",
+         "consideration_category": "Requirements",
+         "expanded_element": [
+          {
+           "type": "product_considerations_expanded_element",
+           "title": "Immigrant Investor Visas - Travel",
+           "featured_title": null,
+           "breadcrumb": "https://travel.state.gov › travel › us-visas › immigrate › i...",
+           "snippet": "A qualifying investment must, within two years, create full-time jobs for at least 10 U.S. citizens, lawful permanent residents, or other immigrants authorized to work in the United States, not including the investor and the investor's spouse, sons, or daughters.",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?sca_esv=5e1010fa43cff023&hl=en&gl=US&sxsrf=APpeQnvxJJnZYQzoFwMVd-ZjQGCrK1QjaA:1790494148164&q=what+are+the+requirements+for+immigrant+investor+programs&sa=X&ved=2ahUKEwjKvLG9no6XAxUgm2oFHeyqDRoQrooIegQITxAO",
+           "timestamp": null,
+           "related_searches": [
+            "What are the requirements for immigrant investor programs?"
+           ],
+           "about_this_result": null
+          }
+         ]
+        },
+        {
+         "type": "product_considerations_element",
+         "title": "What is the minimum investment amount for immigrant investor programs?",
+         "consideration_category": "Investment Amount",
+         "expanded_element": [
+          {
+           "type": "product_considerations_expanded_element",
+           "title": "EB-5 visa - Wikipedia",
+           "featured_title": "EB-5 visa",
+           "breadcrumb": "https://en.wikipedia.org › wiki › EB-5_visa",
+           "snippet": "Immigrant Investor Visa Program\nPurpose Investment in a new commercial enterprise\nCost $1,050,000 or $800,000 investment\nAdditional condition Create/preserve at least 10 full-time jobs for qualifying U.S. workers\nWebsite Official EB-5 Immigrant Investor Program",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?sca_esv=5e1010fa43cff023&hl=en&gl=US&sxsrf=APpeQnvxJJnZYQzoFwMVd-ZjQGCrK1QjaA:1790494148164&q=what+is+the+minimum+investment+amount+for+immigrant+investor+programs&sa=X&ved=2ahUKEwjKvLG9no6XAxUgm2oFHeyqDRoQrooIegQITxAc",
+           "timestamp": null,
+           "related_searches": [
+            "What is the minimum investment amount for immigrant investor programs?"
+           ],
+           "about_this_result": null
+          }
+         ]
+        },
+        {
+         "type": "product_considerations_element",
+         "title": "What are the success rates of immigrant investor programs?",
+         "consideration_category": "Success Rates",
+         "expanded_element": [
+          {
+           "type": "product_considerations_expanded_element",
+           "title": "What is the Visa Success Rate for EB-5 Investors? - EB5AN",
+           "featured_title": null,
+           "breadcrumb": "https://eb5visainvestments.com › faq › visa-availability",
+           "snippet": "Immigrant investors file either Form I-526 or Form I-526E to demonstrate to USCIS their compliance with all tenets and laws of the EB 5 visa program. The approval rate for I-526 petitions generally ranges from about 75% to above 80%.",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?sca_esv=5e1010fa43cff023&hl=en&gl=US&sxsrf=APpeQnvxJJnZYQzoFwMVd-ZjQGCrK1QjaA:1790494148164&q=what+are+the+success+rates+of+immigrant+investor+programs&sa=X&ved=2ahUKEwjKvLG9no6XAxUgm2oFHeyqDRoQrooIegQITxAq",
+           "timestamp": null,
+           "related_searches": [
+            "What are the success rates of immigrant investor programs?"
+           ],
+           "about_this_result": null
+          }
+         ]
+        },
+        {
+         "type": "product_considerations_element",
+         "title": "How does the immigrant investor program work?",
+         "consideration_category": "Process",
+         "expanded_element": [
+          {
+           "type": "product_considerations_expanded_element",
+           "title": "US Green Card by Investment - Henley & Partners",
+           "featured_title": null,
+           "breadcrumb": "https://www.henleyglobal.com › united-states",
+           "snippet": "What are the investment options available for the US EB-5 Immigrant Investor Program? The program requires applicants to invest in a new commercial enterprise linked with government-approved regional centers and to create or maintain 10 full-time jobs for eligible US workers.",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?sca_esv=5e1010fa43cff023&hl=en&gl=US&sxsrf=APpeQnvxJJnZYQzoFwMVd-ZjQGCrK1QjaA:1790494148164&q=how+does+the+immigrant+investor+program+work&sa=X&ved=2ahUKEwjKvLG9no6XAxUgm2oFHeyqDRoQrooIegQITxA4",
+           "timestamp": null,
+           "related_searches": [
+            "How does the immigrant investor program work?"
+           ],
+           "about_this_result": null
+          }
+         ]
+        },
+        {
+         "type": "product_considerations_element",
+         "title": "What are the benefits of immigrant investor programs?",
+         "consideration_category": "Benefits",
+         "expanded_element": [
+          {
+           "type": "product_considerations_expanded_element",
+           "title": "Immigrant investor programs - Wikipedia",
+           "featured_title": null,
+           "breadcrumb": "https://en.wikipedia.org › wiki › Immigrant_investor_pr...",
+           "snippet": "Immigrant investor programs are immigration programs offered by countries or territories that allow individuals to more quickly obtain residence or citizenship of a country in return for making qualifying and substantive investments.",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?sca_esv=5e1010fa43cff023&hl=en&gl=US&sxsrf=APpeQnvxJJnZYQzoFwMVd-ZjQGCrK1QjaA:1790494148164&q=what+are+the+benefits+of+immigrant+investor+programs&sa=X&ved=2ahUKEwjKvLG9no6XAxUgm2oFHeyqDRoQrooIegQITxBG",
+           "timestamp": null,
+           "related_searches": [
+            "What are the benefits of immigrant investor programs?"
+           ],
+           "about_this_result": null
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Cheapest Golden Visa countries",
+        "Golden Visa Dubai",
+        "Golden Visa Portugal",
+        "Golden Visa UAE",
+        "Golden visa USA",
+        "Golden Visa card",
+        "Golden visa ICP",
+        "UAE Golden Visa benefits"
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 10,
+       "rank_absolute": 14,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "migration.gov.gr",
+       "title": "Golden Visa",
+       "url": "https://migration.gov.gr/en/golden-visa/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://migration.gov.gr › golden-visa",
+       "website_name": "Υπουργείο Μετανάστευσης και Ασύλου",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Certified copy of a valid passport or other travel document recognised by Greece with the valid national visa. A fee of €16 concerning the printing of the ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Certified copy of a valid passport or other travel document recognised by Greece with the valid"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://migration.gov.gr/en/golden-visa/#:~:text=Certified%20copy%20of%20a%20valid,separate%20document%20(electronic%20residence%20permit).",
+         "domain": "migration.gov.gr"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 11,
+       "rank_absolute": 15,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.migrationpolicy.org",
+       "title": "The Golden Visa: \"Selling Citizenship\" to Investors",
+       "url": "https://www.migrationpolicy.org/journal/feature/golden-visa-selling-citizenship-investors",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.migrationpolicy.org › journal › feature › g...",
+       "website_name": "Migration Policy Institute",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Dec 18, 2013 — \"Citizenship-by-investment\" programs offer immediate citizenship in exchange for a one-off investment; these are currently offered in St. Kitts ... Read more",
+       "pre_snippet": "12/18/2013 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.migrationpolicy.org/journal/feature/golden-visa-selling-citizenship-investors#:~:text=%22Citizenship-by-investment%22%20programs%20offer%20immediate%20citizenship,currently%20offered%20in%20St.%20Kitts",
+         "domain": "www.migrationpolicy.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2013-12-18 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 12,
+       "rank_absolute": 16,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "The Ultimate Golden Visa Guide (2026)",
+       "url": "https://www.youtube.com/watch?v=bJUyqf8LlSc",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "1.7K+ views  ·  1 month ago",
+       "website_name": "YouTube · Alessandro Palombo",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": "Get my free Ultimate Guide to Citizenship & Residency Programs in 2026 here: https://guide.alepalombo.com/ If you're considering Portugal or ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Get my free Ultimate Guide to Citizenship & Residency Programs in 2026"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-08-02 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 13,
+       "rank_absolute": 17,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "wise.com",
+       "title": "Golden Visa countries: Full guide",
+       "url": "https://wise.com/us/blog/golden-visa-countries",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://wise.com › blog › golden-visa-countries",
+       "website_name": "Wise",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sep 26, 2024 — Golden Visa programs give you a path to residency or citizenship through investment, often in real estate. Several Golden Visa countries ... Read more",
+       "pre_snippet": "09/26/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Golden Visa programs give you a path to residency or citizenship through investment"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://wise.com/us/blog/golden-visa-countries#:~:text=Golden%20Visa%20programs%20give%20you,to%20stimulate%20the%20local%20economy.",
+         "domain": "wise.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-09-26 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 14,
+       "rank_absolute": 18,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "domain": "www.berkeleyside.org",
+       "title": "Thinking about moving overseas? Learn more ...",
+       "url": "https://www.berkeleyside.org/2025/11/13/thinking-about-moving-overseas-learn-more-about-golden-visas",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.berkeleyside.org › 2025/11/13 › thinking-...",
+       "website_name": "Berkeleyside",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Nov 13, 2025 — A “golden visa” is a residency-by-investment program that enables foreign nationals to secure legal residency or citizenship through substantial ... Read more",
+       "pre_snippet": "11/13/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "residency-by-investment program"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.berkeleyside.org/2025/11/13/thinking-about-moving-overseas-learn-more-about-golden-visas#:~:text=A%20%E2%80%9Cgolden%20visa%E2%80%9D%20is%20a,business%20ventures%20or%20government%20bonds.",
+         "domain": "www.berkeleyside.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-11-13 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 15,
+       "rank_absolute": 19,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.kiplinger.com",
+       "title": "Want to Get in on the Golden Visa Trend? Here's How",
+       "url": "https://www.kiplinger.com/retirement/retirement-planning/golden-visa-to-retire-abroad",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.kiplinger.com › ... › Retirement Planning",
+       "website_name": "Kiplinger",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jun 25, 2026 — Golden Visas are designed for affluent individuals seeking to relocate abroad for education, retirement, work or a lifestyle change.",
+       "pre_snippet": "06/25/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "designed for affluent individuals seeking to relocate abroad"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-06-25 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 16,
+       "rank_absolute": 20,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+       "domain": "www.facebook.com",
+       "title": "From Singapore to Greece — these are some of the popular ...",
+       "url": "https://www.facebook.com/BloombergTelevision/videos/whats-a-golden-visa-and-where-can-you-get-one/2023357131522777/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "10+ reactions  ·  1 year ago",
+       "website_name": "Facebook · Bloomberg Television",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": "Golden Visa doesn't actually mean what most people think. It's not a legal. 01:18. Golden Visa doesn't actually mean what ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Golden Visa doesn't actually mean what most people think"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-09-27 07:29:10 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 17,
+       "rank_absolute": 21,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "www.currencytransfer.com",
+       "title": "How do golden visa programs work?",
+       "url": "https://www.currencytransfer.com/blog/expert-analysis/golden-visa-immigrant-investor-programs",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.currencytransfer.com › expert-analysis › g...",
+       "website_name": "CurrencyTransfer",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Mar 8, 2023 — To qualify, applicants should have assets of €500,000 and invest €350,000 in property (or €300,000 in some rural areas). They should also ... Read more",
+       "pre_snippet": "03/08/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "assets of €500,000 and invest €350,000 in property"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.currencytransfer.com/blog/expert-analysis/golden-visa-immigrant-investor-programs#:~:text=To%20qualify%2C%20applicants%20should%20have,as%20by%20investing%20in%20companies.",
+         "domain": "www.currencytransfer.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-03-08 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 18,
+       "rank_absolute": 22,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "www.globalcitizensolutions.com",
+       "title": "Golden Visa: How It Works, Benefits, and Top Countries in ...",
+       "url": "https://www.globalcitizensolutions.com/golden-visa/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.globalcitizensolutions.com › golden-visa",
+       "website_name": "Global Citizen Solutions",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A Golden Visa, also known as residency by investment, is a program that allows foreigners to live, work, and study in another country in exchange for a ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "is a program that allows foreigners to live, work, and study in another country"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.globalcitizensolutions.com/golden-visa/#:~:text=A%20Golden%20Visa%2C%20also%20known,for%20a%20substantial%20financial%20investment.",
+         "domain": "www.globalcitizensolutions.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 23,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sa=N&hl=en&gl=US&sca_esv=5e1010fa43cff023&sxsrf=APpeQnsaGKH8T53aGzIFYrn_jccYcodK-Q:1790494150196&q=golden+visa&udm=2&source=univ&fir=L6_o2YvgPkpz3M%252C-z2C6zkjPhh_7M%252C_%253B1n4OdfE21j_-AM%252C3Il54UEM6u0PiM%252C_%253BmJy1sG91OU16FM%252CznGPmOvCuq0RhM%252C_%253BB2gJKLhvX9Xo-M%252CN8OcW-JszIKEdM%252C_%253BHR6IDUhIQG-cNM%252CuVSHXPrP3xAa1M%252C_%253BOu6gnBu6VMrUAM%252CDjJsR03uRh5ohM%252C_%253Bp99auQB1tLZIpM%252CW_vuXu88v_vkYM%252C_%253By8htQQC1HuW52M%252CFiK5CpqCYqVWDM%252C_%253ButKoXjRqNAwT6M%252CnG44tQzWGZKwnM%252C_&usg=AI4_-kS8sI0g5CSGdEqlVGfvKapL2xm9vA&ved=2ahUKEwj8yq2-no6XAxXTkWoFHeIfG2E4ChDsCXoECDoQBQ",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "The 2025 Guide to the UAE Golden Visa Through Property",
+         "url": "https://www.boville.ae/the-2025-guide-to-the-uae-golden-visa-through-property/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09270729-2505-0139-0000-5d6a53231f82:0"
+        },
+        {
+         "type": "images_element",
+         "alt": "Golden Visa | Creators HQ",
+         "url": "https://creatorshq.com/services/golden-visa/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09270729-2505-0139-0000-5d6a53231f82:1"
+        },
+        {
+         "type": "images_element",
+         "alt": "Billionaires Don't Want Trump's Golden Visa",
+         "url": "https://www.forbes.com/sites/forbeswealthteam/2025/02/28/billionaires-dont-want-trumps-golden-visa/",
+         "image_url": "https://api.dataforseo.com/cdn/i/09270729-2505-0139-0000-5d6a53231f82:2"
+        },
+        {
+         "type": "images_element",
+         "alt": "What are other benefits of the UAE Golden Visa beyond the 10 ...",
+         "url": "https://m.economictimes.com/nri/migrate/uae-golden-visa-what-are-other-benefits-of-the-uae-golden-visa-beyond-the-10-year-residency/articleshow/124602753.cms",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQywnMRZMARUQmDm1oT34NjAKvyFRA9FIZQYPET6ITrKGde6JdCyxp5B4&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Residence (Golden Visas) - LexLegal",
+         "url": "https://lexlegal.com/immigration/residence-golden-visas/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ4I6XvwK7CMGyQvyIMl4vlLS9mZcRjqm0ECXe6zk8Lc_TmshGPdqwfm0&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Golden Visa and Dubai Real Estate: A Game-Changer in 2025",
+         "url": "https://aimproperties.ae/golden-visa-and-dubai-real-estate-a-game-changer-in-2025/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4zUb2TRRru2LGdIrMeKzKd24vcUvgPZDuL419nAThIgUSxrFUx2qpYUY&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Trump wants a certain kind of immigrant: the uber-rich",
+         "url": "https://www.economist.com/finance-and-economics/2025/04/20/trump-wants-a-certain-kind-of-immigrant-the-uber-rich",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxsNpIF86Hp57O9XlAjMxK_YtvluOFMzqQVj9yDzvjIYLb2cHo5r1Cxis&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "UAE denies reports of lifetime Golden Visas, warns against ...",
+         "url": "https://www.indiatoday.in/world/story/uae-denies-reports-of-lifetime-golden-visas-warns-against-false-claims-2753208-2025-07-09",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OPRDX8wwwz68sBWgcCnHwdvBxVdY8likEQihCC_rFXyR16wgcyYSH-g&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Golden Visa: Muhaisnah Medical Center for Visa | Quick ...",
+         "url": "https://muhaisnahcentre.com/how-to-get-a-golden-visa-without-a-graduate-degree/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvzroztilhxcnolh2j3Yq50jomJY3wBRG6NMSJYA9v3UEbxgUxCHhTQl4&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 2,
+       "rank_absolute": 24,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Cheapest Golden Visa countries",
+        "Golden Visa Dubai",
+        "Golden Visa Portugal",
+        "Golden Visa UAE",
+        "Golden visa USA",
+        "Golden Visa card",
+        "Golden visa ICP",
+        "UAE Golden Visa benefits"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

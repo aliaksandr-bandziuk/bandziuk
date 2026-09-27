@@ -1,0 +1,712 @@
+[
+ {
+  "query": "biuro obsługi cudzoziemców",
+  "language_code": "pl",
+  "aiOverview": false,
+  "blockTypes": [
+   "organic",
+   "local_pack",
+   "hotels_pack",
+   "images",
+   "related_searches"
+  ],
+  "paa": [],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "biuroalien.pl",
+    "title": "Biuro usług administracyjnych i obsługi cudzoziemców"
+   },
+   {
+    "pos": 2,
+    "domain": "www.gov.pl",
+    "title": "https://www.gov.pl/web/udsc/biuro-obslugi-klienta"
+   },
+   {
+    "pos": 3,
+    "domain": "cgomobility.pl",
+    "title": "CGO Mobility | Kompleksowa obsługa cudzoziemców"
+   },
+   {
+    "pos": 4,
+    "domain": "wsoic.lodzkie.eu",
+    "title": "Wydział Spraw Obywatelskich i Cudzoziemców w ... - Łódź"
+   },
+   {
+    "pos": 5,
+    "domain": "magfin.pl",
+    "title": "Obsługa cudzoziemców - legalizacja ✔️ MAGFIN"
+   },
+   {
+    "pos": 6,
+    "domain": "cudzoziemiec.net",
+    "title": "Biuro Obsługi Cudzoziemców w Łodzi - Łódź"
+   },
+   {
+    "pos": 7,
+    "domain": "czasowypobyt.pl",
+    "title": "Centrum Obsługi Cudzoziemców Wrocław | Karta Pobytu"
+   },
+   {
+    "pos": 8,
+    "domain": "migrant.poznan.uw.gov.pl",
+    "title": "Dane kontaktowe | Wydział Spraw Cudzoziemców"
+   },
+   {
+    "pos": 9,
+    "domain": "cudzoziemiec.net",
+    "title": "Biuro obsługi cudzoziemców Warszawa"
+   },
+   {
+    "pos": 10,
+    "domain": "www.facebook.com",
+    "title": "Centrum Obsługi Cudzoziemców | Wroclaw"
+   }
+  ]
+ },
+ {
+  "query": "zezwolenie na pracę dla cudzoziemca",
+  "language_code": "pl",
+  "aiOverview": true,
+  "blockTypes": [
+   "ai_overview",
+   "organic",
+   "people_also_ask",
+   "related_searches"
+  ],
+  "paa": [
+   "Jak załatwić zezwolenie na pracę dla cudzoziemca?",
+   "Ile czeka się na wydanie zezwolenia na pracę?",
+   "Jakie dokumenty są potrzebne do zatrudnienia cudzoziemca?",
+   "Jak legalnie zatrudnić cudzoziemców w 2026 roku krok po kroku?",
+   "Jak zatrudnić Ukraińca na umowę o pracę 2026?",
+   "Czy można zatrudnić cudzoziemca bez karty pobytu?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "www.biznes.gov.pl",
+    "title": "Zezwolenia na pracę typu a lub b"
+   },
+   {
+    "pos": 2,
+    "domain": "migrant.poznan.uw.gov.pl",
+    "title": "Zatrudnienie cudzoziemca - zezwolenie na pracę"
+   },
+   {
+    "pos": 3,
+    "domain": "www.gov.pl",
+    "title": "https://www.gov.pl/web/uw-mazowiecki/zezwolenia-na..."
+   },
+   {
+    "pos": 4,
+    "domain": "wsc.gdansk.uw.gov.pl",
+    "title": "Zezwolenie na pracę - Wydział Spraw Cudzoziemców"
+   },
+   {
+    "pos": 5,
+    "domain": "cudzoziemcy.e-wojewoda.pl",
+    "title": "Zezwolenia na pracę | Migrant OUW"
+   },
+   {
+    "pos": 6,
+    "domain": "psz.praca.gov.pl",
+    "title": "Zezwolenia na pracę - Ministerstwo Rodziny, Pracy i ..."
+   },
+   {
+    "pos": 7,
+    "domain": "wizaserwis.pl",
+    "title": "Zezwolenie na pracę 2026 – Poradnik dla Pracodawcy"
+   },
+   {
+    "pos": 8,
+    "domain": "infoopt.pl",
+    "title": "Ogólne zasady zatrudniania cudzoziemców w Polsce"
+   },
+   {
+    "pos": 9,
+    "domain": "mos.cudzoziemcy.gov.pl",
+    "title": "Zezwolenie na pracę | Moduł Obsługi Spraw"
+   },
+   {
+    "pos": 10,
+    "domain": "zielonalinia.gov.pl",
+    "title": "Zezwolenie na pracę cudzoziemca na rzecz polskiego ..."
+   }
+  ]
+ },
+ {
+  "query": "legalizacja zatrudnienia cudzoziemców",
+  "language_code": "pl",
+  "aiOverview": false,
+  "blockTypes": [
+   "organic",
+   "local_pack",
+   "hotels_pack",
+   "people_also_ask",
+   "related_searches"
+  ],
+  "paa": [
+   "Jak legalnie zatrudnić cudzoziemców w 2026 roku?",
+   "Jak potwierdzić zatrudnienie cudzoziemca?",
+   "Jakie są zasady legalizacji pobytu w Polsce?",
+   "Jakie nowe przepisy dotyczące zatrudniania cudzoziemców weszły w życie od 2025 roku?",
+   "Jak zatrudnić cudzoziemca z Ukrainy w 2026?",
+   "Kto sprawdza legalność zatrudnienia?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "www.biznes.gov.pl",
+    "title": "Od 1 czerwca 2025 zmiana zasad legalizacji pracy i pobytu ..."
+   },
+   {
+    "pos": 2,
+    "domain": "interwencjaprawna.pl",
+    "title": "Legalizacja zatrudnienia cudzoziemców"
+   },
+   {
+    "pos": 3,
+    "domain": "www.frr.pl",
+    "title": "Zatrudnianie cudzoziemców – legalizacja i procedury"
+   },
+   {
+    "pos": 4,
+    "domain": "bisar.pl",
+    "title": "Legalizacja pobytu i pracy cudzoziemców - poradnik dla firm"
+   },
+   {
+    "pos": 5,
+    "domain": "ssw.solutions",
+    "title": "odcinek #1 - Jak legalnie zatrudnić cudzoziemca w Polsce?"
+   },
+   {
+    "pos": 6,
+    "domain": "cgomobility.pl",
+    "title": "Legalizacja pracy cudzoziemców w Polsce"
+   },
+   {
+    "pos": 7,
+    "domain": "digitalbrand.com.pl",
+    "title": "Legalizacja pobytu i zatrudnienia cudzoziemców w Polsce (2 ..."
+   },
+   {
+    "pos": 8,
+    "domain": "www.talentpoint.pl",
+    "title": "Legalizacja pobytu - Zatrudnianie cudzoziemców"
+   },
+   {
+    "pos": 9,
+    "domain": "psz.praca.gov.pl",
+    "title": "Zatrudnienie obywateli państw trzecich w Polsce - Wortal PSZ"
+   },
+   {
+    "pos": 10,
+    "domain": "jobimpulse.pl",
+    "title": "Legalizacja pobytu i pracy cudzoziemców"
+   }
+  ]
+ },
+ {
+  "query": "легализация в польше",
+  "language_code": "ru",
+  "aiOverview": true,
+  "blockTypes": [
+   "ai_overview",
+   "organic",
+   "people_also_ask"
+  ],
+  "paa": [
+   "Что нужно для легализации в Польше?",
+   "Как легализованы документы в Польше?",
+   "Что будет, если пробыть в Польше больше 90 дней?",
+   "Как проверить легальность нахождения в Польше?",
+   "Сколько можно отсутствовать в Польше по карте резидента?",
+   "Сколько можно находиться в Польше без статуса УКР?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "migrant.poznan.uw.gov.pl",
+    "title": "пребывать легально в Польше | Відділ у справах іноземців"
+   },
+   {
+    "pos": 2,
+    "domain": "ecoc.pl",
+    "title": "Легализация пребывания"
+   },
+   {
+    "pos": 3,
+    "domain": "forummigracyjne.org",
+    "title": "Легализация пребывания в Польше"
+   },
+   {
+    "pos": 4,
+    "domain": "www.interstud.pl",
+    "title": "Легализация пребывания и карта резидента ЕС"
+   },
+   {
+    "pos": 5,
+    "domain": "ukdn.pl",
+    "title": "Легализация работы иностранцев в Польше в 2026 году"
+   },
+   {
+    "pos": 6,
+    "domain": "polskyjjuryst.com",
+    "title": "Легализация пребывания в Польше в 2025 году"
+   },
+   {
+    "pos": 7,
+    "domain": "mialegal.pl",
+    "title": "Легализация пребывания в Польше: пошаговые гайды и ..."
+   },
+   {
+    "pos": 8,
+    "domain": "karta-pobytu.pl",
+    "title": "Легализация пребывания и беременности иностранца"
+   },
+   {
+    "pos": 9,
+    "domain": "sheviakovconsult.com",
+    "title": "Легализация пребывания иностранцев в Польше"
+   },
+   {
+    "pos": 10,
+    "domain": "podcasts.apple.com",
+    "title": "Легализация в Польше - Podcast"
+   }
+  ]
+ },
+ {
+  "query": "карта побыту",
+  "language_code": "ru",
+  "aiOverview": true,
+  "blockTypes": [
+   "ai_overview",
+   "organic",
+   "people_also_ask",
+   "images"
+  ],
+  "paa": [
+   "Что нужно, чтобы получить карту побыта?",
+   "Что значит карта побыту?",
+   "Сколько сейчас ждать карту побыту?",
+   "Какие новые правила для карты побыту в 2026 году?",
+   "На сколько можно выезжать из Польши с картой побыту?",
+   "В каком случае могут отказать в карте побыту?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "karta-pobytu.pl",
+    "title": "Временный вид на жительство для членов семей ..."
+   },
+   {
+    "pos": 2,
+    "domain": "consultant.net.pl",
+    "title": "Что такое карта побыта и зачем она нужна украинцам в ..."
+   },
+   {
+    "pos": 3,
+    "domain": "mialegal.pl",
+    "title": "Карта побыту в Польше 2026 — подача через MOS"
+   },
+   {
+    "pos": 4,
+    "domain": "www.work-family.eu",
+    "title": "Карта побыту | Work-Family"
+   },
+   {
+    "pos": 5,
+    "domain": "profit4you.pl",
+    "title": "Процесс получения карты побыта в Польше"
+   },
+   {
+    "pos": 6,
+    "domain": "migrantexpert.pl",
+    "title": "Как проверить статус заявления на карту побыту (TRC) ..."
+   },
+   {
+    "pos": 7,
+    "domain": "www.wsb-nlu.edu.pl",
+    "title": "Как я могу подать заявление на получение Карты ..."
+   },
+   {
+    "pos": 8,
+    "domain": "legalwin.pl",
+    "title": "Карта побыту в Польше 2026: пошаговая инструкция"
+   },
+   {
+    "pos": 9,
+    "domain": "in-poland.com",
+    "title": "Карта побыту. Вопрос-ответ"
+   },
+   {
+    "pos": 10,
+    "domain": "www.rbc.ua",
+    "title": "Карта побыту для украинских беженцев в Польше"
+   }
+  ]
+ },
+ {
+  "query": "immigration services",
+  "language_code": "en",
+  "aiOverview": false,
+  "blockTypes": [
+   "people_also_ask",
+   "organic",
+   "related_searches",
+   "images"
+  ],
+  "paa": [
+   "What do immigration services do?",
+   "Can I call ICE immigration on someone?",
+   "Where can I get free immigration help?",
+   "Is ICE arresting legal immigrants?",
+   "Can ICE deport you if you are a U.S. citizen?",
+   "Can ICE just stop you and ask for ID?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "www.immigrationadvocates.org",
+    "title": "Nashville International Center for Empowerment"
+   },
+   {
+    "pos": 2,
+    "domain": "www.findhelp.org",
+    "title": "Immigration Services - Refugees Helping ..."
+   },
+   {
+    "pos": 3,
+    "domain": "211ventura.org",
+    "title": "IMMIGRATION AND NATURALIZATION ADJUDICATION ..."
+   },
+   {
+    "pos": 4,
+    "domain": "www.immigrationadvocates.org",
+    "title": "El Pueblo - National Immigration Legal Services Directory"
+   },
+   {
+    "pos": 5,
+    "domain": "careertools.binghamton.edu",
+    "title": "U.S. Citizenship and Immigration Services"
+   },
+   {
+    "pos": 6,
+    "domain": "ccctx.org",
+    "title": "Jamshid's Immigration Services Story"
+   },
+   {
+    "pos": 7,
+    "domain": "www.facebook.com",
+    "title": "U.S.... - U.S. Citizenship and Immigration Services"
+   },
+   {
+    "pos": 8,
+    "domain": "ccdenver.org",
+    "title": "Immigration Services Archives"
+   },
+   {
+    "pos": 9,
+    "domain": "hr.uams.edu",
+    "title": "Employment of Spouses and Children"
+   },
+   {
+    "pos": 10,
+    "domain": "www.ladwp.com",
+    "title": "Immigration Enforcement & Customer Privacy"
+   }
+  ]
+ },
+ {
+  "query": "relocation assistance",
+  "language_code": "en",
+  "aiOverview": true,
+  "blockTypes": [
+   "ai_overview",
+   "organic",
+   "people_also_ask",
+   "product_considerations",
+   "related_searches"
+  ],
+  "paa": [
+   "What states will pay you to relocate?",
+   "What qualifies you for relocation assistance?",
+   "What city will pay you $15000 to move and work there?",
+   "How to get free money to move?",
+   "Who will help me move for free?",
+   "What state will pay you $12000 to move there?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "www.sa.gov",
+    "title": "Resident Relocation Assistance Program (RRAP)"
+   },
+   {
+    "pos": 2,
+    "domain": "uwcm.org",
+    "title": "Relocation Assistance Program"
+   },
+   {
+    "pos": 3,
+    "domain": "www.michigan.gov",
+    "title": "Relocation Assistance"
+   },
+   {
+    "pos": 4,
+    "domain": "wioa-alabama.org",
+    "title": "Relocation Assistance - Alabama"
+   },
+   {
+    "pos": 5,
+    "domain": "www.rocketmortgage.com",
+    "title": "Relocation assistance: Programs, eligibility and grants"
+   },
+   {
+    "pos": 6,
+    "domain": "www.northamerican.com",
+    "title": "States That Pay You to Move There 2026 Guide"
+   },
+   {
+    "pos": 7,
+    "domain": "housing.az.gov",
+    "title": "Relocation Assistance Plan"
+   },
+   {
+    "pos": 8,
+    "domain": "www.indeed.com",
+    "title": "Relocation Assistance & Housing Provided jobs in Florida"
+   },
+   {
+    "pos": 9,
+    "domain": "careersourcecapitalregion.com",
+    "title": "Relocation Resources"
+   },
+   {
+    "pos": 10,
+    "domain": "doa.wi.gov",
+    "title": "DOA Relocation Assistance - Wisconsin.gov"
+   }
+  ]
+ },
+ {
+  "query": "immigration consultant",
+  "language_code": "en",
+  "aiOverview": false,
+  "blockTypes": [
+   "local_pack",
+   "people_also_ask",
+   "organic",
+   "knowledge_graph",
+   "google_reviews",
+   "images"
+  ],
+  "paa": [
+   "What does an immigration consultant do?",
+   "How much do you pay an immigration consultant?",
+   "Where can I get immigration advice for free?",
+   "How to become a certified immigration consultant?",
+   "Can I work for USCIS without a degree?",
+   "What is the average salary for an immigration consultant in California?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "www.linkedin.com",
+    "title": "Dolores Cortez - Immigration Consultant"
+   },
+   {
+    "pos": 2,
+    "domain": "www.reddit.com",
+    "title": "Would it be wise to hire an immigration consultant if we ..."
+   },
+   {
+    "pos": 3,
+    "domain": "raczkowski.eu",
+    "title": "Immigration Consultants"
+   },
+   {
+    "pos": 4,
+    "domain": "www.payscale.com",
+    "title": "Immigration Consultant Salary in 2026"
+   },
+   {
+    "pos": 5,
+    "domain": "www.quora.com",
+    "title": "Is paying $7000 US for a Canadian immigration consultant ..."
+   },
+   {
+    "pos": 6,
+    "domain": "www.bbb.org",
+    "title": "Immigration Consultant near Houston, TX"
+   },
+   {
+    "pos": 7,
+    "domain": "www.justanswer.com",
+    "title": "Do I Need to Register as a California Immigration ..."
+   },
+   {
+    "pos": 8,
+    "domain": "www.reddit.com",
+    "title": "Is an Immigration Consultant the only way?! Trying not to ..."
+   },
+   {
+    "pos": 9,
+    "domain": "hunteryostlaw.com",
+    "title": "Difference Between Immigration Lawyer And Consultant"
+   },
+   {
+    "pos": 10,
+    "domain": "answers.justia.com",
+    "title": "Hey, I was wondering if an immigration consultant business ..."
+   }
+  ]
+ },
+ {
+  "query": "golden visa",
+  "language_code": "en",
+  "aiOverview": true,
+  "blockTypes": [
+   "ai_overview",
+   "organic",
+   "people_also_ask",
+   "product_considerations",
+   "related_searches",
+   "images"
+  ],
+  "paa": [
+   "What is the golden visa for?",
+   "Who qualifies for a golden visa?",
+   "How much is the golden visa for the USA?",
+   "How much money is required for a UAE Golden Visa?",
+   "What happens after 10 years of Golden Visa in Dubai?",
+   "Who has the cheapest Golden Visa?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "www.henleyglobal.com",
+    "title": "Golden Visa"
+   },
+   {
+    "pos": 2,
+    "domain": "www.goldenvisas.com",
+    "title": "Golden Visa & Citizenship by Investment | La Vida"
+   },
+   {
+    "pos": 3,
+    "domain": "u.ae",
+    "title": "Golden visa | The Official Platform of the UAE Government"
+   },
+   {
+    "pos": 4,
+    "domain": "en.wikipedia.org",
+    "title": "Immigrant investor programs"
+   },
+   {
+    "pos": 5,
+    "domain": "www.visum-usa.com",
+    "title": "Gold Card for the USA | Legal Advice by U.S. Visa Lawyer"
+   },
+   {
+    "pos": 6,
+    "domain": "getgoldenvisa.com",
+    "title": "Top 20 Golden Visa Countries 2026: Best & Most Popular"
+   },
+   {
+    "pos": 7,
+    "domain": "immigrantinvest.com",
+    "title": "8 Best Golden Visa Programs for Americans: Ultimate List"
+   },
+   {
+    "pos": 8,
+    "domain": "www.reddit.com",
+    "title": "Anyone here who has done the golden visa route?"
+   },
+   {
+    "pos": 9,
+    "domain": "holbornpass.com",
+    "title": "What is the U.S. Golden Visa?"
+   },
+   {
+    "pos": 10,
+    "domain": "migration.gov.gr",
+    "title": "Golden Visa"
+   }
+  ]
+ },
+ {
+  "query": "relocation services",
+  "language_code": "en",
+  "aiOverview": true,
+  "blockTypes": [
+   "ai_overview",
+   "local_pack",
+   "people_also_ask",
+   "organic",
+   "related_searches"
+  ],
+  "paa": [
+   "What does a relocation service do?",
+   "How much does a relocation specialist cost?",
+   "Who will help me move for free?",
+   "Which states will pay you to relocate?",
+   "What state will pay you $12000 to move there?",
+   "What is the easiest state to relocate to?"
+  ],
+  "organic": [
+   {
+    "pos": 1,
+    "domain": "www.lavidallena.org",
+    "title": "Relocation Services"
+   },
+   {
+    "pos": 2,
+    "domain": "powellmoving.com",
+    "title": "Expert Long-Distance Movers to Tacoma"
+   },
+   {
+    "pos": 3,
+    "domain": "revenuebase.ai",
+    "title": "Top 25 Relocation services based in Miami, United States"
+   },
+   {
+    "pos": 4,
+    "domain": "www.beltmann.com",
+    "title": "Executive Relocation Services in Dallas, TX"
+   },
+   {
+    "pos": 5,
+    "domain": "www.reddit.com",
+    "title": "Relocation Companies- Recommendation [N/A]"
+   },
+   {
+    "pos": 6,
+    "domain": "www.aerelocations.com",
+    "title": "Olympia Moving Services"
+   },
+   {
+    "pos": 7,
+    "domain": "www.bbb.org",
+    "title": "Relocation Services in GA"
+   },
+   {
+    "pos": 8,
+    "domain": "www.eeward.com",
+    "title": "BEST Corporate Relocation Services in Charlotte"
+   },
+   {
+    "pos": 9,
+    "domain": "atlanticrelocation.com",
+    "title": "Los Angeles - Moving Services"
+   },
+   {
+    "pos": 10,
+    "domain": "philadelphia.bayshoreallied.com",
+    "title": "Leading Employee Relocation Services in Philadelphia"
+   }
+  ]
+ }
+]

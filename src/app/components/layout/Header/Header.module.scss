@@ -3,7 +3,13 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+  // Was 10, which tied with an element inside PropertyIntro's hero; a tie is
+  // decided by document order, so the hero painted over the dropdowns. It also
+  // has to sit above the cookie banner (1000), because the open mobile menu is
+  // a child of the header and a child cannot out-stack its parent's context.
+  // The portfolio lightbox (1200) still wins, and the contact dialog sets no
+  // z-index at all, so its order against the header is unchanged.
+  z-index: 1050;
   padding-top: 10px;
   padding-bottom: 10px;
   background: #000307;
@@ -25,7 +31,7 @@
 .logoImage {
   display: none;
   position: relative;
-  z-index: 101;
+  z-index: 1101;
 
   @media screen and (min-width: 768px){
     display: block;
@@ -37,7 +43,7 @@
 
 .logoImageMobile {
   position: relative;
-  z-index: 101;
+  z-index: 1101;
   
   @media screen and (min-width: 767px){
     display: none;
@@ -72,18 +78,29 @@
   gap: 50px;
 
   @media screen and (max-width: 768px){
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 200vw;
     right: 0;
     bottom: 0;
-    z-index: 100;
+    // Above the cookie banner (1000), which otherwise covers the lower half of
+    // the open menu.
+    z-index: 1100;
     background: var(--bg-base);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.4s ease;
+    // Rows run the full width of the screen, so the wrapper stretches and the
+    // horizontal padding moves onto the rows themselves — otherwise the
+    // dividers would stop short of both edges.
+    align-items: stretch;
+    // The menu carries 24 links, so it scrolls instead of centring and
+    // overflowing off both ends of the screen.
+    justify-content: flex-start;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding: 84px 0 48px;
+    transition: left 0.4s ease;
     height: 100lvh;
   }
 }
@@ -116,7 +133,7 @@
 
   @media screen and (max-width: 768px){
     position: relative;
-    z-index: 101;
+    z-index: 1101;
   }
 }
 
@@ -190,7 +207,7 @@
 
   @media screen and (max-width: 768px){
     position: relative;
-    z-index: 101;
+    z-index: 1101;
   }
 }
 
@@ -246,4 +263,295 @@
   background: rgba(0, 0, 0, 0.8);
   transition: background-color 0.3s ease;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* ── Dropdown menus ───────────────────────────────────────────────────────
+   The submenu is always in the markup and only hidden with CSS, so its links
+   are in the server HTML for crawlers and for assistants that do not run
+   JavaScript. No state, no JS: hover and :focus-within on a pointer device,
+   permanently expanded inside the mobile overlay. */
+
+.navItemWithChildren {
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+}
+
+.navTopRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.caret {
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid rgba(255, 255, 255, 0.55);
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.55);
+  transform: translateY(-2px) rotate(45deg);
+  transition: border-color 0.2s ease;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.navItemWithChildren:hover .caret,
+.navItemWithChildren:focus-within .caret {
+  border-color: #fff;
+}
+
+.dropdown {
+  list-style: none;
+  margin: 0;
+  padding: 12px 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  min-width: 268px;
+  transform: translateX(-50%) translateY(4px);
+  background: #0a0d12;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.16s ease, transform 0.16s ease;
+  z-index: 60;
+
+  /* bridges the gap under the parent so the menu does not close mid-move */
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -14px;
+    height: 14px;
+  }
+}
+
+.navItemWithChildren:hover .dropdown,
+.navItemWithChildren:focus-within .dropdown {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.dropdownLink {
+  display: block;
+  padding: 9px 22px;
+  font-size: 16px;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.72);
+  white-space: nowrap;
+  transition: color 0.15s ease, background-color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Collapsed by default, opened by the caret: twenty-four links expanded at
+     once is a wall of text. display:none rather than a height animation —
+     grid-template-rows:0fr only collapses the first implicit row, so the rest
+     of the items stayed on screen. transform is reset unconditionally: the
+     desktop rule centres the panel with translateX(-50%), which is what pulled
+     the mobile sub-items off to the left. */
+  .dropdown {
+    position: static;
+    transform: none;
+    min-width: 0;
+    width: 100%;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+    &::before {
+      content: none;
+    }
+  }
+
+  .navItemWithChildren.open .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+    transform: none;
+  }
+
+  .dropdownLink {
+    padding: 4px 0;
+    font-size: 16px;
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+/* Tap-to-open, for tablets where there is no hover. Adds a class only; the
+   list is in the markup regardless. */
+/* Desktop only: on a phone the panel is a plain expanded list, and this
+   translateX(-50%) is exactly what pulled it off to the left there. The rule
+   sits after the mobile block in the file, so without the query it wins. */
+@media screen and (min-width: 769px) {
+  .navItemWithChildren.open .dropdown {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.caretButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 2px;
+  margin: -6px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button.navLink {
+  background: none;
+  border: none;
+  font-family: inherit;
+  padding: 0;
+}
+
+/* Mobile menu as a full-width list: label on the left, caret on the right,
+   a hairline between rows. Centred text made the two groups hard to tell
+   apart once the submenus opened. */
+@media screen and (max-width: 768px) {
+  .navLinks {
+    gap: 0;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .navItem {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .navItem:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .navItemWithChildren {
+    gap: 0;
+    align-items: stretch;
+  }
+
+  /* One row: the label, and the caret pushed to the right edge. Items without
+     a dropdown have no .navTopRow, so the link itself becomes the row. */
+  .navTopRow,
+  .navItem > .navLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: left;
+  }
+
+  .navItem .navLink {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .caretButton {
+    padding: 14px 20px;
+    margin: -15px -20px -15px 0;
+  }
+
+  .caret {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-width: 2px;
+    transition: transform 0.25s ease;
+  }
+
+  .navItemWithChildren.open .caret {
+    transform: translateY(1px) rotate(-135deg);
+  }
+
+  .navItemWithChildren.open .dropdown {
+    align-items: stretch;
+    gap: 0;
+    margin: 0;
+    padding: 2px 0 10px;
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .dropdownLink {
+    display: block;
+    padding: 11px 20px 11px 34px;
+    font-size: 15px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.62);
+  }
+}
+/* The wrapper around the language switcher had no rule at all, so on mobile it
+   ended up flush against the left edge once the overlay's side padding moved
+   onto the rows. */
+.mobileLocaleWrapper {
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+  }
+}
+
+/* Phone and contact button at the bottom of the mobile menu. Desktop keeps its
+   own button in the header row, so this block is mobile only. */
+.mobileContact {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobileContact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 4px 20px 8px;
+    margin-top: auto;
+  }
+
+  .mobilePhone {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transition: color 0.15s ease;
+
+    svg {
+      color: #25d366;
+      flex: none;
+    }
+
+    &:active {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  .mobileCta {
+    width: 100%;
+    justify-content: center;
+  }
 }

@@ -1,0 +1,4799 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.3451 sec.",
+ "cost": 0.01704,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09270715-2505-0399-0000-ef4a404cb614",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.3365 sec.",
+   "cost": 0.01704,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "relocation agency",
+    "location_code": 2826,
+    "language_code": "en",
+    "limit": 100,
+    "include_seed_keyword": true
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "relocation agency",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "relocation agency",
+      "location_code": 2826,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-09-17 21:51:23 +00:00",
+       "competition": 0.48,
+       "competition_level": "MEDIUM",
+       "cpc": 7.02,
+       "search_volume": 210,
+       "low_top_of_page_bid": 2.37,
+       "high_top_of_page_bid": 11.51,
+       "categories": [
+        10003,
+        10035
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 8,
+         "search_volume": 140
+        },
+        {
+         "year": 2026,
+         "month": 7,
+         "search_volume": 140
+        },
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 170
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 170
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 170
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 210
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 210
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 260
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 170
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 170
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 210
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 590
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": 0,
+        "quarterly": -18,
+        "yearly": -33
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": "relocate agency",
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 29,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 2
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=relocation%20agency&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+       "serp_item_types": [
+        "ai_overview",
+        "find_results_on",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches",
+        "images"
+       ],
+       "se_results_count": 141,
+       "last_updated_time": "2026-09-05 11:30:06 +00:00",
+       "previous_updated_time": "2026-06-17 21:16:54 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "commercial",
+       "foreign_intent": null,
+       "last_updated_time": "2026-04-29 19:07:42 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 1013.3,
+       "dofollow": 499.4,
+       "referring_pages": 777.7,
+       "referring_domains": 76.5,
+       "referring_main_domains": 73.6,
+       "rank": 176.2,
+       "main_domain_rank": 324.1,
+       "last_updated_time": "2026-09-05 11:30:06 +00:00"
+      }
+     },
+     "location_code": 2826,
+     "language_code": "en",
+     "total_count": 42,
+     "items_count": 42,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0Ijo0MiwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6InJlbG9jYXRpb24gYWdlbmN5IiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6MjgyNiwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjEwMCwib2Zmc2V0IjowLCJhaWQiOjI1MDUyMywidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDkyNzA3MTUtMjUwNS0wMzk5LTAwMDAtZWY0YTQwNGNiNjE0IiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiI2NmJkMWRjMi05YjZkLTQ2ODgtODgzZi1hOTk1OTk0YjBmMjYiLCJTZWFyY2hBZnRlckRhdGEiOlstOTIyMzM3MjAzNjg1NDc3NTgwOCwiZDU1NWI0ZDktOTUzMS1kMzNhLTNlY2QtNGI4YTJlNzc1NDkzIl0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 21:51:23 +00:00",
+        "competition": 0.48,
+        "competition_level": "MEDIUM",
+        "cpc": 7.02,
+        "search_volume": 210,
+        "low_top_of_page_bid": 2.37,
+        "high_top_of_page_bid": 11.51,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 590
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -18,
+         "yearly": -33
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "relocate agency",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 29,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1013.3,
+        "dofollow": 499.4,
+        "referring_pages": 777.7,
+        "referring_domains": 76.5,
+        "referring_main_domains": 73.6,
+        "rank": 176.2,
+        "main_domain_rank": 324.1,
+        "last_updated_time": "2026-09-05 11:30:06 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 19:07:42 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency london",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 12:52:43 +00:00",
+        "competition": 0.57,
+        "competition_level": "MEDIUM",
+        "cpc": 7.75,
+        "search_volume": 170,
+        "low_top_of_page_bid": 4.2,
+        "high_top_of_page_bid": 11.76,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -36,
+         "quarterly": 40,
+         "yearly": -36
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "london relocation agency",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 29,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 248.5,
+        "dofollow": 102,
+        "referring_pages": 187.1,
+        "referring_domains": 77.4,
+        "referring_main_domains": 75.2,
+        "rank": 140.3,
+        "main_domain_rank": 208.8,
+        "last_updated_time": "2026-01-25 01:34:24 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 20:24:42 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "london relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 19:11:14 +00:00",
+        "competition": 0.57,
+        "competition_level": "MEDIUM",
+        "cpc": 7.75,
+        "search_volume": 170,
+        "low_top_of_page_bid": 4.2,
+        "high_top_of_page_bid": 11.76,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -36,
+         "quarterly": 40,
+         "yearly": -36
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 29,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 244.7,
+        "dofollow": 99.4,
+        "referring_pages": 186.1,
+        "referring_domains": 75.7,
+        "referring_main_domains": 73.8,
+        "rank": 118.5,
+        "main_domain_rank": 210.2,
+        "last_updated_time": "2026-04-01 14:43:12 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 13:39:53 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "pet relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 08:19:47 +00:00",
+        "competition": 0.81,
+        "competition_level": "HIGH",
+        "cpc": 8.46,
+        "search_volume": 170,
+        "low_top_of_page_bid": 2.78,
+        "high_top_of_page_bid": 8.23,
+        "categories": [
+         10015,
+         10130,
+         11982
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -21,
+         "yearly": -48
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "pet relocation services",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 16,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 43416.8,
+        "dofollow": 22178.4,
+        "referring_pages": 22253.6,
+        "referring_domains": 165.6,
+        "referring_main_domains": 150.7,
+        "rank": 323.3,
+        "main_domain_rank": 313,
+        "last_updated_time": "2025-06-15 16:39:11 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 20:49:47 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "international relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 10:30:35 +00:00",
+        "competition": 0.59,
+        "competition_level": "MEDIUM",
+        "cpc": 17.68,
+        "search_volume": 110,
+        "low_top_of_page_bid": 7.18,
+        "high_top_of_page_bid": 16.16,
+        "categories": [
+         10004,
+         13841
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -57,
+         "quarterly": -40,
+         "yearly": -82
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "international relocation services",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 20,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 258.2,
+        "dofollow": 218.4,
+        "referring_pages": 248.4,
+        "referring_domains": 44.9,
+        "referring_main_domains": 40.3,
+        "rank": 153,
+        "main_domain_rank": 249.5,
+        "last_updated_time": "2024-09-25 12:08:35 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-28 19:56:31 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency uk",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 04:34:38 +00:00",
+        "competition": 0.55,
+        "competition_level": "MEDIUM",
+        "cpc": 7.35,
+        "search_volume": 40,
+        "low_top_of_page_bid": 2.44,
+        "high_top_of_page_bid": 9.81,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -71
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 22,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 798.6,
+        "dofollow": 467.9,
+        "referring_pages": 641.4,
+        "referring_domains": 56.7,
+        "referring_main_domains": 53.9,
+        "rank": 167.9,
+        "main_domain_rank": 278.3,
+        "last_updated_time": "2026-07-11 13:23:33 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 19:54:53 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency madrid",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 01:40:06 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 20:44:40 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "berlin relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 05:55:53 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -100,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "relocation agency berlin",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-25 07:31:32 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency barcelona",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 18:52:30 +00:00",
+        "competition": 0.84,
+        "competition_level": "HIGH",
+        "cpc": 6.24,
+        "search_volume": 10,
+        "low_top_of_page_bid": 3.04,
+        "high_top_of_page_bid": 10.75,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 20:04:41 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency munich",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 15:48:48 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -100,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-28 21:34:11 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency amsterdam",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 09:02:50 +00:00",
+        "competition": 0.43,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-29 20:04:41 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency france",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 14:25:32 +00:00",
+        "competition": 0.52,
+        "competition_level": "MEDIUM",
+        "cpc": 9.82,
+        "search_volume": 10,
+        "low_top_of_page_bid": 3.01,
+        "high_top_of_page_bid": 11.59,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -50,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "relocation services to france",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:06:34 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency frankfurt",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 16:20:08 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": 0,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-29 19:43:51 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency sydney",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 05:04:54 +00:00",
+        "competition": 0.37,
+        "competition_level": "MEDIUM",
+        "cpc": 19.64,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -50,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 19:46:45 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency zurich",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 05:15:56 +00:00",
+        "competition": 0.86,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-29 21:36:14 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency berlin",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 11:09:51 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -100,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:23:26 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency paris",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 18:46:44 +00:00",
+        "competition": 0.82,
+        "competition_level": "HIGH",
+        "cpc": 4.19,
+        "search_volume": 10,
+        "low_top_of_page_bid": 2.31,
+        "high_top_of_page_bid": 6.6,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 44,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 20:25:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency belgium",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 03:56:58 +00:00",
+        "competition": 0.43,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10016,
+         10139,
+         10746,
+         12025
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": null,
+         "yearly": null
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 23:59:58 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency montreal",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 21:10:10 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -100,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 21:05:13 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency dubai",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 06:18:30 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 20:53:05 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "geneva relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 00:24:56 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "relocation agency geneva",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 20:53:23 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency zug",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 12:27:08 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10305,
+         11103,
+         12406
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 21:06:07 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency geneva",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 18:33:58 +00:00",
+        "competition": 0.57,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": null,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 19:20:00 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency lausanne",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-12 07:36:18 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10015,
+         13405,
+         13680
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-29 19:55:01 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation recruitment agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 19:57:10 +00:00",
+        "competition": 0.43,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10016,
+         10139,
+         10746,
+         12025
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "relocation recruitment agencies",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 20:04:41 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency hamburg",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 19:26:35 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": -100,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 21:10:24 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency brussels",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 08:48:54 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-30 00:05:02 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency denmark",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 12:32:21 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10017,
+         10142,
+         10769,
+         12067
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-29 23:59:58 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency switzerland",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-17 19:10:40 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": -100,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 21:36:14 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency prague",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 10:25:17 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10276,
+         11088
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 19:52:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency germany",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 00:08:20 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -100,
+         "quarterly": -100,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 19:10:44 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "best relocation agency nyc",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 14:11:44 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 0,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-05 03:59:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "european medicines agency relocation",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-15 23:13:53 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 0,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10011,
+         10088,
+         10499
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-27 17:18:00 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "european banking agency relocation",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 00:41:26 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 0,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10012,
+         10093
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 16:35:56 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "relocation agency münchen",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-13 15:36:05 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 0,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-28 21:34:56 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "european medicines agency relocation 2017",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 13:41:44 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 0,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10011,
+         10088,
+         10499
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-27 19:02:03 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "international pet relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-04 08:11:50 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10015,
+         10130,
+         11978,
+         11982,
+         13015
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-04 08:15:34 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "corporate relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-03 22:48:38 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10016,
+         10139,
+         10746,
+         12025
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-03 22:50:15 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "pet relocation agency dubai",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-04 10:37:24 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10015,
+         10130,
+         11978,
+         13015
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-04 10:38:58 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the french way relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-03 01:11:31 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-03 01:11:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "dubai relocation recruitment agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-03 15:25:04 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10016,
+         10018,
+         10139,
+         10163,
+         10276,
+         10746,
+         10857,
+         11084,
+         12025,
+         12371
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-03 15:27:05 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "best relocation agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-05 11:34:29 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": null,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10003,
+         10035
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-09-05 11:35:35 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

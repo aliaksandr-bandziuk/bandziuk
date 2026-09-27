@@ -2,7 +2,6 @@
 
 import { i18n, defaultLocale } from "@/i18n.config";
 import { useParams } from "next/navigation";
-import Link from "next/link";
 import React, { useMemo, useState, useEffect, useRef } from "react";
 import styles from "./LocaleSwitcher.module.scss";
 import { Translation } from "@/types/homepage";
@@ -117,13 +116,20 @@ const LocaleSwitcher = ({ translations }: Props) => {
               key={version.language}
               className={styles.localeSwitcherListItem}
             >
-              <Link
+              {/* A plain <a>, not next/link, on purpose: switching language
+                  changes the [lang] segment, and a client-side navigation
+                  makes React rebuild that layout — including the inline
+                  consent script in <head>, which React then logs as
+                  "Encountered a script tag while rendering React component".
+                  A full load also guarantees the right lang attribute and a
+                  clean state for a rare action. */}
+              <a
                 href={hrefFor(version)}
                 className={styles.localeSwitcherLink}
                 onClick={() => setIsOpen(false)}
               >
                 {version.language}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>

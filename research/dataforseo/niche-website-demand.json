@@ -1,0 +1,535 @@
+{
+ "generatedAt": "2026-09-27T07:16:59.394Z",
+ "languages": {
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "strona dla agencji relokacyjnej",
+      "volume": null,
+      "niche": "relokacja/legalizacja"
+     },
+     {
+      "keyword": "strona internetowa dla agencji relokacyjnej",
+      "volume": null,
+      "niche": "relokacja/legalizacja"
+     },
+     {
+      "keyword": "strona dla biura legalizacji pobytu",
+      "volume": null,
+      "niche": "relokacja/legalizacja"
+     },
+     {
+      "keyword": "strona dla doradcy imigracyjnego",
+      "volume": null,
+      "niche": "relokacja/legalizacja"
+     },
+     {
+      "keyword": "strona dla biura tłumaczeń",
+      "volume": null,
+      "niche": "biuro tłumaczeń"
+     },
+     {
+      "keyword": "strona internetowa dla biura tłumaczeń",
+      "volume": null,
+      "niche": "biuro tłumaczeń"
+     },
+     {
+      "keyword": "strona dla tłumacza",
+      "volume": null,
+      "niche": "biuro tłumaczeń"
+     },
+     {
+      "keyword": "strona internetowa dla tłumacza",
+      "volume": null,
+      "niche": "biuro tłumaczeń"
+     },
+     {
+      "keyword": "strona dla agencji pracy",
+      "volume": null,
+      "niche": "agencja pracy"
+     },
+     {
+      "keyword": "strona internetowa dla agencji pracy",
+      "volume": null,
+      "niche": "agencja pracy"
+     },
+     {
+      "keyword": "strona dla agencji pracy tymczasowej",
+      "volume": null,
+      "niche": "agencja pracy"
+     },
+     {
+      "keyword": "strona dla szkoły językowej",
+      "volume": null,
+      "niche": "szkoła językowa"
+     },
+     {
+      "keyword": "strona internetowa dla szkoły językowej",
+      "volume": null,
+      "niche": "szkoła językowa"
+     },
+     {
+      "keyword": "strona dla szkoły",
+      "volume": 20,
+      "niche": "szkoła językowa"
+     },
+     {
+      "keyword": "strona dla kancelarii",
+      "volume": 40,
+      "niche": "kancelaria (kontrola)"
+     },
+     {
+      "keyword": "strona dla prawnika",
+      "volume": null,
+      "niche": "kancelaria (kontrola)"
+     },
+     {
+      "keyword": "strona internetowa dla prawnika",
+      "volume": 90,
+      "niche": "kancelaria (kontrola)"
+     },
+     {
+      "keyword": "strona dla adwokata",
+      "volume": null,
+      "niche": "kancelaria (kontrola)"
+     },
+     {
+      "keyword": "strona dla agencji nieruchomości",
+      "volume": 30,
+      "niche": "nieruchomości (kontrola)"
+     },
+     {
+      "keyword": "strona internetowa dla agencji nieruchomości",
+      "volume": null,
+      "niche": "nieruchomości (kontrola)"
+     },
+     {
+      "keyword": "strona dla biura nieruchomości",
+      "volume": 90,
+      "niche": "nieruchomości (kontrola)"
+     },
+     {
+      "keyword": "strona dla biura rachunkowego",
+      "volume": null,
+      "niche": "biuro rachunkowe"
+     },
+     {
+      "keyword": "strona internetowa dla biura rachunkowego",
+      "volume": 40,
+      "niche": "biuro rachunkowe"
+     },
+     {
+      "keyword": "strona dla księgowej",
+      "volume": null,
+      "niche": "biuro rachunkowe"
+     },
+     {
+      "keyword": "strona dla biura podróży",
+      "volume": null,
+      "niche": "turystyka"
+     },
+     {
+      "keyword": "strona internetowa dla biura podróży",
+      "volume": 10,
+      "niche": "turystyka"
+     },
+     {
+      "keyword": "strona dla agencji turystycznej",
+      "volume": null,
+      "niche": "turystyka"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "сайт для релокационного агентства",
+      "volume": null,
+      "niche": "релокация/миграция"
+     },
+     {
+      "keyword": "сайт для миграционного агентства",
+      "volume": null,
+      "niche": "релокация/миграция"
+     },
+     {
+      "keyword": "сайт для визового центра",
+      "volume": null,
+      "niche": "релокация/миграция"
+     },
+     {
+      "keyword": "сайт для юриста по миграции",
+      "volume": null,
+      "niche": "релокация/миграция"
+     },
+     {
+      "keyword": "сайт для бюро переводов",
+      "volume": null,
+      "niche": "бюро переводов"
+     },
+     {
+      "keyword": "сайт бюро переводов",
+      "volume": 0,
+      "niche": "бюро переводов"
+     },
+     {
+      "keyword": "сайт для переводчика",
+      "volume": null,
+      "niche": "бюро переводов"
+     },
+     {
+      "keyword": "сайт для кадрового агентства",
+      "volume": null,
+      "niche": "кадровое агентство"
+     },
+     {
+      "keyword": "сайт кадрового агентства",
+      "volume": 10,
+      "niche": "кадровое агентство"
+     },
+     {
+      "keyword": "сайт для агентства по трудоустройству",
+      "volume": null,
+      "niche": "кадровое агентство"
+     },
+     {
+      "keyword": "сайт для языковой школы",
+      "volume": null,
+      "niche": "языковая школа"
+     },
+     {
+      "keyword": "сайт языковой школы",
+      "volume": null,
+      "niche": "языковая школа"
+     },
+     {
+      "keyword": "сайт для школы",
+      "volume": 10,
+      "niche": "языковая школа"
+     },
+     {
+      "keyword": "сайт для юриста",
+      "volume": 10,
+      "niche": "юрист (контроль)"
+     },
+     {
+      "keyword": "сайт юриста",
+      "volume": 10,
+      "niche": "юрист (контроль)"
+     },
+     {
+      "keyword": "сайт для адвоката",
+      "volume": 0,
+      "niche": "юрист (контроль)"
+     },
+     {
+      "keyword": "сайт юридической компании",
+      "volume": 10,
+      "niche": "юрист (контроль)"
+     },
+     {
+      "keyword": "сайт для агентства недвижимости",
+      "volume": 10,
+      "niche": "недвижимость (контроль)"
+     },
+     {
+      "keyword": "сайт агентства недвижимости",
+      "volume": 10,
+      "niche": "недвижимость (контроль)"
+     },
+     {
+      "keyword": "сайт для риэлтора",
+      "volume": 10,
+      "niche": "недвижимость (контроль)"
+     },
+     {
+      "keyword": "сайт для турагентства",
+      "volume": 10,
+      "niche": "турагентство"
+     },
+     {
+      "keyword": "сайт турагентства",
+      "volume": 20,
+      "niche": "турагентство"
+     },
+     {
+      "keyword": "сайт для туристического агентства",
+      "volume": 0,
+      "niche": "турагентство"
+     },
+     {
+      "keyword": "сайт для медицинского центра",
+      "volume": 0,
+      "niche": "медцентр"
+     },
+     {
+      "keyword": "сайт для клиники",
+      "volume": 0,
+      "niche": "медцентр"
+     },
+     {
+      "keyword": "сайт для стоматологии",
+      "volume": 10,
+      "niche": "медцентр"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "сайт для релокационного агентства",
+      "volume": null,
+      "niche": "релокация/миграция"
+     },
+     {
+      "keyword": "сайт для миграционного агентства",
+      "volume": null,
+      "niche": "релокация/миграция"
+     },
+     {
+      "keyword": "сайт для визового центра",
+      "volume": null,
+      "niche": "релокация/миграция"
+     },
+     {
+      "keyword": "сайт для юриста по миграции",
+      "volume": null,
+      "niche": "релокация/миграция"
+     },
+     {
+      "keyword": "сайт для бюро переводов",
+      "volume": null,
+      "niche": "бюро переводов"
+     },
+     {
+      "keyword": "сайт бюро переводов",
+      "volume": 10,
+      "niche": "бюро переводов"
+     },
+     {
+      "keyword": "сайт для переводчика",
+      "volume": null,
+      "niche": "бюро переводов"
+     },
+     {
+      "keyword": "сайт для кадрового агентства",
+      "volume": null,
+      "niche": "кадровое агентство"
+     },
+     {
+      "keyword": "сайт кадрового агентства",
+      "volume": 0,
+      "niche": "кадровое агентство"
+     },
+     {
+      "keyword": "сайт для агентства по трудоустройству",
+      "volume": null,
+      "niche": "кадровое агентство"
+     },
+     {
+      "keyword": "сайт для языковой школы",
+      "volume": null,
+      "niche": "языковая школа"
+     },
+     {
+      "keyword": "сайт языковой школы",
+      "volume": null,
+      "niche": "языковая школа"
+     },
+     {
+      "keyword": "сайт для школы",
+      "volume": 10,
+      "niche": "языковая школа"
+     },
+     {
+      "keyword": "сайт для юриста",
+      "volume": 10,
+      "niche": "юрист (контроль)"
+     },
+     {
+      "keyword": "сайт юриста",
+      "volume": 10,
+      "niche": "юрист (контроль)"
+     },
+     {
+      "keyword": "сайт для адвоката",
+      "volume": 10,
+      "niche": "юрист (контроль)"
+     },
+     {
+      "keyword": "сайт юридической компании",
+      "volume": 10,
+      "niche": "юрист (контроль)"
+     },
+     {
+      "keyword": "сайт для агентства недвижимости",
+      "volume": 10,
+      "niche": "недвижимость (контроль)"
+     },
+     {
+      "keyword": "сайт агентства недвижимости",
+      "volume": 10,
+      "niche": "недвижимость (контроль)"
+     },
+     {
+      "keyword": "сайт для риэлтора",
+      "volume": 10,
+      "niche": "недвижимость (контроль)"
+     },
+     {
+      "keyword": "сайт для турагентства",
+      "volume": 10,
+      "niche": "турагентство"
+     },
+     {
+      "keyword": "сайт турагентства",
+      "volume": 90,
+      "niche": "турагентство"
+     },
+     {
+      "keyword": "сайт для туристического агентства",
+      "volume": 10,
+      "niche": "турагентство"
+     },
+     {
+      "keyword": "сайт для медицинского центра",
+      "volume": 10,
+      "niche": "медцентр"
+     },
+     {
+      "keyword": "сайт для клиники",
+      "volume": 10,
+      "niche": "медцентр"
+     },
+     {
+      "keyword": "сайт для стоматологии",
+      "volume": 10,
+      "niche": "медцентр"
+     }
+    ]
+   }
+  },
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "relocation agency website",
+      "volume": null,
+      "niche": "relocation/immigration"
+     },
+     {
+      "keyword": "immigration consultant website",
+      "volume": 10,
+      "niche": "relocation/immigration"
+     },
+     {
+      "keyword": "visa agency website",
+      "volume": 10,
+      "niche": "relocation/immigration"
+     },
+     {
+      "keyword": "website for immigration consultants",
+      "volume": null,
+      "niche": "relocation/immigration"
+     },
+     {
+      "keyword": "translation agency website",
+      "volume": 10,
+      "niche": "translation agency"
+     },
+     {
+      "keyword": "website for translation agency",
+      "volume": null,
+      "niche": "translation agency"
+     },
+     {
+      "keyword": "translator website",
+      "volume": 6600,
+      "niche": "translation agency"
+     },
+     {
+      "keyword": "recruitment agency website",
+      "volume": 210,
+      "niche": "recruitment agency"
+     },
+     {
+      "keyword": "website for recruitment agency",
+      "volume": 210,
+      "niche": "recruitment agency"
+     },
+     {
+      "keyword": "staffing agency website",
+      "volume": 210,
+      "niche": "recruitment agency"
+     },
+     {
+      "keyword": "language school website",
+      "volume": null,
+      "niche": "language school"
+     },
+     {
+      "keyword": "website for language school",
+      "volume": null,
+      "niche": "language school"
+     },
+     {
+      "keyword": "law firm website",
+      "volume": 320,
+      "niche": "law firm (control)"
+     },
+     {
+      "keyword": "lawyer website",
+      "volume": 590,
+      "niche": "law firm (control)"
+     },
+     {
+      "keyword": "attorney website design",
+      "volume": 1600,
+      "niche": "law firm (control)"
+     },
+     {
+      "keyword": "real estate agency website",
+      "volume": 1300,
+      "niche": "real estate (control)"
+     },
+     {
+      "keyword": "realtor website",
+      "volume": 3600,
+      "niche": "real estate (control)"
+     },
+     {
+      "keyword": "real estate website design",
+      "volume": 720,
+      "niche": "real estate (control)"
+     },
+     {
+      "keyword": "travel agency website",
+      "volume": 480,
+      "niche": "travel agency"
+     },
+     {
+      "keyword": "website for travel agency",
+      "volume": 480,
+      "niche": "travel agency"
+     },
+     {
+      "keyword": "medical practice website",
+      "volume": 70,
+      "niche": "clinic"
+     },
+     {
+      "keyword": "dental website design",
+      "volume": 720,
+      "niche": "clinic"
+     },
+     {
+      "keyword": "clinic website",
+      "volume": 140,
+      "niche": "clinic"
+     }
+    ]
+   }
+  }
+ }
+}

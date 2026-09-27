@@ -571,6 +571,17 @@ code itself.
   all — the figure lives only on /pl/cennik. That loses enquiries, 
   not rankings.
 
+- **Search volume without a look at the results page misleads, and the biggest
+  numbers mislead most.** Measured 2026-09-27 (`research/dataforseo/relocation-topic.md`):
+  `immigration services` 5 400/mo is held by charities and legal-aid nonprofits
+  ("where can I get free immigration help?"), `relocation assistance` 4 400 by
+  state subsidy programmes ("what states will pay you to relocate?"),
+  `relocation services` 2 900 by furniture movers, `immigration consultant`
+  2 900 by LinkedIn profiles and Payscale salary pages. The one query in that
+  niche with a buyer behind it, `golden visa` 6 600, is held by firms selling
+  the service. Earlier examples of the same trap: `strona dla konsultanta` is a
+  medical consultant, `сайт для консультанта` is a chat widget. **Before
+  committing a page or an article to a keyword, read who holds the first page.**
 - Keywords belong in subheadings, not only in body text. H2 and H3
   are the strongest on-page signal after the title, and they are
   what assistants quote when summarising a page. Generic headings
@@ -959,6 +970,17 @@ from that.
   `CookieConsentButtons` re-applies the class on mount, in a layout effect so
   nothing flashes. Anything else that keeps state in a class on `<html>` needs
   the same treatment (Lenis already re-adds its own).
+- **`LocaleSwitcher` uses a plain `<a>`, not `next/link`** (2026-09-27). A
+  client-side navigation across the `[lang]` segment makes React rebuild that
+  layout, including the inline consent script in `<head>`, and React then logs
+  "Encountered a script tag while rendering React component" on every language
+  switch. The message is development-only — it exists only in
+  `react-dom-client.development.js` — but the full load also guarantees the
+  right `lang` attribute and a clean state for a rare action. Do not convert it
+  back to `next/link`. Moving the script out of the `[lang]` layout is the only
+  other fix and it costs the server-rendered `lang`, because the root layout
+  cannot know the language without `headers()`, which would make every page
+  dynamic (§13).
 - **`--text-tertiary` is #84848d** (≥4.5:1 on every dark background).
 - `experimental.inlineCss` was tried and made the service page slower. Off.
 

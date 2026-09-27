@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* Sized for the article column, not for a full-width slide. The first
+     version was 1200px wide with two side-by-side panels and a four-line
+     subtitle; inside the ~700px text column of a blog post it shrank until
+     nothing could be read. This one is 760px, one column of bars, a short
+     heading and a single note line, so at the rendered size the type is close
+     to 1:1. Same surface and the same validated palette as figures-i18n.html.
+     One shared scale per figure: with a single axis the bars compare directly
+     and the "each panel has its own scale" caveat disappears with the panels. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#8e8c86;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --grey:#4a4a47;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:760px;background:var(--surface);padding:34px 36px 30px}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:0 0 9px}
+  h2{font-size:23px;line-height:1.24;font-weight:600;color:var(--ink);margin:0 0 20px}
+  .legend{display:flex;gap:20px;flex-wrap:wrap;margin:0 0 20px}
+  .legend span{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink-2)}
+  .legend i{width:12px;height:12px;border-radius:3px;display:block}
+  .note{font-size:12.5px;line-height:1.45;color:var(--muted);margin:18px 0 0}
+  text{font-family:var(--sans)}
+  .lbl{fill:var(--ink-2);font-size:14px}
+  .val{fill:var(--ink);font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}
+  .inseg{font-size:13px;font-weight:600;fill:#fff}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script>
+// Numbers from research/dataforseo/relocation-topic.md and relocation-serp.json,
+// measured 2026-09-27.
+const T = {
+  pl: {
+    f1: {
+      kicker: "Google Ads · Polska · wrzesień 2026",
+      h: "Kto ile szuka miesięcznie",
+      legend: ["Szuka cudzoziemiec", "Szuka pracodawca"],
+      rows: [
+        ["karta pobytu", 9900, 0], ["obywatelstwo polskie", 6600, 0],
+        ["zezwolenie na pobyt czasowy", 1000, 0], ["pobyt stały", 720, 0],
+        ["zezwolenie na pracę dla cudzoziemca", 480, 1],
+        ["biuro obsługi cudzoziemców", 110, 1],
+        ["legalizacja zatrudnienia cudzoziemców", 110, 1],
+      ],
+      note: "Jedna skala dla wszystkich słupków. Zapytań pracodawcy jest mniej, ale za nimi stoi umowa na obsługę, a nie jedna sprawa.",
+    },
+    f2: {
+      kicker: "Pierwsza ósemka wyników · wrzesień 2026",
+      h: "Kto zajmuje pierwszą ósemkę",
+      legend: ["Prywatne firmy", "Strony urzędowe"],
+      rows: [["biuro obsługi cudzoziemców", 5, 3], ["legalizacja zatrudnienia", 7, 1], ["zezwolenie na pracę", 2, 6]],
+      note: "Na „zezwolenie na pracę\" Google pokazuje dodatkowo gotową odpowiedź AI nad listą.",
+    },
+  },
+  ru: {
+    f1: {
+      kicker: "Google Ads · Польша · сентябрь 2026",
+      h: "Русскоязычные запросы в Польше",
+      legend: null,
+      rows: [
+        ["карта побыту", 2400, 0], ["легализация в Польше", 260, 0],
+        ["разрешение на работу в Польше", 140, 0], ["вид на жительство в Польше", 110, 0],
+        ["визовый центр", 90, 0], ["релокация", 50, 0],
+      ],
+      note: "Запросов в месяц. Задаются в Польше и по-русски — о польской процедуре.",
+    },
+    f2: {
+      kicker: "Первая восьмёрка выдачи · сентябрь 2026",
+      h: "Кто занимает первую восьмёрку",
+      legend: ["Частные сайты", "Государственные"],
+      rows: [["карта побыту", 8, 0], ["легализация в Польше", 7, 1]],
+      note: "Над обоими запросами Google показывает готовый ответ ИИ.",
+    },
+  },
+  en: {
+    f1: {
+      kicker: "Google Ads · United States · September 2026",
+      h: "The biggest numbers have no buyer",
+      legend: ["Buyers behind the query", "Volume without buyers"],
+      rows: [
+        ["golden visa", 6600, 0], ["immigration services", 5400, 1],
+        ["relocation assistance", 4400, 1], ["relocation services", 2900, 1],
+        ["immigration consultant", 2900, 1], ["visa services", 2400, 0],
+        ["citizenship by investment", 1900, 0], ["immigration agency", 720, 0],
+      ],
+      note: "One scale. Intent read from the live results and the people-also-ask box, not from the wording.",
+    },
+    f2: {
+      kicker: "First page, top eight · September 2026",
+      h: "How many of the top eight sell the service",
+      legend: ["Firms selling the service", "Everything else"],
+      rows: [["golden visa", 5, 3], ["immigration services", 0, 8], ["relocation assistance", 0, 8]],
+      note: "\"Everything else\" is a government portal and two platforms on golden visa; charities and state programmes on the others.",
+    },
+  },
+};
+
+const group = (n, sep) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, sep);
+const N = { pl:(n)=>group(n," "), ru:(n)=>group(n," "), en:(n)=>group(n,",") };
+
+// One column of bars on one shared scale: label above, bar below, value at the
+// bar's end. Thin marks, 4px rounded data end.
+function bars(rows, colors, fmt, w) {
+  const rowH = 44, barH = 15, valW = 74;
+  const max = Math.max(...rows.map((r) => r[1]));
+  const h = rows.length * rowH;
+  let out = `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">`;
+  rows.forEach(([name, v, g], i) => {
+    const y = i * rowH;
+    const bw = Math.max(6, Math.round((v / max) * (w - valW)));
+    out += `<text class="lbl" x="0" y="${y + 12}">${name}</text>`;
+    out += `<rect x="0" y="${y + 20}" width="${bw}" height="${barH}" rx="4" fill="${colors[g || 0]}"/>`;
+    out += `<text class="val" x="${bw + 10}" y="${y + 20 + barH - 2}">${fmt(v)}</text>`;
+  });
+  return out + `</svg>`;
+}
+
+// Stacked out of eight, with 2px of surface between the segments.
+function stacked(rows, cA, cB, w) {
+  const rowH = 62, barH = 24, total = 8;
+  const h = rows.length * rowH;
+  let out = `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">`;
+  rows.forEach(([name, a, b], i) => {
+    const y = i * rowH;
+    const wa = Math.round((a / total) * w);
+    out += `<text class="lbl" x="0" y="${y + 12}">${name}</text>`;
+    if (a > 0) {
+      out += `<rect x="0" y="${y + 20}" width="${wa}" height="${barH}" rx="4" fill="${cA}"/>`;
+      out += `<text class="inseg" x="12" y="${y + 20 + barH - 7}">${a}</text>`;
+    }
+    if (b > 0) {
+      const x = wa + (a > 0 ? 2 : 0);
+      out += `<rect x="${x}" y="${y + 20}" width="${w - x}" height="${barH}" rx="4" fill="${cB}"/>`;
+      out += `<text class="inseg" x="${x + 12}" y="${y + 20 + barH - 7}">${b}</text>`;
+    }
+  });
+  return out + `</svg>`;
+}
+
+const root = document.getElementById("root");
+const S1 = "#3987e5", S2 = "#d95926", S3 = "#199e70", GREY = "#4a4a47";
+const W = 688; // 760 minus the 36px padding on each side
+
+for (const lang of ["pl", "ru", "en"]) {
+  const t = T[lang], fmt = N[lang];
+
+  // A single series needs no legend box — the heading names it.
+  const legend1 = t.f1.legend
+    ? `<div class="legend"><span><i style="background:${S1}"></i>${t.f1.legend[0]}</span><span><i style="background:${S2}"></i>${t.f1.legend[1]}</span></div>`
+    : "";
+
+  root.insertAdjacentHTML("beforeend", `
+    <div class="fig" id="f1-${lang}">
+      <p class="kicker">${t.f1.kicker}</p>
+      <h2>${t.f1.h}</h2>
+      ${legend1}
+      ${bars(t.f1.rows, [S1, S2], fmt, W)}
+      <p class="note">${t.f1.note}</p>
+    </div>`);
+
+  root.insertAdjacentHTML("beforeend", `
+    <div class="fig" id="f2-${lang}">
+      <p class="kicker">${t.f2.kicker}</p>
+      <h2>${t.f2.h}</h2>
+      <div class="legend">
+        <span><i style="background:${S3}"></i>${t.f2.legend[0]}</span>
+        <span><i style="background:${GREY}"></i>${t.f2.legend[1]}</span>
+      </div>
+      ${stacked(t.f2.rows, S3, GREY, W)}
+      <p class="note">${t.f2.note}</p>
+    </div>`);
+}
+</script>
+</body>
+</html>

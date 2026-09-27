@@ -13,8 +13,14 @@ export const STATIC_REDIRECTS = [
   // Orphan blog URL — no blog document exists with this slug; the correct page is under /portfolio/.
   // Google had it indexed at position ~95 from a previous crawl; redirect closes the loop.
   { source: '/blog/build-and-optimize-a-multilingual-real-estate-platform',    destination: '/portfolio/build-and-optimize-a-multilingual-real-estate-platform',    permanent: true },
-  { source: '/pl/blog/build-and-optimize-a-multilingual-real-estate-platform', destination: '/pl/portfolio/build-and-optimize-a-multilingual-real-estate-platform', permanent: true },
-  { source: '/ru/blog/build-and-optimize-a-multilingual-real-estate-platform', destination: '/ru/portfolio/build-and-optimize-a-multilingual-real-estate-platform', permanent: true },
+  // The PL and RU cases have their own translated slugs — the portfolio slug is
+  // NOT the English one with a locale prefix. Both of these pointed at
+  // /<lang>/portfolio/build-and-optimize-… which is a 404 page (200 + noindex),
+  // so an indexed URL led nowhere. Found in the Search Console export of
+  // 2026-09-24; fixed 2026-09-26. When adding a locale-prefixed redirect, read
+  // the slug for that language out of Sanity instead of reusing the EN one.
+  { source: '/pl/blog/build-and-optimize-a-multilingual-real-estate-platform', destination: '/pl/portfolio/rozwoj-wielojezycznej-platformy-nieruchomosci-premium', permanent: true },
+  { source: '/ru/blog/build-and-optimize-a-multilingual-real-estate-platform', destination: '/ru/portfolio/razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre', permanent: true },
 
   // Merged into the core Website Development service page (2026-08-03 hub/orphan cleanup):
   // no niche, no location, no differentiating angle from the core service — direct duplicate.
@@ -65,4 +71,20 @@ export const STATIC_REDIRECTS = [
   { source: '/multilingual-website-development',   destination: '/services/multilingual-website-development',      permanent: true },
   { source: '/pl/tworzenie-stron-wielojezycznych', destination: '/pl/oferty/tworzenie-stron-wielojezycznych',      permanent: true },
   { source: '/ru/razrabotka-multiyazychnogo-saita', destination: '/ru/uslugi/razrabotka-multiyazychnogo-saita',    permanent: true },
+
+  // A Polish slug under the English prefix. Nothing emits it — not the sitemap,
+  // not a document, not an hreflang tag — but Google crawled it on 8 September
+  // and got the 404 page (200 + noindex). Point it at the English translation
+  // of the same post, in the language its own prefix promises.
+  { source: '/blog/jak-zautomatyzowalem-tworzenie-stron-w-cms', destination: '/blog/how-i-automated-website-page-production', permanent: true },
+
+  // English has no prefix (localePrefix: "as-needed"), so /en/... is never a
+  // real address — but next-intl answers the redundant prefix with a TEMPORARY
+  // 307, which tells Google the move is provisional: it keeps /en/... in the
+  // index and consolidates nothing. Twelve such URLs sat in "Page with
+  // redirect" in the export of 2026-09-24. A redirect declared here runs
+  // before the proxy, so these answer 308 instead. The wildcard sources are
+  // skipped by /sitemap-old.xml, which only lists literal paths.
+  { source: '/en',         destination: '/',       permanent: true },
+  { source: '/en/:path*',  destination: '/:path*', permanent: true },
 ];

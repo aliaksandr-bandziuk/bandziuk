@@ -996,7 +996,25 @@ from `getAllPathsForLang`, and `STATIC_REDIRECTS`, which now lives in
 Rules:
 
 - **Every URL in it must redirect.** Verified on 21 September: 177 URLs, all
-  308. A URL that serves a page does not belong in this file.
+  308. A URL that serves a page does not belong in this file. 179 since
+  26 September (`/en` and one orphan blog URL, both redirecting).
+- **A locale-prefixed redirect needs that language's own slug.** Two entries
+  sent `/pl/blog/build-and-optimize-…` and its RU twin to
+  `/<lang>/portfolio/<the English slug>`, which is a 404 page (200 + noindex),
+  so an indexed URL led nowhere. Blog and portfolio slugs are translated; read
+  the slug for that language out of Sanity instead of prefixing the EN one.
+  Found in the Search Console export of 2026-09-24, fixed 2026-09-26.
+- **`/en/...` must answer 308, and does so only because a config redirect says
+  so.** next-intl answers the redundant default-locale prefix with a temporary
+  307, which keeps the old URL in Google's index and consolidates nothing.
+  `/en` → `/` and `/en/:path*` → `/:path*` are in `STATIC_REDIRECTS`; a
+  redirect declared there runs before the proxy. Do not remove them expecting
+  next-intl to cover it.
+- After a change to the redirect list, re-check that **every literal source's
+  destination answers 200 and is indexable** — a destination that serves the
+  404 page returns 200 with `noindex`, so a status check alone misses it.
+  Note `next dev` only reloads `staticRedirects.mjs` when `next.config.mjs`
+  itself changes; `touch next.config.mjs` to make the running server re-read it.
 - **Do not move pages again while it is live.** A second restructure restarts
   the process; the market-page merge proposed the same day was dropped for
   this reason.

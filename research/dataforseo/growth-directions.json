@@ -1,0 +1,861 @@
+{
+ "generatedAt": "2026-10-12T13:00:00.457Z",
+ "markets": {
+  "PL/pl": [
+   {
+    "keyword": "ile kosztuje strona internetowa",
+    "volume": 1000,
+    "cpc": 2.2,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ile kosztuje pozycjonowanie",
+    "volume": 590,
+    "cpc": 1.94,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ile kosztuje sklep internetowy",
+    "volume": 320,
+    "cpc": 2.32,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ile kosztuje audyt seo",
+    "volume": 90,
+    "cpc": 9.49,
+    "direction": "cost"
+   },
+   {
+    "keyword": "cena strony internetowej",
+    "volume": 320,
+    "cpc": 2.31,
+    "direction": "cost"
+   },
+   {
+    "keyword": "koszt strony internetowej",
+    "volume": 390,
+    "cpc": 2.36,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ile kosztuje landing page",
+    "volume": 90,
+    "cpc": 2.2,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ile kosztuje strona wizytówka",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ile kosztuje prowadzenie strony",
+    "volume": null,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ile kosztuje sklep w prestashop",
+    "volume": null,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ile kosztuje reklama google",
+    "volume": 30,
+    "cpc": 5.96,
+    "direction": "cost"
+   },
+   {
+    "keyword": "cennik tworzenia stron",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "pozycjonowanie w ai",
+    "volume": 260,
+    "cpc": 15.66,
+    "direction": "ai"
+   },
+   {
+    "keyword": "optymalizacja pod ai",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "seo dla chatgpt",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "widoczność w ai",
+    "volume": 70,
+    "cpc": 3.56,
+    "direction": "ai"
+   },
+   {
+    "keyword": "pozycjonowanie w chatgpt",
+    "volume": 210,
+    "cpc": 10.46,
+    "direction": "ai"
+   },
+   {
+    "keyword": "jak pojawić się w chatgpt",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai overviews seo",
+    "volume": 10,
+    "cpc": 7.98,
+    "direction": "ai"
+   },
+   {
+    "keyword": "geo pozycjonowanie",
+    "volume": 40,
+    "cpc": 3.97,
+    "direction": "ai"
+   },
+   {
+    "keyword": "tworzenie stron internetowych warszawa",
+    "volume": 390,
+    "cpc": 4.75,
+    "direction": "local"
+   },
+   {
+    "keyword": "pozycjonowanie warszawa",
+    "volume": 720,
+    "cpc": 8.07,
+    "direction": "local"
+   },
+   {
+    "keyword": "agencja seo warszawa",
+    "volume": 720,
+    "cpc": 14.12,
+    "direction": "local"
+   },
+   {
+    "keyword": "strony internetowe warszawa",
+    "volume": 1000,
+    "cpc": 8.17,
+    "direction": "local"
+   },
+   {
+    "keyword": "specjalista seo warszawa",
+    "volume": 20,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "audyt seo warszawa",
+    "volume": 110,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "freelancer tworzenie stron",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "pozycjonowanie stron cena",
+    "volume": 1300,
+    "cpc": 5.17,
+    "direction": "local"
+   },
+   {
+    "keyword": "tworzenie stron internetowych cena",
+    "volume": 140,
+    "cpc": 4.3,
+    "direction": "local"
+   }
+  ],
+  "UA/ru": [
+   {
+    "keyword": "сколько стоит создание сайта",
+    "volume": 20,
+    "cpc": 1.19,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит сайт",
+    "volume": 30,
+    "cpc": 1.66,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит продвижение сайта",
+    "volume": 20,
+    "cpc": 2.87,
+    "direction": "cost"
+   },
+   {
+    "keyword": "цена создания сайта",
+    "volume": 50,
+    "cpc": 1.29,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит интернет магазин",
+    "volume": 30,
+    "cpc": 3.27,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит лендинг",
+    "volume": 10,
+    "cpc": 1.3,
+    "direction": "cost"
+   },
+   {
+    "keyword": "стоимость разработки сайта",
+    "volume": 30,
+    "cpc": 3.37,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит сайт визитка",
+    "volume": 10,
+    "cpc": 2.06,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит seo",
+    "volume": 10,
+    "cpc": 2.13,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит поддержка сайта",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит редизайн сайта",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "цена seo продвижения",
+    "volume": 20,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "продвижение в chatgpt",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "seo для нейросетей",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "оптимизация под ии",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "видимость в ии",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "продвижение в ии",
+    "volume": 10,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "как попасть в ответы chatgpt",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai оптимизация сайта",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "geo оптимизация",
+    "volume": 30,
+    "cpc": 5.01,
+    "direction": "ai"
+   },
+   {
+    "keyword": "создание сайтов варшава",
+    "volume": 10,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "продвижение сайта варшава",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "сайт под ключ польша",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "seo специалист варшава",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "разработка сайта польша",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "продвижение сайта польша",
+    "volume": 10,
+    "cpc": null,
+    "direction": "local"
+   }
+  ],
+  "PL/ru": [
+   {
+    "keyword": "сколько стоит создание сайта",
+    "volume": 10,
+    "cpc": 2.1,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит сайт",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит продвижение сайта",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "цена создания сайта",
+    "volume": 10,
+    "cpc": 1.95,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит интернет магазин",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит лендинг",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "стоимость разработки сайта",
+    "volume": 10,
+    "cpc": 2.58,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит сайт визитка",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит seo",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит поддержка сайта",
+    "volume": 10,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "сколько стоит редизайн сайта",
+    "volume": 0,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "цена seo продвижения",
+    "volume": 0,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "продвижение в chatgpt",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "seo для нейросетей",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "оптимизация под ии",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "видимость в ии",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "продвижение в ии",
+    "volume": 10,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "как попасть в ответы chatgpt",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai оптимизация сайта",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "geo оптимизация",
+    "volume": 10,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "создание сайтов варшава",
+    "volume": 20,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "продвижение сайта варшава",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "сайт под ключ польша",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "seo специалист варшава",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "разработка сайта польша",
+    "volume": null,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "продвижение сайта польша",
+    "volume": 10,
+    "cpc": null,
+    "direction": "local"
+   }
+  ],
+  "US/en": [
+   {
+    "keyword": "how much does a website cost",
+    "volume": 1900,
+    "cpc": 11.96,
+    "direction": "cost"
+   },
+   {
+    "keyword": "website design cost",
+    "volume": 1300,
+    "cpc": 19.09,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ecommerce website cost",
+    "volume": 320,
+    "cpc": 15.14,
+    "direction": "cost"
+   },
+   {
+    "keyword": "landing page cost",
+    "volume": 70,
+    "cpc": 7.04,
+    "direction": "cost"
+   },
+   {
+    "keyword": "seo cost",
+    "volume": 2400,
+    "cpc": 26.69,
+    "direction": "cost"
+   },
+   {
+    "keyword": "website maintenance cost",
+    "volume": 480,
+    "cpc": 10.64,
+    "direction": "cost"
+   },
+   {
+    "keyword": "multilingual website cost",
+    "volume": null,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "wordpress website cost",
+    "volume": 1000,
+    "cpc": 9.11,
+    "direction": "cost"
+   },
+   {
+    "keyword": "website redesign cost",
+    "volume": 260,
+    "cpc": 57.88,
+    "direction": "cost"
+   },
+   {
+    "keyword": "how much does seo cost",
+    "volume": 480,
+    "cpc": 17.09,
+    "direction": "cost"
+   },
+   {
+    "keyword": "web developer hourly rate",
+    "volume": 110,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "cost of a website for small business",
+    "volume": null,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "generative engine optimization",
+    "volume": 4400,
+    "cpc": 31.83,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai seo",
+    "volume": 6600,
+    "cpc": 44.48,
+    "direction": "ai"
+   },
+   {
+    "keyword": "llm seo",
+    "volume": 720,
+    "cpc": 34.43,
+    "direction": "ai"
+   },
+   {
+    "keyword": "how to rank in chatgpt",
+    "volume": 170,
+    "cpc": 25.41,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai visibility",
+    "volume": 880,
+    "cpc": 40.93,
+    "direction": "ai"
+   },
+   {
+    "keyword": "answer engine optimization",
+    "volume": 2400,
+    "cpc": 25.49,
+    "direction": "ai"
+   },
+   {
+    "keyword": "chatgpt seo",
+    "volume": 390,
+    "cpc": 34.17,
+    "direction": "ai"
+   },
+   {
+    "keyword": "how to appear in ai overviews",
+    "volume": 30,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai search optimization",
+    "volume": 1300,
+    "cpc": 48.74,
+    "direction": "ai"
+   },
+   {
+    "keyword": "geo optimization seo",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "brand monitoring in ai",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "llms txt",
+    "volume": 5400,
+    "cpc": 8.35,
+    "direction": "ai"
+   },
+   {
+    "keyword": "web developer warsaw",
+    "volume": 0,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "seo freelancer",
+    "volume": 1600,
+    "cpc": 29.03,
+    "direction": "local"
+   },
+   {
+    "keyword": "hire a web developer",
+    "volume": 720,
+    "cpc": 47.11,
+    "direction": "local"
+   },
+   {
+    "keyword": "freelance seo consultant",
+    "volume": 480,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "nextjs developer for hire",
+    "volume": 10,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "headless cms developer",
+    "volume": 20,
+    "cpc": 56.09,
+    "direction": "local"
+   }
+  ],
+  "UK/en": [
+   {
+    "keyword": "how much does a website cost",
+    "volume": 720,
+    "cpc": 5.65,
+    "direction": "cost"
+   },
+   {
+    "keyword": "website design cost",
+    "volume": 880,
+    "cpc": 14.39,
+    "direction": "cost"
+   },
+   {
+    "keyword": "ecommerce website cost",
+    "volume": 210,
+    "cpc": 9.45,
+    "direction": "cost"
+   },
+   {
+    "keyword": "landing page cost",
+    "volume": 20,
+    "cpc": 9.52,
+    "direction": "cost"
+   },
+   {
+    "keyword": "seo cost",
+    "volume": 480,
+    "cpc": 16.9,
+    "direction": "cost"
+   },
+   {
+    "keyword": "website maintenance cost",
+    "volume": 170,
+    "cpc": 4.65,
+    "direction": "cost"
+   },
+   {
+    "keyword": "multilingual website cost",
+    "volume": null,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "wordpress website cost",
+    "volume": 320,
+    "cpc": 4.02,
+    "direction": "cost"
+   },
+   {
+    "keyword": "website redesign cost",
+    "volume": 50,
+    "cpc": 10.5,
+    "direction": "cost"
+   },
+   {
+    "keyword": "how much does seo cost",
+    "volume": 140,
+    "cpc": 15.04,
+    "direction": "cost"
+   },
+   {
+    "keyword": "web developer hourly rate",
+    "volume": 30,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "cost of a website for small business",
+    "volume": null,
+    "cpc": null,
+    "direction": "cost"
+   },
+   {
+    "keyword": "generative engine optimization",
+    "volume": 880,
+    "cpc": 16.72,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai seo",
+    "volume": 1900,
+    "cpc": 34.09,
+    "direction": "ai"
+   },
+   {
+    "keyword": "llm seo",
+    "volume": 210,
+    "cpc": 23.63,
+    "direction": "ai"
+   },
+   {
+    "keyword": "how to rank in chatgpt",
+    "volume": 20,
+    "cpc": 14.71,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai visibility",
+    "volume": 210,
+    "cpc": 44.33,
+    "direction": "ai"
+   },
+   {
+    "keyword": "answer engine optimization",
+    "volume": 320,
+    "cpc": 22.3,
+    "direction": "ai"
+   },
+   {
+    "keyword": "chatgpt seo",
+    "volume": 110,
+    "cpc": 32,
+    "direction": "ai"
+   },
+   {
+    "keyword": "how to appear in ai overviews",
+    "volume": 10,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "ai search optimization",
+    "volume": 140,
+    "cpc": 25.38,
+    "direction": "ai"
+   },
+   {
+    "keyword": "geo optimization seo",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "brand monitoring in ai",
+    "volume": null,
+    "cpc": null,
+    "direction": "ai"
+   },
+   {
+    "keyword": "llms txt",
+    "volume": 1600,
+    "cpc": 2.65,
+    "direction": "ai"
+   },
+   {
+    "keyword": "web developer warsaw",
+    "volume": 0,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "seo freelancer",
+    "volume": 720,
+    "cpc": 16.4,
+    "direction": "local"
+   },
+   {
+    "keyword": "hire a web developer",
+    "volume": 210,
+    "cpc": 26.49,
+    "direction": "local"
+   },
+   {
+    "keyword": "freelance seo consultant",
+    "volume": 1300,
+    "cpc": 17.79,
+    "direction": "local"
+   },
+   {
+    "keyword": "nextjs developer for hire",
+    "volume": 0,
+    "cpc": null,
+    "direction": "local"
+   },
+   {
+    "keyword": "headless cms developer",
+    "volume": 10,
+    "cpc": null,
+    "direction": "local"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2073 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "3.2091 sec.",
+ "cost": 0.09,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10121300-2505-0367-0000-b6ae5878216e",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "3.1404 sec.",
+   "cost": 0.09,
+   "result_count": 30,
+   "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+   ],
+   "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "keywords": [
+     "how much does a website cost",
+     "website design cost",
+     "ecommerce website cost",
+     "landing page cost",
+     "seo cost",
+     "website maintenance cost",
+     "multilingual website cost",
+     "wordpress website cost",
+     "website redesign cost",
+     "how much does seo cost",
+     "web developer hourly rate",
+     "cost of a website for small business",
+     "generative engine optimization",
+     "ai seo",
+     "llm seo",
+     "how to rank in chatgpt",
+     "ai visibility",
+     "answer engine optimization",
+     "chatgpt seo",
+     "how to appear in ai overviews",
+     "ai search optimization",
+     "geo optimization seo",
+     "brand monitoring in ai",
+     "llms txt",
+     "web developer warsaw",
+     "seo freelancer",
+     "hire a web developer",
+     "freelance seo consultant",
+     "nextjs developer for hire",
+     "headless cms developer"
+    ],
+    "location_code": 2826,
+    "language_code": "en"
+   },
+   "result": [
+    {
+     "keyword": "how much does a website cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 65,
+     "search_volume": 720,
+     "low_top_of_page_bid": 1.89,
+     "high_top_of_page_bid": 5.82,
+     "cpc": 5.65,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "website design cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 53,
+     "search_volume": 880,
+     "low_top_of_page_bid": 2.77,
+     "high_top_of_page_bid": 10.6,
+     "cpc": 14.39,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1900
+      }
+     ]
+    },
+    {
+     "keyword": "ecommerce website cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 45,
+     "search_volume": 210,
+     "low_top_of_page_bid": 5.55,
+     "high_top_of_page_bid": 13.9,
+     "cpc": 9.45,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 390
+      }
+     ]
+    },
+    {
+     "keyword": "landing page cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 77,
+     "search_volume": 20,
+     "low_top_of_page_bid": 1.77,
+     "high_top_of_page_bid": 5.18,
+     "cpc": 9.52,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "seo cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 49,
+     "search_volume": 480,
+     "low_top_of_page_bid": 3.88,
+     "high_top_of_page_bid": 11.58,
+     "cpc": 16.9,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "website maintenance cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 30,
+     "search_volume": 170,
+     "low_top_of_page_bid": 2.37,
+     "high_top_of_page_bid": 5.44,
+     "cpc": 4.65,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 720
+      }
+     ]
+    },
+    {
+     "keyword": "multilingual website cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "wordpress website cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 59,
+     "search_volume": 320,
+     "low_top_of_page_bid": 1.07,
+     "high_top_of_page_bid": 7.61,
+     "cpc": 4.02,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 480
+      }
+     ]
+    },
+    {
+     "keyword": "website redesign cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 66,
+     "search_volume": 50,
+     "low_top_of_page_bid": 4.06,
+     "high_top_of_page_bid": 10.16,
+     "cpc": 10.5,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 140
+      }
+     ]
+    },
+    {
+     "keyword": "how much does seo cost",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 61,
+     "search_volume": 140,
+     "low_top_of_page_bid": 2.86,
+     "high_top_of_page_bid": 7.73,
+     "cpc": 15.04,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 170
+      }
+     ]
+    },
+    {
+     "keyword": "web developer hourly rate",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 15,
+     "search_volume": 30,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 50
+      }
+     ]
+    },
+    {
+     "keyword": "cost of a website for small business",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "generative engine optimization",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 66,
+     "search_volume": 880,
+     "low_top_of_page_bid": 6.59,
+     "high_top_of_page_bid": 19.36,
+     "cpc": 16.72,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "ai seo",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 64,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 11.33,
+     "high_top_of_page_bid": 37.28,
+     "cpc": 34.09,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 4400
+      }
+     ]
+    },
+    {
+     "keyword": "llm seo",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 64,
+     "search_volume": 210,
+     "low_top_of_page_bid": 8.43,
+     "high_top_of_page_bid": 20.34,
+     "cpc": 23.63,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 390
+      }
+     ]
+    },
+    {
+     "keyword": "how to rank in chatgpt",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 56,
+     "search_volume": 20,
+     "low_top_of_page_bid": 5.06,
+     "high_top_of_page_bid": 24.94,
+     "cpc": 14.71,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "ai visibility",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 66,
+     "search_volume": 210,
+     "low_top_of_page_bid": 14.05,
+     "high_top_of_page_bid": 36.13,
+     "cpc": 44.33,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 170
+      }
+     ]
+    },
+    {
+     "keyword": "answer engine optimization",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 66,
+     "search_volume": 320,
+     "low_top_of_page_bid": 5.39,
+     "high_top_of_page_bid": 16.16,
+     "cpc": 22.3,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 480
+      }
+     ]
+    },
+    {
+     "keyword": "chatgpt seo",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 63,
+     "search_volume": 110,
+     "low_top_of_page_bid": 5.52,
+     "high_top_of_page_bid": 26.44,
+     "cpc": 32,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 320
+      }
+     ]
+    },
+    {
+     "keyword": "how to appear in ai overviews",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 45,
+     "search_volume": 10,
+     "low_top_of_page_bid": 4.04,
+     "high_top_of_page_bid": 23.22,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "ai search optimization",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 64,
+     "search_volume": 140,
+     "low_top_of_page_bid": 12.61,
+     "high_top_of_page_bid": 40.9,
+     "cpc": 25.38,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 320
+      }
+     ]
+    },
+    {
+     "keyword": "geo optimization seo",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "brand monitoring in ai",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "llms txt",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 15,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.54,
+     "high_top_of_page_bid": 1.61,
+     "cpc": 2.65,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "web developer warsaw",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": 0,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "seo freelancer",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 47,
+     "search_volume": 720,
+     "low_top_of_page_bid": 4.86,
+     "high_top_of_page_bid": 15.08,
+     "cpc": 16.4,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1900
+      }
+     ]
+    },
+    {
+     "keyword": "hire a web developer",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 67,
+     "search_volume": 210,
+     "low_top_of_page_bid": 7.8,
+     "high_top_of_page_bid": 44.78,
+     "cpc": 26.49,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 590
+      }
+     ]
+    },
+    {
+     "keyword": "freelance seo consultant",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 17,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 4.43,
+     "high_top_of_page_bid": 17.65,
+     "cpc": 17.79,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 3600
+      }
+     ]
+    },
+    {
+     "keyword": "nextjs developer for hire",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": 0,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "headless cms developer",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 21,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

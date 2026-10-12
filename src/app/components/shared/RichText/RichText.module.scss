@@ -135,3 +135,24 @@
     margin-bottom: 0;
   }
 }
+/* Code in articles. Text, never an image: the same rule the site applies to
+   formulas and tables, so an assistant can quote it. */
+.codeBlock {
+  margin: 28px 0;
+  padding: 20px 22px;
+  background: #0d0f14;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  overflow-x: auto;
+  font-family: var(--font-mono, ui-monospace, "JetBrains Mono", monospace);
+  font-size: 14px;
+  line-height: 1.6;
+  color: #d7d7cf;
+  tab-size: 2;
+
+  code {
+    font: inherit;
+    color: inherit;
+    white-space: pre;
+  }
+}

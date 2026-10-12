@@ -38,7 +38,14 @@ export default function robots(): MetadataRoute.Robots {
           "/_assets",
           "/_static",
           "/*?gtm",
-          "/*?utm",
+          // "/*?utm" was here until 2026-10-12. Every link in the September
+          // posts on LinkedIn, dev.to, Medium and X carries a utm_source, so
+          // Google met those URLs, could not fetch them, and filed ten of them
+          // under "Blocked by robots.txt" — none of that link equity reached
+          // the clean address. A UTM URL answers 200 with a canonical pointing
+          // at the clean one, so it consolidates on its own; blocking only
+          // stops Google from seeing that canonical. Ad-click parameters stay
+          // blocked: nothing links to them.
           "/*?gclid",
           "/*?from",
           "/*?gbraid",

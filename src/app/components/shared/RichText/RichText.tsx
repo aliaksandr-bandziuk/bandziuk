@@ -33,6 +33,15 @@ const BulletIcon = () => (
 
 export const RichText = {
   types: {
+    codeBlock: ({ value }: any) => {
+      const code = typeof value?.code === "string" ? value.code : "";
+      if (!code.trim()) return null;
+      return (
+        <pre className={styles.codeBlock} data-language={value?.language ?? "text"}>
+          <code>{code.trimEnd()}</code>
+        </pre>
+      );
+    },
     image: ({ value }: any) => {
       const { alt, caption, asset } = value;
       if (!asset?.url) return null;

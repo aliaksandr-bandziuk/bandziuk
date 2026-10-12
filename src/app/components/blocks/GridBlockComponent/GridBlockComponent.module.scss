@@ -25,6 +25,15 @@
 .serviceItemWrapperGrid {
   display: flex;
   height: 100%;
+
+  // FadeInOnScroll renders a plain <div> with no class of its own, so it
+  // becomes a flex item sized by its content and the card inside it ends up
+  // narrower than the grid cell. This stretches it to the full cell instead.
+  // min-width: 0 keeps a long unbreakable word from widening the 1fr column.
+  > * {
+    flex: 1;
+    min-width: 0;
+  }
 }
 
 .serviceItem {

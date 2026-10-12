@@ -41,3 +41,17 @@ next-env.d.ts
 # python (scripts/build-portfolio-cover.py)
 __pycache__/
 *.pyc
+
+# Raw DataForSEO responses. They are machine-readable API dumps that nobody
+# reads once the digested JSON and the markdown reports next to them exist, and
+# they are what turned ordinary commits into hundreds of files and half a
+# million lines — one commit on 12 October 2026 was 470,581 insertions, almost
+# all of it these files. That volume is the most likely reason the Vercel–GitHub
+# integration hit a secondary rate limit the same day and no deployment could
+# start.
+#
+# They stay on disk, so every script's cache keeps working and a re-run costs
+# nothing. The trade: a fresh clone has no cache, so running the measurements
+# on another machine pays DataForSEO again. For a one-person project that is
+# the cheaper side of the deal.
+research/**/raw/

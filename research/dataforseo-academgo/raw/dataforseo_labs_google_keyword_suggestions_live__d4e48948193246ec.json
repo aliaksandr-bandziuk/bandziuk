@@ -1,0 +1,173 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0758 sec.",
+ "cost": 0.01212,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10041027-2505-0399-0000-45469323318d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0672 sec.",
+   "cost": 0.01212,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "strona dla agencji",
+    "location_code": 2616,
+    "language_code": "pl",
+    "limit": 100,
+    "include_seed_keyword": true
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "strona dla agencji",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "strona dla agencji",
+      "location_code": 2616,
+      "language_code": "pl",
+      "keyword_info": null,
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": null,
+      "serp_info": null,
+      "search_intent_info": null,
+      "avg_backlinks_info": null
+     },
+     "location_code": 2616,
+     "language_code": "pl",
+     "total_count": 1,
+     "items_count": 1,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoic3Ryb25hIGRsYSBhZ2VuY2ppIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJwbCIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6MjYxNiwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjEwMCwib2Zmc2V0IjowLCJhaWQiOjI1MDUyMywidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMTAwNDEwMjctMjUwNS0wMzk5LTAwMDAtNDU0NjkzMjMzMThkIiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiI1ODM5ZjlmZS0yMjA0LTRjYzktYTk0NS0yZDRkNzY3ZWI1NzAiLCJTZWFyY2hBZnRlckRhdGEiOlszMCwiYjNjYTI5YTYtYTczNS1jNWFhLTE0MGUtOWQ5YmU0ZDZjZTRhIl0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "strona dla agencji nieruchomości",
+       "location_code": 2616,
+       "language_code": "pl",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 08:46:52 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 30,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10016,
+         10141,
+         10758,
+         12046
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -50,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "pl",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 22:48:39 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

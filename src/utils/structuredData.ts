@@ -6,7 +6,6 @@ import {
   TeamBlock,
   LocationBlock,
   ReviewsFullBlock,
-  ReviewFull,
 } from "@/types/blog";
 import { PageType as SinglePageType, SinglepageRef } from "@/types/singlepage";
 import { orgRef, personRef } from "@/lib/schema/identity";
@@ -50,9 +49,6 @@ function isLocationBlock(b: any): b is LocationBlock {
 }
 function isTeamBlock(b: any): b is TeamBlock {
   return b._type === "teamBlock";
-}
-function isReviewsFullBlock(b: any): b is ReviewsFullBlock {
-  return b._type === "reviewsFullBlock";
 }
 
 // ---- Portable Text → plain text helper ----
@@ -246,19 +242,26 @@ export function generateStructuredData({
     });
   }
 
-  // Для AboutPage и WebPage обрабатываем отзывы
-  jsonLd.hasPart = [];
-  for (const block of blocks) {
-    if (isReviewsFullBlock(block)) {
-      block.reviews.forEach((r: ReviewFull) => {
-        jsonLd.hasPart.push({
-          "@type": "Review",
-          author: { "@type": "Person", name: r.name },
-          reviewBody: portableTextToPlainText(r.text),
-        });
-      });
-    }
-  }
+  // Отзывы в разметку не выводятся — сознательно.
+  //
+  // Раньше здесь в hasPart складывались объекты Review с author и reviewBody.
+  // Search Console пометила их невалидными: «Missing field itemReviewed»,
+  // 30 элементов на шести англоязычных лендингах (10.10.2026).
+  //
+  // Одним полем это не чинится. Review вне вложенной позиции требует и
+  // itemReviewed, и reviewRating; обойтись без рейтинга можно только при
+  // наличии автора и даты отзыва. В reviewsFullBlock нет ни рейтинга, ни
+  // даты — только имя, должность, страна и текст. Проставить рейтинг от
+  // себя нельзя: по требованиям Google он должен исходить от автора отзыва.
+  //
+  // И даже валидная разметка здесь ничего бы не дала: отзывы о собственной
+  // компании на её же сайте не участвуют в звёздочном сниппете. Поэтому
+  // разметка убрана, а не исправлена. Сами отзывы остаются на странице
+  // обычным текстом и никуда не делись.
+  //
+  // Если в reviewsFullBlock появятся рейтинг и дата от авторов, выводить
+  // отзывы нужно вложенными в сущность, которую они оценивают, а не
+  // отдельными Review в hasPart.
 
   return jsonLd;
 }

@@ -1,0 +1,385 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1500 sec.",
+ "cost": 0.01224,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10041026-2505-0399-0000-3c49540c8f57",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0881 sec.",
+   "cost": 0.01224,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "education agency website",
+    "location_code": 2826,
+    "language_code": "en",
+    "limit": 100,
+    "include_seed_keyword": true
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "education agency website",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "education agency website",
+      "location_code": 2826,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-06-12 03:09:15 +00:00",
+       "competition": null,
+       "competition_level": null,
+       "cpc": null,
+       "search_volume": null,
+       "low_top_of_page_bid": null,
+       "high_top_of_page_bid": null,
+       "categories": [
+        10019,
+        10168,
+        10885,
+        12206
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 0
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 0
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 0
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 0
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 0
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 0
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 0
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 0
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 0
+        },
+        {
+         "year": 2025,
+         "month": 8,
+         "search_volume": 0
+        },
+        {
+         "year": 2025,
+         "month": 7,
+         "search_volume": 0
+        },
+        {
+         "year": 2025,
+         "month": 6,
+         "search_volume": 0
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": 0,
+        "quarterly": 0,
+        "yearly": 0
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": null,
+       "synonym_clustering_algorithm": null,
+       "keyword_difficulty": null,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 3
+      },
+      "serp_info": null,
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "navigational",
+       "foreign_intent": null,
+       "last_updated_time": "2026-04-27 15:59:53 +00:00"
+      },
+      "avg_backlinks_info": null
+     },
+     "location_code": 2826,
+     "language_code": "en",
+     "total_count": 2,
+     "items_count": 2,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiZWR1Y2F0aW9uIGFnZW5jeSB3ZWJzaXRlIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6MjgyNiwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjEwMCwib2Zmc2V0IjowLCJhaWQiOjI1MDUyMywidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMTAwNDEwMjYtMjUwNS0wMzk5LTAwMDAtM2M0OTU0MGM4ZjU3IiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiJhZTI3MDA2NC05NTEwLTRiODctYjM1My1hYWRiMzMzZTM5ZjEiLCJTZWFyY2hBZnRlckRhdGEiOlsxMCwiMDU3Y2ExMjEtMjZmNi1jNzVkLTY0OTEtMDJkZGVjMmUyMGRkIl0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "education website design agency",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-14 20:39:27 +00:00",
+        "competition": 0.06,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 40,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10273,
+         11068
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 83,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 79998.7,
+        "dofollow": 4787.4,
+        "referring_pages": 79490.1,
+        "referring_domains": 435.5,
+        "referring_main_domains": 386.1,
+        "rank": 265.4,
+        "main_domain_rank": 410.7,
+        "last_updated_time": "2026-03-09 14:40:58 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 07:50:39 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "texas education agency website",
+       "location_code": 2826,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-09-16 10:19:14 +00:00",
+        "competition": null,
+        "competition_level": null,
+        "cpc": null,
+        "search_volume": 10,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10016,
+         10141,
+         10752
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 0
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -100,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": null,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:50:50 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

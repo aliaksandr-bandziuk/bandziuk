@@ -1,0 +1,1294 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "4.7338 sec.",
+ "cost": 0.00415,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10041040-2505-0139-0000-88404ec36f95",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "4.5214 sec.",
+   "cost": 0.00415,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "how long does seo take to work",
+    "location_code": 2826,
+    "language_code": "en",
+    "depth": 20,
+    "people_also_ask_click_depth": 1,
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "how long does seo take to work",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2826,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=how%20long%20does%20seo%20take%20to%20work&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+     "datetime": "2026-10-04 10:41:01 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "discussions_and_forums"
+     ],
+     "se_results_count": 251000,
+     "pages_count": 2,
+     "items_count": 21,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "SEO typically takes `three to six months to produce measurable results` , and six to 12 months for significant growth in organic traffic, leads, and revenue.[[1]](https://searchengineland.com/guide/how-long-does-seo-take-to-work)[[2]](https://www.seo.com/blog/how-long-does-seo-take/)\n\nAs noted in the comprehensive [Search Engine Land SEO Guide](https://searchengineland.com/guide/how-long-does-seo-take-to-work) , the exact timeframe depends on your website's history, competition, and how quickly search engines crawl and assess your pages. Users on [Reddit](https://www.reddit.com/r/SEO/comments/zy61q2/if_seo_is_done_correctly_how_long_does_it_take_to/) generally agree that ranking timelines vary wildly from weeks to years depending on these variables.[[1]](https://www.reddit.com/r/SEO/comments/zy61q2/if_seo_is_done_correctly_how_long_does_it_take_to/)[[2]](https://searchengineland.com/guide/how-long-does-seo-take-to-work)\n\n### General Timeline Expectations\n\n- **Month 1:** Discovery, site audits, keyword research, and strategy planning.\n- **Months 2–3:** Technical fixes, on-page optimization, and early minor movement.\n- **Months 4–6:** Consistent content creation, authority building, and measurable traffic growth.\n- **Months 6–12+:** Strong ranking traction, higher conversion stability, and positive return on investment.[[1]](https://www.forbes.com/sites/joshsteimle/2015/02/07/how-long-does-seo-take-to-start-working/)[[2]](https://www.squarespace.com/blog/how-long-does-seo-take)[[3]](https://www.seo.com/blog/how-long-does-seo-take/)\n\n### Key Factors That Influence Speed\n\n- **Website Age and History:** Established domains with existing trust see results faster (sometimes 30–90 days), while brand-new domains face a longer trust-building period.[[1]](https://localiq.co.uk/blog/how-long-does-it-take-for-seo-to-work)[[2]](https://www.outerboxdesign.com/articles/seo/how-long-does-seo-take-to-work/)\n- **Competition:** Low-competition or long-tail keywords can rank in a couple of months, whereas highly competitive commercial keywords can take a year or longer.[[1]](https://www.orbitmedia.com/blog/how-long-does-seo-take/)\n- **Content Quality and Intent:** Pages must accurately answer user intent and match search engine quality guidelines.[[1]](https://www.seo.com/blog/how-long-does-seo-take/)\n- **Execution Speed:** Technical fixes and rapid publishing schedules can accelerate indexing and initial performance.[[1]](https://www.youtube.com/watch?v=EvW0qSnfdu8)[[2]](https://searchengineland.com/guide/how-long-does-seo-take-to-work)\n\nIf you share your **website's age** and **industry competitiveness** , I can give you a more tailored estimate of your SEO timeline.",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "SEO typically takes three to six months to produce measurable results, and six to 12 months for significant growth in organic traffic, leads, and revenue.",
+         "markdown": "SEO typically takes `three to six months to produce measurable results` , and six to 12 months for significant growth in organic traffic, leads, and revenue.[[1]](https://searchengineland.com/guide/how-long-does-seo-take-to-work)[[2]](https://www.seo.com/blog/how-long-does-seo-take/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Search Engine Land",
+           "domain": "searchengineland.com",
+           "url": "https://searchengineland.com/guide/how-long-does-seo-take-to-work",
+           "title": "How long does SEO take to work? SEO timeline & results explained",
+           "text": "Wondering how long SEO takes? Learn what to expect in 3, 6, and 12 months — plus key factors that influence how fast you'll see re..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "SEO.com",
+           "domain": "www.seo.com",
+           "url": "https://www.seo.com/blog/how-long-does-seo-take/",
+           "title": "How Long Does SEO Take to Work in 2026?",
+           "text": "How Long Does SEO Take? (And Why Does It Take So Long?) Discover why SEO takes three to six months and the business and SEO factor..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "As noted in the comprehensive Search Engine Land SEO Guide, the exact timeframe depends on your website's history, competition, and how quickly search engines crawl and assess your pages. Users on Reddit generally agree that ranking timelines vary wildly from weeks to years depending on these variables.",
+         "markdown": "As noted in the comprehensive [Search Engine Land SEO Guide](https://searchengineland.com/guide/how-long-does-seo-take-to-work) , the exact timeframe depends on your website's history, competition, and how quickly search engines crawl and assess your pages. Users on [Reddit](https://www.reddit.com/r/SEO/comments/zy61q2/if_seo_is_done_correctly_how_long_does_it_take_to/) generally agree that ranking timelines vary wildly from weeks to years depending on these variables.[[1]](https://www.reddit.com/r/SEO/comments/zy61q2/if_seo_is_done_correctly_how_long_does_it_take_to/)[[2]](https://searchengineland.com/guide/how-long-does-seo-take-to-work)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Search Engine Land SEO Guide",
+           "description": null,
+           "url": "https://searchengineland.com/guide/how-long-does-seo-take-to-work",
+           "domain": "searchengineland.com"
+          },
+          {
+           "type": "link_element",
+           "title": "Reddit",
+           "description": null,
+           "url": "https://www.reddit.com/r/SEO/comments/zy61q2/if_seo_is_done_correctly_how_long_does_it_take_to/",
+           "domain": "www.reddit.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Reddit",
+           "domain": "www.reddit.com",
+           "url": "https://www.reddit.com/r/SEO/comments/zy61q2/if_seo_is_done_correctly_how_long_does_it_take_to/",
+           "title": "If SEO is done correctly, how long does it take to rank? - Reddit",
+           "text": "Ranking Timeframe Variability: The time it takes for a website to rank for a keyword can range from hours to years, with no fixed ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Search Engine Land",
+           "domain": "searchengineland.com",
+           "url": "https://searchengineland.com/guide/how-long-does-seo-take-to-work",
+           "title": "How long does SEO take to work? SEO timeline & results explained",
+           "text": "Wondering how long SEO takes? Learn what to expect in 3, 6, and 12 months — plus key factors that influence how fast you'll see re..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "General Timeline Expectations",
+         "text": "Month 1: Discovery, site audits, keyword research, and strategy planning. Months 2–3: Technical fixes, on-page optimization, and early minor movement. Months 4–6: Consistent content creation, authority building, and measurable traffic growth. Months 6–12+: Strong ranking traction, higher conversion stability, and positive return on investment.",
+         "markdown": "- **Month 1:** Discovery, site audits, keyword research, and strategy planning.\n- **Months 2–3:** Technical fixes, on-page optimization, and early minor movement.\n- **Months 4–6:** Consistent content creation, authority building, and measurable traffic growth.\n- **Months 6–12+:** Strong ranking traction, higher conversion stability, and positive return on investment.[[1]](https://www.forbes.com/sites/joshsteimle/2015/02/07/how-long-does-seo-take-to-start-working/)[[2]](https://www.squarespace.com/blog/how-long-does-seo-take)[[3]](https://www.seo.com/blog/how-long-does-seo-take/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Forbes",
+           "domain": "www.forbes.com",
+           "url": "https://www.forbes.com/sites/joshsteimle/2015/02/07/how-long-does-seo-take-to-start-working/",
+           "title": "How Long Does SEO Take To Start Working?",
+           "text": "Some SEO firms say that it takes 4 to 6 months to start seeing results. However, success rarely comes within the first 3 months. H..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Squarespace",
+           "domain": "www.squarespace.com",
+           "url": "https://www.squarespace.com/blog/how-long-does-seo-take",
+           "title": "How Long Does SEO Take? (A 12-Month Timeline for 2025) — Squarespace",
+           "text": "Here's a general timeline for SEO: * **Months 2-3** Implement initial changes and refine on-site elements. This includes: * Enhanc..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "SEO.com",
+           "domain": "www.seo.com",
+           "url": "https://www.seo.com/blog/how-long-does-seo-take/",
+           "title": "How Long Does SEO Take to Work in 2026?",
+           "text": "How Long Does SEO Take? (And Why Does It Take So Long?) Discover why SEO takes three to six months and the business and SEO factor..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Key Factors That Influence Speed",
+         "text": "Website Age and History: Established domains with existing trust see results faster (sometimes 30–90 days), while brand-new domains face a longer trust-building period. Competition: Low-competition or long-tail keywords can rank in a couple of months, whereas highly competitive commercial keywords can take a year or longer. Content Quality and Intent: Pages must accurately answer user intent and match search engine quality guidelines. Execution Speed: Technical fixes and rapid publishing schedules can accelerate indexing and initial performance.",
+         "markdown": "- **Website Age and History:** Established domains with existing trust see results faster (sometimes 30–90 days), while brand-new domains face a longer trust-building period.[[1]](https://localiq.co.uk/blog/how-long-does-it-take-for-seo-to-work)[[2]](https://www.outerboxdesign.com/articles/seo/how-long-does-seo-take-to-work/)\n- **Competition:** Low-competition or long-tail keywords can rank in a couple of months, whereas highly competitive commercial keywords can take a year or longer.[[1]](https://www.orbitmedia.com/blog/how-long-does-seo-take/)\n- **Content Quality and Intent:** Pages must accurately answer user intent and match search engine quality guidelines.[[1]](https://www.seo.com/blog/how-long-does-seo-take/)\n- **Execution Speed:** Technical fixes and rapid publishing schedules can accelerate indexing and initial performance.[[1]](https://www.youtube.com/watch?v=EvW0qSnfdu8)[[2]](https://searchengineland.com/guide/how-long-does-seo-take-to-work)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "LOCALiQ UK",
+           "domain": "localiq.co.uk",
+           "url": "https://localiq.co.uk/blog/how-long-does-it-take-for-seo-to-work",
+           "title": "How Long Does It Take for SEO to Work? Realistic Timelines Explained",
+           "text": "We know, we know, you've heard this a thousand times before and we completely understand the frustration. But we wouldn't be a tru..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "OuterBox",
+           "domain": "www.outerboxdesign.com",
+           "url": "https://www.outerboxdesign.com/articles/seo/how-long-does-seo-take-to-work/",
+           "title": "How Long Does SEO Take To Work & Get First Page Google Results?",
+           "text": "How Long Does SEO Take To Work? Many SEO companies will tell you it takes about 4-6 months to actually start seeing results from S..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Orbit Media Studios",
+           "domain": "www.orbitmedia.com",
+           "url": "https://www.orbitmedia.com/blog/how-long-does-seo-take/",
+           "title": "How Long Does SEO Take to Work? | Orbit Media Studios",
+           "text": "How long does SEO take to work? The most accurate answer is, it depends. For most sites, it takes about 2-3 months to rank for low..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "SEO.com",
+           "domain": "www.seo.com",
+           "url": "https://www.seo.com/blog/how-long-does-seo-take/",
+           "title": "How Long Does SEO Take to Work in 2026?",
+           "text": "How Long Does SEO Take? (And Why Does It Take So Long?) Discover why SEO takes three to six months and the business and SEO factor..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=EvW0qSnfdu8",
+           "title": "How Long Does SEO Take And Why?",
+           "text": "for one keyword. it's you're trying to rank it for like one particular keyword. and it takes you a month to publish 30 articles. i..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Search Engine Land",
+           "domain": "searchengineland.com",
+           "url": "https://searchengineland.com/guide/how-long-does-seo-take-to-work",
+           "title": "How long does SEO take to work? SEO timeline & results explained",
+           "text": "Wondering how long SEO takes? Learn what to expect in 3, 6, and 12 months — plus key factors that influence how fast you'll see re..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you share your website's age and industry competitiveness, I can give you a more tailored estimate of your SEO timeline.",
+         "markdown": "If you share your **website's age** and **industry competitiveness** , I can give you a more tailored estimate of your SEO timeline.",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Reddit",
+         "domain": "www.reddit.com",
+         "url": "https://www.reddit.com/r/SEO/comments/zy61q2/if_seo_is_done_correctly_how_long_does_it_take_to/",
+         "title": "If SEO is done correctly, how long does it take to rank? - Reddit",
+         "text": "Ranking Timeframe Variability: The time it takes for a website to rank for a keyword can range from hours to years, with no fixed ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=EvW0qSnfdu8",
+         "title": "How Long Does SEO Take And Why?",
+         "text": "for one keyword. it's you're trying to rank it for like one particular keyword. and it takes you a month to publish 30 articles. i..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Search Engine Land",
+         "domain": "searchengineland.com",
+         "url": "https://searchengineland.com/guide/how-long-does-seo-take-to-work",
+         "title": "How long does SEO take to work? SEO timeline & results explained",
+         "text": "Wondering how long SEO takes? Learn what to expect in 3, 6, and 12 months — plus key factors that influence how fast you'll see re..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Forbes",
+         "domain": "www.forbes.com",
+         "url": "https://www.forbes.com/sites/joshsteimle/2015/02/07/how-long-does-seo-take-to-start-working/",
+         "title": "How Long Does SEO Take To Start Working?",
+         "text": "Some SEO firms say that it takes 4 to 6 months to start seeing results. However, success rarely comes within the first 3 months. H..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Orbit Media Studios",
+         "domain": "www.orbitmedia.com",
+         "url": "https://www.orbitmedia.com/blog/how-long-does-seo-take/",
+         "title": "How Long Does SEO Take to Work? | Orbit Media Studios",
+         "text": "How long does SEO take to work? The most accurate answer is, it depends. For most sites, it takes about 2-3 months to rank for low..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Squarespace",
+         "domain": "www.squarespace.com",
+         "url": "https://www.squarespace.com/blog/how-long-does-seo-take",
+         "title": "How Long Does SEO Take? (A 12-Month Timeline for 2025) — Squarespace",
+         "text": "Here's a general timeline for SEO: * **Months 2-3** Implement initial changes and refine on-site elements. This includes: * Enhanc..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "SEO.com",
+         "domain": "www.seo.com",
+         "url": "https://www.seo.com/blog/how-long-does-seo-take/",
+         "title": "How Long Does SEO Take to Work in 2026?",
+         "text": "How Long Does SEO Take? (And Why Does It Take So Long?) Discover why SEO takes three to six months and the business and SEO factor..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "LOCALiQ UK",
+         "domain": "localiq.co.uk",
+         "url": "https://localiq.co.uk/blog/how-long-does-it-take-for-seo-to-work",
+         "title": "How Long Does It Take for SEO to Work? Realistic Timelines Explained",
+         "text": "We know, we know, you've heard this a thousand times before and we completely understand the frustration. But we wouldn't be a tru..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "OuterBox",
+         "domain": "www.outerboxdesign.com",
+         "url": "https://www.outerboxdesign.com/articles/seo/how-long-does-seo-take-to-work/",
+         "title": "How Long Does SEO Take To Work & Get First Page Google Results?",
+         "text": "How Long Does SEO Take To Work? Many SEO companies will tell you it takes about 4-6 months to actually start seeing results from S..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "ollihopkins.co.uk",
+       "title": "How Long Does SEO Take? A Realistic Timeline | 2026",
+       "url": "https://ollihopkins.co.uk/how-long-does-seo-take/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://ollihopkins.co.uk › how-long-does-seo-take",
+       "website_name": "Olli Hopkins",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "2 Sept 2026 — How long does SEO take? Expect early signals in weeks, meaningful movement over three to six months and continued gains from sustained work. Read more",
+       "pre_snippet": "09/02/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "How long does SEO take",
+        "work"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://ollihopkins.co.uk/how-long-does-seo-take/#:~:text=How%20long%20does%20SEO%20take%3F,continued%20gains%20from%20sustained%20work.",
+         "domain": "ollihopkins.co.uk"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-09-02 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "Is SEO dead now with AI?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the 80/20 rule in SEO?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Is SEO job difficult?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How to tell if your SEO is working?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Is SEO difficult to learn?",
+         "seed_question": "How to tell if your SEO is working?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Can ChatGPT do SEO?",
+         "seed_question": "How to tell if your SEO is working?",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "How long does it take to get my site off the ground from 0 to ...",
+       "url": "https://www.reddit.com/r/SEO/comments/1hrhs3g/experienced_seo_professionals_how_long_does_it/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "10+ comments  ·  1 year ago",
+       "website_name": "Reddit · r/SEO",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Some background: I decided I'm gonna try to grok SEO and I have very little idea what I'm doing, but I'm quick to pick up a craft and eager to hit the ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "SEO Takes Time : r/SEO - Reddit",
+         "description": null,
+         "url": "https://www.reddit.com/r/SEO/comments/1rk1hpv/seo_takes_time/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "How long did it take after making all the SEO changes ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/SEO/comments/srfiab/how_long_did_it_take_after_making_all_the_seo/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=how+long+does+seo+take+to+work+site:www.reddit.com&sca_esv=65b7e97ddd6b1b65&hl=en&gl=GB&sxsrf=APpeQnsEOsrFBJr_fO3q7ThmET8-oue7hg:1791110458883&sa=X&ved=2ahUKEwit7py1lqCXAxUHVPEDHZjQAhMQrQIoAnoECCwQAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "discussions_and_forums",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]",
+       "title": "Discussions and forums",
+       "items": [
+        {
+         "type": "discussions_and_forums_element",
+         "title": "How long did SEO take to “work” for you the first time?",
+         "url": "https://www.reddit.com/r/WebsiteSEO/comments/1qnwfoa/how_long_did_seo_take_to_work_for_you_the_first/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2026-02-04 10:40:59 +00:00",
+         "posts_count": 30
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "How long does it take for SEO to produce any noticeable ranking ...",
+         "url": "https://www.quora.com/How-long-does-it-take-for-SEO-to-produce-any-noticeable-ranking-improvements-My-agency-keeps-saying-it-takes-time",
+         "domain": "www.quora.com",
+         "source": "Quora",
+         "description": null,
+         "timestamp": "2026-06-04 10:40:59 +00:00",
+         "posts_count": 50
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "\"SEO takes 6-12 months to see results.\" | Kai Cromwell (eCommerce SEO)",
+         "url": "https://www.linkedin.com/posts/kai-cromwell_seo-takes-6-12-months-to-see-results-activity-7363996497094307844-U2uL",
+         "domain": "www.linkedin.com",
+         "source": "LinkedIn",
+         "description": null,
+         "timestamp": "2025-10-04 10:40:59 +00:00",
+         "posts_count": null
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+       "domain": "surferseo.com",
+       "title": "How Long Does SEO Take to Show Results?",
+       "url": "https://surferseo.com/blog/how-long-does-seo-take-to-show-results/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://surferseo.com › blog",
+       "website_name": "Positive Surfer",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "9 Sept 2026 — Most Out of SEO SEO can take days, weeks, months, or years to show the results that you want. “slow and steady wins the race”.",
+       "pre_snippet": "09/09/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "SEO can take days, weeks, months, or years"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-09-09 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+       "domain": "www.eyeweb.co.uk",
+       "title": "How long does SEO take? - Eyeweb",
+       "url": "https://www.eyeweb.co.uk/blogs/how-long-does-seo-take",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.eyeweb.co.uk › blogs › how-long-does-seo...",
+       "website_name": "eyeweb.co.uk",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Seeing the positive effects of an SEO campaign could take weeks or even months, but it's important to remain focused on the long-term goals.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 22,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "weeks or even months"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+       "domain": "www.echelonmedia.co.uk",
+       "title": "How Long Does SEO Take? Realistic Timelines Explained",
+       "url": "https://www.echelonmedia.co.uk/how-long-does-seo-take-to-show-results-realistic-timelines/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.echelonmedia.co.uk › how-long-does-seo-t...",
+       "website_name": "Echelon Media",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "31 Oct 2025 — For most businesses, meaningful SEO results appear within 3 to 6 months of consistent effort. Significant improvements typically arrive around ... Read more",
+       "pre_snippet": "10/31/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "meaningful SEO results appear within 3 to 6 months of consistent effort"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.echelonmedia.co.uk/how-long-does-seo-take-to-show-results-realistic-timelines/#:~:text=For%20most%20businesses%2C%20meaningful%20SEO,Significant%20improvements%20typically%20arrive%20around",
+         "domain": "www.echelonmedia.co.uk"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-10-31 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+       "domain": "www.linkedin.com",
+       "title": "How Long Does SEO Take to Rank on Google?",
+       "url": "https://www.linkedin.com/pulse/how-long-does-seo-take-rank-google-maximisemedia-0eqic",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "1 year ago",
+       "website_name": "LinkedIn · Maximizze Media",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Generally, it can take anywhere from a few weeks to several months to start seeing noticeable results from your SEO efforts.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "a few weeks to several months"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+       "domain": "peppermintsoda.co.uk",
+       "title": "How Long Does SEO Take? - Peppermint Soda",
+       "url": "https://peppermintsoda.co.uk/how-long-does-seo-take/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://peppermintsoda.co.uk › how-long-does-seo-take",
+       "website_name": "peppermintsoda.co.uk",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "While there's no one-size-fits-all answer, our SEO experts explain how it works, the average timeline, and when you can expect results. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "how it works, the average timeline, and when you can expect results"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://peppermintsoda.co.uk/how-long-does-seo-take/#:~:text=While%20there's%20no%20one-size-fits-all%20answer%2C,when%20you%20can%20expect%20results.",
+         "domain": "peppermintsoda.co.uk"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+       "domain": "www.levitate.ai",
+       "title": "How Long Does SEO Take to Work? Realistic Timelines ...",
+       "url": "https://www.levitate.ai/blog-posts/how-long-does-seo-take-to-work-realistic-timelines-business-owners-should-expect",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.levitate.ai › blog-posts › how-long-does-se...",
+       "website_name": "Levitate",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "9 Jan 2026 — Months 5–6 is when SEO starts to feel real, with more stable rankings and visitors arriving on searches that are not just your company name. Read more",
+       "pre_snippet": "01/09/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Months 5–6 is"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.levitate.ai/blog-posts/how-long-does-seo-take-to-work-realistic-timelines-business-owners-should-expect#:~:text=Months%205%E2%80%936%20is%20when%20SEO,not%20just%20your%20company%20name.",
+         "domain": "www.levitate.ai"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-01-09 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 12,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.marketingillumination.com",
+       "title": "How Long Does SEO Take to Work? - Illumination Marketing",
+       "url": "https://www.marketingillumination.com/blogs/how-long-does-seo-take-to-work",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.marketingillumination.com › blogs › how-l...",
+       "website_name": "marketingillumination.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "22 Dec 2025 — Most businesses take to see results between three and six months, but those early gains are usually incremental rather than transformational. Read more",
+       "pre_snippet": "12/22/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "between three and six months"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.marketingillumination.com/blogs/how-long-does-seo-take-to-work#:~:text=Most%20businesses%20take%20to%20see,usually%20incremental%20rather%20than%20transformational.",
+         "domain": "www.marketingillumination.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-12-22 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 10,
+       "rank_absolute": 13,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.quora.com",
+       "title": "How long does SEO need to be done?",
+       "url": "https://www.quora.com/How-long-does-SEO-need-to-be-done",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "40+ answers  ·  1 year ago",
+       "website_name": "Quora",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "How long does SEO need to be done?",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 11,
+       "rank_absolute": 14,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "writesonic.com",
+       "title": "How Long Does SEO Take to Work? [+ 5 Tips to Speed It Up]",
+       "url": "https://writesonic.com/blog/how-long-does-seo-take",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://writesonic.com › Blog › SEO",
+       "website_name": "Writesonic",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "6 Apr 2025 — Unlike paid ads, where you can see results almost instantly, SEO takes around three to twelve months to work. It's a long-term strategy built on ... Read more",
+       "pre_snippet": "04/06/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "SEO takes around three to twelve months"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://writesonic.com/blog/how-long-does-seo-take#:~:text=Unlike%20paid%20ads%2C%20where%20you,technical%20optimization%2C%20authority%2C%20and%20consistency.",
+         "domain": "writesonic.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-04-06 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 12,
+       "rank_absolute": 15,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "moz.com",
+       "title": "How long until you see results? | SEO Forum",
+       "url": "https://moz.com/community/q/topic/1576/how-long-until-you-see-results",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://moz.com › ... › Intermediate & Advanced SEO",
+       "website_name": "Moz",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "30 Mar 2011 — I'd say give it 3-4 weeks, then start building links and/or looking at your SEO strategy. Read more",
+       "pre_snippet": "03/30/2011 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "3-4 weeks"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://moz.com/community/q/topic/1576/how-long-until-you-see-results#:~:text=I'd%20say%20give%20it%203-4,looking%20at%20your%20SEO%20strategy.",
+         "domain": "moz.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2011-03-30 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 13,
+       "rank_absolute": 16,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "domain": "sureoak.com",
+       "title": "How Long Does it Take for SEO to Work: An SEO Timeline",
+       "url": "https://sureoak.com/insights/how-long-does-it-take-for-seo-to-work",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://sureoak.com › insights › how-long-does-it-take-f...",
+       "website_name": "Sure Oak",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "26 Jul 2026 — However, based on our experience and industry standards, we can say it usually takes 4 to 12 months or more for SEO to show results. This means ... Read more",
+       "pre_snippet": "07/26/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "4 to 12 months or more"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://sureoak.com/insights/how-long-does-it-take-for-seo-to-work#:~:text=However%2C%20based%20on%20our%20experience,and%20revenue%20within%20this%20timeframe.",
+         "domain": "sureoak.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-07-26 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 14,
+       "rank_absolute": 17,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.oneupweb.com",
+       "title": "SEO FAQs: Decoding Search Engine Optimization",
+       "url": "https://www.oneupweb.com/blog/seo-faqs/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.oneupweb.com › blog › seo-faqs",
+       "website_name": "Oneupweb",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "11 Mar 2025 — How long does SEO take to work? Most domains begin to see results within two to three months of starting a robust SEO campaign, but there are ... Read more",
+       "pre_snippet": "03/11/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "two to three months"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.oneupweb.com/blog/seo-faqs/#:~:text=How%20long%20does%20SEO%20take,are%20many%20factors%20at%20play.",
+         "domain": "www.oneupweb.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-03-11 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 15,
+       "rank_absolute": 18,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "www.linkedin.com",
+       "title": "\"SEO takes 6-12 months to see results.\" | Kai Cromwell ...",
+       "url": "https://www.linkedin.com/posts/kai-cromwell_seo-takes-6-12-months-to-see-results-activity-7363996497094307844-U2uL",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "110+ reactions  ·  1 year ago",
+       "website_name": "LinkedIn · Kai Cromwell (eCommerce SEO)",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "When I optimize a client's collection pages properly, we see ranking improvements within 7-14 days. When I fix their internal linking structure, ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "7-14 days"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.linkedin.com/posts/kai-cromwell_seo-takes-6-12-months-to-see-results-activity-7363996497094307844-U2uL#:~:text=When%20I%20optimize%20a%20client's,climbing%20in%20the%20first%20month.",
+         "domain": "www.linkedin.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 16,
+       "rank_absolute": 19,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "zen.agency",
+       "title": "How Long Does SEO Take to Work?",
+       "url": "https://zen.agency/how-long-does-seo-take-to-work-a-clear-timeline-for-businesses/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://zen.agency › how-long-does-seo-take-to-work-a...",
+       "website_name": "zen.agency",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "21 Jan 2025 — While some minor improvements can be seen within the first few months, significant, long-lasting results often take anywhere from 6 to 12 months ... Read more",
+       "pre_snippet": "01/21/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 22,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "6 to 12 months"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://zen.agency/how-long-does-seo-take-to-work-a-clear-timeline-for-businesses/#:~:text=While%20some%20minor%20improvements%20can,scope%20of%20the%20SEO%20campaign.",
+         "domain": "zen.agency"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-01-21 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 17,
+       "rank_absolute": 20,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+       "domain": "www.linkedin.com",
+       "title": "Sorry to break it to you. | Joshua George",
+       "url": "https://www.linkedin.com/posts/joshua-george-90078276_how-long-does-seo-take-to-work-heres-the-activity-7283466475795824640-u4vq",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ reactions  ·  1 year ago",
+       "website_name": "LinkedIn · Joshua George",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": "Sorry to break it to you. But you've been lied to about SEO. SEO doesn't always take 12 months to 'kick in '. In fact, I've helped eCommerce ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "SEO doesn't always take 12 months to 'kick in"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-10-04 10:41:01 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 18,
+       "rank_absolute": 21,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.vazoola.com",
+       "title": "How Long Does SEO Take to Work?",
+       "url": "https://www.vazoola.com/resources/how-long-for-seo-to-work",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.vazoola.com › resources › how-long-for-seo...",
+       "website_name": "Vazoola",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "30 Jul 2024 — Ranking a new website typically takes anywhere from 6 months to a year, depending on factors like competition, keyword difficulty, and content ... Read more",
+       "pre_snippet": "07/30/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "6 months to a year"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.vazoola.com/resources/how-long-for-seo-to-work#:~:text=Ranking%20a%20new%20website%20typically,keyword%20difficulty%2C%20and%20content%20quality.",
+         "domain": "www.vazoola.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-07-30 00:00:00 +00:00",
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

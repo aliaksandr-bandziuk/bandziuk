@@ -95,6 +95,11 @@ const SLUG = {
   contacts: { en: "contacts", pl: "kontakt", ru: "kontakty" },
   privacy:  { en: "privacy-policy", pl: "polityka-prywatnosci", ru: "politika-konfidencialnosti" },
   aiStudy:  { en: "ai-assistant-recommendations-study", pl: "pozycjonowanie-w-ai-badanie", ru: "issledovanie-otvetov-ii-assistentov" },
+
+  // The free tool. One slug for all three locales, and the page is a code route,
+  // not a Sanity document — it reached the sitemap only on 2026-10-13, which is
+  // also when it got its first internal link beyond the article that describes it.
+  llmsTool: { en: "llms-txt-generator", pl: "llms-txt-generator", ru: "llms-txt-generator" },
 };
 
 // ---------------------------------------------------------------- the labels --
@@ -117,6 +122,7 @@ const L = {
     mUS: "United States", mUK: "United Kingdom", mDE: "Germany", mES: "Spain", mUAE: "UAE",
     mPT: "Portugal", mRealEstate: "Real estate SEO",
     aiStudy: "Study: what AI assistants answer", googleProfile: "Google Business Profile",
+    llmsTool: "llms.txt generator",
     colServices: "Services", colIndustries: "More industries", colMarkets: "Markets",
     colResources: "Resources", colAbout: "About",
   },
@@ -138,6 +144,7 @@ const L = {
     mUS: "Rynek amerykański", mUK: "Rynek brytyjski", mDE: "Rynek niemiecki", mES: "Hiszpania",
     mUAE: "ZEA", mPT: "Portugalia", mRealEstate: "SEO nieruchomości",
     aiStudy: "Badanie: co odpowiadają asystenci AI", googleProfile: "Profil w Google",
+    llmsTool: "Generator llms.txt",
     colServices: "Usługi", colIndustries: "Kolejne branże", colMarkets: "Rynki",
     colResources: "Materiały", colAbout: "O mnie",
   },
@@ -159,6 +166,7 @@ const L = {
     mUS: "США", mUK: "Великобритания", mDE: "Германия", mES: "Испания", mUAE: "ОАЭ",
     mPT: "Португалия", mRealEstate: "SEO недвижимости",
     aiStudy: "Исследование: что отвечают ИИ-ассистенты", googleProfile: "Профиль в Google",
+    llmsTool: "Генератор llms.txt",
     colServices: "Услуги", colIndustries: "Ещё отрасли", colMarkets: "Рынки",
     colResources: "Материалы", colAbout: "Обо мне",
   },
@@ -271,6 +279,7 @@ function buildFooter(lang, r) {
     ]),
     col(t.colResources, [
       [t.blog, "blog"], [t.portfolio, "portfolio"], [t.pricing, "pricing"], [t.aiStudy, "aiStudy"],
+      [t.llmsTool, "llmsTool"],
     ]),
     col(t.colAbout, [
       [t.about, "about"], [t.contacts, "contacts"], [t.privacy, "privacy"],

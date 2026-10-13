@@ -9,6 +9,24 @@ import { BASE_URL, localePrefix, findAltSlug } from "@/utils/hreflang";
 
 const langs = ["en", "pl", "ru"];
 
+/**
+ * Страницы, которых нет в Sanity: маршруты, заданные только кодом. Карта
+ * собирается из документов, поэтому такая страница в неё не попадает сама —
+ * `/tools/llms-txt-generator` отдавал 200 и был индексируемым, но отсутствовал
+ * в sitemap, а вела на него одна внутренняя ссылка (проверено 2026-10-13).
+ *
+ * Сюда идёт только то, что действительно должно индексироваться.
+ * `/tools/ai-visibility-checker` добавлять НЕЛЬЗЯ: он noindex, пока выключен
+ * (§11), и слаг у страницы один на все локали — как и у генератора.
+ *
+ * `lastmod` задаётся руками: у такой страницы нет документа, а подстановка
+ * «самой свежей даты по сайту» (см. lastmodFor) двигала бы её при каждой
+ * публикации в блоге. Обновлять при заметном изменении страницы.
+ */
+const CODE_PAGES: Array<{ path: string; priority: number; lastmod: string }> = [
+  { path: "/tools/llms-txt-generator", priority: 0.8, lastmod: "2026-10-12T00:00:00Z" },
+];
+
 type AlternateLink = { hreflang: string; href: string };
 
 type SitemapPage = {
@@ -16,6 +34,8 @@ type SitemapPage = {
   changefreq: string;
   priority: number;
   alternates: AlternateLink[];
+  /** Задаётся только для страниц без документа в Sanity (см. CODE_PAGES). */
+  lastmod?: string;
 };
 
 /**
@@ -95,6 +115,7 @@ async function buildAlternatesMap(): Promise<Map<string, AlternateLink[]>> {
     { path: "", priority: 1.0 },      // homepage
     { path: "/blog", priority: 0.9 },
     { path: "/portfolio", priority: 0.9 },
+    ...CODE_PAGES,
   ];
 
   for (const { path } of singletons) {
@@ -273,6 +294,12 @@ async function generateSitemap(): Promise<SitemapPage[]> {
       const url = `${BASE_URL}${prefix}/blog/${slug}`;
       pages.push({ url, changefreq: "weekly", priority: 0.8, alternates: getAlts(url) });
     }
+
+    // — Code-only routes (tools) —
+    for (const { path, priority, lastmod } of CODE_PAGES) {
+      const url = `${BASE_URL}${prefix}${path}`;
+      pages.push({ url, changefreq: "monthly", priority, lastmod, alternates: getAlts(url) });
+    }
   }
 
   return pages;
@@ -286,7 +313,7 @@ export async function GET() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${pages
-  .map(({ url, alternates }) => {
+  .map(({ url, alternates, lastmod: own }) => {
     const altXml =
       alternates.length > 0
         ? `\n    ${alternates
@@ -299,7 +326,7 @@ ${pages
     return `
   <url>
     <loc>${url}</loc>
-    <lastmod>${lastmodFor(url, lastmod)}</lastmod>${altXml}
+    <lastmod>${own ?? lastmodFor(url, lastmod)}</lastmod>${altXml}
   </url>`;
   })
   .join("")}

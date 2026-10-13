@@ -1046,3 +1046,39 @@ Rules:
   PL links that day (`/pl/oferty/lokacii`); the documents and the rendered
   pages carry the right hrefs. Check the rendered page before fixing what the
   analyser lists.
+
+## 18. Free llms.txt generator (`/tools/llms-txt-generator`) and the sitemap trap
+
+Added October 2026. A visitor enters a site address; the server reads that
+site's sitemap only — it never crawls the pages — groups the URLs into sections
+and returns a valid llms.txt to edit and download. Nothing is stored. Pieces:
+`src/app/[lang]/tools/llms-txt-generator/page.tsx`, the client in
+`src/app/components/tools/LlmsTxtGenerator/` (all copy in `copy.ts`),
+`src/app/api/llms-txt/route.ts` and `src/lib/llmsTxt/generate.ts`. Guards on the
+route: same-origin, 4 KB body, `isPrivateHost()`, 6 s timeout, 2 MB cap, 12 per
+IP and 120 per instance per 10 min, 3 child sitemaps, 1000 URLs.
+
+Unlike the AI checker (§11) it costs nothing to run and is indexable. One slug
+for all three locales, and title and H1 carry `llms.txt generator` in each.
+
+**A code-only route is not in the sitemap unless you put it there.**
+`/api/sitemap` is built from Sanity documents, so a page that exists only as
+code cannot appear by itself. The generator shipped indexable, with a correct
+canonical, answering 200 — and was absent from the sitemap with exactly one
+inbound internal link for about two weeks. Found 2026-10-13. Add such a route to
+`CODE_PAGES` in `src/app/api/sitemap/route.ts`; entries there carry their own
+`lastmod`, because the fallback is "the newest date on the site", which would
+move a static tool page every time a post is published. Do **not** add
+`/tools/ai-visibility-checker`: it is `noindex` while disabled.
+
+A new page also needs internal links, which no amount of sitemap entries
+replaces. The generator now has the footer "Resources" column in all three
+languages (sitewide), the article in each locale, and the article links back.
+`scripts/link-llms-generator.cjs` records the three in-body links that were
+added; `scripts/build-nav.cjs` owns the footer.
+
+**Two parity gaps surfaced while doing it, and both are worth checking for on
+any multilingual addition:** the Polish and Russian twins of a translated
+article carried no body links at all while the English one did, and the Russian
+AI-readiness service page was missing a sentence its EN and PL versions both
+had. A translated set does not stay in sync by itself.

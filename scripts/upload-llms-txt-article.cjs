@@ -24,6 +24,7 @@ const { createClient } = require("@sanity/client");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env.local"), quiet: true });
 
 const DRY = process.argv.includes("--dry-run");
+const TO_PUBLISHED = process.argv.includes("--to-published");
 const SOURCE = path.resolve(__dirname, "../drafts/blog-llms-txt-EN-v2.md");
 const DOC_ID = "blog-llms-txt"; // resolved from the slug below if it differs
 
@@ -108,8 +109,12 @@ function toBlocks(body) {
       const code = [];
       i++;
       while (i < lines.length && !lines[i].trim().startsWith("```")) code.push(lines[i]), i++;
-      flush();
-      out.push({ _type: "codeBlock", _key: key(), language, code: code.join("\n") });
+      // Inside the portable text, not beside it. codeBlock is registered on
+      // contentBlock (the rich-text array); the blog document's own
+      // contentBlocks array does not allow it, so a code block pushed to the
+      // top level is dropped silently by both Studio and the renderer — which
+      // is exactly what the first upload did.
+      buf.push({ _type: "codeBlock", _key: key(), language, code: code.join("\n") });
       continue;
     }
 
@@ -159,6 +164,23 @@ function toBlocks(body) {
 
   // Only the body and the titles change; author, category, images, related
   // articles and the slug stay exactly as published.
+  if (TO_PUBLISHED) {
+    // Repairs the live article in place. The normal path is a draft the owner
+    // reviews; this exists because the first upload put the code blocks where
+    // the schema does not allow them and the live page lost them.
+    await client
+      .patch(existing._id)
+      .set({
+        title: meta.title,
+        seo: { metaTitle: meta.meta_title, metaDescription: meta.meta_description },
+        excerpt: meta.meta_description,
+        contentBlocks: blocks,
+      })
+      .commit();
+    console.log(`Patched the published article ${existing._id}.`);
+    return;
+  }
+
   const draft = {
     ...(await client.fetch("*[_id==$id][0]", { id: existing._id })),
     _id: `drafts.${existing._id}`,

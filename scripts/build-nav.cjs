@@ -90,6 +90,17 @@ const SLUG = {
   mPT:   { en: "website-development-portugal", pl: null, ru: "razrabotka-saitov-portugaliya" },
   mRealEstate: { en: "seo-for-real-estate", pl: "seo-dla-stron-nieruchomosci", ru: "seo-dlya-nedvizhimosti" },
 
+  // The three market pages with measured demand: in the GSC export of
+  // 2026-10-12 the Russian French page was the biggest riser on the site
+  // (964 → 1 437 impressions, position 18.2), with Switzerland at 12.3 and the
+  // Netherlands at 13.5. All three were missing from the footer while six
+  // weaker market pages were in it (drafts/gsc-12-10-performance.md). The
+  // remaining markets — Italy, Ireland, Australia, the Baltics — stay in the
+  // hub only until there is data for them too.
+  mFR:   { en: "seo-for-french-market", pl: "pozycjonowanie-na-rynek-francuski", ru: "prodvizhenie-na-frantsuzskiy-rynok" },
+  mCH:   { en: "seo-for-swiss-market", pl: "pozycjonowanie-na-rynek-szwajcarski", ru: "prodvizhenie-na-shveytsarskiy-rynok" },
+  mNL:   { en: "seo-for-dutch-market", pl: "pozycjonowanie-na-rynek-holenderski", ru: "prodvizhenie-na-gollandskiy-rynok" },
+
   pricing:  { en: "pricing", pl: "cennik", ru: "ceny" },
   about:    { en: "about", pl: "o-mnie", ru: "obo-mne" },
   contacts: { en: "contacts", pl: "kontakt", ru: "kontakty" },
@@ -121,6 +132,7 @@ const L = {
     vet: "Veterinary clinics",
     mUS: "United States", mUK: "United Kingdom", mDE: "Germany", mES: "Spain", mUAE: "UAE",
     mPT: "Portugal", mRealEstate: "Real estate SEO",
+    mFR: "France", mCH: "Switzerland", mNL: "Netherlands",
     aiStudy: "Study: what AI assistants answer", googleProfile: "Google Business Profile",
     llmsTool: "llms.txt generator",
     colServices: "Services", colIndustries: "More industries", colMarkets: "Markets",
@@ -143,6 +155,7 @@ const L = {
     vet: "Kliniki weterynaryjne",
     mUS: "Rynek amerykański", mUK: "Rynek brytyjski", mDE: "Rynek niemiecki", mES: "Hiszpania",
     mUAE: "ZEA", mPT: "Portugalia", mRealEstate: "SEO nieruchomości",
+    mFR: "Rynek francuski", mCH: "Rynek szwajcarski", mNL: "Rynek holenderski",
     aiStudy: "Badanie: co odpowiadają asystenci AI", googleProfile: "Profil w Google",
     llmsTool: "Generator llms.txt",
     colServices: "Usługi", colIndustries: "Kolejne branże", colMarkets: "Rynki",
@@ -165,6 +178,7 @@ const L = {
     vet: "Ветклиники",
     mUS: "США", mUK: "Великобритания", mDE: "Германия", mES: "Испания", mUAE: "ОАЭ",
     mPT: "Португалия", mRealEstate: "SEO недвижимости",
+    mFR: "Франция", mCH: "Швейцария", mNL: "Нидерланды",
     aiStudy: "Исследование: что отвечают ИИ-ассистенты", googleProfile: "Профиль в Google",
     llmsTool: "Генератор llms.txt",
     colServices: "Услуги", colIndustries: "Ещё отрасли", colMarkets: "Рынки",
@@ -274,6 +288,7 @@ function buildFooter(lang, r) {
       [t.startup, "startup"], [t.vet, "vet"],
     ]),
     col(t.colMarkets, [
+      [t.mFR, "mFR"], [t.mCH, "mCH"], [t.mNL, "mNL"],
       [t.mUS, "mUS"], [t.mUK, "mUK"], [t.mDE, "mDE"], [t.mES, "mES"], [t.mUAE, "mUAE"],
       [t.mPT, "mPT"], [t.mRealEstate, "mRealEstate"], [t.locationsHub, "locationsHub"],
     ]),

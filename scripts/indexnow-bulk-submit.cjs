@@ -3,7 +3,15 @@
 // not a reimplementation — so the URL set is exactly what /api/sitemap
 // already proves correct. Run once by hand; this is not a recurring job.
 //
-// Usage: node scripts/indexnow-bulk-submit.cjs
+// With --urls it submits only the addresses listed on the command line. That
+// is for a page the webhook cannot reach: it fires on Sanity document types
+// (§8), so a route that exists only as code — a tool page — has no document
+// to trigger it. Each URL is checked against the host first, because IndexNow
+// answers 422 for anything outside it.
+//
+// Usage:
+//   node scripts/indexnow-bulk-submit.cjs
+//   node scripts/indexnow-bulk-submit.cjs --urls https://www.bandziuk.com/tools/… …
 
 const path = require("path");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env.local") });
@@ -46,8 +54,21 @@ async function main() {
   const key = process.env.INDEXNOW_KEY;
   if (!key) throw new Error("INDEXNOW_KEY is not set in .env.local");
 
-  const urls = await fetchSitemapUrls();
-  console.log(`Fetched ${urls.length} unique URL(s) from ${SITEMAP_URL}`);
+  const flag = process.argv.indexOf("--urls");
+  let urls;
+  if (flag > -1) {
+    urls = Array.from(new Set(process.argv.slice(flag + 1)));
+    if (!urls.length) throw new Error("--urls needs at least one address");
+    const foreign = urls.filter((u) => !u.startsWith(`https://${HOST}/`));
+    if (foreign.length) {
+      throw new Error(`not on ${HOST}, IndexNow would answer 422:\n  ${foreign.join("\n  ")}`);
+    }
+    console.log(`Submitting ${urls.length} URL(s) given on the command line:`);
+    urls.forEach((u) => console.log(`   ${u}`));
+  } else {
+    urls = await fetchSitemapUrls();
+    console.log(`Fetched ${urls.length} unique URL(s) from ${SITEMAP_URL}`);
+  }
 
   const statuses = [];
   for (let i = 0; i < urls.length; i += MAX_URLS_PER_BATCH) {

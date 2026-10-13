@@ -134,10 +134,14 @@ const flat = (b) => (b.children || []).map((c) => c.text).join("");
     console.log("");
   }
 
+  // Whether a token patch fires the Sanity webhook was not verified here — the
+  // deployment has no logs to read it from — so neither the revalidation nor
+  // the IndexNow submission is left to it. Both were done by hand:
+  // POST /api/indexnow/webhook (§13) and indexnow-bulk-submit.cjs --urls (§8).
   console.log(
     DRY
       ? "Dry run — nothing was written."
-      : "Done. Blog and singlepage are in the webhook filter, so a publish-side revalidation is not needed here: patch via API does not fire it. Revalidate by hand if the change should appear before the daily refresh.",
+      : "Done. Revalidate by hand (§13) and submit the changed URLs (§8) rather than assuming the webhook fired.",
   );
 })().catch((e) => {
   console.error("\n" + (e.message || e));

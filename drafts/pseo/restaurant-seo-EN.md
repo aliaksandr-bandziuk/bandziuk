@@ -113,6 +113,17 @@ The website is the one place portals cannot copy, and it is where a restaurant w
 
 If the current website cannot do this — a builder template, a PDF menu, one page for everything — rebuilding it usually costs less than working around it. That is covered on the [restaurant website development](/restaurant-website) and [restaurant website design](/restaurant-website-design) pages.
 
+### AI SEO for restaurants: visibility in ChatGPT and Google AI Overviews (GEO, AEO)
+
+More guests now ask ChatGPT, Perplexity or Google’s AI Overviews where to eat — “a quiet Italian place near the old town”, “where to get good ramen tonight”. The answer names a few restaurants and quotes what the assistant could read about them. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a restaurant it rests on the same work as local SEO:
+
+- the menu, cuisine, price range and opening hours written as text on your own site and in the Google profile
+- reviews that mention dishes and occasions, so an assistant can match you to “a place for a birthday dinner”
+- Restaurant and Menu structured data that states the facts in a form machines read reliably
+- the same name, address and hours everywhere, so assistants do not mix you up with a place with a similar name
+
+I check how assistants describe and recommend your restaurant before and after the work. More on this on the [AI SEO and GEO optimization](/services/ai-ready-seo-and-geo-optimization) page.
+
 ### SEO keywords for restaurants: what guests actually type
 
 Restaurant searches fall into four groups, and each needs its own place on the website or the profile:

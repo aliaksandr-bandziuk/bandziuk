@@ -23,8 +23,11 @@ import { restaurantSeoPl } from "./restaurant-seo.pl";
 import { restaurantSeoRu } from "./restaurant-seo.ru";
 import { constructionWebsiteDesignEn } from "./construction-website-design.en";
 import { constructionWebsiteDesignRu } from "./construction-website-design.ru";
+import { constructionSeoEn } from "./construction-seo.en";
+import { constructionSeoRu } from "./construction-seo.ru";
+import { constructionSeoPl } from "./construction-seo.pl";
 
-const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu];
+const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl];
 
 const isDev = process.env.NODE_ENV !== "production";
 

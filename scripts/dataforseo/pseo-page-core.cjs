@@ -66,6 +66,35 @@ const TOPICS = {
       ru: ["дизайн сайта ресторана", "сайт для ресторана"],
     },
   },
+  // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
+  // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
+  // search. Shows which general phrases carry demand and whether any
+  // «niche + AI» combination is searched at all.
+  "ai-search": {
+    relevant: /\bai\b|\bgeo\b|\baeo\b|\baio\b|\bllm|chatgpt|chat gpt|gpt|perplexity|gemini|generative|answer engine|ai overview|artificial intelligence|sztuczn|\bии\b|нейросет|искусственн|чатгпт|\bgeo-/i,
+    otherPage: {},
+    groups: {
+      "restaurants / food": /restaura|cafe|café|food|gastronom|ресторан|кафе/i,
+      "construction / contractors": /construct|contractor|builder|budowl|строител|подрядч/i,
+      "law": /law|lawyer|attorney|legal|prawn|adwokat|юрист|адвокат/i,
+      "medical / dental": /dental|dentist|medical|clinic|doctor|stomatolog|klinik|медиц|стомат|клиник/i,
+      "real estate": /real estate|realtor|property|nieruchomo|недвиж|риелтор/i,
+      "ecommerce": /ecommerce|e-commerce|shopify|store|shop\b|sklep|магазин/i,
+      "local business": /local|lokaln|локальн|small business|малого бизнеса/i,
+      "agency / services / price": /agency|agencja|агентств|services|usługi|услуг|company|firma|компани|cost|price|cena|цена|стоимост/i,
+      "what is / how to": /what is|how to|meaning|definition|co to|jak |что такое|как /i,
+    },
+    seeds: {
+      en: ["generative engine optimization", "answer engine optimization", "ai seo", "geo seo", "llm seo", "chatgpt seo", "ai search optimization", "seo for ai search", "ai overviews seo", "geo for local business"],
+      pl: ["pozycjonowanie w ai", "seo ai", "pozycjonowanie w chatgpt", "geo seo", "optymalizacja pod ai", "widoczność w ai", "seo pod chatgpt"],
+      ru: ["продвижение в chatgpt", "seo для ии", "geo оптимизация", "продвижение в нейросетях", "seo под ии", "оптимизация под ии", "aeo оптимизация"],
+    },
+    serp: {
+      en: ["generative engine optimization", "ai seo"],
+      pl: ["pozycjonowanie w ai"],
+      ru: ["продвижение в нейросетях"],
+    },
+  },
   // Topic 3–5 survey (22.10.2026): construction — development, design and SEO
   // in one run, split by service. Only the Warsaw SEO pages (PL/RU) exist.
   "construction": {

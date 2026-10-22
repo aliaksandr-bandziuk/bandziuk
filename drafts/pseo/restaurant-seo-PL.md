@@ -113,6 +113,17 @@ Strona to jedyne miejsce, którego portale nie skopiują, i to na niej restaurac
 
 Jeśli obecna strona tego nie udźwignie — szablon z kreatora, menu w PDF-ie, jedna strona na wszystko — przebudowa zwykle kosztuje mniej niż obchodzenie jej ograniczeń. Opisuję to na stronie [tworzenie strony dla restauracji](/pl/strona-dla-restauracji).
 
+### Pozycjonowanie restauracji w AI: widoczność w ChatGPT i Google AI Overviews (GEO, AEO)
+
+Coraz więcej gości pyta ChatGPT, Perplexity albo podsumowania AI w Google, gdzie zjeść — „spokojna włoska restauracja na Starym Mieście”, „gdzie zjeść dobry ramen dziś wieczorem”. Odpowiedź wymienia kilka lokali i cytuje to, co asystent mógł o nich przeczytać. Pracę nad tym, żeby trafić do takich odpowiedzi, nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). W restauracji opiera się ona na tym samym co pozycjonowanie lokalne:
+
+- menu, kuchnia, przedział cen i godziny otwarcia zapisane tekstem na Waszej stronie i w wizytówce Google
+- opinie, które wspominają dania i okazje, żeby asystent dopasował Was do „miejsca na kolację urodzinową”
+- dane strukturalne Restaurant i Menu, które podają fakty w formie czytelnej dla maszyn
+- ta sama nazwa, adres i godziny wszędzie, żeby asystent nie pomylił Was z lokalem o podobnej nazwie
+
+Przed rozpoczęciem pracy i po jej zakończeniu sprawdzam, jak asystenci opisują i polecają Waszą restaurację. Więcej na stronie [pozycjonowanie w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt).
+
 ### Słowa kluczowe dla restauracji: co goście naprawdę wpisują
 
 Wyszukiwania restauracji dzielą się na cztery grupy i każda potrzebuje swojego miejsca na stronie albo w wizytówce:

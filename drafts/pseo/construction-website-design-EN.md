@@ -152,6 +152,8 @@ Lists of the top construction company websites are full of large firms with vide
 
 If you already have a website and want a new design without losing your Google positions, the [website redesign](/services/website-redesign-services) process keeps addresses, redirects and structured data in place.
 
+Design brings enquiries from clients who are already on the site. Getting found in the first place — Google Maps, local search, AI answers — is covered on the [SEO for construction companies](/seo-for-construction-companies) page.
+
 ### How much construction website design costs
 
 Design is not sold separately; it is part of building the website, and the price covers both.

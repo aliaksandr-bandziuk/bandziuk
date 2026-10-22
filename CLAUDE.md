@@ -1085,6 +1085,14 @@ had. A translated set does not stay in sync by itself.
 
 ### New landing pages: keyword research first (2026-10-22)
 
+Every SEO landing page, for every niche, also covers visibility in AI search
+(GEO, AEO, Google AI Overviews, ChatGPT/Perplexity answers): a dedicated H2
+section with the niche name in it, plus a link to that language's AI service
+page — `/services/ai-ready-seo-and-geo-optimization`,
+`/pl/oferty/pozycjonowanie-w-ai-i-chatgpt`, `/ru/uslugi/ai-seo-i-geo-optimizaciya`.
+Owner's rule, 2026-10-22. Wording comes from the AI-search semantic core
+(`research/pseo/page-core/ai-search.md`).
+
 Before writing any new pSEO page, collect its semantic core unless it already
 exists: `node scripts/dataforseo/pseo-page-core.cjs --topic <slug>` (seeds are
 set per topic inside the script; needs network, so run it on the developer

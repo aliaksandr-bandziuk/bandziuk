@@ -1,188 +1,111 @@
-.modalTitle {
-  color: var(--accent);
-  font-size: clamp(1.5rem, 1rem + 2vw, 2.5rem);
-  font-weight: 500;
-  line-height: 120%; /* 125% */
-  max-width: 95%;
-  margin-bottom: clamp(1.25rem, 0.938rem + 1.25vw, 1.875rem);
+// Contact popup (2026-10-22 rework).
+//
+// Why it was rebuilt: the dialog filled the screen and centred the card with
+// flexbox and no scrolling, so a card taller than the screen was cut off at
+// the top and the bottom at once — the close button was unreachable. That is
+// what a visitor on Samsung Internet hit: the browser's own text-size setting
+// enlarges rem-based text (text-size-adjust does not stop it), so the form
+// grew past the viewport.
+//
+// Now the backdrop scrolls (.scroller) and the card is centred only while it
+// fits (.center has min-height: 100%), so a tall card starts at the top and
+// the close button is always reachable.
 
-  @media screen and (min-width: 570px) {
-    max-width: 100%;
+.scroller {
+  position: fixed;
+  inset: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  background: rgba(5, 6, 7, 0.78);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.center {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(16px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
+
+  @media screen and (min-width: 600px) {
+    padding: 32px;
   }
 }
 
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  background-color: #101213;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 22px 18px 18px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+
+  @media screen and (min-width: 600px) {
+    padding: 36px 36px 30px;
+  }
+}
+
+.header {
+  // room for the close button so a long title never runs under it
+  padding-right: 44px;
+  margin-bottom: 18px;
+
+  @media screen and (min-width: 600px) {
+    margin-bottom: 24px;
+  }
+}
+
+.modalTitle {
+  color: var(--accent);
+  font-size: clamp(1.25rem, 1.05rem + 1vw, 1.75rem);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 6px;
+}
+
 .modalText {
-  color: #fff;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: clamp(1.25rem, 0.938rem + 1.25vw, 1.875rem);
+  color: var(--text-secondary, #c7c7cc);
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  margin: 0;
 }
 
 .closeButton {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  // top: 30px;
-  // right: 50px;
-  border: none;
-  cursor: pointer;
-  font-size: 22px;
+  top: 12px;
+  right: 12px;
   width: 40px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
   border-radius: 50%;
-  background-color: #F6F6F6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #e6e6e6;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
 
-  @media (max-width: 768px) {
-    top: 15px;
-    right: 15px;
-    width: 25px;
-    height: 25px;
-  }
-}
-
-.popupContent {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0;
-
-  // @media (max-width: 505px) {
-  //   max-width: 90%;
-  // }
-
-  // @media (max-width: 360px) {
-  //   width: 310px;
-  // }
-}
-
-.popupContentWrapper {
-  position: relative;
-  background-color: #101213;
-  border-radius: 12px;
-  overflow: hidden;
-  padding-top: clamp(1.875rem, 0.563rem + 5.25vw, 4.5rem);
-  padding-left: clamp(1.875rem, 0.563rem + 5.25vw, 4.5rem);
-  padding-right: clamp(2.813rem, 1rem + 7.25vw, 6.438rem);
-  padding-bottom: clamp(1.875rem, 0.563rem + 5.25vw, 4.5rem);
-
-  // @media (max-width: 570px) {
-  //   top: 50%;
-  //   transform: translateY(-50%);
-  // }
-}
-
-.imageBlock {
-  position: relative;
-}
-
-.mainImage {
-  border-radius: 15px;
-  border: 4px solid var(--accent);
-  aspect-ratio: 16/9;
-
-  @media screen and (max-width: 880px) {
-    aspect-ratio: 1/1;
-  }
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 400px; /* Выберите высоту, которая подходит для вашего дизайна */
-  opacity: 0.8;
-  background: #032540;
-  border-radius: 15px;
-  border: 4px solid var(--accent);
-  aspect-ratio: 10/6;
-}
-
-.imageContent {
-  max-width: 350px;
-  position: absolute;
-  top: 85%;
-  left: 5%;
-  transform: translate(-5%, -85%);
-
-  @media screen and (max-width: 880px) {
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 100%;
-    text-align: center;
-    padding: 40px 40px;
+  @media screen and (min-width: 600px) {
+    top: 16px;
+    right: 16px;
   }
 
-  @media screen and (max-width: 570px) {
-    padding: 20px 20px;
-  }
-}
-.imageContentTitle {
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-  color: #fff;
-  margin-bottom: 40px;
-
-  @media screen and (max-width: 880px) {
-    font-size: 25px;
-    margin-bottom: 20px;
+  &:hover {
+    background-color: var(--accent);
+    color: #0a0a0b;
   }
 
-  @media screen and (max-width: 570px) {
-    font-size: 20px;
-  }
-
-  @media screen and (max-width: 360px) {
-    font-size: 18px;
-  }
-}
-.imageContentLogo {
-  max-width: 188px;
-
-  @media screen and (max-width: 880px) {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  @media screen and (max-width: 570px) {
-    max-width: 110px;
-  }
-}
-
-.formBlock {
-  position: absolute;
-  top: -20px;
-  left: 40%;
-  width: 55%;
-  border-radius: 15px;
-  border: 4px solid var(--accent);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  padding: 40px 40px;
-  background: #143258;
-
-  @media screen and (max-width: 880px) {
-    width: 100%;
-    top: 30%;
-    left: 0;
-  }
-
-  @media screen and (max-width: 570px) {
-    padding: 10px 10px;
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
 }
 
 .formInner label {
-  color: #fff !important;
+  color: #fff;
 }

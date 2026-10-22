@@ -7,22 +7,23 @@ import { useModal } from "@/app/context/ModalContext";
 import { FormStandardDocument } from "@/types/formStandardDocument";
 import FormFull from "../../forms/FormFull/FormFull";
 
+// react-modal's own overlay and content boxes are reduced to plain wrappers:
+// the scrolling backdrop and the card are styled in ModalFull.module.scss
+// (see the note there on why the old full-screen flex box cut the form off).
 const customStyles: ReactModal.Styles = {
   overlay: {
-    backgroundColor: "rgba(242, 244, 247, 0.7)",
-    zIndex: 999,
+    backgroundColor: "transparent",
+    // above the site header (1050–1101), below the portfolio lightbox (1200);
+    // at 999 the header sat on top of the popup and hid the top of the card
+    zIndex: 1150,
   },
   content: {
-    position: "absolute",
-    backgroundColor: "rgba(0, 0, 0, 0.7)",
-    padding: "20px",
-    width: "100%",
-    height: "100%",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
+    inset: 0,
+    padding: 0,
     border: "none",
-    inset: "0",
+    borderRadius: 0,
+    background: "transparent",
+    overflow: "visible",
   },
 };
 
@@ -33,6 +34,22 @@ type Props = {
 
 const FOCUSABLE =
   'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+const TITLE: Record<string, string> = {
+  ru: "Укажите контакты для связи",
+  pl: "Proszę podać swoje dane kontaktowe",
+  en: "Please provide your contact details",
+};
+const TEXT: Record<string, string> = {
+  ru: "Я свяжусь с вами как можно скорее",
+  pl: "Skontaktuję się z Tobą jak najszybciej",
+  en: "I will contact you as soon as possible",
+};
+const CLOSE: Record<string, string> = {
+  ru: "Закрыть форму",
+  pl: "Zamknij formularz",
+  en: "Close contact form",
+};
 
 const ModalFullDialog = ({ lang, formDocument }: Props) => {
   const { isModalOpen, closeModal } = useModal();
@@ -62,7 +79,11 @@ const ModalFullDialog = ({ lang, formDocument }: Props) => {
     if (!el) return;
 
     const focusable = Array.from(el.querySelectorAll<HTMLElement>(FOCUSABLE));
-    focusable[0]?.focus();
+    // Focus the first field without scrolling the page or popping the phone
+    // keyboard up over the form on open: focus the card itself instead on
+    // touch screens.
+    if (window.matchMedia("(pointer: coarse)").matches) el.focus({ preventScroll: true });
+    else focusable[0]?.focus();
 
     const trap = (e: KeyboardEvent) => {
       if (e.key !== "Tab" || focusable.length === 0) return;
@@ -81,6 +102,11 @@ const ModalFullDialog = ({ lang, formDocument }: Props) => {
     return () => document.removeEventListener("keydown", trap);
   }, [isModalOpen]);
 
+  // A tap on the dimmed area around the card closes the popup.
+  const onBackdrop = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) closeModal();
+  };
+
   return (
     <AnimatePresence>
       <Modal
@@ -89,62 +115,47 @@ const ModalFullDialog = ({ lang, formDocument }: Props) => {
         onRequestClose={closeModal}
         ariaHideApp={false}
         style={customStyles}
+        contentLabel={TITLE[lang] ?? TITLE.en}
       >
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.8 }}
-          transition={{ duration: 0.3 }}
-          style={{ width: "100%" }}
-        >
-          <div className={styles.popupContent}>
-            <div ref={contentRef} className={styles.popupContentWrapper}>
-              <div className={styles.formContent}>
-                <div className={styles.formText}>
-                  <h3 className={styles.modalTitle}>
-                    {lang === "ru"
-                      ? "Укажите контакты для связи"
-                      : lang === "pl"
-                        ? "Proszę podać swoje dane kontaktowe"
-                        : "Please provide your contact details"}
-                  </h3>
-                  <p className={styles.modalText}>
-                    {lang === "ru"
-                      ? "Я свяжусь с вами как можно скорее"
-                      : lang === "pl"
-                        ? "Skontaktuję się z Tobą jak najszybciej"
-                        : "I will contact you as soon as possible"}
-                  </p>
-                </div>
-
-                <div className={styles.formInner}>
-                  <FormFull form={formDocument} lang={lang} />
-                </div>
+        <div className={styles.scroller} onClick={onBackdrop}>
+          <div className={styles.center} onClick={onBackdrop}>
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 16 }}
+              transition={{ duration: 0.25 }}
+              className={styles.card}
+              ref={contentRef}
+              tabIndex={-1}
+            >
+              <div className={styles.header}>
+                <h3 className={styles.modalTitle}>{TITLE[lang] ?? TITLE.en}</h3>
+                <p className={styles.modalText}>{TEXT[lang] ?? TEXT.en}</p>
               </div>
+
+              <div className={styles.formInner}>
+                <FormFull form={formDocument} lang={lang} compact />
+              </div>
+
               <button
+                type="button"
                 className={styles.closeButton}
                 onClick={closeModal}
-                aria-label="Close contact form"
+                aria-label={CLOSE[lang] ?? CLOSE.en}
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="14"
-                  height="14"
-                  viewBox="0 0 16 16"
-                  fill="#BABABA"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
                   <path
                     d="M15 1L1 15M1.00001 1L15 15"
-                    stroke="#BABABA"
+                    stroke="currentColor"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 </svg>
               </button>
-            </div>
+            </motion.div>
           </div>
-        </motion.div>
+        </div>
       </Modal>
     </AnimatePresence>
   );

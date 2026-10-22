@@ -27,6 +27,8 @@ export interface ContactFormProps {
   form: any;
   lang: string;
   offerButtonCustomText?: string;
+  /** Tighter fields, gaps and button for the contact popup (ModalFull). */
+  compact?: boolean;
 }
 
 const FormFull: FC<ContactFormProps> = ({
@@ -34,6 +36,7 @@ const FormFull: FC<ContactFormProps> = ({
   form,
   lang,
   offerButtonCustomText,
+  compact = false,
 }) => {
   const uid = useId();
   const [message, setMessage] = useState<string | null>(null);
@@ -175,7 +178,7 @@ const FormFull: FC<ContactFormProps> = ({
         onSubmit={onSubmit}
       >
         {({ isSubmitting, setFieldValue }) => (
-          <Form>
+          <Form className={compact ? styles.compact : undefined}>
             {honeypot}
             {/* Поле для имени */}
             <div className={styles.inputWrapper}>

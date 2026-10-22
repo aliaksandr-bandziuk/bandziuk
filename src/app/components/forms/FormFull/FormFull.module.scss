@@ -108,3 +108,69 @@
 .loader {
   @include formFields.loader-spinner;
 }
+
+// Contact popup (ModalFull passes `compact`). The page form keeps its size;
+// in the popup every field, gap and the button are tighter so the whole form
+// fits a phone screen. Field text stays 16px: below that iOS zooms the page
+// in on focus.
+.compact {
+  .inputWrapper {
+    margin-bottom: 10px;
+  }
+
+  .inputField {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 46px;
+    font-size: 1rem;
+  }
+
+  .label {
+    left: 46px;
+  }
+
+  .icon,
+  .iconMessage {
+    left: 16px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .iconMessage {
+    top: 14px;
+  }
+
+  .labelMessage {
+    top: 24px;
+  }
+
+  .phoneInput {
+    padding: 12px 16px;
+  }
+
+  // the phone field's leading icon (flag or the 32px international icon) is
+  // wider than the other icons
+  .labelPhone {
+    left: 60px;
+  }
+
+  textarea.inputField {
+    height: 88px;
+    min-height: 88px;
+  }
+
+  .customCheckbox {
+    margin: 4px 0 14px;
+
+    label {
+      font-size: 12px;
+      line-height: 1.35;
+    }
+  }
+
+  .sentBtn {
+    height: 52px;
+    padding: 0 24px;
+    font-size: 16px;
+  }
+}

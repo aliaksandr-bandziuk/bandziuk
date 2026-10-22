@@ -116,6 +116,11 @@ export const constructionSeoPl = {
         h2("Realizacje jako treść SEO na stronie firmy budowlanej"),
         p("Ukończone realizacje to najsilniejsza treść, jaką ma firma budowlana, a na większości stron wyszukiwarka nie może jej przeczytać: galeria zdjęć bez tekstu nic nie mówi Google. Podstrona realizacji, która jest wysoko w wynikach, ma fakty zapisane tekstem — rodzaj prac, miejsce, metraż, czas, potrzebę klienta — obok zdjęć, i linki do pasujących podstron usługi i miejscowości."),
         p("Wtedy każda nowa realizacja staje się nową podstroną, którą można znaleźć po rodzaju prac i miejscu."),
+        p(
+          "Jak zbudować taką stronę — podstrony, portfolio uzupełniane przez ekipę, formularz wyceny — opisuję na stronie ",
+          link("strona internetowa dla firmy budowlanej", "/pl/strona-internetowa-dla-firmy-budowlanej"),
+          ".",
+        ),
 
         h2("Opinie i zaufanie w pozycjonowaniu firmy budowlanej"),
         p("Budowa to droga decyzja i opinie czyta się tu uważniej niż w większości usług. Ustawiam stały proces: klient jest proszony o opinię przy odbiorze prac, każda opinia dostaje odpowiedź w ciągu kilku dni, a w opiniach zwykłymi słowami pada nazwa prac i miejscowości — to przy okazji pomaga wizytówce pojawiać się w takich wyszukiwaniach."),

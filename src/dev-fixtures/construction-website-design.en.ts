@@ -147,6 +147,11 @@ export const constructionWebsiteDesignEn = {
           link("SEO for construction companies", "/seo-for-construction-companies"),
           " page.",
         ),
+        p(
+          "What goes into the build — the project portfolio, the quote form, hosting and ownership — is covered on the ",
+          link("construction company website", "/construction-company-website"),
+          " page.",
+        ),
 
         h2("How much construction website design costs"),
         p("Design is not sold separately; it is part of building the website, and the price covers both."),

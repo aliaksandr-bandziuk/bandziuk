@@ -116,6 +116,8 @@ Finished projects are the strongest content a construction company has, and on m
 
 Every new project then becomes a new page that can be found for the job and the place. How such pages are designed is covered on the [construction website design](/construction-website-design) page.
 
+What the website itself needs — the pages, the portfolio your team updates, the quote form — is covered on the [construction company website](/construction-company-website) page.
+
 ### Reviews and trust signals in construction SEO
 
 Construction is an expensive decision, and clients read reviews more carefully than in most services. I set up a routine: the client is asked for a review at handover, every review gets an answer within a few days, and reviews mention the job and the area in plain words, which also helps the profile appear for those searches.

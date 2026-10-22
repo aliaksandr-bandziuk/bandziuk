@@ -154,6 +154,8 @@ If you already have a website and want a new design without losing your Google p
 
 Design brings enquiries from clients who are already on the site. Getting found in the first place — Google Maps, local search, AI answers — is covered on the [SEO for construction companies](/seo-for-construction-companies) page.
 
+What goes into the build — the project portfolio, the quote form, hosting and ownership — is covered on the [construction company website](/construction-company-website) page.
+
 ### How much construction website design costs
 
 Design is not sold separately; it is part of building the website, and the price covers both.

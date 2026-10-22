@@ -116,6 +116,8 @@ Ukończone realizacje to najsilniejsza treść, jaką ma firma budowlana, a na w
 
 Wtedy każda nowa realizacja staje się nową podstroną, którą można znaleźć po rodzaju prac i miejscu.
 
+Jak zbudować taką stronę — podstrony, portfolio uzupełniane przez ekipę, formularz wyceny — opisuję na stronie [strona internetowa dla firmy budowlanej](/pl/strona-internetowa-dla-firmy-budowlanej).
+
 ### Opinie i zaufanie w pozycjonowaniu firmy budowlanej
 
 Budowa to droga decyzja i opinie czyta się tu uważniej niż w większości usług. Ustawiam stały proces: klient jest proszony o opinię przy odbiorze prac, każda opinia dostaje odpowiedź w ciągu kilku dni, a w opiniach zwykłymi słowami pada nazwa prac i miejscowości — to przy okazji pomaga wizytówce pojawiać się w takich wyszukiwaniach.

@@ -116,6 +116,11 @@ export const constructionSeoEn = {
           link("construction website design", "/construction-website-design"),
           " page.",
         ),
+        p(
+          "What the website itself needs — the pages, the portfolio your team updates, the quote form — is covered on the ",
+          link("construction company website", "/construction-company-website"),
+          " page.",
+        ),
 
         h2("Reviews and trust signals in construction SEO"),
         p("Construction is an expensive decision, and clients read reviews more carefully than in most services. I set up a routine: the client is asked for a review at handover, every review gets an answer within a few days, and reviews mention the job and the area in plain words, which also helps the profile appear for those searches."),

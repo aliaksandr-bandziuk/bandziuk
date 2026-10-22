@@ -9,9 +9,9 @@ export const restaurantWebsiteDesignEn = {
   title: "Restaurant website design",
   heading: "Restaurant Website Design",
   excerpt:
-    "A first screen that tells guests what you cook, whether you are open and how to book, designed for the phone they are holding.",
+    "I design and build restaurant websites: a first screen that tells guests what you cook, whether you are open and how to book, on the phone they are holding.",
   seo: {
-    metaTitle: "Restaurant Website Design — Menus, Photos, Mobile | Bandziuk",
+    metaTitle: "Restaurant Web Design: Mobile, Menu, Photos | Bandziuk",
     metaDescription:
       "Restaurant website design built for the phone: a first screen that answers what, when and how to book, a readable menu and food photos that load fast.",
   },
@@ -42,23 +42,23 @@ export const restaurantWebsiteDesignEn = {
       _type: "portfolioPickBlock",
       _key: k("b"),
       eyebrow: "Portfolio",
-      title: "Websites I have designed and built",
-      subtitle: "Chosen for what a restaurant site needs: a premium look, speed on mobile, bookings and languages.",
+      title: "Web design portfolio: websites I have designed and built",
+      subtitle: "No restaurant among them yet. These are chosen for what a restaurant site needs: a premium look, speed on a phone, a booking form and several languages.",
       // project slugs, resolved to references (preview: at request time;
       // create script: before writing). Card tags come from each project.
       picks: [
         "renovation-and-investment-website-with-premium-design",
-        "psychotherapist-website-milan",
         "official-website-for-dj-and-producer-sasha-dith",
-        "architecture-website-rebuild-and-seo-scan",
         "tyre-storage-landing-page-with-editable-seo",
+        "psychotherapist-website-milan",
+        "architecture-website-rebuild-and-seo-scan",
       ],
     },
     {
       _type: "quoteFormBlock",
       _key: k("b"),
       title: "Get a quote for your restaurant website design",
-      subtitle: "Name the restaurant and where to reach you. I reply within one business day with a proposed structure for the home and menu pages and a fixed price.",
+      subtitle: "I reply within one business day with a proposed structure for the home and menu pages and a fixed price.",
       contextLabel: "Restaurant name or current website",
       contextPlaceholder: "Link or name",
       buttonText: "Send and get a quote",
@@ -74,6 +74,7 @@ export const restaurantWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design restaurant websites and build them myself, so the design and the build come from one person at one price. The design starts from how guests choose a restaurant: on their phone, in a few seconds, often while standing outside another one. In those seconds the site has to show what you cook, whether you are open and how to get a table."),
         h2("What restaurant website design has to answer in the first five seconds"),
         p("Almost every visit to a restaurant website starts with one of three questions: what do they serve, are they open, can I get a table. A good design answers all three on the first screen of a phone, before anyone scrolls."),
         p("That first screen holds four things and nothing else:"),
@@ -84,7 +85,7 @@ export const restaurantWebsiteDesignEn = {
         p("The story of the chef, the interior, the awards and the gift vouchers go below. They matter, but nobody reads them before deciding where to eat tonight. On a phone the booking button stays fixed at the bottom of the screen, so it is one tap away from anywhere on the page."),
 
         h2("Restaurant menu design: readable on a phone, not a PDF"),
-        p("The menu is the page guests open most, and it is where most restaurant websites fail. A PDF menu opens in a separate viewer, needs zooming, is slow on mobile data and is often out of date because updating it means sending a new file to someone."),
+        p("The online menu is the page guests open most, and it is where most restaurant websites fail. A PDF menu opens in a separate viewer, needs zooming, is slow on mobile data and is often out of date because updating it means sending a new file to someone."),
         p("A menu designed for the web works differently:"),
         li("sections in the order guests read them — starters, mains, desserts, drinks — with a jump bar at the top"),
         li("every dish as a line of text: name, one short description, price aligned on the right"),
@@ -109,7 +110,7 @@ export const restaurantWebsiteDesignEn = {
         p("The website should feel like walking in. The design system comes from what already exists in the restaurant: the sign, the printed menu, the materials and colours of the interior. A new visual identity is not part of the job unless you want one."),
         p("In practice that means two typefaces at most, a small palette built from the venue’s own colours and text that meets the WCAG contrast ratio of 4.5:1, so it stays readable in sunlight on a phone screen. The tone of the copy follows the place: a neighbourhood wine bar and a hotel restaurant should not sound the same."),
 
-        h2("Restaurant website design examples: what good restaurant sites have in common"),
+        h2("Restaurant website design examples: what the best restaurant websites have in common"),
         p("Galleries of restaurant website examples are full of slow, image-heavy pages that look good on a large monitor and fall apart on a phone. The restaurant sites that bring bookings tend to share a few plain decisions:"),
         li("one clear booking path, repeated on every page, instead of a phone number hidden in the footer"),
         li("the address with a map link and directions near the top, not only on a contact page"),
@@ -117,8 +118,8 @@ export const restaurantWebsiteDesignEn = {
         li("language versions where the guests are tourists or expats, with the menu translated, not only the home page"),
         li("no autoplay video, no full-screen intro, no music"),
 
-        h2("Restaurant website design or a template builder"),
-        p("A template builder is a reasonable choice for a small café with a short, stable menu and no plans to grow. You get a tidy page quickly and pay a monthly subscription."),
+        h2("Restaurant website design or a restaurant website template"),
+        p("A free or paid restaurant website template on a builder is a reasonable choice for a small café with a short, stable menu and no plans to grow. You get a tidy page quickly and pay a monthly subscription."),
         p("Custom design starts to pay off when the restaurant has more than one location, runs events and group bookings, needs several languages, or depends on being found in local search. Templates make all of these possible but rarely make them work well, and moving away from a builder later usually means rebuilding the site from scratch."),
 
         h2("How the restaurant website design process works"),
@@ -146,7 +147,7 @@ export const restaurantWebsiteDesignEn = {
       faq: {
         _type: "accordionBlock",
         items: [
-          ["How much does restaurant website design cost?", "Design is included in the price of the website: 700–1,400 € for a simple restaurant site, from 2,000 € for a site with a structured menu, bookings, events and local search optimisation. After a short description of the restaurant I give a fixed quote."],
+          ["How much does it cost to design a restaurant website?", "Design is included in the price of the website: 700–1,400 € for a simple restaurant site, from 2,000 € for a site with a structured menu, bookings, events and local search optimisation. After a short description of the restaurant I give a fixed quote."],
           ["Do you design restaurant websites without building them?", "No. Design and build come together. A design that is handed over as pictures loses most of its value in the hand-over: menu layouts, mobile behaviour and loading speed are decided while building, not in a mock-up."],
           ["Can you redesign our restaurant website without losing Google rankings?", "Yes. Before the new design goes live, every existing address is mapped to its new page, redirects are set up and structured data is carried over, so the positions the site already has are not lost."],
           ["Will the new design work with our table booking system?", "Most booking systems provide a widget or a booking link. The design places it where guests expect it — on the first screen and in a fixed button on mobile — and keeps the look consistent with the rest of the site."],
@@ -161,7 +162,13 @@ export const restaurantWebsiteDesignEn = {
       _key: k("b"),
       content: [
         h2("Order restaurant website design: what to send me"),
-        p("Send the name and address of the restaurant, a link to the current website or social profile, and the menu. If you use a booking system, name it. I will reply with a proposed structure for the home page and menu page, and a fixed price."),
+        p(
+          "Send the name and address of the restaurant, a link to the current website or social profile, and the menu. If you use a booking system, name it. I will reply with a proposed structure for the home page and menu page, and a fixed price. Use the ",
+          link("form above", "#quote"),
+          " or write on ",
+          link("WhatsApp", "https://wa.me/48786517446"),
+          ".",
+        ),
       ],
     },
   ],

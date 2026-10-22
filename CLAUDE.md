@@ -1083,6 +1083,17 @@ article carried no body links at all while the English one did, and the Russian
 AI-readiness service page was missing a sentence its EN and PL versions both
 had. A translated set does not stay in sync by itself.
 
+### New landing pages: keyword research first (2026-10-22)
+
+Before writing any new pSEO page, collect its semantic core unless it already
+exists: `node scripts/dataforseo/pseo-page-core.cjs --topic <slug>` (seeds are
+set per topic inside the script; needs network, so run it on the developer
+machine). The report `research/pseo/page-core/<slug>.md` is the source for
+H2/H3, FAQ and meta. Phrases it marks as belonging to the development or SEO
+page are not targeted. Languages are decided per topic from the same report:
+a PL or RU version is made only when there is real demand. Example: restaurant
+website design is EN only, because PL and RU demand was 90/mo or less.
+
 ### Landing page layout "variant A" (2026-10): offerListBlock, portfolioPickBlock, quoteFormBlock, guide text, stickyCta
 
 New pSEO landing pages use this order after the hero: `offerListBlock` → `portfolioPickBlock` → `quoteFormBlock` → `textContent` with `layout: "guide"` → `faqBlock` → a short closing `textContent`. Do not put `benefitsBlock` (hardcoded stats) at the top of these pages.

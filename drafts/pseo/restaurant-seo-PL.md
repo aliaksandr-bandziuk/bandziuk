@@ -151,7 +151,7 @@ Te kroki są bezpłatne i zajmują jedno popołudnie. Nie zastępują pracy nad 
 - Jednorazowe poprawki — menu w tekście, uporządkowanie wizytówki, dane strukturalne: od 1000 do 3000 zł.
 - Stałe pozycjonowanie restauracji — wyszukiwanie lokalne, podstrony, proces opinii i raporty: od 3500 zł miesięcznie.
 
-W wielu restauracjach menu w tekście i uporządkowana wizytówka dają większość efektu, a audyt pokazuje, czy stała praca jest w ogóle potrzebna. Pełne widełki są w [cenniku](/pl/cennik). Restauracje z Warszawy znajdą szczegóły na stronie [pozycjonowanie strony restauracji w Warszawie](/pl/pozycjonowanie-strony-restauracji-warszawa).
+W wielu restauracjach menu w tekście i uporządkowana wizytówka dają większość efektu, a audyt pokazuje, czy stała praca jest w ogóle potrzebna. Pełne widełki są w [cenniku](/pl/cennik). Restauracje z Warszawy znajdą szczegóły na stronie [pozycjonowanie strony restauracji w Warszawie](/pl/oferty/pozycjonowanie-strony-restauracji-warszawa).
 
 ---
 

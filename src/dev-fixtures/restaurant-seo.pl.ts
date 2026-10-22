@@ -147,7 +147,7 @@ export const restaurantSeoPl = {
           "W wielu restauracjach menu w tekście i uporządkowana wizytówka dają większość efektu, a audyt pokazuje, czy stała praca jest w ogóle potrzebna. Pełne widełki są w ",
           link("cenniku", "/pl/cennik"),
           ". Restauracje z Warszawy znajdą szczegóły na stronie ",
-          link("pozycjonowanie strony restauracji w Warszawie", "/pl/pozycjonowanie-strony-restauracji-warszawa"),
+          link("pozycjonowanie strony restauracji w Warszawie", "/pl/oferty/pozycjonowanie-strony-restauracji-warszawa"),
           ".",
         ),
       ],

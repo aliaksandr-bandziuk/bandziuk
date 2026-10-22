@@ -1,49 +1,35 @@
-# Restaurant website design — EN, landing format A (v2)
+# Restaurant website design — EN, landing format A
 
 URL: /restaurant-website-design
-Main queries (DataForSEO, 2026-10-22): restaurant web design 880 · website design restaurant 880 · restaurant website design 720 · web design for restaurants 720 · restaurant website template 480 / templates 1,300 · restaurant website examples 170
-Semantic core: research/pseo/page-core/restaurant-website-design.md — «restaurant menu design» (3,600) is print menu cards, not targeted
-Languages: EN only — PL/RU demand too small (decision 2026-10-22)
-Related page (development, already live): /restaurant-website — linked, not repeated
-
-Page settings: Hero layout = Landing · Sticky contact bar on phones = on
-Meta title (54) [CHANGED — semantic core]: Restaurant Web Design: Mobile, Menu, Photos | Bandziuk
-Meta description (154): Restaurant website design built for the phone: a first screen that answers what, when and how to book, a readable menu and food photos that load fast.
-
-Rule for every landing page: the first sentence under H1 says plainly who provides which service ("I design and build restaurant websites: …"), so search engines and AI assistants can quote it as a fact.
-
-Marks: [NEW] — text written for the new blocks, not in the approved v1 · [CHANGED] — reworded from v1 · no mark — approved v1 text
+Meta title (54): Restaurant Web Design: Mobile, Menu, Photos | Bandziuk
+Meta description (150): Restaurant website design built for the phone: a first screen that answers what, when and how to book, a readable menu and food photos that load fast.
 
 ---
 
-## 1. Hero (LandingHero)
+## 1. Hero
 
 H1: Restaurant Website Design
 
-Text under H1 [CHANGED — opens with the service; the long intro moved to the guide, block 5]:
-I design and build restaurant websites: a first screen that tells guests what you cook, whether you are open and how to book, on the phone they are holding.
+Text under H1: I design and build restaurant websites: a first screen that tells guests what you cook, whether you are open and how to book, on the phone they are holding.
 
-Facts (chips, first highlighted) [NEW]:
+Chips:
 - Design + build, one price
 - From 700 €
 - Reply within one business day
 
-Phone sketch labels, desktop only [NEW]:
+Phone sketch labels (desktop):
 01 What you cook
 02 Open today until 23:00
 03 One real photo
 04 Menu · Book a table
 
-Buttons: Request Personal Offer · Chat on WhatsApp (site-wide, not page copy)
-
 ---
 
-## 2. What you get (offerListBlock) [NEW]
+## 2. What you get (offerListBlock)
 
 Eyebrow: What you get
 H2: What you get with restaurant website design
 
-Rows (icon — title — one line):
 - smartphone — A first screen built for the phone — Cuisine, today’s hours, Menu and Book buttons
 - utensils — A menu you can read without zooming — Text, not PDF, with allergen marks
 - image — Food photos that load fast — 8–12 strong shots, main image under 2.5 s
@@ -57,42 +43,38 @@ Price cards:
 
 ---
 
-## 3. Portfolio (portfolioPickBlock) [NEW]
+## 3. Portfolio (portfolioPickBlock)
 
 Eyebrow: Portfolio
 H2: Web design portfolio: websites I have designed and built
 Subtitle: No restaurant among them yet. These are chosen for what a restaurant site needs: a premium look, speed on a phone, a booking form and several languages.
 
-Projects, in this order (tags come from each case):
-1. Renovation and investment website — 96/98/100/100 · Design system · 2 languages
-2. Official website for DJ and producer Sasha Dith — Loads in under 1 s · Booking form · Video and music
-3. Multilingual landing page for a tyre storage business — 100/95/100/100 · 3 languages · Client edits it
-4. Bilingual psychotherapist website in Italy — 468 of 468 posts moved · 2 languages · Seen in ChatGPT answers
-5. Architecture website rebuild and SEO — 29× organic traffic · Loads in under 1 s · Top 3 in Poland
-
-(Order changed: the DJ site with its booking form moves up to second place, because a booking form is the closest thing to a restaurant’s table booking.)
+Projects (tags come from each case):
+1. renovation-and-investment-website-with-premium-design
+2. official-website-for-dj-and-producer-sasha-dith
+3. tyre-storage-landing-page-with-editable-seo
+4. psychotherapist-website-milan
+5. architecture-website-rebuild-and-seo-scan
 
 ---
 
-## 4. Short form (quoteFormBlock) [NEW] — A/B: auto (short form or quiz, by page)
+## 4. Quote form (quoteFormBlock, A/B: auto)
 
 H2: Get a quote for your restaurant website design
-Text under H2 [CHANGED — now fits both variants]: I reply within one business day with a proposed structure for the home and menu pages and a fixed price.
+Text under H2: I reply within one business day with a proposed structure for the home and menu pages and a fixed price.
 
-Short form: Name · Email · third field “Restaurant name or current website” · consent
+Third field: Restaurant name or current website (placeholder: Link or name)
 Button: Send and get a quote
-Note under the button: Or write on WhatsApp — same reply time. (the word WhatsApp is the link)
+Note: Or write on WhatsApp — same reply time.
 
-Quiz variant, step 1:
+Quiz step 1:
 - What do you have now? — No website · A builder site · An old website
 - What kind of place? — Café · Restaurant · Bar · Several locations
-Step 2: the same short form.
 
 ---
 
 ## 5. Guide (textContent, layout Guide)
 
-Intro before the first H2 [CHANGED — moved here from the hero, now opens with the service]:
 I design restaurant websites and build them myself, so the design and the build come from one person at one price. The design starts from how guests choose a restaurant: on their phone, in a few seconds, often while standing outside another one. In those seconds the site has to show what you cook, whether you are open and how to get a table.
 
 ### What restaurant website design has to answer in the first five seconds
@@ -102,7 +84,7 @@ Almost every visit to a restaurant website starts with one of three questions: w
 That first screen holds four things and nothing else:
 
 - the name of the place and what kind of food it serves, in plain words
-- today's opening hours, not the whole week
+- today’s opening hours, not the whole week
 - two buttons: Menu and Book a table
 - one photograph that shows the food or the room as guests will actually see it
 
@@ -120,7 +102,7 @@ A menu designed for the web works differently:
 - body text at 16 px or larger, so nobody has to zoom
 - seasonal or daily dishes marked, so a guest knows what is on today
 
-Because the menu is text and not a picture, search engines and AI assistants can read the dishes and connect them to your restaurant. Someone looking for "ramen near me" or asking an assistant where to eat khachapuri can find you by what you actually cook. How the menu is edited from your phone is covered on the [restaurant website development](/restaurant-website) page.
+Because the menu is text and not a picture, search engines and AI assistants can read the dishes and connect them to your restaurant. Someone looking for “ramen near me” or asking an assistant where to eat khachapuri can find you by what you actually cook. How the menu is edited from your phone is covered on the [restaurant website development](/restaurant-website) page.
 
 ### Food photography in restaurant web design: fewer photos, better ones
 
@@ -138,9 +120,9 @@ Every photo is compressed into modern formats and loaded only when it comes into
 
 The website should feel like walking in. The design system comes from what already exists in the restaurant: the sign, the printed menu, the materials and colours of the interior. A new visual identity is not part of the job unless you want one.
 
-In practice that means two typefaces at most, a small palette built from the venue's own colours and text that meets the WCAG contrast ratio of 4.5:1, so it stays readable in sunlight on a phone screen. The tone of the copy follows the place: a neighbourhood wine bar and a hotel restaurant should not sound the same.
+In practice that means two typefaces at most, a small palette built from the venue’s own colours and text that meets the WCAG contrast ratio of 4.5:1, so it stays readable in sunlight on a phone screen. The tone of the copy follows the place: a neighbourhood wine bar and a hotel restaurant should not sound the same.
 
-### Restaurant website design examples: what the best restaurant websites have in common [CHANGED — semantic core]
+### Restaurant website design examples: what the best restaurant websites have in common
 
 Galleries of restaurant website examples are full of slow, image-heavy pages that look good on a large monitor and fall apart on a phone. The restaurant sites that bring bookings tend to share a few plain decisions:
 
@@ -150,7 +132,7 @@ Galleries of restaurant website examples are full of slow, image-heavy pages tha
 - language versions where the guests are tourists or expats, with the menu translated, not only the home page
 - no autoplay video, no full-screen intro, no music
 
-### Restaurant website design or a restaurant website template [CHANGED — semantic core]
+### Restaurant website design or a restaurant website template
 
 A free or paid restaurant website template on a builder is a reasonable choice for a small café with a short, stable menu and no plans to grow. You get a tidy page quickly and pay a monthly subscription.
 
@@ -164,6 +146,8 @@ Custom design starts to pay off when the restaurant has more than one location, 
 4. Build. The approved design is built into a fast website you can edit yourself — described on the [restaurant website development](/restaurant-website) page.
 
 If you already have a website and want a new design without losing your Google positions, the [website redesign](/services/website-redesign-services) process keeps addresses, redirects and structured data in place.
+
+Design turns guests who are already on the site into bookings. Getting found in the first place — Google Maps, local search, AI answers — is covered on the [restaurant SEO](/restaurant-seo) page.
 
 ### How much restaurant website design costs
 
@@ -180,7 +164,7 @@ Send me a short description of the restaurant and I will prepare a fixed quote. 
 
 H2: Restaurant website design: frequently asked questions
 
-**How much does it cost to design a restaurant website?** [CHANGED — People also ask wording]
+**How much does it cost to design a restaurant website?**
 Design is included in the price of the website: 700–1,400 € for a simple restaurant site, from 2,000 € for a site with a structured menu, bookings, events and local search optimisation. After a short description of the restaurant I give a fixed quote.
 
 **Do you design restaurant websites without building them?**
@@ -203,10 +187,8 @@ Yes. For restaurants with tourists or expat guests, the menu and booking page ar
 
 ---
 
-## 7. Closing block (textContent)
+## 7. Text (textContent)
 
-H2: Order restaurant website design: what to send me
+### Order restaurant website design: what to send me
 
-Send the name and address of the restaurant, a link to the current website or social profile, and the menu. If you use a booking system, name it. I will reply with a proposed structure for the home page and menu page, and a fixed price. [CHANGED — added:] Use the [form above](#quote) or write on [WhatsApp](https://wa.me/48786517446).
-
-(The site footer adds its own contact band with the full form below this block.)
+Send the name and address of the restaurant, a link to the current website or social profile, and the menu. If you use a booking system, name it. I will reply with a proposed structure for the home page and menu page, and a fixed price. Use the [form above](#quote) or write on [WhatsApp](https://wa.me/48786517446).

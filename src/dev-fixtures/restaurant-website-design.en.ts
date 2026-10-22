@@ -132,6 +132,11 @@ export const restaurantWebsiteDesignEn = {
           link("website redesign", "/services/website-redesign-services"),
           " process keeps addresses, redirects and structured data in place.",
         ),
+        p(
+          "Design turns guests who are already on the site into bookings. Getting found in the first place — Google Maps, local search, AI answers — is covered on the ",
+          link("restaurant SEO", "/restaurant-seo"),
+          " page.",
+        ),
 
         h2("How much restaurant website design costs"),
         p("Design is not sold separately; it is part of building the website, and the price covers both."),

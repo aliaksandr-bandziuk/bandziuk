@@ -66,6 +66,55 @@ const TOPICS = {
       ru: ["дизайн сайта ресторана", "сайт для ресторана"],
     },
   },
+  // Topic 3–5 survey (22.10.2026): construction — development, design and SEO
+  // in one run, split by service. Only the Warsaw SEO pages (PL/RU) exist.
+  "construction": {
+    relevant: /construct|contractor|budowl|budownict|remont|wykończ|строител|стройк|ремонт|подрядч|застройщ/i,
+    otherPage: {
+      warsaw: /warsz|warsaw|варшав/i,
+    },
+    groups: {
+      "SEO / promotion": /\bseo\b|marketing|pozycjon|reklam|продвиж|раскрут|маркетинг|реклам/i,
+      "design / templates": /design|template|theme|example|idea|inspiration|projektow|projekt strony|szablon|дизайн|шаблон|пример/i,
+      "website / development": /website|web site|site\b|strona|stron|сайт/i,
+    },
+    seeds: {
+      en: ["construction company website", "construction website design", "construction company website design", "contractor website design", "general contractor website", "construction seo", "seo for contractors", "construction company seo"],
+      pl: ["strona internetowa dla firmy budowlanej", "strona firmy budowlanej", "projektowanie stron dla firm budowlanych", "strona dla firmy remontowej", "pozycjonowanie firmy budowlanej", "marketing firmy budowlanej"],
+      ru: ["сайт строительной компании", "сайт для строительной компании", "дизайн сайта строительной компании", "сайт для строительной фирмы", "продвижение сайта строительной компании", "раскрутка сайта строительной компании", "seo для строительной компании"],
+    },
+    serp: {
+      en: ["construction website design", "construction company seo"],
+      pl: ["strona internetowa dla firmy budowlanej"],
+      ru: ["сайт строительной компании"],
+    },
+  },
+  // Re-check (22.10.2026): PL construction SEO in the right form («pozycjonowanie
+  // STRONY firmy budowlanej», plurals), more RU SEO phrasing, and the property
+  // developer pages (/property-developer-website, /pl/strona-dla-dewelopera,
+  // /ru/sait-dlya-zastroishchika) — EN demand was 0 in the grid, likely the
+  // same «website for X» template gap.
+  "construction-recheck": {
+    relevant: /construct|contractor|builder|developer|budowl|deweloper|nieruchomo|строител|застройщ|девелопер|недвиж/i,
+    otherPage: {
+      warsaw: /warsz|warsaw|варшав/i,
+    },
+    groups: {
+      "developer": /developer|home builder|deweloper|застройщ|девелопер/i,
+      "construction SEO / promotion": /\bseo\b|marketing|pozycjon|reklam|продвиж|раскрут|маркетинг|реклам/i,
+      "construction website": /website|site\b|strona|stron|www|сайт/i,
+    },
+    seeds: {
+      en: ["property developer website", "real estate developer website", "real estate developer website design", "home builder website design", "home builder seo", "real estate developer seo"],
+      pl: ["pozycjonowanie strony firmy budowlanej", "pozycjonowanie firm budowlanych", "seo dla firm budowlanych", "strony internetowe dla firm budowlanych", "strona www dla firmy budowlanej", "reklama firmy budowlanej", "strona dla dewelopera", "pozycjonowanie dewelopera"],
+      ru: ["продвижение строительной компании", "seo продвижение строительной компании", "раскрутка строительной компании", "реклама строительной компании", "сайты строительных компаний", "сайт застройщика", "продвижение застройщика"],
+    },
+    serp: {
+      en: ["real estate developer website"],
+      pl: ["pozycjonowanie strony firmy budowlanej"],
+      ru: ["продвижение строительной компании"],
+    },
+  },
   // Survey (22.10.2026): food-service venues next to restaurants. The matrix
   // never measured them — cafés, coffee shops, bars and pizzerias are not in
   // the industry dictionary, and its EN templates only build «website for

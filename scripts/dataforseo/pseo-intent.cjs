@@ -68,6 +68,30 @@ PAIR_SETS.food = [
   ["пиццерия vs ресторан", "ru", "сайт пиццерии", "сайт для ресторана"],
 ];
 
+// 22.10.2026: construction — whose demand, and where development, design
+// and SEO split (research/pseo/page-core/construction.md).
+PAIR_SETS.construction = [
+  ["стройка: дизайн vs разработка", "en", "construction website design", "construction company website"],
+  ["стройка = подрядчик? (дизайн)", "en", "construction website design", "contractor website design"],
+  ["стройка: SEO vs разработка", "en", "construction seo", "construction company website"],
+  ["стройка = подрядчик? (SEO)", "en", "construction seo", "seo for contractors"],
+  ["стройка: разработка vs дизайн", "pl", "strona internetowa dla firmy budowlanej", "projektowanie stron dla firm budowlanych"],
+  ["стройка: разработка vs SEO", "pl", "strona internetowa dla firmy budowlanej", "pozycjonowanie firmy budowlanej"],
+  ["стройка: разработка vs дизайн", "ru", "сайт строительной компании", "дизайн сайта строительной компании"],
+  ["стройка: разработка vs SEO", "ru", "сайт строительной компании", "продвижение сайта строительной компании"],
+];
+
+// 22.10.2026: is a property developer page the same intent as a
+// construction company page? And is «marketing firmy budowlanej» SEO intent?
+PAIR_SETS.developer = [
+  ["застройщик vs стройка", "en", "real estate developer website", "construction company website"],
+  ["застройщик vs стройка (дизайн)", "en", "home builder website design", "construction website design"],
+  ["застройщик vs стройка", "pl", "strona dla dewelopera", "strona internetowa dla firmy budowlanej"],
+  ["маркетинг = SEO?", "pl", "marketing firmy budowlanej", "pozycjonowanie strony firmy budowlanej"],
+  ["застройщик vs стройка", "ru", "сайт застройщика", "сайт для строительной компании"],
+  ["застройщик vs стройка (SEO)", "ru", "продвижение сайта застройщика", "продвижение сайта строительной компании"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

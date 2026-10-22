@@ -1,0 +1,4260 @@
+{
+ "docs": {
+  "en": {
+   "_id": "blog-new-site-first-month",
+   "_type": "blog",
+   "language": "en",
+   "title": "\"Discovered — currently not indexed\": 28 days of tatsianabandziuk.com in Search Console",
+   "slug": {
+    "_type": "localizedSlug",
+    "en": {
+     "_type": "slug",
+     "current": "discovered-currently-not-indexed-new-site-data"
+    }
+   },
+   "seo": {
+    "metaTitle": "Discovered, currently not indexed: data from a new site",
+    "metaDescription": "71 pages stuck in \"Discovered - currently not indexed\" on a one-month-old site: the full Search Console export, what caused it and what did not fix it."
+   },
+   "excerpt": "First impressions on day two, 70 pages indexed in nine days, and 71 pages still sitting in \"Discovered - currently not indexed\" three weeks in. The complete analytics export from tatsianabandziuk.com, a site I built and opened to indexing on 18 September.",
+   "publishedAt": "2026-10-15T09:00:00.000Z",
+   "category": {
+    "_type": "reference",
+    "_ref": "c2bd4f3d-2c31-4aca-80c3-f9e4302d9b3f"
+   },
+   "previewImage": {
+    "_type": "image",
+    "alt": "Indexing diagram: 160 pages of a site on the left, half the streams stopping at the crawl, 81 indexed pages on the right",
+    "asset": {
+     "_type": "reference",
+     "_ref": "image-899ee1d868260b30e8a06f34508d51aee5c5efe0-1608x728-png"
+    }
+   },
+   "contentBlocks": [
+    {
+     "_key": "b7d49de31ef5",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "849e234fbdb1",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [
+        {
+         "_key": "85b5d8ef9136",
+         "_type": "link",
+         "href": "https://www.tatsianabandziuk.com"
+        }
+       ],
+       "children": [
+        {
+         "_key": "058e3fd2e196",
+         "_type": "span",
+         "marks": [],
+         "text": "This is a diary of my own project, not a retelling of someone else's statistics. On 18 September 2026 I opened "
+        },
+        {
+         "_key": "73b1fa9d3b97",
+         "_type": "span",
+         "marks": [
+          "85b5d8ef9136"
+         ],
+         "text": "tatsianabandziuk.com"
+        },
+        {
+         "_key": "0472f360426a",
+         "_type": "span",
+         "marks": [],
+         "text": " to indexing — a trilingual site for a retail analytics consultant that I designed and built myself. 160 pages, no backlinks, no domain history, no branded demand. I have access to its Search Console, Bing Webmaster Tools and Clarity accounts, so the exports below are published in full and with screenshots."
+        }
+       ]
+      },
+      {
+       "_key": "d15565438b9a",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "afb0c5ef2bd5",
+         "_type": "span",
+         "marks": [],
+         "text": "The short answer first: the first impressions in Google appeared on day two after I opened the site to indexing, 70 of its 160 pages were indexed within nine days, and three weeks in half the site was still outside the index — 71 pages in "
+        },
+        {
+         "_key": "f4d3dead39fd",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "\"Discovered — currently not indexed\""
+        },
+        {
+         "_key": "5fc34933b0bd",
+         "_type": "span",
+         "marks": [],
+         "text": ". The first clicks came on day ten. The totals for the 28-day measurement window, 18 September to 15 October: 1,068 impressions and 6 clicks. The day-by-day data runs to 11 October — Search Console is still settling the final days."
+        }
+       ]
+      },
+      {
+       "_key": "8052e734eeff",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "e31e1e03c4db",
+         "_type": "span",
+         "marks": [],
+         "text": "Where the numbers come from. Impressions, clicks, CTR and positions — the Performance report in Google Search Console for 18 September to 15 October, all devices and all countries, no filters applied. The state of the index — the Page indexing report as of 14 October. Sessions and referrers — Microsoft Clarity for the same period, with its own bot filter. Bing impressions — Bing Webmaster Tools for 20 September to 11 October. Nothing is recalculated, rounded or averaged: every section carries a screenshot of the report its numbers come from."
+        }
+       ]
+      },
+      {
+       "_key": "1124ed508ad1",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "e7449d836dc7",
+         "_type": "span",
+         "marks": [],
+         "text": "Two things come without a screenshot: the query table and the reason breakdown in the indexing report. Both show specific URLs and queries I am not publishing, so those numbers appear as text — and you have as much reason to take them on trust as anyone else's. Everything else is attached as exported."
+        }
+       ]
+      },
+      {
+       "_key": "5845ec790843",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "81a27e889b80",
+         "_type": "span",
+         "marks": [],
+         "text": "Indexing and traffic numbers from the first 28 days"
+        }
+       ]
+      },
+      {
+       "_key": "9e1e81d6a49a",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "220828284be0",
+         "_type": "span",
+         "marks": [],
+         "text": "1,068 impressions and 6 clicks, 0.56% CTR — Search Console, Performance report for 18 September to 15 October"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "1b98d6b0e137",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "97c86b526d90",
+         "_type": "span",
+         "marks": [],
+         "text": "Average position 14.9 across devices — the same report, with no device split applied"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "f3b5f02ee16a",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "2846201b0dc6",
+         "_type": "span",
+         "marks": [],
+         "text": "81 pages indexed and 79 outside the index, 71 of them \"Discovered — currently not indexed\" — Page indexing report as of 14 October"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "3b834fc04fda",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d27d281eaed3",
+         "_type": "span",
+         "marks": [],
+         "text": "43% of all impressions came from one country where nothing is being sold, the Russian-speaking cluster together 59% — country breakdown in Performance"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "905f25242bc6",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "9827cba4e667",
+         "_type": "span",
+         "marks": [],
+         "text": "250 impressions at positions 3–8 produced zero clicks — query breakdown in Performance, no screenshot"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "f085441b81c7",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "b79f424317e0",
+         "_type": "span",
+         "marks": [],
+         "text": "7 real sessions from ChatGPT against 11 from Google — Clarity, referrers report"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "457f86332662",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f1c97fbc6d9a",
+         "_type": "span",
+         "marks": [],
+         "text": "56 impressions and no clicks in Bing — Bing Webmaster Tools for 20 September to 11 October"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "ac06d3119dce",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "0a1c10f68901",
+         "_type": "span",
+         "marks": [],
+         "text": "Zero backlinks: not one was bought or placed by hand at any point"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "_key": "ba16c55a57cc",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Daily Google impressions of a new site: growth from 3 to 110 a day and a fall to 17",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-f2d9d5e00dc2460a184e4be6006d5f5c7f9da7b8-1608x728-png"
+       }
+      }
+     }
+    },
+    {
+     "_key": "59ffe2717664",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "ca08602922c9",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "1ed465dd9631",
+         "_type": "span",
+         "marks": [],
+         "text": "Why these indexing and traffic numbers are real, and why they are not bad"
+        }
+       ]
+      },
+      {
+       "_key": "991ad863afaf",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "ae8d4a9201b6",
+         "_type": "span",
+         "marks": [],
+         "text": "It is easy to find posts about a thousand visits in two weeks and rankings for everything at once. None of it can be checked: no export, no date range, no domain. So this goes the other way — the domain is named at the end of the article, the exports are published, and nothing is rounded in my favour."
+        }
+       ]
+      },
+      {
+       "_key": "4f88e327cb6a",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7d2c73187002",
+         "_type": "span",
+         "marks": [],
+         "text": "Now about \"not bad\". The site is three weeks old. It has no backlinks, no domain history and no branded demand. In those conditions 1,068 impressions, 70 pages indexed in nine days and first clicks in week two are a working start. A failure looks different: zero impressions and an empty index after a month. A thousand visits to a fresh domain with no links in two weeks is either paid traffic, someone else's screenshot, or fiction."
+        }
+       ]
+      },
+      {
+       "_key": "69bcae0f3904",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c1f03ca50bca",
+         "_type": "span",
+         "marks": [],
+         "text": "The uncomfortable parts are here too: 71 pages unindexed, no clicks at all from positions 3–8, and 40% of everything that reached the counter is bots. A diary is only worth reading with those included."
+        }
+       ]
+      },
+      {
+       "_key": "1740fbda5c4c",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "819d07686648",
+         "_type": "span",
+         "marks": [],
+         "text": "Starting position of the new site: three languages, 160 pages, zero backlinks"
+        }
+       ]
+      },
+      {
+       "_key": "55da1a315f81",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "55f11759a5f8",
+         "_type": "span",
+         "marks": [],
+         "text": "The site went live on 18 September 2026 with six service pages, six case studies, 54 articles, five calculators and the usual supporting pages, in English, Polish and Russian, with localised section paths."
+        }
+       ]
+      },
+      {
+       "_key": "c4a32da1c238",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "482c6669756e",
+         "_type": "span",
+         "marks": [],
+         "text": "Everything that normally gets postponed was done before launch: a sitemap with real last-modified dates, schema.org on every page type, IndexNow pings on publish, FAQ answers served in HTML without JavaScript, Core Web Vitals in the green."
+        }
+       ]
+      },
+      {
+       "_key": "cd3c0447a4c8",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7259d8809835",
+         "_type": "span",
+         "marks": [],
+         "text": "What the site did not have, and still does not: backlinks, mentions, domain history, branded demand. Without that context the numbers below read wrong."
+        }
+       ]
+      },
+      {
+       "_key": "ce7c022af9c2",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "44239d7a2507",
+         "_type": "span",
+         "marks": [],
+         "text": "Daily Google impressions of a new site: up to 110, then down to 17"
+        }
+       ]
+      },
+      {
+       "_key": "a7dea0482694",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "5cc23b9747ed",
+         "_type": "span",
+         "marks": [],
+         "text": "Across the 28 days Google showed the site 1,068 times and sent 6 people. The chart below covers the days whose data is already complete."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "be3ac1ba929e",
+     "_type": "tableBlock",
+     "columns": [
+      "Dates",
+      "What happened"
+     ],
+     "rows": [
+      {
+       "_key": "b25162a6ae37",
+       "_type": "tableRow",
+       "cells": [
+        "19–22 Sep",
+        "First impressions, 3–8 a day"
+       ]
+      },
+      {
+       "_key": "8824c9b24b4a",
+       "_type": "tableRow",
+       "cells": [
+        "23–26 Sep",
+        "18–27 a day; indexed pages grew from 17 to 70"
+       ]
+      },
+      {
+       "_key": "07f57a1e1428",
+       "_type": "tableRow",
+       "cells": [
+        "27 Sep – 7 Oct",
+        "Plateau at 60–110 a day, first clicks"
+       ]
+      },
+      {
+       "_key": "cb515bab4b2e",
+       "_type": "tableRow",
+       "cells": [
+        "10–11 Oct",
+        "Drop to 26 and 17"
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "be58c247c6b1",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "e7f6e1663c6d",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "5b647526bd43",
+         "_type": "span",
+         "marks": [],
+         "text": "Reaching a hundred impressions a day inside two weeks is a normal start. The drop at the end is the interesting part: it looks like the end of the short-lived boost Google gives new sites to sample how users react to them. That is a hypothesis, not a fact, and next month's export will test it. If impressions do not recover, the cause is something else."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "cb60fa07b661",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Search Console, 28 days: 1,068 impressions, 6 clicks, 0.6% CTR and an average position of 14.9",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-599f07cd42527ca37e3c2d06308b174aca6ccbdc-1545x738-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "a64ba12e3d44",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "050475e437ff",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d6b9de8dfe0b",
+         "_type": "span",
+         "marks": [],
+         "text": "\"Discovered — currently not indexed\": 71 pages out of 160"
+        }
+       ]
+      },
+      {
+       "_key": "876bf37da5ff",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c1e980d06be1",
+         "_type": "span",
+         "marks": [],
+         "text": "The worst number of the period. As of 14 October: 81 pages indexed, 79 not, and 71 of those in \"Discovered — currently not indexed\"."
+        }
+       ]
+      },
+      {
+       "_key": "7a61d98c518d",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c2ffa01df96c",
+         "_type": "span",
+         "marks": [],
+         "text": "The status means Google learned the URL — from the sitemap or a link — and decided not to spend a crawl on it. It is not a markup error, not a robots rule, not a slow server: all of that was checked and is fine. It is a trust deficit. Crawl budget goes to domains with external signals, and a three-week-old site has none."
+        }
+       ]
+      },
+      {
+       "_key": "e7f575e47dcf",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "80c8a59396a1",
+         "_type": "span",
+         "marks": [],
+         "text": "The conclusion follows directly, and people rarely like it: while half the pages sit outside the index, rewriting the text on those pages changes nothing. First they have to be read."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "acb909f4557f",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Page indexing report: 81 pages indexed, 79 not indexed",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-50df47567037dffe937f302cee3ec3f6d442a6af-1176x698-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "6fb65f5fec6f",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "4e82d0dd7de1",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "68b5df350b96",
+         "_type": "span",
+         "marks": [],
+         "text": "Google impressions came from the wrong markets: 43% from one non-target country"
+        }
+       ]
+      },
+      {
+       "_key": "3a5afcf686ef",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d63d328640c1",
+         "_type": "span",
+         "marks": [],
+         "text": "The country breakdown was the biggest surprise."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "3a730b071ab2",
+     "_type": "tableBlock",
+     "columns": [
+      "Country",
+      "Clicks",
+      "Impressions",
+      "CTR",
+      "Position"
+     ],
+     "rows": [
+      {
+       "_key": "5b53534de241",
+       "_type": "tableRow",
+       "cells": [
+        "Poland",
+        "3",
+        "129",
+        "2.3%",
+        "9.5"
+       ]
+      },
+      {
+       "_key": "d9bd764c5c1f",
+       "_type": "tableRow",
+       "cells": [
+        "Kazakhstan",
+        "1",
+        "69",
+        "1.4%",
+        "5.1"
+       ]
+      },
+      {
+       "_key": "9ea71aef9c73",
+       "_type": "tableRow",
+       "cells": [
+        "India",
+        "1",
+        "11",
+        "9.1%",
+        "10.2"
+       ]
+      },
+      {
+       "_key": "cd5f9921e841",
+       "_type": "tableRow",
+       "cells": [
+        "Mexico",
+        "1",
+        "4",
+        "25%",
+        "62.0"
+       ]
+      },
+      {
+       "_key": "d7d890eac1b8",
+       "_type": "tableRow",
+       "cells": [
+        "Russia",
+        "0",
+        "458",
+        "0%",
+        "10.4"
+       ]
+      },
+      {
+       "_key": "749b4212bfa7",
+       "_type": "tableRow",
+       "cells": [
+        "United States",
+        "0",
+        "105",
+        "0%",
+        "40.3"
+       ]
+      },
+      {
+       "_key": "81fed87f2e26",
+       "_type": "tableRow",
+       "cells": [
+        "Ukraine",
+        "0",
+        "66",
+        "0%",
+        "11.6"
+       ]
+      },
+      {
+       "_key": "602667307c7f",
+       "_type": "tableRow",
+       "cells": [
+        "United Kingdom",
+        "0",
+        "50",
+        "0%",
+        "35.4"
+       ]
+      },
+      {
+       "_key": "e4b7cc554c62",
+       "_type": "tableRow",
+       "cells": [
+        "Belarus",
+        "0",
+        "22",
+        "0%",
+        "3.8"
+       ]
+      },
+      {
+       "_key": "5c0e446bcc60",
+       "_type": "tableRow",
+       "cells": [
+        "Uzbekistan",
+        "0",
+        "13",
+        "0%",
+        "5.2"
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "69900611fccc",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "62f4b56c8a85",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "30a0dd37ecff",
+         "_type": "span",
+         "marks": [],
+         "text": "The top ten of 63 countries, sorted by clicks. Russia alone produced 458 impressions — 43% of the period's total — and not one click. The Russian-speaking cluster together with Kazakhstan, Ukraine, Belarus and Uzbekistan accounts for 628 impressions, almost 59%, and a single click between them."
+        }
+       ]
+      },
+      {
+       "_key": "3febf13bbafd",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "104d54d865b2",
+         "_type": "span",
+         "marks": [],
+         "text": "The target English-speaking markets, the US and the UK, produced 155 impressions at positions 40.3 and 35.4 — effectively absent. The one market where everything lines up is Poland: 129 impressions, 3 clicks, 2.3% CTR and an average position of 9.5."
+        }
+       ]
+      },
+      {
+       "_key": "325b9aa75a99",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "367d25cc9297",
+         "_type": "span",
+         "marks": [],
+         "text": "This is what happens when one language version lands in a less contested SERP: positions 3–8 arrive quickly there, while the same topics in English are held by sites with a decade of history. Aggregate numbers end up looking healthier than the actual situation."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "d3a256825bc7",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Impressions and clicks by country: Poland, Kazakhstan, India, Mexico, Russia, the US, Ukraine, the UK",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-c6c86e6d005dcbf74bf85bc8ffb142ce28c291b3-1570x674-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "636e9b74311d",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "12eae112d341",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "cbe7e6c6ef07",
+         "_type": "span",
+         "marks": [],
+         "text": "Positions 3 to 8 in search produced zero clicks: a zero-click search, measured"
+        }
+       ]
+      },
+      {
+       "_key": "3ec14b47972f",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "54e607eb319f",
+         "_type": "span",
+         "marks": [],
+         "text": "The most useful finding of the period. A cluster of definitional queries — \"what is this metric\" — collected roughly 250 impressions at positions between 3.5 and 8 and produced not a single visit."
+        }
+       ]
+      },
+      {
+       "_key": "bbf4e7c919dc",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "aeba1f735419",
+         "_type": "span",
+         "marks": [],
+         "text": "The cause is the query type, not the ranking. Someone asks for a definition, gets it in the snippet, in People Also Ask, in the AI overview, and never leaves the results page. A good position on a definitional query now means participating in the answer, not receiving a visit."
+        }
+       ]
+      },
+      {
+       "_key": "1d0fd6e48d9d",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "375b24c0afce",
+         "_type": "span",
+         "marks": [],
+         "text": "Practical consequence: either promise something the AI answer does not contain — a calculator, a table of benchmarks, a template, a worked example — or stop treating those pages as a traffic source and judge them by citations instead."
+        }
+       ]
+      },
+      {
+       "_key": "d1af214906cd",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "cbf25a1606d2",
+         "_type": "span",
+         "marks": [],
+         "text": "ChatGPT referral traffic to a new site: 7 visits against 11 from Google"
+        }
+       ]
+      },
+      {
+       "_key": "b4da85dc52a5",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "4a3cd0625d01",
+         "_type": "span",
+         "marks": [],
+         "text": "Clarity counted 161 sessions for the period and excluded 107 bot sessions on top of that. Referrers: Google 11 sessions, ChatGPT 7, Yandex 5 (three from yandex.ru, two from yandex.kz) and 4 more from the site's own domain. The rest arrived with no referrer at all: direct visits and whatever the browser did not pass on."
+        }
+       ]
+      },
+      {
+       "_key": "68ed7a1423bb",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "59628106b482",
+         "_type": "span",
+         "marks": [],
+         "text": "The bot filtering is not mine: Clarity does it and states it in the dashboard as \"107 bot sessions excluded\". That filter is not perfect, so 161 is \"real according to Clarity\", not proven humans."
+        }
+       ]
+      },
+      {
+       "_key": "0237dd664c8e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d4cbc6ed8266",
+         "_type": "span",
+         "marks": [],
+         "text": "At that volume it is not statistics yet, but the ratio is telling: for a three-week-old site with no links, an AI assistant delivers two thirds of what search delivers. And getting into an assistant's answer turned out to be faster than getting into Google's top ten."
+        }
+       ]
+      },
+      {
+       "_key": "a1ceb9ea4218",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "75395a69608a",
+         "_type": "span",
+         "marks": [],
+         "text": "One more number from the same export: the 107 excluded bot sessions are 40% of everything that reached the counter. Unfiltered, the report would have shown 268 sessions instead of 161, and the picture would look markedly healthier than it is."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "2e40ea9f4dba",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Clarity referrers: google.com 11 sessions, chatgpt.com 7, yandex 5",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-8bf13b9c0aed142dc9b732049bb435acd8675708-1395x538-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "8500a7a22cbc",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "bf5faa0475e0",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "61196b86b871",
+         "_type": "span",
+         "marks": [],
+         "text": "Technical optimisation at launch did not speed up indexing"
+        }
+       ]
+      },
+      {
+       "_key": "fa7ad8240ad9",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c49e588d6b64",
+         "_type": "span",
+         "marks": [],
+         "text": "For completeness: LCP 1.8s, INP 110ms, CLS 0.003, performance score 93 out of 100. The site is fast, stable and fully marked up — and none of that helped with indexing or rankings."
+        }
+       ]
+      },
+      {
+       "_key": "9949d34b3df3",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f1228dad44a0",
+         "_type": "span",
+         "marks": [],
+         "text": "This is not an argument against technical work. It is a reminder of what it does: it removes obstacles, it does not create demand or substitute for authority. When 71 pages sit in \"Discovered — currently not indexed\", shaving 0.3 seconds off LCP is not the lever."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "124f988c06c8",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Clarity dashboard: 161 sessions, 107 bot sessions excluded, 146 unique users",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-a90763866472a8d6187f5187a7c34542289c7d64-1413x676-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "2ea5357469d7",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "ba075581009c",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c0eb99570d99",
+         "_type": "span",
+         "marks": [],
+         "text": "Indexing in Bing and IndexNow: 56 impressions and no clicks"
+        }
+       ]
+      },
+      {
+       "_key": "70c47a8e2202",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "06fa0f459d74",
+         "_type": "span",
+         "marks": [],
+         "text": "A separate thread: 56 impressions and zero clicks in Bing between 20 September and 11 October, with IndexNow submissions wired up from day one. That is low even for a new domain, so next month goes partly into diagnosing it — whether the sitemap was accepted and whether key verification passes."
+        }
+       ]
+      },
+      {
+       "_key": "37f5e3b5f35f",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "20bf21bd44e5",
+         "_type": "span",
+         "marks": [],
+         "text": "Bing matters beyond its own share: its index feeds Copilot and parts of other AI answers. A site that is weak in Bing quietly loses AI visibility too."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "12a57711a817",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Bing Webmaster Tools: 56 impressions and no clicks between 20 September and 11 October",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-6414fd0d7b3be5f7350407971145e2e23f19683e-1500x418-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "150e3c7498be",
+     "_type": "faqBlock",
+     "title": "Indexing a new site: common questions",
+     "faq": {
+      "_type": "accordionBlock",
+      "items": [
+       {
+        "_key": "575f9fb2e19d",
+        "question": "What does \"not indexed\" mean?",
+        "answer": [
+         {
+          "_key": "f8ae6ad51c61",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "ef587fc76508",
+            "_type": "span",
+            "marks": [],
+            "text": "The page exists and may even have been crawled, but Google has not added it to the index, so it cannot appear in results. Search Console splits this into reasons: \"Discovered — currently not indexed\" means the URL is known but was never fetched; \"Crawled — currently not indexed\" means it was fetched and left out anyway."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "b184c2b462e7",
+        "question": "What happens if a page is crawled but not indexed?",
+        "answer": [
+         {
+          "_key": "54c818c19bf2",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "7b4b0b00d2d2",
+            "_type": "span",
+            "marks": [],
+            "text": "Nothing visible: the page stays live, keeps its links, and simply never appears in search. In practice it usually means Google found the page thin, duplicated elsewhere, or not worth storing yet — on a new domain the last reason dominates, because the whole domain is still unproven."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "ce17aa9444e2",
+        "question": "How long does it take to get a website indexed by Google?",
+        "answer": [
+         {
+          "_key": "582ef515ea32",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "2889916b47ed",
+            "_type": "span",
+            "marks": [],
+            "text": "On this site the first pages entered the index within a week of opening it to indexing, 70 of 160 within nine days, and half the site was still outside the index after three weeks. The spread depends less on the site's speed than on how much the domain is trusted."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "1aa51bd6c14e",
+        "question": "How do you fix \"Discovered — currently not indexed\"?",
+        "answer": [
+         {
+          "_key": "4284d0dd6dd5",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "48bae60cbc80",
+            "_type": "span",
+            "marks": [],
+            "text": "Not by rewriting those pages. Remove from the sitemap what does not need indexing, link the important pages from pages that already rank, submit the priority URLs manually, and earn the first external signals. That is the order I am following in month two, and the next instalment will show whether it worked."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "228f6e9b5977",
+        "question": "What percent of searches end without a click?",
+        "answer": [
+         {
+          "_key": "d1b59fa80d21",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "4740f3d778c4",
+            "_type": "span",
+            "marks": [],
+            "text": "Published estimates vary and depend on the query mix, so instead of quoting one, here is a measured instance from this site: a cluster of definitional queries collected around 250 impressions at positions 3–8 and produced zero clicks."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "_key": "23e4a349181f",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "24310f85e6f4",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "b4c000559c78",
+         "_type": "span",
+         "marks": [],
+         "text": "The plan for month two: indexing, snippets, external signals"
+        }
+       ]
+      },
+      {
+       "_key": "04b2d5c4be3b",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c2edf5393cc3",
+         "_type": "span",
+         "marks": [],
+         "text": "Four priorities, in order."
+        }
+       ]
+      },
+      {
+       "_key": "6aadff89b288",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "9c6762dc0a8a",
+         "_type": "span",
+         "marks": [],
+         "text": "Indexing. Work through the unindexed list, drop from the sitemap what should not be indexed, add internal links to important pages from the ones already ranking, manually submit twenty priority URLs."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "75ceae5bfa57",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "b3f80823a03d",
+         "_type": "span",
+         "marks": [],
+         "text": "Snippets. Rewrite titles and descriptions for ten pages already sitting at positions 3–15, around a promise the AI answer cannot fulfil."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "bd0f41a40afa",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "434ca553cbb9",
+         "_type": "span",
+         "marks": [],
+         "text": "External signals. First mentions: profiles, professional communities, two guest pieces. Without this, priority one hits a ceiling."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "ead14f0199d4",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "1a18e650b565",
+         "_type": "span",
+         "marks": [],
+         "text": "AI visibility baseline. Run 30–40 control questions through ChatGPT, Perplexity, Google AI Overview and Copilot, record where the site appears, repeat monthly."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "dcaef844ef72",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "52c25fa5a9f1",
+         "_type": "span",
+         "marks": [],
+         "text": "Which site this is, and where to see how it was built"
+        }
+       ]
+      },
+      {
+       "_key": "74a800a0faae",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [
+        {
+         "_key": "3babb923322f",
+         "_type": "link",
+         "href": "/portfolio/consultant-website-design-retail-analytics"
+        },
+        {
+         "_key": "fedba163e739",
+         "_type": "link",
+         "href": "https://www.tatsianabandziuk.com"
+        }
+       ],
+       "children": [
+        {
+         "_key": "61c9b5532066",
+         "_type": "span",
+         "marks": [],
+         "text": "How "
+        },
+        {
+         "_key": "29868147dc06",
+         "_type": "span",
+         "marks": [
+          "fedba163e739"
+         ],
+         "text": "tatsianabandziuk.com"
+        },
+        {
+         "_key": "580b325d79a7",
+         "_type": "span",
+         "marks": [],
+         "text": " is built and why it was built that way — section structure, page templates, markup and speed — is covered in the "
+        },
+        {
+         "_key": "fcc059d87e6b",
+         "_type": "span",
+         "marks": [
+          "3babb923322f"
+         ],
+         "text": "case study in my portfolio"
+        },
+        {
+         "_key": "ec13307a80b1",
+         "_type": "span",
+         "marks": [],
+         "text": ". This diary covers only what happens to the site after launch, month by month."
+        }
+       ]
+      },
+      {
+       "_key": "c1fb94150f6e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "9a62b677a214",
+         "_type": "span",
+         "marks": [],
+         "text": "Next instalment in a month, with a fresh export and a test of two hypotheses: whether impressions recover after the drop, and whether indexing moves once external signals exist."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "serviceOffered": [
+    {
+     "_key": "07eda87ce149",
+     "_type": "reference",
+     "_ref": "service-ai-search-readiness"
+    },
+    {
+     "_key": "9f8970634694",
+     "_type": "reference",
+     "_ref": "42a469a6-28f3-4015-8b88-414c8eb3d4fa"
+    }
+   ],
+   "relatedArticles": [
+    {
+     "_key": "40d39bba42e4",
+     "_type": "reference",
+     "_ref": "blog-llms-txt"
+    },
+    {
+     "_key": "d0828ac63051",
+     "_type": "reference",
+     "_ref": "blog-found-via-chatgpt"
+    },
+    {
+     "_key": "ed28e49289cb",
+     "_type": "reference",
+     "_ref": "blog-redesign-traffic-loss"
+    }
+   ]
+  },
+  "pl": {
+   "_id": "blog-new-site-first-month.pl",
+   "_type": "blog",
+   "language": "pl",
+   "title": "Ile trwa indeksowanie nowej strony: 28 dni tatsianabandziuk.com w raportach Search Console",
+   "slug": {
+    "_type": "localizedSlug",
+    "pl": {
+     "_type": "slug",
+     "current": "ile-trwa-indeksowanie-nowej-strony-dane"
+    }
+   },
+   "seo": {
+    "metaTitle": "Ile trwa indeksowanie strony w Google: dane z 28 dni",
+    "metaDescription": "Nowa strona po 28 dniach: kiedy pojawiły się pierwsze wyświetlenia, ile podstron trafiło do indeksu, dlaczego 71 zostało poza nim i skąd był pierwszy ruch."
+   },
+   "excerpt": "Pierwsze wyświetlenia drugiego dnia, 70 podstron w indeksie po dziewięciu dniach i 71 adresów „Wykryta — obecnie niezindeksowana” po trzech tygodniach. Pełny eksport z analityki tatsianabandziuk.com — strony, którą zbudowałem i otworzyłem do indeksowania 18 września.",
+   "publishedAt": "2026-10-15T09:00:00.000Z",
+   "category": {
+    "_type": "reference",
+    "_ref": "452d3555-2288-47dc-8755-a253e1766ce4"
+   },
+   "previewImage": {
+    "_type": "image",
+    "alt": "Schemat indeksowania: 160 podstron po lewej, połowa strumieni urywa się na obchodzie, po prawej 81 zindeksowanych podstron",
+    "asset": {
+     "_type": "reference",
+     "_ref": "image-899ee1d868260b30e8a06f34508d51aee5c5efe0-1608x728-png"
+    }
+   },
+   "contentBlocks": [
+    {
+     "_key": "bf7b0cb4e310",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "d9b5377d5585",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [
+        {
+         "_key": "9af358d61647",
+         "_type": "link",
+         "href": "https://www.tatsianabandziuk.com"
+        }
+       ],
+       "children": [
+        {
+         "_key": "31ce34400509",
+         "_type": "span",
+         "marks": [],
+         "text": "To dziennik mojego własnego projektu, a nie streszczenie cudzych statystyk. 18 września 2026 roku otworzyłem do indeksowania "
+        },
+        {
+         "_key": "ba1507e4f2f0",
+         "_type": "span",
+         "marks": [
+          "9af358d61647"
+         ],
+         "text": "tatsianabandziuk.com"
+        },
+        {
+         "_key": "90a67291f913",
+         "_type": "span",
+         "marks": [],
+         "text": " — trójjęzyczną stronę konsultantki od analityki handlu, którą sam zaprojektowałem i zbudowałem. 160 podstron, zero linków zewnętrznych, brak historii domeny i zapytań brandowych. Mam dostęp do jej Search Console, Bing Webmaster Tools i Clarity, więc eksporty są publikowane w całości i ze zrzutami ekranu."
+        }
+       ]
+      },
+      {
+       "_key": "a2e0d5b92f28",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "77a5ff2181da",
+         "_type": "span",
+         "marks": [],
+         "text": "Najpierw krótka odpowiedź. Pierwsze wyświetlenia w Google pojawiły się drugiego dnia po otwarciu strony do indeksowania, 70 z 160 podstron trafiło do indeksu w dziewięć dni, a po trzech tygodniach połowa strony nadal była poza indeksem — 71 adresów ze statusem "
+        },
+        {
+         "_key": "dd9c97785cad",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "„Wykryta — obecnie niezindeksowana”"
+        },
+        {
+         "_key": "93362dec829d",
+         "_type": "span",
+         "marks": [],
+         "text": ". Pierwsze kliknięcia przyszły dziesiątego dnia. Razem w okresie pomiaru, 28 dni od 18 września do 15 października: 1 068 wyświetleń i 6 kliknięć. Dane dzienne sięgają 11 października — ostatnie dni Search Console jeszcze dolicza."
+        }
+       ]
+      },
+      {
+       "_key": "3025fca17f5e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "bab1d5bd0eae",
+         "_type": "span",
+         "marks": [],
+         "text": "Skąd pochodzą te liczby. Wyświetlenia, kliknięcia, CTR i pozycje — raport „Skuteczność” w Google Search Console za 18 września – 15 października, wszystkie urządzenia i wszystkie kraje, bez filtrów. Stan indeksu — raport „Indeksowanie stron” na 14 października. Sesje i źródła wejść — Microsoft Clarity za ten sam okres, z jego własnym filtrem botów. Wyświetlenia w Bingu — Bing Webmaster Tools za 20 września – 11 października. Nic nie jest przeliczone, zaokrąglone ani uśrednione: pod każdą sekcją stoi zrzut raportu, z którego pochodzi liczba."
+        }
+       ]
+      },
+      {
+       "_key": "ebb6397f8743",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7864eadeef6d",
+         "_type": "span",
+         "marks": [],
+         "text": "Dwa miejsca idą bez zrzutu: tabela zapytań i rozbicie przyczyn w raporcie indeksowania. Widać w nich konkretne adresy i zapytania, których nie publikuję, więc te liczby są podane słowami — i trzeba im wierzyć na słowo dokładnie tak samo jak cudzym. Cała reszta jest załączona w oryginale."
+        }
+       ]
+      },
+      {
+       "_key": "089198c039f8",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "1a3143196bc1",
+         "_type": "span",
+         "marks": [],
+         "text": "Liczby indeksowania i ruchu z pierwszych 28 dni"
+        }
+       ]
+      },
+      {
+       "_key": "f7253f27a1f5",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "834bb9286ba8",
+         "_type": "span",
+         "marks": [],
+         "text": "1 068 wyświetleń i 6 kliknięć, CTR 0,56% — Search Console, raport „Skuteczność” za 18 września – 15 października"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "e60c2046ae75",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c776e74ab80d",
+         "_type": "span",
+         "marks": [],
+         "text": "Średnia pozycja 14,9 dla wszystkich urządzeń — ten sam raport, bez podziału na urządzenia"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "813e0751ae2b",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7f0b728130f5",
+         "_type": "span",
+         "marks": [],
+         "text": "81 podstron w indeksie i 79 poza nim, w tym 71 ze statusem „Wykryta — obecnie niezindeksowana” — raport „Indeksowanie stron” na 14 października"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "5b6a24777895",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "853952f56c8e",
+         "_type": "span",
+         "marks": [],
+         "text": "43% wszystkich wyświetleń z jednego kraju, w którym nic nie jest sprzedawane, cały klaster rosyjskojęzyczny — 59% — podział na kraje w „Skuteczności”"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "1d721c32ccf4",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "0cac09c39d25",
+         "_type": "span",
+         "marks": [],
+         "text": "250 wyświetleń na pozycjach 3–8 i zero kliknięć — podział na zapytania w „Skuteczności”, bez zrzutu"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "946226cd9088",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "af6b53d0854d",
+         "_type": "span",
+         "marks": [],
+         "text": "7 realnych sesji z ChatGPT wobec 11 z Google — Clarity, raport źródeł wejść"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "2a7d0d1fed44",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "9e92844926e8",
+         "_type": "span",
+         "marks": [],
+         "text": "56 wyświetleń i zero kliknięć w Bingu — Bing Webmaster Tools za 20 września – 11 października"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "013a15a97049",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "73cf4e696b03",
+         "_type": "span",
+         "marks": [],
+         "text": "Zero linków zewnętrznych: ani jeden nie został kupiony ani postawiony ręcznie"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "_key": "746df2f9fa52",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Wykres dziennych wyświetleń nowej strony w Google: wzrost z 3 do 110 i spadek do 17",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-087e640867f868fa98bf7b660ef72359c00329d3-1608x728-png"
+       }
+      }
+     }
+    },
+    {
+     "_key": "53b2b0293353",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "fcef9885eedb",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "dce6c8afaf14",
+         "_type": "span",
+         "marks": [],
+         "text": "Dlaczego te liczby o indeksowaniu i ruchu są prawdziwe i wcale nie są złe"
+        }
+       ]
+      },
+      {
+       "_key": "47b833852693",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "869f3d0c2649",
+         "_type": "span",
+         "marks": [],
+         "text": "W sieci łatwo znaleźć historie o tysiącu wejść w dwa tygodnie i pozycjach na wszystko naraz. Nie da się ich sprawdzić: nie ma eksportu, nie ma zakresu dat, nie ma domeny. Tutaj jest odwrotnie — domena jest podana na końcu tekstu, eksporty są opublikowane, a liczby nie są zaokrąglone na moją korzyść."
+        }
+       ]
+      },
+      {
+       "_key": "122159dea518",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "2aa9f95c11db",
+         "_type": "span",
+         "marks": [],
+         "text": "Teraz o tym, że „nie są złe”. Strona ma trzy tygodnie. Nie ma ani jednego linku zewnętrznego, nie ma historii domeny ani zapytań brandowych. W takich warunkach 1 068 wyświetleń, 70 podstron w indeksie po dziewięciu dniach i pierwsze kliknięcia w drugim tygodniu to normalny start. Porażka wygląda inaczej: zero wyświetleń i pusty indeks po miesiącu. A tysiąc wejść na świeżą domenę bez linków w dwa tygodnie to albo płatny ruch, albo cudzy zrzut ekranu, albo zmyślenie."
+        }
+       ]
+      },
+      {
+       "_key": "18bb52bcecaa",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "3192d9015abc",
+         "_type": "span",
+         "marks": [],
+         "text": "Niewygodne liczby też tu są: 71 adresów poza indeksem, zero kliknięć z pozycji 3–8 i 40% wszystkiego, co trafiło do licznika, to boty. Dziennik ma sens tylko razem z nimi."
+        }
+       ]
+      },
+      {
+       "_key": "5871083ab464",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "e8b0aaa7a470",
+         "_type": "span",
+         "marks": [],
+         "text": "Punkt wyjścia nowej strony: trzy języki, 160 adresów, zero linków"
+        }
+       ]
+      },
+      {
+       "_key": "da5a0228f542",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "10f4f919a5e8",
+         "_type": "span",
+         "marks": [],
+         "text": "Strona ruszyła 18 września 2026 roku: sześć stron usług, sześć case studies, 54 artykuły, pięć kalkulatorów i strony pomocnicze — po angielsku, polsku i rosyjsku, z lokalnymi ścieżkami sekcji."
+        }
+       ]
+      },
+      {
+       "_key": "410764645720",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "62ad3bb8b284",
+         "_type": "span",
+         "marks": [],
+         "text": "Przed startem zrobione było wszystko, co zwykle zostaje „na później”: mapa strony z realnymi datami aktualizacji, schema.org na każdym typie strony, powiadomienia IndexNow przy publikacji, odpowiedzi FAQ w HTML bez JavaScriptu, Core Web Vitals w zielonym zakresie."
+        }
+       ]
+      },
+      {
+       "_key": "0b3cb44372b8",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d7d2c73d81fc",
+         "_type": "span",
+         "marks": [],
+         "text": "Czego strona nie miała i nadal nie ma: linków zewnętrznych, wzmianek, historii domeny i zapytań brandowych. Bez tego kontekstu liczby poniżej czyta się źle."
+        }
+       ]
+      },
+      {
+       "_key": "c03ffd9a9ca2",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "8fc8a4474887",
+         "_type": "span",
+         "marks": [],
+         "text": "Wyświetlenia nowej strony w Google dzień po dniu: wzrost do 110 i spadek do 17"
+        }
+       ]
+      },
+      {
+       "_key": "fa2acdf4dcce",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "317cbc8d4412",
+         "_type": "span",
+         "marks": [],
+         "text": "Przez 28 dni Google pokazał stronę 1 068 razy i przysłał 6 osób. Wykres niżej obejmuje dni, dla których dane są już kompletne."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "6adb52d7a9a0",
+     "_type": "tableBlock",
+     "columns": [
+      "Okres",
+      "Co się działo"
+     ],
+     "rows": [
+      {
+       "_key": "91dea81a9895",
+       "_type": "tableRow",
+       "cells": [
+        "19–22 września",
+        "Pierwsze wyświetlenia, 3–8 dziennie"
+       ]
+      },
+      {
+       "_key": "cda0b13269a4",
+       "_type": "tableRow",
+       "cells": [
+        "23–26 września",
+        "18–27 dziennie, indeks urósł z 17 do 70 podstron"
+       ]
+      },
+      {
+       "_key": "d0a7fcd2514f",
+       "_type": "tableRow",
+       "cells": [
+        "27 września – 7 października",
+        "Plateau 60–110 dziennie, pierwsze kliknięcia"
+       ]
+      },
+      {
+       "_key": "19cd679f50c2",
+       "_type": "tableRow",
+       "cells": [
+        "10–11 października",
+        "Spadek do 26 i 17"
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "e76a5fbac9de",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "26432505ba9f",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "eed26812d9dd",
+         "_type": "span",
+         "marks": [],
+         "text": "Dojście do stu wyświetleń dziennie w dwa tygodnie to normalny start. Ciekawszy jest spadek na końcu: wygląda na wygaśnięcie krótkiego „bonusu nowości”, który Google daje nowym stronom, żeby sprawdzić reakcje użytkowników. To hipoteza, nie fakt — zweryfikuje ją eksport za miesiąc. Jeśli wyświetlenia nie wrócą, przyczyna jest inna."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "46828c6b68b6",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Search Console, 28 dni: 1 068 wyświetleń, 6 kliknięć, CTR 0,6% i średnia pozycja 14,9",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-599f07cd42527ca37e3c2d06308b174aca6ccbdc-1545x738-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "547dc70deb20",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "6c243a9df638",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "537d17db80d8",
+         "_type": "span",
+         "marks": [],
+         "text": "„Wykryta — obecnie niezindeksowana”: 71 adresów ze 160"
+        }
+       ]
+      },
+      {
+       "_key": "4524d206ae68",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f72df7d5eb21",
+         "_type": "span",
+         "marks": [],
+         "text": "Najtrudniejsza liczba okresu. Na 14 października w indeksie jest 81 podstron, poza nim 79, z czego 71 ma status „Wykryta — obecnie niezindeksowana”."
+        }
+       ]
+      },
+      {
+       "_key": "573a74034e84",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "8001031bf081",
+         "_type": "span",
+         "marks": [],
+         "text": "Status oznacza, że Google zna adres z mapy strony albo z linku, ale nie wydał na niego budżetu indeksowania. To nie jest błąd po stronie serwisu: robots.txt, odpowiedź serwera, znaczniki i szybkość są w porządku. To brak zaufania do domeny — obchód trafia tam, gdzie są sygnały zewnętrzne, a trzytygodniowa strona nie ma żadnych."
+        }
+       ]
+      },
+      {
+       "_key": "dc46e5af7408",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "ea889544643a",
+         "_type": "span",
+         "marks": [],
+         "text": "Wniosek jest niewygodny, ale praktyczny: dopóki połowa podstron jest poza indeksem, poprawianie treści na tych podstronach niczego nie zmieni. Najpierw muszą zostać pobrane."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "955012e41d76",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Raport indeksowania stron: 81 adresów w indeksie, 79 poza nim",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-50df47567037dffe937f302cee3ec3f6d442a6af-1176x698-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "5d652e83c836",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "7f46b277468c",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "602c501130cb",
+         "_type": "span",
+         "marks": [],
+         "text": "Wyświetlenia w Google z rynków, które nie są celem: 43% z jednego kraju"
+        }
+       ]
+      },
+      {
+       "_key": "33d0af749c8e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "55eebc3a6d7b",
+         "_type": "span",
+         "marks": [],
+         "text": "Podział na kraje okazał się zaskakujący."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "0e12a7ac2679",
+     "_type": "tableBlock",
+     "columns": [
+      "Kraj",
+      "Kliknięcia",
+      "Wyświetlenia",
+      "CTR",
+      "Pozycja"
+     ],
+     "rows": [
+      {
+       "_key": "f5b6848dc2ec",
+       "_type": "tableRow",
+       "cells": [
+        "Polska",
+        "3",
+        "129",
+        "2,3%",
+        "9,5"
+       ]
+      },
+      {
+       "_key": "a38d91d4c061",
+       "_type": "tableRow",
+       "cells": [
+        "Kazachstan",
+        "1",
+        "69",
+        "1,4%",
+        "5,1"
+       ]
+      },
+      {
+       "_key": "cb2cf66a6b3c",
+       "_type": "tableRow",
+       "cells": [
+        "Indie",
+        "1",
+        "11",
+        "9,1%",
+        "10,2"
+       ]
+      },
+      {
+       "_key": "2a28c51ce64a",
+       "_type": "tableRow",
+       "cells": [
+        "Meksyk",
+        "1",
+        "4",
+        "25%",
+        "62,0"
+       ]
+      },
+      {
+       "_key": "cf0aff2167a5",
+       "_type": "tableRow",
+       "cells": [
+        "Rosja",
+        "0",
+        "458",
+        "0%",
+        "10,4"
+       ]
+      },
+      {
+       "_key": "4c0363133f75",
+       "_type": "tableRow",
+       "cells": [
+        "Stany Zjednoczone",
+        "0",
+        "105",
+        "0%",
+        "40,3"
+       ]
+      },
+      {
+       "_key": "0e9328326865",
+       "_type": "tableRow",
+       "cells": [
+        "Ukraina",
+        "0",
+        "66",
+        "0%",
+        "11,6"
+       ]
+      },
+      {
+       "_key": "8c8fbb0978aa",
+       "_type": "tableRow",
+       "cells": [
+        "Wielka Brytania",
+        "0",
+        "50",
+        "0%",
+        "35,4"
+       ]
+      },
+      {
+       "_key": "213782bdc7b7",
+       "_type": "tableRow",
+       "cells": [
+        "Białoruś",
+        "0",
+        "22",
+        "0%",
+        "3,8"
+       ]
+      },
+      {
+       "_key": "ddc532ab7462",
+       "_type": "tableRow",
+       "cells": [
+        "Uzbekistan",
+        "0",
+        "13",
+        "0%",
+        "5,2"
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "ee09f950f100",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "74e45b3d6267",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "038a1825e3f2",
+         "_type": "span",
+         "marks": [],
+         "text": "Pierwsza dziesiątka z 63 krajów, posortowana po kliknięciach. Sama Rosja dała 458 wyświetleń — 43% wszystkich wyświetleń okresu — i ani jednego kliknięcia. Cały klaster rosyjskojęzyczny razem z Kazachstanem, Ukrainą, Białorusią i Uzbekistanem to 628 wyświetleń, prawie 59%, i jedno kliknięcie na wszystkie."
+        }
+       ]
+      },
+      {
+       "_key": "3c6c0d24d0ea",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "8d694565ecff",
+         "_type": "span",
+         "marks": [],
+         "text": "Rynki anglojęzyczne, USA i Wielka Brytania, dały 155 wyświetleń na pozycjach 40,3 i 35,4, czyli praktycznie nie istnieją. Jedyny rynek, gdzie wszystko się zgadza, to Polska: 129 wyświetleń, 3 kliknięcia, CTR 2,3% i średnia pozycja 9,5."
+        }
+       ]
+      },
+      {
+       "_key": "8405220a383c",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "40c769092f12",
+         "_type": "span",
+         "marks": [],
+         "text": "Polska wypada najlepiej jakościowo: najwyższy CTR i realne pozycje w pierwszej dziesiątce przy zapytaniach o wskaźniki handlowe i raportowanie. To naturalne — polska wyszukiwarka w tych tematach jest znacznie mniej konkurencyjna niż angielska, gdzie te same hasła zajmują serwisy z dziesięcioletnią historią."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "b8d61856697a",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Wyświetlenia i kliknięcia według krajów: Polska, Kazachstan, Indie, Meksyk, Rosja, USA, Ukraina, Wielka Brytania",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-c6c86e6d005dcbf74bf85bc8ffb142ce28c291b3-1570x674-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "294ce286928d",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "c28ab030ca3c",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "948c9b41b01c",
+         "_type": "span",
+         "marks": [],
+         "text": "Pozycje od 3 do 8 w wynikach bez jednego kliknięcia: zero-click w praktyce"
+        }
+       ]
+      },
+      {
+       "_key": "502a8a22b4c1",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "14c3ef504213",
+         "_type": "span",
+         "marks": [],
+         "text": "Najciekawsza obserwacja okresu. Zapytania definicyjne — „co to jest dany wskaźnik” — zebrały około 250 wyświetleń na pozycjach od 3,5 do 8 i nie przyniosły ani jednego wejścia."
+        }
+       ]
+      },
+      {
+       "_key": "6cfef00e4337",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "6fc9dc5f7cec",
+         "_type": "span",
+         "marks": [],
+         "text": "Powód leży w typie zapytania, nie w pozycji. Użytkownik pyta o definicję, dostaje ją w opisie wyniku, w sekcji „Inni pytają też” i w odpowiedzi AI, po czym nie wchodzi nigdzie dalej. Dobra pozycja na zapytanie definicyjne oznacza dziś udział w odpowiedzi, a nie wizytę."
+        }
+       ]
+      },
+      {
+       "_key": "96cc21734d55",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "eb0430d7da9d",
+         "_type": "span",
+         "marks": [],
+         "text": "Co z tym robić: albo obiecać w opisie to, czego w odpowiedzi AI nie ma — kalkulator, tabelę wartości referencyjnych, szablon, policzony przykład — albo przestać traktować takie podstrony jako źródło ruchu i oceniać je po cytowaniach."
+        }
+       ]
+      },
+      {
+       "_key": "2c97022d205d",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "dfd7369194d0",
+         "_type": "span",
+         "marks": [],
+         "text": "Ruch z ChatGPT na nową stronę: 7 wejść wobec 11 z Google"
+        }
+       ]
+      },
+      {
+       "_key": "fbe8da2a3fc8",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "12867f47ed45",
+         "_type": "span",
+         "marks": [],
+         "text": "Clarity naliczył w tym okresie 161 sesji i osobno odrzucił 107 sesji botów. Źródła wejść: Google 11 sesji, ChatGPT 7, Yandex 5 (trzy z yandex.ru i dwa z yandex.kz) oraz 4 przejścia wewnątrz samej domeny. Reszta sesji przyszła bez referrera: wejścia bezpośrednie i to, czego przeglądarka nie przekazała."
+        }
+       ]
+      },
+      {
+       "_key": "e3d265036be0",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "90275023e435",
+         "_type": "span",
+         "marks": [],
+         "text": "Botów nie odsiewam ja: robi to Clarity i pokazuje wprost jako „107 bot sessions excluded”. Filtr nie jest doskonały, więc 161 sesji to „realne według Clarity”, a nie udowodnieni ludzie."
+        }
+       ]
+      },
+      {
+       "_key": "12a750e4afa6",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "a008111c9957",
+         "_type": "span",
+         "marks": [],
+         "text": "Przy takiej skali to jeszcze nie statystyka, ale proporcja jest wymowna: dla trzytygodniowej strony bez linków asystent AI daje dwie trzecie tego, co wyszukiwarka. Wejście do odpowiedzi asystenta okazało się przy tym szybsze niż wejście do pierwszej dziesiątki Google."
+        }
+       ]
+      },
+      {
+       "_key": "2e18a5e4d81c",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "e65a94574f9d",
+         "_type": "span",
+         "marks": [],
+         "text": "I druga liczba z tego samego eksportu: 107 odrzuconych sesji botów to 40% wszystkiego, co trafiło do licznika. Bez filtra raport pokazałby 268 sesji zamiast 161, a obraz wyglądałby znacznie lepiej, niż jest."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "3d97cc0ca9d9",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Źródła w Clarity: google.com 11 sesji, chatgpt.com 7, yandex 5",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-8bf13b9c0aed142dc9b732049bb435acd8675708-1395x538-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "174b9fcb1a0a",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "71dad915502c",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f9a059a61092",
+         "_type": "span",
+         "marks": [],
+         "text": "Optymalizacja techniczna strony nie przyspieszyła indeksowania"
+        }
+       ]
+      },
+      {
+       "_key": "ab1472d23267",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f953591deef0",
+         "_type": "span",
+         "marks": [],
+         "text": "Dla porządku: LCP 1,8 s, INP 110 ms, CLS 0,003, ocena wydajności 93 na 100. Strona jest szybka, stabilna i opisana znacznikami — i żaden z tych parametrów nie pomógł ani w indeksowaniu, ani w pozycjach."
+        }
+       ]
+      },
+      {
+       "_key": "1c58ecdbba5e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "99afb86b734e",
+         "_type": "span",
+         "marks": [],
+         "text": "To nie argument przeciwko pracy technicznej, tylko przypomnienie o jej roli: usuwa przeszkody, ale nie tworzy popytu i nie zastępuje autorytetu. Gdy 71 adresów ma status „Wykryta — obecnie niezindeksowana”, skracanie LCP o 0,3 sekundy nic nie zmieni."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "0de818cd8d4f",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Panel Clarity: 161 sesji, 107 odrzuconych sesji botów, 146 unikalnych użytkowników",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-a90763866472a8d6187f5187a7c34542289c7d64-1413x676-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "05a7adcb1bd5",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "1d9695cf5ed8",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "2ce0d7d0aa62",
+         "_type": "span",
+         "marks": [],
+         "text": "Indeksowanie w Bingu i IndexNow: 56 wyświetleń i zero kliknięć"
+        }
+       ]
+      },
+      {
+       "_key": "d847dde9ddd4",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d5ee0ffe65ad",
+         "_type": "span",
+         "marks": [],
+         "text": "Osobny wątek: w Bingu od 20 września do 11 października 56 wyświetleń i zero kliknięć, mimo że powiadomienia IndexNow działają od pierwszego dnia. Jak na nową domenę to i tak mało, więc w przyszłym miesiącu sprawdzam, czy mapa strony została przyjęta i czy weryfikacja klucza przechodzi."
+        }
+       ]
+      },
+      {
+       "_key": "2724e88bbfb7",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "312d6241034c",
+         "_type": "span",
+         "marks": [],
+         "text": "Bing jest ważny nie sam w sobie: jego indeks zasila Copilota i część odpowiedzi innych systemów AI. Słaba widoczność w Bingu to po cichu utracona widoczność w AI."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "4f99eb0fe9ac",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Bing Webmaster Tools: 56 wyświetleń i zero kliknięć od 20 września do 11 października",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-6414fd0d7b3be5f7350407971145e2e23f19683e-1500x418-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "ad213940d286",
+     "_type": "faqBlock",
+     "title": "Indeksowanie nowej strony: częste pytania",
+     "faq": {
+      "_type": "accordionBlock",
+      "items": [
+       {
+        "_key": "f719a637b3a1",
+        "question": "Jak długo trwa indeksowanie strony w Google?",
+        "answer": [
+         {
+          "_key": "b20717f5121b",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "755f107043d9",
+            "_type": "span",
+            "marks": [],
+            "text": "Na tej stronie pierwsze podstrony trafiły do indeksu w ciągu tygodnia od otwarcia indeksowania, 70 ze 160 w dziewięć dni, a połowa serwisu była poza indeksem jeszcze po trzech tygodniach. Rozrzut zależy nie od szybkości strony, tylko od zaufania do domeny: nowa domena bez linków dostaje budżet indeksowania na końcu kolejki."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "3f4303404e30",
+        "question": "Co to jest indeksowanie stron?",
+        "answer": [
+         {
+          "_key": "a438443207b2",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "5c6d6ee87860",
+            "_type": "span",
+            "marks": [],
+            "text": "To proces, w którym wyszukiwarka pobiera stronę, przetwarza jej treść i zapisuje ją w swoim indeksie, żeby mogła pojawiać się w wynikach. Samo istnienie strony w internecie nie wystarczy: dopóki adres nie trafi do indeksu, w wynikach go nie będzie."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "bb0844c1655c",
+        "question": "Jak sprawdzić, czy strona jest zaindeksowana?",
+        "answer": [
+         {
+          "_key": "5894f8d664cf",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "29a1539caaaf",
+            "_type": "span",
+            "marks": [],
+            "text": "W Search Console otwórz raport „Indeksowanie stron” i porównaj dwie liczby: ile adresów jest w indeksie, a ile poza nim, z podziałem na przyczyny. Operator site: w wyszukiwarce daje tylko przybliżony obraz i nie tłumaczy powodów."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "788fa42e9850",
+        "question": "Dlaczego Google nie indeksuje mojej strony?",
+        "answer": [
+         {
+          "_key": "e73b94fb8a1e",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "19f4e1e950c5",
+            "_type": "span",
+            "marks": [],
+            "text": "Najczęściej nie z powodu błędu technicznego. Status „Wykryta — obecnie niezindeksowana” oznacza, że Google zna adres, ale nie uznał go za wart pobrania — na nowej domenie bez sygnałów zewnętrznych to sytuacja typowa. Błędy w robots.txt, przekierowania i wolny serwer warto sprawdzić, ale zwykle nie one są przyczyną."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "7c282311b600",
+        "question": "Dlaczego nowa strona nie wyświetla się w Google?",
+        "answer": [
+         {
+          "_key": "4f96e9162141",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "2d283d6b10d7",
+            "_type": "span",
+            "marks": [],
+            "text": "Trzy typowe powody: podstrony nie są jeszcze zaindeksowane, strona rywalizuje o zapytania, w których serwisy z historią są obiektywnie silniejsze, albo wyświetlenia idą z innego rynku niż docelowy. Pierwsze sprawdza raport indeksowania, dwa pozostałe — raport skuteczności z podziałem na kraje."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "_key": "ec9091517b5c",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "a7548311daa6",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "1e9ca3da37c0",
+         "_type": "span",
+         "marks": [],
+         "text": "Plan na drugi miesiąc: indeksowanie, opisy wyników i sygnały zewnętrzne"
+        }
+       ]
+      },
+      {
+       "_key": "f9327674ea82",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "b8e72ed690a0",
+         "_type": "span",
+         "marks": [],
+         "text": "Cztery kierunki, w kolejności priorytetu."
+        }
+       ]
+      },
+      {
+       "_key": "ac2b6851c4d2",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "abcae1e1c2c0",
+         "_type": "span",
+         "marks": [],
+         "text": "Indeksowanie. Przejrzeć listę niezindeksowanych adresów, usunąć z mapy strony to, co indeksowane być nie musi, dodać linki wewnętrzne do ważnych podstron z tych, które już się wyświetlają, ręcznie zgłosić dwadzieścia priorytetowych adresów."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "3168048ecb77",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "90e73432b3bb",
+         "_type": "span",
+         "marks": [],
+         "text": "Opisy wyników. Przepisać tytuły i opisy dziesięciu podstron z pozycjami 3–15 wokół obietnicy, której odpowiedź AI nie spełni."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "4dd884ba502a",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "463cedd04337",
+         "_type": "span",
+         "marks": [],
+         "text": "Sygnały zewnętrzne. Pierwsze wzmianki: profile, społeczności branżowe, dwa teksty gościnne. Bez tego punkt pierwszy zatrzyma się na suficie."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "e3049aedfeca",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "a9fa5ff3fa40",
+         "_type": "span",
+         "marks": [],
+         "text": "Pomiar widoczności w AI. Zebrać punkt odniesienia: 30–40 pytań kontrolnych w ChatGPT, Perplexity, Google AI Overview i Copilocie, zapisać, gdzie strona się pojawia, i powtarzać co miesiąc."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "8226e67e7a95",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "bb77c6d70034",
+         "_type": "span",
+         "marks": [],
+         "text": "O jakiej stronie mowa i gdzie zobaczyć, jak jest zbudowana"
+        }
+       ]
+      },
+      {
+       "_key": "285576a80059",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [
+        {
+         "_key": "f98b5ffc8447",
+         "_type": "link",
+         "href": "/pl/portfolio/strona-dla-eksperta-od-analityki-handlu"
+        },
+        {
+         "_key": "9a2a923269f6",
+         "_type": "link",
+         "href": "https://www.tatsianabandziuk.com"
+        }
+       ],
+       "children": [
+        {
+         "_key": "fd788b4712b6",
+         "_type": "span",
+         "marks": [],
+         "text": "Jak "
+        },
+        {
+         "_key": "e4ff1d680ce9",
+         "_type": "span",
+         "marks": [
+          "9a2a923269f6"
+         ],
+         "text": "tatsianabandziuk.com"
+        },
+        {
+         "_key": "b7aa06a1a945",
+         "_type": "span",
+         "marks": [],
+         "text": " jest zbudowany i dlaczego właśnie tak — struktura sekcji, szablony podstron, znaczniki i szybkość — opisuje "
+        },
+        {
+         "_key": "b9dd9b9e4183",
+         "_type": "span",
+         "marks": [
+          "f98b5ffc8447"
+         ],
+         "text": "case study w moim portfolio"
+        },
+        {
+         "_key": "04b24e303aa1",
+         "_type": "span",
+         "marks": [],
+         "text": ". Ten dziennik pokazuje wyłącznie to, co dzieje się ze stroną po starcie, miesiąc po miesiącu."
+        }
+       ]
+      },
+      {
+       "_key": "8c036f96e872",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f283cb0f4f60",
+         "_type": "span",
+         "marks": [],
+         "text": "Ciąg dalszy za miesiąc, z nowym eksportem i weryfikacją dwóch hipotez: czy wyświetlenia wrócą po spadku i czy indeksowanie ruszy, gdy pojawią się sygnały zewnętrzne."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "serviceOffered": [
+    {
+     "_key": "a6a035154155",
+     "_type": "reference",
+     "_ref": "service-ai-search-readiness.pl"
+    },
+    {
+     "_key": "2be04c2c3833",
+     "_type": "reference",
+     "_ref": "77c5f5df-a6f3-49ca-8f42-f1439e3490c6"
+    }
+   ],
+   "relatedArticles": [
+    {
+     "_key": "4a4b559666ec",
+     "_type": "reference",
+     "_ref": "blog-llms-txt.pl"
+    },
+    {
+     "_key": "9cb18d8737df",
+     "_type": "reference",
+     "_ref": "blog-found-via-chatgpt.pl"
+    },
+    {
+     "_key": "28a432d4d9e2",
+     "_type": "reference",
+     "_ref": "blog-redesign-traffic-loss.pl"
+    }
+   ]
+  },
+  "ru": {
+   "_id": "blog-new-site-first-month.ru",
+   "_type": "blog",
+   "language": "ru",
+   "title": "Сколько длится индексация нового сайта: 28 дней tatsianabandziuk.com в отчётах Search Console",
+   "slug": {
+    "_type": "localizedSlug",
+    "ru": {
+     "_type": "slug",
+     "current": "skolko-dlitsya-indeksaciya-novogo-sayta"
+    }
+   },
+   "seo": {
+    "metaTitle": "Сколько длится индексация сайта: данные за первые 28 дней",
+    "metaDescription": "Новый сайт на трёх языках за 28 дней: когда пошли первые показы, сколько страниц попало в индекс, почему 71 осталась вне его и откуда пришли первые переходы."
+   },
+   "excerpt": "Первые показы на второй день, 70 страниц в индексе за девять дней и 71 страница в статусе «Обнаружена — не проиндексирована» через три недели. Полная выгрузка из аналитики tatsianabandziuk.com — сайта, который я собрал и открыл для индексации 18 сентября.",
+   "publishedAt": "2026-10-15T09:00:00.000Z",
+   "category": {
+    "_type": "reference",
+    "_ref": "ec7617da-262b-467c-9e06-5eb52562182c"
+   },
+   "previewImage": {
+    "_type": "image",
+    "alt": "Схема индексации: 160 страниц сайта слева, половина потоков обрывается на обходе, справа 81 проиндексированная страница",
+    "asset": {
+     "_type": "reference",
+     "_ref": "image-899ee1d868260b30e8a06f34508d51aee5c5efe0-1608x728-png"
+    }
+   },
+   "contentBlocks": [
+    {
+     "_key": "ea72f0374e40",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "8098088f9ee0",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [
+        {
+         "_key": "f112a8d2c43b",
+         "_type": "link",
+         "href": "https://www.tatsianabandziuk.com"
+        }
+       ],
+       "children": [
+        {
+         "_key": "d4c30a72cac7",
+         "_type": "span",
+         "marks": [],
+         "text": "Это дневник по собственному проекту, а не пересказ чужой статистики. 18 сентября 2026 года я открыл для индексации "
+        },
+        {
+         "_key": "d76f213d48d1",
+         "_type": "span",
+         "marks": [
+          "f112a8d2c43b"
+         ],
+         "text": "tatsianabandziuk.com"
+        },
+        {
+         "_key": "98e0d5a7236f",
+         "_type": "span",
+         "marks": [],
+         "text": " — сайт консультанта по аналитике ритейла на трёх языках, который сам спроектировал и собрал. 160 страниц, ни одной внешней ссылки, ни истории домена, ни брендового спроса. Доступ к его Search Console, Bing Webmaster Tools и Clarity у меня есть, поэтому выгрузки приводятся целиком и со скриншотами."
+        }
+       ]
+      },
+      {
+       "_key": "83739d1761a2",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "40155f898f48",
+         "_type": "span",
+         "marks": [],
+         "text": "Короткий ответ на вопрос, ради которого сюда обычно приходят: первые показы в Google появились на второй день после открытия индексации, 70 страниц из 160 попали в индекс за девять дней, а через три недели половина сайта всё ещё оставалась вне индекса — 71 страница в статусе «Обнаружена — не проиндексирована». Первые клики пришли на десятый день. Всего за период замера, 28 дней с 18 сентября по 15 октября: 1 068 показов и 6 кликов. По дням данные приведены по 11 октября — последние дни периода Search Console ещё уточняет."
+        }
+       ]
+      },
+      {
+       "_key": "b1b29eadb36e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "3ab21e21c461",
+         "_type": "span",
+         "marks": [],
+         "text": "Откуда взяты числа. Показы, клики, CTR и позиции — отчёт «Эффективность» в Google Search Console за 18 сентября — 15 октября, все устройства и все страны, без фильтров. Состояние индекса — отчёт «Индексирование страниц» на 14 октября. Сеансы и источники переходов — Microsoft Clarity за тот же период, с его собственным фильтром ботов. Показы в Bing — Bing Webmaster Tools за 20 сентября — 11 октября. Ничего не пересчитано, не округлено и не усреднено: под каждым разделом стоит скриншот того отчёта, из которого взято число."
+        }
+       ]
+      },
+      {
+       "_key": "f007733eeddc",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "bb4d7e88dc67",
+         "_type": "span",
+         "marks": [],
+         "text": "Два места идут без скриншота: таблица запросов и разбивка причин в отчёте об индексировании. В них видны конкретные адреса и запросы, которые я не публикую, поэтому цифры оттуда приведены словами — проверить их на слово придётся так же, как и любые чужие. Всё остальное приложено как есть."
+        }
+       ]
+      },
+      {
+       "_key": "85d0789fe98c",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "fb664f6885f9",
+         "_type": "span",
+         "marks": [],
+         "text": "Ключевые числа индексации и трафика за первые 28 дней"
+        }
+       ]
+      },
+      {
+       "_key": "912270f2c3a7",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7fe629882815",
+         "_type": "span",
+         "marks": [],
+         "text": "1 068 показов и 6 кликов, CTR 0,56% — Search Console, отчёт «Эффективность» за 18 сентября — 15 октября"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "74a288ab1589",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "da55a4285881",
+         "_type": "span",
+         "marks": [],
+         "text": "Средняя позиция 14,9 по всем устройствам — тот же отчёт, без разбивки по устройствам"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "334a3c786f09",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "73b70b49a42c",
+         "_type": "span",
+         "marks": [],
+         "text": "81 страница в индексе и 79 вне его, из них 71 в статусе «Обнаружена — не проиндексирована» — отчёт «Индексирование страниц» на 14 октября"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "aabb8b17c0da",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "4618121e50fa",
+         "_type": "span",
+         "marks": [],
+         "text": "43% всех показов дала одна страна, где услуги не продаются, весь русскоязычный кластер — 59% — разбивка по странам в «Эффективности»"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "79bbf9908774",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d7855a8e2208",
+         "_type": "span",
+         "marks": [],
+         "text": "250 показов на позициях 3–8 дали ноль кликов — разбивка по запросам в «Эффективности», без скриншота"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "c3848e7a6067",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d357499fb54a",
+         "_type": "span",
+         "marks": [],
+         "text": "7 живых сеансов из ChatGPT против 11 из Google — Clarity, отчёт по источникам переходов"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "7615ad91d01e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "bd9294c0bd03",
+         "_type": "span",
+         "marks": [],
+         "text": "56 показов и ноль кликов в Bing — Bing Webmaster Tools за 20 сентября — 11 октября"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      },
+      {
+       "_key": "1ff9471ce26e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f93c8252edd9",
+         "_type": "span",
+         "marks": [],
+         "text": "Ноль внешних ссылок: ни одна не покупалась и не ставилась вручную за всё время"
+        }
+       ],
+       "listItem": "bullet",
+       "level": 1
+      }
+     ]
+    },
+    {
+     "_key": "8b27356a33e3",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "График показов нового сайта в Google по дням: рост с 3 до 110 показов и спад до 17",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-8e3df44dfc1a8c987e90c692963be06277fc1702-1608x728-png"
+       }
+      }
+     }
+    },
+    {
+     "_key": "cdac0641af5f",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "1aa05aaccf9f",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c5e44c0402a4",
+         "_type": "span",
+         "marks": [],
+         "text": "Почему эти цифры по индексации и трафику настоящие и почему они нормальные"
+        }
+       ]
+      },
+      {
+       "_key": "56cfeccfe37a",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "159cec4179e8",
+         "_type": "span",
+         "marks": [],
+         "text": "В соцсетях легко найти истории про тысячу переходов за две недели и топ по всем запросам сразу. Проверить их нельзя: выгрузку никто не показывает, период не называет, домен не называет. Поэтому здесь всё наоборот — домен назван в конце статьи, выгрузки приложены, а числа не округлены в свою пользу."
+        }
+       ]
+      },
+      {
+       "_key": "70301c36a987",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "c80f659cb2f0",
+         "_type": "span",
+         "marks": [],
+         "text": "Теперь про «нормально». Сайту три недели, у него нет ни одной внешней ссылки, нет истории домена и нет брендового спроса. В таких условиях 1 068 показов, 70 страниц в индексе за девять дней и первые клики на второй неделе — это рабочий старт. Провал выглядел бы иначе: ноль показов и пустой индекс через месяц. А тысяча переходов на свежий домен без ссылок за две недели — это либо реклама, либо чужой скриншот, либо выдумка."
+        }
+       ]
+      },
+      {
+       "_key": "fc5030615e38",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "4219cce01751",
+         "_type": "span",
+         "marks": [],
+         "text": "Неудобные места я тоже не прячу: 71 страница не проиндексирована, позиции 3–8 не дали ни одного клика, а 40% всего, что попало в счётчик, — боты. Дневник имеет смысл только с ними."
+        }
+       ]
+      },
+      {
+       "_key": "dbca447f1317",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "4443b0b977e7",
+         "_type": "span",
+         "marks": [],
+         "text": "Исходные условия нового сайта: три языка, 160 страниц, ноль внешних ссылок"
+        }
+       ]
+      },
+      {
+       "_key": "43c4a3221cf0",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "fd28e443d298",
+         "_type": "span",
+         "marks": [],
+         "text": "Сайт запущен 18 сентября 2026 года. Внутри шесть страниц услуг, шесть кейсов, 54 статьи, пять калькуляторов и набор служебных страниц — всё на английском, польском и русском, с локализованными адресами разделов."
+        }
+       ]
+      },
+      {
+       "_key": "6dd552fedbed",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "5350ce357476",
+         "_type": "span",
+         "marks": [],
+         "text": "Технически к запуску сделано то, что обычно откладывают: карта сайта с датами обновления, разметка schema.org на каждом типе страниц, отправка новых адресов в IndexNow при публикации, ответы в FAQ отдаются в HTML без JavaScript, скорость в зелёной зоне."
+        }
+       ]
+      },
+      {
+       "_key": "42610f6046c7",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "03cd21be9a5e",
+         "_type": "span",
+         "marks": [],
+         "text": "Чего у сайта не было и нет до сих пор: внешних ссылок, упоминаний, истории домена и брендового спроса. Без этого контекста цифры ниже читаются неправильно."
+        }
+       ]
+      },
+      {
+       "_key": "4516a8680ccd",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "5123164708bf",
+         "_type": "span",
+         "marks": [],
+         "text": "Показы нового сайта в Google по дням: рост до 110 и спад до 17"
+        }
+       ]
+      },
+      {
+       "_key": "9bdbcc38c906",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7dd219c32589",
+         "_type": "span",
+         "marks": [],
+         "text": "За 28 дней Google показал сайт 1 068 раз и привёл 6 человек. Ниже — дни, по которым выгрузка уже полная."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "f2fe2677947d",
+     "_type": "tableBlock",
+     "columns": [
+      "Период",
+      "Что происходило"
+     ],
+     "rows": [
+      {
+       "_key": "32eceaeb077d",
+       "_type": "tableRow",
+       "cells": [
+        "19–22 сентября",
+        "Первые показы, 3–8 в день"
+       ]
+      },
+      {
+       "_key": "a7cd145cd1af",
+       "_type": "tableRow",
+       "cells": [
+        "23–26 сентября",
+        "18–27 показов в день, индекс вырос с 17 до 70 страниц"
+       ]
+      },
+      {
+       "_key": "5f7b124f6e49",
+       "_type": "tableRow",
+       "cells": [
+        "27 сентября — 7 октября",
+        "Плато 60–110 показов в день, первые клики"
+       ]
+      },
+      {
+       "_key": "e9c73133c4f4",
+       "_type": "tableRow",
+       "cells": [
+        "10–11 октября",
+        "Спад до 26 и 17 показов"
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "1b2cde2d9f89",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "72a18c98e5c1",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7896e25fa914",
+         "_type": "span",
+         "marks": [],
+         "text": "Рост до сотни показов в день за две недели — нормальный старт. Интереснее спад в конце периода: похоже на окончание краткосрочного буста, который Google даёт новым сайтам, чтобы быстро оценить их по поведению пользователей. Это гипотеза, а не факт: проверю её в следующем выпуске. Если через месяц показы не восстановятся, причина не в бусте."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "837e0c58cbe1",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Search Console, 28 дней: 1 068 показов, 6 кликов, CTR 0,6% и средняя позиция 14,9",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-599f07cd42527ca37e3c2d06308b174aca6ccbdc-1545x738-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "4cd0ae688778",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "8261ed311756",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f96f596db17d",
+         "_type": "span",
+         "marks": [],
+         "text": "«Обнаружена — не проиндексирована»: 71 страница из 160"
+        }
+       ]
+      },
+      {
+       "_key": "56a3af31628a",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "4a804080e617",
+         "_type": "span",
+         "marks": [],
+         "text": "Самая неприятная цифра месяца. На 14 октября в индексе 81 страница, вне индекса — 79, и 71 из них в статусе «Обнаружена — не проиндексирована»."
+        }
+       ]
+      },
+      {
+       "_key": "8f35f2b321b1",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "a99a84c93a98",
+         "_type": "span",
+         "marks": [],
+         "text": "Статус означает, что Google узнал об адресе из карты сайта, но не стал тратить на него обход. Это не ошибка вёрстки, не запрет в robots.txt и не медленный ответ сервера — всё перечисленное проверено и в порядке. Это дефицит доверия к домену: краулинговый бюджет распределяется в пользу сайтов с внешними сигналами, а у трёхнедельного сайта их ноль."
+        }
+       ]
+      },
+      {
+       "_key": "adf3f8313cdf",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "fe0c3c4066ca",
+         "_type": "span",
+         "marks": [],
+         "text": "Отсюда вывод, который не всем нравится: пока половина страниц вне индекса, переписывать тексты на этих страницах бессмысленно. Сначала нужно, чтобы их прочитали."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "cb9a81958c0f",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Отчёт об индексировании страниц: 81 страница в индексе, 79 вне индекса",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-50df47567037dffe937f302cee3ec3f6d442a6af-1176x698-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "87cb25aed182",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "3eb2596ebdd3",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d6e53e16de7a",
+         "_type": "span",
+         "marks": [],
+         "text": "Показы в Google приходят не с целевых рынков: 43% из одной нецелевой страны"
+        }
+       ]
+      },
+      {
+       "_key": "a2a5d2fdab51",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "0d2c1b547ea9",
+         "_type": "span",
+         "marks": [],
+         "text": "Разбивка по странам оказалась неожиданной."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "7850c64bb445",
+     "_type": "tableBlock",
+     "columns": [
+      "Страна",
+      "Клики",
+      "Показы",
+      "CTR",
+      "Позиция"
+     ],
+     "rows": [
+      {
+       "_key": "7e88ad9aef25",
+       "_type": "tableRow",
+       "cells": [
+        "Польша",
+        "3",
+        "129",
+        "2,3%",
+        "9,5"
+       ]
+      },
+      {
+       "_key": "77768ddcecd2",
+       "_type": "tableRow",
+       "cells": [
+        "Казахстан",
+        "1",
+        "69",
+        "1,4%",
+        "5,1"
+       ]
+      },
+      {
+       "_key": "2639878acabb",
+       "_type": "tableRow",
+       "cells": [
+        "Индия",
+        "1",
+        "11",
+        "9,1%",
+        "10,2"
+       ]
+      },
+      {
+       "_key": "4c050bebbceb",
+       "_type": "tableRow",
+       "cells": [
+        "Мексика",
+        "1",
+        "4",
+        "25%",
+        "62,0"
+       ]
+      },
+      {
+       "_key": "5753f7273a8a",
+       "_type": "tableRow",
+       "cells": [
+        "Россия",
+        "0",
+        "458",
+        "0%",
+        "10,4"
+       ]
+      },
+      {
+       "_key": "5239c725e5cb",
+       "_type": "tableRow",
+       "cells": [
+        "США",
+        "0",
+        "105",
+        "0%",
+        "40,3"
+       ]
+      },
+      {
+       "_key": "b22e5449cce7",
+       "_type": "tableRow",
+       "cells": [
+        "Украина",
+        "0",
+        "66",
+        "0%",
+        "11,6"
+       ]
+      },
+      {
+       "_key": "5eae3e817f99",
+       "_type": "tableRow",
+       "cells": [
+        "Великобритания",
+        "0",
+        "50",
+        "0%",
+        "35,4"
+       ]
+      },
+      {
+       "_key": "f43bc1cfb2b8",
+       "_type": "tableRow",
+       "cells": [
+        "Беларусь",
+        "0",
+        "22",
+        "0%",
+        "3,8"
+       ]
+      },
+      {
+       "_key": "982fa2d19596",
+       "_type": "tableRow",
+       "cells": [
+        "Узбекистан",
+        "0",
+        "13",
+        "0%",
+        "5,2"
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "b67487f4f176",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "73b7efb7a18f",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f8c4dcdc45b3",
+         "_type": "span",
+         "marks": [],
+         "text": "Первая десятка из 63 стран, отсортированная по кликам. Одна Россия дала 458 показов — 43% всех показов периода — и ни одного клика. Весь русскоязычный кластер вместе с Казахстаном, Украиной, Беларусью и Узбекистаном — 628 показов, почти 59%, и один клик на всех."
+        }
+       ]
+      },
+      {
+       "_key": "aeb9ee86a3fc",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "d4d1c36f0191",
+         "_type": "span",
+         "marks": [],
+         "text": "Целевые англоязычные рынки, США и Великобритания, дали 155 показов на позициях 40,3 и 35,4, то есть фактически не участвуют. Единственный рынок, где сходится всё сразу, — Польша: 129 показов, 3 клика, CTR 2,3% и средняя позиция 9,5."
+        }
+       ]
+      },
+      {
+       "_key": "55f831b697cc",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "21394e859e3b",
+         "_type": "span",
+         "marks": [],
+         "text": "Так бывает, когда одна языковая версия попадает в менее конкурентную выдачу: там позиции 3–8 достаются быстро, а в английской выдаче те же темы заняты сайтами с десятилетней историей. Общая статистика при этом выглядит бодрее, чем положение дел."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "5ffae5cd4b6d",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Показы и клики по странам: Польша, Казахстан, Индия, Мексика, Россия, США, Украина, Великобритания",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-c6c86e6d005dcbf74bf85bc8ffb142ce28c291b3-1570x674-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "314ceebba85d",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "4aa6887ced71",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "df823f685b21",
+         "_type": "span",
+         "marks": [],
+         "text": "Позиции 3–8 в выдаче дали ноль кликов: нулевой клик на практике"
+        }
+       ]
+      },
+      {
+       "_key": "fb56f055b2e1",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "fb9e6baf00dd",
+         "_type": "span",
+         "marks": [],
+         "text": "Самое полезное наблюдение периода. Кластер определительных запросов — вопросы вида «что такое такой-то показатель» — собрал около 250 показов на позициях от 3,5 до 8 и не дал ни одного перехода."
+        }
+       ]
+      },
+      {
+       "_key": "4c4fea363680",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "5e292d9b2ddb",
+         "_type": "span",
+         "marks": [],
+         "text": "Причина не в позиции, а в типе запроса. Человек спрашивает определение, получает его прямо в выдаче — в сниппете, в блоке «Ещё спрашивают», в ИИ-ответе — и никуда не идёт. Хорошая позиция по определительному запросу сегодня означает участие в ответе, а не визит."
+        }
+       ]
+      },
+      {
+       "_key": "4813e839d69d",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "28d2602c9cc9",
+         "_type": "span",
+         "marks": [],
+         "text": "Практический вывод для таких страниц: либо обещать в сниппете то, чего в ИИ-ответе нет — калькулятор, таблицу норм, шаблон, разобранный пример, — либо не считать их источником трафика и оценивать по упоминаниям и цитированию."
+        }
+       ]
+      },
+      {
+       "_key": "3a4e49e9c11b",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f2f8d92f8cf0",
+         "_type": "span",
+         "marks": [],
+         "text": "Трафик из ChatGPT на новый сайт: 7 переходов против 11 из Google"
+        }
+       ]
+      },
+      {
+       "_key": "2bb2c4724274",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "6d38f1f23548",
+         "_type": "span",
+         "marks": [],
+         "text": "Clarity за период насчитал 161 сеанс и отдельно отсеял 107 ботовых. Источники переходов: Google — 11 сеансов, ChatGPT — 7, Яндекс — 5 (три с yandex.ru и два с yandex.kz), ещё 4 — переходы внутри самого домена. Остальные сеансы пришли без реферера: прямые заходы и то, что браузер не передал."
+        }
+       ]
+      },
+      {
+       "_key": "3375a4737be2",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "3aa5d7c48859",
+         "_type": "span",
+         "marks": [],
+         "text": "Ботов отсеиваю не я: Clarity делает это сам и показывает отдельной строкой «107 bot sessions excluded». Фильтр не идеальный, поэтому 161 сеанс — это «живые по версии Clarity», а не доказанные люди."
+        }
+       ]
+      },
+      {
+       "_key": "d25b17e8fa22",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "11a171afe7ce",
+         "_type": "span",
+         "marks": [],
+         "text": "На таких объёмах это ещё не статистика, но пропорция показательная: у трёхнедельного сайта без ссылок ИИ-ассистент даёт две трети от того, что даёт поиск. Причём попасть в ответ ассистента оказалось быстрее, чем в первую десятку Google."
+        }
+       ]
+      },
+      {
+       "_key": "85367188b7db",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "4b211fa31700",
+         "_type": "span",
+         "marks": [],
+         "text": "И отдельная цифра оттуда же: 107 отсеянных ботовых сеансов — это 40% всего, что попало в счётчик. Без фильтрации отчёт показал бы 268 сеансов вместо 161, и картина выглядела бы заметно бодрее, чем есть."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "465cfd3c1593",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Источники переходов в Clarity: google.com 11 сеансов, chatgpt.com 7, yandex 5",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-8bf13b9c0aed142dc9b732049bb435acd8675708-1395x538-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "a776fe4b77a0",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "fb91911a05dd",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "2cc626ad6d45",
+         "_type": "span",
+         "marks": [],
+         "text": "Техническая оптимизация сайта на старте не ускорила индексацию"
+        }
+       ]
+      },
+      {
+       "_key": "d32d31f0680e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "774c1000f3e3",
+         "_type": "span",
+         "marks": [],
+         "text": "Для полноты: LCP 1,8 секунды, INP 110 миллисекунд, CLS 0,003, оценка производительности 93 из 100. Сайт быстрый, стабильный и размеченный — и ни одна из этих метрик не помогла ни с индексацией, ни с позициями."
+        }
+       ]
+      },
+      {
+       "_key": "17a2dd46c9d2",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "b42eb98c7fd9",
+         "_type": "span",
+         "marks": [],
+         "text": "Это не аргумент против технической работы, а напоминание о её роли: она убирает препятствия, но не создаёт спрос и не заменяет авторитет. Когда в отчёте «Обнаружена — не проиндексирована» стоит 71 страница, ускорять сайт с 1,8 до 1,5 секунды бессмысленно."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "4a8d4de6d55c",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Дашборд Clarity: 161 сеанс, 107 отсеянных ботовых сеансов, 146 уникальных посетителей",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-a90763866472a8d6187f5187a7c34542289c7d64-1413x676-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "ada6d33677ab",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "e2d19a6e6c14",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "f8e7c28640dd",
+         "_type": "span",
+         "marks": [],
+         "text": "Индексация в Bing и IndexNow: 56 показов и ни одного клика"
+        }
+       ]
+      },
+      {
+       "_key": "7ec13bfeeb8e",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7ff8ba4275f5",
+         "_type": "span",
+         "marks": [],
+         "text": "Отдельная история: в Bing с 20 сентября по 11 октября 56 показов и ноль кликов, при том что отправка новых адресов через IndexNow настроена с первого дня. Для Bing это мало даже с поправкой на возраст домена, поэтому в следующем месяце буду разбираться отдельно — проверять, дошла ли карта сайта и проходит ли проверка ключа."
+        }
+       ]
+      },
+      {
+       "_key": "0ff54aa6191a",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "6541149d11c3",
+         "_type": "span",
+         "marks": [],
+         "text": "Bing важен не сам по себе: его индекс питает Copilot и часть ответов других ИИ-систем. Если сайт плохо виден в Bing, часть видимости в ИИ теряется незаметно."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "_key": "36b304029234",
+     "_type": "imageFullBlock",
+     "title": "Image Full",
+     "imageMain": {
+      "aspectRatio": "10:5",
+      "picture": {
+       "_type": "image",
+       "alt": "Bing Webmaster Tools: 56 показов и ноль кликов с 20 сентября по 11 октября",
+       "asset": {
+        "_type": "reference",
+        "_ref": "image-6414fd0d7b3be5f7350407971145e2e23f19683e-1500x418-jpg"
+       }
+      }
+     }
+    },
+    {
+     "_key": "75b384bc757e",
+     "_type": "faqBlock",
+     "title": "Частые вопросы об индексации нового сайта",
+     "faq": {
+      "_type": "accordionBlock",
+      "items": [
+       {
+        "_key": "f7c7227cc6b9",
+        "question": "Сколько длится индексация сайта?",
+        "answer": [
+         {
+          "_key": "39510c8d1ffb",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "5ea4779100a6",
+            "_type": "span",
+            "marks": [],
+            "text": "На этом сайте первые страницы попали в индекс в течение недели после открытия индексации, 70 страниц из 160 — за девять дней, а половина сайта оставалась вне индекса и через три недели. Разброс большой и зависит не от скорости сайта, а от того, насколько поисковик доверяет домену: у нового домена без внешних ссылок обход распределяется по остаточному принципу."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "5aada706ce6c",
+        "question": "Что значит статус «Обнаружена — не проиндексирована»?",
+        "answer": [
+         {
+          "_key": "a5b25b8ddeb8",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "34400a0655e4",
+            "_type": "span",
+            "marks": [],
+            "text": "Google узнал адрес страницы из карты сайта или по ссылке, но не стал её скачивать и обрабатывать. Это не ошибка на стороне сайта: robots.txt, ответ сервера, разметка и скорость могут быть в полном порядке. Чаще всего это означает, что у домена недостаточно сигналов, чтобы тратить на него краулинговый бюджет."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "ec0b821e2fe1",
+        "question": "Как проверить, что сайт индексируется?",
+        "answer": [
+         {
+          "_key": "b9d0bc9421cb",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "ccf0e24d4bff",
+            "_type": "span",
+            "marks": [],
+            "text": "В Search Console откройте отчёт «Индексирование страниц» и сравните две цифры: сколько страниц в индексе и сколько вне его, с разбивкой по причинам. Проверка оператором site: в поиске показывает только приблизительную картину и не объясняет причины."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "aa494e1253b9",
+        "question": "Почему новый сайт не появляется в поиске?",
+        "answer": [
+         {
+          "_key": "82af80117fe7",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "8f0d0200203e",
+            "_type": "span",
+            "marks": [],
+            "text": "Три типичные причины по убыванию частоты: страницы ещё не проиндексированы, сайт ранжируется по запросам, где он объективно слабее конкурентов с историей, или показы идут не на том рынке, на который рассчитан. Первое проверяется отчётом об индексировании, второе и третье — отчётом об эффективности с разбивкой по странам."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "_key": "55eeae45738e",
+        "question": "Идёт ли на новый сайт трафик из ChatGPT?",
+        "answer": [
+         {
+          "_key": "211e2eb3a320",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+           {
+            "_key": "5eb41fee9aea",
+            "_type": "span",
+            "marks": [],
+            "text": "На этом сайте за первые три недели из ChatGPT пришло 7 живых сеансов против 11 из Google. Объёмы маленькие, выводы делать рано, но канал реальный и работает раньше, чем сайт попадает в первую десятку поиска."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "_key": "329597292000",
+     "_type": "textContent",
+     "textAlign": "left",
+     "content": [
+      {
+       "_key": "e531112e236e",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "8a83f26c30be",
+         "_type": "span",
+         "marks": [],
+         "text": "План на второй месяц: индексация, сниппеты и внешние сигналы"
+        }
+       ]
+      },
+      {
+       "_key": "3017db715af1",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "75fe5eb17468",
+         "_type": "span",
+         "marks": [],
+         "text": "Четыре направления, в порядке приоритета."
+        }
+       ]
+      },
+      {
+       "_key": "f3b27e4cc065",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "4bb2bcca03ff",
+         "_type": "span",
+         "marks": [],
+         "text": "Индексация. Разобрать список непроиндексированных адресов, убрать из карты сайта то, что индексировать не нужно, усилить внутренние ссылки на важные страницы с тех, что уже ранжируются, вручную отправить на проверку два десятка приоритетных адресов."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "c2385162f5d5",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "2931a6fc7354",
+         "_type": "span",
+         "marks": [],
+         "text": "Сниппеты. Переписать заголовки и описания у десяти страниц, которые уже стоят на позициях 3–15, под обещание, которого нет в ИИ-ответе."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "7db2c6345c01",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "7251d01948c0",
+         "_type": "span",
+         "marks": [],
+         "text": "Внешние сигналы. Первые упоминания: профили, профессиональные сообщества, две гостевые публикации. Без этого первый пункт упрётся в потолок."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "7eef437a4334",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "729dd8902216",
+         "_type": "span",
+         "marks": [],
+         "text": "Замер видимости в ИИ. Зафиксировать базовую линию по списку из 30–40 вопросов в ChatGPT, Perplexity, Google AI Overview и Copilot, чтобы через месяц было с чем сравнивать."
+        }
+       ],
+       "listItem": "number",
+       "level": 1
+      },
+      {
+       "_key": "f95fb15a8d1f",
+       "_type": "block",
+       "style": "h3",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "1c2775d73b28",
+         "_type": "span",
+         "marks": [],
+         "text": "Что это за сайт и где посмотреть, как он устроен"
+        }
+       ]
+      },
+      {
+       "_key": "44a6ff06cdd4",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [
+        {
+         "_key": "3a5a19ad157d",
+         "_type": "link",
+         "href": "/ru/portfolio/sayt-eksperta-po-analitike-riteyla"
+        },
+        {
+         "_key": "d6c37453447e",
+         "_type": "link",
+         "href": "https://www.tatsianabandziuk.com"
+        }
+       ],
+       "children": [
+        {
+         "_key": "d7f023d9a486",
+         "_type": "span",
+         "marks": [],
+         "text": "Как устроен "
+        },
+        {
+         "_key": "552f5be545fb",
+         "_type": "span",
+         "marks": [
+          "d6c37453447e"
+         ],
+         "text": "tatsianabandziuk.com"
+        },
+        {
+         "_key": "ffb02ea52554",
+         "_type": "span",
+         "marks": [],
+         "text": " внутри и почему собран именно так — структура разделов, шаблоны страниц, разметка и скорость — разобрано в "
+        },
+        {
+         "_key": "17e14fbc8f9c",
+         "_type": "span",
+         "marks": [
+          "3a5a19ad157d"
+         ],
+         "text": "кейсе в моём портфолио"
+        },
+        {
+         "_key": "f415e8f44cf6",
+         "_type": "span",
+         "marks": [],
+         "text": ". Этот дневник показывает только то, что происходит с сайтом после запуска, месяц за месяцем."
+        }
+       ]
+      },
+      {
+       "_key": "0ba22b1d1b1d",
+       "_type": "block",
+       "style": "normal",
+       "markDefs": [],
+       "children": [
+        {
+         "_key": "80ad200c1035",
+         "_type": "span",
+         "marks": [],
+         "text": "Продолжение через месяц, с новой выгрузкой и проверкой двух гипотез: восстановятся ли показы после спада и сдвинется ли индексация, если добавить внешние сигналы."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "serviceOffered": [
+    {
+     "_key": "741aa17df635",
+     "_type": "reference",
+     "_ref": "service-ai-search-readiness.ru"
+    },
+    {
+     "_key": "31be5a7c7a45",
+     "_type": "reference",
+     "_ref": "6a81eab0-6993-41a6-adc3-d9047a3b35a0"
+    }
+   ],
+   "relatedArticles": [
+    {
+     "_key": "b6478373909c",
+     "_type": "reference",
+     "_ref": "blog-llms-txt"
+    },
+    {
+     "_key": "51fdf9afded9",
+     "_type": "reference",
+     "_ref": "blog-found-via-chatgpt"
+    },
+    {
+     "_key": "38b894c10aa7",
+     "_type": "reference",
+     "_ref": "blog-redesign-traffic-loss"
+    }
+   ]
+  }
+ },
+ "metaDoc": {
+  "_id": "blog-new-site-first-month.i18n",
+  "_type": "translation.metadata",
+  "documentId": "blog-new-site-first-month",
+  "translations": [
+   {
+    "_key": "en",
+    "value": {
+     "_type": "reference",
+     "_ref": "blog-new-site-first-month"
+    }
+   },
+   {
+    "_key": "pl",
+    "value": {
+     "_type": "reference",
+     "_ref": "blog-new-site-first-month.pl"
+    }
+   },
+   {
+    "_key": "ru",
+    "value": {
+     "_type": "reference",
+     "_ref": "blog-new-site-first-month.ru"
+    }
+   }
+  ]
+ }
+}

@@ -5,6 +5,7 @@ import { p, h2, li, ol, link, k } from "./pt";
 
 export const restaurantWebsiteDesignEn = {
   lang: "en",
+  group: "restaurant-website-design",
   slug: "restaurant-website-design",
   title: "Restaurant website design",
   heading: "Restaurant Website Design",

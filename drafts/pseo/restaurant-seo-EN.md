@@ -145,7 +145,7 @@ What I do not do: social media management, paid ads and photo shoots. If you nee
 
 These steps are free and take an afternoon. They do not replace work on the website, but they often move a restaurant up in the map results within weeks.
 
-### How much restaurant SEO costs
+### How much SEO services for restaurants cost
 
 - SEO audit of the website and the Google Business Profile: from 250 €, one-off. You get a list of fixes in order of impact.
 - One-off fixes — text menu, profile clean-up, structured data: 250–700 €.

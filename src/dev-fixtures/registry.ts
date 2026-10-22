@@ -17,11 +17,12 @@ import groq from "groq";
 import { client } from "@/sanity/sanity.client";
 import { getFormStandardDocumentByLang } from "@/sanity/sanity.utils";
 import { restaurantWebsiteDesignEn } from "./restaurant-website-design.en";
+import { restaurantWebsiteDesignRu } from "./restaurant-website-design.ru";
 import { restaurantSeoEn } from "./restaurant-seo.en";
 import { restaurantSeoPl } from "./restaurant-seo.pl";
 import { restaurantSeoRu } from "./restaurant-seo.ru";
 
-const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu];
+const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu];
 
 const isDev = process.env.NODE_ENV !== "production";
 

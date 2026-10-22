@@ -66,6 +66,35 @@ const TOPICS = {
       ru: ["дизайн сайта ресторана", "сайт для ресторана"],
     },
   },
+  // Survey (22.10.2026): food-service venues next to restaurants. The matrix
+  // never measured them — cafés, coffee shops, bars and pizzerias are not in
+  // the industry dictionary, and its EN templates only build «website for
+  // bakeries», never the natural «bakery website». Suggestions catch the real
+  // phrasing. Restaurants themselves are excluded: already covered.
+  "food-venues": {
+    relevant: /caf[eé]|coffee|\bbar\b|\bbars\b|pub\b|bakery|bakeries|patisserie|pastry|cater|pizz|food truck|food-truck|kawiarn|\bbaru\b|\bbar[uó]w\b|pub[uó]?\b|piekarn|cukierni|cateringu|katering|pizzeri|food truck|кафе|кофейн|\bбар|паб|пекарн|кондитерск|кейтеринг|пиццери|фудтрак|фуд-трак/i,
+    otherPage: {
+      restaurant: /restaura|ресторан/i,
+    },
+    groups: {
+      "cafés and coffee shops": /caf[eé]|coffee|kawiarn|кафе|кофейн/i,
+      "bars and pubs": /\bbar\b|\bbars\b|pub\b|\bbaru\b|\bbar[uó]w\b|pub[uó]?\b|\bбар|паб/i,
+      "bakeries and patisseries": /bakery|bakeries|patisserie|pastry|piekarn|cukierni|пекарн|кондитерск/i,
+      "catering": /cater|cateringu|katering|кейтеринг/i,
+      "pizzerias": /pizz|pizzeri|пиццери/i,
+      "food trucks": /food truck|food-truck|фудтрак|фуд-трак/i,
+    },
+    seeds: {
+      en: ["cafe website", "coffee shop website", "bar website", "bakery website", "catering website", "pizza website", "food truck website", "coffee shop seo", "bakery seo", "catering seo"],
+      pl: ["strona dla kawiarni", "strona kawiarni", "strona dla baru", "strona dla piekarni", "strona dla cukierni", "strona dla cateringu", "strona pizzerii", "pozycjonowanie kawiarni"],
+      ru: ["сайт кафе", "сайт для кафе", "сайт кофейни", "сайт для бара", "сайт пекарни", "сайт кондитерской", "сайт кейтеринга", "сайт пиццерии"],
+    },
+    serp: {
+      en: ["coffee shop website", "catering website"],
+      pl: ["strona dla kawiarni"],
+      ru: ["сайт для кафе"],
+    },
+  },
   // RU re-check of topic 2 (22.10.2026): the first run seeded only
   // «продвижение / маркетинг», so SEO and «раскрутка» phrasing was never measured.
   "restaurant-seo-ru": {
@@ -227,8 +256,26 @@ async function main() {
     say("");
     say(`## ${lang.toUpperCase()}`);
     say("");
-    say(`### For this page (${mine.length})`);
-    for (const r of mine.slice(0, 60)) say(`- ${r.volume} · ${r.keyword}`);
+    if (topic.groups) {
+      // survey topics: phrases split by venue type, with each group's total
+      const groups = Object.entries(topic.groups).map(([name, re]) => {
+        const g = mine.filter((r) => re.test(r.keyword));
+        return { name, g, sum: g.reduce((a, r) => a + r.volume, 0) };
+      });
+      const grouped = new Set(groups.flatMap((x) => x.g));
+      groups.push({ name: "other", g: mine.filter((r) => !grouped.has(r)), sum: 0 });
+      groups.sort((a, b) => b.sum - a.sum);
+      say(`### On topic (${mine.length}), by group`);
+      for (const { name, g, sum } of groups) {
+        if (!g.length) continue;
+        say("");
+        say(`#### ${name} — ${g.length} phrases${sum ? `, sum ${sum}` : ""}`);
+        for (const r of g.slice(0, 20)) say(`- ${r.volume} · ${r.keyword}`);
+      }
+    } else {
+      say(`### For this page (${mine.length})`);
+      for (const r of mine.slice(0, 60)) say(`- ${r.volume} · ${r.keyword}`);
+    }
     say("");
     say(`### Belongs to other pages — do not target here (${other.length})`);
     for (const r of other.slice(0, 15)) say(`- ${r.volume} · ${r.keyword} → ${r.fit}`);

@@ -137,7 +137,7 @@ export const restaurantSeoEn = {
         ol("Make sure the name, address and phone number on your website match the profile exactly."),
         p("These steps are free and take an afternoon. They do not replace work on the website, but they often move a restaurant up in the map results within weeks."),
 
-        h2("How much restaurant SEO costs"),
+        h2("How much SEO services for restaurants cost"),
         li("SEO audit of the website and the Google Business Profile: from 250 €, one-off. You get a list of fixes in order of impact."),
         li("One-off fixes — text menu, profile clean-up, structured data: 250–700 €."),
         li("Monthly restaurant SEO — local search, website pages, the reviews routine and reporting: from 800 € per month."),

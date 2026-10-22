@@ -9,6 +9,10 @@
 //   node scripts/create-landing.cjs --fixtures restaurant-seo.en,restaurant-seo.pl,restaurant-seo.ru            dry run
 //   node scripts/create-landing.cjs --fixtures restaurant-seo.en,restaurant-seo.pl,restaurant-seo.ru --apply    create
 //   ... --offline   build and check only, no Sanity calls
+//   ... --add-languages   some versions already exist (e.g. EN published
+//       alone, RU added later): existing documents are left untouched if
+//       their address matches the fixture, only the missing ones are
+//       created, and the translation.metadata link is created or extended
 //
 // Ids: EN `singlepage-<group>`, other languages `singlepage-<group>.<lang>`,
 // metadata `singlepage-<group>.i18n` (group = fixture.group ?? fixture.slug) —
@@ -29,6 +33,7 @@ const flag = (name) => {
 };
 const APPLY = argv.includes("--apply");
 const OFFLINE = argv.includes("--offline");
+const ADD = argv.includes("--add-languages");
 const NAMES = (flag("fixtures") || "").split(",").map((s) => s.trim()).filter(Boolean);
 if (!NAMES.length) {
   console.error("Usage: node scripts/create-landing.cjs --fixtures <slug>.<lang>[,<slug>.<lang>...] [--apply|--offline]");
@@ -164,14 +169,27 @@ async function main() {
     const hit = await client.fetch(`*[_type == "singlepage" && slug[$lang].current == $slug]._id`, { lang: fx.lang, slug: fx.slug });
     slugClash.push(...hit);
   }
-  const taken = [...new Set([...clash.map((c) => c._id), ...slugClash])];
+  let taken = [...new Set([...clash.map((c) => c._id), ...slugClash])];
+  // --add-languages: a published version whose id and address match its
+  // fixture is kept as it is; anything else on these ids/addresses still stops
+  const keep = new Set();
+  if (ADD) {
+    for (const fx of fixtures) {
+      const id = docId(fx.lang);
+      const live = await client.fetch(`*[_id == $id][0]{_id, "s": slug[$lang].current}`, { id, lang: fx.lang });
+      if (live && live.s === fx.slug) keep.add(id);
+    }
+    taken = taken.filter((t) => !keep.has(t) && t !== META_ID);
+  }
   if (taken.length) {
     console.log(`Aborting — already exists: ${taken.join(", ")}`);
     process.exit(1);
   }
+  if (keep.size) console.log(`Kept as published: ${[...keep].join(", ")}`);
 
   const docs = [];
   for (const fx of fixtures) {
+    if (keep.has(docId(fx.lang))) continue;
     const picks = fx.contentBlocks.find((b) => b._type === "portfolioPickBlock")?.picks || [];
     let projectIds = {};
     if (picks.length) {
@@ -203,7 +221,16 @@ async function main() {
     console.log(`form texts: ${formId}`);
     docs.push(doc);
   }
-  if (docs.length > 1) console.log(`\nmetadata: ${META_ID} → ${langs.join(", ")}`);
+  // translation link: extend an existing metadata document, or create one
+  const existingMeta = langs.length > 1
+    ? await client.fetch(
+        `*[_type == "translation.metadata" && count(translations[value._ref in $ids]) > 0][0]{_id, _rev, "keys": translations[]._key}`,
+        { ids: langs.map(docId) },
+      )
+    : null;
+  const missingKeys = existingMeta ? langs.filter((l) => !existingMeta.keys.includes(l)) : [];
+  if (existingMeta) console.log(`\nmetadata: ${existingMeta._id} has ${existingMeta.keys.join(", ")}; adding ${missingKeys.join(", ") || "nothing"}`);
+  else if (langs.length > 1) console.log(`\nmetadata: ${META_ID} → ${langs.join(", ")} (new)`);
 
   const errors = docs.flatMap(check);
   if (errors.length) {
@@ -218,14 +245,19 @@ async function main() {
 
   const tx = client.transaction();
   for (const doc of docs) tx.create(doc);
-  if (docs.length > 1) tx.create(metaDoc());
+  if (existingMeta && missingKeys.length) {
+    const items = metaDoc().translations.filter((t) => missingKeys.includes(t._key));
+    tx.patch(existingMeta._id, (p) => p.ifRevisionId(existingMeta._rev).insert("after", "translations[-1]", items));
+  } else if (!existingMeta && langs.length > 1) {
+    tx.create(metaDoc());
+  }
   await tx.commit();
 
   const back = await client.fetch(
     `*[_id in $ids]{_id, _type, language, "slug": coalesce(slug.en.current, slug.pl.current, slug.ru.current), "translations": count(translations)}`,
     { ids },
   );
-  console.log(`\nCreated ${back.length}/${ids.length - (docs.length > 1 ? 0 : 1)}:`);
+  console.log(`\nNow in Sanity (${back.length}):`);
   for (const b of back) console.log(`  ${b._id}  ${b.language ?? ""} ${b.slug ?? ""}${b.translations ? ` (${b.translations} translations)` : ""}`);
   console.log("\nNext: push (redeploy), then check the live pages and submit them for indexing.");
 }

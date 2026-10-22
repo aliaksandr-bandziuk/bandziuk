@@ -35,7 +35,8 @@ const LOC = {
 };
 
 // [тема, язык, запрос новой страницы, запрос страницы, с которой она может конфликтовать]
-const PAIRS = [
+const PAIR_SETS = {};
+PAIR_SETS.restaurant = [
   ["1 дизайн ресторана", "en", "web design for restaurants", "website for restaurants"],
   ["1 дизайн ресторана", "en", "restaurant website design", "restaurant website"],
   ["1 дизайн ресторана", "pl", "projektowanie strony dla restauracji", "strona internetowa dla restauracji"],
@@ -47,6 +48,29 @@ const PAIRS = [
   ["4 SEO стройка", "ru", "продвижение сайта строительной компании", "сайт для строительной компании"],
   ["5 разработка стройка", "pl", "strona internetowa dla firmy budowlanej", "projektowanie strony dla firmy budowlanej"],
 ];
+
+// 22.10.2026: food-service venues (research/pseo/page-core/food-venues.md).
+// Merge or split, design vs development, and conflicts with restaurant pages.
+PAIR_SETS.food = [
+  ["кафе = кофейня?", "en", "cafe website", "coffee shop website"],
+  ["кафе: дизайн vs разработка", "en", "cafe website design", "cafe website"],
+  ["кафе vs ресторан", "en", "cafe website", "restaurant website"],
+  ["пекарня: дизайн vs разработка", "en", "bakery website design", "bakery website"],
+  ["пекарня vs кафе", "en", "bakery website", "cafe website"],
+  ["кейтеринг: дизайн vs разработка", "en", "catering website design", "catering website"],
+  ["кейтеринг: SEO vs разработка", "en", "catering seo", "catering website"],
+  ["фудтрак: дизайн vs разработка", "en", "food truck website design", "food truck website"],
+  ["пиццерия: это вообще про сайты?", "en", "pizza website", "restaurant website"],
+  ["бар: это вообще про сайты?", "en", "bar website", "restaurant website"],
+  ["кафе = кофейня?", "ru", "сайт кафе", "сайт кофейни"],
+  ["кафе vs ресторан", "ru", "сайт кафе", "сайт для ресторана"],
+  ["пекарня = кондитерская?", "ru", "сайт пекарни", "сайт кондитерской"],
+  ["пиццерия vs ресторан", "ru", "сайт пиццерии", "сайт для ресторана"],
+];
+
+const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
+const PAIRS = PAIR_SETS[SET];
+if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);
 
 const norm = (u) => String(u || "").toLowerCase()
   .replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/[?#].*$/, "").replace(/\/+$/, "");
@@ -107,9 +131,9 @@ async function main() {
     say(`  только «${a}»: ${A.urls.filter((u) => !common.includes(u)).map(host).join(", ")}`);
     say(`  только «${b}»: ${B.urls.filter((u) => !common.includes(u)).map(host).join(", ")}`);
   }
-  fs.writeFileSync(path.join(DIR, "intent-check.md"), out.join("\n") + "\n", "utf8");
+  fs.writeFileSync(path.join(DIR, SET === "restaurant" ? "intent-check.md" : `intent-check-${SET}.md`), out.join("\n") + "\n", "utf8");
   say("");
-  say("Записано: research/pseo/intent-check.md");
+  say(`Записано: research/pseo/${SET === "restaurant" ? "intent-check.md" : `intent-check-${SET}.md`}`);
 }
 
 main().catch((e) => { console.error("Ошибка:", e.message); process.exit(1); });

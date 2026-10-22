@@ -47,6 +47,7 @@ import {
 } from "@/types/homepage";
 import { Singlepage } from "@/types/singlepage";
 import { Metadata } from "next";
+import { devFixtureParams, getDevFixturePage } from "@/dev-fixtures/registry";
 import TextContentComponent from "@/app/components/blocks/TextContentComponent/TextContentComponent";
 import { StructuredData } from "@/app/components/seo/StructuredData/StructuredData";
 import AccordionContainer from "@/app/components/shared/AccordionContainer/AccordionContainer";
@@ -137,7 +138,27 @@ export async function generateStaticParams(): Promise<{ lang: string; slug: stri
     });
   }
 
+  // dev only: written-but-unpublished landing pages (src/dev-fixtures)
+  for (const p of devFixtureParams()) {
+    if (!paths.some((q) => q.lang === p.lang && q.slug.join("/") === p.slug.join("/"))) paths.push(p);
+  }
+
   return paths;
+}
+
+/**
+ * The page and its real ancestor path. On `npm run dev` a page that is not in
+ * Sanity yet falls back to its fixture (src/dev-fixtures/registry.ts); in
+ * production that fallback always returns null.
+ */
+async function loadPage(
+  lang: string,
+  current: string,
+): Promise<{ page: Singlepage | null; realPath: string[] | null }> {
+  const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
+  if (page) return { page, realPath: await getPathForSlug(lang, current) };
+  const fixture = (await getDevFixturePage(lang, current)) as unknown as Singlepage | null;
+  return { page: fixture, realPath: fixture ? [current] : null };
 }
 
 /**
@@ -149,7 +170,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   assertLocale(params.lang);
   const { lang, slug = [] } = params;
   const current = slug[slug.length - 1] || "";
-  const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
+  const { page, realPath: loadedPath } = await loadPage(lang, current);
 
   // Canonical must describe the page's REAL path, never the requested one.
   // This route resolves a page by its LAST slug segment, so /anything/<slug>
@@ -159,7 +180,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   // loading.tsx puts a Suspense boundary above the page, so the response is
   // already streaming with status 200 by the time the component runs — a
   // notFound() down there renders 404 content under a 200 header.
-  const realPath = page ? await getPathForSlug(lang, current) : null;
+  const realPath = page ? loadedPath : null;
 
   if (!page || !realPath) {
     notFound();
@@ -219,7 +240,7 @@ const SinglePage = async (props: Props) => {
   assertLocale(params.lang);
   const { lang, slug } = params;
   const current = slug[slug.length - 1] || "";
-  const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
+  const { page, realPath: loadedPath } = await loadPage(lang, current);
 
   if (!page) {
     notFound();
@@ -230,7 +251,7 @@ const SinglePage = async (props: Props) => {
   // requested path with the page's real ancestor chain and send anything else
   // to the canonical URL with a permanent redirect; without this check each
   // variant renders the full page and declares itself canonical.
-  const realPath = await getPathForSlug(lang, current);
+  const realPath = loadedPath;
 
   if (!realPath) {
     notFound();

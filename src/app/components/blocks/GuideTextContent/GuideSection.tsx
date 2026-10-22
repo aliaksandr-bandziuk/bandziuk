@@ -28,7 +28,8 @@ const GuideSection: React.FC<Props> = ({ id, title, defaultOpen, children }) => 
           onClick={() => setOpen((v) => !v)}
         >
           <span>{title}</span>
-          <span className={styles.mark} aria-hidden="true">{open ? "−" : "+"}</span>
+          {/* the +/− sign comes from CSS (::after), so it never becomes part of the H2 text search engines read */}
+          <span className={styles.mark} aria-hidden="true" />
         </button>
       </h2>
       <div id={bodyId} className={styles.body}>

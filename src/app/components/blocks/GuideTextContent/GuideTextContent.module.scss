@@ -92,6 +92,14 @@
   }
 }
 
+.mark::after {
+  content: "+";
+}
+
+[aria-expanded="true"] > .mark::after {
+  content: "\2212";
+}
+
 .body {
   display: none;
   margin-top: 12px;

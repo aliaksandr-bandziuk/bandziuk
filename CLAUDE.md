@@ -1090,9 +1090,18 @@ exists: `node scripts/dataforseo/pseo-page-core.cjs --topic <slug>` (seeds are
 set per topic inside the script; needs network, so run it on the developer
 machine). The report `research/pseo/page-core/<slug>.md` is the source for
 H2/H3, FAQ and meta. Phrases it marks as belonging to the development or SEO
-page are not targeted. Languages are decided per topic from the same report:
-a PL or RU version is made only when there is real demand. Example: restaurant
-website design is EN only, because PL and RU demand was 90/mo or less.
+page are not targeted. Languages are decided per topic from the same report,
+by the owner's threshold: a language version is made when that language has at
+least one on-topic query of 5+/mo that no existing page owns (in practice 10+,
+the source's smallest non-zero figure). Phrases owned by another page (e.g.
+"strona dla restauracji" -> the PL development page) do not count.
+
+A page created in Sanity 404s on a running `npm run dev` until the dev server
+is restarted with `.next` removed: `[...slug]` has `dynamicParams = false`, and
+`revalidate = 86400` makes the `generateStaticParams` fetch land in the Next
+data cache (`.next/cache`) for a day. Because `src/app/layout.tsx` renders no
+`<html>`/`<body>`, that 404 shows up in dev as "Missing <html> and <body> tags
+in the root layout". Production is unaffected: every deploy rebuilds the list.
 
 ### Landing page layout "variant A" (2026-10): offerListBlock, portfolioPickBlock, quoteFormBlock, guide text, stickyCta
 
@@ -1102,11 +1111,11 @@ New pSEO landing pages use this order after the hero: `offerListBlock` → `port
 - `singlepage.heroLayout = "landing"` — `LandingHero` instead of the photo hero: left-aligned breadcrumbs, H1, excerpt, `heroChips` (≤3, first highlighted), the usual two buttons; desktop shows a phone sketch with `heroPhonePoints` (≤4 numbered labels). Needs no `previewImage`.
 - `portfolioPickBlock` — a slider of hand-picked portfolio references (desktop 3 per view with arrows, phone 1 with dots; native scroll-snap underneath, arrows use `scrollTo`, never a smooth `scrollBy`, which Chrome drops on snap rows). Card tags come from the project: `portfolio.cardTags` (≤3, first highlighted, only facts from the case's Results), else its services. `portfolioBlock` is untouched and still shows the latest four (see above).
 - `quoteFormBlock` — name, email, one context field (sent as `message`), consent; uses FormMinimalBlockComponent's field classes so it looks like every other form. Plain React state, no Formik. `/api/email` requires name + valid email, so the context field cannot replace email. Sends `formName: "Landing page quote form"`, which `/api/email` adds as a `Form:` line and to the subject.
-- A/B test of that form (2026-10): `quoteFormBlock.formVariant` = `auto` (default) | `short` | `quiz`. `auto` splits 50/50 by page — a hash of the page `_id` in `QuoteFormBlock.armFor`, so a page always shows the same arm and stays one static page. `quiz` = `quizQuestions` (2–3 questions, 2–5 answers, tap-to-answer radio chips) first, then the short form; answers go into the message as "Question: answer" lines and `formName` becomes "Landing page quiz form". A quiz without usable questions falls back to `short`. GA4 events, all with `form_variant`: `form_view` (40% in view, once), `form_step_complete` (quiz step 1), `form_submission_success`. Preview either arm with `?form=quiz` / `?form=short` on the dev-preview URL.
+- A/B test of that form (2026-10): `quoteFormBlock.formVariant` = `auto` (default) | `short` | `quiz`. `auto` splits 50/50 by page — a hash of the page `_id` in `QuoteFormBlock.armFor`, so a page always shows the same arm and stays one static page. `quiz` = `quizQuestions` (2–3 questions, 2–5 answers, tap-to-answer radio chips) first, then the short form; answers go into the message as "Question: answer" lines and `formName` becomes "Landing page quiz form". A quiz without usable questions falls back to `short`. GA4 events, all with `form_variant`: `form_view` (40% in view, once), `form_step_complete` (quiz step 1), `form_submission_success`. To see the other arm on localhost, set `formVariant` to `short` or `quiz` in the fixture temporarily.
 - `textContent.layout = "guide"` — `GuideTextContent` splits the content at each H2: desktop shows `TableOfContents` beside the text, every section open; phones show the first section open, the rest collapsed. Closed bodies are `display:none` on phones only — the text is always in the HTML. H2 ids use `slugifyHeading`, same as blog TOC anchors.
 - `singlepage.stickyCta` — phones get `StickyCtaBar` (Get a quote → the contact modal, WhatsApp) instead of `FloatingWhatsAppButton`, after scrolling 60% of a screen.
 - Icons added to `Icon.tsx` + `iconOptions.ts`: smartphone, utensils, image, palette, pencil, languages, calendar-check, camera.
 
-Dev preview: `src/app/[lang]/dev-preview/[fixture]/page.tsx` renders fixtures from `src/dev-fixtures/` with the same components (404 in production builds). Use it to check a new layout before writing to Sanity: the client has no `perspective`, and with apiVersion 2023-10-16 that means drafts are read too, so a test draft would appear on the live site and in the sitemap.
+Local review of unpublished pages (since 2026-10-22; the old `/dev-preview/<fixture>` route is removed): a page written as a fixture in `src/dev-fixtures/<slug>.<lang>.ts` and listed in `src/dev-fixtures/registry.ts` opens on `npm run dev` at its real address, e.g. `http://localhost:3000/restaurant-seo`. `[...slug]/page.tsx` (`loadPage`) falls back to the fixture only when Sanity has no page for that slug, and `generateStaticParams` adds fixture slugs only outside production, so nothing leaks to Vercel. The fixture gets the `_id` the create script will use, so the A/B form arm on localhost matches the live one. Never use a test draft in Sanity instead: the client has no `perspective`, and with apiVersion 2023-10-16 drafts are read too, so a test draft would appear on the live site and in the sitemap. `node scripts/fixture-to-md.cjs <slug>.<lang> drafts/pseo/<slug>-<LANG>.md` renders the same fixture as a Markdown draft for review. To publish, `node scripts/create-landing.cjs --fixtures <slug>.en,<slug>.pl,<slug>.ru` (dry run; `--apply` writes, `--offline` checks without Sanity) creates every language version and the `translation.metadata` link in one transaction, resolving portfolio picks (EN slugs) to each language's case through translation.metadata and the quote form to that language's formStandardDocument. A redeploy is needed afterwards.
 
 New `singlepage` documents are only reachable after a redeploy: `[...slug]` has `dynamicParams = false`, and its params come from the build.

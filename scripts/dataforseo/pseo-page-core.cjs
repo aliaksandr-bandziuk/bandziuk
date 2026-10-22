@@ -52,8 +52,8 @@ const TOPICS = {
     relevant: /restaura|cafe|café|caf[eé]s|bistro|menu|kawiarni|ресторан|кафе|меню/i,
     // phrases about building / SEO belong to other pages; reported, not used here
     otherPage: {
-      development: /development|developer|build|builder|create|creat|make|tworzen|wykonan|stworz|создан|разработ|сделат|заказ/i,
       seo: /\bseo\b|pozycjonow|продвиж|marketing/i,
+      development: /development|developer|build|builder|create|creat|make|tworzen|wykonan|stworz|создан|разработ|сделат|заказ/i,
     },
     seeds: {
       en: ["restaurant website design", "restaurant web design", "restaurant menu design", "restaurant website examples", "restaurant website template", "web design for restaurants"],
@@ -64,6 +64,44 @@ const TOPICS = {
       en: ["restaurant website design", "web design for restaurants"],
       pl: ["projektowanie stron dla restauracji", "strona internetowa dla restauracji"],
       ru: ["дизайн сайта ресторана", "сайт для ресторана"],
+    },
+  },
+  // RU re-check of topic 2 (22.10.2026): the first run seeded only
+  // «продвижение / маркетинг», so SEO and «раскрутка» phrasing was never measured.
+  "restaurant-seo-ru": {
+    relevant: /ресторан|кафе|общепит|кофейн|бар\b/i,
+    otherPage: {
+      warsaw: /варшав/i,
+      development: /создан|разработ|дизайн|шаблон|сделать сайт|заказать сайт|конструктор|тильд/i,
+    },
+    seeds: {
+      ru: [
+        "раскрутка сайта ресторана", "раскрутка ресторана", "seo продвижение ресторана",
+        "seo для ресторана", "продвижение сайта ресторана", "seo ресторана",
+        "продвижение сайта кафе", "раскрутка кафе",
+      ],
+    },
+    serp: {
+      ru: ["раскрутка сайта ресторана", "seo продвижение ресторана"],
+    },
+  },
+  "restaurant-seo": {
+    relevant: /restaura|cafe|café|bistro|kawiarni|gastronom|horeca|ресторан|кафе/i,
+    // checked in this order; the first match wins
+    otherPage: {
+      // PL/RU already have Warsaw restaurant SEO pages
+      warsaw: /warsz|warsaw|варшав/i,
+      development: /develop|design|builder|\bbuild|creat|template|tworzen|projekt|stworz|szablon|создан|разработ|дизайн|шаблон|сделать сайт|заказать сайт/i,
+    },
+    seeds: {
+      en: ["restaurant seo", "seo for restaurants", "local seo for restaurants", "restaurant seo services", "restaurant seo company", "google business profile restaurant"],
+      pl: ["pozycjonowanie restauracji", "pozycjonowanie strony restauracji", "seo dla restauracji", "marketing restauracji", "wizytówka google restauracja", "pozycjonowanie lokalne restauracji"],
+      ru: ["продвижение ресторана", "продвижение сайта ресторана", "seo продвижение ресторана", "продвижение ресторана в интернете", "продвижение ресторана в google", "маркетинг ресторана"],
+    },
+    serp: {
+      en: ["restaurant seo", "seo for restaurants"],
+      pl: ["pozycjonowanie restauracji", "seo dla restauracji"],
+      ru: ["продвижение сайта ресторана", "seo продвижение ресторана"],
     },
   },
 };
@@ -135,7 +173,7 @@ async function main() {
   const paa = { en: new Set(), pl: new Set(), ru: new Set() };
   const related = { en: new Set(), pl: new Set(), ru: new Set() };
 
-  for (const lang of ["en", "pl", "ru"]) {
+  for (const lang of Object.keys(topic.seeds)) {
     for (const seed of topic.seeds[lang]) {
       const s = await call("dataforseo_labs/google/keyword_suggestions/live",
         { keyword: seed, language_code: lang, limit: 200, include_seed_keyword: true, filters: [["keyword_info.search_volume", ">=", 10]] },
@@ -166,8 +204,10 @@ async function main() {
   const rows = [...kw.values()].map((r) => {
     let fit = "this page";
     if (!topic.relevant.test(r.keyword)) fit = "off topic";
-    else if (topic.otherPage.seo.test(r.keyword)) fit = "seo page";
-    else if (topic.otherPage.development.test(r.keyword)) fit = "development page";
+    else {
+      const hit = Object.entries(topic.otherPage).find(([, re]) => re.test(r.keyword));
+      if (hit) fit = `${hit[0]} page`;
+    }
     return { ...r, sources: [...r.sources].join("+"), fit };
   }).sort((a, b) => a.lang.localeCompare(b.lang) || b.volume - a.volume);
 
@@ -181,9 +221,9 @@ async function main() {
   say(`# Semantic core: ${TOPIC}`);
   say("");
   say(`Collected ${new Date().toISOString().slice(0, 10)}. Spent $${spent.toFixed(3)}. Volumes: suggestions — all locations; related — en US, pl Poland, ru Kazakhstan.`);
-  for (const lang of ["en", "pl", "ru"]) {
+  for (const lang of Object.keys(topic.seeds)) {
     const mine = rows.filter((r) => r.lang === lang && r.fit === "this page");
-    const other = rows.filter((r) => r.lang === lang && (r.fit === "development page" || r.fit === "seo page"));
+    const other = rows.filter((r) => r.lang === lang && r.fit !== "this page" && r.fit !== "off topic");
     say("");
     say(`## ${lang.toUpperCase()}`);
     say("");

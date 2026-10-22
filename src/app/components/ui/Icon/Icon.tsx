@@ -28,6 +28,14 @@ import {
   Clock,
   Timer,
   Link as LinkIcon,
+  Smartphone,
+  UtensilsCrossed,
+  Image as ImageIcon,
+  Palette,
+  Pencil,
+  Languages,
+  CalendarCheck,
+  Camera,
   type LucideIcon,
 } from "lucide-react";
 import { FaWhatsapp, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
@@ -64,6 +72,14 @@ const LUCIDE_ICONS: Record<string, LucideIcon> = {
   clock: Clock,
   timer: Timer,
   link: LinkIcon,
+  smartphone: Smartphone,
+  utensils: UtensilsCrossed,
+  image: ImageIcon,
+  palette: Palette,
+  pencil: Pencil,
+  languages: Languages,
+  "calendar-check": CalendarCheck,
+  camera: Camera,
 };
 
 // Brand marks aren't in Lucide's scope — routed through the same Icon API

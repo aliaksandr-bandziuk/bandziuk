@@ -1,0 +1,53 @@
+.bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  display: flex;
+  gap: 10px;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+  background: rgba(10, 10, 11, 0.94);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--border-strong);
+  animation: slideUp 0.25s ease;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.quote {
+  flex-grow: 1;
+  min-height: 48px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #0a0a0b;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.whatsapp {
+  flex: none;
+  width: 52px;
+  min-height: 48px;
+  border-radius: 10px;
+  border: 1px solid var(--border-strong);
+  // react-icons sets color: currentColor inline on the svg (see FloatingWhatsAppButton)
+  color: #4ade80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

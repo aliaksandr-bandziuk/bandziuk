@@ -104,6 +104,8 @@ export type Portfolio = {
   fullTitle: string;
   excerpt: string;
   keyFeatures: KeyFeature;
+  /** Up to 3 short card tags; the first is highlighted (a number from the case). */
+  cardTags?: string[];
   previewImage: ImageAlt;
   challenges: Challenges;
   screenshots: Screenshot[];

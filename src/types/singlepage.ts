@@ -21,6 +21,9 @@ import {
   WorkProcessBlock,
   AnimationBulletsBlock,
   LandingCtaBlock,
+  OfferListBlock,
+  PortfolioPickBlock,
+  QuoteFormBlock,
 } from "./blog";
 import { BenefitsBlock, Image } from "./homepage";
 import { ImageAlt } from "./common";
@@ -64,6 +67,12 @@ export type Singlepage = {
   excerpt: string;
   previewImage: ImageAlt;
   allowIntroBlock: boolean;
+  /** Phones: fixed "Get a quote" + WhatsApp bar instead of the round WhatsApp button. */
+  stickyCta?: boolean;
+  /** "landing": LandingHero instead of the photo hero (PropertyIntro). */
+  heroLayout?: "image" | "landing";
+  heroChips?: string[];
+  heroPhonePoints?: string[];
   contentBlocks: Array<
     | TextContent
     | AccordionBlock
@@ -87,6 +96,9 @@ export type Singlepage = {
     | WorkProcessBlock
     | AnimationBulletsBlock
     | LandingCtaBlock
+    | OfferListBlock
+    | PortfolioPickBlock
+    | QuoteFormBlock
   >;
   parentPage?: SinglepageRef;
   language: string;

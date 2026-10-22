@@ -22,6 +22,8 @@ export type ContactPayload = {
   message?: string;
   currentPage?: string;
   preferredContact?: string;
+  /** Which form sent the request, e.g. "Landing page quote form". Optional. */
+  formName?: string;
   agreedToPolicy: boolean;
 };
 
@@ -34,6 +36,7 @@ const LIMITS = {
   message: 5000,
   currentPage: 500,
   preferredContact: 50,
+  formName: 60,
 } as const;
 
 // Deliberately loose: the client already validates with Yup. This only
@@ -140,9 +143,10 @@ export async function guardContactRequest(req: NextRequest): Promise<GuardResult
   const message = str(body.message, LIMITS.message);
   const currentPage = str(body.currentPage, LIMITS.currentPage);
   const preferredContact = str(body.preferredContact, LIMITS.preferredContact);
+  const formName = str(body.formName, LIMITS.formName);
 
   if (!name || !email || !EMAIL_RE.test(email)) return { ok: false, status: 400, reason: "invalid" };
-  if (phone === null || message === null || currentPage === null || preferredContact === null) {
+  if (phone === null || message === null || currentPage === null || preferredContact === null || formName === null) {
     return { ok: false, status: 400, reason: "invalid" };
   }
   if (body.agreedToPolicy !== true) return { ok: false, status: 400, reason: "consent" };
@@ -156,6 +160,7 @@ export async function guardContactRequest(req: NextRequest): Promise<GuardResult
       message: message || undefined,
       currentPage: currentPage || undefined,
       preferredContact: preferredContact || undefined,
+      formName: formName || undefined,
       agreedToPolicy: true,
     },
   };

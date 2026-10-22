@@ -19,6 +19,9 @@ const PortfolioItem = ({ project, lang }: Props) => {
     Object.values(project.slug ?? {})[0]?.current ??
     "";
 
+  // Facts from the case itself (portfolio.cardTags), the first one highlighted.
+  // The same tags appear on the case's card on landing pages.
+  const tags = (project.cardTags ?? []).filter(Boolean).slice(0, 3);
   const industry = project.keyFeatures?.industry || "—";
   const services = project.keyFeatures?.services?.length
     ? project.keyFeatures.services.map((s) => s.title).join(", ")
@@ -50,6 +53,16 @@ const PortfolioItem = ({ project, lang }: Props) => {
           {industry} · {services}
         </p>
       </div>
+
+      {tags.length > 0 && (
+        <div className={styles.tags}>
+          {tags.map((tag, i) => (
+            <span key={tag} className={i === 0 ? styles.tagAccent : styles.tag}>
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
     </Link>
   );
 };

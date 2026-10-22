@@ -68,6 +68,39 @@ const singlepage = {
       type: "boolean",
     }),
     defineField({
+      name: "heroLayout",
+      title: "Hero layout",
+      description:
+        "Image: the photo hero (shown only with a preview image and Allow Intro Block). Landing: text on the left with facts and buttons, a phone sketch on the right on desktop; needs no photo.",
+      type: "string",
+      options: {
+        list: [
+          { title: "Image (default)", value: "image" },
+          { title: "Landing", value: "landing" },
+        ],
+        layout: "radio",
+      },
+      initialValue: "image",
+    }),
+    defineField({
+      name: "heroChips",
+      title: "Hero facts",
+      description: "Landing hero only. Up to 3 short facts under the text; the first is highlighted. Only facts the page states (prices, reply time).",
+      type: "array",
+      of: [{ type: "string" }],
+      validation: (Rule) => Rule.max(3),
+      hidden: ({ document }) => (document as any)?.heroLayout !== "landing",
+    }),
+    defineField({
+      name: "heroPhonePoints",
+      title: "Hero phone labels",
+      description: "Landing hero only, desktop. Up to 4 numbered labels beside the phone sketch: what the visitor’s first screen will contain.",
+      type: "array",
+      of: [{ type: "string" }],
+      validation: (Rule) => Rule.max(4),
+      hidden: ({ document }) => (document as any)?.heroLayout !== "landing",
+    }),
+    defineField({
       name: "contentBlocks",
       title: "Main Content",
       type: "array",
@@ -93,7 +126,18 @@ const singlepage = {
         { type: "relatedServicesBlock" },
         { type: "portfolioBlock" },
         { type: "contactMethodsBlock" },
+        { type: "offerListBlock" },
+        { type: "portfolioPickBlock" },
+        { type: "quoteFormBlock" },
       ],
+    }),
+    defineField({
+      name: "stickyCta",
+      title: "Sticky contact bar on phones",
+      description:
+        "Shows a bar at the bottom of the screen on phones once the visitor scrolls past the intro: “Get a quote” (opens the contact form) and WhatsApp. Replaces the round WhatsApp button on this page.",
+      type: "boolean",
+      initialValue: false,
     }),
     defineField({
       name: "parentPage",

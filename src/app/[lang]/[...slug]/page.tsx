@@ -73,6 +73,12 @@ import StepsBlockComponent from "@/app/components/blocks/StepsBlockComponent/Ste
 import RelatedServicesBlockComponent from "@/app/components/blocks/RelatedServicesBlockComponent/RelatedServicesBlockComponent";
 import ReviewsFullBlockComponent from "@/app/components/blocks/ReviewsFullBlockComponent/ReviewsFullBlockComponent";
 import FloatingWhatsAppButton from "@/app/components/ui/FloatingWhatsAppButton/FloatingWhatsAppButton";
+import StickyCtaBar from "@/app/components/ui/StickyCtaBar/StickyCtaBar";
+import OfferListBlock from "@/app/components/blocks/OfferListBlock/OfferListBlock";
+import PortfolioPickBlock from "@/app/components/blocks/PortfolioPickBlock/PortfolioPickBlock";
+import QuoteFormBlock from "@/app/components/blocks/QuoteFormBlock/QuoteFormBlock";
+import GuideTextContent from "@/app/components/blocks/GuideTextContent/GuideTextContent";
+import LandingHero from "@/app/components/blocks/LandingHero/LandingHero";
 
 type Props = {
   params: Promise<{
@@ -316,9 +322,18 @@ const SinglePage = async (props: Props) => {
   const renderContentBlock = (block: any) => {
     switch (block._type) {
       case "textContent":
+        if ((block as TextContent).layout === "guide") {
+          return <GuideTextContent key={block._key} block={block as TextContent} lang={lang} />;
+        }
         return (
           <TextContentComponent key={block._key} block={block as TextContent} />
         );
+      case "offerListBlock":
+        return <OfferListBlock key={block._key} block={block} />;
+      case "portfolioPickBlock":
+        return <PortfolioPickBlock key={block._key} block={block} lang={lang} />;
+      case "quoteFormBlock":
+        return <QuoteFormBlock key={block._key} block={block} lang={lang} pageKey={page._id} />;
       case "serviceFeaturesBlock":
         return (
           <ServiceFeaturesBlockComponent
@@ -501,13 +516,14 @@ const SinglePage = async (props: Props) => {
   // component already draws a bg-surface card, so the wrapper's padding-top
   // (which would just be extra invisible bg-base space before that card)
   // gets zeroed for the first block instead.
-  const WRAPPER_BANDED_TYPES = new Set(["tableBlock", "serviceFeaturesBlock"]);
+  const WRAPPER_BANDED_TYPES = new Set(["tableBlock", "serviceFeaturesBlock", "offerListBlock"]);
   const SELF_BANDED_TYPES = new Set([
     "landingCtaBlock",
     "formMinimalBlock",
     "formFullBlock",
   ]);
-  const hasHero = Boolean(page.previewImage && page.allowIntroBlock);
+  const isLandingHero = page.heroLayout === "landing";
+  const hasHero = !isLandingHero && Boolean(page.previewImage && page.allowIntroBlock);
   const firstBlockType = allBlocks[0]?._type;
   const firstBlockIsWrapperBanded =
     hasHero && !!firstBlockType && WRAPPER_BANDED_TYPES.has(firstBlockType);
@@ -519,6 +535,18 @@ const SinglePage = async (props: Props) => {
       <Header params={params} translations={translations} />
       <StructuredData {...structuredDataProps} />
       <main className="singlepage">
+        {isLandingHero && (
+          <LandingHero
+            title={page.title}
+            heading={page.heading}
+            excerpt={page.excerpt}
+            lang={lang}
+            segments={params.slug}
+            crumbTitles={crumbTitles}
+            chips={page.heroChips}
+            phonePoints={page.heroPhonePoints}
+          />
+        )}
         {hasHero && (
           <PropertyIntro
             title={page.title}
@@ -567,7 +595,7 @@ const SinglePage = async (props: Props) => {
         hideContactBand={allBlocks.some((b) => b._type === "contactMethodsBlock")}
       />
       <ModalFull lang={lang} formDocument={formDocument} />
-      <FloatingWhatsAppButton lang={lang} />
+      {page.stickyCta ? <StickyCtaBar lang={lang} /> : <FloatingWhatsAppButton lang={lang} />}
     </>
   );
 };

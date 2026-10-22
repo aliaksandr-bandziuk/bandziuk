@@ -35,6 +35,7 @@ export async function POST(request: NextRequest) {
     `Current Page: ${data.currentPage || "No page info"}`,
     `Policy agreed: ${data.agreedToPolicy ? "Yes" : "No"}`,
     ...(data.preferredContact ? [`Preferred contact: ${data.preferredContact}`] : []),
+    ...(data.formName ? [`Form: ${data.formName}`] : []),
   ].join("\n");
 
   const mailOptions: Mail.Options = {
@@ -42,7 +43,8 @@ export async function POST(request: NextRequest) {
     to: process.env.EMAIL_USER,
     // Reply goes straight to the enquirer. The address passed validation.
     replyTo: data.email,
-    subject: `Request from Bandziuk.Com`,
+    // A landing-page lead is marked in the subject so it stands out in the inbox.
+    subject: data.formName ? `Request from Bandziuk.Com — ${data.formName}` : `Request from Bandziuk.Com`,
     text: mailBody,
   };
 

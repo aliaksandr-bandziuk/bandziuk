@@ -1,0 +1,112 @@
+.guide {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  padding: 8px 0;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 240px minmax(0, 760px);
+    gap: 64px;
+  }
+}
+
+.aside {
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.sticky {
+  position: sticky;
+  top: 110px;
+}
+
+.article {
+  min-width: 0;
+}
+
+// Phones: each section is a card whose H2 is a button.
+.section {
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  padding: 16px;
+  margin-top: 10px;
+
+  @media screen and (min-width: 768px) {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    padding: 0;
+    margin-top: 40px;
+  }
+}
+
+.heading {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+  scroll-margin-top: 100px;
+
+  @media screen and (min-width: 768px) {
+    font-size: clamp(1.75rem, 1.4rem + 1vw, 2.25rem);
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+}
+
+.toggle {
+  all: unset;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  color: var(--text-primary);
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+    border-radius: 4px;
+  }
+
+  @media screen and (min-width: 768px) {
+    cursor: text;
+    pointer-events: none;
+  }
+}
+
+.mark {
+  flex: none;
+  color: var(--accent);
+  font-size: 22px;
+  line-height: 1;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.body {
+  display: none;
+  margin-top: 12px;
+
+  // the first paragraph of a body should not add space under the heading
+  > :first-child {
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+.open .body {
+  display: block;
+}

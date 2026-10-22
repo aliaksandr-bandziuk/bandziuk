@@ -1,0 +1,197 @@
+.hero {
+  // clears the fixed header
+  padding: 88px 0 28px;
+  border-bottom: 1px solid var(--border-subtle);
+
+  @media screen and (min-width: 768px) {
+    padding: 120px 0 56px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 40px;
+  align-items: center;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 56px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+
+  // Breadcrumbs component carries its own spacing for the centred hero
+  :global(nav) {
+    margin-bottom: 14px;
+  }
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: clamp(2.125rem, 1.5rem + 2.6vw, 3.75rem);
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin: 0 0 16px;
+}
+
+.excerpt {
+  font-size: clamp(1rem, 0.93rem + 0.3vw, 1.1875rem);
+  line-height: 1.55;
+  color: var(--text-reading);
+  margin: 0 0 18px;
+  max-width: 620px;
+}
+
+.chips {
+  list-style: none;
+  margin: 0 0 22px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip,
+.chipAccent {
+  font-size: 13px;
+  line-height: 1;
+  padding: 8px 11px;
+  border-radius: 999px;
+}
+
+.chip {
+  border: 1px solid var(--border-strong);
+  color: var(--text-reading);
+}
+
+.chipAccent {
+  background: var(--accent-muted);
+  color: #ffb27a;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 100%;
+
+  // full-width, stacked buttons on phones
+  > * {
+    @media screen and (max-width: 599px) {
+      flex: 1 1 100%;
+      justify-content: center;
+    }
+  }
+}
+
+// Desktop: phone sketch + numbered labels. Hidden on phones to keep the hero short.
+.visual {
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px;
+    padding: 32px;
+    min-height: 400px;
+    box-sizing: border-box;
+  }
+}
+
+.phone {
+  flex: none;
+  width: 180px;
+  height: 340px;
+  border: 2px solid rgba(255, 255, 255, 0.22);
+  border-radius: 28px;
+  padding: 18px 14px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.lineTitle,
+.lineText,
+.lineStatus {
+  display: block;
+  border-radius: 4px;
+}
+
+.lineTitle {
+  height: 14px;
+  width: 62%;
+  background: var(--text-primary);
+}
+
+.lineText {
+  height: 8px;
+  width: 82%;
+  background: var(--text-tertiary);
+}
+
+.lineStatus {
+  height: 8px;
+  width: 46%;
+  background: var(--success);
+}
+
+.screenImage {
+  display: block;
+  flex-grow: 1;
+  border-radius: 12px;
+  background: #26262d;
+}
+
+.phoneButtons {
+  display: flex;
+  gap: 6px;
+}
+
+.btnGhost,
+.btnAccent {
+  flex: 1;
+  height: 28px;
+  border-radius: 6px;
+}
+
+.btnGhost {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btnAccent {
+  background: var(--accent);
+}
+
+.points {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--text-reading);
+  max-width: 200px;
+}
+
+.num {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent);
+  margin-bottom: 2px;
+}

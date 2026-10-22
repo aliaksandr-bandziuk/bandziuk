@@ -11,6 +11,21 @@ const textContent = defineType({
       type: "contentBlock",
     }),
     defineField({
+      name: "layout",
+      title: "Layout",
+      type: "string",
+      description:
+        "Guide: long text split into sections by H2. Desktop shows a contents list beside the text; phones show the first section open and the rest collapsed (the text stays in the page for search engines).",
+      options: {
+        list: [
+          { title: "Default", value: "default" },
+          { title: "Guide (contents + collapsible sections)", value: "guide" },
+        ],
+        layout: "radio",
+      },
+      initialValue: "default",
+    }),
+    defineField({
       name: "backgroundColor",
       title: "Background Color",
       type: "string",

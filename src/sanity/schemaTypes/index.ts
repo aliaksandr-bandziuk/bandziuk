@@ -40,6 +40,9 @@ import relatedServicesBlock from "./relatedServicesBlock";
 import author from "./author";
 import siteDefaults from "./siteDefaults";
 import aiVisibilityCheck from "./aiVisibilityCheck";
+import offerListBlock from "./offerListBlock";
+import portfolioPickBlock from "./portfolioPickBlock";
+import quoteFormBlock from "./quoteFormBlock";
 
 export const schemaTypes = [
   header,
@@ -78,6 +81,9 @@ export const schemaTypes = [
   serviceFeature,
   serviceFeaturesBlock,
   workProcessBlock,
+  offerListBlock,
+  portfolioPickBlock,
+  quoteFormBlock,
   stepsBlock,
   relatedServicesBlock,
   docFile,

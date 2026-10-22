@@ -165,6 +165,7 @@ export async function getLastFourPortfolioByLang(
       title,
       slug,
       previewImage,
+      cardTags,
       keyFeatures{
         industry,
         services[]->{
@@ -240,6 +241,10 @@ export async function getSinglePageByLang(
       excerpt,
       previewImage,
       allowIntroBlock,
+      stickyCta,
+      heroLayout,
+      heroChips,
+      heroPhonePoints,
       pageType,
       areaServed,
       offers,
@@ -247,6 +252,7 @@ export async function getSinglePageByLang(
       _type == "textContent" => {
           _key,
           _type,
+          layout,
           backgroundColor,
           paddingVertical,
           paddingHorizontal,
@@ -413,6 +419,63 @@ export async function getSinglePageByLang(
           marginTop,
           marginBottom
         },
+        _type == "portfolioPickBlock" => {
+          _key,
+          _type,
+          eyebrow,
+          title,
+          subtitle,
+          items[]->{
+            _id,
+            title,
+            slug,
+            language,
+            previewImage,
+            cardTags,
+            keyFeatures{
+              industry,
+              services[]->{ _id, title, slug }
+            }
+          }
+        },
+        _type == "quoteFormBlock" => {
+          _key,
+          _type,
+          title,
+          subtitle,
+          contextLabel,
+          contextPlaceholder,
+          buttonText,
+          note,
+          formVariant,
+          quizQuestions[]{ _key, question, options },
+          form->{
+            _id,
+            _type,
+            language,
+            form{
+              inputName,
+              inputPhone,
+              inputCountry,
+              inputEmail,
+              inputMessage,
+              buttonText,
+              agreementText,
+              agreementLinkLabel,
+              agreementLinkDestination,
+              validationNameRequired,
+              validationPhoneRequired,
+              validationCountryRequired,
+              validationEmailRequired,
+              validationEmailInvalid,
+              validationMessageRequired,
+              validationAgreementRequired,
+              validationAgreementOneOf,
+              successMessage,
+              errorMessage
+            }
+          }
+        },
         _type == "relatedServicesBlock" => {
           _key,
           _type,
@@ -441,7 +504,9 @@ export async function getSinglePageByLang(
         _type != "portfolioBlock" &&
         _type != "formMinimalBlock" &&
         _type != "formFullBlock" &&
-        _type != "relatedServicesBlock" => @
+        _type != "relatedServicesBlock" &&
+        _type != "portfolioPickBlock" &&
+        _type != "quoteFormBlock" => @
       },
       "parentPage": parentPage->{
         _id,
@@ -972,6 +1037,7 @@ export async function getPortfolioItemsByLang(
     title,
     slug,
     previewImage,
+    cardTags,
     keyFeatures{
       industry,
       services[]->{

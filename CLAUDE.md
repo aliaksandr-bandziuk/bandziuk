@@ -1082,3 +1082,20 @@ any multilingual addition:** the Polish and Russian twins of a translated
 article carried no body links at all while the English one did, and the Russian
 AI-readiness service page was missing a sentence its EN and PL versions both
 had. A translated set does not stay in sync by itself.
+
+### Landing page layout "variant A" (2026-10): offerListBlock, portfolioPickBlock, quoteFormBlock, guide text, stickyCta
+
+New pSEO landing pages use this order after the hero: `offerListBlock` → `portfolioPickBlock` → `quoteFormBlock` → `textContent` with `layout: "guide"` → `faqBlock` → a short closing `textContent`. Do not put `benefitsBlock` (hardcoded stats) at the top of these pages.
+
+- `offerListBlock` — "What you get": rows (icon from `iconOptions.ts`, title, one line) and up to 3 price cards. Content IS read from Sanity (unlike `benefitsBlock`). Rendered banded (in `WRAPPER_BANDED_TYPES`). Prices must be ones the site already states.
+- `singlepage.heroLayout = "landing"` — `LandingHero` instead of the photo hero: left-aligned breadcrumbs, H1, excerpt, `heroChips` (≤3, first highlighted), the usual two buttons; desktop shows a phone sketch with `heroPhonePoints` (≤4 numbered labels). Needs no `previewImage`.
+- `portfolioPickBlock` — a slider of hand-picked portfolio references (desktop 3 per view with arrows, phone 1 with dots; native scroll-snap underneath, arrows use `scrollTo`, never a smooth `scrollBy`, which Chrome drops on snap rows). Card tags come from the project: `portfolio.cardTags` (≤3, first highlighted, only facts from the case's Results), else its services. `portfolioBlock` is untouched and still shows the latest four (see above).
+- `quoteFormBlock` — name, email, one context field (sent as `message`), consent; uses FormMinimalBlockComponent's field classes so it looks like every other form. Plain React state, no Formik. `/api/email` requires name + valid email, so the context field cannot replace email. Sends `formName: "Landing page quote form"`, which `/api/email` adds as a `Form:` line and to the subject.
+- A/B test of that form (2026-10): `quoteFormBlock.formVariant` = `auto` (default) | `short` | `quiz`. `auto` splits 50/50 by page — a hash of the page `_id` in `QuoteFormBlock.armFor`, so a page always shows the same arm and stays one static page. `quiz` = `quizQuestions` (2–3 questions, 2–5 answers, tap-to-answer radio chips) first, then the short form; answers go into the message as "Question: answer" lines and `formName` becomes "Landing page quiz form". A quiz without usable questions falls back to `short`. GA4 events, all with `form_variant`: `form_view` (40% in view, once), `form_step_complete` (quiz step 1), `form_submission_success`. Preview either arm with `?form=quiz` / `?form=short` on the dev-preview URL.
+- `textContent.layout = "guide"` — `GuideTextContent` splits the content at each H2: desktop shows `TableOfContents` beside the text, every section open; phones show the first section open, the rest collapsed. Closed bodies are `display:none` on phones only — the text is always in the HTML. H2 ids use `slugifyHeading`, same as blog TOC anchors.
+- `singlepage.stickyCta` — phones get `StickyCtaBar` (Get a quote → the contact modal, WhatsApp) instead of `FloatingWhatsAppButton`, after scrolling 60% of a screen.
+- Icons added to `Icon.tsx` + `iconOptions.ts`: smartphone, utensils, image, palette, pencil, languages, calendar-check, camera.
+
+Dev preview: `src/app/[lang]/dev-preview/[fixture]/page.tsx` renders fixtures from `src/dev-fixtures/` with the same components (404 in production builds). Use it to check a new layout before writing to Sanity: the client has no `perspective`, and with apiVersion 2023-10-16 that means drafts are read too, so a test draft would appear on the live site and in the sitemap.
+
+New `singlepage` documents are only reachable after a redeploy: `[...slug]` has `dynamicParams = false`, and its params come from the build.

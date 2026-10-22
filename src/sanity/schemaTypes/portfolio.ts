@@ -139,6 +139,15 @@ const portfolio = {
       ],
     }),
     defineField({
+      name: "cardTags",
+      title: "Card tags",
+      description:
+        "Up to 3 short tags shown on this project's card on landing pages (portfolioPickBlock). The first one is highlighted: use it for a number, e.g. “96/98/100/100”. Only facts the case itself states. Empty: the card shows the project's services instead.",
+      type: "array",
+      of: [{ type: "string" }],
+      validation: (Rule) => Rule.max(3),
+    }),
+    defineField({
       name: "previewImage",
       title: "Preview image",
       type: "image",

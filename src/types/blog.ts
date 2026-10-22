@@ -63,6 +63,8 @@ export type TextContent = {
   textAlign: "left" | "center" | "right";
   textColor: string;
   backgroundFull: string;
+  /** "guide": contents beside the text on desktop, collapsible H2 sections on phones. */
+  layout?: "default" | "guide";
 };
 
 export type DoubleImagesBlock = {
@@ -501,4 +503,38 @@ export type Blog = {
       };
     },
   ];
+};
+
+// === Landing page blocks (variant A, 2026-10) ===
+export type OfferListBlock = {
+  _key: string;
+  _type: "offerListBlock";
+  eyebrow?: string;
+  title: string;
+  items?: Array<{ _key: string; iconName?: string; title: string; text?: string }>;
+  prices?: Array<{ _key: string; label: string; value: string; note?: string; highlight?: boolean }>;
+};
+
+export type PortfolioPickBlock = {
+  _key: string;
+  _type: "portfolioPickBlock";
+  eyebrow?: string;
+  title: string;
+  subtitle?: string;
+  /** Dereferenced projects; a deleted reference arrives as null. */
+  items?: Array<(Portfolio & { cardTags?: string[] }) | null>;
+};
+
+export type QuoteFormBlock = {
+  _key: string;
+  _type: "quoteFormBlock";
+  title: string;
+  subtitle?: string;
+  contextLabel?: string;
+  contextPlaceholder?: string;
+  buttonText?: string;
+  note?: string;
+  formVariant?: "auto" | "short" | "quiz";
+  quizQuestions?: Array<{ _key: string; question: string; options?: string[] }>;
+  form: FormStandardDocument;
 };

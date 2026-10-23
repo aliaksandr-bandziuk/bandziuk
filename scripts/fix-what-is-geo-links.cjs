@@ -99,7 +99,7 @@ async function main() {
   // in a list of references, across all documents.
   const stray = await client.fetch(`*[!(_id in path("drafts.**")) && defined(contentBlocks)]{
     _id, "inText": contentBlocks[_type == "textContent"].content[][_type == "reference"]._ref,
-    "inLists": contentBlocks[].items[][_type == "block"]._key }[count(inText) > 0 || count(inLists) > 0]`);
+    "inLists": contentBlocks[_type == "relatedServicesBlock"].items[][_type != "reference"]._key }[count(inText) > 0 || count(inLists) > 0]`);
   const other = stray.filter((s) => !ids.includes(s._id));
   console.log(other.length ? `\nOther documents with the same damage (fix by hand or tell Claude):\n${other.map((s) => `  ${s._id}: ${JSON.stringify(s)}`).join("\n")}` : "\nNo other documents have references inside text or text inside reference lists.");
 

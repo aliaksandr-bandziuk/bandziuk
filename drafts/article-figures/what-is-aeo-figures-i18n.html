@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Figures for the «What is AEO» article (24.10.2026). Same surface, type and
+     categorical slots as the GEO articles, so the series reads as one. Every
+     number is repeated in a table or in the text of the article. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:20px 0 0;line-height:1.5}
+  .legend{display:flex;gap:22px;flex-wrap:wrap;margin:16px 0 0}
+  .legend span{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2)}
+
+  /* test matrix */
+  table.m{width:100%;border-collapse:collapse;font-size:15px}
+  table.m th{font-weight:500;color:var(--ink-2);font-size:13px;text-align:left;padding:0 10px 12px;border-bottom:1px solid var(--baseline)}
+  table.m td{padding:8px 10px;border-bottom:1px solid var(--grid);color:var(--ink)}
+  table.m td.rank{font-variant-numeric:tabular-nums;color:var(--ink-2);width:150px}
+  table.m tr.hi td{background:rgba(57,135,229,.08)}
+  .pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:13px;font-weight:500;line-height:1.4}
+  .p-answer{background:var(--s2);color:#fff}
+  .p-cited{background:rgba(57,135,229,.25);color:#cfe2ff;border:1px solid rgba(57,135,229,.6)}
+  .p-card{background:rgba(255,255,255,.06);color:var(--ink-2);border:1px solid rgba(255,255,255,.14)}
+  .p-list{background:transparent;color:var(--muted);border:1px dashed rgba(255,255,255,.22)}
+  .none{display:inline-block;width:16px;height:2px;background:var(--grid);vertical-align:middle}
+
+  /* page anatomy */
+  .anat{display:grid;grid-template-columns:1fr 330px;gap:28px}
+  .page{background:#18181c;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:28px 30px;position:relative}
+  .page .q{font-size:22px;font-weight:600;color:#fff;line-height:1.3;margin:0 0 14px}
+  .page .a{font-size:15.5px;line-height:1.55;color:#fff;background:rgba(217,89,38,.16);border-left:3px solid var(--s2);padding:10px 14px;border-radius:0 8px 8px 0;margin:0 0 16px}
+  .page .t{width:100%;border-collapse:collapse;font-size:13.5px;margin:0 0 14px}
+  .page .t th,.page .t td{border-bottom:1px solid var(--grid);padding:7px 8px;text-align:left;color:var(--ink-2)}
+  .page .t th{color:var(--ink);font-weight:600}
+  .page .ev{font-size:13.5px;color:var(--ink-2);line-height:1.5;margin:0 0 14px;padding:8px 12px;border:1px dashed rgba(57,135,229,.5);border-radius:8px}
+  .page .by{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted)}
+  .page .by i{width:28px;height:28px;border-radius:50%;background:#2a2a30;display:block}
+  .it{position:relative}
+  .tag{position:absolute;right:-46px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:50%;background:var(--s4);color:#111;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center}
+  .notes{display:flex;flex-direction:column;gap:12px}
+  .notes div{display:grid;grid-template-columns:30px 1fr;gap:10px;font-size:14px;line-height:1.45;color:var(--ink)}
+  .notes b{display:block;font-weight:600}
+  .notes span{color:var(--ink-2)}
+  .notes .n{width:26px;height:26px;border-radius:50%;background:var(--s4);color:#111;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center}
+
+  /* zero click */
+  .zc{display:flex;flex-direction:column;gap:26px}
+  .zrow .zl{display:flex;justify-content:space-between;align-items:baseline;margin:0 0 10px}
+  .zrow .zl b{font-size:18px;color:var(--ink);font-weight:600}
+  .zrow .zl em{font-style:normal;font-size:44px;font-weight:600;color:var(--s2);line-height:1}
+  .zbar{display:flex;height:46px;border-radius:8px;overflow:hidden}
+  .zbar div{display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:600;white-space:nowrap}
+  .zleg{display:flex;gap:22px;margin-top:4px}
+  .zleg span{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2)}
+  .zleg i{width:12px;height:12px;border-radius:3px;display:block}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    num: (v) => String(v),
+    matrix: { k: "One question, two answer engines · 23 October 2026", h: "Ranking gets a page considered; a quotable answer gets it used",
+      s: "Question: «how long does it take to build a website». Google in US English, ordinary results vs the visible AI Overview; Perplexity with its ten sources.",
+      cols: ["Site", "Google position", "Google AI Overview", "Perplexity"],
+      st: { answer: "opening answer", cited: "cited", card: "source card", list: "source list only" },
+      rows: [["Wix", "2", ["answer", "card"], ["cited"]], ["Hostinger", "8", [], ["answer"]], ["Elementor", "4", [], ["cited"]], ["Forbes", "3", [], ["list"]], ["Reddit thread", "1", ["card"], []], ["YouTube video", "video", ["cited", "card"], []], ["Network Solutions", "outside top 9", ["cited"], []], ["Quora, Belt Creative, Facebook, SolveIt", "5, 6, 7, 9", [], []], ["WordPress.com, Zoho, Shopify, HubSpot +2", "outside top 9", [], ["list"]]],
+      hi: [0, 1, 2],
+      note: "AI Overview: what is visible on the first screen and in the source panel. One question is an illustration, not a study." },
+    anat: { k: "AEO checklist in one picture", h: "Anatomy of a section that answer engines can use",
+      q: "How long does it take to build a website with a developer?",
+      a: "A five-page business website takes four to six weeks with a developer. A one-page site can be ready in a week; an online shop with payments takes eight to twelve weeks.",
+      th: ["Type of site", "Time with a developer"], tr: [["One-page site", "about 1 week"], ["Business site, 5 pages", "4–6 weeks"], ["Online shop with payments", "8–12 weeks"]],
+      ev: "Source: [your projects or a named study]. Updated: [date].",
+      by: "[Author name] · [role and experience]",
+      notes: [["Question as the heading", "in the words people type or say"], ["Complete answer first", "one or two sentences that make sense alone, subject named"], ["Details in a list or table", "easy to turn into an answer"], ["Evidence and a date", "numbers, sources, last update"], ["A real author", "who is accountable for the answer"]],
+      note: "A template with illustrative timings, not a quote from a live page. The structure follows Google's guidance on helpful content and the pages used in the live test." },
+    zero: { k: "SparkToro and Datos · 2024 zero-click study", h: "Most Google searches end without a click to any website",
+      s: "What happens after 1,000 Google searches: no click, a click to the open web, or another click (mostly Google's own properties).",
+      rows: [["United States", 585, 360, 55], ["European Union", 597, 374, 29]],
+      leg: ["No click", "Click to the open web", "Other clicks"],
+      note: "Source: Rand Fishkin, «2024 Zero-Click Search Study», SparkToro with clickstream data from Datos, July 2024. «Other» is the remainder to 1,000." },
+  },
+  pl: {
+    num: (v) => String(v).replace(".", ","),
+    matrix: { k: "Jedno pytanie, dwa silniki odpowiedzi · 23 października 2026", h: "Pozycja sprawia, że strona jest brana pod uwagę; odpowiedź do zacytowania — że zostaje użyta",
+      s: "Pytanie: «how long does it take to build a website». Google w angielskiej wersji dla USA, zwykłe wyniki a widoczne AI Overview; Perplexity z dziesięcioma źródłami.",
+      cols: ["Strona", "Pozycja w Google", "AI Overview w Google", "Perplexity"],
+      st: { answer: "pierwsza odpowiedź", cited: "cytowana", card: "karta źródła", list: "tylko lista źródeł" },
+      rows: [["Wix", "2", ["answer", "card"], ["cited"]], ["Hostinger", "8", [], ["answer"]], ["Elementor", "4", [], ["cited"]], ["Forbes", "3", [], ["list"]], ["Wątek na Reddicie", "1", ["card"], []], ["Film na YouTube", "film", ["cited", "card"], []], ["Network Solutions", "poza top 9", ["cited"], []], ["Quora, Belt Creative, Facebook, SolveIt", "5, 6, 7, 9", [], []], ["WordPress.com, Zoho, Shopify, HubSpot +2", "poza top 9", [], ["list"]]],
+      hi: [0, 1, 2],
+      note: "AI Overview: to, co widać na pierwszym ekranie i w panelu źródeł. Jedno pytanie to ilustracja, nie badanie." },
+    anat: { k: "Checklista AEO na jednym obrazku", h: "Anatomia sekcji, której mogą użyć silniki odpowiedzi",
+      q: "Ile trwa stworzenie strony internetowej z programistą?",
+      a: "Strona firmowa z pięcioma podstronami powstaje u programisty w cztery do sześciu tygodni. Strona jednostronicowa może być gotowa w tydzień, sklep z płatnościami w osiem do dwunastu tygodni.",
+      th: ["Rodzaj strony", "Czas z programistą"], tr: [["Strona jednostronicowa", "około 1 tygodnia"], ["Strona firmowa, 5 podstron", "4–6 tygodni"], ["Sklep z płatnościami", "8–12 tygodni"]],
+      ev: "Źródło: [Wasze projekty albo nazwane badanie]. Aktualizacja: [data].",
+      by: "[Imię i nazwisko autora] · [rola i doświadczenie]",
+      notes: [["Pytanie jako nagłówek", "słowami, które ludzie wpisują albo mówią"], ["Pełna odpowiedź na początku", "jedno–dwa zdania, które mają sens same, z nazwanym podmiotem"], ["Szczegóły w liście lub tabeli", "łatwo zamienić je w odpowiedź"], ["Dowody i data", "liczby, źródła, ostatnia aktualizacja"], ["Prawdziwy autor", "który odpowiada za odpowiedź"]],
+      note: "Szablon z przykładowymi terminami, a nie cytat z istniejącej strony. Struktura wynika z wytycznych Google o pomocnych treściach i ze stron użytych w teście." },
+    zero: { k: "SparkToro i Datos · badanie wyszukiwań bez kliknięcia, 2024", h: "Większość wyszukiwań w Google kończy się bez kliknięcia w jakąkolwiek stronę",
+      s: "Co dzieje się po 1000 wyszukiwań w Google: brak kliknięcia, kliknięcie do otwartej sieci albo inne kliknięcie (głównie we własne serwisy Google).",
+      rows: [["Stany Zjednoczone", 585, 360, 55], ["Unia Europejska", 597, 374, 29]],
+      leg: ["Bez kliknięcia", "Kliknięcie do otwartej sieci", "Inne kliknięcia"],
+      note: "Źródło: Rand Fishkin, «2024 Zero-Click Search Study», SparkToro z danymi clickstream od Datos, lipiec 2024. «Inne» to reszta do 1000." },
+  },
+  ru: {
+    num: (v) => String(v).replace(".", ","),
+    matrix: { k: "Один вопрос, два движка ответов · 23 октября 2026", h: "Позиция делает страницу кандидатом; ответ, который можно процитировать, делает её источником",
+      s: "Вопрос: «how long does it take to build a website». Google в англоязычной версии для США: обычная выдача против видимого обзора от ИИ; Perplexity с десятью источниками.",
+      cols: ["Сайт", "Позиция в Google", "Обзор от ИИ в Google", "Perplexity"],
+      st: { answer: "первый ответ", cited: "процитирован", card: "карточка источника", list: "только в списке" },
+      rows: [["Wix", "2", ["answer", "card"], ["cited"]], ["Hostinger", "8", [], ["answer"]], ["Elementor", "4", [], ["cited"]], ["Forbes", "3", [], ["list"]], ["Ветка на Reddit", "1", ["card"], []], ["Видео на YouTube", "видео", ["cited", "card"], []], ["Network Solutions", "вне топ-9", ["cited"], []], ["Quora, Belt Creative, Facebook, SolveIt", "5, 6, 7, 9", [], []], ["WordPress.com, Zoho, Shopify, HubSpot +2", "вне топ-9", [], ["list"]]],
+      hi: [0, 1, 2],
+      note: "Обзор от ИИ: то, что видно на первом экране и в панели источников. Один вопрос — иллюстрация, а не исследование." },
+    anat: { k: "Чек-лист AEO на одной картинке", h: "Анатомия раздела, который могут использовать движки ответов",
+      q: "Сколько времени занимает разработка сайта у разработчика?",
+      a: "Сайт компании на пять страниц разработчик делает за четыре–шесть недель. Одностраничный сайт можно запустить за неделю, интернет-магазин с оплатой — за восемь–двенадцать недель.",
+      th: ["Тип сайта", "Срок у разработчика"], tr: [["Одностраничный сайт", "около недели"], ["Сайт компании, 5 страниц", "4–6 недель"], ["Интернет-магазин с оплатой", "8–12 недель"]],
+      ev: "Источник: [ваши проекты или названное исследование]. Обновлено: [дата].",
+      by: "[Имя автора] · [роль и опыт]",
+      notes: [["Вопрос как заголовок", "теми словами, которые набирают или произносят"], ["Полный ответ первым", "одно-два предложения, понятные сами по себе, с названным подлежащим"], ["Детали списком или таблицей", "их легко превратить в ответ"], ["Доказательства и дата", "числа, источники, последнее обновление"], ["Настоящий автор", "который отвечает за ответ"]],
+      note: "Шаблон с примерными сроками, а не цитата с живой страницы. Структура следует рекомендациям Google о полезном контенте и страницам, использованным в тесте." },
+    zero: { k: "SparkToro и Datos · исследование поисков без клика, 2024", h: "Большинство поисков в Google заканчиваются без перехода на какой-либо сайт",
+      s: "Что происходит после 1000 поисков в Google: без клика, клик в открытый интернет или другой клик (в основном в собственные сервисы Google).",
+      rows: [["США", 585, 360, 55], ["Евросоюз", 597, 374, 29]],
+      leg: ["Без клика", "Клик в открытый интернет", "Другие клики"],
+      note: "Источник: Rand Fishkin, «2024 Zero-Click Search Study», SparkToro по данным clickstream от Datos, июль 2024. «Другие» — остаток до 1000." },
+  },
+};
+
+const S = getComputedStyle(document.documentElement);
+const c = (n) => S.getPropertyValue(n).trim();
+function section(lang, id, t) {
+  const s = document.createElement("section");
+  s.className = "fig"; s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2>${t.s ? `<p class="sub">${t.s}</p>` : ""}`;
+  return s;
+}
+const note = (s, n) => { const p = document.createElement("p"); p.className = "note"; p.textContent = n; s.appendChild(p); };
+
+function matrix(lang, t) {
+  const M = t.matrix, s = section(lang, "matrix", M);
+  const cell = (arr) => arr.length ? arr.map((k) => `<span class="pill p-${k}">${M.st[k]}</span>`).join(" ") : `<span class="none"></span>`;
+  const rows = M.rows.map((r, i) => `<tr class="${M.hi.includes(i) ? "hi" : ""}"><td>${r[0]}</td><td class="rank">${r[1]}</td><td>${cell(r[2])}</td><td>${cell(r[3])}</td></tr>`).join("");
+  s.insertAdjacentHTML("beforeend", `<table class="m"><thead><tr>${M.cols.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table>
+    <div class="legend">${Object.entries(M.st).map(([k, v]) => `<span><span class="pill p-${k}">${v}</span></span>`).join("")}</div>`);
+  note(s, M.note);
+  return s;
+}
+
+function anat(lang, t) {
+  const A = t.anat, s = section(lang, "anat", { k: A.k, h: A.h });
+  s.insertAdjacentHTML("beforeend", `<div class="anat">
+    <div class="page">
+      <div class="it"><p class="q">${A.q}</p><span class="tag">1</span></div>
+      <div class="it"><p class="a">${A.a}</p><span class="tag">2</span></div>
+      <div class="it"><table class="t"><thead><tr>${A.th.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${A.tr.map((r) => `<tr>${r.map((x) => `<td>${x}</td>`).join("")}</tr>`).join("")}</tbody></table><span class="tag">3</span></div>
+      <div class="it"><p class="ev">${A.ev}</p><span class="tag">4</span></div>
+      <div class="it"><div class="by"><i></i>${A.by}</div><span class="tag">5</span></div>
+    </div>
+    <div class="notes">${A.notes.map(([b, sp], i) => `<div><span class="n">${i + 1}</span><p style="margin:0"><b>${b}</b><span>${sp}</span></p></div>`).join("")}</div>
+  </div>`);
+  note(s, A.note);
+  return s;
+}
+
+function zero(lang, t) {
+  const Z = t.zero, s = section(lang, "zero", Z);
+  const cols = [c("--s2"), c("--s3"), c("--muted")];
+  const rows = Z.rows.map(([name, a, b, o]) => `<div class="zrow"><div class="zl"><b>${name}</b><em>${t.num((a / 10).toFixed(1))}%</em></div>
+    <div class="zbar">${[a, b, o].map((v, i) => `<div style="width:${v / 10}%;background:${cols[i]}">${v >= 60 ? v : ""}</div>`).join("")}</div></div>`).join("");
+  s.insertAdjacentHTML("beforeend", `<div class="zc">${rows}<div class="zleg">${Z.leg.map((l, i) => `<span><i style="background:${cols[i]}"></i>${l}</span>`).join("")}</div></div>`);
+  note(s, Z.note);
+  return s;
+}
+
+const root = document.getElementById("root");
+for (const lang of ["en", "pl", "ru"]) [matrix, anat, zero].forEach((f) => root.appendChild(f(lang, T[lang])));
+</script>
+</body>
+</html>

@@ -66,6 +66,25 @@ const TOPICS = {
       ru: ["дизайн сайта ресторана", "сайт для ресторана"],
     },
   },
+  // Topics 6–7 (23.10.2026): contractors, EN only. The construction survey
+  // gave volumes but no PAA / related searches for contractor phrasing.
+  // Trades (roofing, hvac, painting…) are reported as a group but deferred.
+  "contractors": {
+    relevant: /contractor|builder|remodel|construction/i,
+    otherPage: {},
+    groups: {
+      "trades (deferred)": /roof|hvac|plumb|electric|paint|landscap|remodel|concrete|flooring|fencing|pool|siding|handyman|drywall|masonry/i,
+      "SEO / marketing": /\bseo\b|marketing|leads|lead gen|google|advertis|ads\b/i,
+      "design / examples": /design|template|theme|example|idea|inspiration|best|top/i,
+      "website": /website|site\b|web\b|builder/i,
+    },
+    seeds: {
+      en: ["contractor website design", "contractor websites", "general contractor website design", "website for contractors", "seo for contractors", "local seo for contractors", "contractor seo services", "contractor marketing"],
+    },
+    serp: {
+      en: ["contractor website design", "seo for contractors"],
+    },
+  },
   // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any

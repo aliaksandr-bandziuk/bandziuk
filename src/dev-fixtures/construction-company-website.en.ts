@@ -133,6 +133,11 @@ export const constructionCompanyWebsiteEn = {
         h2("A website for a small construction company"),
         p("A small construction company does not need a large website. It needs the few pages that matter: home, services, the areas it works in, five to ten good projects and a quote form. That is the simple version, from 700 €, and it can grow into the full structure later without rebuilding."),
         p(
+          "If you sell remodels and repairs to homeowners rather than build whole projects, see the ",
+          link("websites for contractors", "/website-for-contractors"),
+          " page.",
+        ),
+        p(
           "If you are a property developer selling apartments or houses in your own projects, the website works differently — see the ",
           link("property and real estate developer website", "/property-developer-website"),
           " page.",

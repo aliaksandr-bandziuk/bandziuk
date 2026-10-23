@@ -29,8 +29,12 @@ import { constructionSeoPl } from "./construction-seo.pl";
 import { constructionCompanyWebsiteEn } from "./construction-company-website.en";
 import { constructionCompanyWebsitePl } from "./construction-company-website.pl";
 import { constructionCompanyWebsiteRu } from "./construction-company-website.ru";
+import { contractorWebsiteDesignEn } from "./contractor-website-design.en";
+import { websiteForContractorsEn } from "./website-for-contractors.en";
+import { seoForContractorsEn } from "./seo-for-contractors.en";
+import { localSeoForContractorsEn } from "./local-seo-for-contractors.en";
 
-const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu];
+const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, seoForContractorsEn, localSeoForContractorsEn];
 
 const isDev = process.env.NODE_ENV !== "production";
 

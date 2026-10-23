@@ -123,6 +123,11 @@ export const constructionWebsiteDesignEn = {
         h2("Construction company website templates or a custom design"),
         p("Construction company website templates, including free ones, look convincing in a demo because the demo is filled with professional photos and invented projects. Filled with a real company’s content, they tend to show the same weaknesses: a gallery instead of project pages, one generic services page, a contact form with three fields."),
         p("A template is a reasonable start for a one-person firm with a handful of projects. A custom design pays off when you cover several services or areas, depend on enquiries from search, or want project pages your team can add without breaking the layout. Moving away from a template later usually means building the site again."),
+        p(
+          "Contractors who sell remodels and repairs to homeowners — calls and estimate visits rather than tenders — will find a closer fit on the ",
+          link("contractor website design", "/contractor-website-design"),
+          " page.",
+        ),
 
         h2("Construction website design examples: what the best construction company websites have in common"),
         p("Lists of the top construction company websites are full of large firms with video headers. The useful ideas in them are simpler and fit a company of any size:"),

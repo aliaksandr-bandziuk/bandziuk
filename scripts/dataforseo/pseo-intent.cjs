@@ -92,6 +92,16 @@ PAIR_SETS.developer = [
   ["застройщик vs стройка (SEO)", "ru", "продвижение сайта застройщика", "продвижение сайта строительной компании"],
 ];
 
+// 23.10.2026: contractor topics 6–7 — what «contractor websites» is, and
+// whether marketing-agency and local-SEO phrasing share the SEO page.
+PAIR_SETS.contractors = [
+  ["подрядчик: сайты = дизайн?", "en", "contractor websites", "contractor website design"],
+  ["подрядчик vs стройка (разработка)", "en", "contractor websites", "construction company website"],
+  ["general contractor = contractor?", "en", "general contractor website design", "contractor website design"],
+  ["SEO = маркетинговое агентство?", "en", "seo for contractors", "contractor marketing agency"],
+  ["локальное SEO = SEO?", "en", "local seo for contractors", "seo for contractors"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

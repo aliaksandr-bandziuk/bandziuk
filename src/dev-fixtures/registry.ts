@@ -40,8 +40,14 @@ import { aiSeoServicesRu } from "./ai-seo-services.ru";
 import { aiSeoConsultantEn } from "./ai-seo-consultant.en";
 import { aiSeoConsultantPl } from "./ai-seo-consultant.pl";
 import { aiSeoConsultantRu } from "./ai-seo-consultant.ru";
+import { chatgptSeoServicesEn } from "./chatgpt-seo-services.en";
+import { chatgptSeoServicesPl } from "./chatgpt-seo-services.pl";
+import { chatgptSeoServicesRu } from "./chatgpt-seo-services.ru";
+import { llmSeoServicesEn } from "./llm-seo-services.en";
+import { llmSeoServicesPl } from "./llm-seo-services.pl";
+import { llmSeoServicesRu } from "./llm-seo-services.ru";
 
-const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu, aiSeoConsultantEn, aiSeoConsultantPl, aiSeoConsultantRu];
+const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu, aiSeoConsultantEn, aiSeoConsultantPl, aiSeoConsultantRu, chatgptSeoServicesEn, chatgptSeoServicesPl, chatgptSeoServicesRu, llmSeoServicesEn, llmSeoServicesPl, llmSeoServicesRu];
 
 const isDev = process.env.NODE_ENV !== "production";
 

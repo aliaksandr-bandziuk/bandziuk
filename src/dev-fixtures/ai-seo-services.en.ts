@@ -152,6 +152,13 @@ export const aiSeoServicesEn = {
           link("answer engine optimization", "/services/answer-engine-optimization-services"),
           " pages.",
         ),
+        p(
+          "ChatGPT on its own, and each language model measured separately, are covered on the ",
+          link("ChatGPT SEO services", "/services/chatgpt-seo-services"),
+          " and ",
+          link("LLM SEO services", "/services/llm-seo-services"),
+          " pages.",
+        ),
 
         h2("AI SEO company, agency or consultant: how to choose"),
         p("Lists of the best AI SEO agencies and companies mix large agencies, tool vendors and freelancers. I work as an independent consultant: the person who audits your visibility is the one who changes the pages and checks the result. Whoever you choose, ask:"),

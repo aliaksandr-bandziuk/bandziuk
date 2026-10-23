@@ -148,6 +148,13 @@ export const aiSeoServicesPl = {
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ".",
         ),
+        p(
+          "Sam ChatGPT oraz każdy model językowy mierzony osobno opisuję na stronach ",
+          link("pozycjonowanie w ChatGPT", "/pl/oferty/pozycjonowanie-w-chatgpt"),
+          " i ",
+          link("LLM SEO", "/pl/oferty/llm-seo"),
+          ".",
+        ),
 
         h2("Agencja SEO AI czy niezależny specjalista: jak wybrać"),
         p("Wśród firm, które sprzedają SEO AI, są duże agencje, dostawcy narzędzi i freelancerzy. Ja pracuję jako niezależny konsultant: ta sama osoba sprawdza Waszą widoczność, zmienia podstrony i mierzy wynik. Niezależnie od wyboru zapytajcie:"),

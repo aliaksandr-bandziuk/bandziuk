@@ -15,13 +15,13 @@ type Props = {
   segments?: string[];
   crumbTitles?: Record<string, string>;
   /** Up to 3 short facts under the text, e.g. "From 700 €". The first is highlighted. */
-  chips?: string[];
+  chips?: string[] | null;
   /** Up to 4 numbered labels beside the phone sketch (desktop only). */
-  phonePoints?: string[];
+  phonePoints?: string[] | null;
   /** Right side on desktop: the phone sketch (default) or a photo. */
-  visual?: "phone" | "photo";
+  visual?: "phone" | "photo" | null;
   /** Used when visual = "photo"; a transparent-background portrait fits best. */
-  photo?: ImageAlt;
+  photo?: ImageAlt | null;
 };
 
 const OFFER: Record<string, string> = {
@@ -46,13 +46,16 @@ const LandingHero: FC<Props> = ({
   lang,
   segments,
   crumbTitles,
-  chips = [],
-  phonePoints = [],
-  visual = "phone",
+  chips,
+  phonePoints,
+  visual,
   photo,
 }) => {
-  const points = phonePoints.slice(0, 4);
-  const showPhoto = visual === "photo" && Boolean(photo?.asset);
+  // GROQ returns null (not undefined) for fields a document does not have, so
+  // destructuring defaults would not apply — normalise here.
+  const facts = chips ?? [];
+  const points = (phonePoints ?? []).slice(0, 4);
+  const showPhoto = (visual ?? "phone") === "photo" && Boolean(photo?.asset);
 
   return (
     <section className={styles.hero}>
@@ -63,9 +66,9 @@ const LandingHero: FC<Props> = ({
           )}
           <h1 className={styles.title}>{heading || title}</h1>
           {excerpt && <p className={styles.excerpt}>{excerpt}</p>}
-          {chips.length > 0 && (
+          {facts.length > 0 && (
             <ul className={styles.chips}>
-              {chips.slice(0, 3).map((chip, i) => (
+              {facts.slice(0, 3).map((chip, i) => (
                 <li key={chip} className={i === 0 ? styles.chipAccent : styles.chip}>
                   {chip}
                 </li>

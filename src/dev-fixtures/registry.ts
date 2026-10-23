@@ -34,8 +34,11 @@ import { websiteForContractorsEn } from "./website-for-contractors.en";
 import { websiteForContractorsRu } from "./website-for-contractors.ru";
 import { seoForContractorsEn } from "./seo-for-contractors.en";
 import { localSeoForContractorsEn } from "./local-seo-for-contractors.en";
+import { aiSeoServicesEn } from "./ai-seo-services.en";
+import { aiSeoServicesPl } from "./ai-seo-services.pl";
+import { aiSeoServicesRu } from "./ai-seo-services.ru";
 
-const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn];
+const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu];
 
 const isDev = process.env.NODE_ENV !== "production";
 
@@ -48,7 +51,15 @@ export const fixtureDocId = (fx: any) => {
 
 export function devFixtureParams(): { lang: string; slug: string[] }[] {
   if (!isDev) return [];
-  return FIXTURES.map((fx) => ({ lang: fx.lang, slug: [fx.slug] }));
+  return FIXTURES.map((fx) => ({ lang: fx.lang, slug: [...(fx.parentPath ?? []), fx.slug] }));
+}
+
+/** Real path of a fixture page: a nested one (fx.parentPath, e.g. ["services"])
+ *  lives under its parent, like the service pages in Sanity. */
+export function devFixturePath(lang: string, slug: string): string[] | null {
+  if (!isDev) return null;
+  const fx = FIXTURES.find((f) => f.lang === lang && f.slug === slug);
+  return fx ? [...(fx.parentPath ?? []), fx.slug] : null;
 }
 
 /** The fixture shaped exactly like getSinglePageByLang's GROQ result. */
@@ -84,6 +95,12 @@ export async function getDevFixturePage(lang: string, slug: string) {
     projects = ids.map((x) => ({ ...(docs.find((d) => d._id === x.id) ?? {}), s: x.s })).filter((p) => p._id);
   }
   const formDocument = await getFormStandardDocumentByLang(lang);
+  const parentPage = fx.parentPath
+    ? await client.fetch(
+        groq`*[_type == "singlepage" && language == $lang && slug[$lang].current == $s && !(_id in path("drafts.**"))][0]{ title, slug }`,
+        { lang, s: fx.parentPath[fx.parentPath.length - 1] },
+      )
+    : null;
 
   const contentBlocks = fx.contentBlocks.map((b: any) => {
     if (b._type === "portfolioPickBlock") {
@@ -106,6 +123,7 @@ export async function getDevFixturePage(lang: string, slug: string) {
     heroChips: fx.heroChips,
     heroPhonePoints: fx.heroPhonePoints,
     pageType: fx.pageType ?? "page",
+    ...(parentPage ? { parentPage } : {}),
     offers: fx.offers ?? [],
     contentBlocks,
     _translations: [],

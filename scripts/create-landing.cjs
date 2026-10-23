@@ -53,10 +53,11 @@ if (groups.length !== 1) throw new Error(`Fixtures belong to different groups: $
 const BASE = `singlepage-${groups[0]}`;
 const docId = (lang) => (lang === "en" ? BASE : `${BASE}.${lang}`);
 const META_ID = `${BASE}.i18n`;
+const PARENT_PATH = new Map(fixtures.map((fx) => [docId(fx.lang), fx.parentPath || []]));
 const langs = fixtures.map((fx) => fx.lang);
 if (new Set(langs).size !== langs.length) throw new Error(`Duplicate language: ${langs.join(", ")}`);
 
-function buildDoc(fx, { projectIds, formId }) {
+function buildDoc(fx, { projectIds, formId, parentId }) {
   const contentBlocks = fx.contentBlocks.map((b) => {
     if (b._type === "portfolioPickBlock") {
       const { picks, ...rest } = b;
@@ -70,6 +71,9 @@ function buildDoc(fx, { projectIds, formId }) {
     _type: "singlepage",
     language: fx.lang,
     pageType: fx.pageType ?? "page",
+    // fx.parentPath (e.g. ["services"]): nested under that page, like the
+    // service pages — /services/<slug>, /pl/oferty/<slug>, /ru/uslugi/<slug>
+    ...(parentId ? { parentPage: { _type: "reference", _ref: parentId } } : {}),
     title: fx.title,
     heading: fx.heading,
     excerpt: fx.excerpt,
@@ -124,7 +128,7 @@ function summary(doc) {
   const lang = doc.language;
   const prefix = lang === "en" ? "" : `/${lang}`;
   console.log(`\n── ${lang.toUpperCase()}  ${doc._id}`);
-  console.log(`URL:   ${prefix}/${doc.slug[lang].current}`);
+  console.log(`URL:   ${prefix}/${[...(PARENT_PATH.get(doc._id) || []), doc.slug[lang].current].join("/")}${doc.parentPage ? `  (parent ${doc.parentPage._ref})` : ""}`);
   console.log(`H1:    ${doc.heading}`);
   console.log(`title: ${doc.seo.metaTitle} (${doc.seo.metaTitle.length})`);
   console.log(`blocks: ${doc.contentBlocks.map((b) => b._type + (b.layout ? `:${b.layout}` : "")).join(" → ")}`);
@@ -141,6 +145,7 @@ async function main() {
       buildDoc(fx, {
         projectIds: Object.fromEntries((fx.contentBlocks.find((b) => b._type === "portfolioPickBlock")?.picks || []).map((s) => [s, `(${s})`])),
         formId: `(form ${fx.lang})`,
+        parentId: fx.parentPath ? `(parent /${fx.parentPath.join("/")})` : undefined,
       }),
     );
     docs.forEach(summary);
@@ -215,7 +220,19 @@ async function main() {
       `*[_type == "formStandardDocument" && language == $lang && !(_id in path("drafts.**"))][0]._id`,
       { lang: fx.lang },
     );
-    const doc = buildDoc(fx, { projectIds, formId });
+    let parentId;
+    if (fx.parentPath) {
+      const parentSlug = fx.parentPath[fx.parentPath.length - 1];
+      parentId = await client.fetch(
+        `*[_type == "singlepage" && language == $lang && slug[$lang].current == $s && !(_id in path("drafts.**"))][0]._id`,
+        { lang: fx.lang, s: parentSlug },
+      );
+      if (!parentId) {
+        console.log(`Aborting — ${fx.lang}: parent page «${parentSlug}» not found`);
+        process.exit(1);
+      }
+    }
+    const doc = buildDoc(fx, { projectIds, formId, parentId });
     summary(doc);
     if (picks.length) console.log(`portfolio: ${picks.map((s) => projectIds[s]).join(", ")}`);
     console.log(`form texts: ${formId}`);

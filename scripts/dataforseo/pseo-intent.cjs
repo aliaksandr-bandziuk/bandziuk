@@ -109,6 +109,37 @@ PAIR_SETS.renovation = [
   ["готовый сайт vs стройка", "ru", "купить сайт по ремонту квартир", "сайт для строительной компании"],
   ["готовый сайт vs сайт ремонта", "ru", "купить сайт по ремонту квартир", "сайт по ремонту квартир"],
 ];
+// 23.10.2026: AI SEO as a service. Existing EN pages: GEO
+// (/services/ai-ready-seo-and-geo-optimization), AEO
+// (/services/answer-engine-optimization-services), AI search optimization
+// (/services/ai-search-readiness). Gaps: «ai seo services / agency / company»,
+// «geo vs seo», «what is GEO / AEO». Which page owns what, and whether
+// «ai seo» means AI-search SEO or SEO done with AI tools.
+PAIR_SETS["ai-services"] = [
+  ["ai seo = GEO-страница?", "en", "ai seo services", "generative engine optimization services"],
+  ["ai seo = AI search optimization?", "en", "ai seo services", "ai search optimization services"],
+  ["ai seo: услуги vs агентство", "en", "ai seo services", "ai seo agency"],
+  ["ai seo agency vs GEO agency", "en", "ai seo agency", "generative engine optimization agency"],
+  ["llm seo = GEO?", "en", "llm seo services", "generative engine optimization services"],
+  ["chatgpt seo agency = ai seo agency?", "en", "chatgpt seo agency", "ai seo agency"],
+  ["GEO vs AEO (услуги)", "en", "generative engine optimization services", "answer engine optimization services"],
+  ["статья: geo vs seo = что такое GEO?", "en", "geo vs seo", "what is generative engine optimization"],
+  ["статья: что такое GEO = что такое AEO?", "en", "what is generative engine optimization", "what is answer engine optimization"],
+  ["статья: geo vs seo = geo vs aeo?", "en", "geo vs seo", "geo vs aeo"],
+  ["PL: seo ai = pozycjonowanie w ai?", "pl", "seo ai", "pozycjonowanie w ai"],
+  ["PL: pozycjonowanie w ai = w chatgpt?", "pl", "pozycjonowanie w ai", "pozycjonowanie w chatgpt"],
+];
+// Follow-up: consultant vs agency (a sole trader should not pose as an
+// agency), LLM vs ChatGPT wording, company vs services.
+PAIR_SETS["ai-services-2"] = [
+  ["consultant vs agency", "en", "ai seo consultant", "ai seo agency"],
+  ["expert = consultant?", "en", "ai seo expert", "ai seo consultant"],
+  ["consultant vs services", "en", "ai seo consultant", "ai seo services"],
+  ["company = services?", "en", "ai seo company", "ai seo services"],
+  ["llm seo vs llm seo services", "en", "llm seo", "llm seo services"],
+  ["llm seo = chatgpt seo?", "en", "llm seo services", "chatgpt seo services"],
+  ["chatgpt seo vs services", "en", "chatgpt seo", "chatgpt seo services"],
+];
 
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];

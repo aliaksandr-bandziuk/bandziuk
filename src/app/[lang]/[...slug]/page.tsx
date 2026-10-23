@@ -47,7 +47,7 @@ import {
 } from "@/types/homepage";
 import { Singlepage } from "@/types/singlepage";
 import { Metadata } from "next";
-import { devFixtureParams, getDevFixturePage } from "@/dev-fixtures/registry";
+import { devFixtureParams, devFixturePath, getDevFixturePage } from "@/dev-fixtures/registry";
 import TextContentComponent from "@/app/components/blocks/TextContentComponent/TextContentComponent";
 import { StructuredData } from "@/app/components/seo/StructuredData/StructuredData";
 import AccordionContainer from "@/app/components/shared/AccordionContainer/AccordionContainer";
@@ -158,7 +158,7 @@ async function loadPage(
   const page = (await getSinglePageByLang(lang, current)) as Singlepage | null;
   if (page) return { page, realPath: await getPathForSlug(lang, current) };
   const fixture = (await getDevFixturePage(lang, current)) as unknown as Singlepage | null;
-  return { page: fixture, realPath: fixture ? [current] : null };
+  return { page: fixture, realPath: fixture ? devFixturePath(lang, current) : null };
 }
 
 /**

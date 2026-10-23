@@ -140,6 +140,17 @@ PAIR_SETS["ai-services-2"] = [
   ["llm seo = chatgpt seo?", "en", "llm seo services", "chatgpt seo services"],
   ["chatgpt seo vs services", "en", "chatgpt seo", "chatgpt seo services"],
 ];
+// Article «GEO vs SEO» (23.10.2026): one comparison article with AEO inside,
+// or separate articles for the AEO comparisons and «is SEO dead».
+PAIR_SETS["geo-article"] = [
+  ["geo vs seo = seo vs geo?", "en", "geo vs seo", "seo vs geo"],
+  ["geo vs seo = тройка?", "en", "geo vs seo", "seo vs aeo vs geo"],
+  ["geo vs seo = seo vs aeo?", "en", "geo vs seo", "seo vs aeo"],
+  ["seo vs aeo = geo vs aeo?", "en", "seo vs aeo", "geo vs aeo"],
+  ["тройка = geo vs aeo?", "en", "seo vs aeo vs geo", "geo vs aeo"],
+  ["geo vs seo = seo and geo?", "en", "geo vs seo", "seo and geo"],
+  ["geo vs seo = is seo dead?", "en", "geo vs seo", "is seo dead"],
+];
 
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Textless cover for «GEO vs SEO» (owner's rule: no wording on the preview,
+     which is also the OG image). The subject in one picture: a browser window
+     with a list of results on the left (SEO) and one generated answer on the
+     right (GEO); three of the results are drawn into the answer as its cited
+     sources — the live test in the article, where three sites made it into
+     both AI answers. Palette and geometry as the legalizacja cover. */
+  :root{ --bg:#0a0a0b; --accent:#f5a05c; --cool:#3987e5; --line:#26262a; --line-2:#1b1b1f; --chrome:#17171a; }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000}
+  .cover{position:relative;width:1672px;height:941px;overflow:hidden;
+    background:
+      radial-gradient(1000px 600px at 16% -14%, rgba(245,160,92,.15), transparent 62%),
+      radial-gradient(900px 560px at 94% 114%, rgba(57,135,229,.18), transparent 60%),
+      var(--bg);}
+  .grain{position:absolute;inset:0;opacity:.4}
+  .grain i{position:absolute;border-radius:50%;background:#fff}
+  .browser{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1240px;
+    background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.09);
+    border-radius:26px;overflow:hidden;box-shadow:0 60px 140px rgba(0,0,0,.6);}
+  .chrome{height:62px;background:var(--chrome);border-bottom:1px solid rgba(255,255,255,.07);display:flex;align-items:center;gap:11px;padding:0 26px}
+  .chrome .d{width:12px;height:12px;border-radius:50%;background:#2e2e33}
+  .chrome .url{margin-left:18px;height:26px;flex:1;max-width:620px;border-radius:13px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.05)}
+  .body{position:relative;display:flex;gap:120px;padding:54px 60px 60px}
+  .results{width:470px;flex:none}
+  .row{display:flex;gap:16px;align-items:flex-start;margin:0 0 28px}
+  .row:last-child{margin-bottom:0}
+  .row .n{width:10px;height:10px;border-radius:50%;background:var(--line);margin-top:4px;flex:none}
+  .row .lines{flex:1}
+  .row .t{height:12px;border-radius:6px;background:var(--line);margin:0 0 10px}
+  .row .s{height:7px;border-radius:4px;background:var(--line-2)}
+  .row .s + .s{margin-top:7px}
+  .row.on .n{background:var(--cool)} .row.on .t{background:rgba(57,135,229,.75)}
+  .answer{flex:1;border-radius:22px;padding:34px 36px;
+    background:linear-gradient(150deg, rgba(57,135,229,.20), rgba(57,135,229,.05) 60%, rgba(255,255,255,.02));
+    border:1px solid rgba(57,135,229,.45);box-shadow:0 30px 70px rgba(0,0,0,.45)}
+  .spark{width:46px;height:46px;margin:0 0 26px;position:relative}
+  .spark::before,.spark::after{content:"";position:absolute;left:50%;top:50%;background:var(--accent);border-radius:3px}
+  .spark::before{width:8px;height:46px;transform:translate(-50%,-50%)}
+  .spark::after{width:46px;height:8px;transform:translate(-50%,-50%)}
+  .spark i{position:absolute;inset:11px;border-radius:50%;background:var(--accent);transform:rotate(45deg);opacity:.9}
+  .al{height:12px;border-radius:6px;background:rgba(255,255,255,.30);margin:0 0 14px}
+  .al.sm{height:9px;background:rgba(255,255,255,.17)}
+  .chips{display:flex;gap:12px;margin-top:30px}
+  .chip{height:30px;border-radius:15px;background:rgba(57,135,229,.35);border:1px solid rgba(57,135,229,.7)}
+  svg.links{position:absolute;inset:0;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+function grain(n) {
+  let s = 20261023, out = "";
+  const rnd = () => (s = (s * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+  for (let i = 0; i < n; i++) {
+    const x = (rnd() * 1672).toFixed(0), y = (rnd() * 941).toFixed(0);
+    const d = (rnd() * 1.6 + 0.6).toFixed(2), o = (rnd() * 0.3 + 0.05).toFixed(2);
+    out += `<i style="left:${x}px;top:${y}px;width:${d}px;height:${d}px;opacity:${o}"></i>`;
+  }
+  return out;
+}
+const ON = [0, 1, 1, 0, 1, 0];
+const W = [[82,94,58],[68,88,52],[75,96,61],[61,84,49],[79,91,55],[70,86,50]];
+const rows = ON.map((on, i) => `<div class="row${on ? " on" : ""}" data-i="${i}"><span class="n"></span><div class="lines"><div class="t" style="width:${W[i][0]}%"></div><div class="s" style="width:${W[i][1]}%"></div><div class="s" style="width:${W[i][2]}%"></div></div></div>`).join("");
+document.getElementById("root").insertAdjacentHTML("beforeend", `
+  <div class="cover" id="cover">
+    <div class="grain">${grain(240)}</div>
+    <div class="browser">
+      <div class="chrome"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url"></span></div>
+      <div class="body">
+        <div class="results">${rows}</div>
+        <div class="answer">
+          <div class="spark"><i></i></div>
+          <div class="al" style="width:92%"></div><div class="al" style="width:84%"></div>
+          <div class="al sm" style="width:96%"></div><div class="al sm" style="width:88%"></div>
+          <div class="al sm" style="width:72%"></div><div class="al" style="width:66%;margin-top:24px"></div>
+          <div class="al sm" style="width:90%"></div><div class="al sm" style="width:58%"></div>
+          <div class="chips"><div class="chip" style="width:104px"></div><div class="chip" style="width:86px"></div><div class="chip" style="width:96px"></div></div>
+        </div>
+        <svg class="links"></svg>
+      </div>
+    </div>
+  </div>`);
+// curves from the three cited results into the left edge of the answer card,
+// at the height of its first three lines of text
+requestAnimationFrame(() => {
+  const body = document.querySelector(".body"), svg = document.querySelector("svg.links");
+  const b = body.getBoundingClientRect(), card = document.querySelector(".answer").getBoundingClientRect();
+  svg.setAttribute("width", b.width); svg.setAttribute("height", b.height);
+  const on = [...document.querySelectorAll(".row.on .t")];
+  const lines = [...document.querySelectorAll(".answer .al")].slice(0, 3);
+  on.forEach((t, k) => {
+    const r = t.getBoundingClientRect(), l = lines[k].getBoundingClientRect();
+    const x1 = r.right - b.left + 16, y1 = r.top + r.height / 2 - b.top;
+    const x2 = card.left - b.left - 4, y2 = l.top + l.height / 2 - b.top;
+    const mx = (x1 + x2) / 2;
+    const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    p.setAttribute("d", `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);
+    p.setAttribute("fill", "none"); p.setAttribute("stroke", "rgba(57,135,229,.6)"); p.setAttribute("stroke-width", "2.5"); p.setAttribute("stroke-dasharray", "7 7");
+    svg.appendChild(p);
+    const d = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    d.setAttribute("cx", x2); d.setAttribute("cy", y2); d.setAttribute("r", "5"); d.setAttribute("fill", "#3987e5");
+    svg.appendChild(d);
+  });
+});
+</script>
+</body>
+</html>

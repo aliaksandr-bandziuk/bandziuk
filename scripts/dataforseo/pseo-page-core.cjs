@@ -110,6 +110,30 @@ const TOPICS = {
       ru: ["сайт ремонтной компании", "продвижение сайта ремонта квартир"],
     },
   },
+  // Article (23.10.2026): «GEO vs SEO» — the definitive comparison article.
+  // Measures the comparison cluster, definitions, «will GEO replace SEO» and
+  // AEO on all three languages, with PAA / related searches for the outline.
+  "geo-vs-seo": {
+    relevant: /\bgeo\b|generative|\baeo\b|answer engine|ai search|ai seo|seo ai|llm|chatgpt|ai overview|нейросет|\bии\b|sztuczn/i,
+    otherPage: {},
+    groups: {
+      "comparison / difference": /\bvs\b|versus|differen|compare|różnic|czym się różni|разниц|отлич|сравн/i,
+      "replacing / future": /replac|dead|future|obsolete|zastąp|przyszł|умер|замен|будущ/i,
+      "definition / what is": /what is|meaning|definition|explained|co to|czym jest|что такое|что это|значит/i,
+      "aeo": /\baeo\b|answer engine/i,
+      "how to / strategy": /how to|strategy|checklist|guide|jak |стратег|как /i,
+    },
+    seeds: {
+      en: ["geo vs seo", "seo vs geo", "geo vs seo vs aeo", "difference between seo and geo", "is geo replacing seo", "generative engine optimization vs seo", "geo and seo", "is seo dead"],
+      pl: ["geo vs seo", "geo seo", "czym jest geo", "geo a seo", "pozycjonowanie geo", "seo a ai"],
+      ru: ["geo vs seo", "geo и seo", "geo оптимизация", "чем geo отличается от seo", "generative engine optimization", "seo умерло"],
+    },
+    serp: {
+      en: ["geo vs seo", "is geo replacing seo"],
+      pl: ["geo vs seo"],
+      ru: ["geo оптимизация"],
+    },
+  },
   // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any

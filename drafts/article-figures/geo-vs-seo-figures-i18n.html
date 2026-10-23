@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Figures for the «GEO vs SEO» article (23.10.2026). Same surface, type and
+     categorical slots as figures-i18n.html (the 141-answer study), so the two
+     articles read as one series. Every number traces to a named source; the
+     article repeats each figure's numbers in a table or in the text. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:20px 0 0;line-height:1.5}
+  .legend{display:flex;gap:20px;flex-wrap:wrap;margin:0 0 18px}
+  .legend span{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2)}
+  .legend i{width:12px;height:12px;border-radius:3px;display:block}
+  text{font-family:var(--sans)}
+  .lbl{fill:var(--ink);font-size:15px;font-weight:500}
+  .lbl2{fill:var(--ink-2);font-size:13px}
+  .val{fill:var(--ink);font-size:15px;font-weight:600}
+  .ax{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+
+  /* layers */
+  .layers{display:flex;flex-direction:column;gap:14px}
+  .layer{display:grid;grid-template-columns:150px 1fr 1fr 1fr;gap:0;border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+  .layer .name{display:flex;flex-direction:column;justify-content:center;padding:20px 22px;color:#fff}
+  .layer .name b{font-size:30px;font-weight:600;line-height:1}
+  .layer .name small{font-size:12px;opacity:.85;margin-top:6px;line-height:1.3}
+  .layer .cell{padding:18px 20px;background:rgba(255,255,255,.03);border-left:1px solid rgba(255,255,255,.06)}
+  .layer .cell .h{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 7px}
+  .layer .cell p{margin:0;font-size:15px;line-height:1.42;color:var(--ink)}
+  .arrow{font-size:13px;color:var(--muted);margin:2px 0 0 4px}
+
+  /* clicks */
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .panel{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:22px 24px}
+  .panel .ph{font-size:15px;font-weight:600;color:var(--ink);margin:0 0 4px}
+  .panel .ps{font-size:13px;color:var(--muted);margin:0 0 14px;line-height:1.45}
+  .big{font-size:64px;font-weight:600;color:var(--s2);line-height:1;margin:6px 0 8px}
+
+  /* matrix */
+  table.m{width:100%;border-collapse:collapse;font-size:15px}
+  table.m th{font-weight:500;color:var(--ink-2);font-size:13px;text-align:center;padding:0 8px 12px;border-bottom:1px solid var(--baseline)}
+  table.m th:first-child{text-align:left;padding-left:0}
+  table.m td{padding:9px 8px;border-bottom:1px solid var(--grid);text-align:center;color:var(--ink)}
+  table.m td:first-child{text-align:left;padding-left:0}
+  table.m tr.all td{background:rgba(57,135,229,.10)}
+  .dot{display:inline-block;width:16px;height:16px;border-radius:50%}
+  .o{background:var(--s4)} .a{background:var(--s1)} .p{background:var(--s3)}
+  .no{display:inline-block;width:16px;height:2px;background:var(--grid);vertical-align:middle}
+  .cg{margin-top:16px;padding:14px 18px;border-radius:12px;background:rgba(217,89,38,.08);border:1px solid rgba(217,89,38,.3);font-size:14px;color:var(--ink-2);line-height:1.45}
+  .cg b{color:var(--ink)}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    num: (v) => String(v),
+    layers: { k: "Three layers, not three alternatives", h: "SEO, AEO and GEO: what each layer optimizes",
+      s: "SEO decides which pages can be found; AEO which wording answers a question; GEO whether a business is named — and named correctly — in an answer an AI writes.",
+      head: ["Question it answers", "Unit of work", "Result you can see"],
+      rows: [
+        ["GEO", "generative engine optimization", "Are we in the AI's answer, and described correctly?", "Facts about the business, on every source the engine reads", "A mention or a citation"],
+        ["AEO", "answer engine optimization", "Is our wording the answer to this question?", "One question and its direct answer", "Your sentence quoted"],
+        ["SEO", "search engine optimization", "Can people find and click our pages?", "A page", "A position and a click"],
+      ],
+      note: "Read from the bottom up: each layer depends on the one below it. Google's AI features draw on its search index; AEO and GEO work on top of pages that can be found." },
+    clicks: { k: "Clicks when an AI answer is on the page", h: "An AI summary halves the clicks on regular results",
+      s: "Two independent measurements of the same effect: people click less when Google answers on the results page.",
+      p1h: "Pew Research Center", p1s: "900 US adults, 68,879 Google searches, March 2025. Share of visits with a click.",
+      bars: [["No AI summary: click on a result", 15], ["AI summary: click on a result", 8], ["AI summary: click a link inside it", 1]],
+      p2h: "Ahrefs", p2s: "300,000 keywords, March 2024 vs March 2025. Click-through rate of position one on keywords with an AI Overview.",
+      big: "−34.5%", bigc: "lower CTR for position one than expected without the AI Overview (2.6% actual vs 4.0% forecast)",
+      note: "Sources: Pew Research Center, published 22 July 2025; Ahrefs, «AI Overviews reduce clicks by 34.5%», 17 April 2025." },
+    matrix: { k: "One question, three engines · 23 October 2026", h: "Who Google ranks and who the AI answers cite",
+      s: "Question: «what is the difference between GEO and SEO». Google in US English; Perplexity with its ten sources. A dot means the site was used.",
+      cols: ["Site", "Google organic, page one", "Google AI Overview", "Perplexity"],
+      rows: [["TechTarget",1,1,1,1],["Semrush",1,1,1,1],["SEO.com",1,1,1,1],["Reddit thread",1,0,0,0],["Contentful",1,0,0,0],["RentCafe blog",1,0,0,0],["AN Digital",1,0,0,0],["Medium post",0,1,0,0],["YouTube video",0,1,0,0],["eSEOspace",0,1,0,0],["Search Engine Land",0,0,1,0],["Ahrefs",0,0,1,0],["5 other sites",0,0,1,0]],
+      cg: "<b>ChatGPT</b> (web search) cited neither list: it used Google's developer documentation and the original GEO paper on arXiv — and personalized its example from the account's memory.",
+      note: "AI Overview: the sources visible in the answer. A single question is an illustration, not a study." },
+    methods: { k: "KDD 2024 · GEO-bench, 10,000 queries", h: "What made generative engines use a page more",
+      s: "Change in visibility (position-adjusted word count) after rewriting the source, against an unmodified baseline. Evidence helped; keyword stuffing hurt.",
+      rows: [["Quotation addition",41],["Statistics addition",31],["Fluency optimization",28],["Cite sources",27],["Technical terms",18],["Easy-to-understand",14],["Authoritative tone",10],["Unique words",6],["Keyword stuffing",-8]],
+      note: "Calculated from Table 1 of «GEO: Generative Engine Optimization», P. Aggarwal et al., KDD 2024 (baseline 19.3)." },
+    rank: { k: "KDD 2024 · effect by search position", h: "The same methods lift lower-ranked pages and cost top-ranked ones",
+      s: "Relative change in visibility in the generated answer, for a source ranked fifth versus a source ranked first.",
+      leg: ["Source ranked 5th", "Source ranked 1st"],
+      rows: [["Cite sources",115.1,-30.3],["Quotation addition",99.7,-22.9],["Statistics addition",97.9,-20.6]],
+      note: "Table 2 of the KDD 2024 paper. GEO is a chance for pages that do not already win at SEO." },
+  },
+  pl: {
+    num: (v) => String(v).replace(".", ","),
+    layers: { k: "Trzy warstwy, a nie trzy alternatywy", h: "SEO, AEO i GEO: co optymalizuje każda warstwa",
+      s: "SEO decyduje, które strony da się znaleźć; AEO — które sformułowanie odpowiada na pytanie; GEO — czy firma zostanie wymieniona, i to poprawnie, w odpowiedzi napisanej przez AI.",
+      head: ["Na jakie pytanie odpowiada", "Jednostka pracy", "Widoczny wynik"],
+      rows: [
+        ["GEO", "generative engine optimization", "Czy jesteśmy w odpowiedzi AI i czy opisano nas poprawnie?", "Fakty o firmie we wszystkich źródłach, które czyta silnik", "Wzmianka albo cytowanie"],
+        ["AEO", "answer engine optimization", "Czy nasze sformułowanie jest odpowiedzią na to pytanie?", "Jedno pytanie i bezpośrednia odpowiedź", "Wasze zdanie zacytowane"],
+        ["SEO", "search engine optimization", "Czy ludzie znajdą i klikną nasze strony?", "Strona", "Pozycja i kliknięcie"],
+      ],
+      note: "Czytać od dołu: każda warstwa zależy od tej pod nią. Funkcje AI w Google korzystają z jego indeksu; AEO i GEO działają na stronach, które da się znaleźć." },
+    clicks: { k: "Kliknięcia, gdy na stronie jest odpowiedź AI", h: "Podsumowanie AI zmniejsza o połowę kliknięcia w zwykłe wyniki",
+      s: "Dwa niezależne pomiary tego samego efektu: ludzie klikają rzadziej, gdy Google odpowiada na stronie wyników.",
+      p1h: "Pew Research Center", p1s: "900 dorosłych w USA, 68 879 wyszukiwań w Google, marzec 2025. Odsetek wizyt z kliknięciem.",
+      bars: [["Bez podsumowania AI: klik w wynik", 15], ["Z podsumowaniem AI: klik w wynik", 8], ["Z podsumowaniem AI: klik w link w nim", 1]],
+      p2h: "Ahrefs", p2s: "300 000 fraz, marzec 2024 vs marzec 2025. CTR pierwszej pozycji dla fraz z AI Overview.",
+      big: "−34,5%", bigc: "niższy CTR pierwszej pozycji, niż wynikałoby z prognozy bez AI Overview (2,6% zamiast 4,0%)",
+      note: "Źródła: Pew Research Center, 22 lipca 2025; Ahrefs, «AI Overviews reduce clicks by 34.5%», 17 kwietnia 2025." },
+    matrix: { k: "Jedno pytanie, trzy silniki · 23 października 2026", h: "Kogo Google stawia wysoko, a kogo cytują odpowiedzi AI",
+      s: "Pytanie: «what is the difference between GEO and SEO». Google w wersji US English; Perplexity z dziesięcioma źródłami. Kropka oznacza, że strona została użyta.",
+      cols: ["Strona", "Google, wyniki organiczne", "Google AI Overview", "Perplexity"],
+      rows: [["TechTarget",1,1,1,1],["Semrush",1,1,1,1],["SEO.com",1,1,1,1],["Wątek na Reddicie",1,0,0,0],["Contentful",1,0,0,0],["Blog RentCafe",1,0,0,0],["AN Digital",1,0,0,0],["Wpis na Medium",0,1,0,0],["Film na YouTube",0,1,0,0],["eSEOspace",0,1,0,0],["Search Engine Land",0,0,1,0],["Ahrefs",0,0,1,0],["5 innych stron",0,0,1,0]],
+      cg: "<b>ChatGPT</b> (z wyszukiwaniem) nie sięgnął po żadną z tych list: zacytował dokumentację Google dla deweloperów i oryginalną pracę o GEO na arXiv — a przykład spersonalizował na podstawie pamięci konta.",
+      note: "AI Overview: źródła widoczne w odpowiedzi. Jedno pytanie to ilustracja, a nie badanie." },
+    methods: { k: "KDD 2024 · GEO-bench, 10 000 zapytań", h: "Co sprawiało, że silniki generatywne częściej korzystały ze strony",
+      s: "Zmiana widoczności (liczba słów ważona pozycją) po przeredagowaniu źródła, wobec wersji bez zmian. Pomagały dowody; upychanie słów kluczowych szkodziło.",
+      rows: [["Dodanie cytatów",41],["Dodanie statystyk",31],["Płynniejszy tekst",28],["Powoływanie się na źródła",27],["Terminy fachowe",18],["Prostszy język",14],["Autorytatywny ton",10],["Rzadkie słowa",6],["Upychanie słów kluczowych",-8]],
+      note: "Wyliczone z tabeli 1 pracy «GEO: Generative Engine Optimization», P. Aggarwal i in., KDD 2024 (punkt odniesienia 19,3)." },
+    rank: { k: "KDD 2024 · efekt według pozycji", h: "Te same metody podnoszą strony niżej w wynikach, a szkodzą tym na górze",
+      s: "Względna zmiana widoczności w odpowiedzi generatywnej dla źródła na 5. pozycji i dla źródła na 1. pozycji.",
+      leg: ["Źródło na 5. pozycji", "Źródło na 1. pozycji"],
+      rows: [["Powoływanie się na źródła",115.1,-30.3],["Dodanie cytatów",99.7,-22.9],["Dodanie statystyk",97.9,-20.6]],
+      note: "Tabela 2 pracy z KDD 2024. GEO to szansa dla stron, które nie wygrywają już w SEO." },
+  },
+  ru: {
+    num: (v) => String(v).replace(".", ","),
+    layers: { k: "Три слоя, а не три альтернативы", h: "SEO, AEO и GEO: что оптимизирует каждый слой",
+      s: "SEO решает, какие страницы можно найти; AEO — какая формулировка отвечает на вопрос; GEO — назовут ли компанию, и назовут ли правильно, в ответе, который пишет ИИ.",
+      head: ["На какой вопрос отвечает", "Единица работы", "Видимый результат"],
+      rows: [
+        ["GEO", "generative engine optimization", "Есть ли мы в ответе ИИ и правильно ли нас описали?", "Факты о компании во всех источниках, которые читает движок", "Упоминание или цитирование"],
+        ["AEO", "answer engine optimization", "Наша ли формулировка — ответ на этот вопрос?", "Один вопрос и прямой ответ на него", "Ваша фраза процитирована"],
+        ["SEO", "search engine optimization", "Найдут ли люди наши страницы и кликнут ли?", "Страница", "Позиция и клик"],
+      ],
+      note: "Читать снизу вверх: каждый слой зависит от нижнего. ИИ-функции Google опираются на его индекс; AEO и GEO работают поверх страниц, которые можно найти." },
+    clicks: { k: "Клики, когда на странице есть ответ ИИ", h: "Сводка от ИИ вдвое сокращает клики по обычным результатам",
+      s: "Два независимых замера одного эффекта: люди кликают реже, когда Google отвечает прямо на странице выдачи.",
+      p1h: "Pew Research Center", p1s: "900 взрослых в США, 68 879 поисков в Google, март 2025. Доля визитов с кликом.",
+      bars: [["Без сводки ИИ: клик по результату", 15], ["Со сводкой ИИ: клик по результату", 8], ["Со сводкой ИИ: клик по ссылке в ней", 1]],
+      p2h: "Ahrefs", p2s: "300 000 запросов, март 2024 против марта 2025. CTR первой позиции по запросам с AI Overview.",
+      big: "−34,5%", bigc: "ниже CTR первой позиции, чем ожидалось бы без AI Overview (2,6% вместо прогнозных 4,0%)",
+      note: "Источники: Pew Research Center, 22 июля 2025; Ahrefs, «AI Overviews reduce clicks by 34.5%», 17 апреля 2025." },
+    matrix: { k: "Один вопрос, три движка · 23 октября 2026", h: "Кого Google ставит в выдачу, а кого цитируют ответы ИИ",
+      s: "Вопрос: «what is the difference between GEO and SEO». Google в версии US English; Perplexity с его десятью источниками. Точка означает, что сайт был использован.",
+      cols: ["Сайт", "Google, органика", "Google AI Overview", "Perplexity"],
+      rows: [["TechTarget",1,1,1,1],["Semrush",1,1,1,1],["SEO.com",1,1,1,1],["Ветка на Reddit",1,0,0,0],["Contentful",1,0,0,0],["Блог RentCafe",1,0,0,0],["AN Digital",1,0,0,0],["Пост на Medium",0,1,0,0],["Видео на YouTube",0,1,0,0],["eSEOspace",0,1,0,0],["Search Engine Land",0,0,1,0],["Ahrefs",0,0,1,0],["5 других сайтов",0,0,1,0]],
+      cg: "<b>ChatGPT</b> (с поиском) не взял ни один из этих списков: он сослался на документацию Google для разработчиков и на исходную работу о GEO на arXiv — а пример персонализировал по памяти аккаунта.",
+      note: "AI Overview: источники, видимые в ответе. Один вопрос — иллюстрация, а не исследование." },
+    methods: { k: "KDD 2024 · GEO-bench, 10 000 запросов", h: "Что заставляло генеративные движки чаще использовать страницу",
+      s: "Изменение видимости (число слов с поправкой на позицию) после переписывания источника, по сравнению с исходной версией. Помогали доказательства; набивка ключами вредила.",
+      rows: [["Добавление цитат",41],["Добавление статистики",31],["Более гладкий текст",28],["Ссылки на источники",27],["Профессиональные термины",18],["Простой язык",14],["Уверенный тон",10],["Редкие слова",6],["Набивка ключевыми словами",-8]],
+      note: "Рассчитано по таблице 1 работы «GEO: Generative Engine Optimization», P. Aggarwal и соавт., KDD 2024 (исходный уровень 19,3)." },
+    rank: { k: "KDD 2024 · эффект по позиции", h: "Одни и те же методы поднимают страницы ниже в выдаче и вредят тем, что наверху",
+      s: "Относительное изменение видимости в сгенерированном ответе для источника на 5-й позиции и для источника на 1-й позиции.",
+      leg: ["Источник на 5-й позиции", "Источник на 1-й позиции"],
+      rows: [["Ссылки на источники",115.1,-30.3],["Добавление цитат",99.7,-22.9],["Добавление статистики",97.9,-20.6]],
+      note: "Таблица 2 работы с KDD 2024. GEO — шанс для страниц, которые не выигрывают в SEO." },
+  },
+};
+
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a = {}) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+const S = getComputedStyle(document.documentElement);
+const c = (n) => S.getPropertyValue(n).trim();
+const txt = (svg, x, y, s, cls, anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }); t.textContent = s; svg.appendChild(t); return t; };
+const bar = (x, y, w, h, r = 4) => {
+  // rounded on the far end only; negative widths grow to the left
+  if (w >= 0) { r = Math.min(r, w); return `M${x},${y} H${x + w - r} A${r},${r} 0 0 1 ${x + w},${y + r} V${y + h - r} A${r},${r} 0 0 1 ${x + w - r},${y + h} H${x} Z`; }
+  w = -w; r = Math.min(r, w); return `M${x},${y} H${x - w + r} A${r},${r} 0 0 0 ${x - w},${y + r} V${y + h - r} A${r},${r} 0 0 0 ${x - w + r},${y + h} H${x} Z`;
+};
+
+function section(lang, id, t) {
+  const s = document.createElement("section");
+  s.className = "fig"; s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2><p class="sub">${t.s}</p>`;
+  return s;
+}
+const note = (s, n) => { const p = document.createElement("p"); p.className = "note"; p.textContent = n; s.appendChild(p); };
+
+function layers(lang, t) {
+  const L = t.layers, s = section(lang, "layers", L);
+  const hues = [c("--s1"), c("--s3"), c("--s4")];
+  const box = document.createElement("div"); box.className = "layers";
+  L.rows.forEach((r, i) => {
+    box.insertAdjacentHTML("beforeend", `
+      <div class="layer">
+        <div class="name" style="background:${hues[i]}"><b>${r[0]}</b><small>${r[1]}</small></div>
+        <div class="cell"><p class="h">${L.head[0]}</p><p>${r[2]}</p></div>
+        <div class="cell"><p class="h">${L.head[1]}</p><p>${r[3]}</p></div>
+        <div class="cell"><p class="h">${L.head[2]}</p><p>${r[4]}</p></div>
+      </div>`);
+  });
+  s.appendChild(box); note(s, L.note);
+  return s;
+}
+
+function clicks(lang, t) {
+  const C = t.clicks, s = section(lang, "clicks", C);
+  const wrap = document.createElement("div"); wrap.className = "two";
+  const p1 = document.createElement("div"); p1.className = "panel";
+  p1.innerHTML = `<p class="ph">${C.p1h}</p><p class="ps">${C.p1s}</p>`;
+  const svg = el("svg", { width: 500, height: 210 });
+  const padT = 4, band = 66, barH = 20, W = 420, max = 16;
+  C.bars.forEach(([label, v], i) => {
+    const y = padT + i * band;
+    txt(svg, 0, y + 14, label, "lbl2");
+    svg.appendChild(el("path", { d: bar(0, y + 24, (v / max) * W, barH), fill: i === 0 ? c("--muted") : c("--s2") }));
+    txt(svg, (v / max) * W + 10, y + 40, `${v}%`, "val");
+  });
+  p1.appendChild(svg);
+  const p2 = document.createElement("div"); p2.className = "panel";
+  p2.innerHTML = `<p class="ph">${C.p2h}</p><p class="ps">${C.p2s}</p><p class="big">${C.big}</p><p class="ps" style="margin:0">${C.bigc}</p>`;
+  wrap.appendChild(p1); wrap.appendChild(p2); s.appendChild(wrap); note(s, C.note);
+  return s;
+}
+
+function matrix(lang, t) {
+  const M = t.matrix, s = section(lang, "matrix", M);
+  const kinds = ["o", "a", "p"];
+  const rows = M.rows.map((r) => {
+    const all = r[1] && r[2] && r[3];
+    return `<tr class="${all ? "all" : ""}"><td>${r[0]}</td>${[1, 2, 3].map((j) => `<td>${r[j] ? `<span class="dot ${kinds[j - 1]}"></span>` : `<span class="no"></span>`}</td>`).join("")}</tr>`;
+  }).join("");
+  s.insertAdjacentHTML("beforeend", `<table class="m"><thead><tr>${M.cols.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table><div class="cg">${M.cg}</div>`);
+  note(s, M.note);
+  return s;
+}
+
+function methods(lang, t) {
+  const M = t.methods, s = section(lang, "methods", M);
+  const svg = el("svg", { width: 1104, height: 9 * 40 + 40 });
+  const labelEnd = 290, zero = 480, W = 1104 - zero - 90, max = 45, band = 40, barH = 20, top = 6;
+  [-10, 0, 10, 20, 30, 40].forEach((v) => {
+    const x = zero + (v / max) * W;
+    svg.appendChild(el("line", { x1: x, y1: top, x2: x, y2: top + band * 9 - 10, stroke: v === 0 ? c("--baseline") : c("--grid"), "stroke-width": 1 }));
+    txt(svg, x, top + band * 9 + 12, `${v > 0 ? "+" : ""}${v}%`, "ax", "middle");
+  });
+  M.rows.forEach(([name, v], i) => {
+    const y = top + i * band + (band - barH) / 2 - 4;
+    svg.appendChild(el("path", { d: bar(zero, y, (v / max) * W, barH), fill: v < 0 ? c("--s2") : c("--s1") }));
+    txt(svg, labelEnd, y + 15, name, "lbl", "end");
+    const vx = v < 0 ? zero + (v / max) * W - 10 : zero + (v / max) * W + 10;
+    txt(svg, vx, y + 15, `${v > 0 ? "+" : "−"}${Math.abs(v)}%`, "val", v < 0 ? "end" : "start");
+  });
+  s.appendChild(svg); note(s, M.note);
+  return s;
+}
+
+function rank(lang, t) {
+  const R = t.rank, s = section(lang, "rank", R);
+  const leg = document.createElement("div"); leg.className = "legend";
+  leg.innerHTML = `<span><i style="background:${c("--s3")}"></i>${R.leg[0]}</span><span><i style="background:${c("--s2")}"></i>${R.leg[1]}</span>`;
+  s.appendChild(leg);
+  const svg = el("svg", { width: 1104, height: 3 * 84 + 30 });
+  const padL = 300, zero = 580, W = 1104 - zero - 110, max = 125, band = 84, barH = 22, top = 4;
+  [-25, 0, 25, 50, 75, 100].forEach((v) => {
+    const x = zero + (v / max) * W;
+    svg.appendChild(el("line", { x1: x, y1: top, x2: x, y2: top + band * 3 - 8, stroke: v === 0 ? c("--baseline") : c("--grid"), "stroke-width": 1 }));
+    txt(svg, x, top + band * 3 + 12, `${v > 0 ? "+" : ""}${v}%`, "ax", "middle");
+  });
+  R.rows.forEach(([name, a, b], i) => {
+    const y = top + i * band + 10;
+    txt(svg, padL - 10, y + 30, name, "lbl", "end");
+    [[a, c("--s3")], [b, c("--s2")]].forEach(([v, col], j) => {
+      const yy = y + j * (barH + 6);
+      svg.appendChild(el("path", { d: bar(zero, yy, (v / max) * W, barH), fill: col }));
+      const vx = v < 0 ? zero + (v / max) * W - 10 : zero + (v / max) * W + 10;
+      txt(svg, vx, yy + 16, `${v > 0 ? "+" : "−"}${t.num(Math.abs(Math.round(v)))}%`, "val", v < 0 ? "end" : "start");
+    });
+  });
+  s.appendChild(svg); note(s, R.note);
+  return s;
+}
+
+const root = document.getElementById("root");
+for (const lang of ["en", "pl", "ru"]) {
+  const t = T[lang];
+  [layers, clicks, matrix, methods, rank].forEach((f) => root.appendChild(f(lang, t)));
+}
+</script>
+</body>
+</html>

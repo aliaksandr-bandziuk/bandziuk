@@ -278,7 +278,9 @@ async function main() {
   );
   console.log(`\nNow in Sanity (${back.length}):`);
   for (const b of back) console.log(`  ${b._id}  ${b.language ?? ""} ${b.slug ?? ""}${b.translations ? ` (${b.translations} translations)` : ""}`);
-  console.log("\nNext: push (redeploy), then check the live pages and submit them for indexing.");
+  console.log("\nNext: redeploy — new addresses appear only after a build. If there is nothing else to commit:");
+  console.log("  date > .redeploy && git add .redeploy && git commit -m \"redeploy: new pages\" && git push");
+  console.log("(an empty commit is skipped by the Ignored Build Step in vercel.json). Then check the live pages and submit them for indexing.");
 }
 
 main().catch((err) => {

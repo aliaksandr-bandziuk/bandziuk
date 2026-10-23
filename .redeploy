@@ -1,0 +1,2 @@
+# Changing this file triggers a Vercel build (see ignoreCommand in vercel.json).
+# Used after create-landing.cjs, when new Sanity pages need a build and no code changed.

@@ -188,6 +188,35 @@ const TOPICS = {
       ru: ["что такое aeo"],
     },
   },
+  // Article «LLM SEO» (24.10.2026). Services/agency/price belong to the LLM SEO
+  // service pages, comparisons to «GEO vs SEO», ChatGPT-only phrases to the
+  // ChatGPT SEO pages; the check is whether «llm seo» is a definition query or a
+  // services query, and whether it is the same SERP as «generative engine optimization».
+  "llm-seo-article": {
+    relevant: /\bllm|large language model|llmo|language model|модел|model językow|нейросет|ai search|ai seo/i,
+    otherPage: {
+      "geo-vs-seo article": /\bvs\b|versus|differen|różnic|разниц|отлич/i,
+      "LLM SEO service page": /servic|agenc|compan|consult|usług|agencj|firma|услуг|агентств|компани|price|cost|cena|цена|стоимост/i,
+      "ChatGPT SEO page": /chatgpt|chat gpt/i,
+    },
+    groups: {
+      "definition / what is": /what is|what's|meaning|definition|explained|co to|czym jest|что такое|что это|значит/i,
+      "how to / strategy": /how to|how do|strateg|guide|checklist|best practice|tips|jak |как |стратег/i,
+      "tools / tracking": /tool|software|platform|track|monitor|narzędz|инструмент|сервис|мониторинг/i,
+      "specific models": /claude|gemini|perplexity|copilot|llama|mistral|deepseek|grok/i,
+      "llms.txt": /llms\.?txt/i,
+    },
+    seeds: {
+      en: ["llm seo", "what is llm seo", "llm optimization", "large language model optimization", "llmo", "seo for llms", "how to optimize for llms", "llm seo strategy", "llm seo tools"],
+      pl: ["llm seo", "optymalizacja pod llm", "seo dla llm", "llmo", "pozycjonowanie w llm"],
+      ru: ["llm seo", "оптимизация под llm", "seo для нейросетей", "llmo", "продвижение в нейросетях"],
+    },
+    serp: {
+      en: ["llm seo", "what is llm seo"],
+      pl: ["llm seo"],
+      ru: ["llm seo"],
+    },
+  },
   // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any

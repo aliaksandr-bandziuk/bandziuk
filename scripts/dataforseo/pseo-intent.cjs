@@ -181,6 +181,21 @@ PAIR_SETS["what-is-aeo"] = [
   ["ru: что такое aeo = aeo оптимизация?", "ru", "что такое aeo", "aeo оптимизация"],
 ];
 
+// Article «LLM SEO» (24.10.2026): one article or not, and where it stops — the
+// LLM SEO service pages, «What is GEO», the ChatGPT SEO pages.
+PAIR_SETS["llm-seo-article"] = [
+  ["llm seo = llm seo services? (service page)", "en", "llm seo", "llm seo services"],
+  ["llm seo = what is llm seo?", "en", "llm seo", "what is llm seo"],
+  ["llm seo = llm optimization?", "en", "llm seo", "llm optimization"],
+  ["llm seo = llmo?", "en", "llm seo", "llmo"],
+  ["llm seo = generative engine optimization? (What is GEO)", "en", "llm seo", "generative engine optimization"],
+  ["llm seo = seo for llms?", "en", "llm seo", "seo for llms"],
+  ["llm seo = llm seo tools?", "en", "llm seo", "llm seo tools"],
+  ["llm seo = chatgpt seo?", "en", "llm seo", "chatgpt seo"],
+  ["pl: llm seo = optymalizacja pod llm?", "pl", "llm seo", "optymalizacja pod llm"],
+  ["ru: llm seo = продвижение в нейросетях?", "ru", "llm seo", "продвижение в нейросетях"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

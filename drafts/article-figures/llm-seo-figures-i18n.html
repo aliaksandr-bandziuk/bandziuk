@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Figures for the «LLM SEO» article (24.10.2026). Same surface, type and slots
+     as the GEO/AEO series. Every number is repeated in the text of the article. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:20px 0 0;line-height:1.5}
+  text{font-family:var(--sans)}
+  .lbl{fill:var(--ink);font-size:15px;font-weight:500}
+  .val{fill:var(--ink);font-size:15px;font-weight:600}
+
+  /* two paths */
+  .paths{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .lane{border-radius:16px;padding:22px 24px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03)}
+  .lane h3{margin:0 0 4px;font-size:19px;color:#fff}
+  .lane .tag{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 16px}
+  .flow{display:flex;flex-direction:column;gap:8px;margin:0 0 16px}
+  .flow div{padding:10px 14px;border-radius:10px;background:rgba(255,255,255,.05);font-size:14.5px;color:var(--ink)}
+  .flow i{display:block;text-align:center;font-style:normal;color:var(--muted);font-size:13px;line-height:1}
+  .facts{display:grid;grid-template-columns:110px 1fr;gap:6px 12px;font-size:14px;line-height:1.4}
+  .facts b{color:var(--muted);font-weight:500;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding-top:2px}
+  .facts span{color:var(--ink)}
+  .answer{margin-top:18px;border-radius:14px;padding:14px 18px;text-align:center;font-size:15px;color:#fff;border:1px dashed rgba(255,255,255,.25)}
+
+  /* matrix */
+  table.m{width:100%;border-collapse:collapse;font-size:15px}
+  table.m th{font-weight:500;color:var(--ink-2);font-size:13px;text-align:left;padding:0 10px 12px;border-bottom:1px solid var(--baseline)}
+  table.m td{padding:12px 10px;border-bottom:1px solid var(--grid);color:var(--ink);vertical-align:top}
+  .yes{color:#7fd6b4;font-weight:600} .no{color:#f0a37f;font-weight:600}
+  .chip{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12.5px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);color:var(--ink-2);margin:2px 4px 2px 0}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    paths: { k: "How an LLM knows about a business", h: "Two paths into an AI answer, and what you can change on each",
+      lanes: [
+        { h: "Training data", tag: "fixed until the next model", col: "--s4",
+          flow: ["Your site, other sites, directories, articles, forums", "Snapshot of the web before the training cutoff", "What the model «knows» without searching"],
+          facts: [["Used for", "general and definition questions; always in the background"], ["Sources shown", "none"], ["You change it", "by being present and consistent in many sources over time"], ["Takes effect", "with the next model, months later"]] },
+        { h: "Live web search", tag: "at the moment of the question", col: "--s1",
+          flow: ["The assistant searches an index (its own, Bing, Brave or Google)", "Its crawler reads a few pages — HTML only, for most", "Passages are quoted with links"],
+          facts: [["Used for", "current, local and specific questions"], ["Sources shown", "usually, as links"], ["You change it", "crawler access, readable HTML, clear answers"], ["Takes effect", "days to weeks"]] },
+      ],
+      ans: "The answer mixes both: what the model already knows, corrected or extended by what it found",
+      note: "In the author's test on 23 October 2026, two of four assistants answered «what is llm seo» from training data alone, without searching." },
+    crawl: { k: "Vercel and MERJ · one month of AI crawler traffic · December 2024", h: "Most AI crawlers do not run JavaScript",
+      s: "Requests in one month across Vercel's network, and whether each crawler renders JavaScript. A crawler that does not render sees only the HTML your server sends.",
+      rows: [["Googlebot (Search and Gemini)", 4500, true], ["GPTBot (OpenAI)", 569, false], ["Claude", 370, false], ["AppleBot", 314, true], ["PerplexityBot", 24.4, false]],
+      unit: "million", js: ["renders JavaScript", "HTML only"],
+      note: "Source: G. Zecchini, A. A. Moore, M. Ubl, R. Siddle, «The rise of the AI crawler», Vercel, 17 Dec 2024. Also HTML-only: OAI-SearchBot, ChatGPT-User, Meta-ExternalAgent, Bytespider, CCBot. 404 share: ChatGPT 34.8%, Claude 34.2%, Googlebot 8.2%." },
+    matrix: { k: "One question, four assistants · 23 October 2026", h: "«What is llm seo» in ChatGPT, Perplexity, Gemini and Claude",
+      cols: ["Assistant", "Searched the web", "Sources shown", "Also in Google's top 10", "Personalised", "Called it GEO"],
+      y: "yes", n: "no",
+      rows: [
+        ["ChatGPT", 1, ["SourceWatch", "PROEMA", "Google for Developers", "+ more"], "none of the named", 1, 1],
+        ["Perplexity", 1, ["8 sources", "first: kansascity.com"], "1 of 8 (Neil Patel)", 0, 1],
+        ["Gemini", 0, ["none"], "—", 0, 1],
+        ["Claude", 0, ["none"], "—", 1, 1],
+      ],
+      note: "Logged-in accounts of the author. «Personalised»: the answer referred to the account's own profile or site. Google top 10: US English, the same day. One question is an illustration, not a study." },
+  },
+  pl: {
+    paths: { k: "Skąd LLM wie o firmie", h: "Dwie drogi do odpowiedzi AI i co możecie zmienić na każdej",
+      lanes: [
+        { h: "Dane treningowe", tag: "stałe do kolejnego modelu", col: "--s4",
+          flow: ["Wasza strona, inne strony, katalogi, artykuły, fora", "Zrzut sieci sprzed daty odcięcia treningu", "To, co model «wie» bez wyszukiwania"],
+          facts: [["Kiedy", "pytania ogólne i definicje; zawsze w tle"], ["Źródła", "brak"], ["Zmieniacie to", "obecnością i spójnością w wielu źródłach przez dłuższy czas"], ["Efekt", "z następnym modelem, po miesiącach"]] },
+        { h: "Wyszukiwanie na żywo", tag: "w chwili pytania", col: "--s1",
+          flow: ["Asystent przeszukuje indeks (własny, Bing, Brave albo Google)", "Jego robot czyta kilka stron — zwykle tylko HTML", "Fragmenty są cytowane z linkami"],
+          facts: [["Kiedy", "pytania aktualne, lokalne i szczegółowe"], ["Źródła", "zwykle, jako linki"], ["Zmieniacie to", "dostęp robota, czytelny HTML, jasne odpowiedzi"], ["Efekt", "po dniach lub tygodniach"]] },
+      ],
+      ans: "Odpowiedź łączy oba: to, co model już wie, poprawione lub uzupełnione tym, co znalazł",
+      note: "W teście autora z 23 października 2026 dwa z czterech asystentów odpowiedziały na «what is llm seo» wyłącznie z danych treningowych, bez wyszukiwania." },
+    crawl: { k: "Vercel i MERJ · miesiąc ruchu robotów AI · grudzień 2024", h: "Większość robotów AI nie uruchamia JavaScriptu",
+      s: "Żądania w ciągu miesiąca w sieci Vercel i to, czy robot renderuje JavaScript. Robot, który nie renderuje, widzi tylko HTML wysłany przez serwer.",
+      rows: [["Googlebot (Search i Gemini)", 4500, true], ["GPTBot (OpenAI)", 569, false], ["Claude", 370, false], ["AppleBot", 314, true], ["PerplexityBot", 24.4, false]],
+      unit: "mln", js: ["renderuje JavaScript", "tylko HTML"],
+      note: "Źródło: G. Zecchini, A. A. Moore, M. Ubl, R. Siddle, «The rise of the AI crawler», Vercel, 17.12.2024. Także tylko HTML: OAI-SearchBot, ChatGPT-User, Meta-ExternalAgent, Bytespider, CCBot. Odsetek 404: ChatGPT 34,8%, Claude 34,2%, Googlebot 8,2%." },
+    matrix: { k: "Jedno pytanie, czterech asystentów · 23 października 2026", h: "«What is llm seo» w ChatGPT, Perplexity, Gemini i Claude",
+      cols: ["Asystent", "Szukał w sieci", "Pokazane źródła", "Też w top 10 Google", "Spersonalizowane", "Nazwał to GEO"],
+      y: "tak", n: "nie",
+      rows: [
+        ["ChatGPT", 1, ["SourceWatch", "PROEMA", "Google for Developers", "+ inne"], "żadne z nazwanych", 1, 1],
+        ["Perplexity", 1, ["8 źródeł", "pierwsze: kansascity.com"], "1 z 8 (Neil Patel)", 0, 1],
+        ["Gemini", 0, ["brak"], "—", 0, 1],
+        ["Claude", 0, ["brak"], "—", 1, 1],
+      ],
+      note: "Zalogowane konta autora. «Spersonalizowane»: odpowiedź odwoływała się do profilu lub strony konta. Top 10 Google: angielski, USA, ten sam dzień. Jedno pytanie to ilustracja, nie badanie." },
+  },
+  ru: {
+    paths: { k: "Откуда LLM знает о компании", h: "Два пути в ответ ИИ и что можно изменить на каждом",
+      lanes: [
+        { h: "Обучающие данные", tag: "не меняются до следующей модели", col: "--s4",
+          flow: ["Ваш сайт, чужие сайты, каталоги, статьи, форумы", "Снимок интернета до даты среза обучения", "То, что модель «знает» без поиска"],
+          facts: [["Когда", "общие вопросы и определения; всегда на фоне"], ["Источники", "не показываются"], ["Как влиять", "присутствием и одинаковыми фактами во многих источниках на протяжении времени"], ["Эффект", "со следующей моделью, через месяцы"]] },
+        { h: "Живой поиск", tag: "в момент вопроса", col: "--s1",
+          flow: ["Ассистент ищет по индексу (своему, Bing, Brave или Google)", "Его робот читает несколько страниц — обычно только HTML", "Фрагменты цитируются со ссылками"],
+          facts: [["Когда", "свежие, местные и конкретные вопросы"], ["Источники", "обычно, ссылками"], ["Как влиять", "доступ робота, читаемый HTML, ясные ответы"], ["Эффект", "через дни или недели"]] },
+      ],
+      ans: "Ответ сочетает оба: то, что модель уже знает, исправленное или дополненное найденным",
+      note: "В тесте автора 23 октября 2026 года два ассистента из четырёх ответили на «what is llm seo» только по обучающим данным, без поиска." },
+    crawl: { k: "Vercel и MERJ · месяц трафика ИИ-роботов · декабрь 2024", h: "Большинство ИИ-роботов не выполняют JavaScript",
+      s: "Запросы за месяц в сети Vercel и то, выполняет ли робот JavaScript. Робот, который не выполняет, видит только HTML, отданный сервером.",
+      rows: [["Googlebot (Поиск и Gemini)", 4500, true], ["GPTBot (OpenAI)", 569, false], ["Claude", 370, false], ["AppleBot", 314, true], ["PerplexityBot", 24.4, false]],
+      unit: "млн", js: ["выполняет JavaScript", "только HTML"],
+      note: "Источник: G. Zecchini, A. A. Moore, M. Ubl, R. Siddle, «The rise of the AI crawler», Vercel, 17.12.2024. Тоже только HTML: OAI-SearchBot, ChatGPT-User, Meta-ExternalAgent, Bytespider, CCBot. Доля 404: ChatGPT 34,8%, Claude 34,2%, Googlebot 8,2%." },
+    matrix: { k: "Один вопрос, четыре ассистента · 23 октября 2026", h: "«What is llm seo» в ChatGPT, Perplexity, Gemini и Claude",
+      cols: ["Ассистент", "Искал в сети", "Показанные источники", "Есть и в топ-10 Google", "Персонализация", "Назвал это GEO"],
+      y: "да", n: "нет",
+      rows: [
+        ["ChatGPT", 1, ["SourceWatch", "PROEMA", "Google for Developers", "+ другие"], "ни один из названных", 1, 1],
+        ["Perplexity", 1, ["8 источников", "первый: kansascity.com"], "1 из 8 (Neil Patel)", 0, 1],
+        ["Gemini", 0, ["нет"], "—", 0, 1],
+        ["Claude", 0, ["нет"], "—", 1, 1],
+      ],
+      note: "Аккаунты автора с входом в систему. «Персонализация»: ответ ссылался на профиль или сайт владельца аккаунта. Топ-10 Google: английский, США, в тот же день. Один вопрос — иллюстрация, а не исследование." },
+  },
+};
+
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a = {}) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+const S = getComputedStyle(document.documentElement);
+const c = (n) => S.getPropertyValue(n).trim();
+const txt = (svg, x, y, s, cls, anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }); t.textContent = s; svg.appendChild(t); return t; };
+function section(lang, id, t) {
+  const s = document.createElement("section");
+  s.className = "fig"; s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2>${t.s ? `<p class="sub">${t.s}</p>` : `<div style="height:20px"></div>`}`;
+  return s;
+}
+const note = (s, n) => { const p = document.createElement("p"); p.className = "note"; p.textContent = n; s.appendChild(p); };
+const num = (lang, v) => lang === "en" ? v.toLocaleString("en-US") : String(v).replace(".", ",").replace(/^(\d)(\d{3})$/, "$1 $2");
+
+function paths(lang, t) {
+  const P = t.paths, s = section(lang, "paths", P);
+  s.insertAdjacentHTML("beforeend", `<div class="paths">${P.lanes.map((L) => `<div class="lane" style="border-color:${c(L.col)}55">
+    <h3>${L.h}</h3><p class="tag" style="color:${c(L.col)}">${L.tag}</p>
+    <div class="flow">${L.flow.map((f, i) => `${i ? "<i>↓</i>" : ""}<div>${f}</div>`).join("")}</div>
+    <div class="facts">${L.facts.map(([b, v]) => `<b>${b}</b><span>${v}</span>`).join("")}</div></div>`).join("")}</div>
+    <div class="answer">${P.ans}</div>`);
+  note(s, P.note);
+  return s;
+}
+
+function crawl(lang, t) {
+  const C = t.crawl, s = section(lang, "crawl", C);
+  const band = 58, top = 4, x0 = 300, W = 1104 - x0 - 330, barH = 26, max = 4500;
+  const svg = el("svg", { width: 1104, height: top + band * C.rows.length });
+  C.rows.forEach(([name, v, js], i) => {
+    const y = top + i * band + 10, w = Math.max((v / max) * W, 3);
+    txt(svg, x0 - 14, y + 18, name, "lbl", "end");
+    svg.appendChild(el("rect", { x: x0, y, width: w, height: barH, rx: 4, fill: js ? c("--s3") : c("--s2") }));
+    txt(svg, x0 + w + 10, y + 18, `${num(lang, v)} ${C.unit}`, "val");
+    const bx = 1104 - 160, g = el("rect", { x: bx, y: y + 1, width: 160, height: 24, rx: 12, fill: js ? "rgba(25,158,112,.18)" : "rgba(217,89,38,.18)", stroke: js ? c("--s3") : c("--s2") });
+    svg.appendChild(g);
+    txt(svg, bx + 80, y + 18, js ? C.js[0] : C.js[1], "lbl", "middle").setAttribute("style", "font-size:13px");
+  });
+  s.appendChild(svg); note(s, C.note);
+  return s;
+}
+
+function matrix(lang, t) {
+  const M = t.matrix, s = section(lang, "matrix", M);
+  const yn = (v) => v ? `<span class="yes">${M.y}</span>` : `<span class="no">${M.n}</span>`;
+  s.insertAdjacentHTML("beforeend", `<table class="m"><thead><tr>${M.cols.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${M.rows.map((r) =>
+    `<tr><td><b>${r[0]}</b></td><td>${yn(r[1])}</td><td>${r[2].map((x) => `<span class="chip">${x}</span>`).join("")}</td><td>${r[3]}</td><td>${yn(r[4])}</td><td>${yn(r[5])}</td></tr>`).join("")}</tbody></table>`);
+  note(s, M.note);
+  return s;
+}
+
+const root = document.getElementById("root");
+for (const lang of ["en", "pl", "ru"]) [paths, crawl, matrix].forEach((f) => root.appendChild(f(lang, T[lang])));
+</script>
+</body>
+</html>

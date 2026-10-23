@@ -37,8 +37,11 @@ import { localSeoForContractorsEn } from "./local-seo-for-contractors.en";
 import { aiSeoServicesEn } from "./ai-seo-services.en";
 import { aiSeoServicesPl } from "./ai-seo-services.pl";
 import { aiSeoServicesRu } from "./ai-seo-services.ru";
+import { aiSeoConsultantEn } from "./ai-seo-consultant.en";
+import { aiSeoConsultantPl } from "./ai-seo-consultant.pl";
+import { aiSeoConsultantRu } from "./ai-seo-consultant.ru";
 
-const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu];
+const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu, aiSeoConsultantEn, aiSeoConsultantPl, aiSeoConsultantRu];
 
 const isDev = process.env.NODE_ENV !== "production";
 
@@ -122,6 +125,8 @@ export async function getDevFixturePage(lang: string, slug: string) {
     heroLayout: fx.heroLayout,
     heroChips: fx.heroChips,
     heroPhonePoints: fx.heroPhonePoints,
+    heroVisual: fx.heroVisual,
+    heroPhoto: fx.heroPhoto,
     pageType: fx.pageType ?? "page",
     ...(parentPage ? { parentPage } : {}),
     offers: fx.offers ?? [],

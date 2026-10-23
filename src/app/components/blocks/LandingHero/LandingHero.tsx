@@ -3,6 +3,9 @@ import styles from "./LandingHero.module.scss";
 import { ModalButton } from "../../ui/Button/ModalButton";
 import WhatsAppButton from "../../ui/WhatsAppButton/WhatsAppButton";
 import Breadcrumbs from "../../layout/Breadcrumbs/Breadcrumbs";
+import Image from "next/image";
+import { urlFor } from "@/sanity/sanity.client";
+import type { ImageAlt } from "@/types/common";
 
 type Props = {
   title: string;
@@ -15,6 +18,10 @@ type Props = {
   chips?: string[];
   /** Up to 4 numbered labels beside the phone sketch (desktop only). */
   phonePoints?: string[];
+  /** Right side on desktop: the phone sketch (default) or a photo. */
+  visual?: "phone" | "photo";
+  /** Used when visual = "photo"; a transparent-background portrait fits best. */
+  photo?: ImageAlt;
 };
 
 const OFFER: Record<string, string> = {
@@ -28,8 +35,24 @@ const OFFER: Record<string, string> = {
 // PropertyIntro; on desktop a phone sketch with numbered labels shows what the
 // visitor's own first screen will contain. No background photo: the page
 // opens on the offer, not on a picture, and paints without an image request.
-const LandingHero: FC<Props> = ({ title, heading, excerpt, lang, segments, crumbTitles, chips = [], phonePoints = [] }) => {
+// singlepage.heroVisual = "photo" (2026-10-23): pages about the person doing
+// the work (the AI SEO consultant page) show a photo in the same card instead
+// of the sketch. Desktop only, like the sketch; `sizes` keeps phones from
+// downloading it.
+const LandingHero: FC<Props> = ({
+  title,
+  heading,
+  excerpt,
+  lang,
+  segments,
+  crumbTitles,
+  chips = [],
+  phonePoints = [],
+  visual = "phone",
+  photo,
+}) => {
   const points = phonePoints.slice(0, 4);
+  const showPhoto = visual === "photo" && Boolean(photo?.asset);
 
   return (
     <section className={styles.hero}>
@@ -55,7 +78,20 @@ const LandingHero: FC<Props> = ({ title, heading, excerpt, lang, segments, crumb
           </div>
         </div>
 
-        {points.length > 0 && (
+        {showPhoto && photo && (
+          <div className={`${styles.visual} ${styles.photoCard}`}>
+            <Image
+              src={urlFor(photo).width(840).fit("max").auto("format").url()}
+              alt={photo.alt || heading || title}
+              fill
+              priority
+              sizes="(min-width: 1024px) 420px, 1px"
+              className={styles.photo}
+            />
+          </div>
+        )}
+
+        {!showPhoto && points.length > 0 && (
           <div className={styles.visual} aria-hidden="true">
             <div className={styles.phone}>
               <span className={styles.lineTitle} />

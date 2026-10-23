@@ -159,6 +159,11 @@ export const aiSeoServicesEn = {
         li("Is “AI SEO” for you about visibility in AI search, or about generating content with AI?"),
         li("Which sources do assistants use in our market, and how did you find out?"),
         li("What do you promise? Nobody can guarantee a place in ChatGPT’s answers; anyone who does is selling something else."),
+        p(
+          "How working with me as an independent consultant looks is described on the ",
+          link("AI SEO consultant", "/services/ai-seo-consultant"),
+          " page.",
+        ),
 
         h2("How much AI SEO services cost"),
         li("AI SEO audit — what Google and AI assistants show about you, with sources: from 250 €, one-off."),

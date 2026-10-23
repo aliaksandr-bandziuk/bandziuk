@@ -245,6 +245,8 @@ export async function getSinglePageByLang(
       heroLayout,
       heroChips,
       heroPhonePoints,
+      heroVisual,
+      heroPhoto,
       pageType,
       areaServed,
       offers,

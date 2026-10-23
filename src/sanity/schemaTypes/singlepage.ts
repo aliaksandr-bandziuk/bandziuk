@@ -92,13 +92,55 @@ const singlepage = {
       hidden: ({ document }) => (document as any)?.heroLayout !== "landing",
     }),
     defineField({
+      name: "heroVisual",
+      title: "Hero right side",
+      description:
+        "Landing hero only, desktop. Phone: a phone sketch with numbered labels (for pages that sell a website or SEO). Photo: a photo instead — for pages about the person doing the work, e.g. the consultant page.",
+      type: "string",
+      options: {
+        list: [
+          { title: "Phone sketch with labels (default)", value: "phone" },
+          { title: "Photo", value: "photo" },
+        ],
+        layout: "radio",
+      },
+      initialValue: "phone",
+      hidden: ({ document }) => (document as any)?.heroLayout !== "landing",
+    }),
+    defineField({
       name: "heroPhonePoints",
       title: "Hero phone labels",
       description: "Landing hero only, desktop. Up to 4 numbered labels beside the phone sketch: what the visitor’s first screen will contain.",
       type: "array",
       of: [{ type: "string" }],
       validation: (Rule) => Rule.max(4),
-      hidden: ({ document }) => (document as any)?.heroLayout !== "landing",
+      hidden: ({ document }) =>
+        (document as any)?.heroLayout !== "landing" || (document as any)?.heroVisual === "photo",
+    }),
+    defineField({
+      name: "heroPhoto",
+      title: "Hero photo",
+      description:
+        "Shown on the right of the landing hero on desktop instead of the phone sketch. A portrait with a transparent background works best (it sits on the dark card, aligned to the bottom). At least 900 px tall for sharp screens.",
+      type: "image",
+      options: { hotspot: true },
+      fields: [
+        defineField({
+          name: "alt",
+          title: "Alt text",
+          description: "In the page’s language, e.g. “Aliaksandr Bandziuk, AI SEO consultant”.",
+          type: "string",
+          validation: (Rule) => Rule.required(),
+        }),
+      ],
+      hidden: ({ document }) =>
+        (document as any)?.heroLayout !== "landing" || (document as any)?.heroVisual !== "photo",
+      validation: (Rule) =>
+        Rule.custom((value: any, context: any) =>
+          context.document?.heroLayout === "landing" && context.document?.heroVisual === "photo" && !value?.asset
+            ? "Choose a photo, or switch “Hero right side” back to Phone"
+            : true,
+        ),
     }),
     defineField({
       name: "contentBlocks",

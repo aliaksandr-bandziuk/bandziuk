@@ -73,6 +73,9 @@ export type Singlepage = {
   heroLayout?: "image" | "landing";
   heroChips?: string[];
   heroPhonePoints?: string[];
+  /** Landing hero, right side on desktop: phone sketch (default) or a photo. */
+  heroVisual?: "phone" | "photo";
+  heroPhoto?: ImageAlt;
   contentBlocks: Array<
     | TextContent
     | AccordionBlock

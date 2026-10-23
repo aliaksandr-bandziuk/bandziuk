@@ -82,6 +82,8 @@ function buildDoc(fx, { projectIds, formId, parentId }) {
     heroLayout: fx.heroLayout,
     heroChips: fx.heroChips,
     heroPhonePoints: fx.heroPhonePoints,
+    ...(fx.heroVisual ? { heroVisual: fx.heroVisual } : {}),
+    ...(fx.heroPhoto ? { heroPhoto: fx.heroPhoto } : {}),
     stickyCta: fx.stickyCta,
     ...(fx.offers?.length ? { offers: fx.offers } : {}),
     contentBlocks,

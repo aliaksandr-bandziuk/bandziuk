@@ -155,6 +155,11 @@ export const aiSeoServicesPl = {
         li("Czy „AI SEO” to dla Was widoczność w wyszukiwaniu AI, czy generowanie treści przez AI?"),
         li("Z jakich źródeł korzystają asystenci w naszej branży i skąd to wiecie?"),
         li("Co obiecujecie? Nikt nie może zagwarantować miejsca w odpowiedziach ChatGPT; kto to robi, sprzedaje coś innego."),
+        p(
+          "Jak wygląda współpraca ze mną jako niezależnym konsultantem, opisuję na stronie ",
+          link("ekspert AI SEO", "/pl/oferty/ekspert-ai-seo"),
+          ".",
+        ),
 
         h2("Ile kosztują usługi AI SEO"),
         li("Audyt AI SEO — co pokazują o Was Google i asystenci AI, ze źródłami: od 1000 zł, jednorazowo."),

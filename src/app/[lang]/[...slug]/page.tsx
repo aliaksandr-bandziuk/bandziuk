@@ -566,6 +566,8 @@ const SinglePage = async (props: Props) => {
             crumbTitles={crumbTitles}
             chips={page.heroChips}
             phonePoints={page.heroPhonePoints}
+            visual={page.heroVisual}
+            photo={page.heroPhoto}
           />
         )}
         {hasHero && (

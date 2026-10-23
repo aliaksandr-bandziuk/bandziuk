@@ -171,15 +171,16 @@ async function main() {
 
   if (!patches.length) return console.log("\nNothing to do.");
   if (!APPLY) return console.log(`\nDry run — ${patches.length} change(s), nothing written. Add --apply to write.`);
-  const byDoc = new Map();
-  for (const p of patches) {
-    if (!byDoc.has(p.id)) byDoc.set(p.id, { rev: p.rev, ops: [] });
-    byDoc.get(p.id).ops.push(p.op);
-  }
+  // One patch per change: a Sanity patch holds a single «insert», and two
+  // inserts chained on one patch get merged into a wrong one.
   const tx = client.transaction();
-  for (const [id, { rev, ops }] of byDoc) tx.patch(id, (q) => ops.reduce((acc, op) => op(acc), q.ifRevisionId(rev)));
+  const seen = new Set();
+  for (const p of patches) {
+    const first = !seen.has(p.id); seen.add(p.id);
+    tx.patch(p.id, (q) => p.op(first ? q.ifRevisionId(p.rev) : q));
+  }
   await tx.commit();
-  console.log(`\nWritten: ${[...byDoc.keys()].join(", ")}`);
+  console.log(`\nWritten: ${[...seen].join(", ")}`);
   console.log("The webhook revalidates these pages.");
 }
 

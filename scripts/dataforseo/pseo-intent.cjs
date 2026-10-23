@@ -152,6 +152,21 @@ PAIR_SETS["geo-article"] = [
   ["geo vs seo = is seo dead?", "en", "geo vs seo", "is seo dead"],
 ];
 
+// Article «What is GEO» (24.10.2026): which phrases one definition article
+// takes, and where it stops (GEO hub, «GEO vs SEO» article).
+PAIR_SETS["what-is-geo"] = [
+  ["what is geo = what is generative engine optimization?", "en", "what is geo", "what is generative engine optimization"],
+  ["what is GEO = generative engine optimization?", "en", "what is generative engine optimization", "generative engine optimization"],
+  ["generative engine optimization = … services?", "en", "generative engine optimization", "generative engine optimization services"],
+  ["what is GEO = geo seo?", "en", "what is generative engine optimization", "geo seo"],
+  ["what is GEO = what is geo in marketing?", "en", "what is generative engine optimization", "what is geo in marketing"],
+  ["what is GEO = how does it work?", "en", "what is generative engine optimization", "how does generative engine optimization work"],
+  ["what is GEO = strategy?", "en", "what is generative engine optimization", "generative engine optimization strategy"],
+  ["what is GEO = geo vs seo?", "en", "what is generative engine optimization", "geo vs seo"],
+  ["pl: geo co to = generative engine optimization?", "pl", "geo co to", "generative engine optimization"],
+  ["ru: что такое geo = geo оптимизация?", "ru", "что такое geo", "geo оптимизация"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Figures for the «What is GEO» article (24.10.2026). Same surface, type and
+     categorical slots as the «GEO vs SEO» and 141-answer figures, so the series
+     reads as one. Every number traces to a named source and is repeated in a
+     table or in the text of the article. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:20px 0 0;line-height:1.5}
+  .legend{display:flex;gap:20px;flex-wrap:wrap;margin:0 0 18px}
+  .legend span{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2)}
+  .legend i{width:12px;height:12px;border-radius:3px;display:block}
+  text{font-family:var(--sans)}
+  .lbl{fill:var(--ink);font-size:15px;font-weight:500}
+  .lbl2{fill:var(--ink-2);font-size:13px}
+  .val{fill:var(--ink);font-size:15px;font-weight:600}
+  .vin{fill:#fff;font-size:13px;font-weight:600}
+  .ax{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+
+  /* pipeline */
+  .pipe{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;position:relative}
+  .step{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 15px 18px;position:relative;min-height:212px}
+  .step .n{font-family:var(--mono);font-size:12px;color:var(--muted);margin:0 0 10px}
+  .step b{display:block;font-size:17px;font-weight:600;color:var(--ink);margin:0 0 8px;line-height:1.25}
+  .step p{margin:0;font-size:13.5px;line-height:1.45;color:var(--ink-2)}
+  .step.seo{border-color:rgba(57,135,229,.55);background:rgba(57,135,229,.08)}
+  .step.geo{border-color:rgba(217,89,38,.6);background:rgba(217,89,38,.08)}
+  .step:not(:last-child)::after{content:"";position:absolute;right:-12px;top:50%;width:10px;height:10px;border-top:2px solid var(--muted);border-right:2px solid var(--muted);transform:translateY(-50%) rotate(45deg)}
+  .brackets{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-top:14px}
+  .br{border-top:3px solid;padding-top:9px;font-size:13.5px;line-height:1.4;color:var(--ink-2)}
+  .br b{color:var(--ink);font-weight:600}
+
+  /* five layers */
+  .five{display:grid;grid-template-columns:1fr 250px;gap:16px}
+  .stack{display:flex;flex-direction:column-reverse;gap:10px}
+  .row{display:grid;grid-template-columns:56px 160px 1fr 190px 120px;align-items:center;border-radius:12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);overflow:hidden}
+  .row .num{height:100%;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:600;color:#fff}
+  .row .nm{padding:16px 16px;font-size:17px;font-weight:600;color:var(--ink)}
+  .row .wd{padding:14px 16px 14px 0;font-size:14px;line-height:1.42;color:var(--ink)}
+  .row .wh,.row .tm{padding:14px 14px;font-size:13px;line-height:1.35;color:var(--ink-2);border-left:1px solid rgba(255,255,255,.06);height:100%;display:flex;flex-direction:column;justify-content:center}
+  .row .wh small,.row .tm small{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+  .meas{border-radius:12px;border:1px solid rgba(201,133,0,.55);background:rgba(201,133,0,.08);padding:18px 18px;display:flex;flex-direction:column}
+  .meas .nm{font-size:17px;font-weight:600;color:var(--ink);margin:0 0 4px}
+  .meas .num{font-size:22px;font-weight:600;color:var(--s4);margin:0 0 8px}
+  .meas ul{margin:6px 0 0;padding-left:18px;color:var(--ink);font-size:14px;line-height:1.45}
+  .meas li{margin:0 0 8px}
+  .meas .bottom{margin-top:auto;font-size:13px;color:var(--ink-2);line-height:1.4}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    num: (v) => String(v),
+    pct: (v) => `${v}%`,
+    pipeline: { k: "How a generative engine answers", h: "From a question to a cited answer: what happens in between",
+      s: "Every AI engine with web access goes through the same steps, each in its own way. A page has to survive retrieval and then selection to become a source.",
+      steps: [
+        ["Question", "A full sentence, often with context from the conversation and the user's memory."],
+        ["Query fan-out", "The question is split into several searches on subtopics."],
+        ["Retrieval", "The searches run against an index: Google's, Bing's or the engine's own crawl."],
+        ["Selection", "A handful of passages are kept: the clearest answers from trusted sources."],
+        ["Synthesis", "The model rewrites and merges them. Old facts and mix-ups enter here."],
+        ["Answer", "One text with 2–15 sources attached, or none."],
+      ],
+      cls: ["", "", "seo", "geo", "geo", ""],
+      br: [[2, 1, "s1", "<b>Same as SEO:</b> indexed, crawlable, snippet allowed"], [3, 2, "s2", "<b>Where GEO differs:</b> a passage that can be lifted whole, and the same facts on every source"]],
+      note: "Query fan-out is described by Google in «AI features and your website» (Search Central). Source counts: the author's study of 141 answers, September 2026." },
+    earned: { k: "University of Toronto · September 2025", h: "AI search cites independent sources far more than Google does",
+      s: "Share of sources by type for the same product questions in Canada: the brand's own site, social platforms, and earned media (independent reviews, publishers, comparison sites).",
+      leg: ["Brand's own site", "Social platforms", "Earned media"],
+      cats: [["Automotive", [36.6, 22.8, 40.6], [30.9, 0, 69.1]], ["Consumer electronics", [22.8, 23.1, 54.1], [22.1, 0.3, 77.6]], ["Software", [53.8, 14.4, 31.8], [25.8, 0, 74.2]]],
+      rowNames: ["Google", "AI search"],
+      note: "M. Chen, X. Wang, K. Chen, N. Koudas, «Generative Engine Optimization: How to Dominate AI Search», arXiv 2509.08919. In the US data earned media reached 72.7–92.1% of AI search sources." },
+    factors: { k: "Ahrefs · 75,000 brands · May 2025", h: "Mentions of a brand on other sites matter more than links to it",
+      s: "Spearman correlation between each factor and the number of times a brand is mentioned in Google AI Overviews. Correlation, not proof of cause.",
+      rows: [["Branded web mentions", 0.664], ["Branded anchors", 0.527], ["Branded search volume", 0.392], ["Domain Rating", 0.326], ["Referring domains", 0.295], ["Branded traffic", 0.274], ["Number of backlinks", 0.218], ["URL Rating", 0.18], ["Number of site pages", 0.17]],
+      note: "Source: L. Linehan, «An Analysis of AI Overview Brand Visibility Factors (75K Brands Studied)», Ahrefs, 26 May 2025." },
+    five: { k: "Generative engine optimization strategy", h: "GEO in five layers: each one rests on the one below",
+      s: "The order of work. Access and pages are the same work as SEO; facts and mentions are where GEO adds something new; measurement runs alongside all four.",
+      hw: "Where", ht: "Shows in",
+      rows: [
+        ["Access", "Each engine's crawler can read the site: robots.txt, indexing, content in the HTML", "Your server", "days"],
+        ["Facts", "Name, services, prices, places and dates are identical everywhere", "Site, profiles, directories", "weeks"],
+        ["Pages", "Headings name questions; the answer comes first; numbers, dates and sources", "Your site", "weeks, after recrawl"],
+        ["Mentions", "Present on the reviews, comparisons and media the engines cite for your service", "Other sites", "months"],
+      ],
+      m: { nm: "Measurement", li: ["20–50 buyer questions, monthly, in each engine", "Bing Webmaster Tools: AI Performance", "AI referrals as a separate channel in GA4"], b: "Share of answers you appear in, and whether the description is correct." },
+      note: "Order used in the author's client work. Timing: ChatGPT search picks up robots.txt changes in about a day (OpenAI); facts held only in a model's training data change with the next model." },
+  },
+  pl: {
+    num: (v) => String(v).replace(".", ","),
+    pct: (v) => `${String(v).replace(".", ",")}%`,
+    pipeline: { k: "Jak odpowiada silnik generatywny", h: "Od pytania do odpowiedzi ze źródłami: co dzieje się po drodze",
+      s: "Każdy silnik AI z dostępem do sieci przechodzi te same kroki, każdy na swój sposób. Strona musi przejść wyszukiwanie, a potem wybór, żeby stać się źródłem.",
+      steps: [
+        ["Pytanie", "Całe zdanie, często z kontekstem rozmowy i pamięcią użytkownika."],
+        ["Rozbicie zapytania", "Pytanie dzielone jest na kilka wyszukiwań w podtematach (query fan-out)."],
+        ["Wyszukiwanie", "Wyszukiwania idą do indeksu: Google, Bing albo własnego crawlera silnika."],
+        ["Wybór", "Zostaje kilka fragmentów: najjaśniejsze odpowiedzi z zaufanych źródeł."],
+        ["Synteza", "Model przepisuje je i łączy. Tu wchodzą stare fakty i pomyłki."],
+        ["Odpowiedź", "Jeden tekst z 2–15 źródłami albo bez nich."],
+      ],
+      cls: ["", "", "seo", "geo", "geo", ""],
+      br: [[2, 1, "s1", "<b>Tak samo jak w SEO:</b> indeksacja, dostęp, zgoda na fragment"], [3, 2, "s2", "<b>Tu GEO się różni:</b> fragment, który da się wyjąć w całości, i te same fakty w każdym źródle"]],
+      note: "Rozbicie zapytania (query fan-out) opisuje Google w «AI features and your website» (Search Central). Liczba źródeł: badanie autora, 141 odpowiedzi, wrzesień 2026." },
+    earned: { k: "University of Toronto · wrzesień 2025", h: "Wyszukiwanie AI cytuje niezależne źródła dużo częściej niż Google",
+      s: "Udział źródeł według typu dla tych samych pytań o produkty w Kanadzie: własna strona marki, platformy społecznościowe i media zewnętrzne (niezależne recenzje, wydawcy, porównywarki).",
+      leg: ["Strona marki", "Platformy społecznościowe", "Media zewnętrzne"],
+      cats: [["Motoryzacja", [36.6, 22.8, 40.6], [30.9, 0, 69.1]], ["Elektronika", [22.8, 23.1, 54.1], [22.1, 0.3, 77.6]], ["Oprogramowanie", [53.8, 14.4, 31.8], [25.8, 0, 74.2]]],
+      rowNames: ["Google", "Wyszukiwanie AI"],
+      note: "M. Chen, X. Wang, K. Chen, N. Koudas, «Generative Engine Optimization: How to Dominate AI Search», arXiv 2509.08919. W danych z USA media zewnętrzne stanowiły 72,7–92,1% źródeł wyszukiwania AI." },
+    factors: { k: "Ahrefs · 75 000 marek · maj 2025", h: "Wzmianki o marce na innych stronach znaczą więcej niż linki do niej",
+      s: "Korelacja Spearmana między każdym czynnikiem a liczbą wzmianek o marce w Google AI Overviews. Korelacja, nie dowód przyczyny.",
+      rows: [["Wzmianki o marce w sieci", 0.664], ["Anchory z nazwą marki", 0.527], ["Wyszukiwania nazwy marki", 0.392], ["Domain Rating", 0.326], ["Domeny linkujące", 0.295], ["Ruch z nazwy marki", 0.274], ["Liczba linków zwrotnych", 0.218], ["URL Rating", 0.18], ["Liczba stron w serwisie", 0.17]],
+      note: "Źródło: L. Linehan, «An Analysis of AI Overview Brand Visibility Factors (75K Brands Studied)», Ahrefs, 26 maja 2025." },
+    five: { k: "Strategia generative engine optimization", h: "GEO w pięciu warstwach: każda opiera się na niższej",
+      s: "Kolejność pracy. Dostęp i strony to ta sama praca co w SEO; fakty i wzmianki to miejsce, gdzie GEO dodaje coś nowego; pomiar idzie obok wszystkich czterech.",
+      hw: "Gdzie", ht: "Efekt po",
+      rows: [
+        ["Dostęp", "Crawler każdego silnika może czytać stronę: robots.txt, indeksacja, treść w HTML", "Wasz serwer", "dniach"],
+        ["Fakty", "Nazwa, usługi, ceny, miejsca i daty są wszędzie takie same", "Strona, profile, katalogi", "tygodniach"],
+        ["Strony", "Nagłówki nazywają pytania; odpowiedź jest pierwsza; liczby, daty i źródła", "Wasza strona", "tygodniach, po ponownym crawlu"],
+        ["Wzmianki", "Obecność w recenzjach, porównaniach i mediach, które silniki cytują dla Waszej usługi", "Inne strony", "miesiącach"],
+      ],
+      m: { nm: "Pomiar", li: ["20–50 pytań klientów co miesiąc w każdym silniku", "Bing Webmaster Tools: AI Performance", "Ruch z AI jako osobny kanał w GA4"], b: "Odsetek odpowiedzi, w których jesteście, i czy opis jest poprawny." },
+      note: "Kolejność z pracy autora z klientami. Czas: wyszukiwanie ChatGPT uwzględnia zmiany w robots.txt po około dobie (OpenAI); fakty zapisane tylko w danych treningowych zmieniają się z kolejnym modelem." },
+  },
+  ru: {
+    num: (v) => String(v).replace(".", ","),
+    pct: (v) => `${String(v).replace(".", ",")}%`,
+    pipeline: { k: "Как отвечает генеративный движок", h: "От вопроса до ответа со ссылками: что происходит по дороге",
+      s: "Любой ИИ-движок с доступом к сети проходит одни и те же шаги, каждый по-своему. Странице нужно пройти поиск, а затем отбор, чтобы стать источником.",
+      steps: [
+        ["Вопрос", "Целое предложение, часто с контекстом разговора и памятью пользователя."],
+        ["Разбиение запроса", "Вопрос делится на несколько поисков по подтемам (query fan-out)."],
+        ["Поиск", "Поиски идут по индексу: Google, Bing или собственному обходу движка."],
+        ["Отбор", "Остаётся несколько фрагментов: самые ясные ответы из надёжных источников."],
+        ["Синтез", "Модель переписывает и сливает их. Здесь появляются старые факты и путаница."],
+        ["Ответ", "Один текст с 2–15 источниками или без них."],
+      ],
+      cls: ["", "", "seo", "geo", "geo", ""],
+      br: [[2, 1, "s1", "<b>Как в SEO:</b> индексация, доступ, разрешён фрагмент"], [3, 2, "s2", "<b>Здесь GEO отличается:</b> фрагмент, который можно взять целиком, и одни и те же факты во всех источниках"]],
+      note: "Разбиение запроса (query fan-out) Google описывает в «AI features and your website» (Search Central). Число источников: исследование автора, 141 ответ, сентябрь 2026." },
+    earned: { k: "Университет Торонто · сентябрь 2025", h: "ИИ-поиск цитирует независимые источники намного чаще, чем Google",
+      s: "Доля источников по типу для одних и тех же вопросов о товарах в Канаде: сайт самого бренда, соцсети и сторонние издания (независимые обзоры, СМИ, сайты сравнения).",
+      leg: ["Сайт бренда", "Соцсети", "Сторонние издания"],
+      cats: [["Автомобили", [36.6, 22.8, 40.6], [30.9, 0, 69.1]], ["Электроника", [22.8, 23.1, 54.1], [22.1, 0.3, 77.6]], ["Программы", [53.8, 14.4, 31.8], [25.8, 0, 74.2]]],
+      rowNames: ["Google", "ИИ-поиск"],
+      note: "M. Chen, X. Wang, K. Chen, N. Koudas, «Generative Engine Optimization: How to Dominate AI Search», arXiv 2509.08919. В данных по США сторонние издания дали 72,7–92,1% источников ИИ-поиска." },
+    factors: { k: "Ahrefs · 75 000 брендов · май 2025", h: "Упоминания бренда на чужих сайтах значат больше, чем ссылки на него",
+      s: "Корреляция Спирмена между каждым фактором и числом упоминаний бренда в Google AI Overviews. Корреляция, а не доказательство причины.",
+      rows: [["Упоминания бренда в сети", 0.664], ["Анкоры с названием бренда", 0.527], ["Запросы с названием бренда", 0.392], ["Domain Rating", 0.326], ["Ссылающиеся домены", 0.295], ["Брендовый трафик", 0.274], ["Число обратных ссылок", 0.218], ["URL Rating", 0.18], ["Число страниц сайта", 0.17]],
+      note: "Источник: L. Linehan, «An Analysis of AI Overview Brand Visibility Factors (75K Brands Studied)», Ahrefs, 26 мая 2025." },
+    five: { k: "Стратегия генеративной оптимизации", h: "GEO в пяти слоях: каждый опирается на нижний",
+      s: "Порядок работы. Доступ и страницы — та же работа, что в SEO; факты и упоминания — то, что GEO добавляет нового; замеры идут рядом со всеми четырьмя.",
+      hw: "Где", ht: "Эффект через",
+      rows: [
+        ["Доступ", "Робот каждого движка может читать сайт: robots.txt, индексация, текст в HTML", "Ваш сервер", "дни"],
+        ["Факты", "Название, услуги, цены, адреса и даты везде одинаковые", "Сайт, профили, каталоги", "недели"],
+        ["Страницы", "Заголовок называет вопрос; ответ идёт первым; числа, даты и источники", "Ваш сайт", "недели, после переобхода"],
+        ["Упоминания", "Присутствие в отзывах, сравнениях и изданиях, которые движки цитируют по вашей услуге", "Чужие сайты", "месяцы"],
+      ],
+      m: { nm: "Замеры", li: ["20–50 вопросов клиентов раз в месяц в каждом движке", "Bing Webmaster Tools: AI Performance", "Переходы из ИИ отдельным каналом в GA4"], b: "Доля ответов, в которых вы есть, и верно ли вас описывают." },
+      note: "Порядок — из работы автора с клиентами. Сроки: поиск ChatGPT учитывает изменения robots.txt примерно через сутки (OpenAI); факты, которые есть только в обучающих данных модели, меняются со следующей моделью." },
+  },
+};
+
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a = {}) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+const S = getComputedStyle(document.documentElement);
+const c = (n) => S.getPropertyValue(n).trim();
+const txt = (svg, x, y, s, cls, anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }); t.textContent = s; svg.appendChild(t); return t; };
+const bar = (x, y, w, h, r = 4) => { r = Math.min(r, w); return `M${x},${y} H${x + w - r} A${r},${r} 0 0 1 ${x + w},${y + r} V${y + h - r} A${r},${r} 0 0 1 ${x + w - r},${y + h} H${x} Z`; };
+
+function section(lang, id, t) {
+  const s = document.createElement("section");
+  s.className = "fig"; s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2><p class="sub">${t.s}</p>`;
+  return s;
+}
+const note = (s, n) => { const p = document.createElement("p"); p.className = "note"; p.textContent = n; s.appendChild(p); };
+
+function pipeline(lang, t) {
+  const P = t.pipeline, s = section(lang, "pipeline", P);
+  s.insertAdjacentHTML("beforeend", `<div class="pipe">${P.steps.map(([h, p], i) => `<div class="step ${P.cls[i]}"><p class="n">${String(i + 1).padStart(2, "0")}</p><b>${h}</b><p>${p}</p></div>`).join("")}</div>`);
+  const br = P.br.map(([start, span, col, html]) => `<div class="br" style="grid-column:${start + 1} / span ${span};border-color:${c("--" + col)}">${html}</div>`).join("");
+  s.insertAdjacentHTML("beforeend", `<div class="brackets">${br}</div>`);
+  note(s, P.note);
+  return s;
+}
+
+function earned(lang, t) {
+  const E = t.earned, s = section(lang, "earned", E);
+  const cols = [c("--s1"), c("--s4"), c("--s3")];
+  const leg = document.createElement("div"); leg.className = "legend";
+  leg.innerHTML = E.leg.map((l, i) => `<span><i style="background:${cols[i]}"></i>${l}</span>`).join("");
+  s.appendChild(leg);
+  const band = 128, top = 6, x0 = 330, W = 1104 - x0 - 30, barH = 30;
+  const svg = el("svg", { width: 1104, height: top + band * 3 + 24 });
+  [0, 25, 50, 75, 100].forEach((v) => {
+    const x = x0 + (v / 100) * W;
+    svg.appendChild(el("line", { x1: x, y1: top, x2: x, y2: top + band * 3 - 16, stroke: c("--grid"), "stroke-width": 1 }));
+    txt(svg, x, top + band * 3 + 6, `${v}%`, "ax", "middle");
+  });
+  E.cats.forEach(([name, g, a], i) => {
+    const y = top + i * band;
+    txt(svg, 0, y + 22, name, "lbl");
+    [g, a].forEach((vals, j) => {
+      const yy = y + 34 + j * (barH + 10);
+      txt(svg, x0 - 14, yy + 20, E.rowNames[j], "lbl2", "end");
+      let x = x0;
+      vals.forEach((v, k) => {
+        const w = (v / 100) * W;
+        if (w > 0.5) svg.appendChild(el("rect", { x, y: yy, width: Math.max(w - 2, 0.5), height: barH, rx: 3, fill: cols[k] }));
+        if (w > 58) txt(svg, x + w / 2, yy + 20, t.pct(v), "vin", "middle");
+        x += w;
+      });
+    });
+  });
+  s.appendChild(svg); note(s, E.note);
+  return s;
+}
+
+function factors(lang, t) {
+  const F = t.factors, s = section(lang, "factors", F);
+  const band = 40, top = 6, x0 = 330, max = 0.7, W = 1104 - x0 - 80, barH = 22, n = F.rows.length;
+  const svg = el("svg", { width: 1104, height: top + band * n + 24 });
+  [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7].forEach((v) => {
+    const x = x0 + (v / max) * W;
+    svg.appendChild(el("line", { x1: x, y1: top, x2: x, y2: top + band * n - 8, stroke: v === 0 ? c("--baseline") : c("--grid"), "stroke-width": 1 }));
+    txt(svg, x, top + band * n + 10, t.num(v.toFixed(1)), "ax", "middle");
+  });
+  F.rows.forEach(([name, v], i) => {
+    const y = top + i * band + (band - barH) / 2 - 2;
+    const col = i === 0 ? c("--s3") : i === 6 ? c("--s2") : c("--s1");
+    svg.appendChild(el("path", { d: bar(x0, y, (v / max) * W, barH), fill: col }));
+    txt(svg, x0 - 14, y + 16, name, "lbl", "end");
+    txt(svg, x0 + (v / max) * W + 10, y + 16, t.num(v.toFixed(3).replace(/0$/, "")), "val");
+  });
+  s.appendChild(svg); note(s, F.note);
+  return s;
+}
+
+function five(lang, t) {
+  const F = t.five, s = section(lang, "five", F);
+  const hues = [c("--s1"), c("--s3"), c("--s1"), c("--s2")];
+  const rows = F.rows.map(([nm, wd, wh, tm], i) => `<div class="row"><div class="num" style="background:${hues[i]}">${i + 1}</div><div class="nm">${nm}</div><div class="wd">${wd}</div><div class="wh"><small>${F.hw}</small>${wh}</div><div class="tm"><small>${F.ht}</small>${tm}</div></div>`).join("");
+  s.insertAdjacentHTML("beforeend", `<div class="five"><div class="stack">${rows}</div><div class="meas"><div class="num">5</div><div class="nm">${F.m.nm}</div><ul>${F.m.li.map((l) => `<li>${l}</li>`).join("")}</ul><div class="bottom">${F.m.b}</div></div></div>`);
+  note(s, F.note);
+  return s;
+}
+
+const root = document.getElementById("root");
+for (const lang of ["en", "pl", "ru"]) {
+  const t = T[lang];
+  [pipeline, earned, factors, five].forEach((f) => root.appendChild(f(lang, t)));
+}
+</script>
+</body>
+</html>

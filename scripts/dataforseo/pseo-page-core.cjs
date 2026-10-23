@@ -134,6 +134,33 @@ const TOPICS = {
       ru: ["geo оптимизация"],
     },
   },
+  // Article «What is GEO» (24.10.2026): definition article. Comparisons belong
+  // to the «GEO vs SEO» article, services/agency/tools to the GEO hub.
+  "what-is-geo": {
+    relevant: /\bgeo\b|generative|генератив|нейросет|\bии\b|\bai\b|sztuczn/i,
+    otherPage: {
+      "geo-vs-seo article": /\bvs\b|versus|differen|różnic|разниц|отлич/i,
+      "GEO hub / services": /servic|agenc|compan|consult|usług|agencj|firma|услуг|агентств|компани|price|cost|cena|цена|стоимост/i,
+    },
+    groups: {
+      "definition / what is": /what is|what's|meaning|definition|explained|co to|czym jest|co oznacza|что такое|что это|значит|означает/i,
+      "how it works": /how does|how it works|how to|jak działa|jak |как работает|как /i,
+      "strategy / best practices": /strateg|best practice|tactic|checklist|tips|стратег|чек-лист|metod|метод/i,
+      "examples / case studies": /example|case stud|przykład|пример|кейс/i,
+      "tools / software": /tool|software|platform|narzędz|инструмент|сервис/i,
+      "statistics / research": /statist|study|research|paper|badani|исследован|статистик/i,
+    },
+    seeds: {
+      en: ["what is generative engine optimization", "what is geo", "generative engine optimization", "how does generative engine optimization work", "generative engine optimization strategy", "what is geo in marketing", "generative engine optimization examples", "generative engine optimization best practices"],
+      pl: ["generative engine optimization", "geo co to", "co to jest geo", "optymalizacja geo", "geo marketing", "optymalizacja pod ai", "geo pozycjonowanie"],
+      ru: ["что такое geo", "generative engine optimization", "geo оптимизация", "geo продвижение", "генеративная оптимизация", "оптимизация под нейросети"],
+    },
+    serp: {
+      en: ["what is generative engine optimization", "what is geo"],
+      pl: ["generative engine optimization"],
+      ru: ["что такое geo"],
+    },
+  },
   // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any

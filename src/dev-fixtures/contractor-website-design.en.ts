@@ -138,6 +138,11 @@ export const contractorWebsiteDesignEn = {
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
           " page.",
         ),
+        p(
+          "Being found in Google for your jobs and towns is covered on the ",
+          link("SEO for contractors", "/seo-for-contractors"),
+          " page.",
+        ),
 
         h2("Contractor website templates or a custom design"),
         p("Contractor website templates, including free ones, look finished in a demo because the demo is full of professional photos and invented jobs. With a real company’s content they tend to show the same gaps: one generic services page, a gallery instead of project pages, a contact form instead of an estimate request, and nothing for service areas."),

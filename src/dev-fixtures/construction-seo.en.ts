@@ -154,6 +154,11 @@ export const constructionSeoEn = {
           link("pricing", "/pricing"),
           " page.",
         ),
+        p(
+          "Contractors who sell remodels and repairs to homeowners will find more on the ",
+          link("SEO for contractors", "/seo-for-contractors"),
+          " page.",
+        ),
       ],
     },
     {

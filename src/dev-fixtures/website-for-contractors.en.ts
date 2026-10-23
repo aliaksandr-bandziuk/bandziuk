@@ -149,6 +149,13 @@ export const websiteForContractorsEn = {
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
           " page.",
         ),
+        p(
+          "Ranking in Google and in the map results is covered on the ",
+          link("SEO for contractors", "/seo-for-contractors"),
+          " and ",
+          link("local SEO for contractors", "/local-seo-for-contractors"),
+          " pages.",
+        ),
 
         h2("How much a website for contractors costs"),
         li("A simple contractor website — home, services, areas, a few projects, estimate form: 700–1,400 €."),

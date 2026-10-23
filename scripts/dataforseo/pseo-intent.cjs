@@ -167,6 +167,20 @@ PAIR_SETS["what-is-geo"] = [
   ["ru: что такое geo = geo оптимизация?", "ru", "что такое geo", "geo оптимизация"],
 ];
 
+// Article «What is AEO» (24.10.2026): which phrases one definition article
+// takes, and where it stops (AEO service page, «What is GEO», «GEO vs SEO»).
+PAIR_SETS["what-is-aeo"] = [
+  ["what is aeo = what is answer engine optimization?", "en", "what is aeo", "what is answer engine optimization"],
+  ["what is AEO = answer engine optimization?", "en", "what is answer engine optimization", "answer engine optimization"],
+  ["answer engine optimization = … services?", "en", "answer engine optimization", "answer engine optimization services"],
+  ["what is AEO = aeo seo?", "en", "what is answer engine optimization", "aeo seo"],
+  ["what is AEO = what is geo? (cannibalization)", "en", "what is answer engine optimization", "what is generative engine optimization"],
+  ["what is AEO = how to do it?", "en", "what is answer engine optimization", "how to do answer engine optimization"],
+  ["what is AEO = strategy?", "en", "what is answer engine optimization", "answer engine optimization strategy"],
+  ["pl: aeo co to = answer engine optimization?", "pl", "aeo co to", "answer engine optimization"],
+  ["ru: что такое aeo = aeo оптимизация?", "ru", "что такое aeo", "aeo оптимизация"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

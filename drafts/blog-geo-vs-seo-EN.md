@@ -80,7 +80,7 @@ The biggest change is in what the user does after the answer. Two independent me
 
 ![With an AI summary on the page, clicks on regular results fall from 15% to 8% of visits (Pew Research Center, March 2025 data); position one loses 34.5% of its clicks on keywords with an AI Overview (Ahrefs, 300,000 keywords)](article-figures/fig-ai-clicks-en.png)
 
-The scale is no longer a niche. In July 2025 Google reported more than 2 billion monthly users of AI Overviews and over 100 million monthly users of AI Mode in the US and India; in October 2025 OpenAI said ChatGPT had 800 million weekly users.
+The scale is no longer a niche. In July 2026 Alphabet reported more than 1 billion monthly users of AI Mode, Google's conversational search, and 950 million monthly users of the Gemini app; in February 2026 OpenAI said ChatGPT had more than 900 million weekly users.
 
 What follows from this is not "SEO is dead" — the AI answer is still built from pages that rank. What follows is that a ranking alone no longer guarantees a visit, and that the answer itself has become a place where a buyer forms an opinion about you before seeing your site.
 

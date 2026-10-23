@@ -161,6 +161,33 @@ const TOPICS = {
       ru: ["что такое geo"],
     },
   },
+  // Article «What is AEO» (24.10.2026): definition article. Comparisons belong
+  // to the «GEO vs SEO» article, services/agency to the AEO service pages.
+  "what-is-aeo": {
+    relevant: /\baeo\b|answer engine|answer optimi|odpowiedzi ai|odpowiedź|ответ|featured snippet|zero.click|voice search/i,
+    otherPage: {
+      "geo-vs-seo article": /\bvs\b|versus|differen|różnic|разниц|отлич/i,
+      "AEO service page": /servic|agenc|compan|consult|usług|agencj|firma|услуг|агентств|компани|price|cost|cena|цена|стоимост/i,
+    },
+    groups: {
+      "definition / what is": /what is|what's|meaning|definition|explained|stand for|co to|czym jest|co oznacza|что такое|что это|значит|означает/i,
+      "how it works / how to": /how does|how to|how it works|jak |как /i,
+      "strategy / best practices": /strateg|best practice|tactic|checklist|tips|стратег|чек-лист|metod|метод/i,
+      "examples": /example|case stud|przykład|пример|кейс/i,
+      "tools": /tool|software|platform|narzędz|инструмент|сервис/i,
+      "featured snippets / voice": /snippet|voice|zero.click|głos|голос/i,
+    },
+    seeds: {
+      en: ["what is aeo", "what is answer engine optimization", "answer engine optimization", "aeo seo", "aeo marketing", "how to do answer engine optimization", "answer engine optimization strategy", "answer engine optimization examples"],
+      pl: ["answer engine optimization", "aeo co to", "co to jest aeo", "aeo seo", "optymalizacja pod odpowiedzi ai"],
+      ru: ["что такое aeo", "aeo оптимизация", "answer engine optimization", "aeo продвижение", "оптимизация под ответы ии"],
+    },
+    serp: {
+      en: ["what is answer engine optimization", "what is aeo"],
+      pl: ["answer engine optimization"],
+      ru: ["что такое aeo"],
+    },
+  },
   // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any

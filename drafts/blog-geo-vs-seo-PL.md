@@ -74,7 +74,7 @@ Największa zmiana dotyczy tego, co użytkownik robi po przeczytaniu odpowiedzi.
 
 ![Gdy na stronie jest podsumowanie AI, kliknięcia w zwykłe wyniki spadają z 15% do 8% wizyt (Pew Research Center); pierwsza pozycja traci 34,5% kliknięć przy frazach z AI Overview (Ahrefs)](article-figures/fig-ai-clicks-pl.png)
 
-Skala nie jest już niszowa. W lipcu 2025 roku Google podał, że z AI Overviews korzysta ponad 2 miliardy osób miesięcznie, a z trybu AI ponad 100 milionów miesięcznie w USA i Indiach; w październiku 2025 roku OpenAI poinformował, że ChatGPT ma 800 milionów użytkowników tygodniowo.
+Skala nie jest już niszowa. W lipcu 2026 roku Alphabet podał, że z trybu AI w Google korzysta ponad miliard osób miesięcznie, a z aplikacji Gemini 950 milionów; w lutym 2026 roku OpenAI poinformował, że ChatGPT ma ponad 900 milionów użytkowników tygodniowo.
 
 Nie wynika z tego, że „SEO umarło” — odpowiedź AI wciąż powstaje ze stron, które są wysoko w wynikach. Wynika z tego, że sama pozycja nie gwarantuje już wizyty, a odpowiedź stała się miejscem, w którym klient wyrabia sobie zdanie o firmie, zanim zobaczy jej stronę.
 

@@ -9,6 +9,9 @@
 //      the construction company website page;
 //    - «SEO for industries»: both SEO pages right after SEO for construction
 //      companies.
+//    RU services hub, «Разработка сайтов – по отраслям»: /ru/sait-po-remontu-kvartir
+//    (RU market version of /website-for-contractors) after the RU construction
+//    company website page.
 // 2. One sentence per page linking the rest of the cluster (the same sentences
 //    are in the fixtures):
 //    - /construction-website-design → /contractor-website-design
@@ -16,6 +19,7 @@
 //    - /seo-for-construction-companies → /seo-for-contractors
 //    - /contractor-website-design → /seo-for-contractors
 //    - /website-for-contractors → /seo-for-contractors, /local-seo-for-contractors
+//    - /ru/sait-dlya-stroitelnoi-kompanii → /ru/sait-po-remontu-kvartir
 //    Construction (projects, tenders) and contractors (homeowner jobs, calls,
 //    estimate visits) are separate SERPs, so the pages stay apart but linked.
 //    7a ↔ 7b and 6a ↔ 6b already link each other in their own text.
@@ -58,12 +62,13 @@ const PAGES = {
   dev: "singlepage-website-for-contractors",
   seo: "singlepage-seo-for-contractors",
   local: "singlepage-local-seo-for-contractors",
+  devRu: "singlepage-website-for-contractors.ru",
 };
 
-const HUB_LANG = "en";
 const HUB = [
-  { title: "Website development by industry", after: "singlepage-construction-company-website", refs: [PAGES.design, PAGES.dev] },
-  { title: "SEO for industries", after: "singlepage-seo-for-construction-companies", refs: [PAGES.seo, PAGES.local] },
+  { lang: "en", title: "Website development by industry", after: "singlepage-construction-company-website", refs: [PAGES.design, PAGES.dev] },
+  { lang: "en", title: "SEO for industries", after: "singlepage-seo-for-construction-companies", refs: [PAGES.seo, PAGES.local] },
+  { lang: "ru", title: "Разработка сайтов – по отраслям", after: "singlepage-construction-company-website.ru", refs: [PAGES.devRu] },
 ];
 
 const TEXT = [
@@ -77,6 +82,8 @@ const TEXT = [
     para: para("Being found in Google for your jobs and towns is covered on the ", ["SEO for contractors", "/seo-for-contractors"], " page.") },
   { id: PAGES.dev, anchor: "Getting into those answers is ongoing work",
     para: para("Ranking in Google and in the map results is covered on the ", ["SEO for contractors", "/seo-for-contractors"], " and ", ["local SEO for contractors", "/local-seo-for-contractors"], " pages.") },
+  { id: "singlepage-construction-company-website.ru", anchor: "Небольшой строительной компании не нужен большой сайт",
+    para: para("Если вы делаете ремонт квартир, а не строите дома, загляните на страницу ", ["сайт по ремонту квартир", "/ru/sait-po-remontu-kvartir"], ".") },
 ];
 
 async function main() {
@@ -86,14 +93,12 @@ async function main() {
     console.log(`Aborting — not in Sanity yet: ${all.filter((i) => !exist.includes(i)).join(", ")}`);
     process.exit(1);
   }
-  const hub = await client.fetch(
-    `*[_type == "singlepage" && pageType == "servicesIndex" && language == $lang && !(_id in path("drafts.**"))][0]{
-      _id, _rev, "blocks": contentBlocks[_type == "relatedServicesBlock"]{ _key, title, "refs": items[]._ref }
+  const hubs = await client.fetch(
+    `*[_type == "singlepage" && pageType == "servicesIndex" && !(_id in path("drafts.**"))]{
+      _id, _rev, language, "blocks": contentBlocks[_type == "relatedServicesBlock"]{ _key, title, "refs": items[]._ref }
     }`,
-    { lang: HUB_LANG },
   );
-  if (!hub) throw new Error("EN services hub not found");
-  const touched = [hub._id, ...TEXT.map((t) => t.id)];
+  const touched = [...hubs.map((h) => h._id), ...TEXT.map((t) => t.id)];
   const drafts = await client.fetch(`*[_id in $ids]._id`, { ids: touched.map((i) => `drafts.${i}`) });
   if (drafts.length) {
     console.log(`Aborting — drafts exist, publish or discard them first: ${drafts.join(", ")}`);
@@ -102,13 +107,14 @@ async function main() {
 
   const patches = [];
   for (const h of HUB) {
-    const sec = hub.blocks.find((b) => b.title === h.title);
-    if (!sec) throw new Error(`EN hub: section «${h.title}» not found`);
+    const hub = hubs.find((x) => x.language === h.lang);
+    const sec = hub && hub.blocks.find((b) => b.title === h.title);
+    if (!sec) throw new Error(`${h.lang} hub: section «${h.title}» not found`);
     const missing = h.refs.filter((r) => !sec.refs.includes(r));
-    if (!missing.length) { console.log(`skip  EN hub «${h.title}»: already lists both pages`); continue; }
+    if (!missing.length) { console.log(`skip  ${h.lang} hub «${h.title}»: already lists ${h.refs.join(", ")}`); continue; }
     const has = sec.refs.includes(h.after);
     const where = has ? `contentBlocks[_key=="${sec._key}"].items[_ref=="${h.after}"]` : `contentBlocks[_key=="${sec._key}"].items[-1]`;
-    console.log(`add   EN hub «${h.title}»: ${missing.join(", ")} ${has ? `after ${h.after}` : "at the end"}`);
+    console.log(`add   ${h.lang} hub «${h.title}»: ${missing.join(", ")} ${has ? `after ${h.after}` : "at the end"}`);
     patches.push({ id: hub._id, rev: hub._rev, op: (p) => p.insert("after", where, missing.map((r) => ({ _key: key(), _type: "reference", _ref: r }))) });
   }
 

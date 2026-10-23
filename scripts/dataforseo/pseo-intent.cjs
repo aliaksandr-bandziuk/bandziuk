@@ -101,6 +101,14 @@ PAIR_SETS.contractors = [
   ["SEO = маркетинговое агентство?", "en", "seo for contractors", "contractor marketing agency"],
   ["локальное SEO = SEO?", "en", "local seo for contractors", "seo for contractors"],
 ];
+// 23.10.2026: RU «ремонт квартир» — whose demand (owners or homeowners) and
+// whether it belongs to the existing RU construction pages.
+PAIR_SETS.renovation = [
+  ["ремонт: чей спрос", "ru", "сайт по ремонту квартир", "ремонт квартир под ключ"],
+  ["ремонт vs стройка (сайт)", "ru", "сайт по ремонту квартир", "сайт для строительной компании"],
+  ["готовый сайт vs стройка", "ru", "купить сайт по ремонту квартир", "сайт для строительной компании"],
+  ["готовый сайт vs сайт ремонта", "ru", "купить сайт по ремонту квартир", "сайт по ремонту квартир"],
+];
 
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];

@@ -85,6 +85,31 @@ const TOPICS = {
       en: ["contractor website design", "seo for contractors"],
     },
   },
+  // Topics 6–7 follow-up (23.10.2026): PL/RU for the contractor pages. A
+  // homeowner's "contractor" is not «podwykonawca» / «подрядчик» there but a
+  // renovation firm: «firma remontowa», «ekipa remontowa», «wykończenia»,
+  // «ремонт квартир», «ремонтная компания». The construction survey had one PL
+  // seed of this kind and no RU one, so this is the measurement the language
+  // rule needs before deciding PL/RU versions of 6a/6b/7a/7b.
+  "renovation-pl-ru": {
+    relevant: /remont|wykończ|wykoncz|fachow|podwykonaw|wykonawc|ремонт|отдел|подряд/i,
+    otherPage: {
+      warsaw: /warsz|warsaw|варшав/i,
+    },
+    groups: {
+      "SEO / promotion": /\bseo\b|marketing|pozycjon|reklam|продвиж|раскрут|маркетинг|реклам/i,
+      "design / templates": /projektow|projekt strony|szablon|дизайн|шаблон|пример/i,
+      "website / development": /strona|stron|witryn|сайт/i,
+    },
+    seeds: {
+      pl: ["strona internetowa dla firmy remontowej", "strona dla firmy remontowej", "strona internetowa ekipy remontowej", "strona dla firmy wykończeniowej", "pozycjonowanie firmy remontowej", "pozycjonowanie strony firmy remontowej", "marketing firmy remontowej", "strona dla fachowca", "strona dla podwykonawcy"],
+      ru: ["сайт ремонтной компании", "сайт для ремонта квартир", "сайт по ремонту квартир", "продвижение сайта ремонта квартир", "seo ремонт квартир", "раскрутка сайта ремонта квартир", "сайт для отделочной компании", "сайт для подрядчика", "продвижение сайта подрядчика"],
+    },
+    serp: {
+      pl: ["strona internetowa dla firmy remontowej", "pozycjonowanie firmy remontowej"],
+      ru: ["сайт ремонтной компании", "продвижение сайта ремонта квартир"],
+    },
+  },
   // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any

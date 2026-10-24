@@ -217,6 +217,132 @@ const TOPICS = {
       ru: ["llm seo"],
     },
   },
+  // Stage 2, group 1 (24.10.2026): trades — plumbers and electricians (design,
+  // website, SEO), plus HVAC, roofing, painting and landscaping SEO deferred on
+  // 22.10. Template: the contractor pages 6a/6b/7a/7b. Also measures PL/RU for
+  // the language rule (hydraulik / elektryk, сантехник / электрик).
+  "trades": {
+    relevant: /plumb|electric|hvac|heating|air condition|roof|painting|painter|landscap|hydraul|elektryk|instalac|dekar|сантех|электр|кровел|отоплен/i,
+    otherPage: {},
+    groups: {
+      "plumbing": /plumb|hydraul|сантех/i,
+      "electrical": /electric|elektryk|электр/i,
+      "hvac / heating": /hvac|heating|air condition|instalac|отоплен|кондицион/i,
+      "roofing": /roof|dekar|кровел/i,
+      "painting": /paint|malar|маляр/i,
+      "landscaping": /landscap|ogrod|ландшафт/i,
+    },
+    seeds: {
+      en: ["seo for plumbers", "seo for electricians", "plumbing website design", "electrician website design", "website for plumbers", "website for electricians", "hvac seo", "roofing seo", "seo for painting contractors", "landscaping seo"],
+      pl: ["strona internetowa dla hydraulika", "strona dla elektryka", "pozycjonowanie strony hydraulika", "pozycjonowanie strony elektryka", "strona dla firmy instalacyjnej", "strona dla firmy dekarskiej"],
+      ru: ["сайт для электрика", "сайт для сантехника", "продвижение сайта сантехника", "продвижение сайта электрика", "сайт для кровельщика", "сайт сантехнических работ"],
+    },
+    serp: {
+      en: ["seo for plumbers", "plumbing website design"],
+      pl: ["strona internetowa dla hydraulika"],
+      ru: ["сайт для сантехника"],
+    },
+  },
+  // Stage 2, group 1b (24.10.2026): websites and design for roofers, HVAC,
+  // landscapers and painters — the SEO side was measured in «trades»; this is
+  // the development / design side for the same trades.
+  "trades-sites": {
+    relevant: /roof|hvac|heating|air condition|landscap|lawn|painting|painter/i,
+    otherPage: {
+      "trade SEO pages (group 1)": /\bseo\b|marketing|leads/i,
+    },
+    groups: {
+      "roofing": /roof/i,
+      "hvac": /hvac|heating|air condition/i,
+      "landscaping / lawn": /landscap|lawn/i,
+      "painting": /paint/i,
+    },
+    seeds: {
+      en: ["roofing website design", "roofing company website", "roofing websites", "hvac website design", "hvac company website", "hvac websites", "landscaping website design", "lawn care website", "painting contractor website", "painting company website design"],
+    },
+    serp: {
+      en: ["roofing website design", "hvac website design"],
+    },
+  },
+  // Stage 2, group 2 (24.10.2026): dentists, doctors and clinics. Existing
+  // pages: /dental-clinic-website (+ PL strona-dla-gabinetu-stomatologicznego,
+  // RU sait-dlya-stomatologicheskoy-kliniki), PL Warsaw dental and clinic SEO,
+  // /seo-for-polish-clinics-targeting-german-patients. Core: dentist SEO 8 420,
+  // website for dentists 5 610, dentist website design 2 610, seo for doctors
+  // 2 160, doctors website design 1 180, «website for doctors» 91 090 (suspect).
+  "dental-medical": {
+    relevant: /dent|stomat|стомат|doctor|physician|medical|medic|health|clinic|klinik|клиник|lekar|przychodn|gabinet|врач|медиц|orthodon|ortodon|ортодонт|chiroprac|dermatolog|plastic surg/i,
+    otherPage: {
+      "Warsaw pages (PL)": /warsz|warsaw|варшав/i,
+    },
+    groups: {
+      "dental SEO / marketing": /(dent|stomat|стомат|orthodon|ortodon).*(seo|marketing|pozycjon|продвиж|реклам|раскрут)|(seo|marketing|pozycjon|продвиж|реклам|раскрут).*(dent|stomat|стомат|orthodon)/i,
+      "dental website / design": /dent|stomat|стомат|orthodon|ortodon/i,
+      "medical SEO / marketing": /(seo|marketing|pozycjon|продвиж|реклам|раскрут)/i,
+      "medical website / design": /website|site|strona|сайт|design|projekt|дизайн/i,
+    },
+    seeds: {
+      en: ["dentist seo", "seo for dentists", "dental website design", "website for dentists", "dental clinic website", "seo for doctors", "medical website design", "website for doctors", "medical practice seo", "healthcare seo"],
+      pl: ["pozycjonowanie strony gabinetu stomatologicznego", "strona dla dentysty", "strona internetowa dla gabinetu stomatologicznego", "strona dla lekarza", "pozycjonowanie strony kliniki", "strona internetowa dla przychodni", "marketing gabinetu stomatologicznego"],
+      ru: ["seo продвижение стоматологии", "продвижение сайта стоматологии", "сайт для стоматологии", "продвижение сайта клиники", "сайт для клиники", "сайт для врача", "продвижение медицинского сайта"],
+    },
+    serp: {
+      en: ["dentist seo", "medical website design"],
+      pl: ["pozycjonowanie strony gabinetu stomatologicznego"],
+      ru: ["seo продвижение стоматологии"],
+    },
+  },
+  // Stage 2, group 2b (24.10.2026): veterinary clinics. Existing page:
+  // /veterinary-clinic-website (+ PL strona-dla-przychodni-weterynaryjnej, RU
+  // sait-dlya-veterinarnoy-kliniki). The grid found no demand for the «for
+  // veterinary clinics» form, so this measures the natural forms (vet seo,
+  // veterinary website design, animal hospital…) on all three languages.
+  "veterinary": {
+    relevant: /vet\b|vets\b|veterin|animal hospital|animal clinic|pet clinic|weteryn|ветерин|ветклин|зоовет/i,
+    otherPage: {},
+    groups: {
+      "SEO / marketing": /\bseo\b|marketing|pozycjon|reklam|продвиж|раскрут|реклам|маркетинг/i,
+      "website / design": /website|site\b|web\b|design|template|strona|stron|projekt|сайт|дизайн|шаблон/i,
+    },
+    seeds: {
+      en: ["veterinary seo", "seo for veterinarians", "vet seo", "local seo for veterinarians", "veterinary website design", "veterinary website", "vet clinic website", "animal hospital website", "veterinary marketing"],
+      pl: ["pozycjonowanie strony weterynarza", "pozycjonowanie przychodni weterynaryjnej", "strona dla weterynarza", "strona internetowa dla gabinetu weterynaryjnego", "marketing gabinetu weterynaryjnego"],
+      ru: ["продвижение ветеринарной клиники", "сайт ветеринарной клиники", "сайт для ветеринара", "seo для ветеринарной клиники", "продвижение сайта ветклиники"],
+    },
+    serp: {
+      en: ["veterinary seo", "veterinary website design"],
+      pl: ["pozycjonowanie strony weterynarza"],
+      ru: ["продвижение ветеринарной клиники"],
+    },
+  },
+  // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
+  // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
+  // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»
+  // (using ChatGPT as an SEO tool) is a different intent.
+  "chatgpt-seo-article": {
+    relevant: /chatgpt|chat gpt|openai|gpt|czat ?gpt|чатгпт|чат gpt/i,
+    otherPage: {
+      "ChatGPT SEO service page": /servic|agenc|compan|consult|usług|agencj|firma|услуг|агентств|компани|price|cost|cena|цена|стоимост/i,
+      "geo-vs-seo article": /\bvs\b|versus|differen|różnic|разниц|отлич/i,
+    },
+    groups: {
+      "definition / what is": /what is|meaning|definition|co to|czym jest|что такое|что это/i,
+      "rank / appear / get mentioned": /rank|appear|show up|mention|recommend|cite|visible|visibility|pojaw|polec|widoczn|попасть|рекоменд|видимост|появ/i,
+      "ChatGPT as an SEO tool": /prompt|for seo|tool|write|keyword research|content|plugin|gpts|dla seo|для seo|промпт/i,
+      "search / atlas / shopping": /search|atlas|shopping|wyszukiw|поиск/i,
+      "how to": /how to|how do|jak |как /i,
+    },
+    seeds: {
+      en: ["chatgpt seo", "what is chatgpt seo", "how to rank in chatgpt", "how to get mentioned in chatgpt", "how to show up in chatgpt", "seo for chatgpt", "chatgpt search optimization", "optimize for chatgpt", "chatgpt for seo"],
+      pl: ["pozycjonowanie w chatgpt", "seo chatgpt", "jak pojawić się w chatgpt", "chatgpt seo", "widoczność w chatgpt"],
+      ru: ["продвижение в chatgpt", "seo для chatgpt", "как попасть в chatgpt", "chatgpt seo", "оптимизация под chatgpt"],
+    },
+    serp: {
+      en: ["chatgpt seo", "how to rank in chatgpt"],
+      pl: ["pozycjonowanie w chatgpt"],
+      ru: ["продвижение в chatgpt"],
+    },
+  },
   // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any

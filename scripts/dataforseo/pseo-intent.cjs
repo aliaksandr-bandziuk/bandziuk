@@ -196,6 +196,87 @@ PAIR_SETS["llm-seo-article"] = [
   ["ru: llm seo = продвижение в нейросетях?", "ru", "llm seo", "продвижение в нейросетях"],
 ];
 
+// Article «ChatGPT SEO» (24.10.2026): does the article take «chatgpt seo», or is
+// that query about using ChatGPT for SEO; where it stops — the ChatGPT SEO
+// service pages, the «get recommended by ChatGPT» article, «LLM SEO».
+PAIR_SETS["chatgpt-seo-article"] = [
+  ["chatgpt seo = chatgpt seo services? (service page)", "en", "chatgpt seo", "chatgpt seo services"],
+  ["chatgpt seo = chatgpt for seo? (tool intent)", "en", "chatgpt seo", "chatgpt for seo"],
+  ["chatgpt seo = how to rank in chatgpt?", "en", "chatgpt seo", "how to rank in chatgpt"],
+  ["how to rank in chatgpt = how to get recommended by chatgpt? (existing article)", "en", "how to rank in chatgpt", "how to get recommended by chatgpt"],
+  ["how to rank in chatgpt = how to show up in chatgpt?", "en", "how to rank in chatgpt", "how to show up in chatgpt"],
+  ["chatgpt seo = llm seo?", "en", "chatgpt seo", "llm seo"],
+  ["chatgpt seo = chatgpt search optimization?", "en", "chatgpt seo", "chatgpt search optimization"],
+  ["pl: pozycjonowanie w chatgpt = jak pojawić się w chatgpt?", "pl", "pozycjonowanie w chatgpt", "jak pojawić się w chatgpt"],
+  ["ru: продвижение в chatgpt = как попасть в рекомендации chatgpt?", "ru", "продвижение в chatgpt", "как попасть в рекомендации chatgpt"],
+];
+
+// Stage 2, group 1 (24.10.2026): trades. Whose demand «plumber website» is
+// (owners or homeowners), whether design and development split as for
+// contractors, one trades SEO page or one per trade, and whether trade SEO
+// belongs to the existing /seo-for-contractors.
+PAIR_SETS.trades = [
+  ["сантехник: «plumber website» — чей спрос?", "en", "plumber website", "plumbing website design"],
+  ["сантехник: сайт = дизайн?", "en", "website for plumbers", "plumbing website design"],
+  ["электрик: «electrician website» — чей спрос?", "en", "electrician website", "electrician website design"],
+  ["дизайн: сантехник = электрик?", "en", "plumbing website design", "electrician website design"],
+  ["SEO: сантехник = электрик?", "en", "seo for plumbers", "seo for electricians"],
+  ["SEO сантехника = SEO подрядчика?", "en", "seo for plumbers", "seo for contractors"],
+  ["локальное SEO сантехника = SEO сантехника?", "en", "local seo for plumbers", "seo for plumbers"],
+  ["HVAC SEO = SEO сантехника?", "en", "hvac seo", "seo for plumbers"],
+  ["кровля SEO = SEO подрядчика?", "en", "roofing seo", "seo for contractors"],
+  ["маляры SEO = SEO подрядчика?", "en", "seo for painting contractors", "seo for contractors"],
+  ["ru: сайт для электрика — чей спрос?", "ru", "сайт для электрика", "сайт для строительной компании"],
+];
+
+// Stage 2, group 1b (24.10.2026): websites and design for roofers, HVAC,
+// landscapers and painters — whose demand, design vs development, and whether
+// they belong to the contractor or plumbing pages.
+PAIR_SETS["trades-sites"] = [
+  ["кровля: «roofing websites» — чей спрос?", "en", "roofing websites", "roofing website design"],
+  ["кровля: сайт компании = дизайн?", "en", "roofing company website", "roofing website design"],
+  ["кровля: дизайн = дизайн подрядчика?", "en", "roofing website design", "contractor website design"],
+  ["HVAC: сайт = дизайн?", "en", "hvac websites", "hvac website design"],
+  ["HVAC: дизайн = дизайн сантехника?", "en", "hvac website design", "plumbing website design"],
+  ["HVAC: сайт компании — чей спрос?", "en", "hvac company website", "hvac website design"],
+  ["ландшафт: дизайн сайта = сайт для газонов?", "en", "landscaping website design", "lawn care website"],
+  ["маляры: сайт = дизайн подрядчика?", "en", "painting contractor website", "contractor website design"],
+];
+
+// Stage 2, group 2 (24.10.2026): dentists, doctors, clinics. Does «website for
+// dentists» belong to the existing /dental-clinic-website; design vs
+// development; dental vs medical; whose demand «website for doctors» is.
+PAIR_SETS["dental-medical"] = [
+  ["стоматология: сайт = существующая страница клиники?", "en", "website for dentists", "dental clinic website"],
+  ["стоматология: сайт = дизайн?", "en", "website for dentists", "dental website design"],
+  ["стоматология: SEO = локальное SEO?", "en", "dentist seo", "local seo for dentists"],
+  ["стоматология: SEO = маркетинг?", "en", "dentist seo", "dental marketing"],
+  ["врачи: «website for doctors» — чей спрос?", "en", "website for doctors", "medical website design"],
+  ["врачи: SEO врача = медицинское SEO?", "en", "seo for doctors", "medical seo"],
+  ["SEO: врачи = стоматологи?", "en", "seo for doctors", "dentist seo"],
+  ["дизайн: медицина = стоматология?", "en", "medical website design", "dental website design"],
+  ["pl: SEO стоматологии = Варшава?", "pl", "pozycjonowanie strony gabinetu stomatologicznego", "pozycjonowanie gabinetu stomatologicznego warszawa"],
+  ["pl: сайт врача = сайт стоматолога?", "pl", "strona dla lekarza", "strona dla gabinetu stomatologicznego"],
+  ["ru: SEO стоматологии = SEO клиники?", "ru", "seo продвижение стоматологии", "продвижение сайта клиники"],
+  ["ru: сайт клиники = сайт стоматологии?", "ru", "сайт для клиники", "сайт для стоматологии"],
+];
+
+// Stage 2, group 2b (24.10.2026): veterinary clinics, plus one pending pair
+// from group 2 (medical seo vs healthcare seo, assumed to be one page).
+PAIR_SETS.veterinary = [
+  ["вет: «veterinary website» — чей спрос?", "en", "veterinary website", "veterinary website design"],
+  ["вет: сайт клиники = дизайн?", "en", "vet clinic website", "veterinary website design"],
+  ["вет: SEO = локальное SEO?", "en", "veterinary seo", "local seo for veterinarians"],
+  ["вет: SEO = маркетинг?", "en", "veterinary seo", "veterinary marketing"],
+  ["вет: SEO = healthcare SEO?", "en", "veterinary seo", "healthcare seo"],
+  ["вет: дизайн = медицинский дизайн?", "en", "veterinary website design", "medical website design"],
+  ["группа 2: medical seo = healthcare seo?", "en", "medical seo", "healthcare seo"],
+  ["pl: сайт ветеринара = сайт ветклиники?", "pl", "strona dla weterynarza", "strona dla przychodni weterynaryjnej"],
+  ["pl: SEO ветклиники — чей спрос?", "pl", "pozycjonowanie przychodni weterynaryjnej", "strona dla przychodni weterynaryjnej"],
+  ["ru: «сайт ветеринарной клиники» — чей спрос?", "ru", "сайт ветеринарной клиники", "сайт для ветеринарной клиники"],
+  ["ru: продвижение ветклиники = продвижение клиники?", "ru", "продвижение ветеринарной клиники", "продвижение сайта клиники"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

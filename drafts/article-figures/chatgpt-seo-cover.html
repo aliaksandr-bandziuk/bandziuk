@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Textless cover for «ChatGPT SEO» (also the OG image). A chat bubble on the left
+     fans out into short search queries, which lead to a stack of pages; only two of
+     them get the link mark. Palette and geometry as the GEO/AEO/LLM covers. */
+  :root{ --bg:#0a0a0b; --warm:#d95926; --cool:#3987e5; --green:#199e70; }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000}
+  .cover{position:relative;width:1672px;height:941px;overflow:hidden;
+    background:
+      radial-gradient(900px 560px at 14% -8%, rgba(57,135,229,.18), transparent 62%),
+      radial-gradient(900px 560px at 90% 112%, rgba(25,158,112,.15), transparent 60%),
+      var(--bg);}
+  .grain{position:absolute;inset:0;opacity:.4}
+  .grain i{position:absolute;border-radius:50%;background:#fff}
+  .bubble{position:absolute;left:150px;top:340px;width:400px;height:240px;border-radius:30px 30px 30px 8px;
+    background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);box-shadow:0 40px 100px rgba(0,0,0,.55);padding:44px 40px}
+  .bubble .l{height:14px;border-radius:7px;background:rgba(255,255,255,.32);margin:0 0 18px}
+  .bubble .l.sm{height:10px;background:rgba(255,255,255,.16)}
+  .q{position:absolute;left:720px;width:330px;height:54px;border-radius:27px;background:rgba(57,135,229,.16);border:1px solid rgba(57,135,229,.55);display:flex;align-items:center;gap:12px;padding:0 22px}
+  .q .g{width:20px;height:20px;border-radius:50%;border:3px solid rgba(207,225,251,.8);position:relative;flex:none}
+  .q .g::after{content:"";position:absolute;right:-8px;bottom:-7px;width:9px;height:3px;background:rgba(207,225,251,.8);transform:rotate(45deg)}
+  .q span{height:10px;border-radius:5px;background:rgba(207,225,251,.45)}
+  .q span.hot{background:rgba(255,179,141,.85);width:54px;flex:none}
+  .page{position:absolute;left:1220px;width:300px;height:118px;border-radius:16px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);padding:22px 24px}
+  .page .l{height:10px;border-radius:5px;background:rgba(255,255,255,.2);margin:0 0 12px}
+  .page.cited{background:rgba(25,158,112,.12);border:2px solid rgba(25,158,112,.8);box-shadow:0 30px 80px rgba(0,0,0,.5)}
+  .page.cited .l:first-child{background:rgba(255,255,255,.55)}
+  .page .link{position:absolute;right:-22px;top:-22px;width:46px;height:46px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center}
+  .page .link b{width:22px;height:12px;border:3px solid #fff;border-radius:7px;transform:rotate(-45deg);position:relative}
+  .page.dim{opacity:.45}
+  svg{position:absolute;inset:0}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+function grain(n) {
+  let s = 20261024, out = "";
+  const rnd = () => (s = (s * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+  for (let i = 0; i < n; i++) {
+    const x = (rnd() * 1672).toFixed(0), y = (rnd() * 941).toFixed(0);
+    const d = (rnd() * 1.6 + 0.6).toFixed(2), o = (rnd() * 0.3 + 0.05).toFixed(2);
+    out += `<i style="left:${x}px;top:${y}px;width:${d}px;height:${d}px;opacity:${o}"></i>`;
+  }
+  return out;
+}
+const qs = [250, 383, 516, 649];
+const pages = [[110, "dim"], [262, "cited"], [414, "dim"], [566, "cited"], [718, "dim"]];
+const curve = (x1, y1, x2, y2, c, w) => `<path d="M${x1} ${y1} C ${(x1 + x2) / 2} ${y1}, ${(x1 + x2) / 2} ${y2}, ${x2} ${y2}" stroke="${c}" stroke-width="${w}" fill="none"/>`;
+let paths = "";
+for (const y of qs) paths += curve(550, 460, 720, y + 27, "rgba(57,135,229,.45)", 2.5);
+const links = [[0, 0], [0, 1], [1, 1], [1, 2], [2, 3], [2, 2], [3, 3], [3, 4]];
+for (const [qi, pi] of links) {
+  const cited = pages[pi][1] === "cited";
+  paths += curve(1050, qs[qi] + 27, 1220, pages[pi][0] + 59, cited ? "rgba(25,158,112,.7)" : "rgba(255,255,255,.14)", cited ? 2.5 : 1.5);
+}
+document.getElementById("root").insertAdjacentHTML("beforeend", `
+  <div class="cover" id="cover">
+    <div class="grain">${grain(240)}</div>
+    <svg width="1672" height="941">${paths}</svg>
+    <div class="bubble"><div class="l" style="width:92%"></div><div class="l" style="width:70%"></div><div class="l sm" style="width:84%"></div><div class="l sm" style="width:58%"></div></div>
+    ${qs.map((y, i) => `<div class="q" style="top:${y}px"><div class="g"></div>${i % 2 === 0 ? '<span class="hot"></span>' : ""}<span style="width:${[150, 190, 120, 170][i]}px"></span>${i % 2 ? '<span class="hot"></span>' : ""}</div>`).join("")}
+    ${pages.map(([y, c]) => `<div class="page ${c}" style="top:${y}px"><div class="l" style="width:70%"></div><div class="l" style="width:90%"></div><div class="l" style="width:55%"></div>${c === "cited" ? '<div class="link"><b></b></div>' : ""}</div>`).join("")}
+  </div>`);
+</script>
+</body>
+</html>

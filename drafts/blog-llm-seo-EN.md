@@ -161,7 +161,7 @@ AI crawlers request old URLs constantly. Redirect what moved, return 410 for wha
 
 ## LLM SEO for each model: ChatGPT, Claude, Gemini, Perplexity and Copilot
 
-**ChatGPT.** Allow OAI-SearchBot. Be indexed in Bing, but do not stop there: ChatGPT increasingly answers from its own index. Its answers are personalised by the user's saved memory and earlier chats, so test it in a temporary chat. In my study of 141 answers, ChatGPT cited only 1.6 sources per answer and referred to Google Maps in 23 of 47 answers to service questions, so a complete Google Business Profile matters here too. ChatGPT-only work is covered on the [ChatGPT SEO services](/services/chatgpt-seo-services) page.
+**ChatGPT.** Allow OAI-SearchBot. Be indexed in Bing, but do not stop there: ChatGPT increasingly answers from its own index. Its answers are personalised by the user's saved memory and earlier chats, so test it logged out or in a separate account without memory: as of October 2026, ChatGPT's temporary chat states that it may still use memory and custom instructions. In my study of 141 answers, ChatGPT cited only 1.6 sources per answer and referred to Google Maps in 23 of 47 answers to service questions, so a complete Google Business Profile matters here too. ChatGPT-only work is covered on the [ChatGPT SEO services](/services/chatgpt-seo-services) page.
 
 **Claude.** Its web search runs on Brave Search, so search for your key queries in Brave and see whether your pages are there. Allow Claude-SearchBot. Claude does not always search: for general questions it answers from training data, which is where long-standing, consistent mentions of your business pay off.
 
@@ -205,7 +205,7 @@ Trackers sample answers; they do not see what every user sees, especially in Cha
 ## How to measure LLM visibility
 
 1. **Write 20–50 questions** your customers ask, in their words and languages, including the city.
-2. **Ask each in ChatGPT, Claude, Gemini and Perplexity once a month**, in temporary or logged-out sessions, so memory does not bias the answer.
+2. **Ask each in ChatGPT, Claude, Gemini and Perplexity once a month**, logged out or in a separate account without memory, so it does not bias the answer; ChatGPT's temporary chat may still use memory.
 3. **Record per answer:** whether the business is named, whether the site is cited with a link, whether the description is correct, which sources are cited.
 4. **Report per model**, not as one number. The four assistants read different indexes and change at different speeds.
 5. **Add first-party data:** Bing's AI Performance report, AI referrals in GA4 grouped by source (chatgpt.com, perplexity.ai, claude.ai, gemini.google.com, copilot.microsoft.com), and AI crawler activity in your server logs.

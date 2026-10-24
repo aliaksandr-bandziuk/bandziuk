@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Figures for the «ChatGPT SEO» article (24.10.2026). Same surface, type and slots
+     as the GEO/AEO/LLM series. Every number is repeated in the text of the article. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px;margin:0 0 30px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:22px 0 0;line-height:1.5}
+
+  /* flow */
+  .steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;position:relative}
+  .step{border-radius:14px;padding:18px 16px 16px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;position:relative}
+  .step .n{flex:none !important;font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.1em;margin:0 0 10px}
+  .step h3{font-size:16.5px;line-height:1.3;color:#fff;margin:0 0 10px;font-weight:600}
+  .step p{font-size:13.5px;line-height:1.45;color:var(--ink-2);margin:0 0 14px;flex:1}
+  .step .stat{border-top:1px solid rgba(255,255,255,.1);padding-top:12px}
+  .step .stat b{display:block;font-size:24px;line-height:1.1;font-weight:700}
+  .step .stat span{display:block;font-size:12px;line-height:1.4;color:var(--muted);margin-top:4px}
+  .step::after{content:"";position:absolute;right:-12px;top:34px;width:10px;height:10px;border-top:2px solid rgba(255,255,255,.35);border-right:2px solid rgba(255,255,255,.35);transform:rotate(45deg)}
+  .step:last-child::after{display:none}
+  .pills{display:flex;flex-direction:column;gap:5px;margin:0 0 14px}
+  .pills i{font-style:normal;font-family:var(--mono);font-size:11.5px;line-height:1.4;padding:4px 8px;border-radius:7px;background:rgba(57,135,229,.14);color:#cfe1fb}
+  .pills i em{font-style:normal;color:#ffb38d}
+
+  /* bars */
+  .bars{display:grid;grid-template-columns:150px 1fr 70px;gap:12px 16px;align-items:center}
+  .bars .w{font-family:var(--mono);font-size:15px;color:#fff;text-align:right}
+  .bars .track{height:26px;border-radius:6px;background:rgba(255,255,255,.04);position:relative}
+  .bars .fill{height:100%;border-radius:6px;background:var(--s1)}
+  .bars .fill.hot{background:var(--s2)}
+  .bars .v{font-size:15px;font-weight:600;color:#fff}
+
+  /* english */
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:0 0 26px}
+  .card{border-radius:16px;padding:22px 24px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1)}
+  .card b{display:block;font-size:56px;line-height:1;font-weight:700;margin:0 0 10px}
+  .card span{font-size:15px;line-height:1.45;color:var(--ink-2)}
+  .range h3{font-size:15px;color:var(--ink-2);font-weight:500;margin:0 0 14px}
+  .scale{position:relative;height:74px}
+  .scale .axis{position:absolute;left:0;right:0;top:34px;height:2px;background:var(--baseline)}
+  .scale .band{position:absolute;top:26px;height:18px;border-radius:9px;background:rgba(201,133,0,.35);border:1px solid var(--s4)}
+  .scale .tick{position:absolute;top:50px;font-size:12px;color:var(--muted);transform:translateX(-50%);font-family:var(--mono)}
+  .scale .mk{position:absolute;top:0;transform:translateX(-50%);font-size:13.5px;color:#fff;font-weight:600;white-space:nowrap}
+  .scale .dot{position:absolute;top:28px;width:14px;height:14px;border-radius:50%;background:var(--s4);transform:translateX(-50%);border:2px solid #111114}
+  .scale .floor{position:absolute;top:20px;height:30px;border-left:2px dashed var(--s2)}
+  .scale .floorl{position:absolute;top:2px;font-size:12.5px;color:#ffb38d;transform:translateX(calc(-100% - 10px));white-space:nowrap}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    flow: { k: "How ChatGPT search works · OpenAI docs, Peec AI, RESONEO · 2026", h: "From a question to cited sources: five steps inside ChatGPT search",
+      s: "ChatGPT searches the short queries it writes, not the question as typed, and opens only a few of the pages it finds.",
+      steps: [
+        { h: "Decide whether to search", p: "General and definition questions are often answered from the model's training data, with no sources.", b: "2–3", t: "search rounds in the default model; 5–10+ in «Thinking»", c: "--s4" },
+        { h: "Rewrite into fan-out queries", p: "Shorter searches with words the user did not type.", pills: ["<em>best</em> seo consultant warsaw <em>2026</em>", "seo agency warsaw <em>reviews</em>"], b: "2.1", t: "fan-out queries per prompt, April 2026", c: "--s1" },
+        { h: "Collect results", p: "OpenAI's own index, built by OAI-SearchBot, plus third-party search providers such as Bing.", b: "OAI-SearchBot", t: "blocked → not shown in search answers", c: "--s3", small: 1 },
+        { h: "Open selected pages", p: "ChatGPT-User fetches the pages ChatGPT decides to read. HTML only: no JavaScript.", b: "ChatGPT-User", t: "user-initiated; robots.txt may not apply", c: "--s3", small: 1 },
+        { h: "Answer and cite a few", p: "The answer quotes passages and links to a handful of domains.", b: "15", t: "unique domains per response after March 2026, down from 19", c: "--s2" },
+      ],
+      note: "Sources: OpenAI, «Overview of OpenAI crawlers» and publishers FAQ; Peec AI, 5 million fan-outs, 1–21 April 2026; RESONEO / Meteoria, 27,000 responses, GPT-5.3 Instant, March 2026." },
+    words: { k: "Peec AI · 5 million ChatGPT fan-out queries · 1–21 April 2026", h: "Words ChatGPT adds to its searches that the user did not type",
+      s: "Share of ChatGPT prompts in which the word appeared in a fan-out query but not in the prompt itself.",
+      rows: [["best", 15.33], ["what", 8.72], ["review(s)", 6.84], ["2026", 5.44], ["top", 5.24], ["comparison", 4.48], ["vs", 4.27], ["company", 4.02], ["service(s)", 3.99]],
+      note: "Source: T. Rudzki, Peec AI, «Patterns we see in ChatGPT query fanouts», 5 May 2026; full rates as reported by PPC Land. For advice-style prompts («should I use X?») «best» appears in 24.3% of fan-outs." },
+    eng: { k: "Peec AI · 10M+ prompts, 20M fan-outs · February 2026", h: "ChatGPT searches in English even when the question is not in English",
+      s: "Only prompts where the user's location matched the prompt's language, for example Polish prompts from Poland.",
+      cards: [["43%", "of fan-out search steps for non-English prompts ran in English"], ["78%", "of non-English conversations included English-language research"]],
+      rh: "Switching rate by language",
+      marks: [["Spanish 66%", 66], ["Turkish 94%", 94]], floor: "no language below 60%",
+      note: "Source: T. Rudzki, Peec AI, «ChatGPT searches in English, even when you don't», February 2026. Example from the study: for Polish questions about auction sites, ChatGPT returned eBay and not Allegro." },
+  },
+  pl: {
+    flow: { k: "Jak działa wyszukiwarka ChatGPT · dokumentacja OpenAI, Peec AI, RESONEO · 2026", h: "Od pytania do cytowanych źródeł: pięć kroków wyszukiwania w ChatGPT",
+      s: "ChatGPT wyszukuje krótkie zapytania, które sam pisze, a nie pytanie w wpisanej formie, i otwiera tylko kilka znalezionych stron.",
+      steps: [
+        { h: "Decyzja, czy szukać", p: "Na ogólne pytania i definicje często odpowiada z danych treningowych modelu, bez źródeł.", b: "2–3", t: "rundy wyszukiwania w modelu domyślnym; 5–10+ w «Thinking»", c: "--s4" },
+        { h: "Zapytania fan-out", p: "Krótsze wyszukiwania ze słowami, których użytkownik nie wpisał.", pills: ["<em>best</em> seo consultant warsaw <em>2026</em>", "seo agency warsaw <em>reviews</em>"], b: "2,1", t: "zapytania fan-out na pytanie, kwiecień 2026", c: "--s1" },
+        { h: "Zebranie wyników", p: "Własny indeks OpenAI, budowany przez OAI-SearchBot, i zewnętrzni dostawcy, np. Bing.", b: "OAI-SearchBot", t: "zablokowany → brak w odpowiedziach z wyszukiwania", c: "--s3", small: 1 },
+        { h: "Otwarcie wybranych stron", p: "ChatGPT-User pobiera strony, które ChatGPT chce przeczytać. Tylko HTML, bez JavaScriptu.", b: "ChatGPT-User", t: "inicjowany przez użytkownika; robots.txt może nie obowiązywać", c: "--s3", small: 1 },
+        { h: "Odpowiedź z kilkoma źródłami", p: "Odpowiedź cytuje fragmenty i linkuje do kilku domen.", b: "15", t: "unikalnych domen na odpowiedź od marca 2026, wcześniej 19", c: "--s2" },
+      ],
+      note: "Źródła: OpenAI, opis robotów i FAQ dla wydawców; Peec AI, 5 mln zapytań fan-out, 1–21 kwietnia 2026; RESONEO / Meteoria, 27 000 odpowiedzi, GPT-5.3 Instant, marzec 2026." },
+    words: { k: "Peec AI · 5 mln zapytań fan-out ChatGPT · 1–21 kwietnia 2026", h: "Słowa, które ChatGPT dodaje do wyszukiwań, choć użytkownik ich nie wpisał",
+      s: "Odsetek pytań do ChatGPT, w których słowo pojawiło się w zapytaniu fan-out, a nie było go w samym pytaniu.",
+      rows: [["best", 15.33], ["what", 8.72], ["review(s)", 6.84], ["2026", 5.44], ["top", 5.24], ["comparison", 4.48], ["vs", 4.27], ["company", 4.02], ["service(s)", 3.99]],
+      note: "Źródło: T. Rudzki, Peec AI, «Patterns we see in ChatGPT query fanouts», 5 maja 2026; pełne wartości według PPC Land. Przy pytaniach o radę («czy warto używać X?») «best» pojawia się w 24,3% zapytań fan-out." },
+    eng: { k: "Peec AI · ponad 10 mln pytań, 20 mln zapytań fan-out · luty 2026", h: "ChatGPT szuka po angielsku, nawet gdy pytanie nie jest po angielsku",
+      s: "Tylko pytania, w których lokalizacja użytkownika zgadzała się z językiem pytania, np. polskie pytania zadane z Polski.",
+      cards: [["43%", "kroków wyszukiwania fan-out dla pytań w innych językach odbyło się po angielsku"], ["78%", "rozmów w innych językach niż angielski obejmowało wyszukiwanie po angielsku"]],
+      rh: "Odsetek przełączeń według języka",
+      marks: [["hiszpański 66%", 66], ["turecki 94%", 94]], floor: "żaden język poniżej 60%",
+      note: "Źródło: T. Rudzki, Peec AI, «ChatGPT searches in English, even when you don't», luty 2026. Przykład z badania: przy polskich pytaniach o serwisy aukcyjne ChatGPT zwracał eBay, a nie Allegro." },
+  },
+  ru: {
+    flow: { k: "Как работает поиск ChatGPT · документация OpenAI, Peec AI, RESONEO · 2026", h: "От вопроса до процитированных источников: пять шагов поиска в ChatGPT",
+      s: "ChatGPT ищет короткие запросы, которые пишет сам, а не вопрос в том виде, как его ввели, и открывает лишь несколько найденных страниц.",
+      steps: [
+        { h: "Решить, искать ли", p: "На общие вопросы и определения часто отвечает по обучающим данным модели, без источников.", b: "2–3", t: "раунда поиска у модели по умолчанию; 5–10+ у «Thinking»", c: "--s4" },
+        { h: "Fan-out запросы", p: "Более короткие поисковые запросы со словами, которых пользователь не писал.", pills: ["<em>best</em> seo consultant warsaw <em>2026</em>", "seo agency warsaw <em>reviews</em>"], b: "2,1", t: "fan-out запроса на вопрос, апрель 2026", c: "--s1" },
+        { h: "Собрать результаты", p: "Собственный индекс OpenAI, который строит OAI-SearchBot, и сторонние провайдеры, например Bing.", b: "OAI-SearchBot", t: "заблокирован → нет в ответах с поиском", c: "--s3", small: 1 },
+        { h: "Открыть выбранные страницы", p: "ChatGPT-User загружает страницы, которые ChatGPT решил прочитать. Только HTML, без JavaScript.", b: "ChatGPT-User", t: "запускается пользователем; robots.txt может не применяться", c: "--s3", small: 1 },
+        { h: "Ответить и сослаться на несколько", p: "Ответ цитирует фрагменты и ссылается на несколько доменов.", b: "15", t: "уникальных доменов на ответ с марта 2026, раньше 19", c: "--s2" },
+      ],
+      note: "Источники: OpenAI, описание роботов и FAQ для издателей; Peec AI, 5 млн fan-out запросов, 1–21 апреля 2026; RESONEO / Meteoria, 27 000 ответов, GPT-5.3 Instant, март 2026." },
+    words: { k: "Peec AI · 5 млн fan-out запросов ChatGPT · 1–21 апреля 2026", h: "Слова, которые ChatGPT добавляет в поиск, хотя пользователь их не писал",
+      s: "Доля вопросов к ChatGPT, в которых слово появилось в fan-out запросе, но его не было в самом вопросе.",
+      rows: [["best", 15.33], ["what", 8.72], ["review(s)", 6.84], ["2026", 5.44], ["top", 5.24], ["comparison", 4.48], ["vs", 4.27], ["company", 4.02], ["service(s)", 3.99]],
+      note: "Источник: T. Rudzki, Peec AI, «Patterns we see in ChatGPT query fanouts», 5 мая 2026; полные значения по данным PPC Land. В вопросах-просьбах о совете («стоит ли использовать X?») «best» встречается в 24,3% fan-out запросов." },
+    eng: { k: "Peec AI · более 10 млн вопросов, 20 млн fan-out запросов · февраль 2026", h: "ChatGPT ищет на английском, даже когда вопрос задан не на английском",
+      s: "Только вопросы, в которых местоположение пользователя совпадало с языком вопроса, например польские вопросы из Польши.",
+      cards: [["43%", "шагов fan-out поиска для вопросов не на английском выполнялись на английском"], ["78%", "разговоров не на английском включали поиск на английском"]],
+      rh: "Доля переключений по языкам",
+      marks: [["испанский 66%", 66], ["турецкий 94%", 94]], floor: "ни один язык ниже 60%",
+      note: "Источник: T. Rudzki, Peec AI, «ChatGPT searches in English, even when you don't», февраль 2026. Пример из исследования: на польские вопросы об аукционных площадках ChatGPT выдавал eBay, а не Allegro." },
+  },
+};
+
+function section(lang, id, t) {
+  const s = document.createElement("div");
+  s.className = "fig"; s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2><p class="sub">${t.s}</p>`;
+  document.getElementById("root").appendChild(s);
+  return s;
+}
+function flow(lang, t) {
+  const s = section(lang, "flow", t);
+  s.insertAdjacentHTML("beforeend", `<div class="steps">${t.steps.map((x, i) => `
+    <div class="step" style="border-top:3px solid var(${x.c})"><p class="n">0${i + 1}</p><h3>${x.h}</h3>
+      ${x.pills ? `<div class="pills">${x.pills.map((p) => `<i>${p}</i>`).join("")}</div>` : ""}
+      <p>${x.p}</p>
+      <div class="stat"><b style="color:var(${x.c});${x.small ? "font-size:16px;font-family:var(--mono)" : ""}">${x.b}</b><span>${x.t}</span></div></div>`).join("")}</div>
+    <p class="note">${t.note}</p>`);
+}
+function words(lang, t) {
+  const s = section(lang, "words", t);
+  const max = 16;
+  const fmt = (v) => (lang === "en" ? v.toFixed(2) : v.toFixed(2).replace(".", ",")) + "%";
+  s.insertAdjacentHTML("beforeend", `<div class="bars">${t.rows.map(([w, v], i) => `
+    <div class="w">${w}</div><div class="track"><div class="fill${i === 0 ? " hot" : ""}" style="width:${(v / max) * 100}%"></div></div><div class="v">${fmt(v)}</div>`).join("")}</div>
+    <p class="note">${t.note}</p>`);
+}
+function eng(lang, t) {
+  const s = section(lang, "eng", t);
+  const x = (v) => ((v - 50) / 50) * 100; // axis 50–100%
+  s.insertAdjacentHTML("beforeend", `<div class="cards">${t.cards.map(([b, d]) => `<div class="card"><b style="color:var(--s1)">${b}</b><span>${d}</span></div>`).join("")}</div>
+    <div class="range"><h3>${t.rh}</h3><div class="scale">
+      <div class="axis"></div>
+      <div class="band" style="left:${x(66)}%;width:${x(94) - x(66)}%"></div>
+      ${t.marks.map(([l, v]) => `<div class="dot" style="left:${x(v)}%"></div><div class="mk" style="left:${x(v)}%">${l}</div>`).join("")}
+      <div class="floor" style="left:${x(60)}%"></div><div class="floorl" style="left:${x(60)}%">${t.floor}</div>
+      ${[50, 60, 70, 80, 90, 100].map((v) => `<div class="tick" style="left:${Math.min(Math.max(x(v), 1.5), 98.5)}%">${v}%</div>`).join("")}
+    </div></div>
+    <p class="note">${t.note}</p>`);
+}
+for (const lang of ["en", "pl", "ru"]) { flow(lang, T[lang].flow); words(lang, T[lang].words); eng(lang, T[lang].eng); }
+</script>
+</body>
+</html>

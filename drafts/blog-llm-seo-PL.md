@@ -149,7 +149,7 @@ Roboty AI stale pytają o stare adresy. Przekierujcie to, co się przeniosło, z
 
 ## Pozycjonowanie w każdym modelu: ChatGPT, Claude, Gemini, Perplexity i Copilot
 
-**ChatGPT.** Wpuśćcie OAI-SearchBot. Bądźcie w indeksie Binga, ale na tym nie poprzestawajcie: ChatGPT coraz częściej odpowiada z własnego indeksu. Jego odpowiedzi personalizuje zapisana pamięć użytkownika i wcześniejsze rozmowy, więc testujcie go w czacie tymczasowym. W moim badaniu 141 odpowiedzi ChatGPT podawał tylko 1,6 źródła na odpowiedź i w 23 z 47 odpowiedzi na pytania o usługi odwoływał się do Map Google, więc kompletny Profil Firmy w Google też ma tu znaczenie. Pracę tylko pod ChatGPT opisuję na stronie [pozycjonowanie w ChatGPT](/pl/oferty/pozycjonowanie-w-chatgpt).
+**ChatGPT.** Wpuśćcie OAI-SearchBot. Bądźcie w indeksie Binga, ale na tym nie poprzestawajcie: ChatGPT coraz częściej odpowiada z własnego indeksu. Jego odpowiedzi personalizuje zapisana pamięć użytkownika i wcześniejsze rozmowy, więc testujcie go bez logowania albo na osobnym koncie bez pamięci: w październiku 2026 roku czat tymczasowy ChatGPT informuje, że może korzystać z pamięci i instrukcji niestandardowych. W moim badaniu 141 odpowiedzi ChatGPT podawał tylko 1,6 źródła na odpowiedź i w 23 z 47 odpowiedzi na pytania o usługi odwoływał się do Map Google, więc kompletny Profil Firmy w Google też ma tu znaczenie. Pracę tylko pod ChatGPT opisuję na stronie [pozycjonowanie w ChatGPT](/pl/oferty/pozycjonowanie-w-chatgpt).
 
 **Claude.** Jego wyszukiwanie działa na Brave Search, więc wpiszcie swoje kluczowe zapytania w Brave i sprawdźcie, czy Wasze strony tam są. Wpuśćcie Claude-SearchBot. Claude nie zawsze szuka: na pytania ogólne odpowiada z danych treningowych, i tu procentują długotrwałe, spójne wzmianki o firmie.
 
@@ -193,7 +193,7 @@ Trackery robią próbki odpowiedzi; nie widzą tego, co widzi każdy użytkownik
 ## Jak mierzyć widoczność w LLM
 
 1. **Spiszcie 20–50 pytań**, które zadają klienci, ich słowami i w ich językach, z miastem.
-2. **Raz w miesiącu zadajcie każde w ChatGPT, Claude, Gemini i Perplexity**, w czatach tymczasowych lub bez logowania, żeby pamięć nie zniekształcała odpowiedzi.
+2. **Raz w miesiącu zadajcie każde w ChatGPT, Claude, Gemini i Perplexity**, bez logowania albo na osobnym koncie bez pamięci, żeby nie zniekształcała odpowiedzi; czat tymczasowy ChatGPT może nadal korzystać z pamięci.
 3. **Dla każdej odpowiedzi zapiszcie:** czy firma jest wymieniona, czy strona jest cytowana z linkiem, czy opis jest poprawny i jakie źródła są cytowane.
 4. **Raportujcie osobno dla każdego modelu**, a nie jedną liczbą. Czterej asystenci czytają różne indeksy i zmieniają się w różnym tempie.
 5. **Dodajcie dane z pierwszej ręki:** raport AI Performance w Bing, ruch z AI w GA4 według źródła (chatgpt.com, perplexity.ai, claude.ai, gemini.google.com, copilot.microsoft.com) i aktywność robotów AI w logach serwera.

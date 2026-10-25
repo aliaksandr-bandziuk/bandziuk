@@ -441,6 +441,29 @@ const TOPICS = {
       ru: ["сайт для it компании"],
     },
   },
+  // Stage 3 pilot — Polish city pages (25.10.2026): 15 largest cities by demand,
+  // two services each (pozycjonowanie stron X, tworzenie stron internetowych X).
+  // Warsaw already has both pages. E-commerce («sklep internetowy X») is not taken.
+  "pl-cities": {
+    relevant: /pozycjon|stron|seo|tworzen|projektow|agencj|audyt|witryn|www/i,
+    otherPage: {
+      ecommerce: /sklep|e-?commerce|woocommerce|shopify/i,
+    },
+    groups: {
+      "SEO": /pozycjon|seo|audyt|agencj/i,
+      "strony": /stron|witryn|www|projektow|tworzen/i,
+    },
+    seeds: {
+      en: [],
+      pl: ["pozycjonowanie stron poznań", "tworzenie stron internetowych poznań", "pozycjonowanie stron toruń", "tworzenie stron internetowych toruń", "pozycjonowanie stron wrocław", "tworzenie stron internetowych wrocław", "pozycjonowanie stron katowice", "tworzenie stron internetowych katowice", "pozycjonowanie stron kraków", "tworzenie stron internetowych kraków", "pozycjonowanie stron rzeszów", "tworzenie stron internetowych rzeszów", "pozycjonowanie stron szczecin", "tworzenie stron internetowych szczecin", "pozycjonowanie stron łódź", "tworzenie stron internetowych łódź", "pozycjonowanie stron bydgoszcz", "tworzenie stron internetowych bydgoszcz", "pozycjonowanie stron lublin", "tworzenie stron internetowych lublin", "pozycjonowanie stron opole", "tworzenie stron internetowych opole", "pozycjonowanie stron częstochowa", "tworzenie stron internetowych częstochowa", "pozycjonowanie stron gdańsk", "tworzenie stron internetowych gdańsk", "pozycjonowanie stron radom", "tworzenie stron internetowych radom", "pozycjonowanie stron białystok", "tworzenie stron internetowych białystok"],
+      ru: [],
+    },
+    serp: {
+      en: [],
+      pl: ["pozycjonowanie stron poznań", "tworzenie stron internetowych kraków", "pozycjonowanie stron toruń"],
+      ru: [],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

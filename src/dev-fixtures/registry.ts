@@ -96,6 +96,36 @@ import { startupWebsiteDesignEn } from "./startup-website-design.en";
 import { lawFirmWebsiteDesignEn } from "./law-firm-website-design.en";
 import { localSeoForLawyersEn } from "./local-seo-for-lawyers.en";
 import { personalInjurySeoEn } from "./personal-injury-seo.en";
+import { pozycjonowanieStronPoznanPl } from "./pozycjonowanie-stron-poznan.pl";
+import { tworzenieStronInternetowychPoznanPl } from "./tworzenie-stron-internetowych-poznan.pl";
+import { pozycjonowanieStronTorunPl } from "./pozycjonowanie-stron-torun.pl";
+import { tworzenieStronInternetowychTorunPl } from "./tworzenie-stron-internetowych-torun.pl";
+import { pozycjonowanieStronWroclawPl } from "./pozycjonowanie-stron-wroclaw.pl";
+import { tworzenieStronInternetowychWroclawPl } from "./tworzenie-stron-internetowych-wroclaw.pl";
+import { pozycjonowanieStronKatowicePl } from "./pozycjonowanie-stron-katowice.pl";
+import { tworzenieStronInternetowychKatowicePl } from "./tworzenie-stron-internetowych-katowice.pl";
+import { pozycjonowanieStronKrakowPl } from "./pozycjonowanie-stron-krakow.pl";
+import { tworzenieStronInternetowychKrakowPl } from "./tworzenie-stron-internetowych-krakow.pl";
+import { pozycjonowanieStronRzeszowPl } from "./pozycjonowanie-stron-rzeszow.pl";
+import { tworzenieStronInternetowychRzeszowPl } from "./tworzenie-stron-internetowych-rzeszow.pl";
+import { pozycjonowanieStronSzczecinPl } from "./pozycjonowanie-stron-szczecin.pl";
+import { tworzenieStronInternetowychSzczecinPl } from "./tworzenie-stron-internetowych-szczecin.pl";
+import { pozycjonowanieStronLodzPl } from "./pozycjonowanie-stron-lodz.pl";
+import { tworzenieStronInternetowychLodzPl } from "./tworzenie-stron-internetowych-lodz.pl";
+import { pozycjonowanieStronBydgoszczPl } from "./pozycjonowanie-stron-bydgoszcz.pl";
+import { tworzenieStronInternetowychBydgoszczPl } from "./tworzenie-stron-internetowych-bydgoszcz.pl";
+import { pozycjonowanieStronLublinPl } from "./pozycjonowanie-stron-lublin.pl";
+import { tworzenieStronInternetowychLublinPl } from "./tworzenie-stron-internetowych-lublin.pl";
+import { pozycjonowanieStronOpolePl } from "./pozycjonowanie-stron-opole.pl";
+import { tworzenieStronInternetowychOpolePl } from "./tworzenie-stron-internetowych-opole.pl";
+import { pozycjonowanieStronCzestochowaPl } from "./pozycjonowanie-stron-czestochowa.pl";
+import { tworzenieStronInternetowychCzestochowaPl } from "./tworzenie-stron-internetowych-czestochowa.pl";
+import { pozycjonowanieStronGdanskPl } from "./pozycjonowanie-stron-gdansk.pl";
+import { tworzenieStronInternetowychGdanskPl } from "./tworzenie-stron-internetowych-gdansk.pl";
+import { pozycjonowanieStronRadomPl } from "./pozycjonowanie-stron-radom.pl";
+import { tworzenieStronInternetowychRadomPl } from "./tworzenie-stron-internetowych-radom.pl";
+import { pozycjonowanieStronBialystokPl } from "./pozycjonowanie-stron-bialystok.pl";
+import { tworzenieStronInternetowychBialystokPl } from "./tworzenie-stron-internetowych-bialystok.pl";
 import { architectureWebsiteDesignEn } from "./architecture-website-design.en";
 import { itCompanyWebsiteDesignEn } from "./it-company-website-design.en";
 import { photographerSeoPl } from "./photographer-seo.pl";
@@ -114,7 +144,7 @@ import { advocateSeoRu } from "./advocate-seo.ru";
 import { hotelWebsiteDesignEn } from "./hotel-website-design.en";
 import { vacationRentalWebsiteDesignEn } from "./vacation-rental-website-design.en";
 
-const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu, aiSeoConsultantEn, aiSeoConsultantPl, aiSeoConsultantRu, chatgptSeoServicesEn, chatgptSeoServicesPl, chatgptSeoServicesRu, llmSeoServicesEn, llmSeoServicesPl, llmSeoServicesRu, electricianWebsiteDesignEn, hvacSeoEn, hvacWebsiteDesignEn, hvacWebsitesEn, landscapingSeoEn, landscapingWebsiteDesignEn, lawnCareWebsiteEn, localSeoForPlumbersEn, plumbingWebsiteDesignEn, roofingSeoEn, roofingWebsiteDesignEn, roofingWebsitesEn, seoForElectriciansEn, seoForPaintingContractorsEn, seoForPlumbersEn, websiteForElectriciansEn, websiteForPlumbersEn, dentalWebsiteDesignEn, dentistSeoEn, dentistSeoPl, dentistSeoRu, healthcareSeoEn, localSeoForDentistsEn, medicalSeoEn, medicalSeoRu, medicalWebsiteDesignEn, medicalWebsiteDesignPl, medicalWebsiteDesignRu, seoForDoctorsEn, veterinarySeoEn, veterinarySeoRu, veterinaryWebsiteDesignEn, hotelSeoEn, hotelSeoPl, hotelSeoRu, hotelWebsiteDesignEn, vacationRentalWebsiteDesignEn, b2bSeoEn, b2bSeoRu, b2bWebsiteDesignEn, localSeoForSmallBusinessEn, seoForStartupsEn, seoServicesForSmallBusinessEn, seoServicesForSmallBusinessPl, seoServicesForSmallBusinessRu, smallBusinessWebsiteDesignEn, smallBusinessWebsiteDesignPl, smallBusinessWebsiteDesignRu, startupWebsiteDesignEn, lawFirmWebsiteDesignEn, localSeoForLawyersEn, personalInjurySeoEn, advocateSeoRu, charityWebsiteDesignEn, manufacturingSeoEn, manufacturingSeoPl, manufacturingSeoRu, manufacturingWebsiteDesignEn, nonprofitSeoEn, nonprofitWebsiteDesignEn, nonprofitWebsiteDesignPl, architectureWebsiteDesignEn, itCompanyWebsiteDesignEn, photographerSeoPl, seoForArchitectsEn, seoForArchitectsPl, seoForItCompaniesEn];
+const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu, aiSeoConsultantEn, aiSeoConsultantPl, aiSeoConsultantRu, chatgptSeoServicesEn, chatgptSeoServicesPl, chatgptSeoServicesRu, llmSeoServicesEn, llmSeoServicesPl, llmSeoServicesRu, electricianWebsiteDesignEn, hvacSeoEn, hvacWebsiteDesignEn, hvacWebsitesEn, landscapingSeoEn, landscapingWebsiteDesignEn, lawnCareWebsiteEn, localSeoForPlumbersEn, plumbingWebsiteDesignEn, roofingSeoEn, roofingWebsiteDesignEn, roofingWebsitesEn, seoForElectriciansEn, seoForPaintingContractorsEn, seoForPlumbersEn, websiteForElectriciansEn, websiteForPlumbersEn, dentalWebsiteDesignEn, dentistSeoEn, dentistSeoPl, dentistSeoRu, healthcareSeoEn, localSeoForDentistsEn, medicalSeoEn, medicalSeoRu, medicalWebsiteDesignEn, medicalWebsiteDesignPl, medicalWebsiteDesignRu, seoForDoctorsEn, veterinarySeoEn, veterinarySeoRu, veterinaryWebsiteDesignEn, hotelSeoEn, hotelSeoPl, hotelSeoRu, hotelWebsiteDesignEn, vacationRentalWebsiteDesignEn, b2bSeoEn, b2bSeoRu, b2bWebsiteDesignEn, localSeoForSmallBusinessEn, seoForStartupsEn, seoServicesForSmallBusinessEn, seoServicesForSmallBusinessPl, seoServicesForSmallBusinessRu, smallBusinessWebsiteDesignEn, smallBusinessWebsiteDesignPl, smallBusinessWebsiteDesignRu, startupWebsiteDesignEn, lawFirmWebsiteDesignEn, localSeoForLawyersEn, personalInjurySeoEn, advocateSeoRu, charityWebsiteDesignEn, manufacturingSeoEn, manufacturingSeoPl, manufacturingSeoRu, manufacturingWebsiteDesignEn, nonprofitSeoEn, nonprofitWebsiteDesignEn, nonprofitWebsiteDesignPl, architectureWebsiteDesignEn, itCompanyWebsiteDesignEn, photographerSeoPl, seoForArchitectsEn, seoForArchitectsPl, seoForItCompaniesEn, pozycjonowanieStronPoznanPl, tworzenieStronInternetowychPoznanPl, pozycjonowanieStronTorunPl, tworzenieStronInternetowychTorunPl, pozycjonowanieStronWroclawPl, tworzenieStronInternetowychWroclawPl, pozycjonowanieStronKatowicePl, tworzenieStronInternetowychKatowicePl, pozycjonowanieStronKrakowPl, tworzenieStronInternetowychKrakowPl, pozycjonowanieStronRzeszowPl, tworzenieStronInternetowychRzeszowPl, pozycjonowanieStronSzczecinPl, tworzenieStronInternetowychSzczecinPl, pozycjonowanieStronLodzPl, tworzenieStronInternetowychLodzPl, pozycjonowanieStronBydgoszczPl, tworzenieStronInternetowychBydgoszczPl, pozycjonowanieStronLublinPl, tworzenieStronInternetowychLublinPl, pozycjonowanieStronOpolePl, tworzenieStronInternetowychOpolePl, pozycjonowanieStronCzestochowaPl, tworzenieStronInternetowychCzestochowaPl, pozycjonowanieStronGdanskPl, tworzenieStronInternetowychGdanskPl, pozycjonowanieStronRadomPl, tworzenieStronInternetowychRadomPl, pozycjonowanieStronBialystokPl, tworzenieStronInternetowychBialystokPl];
 
 // Rewrites of pages that already exist in Sanity (scripts/replace-landing.cjs).
 // The Sanity page wins on its own address, so on localhost these are served at

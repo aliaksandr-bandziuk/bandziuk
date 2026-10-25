@@ -360,6 +360,19 @@ PAIR_SETS["professionals"] = [
   ["ru: сайт для it компании = b2b?", "ru", "сайт для it компании", "продвижение b2b"],
 ];
 
+PAIR_SETS["pl-cities"] = [
+  ["poznań: SEO = strony?", "pl", "pozycjonowanie stron poznań", "tworzenie stron internetowych poznań"],
+  ["poznań: tworzenie = projektowanie?", "pl", "tworzenie stron internetowych poznań", "projektowanie stron poznań"],
+  ["kraków: tworzenie = projektowanie?", "pl", "tworzenie stron internetowych kraków", "projektowanie stron kraków"],
+  ["kraków: tworzenie stron = strony internetowe?", "pl", "tworzenie stron internetowych kraków", "strony internetowe kraków"],
+  ["wrocław: pozycjonowanie = agencja seo?", "pl", "pozycjonowanie stron wrocław", "agencja seo wrocław"],
+  ["katowice: pozycjonowanie = audyt seo?", "pl", "pozycjonowanie stron katowice", "audyt seo katowice"],
+  ["trójmiasto: gdańsk = gdynia?", "pl", "pozycjonowanie stron gdańsk", "pozycjonowanie stron gdynia"],
+  ["śląsk: katowice = gliwice?", "pl", "pozycjonowanie stron katowice", "pozycjonowanie stron gliwice"],
+  ["kujawy: toruń = bydgoszcz?", "pl", "pozycjonowanie stron toruń", "pozycjonowanie stron bydgoszcz"],
+  ["łódź: SEO = strony?", "pl", "pozycjonowanie stron łódź", "tworzenie stron internetowych łódź"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

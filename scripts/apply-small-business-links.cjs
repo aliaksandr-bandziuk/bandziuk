@@ -10,8 +10,8 @@
 //
 // 1. Services hubs EN / PL / RU: the new pages go into the SEO section and the
 //    website section. A section is found by a page it already lists (by slug).
-// 2. One sentence at the end of the main text (guide block, else the first text
-//    block) of existing pages: startup website, landing pages, local SEO, the
+// 2. One sentence after the last paragraph of the main text (guide block, else
+//    the first text block; closing headings are skipped) of existing pages: startup website, landing pages, local SEO, the
 //    general SEO and website development pages, the manufacturer page, and their
 //    PL / RU counterparts.
 //
@@ -142,7 +142,12 @@ async function main() {
     const b = blocks.find((x) => x.layout === "guide") || blocks[0];
     if (!b || !(b.content || []).length) { console.log(`warn  ${t.lang} «${t.slug}»: no text block — sentence skipped`); continue; }
     if (blocks.some((x) => (x.content || []).some((y) => plain(y) === plain(t.para)))) { console.log(`skip  ${t.lang} «${t.slug}»: sentence already there`); continue; }
-    const last = b.content[b.content.length - 1];
+    // a text block may end with a heading that introduces the next block — never put the sentence under it
+    let end = b.content.length;
+    while (end > 0 && /^h[1-6]$/.test(b.content[end - 1].style || "")) end--;
+    const last = b.content[end - 1];
+    if (!last) { console.log(`warn  ${t.lang} «${t.slug}»: no paragraph in the main text — sentence skipped`); continue; }
+    if (last !== b.content[b.content.length - 1]) console.log(`note  ${t.lang} «${t.slug}»: text block ends with «${plain(b.content[b.content.length - 1]).slice(0, 40)}…» — inserting before it`);
     console.log(`\n${t.lang} «${t.slug}» (end of the main text, after «${plain(last).slice(0, 50)}…»):\n  ${plain(t.para)}`);
     patches.push({ id: t.doc._id, rev: t.doc._rev, op: (q) => q.insert("after", `contentBlocks[_key=="${b._key}"].content[_key=="${last._key}"]`, [t.para]) });
   }

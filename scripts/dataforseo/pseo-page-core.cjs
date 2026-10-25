@@ -413,6 +413,34 @@ const TOPICS = {
       ru: ["продвижение сайта производителя"],
     },
   },
+  // Stage 2, group 7 — professionals (25.10.2026): architects, photographers, IT
+  // companies, plus four suspicious volumes to check before any page: consultants
+  // seo 22,280, website for wedding planners 22,200, for translators 14,800, for
+  // tutors 6,600. Existing: EN /architecture-studio-website, /photographer-website;
+  // PL /pl/strona-dla-biura-architektonicznego, /pl/strona-dla-fotografa; RU /ru/sait-dlya-fotografa.
+  "professionals": {
+    relevant: /architect|photograph|\bit\b|software|tech compan|wedding planner|event planner|translat|interpret|tutor|consult|archite|fotograf|tłumacz|korepet|konsult|firm[ay] it|архитект|фотограф|it[- ]компан|переводчик|репетитор|консалт|консультант/i,
+    otherPage: {},
+    groups: {
+      "architects": /architect|archite|архитект/i,
+      "photographers": /photograph|fotograf|фотограф/i,
+      "IT companies": /\bit\b|software|tech compan|firm[ay] it|it[- ]компан/i,
+      "wedding planners": /wedding|event planner|ślub|свадеб/i,
+      "translators": /translat|interpret|tłumacz|переводчик/i,
+      "tutors": /tutor|korepet|репетитор/i,
+      "consultants": /consult|konsult|консалт|консультант/i,
+    },
+    seeds: {
+      en: ["seo for architects", "architecture website design", "seo for photographers", "photography website design", "website for photographers", "seo for it companies", "it company website design", "website for wedding planners", "website for translators", "website for tutors", "seo for consultants", "consultant website design"],
+      pl: ["pozycjonowanie biura architektonicznego", "strona dla architekta", "pozycjonowanie fotografa", "strona dla fotografa", "strona dla firmy it", "strona dla tłumacza", "strona dla korepetytora"],
+      ru: ["продвижение сайта архитектурного бюро", "сайт для архитектора", "продвижение сайта фотографа", "сайт фотографа", "сайт для it компании", "сайт для переводчика", "сайт для репетитора"],
+    },
+    serp: {
+      en: ["seo for architects", "website for wedding planners"],
+      pl: ["strona dla architekta"],
+      ru: ["сайт для it компании"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

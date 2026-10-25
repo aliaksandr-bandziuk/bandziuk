@@ -341,6 +341,25 @@ PAIR_SETS["nonprofits-manufacturers"] = [
   ["ru: производитель — продвижение = b2b?", "ru", "продвижение сайта производителя", "продвижение b2b"],
 ];
 
+PAIR_SETS["professionals"] = [
+  ["консультанты: «seo for consultants» = «seo consultant»?", "en", "seo for consultants", "seo consultant"],
+  ["консультанты: сайт консультанта — чей спрос?", "en", "consultant website design", "website for consultants"],
+  ["свадьбы: «website for wedding planners» — чей спрос (сайты пар)?", "en", "website for wedding planners", "wedding website"],
+  ["свадьбы: сайт организатора = дизайн?", "en", "website for wedding planners", "wedding planner website design"],
+  ["переводчики: «website for translators» — чей спрос (биржи)?", "en", "website for translators", "translator website design"],
+  ["репетиторы: «website for tutors» — чей спрос (платформы)?", "en", "website for tutors", "tutoring website design"],
+  ["архитекторы: SEO = дизайн сайта?", "en", "seo for architects", "architecture website design"],
+  ["архитекторы: дизайн = разработка?", "en", "architecture website design", "website for architects"],
+  ["фотографы: SEO = сайт?", "en", "seo for photographers", "website for photographers"],
+  ["фотографы: «website for photographers» — чей спрос (конструкторы)?", "en", "website for photographers", "best website builder for photographers"],
+  ["it: SEO = b2b seo?", "en", "seo for it companies", "b2b seo"],
+  ["it: дизайн = b2b дизайн?", "en", "it company website design", "b2b website design"],
+  ["pl: architekt — SEO = strona?", "pl", "pozycjonowanie biura architektonicznego", "strona dla architekta"],
+  ["pl: fotograf — SEO = strona?", "pl", "pozycjonowanie fotografa", "strona dla fotografa"],
+  ["ru: фотограф — продвижение = сайт?", "ru", "продвижение сайта фотографа", "сайт фотографа"],
+  ["ru: сайт для it компании = b2b?", "ru", "сайт для it компании", "продвижение b2b"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

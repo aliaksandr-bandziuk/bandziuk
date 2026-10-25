@@ -122,12 +122,14 @@ async function main() {
   // 2. sentences
   for (const t of texts) {
     const blocks = (t.doc.contentBlocks || []).filter((x) => x._type === "textContent");
-    const b = blocks.find((x) => x.layout === "guide") || blocks[0];
+    // older pages have no guide block and start with heading-only text blocks — take the one with the most paragraphs
+    const paras = (x) => (x.content || []).filter((y) => !/^h[1-6]$/.test(y.style || "")).length;
+    const b = blocks.find((x) => x.layout === "guide") || [...blocks].sort((x, y) => paras(y) - paras(x))[0];
     if (!b || !(b.content || []).length) { console.log(`warn  ${t.lang} «${t.slug}»: no text block — sentence skipped`); continue; }
     if (blocks.some((x) => (x.content || []).some((y) => plain(y) === plain(t.para)))) { console.log(`skip  ${t.lang} «${t.slug}»: sentence already there`); continue; }
     // a text block may end with a heading that introduces the next block — never put the sentence under it
     let end = b.content.length;
-    while (end > 0 && /^h[1-6]$/.test(b.content[end - 1].style || "")) end--;
+    while (end > 0 && (/^h[1-6]$/.test(b.content[end - 1].style || "") || !plain(b.content[end - 1]).trim())) end--;
     const last = b.content[end - 1];
     if (!last) { console.log(`warn  ${t.lang} «${t.slug}»: no paragraph in the main text — sentence skipped`); continue; }
     if (last !== b.content[b.content.length - 1]) console.log(`note  ${t.lang} «${t.slug}»: text block ends with «${plain(b.content[b.content.length - 1]).slice(0, 40)}…» — inserting before it`);

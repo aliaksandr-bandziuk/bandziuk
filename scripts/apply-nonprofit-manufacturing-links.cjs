@@ -4,10 +4,10 @@
 //   /nonprofit-website-design (+ PL strona-internetowa-dla-fundacji), /charity-website-design,
 //   /nonprofit-seo, /manufacturing-seo (+ PL pozycjonowanie-strony-firmy-produkcyjnej,
 //   RU prodvizhenie-saita-proizvoditelya), /manufacturing-website-design,
-//   PL /pl/strona-internetowa-dla-firmy-produkcyjnej (id singlepage-manufacturing-company.pl).
+//   The PL producer website page already exists: /pl/strona-dla-firmy-produkcyjnej
+//   (singlepage-manufacturing-company.pl, linked to EN/RU) — the planned duplicate was dropped.
 //
-// 0. Language link: the PL producer website page joins the translation.metadata of
-//    the existing EN /manufacturing-company-website and RU /ru/sait-dlya-proizvodstvennoy-kompanii.
+// 0. Language link check (no-op when the PL page is already in the metadata).
 // 1. Services hubs EN / PL / RU: new pages go into the industry SEO and website sections
 //    (a section is found by a page it already lists, by slug).
 // 2. One sentence after the last paragraph of the main text of the existing manufacturer,
@@ -48,7 +48,6 @@ function para(...segments) {
 const NEW = [
   "singlepage-nonprofit-website-design", "singlepage-nonprofit-website-design.pl", "singlepage-charity-website-design", "singlepage-nonprofit-seo",
   "singlepage-manufacturing-seo", "singlepage-manufacturing-seo.pl", "singlepage-manufacturing-seo.ru", "singlepage-manufacturing-website-design",
-  "singlepage-manufacturing-company.pl",
 ];
 
 const LANG_LINK = { anchor: "singlepage-manufacturing-company", lang: "pl", ref: "singlepage-manufacturing-company.pl" };
@@ -58,7 +57,7 @@ const HUB = [
   { lang: "en", marker: ["seo-for-law-firms", "seo-for-construction-companies"], refs: ["singlepage-nonprofit-seo", "singlepage-manufacturing-seo"] },
   { lang: "en", marker: ["lawyer-website-development", "hotel-website"], refs: ["singlepage-nonprofit-website-design", "singlepage-charity-website-design", "singlepage-manufacturing-website-design"] },
   { lang: "pl", marker: ["seo-dla-kancelarii-prawnych", "pozycjonowanie-strony-firmy-budowlanej"], refs: ["singlepage-manufacturing-seo.pl"] },
-  { lang: "pl", marker: ["strona-internetowa-dla-adwokata", "strona-dla-startupu", "strona-dla-hotelu"], refs: ["singlepage-nonprofit-website-design.pl", "singlepage-manufacturing-company.pl"] },
+  { lang: "pl", marker: ["strona-internetowa-dla-adwokata", "strona-dla-startupu", "strona-dla-hotelu"], refs: ["singlepage-nonprofit-website-design.pl"] },
   { lang: "ru", marker: ["seo-dlya-yuridicheskogo-sayta", "seo-prodvizhenie-saita-stroitelnoi-kompanii"], refs: ["singlepage-manufacturing-seo.ru"] },
 ];
 
@@ -76,7 +75,7 @@ const TEXT = [
   { lang: "pl", slug: "pozycjonowanie-strony-producenta-bielizny",
     para: para("Producentów i podwykonawców z innych branż — obróbka, metal, tworzywa — opisuję na stronie ", ["pozycjonowanie strony firmy produkcyjnej", "/pl/pozycjonowanie-strony-firmy-produkcyjnej"], ".") },
   { lang: "pl", slug: "strona-internetowa-dla-producenta-bielizny",
-    para: para("Stronę dla producenta z innej branży opisuję na stronie ", ["strona internetowa dla firmy produkcyjnej", "/pl/strona-internetowa-dla-firmy-produkcyjnej"], ".") },
+    para: para("Stronę dla producenta z innej branży opisuję na stronie ", ["strona dla firmy produkcyjnej", "/pl/strona-dla-firmy-produkcyjnej"], ".") },
   { lang: "ru", slug: "sait-dlya-proizvodstvennoy-kompanii",
     para: para("Как такой сайт находят по возможностям, материалам и отраслям, описано на странице ", ["продвижение сайта производителя", "/ru/prodvizhenie-saita-proizvoditelya"], ".") },
   { lang: "ru", slug: "prodvizhenie-saita-proizvoditelya-nizhnego-belya",

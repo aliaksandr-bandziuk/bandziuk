@@ -10,7 +10,7 @@
 // Intent (ref/intent-check-nonprofits-manufacturers.md): «pozycjonowanie
 // firmy produkcyjnej» vs «strona internetowa dla firmy produkcyjnej» 0 shared
 // URLs, 1 shared domain → SEO and the build are separate pages; no paragraph
-// is shared with /pl/strona-internetowa-dla-firmy-produkcyjnej.
+// is shared with /pl/strona-dla-firmy-produkcyjnej.
 // Angle: frazy techniczne (proces + materiał + parametr + branża), podstrony
 // procesów, materiałów i branż, frazy niemieckojęzyczne (Lohnfertigung,
 // Zulieferer) and Scandinavian buyers, Europages / wlw and katalogi branżowe
@@ -19,7 +19,7 @@
 // zapytania ofertowe, not ruch.
 // NOT on this page: what the site contains and how it is built — park
 // maszynowy layout, karty techniczne, RFQ form build, language-version build
-// (/pl/strona-internetowa-dla-firmy-produkcyjnej); one industry in depth
+// (/pl/strona-dla-firmy-produkcyjnej); one industry in depth
 // (/pl/oferty/pozycjonowanie-strony-producenta-bielizny, linked once);
 // Google Ads, LinkedIn Ads, social media (not offered).
 // Owner’s rules: PL form «pozycjonowanie strony X»; every SEO page covers AI
@@ -179,7 +179,7 @@ export const manufacturingSeoPl = {
           "Pełne widełki są w ",
           link("cenniku", "/pl/cennik"),
           ". Jeśli strona wymaga przebudowy, zanim będzie miała co pozycjonować, zajrzyjcie na stronę ",
-          link("strona internetowa dla firmy produkcyjnej", "/pl/strona-internetowa-dla-firmy-produkcyjnej"),
+          link("strona internetowa dla firmy produkcyjnej", "/pl/strona-dla-firmy-produkcyjnej"),
           ".",
         ),
       ],

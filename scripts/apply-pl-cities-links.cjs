@@ -5,12 +5,11 @@
 //   Poznań, Toruń, Wrocław, Katowice, Kraków, Rzeszów, Szczecin, Łódź, Bydgoszcz,
 //   Lublin, Opole, Częstochowa, Gdańsk, Radom, Białystok.
 //
-// 1. PL services hub: the city pages go into the section that already lists the
-//    Warsaw page of the same kind. If no section lists it, the script only warns
-//    and prints the sections (optional entry).
+// 1. PL services hub: all 30 city pages go into «Według lokalizacji», the section
+//    that already lists the Warsaw website page.
 // 2. One paragraph with links to all 15 cities after the last paragraph of the main
 //    text of: Warsaw SEO, Warsaw website, the general SEO service and the general
-//    website service pages.
+//    website service pages (closing headings are skipped).
 //
 // Idempotent; aborts on drafts; one transaction, one patch per change.
 //
@@ -59,8 +58,9 @@ const cityList = (lead, slugOf) => para(lead, ...CITIES.flatMap(([c, name], i) =
 
 // marker: slugs of pages the target section already lists (first match wins)
 const HUB = [
-  { lang: "pl", optional: true, marker: ["pozycjonowanie-stron-warszawa"], refs: CITIES.map(([c]) => `singlepage-${SEO(c)}.pl`) },
-  { lang: "pl", optional: true, marker: ["tworzenie-stron-internetowych-warszawa"], refs: CITIES.map(([c]) => `singlepage-${WEB(c)}.pl`) },
+  // the Warsaw website page sits in «Według lokalizacji»; the Warsaw SEO page is in no section,
+  // so both kinds of city pages go there, city by city
+  { lang: "pl", marker: ["tworzenie-stron-internetowych-warszawa"], refs: CITIES.flatMap(([c]) => [`singlepage-${SEO(c)}.pl`, `singlepage-${WEB(c)}.pl`]) },
 ];
 
 const TEXT = [
@@ -123,7 +123,12 @@ async function main() {
     const b = blocks.find((x) => x.layout === "guide") || blocks[0];
     if (!b || !(b.content || []).length) { console.log(`warn  ${t.lang} «${t.slug}»: no text block — sentence skipped`); continue; }
     if (blocks.some((x) => (x.content || []).some((y) => plain(y) === plain(t.para)))) { console.log(`skip  ${t.lang} «${t.slug}»: sentence already there`); continue; }
-    const last = b.content[b.content.length - 1];
+    // a text block may end with a heading that introduces the next block — never put the sentence under it
+    let end = b.content.length;
+    while (end > 0 && /^h[1-6]$/.test(b.content[end - 1].style || "")) end--;
+    const last = b.content[end - 1];
+    if (!last) { console.log(`warn  ${t.lang} «${t.slug}»: no paragraph in the main text — sentence skipped`); continue; }
+    if (last !== b.content[b.content.length - 1]) console.log(`note  ${t.lang} «${t.slug}»: text block ends with «${plain(b.content[b.content.length - 1]).slice(0, 40)}…» — inserting before it`);
     console.log(`\n${t.lang} «${t.slug}» (end of the main text, after «${plain(last).slice(0, 50)}…»):\n  ${plain(t.para)}`);
     patches.push({ id: t.doc._id, rev: t.doc._rev, op: (q) => q.insert("after", `contentBlocks[_key=="${b._key}"].content[_key=="${last._key}"]`, [t.para]) });
   }

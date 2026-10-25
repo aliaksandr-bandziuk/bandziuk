@@ -81,10 +81,22 @@ import { veterinaryWebsiteDesignEn } from "./veterinary-website-design.en";
 import { hotelSeoEn } from "./hotel-seo.en";
 import { hotelSeoPl } from "./hotel-seo.pl";
 import { hotelSeoRu } from "./hotel-seo.ru";
+import { b2bSeoEn } from "./b2b-seo.en";
+import { b2bSeoRu } from "./b2b-seo.ru";
+import { b2bWebsiteDesignEn } from "./b2b-website-design.en";
+import { localSeoForSmallBusinessEn } from "./local-seo-for-small-business.en";
+import { seoForStartupsEn } from "./seo-for-startups.en";
+import { seoServicesForSmallBusinessEn } from "./seo-services-for-small-business.en";
+import { seoServicesForSmallBusinessPl } from "./seo-services-for-small-business.pl";
+import { seoServicesForSmallBusinessRu } from "./seo-services-for-small-business.ru";
+import { smallBusinessWebsiteDesignEn } from "./small-business-website-design.en";
+import { smallBusinessWebsiteDesignPl } from "./small-business-website-design.pl";
+import { smallBusinessWebsiteDesignRu } from "./small-business-website-design.ru";
+import { startupWebsiteDesignEn } from "./startup-website-design.en";
 import { hotelWebsiteDesignEn } from "./hotel-website-design.en";
 import { vacationRentalWebsiteDesignEn } from "./vacation-rental-website-design.en";
 
-const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu, aiSeoConsultantEn, aiSeoConsultantPl, aiSeoConsultantRu, chatgptSeoServicesEn, chatgptSeoServicesPl, chatgptSeoServicesRu, llmSeoServicesEn, llmSeoServicesPl, llmSeoServicesRu, electricianWebsiteDesignEn, hvacSeoEn, hvacWebsiteDesignEn, hvacWebsitesEn, landscapingSeoEn, landscapingWebsiteDesignEn, lawnCareWebsiteEn, localSeoForPlumbersEn, plumbingWebsiteDesignEn, roofingSeoEn, roofingWebsiteDesignEn, roofingWebsitesEn, seoForElectriciansEn, seoForPaintingContractorsEn, seoForPlumbersEn, websiteForElectriciansEn, websiteForPlumbersEn, dentalWebsiteDesignEn, dentistSeoEn, dentistSeoPl, dentistSeoRu, healthcareSeoEn, localSeoForDentistsEn, medicalSeoEn, medicalSeoRu, medicalWebsiteDesignEn, medicalWebsiteDesignPl, medicalWebsiteDesignRu, seoForDoctorsEn, veterinarySeoEn, veterinarySeoRu, veterinaryWebsiteDesignEn, hotelSeoEn, hotelSeoPl, hotelSeoRu, hotelWebsiteDesignEn, vacationRentalWebsiteDesignEn];
+const FIXTURES: any[] = [restaurantWebsiteDesignEn, restaurantWebsiteDesignRu, restaurantSeoEn, restaurantSeoPl, restaurantSeoRu, constructionWebsiteDesignEn, constructionWebsiteDesignRu, constructionSeoEn, constructionSeoRu, constructionSeoPl, constructionCompanyWebsiteEn, constructionCompanyWebsitePl, constructionCompanyWebsiteRu, contractorWebsiteDesignEn, websiteForContractorsEn, websiteForContractorsRu, seoForContractorsEn, localSeoForContractorsEn, aiSeoServicesEn, aiSeoServicesPl, aiSeoServicesRu, aiSeoConsultantEn, aiSeoConsultantPl, aiSeoConsultantRu, chatgptSeoServicesEn, chatgptSeoServicesPl, chatgptSeoServicesRu, llmSeoServicesEn, llmSeoServicesPl, llmSeoServicesRu, electricianWebsiteDesignEn, hvacSeoEn, hvacWebsiteDesignEn, hvacWebsitesEn, landscapingSeoEn, landscapingWebsiteDesignEn, lawnCareWebsiteEn, localSeoForPlumbersEn, plumbingWebsiteDesignEn, roofingSeoEn, roofingWebsiteDesignEn, roofingWebsitesEn, seoForElectriciansEn, seoForPaintingContractorsEn, seoForPlumbersEn, websiteForElectriciansEn, websiteForPlumbersEn, dentalWebsiteDesignEn, dentistSeoEn, dentistSeoPl, dentistSeoRu, healthcareSeoEn, localSeoForDentistsEn, medicalSeoEn, medicalSeoRu, medicalWebsiteDesignEn, medicalWebsiteDesignPl, medicalWebsiteDesignRu, seoForDoctorsEn, veterinarySeoEn, veterinarySeoRu, veterinaryWebsiteDesignEn, hotelSeoEn, hotelSeoPl, hotelSeoRu, hotelWebsiteDesignEn, vacationRentalWebsiteDesignEn, b2bSeoEn, b2bSeoRu, b2bWebsiteDesignEn, localSeoForSmallBusinessEn, seoForStartupsEn, seoServicesForSmallBusinessEn, seoServicesForSmallBusinessPl, seoServicesForSmallBusinessRu, smallBusinessWebsiteDesignEn, smallBusinessWebsiteDesignPl, smallBusinessWebsiteDesignRu, startupWebsiteDesignEn];
 
 const isDev = process.env.NODE_ENV !== "production";
 

@@ -293,6 +293,21 @@ PAIR_SETS.hotels = [
   ["ru: апартаменты = отель?", "ru", "сайт для апартаментов", "сайт для отеля"],
 ];
 
+// Stage 2, group 4 (25.10.2026): small business, startups, B2B.
+PAIR_SETS["small-business"] = [
+  ["малый бизнес: SEO = SEO-услуги?", "en", "small business seo", "seo services for small business"],
+  ["малый бизнес: SEO = локальное SEO?", "en", "small business seo", "local seo for small business"],
+  ["малый бизнес: сайт = дизайн?", "en", "website for small business", "small business website design"],
+  ["малый бизнес: «website for small business» — чей спрос (конструкторы)?", "en", "website for small business", "best website builder for small business"],
+  ["малый бизнес: стоимость сайта = статья?", "en", "small business website cost", "small business website design"],
+  ["стартапы: SEO = SEO малого бизнеса?", "en", "seo for startups", "small business seo"],
+  ["стартапы: дизайн = дизайн малого бизнеса?", "en", "startup website design", "small business website design"],
+  ["b2b: SEO = SEO малого бизнеса?", "en", "seo for b2b companies", "small business seo"],
+  ["b2b: дизайн = дизайн малого бизнеса?", "en", "b2b website design", "small business website design"],
+  ["pl: SEO малой фирмы = сайт малой фирмы?", "pl", "pozycjonowanie dla małej firmy", "strona internetowa dla małej firmy"],
+  ["ru: сайт малого бизнеса = продвижение?", "ru", "сайт для малого бизнеса", "продвижение сайта малого бизнеса"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

@@ -339,6 +339,31 @@ const TOPICS = {
       ru: ["продвижение сайта отеля"],
     },
   },
+  // Stage 2, group 4 (25.10.2026): small business, startups, B2B. Existing:
+  // /startup-website (+ PL strona-dla-startupu, RU sait-dlya-startapa). Core:
+  // seo services for small business 20 800 (mapped to the ecommerce SEO page —
+  // wrong), small business website design 8 800, website for small business
+  // 4 880, startups seo 2 990, seo for b2b companies 930.
+  "small-business": {
+    relevant: /small business|small businesses|local business|startup|start-up|b2b|mał(ej|ych) firm|małego biznesu|startup|b2b|малого бизнес|малый бизнес|стартап|b2b/i,
+    otherPage: {},
+    groups: {
+      "startups": /startup|start-up|стартап/i,
+      "b2b": /b2b/i,
+      "SEO / marketing": /\bseo\b|marketing|pozycjon|reklam|продвиж|раскрут|реклам|маркетинг/i,
+      "website / design": /website|site\b|web\b|design|template|strona|stron|projekt|сайт|дизайн|шаблон/i,
+    },
+    seeds: {
+      en: ["small business seo", "seo for small business", "local seo for small business", "small business website design", "website for small business", "small business website cost", "seo for startups", "startup website design", "seo for b2b companies", "b2b website design"],
+      pl: ["pozycjonowanie dla małej firmy", "strona internetowa dla małej firmy", "strona dla startupu", "pozycjonowanie startupu", "pozycjonowanie firmy b2b", "strona dla firmy b2b"],
+      ru: ["продвижение сайта малого бизнеса", "сайт для малого бизнеса", "seo для стартапа", "сайт для стартапа", "продвижение b2b", "сайт для b2b компании"],
+    },
+    serp: {
+      en: ["small business seo", "small business website design"],
+      pl: ["pozycjonowanie dla małej firmy"],
+      ru: ["продвижение сайта малого бизнеса"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

@@ -57,7 +57,7 @@ export const constructionCompanyWebsiteEn = {
       eyebrow: "Portfolio",
       title: "Website development portfolio: sites I have built",
       subtitle:
-        "Closest to construction: a renovation and investment company and an architecture studio. The others show the pieces a construction site needs: a quote form with photos, three languages, and a client who edits the site himself.",
+        "A renovation and investment company and an architecture studio, plus sites with the pieces a construction website needs: a quote form with photos, three languages and a client who edits the site himself.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "architecture-website-rebuild-and-seo-scan",

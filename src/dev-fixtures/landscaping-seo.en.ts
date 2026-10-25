@@ -62,7 +62,7 @@ export const landscapingSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: project-led and local service websites",
       subtitle:
-        "None of these are landscaping companies. They are the closest work I have: an architecture studio and a renovation company that sell on photos of finished projects, and local service businesses that get their calls from Google Maps.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a landscaping company needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "renovation-and-investment-website-with-premium-design",

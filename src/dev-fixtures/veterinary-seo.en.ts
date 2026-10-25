@@ -67,7 +67,7 @@ export const veterinarySeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: local service websites I have optimized",
       subtitle:
-        "None of these are veterinary clinics. They are the closest work I have: an auto repair shop and a wheel-repair workshop that live on local searches and bookings, a tyre storage page built around one action, and multilingual sites where the same methods brought measurable search traffic.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a veterinary clinic needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

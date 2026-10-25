@@ -63,7 +63,7 @@ export const localSeoForPlumbersEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: local businesses that get calls from Google Maps",
       subtitle:
-        "These are not plumbing companies. They are the nearest work I have to a plumber’s map results: an auto repair shop, a wheel-repair workshop and a tire-storage business that live on local searches, plus a renovation company and an architecture studio.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a plumber in the map results needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

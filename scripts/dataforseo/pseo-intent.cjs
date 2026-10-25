@@ -277,6 +277,22 @@ PAIR_SETS.veterinary = [
   ["ru: продвижение ветклиники = продвижение клиники?", "ru", "продвижение ветеринарной клиники", "продвижение сайта клиники"],
 ];
 
+// Stage 2, group 3 (24.10.2026): hotels and vacation rentals.
+PAIR_SETS.hotels = [
+  ["отели: «website for hotels» — чей спрос?", "en", "website for hotels", "hotel website design"],
+  ["отели: дизайн = существующая страница сайта отеля?", "en", "hotel website design", "hotel website"],
+  ["отели: SEO = локальное SEO?", "en", "hotel seo", "local seo for hotels"],
+  ["отели: SEO = digital marketing?", "en", "hotel seo", "hotel digital marketing"],
+  ["апартаменты: «vacation rental website» — чей спрос?", "en", "vacation rental website", "vacation rental website design"],
+  ["апартаменты: сайт = сайт отеля?", "en", "vacation rental website design", "hotel website design"],
+  ["апартаменты: SEO = SEO отеля?", "en", "vacation rental seo", "hotel seo"],
+  ["b&b: сайт = сайт отеля?", "en", "bed and breakfast website", "hotel website design"],
+  ["pl: SEO отеля = сайт отеля?", "pl", "pozycjonowanie strony hotelu", "strona internetowa dla hotelu"],
+  ["pl: пансионат = отель?", "pl", "strona dla pensjonatu", "strona internetowa dla hotelu"],
+  ["ru: продвижение отеля = сайт отеля?", "ru", "продвижение сайта отеля", "сайт для отеля"],
+  ["ru: апартаменты = отель?", "ru", "сайт для апартаментов", "сайт для отеля"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

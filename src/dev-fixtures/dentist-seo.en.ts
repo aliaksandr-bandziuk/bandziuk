@@ -71,7 +71,7 @@ export const dentistSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: local service and multilingual websites I have optimized",
       subtitle:
-        "None of these are dental practices. They are the closest work I have: local service businesses that get their bookings from search and maps, and a multilingual site where the same methods brought measurable search traffic.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a dental practice needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

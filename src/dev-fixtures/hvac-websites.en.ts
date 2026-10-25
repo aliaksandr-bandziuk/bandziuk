@@ -68,7 +68,7 @@ export const hvacWebsitesEn = {
       eyebrow: "Portfolio",
       title: "Website development portfolio: sites I have built for service businesses",
       subtitle:
-        "None of these are HVAC companies. They are my closest work: a tyre-storage business whose demand turns over twice a year like heating and cooling, a car repair shop and a wheel workshop that run on calls and bookings, a renovation company, and an agency site with a page for each country — the same build as a page for each service area.",
+        "Websites I have built for service businesses whose customers call, book or send a request — the same structure a heating and cooling company needs: pages for each service and area, a request form linked to your tools, fast pages on a phone.",
       picks: [
         "tyre-storage-landing-page-with-editable-seo",
         "auto-repair-seo-and-ux-boost",

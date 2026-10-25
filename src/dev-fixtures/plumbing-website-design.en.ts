@@ -63,7 +63,7 @@ export const plumbingWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: local-service websites I have designed",
       subtitle:
-        "No plumbing clients among them — these are the nearest local-service projects: a car repair shop and a wheel-repair workshop whose customers call or book, a tyre storage page built around one action, and a renovation company and an architecture studio shown through real project photos.",
+        "Websites I have designed and built around photos of real work and a clear path to a call or a booking — the same principles a plumbing website needs.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

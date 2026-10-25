@@ -59,7 +59,7 @@ export const websiteForElectriciansEn = {
       eyebrow: "Portfolio",
       title: "Website development portfolio: local service sites I have built",
       subtitle:
-        "There are no electricians among them. The closest are a wheel-repair workshop whose request form takes photos and an auto repair shop that lives on phone calls; the others are service businesses whose owners update the site themselves.",
+        "Websites I have built for service businesses whose customers call, book or send a request — the same structure an electrician needs: pages for each service and area, a request form linked to your tools, fast pages on a phone.",
       picks: [
         "felgilab-wordpress-rebuild",
         "auto-repair-seo-and-ux-boost",

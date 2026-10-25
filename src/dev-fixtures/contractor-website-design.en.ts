@@ -60,7 +60,7 @@ export const contractorWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: websites I have designed and built",
       subtitle:
-        "Closest to contracting: a renovation company and a wheel-repair workshop whose quote form takes photos. The others are local service businesses that get their work through calls and forms.",
+        "A renovation company, a wheel-repair workshop whose quote form takes photos and local service businesses that get their work through calls and forms.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "felgilab-wordpress-rebuild",

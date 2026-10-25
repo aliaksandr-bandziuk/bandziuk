@@ -73,7 +73,7 @@ export const veterinaryWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: local-service and multilingual websites I have designed",
       subtitle:
-        "No veterinary clinics among them — these are the nearest projects: a car repair shop and a wheel-repair workshop whose customers book or call, a tyre storage page built around one action, and two sites where real photos carry the design.",
+        "Websites I have designed and built around photos of real work and a clear path to a call or a booking — the same principles a veterinary website needs.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

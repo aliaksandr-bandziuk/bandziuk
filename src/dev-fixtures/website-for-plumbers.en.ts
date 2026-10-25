@@ -60,7 +60,7 @@ export const websiteForPlumbersEn = {
       eyebrow: "Portfolio",
       title: "Website development portfolio: sites I have built for local businesses",
       subtitle:
-        "These are not plumbing companies. They are the closest work I have: a car repair shop and a wheel workshop that live on calls and bookings, a tyre storage page, a renovation company, and an education agency site with pages for many countries — the same structure as pages for many service areas.",
+        "Websites I have built for service businesses whose customers call, book or send a request — the same structure a plumbing company needs: pages for each service and area, a request form linked to your tools, fast pages on a phone.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

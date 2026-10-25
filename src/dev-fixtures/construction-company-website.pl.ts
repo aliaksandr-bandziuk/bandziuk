@@ -54,7 +54,7 @@ export const constructionCompanyWebsitePl = {
       eyebrow: "Portfolio",
       title: "Portfolio: strony internetowe, które zbudowałem",
       subtitle:
-        "Najbliżej budownictwa są firma remontowo-inwestycyjna i biuro architektoniczne. Pozostałe pokazują to, czego potrzebuje strona firmy budowlanej: wycenę ze zdjęciami, trzy języki i klienta, który sam edytuje stronę.",
+        "Firma remontowo-inwestycyjna i biuro architektoniczne, a obok strony z tym, czego potrzebuje strona firmy budowlanej: wyceną ze zdjęciami, trzema językami i klientem, który sam edytuje stronę.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "renovation-and-investment-website-with-premium-design",

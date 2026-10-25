@@ -54,7 +54,7 @@ export const restaurantWebsiteDesignRu = {
       eyebrow: "Портфолио",
       title: "Портфолио веб-дизайна: сайты, которые я спроектировал и сделал",
       subtitle:
-        "Ресторана среди них пока нет. Они подобраны под то, что нужно сайту ресторана: премиальный вид, скорость на телефоне, форма бронирования и несколько языков.",
+        "Сайты с тем, что нужно сайту ресторана: премиальный вид, скорость на телефоне, форма бронирования и несколько языков.",
       // EN slugs; the Russian case is found through translation.metadata
       picks: [
         "renovation-and-investment-website-with-premium-design",

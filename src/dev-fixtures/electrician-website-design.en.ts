@@ -62,7 +62,7 @@ export const electricianWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: sites I designed and built for local businesses",
       subtitle:
-        "None of these were made for an electrician. The closest are a renovation company that sells on before-and-after work and a wheel-repair workshop whose request form accepts photos; the remaining three are local service firms that depend on phone calls and online requests.",
+        "Websites I have designed and built around photos of real work and a clear path to a call or a booking — the same principles an electrician website needs.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "felgilab-wordpress-rebuild",

@@ -63,7 +63,7 @@ export const roofingSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: local service websites I have optimized",
       subtitle:
-        "These are not roofing clients. They are the closest local-service work I have done: a renovation company, an auto repair shop and a wheel workshop that get their customers from local searches, plus two sites where SEO brought measurable traffic.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a roofing company needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "auto-repair-seo-and-ux-boost",

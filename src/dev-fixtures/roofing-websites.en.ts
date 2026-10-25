@@ -64,7 +64,7 @@ export const roofingWebsitesEn = {
       eyebrow: "Portfolio",
       title: "Website development portfolio: sites I have built for local businesses",
       subtitle:
-        "None of these are roofing companies. They are the closest work I have: a renovation company, a wheel workshop whose request form takes photos, a car repair shop that lives on calls, a tire storage page, and an education agency site with many location pages — the same structure as pages for many service areas.",
+        "Websites I have built for service businesses whose customers call, book or send a request — the same structure a roofing company needs: pages for each service and area, a request form linked to your tools, fast pages on a phone.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "felgilab-wordpress-rebuild",

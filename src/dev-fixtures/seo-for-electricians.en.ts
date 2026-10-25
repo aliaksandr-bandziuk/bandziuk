@@ -60,7 +60,7 @@ export const seoForElectriciansEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: local search work on websites I have optimized",
       subtitle:
-        "None of these are electricians. Closest in how the work arrives: a car repair garage and a wheel workshop that depend on local searches and calls. The other three show local SEO bringing measurable search traffic to service businesses.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work an electrical contractor needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

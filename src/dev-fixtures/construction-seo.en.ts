@@ -55,7 +55,7 @@ export const constructionSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: search results on websites I have optimised",
       subtitle:
-        "Closest to construction: an architecture studio whose organic traffic grew 29 times, and a renovation company. The others are local service businesses where the same work brought measurable search traffic.",
+        "An architecture studio whose organic traffic grew 29 times, a renovation company and local service businesses where the same work brought measurable search traffic.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "renovation-and-investment-website-with-premium-design",

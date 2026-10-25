@@ -66,7 +66,7 @@ export const hvacSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: local service businesses I have worked with",
       subtitle:
-        "These are not HVAC clients. They are the closest work I have: an auto repair shop and a wheel workshop that live on urgent local searches, a tyre-storage business with seasonal demand, a renovation company and a site where SEO brought measurable traffic.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a heating and cooling company needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "tyre-storage-landing-page-with-editable-seo",

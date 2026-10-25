@@ -61,7 +61,7 @@ export const seoForContractorsEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: search results on websites I have optimised",
       subtitle:
-        "Closest to contracting: a renovation company and an auto repair shop that gets its work from local searches. The others show the same local work bringing measurable search traffic.",
+        "A renovation company, an auto repair shop that gets its work from local searches and other local businesses where the same work brought measurable search traffic.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "auto-repair-seo-and-ux-boost",

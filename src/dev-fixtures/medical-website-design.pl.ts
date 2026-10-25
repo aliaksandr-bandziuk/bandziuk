@@ -70,7 +70,7 @@ export const medicalWebsiteDesignPl = {
       eyebrow: "Portfolio",
       title: "Portfolio: strony internetowe, które zaprojektowałem i zbudowałem",
       subtitle:
-        "Nie ma wśród nich przychodni ani gabinetu. To najbliższe projekty, jakie mogę pokazać: wielojęzyczna strona agencji edukacyjnej działającej w dziesięciu krajach i strony lokalnych firm usługowych, w których klient umawia termin albo dzwoni.",
+        "Strony, które zaprojektowałem i zbudowałem — wielojęzyczne, oparte na zdjęciach i prowadzące prosto do telefonu lub rezerwacji. Tych samych zasad potrzebuje strona lekarza i przychodni.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",

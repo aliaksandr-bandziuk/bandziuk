@@ -69,7 +69,7 @@ export const lawnCareWebsiteEn = {
       eyebrow: "Portfolio",
       title: "Website development portfolio: sites for local service businesses",
       subtitle:
-        "None of these are lawn care companies. The closest work I have: a seasonal tire storage service that customers come back to every spring and fall, a car repair shop and a wheel workshop that run on bookings, a renovation company, and an education agency site with pages for many locations.",
+        "Websites I have built for service businesses whose customers call, book or send a request — the same structure a lawn care business needs: pages for each service and area, a request form linked to your tools, fast pages on a phone.",
       picks: [
         "tyre-storage-landing-page-with-editable-seo",
         "auto-repair-seo-and-ux-boost",

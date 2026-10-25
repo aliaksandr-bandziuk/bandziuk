@@ -77,7 +77,7 @@ export const medicalWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: websites I have designed and built",
       subtitle:
-        "None of these is a clinic. They are the closest work I can show: a multilingual site for an education agency serving ten countries, local service businesses whose customers book or call, and sites built around a clear first action.",
+        "Multilingual, photo-led and booking-focused websites I have built and optimised — the same work a clinic or a doctor needs: clear pages, fast mobile layouts and visibility in search and AI answers.",
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",
         "auto-repair-seo-and-ux-boost",

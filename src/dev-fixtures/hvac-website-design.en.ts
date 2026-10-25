@@ -68,7 +68,7 @@ export const hvacWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: local-service websites I have designed and built",
       subtitle:
-        "There are no HVAC companies here. These are the nearest projects I have: a car repair shop and a wheel workshop whose visitors call or book, a seasonal tyre-storage page built around one action, and a renovation company and an architecture studio presented through real photos of their work.",
+        "Websites I have designed and built around photos of real work and a clear path to a call or a booking — the same principles a heating and cooling website needs.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "tyre-storage-landing-page-with-editable-seo",

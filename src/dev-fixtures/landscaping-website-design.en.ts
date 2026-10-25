@@ -70,7 +70,7 @@ export const landscapingWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: project-led websites I have designed",
       subtitle:
-        "No landscaping companies among them. The nearest work: an architecture studio and a renovation company that sell through photos of finished projects, and local service businesses whose customers send a request with photos or book a visit.",
+        "Websites I have designed and built around photos of real work and a clear path to a call or a booking — the same principles a landscaping website needs.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "renovation-and-investment-website-with-premium-design",

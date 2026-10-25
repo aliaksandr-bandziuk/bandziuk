@@ -315,6 +315,30 @@ const TOPICS = {
       ru: ["продвижение ветеринарной клиники"],
     },
   },
+  // Stage 2, group 3 (24.10.2026): hotels, guest houses and vacation rentals.
+  // Existing pages: /hotel-website (+ PL strona-dla-hotelu, RU sait-dlya-otelya),
+  // /travel-agency-website. Core: website for hotels 18 100 (suspect: guests
+  // looking for booking sites?), hotel SEO 7 580, hotel website design 2 600.
+  "hotels": {
+    relevant: /hotel|motel|inn\b|resort|guest ?house|b&b|bed and breakfast|hostel|vacation rental|holiday rental|airbnb|short.?term rental|direct booking|booking engine|hotel|pensjonat|apartament|noclegi|agroturyst|отел|гостиниц|апартамент|хостел|гостев|мини-отел/i,
+    otherPage: {},
+    groups: {
+      "SEO / marketing": /\bseo\b|marketing|pozycjon|reklam|продвиж|раскрут|реклам|маркетинг/i,
+      "vacation rentals / apartments": /vacation|holiday|airbnb|short.?term|rental|apartament|апартамент|посуточ/i,
+      "booking engine / direct booking": /booking|rezerwac|бронир/i,
+      "website / design": /website|site\b|web\b|design|template|strona|stron|projekt|сайт|дизайн|шаблон/i,
+    },
+    seeds: {
+      en: ["hotel seo", "seo for hotels", "hotel website design", "website for hotels", "hotel website", "hotel digital marketing", "vacation rental website", "vacation rental seo", "direct booking website for vacation rentals", "bed and breakfast website"],
+      pl: ["pozycjonowanie strony hotelu", "strona internetowa dla hotelu", "strona dla pensjonatu", "strona dla apartamentów", "pozycjonowanie pensjonatu", "marketing hotelu"],
+      ru: ["продвижение сайта отеля", "сайт для отеля", "сайт для гостиницы", "сайт для апартаментов", "продвижение гостиницы", "сайт для мини-отеля"],
+    },
+    serp: {
+      en: ["hotel seo", "hotel website design"],
+      pl: ["pozycjonowanie strony hotelu"],
+      ru: ["продвижение сайта отеля"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

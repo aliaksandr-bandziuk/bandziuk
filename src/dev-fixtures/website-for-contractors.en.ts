@@ -57,7 +57,7 @@ export const websiteForContractorsEn = {
       eyebrow: "Portfolio",
       title: "Website development portfolio: sites I have built",
       subtitle:
-        "Closest to contracting: a renovation company and a workshop whose request form takes photos. The others are service businesses whose owners edit the site themselves and get work from calls and forms.",
+        "A renovation company, a workshop whose request form takes photos and service businesses whose owners edit the site themselves and get work from calls and forms.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "felgilab-wordpress-rebuild",

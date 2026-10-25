@@ -70,7 +70,7 @@ export const dentistSeoPl = {
       eyebrow: "Portfolio",
       title: "Portfolio SEO: strony lokalnych firm usługowych, które optymalizowałem",
       subtitle:
-        "Żadna z tych stron nie należy do gabinetu stomatologicznego. To najbliższa praca, jaką mam: lokalne firmy usługowe, do których klienci trafiają z wyszukiwarki i map, oraz wielojęzyczny serwis, w którym te same metody dały mierzalny ruch.",
+        "Strony, które pozycjonowałem dla firm usługowych zdobywających klientów z lokalnego wyszukiwania, map i opinii — tej samej pracy potrzebuje gabinet stomatologiczny: podstron zabiegów, mocnej wizytówki Google i raportów w telefonach i rezerwacjach.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "auto-repair-seo-and-ux-boost",

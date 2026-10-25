@@ -50,7 +50,7 @@ export const restaurantSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: search results on websites I have optimised",
       subtitle:
-        "No restaurant among them yet. These are local and service businesses where the same work — map profile, local pages, structured data, speed — brought measurable search traffic.",
+        "Local and service businesses where the same work a restaurant needs — map profile, local pages, structured data, speed — brought measurable search traffic.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "auto-repair-seo-and-ux-boost",

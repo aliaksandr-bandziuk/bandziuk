@@ -72,7 +72,7 @@ export const dentalWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: service websites I have designed and built",
       subtitle:
-        "There are no dental practices or clinics among them. These are the closest projects I have: a renovation company and an architecture studio with a calm, photo-led design, a multilingual site for an education agency, and two local workshops whose customers book or call from a phone.",
+        "Websites I have designed and built around photos of real work and a clear path to a call or a booking — the same principles a dental website needs.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "architecture-website-rebuild-and-seo-scan",

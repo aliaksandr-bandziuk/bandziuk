@@ -72,7 +72,7 @@ export const seoForDoctorsEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: websites where one person’s expertise had to be found",
       subtitle:
-        "None of these are doctors or clinics. They are the closest work I have: a multilingual education site whose readers make high-stakes decisions, an architecture studio and a renovation company that sell expertise, and two local businesses that get their customers from Google search.",
+        "Multilingual, photo-led and booking-focused websites I have built and optimised — the same work a physician needs: clear pages, fast mobile layouts and visibility in search and AI answers.",
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",
         "architecture-website-rebuild-and-seo-scan",

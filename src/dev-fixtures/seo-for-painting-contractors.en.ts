@@ -60,7 +60,7 @@ export const seoForPaintingContractorsEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: local service and renovation websites I have worked on",
       subtitle:
-        "These are not painting clients. The closest is a renovation company where finished interiors carry the site; the others are local service and project-based businesses whose customers come from search.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a painting contractor needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "architecture-website-rebuild-and-seo-scan",

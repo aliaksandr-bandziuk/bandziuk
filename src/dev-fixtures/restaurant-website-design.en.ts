@@ -44,7 +44,7 @@ export const restaurantWebsiteDesignEn = {
       _key: k("b"),
       eyebrow: "Portfolio",
       title: "Web design portfolio: websites I have designed and built",
-      subtitle: "No restaurant among them yet. These are chosen for what a restaurant site needs: a premium look, speed on a phone, a booking form and several languages.",
+      subtitle: "Sites with what a restaurant website needs: a premium look, speed on a phone, a booking form and several languages.",
       // project slugs, resolved to references (preview: at request time;
       // create script: before writing). Card tags come from each project.
       picks: [

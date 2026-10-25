@@ -53,7 +53,7 @@ export const restaurantSeoPl = {
       eyebrow: "Portfolio",
       title: "Portfolio SEO: wyniki w wyszukiwarce na stronach, które optymalizowałem",
       subtitle:
-        "Restauracji jeszcze wśród nich nie ma. To lokalne firmy usługowe, w których ta sama praca — wizytówka w mapach, podstrony lokalne, dane strukturalne, szybkość — dała mierzalny ruch z wyszukiwarki.",
+        "Lokalne firmy usługowe, w których ta sama praca, jakiej potrzebuje restauracja — wizytówka w mapach, podstrony lokalne, dane strukturalne, szybkość — dała mierzalny ruch z wyszukiwarki.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "architecture-website-rebuild-and-seo-scan",

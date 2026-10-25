@@ -66,7 +66,7 @@ export const localSeoForDentistsEn = {
       eyebrow: "Portfolio",
       title: "Local SEO portfolio: businesses that patients and customers find on the map",
       subtitle:
-        "None of these are dental practices or clinics. They are the closest work I have: an auto repair shop, a wheel-repair workshop and a tire-storage business whose customers come from local searches, a renovation company, and a multilingual education site that serves clients in several countries.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a dental office in the map results needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

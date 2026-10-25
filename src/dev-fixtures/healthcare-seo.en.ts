@@ -84,7 +84,7 @@ export const healthcareSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: multilingual and multi-page websites I have built and optimized",
       subtitle:
-        "None of these are hospitals or clinics. They are the closest work I have: a multilingual site with pages for several countries and services, website rebuilds with SEO, and local-service businesses that get their customers from Google Maps.",
+        "Multilingual, photo-led and booking-focused websites I have built and optimised — the same work a healthcare organization needs: clear pages, fast mobile layouts and visibility in search and AI answers.",
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",
         "architecture-website-rebuild-and-seo-scan",

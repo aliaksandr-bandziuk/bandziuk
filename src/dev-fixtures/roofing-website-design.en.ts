@@ -66,7 +66,7 @@ export const roofingWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: local-service websites I have designed",
       subtitle:
-        "No roofing companies among them. These are the nearest projects: a renovation company and an architecture studio shown through photos of finished work, a wheel workshop and a car repair shop whose customers call or send photos, and a tire storage page built around one button.",
+        "Websites I have designed and built around photos of real work and a clear path to a call or a booking — the same principles a roofing website needs.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "architecture-website-rebuild-and-seo-scan",

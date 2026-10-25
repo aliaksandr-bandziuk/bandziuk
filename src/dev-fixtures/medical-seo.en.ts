@@ -70,7 +70,7 @@ export const medicalSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: local service businesses I have optimized",
       subtitle:
-        "None of these are medical practices. They are the closest local-service work I have: an auto repair shop, a wheel-repair workshop and a tire storage business that get their bookings from local searches, a renovation company, and a multilingual site where the same methods brought search traffic.",
+        "SEO work for service businesses that win customers from local search, maps and reviews — the same work a private medical practice needs: pages for each service and area, a strong Google profile and reports in calls and bookings.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

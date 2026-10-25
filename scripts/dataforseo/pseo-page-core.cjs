@@ -389,6 +389,30 @@ const TOPICS = {
       ru: ["продвижение сайта юридической компании"],
     },
   },
+  // Stage 2, group 6 — nonprofits and manufacturers (25.10.2026). Existing pages:
+  // EN /manufacturing-company-website, /b2b-seo, /b2b-website-design, lingerie
+  // manufacturer SEO/website (EN/PL/RU); RU /ru/sait-dlya-proizvodstvennoy-kompanii.
+  // No nonprofit pages yet.
+  "nonprofits-manufacturers": {
+    relevant: /nonprofit|non-profit|non profit|charit|ngo|foundation|church|ministr|manufactur|industrial|factory|machin|fabricat|cnc|fundacj|stowarzysz|organizacj|pozarząd|producent|produkcyj|przemysł|fabryk|некоммерч|нко|фонд|благотвор|производ|завод|фабрик|промышлен/i,
+    otherPage: {},
+    groups: {
+      "nonprofits": /nonprofit|non-profit|non profit|charit|ngo|foundation|church|ministr|fundacj|stowarzysz|organizacj|pozarząd|некоммерч|нко|фонд|благотвор/i,
+      "manufacturers": /manufactur|industrial|factory|machin|fabricat|cnc|producent|produkcyj|przemysł|fabryk|производ|завод|фабрик|промышлен/i,
+      "SEO / marketing": /\bseo\b|marketing|pozycjon|reklam|продвиж|раскрут|реклам|маркетинг/i,
+      "website / design": /website|site\b|web\b|design|template|strona|stron|projekt|сайт|дизайн|шаблон/i,
+    },
+    seeds: {
+      en: ["nonprofit website design", "website for nonprofit", "nonprofit seo", "seo for nonprofits", "nonprofit website cost", "charity website design", "manufacturing seo", "seo for manufacturers", "manufacturing website design", "industrial website design", "manufacturing website development"],
+      pl: ["strona internetowa dla fundacji", "strona dla stowarzyszenia", "pozycjonowanie fundacji", "pozycjonowanie firmy produkcyjnej", "strona internetowa dla firmy produkcyjnej", "strona dla producenta"],
+      ru: ["сайт для некоммерческой организации", "сайт для фонда", "сайт благотворительного фонда", "продвижение сайта производителя", "сайт для завода", "сайт для производственной компании"],
+    },
+    serp: {
+      en: ["nonprofit website design", "manufacturing seo"],
+      pl: ["strona internetowa dla fundacji"],
+      ru: ["продвижение сайта производителя"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

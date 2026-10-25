@@ -324,6 +324,23 @@ PAIR_SETS["lawyers"] = [
   ["ru: сайт для юриста = сайт адвоката?", "ru", "сайт для юриста", "сайт адвоката"],
 ];
 
+PAIR_SETS["nonprofits-manufacturers"] = [
+  ["нко: сайт = дизайн?", "en", "website for nonprofit", "nonprofit website design"],
+  ["нко: «website for nonprofit» — чей спрос (конструкторы, бесплатные программы)?", "en", "website for nonprofit", "best website builder for nonprofits"],
+  ["нко: SEO = дизайн?", "en", "nonprofit seo", "nonprofit website design"],
+  ["нко: charity = nonprofit?", "en", "charity website design", "nonprofit website design"],
+  ["нко: стоимость сайта — статья?", "en", "nonprofit website cost", "nonprofit website design"],
+  ["производители: manufacturing seo = seo for manufacturers?", "en", "manufacturing seo", "seo for manufacturers"],
+  ["производители: manufacturing seo = b2b seo?", "en", "manufacturing seo", "b2b seo"],
+  ["производители: дизайн = разработка?", "en", "manufacturing website design", "manufacturing website development"],
+  ["производители: industrial = manufacturing?", "en", "industrial website design", "manufacturing website design"],
+  ["производители: дизайн = b2b дизайн?", "en", "manufacturing website design", "b2b website design"],
+  ["pl: fundacja = stowarzyszenie?", "pl", "strona internetowa dla fundacji", "strona dla stowarzyszenia"],
+  ["pl: firma produkcyjna — SEO = strona?", "pl", "pozycjonowanie firmy produkcyjnej", "strona internetowa dla firmy produkcyjnej"],
+  ["ru: НКО = фонд?", "ru", "сайт для некоммерческой организации", "сайт благотворительного фонда"],
+  ["ru: производитель — продвижение = b2b?", "ru", "продвижение сайта производителя", "продвижение b2b"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

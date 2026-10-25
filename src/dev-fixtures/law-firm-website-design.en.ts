@@ -81,7 +81,7 @@ export const lawFirmWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: websites I have designed and built",
       subtitle:
-        "A premium-looking site for a renovation and investment company, an architecture studio’s new design, an education agency in ten countries and several languages, a car repair shop and a tyre-storage landing page. On a law firm site I bring the same approach: one clear action per screen, layouts drawn for a phone first and a visual style that fits the business rather than a template.",
+        "A premium-looking site for a renovation and investment company, a 3D laser scanning and BIM company’s rebuild, an education agency in ten countries and several languages, a car repair shop and a tyre-storage landing page. On a law firm site I bring the same approach: one clear action per screen, layouts drawn for a phone first and a visual style that fits the business rather than a template.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "architecture-website-rebuild-and-seo-scan",

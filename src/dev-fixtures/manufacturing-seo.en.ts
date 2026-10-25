@@ -84,7 +84,7 @@ export const manufacturingSeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: service and multilingual websites I have built and optimized",
       subtitle:
-        "An education agency site with one structure across ten countries and several languages, an architecture studio whose organic traffic grew 29× after the rebuild, and Warsaw service businesses — renovation and investment, auto repair, wheel renovation — where every service has its own page and a short path to a request. A manufacturer’s site is built on the same logic: one page for each process a buyer can search for, and a request form at the end of it.",
+        "An education agency site with one structure across ten countries and several languages, a 3D laser scanning and BIM company whose organic traffic grew 29× after the rebuild, and Warsaw service businesses — renovation and investment, auto repair, wheel renovation — where every service has its own page and a short path to a request. A manufacturer’s site is built on the same logic: one page for each process a buyer can search for, and a request form at the end of it.",
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",
         "architecture-website-rebuild-and-seo-scan",

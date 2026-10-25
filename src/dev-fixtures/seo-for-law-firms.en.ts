@@ -76,7 +76,7 @@ export const seoForLawFirmsEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: service websites I have built and optimized",
       subtitle:
-        "Professional and local service businesses that get their enquiries from search: an education agency working across ten countries in several languages, an architecture studio, a renovation and investment company, an auto repair shop and a wheel-renovation workshop. Each site gives every service its own page and makes it easy to call or send a request — the same structure a law firm needs for its practice areas.",
+        "Professional and local service businesses that get their enquiries from search: an education agency working across ten countries in several languages, a 3D laser scanning and BIM company, a renovation and investment company, an auto repair shop and a wheel-renovation workshop. Each site gives every service its own page and makes it easy to call or send a request — the same structure a law firm needs for its practice areas.",
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",
         "architecture-website-rebuild-and-seo-scan",

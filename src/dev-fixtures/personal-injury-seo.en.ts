@@ -75,7 +75,7 @@ export const personalInjurySeoEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: websites built around one page per service and fast enquiries",
       subtitle:
-        "Service businesses whose clients arrive from search and need to get in touch quickly: an auto repair shop, a wheel-renovation workshop, a renovation and investment company, an architecture studio and an education agency working across ten countries. Each site gives every service its own page with a clear call or request button — the base of case-type pages and fast intake for a personal injury firm.",
+        "Service businesses whose clients arrive from search and need to get in touch quickly: an auto repair shop, a wheel-renovation workshop, a renovation and investment company, a 3D laser scanning and BIM company and an education agency working across ten countries. Each site gives every service its own page with a clear call or request button — the base of case-type pages and fast intake for a personal injury firm.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

@@ -61,7 +61,7 @@ export const aiSeoServicesEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: search results on websites I have optimised",
       subtitle:
-        "The same sites are now checked in AI answers too: an architecture studio whose organic traffic grew 29 times, a multilingual education agency and local service businesses.",
+        "The same sites are now checked in AI answers too: a 3D laser scanning and BIM company whose organic traffic grew 29 times, a multilingual education agency and local service businesses.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "full-multilingual-website-development-and-seo-for-student-services",

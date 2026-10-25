@@ -76,7 +76,7 @@ export const seoServicesForSmallBusinessEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: small business websites I have built and optimized",
       subtitle:
-        "Small local businesses that live on search: an auto repair shop, a wheel-renovation workshop, a tyre-storage business, a renovation company and an architecture studio — service pages, Google listings and search settings built around how local customers look for a business.",
+        "Small local businesses that live on search: an auto repair shop, a wheel-renovation workshop, a tyre-storage business, a renovation company and a 3D laser scanning and BIM company — service pages, Google listings and search settings built around how local customers look for a business.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

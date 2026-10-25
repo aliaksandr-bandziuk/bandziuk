@@ -57,7 +57,7 @@ export const aiSeoServicesPl = {
       eyebrow: "Portfolio",
       title: "Portfolio SEO: wyniki na stronach, które optymalizowałem",
       subtitle:
-        "Te same strony sprawdzam teraz także w odpowiedziach AI: biuro architektoniczne, którego ruch organiczny wzrósł 29 razy, wielojęzyczna agencja edukacyjna i lokalne firmy usługowe.",
+        "Te same strony sprawdzam teraz także w odpowiedziach AI: firma skanowania laserowego 3D i modelowania BIM, której ruch organiczny wzrósł 29 razy, wielojęzyczna agencja edukacyjna i lokalne firmy usługowe.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "full-multilingual-website-development-and-seo-for-student-services",

@@ -72,7 +72,7 @@ export const seoServicesForSmallBusinessPl = {
       eyebrow: "Portfolio",
       title: "Portfolio SEO: strony małych firm, które budowałem i pozycjonowałem",
       subtitle:
-        "Małe lokalne firmy, którym klientów przynosi wyszukiwarka: warsztat samochodowy, pracownia renowacji felg, przechowalnia opon, firma remontowa i biuro architektoniczne — podstrony usług, wizytówki Google i ustawienia SEO dopasowane do tego, jak szukają lokalni klienci.",
+        "Małe lokalne firmy, którym klientów przynosi wyszukiwarka: warsztat samochodowy, pracownia renowacji felg, przechowalnia opon, firma remontowa i firma skanowania laserowego 3D i BIM — podstrony usług, wizytówki Google i ustawienia SEO dopasowane do tego, jak szukają lokalni klienci.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "auto-repair-seo-and-ux-boost",

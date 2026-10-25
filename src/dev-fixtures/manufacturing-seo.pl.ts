@@ -73,7 +73,7 @@ export const manufacturingSeoPl = {
       eyebrow: "Portfolio",
       title: "Portfolio SEO: strony firm, które budowałem i pozycjonowałem",
       subtitle:
-        "Wielojęzyczny serwis agencji edukacyjnej dla dziesięciu krajów, z osobnymi podstronami pod zapytania w różnych językach, biuro architektoniczne, którego ruch organiczny wzrósł 29 razy po przebudowie, a także firma remontowo-inwestycyjna, warsztat samochodowy i pracownia renowacji felg. Łączy je to, na czym opiera się pozycjonowanie producenta: podstrona odpowiada na jedno konkretne zapytanie i prowadzi do formularza.",
+        "Wielojęzyczny serwis agencji edukacyjnej dla dziesięciu krajów, z osobnymi podstronami pod zapytania w różnych językach, firma skanowania laserowego 3D i modelowania BIM, której ruch organiczny wzrósł 29 razy po przebudowie, a także firma remontowo-inwestycyjna, warsztat samochodowy i pracownia renowacji felg. Łączy je to, na czym opiera się pozycjonowanie producenta: podstrona odpowiada na jedno konkretne zapytanie i prowadzi do formularza.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",

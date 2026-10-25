@@ -72,7 +72,7 @@ export const smallBusinessWebsiteDesignPl = {
       eyebrow: "Portfolio",
       title: "Strony małych firm, które zaprojektowałem i zbudowałem",
       subtitle:
-        "Małe lokalne firmy, głównie z Warszawy: firma remontowo-inwestycyjna, warsztat samochodowy, pracownia renowacji felg, przechowalnia opon i biuro architektoniczne. Każda strona jest nastawiona na telefony i zapytania od klientów i szybko działa na telefonie.",
+        "Małe lokalne firmy, głównie z Warszawy: firma remontowo-inwestycyjna, warsztat samochodowy, pracownia renowacji felg, przechowalnia opon i firma skanowania laserowego 3D i BIM. Każda strona jest nastawiona na telefony i zapytania od klientów i szybko działa na telefonie.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "renovation-and-investment-website-with-premium-design",

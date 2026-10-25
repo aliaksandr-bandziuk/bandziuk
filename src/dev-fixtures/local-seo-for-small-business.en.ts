@@ -70,7 +70,7 @@ export const localSeoForSmallBusinessEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: small local businesses that get customers from Google Maps",
       subtitle:
-        "Small businesses with one address and a local customer base: an auto repair shop, a wheel-renovation workshop, a tyre-storage business, a renovation company and an architecture studio — the same map, profile and location work your business needs.",
+        "Small businesses with one address and a local customer base: an auto repair shop, a wheel-renovation workshop, a tyre-storage business, a renovation company and a 3D laser scanning and BIM company — the same map, profile and location work your business needs.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "tyre-storage-landing-page-with-editable-seo",

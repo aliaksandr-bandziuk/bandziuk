@@ -75,7 +75,7 @@ export const nonprofitWebsiteDesignPl = {
       eyebrow: "Portfolio",
       title: "Portfolio: strony internetowe, które zaprojektowałem i zbudowałem",
       subtitle:
-        "Wielojęzyczny serwis agencji edukacyjnej dla dziesięciu krajów z dziesiątkami podstron, które zespół aktualizuje sam, landing przechowalni opon, w którym właściciel bez programisty zmienia teksty i ustawienia SEO, oraz strony biura architektonicznego, firmy remontowo-inwestycyjnej i warsztatu samochodowego. Łączy je to, czego potrzebuje fundacja: odwiedzający najpierw sprawdza, komu może zaufać, a strona prowadzi go do jednego, konkretnego działania.",
+        "Wielojęzyczny serwis agencji edukacyjnej dla dziesięciu krajów z dziesiątkami podstron, które zespół aktualizuje sam, landing przechowalni opon, w którym właściciel bez programisty zmienia teksty i ustawienia SEO, oraz strony firmy skanowania laserowego 3D i BIM, firmy remontowo-inwestycyjnej i warsztatu samochodowego. Łączy je to, czego potrzebuje fundacja: odwiedzający najpierw sprawdza, komu może zaufać, a strona prowadzi go do jednego, konkretnego działania.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",

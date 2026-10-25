@@ -74,7 +74,7 @@ export const localSeoForLawyersEn = {
       eyebrow: "Portfolio",
       title: "Local SEO portfolio: businesses that get calls from Google Maps",
       subtitle:
-        "Businesses with a real address and clients from the surrounding area: an auto repair shop, a wheel-renovation workshop, a tyre-storage business, a renovation company and an architecture studio. The work is the same a law office needs for the map: a profile that matches the website, a clear address and phone, and pages that confirm what the listing says.",
+        "Businesses with a real address and clients from the surrounding area: an auto repair shop, a wheel-renovation workshop, a tyre-storage business, a renovation company and a 3D laser scanning and BIM company. The work is the same a law office needs for the map: a profile that matches the website, a clear address and phone, and pages that confirm what the listing says.",
       picks: [
         "auto-repair-seo-and-ux-boost",
         "felgilab-wordpress-rebuild",

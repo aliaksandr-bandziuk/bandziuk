@@ -73,7 +73,7 @@ export const charityWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Charity web design portfolio: websites I have designed and built",
       subtitle:
-        "A multilingual education agency site covering ten countries, a renovation and investment company, an architecture studio, a wheel-renovation workshop and a tyre-storage landing page. What a charity site takes from them: forms that collect exactly the details an organisation needs, a design system that small teams extend themselves and pages that load quickly on any phone.",
+        "A multilingual education agency site covering ten countries, a renovation and investment company, a 3D laser scanning and BIM company, a wheel-renovation workshop and a tyre-storage landing page. What a charity site takes from them: forms that collect exactly the details an organisation needs, a design system that small teams extend themselves and pages that load quickly on any phone.",
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",
         "renovation-and-investment-website-with-premium-design",

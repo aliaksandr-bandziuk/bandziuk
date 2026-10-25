@@ -62,7 +62,7 @@ export const aiSeoConsultantEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: results on websites I have worked on",
       subtitle:
-        "An architecture studio whose organic traffic grew 29 times, an education agency in ten countries and local service businesses — each one audited, fixed and measured by me.",
+        "A 3D laser scanning and BIM company whose organic traffic grew 29 times, an education agency in ten countries and local service businesses — each one audited, fixed and measured by me.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "full-multilingual-website-development-and-seo-for-student-services",

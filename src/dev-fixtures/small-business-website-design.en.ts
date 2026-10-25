@@ -79,7 +79,7 @@ export const smallBusinessWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Small business websites I have designed and built",
       subtitle:
-        "Small local businesses: a renovation company, a car repair shop, a wheel-repair workshop, a tyre-storage service and an architecture studio. Each site is built to turn visits into calls and quote requests and to load fast on a phone.",
+        "Small local businesses: a renovation company, a car repair shop, a wheel-repair workshop, a tyre-storage service and a 3D laser scanning and BIM company. Each site is built to turn visits into calls and quote requests and to load fast on a phone.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "auto-repair-seo-and-ux-boost",

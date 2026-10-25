@@ -60,7 +60,7 @@ export const chatgptSeoServicesEn = {
       eyebrow: "Portfolio",
       title: "SEO portfolio: search results on websites I have optimised",
       subtitle:
-        "The same sites are now checked in ChatGPT and other assistants: an architecture studio whose organic traffic grew 29 times, an education agency in ten countries and local service businesses.",
+        "The same sites are now checked in ChatGPT and other assistants: a 3D laser scanning and BIM company whose organic traffic grew 29 times, an education agency in ten countries and local service businesses.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "full-multilingual-website-development-and-seo-for-student-services",

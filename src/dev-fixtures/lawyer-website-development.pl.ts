@@ -74,7 +74,7 @@ export const lawyerWebsiteDevelopmentPl = {
       eyebrow: "Portfolio",
       title: "Portfolio: strony internetowe firm usługowych, które zaprojektowałem i zbudowałem",
       subtitle:
-        "Wielojęzyczny serwis agencji edukacyjnej dla dziesięciu krajów, biuro architektoniczne, firma remontowo-inwestycyjna, warsztat samochodowy i pracownia renowacji felg. Łączy je to, czego potrzebuje kancelaria: klient najpierw sprawdza, komu może zaufać, a strona prowadzi go do telefonu albo zapytania i szybko działa na telefonie.",
+        "Wielojęzyczny serwis agencji edukacyjnej dla dziesięciu krajów, firma skanowania laserowego 3D i BIM, firma remontowo-inwestycyjna, warsztat samochodowy i pracownia renowacji felg. Łączy je to, czego potrzebuje kancelaria: klient najpierw sprawdza, komu może zaufać, a strona prowadzi go do telefonu albo zapytania i szybko działa na telefonie.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",

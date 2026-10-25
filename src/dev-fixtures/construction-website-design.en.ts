@@ -53,7 +53,7 @@ export const constructionWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: websites I have designed and built",
       subtitle:
-        "A renovation and investment company and an architecture studio, plus sites with what a construction website needs: a quote form with photos, speed on a phone and a client who edits the site himself.",
+        "A renovation and investment company and a 3D laser scanning and BIM company, plus sites with what a construction website needs: a quote form with photos, speed on a phone and a client who edits the site himself.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "architecture-website-rebuild-and-seo-scan",

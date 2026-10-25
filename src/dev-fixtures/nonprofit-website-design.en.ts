@@ -81,7 +81,7 @@ export const nonprofitWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: websites I have designed and built",
       subtitle:
-        "An education agency working in ten countries and several languages, a renovation and investment company, an architecture studio, a car repair shop and a tyre-storage landing page. What a nonprofit site takes from them: a page for every service people ask about, request forms that collect what a small team needs, phone-first layouts and content that the staff edit themselves.",
+        "An education agency working in ten countries and several languages, a renovation and investment company, a 3D laser scanning and BIM company, a car repair shop and a tyre-storage landing page. What a nonprofit site takes from them: a page for every service people ask about, request forms that collect what a small team needs, phone-first layouts and content that the staff edit themselves.",
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",
         "renovation-and-investment-website-with-premium-design",

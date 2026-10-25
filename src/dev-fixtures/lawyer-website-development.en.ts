@@ -80,7 +80,7 @@ export const lawyerWebsiteDevelopmentEn = {
       eyebrow: "Portfolio",
       title: "Website development portfolio: sites I have built",
       subtitle:
-        "A multilingual site for an education agency working in ten countries, a renovation and investment company, an architecture studio’s rebuild, a wheel-renovation workshop moved to a new WordPress build and a car repair shop with reworked SEO and UX. Together they cover what a law firm site needs: language versions, service pages, rebuilds of older sites and clear paths to a call or a form.",
+        "A multilingual site for an education agency working in ten countries, a renovation and investment company, a rebuild for a 3D laser scanning and BIM company, a wheel-renovation workshop moved to a new WordPress build and a car repair shop with reworked SEO and UX. Together they cover what a law firm site needs: language versions, service pages, rebuilds of older sites and clear paths to a call or a form.",
       picks: [
         "full-multilingual-website-development-and-seo-for-student-services",
         "renovation-and-investment-website-with-premium-design",

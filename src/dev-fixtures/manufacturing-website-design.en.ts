@@ -85,7 +85,7 @@ export const manufacturingWebsiteDesignEn = {
       eyebrow: "Portfolio",
       title: "Web design portfolio: websites I have designed and built",
       subtitle:
-        "A premium visual style for a renovation and investment company, a new design for an architecture studio, one design system across ten countries and several languages for an education agency, and service sites for a car repair shop and a wheel-renovation workshop with one clear request per page. On a manufacturer’s site I use the same approach: layouts drawn for a phone first, real work shown instead of stock images, and a request path that collects what is needed to quote.",
+        "A premium visual style for a renovation and investment company, a rebuild for a 3D laser scanning and BIM company that kept its design, one design system across ten countries and several languages for an education agency, and service sites for a car repair shop and a wheel-renovation workshop with one clear request per page. On a manufacturer’s site I use the same approach: layouts drawn for a phone first, real work shown instead of stock images, and a request path that collects what is needed to quote.",
       picks: [
         "renovation-and-investment-website-with-premium-design",
         "architecture-website-rebuild-and-seo-scan",

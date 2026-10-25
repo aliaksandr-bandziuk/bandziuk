@@ -373,6 +373,22 @@ PAIR_SETS["pl-cities"] = [
   ["łódź: SEO = strony?", "pl", "pozycjonowanie stron łódź", "tworzenie stron internetowych łódź"],
 ];
 
+PAIR_SETS["real-estate-finance"] = [
+  ["риелторы: seo for realtors = real estate seo (наша /seo-for-real-estate)?", "en", "seo for realtors", "real estate seo"],
+  ["риелторы: realtor seo = real estate agent seo?", "en", "seo for realtors", "seo for real estate agents"],
+  ["риелторы: дизайн = сайт агентства (/real-estate-agency-website)?", "en", "realtor website design", "real estate agency website design"],
+  ["риелторы: «realtor website» — чей спрос (IDX-конструкторы)?", "en", "realtor website", "best realtor website builder"],
+  ["риелторы: дизайн = SEO?", "en", "realtor website design", "seo for realtors"],
+  ["финансы: advisor SEO = дизайн?", "en", "financial advisor seo", "financial advisor website design"],
+  ["финансы: «financial advisor website» — чей спрос (Twenty Over Ten, FMG)?", "en", "financial advisor website", "financial advisor website design"],
+  ["страхование: agent seo = agency seo?", "en", "insurance agent seo", "insurance agency seo"],
+  ["страхование: SEO = дизайн?", "en", "insurance agent seo", "insurance agency website design"],
+  ["ипотека: SEO = дизайн?", "en", "mortgage broker seo", "mortgage broker website design"],
+  ["ипотека: mortgage broker seo = loan officer seo?", "en", "mortgage broker seo", "mortgage seo"],
+  ["pl: agent nieruchomości = biuro nieruchomości?", "pl", "strona dla agenta nieruchomości", "strona dla biura nieruchomości"],
+  ["ru: сайт риелтора = сайт агентства недвижимости?", "ru", "сайт для риелтора", "сайт агентства недвижимости"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

@@ -464,6 +464,30 @@ const TOPICS = {
       ru: [],
     },
   },
+  // Stage 2b, batch A — real estate agents and finance (26.10.2026). Existing:
+  // /seo-for-real-estate (+PL/RU, Cyprus, Spain, UAE), /real-estate-agency-website
+  // (+PL/RU), /property-developer-website (+PL). New candidates: realtors / real
+  // estate agents (individual agents), financial advisors, insurance agents, mortgage brokers.
+  "real-estate-finance": {
+    relevant: /realtor|real estate|estate agent|realty|broker|mortgage|loan officer|financial advis|wealth|insurance|nieruchomo|pośrednik|doradc|kredyt|ubezpiecz|недвижим|риелтор|риэлтор|ипотек|финансов|страхов/i,
+    otherPage: {},
+    groups: {
+      "realtors / agents": /realtor|real estate|estate agent|realty|nieruchomo|pośrednik nieruch|недвижим|риелтор|риэлтор/i,
+      "financial advisors": /financial advis|wealth|advisor|doradc[ay] finans|финансов/i,
+      "insurance": /insurance|ubezpiecz|страхов/i,
+      "mortgage": /mortgage|loan officer|kredyt|ипотек/i,
+    },
+    seeds: {
+      en: ["seo for realtors", "real estate seo", "realtor website design", "real estate agent website design", "website for realtors", "seo for real estate agents", "financial advisor seo", "financial advisor website design", "insurance agent seo", "insurance agency website design", "mortgage broker seo", "mortgage broker website design"],
+      pl: ["strona dla agenta nieruchomości", "pozycjonowanie biura nieruchomości", "strona dla doradcy finansowego", "strona dla agenta ubezpieczeniowego", "pozycjonowanie pośrednika kredytowego"],
+      ru: ["сайт для риелтора", "продвижение сайта риелтора", "сайт для финансового консультанта", "сайт страхового агента", "сайт ипотечного брокера"],
+    },
+    serp: {
+      en: ["seo for realtors", "realtor website design", "financial advisor seo"],
+      pl: ["strona dla agenta nieruchomości"],
+      ru: ["сайт для риелтора"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

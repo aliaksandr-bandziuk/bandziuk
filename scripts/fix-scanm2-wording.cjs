@@ -41,12 +41,17 @@ const RULES = {
     ["an architecture studio", "a 3D laser scanning and BIM company"],
   ],
   pl: [
+    ["Biuro architektoniczne, którego ruch organiczny", "Firma skanowania laserowego 3D i modelowania BIM, której ruch organiczny"],
     ["biuro architektoniczne, którego ruch organiczny", "firma skanowania laserowego 3D i modelowania BIM, której ruch organiczny"],
     ["oraz strony biura architektonicznego, firmy", "oraz strony firmy skanowania laserowego 3D i BIM, firmy"],
     ["i biuro architektoniczne", "i firma skanowania laserowego 3D i BIM"],
     ["biuro architektoniczne, ", "firma skanowania laserowego 3D i BIM, "],
   ],
   ru: [
+    ["Архитектурное бюро, органический трафик которого", "Компания 3D-лазерного сканирования и BIM-моделирования, органический трафик которой"],
+    ["Архитектурное бюро, где органический трафик", "Компания 3D-лазерного сканирования и BIM, где органический трафик"],
+    ["Архитектурное бюро, ", "Компания 3D-лазерного сканирования и BIM, "],
+    ["сайт архитектурной студии, у которого", "сайт компании 3D-лазерного сканирования и BIM, у которого"],
     ["архитектурное бюро, органический трафик которого", "компания 3D-лазерного сканирования и BIM-моделирования, органический трафик которой"],
     ["и архитектурного бюро", "и компании 3D-лазерного сканирования и BIM"],
     ["архитектурное бюро", "компания 3D-лазерного сканирования и BIM"],

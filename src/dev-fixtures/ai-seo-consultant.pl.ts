@@ -56,7 +56,7 @@ export const aiSeoConsultantPl = {
       eyebrow: "Portfolio",
       title: "Portfolio SEO: wyniki na stronach, nad którymi pracowałem",
       subtitle:
-        "Biuro architektoniczne, którego ruch organiczny wzrósł 29 razy, agencja edukacyjna w dziesięciu krajach i lokalne firmy usługowe — każdą stronę sprawdziłem, poprawiłem i zmierzyłem sam.",
+        "Firma skanowania laserowego 3D i modelowania BIM, której ruch organiczny wzrósł 29 razy, agencja edukacyjna w dziesięciu krajach i lokalne firmy usługowe — każdą stronę sprawdziłem, poprawiłem i zmierzyłem sam.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "full-multilingual-website-development-and-seo-for-student-services",

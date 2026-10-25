@@ -58,7 +58,7 @@ export const constructionSeoPl = {
       eyebrow: "Portfolio",
       title: "Portfolio SEO: wyniki w wyszukiwarce na stronach, które optymalizowałem",
       subtitle:
-        "Biuro architektoniczne, którego ruch organiczny wzrósł 29 razy, firma remontowa i lokalne firmy usługowe, w których ta sama praca dała mierzalny ruch z wyszukiwarki.",
+        "Firma skanowania laserowego 3D i modelowania BIM, której ruch organiczny wzrósł 29 razy, firma remontowa i lokalne firmy usługowe, w których ta sama praca dała mierzalny ruch z wyszukiwarki.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "architecture-website-rebuild-and-seo-scan",

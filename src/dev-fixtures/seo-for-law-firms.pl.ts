@@ -75,7 +75,7 @@ export const seoForLawFirmsPl = {
       eyebrow: "Portfolio",
       title: "Portfolio SEO: strony firm usługowych, które budowałem i pozycjonowałem",
       subtitle:
-        "Biuro architektoniczne, którego ruch organiczny wzrósł 29 razy, wielojęzyczny serwis agencji edukacyjnej dla dziesięciu krajów, firma remontowo-inwestycyjna, warsztat samochodowy i pracownia renowacji felg. W każdym projekcie chodziło o to samo, czego potrzebuje kancelaria: żeby osoba z konkretną potrzebą trafiła z Google na podstronę, która na nią odpowiada, i wysłała zapytanie.",
+        "Firma skanowania laserowego 3D i modelowania BIM, której ruch organiczny wzrósł 29 razy, wielojęzyczny serwis agencji edukacyjnej dla dziesięciu krajów, firma remontowo-inwestycyjna, warsztat samochodowy i pracownia renowacji felg. W każdym projekcie chodziło o to samo, czego potrzebuje kancelaria: żeby osoba z konkretną potrzebą trafiła z Google na podstronę, która na nią odpowiada, i wysłała zapytanie.",
       // EN slugs; the Polish case is found through translation.metadata
       picks: [
         "architecture-website-rebuild-and-seo-scan",

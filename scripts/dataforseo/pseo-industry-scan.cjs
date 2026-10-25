@@ -17,6 +17,7 @@
 //
 //   node scripts/dataforseo/pseo-industry-scan.cjs --dry-run
 //   node scripts/dataforseo/pseo-industry-scan.cjs --budget 1
+//   node scripts/dataforseo/pseo-industry-scan.cjs --set models   (fixed phrase list → industry-scan-models.md)
 
 const fs = require("fs");
 const path = require("path");
@@ -69,10 +70,30 @@ const EXTRA = [
   ["adult & creators", "cam models", "site", "cam girl website"], ["adult & creators", "adult content creators", "site", "website for adult content creators"],
 ];
 
+// --set <name>: measure a fixed phrase list instead of industry × templates
+const SETS = {
+  models: [
+    "linktree alternative for onlyfans", "linktree for onlyfans", "onlyfans link in bio", "link in bio for onlyfans", "nsfw link in bio",
+    "allmylinks", "beacons onlyfans", "personal website for onlyfans", "onlyfans personal website", "website for onlyfans models",
+    "onlyfans model website", "onlyfans landing page", "onlyfans promotion website", "onlyfans website template", "free website for onlyfans",
+    "onlyfans seo", "onlyfans management agency", "onlyfans agency website", "onlyfans marketing agency", "onlyfans agency seo",
+    "cam model website", "cam girl website", "personal website for cam models", "cam model personal website", "camgirl website builder",
+    "webcam model website builder", "fansite builder", "fan site builder", "how to make a fansite", "create your own fan site",
+    "self hosted fansite", "membership site for models", "clip store website", "sell clips on your own website", "adult membership site",
+    "adult website builder", "adult website hosting", "adult friendly hosting", "adult web hosting", "adult payment processor",
+    "adult website design", "adult web design", "adult web designer", "adult website developer", "adult website development",
+    "adult seo", "adult seo services", "adult seo agency", "seo for adult websites", "adult content creator website",
+    "website for adult creators", "nsfw website builder", "model portfolio website", "modeling portfolio website", "website for models",
+    "model website template", "model website design", "models website design", "fashion model website", "personal website for models",
+  ],
+};
+const SET = flag("set", null);
+
 const norm = (s) => String(s || "").toLowerCase().replace(/\s+/g, " ").trim();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function phrases() {
+  if (SET) return (SETS[SET] || []).map((k) => ({ keyword: norm(k), group: SET, industry: SET, kind: "set" }));
   const out = new Map();
   for (const [group, list] of Object.entries(INDUSTRIES)) for (const ind of list) for (const [kind, t] of TEMPLATES) {
     const k = norm(t(ind)); if (!out.has(k)) out.set(k, { keyword: k, group, industry: ind, kind });
@@ -108,8 +129,15 @@ async function main() {
   const rows = all.map((p) => { const c = cache.get(p.keyword) || { v: 0, c: "", p: "" }; return { ...p, volume: c.v, competition: c.c, cpc: c.p }; });
   const esc = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
   const cols = ["keyword", "volume", "group", "industry", "kind", "competition", "cpc"];
-  fs.writeFileSync(path.join(OUT, "industry-scan-en.csv"), [cols.join(","), ...rows.map((r) => cols.map((c) => esc(r[c])).join(","))].join("\n") + "\n", "utf8");
+  fs.writeFileSync(path.join(OUT, SET ? `industry-scan-${SET}.csv` : "industry-scan-en.csv"), [cols.join(","), ...rows.map((r) => cols.map((c) => esc(r[c])).join(","))].join("\n") + "\n", "utf8");
 
+  if (SET) {
+    const md = [`# Phrase set «${SET}» (EN), ` + new Date().toISOString().slice(0, 10), "", `Spent $${spent.toFixed(3)}.`, "", "| phrase | volume | competition | cpc |", "|---|---|---|---|",
+      ...rows.sort((a, b) => b.volume - a.volume).map((r) => `| ${r.keyword} | ${r.volume} | ${r.competition} | ${r.cpc} |`)];
+    fs.writeFileSync(path.join(OUT, `industry-scan-${SET}.md`), md.join("\n") + "\n", "utf8");
+    console.log(md.join("\n"));
+    return;
+  }
   const by = new Map();
   for (const r of rows) {
     const k = r.industry; if (!by.has(k)) by.set(k, { industry: k, group: r.group, design: 0, seo: 0, site: 0, marketing: 0, top: [] });

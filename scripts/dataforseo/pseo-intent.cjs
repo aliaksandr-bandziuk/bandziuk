@@ -308,6 +308,22 @@ PAIR_SETS["small-business"] = [
   ["ru: сайт малого бизнеса = продвижение?", "ru", "сайт для малого бизнеса", "продвижение сайта малого бизнеса"],
 ];
 
+PAIR_SETS["lawyers"] = [
+  ["юристы: lawyer seo = law firm seo?", "en", "lawyer seo", "law firm seo"],
+  ["юристы: attorney seo = law firm seo?", "en", "attorney seo", "law firm seo"],
+  ["юристы: law firm seo = local seo for lawyers?", "en", "law firm seo", "local seo for lawyers"],
+  ["юристы: personal injury seo — отдельная страница?", "en", "personal injury seo", "law firm seo"],
+  ["юристы: law firm marketing — статья или SEO-страница?", "en", "law firm marketing", "law firm seo"],
+  ["юристы: дизайн = разработка?", "en", "law firm website design", "law firm website development"],
+  ["юристы: web design for lawyers = law firm website design?", "en", "web design for lawyers", "law firm website design"],
+  ["юристы: «lawyer website» — чей спрос?", "en", "lawyer website", "law firm website design"],
+  ["pl: pozycjonowanie kancelarii = pozycjonowanie adwokata?", "pl", "pozycjonowanie kancelarii prawnej", "pozycjonowanie strony adwokata"],
+  ["pl: strona kancelarii = strona adwokata?", "pl", "strona internetowa dla kancelarii", "strona internetowa adwokata"],
+  ["pl: marketing kancelarii — статья или SEO-страница?", "pl", "marketing kancelarii prawnej", "pozycjonowanie kancelarii prawnej"],
+  ["ru: продвижение юрфирмы = продвижение адвоката?", "ru", "продвижение сайта юридической компании", "продвижение сайта адвоката"],
+  ["ru: сайт для юриста = сайт адвоката?", "ru", "сайт для юриста", "сайт адвоката"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

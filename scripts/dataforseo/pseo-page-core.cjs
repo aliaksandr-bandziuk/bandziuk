@@ -364,6 +364,31 @@ const TOPICS = {
       ru: ["продвижение сайта малого бизнеса"],
     },
   },
+  // Stage 2, group 5 — lawyers and law firms (25.10.2026). Existing pages: EN
+  // /seo-for-law-firms, /lawyer-website-development; PL /pl/seo-dla-kancelarii-prawnych,
+  // /pl/strona-internetowa-dla-adwokata, /pl/oferty/pozycjonowanie-strony-kancelarii-prawnej-warszawa;
+  // RU /ru/seo-dlya-yuridicheskogo-sayta, /ru/sozdanie-saita-dlya-advokata.
+  "lawyers": {
+    relevant: /lawyer|law firm|law office|attorney|legal|solicitor|barrister|personal injury|family law|criminal defen|immigration law|estate planning|kancelari|adwokat|radc|prawn|prawnik|notariusz|юрист|юридич|адвокат|нотариус|правов/i,
+    otherPage: {
+      warsaw: /warsz|warsaw|варшав/i,
+    },
+    groups: {
+      "practice areas": /personal injury|family law|divorce|criminal|immigration|estate|bankruptcy|employment|dui|rozwod|karn|rodzinn|развод|уголовн|миграц/i,
+      "SEO / marketing": /\bseo\b|marketing|advertis|ppc|lead|pozycjon|reklam|marketing|продвиж|раскрут|реклам|маркетинг/i,
+      "website / design": /website|site\b|web\b|design|template|strona|stron|projekt|сайт|дизайн|шаблон|лендинг/i,
+    },
+    seeds: {
+      en: ["lawyer seo", "law firm seo", "attorney seo", "legal seo", "local seo for lawyers", "personal injury seo", "law firm marketing", "law firm website design", "web design for lawyers", "lawyer website", "law firm website development", "attorney website design"],
+      pl: ["pozycjonowanie kancelarii prawnej", "pozycjonowanie strony adwokata", "marketing kancelarii prawnej", "strona internetowa dla kancelarii", "strona dla radcy prawnego", "strona internetowa adwokata"],
+      ru: ["продвижение сайта юридической компании", "продвижение сайта адвоката", "seo для юристов", "сайт для юриста", "сайт для юридической компании", "сайт адвоката"],
+    },
+    serp: {
+      en: ["lawyer seo", "law firm website design"],
+      pl: ["pozycjonowanie kancelarii prawnej"],
+      ru: ["продвижение сайта юридической компании"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

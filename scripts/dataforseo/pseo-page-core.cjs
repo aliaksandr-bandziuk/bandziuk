@@ -520,6 +520,46 @@ const TOPICS = {
       ru: ["продвижение клиники косметологии"],
     },
   },
+  // Stage 2b, batch C — home services (27.10.2026). Existing: cleaning-company-website
+  // (+PL/RU), PL Warsaw cleaning SEO, construction / contractor pages, trades (roofing,
+  // HVAC, landscaping, painting…), logistics-company-website. New candidates: pest
+  // control, movers, home builders, interior designers, handyman, locksmiths, carpet
+  // cleaning, junk removal, flooring, appliance repair, tree service, pressure washing,
+  // garage doors, restoration, home inspectors.
+  "home-services": {
+    relevant: /pest|extermin|mover|moving|home build|interior design|handyman|locksmith|carpet|junk|flooring|floor|appliance|tree service|arborist|pressure wash|power wash|garage door|restoration|water damage|home inspect|house clean|window clean|deratyz|dezynsek|szkodnik|przeprowadz|dom(y|ów) pod klucz|budow[ay] dom|projektant wnętrz|projektowanie wnętrz|złota rączka|złotej rączki|ślusarz|pranie dywan|wywóz|podłog|naprawa (agd|pralek)|wycinka drzew|bram[ay] garażow|osuszanie|inspektor budowlan|дезинсекц|дератизац|переезд|грузоперевоз|строительств[оа] дом|дизайн[а-я]* интерьер|муж на час|мастер на час|вскрытие замк|замочник|химчистк[а-я]* ковр|вывоз мусор|напольн|ремонт (бытовой )?техник|спил деревьев|гаражн|клининг|уборк/i,
+    otherPage: {
+      "cleaning company page": /cleaning company|cleaning business|firma sprzątając|клининговой компании/i,
+      "construction / contractors pages": /construction compan|general contractor|firma budowlan|строительной компании/i,
+    },
+    groups: {
+      "pest control": /pest|extermin|deratyz|dezynsek|szkodnik|дезинсекц|дератизац/i,
+      "movers": /mover|moving|przeprowadz|переезд|грузоперевоз/i,
+      "home builders": /home build|dom(y|ów) pod klucz|budow[ay] dom|строительств[оа] дом/i,
+      "interior designers": /interior design|projektant wnętrz|projektowanie wnętrz|дизайн[а-я]* интерьер/i,
+      "handyman": /handyman|złota rączka|złotej rączki|муж на час|мастер на час/i,
+      "locksmiths": /locksmith|ślusarz|вскрытие замк|замочник/i,
+      "cleaning (carpet / house / window)": /carpet|house clean|window clean|pranie dywan|химчистк|клининг|уборк/i,
+      "junk removal": /junk|wywóz|вывоз мусор/i,
+      "flooring": /floor|podłog|напольн/i,
+      "appliance repair": /appliance|naprawa (agd|pralek)|ремонт (бытовой )?техник/i,
+      "tree service": /tree service|arborist|wycinka drzew|спил деревьев/i,
+      "pressure washing": /pressure wash|power wash/i,
+      "garage doors": /garage door|bram[ay] garażow|гаражн/i,
+      "restoration": /restoration|water damage|osuszanie/i,
+      "home inspectors": /home inspect|inspektor budowlan/i,
+    },
+    seeds: {
+      en: ["pest control seo", "pest control website design", "seo for moving companies", "seo for movers", "home builder website design", "seo for home builders", "website for interior designers", "seo for interior designers", "handyman website", "locksmith seo", "carpet cleaning seo", "junk removal seo", "seo for flooring companies", "appliance repair seo", "tree service seo", "pressure washing website", "garage door seo", "restoration seo", "seo for home inspectors"],
+      pl: ["pozycjonowanie firmy przeprowadzkowej", "strona dla firmy przeprowadzkowej", "pozycjonowanie firmy deratyzacyjnej", "strona dla projektanta wnętrz", "pozycjonowanie projektanta wnętrz", "strona dla firmy budującej domy", "strona dla złotej rączki", "pozycjonowanie ślusarza", "pozycjonowanie firmy prania dywanów", "pozycjonowanie firmy montażu podłóg"],
+      ru: ["продвижение сайта грузоперевозок", "сайт для компании по переездам", "продвижение сайта дезинсекции", "сайт дизайнера интерьера", "продвижение дизайнера интерьера", "сайт для строительства домов", "сайт мастера на час", "продвижение сайта вскрытия замков", "продвижение химчистки ковров", "продвижение сайта вывоза мусора"],
+    },
+    serp: {
+      en: ["pest control seo", "seo for moving companies", "website for interior designers"],
+      pl: ["pozycjonowanie firmy przeprowadzkowej"],
+      ru: ["сайт дизайнера интерьера"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

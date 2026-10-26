@@ -414,6 +414,36 @@ PAIR_SETS["medical-practices"] = [
   ["ru: косметология = пластический хирург?", "ru", "продвижение клиники косметологии", "продвижение сайта пластического хирурга"],
 ];
 
+PAIR_SETS["home-services"] = [
+  ["дезинсекция: SEO = дизайн?", "en", "pest control seo", "pest control website design"],
+  ["переезды: moving companies = movers?", "en", "seo for moving companies", "seo for movers"],
+  ["переезды: SEO = сайт?", "en", "seo for moving companies", "moving company website design"],
+  ["дома: home builder website = construction company website (наша)?", "en", "home builder website design", "construction company website design"],
+  ["дома: home builder seo = construction seo (наша)?", "en", "seo for home builders", "seo for construction companies"],
+  ["дома: SEO = сайт?", "en", "seo for home builders", "home builder website design"],
+  ["интерьер: «website for interior designers» — чей спрос (конструкторы, портфолио)?", "en", "website for interior designers", "interior designer website design"],
+  ["интерьер: SEO = сайт?", "en", "seo for interior designers", "interior designer website design"],
+  ["мастер на час: «handyman website» — чей спрос?", "en", "handyman website", "handyman website design"],
+  ["мастер на час: SEO = сайт?", "en", "handyman seo", "handyman website design"],
+  ["замки: SEO = сайт?", "en", "locksmith seo", "locksmith website design"],
+  ["ковры: carpet cleaning seo = cleaning company seo?", "en", "carpet cleaning seo", "cleaning company seo"],
+  ["уборка: «house cleaning website» = cleaning company website (наша)?", "en", "house cleaning website", "cleaning company website"],
+  ["мусор: SEO = сайт?", "en", "junk removal seo", "junk removal website"],
+  ["полы: flooring seo = seo for contractors (наша)?", "en", "seo for flooring companies", "seo for contractors"],
+  ["техника: SEO = сайт?", "en", "appliance repair seo", "appliance repair website"],
+  ["деревья: tree service seo = landscaping seo (наша)?", "en", "tree service seo", "landscaping seo"],
+  ["мойка: «pressure washing website» = дизайн?", "en", "pressure washing website", "pressure washing website design"],
+  ["гаражные двери: garage door seo = seo for contractors?", "en", "garage door seo", "seo for contractors"],
+  ["восстановление: restoration seo = water damage restoration seo?", "en", "restoration seo", "water damage restoration seo"],
+  ["инспекторы: SEO = marketing?", "en", "seo for home inspectors", "home inspector marketing"],
+  ["pl: przeprowadzki SEO = strona?", "pl", "pozycjonowanie firmy przeprowadzkowej", "strona dla firmy przeprowadzkowej"],
+  ["pl: wnętrza strona = pozycjonowanie?", "pl", "strona dla projektanta wnętrz", "pozycjonowanie projektanta wnętrz"],
+  ["pl: domy = firma budowlana (nasza)?", "pl", "strona dla firmy budującej domy", "strona dla firmy budowlanej"],
+  ["ru: переезды SEO = сайт?", "ru", "продвижение сайта грузоперевозок", "сайт для компании по переездам"],
+  ["ru: дизайнер интерьера сайт = продвижение?", "ru", "сайт дизайнера интерьера", "продвижение дизайнера интерьера"],
+  ["ru: строительство домов = строительная компания (наша)?", "ru", "сайт для строительства домов", "сайт строительной компании"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

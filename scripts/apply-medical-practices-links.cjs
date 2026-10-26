@@ -77,8 +77,8 @@ const TEXT = [
   { lang: "ru", slug: "prodvizhenie-medicinskogo-saita", para: list("Продвижение практик конкретного профиля: ", [
     ["психолога", "/ru/prodvizhenie-saita-psihologa"], ["остеопата и мануального терапевта", "/ru/prodvizhenie-saita-osteopata"], ["пластического хирурга", "/ru/prodvizhenie-saita-plasticheskogo-hirurga"], ["клиники косметологии", "/ru/prodvizhenie-kliniki-kosmetologii"],
     ["дерматологической клиники", "/ru/prodvizhenie-dermatologicheskoy-kliniki"], ["ортодонта", "/ru/prodvizhenie-saita-ortodonta"], ["салона оптики", "/ru/prodvizhenie-salona-optiki"], ["пансионата для пожилых", "/ru/prodvizhenie-pansionata-dlya-pozhilyh"]], " и ") },
-  { lang: "ru", slug: "sait-dlya-kliniki", para: list("Сайты для практик конкретного профиля: ", [
-    ["для психолога", "/ru/sait-dlya-psihologov-terapevtov"], ["для остеопата", "/ru/sait-dlya-osteopata"], ["пластического хирурга", "/ru/sait-plasticheskogo-hirurga"], ["клиники косметологии", "/ru/sait-kliniki-kosmetologii"],
+  { lang: "ru", slug: "sait-dlya-kliniki", para: list("Сайт для практики конкретного профиля: ", [
+    ["психолога", "/ru/sait-dlya-psihologov-terapevtov"], ["остеопата", "/ru/sait-dlya-osteopata"], ["пластического хирурга", "/ru/sait-plasticheskogo-hirurga"], ["клиники косметологии", "/ru/sait-kliniki-kosmetologii"],
     ["ортодонта", "/ru/sait-ortodonta"], ["салона оптики", "/ru/sait-salona-optiki"], ["пансионата для пожилых", "/ru/sait-pansionata-dlya-pozhilyh"]], " и ") },
   { lang: "ru", slug: "seo-prodvizhenie-stomatologii", para: para("У ортодонта другие пациенты и другие запросы — об этом на странице ", ["продвижение сайта ортодонта", "/ru/prodvizhenie-saita-ortodonta"], ".") },
 ];

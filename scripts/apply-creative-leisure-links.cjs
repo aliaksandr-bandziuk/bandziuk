@@ -61,19 +61,19 @@ const HUB = ["en", "pl", "ru"].flatMap((lang) => [
 
 const TEXT = [
   { lang: "en", slug: "beauty-salon-website", para: list("Sites for neighbouring beauty businesses: ", [
-    ["hair salons and barbershops", "/hair-salon-website-design"], ["makeup artists", "/makeup-artist-website-design"], ["day spas and massage studios", "/spa-website-design"]], " and ") },
+    ["hair salons and barbershops", "/hair-salon-website-design"], ["makeup artists", "/makeup-artist-website-design"], ["day spas", "/spa-website-design"]], " and ") },
   { lang: "pl", slug: "strona-salonu-kosmetycznego", para: list("Strony dla pokrewnych branż beauty: ", [
     ["dla salonu fryzjerskiego i barbershopu", "/pl/strona-internetowa-dla-salonu-fryzjerskiego"], ["dla wizażystki", "/pl/strona-internetowa-dla-wizazystki"], ["dla spa i salonu masażu", "/pl/strona-internetowa-dla-spa"]], " i ") },
   { lang: "ru", slug: "sait-salona-krasoty", para: list("Сайты для соседних бьюти-направлений: ", [
     ["парикмахерская и барбершоп", "/ru/sait-parikmaherskoy-i-barbershopa"], ["визажист", "/ru/sait-vizazhista"], ["СПА-салон", "/ru/sait-spa-salona"]], " и ") },
   { lang: "en", slug: "photographer-website", para: list("Websites for other creative work: ", [
-    ["artists", "/artist-website-design"], ["bands, musicians and DJs", "/band-website-design"], ["authors", "/author-website-design"]], " and ") },
+    ["bands and DJs", "/band-website-design"], ["artists", "/artist-website-design"], ["authors", "/author-website-design"]], " and ") },
   { lang: "pl", slug: "strona-dla-fotografa", para: list("Strony dla innych twórców: ", [
     ["dla artysty", "/pl/strona-internetowa-dla-artysty"], ["dla zespołu muzycznego", "/pl/strona-internetowa-dla-zespolu-muzycznego"], ["dla pisarza", "/pl/strona-internetowa-dla-pisarza"]], " i ") },
   { lang: "ru", slug: "sait-dlya-fotografa", para: list("Сайты для других творческих профессий: ", [
     ["художник", "/ru/sait-dlya-hudozhnika"], ["музыкальная группа", "/ru/sait-dlya-muzykalnoy-gruppy"], ["писатель", "/ru/sait-dlya-pisatelya"]], " и ") },
   { lang: "en", slug: "travel-agency-website", para: para("Tour and activity operators — tours by destination, OTAs and direct bookings — have their own page: ", ["SEO for tour operators", "/seo-for-tour-operators"], ".") },
-  { lang: "pl", slug: "strona-dla-biura-podrozy", para: para("O tym, jak wycieczki i wyjazdy znajdują klientów w Google, piszę na stronie ", ["pozycjonowanie biura podróży", "/pl/pozycjonowanie-strony-biura-podrozy"], ".") },
+  { lang: "pl", slug: "strona-dla-biura-podrozy", para: para("O tym, jak wycieczki i wyjazdy znajdują klientów w Google, piszę na stronie ", ["pozycjonowanie strony biura podróży", "/pl/pozycjonowanie-strony-biura-podrozy"], ".") },
   { lang: "ru", slug: "sait-dlya-turagentstva", para: para("Как туры и экскурсии находят туристов в поиске, описано на странице ", ["продвижение туроператора", "/ru/prodvizhenie-turoperatora"], ".") },
   { lang: "en", slug: "hotel-website-design", para: para("A smaller property run by its owners — a few rooms and breakfast — is covered on the ", ["bed and breakfast website design", "/bed-and-breakfast-website-design"], " page.") },
   { lang: "pl", slug: "strona-dla-hotelu", para: para("Mniejszy obiekt prowadzony przez właścicieli opisuję na stronie ", ["strona internetowa dla pensjonatu", "/pl/strona-internetowa-dla-pensjonatu"], ".") },

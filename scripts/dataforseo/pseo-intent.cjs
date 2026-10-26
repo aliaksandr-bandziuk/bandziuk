@@ -444,6 +444,40 @@ PAIR_SETS["home-services"] = [
   ["ru: строительство домов = строительная компания (наша)?", "ru", "сайт для строительства домов", "сайт строительной компании"],
 ];
 
+PAIR_SETS["creative-leisure"] = [
+  ["залы: «website for gyms» — чей спрос?", "en", "website for gyms", "gym website design"],
+  ["залы: gym website design = fitness studio website (наша)?", "en", "gym website design", "fitness studio website"],
+  ["залы: SEO = дизайн?", "en", "gym seo", "gym website design"],
+  ["тренеры: «website for personal trainers» — чей спрос?", "en", "website for personal trainers", "personal trainer website design"],
+  ["авторы: «website for authors» — чей спрос?", "en", "website for authors", "author website design"],
+  ["художники: «website for artists» — чей спрос?", "en", "website for artists", "artist website design"],
+  ["группы: «website for bands» — чей спрос?", "en", "website for bands", "band website design"],
+  ["музыканты: seo for musicians = band website design?", "en", "seo for musicians", "band website design"],
+  ["подкасты: seo for podcasters = podcast seo (оптимизация самого подкаста)?", "en", "seo for podcasters", "podcast seo"],
+  ["B&B: дизайн = vacation rental website design (наша)?", "en", "bed and breakfast website design", "vacation rental website design"],
+  ["B&B: «website for bed and breakfast» — чей спрос?", "en", "website for bed and breakfast", "bed and breakfast website design"],
+  ["коучи: «website for life coaches» — чей спрос?", "en", "website for life coaches", "life coach website design"],
+  ["коучи: дизайн = SEO?", "en", "life coach website design", "seo for coaches"],
+  ["винодельни: SEO = дизайн?", "en", "winery seo", "winery website design"],
+  ["туроператоры: tour operator seo = travel agency website (наша)?", "en", "seo for tour operators", "travel agency website"],
+  ["автосалоны: «website for car dealers» — чей спрос?", "en", "website for car dealers", "car dealer website design"],
+  ["автосалоны: SEO = дизайн?", "en", "car dealer seo", "car dealer website design"],
+  ["цветы: «website for florists» — чей спрос?", "en", "website for florists", "florist website design"],
+  ["цветы: SEO = дизайн?", "en", "florist seo", "florist website design"],
+  ["спа: spa seo = med spa seo (наша)?", "en", "spa seo", "med spa seo"],
+  ["спа: SEO = дизайн?", "en", "spa seo", "spa website design"],
+  ["парикмахерские: hair salon website = beauty salon website (наша)?", "en", "website for hair salons", "beauty salon website"],
+  ["парикмахерские: hair salon seo = seo for beauty salons (наша)?", "en", "hair salon seo", "seo for beauty salons"],
+  ["диджеи: «website for djs» — чей спрос?", "en", "website for djs", "dj website design"],
+  ["визажисты: «website for makeup artists» — чей спрос?", "en", "website for makeup artists", "makeup artist website design"],
+  ["детейлинг: «auto detailing website» = дизайн?", "en", "auto detailing website", "auto detailing website design"],
+  ["прокат: car rental seo = car rental website design?", "en", "car rental seo", "car rental website design"],
+  ["pl: trener personalny = siłownia?", "pl", "strona dla trenera personalnego", "strona dla siłowni"],
+  ["pl: fryzjer strona = pozycjonowanie?", "pl", "strona dla salonu fryzjerskiego", "pozycjonowanie salonu fryzjerskiego"],
+  ["ru: фитнес-клуб = тренер?", "ru", "сайт для фитнес клуба", "сайт для тренера"],
+  ["ru: коуч = психолог (наша)?", "ru", "сайт для коуча", "сайт для психолога"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

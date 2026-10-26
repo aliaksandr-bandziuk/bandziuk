@@ -560,6 +560,47 @@ const TOPICS = {
       ru: ["сайт дизайнера интерьера"],
     },
   },
+  // Stage 2b, batch D — creative professions, leisure and services (27.10.2026). Existing:
+  // fitness-studio-website (+PL/RU), beauty-salon pages EN/PL/RU, med-spa pages, photographer
+  // pages, hotel / vacation-rental pages, travel-agency-website, accounting-firm-website.
+  // Many «website for X» phrases here may be customers' or builders' demand — the SERP decides.
+  // Funeral services are excluded by the owner (27.10.2026) — never build pages for them.
+  "creative-leisure": {
+    relevant: /gym|fitness|personal train|author|writer|artist|band|musician|podcast|\bdj|makeup|bed and breakfast|b&b|guest ?house|winer|vineyard|tour operator|coach|detailing|car deal|dealership|car rental|florist|flower shop|\bspa\b|hair salon|barber|funeral|siłowni|trener|pisarz|autor|artyst|zespoł|muzyk|wizaż|pensjonat|agroturyst|winnic|coach|komis|salon samochod|wypożyczaln|kwiaciar|fryzjer|barber|dom pogrzebow|zakład pogrzebow|фитнес|тренер|писател|автор|художник|групп|музыкант|подкаст|визажист|гостев|винодель|туроператор|коуч|детейлинг|автосалон|прокат авто|цвет|парикмахер|барбершоп|ритуальн/i,
+    otherPage: {
+      "fitness studio page": /fitness studio|studia fitness|фитнес.студ/i,
+      "beauty salon pages": /beauty salon|salon kosmetyczn|салон красоты/i,
+      "med spa pages": /med ?spa|medical spa/i,
+      "hotel / vacation rental pages": /hotel|vacation rental|airbnb/i,
+      "travel agency page": /travel agenc|biur[ao] podróży|турагентств/i,
+    },
+    groups: {
+      "gyms / trainers": /gym|fitness|personal train|siłowni|trener|фитнес|тренер/i,
+      "authors": /author|writer|pisarz|autor|писател|автор/i,
+      "artists": /artist|artyst|художник/i,
+      "bands / musicians / djs": /band|musician|\bdj|zespoł|muzyk|групп|музыкант/i,
+      "podcasters": /podcast|подкаст/i,
+      "makeup artists": /makeup|wizaż|визажист/i,
+      "b&b / guesthouses": /bed and breakfast|b&b|guest ?house|pensjonat|agroturyst|гостев/i,
+      "wineries": /winer|vineyard|winnic|винодель/i,
+      "tour operators": /tour operator|туроператор/i,
+      "coaches": /coach|коуч/i,
+      "auto detailing / dealers / rental": /detailing|car deal|dealership|car rental|komis|salon samochod|wypożyczaln|детейлинг|автосалон|прокат авто/i,
+      "florists": /florist|flower shop|kwiaciar|цвет/i,
+      "spas / hair salons / barbers": /\bspa\b|hair salon|barber|fryzjer|парикмахер|барбершоп/i,
+      "funeral homes": /funeral|pogrzeb|ритуальн/i,
+    },
+    seeds: {
+      en: ["gym website design", "gym seo", "personal trainer website", "author website design", "artist website design", "band website design", "seo for musicians", "seo for podcasters", "bed and breakfast website design", "life coach website design", "seo for coaches", "winery seo", "winery website design", "seo for tour operators", "car dealer website design", "car dealer seo", "auto detailing website", "car rental seo", "florist website design", "florist seo", "spa seo", "hair salon website", "hair salon seo", "dj website", "makeup artist website", "funeral home seo"],
+      pl: ["strona dla trenera personalnego", "strona dla siłowni", "strona dla pisarza", "strona dla artysty", "strona dla zespołu muzycznego", "strona dla pensjonatu", "strona dla coacha", "strona dla kwiaciarni", "strona dla salonu fryzjerskiego", "pozycjonowanie salonu fryzjerskiego", "strona dla komisu samochodowego", "strona dla zakładu pogrzebowego"],
+      ru: ["сайт для фитнес клуба", "сайт для тренера", "сайт для писателя", "сайт для художника", "сайт для музыкальной группы", "сайт для гостевого дома", "сайт для коуча", "сайт цветочного магазина", "сайт для барбершопа", "продвижение автосалона", "сайт для детейлинга", "сайт ритуальных услуг"],
+    },
+    serp: {
+      en: ["gym website design", "author website design", "seo for podcasters"],
+      pl: ["strona dla trenera personalnego"],
+      ru: ["сайт для тренера"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

@@ -601,6 +601,34 @@ const TOPICS = {
       ru: ["сайт для тренера"],
     },
   },
+  // Stage 2b, batch E — adult industry and creators (27.10.2026). Existing: /website-design-for-models
+  // (+PL strona-internetowa-dla-modelki, RU sozdanie-saita-modeli). Candidates: adult website design,
+  // adult SEO (both with sections for models/creators and OnlyFans agencies), model portfolio website.
+  // Pages are written without explicit content and are not placed in the general services hubs.
+  "adult": {
+    relevant: /adult|nsfw|onlyfans|fansly|cam ?model|webcam|camgirl|creator|fansite|fan site|model|modelk|modelin|dla dorosłych|erotyczn|модел|для взрослых|вебкам|эротическ/i,
+    otherPage: {
+      "model website page (ours)": /model portfolio|modeling portfolio|website for models|model website|strona dla modelki|portfolio modelki|сайт модели|портфолио модели/i,
+    },
+    groups: {
+      "adult website design / development": /adult (web|website)|nsfw website|strony dla dorosłych|сайт[а-я]* для взрослых/i,
+      "adult seo": /adult seo|seo for adult|pozycjonowanie stron (dla dorosłych|erotycznych)|продвижение сайтов для взрослых/i,
+      "onlyfans / agencies": /onlyfans|fansly|agency|agencja|агентств/i,
+      "cam / creators": /cam ?model|webcam|camgirl|creator|вебкам|kamerk/i,
+      "models / portfolio": /model|modelk|модел/i,
+      "hosting / payments": /hosting|payment|processor|хостинг|płatnoś/i,
+    },
+    seeds: {
+      en: ["adult website design", "adult seo", "seo for adult websites", "onlyfans agency website", "onlyfans management agency", "model portfolio website", "adult website development"],
+      pl: ["strona dla modelki", "strony internetowe dla dorosłych", "pozycjonowanie stron dla dorosłych", "agencja onlyfans"],
+      ru: ["сайт для модели", "сайт для взрослых разработка", "продвижение сайтов для взрослых", "агентство onlyfans"],
+    },
+    serp: {
+      en: ["adult website design", "adult seo", "onlyfans management agency"],
+      pl: ["strona dla modelki"],
+      ru: ["сайт для модели"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

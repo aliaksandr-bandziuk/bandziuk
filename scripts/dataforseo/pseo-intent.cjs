@@ -478,6 +478,24 @@ PAIR_SETS["creative-leisure"] = [
   ["ru: коуч = психолог (наша)?", "ru", "сайт для коуча", "сайт для психолога"],
 ];
 
+PAIR_SETS["adult"] = [
+  ["adult: дизайн = SEO?", "en", "adult website design", "adult seo"],
+  ["adult: adult seo = seo for adult websites?", "en", "adult seo", "seo for adult websites"],
+  ["adult: adult seo = adult seo agency?", "en", "adult seo", "adult seo agency"],
+  ["adult: website design = website development?", "en", "adult website design", "adult website development"],
+  ["adult: дизайн = хостинг (adult website hosting)?", "en", "adult website design", "adult website hosting"],
+  ["onlyfans: «onlyfans management agency» — чей спрос (креаторы ищут агентство)?", "en", "onlyfans management agency", "onlyfans agency website"],
+  ["onlyfans: agency website = adult website design?", "en", "onlyfans agency website", "adult website design"],
+  ["onlyfans: «onlyfans marketing agency» = management agency?", "en", "onlyfans marketing agency", "onlyfans management agency"],
+  ["модели: model portfolio website = website for models (наша)?", "en", "model portfolio website", "website for models"],
+  ["модели: model portfolio website = model website design?", "en", "model portfolio website", "model website design"],
+  ["модели: model website design = adult website design?", "en", "model website design", "adult website design"],
+  ["pl: strona dla modelki = strony dla dorosłych?", "pl", "strona dla modelki", "strony internetowe dla dorosłych"],
+  ["pl: strony dla dorosłych = pozycjonowanie?", "pl", "strony internetowe dla dorosłych", "pozycjonowanie stron dla dorosłych"],
+  ["ru: сайт для модели = сайты для взрослых?", "ru", "сайт для модели", "сайт для взрослых разработка"],
+  ["ru: сайты для взрослых = продвижение?", "ru", "сайт для взрослых разработка", "продвижение сайтов для взрослых"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

@@ -389,6 +389,31 @@ PAIR_SETS["real-estate-finance"] = [
   ["ru: сайт риелтора = сайт агентства недвижимости?", "ru", "сайт для риелтора", "сайт агентства недвижимости"],
 ];
 
+PAIR_SETS["medical-practices"] = [
+  ["терапевты: seo for therapists = seo for psychologists?", "en", "seo for therapists", "seo for psychologists"],
+  ["терапевты: SEO = дизайн (/website-for-psychologists-therapists)?", "en", "seo for therapists", "therapist website design"],
+  ["терапевты: «therapist website» — чей спрос (SimplePractice, Psychology Today)?", "en", "therapist website", "therapist website design"],
+  ["хиропрактики: SEO = дизайн?", "en", "seo for chiropractors", "chiropractor website design"],
+  ["хиропрактики: chiropractor seo = physical therapy seo?", "en", "seo for chiropractors", "seo for physical therapists"],
+  ["пластика: SEO = дизайн?", "en", "seo for plastic surgeons", "plastic surgeon website design"],
+  ["пластика: plastic surgeon seo = med spa seo?", "en", "seo for plastic surgeons", "med spa seo"],
+  ["эстетика: med spa seo = dermatology seo?", "en", "med spa seo", "seo for dermatologists"],
+  ["эстетика: med spa SEO = дизайн?", "en", "med spa seo", "med spa website design"],
+  ["ортодонты: SEO = dentist seo (/dentist-seo)?", "en", "seo for orthodontists", "dentist seo"],
+  ["ортодонты: дизайн = dental website design (/dental-website-design)?", "en", "orthodontist website design", "dental website design"],
+  ["оптометристы: дизайн = SEO?", "en", "optometrist website design", "optometry seo"],
+  ["сеньоры: assisted living = senior living (дизайн)?", "en", "assisted living website design", "senior living website design"],
+  ["сеньоры: SEO = дизайн?", "en", "senior living seo", "assisted living website design"],
+  ["pl: psycholog SEO = strona (/pl/strona-dla-psychologow-terapeutow)?", "pl", "pozycjonowanie strony psychologa", "strona dla psychologa"],
+  ["pl: fizjoterapia SEO = strona?", "pl", "pozycjonowanie gabinetu fizjoterapii", "strona dla fizjoterapeuty"],
+  ["pl: medycyna estetyczna SEO = strona?", "pl", "pozycjonowanie kliniki medycyny estetycznej", "strona dla kliniki medycyny estetycznej"],
+  ["pl: medycyna estetyczna = chirurg plastyczny?", "pl", "pozycjonowanie kliniki medycyny estetycznej", "pozycjonowanie chirurga plastycznego"],
+  ["pl: dom opieki SEO = strona?", "pl", "pozycjonowanie domu opieki", "strona dla domu seniora"],
+  ["ru: психолог SEO = сайт (/ru/sait-dlya-psihologov-terapevtov)?", "ru", "продвижение сайта психолога", "сайт для психолога"],
+  ["ru: косметология SEO = сайт?", "ru", "продвижение клиники косметологии", "сайт для косметологии"],
+  ["ru: косметология = пластический хирург?", "ru", "продвижение клиники косметологии", "продвижение сайта пластического хирурга"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);
@@ -429,8 +454,19 @@ async function main() {
 
   for (const k of queries.keys()) {
     const [lang, kw] = k.split("|");
+    // cached per query: a rerun after a failure pays only for what is missing
+    const file = path.join(DIR, "raw", "intent", `${lang}-${kw.replace(/[^\p{L}\p{N}]+/gu, "-")}.json`);
+    if (fs.existsSync(file)) { process.stdout.write("c"); queries.set(k, JSON.parse(fs.readFileSync(file, "utf8"))); continue; }
     process.stdout.write(".");
-    queries.set(k, await serp(lang, kw));
+    try {
+      const r = await serp(lang, kw);
+      fs.mkdirSync(path.dirname(file), { recursive: true });
+      fs.writeFileSync(file, JSON.stringify(r), "utf8");
+      queries.set(k, r);
+    } catch (e) {
+      console.log(`\n! «${kw}» (${lang}): ${e.message} — pair skipped, rerun later`);
+      queries.set(k, null);
+    }
     await new Promise((r) => setTimeout(r, 1000));
   }
   console.log("\n");
@@ -443,6 +479,7 @@ async function main() {
   for (const [topic, lang, a, b] of PAIRS) {
     const A = queries.get(`${lang}|${a}`);
     const B = queries.get(`${lang}|${b}`);
+    if (!A || !B) { say(""); say(`## ${topic} · ${lang}: «${a}» и «${b}»`); say("  нет данных — запрос не удался, перезапустить"); continue; }
     const common = A.urls.filter((u) => B.urls.includes(u));
     const commonHosts = [...new Set(A.urls.map(host))].filter((h) => B.urls.map(host).includes(h));
     say("");

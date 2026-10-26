@@ -488,6 +488,38 @@ const TOPICS = {
       ru: ["сайт для риелтора"],
     },
   },
+  // Stage 2b, batch B — medical practices (27.10.2026). Existing: /medical-seo,
+  // /seo-for-doctors, /healthcare-seo, /medical-website-design (+PL/RU), /dentist-seo
+  // (+PL/RU), /dental-website-design, /website-for-psychologists-therapists (+PL/RU),
+  // beauty-salon pages EN/PL/RU. New candidates: therapists SEO, chiropractors /
+  // physiotherapists, plastic surgeons, med spas / aesthetic medicine, orthodontists,
+  // optometrists / opticians, assisted / senior living, dermatologists.
+  "medical-practices": {
+    relevant: /therap|psycholog|counsel|chiro|physio|physical therap|plastic surg|cosmetic surg|med ?spa|aesthetic|dermatolog|orthodont|optomet|optician|eye care|assisted living|senior living|nursing home|care home|psychoterap|fizjoter|kręgarz|osteopat|chirurg plast|medycyn[ay] estetyczn|klinik[ai] estetyczn|ortodont|optyk|okulist|dom opieki|dom seniora|dermatolog|психолог|психотерап|мануальн|остеопат|пластическ|косметолог|эстетическ|ортодонт|оптик|офтальмолог|пансионат|дом престарел|дерматолог/i,
+    otherPage: {
+      dental: /dentist|dental|stomatolog|стоматолог/i,
+      "beauty salon": /beauty salon|salon kosmetyczn|салон красоты/i,
+    },
+    groups: {
+      "therapists / psychologists": /therap|psycholog|counsel|psychoterap|психолог|психотерап/i,
+      "chiropractors / physio": /chiro|physio|physical therap|fizjoter|kręgarz|osteopat|мануальн|остеопат/i,
+      "plastic surgery / aesthetic": /plastic surg|cosmetic surg|med ?spa|aesthetic|chirurg plast|estetyczn|пластическ|косметолог|эстетическ/i,
+      "dermatology": /dermatolog|дерматолог/i,
+      "orthodontists": /orthodont|ortodont|ортодонт/i,
+      "optometrists / opticians": /optomet|optician|eye care|optyk|okulist|оптик|офтальмолог/i,
+      "senior living": /assisted living|senior living|nursing home|care home|dom opieki|dom seniora|пансионат|дом престарел/i,
+    },
+    seeds: {
+      en: ["seo for therapists", "therapist website design", "seo for psychologists", "seo for chiropractors", "chiropractor website design", "seo for physical therapists", "seo for plastic surgeons", "plastic surgeon website design", "med spa seo", "med spa website design", "seo for dermatologists", "seo for orthodontists", "orthodontist website design", "optometrist website design", "optometry seo", "assisted living website design", "senior living seo"],
+      pl: ["pozycjonowanie strony psychologa", "pozycjonowanie gabinetu fizjoterapii", "strona dla fizjoterapeuty", "pozycjonowanie kliniki medycyny estetycznej", "strona dla kliniki medycyny estetycznej", "pozycjonowanie chirurga plastycznego", "strona dla ortodonty", "strona dla salonu optycznego", "pozycjonowanie domu opieki", "strona dla domu seniora", "pozycjonowanie gabinetu dermatologicznego"],
+      ru: ["продвижение сайта психолога", "продвижение сайта пластического хирурга", "сайт пластического хирурга", "продвижение клиники косметологии", "сайт для косметологии", "продвижение сайта мануального терапевта", "сайт для остеопата", "сайт ортодонта", "продвижение салона оптики", "сайт пансионата для пожилых", "продвижение дерматологической клиники"],
+    },
+    serp: {
+      en: ["seo for therapists", "seo for chiropractors", "seo for plastic surgeons"],
+      pl: ["pozycjonowanie kliniki medycyny estetycznej"],
+      ru: ["продвижение клиники косметологии"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

@@ -23,7 +23,7 @@
 // Prices: /pl/cennik — prosta strona 3000–6000 zł, pełna od 8500 zł, projekt
 // graficzny w cenie.
 // NOT on this page: frazy, cennik jako treść pod Google, wizytówka, raporty
-// zapytań (/pl/pozycjonowanie-firmy-budujacej-domy — sibling); remonty and
+// zapytań (/pl/pozycjonowanie-strony-firmy-budujacej-domy — sibling); remonty and
 // general construction (/pl/strona-internetowa-dla-firmy-budowlanej).
 // Owner’s rules: every page covers AI search; never say there are no clients
 // from the visitor’s segment; no personal visits promised.
@@ -166,7 +166,7 @@ export const homeBuilderWebsiteDesignPl = {
           "Widoczność w odpowiedziach AI to dalsza praca, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ". O tym, jak strona zdobywa pozycje w Google na frazy z Twojego regionu, piszę na stronie ",
-          link("pozycjonowanie firmy budującej domy", "/pl/pozycjonowanie-firmy-budujacej-domy"),
+          link("pozycjonowanie firmy budującej domy", "/pl/pozycjonowanie-strony-firmy-budujacej-domy"),
           ".",
         ),
 

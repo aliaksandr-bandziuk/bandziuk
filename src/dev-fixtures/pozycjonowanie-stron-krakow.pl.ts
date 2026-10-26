@@ -153,7 +153,7 @@ export const pozycjonowanieStronKrakowPl = {
           "Trzy branże są w Krakowie szczególnie konkurencyjne i mają własne zasady. Hotele i apartamenty walczą z portalami rezerwacyjnymi o rezerwacje bezpośrednie — opisuję to na stronie ",
           link("pozycjonowanie strony hotelu", "/pl/pozycjonowanie-strony-hotelu"),
           ". Restauracje żyją z Map Google i zdjęć, o czym piszę na stronie ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ". Kancelarie muszą pozycjonować się w granicach zasad etyki zawodowej, co opisuję na stronie ",
           link("pozycjonowanie strony kancelarii prawnej", "/pl/seo-dla-kancelarii-prawnych"),
           ".",

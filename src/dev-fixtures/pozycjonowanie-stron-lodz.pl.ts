@@ -129,7 +129,7 @@ export const pozycjonowanieStronLodzPl = {
           "Firmy produkcyjne i hurtowe znajdą szczegóły na stronie ",
           link("pozycjonowanie strony firmy produkcyjnej", "/pl/pozycjonowanie-strony-firmy-produkcyjnej"),
           ", a lokale gastronomiczne — na stronie ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ".",
         ),
 

@@ -30,15 +30,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const pestControlSeoPl = {
   lang: "pl",
   group: "pest-control-seo",
-  slug: "pozycjonowanie-firmy-ddd",
-  title: "Pozycjonowanie firmy DDD",
-  heading: "Pozycjonowanie firmy DDD",
+  slug: "pozycjonowanie-strony-firmy-ddd",
+  title: "Pozycjonowanie strony firmy DDD",
+  heading: "Pozycjonowanie strony firmy DDD",
   excerpt:
     "Zajmuję się pozycjonowaniem firm DDD: podstrony dezynsekcji, deratyzacji i dezynfekcji, osobne strony o pluskwach, prusakach, osach i gryzoniach, oferta dla gastronomii z dokumentacją pod HACCP, deratyzacja dla wspólnot, wizytówka Google i obecność w odpowiedziach AI, rozliczane w telefonach i zleceniach, a nie w pozycjach.",
   seo: {
     metaTitle: "SEO dla firmy DDD: dezynsekcja i deratyzacja | Bandziuk",
     metaDescription:
-      "Pozycjonowanie firmy DDD: podstrony szkodników, deratyzacja dla wspólnot, oferta HACCP dla gastronomii, wizytówka Google i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy DDD: podstrony szkodników, deratyzacja dla wspólnot, oferta HACCP dla gastronomii, wizytówka Google i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -47,14 +47,14 @@ export const pestControlSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy DDD: strona, wizytówka Google, konkurencja w Twoich miastach", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla firmy DDD: podstrony szkodników, oferta dla gastronomii i wspólnot, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie firmy DDD", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony firmy DDD", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie firmy DDD",
+      title: "Co obejmuje pozycjonowanie strony firmy DDD",
       items: [
         { _key: k("o"), iconName: "search", title: "Frazy, które wpisują klienci firm DDD", text: "Pluskwy, prusaki, myszy, osy — z nazwą miasta" },
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego szkodnika", text: "Objawy, metoda, przygotowanie lokalu, gwarancja" },
@@ -65,7 +65,7 @@ export const pestControlSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO firmy DDD", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie firmy DDD", value: "od 3500 zł / mies.", note: "podstrony szkodników, Mapy, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony firmy DDD", value: "od 3500 zł / mies.", note: "podstrony szkodników, Mapy, opinie, AI", highlight: true },
       ],
     },
     {
@@ -87,7 +87,7 @@ export const pestControlSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania firmy DDD",
+      title: "Wycena pozycjonowania strony firmy DDD",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw na stronie i w wizytówce Google i za jaką stałą cenę.",
       contextLabel: "Nazwa firmy lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -104,16 +104,16 @@ export const pestControlSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie firmy DDD to praca nad tym, żeby osoba z pluskwami w wynajmowanym mieszkaniu, właściciel restauracji przed kontrolą sanepidu i zarządca, który szuka wykonawcy deratyzacji dla kilku budynków, znajdowali w Google Twoją firmę, a nie kolejny portal z ofertami. Pracuję sam, bez opiekuna klienta: ten, kto przegląda Twoją stronę i wizytówkę, sam pisze podstrony, zmienia kod i przygotowuje raport."),
+        p("Pozycjonowanie strony firmy DDD to praca nad tym, żeby osoba z pluskwami w wynajmowanym mieszkaniu, właściciel restauracji przed kontrolą sanepidu i zarządca, który szuka wykonawcy deratyzacji dla kilku budynków, znajdowali w Google Twoją firmę, a nie kolejny portal z ofertami. Pracuję sam, bez opiekuna klienta: ten, kto przegląda Twoją stronę i wizytówkę, sam pisze podstrony, zmienia kod i przygotowuje raport."),
 
-        h2("Pozycjonowanie firmy DDD: dom, gastronomia i wspólnoty to trzy różne rynki"),
+        h2("Pozycjonowanie strony firmy DDD: dom, gastronomia i wspólnoty to trzy różne rynki"),
         p("Firma DDD sprzedaje tę samą wiedzę trzem klientom, którzy szukają zupełnie inaczej:"),
         li("osoby prywatne — zlecenie jednorazowe, pilne i często krępujące: pluskwy, prusaki, myszy w ścianie, gniazdo os nad drzwiami balkonowymi"),
         li("gastronomia, piekarnie, sklepy i magazyny żywności — umowa stała, wizyty co miesiąc albo co kwartał, monitoring i dokumenty, które trzeba pokazać przy kontroli"),
         li("wspólnoty, spółdzielnie i zarządcy nieruchomości — deratyzacja piwnic, zsypów i altan śmietnikowych, często zamawiana w terminie, z protokołem i fakturą na wspólnotę"),
         p("Jedna podstrona „Usługi” z listą wszystkiego nie odpowiada żadnemu z nich. Każda grupa dostaje własne podstrony, własne formularze i własne argumenty."),
 
-        h2("Frazy w pozycjonowaniu firmy DDD: jak ludzie szukają dezynsekcji i deratyzacji"),
+        h2("Frazy w pozycjonowaniu strony firmy DDD: jak ludzie szukają dezynsekcji i deratyzacji"),
         p("Osoba prywatna rzadko wpisuje słowo „dezynsekcja”. Pisze tak, jak mówi: „jak pozbyć się pluskiew”, „firma od pluskiew Wrocław”, „prusaki w bloku co robić”, „kto usuwa gniazdo szerszeni”, „myszy na strychu domu”. Kierownik lokalu i zarządca używają języka branży: „deratyzacja HACCP”, „umowa DDD dla restauracji”, „dezynfekcja magazynu”, „deratyzacja wspólnoty mieszkaniowej cena”."),
         p("Przed pisaniem czegokolwiek zbieram dane wyszukiwań dla Twoich usług i miast. Często okazuje się, że frazy potoczne są wpisywane częściej niż fachowe, a frazy firmowe rzadziej, ale każda z nich może skończyć się roczną umową. Podstrony muszą obsłużyć jedne i drugie."),
 
@@ -157,14 +157,14 @@ export const pestControlSeoPl = {
         h2("Ceny dezynsekcji i deratyzacji na stronie: odpowiedź na pytanie „ile kosztuje”"),
         p("„Ile kosztuje odpluskwianie mieszkania”, „cena usunięcia gniazda os”, „koszt deratyzacji budynku” — te pytania padają w Google częściej, niż firmy DDD odpowiadają na nie na swoich stronach. Widełki cenowe z opisem, od czego zależy kwota — metraż, stopień zasiedlenia, liczba zabiegów, dojazd poza miasto — zatrzymują klienta na Twojej stronie i odsiewają tych, dla których usługa jest za droga. Pełnego cennika nie trzeba publikować."),
 
-        h2("Środki biobójcze i bezpieczeństwo domowników w pozycjonowaniu firmy DDD"),
+        h2("Środki biobójcze i bezpieczeństwo domowników w pozycjonowaniu strony firmy DDD"),
         p("Przed wpuszczeniem technika klienci pytają, czy zabieg jest bezpieczny dla dzieci, kota i rybek, ile godzin trzeba spędzić poza mieszkaniem i czym będzie pachnieć. Odpowiedzi na te pytania na stronie budują zaufanie i trafiają do podsumowań AI:"),
         li("jakiego rodzaju środków używacie — biobójczych, dopuszczonych do obrotu w Polsce i stosowanych zgodnie z etykietą"),
         li("kiedy można wrócić do pomieszczeń i co zrobić ze zwierzętami"),
         li("kto wykonuje zabiegi i jakie ma przeszkolenie, oraz informacja o ubezpieczeniu OC firmy"),
         p("Hasła w stylu „w 100% nieszkodliwe” lepiej pominąć: etykieta środka rzadko na nie pozwala. To ogólne wskazówki, a nie porada prawna."),
 
-        h2("Pozycjonowanie firmy DDD w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony firmy DDD w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Coraz więcej osób wpisuje pytania do ChatGPT, Perplexity albo podsumowań AI w Google: „jak sprawdzić, czy mam pluskwy”, „czy po oprysku na karaluchy można spać w mieszkaniu”, „kto robi deratyzację HACCP w Łodzi”. Odpowiedź powstaje z tych stron, które asystent umie odczytać i zweryfikować. Taką pracę określa się jako GEO (generative engine optimization) albo AEO (answer engine optimization). W firmie DDD oznacza ona:"),
         li("wprost napisane odpowiedzi na pytania o objawy, przygotowanie lokalu i bezpieczeństwo, podpisane przez właściciela albo technika"),
         li("usługi, obszar działania, widełki cen i zakres umów dla firm zapisane zwykłymi zdaniami"),
@@ -176,10 +176,10 @@ export const pestControlSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie firmy DDD"),
+        h2("Ile kosztuje pozycjonowanie strony firmy DDD"),
         li("Audyt SEO strony, wizytówki i konkurencji w Twoich miastach: od 1000 zł, jednorazowo, z listą poprawek według wpływu."),
         li("Jednorazowe prace — podstrony szkodników, oferta dla gastronomii i wspólnot, poprawki wizytówki, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie firmy DDD — nowe podstrony, wizytówka, opinie, widoczność w AI i raporty w telefonach: od 3500 zł miesięcznie, przy silnej konkurencji w dużych miastach od 5500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony firmy DDD — nowe podstrony, wizytówka, opinie, widoczność w AI i raporty w telefonach: od 3500 zł miesięcznie, przy silnej konkurencji w dużych miastach od 5500 zł miesięcznie."),
         p(
           "Jeśli stronę trzeba najpierw zbudować od nowa, zajrzyj na stronę ",
           link("strona internetowa dla firmy DDD", "/pl/strona-internetowa-dla-firmy-ddd"),
@@ -196,12 +196,12 @@ export const pestControlSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie firmy DDD: najczęstsze pytania",
+      title: "Pozycjonowanie strony firmy DDD: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie firmy DDD?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie, a tam, gdzie konkurencja jest silna, od 5500 zł. Stałą cenę podaję, gdy opiszesz firmę, usługi i teren działania."],
-          ["Kiedy pozycjonowanie firmy DDD zaczyna przynosić telefony?", "Poprawki wizytówki i opinii potrafią dać efekt w kilka tygodni. Nowe podstrony szkodników zwykle potrzebują dwóch–czterech miesięcy, w dużych miastach dłużej. Dlatego podstrony sezonowe, na przykład o osach czy deratyzacji wspólnot, przygotowuję z wyprzedzeniem."],
+          ["Ile kosztuje pozycjonowanie strony firmy DDD?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie, a tam, gdzie konkurencja jest silna, od 5500 zł. Stałą cenę podaję, gdy opiszesz firmę, usługi i teren działania."],
+          ["Kiedy pozycjonowanie strony firmy DDD zaczyna przynosić telefony?", "Poprawki wizytówki i opinii potrafią dać efekt w kilka tygodni. Nowe podstrony szkodników zwykle potrzebują dwóch–czterech miesięcy, w dużych miastach dłużej. Dlatego podstrony sezonowe, na przykład o osach czy deratyzacji wspólnot, przygotowuję z wyprzedzeniem."],
           ["Co jest lepsze dla firmy DDD: pozycjonowanie czy Google Ads?", "Jedno nie zastępuje drugiego. Google Ads daje telefony od razu i kosztuje za każde kliknięcie, pozycjonowanie rośnie wolniej, ale wejścia z wyszukiwarki są bezpłatne. Wiele firm prowadzi kampanię w sezonie, a pozycjonowanie traktuje jako stałe źródło zleceń."],
           ["Czy firma DDD powinna podawać ceny na stronie?", "Widełki — tak, zwłaszcza dla pluskiew, os i deratyzacji budynków. Wystarczy napisać, od czego zależy cena. Klient, który zna przybliżony koszt przed telefonem, częściej zamawia, a asystenci AI mają z czego zacytować Twoją ofertę."],
           ["Czy klienci z pluskwami w ogóle zostawiają opinie?", "Tak, jeśli poprosisz ich z wyczuciem i nie oczekujesz nazwy owada. Opinia „przyjechali następnego dnia, dyskretnie i skutecznie” działa równie dobrze. Odpowiadaj na każdą bez podawania szczegółów zlecenia."],
@@ -214,7 +214,7 @@ export const pestControlSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie firmy DDD: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony firmy DDD: co mi wysłać"),
         p(
           "Wyślij nazwę firmy, link do strony i do wizytówki w Mapach Google, listę usług i szkodników, przy których chcesz mieć więcej zleceń, miejscowości, do których jeździcie, i informację, czy zależy Ci bardziej na klientach prywatnych, gastronomii czy wspólnotach. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

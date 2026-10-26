@@ -9,7 +9,7 @@
 // Intent: ref/intent-check-medical-practices.md — «pozycjonowanie kliniki
 // medycyny estetycznej» vs «pozycjonowanie chirurga plastycznego»: 0 shared
 // URLs, 0 shared domains → separate pages (medycyna estetyczna:
-// /pl/pozycjonowanie-kliniki-medycyny-estetycznej). The PL plastic-surgeon SERP
+// /pl/pozycjonowanie-strony-kliniki-medycyny-estetycznej). The PL plastic-surgeon SERP
 // is thin and mixed (clinic pages, articles, medical-tourism sites) → room for
 // a clear service page for the surgeon or clinic owner.
 // Polish angles: lekarz może informować, nie reklamować (general, no article
@@ -19,7 +19,7 @@
 // Scandinavia); raty.
 // NOT on this page: building the site
 // (/pl/strona-internetowa-dla-chirurga-plastycznego); zabiegi medycyny
-// estetycznej (/pl/pozycjonowanie-kliniki-medycyny-estetycznej); przychodnie
+// estetycznej (/pl/pozycjonowanie-strony-kliniki-medycyny-estetycznej); przychodnie
 // (/pl/oferty/pozycjonowanie-strony-przychodni-warszawa); ads and social media.
 // Main case: Giuseppe (psychoterapeuta w Mediolanie) — strict advertising
 // rules, 301 migration, pages in ChatGPT. Owner’s rule: AI search H2.
@@ -108,7 +108,7 @@ export const seoForPlasticSurgeonsPl = {
         p("Decyzja o operacji zapada powoli. Pacjentka, która myśli o korekcie nosa albo o plastyce brzucha po ciąży, czyta miesiącami: porównuje chirurgów, ogląda ich kwalifikacje, szuka cen, pyta na forach o rekonwalescencję i dopiero wtedy umawia konsultację. Pozycjonowanie ma sprawić, że na każdym etapie tych poszukiwań trafia na Waszą stronę, a podstrona, na którą wejdzie, odpowiada dokładnie na jej pytanie."),
         p(
           "To inna praca niż pozycjonowanie gabinetu medycyny estetycznej, gdzie zabiegi są częste, krótsze i wybierane bliżej domu. Jeśli klinika robi jedno i drugie, zabiegi niechirurgiczne opisuję na stronie ",
-          link("pozycjonowanie kliniki medycyny estetycznej", "/pl/pozycjonowanie-kliniki-medycyny-estetycznej"),
+          link("pozycjonowanie kliniki medycyny estetycznej", "/pl/pozycjonowanie-strony-kliniki-medycyny-estetycznej"),
           ".",
         ),
 

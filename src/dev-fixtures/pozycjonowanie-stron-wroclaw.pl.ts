@@ -113,7 +113,7 @@ export const pozycjonowanieStronWroclawPl = {
           "Producenci i poddostawcy znajdą więcej na stronie ",
           link("pozycjonowanie strony firmy produkcyjnej", "/pl/pozycjonowanie-strony-firmy-produkcyjnej"),
           ", a lokale gastronomiczne — na stronie ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ".",
         ),
 

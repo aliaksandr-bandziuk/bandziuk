@@ -20,7 +20,7 @@
 // price. Giuseppe = calm design, guard rails, manuals, 44 working days, 468
 // posts kept. NDA medical system mentioned once.
 // NOT on this page: Google Maps ranking, phrase research, opinie routine, KIF
-// rules in depth (/pl/pozycjonowanie-gabinetu-fizjoterapii — sibling); doctors
+// rules in depth (/pl/pozycjonowanie-strony-gabinetu-fizjoterapii — sibling); doctors
 // and przychodnie (/pl/strona-internetowa-dla-lekarza — linked once).
 import { p, h2, li, ol, link, k } from "./pt";
 
@@ -145,7 +145,7 @@ export const chiropractorWebsiteDesignPl = {
           "Widoczność w odpowiedziach AI to dalsza praca, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ", a pozycje w Google i w Mapach — na stronie ",
-          link("pozycjonowanie gabinetu fizjoterapii", "/pl/pozycjonowanie-gabinetu-fizjoterapii"),
+          link("pozycjonowanie gabinetu fizjoterapii", "/pl/pozycjonowanie-strony-gabinetu-fizjoterapii"),
           ".",
         ),
 

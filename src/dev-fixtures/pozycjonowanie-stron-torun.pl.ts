@@ -110,7 +110,7 @@ export const pozycjonowanieStronTorunPl = {
           "Dla obiektów noclegowych i gastronomii przygotowałem osobne opisy: ",
           link("pozycjonowanie strony hotelu", "/pl/pozycjonowanie-strony-hotelu"),
           " i ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ".",
         ),
 

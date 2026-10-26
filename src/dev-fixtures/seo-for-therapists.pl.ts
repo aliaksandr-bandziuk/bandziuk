@@ -20,7 +20,7 @@
 // NOT on this page: building and designing the site, contact path, migration,
 // CMS (/pl/strona-dla-psychologow-terapeutow); clinics and przychodnie
 // (/pl/oferty/pozycjonowanie-strony-przychodni-warszawa); fizjoterapia
-// (/pl/pozycjonowanie-gabinetu-fizjoterapii).
+// (/pl/pozycjonowanie-strony-gabinetu-fizjoterapii).
 // Owner's rule: every SEO page covers AI search (GEO, AEO).
 import { p, h2, h3, li, link, k } from "./pt";
 

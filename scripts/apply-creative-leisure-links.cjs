@@ -73,7 +73,7 @@ const TEXT = [
   { lang: "ru", slug: "sait-dlya-fotografa", para: list("Сайты для других творческих профессий: ", [
     ["художник", "/ru/sait-dlya-hudozhnika"], ["музыкальная группа", "/ru/sait-dlya-muzykalnoy-gruppy"], ["писатель", "/ru/sait-dlya-pisatelya"]], " и ") },
   { lang: "en", slug: "travel-agency-website", para: para("Tour and activity operators — tours by destination, OTAs and direct bookings — have their own page: ", ["SEO for tour operators", "/seo-for-tour-operators"], ".") },
-  { lang: "pl", slug: "strona-dla-biura-podrozy", para: para("O tym, jak wycieczki i wyjazdy znajdują klientów w Google, piszę na stronie ", ["pozycjonowanie biura podróży", "/pl/pozycjonowanie-biura-podrozy"], ".") },
+  { lang: "pl", slug: "strona-dla-biura-podrozy", para: para("O tym, jak wycieczki i wyjazdy znajdują klientów w Google, piszę na stronie ", ["pozycjonowanie biura podróży", "/pl/pozycjonowanie-strony-biura-podrozy"], ".") },
   { lang: "ru", slug: "sait-dlya-turagentstva", para: para("Как туры и экскурсии находят туристов в поиске, описано на странице ", ["продвижение туроператора", "/ru/prodvizhenie-turoperatora"], ".") },
   { lang: "en", slug: "hotel-website-design", para: para("A smaller property run by its owners — a few rooms and breakfast — is covered on the ", ["bed and breakfast website design", "/bed-and-breakfast-website-design"], " page.") },
   { lang: "pl", slug: "strona-dla-hotelu", para: para("Mniejszy obiekt prowadzony przez właścicieli opisuję na stronie ", ["strona internetowa dla pensjonatu", "/pl/strona-internetowa-dla-pensjonatu"], ".") },

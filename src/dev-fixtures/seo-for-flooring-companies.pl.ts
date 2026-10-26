@@ -29,15 +29,15 @@ import { p, h2, li, link, k } from "./pt";
 export const seoForFlooringCompaniesPl = {
   lang: "pl",
   group: "seo-for-flooring-companies",
-  slug: "pozycjonowanie-firmy-montazu-podlog",
-  title: "Pozycjonowanie firmy montażu podłóg",
-  heading: "Pozycjonowanie firmy montażu podłóg",
+  slug: "pozycjonowanie-strony-firmy-montazu-podlog",
+  title: "Pozycjonowanie strony firmy montażu podłóg",
+  heading: "Pozycjonowanie strony firmy montażu podłóg",
   excerpt:
     "Zajmuję się pozycjonowaniem firm montażu podłóg i cyklinowania: podstrony paneli, deski, parkietu i renowacji, cennik za m², realizacje z nazwą materiału i wzoru, wizytówka Google i odpowiedzi AI — tak, żeby właściciel mieszkania w stanie deweloperskim dzwonił do Ciebie, zamiast rozsyłać zapytanie na Oferteo.",
   seo: {
     metaTitle: "SEO dla firmy podłogowej: montaż i cyklinowanie | Bandziuk",
     metaDescription:
-      "Pozycjonowanie firmy montażu podłóg: podstrony paneli, deski, parkietu i cyklinowania, cennik za m², realizacje, wizytówka Google i AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy montażu podłóg: podstrony paneli, deski, parkietu i cyklinowania, cennik za m², realizacje, wizytówka Google i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -46,14 +46,14 @@ export const seoForFlooringCompaniesPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy montażu podłóg: strona, wizytówka Google, konkurencja z okolicy", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla firmy podłogowej: podstrony materiałów i cyklinowania, cennik, realizacje, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie firmy montażu podłóg", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony firmy montażu podłóg", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie firmy montażu podłóg",
+      title: "Co obejmuje pozycjonowanie strony firmy montażu podłóg",
       items: [
         { _key: k("o"), iconName: "search", title: "Frazy według materiału, usługi i miasta", text: "Panele, deska, parkiet, winyl, cyklinowanie" },
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdej podłogi", text: "Z Twoimi realizacjami, nie z katalogu producenta" },
@@ -64,7 +64,7 @@ export const seoForFlooringCompaniesPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO strony firmy podłogowej", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie firmy montażu podłóg", value: "od 3500 zł / mies.", note: "podstrony, realizacje, wizytówka, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony firmy montażu podłóg", value: "od 3500 zł / mies.", note: "podstrony, realizacje, wizytówka, AI", highlight: true },
       ],
     },
     {
@@ -86,7 +86,7 @@ export const seoForFlooringCompaniesPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania firmy montażu podłóg",
+      title: "Wycena pozycjonowania strony firmy montażu podłóg",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co zmieniłbym najpierw — podstrony materiałów, cennik czy wizytówkę — i za jaką stałą cenę.",
       contextLabel: "Nazwa firmy lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -103,16 +103,16 @@ export const seoForFlooringCompaniesPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie firmy montażu podłóg to praca nad tym, żeby osoby szukające montażu paneli, układania deski i parkietu albo cyklinowania w Twoim mieście trafiały na Twoją stronę i wizytówkę w Mapach Google, a potem dzwoniły. Robię to sam: dane wyszukiwań, podstrony usług i materiałów, poprawki w kodzie, wizytówkę i raporty. Klient firmy podłogowej najpierw wybiera materiał i wygląd, a dopiero potem szuka kogoś, kto przygotuje podłoże i położy podłogę, więc strona musi odpowiadać na obie części tej decyzji."),
+        p("Pozycjonowanie strony firmy montażu podłóg to praca nad tym, żeby osoby szukające montażu paneli, układania deski i parkietu albo cyklinowania w Twoim mieście trafiały na Twoją stronę i wizytówkę w Mapach Google, a potem dzwoniły. Robię to sam: dane wyszukiwań, podstrony usług i materiałów, poprawki w kodzie, wizytówkę i raporty. Klient firmy podłogowej najpierw wybiera materiał i wygląd, a dopiero potem szuka kogoś, kto przygotuje podłoże i położy podłogę, więc strona musi odpowiadać na obie części tej decyzji."),
 
-        h2("Pozycjonowanie firmy montażu podłóg: salon, ekipa montażowa i cykliniarz"),
+        h2("Pozycjonowanie strony firmy montażu podłóg: salon, ekipa montażowa i cykliniarz"),
         p("Pod hasłem „firma podłogowa” kryją się trzy różne biznesy i każdy walczy o inne frazy:"),
         li("salon z podłogami i montażem — klienci szukają marek, kolekcji i „sklep z podłogami [miasto]”, a potem przychodzą obejrzeć próbki"),
         li("ekipa montażowa z dojazdem — „montaż paneli winylowych Kraków”, „układanie deski warstwowej Gdańsk”; często podwykonawca salonów i firm wykończeniowych, który chce mieć też własnych klientów"),
         li("cykliniarz i firma renowacji — „cyklinowanie podłogi Warszawa”, „renowacja parkietu”, „cyklinowanie schodów”, najczęściej dla mieszkań z rynku wtórnego i kamienic"),
         p("Większość firm robi dwie albo trzy z tych rzeczy. Każda potrzebuje własnej części strony, własnych zdjęć i własnego sposobu kontaktu."),
 
-        h2("Frazy w pozycjonowaniu firmy montażu podłóg: materiał, wzór, usługa i cena"),
+        h2("Frazy w pozycjonowaniu strony firmy montażu podłóg: materiał, wzór, usługa i cena"),
         p("Analizę fraz zaczynam od Twojego cennika i miejscowości, do których dojeżdżasz. Typowe grupy:"),
         li("materiał — panele laminowane, panele winylowe, deska warstwowa, deska lita, parkiet, mozaika"),
         li("wzór — jodełka klasyczna, jodełka francuska, deska szeroka, parkiet w cegiełkę"),
@@ -175,7 +175,7 @@ export const seoForFlooringCompaniesPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie firmy montażu podłóg w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony firmy montażu podłóg w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Coraz więcej pytań o podłogi trafia najpierw do ChatGPT, Perplexity albo do podsumowań AI w Google: „panele winylowe czy deska warstwowa na ogrzewanie podłogowe”, „ile schnie lakier po cyklinowaniu”, „dobra firma od cyklinowania na Ursynowie”. Odpowiedź powstaje z tekstów, które model może odczytać i porównać z innymi źródłami. Pracę nad obecnością w takich odpowiedziach określa się skrótami GEO (generative engine optimization) i AEO (answer engine optimization); w firmie podłogowej obejmuje ona:"),
         li("porównania materiałów pisane z Twoich realizacji, także z tym, gdzie dany materiał się nie sprawdza"),
         li("widełki cen i czas prac zapisane tekstem, a nie tylko w PDF z ofertą"),
@@ -187,10 +187,10 @@ export const seoForFlooringCompaniesPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie firmy montażu podłóg"),
+        h2("Ile kosztuje pozycjonowanie strony firmy montażu podłóg"),
         li("Audyt SEO strony, wizytówki i konkurencji z okolicy: od 1000 zł, jednorazowo, z listą poprawek według wpływu."),
         li("Jednorazowe prace — podstrony materiałów i cyklinowania, cennik, realizacje, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie firmy montażu podłóg — nowe podstrony, realizacje, wizytówka i opinie, widoczność w AI, raport w telefonach i zapytaniach: od 3500 zł miesięcznie, przy silnej konkurencji w Warszawie czy Krakowie od 5500 zł."),
+        li("Stałe pozycjonowanie strony firmy montażu podłóg — nowe podstrony, realizacje, wizytówka i opinie, widoczność w AI, raport w telefonach i zapytaniach: od 3500 zł miesięcznie, przy silnej konkurencji w Warszawie czy Krakowie od 5500 zł."),
         p(
           "Jednoosobowej ekipie zwykle wystarczą audyt i kilka mocnych podstron. Stałą pracę nad SEO opisuję na stronie ",
           link("strategia i optymalizacja SEO", "/pl/oferty/strategia-i-optymalizacja-seo"),
@@ -205,11 +205,11 @@ export const seoForFlooringCompaniesPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie firmy montażu podłóg: najczęstsze pytania",
+      title: "Pozycjonowanie strony firmy montażu podłóg: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie firmy montażu podłóg?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie, przy silnej konkurencji w dużych miastach od 5500 zł. Napisz, czy prowadzisz salon, montujesz czy cyklinujesz i gdzie pracujesz — podam stałą cenę."],
+          ["Ile kosztuje pozycjonowanie strony firmy montażu podłóg?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie, przy silnej konkurencji w dużych miastach od 5500 zł. Napisz, czy prowadzisz salon, montujesz czy cyklinujesz i gdzie pracujesz — podam stałą cenę."],
           ["Kiedy pozycjonowanie zacznie przynosić zlecenia?", "Poprawki wizytówki potrafią dać efekt w Mapach w kilka tygodni. Nowe podstrony materiałów i cyklinowania zwykle potrzebują trzech–pięciu miesięcy, w Warszawie i Krakowie dłużej. Cennik i realizacje, które raz weszły wysoko, przyprowadzają ludzi latami."],
           ["Czy podawać ceny za m² na stronie?", "Widełki — tak. Klienci szukają ceny za metr przed telefonem, a cennik z wyjaśnieniem, co jest w cenie, przyciąga mniej łowców okazji i więcej osób gotowych umówić pomiar. Dokładna wycena i tak powstaje po pomiarze."],
           ["Czy opisy produktów od producenta wystarczą na stronę salonu podłóg?", "Jako dane techniczne tak, jako treść podstrony nie. Te same opisy są u producenta i w setkach sklepów. Twoje uwagi — gdzie produkt się sprawdza, jak się zużywa, zdjęcia z Twoich montaży — sprawiają, że podstrona ma po co wychodzić w Google."],
@@ -223,7 +223,7 @@ export const seoForFlooringCompaniesPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie firmy montażu podłóg: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony firmy montażu podłóg: co mi wysłać"),
         p(
           "Prześlij nazwę firmy, adres strony i link do profilu w Mapach Google, napisz, czy prowadzisz salon, montujesz, cyklinujesz czy robisz wszystko, materiały, przy których chcesz mieć więcej zleceń, i miejscowości, do których dojeżdżasz. W ciągu jednego dnia roboczego dostaniesz listę tego, co zmieniłbym najpierw, i stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

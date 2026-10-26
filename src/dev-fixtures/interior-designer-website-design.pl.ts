@@ -19,7 +19,7 @@
 // Prices: /pl/cennik — prosta strona 3000–6000 zł, pełna od 8500 zł, projekt
 // graficzny w cenie.
 // NOT on this page: frazy, wizytówka Google, pozycje realizacji w Google,
-// linki (/pl/pozycjonowanie-projektanta-wnetrz — sibling); pracownie z własną
+// linki (/pl/pozycjonowanie-strony-projektanta-wnetrz — sibling); pracownie z własną
 // ekipą wykończeniową (/pl/strona-internetowa-dla-firmy-budowlanej — linked
 // once); programy do projektowania wnętrz (consumer intent).
 // Owner’s rules: every page covers AI search; never say there are no clients
@@ -167,7 +167,7 @@ export const interiorDesignerWebsiteDesignPl = {
         p("Na Instagramie i Pinterest klienci zbierają inspiracje, a na Homebooku i w podobnych serwisach szukają pracowni. Warto tam być. Profil pokazuje jednak zdjęcia w układzie narzuconym przez platformę, a to, kto je zobaczy, ustala algorytm. Własna strona trzyma w jednym miejscu, które należy do Ciebie, pełne opisy realizacji, zakres usług, sposób wyceny i opinie. Link w profilu prowadzi wtedy do konkretnej realizacji albo usługi, a nie tylko na stronę główną."),
         p(
           "Jak strona i profile pojawiają się w Google, opisuję na stronie ",
-          link("pozycjonowanie projektanta wnętrz", "/pl/pozycjonowanie-projektanta-wnetrz"),
+          link("pozycjonowanie projektanta wnętrz", "/pl/pozycjonowanie-strony-projektanta-wnetrz"),
           ".",
         ),
 

@@ -9,7 +9,7 @@
 // questions — they belong to /pl/pozycjonowanie-firmy-ddd.
 // Intent: ref/intent-check-home-services.md — EN «pest control website design»
 // vs «pest control seo» 0 of 10 shared URLs → the website page is separate
-// from /pl/pozycjonowanie-firmy-ddd (sibling).
+// from /pl/pozycjonowanie-strony-firmy-ddd (sibling).
 // This page = what a visitor sees and does: three entrances (osoba prywatna,
 // gastronomia / firma spożywcza, wspólnota / zarządca), first screen on a
 // phone, pest picker with photo upload, service page order, B2B section with
@@ -18,7 +18,7 @@
 // samochód), technician photos, RODO form and WhatsApp, kreator vs custom,
 // AI-readable design, price and process.
 // NOT on this page: frazy, podstrony w Google, wizytówka, sezonowość SEO,
-// Oferteo/Fixly vs SEO (/pl/pozycjonowanie-firmy-ddd — sibling); wizytówka as
+// Oferteo/Fixly vs SEO (/pl/pozycjonowanie-strony-firmy-ddd — sibling); wizytówka as
 // a service (/pl/oferty/pozycjonowanie-lokalne); firmy sprzątające
 // (/pl/strona-dla-firmy-sprzatajacej — neighbour, linked once).
 // Owner’s rules: every page covers AI search; never say there are no clients
@@ -164,7 +164,7 @@ export const pestControlWebsiteDesignPl = {
           "Żeby asystenci polecali Twoją firmę, potrzebna jest osobna, regularna praca — opisuję ją na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ". Jak sprawić, żeby strona była wysoko w Google, opisuję na stronie ",
-          link("pozycjonowanie firmy DDD", "/pl/pozycjonowanie-firmy-ddd"),
+          link("pozycjonowanie firmy DDD", "/pl/pozycjonowanie-strony-firmy-ddd"),
           ", a pracę nad Mapami Google — na stronie ",
           link("pozycjonowanie lokalne", "/pl/oferty/pozycjonowanie-lokalne"),
           ".",

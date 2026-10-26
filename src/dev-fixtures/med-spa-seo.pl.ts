@@ -32,15 +32,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const medSpaSeoPl = {
   lang: "pl",
   group: "med-spa-seo",
-  slug: "pozycjonowanie-kliniki-medycyny-estetycznej",
-  title: "Pozycjonowanie kliniki medycyny estetycznej",
-  heading: "Pozycjonowanie kliniki medycyny estetycznej",
+  slug: "pozycjonowanie-strony-kliniki-medycyny-estetycznej",
+  title: "Pozycjonowanie strony kliniki medycyny estetycznej",
+  heading: "Pozycjonowanie strony kliniki medycyny estetycznej",
   excerpt:
     "Zajmuję się pozycjonowaniem klinik i gabinetów medycyny estetycznej: osobne podstrony zabiegów lekarskich i kosmetologicznych, lekarze z kwalifikacjami, cennik i karnety, wizytówka Google spójna z Booksy i ZnanyLekarz oraz widoczność w AI — rzeczowo, w granicach zasad informowania o usługach.",
   seo: {
     metaTitle: "Pozycjonowanie gabinetu medycyny estetycznej | Bandziuk",
     metaDescription:
-      "Pozycjonowanie kliniki medycyny estetycznej: podstrony zabiegów, lekarze z PWZ, cennik i karnety, wizytówka Google, Booksy, widoczność w AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony kliniki medycyny estetycznej: podstrony zabiegów, lekarze z PWZ, cennik i karnety, wizytówka Google, Booksy, widoczność w AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -49,14 +49,14 @@ export const medSpaSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO kliniki medycyny estetycznej: strona, wizytówka Google i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla kliniki medycyny estetycznej: podstrony zabiegów i lekarzy, cennik, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie kliniki medycyny estetycznej", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony kliniki medycyny estetycznej", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie kliniki medycyny estetycznej",
+      title: "Co obejmuje pozycjonowanie strony kliniki medycyny estetycznej",
       items: [
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego zabiegu", text: "Iniekcje, lasery i kosmetologia — każde osobno" },
         { _key: k("o"), iconName: "shield-check", title: "Informacja zamiast reklamy", text: "Bez obietnic efektu i bez eksponowania leków na receptę" },
@@ -67,7 +67,7 @@ export const medSpaSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO kliniki: strona i wizytówka Google", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie kliniki medycyny estetycznej", value: "od 3500 zł / mies.", note: "zabiegi, mapy, AI, raporty", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony kliniki medycyny estetycznej", value: "od 3500 zł / mies.", note: "zabiegi, mapy, AI, raporty", highlight: true },
       ],
     },
     {
@@ -89,7 +89,7 @@ export const medSpaSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania kliniki medycyny estetycznej",
+      title: "Wycena pozycjonowania strony kliniki medycyny estetycznej",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw na stronie kliniki i w wizytówce Google, i za jaką stałą cenę. Proszę nie wysyłać danych pacjentów.",
       contextLabel: "Nazwa kliniki lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -106,9 +106,9 @@ export const medSpaSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie kliniki medycyny estetycznej to praca nad tym, żeby osoby wpisujące „botoks Kraków”, „kwas hialuronowy usta cena” albo „depilacja laserowa Wrocław” trafiały na stronę Waszej kliniki i do jej wizytówki Google, a potem rezerwowały konsultację. Robię to sam — audyt, strukturę podstron, teksty uzgadniane z lekarzami i poprawki w kodzie — więc nic nie ginie między opiekunem klienta, copywriterem a programistą."),
+        p("Pozycjonowanie strony kliniki medycyny estetycznej to praca nad tym, żeby osoby wpisujące „botoks Kraków”, „kwas hialuronowy usta cena” albo „depilacja laserowa Wrocław” trafiały na stronę Waszej kliniki i do jej wizytówki Google, a potem rezerwowały konsultację. Robię to sam — audyt, strukturę podstron, teksty uzgadniane z lekarzami i poprawki w kodzie — więc nic nie ginie między opiekunem klienta, copywriterem a programistą."),
 
-        h2("Na czym polega pozycjonowanie kliniki medycyny estetycznej"),
+        h2("Na czym polega pozycjonowanie strony kliniki medycyny estetycznej"),
         p("Pacjent kliniki estetycznej zwykle zna zabieg, zanim wybierze miejsce. Sprawdza go w Google i w mapach, w Booksy albo ZnanyLekarz, ogląda Instagram i coraz częściej pyta ChatGPT. Pozycjonowanie łączy te miejsca:"),
         li("podstrona dla każdego zabiegu, przy którym chcecie więcej rezerwacji"),
         li("wizytówka Google dla każdej placówki, spójna z profilami w serwisach rezerwacji"),
@@ -134,7 +134,7 @@ export const medSpaSeoPl = {
           "Chirurgia plastyczna ma osobną stronę — ",
           link("pozycjonowanie strony chirurga plastycznego", "/pl/pozycjonowanie-strony-chirurga-plastycznego"),
           ", a dermatologia lekarska — ",
-          link("pozycjonowanie gabinetu dermatologicznego", "/pl/pozycjonowanie-gabinetu-dermatologicznego"),
+          link("pozycjonowanie gabinetu dermatologicznego", "/pl/pozycjonowanie-strony-gabinetu-dermatologicznego"),
           ".",
         ),
 
@@ -164,7 +164,7 @@ export const medSpaSeoPl = {
         h2("Instagram a pozycjonowanie gabinetu medycyny estetycznej"),
         p("Instagram pokazuje efekty i zespół osobom, które już Was obserwują. Gdy ktoś jest gotowy się zapisać i wpisuje „wypełnianie ust Poznań”, dostaje mapy, strony klinik i serwisy rezerwacji. Pozycjonowanie nie zastępuje Instagrama, tylko przejmuje popyt, który on tworzy: rolkę z omówieniem zabiegu można zamienić w podstronę, która pracuje dłużej niż post. Moja część to wyszukiwarka i strona; profil na Instagramie i kampanie płatne zostają przy osobach, które już je prowadzą."),
 
-        h2("Pozycjonowanie kliniki medycyny estetycznej w ChatGPT i przeglądach AI (GEO, AEO)"),
+        h2("Pozycjonowanie strony kliniki medycyny estetycznej w ChatGPT i przeglądach AI (GEO, AEO)"),
         p("Pacjenci pytają ChatGPT, Perplexity i przeglądy od AI w Google o rzeczy w rodzaju „jaki jest najlepszy zabieg medycyny estetycznej na zmarszczki wokół oczu”, „czym różni się mezoterapia od stymulatora tkankowego” albo „gdzie w Gdańsku lekarz robi wolumetrię”. Asystent odpowiada na podstawie tego, co przeczyta i sprawdzi: stron klinik, wizytówek, opinii i serwisów. Pracę nad obecnością w takich odpowiedziach nazywa się GEO lub AEO. Dla kliniki oznacza to:"),
         li("zabiegi, lekarzy z kwalifikacjami, adresy, godziny i widełki cen zapisane prostymi zdaniami"),
         li("rzeczowe porównania zabiegów — strona nie ogłasza „najlepszego zabiegu”, tylko opisuje różnice"),
@@ -188,10 +188,10 @@ export const medSpaSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie kliniki medycyny estetycznej"),
+        h2("Ile kosztuje pozycjonowanie strony kliniki medycyny estetycznej"),
         li("Audyt SEO kliniki — strona, wizytówka Google, konkurencja w mieście i odpowiedzi AI: od 1000 zł jednorazowo, z kolejnością prac."),
         li("Jednorazowe prace — podstrony zabiegów i lekarzy, cennik, dane strukturalne, poprawki techniczne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie kliniki medycyny estetycznej — nowe podstrony, mapy, opinie, widoczność w AI i raporty: od 3500 zł miesięcznie; przy bardzo silnej konkurencji, na przykład w Warszawie, od 5500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony kliniki medycyny estetycznej — nowe podstrony, mapy, opinie, widoczność w AI i raporty: od 3500 zł miesięcznie; przy bardzo silnej konkurencji, na przykład w Warszawie, od 5500 zł miesięcznie."),
         p(
           "Jak pracuję nad SEO w ogóle, opisuję na stronie ",
           link("strategia i optymalizacja SEO", "/pl/oferty/strategia-i-optymalizacja-seo"),
@@ -206,16 +206,16 @@ export const medSpaSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie kliniki medycyny estetycznej: najczęstsze pytania",
+      title: "Pozycjonowanie strony kliniki medycyny estetycznej: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie kliniki medycyny estetycznej?", "Na start audyt za od 1000 zł. Wybrane prace kosztują od 1000 do 3000 zł, a stała opieka od 3500 zł na miesiąc, w miastach z bardzo silną konkurencją od 5500 zł. Gdy poznam listę zabiegów i placówek, podam kwotę bez widełek."],
+          ["Ile kosztuje pozycjonowanie strony kliniki medycyny estetycznej?", "Na start audyt za od 1000 zł. Wybrane prace kosztują od 1000 do 3000 zł, a stała opieka od 3500 zł na miesiąc, w miastach z bardzo silną konkurencją od 5500 zł. Gdy poznam listę zabiegów i placówek, podam kwotę bez widełek."],
           ["Czy SEO i pozycjonowanie to to samo?", "W praktyce tak. SEO to optymalizacja strony pod wyszukiwarki, a pozycjonowanie to polska nazwa całej pracy nad tym, żeby strona była wysoko w wynikach: treści, technika, mapy i linki."],
           ["Czy klinika medycyny estetycznej może się reklamować?", "Lekarz i placówka lecznicza mogą informować o usługach, a nie je reklamować, a reklama leków na receptę kierowana do pacjentów jest zakazana. Strona podaje fakty — zabiegi, kwalifikacje, ceny, godziny — bez obietnic efektu. Szczegóły warto uzgodnić z prawnikiem albo izbą lekarską."],
           ["Czy można publikować zdjęcia przed i po?", "Tylko z pisemną zgodą pacjenta na rozpowszechnianie wizerunku, w tym samym świetle i kadrze, bez retuszu. Przy zabiegach lekarskich zakres publikacji warto sprawdzić z prawnikiem, bo takie zdjęcia łatwo uznać za reklamę."],
           ["Czy wystarczą Booksy i Instagram?", "Przynoszą rezerwacje, ale na Booksy stoicie obok konkurencji, a Instagram rzadko trafia do wyników dla „zabieg + miasto”. Własna strona i wizytówka Google zbierają pacjentów, którzy szukają w wyszukiwarce i pytają asystentów AI."],
-          ["Ile trwa pozycjonowanie kliniki medycyny estetycznej?", "Uporządkowana wizytówka i lepsze tytuły dają pierwsze efekty po kilku tygodniach. Na wynik nowej podstrony zabiegu czeka się zwykle od dwóch do czterech miesięcy, a przy wypełnianiu ust czy depilacji laserowej w dużym mieście — dłużej."],
+          ["Ile trwa pozycjonowanie strony kliniki medycyny estetycznej?", "Uporządkowana wizytówka i lepsze tytuły dają pierwsze efekty po kilku tygodniach. Na wynik nowej podstrony zabiegu czeka się zwykle od dwóch do czterech miesięcy, a przy wypełnianiu ust czy depilacji laserowej w dużym mieście — dłużej."],
           ["Czy pracujesz z klinikami spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie robię zdalnie: rozmowy wideo, wspólne dokumenty i jasne etapy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -224,7 +224,7 @@ export const medSpaSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie kliniki medycyny estetycznej: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony kliniki medycyny estetycznej: co mi wysłać"),
         p(
           "Wyślijcie nazwę kliniki i adres strony, linki do wizytówek Google każdej placówki oraz do Booksy albo ZnanyLekarz, zabiegi, przy których chcecie więcej pacjentów, listę lekarzy i kosmetologów oraz miejscowość. Proszę nie przesyłać danych pacjentów. W odpowiedzi dostaniecie moje priorytety dla Waszej kliniki i stałą cenę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

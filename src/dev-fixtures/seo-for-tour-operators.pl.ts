@@ -31,15 +31,15 @@ import { p, h2, li, link, k } from "./pt";
 export const seoForTourOperatorsPl = {
   lang: "pl",
   group: "seo-for-tour-operators",
-  slug: "pozycjonowanie-biura-podrozy",
-  title: "Pozycjonowanie biura podróży",
-  heading: "Pozycjonowanie biura podróży i organizatora turystyki",
+  slug: "pozycjonowanie-strony-biura-podrozy",
+  title: "Pozycjonowanie strony biura podróży",
+  heading: "Pozycjonowanie strony biura podróży i organizatora turystyki",
   excerpt:
     "Zajmuję się pozycjonowaniem biur podróży i organizatorów turystyki, którzy sprzedają własne wyjazdy: podstrony wycieczek według kierunku i rodzaju wyjazdu, frazy, w których wygrywa nisza, a nie największe biura, sezon ferii i majówki, wersje językowe, opinie i widoczność w odpowiedziach AI — wynik liczę w rezerwacjach i zapytaniach.",
   seo: {
     metaTitle: "SEO dla organizatora turystyki i wycieczek | Bandziuk",
     metaDescription:
-      "Pozycjonowanie biura podróży: podstrony wycieczek według kierunku, nisza zamiast walki z Itaką, sezon ferii, języki, opinie i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony biura podróży: podstrony wycieczek według kierunku, nisza zamiast walki z Itaką, sezon ferii, języki, opinie i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -48,14 +48,14 @@ export const seoForTourOperatorsPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO biura podróży: strona, podstrony wycieczek, system rezerwacji, wizytówka Google, opinie i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla organizatora turystyki: podstrony wycieczek i kierunków, dane strukturalne, śledzenie rezerwacji", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie biura podróży", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony biura podróży", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie biura podróży",
+      title: "Co obejmuje pozycjonowanie strony biura podróży",
       items: [
         { _key: k("o"), iconName: "search", title: "Frazy, w których małe biuro wygrywa", text: "Kierunek, rodzaj wyjazdu, grupa, termin" },
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdej wycieczki", text: "Program dzień po dniu, cena, terminy, co w cenie" },
@@ -66,7 +66,7 @@ export const seoForTourOperatorsPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO biura podróży", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie biura podróży", value: "od 3500 zł / mies.", note: "wycieczki, kierunki, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony biura podróży", value: "od 3500 zł / mies.", note: "wycieczki, kierunki, opinie, AI", highlight: true },
       ],
     },
     {
@@ -88,7 +88,7 @@ export const seoForTourOperatorsPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania biura podróży",
+      title: "Wycena pozycjonowania strony biura podróży",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw — podstrony wycieczek, kierunki czy przygotowanie do sezonu — i za jaką stałą cenę.",
       contextLabel: "Nazwa biura lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -105,9 +105,9 @@ export const seoForTourOperatorsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie biura podróży to praca nad tym, żeby organizatora turystyki znajdowali w Google i w asystentach AI ludzie szukający konkretnego wyjazdu — kierunku, rodzaju wycieczki, terminu — i żeby te wizyty kończyły się rezerwacją albo zapytaniem. Robię to sam, od audytu po raporty, dla małych i średnich biur, które organizują własne wyjazdy, oraz dla firm prowadzących wycieczki lokalne."),
+        p("Pozycjonowanie strony biura podróży to praca nad tym, żeby organizatora turystyki znajdowali w Google i w asystentach AI ludzie szukający konkretnego wyjazdu — kierunku, rodzaju wycieczki, terminu — i żeby te wizyty kończyły się rezerwacją albo zapytaniem. Robię to sam, od audytu po raporty, dla małych i średnich biur, które organizują własne wyjazdy, oraz dla firm prowadzących wycieczki lokalne."),
 
-        h2("Pozycjonowanie biura podróży: co obejmuje praca nad stroną organizatora turystyki"),
+        h2("Pozycjonowanie strony biura podróży: co obejmuje praca nad stroną organizatora turystyki"),
         p("Klient biura podróży kupuje coś, czego nie może wcześniej zobaczyć, więc decyzję podejmuje na podstawie opisu, zdjęć i zaufania. Praca toczy się w kilku miejscach naraz:"),
         li("strona: podstrony wycieczek, kierunków i rodzajów wyjazdów, poradniki przed podróżą"),
         li("wizytówka Google i opinie klientów"),
@@ -128,7 +128,7 @@ export const seoForTourOperatorsPl = {
         li("nazwa biura — wpisywana po poleceniu albo po zobaczeniu oferty na Facebooku"),
         p("Każda grupa fraz dostaje swoje podstrony, ustalone przed pisaniem, żeby dwie wycieczki nie konkurowały o to samo zapytanie."),
 
-        h2("Pozycjonowanie biura podróży wobec Itaki, Rainbow i Wakacje.pl"),
+        h2("Pozycjonowanie strony biura podróży wobec Itaki, Rainbow i Wakacje.pl"),
         p("Na frazy „wakacje Grecja” czy „last minute Egipt” w wynikach stoją Itaka, Rainbow, TUI i porównywarki w rodzaju Wakacje.pl. Małe biuro nie wygra z nimi budżetem i nie musi. Wygrywa tam, gdzie duzi nie mają nic do powiedzenia: wyjazdy objazdowe z autorskim programem, małe grupy, trekking, wyjazdy z pilotem mówiącym po polsku w mniej oczywiste miejsca, wycieczki szkolne z gotowym programem pod podstawę programową. Pozycjonowanie organizatora turystyki zaczyna się od wyboru tych nisz, a nie od walki o hasła z milionem wyszukiwań."),
 
         h2("Podstrony wycieczek na stronie biura podróży według kierunku i rodzaju wyjazdu"),
@@ -149,7 +149,7 @@ export const seoForTourOperatorsPl = {
         h2("System rezerwacji a SEO strony biura podróży"),
         p("System rezerwacyjny prowadzi miejsca, płatności i listy uczestników. Bywa jednak, że szkodzi widoczności: opis wycieczki istnieje tylko wewnątrz widżetu, strona wolno ładuje się na telefonie albo rezerwacja kończy się na innej domenie i nikt nie wie, skąd przyszedł klient. W audycie sprawdzam, czy program jest tekstem na stronie, jak widżet wpływa na szybkość i czy każda rezerwacja ma przypisaną podstronę, z której wyszła. Zwykle wystarczy zmienić sposób osadzenia, a nie cały system."),
 
-        h2("Sezonowość w pozycjonowaniu biura podróży: ferie, majówka, wakacje, first minute"),
+        h2("Sezonowość w pozycjonowaniu strony biura podróży: ferie, majówka, wakacje, first minute"),
         p("Klienci szukają wyjazdów z wyprzedzeniem: wakacji już zimą, w sezonie first minute, wycieczek szkolnych na wiosnę jesienią, a ferii — według terminów swojego województwa. Kalendarz pracy wygląda więc tak:"),
         li("nowe wycieczki i poradniki sezonowe publikowane z kilkumiesięcznym zapasem, żeby Google zdążył je znaleźć"),
         li("terminy i ceny zaktualizowane, zanim klienci zaczną porównywać oferty"),
@@ -164,10 +164,10 @@ export const seoForTourOperatorsPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie biura podróży w wersjach językowych dla turystów z zagranicy"),
+        h2("Pozycjonowanie strony biura podróży w wersjach językowych dla turystów z zagranicy"),
         p("Firma pokazująca Kraków, Zakopane czy Mazury gościom z zagranicy potrzebuje stron w ich językach — angielskim, niemieckim, czasem hiszpańskim. Każda wersja jest pisana pod frazy danego rynku, a nie tłumaczona słowo w słowo, i połączona z pozostałymi tagami hreflang. Dodaję tylko te języki, w których przewodnicy naprawdę prowadzą wycieczki."),
 
-        h2("Pozycjonowanie biura podróży w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony biura podróży w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Coraz więcej osób planuje wyjazd z asystentem: „biuro podróży z małymi grupami do Gruzji”, „wycieczka szkolna do Torunia, program na 2 dni”, „kto organizuje trekking w Nepalu po polsku”. ChatGPT, Perplexity i podsumowania AI w Google wymieniają kilka firm i uzasadniają wybór. Na pracę nad tymi odpowiedziami mówi się GEO (generative engine optimization) lub AEO (answer engine optimization); w biurze podróży sprowadza się ona do czterech rzeczy:"),
         li("fakty o każdym wyjeździe — kierunek, długość, wielkość grupy, terminy, cena „od” — zapisane prostym tekstem"),
         li("poradniki z bezpośrednimi odpowiedziami, podpisane przez pilota albo właściciela"),
@@ -179,13 +179,13 @@ export const seoForTourOperatorsPl = {
           ".",
         ),
 
-        h2("Raport z pozycjonowania biura podróży: rezerwacje i zapytania, nie tylko pozycje"),
+        h2("Raport z pozycjonowania strony biura podróży: rezerwacje i zapytania, nie tylko pozycje"),
         p("Ruch na stronie łatwo zwiększyć artykułami, po których nikt nie kupuje wyjazdu. Mój raport liczy to, z czego żyje biuro: rezerwacje i zapytania z wyszukiwarki z podstroną, z której przyszły, telefony i kliknięcia z wizytówki Google, udział rezerwacji bezpośrednich obok platform, a pozycje na wybrane frazy pokazuję obok tych liczb, a nie zamiast nich. Jeśli zapytania wpadają na e-mail, do systemu rezerwacji albo do CRM, źródło trafia tam razem z nimi, więc wiesz, które wyjazdy sprzedaje Google, a które polecenia."),
 
-        h2("Ile kosztuje pozycjonowanie biura podróży"),
+        h2("Ile kosztuje pozycjonowanie strony biura podróży"),
         li("Audyt SEO — strona, podstrony wycieczek, system rezerwacji, wizytówka, opinie i odpowiedzi AI: od 1000 zł, jednorazowo, z listą poprawek według wpływu."),
         li("Jednorazowe prace — podstrony wycieczek i kierunków, dane strukturalne, śledzenie rezerwacji: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie biura podróży — nowe wycieczki i poradniki, przygotowanie do sezonu, wersje językowe, opinie, widoczność w AI i raport liczony w rezerwacjach: od 3500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony biura podróży — nowe wycieczki i poradniki, przygotowanie do sezonu, wersje językowe, opinie, widoczność w AI i raport liczony w rezerwacjach: od 3500 zł miesięcznie."),
         p(
           "Biuro z kilkoma autorskimi wyjazdami często potrzebuje najpierw audytu i dobrze napisanych podstron, a dopiero potem stałej współpracy. Opis audytu znajdziesz na stronie ",
           link("audyt SEO strony internetowej", "/pl/oferty/audyt-seo-strony-internetowej"),
@@ -200,11 +200,11 @@ export const seoForTourOperatorsPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie biura podróży: najczęstsze pytania",
+      title: "Pozycjonowanie strony biura podróży: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie biura podróży?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie. Po krótkim opisie Twojej oferty i kierunków podaję stałą cenę."],
+          ["Ile kosztuje pozycjonowanie strony biura podróży?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie. Po krótkim opisie Twojej oferty i kierunków podaję stałą cenę."],
           ["Czy małe biuro podróży ma szansę z Itaką i Rainbow?", "Na ogólne frazy typu „wakacje Grecja” — raczej nie. Na frazy związane z Twoją niszą — autorskie wycieczki objazdowe, trekkingi, wycieczki szkolne, małe grupy — tak, bo duzi organizatorzy nie mają tam rozbudowanych podstron."],
           ["Kiedy zacząć pozycjonowanie przed sezonem?", "Kilka miesięcy wcześniej. Nowa podstrona zwykle potrzebuje od trzech do sześciu miesięcy, żeby regularnie przyprowadzać klientów, więc wakacje warto przygotowywać jesienią i zimą, a ferie — latem."],
           ["Czy program wycieczki w PDF wystarczy?", "Dla Google to za mało. Program powinien być tekstem na podstronie wycieczki: dzień po dniu, z ceną, terminami i tym, co jest w cenie. PDF może zostać jako dodatek do pobrania."],
@@ -219,7 +219,7 @@ export const seoForTourOperatorsPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie biura podróży: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony biura podróży: co mi wysłać"),
         p(
           "Wyślij adres strony, link do wizytówki Google, listę wyjazdów, na których najbardziej Ci zależy, kierunki i terminy sezonu, nazwę systemu rezerwacji i informację, skąd dziś przychodzą klienci. W odpowiedzi dostaniesz listę pierwszych poprawek i stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

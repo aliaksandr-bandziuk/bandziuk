@@ -8,7 +8,7 @@
 // «strona dla domu seniora» (metaTitle, H2s), «strona prywatnego domu opieki».
 // Intent: ref/intent-check-medical-practices.md — «pozycjonowanie domu opieki»
 // vs «strona dla domu seniora» 0 of 10 shared URLs, 0 shared domains →
-// separate pages; SEO is /pl/pozycjonowanie-domu-opieki (sibling, linked).
+// separate pages; SEO is /pl/pozycjonowanie-strony-domu-opieki (sibling, linked).
 // The «strona dla domu seniora» top 10 is directories (domyopieki.pl,
 // domyseniora.pl, krdo.pl, kido.org.pl, altru.pl) and homes’ own sites
 // (villadlaseniora.pl, centrumseniora.pl, domseniora-krakow.pl) → mixed
@@ -21,7 +21,7 @@
 // kreator vs projekt na zamówienie; przebudowa bez utraty adresów (Giuseppe);
 // AI-readable build. NDA medical system mentioned once.
 // NOT on this page: frazy, wizytówka Google, katalogi vs własna strona, DPS/ZOL
-// comparison, opinie (/pl/pozycjonowanie-domu-opieki); strony lekarzy i
+// comparison, opinie (/pl/pozycjonowanie-strony-domu-opieki); strony lekarzy i
 // przychodni (/pl/strona-internetowa-dla-lekarza).
 // Prices: /pl/cennik — 3000–6000 zł, od 8500 zł, projekt graficzny w cenie.
 // Owner’s rules: every page covers AI search; Giuseppe is the main case;
@@ -156,7 +156,7 @@ export const seniorLivingWebsiteDesignPl = {
           "Dalsza praca nad widocznością w AI opisana jest na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ", a widoczność w Google — na stronie ",
-          link("pozycjonowanie domu opieki", "/pl/pozycjonowanie-domu-opieki"),
+          link("pozycjonowanie domu opieki", "/pl/pozycjonowanie-strony-domu-opieki"),
           ".",
         ),
 

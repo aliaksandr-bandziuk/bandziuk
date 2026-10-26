@@ -118,7 +118,7 @@ export const tworzenieStronInternetowychTorunPl = {
           "Widoczność takich obiektów w Google opisuję na stronach ",
           link("pozycjonowanie strony hotelu", "/pl/pozycjonowanie-strony-hotelu"),
           " i ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ".",
         ),
 

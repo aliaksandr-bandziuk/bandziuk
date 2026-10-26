@@ -28,15 +28,15 @@ import { p, h2, li, link, k } from "./pt";
 export const floristSeoPl = {
   lang: "pl",
   group: "florist-seo",
-  slug: "pozycjonowanie-kwiaciarni",
-  title: "Pozycjonowanie kwiaciarni",
-  heading: "Pozycjonowanie kwiaciarni",
+  slug: "pozycjonowanie-strony-kwiaciarni",
+  title: "Pozycjonowanie strony kwiaciarni",
+  heading: "Pozycjonowanie strony kwiaciarni",
   excerpt:
-    "Zajmuję się pozycjonowaniem kwiaciarni: podstrony dostawy kwiatów dla dzielnic i okolicznych miejscowości, strony okazji od Dnia Kobiet po Dzień Nauczyciela, florystyka ślubna i komunijna, wizytówka Google i obecność w odpowiedziach AI — tak, żeby zamówienia trafiały prosto do Twojej kwiaciarni, a nie przez sieć pośredników.",
+    "Zajmuję się pozycjonowaniem strony kwiaciarni: podstrony dostawy kwiatów dla dzielnic i okolicznych miejscowości, strony okazji od Dnia Kobiet po Dzień Nauczyciela, florystyka ślubna i komunijna, wizytówka Google i obecność w odpowiedziach AI — tak, żeby zamówienia trafiały prosto do Twojej kwiaciarni, a nie przez sieć pośredników.",
   seo: {
     metaTitle: "SEO kwiaciarni: dostawa kwiatów i Mapy Google | Bandziuk",
     metaDescription:
-      "Pozycjonowanie kwiaciarni: podstrony dostawy kwiatów w dzielnicach, Dzień Kobiet i Dzień Matki, wizytówka Google, Allegro i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony kwiaciarni: podstrony dostawy kwiatów w dzielnicach, Dzień Kobiet i Dzień Matki, wizytówka Google, Allegro i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -45,14 +45,14 @@ export const floristSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO kwiaciarni: strona, wizytówka Google, konkurencja w Twojej okolicy", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla kwiaciarni: podstrony dostaw, okazji i realizacji ślubnych, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie kwiaciarni", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony kwiaciarni", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie kwiaciarni",
+      title: "Co obejmuje pozycjonowanie strony kwiaciarni",
       items: [
         { _key: k("o"), iconName: "search", title: "Frazy, którymi szuka się kwiatów", text: "Dostawa, okazje, śluby — z nazwą dzielnicy" },
         { _key: k("o"), iconName: "map-pin", title: "Podstrony dostawy kwiatów", text: "Tylko tam, dokąd naprawdę jeździ Twój kierowca" },
@@ -63,7 +63,7 @@ export const floristSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO kwiaciarni", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie kwiaciarni", value: "od 3500 zł / mies.", note: "dostawy, okazje, Mapy, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony kwiaciarni", value: "od 3500 zł / mies.", note: "dostawy, okazje, Mapy, AI", highlight: true },
       ],
     },
     {
@@ -85,7 +85,7 @@ export const floristSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania kwiaciarni",
+      title: "Wycena pozycjonowania strony kwiaciarni",
       subtitle: "W ciągu jednego dnia roboczego dostajesz listę pierwszych poprawek na stronie i w Mapach Google oraz stałą cenę.",
       contextLabel: "Nazwa kwiaciarni lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -102,7 +102,7 @@ export const floristSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie kwiaciarni to praca nad tym, żeby osoba, która wieczorem przypomina sobie o imieninach mamy, wpisała „dostawa kwiatów Gdańsk Oliwa” i trafiła do Twojej kwiaciarni, a nie do ogólnopolskiego serwisu, który przekaże zamówienie dalej. Pracuję bez pośredników i opiekunów klienta: sam robię audyt, piszę teksty podstron, wprowadzam zmiany w kodzie i pokazuję wynik w liczbie zamówień."),
+        p("Pozycjonowanie strony kwiaciarni to praca nad tym, żeby osoba, która wieczorem przypomina sobie o imieninach mamy, wpisała „dostawa kwiatów Gdańsk Oliwa” i trafiła do Twojej kwiaciarni, a nie do ogólnopolskiego serwisu, który przekaże zamówienie dalej. Pracuję bez pośredników i opiekunów klienta: sam robię audyt, piszę teksty podstron, wprowadzam zmiany w kodzie i pokazuję wynik w liczbie zamówień."),
 
         h2("Pozycjonowanie strony kwiaciarni: jak klienci szukają kwiatów z dostawą"),
         p("Frazy, które przynoszą kwiaciarni zamówienia, dzielą się na cztery grupy:"),
@@ -119,7 +119,7 @@ export const floristSeoPl = {
         li("zdjęcia z prawdziwych dostaw w tej okolicy, bez twarzy odbiorców"),
         p("Dwadzieścia podstron różniących się tylko nazwą miasta Google traktuje jak strony przejściowe i pomija. Lepiej osiem podstron z prawdziwą treścią niż czterdzieści kopii."),
 
-        h2("Okazje w pozycjonowaniu kwiaciarni: Dzień Kobiet, Walentynki, Dzień Matki i imieniny"),
+        h2("Okazje w pozycjonowaniu strony kwiaciarni: Dzień Kobiet, Walentynki, Dzień Matki i imieniny"),
         p("Polski kalendarz kwiaciarni jest wyjątkowo gęsty: Dzień Babci i Dziadka w styczniu, Walentynki, Dzień Kobiet 8 marca, Dzień Matki 26 maja, zakończenie roku szkolnego, Dzień Nauczyciela 14 października, a przez cały rok imieniny, urodziny i rocznice. Każda z tych okazji ma własne frazy i zasługuje na stałą podstronę z bukietami, cenami, godziną przyjmowania zamówień i podpowiedzią, co napisać na bileciku."),
         p("Podstrona okazji ma ten sam adres co roku. Strona Dnia Kobiet usuwana w kwietniu i zakładana od nowa w lutym za każdym razem zaczyna od zera; strona, która zostaje i jest odświeżana przed sezonem, zachowuje linki i historię, które zebrała."),
 
@@ -149,7 +149,7 @@ export const floristSeoPl = {
         p("Na frazy z dostawą kwiatów wysoko stoją ogólnopolskie serwisy i sieci kwiatowe, takie jak Fleurop czy Poczta Kwiatowa, które zwykle przyjmują zamówienie i przekazują je do wykonania kwiaciarni partnerskiej w mieście odbiorcy. Na Allegro kwiaty z dostawą sprzedaje wiele kwiaciarni naraz, a kupujący porównuje głównie cenę. Te źródła wypełniają spokojniejsze dni, ale z każdego zamówienia schodzi prowizja, a klient nie zapamiętuje nazwy Twojej kwiaciarni."),
         p("Pozycjonowanie buduje kanał bez pośrednika: stronę, która pojawia się na frazy z Twoją okolicą, i wizytówkę z prawdziwą nazwą, adresem i zdjęciami. W raporcie zestawiam zamówienia bezpośrednie z tymi z sieci i z Allegro, żeby było widać, jak zmienia się ich udział."),
 
-        h2("Sezonowe pozycjonowanie kwiaciarni: podstrony gotowe przed szczytem"),
+        h2("Sezonowe pozycjonowanie strony kwiaciarni: podstrony gotowe przed szczytem"),
         p("Strona potrzebuje kilku tygodni, żeby Google ją odświeżył i przesunął wyżej, dlatego kalendarz prac wyprzedza kalendarz sprzedaży:"),
         li("w styczniu — Dzień Babci i Dziadka na bieżąco, a Walentynki i Dzień Kobiet zaktualizowane o nowe bukiety i ceny"),
         li("w marcu i kwietniu — Dzień Matki, komunie i pierwsze śluby sezonu"),
@@ -157,7 +157,7 @@ export const floristSeoPl = {
         li("w tygodniu święta — godzina końca przyjmowania zamówień i informacja o wyprzedanych bukietach na stronie i w wizytówce"),
         p("Spokojniejsze tygodnie idą na nowe podstrony dostaw, realizacje ślubne i poprawki techniczne, żeby przed kolejnym szczytem strona była mocniejsza niż przed poprzednim."),
 
-        h2("Pozycjonowanie kwiaciarni w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony kwiaciarni w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Pytania „która kwiaciarnia w Łodzi dowozi kwiaty w niedzielę”, „jakie kwiaty na 18. urodziny” czy „ile kosztuje bukiet ślubny” trafiają dziś także do ChatGPT, Perplexity i podsumowań AI w Google. Asystent składa odpowiedź z tekstów, które umie odczytać i porównać z innymi źródłami. Starania o miejsce w takich odpowiedziach to GEO i AEO (generative i answer engine optimization); w kwiaciarni sprowadzają się do czterech rzeczy:"),
         li("obszar i koszt dostawy, godzinę zamówień na dziś i godziny otwarcia zapisane zwykłymi zdaniami"),
         li("poradniki okazji i widełki cen florystyki ślubnej podpisane przez właścicielkę albo florystkę"),
@@ -169,13 +169,13 @@ export const floristSeoPl = {
           ".",
         ),
 
-        h2("Raport z pozycjonowania kwiaciarni: zamówienia, telefony i dzielnice"),
+        h2("Raport z pozycjonowania strony kwiaciarni: zamówienia, telefony i dzielnice"),
         p("Pozycje w Google są środkiem, a nie wynikiem. W raporcie dla kwiaciarni pokazuję zamówienia złożone na stronie po wejściu z wyszukiwarki, telefony i prośby o trasę z wizytówki, to, które podstrony dostaw i okazji je przyniosły, oraz udział zamówień bezpośrednich na tle Allegro i sieci kwiatowej w kolejnych sezonach. Liczby biorę z Twojego sklepu i z systemu, w którym przyjmujecie zamówienia telefoniczne, więc zgadzają się z tym, co widać w kasie. Po każdym szczycie — Walentynkach, Dniu Kobiet, Dniu Matki — porównujemy wynik z poprzednim rokiem i decydujemy, co poprawić przed następnym."),
 
         h2("Ile kosztuje pozycjonowanie strony kwiaciarni"),
         li("Audyt strony i wizytówki Google kwiaciarni: od 1000 zł, płatny raz, zakończony listą poprawek od najważniejszej."),
         li("Prace jednorazowe — podstrony dostaw i okazji, strony realizacji ślubnych, uporządkowanie wizytówki, znaczniki schema: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie kwiaciarni — nowe podstrony przed sezonami, Mapy Google, opinie, widoczność w AI i raport w zamówieniach: od 3500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony kwiaciarni — nowe podstrony przed sezonami, Mapy Google, opinie, widoczność w AI i raport w zamówieniach: od 3500 zł miesięcznie."),
         p(
           "Jeśli najpierw trzeba zbudować sklep z kwiatami albo nową stronę, zajrzyj na stronę ",
           link("strona internetowa dla kwiaciarni", "/pl/strona-internetowa-dla-kwiaciarni"),
@@ -190,12 +190,12 @@ export const floristSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie kwiaciarni: najczęstsze pytania",
+      title: "Pozycjonowanie strony kwiaciarni: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie kwiaciarni?", "Za audyt od 1000 zł, za pojedyncze zadania od 1000 do 3000 zł, za stałą współpracę od 3500 zł miesięcznie. Konkretną kwotę podam, gdy napiszesz, gdzie dowozicie i skąd dziś macie zamówienia."],
-          ["Kiedy pozycjonowanie kwiaciarni zaczyna przynosić zamówienia?", "Uporządkowana wizytówka i nowe opinie bywają widoczne w Mapach już po kilku tygodniach. Świeże podstrony dostaw i okazji rosną zwykle dwa–cztery miesiące, w dużych miastach dłużej. Dlatego strony na Dzień Kobiet czy Dzień Matki przygotowuję z wyprzedzeniem."],
+          ["Ile kosztuje pozycjonowanie strony kwiaciarni?", "Za audyt od 1000 zł, za pojedyncze zadania od 1000 do 3000 zł, za stałą współpracę od 3500 zł miesięcznie. Konkretną kwotę podam, gdy napiszesz, gdzie dowozicie i skąd dziś macie zamówienia."],
+          ["Kiedy pozycjonowanie strony kwiaciarni zaczyna przynosić zamówienia?", "Uporządkowana wizytówka i nowe opinie bywają widoczne w Mapach już po kilku tygodniach. Świeże podstrony dostaw i okazji rosną zwykle dwa–cztery miesiące, w dużych miastach dłużej. Dlatego strony na Dzień Kobiet czy Dzień Matki przygotowuję z wyprzedzeniem."],
           ["Czy warto zostać w sieci kwiatowej i na Allegro?", "Często tak — te zamówienia wypełniają spokojniejsze dni. Pozycjonowanie nie wymaga rezygnacji z nich; buduje obok własny kanał bez prowizji. W raporcie widać oba źródła, więc decyzję można podjąć na podstawie liczb."],
           ["Czy każda dzielnica potrzebuje osobnej podstrony dostawy?", "Tylko te, do których jeździcie regularnie i o których macie coś konkretnego do powiedzenia: koszt, godziny, szpitale, sale. Rzadziej obsługiwane miejscowości wystarczy wymienić na jednej podstronie dostaw."],
           ["Kiedy zacząć przygotowania do Dnia Kobiet i Dnia Matki?", "Dwa–trzy miesiące wcześniej. Podstrona okazji powinna być odświeżona i podlinkowana, zanim wyszukiwania zaczną rosnąć, a wizytówka na kilka tygodni przed świętem powinna pokazywać godziny i termin zamówień."],
@@ -208,7 +208,7 @@ export const floristSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie kwiaciarni: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony kwiaciarni: co mi wysłać"),
         p(
           "Wyślij nazwę kwiaciarni, adres strony i link do jej profilu w Mapach Google, dzielnice i miejscowości, do których dowozicie, godzinę przyjmowania zamówień na dziś oraz informację, czy sprzedajesz na Allegro albo przez sieć kwiatową i jakich zamówień chcesz więcej: dostaw, ślubów czy stałych dostaw dla firm. W odpowiedzi dostaniesz listę pierwszych kroków i stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

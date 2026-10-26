@@ -33,15 +33,15 @@ import { p, h2, li, link, k } from "./pt";
 export const gymSeoPl = {
   lang: "pl",
   group: "gym-seo",
-  slug: "pozycjonowanie-silowni",
-  title: "Pozycjonowanie siłowni",
-  heading: "Pozycjonowanie siłowni i klubu fitness",
+  slug: "pozycjonowanie-strony-silowni",
+  title: "Pozycjonowanie strony siłowni",
+  heading: "Pozycjonowanie strony siłowni i klubu fitness",
   excerpt:
-    "Zajmuję się pozycjonowaniem siłowni, klubów fitness i studiów zajęć: wizytówka w Mapach Google dla każdego klubu, podstrony zajęć i karnetów, informacja o MultiSport, Medicover Sport i FitProfit tam, gdzie ludzie jej szukają, opinie klubowiczów i miejsce w odpowiedziach AI — rozliczane w zapisach i nowych karnetach.",
+    "Zajmuję się pozycjonowaniem strony siłowni, klubów fitness i studiów zajęć: wizytówka w Mapach Google dla każdego klubu, podstrony zajęć i karnetów, informacja o MultiSport, Medicover Sport i FitProfit tam, gdzie ludzie jej szukają, opinie klubowiczów i miejsce w odpowiedziach AI — rozliczane w zapisach i nowych karnetach.",
   seo: {
-    metaTitle: "Pozycjonowanie siłowni: Mapy, zajęcia, karty | Bandziuk",
+    metaTitle: "Pozycjonowanie strony siłowni: Mapy, zajęcia | Bandziuk",
     metaDescription:
-      "Pozycjonowanie siłowni i klubu fitness: wizytówka w Mapach Google, podstrony zajęć i karnetów, MultiSport i FitProfit, opinie i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony siłowni i klubu fitness: wizytówka w Mapach Google, podstrony zajęć i karnetów, MultiSport i FitProfit, opinie i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -50,14 +50,14 @@ export const gymSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO siłowni: strona, wizytówki Google, kluby w okolicy, karty sportowe i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla klubu fitness: podstrony zajęć, karnetów i lokalizacji, wizytówki, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie siłowni lub studia fitness", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony siłowni lub studia fitness", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie siłowni",
+      title: "Co obejmuje pozycjonowanie strony siłowni",
       items: [
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google dla każdego klubu", text: "Kategorie, godziny, udogodnienia, zdjęcia" },
         { _key: k("o"), iconName: "layers", title: "Podstrony zajęć, których ludzie szukają", text: "Pilates, zdrowy kręgosłup, boks, cross" },
@@ -68,7 +68,7 @@ export const gymSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO siłowni lub klubu fitness", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie siłowni", value: "od 3500 zł / mies.", note: "Mapy, zajęcia, opinie, AI, raport", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony siłowni", value: "od 3500 zł / mies.", note: "Mapy, zajęcia, opinie, AI, raport", highlight: true },
       ],
     },
     {
@@ -90,7 +90,7 @@ export const gymSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania siłowni lub klubu fitness",
+      title: "Wycena pozycjonowania strony siłowni lub klubu fitness",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw — wizytówkę, podstrony zajęć czy cennik — i za jaką stałą cenę.",
       contextLabel: "Nazwa klubu lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -107,9 +107,9 @@ export const gymSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie siłowni to praca nad tym, żeby osoba, która wpisuje „siłownia Bielany”, „pilates Gdańsk Oliwa” albo „siłownia na MultiSport blisko mnie”, zobaczyła Twój klub w Mapach Google i w wynikach wyszukiwania, a potem zapisała się na pierwszy trening. Robię to sam — analizę, podstrony, wizytówki, poprawki w kodzie i raport — bo oprócz SEO tworzę też strony. Klub fitness utrzymują mieszkańcy kilku sąsiednich osiedli, więc o wyniku decyduje dzielnica, a nie cały kraj."),
+        p("Pozycjonowanie strony siłowni to praca nad tym, żeby osoba, która wpisuje „siłownia Bielany”, „pilates Gdańsk Oliwa” albo „siłownia na MultiSport blisko mnie”, zobaczyła Twój klub w Mapach Google i w wynikach wyszukiwania, a potem zapisała się na pierwszy trening. Robię to sam — analizę, podstrony, wizytówki, poprawki w kodzie i raport — bo oprócz SEO tworzę też strony. Klub fitness utrzymują mieszkańcy kilku sąsiednich osiedli, więc o wyniku decyduje dzielnica, a nie cały kraj."),
 
-        h2("Pozycjonowanie siłowni: frazy, które wpisują mieszkańcy okolicy"),
+        h2("Pozycjonowanie strony siłowni: frazy, które wpisują mieszkańcy okolicy"),
         p("Zanim cokolwiek napiszę, sprawdzam dane wyszukiwań dla Twojego miasta. W polskich klubach frazy prawie zawsze układają się w cztery grupy:"),
         li("miejsce: „siłownia Praga Południe”, „fitness Kraków Ruczaj”, „siłownia przy Rondzie Daszyńskiego”"),
         li("dostęp i umowa: „siłownia 24h”, „karnet bez umowy”, „wejście jednorazowe siłownia cena”, „karnet open”"),
@@ -144,7 +144,7 @@ export const gymSeoPl = {
           ".",
         ),
 
-        h2("Cennik karnetów w pozycjonowaniu siłowni: „karnet na siłownię cena” i „bez umowy”"),
+        h2("Cennik karnetów w pozycjonowaniu strony siłowni: „karnet na siłownię cena” i „bez umowy”"),
         p("Frazy z ceną wpisuje ktoś, kto porównuje kluby w tym tygodniu: „karnet na siłownię cena Wrocław”, „siłownia bez umowy”, „karnet studencki”, „wejście jednorazowe”. Klub, który pisze „ceny w recepcji”, oddaje te osoby konkurencji. Do wyszukiwarki trafia podstrona z cenami — choćby z ceną „od” — opłatą wpisową, karnetem z umową i bez niej, zniżkami dla studentów i seniorów oraz jasną informacją o wypowiedzeniu."),
         p("W polskich klubach chętnych przybywa w styczniu, wiosną przed wakacjami i we wrześniu, a latem wielu klubowiczów wyjeżdża. Nowa podstrona potrzebuje tygodni, żeby się wybić, więc ofertę noworoczną publikuję w listopadzie, a wakacyjny karnet bez umowy — w maju."),
 
@@ -163,7 +163,7 @@ export const gymSeoPl = {
         h2("Facebook, Instagram czy Google: skąd siłownia osiedlowa bierze nowych klubowiczów"),
         p("Polskie kluby osiedlowe często żyją z Facebooka — grup mieszkańców, wydarzeń, postów o nowych zajęciach — i z Instagrama. To dobre kanały dla tych, którzy już Was znają. Ktoś, kto dopiero wprowadził się na osiedle albo właśnie postanowił zacząć ćwiczyć, wpisuje jednak pytanie w Google albo w ChatGPT. Dlatego posty linkują do konkretnych podstron — grafiku, zapisów, cennika — a nie do strony głównej. W analityce widać wtedy, które posty przyprowadzają zapisy, a podstrony, na które kierują, są gotowe także na ruch z Google."),
 
-        h2("Pozycjonowanie siłowni w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony siłowni w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Pytania „która siłownia na Mokotowie honoruje Medicover Sport i ma saunę”, „gdzie w Poznaniu jest pilates na reformerach dla początkujących” czy „czy zdrowy kręgosłup pomoże na ból pleców” ludzie zadają dziś również ChatGPT, Perplexity i podsumowaniom AI w Google. W odpowiedzi pada kilka klubów i powody, dla których asystent je wybrał. Tę pracę nazywa się GEO (generative engine optimization) lub AEO (answer engine optimization); w klubie fitness sprowadza się do czterech rzeczy:"),
         li("ceny, honorowane karty, godziny, strefy i udogodnienia zapisane tekstem, a nie tylko na grafice z Facebooka"),
         li("odpowiedzi na pytania początkujących na podstronach zajęć, podpisane imieniem instruktora"),
@@ -175,13 +175,13 @@ export const gymSeoPl = {
           ".",
         ),
 
-        h2("Raport z pozycjonowania siłowni: zapisy i karnety z systemu klubowego"),
+        h2("Raport z pozycjonowania strony siłowni: zapisy i karnety z systemu klubowego"),
         p("Właściciela klubu interesuje, ilu ludzi przyszło, a nie które miejsce zajmuje fraza. Dlatego raport co miesiąc pokazuje zapisy na trening próbny, wejścia jednorazowe, telefony z wizytówki i nowe karnety, które przyszły z wyszukiwarki i Map — osobno dla każdego klubu. Formularze i linki zapisu przekazują źródło do systemu klubowego, takiego jak eFitness, Perfect Gym czy WodGuru, więc recepcja nie musi pytać, skąd ktoś się o Was dowiedział. Podstrony, które dają ruch bez zapisów, poprawiam albo łączę z innymi."),
 
-        h2("Ile kosztuje pozycjonowanie siłowni"),
+        h2("Ile kosztuje pozycjonowanie strony siłowni"),
         li("Audyt SEO siłowni — strona, wizytówki, kluby w okolicy, karty sportowe i odpowiedzi AI: jednorazowo, od 1000 zł."),
         li("Jednorazowe prace — podstrony zajęć, karnetów i lokalizacji, porządek w wizytówkach, dane strukturalne, śledzenie zapisów: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie siłowni lub studia fitness — nowe podstrony, Mapy, opinie, widoczność w AI i raport w karnetach: od 3500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony siłowni lub studia fitness — nowe podstrony, Mapy, opinie, widoczność w AI i raport w karnetach: od 3500 zł miesięcznie."),
         p(
           "Małe studio w mniejszym mieście często dostaje większość efektu z audytu i kilku dobrych podstron. Jak prowadzę stałą współpracę, opisuję na stronie ",
           link("strategia i optymalizacja SEO", "/pl/oferty/strategia-i-optymalizacja-seo"),
@@ -198,12 +198,12 @@ export const gymSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie siłowni: najczęstsze pytania",
+      title: "Pozycjonowanie strony siłowni: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie siłowni?", "Audyt od 1000 zł, jednorazowe prace od 1000 do 3000 zł, stałe pozycjonowanie od 3500 zł miesięcznie. Stałą kwotę podaję, gdy znam liczbę klubów, zajęcia do zapełnienia i to, skąd dziś przychodzą klubowicze."],
-          ["Po jakim czasie pozycjonowanie siłowni daje nowych klubowiczów?", "Poprawki w wizytówce i nowe opinie potrafią podnieść klub w Mapach po kilku tygodniach. Nowe podstrony zajęć i lokalizacji potrzebują zwykle trzech–sześciu miesięcy, dlatego ofertę na styczeń przygotowuję jesienią."],
+          ["Ile kosztuje pozycjonowanie strony siłowni?", "Audyt od 1000 zł, jednorazowe prace od 1000 do 3000 zł, stałe pozycjonowanie od 3500 zł miesięcznie. Stałą kwotę podaję, gdy znam liczbę klubów, zajęcia do zapełnienia i to, skąd dziś przychodzą klubowicze."],
+          ["Po jakim czasie pozycjonowanie strony siłowni daje nowych klubowiczów?", "Poprawki w wizytówce i nowe opinie potrafią podnieść klub w Mapach po kilku tygodniach. Nowe podstrony zajęć i lokalizacji potrzebują zwykle trzech–sześciu miesięcy, dlatego ofertę na styczeń przygotowuję jesienią."],
           ["Czy wystarczy, że klub jest w wyszukiwarce obiektów MultiSport?", "To dobre źródło dla posiadaczy karty, ale nie dla osób bez karty ani dla tych, którzy szukają konkretnych zajęć w Google. Własna strona i wizytówka docierają do wszystkich i mówią o klubie więcej niż krótki opis u operatora."],
           ["Czy mała siłownia osiedlowa ma szansę z siecią?", "Na ogólne frazy rzadko. Na frazy z dzielnicą, zajęciami, kartą albo udogodnieniem — często tak, bo tam wygrywa konkretna odpowiedź, a nie marka."],
           ["Czy podawać ceny karnetów na stronie?", "Jeśli możesz — tak, przynajmniej ceny „od”. Frazy z ceną wpisują osoby tuż przed decyzją, a asystent AI poleci klub z cenami tylko wtedy, gdy umie je odczytać."],
@@ -216,7 +216,7 @@ export const gymSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie siłowni: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony siłowni: co mi wysłać"),
         p(
           "Wyślij nazwę klubu, adres strony i link do wizytówki w Mapach Google, liczbę lokalizacji, zajęcia i karnety, które chcesz sprzedawać lepiej, honorowane karty sportowe, nazwę systemu klubowego i to, skąd dziś przychodzą klubowicze. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

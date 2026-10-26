@@ -15,7 +15,7 @@
 // separate pages; «strona dla pensjonatu» vs «strona internetowa dla hotelu» 1
 // shared → pensjonaty go in one H2 here, no page of their own.
 // NOT on this page: building the site (/pl/strona-dla-hotelu); the hotel
-// restaurant (/pl/pozycjonowanie-restauracji); travel agencies
+// restaurant (/pl/pozycjonowanie-strony-restauracji); travel agencies
 // (/pl/strona-dla-biura-podrozy). Zakopane, Sopot, Kołobrzeg etc. are examples
 // of guests’ searches, not clients.
 // Owner’s rules: PL form «pozycjonowanie strony X»; every SEO page covers AI
@@ -140,7 +140,7 @@ export const hotelSeoPl = {
         h3("Wesela, konferencje i imprezy firmowe"),
         p(
           "W Polsce wiele hoteli poza sezonem żyje z wesel, szkoleń i wyjazdów integracyjnych. Te podstrony potrzebują pojemności sal w różnych ustawieniach, menu, liczby pokoi dla gości, wolnych terminów i formularza zapytania. Jeśli restauracja hotelowa przyjmuje gości z zewnątrz, może mieć własne pozycjonowanie — opisuję je na stronie ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ".",
         ),
 

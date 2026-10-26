@@ -20,7 +20,7 @@
 // like „Przeprowadzki Tanio 24h”; trust: OCP, umowa, faktura VAT; season
 // (wakacje, koniec miesiąca, październik); Ukrainian/English versions; AI.
 // NOT on this page: wywóz gruzu i opróżnianie mieszkań
-// (/pl/pozycjonowanie-firmy-wywozu-gruzu — linked once); transport and
+// (/pl/pozycjonowanie-strony-firmy-wywozu-gruzu — linked once); transport and
 // freight company websites (/pl/strona-dla-firmy-transportowej — linked once
 // from the website H2); maps in depth (/pl/oferty/pozycjonowanie-lokalne);
 // Google Ads and paid platforms (channels only).
@@ -31,15 +31,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const seoForMovingCompaniesPl = {
   lang: "pl",
   group: "seo-for-moving-companies",
-  slug: "pozycjonowanie-firmy-przeprowadzkowej",
-  title: "Pozycjonowanie firmy przeprowadzkowej",
-  heading: "Pozycjonowanie firmy przeprowadzkowej",
+  slug: "pozycjonowanie-strony-firmy-przeprowadzkowej",
+  title: "Pozycjonowanie strony firmy przeprowadzkowej",
+  heading: "Pozycjonowanie strony firmy przeprowadzkowej",
   excerpt:
     "Zajmuję się pozycjonowaniem firm przeprowadzkowych: podstrony przeprowadzek w mieście, krajowych, zagranicznych i firmowych, cennik i wycena po zdjęciach, wizytówka Google z opiniami i widoczność w ChatGPT — żeby klient dzwonił do Ciebie, a nie wysyłał zapytania przez Oferteo do pięciu firm.",
   seo: {
     metaTitle: "SEO dla firmy przeprowadzkowej: przeprowadzki | Bandziuk",
     metaDescription:
-      "Pozycjonowanie firmy przeprowadzkowej: przeprowadzki lokalne, krajowe i zagraniczne, cennik, wycena, Mapy Google, opinie i ChatGPT. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy przeprowadzkowej: przeprowadzki lokalne, krajowe i zagraniczne, cennik, wycena, Mapy Google, opinie i ChatGPT. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -48,14 +48,14 @@ export const seoForMovingCompaniesPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy przeprowadzkowej: strona, formularz wyceny, wizytówka Google i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla firmy przeprowadzkowej: podstrony usług i kierunków, cennik, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie firmy przeprowadzkowej", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony firmy przeprowadzkowej", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie firmy przeprowadzkowej",
+      title: "Co obejmuje pozycjonowanie strony firmy przeprowadzkowej",
       items: [
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego rodzaju przeprowadzki", text: "Mieszkania, domy, biura, pianina, magazyn" },
         { _key: k("o"), iconName: "trending-up", title: "Kierunki zagraniczne i krajowe", text: "Tylko trasy, którymi naprawdę jeździsz" },
@@ -66,7 +66,7 @@ export const seoForMovingCompaniesPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO firmy przeprowadzkowej", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie firmy przeprowadzkowej", value: "od 3500 zł / mies.", note: "podstrony, Mapy, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony firmy przeprowadzkowej", value: "od 3500 zł / mies.", note: "podstrony, Mapy, opinie, AI", highlight: true },
       ],
     },
     {
@@ -88,7 +88,7 @@ export const seoForMovingCompaniesPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania firmy przeprowadzkowej",
+      title: "Wycena pozycjonowania strony firmy przeprowadzkowej",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw — podstrony, cennik, formularz czy wizytówkę — i za jaką stałą cenę.",
       contextLabel: "Nazwa firmy lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -105,9 +105,9 @@ export const seoForMovingCompaniesPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie firmy przeprowadzkowej to praca nad tym, żeby osoba, która wpisuje „przeprowadzki Kraków”, „firma przeprowadzkowa cennik” albo „przeprowadzka do Niemiec”, trafiła na Twoją stronę albo wizytówkę i zadzwoniła. Robię to sam — audyt, podstrony, poprawki w kodzie, wizytówkę Google i raporty — dla małych firm z jednym busem i dwoma tragarzami oraz dla tych, które mają już kilka aut i magazyn."),
+        p("Pozycjonowanie strony firmy przeprowadzkowej to praca nad tym, żeby osoba, która wpisuje „przeprowadzki Kraków”, „firma przeprowadzkowa cennik” albo „przeprowadzka do Niemiec”, trafiła na Twoją stronę albo wizytówkę i zadzwoniła. Robię to sam — audyt, podstrony, poprawki w kodzie, wizytówkę Google i raporty — dla małych firm z jednym busem i dwoma tragarzami oraz dla tych, które mają już kilka aut i magazyn."),
 
-        h2("Pozycjonowanie firmy przeprowadzkowej: co obejmuje usługa"),
+        h2("Pozycjonowanie strony firmy przeprowadzkowej: co obejmuje usługa"),
         p("Klient szukający przeprowadzki zwykle porównuje trzy, cztery firmy i wybiera tę, która najszybciej poda konkretną cenę i wygląda wiarygodnie. Pracuję nad wszystkimi miejscami, w których ta decyzja zapada:"),
         li("podstrony usług i kierunków na Twojej stronie"),
         li("wizytówka w Mapach Google i opinie klientów"),
@@ -115,7 +115,7 @@ export const seoForMovingCompaniesPl = {
         li("odpowiedzi ChatGPT, Perplexity i podsumowania AI w Google"),
         p(
           "Jeśli głównie wywozisz meble i opróżniasz mieszkania, a przeprowadzki są dodatkiem, lepiej pasuje strona ",
-          link("pozycjonowanie firmy wywozu gruzu", "/pl/pozycjonowanie-firmy-wywozu-gruzu"),
+          link("pozycjonowanie firmy wywozu gruzu", "/pl/pozycjonowanie-strony-firmy-wywozu-gruzu"),
           ".",
         ),
 
@@ -141,7 +141,7 @@ export const seoForMovingCompaniesPl = {
         h2("Formularz wyceny przeprowadzki: telefon, WhatsApp i oględziny wideo"),
         p("W tej branży zlecenie zdobywa często ten, kto pierwszy odezwie się z sensowną ceną. Formularz w pierwszym kroku pyta tylko o skąd, dokąd, termin, metraż i telefon. Długa lista mebli zniechęca w telefonie — lepiej poprosić o zdjęcia albo krótką rozmowę wideo, w której klient pokazuje mieszkanie. Przycisk „Zadzwoń” i WhatsApp są na każdej podstronie, a każde zapytanie trafia do skrzynki lub CRM razem z informacją, z której podstrony przyszło."),
 
-        h2("Oferteo, Fixly i OLX a pozycjonowanie firmy przeprowadzkowej"),
+        h2("Oferteo, Fixly i OLX a pozycjonowanie strony firmy przeprowadzkowej"),
         p("Na platformach zleceń jedno zapytanie widzi kilka firm, a Ty płacisz za kontakt albo za możliwość odpowiedzi — niezależnie od tego, czy dostaniesz zlecenie. Ogłoszenia na OLX trzeba odświeżać i opłacać, a klient porównuje tam głównie cenę. Google Ads działa od pierwszego dnia, ale w sezonie kliknięcia na „przeprowadzki Warszawa” są drogie."),
         p("Pozycjonowanie wymaga kilku miesięcy, za to telefon z wyszukiwarki trafia tylko do Ciebie i nie kosztuje osobno. Na pytanie, co jest lepsze — pozycjonowanie czy Google Ads — odpowiedź zwykle brzmi: reklama na sezon, SEO na lata. Ja zajmuję się wyszukiwarką i odpowiedziami AI."),
 
@@ -174,7 +174,7 @@ export const seoForMovingCompaniesPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie firmy przeprowadzkowej w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony firmy przeprowadzkowej w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Coraz więcej osób pyta ChatGPT, Perplexity albo podsumowania AI w Google: „ile kosztuje przeprowadzka 50 m² w Krakowie”, „jak wybrać firmę przeprowadzkową”, „kto robi przeprowadzki do Niemiec”. Asystent podaje kilka firm i powód wyboru. Pracę nad tym nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). Dla firmy przeprowadzkowej to:"),
         li("zasady cennika i usługi opisane prostymi zdaniami na stronie"),
         li("miasta, kierunki, flota, ubezpieczenie i lata działalności podane jako fakty"),
@@ -186,10 +186,10 @@ export const seoForMovingCompaniesPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie firmy przeprowadzkowej"),
+        h2("Ile kosztuje pozycjonowanie strony firmy przeprowadzkowej"),
         li("Audyt SEO — strona, formularz, cennik, wizytówka, opinie i odpowiedzi AI: od 1000 zł, jednorazowo, z listą poprawek według wpływu."),
         li("Jednorazowe prace — podstrony usług i kierunków, cennik, formularz wyceny, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie firmy przeprowadzkowej — nowe podstrony, Mapy, opinie, widoczność w AI i raport w zleceniach: od 3500 zł miesięcznie, przy silnej konkurencji w Warszawie, Krakowie czy Wrocławiu od 5500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony firmy przeprowadzkowej — nowe podstrony, Mapy, opinie, widoczność w AI i raport w zleceniach: od 3500 zł miesięcznie, przy silnej konkurencji w Warszawie, Krakowie czy Wrocławiu od 5500 zł miesięcznie."),
         p(
           "Jak wygląda stała praca, opisuję na stronie ",
           link("strategia i optymalizacja SEO", "/pl/oferty/strategia-i-optymalizacja-seo"),
@@ -202,11 +202,11 @@ export const seoForMovingCompaniesPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie firmy przeprowadzkowej: najczęstsze pytania",
+      title: "Pozycjonowanie strony firmy przeprowadzkowej: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie firmy przeprowadzkowej?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie, w dużych miastach z silną konkurencją od 5500 zł. Po krótkim opisie firmy, miast i kierunków podaję stałą cenę."],
+          ["Ile kosztuje pozycjonowanie strony firmy przeprowadzkowej?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie, w dużych miastach z silną konkurencją od 5500 zł. Po krótkim opisie firmy, miast i kierunków podaję stałą cenę."],
           ["Ile trwa, zanim pozycjonowanie da zlecenia?", "Poprawki w wizytówce Google bywają widoczne po kilku tygodniach. Nowe podstrony usług i kierunków zwykle potrzebują trzech–sześciu miesięcy, dlatego podstrony na sezon letni warto mieć gotowe zimą."],
           ["Co jest lepsze: pozycjonowanie czy Google Ads?", "Reklama daje telefony od razu i kończy się z budżetem. Pozycjonowanie rośnie miesiącami, ale potem przyprowadza klientów bez opłaty za kliknięcie. Wiele firm przeprowadzkowych łączy jedno z drugim: reklamę w sezonie, SEO przez cały rok."],
           ["Czy warto dalej brać zlecenia z Oferteo i Fixly?", "Jeśli się opłacają, tak. Warto jednak policzyć, ile płacisz za jedno wygrane zlecenie, skoro to samo zapytanie widzi kilka firm. Pozycjonowanie pozwala z czasem mniej od nich zależeć."],
@@ -220,7 +220,7 @@ export const seoForMovingCompaniesPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie firmy przeprowadzkowej: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony firmy przeprowadzkowej: co mi wysłać"),
         p(
           "Wyślij link do strony i do wizytówki w Mapach Google, miasta i kierunki, w których chcesz mieć więcej zleceń, rodzaje przeprowadzek, na których Ci zależy, i informację, skąd dziś przychodzą klienci — Oferteo, Fixly, OLX czy polecenia. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

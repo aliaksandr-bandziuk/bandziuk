@@ -18,7 +18,7 @@
 // Prices: /pl/cennik — prosta strona 3000–6000 zł, pełna od 8500 zł, projekt w
 // cenie.
 // NOT on this page: pozycjonowanie wypożyczalni
-// (/pl/pozycjonowanie-wypozyczalni-samochodow), strona komisu
+// (/pl/pozycjonowanie-strony-wypozyczalni-samochodow), strona komisu
 // (/pl/strona-internetowa-dla-komisu-samochodowego), pozycjonowanie
 // warsztatu (/pl/oferty/pozycjonowanie-strony-warsztatu-samochodowego-warszawa
 // — neighbour, linked once), sklepy z kosmetykami samochodowymi.

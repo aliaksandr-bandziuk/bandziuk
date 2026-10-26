@@ -132,7 +132,7 @@ export const tworzenieStronInternetowychCzestochowaPl = {
           "Gdy strona już działa, o jej widoczności w Google piszę na stronach ",
           link("pozycjonowanie strony hotelu", "/pl/pozycjonowanie-strony-hotelu"),
           " i ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ".",
         ),
 

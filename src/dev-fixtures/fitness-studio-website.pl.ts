@@ -12,7 +12,7 @@
 // 10 = gyms and directories (members’ searches) — the page targets owners
 // through the design phrases; EN «gym website design» = «fitness studio
 // website» (5 of 10 shared) → one page; «gym seo» vs «gym website design» 0
-// shared → /pl/pozycjonowanie-silowni is the sibling.
+// shared → /pl/pozycjonowanie-strony-silowni is the sibling.
 // Angles: pierwszy ekran, grafik z systemu klubowego (eFitness, Perfect Gym,
 // WodGuru — general), cennik karnetów z kartami sportowymi (how the price
 // page shows them), zakup karnetu online (BLIK, płatności cykliczne —
@@ -21,7 +21,7 @@
 // Dith case), treningi online i vouchery (Landi Room case), AI-readable
 // build, kreator / strona z systemu / projekt, cena.
 // NOT on this page: frazy, wizytówka Google, podstrony lokalizacji jako SEO,
-// opinie, sieci, Facebook vs Google, raport (/pl/pozycjonowanie-silowni —
+// opinie, sieci, Facebook vs Google, raport (/pl/pozycjonowanie-strony-silowni —
 // sibling); trenerzy z własną działalnością
 // (/pl/strona-internetowa-dla-trenera-personalnego — linked once).
 // Prices: PL scale — 3000–6000 zł, od 8500 zł, projekt w cenie.
@@ -150,7 +150,7 @@ export const fitnessStudioWebsitePl = {
         p("Pytanie „gdzie na Bemowie jest siłownia z sauną na Medicover Sport” coraz częściej trafia do ChatGPT albo podsumowań AI w Google, a odpowiedź powstaje z tego, co asystent umie przeczytać. Strona jest zbudowana pod to: treść przychodzi z serwera jako tekst, a nie doładowuje się skryptem; zajęcia, ceny, honorowane karty, strefy i godziny są w kodzie zwykłym tekstem; dane strukturalne opisują klub, każdą lokalizację i zajęcia; robots.txt mówi, które roboty AI mogą czytać stronę. Tak zbudowane nowe podstrony psychoterapeuty z Mediolanu już pojawiają się w odpowiedziach ChatGPT."),
         p(
           "Stałą pracę nad widocznością opisuję na stronach ",
-          link("pozycjonowanie siłowni", "/pl/pozycjonowanie-silowni"),
+          link("pozycjonowanie siłowni", "/pl/pozycjonowanie-strony-silowni"),
           " i ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ".",

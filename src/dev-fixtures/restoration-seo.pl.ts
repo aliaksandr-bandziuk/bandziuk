@@ -19,7 +19,7 @@
 // cesja (general), Oferteo / Fixly, powódź 2024 na południu Polski, osuszanie
 // wylewek dla deweloperów (pomiar CM).
 // NOT on this page: pranie dywanów i tapicerki
-// (/pl/pozycjonowanie-firmy-prania-dywanow); remonty i budowa
+// (/pl/pozycjonowanie-strony-firmy-prania-dywanow); remonty i budowa
 // (/pl/pozycjonowanie-strony-firmy-budowlanej, linked once); budowa strony;
 // kampanie Google Ads.
 // Owner's rules: every SEO page covers AI search (GEO, AEO); never say there
@@ -29,15 +29,15 @@ import { p, h2, li, link, k } from "./pt";
 export const restorationSeoPl = {
   lang: "pl",
   group: "restoration-seo",
-  slug: "pozycjonowanie-firmy-osuszania-po-zalaniu",
-  title: "Pozycjonowanie firmy osuszania po zalaniu",
-  heading: "Pozycjonowanie firmy osuszania po zalaniu",
+  slug: "pozycjonowanie-strony-firmy-osuszania-po-zalaniu",
+  title: "Pozycjonowanie strony firmy osuszania po zalaniu",
+  heading: "Pozycjonowanie strony firmy osuszania po zalaniu",
   excerpt:
-    "Pozycjonowanie firmy osuszania po zalaniu, usuwania skutków pożaru i odgrzybiania: podstrona pilnych zleceń, osobne podstrony dla każdej szkody, jasny opis współpracy z ubezpieczycielem, wizytówka Google i odpowiedzi AI.",
+    "Pozycjonowanie strony firmy osuszania po zalaniu, usuwania skutków pożaru i odgrzybiania: podstrona pilnych zleceń, osobne podstrony dla każdej szkody, jasny opis współpracy z ubezpieczycielem, wizytówka Google i odpowiedzi AI.",
   seo: {
     metaTitle: "SEO dla firm osuszania i usuwania szkód | Bandziuk",
     metaDescription:
-      "Pozycjonowanie firmy osuszania po zalaniu: podstrony pilnych zleceń, pożaru i grzyba, współpraca z ubezpieczycielem, Mapy Google i AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy osuszania po zalaniu: podstrony pilnych zleceń, pożaru i grzyba, współpraca z ubezpieczycielem, Mapy Google i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -46,14 +46,14 @@ export const restorationSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy osuszania: strona, wizytówka Google, podstrona pilnych zleceń", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO: podstrony zalania, pożaru i grzyba, podstrona o ubezpieczeniu, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie firmy osuszania po zalaniu", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony firmy osuszania po zalaniu", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie firmy osuszania po zalaniu",
+      title: "Co obejmuje pozycjonowanie strony firmy osuszania po zalaniu",
       items: [
         { _key: k("o"), iconName: "phone", title: "Podstrona pilnych zleceń", text: "Telefon jako przycisk, czas dojazdu, zdjęcia przez WhatsApp" },
         { _key: k("o"), iconName: "layers", title: "Osobne podstrony dla każdej szkody", text: "Zalanie, wylewki, pożar, grzyb, wynajem osuszaczy" },
@@ -86,7 +86,7 @@ export const restorationSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania firmy osuszania po zalaniu",
+      title: "Wycena pozycjonowania strony firmy osuszania po zalaniu",
       subtitle: "W ciągu jednego dnia roboczego napiszę, co zmieniłbym najpierw na podstronie pilnych zleceń i w wizytówce, i podam stałą cenę.",
       contextLabel: "Nazwa firmy lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -103,9 +103,9 @@ export const restorationSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie firmy osuszania po zalaniu to praca nad tym, żeby osoba, której woda cieknie z sufitu albo stoi na podłodze, znalazła w Google Waszą stronę i wizytówkę i zadzwoniła do Was, a nie do pierwszego ogłoszenia z portalu. Zajmuję się tym sam: dane wyszukiwań, podstrony usług — osuszanie, usuwanie skutków pożaru, odgrzybianie — wizytówka, opis współpracy z ubezpieczycielem i raporty. W tej branży jedno zlecenie bywa warte więcej niż miesiąc pracy nad SEO, a klient rzadko porównuje więcej niż dwie firmy."),
+        p("Pozycjonowanie strony firmy osuszania po zalaniu to praca nad tym, żeby osoba, której woda cieknie z sufitu albo stoi na podłodze, znalazła w Google Waszą stronę i wizytówkę i zadzwoniła do Was, a nie do pierwszego ogłoszenia z portalu. Zajmuję się tym sam: dane wyszukiwań, podstrony usług — osuszanie, usuwanie skutków pożaru, odgrzybianie — wizytówka, opis współpracy z ubezpieczycielem i raporty. W tej branży jedno zlecenie bywa warte więcej niż miesiąc pracy nad SEO, a klient rzadko porównuje więcej niż dwie firmy."),
 
-        h2("Pozycjonowanie firmy osuszania po zalaniu: pilne telefony i szybki kontakt na stronie"),
+        h2("Pozycjonowanie strony firmy osuszania po zalaniu: pilne telefony i szybki kontakt na stronie"),
         p("Po zalaniu ludzie szukają szybko i z telefonu: „osuszanie po zalaniu Katowice”, „zalane mieszkanie co robić”, „osuszacz wynajem”. Dzwonią do jednej z pierwszych firm z Map albo z wyników i rzadko przewijają dalej niż pierwszy ekran."),
         p("Dlatego podstrona pilnych zleceń ma prostą budowę. Na górze: kiedy możecie przyjechać i do jakich miejscowości, numer telefonu jako przycisk i WhatsApp do wysłania zdjęć szkody. Niżej: kim jesteście, jakim sprzętem pracujecie, zdjęcia z realizacji i odpowiedzi na pytania, które klient i tak zada przez telefon. Strona musi szybko ładować się na telefonie, bo nikt nie czeka na nią w zalanym przedpokoju."),
 
@@ -176,7 +176,7 @@ export const restorationSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie firmy osuszania po zalaniu"),
+        h2("Ile kosztuje pozycjonowanie strony firmy osuszania po zalaniu"),
         li("Audyt SEO strony, wizytówki i podstrony pilnych zleceń: od 1000 zł, jednorazowo, z listą poprawek według wpływu."),
         li("Jednorazowe prace — podstrony zalania, pożaru i grzyba, podstrona o współpracy z ubezpieczycielem, dane strukturalne: od 1000 do 3000 zł."),
         li("Stała praca nad firmą osuszania — kolejne podstrony, wizytówka i opinie, odpowiedzi AI, raport telefonów: od 3500 zł miesięcznie; tam, gdzie o frazy walczą też pośrednicy i sieci, od 5500 zł miesięcznie."),
@@ -192,7 +192,7 @@ export const restorationSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie firmy osuszania po zalaniu: najczęstsze pytania",
+      title: "Pozycjonowanie strony firmy osuszania po zalaniu: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
@@ -210,7 +210,7 @@ export const restorationSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie firmy osuszania po zalaniu: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony firmy osuszania po zalaniu: co mi wysłać"),
         p(
           "Napiszcie, jak nazywa się firma, dodajcie adres strony i link do wizytówki w Mapach Google i wymieńcie zlecenia, na których Wam zależy — osuszanie po zalaniu, wylewki i budowy, pożary, odgrzybianie, wynajem osuszaczy — miejscowości, do których dojeżdżacie, informację, czy macie dyżur całodobowy, i skąd dziś przychodzą zlecenia. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

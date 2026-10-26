@@ -176,7 +176,7 @@ export const seoServicesForSmallBusinessPl = {
           ", ",
           link("pozycjonowanie strony gabinetu stomatologicznego", "/pl/pozycjonowanie-strony-gabinetu-stomatologicznego"),
           ", ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           " i ",
           link("pozycjonowanie strony hotelu", "/pl/pozycjonowanie-strony-hotelu"),
           ". Firmy z Warszawy znajdą więcej na stronie ",

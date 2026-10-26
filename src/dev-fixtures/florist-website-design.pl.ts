@@ -8,7 +8,7 @@
 // internetowy kwiaciarni» (H2), «strona www kwiaciarni» (metaTitle).
 // Intent: ref/intent-check-creative-leisure.md — EN «florist website design»
 // vs «florist seo» 0 of 10 shared URLs → separate pages; sibling
-// /pl/pozycjonowanie-kwiaciarni linked. EN «website for florists» returns
+// /pl/pozycjonowanie-strony-kwiaciarni linked. EN «website for florists» returns
 // shops themselves — the PL page targets the owner’s phrase.
 // Polish angles: first screen with today’s order hour, sklep z kwiatami with
 // strefy dostawy, godziny, limit zamówień na Dzień Kobiet; own photos with
@@ -18,7 +18,7 @@
 // case); Shoper / WordPress template vs custom; AI-readable build; cost.
 // NOT on this page: pozycjonowanie, podstrony dostaw jako SEO, wizytówka
 // Google, Allegro i sieci w wynikach, kalendarz sezonów
-// (/pl/pozycjonowanie-kwiaciarni — sibling; wizytówka →
+// (/pl/pozycjonowanie-strony-kwiaciarni — sibling; wizytówka →
 // /pl/oferty/pozycjonowanie-lokalne). The brief names no neighbour page for
 // florists. Portfolio: renovation (premium visual), Landi Room (Stripe +
 // automatic confirmation), Cyprus VIP Estates (catalog), Felgilab, Giuseppe.
@@ -168,7 +168,7 @@ export const floristWebsiteDesignPl = {
           "Jak dbam o obecność firmy w odpowiedziach AI na stałe, wyjaśniam na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ", wyniki w Google na frazy z dostawą i okazjami — na stronie ",
-          link("pozycjonowanie kwiaciarni", "/pl/pozycjonowanie-kwiaciarni"),
+          link("pozycjonowanie kwiaciarni", "/pl/pozycjonowanie-strony-kwiaciarni"),
           ", a pracę nad wizytówką w Mapach Google — na stronie ",
           link("pozycjonowanie lokalne", "/pl/oferty/pozycjonowanie-lokalne"),
           ".",

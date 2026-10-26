@@ -25,15 +25,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const seoForOrthodontistsPl = {
   lang: "pl",
   group: "seo-for-orthodontists",
-  slug: "pozycjonowanie-gabinetu-ortodontycznego",
-  title: "Pozycjonowanie gabinetu ortodontycznego",
-  heading: "Pozycjonowanie gabinetu ortodontycznego",
+  slug: "pozycjonowanie-strony-gabinetu-ortodontycznego",
+  title: "Pozycjonowanie strony gabinetu ortodontycznego",
+  heading: "Pozycjonowanie strony gabinetu ortodontycznego",
   excerpt:
     "Zajmuję się pozycjonowaniem gabinetów ortodontycznych: podstrony dla rodziców dzieci i nastolatków, dla dorosłych rozważających nakładki, rzeczowe informacje o cenach i ratach, wizytówka Google każdej placówki i widoczność w AI — w granicach zasad, które obowiązują lekarzy dentystów.",
   seo: {
     metaTitle: "SEO dla ortodonty: aparaty, nakładki, raty | Bandziuk",
     metaDescription:
-      "Pozycjonowanie gabinetu ortodontycznego: podstrony dla rodziców i dorosłych, ceny aparatów i nakładek, wizytówka Google każdej placówki, AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony gabinetu ortodontycznego: podstrony dla rodziców i dorosłych, ceny aparatów i nakładek, wizytówka Google każdej placówki, AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -42,14 +42,14 @@ export const seoForOrthodontistsPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO gabinetu ortodontycznego: strona i wizytówki Google placówek", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla ortodonty: podstrony dla rodziców i dorosłych, koszty leczenia, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie gabinetu ortodontycznego", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony gabinetu ortodontycznego", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie gabinetu ortodontycznego",
+      title: "Co obejmuje pozycjonowanie strony gabinetu ortodontycznego",
       items: [
         { _key: k("o"), iconName: "search", title: "Frazy według wieku pacjenta i rodzaju aparatu", text: "Dziecko, nastolatek, dorosły — z danymi wyszukiwań" },
         { _key: k("o"), iconName: "layers", title: "Podstrony dla rodziców i dla dorosłych", text: "Aparaty ruchome i stałe, nakładki, retencja" },
@@ -60,7 +60,7 @@ export const seoForOrthodontistsPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO: strona gabinetu ortodontycznego i wizytówki", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie gabinetu ortodontycznego", value: "od 3500 zł / mies.", note: "podstrony, placówki, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony gabinetu ortodontycznego", value: "od 3500 zł / mies.", note: "podstrony, placówki, opinie, AI", highlight: true },
       ],
     },
     {
@@ -82,7 +82,7 @@ export const seoForOrthodontistsPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania gabinetu ortodontycznego",
+      title: "Wycena pozycjonowania strony gabinetu ortodontycznego",
       subtitle: "W ciągu jednego dnia roboczego napiszę, od czego zacząłbym na stronie i w wizytówkach Waszych placówek, i podam stałą cenę.",
       contextLabel: "Nazwa gabinetu lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -99,9 +99,9 @@ export const seoForOrthodontistsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie gabinetu ortodontycznego to praca nad tym, żeby rodzic szukający aparatu dla dziecka, dorosły rozważający nakładki i pacjent wysłany przez swojego stomatologa trafili na Waszą stronę, a nie na listę w serwisie z rezerwacjami. Robię ją sam: dane wyszukiwań, podstrony, wizytówki placówek i poprawki w kodzie. Wynik liczę w zgłoszeniach na konsultację, a nie w pozycjach fraz."),
+        p("Pozycjonowanie strony gabinetu ortodontycznego to praca nad tym, żeby rodzic szukający aparatu dla dziecka, dorosły rozważający nakładki i pacjent wysłany przez swojego stomatologa trafili na Waszą stronę, a nie na listę w serwisie z rezerwacjami. Robię ją sam: dane wyszukiwań, podstrony, wizytówki placówek i poprawki w kodzie. Wynik liczę w zgłoszeniach na konsultację, a nie w pozycjach fraz."),
 
-        h2("Na czym polega pozycjonowanie gabinetu ortodontycznego"),
+        h2("Na czym polega pozycjonowanie strony gabinetu ortodontycznego"),
         p("Ortodoncja to inny rynek niż stomatologia ogólna. Gabinet stomatologiczny żyje z wielu krótkich wizyt, gabinet ortodontyczny — z jednej decyzji o leczeniu, które trwa zwykle od roku do trzech lat. Ta decyzja zapada inaczej:"),
         li("szuka często ktoś inny niż pacjent: mama albo tata jedenastolatka, który właśnie usłyszał od dentysty, że „trzeba iść do ortodonty”"),
         li("rodzina porównuje kilka gabinetów, czyta o rodzajach aparatów i liczy koszty, zanim zadzwoni"),
@@ -112,7 +112,7 @@ export const seoForOrthodontistsPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie gabinetu ortodontycznego a zakaz reklamy lekarzy dentystów"),
+        h2("Pozycjonowanie strony gabinetu ortodontycznego a zakaz reklamy lekarzy dentystów"),
         p("Ortodonta jest lekarzem dentystą, więc jego strona podlega tym samym ograniczeniom co strona każdego dentysty: ma przekazywać rzeczową informację, a nie zachęcać jak reklama. W ortodoncji kłopot sprawiają zwłaszcza trzy rzeczy, które w innych branżach są codziennością:"),
         li("„darmowa konsultacja” albo „rabat na aparat do końca miesiąca” — to już promocja, a nie informacja o cenie"),
         li("obietnice w rodzaju „proste zęby w pół roku” albo „idealny uśmiech”"),
@@ -161,7 +161,7 @@ export const seoForOrthodontistsPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie gabinetu ortodontycznego w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony gabinetu ortodontycznego w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Rodzice pytają ChatGPT, w jakim wieku iść z dzieckiem do ortodonty, a zaraz potem, który gabinet w ich mieście ma raty albo przyjmuje w soboty. Odpowiedź powstaje z porównania kilku źródeł naraz: Waszej strony, wizytówek i ZnanyLekarz. Starania o miejsce w takich odpowiedziach nazywa się GEO albo AEO. Dla gabinetu ortodontycznego to:"),
         li("rodzaje leczenia, wiek pacjentów, placówki, dni przyjęć i formy płatności zapisane prostymi zdaniami"),
         li("widełki cen z opisem, co obejmują"),
@@ -173,10 +173,10 @@ export const seoForOrthodontistsPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie gabinetu ortodontycznego"),
+        h2("Ile kosztuje pozycjonowanie strony gabinetu ortodontycznego"),
         li("Audyt strony i wizytówek wszystkich placówek: od 1000 zł, jednorazowo, z listą zmian ułożoną według wpływu."),
         li("Pojedyncze zadania — podstrony dla rodziców i dorosłych, koszty leczenia, podstrona dla stomatologów, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie gabinetu ortodontycznego — nowe podstrony, placówki, opinie, widoczność w AI i raport w zgłoszeniach: od 3500 zł miesięcznie, w największych miastach z silną konkurencją od 5500 zł."),
+        li("Stałe pozycjonowanie strony gabinetu ortodontycznego — nowe podstrony, placówki, opinie, widoczność w AI i raport w zgłoszeniach: od 3500 zł miesięcznie, w największych miastach z silną konkurencją od 5500 zł."),
         p(
           "Jeśli strona wymaga przebudowy, opisuję to na stronie ",
           link("strona internetowa dla ortodonty", "/pl/strona-internetowa-dla-ortodonty"),
@@ -193,16 +193,16 @@ export const seoForOrthodontistsPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie gabinetu ortodontycznego: najczęstsze pytania",
+      title: "Pozycjonowanie strony gabinetu ortodontycznego: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie gabinetu ortodontycznego?", "Za audyt zapłacicie od 1000 zł. Pojedyncze zadanie to od 1000 do 3000 zł. Comiesięczna praca zaczyna się od 3500 zł, a tam, gdzie gabinetów ortodontycznych jest bardzo dużo, od 5500 zł. Kwotę podaję jedną i stałą, gdy znam placówki i rodzaje leczenia."],
+          ["Ile kosztuje pozycjonowanie strony gabinetu ortodontycznego?", "Za audyt zapłacicie od 1000 zł. Pojedyncze zadanie to od 1000 do 3000 zł. Comiesięczna praca zaczyna się od 3500 zł, a tam, gdzie gabinetów ortodontycznych jest bardzo dużo, od 5500 zł. Kwotę podaję jedną i stałą, gdy znam placówki i rodzaje leczenia."],
           ["Czy gabinet ortodontyczny może napisać o bezpłatnej konsultacji?", "Informacja o cenie konsultacji, także zerowej, to co innego niż hasło promocyjne. Bezpieczniej podać ją w cenniku obok innych pozycji niż w banerze. Ostateczną ocenę daje izba lekarska, więc wątpliwe sformułowania warto z nią skonsultować."],
           ["Czy warto podawać ceny aparatów na stronie?", "Tak. Cena to informacja, której pacjenci szukają najczęściej. Widełki z opisem, co obejmują, przyciągają osoby gotowe na leczenie i zmniejszają liczbę telefonów z pytaniem o koszt."],
           ["Czym różni się pozycjonowanie ortodonty od pozycjonowania dentysty?", "Innym pacjentem i inną decyzją. W ortodoncji szukają rodzice dzieci, dorośli porównujący nakładki z aparatem i pacjenci z polecenia stomatologa, a leczenie trwa latami. Dlatego frazy, podstrony i raport wyglądają inaczej."],
           ["Czy wystarczy profil w ZnanyLekarz?", "Profil przynosi umówienia, ale wyświetla się w towarzystwie innych ortodontów z okolicy. Na własnej stronie nazwisko lekarza wygrywa w Google, leczenie można opisać dokładnie, a asystenci AI mają z czego czerpać. Warto mieć oba, z identycznymi danymi."],
-          ["Kiedy widać efekty pozycjonowania gabinetu ortodontycznego?", "Poprawione wizytówki potrafią przesunąć się w kilka tygodni. Nowe podstrony o aparatach i nakładkach potrzebują kilku miesięcy, a rodziny podejmują decyzję jeszcze przez kilka tygodni, dlatego zgłoszenia oceniam w perspektywie około pół roku."],
+          ["Kiedy widać efekty pozycjonowania strony gabinetu ortodontycznego?", "Poprawione wizytówki potrafią przesunąć się w kilka tygodni. Nowe podstrony o aparatach i nakładkach potrzebują kilku miesięcy, a rodziny podejmują decyzję jeszcze przez kilka tygodni, dlatego zgłoszenia oceniam w perspektywie około pół roku."],
           ["Czy pracujesz z gabinetami spoza Warszawy?", "Tak, z całej Polski — pracuję zdalnie, a strona, wizytówki i dane wyszukiwań dla Waszego miasta nie wymagają mojej obecności. Gabinety z Warszawy i okolic mogę też odwiedzić na miejscu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -211,7 +211,7 @@ export const seoForOrthodontistsPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie gabinetu ortodontycznego: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony gabinetu ortodontycznego: co mi wysłać"),
         p(
           "Napiszcie nazwę gabinetu, adres strony, linki do wizytówek i profili w ZnanyLekarz każdej placówki, mniej więcej jaki odsetek pacjentów to dzieci, a jaki dorośli, i przy jakim leczeniu chcecie więcej zgłoszeń. Odeślę trzy pierwsze zmiany, od których bym zaczął, i stałą cenę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

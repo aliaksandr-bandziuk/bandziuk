@@ -27,15 +27,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const seoForChiropractorsPl = {
   lang: "pl",
   group: "seo-for-chiropractors",
-  slug: "pozycjonowanie-gabinetu-fizjoterapii",
-  title: "Pozycjonowanie gabinetu fizjoterapii",
-  heading: "Pozycjonowanie gabinetu fizjoterapii",
+  slug: "pozycjonowanie-strony-gabinetu-fizjoterapii",
+  title: "Pozycjonowanie strony gabinetu fizjoterapii",
+  heading: "Pozycjonowanie strony gabinetu fizjoterapii",
   excerpt:
     "Zajmuję się pozycjonowaniem gabinetów fizjoterapii, osteopatii i terapii manualnej: wizytówka Google, podstrony problemów, z którymi przychodzą pacjenci, NFZ i wizyty prywatne opisane osobno, opinie i widoczność w AI — rzeczowa informacja zamiast reklamy.",
   seo: {
     metaTitle: "Pozycjonowanie fizjoterapii i osteopatii | Bandziuk",
     metaDescription:
-      "Pozycjonowanie gabinetu fizjoterapii, osteopatii i terapii manualnej: wizytówka Google, podstrony problemów, NFZ, opinie i widoczność w AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony gabinetu fizjoterapii, osteopatii i terapii manualnej: wizytówka Google, podstrony problemów, NFZ, opinie i widoczność w AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -44,14 +44,14 @@ export const seoForChiropractorsPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO gabinetu fizjoterapii: strona, wizytówka Google, profile w serwisach rezerwacji i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla gabinetu fizjoterapii: podstrony problemów i metod, NFZ, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie gabinetu fizjoterapii lub osteopatii", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony gabinetu fizjoterapii lub osteopatii", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie gabinetu fizjoterapii",
+      title: "Co obejmuje pozycjonowanie strony gabinetu fizjoterapii",
       items: [
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google, która trafia do Map", text: "Kategoria, usługi, godziny, zdjęcia gabinetu" },
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego problemu", text: "Kręgosłup, rwa kulszowa, urazy, rehabilitacja po operacji" },
@@ -62,7 +62,7 @@ export const seoForChiropractorsPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO gabinetu fizjoterapii", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie gabinetu fizjoterapii", value: "od 3500 zł / mies.", note: "mapy, podstrony, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony gabinetu fizjoterapii", value: "od 3500 zł / mies.", note: "mapy, podstrony, opinie, AI", highlight: true },
       ],
     },
     {
@@ -84,7 +84,7 @@ export const seoForChiropractorsPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania gabinetu fizjoterapii",
+      title: "Wycena pozycjonowania strony gabinetu fizjoterapii",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw — wizytówkę, podstrony czy rejestrację — i za jaką stałą cenę.",
       contextLabel: "Nazwa gabinetu lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -101,9 +101,9 @@ export const seoForChiropractorsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie gabinetu fizjoterapii robię sam — od danych wyszukiwań, przez wizytówkę Google, po podstrony problemów i poprawki w kodzie — dla gabinetów fizjoterapii, osteopatii i terapii manualnej. Celem nie są same pozycje, tylko pacjenci z okolicy, którzy po wpisaniu swojego problemu trafiają do Was i umawiają pierwszą wizytę."),
+        p("Pozycjonowanie strony gabinetu fizjoterapii robię sam — od danych wyszukiwań, przez wizytówkę Google, po podstrony problemów i poprawki w kodzie — dla gabinetów fizjoterapii, osteopatii i terapii manualnej. Celem nie są same pozycje, tylko pacjenci z okolicy, którzy po wpisaniu swojego problemu trafiają do Was i umawiają pierwszą wizytę."),
 
-        h2("Na czym polega pozycjonowanie gabinetu fizjoterapii, osteopatii i terapii manualnej"),
+        h2("Na czym polega pozycjonowanie strony gabinetu fizjoterapii, osteopatii i terapii manualnej"),
         p("Pacjent z bólem pleców nie szuka „gabinetu”. Szuka pomocy w trzech miejscach naraz:"),
         li("w Mapach Google, gdzie widzi trzy gabinety z oceną, godzinami i telefonem"),
         li("w zwykłych wynikach, gdzie strona gabinetu konkuruje z Booksy, ZnanyLekarz i portalami o zdrowiu"),
@@ -136,7 +136,7 @@ export const seoForChiropractorsPl = {
         p("Metody i specjalizacje to osobne wyszukiwania. Pacjentka szukająca fizjoterapii uroginekologicznej po porodzie albo osoba, która chce trafić do osteopaty, potrzebuje podstrony, która wyjaśnia metodę zwykłymi słowami i mówi, kto w gabinecie ma odpowiednie przeszkolenie."),
         p("Taką strukturę zbudowałem dla Giuseppe, psychoterapeuty z Mediolanu: 7 głównych obszarów terapii, 21 podstron szczegółowych pod nimi i osobne podstrony dla każdego miejsca przyjęć. Gabinet fizjoterapii ma mniej tematów, ale zasada jest ta sama — problem, osoba, która go leczy, i miejsce, w którym przyjmuje."),
 
-        h2("Rehabilitacja na NFZ i wizyty prywatne w pozycjonowaniu gabinetu fizjoterapii"),
+        h2("Rehabilitacja na NFZ i wizyty prywatne w pozycjonowaniu strony gabinetu fizjoterapii"),
         p("Jeśli macie kontrakt z NFZ, trafiają do Was dwa rodzaje pacjentów z innymi pytaniami. Na rehabilitację w ramach NFZ potrzebne jest skierowanie od lekarza, a pacjent chce wiedzieć, jak długo się czeka, jakie dokumenty przynieść i jak się zapisać. Pacjent prywatny porównuje ceny, terminy i metody — i zwykle nie wie, że skierowanie nie jest mu potrzebne. Osobne podstrony dla obu ścieżek odpowiadają na oba rodzaje zapytań i oszczędzają czas rejestracji."),
 
         h2("Booksy, ZnanyLekarz i własna strona gabinetu fizjoterapii w wynikach Google"),
@@ -153,7 +153,7 @@ export const seoForChiropractorsPl = {
         h2("Fizjoterapeuta jako autor treści: numer PWZFz, kursy i data weryfikacji (YMYL)"),
         p("Google ocenia treści o zdrowiu surowiej niż większość tematów i szuka śladów, kto za nimi stoi. Każda podstrona problemu podaje fizjoterapeutę, który ją napisał albo sprawdził, z linkiem do jego profilu: tytuł, numer prawa wykonywania zawodu fizjoterapeuty, ukończone kursy terapii manualnej czy osteopatii i data ostatniej weryfikacji tekstu. Ja przygotowuję strukturę, dane wyszukiwań i szkic, a terapeuta zatwierdza treść merytoryczną. Strona nie stawia diagnoz; osobę z niepokojącymi objawami kieruje do lekarza."),
 
-        h2("Pozycjonowanie gabinetu fizjoterapii w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony gabinetu fizjoterapii w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Pacjenci pytają ChatGPT, Perplexity albo podsumowania AI w Google, gdzie w ich mieście jest osteopata albo fizjoterapeuta, który pracuje z biegaczami. Zabieganie o miejsce w tych odpowiedziach to GEO (generative engine optimization), nazywane też AEO (answer engine optimization). Asystenci polecają gabinety, o których mają rzeczowe i spójne dane:"),
         li("metody, problemy, terapeuci, godziny i informacja o NFZ zapisane prostymi zdaniami"),
         li("cennik wizyt w tekście, a nie w grafice"),
@@ -165,10 +165,10 @@ export const seoForChiropractorsPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie gabinetu fizjoterapii"),
+        h2("Ile kosztuje pozycjonowanie strony gabinetu fizjoterapii"),
         li("Audyt SEO strony, wizytówki Google i profili w serwisach rezerwacji: od 1000 zł, jednorazowo, z listą poprawek według wpływu na wynik."),
         li("Jednorazowe prace — podstrony problemów i metod, ścieżki NFZ i prywatna, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie gabinetu fizjoterapii — nowe podstrony, Mapy, opinie, widoczność w AI i raporty w rezerwacjach: od 3500 zł miesięcznie, w dużych miastach przy silnej konkurencji od 5500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony gabinetu fizjoterapii — nowe podstrony, Mapy, opinie, widoczność w AI i raporty w rezerwacjach: od 3500 zł miesięcznie, w dużych miastach przy silnej konkurencji od 5500 zł miesięcznie."),
         p(
           "Jak wygląda strona, która to wszystko udźwignie, opisuję na stronie ",
           link("strona internetowa dla fizjoterapeuty", "/pl/strona-internetowa-dla-fizjoterapeuty"),
@@ -185,11 +185,11 @@ export const seoForChiropractorsPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie gabinetu fizjoterapii: najczęstsze pytania",
+      title: "Pozycjonowanie strony gabinetu fizjoterapii: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie gabinetu fizjoterapii?", "Za audyt płacicie od 1000 zł raz; konkretne zadania, takie jak podstrony problemów czy ścieżka NFZ, kosztują od 1000 do 3000 zł; stała współpraca zaczyna się od 3500 zł miesięcznie, a przy silnej konkurencji w dużym mieście od 5500 zł. Stałą cenę podaję po krótkim opisie gabinetu."],
+          ["Ile kosztuje pozycjonowanie strony gabinetu fizjoterapii?", "Za audyt płacicie od 1000 zł raz; konkretne zadania, takie jak podstrony problemów czy ścieżka NFZ, kosztują od 1000 do 3000 zł; stała współpraca zaczyna się od 3500 zł miesięcznie, a przy silnej konkurencji w dużym mieście od 5500 zł. Stałą cenę podaję po krótkim opisie gabinetu."],
           ["Ile trwa, zanim pozycjonowanie przyniesie pacjentów?", "Poprawki w wizytówce Google potrafią zadziałać w kilka tygodni. Nowe podstrony problemów zwykle potrzebują trzech–pięciu miesięcy, w dużych miastach dłużej."],
           ["Czy wystarczy profil w Booksy albo ZnanyLekarz?", "Na start bywa wystarczający, ale profil stoi na liście obok innych gabinetów i zależy od zasad serwisu. Własna strona wygrywa wyszukiwania nazwy gabinetu i problemów, a kalendarz z serwisu można na niej osadzić."],
           ["Czy fizjoterapeuta może reklamować swój gabinet?", "Gabinet działający jako podmiot leczniczy powinien informować o usługach, a nie je reklamować, a fizjoterapeutów obowiązują też zasady etyki zawodowej. Strona podaje fakty bez obietnic efektów; aktualne zasady warto sprawdzić w Krajowej Izbie Fizjoterapeutów."],
@@ -203,7 +203,7 @@ export const seoForChiropractorsPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie gabinetu fizjoterapii: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony gabinetu fizjoterapii: co mi wysłać"),
         p(
           "Potrzebuję adresu strony gabinetu, linków do wizytówki Google i profili w serwisach rezerwacji, listy problemów i metod, z którymi chcecie mieć więcej pacjentów, nazwy miejscowości i informacji o kontrakcie z NFZ. W odpowiedzi dostaniecie trzy pierwsze poprawki i stałą cenę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

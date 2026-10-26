@@ -29,15 +29,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const winerySeoPl = {
   lang: "pl",
   group: "winery-seo",
-  slug: "pozycjonowanie-winnicy",
-  title: "Pozycjonowanie winnicy",
-  heading: "Pozycjonowanie winnicy",
+  slug: "pozycjonowanie-strony-winnicy",
+  title: "Pozycjonowanie strony winnicy",
+  heading: "Pozycjonowanie strony winnicy",
   excerpt:
     "Zajmuję się pozycjonowaniem winnic: podstrony degustacji i zwiedzania, które znajdują enoturyści planujący weekend w Lubuskiem, Małopolsce czy na Podkarpaciu, wizytówka Google z aktualnymi godzinami, strony winobrania i wesel, podstrony win i obecność w odpowiedziach AI.",
   seo: {
     metaTitle: "Pozycjonowanie strony winnicy i enoturystyka | Bandziuk",
     metaDescription:
-      "Pozycjonowanie winnicy: frazy enoturystów, degustacje i zwiedzanie, wizytówka Google, winobranie i wesela, podstrony win, odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony winnicy: frazy enoturystów, degustacje i zwiedzanie, wizytówka Google, winobranie i wesela, podstrony win, odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -46,14 +46,14 @@ export const winerySeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO winnicy: strona, wizytówka Google, inne winnice w regionie", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla winnicy: podstrony degustacji, wydarzeń i win, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie winnicy", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony winnicy", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie winnicy",
+      title: "Co obejmuje pozycjonowanie strony winnicy",
       items: [
         { _key: k("o"), iconName: "search", title: "Frazy, które wpisują enoturyści", text: "Region, weekend, degustacja, nocleg, szczep" },
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdej formy wizyty", text: "Degustacja, zwiedzanie, grupy, firmy" },
@@ -64,7 +64,7 @@ export const winerySeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO winnicy", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie winnicy", value: "od 3500 zł / mies.", note: "podstrony, Mapy, wydarzenia, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony winnicy", value: "od 3500 zł / mies.", note: "podstrony, Mapy, wydarzenia, AI", highlight: true },
       ],
     },
     {
@@ -86,7 +86,7 @@ export const winerySeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania winnicy",
+      title: "Wycena pozycjonowania strony winnicy",
       subtitle: "W ciągu dnia roboczego dostaniesz trzy pierwsze rzeczy do poprawy na stronie winnicy i w Mapach Google oraz stałą cenę.",
       contextLabel: "Nazwa winnicy lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -103,7 +103,7 @@ export const winerySeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie winnicy to praca nad tym, żeby para planująca weekend w Zielonej Górze, firma szukająca degustacji dla zespołu i narzeczeni, którzy marzą o ślubie wśród winorośli, znajdowali w Google, w Mapach i w odpowiedziach AI Twoją winnicę. Winnice w Polsce to zwykle małe, rodzinne gospodarstwa, w których właściciel jest jednocześnie winiarzem, przewodnikiem i księgowym. Dlatego pracuję sam i biorę na siebie całość: audyt, podstrony, poprawki w kodzie, wizytówkę i raport."),
+        p("Pozycjonowanie strony winnicy to praca nad tym, żeby para planująca weekend w Zielonej Górze, firma szukająca degustacji dla zespołu i narzeczeni, którzy marzą o ślubie wśród winorośli, znajdowali w Google, w Mapach i w odpowiedziach AI Twoją winnicę. Winnice w Polsce to zwykle małe, rodzinne gospodarstwa, w których właściciel jest jednocześnie winiarzem, przewodnikiem i księgowym. Dlatego pracuję sam i biorę na siebie całość: audyt, podstrony, poprawki w kodzie, wizytówkę i raport."),
 
         h2("Pozycjonowanie strony winnicy: jak szukają enoturyści"),
         p("Mało kto wpisuje nazwę winnicy, której jeszcze nie zna. Enoturysta zaczyna od regionu, terminu albo pomysłu na wyjazd:"),
@@ -121,7 +121,7 @@ export const winerySeoPl = {
         li("co z kierowcą, dziećmi i psem, gdzie zaparkować i czy dojedzie bus"),
         p("Osobna podstrona dla firm — degustacja jako wyjazd integracyjny, z fakturą i możliwością cateringu — przyciąga zapytania, których nie przyniesie żadna strona dla par."),
 
-        h2("Enoturystyka i szlaki winiarskie w pozycjonowaniu winnicy"),
+        h2("Enoturystyka i szlaki winiarskie w pozycjonowaniu strony winnicy"),
         p("Polskie winnice skupiają się w kilku regionach, a w wielu z nich działają szlaki winiarskie łączące kilka czy kilkanaście gospodarstw. Enoturyści planują wyjazd po szlaku, więc winnica, która na swojej stronie opisze region, zyskuje ruch z fraz ogólnych, nie tylko z własnej nazwy. Przydają się podstrony:"),
         li("plan jednodniowej lub weekendowej trasy z Twoją winnicą i sąsiadami, których chętnie polecasz"),
         li("dojazd z najbliższego miasta i dworca, transport dla grup"),
@@ -152,7 +152,7 @@ export const winerySeoPl = {
         h2("Klub wina i przedsprzedaż rocznika: podstrona dla stałych klientów"),
         p("Po degustacji część gości chce wrócić po kolejny rocznik. Klub wina, lista przedsprzedaży albo powiadomienie o nowym roczniku to sposób, żeby nie stracili z Tobą kontaktu. Podstrona klubu, która mówi, co dostaje członek, jak często, na jakich warunkach i jak zrezygnować, odpowiada na wyszukiwania osób, które wróciły z wyjazdu i szukają Twojej winnicy po nazwie. Treści tylko dla członków zostają poza wyszukiwarką."),
 
-        h2("Podstrony win w pozycjonowaniu winnicy: Solaris, Johanniter, Regent, Rondo"),
+        h2("Podstrony win w pozycjonowaniu strony winnicy: Solaris, Johanniter, Regent, Rondo"),
         p("W Polsce rosną głównie odmiany odporne na chłód i choroby: Solaris, Johanniter, Seyval Blanc, Hibernal, Regent, Rondo, a coraz częściej także vinifera. Wiele osób nie zna tych nazw i szuka ich po degustacji albo po butelce kupionej w prezencie. Podstrona każdego wina — szczep, rocznik, siedlisko, nuty, do czego podać, medale z nazwą konkursu i rokiem — trafia w takie wyszukiwania."),
         h3("Wyprzedany rocznik: zostaw podstronę zamiast usuwać"),
         p("Gdy rocznik się skończy, podstrona zostaje z informacją „wyprzedane” i odnośnikiem do następnego rocznika. Usunięcie jej kasuje to, co zdobyła w Google przez kilka sezonów."),
@@ -160,13 +160,13 @@ export const winerySeoPl = {
         h2("Reklama wina a treści na stronie winnicy: ograniczenia w Polsce"),
         p("Polskie przepisy mocno ograniczają reklamę i promocję napojów alkoholowych, w tym wina, a granica między informacją a reklamą bywa sporna. Treści SEO w winnicy opisują miejsce, uprawę, szczepy, wizytę i wydarzenia, zamiast zachęcać do picia; unikają też obietnic zdrowotnych. Osobne zasady dotyczą sprzedaży wina, w tym na odległość. Sprawdź aktualne przepisy z prawnikiem — to ogólne wskazówki, a nie porada prawna."),
 
-        h2("Sezon w pozycjonowaniu winnicy: majówka, lato, winobranie i święta"),
+        h2("Sezon w pozycjonowaniu strony winnicy: majówka, lato, winobranie i święta"),
         p("Ruch w winnicy idzie za kalendarzem: pierwsze wizyty w majówkę, weekendy letnie, winobranie we wrześniu i październiku, prezenty przed świętami i cicha zima. Podstrona potrzebuje kilku tygodni, żeby wejść wysoko, więc strony sezonu publikuję z dwu-, trzymiesięcznym wyprzedzeniem. Zima to czas na przepisanie podstron degustacji, nowe zdjęcia i podstronę bonów prezentowych, której ludzie szukają w listopadzie i grudniu."),
 
         h2("Booking.com, Nocowanie.pl, Facebook i strona szlaku a własna strona winnicy"),
         p("Wiele winnic zbiera gości przez Facebooka, profil na stronie regionalnego szlaku i oferty noclegów na Booking.com czy Nocowanie.pl. To dobre źródła, ale każde z nich zatrzymuje część relacji z gościem: prowizję, dane kontaktowe, opinię. Własna strona i wizytówka to miejsca, z których gość trafia prosto do Ciebie i może zostawić adres do klubu wina. Ja odpowiadam za stronę i Mapy Google, a raport pokazuje rezerwacje z tych kanałów obok tych z portali — wtedy widać, skąd naprawdę przyjeżdżają goście."),
 
-        h2("Pozycjonowanie winnicy w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony winnicy w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Planując wyjazd, ludzie piszą do ChatGPT i Perplexity albo czytają podsumowanie AI nad wynikami Google: „jakie winnice w Lubuskiem przyjmują grupy”, „gdzie na Podkarpaciu jest winnica z noclegiem”, „czy polskie wino Solaris jest wytrawne”. Odpowiedź powstaje ze stron, które asystent potrafi przeczytać i zweryfikować w innych miejscach. Pracę nad obecnością w takich odpowiedziach nazywa się GEO lub AEO — od generative engine optimization i answer engine optimization. Dla winnicy to konkretne zadania:"),
         li("formy wizyty, ceny, terminy i zasady dla grup zapisane zwykłymi zdaniami, a nie tylko na grafice z Facebooka"),
         li("dane strukturalne opisujące winnicę, wydarzenia i wina"),
@@ -178,10 +178,10 @@ export const winerySeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie winnicy"),
+        h2("Ile kosztuje pozycjonowanie strony winnicy"),
         li("Audyt strony winnicy, wizytówki i konkurencyjnych winnic z regionu: od 1000 zł jednorazowo; dostajesz listę poprawek według ważności."),
         li("Zadania jednorazowe — podstrony degustacji, wydarzeń lub win, porządki w wizytówce, dane strukturalne: od 1000 do 3000 zł."),
-        li("Pozycjonowanie winnicy co miesiąc: nowe podstrony, Mapy i opinie, aktualizacja wydarzeń, kontrola odpowiedzi AI i raport w rezerwacjach — od 3500 zł miesięcznie."),
+        li("Pozycjonowanie strony winnicy co miesiąc: nowe podstrony, Mapy i opinie, aktualizacja wydarzeń, kontrola odpowiedzi AI i raport w rezerwacjach — od 3500 zł miesięcznie."),
         p(
           "Gdy obecnej strony nie opłaca się poprawiać, zacznij od strony ",
           link("strona internetowa dla winnicy", "/pl/strona-internetowa-dla-winnicy"),
@@ -196,15 +196,15 @@ export const winerySeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie winnicy: najczęstsze pytania",
+      title: "Pozycjonowanie strony winnicy: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie winnicy?", "Audyt kosztuje od 1000 zł, zadania jednorazowe od 1000 do 3000 zł, a stała współpraca od 3500 zł miesięcznie. Gdy opiszesz winnicę, formy wizyt i źródła gości, podam jedną, stałą kwotę."],
-          ["Kiedy pozycjonowanie winnicy zaczyna przynosić gości?", "Efekt poprawionej wizytówki i świeżych opinii widać w Mapach często już po kilku tygodniach. Nowe podstrony rosną zwykle dwa–cztery miesiące. Dlatego podstrony na sezon i winobranie przygotowuję zimą i wczesną wiosną, a nie w lipcu."],
+          ["Ile kosztuje pozycjonowanie strony winnicy?", "Audyt kosztuje od 1000 zł, zadania jednorazowe od 1000 do 3000 zł, a stała współpraca od 3500 zł miesięcznie. Gdy opiszesz winnicę, formy wizyt i źródła gości, podam jedną, stałą kwotę."],
+          ["Kiedy pozycjonowanie strony winnicy zaczyna przynosić gości?", "Efekt poprawionej wizytówki i świeżych opinii widać w Mapach często już po kilku tygodniach. Nowe podstrony rosną zwykle dwa–cztery miesiące. Dlatego podstrony na sezon i winobranie przygotowuję zimą i wczesną wiosną, a nie w lipcu."],
           ["Czy mała winnica w ogóle potrzebuje SEO, skoro goście przychodzą z polecenia?", "Polecenia zwykle kończą się wyszukaniem nazwy w Google, więc strona i wizytówka i tak decydują, czy gość zadzwoni. SEO dodaje do tego ludzi, którzy szukają regionu, degustacji czy noclegu i jeszcze o Tobie nie słyszeli."],
           ["Czy winnica powinna podawać ceny degustacji na stronie?", "Tak. Cena od osoby, liczba win i to, co jest w zestawie, to pierwsze pytania gości. Winnica, która je podaje, wygrywa porównanie z tą, która każe dzwonić, a asystenci AI mają co zacytować."],
-          ["Czy przepisy o reklamie alkoholu nie zabraniają pozycjonowania winnicy?", "Pozycjonowanie dotyczy treści o winnicy, wizycie, uprawie i winach, a nie reklamy picia. Granice bywają jednak sporne, więc sformułowania w treściach warto skonsultować z prawnikiem; ja trzymam się zasad, które mi przekażesz."],
+          ["Czy przepisy o reklamie alkoholu nie zabraniają pozycjonowania strony winnicy?", "Pozycjonowanie dotyczy treści o winnicy, wizycie, uprawie i winach, a nie reklamy picia. Granice bywają jednak sporne, więc sformułowania w treściach warto skonsultować z prawnikiem; ja trzymam się zasad, które mi przekażesz."],
           ["Czy ChatGPT poleca winnice?", "Tak, gdy ktoś zapyta o winnice w regionie. Asystent wybiera te, o których znajduje sprawdzalne fakty: formy wizyt, ceny, godziny, opinie i jasne odpowiedzi na pytania. Gwarancji polecenia nie ma, ale bez tych faktów asystent nie ma czego powtórzyć; odpowiedzi porównuję przed zmianami i po nich."],
           ["Czy współpracujesz z winnicami z Lubuskiego, Podkarpacia czy Małopolski?", "Tak, i z każdego innego regionu, np. z Dolnego Śląska czy Lubelszczyzny. Pracuję zdalnie, rozmawiamy po polsku, a treści dla gości z zagranicy mogę przygotować także po angielsku i rosyjsku."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
@@ -214,7 +214,7 @@ export const winerySeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie winnicy: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony winnicy: co mi wysłać"),
         p(
           "Wyślij nazwę winnicy, adres strony, link do wizytówki Google, formy wizyt, które oferujesz, wydarzenia w kalendarzu, informację o noclegach i to, czego chcesz więcej — degustacji, wesel, gości na nocleg czy klientów na wino z piwnicy. W odpowiedzi dostaniesz listę pierwszych poprawek i jedną stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

@@ -27,15 +27,15 @@ import { p, h2, li, link, k } from "./pt";
 export const carpetCleaningSeoPl = {
   lang: "pl",
   group: "carpet-cleaning-seo",
-  slug: "pozycjonowanie-firmy-prania-dywanow",
-  title: "Pozycjonowanie firmy prania dywanów",
-  heading: "Pozycjonowanie firmy prania dywanów i tapicerki",
+  slug: "pozycjonowanie-strony-firmy-prania-dywanow",
+  title: "Pozycjonowanie strony firmy prania dywanów",
+  heading: "Pozycjonowanie strony firmy prania dywanów i tapicerki",
   excerpt:
-    "Pozycjonowanie firmy prania dywanów i tapicerki: podstrony dla dywanów, kanap, materacy i tapicerki samochodowej, czytelny cennik, galerie przed i po, wizytówka Google i odpowiedzi AI — żeby klient dzwonił do Was, a nie szukał na OLX.",
+    "Pozycjonowanie strony firmy prania dywanów i tapicerki: podstrony dla dywanów, kanap, materacy i tapicerki samochodowej, czytelny cennik, galerie przed i po, wizytówka Google i odpowiedzi AI — żeby klient dzwonił do Was, a nie szukał na OLX.",
   seo: {
     metaTitle: "Pozycjonowanie pralni dywanów i tapicerki | Bandziuk",
     metaDescription:
-      "Pozycjonowanie firmy prania dywanów i tapicerki: podstrony usług, cennik za m², zdjęcia przed i po, wizytówka Google i AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy prania dywanów i tapicerki: podstrony usług, cennik za m², zdjęcia przed i po, wizytówka Google i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -44,14 +44,14 @@ export const carpetCleaningSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy prania dywanów: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO: podstrony usług, cennik, galerie, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie firmy prania dywanów i tapicerki", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony firmy prania dywanów i tapicerki", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie firmy prania dywanów",
+      title: "Co obejmuje pozycjonowanie strony firmy prania dywanów",
       items: [
         { _key: k("o"), iconName: "search", title: "Dane wyszukiwań dla Waszych miejscowości", text: "Dywany, kanapy, materace, auta — z liczbą wyszukiwań" },
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdej usługi", text: "Dywany, tapicerka meblowa, materace, samochody" },
@@ -62,7 +62,7 @@ export const carpetCleaningSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO firmy prania dywanów", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie firmy prania dywanów", value: "od 3500 zł / mies.", note: "podstrony, galerie, Mapy, opinie", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony firmy prania dywanów", value: "od 3500 zł / mies.", note: "podstrony, galerie, Mapy, opinie", highlight: true },
       ],
     },
     {
@@ -84,7 +84,7 @@ export const carpetCleaningSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania firmy prania dywanów",
+      title: "Wycena pozycjonowania strony firmy prania dywanów",
       subtitle: "W ciągu jednego dnia roboczego odpiszę, od czego zacząłbym na stronie i w wizytówce, i podam stałą cenę.",
       contextLabel: "Nazwa firmy lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -101,9 +101,9 @@ export const carpetCleaningSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie firmy prania dywanów i tapicerki to praca nad tym, żeby osoba, która wpisuje „pranie kanapy” albo „pranie dywanów z odbiorem” razem ze swoim miastem, trafiała na Waszą stronę i wizytówkę, a potem dzwoniła albo pisała. Robię to sam: dane wyszukiwań, podstrony usług, cennik, galerie, wizytówkę Google i raporty. Pojedyncze zlecenie w tej branży jest niewielkie, ale klient wraca co rok albo dwa — liczy się więc i pierwszy telefon, i to, żeby za rok znalazł Was, a nie przypadkowe ogłoszenie."),
+        p("Pozycjonowanie strony firmy prania dywanów i tapicerki to praca nad tym, żeby osoba, która wpisuje „pranie kanapy” albo „pranie dywanów z odbiorem” razem ze swoim miastem, trafiała na Waszą stronę i wizytówkę, a potem dzwoniła albo pisała. Robię to sam: dane wyszukiwań, podstrony usług, cennik, galerie, wizytówkę Google i raporty. Pojedyncze zlecenie w tej branży jest niewielkie, ale klient wraca co rok albo dwa — liczy się więc i pierwszy telefon, i to, żeby za rok znalazł Was, a nie przypadkowe ogłoszenie."),
 
-        h2("Pozycjonowanie firmy prania dywanów a pozycjonowanie firmy sprzątającej: dwa różne rynki"),
+        h2("Pozycjonowanie strony firmy prania dywanów a pozycjonowanie firmy sprzątającej: dwa różne rynki"),
         p("Klient, który szuka „prania narożnika”, nie szuka ekipy do sprzątania biura ani pomocy domowej raz w tygodniu. Chce pozbyć się plamy po kawie albo zapachu po psie, chce wiedzieć, ile to kosztuje i kiedy kanapa wyschnie. Inne są frazy, inni konkurenci i inne pytania, więc firma prania dywanów i tapicerki potrzebuje własnej struktury strony, a nie zakładki na stronie firmy sprzątającej."),
         p(
           "Firmy, które sprzątają mieszkania i biura, a tapicerkę piorą przy okazji, mają inny zestaw fraz — piszę o nich na stronie ",
@@ -111,7 +111,7 @@ export const carpetCleaningSeoPl = {
           ".",
         ),
 
-        h2("Frazy w pozycjonowaniu firmy prania dywanów i tapicerki: czego szukają klienci"),
+        h2("Frazy w pozycjonowaniu strony firmy prania dywanów i tapicerki: czego szukają klienci"),
         p("Zanim powstanie jakakolwiek podstrona, sprawdzam, czego i gdzie szukają ludzie w Waszej okolicy. W tej branży frazy dzielą się według przedmiotu i problemu:"),
         li("dywany i wykładziny — „pranie dywanów Poznań”, „pralnia dywanów z odbiorem”, „pranie wykładziny w biurze”"),
         li("meble — „pranie kanapy”, „pranie narożnika cena”, „czyszczenie krzeseł tapicerowanych”, „czyszczenie skórzanej sofy”"),
@@ -150,14 +150,14 @@ export const carpetCleaningSeoPl = {
         p("Zapytań przybywa wiosną, przed Wielkanocą i Bożym Narodzeniem, przed komuniami w maju i przy zmianie najemców, kiedy właściciel chce przekazać mieszkanie kolejnej osobie w dobrym stanie. Podstrony pod te okazje — pranie tapicerki przed świętami, odświeżenie mieszkania po najemcy, stała obsługa mieszkań na wynajem krótkoterminowy — publikuję z wyprzedzeniem, bo nowa strona potrzebuje kilku tygodni, żeby pojawić się w wynikach."),
         p("Drugie źródło to powracający klienci: rodziny z dziećmi i zwierzętami, alergicy, właściciele mieszkań na wynajem. Przypomnienie po roku, firma łatwa do znalezienia po nazwie i stała oferta dla zarządców mieszkań sprawiają, że nie zaczynają szukać od nowa."),
 
-        h2("Oferteo, Fixly, OLX i grupy na Facebooku a pozycjonowanie firmy prania dywanów"),
+        h2("Oferteo, Fixly, OLX i grupy na Facebooku a pozycjonowanie strony firmy prania dywanów"),
         p("Wiele firm prania tapicerki zaczyna od portali i ogłoszeń. Każde z tych źródeł ma swoją cenę:"),
         li("Oferteo i Fixly — płacicie za dostęp do zapytań, a to samo zapytanie widzi kilka firm"),
         li("OLX usługi — ogłoszenie trzeba odświeżać i promować, a klient porównuje głównie cenę"),
         li("osiedlowe grupy na Facebooku — dobre polecenia, ale nie da się ich zaplanować"),
         p("Pozycjonowanie wymaga pracy na początku, a potem przynosi klientów, którzy wybrali Was po stronie, zdjęciach i opiniach, bez opłaty za każde zapytanie. Portale nie muszą znikać od razu — z czasem po prostu coraz mniej od nich zależycie."),
 
-        h2("Pozycjonowanie firmy prania dywanów w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony firmy prania dywanów w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Pytania typu „czy pranie kanapy na mokro jest bezpieczne”, „jak długo schnie dywan po praniu”, „kto pierze dywany z odbiorem w Gdańsku” ludzie zadają dziś ChatGPT, Perplexity i podsumowaniom AI w Google. Asystent odpowiada na podstawie stron, które może przeczytać, i danych, które może sprawdzić w kilku miejscach. Taką pracę nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization); w firmie prania dywanów oznacza ona:"),
         li("metodę prania, czas schnięcia i używane środki opisane zwykłymi zdaniami"),
         li("zasady cennika i dopłaty zapisane tekstem, nie tylko na grafice"),
@@ -169,15 +169,15 @@ export const carpetCleaningSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie firmy prania dywanów i tapicerki"),
+        h2("Ile kosztuje pozycjonowanie strony firmy prania dywanów i tapicerki"),
         li("Audyt SEO strony, wizytówki i lokalnej konkurencji: od 1000 zł, jednorazowo, z listą poprawek według wpływu."),
         li("Jednorazowe prace — podstrony usług, cennik, galerie, porządek w wizytówce, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie firmy prania dywanów — co miesiąc nowe podstrony i galerie, wizytówka, opinie, odpowiedzi AI i raport zleceń: od 3500 zł miesięcznie; w Warszawie, Krakowie i innych dużych miastach, gdzie pralni jest najwięcej, od 5500 zł."),
+        li("Stałe pozycjonowanie strony firmy prania dywanów — co miesiąc nowe podstrony i galerie, wizytówka, opinie, odpowiedzi AI i raport zleceń: od 3500 zł miesięcznie; w Warszawie, Krakowie i innych dużych miastach, gdzie pralni jest najwięcej, od 5500 zł."),
         p(
           "Jednoosobowej firmie z jednym autem często wystarczą audyt i kilka mocnych podstron; stała współpraca ma sens przy pralni stacjonarnej, kilku ekipach albo w Warszawie, Krakowie czy Trójmieście. Jak prowadzę stałą pracę, opisuję na stronie ",
           link("strategia i optymalizacja SEO", "/pl/oferty/strategia-i-optymalizacja-seo"),
           ". Jeśli osuszacie też mieszkania po zalaniu, to osobny rynek — zajrzyjcie na stronę ",
-          link("pozycjonowanie firmy osuszania po zalaniu", "/pl/pozycjonowanie-firmy-osuszania-po-zalaniu"),
+          link("pozycjonowanie firmy osuszania po zalaniu", "/pl/pozycjonowanie-strony-firmy-osuszania-po-zalaniu"),
           ". Wszystkie ceny są w ",
           link("cenniku", "/pl/cennik"),
           ".",
@@ -187,11 +187,11 @@ export const carpetCleaningSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie firmy prania dywanów: najczęstsze pytania",
+      title: "Pozycjonowanie strony firmy prania dywanów: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie firmy prania dywanów?", "Na start audyt za od 1000 zł. Pojedyncze zadania, np. podstrona prania tapicerki samochodowej albo cennik, to od 1000 do 3000 zł. Stała współpraca zaczyna się od 3500 zł miesięcznie, a w dużych miastach z silną konkurencją od 5500 zł. Opiszcie usługi i miejscowości, a podam stałą cenę."],
+          ["Ile kosztuje pozycjonowanie strony firmy prania dywanów?", "Na start audyt za od 1000 zł. Pojedyncze zadania, np. podstrona prania tapicerki samochodowej albo cennik, to od 1000 do 3000 zł. Stała współpraca zaczyna się od 3500 zł miesięcznie, a w dużych miastach z silną konkurencją od 5500 zł. Opiszcie usługi i miejscowości, a podam stałą cenę."],
           ["Po jakim czasie pozycjonowanie przyniesie zlecenia?", "Poprawki w wizytówce i na istniejących podstronach potrafią zadziałać w kilka tygodni. Nowe podstrony usług i miejscowości zwykle potrzebują dwóch–czterech miesięcy, dlatego strony sezonowe warto zacząć zimą, przed wiosennymi porządkami."],
           ["Co jest lepsze: Oferteo i Fixly czy pozycjonowanie strony?", "To dwa różne narzędzia. Portale dają zapytania od razu, ale płacicie za dostęp, a klient dostaje kilka ofert. Pozycjonowanie rozkręca się miesiącami i potem przynosi klientów, którzy dzwonią tylko do Was. Wiele firm zostawia portal na start i z czasem korzysta z niego mniej."],
           ["Czy podawać ceny prania tapicerki na stronie?", "Tak, przynajmniej widełki i zasady: za m², za miejsce siedzące, dojazd, dopłaty. Ludzie szukają cen, podsumowania AI je cytują, a jasny cennik oszczędza nieporozumień na miejscu."],
@@ -205,7 +205,7 @@ export const carpetCleaningSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie firmy prania dywanów: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony firmy prania dywanów: co mi wysłać"),
         p(
           "Podajcie nazwę pralni, wklejcie linki do strony i do wizytówki w Mapach Google i napiszcie, czego chcecie prać więcej — dywany, kanapy i narożniki, materace, tapicerka samochodowa, wykładziny w biurach — miejscowości, do których jeździcie, i informację, czy macie pralnię stacjonarną z odbiorem. Napiszcie też, skąd teraz przychodzą klienci. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

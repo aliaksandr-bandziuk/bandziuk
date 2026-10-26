@@ -30,15 +30,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const carRentalSeoPl = {
   lang: "pl",
   group: "car-rental-seo",
-  slug: "pozycjonowanie-wypozyczalni-samochodow",
-  title: "Pozycjonowanie wypożyczalni samochodów",
-  heading: "Pozycjonowanie wypożyczalni samochodów",
+  slug: "pozycjonowanie-strony-wypozyczalni-samochodow",
+  title: "Pozycjonowanie strony wypożyczalni samochodów",
+  heading: "Pozycjonowanie strony wypożyczalni samochodów",
   excerpt:
-    "Zajmuję się pozycjonowaniem wypożyczalni samochodów: podstrony floty, busów i aut dostawczych, wynajem na lotnisku, najem długoterminowy dla firm, auto zastępcze z OC sprawcy, jasne zasady kaucji i ubezpieczenia, wizytówka Google i odpowiedzi AI — rozliczane w rezerwacjach, a nie w pozycjach.",
+    "Zajmuję się pozycjonowaniem strony wypożyczalni samochodów: podstrony floty, busów i aut dostawczych, wynajem na lotnisku, najem długoterminowy dla firm, auto zastępcze z OC sprawcy, jasne zasady kaucji i ubezpieczenia, wizytówka Google i odpowiedzi AI — rozliczane w rezerwacjach, a nie w pozycjach.",
   seo: {
     metaTitle: "SEO wypożyczalni aut: flota, lotnisko, kaucja | Bandziuk",
     metaDescription:
-      "Pozycjonowanie wypożyczalni samochodów: flota i lotniska, najem długoterminowy, auto zastępcze, kaucja i ubezpieczenie, odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony wypożyczalni samochodów: flota i lotniska, najem długoterminowy, auto zastępcze, kaucja i ubezpieczenie, odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -47,14 +47,14 @@ export const carRentalSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO wypożyczalni samochodów: strona, system rezerwacji, wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla wypożyczalni: podstrony floty, lotnisk i najmu dla firm, odpowiedzi o kaucji, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie wypożyczalni samochodów", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony wypożyczalni samochodów", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie wypożyczalni samochodów",
+      title: "Co obejmuje pozycjonowanie strony wypożyczalni samochodów",
       items: [
         { _key: k("o"), iconName: "search", title: "Frazy, którymi klienci szukają auta na wynajem", text: "Miasto, lotnisko, bus, dostawczak, najem na miesiąc" },
         { _key: k("o"), iconName: "layers", title: "Podstrony floty widoczne bez wpisywania dat", text: "Klasy aut, busy, dostawczaki, kaucja przy każdej" },
@@ -65,7 +65,7 @@ export const carRentalSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO wypożyczalni samochodów", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie wypożyczalni samochodów", value: "od 3500 zł / mies.", note: "flota, lotniska, Mapy, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony wypożyczalni samochodów", value: "od 3500 zł / mies.", note: "flota, lotniska, Mapy, opinie, AI", highlight: true },
       ],
     },
     {
@@ -87,7 +87,7 @@ export const carRentalSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania wypożyczalni samochodów",
+      title: "Wycena pozycjonowania strony wypożyczalni samochodów",
       subtitle: "W ciągu jednego dnia roboczego dostaniesz listę pierwszych poprawek na stronie, w systemie rezerwacji i w wizytówce Google oraz stałą cenę.",
       contextLabel: "Nazwa wypożyczalni lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -104,16 +104,16 @@ export const carRentalSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie wypożyczalni samochodów to praca nad tym, żeby turysta lądujący na Okęciu, firma szukająca trzech aut na rok i kierowca, którego samochód stoi w warsztacie po stłuczce, znaleźli w Google Twoją wypożyczalnię i zarezerwowali u Ciebie, a nie przez porównywarkę. Pracuję sam: ta sama osoba sprawdza stronę i system rezerwacji, pisze podstrony, poprawia kod i przygotowuje raport."),
+        p("Pozycjonowanie strony wypożyczalni samochodów to praca nad tym, żeby turysta lądujący na Okęciu, firma szukająca trzech aut na rok i kierowca, którego samochód stoi w warsztacie po stłuczce, znaleźli w Google Twoją wypożyczalnię i zarezerwowali u Ciebie, a nie przez porównywarkę. Pracuję sam: ta sama osoba sprawdza stronę i system rezerwacji, pisze podstrony, poprawia kod i przygotowuje raport."),
 
-        h2("Pozycjonowanie wypożyczalni samochodów: trzech klientów, trzy sposoby szukania"),
+        h2("Pozycjonowanie strony wypożyczalni samochodów: trzech klientów, trzy sposoby szukania"),
         p("Wypożyczalnia w Polsce zwykle obsługuje trzy grupy, które szukają zupełnie inaczej:"),
         li("osoby prywatne i turyści — szukają auta na weekend, wakacje albo przylot, porównują ceny i czytają warunki kaucji"),
         li("firmy — szukają najmu długoterminowego z fakturą VAT, serwisem i ubezpieczeniem w racie, często jako alternatywy dla leasingu"),
         li("kierowcy po kolizji — szukają auta zastępczego z OC sprawcy, rozliczanego bezgotówkowo z ubezpieczycielem"),
         p("Każda grupa potrzebuje osobnej podstrony z innymi argumentami. Jedna strona „Oferta” nie odpowie dobrze żadnej z nich."),
 
-        h2("Frazy w pozycjonowaniu wypożyczalni samochodów: jak ludzie szukają auta na wynajem"),
+        h2("Frazy w pozycjonowaniu strony wypożyczalni samochodów: jak ludzie szukają auta na wynajem"),
         p("Przed pisaniem podstron zbieram dane wyszukiwania dla Twoich miast, lotnisk i floty. Frazy układają się w kilka grup:"),
         li("miejsce — „wypożyczalnia samochodów Kraków”, „wynajem auta lotnisko Chopina”, „wynajem samochodu Gdańsk”"),
         li("typ auta — „wynajem busa 9-osobowego”, „wypożyczalnia aut dostawczych”, „wynajem auta z automatyczną skrzynią”"),
@@ -167,7 +167,7 @@ export const carRentalSeoPl = {
         p("Polskie wypożyczalnie pracują najczęściej na systemie rezerwacji w abonamencie albo na wtyczce do WordPressa. Przy audycie sprawdzam, co z tego widzi Google. Typowe znaleziska: cennik i flota ładowane skryptem z obcej domeny, przez co podstrona jest dla wyszukiwarki pusta; setki adresów z parametrami ?od= i ?do= w indeksie; zdjęcia aut po kilka megabajtów; formularz, który chce numeru prawa jazdy, zanim pokaże cenę."),
         p("Zmiana systemu rzadko jest potrzebna. Podstrony floty, lotnisk i warunków najmu stają się zwykłymi, lekkimi stronami z danymi strukturalnymi, a kalendarz otwiera się dopiero przy wyborze dat. Gdy obecnej strony nie da się sensownie poprawić, buduję nową."),
 
-        h2("Pozycjonowanie wypożyczalni samochodów w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony wypożyczalni samochodów w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Ludzie pytają ChatGPT albo podsumowania AI w Google, czy da się wynająć auto bez karty kredytowej, ile wynosi kaucja za busa albo która wypożyczalnia w Krakowie podstawia auto na lotnisko w nocy. Odpowiedź powstaje z tekstów, które asystent znalazł i które zgadzają się ze sobą w kilku miejscach. Ta praca nazywa się GEO (generative engine optimization) lub AEO (answer engine optimization). Dla wypożyczalni oznacza to warunki najmu, kaucję, ubezpieczenie i lokalizacje zapisane zwykłymi zdaniami, dane strukturalne floty i punktów oraz te same dane firmy w Google, porównywarkach i katalogach."),
         p(
           "Przed pracą i po niej sprawdzam, jak asystenci opisują Twoją wypożyczalnię i kogo polecają zamiast niej. Metodę opisuję na stronie ",
@@ -175,13 +175,13 @@ export const carRentalSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie wypożyczalni samochodów"),
+        h2("Ile kosztuje pozycjonowanie strony wypożyczalni samochodów"),
         li("Audyt SEO strony, systemu rezerwacji i wizytówek: od 1000 zł, jednorazowo, z poprawkami ułożonymi według tego, ile mogą dać rezerwacji."),
         li("Jednorazowe prace — podstrony floty, lotnisk, najmu dla firm i auta zastępczego, odpowiedzi o kaucji, dane strukturalne: od 1000 do 3000 zł."),
         li("Stałe pozycjonowanie — nowe podstrony, wizytówki, opinie, widoczność w AI i raporty w rezerwacjach: od 3500 zł miesięcznie, w dużych miastach i przy lotniskach, gdzie konkurują sieci i porównywarki, od 5500 zł miesięcznie."),
         p(
           "Jeśli sprzedajesz auta wycofane z floty, zajrzyj na stronę ",
-          link("pozycjonowanie salonu i komisu samochodowego", "/pl/pozycjonowanie-salonu-samochodowego"),
+          link("pozycjonowanie salonu i komisu samochodowego", "/pl/pozycjonowanie-strony-salonu-samochodowego"),
           ". Jak prowadzę stałą pracę, opisuję na stronie ",
           link("strategia i optymalizacja SEO", "/pl/oferty/strategia-i-optymalizacja-seo"),
           ", a wszystkie ceny są w ",
@@ -193,11 +193,11 @@ export const carRentalSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie wypożyczalni samochodów: najczęstsze pytania",
+      title: "Pozycjonowanie strony wypożyczalni samochodów: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie wypożyczalni samochodów?", "Za audyt płacisz od 1000 zł, za pojedyncze podstrony i poprawki od 1000 do 3000 zł, a za stałą pracę od 3500 zł miesięcznie — w dużych miastach i przy lotniskach od 5500 zł. Konkretną kwotę podam, gdy opiszesz flotę, punkty wydania i źródła rezerwacji."],
+          ["Ile kosztuje pozycjonowanie strony wypożyczalni samochodów?", "Za audyt płacisz od 1000 zł, za pojedyncze podstrony i poprawki od 1000 do 3000 zł, a za stałą pracę od 3500 zł miesięcznie — w dużych miastach i przy lotniskach od 5500 zł. Konkretną kwotę podam, gdy opiszesz flotę, punkty wydania i źródła rezerwacji."],
           ["Po jakim czasie pozycjonowanie wypożyczalni daje rezerwacje?", "Pierwsze telefony z mapy pojawiają się często kilka tygodni po uporządkowaniu wizytówki. Podstrony floty i lotnisk rosną wolniej, zwykle od trzech do sześciu miesięcy, więc pracę przed wakacjami najlepiej zacząć zimą."],
           ["Czy rezygnować z Rentalcars, gdy strona zacznie przynosić rezerwacje?", "Nie ma takiej potrzeby. Porównywarka zostaje kanałem dla turystów z zagranicy, którzy rezerwują przed wylotem. Strona przejmuje resztę: firmy, stałych klientów, kierowców po stłuczce i wszystkich, którzy szukają Cię po nazwie."],
           ["Czy wypożyczalnia bez stanowiska w terminalu może być widoczna na frazy lotniskowe?", "Tak. Fraza z nazwą lotniska nie wymaga okienka w terminalu, tylko podstrony, która opisuje punkt spotkania, nocne przyloty i zwrot. Pomagają też zdjęcia z miejsca wydania w wizytówce Google i opinie, w których klienci wspominają lotnisko."],
@@ -211,7 +211,7 @@ export const carRentalSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie wypożyczalni samochodów: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony wypożyczalni samochodów: co mi wysłać"),
         p(
           "Wyślij nazwę wypożyczalni, link do strony i wizytówki Google, miasta i lotniska, które obsługujesz, flotę według klas, system rezerwacji i informację, skąd dziś przychodzą klienci — z porównywarek, z mapy, od warsztatów czy z poleceń. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

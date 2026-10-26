@@ -15,7 +15,7 @@
 // rejestracja online / ZnanyLekarz; kilka placówek; zakładka dla stomatologów;
 // strefa pacjenta w trakcie leczenia; szablon vs projekt; migration.
 // NOT on this page: SEO, frazy, wizytówki i opinie
-// (/pl/pozycjonowanie-gabinetu-ortodontycznego — sibling); general dental
+// (/pl/pozycjonowanie-strony-gabinetu-ortodontycznego — sibling); general dental
 // site (/pl/strona-dla-gabinetu-stomatologicznego); doctors in general
 // (/pl/strona-internetowa-dla-lekarza).
 // Owner’s rules: AI-readable site H2; Giuseppe as the main case; NDA medical
@@ -143,7 +143,7 @@ export const orthodontistWebsiteDesignPl = {
           "Utrzymanie gabinetu w tych odpowiedziach to osobna usługa: ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ". Widoczność w Google na frazy o aparatach i nakładkach opisuję na stronie ",
-          link("pozycjonowanie gabinetu ortodontycznego", "/pl/pozycjonowanie-gabinetu-ortodontycznego"),
+          link("pozycjonowanie gabinetu ortodontycznego", "/pl/pozycjonowanie-strony-gabinetu-ortodontycznego"),
           ".",
         ),
 

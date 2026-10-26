@@ -3,7 +3,7 @@
 // Cross-links the restaurant pages inside each language, so every page of the
 // group links to every other page of its language:
 //   EN  /restaurant-website ↔ /restaurant-website-design ↔ /restaurant-seo
-//   PL  /pl/strona-dla-restauracji ↔ /pl/pozycjonowanie-restauracji ↔
+//   PL  /pl/strona-dla-restauracji ↔ /pl/pozycjonowanie-strony-restauracji ↔
 //       /pl/oferty/pozycjonowanie-strony-restauracji-warszawa
 //   RU  /ru/sait-dlya-restorana ↔ /ru/seo-prodvizhenie-saita-restorana ↔
 //       /ru/uslugi/prodvizhenie-saita-restorana-varshava
@@ -81,7 +81,7 @@ const EDITS = [
     mustHave: "Strona internetowa dla restauracji: menu jako podstrony, a nie PDF",
     append: para(
       "Widoczność restauracji w Google i w Mapach to osobna praca, opisana na stronie ",
-      L("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+      L("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
       ". Dla lokali w Warszawie szczegóły są na stronie ",
       L("pozycjonowanie strony restauracji w Warszawie", "/pl/oferty/pozycjonowanie-strony-restauracji-warszawa"),
       ".",
@@ -105,7 +105,7 @@ const EDITS = [
     mustHave: "Co obejmuje praca",
     append: para(
       "Restauracjom spoza Warszawy ta sama praca jest opisana na stronie ",
-      L("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+      L("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
       ". Jeśli obecna strona nie udźwignie menu w tekście i podstron lokali, zacząć trzeba od niej: ",
       L("tworzenie strony dla restauracji", "/pl/strona-dla-restauracji"),
       ".",

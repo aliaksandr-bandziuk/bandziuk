@@ -24,15 +24,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const optometrySeoPl = {
   lang: "pl",
   group: "optometry-seo",
-  slug: "pozycjonowanie-salonu-optycznego",
-  title: "Pozycjonowanie salonu optycznego",
-  heading: "Pozycjonowanie salonu optycznego",
+  slug: "pozycjonowanie-strony-salonu-optycznego",
+  title: "Pozycjonowanie strony salonu optycznego",
+  heading: "Pozycjonowanie strony salonu optycznego",
   excerpt:
     "Zajmuję się pozycjonowaniem salonów optycznych i gabinetów optometrycznych: podstrony badania wzroku, soczewek kontaktowych i kontroli krótkowzroczności u dzieci, wizytówka Google każdego salonu, marki opraw i widoczność w odpowiedziach AI — tak, żeby klienci z okolicy wybierali Wasz salon, a nie sieciówkę.",
   seo: {
-    metaTitle: "Pozycjonowanie salonu optycznego i optometrysty | Bandziuk",
+    metaTitle: "Pozycjonowanie strony salonu optycznego | Bandziuk",
     metaDescription:
-      "Pozycjonowanie salonu optycznego: badanie wzroku, soczewki, marki opraw, wizytówka Google każdego salonu, opinie, RODO i widoczność w AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony salonu optycznego: badanie wzroku, soczewki, marki opraw, wizytówka Google każdego salonu, opinie, RODO i widoczność w AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -41,14 +41,14 @@ export const optometrySeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO salonu optycznego: strona i wizytówki Google", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla salonu optycznego: podstrony badań, soczewek i marek opraw, wizytówki, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie salonu optycznego", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony salonu optycznego", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie salonu optycznego",
+      title: "Co obejmuje pozycjonowanie strony salonu optycznego",
       items: [
         { _key: k("o"), iconName: "search", title: "Podstrona badania wzroku", text: "U optometrysty i u okulisty — osobno, z ceną i zapisem" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google każdego salonu", text: "Kategoria, godziny, zdjęcia i link do podstrony salonu" },
@@ -59,7 +59,7 @@ export const optometrySeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO: strona salonu i wizytówki Google", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie salonu optycznego", value: "od 3500 zł / mies.", note: "podstrony, mapy, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony salonu optycznego", value: "od 3500 zł / mies.", note: "podstrony, mapy, opinie, AI", highlight: true },
       ],
     },
     {
@@ -81,7 +81,7 @@ export const optometrySeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania salonu optycznego",
+      title: "Wycena pozycjonowania strony salonu optycznego",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw na stronie i w wizytówkach salonu, i za jaką stałą cenę.",
       contextLabel: "Nazwa salonu lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -98,9 +98,9 @@ export const optometrySeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie salonu optycznego robię sam — od danych wyszukiwań, przez podstrony badania wzroku, soczewek i marek opraw, po wizytówkę Google każdego salonu. Pracuję z niezależnymi salonami, gabinetami optometrycznymi i salonami, w których przyjmuje lekarz okulista. Wynik liczę w zapisach na badanie i telefonach, a nie w samych pozycjach."),
+        p("Pozycjonowanie strony salonu optycznego robię sam — od danych wyszukiwań, przez podstrony badania wzroku, soczewek i marek opraw, po wizytówkę Google każdego salonu. Pracuję z niezależnymi salonami, gabinetami optometrycznymi i salonami, w których przyjmuje lekarz okulista. Wynik liczę w zapisach na badanie i telefonach, a nie w samych pozycjach."),
 
-        h2("Na czym polega pozycjonowanie salonu optycznego: badanie wzroku, okulary i soczewki"),
+        h2("Na czym polega pozycjonowanie strony salonu optycznego: badanie wzroku, okulary i soczewki"),
         p("Salon optyczny to w praktyce trzy usługi, a klienci szukają każdej z nich innymi słowami:"),
         li("badanie wzroku — „badanie wzroku Kraków”, „optometrysta w pobliżu”, „badanie wzroku dla dziecka” — tu liczy się wolny termin w tym tygodniu"),
         li("okulary — „okulary progresywne”, „oprawki Ray-Ban Gdynia”, „okulary w 1 dzień” — tu klient porównuje oprawki, szkła i ceny"),
@@ -128,7 +128,7 @@ export const optometrySeoPl = {
         h2("Kontrola krótkowzroczności u dzieci i suche oko: podstrony dla rodziców i pacjentów"),
         p("Rodzice krótkowzrocznych dzieci szukają soczewek do kontroli krótkowzroczności, ortokeratologii i okularów ze specjalnymi szkłami. To podstrony, które wymagają ostrożności: opisują możliwości, dla kogo są przeznaczone i że efekt bywa różny u różnych dzieci, a pod tekstem jest optometrysta albo okulista, który go sprawdził. Podobnie z suchym okiem: objawy opisane ogólnie, co obejmuje badanie i kiedy skierować pacjenta do lekarza."),
 
-        h2("Marki opraw i soczewki kontaktowe w pozycjonowaniu salonu optycznego"),
+        h2("Marki opraw i soczewki kontaktowe w pozycjonowaniu strony salonu optycznego"),
         p("Klienci szukają oprawek po marce: „Lindberg Wrocław”, „oprawki Silhouette”, „Ray-Ban korekcyjne”. Podstrona dla każdej marki, którą macie, ze zdjęciami z własnych półek, widełkami cen i informacją o doborze, łapie wyszukiwania, których nie złapie rząd logotypów. Marki z selektywną dystrybucją warto opisać osobno — autoryzowany salon to fakt, którego klient szuka."),
         p("Przy soczewkach kontaktowych sklep internetowy wygra ceną, ale nie wygra doborem: soczewki toryczne, wieloogniskowe, specjalistyczne, pierwsza nauka zakładania. Podstrony o tym, plus prosta ścieżka ponownego zamówienia dla stałych klientów, zatrzymują ich w salonie."),
 
@@ -143,7 +143,7 @@ export const optometrySeoPl = {
         h2("Opinie o salonie optycznym w Google, ZnanyLekarz i Booksy"),
         p("Opinie przesuwają salon wyżej w mapach i rozstrzygają wybór między dwoma salonami na tej samej ulicy. Lepiej działa stała prośba niż jednorazowa akcja: SMS po badaniu albo odbiorze okularów z linkiem do wizytówki, wysyłany do każdego klienta. Optometryści i okuliści mają też profile w ZnanyLekarz, a część salonów przyjmuje zapisy przez Booksy — te profile powinny mieć te same dane co strona i linkować do podstrony salonu."),
 
-        h2("Pozycjonowanie salonu optycznego w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony salonu optycznego w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Klienci pytają ChatGPT albo przegląd AI w Google, gdzie w ich mieście zbadać wzrok w sobotę, kto dobiera soczewki toryczne albo co robić z krótkowzrocznością dziecka. Asystent składa odpowiedź z tego, co znajdzie i porówna w kilku źródłach. Tę pracę opisują skróty GEO (generative engine optimization) i AEO (answer engine optimization); w salonie optycznym sprowadza się do czterech rzeczy:"),
         li("usługi, osoby badające, salony, godziny i marki zapisane prostymi faktami"),
         li("krótkie odpowiedzi na pytania klientów na każdej podstronie"),
@@ -165,10 +165,10 @@ export const optometrySeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie salonu optycznego"),
+        h2("Ile kosztuje pozycjonowanie strony salonu optycznego"),
         li("Audyt SEO strony i wizytówek Google: od 1000 zł, jednorazowo — dostajecie listę poprawek, od najważniejszej."),
         li("Jednorazowe prace — podstrony badań, soczewek i marek opraw, wizytówki, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie salonu optycznego — nowe podstrony, mapy, opinie, widoczność w AI i raporty w zapisach: od 3500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony salonu optycznego — nowe podstrony, mapy, opinie, widoczność w AI i raporty w zapisach: od 3500 zł miesięcznie."),
         p(
           "Pełne widełki są w ",
           link("cenniku", "/pl/cennik"),
@@ -179,11 +179,11 @@ export const optometrySeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie salonu optycznego: najczęstsze pytania",
+      title: "Pozycjonowanie strony salonu optycznego: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie salonu optycznego?", "Audyt strony i wizytówek od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, stałe pozycjonowanie od 3500 zł miesięcznie. Po krótkim opisie salonów i usług podaję jedną stałą kwotę."],
+          ["Ile kosztuje pozycjonowanie strony salonu optycznego?", "Audyt strony i wizytówek od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, stałe pozycjonowanie od 3500 zł miesięcznie. Po krótkim opisie salonów i usług podaję jedną stałą kwotę."],
           ["Ile trwa, zanim pozycjonowanie przyniesie zapisy na badanie wzroku?", "Uporządkowana wizytówka bywa widoczna w mapach po kilku tygodniach. Podstrona badania wzroku albo marki opraw potrzebuje zwykle sezonu — dwóch–czterech miesięcy — a tam, gdzie mapy wypełniają salony sieciowe, jeszcze dłużej."],
           ["Czy niezależny salon optyczny może wygrać z sieciówką w Google?", "W wynikach lokalnych — tak. Sieć ma silną domenę, ale niezależny salon ma konkretną osobę, która bada wzrok, marki, których sieć nie prowadzi, i podstronę dla swojego miasta. Mapy Google premiują bliskość i kompletną wizytówkę."],
           ["Czy optometrysta może reklamować badanie wzroku?", "Bezpieczniej informować niż reklamować: opisać badanie, kwalifikacje, cenę i warunki, bez obietnic efektów. Lekarzy okulistów obowiązuje zakaz reklamy, a zasady dla optometrystów warto sprawdzić na bieżąco, bo zawód jest dziś uregulowany ustawowo."],
@@ -197,7 +197,7 @@ export const optometrySeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie salonu optycznego: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony salonu optycznego: co mi wysłać"),
         p(
           "Wyślijcie nazwę salonu, link do strony i do wizytówki Google każdego salonu, informację, kto bada wzrok — optometrysta czy okulista — marki opraw, które prowadzicie, i usługi, przy których chcecie więcej klientów. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

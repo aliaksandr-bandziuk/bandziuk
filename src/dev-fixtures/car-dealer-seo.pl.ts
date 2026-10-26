@@ -32,15 +32,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const carDealerSeoPl = {
   lang: "pl",
   group: "car-dealer-seo",
-  slug: "pozycjonowanie-salonu-samochodowego",
-  title: "Pozycjonowanie salonu samochodowego",
-  heading: "Pozycjonowanie salonu samochodowego",
+  slug: "pozycjonowanie-strony-salonu-samochodowego",
+  title: "Pozycjonowanie strony salonu samochodowego",
+  heading: "Pozycjonowanie strony salonu samochodowego",
   excerpt:
     "Zajmuję się pozycjonowaniem salonów samochodowych i komisów: podstrony aut, które Google indeksuje, zanim auto zejdzie z placu, podstrony marek i modeli z nazwą miasta, artykuły o autach z Niemiec, wizytówka Google każdego placu z opiniami i widoczność w odpowiedziach AI.",
   seo: {
     metaTitle: "SEO dla komisu i salonu samochodowego | Bandziuk",
     metaDescription:
-      "Pozycjonowanie salonu samochodowego i komisu: podstrony aut w Google, modele z miastem, auta z Niemiec, wizytówka placu, opinie i AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony salonu samochodowego i komisu: podstrony aut w Google, modele z miastem, auta z Niemiec, wizytówka placu, opinie i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -49,14 +49,14 @@ export const carDealerSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO salonu samochodowego lub komisu: indeksowanie ofert, podstrony aut i modeli, dane strukturalne, wizytówki, opinie, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla salonu lub komisu: szablony podstron aut, sprzedane auta, podstrony modeli, dane strukturalne, śledzenie zapytań", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie salonu samochodowego lub komisu", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony salonu samochodowego lub komisu", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie salonu samochodowego",
+      title: "Co obejmuje pozycjonowanie strony salonu samochodowego",
       items: [
         { _key: k("o"), iconName: "search", title: "Podstrony aut widoczne w Google", text: "Stały adres, tytuł z marką i modelem, świeża mapa strony" },
         { _key: k("o"), iconName: "layers", title: "Podstrony marek i modeli z miastem", text: "Z tego, co masz na placu; filtry poza indeksem" },
@@ -89,7 +89,7 @@ export const carDealerSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania salonu samochodowego",
+      title: "Wycena pozycjonowania strony salonu samochodowego",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw — podstrony aut, podstrony modeli czy wizytówki — i za jaką stałą cenę.",
       contextLabel: "Nazwa salonu, komisu lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -106,9 +106,9 @@ export const carDealerSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie salonu samochodowego to moja usługa dla niezależnych i autoryzowanych salonów, komisów, placów z autami używanymi i firm sprowadzających auta: praca nad tym, żeby kupujący znajdowali w Google Twoje auta, Twój plac i nazwę firmy, a potem dzwonili, pisali albo umawiali się na oględziny. Robię to sam, więc osoba, która znajduje błąd w podstronach aut, sama go naprawia."),
+        p("Pozycjonowanie strony salonu samochodowego to moja usługa dla niezależnych i autoryzowanych salonów, komisów, placów z autami używanymi i firm sprowadzających auta: praca nad tym, żeby kupujący znajdowali w Google Twoje auta, Twój plac i nazwę firmy, a potem dzwonili, pisali albo umawiali się na oględziny. Robię to sam, więc osoba, która znajduje błąd w podstronach aut, sama go naprawia."),
 
-        h2("Pozycjonowanie salonu samochodowego i komisu: co obejmuje usługa"),
+        h2("Pozycjonowanie strony salonu samochodowego i komisu: co obejmuje usługa"),
         p("Większość kupujących zaczyna od Otomoto i OLX i tam porównuje ceny. Do Google przychodzą z trzema rodzajami pytań: o konkretny model w okolicy („Toyota Corolla kombi używana Lublin”), o rodzaj firmy („komis samochodowy Radom”, „auta z Niemiec Białystok”) i o Twoją nazwę — bo widzieli ogłoszenie i chcą sprawdzić, z kim mają do czynienia. Pracuję nad:"),
         li("podstronami aut i listą ofert, które Google indeksuje na bieżąco"),
         li("podstronami marek, modeli, typów nadwozia i przedziałów cenowych"),
@@ -132,7 +132,7 @@ export const carDealerSeoPl = {
         h3("Auto zarezerwowane i sprzedane: co dzieje się z jego podstroną"),
         p("W komisie auto ma zwykle trzy stany: dostępne, zarezerwowane po wpłacie zadatku i sprzedane. Każdy z nich podstrona pokazuje inaczej. Zarezerwowane zostaje w wynikach z wyraźną etykietą i propozycją podobnych aut — klient wie, że może zapytać, czy rezerwacja nie przepadnie. Sprzedane przez kilka dni prowadzi do podobnych aut z placu i do podstrony modelu, a potem zwraca kod 410 albo przekierowuje na model. Nikt nie musi o tym pamiętać: stan przychodzi razem z importem ofert."),
 
-        h2("Podstrony marek i modeli w pozycjonowaniu salonu samochodowego"),
+        h2("Podstrony marek i modeli w pozycjonowaniu strony salonu samochodowego"),
         p("Na frazy w rodzaju „używana Skoda Octavia Kraków”, „SUV do 50 tys. zł Łódź” czy „auta 7-osobowe Rzeszów” pojedyncze auto rzadko zdąży się wypozycjonować — zanim Google je doceni, jest już sprzedane. Wygrywają podstrony, które trwają: marka, model, nadwozie, budżet. Wyszukiwarka ofert na stronie salonu potrafi jednak wygenerować tysiące adresów z filtrów, na które robot traci czas zamiast na nowe auta. Układ, który ustawiam:"),
         li("podstrony do indeksowania dla marek i modeli, które regularnie masz na placu, typów nadwozia i przedziałów cenowych, każda z krótkim tekstem pisanym pod nią"),
         li("pozostałe kombinacje filtrów wyłączone z indeksu tagiem kanonicznym albo noindex"),
@@ -163,7 +163,7 @@ export const carDealerSeoPl = {
           ".",
         ),
 
-        h2("Otomoto, OLX czy własna strona: gdzie pozycjonowanie salonu samochodowego ma sens"),
+        h2("Otomoto, OLX czy własna strona: gdzie pozycjonowanie strony salonu samochodowego ma sens"),
         p("Otomoto i OLX pozostaną głównym źródłem zapytań większości salonów i komisów. Płacisz jednak za pakiety ogłoszeń i wyróżnienia, obok Twojego auta stoją oferty konkurencji, a często wygrywa po prostu niższa cena. Pozycjonowanie pracuje na wyszukiwaniach, których portale nie mają na własność:"),
         li("nazwa komisu wpisywana przez ludzi, którzy widzieli ogłoszenie i chcą Cię sprawdzić albo zadzwonić bezpośrednio"),
         li("frazy lokalne i typ firmy: „komis samochodowy Ostrów Wielkopolski”, „auta z Niemiec pod Poznaniem”"),
@@ -188,7 +188,7 @@ export const carDealerSeoPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie salonu samochodowego w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony salonu samochodowego w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Kupujący pytają już ChatGPT, Perplexity albo podsumowania AI w Google: „sprawdzony komis z autami z Niemiec koło Katowic”, „czy ten komis jest uczciwy”, „gdzie kupić używane kombi do 40 tys. zł we Wrocławiu”. Ta praca ma dwie nazwy: GEO, czyli generative engine optimization, i AEO, czyli answer engine optimization. W salonie i komisie składają się na nią:"),
         li("co sprzedajesz, gdzie, w jakich godzinach i na jakich warunkach — zapisane zwykłymi zdaniami na stronie"),
         li("te same dane firmy na stronie, w wizytówce, na Otomoto i w katalogach"),
@@ -200,10 +200,10 @@ export const carDealerSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie salonu samochodowego"),
+        h2("Ile kosztuje pozycjonowanie strony salonu samochodowego"),
         li("Audyt SEO salonu lub komisu — indeksowanie ofert, szablony podstron aut i modeli, dane strukturalne, wizytówki, opinie i odpowiedzi AI: od 1000 zł, jednorazowo."),
         li("Jednorazowe prace — szablony podstron aut, zasady dla sprzedanych aut, podstrony modeli, dane strukturalne, śledzenie telefonów i formularzy: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie salonu samochodowego lub komisu — nowe podstrony modeli i artykuły, wizytówki, opinie, odpowiedzi asystentów AI i raporty: od 3500 zł miesięcznie; w Warszawie, Krakowie, Wrocławiu, Poznaniu czy Trójmieście, gdzie o te same frazy walczą duże grupy dealerskie, od 5500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony salonu samochodowego lub komisu — nowe podstrony modeli i artykuły, wizytówki, opinie, odpowiedzi asystentów AI i raporty: od 3500 zł miesięcznie; w Warszawie, Krakowie, Wrocławiu, Poznaniu czy Trójmieście, gdzie o te same frazy walczą duże grupy dealerskie, od 5500 zł miesięcznie."),
         p(
           "W raporcie liczę telefony, zapytania i umówione oględziny z wyszukiwarki dla każdego placu, a pozycje fraz pokazuję obok tych liczb. Pełne widełki są w ",
           link("cenniku", "/pl/cennik"),
@@ -218,11 +218,11 @@ export const carDealerSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie salonu samochodowego: najczęstsze pytania",
+      title: "Pozycjonowanie strony salonu samochodowego: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie salonu samochodowego?", "Audyt kosztuje od 1000 zł, a pojedyncze prace od 1000 do 3000 zł, w obu przypadkach jednorazowo. Stała współpraca zaczyna się od 3500 zł miesięcznie, a w dużych miastach, gdzie konkurują grupy dealerskie, od 5500 zł. Konkretną kwotę podaję po krótkim opisie placu i oferty — tak samo dla salonu, jak dla komisu."],
+          ["Ile kosztuje pozycjonowanie strony salonu samochodowego?", "Audyt kosztuje od 1000 zł, a pojedyncze prace od 1000 do 3000 zł, w obu przypadkach jednorazowo. Stała współpraca zaczyna się od 3500 zł miesięcznie, a w dużych miastach, gdzie konkurują grupy dealerskie, od 5500 zł. Konkretną kwotę podaję po krótkim opisie placu i oferty — tak samo dla salonu, jak dla komisu."],
           ["Ile trwa pozycjonowanie salonu lub komisu, zanim przyjdą zapytania?", "Poprawki szablonów podstron aut i wizytówki potrafią dać efekt w kilka tygodni, bo nowe auta szybciej trafiają do Google. Podstrony modeli i artykuły zwykle potrzebują trzech–sześciu miesięcy, w dużych miastach dłużej."],
           ["Po co salonowi lub komisowi pozycjonowanie, skoro auta są na Otomoto i OLX?", "Portale zostają, ale tam płacisz za ogłoszenia i stoisz obok konkurencji. Pozycjonowanie zwiększa udział zapytań z własnej strony, bez opłaty za kontakt — z wyszukiwań nazwy firmy, fraz lokalnych i pytań kupujących."],
           ["Czy usuwać ze strony sprzedane auta?", "Nie od razu. Podstrona zostaje przez krótki czas z oznaczeniem „sprzedany”, podobnymi autami i linkiem do modelu, a potem zwraca kod 410 albo przekierowuje na podstronę modelu. Działa to automatycznie przy imporcie ofert."],
@@ -236,7 +236,7 @@ export const carDealerSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie salonu samochodowego lub komisu: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony salonu samochodowego lub komisu: co mi wysłać"),
         p(
           "Prześlij adres strony i wizytówek w Mapach Google, adresy placów, liczbę aut, które zwykle masz w ofercie, informację, skąd strona bierze ogłoszenia (Otomoto, program do komisu, ręcznie), czy sprowadzasz auta sam i czy jesteś salonem autoryzowanym. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

@@ -20,7 +20,7 @@
 // fast), Warsaw auto repair (local SEO, Google Maps), Giuseppe (AI answers).
 // NOT on this page: kluby i studia z grafikiem zajęć
 // (/pl/strona-dla-studia-fitness, linked once); pozycjonowanie siłowni
-// (/pl/pozycjonowanie-silowni); coaching (/pl/strona-internetowa-dla-coacha);
+// (/pl/pozycjonowanie-strony-silowni); coaching (/pl/strona-internetowa-dla-coacha);
 // kursy na trenera personalnego.
 // Owner’s rules: never say there are no clients from the visitor’s segment; no
 // outcome promises; AI search on every page.

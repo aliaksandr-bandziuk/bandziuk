@@ -10,7 +10,7 @@
 // Intent: ref/intent-check-creative-leisure.md — EN «website for car dealers»
 // = dealers themselves (shoppers), «car dealer website design» = vendors,
 // builders, studios (owners); SEO vs design 0 shared URLs → SEO is the
-// sibling /pl/pozycjonowanie-salonu-samochodowego (linked). No PL SERP check.
+// sibling /pl/pozycjonowanie-strony-salonu-samochodowego (linked). No PL SERP check.
 // Polish context: import ogłoszeń z Otomoto (API for dealer accounts — where
 // available), program do komisu or CSV; karta auta with VIN, kraj
 // pochodzenia, zarejestrowany / do rejestracji; faktura VAT 23% vs VAT marża
@@ -22,7 +22,7 @@
 // cenie.
 // NOT on this page: indexing, sprzedane auta in search, podstrony modeli,
 // artykuły o imporcie, wizytówki, opinie, Otomoto vs own site in search
-// (/pl/pozycjonowanie-salonu-samochodowego — sibling).
+// (/pl/pozycjonowanie-strony-salonu-samochodowego — sibling).
 // Owner’s rules: never say there are no clients from the visitor’s segment;
 // every page covers AI search.
 import { p, h2, h3, li, ol, link, k } from "./pt";
@@ -119,7 +119,7 @@ export const carDealerWebsiteDesignPl = {
         li("z pliku CSV lub arkusza Google, jeśli komis jest mały i ofertę prowadzisz w tabeli"),
         p(
           "Pola mapuję raz — VIN, marka, model, wersja, rocznik, przebieg, cena, paliwo, skrzynia, kraj pochodzenia, rodzaj dokumentu sprzedaży, zdjęcia — a import działa według harmonogramu, nawet kilka razy dziennie. Nowe auto pojawia się ze zdjęciami, obniżka ceny przechodzi sama, sprzedane znika z listy. Co dalej dzieje się z adresem sprzedanego auta w Google, opisuję na stronie ",
-          link("pozycjonowanie salonu samochodowego i komisu", "/pl/pozycjonowanie-salonu-samochodowego"),
+          link("pozycjonowanie salonu samochodowego i komisu", "/pl/pozycjonowanie-strony-salonu-samochodowego"),
           ". W panelu możesz dopisać do auta własną uwagę, a kolejny import jej nie nadpisze.",
         ),
 

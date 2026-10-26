@@ -29,15 +29,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const garageDoorSeoPl = {
   lang: "pl",
   group: "garage-door-seo",
-  slug: "pozycjonowanie-firmy-bram-garazowych",
-  title: "Pozycjonowanie firmy bram garażowych",
-  heading: "Pozycjonowanie firmy bram garażowych i automatyki",
+  slug: "pozycjonowanie-strony-firmy-bram-garazowych",
+  title: "Pozycjonowanie strony firmy bram garażowych",
+  heading: "Pozycjonowanie strony firmy bram garażowych i automatyki",
   excerpt:
     "Zajmuję się pozycjonowaniem firm bram garażowych i automatyki: osobne podstrony bram segmentowych, uchylnych, roletowych i wjazdowych, napędów i serwisu, strony producentów, których jesteście dealerem, wizytówka Google dla obszaru montażu i widoczność w odpowiedziach AI.",
   seo: {
     metaTitle: "SEO dla firm od bram garażowych i napędów | Bandziuk",
     metaDescription:
-      "Pozycjonowanie firmy bram garażowych: podstrony bram, napędów i serwisu, strony producentów, realizacje, wizytówka Google i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy bram garażowych: podstrony bram, napędów i serwisu, strony producentów, realizacje, wizytówka Google i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -46,14 +46,14 @@ export const garageDoorSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy bram garażowych: strona, wizytówka Google, konkurencja, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO: podstrony bram, napędów i serwisu, strony producentów, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie firmy bram garażowych", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony firmy bram garażowych", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajecie",
-      title: "Co obejmuje pozycjonowanie firmy bram garażowych",
+      title: "Co obejmuje pozycjonowanie strony firmy bram garażowych",
       items: [
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego rodzaju bramy", text: "Segmentowe, uchylne, roletowe, przesuwne, skrzydłowe" },
         { _key: k("o"), iconName: "plug", title: "Automatyka i napędy w wyszukiwarce", text: "Napędy, piloty, sterowanie z telefonu, modernizacje" },
@@ -64,7 +64,7 @@ export const garageDoorSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO firmy bram garażowych", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie firmy bram garażowych", value: "od 3500 zł / mies.", note: "podstrony, realizacje, Mapy, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony firmy bram garażowych", value: "od 3500 zł / mies.", note: "podstrony, realizacje, Mapy, AI", highlight: true },
       ],
     },
     {
@@ -86,7 +86,7 @@ export const garageDoorSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania firmy bram garażowych",
+      title: "Wycena pozycjonowania strony firmy bram garażowych",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: od których podstron i poprawek w wizytówce zacząłbym, i za jaką stałą cenę.",
       contextLabel: "Nazwa firmy lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -103,9 +103,9 @@ export const garageDoorSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie firmy bram garażowych to praca nad tym, żeby inwestor budujący dom, właściciel starej bramy uchylnej i zarządca hali znaleźli w Google Waszą firmę, a nie tylko portal z zapytaniami albo stronę producenta. Robię to sam: audyt, podstrony bram, automatyki i serwisu, poprawki na stronie, wizytówkę Google i raport z zapytań. Sprzedaż bramy i naprawa sprężyny to dwa różne zlecenia, więc strona dostaje dwie różne ścieżki."),
+        p("Pozycjonowanie strony firmy bram garażowych to praca nad tym, żeby inwestor budujący dom, właściciel starej bramy uchylnej i zarządca hali znaleźli w Google Waszą firmę, a nie tylko portal z zapytaniami albo stronę producenta. Robię to sam: audyt, podstrony bram, automatyki i serwisu, poprawki na stronie, wizytówkę Google i raport z zapytań. Sprzedaż bramy i naprawa sprężyny to dwa różne zlecenia, więc strona dostaje dwie różne ścieżki."),
 
-        h2("Pozycjonowanie firmy bram garażowych: sprzedaż, montaż, serwis i automatyka"),
+        h2("Pozycjonowanie strony firmy bram garażowych: sprzedaż, montaż, serwis i automatyka"),
         p("Frazy wpisywane przez klientów firm bramowych dzielą się na cztery grupy, a każda potrzebuje innych podstron:"),
         li("sprzedaż i montaż — „brama segmentowa z montażem”, „brama garażowa cena”, „brama garażowa ocieplona”"),
         li("automatyka — „napęd do bramy przesuwnej”, „dorobienie pilota do bramy”, „sterowanie bramą z telefonu”"),
@@ -156,7 +156,7 @@ export const garageDoorSeoPl = {
         h2("Stan surowy zamknięty i sezon budowlany: kiedy klienci szukają bram garażowych"),
         p("Brama garażowa należy do stanu surowego zamkniętego, więc inwestor szuka jej razem z oknami i drzwiami zewnętrznymi — zwykle wiosną i latem, kilka tygodni przed montażem. Podstrony bram powinny być gotowe zimą, bo nowa podstrona potrzebuje miesięcy, żeby wejść wysoko. Serwis i automatyka są potrzebne przez cały rok. Część zapytań o bramy przychodzi też z Oferteo i od firm budujących domy; strona z realizacjami i jasnym opisem montażu pomaga wygrać także te zapytania, bo klient z portalu i tak sprawdza firmę w Google."),
 
-        h2("Pozycjonowanie firmy bram garażowych w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony firmy bram garażowych w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Inwestorzy pytają ChatGPT i podsumowania AI w Google: „brama segmentowa czy uchylna”, „ile kosztuje brama garażowa z montażem”, „jaki napęd do bramy przesuwnej”. Asystenci odpowiadają na podstawie stron, które mogą przeczytać i sprawdzić. Praca nad tym — GEO (generative engine optimization) i AEO (answer engine optimization) — oznacza dla firmy bramowej:"),
         li("odpowiedzi na pytania o rodzaje bram, napędy i ceny na Waszych podstronach, z tym, co wpływa na koszt"),
         li("producentów, obszar montażu, gwarancję i serwis zapisane zwykłymi zdaniami"),
@@ -168,10 +168,10 @@ export const garageDoorSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie firmy bram garażowych"),
+        h2("Ile kosztuje pozycjonowanie strony firmy bram garażowych"),
         li("Audyt SEO strony, wizytówki, konkurencji i odpowiedzi AI: od 1000 zł jednorazowo; dostajecie listę poprawek ułożoną od najważniejszej."),
         li("Jednorazowe prace — podstrony bram, napędów i serwisu, strony producentów, dane strukturalne — od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie firmy bram garażowych — nowe podstrony, realizacje, Mapy i opinie, raporty: od 3500 zł miesięcznie; w dużych miastach z silną konkurencją od 5500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony firmy bram garażowych — nowe podstrony, realizacje, Mapy i opinie, raporty: od 3500 zł miesięcznie; w dużych miastach z silną konkurencją od 5500 zł miesięcznie."),
         p(
           "Firmy, które oprócz bram budują lub wykańczają domy, znajdą więcej na stronie ",
           link("pozycjonowanie strony firmy budowlanej", "/pl/pozycjonowanie-strony-firmy-budowlanej"),
@@ -186,11 +186,11 @@ export const garageDoorSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie firmy bram garażowych: najczęstsze pytania",
+      title: "Pozycjonowanie strony firmy bram garażowych: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie firmy bram garażowych?", "Za audyt płacicie od 1000 zł jednorazowo. Pojedyncze prace, na przykład podstrony bram i napędów, to od 1000 do 3000 zł, stała współpraca — od 3500 zł miesięcznie, a przy silnej konkurencji w dużym mieście od 5500 zł. Stałą cenę podaję po krótkim opisie firmy."],
+          ["Ile kosztuje pozycjonowanie strony firmy bram garażowych?", "Za audyt płacicie od 1000 zł jednorazowo. Pojedyncze prace, na przykład podstrony bram i napędów, to od 1000 do 3000 zł, stała współpraca — od 3500 zł miesięcznie, a przy silnej konkurencji w dużym mieście od 5500 zł. Stałą cenę podaję po krótkim opisie firmy."],
           ["Czy sprzedaż bram i serwis powinny mieć osobne podstrony?", "Tak. Inwestor wybierający bramę i właściciel bramy z pękniętą sprężyną wpisują inne frazy i potrzebują innych odpowiedzi. Wspólna podstrona zwykle nie wychodzi wysoko na żadną z nich."],
           ["Czy link z lokalizatora dealerów producenta pomaga w SEO?", "Tak, to mocny link lokalny. Sprawdźcie, czy wpis ma aktualną nazwę i prowadzi na podstronę danego producenta, a nie tylko na stronę główną."],
           ["Co jest lepsze: pozycjonowanie czy Google Ads?", "Reklama daje zapytania od razu, ale płaci się za każde kliknięcie. Pozycjonowanie rozkręca się miesiącami, za to podstrony bram i realizacji przynoszą zapytania bez opłaty za kliknięcie. Kampanie może dalej prowadzić osoba, która już się nimi zajmuje; moja część to SEO, które z czasem zmniejsza zależność od płatnych kliknięć."],
@@ -203,7 +203,7 @@ export const garageDoorSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie firmy bram garażowych: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony firmy bram garażowych: co mi wysłać"),
         p(
           "Napiszcie, jak nazywa się firma, podeślijcie stronę i wizytówkę z Map Google, producentów, których bramy i napędy montujecie, usługi, przy których chcecie więcej zleceń — sprzedaż, automatyka, serwis, bramy przemysłowe — i miejscowości, do których dojeżdżacie. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

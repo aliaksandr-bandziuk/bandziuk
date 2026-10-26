@@ -15,7 +15,7 @@
 // słabowidzących (WCAG), informacja zamiast reklamy, RODO, kilka salonów,
 // wersje językowe dla klientów z Ukrainy i cudzoziemców.
 // NOT on this page: SEO work — wizytówki, opinie, podstrony pod frazy
-// (/pl/pozycjonowanie-salonu-optycznego); strony lekarzy i przychodni
+// (/pl/pozycjonowanie-strony-salonu-optycznego); strony lekarzy i przychodni
 // (/pl/strona-internetowa-dla-lekarza); sklep internetowy z okularami.
 // Owner’s rule: design pages carry the H2 «… którą ChatGPT i przeglądy AI w
 // Google potrafią przeczytać»; Giuseppe’s case; NDA medical system once.
@@ -141,7 +141,7 @@ export const optometristWebsiteDesignPl = {
           "Do mnie Giuseppe trafił właśnie z ChatGPT, a dziś ChatGPT cytuje już nowe podstrony jego praktyki. Stałą pracę nad obecnością w odpowiedziach asystentów opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ", a widoczność w Google dla badań i marek opraw — na stronie ",
-          link("pozycjonowanie salonu optycznego", "/pl/pozycjonowanie-salonu-optycznego"),
+          link("pozycjonowanie salonu optycznego", "/pl/pozycjonowanie-strony-salonu-optycznego"),
           ".",
         ),
 

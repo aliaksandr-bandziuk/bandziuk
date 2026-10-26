@@ -9,15 +9,15 @@ import { p, h2, li, ol, link, k } from "./pt";
 export const restaurantSeoPl = {
   lang: "pl",
   group: "restaurant-seo",
-  slug: "pozycjonowanie-restauracji",
-  title: "Pozycjonowanie restauracji",
-  heading: "Pozycjonowanie restauracji",
+  slug: "pozycjonowanie-strony-restauracji",
+  title: "Pozycjonowanie strony restauracji",
+  heading: "Pozycjonowanie strony restauracji",
   excerpt:
-    "Zajmuję się pozycjonowaniem restauracji: wizytówka w Mapach Google, wyszukiwanie lokalne i strona internetowa lokalu, tak żeby goście szukający Waszej kuchni trafiali do Was, a nie na portal rezerwacyjny.",
+    "Zajmuję się pozycjonowaniem strony restauracji: wizytówka w Mapach Google, wyszukiwanie lokalne i strona internetowa lokalu, tak żeby goście szukający Waszej kuchni trafiali do Was, a nie na portal rezerwacyjny.",
   seo: {
-    metaTitle: "Pozycjonowanie restauracji w Google i Mapach | Bandziuk",
+    metaTitle: "Pozycjonowanie strony restauracji w Google | Bandziuk",
     metaDescription:
-      "Pozycjonowanie restauracji: wizytówka Google, menu czytelne dla wyszukiwarki i opinie, żeby goście trafiali do Was, a nie na portal. Audyt od 1000 zł.",
+      "Pozycjonowanie strony restauracji: wizytówka Google, menu czytelne dla wyszukiwarki i opinie, żeby goście trafiali do Was, a nie na portal. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -26,14 +26,14 @@ export const restaurantSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO restauracji: strona i wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe poprawki SEO restauracji: menu w tekście, wizytówka, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie restauracji", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony restauracji", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie restauracji",
+      title: "Co obejmuje pozycjonowanie strony restauracji",
       items: [
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google prowadzona jak podstrona", text: "Kategorie, godziny, link do menu, zdjęcia i wpisy na bieżąco" },
         { _key: k("o"), iconName: "utensils", title: "Menu, które czyta wyszukiwarka", text: "Dania tekstem, więc wyszukiwanie dania może prowadzić do Was" },
@@ -44,7 +44,7 @@ export const restaurantSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO: strona i wizytówka Google", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie restauracji", value: "od 3500 zł / mies.", note: "mapy, strona, opinie", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony restauracji", value: "od 3500 zł / mies.", note: "mapy, strona, opinie", highlight: true },
       ],
     },
     {
@@ -66,7 +66,7 @@ export const restaurantSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania restauracji",
+      title: "Wycena pozycjonowania strony restauracji",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw w wizytówce Google i na stronie, i za jaką stałą cenę.",
       contextLabel: "Nazwa restauracji lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -83,10 +83,10 @@ export const restaurantSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowaniem restauracji zajmuję się sam — wizytówką Google, stroną i podstronami lokalnymi — więc osoba, która robi audyt, jest tą samą, która potem wprowadza poprawki. Pozycjonowanie restauracji jest przede wszystkim lokalne: goście wybierają z wyników w mapach i z kilku pierwszych linków, na telefonie, kilka minut po tym, jak postanowili wyjść coś zjeść."),
+        p("Pozycjonowaniem strony restauracji zajmuję się sam — wizytówką Google, stroną i podstronami lokalnymi — więc osoba, która robi audyt, jest tą samą, która potem wprowadza poprawki. Pozycjonowanie strony restauracji jest przede wszystkim lokalne: goście wybierają z wyników w mapach i z kilku pierwszych linków, na telefonie, kilka minut po tym, jak postanowili wyjść coś zjeść."),
 
-        h2("Na czym polega pozycjonowanie restauracji: Mapy Google, wyszukiwanie lokalne i strona"),
-        p("Pozycjonowanie restauracji to praca nad tym, żeby lokal pojawiał się, gdy ktoś szuka rodzaju kuchni, konkretnego dania albo miejsca do jedzenia w pobliżu, i żeby własna strona restauracji wygrywała wyszukiwanie jej nazwy. Decydują o tym trzy miejsca:"),
+        h2("Na czym polega pozycjonowanie strony restauracji: Mapy Google, wyszukiwanie lokalne i strona"),
+        p("Pozycjonowanie strony restauracji to praca nad tym, żeby lokal pojawiał się, gdy ktoś szuka rodzaju kuchni, konkretnego dania albo miejsca do jedzenia w pobliżu, i żeby własna strona restauracji wygrywała wyszukiwanie jej nazwy. Decydują o tym trzy miejsca:"),
         li("wyniki w mapach — trzy lokale z mapą, oceną i godzinami, wyświetlane nad wszystkim innym przy zapytaniach typu „sushi w pobliżu”"),
         li("zwykłe wyniki, w których strona restauracji konkuruje z portalami rezerwacyjnymi, aplikacjami z dostawą i serwisami z opiniami"),
         li("odpowiedzi AI — podsumowania AI w Google i asystenci tacy jak ChatGPT, którzy polecają lokale i cytują menu oraz godziny otwarcia"),
@@ -115,7 +115,7 @@ export const restaurantSeoPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie restauracji w AI: widoczność w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony restauracji w AI: widoczność w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Coraz więcej gości pyta ChatGPT, Perplexity albo podsumowania AI w Google, gdzie zjeść — „spokojna włoska restauracja na Starym Mieście”, „gdzie zjeść dobry ramen dziś wieczorem”. Odpowiedź wymienia kilka lokali i cytuje to, co asystent mógł o nich przeczytać. Pracę nad tym, żeby trafić do takich odpowiedzi, nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). W restauracji opiera się ona na tym samym co pozycjonowanie lokalne:"),
         li("menu, kuchnia, przedział cen i godziny otwarcia zapisane tekstem na Waszej stronie i w wizytówce Google"),
         li("opinie, które wspominają dania i okazje, żeby asystent dopasował Was do „miejsca na kolację urodzinową”"),
@@ -135,14 +135,14 @@ export const restaurantSeoPl = {
         li("okazje: „sala na przyjęcie”, „restauracja na urodziny”, „lunch biznesowy”, „brunch w niedzielę”"),
         p("Zanim zacznę pracę, pobieram prawdziwe dane wyszukiwań dla Waszego miasta i kuchni, żeby podstrony powstawały wokół fraz, których używają goście, a nie wokół tego, jak restauracja opisuje samą siebie."),
 
-        h2("Pozycjonowanie restauracji z kilkoma lokalami"),
+        h2("Pozycjonowanie strony restauracji z kilkoma lokalami"),
         p("Przy dwóch i więcej lokalach typowy błąd to jedna podstrona i jedna wizytówka, które pracują za wszystkie. Działający układ daje każdemu lokalowi własną wizytówkę Google połączoną z własną podstroną, osobne menu tam, gdzie karty się różnią, własne opinie i link ze strony głównej. Wyszukiwania marki prowadzą wtedy gości do najbliższego lokalu, a każdy lokal może być wysoko w swojej okolicy."),
 
         h2("Marketing restauracji a pozycjonowanie: agencja czy specjalista SEO"),
         p("Agencja marketingu dla restauracji zwykle sprzedaje media społecznościowe, sesje zdjęciowe, reklamy i współprace z influencerami, a SEO jest jedną pozycją w pakiecie. Ja jestem jednym specjalistą SEO, który buduje też strony: ta sama osoba robi audyt wizytówki Google, przepisuje podstronę z menu i poprawia kod."),
         p("Czego nie robię: prowadzenia mediów społecznościowych, reklam płatnych i sesji zdjęciowych. Jeśli tego potrzebujecie, lepszym wyborem będzie agencja marketingowa, a pozycjonowanie można zlecić osobno."),
 
-        h2("Pozycjonowanie restauracji samodzielnie: co zrobić w tym tygodniu"),
+        h2("Pozycjonowanie strony restauracji samodzielnie: co zrobić w tym tygodniu"),
         ol("Wyszukajcie nazwę restauracji na telefonie i zapiszcie, kto jest wyżej niż Wasza strona."),
         ol("Porównajcie godziny w wizytówce Google z prawdziwymi, także na najbliższe święto."),
         ol("Zamieńcie link do menu w PDF-ie na link do podstrony z menu w tekście, nawet prostej."),
@@ -151,10 +151,10 @@ export const restaurantSeoPl = {
         ol("Sprawdźcie, czy nazwa, adres i telefon na stronie są dokładnie takie jak w wizytówce."),
         p("Te kroki są bezpłatne i zajmują jedno popołudnie. Nie zastępują pracy nad stroną, ale często podnoszą restaurację w wynikach map w ciągu kilku tygodni."),
 
-        h2("Ile kosztuje pozycjonowanie restauracji"),
+        h2("Ile kosztuje pozycjonowanie strony restauracji"),
         li("Audyt SEO strony i wizytówki Google: od 1000 zł, jednorazowo. Dostajecie listę poprawek ułożoną według wpływu na wynik."),
         li("Jednorazowe poprawki — menu w tekście, uporządkowanie wizytówki, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie restauracji — wyszukiwanie lokalne, podstrony, proces opinii i raporty: od 3500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony restauracji — wyszukiwanie lokalne, podstrony, proces opinii i raporty: od 3500 zł miesięcznie."),
         p(
           "W wielu restauracjach menu w tekście i uporządkowana wizytówka dają większość efektu, a audyt pokazuje, czy stała praca jest w ogóle potrzebna. Pełne widełki są w ",
           link("cenniku", "/pl/cennik"),
@@ -167,15 +167,15 @@ export const restaurantSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie restauracji: najczęstsze pytania",
+      title: "Pozycjonowanie strony restauracji: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Na czym polega pozycjonowanie restauracji?", "Na trzech rzeczach: wizytówce Google, która wprowadza lokal do wyników w mapach, stronie z menu w tekście i podstronami pod kuchnię, lokale i okazje oraz opiniach prowadzonych jako stały proces. Celem jest, żeby goście szukający Waszej kuchni albo Waszej nazwy trafiali do Was, a nie na portal."],
-          ["Ile kosztuje pozycjonowanie restauracji w Google?", "Audyt strony i wizytówki kosztuje od 1000 zł jednorazowo, pojedyncze poprawki od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie. Po krótkim opisie restauracji podaję stałą cenę."],
-          ["Czy pozycjonowanie restauracji się opłaca?", "Zwykle tak, jeśli goście szukają Was po nazwie i trafiają na portal, który bierze prowizję, albo jeśli w okolicy jest kilka podobnych lokali. Każda rezerwacja przejęta z portalu to oszczędzona prowizja. Audyt pokazuje, ile da się odzyskać, zanim zdecydujecie się na stałą pracę."],
+          ["Na czym polega pozycjonowanie strony restauracji?", "Na trzech rzeczach: wizytówce Google, która wprowadza lokal do wyników w mapach, stronie z menu w tekście i podstronami pod kuchnię, lokale i okazje oraz opiniach prowadzonych jako stały proces. Celem jest, żeby goście szukający Waszej kuchni albo Waszej nazwy trafiali do Was, a nie na portal."],
+          ["Ile kosztuje pozycjonowanie strony restauracji w Google?", "Audyt strony i wizytówki kosztuje od 1000 zł jednorazowo, pojedyncze poprawki od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie. Po krótkim opisie restauracji podaję stałą cenę."],
+          ["Czy pozycjonowanie strony restauracji się opłaca?", "Zwykle tak, jeśli goście szukają Was po nazwie i trafiają na portal, który bierze prowizję, albo jeśli w okolicy jest kilka podobnych lokali. Każda rezerwacja przejęta z portalu to oszczędzona prowizja. Audyt pokazuje, ile da się odzyskać, zanim zdecydujecie się na stałą pracę."],
           ["Ile kosztuje opinia w Google i czy warto ją kupić?", "Nie warto. Kupione opinie łamią zasady Google, który je usuwa i może ograniczyć wizytówkę, a w Polsce publikowanie fałszywych opinii jest też nieuczciwą praktyką rynkową. Więcej daje prosty proces: prośba o opinię we właściwym momencie i odpowiedź na każdą."],
-          ["Ile czasu trwa pozycjonowanie restauracji?", "Zmiany w wizytówce i menu potrafią zadziałać w wynikach map w kilka tygodni. Zapytania o kuchnię albo danie w okolicy to miesiące, bo konkurują o nie portale z silnymi stronami. Pierwsze sygnały widać zwykle po dwóch–trzech miesiącach."],
+          ["Ile czasu trwa pozycjonowanie strony restauracji?", "Zmiany w wizytówce i menu potrafią zadziałać w wynikach map w kilka tygodni. Zapytania o kuchnię albo danie w okolicy to miesiące, bo konkurują o nie portale z silnymi stronami. Pierwsze sygnały widać zwykle po dwóch–trzech miesiącach."],
           ["Czy restauracja na Pyszne.pl i portalach rezerwacyjnych potrzebuje pozycjonowania?", "Tak. Bez własnej widoczności goście, którzy już Was znają, i tak rezerwują przez portal, a Wy płacicie za nich prowizję. Pozycjonowanie przywraca te wyszukiwania na Waszą stronę. Portale nadal przyprowadzą nowych gości i za nich prowizja jest uczciwa."],
           ["Czy pozycjonowanie pomaga w odpowiedziach ChatGPT i Google AI?", "Tak. Asystenci polecają restauracje na podstawie tego, co mogą przeczytać: wizytówki, opinii, menu w tekście i danych strukturalnych. Menu w PDF-ie i strona zbudowana z samych obrazków nie dają im nic do zacytowania."],
           ["Czy pracujesz z restauracjami spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie lokalne robię zdalnie: wizytówka, strona i dane wyszukiwań. Do restauracji w Warszawie mogę też przyjechać na miejsce."],
@@ -186,7 +186,7 @@ export const restaurantSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie restauracji: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony restauracji: co mi wysłać"),
         p(
           "Wyślijcie nazwę i adres restauracji, link do strony i do wizytówki w Mapach Google oraz okolicę, z której przychodzi najwięcej gości. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

@@ -193,7 +193,7 @@ export const smallBusinessWebsiteDesignPl = {
           ", ",
           link("hotelu", "/pl/pozycjonowanie-strony-hotelu"),
           " i ",
-          link("restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ". Dla każdej innej małej firmy punktem wyjścia jest ta strona.",
         ),
 

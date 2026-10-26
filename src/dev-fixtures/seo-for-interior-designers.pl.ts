@@ -28,15 +28,15 @@ import { p, h2, li, link, k } from "./pt";
 export const seoForInteriorDesignersPl = {
   lang: "pl",
   group: "seo-for-interior-designers",
-  slug: "pozycjonowanie-projektanta-wnetrz",
-  title: "Pozycjonowanie projektanta wnętrz",
-  heading: "Pozycjonowanie projektanta wnętrz i pracowni projektowej",
+  slug: "pozycjonowanie-strony-projektanta-wnetrz",
+  title: "Pozycjonowanie strony projektanta wnętrz",
+  heading: "Pozycjonowanie strony projektanta wnętrz i pracowni projektowej",
   excerpt:
     "Zajmuję się pozycjonowaniem projektantów wnętrz i małych pracowni: wyniki na nazwę pracowni, frazy z miastem i dzielnicą, wizytówka Google z opiniami, realizacje opisane pod konkretne wyszukiwania, projekt online w całej Polsce i obecność w odpowiedziach AI; efekty liczę w zapytaniach o projekt.",
   seo: {
     metaTitle: "SEO dla architekta i projektanta wnętrz | Bandziuk",
     metaDescription:
-      "Pozycjonowanie projektanta wnętrz: frazy z miastem, wizytówka Google, realizacje w Google Grafika, Homebook, artykuły dla klientów i AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony projektanta wnętrz: frazy z miastem, wizytówka Google, realizacje w Google Grafika, Homebook, artykuły dla klientów i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -45,14 +45,14 @@ export const seoForInteriorDesignersPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO projektanta wnętrz: strona, wizytówka Google, profile, realizacje, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla pracowni wnętrz: podstrony miast i usług, opisy realizacji, dane strukturalne, pomiar zapytań", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie projektanta wnętrz", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony projektanta wnętrz", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie projektanta wnętrz",
+      title: "Co obejmuje pozycjonowanie strony projektanta wnętrz",
       items: [
         { _key: k("o"), iconName: "search", title: "Frazy, które wpisują Twoi klienci", text: "Miasto, dzielnica, pomieszczenie, rodzaj projektu" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google pracowni", text: "Kategoria, obszar działania, zdjęcia, opinie" },
@@ -85,7 +85,7 @@ export const seoForInteriorDesignersPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania projektanta wnętrz",
+      title: "Wycena pozycjonowania strony projektanta wnętrz",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw — wizytówkę, podstrony miast czy opisy realizacji — i za jaką stałą cenę.",
       contextLabel: "Nazwa pracowni lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -102,9 +102,9 @@ export const seoForInteriorDesignersPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie projektanta wnętrz to moja usługa dla architektów i projektantów wnętrz oraz małych pracowni: praca nad tym, żeby klient szukający projektu mieszkania, domu albo łazienki w Twoim mieście znalazł Cię w Google, w Mapach i w odpowiedziach AI, a potem wysłał zapytanie. Całość wykonuję osobiście: od audytu i nowych podstron, przez zmiany w kodzie i wizytówce, po raport — więc problem znajduje i naprawia ta sama osoba."),
+        p("Pozycjonowanie strony projektanta wnętrz to moja usługa dla architektów i projektantów wnętrz oraz małych pracowni: praca nad tym, żeby klient szukający projektu mieszkania, domu albo łazienki w Twoim mieście znalazł Cię w Google, w Mapach i w odpowiedziach AI, a potem wysłał zapytanie. Całość wykonuję osobiście: od audytu i nowych podstron, przez zmiany w kodzie i wizytówce, po raport — więc problem znajduje i naprawia ta sama osoba."),
 
-        h2("Pozycjonowanie projektanta wnętrz: na czym polega i co obejmuje"),
+        h2("Pozycjonowanie strony projektanta wnętrz: na czym polega i co obejmuje"),
         p("Większość klientów pracowni wciąż przychodzi z polecenia, ale nawet polecony klient wpisuje nazwę pracowni w Google, zanim zadzwoni. Pozostali szukają po mieście, pomieszczeniu albo rodzaju usługi. Pracuję nad czterema miejscami, w których kończą się te wyszukiwania:"),
         li("strona: podstrony usług, miast i dzielnic, realizacje, artykuły"),
         li("wizytówka Google i wyniki w Mapach na „projektant wnętrz w pobliżu”"),
@@ -148,7 +148,7 @@ export const seoForInteriorDesignersPl = {
         h2("Projekt wnętrz online: pozycjonowanie pracowni w całej Polsce"),
         p("W projekcie online nie konkurujesz z pracowniami z dzielnicy, tylko z projektantami z całego kraju i serwisami sprzedającymi gotowe pakiety. Mapy Google nie mają tu znaczenia. Liczą się podstrony pakietów z jasnym zakresem, odpowiedzi na pytania przed zakupem — jak zmierzyć mieszkanie, ile poprawek, w jakiej formie przychodzi projekt — i przykłady skończonych projektów online. Trzymam je osobno od podstron lokalnych, żeby jedne nie osłabiały drugich."),
 
-        h2("Homebook, Instagram i Pinterest w pozycjonowaniu projektanta wnętrz"),
+        h2("Homebook, Instagram i Pinterest w pozycjonowaniu strony projektanta wnętrz"),
         p("Profil na Homebooku często wychodzi wysoko na nazwę pracowni i bywa czytany przez asystentów AI; Pinterest prowadzi ludzi do zdjęć; Instagram buduje rozpoznawalność, choć jego posty rzadko pojawiają się w Google. Ustawiam je według kilku zasad:"),
         li("ta sama nazwa, adres albo obszar, telefon i strona w każdym profilu"),
         li("projekty na Homebooku i piny prowadzą do konkretnej realizacji na stronie"),
@@ -166,7 +166,7 @@ export const seoForInteriorDesignersPl = {
         li("deweloperzy, jeśli przygotowujesz dla nich mieszkania pokazowe"),
         p("Pakiety setek wpisów w katalogach niewiele dają, a mogą zaszkodzić; jeden link od salonu, z którym naprawdę robisz projekty, znaczy więcej."),
 
-        h2("Pozycjonowanie projektanta wnętrz w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony projektanta wnętrz w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Część klientów zamiast Google pyta od razu ChatGPT, Perplexity albo podsumowania AI: „polecisz projektanta wnętrz w Poznaniu do mieszkania 50 m²?”, „ile kosztuje projekt łazienki”, „czy projekt online wystarczy przy remoncie”. Asystent podaje kilka pracowni i powód wyboru. Na tę pracę mówi się GEO (generative engine optimization) lub AEO (answer engine optimization), a w pracowni wnętrz sprowadza się ona do czterech rzeczy:"),
         li("miasto, obszar pracy, rodzaje projektów, styl i sposób wyceny zapisane prostymi zdaniami"),
         li("realizacje i artykuły, które wprost odpowiadają na pytania, z projektantem jako autorem"),
@@ -188,11 +188,11 @@ export const seoForInteriorDesignersPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie projektanta wnętrz"),
+        h2("Ile kosztuje pozycjonowanie strony projektanta wnętrz"),
         p("Pierwsze efekty w Mapach i w wynikach na nazwę pracowni widać zwykle po kilku tygodniach; podstrony miast i realizacji potrzebują raczej trzech–sześciu miesięcy, a w Warszawie i Krakowie więcej."),
         li("Audyt SEO — strona, wizytówka, profile, realizacje i odpowiedzi AI: od 1000 zł, jednorazowo, z poprawkami ułożonymi od najważniejszej."),
         li("Jednorazowe prace — podstrony miast i usług, opisy realizacji, dane strukturalne, pomiar zapytań: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie projektanta wnętrz — nowe realizacje i podstrony, artykuły, linki od partnerów, opinie, obecność w odpowiedziach AI, raport: od 3500 zł miesięcznie; w Warszawie i Krakowie, gdzie pracowni jest najwięcej, od 5500 zł."),
+        li("Stałe pozycjonowanie strony projektanta wnętrz — nowe realizacje i podstrony, artykuły, linki od partnerów, opinie, obecność w odpowiedziach AI, raport: od 3500 zł miesięcznie; w Warszawie i Krakowie, gdzie pracowni jest najwięcej, od 5500 zł."),
         p(
           "Wszystkie ceny są w ",
           link("cenniku", "/pl/cennik"),
@@ -205,11 +205,11 @@ export const seoForInteriorDesignersPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie projektanta wnętrz: najczęstsze pytania",
+      title: "Pozycjonowanie strony projektanta wnętrz: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie projektanta wnętrz?", "Za audyt zapłacisz od 1000 zł, za pojedynczą pracę — na przykład podstrony miast — od 1000 do 3000 zł, a za stałą współpracę od 3500 zł miesięcznie, w Warszawie i Krakowie od 5500 zł. Stałą kwotę podaję, gdy opiszesz pracownię i miasto."],
+          ["Ile kosztuje pozycjonowanie strony projektanta wnętrz?", "Za audyt zapłacisz od 1000 zł, za pojedynczą pracę — na przykład podstrony miast — od 1000 do 3000 zł, a za stałą współpracę od 3500 zł miesięcznie, w Warszawie i Krakowie od 5500 zł. Stałą kwotę podaję, gdy opiszesz pracownię i miasto."],
           ["Ile trwa pozycjonowanie pracowni wnętrz?", "Zmiany w wizytówce Google działają najszybciej, po kilku tygodniach. Nowe podstrony miast i opisy realizacji zaczynają przynosić zapytania po trzech–sześciu miesiącach, a raz napisany artykuł pracuje na pracownię latami, jeśli go aktualizujesz."],
           ["Czy Instagram nie wystarczy projektantowi wnętrz?", "Instagram pokazuje Twoje projekty obserwującym. Ktoś, kto wpisuje w Google „projektant wnętrz” z nazwą miasta albo pyta o to asystenta AI, trafia na strony, wizytówki i Mapy. Bez nich ta część klientów wybiera inne pracownie."],
           ["Na jakie frazy pozycjonować pracownię projektowania wnętrz?", "Na frazy łączące miejsce z usługą: „projektant wnętrz” lub „architekt wnętrz” z miastem albo dzielnicą, „projekt mieszkania w stanie deweloperskim”, „projekt łazienki”, „projekt wnętrz online”, a także na nazwę pracowni. Konkretną listę ustalam na danych wyszukiwań dla Twojego miasta."],
@@ -223,7 +223,7 @@ export const seoForInteriorDesignersPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie projektanta wnętrz: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony projektanta wnętrz: co mi wysłać"),
         p(
           "Wyślij link do strony, do wizytówki w Mapach Google i do profilu na Homebooku, miasto i dzielnice, w których robisz projekty na miejscu, rodzaj projektów, których chcesz więcej, informację, czy sprzedajesz projekt online, i to, skąd dziś przychodzą zapytania. W odpowiedzi napiszę, od czego bym zaczął i ile to będzie kosztować. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

@@ -19,7 +19,7 @@
 // ze zgodą na wizerunek; informacja zamiast reklamy w szablonie zabiegu;
 // karta kwalifikacyjna i RODO; projekt w spokojnym stylu (Giuseppe).
 // NOT on this page: pozycjonowanie, wizytówka Google, opinie, Instagram
-// (/pl/pozycjonowanie-kliniki-medycyny-estetycznej); chirurgia plastyczna
+// (/pl/pozycjonowanie-strony-kliniki-medycyny-estetycznej); chirurgia plastyczna
 // (/pl/strona-internetowa-dla-chirurga-plastycznego); salony bez zabiegów
 // medycznych (beauty salon page, linked once).
 // Prices: /pl/cennik (3000–6000 zł, od 8500 zł), projekt w cenie. Owner’s
@@ -153,7 +153,7 @@ export const medSpaWebsiteDesignPl = {
           "Dalszą pracę nad widocznością w AI opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ", a pozycjonowanie w Google — na stronie ",
-          link("pozycjonowanie kliniki medycyny estetycznej", "/pl/pozycjonowanie-kliniki-medycyny-estetycznej"),
+          link("pozycjonowanie kliniki medycyny estetycznej", "/pl/pozycjonowanie-strony-kliniki-medycyny-estetycznej"),
           ".",
         ),
 

@@ -31,9 +31,9 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const seniorLivingSeoPl = {
   lang: "pl",
   group: "senior-living-seo",
-  slug: "pozycjonowanie-domu-opieki",
-  title: "Pozycjonowanie domu opieki",
-  heading: "Pozycjonowanie domu opieki",
+  slug: "pozycjonowanie-strony-domu-opieki",
+  title: "Pozycjonowanie strony domu opieki",
+  heading: "Pozycjonowanie strony domu opieki",
   excerpt:
     "Zajmuję się pozycjonowaniem domów opieki i prywatnych domów seniora: podstrony rodzajów opieki, cena pobytu podana wprost, wizytówka Google, opinie rodzin i widoczność w AI — tak, żeby dzieci szukające miejsca dla rodzica trafiały na Waszą stronę, a nie tylko do katalogów.",
   seo: {
@@ -48,14 +48,14 @@ export const seniorLivingSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO domu opieki: strona i wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla domu opieki: podstrony rodzajów opieki, cennik, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie domu opieki lub domu seniora", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony domu opieki lub domu seniora", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie domu opieki",
+      title: "Co obejmuje pozycjonowanie strony domu opieki",
       items: [
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego rodzaju opieki", text: "Całodobowa, demencja, osoby leżące, pobyt czasowy" },
         { _key: k("o"), iconName: "file-text", title: "Cena pobytu podana wprost", text: "Co jest w cenie, a co płatne osobno" },
@@ -66,7 +66,7 @@ export const seniorLivingSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO: strona domu opieki i wizytówka Google", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie domu opieki", value: "od 3500 zł / mies.", note: "podstrony, mapy, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony domu opieki", value: "od 3500 zł / mies.", note: "podstrony, mapy, opinie, AI", highlight: true },
       ],
     },
     {
@@ -88,7 +88,7 @@ export const seniorLivingSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania domu opieki",
+      title: "Wycena pozycjonowania strony domu opieki",
       subtitle: "W ciągu jednego dnia roboczego dostaniecie trzy rzeczy, od których zacząłbym w Google i w Mapach, oraz stałą cenę.",
       contextLabel: "Nazwa domu opieki lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -105,16 +105,16 @@ export const seniorLivingSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie domu opieki robię sam — od audytu strony i wizytówki Google, przez podstrony rodzajów opieki, po pomiar zapytań od rodzin — dla prywatnych domów opieki i domów seniora w całej Polsce. Miejsca dla mamy czy taty zwykle nie szuka sam senior, tylko jego dorosłe dzieci, często w pośpiechu: po wypisie ze szpitala, po upadku albo wtedy, gdy opieka w domu przestaje wystarczać."),
+        p("Pozycjonowanie strony domu opieki robię sam — od audytu strony i wizytówki Google, przez podstrony rodzajów opieki, po pomiar zapytań od rodzin — dla prywatnych domów opieki i domów seniora w całej Polsce. Miejsca dla mamy czy taty zwykle nie szuka sam senior, tylko jego dorosłe dzieci, często w pośpiechu: po wypisie ze szpitala, po upadku albo wtedy, gdy opieka w domu przestaje wystarczać."),
 
-        h2("Na czym polega pozycjonowanie domu opieki i domu seniora"),
+        h2("Na czym polega pozycjonowanie strony domu opieki i domu seniora"),
         p("Rodzina szuka w kilku miejscach naraz i każde wymaga innej pracy:"),
         li("w Mapach Google — „dom opieki w pobliżu”, „dom seniora Łódź” — gdzie kilka pierwszych domów z oceną i telefonem dostaje wiele pierwszych telefonów"),
         li("w zwykłych wynikach, gdzie stronę domu wyprzedzają katalogi domów opieki i artykuły poradnikowe"),
         li("w odpowiedziach AI — ChatGPT i podsumowaniach w Google — które coraz częściej wymieniają konkretne domy z nazwy"),
         p("Pozycjonowanie łączy te miejsca: rzeczowe podstrony, kompletna wizytówka, opinie rodzin i dane zapisane tak, żeby asystent AI mógł je przeczytać. Wynik liczę w zapytaniach i wizytach rodzin w domu, a nie w samych pozycjach."),
 
-        h2("Frazy w pozycjonowaniu domu opieki: miejscowość, rodzaj opieki i cena"),
+        h2("Frazy w pozycjonowaniu strony domu opieki: miejscowość, rodzaj opieki i cena"),
         p("Rodziny rzadko wpisują samo „dom opieki”. Łączą miejscowość z tym, czego potrzebuje rodzic:"),
         li("miejscowość: „prywatny dom opieki Wrocław”, „dom seniora pod Poznaniem”"),
         li("stan zdrowia: „dom opieki dla osoby z demencją”, „opieka nad osobą leżącą po udarze”"),
@@ -151,7 +151,7 @@ export const seniorLivingSeoPl = {
         p("Część dzieci szuka miejsca dla rodzica, mieszkając w Niemczech, Wielkiej Brytanii czy Holandii. Szukają po polsku, ale nie przyjadą na wizytę w tym tygodniu. Informacja, że można porozmawiać z kierownikiem przez wideo, obejrzeć film z domu i napisać na WhatsApp, powinna być na podstronie kontaktu i w wizytówce, bo to dla nich powód, żeby zadzwonić właśnie do Was."),
         p("Formularz zapytania prosi o imię, telefon, rodzaj opieki i termin — bez opisu chorób seniora. Dane o zdrowiu to w RODO szczególna kategoria danych; zbiera je rozmowa przed przyjęciem, nie strona. Przy formularzu jest klauzula informacyjna, a z dostawcą formularza — umowa powierzenia. To ogólne wskazówki, nie opinia prawna."),
 
-        h2("Pozycjonowanie domu opieki w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony domu opieki w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Dzieci szukające miejsca dla rodzica coraz częściej pytają ChatGPT albo podsumowania AI w Google o prywatny dom opieki dla osoby z demencją w okolicy Gdańska albo o różnicę między DPS a domem prywatnym. Asystent odpowiada na podstawie tego, co przeczyta i potwierdzi w kilku źródłach. Zabieganie o miejsce w tych odpowiedziach ma dwie nazwy: GEO (generative engine optimization) i AEO (answer engine optimization). W domu opieki sprowadza się do czterech rzeczy:"),
         li("rodzaje opieki, liczbę miejsc, cenę od, zezwolenie wojewody i godziny odwiedzin zapisane prostymi faktami"),
         li("odpowiedzi na pytania z pierwszej rozmowy telefonicznej, umieszczone na podstronach opieki"),
@@ -163,7 +163,7 @@ export const seniorLivingSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie domu opieki"),
+        h2("Ile kosztuje pozycjonowanie strony domu opieki"),
         li("Audyt strony domu i wizytówki w Mapach Google: od 1000 zł, płatny raz, zakończony krótką listą tego, co zrobić najpierw."),
         li("Pojedyncze zlecenia — podstrona o demencji, cennik, dane strukturalne, naprawa błędów technicznych: od 1000 do 3000 zł."),
         li("Comiesięczna opieka nad widocznością domu — kolejne podstrony, wizytówka, opinie rodzin, odpowiedzi AI i zestawienie zapytań: od 3500 zł miesięcznie; w dużym mieście, gdzie walczy o rodziny wiele domów, od 5500 zł."),
@@ -183,11 +183,11 @@ export const seniorLivingSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie domu opieki: najczęstsze pytania",
+      title: "Pozycjonowanie strony domu opieki: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie domu opieki?", "Audyt kosztuje od 1000 zł, pojedyncze zlecenia od 1000 do 3000 zł, a stała praca od 3500 zł miesięcznie — w dużych miastach z wieloma domami od 5500 zł. Wystarczy mi kilka zdań o domu i liczbie miejsc, żeby podać stałą kwotę."],
+          ["Ile kosztuje pozycjonowanie strony domu opieki?", "Audyt kosztuje od 1000 zł, pojedyncze zlecenia od 1000 do 3000 zł, a stała praca od 3500 zł miesięcznie — w dużych miastach z wieloma domami od 5500 zł. Wystarczy mi kilka zdań o domu i liczbie miejsc, żeby podać stałą kwotę."],
           ["Kiedy pierwsze rodziny trafią do nas z Google?", "Najszybciej, zwykle po kilku tygodniach, widać efekt uporządkowanej wizytówki. Nowa podstrona o opiece nad osobami leżącymi czy o cenie pobytu potrzebuje zazwyczaj od dwóch do czterech miesięcy; tam, gdzie konkurują katalogi i duże sieci, dłużej."],
           ["Czy wystarczy profil w katalogu domów opieki?", "Katalog daje telefony, ale rodzina widzi tam obok Was kilka innych domów, a warunki ustala właściciel serwisu. Własna strona przejmuje wyszukiwania nazwy domu i karmi odpowiedzi AI. Profil w katalogu i strona nie wykluczają się — profil powinien prowadzić na stronę."],
           ["Czy podawać cenę pobytu na stronie domu seniora?", "Tak, przynajmniej „od” dla każdego rodzaju pokoju, z listą tego, co jest w cenie. To odpowiada na częste wyszukiwania rodzin i oszczędza rozmów, które nie skończą się przyjęciem. Kwota końcowa może zależeć od stanu zdrowia — strona może to wyjaśnić."],
@@ -201,7 +201,7 @@ export const seniorLivingSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie domu opieki: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony domu opieki: co mi wysłać"),
         p(
           "Potrzebuję adresu strony, linku do wizytówki w Mapach Google, nazw katalogów, w których jesteście, oraz informacji, ile macie miejsc i jakie rodzaje opieki. W odpowiedzi dostaniecie plan pierwszych kroków i stałą kwotę. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

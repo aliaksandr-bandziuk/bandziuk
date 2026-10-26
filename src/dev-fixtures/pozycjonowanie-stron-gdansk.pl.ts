@@ -154,7 +154,7 @@ export const pozycjonowanieStronGdanskPl = {
           "Kilka gdańskich branż ma własne zasady. Hotele i apartamenty konkurują z portalami rezerwacyjnymi i potrzebują strony, która przekona gościa do rezerwacji bezpośredniej — piszę o tym na stronie ",
           link("pozycjonowanie strony hotelu", "/pl/pozycjonowanie-strony-hotelu"),
           ". Restauracje na Głównym Mieście żyją z Map Google i opinii w kilku językach — zobaczcie ",
-          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-restauracji"),
+          link("pozycjonowanie restauracji", "/pl/pozycjonowanie-strony-restauracji"),
           ". Zakłady produkcyjne i poddostawcy stoczni szukają klientów B2B, często za granicą, i potrzebują podstron produktów z parametrami — opisuję to na stronie ",
           link("pozycjonowanie strony firmy produkcyjnej", "/pl/pozycjonowanie-strony-firmy-produkcyjnej"),
           ".",

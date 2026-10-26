@@ -17,7 +17,7 @@
 // kodowanie kluczyków samochodowych na miejscu bez ASO, weryfikacja tożsamości
 // przed otwarciem, frazy cenowe «ile kosztuje otwarcie drzwi», Oferteo / Fixly
 // / OLX vs pilne zlecenia, Panorama Firm / pkt.pl, AI answers.
-// NOT on this page: bramy garażowe (/pl/pozycjonowanie-firmy-bram-garazowych);
+// NOT on this page: bramy garażowe (/pl/pozycjonowanie-strony-firmy-bram-garazowych);
 // wizytówka in depth (/pl/oferty/pozycjonowanie-lokalne — one link); building
 // the site in depth (/pl/strona-internetowa-dla-malej-firmy — one link from
 // the website H2); Google Ads (not offered).

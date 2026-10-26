@@ -10,7 +10,7 @@
 // the words owners use: degustacja, zwiedzanie, klub wina, enoturystyka.
 // Intent: ref/intent-check-creative-leisure.md — EN «winery website design» vs
 // «winery seo» 0 of 10 shared URLs → separate pages;
-// /pl/pozycjonowanie-winnicy is the sibling. EN design SERP = galleries and
+// /pl/pozycjonowanie-strony-winnicy is the sibling. EN design SERP = galleries and
 // wine-industry studios → owners looking for examples and a designer.
 // Polish angles: pierwszy ekran z godzinami degustacji, rezerwacja z
 // przedpłatą (BLIK, Przelewy24 — general), klub wina i lista przedsprzedaży,
@@ -20,7 +20,7 @@
 // projekt premium (renovation case), AI-readable build (Giuseppe), kreator vs
 // projekt (ScanM2), cost.
 // NOT on this page: pozycjonowanie, frazy, wizytówka Google, opinie, sezon
-// w SEO (/pl/pozycjonowanie-winnicy — sibling); noclegi as a separate
+// w SEO (/pl/pozycjonowanie-strony-winnicy — sibling); noclegi as a separate
 // business (/pl/strona-internetowa-dla-pensjonatu — neighbour, linked once).
 // Prices: /pl/cennik (3000–6000 zł, od 8500 zł), projekt w cenie. Owner’s
 // rules: every page covers AI search; never say there are no clients from the
@@ -163,7 +163,7 @@ export const wineryWebsiteDesignPl = {
           "O stałej pracy nad takimi odpowiedziami więcej w ofercie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ", a widoczność w Google i Mapach na stronie ",
-          link("pozycjonowanie winnicy", "/pl/pozycjonowanie-winnicy"),
+          link("pozycjonowanie winnicy", "/pl/pozycjonowanie-strony-winnicy"),
           ".",
         ),
 

@@ -18,7 +18,7 @@
 // gabarytów i PSZOK, BDO and karta przekazania odpadów (general), B2B:
 // ekipy remontowe, firmy budowlane, zarządcy; wizytówka Google; Oferteo,
 // Fixly, OLX; AI answers.
-// NOT on this page: przeprowadzki (/pl/pozycjonowanie-firmy-przeprowadzkowej —
+// NOT on this page: przeprowadzki (/pl/pozycjonowanie-strony-firmy-przeprowadzkowej —
 // linked once); rozbiórki i budowa (/pl/pozycjonowanie-strony-firmy-budowlanej
 // — linked once); maps in depth (/pl/oferty/pozycjonowanie-lokalne); site
 // build; ads (channels only); waste law in detail (general only).
@@ -29,15 +29,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const junkRemovalSeoPl = {
   lang: "pl",
   group: "junk-removal-seo",
-  slug: "pozycjonowanie-firmy-wywozu-gruzu",
-  title: "Pozycjonowanie firmy wywozu gruzu",
-  heading: "Pozycjonowanie firmy wywozu gruzu i opróżniania mieszkań",
+  slug: "pozycjonowanie-strony-firmy-wywozu-gruzu",
+  title: "Pozycjonowanie strony firmy wywozu gruzu",
+  heading: "Pozycjonowanie strony firmy wywozu gruzu i opróżniania mieszkań",
   excerpt:
     "Zajmuję się pozycjonowaniem firm wywozu gruzu: podstrony kontenerów i worków BIG BAG, cennik gruzu czystego i zmieszanego, opróżnianie mieszkań i wywóz mebli, wizytówka Google z opiniami i widoczność w ChatGPT — żeby po kontener dzwoniono do Ciebie, a nie przez platformę zleceń.",
   seo: {
     metaTitle: "SEO dla firmy wywozu gruzu i kontenerów | Bandziuk",
     metaDescription:
-      "Pozycjonowanie firmy wywozu gruzu: kontenery i BIG BAG, cennik, opróżnianie mieszkań, wywóz mebli, Mapy Google, opinie i ChatGPT. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy wywozu gruzu: kontenery i BIG BAG, cennik, opróżnianie mieszkań, wywóz mebli, Mapy Google, opinie i ChatGPT. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -46,14 +46,14 @@ export const junkRemovalSeoPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy wywozu gruzu: strona, cennik, wizytówka Google i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO: podstrony kontenerów, opróżniania mieszkań i miast, cennik, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie firmy wywozu gruzu", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony firmy wywozu gruzu", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie firmy wywozu gruzu",
+      title: "Co obejmuje pozycjonowanie strony firmy wywozu gruzu",
       items: [
         { _key: k("o"), iconName: "layers", title: "Podstrony kontenerów i worków BIG BAG", text: "Pojemność, co wolno wrzucić, termin podstawienia" },
         { _key: k("o"), iconName: "file-text", title: "Cennik gruzu czystego i zmieszanego", text: "Jasne zasady zamiast „cena do uzgodnienia”" },
@@ -64,7 +64,7 @@ export const junkRemovalSeoPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO firmy wywozu gruzu", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie firmy wywozu gruzu", value: "od 3500 zł / mies.", note: "podstrony, Mapy, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony firmy wywozu gruzu", value: "od 3500 zł / mies.", note: "podstrony, Mapy, opinie, AI", highlight: true },
       ],
     },
     {
@@ -86,7 +86,7 @@ export const junkRemovalSeoPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania firmy wywozu gruzu",
+      title: "Wycena pozycjonowania strony firmy wywozu gruzu",
       subtitle: "Odpowiadam w ciągu jednego dnia roboczego: co poprawiłbym najpierw — kontenery, cennik, opróżnianie mieszkań czy wizytówkę — i za jaką stałą cenę.",
       contextLabel: "Nazwa firmy lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -103,9 +103,9 @@ export const junkRemovalSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie firmy wywozu gruzu to praca nad tym, żeby osoba po remoncie, która wpisuje „kontener na gruz Wrocław”, „wywóz gruzu cena” albo „opróżnianie mieszkania po zmarłym”, znalazła Twoją firmę w Google i zadzwoniła. Całą pracę — od analizy fraz po zmiany na stronie i w Mapach — wykonuję osobiście, dla firm z jednym autem i dla tych, które mają hakowiec, kilkadziesiąt kontenerów i własny plac."),
+        p("Pozycjonowanie strony firmy wywozu gruzu to praca nad tym, żeby osoba po remoncie, która wpisuje „kontener na gruz Wrocław”, „wywóz gruzu cena” albo „opróżnianie mieszkania po zmarłym”, znalazła Twoją firmę w Google i zadzwoniła. Całą pracę — od analizy fraz po zmiany na stronie i w Mapach — wykonuję osobiście, dla firm z jednym autem i dla tych, które mają hakowiec, kilkadziesiąt kontenerów i własny plac."),
 
-        h2("Pozycjonowanie firmy wywozu gruzu: co obejmuje usługa"),
+        h2("Pozycjonowanie strony firmy wywozu gruzu: co obejmuje usługa"),
         p("Klienci tej branży szukają bardzo konkretnie: rozmiaru kontenera, rodzaju odpadów, terminu i ceny. Dlatego pozycjonowanie opiera się na podstronach, a nie na jednej stronie „Usługi”:"),
         li("kontenery i worki BIG BAG — każdy rozmiar i rodzaj odpadów osobno"),
         li("opróżnianie mieszkań, piwnic, strychów i garaży"),
@@ -114,7 +114,7 @@ export const junkRemovalSeoPl = {
         li("odpowiedzi ChatGPT i podsumowania AI w Google"),
         p(
           "Jeśli Twoja firma zajmuje się głównie przeprowadzkami, a wywóz to dodatek, lepiej pasuje strona ",
-          link("pozycjonowanie firmy przeprowadzkowej", "/pl/pozycjonowanie-firmy-przeprowadzkowej"),
+          link("pozycjonowanie firmy przeprowadzkowej", "/pl/pozycjonowanie-strony-firmy-przeprowadzkowej"),
           ".",
         ),
 
@@ -166,7 +166,7 @@ export const junkRemovalSeoPl = {
         h2("Oferteo, Fixly, OLX i pozycjonowanie: skąd firma wywozu gruzu bierze zlecenia"),
         p("Platformy zleceń i ogłoszenia dają telefony szybko, ale zlecenie widzi kilka firm, a klient wybiera najniższą cenę. Przy małym wywozie opłata za kontakt potrafi zjeść dużą część zarobku. Reklama Google na „kontener na gruz” w dużym mieście też jest droga w sezonie remontów. Pozycjonowanie rośnie wolniej, ale klient z wyszukiwarki dzwoni tylko do Ciebie. Najwięcej remontów i zamówień kontenerów przypada na wiosnę, lato i wczesną jesień, więc nowe podstrony piszę zimą, żeby zdążyły się wypozycjonować przed sezonem. Na pytanie, co jest lepsze — pozycjonowanie czy Google Ads — zwykle odpowiadam: na start jedno i drugie, a z czasem coraz więcej z SEO. Moja część to wyszukiwarka i odpowiedzi AI."),
 
-        h2("Pozycjonowanie firmy wywozu gruzu w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony firmy wywozu gruzu w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Ludzie pytają ChatGPT albo podsumowania AI w Google: „ile kosztuje kontener na gruz 7 m³”, „co zrobić ze starymi meblami”, „czy eternit można wrzucić do kontenera”. Asystent odpowiada i czasem podaje firmy. Na takie odpowiedzi pracuje GEO (generative engine optimization), nazywane też AEO (answer engine optimization). W firmie wywozu gruzu oznacza to:"),
         li("rozmiary kontenerów, zasady cennika i dozwolone odpady opisane tekstem"),
         li("obszar działania, terminy podstawienia i numer BDO jako fakty"),
@@ -178,10 +178,10 @@ export const junkRemovalSeoPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie firmy wywozu gruzu"),
+        h2("Ile kosztuje pozycjonowanie strony firmy wywozu gruzu"),
         li("Audyt SEO — strona, cennik, wizytówka, opinie i odpowiedzi AI: od 1000 zł, jednorazowo, z listą poprawek według wpływu."),
         li("Jednorazowe prace — podstrony kontenerów, opróżniania mieszkań i miast, cennik, dane strukturalne: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie firmy wywozu gruzu — kolejne podstrony usług i miast, praca nad wizytówką i opiniami, sprawdzanie odpowiedzi AI, co miesiąc liczba zamówień z wyszukiwarki: od 3500 zł miesięcznie, przy silnej konkurencji w największych miastach od 5500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony firmy wywozu gruzu — kolejne podstrony usług i miast, praca nad wizytówką i opiniami, sprawdzanie odpowiedzi AI, co miesiąc liczba zamówień z wyszukiwarki: od 3500 zł miesięcznie, przy silnej konkurencji w największych miastach od 5500 zł miesięcznie."),
         p(
           "Jak wygląda stała praca, opisuję na stronie ",
           link("strategia i optymalizacja SEO", "/pl/oferty/strategia-i-optymalizacja-seo"),
@@ -194,11 +194,11 @@ export const junkRemovalSeoPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie firmy wywozu gruzu: najczęstsze pytania",
+      title: "Pozycjonowanie strony firmy wywozu gruzu: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie firmy wywozu gruzu?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie, przy silnej konkurencji od 5500 zł. Stałą cenę podaję po krótkim opisie firmy, usług i miast."],
+          ["Ile kosztuje pozycjonowanie strony firmy wywozu gruzu?", "Audyt kosztuje od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, a stałe pozycjonowanie od 3500 zł miesięcznie, przy silnej konkurencji od 5500 zł. Stałą cenę podaję po krótkim opisie firmy, usług i miast."],
           ["Po jakim czasie pozycjonowanie da telefony?", "Poprawki w wizytówce i cenniku potrafią dać efekt po kilku tygodniach. Nowe podstrony kontenerów i opróżniania mieszkań zwykle potrzebują dwóch–pięciu miesięcy, zależnie od konkurencji w mieście."],
           ["Co jest lepsze: pozycjonowanie czy Google Ads?", "Google Ads przynosi zamówienia od pierwszego dnia, tyle że płacisz za każde kliknięcie, a w sezonie remontów stawki rosną. Pozycjonowanie rośnie wolniej i potem przyprowadza klientów bez opłaty za kliknięcie. Wiele firm zaczyna od obu i z czasem przesuwa budżet w stronę SEO."],
           ["Czy pokazywać ceny kontenerów na stronie?", "Warto pokazać przynajmniej zasady: rozmiary, różnicę między gruzem czystym a zmieszanym, dopłaty i czas podstawienia. Klient szybciej decyduje, a Ty masz mniej sporów przy odbiorze."],
@@ -212,7 +212,7 @@ export const junkRemovalSeoPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie firmy wywozu gruzu: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony firmy wywozu gruzu: co mi wysłać"),
         p(
           "Podeślij adres strony, link do firmy w Mapach Google, listę usług — kontenery, BIG BAG, opróżnianie mieszkań, wywóz mebli — miasta i gminy, w których chcesz mieć więcej zleceń, oraz informację, skąd dziś przychodzą klienci. Odpowiem, co poprawiłbym najpierw i za jaką stałą cenę. Skorzystaj z ",
           link("formularza powyżej", "#quote"),

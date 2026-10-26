@@ -29,15 +29,15 @@ import { p, h2, h3, li, link, k } from "./pt";
 export const seoForDermatologistsPl = {
   lang: "pl",
   group: "seo-for-dermatologists",
-  slug: "pozycjonowanie-gabinetu-dermatologicznego",
-  title: "Pozycjonowanie gabinetu dermatologicznego",
-  heading: "Pozycjonowanie gabinetu dermatologicznego",
+  slug: "pozycjonowanie-strony-gabinetu-dermatologicznego",
+  title: "Pozycjonowanie strony gabinetu dermatologicznego",
+  heading: "Pozycjonowanie strony gabinetu dermatologicznego",
   excerpt:
     "Zajmuję się pozycjonowaniem gabinetów dermatologicznych: podstrony chorób skóry, badania znamion i wideodermatoskopii, jasna informacja o wizytach na NFZ i prywatnie, wizytówka Google, ZnanyLekarz i widoczność w odpowiedziach AI — rzeczowo, w granicach zasad, które pozwalają lekarzom informować, a nie reklamować.",
   seo: {
     metaTitle: "SEO dla dermatologa i kliniki dermatologicznej | Bandziuk",
     metaDescription:
-      "Pozycjonowanie gabinetu dermatologicznego: choroby skóry, badanie znamion, NFZ i prywatnie, wizytówka Google, ZnanyLekarz, RODO i AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony gabinetu dermatologicznego: choroby skóry, badanie znamion, NFZ i prywatnie, wizytówka Google, ZnanyLekarz, RODO i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -46,14 +46,14 @@ export const seoForDermatologistsPl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO gabinetu dermatologicznego: strona, wizytówka Google, ZnanyLekarz i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla dermatologa: podstrony chorób i badania znamion, NFZ i cennik, dane strukturalne", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie gabinetu dermatologicznego", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony gabinetu dermatologicznego", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
     {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Co dostajesz",
-      title: "Co obejmuje pozycjonowanie gabinetu dermatologicznego",
+      title: "Co obejmuje pozycjonowanie strony gabinetu dermatologicznego",
       items: [
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdej choroby skóry", text: "Trądzik, AZS, łuszczyca, trądzik różowaty, łysienie" },
         { _key: k("o"), iconName: "search", title: "Badanie znamion i wideodermatoskopia", text: "Jak wygląda badanie, kto je wykonuje, co dalej" },
@@ -64,7 +64,7 @@ export const seoForDermatologistsPl = {
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO gabinetu dermatologicznego", value: "od 1000 zł", note: "jednorazowo" },
-        { _key: k("r"), label: "Stałe pozycjonowanie gabinetu dermatologicznego", value: "od 3500 zł / mies.", note: "choroby skóry, znamiona, opinie, AI", highlight: true },
+        { _key: k("r"), label: "Stałe pozycjonowanie strony gabinetu dermatologicznego", value: "od 3500 zł / mies.", note: "choroby skóry, znamiona, opinie, AI", highlight: true },
       ],
     },
     {
@@ -86,7 +86,7 @@ export const seoForDermatologistsPl = {
     {
       _type: "quoteFormBlock",
       _key: k("b"),
-      title: "Wycena pozycjonowania gabinetu dermatologicznego",
+      title: "Wycena pozycjonowania strony gabinetu dermatologicznego",
       subtitle: "W ciągu jednego dnia roboczego dostaniecie ode mnie listę pierwszych poprawek dla strony, wizytówki i profili w ZnanyLekarz oraz stałą cenę. Proszę nie wpisywać danych pacjentów.",
       contextLabel: "Nazwa gabinetu lub strona",
       contextPlaceholder: "Link lub nazwa",
@@ -103,14 +103,14 @@ export const seoForDermatologistsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie gabinetu dermatologicznego to moja usługa dla prywatnych gabinetów i klinik dermatologicznych z całej Polski: praca nad tym, żeby pacjent szukający pomocy przy chorobie skóry, badania znamion albo zabiegu znalazł w Google i w odpowiedziach AI właśnie Wasz gabinet i umówił wizytę. Pracuję bez pośredników: ta sama osoba sprawdza stronę, pisze z lekarzami podstrony chorób, wprowadza zmiany w kodzie i co miesiąc pokazuje, ile wizyt przyszło z wyszukiwarki."),
+        p("Pozycjonowanie strony gabinetu dermatologicznego to moja usługa dla prywatnych gabinetów i klinik dermatologicznych z całej Polski: praca nad tym, żeby pacjent szukający pomocy przy chorobie skóry, badania znamion albo zabiegu znalazł w Google i w odpowiedziach AI właśnie Wasz gabinet i umówił wizytę. Pracuję bez pośredników: ta sama osoba sprawdza stronę, pisze z lekarzami podstrony chorób, wprowadza zmiany w kodzie i co miesiąc pokazuje, ile wizyt przyszło z wyszukiwarki."),
 
-        h2("Pozycjonowanie gabinetu dermatologicznego: co obejmuje usługa"),
+        h2("Pozycjonowanie strony gabinetu dermatologicznego: co obejmuje usługa"),
         p("Do dermatologa trafiają trzy grupy pacjentów i każda szuka inaczej:"),
         li("osoby z chorobą skóry — „trądzik u dorosłych dermatolog”, „AZS u dziecka”, „łuszczyca leczenie biologiczne” — które chcą wiedzieć, czy lekarz pomoże i ile kosztuje wizyta"),
         li("osoby zaniepokojone znamieniem — „badanie znamion Poznań”, „pieprzyk zmienił kolor” — które chcą terminu jak najszybciej"),
         li("osoby wybierające zabieg dermatologii estetycznej, które porównują ceny, lekarzy i zdjęcia"),
-        p("Pozycjonowanie gabinetu dermatologicznego daje każdej z tych grup podstronę, która odpowiada na jej pytanie, porządkuje dane gabinetu w Google i ZnanyLekarz i liczy wynik w umówionych wizytach, a nie w samych pozycjach fraz."),
+        p("Pozycjonowanie strony gabinetu dermatologicznego daje każdej z tych grup podstronę, która odpowiada na jej pytanie, porządkuje dane gabinetu w Google i ZnanyLekarz i liczy wynik w umówionych wizytach, a nie w samych pozycjach fraz."),
 
         h2("Dermatologia medyczna i estetyczna na jednej stronie gabinetu dermatologicznego"),
         p("Wiele gabinetów łączy leczenie chorób skóry z zabiegami estetycznymi, a strona miesza jedno z drugim: podstrona o trądziku różowatym kończy się promocją na wypełniacze, a pacjent ze znamieniem musi przewinąć pakiety laserowe. Dzielę stronę na dwie wyraźne części, które mają wspólną nazwę, lekarzy i rejestrację:"),
@@ -118,7 +118,7 @@ export const seoForDermatologistsPl = {
         li("dermatologia estetyczna: zabiegi, lekarz, który je wykonuje, widełki cen i konsultacja"),
         p(
           "Części łączą się tam, gdzie to pomaga pacjentowi — na przykład leczenie blizn potrądzikowych po leczeniu trądziku — ale każda podstrona ma jedno zadanie. Jeśli zabiegi estetyczne prowadzicie jako osobną klinikę z własną marką, zajrzyjcie na stronę ",
-          link("pozycjonowanie kliniki medycyny estetycznej", "/pl/pozycjonowanie-kliniki-medycyny-estetycznej"),
+          link("pozycjonowanie kliniki medycyny estetycznej", "/pl/pozycjonowanie-strony-kliniki-medycyny-estetycznej"),
           ".",
         ),
 
@@ -139,7 +139,7 @@ export const seoForDermatologistsPl = {
         h2("Dermatolog na NFZ i prywatnie: skierowanie, terminy i cennik na stronie gabinetu"),
         p("Do dermatologa na NFZ potrzebne jest skierowanie, a terminy bywają odległe, więc wielu pacjentów wpisuje od razu „dermatolog prywatnie” z nazwą miasta. Gabinet, który przyjmuje w obu trybach, potrzebuje dwóch podstron: na NFZ — jakie dokumenty zabrać, jak się zapisać, jak długo się czeka; prywatnie — cena konsultacji, wolne terminy i zapis online. Cennik podany tekstem, a nie w PDF, odpowiada na pytanie „ile kosztuje wizyta u dermatologa” i zostaje w Google. Pamiętajcie o e-recepcie i e-skierowaniu po teleporadzie — pacjenci o to pytają."),
 
-        h2("Wizytówka Google i ZnanyLekarz w pozycjonowaniu gabinetu dermatologicznego"),
+        h2("Wizytówka Google i ZnanyLekarz w pozycjonowaniu strony gabinetu dermatologicznego"),
         p("Przy „dermatolog w pobliżu” decydują Mapy Google. Liczą się kategoria główna Dermatolog, dodatkowe tylko te prawdziwe, usługi lecznicze i estetyczne opisane osobno, godziny przyjęć poszczególnych lekarzy, zdjęcia gabinetu i link do podstrony tej placówki. Gabinet z kilkoma lokalizacjami ma wizytówkę i podstronę dla każdej."),
         p(
           "ZnanyLekarz przynosi wielu gabinetom dermatologicznym rejestracje i jest wysoko w wynikach na nazwiska lekarzy. Profile prowadzę tak, żeby zakres usług, ceny i godziny były takie same jak na stronie i w wizytówce. Opinie zbieram po wizytach w Google i ZnanyLekarz; odpowiedź nigdy nie potwierdza, że autor był pacjentem, i nie wspomina o jego skórze. Szczegóły pracy nad Mapami opisuję na stronie ",
@@ -163,7 +163,7 @@ export const seoForDermatologistsPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie gabinetu dermatologicznego w ChatGPT i Google AI Overviews (GEO, AEO)"),
+        h2("Pozycjonowanie strony gabinetu dermatologicznego w ChatGPT i Google AI Overviews (GEO, AEO)"),
         p("Pacjenci pytają ChatGPT, Perplexity i podsumowania AI w Google, „gdzie w Gdańsku zrobić wideodermatoskopię”, „czy z trądzikiem różowatym iść do dermatologa czy kosmetologa”, „który dermatolog w Lublinie leczy łysienie”. Odpowiedź powstaje z porównania kilku źródeł naraz: strony gabinetu, wizytówki Google, profili w ZnanyLekarz i opinii pacjentów. Pracę nad tym nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). Dla gabinetu dermatologicznego to:"),
         li("jasno opisane choroby, badania, lekarze, języki, placówki, umowa z NFZ i ceny"),
         li("pytania, które pacjenci zadają w rejestracji, z odpowiedziami zatwierdzonymi przez lekarza"),
@@ -175,10 +175,10 @@ export const seoForDermatologistsPl = {
           ".",
         ),
 
-        h2("Ile kosztuje pozycjonowanie gabinetu dermatologicznego"),
+        h2("Ile kosztuje pozycjonowanie strony gabinetu dermatologicznego"),
         li("Audyt SEO strony, wizytówki, ZnanyLekarz i odpowiedzi AI: od 1000 zł, jednorazowo; dostajecie poprawki ułożone od najważniejszej."),
         li("Jednorazowe prace dla gabinetu — podstrony chorób skóry, badania znamion, NFZ i cennika, oznaczenia dla wyszukiwarek, naprawa błędów strony: od 1000 do 3000 zł."),
-        li("Stałe pozycjonowanie gabinetu dermatologicznego — kolejne podstrony, wizytówki, opinie, obecność w odpowiedziach AI i comiesięczny raport w umówionych wizytach: od 3500 zł miesięcznie; gabinety w dużych miastach z silną konkurencją od 5500 zł miesięcznie."),
+        li("Stałe pozycjonowanie strony gabinetu dermatologicznego — kolejne podstrony, wizytówki, opinie, obecność w odpowiedziach AI i comiesięczny raport w umówionych wizytach: od 3500 zł miesięcznie; gabinety w dużych miastach z silną konkurencją od 5500 zł miesięcznie."),
         p(
           "Pełne widełki są w ",
           link("cenniku", "/pl/cennik"),
@@ -191,16 +191,16 @@ export const seoForDermatologistsPl = {
     {
       _type: "faqBlock",
       _key: k("b"),
-      title: "Pozycjonowanie gabinetu dermatologicznego: najczęstsze pytania",
+      title: "Pozycjonowanie strony gabinetu dermatologicznego: najczęstsze pytania",
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie gabinetu dermatologicznego?", "Za audyt płacicie od 1000 zł jednorazowo, za wybrane prace od 1000 do 3000 zł, a stała współpraca kosztuje od 3500 zł miesięcznie, w dużych miastach z silną konkurencją od 5500 zł. Gdy opiszecie gabinet, placówki i choroby, przy których chcecie więcej pacjentów, podam stałą cenę."],
+          ["Ile kosztuje pozycjonowanie strony gabinetu dermatologicznego?", "Za audyt płacicie od 1000 zł jednorazowo, za wybrane prace od 1000 do 3000 zł, a stała współpraca kosztuje od 3500 zł miesięcznie, w dużych miastach z silną konkurencją od 5500 zł. Gdy opiszecie gabinet, placówki i choroby, przy których chcecie więcej pacjentów, podam stałą cenę."],
           ["Czy dermatolog może reklamować gabinet w internecie?", "Lekarz może informować o swojej pracy, a nie ją reklamować. Rzeczowa strona z opisem chorób, badań, lekarzy, cen i sposobu zapisu mieści się w informacji i dobrze pracuje w Google. Unikam obietnic efektów i porównań z innymi; w razie wątpliwości rozstrzyga izba lekarska."],
           ["Po co gabinetowi własna strona, skoro pacjenci zapisują się przez ZnanyLekarz?", "Portal pokazuje Wasz profil na liście obok innych dermatologów, a strona odpowiada pacjentowi, który szuka konkretnej choroby albo badania znamion i jeszcze nie wybrał lekarza. Strona jest też głównym źródłem faktów dla odpowiedzi AI. Rejestracja może dalej działać przez ZnanyLekarz, byle dane w obu miejscach były zgodne."],
           ["Czy pacjent może przesłać zdjęcie znamienia przez stronę?", "Nie przez zwykły formularz ani e-mail. Zdjęcie skóry to dane o zdrowiu w rozumieniu RODO i powinno trafić przez system do teleporad lub rejestracji, który zapewnia ich ochronę. To ogólna wskazówka, nie opinia prawna."],
           ["Czy dermatologia estetyczna powinna mieć osobną stronę?", "Zwykle nie: jedna strona z wyraźnie oddzieloną częścią leczniczą i estetyczną buduje wiarygodność lekarzy w jednym miejscu. Osobna strona ma sens, gdy zabiegi estetyczne działają jako odrębna klinika z własną marką."],
-          ["Ile trwa pozycjonowanie gabinetu dermatologicznego?", "Poprawki w wizytówce i w ZnanyLekarz potrafią zadziałać w kilka tygodni. Nowe podstrony chorób i badania znamion zwykle potrzebują dwóch–czterech miesięcy, w Warszawie, Krakowie czy Wrocławiu dłużej."],
+          ["Ile trwa pozycjonowanie strony gabinetu dermatologicznego?", "Poprawki w wizytówce i w ZnanyLekarz potrafią zadziałać w kilka tygodni. Nowe podstrony chorób i badania znamion zwykle potrzebują dwóch–czterech miesięcy, w Warszawie, Krakowie czy Wrocławiu dłużej."],
           ["Czy pozycjonujesz gabinety dermatologiczne w całej Polsce?", "Tak. Pracuję zdalnie z Warszawy, a dane wyszukiwań sprawdzam dla Waszego miasta i miejscowości, z których dojeżdżają pacjenci. W mniejszych miastach często wystarczy kilka dobrych podstron i porządna wizytówka, żeby gabinet był pierwszy przy swoich chorobach i badaniach."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -209,7 +209,7 @@ export const seoForDermatologistsPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Zamów pozycjonowanie gabinetu dermatologicznego: co mi wysłać"),
+        h2("Zamów pozycjonowanie strony gabinetu dermatologicznego: co mi wysłać"),
         p(
           "Potrzebuję nazwy gabinetu, adresu strony, linków do wizytówek i profili lekarzy w ZnanyLekarz, listy chorób i badań, przy których chcecie mieć więcej pacjentów, informacji, czy przyjmujecie na NFZ i czy macie część estetyczną, a także miasta i placówek. Bez danych pacjentów. W odpowiedzi napiszę, od czego zacząłbym pracę i ile to będzie kosztować. Skorzystajcie z ",
           link("formularza powyżej", "#quote"),

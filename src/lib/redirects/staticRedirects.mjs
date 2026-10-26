@@ -10,6 +10,34 @@
 // Static entries take precedence over dynamic ones (first-match wins in Next.js).
 // ──────────────────────────────────────────────────────────────────────────────
 export const STATIC_REDIRECTS = [
+
+  // Polish SEO pages renamed to the owner's form «pozycjonowanie strony X» (27.10.2026,
+  // scripts/rename-pl-seo-slugs.cjs). The old slugs were live for 1–6 days.
+  { source: '/pl/pozycjonowanie-biura-podrozy', destination: '/pl/pozycjonowanie-strony-biura-podrozy', permanent: true },
+  { source: '/pl/pozycjonowanie-domu-opieki', destination: '/pl/pozycjonowanie-strony-domu-opieki', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-bram-garazowych', destination: '/pl/pozycjonowanie-strony-firmy-bram-garazowych', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-budujacej-domy', destination: '/pl/pozycjonowanie-strony-firmy-budujacej-domy', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-ddd', destination: '/pl/pozycjonowanie-strony-firmy-ddd', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-montazu-podlog', destination: '/pl/pozycjonowanie-strony-firmy-montazu-podlog', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-odbiorow-mieszkan', destination: '/pl/pozycjonowanie-strony-firmy-odbiorow-mieszkan', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-osuszania-po-zalaniu', destination: '/pl/pozycjonowanie-strony-firmy-osuszania-po-zalaniu', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-prania-dywanow', destination: '/pl/pozycjonowanie-strony-firmy-prania-dywanow', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-przeprowadzkowej', destination: '/pl/pozycjonowanie-strony-firmy-przeprowadzkowej', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-wycinki-drzew', destination: '/pl/pozycjonowanie-strony-firmy-wycinki-drzew', permanent: true },
+  { source: '/pl/pozycjonowanie-firmy-wywozu-gruzu', destination: '/pl/pozycjonowanie-strony-firmy-wywozu-gruzu', permanent: true },
+  { source: '/pl/pozycjonowanie-gabinetu-dermatologicznego', destination: '/pl/pozycjonowanie-strony-gabinetu-dermatologicznego', permanent: true },
+  { source: '/pl/pozycjonowanie-gabinetu-fizjoterapii', destination: '/pl/pozycjonowanie-strony-gabinetu-fizjoterapii', permanent: true },
+  { source: '/pl/pozycjonowanie-gabinetu-ortodontycznego', destination: '/pl/pozycjonowanie-strony-gabinetu-ortodontycznego', permanent: true },
+  { source: '/pl/pozycjonowanie-kliniki-medycyny-estetycznej', destination: '/pl/pozycjonowanie-strony-kliniki-medycyny-estetycznej', permanent: true },
+  { source: '/pl/pozycjonowanie-kwiaciarni', destination: '/pl/pozycjonowanie-strony-kwiaciarni', permanent: true },
+  { source: '/pl/pozycjonowanie-projektanta-wnetrz', destination: '/pl/pozycjonowanie-strony-projektanta-wnetrz', permanent: true },
+  { source: '/pl/pozycjonowanie-restauracji', destination: '/pl/pozycjonowanie-strony-restauracji', permanent: true },
+  { source: '/pl/pozycjonowanie-salonu-optycznego', destination: '/pl/pozycjonowanie-strony-salonu-optycznego', permanent: true },
+  { source: '/pl/pozycjonowanie-salonu-samochodowego', destination: '/pl/pozycjonowanie-strony-salonu-samochodowego', permanent: true },
+  { source: '/pl/pozycjonowanie-serwisu-agd', destination: '/pl/pozycjonowanie-strony-serwisu-agd', permanent: true },
+  { source: '/pl/pozycjonowanie-silowni', destination: '/pl/pozycjonowanie-strony-silowni', permanent: true },
+  { source: '/pl/pozycjonowanie-winnicy', destination: '/pl/pozycjonowanie-strony-winnicy', permanent: true },
+  { source: '/pl/pozycjonowanie-wypozyczalni-samochodow', destination: '/pl/pozycjonowanie-strony-wypozyczalni-samochodow', permanent: true },
   // Orphan blog URL — no blog document exists with this slug; the correct page is under /portfolio/.
   // Google had it indexed at position ~95 from a previous crawl; redirect closes the loop.
   { source: '/blog/build-and-optimize-a-multilingual-real-estate-platform',    destination: '/portfolio/build-and-optimize-a-multilingual-real-estate-platform',    permanent: true },

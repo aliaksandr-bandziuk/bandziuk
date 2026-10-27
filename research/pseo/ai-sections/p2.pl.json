@@ -1,0 +1,128 @@
+[
+  {
+    "id": "6d8ed7b1-9fac-49b9-b25f-632f52e94ae3",
+    "slug": "seo-salonu-kosmetycznego",
+    "heading": "Pozycjonowanie strony salonu kosmetycznego w AI: jak klientki trafiają do salonu przez ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Klientka, która nie wie jeszcze, jakiego zabiegu potrzebuje, coraz częściej opisuje problem asystentowi: „Co pomoże na przebarwienia po lecie i gdzie w Łodzi zrobię peeling chemiczny?”, „Ile kosztuje mezoterapia igłowa w Katowicach i jak długo goi się skóra?”, „Który salon w Lublinie robi depilację laserową przy ciemnej karnacji?”. W odpowiedzi dostaje poradę i kilka nazw salonów." },
+      { "type": "p", "text": "GEO to dbanie o to, żeby Twój salon znalazł się wśród tych nazw, a AEO — żeby opis zabiegu nadawał się do przytoczenia jako gotowa odpowiedź. Asystent musi przeczytać:" },
+      { "type": "li", "text": "cennik zapisany tekstem, a nie jako zdjęcie ulotki czy grafika z Instagrama — ceny z obrazka asystent zwykle nie odczyta;" },
+      { "type": "li", "text": "dane strukturalne BeautySalon (albo DaySpa, jeśli tak wygląda Twoje miejsce) z adresem, godzinami otwarcia, priceRange i katalogiem usług w hasOfferCatalog;" },
+      { "type": "li", "text": "identyczne nazwy zabiegów, ceny i godziny w Profilu Firmy w Google, na Booksy i w opisie na Instagramie — przy rozbieżności nie wiadomo, która cena jest aktualna;" },
+      { "type": "li", "text": "odpowiedzi na pytania z rezerwacji, prostym językiem: czy zabieg boli, kiedy wrócić do makijażu, jak przygotować skórę, czy pierwsza wizyta zaczyna się od konsultacji." },
+      { "type": "p", "text": "Na starcie i po wdrożeniu zmian zadaję trzem asystentom — ChatGPT, Perplexity i Google AI Overviews — identyczne pytania o zabiegi w Twoim mieście i porównuję, czy salon się pojawia i jak jest opisany; miejsca w takiej odpowiedzi nikt uczciwie nie obieca. Krok po kroku opisuję tę pracę na stronie [pozycjonowanie w ChatGPT i Google AI Overviews](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-usa.pl",
+    "slug": "pozycjonowanie-na-rynek-amerykanski",
+    "heading": "Pozycjonowanie strony na rynek amerykański w AI: widoczność w ChatGPT i Google AI Overviews dla kupujących z USA (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Amerykański klient, także firmowy, coraz częściej zaczyna od asystenta, z miastem albo strefą czasową w pytaniu: „Which European furniture maker ships solid oak dining tables to Chicago, and how long does delivery take?”, „Nearshore QA testing company that overlaps with Eastern Time until 1 pm — who has good reviews on Clutch?”. Polska firma trafi do takiej odpowiedzi tylko z konkretami podanymi na stronie po angielsku." },
+      { "type": "p", "text": "GEO oznacza, że Wasza strona staje się jednym ze źródeł odpowiedzi asystenta, a AEO — że na konkretne pytanie ma konkretną, cytowalną odpowiedź. Asystent musi znaleźć:" },
+      { "type": "li", "text": "fakty tekstem, nie w PDF-ie: ceny lub widełki w USD, strefy czasowe pracy (ET, CT, PT), obsługiwane stany lub aglomeracje, czas dostawy i Incoterms;" },
+      { "type": "li", "text": "dane strukturalne Organization z areaServed dla konkretnych stanów lub miast, ProfessionalService albo Product z Offer w USD i wersję en-US z hreflangiem, jeśli istnieje też brytyjska;" },
+      { "type": "li", "text": "ten sam opis firmy w Google Business Profile, Bing Places oraz na Clutch, G2 lub Trustpilot — z identyczną nazwą, zakresem usług i osobami przedstawionymi z imienia i nazwiska;" },
+      { "type": "li", "text": "odpowiedzi w amerykańskim angielskim: na jakim prawie opiera się umowa, jak rozliczacie się w dolarach, kto odbiera telefon o 9 rano czasu chicagowskiego." },
+      { "type": "p", "text": "Przed startem i po kilku miesiącach pracy zadaję Google AI Overviews, ChatGPT i Perplexity pytania osadzone w wybranych aglomeracjach i zapisuję, czy Wasza firma pada w odpowiedziach i jak jest opisana. Zakres i przebieg tej usługi opisuję na stronie [pozycjonowanie w ChatGPT i wyszukiwarkach AI](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-australia.pl",
+    "slug": "pozycjonowanie-na-rynek-australijski",
+    "heading": "Pozycjonowanie stron na rynek australijski w AI: firma w odpowiedziach ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Australijski kupujący pyta asystenta z nazwą kraju lub miasta, bo zakłada, że dostawca może być daleko: „Which overseas web agency works with Australian clients during AEST business hours and quotes in AUD?”, „Is there a European maker of commercial kitchen equipment that ships to Perth and helps with import paperwork?”. Wymienieni zostaną ci, o których asystent może napisać, że naprawdę obsługują Australię." },
+      { "type": "p", "text": "W skrócie: GEO to praca nad tym, żeby asystent miał z czego ułożyć zdanie o Waszej firmie, a AEO — żeby dało się je wziąć ze strony bez przeróbek. Musi przeczytać:" },
+      { "type": "li", "text": "ceny w AUD z informacją, czy obejmują GST, godziny kontaktu w AEST i AWST, miasta, w których macie klientów, i czas wysyłki lub wdrożenia;" },
+      { "type": "li", "text": "dane strukturalne Organization lub ProfessionalService z areaServed dla Australii i głównych aglomeracji, Offer w AUD i wersję en-AU spiętą hreflangiem z en-GB i en-US;" },
+      { "type": "li", "text": "zgodne dane tam, gdzie australijski klient Was sprawdzi: w profilu firmy w Google, Bing Places, na Trustpilot, ProductReview.com.au lub w Yellow Pages Australia;" },
+      { "type": "li", "text": "odpowiedzi w australijskiej angielszczyźnie na pytania o współpracę na odległość, ułożone jako pytanie i odpowiedź, np. „How do you handle support across time zones?” albo „Do you invoice in Australian dollars?”." },
+      { "type": "p", "text": "Zanim zacznę i po wdrożeniu pytam Google AI Overviews, Perplexity i ChatGPT o to samo, z Australią lub konkretnym miastem w pytaniu, i porównuję, czy i jak opisują Waszą firmę. Całość usługi przedstawiam na stronie [widoczność w ChatGPT i wyszukiwaniu AI](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-germany.pl",
+    "slug": "pozycjonowanie-na-rynek-niemiecki",
+    "heading": "Pozycjonowanie strony na rynek niemiecki w AI: obecność w niemieckojęzycznych odpowiedziach ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Niemiecki kupujący pyta asystenta po niemiecku i od razu z warunkami: „Welcher Hersteller aus Polen fertigt Holzfenster nach Maß und liefert nach Bayern?”, „Polnische Agentur für Shopware-Projekte mit deutschsprachigem Ansprechpartner — wer ist empfehlenswert?”, „Was kostet Stahlbau aus Polen inklusive Lieferung nach NRW?”. Dla polskiej firmy to okazja, jeśli odpowiedź istnieje po niemiecku." },
+      { "type": "p", "text": "GEO oznacza staranie, by model uwzględnił Waszą firmę, kiedy pisze odpowiedź, a AEO — przygotowanie podstron tak, żeby jedno ich zdanie odpowiadało na jedno pytanie. Asystent pytany po niemiecku musi przeczytać:" },
+      { "type": "li", "text": "fakty po niemiecku: pełne Impressum z numerem VAT UE, ceny lub widełki w euro netto, obszar dostaw w Niemczech, terminy realizacji oraz normy albo certyfikaty, które spełnia Wasz produkt;" },
+      { "type": "li", "text": "dane strukturalne Organization z adresem w Polsce i areaServed „DE”, Product lub Service z Offer w EUR oraz hreflang de-DE, a także de-AT czy de-CH, jeśli sprzedajecie w Austrii lub Szwajcarii;" },
+      { "type": "li", "text": "te same nazwy, adres i zakres oferty w profilu firmy w Google, na wer liefert was, Europages i Kompass, a opinie tam, gdzie Niemcy je czytają: na ProvenExpert lub Trustpilot;" },
+      { "type": "li", "text": "odpowiedzi na pytania niemieckiego działu zakupów, pisane po niemiecku od pierwszego zdania: Mindestmenge, Lieferzeit, Gewährleistung i kto po niemiecku prowadzi reklamację." },
+      { "type": "p", "text": "Przed pierwszą zmianą i po wdrożeniu zadaję ChatGPT, Google AI Overviews i Perplexity niezmienny zestaw niemieckich pytań i notuję, czy Wasza firma jest w odpowiedzi, obok jakich konkurentów i z jakim opisem. Usługę w całości opisuję na stronie [pozycjonowanie strony w AI](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-lingerie-seo.pl",
+    "slug": "pozycjonowanie-strony-producenta-bielizny",
+    "heading": "Pozycjonowanie strony producenta bielizny w AI: widoczność u kupujących hurtowych w ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Kupujący hurtowy opisuje asystentowi wymaganie, nie fason, i robi to w swoim języku: „Lingerie manufacturer in Poland that does private label bras from 300 pieces per style?”, „Hersteller für Shapewear in der EU mit OEKO-TEX-Zertifikat und Lieferzeit unter acht Wochen?”, „Która szwalnia w Polsce uszyje pod naszą marką biustonosze w dużych rozmiarach miseczek?”." },
+      { "type": "p", "text": "GEO to praca nad tym, żeby Wasza szwalnia trafiła do zestawienia asystenta, a AEO — żeby strona podawała parametry produkcji słowami kupujących. Asystent musi przeczytać o producencie:" },
+      { "type": "li", "text": "parametry produkcji tekstem: minimum na fason i kolor, czas od zatwierdzenia próbki do wysyłki, zakres rozmiarów i miseczek, rodzaje wyrobów i to, czy szyjecie pod marką klienta;" },
+      { "type": "li", "text": "dane strukturalne Organization z certyfikatami w hasCertification i krajami eksportu w areaServed oraz Product z materiałem, rozmiarami i sizeSystem dla modeli pokazanych w katalogu;" },
+      { "type": "li", "text": "ten sam opis firmy na Europages, w Kompass, na LinkedIn i w katalogach wystawców targów, na które jeździcie — z minimami i certyfikatami zgodnymi ze stroną;" },
+      { "type": "li", "text": "odpowiedzi na pytania zaopatrzeniowców w językach Waszych rynków eksportowych: ile kosztuje i jak długo trwa próbka, czy klient może dostarczyć własną tkaninę, jak wygląda kontrola jakości przed wysyłką." },
+      { "type": "p", "text": "Na początku i po wdrożeniu pytam Perplexity, ChatGPT i Google AI Overviews o dostawców bielizny tak jak kupujący — po polsku i w językach eksportowych — i sprawdzam, czy pada w odpowiedziach Wasza nazwa razem z Waszymi parametrami. Co dokładnie obejmuje ta usługa, opisuje strona [optymalizacja pod ChatGPT i asystentów AI](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "service-local-seo.pl",
+    "slug": "pozycjonowanie-lokalne",
+    "heading": "Pozycjonowanie lokalne i wyszukiwanie AI: jak firma z adresem trafia do ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Część pytań, które trafiały do bloku mapy, ludzie zadają dziś asystentowi pełnym zdaniem: „Który weterynarz we Wrzeszczu przyjmuje w niedzielę?”, „Gdzie w Poznaniu wymienią baterię w iPhonie od ręki?”, „Która pralnia w Krakowie odbiera dywany z domu?”. Zamiast trzech pinezek jest akapit z dwiema, trzema nazwami i powodem wyboru." },
+      { "type": "p", "text": "GEO to wejście do takiego akapitu, AEO — przygotowanie strony tak, żeby odpowiedź o godzinach, zasięgu czy cenie leżała na niej gotowa do przytoczenia. O firmie z adresem asystent musi przeczytać:" },
+      { "type": "li", "text": "fakty, które rozstrzygają pytanie z miejscem w środku: godziny z wyjątkami świątecznymi, obszar dojazdu, czas oczekiwania na termin, formy płatności, parking i dostęp dla wózków — na stronie, nie tylko w profilu;" },
+      { "type": "li", "text": "dane strukturalne LocalBusiness w najwęższym pasującym typie, np. VeterinaryCare, Dentist czy AutoRepair, z geo, openingHoursSpecification i areaServed zgodnymi z profilem;" },
+      { "type": "li", "text": "jednakowe dane w Profilu Firmy w Google, Bing Places, Apple Business Connect i Panoramie Firm — tę samą spójność, która waży w wynikach lokalnych, czytają teraz także asystenci;" },
+      { "type": "li", "text": "odpowiedzi na pytania klientów z okolicy zapisane na stronie, nie w odpowiedziach na opinie: czy trzeba się umawiać, co zabrać na pierwszą wizytę, czy dojeżdżacie do sąsiedniej gminy." },
+      { "type": "p", "text": "Przed rozpoczęciem pracy i po niej sprawdzam, co mówią o Waszej firmie Perplexity, Google AI Overviews i ChatGPT, pytane w tym samym brzmieniu z nazwą dzielnicy lub miasta — gwarancji obecności nie ma, tak jak na mapie. Na czym polega ta usługa, opisuję na stronie [pozycjonowanie w asystentach AI](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-ecommerce-seo.pl",
+    "slug": "pozycjonowanie-sklepow-internetowych",
+    "heading": "Pozycjonowanie strony sklepu internetowego w AI: produkty i oferta sklepu w odpowiedziach ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Kupujący coraz częściej prosi asystenta o wybór, a nie o listę sklepów: „Jakie buty do biegania po asfalcie do 400 zł dla osoby ważącej 90 kg?”, „Który ekspres kolbowy do 2000 zł ma wbudowany młynek i gdzie jest dostępny z dostawą jutro?”, „Gdzie kupię fotelik i-Size z 30 dniami na zwrot?”." },
+      { "type": "p", "text": "GEO dotyczy tego, czy Wasz sklep trafi do takiej rekomendacji, AEO — czy karta produktu i kategoria mówią coś, co asystent powtórzy jednym zdaniem. Z katalogu musi wyczytać:" },
+      { "type": "li", "text": "fakty tekstem przy produkcie: cenę, dostępność, czas i koszt dostawy, zasady zwrotu i parametry, o które ludzie pytają — w opisie karty, a nie tylko w filtrach i ikonach;" },
+      { "type": "li", "text": "dane strukturalne Product z Offer (price, availability), shippingDetails i hasMerchantReturnPolicy, a AggregateRating wyłącznie z opinii zebranych naprawdę w sklepie;" },
+      { "type": "li", "text": "te same ceny i stany w pliku produktowym Google Merchant Center, na Ceneo i Allegro, a opinie o sklepie w Opineo lub Trusted Shops — przy dwóch cenach nie wiadomo, którą asystent zacytuje;" },
+      { "type": "li", "text": "odpowiedzi na pytania posprzedażowe na karcie: jak długo trwa gwarancja i gdzie się ją zgłasza, czy są części zamienne, ile trwa montaż." },
+      { "type": "p", "text": "Przed wdrożeniem i po nim zadaję Perplexity, Google AI Overviews i ChatGPT stały zestaw pytań zakupowych z Waszych kategorii i sprawdzam, które sklepy padają w odpowiedziach. Podobnie zbudowałem własne badanie opisane na blogu: 47 pytań zakupowych do ChatGPT, Perplexity i Google AI Mode, 141 przeanalizowanych odpowiedzi. Usługę opisuję na stronie [pozycjonowanie w ChatGPT, Perplexity i AI Overviews](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "service-international-seo.pl",
+    "slug": "seo-miedzynarodowe",
+    "heading": "SEO międzynarodowe w AI: pozycjonowanie stron wielojęzycznych w ChatGPT i Google AI Overviews na każdym rynku (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Każdy rynek pyta asystenta we własnym języku: francuski kupujący wpisze „Quel fabricant européen livre du mobilier de bureau en France en moins de trois semaines ?”, holenderski — „Welk Pools softwarebedrijf bouwt webshops met een Nederlandstalige projectmanager?”, a włoski — „Quale azienda polacca produce imballaggi in cartone su misura per l'Italia?”." },
+      { "type": "p", "text": "GEO to obecność w odpowiedziach generowanych przez AI, AEO — treść, z której odpowiedź da się wziąć wprost; przy kilku rynkach robi się to osobno w każdym języku. Asystent musi przeczytać:" },
+      { "type": "li", "text": "fakty dla każdego kraju w jego języku: ceny w lokalnej walucie, koszt i czas dostawy, kraje, do których sprzedajecie, język obsługi — a nie jedną angielską podstronę „International”;" },
+      { "type": "li", "text": "dane strukturalne Organization z areaServed dla każdego kraju, Offer z właściwą priceCurrency, inLanguage na podstronach i poprawny hreflang między wersjami;" },
+      { "type": "li", "text": "ten sam opis firmy w każdej wersji językowej na Europages i Kompass, w Google Business Profile i na Trustpilot — ze zgodną nazwą i ofertą;" },
+      { "type": "li", "text": "odpowiedzi na pytania właściwe dla każdego kraju — o fakturę z numerem VAT UE, termin dostawy, gwarancję — napisane w tym języku, nie przełożone z polskiego." },
+      { "type": "p", "text": "Przed startem i po wdrożeniu sprawdzam w ChatGPT, Perplexity i Google AI Overviews, jak opisują Waszą firmę w każdym języku osobno, i porównuję rynek po rynku. Na zbudowanej przeze mnie stronie psychoterapeuty z Mediolanu nowe podstrony pojawiają się już w odpowiedziach ChatGPT. Szczegóły tej pracy opisuję na stronie [pozycjonowanie w AI: GEO i AEO](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-technical-seo.pl",
+    "slug": "seo-techniczne",
+    "heading": "SEO techniczne pod roboty AI: strona czytelna dla ChatGPT, Perplexity i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Twój klient pyta Perplexity: „Ile kosztuje wdrożenie systemu rezerwacji dla hotelu na 40 pokoi?”, a ChatGPT: „Która firma w Polsce podpisze umowę serwisową na pompę ciepła w domu jednorodzinnym?”. Odpowiedź powstaje wyłącznie z tych stron, które robot zdołał pobrać i przeczytać." },
+      { "type": "p", "text": "GEO i AEO polegają na tym, żeby Twoja strona była źródłem takich odpowiedzi i żeby dało się z niej wyjąć gotowe zdanie — obie zaczynają się od pytania, czy robot w ogóle widzi treść. Technicznie asystent musi móc przeczytać:" },
+      { "type": "li", "text": "treść, ceny i kontakt w HTML-u wysłanym z serwera, a nie dociągane skryptem — część robotów AI nie wykonuje JavaScriptu, więc tekst w zakładkach ładowanych po kliknięciu dla nich nie istnieje;" },
+      { "type": "li", "text": "dane strukturalne zgodne z widoczną treścią — Organization, BreadcrumbList, Product lub Service z Offer, Article z datą aktualizacji — generowane z CMS-u razem z tekstem, a nie wklejone raz na zawsze;" },
+      { "type": "li", "text": "spójne sygnały techniczne: jeden adres kanoniczny, sitemap z prawdziwym lastmod, robots.txt, który nie blokuje OAI-SearchBot, PerplexityBot ani Googlebota, i dane firmy zgodne z Profilem Firmy w Google;" },
+      { "type": "li", "text": "bezpośrednie odpowiedzi w kodzie: nagłówek z pytaniem, pod nim pierwsze zdanie z odpowiedzią, a FAQ jako zwykły tekst w HTML-u, nie w widżecie z zewnętrznego skryptu." },
+      { "type": "p", "text": "Przed poprawkami i po wdrożeniu sprawdzam w logach serwera, które roboty AI odwiedzają stronę, i zadaję ChatGPT, Perplexity oraz Google AI Overviews te same pytania o Twoją ofertę. Pracę nad widocznością w asystentach AI opisuję osobno na stronie [pozycjonowanie w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  }
+]

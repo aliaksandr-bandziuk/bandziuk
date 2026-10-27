@@ -1,0 +1,128 @@
+[
+{
+"id": "5869ba72-348b-498e-b419-861e52ccb6ef",
+"slug": "seo-for-beauty-salons",
+"heading": "AI SEO for beauty salons: getting found in ChatGPT and Google AI Overviews (GEO, AEO)",
+"blocks": [
+{ "type": "p", "text": "More clients now ask an assistant before they open a booking app: “Which salon near me does a lash lift after 7 pm?”, “Who does balayage on dark hair without it turning orange, and for how much?” GEO and AEO simply mean shaping your site and profiles so that ChatGPT or Google’s AI can pick your salon out and mention it in that short answer. For that, an assistant needs to read:" },
+{ "type": "li", "text": "Every treatment as text: duration, a price or a “from” price, the technique and which stylist offers it, not only a price list photographed for Instagram." },
+{ "type": "li", "text": "BeautySalon, HairSalon or NailSalon markup with address, opening hours and services, so the hours an assistant repeats are the ones on your door." },
+{ "type": "li", "text": "Identical name, hours and treatment names on Google Business Profile, Booksy, Bing Places and Instagram; a salon open on Booksy but closed on Google gives an assistant two answers to choose from." },
+{ "type": "li", "text": "Short answers on each service page to what clients ask at the desk: how long a lash lift lasts, whether a patch test is needed." },
+{ "type": "p", "text": "Before I change anything, I put the same booking-style questions about your area to ChatGPT, Perplexity and Google AI Overviews and note whether your salon comes up and how it is described; once the work is live, I repeat exactly those questions." },
+{ "type": "p", "text": "How this works in more detail is on the [AI search optimization page](/services/ai-ready-seo-and-geo-optimization)." }
+]
+},
+{
+"id": "singlepage-seo-australia",
+"slug": "seo-for-australian-market",
+"heading": "AI SEO for the Australian market: visibility in ChatGPT, Perplexity and Google AI Overviews (GEO, AEO)",
+"blocks": [
+{ "type": "p", "text": "Australian buyers increasingly put the service-area question to an assistant: “Which software studios in Europe work with Sydney clients and overlap with AEST hours?”, “Is there a European lab equipment supplier that ships to Brisbane and quotes in AUD including GST?” In plain words, GEO and AEO make a company easy for an AI model to describe correctly when the question names Australia, instead of hoping a generic English page stretches that far. What an assistant needs to find:" },
+{ "type": "li", "text": "Facts on the page itself: the states or cities you deliver to, prices in AUD with GST treatment stated, support hours in AEST or AWST." },
+{ "type": "li", "text": "Organization or ProfessionalService markup whose areaServed lists Australia and your metros, plus an en-AU hreflang version if the site also serves other English-speaking markets." },
+{ "type": "li", "text": "The same company name, contacts and service description on Google Business Profile, LinkedIn and the review platforms Australians look at, such as Trustpilot, or Clutch for agencies." },
+{ "type": "li", "text": "Direct answers in Australian English to what buyers here want settled first: who they will deal with, when they can reach you, how invoicing works." },
+{ "type": "p", "text": "I start by putting Australia-specific buyer questions to Perplexity, ChatGPT and Google’s AI Overviews and keeping what they say about you; after the changes go live I ask again, so the difference is visible rather than assumed." },
+{ "type": "p", "text": "The full method is on the page about [GEO and AI SEO optimization](/services/ai-ready-seo-and-geo-optimization)." }
+]
+},
+{
+"id": "singlepage-seo-germany",
+"slug": "seo-for-german-market",
+"heading": "AI SEO for the German market: GEO and AEO for German-language ChatGPT answers and Google AI Overviews",
+"blocks": [
+{ "type": "p", "text": "A German buyer asks the assistant in German, and narrowly: a purchasing manager in Stuttgart asking which supplier of CNC-milled parts delivers within two weeks, or a practice owner in Cologne asking which booking software keeps patient data on EU servers. GEO and AEO cover what it takes for an AI model to find your company in German-language sources, trust the details and repeat them. That depends on four things:" },
+{ "type": "li", "text": "Company facts in German as text: legal name, address, VAT ID and a full Impressum, delivery times, payment terms, and certifications such as ISO 9001 where you hold them." },
+{ "type": "li", "text": "Organization markup with the same legal details, Product or Service markup for what you sell, and hreflang marking the German version as de-DE, or plain de if Austria and Switzerland are in scope." },
+{ "type": "li", "text": "Matching entries in the B2B directories German buyers use, such as Wer liefert was, Europages and Kompass, and on Google Business Profile, down to the spelling of the company name." },
+{ "type": "li", "text": "Answers in German to procurement questions: minimum order, lead times, warranty, whether a German-speaking contact is available." },
+{ "type": "p", "text": "Before the work starts I ask ChatGPT, Perplexity and Google AI Overviews, in German, what your buyers would ask and save how each describes you; once the changes are indexed, I ask word for word again and compare." },
+{ "type": "p", "text": "What else goes into this, beyond the German market, is covered under [AI-ready SEO and GEO optimization](/services/ai-ready-seo-and-geo-optimization)." }
+]
+},
+{
+"id": "singlepage-seo-usa",
+"slug": "seo-for-us-market",
+"heading": "AI search for the US market: getting named in Google AI Overviews, ChatGPT and Perplexity (GEO, AEO)",
+"blocks": [
+{ "type": "p", "text": "In the US, the narrowing described above often happens inside the buyer’s question: “Which commercial cleaning companies serve the Denver metro and carry liability insurance?”, “Which HIPAA-compliant scheduling tools cost under $200 a month?” The plain-English version of GEO and AEO: make your company the clear, unambiguous answer an AI model can repeat to that kind of question. An assistant can only do that if it reads:" },
+{ "type": "li", "text": "Facts spelled out on the page: the metros or states you serve, starting prices in dollars, licenses and insurance where your trade requires them, and the names of the people doing the work." },
+{ "type": "li", "text": "LocalBusiness or Organization markup with areaServed per metro, Person markup for named staff, and sameAs links pointing at your review profiles." },
+{ "type": "li", "text": "One version of your details on Google Business Profile, Yelp, the Better Business Bureau and Apple Business Connect, and for B2B services on Clutch or G2, where an assistant can find outside confirmation of what your site says." },
+{ "type": "li", "text": "Direct answers in American English to what buyers ask before they call: cost ranges, turnaround, contract length, whether you work in their state." },
+{ "type": "p", "text": "Ahead of any changes, I run your buyers’ questions metro by metro through ChatGPT, Perplexity and Google AI Overviews and record which companies get named; after launch, the identical questions show whether yours has joined that list." },
+{ "type": "p", "text": "My [AI search optimization service](/services/ai-ready-seo-and-geo-optimization) explains the rest of the method." }
+]
+},
+{
+"id": "singlepage-ecommerce-seo",
+"slug": "ecommerce-seo-services",
+"heading": "Ecommerce SEO for AI shopping answers: products recommended by ChatGPT and Google AI Overviews (GEO, AEO)",
+"blocks": [
+{ "type": "p", "text": "Shoppers now ask an assistant to do the shortlisting: “Best trail running shoes for wide feet under $120?”, “Which standing desk ships to Poland within a week with free returns?” Put plainly, GEO and AEO give an AI model enough clear, checkable product information to recommend your store and send the click to the right category or product page. For a catalogue that means:" },
+{ "type": "li", "text": "Price, stock status, delivery cost and time, and the returns window written as text on product pages, not revealed only in the cart or at checkout." },
+{ "type": "li", "text": "Product + Offer markup with price, currency, availability, shipping details and return policy, generated from the same data as the visible page so the two never disagree." },
+{ "type": "li", "text": "The same product names, prices and stock across your Google Merchant Center feed and the marketplaces you list on, such as Amazon or Allegro, with store reviews on Trustpilot describing the same shop." },
+{ "type": "li", "text": "Buying-guide answers on category pages, phrased the way shoppers ask assistants: which model for which use, whether one option is worth the extra money over another." },
+{ "type": "p", "text": "I test the same shopping questions in ChatGPT, Perplexity and Google AI Overviews before and after the changes and note which stores and products they name, the approach behind my published study of 47 buying questions and 141 assistant answers." },
+{ "type": "p", "text": "The rest of the work is set out on the [AI-ready SEO and GEO page](/services/ai-ready-seo-and-geo-optimization)." }
+]
+},
+{
+"id": "service-international-seo",
+"slug": "international-seo",
+"heading": "International SEO and AI search: visibility in ChatGPT and Google AI Overviews in every language (GEO, AEO)",
+"blocks": [
+{ "type": "p", "text": "Buyers abroad ask assistants in their own language and name their own country: a facilities manager in Lyon asking, in French, which flooring contractors work in France with a French-speaking project lead; a buyer in Rotterdam asking, in Dutch, for a European software vendor that invoices in euros. GEO and AEO, in short, make each language version a source an AI model can quote with confidence, not just the version you wrote first. Each market needs:" },
+{ "type": "li", "text": "Facts restated in every language version rather than left in the original: markets served, currency, delivery or service terms per country, and the languages your team supports." },
+{ "type": "li", "text": "Organization markup with areaServed per country and inLanguage on each version, resting on a correct hreflang cluster so an assistant can tell which page belongs to which market." },
+{ "type": "li", "text": "Consistent company details in the directories each market uses: Europages and Kompass across Europe, Google Business Profile wherever you have an address, LinkedIn in the languages you sell in." },
+{ "type": "li", "text": "Direct answers built on that market’s own query research, so the French page answers what French buyers ask, not a translation of what English-speaking buyers ask." },
+{ "type": "p", "text": "I query ChatGPT, Perplexity and Google AI Overviews in each language with the same local questions before and after the work, and compare the answers market by market rather than as one pooled result." },
+{ "type": "p", "text": "How I approach this outside international projects is explained under [GEO and AI search optimization](/services/ai-ready-seo-and-geo-optimization)." }
+]
+},
+{
+"id": "service-local-seo",
+"slug": "local-seo-services",
+"heading": "Local SEO and AI search: getting your business named in Google AI Overviews and ChatGPT (GEO, AEO)",
+"blocks": [
+{ "type": "p", "text": "Nearby customers now ask an assistant the way they would ask a neighbor: “Which dentist near Mokotów takes emergency patients on a Saturday?”, “Who can fix a leaking boiler today in Wola?” GEO and AEO, said simply, give AI models enough reliable local facts about your business to name it in that one-paragraph answer. For a business with an address, that means:" },
+{ "type": "li", "text": "Opening hours, services, price ranges, parking, payment options and the languages your staff speak, written on the site and not only on the profile." },
+{ "type": "li", "text": "A LocalBusiness subtype that fits your trade, such as Dentist, AutoRepair or Plumber, with address, geo coordinates, opening hours and areaServed matching the visible page." },
+{ "type": "li", "text": "The same details on Google Business Profile, Bing Places and Apple Business Connect, plus the one or two directories your trade relies on; the last two profiles are the ones owners most easily forget to claim." },
+{ "type": "li", "text": "Answers to what people phone in about, such as whether booking is needed, how long a job takes and whether you come to their district, on the service pages themselves." },
+{ "type": "p", "text": "Before and after the work I check whether ChatGPT, Perplexity and Google AI Overviews mention your business, and how, when asked what a customer a few streets away would ask; as with the map, nobody can guarantee a place in those answers." },
+{ "type": "p", "text": "The method behind this is laid out on my [AI visibility and GEO page](/services/ai-ready-seo-and-geo-optimization)." }
+]
+},
+{
+"id": "singlepage-shopify-seo",
+"slug": "shopify-seo-services",
+"heading": "Shopify SEO for AI shopping assistants: getting products into ChatGPT and Google AI Overviews (GEO, AEO)",
+"blocks": [
+{ "type": "p", "text": "People ask assistants for products, not platforms: “A vegan leather backpack under €150 that ships to Germany?”, “Which small brand sells refillable deodorant with free shipping over €40?” GEO and AEO make your store an obvious answer for an AI model: product facts it can read, trust and repeat with a link. On a Shopify store, an assistant has to be able to read:" },
+{ "type": "li", "text": "Materials, sizes, care and shipping details in the product description itself, not in a tab an app loads after the page renders or in an image a crawler cannot read." },
+{ "type": "li", "text": "A single Product + Offer block per product with price, currency and availability, including the per-country prices Shopify Markets shows, so markup and page quote the same figure." },
+{ "type": "li", "text": "Identical titles, prices and stock in the Merchant Center feed sent by the Google & YouTube app, in the Shop app and on any marketplace you sell on, and Trustpilot naming the same store." },
+{ "type": "li", "text": "Collection intros and product FAQs answering what shoppers type into assistants, such as fit, materials and delivery time to their country, plus a robots.txt.liquid that lets in the AI crawlers you want." },
+{ "type": "p", "text": "I run a list of shopping questions from your category in Perplexity, ChatGPT and Google AI Overviews before touching the theme and again once the fixes are live, and show you which products came up each time." },
+{ "type": "p", "text": "The rest is on my [AI search visibility service](/services/ai-ready-seo-and-geo-optimization) page." }
+]
+},
+{
+"id": "singlepage-technical-seo",
+"slug": "technical-seo-services",
+"heading": "Technical SEO for AI crawlers: making your site readable to ChatGPT and Google AI Overviews (GEO, AEO)",
+"blocks": [
+{ "type": "p", "text": "An assistant can only quote what its crawler could fetch and read. When a facilities manager asks ChatGPT which firms in Kraków service industrial air conditioning, or a parent asks Perplexity which language schools nearby run evening courses for teenagers, the answer is assembled from pages that loaded cleanly for a bot. GEO and AEO are the content side, writing so an AI model can quote you, and they fail quietly when the code keeps that text out of reach. What I fix:" },
+{ "type": "li", "text": "Services, prices, locations and contacts in the HTML the server sends, because many AI crawlers do not run JavaScript and miss text that appears only after it loads." },
+{ "type": "li", "text": "Organization, LocalBusiness or ProfessionalService markup generated from the same source as the visible text, and robots.txt rules that admit OAI-SearchBot, PerplexityBot and Googlebot deliberately." },
+{ "type": "li", "text": "One version of the facts across canonicals, the sitemap, Google Business Profile and Bing Webmaster Tools, with IndexNow notifying Bing when a page changes." },
+{ "type": "li", "text": "Direct answers near the top of the page as plain text, not inside tabs or accordions that fetch their content on click." },
+{ "type": "p", "text": "Before shipping fixes I record how ChatGPT, Perplexity and Google AI Overviews describe the business for its main questions, then ask again after the recrawl. On a psychotherapist’s site I built in Milan, new pages already appear in ChatGPT answers." },
+{ "type": "p", "text": "Content work is covered on the [AI SEO and GEO optimization page](/services/ai-ready-seo-and-geo-optimization)." }
+]
+}
+]

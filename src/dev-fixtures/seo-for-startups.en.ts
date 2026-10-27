@@ -29,7 +29,7 @@ export const seoForStartupsEn = {
   excerpt:
     "I provide SEO for startups and early-stage SaaS products: Next.js and React sites that render for Google, use-case, integration and comparison pages, and visibility in ChatGPT and Perplexity — paced to your stage and runway.",
   seo: {
-    metaTitle: "SEO Consultant for Startups and SaaS | Bandziuk",
+    metaTitle: "SEO Consultant for Early-Stage Startups | Bandziuk",
     metaDescription:
       "SEO services for startups: Next.js rendering, use-case, integration and comparison pages, docs and AI answers, tied to signups and demos. Audit from 250 €.",
   },

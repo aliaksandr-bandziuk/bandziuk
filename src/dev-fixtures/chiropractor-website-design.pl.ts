@@ -150,7 +150,7 @@ export const chiropractorWebsiteDesignPl = {
         ),
 
         h2("Jak powstaje strona internetowa dla fizjoterapeuty"),
-        ol("Brief. Przesyłacie listę terapeutów i metod, cennik, godziny, informacje o NFZ i pytania, które najczęściej słyszycie przez telefon. W Warszawie mogę przyjechać do gabinetu."),
+        ol("Brief. Przesyłacie listę terapeutów i metod, cennik, godziny, informacje o NFZ i pytania, które najczęściej słyszycie przez telefon. Rozmawiamy przez telefon lub wideo."),
         ol("Ścieżki pacjenta. Uzgadniamy na ekranie telefonu trzy najważniejsze: rezerwacja pierwszej wizyty, wybór terapii, kontakt."),
         ol("Projekt. Strona główna, podstrona terapii i profil terapeuty są projektowane w całości, reszta według tego samego systemu."),
         ol("Wykonanie i przekazanie. Podłączam rezerwację, sprawdzam formularze, szybkość i dostępność, a Wy dostajecie instrukcję edycji cennika, godzin i profili."),

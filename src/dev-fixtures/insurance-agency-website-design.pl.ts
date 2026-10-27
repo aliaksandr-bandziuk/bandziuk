@@ -203,7 +203,7 @@ export const insuranceAgencyWebsiteDesignPl = {
           ["Czy strona może liczyć składkę OC online?", "Jeśli macie dostęp do kalkulatora udostępnianego agentom przez dostawcę oprogramowania, można go osadzić na stronie. Bez niego dobrze działa krótki formularz z datą końca polisy i szybkim oddzwonieniem — wielu klientów i tak chce porozmawiać przed zakupem."],
           ["Czy formularz wyceny jest zgodny z RODO?", "Tak. Pyta tylko o dane potrzebne do kontaktu i wyceny, nie zbiera PESEL-u ani danych o zdrowiu, ma klauzulę informacyjną, a zgłoszenia trafiają szyfrowanym połączeniem na skrzynkę agencji albo do CRM."],
           ["Kto pisze teksty o ubezpieczeniach na stronę?", "Piszę je na podstawie briefu i pytań Waszych klientów, prostym językiem. Wy sprawdzacie zakresy ochrony i zgodność z zasadami towarzystw. Teksty powstają dla Waszej agencji, a nie są kopiowane z bazy używanej przez innych agentów."],
-          ["Czy robisz strony dla agentów spoza Warszawy?", "Tak, dla agencji z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. W Warszawie mogę przyjechać na spotkanie."],
+          ["Czy robisz strony dla agentów spoza Warszawy?", "Tak, dla agencji z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. Rozmowy odbywają się przez telefon lub wideo."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

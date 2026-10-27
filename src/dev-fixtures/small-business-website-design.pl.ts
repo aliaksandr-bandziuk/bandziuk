@@ -229,7 +229,7 @@ export const smallBusinessWebsiteDesignPl = {
           ["Ile trwa stworzenie strony dla małej firmy?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna od czterech do sześciu. Najwięcej zależy od tego, jak szybko gotowe są teksty, zdjęcia i Wasze uwagi."],
           ["Czy sami możemy zmieniać ceny, godziny i zdjęcia?", "Tak. Teksty, ceny, zdjęcia, godziny i nowe podstrony edytuje się w prostym panelu, także z telefonu. Do codziennych zmian programista nie jest potrzebny."],
           ["Do kogo należy strona?", "Do Was: domena, kod i treści. Możecie w każdej chwili przenieść stronę do innego hostingu albo innego wykonawcy."],
-          ["Czy strona może powstać zdalnie, dla firmy spoza Warszawy?", "Tak. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku, dla firm z całej Polski i z zagranicy. W Warszawie mogę przyjechać na spotkanie."],
+          ["Czy strona może powstać zdalnie, dla firmy spoza Warszawy?", "Tak. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku, dla firm z całej Polski i z zagranicy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

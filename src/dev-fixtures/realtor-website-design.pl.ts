@@ -216,7 +216,7 @@ export const realtorWebsiteDesignPl = {
           ["Czy mogę podać na stronie swoją prowizję?", "Możesz podać stawkę albo widełki i opisać, co obejmuje wynagrodzenie i kiedy jest należne. Sprzedający zna wtedy koszt przed spotkaniem. Decyzja należy do Ciebie lub Twojego biura."],
           ["Co się stanie ze stroną, gdy zmienię biuro?", "Nic złego: domena, hosting, kod i treści są Twoje. Zmieniasz logo i dane biura w stopce, a podstrony dzielnic, opinie i filmy zostają."],
           ["Ile trwa stworzenie strony dla agenta nieruchomości?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna z importem ofert od czterech do sześciu. Najwięcej zależy od zdjęć, filmów i tego, jak szybko odpowiada dostawca programu do ofert."],
-          ["Czy robisz strony dla agentów spoza Warszawy?", "Tak, dla pośredników z całej Polski. Pracuję zdalnie, po polsku, angielsku albo rosyjsku. W Warszawie mogę przyjechać na spotkanie albo na sesję zdjęciową z fotografem."],
+          ["Czy robisz strony dla agentów spoza Warszawy?", "Tak, dla pośredników z całej Polski. Pracuję zdalnie, po polsku, angielsku albo rosyjsku. Zdjęcia do strony robi Twój fotograf według listy ujęć, którą przygotowuję."],
           ["Czy strona agenta będzie widoczna w ChatGPT?", "Strona jest zbudowana tak, żeby asystenci mogli ją przeczytać: fakty tekstem, dane strukturalne i daty. Polecanie w odpowiedziach na konkretne pytania to dalsza praca nad SEO i widocznością w AI, którą też prowadzę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

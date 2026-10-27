@@ -165,7 +165,7 @@ export const carRentalSeoEn = {
           " page.",
         ),
 
-        h2("The car rental website itself: booking engine, speed and indexable pages"),
+        h2("Car rental website design in car rental SEO: booking engine, speed and indexable pages"),
         p("Rental sites usually run a booking engine from rental software — Coastr, RentRabbit and others — or a WordPress plugin. The engine handles availability and payment; the SEO problems sit around it:"),
         li("the fleet and prices exist only inside an iframe or a script, so search engines see an empty page"),
         li("result pages with dates in the address get indexed by the thousand and crowd out real pages"),

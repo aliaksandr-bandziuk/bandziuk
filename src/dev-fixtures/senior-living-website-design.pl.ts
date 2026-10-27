@@ -204,7 +204,7 @@ export const seniorLivingWebsiteDesignPl = {
           ["Czy na stronie domu opieki powinien być cennik?", "Tak. Rodziny otwierają cennik jako pierwszy, więc przy pokoju jedno- i dwuosobowym widnieje kwota początkowa i krótkie wyjaśnienie, że końcowa zależy od potrzeb opiekuńczych."],
           ["Jak strona domu opieki spełnia wymogi RODO?", "Formularze nie zbierają danych o zdrowiu, przy formularzu jest klauzula informacyjna, a dane wrażliwe przechodzą tylko przez dostawcę z umową powierzenia. Ostateczną ocenę daje inspektor ochrony danych albo prawnik."],
           ["Czy sami możemy zmieniać cennik, jadłospis i zajęcia?", "Tak. Personel zmienia jadłospis, plan zajęć, ceny i zdjęcia sam, w panelu dostępnym też z telefonu, bez ryzyka, że rozjedzie się wygląd strony."],
-          ["Czy pracujesz z domami opieki z całej Polski?", "Tak. Projekt i wykonanie robię zdalnie, a rozmowy prowadzimy przez telefon lub wideo. W Warszawie i okolicy mogę przyjechać, żeby zobaczyć dom."],
+          ["Czy pracujesz z domami opieki z całej Polski?", "Tak. Projekt i wykonanie robię zdalnie, a rozmowy prowadzimy przez telefon lub wideo. Dom pokazujecie mi na zdjęciach i krótkim filmie z telefonu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

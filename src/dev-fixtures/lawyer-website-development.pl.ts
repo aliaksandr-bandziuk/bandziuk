@@ -211,7 +211,7 @@ export const lawyerWebsiteDevelopmentPl = {
           ["Czy strona może mieć wersję angielską i ukraińską?", "Tak. Każda wersja ma własne adresy i oznaczenia dla Google, a tłumaczone są podstrony, z którymi naprawdę przychodzą cudzoziemcy. Terminologię sprawdza prawnik, który prowadzi sprawy w tym języku."],
           ["Ile trwa stworzenie strony dla kancelarii?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna z wersjami językowymi od czterech do ośmiu. Najwięcej zależy od tego, jak szybko gotowe są sylwetki prawników i uwagi do tekstów."],
           ["Do kogo należy strona kancelarii?", "Do kancelarii: domena, kod i treści. Możecie w każdej chwili przenieść stronę do innego hostingu albo innego wykonawcy."],
-          ["Czy robisz strony dla kancelarii spoza Warszawy?", "Tak, dla kancelarii z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. W Warszawie mogę przyjechać na spotkanie."],
+          ["Czy robisz strony dla kancelarii spoza Warszawy?", "Tak, dla kancelarii z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. Spotykamy się na rozmowach wideo."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

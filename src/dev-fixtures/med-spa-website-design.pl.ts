@@ -196,7 +196,7 @@ export const medSpaWebsiteDesignPl = {
           ["Czy na stronie można sprzedawać bony podarunkowe?", "Tak — przez system rezerwacji, jeśli ma taką funkcję, albo przez bramkę płatności z bonem wysyłanym mailem. Wybór zależy od tego, jak recepcja rozlicza bony."],
           ["Czy sami zmienimy cennik, zabiegi i zespół?", "Tak. Recepcja zmienia cennik, zabiegi, profile i metamorfozy w panelu z gotowymi polami, więc nowa treść wygląda tak samo jak reszta strony — również wtedy, gdy edytuje z telefonu."],
           ["Czy strona kliniki może pokazywać metamorfozy i opinie?", "Metamorfozy — tylko za pisemną zgodą pacjentów i bez retuszu, a przy zabiegach lekarskich po sprawdzeniu z prawnikiem. Opinie zwykle lepiej zostawić w Google i Booksy, gdzie są niezależne, i podlinkować je ze strony."],
-          ["Czy przyjeżdżasz do kliniki?", "W Warszawie tak — mogę przyjechać na brief i sesję zdjęciową. Z klinikami z innych miast pracuję zdalnie, przez rozmowy wideo."],
+          ["Jak wygląda współpraca z kliniką z innego miasta?", "Tak samo jak z kliniką w Warszawie: brief, akceptacja projektu i szkolenie z panelu odbywają się na rozmowach wideo, a zdjęcia gabinetów i zespołu robi wybrany przez Was fotograf."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

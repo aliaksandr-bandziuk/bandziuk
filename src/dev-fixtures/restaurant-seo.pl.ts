@@ -178,7 +178,7 @@ export const restaurantSeoPl = {
           ["Ile czasu trwa pozycjonowanie strony restauracji?", "Zmiany w wizytówce i menu potrafią zadziałać w wynikach map w kilka tygodni. Zapytania o kuchnię albo danie w okolicy to miesiące, bo konkurują o nie portale z silnymi stronami. Pierwsze sygnały widać zwykle po dwóch–trzech miesiącach."],
           ["Czy restauracja na Pyszne.pl i portalach rezerwacyjnych potrzebuje pozycjonowania?", "Tak. Bez własnej widoczności goście, którzy już Was znają, i tak rezerwują przez portal, a Wy płacicie za nich prowizję. Pozycjonowanie przywraca te wyszukiwania na Waszą stronę. Portale nadal przyprowadzą nowych gości i za nich prowizja jest uczciwa."],
           ["Czy pozycjonowanie pomaga w odpowiedziach ChatGPT i Google AI?", "Tak. Asystenci polecają restauracje na podstawie tego, co mogą przeczytać: wizytówki, opinii, menu w tekście i danych strukturalnych. Menu w PDF-ie i strona zbudowana z samych obrazków nie dają im nic do zacytowania."],
-          ["Czy pracujesz z restauracjami spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie lokalne robię zdalnie: wizytówka, strona i dane wyszukiwań. Do restauracji w Warszawie mogę też przyjechać na miejsce."],
+          ["Czy pracujesz z restauracjami spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie lokalne robię zdalnie: wizytówka, strona i dane wyszukiwań."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

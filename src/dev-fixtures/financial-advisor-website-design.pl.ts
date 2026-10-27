@@ -208,7 +208,7 @@ export const financialAdvisorWebsiteDesignPl = {
           ["Mam podstronę w sieci pośrednictwa. Po co mi własna strona?", "Podstrona w sieci należy do sieci i znika, gdy ją zmieniasz. Własna strona buduje Twoją markę, pozwala opisać Twoje grupy klientów i zostaje z Tobą. Projekt uwzględnia zasady używania nazwy i logo sieci, jeśli umowa je określa."],
           ["Czy formularz na stronie doradcy musi być zgodny z RODO?", "Tak, bo zbiera dane osobowe. Formularz pyta tylko o kontakt i temat, prosi, żeby nie wpisywać PESEL ani danych o dochodach, ma klauzulę informacyjną, a zgłoszenie trafia tylko na Twoją skrzynkę lub do CRM."],
           ["Ile trwa stworzenie strony dla doradcy finansowego?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna z podstronami grup klientów od czterech do sześciu. Najwięcej zależy od tego, jak szybko gotowe są zdjęcia i uwagi do tekstów."],
-          ["Czy robisz strony dla doradców spoza Warszawy?", "Tak, dla doradców z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku, a rozmowy odbywają się online. W Warszawie mogę przyjechać na spotkanie."],
+          ["Czy robisz strony dla doradców spoza Warszawy?", "Tak, dla doradców z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku, a rozmowy odbywają się online."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

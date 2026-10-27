@@ -209,7 +209,7 @@ export const nonprofitWebsiteDesignPl = {
           ["Czy strona fundacji musi spełniać wymagania dostępności cyfrowej?", "Obowiązki mogą mieć organizacje realizujące zadania ze środków publicznych, a wymagania często są w umowach dotacyjnych. Sprawdźcie przepisy i umowę. Stronę i tak buduję według WCAG 2.1 AA."],
           ["Czy zarząd sam zmieni treści na stronie?", "Tak. Aktualności, projekty, sprawozdania i ogłoszenia dodaje się w prostym panelu, każda osoba ma własne konto, a przy zmianie zarządu konta przekazuje się bez programisty."],
           ["Do kogo należy strona i domena?", "Do organizacji: domena, kod i treści. Domenę rejestrujemy na fundację lub stowarzyszenie, nie na osobę prywatną."],
-          ["Czy pracujesz z organizacjami spoza Warszawy?", "Tak, z fundacjami i stowarzyszeniami z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. W Warszawie mogę przyjechać na spotkanie z zarządem."],
+          ["Czy pracujesz z organizacjami spoza Warszawy?", "Tak, z fundacjami i stowarzyszeniami z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. Z zarządem rozmawiam na wideo."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

@@ -95,6 +95,12 @@ async function buildDynamicRedirects() {
 }
 
 const nextConfig = {
+  // If a page still fails to prerender (e.g. Sanity is briefly down even
+  // after the client's own retries), render it again instead of failing the
+  // whole deploy over one page.
+  experimental: {
+    staticGenerationRetryCount: 2,
+  },
   // Next 16 supports Chrome/Edge/Firefox 111+ and Safari 16.4+, which ship every
   // feature in Next's polyfill module, so it is swapped for an empty file
   // (PageSpeed "Legacy JavaScript"). app-globals.js requires it by this exact

@@ -36,6 +36,12 @@ const sanityClient = createClient({
   apiVersion,
   useCdn: false,
   token,
+  // A static build fetches every page at once, and one failed query stops the
+  // whole deploy. The client already retries 429/502/503, but by default for
+  // about 3 seconds in total; on 27.10.2026 a short Sanity 503 outlasted that
+  // and killed a build. Six retries at 1, 2, 4, 8, 10, 10 s ride out ~35 s.
+  maxRetries: 6,
+  retryDelay: (attempt: number) => Math.min(1000 * 2 ** attempt, 10_000),
 });
 
 type NextFetchOptions = { revalidate?: number | false; tags?: string[] };

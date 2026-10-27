@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Figures for the «Attorney SEO» article (27.10.2026). Same surface, type and slots
+     as the GEO/AEO/LLM/ChatGPT SEO series. Every number is repeated in the article text. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px;margin:0 0 30px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:22px 0 0;line-height:1.5}
+
+  /* journey */
+  .steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+  .step{border-radius:14px;padding:18px 16px 16px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;position:relative}
+  .step .n{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.1em;margin:0 0 10px}
+  .step h3{font-size:16.5px;line-height:1.3;color:#fff;margin:0 0 10px;font-weight:600}
+  .step p{font-size:13.5px;line-height:1.45;color:var(--ink-2);margin:0 0 14px;flex:1}
+  .step .stat{border-top:1px solid rgba(255,255,255,.1);padding-top:12px}
+  .step .stat b{display:block;font-size:28px;line-height:1.1;font-weight:700}
+  .step .stat span{display:block;font-size:12px;line-height:1.4;color:var(--muted);margin-top:4px}
+  .step .stat + .stat{margin-top:10px}
+  .step::after{content:"";position:absolute;right:-12px;top:34px;width:10px;height:10px;border-top:2px solid rgba(255,255,255,.35);border-right:2px solid rgba(255,255,255,.35);transform:rotate(45deg)}
+  .step:last-child::after{display:none}
+  .aiband{margin-top:16px;border-radius:14px;padding:16px 20px;border:1px dashed rgba(201,133,0,.6);background:rgba(201,133,0,.07);display:flex;gap:28px;align-items:center}
+  .aiband .lbl{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#f3c66b;flex:none;width:150px;line-height:1.4}
+  .aiband div.c{display:flex;align-items:baseline;gap:10px}
+  .aiband div.c b{font-size:26px;color:#f3c66b;font-weight:700}
+  .aiband div.c span{font-size:13.5px;color:var(--ink-2);line-height:1.4;max-width:300px}
+
+  /* serp */
+  .serps{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .serp{border-radius:16px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.1);padding:18px 18px 16px}
+  .qbar{display:flex;align-items:center;gap:10px;border-radius:22px;background:rgba(255,255,255,.07);padding:10px 16px;margin:0 0 14px;color:#fff;font-size:15px}
+  .qbar i{width:15px;height:15px;border-radius:50%;border:2.5px solid #cfe1fb;position:relative;flex:none}
+  .qbar i::after{content:"";position:absolute;right:-6px;bottom:-5px;width:7px;height:2.5px;background:#cfe1fb;transform:rotate(45deg)}
+  .blk{border-radius:10px;padding:10px 12px;margin:0 0 9px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03)}
+  .blk .t{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 7px}
+  .blk .ln{height:8px;border-radius:4px;background:rgba(255,255,255,.16);margin:0 0 6px}
+  .blk .ln.s{background:rgba(255,255,255,.09)}
+  .blk.ads .t{color:#9b9a94}
+  .blk.map{border-color:rgba(25,158,112,.65);background:rgba(25,158,112,.08)}
+  .blk.map .t{color:#62d3a9}
+  .mapbox{display:grid;grid-template-columns:120px 1fr;gap:10px}
+  .mapimg{border-radius:8px;background:repeating-linear-gradient(45deg,rgba(255,255,255,.05) 0 6px,rgba(255,255,255,.02) 6px 12px);position:relative;height:96px}
+  .pin{position:absolute;width:14px;height:14px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--s2)}
+  .firm{display:flex;align-items:center;gap:8px;margin:0 0 7px}
+  .firm .ln{flex:1;margin:0}
+  .stars{font-size:11px;letter-spacing:1px;color:#f3c66b;flex:none}
+  .blk.aio{border-color:rgba(201,133,0,.7);background:rgba(201,133,0,.08)}
+  .blk.aio .t{color:#f3c66b}
+  .src{display:flex;gap:6px;margin-top:8px}
+  .src span{flex:1;height:26px;border-radius:6px;background:rgba(255,255,255,.07);border:1px solid rgba(243,198,107,.35)}
+  .blk.org .t{color:#9fc3f3}
+  .blk.dir .t{color:#c3c2b7}
+  .tag{display:inline-block;font-size:10.5px;font-family:var(--mono);padding:2px 6px;border-radius:5px;background:rgba(25,158,112,.25);color:#9ff0cf;margin-left:6px;letter-spacing:.04em;text-transform:none}
+  .stat2{display:flex;gap:16px;margin-top:12px;border-top:1px solid rgba(255,255,255,.1);padding-top:12px}
+  .stat2 div b{display:block;font-size:24px;font-weight:700;line-height:1.1}
+  .stat2 div span{display:block;font-size:12px;color:var(--muted);line-height:1.35;margin-top:3px}
+
+  /* plan */
+  .phases{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;position:relative}
+  .ph{border-radius:14px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);padding:0 0 14px;overflow:hidden}
+  .ph .hd{padding:14px 16px 12px}
+  .ph .wk{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+  .ph h3{font-size:17px;line-height:1.3;color:#fff;margin:6px 0 0;font-weight:600}
+  .ph ul{list-style:none;margin:4px 0 0;padding:0 16px}
+  .ph li{font-size:13.5px;line-height:1.42;color:var(--ink-2);padding:7px 0 7px 18px;position:relative;border-top:1px solid rgba(255,255,255,.06)}
+  .ph li::before{content:"";position:absolute;left:0;top:13px;width:8px;height:8px;border-radius:2px;background:currentColor;opacity:.9}
+  .timeline{margin-top:18px;position:relative;height:46px}
+  .timeline .bar{position:absolute;left:0;right:0;top:12px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--s4),var(--s1) 45%,var(--s3))}
+  .timeline .m{position:absolute;top:24px;font-size:12.5px;color:var(--ink-2);transform:translateX(-50%);white-space:nowrap}
+  .timeline .d{position:absolute;top:7px;width:16px;height:16px;border-radius:50%;background:#111114;border:3px solid #fff;transform:translateX(-50%)}
+
+  /* page anatomy */
+  .anat{display:grid;grid-template-columns:420px 1fr;gap:34px;align-items:start}
+  .wire{border-radius:16px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);padding:16px}
+  .wb{border-radius:8px;margin:0 0 8px;padding:10px 12px;position:relative;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04)}
+  .wb .no{position:absolute;left:-11px;top:50%;transform:translateY(-50%);width:22px;height:22px;border-radius:50%;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;color:#111114}
+  .wb .ln{height:7px;border-radius:4px;background:rgba(255,255,255,.18);margin:0 0 5px}
+  .wb .ln.s{background:rgba(255,255,255,.09)}
+  .wb .row{display:flex;gap:8px}
+  .wb .ph2{width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.14);flex:none}
+  .wb .btn{height:30px;border-radius:15px;background:var(--s2);width:150px}
+  .wb .box{flex:1;height:34px;border-radius:6px;background:rgba(255,255,255,.07)}
+  .legend{display:grid;grid-template-columns:1fr;gap:10px}
+  .lg{display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start}
+  .lg .no{width:26px;height:26px;border-radius:50%;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;color:#111114}
+  .lg b{display:block;color:#fff;font-size:15.5px;font-weight:600;line-height:1.3}
+  .lg span{display:block;color:var(--ink-2);font-size:13.5px;line-height:1.42;margin-top:2px}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    journey: { k: "How clients find a lawyer · US studies, 2024–2026", h: "From a legal problem to a call: what a potential client does",
+      s: "Most clients research online even after a referral, shortlist by reviews, contact more than one firm and go with the one that answers.",
+      steps: [
+        { h: "Research, even after a referral", p: "People check the firm online before they call, whoever recommended it.", st: [["74%", "research a firm online even after a referral (Scorpion, 2025)"]], c: "--s1" },
+        { h: "Start with a search engine", p: "Most start in Google; a growing share starts with an AI tool.", st: [["54.4%", "started with a search engine"], ["13%", "started with an AI tool (AttorneySync, 2026)"]], c: "--s1" },
+        { h: "Shortlist by reviews", p: "Ratings decide which firms get a click at all.", st: [["57%", "say reviews are the main deciding factor (Scorpion)"], ["4.9★", "median rating of firms clicked (AttorneySync)"]], c: "--s4" },
+        { h: "Contact two or more firms", p: "Clients compare, and they do not wait.", st: [["67%", "contacted two or more firms"], ["40%", "moved on at once without a response (AttorneySync)"]], c: "--s2" },
+        { h: "Hire the firm that answers", p: "Many firms lose the client at this step.", st: [["40%", "of firms answered the phone; 33% replied to email (Clio test, 500 firms, 2024)"]], c: "--s3" },
+      ],
+      ai: { l: "AI in the journey", c: [["24%", "of US adults have used AI to answer a legal question (Clio, 2026)"], ["46%", "would consult AI before contacting a lawyer"], ["<2%", "would use AI to choose the lawyer they hire (AttorneySync)"]] },
+      note: "Sources: Scorpion consumer survey, 3,000 US adults, September 2025; AttorneySync 2026 Legal Service Consumer Choice Report, 320 personal injury consumers; Clio Legal Trends Report 2026 (26 October 2026) and 2024 secret-shopper test of 500 US firms." },
+    serp: { k: "Where a law firm can appear · Ahrefs 2025, Whitespark 2025", h: "Two searches, two different pages: the map decides one, the AI Overview the other",
+      s: "A search with a city and a practice is won in the map and the organic results. A legal question is answered by an AI Overview that cites a few sources.",
+      a: { q: "divorce lawyer in Austin", ads: "Local Services Ads", ver: "Google Verified", map: "Map pack · three firms", org: "Firm websites", dir: "Directories: Avvo, Justia, FindLaw", st: [["93%", "of «[industry] in [city]» searches showed a map pack"], ["15%", "showed an AI Overview (Whitespark)"]] },
+      b: { q: "how is child custody decided in Texas", aio: "AI Overview · cited sources", paa: "People also ask", org: "Articles and guides", st: [["92%", "of informational searches showed an AI Overview (Whitespark)"], ["57.9%", "of question searches, all topics (Ahrefs)"]] },
+      note: "Ahrefs: AI Overviews appeared on 23.6% of legal results pages and on 7.9% of local-intent searches (146 million results pages, September 2025). Whitespark: 540 manual searches, 3 US cities, 6 industries, May 2025. The often-quoted «78% of legal queries» has no published study behind it." },
+    plan: { k: "Attorney SEO strategy · a 90-day plan", h: "A 90-day attorney SEO plan for a solo lawyer or a small law firm",
+      s: "Each phase builds on the previous one: first the targets and the Google profile, then the pages, then reviews and directories, then content and measurement.",
+      ph: [
+        { w: "Weeks 1–2", h: "Targets and the Google profile", c: "--s4", li: ["Choose 3–5 practice + place combinations", "Collect the phrases clients use at intake", "Fix the profile: real name, categories, one per real office"] },
+        { w: "Weeks 3–6", h: "Pages that answer", c: "--s1", li: ["One page per legal problem", "Attorney bios with bar admissions and a photo", "Phone dials on tap; speed and indexing checked"] },
+        { w: "Weeks 7–10", h: "Reviews and directories", c: "--s3", li: ["A routine: every satisfied client gets a review link", "Replies that reveal nothing about clients", "Avvo, Justia, FindLaw, bar directory: identical details"] },
+        { w: "Weeks 11–13", h: "Content and measurement", c: "--s2", li: ["Two answer articles a month, signed by an attorney", "Check AI answers to your key questions", "Measure calls, consultations and signed cases"] },
+      ],
+      tl: [["Start", 0], ["≈ 1.5 months: first movements", 33], ["3–6 months: steady growth in calls", 100]],
+      note: "Timing is typical for a narrower practice or a smaller area; personal injury in a large city takes longer." },
+    page: { k: "Practice-area page · anatomy", h: "What a practice-area page needs: one page for one legal problem",
+      s: "A page that only says «we handle divorce» ranks for nothing. A page that answers the client's first questions ranks, gets cited in AI answers and gets calls.",
+      it: [
+        ["The problem in the client's words", "«Contested custody lawyer in Travis County», not «Family Law Services»"],
+        ["A short answer first", "Two sentences that answer the main question on their own"],
+        ["How the process works in your state", "Steps, timing, what the first consultation involves"],
+        ["Fees, stated plainly", "Hourly, flat or contingency, and what is included"],
+        ["The attorney who handles it", "Name, photo, bar admission, link to the bio"],
+        ["Results and reviews with disclaimers", "Only in the form your state's rules allow"],
+        ["Questions clients ask", "Answered in a sentence or two each"],
+        ["A clear next step", "A phone number that dials on tap and a short form"],
+      ],
+      note: "For several offices: one page per real office, with content about that place. Copies with only the city name changed are doorway pages under Google's spam policies." },
+  },
+  pl: {
+    journey: { k: "Jak klienci szukają prawnika · badania z USA, 2024–2026", h: "Od problemu prawnego do telefonu: co robi potencjalny klient",
+      s: "Większość sprawdza kancelarię w sieci nawet po poleceniu, wybiera po opiniach, kontaktuje się z więcej niż jedną i wybiera tę, która odpowie.",
+      steps: [
+        { h: "Sprawdza, nawet po poleceniu", p: "Klient zagląda do sieci przed telefonem, niezależnie od tego, kto polecił kancelarię.", st: [["74%", "sprawdza kancelarię w sieci nawet po poleceniu (Scorpion, 2025)"]], c: "--s1" },
+        { h: "Zaczyna od wyszukiwarki", p: "Większość zaczyna w Google; coraz więcej osób — od narzędzia AI.", st: [["54,4%", "zaczęło od wyszukiwarki"], ["13%", "zaczęło od narzędzia AI (AttorneySync, 2026)"]], c: "--s1" },
+        { h: "Wybiera po opiniach", p: "Oceny decydują, które kancelarie w ogóle dostaną kliknięcie.", st: [["57%", "mówi, że opinie są głównym kryterium (Scorpion)"], ["4,9★", "mediana ocen klikniętych kancelarii (AttorneySync)"]], c: "--s4" },
+        { h: "Pisze do dwóch kancelarii lub więcej", p: "Klienci porównują i nie czekają.", st: [["67%", "skontaktowało się z dwiema lub więcej"], ["40%", "od razu szukało dalej bez odpowiedzi (AttorneySync)"]], c: "--s2" },
+        { h: "Wybiera tę, która odpowie", p: "Na tym etapie wiele kancelarii traci klienta.", st: [["40%", "kancelarii odebrało telefon; 33% odpisało na e-mail (test Clio, 500 kancelarii, 2024)"]], c: "--s3" },
+      ],
+      ai: { l: "AI na tej drodze", c: [["24%", "dorosłych w USA pytało AI o sprawę prawną (Clio, 2026)"], ["46%", "zapytałoby AI przed kontaktem z prawnikiem"], ["<2%", "wybrałoby prawnika przez AI (AttorneySync)"]] },
+      note: "Dane z USA — porównywalnych świeżych badań z Polski brak. Źródła: ankieta Scorpion, 3000 dorosłych, wrzesień 2025; AttorneySync 2026, 320 klientów spraw odszkodowawczych; Clio Legal Trends Report 2026 i test 500 kancelarii z 2024 roku." },
+    serp: { k: "Gdzie kancelaria może się pojawić · Ahrefs 2025, Whitespark 2025", h: "Dwa wyszukiwania, dwie różne strony: o jednym decyduje mapa, o drugim AI Overview",
+      s: "Wyszukiwanie z miastem i rodzajem sprawy rozstrzyga się na mapie i w wynikach organicznych. Na pytanie prawne odpowiada AI Overview, które cytuje kilka źródeł.",
+      a: { q: "adwokat rozwód Warszawa", ads: "Reklamy Google", ver: "", map: "Mapa · trzy kancelarie", org: "Strony kancelarii", dir: "Portale prawnicze i rejestry", st: [["93%", "wyszukiwań «[branża] w [mieście]» pokazało mapę"], ["15%", "pokazało AI Overview (Whitespark, USA)"]] },
+      b: { q: "jak sąd ustala kontakty z dzieckiem", aio: "AI Overview · cytowane źródła", paa: "Podobne pytania", org: "Artykuły i poradniki", st: [["92%", "wyszukiwań informacyjnych z AI Overview (Whitespark, USA)"], ["57,9%", "pytań, wszystkie tematy (Ahrefs)"]] },
+      note: "Ahrefs: AI Overviews na 23,6% stron wyników prawniczych i na 7,9% wyszukiwań lokalnych (146 mln stron wyników, wrzesień 2025). Whitespark: 540 ręcznych wyszukiwań, 3 miasta w USA, 6 branż, maj 2025. Często cytowane «78% zapytań prawnych» nie ma za sobą żadnego opublikowanego badania." },
+    plan: { k: "Marketing kancelarii prawnej · plan na 90 dni", h: "Plan marketingu kancelarii prawnej na 90 dni: od wizytówki Google do pomiaru",
+      s: "Każdy etap opiera się na poprzednim: najpierw cele i wizytówka, potem podstrony, potem opinie i rejestry, na końcu treści i pomiar.",
+      ph: [
+        { w: "Tygodnie 1–2", h: "Cele i wizytówka Google", c: "--s4", li: ["Wybór 3–5 par: rodzaj sprawy + miejsce", "Zwroty, których klienci używają przy pierwszym kontakcie", "Wizytówka: prawdziwa nazwa, kategorie, jedna na biuro"] },
+        { w: "Tygodnie 3–6", h: "Podstrony, które odpowiadają", c: "--s1", li: ["Jedna podstrona na jeden problem prawny", "Biogramy z wpisem na listę i zdjęciem", "Telefon klikalny; szybkość i indeksacja sprawdzone"] },
+        { w: "Tygodnie 7–10", h: "Opinie i rejestry", c: "--s3", li: ["Stała prośba o opinię — w granicach kodeksu etyki", "Odpowiedzi bez informacji o sprawie i kliencie", "Rejestry samorządu i portale: te same dane"] },
+        { w: "Tygodnie 11–13", h: "Treści i pomiar", c: "--s2", li: ["Dwa artykuły-odpowiedzi miesięcznie, podpisane", "Sprawdzenie odpowiedzi AI na kluczowe pytania", "Pomiar telefonów, konsultacji i umów"] },
+      ],
+      tl: [["Start", 0], ["≈ 1,5 miesiąca: pierwsze efekty", 33], ["3–6 miesięcy: stały wzrost zapytań", 100]],
+      note: "Terminy typowe dla węższej specjalizacji lub mniejszego miasta; w największych miastach i najbardziej konkurencyjnych sprawach trwa to dłużej." },
+    page: { k: "Podstrona sprawy · anatomia", h: "Czego potrzebuje podstrona sprawy: jedna podstrona na jeden problem prawny",
+      s: "Strona, która mówi tylko «prowadzimy rozwody», nie pozycjonuje się na nic. Strona, która odpowiada na pierwsze pytania klienta, pojawia się w Google, w odpowiedziach AI i przynosi telefony.",
+      it: [
+        ["Problem słowami klienta", "«Adwokat od rozwodów — Warszawa Mokotów», nie «Prawo rodzinne»"],
+        ["Krótka odpowiedź na początku", "Dwa zdania, które same odpowiadają na główne pytanie"],
+        ["Jak wygląda postępowanie", "Etapy, czas, jak przebiega pierwsza konsultacja"],
+        ["Wynagrodzenie opisane wprost", "Godzinowe, ryczałtowe, od czego zależy"],
+        ["Kto prowadzi sprawę", "Imię i nazwisko, zdjęcie, tytuł zawodowy, link do biogramu"],
+        ["Opinie klientów — tylko za zgodą", "Adwokat: zgoda klienta; radca: zgoda i nigdy w sprawach karnych i rodzinnych"],
+        ["Pytania klientów", "Odpowiedź w jednym–dwóch zdaniach"],
+        ["Jasny następny krok", "Klikalny numer telefonu i krótki formularz"],
+      ],
+      note: "Przy kilku biurach: jedna podstrona na prawdziwe biuro, z treścią o tym miejscu. Kopie różniące się tylko nazwą miasta to doorway pages w rozumieniu zasad Google dotyczących spamu." },
+  },
+  ru: {
+    journey: { k: "Как клиенты ищут юриста · исследования в США, 2024–2026", h: "От юридической проблемы до звонка: что делает потенциальный клиент",
+      s: "Большинство проверяет фирму в интернете даже после рекомендации, выбирает по отзывам, пишет нескольким и идёт к тому, кто ответил.",
+      steps: [
+        { h: "Проверяет даже после рекомендации", p: "Клиент смотрит фирму в интернете перед звонком, кто бы её ни посоветовал.", st: [["74%", "проверяют фирму в интернете даже после рекомендации (Scorpion, 2025)"]], c: "--s1" },
+        { h: "Начинает с поисковика", p: "Большинство начинает с Google; растёт доля тех, кто начинает с ИИ.", st: [["54,4%", "начали с поисковика"], ["13%", "начали с ИИ-сервиса (AttorneySync, 2026)"]], c: "--s1" },
+        { h: "Отбирает по отзывам", p: "Рейтинг решает, какие фирмы вообще получат клик.", st: [["57%", "называют отзывы главным критерием (Scorpion)"], ["4,9★", "медианный рейтинг фирм, по которым кликали (AttorneySync)"]], c: "--s4" },
+        { h: "Пишет двум фирмам и больше", p: "Клиенты сравнивают и не ждут.", st: [["67%", "обратились в две фирмы и больше"], ["40%", "сразу шли дальше, не получив ответа (AttorneySync)"]], c: "--s2" },
+        { h: "Выбирает того, кто ответил", p: "На этом шаге многие фирмы теряют клиента.", st: [["40%", "фирм ответили на звонок; 33% — на письмо (тест Clio, 500 фирм, 2024)"]], c: "--s3" },
+      ],
+      ai: { l: "ИИ на этом пути", c: [["24%", "взрослых в США спрашивали ИИ о юридическом вопросе (Clio, 2026)"], ["46%", "спросили бы ИИ до обращения к юристу"], ["<2%", "выбрали бы юриста через ИИ (AttorneySync)"]] },
+      note: "Данные США. Источники: опрос Scorpion, 3000 взрослых, сентябрь 2025; AttorneySync 2026, 320 клиентов по делам о вреде здоровью; Clio Legal Trends Report 2026 и тест 500 фирм 2024 года." },
+    serp: { k: "Где может появиться юридическая фирма · Ahrefs 2025, Whitespark 2025", h: "Два запроса — две разные выдачи: одну решает карта, другую AI Overview",
+      s: "Запрос с городом и практикой выигрывается на карте и в обычной выдаче. На юридический вопрос отвечает AI Overview, которая цитирует несколько источников.",
+      a: { q: "адвокат по разводам Варшава", ads: "Реклама Google", ver: "", map: "Карта · три фирмы", org: "Сайты фирм", dir: "Каталоги и реестры", st: [["93%", "запросов «[отрасль] в [городе]» показали карту"], ["15%", "показали AI Overview (Whitespark, США)"]] },
+      b: { q: "как суд определяет порядок общения с ребёнком", aio: "AI Overview · источники", paa: "Похожие вопросы", org: "Статьи и руководства", st: [["92%", "информационных запросов с AI Overview (Whitespark, США)"], ["57,9%", "запросов-вопросов, все темы (Ahrefs)"]] },
+      note: "Ahrefs: AI Overviews на 23,6% юридических выдач и на 7,9% локальных запросов (146 млн выдач, сентябрь 2025). Whitespark: 540 ручных запросов, 3 города США, 6 отраслей, май 2025. Часто цитируемые «78% юридических запросов» не подтверждены ни одним опубликованным исследованием." },
+    plan: { k: "Как раскрутить юридическую фирму · план на 90 дней", h: "План продвижения сайта юридической компании на 90 дней",
+      s: "Каждый этап опирается на предыдущий: сначала цели и карточка в Google, затем страницы, затем отзывы и каталоги, в конце контент и измерение.",
+      ph: [
+        { w: "Недели 1–2", h: "Цели и карточка в Google", c: "--s4", li: ["3–5 пар «практика + место»", "Фразы, которыми клиенты описывают проблему", "Карточка: настоящее название, категории, одна на офис"] },
+        { w: "Недели 3–6", h: "Страницы, которые отвечают", c: "--s1", li: ["Одна страница на одну юридическую проблему", "Страницы юристов: статус, опыт, фото", "Телефон по нажатию; скорость и индексация"] },
+        { w: "Недели 7–10", h: "Отзывы и каталоги", c: "--s3", li: ["Просьба об отзыве после каждого удачного дела", "Ответы без сведений о клиенте и деле", "Каталоги, реестры, Яндекс Бизнес (KZ, BY): одни данные"] },
+        { w: "Недели 11–13", h: "Контент и измерение", c: "--s2", li: ["Две статьи-ответа в месяц за подписью юриста", "Проверка ответов ИИ на ключевые вопросы", "Звонки, консультации и подписанные договоры"] },
+      ],
+      tl: [["Старт", 0], ["≈ 1,5 месяца: первые результаты", 33], ["3–6 месяцев: стабильный рост обращений", 100]],
+      note: "Сроки типичны для узкой практики или небольшого города; в столицах и самых конкурентных практиках дольше." },
+    page: { k: "Страница практики · анатомия", h: "Что нужно странице практики: одна страница на одну юридическую проблему",
+      s: "Страница со словами «ведём бракоразводные дела» не ранжируется ни по чему. Страница, которая отвечает на первые вопросы клиента, попадает в поиск, в ответы ИИ и приносит звонки.",
+      it: [
+        ["Проблема словами клиента", "«Адвокат по разводам в Варшаве для русскоязычных», а не «Семейное право»"],
+        ["Короткий ответ в начале", "Два предложения, которые сами отвечают на главный вопрос"],
+        ["Как проходит процедура в вашей стране", "Этапы, сроки, как проходит первая консультация"],
+        ["Стоимость — прямо", "Почасовая, фиксированная, от чего зависит"],
+        ["Кто ведёт дело", "Имя, фото, статус адвоката, ссылка на страницу юриста"],
+        ["Результаты и отзывы — по правилам", "Только в той форме, которую допускают правила вашей палаты"],
+        ["Вопросы клиентов", "Ответ в одно-два предложения"],
+        ["Понятный следующий шаг", "Телефон по нажатию и короткая форма"],
+      ],
+      note: "Для нескольких офисов — одна страница на реальный офис, с текстом об этом месте. Копии, где меняется только город, — дорвеи по правилам Google о спаме." },
+  },
+};
+
+function section(lang, id, t) {
+  const s = document.createElement("div");
+  s.className = "fig"; s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2><p class="sub">${t.s}</p>`;
+  document.getElementById("root").appendChild(s);
+  return s;
+}
+function journey(lang, t) {
+  const s = section(lang, "journey", t);
+  s.insertAdjacentHTML("beforeend", `<div class="steps">${t.steps.map((x, i) => `
+    <div class="step" style="border-top:3px solid var(${x.c})"><p class="n">0${i + 1}</p><h3>${x.h}</h3><p>${x.p}</p>
+      ${x.st.map(([b, d]) => `<div class="stat"><b style="color:var(${x.c})">${b}</b><span>${d}</span></div>`).join("")}</div>`).join("")}</div>
+    <div class="aiband"><div class="lbl">${t.ai.l}</div>${t.ai.c.map(([b, d]) => `<div class="c"><b>${b}</b><span>${d}</span></div>`).join("")}</div>
+    <p class="note">${t.note}</p>`);
+}
+const ln = (w, s) => `<div class="ln${s ? " s" : ""}" style="width:${w}%"></div>`;
+function serp(lang, t) {
+  const s = section(lang, "serp", t);
+  const a = t.a, b = t.b;
+  const pins = [[22, 30], [60, 22], [42, 62]];
+  s.insertAdjacentHTML("beforeend", `<div class="serps">
+    <div class="serp"><div class="qbar"><i></i>${a.q}</div>
+      <div class="blk ads"><p class="t">${a.ads}${a.ver ? `<span class="tag">✓ ${a.ver}</span>` : ""}</p>${ln(80)}${ln(55, 1)}</div>
+      <div class="blk map"><p class="t">${a.map}</p><div class="mapbox"><div class="mapimg">${pins.map(([x, y]) => `<div class="pin" style="left:${x}%;top:${y}%"></div>`).join("")}</div>
+        <div>${[0, 1, 2].map(() => `<div class="firm">${ln(60)}<span class="stars">★★★★★</span></div><div class="ln s" style="width:70%;margin-bottom:9px"></div>`).join("")}</div></div></div>
+      <div class="blk dir"><p class="t">${a.dir}</p>${ln(75)}${ln(50, 1)}</div>
+      <div class="blk org"><p class="t">${a.org}</p>${ln(70)}${ln(85, 1)}${ln(60)}${ln(40, 1)}</div>
+      <div class="stat2">${a.st.map(([v, d], i) => `<div><b style="color:var(${i ? "--s4" : "--s3"})">${v}</b><span>${d}</span></div>`).join("")}</div>
+    </div>
+    <div class="serp"><div class="qbar"><i></i>${b.q}</div>
+      <div class="blk aio"><p class="t">${b.aio}</p>${ln(95)}${ln(88)}${ln(92)}${ln(60, 1)}<div class="src"><span></span><span></span><span></span></div></div>
+      <div class="blk"><p class="t" style="color:#c3c2b7">${b.paa}</p>${ln(70, 1)}${ln(64, 1)}${ln(72, 1)}</div>
+      <div class="blk org"><p class="t">${b.org}</p>${ln(70)}${ln(85, 1)}${ln(60)}${ln(40, 1)}</div>
+      <div class="stat2">${b.st.map(([v, d]) => `<div><b style="color:var(--s4)">${v}</b><span>${d}</span></div>`).join("")}</div>
+    </div></div>
+    <p class="note">${t.note}</p>`);
+}
+function plan(lang, t) {
+  const s = section(lang, "plan", t);
+  s.insertAdjacentHTML("beforeend", `<div class="phases">${t.ph.map((p) => `
+    <div class="ph" style="border-top:3px solid var(${p.c})"><div class="hd"><div class="wk" style="color:var(${p.c})">${p.w}</div><h3>${p.h}</h3></div>
+      <ul style="color:var(${p.c})">${p.li.map((x) => `<li>${x}</li>`).join("")}</ul></div>`).join("")}</div>
+    <div class="timeline"><div class="bar"></div>${t.tl.map(([l, v]) => `<div class="d" style="left:${Math.min(Math.max(v, 0.7), 99.3)}%"></div><div class="m" style="left:${v}%;${v === 0 ? "transform:none" : v === 100 ? "transform:translateX(-100%)" : ""}">${l}</div>`).join("")}</div>
+    <p class="note">${t.note}</p>`);
+}
+function page(lang, t) {
+  const s = section(lang, "page", t);
+  const cols = ["--s2", "--s4", "--s1", "--s1", "--s3", "--s4", "--s1", "--s2"];
+  const wb = [
+    `${ln(85)}${ln(60)}`, `${ln(95, 1)}${ln(80, 1)}`, `${ln(90, 1)}${ln(92, 1)}${ln(70, 1)}`, `<div class="row"><div class="box"></div><div class="box"></div><div class="box"></div></div>`,
+    `<div class="row"><div class="ph2"></div><div style="flex:1">${ln(60)}${ln(80, 1)}</div></div>`, `${ln(88, 1)}${ln(50, 1)}`, `${ln(70)}${ln(66)}${ln(72)}`, `<div class="row" style="align-items:center"><div class="btn"></div><div class="box"></div></div>`,
+  ];
+  s.insertAdjacentHTML("beforeend", `<div class="anat"><div class="wire">${wb.map((h, i) => `<div class="wb"><div class="no" style="background:var(${cols[i]})">${i + 1}</div>${h}</div>`).join("")}</div>
+    <div class="legend">${t.it.map(([h, d], i) => `<div class="lg"><div class="no" style="background:var(${cols[i]})">${i + 1}</div><div><b>${h}</b><span>${d}</span></div></div>`).join("")}</div></div>
+    <p class="note">${t.note}</p>`);
+}
+for (const lang of ["en", "pl", "ru"]) { journey(lang, T[lang].journey); serp(lang, T[lang].serp); plan(lang, T[lang].plan); page(lang, T[lang].page); }
+</script>
+</body>
+</html>

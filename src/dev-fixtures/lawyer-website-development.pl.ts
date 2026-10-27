@@ -35,7 +35,7 @@ export const lawyerWebsiteDevelopmentPl = {
   title: "Strona internetowa dla kancelarii adwokackiej i prawnej",
   heading: "Strona internetowa dla kancelarii adwokackiej i prawnej",
   excerpt:
-    "Tworzę strony internetowe dla kancelarii adwokackich i radcowskich: specjalizacje, sylwetki prawników, artykuły z autorem, formularz zgodny z RODO i tajemnicą zawodową oraz wersje językowe dla klientów z zagranicy — rzeczowo, bez reklamy, za cenę z cennika.",
+    "Tworzę strony internetowe dla kancelarii adwokackich i radcowskich: specjalizacje, sylwetki prawników, artykuły z autorem, formularz zgodny z RODO i tajemnicą zawodową oraz wersje językowe dla klientów z zagranicy — rzeczowo, zgodnie z kodeksami etyki, za cenę z cennika.",
   seo: {
     metaTitle: "Strona dla kancelarii i radcy prawnego od 3000 zł | Bandziuk",
     metaDescription:
@@ -104,10 +104,10 @@ export const lawyerWebsiteDevelopmentPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Tworzę strony internetowe dla kancelarii adwokackich i radcowskich — strukturę, projekt graficzny, wykonanie, teksty i uruchomienie — więc za całość odpowiada jedna osoba, a cena jest znana z góry. Strona kancelarii ma pomóc klientowi w dwóch rzeczach: sprawdzić, czy trafił do właściwego prawnika, i bezpiecznie się z nim skontaktować. Wszystko na niej jest informacją o kancelarii, a nie reklamą, bo tak wyznaczają zasady etyki zawodowej."),
+        p("Tworzę strony internetowe dla kancelarii adwokackich i radcowskich — strukturę, projekt graficzny, wykonanie, teksty i uruchomienie — więc za całość odpowiada jedna osoba, a cena jest znana z góry. Strona kancelarii ma pomóc klientowi w dwóch rzeczach: sprawdzić, czy trafił do właściwego prawnika, i bezpiecznie się z nim skontaktować. Wszystko na niej jest rzeczową informacją o kancelarii, bez porównań i obietnic wyniku, bo tak wyznaczają kodeksy etyki adwokatów i radców prawnych."),
 
-        h2("Strona internetowa dla kancelarii adwokackiej: informacja zamiast reklamy"),
-        p("Zasady etyki adwokackiej i radcowskiej zabraniają reklamy, ale pozwalają informować o kancelarii. W praktyce to wskazówka, jak strona ma wyglądać: rzeczowo, spokojnie, z faktami zamiast haseł. Człowiek w trudnej sytuacji i tak nie szuka sloganów, tylko odpowiedzi, czy kancelaria zajmuje się jego sprawą i kto ją poprowadzi."),
+        h2("Strona internetowa dla kancelarii adwokackiej: rzeczowa informacja zgodna z kodeksem etyki"),
+        p("Od 2023 roku adwokaci mogą posługiwać się informacją handlową (uchwała NRA nr 93/2023), a radcowie prawni mają prawo informować o wykonywaniu zawodu. Oba kodeksy etyki zakazują jednak m.in. porównań, obietnic wyniku i treści wprowadzających w błąd. W praktyce to wskazówka, jak strona ma wyglądać: rzeczowo, spokojnie, z faktami zamiast haseł. Człowiek w trudnej sytuacji i tak nie szuka sloganów, tylko odpowiedzi, czy kancelaria zajmuje się jego sprawą i kto ją poprowadzi."),
         p("Projekt graficzny jest w cenie. Zamiast Temidy, paragrafów i młotka sędziowskiego ze stocku — którego zresztą w polskich sądach się nie używa — są prawdziwe zdjęcia prawników i biura, czytelna typografia i kontakt widoczny na każdej podstronie. To ogólny opis zasad, nie porada prawna; ostateczne brzmienie tekstów zatwierdzacie Wy, zgodnie z uchwałami swojego samorządu."),
 
         h2("Co może być na stronie kancelarii: specjalizacje, zespół, kontakt i artykuły"),
@@ -120,7 +120,7 @@ export const lawyerWebsiteDevelopmentPl = {
         p("Każdy z tych elementów to także sygnał, którego Google szuka, zanim uzna stronę za wiarygodne źródło w sprawach prawnych."),
 
         h2("Wyniki spraw i opinie klientów na stronie kancelarii: na co uważać"),
-        p("Dwa elementy, które na stronach innych firm działają najlepiej, w kancelarii wymagają ostrożności. Opis wygranych spraw łatwo odczytać jako obietnicę wyniku, a nawet zanonimizowany opis bywa rozpoznawalny dla otoczenia klienta. Opinie wybrane i opublikowane przez kancelarię mogą zostać uznane za reklamę, a zabieganie o nie — za niedozwolone pozyskiwanie klientów."),
+        p("Dwa elementy, które na stronach innych firm działają najlepiej, w kancelarii wymagają ostrożności. Opis wygranych spraw łatwo odczytać jako obietnicę wyniku, a nawet zanonimizowany opis bywa rozpoznawalny dla otoczenia klienta. Opinie klientów kancelaria może publikować tylko za ich zgodą: adwokat według §23 ust. 4 Kodeksu Etyki Adwokackiej, radca prawny według art. 32 ust. 2 Kodeksu Etyki Radcy Prawnego — a radca nigdy w sprawach karnych, karnoskarbowych, o wykroczenia, rodzinnych i opiekuńczych."),
         p("Bezpieczniejsze rozwiązania, które proponuję: opis typowych spraw i przebiegu postępowania zamiast listy sukcesów, publikacje i wystąpienia prawników zamiast pochwał, a opinie tam, gdzie klienci wystawiają je sami, czyli w wizytówce Google. Czy i w jakiej formie pokazać coś więcej, decydujecie Wy, zgodnie ze stanowiskiem swojej izby."),
 
         h2("Strona dla radcy prawnego obsługującego firmy"),
@@ -205,8 +205,8 @@ export const lawyerWebsiteDevelopmentPl = {
         _type: "accordionBlock",
         items: [
           ["Ile kosztuje strona internetowa dla kancelarii adwokackiej?", "Od 3000 do 6000 zł za prostą stronę i od 8500 zł za pełną stronę z podstronami specjalizacji, sylwetkami prawników, artykułami i wersjami językowymi. Projekt graficzny jest w cenie. Po krótkim opisie kancelarii podaję stałą cenę."],
-          ["Czy strona kancelarii nie narusza zakazu reklamy?", "Zasady etyki zabraniają reklamy, ale pozwalają informować o kancelarii. Strona opisuje specjalizacje, prawników, biura i sposób kontaktu, bez superlatywów, obietnic wyniku i porównań z innymi. To ogólny opis, nie porada prawna — teksty zatwierdzacie Wy."],
-          ["Czy na stronie kancelarii można podać ceny?", "Opis sposobu rozliczenia, na przykład stawki godzinowej albo ryczałtu, jest informacją. Ceny podane jako promocja lub zachęta do powierzenia sprawy wchodzą już w obszar reklamy. Sprawdźcie stanowisko swojej izby."],
+          ["Czy strona kancelarii jest zgodna z zasadami etyki adwokatów i radców prawnych?", "Tak, jeśli jest rzeczowa: adwokaci od 2023 roku mogą posługiwać się informacją handlową, a radcowie prawni informują o wykonywaniu zawodu. Strona opisuje specjalizacje, prawników, biura i sposób kontaktu, bez superlatywów, obietnic wyniku i porównań z innymi. To ogólny opis, nie porada prawna — teksty zatwierdzacie Wy."],
+          ["Czy na stronie kancelarii można podać ceny?", "Opis sposobu rozliczenia, na przykład stawki godzinowej albo ryczałtu, jest informacją. Ceny podane jako promocja lub zachęta do powierzenia sprawy łatwo uznać za informację natarczywą lub niestosowną, której zabraniają kodeksy etyki. Sprawdźcie stanowisko swojej izby."],
           ["Czy formularz kontaktowy kancelarii musi być zgodny z RODO?", "Tak, bo zbiera dane osobowe. Formularz pyta tylko o potrzebne dane, ma klauzulę informacyjną i prośbę, żeby nie opisywać szczegółów sprawy, a wiadomość trafia tylko na skrzynkę kancelarii."],
           ["Czy strona może mieć wersję angielską i ukraińską?", "Tak. Każda wersja ma własne adresy i oznaczenia dla Google, a tłumaczone są podstrony, z którymi naprawdę przychodzą cudzoziemcy. Terminologię sprawdza prawnik, który prowadzi sprawy w tym języku."],
           ["Ile trwa stworzenie strony dla kancelarii?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna z wersjami językowymi od czterech do ośmiu. Najwięcej zależy od tego, jak szybko gotowe są sylwetki prawników i uwagi do tekstów."],

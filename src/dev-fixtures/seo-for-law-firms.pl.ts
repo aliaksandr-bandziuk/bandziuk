@@ -35,15 +35,15 @@ export const seoForLawFirmsPl = {
   title: "Pozycjonowanie strony kancelarii prawnej i adwokata",
   heading: "Pozycjonowanie strony kancelarii prawnej i adwokata",
   excerpt:
-    "Zajmuję się pozycjonowaniem stron kancelarii adwokackich i radcowskich z całej Polski: podstrony spraw, wizytówka Google każdego biura, artykuły z autorem i widoczność w odpowiedziach AI — w granicach zasad etyki, które zabraniają reklamy, ale pozwalają informować.",
+    "Zajmuję się pozycjonowaniem stron kancelarii adwokackich i radcowskich z całej Polski: podstrony spraw, wizytówka Google każdego biura, artykuły z autorem i widoczność w odpowiedziach AI — w granicach kodeksów etyki adwokatów i radców prawnych: rzeczowo, bez porównań i obietnic wyniku.",
   seo: {
     metaTitle: "Pozycjonowanie kancelarii prawnej w Google i AI | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony kancelarii adwokackiej i radcy prawnego: podstrony spraw, wizytówka Google, artykuły z autorem, AI. Bez reklamy. Audyt od 1000 zł.",
+      "Pozycjonowanie strony kancelarii adwokackiej i radcy prawnego: podstrony spraw, wizytówka Google, artykuły z autorem, AI. W granicach etyki. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Informacja, nie reklama", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Zgodnie z kodeksem etyki", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
   heroPhonePoints: ["Adwokat rozwód Poznań", "Kancelaria w Mapach Google", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO kancelarii prawnej: strona, wizytówki Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -105,7 +105,7 @@ export const seoForLawFirmsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie stron kancelarii prawnych to moja usługa dla kancelarii adwokackich i radcowskich z całej Polski: audyt, podstrony spraw, wizytówka Google dla każdego biura, artykuły z autorem i widoczność w odpowiedziach AI. Robię to sam, więc osoba, która znajduje problem na stronie, jest tą samą, która go naprawia. Pracuję w ramach zasad etyki zawodowej: strona i jej miejsce w Google informują o kancelarii, a nie ją reklamują."),
+        p("Pozycjonowanie stron kancelarii prawnych to moja usługa dla kancelarii adwokackich i radcowskich z całej Polski: audyt, podstrony spraw, wizytówka Google dla każdego biura, artykuły z autorem i widoczność w odpowiedziach AI. Robię to sam, więc osoba, która znajduje problem na stronie, jest tą samą, która go naprawia. Pracuję w ramach zasad etyki zawodowej: strona i jej miejsce w Google rzeczowo informują o kancelarii, bez porównań, ocen i obietnic wyniku."),
 
         h2("Pozycjonowanie kancelarii prawnej: co obejmuje usługa"),
         p("Klient z problemem prawnym prawie zawsze zaczyna od wyszukiwarki, nawet jeśli nazwisko prawnika dostał od znajomego. O tym, czy trafi do Was, decydują cztery miejsca:"),
@@ -115,8 +115,8 @@ export const seoForLawFirmsPl = {
         li("odpowiedzi ChatGPT, Perplexity i podsumowania AI w Google"),
         p("Pozycjonowanie kancelarii prawnej łączy te miejsca w jedną listę zadań, ułożoną według tego, co przyniesie najwięcej zapytań w sprawach, które chcecie prowadzić. Nie sprzedaję osobnych pakietów „SEO techniczne”, „treści” i „linki”."),
 
-        h2("SEO dla kancelarii a zakaz reklamy adwokatów i radców prawnych"),
-        p("Zasady etyki adwokackiej i radcowskiej zabraniają reklamy, ale pozwalają informować o działalności kancelarii. Dla pozycjonowania to dobra wiadomość, bo wyszukiwarka nagradza właśnie informację: jakimi sprawami się zajmujecie, kto je prowadzi, gdzie i w jakich językach, jak wygląda pierwszy kontakt. Rzeczowa strona, która jest wysoko w Google, to kanał, który zasady dopuszczają."),
+        h2("SEO dla kancelarii a zasady reklamy i informowania adwokatów i radców prawnych"),
+        p("Od 26 maja 2023 roku adwokaci mogą posługiwać się informacją handlową (uchwała NRA nr 93/2023), ale Kodeks Etyki Adwokackiej nadal zakazuje m.in. treści porównawczych, ocennych i stwarzających nieuzasadnione oczekiwania co do wyników. Radcowie prawni mają prawo informować o wykonywaniu zawodu (art. 31 Kodeksu Etyki Radcy Prawnego), bez treści nierzeczowych, obietnic i porównań. Dla pozycjonowania to dobra wiadomość, bo wyszukiwarka nagradza właśnie rzeczową informację: jakimi sprawami się zajmujecie, kto je prowadzi, gdzie i w jakich językach, jak wygląda pierwszy kontakt. Rzeczowa strona, która jest wysoko w Google, mieści się w zasadach obu samorządów."),
         h3("Co pomaga w pozycjonowaniu i mieści się w informacji o kancelarii"),
         li("opis specjalizacji i rodzajów spraw, z którymi przychodzą klienci"),
         li("imiona i nazwiska prawników, tytuł zawodowy, izba, języki"),
@@ -221,9 +221,9 @@ export const seoForLawFirmsPl = {
         items: [
           ["Ile kosztuje dobre pozycjonowanie strony kancelarii?", "Stałe pozycjonowanie kosztuje od 3500 zł miesięcznie, w dużych miastach i przy bardzo konkurencyjnych sprawach od 5500 zł. Audyt to od 1000 zł jednorazowo, a pojedyncze prace od 1000 do 3000 zł. Po krótkim opisie kancelarii podaję stałą cenę."],
           ["Ile trwa pozycjonowanie strony internetowej kancelarii?", "Zmiany w wizytówce i poprawki techniczne potrafią zadziałać w kilka tygodni. Nowe podstrony spraw zwykle potrzebują dwóch–czterech miesięcy, w dużych miastach dłużej. Artykuły zaczynają przyprowadzać ludzi po kilku miesiącach."],
-          ["Czy pozycjonowanie strony adwokata nie narusza zakazu reklamy?", "Zasady etyki zabraniają reklamy, ale pozwalają informować o kancelarii, a pozycjonowanie opiera się na informacji: specjalizacje, prawnicy, biura, artykuły. Nie używam superlatywów, obietnic wyniku ani cen jako zachęty. To ogólny opis, nie porada prawna — wiążące są uchwały Waszego samorządu."],
+          ["Czy pozycjonowanie strony adwokata lub radcy prawnego jest zgodne z zasadami etyki?", "Tak, jeśli treści są rzeczowe. Adwokaci od 2023 roku mogą posługiwać się informacją handlową, a radcowie prawni informują o wykonywaniu zawodu; obie grupy obowiązują zakazy porównań, obietnic wyniku i treści wprowadzających w błąd. Pozycjonowanie opiera się na informacji: specjalizacje, prawnicy, biura, artykuły. Nie używam superlatywów, obietnic wyniku ani cen jako zachęty. To ogólny opis, nie porada prawna — wiążące są uchwały Waszego samorządu."],
           ["Czy można samemu pozycjonować stronę kancelarii?", "Tak. Wizytówka Google każdego biura, osobna podstrona dla każdej specjalizacji z miastem w tytule, Google Search Console i dane zgodne z wyszukiwarką adwokatów lub radców to bezpłatny początek. Technikę i strukturę strony najczęściej warto zlecić."],
-          ["Czy kancelaria może mieć opinie klientów w Google?", "Opinie, które klienci wystawiają sami, są częścią wizytówki i pomagają w Mapach. Odpowiedź nie może ujawniać niczego o sprawie. Aktywne zabieganie o opinie i przenoszenie wybranych na stronę wymaga ostrożności, więc sprawdźcie stanowisko swojej izby."],
+          ["Czy kancelaria może mieć opinie klientów w Google?", "Opinie, które klienci wystawiają sami, są częścią wizytówki i pomagają w Mapach. Odpowiedź nie może ujawniać niczego o sprawie. Cytowanie opinii na stronie wymaga zgody klienta: u adwokatów według §23 ust. 4 Kodeksu Etyki Adwokackiej, u radców według art. 32 ust. 2 Kodeksu Etyki Radcy Prawnego — a u radców nigdy w sprawach karnych i rodzinnych. W razie wątpliwości sprawdźcie stanowisko swojej izby."],
           ["Czy ChatGPT poleca adwokatów i kancelarie?", "Tak, gdy ktoś o to zapyta. Asystent wybiera kancelarie, o których znajduje sprawdzalne fakty: specjalizacje, miasto, nazwiska prawników, artykuły z autorem i dane zgodne z rejestrem. Tę samą pracę wykonuję w ramach pozycjonowania."],
           ["Czy pracujesz z kancelariami spoza Warszawy?", "Tak, z całej Polski: z Krakowa, Wrocławia, Poznania, Trójmiasta i mniejszych miast. Pozycjonowanie robię zdalnie, z danymi wyszukiwań dla Waszego miasta i Waszych spraw."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),

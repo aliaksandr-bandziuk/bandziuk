@@ -14,7 +14,7 @@
 // rules for individual practitioner vs firm profiles, reviews and bar rules on
 // testimonials, legal directories as citations (Avvo, Justia, FindLaw,
 // Martindale-Hubbell, Super Lawyers, Nolo, state bar directories), office
-// location pages vs virtual offices, Local Services Ads (Google Screened) vs
+// location pages vs virtual offices, Local Services Ads (Google Verified) vs
 // organic.
 // NOT on this page: practice-area architecture, YMYL content, technical SEO,
 // consultant vs agency, measurement in signed cases (/seo-for-law-firms);
@@ -151,8 +151,8 @@ export const localSeoForLawyersEn = {
         li("Apple Business Connect, Bing Places and Yelp for general map apps"),
         p("For firms in the UK, Canada or Australia, the regulator’s and law society’s registers play the same role. What counts is consistency: one version of the firm name, address and phone everywhere, including old directory profiles left after a move or a name change. A few dozen accurate listings beat hundreds of automatic submissions."),
 
-        h2("Local Services Ads for lawyers (Google Screened) vs organic local SEO"),
-        p("Local Services Ads appear above the map for many legal searches. Firms that pass Google’s screening — background and license checks — get the Google Screened badge and pay per lead rather than per click. They bring calls from the first weeks, and Google lets you dispute leads that are not relevant."),
+        h2("Local Services Ads for lawyers (Google Verified) vs organic local SEO"),
+        p("Local Services Ads appear above the map for many legal searches. Firms that pass Google’s checks — including a state bar license check for each lawyer — get the Google Verified badge, which replaced Google Screened on 20 October 2025, and pay per lead rather than per click. They bring calls from the first weeks; credits for invalid leads are now applied automatically."),
         p("Organic local SEO is slower but does not charge per call, and the profile, reviews and listings stay when the budget stops. The reviews you collect on the profile also feed LSA. Many firms run both: Local Services Ads for steady calls, local SEO so they depend on them less over time. I do the organic side and track calls from the profile separately from LSA, so you can compare them."),
 
         h2("Local SEO for personal injury lawyers: the most crowded map in legal search"),

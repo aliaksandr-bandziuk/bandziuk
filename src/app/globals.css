@@ -471,3 +471,25 @@ textarea {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+/* The open mobile menu (MegaNav) locks the page behind it. */
+html.nav-locked {
+  overflow: hidden;
+}
+
+/* Phones and tablets: a thin page scrollbar in the brand colour, the same as
+   the one inside the mobile menu (where the browser lets it be styled). */
+@media screen and (max-width: 1023px) {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) transparent;
+  }
+
+  html::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 3px;
+  }
+}

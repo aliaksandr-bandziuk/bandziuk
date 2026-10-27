@@ -137,9 +137,8 @@ All `page.tsx` files, `layout.tsx` files, Header, Footer, Hero, About, Services,
 | `ModalFull` | consumes `ModalContext` |
 | `FormStandard`, `FormFull`, `FormStatic` | Formik, `onChange`, `onSubmit` |
 | `FormMinimalBlockComponent`, `FormFullBlockComponent` | wraps forms |
-| `BurgerMenu` | toggle state |
 | `LocaleSwitcher` | reads `usePathname` + `useRouter` |
-| `NavLinks`, `NavWrapper` | active link detection |
+| `NavController` (Header) | toggles `data-open` on the server-rendered menu (MegaNav) and footer accordions; renders nothing, holds no links |
 | `SliderReviews`, `SliderScreenshots` | Swiper (needs DOM) |
 | `BlogPostsRenderer` | "load more" pagination |
 | `AccordionContainer` | open/close state |
@@ -158,7 +157,7 @@ All `page.tsx` files, `layout.tsx` files, Header, Footer, Hero, About, Services,
 | `PortfolioIntroClient` | animation on mount |
 | `WorkProcess > ClientAnimationLayer` | GSAP timeline |
 | `SliderScreenshots` | Swiper |
-| `HeaderWrapper` | wraps NavWrapper which is client |
+| `HeaderWrapper` | adds the `scrolled` class on scroll (home page) |
 
 ### "use client" — questionable / unnecessary
 
@@ -1076,6 +1075,13 @@ replaces. The generator now has the footer "Resources" column in all three
 languages (sitewide), the article in each locale, and the article links back.
 `scripts/link-llms-generator.cjs` records the three in-body links that were
 added; `scripts/build-nav.cjs` owns the footer.
+
+### Header mega menu and footer (28.10.2026)
+
+- `MegaNav` (server) renders the whole menu from `header.megaMenu`: items of kind `mega` (columns with icons, links with an optional tag link such as «SEO» / «strony»), `cases` (projects + promo card), `list` (small dropdown) and `link`. One DOM for desktop (full-width panels under the fixed header, opened by CSS `:hover` / `:focus-within`) and for phones (<1024px: slide-in panel with 0fr→1fr accordions). `NavController` (client, no children) handles clicks, the burger, Escape and focus.
+- Footer (server) renders `footer.footerColumns` plus the brand block (`aboutText`, `phone`, `whatsappNumber`, `ctaLabel`); columns fold into accordions below 768px.
+- `scripts/build-nav.cjs` fills both in EN/PL/RU: every page is named by one slug, translated through translation.metadata and checked against the sitemap (`--base https://www.bandziuk.com` for pages the local sitemap cache has not seen yet). Links are stored as full paths with the language prefix. Everything stays editable in /admin.
+- A fold's direct child must carry no padding (it shows as a sliver while folded); put spacing on its last child instead.
 
 **Two parity gaps surfaced while doing it, and both are worth checking for on
 any multilingual addition:** the Polish and Russian twins of a translated

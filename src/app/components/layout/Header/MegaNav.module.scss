@@ -1,0 +1,751 @@
+// MegaNav — desktop mega menu (≥1024px) and the mobile slide-in panel
+// (<1024px), from one DOM. Opening is CSS (:hover / :focus-within) plus the
+// data-open attributes NavController sets on click; see MegaNav.tsx.
+
+$mobile: 1023px;
+$desktop: 1024px;
+
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  min-width: 0;
+}
+
+.top {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topLink {
+  background: none;
+  border: 0;
+  font: inherit;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.caret {
+  flex: none;
+  transition: transform 0.22s ease, color 0.2s ease;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rowLink {
+  color: var(--text-reading);
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--text-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-underline-offset: 3px;
+  }
+}
+
+.tag {
+  flex: none;
+  font-size: 11px;
+  line-height: 16px;
+  padding: 1px 7px;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+}
+
+.columnTitle {
+  display: flex;
+  // Icon and title share the top edge, also when a long title wraps.
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--text-primary);
+}
+
+.columnIcon {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: var(--accent-muted);
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.subTitle {
+  display: block;
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-bottom: 4px;
+}
+
+.more {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    color: #ffb07a;
+  }
+}
+
+.note {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.panelFoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.panelFootLinks {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+}
+
+.cases {
+  display: flex;
+  gap: 32px;
+}
+
+.caseGrid {
+  flex: 1 1 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.case {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  background: var(--bg-base);
+  text-decoration: none;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--border-strong);
+    background: #141418;
+  }
+}
+
+.caseTitle {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.caseResult {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.promo {
+  width: 340px;
+  flex: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  border-radius: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.promoKicker {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.promoTitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.promoText {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.dropList {
+  list-style: none;
+  margin: 0;
+  padding: 8px 16px;
+}
+
+.burger {
+  display: none;
+}
+
+/* ── Desktop: mega panels under the header ──────────────────────────────── */
+@media screen and (min-width: $desktop) {
+  // The panel wrapper exists for the phone layout only.
+  .panelMobile {
+    display: contents;
+  }
+
+  .mobileFoot,
+  .mobileTop {
+    display: none;
+  }
+
+  .top {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+    @media screen and (max-width: 1280px) {
+      gap: 20px;
+    }
+  }
+
+  // Static, so a panel positions against the fixed header and spans its width.
+  .topItem {
+    position: static;
+  }
+
+  .topLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 0;
+    font-size: 17px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      width: 0;
+      height: 2px;
+      background: var(--accent);
+      transition: width 0.3s ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: #fff;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+
+    // An invisible bridge from the item down over the header padding to the
+    // panel: the pointer never leaves the item on its way to the links.
+    &::before {
+      content: "";
+      position: absolute;
+      left: -14px;
+      right: -14px;
+      top: 100%;
+      height: 30px;
+    }
+  }
+
+  .panel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 60;
+    background: var(--bg-surface);
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    // Closing waits: visibility switches off only after the fade, and until
+    // then the panel still takes the pointer — a slow move from the item down
+    // to the panel catches it before it goes.
+    transition: opacity 0.2s ease 0.12s, transform 0.2s cubic-bezier(0.2, 0.7, 0.2, 1) 0.12s, visibility 0s linear 0.32s;
+
+    // Bridges the header padding under the item, so the panel does not close
+    // while the pointer travels down to it.
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -18px;
+      height: 18px;
+    }
+  }
+
+  @media (hover: hover) {
+    .topItem:hover > .panel {
+      opacity: 1;
+      visibility: visible;
+      transform: none;
+      transition-delay: 0s;
+    }
+
+    .topItem:hover > .topLink .caret {
+      transform: rotate(180deg);
+    }
+  }
+
+  .topItem:focus-within > .panel,
+  .topItem[data-open] > .panel {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition-delay: 0s;
+  }
+
+  .topItem[data-open] > .topLink {
+    color: #fff;
+
+    &::after {
+      width: 100%;
+    }
+
+    .caret {
+      transform: rotate(180deg);
+    }
+  }
+
+  // A small dropdown sits under its own item, not across the page.
+  .kind_list {
+    position: relative;
+
+    > .panel {
+      left: 50%;
+      right: auto;
+      width: 280px;
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      transform: translate(-50%, -8px);
+    }
+
+    &[data-open] > .panel,
+    &:focus-within > .panel {
+      transform: translate(-50%, 0);
+    }
+
+    @media (hover: hover) {
+      &:hover > .panel {
+        transform: translate(-50%, 0);
+      }
+    }
+
+    .row {
+      padding: 8px 0;
+    }
+  }
+
+  .panelInner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 28px 20px 0;
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+    gap: 28px;
+
+    @media screen and (max-width: 1279px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      row-gap: 32px;
+    }
+  }
+
+  .column {
+    padding-right: 12px;
+    border-right: 1px solid var(--border-subtle);
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
+
+  .columnTitle {
+    pointer-events: none;
+    line-height: 1.35;
+
+    // The first line of the title sits level with the top of the icon box.
+    > span:not(.columnIcon) {
+      padding-top: 1px;
+    }
+
+    .caret {
+      display: none;
+    }
+  }
+
+  .list {
+    margin-top: 12px;
+  }
+
+  .row {
+    padding: 4px 0;
+  }
+
+  .rowLink {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .panelFoot {
+    margin-top: 24px;
+    padding: 16px 0 20px;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .kind_cases .panelFoot {
+    margin-top: 16px;
+  }
+
+  .cases {
+    padding-bottom: 4px;
+  }
+}
+
+/* ── Phone and tablet: slide-in panel with accordions ───────────────────── */
+@media screen and (max-width: $mobile) {
+  .burger {
+    position: relative;
+    z-index: 1101;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background: none;
+    border: 1px solid var(--border-strong);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    transition: transform 0.3s ease, opacity 0.2s ease;
+  }
+
+  .root[data-menu-open] .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .root[data-menu-open] .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .root[data-menu-open] .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .panelMobile {
+    position: fixed;
+    inset: 0;
+    z-index: 1100;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    background: var(--bg-base);
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: transform 0.32s cubic-bezier(0.2, 0.7, 0.2, 1), visibility 0s linear 0.32s;
+  }
+
+  .root[data-menu-open] .panelMobile {
+    transform: none;
+    visibility: visible;
+    transition-delay: 0s;
+  }
+
+  // Language switcher at the top of the panel.
+  .mobileTop {
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  // The scrolling list, with a thin scrollbar in the brand colour.
+  .nav {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 20px 16px;
+    border-top: 1px solid var(--border-subtle);
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) transparent;
+
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--accent);
+      border-radius: 3px;
+    }
+  }
+
+  .topItem {
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .topLink {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 56px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: var(--text-primary);
+
+    .caret {
+      width: 18px;
+      height: 18px;
+      color: var(--text-secondary);
+    }
+  }
+
+  .topItem[data-open] > .topLink .caret {
+    transform: rotate(180deg);
+    color: var(--accent);
+  }
+
+  // Folds: one child each, 0fr → 1fr.
+  .panel,
+  .columnBody {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.28s cubic-bezier(0.2, 0.7, 0.2, 1);
+
+    > * {
+      overflow: hidden;
+      min-height: 0;
+    }
+  }
+
+  .topItem[data-open] > .panel,
+  .column[data-open] > .columnBody {
+    grid-template-rows: 1fr;
+  }
+
+  // No padding on a fold's direct child: in a 0fr row the padding would
+  // still show as a sliver of the collapsed content.
+  .panelInner {
+    padding: 0;
+
+    > :last-child {
+      margin-bottom: 8px;
+    }
+  }
+
+  .columns {
+    margin-left: 4px;
+    padding-left: 12px;
+    border-left: 1px solid var(--border-subtle);
+  }
+
+  .columnTitle {
+    min-height: 48px;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text-reading);
+
+    .caret {
+      margin-left: auto;
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .column[data-open] > .columnTitle {
+    color: var(--accent);
+
+    .caret {
+      transform: rotate(180deg);
+    }
+  }
+
+  .columnIcon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .fold > :last-child {
+    margin-bottom: 8px;
+  }
+
+  .row {
+    min-height: 40px;
+  }
+
+  .rowLink {
+    font-size: 15px;
+  }
+
+  .tag {
+    font-size: 12px;
+    padding: 3px 9px;
+  }
+
+  .panelFoot {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 0 4px 16px;
+  }
+
+  .panelCta {
+    display: none !important;
+  }
+
+  .cases {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .caseGrid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .promo {
+    width: auto;
+    padding: 16px;
+  }
+
+  .dropList {
+    padding: 0;
+    margin-left: 16px;
+
+    > :last-child {
+      margin-bottom: 8px;
+    }
+  }
+
+  .mobileFoot {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px 20px 20px;
+    border-top: 1px solid var(--border-subtle);
+    background: #000307;
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 44px;
+    border: 1px solid var(--border-strong);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+
+    svg {
+      color: #25d366;
+    }
+  }
+
+  .mobileCta {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel,
+  .panelMobile,
+  .columnBody,
+  .caret,
+  .bar {
+    transition: none !important;
+  }
+}

@@ -37,6 +37,14 @@ export type Footer = {
   title: string;
   contactsSection: ContactsSection;
   logo: Image;
+  /** Two or three sentences under the logo. */
+  aboutText?: string;
+  /** As it should read, e.g. +48 786 517 446; links to WhatsApp. */
+  phone?: string;
+  /** Digits only; falls back to the digits of `phone`. */
+  whatsappNumber?: string;
+  /** Label of the button that opens the contact dialog. */
+  ctaLabel?: string;
   socialLinks: SocialLink[];
   footerColumns: FooterColumn[];
   copyright: string;

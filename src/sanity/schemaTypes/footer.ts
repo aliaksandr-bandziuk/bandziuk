@@ -117,6 +117,31 @@ const footer = {
       title: "Logo",
       type: "image",
     }),
+    // Brand block of the footer, beside the link columns.
+    defineField({
+      name: "aboutText",
+      title: "About text (under the logo)",
+      type: "text",
+      rows: 3,
+    }),
+    defineField({
+      name: "phone",
+      title: "Phone (links to WhatsApp)",
+      description: "As it should read, e.g. +48 786 517 446. Empty hides it.",
+      type: "string",
+    }),
+    defineField({
+      name: "whatsappNumber",
+      title: "WhatsApp number",
+      description: "Digits only, with the country code. When empty it is taken from the phone.",
+      type: "string",
+    }),
+    defineField({
+      name: "ctaLabel",
+      title: "Button label",
+      description: "Opens the contact dialog. Empty hides the button.",
+      type: "string",
+    }),
     defineField({
       name: "socialLinks",
       title: "Social links",
@@ -154,6 +179,7 @@ const footer = {
             }),
             defineField({
               name: "links",
+              description: "Full paths with the language prefix. On a phone each column folds into an accordion.",
               title: "Links",
               type: "array",
               of: [

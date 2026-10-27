@@ -16,6 +16,7 @@ export async function getHeaderByLang(lang: string): Promise<Header> {
     logo,
     logoMobile,
     navLinks,
+    megaMenu,
     buttonLabel,
     phone,
     whatsappNumber,
@@ -112,6 +113,10 @@ export async function getFooterByLang(lang: string) {
   const footerQuery = groq`*[_type == "footer" && language == $lang][0] {
     _id,
     logo,
+    aboutText,
+    phone,
+    whatsappNumber,
+    ctaLabel,
     socialLinks,
     footerColumns,
     copyright,

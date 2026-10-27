@@ -629,6 +629,98 @@ const TOPICS = {
       ru: ["сайт для модели"],
     },
   },
+  // Stage 4 — PL/RU versions of EN-only industry pages (27.10.2026). Only topics without an
+  // existing PL/RU page: trades (electricians, plumbers, HVAC, roofing, landscaping, painters),
+  // renovation contractors, doctors SEO, veterinary SEO (PL), personal injury, startups SEO,
+  // B2B, nonprofits, IT companies, architects SEO (RU), short-term rentals.
+  "pl-ru-industries": {
+    relevant: /elektry|hydraulik|instalac|klimatyz|pomp[ay] ciepła|wentylac|dach|dekarz|ogrod|ogród|malarz|malowan|remont|wykończ|lekarz|gabinet|weteryn|odszkodow|wypadk|startup|b2b|fundacj|stowarzysz|ngo|firm[ay] it|software house|wynajem krótkoterminow|apartament|электрик|сантехник|кондиционер|вентиляц|кровл|кровельщ|ландшафт|маляр|ремонт|отделк|врач|клиник|ветеринар|дтп|страхов|стартап|b2b|нко|фонд|благотвор|it.компан|разработчик|архитект|посуточн|апартамент/i,
+    otherPage: {
+      "construction company pages": /firma budowlan|budowlan|строительн/i,
+      "hotel / guesthouse pages": /hotel|pensjonat|отел|гостев/i,
+    },
+    groups: {
+      "electricians": /elektry|электрик/i,
+      "plumbers / HVAC": /hydraulik|instalac|klimatyz|pomp|wentylac|сантехник|кондиционер|вентиляц/i,
+      "roofing": /dach|dekarz|кровл/i,
+      "landscaping": /ogrod|ogród|ландшафт/i,
+      "painters / renovation": /malarz|malowan|remont|wykończ|маляр|ремонт|отделк/i,
+      "doctors / vets": /lekarz|gabinet|weteryn|врач|клиник|ветеринар/i,
+      "personal injury": /odszkodow|wypadk|дтп|страхов/i,
+      "startups / b2b / it": /startup|b2b|firm[ay] it|software|стартап|it.компан|разработчик/i,
+      "nonprofits": /fundacj|stowarzysz|ngo|нко|фонд|благотвор/i,
+      "architects": /архитект/i,
+      "short-term rentals": /wynajem|apartament|посуточн|апартамент/i,
+    },
+    seeds: {
+      en: [],
+      pl: ["strona internetowa dla elektryka", "pozycjonowanie firmy elektrycznej", "strona dla hydraulika", "pozycjonowanie hydraulika", "strona dla firmy klimatyzacyjnej", "pozycjonowanie firmy dekarskiej", "strona dla firmy dekarskiej", "pozycjonowanie firmy ogrodniczej", "strona dla firmy ogrodniczej", "pozycjonowanie firmy remontowej", "strona dla firmy remontowej", "pozycjonowanie gabinetu lekarskiego", "pozycjonowanie kancelarii odszkodowawczej", "pozycjonowanie startupu", "strona dla firmy b2b", "pozycjonowanie fundacji", "strona dla firmy it", "strona dla apartamentów na wynajem"],
+      ru: ["сайт для электрика", "продвижение сайта электрика", "сайт для сантехника", "продвижение сайта сантехника", "сайт для монтажа кондиционеров", "сайт кровельной компании", "сайт ландшафтного дизайна", "продвижение сайта ремонта квартир", "продвижение юриста по дтп", "продвижение стартапа", "сайт для b2b компании", "сайт благотворительного фонда", "продвижение сайта фонда", "сайт для it компании", "продвижение it компании", "продвижение архитектурного бюро", "сайт для посуточной аренды"],
+    },
+    serp: {
+      en: [],
+      pl: ["pozycjonowanie firmy remontowej", "strona internetowa dla elektryka"],
+      ru: ["сайт для электрика", "продвижение сайта ремонта квартир"],
+    },
+  },
+  // Step 2 (27.10.2026) — general service pages, not industry: gaps against the live hubs.
+  // Existing: website development, landing pages (EN/PL/RU), SEO strategy, audit, technical
+  // SEO, local, international, AI SEO consultant, ChatGPT/LLM SEO, Shopify SEO, ecommerce SEO.
+  // Owner's scope: no online shops in PL/RU (Shopify/PrestaShop shop building is out).
+  "general-services": {
+    relevant: /seo|cro|conversion|wordpress|next\.?js|shopify|website (development|design) cost|cost of a website|pozycjonow|strona wizytówka|wizytówk|wordpress|specjalist|freelanc|agencj|konsultac|cennik|продвижен|раскрутк|seo|сайт.визитк|визитк|wordpress|специалист|фрилансер|агентств|консультац/i,
+    otherPage: {
+      "landing pages (ours)": /landing|лендинг/i,
+      "pricing (ours)": /^(?!.*(website|strony|сайт)).*(cennik|pricing|цены)/i,
+    },
+    groups: {
+      "CRO": /cro\b|conversion/i,
+      "WordPress": /wordpress/i,
+      "Next.js": /next\.?js/i,
+      "Shopify": /shopify/i,
+      "cost": /cost|ile kosztuje|cennik|стоимост|сколько стоит|цена/i,
+      "consultant / freelancer / specialist": /consult|freelanc|specjalist|konsultac|специалист|фрилансер|консультац/i,
+      "agency": /agency|agencj|агентств/i,
+      "business card site": /wizytówk|визитк/i,
+      "general promotion (RU)": /продвижение сайт|раскрутк/i,
+    },
+    seeds: {
+      en: ["conversion rate optimization services", "wordpress development services", "nextjs development services", "shopify development services", "seo consultant", "website development cost"],
+      pl: ["freelancer seo", "specjalista seo", "agencja seo", "konsultacje seo", "strona wizytówka", "strona na wordpress", "ile kosztuje pozycjonowanie"],
+      ru: ["продвижение сайта", "раскрутка сайта", "seo специалист", "seo консультация", "seo агентство", "сайт визитка", "сайт на wordpress"],
+    },
+    serp: {
+      en: ["seo consultant", "wordpress development services"],
+      pl: ["freelancer seo"],
+      ru: ["продвижение сайта", "seo специалист"],
+    },
+  },
+  // Deferred topics (27.10.2026): food venues PL/RU wording + SEO for property developers EN/PL/RU.
+  "food-developer": {
+    relevant: /develop|dewelop|застройщ|жк\b|жилой комплекс|inwestycj|cafe|café|coffee|kawiarn|кафе|кофейн|bakery|piekarn|пекарн|cater|кейтеринг|food truck|foodtruck|фудтрак|bistro|бистро|bar\b|бар\b/i,
+    otherPage: {
+      "restaurants (ours)": /restaur|ресторан/i,
+      "realtors (ours)": /realtor|real estate agent|biur\w* nieruchomo|агентств\w* недвижим|риелтор|риэлтор/i,
+    },
+    groups: {
+      "developer SEO / marketing": /(develop|dewelop|застройщ|жк\b|жилой комплекс|inwestycj).*(seo|pozycjon|marketing|продвиж|маркетинг|реклам)|(seo|pozycjon|marketing|продвиж|маркетинг|реклам).*(develop|dewelop|застройщ|жк\b|жилой комплекс)/i,
+      "developer website": /(develop|dewelop|застройщ|жк\b).*(website|strona|сайт)|(website|strona|сайт).*(develop|dewelop|застройщ|жк\b)/i,
+      "cafe / coffee shop": /cafe|café|coffee|kawiarn|кафе|кофейн/i,
+      "bakery": /bakery|piekarn|пекарн|cukierni|кондитер/i,
+      "catering": /cater|кейтеринг/i,
+      "food truck": /food ?truck|фудтрак/i,
+    },
+    seeds: {
+      en: ["real estate developer seo", "property developer seo", "real estate developer marketing", "cafe seo"],
+      pl: ["pozycjonowanie strony dewelopera", "marketing dewelopera", "strona internetowa dla kawiarni", "strona dla kawiarni", "strona internetowa dla cateringu", "strona dla piekarni", "pozycjonowanie kawiarni"],
+      ru: ["продвижение сайта застройщика", "маркетинг застройщика", "продвижение жк", "сайт для кафе", "сайт кофейни", "продвижение кафе", "сайт для кейтеринга"],
+    },
+    serp: {
+      en: ["real estate developer seo"],
+      pl: ["strona dla kawiarni"],
+      ru: ["продвижение сайта застройщика", "сайт для кафе"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

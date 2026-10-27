@@ -496,6 +496,56 @@ PAIR_SETS["adult"] = [
   ["ru: сайты для взрослых = продвижение?", "ru", "сайт для взрослых разработка", "продвижение сайтов для взрослых"],
 ];
 
+PAIR_SETS["pl-ru-industries"] = [
+  ["pl: elektryk strona = pozycjonowanie?", "pl", "strona internetowa dla elektryka", "pozycjonowanie firmy elektrycznej"],
+  ["pl: hydraulik strona = pozycjonowanie?", "pl", "strona dla hydraulika", "pozycjonowanie hydraulika"],
+  ["pl: firma remontowa = firma budowlana (nasza)?", "pl", "strona dla firmy remontowej", "strona dla firmy budowlanej"],
+  ["pl: pozycjonowanie firmy remontowej = budowlanej (nasza)?", "pl", "pozycjonowanie firmy remontowej", "pozycjonowanie firmy budowlanej"],
+  ["pl: dekarz strona = pozycjonowanie?", "pl", "strona dla firmy dekarskiej", "pozycjonowanie firmy dekarskiej"],
+  ["pl: ogród strona = pozycjonowanie?", "pl", "strona dla firmy ogrodniczej", "pozycjonowanie firmy ogrodniczej"],
+  ["pl: kancelaria odszkodowawcza = kancelaria prawna (nasza)?", "pl", "pozycjonowanie kancelarii odszkodowawczej", "pozycjonowanie kancelarii prawnej"],
+  ["pl: apartamenty = pensjonat (nasza)?", "pl", "strona dla apartamentów na wynajem", "strona dla pensjonatu"],
+  ["ru: электрик сайт = продвижение?", "ru", "сайт для электрика", "продвижение сайта электрика"],
+  ["ru: сантехник сайт = продвижение?", "ru", "сайт для сантехника", "продвижение сайта сантехника"],
+  ["ru: продвижение ремонта = сайт ремонта (наша)?", "ru", "продвижение сайта ремонта квартир", "сайт для ремонта квартир"],
+  ["ru: фонд сайт = продвижение?", "ru", "сайт благотворительного фонда", "продвижение сайта фонда"],
+  ["ru: it сайт = продвижение?", "ru", "сайт для it компании", "продвижение it компании"],
+  ["ru: посуточная аренда = гостевой дом (наша)?", "ru", "сайт для посуточной аренды", "сайт гостевого дома"],
+];
+
+PAIR_SETS["general-services"] = [
+  ["en: CRO — услуга или информация?", "en", "conversion rate optimization services", "conversion rate optimization"],
+  ["en: wordpress development = website development (наша)?", "en", "wordpress development services", "website development services"],
+  ["en: nextjs development = website development (наша)?", "en", "nextjs development services", "website development services"],
+  ["en: shopify development = shopify seo (наша)?", "en", "shopify development services", "shopify seo services"],
+  ["en: seo consultant = ai seo consultant (наша)?", "en", "seo consultant", "ai seo consultant"],
+  ["en: seo consultant = seo services?", "en", "seo consultant", "seo services"],
+  ["en: website development cost — услуга или статья (pricing)?", "en", "website development cost", "website development pricing"],
+  ["pl: freelancer seo = specjalista seo?", "pl", "freelancer seo", "specjalista seo"],
+  ["pl: specjalista seo = agencja seo?", "pl", "specjalista seo", "agencja seo"],
+  ["pl: konsultacje seo = specjalista seo?", "pl", "konsultacje seo", "specjalista seo"],
+  ["pl: strona wizytówka = tworzenie stron (nasza)?", "pl", "strona wizytówka", "tworzenie stron internetowych"],
+  ["pl: strona na wordpress = tworzenie stron (nasza)?", "pl", "strona na wordpress", "tworzenie stron internetowych"],
+  ["pl: ile kosztuje pozycjonowanie = cennik pozycjonowania?", "pl", "ile kosztuje pozycjonowanie", "cennik pozycjonowania"],
+  ["ru: продвижение сайта = seo оптимизация сайта (наша)?", "ru", "продвижение сайта", "seo оптимизация сайта"],
+  ["ru: раскрутка сайта = продвижение сайта?", "ru", "раскрутка сайта", "продвижение сайта"],
+  ["ru: seo специалист = seo агентство?", "ru", "seo специалист", "seo агентство"],
+  ["ru: seo консультация = seo специалист?", "ru", "seo консультация", "seo специалист"],
+  ["ru: сайт визитка = создание сайта (наша)?", "ru", "сайт визитка", "создание сайта"],
+  ["ru: сайт на wordpress = создание сайта (наша)?", "ru", "сайт на wordpress", "создание сайта"],
+];
+
+PAIR_SETS["food-developer"] = [
+  ["en: developer SEO = realtor SEO (наша)?", "en", "real estate developer seo", "real estate seo"],
+  ["en: developer SEO = developer website (наша)?", "en", "real estate developer seo", "real estate developer website"],
+  ["pl: deweloper SEO = biuro nieruchomości SEO (nasza)?", "pl", "pozycjonowanie strony dewelopera", "pozycjonowanie biura nieruchomości"],
+  ["ru: застройщик SEO = агентство недвижимости SEO (наша)?", "ru", "продвижение сайта застройщика", "продвижение сайта агентства недвижимости"],
+  ["en: cafe SEO = restaurant SEO (наша)?", "en", "cafe seo", "restaurant seo"],
+  ["en: catering SEO = restaurant SEO (наша)?", "en", "catering seo", "restaurant seo"],
+  ["pl: kawiarnia = restauracja (strona)?", "pl", "strona dla kawiarni", "strona internetowa dla restauracji"],
+  ["ru: кафе = ресторан (сайт)?", "ru", "сайт для кафе", "сайт для ресторана"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

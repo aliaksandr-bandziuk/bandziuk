@@ -1,0 +1,128 @@
+[
+  {
+    "id": "singlepage-pozycjonowanie-warszawa.pl",
+    "slug": "pozycjonowanie-stron-warszawa",
+    "heading": "Pozycjonowanie stron w Warszawie w AI: widoczność w ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Coraz więcej osób w Warszawie nie wpisuje frazy, tylko zadaje pytanie asystentowi: „Jaka firma na Ursynowie zamontuje klimatyzację przed lipcem?”, „Polecisz biuro rachunkowe na Pradze, które prowadzi księgowość po angielsku?”. ChatGPT, Perplexity i Google AI Overviews odpowiadają kilkoma nazwami z krótkim uzasadnieniem — bez mapy i bez dziesięciu wyników do porównania." },
+      { "type": "p", "text": "Tym zajmują się GEO (generative engine optimization), czyli wejście do odpowiedzi, które AI składa z wielu źródeł, i AEO (answer engine optimization), czyli podanie informacji tak, żeby dało się ją zacytować jednym zdaniem. Żeby asystent wymienił waszą firmę, musi o niej przeczytać:" },
+      { "type": "li", "text": "fakty zapisane tekstem: usługi, widełki cen, godziny, dzielnice, do których dojeżdżacie, i języki obsługi — dokładnie to, co odróżnia was przy zapytaniu z usługą i dzielnicą;" },
+      { "type": "li", "text": "dane strukturalne schema.org: LocalBusiness albo właściwy podtyp, Service dla każdej usługi i areaServed z dzielnicami, które faktycznie obsługujecie;" },
+      { "type": "li", "text": "te same dane wszędzie: nazwa, adres, telefon i godziny identyczne na stronie, w Google, na pkt.pl i w Panoramie Firm, bo przy rozbieżnościach model nie wie, której wersji wierzyć;" },
+      { "type": "li", "text": "bezpośrednie odpowiedzi na pytania klientów na stronach: jedno pytanie, jedna konkretna odpowiedź, zamiast ogólnego opisu oferty." },
+      { "type": "p", "text": "Przed pracą i po niej sprawdzam tymi samymi pytaniami, co o waszej firmie mówią ChatGPT, Google AI Overviews i Perplexity — a miejsca w takiej odpowiedzi, podobnie jak pierwszej trójki na mapie, nikt nie zagwarantuje. Szczegóły tej usługi opisuję na stronie [pozycjonowanie w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-budowlana-warszawa.pl",
+    "slug": "pozycjonowanie-strony-firmy-budowlanej-warszawa",
+    "heading": "Pozycjonowanie strony firmy budowlanej w Warszawie w AI: jak trafić do odpowiedzi ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Klient przed remontem coraz częściej pyta asystenta wprost: „Jaka firma na Bemowie wyremontuje łazienkę 5 m² z umową i gwarancją?”, „Ile kosztuje wykończenie mieszkania 60 m² od dewelopera na Białołęce i ile to trwa?”. ChatGPT czy Google AI Overviews odpowiadają kilkoma firmami i powodami wyboru, a te powody biorą z tego, co da się o firmie sprawdzić." },
+      { "type": "p", "text": "GEO (generative engine optimization) to praca nad tym, żeby firma trafiała do odpowiedzi składanych przez AI, a AEO (answer engine optimization) — nad tym, żeby strona dawała odpowiedzi, które da się przytoczyć dosłownie. O firmie remontowej asystent musi znaleźć:" },
+      { "type": "li", "text": "fakty tekstem, a nie na zdjęciu certyfikatu: zakresy robót z ceną za metr, czas typowej realizacji, dzielnice, w których pracujecie, oraz opisane wyżej dowody istnienia firmy;" },
+      { "type": "li", "text": "dane strukturalne: HomeAndConstructionBusiness lub GeneralContractor, osobny Service dla każdego zakresu (łazienka, wykończenie pod klucz, elewacja) i areaServed;" },
+      { "type": "li", "text": "spójne dane w profilu firmy w Google, na Oferteo, Fixly i w Panoramie Firm — ta sama nazwa, adres i zakres robót, bez starych numerów telefonów sprzed zmiany siedziby;" },
+      { "type": "li", "text": "odpowiedzi na pytania zadawane przed podpisaniem umowy: jak rozliczane są prace dodatkowe, kto wywozi gruz, czy pomagacie przy zgłoszeniu robót i co dzieje się z zaliczką przy przesunięciu terminu." },
+      { "type": "p", "text": "Przed rozpoczęciem pracy i po jej zakończeniu stawiam Perplexity, ChatGPT i Google AI Overviews identyczne pytania i porównuję, jak opisują Waszą firmę. Jak wygląda ta usługa w szczegółach, opisuję na stronie [pozycjonowanie strony w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-sprzatanie-warszawa.pl",
+    "slug": "pozycjonowanie-strony-firmy-sprzatajacej-warszawa",
+    "heading": "Pozycjonowanie strony firmy sprzątającej w Warszawie w AI: obecność w ChatGPT, Perplexity i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Część klientów nie przegląda już wyników, tylko pyta: „Kto posprząta mieszkanie 50 m² po remoncie na Woli jeszcze w tym tygodniu?”, „Która firma sprzątająca w Warszawie ma OC i podpisze umowę na stałe sprzątanie biura na Mokotowie?”. Asystent odpowiada dwiema, trzema nazwami i wybiera te, o których ma co powiedzieć." },
+      { "type": "p", "text": "GEO (generative engine optimization) oznacza obecność w odpowiedziach, które AI pisze samo, a AEO (answer engine optimization) — treść odpowiadającą na pytanie wprost, tak żeby asystent mógł ją powtórzyć. Firma sprzątająca potrzebuje do tego:" },
+      { "type": "li", "text": "faktów tekstem: stawek za metr lub godzinę, czasu sprzątania przy typowych metrażach, listy dzielnic i informacji, czy przywozicie własne środki i sprzęt;" },
+      { "type": "li", "text": "danych schema.org: schema.org nie ma osobnego typu dla sprzątania, więc LocalBusiness z oddzielnymi Service dla mieszkań, biur i sprzątania po remoncie, z areaServed i priceSpecification;" },
+      { "type": "li", "text": "tych samych danych w profilu firmy w Google, na Fixly i Oferteo, gdzie w tej branży szuka się wykonawców — nazwa, telefon, zasięg i godziny bez rozbieżności;" },
+      { "type": "li", "text": "odpowiedzi na pytania z pierwszej rozmowy, każda w jednym akapicie: czy trzeba być w domu, jak przekazać klucze, z jakim wyprzedzeniem zamówić i czy wystawiacie fakturę wspólnocie mieszkaniowej." },
+      { "type": "p", "text": "Zanim zacznę i po zakończeniu pracy sprawdzam, jakimi słowami Google AI Overviews, ChatGPT i Perplexity opisują Waszą firmę w odpowiedzi na te same pytania. Całą usługę opisuję na stronie [pozycjonowanie w ChatGPT i innych asystentach AI](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-stomatologia-warszawa.pl",
+    "slug": "pozycjonowanie-strony-gabinetu-stomatologicznego-warszawa",
+    "heading": "Pozycjonowanie strony gabinetu stomatologicznego w Warszawie w AI: gabinet w odpowiedziach ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Pacjenci obu ścieżek, pilnej i planowej, coraz częściej pytają asystenta: „Który dentysta na Ursynowie przyjmie dziś wieczorem z bólem zęba?”, „Ile kosztuje implant z koroną w Warszawie i ile wizyt trzeba zaplanować?”. ChatGPT albo Google AI Overviews odpowiadają kilkoma gabinetami, a gabinetu, o którym nie ma czego przeczytać, w tej odpowiedzi nie będzie." },
+      { "type": "p", "text": "GEO (generative engine optimization) dotyczy trafiania do odpowiedzi tworzonych przez AI, AEO (answer engine optimization) — formułowania treści tak, żeby dało się ją przytoczyć jako gotową odpowiedź. O gabinecie asystent musi przeczytać:" },
+      { "type": "li", "text": "fakty tekstem na stronie, nie tylko w wizytówce: godziny z sobotami i dyżurami, przedziały cen zabiegów, informację, czy przyjmujecie na NFZ, i języki, w których rozmawiają lekarze;" },
+      { "type": "li", "text": "dane strukturalne: Dentist z openingHoursSpecification, Person dla każdego lekarza ze specjalizacją i knowsLanguage, MedicalProcedure na podstronach zabiegów planowych;" },
+      { "type": "li", "text": "zgodne dane w profilu w Google, na ZnanyLekarz i w Panoramie Firm — zwłaszcza listę lekarzy, bo nieaktualny profil lekarza, który już u Was nie przyjmuje, asystent może podać jako aktualny;" },
+      { "type": "li", "text": "rzeczowe odpowiedzi na pytania pacjentów, w granicach zasad reklamy medycznej: co zrobić z bólem w nocy przed otwarciem gabinetu, ile trwa gojenie po ekstrakcji ósemki, czy znieczulenie jest w cenie." },
+      { "type": "p", "text": "Zanim cokolwiek zmienię, a potem po wdrożeniu, pytam Perplexity, Google AI Overviews i ChatGPT tak, jak zapytaliby pacjenci, i zapisuję, co mówią o Waszym gabinecie. Więcej o tej usłudze piszę na stronie [pozycjonowanie gabinetu w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-kancelaria-warszawa.pl",
+    "slug": "pozycjonowanie-strony-kancelarii-prawnej-warszawa",
+    "heading": "Pozycjonowanie strony kancelarii prawnej w Warszawie w AI: widoczność kancelarii w ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Klient z problemem prawnym coraz częściej opisuje go asystentowi: „Jaki adwokat w Warszawie poprowadzi podział majątku po rozwodzie, jeśli mamy wspólny kredyt?”, „Czy jakaś kancelaria na Woli pomoże po ukraińsku w sprawie o zaległe wynagrodzenie?”. Skoro niewiele kancelarii opisuje swoje sprawy, AI składa odpowiedź z portali i katalogów — ta sama cisza, o której piszę wyżej, tylko w nowym kanale." },
+      { "type": "p", "text": "GEO (generative engine optimization) to praca nad obecnością w odpowiedziach generowanych przez AI, a AEO (answer engine optimization) — pisanie odpowiedzi na pytania klientów na tyle precyzyjnie, żeby dało się je zacytować. Żeby asystent wskazał Waszą kancelarię, musi znaleźć:" },
+      { "type": "li", "text": "fakty tekstem: rodzaje prowadzonych spraw nazwane słowami klienta, tytuł zawodowy i izbę, języki oraz sposób rozliczenia — godzinowo czy ryczałtem;" },
+      { "type": "li", "text": "dane strukturalne: LegalService dla kancelarii i Person dla każdego prawnika z knowsLanguage, memberOf wskazującym izbę i opisem specjalizacji;" },
+      { "type": "li", "text": "te same dane w wizytówce Google, w Panoramie Firm i w oficjalnym rejestrze adwokatów lub radców prawnych, żeby nazwisko, adres i tytuł zawodowy nie różniły się między źródłami;" },
+      { "type": "li", "text": "krótkie odpowiedzi na pytania sprzed pierwszego spotkania: jakie dokumenty przynieść, ile kosztuje konsultacja, czy da się ją odbyć zdalnie i co zrobić, zanim minie termin na odpowiedź na pozew." },
+      { "type": "p", "text": "Na wejściu i po wdrożeniu zadaję Google AI Overviews, Perplexity i ChatGPT pytania, jakie zadają Wasi klienci, i porównuję, jak przedstawiają kancelarię. Szczegóły opisuję na stronie [pozycjonowanie kancelarii w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-przychodnia-warszawa.pl",
+    "slug": "pozycjonowanie-strony-przychodni-warszawa",
+    "heading": "Pozycjonowanie strony przychodni w Warszawie w AI: jak placówka trafia do ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Pacjent, który nie wie, do kogo iść, coraz częściej pyta asystenta: „Która przychodnia na Mokotowie przyjmuje do endokrynologa na NFZ?”, „Do jakiego lekarza w Warszawie iść z kołataniem serca i gdzie najszybciej dostanę termin?”. To ta sama luka między objawem a nazwą poradni, o której piszę wyżej, tyle że wypełnia ją już AI, a nie forum." },
+      { "type": "p", "text": "GEO (generative engine optimization) oznacza trafianie do odpowiedzi, które AI układa samo, a AEO (answer engine optimization) — pisanie tak, żeby fragment strony nadawał się na gotową odpowiedź. Asystent musi przeczytać o placówce:" },
+      { "type": "li", "text": "fakty tekstem przy każdej poradni: NFZ, prywatnie czy w abonamencie, czy potrzebne jest skierowanie, godziny rejestracji i adres z dzielnicą;" },
+      { "type": "li", "text": "dane strukturalne: MedicalClinic z medicalSpecialty i availableService oraz Physician dla każdego lekarza, powiązany z placówką;" },
+      { "type": "li", "text": "zgodne dane w profilu w Google i na ZnanyLekarz, gdzie pacjenci sprawdzają lekarzy z nazwiska — lekarz, który od roku u Was nie przyjmuje, nie powinien figurować w żadnym z tych miejsc;" },
+      { "type": "li", "text": "odpowiedzi łączące objaw z poradnią, w granicach zasad reklamy medycznej: do kogo z bólem kolana po urazie, czy na USG tarczycy trzeba mieć skierowanie, jak przygotować się do pobrania krwi." },
+      { "type": "p", "text": "Na początku i na końcu pracy zadaję ChatGPT, Perplexity i Google AI Overviews te same pytania i sprawdzam, jak opisują Waszą placówkę. Pełny opis tej usługi znajdziecie na stronie [pozycjonowanie placówki w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-restauracja-warszawa.pl",
+    "slug": "pozycjonowanie-strony-restauracji-warszawa",
+    "heading": "Pozycjonowanie strony restauracji w Warszawie w AI: restauracja w rekomendacjach ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Goście coraz częściej pytają asystenta tak, jak zapytaliby znajomego: „Gdzie na Powiślu zjem ramen po 22:00?”, „Która restauracja w Śródmieściu przyjmie 10 osób w sobotę i ma kilka dań wegańskich?”. Zamiast listy portali asystent wymienia kilka lokali i pisze, dlaczego akurat te." },
+      { "type": "p", "text": "GEO (generative engine optimization) to obecność w odpowiedziach, które składa AI, a AEO (answer engine optimization) — informacje podane tak, żeby asystent mógł je powtórzyć bez zgadywania. Żeby padła nazwa Waszej restauracji, asystent musi przeczytać:" },
+      { "type": "li", "text": "obok menu w tekście: godziny kuchni, a nie tylko lokalu, przedział cen za danie, dania wegańskie i bezglutenowe, salę dla grup, ogródek i sposób rezerwacji;" },
+      { "type": "li", "text": "dane strukturalne: Restaurant z servesCuisine, priceRange i acceptsReservations oraz Menu z MenuItem i suitableForDiet;" },
+      { "type": "li", "text": "te same godziny, adres i rodzaj kuchni w profilu w Google, na Pyszne.pl, Glovo i TripAdvisorze — nieaktualne godziny świąteczne w jednym z tych miejsc mogą trafić prosto do odpowiedzi;" },
+      { "type": "li", "text": "odpowiedzi na pytania, które dziś słyszycie przez telefon: czy można przyjść z psem, czy jest krzesełko dla dziecka, od ilu osób organizujecie przyjęcia i czy jest parking." },
+      { "type": "p", "text": "Na starcie i po zakończeniu pracy pytam ChatGPT, Perplexity i Google AI Overviews o to samo, o co pytają goście, i porównuję, jak opisują Waszą restaurację. O tej usłudze piszę szerzej na stronie [pozycjonowanie restauracji w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-salon-warszawa.pl",
+    "slug": "pozycjonowanie-strony-salonu-kosmetycznego-warszawa",
+    "heading": "Pozycjonowanie strony salonu kosmetycznego w Warszawie w AI: salon w podpowiedziach ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Klientki coraz częściej pytają asystenta o zabieg i okolicę jednocześnie: „Gdzie na Saskiej Kępie zrobię manicure hybrydowy w sobotę rano?”, „Który salon przy metrze Wilanowska robi laminację brwi i ile to kosztuje?”. Odpowiedź AI jest jeszcze węższa niż blok mapy — zwykle dwie, trzy nazwy." },
+      { "type": "p", "text": "GEO (generative engine optimization) dotyczy pojawiania się salonu w odpowiedziach pisanych przez AI, a AEO (answer engine optimization) — treści, z której asystent od razu weźmie gotową odpowiedź i ją zacytuje. Asystent musi przeczytać o salonie:" },
+      { "type": "li", "text": "fakty tekstem: zabiegi z ceną i czasem trwania, marki preparatów, dzielnicę z najbliższą stacją metra i godziny w weekendy;" },
+      { "type": "li", "text": "dane strukturalne: BeautySalon albo węższy typ, np. NailSalon czy HairSalon — zależnie od tego, na czym zarabiacie — z Service i Offer dla każdego zabiegu;" },
+      { "type": "li", "text": "spójny cennik i godziny na stronie, w profilu w Google i na Booksy; jeśli Booksy pokazuje inną cenę niż strona, asystent może podać dowolną z nich;" },
+      { "type": "li", "text": "odpowiedzi na pytania klientek: ile sesji depilacji laserowej zwykle potrzeba, czy przed zabiegiem trzeba unikać słońca, co się dzieje przy spóźnieniu na wizytę." },
+      { "type": "p", "text": "Przed rozpoczęciem i po wdrożeniu zmian sprawdzam na tych samych pytaniach, co ChatGPT, Perplexity i Google AI Overviews mówią o Waszym salonie; tak jak pierwszej trójki na mapie, wzmianki w odpowiedzi AI nie da się zagwarantować. Całą usługę opisuję na stronie [pozycjonowanie salonu w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  },
+  {
+    "id": "singlepage-seo-warsztat-warszawa.pl",
+    "slug": "pozycjonowanie-strony-warsztatu-samochodowego-warszawa",
+    "heading": "Pozycjonowanie strony warsztatu samochodowego w Warszawie w AI: warsztat w wynikach ChatGPT i Google AI Overviews (GEO, AEO)",
+    "blocks": [
+      { "type": "p", "text": "Kierowca z awarią coraz częściej opisuje ją asystentowi: „Gdzie na Targówku wymienią rozrząd w Octavii 1.6 TDI i ile to kosztuje?”, „Miga kontrolka silnika — czy mogę jechać dalej i który warsztat na Bielanach sprawdzi to dziś?”. Podstrona naprawy, o której piszę wyżej, to połowa pracy; druga połowa to wszystko, co asystent czyta o warsztacie poza nią." },
+      { "type": "p", "text": "GEO (generative engine optimization) oznacza wejście do odpowiedzi, które AI buduje z wielu źródeł, a AEO (answer engine optimization) — taką treść, którą asystent może przytoczyć jako bezpośrednią odpowiedź. O warsztacie musi przeczytać:" },
+      { "type": "li", "text": "fakty tekstem: obsługiwane marki, naprawy z przedziałem cen i czasem, godziny, diagnostykę komputerową i informację o aucie zastępczym;" },
+      { "type": "li", "text": "dane strukturalne: AutoRepair z openingHoursSpecification, Service dla każdej naprawy i Offer z priceSpecification;" },
+      { "type": "li", "text": "te same dane w profilu w Google, na Motointegratorze i w Panoramie Firm — zwłaszcza listę usług, bo to z niej wynika, czy warsztat w ogóle wykonuje daną naprawę;" },
+      { "type": "li", "text": "odpowiedzi na pytania o objawy i logistykę: co oznacza popularny kod błędu, czy z wyciekiem płynu chłodniczego da się dojechać do warsztatu, ile czeka się na części do starszych modeli." },
+      { "type": "p", "text": "Stan wyjściowy i efekt sprawdzam tak samo: te same pytania kierowców zadane ChatGPT, Perplexity i Google AI Overviews przed pracą i po niej, z zapisem, jak opisują Wasz warsztat — pierwszego miejsca nie obiecuję ani w mapach, ani w odpowiedziach AI. Szczegóły tej usługi są na stronie [pozycjonowanie warsztatu w AI i ChatGPT](/pl/oferty/pozycjonowanie-w-ai-i-chatgpt)." }
+    ]
+  }
+]

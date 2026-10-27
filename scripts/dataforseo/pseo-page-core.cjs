@@ -721,6 +721,63 @@ const TOPICS = {
       ru: ["продвижение сайта застройщика", "сайт для кафе"],
     },
   },
+  // Batch H (27.10.2026), wave 1: SaaS website, SaaS SEO, tattoo studio website,
+  // carpentry website, mortgage broker website, SEO for recruitment agencies.
+  "batch-h1": {
+    relevant: /saas|software|startup|стартап|tattoo|tatua|тату|carpent|joiner|woodwork|cabinet ?mak|stolar|столяр|мебельн\w* мастерск|mortgage|kredyt|ипотек|кредитн\w* брокер|recruit|staffing|rekrut|agencj\w* pracy|кадров|рекрут/i,
+    otherPage: {
+      "IT companies (ours)": /\bit (compan|services|firm)|managed service|\bmsp\b|software house|firm\w* it\b|it[- ]компан/i,
+      "mortgage broker SEO (ours)": /(mortgage|kredyt|ипотек).*(seo|pozycjon|продвиж)|(seo|pozycjon|продвиж).*(mortgage|kredyt|ипотек)/i,
+      "recruitment website (ours)": /(recruit|staffing|rekrut|agencj\w* pracy|кадров|рекрут).*(website|web design|strona|сайт)|(website|strona|сайт).*(recruit|rekrut|кадров)/i,
+      "handyman (ours)": /handyman|złot\w* rączk|муж на час/i,
+    },
+    groups: {
+      "SaaS website": /(saas|software|startup|стартап).*(website|web design|landing|strona|сайт|лендинг)|(website|web design|landing|strona|сайт|лендинг).*(saas|software|startup|стартап)/i,
+      "SaaS SEO": /(saas|software|startup|стартап).*(seo|pozycjon|продвиж|marketing|маркетинг)|(seo|pozycjon|продвиж|marketing|маркетинг).*(saas|software|startup|стартап)/i,
+      "tattoo studio": /tattoo|tatua|тату/i,
+      "carpentry / joinery": /carpent|joiner|woodwork|cabinet|stolar|столяр|мебельн/i,
+      "mortgage broker website": /mortgage|kredyt|ипотек|кредитн/i,
+      "recruitment SEO": /recruit|staffing|rekrut|agencj\w* pracy|кадров|рекрут/i,
+    },
+    seeds: {
+      en: ["saas website design", "saas website", "saas seo", "seo for saas companies", "tattoo website design", "tattoo shop website", "carpentry website", "website for carpenters", "mortgage broker website", "seo for recruitment agencies"],
+      pl: ["strona internetowa dla saas", "pozycjonowanie saas", "seo dla saas", "strona dla studia tatuażu", "strona internetowa dla stolarza", "strona dla stolarni", "strona dla doradcy kredytowego", "strona dla pośrednika kredytowego", "pozycjonowanie agencji pracy", "marketing agencji pracy"],
+      ru: ["сайт для saas", "seo для saas", "продвижение saas", "сайт для тату салона", "сайт для столярной мастерской", "сайт мебельной мастерской", "сайт ипотечного брокера", "сайт для кредитного брокера", "продвижение кадрового агентства", "продвижение сайта кадрового агентства"],
+    },
+    serp: {
+      en: ["saas website design", "saas seo", "tattoo website design", "carpentry website"],
+      pl: ["strona dla studia tatuażu", "pozycjonowanie agencji pracy"],
+      ru: ["сайт для тату салона", "продвижение кадрового агентства"],
+    },
+  },
+  // Batch H (27.10.2026), wave 2: farm website, solar SEO, jewelry store SEO,
+  // dermatology website, daycare / preschool website.
+  "batch-h2": {
+    relevant: /farm|ranch|agrotur|gospodarstw|rolnicz|ферм|solar|photovolt|\bpv\b|fotowolt|солнечн|jewel|jubiler|biżuter|ювелир|dermat|дермат|daycare|day care|child ?care|nursery|preschool|kindergarten|przedszk|żłob|детск\w* сад|садик|ясл/i,
+    otherPage: {
+      "dermatology SEO (ours)": /(dermat|дермат).*(seo|pozycjon|продвиж)|(seo|pozycjon|продвиж).*(dermat|дермат)/i,
+      "Swiss premium makers (ours)": /swiss|szwajc|швейцар|watch|zegark|часов/i,
+      "med spa (ours)": /med ?spa|aesthetic|estetyczn|эстетич|косметолог/i,
+    },
+    groups: {
+      "farm / agritourism": /farm|ranch|agrotur|gospodarstw|rolnicz|ферм/i,
+      "solar SEO": /(solar|photovolt|\bpv\b|fotowolt|солнечн).*(seo|pozycjon|marketing|продвиж|маркетинг)|(seo|pozycjon|marketing|продвиж|маркетинг).*(solar|fotowolt|солнечн)/i,
+      "solar website": /solar|photovolt|fotowolt|солнечн/i,
+      "jewelry store SEO": /jewel|jubiler|biżuter|ювелир/i,
+      "dermatology website": /dermat|дермат/i,
+      "daycare / preschool": /daycare|day care|child ?care|nursery|preschool|kindergarten|przedszk|żłob|детск|садик|ясл/i,
+    },
+    seeds: {
+      en: ["farm website design", "farm website", "solar seo", "seo for solar companies", "solar website design", "jewelry store seo", "seo for jewelry", "dermatology website design", "daycare website design", "preschool website design"],
+      pl: ["strona internetowa dla gospodarstwa", "strona dla agroturystyki", "pozycjonowanie fotowoltaika", "strona dla firmy fotowoltaicznej", "marketing fotowoltaika", "pozycjonowanie sklepu jubilerskiego", "strona dla jubilera", "strona dla gabinetu dermatologicznego", "strona internetowa dla przedszkola", "strona dla żłobka"],
+      ru: ["сайт для фермы", "сайт фермерского хозяйства", "продвижение солнечных панелей", "сайт для солнечных батарей", "продвижение сайта ювелирного магазина", "seo ювелирного магазина", "сайт для дерматолога", "сайт для детского сада", "сайт частного детского сада"],
+    },
+    serp: {
+      en: ["farm website design", "solar seo", "dermatology website design", "daycare website design"],
+      pl: ["pozycjonowanie fotowoltaika", "strona internetowa dla przedszkola"],
+      ru: ["продвижение сайта ювелирного магазина", "сайт для детского сада"],
+    },
+  },
   // Article «ChatGPT SEO» (24.10.2026). Services/agency/price belong to the
   // ChatGPT SEO service pages; «get recommended by ChatGPT» may belong to the
   // existing article /blog/how-to-get-recommended-by-chatgpt; «ChatGPT for SEO»

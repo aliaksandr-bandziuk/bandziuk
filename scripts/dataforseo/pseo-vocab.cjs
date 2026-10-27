@@ -86,7 +86,7 @@ const SERVICE_TEMPLATES = {
 // Порядок осмысленный: сначала те, по которым у владельца есть кейсы и
 // клиенты, потом остальные. Формы — см. примечание в шапке.
 
-const { forms } = require("./pseo-industries.cjs");
+const { forms, oneForms } = require("./pseo-industries.cjs");
 
 // Отрасли выводятся из таблицы pseo-industries.cjs и отдельным списком здесь
 // не живут. Так было раньше, и формы разъехались: три независимых списка на
@@ -94,6 +94,21 @@ const { forms } = require("./pseo-industries.cjs");
 // «стоматологии» никак не связаны между собой. А связь нужна: отрасль со
 // спросом хоть на одном языке получает страницы на всех трёх.
 const INDUSTRIES = { pl: forms("pl"), ru: forms("ru"), en: forms("en") };
+
+// Шаблоны с отраслью в единственном числе перед услугой (дельта 27.10.2026).
+// Пары [множественное, единственное]: множественное идёт в колонку industry, чтобы
+// результат сводился с остальной сеткой по той же отрасли.
+const INDUSTRY_ONE = { en: oneForms() };
+const SERVICE_TEMPLATES_ONE = {
+  en: [
+    { key: "website", t: (s) => `${s} website` },
+    { key: "website-design", t: (s) => `${s} website design` },
+    { key: "web-design", t: (s) => `${s} web design` },
+    { key: "development", t: (s) => `${s} website development` },
+    { key: "seo", t: (s) => `${s} seo` },
+    { key: "seo-services", t: (s) => `${s} seo services` },
+  ],
+};
 
 // ----------------------------------------------------------------- города --
 //
@@ -263,4 +278,4 @@ const SERVICE_ONLY = {
   ],
 };
 
-module.exports = { SERVICE_TEMPLATES, INDUSTRIES, CITIES, CITY_TEMPLATES, INDUSTRY_CITY_TEMPLATES, SERVICE_ONLY, SERVICE_GROUP, serviceGroup };
+module.exports = { SERVICE_TEMPLATES, SERVICE_TEMPLATES_ONE, INDUSTRY_ONE, INDUSTRIES, CITIES, CITY_TEMPLATES, INDUSTRY_CITY_TEMPLATES, SERVICE_ONLY, SERVICE_GROUP, serviceGroup };

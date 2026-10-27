@@ -120,6 +120,14 @@ function buildPhrases(lang) {
       }
     }
   }
+  if (AXES.includes("service-industry")) {
+    // единственное число перед услугой: «bakery website», «roofing seo» (дельта 27.10.2026)
+    for (const tpl of V.SERVICE_TEMPLATES_ONE[lang] || []) {
+      for (const [ind, one] of V.INDUSTRY_ONE[lang] || []) {
+        add(tpl.t(one), "service-industry", { service: tpl.key, industry: ind, city: "" });
+      }
+    }
+  }
   if (AXES.includes("service-city")) {
     for (const tpl of V.CITY_TEMPLATES[lang] || []) {
       for (const c of V.CITIES[lang] || []) {

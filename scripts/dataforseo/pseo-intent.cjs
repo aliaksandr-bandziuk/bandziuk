@@ -546,6 +546,44 @@ PAIR_SETS["food-developer"] = [
   ["ru: кафе = ресторан (сайт)?", "ru", "сайт для кафе", "сайт для ресторана"],
 ];
 
+PAIR_SETS["delta"] = [
+  ["en: wedding planner website — владелец или невеста?", "en", "wedding planner website", "wedding planner website design"],
+  ["en: tutoring website — репетитор или ученик?", "en", "tutoring website", "website for tutors"],
+  ["en: car rental website — прокат или клиент?", "en", "car rental website", "car rental website design"],
+  ["en: saas website = saas website design?", "en", "saas website", "saas website design"],
+  ["en: podcast website = podcast seo?", "en", "podcast website", "podcast seo"],
+  ["en: farm website — ферма или покупатель?", "en", "farm website", "farm website design"],
+  ["en: tattoo website = tattoo website design?", "en", "tattoo website", "tattoo website design"],
+  ["en: solar website = solar seo?", "en", "solar website", "solar seo"],
+  ["en: dermatologist website — врач или пациент?", "en", "dermatologist website", "dermatology website design"],
+  ["en: nutritionist website — нутрициолог или клиент?", "en", "nutritionist website", "dietitian website design"],
+  ["en: woodworking website = carpentry website?", "en", "woodworking website", "carpentry website"],
+  ["en: car wash website — владелец или клиент?", "en", "car wash website", "car wash website design"],
+  ["en: daycare website — владелец или родители?", "en", "daycare website", "daycare website design"],
+  ["en: recruitment agency seo = recruitment website (наша)?", "en", "seo for recruitment agencies", "recruitment agency website design"],
+  ["en: nail salon website = hair salon website (наша)?", "en", "nail salon website", "hair salon website design"],
+  ["en: mortgage broker website = mortgage broker seo (наша)?", "en", "mortgage broker website", "mortgage broker seo"],
+  ["en: warehouse website = logistics website?", "en", "warehouse website", "logistics website design"],
+  ["en: restoration website = restoration seo (наша)?", "en", "restoration website", "restoration seo"],
+  ["en: junk removal website = junk removal seo (наша)?", "en", "junk removal website", "junk removal seo"],
+  ["en: locksmith website = locksmith seo (наша)?", "en", "locksmith website", "locksmith seo"],
+  ["ru: сайт для репетитора — репетитор или ученик?", "ru", "сайт для репетитора", "создание сайта для репетитора"],
+  ["ru: продвижение ювелирного = продвижение интернет-магазина (наша)?", "ru", "продвижение сайта ювелирного магазина", "продвижение интернет магазина"],
+];
+
+PAIR_SETS["batch-h"] = [
+  ["en: saas seo = seo for it companies (наша)?", "en", "saas seo", "seo for it companies"],
+  ["en: saas website design = saas landing page design?", "en", "saas website design", "saas landing page design"],
+  ["en: carpentry website = handyman website (наша)?", "en", "carpentry website", "handyman website design"],
+  ["en: recruitment SEO = staffing agency SEO?", "en", "seo for recruitment agencies", "staffing agency seo"],
+  ["en: dermatology website = medical website design (наша)?", "en", "dermatology website design", "medical website design"],
+  ["en: dermatology website = med spa website design (наша)?", "en", "dermatology website design", "med spa website design"],
+  ["en: daycare website = preschool website?", "en", "daycare website design", "preschool website design"],
+  ["en: jewelry seo = ecommerce seo (наша)?", "en", "jewelry seo", "ecommerce seo services"],
+  ["en: solar seo = construction seo (наша)?", "en", "solar seo", "construction seo"],
+  ["pl: przedszkole = żłobek?", "pl", "strona internetowa dla przedszkola", "strona dla żłobka"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

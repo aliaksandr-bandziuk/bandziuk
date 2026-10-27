@@ -56,7 +56,7 @@ export const mortgageBrokerSeoRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что входит в продвижение сайта ипотечного брокера",
+      title: "Что входит в продвижение и раскрутку сайта ипотечного брокера",
       items: [
         { _key: k("o"), iconName: "layers", title: "Страницы по странам и ситуациям клиентов", text: "Нерезидент, релокант, инвестор, покупка в строящемся доме" },
         { _key: k("o"), iconName: "message-circle", title: "Версии на языках клиентов", text: "Русский, английский и язык страны через hreflang" },

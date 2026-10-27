@@ -53,7 +53,7 @@ export const seoServicesForSmallBusinessRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что входит в продвижение сайта малого бизнеса",
+      title: "Что входит в продвижение и раскрутку сайта малого бизнеса",
       items: [
         { _key: k("o"), iconName: "search", title: "Аудит со списком исправлений", text: "По порядку важности, понятно, что и кому делать" },
         { _key: k("o"), iconName: "layers", title: "Страница на каждую услугу", text: "Под запросы клиентов, с городом или районом" },

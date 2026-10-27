@@ -48,7 +48,7 @@ export const seoForTherapistsRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что входит в продвижение сайта психолога",
+      title: "Что входит в продвижение и раскрутку сайта психолога",
       items: [
         { _key: k("o"), iconName: "layers", title: "Страница на каждый запрос и метод", text: "Тревога, переезд, отношения, КПТ, гештальт" },
         { _key: k("o"), iconName: "map-pin", title: "Кабинет в Google Картах и 2GIS", text: "Там, где вы действительно принимаете" },

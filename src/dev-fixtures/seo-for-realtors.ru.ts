@@ -56,7 +56,7 @@ export const seoForRealtorsRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что входит в продвижение сайта риелтора",
+      title: "Что входит в продвижение и раскрутку сайта риелтора",
       items: [
         { _key: k("o"), iconName: "search", title: "Ваше имя первым в поиске", text: "Сайт, профили и карты пишут его одинаково" },
         { _key: k("o"), iconName: "map-pin", title: "Страницы районов и комплексов", text: "Из ваших сделок, с вашими фото и видео" },

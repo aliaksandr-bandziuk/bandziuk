@@ -58,7 +58,7 @@ export const seoForRealEstateDevelopersRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что получает застройщик от продвижения сайта",
+      title: "Что получает застройщик от продвижения и раскрутки сайта",
       items: [
         { _key: k("o"), iconName: "layers", title: "Страница ЖК, которая растёт в поиске", text: "Цены, планировки, срок сдачи, расстояния" },
         { _key: k("o"), iconName: "plug", title: "Цены и наличие квартир из фида", text: "Проданные квартиры помечаются сразу" },

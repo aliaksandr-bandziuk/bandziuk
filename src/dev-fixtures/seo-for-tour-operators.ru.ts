@@ -54,7 +54,7 @@ export const seoForTourOperatorsRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что входит в продвижение туроператора",
+      title: "Что входит в продвижение и раскрутку сайта туроператора",
       items: [
         { _key: k("o"), iconName: "search", title: "Запросы туристов перед поездкой", text: "Место, вид отдыха, длительность, «на русском»" },
         { _key: k("o"), iconName: "layers", title: "Страница для каждого тура", text: "Программа, точка сбора, цена, что включено" },

@@ -63,7 +63,7 @@ export const seoForRecruitmentAgenciesRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что входит в продвижение сайта кадрового агентства",
+      title: "Что входит в продвижение и раскрутку сайта кадрового агентства",
       items: [
         { _key: k("o"), iconName: "users", title: "Страницы для работодателей", text: "Подбор, аутстаффинг, хедхантинг — по отраслям и городам" },
         { _key: k("o"), iconName: "code", title: "Вакансии в блоке Google", text: "Разметка JobPosting: оплата, место, тип договора, срок" },

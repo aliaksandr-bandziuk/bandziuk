@@ -50,7 +50,7 @@ export const seoForChiropractorsRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что входит в продвижение сайта остеопата",
+      title: "Что входит в продвижение и раскрутку сайта остеопата",
       items: [
         { _key: k("o"), iconName: "map-pin", title: "Карточки в Google Картах и 2GIS", text: "Категория, услуги, график, фото кабинета" },
         { _key: k("o"), iconName: "layers", title: "Страница на каждую жалобу и метод", text: "Поясница, шея, восстановление после травм" },

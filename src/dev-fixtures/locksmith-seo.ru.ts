@@ -53,7 +53,7 @@ export const locksmithSeoRu = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Что вы получаете",
-      title: "Что входит в продвижение сайта вскрытия замков",
+      title: "Что входит в продвижение и раскрутку сайта вскрытия замков",
       items: [
         { _key: k("o"), iconName: "map-pin", title: "Карточки в Google Картах и 2GIS", text: "Реальное название, район выезда, без чужих адресов" },
         { _key: k("o"), iconName: "shield-check", title: "Жалобы на фальшивые карточки", text: "Спам рядом с вами собран и отправлен с доказательствами" },

@@ -131,7 +131,7 @@ export const seoConsultantPl = {
         h2("Umowa i faktura z JDG: formalności współpracy z freelancerem SEO"),
         p("Prowadzę jednoosobową działalność gospodarczą zarejestrowaną w Warszawie, więc formalnie współpraca wygląda jak z każdym innym dostawcą usług: umowa albo zlecenie mailowe z zakresem i ceną, faktura po wykonaniu audytu lub co miesiąc przy stałej pracy. Cenę ustalamy z góry za zakres pracy."),
         p("W umowie z freelancerem SEO warto zapisać trzy rzeczy: co dokładnie wchodzi w miesięczną pracę, jaki jest okres wypowiedzenia i do kogo należą wypracowane treści i ustawienia. U mnie odpowiedź na ostatnie pytanie jest prosta: do Was."),
-        p("Cała współpraca odbywa się zdalnie: rozmowy wideo z udostępnianiem ekranu, wspólne dokumenty, dostęp do Search Console i panelu strony. Pracuję w polskich godzinach, więc firma z Gdańska, Krakowa czy Wrocławia ma ze mną taki sam kontakt jak firma z Warszawy, a klienci z zagranicy dostają fakturę w euro."),
+        p("Cała współpraca odbywa się zdalnie: rozmowy wideo z udostępnianiem ekranu, wspólne dokumenty, dostęp do Search Console i panelu strony. Pracuję w polskich godzinach, więc firma z Gdańska, Krakowa czy Wrocławia ma ze mną taki sam kontakt jak firma z Warszawy, a klienci z zagranicy dostają fakturę w euro albo w innej uzgodnionej walucie."),
 
         h2("Freelancer od pozycjonowania stron: audyt, projekt albo stała współpraca"),
         li(

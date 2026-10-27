@@ -230,7 +230,7 @@ export const nextjsDevelopmentServicesEn = {
           ["Can you move my WordPress site to Next.js without losing rankings?", "That is the main goal of a migration. Every old URL is mapped and redirected with a 301, titles and descriptions are carried over, and Search Console is watched after launch. On a psychotherapist’s site in Milan I moved 468 posts this way."],
           ["Where is a Next.js website hosted?", "Usually on Vercel, which builds a preview for every change and serves pages from a global CDN; other Node.js hosting is possible too. The hosting and CMS accounts are opened in your name and paid by you directly."],
           ["Can you take over an existing Next.js project?", "Yes. I read the repository first, list what needs fixing — SEO, speed, CMS setup, dependency updates — and give a fixed price for the work before starting."],
-          ["Do you work with clients outside Poland?", "Yes, remotely, in English, Polish or Russian. I work on Central European Time, which overlaps with the UK and Europe for the whole day and with the US East Coast in the morning there. Invoices are issued in EUR."],
+          ["Do you work with clients outside Poland?", "Yes, remotely, in English, Polish or Russian. I work on Central European Time, which overlaps with the UK and Europe for the whole day and with the US East Coast in the morning there. Invoices are issued in EUR, or in another currency by agreement."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

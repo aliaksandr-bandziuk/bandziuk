@@ -30,7 +30,12 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: "*",
-        allow: ["/"],
+        // «/_next/static/» is allowed above the «/_next» rule below: Google
+        // matches the most specific rule, not the first one. Blocking it blocked
+        // the site's CSS and JS as well as its fonts — ten of those fonts sat in
+        // «Blocked by robots.txt» on 29.10.2026 — and Google renders pages
+        // before deciding to index them. The dynamic parts of /_next stay shut.
+        allow: ["/", "/_next/static/"],
         disallow: [
           "/admin",
           "/api",

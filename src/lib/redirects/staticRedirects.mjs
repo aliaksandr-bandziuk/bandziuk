@@ -11,6 +11,12 @@
 // ──────────────────────────────────────────────────────────────────────────────
 export const STATIC_REDIRECTS = [
 
+  // Dead URLs found in the Search Console «Not found (404)» drilldown, 29.10.2026.
+  // Both were crawled this month, so a 301 passes their signals on instead of
+  // letting Google keep a 404 in the report.
+  { source: '/ru/politika-privatnosti', destination: '/ru/politika-konfidencialnosti', permanent: true },
+  { source: '/ru/website-development-for-beauty-professionals', destination: '/ru/sozdanie-saitov-dlya-byuti-uslug', permanent: true },
+
   // Polish SEO pages renamed to the owner's form «pozycjonowanie strony X» (27.10.2026,
   // scripts/rename-pl-seo-slugs.cjs). The old slugs were live for 1–6 days.
   { source: '/pl/pozycjonowanie-biura-podrozy', destination: '/pl/pozycjonowanie-strony-biura-podrozy', permanent: true },

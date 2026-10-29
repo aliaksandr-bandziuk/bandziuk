@@ -837,6 +837,35 @@ const TOPICS = {
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any
   // «niche + AI» combination is searched at all.
+  // Article «How much a small business website costs» (29.10.2026). Collects the
+  // wording of the price question in all three languages and the PAA around it, so
+  // the structure answers what people actually ask rather than what we assume.
+  "small-business-website-cost": {
+    relevant: /cost|price|pricing|how much|budget|cena|koszt|ile kosztuje|цена|стоимост|сколько стоит|бюджет/i,
+    otherPage: {
+      "website design landing page": /design|designer|agency|company|developer|projektowanie|agencj|дизайн|разработк|студи/i,
+      "website builder listicles": /builder|maker|creator|wix|squarespace|godaddy|shopify|kreator|конструктор/i,
+      "SEO pricing, not website pricing": /seo|pozycjonowan|продвижен|раскрутк/i,
+    },
+    groups: {
+      "average / typical": /average|typical|standard|srednia|średni|средн|обычно/i,
+      "how much should": /should|worth|fair|reasonable|powinna|warto|должен|стоит ли/i,
+      "cheap / free": /cheap|free|low cost|affordable|tani|darmow|дешев|недорог|бесплат/i,
+      "per page / monthly": /per page|monthly|per month|maintenance|miesięczn|utrzyman|в месяц|поддержк|обслуживан/i,
+      "small business / startup": /small business|startup|small company|mała firma|małej firmy|малого бизнеса|небольшой/i,
+      "by year": /2026|2027/i,
+    },
+    seeds: {
+      en: ["small business website cost", "how much does a small business website cost", "average cost of website design for small business", "how much should a website cost for a small business", "cost to build a website for a small business", "website maintenance cost small business"],
+      pl: ["ile kosztuje strona internetowa dla małej firmy", "ile kosztuje strona internetowa", "cena strony internetowej dla firmy", "koszt utrzymania strony internetowej"],
+      ru: ["сколько стоит сайт для малого бизнеса", "сколько стоит создание сайта", "цена сайта для бизнеса", "стоимость поддержки сайта"],
+    },
+    serp: {
+      en: ["how much does a small business website cost", "small business website cost"],
+      pl: ["ile kosztuje strona internetowa dla małej firmy"],
+      ru: ["сколько стоит сайт для малого бизнеса"],
+    },
+  },
   "ai-search": {
     relevant: /\bai\b|\bgeo\b|\baeo\b|\baio\b|\bllm|chatgpt|chat gpt|gpt|perplexity|gemini|generative|answer engine|ai overview|artificial intelligence|sztuczn|\bии\b|нейросет|искусственн|чатгпт|\bgeo-/i,
     otherPage: {},

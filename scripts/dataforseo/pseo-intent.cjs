@@ -264,6 +264,23 @@ PAIR_SETS.trades = [
 // Stage 2, group 1b (24.10.2026): websites and design for roofers, HVAC,
 // landscapers and painters — whose demand, design vs development, and whether
 // they belong to the contractor or plumbing pages.
+// Article «How much a small business website costs» (29.10.2026, proposal 16 in
+// claude/blog-articles.md). Three things to settle before writing: does the cost
+// query have its own SERP apart from the /small-business-website-design landing
+// page; is it one page or several (cost vs «average cost» vs «how much should»);
+// and does it sit above the eight industry cost articles or duplicate them.
+PAIR_SETS["small-business-website-cost"] = [
+  ["статья или раздел лендинга: стоимость против дизайна?", "en", "how much does a small business website cost", "small business website design"],
+  ["общий вопрос про цену сайта — та же выдача?", "en", "small business website cost", "how much does a website cost"],
+  ["не съест ли отраслевые статьи о цене?", "en", "small business website cost", "beauty salon website cost"],
+  ["цена сайта и цена SEO — разные выдачи?", "en", "small business website cost", "how much does seo cost for a small business"],
+  ["«average cost» — отдельная страница или та же?", "en", "average cost of website design for small business", "small business website cost"],
+  ["«how much should» — отдельная страница или та же?", "en", "how much should a website cost for a small business", "small business website cost"],
+  ["конструкторы перетягивают ценовой запрос?", "en", "small business website cost", "best website builder for small business"],
+  ["PL: цена сайта для малой фирмы — своя выдача?", "pl", "ile kosztuje strona internetowa dla małej firmy", "ile kosztuje strona internetowa"],
+  ["RU: цена сайта для малого бизнеса — своя выдача?", "ru", "сколько стоит сайт для малого бизнеса", "сколько стоит создание сайта"],
+];
+
 PAIR_SETS["trades-sites"] = [
   ["кровля: «roofing websites» — чей спрос?", "en", "roofing websites", "roofing website design"],
   ["кровля: сайт компании = дизайн?", "en", "roofing company website", "roofing website design"],

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Textless cover for «How much a small business website costs» (also the OG image).
+     A quote sheet on the left with five named lines, each line running to a block
+     whose height is its share of the cost; on the right a stack of small recurring
+     chips that keep repeating into the distance — the once-versus-every-year idea
+     that the article is built on. Palette and grain as the rest of the series. */
+  :root{ --bg:#0a0a0b; --warm:#d95926; --cool:#3987e5; --green:#199e70; --gold:#c98500; }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000}
+  .cover{position:relative;width:1672px;height:941px;overflow:hidden;
+    background:
+      radial-gradient(900px 560px at 8% -10%, rgba(57,135,229,.17), transparent 62%),
+      radial-gradient(900px 560px at 95% 112%, rgba(201,133,0,.14), transparent 60%),
+      var(--bg);}
+  .grain{position:absolute;inset:0;opacity:.4}
+  .grain i{position:absolute;border-radius:50%;background:#fff}
+  svg{position:absolute;inset:0}
+
+  /* the quote sheet */
+  .sheet{position:absolute;left:120px;top:262px;width:430px;border-radius:20px;
+    background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.16);padding:34px 32px;
+    box-shadow:0 44px 110px rgba(0,0,0,.6)}
+  .sheet .hd{height:13px;width:58%;border-radius:7px;background:rgba(255,255,255,.5);margin:0 0 10px}
+  .sheet .hs{height:9px;width:38%;border-radius:5px;background:rgba(255,255,255,.18);margin:0 0 26px}
+  .sheet .ln{display:flex;align-items:center;gap:14px;margin:0 0 18px}
+  .sheet .ln i{width:18px;height:18px;border-radius:50%;flex:none;background:rgba(25,158,112,.85)}
+  .sheet .ln b{height:10px;border-radius:5px;background:rgba(255,255,255,.26);flex:1}
+  .sheet .tot{margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,.14);display:flex;justify-content:space-between;align-items:center}
+  .sheet .tot .l{height:11px;width:90px;border-radius:6px;background:rgba(255,255,255,.3)}
+  .sheet .tot .v{height:17px;width:132px;border-radius:9px;background:rgba(255,179,141,.85)}
+
+  /* the stacked bars: what the one-off price is made of */
+  .stack{position:absolute;left:700px;top:302px;width:300px}
+  .seg{border-radius:10px;margin:0 0 9px;display:flex;align-items:center;padding:0 18px}
+  .seg span{height:9px;border-radius:5px;background:rgba(255,255,255,.4)}
+
+  /* recurring chips */
+  .rec{position:absolute;left:1120px;top:348px}
+  .chip{width:360px;border-radius:14px;border:1px solid rgba(255,255,255,.14);
+    background:rgba(255,255,255,.04);padding:16px 20px;display:flex;align-items:center;gap:14px;margin:0 0 14px}
+  .chip i{width:12px;height:12px;border-radius:50%;flex:none}
+  .chip b{height:9px;border-radius:5px;background:rgba(255,255,255,.28);flex:1}
+  .chip.f2{opacity:.62} .chip.f3{opacity:.4} .chip.f4{opacity:.22} .chip.f5{opacity:.1}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+function grain(n) {
+  let s = 20261030, out = "";
+  const rnd = () => (s = (s * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+  for (let i = 0; i < n; i++) {
+    const x = (rnd() * 1672).toFixed(0), y = (rnd() * 941).toFixed(0);
+    const d = (rnd() * 1.6 + 0.6).toFixed(2), o = (rnd() * 0.3 + 0.05).toFixed(2);
+    out += `<i style="left:${x}px;top:${y}px;width:${d}px;height:${d}px;opacity:${o}"></i>`;
+  }
+  return out;
+}
+// the one-off price, split into what it is actually made of
+const segs = [[118, "rgba(57,135,229,.80)", 62], [92, "rgba(25,158,112,.78)", 48], [74, "rgba(201,133,0,.75)", 55], [56, "rgba(217,89,38,.72)", 40]];
+const chips = ["rgba(217,89,38,.9)", "rgba(201,133,0,.9)", "rgba(57,135,229,.9)", "rgba(25,158,112,.9)", "rgba(255,255,255,.5)"];
+const curve = (x1, y1, x2, y2, c, w, dash) => `<path d="M${x1} ${y1} C ${(x1 + x2) / 2} ${y1}, ${(x1 + x2) / 2} ${y2}, ${x2} ${y2}" stroke="${c}" stroke-width="${w}" fill="none"${dash ? ' stroke-dasharray="8 10"' : ""}/>`;
+let y = 250, paths = "";
+for (const [h, c] of segs) { paths += curve(552, 330 + segs.indexOf(segs.find((s) => s[0] === h)) * 0, y + h / 2, "rgba(255,255,255,.10)", 1.5); y += h + 9; }
+paths = "";
+let yy = 302;
+for (let i = 0; i < segs.length; i++) { paths += curve(552, 352 + i * 46, 700, yy + segs[i][0] / 2, "rgba(255,255,255,.13)", 1.5); yy += segs[i][0] + 9; }
+paths += curve(1000, 522, 1120, 382, "rgba(201,133,0,.45)", 2.5, 1);
+
+document.getElementById("root").insertAdjacentHTML("beforeend", `
+  <div class="cover" id="cover">
+    <div class="grain">${grain(240)}</div>
+    <svg width="1672" height="941">${paths}</svg>
+    <div class="sheet">
+      <div class="hd"></div><div class="hs"></div>
+      ${[82, 94, 76, 88, 70].map((w) => `<div class="ln"><i></i><b style="max-width:${w}%"></b></div>`).join("")}
+      <div class="tot"><div class="l"></div><div class="v"></div></div>
+    </div>
+    <div class="stack">${segs.map(([h, c, w]) => `<div class="seg" style="height:${h}px;background:${c}"><span style="width:${w}%"></span></div>`).join("")}</div>
+    <div class="rec">${chips.map((c, i) => `<div class="chip${i ? " f" + (i + 1) : ""}"><i style="background:${c}"></i><b style="max-width:${88 - i * 9}%"></b></div>`).join("")}</div>
+  </div>`);
+</script>
+</body>
+</html>

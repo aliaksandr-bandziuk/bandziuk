@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Figures for «How much a small business website costs» (29.10.2026). Same surface,
+     type and slots as the rest of the series. NO invented price figures: the article
+     deliberately quotes no vendor prices, so the figures show the STRUCTURE of the
+     cost. The only money shown is the author's own starting price. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px;margin:0 0 30px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:22px 0 0;line-height:1.5}
+
+  /* bands */
+  .bands{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+  .band{border-radius:14px;padding:18px 16px 16px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column}
+  .band .n{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.1em;margin:0 0 10px}
+  .band h3{font-size:16.5px;line-height:1.3;color:#fff;margin:0 0 10px;font-weight:600}
+  .band p{font-size:13.5px;line-height:1.45;color:var(--ink-2);margin:0 0 14px;flex:1}
+  .band dl{margin:0;border-top:1px solid rgba(255,255,255,.1);padding-top:12px}
+  .band dt{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 3px}
+  .band dd{margin:0 0 11px;font-size:13.5px;line-height:1.35;color:#fff}
+  .band dd:last-child{margin-bottom:0}
+  .band dd b{font-weight:700}
+
+  /* once vs yearly */
+  .two{display:grid;grid-template-columns:1fr 1.25fr;gap:26px;align-items:start}
+  .pane{border-radius:16px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03);padding:22px 24px}
+  .pane .ph{font-family:var(--mono);font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:0 0 16px}
+  .once{text-align:center;padding:34px 24px}
+  .once b{display:block;font-size:40px;font-weight:700;color:#fff;line-height:1.1}
+  .once span{display:block;font-size:14px;color:var(--ink-2);margin-top:10px;line-height:1.45}
+  .rows{display:flex;flex-direction:column;gap:9px}
+  .r{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;border-radius:10px;padding:11px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+  .r .l{font-size:14px;color:#fff;line-height:1.35}
+  .r .l em{display:block;font-style:normal;font-size:12.5px;color:var(--muted);margin-top:3px}
+  .tag{font-family:var(--mono);font-size:11px;letter-spacing:.06em;padding:5px 10px;border-radius:20px;white-space:nowrap;flex:none}
+  .tag.must{background:rgba(217,89,38,.18);color:#ffa882;border:1px solid rgba(217,89,38,.5)}
+  .tag.may{background:rgba(201,133,0,.16);color:#f3c66b;border:1px solid rgba(201,133,0,.45)}
+  .tag.zero{background:rgba(25,158,112,.16);color:#71dfb3;border:1px solid rgba(25,158,112,.5)}
+
+  /* quote anatomy */
+  .quotes{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  .doc{border-radius:16px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.03);padding:24px 26px;min-height:360px}
+  .doc.good{border-color:rgba(25,158,112,.55);background:rgba(25,158,112,.06)}
+  .doc.bad{border-color:rgba(217,89,38,.45);background:rgba(217,89,38,.05)}
+  .doc .dh{font-size:15px;color:#fff;font-weight:600;margin:0 0 4px}
+  .doc .dsub{font-size:12.5px;color:var(--muted);margin:0 0 18px}
+  .li{display:grid;grid-template-columns:22px 1fr;gap:12px;align-items:start;margin:0 0 13px}
+  .li i{width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex:none;font-style:normal;margin-top:1px}
+  .li.y i{background:rgba(25,158,112,.9);color:#06281c}
+  .li.n i{background:rgba(255,255,255,.12);color:var(--muted)}
+  .li span{font-size:13.5px;line-height:1.42;color:var(--ink-2)}
+  .li.n span{color:var(--muted);text-decoration:line-through;text-decoration-color:rgba(255,255,255,.25)}
+  .oneline{margin-top:26px;border-radius:10px;border:1px dashed rgba(217,89,38,.6);background:rgba(217,89,38,.08);padding:18px 20px;display:flex;justify-content:space-between;align-items:baseline;gap:16px}
+  .oneline span{font-size:15px;color:#fff}
+  .oneline b{font-family:var(--mono);font-size:17px;color:#ffa882}
+
+  /* industries */
+  .grid6{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+  .ind{border-radius:14px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);padding:18px 18px 16px;border-left:3px solid var(--s1)}
+  .ind h3{font-size:15.5px;color:#fff;margin:0 0 8px;font-weight:600;line-height:1.3}
+  .ind p{font-size:13.5px;line-height:1.45;color:var(--ink-2);margin:0}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    bands: { k: "Four ways to end up with a website", h: "What a small business website costs: the four price bands",
+      s: "The spread is not a mystery — it tracks who does the work and how much of the thinking is done for you. No plan prices here: those change every few months, and the structure does not.",
+      cols: ["Paid once", "Paid monthly", "Your own time", "What you own after"],
+      items: [
+        { h: "You build it in a website builder", p: "Right answer for a business whose customers all arrive from a map listing and a social account.", c: "--s4",
+          d: ["Nothing", "Subscription, rising with every feature", "Several weekends, then every change", "A site that exists while you keep paying"] },
+        { h: "Someone installs a template", p: "The cheapest way not to look homemade. Nothing in it was decided for your business.", c: "--s1",
+          d: ["A small fee", "Subscription or hosting", "Usually every word of the text", "A theme that others have too"] },
+        { h: "One person builds it custom", p: "Someone decides what the site should be before building it — and is the same person who builds it.", c: "--s3",
+          d: ["<b>From €700</b>, design included", "Domain, hosting, email — often nothing else", "A conversation and your own material", "The site, the code and the domain, in your name"] },
+        { h: "An agency builds it", p: "Capacity, cover, a process that survives one person's week. Worth it when you need those things.", c: "--s2",
+          d: ["Several thousand upwards", "Often a retainer", "Meetings", "Usually the site — check the contract"] },
+      ],
+      note: "Price bands are my own observation of this market, not a published statistic. Builder, hosting and registrar prices are deliberately left out: they move too fast to print." },
+
+    cost: { k: "Once versus every year", h: "What you pay once and what you pay for as long as the site exists",
+      s: "The most common unpleasant surprise in this topic is a renewal invoice for something the owner thought was included. Here is the whole running side of a small business site.",
+      once: { b: "Once", s: "The build itself — deciding what the site is, writing it, designing it, making it work" },
+      ph: "Every year, whoever built it",
+      rows: [
+        ["Domain", "Rented yearly, never bought. Check the renewal price, not the first-year offer", "must", "Unavoidable"],
+        ["Hosting", "Shared, managed, or a modern platform with a free tier that covers a small site", "zero", "Can be zero"],
+        ["Business email on your domain", "Not the same as hosting. A free webmail address costs you credibility", "may", "Small, worth it"],
+        ["Security certificate", "Free and automatic from Let's Encrypt on any serious host", "zero", "Free"],
+        ["Backups", "Often included, occasionally not — you find out on the day you need one", "may", "Confirm it"],
+        ["Support and changes", "On a simple, well-built site this honestly reads zero most months", "zero", "Often zero"],
+      ],
+      note: "Register the domain in your own name, with your own email. A domain in a contractor's account is the one item on this list you cannot negotiate your way out of." },
+
+    quote: { k: "How to read a quote", h: "A website quote you can judge, and one you cannot",
+      s: "A quote that lists what it covers can be compared with any other. A quote that is one line and a number cannot be judged at any price — including a low one.",
+      good: { h: "A quote you can judge", s: "Five things named, so you can compare it with anyone else's",
+        li: ["The pages, named — not counted", "Who writes the text", "Who owns the domain, the code and the content afterwards", "What you can change yourself without paying", "What happens after launch, and for how long"] },
+      bad: { h: "A quote you cannot judge", s: "Same price, no way to tell what is inside it",
+        li: ["«Five pages»", "Text — unspecified", "Ownership — unspecified", "Changes — unspecified", "After launch — unspecified"],
+        one: ["Website", "€ ———"] },
+      note: "Two more worth asking out loud: can I see something you built that is still live and still used, and what happens if we stop working together." },
+
+    ind: { k: "What changes the price by trade", h: "Why the same five pages cost different amounts in different trades",
+      s: "Price follows what a site has to do before it works at all. Each of these is a real multiplier, not a markup.",
+      items: [
+        { h: "Beauty salon", p: "Bookings, a price list that changes often, staff pages that have to stay current.", c: "--s2" },
+        { h: "Construction company", p: "Projects with photographs, the towns you build in, trust at a high transaction value.", c: "--s4" },
+        { h: "Auto repair shop", p: "Services by car type, prices, and a path for someone whose car broke down this morning.", c: "--s1" },
+        { h: "Psychologist or therapist", p: "Credentials, confidentiality, and a first contact that does not feel like a form.", c: "--s3" },
+        { h: "Real estate agency", p: "Listings, search, and keeping data current — the part that never stops costing.", c: "--s1" },
+        { h: "Multilingual business", p: "A second set of pages written for that market, kept in step, told apart by search engines.", c: "--s4" },
+      ],
+      note: "Each of these is covered separately in its own article, with what drives the price in that trade." },
+  },
+
+  pl: {
+    bands: { k: "Cztery drogi do własnej strony", h: "Ile kosztuje strona internetowa dla firmy: cztery przedziały cenowe",
+      s: "Rozpiętość nie jest tajemnicą — wynika z tego, kto wykonuje pracę i ile decyzji podejmuje za ciebie. Cen abonamentów tu nie ma: zmieniają się co kilka miesięcy, struktura kosztu nie.",
+      cols: ["Płacisz raz", "Płacisz miesięcznie", "Twój własny czas", "Co zostaje twoje"],
+      items: [
+        { h: "Robisz stronę sam w kreatorze", p: "Słuszny wybór, gdy klienci i tak przychodzą z wizytówki Google i z Instagrama.", c: "--s4",
+          d: ["Nic", "Abonament, rosnący z każdą funkcją", "Kilka weekendów, potem każda zmiana", "Strona istnieje, dopóki płacisz"] },
+        { h: "Ktoś wdraża gotowy szablon", p: "Najtańszy sposób, żeby nie wyglądać amatorsko. Nic w nim nie zostało wybrane pod twoją firmę.", c: "--s1",
+          d: ["Niewielka kwota", "Abonament albo hosting", "Zwykle całość tekstów", "Szablon, który mają też inni"] },
+        { h: "Jedna osoba robi stronę na zamówienie", p: "Ktoś ustala, czym ma być strona, zanim zacznie ją budować — i buduje ją ta sama osoba.", c: "--s3",
+          d: ["<b>Od 700 €</b>, projekt w cenie", "Domena, hosting, poczta — często nic poza tym", "Rozmowa i twoje własne materiały", "Strona, kod i domena, na twoje nazwisko"] },
+        { h: "Stronę robi agencja", p: "Moce przerobowe, zastępstwa, proces niezależny od czyjegoś tygodnia. Warto, gdy tego potrzebujesz.", c: "--s2",
+          d: ["Kilka tysięcy wzwyż", "Często abonament", "Spotkania", "Zwykle strona — sprawdź umowę"] },
+      ],
+      note: "Przedziały to moja obserwacja tego rynku, a nie opublikowana statystyka. Cen kreatorów, hostingów i rejestratorów świadomie nie podaję — zmieniają się za szybko." },
+
+    cost: { k: "Raz a co roku", h: "Co płacisz raz, a za co płacisz tak długo, jak strona istnieje",
+      s: "Najczęstsza nieprzyjemna niespodzianka w tym temacie to faktura za odnowienie czegoś, co właściciel uważał za wliczone. To jest cała bieżąca strona kosztów.",
+      once: { b: "Raz", s: "Sama budowa — ustalenie, czym jest strona, napisanie jej, zaprojektowanie i uruchomienie" },
+      ph: "Co roku, niezależnie od wykonawcy",
+      rows: [
+        ["Domena", "Wynajmowana co rok, nigdy kupowana. Sprawdź cenę odnowienia, nie cenę pierwszego roku", "must", "Nie do uniknięcia"],
+        ["Hosting", "Współdzielony, zarządzany albo nowoczesna platforma z darmowym progiem", "zero", "Bywa zerem"],
+        ["Poczta na własnej domenie", "To nie to samo co hosting. Darmowy adres kosztuje cię wiarygodność", "may", "Niewiele, warto"],
+        ["Certyfikat bezpieczeństwa", "Darmowy i automatyczny z Let's Encrypt na każdym poważnym hostingu", "zero", "Za darmo"],
+        ["Kopie zapasowe", "Często wliczone, czasem nie — dowiesz się w dniu, w którym będą potrzebne", "may", "Potwierdź"],
+        ["Wsparcie i zmiany", "Na prostej, dobrze zbudowanej stronie przez większość miesięcy to uczciwe zero", "zero", "Często zero"],
+      ],
+      note: "Zarejestruj domenę na siebie i na swój adres e-mail. Domena na koncie wykonawcy to jedyna pozycja z tej listy, z której nie wynegocjujesz się później." },
+
+    quote: { k: "Jak czytać wycenę", h: "Wycena strony, którą da się ocenić, i taka, której nie da się ocenić",
+      s: "Wycenę, która wylicza, co obejmuje, można porównać z każdą inną. Wyceny z jednej linijki i kwoty nie da się ocenić przy żadnej cenie — także niskiej.",
+      good: { h: "Wycena, którą da się ocenić", s: "Pięć rzeczy nazwanych, więc porównasz ją z każdą inną",
+        li: ["Podstrony wymienione z nazwy, nie policzone", "Kto pisze teksty", "Do kogo należą potem domena, kod i treści", "Co zmienisz sam, bez płacenia", "Co dzieje się po uruchomieniu i jak długo"] },
+      bad: { h: "Wycena, której nie da się ocenić", s: "Ta sama kwota, zero informacji, co jest w środku",
+        li: ["«Pięć podstron»", "Teksty — nieokreślone", "Własność — nieokreślona", "Zmiany — nieokreślone", "Po uruchomieniu — nieokreślone"],
+        one: ["Strona internetowa", "— — — zł"] },
+      note: "Dwa pytania warte zadania na głos: czy mogę zobaczyć stronę, która nadal działa i nadal jest używana, oraz co się stanie, jeśli przestaniemy współpracować." },
+
+    ind: { k: "Co zmienia cenę w zależności od branży", h: "Dlaczego te same pięć podstron kosztuje różnie w różnych branżach",
+      s: "Cena idzie za tym, co strona musi umieć, zanim w ogóle zacznie działać. Każda z tych rzeczy to realny mnożnik, nie narzut.",
+      items: [
+        { h: "Salon kosmetyczny", p: "Rezerwacje, cennik zmieniany co chwilę, podstrony zespołu, które muszą być aktualne.", c: "--s2" },
+        { h: "Firma budowlana", p: "Realizacje ze zdjęciami, miejscowości, w których budujecie, zaufanie przy dużej kwocie.", c: "--s4" },
+        { h: "Warsztat samochodowy", p: "Usługi według marki, ceny i ścieżka dla kogoś, komu auto stanęło dziś rano.", c: "--s1" },
+        { h: "Psycholog lub terapeuta", p: "Kwalifikacje, poufność i pierwszy kontakt, który nie przypomina formularza.", c: "--s3" },
+        { h: "Agencja nieruchomości", p: "Oferty, wyszukiwarka i aktualność danych — część, która nigdy nie przestaje kosztować.", c: "--s1" },
+        { h: "Firma wielojęzyczna", p: "Drugi komplet podstron pisany pod tamten rynek, utrzymywany w zgodzie z pierwszym.", c: "--s4" },
+      ],
+      note: "Każda z tych branż ma osobny artykuł z tym, co podnosi cenę właśnie u niej." },
+  },
+
+  ru: {
+    bands: { k: "Четыре пути к своему сайту", h: "Сколько стоит создание сайта: четыре ценовых уровня",
+      s: "Разброс объясняется просто: кто делает работу и сколько решений принимают за вас. Тарифов конструкторов здесь нет — они меняются каждые несколько месяцев, а структура расхода не меняется.",
+      cols: ["Платите один раз", "Платите ежемесячно", "Ваше собственное время", "Что остаётся вашим"],
+      items: [
+        { h: "Делаете сайт сами в конструкторе", p: "Верный выбор, если клиенты и так приходят с карточки на карте и из соцсети.", c: "--s4",
+          d: ["Ничего", "Подписка, растущая с каждой функцией", "Несколько выходных, потом каждая правка", "Сайт живёт, пока вы платите"] },
+        { h: "Вам ставят готовый шаблон", p: "Самый дешёвый способ не выглядеть самоделкой. Ничего в нём не выбрано под ваш бизнес.", c: "--s1",
+          d: ["Небольшая сумма", "Подписка или хостинг", "Обычно все тексты", "Шаблон, который есть и у других"] },
+        { h: "Один специалист делает сайт с нуля", p: "Кто-то решает, чем должен быть сайт, до того как его строить, — и строит его тот же человек.", c: "--s3",
+          d: ["<b>От 700 €</b>, дизайн в цене", "Домен, хостинг, почта — часто больше ничего", "Разговор и ваши собственные материалы", "Сайт, код и домен на ваше имя"] },
+        { h: "Сайт делает агентство", p: "Мощности, подстраховка, процесс, не зависящий от чьей-то недели. Оправданно, когда это нужно.", c: "--s2",
+          d: ["От нескольких тысяч", "Часто абонентская плата", "Встречи", "Обычно сайт — смотрите договор"] },
+      ],
+      note: "Ценовые уровни — моё собственное наблюдение по этому рынку, а не опубликованная статистика. Тарифы конструкторов, хостингов и регистраторов намеренно не называю: они меняются слишком быстро." },
+
+    cost: { k: "Разово и ежегодно", h: "Что вы платите один раз, а за что платите всё время, пока сайт существует",
+      s: "Самая частая неприятность в этой теме — счёт за продление того, что владелец считал включённым. Вот вся регулярная сторона расходов небольшого сайта.",
+      once: { b: "Разово", s: "Сама работа — решить, чем будет сайт, написать его, нарисовать и запустить" },
+      ph: "Ежегодно, кто бы ни делал сайт",
+      rows: [
+        ["Домен", "Арендуется ежегодно, никогда не покупается. Смотрите цену продления, а не цену первого года", "must", "Не избежать"],
+        ["Хостинг", "Общий, управляемый или современная платформа с бесплатным уровнем", "zero", "Бывает нулём"],
+        ["Почта на своём домене", "Это не хостинг. Бесплатный адрес стоит вам доверия", "may", "Немного, но стоит"],
+        ["Сертификат безопасности", "Бесплатный и автоматический от Let's Encrypt на любом серьёзном хостинге", "zero", "Бесплатно"],
+        ["Резервные копии", "Часто включены, иногда нет — узнаете в день, когда понадобятся", "may", "Уточните"],
+        ["Поддержка и правки", "На простом, хорошо сделанном сайте это честный ноль в большинстве месяцев", "zero", "Часто ноль"],
+      ],
+      note: "Регистрируйте домен на своё имя и свою почту. Домен на аккаунте подрядчика — единственный пункт этого списка, из которого потом не выторгуешься." },
+
+    quote: { k: "Как читать смету", h: "Смета на сайт, которую можно оценить, и смета, которую оценить нельзя",
+      s: "Смету, где перечислено, что в неё входит, можно сравнить с любой другой. Смету из одной строки и суммы нельзя оценить ни при какой цене — в том числе при низкой.",
+      good: { h: "Смета, которую можно оценить", s: "Пять пунктов названы, поэтому её есть с чем сравнить",
+        li: ["Страницы перечислены поимённо, а не посчитаны", "Кто пишет тексты", "Кому потом принадлежат домен, код и тексты", "Что вы меняете сами, не доплачивая", "Что происходит после запуска и как долго"] },
+      bad: { h: "Смета, которую оценить нельзя", s: "Та же сумма и ни одного признака, что внутри",
+        li: ["«Пять страниц»", "Тексты — не оговорено", "Права — не оговорены", "Правки — не оговорены", "После запуска — не оговорено"],
+        one: ["Сайт", "— — — €"] },
+      note: "Ещё два вопроса, которые стоит задать вслух: можно ли посмотреть сайт, который до сих пор работает и которым пользуются, и что будет, если мы перестанем работать вместе." },
+
+    ind: { k: "Что меняет цену в зависимости от отрасли", h: "Почему одни и те же пять страниц стоят по-разному в разных отраслях",
+      s: "Цена идёт за тем, что сайт обязан уметь, прежде чем вообще начнёт работать. Каждый пункт — настоящий множитель, а не наценка.",
+      items: [
+        { h: "Салон красоты", p: "Запись, прайс, который меняется постоянно, страницы мастеров, которые должны быть свежими.", c: "--s2" },
+        { h: "Строительная компания", p: "Объекты с фотографиями, города, где вы строите, доверие при крупной сумме сделки.", c: "--s4" },
+        { h: "Автосервис", p: "Услуги по маркам, цены и путь для того, у кого машина встала сегодня утром.", c: "--s1" },
+        { h: "Психолог или терапевт", p: "Образование, конфиденциальность и первый контакт, который не похож на анкету.", c: "--s3" },
+        { h: "Агентство недвижимости", p: "Объекты, поиск и актуальность данных — часть, которая не перестаёт стоить денег.", c: "--s1" },
+        { h: "Многоязычный бизнес", p: "Второй комплект страниц, написанный под тот рынок и поддерживаемый наравне с первым.", c: "--s4" },
+      ],
+      note: "По каждой из этих отраслей есть отдельная статья с тем, что поднимает цену именно там." },
+  },
+};
+
+function section(lang, id, t) {
+  const s = document.createElement("div");
+  s.className = "fig"; s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2><p class="sub">${t.s}</p>`;
+  document.getElementById("root").appendChild(s);
+  return s;
+}
+function bands(lang, t) {
+  const s = section(lang, "bands", t);
+  s.insertAdjacentHTML("beforeend", `<div class="bands">${t.items.map((x, i) => `
+    <div class="band" style="border-top:3px solid var(${x.c})"><p class="n">0${i + 1}</p><h3>${x.h}</h3><p>${x.p}</p>
+      <dl>${x.d.map((v, k) => `<dt>${t.cols[k]}</dt><dd>${v}</dd>`).join("")}</dl></div>`).join("")}</div>
+    <p class="note">${t.note}</p>`);
+}
+function cost(lang, t) {
+  const s = section(lang, "cost", t);
+  s.insertAdjacentHTML("beforeend", `<div class="two">
+    <div class="pane once"><b>${t.once.b}</b><span>${t.once.s}</span></div>
+    <div class="pane"><p class="ph">${t.ph}</p><div class="rows">${t.rows.map(([l, d, cls, tag]) => `
+      <div class="r"><div class="l">${l}<em>${d}</em></div><div class="tag ${cls}">${tag}</div></div>`).join("")}</div></div></div>
+    <p class="note">${t.note}</p>`);
+}
+function quote(lang, t) {
+  const s = section(lang, "quote", t);
+  s.insertAdjacentHTML("beforeend", `<div class="quotes">
+    <div class="doc good"><p class="dh">${t.good.h}</p><p class="dsub">${t.good.s}</p>
+      ${t.good.li.map((x) => `<div class="li y"><i>✓</i><span>${x}</span></div>`).join("")}</div>
+    <div class="doc bad"><p class="dh">${t.bad.h}</p><p class="dsub">${t.bad.s}</p>
+      ${t.bad.li.map((x) => `<div class="li n"><i>—</i><span>${x}</span></div>`).join("")}
+      <div class="oneline"><span>${t.bad.one[0]}</span><b>${t.bad.one[1]}</b></div></div></div>
+    <p class="note">${t.note}</p>`);
+}
+function ind(lang, t) {
+  const s = section(lang, "ind", t);
+  s.insertAdjacentHTML("beforeend", `<div class="grid6">${t.items.map((x) => `
+    <div class="ind" style="border-left-color:var(${x.c})"><h3>${x.h}</h3><p>${x.p}</p></div>`).join("")}</div>
+    <p class="note">${t.note}</p>`);
+}
+for (const lang of ["en", "pl", "ru"]) { bands(lang, T[lang].bands); cost(lang, T[lang].cost); quote(lang, T[lang].quote); ind(lang, T[lang].ind); }
+</script>
+</body>
+</html>

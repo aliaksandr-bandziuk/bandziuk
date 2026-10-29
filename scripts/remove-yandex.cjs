@@ -251,6 +251,7 @@ function dropFaq(blocks, question, docKey) {
 
   const patches = [];
   const left = [];
+  const alreadyClean = [];
   let failed = false;
 
   for (const docKey of keys) {
@@ -262,6 +263,12 @@ function dropFaq(blocks, question, docKey) {
     if (!doc) { console.log(`!  ${docKey}: page not found`); failed = true; continue; }
     const draft = await client.fetch(`*[_id == $id][0]._id`, { id: `drafts.${doc._id}` });
     if (draft) { console.log(`Aborting — draft exists for ${doc._id}; publish or discard it first.`); process.exit(1); }
+
+    // If the document no longer mentions Yandex at all, this run is a repeat of a
+    // successful one. Say so instead of reporting every fragment as a miss.
+    const had = [];
+    survivors(doc, had);
+    if (!had.length) { alreadyClean.push(docKey); continue; }
 
     let transformed = {};
     const changedFields = {};
@@ -312,6 +319,7 @@ function dropFaq(blocks, question, docKey) {
   }
 
   for (const docKey of Object.keys(TEXT)) {
+    if (alreadyClean.includes(docKey)) continue;
     for (const [from, , want = 1] of TEXT[docKey]) {
       const n = counts[`${docKey}::${from}`] || 0;
       if (n !== want) { console.log(`!  ${docKey}: fragment matched ${n} time(s), expected ${want}: «${clip(from, 90)}»`); failed = true; }
@@ -322,6 +330,11 @@ function dropFaq(blocks, question, docKey) {
     console.log(`\n!! ${left.length} mention(s) of Yandex still present:`);
     for (const l of left) console.log(`   ${l.docKey} (${l.key})\n      ${clip(l.text, 300)}`);
     failed = true;
+  }
+
+  if (alreadyClean.length) {
+    console.log(`\n${alreadyClean.length} document(s) already carry no mention of Yandex — a previous run applied them:`);
+    for (const k of alreadyClean) console.log(`   ${k}`);
   }
 
   if (failed) { console.log(`\nNot writing: fix the items above first.`); process.exit(1); }

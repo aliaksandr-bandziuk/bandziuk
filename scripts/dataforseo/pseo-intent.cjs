@@ -211,6 +211,25 @@ PAIR_SETS["chatgpt-seo-article"] = [
   ["ru: продвижение в chatgpt = как попасть в рекомендации chatgpt?", "ru", "продвижение в chatgpt", "как попасть в рекомендации chatgpt"],
 ];
 
+// Article on GEO / AEO / LLM SEO tools (29.10.2026), first in the blog queue.
+// Three things to settle before writing: whether the tool phrasings are one
+// article or several, whether «geo tools» means this subject at all or
+// geography software, and whether the article would eat the service pages and
+// the existing «what is GEO» and «LLM SEO» articles.
+PAIR_SETS["geo-tools-article"] = [
+  ["одна статья или две: GEO-инструменты = LLM SEO-инструменты?", "en", "generative engine optimization tools", "llm seo tools"],
+  ["«geo tools» — про это или про геоданные?", "en", "geo tools", "generative engine optimization tools"],
+  ["AEO-инструменты = GEO-инструменты?", "en", "aeo tools", "generative engine optimization tools"],
+  ["инструменты видимости в ИИ = GEO-инструменты?", "en", "ai visibility tools", "generative engine optimization tools"],
+  ["«ai seo tools» — инструменты ИИ для SEO, а не наоборот?", "en", "ai seo tools", "generative engine optimization tools"],
+  ["мониторинг упоминаний = инструменты?", "en", "llm monitoring tools", "llm seo tools"],
+  ["статья не съест ли статью «LLM SEO»?", "en", "llm seo tools", "llm seo"],
+  ["статья не съест ли статью «what is GEO»?", "en", "generative engine optimization tools", "generative engine optimization"],
+  ["статья не съест ли страницу услуги?", "en", "llm seo tools", "llm seo services"],
+  ["pl: есть ли спрос на инструменты отдельно от самой темы?", "pl", "narzędzia do pozycjonowania w ai", "pozycjonowanie w chatgpt"],
+  ["ru: есть ли спрос на инструменты отдельно от самой темы?", "ru", "инструменты для продвижения в ии", "продвижение в chatgpt"],
+];
+
 // Stage 2, group 1 (24.10.2026): trades. Whose demand «plumber website» is
 // (owners or homeowners), whether design and development split as for
 // contractors, one trades SEO page or one per trade, and whether trade SEO

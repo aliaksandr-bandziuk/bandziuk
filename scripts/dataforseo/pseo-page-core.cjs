@@ -806,6 +806,33 @@ const TOPICS = {
       ru: ["продвижение в chatgpt"],
     },
   },
+  // Article on GEO / AEO / LLM SEO tools (29.10.2026). The head phrases are
+  // known from the backlog (~3,500/month together); this collects the tails and
+  // the questions the H2s and the FAQ are built from.
+  "geo-tools-article": {
+    relevant: /\bgeo\b|\baeo\b|\bllm|generative engine|answer engine|ai search|ai visibility|chatgpt|perplexity|ai overview|sztuczn|\bии\b|нейросет|искусственн/i,
+    otherPage: {
+      "LLM SEO / GEO service page": /servic|agenc|compan|consult|usług|agencj|услуг|агентств|price|cost|cena|цена|стоимост/i,
+      "«what is GEO» article": /what is|meaning|definition|co to|czym jest|что такое|что это/i,
+    },
+    groups: {
+      "tools / platforms": /tool|platform|software|\bapp\b|narzędzi|platform|инструмент|сервис|платформ/i,
+      "tracking / monitoring": /track|monitor|checker|audit|visibility|śledz|monitor|мониторинг|отслеж|проверк/i,
+      "free": /free|darmow|бесплат/i,
+      "best / comparison": /best|top \d|\bvs\b|compar|alternativ|review|najlepsz|лучш|сравн|альтернатив/i,
+      "how to": /how to|how do|jak |как /i,
+    },
+    seeds: {
+      en: ["generative engine optimization tools", "llm seo tools", "aeo tools", "ai visibility tools", "ai search optimization tools", "llm monitoring tools", "best geo tools", "chatgpt rank tracker"],
+      pl: ["narzędzia do pozycjonowania w ai", "narzędzia geo seo", "monitoring widoczności w ai"],
+      ru: ["инструменты для продвижения в ии", "сервисы отслеживания упоминаний в chatgpt", "инструменты geo seo"],
+    },
+    serp: {
+      en: ["generative engine optimization tools", "llm seo tools"],
+      pl: ["narzędzia do pozycjonowania w ai"],
+      ru: ["инструменты для продвижения в ии"],
+    },
+  },
   // Survey (22.10.2026): AI-search wording (GEO, AEO, AIO, «продвижение в
   // ChatGPT»). Owner's rule: every SEO page for every niche also covers AI
   // search. Shows which general phrases carry demand and whether any

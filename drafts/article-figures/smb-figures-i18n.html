@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Figures for the «Small business SEO» article (29.10.2026). Same surface, type and
+     slots as the GEO/AEO/LLM/ChatGPT/Attorney SEO series. Every number is repeated in
+     the article text, with the same source attribution. */
+  :root{
+    --surface:#111114; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+  .fig{width:1200px;background:var(--surface);padding:44px 48px 40px;margin:0 0 30px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h2{font-size:26px;line-height:1.25;font-weight:600;color:var(--ink);margin:0 0 6px}
+  .sub{font-size:15px;line-height:1.5;color:var(--ink-2);margin:0 0 26px;max-width:86ch}
+  .note{font-size:13px;color:var(--muted);margin:22px 0 0;line-height:1.5}
+
+  /* two mini-SERPs (figure 1) */
+  .serps{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .serp{border-radius:16px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.1);padding:18px 18px 16px}
+  .qbar{display:flex;align-items:center;gap:10px;border-radius:22px;background:rgba(255,255,255,.07);padding:10px 16px;margin:0 0 8px;color:#fff;font-size:15px}
+  .qbar i{width:15px;height:15px;border-radius:50%;border:2.5px solid #cfe1fb;position:relative;flex:none}
+  .qbar i::after{content:"";position:absolute;right:-6px;bottom:-5px;width:7px;height:2.5px;background:#cfe1fb;transform:rotate(45deg)}
+  .qlbl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 14px;padding-left:4px}
+  .blk{border-radius:10px;padding:10px 12px;margin:0 0 9px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03)}
+  .blk .t{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 7px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .blk .t em{font-style:normal;font-size:15px;font-weight:700;letter-spacing:0}
+  .blk .ln{height:8px;border-radius:4px;background:rgba(255,255,255,.16);margin:0 0 6px}
+  .blk .ln.s{background:rgba(255,255,255,.09)}
+  .blk.map{border-color:rgba(25,158,112,.65);background:rgba(25,158,112,.08)}
+  .blk.map .t{color:#62d3a9}
+  .blk.faint{opacity:.42}
+  .mapbox{display:grid;grid-template-columns:110px 1fr;gap:10px}
+  .mapimg{border-radius:8px;background:repeating-linear-gradient(45deg,rgba(255,255,255,.05) 0 6px,rgba(255,255,255,.02) 6px 12px);position:relative;height:88px}
+  .pin{position:absolute;width:14px;height:14px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--s2)}
+  .firm{display:flex;align-items:center;gap:8px;margin:0 0 7px}
+  .firm .ln{flex:1;margin:0}
+  .stars{font-size:11px;letter-spacing:1px;color:#f3c66b;flex:none}
+  .blk.aio{border-color:rgba(201,133,0,.7);background:rgba(201,133,0,.08)}
+  .blk.aio .t{color:#f3c66b}
+  .src{display:flex;gap:6px;margin-top:8px}
+  .src span{flex:1;height:24px;border-radius:6px;background:rgba(255,255,255,.07);border:1px solid rgba(243,198,107,.35)}
+  .blk.org .t{color:#9fc3f3}
+  .ctr{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:16px}
+  .ctrbox{border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03);padding:16px 18px}
+  .ctrbox .h{font-family:var(--mono);font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  .pair{display:flex;align-items:flex-end;gap:14px}
+  .pair .col{flex:1}
+  .pair .bar{border-radius:6px 6px 0 0;background:var(--s2)}
+  .pair .bar.dim{background:rgba(255,255,255,.18)}
+  .pair .col.was b{color:var(--ink-2)}
+  .pair .col.now b{color:#ffa882}
+  .pair b{display:block;font-size:22px;font-weight:700;color:#fff;margin:0 0 6px}
+  .pair span{display:block;font-size:12px;color:var(--muted);line-height:1.35;margin-top:6px}
+  .aiband{margin-top:16px;border-radius:14px;padding:16px 20px;border:1px dashed rgba(201,133,0,.6);background:rgba(201,133,0,.07);display:flex;gap:26px;align-items:center}
+  .aiband .lbl{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#f3c66b;flex:none;width:160px;line-height:1.4}
+  .aiband div.c{display:flex;align-items:baseline;gap:10px}
+  .aiband div.c b{font-size:25px;color:#f3c66b;font-weight:700;flex:none}
+  .aiband div.c span{font-size:13.5px;color:var(--ink-2);line-height:1.4}
+  .quote{margin-top:16px;border-radius:14px;padding:16px 20px;border-left:3px solid var(--s3);background:rgba(25,158,112,.07)}
+  .quote p{margin:0;font-size:15px;line-height:1.5;color:#fff}
+  .quote cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted);margin-top:8px}
+
+  /* steps (figure 2) */
+  .steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+  .step{border-radius:14px;padding:18px 16px 16px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;position:relative}
+  .step .n{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.1em;margin:0 0 10px}
+  .step h3{font-size:16.5px;line-height:1.3;color:#fff;margin:0 0 10px;font-weight:600}
+  .step p{font-size:13.5px;line-height:1.45;color:var(--ink-2);margin:0 0 14px;flex:1}
+  .step .stat{border-top:1px solid rgba(255,255,255,.1);padding-top:12px}
+  .step .stat b{display:block;font-size:27px;line-height:1.1;font-weight:700}
+  .step .stat span{display:block;font-size:12px;line-height:1.4;color:var(--muted);margin-top:4px}
+  .step .stat + .stat{margin-top:10px}
+  .step::after{content:"";position:absolute;right:-12px;top:34px;width:10px;height:10px;border-top:2px solid rgba(255,255,255,.35);border-right:2px solid rgba(255,255,255,.35);transform:rotate(45deg)}
+  .step:last-child::after{display:none}
+
+  /* plan (figure 3) */
+  .phases{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;position:relative}
+  .ph{border-radius:14px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);padding:0 0 14px;overflow:hidden}
+  .ph .hd{padding:14px 16px 12px}
+  .ph .wk{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+  .ph h3{font-size:17px;line-height:1.3;color:#fff;margin:6px 0 0;font-weight:600}
+  .ph ul{list-style:none;margin:4px 0 0;padding:0 16px}
+  .ph li{font-size:13.5px;line-height:1.42;color:var(--ink-2);padding:7px 0 7px 18px;position:relative;border-top:1px solid rgba(255,255,255,.06)}
+  .ph li::before{content:"";position:absolute;left:0;top:13px;width:8px;height:8px;border-radius:2px;background:currentColor;opacity:.9}
+  .timeline{margin-top:18px;position:relative;height:46px}
+  .timeline .bar{position:absolute;left:0;right:0;top:12px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--s4),var(--s1) 45%,var(--s3))}
+  .timeline .m{position:absolute;top:24px;font-size:12.5px;color:var(--ink-2);transform:translateX(-50%);white-space:nowrap}
+  .timeline .d{position:absolute;top:7px;width:16px;height:16px;border-radius:50%;background:#111114;border:3px solid #fff;transform:translateX(-50%)}
+
+  /* age bars + funnel (figure 4) */
+  .tl2{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+  .panel .ph3{font-family:var(--mono);font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:0 0 16px}
+  .bars{display:flex;flex-direction:column;gap:12px}
+  .row{display:grid;grid-template-columns:150px 1fr 66px;gap:12px;align-items:center}
+  .row .lb{font-size:13.5px;color:var(--ink-2);line-height:1.35;text-align:right}
+  .row .tr{height:26px;border-radius:5px;background:rgba(255,255,255,.055);overflow:hidden}
+  .row .fl{height:100%;border-radius:5px}
+  .row .vl{font-size:17px;font-weight:700;color:#fff;font-family:var(--mono)}
+  .funnel{display:flex;flex-direction:column;gap:0}
+  .fn{border-radius:12px;padding:14px 18px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.035)}
+  .fn b{font-size:26px;font-weight:700;line-height:1.1;display:block}
+  .fn span{display:block;font-size:13px;line-height:1.42;color:var(--ink-2);margin-top:5px}
+  .fnarr{height:22px;position:relative}
+  .fnarr::after{content:"";position:absolute;left:34px;top:3px;width:10px;height:10px;border-right:2px solid rgba(255,255,255,.4);border-bottom:2px solid rgba(255,255,255,.4);transform:rotate(45deg)}
+  .fn.w1{width:100%} .fn.w2{width:84%} .fn.w3{width:66%}
+  .bigstat{margin-top:20px;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03);padding:18px 20px;display:flex;align-items:baseline;gap:16px}
+  .bigstat b{font-size:40px;font-weight:700;color:#fff;line-height:1;flex:none}
+  .bigstat span{font-size:14px;line-height:1.45;color:var(--ink-2)}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const T = {
+  en: {
+    ai: { k: "AI in search · Pew 2025, Ahrefs 2026, Whitespark 2025", h: "What AI answers changed, and the searches they did not change",
+      s: "AI answers take the clicks on informational questions. The searches that bring customers — a service plus a place — are still decided by the map block.",
+      left: { q: "emergency plumber in Bristol", lbl: "Search that brings a customer", map: ["Map pack · three businesses", "93%"], org: ["Business websites", ""], aio: ["AI Overview", "15%"] },
+      right: { q: "why is my radiator cold at the top", lbl: "Informational question", aio: ["AI Overview · cited sources", "92%"], org: ["Articles and guides", ""], map: ["Map pack", "6%"] },
+      ctr: [
+        { h: "Clicks when an AI summary appears · Pew", pair: [["15%", "no AI summary", 100, 1], ["8%", "AI summary shown", 53, 0]], note: "1% clicked a link inside the summary. 900 US adults, 68,879 searches, March 2025." },
+        { h: "Click-through at position one · Ahrefs", pair: [["100%", "keywords with no AI Overview", 100, 1], ["42%", "keywords with an AI Overview", 42, 0]], note: "A 58% fall. 300,000 keywords, Search Console data to December 2025. Correlation, not proven cause." },
+      ],
+      quote: { p: "«There are no additional requirements to appear in AI Overviews or AI Mode, nor other special optimizations necessary.»", c: "Google, «AI Features and Your Website», updated 10 December 2025. The same page adds that all existing SEO fundamentals continue to be worthwhile." },
+      note: "Whitespark: 540 manual searches, 3 US cities, 6 industries, May 2025. Ahrefs found local queries were only 6.85% of the keywords that triggered an AI Overview (56 million AI Overviews, May 2025)." },
+    cust: { k: "How a customer picks a small business · US surveys, 2025–2026", h: "From a search to a phone call: what the customer checks on the way",
+      s: "Most people arrive from a search for the service rather than for the business, shortlist on reviews, and will not consider a business below four stars.",
+      steps: [
+        { h: "Finds you by the service, not the name", p: "Most profile views come from people searching for what you do.", st: [["84%", "of Business Profile views came from discovery searches, 16% from name searches"]], c: "--s1", warn: "BrightLocal, data from 2017–2018 — no newer equivalent has been published" },
+        { h: "Reads the reviews first", p: "Reviews are read before the website in most cases.", st: [["97%", "read online reviews for local businesses (BrightLocal 2026)"], ["71%", "read them on Google — down from 83% a year earlier"]], c: "--s4" },
+        { h: "Drops anyone under four stars", p: "The rating is a filter, not a tiebreaker.", st: [["68%", "require at least 4 stars"], ["31%", "only consider 4.5 and above"]], c: "--s2" },
+        { h: "Chooses from the top three", p: "Getting into the map block takes a visible number of reviews.", st: [["47", "reviews: the median business in Google's local three-pack"], ["4.5–4.9", "where the ratings of those businesses cluster"]], c: "--s3" },
+      ],
+      band: { l: "Why it pays off", c: [["83%", "of US small businesses have a website (Clutch, 406 owners, August 2025)"], ["40%", "of those name SEO as their top source of leads"]] },
+      note: "Sources: BrightLocal Local Consumer Review Survey 2026 (1,002 US adults, February 2026); Local Falcon (50.4 million results, 1,993 categories, January 2026); Clutch (406 US small business owners, August 2025); BrightLocal Google Business Profile study (2017–2018 data)." },
+    plan: { k: "Small business SEO · the order of work", h: "A 90-day small business SEO plan you can run yourself",
+      s: "Each phase needs the one before it. First the targets and the free profile, then the pages, then reviews and listings, then content and measurement.",
+      ph: [
+        { w: "Weeks 1–2", h: "Targets and the Google profile", c: "--s4", li: ["Pick 3–5 service + place combinations you can win", "Collect the words customers use when they call", "Real business name, real address, few categories"] },
+        { w: "Weeks 3–6", h: "One page per service", c: "--s1", li: ["A page for each service people search for", "Price or how pricing works, in text", "Phone dials on tap; speed and indexing checked"] },
+        { w: "Weeks 7–10", h: "Reviews and listings", c: "--s3", li: ["Ask every satisfied customer, by text, with a link", "No incentives, no gating, no pressure on site", "Same name, address and phone everywhere"] },
+        { w: "Weeks 11–13", h: "Content and measurement", c: "--s2", li: ["Two customer questions answered per month", "Ask ChatGPT and AI Mode what they say about you", "Count calls and enquiries, not positions"] },
+      ],
+      tl: [["Start", 0], ["≈ 1.5 months: first movements", 33], ["3–6 months: steady growth", 100]],
+      note: "Google's own guidance: a small local business «can probably do much of the work yourself» («Do You Need an SEO?», updated 5 June 2026). Timing is typical for a narrower service or a smaller area." },
+    time: { k: "How long it takes · Ahrefs 2025", h: "How long small business SEO takes, and why narrow targets move first",
+      s: "Most pages in the top ten are years old. But of the new pages that get there at all, most arrive in the first month — which says more about the target than about patience.",
+      bars: { h: "Age of the pages in Google's top ten", rows: [["More than 3 years old", 72.9, "--s1"], ["1 to 3 years old", 13.4, "--s4"], ["Under a year old", 13.7, "--s3"]], big: ["≈5 years", "the average age of the page that ranks first"], note: "1.3 million US keywords." },
+      funnel: { h: "One million URLs, tracked for a year", f: [["1,000,000", "new URLs first seen in September 2023", "--s1"], ["1.74%", "reached the top ten within a year", "--s4"], ["40.8%", "of those arrived in the first month", "--s3"]] },
+      quote: { p: "«Some changes might take effect in a few hours, others could take several months.»", c: "Google, SEO Starter Guide, updated 10 December 2025. The same guide suggests waiting a few weeks before judging whether a change helped." },
+      note: "Source: Ahrefs ranking-time study, 15 May 2025. In my own work: first movements at about 1.5 months, meaningful growth between three and six months, longer in contested services and cities." },
+  },
+  pl: {
+    ai: { k: "AI w wyszukiwaniu · Pew 2025, Ahrefs 2026, Whitespark 2025", h: "Co zmieniły odpowiedzi AI, a jakich wyszukiwań nie zmieniły",
+      s: "Odpowiedzi AI zabierają kliknięcia w pytaniach informacyjnych. Wyszukiwania, które przynoszą klienta — usługa plus miejsce — nadal rozstrzyga blok map.",
+      left: { q: "hydraulik awaryjny Wrocław", lbl: "Wyszukiwanie, które przynosi klienta", map: ["Blok map · trzy firmy", "93%"], org: ["Strony firm", ""], aio: ["AI Overview", "15%"] },
+      right: { q: "dlaczego kaloryfer jest zimny u góry", lbl: "Pytanie informacyjne", aio: ["AI Overview · cytowane źródła", "92%"], org: ["Artykuły i poradniki", ""], map: ["Blok map", "6%"] },
+      ctr: [
+        { h: "Kliknięcia, gdy pojawia się podsumowanie AI · Pew", pair: [["15%", "bez podsumowania AI", 100, 1], ["8%", "z podsumowaniem AI", 53, 0]], note: "1% kliknął link wewnątrz podsumowania. 900 dorosłych Amerykanów, 68 879 wyszukiwań, marzec 2025." },
+        { h: "Klikalność pierwszej pozycji · Ahrefs", pair: [["100%", "frazy bez AI Overview", 100, 1], ["42%", "frazy z AI Overview", 42, 0]], note: "Spadek o 58%. 300 000 fraz, dane Search Console do grudnia 2025. Korelacja, nie dowiedziona przyczyna." },
+      ],
+      quote: { p: "«Nie ma żadnych dodatkowych wymagań, aby pojawić się w AI Overviews lub w AI Mode, ani potrzeby innych specjalnych optymalizacji.»", c: "Google, «AI Features and Your Website», aktualizacja 10 grudnia 2025. Ta sama strona dodaje, że wszystkie dotychczasowe podstawy SEO nadal mają sens." },
+      note: "Whitespark: 540 wyszukiwań wykonanych ręcznie, 3 miasta w USA, 6 branż, maj 2025. Ahrefs: zapytania lokalne stanowiły tylko 6,85% fraz wywołujących AI Overview (56 mln AI Overviews, maj 2025)." },
+    cust: { k: "Jak klient wybiera małą firmę · badania USA, 2025–2026", h: "Od wyszukiwania do telefonu: co klient sprawdza po drodze",
+      s: "Większość trafia z wyszukiwania usługi, a nie nazwy firmy, robi listę na podstawie opinii i nie bierze pod uwagę firm poniżej czterech gwiazdek.",
+      steps: [
+        { h: "Znajduje cię po usłudze, nie po nazwie", p: "Większość wyświetleń profilu pochodzi od osób szukających tego, co robisz.", st: [["84%", "wyświetleń Profilu Firmy pochodziło z wyszukiwań usługi, 16% z wyszukiwań nazwy"]], c: "--s1", warn: "BrightLocal, dane z lat 2017–2018 — nowszego odpowiednika nie opublikowano" },
+        { h: "Najpierw czyta opinie", p: "Opinie są zwykle czytane przed wejściem na stronę.", st: [["97%", "czyta opinie o lokalnych firmach (BrightLocal 2026)"], ["71%", "czyta je w Google — rok wcześniej 83%"]], c: "--s4" },
+        { h: "Odrzuca firmy poniżej czterech gwiazdek", p: "Ocena jest filtrem, nie języczkiem u wagi.", st: [["68%", "wymaga co najmniej 4 gwiazdek"], ["31%", "bierze pod uwagę tylko 4,5 i wyżej"]], c: "--s2" },
+        { h: "Wybiera z pierwszej trójki", p: "Wejście do bloku map wymaga widocznej liczby opinii.", st: [["47", "opinii: mediana firmy w lokalnej trójce Google"], ["4,5–4,9", "w tym przedziale skupiają się ich oceny"]], c: "--s3" },
+      ],
+      band: { l: "Dlaczego to się opłaca", c: [["83%", "małych firm w USA ma stronę internetową (Clutch, 406 właścicieli, sierpień 2025)"], ["40%", "z nich wskazuje SEO jako główne źródło zapytań"]] },
+      note: "Źródła: BrightLocal Local Consumer Review Survey 2026 (1 002 dorosłych w USA, luty 2026); Local Falcon (50,4 mln wyników, 1 993 kategorie, styczeń 2026); Clutch (406 właścicieli małych firm w USA, sierpień 2025); badanie BrightLocal dotyczące Profilu Firmy w Google (dane z lat 2017–2018). Polskich odpowiedników tych badań nie opublikowano." },
+    plan: { k: "SEO małej firmy · kolejność prac", h: "Plan samodzielnego SEO małej firmy na 90 dni",
+      s: "Każdy etap potrzebuje poprzedniego. Najpierw cele i darmowy profil, potem strony, potem opinie i katalogi, na końcu treści i pomiar.",
+      ph: [
+        { w: "Tydzień 1–2", h: "Cele i Profil Firmy w Google", c: "--s4", li: ["Wybierz 3–5 kombinacji usługa + miejsce, które możesz wygrać", "Zbierz słowa, których klienci używają przy telefonie", "Prawdziwa nazwa, prawdziwy adres, mało kategorii"] },
+        { w: "Tydzień 3–6", h: "Jedna strona na jedną usługę", c: "--s1", li: ["Strona dla każdej usługi, której ludzie szukają", "Cena albo zasady wyceny, w tekście", "Telefon dzwoni jednym dotknięciem; szybkość i indeksacja sprawdzone"] },
+        { w: "Tydzień 7–10", h: "Opinie i katalogi firm", c: "--s3", li: ["Pytaj każdego zadowolonego klienta, SMS-em, z linkiem", "Bez nagród, bez filtrowania, bez presji na miejscu", "Ta sama nazwa, adres i telefon wszędzie"] },
+        { w: "Tydzień 11–13", h: "Treści i pomiar", c: "--s2", li: ["Dwie odpowiedzi na pytania klientów miesięcznie", "Zapytaj ChatGPT i AI Mode, co mówią o twojej firmie", "Licz telefony i zapytania, nie pozycje"] },
+      ],
+      tl: [["Start", 0], ["≈ 1,5 miesiąca: pierwsze ruchy", 33], ["3–6 miesięcy: stały wzrost", 100]],
+      note: "Wskazówka samego Google: mała lokalna firma «prawdopodobnie może wykonać większość tej pracy samodzielnie» («Do You Need an SEO?», aktualizacja 5 czerwca 2026). Terminy są typowe dla węższej usługi albo mniejszego obszaru." },
+    time: { k: "Ile to trwa · Ahrefs 2025", h: "Ile trwa SEO małej firmy i dlaczego węższe cele ruszają pierwsze",
+      s: "Większość stron w pierwszej dziesiątce ma po kilka lat. Ale z nowych stron, które tam w ogóle trafiają, większość trafia w pierwszym miesiącu — a to mówi więcej o celu niż o cierpliwości.",
+      bars: { h: "Wiek stron w pierwszej dziesiątce Google", rows: [["Ponad 3 lata", 72.9, "--s1"], ["Od 1 do 3 lat", 13.4, "--s4"], ["Poniżej roku", 13.7, "--s3"]], big: ["≈5 lat", "tyle średnio ma strona na pierwszej pozycji"], note: "1,3 mln fraz w USA." },
+      funnel: { h: "Milion adresów URL obserwowanych przez rok", f: [["1 000 000", "nowych adresów URL zauważonych we wrześniu 2023", "--s1"], ["1,74%", "trafiło do pierwszej dziesiątki w ciągu roku", "--s4"], ["40,8%", "z nich trafiło tam w pierwszym miesiącu", "--s3"]] },
+      quote: { p: "«Niektóre zmiany mogą zadziałać w ciągu kilku godzin, inne mogą zająć kilka miesięcy.»", c: "Google, SEO Starter Guide, aktualizacja 10 grudnia 2025. Ten sam przewodnik radzi odczekać kilka tygodni przed oceną, czy zmiana pomogła." },
+      note: "Źródło: badanie Ahrefs o czasie wchodzenia w rankingi, 15 maja 2025. W mojej praktyce: pierwsze ruchy po około 1,5 miesiąca, wyraźny wzrost między trzecim a szóstym miesiącem, dłużej w konkurencyjnych usługach i miastach." },
+  },
+  ru: {
+    ai: { k: "ИИ в поиске · Pew 2025, Ahrefs 2026, Whitespark 2025", h: "Что изменили ответы ИИ и какие поиски они не изменили",
+      s: "Ответы ИИ забирают клики в информационных вопросах. Поиски, которые приводят клиента, — услуга плюс место — по-прежнему решает блок карт.",
+      left: { q: "срочный ремонт сантехники Варшава", lbl: "Поиск, который приводит клиента", map: ["Блок карт · три компании", "93%"], org: ["Сайты компаний", ""], aio: ["AI Overview", "15%"] },
+      right: { q: "почему радиатор холодный сверху", lbl: "Информационный вопрос", aio: ["AI Overview · цитируемые источники", "92%"], org: ["Статьи и руководства", ""], map: ["Блок карт", "6%"] },
+      ctr: [
+        { h: "Клики, когда появляется сводка ИИ · Pew", pair: [["15%", "без сводки ИИ", 100, 1], ["8%", "со сводкой ИИ", 53, 0]], note: "1% нажал ссылку внутри сводки. 900 взрослых в США, 68 879 поисков, март 2025." },
+        { h: "Кликабельность первой позиции · Ahrefs", pair: [["100%", "запросы без AI Overview", 100, 1], ["42%", "запросы с AI Overview", 42, 0]], note: "Падение на 58%. 300 000 запросов, данные Search Console до декабря 2025. Корреляция, а не доказанная причина." },
+      ],
+      quote: { p: "«Нет никаких дополнительных требований для появления в AI Overviews или AI Mode, как и необходимости в особой оптимизации.»", c: "Google, «AI Features and Your Website», обновлено 10 декабря 2025. Там же сказано, что все прежние основы SEO продолжают работать." },
+      note: "Whitespark: 540 поисков вручную, 3 города в США, 6 отраслей, май 2025. Ahrefs: локальные запросы составили лишь 6,85% запросов, вызывающих AI Overview (56 млн AI Overviews, май 2025)." },
+    cust: { k: "Как клиент выбирает небольшую компанию · исследования США, 2025–2026", h: "От поиска до звонка: что клиент проверяет по дороге",
+      s: "Большинство приходит с поиска услуги, а не названия, отбирает по отзывам и не рассматривает компании ниже четырёх звёзд.",
+      steps: [
+        { h: "Находит вас по услуге, а не по названию", p: "Большинство просмотров профиля — от людей, искавших то, что вы делаете.", st: [["84%", "просмотров профиля пришло с поиска услуги, 16% — с поиска названия"]], c: "--s1", warn: "BrightLocal, данные 2017–2018 годов — более нового аналога не публиковали" },
+        { h: "Сначала читает отзывы", p: "Отзывы читают раньше, чем открывают сайт.", st: [["97%", "читают отзывы о местных компаниях (BrightLocal 2026)"], ["71%", "читают их в Google — годом ранее было 83%"]], c: "--s4" },
+        { h: "Отбрасывает всех ниже четырёх звёзд", p: "Оценка работает как фильтр, а не как последний аргумент.", st: [["68%", "требуют минимум 4 звезды"], ["31%", "рассматривают только 4,5 и выше"]], c: "--s2" },
+        { h: "Выбирает из первой тройки", p: "Чтобы попасть в блок карт, нужно заметное число отзывов.", st: [["47", "отзывов: медиана компании в локальной тройке Google"], ["4,5–4,9", "в этом диапазоне держатся их оценки"]], c: "--s3" },
+      ],
+      band: { l: "Почему это окупается", c: [["83%", "небольших компаний в США имеют сайт (Clutch, 406 владельцев, август 2025)"], ["40%", "из них называют SEO главным источником обращений"]] },
+      note: "Источники: BrightLocal Local Consumer Review Survey 2026 (1 002 взрослых в США, февраль 2026); Local Falcon (50,4 млн результатов, 1 993 категории, январь 2026); Clutch (406 владельцев небольших компаний в США, август 2025); исследование BrightLocal по профилю компании в Google (данные 2017–2018). Сопоставимых исследований по странам, где живёт русскоязычный бизнес, не публиковали." },
+    plan: { k: "Продвижение сайта малого бизнеса · порядок работ", h: "План самостоятельного продвижения сайта на 90 дней",
+      s: "Каждый этап опирается на предыдущий. Сначала цели и бесплатный профиль, потом страницы, потом отзывы и каталоги, в конце — тексты и измерение.",
+      ph: [
+        { w: "Недели 1–2", h: "Цели и профиль компании в Google", c: "--s4", li: ["Выберите 3–5 сочетаний «услуга + место», которые вам по силам", "Соберите слова, которыми клиенты говорят по телефону", "Настоящее название, настоящий адрес, мало категорий"] },
+        { w: "Недели 3–6", h: "По одной странице на услугу", c: "--s1", li: ["Страница под каждую услугу, которую ищут", "Цена или принцип расчёта — текстом", "Телефон звонит по касанию; скорость и индексация проверены"] },
+        { w: "Недели 7–10", h: "Отзывы и каталоги компаний", c: "--s3", li: ["Просите каждого довольного клиента, сообщением, со ссылкой", "Без вознаграждений, без фильтрации, без давления на месте", "Одинаковые название, адрес и телефон везде"] },
+        { w: "Недели 11–13", h: "Тексты и измерение", c: "--s2", li: ["Два ответа на вопросы клиентов в месяц", "Спросите ChatGPT и AI Mode, что они говорят о вас", "Считайте звонки и обращения, а не позиции"] },
+      ],
+      tl: [["Старт", 0], ["≈ 1,5 месяца: первые сдвиги", 33], ["3–6 месяцев: устойчивый рост", 100]],
+      note: "Рекомендация самого Google: небольшая местная компания «вероятно, может выполнить большую часть этой работы самостоятельно» («Do You Need an SEO?», обновлено 5 июня 2026). Сроки типичны для более узкой услуги или меньшей территории." },
+    time: { k: "Сколько это занимает · Ahrefs 2025", h: "Сколько занимает продвижение сайта и почему узкие цели трогаются первыми",
+      s: "Большинству страниц в первой десятке по несколько лет. Но из новых страниц, которые туда вообще попадают, большинство попадает в первый месяц — и это говорит больше о цели, чем о терпении.",
+      bars: { h: "Возраст страниц в первой десятке Google", rows: [["Больше 3 лет", 72.9, "--s1"], ["От 1 до 3 лет", 13.4, "--s4"], ["Меньше года", 13.7, "--s3"]], big: ["≈5 лет", "столько в среднем странице на первой позиции"], note: "1,3 млн запросов в США." },
+      funnel: { h: "Миллион адресов, прослеженных за год", f: [["1 000 000", "новых адресов, впервые замеченных в сентябре 2023", "--s1"], ["1,74%", "попали в первую десятку за год", "--s4"], ["40,8%", "из них попали туда в первый месяц", "--s3"]] },
+      quote: { p: "«Некоторые изменения могут подействовать за несколько часов, другие могут занять несколько месяцев.»", c: "Google, SEO Starter Guide, обновлено 10 декабря 2025. Там же советуют подождать несколько недель, прежде чем судить, помогло ли изменение." },
+      note: "Источник: исследование Ahrefs о сроках выхода в топ, 15 мая 2025. В моей практике: первые сдвиги примерно через 1,5 месяца, заметный рост между третьим и шестым месяцем, дольше — в конкурентных услугах и городах." },
+  },
+};
+
+function section(lang, id, t) {
+  const s = document.createElement("div");
+  s.className = "fig"; s.id = `${lang}-${id}`;
+  s.innerHTML = `<p class="kicker">${t.k}</p><h2>${t.h}</h2><p class="sub">${t.s}</p>`;
+  document.getElementById("root").appendChild(s);
+  return s;
+}
+const ln = (w, s) => `<div class="ln${s ? " s" : ""}" style="width:${w}%"></div>`;
+const head = (txt, val) => `<p class="t">${txt}${val ? `<em>${val}</em>` : ""}</p>`;
+const PINS = [[18, 26], [52, 50], [76, 20]];
+const mapblk = (cls, label, val) => `<div class="blk ${cls}">${head(label, val)}<div class="mapbox"><div class="mapimg">${PINS.map(([x, y]) => `<div class="pin" style="left:${x}%;top:${y}%"></div>`).join("")}</div>
+  <div>${[0, 1, 2].map(() => `<div class="firm">${ln(58)}<span class="stars">★★★★★</span></div>`).join("")}</div></div></div>`;
+
+function aifig(lang, t) {
+  const s = section(lang, "ai", t);
+  const col = (d, order) => `<div class="serp"><div class="qbar"><i></i>${d.q}</div><p class="qlbl">${d.lbl}</p>${order.map((key) => {
+    const [label, val] = d[key];
+    if (key === "map") return mapblk(val === "93%" ? "map" : "map faint", label, val);
+    if (key === "aio") return `<div class="blk aio${val === "15%" ? " faint" : ""}">${head(label, val)}${ln(95)}${ln(88)}${ln(60, 1)}<div class="src"><span></span><span></span><span></span></div></div>`;
+    return `<div class="blk org">${head(label, val)}${ln(70)}${ln(85, 1)}${ln(45, 1)}</div>`;
+  }).join("")}</div>`;
+  s.insertAdjacentHTML("beforeend", `<div class="serps">${col(t.left, ["map", "org", "aio"])}${col(t.right, ["aio", "org", "map"])}</div>
+    <div class="ctr">${t.ctr.map((c) => `<div class="ctrbox"><p class="h">${c.h}</p><div class="pair">${c.pair.map(([v, l, hh, dim]) => `<div class="col ${dim ? "was" : "now"}"><b>${v}</b><div class="bar${dim ? " dim" : ""}" style="height:${Math.round(hh * 0.62)}px"></div><span>${l}</span></div>`).join("")}</div><p class="note" style="margin-top:14px">${c.note}</p></div>`).join("")}</div>
+    <div class="quote"><p>${t.quote.p}</p><cite>${t.quote.c}</cite></div>
+    <p class="note">${t.note}</p>`);
+}
+function custfig(lang, t) {
+  const s = section(lang, "cust", t);
+  s.insertAdjacentHTML("beforeend", `<div class="steps">${t.steps.map((x, i) => `
+    <div class="step" style="border-top:3px solid var(${x.c})"><p class="n">0${i + 1}</p><h3>${x.h}</h3><p>${x.p}</p>
+      ${x.st.map(([b, d]) => `<div class="stat"><b style="color:var(${x.c})">${b}</b><span>${d}</span></div>`).join("")}
+      ${x.warn ? `<div class="stat" style="border-top-style:dashed"><span style="margin-top:0">${x.warn}</span></div>` : ""}</div>`).join("")}</div>
+    <div class="aiband"><div class="lbl">${t.band.l}</div>${t.band.c.map(([b, d]) => `<div class="c"><b>${b}</b><span>${d}</span></div>`).join("")}</div>
+    <p class="note">${t.note}</p>`);
+}
+function planfig(lang, t) {
+  const s = section(lang, "plan", t);
+  s.insertAdjacentHTML("beforeend", `<div class="phases">${t.ph.map((p) => `
+    <div class="ph" style="border-top:3px solid var(${p.c})"><div class="hd"><div class="wk" style="color:var(${p.c})">${p.w}</div><h3>${p.h}</h3></div>
+      <ul style="color:var(${p.c})">${p.li.map((x) => `<li>${x}</li>`).join("")}</ul></div>`).join("")}</div>
+    <div class="timeline"><div class="bar"></div>${t.tl.map(([l, v]) => `<div class="d" style="left:${Math.min(Math.max(v, 0.7), 99.3)}%"></div><div class="m" style="left:${v}%;${v === 0 ? "transform:none" : v === 100 ? "transform:translateX(-100%)" : ""}">${l}</div>`).join("")}</div>
+    <p class="note">${t.note}</p>`);
+}
+function timefig(lang, t) {
+  const s = section(lang, "time", t);
+  const max = Math.max(...t.bars.rows.map((r) => r[1]));
+  s.insertAdjacentHTML("beforeend", `<div class="tl2">
+    <div class="panel"><p class="ph3">${t.bars.h}</p><div class="bars">${t.bars.rows.map(([l, v, c]) => `
+      <div class="row"><div class="lb">${l}</div><div class="tr"><div class="fl" style="width:${(v / max * 100).toFixed(1)}%;background:var(${c})"></div></div><div class="vl">${String(v).replace(".", lang === "en" ? "." : ",")}%</div></div>`).join("")}</div>
+      <div class="bigstat"><b>${t.bars.big[0]}</b><span>${t.bars.big[1]}</span></div>
+      <p class="note" style="margin-top:16px">${t.bars.note}</p></div>
+    <div class="panel"><p class="ph3">${t.funnel.h}</p><div class="funnel">${t.funnel.f.map(([b, d, c], i) => `
+      ${i ? '<div class="fnarr"></div>' : ""}<div class="fn w${i + 1}" style="border-left:3px solid var(${c})"><b style="color:var(${c})">${b}</b><span>${d}</span></div>`).join("")}</div></div></div>
+    <div class="quote"><p>${t.quote.p}</p><cite>${t.quote.c}</cite></div>
+    <p class="note">${t.note}</p>`);
+}
+for (const lang of ["en", "pl", "ru"]) { aifig(lang, T[lang].ai); custfig(lang, T[lang].cust); planfig(lang, T[lang].plan); timefig(lang, T[lang].time); }
+</script>
+</body>
+</html>

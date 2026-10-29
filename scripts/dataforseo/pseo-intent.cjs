@@ -230,6 +230,19 @@ PAIR_SETS["geo-tools-article"] = [
   ["ru: есть ли спрос на инструменты отдельно от самой темы?", "ru", "инструменты для продвижения в ии", "продвижение в chatgpt"],
 ];
 
+// Boundaries inside the tools cluster (29.10.2026). The first run proved the
+// four term families are separate SERPs; the owner chose three articles, so
+// these five pairs decide where each family ends — above all «ai search engine
+// optimization tools» (1,900), the biggest phrase of the whole cluster, whose
+// family is still unknown.
+PAIR_SETS["geo-tools-cluster"] = [
+  ["куда отнести 1900: к видимости в ИИ?", "en", "ai search engine optimization tools", "ai visibility tools"],
+  ["куда отнести 1900: к GEO-инструментам?", "en", "ai search engine optimization tools", "generative engine optimization tools"],
+  ["держится ли семейство видимости вместе?", "en", "ai visibility tools", "ai search visibility tools"],
+  ["трекер ChatGPT — часть статьи про видимость?", "en", "chatgpt tracker", "ai visibility tools"],
+  ["AEO-инструменты и LLM SEO-инструменты — вместе или врозь?", "en", "aeo tools", "llm seo tools"],
+];
+
 // Stage 2, group 1 (24.10.2026): trades. Whose demand «plumber website» is
 // (owners or homeowners), whether design and development split as for
 // contractors, one trades SEO page or one per trade, and whether trade SEO

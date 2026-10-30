@@ -223,7 +223,12 @@ async function main() {
   // edit was already applied, or the fragment is wrong. Telling them apart is
   // what makes a second run readable -- count the REPLACEMENT too and say
   // "done" when it is already in place, instead of crying BAD over success.
-  const already = docs.map((d) => JSON.stringify(d)).join("\u0000");
+  // Raw strings, NOT JSON.stringify of the documents: serializing turns a
+  // double quote into \" and a replacement containing "free consultation"
+  // then never matches, which reported two applied fragments as failures.
+  const alreadyParts = [];
+  for (const d of docs) mapStrings(d, (s) => (alreadyParts.push(s), s));
+  const already = alreadyParts.join("\u0000");
   let bad = false;
   let done = 0;
   EDITS.forEach(([oldText, newText, expect], i) => {

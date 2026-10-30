@@ -68,13 +68,30 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const { lang, slug } = params;
   const data = await getBlogPostByLang(lang, slug);
 
-  // No post with this slug in this locale. loading.tsx puts a Suspense boundary
-  // above the route, so the response is already streaming with status 200 by
-  // the time the component calls notFound() — the status cannot say "gone".
-  // Say it in the head instead: no canonical, no alternates, explicit noindex.
-  // Only an empty query result reaches this branch; a failed Sanity request
-  // throws (there is no try/catch in sanity.utils.ts), so a live post can
-  // never be noindexed by a transient API error.
+  // No post with this slug in this locale. The response is already
+  // streaming with status 200 by the time anything here can object, so the
+  // status cannot say "gone". Say it in the head instead: no canonical, no
+  // alternates, explicit noindex. Only an empty query result reaches this
+  // branch; a failed Sanity request throws (there is no try/catch in
+  // sanity.utils.ts), so a live post can never be noindexed by a transient
+  // API error.
+  //
+  // Measured on localhost, Next 16.3.5, 30.10.2026 -- do not re-litigate:
+  //   * calling notFound() HERE instead of returning this head does NOT set
+  //     the status. It renders the 404 page under a 200 AND loses the noindex,
+  //     which is worse than this.
+  //   * removing the Suspense boundaries does not help either: tried with
+  //     blog/loading.tsx and portfolio/loading.tsx gone, then with
+  //     [lang]/loading.tsx gone as well. Still 200.
+  //   * [...slug] answers a real 404, but not because of where it calls
+  //     notFound(): it sets `export const dynamicParams = false`, so the
+  //     router rejects a slug missing from generateStaticParams before any
+  //     page code runs. That is the only thing that produces a 404 status.
+  // We cannot copy that here: generateStaticParams is evaluated at build, so
+  // a post published afterwards would 404 until the next deploy -- and
+  // these are published straight into Sanity, with no commit to trigger one.
+  // So this is a deliberate soft 404. noindex keeps it out of the index; the
+  // cost is that Search Console lists it under "Soft 404".
   if (!data) {
     return {
       title: "404",

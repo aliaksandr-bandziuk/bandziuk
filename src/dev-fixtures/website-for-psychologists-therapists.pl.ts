@@ -154,7 +154,7 @@ export const websiteForPsychologistsTherapistsPl = {
         ),
 
         h2("Panel z zabezpieczeniami: strona dla psychologa, którą edytujesz sam"),
-        p("Po starcie stronę edytujesz Ty, często wieczorem i w pośpiechu, więc panel powinien utrudniać błędy. W panelu Giuseppe pojawia się ostrzeżenie, gdy tekst zawiera sformułowania zakazane przez artykuł 40 włoskiego kodeksu etyki psychologów: obietnice efektów, opinie pacjentów, rabaty, „bezpłatną konsultację”. Najważniejszych podstron nie da się usunąć, a adres opublikowanej strony jest zablokowany. Dostał instrukcję po angielsku (69 stron) i po włosku (71 stron) oraz nagrania wideo."),
+        p("Po starcie stronę edytujesz Ty, często wieczorem i w pośpiechu, więc panel powinien utrudniać błędy. W panelu Giuseppe pojawia się ostrzeżenie, gdy tekst zawiera sformułowania ryzykowne w świetle włoskich zasad reklamy usług medycznych: obietnice efektów, opinie pacjentów, rabaty, „bezpłatną konsultację”. Najważniejszych podstron nie da się usunąć, a adres opublikowanej strony jest zablokowany. Dostał instrukcję po angielsku (69 stron) i po włosku (71 stron) oraz nagrania wideo."),
         p("W Polsce listę ostrzeżeń ustalasz według zasad samorządu psychologów i kodeksu swojego towarzystwa — sprawdź ich aktualną wersję. Typowo trafiają na nią „gwarancja”, „skuteczna terapia”, „pierwsza wizyta gratis” i cytaty z klientów."),
 
         h2("Strona dla psychologa, którą rozumieją ChatGPT i Google AI Overviews"),

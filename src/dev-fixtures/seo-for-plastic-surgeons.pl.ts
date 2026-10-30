@@ -112,8 +112,8 @@ export const seoForPlasticSurgeonsPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie kliniki chirurgii plastycznej a zakaz reklamy lekarzy"),
-        p("Chirurg plastyczny jest lekarzem, więc obowiązuje go ta sama zasada co innych lekarzy w Polsce: wolno informować o swojej działalności, nie wolno jej reklamować. Podobnie jest z placówkami medycznymi. Strona kliniki podaje więc fakty — jakie operacje wykonujecie, kto operuje, gdzie, ile to kosztuje, jak wygląda rekonwalescencja — bez „gwarancji efektu”, „najlepszego chirurga w mieście” i promocji na zabiegi."),
+        h2("Pozycjonowanie strony chirurga plastycznego a przepisy o informacji bez cech reklamy"),
+        p("Chirurg plastyczny jest lekarzem, więc obowiązuje go ta sama zasada co innych lekarzy w Polsce: treść i forma informacji o świadczeniach nie mogą mieć cech reklamy (art. 14 ust. 1 ustawy o działalności leczniczej). Ten sam przepis wiąże klinikę jako podmiot wykonujący działalność leczniczą. Strona kliniki podaje więc fakty — jakie operacje wykonujecie, kto operuje, gdzie, ile to kosztuje, jak wygląda rekonwalescencja — bez „gwarancji efektu”, „najlepszego chirurga w mieście” i promocji na zabiegi."),
         p("Dla pozycjonowania to nie przeszkoda. Google i asystenci AI szukają rzeczowych odpowiedzi, a podstrona napisana jak informacja medyczna zwykle wypada w wynikach lepiej niż tekst reklamowy. Nie udzielam porad prawnych: przy wątpliwościach decyduje okręgowa izba lekarska albo Wasz prawnik."),
 
         h2("Podstrony operacji: plastyka nosa, powiększanie piersi, plastyka brzucha, blefaroplastyka"),
@@ -155,7 +155,7 @@ export const seoForPlasticSurgeonsPl = {
         li("identyczne dane kliniki na stronie, w Mapach Google i w ZnanyLekarz"),
         li("dane strukturalne łączące klinikę, chirurgów i operacje"),
         p(
-          "To działa w medycynie. Giuseppe, psycholog i psychoterapeuta z Mediolanu, znalazł mnie przez ChatGPT. Przeniosłem jego stronę z WordPressa na Next.js i Sanity, wszystkie 468 artykułów zachowały adresy dzięki przekierowaniom 301, a panel ostrzega go przed sformułowaniami zakazanymi przez artykuł 40 włoskiego kodeksu etyki psychologów. Dziś ChatGPT cytuje jego nowe podstrony w odpowiedziach. Jak prowadzę taką pracę, opisuję na stronie ",
+          "To działa w medycynie. Giuseppe, psycholog i psychoterapeuta z Mediolanu, znalazł mnie przez ChatGPT. Przeniosłem jego stronę z WordPressa na Next.js i Sanity, wszystkie 468 artykułów zachowały adresy dzięki przekierowaniom 301, a panel ostrzega go przed sformułowaniami ryzykownymi w świetle włoskich zasad reklamy usług medycznych. Dziś ChatGPT cytuje jego nowe podstrony w odpowiedziach. Jak prowadzę taką pracę, opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
           ".",
         ),

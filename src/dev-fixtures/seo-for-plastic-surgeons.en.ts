@@ -163,7 +163,7 @@ export const seoForPlasticSurgeonsEn = {
         ),
 
         h2("SEO for a private medical practice under strict advertising rules: the Milan case"),
-        p("Plastic surgery marketing works inside rules: medical board advertising rules, FTC endorsement rules, privacy rules for patient photos. My strongest case comes from a practice with stricter rules than most. For Giuseppe, a psychologist and psychotherapist in Milan, I moved the site from WordPress to Next.js and Sanity, migrated all 468 blog posts with 301 redirects from every old URL, and built pillar pages, pages for Milan, Monza and online therapy, and 150 FAQ entries with structured data. His CMS flags any sentence that breaks article 40 of the Italian psychologists’ code of conduct, such as a promised result, a testimonial or a discount."),
+        p("Plastic surgery marketing works inside rules: medical board advertising rules, FTC endorsement rules, privacy rules for patient photos. My strongest case comes from a practice with stricter rules than most. For Giuseppe, a psychologist and psychotherapist in Milan, I moved the site from WordPress to Next.js and Sanity, migrated all 468 blog posts with 301 redirects from every old URL, and built pillar pages, pages for Milan, Monza and online therapy, and 150 FAQ entries with structured data. His CMS flags any sentence that breaks Italian rules on advertising health services, such as a promised result, a testimonial or a discount."),
         p("For a plastic surgery practice the lesson is the same: a site can rank without “guaranteed results”, keep every old URL through a rebuild and catch risky wording before it is published."),
 
         h2("Marketing for plastic surgeons: where SEO fits next to ads and Instagram"),

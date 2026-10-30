@@ -154,7 +154,7 @@ export const seoForDermatologistsEn = {
         li("titles are exact: a physician assistant or nurse practitioner is introduced as one, with the conditions they treat"),
         li("pages carry a “last reviewed” date and describe outcomes with risks and alternatives, without promises"),
         li("clinical photos are the practice’s own, used with written consent; before-and-after pairs are shot in the same light and not edited"),
-        p("Advertising rules differ by state, and the FTC has its own rules on reviews and endorsements, so check with your state medical board and your adviser. Giuseppe’s editor gets a warning from the CMS whenever a draft uses wording that article 40 of the Italian psychologists’ code of conduct rules out; a dermatology site can get the same kind of check for words like “cure” or “guaranteed results”."),
+        p("Advertising rules differ by state, and the FTC has its own rules on reviews and endorsements, so check with your state medical board and your adviser. Giuseppe’s editor gets a warning from the CMS whenever a draft uses wording that Italian rules on advertising health services make risky; a dermatology site can get the same kind of check for words like “cure” or “guaranteed results”."),
 
         h2("Technical SEO for dermatology websites: images, speed and structured data"),
         p("Dermatology sites are heavy with photos, and that is where most technical problems start:"),

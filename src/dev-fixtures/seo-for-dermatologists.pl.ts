@@ -153,7 +153,7 @@ export const seoForDermatologistsPl = {
         li("data ostatniej weryfikacji treści i opis metod leczenia z ograniczeniami, bez obietnic efektów"),
         li("zdjęcia zmian i efektów zabiegów tylko własne, za pisemną zgodą pacjenta, robione w tym samym świetle i bez retuszu"),
         li("żadnych „najlepszych dermatologów w mieście” ani porównań z innymi gabinetami"),
-        p("To ogólne wskazówki, nie porada prawna — w razie wątpliwości sprawdźcie stanowisko swojej izby lekarskiej. Na stronie Giuseppe system zarządzania treścią ostrzega redaktora, gdy tekst zawiera sformułowania zakazane przez artykuł 40 włoskiego kodeksu etyki psychologów; taki sam mechanizm może wyłapywać na stronie gabinetu słowa w rodzaju „gwarantujemy” albo „trwale wyleczymy”."),
+        p("To ogólne wskazówki, nie porada prawna — w razie wątpliwości sprawdźcie stanowisko swojej izby lekarskiej. Na stronie Giuseppe system zarządzania treścią ostrzega redaktora, gdy tekst zawiera sformułowania ryzykowne w świetle włoskich zasad reklamy usług medycznych; taki sam mechanizm może wyłapywać na stronie gabinetu słowa w rodzaju „gwarantujemy” albo „trwale wyleczymy”."),
 
         h2("Teleporada dermatologiczna i zdjęcia zmian skórnych: RODO na stronie gabinetu"),
         p("Pacjenci szukają „dermatolog online” i „teleporada dermatologiczna”, często po receptę na kontynuację leczenia. Podstrona teleporady mówi wprost, z czym można się zgłosić zdalnie, a co wymaga badania w gabinecie, jak przebiega rozmowa i ile kosztuje."),

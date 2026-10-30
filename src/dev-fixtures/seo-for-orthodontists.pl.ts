@@ -112,8 +112,8 @@ export const seoForOrthodontistsPl = {
           ".",
         ),
 
-        h2("Pozycjonowanie strony gabinetu ortodontycznego a zakaz reklamy lekarzy dentystów"),
-        p("Ortodonta jest lekarzem dentystą, więc jego strona podlega tym samym ograniczeniom co strona każdego dentysty: ma przekazywać rzeczową informację, a nie zachęcać jak reklama. W ortodoncji kłopot sprawiają zwłaszcza trzy rzeczy, które w innych branżach są codziennością:"),
+        h2("Pozycjonowanie strony gabinetu ortodontycznego a przepisy o informacji bez cech reklamy"),
+        p("Ortodonta jest lekarzem dentystą, więc jego strona podlega tym samym ograniczeniom co strona każdego dentysty: treść i forma informacji o świadczeniach nie mogą mieć cech reklamy (art. 14 ust. 1 ustawy o działalności leczniczej). W ortodoncji kłopot sprawiają zwłaszcza trzy rzeczy, które w innych branżach są codziennością:"),
         li("„darmowa konsultacja” albo „rabat na aparat do końca miesiąca” — to już promocja, a nie informacja o cenie"),
         li("obietnice w rodzaju „proste zęby w pół roku” albo „idealny uśmiech”"),
         li("metamorfozy z mediów społecznościowych przeniesione na stronę bez zgody i bez opisu leczenia"),

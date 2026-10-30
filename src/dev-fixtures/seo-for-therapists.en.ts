@@ -147,7 +147,7 @@ export const seoForTherapistsEn = {
         li("training in each modality you name, with the institute and the year"),
         li("an author and a review date on every clinical page and blog post"),
         li("no promised outcomes such as “in six sessions”, and no client stories presented as results"),
-        p("Wording is an ethics question as much as a ranking one. Giuseppe works under article 40 of the Italian psychologists’ code of conduct, which rules out promised outcomes, patient testimonials, discounts and “free consultation” offers, so every page written to be found has to stay inside it. US ethics codes are less detailed but point the same way."),
+        p("Wording is an ethics question as much as a ranking one. Giuseppe works under Italian rules on advertising health services, which rule out promised outcomes, patient testimonials, discounts and “free consultation” offers, so every page written to be found has to stay inside it. US ethics codes are less detailed but point the same way."),
 
         h2("SEO keywords for therapists: blog posts that answer questions before the first session"),
         p("Keyword research for a therapy practice starts from the questions people bring to the first call: “how long does therapy for panic attacks take”, “psychologist vs therapist vs counselor”, “what happens in the first EMDR session”, “is online therapy as effective as in person”. Each answered question is a chance to be found and to be quoted by an assistant. I check real search data for your niches and area, give each phrase one page and draft the outline; you write or approve the clinical content."),

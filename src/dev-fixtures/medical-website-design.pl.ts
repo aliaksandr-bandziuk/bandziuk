@@ -12,7 +12,7 @@
 // 0 shared domains with «strona dla gabinetu stomatologicznego» → dentists stay
 // on /pl/strona-dla-gabinetu-stomatologicznego.
 // Polish angles: gabinet lekarski vs przychodnia; informacja, nie reklama
-// (zakaz reklamy lekarzy); własna strona vs profil ZnanyLekarz; rejestracja
+// (informacja bez cech reklamy, art. 14 ust. 1 ustawy o dzialalnosci leczniczej); własna strona vs profil ZnanyLekarz; rejestracja
 // online; RODO i dane o zdrowiu; NFZ i wizyty prywatne; podstrony specjalistów;
 // dostępność; wersje językowe dla pacjentów z zagranicy.
 // Not here: dental site (/pl/strona-dla-gabinetu-stomatologicznego); dental
@@ -103,12 +103,12 @@ export const medicalWebsiteDesignPl = {
         p("Tworzę strony internetowe dla lekarzy — prywatnych gabinetów lekarskich, praktyk specjalistycznych i przychodni — od struktury i projektu po wykonanie i uruchomienie, więc za wygląd i działanie odpowiada jedna osoba. Strona lekarza ma pomóc pacjentowi w trzech sprawach: sprawdzić, kto przyjmuje i z jakimi kwalifikacjami, zrozumieć, z czym może przyjść, i umówić wizytę bez dzwonienia w godzinach pracy rejestracji."),
 
         h2("Strona www dla lekarza: informacja o usługach, nie reklama"),
-        p("Ustawa o zawodach lekarza i lekarza dentysty oraz Kodeks Etyki Lekarskiej pozwalają lekarzowi informować o swojej działalności, ale nie pozwalają się reklamować. Podobny warunek przepisy stawiają placówkom medycznym. Dla strony internetowej to najważniejsza zasada projektu: strona jest rzetelną informacją, a dobrze zbudowana i widoczna w Google strona to jeden z niewielu kanałów, z których lekarz może korzystać bez obaw."),
+        p("Treść i forma informacji o udzielanych świadczeniach nie mogą mieć cech reklamy — to art. 14 ust. 1 ustawy o działalności leczniczej, wiążący każdy podmiot wykonujący działalność leczniczą, od praktyki jednego lekarza do przychodni. Kodeks Etyki Lekarskiej mówi o tym od 1 stycznia 2025 roku inaczej niż wcześniej: art. 71 pozwala lekarzowi posługiwać się informacją o oferowanych usługach, jeśli jest zgodna z zasadami etyki, i jednocześnie czyni go odpowiedzialnym za to, co publikują w jego imieniu osoby trzecie. Dla strony internetowej to najważniejsza zasada projektu: strona jest rzetelną informacją, a dobrze zbudowana i widoczna w Google strona to jeden z niewielu kanałów, z których lekarz może korzystać bez obaw."),
         p("W praktyce oznacza to, że na stronie są:"),
         li("imię, nazwisko, tytuł, specjalizacja i numer prawa wykonywania zawodu"),
         li("zakres usług opisany rzeczowo: co obejmuje wizyta, ile trwa, jak się przygotować"),
         li("adres, godziny przyjęć, ceny wizyt prywatnych i sposób rejestracji"),
-        p("Na stronie nie ma natomiast sformułowań w rodzaju „najlepszy kardiolog w mieście”, obietnic wyleczenia ani porównań z innymi lekarzami. Opinie pacjentów publikowane na własnej stronie łatwo uznać za element reklamy, dlatego zwykle odsyłam do niezależnych profili. Przed publikacją treści warto skonsultować je z prawnikiem albo z okręgową izbą lekarską."),
+        p("Na stronie nie ma natomiast sformułowań w rodzaju „najlepszy kardiolog w mieście”, obietnic wyleczenia ani porównań z innymi lekarzami. Opinie pacjentów to osobna sprawa: uchwała Naczelnej Rady Lekarskiej nr 29/11/VI z 16 grudnia 2011 roku wylicza, co wolno podać do publicznej wiadomości, i opinii na tej liście nie ma — za to wprost dopuszcza ceny i sposób płatności na stronie praktyki. Dlatego ceny podaję wprost, a po opinie odsyłam do niezależnych profili. Przed publikacją treści warto skonsultować je z prawnikiem albo z okręgową izbą lekarską."),
 
         h2("Strona internetowa gabinetu lekarskiego i strona przychodni: lekarze i specjalizacje"),
         p("Strona jednego lekarza i strona przychodni różnią się skalą, ale układ wychodzi z tego samego pytania pacjenta: do kogo pójść. Gabinet lekarski potrzebuje kilku podstron — o lekarzu, usługi, cennik, kontakt z dojazdem. Przychodnia potrzebuje podstrony dla każdego lekarza i dla każdej specjalizacji: kardiologia, dermatologia, ortopedia, pediatria, medycyna pracy."),
@@ -195,7 +195,7 @@ export const medicalWebsiteDesignPl = {
         _type: "accordionBlock",
         items: [
           ["Ile kosztuje strona internetowa dla lekarza?", "Od 3000 do 6000 zł za prostą stronę lekarza lub gabinetu, od 8500 zł za stronę przychodni z profilami lekarzy, podstronami specjalizacji, rejestracją online i wersjami językowymi. Projekt graficzny jest w cenie. Po krótkim opisie placówki podaję stałą cenę."],
-          ["Czy lekarz może reklamować się na swojej stronie?", "Nie. Przepisy i Kodeks Etyki Lekarskiej pozwalają lekarzowi informować o usługach, a nie je reklamować. Strona podaje fakty — kwalifikacje, zakres usług, ceny, godziny — bez obietnic efektów i bez określeń w rodzaju „najlepszy lekarz”. Treści warto skonsultować z prawnikiem albo izbą lekarską."],
+          ["Czy lekarz może reklamować się na swojej stronie?", "Nie. Przepisy pozwalają lekarzowi informować o usługach, ale treść i forma tej informacji nie mogą mieć cech reklamy. Strona podaje fakty — kwalifikacje, zakres usług, ceny, godziny — bez obietnic efektów i bez określeń w rodzaju „najlepszy lekarz”. Treści warto skonsultować z prawnikiem albo izbą lekarską."],
           ["Czy wystarczy mi profil w ZnanyLekarz?", "Na początek może wystarczyć. Profil należy jednak do serwisu i pokazuje obok innych lekarzy. Własna strona jest Wasza, pojawia się w Google po nazwisku i specjalizacji, a kalendarz z ZnanyLekarz można na niej osadzić."],
           ["Czy strona może mieć rejestrację online?", "Tak, jeśli Wasz system gabinetowy albo serwis rezerwacji udostępnia kalendarz do osadzenia lub link — większość to umożliwia. W innym przypadku formularz prośby o termin przekazuje zgłoszenie do rejestracji."],
           ["Jak strona lekarza spełnia wymogi RODO?", "Formularze nie zbierają danych o zdrowiu, obok nich jest klauzula informacyjna, a dane medyczne przechodzą tylko przez system, z którego dostawcą macie umowę powierzenia. Analityka nie przekazuje danych z formularzy. Ostateczną ocenę zgodności daje inspektor ochrony danych albo prawnik."],

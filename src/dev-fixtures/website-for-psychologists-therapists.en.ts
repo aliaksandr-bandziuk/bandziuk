@@ -148,7 +148,7 @@ export const websiteForPsychologistsTherapistsEn = {
         ),
 
         h2("A CMS with guard rails: editing a therapy practice website safely"),
-        p("After launch you edit the site yourself, often late and in a hurry, so the editor should make mistakes hard. In Giuseppe’s CMS the editor warns him when a text contains wording forbidden by article 40 of the Italian psychologists’ code of conduct: promised outcomes, patient testimonials, discounts, “free consultation”. Key pages cannot be deleted, and the address of a published page is locked, so fixing a typo cannot break links. He received an owner’s manual in English (69 pages) and Italian (71 pages), plus video walkthroughs."),
+        p("After launch you edit the site yourself, often late and in a hurry, so the editor should make mistakes hard. In Giuseppe’s CMS the editor warns him when a text contains wording Italian rules on advertising health services make risky: promised outcomes, patient testimonials, discounts, “free consultation”. Key pages cannot be deleted, and the address of a published page is locked, so fixing a typo cannot break links. He received an owner’s manual in English (69 pages) and Italian (71 pages), plus video walkthroughs."),
         p("For a US practice, the list of warnings comes from your own ethics code and board: “guaranteed”, “cure”, client quotes, claims about results. You decide the list; the editor reminds you of it every time you publish."),
 
         h2("A therapist website that ChatGPT and Google AI Overviews can read"),

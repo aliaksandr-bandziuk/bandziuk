@@ -34,7 +34,7 @@ export const dentistSeoPl = {
   seo: {
     metaTitle: "Pozycjonowanie gabinetu stomatologicznego | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony gabinetu stomatologicznego zgodne z zakazem reklamy: podstrony zabiegów, NFZ, wizytówka Google, RODO i widoczność w AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony gabinetu stomatologicznego bez cech reklamy: podstrony zabiegów, NFZ, wizytówka Google, RODO i widoczność w AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
@@ -109,9 +109,9 @@ export const dentistSeoPl = {
         li("po nazwie, z polecenia albo po wizycie na ZnanyLekarz, i wtedy własna strona powinna być pierwsza, z aktualnymi godzinami i rejestracją"),
         p("Pilne wyszukiwania rozstrzyga w dużej mierze wizytówka Google, planowane leczenie — strona gabinetu, a odpowiedzi AI korzystają z obu źródeł. Gabinet, który przyjmuje pacjentów z bólem w dniu zgłoszenia, potrzebuje osobnej podstrony z godzinami i telefonem w formie przycisku; jeśli nie przyjmuje, lepiej napisać to wprost i wskazać, gdzie szukać pomocy."),
 
-        h2("Informacja, nie reklama: pozycjonowanie gabinetu stomatologicznego a zakaz reklamy lekarzy dentystów"),
-        p("Ustawa o zawodach lekarza i lekarza dentysty oraz Kodeks Etyki Lekarskiej pozwalają lekarzom dentystom informować o swoich usługach, ale nie reklamować ich. Podobna zasada obejmuje placówki medyczne. W praktyce strona gabinetu może podawać fakty: zakres usług, kwalifikacje lekarzy, sprzęt, godziny, adres, sposób zapisu i warunki leczenia. Nie powinna obiecywać efektów, porównywać się z innymi gabinetami ani używać określeń typu „najlepszy dentysta w mieście”."),
-        p("Dla pozycjonowania to dobra wiadomość. Google i asystenci AI szukają właśnie rzeczowych odpowiedzi: co obejmuje zabieg, ile trwa, kto go wykonuje, ile kosztuje. Piszę podstrony tak, żeby były informacją, a nie zachętą. Nie udzielam porad prawnych; w razie wątpliwości ostatnie słowo należy do samorządu lekarskiego albo Waszego prawnika."),
+        h2("Informacja bez cech reklamy: pozycjonowanie strony gabinetu stomatologicznego a przepisy dla lekarzy dentystów"),
+        p("Treść i forma informacji o udzielanych świadczeniach nie mogą mieć cech reklamy — tak brzmi art. 14 ust. 1 ustawy o działalności leczniczej, a przepis wiąże każdy podmiot wykonujący działalność leczniczą, więc i praktykę jednego dentysty, i przychodnię. Kodeks Etyki Lekarskiej od 1 stycznia 2025 roku nie zakazuje już reklamy wprost: art. 71 pozwala lekarzowi posługiwać się informacją o oferowanych usługach, jeśli jest zgodna z zasadami etyki. Granicę wyznaczają więc ustawa i uchwała Naczelnej Rady Lekarskiej nr 29/11/VI z 16 grudnia 2011 roku, która wylicza, co wolno podać do publicznej wiadomości. W praktyce strona gabinetu może podawać fakty: zakres usług, kwalifikacje lekarzy, sprzęt, godziny, adres, sposób zapisu i warunki leczenia. Ceny i sposób płatności uchwała dopuszcza właśnie na własnej stronie praktyki — i to jeden z mocniejszych argumentów za tym, żeby strona była. Nie powinna obiecywać efektów, porównywać się z innymi gabinetami ani używać określeń typu „najlepszy dentysta w mieście”."),
+        p("Dla pozycjonowania to dobra wiadomość. Google i asystenci AI szukają właśnie rzeczowych odpowiedzi: co obejmuje zabieg, ile trwa, kto go wykonuje, ile kosztuje. Piszę podstrony tak, żeby były informacją, a nie zachętą. Ma to znaczenie także dlatego, że art. 71 Kodeksu Etyki Lekarskiej czyni lekarza odpowiedzialnym za informację opublikowaną w jego imieniu przez osoby trzecie — a więc i przez wykonawcę strony. Nie udzielam porad prawnych; w razie wątpliwości ostatnie słowo należy do samorządu lekarskiego albo Waszego prawnika."),
 
         h2("Frazy kluczowe dla gabinetu stomatologicznego: zabieg, problem i miasto"),
         p("Pacjenci rzadko wpisują samo „stomatolog”. Łączą zabieg albo problem z miejscowością:"),
@@ -165,7 +165,7 @@ export const dentistSeoPl = {
         ),
 
         h2("Gdzie pozycjonowanie pasuje w marketingu gabinetu stomatologicznego"),
-        p("Marketing gabinetu stomatologicznego w agencji to zwykle pakiet: kampanie, media społecznościowe, przypomnienia o wizytach kontrolnych, czasem obsługa rejestracji. Zakaz reklamy dotyczy każdego z tych kanałów, nie tylko strony. Ja robię część SEO i, jeśli trzeba, stronę. Nie prowadzę kampanii ani mediów społecznościowych. Pozycjonowanie jest wolniejsze niż kampania, ale opiera się na informacji, którą pacjent sam wyszukuje, i działa dalej bez opłat za kliknięcie."),
+        p("Marketing gabinetu stomatologicznego w agencji to zwykle pakiet: kampanie, media społecznościowe, przypomnienia o wizytach kontrolnych, czasem obsługa rejestracji. Zasada informacji bez cech reklamy dotyczy każdego z tych kanałów, nie tylko strony. Ja robię część SEO i, jeśli trzeba, stronę. Nie prowadzę kampanii ani mediów społecznościowych. Pozycjonowanie jest wolniejsze niż kampania, ale opiera się na informacji, którą pacjent sam wyszukuje, i działa dalej bez opłat za kliknięcie."),
         p("Jak więc pozyskać pacjentów do gabinetu stomatologicznego w granicach tych zasad? Pacjent, który wpisuje „implanty Lublin”, sam zgłasza potrzebę, a strona tylko odpowiada na jego pytanie. Dlatego w stomatologii pozycjonowanie bywa głównym kanałem pozyskiwania nowych pacjentów, a pozostały marketing dba o tych, którzy już się leczą: przypomnienia o kontroli i higienizacji, sprawna recepcja, odpowiedzi na opinie."),
 
         h2("Ile kosztuje pozycjonowanie strony gabinetu stomatologicznego"),

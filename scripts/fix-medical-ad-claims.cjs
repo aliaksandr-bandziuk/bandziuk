@@ -219,13 +219,28 @@ async function main() {
     if (changed) touched.set(doc._id, { doc, next });
   }
 
+  // A fragment matching nothing means one of two very different things: the
+  // edit was already applied, or the fragment is wrong. Telling them apart is
+  // what makes a second run readable -- count the REPLACEMENT too and say
+  // "done" when it is already in place, instead of crying BAD over success.
+  const already = docs.map((d) => JSON.stringify(d)).join("\u0000");
   let bad = false;
-  EDITS.forEach(([oldText, , expect], i) => {
+  let done = 0;
+  EDITS.forEach(([oldText, newText, expect], i) => {
     const got = counts[i];
-    const mark = got === expect ? "ok  " : "BAD ";
-    if (got !== expect) bad = true;
-    console.log(`${mark} ${got}/${expect}  ${oldText.slice(0, 78)}`);
+    if (got === expect) {
+      console.log(`ok    ${got}/${expect}  ${oldText.slice(0, 74)}`);
+      return;
+    }
+    if (got === 0 && already.split(newText).length - 1 >= expect) {
+      done++;
+      console.log(`done  already applied  ${oldText.slice(0, 74)}`);
+      return;
+    }
+    bad = true;
+    console.log(`BAD   ${got}/${expect}  ${oldText.slice(0, 74)}`);
   });
+  if (done) console.log(`\n${done} of ${EDITS.length} fragment(s) were already applied by an earlier run.`);
 
   console.log(`\ndocuments to change: ${touched.size}`);
   for (const { doc } of touched.values()) {
@@ -266,7 +281,13 @@ async function main() {
     console.log("\nNot writing: fix the fragments above first.");
     process.exit(1);
   }
-  if (!touched.size) return console.log("\nNothing to do.");
+  if (!touched.size) {
+    return console.log(
+      done === EDITS.length
+        ? "\nNothing to do: every fragment is already applied."
+        : "\nNothing to do.",
+    );
+  }
   if (!APPLY) return console.log(`\nDry run -- ${touched.size} document(s), nothing written. Add --apply to write.`);
 
   const tx = client.transaction();

@@ -1,0 +1,1222 @@
+{
+ "generatedAt": "2026-10-29T10:44:55.200Z",
+ "skipped": {
+  "cafe-website-design": "cafe-website (PL/RU)",
+  "law-firm-website-design": "lawyer-website-development (PL/RU)",
+  "construction-website-design": "construction-company-website (PL/RU)",
+  "contractor-website-design": "construction-company-website (PL/RU)",
+  "website-for-contractors": "construction-company-website (PL/RU)",
+  "seo-for-contractors": "construction-seo (PL/RU)",
+  "local-seo-for-contractors": "construction-seo (PL/RU)",
+  "local-seo-for-lawyers": "seo-for-law-firms (PL/RU)",
+  "local-seo-for-dentists": "dentist-seo (PL/RU)",
+  "local-seo-for-small-business": "seo-services-for-small-business (PL/RU)",
+  "hvac-websites": "same topic as hvac-website-design",
+  "roofing-websites": "same topic as roofing-website-design",
+  "website-for-plumbers": "same topic as plumbing-website-design",
+  "website-for-electricians": "same topic as electrician-website-design",
+  "lawn-care-website": "same topic as landscaping-website-design",
+  "personal-injury-seo": "US-only market (contingency fees, state bar rules)"
+ },
+ "languages": {
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "strona internetowa dla architekta",
+      "volume": null,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "strona dla biura architektonicznego",
+      "volume": null,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla pracowni architektonicznej",
+      "volume": null,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla firmy b2b",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "strona dla firmy produkcyjnej b2b",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "strona internetowa b2b",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony b2b",
+      "volume": null,
+      "topic": "b2b-seo"
+     },
+     {
+      "keyword": "pozycjonowanie w b2b",
+      "volume": null,
+      "topic": "b2b-seo"
+     },
+     {
+      "keyword": "seo b2b",
+      "volume": 20,
+      "topic": "b2b-seo"
+     },
+     {
+      "keyword": "strona internetowa dla firmy it",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "strona dla software house",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla firmy informatycznej",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony firmy it",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "pozycjonowanie dla software house",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "seo dla firmy informatycznej",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "strona internetowa dla startupu",
+      "volume": null,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "strona dla startupu",
+      "volume": null,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "landing page dla startupu",
+      "volume": null,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony startupu",
+      "volume": null,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "seo dla startupu",
+      "volume": null,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "pozycjonowanie startupu",
+      "volume": null,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "strona internetowa dla firmy produkcyjnej",
+      "volume": null,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "strona dla producenta",
+      "volume": null,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla zakładu produkcyjnego",
+      "volume": null,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla hotelu",
+      "volume": 50,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "strona dla hotelu",
+      "volume": 40,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "strona internetowa hotelu",
+      "volume": 90,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "strona dla apartamentów na wynajem",
+      "volume": null,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla wynajmu krótkoterminowego",
+      "volume": null,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "strona dla domku letniskowego",
+      "volume": null,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla gabinetu stomatologicznego",
+      "volume": null,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "strona dla stomatologa",
+      "volume": null,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla dentysty",
+      "volume": 30,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony lekarza",
+      "volume": null,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "pozycjonowanie strony przychodni",
+      "volume": null,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "seo dla lekarza",
+      "volume": null,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "pozycjonowanie strony placówki medycznej",
+      "volume": null,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "pozycjonowanie strony kliniki",
+      "volume": null,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "seo dla kliniki",
+      "volume": null,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "pozycjonowanie strony medycznej",
+      "volume": null,
+      "topic": "medical-seo"
+     },
+     {
+      "keyword": "pozycjonowanie strony gabinetu lekarskiego",
+      "volume": null,
+      "topic": "medical-seo"
+     },
+     {
+      "keyword": "seo medyczne",
+      "volume": null,
+      "topic": "medical-seo"
+     },
+     {
+      "keyword": "strona internetowa dla weterynarza",
+      "volume": null,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "strona dla przychodni weterynaryjnej",
+      "volume": null,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla lecznicy dla zwierząt",
+      "volume": null,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony weterynarza",
+      "volume": null,
+      "topic": "veterinary-seo"
+     },
+     {
+      "keyword": "pozycjonowanie strony przychodni weterynaryjnej",
+      "volume": null,
+      "topic": "veterinary-seo"
+     },
+     {
+      "keyword": "seo dla weterynarza",
+      "volume": null,
+      "topic": "veterinary-seo"
+     },
+     {
+      "keyword": "pozycjonowanie strony fundacji",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "pozycjonowanie strony stowarzyszenia",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "seo dla fundacji",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "strona dla organizacji charytatywnej",
+      "volume": null,
+      "topic": "charity-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla zbiórki charytatywnej",
+      "volume": null,
+      "topic": "charity-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla restauracji",
+      "volume": 90,
+      "topic": "restaurant-website-design"
+     },
+     {
+      "keyword": "strona dla restauracji",
+      "volume": 70,
+      "topic": "restaurant-website-design"
+     },
+     {
+      "keyword": "projekt strony restauracji",
+      "volume": null,
+      "topic": "restaurant-website-design"
+     },
+     {
+      "keyword": "strona internetowa dla hydraulika",
+      "volume": null,
+      "topic": "plumbing-website-design"
+     },
+     {
+      "keyword": "strona dla hydraulika",
+      "volume": null,
+      "topic": "plumbing-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony hydraulika",
+      "volume": null,
+      "topic": "seo-for-plumbers"
+     },
+     {
+      "keyword": "seo dla hydraulika",
+      "volume": null,
+      "topic": "seo-for-plumbers"
+     },
+     {
+      "keyword": "lokalne pozycjonowanie hydraulika",
+      "volume": null,
+      "topic": "local-seo-for-plumbers"
+     },
+     {
+      "keyword": "strona internetowa dla elektryka",
+      "volume": null,
+      "topic": "electrician-website-design"
+     },
+     {
+      "keyword": "strona dla elektryka",
+      "volume": null,
+      "topic": "electrician-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony elektryka",
+      "volume": null,
+      "topic": "seo-for-electricians"
+     },
+     {
+      "keyword": "seo dla elektryka",
+      "volume": null,
+      "topic": "seo-for-electricians"
+     },
+     {
+      "keyword": "strona internetowa dla dekarza",
+      "volume": null,
+      "topic": "roofing-website-design"
+     },
+     {
+      "keyword": "strona dla firmy dekarskiej",
+      "volume": null,
+      "topic": "roofing-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony firmy dekarskiej",
+      "volume": null,
+      "topic": "roofing-seo"
+     },
+     {
+      "keyword": "seo dla dekarza",
+      "volume": null,
+      "topic": "roofing-seo"
+     },
+     {
+      "keyword": "strona internetowa dla firmy klimatyzacyjnej",
+      "volume": null,
+      "topic": "hvac-website-design"
+     },
+     {
+      "keyword": "strona dla instalatora klimatyzacji",
+      "volume": null,
+      "topic": "hvac-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony firmy klimatyzacyjnej",
+      "volume": null,
+      "topic": "hvac-seo"
+     },
+     {
+      "keyword": "seo dla klimatyzacji",
+      "volume": null,
+      "topic": "hvac-seo"
+     },
+     {
+      "keyword": "strona internetowa dla firmy ogrodniczej",
+      "volume": null,
+      "topic": "landscaping-website-design"
+     },
+     {
+      "keyword": "strona dla architekta krajobrazu",
+      "volume": null,
+      "topic": "landscaping-website-design"
+     },
+     {
+      "keyword": "pozycjonowanie strony firmy ogrodniczej",
+      "volume": null,
+      "topic": "landscaping-seo"
+     },
+     {
+      "keyword": "seo dla architekta krajobrazu",
+      "volume": null,
+      "topic": "landscaping-seo"
+     },
+     {
+      "keyword": "pozycjonowanie strony malarza",
+      "volume": null,
+      "topic": "seo-for-painting-contractors"
+     },
+     {
+      "keyword": "seo dla firmy malarskiej",
+      "volume": null,
+      "topic": "seo-for-painting-contractors"
+     },
+     {
+      "keyword": "pozycjonowanie stron internetowych",
+      "volume": 1600,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "strona internetowa dla firmy",
+      "volume": 480,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "pozycjonowanie strony kancelarii prawnej",
+      "volume": null,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "strona internetowa dla fotografa",
+      "volume": 140,
+      "topic": "· контроль"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "сайт для архитектора",
+      "volume": 0,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "сайт архитектурного бюро",
+      "volume": 10,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "сайт для архитектурной студии",
+      "volume": null,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "продвижение сайта архитектора",
+      "volume": null,
+      "topic": "seo-for-architects"
+     },
+     {
+      "keyword": "продвижение архитектурного бюро",
+      "volume": 0,
+      "topic": "seo-for-architects"
+     },
+     {
+      "keyword": "seo для архитектора",
+      "volume": null,
+      "topic": "seo-for-architects"
+     },
+     {
+      "keyword": "сайт для b2b компании",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "корпоративный сайт b2b",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "сайт b2b компании",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "сайт для it компании",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "сайт для айти компании",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "сайт для разработчиков программного обеспечения",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "продвижение сайта it компании",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "seo для it компании",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "продвижение айти компании",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "сайт для стартапа",
+      "volume": 10,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "лендинг для стартапа",
+      "volume": 0,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "создание сайта для стартапа",
+      "volume": 10,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "продвижение сайта стартапа",
+      "volume": null,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "seo для стартапа",
+      "volume": null,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "продвижение стартапа",
+      "volume": 10,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "сайт для производителя",
+      "volume": null,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "сайт производственной компании",
+      "volume": 0,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "сайт для завода",
+      "volume": null,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "сайт для отеля",
+      "volume": 10,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "сайт для гостиницы",
+      "volume": 0,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "создание сайта для отеля",
+      "volume": 10,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "сайт для посуточной аренды",
+      "volume": null,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "сайт для апартаментов",
+      "volume": null,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "сайт для аренды жилья",
+      "volume": 10,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "сайт для стоматологии",
+      "volume": 10,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "сайт стоматологической клиники",
+      "volume": 10,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "сайт для стоматолога",
+      "volume": 10,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "продвижение сайта врача",
+      "volume": null,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "продвижение сайта поликлиники",
+      "volume": 0,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "seo для врача",
+      "volume": null,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "продвижение медицинского сайта",
+      "volume": 10,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "продвижение сайта медцентра",
+      "volume": null,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "seo для клиники",
+      "volume": null,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "сайт для ветеринарной клиники",
+      "volume": null,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "сайт для ветеринара",
+      "volume": null,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "сайт ветклиники",
+      "volume": 10,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "продвижение сайта фонда",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "продвижение сайта некоммерческой организации",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "seo для фонда",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "сайт для фонда",
+      "volume": null,
+      "topic": "nonprofit-website-design"
+     },
+     {
+      "keyword": "сайт для некоммерческой организации",
+      "volume": null,
+      "topic": "nonprofit-website-design"
+     },
+     {
+      "keyword": "сайт благотворительного фонда",
+      "volume": 10,
+      "topic": "nonprofit-website-design"
+     },
+     {
+      "keyword": "сайт для благотворительного фонда",
+      "volume": null,
+      "topic": "charity-website-design"
+     },
+     {
+      "keyword": "сайт для благотворительной организации",
+      "volume": null,
+      "topic": "charity-website-design"
+     },
+     {
+      "keyword": "сайт для сантехника",
+      "volume": null,
+      "topic": "plumbing-website-design"
+     },
+     {
+      "keyword": "сайт для сантехнических услуг",
+      "volume": null,
+      "topic": "plumbing-website-design"
+     },
+     {
+      "keyword": "продвижение сайта сантехника",
+      "volume": null,
+      "topic": "seo-for-plumbers"
+     },
+     {
+      "keyword": "seo для сантехника",
+      "volume": null,
+      "topic": "seo-for-plumbers"
+     },
+     {
+      "keyword": "локальное продвижение сантехника",
+      "volume": null,
+      "topic": "local-seo-for-plumbers"
+     },
+     {
+      "keyword": "сайт для электрика",
+      "volume": 10,
+      "topic": "electrician-website-design"
+     },
+     {
+      "keyword": "сайт для электромонтажных услуг",
+      "volume": null,
+      "topic": "electrician-website-design"
+     },
+     {
+      "keyword": "продвижение сайта электрика",
+      "volume": null,
+      "topic": "seo-for-electricians"
+     },
+     {
+      "keyword": "seo для электрика",
+      "volume": null,
+      "topic": "seo-for-electricians"
+     },
+     {
+      "keyword": "сайт для кровельной компании",
+      "volume": null,
+      "topic": "roofing-website-design"
+     },
+     {
+      "keyword": "сайт для кровельщика",
+      "volume": null,
+      "topic": "roofing-website-design"
+     },
+     {
+      "keyword": "продвижение сайта кровельной компании",
+      "volume": null,
+      "topic": "roofing-seo"
+     },
+     {
+      "keyword": "seo для кровельщика",
+      "volume": null,
+      "topic": "roofing-seo"
+     },
+     {
+      "keyword": "сайт для компании по кондиционерам",
+      "volume": null,
+      "topic": "hvac-website-design"
+     },
+     {
+      "keyword": "сайт для монтажа кондиционеров",
+      "volume": null,
+      "topic": "hvac-website-design"
+     },
+     {
+      "keyword": "продвижение сайта по кондиционерам",
+      "volume": null,
+      "topic": "hvac-seo"
+     },
+     {
+      "keyword": "seo для вентиляции и кондиционирования",
+      "volume": null,
+      "topic": "hvac-seo"
+     },
+     {
+      "keyword": "сайт для ландшафтной компании",
+      "volume": null,
+      "topic": "landscaping-website-design"
+     },
+     {
+      "keyword": "сайт для ландшафтного дизайнера",
+      "volume": null,
+      "topic": "landscaping-website-design"
+     },
+     {
+      "keyword": "продвижение сайта ландшафтной компании",
+      "volume": null,
+      "topic": "landscaping-seo"
+     },
+     {
+      "keyword": "seo для ландшафтного дизайна",
+      "volume": null,
+      "topic": "landscaping-seo"
+     },
+     {
+      "keyword": "продвижение сайта маляра",
+      "volume": null,
+      "topic": "seo-for-painting-contractors"
+     },
+     {
+      "keyword": "seo для малярных работ",
+      "volume": null,
+      "topic": "seo-for-painting-contractors"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 20,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 50,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "сайт для юриста",
+      "volume": 10,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "продвижение сайта стоматологии",
+      "volume": 0,
+      "topic": "· контроль"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "сайт для архитектора",
+      "volume": 0,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "сайт архитектурного бюро",
+      "volume": 10,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "сайт для архитектурной студии",
+      "volume": null,
+      "topic": "architecture-website-design"
+     },
+     {
+      "keyword": "продвижение сайта архитектора",
+      "volume": null,
+      "topic": "seo-for-architects"
+     },
+     {
+      "keyword": "продвижение архитектурного бюро",
+      "volume": 0,
+      "topic": "seo-for-architects"
+     },
+     {
+      "keyword": "seo для архитектора",
+      "volume": null,
+      "topic": "seo-for-architects"
+     },
+     {
+      "keyword": "сайт для b2b компании",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "корпоративный сайт b2b",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "сайт b2b компании",
+      "volume": null,
+      "topic": "b2b-website-design"
+     },
+     {
+      "keyword": "сайт для it компании",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "сайт для айти компании",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "сайт для разработчиков программного обеспечения",
+      "volume": null,
+      "topic": "it-company-website-design"
+     },
+     {
+      "keyword": "продвижение сайта it компании",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "seo для it компании",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "продвижение айти компании",
+      "volume": null,
+      "topic": "seo-for-it-companies"
+     },
+     {
+      "keyword": "сайт для стартапа",
+      "volume": 10,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "лендинг для стартапа",
+      "volume": 10,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "создание сайта для стартапа",
+      "volume": 10,
+      "topic": "startup-website-design"
+     },
+     {
+      "keyword": "продвижение сайта стартапа",
+      "volume": null,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "seo для стартапа",
+      "volume": 0,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "продвижение стартапа",
+      "volume": 10,
+      "topic": "seo-for-startups"
+     },
+     {
+      "keyword": "сайт для производителя",
+      "volume": null,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "сайт производственной компании",
+      "volume": 0,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "сайт для завода",
+      "volume": null,
+      "topic": "manufacturing-website-design"
+     },
+     {
+      "keyword": "сайт для отеля",
+      "volume": 10,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "сайт для гостиницы",
+      "volume": 10,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "создание сайта для отеля",
+      "volume": 10,
+      "topic": "hotel-website-design"
+     },
+     {
+      "keyword": "сайт для посуточной аренды",
+      "volume": null,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "сайт для апартаментов",
+      "volume": null,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "сайт для аренды жилья",
+      "volume": 10,
+      "topic": "vacation-rental-website-design"
+     },
+     {
+      "keyword": "сайт для стоматологии",
+      "volume": 10,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "сайт стоматологической клиники",
+      "volume": 10,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "сайт для стоматолога",
+      "volume": 10,
+      "topic": "dental-website-design"
+     },
+     {
+      "keyword": "продвижение сайта врача",
+      "volume": null,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "продвижение сайта поликлиники",
+      "volume": null,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "seo для врача",
+      "volume": null,
+      "topic": "seo-for-doctors"
+     },
+     {
+      "keyword": "продвижение медицинского сайта",
+      "volume": 10,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "продвижение сайта медцентра",
+      "volume": null,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "seo для клиники",
+      "volume": null,
+      "topic": "healthcare-seo"
+     },
+     {
+      "keyword": "сайт для ветеринарной клиники",
+      "volume": null,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "сайт для ветеринара",
+      "volume": null,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "сайт ветклиники",
+      "volume": 10,
+      "topic": "veterinary-website-design"
+     },
+     {
+      "keyword": "продвижение сайта фонда",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "продвижение сайта некоммерческой организации",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "seo для фонда",
+      "volume": null,
+      "topic": "nonprofit-seo"
+     },
+     {
+      "keyword": "сайт для фонда",
+      "volume": null,
+      "topic": "nonprofit-website-design"
+     },
+     {
+      "keyword": "сайт для некоммерческой организации",
+      "volume": null,
+      "topic": "nonprofit-website-design"
+     },
+     {
+      "keyword": "сайт благотворительного фонда",
+      "volume": 10,
+      "topic": "nonprofit-website-design"
+     },
+     {
+      "keyword": "сайт для благотворительного фонда",
+      "volume": null,
+      "topic": "charity-website-design"
+     },
+     {
+      "keyword": "сайт для благотворительной организации",
+      "volume": null,
+      "topic": "charity-website-design"
+     },
+     {
+      "keyword": "сайт для сантехника",
+      "volume": null,
+      "topic": "plumbing-website-design"
+     },
+     {
+      "keyword": "сайт для сантехнических услуг",
+      "volume": null,
+      "topic": "plumbing-website-design"
+     },
+     {
+      "keyword": "продвижение сайта сантехника",
+      "volume": null,
+      "topic": "seo-for-plumbers"
+     },
+     {
+      "keyword": "seo для сантехника",
+      "volume": null,
+      "topic": "seo-for-plumbers"
+     },
+     {
+      "keyword": "локальное продвижение сантехника",
+      "volume": null,
+      "topic": "local-seo-for-plumbers"
+     },
+     {
+      "keyword": "сайт для электрика",
+      "volume": 10,
+      "topic": "electrician-website-design"
+     },
+     {
+      "keyword": "сайт для электромонтажных услуг",
+      "volume": null,
+      "topic": "electrician-website-design"
+     },
+     {
+      "keyword": "продвижение сайта электрика",
+      "volume": null,
+      "topic": "seo-for-electricians"
+     },
+     {
+      "keyword": "seo для электрика",
+      "volume": null,
+      "topic": "seo-for-electricians"
+     },
+     {
+      "keyword": "сайт для кровельной компании",
+      "volume": null,
+      "topic": "roofing-website-design"
+     },
+     {
+      "keyword": "сайт для кровельщика",
+      "volume": null,
+      "topic": "roofing-website-design"
+     },
+     {
+      "keyword": "продвижение сайта кровельной компании",
+      "volume": null,
+      "topic": "roofing-seo"
+     },
+     {
+      "keyword": "seo для кровельщика",
+      "volume": null,
+      "topic": "roofing-seo"
+     },
+     {
+      "keyword": "сайт для компании по кондиционерам",
+      "volume": null,
+      "topic": "hvac-website-design"
+     },
+     {
+      "keyword": "сайт для монтажа кондиционеров",
+      "volume": null,
+      "topic": "hvac-website-design"
+     },
+     {
+      "keyword": "продвижение сайта по кондиционерам",
+      "volume": null,
+      "topic": "hvac-seo"
+     },
+     {
+      "keyword": "seo для вентиляции и кондиционирования",
+      "volume": null,
+      "topic": "hvac-seo"
+     },
+     {
+      "keyword": "сайт для ландшафтной компании",
+      "volume": null,
+      "topic": "landscaping-website-design"
+     },
+     {
+      "keyword": "сайт для ландшафтного дизайнера",
+      "volume": null,
+      "topic": "landscaping-website-design"
+     },
+     {
+      "keyword": "продвижение сайта ландшафтной компании",
+      "volume": null,
+      "topic": "landscaping-seo"
+     },
+     {
+      "keyword": "seo для ландшафтного дизайна",
+      "volume": null,
+      "topic": "landscaping-seo"
+     },
+     {
+      "keyword": "продвижение сайта маляра",
+      "volume": null,
+      "topic": "seo-for-painting-contractors"
+     },
+     {
+      "keyword": "seo для малярных работ",
+      "volume": null,
+      "topic": "seo-for-painting-contractors"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 210,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 880,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "сайт для юриста",
+      "volume": 10,
+      "topic": "· контроль"
+     },
+     {
+      "keyword": "продвижение сайта стоматологии",
+      "volume": 10,
+      "topic": "· контроль"
+     }
+    ]
+   }
+  }
+ }
+}

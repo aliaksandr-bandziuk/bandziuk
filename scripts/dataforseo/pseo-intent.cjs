@@ -281,6 +281,20 @@ PAIR_SETS["small-business-website-cost"] = [
   ["RU: цена сайта для малого бизнеса — своя выдача?", "ru", "сколько стоит сайт для малого бизнеса", "сколько стоит создание сайта"],
 ];
 
+PAIR_SETS["law-firm-marketing"] = [
+  // Самая важная пара: наша же статья про Attorney SEO вышла 27.10 и это гид на
+  // 14 H2. Маркетинг включает SEO, поэтому 4+ общих адреса означают не новую
+  // статью, а раздел в существующей.
+  ["съест ли нашу статью Attorney SEO?", "en", "law firm marketing", "attorney seo"],
+  ["и коммерческий лендинг про SEO?", "en", "law firm marketing", "law firm seo"],
+  ["«lawyer marketing» — та же страница?", "en", "law firm marketing", "lawyer marketing"],
+  ["«legal marketing» — та же страница?", "en", "law firm marketing", "legal marketing"],
+  ["чей спрос: гиды или агентства?", "en", "law firm marketing", "law firm marketing agency"],
+  ["«how to market a law firm» — та же выдача?", "en", "how to market a law firm", "law firm marketing"],
+  ["«ideas» — отдельный интент?", "en", "law firm marketing ideas", "law firm marketing"],
+  ["малая фирма — отдельная выдача?", "en", "small law firm marketing", "law firm marketing"],
+];
+
 PAIR_SETS["trades-sites"] = [
   ["кровля: «roofing websites» — чей спрос?", "en", "roofing websites", "roofing website design"],
   ["кровля: сайт компании = дизайн?", "en", "roofing company website", "roofing website design"],
@@ -641,6 +655,31 @@ const norm = (u) => String(u || "").toLowerCase()
   .replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/[?#].*$/, "").replace(/\/+$/, "");
 const host = (u) => norm(u).split("/")[0];
 
+// Google serves some organic results with the href wrapped in
+// /goto?url=<opaque blob>: both `url` and `domain` then say google.com and the
+// real target is not recoverable from them. Measured 30.10.2026: 6 of 9 items
+// for «law firm marketing». Stripping the query (norm) collapsed every such
+// link into the single string "google.com/goto", so they all counted as the
+// SAME shared address and every pair came back as "one page" -- a false
+// positive that would have merged two separate articles.
+//
+// The displayed cite survives in `breadcrumb` and the site in `website_name`,
+// so the domain is recoverable. The path is not: breadcrumb truncates it
+// («› law-firm-mar...»). Hence the overlap is counted by DOMAIN. An
+// unidentifiable item gets a unique key so it can never match anything.
+function identify(item, n) {
+  const u = String(item.url || "");
+  const d = String(item.domain || "");
+  const wrapped = /^(www\.)?google\./i.test(d) || /google\.[a-z.]+\/goto/i.test(u);
+  if (!wrapped && d) return { host: d.toLowerCase().replace(/^www\./, ""), url: norm(u), known: true };
+  if (!wrapped) return { host: host(u), url: norm(u), known: true };
+  const m = String(item.breadcrumb || "").match(/^https?:\/\/([^\s\u203a/]+)/i);
+  if (m) return { host: m[1].toLowerCase().replace(/^www\./, ""), url: null, known: true };
+  const wn = String(item.website_name || "").trim().toLowerCase();
+  if (wn) return { host: wn, url: null, known: true };
+  return { host: `(\u043d\u0435 \u043e\u043f\u043e\u0437\u043d\u0430\u043d #${n})`, url: null, known: false };
+}
+
 async function serp(lang, keyword) {
   const auth = Buffer.from(`${process.env.DATAFORSEO_API_LOGIN}:${process.env.DATAFORSEO_API_PASSWORD}`).toString("base64");
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -653,8 +692,14 @@ async function serp(lang, keyword) {
       const t = data.tasks && data.tasks[0];
       if (!t || t.status_code !== 20000) throw new Error(t ? `${t.status_code} ${t.status_message}` : "пустой ответ");
       const items = (t.result && t.result[0] && t.result[0].items) || [];
+      const organic = items.filter((i) => i.type === "organic").slice(0, 10);
+      const ids = organic.map(identify);
       return {
-        urls: items.filter((i) => i.type === "organic").slice(0, 10).map((i) => norm(i.url)),
+        ids,
+        hosts: ids.map((x) => x.host),
+        unknown: ids.filter((x) => !x.known).length,
+        wrapped: organic.filter((i, n) => ids[n].url === null && ids[n].known).length,
+        raw: organic,
         aio: items.some((i) => i.type === "ai_overview"),
       };
     } catch (e) {
@@ -664,7 +709,42 @@ async function serp(lang, keyword) {
   }
 }
 
+// --raw "<keyword>" [--lang en] prints the organic items exactly as the API
+// returns them: position, type, domain and full url. One request, ~$0.006.
+// Added 30.10.2026 after a run where nine of ten "shared" urls were
+// google.com/goto — Google redirect wrappers, not results.
+async function rawDump() {
+  const i = process.argv.indexOf("--raw");
+  const kw = process.argv[i + 1];
+  const li = process.argv.indexOf("--lang");
+  const lang = li > -1 ? process.argv[li + 1] : "en";
+  if (!kw || kw.startsWith("--")) throw new Error('--raw needs a keyword: --raw "law firm marketing"');
+  const r = await serp(lang, kw);
+  console.log(`\n«${kw}» (${lang}) — organic items as returned, AI Overview: ${r.aio ? "yes" : "no"}\n`);
+  const wrapped = (it) => /^(www\.)?google\./i.test(String(it.domain || "")) || /google\.[a-z.]+\/goto/i.test(String(it.url || ""));
+  r.raw.forEach((it, n) => {
+    console.log(`${String(n + 1).padStart(2)}. domain:     ${it.domain || "(none)"}${wrapped(it) ? "   << wrapped" : ""}`);
+    console.log(`    title:      ${it.title || "(none)"}`);
+    console.log(`    breadcrumb: ${it.breadcrumb || "(none)"}`);
+    console.log(`    norm(url):  ${norm(it.url)}`);
+  });
+  // Every field of the first wrapped item: if the real target survives
+  // anywhere in the response, it is visible here.
+  const first = r.raw.find(wrapped);
+  if (first) {
+    console.log("\n--- all fields of the first wrapped item ---");
+    for (const k of Object.keys(first)) {
+      const v = first[k];
+      const s = v === null || v === undefined ? String(v) : typeof v === "object" ? JSON.stringify(v) : String(v);
+      console.log(`  ${k}: ${s.length > 260 ? s.slice(0, 260) + " …" : s}`);
+    }
+  }
+  const goto = r.raw.filter((it) => /^(www\.)?google\./i.test(String(it.domain || "")) || /google\.[a-z.]+\/goto/i.test(String(it.url || "")));
+  console.log(`\n${goto.length} of ${r.raw.length} item(s) came back as a Google redirect instead of a result url.`);
+}
+
 async function main() {
+  if (process.argv.includes("--raw")) return rawDump();
   const queries = new Map();
   for (const [, lang, a, b] of PAIRS) { queries.set(`${lang}|${a}`, null); queries.set(`${lang}|${b}`, null); }
   console.log(`Пар: ${PAIRS.length}, разных запросов: ${queries.size}, оценка ~$${(queries.size * 0.006).toFixed(2)}.`);
@@ -694,19 +774,28 @@ async function main() {
   const say = (l = "") => { console.log(l); out.push(l); };
   say("# Одно намерение или два: пересечение топ-10");
   say("");
-  say("4+ общих адресов — одна страница; 2–3 — смотреть глазами; 0–1 — разные страницы.");
+  say("4+ общих доменов — одна страница; 2–3 — смотреть глазами; 0–1 — разные страницы.")
+  say("")
+  say("Считается по доменам, а не по полным адресам: Google заворачивает часть ссылок")
+  say("в редирект, и настоящий адрес берётся из видимой «крошки», где путь обрезан.")
+  say("«не опознано» — элементы, у которых домен не восстановился; они не совпадают ни с чем.");
   for (const [topic, lang, a, b] of PAIRS) {
     const A = queries.get(`${lang}|${a}`);
     const B = queries.get(`${lang}|${b}`);
     if (!A || !B) { say(""); say(`## ${topic} · ${lang}: «${a}» и «${b}»`); say("  нет данных — запрос не удался, перезапустить"); continue; }
-    const common = A.urls.filter((u) => B.urls.includes(u));
-    const commonHosts = [...new Set(A.urls.map(host))].filter((h) => B.urls.map(host).includes(h));
+    const uniq = (xs) => [...new Set(xs)];
+    const shared = uniq(A.hosts).filter((h) => B.hosts.includes(h));
+    const note = (q) => (q.unknown ? `, не опознано ${q.unknown}` : "");
     say("");
     say(`## ${topic} · ${lang}: «${a}» и «${b}»`);
-    say(`общих адресов: ${common.length} из 10 · общих доменов: ${commonHosts.length}${A.aio ? " · AI Overview по первому" : ""}${B.aio ? " · AI Overview по второму" : ""}`);
-    for (const u of common) say(`  = ${u}`);
-    say(`  только «${a}»: ${A.urls.filter((u) => !common.includes(u)).map(host).join(", ")}`);
-    say(`  только «${b}»: ${B.urls.filter((u) => !common.includes(u)).map(host).join(", ")}`);
+    say(
+      `общих доменов: ${shared.length} из ${Math.min(A.hosts.length, B.hosts.length)}` +
+      ` · результатов: ${A.hosts.length}${note(A)} и ${B.hosts.length}${note(B)}` +
+      `${A.aio ? " · AI Overview по первому" : ""}${B.aio ? " · AI Overview по второму" : ""}`,
+    );
+    for (const h of shared) say(`  = ${h}`);
+    say(`  только «${a}»: ${uniq(A.hosts).filter((h) => !shared.includes(h)).join(", ") || "—"}`);
+    say(`  только «${b}»: ${uniq(B.hosts).filter((h) => !shared.includes(h)).join(", ") || "—"}`);
   }
   fs.writeFileSync(path.join(DIR, SET === "restaurant" ? "intent-check.md" : `intent-check-${SET}.md`), out.join("\n") + "\n", "utf8");
   say("");

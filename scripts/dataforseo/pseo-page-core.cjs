@@ -866,6 +866,38 @@ const TOPICS = {
       ru: ["сколько стоит сайт для малого бизнеса"],
     },
   },
+  // Article «Law firm marketing» (30.10.2026). EN only: the PL and RU wording of
+  // this topic already belongs to the Attorney SEO article published 27.10
+  // (/pl/blog/marketing-i-seo-kancelarii-prawnej took «marketing kancelarii
+  // prawnej», /ru/blog/prodvizhenie-saita-yuridicheskoi-kompanii took
+  // «продвижение сайта юридической компании»). What this has to settle is
+  // whether an English article is a separate page at all, or a section of the
+  // Attorney SEO guide — hence the SEO phrases are flagged as another page's.
+  "law-firm-marketing": {
+    relevant: /marketing|advertis|promot|client acquisition|lead gen|branding|business development/i,
+    otherPage: {
+      "attorney SEO article or the law firm SEO landing": /\bseo\b|search engine optimi|pozycjonowan/i,
+      "website design and development pages": /website design|web design|website development|site design|redesign/i,
+      "looking for an agency, not for a guide": /agency|agencies|firm[s]? for lawyers|consultant|\bservices\b|companies/i,
+      "client demand, not lawyer demand": /find a lawyer|find an attorney|near me|legal advice|hire a lawyer/i,
+    },
+    groups: {
+      "ideas / strategies / tips": /idea|strateg|tip|tactic|plan|playbook/i,
+      "how to": /how to|how do|how can/i,
+      "digital / online": /digital|online|internet/i,
+      "by channel": /ppc|google ads|pay per click|social media|facebook|linkedin|instagram|email|content marketing|video|podcast|referral/i,
+      "budget / cost / spend": /cost|budget|price|pricing|how much|spend|roi/i,
+      "by practice area": /personal injury|family law|criminal|immigration|estate|divorce|bankruptcy|employment/i,
+      "small / solo firm": /small (law )?firm|solo|boutique|single attorney/i,
+      "by year": /2026|2027/i,
+    },
+    seeds: {
+      en: ["law firm marketing", "lawyer marketing", "legal marketing", "how to market a law firm", "law firm marketing ideas", "attorney marketing", "law firm advertising", "law firm marketing strategies", "small law firm marketing"],
+    },
+    serp: {
+      en: ["law firm marketing", "how to market a law firm"],
+    },
+  },
   "ai-search": {
     relevant: /\bai\b|\bgeo\b|\baeo\b|\baio\b|\bllm|chatgpt|chat gpt|gpt|perplexity|gemini|generative|answer engine|ai overview|artificial intelligence|sztuczn|\bии\b|нейросет|искусственн|чатгпт|\bgeo-/i,
     otherPage: {},

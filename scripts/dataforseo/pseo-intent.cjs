@@ -647,6 +647,36 @@ PAIR_SETS["batch-h"] = [
   ["pl: przedszkole = żłobek?", "pl", "strona internetowa dla przedszkola", "strona dla żłobka"],
 ];
 
+// Интернет-магазин: разработка, дизайн и продвижение — одна страница или
+// несколько? Добавлено 02.11.2026 перед сборкой кластера магазина: на сайте
+// есть только страница продвижения магазинов, а «ecommerce website design»
+// 9900, «ecommerce web design» 9900 и «ecommerce website development» 4400
+// не закрыты ничем. Сколько делать страниц — решает пересечение выдачи.
+PAIR_SETS.ecommerce = [
+  ["1 дизайн и разработка", "en", "ecommerce website design", "ecommerce website development"],
+  ["2 две формы дизайна", "en", "ecommerce web design", "ecommerce website design"],
+  ["3 разработка и голая форма", "en", "ecommerce website development", "ecommerce website"],
+  ["4 продвижение и разработка", "en", "ecommerce seo", "ecommerce website development"],
+  ["5 shopify и разработка магазина", "en", "shopify development", "ecommerce website development"],
+];
+
+// AI-поиск: сколько страниц заслуживает это пространство? Добавлено
+// 02.11.2026. На сайте четыре отдельные услуговые страницы — llm-seo-services
+// (позиция 68), ai-ready-seo-and-geo-optimization (54), chatgpt-seo-services
+// (70) и answer-engine-optimization-services, — и ни одна не поднимается.
+// При этом узкие страницы с отдельной работой стоят хорошо:
+// fix-ai-misinformation на 10,5 и статья про неверную информацию в ChatGPT
+// на 11,6. Если по этим запросам в топ-10 одни и те же адреса — четыре
+// страницы отбирают позиции друг у друга, и пространству нужна одна.
+PAIR_SETS.aisearch = [
+  ["1 llm seo и geo", "en", "llm seo", "generative engine optimization"],
+  ["2 geo и aeo", "en", "generative engine optimization", "answer engine optimization"],
+  ["3 llm seo и chatgpt seo", "en", "llm seo", "chatgpt seo services"],
+  ["4 geo и ai search", "en", "generative engine optimization", "ai search optimization"],
+  ["5 aeo и chatgpt seo", "en", "answer engine optimization", "chatgpt seo services"],
+  ["6 geo и llm seo services", "en", "generative engine optimization", "llm seo services"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);

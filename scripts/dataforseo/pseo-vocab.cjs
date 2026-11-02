@@ -253,6 +253,17 @@ const SERVICE_ONLY = {
     "konsultacje seo", "specjalista seo", "freelancer seo", "agencja seo",
     "cennik pozycjonowania", "ile kosztuje strona internetowa", "ile kosztuje pozycjonowanie",
     "sklep na shopify", "sklep na prestashop", "strona na wordpress", "ux ui audyt",
+    // Создание магазина, а не его продвижение. Добавлено 02.11.2026: в
+    // словаре был только голый «sklep internetowy» и «pozycjonowanie sklepu
+    // internetowego», то есть владельческая форма заказа магазина никогда не
+    // замерялась, и сверка ядра показала дыру без цифры.
+    "tworzenie sklepu internetowego", "projektowanie sklepu internetowego",
+    "zalozenie sklepu internetowego", "ile kosztuje sklep internetowy",
+    "sklep internetowy woocommerce", "migracja sklepu internetowego",
+    // Скорость загрузки: страниц по теме нет ни одной, а показы в Bing есть
+    // («dlaczego strona laduje sie wolno» и варианты).
+    "dlaczego strona laduje sie wolno", "optymalizacja szybkosci strony",
+    "przyspieszenie strony internetowej",
   ],
   ru: [
     "продвижение сайта", "seo продвижение сайта", "раскрутка сайта", "продвижение интернет магазина",
@@ -264,6 +275,12 @@ const SERVICE_ONLY = {
     "seo консультация", "seo специалист", "seo фрилансер", "seo агентство",
     "стоимость продвижения сайта", "сколько стоит сайт", "цена разработки сайта",
     "сайт на shopify", "сайт на wordpress", "ux ui аудит", "сайт под ключ",
+    // Создание магазина, а не его продвижение — см. комментарий в pl.
+    "создание интернет магазина", "разработка интернет магазина",
+    "интернет магазин под ключ", "сколько стоит интернет магазин",
+    "интернет магазин на wordpress", "перенос интернет магазина",
+    // Скорость загрузки.
+    "почему сайт долго загружается", "ускорение сайта",
   ],
   en: [
     "seo services", "seo consultant", "technical seo", "local seo", "seo audit",
@@ -275,6 +292,11 @@ const SERVICE_ONLY = {
     "ai search optimization", "chatgpt visibility", "llm seo", "seo pricing",
     "website development cost", "shopify development", "wordpress development",
     "nextjs development", "sanity cms", "ux ui audit", "conversion rate optimization",
+    // Разработка магазина: формы design/web design уже есть в сетке через
+    // шаблоны, а эти три — головные формулировки той же услуги.
+    "ecommerce web design", "online store development", "woocommerce development",
+    // Скорость загрузки.
+    "website speed optimization", "why is my website slow",
   ],
 };
 

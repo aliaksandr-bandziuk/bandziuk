@@ -137,6 +137,23 @@ function buildMatcher(lang, inventory) {
       ].filter(Boolean),
     }));
 
+  // Токены, которые есть у многих страниц, ничего не различают: «website»,
+  // «design», «seo», «strona», «сайт». Если пересечение состоит ТОЛЬКО из
+  // них, страница не подходит, даже когда формально совпало два слова.
+  //
+  // Без этой проверки запрос «lawyer website design» 1900 садился на
+  // /adult-website-design: общие «website» и «design» проходили барьер из двух
+  // слов, а дальше выигрывал самый короткий заголовок в семействе — а это и
+  // есть взрослая страница. Тем же путём туда попали «tattoo website design»
+  // 1300, «cleaning website design» 880 и «consulting website design» 480.
+  // Найдено 02.11.2026 сверкой ядра с живым сайтом (audit-core-coverage.cjs).
+  //
+  // Порог 15% тот же, что в сверке, чтобы оба инструмента считали «частым»
+  // одно и то же.
+  const df = new Map();
+  for (const p of pages) for (const t of new Set([...p.titleTokens, ...p.slugTokens])) df.set(t, (df.get(t) || 0) + 1);
+  const generic = new Set([...df].filter(([, n]) => n / Math.max(pages.length, 1) > 0.15).map(([t]) => t));
+
   const sameGeo = (a, b) => {
     const pick = (s) => [...s].filter((t) => geo.has(t)).sort().join(",");
     return pick(a) === pick(b);
@@ -153,6 +170,13 @@ function buildMatcher(lang, inventory) {
         let inter = 0;
         for (const t of dt) if (pt.has(t)) inter++;
         if (inter < 2 && dt.size > 1) continue;
+        // Пересечение должно содержать хотя бы одно различающее слово. Если у
+        // самого запроса различающих слов нет (чистая голова вроде «website
+        // development»), проверка не применяется — иначе голова не сматчится
+        // ни с чем.
+        let interRare = 0;
+        for (const t of dt) if (pt.has(t) && !generic.has(t)) interRare++;
+        if (interRare === 0 && [...dt].some((t) => !generic.has(t))) continue;
         if (!sameGeo(dt, pt)) continue;
         const isFull = inter === dt.size && pt.size - dt.size <= 1;
         const j = jaccard(dt, pt);

@@ -19,6 +19,7 @@
 //        node scripts/report-thin-pages.cjs --type blog     articles instead
 //        node scripts/report-thin-pages.cjs --all           both
 //        node scripts/report-thin-pages.cjs --csv           machine-readable
+//        node scripts/report-thin-pages.cjs --out drafts/thin.csv   то же, сразу в файл
 
 const path = require("path");
 const { createClient } = require("@sanity/client");
@@ -34,6 +35,9 @@ const client = createClient({
 
 const arg = (name) => { const i = process.argv.indexOf(name); return i > -1 ? process.argv[i + 1] : null; };
 const CSV = process.argv.includes("--csv");
+// --out <файл>: скрипт пишет CSV сам. Перенаправление `> файл` в Git Bash
+// падает на winpty («stdout is not a tty»), поэтому путь задаётся флагом.
+const OUT = arg("--out");
 const TYPES = process.argv.includes("--all")
   ? ["singlepage", "blog"]
   : [arg("--type") || "singlepage"];
@@ -119,11 +123,19 @@ async function main() {
 
   rows.sort((a, b) => a.totalWords - b.totalWords);
 
-  if (CSV) {
-    console.log("lang,type,slug,pageType,textBlocks,richWords,stringWords,textWords,totalWords,h2,blockTypes");
+  if (CSV || OUT) {
+    const lines = ["lang,type,slug,pageType,textBlocks,richWords,stringWords,textWords,totalWords,h2,blockTypes"];
     for (const r of rows) {
-      console.log([r.lang, r.type, r.slug, r.pageType, r.textBlocks, r.richWords, r.stringWords,
+      lines.push([r.lang, r.type, r.slug, r.pageType, r.textBlocks, r.richWords, r.stringWords,
         r.textWords, r.totalWords, r.h2, `"${r.blockTypes}"`].join(","));
+    }
+    if (OUT) {
+      const dest = path.resolve(__dirname, "..", OUT);
+      require("fs").mkdirSync(path.dirname(dest), { recursive: true });
+      require("fs").writeFileSync(dest, lines.join("\n") + "\n", "utf8");
+      console.log(`${rows.length} строк → ${OUT}`);
+    } else {
+      console.log(lines.join("\n"));
     }
     return;
   }

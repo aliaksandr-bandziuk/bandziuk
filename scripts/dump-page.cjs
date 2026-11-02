@@ -33,7 +33,7 @@ const client = createClient({
 const arg = (n) => { const i = process.argv.indexOf(n); return i > -1 ? process.argv[i + 1] : null; };
 const SLUGS = (arg("--slug") || "").split(",").map((s) => s.trim()).filter(Boolean);
 const OUT = path.resolve(__dirname, "..", arg("--out") || "drafts/current");
-if (!SLUGS.length) { console.error('Нужен --slug: --slug pricing,ceny'); process.exit(1); }
+if (!SLUGS.length && !process.argv.includes("--paths")) { console.error('Нужен --slug: --slug pricing,ceny'); process.exit(1); }
 
 // Portable text -> markdown. Links are kept, because a rewrite must not drop
 // internal links by accident.
@@ -84,7 +84,33 @@ function plain(node, out, depth, key) {
   for (const k of keys) plain(node[k], out, depth + 1, k);
 }
 
+// --paths <lang> <slug,slug,...> resolves slugs to full addresses, following
+// parentPage up to two levels. Some pages sit at the root of a locale and some
+// under a hub, so a link written from the slug alone is a guess. Read-only.
+async function paths() {
+  const i = process.argv.indexOf("--paths");
+  const lang = process.argv[i + 1];
+  const slugs = (process.argv[i + 2] || "").split(",").map((s) => s.trim()).filter(Boolean);
+  if (!["en", "pl", "ru"].includes(lang) || !slugs.length) {
+    throw new Error('--paths нужны язык и слаги: --paths ru "ceny,prodvizhenie-v-chatgpt"');
+  }
+  const prefix = { en: "", pl: "/pl", ru: "/ru" }[lang];
+  for (const s of slugs) {
+    const r = await client.fetch(
+      `*[_type == "singlepage" && language == "${lang}" && slug.${lang}.current == $s && !(_id in path("drafts.**"))][0]{
+        "self": slug.${lang}.current,
+        "p1": parentPage->slug.${lang}.current,
+        "p2": parentPage->parentPage->slug.${lang}.current
+      }`,
+      { s },
+    );
+    if (!r || !r.self) { console.log(`НЕТ      ${s}`); continue; }
+    console.log(`${prefix}/${[r.p2, r.p1, r.self].filter(Boolean).join("/")}`);
+  }
+}
+
 async function main() {
+  if (process.argv.includes("--paths")) return paths();
   // slug is a localizedSlug, and GROQ does not substitute the document's own
   // language inside the brackets: `slug[language].current` matches nothing.
   // Each locale is therefore named explicitly and paired with `language`, so a

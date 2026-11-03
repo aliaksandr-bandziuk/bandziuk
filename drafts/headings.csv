@@ -1,0 +1,707 @@
+check,lang,url,style,text,extra
+no-h1,ru,"/ru/uslugi/seo-audit-saita",,"SEO-аудит сайта",
+no-h1,en,"/services/seo-audit",,"Website SEO Audit",
+no-h1,pl,"/pl/oferty/audyt-wydajnosci-i-kodu",,"Audyt wydajności i kodu",
+no-h1,en,"/pricing",,"SEO & Website Development Pricing",
+no-h1,en,"/blog/real-estate-website-cyprus-case-study",,"How a Professional Website Helps a Real Estate Agency in Cyprus Attract Premium International Clients",
+no-h1,ru,"/ru/uslugi/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",,"Ускорение сайта и улучшение поисковой видимости",
+no-h1,pl,"/pl/oferty/tworzenie-landing-page",,"Tworzenie landing page",
+no-h1,ru,"/ru/blog/sait-agentstva-nedvizhimosti-kipr-keis",,"Как сайт помогает агентству недвижимости на Кипре привлекать премиум-клиентов",
+no-h1,en,"/seo-for-real-estate-in-cyprus",,"SEO for Real Estate in Cyprus That Brings Buyer Leads",
+no-h1,en,"/website-development-for-beauty-professionals/beauty-salon-website",,"Beauty Salon Website Design",
+no-h1,ru,"/ru/sozdanie-saitov-dlya-byuti-uslug",,"Создание сайтов для бьюти-услуг, которые приносят клиентов",
+no-h1,en,"/services/seo-optimization-and-strategy",,"SEO Optimization and Strategy",
+no-h1,en,"/blog/how-to-define-a-bad-seo-specialist",,"How to define a Bad SEO Specialist",
+no-h1,en,"/blog/why-lawyer-needs-a-website",,"Why Every Lawyer Needs a Website: The Complete 2026 Guide",
+no-h1,en,"/seo-for-beauty-salons",,"SEO for Beauty Salons",
+no-h1,pl,"/pl/oferty/integracja-cms-i-api",,"Integracja CMS i API",
+no-h1,ru,"/ru/blog/riski-ai-otvetov",,"Риски AI-ответов: как ИИ может “соврать” про ваш бренд и как защититься",
+no-h1,pl,"/pl/blog/ryzyka-odpowiedzi-ai",,"Ryzyka odpowiedzi AI: jak AI może błędnie opisać Twoją markę i jak się chronić",
+no-h1,ru,"/ru/politika-konfidencialnosti",,"Политика конфиденциальности",
+no-h1,ru,"/ru/uslugi/seo-optimizaciya-i-strategiya",,"SEO-оптимизация и стратегия",
+no-h1,pl,"/pl/polityka-prywatnosci",,"Polityka prywatności",
+no-h1,pl,"/pl/seo-salonu-kosmetycznego",,"Pozycjonowanie strony salonu kosmetycznego",
+no-h1,pl,"/pl/blog/strona-agencji-nieruchomosci-cypr",,"Jak strona internetowa pomaga agencji nieruchomości pozyskiwać klientów na Cyprze",
+no-h1,en,"/privacy-policy",,"Privacy Policy",
+no-h1,pl,"/pl/oferty/strategia-i-optymalizacja-seo",,"Pozycjonowanie stron internetowych",
+no-h1,ru,"/ru/seo-salona-krasoty",,"SEO-продвижение сайта салона красоты",
+no-h1,en,"/contacts",,"Contact with Alex Bandziuk",
+no-h1,en,"/services/ai-ready-seo-and-geo-optimization",,"Generative Engine Optimization Services (GEO) & AI-Ready SEO",
+no-h1,en,"/blog/how-i-automated-website-page-production",,"How I Automated Website Page Production and Reduced Operational Costs by 75%",
+no-h1,pl,"/pl/oferty/audyt-seo-strony-internetowej",,"Audyt SEO strony internetowej",
+no-h1,ru,"/ru/blog/kak-ponyat-chto-pered-vami-plokhoi-seo-specialist",,"Как понять, что перед вами плохой SEO-специалист: глубокий разбор и признаки",
+no-h1,ru,"/ru/blog/skolko-stoit-sozdanie-saita-na-kipre",,"Сколько стоит создание сайта на Кипре в 2026 году",
+no-h1,pl,"/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",,"Strona internetowa salonu kosmetycznego",
+no-h1,pl,"/pl/tworzenie-stron-internetowych-dla-branzy-beauty",,"Tworzenie stron internetowych dla branży beauty",
+no-h1,en,"/services/cms-integration-and-api-work",,"CMS Integration & API Work",
+no-h1,en,"/blog/real-estate-agency-website-cost",,"How Much a Real Estate Agency Website Costs: A Complete Guide to Price and Features",
+no-h1,pl,"/pl/blog/ile-kosztuje-strona-dla-agencji-nieruchomosci",,"Ile kosztuje strona dla agencji nieruchomości: kompletny przewodnik po cenie i funkcjach",
+no-h1,ru,"/ru/blog/skolko-stoit-sait-agentstva-nedvizhimosti",,"Сколько стоит сайт для агентства недвижимости: полное руководство по цене и функционалу",
+no-h1,en,"/blog/ai-assistant-recommendations-study",,"What AI Assistants Answer When Asked Who to Hire: 141 Answers Analysed",
+no-h1,pl,"/pl/blog/pozycjonowanie-w-ai-badanie",,"Co odpowiadają asystenci AI zapytani, kogo zatrudnić: analiza 141 odpowiedzi",
+no-h1,ru,"/ru/blog/issledovanie-otvetov-ii-assistentov",,"Что отвечают ИИ-ассистенты на вопрос «кого нанять»: разбор 141 ответа",
+no-h1,en,"/blog/how-to-check-what-ai-says-about-your-company",,"How to Check What AI Assistants Say About Your Company",
+no-h1,pl,"/pl/blog/co-asystenci-ai-mowia-o-twojej-firmie",,"Co asystenci AI mówią o Twojej firmie: jak to sprawdzić",
+no-h1,ru,"/ru/blog/chto-ii-assistenty-govoryat-o-vashey-kompanii",,"Что ИИ-ассистенты говорят о вашей компании: аудит",
+no-h1,en,"/blog/how-to-monitor-brand-mentions-in-ai-answers",,"How to Monitor Brand Mentions in AI Answers",
+no-h1,pl,"/pl/blog/monitoring-wzmianek-o-marce-w-odpowiedziach-ai",,"Monitoring wzmianek o marce w odpowiedziach AI: jak go prowadzić",
+no-h1,ru,"/ru/blog/monitoring-upominaniy-brenda-v-ii-otvetah",,"Мониторинг упоминаний бренда в ИИ-ответах: как его вести",
+no-h1,en,"/blog/when-ai-describes-your-company-as-unreliable",,"When AI Describes Your Company as Unreliable",
+no-h1,pl,"/pl/blog/gdy-ai-opisuje-wasza-firme-jako-niewiarygodna",,"Gdy AI opisuje Waszą firmę jako niewiarygodną",
+no-h1,ru,"/ru/blog/esli-ii-opisyvaet-kompaniyu-kak-nenadyozhnuyu",,"Если ИИ описывает вашу компанию как ненадёжную",
+no-h1,en,"/blog/how-ai-answers-distort-your-marketing-message",,"How AI Answers Distort Your Marketing Message",
+no-h1,pl,"/pl/blog/jak-odpowiedzi-ai-znieksztalcaja-przekaz-marketingowy",,"Jak odpowiedzi AI zniekształcają Wasz przekaz marketingowy",
+no-h1,ru,"/ru/blog/kak-ii-otvety-iskazhayut-marketingovoe-soobshchenie",,"Как ИИ-ответы искажают ваше маркетинговое сообщение",
+no-h1,en,"/blog/when-ai-attributes-your-features-to-a-competitor",,"When AI Attributes Your Features to a Competitor",
+no-h1,pl,"/pl/blog/ai-przypisuje-wasze-funkcje-konkurentowi",,"AI przypisuje Wasze funkcje konkurentowi: dlaczego i co z tym zrobić",
+no-h1,ru,"/ru/blog/ii-pripisyvaet-vashi-funkcii-konkurentu",,"ИИ приписывает ваши функции конкуренту: почему и что делать",
+no-h1,en,"/blog/where-ai-gets-outdated-information-about-your-company",,"Where AI Gets Outdated Information About Your Company",
+no-h1,pl,"/pl/blog/skad-ai-bierze-nieaktualne-informacje-o-firmie",,"Skąd AI bierze nieaktualne informacje o Twojej firmie",
+no-h1,ru,"/ru/blog/otkuda-ii-beryot-ustarevshie-svedeniya-o-kompanii",,"Откуда ИИ берёт устаревшие сведения о вашей компании",
+no-h1,en,"/blog/attorney-seo",,"Attorney SEO: A Step-by-Step Guide for Lawyers and Small Law Firms",
+no-h1,pl,"/pl/blog/marketing-i-seo-kancelarii-prawnej",,"Marketing kancelarii prawnej i SEO: poradnik dla adwokatów i radców prawnych",
+no-h1,ru,"/ru/blog/prodvizhenie-saita-yuridicheskoi-kompanii",,"Продвижение сайта юридической компании и адвоката: пошаговое руководство",
+no-h1,en,"/blog/auto-repair-shop-website-cost",,"How Much an Auto Repair Shop Website Costs: Price and Features",
+no-h1,pl,"/pl/blog/ile-kosztuje-strona-dla-warsztatu-samochodowego",,"Ile kosztuje strona dla warsztatu samochodowego: rozbiór ceny i funkcji",
+no-h1,ru,"/ru/blog/skolko-stoit-sait-dlya-avtoservisa",,"Сколько стоит сайт для автосервиса: разбор цены и функций",
+no-h1,en,"/blog/beauty-salon-website-cost",,"How Much a Beauty Salon Website Costs: A Complete Pricing Guide",
+no-h1,pl,"/pl/blog/ile-kosztuje-strona-dla-salonu-kosmetycznego",,"Ile kosztuje strona dla salonu kosmetycznego: kompletny przewodnik po cenie",
+no-h1,ru,"/ru/blog/skolko-stoit-sait-salona-krasoty",,"Сколько стоит сайт салона красоты: полное руководство по цене",
+no-h1,en,"/blog/black-and-gold-web-design-no-longer-reads-expensive",,"Black and Gold Web Design No Longer Reads as Expensive",
+no-h1,pl,"/pl/blog/czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi",,"Czarno-złoty projekt strony nie czyta się już jako drogi",
+no-h1,ru,"/ru/blog/chernyy-s-zolotom-dizayn-sayta-ne-chitaetsya-kak-dorogo",,"Дизайн сайта в чёрном с золотом больше не читается как дорого",
+no-h1,en,"/blog/why-lingerie-brands-lose-to-their-retailers",,"Why a Lingerie Brand Loses in Search to Its Own Retailers",
+no-h1,pl,"/pl/blog/dlaczego-marka-bielizny-przegrywa-z-detalistami",,"Dlaczego marka bielizny przegrywa w wyszukiwarce z własnymi detalistami",
+no-h1,ru,"/ru/blog/pochemu-brend-belya-proigryvaet-riteyleram",,"Почему бренд белья проигрывает в поиске собственным ритейлерам",
+no-h1,en,"/blog/branded-traffic-and-bought-links-seo-reports",,"Branded Traffic and Bought Links: Three Substitutions in SEO Reports",
+no-h1,pl,"/pl/blog/ruch-brandowy-i-kupione-linki-w-raportach-seo",,"Ruch brandowy i kupione linki: trzy podmiany w raportach z pozycjonowania strony",
+no-h1,ru,"/ru/blog/brendovyi-trafik-i-kuplennye-ssylki-v-otchetah-seo",,"Брендовый трафик и купленные ссылки: три подмены в отчётах по SEO-продвижению сайта",
+no-h1,en,"/blog/website-builder-vs-custom-development",,"Website Builder vs Custom Development: How to Choose and Not Pay Twice",
+no-h1,pl,"/pl/blog/kreator-stron-czy-strona-na-zamowienie",,"Kreator stron czy strona na zamówienie: jak wybrać i nie zapłacić dwa razy",
+no-h1,ru,"/ru/blog/konstruktor-ili-razrabotka-saita",,"Конструктор или индивидуальная разработка: как выбрать и не переплатить дважды",
+no-h1,en,"/blog/how-to-get-recommended-by-chatgpt",,"How to Get Recommended by ChatGPT: A Checklist for Businesses",
+no-h1,pl,"/pl/blog/jak-trafic-do-rekomendacji-chatgpt",,"Jak trafić do rekomendacji ChatGPT: checklista dla firm",
+no-h1,ru,"/ru/blog/kak-popast-v-rekomendacii-chatgpt",,"Как попасть в рекомендации ChatGPT: чек-лист для бизнеса",
+no-h1,en,"/blog/chatgpt-seo",,"ChatGPT SEO: How to Rank in ChatGPT Search and Get Your Pages Cited",
+no-h1,pl,"/pl/blog/jak-pojawic-sie-w-chatgpt",,"Jak pojawić się w ChatGPT: jak działa wyszukiwarka ChatGPT i jak zdobyć cytowania strony",
+no-h1,ru,"/ru/blog/seo-dlya-chatgpt",,"SEO для ChatGPT: как попасть в поиск ChatGPT и в источники его ответов",
+no-h1,en,"/blog/construction-company-website-cost",,"How Much a Construction Company Website Costs: Price and Scope",
+no-h1,pl,"/pl/blog/ile-kosztuje-strona-dla-firmy-budowlanej",,"Ile kosztuje strona dla firmy budowlanej: cena i zakres prac",
+no-h1,ru,"/ru/blog/skolko-stoit-sait-dlya-stroitelnoy-kompanii",,"Сколько стоит сайт для строительной компании: цена и что в неё входит",
+no-h1,en,"/blog/how-to-correct-wrong-information-in-chatgpt",,"How to Correct Wrong Information About Your Company in ChatGPT and Gemini",
+no-h1,pl,"/pl/blog/jak-poprawic-bledne-dane-o-firmie-w-chatgpt",,"Jak poprawić błędne informacje o firmie w ChatGPT i Gemini",
+no-h1,ru,"/ru/blog/kak-ispravit-nevernye-dannye-o-kompanii-v-chatgpt",,"Как исправить неверные данные о компании в ChatGPT и Gemini",
+no-h1,en,"/blog/property-developer-website-cost",,"How Much a Property Developer Website Costs: A Complete Guide to Price and Features",
+no-h1,pl,"/pl/blog/ile-kosztuje-strona-dla-dewelopera",,"Ile kosztuje strona dla dewelopera: kompletny przewodnik po cenie i funkcjach",
+no-h1,ru,"/ru/blog/skolko-stoit-sait-zastroishchika",,"Сколько стоит сайт для застройщика: полное руководство по цене и функционалу",
+no-h1,en,"/blog/how-clients-find-you-through-chatgpt",,"How Clients Find Specialists Through ChatGPT: A Real Case and How It Works",
+no-h1,pl,"/pl/blog/jak-klienci-znajduja-specjalistow-przez-chatgpt",,"Jak klienci znajdują specjalistów przez ChatGPT: prawdziwy case i rozbiór mechaniki",
+no-h1,ru,"/ru/blog/kak-klienty-nahodyat-cherez-chatgpt",,"Как клиенты находят специалистов через ChatGPT: реальный кейс и разбор механики",
+no-h1,en,"/blog/freelancer-vs-agency-web-development",,"Freelancer vs Agency for Web Development: Which to Choose",
+no-h1,pl,"/pl/blog/freelancer-czy-agencja",,"Freelancer czy agencja: komu zlecić stronę internetową",
+no-h1,ru,"/ru/blog/frilanser-ili-agentstvo",,"Фрилансер или агентство для разработки сайта: что выбрать",
+no-h1,en,"/blog/geo-vs-seo",,"SEO vs GEO vs AEO: How Search Engine Optimization and Generative Engine Optimization Really Differ",
+no-h1,pl,"/pl/blog/geo-vs-seo-roznice",,"SEO, GEO i AEO: czym pozycjonowanie w Google różni się od optymalizacji pod AI",
+no-h1,ru,"/ru/blog/geo-vs-seo-raznica",,"SEO, GEO и AEO: чем продвижение в Google отличается от оптимизации под нейросети",
+no-h1,en,"/blog/high-value-clients-dont-click-ads",,"High-Value Clients Don't Click Ads: How They Find a Contractor in Google",
+no-h1,pl,"/pl/blog/drodzy-klienci-nie-klikaja-w-reklamy",,"Drodzy klienci nie klikają w reklamy: jak szukają wykonawcy w Google",
+no-h1,ru,"/ru/blog/dorogie-klienty-ne-klikayut-po-reklame",,"Дорогие клиенты не кликают по рекламе: как они находят подрядчика в Гугле",
+no-h1,en,"/blog/how-to-choose-a-web-developer",,"How to Choose a Web Developer: Questions, Checks and Red Flags",
+no-h1,pl,"/pl/blog/jak-wybrac-wykonawce-strony-internetowej",,"Jak wybrać wykonawcę strony internetowej: pytania, weryfikacja i czerwone flagi",
+no-h1,ru,"/ru/blog/kak-vybrat-razrabotchika-saita",,"Как выбрать разработчика сайта: вопросы, проверки и красные флаги",
+no-h1,en,"/blog/how-much-legal-seo-costs",,"How Much SEO for a Law Firm Costs: A Complete Pricing Guide",
+no-h1,pl,"/pl/blog/ile-kosztuje-seo-dla-kancelarii-prawnej",,"Ile kosztuje pozycjonowanie SEO strony kancelarii prawnej",
+no-h1,ru,"/ru/blog/skolko-stoit-seo-yuristov",,"Сколько стоит SEO-продвижение сайта юридической компании",
+no-h1,en,"/blog/search-queries-that-bring-immigration-clients",,"Immigration and relocation consultancies: which search queries actually bring clients",
+no-h1,pl,"/pl/blog/strona-biura-obslugi-cudzoziemcow",,"Strona biura obsługi cudzoziemców: dlaczego klienci trafiają do konkurencji",
+no-h1,ru,"/ru/blog/sait-agentstva-po-legalizacii",,"Сайт агентства по легализации: почему клиенты уходят к конкурентам",
+no-h1,en,"/blog/llm-seo",,"LLM SEO: How to Optimize Your Website for ChatGPT, Claude, Gemini and Perplexity",
+no-h1,pl,"/pl/blog/pozycjonowanie-w-llm",,"LLM SEO, czyli pozycjonowanie w LLM: jak przygotować stronę pod ChatGPT, Claude, Gemini i Perplexity",
+no-h1,ru,"/ru/blog/llm-seo",,"LLM SEO: как оптимизировать сайт под ChatGPT, Claude, Gemini и Perplexity",
+no-h1,en,"/blog/does-your-site-need-llms-txt",,"llms.txt: what it is, how to write one, and whether it does anything",
+no-h1,pl,"/pl/blog/czy-strona-potrzebuje-pliku-llms-txt",,"Czy Twoja strona potrzebuje pliku llms.txt? Uczciwa odpowiedź",
+no-h1,ru,"/ru/blog/nuzhen-li-saitu-fail-llms-txt",,"Нужен ли сайту файл llms.txt: честный ответ",
+no-h1,en,"/blog/multilingual-website-cost",,"How Much a Multilingual Website Costs: The Real Breakdown",
+no-h1,pl,"/pl/blog/ile-kosztuje-strona-wielojezyczna",,"Ile kosztuje strona wielojęzyczna: z czego składa się cena",
+no-h1,ru,"/ru/blog/skolko-stoit-multiyazychnyi-sait",,"Сколько стоит мультиязычный сайт: из чего складывается цена",
+no-h1,en,"/blog/discovered-currently-not-indexed-new-site-data",,"""Discovered — currently not indexed"": 28 days of tatsianabandziuk.com in Search Console",
+no-h1,pl,"/pl/blog/ile-trwa-indeksowanie-nowej-strony-dane",,"Ile trwa indeksowanie nowej strony: 28 dni tatsianabandziuk.com w raportach Search Console",
+no-h1,ru,"/ru/blog/skolko-dlitsya-indeksaciya-novogo-sayta",,"Сколько длится индексация нового сайта: 28 дней tatsianabandziuk.com в отчётах Search Console",
+no-h1,en,"/blog/website-not-showing-in-google",,"Website Not Showing in Google: Finding the Cause and Fixing It",
+no-h1,pl,"/pl/blog/strona-nie-pojawia-sie-w-google",,"Strona nie pojawia się w Google: jak znaleźć przyczynę i co zrobić",
+no-h1,ru,"/ru/blog/saita-net-v-poiske-google",,"Сайта нет в поиске Google: как найти причину и что делать",
+no-h1,en,"/blog/what-to-build-a-business-website-on",,"What to Build a Business Website On: WordPress or a Modern Framework",
+no-h1,pl,"/pl/blog/na-czym-zbudowac-strone-firmowa",,"Na czym zbudować stronę firmową: WordPress czy nowoczesny framework",
+no-h1,ru,"/ru/blog/na-chem-delat-sait-biznesu",,"На чём делать сайт бизнесу: WordPress или современный фреймворк",
+no-h1,en,"/blog/what-a-psychologist-website-needs",,"What a Psychologist Website Needs: A Section-by-Section Breakdown",
+no-h1,pl,"/pl/blog/co-powinno-byc-na-stronie-psychologa",,"Co powinno być na stronie psychologa: rozbiór sekcja po sekcji",
+no-h1,ru,"/ru/blog/chto-dolzhno-byt-na-saite-psihologa",,"Что должно быть на сайте психолога: разбор по разделам",
+no-h1,en,"/blog/psychologist-website-cost",,"How Much a Website for a Psychologist or Therapist Costs: A Complete Pricing Guide",
+no-h1,pl,"/pl/blog/ile-kosztuje-strona-dla-psychologa",,"Ile kosztuje strona dla psychologa i psychoterapeuty: kompletny przewodnik po cenie",
+no-h1,ru,"/ru/blog/skolko-stoit-sait-psihologa",,"Сколько стоит сайт для психолога и психотерапевта: полное руководство по цене",
+no-h1,en,"/blog/what-a-real-estate-agency-website-needs",,"What a Real Estate Agency Website Needs: A Checklist",
+no-h1,pl,"/pl/blog/co-powinno-byc-na-stronie-biura-nieruchomosci",,"Co powinno być na stronie biura nieruchomości: checklista",
+no-h1,ru,"/ru/blog/chto-dolzhno-byt-na-saite-agentstva-nedvizhimosti",,"Что должно быть на сайте агентства недвижимости: чек-лист",
+no-h1,en,"/blog/website-redesign-without-losing-traffic",,"Website Redesign Without Losing Traffic: What to Check Before, During and After",
+no-h1,pl,"/pl/blog/redesign-strony-bez-utraty-ruchu",,"Redesign strony bez utraty ruchu: co sprawdzić przed, w trakcie i po",
+no-h1,ru,"/ru/blog/redizayn-sayta-bez-poteri-trafika",,"Редизайн сайта без потери трафика: что проверить до, во время и после",
+no-h1,en,"/blog/how-much-seo-costs",,"How Much SEO Costs: A Complete Pricing Guide",
+no-h1,pl,"/pl/blog/ile-kosztuje-pozycjonowanie-strony",,"Ile kosztuje SEO: kompletny przewodnik po cenach",
+no-h1,ru,"/ru/blog/skolko-stoit-prodvizhenie-saita",,"Сколько стоит продвижение сайта: полное руководство по ценам на SEO",
+no-h1,en,"/blog/sitemap-lastmod",,"Sitemap lastmod: why Google stops re-reading your sitemap and how to fix it",
+no-h1,pl,"/pl/blog/lastmod-w-mapie-witryny",,"lastmod w mapie witryny: dlaczego Google przestaje ją czytać i jak to naprawić",
+no-h1,ru,"/ru/blog/lastmod-v-karte-saita",,"lastmod в карте сайта: почему Google перестаёт её перечитывать и как это исправить",
+no-h1,en,"/blog/why-is-my-website-slow",,"Why Is My Website Slow: What to Do and Where to Start",
+no-h1,pl,"/pl/blog/wolno-ladujaca-sie-strona",,"Wolno ładująca się strona: co zrobić i od czego zacząć",
+no-h1,ru,"/ru/blog/sait-medlenno-zagruzhaetsya",,"Сайт медленно загружается: что делать и с чего начать",
+no-h1,en,"/blog/small-business-seo",,"Small Business SEO: A Step-by-Step Guide You Can Do Yourself",
+no-h1,pl,"/pl/blog/jak-samemu-zrobic-seo",,"Jak samemu zrobić SEO: przewodnik krok po kroku dla właściciela małej firmy",
+no-h1,ru,"/ru/blog/kak-samomu-prodvigat-sait",,"Как самому продвигать сайт: пошаговое руководство для небольшого бизнеса",
+no-h1,en,"/blog/small-business-website-cost",,"How Much a Small Business Website Costs: Real Prices, Hidden Costs and What Drives Them",
+no-h1,pl,"/pl/blog/ile-kosztuje-strona-internetowa-dla-firmy",,"Ile kosztuje strona internetowa dla firmy: realne ceny, ukryte koszty i co je podnosi",
+no-h1,ru,"/ru/blog/skolko-stoit-sozdanie-saita",,"Сколько стоит создание сайта: реальные цены, скрытые расходы и что их поднимает",
+no-h1,en,"/blog/how-vibecoding-almost-killed-a-website",,"How I Rescued a Site That Uncontrolled Vibecoding Almost Killed",
+no-h1,pl,"/pl/blog/jak-vibecoding-prawie-zabil-strone",,"Jak uratowałem stronę, którą niemal zabił niekontrolowany vibecoding",
+no-h1,ru,"/ru/blog/kak-vaibkoding-pochti-ubil-sait",,"Как я спас сайт, который почти убил бесконтрольный вайбкодинг",
+no-h1,en,"/blog/how-long-does-it-take-to-build-a-website",,"How Long It Takes to Build a Website: Realistic Stage-by-Stage Timelines",
+no-h1,pl,"/pl/blog/ile-trwa-stworzenie-strony-internetowej",,"Ile trwa stworzenie strony internetowej: realne terminy według etapów",
+no-h1,ru,"/ru/blog/skolko-vremeni-zanimaet-razrabotka-saita",,"Сколько времени занимает разработка сайта: реальные сроки по этапам",
+no-h1,en,"/blog/why-my-website-gets-no-leads",,"Why My Website Gets No Leads: A Step-by-Step Diagnosis",
+no-h1,pl,"/pl/blog/dlaczego-strona-nie-generuje-zapytan",,"Dlaczego strona nie generuje zapytań: diagnoza krok po kroku",
+no-h1,ru,"/ru/blog/pochemu-sait-ne-prinosit-zayavok",,"Почему сайт не приносит заявок: диагностика по шагам",
+no-h1,en,"/blog/what-is-answer-engine-optimization",,"What Is Answer Engine Optimization (AEO)? Meaning, How Answers Are Chosen and How to Do It",
+no-h1,pl,"/pl/blog/aeo-answer-engine-optimization",,"AEO (answer engine optimization): czym jest, jak Google i AI wybierają odpowiedź i jak to robić krok po kroku",
+no-h1,ru,"/ru/blog/chto-takoe-aeo",,"Что такое AEO: оптимизация под ответы поисковиков и нейросетей — значение, как выбирают ответ и как это делать",
+no-h1,en,"/blog/what-is-generative-engine-optimization",,"What Is Generative Engine Optimization (GEO)? Definition, How AI Engines Choose Sources and What Works",
+no-h1,pl,"/pl/blog/geo-co-to-jest",,"GEO (generative engine optimization): co to jest, jak AI wybiera źródła i co naprawdę działa",
+no-h1,ru,"/ru/blog/chto-takoe-geo",,"Что такое GEO: генеративная оптимизация под нейросети — определение, откуда ИИ берёт источники и что работает",
+no-h1,pl,"/pl/kontakt",,"Kontakt",
+no-h1,pl,"/pl/seo-dla-nieruchomosci-na-cyprze",,"SEO dla stron nieruchomości na Cyprze",
+no-h1,en,"/blog/ai-response-risks",,"AI Response Risks: How AI Can Misrepresent Your Brand and How to Protect It",
+no-h1,ru,"/ru/seo-dlya-nedvizhimosti-na-kipre",,"SEO для продвижения недвижимости на Кипре",
+no-h1,ru,"/ru/blog/zachem-advokatu-sait",,"Зачем адвокату сайт и как он помогает привлекать клиентов",
+no-h1,pl,"/pl/blog/dlaczego-prawnikowi-potrzebna-strona-www",,"Dlaczego prawnikowi potrzebna jest strona internetowa — pełny przewodnik",
+no-h1,ru,"/ru/kontakty",,"Контакты",
+no-h1,en,"/website-development-for-beauty-professionals",,"Website Development for Beauty Professionals That Attracts and Converts",
+no-h1,ru,"/ru/uslugi/razrabotka-lendingov",,"Разработка кастомных посадочных страниц",
+no-h1,en,"/blog/website-development-cost-in-cyprus",,"How Much Does Website Development Cost in Cyprus in 2026?",
+no-h1,pl,"/pl/blog/jak-rozpoznac-kiepskiego-specjaliste-seo",,"Jak rozpoznać kiepskiego specjalistę SEO",
+no-h1,pl,"/pl/blog/jak-zautomatyzowalem-tworzenie-stron-w-cms",,"Jak zautomatyzowałem tworzenie stron w CMS i obniżyłem koszty produkcji treści o 75%",
+no-h1,ru,"/ru/blog/kak-ya-avtomatiziroval-sozdanie-stranic-v-cms",,"Как я автоматизировал создание страниц в CMS и сократил затраты на производство контента на 75%",
+no-h1,ru,"/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty",,"Создание сайта для салона красоты",
+no-h1,pl,"/pl/cennik",,"Ceny SEO i stron internetowych — bez ściemy i ukrytych kosztów",
+no-h1,en,"/services/landing-page-development",,"Landing Page Development",
+no-h1,ru,"/ru/uslugi/integraciya-cms-i-api",,"Интеграция CMS и API",
+no-h1,en,"/services/ai-brand-monitoring",,"AI brand monitoring",
+no-h1,pl,"/pl/oferty/monitoring-marki-w-ai",,"Monitoring marki w odpowiedziach AI",
+no-h1,ru,"/ru/uslugi/monitoring-brenda-v-ii",,"Мониторинг упоминаний бренда в ИИ-ответах",
+no-h1,pl,"/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai",,"Przygotowanie strony do wyszukiwania AI",
+no-h1,ru,"/ru/uslugi/podgotovka-saita-k-ii-poisku",,"Подготовка сайта к ИИ-поиску",
+no-h1,en,"/services/ai-visibility-audit",,"AI visibility audit",
+no-h1,pl,"/pl/oferty/audyt-widocznosci-w-ai",,"Audyt widoczności w wyszukiwaniu AI",
+no-h1,ru,"/ru/uslugi/audit-vidimosti-v-ii-poiske",,"Аудит видимости в ИИ-поиске",
+no-h1,en,"/services/international-seo",,"International and multilingual SEO",
+no-h1,pl,"/pl/oferty/seo-miedzynarodowe",,"SEO międzynarodowe i wielojęzyczne",
+no-h1,ru,"/ru/uslugi/mezhdunarodnoe-seo",,"Международное и мультиязычное SEO",
+no-h1,en,"/services/local-seo-services",,"Local SEO for businesses with an address",
+no-h1,pl,"/pl/oferty/pozycjonowanie-lokalne",,"Pozycjonowanie lokalne dla firm z adresem",
+no-h1,ru,"/ru/uslugi/lokalnoe-seo-prodvizhenie",,"Локальное SEO для бизнеса с адресом",
+no-h1,en,"/services/traffic-drop-recovery",,"Traffic drop recovery",
+no-h1,pl,"/pl/oferty/odzyskanie-pozycji-po-spadku-ruchu",,"Odzyskanie pozycji po spadku ruchu",
+no-h1,ru,"/ru/uslugi/vosstanovlenie-pozitsiy-posle-padeniya-trafika",,"Восстановление позиций после падения трафика",
+no-h1,en,"/accounting-firm-website",,"Accounting firm website development",
+no-h1,ru,"/ru/sait-dlya-buhgalterskoy-firmy",,"Разработка сайта для бухгалтерской фирмы",
+no-h1,en,"/services/answer-engine-optimization-services",,"Answer Engine Optimization (AEO) Services",
+no-h1,en,"/architecture-studio-website",,"Architecture studio website development",
+no-h1,pl,"/pl/strona-dla-biura-architektonicznego",,"Tworzenie strony dla biura architektonicznego",
+no-h1,ru,"/ru/sait-dlya-arhitekturnogo-byuro",,"Разработка сайта для архитектурного бюро",
+no-h1,en,"/catalog-website-with-filters",,"Catalogue website development",
+no-h1,pl,"/pl/strona-katalogowa-z-filtrami",,"Tworzenie strony katalogowej z filtrami",
+no-h1,ru,"/ru/sait-katalog-s-filtrami",,"Разработка сайта-каталога с фильтрами",
+no-h1,en,"/cleaning-company-website",,"Cleaning company website development",
+no-h1,pl,"/pl/strona-dla-firmy-sprzatajacej",,"Tworzenie strony dla firmy sprzątającej",
+no-h1,ru,"/ru/sait-dlya-kliningovoy-kompanii",,"Разработка сайта для клининговой компании",
+no-h1,en,"/dental-clinic-website",,"Dental clinic website development",
+no-h1,pl,"/pl/strona-dla-gabinetu-stomatologicznego",,"Tworzenie strony dla gabinetu stomatologicznego",
+no-h1,ru,"/ru/sait-dlya-stomatologicheskoy-kliniki",,"Разработка сайта для стоматологической клиники",
+no-h1,en,"/services/ecommerce-seo-services",,"Ecommerce SEO Services",
+no-h1,pl,"/pl/oferty/pozycjonowanie-sklepow-internetowych",,"Pozycjonowanie sklepów internetowych",
+no-h1,ru,"/ru/uslugi/prodvizhenie-internet-magazina",,"Продвижение интернет-магазина",
+no-h1,en,"/fitness-studio-website",,"Fitness studio website development",
+no-h1,pl,"/pl/strona-dla-studia-fitness",,"Tworzenie strony dla studia fitness",
+no-h1,ru,"/ru/sait-dlya-fitnes-studii",,"Разработка сайта для фитнес-студии",
+no-h1,en,"/services/locations/website-development-georgia",,"Website development for companies in Georgia",
+no-h1,ru,"/ru/uslugi/lokacii/razrabotka-saitov-gruziya",,"Разработка сайтов для компаний в Грузии",
+no-h1,en,"/locations/seo-for-german-market/seo-for-car-exporters-germany",,"SEO for car exporters and dealers in Germany",
+no-h1,ru,"/ru/lokacii/prodvizhenie-na-nemetskiy-rynok/prodvizhenie-saitov-avtoeksporta-germaniya",,"Продвижение и раскрутка сайтов автоэкспорта в Германии",
+no-h1,ru,"/ru/sait-dlya-otelya",,"Разработка сайта для отеля",
+no-h1,en,"/language-school-website",,"Language school website development",
+no-h1,pl,"/pl/strona-dla-szkoly-jezykowej",,"Tworzenie strony dla szkoły językowej",
+no-h1,ru,"/ru/sait-dlya-yazykovoy-shkoly",,"Разработка сайта для языковой школы",
+no-h1,en,"/services/seo-for-lingerie-manufacturers",,"SEO for lingerie manufacturers",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-producenta-bielizny",,"Pozycjonowanie strony producenta bielizny",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-proizvoditelya-nizhnego-belya",,"Продвижение сайта производителя нижнего белья",
+no-h1,en,"/services/website-development-for-lingerie-manufacturers",,"Website development for lingerie manufacturers",
+no-h1,pl,"/pl/oferty/strona-internetowa-dla-producenta-bielizny",,"Strona internetowa dla producenta bielizny",
+no-h1,ru,"/ru/uslugi/sozdanie-saita-dlya-proizvoditelya-nizhnego-belya",,"Создание сайта для производителя нижнего белья",
+no-h1,en,"/services/locations",,"Locations and markets",
+no-h1,pl,"/pl/oferty/lokalizacje",,"Lokalizacje i rynki",
+no-h1,ru,"/ru/uslugi/lokacii",,"Рынки и страны",
+no-h1,en,"/logistics-company-website",,"Transport company website development",
+no-h1,ru,"/ru/sait-dlya-transportnoy-kompanii",,"Разработка сайта для транспортной компании",
+no-h1,en,"/manufacturing-company-website",,"Manufacturing company website development",
+no-h1,pl,"/pl/strona-dla-firmy-produkcyjnej",,"Tworzenie strony dla firmy produkcyjnej",
+no-h1,ru,"/ru/sait-dlya-proizvodstvennoy-kompanii",,"Разработка сайта для производственной компании",
+no-h1,pl,"/pl/oferty/pozycjonowanie-kliniki-na-pacjentow-z-niemiec",,"Pozycjonowanie kliniki na pacjentów z Niemiec",
+no-h1,en,"/services/seo-for-polish-clinics-targeting-german-patients",,"SEO for Polish clinics targeting German patients",
+no-h1,ru,"/ru/uslugi/prodvizhenie-kliniki-v-polshe-na-nemeckih-pacientov",,"Продвижение и раскрутка клиники в Польше на немецких пациентов",
+no-h1,en,"/services/locations/website-development-montenegro",,"Website development for businesses in Montenegro",
+no-h1,ru,"/ru/uslugi/lokacii/razrabotka-saitov-chernogoriya",,"Разработка сайтов для бизнеса в Черногории",
+no-h1,en,"/services/multilingual-website-development",,"Multilingual website development",
+no-h1,pl,"/pl/oferty/tworzenie-stron-wielojezycznych",,"Tworzenie strony wielojęzycznej",
+no-h1,ru,"/ru/uslugi/razrabotka-multiyazychnogo-saita",,"Разработка мультиязычного сайта",
+no-h1,en,"/website-with-online-booking",,"Website development with online booking",
+no-h1,pl,"/pl/strona-z-rezerwacja-online",,"Tworzenie strony z rezerwacją online",
+no-h1,ru,"/ru/sait-s-onlain-zapisyu",,"Разработка сайта с онлайн-записью",
+no-h1,en,"/photographer-website",,"Photographer website development",
+no-h1,pl,"/pl/strona-dla-fotografa",,"Tworzenie strony dla fotografa",
+no-h1,ru,"/ru/sait-dlya-fotografa",,"Разработка сайта для фотографа",
+no-h1,en,"/website-platform-migration",,"Website migration to a new platform",
+no-h1,pl,"/pl/migracja-strony-na-inna-platforme",,"Migracja strony na inną platformę",
+no-h1,ru,"/ru/perenos-saita-na-druguyu-platformu",,"Перенос сайта на другую платформу",
+no-h1,en,"/services/locations/website-development-portugal",,"Website development for businesses in Portugal",
+no-h1,ru,"/ru/uslugi/lokacii/razrabotka-saitov-portugaliya",,"Разработка сайтов для бизнеса в Португалии",
+no-h1,pl,"/pl/oferty/pozycjonowanie-stron-warszawa",,"Pozycjonowanie stron w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saitov-varshava",,"Продвижение сайтов в Варшаве",
+no-h1,en,"/recruitment-agency-website",,"Recruitment agency website development",
+no-h1,pl,"/pl/strona-dla-agencji-rekrutacyjnej",,"Tworzenie strony dla agencji rekrutacyjnej",
+no-h1,ru,"/ru/sait-dlya-kadrovogo-agentstva",,"Разработка сайта для кадрового агентства",
+no-h1,en,"/restaurant-website",,"Restaurant website development",
+no-h1,pl,"/pl/strona-dla-restauracji",,"Tworzenie strony dla restauracji",
+no-h1,ru,"/ru/sait-dlya-restorana",,"Разработка сайта для ресторана",
+no-h1,en,"/services/locations/seo-for-australian-market",,"Website SEO and AI search for the Australian market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-australijski",,"Pozycjonowanie stron w Australii",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-avstraliyskiy-rynok",,"SEO-продвижение сайта на австралийский рынок",
+no-h1,en,"/services/locations/seo-for-baltic-markets",,"Website SEO and AI search for the Baltic markets",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",,"Pozycjonowanie stron na Litwie, Łotwie i w Estonii",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-rynki-baltii",,"SEO-продвижение сайта на рынки Балтии",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-firmy-budowlanej-warszawa",,"Pozycjonowanie strony firmy budowlanej w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-stroitelnoy-kompanii-varshava",,"Продвижение и раскрутка сайта строительной компании в Варшаве",
+no-h1,en,"/services/locations/seo-for-french-market",,"Website SEO and AI search for the French market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski",,"Pozycjonowanie stron we Francji",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok",,"Продвижение сайта во Франции",
+no-h1,en,"/services/locations/seo-for-german-market",,"Website SEO and AI search for the German market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-niemiecki",,"Pozycjonowanie stron w Niemczech",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok",,"Продвижение сайта в Германии",
+no-h1,en,"/services/locations/seo-for-irish-market",,"Website SEO and AI search for the Irish market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-irlandzki",,"Pozycjonowanie stron w Irlandii",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok",,"Продвижение сайта в Ирландии",
+no-h1,en,"/services/locations/seo-for-italian-market",,"Website SEO and AI search for the Italian market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski",,"Pozycjonowanie stron we Włoszech",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",,"Продвижение сайта в Италии",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-kancelarii-prawnej-warszawa",,"Pozycjonowanie strony kancelarii prawnej w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-yurista-varshava",,"Продвижение и раскрутка сайта юриста в Варшаве",
+no-h1,en,"/services/locations/seo-for-dutch-market",,"Website SEO and AI search for the Dutch market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-holenderski",,"Pozycjonowanie stron w Holandii",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok",,"Продвижение сайта в Нидерландах",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-przychodni-warszawa",,"Pozycjonowanie strony przychodni w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-medicinskoy-kliniki-varshava",,"Продвижение и раскрутка сайта медицинской клиники в Варшаве",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-restauracji-warszawa",,"Pozycjonowanie strony restauracji w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-restorana-varshava",,"Продвижение и раскрутка сайта ресторана в Варшаве",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-salonu-kosmetycznego-warszawa",,"Pozycjonowanie strony salonu kosmetycznego w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-salona-krasoty-varshava",,"Продвижение и раскрутка сайта салона красоты в Варшаве",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-firmy-sprzatajacej-warszawa",,"Pozycjonowanie strony firmy sprzątającej w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-kliningovoy-kompanii-varshava",,"Продвижение и раскрутка сайта клининговой компании в Варшаве",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-gabinetu-stomatologicznego-warszawa",,"Pozycjonowanie strony gabinetu stomatologicznego w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-stomatologii-varshava",,"Продвижение и раскрутка сайта стоматологии в Варшаве",
+no-h1,en,"/services/locations/seo-for-swiss-market",,"Website SEO and AI search for the Swiss market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-szwajcarski",,"Pozycjonowanie stron w Szwajcarii",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok",,"Продвижение сайта в Швейцарии",
+no-h1,en,"/services/locations/seo-for-uk-market",,"Website SEO and AI search for the UK market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-brytyjski",,"Pozycjonowanie stron w Wielkiej Brytanii",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok",,"Продвижение сайта в Великобритании",
+no-h1,en,"/services/locations/seo-for-us-market",,"Website SEO and AI search for the US market",
+no-h1,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-amerykanski",,"Pozycjonowanie stron w USA",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok",,"Продвижение сайта в США",
+no-h1,pl,"/pl/oferty/pozycjonowanie-strony-warsztatu-samochodowego-warszawa",,"Pozycjonowanie strony warsztatu samochodowego w Warszawie",
+no-h1,ru,"/ru/uslugi/prodvizhenie-saita-avtoservisa-varshava",,"Продвижение и раскрутка сайта автосервиса в Варшаве",
+no-h1,en,"/services/shopify-seo-services",,"Shopify SEO Services",
+no-h1,en,"/services/locations/website-development-spain",,"Website development for businesses in Spain",
+no-h1,en,"/services/locations/seo-for-real-estate-spain",,"SEO for real estate agencies in Spain",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-saitov-nedvizhimosti-ispaniya",,"Продвижение и раскрутка сайтов недвижимости в Испании",
+no-h1,ru,"/ru/uslugi/lokacii/razrabotka-saitov-ispaniya",,"Разработка сайтов для бизнеса в Испании",
+no-h1,en,"/startup-website",,"Startup website development",
+no-h1,pl,"/pl/strona-dla-startupu",,"Tworzenie strony dla startupu",
+no-h1,ru,"/ru/sait-dlya-startapa",,"Разработка сайта для стартапа",
+no-h1,en,"/locations/seo-for-swiss-market/seo-for-car-business-switzerland",,"SEO for car dealers and exporters in Switzerland",
+no-h1,ru,"/ru/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-avtobiznesa-shveytsariya",,"Продвижение сайтов автобизнеса в Швейцарии",
+no-h1,en,"/locations/seo-for-swiss-market/seo-for-consulting-firms-switzerland",,"SEO for consulting and professional firms in Switzerland",
+no-h1,ru,"/ru/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-konsaltinga-shveytsariya",,"Продвижение сайтов консалтинга и профуслуг в Швейцарии",
+no-h1,en,"/locations/seo-for-swiss-market/seo-for-luxury-goods-switzerland",,"SEO for Swiss watchmakers, jewellers and premium makers",
+no-h1,ru,"/ru/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-premialnyh-tovarov-shveytsariya",,"Продвижение сайтов часовых, ювелирных и премиальных мастерских Швейцарии",
+no-h1,en,"/services/technical-seo-services",,"Technical SEO services: the fixes, not another report",
+no-h1,pl,"/pl/oferty/seo-techniczne",,"SEO techniczne: poprawki w kodzie, a nie kolejny raport",
+no-h1,ru,"/ru/uslugi/tehnicheskoe-seo",,"Техническое SEO: правки в коде, а не ещё один отчёт",
+no-h1,en,"/services/locations/website-development-thailand",,"Website development for businesses in Thailand",
+no-h1,ru,"/ru/uslugi/lokacii/razrabotka-saitov-tailand",,"Разработка сайтов для бизнеса в Таиланде",
+no-h1,en,"/travel-agency-website",,"Travel agency website development",
+no-h1,ru,"/ru/sait-dlya-turagentstva",,"Разработка сайта для турагентства",
+no-h1,en,"/services/locations/website-development-uae",,"Website development for companies in the UAE",
+no-h1,en,"/services/locations/seo-for-car-exporters-uae",,"SEO for car exporters in the UAE",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-saitov-avtoeksporta-oae",,"Продвижение и раскрутка сайтов автоэкспорта в ОАЭ",
+no-h1,en,"/services/locations/seo-for-real-estate-uae",,"SEO for real estate agencies in the UAE",
+no-h1,ru,"/ru/uslugi/lokacii/prodvizhenie-saitov-nedvizhimosti-oae",,"Продвижение и раскрутка сайтов недвижимости в ОАЭ",
+no-h1,ru,"/ru/uslugi/lokacii/razrabotka-saitov-oae",,"Разработка сайтов для компаний в ОАЭ",
+no-h1,en,"/veterinary-clinic-website",,"Veterinary clinic website development",
+no-h1,pl,"/pl/strona-dla-przychodni-weterynaryjnej",,"Tworzenie strony dla przychodni weterynaryjnej",
+no-h1,ru,"/ru/sait-dlya-veterinarnoy-kliniki",,"Разработка сайта для ветеринарной клиники",
+no-h1,en,"/web-development-warsaw",,"Website development in Warsaw",
+no-h1,pl,"/pl/tworzenie-stron-internetowych-warszawa",,"Tworzenie stron internetowych w Warszawie",
+no-h1,ru,"/ru/razrabotka-saitov-varshava",,"Разработка сайтов в Варшаве",
+no-h1,en,"/services/website-maintenance-services",,"Website maintenance and support, by the developer who built it",
+no-h1,pl,"/pl/oferty/utrzymanie-strony-internetowej",,"Utrzymanie i opieka nad stroną internetową",
+no-h1,ru,"/ru/uslugi/podderzhka-saita",,"Поддержка и сопровождение сайта разработчиком",
+no-h1,en,"/services/website-redesign-services",,"Website redesign services that keep your rankings",
+no-h1,pl,"/pl/oferty/przebudowa-strony-internetowej",,"Przebudowa strony internetowej bez utraty pozycji",
+no-h1,ru,"/ru/uslugi/redizayn-sayta",,"Редизайн сайта без потери позиций",
+h1-eq-metatitle,en,"/services/website-performance-and-code-audit",,"Website Performance Optimization & Code Audit",
+h1-eq-metatitle,ru,"/ru/politika-konfidencialnosti",,"Политика конфиденциальности",
+h1-eq-metatitle,pl,"/pl/polityka-prywatnosci",,"Polityka prywatności",
+h1-eq-metatitle,en,"/privacy-policy",,"Privacy Policy",
+h1-eq-metatitle,en,"/blog/how-to-check-what-ai-says-about-your-company",,"How to Check What AI Assistants Say About Your Company",
+h1-eq-metatitle,pl,"/pl/blog/co-asystenci-ai-mowia-o-twojej-firmie",,"Co asystenci AI mówią o Twojej firmie: jak to sprawdzić",
+h1-eq-metatitle,ru,"/ru/blog/chto-ii-assistenty-govoryat-o-vashey-kompanii",,"Что ИИ-ассистенты говорят о вашей компании: аудит",
+h1-eq-metatitle,en,"/blog/how-to-monitor-brand-mentions-in-ai-answers",,"How to Monitor Brand Mentions in AI Answers",
+h1-eq-metatitle,pl,"/pl/blog/monitoring-wzmianek-o-marce-w-odpowiedziach-ai",,"Monitoring wzmianek o marce w odpowiedziach AI: jak go prowadzić",
+h1-eq-metatitle,en,"/blog/when-ai-describes-your-company-as-unreliable",,"When AI Describes Your Company as Unreliable",
+h1-eq-metatitle,pl,"/pl/blog/gdy-ai-opisuje-wasza-firme-jako-niewiarygodna",,"Gdy AI opisuje Waszą firmę jako niewiarygodną",
+h1-eq-metatitle,ru,"/ru/blog/esli-ii-opisyvaet-kompaniyu-kak-nenadyozhnuyu",,"Если ИИ описывает вашу компанию как ненадёжную",
+h1-eq-metatitle,en,"/blog/how-ai-answers-distort-your-marketing-message",,"How AI Answers Distort Your Marketing Message",
+h1-eq-metatitle,pl,"/pl/blog/jak-odpowiedzi-ai-znieksztalcaja-przekaz-marketingowy",,"Jak odpowiedzi AI zniekształcają Wasz przekaz marketingowy",
+h1-eq-metatitle,ru,"/ru/blog/kak-ii-otvety-iskazhayut-marketingovoe-soobshchenie",,"Как ИИ-ответы искажают ваше маркетинговое сообщение",
+h1-eq-metatitle,en,"/blog/when-ai-attributes-your-features-to-a-competitor",,"When AI Attributes Your Features to a Competitor",
+h1-eq-metatitle,en,"/blog/where-ai-gets-outdated-information-about-your-company",,"Where AI Gets Outdated Information About Your Company",
+h1-eq-metatitle,pl,"/pl/blog/skad-ai-bierze-nieaktualne-informacje-o-firmie",,"Skąd AI bierze nieaktualne informacje o Twojej firmie",
+h1-eq-metatitle,ru,"/ru/blog/otkuda-ii-beryot-ustarevshie-svedeniya-o-kompanii",,"Откуда ИИ берёт устаревшие сведения о вашей компании",
+h1-eq-metatitle,en,"/blog/black-and-gold-web-design-no-longer-reads-expensive",,"Black and Gold Web Design No Longer Reads as Expensive",
+h1-eq-metatitle,pl,"/pl/blog/czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi",,"Czarno-złoty projekt strony nie czyta się już jako drogi",
+h1-eq-metatitle,ru,"/ru/blog/chernyy-s-zolotom-dizayn-sayta-ne-chitaetsya-kak-dorogo",,"Дизайн сайта в чёрном с золотом больше не читается как дорого",
+h1-eq-metatitle,en,"/blog/why-lingerie-brands-lose-to-their-retailers",,"Why a Lingerie Brand Loses in Search to Its Own Retailers",
+h1-eq-metatitle,pl,"/pl/blog/jak-trafic-do-rekomendacji-chatgpt",,"Jak trafić do rekomendacji ChatGPT: checklista dla firm",
+h1-eq-metatitle,ru,"/ru/blog/kak-popast-v-rekomendacii-chatgpt",,"Как попасть в рекомендации ChatGPT: чек-лист для бизнеса",
+h1-eq-metatitle,pl,"/pl/blog/freelancer-czy-agencja",,"Freelancer czy agencja: komu zlecić stronę internetową",
+h1-eq-metatitle,pl,"/pl/blog/czy-strona-potrzebuje-pliku-llms-txt",,"Czy Twoja strona potrzebuje pliku llms.txt? Uczciwa odpowiedź",
+h1-eq-metatitle,pl,"/pl/blog/ile-kosztuje-strona-wielojezyczna",,"Ile kosztuje strona wielojęzyczna: z czego składa się cena",
+h1-eq-metatitle,en,"/blog/how-much-seo-costs",,"How Much SEO Costs: A Complete Pricing Guide",
+h1-eq-metatitle,pl,"/pl/blog/dlaczego-strona-nie-generuje-zapytan",,"Dlaczego strona nie generuje zapytań: diagnoza krok po kroku",
+h1-eq-metatitle,en,"/blog/ai-response-risks",,"AI Response Risks: How AI Can Misrepresent Your Brand and How to Protect It",
+h1-eq-metatitle,ru,"/ru/lokacii/prodvizhenie-na-nemetskiy-rynok/prodvizhenie-saitov-avtoeksporta-germaniya",,"Продвижение и раскрутка сайтов автоэкспорта в Германии",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-kliniki-v-polshe-na-nemeckih-pacientov",,"Продвижение и раскрутка клиники в Польше на немецких пациентов",
+h1-eq-metatitle,pl,"/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",,"Pozycjonowanie stron na Litwie, Łotwie i w Estonii",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-saita-stroitelnoy-kompanii-varshava",,"Продвижение и раскрутка сайта строительной компании в Варшаве",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-saita-yurista-varshava",,"Продвижение и раскрутка сайта юриста в Варшаве",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-saita-medicinskoy-kliniki-varshava",,"Продвижение и раскрутка сайта медицинской клиники в Варшаве",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-saita-restorana-varshava",,"Продвижение и раскрутка сайта ресторана в Варшаве",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-saita-salona-krasoty-varshava",,"Продвижение и раскрутка сайта салона красоты в Варшаве",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-saita-kliningovoy-kompanii-varshava",,"Продвижение и раскрутка сайта клининговой компании в Варшаве",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-saita-stomatologii-varshava",,"Продвижение и раскрутка сайта стоматологии в Варшаве",
+h1-eq-metatitle,ru,"/ru/uslugi/prodvizhenie-saita-avtoservisa-varshava",,"Продвижение и раскрутка сайта автосервиса в Варшаве",
+h1-eq-metatitle,ru,"/ru/uslugi/lokacii/prodvizhenie-saitov-nedvizhimosti-ispaniya",,"Продвижение и раскрутка сайтов недвижимости в Испании",
+h1-eq-metatitle,ru,"/ru/uslugi/lokacii/prodvizhenie-saitov-avtoeksporta-oae",,"Продвижение и раскрутка сайтов автоэкспорта в ОАЭ",
+h1-eq-metatitle,ru,"/ru/uslugi/lokacii/prodvizhenie-saitov-nedvizhimosti-oae",,"Продвижение и раскрутка сайтов недвижимости в ОАЭ",
+h1-eq-metatitle,ru,"/ru/uslugi/podderzhka-saita",,"Поддержка и сопровождение сайта разработчиком",
+h1-eq-metatitle,pl,"/pl/oferty/przebudowa-strony-internetowej",,"Przebudowa strony internetowej bez utraty pozycji",
+label,ru,"/ru/uslugi/seo-audit-saita",h3,"Техническое SEO","скорость загрузки и производительность сайта"
+label,ru,"/ru/uslugi/seo-audit-saita",h3,"Структуру и контент","логику структуры страниц"
+label,ru,"/ru/uslugi/seo-audit-saita",h3,"Конкурентов","что делают конкуренты"
+label,ru,"/ru/uslugi/seo-audit-saita",h2,"Сколько стоит SEO-аудит?","SEO-аудит сайта:"
+label,en,"/services/seo-audit",h3,"Technical SEO","website speed and performance"
+label,en,"/services/seo-audit",h3,"Structure & content","page structure and information architecture"
+label,en,"/services/seo-audit",h3,"Competitor analysis","what competitors are doing better"
+label,en,"/services/seo-audit",h2,"Frequently asked questions","The audit covers the sitemap too, and its most common fault has its own write-up: what happens to lastmod in a sitemap."
+label,en,"/pricing",h3,"Full project management","Price:"
+label,en,"/pricing",h3,"One-time SEO services","Price:"
+label,en,"/pricing",h3,"Simple landing page","Price:"
+label,en,"/pricing",h2,"Frequently asked questions","Yes — often this is the smartest first step."
+label,ru,"/ru/uslugi/ai-seo-i-geo-optimizaciya",h3,"Цены","От 250 € за разовый аудит и 250 € в месяц за постоянный мониторинг; проектная работа — например, подготовка сайта к тому, чтобы он был читаем для ИИ-поиска, — н"
+label,en,"/blog/real-estate-website-cyprus-case-study",h3,"Platform Scale","The platform was built with scalability in mind:"
+label,pl,"/pl/oferty/tworzenie-landing-page",h2,"Proces współpracy","Analiza i cel — definiujemy grupę docelową i główny cel konwersji."
+label,ru,"/ru/blog/sait-agentstva-nedvizhimosti-kipr-keis",h3,"Масштаб платформы","Каждый объект был структурирован и оптимизирован. Каждый язык имел отдельную архитектуру."
+label,en,"/seo-for-real-estate-in-cyprus",h2,"FAQ","No honest specialist can guarantee a specific Google position. What I can confidently guarantee is a structured approach, complete responsibility, and consisten"
+label,pl,"/pl/oferty/ai-seo-and-geo-optymalizacja",h3,"Ceny","Od 1000 zł za jednorazowy audyt i 1000 zł miesięcznie za stały monitoring; praca projektowa — na przykład przygotowanie strony, żeby była czytelna dla wyszukiwa"
+label,en,"/website-development-for-beauty-professionals/beauty-salon-website",h2,"Frequently Asked Questions","A standard beauty salon website takes 2–3 weeks, including design, booking integration and SEO setup. More complex projects (multi-language, CRM integration) ma"
+label,en,"/website-development-for-beauty-professionals/beauty-salon-website",h2,"Conclusion","A well-built beauty salon website is your digital receptionist — it welcomes clients, books appointments and promotes your brand 24/7. I’ll create a website tha"
+label,ru,"/ru/sozdanie-saitov-dlya-byuti-uslug",h2,"Часто задаваемые вопросы","Соцсети хороши для визуала, но они не индексируются поисковыми системами.
+Сайт даёт вам:"
+label,ru,"/ru/sozdanie-saitov-dlya-byuti-uslug",h2,"Главные принципы разработки","При разработке я придерживаюсь трёх ключевых принципов:"
+label,ru,"/ru/seo-prodvizhenie-avtoservisa",h3,"Подходит","сервисам с постоянным набором услуг и своим адресом;"
+label,ru,"/ru/seo-prodvizhenie-avtoservisa",h3,"Не подходит","разовым и временным проектам;"
+label,en,"/services/seo-optimization-and-strategy",h2,"Real Optimization Examples","Practical improvements often start small — but add up fast:"
+label,en,"/services/seo-optimization-and-strategy",h2,"My SEO Process","Audit & Discovery — I review your current SEO status, competitors, and site performance."
+label,ru,"/ru/obo-mne",h3,"3. Международный опыт.","Русский, английский и польский, SEO под каждую страну — для бизнеса в Европе, Великобритании, США, Израиле и СНГ."
+label,ru,"/ru/obo-mne",h3,"6. Долгосрочное сотрудничество.","Большинство клиентов остаются на сопровождении и возвращаются с новыми задачами."
+label,pl,"/pl/seo-dla-warsztatu-samochodowego",h3,"Ma sens","warsztatom ze stałym zakresem usług i własnym adresem;"
+label,pl,"/pl/seo-dla-warsztatu-samochodowego",h3,"Nie ma sensu","działalności jednorazowej lub tymczasowej;"
+label,en,"/seo-for-beauty-salons",h2,"Frequently Asked Questions","Initial visibility improvements often appear within 8–12 weeks. Sustainable growth typically develops over 3–6 months depending on competition and website condi"
+label,en,"/seo-for-beauty-salons",h2,"Service-Based SEO Architecture","Instead of a single “Services” page, high-performing salon websites use:"
+label,ru,"/ru/blog/riski-ai-otvetov",h3,"4. Инструменты fact-checking","Инструменты проверки фактов помогают не только журналистам — они позволяют отслеживать, какие источники AI считает достоверными."
+label,ru,"/ru/blog/riski-ai-otvetov",h3,"1. Техническая защита","Добавьте микроразметку Organization, Person, Product, FAQ, Article. Это помогает AI точно понимать:"
+label,ru,"/ru/blog/riski-ai-otvetov",h3,"2. Контентная защита","Это страницы, которые AI должен учитывать как приоритетные источники:"
+label,ru,"/ru/blog/riski-ai-otvetov",h2,"Часто задаваемые вопросы","Да. Генеративные модели не проверяют факты, а формируют ответ по вероятностным шаблонам. Если кто-то опубликовал неточную статью, AI может использовать её как и"
+label,pl,"/pl/blog/ryzyka-odpowiedzi-ai",h3,"2. Ochrona treści","Publikuj treści, które są:"
+label,pl,"/pl/blog/ryzyka-odpowiedzi-ai",h2,"Najczęściej zadawane pytania","Tak. Algorytmy nie weryfikują faktów — generują odpowiedzi na podstawie wzorców językowych i dostępnych danych. Jeżeli źródła online zawierają błędne informacje"
+label,ru,"/ru/politika-konfidencialnosti",h2,"1. Основная информация","Владелец и администратор сайта:"
+label,ru,"/ru/politika-konfidencialnosti",h2,"2. Cookies","Сайт использует cookies-файлы для:"
+label,ru,"/ru/politika-konfidencialnosti",h2,"6. Заключительные положения","Предоставление любых данных на этом сайте является добровольным."
+label,pl,"/pl/polityka-prywatnosci",h2,"1. Informacje podstawowe","Administratorem danych osobowych jest:"
+label,pl,"/pl/polityka-prywatnosci",h2,"2. Pliki cookies","Strona wykorzystuje pliki cookies w celu:"
+label,pl,"/pl/polityka-prywatnosci",h2,"3. Przetwarzanie danych","Dane są przetwarzane wyłącznie w zakresie niezbędnym do realizacji kontaktu z użytkownikiem."
+label,pl,"/pl/polityka-prywatnosci",h2,"5. Kontakt","W przypadku pytań dotyczących polityki prywatności, skontaktuj się przez e-mail: info@bandziuk.com."
+label,pl,"/pl/seo-salonu-kosmetycznego",h2,"Najczęściej zadawane pytania","Pozycjonowanie dla firm usługowych kosztuje od 3500 zł miesięcznie. Można zacząć od audytu SEO od 1000 zł: pokaże, co dziś blokuje stronę i czy stała współpraca"
+label,en,"/privacy-policy",h2,"1. General Information","Aliaksandr Bandziuk, sole proprietor (JDG) registered in Poland
+Business name: Aliaksandr Bandziuk
+NIP (Tax ID): 9512630588
+REGON: 542809213
+Based in Poland (EU"
+label,en,"/privacy-policy",h2,"2. Cookies","The Website uses cookies to:"
+label,en,"/privacy-policy",h2,"3. Data Processing","1. Personal data is processed solely for communication purposes — e.g., to respond to your inquiry.
+2. No profiling, automated decision-making, or newsletter di"
+label,en,"/privacy-policy",h2,"6. Final Notes","Submitting any personal information on this Website is entirely voluntary."
+label,pl,"/pl/oferty/strategia-i-optymalizacja-seo",h2,"Przykłady działań optymalizacyjnych","Optymalizacja SEO to dziesiątki drobnych kroków, które razem dają duży efekt. W mojej pracy wygląda to tak:"
+label,ru,"/ru/seo-salona-krasoty",h3,"Запросы по услугам","студия маникюра [город/район]"
+label,en,"/contacts",h2,"Frequently Asked Questions","I work with businesses of all sizes — real estate, education, beauty, medical, SaaS, services, and e-commerce. From new websites to complete rebuilds and long-t"
+label,en,"/services/ai-ready-seo-and-geo-optimization",h3,"Prices","From €250 for a one-off audit and €250 a month for ongoing monitoring; project work — like preparing a site to be legible to AI search — starts at €800. Each se"
+label,ru,"/ru/seo-dlya-yuridicheskogo-sayta",h3,"Недвижимость и налоги","Проверка объекта перед покупкой, сопровождение сделки, налоговое резидентство, споры с налоговой — за этими запросами стоят люди и компании с конкретной суммой "
+label,en,"/blog/how-i-automated-website-page-production",h3,"Business Impact","A common concern around programmatic SEO is duplication."
+label,pl,"/pl/oferty/audyt-seo-strony-internetowej",h3,"SEO techniczne","wydajność i szybkość strony"
+label,pl,"/pl/oferty/audyt-seo-strony-internetowej",h3,"Struktura i treści","logikę struktury strony"
+label,pl,"/pl/oferty/audyt-seo-strony-internetowej",h3,"Konkurencja","co robią konkurenci"
+label,ru,"/ru/blog/kak-ponyat-chto-pered-vami-plokhoi-seo-specialist",h2,"Часто задаваемые вопросы","Первые тревожные сигналы обычно проявляются уже через 1–2 месяца.
+Если за это время вы видите только отчёты с описанием выполненных задач без данных о росте пос"
+label,en,"/seo-for-auto-repair-shop",h3,"It suits","shops with a steady service list and their own address;"
+label,ru,"/ru/blog/skolko-stoit-sozdanie-saita-na-kipre",h2,"Когда сайт окупается","Сайт окупается не «сам по себе», а за счёт:"
+label,ru,"/ru/blog/skolko-stoit-sozdanie-saita-na-kipre",h2,"Часто задаваемые вопросы","Стоимость создания сайта под ключ на Кипре начинается примерно от 900–1500 € для небольшого проекта и может достигать 4000–6000 € и выше для сложных сайтов или "
+label,pl,"/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",h2,"Często zadawane pytania","Standardowa realizacja trwa 2–3 tygodnie — od projektu po wdrożenie. W przypadku wersji wielojęzycznej lub integracji systemu rezerwacji czas może wydłużyć się "
+label,pl,"/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",h2,"Analiza i rozwój","Po uruchomieniu strony instaluję Google Analytics i Search Console, aby śledzić ruch, konwersje i źródła wizyt. Dzięki temu możesz regularnie optymalizować swoj"
+label,pl,"/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",h2,"Podsumowanie","Profesjonalna strona internetowa dla salonu kosmetycznego działa jak najlepsza recepcjonistka — przyciąga klientki, odpowiada na pytania, rezerwuje wizyty i pro"
+label,pl,"/pl/tworzenie-stron-internetowych-dla-branzy-beauty",h2,"Najczęściej zadawane pytania","Media społecznościowe pomagają w promocji, ale nie są miejscem, gdzie klienci dokonują decyzji."
+label,pl,"/pl/tworzenie-stron-internetowych-dla-branzy-beauty",h2,"Jakie strony tworzę","Specjalizuję się w stronach dla:"
+label,ru,"/ru/ceny",h3,"Полное управление проектом","Цена:"
+label,ru,"/ru/ceny",h3,"Разовые SEO-работы","Цена:"
+label,ru,"/ru/ceny",h3,"Простой landing page","Цена:"
+label,ru,"/ru/ceny",h2,"Часто задаваемые вопросы","Да. Это часто самый разумный первый шаг."
+label,en,"/blog/real-estate-agency-website-cost",h3,"Property catalog","The heart of an agency website is the catalog. It should display all available properties in a structured way: with photos, specifications, price, location and "
+label,en,"/blog/real-estate-agency-website-cost",h3,"Multilingual support","If your buyers include foreigners, the site needs language versions — with a separate SEO structure for each language so you are found in search in different la"
+label,en,"/blog/real-estate-agency-website-cost",h3,"Analytics and pixels","To understand where clients come from and which channels work, the site is equipped with analytics, goals, events and advertising pixels. This lets you see the "
+label,en,"/blog/real-estate-agency-website-cost",h2,"Summary","The cost of a real estate agency website depends on the catalog size, the set of features and how well the site is tuned to attract buyers. A basic catalog star"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-agencji-nieruchomosci",h3,"Katalog obiektów","Sercem strony agencji jest katalog. Powinien pokazywać wszystkie dostępne obiekty w uporządkowanej formie: ze zdjęciami, charakterystyką, ceną, lokalizacją i st"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-agencji-nieruchomosci",h3,"Wielojęzyczność","Jeśli wśród Twoich kupujących są obcokrajowcy, strona potrzebuje wersji językowych — z osobną strukturą SEO pod każdy język, żeby znajdowano Cię w wyszukiwarce "
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-agencji-nieruchomosci",h3,"Analityka i piksele","Żeby rozumieć, skąd przychodzą klienci i jakie kanały działają, na stronę podłącza się analitykę, cele, zdarzenia i piksele reklamowe. To pozwala widzieć realny"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-agencji-nieruchomosci",h2,"Podsumowanie","Koszt strony dla agencji nieruchomości zależy od wielkości katalogu, zestawu funkcji i tego, jak bardzo strona jest nastawiona na przyciąganie kupujących. Podst"
+label,ru,"/ru/blog/skolko-stoit-sait-agentstva-nedvizhimosti",h3,"Каталог объектов","Сердце сайта агентства — каталог. Он должен показывать все доступные объекты в структурированном виде: с фотографиями, характеристиками, ценой, локацией и стату"
+label,ru,"/ru/blog/skolko-stoit-sait-agentstva-nedvizhimosti",h3,"Мультиязычность","Если среди ваших покупателей есть иностранцы, сайту нужны языковые версии — с отдельной SEO-структурой под каждый язык, чтобы вас находили в поиске на разных яз"
+label,ru,"/ru/blog/skolko-stoit-sait-agentstva-nedvizhimosti",h3,"Аналитика и пиксели","Чтобы понимать, откуда приходят клиенты и какие каналы работают, на сайт подключают аналитику, цели, события и рекламные пиксели. Это позволяет видеть реальную "
+label,ru,"/ru/blog/skolko-stoit-sait-agentstva-nedvizhimosti",h2,"Итог","Стоимость сайта для агентства недвижимости зависит от размера каталога, набора функций и того, насколько сайт заточен под привлечение покупателей. Базовый катал"
+label,pl,"/pl/blog/pozycjonowanie-w-ai-badanie",h2,"Ograniczenia badania","Konfiguracja asystenta to nie ta, z której korzystają ludzie. Wyniki ChatGPT pochodzą z gpt-4.1-mini przez API z wyszukiwaniem w sieci. Aplikacja konsumencka to"
+label,ru,"/ru/blog/issledovanie-otvetov-ii-assistentov",h2,"Как проводилось исследование","Сорок семь промптов, написанных так, как люди говорят с ассистентом, а не так, как набирают в поисковой строке. Не «разработка сайтов Варшава», а «У меня неболь"
+label,ru,"/ru/blog/issledovanie-otvetov-ii-assistentov",h2,"Ограничения исследования","Конфигурация ассистента — не та, которой пользуются люди. Результаты ChatGPT получены на gpt-4.1-mini через API с веб-поиском. В потребительском приложении друг"
+label,pl,"/pl/blog/jak-pojawic-sie-w-chatgpt",h3,"7. Aktualizujcie strony","Pokazujcie datę ostatniej aktualizacji na stronach ze zmieniającymi się faktami i faktycznie je aktualizujcie. Zapytania fan-out z dopiskiem «2026» faworyzują s"
+label,ru,"/ru/blog/seo-dlya-chatgpt",h3,"7. Обновляйте страницы","Показывайте дату последнего обновления на страницах с меняющимися фактами и действительно их обновляйте. Fan-out запросы с «2026» отдают предпочтение страницам,"
+label,en,"/blog/property-developer-website-cost",h3,"Smart filters","Buyers and investors should not have to scroll through hundreds of objects manually. Filters by location, price, type, number of rooms and completion stage let "
+label,en,"/blog/property-developer-website-cost",h3,"CRM integration","A stream of inquiries from the site is useless if they get lost. CRM integration sets up automatic transfer of inquiries into your sales system: a lead reaches "
+label,en,"/blog/property-developer-website-cost",h3,"Multilingual support","If your buyers include foreigners, the site needs language versions. This is not just translating text — it is a separate SEO structure for each language so the"
+label,en,"/blog/property-developer-website-cost",h3,"Analytics and pixels","To understand where buyers come from and which channels work, the site is equipped with analytics, goals, events and advertising pixels. This lets you see the r"
+label,en,"/blog/property-developer-website-cost",h2,"Frequently asked questions","The cost depends on the complexity tier and the scope of the project. A basic catalog site with design, development, filters and multilingual support starts fro"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-dewelopera",h3,"Inteligentne filtry","Kupujący i inwestor nie powinni przeglądać setek obiektów ręcznie. Filtry według lokalizacji, ceny, typu, liczby pokoi, etapu realizacji pozwalają w kilka klikn"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-dewelopera",h3,"Integracja z CRM","Strumień zapytań ze strony jest bezużyteczny, jeśli się gubią. Integracja z CRM konfiguruje automatyczne przekazywanie zapytań do Twojego systemu sprzedaży: lea"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-dewelopera",h3,"Wielojęzyczność","Jeśli wśród Twoich kupujących są obcokrajowcy, strona potrzebuje wersji językowych. To nie tylko tłumaczenie tekstów — to osobna struktura SEO pod każdy język, "
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-dewelopera",h3,"Analityka i piksele","Żeby rozumieć, skąd przychodzą kupujący i jakie kanały działają, na stronę podłącza się analitykę, cele, zdarzenia i piksele reklamowe. To pozwala widzieć realn"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-dewelopera",h2,"Podsumowanie","Koszt strony dla dewelopera zależy od objętości katalogu, zestawu funkcji i tego, jak bardzo strona jest nastawiona na przyciąganie kupujących. Podstawowy katal"
+label,ru,"/ru/blog/skolko-stoit-sait-zastroishchika",h3,"Умные фильтры","Покупатель и инвестор не должны листать сотни объектов вручную. Фильтры по локации, цене, типу, количеству комнат, стадии готовности позволяют за пару кликов на"
+label,ru,"/ru/blog/skolko-stoit-sait-zastroishchika",h3,"Интеграция с CRM","Поток заявок с сайта бесполезен, если они теряются. Интеграция с CRM настраивает автоматическую передачу обращений в вашу систему продаж: лид попадает к менедже"
+label,ru,"/ru/blog/skolko-stoit-sait-zastroishchika",h3,"Мультиязычность","Если среди ваших покупателей есть иностранцы, сайту нужны языковые версии. Это не просто перевод текстов — это отдельная SEO-структура под каждый язык, чтобы са"
+label,ru,"/ru/blog/skolko-stoit-sait-zastroishchika",h3,"Аналитика и пиксели","Чтобы понимать, откуда приходят покупатели и какие каналы работают, на сайт подключают аналитику, цели, события и рекламные пиксели. Это позволяет видеть реальн"
+label,ru,"/ru/blog/skolko-stoit-sait-zastroishchika",h2,"Итог","Стоимость сайта для застройщика зависит от объёма каталога, набора функций и того, насколько сайт заточен под привлечение покупателей. Базовый каталог стартует "
+label,pl,"/pl/blog/jak-klienci-znajduja-specjalistow-przez-chatgpt",h2,"Od czego zacząć","Wyszukiwanie AI nie zniosło zwykłego. Dodało kanał o innych zasadach: krótka lista zamiast długich wyników, jasność zamiast konkurencji o słowa kluczowe. Fundam"
+label,ru,"/ru/blog/kak-klienty-nahodyat-cherez-chatgpt",h2,"Что не работает","Ключевые слова в текст. Плотность вхождений не делает факты понятнее. Текст, набитый ключами, хуже читают и люди, и машины."
+label,ru,"/ru/blog/kak-klienty-nahodyat-cherez-chatgpt",h2,"С чего начать","ИИ-поиск не отменил обычный. Он добавил канал с другими правилами: короткий список вместо длинной выдачи, ясность вместо конкуренции за ключевые слова. Фундамен"
+label,en,"/blog/geo-vs-seo",h2,"Common GEO myths","""GEO needs a separate website or special markup."" For Google's AI features it explicitly does not. For other engines, clear content and consistent facts matter "
+label,pl,"/pl/blog/geo-vs-seo-roznice",h2,"Mity o GEO","„GEO wymaga osobnej strony albo specjalnego kodu.” W przypadku funkcji AI w Google wprost nie wymaga. W innych silnikach jasna treść i spójne fakty znaczą dużo "
+label,pl,"/pl/blog/geo-vs-seo-roznice",h2,"Od czego zacząć","Jeśli zaczynacie od zera, zróbcie najpierw fundament SEO i równolegle punkt wyjścia GEO, żeby wiedzieć, co mówią o Was silniki AI, zanim cokolwiek zmienicie. Cz"
+label,ru,"/ru/blog/geo-vs-seo-raznica",h2,"Мифы о GEO","«Для GEO нужен отдельный сайт или специальный код». Для ИИ-функций Google — прямо не нужен. В других движках ясный текст и согласованные факты значат гораздо бо"
+label,ru,"/ru/blog/geo-vs-seo-raznica",h2,"С чего начать","Если вы начинаете с нуля, сначала сделайте основу SEO и параллельно исходный замер GEO, чтобы знать, что говорят о вас ИИ-движки, прежде чем что-то менять. Четы"
+label,ru,"/ru/blog/kak-vybrat-razrabotchika-saita",h2,"Как работаю я","Скажу прямо: я в этом тексте заинтересованная сторона, поэтому чек-лист выше написан так, чтобы им можно было проверить любого подрядчика, включая меня."
+label,en,"/blog/how-much-legal-seo-costs",h2,"Summary","SEO for a law firm's website costs from €250 for an audit, from €800/month for a local practice, from €1,300/month for competitive practice areas, and €3,000/mo"
+label,pl,"/pl/blog/ile-kosztuje-seo-dla-kancelarii-prawnej",h2,"Podsumowanie","Pozycjonowanie SEO strony kancelarii prawnej kosztuje od 1000 zł za audyt, od 3500 zł miesięcznie dla lokalnej praktyki, od 5500 zł miesięcznie dla konkurencyjn"
+label,ru,"/ru/blog/skolko-stoit-seo-yuristov",h2,"Итог","SEO-продвижение сайта юридической компании стоит от 250 € за аудит, от 800 € в месяц для локальной практики, от 1300 € в месяц для конкурентных направлений и 30"
+label,pl,"/pl/blog/strona-biura-obslugi-cudzoziemcow",h2,"Od czego zacząć","Jedna rzecz na początek, do zrobienia bez niczyjej pomocy: wpiszcie w Google „biuro obsługi cudzoziemców"" i „legalizacja zatrudnienia cudzoziemców"", i sprawdźci"
+label,ru,"/ru/blog/sait-agentstva-po-legalizacii",h2,"С чего начать","Одно действие, которое можно сделать прямо сейчас и без чьей-либо помощи: введите в Google «карта побыту» и «легализация в Польше» и посмотрите, сколько компани"
+label,en,"/blog/llm-seo",h2,"LLM SEO checklist","Trackers sample answers; they do not see what every user sees, especially in ChatGPT, where answers depend on memory. Log analysis is the most underused of the "
+label,en,"/blog/llm-seo",h2,"LLM SEO examples","On 23 October 2026 I asked ChatGPT, Perplexity, Gemini and Claude the same question: «what is llm seo». ChatGPT and Perplexity searched the web; Gemini and Clau"
+label,pl,"/pl/blog/pozycjonowanie-w-llm",h2,"Checklista LLM SEO","Trackery robią próbki odpowiedzi; nie widzą tego, co widzi każdy użytkownik, zwłaszcza w ChatGPT, gdzie odpowiedzi zależą od pamięci. Analiza logów jest z tych "
+label,pl,"/pl/blog/pozycjonowanie-w-llm",h2,"Przykłady LLM SEO","23 października 2026 roku zadałem ChatGPT, Perplexity, Gemini i Claude to samo pytanie: «what is llm seo». ChatGPT i Perplexity szukały w sieci; Gemini i Claude"
+label,ru,"/ru/blog/llm-seo",h2,"Чек-лист LLM SEO","Трекеры делают выборку ответов и не видят того, что видит каждый пользователь, особенно в ChatGPT, где ответы зависят от памяти. Анализ логов используют реже вс"
+label,ru,"/ru/blog/llm-seo",h2,"Примеры LLM SEO","23 октября 2026 года я задал ChatGPT, Perplexity, Gemini и Claude один и тот же вопрос: «what is llm seo». ChatGPT и Perplexity искали в интернете; Gemini и Cla"
+label,en,"/blog/psychologist-website-cost",h3,"Booking a consultation","The path from ""I've decided"" to ""I've booked"" should be as short as possible. Booking calendar integration, messenger links or a simple form — depending on how "
+label,en,"/blog/psychologist-website-cost",h3,"Blog","Articles answering real questions of potential clients (""how do I know it's time to see a psychologist,"" ""how CBT differs from psychoanalysis"") build trust and "
+label,en,"/blog/psychologist-website-cost",h2,"Summary","A psychologist's website costs from €2000 for a focused landing page and from €3500 for a multi-page site with a blog. But the numbers are half the story. What "
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-psychologa",h3,"Zapis na konsultację","Droga od „decyduję się"" do „zapisałem się"" powinna być maksymalnie krótka. Integracja kalendarza zapisów, linki do komunikatorów lub prosty formularz — w zależn"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-psychologa",h3,"Poufność jako zasada","Żadnych zbędnych trackerów, żadnych danych wyciekających do stron trzecich. Dla strony psychologa to nie opcja, ale wymóg: odwiedzający musi mieć pewność, że sa"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-psychologa",h3,"Blog","Artykuły odpowiadające na realne pytania potencjalnych klientów („jak poznać, że czas do psychologa"", „czym CBT różni się od psychoanalizy"") budują zaufanie i p"
+label,pl,"/pl/blog/ile-kosztuje-strona-dla-psychologa",h2,"Podsumowanie","Strona dla psychologa kosztuje od 8500 zł za skoncentrowany landing i od 15 000 zł za stronę wielostronicową z blogiem. Ale liczby to połowa sprawy. Najważniejs"
+label,ru,"/ru/blog/skolko-stoit-sait-psihologa",h3,"Запись на консультацию","Путь от «я решился» до «я записался» должен быть максимально коротким. Интеграция календаря записи, ссылки на мессенджеры или простая форма — в зависимости от т"
+label,ru,"/ru/blog/skolko-stoit-sait-psihologa",h3,"Конфиденциальность как принцип","Никаких лишних трекеров, никаких данных, утекающих третьим сторонам. Для сайта психолога это не опция, а требование: посетитель должен быть уверен, что сам факт"
+label,ru,"/ru/blog/skolko-stoit-sait-psihologa",h3,"Блог","Статьи, отвечающие на реальные вопросы потенциальных клиентов («как понять, что пора к психологу», «чем КПТ отличается от психоанализа»), строят доверие и приво"
+label,en,"/blog/what-a-real-estate-agency-website-needs",h2,"The property page","This is where someone decides to contact you."
+label,en,"/blog/what-a-real-estate-agency-website-needs",h2,"The technical base","The invisible part, without which none of the above works."
+label,en,"/blog/what-a-real-estate-agency-website-needs",h2,"Common mistakes","A catalogue with no filters, or token ones. A list of three hundred properties with no way to narrow it isn't a catalogue."
+label,pl,"/pl/blog/co-powinno-byc-na-stronie-biura-nieruchomosci",h2,"Karta oferty","Miejsce, w którym zapada decyzja o kontakcie."
+label,pl,"/pl/blog/co-powinno-byc-na-stronie-biura-nieruchomosci",h2,"Niezależność od portali","W Polsce większość ruchu w nieruchomościach przechodzi przez portale, i całkowita rezygnacja z nich nie ma sensu. Warto jednak rozumieć dwa ograniczenia."
+label,pl,"/pl/blog/co-powinno-byc-na-stronie-biura-nieruchomosci",h2,"Zaufanie","Zakup nieruchomości to duża decyzja, a wybór biura opiera się na zaufaniu."
+label,pl,"/pl/blog/co-powinno-byc-na-stronie-biura-nieruchomosci",h2,"Baza techniczna","Niewidoczna część, bez której reszta nie działa."
+label,pl,"/pl/blog/co-powinno-byc-na-stronie-biura-nieruchomosci",h2,"Najczęstsze błędy","Katalog bez filtrów albo z filtrami na pokaz. Lista trzystu ofert bez możliwości zawężenia to nie katalog."
+label,pl,"/pl/blog/co-powinno-byc-na-stronie-biura-nieruchomosci",h2,"Od czego zacząć","Sprowadzając checklistę do jednej zasady: strona działa wtedy, gdy odwiedzający może szybko znaleźć pasującą ofertę i skontaktować się z Tobą dokładnie w tym mo"
+label,ru,"/ru/blog/chto-dolzhno-byt-na-saite-agentstva-nedvizhimosti",h2,"Карточка объекта","Место, где принимается решение написать вам."
+label,ru,"/ru/blog/chto-dolzhno-byt-na-saite-agentstva-nedvizhimosti",h2,"Техническая база","Невидимая часть, без которой всё вышеперечисленное не работает."
+label,ru,"/ru/blog/chto-dolzhno-byt-na-saite-agentstva-nedvizhimosti",h2,"Частые ошибки","Каталог без фильтров или с фильтрами для галочки. Список из трёхсот объектов без возможности сузить — не каталог."
+label,ru,"/ru/blog/chto-dolzhno-byt-na-saite-agentstva-nedvizhimosti",h2,"Сколько это стоит","Сайт агентства с каталогом относится к многостраничным проектам — от 2000 €, редизайн существующего — от 1000 €. Итоговая цена зависит от количества объектов, с"
+label,ru,"/ru/blog/chto-dolzhno-byt-na-saite-agentstva-nedvizhimosti",h2,"С чего начать","Если сводить чек-лист к одному принципу: сайт работает тогда, когда посетитель может быстро найти подходящий объект и связаться с вами прямо в этот момент."
+label,en,"/blog/website-redesign-without-losing-traffic",h2,"On moving day","Open up indexing. Remove noindex, check robots.txt, make sure canonical URLs point to the new pages."
+label,en,"/blog/website-redesign-without-losing-traffic",h2,"From practice","Migrating an auto service centre's site from MODX to WordPress: URL structure preserved, structured data carried over and extended, speed improved — mobile Page"
+label,pl,"/pl/blog/redesign-strony-bez-utraty-ruchu",h2,"W dniu migracji","Odblokować indeksację. Usunąć noindex, sprawdzić robots.txt, upewnić się, że adresy kanoniczne wskazują na nowe podstrony."
+label,pl,"/pl/blog/redesign-strony-bez-utraty-ruchu",h2,"Z praktyki","Migracja strony serwisu samochodowego z MODX na WordPress: struktura adresów zachowana, dane strukturalne przeniesione i uzupełnione, szybkość wzrosła — mobilny"
+label,pl,"/pl/blog/redesign-strony-bez-utraty-ruchu",h2,"Od czego zacząć","Redesign nie musi kosztować cię ruchu. Wszystko, czego do tego trzeba, to wcześniej zdjąć punkt odniesienia, zachować adresy albo przygotować mapę przekierowań,"
+label,ru,"/ru/blog/redizayn-sayta-bez-poteri-trafika",h2,"В день переезда","Открыть индексацию. Убрать noindex, проверить robots.txt, убедиться, что канонические адреса указывают на новые страницы."
+label,ru,"/ru/blog/redizayn-sayta-bez-poteri-trafika",h2,"Из практики","Перенос сайта автосервиса с MODX на WordPress: структура адресов сохранена, разметка перенесена и дополнена, скорость выросла — мобильный PageSpeed поднялся при"
+label,ru,"/ru/blog/redizayn-sayta-bez-poteri-trafika",h2,"Сколько это стоит","Технический аудит — от 250 €. Диагностика перед переездом или разбор ситуации, если трафик уже просел: что сломалось, в каком порядке чинить."
+label,ru,"/ru/blog/redizayn-sayta-bez-poteri-trafika",h2,"С чего начать","Редизайн не обязан стоить вам трафика. Всё, что для этого нужно, — заранее снять показатели, сохранить адреса или составить карту редиректов, перенести разметку"
+label,en,"/blog/how-much-seo-costs",h2,"Summary","SEO costs from €250 for a one-time audit, from €800/month for small-business support, from €1,300/month for competitive niches, and €3,000/month for full projec"
+label,pl,"/pl/blog/ile-kosztuje-pozycjonowanie-strony",h2,"Podsumowanie","Pozycjonowanie strony kosztuje od 1000 zł za jednorazowy audyt, od 3500 zł miesięcznie za obsługę małej firmy, od 5500 zł miesięcznie dla konkurencyjnych nisz, "
+label,ru,"/ru/blog/skolko-stoit-prodvizhenie-saita",h2,"Итог","Продвижение сайта стоит от 250 € за разовый аудит, от 800 € в месяц за сопровождение малого бизнеса, от 1300 € в месяц для конкурентных ниш, и 3000 € в месяц за"
+label,en,"/blog/what-is-answer-engine-optimization",h2,"Common AEO mistakes","Building an FAQ section for the markup. Since May 2026 FAQ markup produces no rich result in Google. An FAQ is still useful when the questions are real and the "
+label,pl,"/pl/blog/aeo-answer-engine-optimization",h3,"Skąd pochodzi termin","Termin jest starszy niż ChatGPT. Rozpowszechnił się w latach 2017–2018, gdy wyróżnione fragmenty Google i asystenci głosowi zaczęli odpowiadać jednym wynikiem c"
+label,ru,"/ru/blog/chto-takoe-aeo",h3,"Откуда взялся термин","Термин старше ChatGPT. Он распространился в 2017–2018 годах, когда расширенные ответы Google и голосовые ассистенты начали отвечать одним результатом, который ч"
+label,ru,"/ru/blog/chto-takoe-aeo",h2,"Как измерять AEO","Доля ответов. Возьмите список из 20–50 ключевых вопросов. Раз в месяц проверяйте, кто даёт блок с ответом, начало обзора от ИИ и источники в ChatGPT и Perplexit"
+label,en,"/blog/what-is-generative-engine-optimization",h3,"5. Measurement","Without measurement, GEO is guesswork. It gets its own section below."
+label,en,"/blog/what-is-generative-engine-optimization",h2,"Common GEO myths","«You need an llms.txt file.» Google states its Search systems don't use it, and no study has found that it increases citations. It has a use, but not that one; "
+label,pl,"/pl/blog/geo-co-to-jest",h3,"5. Pomiar","Bez pomiaru GEO to zgadywanie. Pomiar ma osobną część poniżej."
+label,ru,"/ru/blog/chto-takoe-geo",h3,"5. Замеры","Без замеров GEO превращается в гадание. Им посвящён отдельный раздел ниже."
+label,ru,"/ru/blog/chto-takoe-geo",h2,"Примеры генеративной оптимизации","Лучшие примеры GEO — ответы на вопросы о самом GEO. 23 октября 2026 года я спросил Google и Perplexity «what is generative engine optimization» и посмотрел, на "
+label,ru,"/ru/blog/chto-takoe-geo",h2,"Как измерять GEO-продвижение","Для большинства ИИ-движков аналога Search Console нет, поэтому замеры собираются из четырёх источников."
+label,pl,"/pl/kontakt",h2,"Najczęściej zadawane pytania","Z małymi i średnimi firmami, freelancerami oraz podmiotami z branży nieruchomości, edukacji, beauty, medycznej, usługowej, e-commerce i SaaS."
+label,pl,"/pl/seo-dla-nieruchomosci-na-cyprze",h2,"Najczęściej zadawane pytania","Nie można uczciwie zagwarantować konkretnych pozycji w Google.
+Mogę natomiast jasno zadeklarować, że odpowiadam za wynik w postaci realizowanej strategii, regul"
+label,en,"/blog/ai-response-risks",h3,"4) Probabilistic guessing","In the absence of clear verified sources, AI makes “best guesses,” which can result in confidently presented false statements."
+label,en,"/blog/ai-response-risks",h2,"Frequently Asked Questions","Yes. AI doesn’t verify facts the way humans do. It generates responses based on patterns and probabilities, not truth verification. If erroneous data exists in "
+label,ru,"/ru/seo-dlya-nedvizhimosti-na-kipre",h2,"Часто задаваемые вопросы","Честно гарантировать конкретные позиции в Google или рост трафика нельзя: результат зависит от конкуренции, состояния сайта и того, что удастся внедрить. Гарант"
+label,en,"/web-development-cyprus",h2,"Frequently Asked Questions","A business or company website starts from €2,000 and takes two to four weeks. A sales-focused site built around lead generation also starts from €2,000 and take"
+label,en,"/web-development-cyprus",h3,"Ecommerce Development","Online stores require scalable architecture, product structure optimization, performance stability, and conversion-focused UX."
+label,ru,"/ru/blog/zachem-advokatu-sait",h3,"Увеличение органических обращений","Правильный сайт помогает людям находить вас по релевантным запросам, например: «адвокат Кипр по недвижимости», «юрист по семейному праву в СНГ» и др. — что прив"
+label,ru,"/ru/blog/zachem-advokatu-sait",h3,"Улучшение клиентского опыта","Сайт помогает посетителям найти ответы на вопросы, узнать цены, процедуры, специфику вашей практики — это повышает удовлетворённость клиента ещё до первого конт"
+label,ru,"/ru/blog/zachem-advokatu-sait",h2,"SEO-оптимизация сайта адвоката","Для сайта адвоката важно использовать не только высокочастотные запросы (“адвокат Кипр”, “юрист онлайн”), но и низкочастотные, например:"
+label,ru,"/ru/blog/zachem-advokatu-sait",h3,"Внутренняя оптимизация","Метатеги должны содержать ключевые фразы и быть естественными."
+label,ru,"/ru/blog/zachem-advokatu-sait",h3,"Внешняя оптимизация","Публикации на тематических порталах, юридических каталогах и экспертных блогах помогут повысить авторитет домена. Ссылки должны быть естественными и вести с рел"
+label,ru,"/ru/blog/zachem-advokatu-sait",h2,"Часто задаваемые вопросы","Формально — да, но вы теряете 70–80% потенциальных клиентов, которые ищут услуги онлайн. Без сайта сложно выстроить доверие и масштабировать поток обращений."
+label,pl,"/pl/blog/dlaczego-prawnikowi-potrzebna-strona-www",h3,"Profesjonalny wizerunek","Dla potencjalnego klienta profil w mediach społecznościowych to dodatek — ale strona www to dowód profesjonalizmu."
+label,pl,"/pl/blog/dlaczego-prawnikowi-potrzebna-strona-www",h3,"Oszczędność na reklamie","Wielu prawników inwestuje w płatne ogłoszenia lub katalogi branżowe. Strona internetowa z dobrze zbudowanym SEO zmniejsza koszty reklamy, zapewniając stały napł"
+label,pl,"/pl/blog/dlaczego-prawnikowi-potrzebna-strona-www",h3,"Struktura i treści","Dobrze zaprojektowana strona prawnika powinna zawierać:"
+label,ru,"/ru/kontakty",h2,"Что будет дальше","Вы отправляете сообщение — коротко описываете бизнес и задачи."
+label,ru,"/ru/kontakty",h2,"Часто задаваемые вопросы","С малыми и средними бизнесами, специалистами, компаниями в сфере недвижимости, образования, медицины, beauty, SaaS, услуг, e-commerce."
+label,en,"/website-development-for-beauty-professionals",h2,"FAQ","Social media can boost exposure, but on its own it rarely establishes strong credibility or drives consistent conversions."
+label,en,"/website-development-for-beauty-professionals",h2,"My Development Principles","Every project follows three key principles:"
+label,en,"/blog/website-development-cost-in-cyprus",h3,"Frequently Asked Questions","A professional business website in Cyprus typically costs between €900 and €3,500 depending on complexity, languages, and structure. Ecommerce or custom platfor"
+label,pl,"/pl/blog/jak-rozpoznac-kiepskiego-specjaliste-seo",h2,"Najczęściej zadawane pytania","Zwykle już po 1–3 miesiącach współpracy powinieneś widzieć:"
+label,pl,"/pl/blog/jak-zautomatyzowalem-tworzenie-stron-w-cms",h3,"Wpływ na biznes","Najczęstszy błąd programmatic SEO to tworzenie setek niemal identycznych stron."
+label,pl,"/pl/blog/jak-zautomatyzowalem-tworzenie-stron-w-cms",h2,"Najczęściej zadawane pytania","Google ocenia jakość i użyteczność treści, a nie sposób ich publikacji. Jeśli strony są unikalne, odpowiadają na realne intencje użytkowników i mają wartość mer"
+label,ru,"/ru/blog/kak-ya-avtomatiziroval-sozdanie-stranic-v-cms",h2,"Бизнес-эффект","Основной риск programmatic SEO — дубли и шаблонные страницы."
+label,ru,"/ru/blog/kak-ya-avtomatiziroval-sozdanie-stranic-v-cms",h2,"Часто задаваемые вопросы","Google оценивает ценность страницы, а не способ её создания. Если страницы уникальны, структурированы и полезны, автоматизация не является проблемой."
+label,ru,"/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty",h2,"Часто задаваемые вопросы","Типичный проект со стандартным функционалом (главная, услуги, портфолио, мастера, онлайн-запись) реализуется за 2–3 недели при готовом контенте. Если нужна муль"
+label,ru,"/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty",h3,"Технические требования","адаптивность под мобильные устройства;"
+label,ru,"/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty",h2,"Измерение эффективности","После запуска подключаю аналитику: события записи, конверсии, источники трафика. На основе данных корректируем CTA, формулировки и размещение блоков для увеличе"
+label,pl,"/pl/cennik",h3,"Pełne zarządzanie projektem","Cena:"
+label,pl,"/pl/cennik",h3,"Jednorazowe działania SEO","Cena:"
+label,pl,"/pl/cennik",h3,"Prosty landing page","Cena:"
+label,pl,"/pl/cennik",h2,"Najczęściej zadawane pytania","Tak — to często najlepszy pierwszy krok."
+label,pl,"/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai",h3,"Granica","Nikt nie zagwarantuje, że asystent Was wymieni. Odpowiedzi różnią się między przebiegami, są składane od nowa i zależą od sformułowania, języka oraz tego, czy a"
+label,ru,"/ru/uslugi/podgotovka-saita-k-ii-poisku",h3,"Граница","Никто не гарантирует, что ассистент вас назовёт. Ответы различаются между прогонами, пересобираются со временем и зависят от формулировки, языка и от того, иска"
+label,en,"/architecture-website-design",h3,"Residential architecture websites","Homeowners compare houses, not concepts. Interior photography, before-and-after views, a plain description of the process and a first-meeting form that asks abo"
+label,en,"/architecture-website-design",h3,"Landscape architecture websites","Gardens and public spaces change with the seasons and the years. Pages that show the same place over time, planting plans and maps for large sites tell that sto"
+label,pl,"/pl/strona-internetowa-dla-pisarza",h3,"Gdy wydajesz sam","Jesteś wydawcą, więc strona przejmuje więcej sprzedaży: e-booki z własnego sklepu, pakiety tomów, egzemplarze z autografem i przedsprzedaż przed premierą w dyst"
+label,pl,"/pl/oferty/strona-wizytowka",h3,"Jednostronicowa strona wizytówka","Wszystko jest na jednej stronie, a menu przewija do kolejnych sekcji: o mnie, usługi, cennik, realizacje, kontakt. Ten układ dobrze działa przy jednej głównej u"
+label,ru,"/ru/uslugi/sait-vizitka",h3,"Одностраничный сайт-визитка","Все разделы на одной странице, меню прокручивает к нужному блоку. Подходит, когда у вас одно направление работы. Так устроен сайт склада хранения шин в Варшаве,"
+label,en,"/dentist-seo",h3,"Dental implant pages","Single implants, implant bridges, full-arch options, bone grafting if you do it, the number of visits, a price range and financing. Patients want to know who pl"
+label,pl,"/pl/pozycjonowanie-strony-gabinetu-stomatologicznego",h3,"Implanty i protetyka","Liczba wizyt, czas gojenia podany ogólnie, rodzaje uzupełnień, widełki cen i możliwość płatności w ratach. Pacjent chce wiedzieć, który lekarz wykonuje zabieg, "
+label,ru,"/ru/seo-prodvizhenie-stomatologii",h3,"Имплантация и протезирование","Сколько визитов, какие бывают варианты, вилка цены, рассрочка и кто из врачей ставит импланты. Сроки и этапы описываются в общих словах; план лечения определяет"
+label,en,"/financial-advisor-website-design",h3,"Physicians and dentists","Student debt, late starts on saving, practice ownership and disability coverage. Short blocks, because these readers check the site between appointments on a ph"
+label,en,"/financial-advisor-website-design",h3,"Business owners","Retirement plans for staff, succession and the sale of the company. A layout that links to case-style process descriptions works better than emotional imagery."
+label,en,"/financial-advisor-website-design",h3,"Retirees and pre-retirees","Income planning, Social Security timing and required distributions. Larger type, high contrast and a phone number that stays visible."
+label,pl,"/pl/strona-internetowa-dla-doradcy-finansowego",h3,"Przedsiębiorcy i JDG","Kredyt dla firmy, leasing, ubezpieczenia działalności i zdolność kredytowa przedsiębiorcy. Konkretne przykłady sytuacji działają tu lepiej niż zdjęcia rodzin."
+label,ru,"/ru/sait-dlya-finansovogo-konsultanta",h3,"Ипотека для нерезидентов","Какие банки рассматривают нерезидентов, какой нужен первоначальный взнос и чем отличаются условия для резидентов. Цифры с датой обновления — условия меняются."
+label,pl,"/pl/strona-dla-studia-fitness",h2,"Grafik jest produktem","Większość stron studiów zbudowana jest tak, jakby odwiedzający chciał poczytać o studiu. Nie chce. Chce wiedzieć, czy zajęcia, które go interesują, odbywają się"
+label,pl,"/pl/pozycjonowanie-strony-firmy-bram-garazowych",h3,"Bramy segmentowe","Najczęściej wybierane do nowych domów. Podstrona opisuje ocieplenie paneli, przetłoczenia i okleiny drewnopodobne, kolory, przeszklenia, drzwi przejściowe w bra"
+label,ru,"/ru/prodvizhenie-saita-avtomaticheskih-vorot",h3,"Откатные ворота","Сколько места нужно вдоль забора для отката полотна, консольные или на рельсе, как ворота ведут себя под снегом и ветром. В Казахстане зимой это решающий вопрос"
+label,ru,"/ru/prodvizhenie-saita-avtomaticheskih-vorot",h3,"Распашные ворота","Когда вдоль забора нет места, створки открываются внутрь или наружу, нужен ли привод сразу или его можно поставить позже, какие материалы — профлист, ковка, дер"
+label,en,"/healthcare-seo",h3,"Maternity pages","Expecting parents choose a hospital months ahead and search for tours, birthing options and which obstetricians deliver there."
+label,pl,"/pl/pozycjonowanie-strony-hotelu",h3,"Pokoje i apartamenty","Każdy typ pokoju dostaje własną podstronę: metraż, łóżka, widok, liczba osób, łazienka, udogodnienia dla osób z niepełnosprawnościami, prawdziwe zdjęcia i przyc"
+label,pl,"/pl/pozycjonowanie-strony-hotelu",h3,"Okolica opisana rzetelnie","„Do Krupówek 12 minut pieszo” jest lepsze niż „w samym sercu Zakopanego”, jeśli to zmierzone. Jedna dobra podstrona o okolicy i kilka o miejscach, do których go"
+label,ru,"/ru/prodvizhenie-saita-otelya",h3,"Номера и апартаменты","У каждой категории номера своя страница: площадь, кровати, вид, сколько человек, ванная, кондиционер, реальные фото и кнопка бронирования. Стоит прямо написать,"
+label,ru,"/ru/prodvizhenie-saita-otelya",h3,"Окрестности без преувеличений","«До пляжа 7 минут пешком» лучше, чем «в двух шагах от моря», если это проверено. Одна хорошая страница о районе и несколько страниц о местах, ради которых едут "
+label,en,"/junk-removal-seo",h3,"Appliance removal pages","Refrigerators, freezers, washers, dryers and window AC units. Units with refrigerant fall under environmental rules, so say in general terms how you dispose of "
+label,en,"/landscaping-seo",h3,"Design-build landscaping searches","Large projects: full yard redesigns, planting plans, outdoor living areas. Searches such as “landscape designer near me” or “backyard landscaping ideas” come mo"
+label,en,"/landscaping-seo",h3,"Hardscaping searches","Patios, retaining walls, walkways, outdoor kitchens, fire pits. The searches name materials — “paver patio”, “natural stone retaining wall” — and the customer w"
+label,ru,"/ru/uslugi/lokacii",h3,"Как устроена работа","Одинаково независимо от рынка: письменный объём до начала работ, подписанный договор, счёт из ЕС, оплата этапами под сданные результаты, созвоны в ваши рабочие "
+label,en,"/locksmith-seo",h3,"Commercial locksmith pages","Property managers, offices and shops look for master key systems, panic bars, high-security cylinders, access control and safe opening. They decide slowly and s"
+label,ru,"/ru/prodvizhenie-saita-vskrytiya-zamkov",h3,"Вскрытие автомобилей","Ключи остались в салоне, сел аккумулятор, заклинил замок багажника. Страница говорит, с какими марками вы работаете, вскрываете ли машину без повреждений и что "
+label,ru,"/ru/prodvizhenie-medicinskogo-saita",h3,"Страницы врачей","Пациенты ищут врача по фамилии — проверить перед приёмом или найти того, к кому направили. Страница врача с образованием, опытом, направлениями, языками приёма "
+label,ru,"/ru/prodvizhenie-medicinskogo-saita",h3,"Страницы цен","«Сколько стоит МРТ коленного сустава» — один из самых частых медицинских запросов. Прайс текстом на странице, а не в PDF, отвечает на него и удерживает пациента"
+label,pl,"/pl/pozycjonowanie-strony-salonu-optycznego",h3,"Badanie wzroku dziecka","Rodzice szukają pierwszego badania przed szkołą. Podstrona mówi, od jakiego wieku badacie dzieci, jak wygląda wizyta i jak przygotować dziecko."
+label,ru,"/ru/prodvizhenie-salona-optiki",h3,"Приём офтальмолога","Когда нужен врач: боль, покраснение, резкое ухудшение зрения, контроль при диабете. Страница называет дни приёма и цену и не обещает результатов лечения."
+label,ru,"/ru/prodvizhenie-salona-optiki",h3,"Проверка зрения ребёнку","Родители ищут первую проверку перед школой. Страница объясняет, с какого возраста вы смотрите детей и как проходит визит."
+label,pl,"/pl/pozycjonowanie-strony-fotografa",h3,"Podstrona fotografii ślubnej","Jak wygląda dzień zdjęciowy od przygotowań po oczepiny, co obejmuje pakiet, kiedy para dostaje zdjęcia, czy w cenie jest sesja plenerowa i jak rezerwuje się ter"
+label,en,"/pressure-washing-website-design",h3,"Roof soft washing","Black streaks and moss on a roof make people fear for the shingles. The page says that roofs are cleaned without high pressure, what the solution does to algae,"
+label,en,"/pressure-washing-website-design",h3,"Decks and fences","Wood needs care: the page explains lower pressure, brightening and the wait before staining, so the customer does not expect a new deck in an afternoon."
+label,pl,"/pl/strona-internetowa-dla-firmy-mycia-cisnieniowego",h3,"Mycie elewacji","Właściciel domu boi się o tynk, ocieplenie i okna. Strona wyjaśnia mycie niskim ciśnieniem ze środkiem na glony, zabezpieczanie okien i parapetów oraz to, jak d"
+label,pl,"/pl/strona-internetowa-dla-firmy-mycia-cisnieniowego",h3,"Mycie dachów","Mech i porosty na dachówce budzą strach o pokrycie. Podstrona mówi, czym i jakim ciśnieniem myjesz dachówkę ceramiczną, betonową i blachodachówkę, kto wchodzi n"
+label,pl,"/pl/strona-internetowa-dla-firmy-mycia-cisnieniowego",h3,"Tarasy i ogrodzenia","Drewno i deska kompozytowa wymagają ostrożności, a po myciu często malowania lub olejowania. Klient powinien wiedzieć to przed zamówieniem."
+label,ru,"/ru/sait-dlya-moyki-vysokim-davleniem",h3,"Мойка фасадов","Владелец дома боится за штукатурку, краску и окна. Страница объясняет мойку с низким давлением и моющим средством, как защищаются окна и розетки и сколько фасад"
+label,ru,"/ru/sait-dlya-moyki-vysokim-davleniem",h3,"Мойка кровли","Мох и потёки на черепице пугают владельца. Страница говорит, каким давлением и чем моется черепица, кто поднимается на крышу и как он застрахован."
+label,en,"/saas-website-design",h3,"Customer story pages","A buyer reads a customer story to see whether the product worked for a company like theirs. The template opens with a facts box — industry, team size, region, p"
+label,en,"/senior-living-seo",h3,"Assisted living pages","Adult children want to know what help with bathing, dressing and medication is included, how care needs are assessed, who is on site at night and how the monthl"
+label,en,"/senior-living-seo",h3,"Memory care pages","Searches here are anxious and specific: dementia care with a secured courtyard, care for someone who wanders. The page explains the secured setting, staff train"
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-avstraliyskiy-rynok",h3,"Конкурентное поле зрелое","Это развитый цифровой рынок с укоренившимися национальными игроками, которые годами держат очевидные коммерческие формулировки. Ситуация та же, что в Британии, "
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-avstraliyskiy-rynok",h3,"Соседние рынки","Австралийская выдача ближе к британской, чем к американской, и материал часто переиспользуется: продвижение на британский рынок."
+label,pl,"/pl/oferty/pozycjonowanie-strony-firmy-budowlanej-warszawa",h3,"Sezon trzeba wyprzedzić","Prace zewnętrzne, elewacje i większe remonty mają swoje miesiące, a zapytania koncentrują się przed nimi."
+label,ru,"/ru/uslugi/prodvizhenie-saita-stroitelnoy-kompanii-varshava",h3,"Сезон надо опережать","У наружных работ, фасадов и крупных ремонтов свои месяцы, а запросы концентрируются перед ними."
+label,ru,"/ru/uslugi/seo-konsultaciya",h2,"Сколько стоит SEO-консультация","Первый созвон на 15–30 минут бесплатный. Консультация с подготовкой и письменным резюме стоит от 250 € — как SEO-аудит. Регулярные консультации для команды — от"
+label,pl,"/pl/pozycjonowanie-strony-biura-architektonicznego",h3,"Podstrona projektu wnętrz","Zakres — od układu funkcjonalnego po rysunki wykonawcze i nadzór autorski — z realizacjami wnętrz podlinkowanymi bezpośrednio pod opisem."
+label,en,"/seo-for-moving-companies",h3,"Local moving pages","Hourly rates or the minimum charge, crew size, what is included (blankets, shrink wrap, furniture disassembly), stairs and elevator bookings in apartment buildi"
+label,ru,"/ru/prodvizhenie-saita-ortodonta",h3,"Подростки и брекет-система","Подросток тоже читает сам: еда с брекетами, спорт, фото в школе, элайнеры как вариант. Короткие честные ответы удерживают его на странице и помогают родителям д"
+label,en,"/seo-for-painting-contractors",h3,"Interior painting pages","Interior customers worry about the house: furniture, floors, dust, how long the rooms are out of use, smell. The page answers that — how you prepare, which pain"
+label,en,"/seo-for-painting-contractors",h3,"Exterior painting pages","Exterior buyers ask about prep and lifespan: power washing, scraping, wood repair, caulking, primer, how long the paint will last in your climate, and what happ"
+label,en,"/seo-for-painting-contractors",h3,"Cabinet painting pages","Cabinet painting is a separate decision: refinish or replace. A page that compares the two, shows kitchens before and after and explains spraying, drying and cu"
+label,en,"/seo-for-plumbers",h3,"Repiping pages","Mostly searched by owners of older houses with galvanized or polybutylene pipes. The page explains the materials, how long the house is without water and how wa"
+label,pl,"/pl/pozycjonowanie-strony-psychologa",h3,"Podstrony problemów","Lęk i napady paniki, depresja, wypalenie zawodowe, żałoba, DDA, kryzys po rozstaniu. Podstrona opisuje, jak problem wygląda w codziennym życiu, jak z nim pracuj"
+label,pl,"/pl/pozycjonowanie-strony-psychologa",h3,"Podstrony nurtów terapii","Terapia poznawczo-behawioralna, psychodynamiczna, systemowa, Gestalt, EMDR. Ludzie szukają nurtu, gdy ktoś im go polecił; podstrona napisana przez osobę z tym s"
+label,pl,"/pl/pozycjonowanie-strony-psychologa",h3,"Podstrony grup klientów","Pary, młodzież i rodzice, osoby LGBT+, osoby po raz pierwszy idące na terapię."
+label,ru,"/ru/prodvizhenie-saita-psihologa",h3,"Страницы по запросам","Тревога и панические атаки, депрессивные состояния, выгорание, адаптация в эмиграции, горе, созависимость. На странице — как проблема выглядит в жизни, как вы с"
+label,ru,"/ru/prodvizhenie-saita-psihologa",h3,"Страницы по методам","КПТ, гештальт-терапия, психоаналитическая терапия, схема-терапия, EMDR, системная семейная терапия. Метод ищут после чьей-то рекомендации, и страница, где указа"
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok",h3,"Соседние рынки","Франкоязычная Швейцария ищет теми же словами, что и Франция, но платит иначе и конкуренция там тоньше — это отдельная страница про продвижение сайта в Швейцарии"
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok",h3,"Соседние рынки","Немецкоязычная Швейцария ищет по-немецки, но это другой рынок по ценам и конкуренции — про него отдельно на странице про продвижение в Швейцарии."
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok",h3,"Соседние рынки","Ирландию почти всегда рассматривают вместе с Великобританией, хотя выдача там своя: продвижение на британский рынок."
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",h3,"Соседние рынки","Италоязычный Тичино в Швейцарии ищет теми же словами при заметно меньшей конкуренции: продвижение сайта в Швейцарии."
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok",h3,"Соседние рынки","Германия — обычно первый или следующий рынок для тех, кто работает в Нидерландах, и требования там строже. Подробнее про продвижение на немецкий рынок."
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok",h3,"Соседние рынки","Швейцария — три языковых рынка в одной стране, поэтому её страница часто читается вместе с соседними. Французская часть пересекается с продвижением во Франции."
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok",h3,"Соседние рынки","Ирландия говорит по-английски, но это отдельный рынок с другой выдачей и другими конкурентами: продвижение сайта в Ирландии."
+label,ru,"/ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok",h3,"Соседние рынки","Британский рынок дешевле американского на входе и часто служит для него проверкой гипотезы: продвижение на британский рынок."
+label,ru,"/ru/sait-dlya-malogo-biznesa",h3,"Когда конструктора достаточно","у вас одна-две услуги и сайт нужен как визитка"
+label,ru,"/ru/uslugi/lokacii/razrabotka-saitov-ispaniya",h3,"Соседние рынки","Португалия рядом географически, но это отдельный язык и отдельная выдача: разработка сайтов для бизнеса в Португалии."
+label,en,"/locations/seo-for-swiss-market/seo-for-car-business-switzerland",h3,"The platform question","Most car businesses here get much of their visibility from listing platforms, and that arrangement is reasonable — platforms bring buyers who would never have f"
+label,ru,"/ru/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-avtobiznesa-shveytsariya",h3,"Вопрос площадок","Большая часть здешнего автобизнеса получает основную видимость с площадок объявлений, и это разумно: площадки приводят покупателей, которые никогда не нашли бы "
+label,pl,"/pl/oferty/seo-techniczne",h2,"Kto wykonuje pracę","Ta sama osoba, która pisze kod. To różnica między rekomendacją a zmianą: bez kolejki zgłoszeń, bez tłumaczenia z języka SEO na język programisty i bez poprawki,"
+label,ru,"/ru/uslugi/tehnicheskoe-seo",h2,"Кто делает работу","Тот же человек, который пишет код. В этом разница между рекомендацией и изменением: нет очереди задач, нет перевода с языка SEO на язык разработчика и нет правк"
+label,pl,"/pl/tworzenie-stron-internetowych-lublin",h3,"Usługi wokół uczelni","Szkoły językowe, kursy, korepetycje, wynajem pokoi, kawiarnie i punkty usługowe przy kampusach. Tu strona musi być lekka i prosta: student decyduje w kilka minu"
+label,ru,"/ru/uslugi/lokacii/razrabotka-saitov-oae",h3,"Как устроена работа","Практическая часть, потому что серьёзный заказчик спрашивает о ней раньше всего."
+label,en,"/veterinary-seo",h3,"Wellness plan pages","If you sell monthly wellness plans, a page per plan with what is included and the monthly price turns a comparison search into a sign-up."
+label,ru,"/ru/prodvizhenie-veterinarnoy-kliniki",h3,"Вакцинация и чипирование","Какие прививки и в каком возрасте, что нужно для выезда за границу, как записаться на всю схему сразу. Для Польши и Кипра вопрос паспорта животного и поездок в "
+label,ru,"/ru/prodvizhenie-veterinarnoy-kliniki",h3,"Стерилизация и кастрация","Возраст, подготовка, сколько животное остаётся в клинике, уход после операции и что входит в цену."
+label,en,"/services/wordpress-development-services",h3,"Security and updates","Most WordPress hacks come through outdated or abandoned plugins. Fewer plugins means fewer doors; the ones that stay are maintained and widely used. Admin accou"

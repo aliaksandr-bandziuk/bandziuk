@@ -1,0 +1,540 @@
+{
+ "generatedAt": "2026-11-03T12:52:28.011Z",
+ "languages": {
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "what is an seo audit",
+      "volume": 320,
+      "group": "what it is"
+     },
+     {
+      "keyword": "what is seo audit",
+      "volume": 320,
+      "group": "what it is"
+     },
+     {
+      "keyword": "what is a website audit",
+      "volume": 320,
+      "group": "what it is"
+     },
+     {
+      "keyword": "what does an seo audit include",
+      "volume": 20,
+      "group": "what it is"
+     },
+     {
+      "keyword": "what is included in an seo audit",
+      "volume": 20,
+      "group": "what it is"
+     },
+     {
+      "keyword": "how to do an seo audit",
+      "volume": 90,
+      "group": "how it is done"
+     },
+     {
+      "keyword": "how to perform an seo audit",
+      "volume": 170,
+      "group": "how it is done"
+     },
+     {
+      "keyword": "how to conduct an seo audit",
+      "volume": 170,
+      "group": "how it is done"
+     },
+     {
+      "keyword": "seo audit process",
+      "volume": 10,
+      "group": "how it is done"
+     },
+     {
+      "keyword": "seo audit steps",
+      "volume": 10,
+      "group": "how it is done"
+     },
+     {
+      "keyword": "seo audit checklist",
+      "volume": 260,
+      "group": "checklist"
+     },
+     {
+      "keyword": "website audit checklist",
+      "volume": 170,
+      "group": "checklist"
+     },
+     {
+      "keyword": "technical seo audit checklist",
+      "volume": 170,
+      "group": "checklist"
+     },
+     {
+      "keyword": "seo audit tools",
+      "volume": 1900,
+      "group": "checklist"
+     },
+     {
+      "keyword": "seo audit report",
+      "volume": 210,
+      "group": "report and example"
+     },
+     {
+      "keyword": "seo audit report example",
+      "volume": 90,
+      "group": "report and example"
+     },
+     {
+      "keyword": "seo audit example",
+      "volume": 320,
+      "group": "report and example"
+     },
+     {
+      "keyword": "seo audit template",
+      "volume": 140,
+      "group": "report and example"
+     },
+     {
+      "keyword": "sample seo audit report",
+      "volume": 90,
+      "group": "report and example"
+     },
+     {
+      "keyword": "seo audit cost",
+      "volume": 110,
+      "group": "cost"
+     },
+     {
+      "keyword": "how much does an seo audit cost",
+      "volume": 70,
+      "group": "cost"
+     },
+     {
+      "keyword": "seo audit price",
+      "volume": 70,
+      "group": "cost"
+     },
+     {
+      "keyword": "seo audit pricing",
+      "volume": 70,
+      "group": "cost"
+     },
+     {
+      "keyword": "is an seo audit worth it",
+      "volume": 10,
+      "group": "is it worth it"
+     },
+     {
+      "keyword": "do i need an seo audit",
+      "volume": 10,
+      "group": "is it worth it"
+     },
+     {
+      "keyword": "how long does an seo audit take",
+      "volume": 10,
+      "group": "is it worth it"
+     },
+     {
+      "keyword": "why is an seo audit important",
+      "volume": null,
+      "group": "is it worth it"
+     },
+     {
+      "keyword": "seo audit",
+      "volume": 3600,
+      "group": "control (commercial)"
+     },
+     {
+      "keyword": "website audit",
+      "volume": 3600,
+      "group": "control (commercial)"
+     },
+     {
+      "keyword": "seo audit services",
+      "volume": 1600,
+      "group": "control (commercial)"
+     }
+    ]
+   }
+  },
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "co to jest audyt seo",
+      "volume": 90,
+      "group": "co to jest"
+     },
+     {
+      "keyword": "czym jest audyt seo",
+      "volume": 70,
+      "group": "co to jest"
+     },
+     {
+      "keyword": "co zawiera audyt seo",
+      "volume": 30,
+      "group": "co to jest"
+     },
+     {
+      "keyword": "co obejmuje audyt seo",
+      "volume": null,
+      "group": "co to jest"
+     },
+     {
+      "keyword": "audyt seo co to",
+      "volume": 140,
+      "group": "co to jest"
+     },
+     {
+      "keyword": "jak zrobić audyt seo",
+      "volume": 70,
+      "group": "jak sie robi"
+     },
+     {
+      "keyword": "jak przeprowadzić audyt seo",
+      "volume": 30,
+      "group": "jak sie robi"
+     },
+     {
+      "keyword": "audyt seo krok po kroku",
+      "volume": 90,
+      "group": "jak sie robi"
+     },
+     {
+      "keyword": "audyt seo jak zrobić",
+      "volume": 50,
+      "group": "jak sie robi"
+     },
+     {
+      "keyword": "checklista audytu seo",
+      "volume": null,
+      "group": "checklista"
+     },
+     {
+      "keyword": "audyt seo narzędzia",
+      "volume": 20,
+      "group": "checklista"
+     },
+     {
+      "keyword": "lista kontrolna seo",
+      "volume": null,
+      "group": "checklista"
+     },
+     {
+      "keyword": "raport z audytu seo",
+      "volume": null,
+      "group": "raport i przyklad"
+     },
+     {
+      "keyword": "przykładowy audyt seo",
+      "volume": 30,
+      "group": "raport i przyklad"
+     },
+     {
+      "keyword": "audyt seo przykład",
+      "volume": 30,
+      "group": "raport i przyklad"
+     },
+     {
+      "keyword": "wzór audytu seo",
+      "volume": null,
+      "group": "raport i przyklad"
+     },
+     {
+      "keyword": "szablon audytu seo",
+      "volume": null,
+      "group": "raport i przyklad"
+     },
+     {
+      "keyword": "ile kosztuje audyt seo",
+      "volume": 90,
+      "group": "cena"
+     },
+     {
+      "keyword": "audyt seo cena",
+      "volume": 210,
+      "group": "cena"
+     },
+     {
+      "keyword": "cennik audytu seo",
+      "volume": null,
+      "group": "cena"
+     },
+     {
+      "keyword": "koszt audytu seo",
+      "volume": 50,
+      "group": "cena"
+     },
+     {
+      "keyword": "czy warto zrobić audyt seo",
+      "volume": null,
+      "group": "czy warto"
+     },
+     {
+      "keyword": "ile trwa audyt seo",
+      "volume": null,
+      "group": "czy warto"
+     },
+     {
+      "keyword": "po co audyt seo",
+      "volume": null,
+      "group": "czy warto"
+     },
+     {
+      "keyword": "audyt seo",
+      "volume": 1600,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "audyt strony internetowej",
+      "volume": 720,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "audyt seo strony",
+      "volume": 140,
+      "group": "kontrola (komercyjne)"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "что такое seo аудит",
+      "volume": 10,
+      "group": "что это"
+     },
+     {
+      "keyword": "что такое аудит сайта",
+      "volume": 10,
+      "group": "что это"
+     },
+     {
+      "keyword": "что входит в seo аудит",
+      "volume": 0,
+      "group": "что это"
+     },
+     {
+      "keyword": "что включает в себя аудит сайта",
+      "volume": null,
+      "group": "что это"
+     },
+     {
+      "keyword": "как сделать seo аудит",
+      "volume": 0,
+      "group": "как делается"
+     },
+     {
+      "keyword": "как провести аудит сайта",
+      "volume": 10,
+      "group": "как делается"
+     },
+     {
+      "keyword": "seo аудит пошагово",
+      "volume": null,
+      "group": "как делается"
+     },
+     {
+      "keyword": "этапы seo аудита",
+      "volume": null,
+      "group": "как делается"
+     },
+     {
+      "keyword": "чек лист seo аудита",
+      "volume": 0,
+      "group": "чеклист"
+     },
+     {
+      "keyword": "инструменты для seo аудита",
+      "volume": 0,
+      "group": "чеклист"
+     },
+     {
+      "keyword": "пример seo аудита",
+      "volume": 0,
+      "group": "отчет и пример"
+     },
+     {
+      "keyword": "отчет по seo аудиту",
+      "volume": null,
+      "group": "отчет и пример"
+     },
+     {
+      "keyword": "пример аудита сайта",
+      "volume": 10,
+      "group": "отчет и пример"
+     },
+     {
+      "keyword": "шаблон seo аудита",
+      "volume": null,
+      "group": "отчет и пример"
+     },
+     {
+      "keyword": "сколько стоит seo аудит",
+      "volume": null,
+      "group": "цена"
+     },
+     {
+      "keyword": "стоимость аудита сайта",
+      "volume": 10,
+      "group": "цена"
+     },
+     {
+      "keyword": "seo аудит сайта цена",
+      "volume": 0,
+      "group": "цена"
+     },
+     {
+      "keyword": "нужен ли seo аудит",
+      "volume": null,
+      "group": "нужен ли"
+     },
+     {
+      "keyword": "сколько длится seo аудит",
+      "volume": null,
+      "group": "нужен ли"
+     },
+     {
+      "keyword": "зачем нужен аудит сайта",
+      "volume": 0,
+      "group": "нужен ли"
+     },
+     {
+      "keyword": "аудит сайта",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит сайта",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "что такое seo аудит",
+      "volume": 10,
+      "group": "что это"
+     },
+     {
+      "keyword": "что такое аудит сайта",
+      "volume": 10,
+      "group": "что это"
+     },
+     {
+      "keyword": "что входит в seo аудит",
+      "volume": 0,
+      "group": "что это"
+     },
+     {
+      "keyword": "что включает в себя аудит сайта",
+      "volume": 0,
+      "group": "что это"
+     },
+     {
+      "keyword": "как сделать seo аудит",
+      "volume": 0,
+      "group": "как делается"
+     },
+     {
+      "keyword": "как провести аудит сайта",
+      "volume": 10,
+      "group": "как делается"
+     },
+     {
+      "keyword": "seo аудит пошагово",
+      "volume": null,
+      "group": "как делается"
+     },
+     {
+      "keyword": "этапы seo аудита",
+      "volume": null,
+      "group": "как делается"
+     },
+     {
+      "keyword": "чек лист seo аудита",
+      "volume": 0,
+      "group": "чеклист"
+     },
+     {
+      "keyword": "инструменты для seo аудита",
+      "volume": 0,
+      "group": "чеклист"
+     },
+     {
+      "keyword": "пример seo аудита",
+      "volume": 0,
+      "group": "отчет и пример"
+     },
+     {
+      "keyword": "отчет по seo аудиту",
+      "volume": null,
+      "group": "отчет и пример"
+     },
+     {
+      "keyword": "пример аудита сайта",
+      "volume": 10,
+      "group": "отчет и пример"
+     },
+     {
+      "keyword": "шаблон seo аудита",
+      "volume": null,
+      "group": "отчет и пример"
+     },
+     {
+      "keyword": "сколько стоит seo аудит",
+      "volume": null,
+      "group": "цена"
+     },
+     {
+      "keyword": "стоимость аудита сайта",
+      "volume": 10,
+      "group": "цена"
+     },
+     {
+      "keyword": "seo аудит сайта цена",
+      "volume": 10,
+      "group": "цена"
+     },
+     {
+      "keyword": "нужен ли seo аудит",
+      "volume": null,
+      "group": "нужен ли"
+     },
+     {
+      "keyword": "сколько длится seo аудит",
+      "volume": null,
+      "group": "нужен ли"
+     },
+     {
+      "keyword": "зачем нужен аудит сайта",
+      "volume": 0,
+      "group": "нужен ли"
+     },
+     {
+      "keyword": "аудит сайта",
+      "volume": 20,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 50,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит сайта",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  }
+ }
+}

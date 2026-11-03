@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Обложка без текста к статье «За что платит клиент в SEO-аудите» (3.11.2026).
+     Слева — длинный столбец одинаковых строк: это скан, список проблем.
+     Справа одна строка вытащена и разложена на пять частей: это аудит.
+     Палитра и геометрия как у обложек GEO/AEO/LLM/ChatGPT. */
+  :root{ --bg:#0a0a0b; --warm:#d95926; --cool:#3987e5; --green:#199e70; }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000}
+  .cover{position:relative;width:1672px;height:941px;overflow:hidden;
+    background:
+      radial-gradient(900px 560px at 12% -10%, rgba(57,135,229,.16), transparent 62%),
+      radial-gradient(900px 560px at 92% 112%, rgba(217,89,38,.16), transparent 60%),
+      var(--bg);}
+  .grain{position:absolute;inset:0;opacity:.4}
+  .grain i{position:absolute;border-radius:50%;background:#fff}
+
+  /* левый столбец — скан */
+  .scan{position:absolute;left:132px;top:150px;width:430px;display:flex;flex-direction:column;gap:14px}
+  .scan .r{height:58px;border-radius:12px;background:rgba(255,255,255,.035);
+           border:1px solid rgba(255,255,255,.09);display:flex;align-items:center;gap:14px;padding:0 20px}
+  .scan .r .dot{width:12px;height:12px;border-radius:50%;background:rgba(255,255,255,.18);flex:none}
+  .scan .r .l{height:10px;border-radius:5px;background:rgba(255,255,255,.14)}
+  .scan .r.pick{background:rgba(217,89,38,.14);border:2px solid rgba(217,89,38,.85);
+                box-shadow:0 30px 80px rgba(0,0,0,.55)}
+  .scan .r.pick .dot{background:var(--warm)}
+  .scan .r.pick .l{background:rgba(255,179,141,.7)}
+  .scan .r.dim{opacity:.4}
+
+  /* правая карточка — одна находка в пяти частях */
+  .card{position:absolute;left:880px;top:132px;width:660px;border-radius:22px;
+        background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.13);
+        box-shadow:0 50px 120px rgba(0,0,0,.6);padding:34px 36px;display:flex;flex-direction:column;gap:16px}
+  .part{border-radius:14px;padding:20px 22px;background:rgba(255,255,255,.035);
+        border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;gap:18px}
+  .part .n{width:38px;height:38px;border-radius:50%;flex:none;
+           background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16)}
+  .part .bars{flex:1;display:flex;flex-direction:column;gap:9px}
+  .part .bars i{display:block;height:10px;border-radius:5px;background:rgba(255,255,255,.22)}
+  .part .bars i.s{width:52%;background:rgba(255,255,255,.12)}
+  .part.m{background:rgba(217,89,38,.13);border-color:rgba(217,89,38,.6)}
+  .part.m .n{background:rgba(217,89,38,.5);border-color:rgba(217,89,38,.9)}
+  .part.m .bars i{background:rgba(255,179,141,.75)}
+  .part.j .n{background:rgba(255,255,255,.1)}
+  .part.a{background:rgba(57,135,229,.12);border-color:rgba(57,135,229,.5)}
+  .part.a .n{background:rgba(57,135,229,.45);border-color:rgba(57,135,229,.85)}
+  .part.a .bars i{background:rgba(207,225,251,.6)}
+  svg{position:absolute;inset:0}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const rows = [0,1,2,3,4,5,6,7,8];
+const PICK = 4;
+const parts = ["m","j","a","a","a"];
+document.getElementById("root").innerHTML = `
+<div class="cover">
+  <div class="grain">${Array.from({length:70},()=>{
+    const s=(Math.random()*2.2+0.6).toFixed(2);
+    return `<i style="left:${(Math.random()*100).toFixed(2)}%;top:${(Math.random()*100).toFixed(2)}%;width:${s}px;height:${s}px;opacity:${(Math.random()*.5+.1).toFixed(2)}"></i>`;
+  }).join("")}</div>
+
+  <svg viewBox="0 0 1672 941" fill="none">
+    <path d="M 562 ${150+PICK*72+29} C 700 ${150+PICK*72+29}, 740 470, 880 470"
+          stroke="rgba(217,89,38,.75)" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+  </svg>
+
+  <div class="scan">
+    ${rows.map(i=>i===PICK
+      ? `<div class="r pick"><span class="dot"></span><span class="l" style="width:62%"></span></div>`
+      : `<div class="r dim"><span class="dot"></span><span class="l" style="width:${[70,52,64,46,0,58,44,66,50][i]}%"></span></div>`
+    ).join("")}
+  </div>
+
+  <div class="card">
+    ${parts.map(c=>`
+      <div class="part ${c}">
+        <span class="n"></span>
+        <span class="bars"><i style="width:${c==="m"?88:c==="j"?74:82}%"></i><i class="s"></i></span>
+      </div>`).join("")}
+  </div>
+</div>`;
+</script>
+</body>
+</html>

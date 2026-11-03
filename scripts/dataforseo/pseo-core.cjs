@@ -161,6 +161,30 @@ function buildMatcher(lang, inventory) {
 
   return function match(phrase) {
     const dt = tokenSet(phrase, lang, true);
+    // Запрос из одних частых слов («web design», «website development»,
+    // «seo services») страницу не получает вовсе. Document frequency по 232
+    // страницам не умеет отличать такие запросы друг от друга, и прежнее
+    // поведение «выигрывает самый короткий заголовок» отдавало головной
+    // запрос «web design» 201 000 странице /adult-website-design — ровно той,
+    // которую владелец держит в стороне от общих страниц.
+    // Найдено 03.11.2026, сразу после добавления синонима web → site.
+    // Такие строки решаются глазами; в сверке они и помечены как no-rare-keys.
+    if (![...dt].some((t) => !generic.has(t))) {
+      // Исключение: набор слов запроса в ТОЧНОСТИ совпадает с набором слов
+      // страницы. Тогда это и есть её запрос, и привязка безопасна — ошибку
+      // вида «web design → /adult-website-design» точное совпадение дать не
+      // может, потому что у взрослой страницы есть лишнее слово «adult».
+      // Без этого исключения «продвижение сайта» 12 100 теряло свою
+      // страницу /ru/uslugi/prodvizhenie-saita и получало «создать», то есть
+      // предлагало построить дубль уже существующей страницы.
+      const same = (a, b) => a.size === b.size && [...a].every((t) => b.has(t));
+      for (const pg of pages) {
+        for (const pt of [pg.titleTokens, pg.slugTokens]) {
+          if (pt.size && same(dt, pt)) return { status: "есть", page: pg, score: 1 };
+        }
+      }
+      return { status: "создать", page: null, score: 0 };
+    }
     let best = null;
     let score = 0;
     let full = false;
@@ -174,9 +198,11 @@ function buildMatcher(lang, inventory) {
         // самого запроса различающих слов нет (чистая голова вроде «website
         // development»), проверка не применяется — иначе голова не сматчится
         // ни с чем.
+        // В пересечении обязано быть хотя бы одно различающее слово.
+        // Запросы без таких слов отсечены выше и сюда не доходят.
         let interRare = 0;
         for (const t of dt) if (pt.has(t) && !generic.has(t)) interRare++;
-        if (interRare === 0 && [...dt].some((t) => !generic.has(t))) continue;
+        if (interRare === 0) continue;
         if (!sameGeo(dt, pt)) continue;
         const isFull = inter === dt.size && pt.size - dt.size <= 1;
         const j = jaccard(dt, pt);

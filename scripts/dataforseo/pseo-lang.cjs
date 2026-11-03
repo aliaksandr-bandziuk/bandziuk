@@ -51,7 +51,15 @@ const SERVICE_SYNONYMS = {
   en: {
     creati: "build", creato: "build", make: "build", makin: "build",
     maker: "build", develo: "build", buildi: "build", design: "design",
-    websit: "site", webpag: "site", page: "site",
+    // «web» отдельным словом — то же, что «website». Без этой строки оно
+    // оставалось собственным токеном, и поскольку в слагах сайта «web»
+    // встречается всего на 3 страницах из 232 (1,3%), генератор считал его
+    // РАЗЛИЧАЮЩИМ словом — в одном классе с «restaurant» (тоже 1,3%).
+    // Следствие (найдено 03.11.2026): всё семейство «X web design» садилось
+    // на /services/ecommerce-web-design — restaurant 2900, realtor 2400,
+    // plumbing 1300, manufacturing 1000, therapist 720, hong kong 880.
+    // В русской карте такая же строка «веб: саит» стоит с самого начала.
+    web: "site", websit: "site", webpag: "site", page: "site",
     cost: "price", costs: "price", pricin: "price", price: "price", much: "price",
   },
 };

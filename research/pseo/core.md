@@ -1,22 +1,22 @@
 # Семантическое ядро: страницы сайта
 
-Собрано: 2026-11-02 15:07 UTC. Порог 10/мес.
-Всего страниц: 2183. Из них добавлено по правилам языковых версий: 868 (отрасли 783, города 85).
+Собрано: 2026-11-03 09:55 UTC. Порог 10/мес.
+Всего страниц: 2182. Из них добавлено по правилам языковых версий: 868 (отрасли 783, города 85).
 
 | язык | создать | переформулировать | есть | всего |
 | --- | --- | --- | --- | --- |
-| pl | 285 | 275 | 171 | 731 |
-| ru | 242 | 293 | 116 | 651 |
-| en | 498 | 150 | 153 | 801 |
-| **всего** | **1025** | **718** | **440** | **2183** |
+| pl | 272 | 279 | 180 | 731 |
+| ru | 234 | 291 | 126 | 651 |
+| en | 456 | 123 | 221 | 800 |
+| **всего** | **962** | **693** | **527** | **2182** |
 
 ## По осям
 
 | ось | создать | переформулировать | есть |
 | --- | --- | --- | --- |
-| service-only | 34 | 24 | 53 |
-| service-industry | 329 | 642 | 355 |
-| service-city | 626 | 52 | 32 |
+| service-only | 34 | 22 | 54 |
+| service-industry | 269 | 616 | 441 |
+| service-city | 623 | 55 | 32 |
 | industry-city | 36 | 0 | 0 |
 
 ## Страницы без измеренного спроса: 868
@@ -27,9 +27,8 @@
 
 ## Двадцать самых частотных страниц к созданию
 
-- **web design** (en, service-only) — 201000/мес, формулировок 1
+- **web design** (en, service-only) — 201000/мес, формулировок 2
 - **doctor website** (en, service-industry) — 90500/мес, формулировок 4
-- **ecommerce website** (en, service-industry) — 33100/мес, формулировок 1
 - **translator website** (en, service-industry) — 27100/мес, формулировок 2
 - **headless cms** (en, service-only) — 22200/мес, формулировок 1
 - **core web vitals** (en, service-only) — 22200/мес, формулировок 1
@@ -42,11 +41,12 @@
 - **лендинг** (ru, service-only) — 14800/мес, формулировок 1
 - **painting website** (en, service-industry) — 12100/мес, формулировок 2
 - **shopify development** (en, service-only) — 9900/мес, формулировок 1
-- **ecommerce web design** (en, service-only) — 9900/мес, формулировок 1
 - **dj website** (en, service-industry) — 9900/мес, формулировок 2
-- **ecommerce website design** (en, service-industry) — 9900/мес, формулировок 1
 - **seo services dubai** (en, service-city) — 9900/мес, формулировок 3
 - **web design auckland** (en, service-city) — 9900/мес, формулировок 2
+- **agencja seo** (pl, service-only) — 9900/мес, формулировок 1
+- **gym website** (en, service-industry) — 8100/мес, формулировок 3
+- **seo london** (en, service-city) — 8100/мес, формулировок 3
 
 Полные данные: research/pseo/core.csv
 

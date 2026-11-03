@@ -1,22 +1,22 @@
 # Что на сайте уже есть и где языковые пробелы
 
-Снято: 2026-10-27 11:01 UTC.
-Документов: 811. Тем: 332.
-Связано по суффиксу идентификатора: 75, по translation.metadata: 736.
+Снято: 2026-11-03 09:41 UTC.
+Документов: 856. Тем: 347.
+Связано по суффиксу идентификатора: 75, по translation.metadata: 781.
 
 ## Сколько документов на каждом языке
 
 | тип | en | pl | ru | всего тем |
 | --- | --- | --- | --- | --- |
-| singlepage | 220 | 200 | 188 | 264 |
-| blog | 50 | 49 | 50 | 50 |
+| singlepage | 232 | 212 | 200 | 276 |
+| blog | 53 | 52 | 53 | 53 |
 | portfolio | 18 | 18 | 18 | 18 |
 
 ## Полнота по языкам
 
 | языков у темы | тем |
 | --- | --- |
-| 3 | 222 |
+| 3 | 237 |
 | 2 | 35 |
 | 1 | 75 |
 
@@ -108,7 +108,7 @@
 - pl+ru (нет en) — Pozycjonowanie strony gabinetu stomatologicznego w Warszawie
 - pl+ru (нет en) — Pozycjonowanie strony warsztatu samochodowego w Warszawie
 - en+ru (нет pl) — Veterinary SEO
-- en+ru (нет pl) — Web Design & Website Development in Cyprus
+- en+ru (нет pl) — Web Design and Website Development in Cyprus
 - en+ru (нет pl) — Website development for companies in Georgia
 - en+ru (нет pl) — Website development for businesses in Montenegro
 - en+ru (нет pl) — Website development for businesses in Portugal
@@ -119,7 +119,7 @@
 
 ## Заголовки внутри страниц
 
-Собраны у 314 тем из 332. Сопоставление спроса теперь
+Собраны у 329 тем из 347. Сопоставление спроса теперь
 сверяется и с ними: запрос, на который страница отвечает разделом H2, больше
 не попадёт в «переформулировать».
 

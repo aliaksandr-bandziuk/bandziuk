@@ -148,7 +148,7 @@ export const ecommerceWebDesignPl = {
         p("Kupujący coraz częściej każą porównać ChatGPT, Perplexity albo przeglądom od AI w Google, zanim w ogóle otworzą sklep. Asystent odpowiada z tekstu i danych, które potrafi odczytać, a sklep zbudowany jak galeria zdjęć nie daje mu niczego. Co czyni katalog czytelnym: nazwa, cena, dostępność i warunki dostawy jako tekst, a nie w obrazku; znaczniki produktu i oferty zgodne z tym, co widać na stronie; jeden adres na produkt; oraz ta sama cena i dostępność w sklepie, w ofercie na Allegro i w pliku dla Google Merchant."),
         p(
           "Doprowadzenie do tego stanu sklepu, który już działa, to osobna praca: ",
-          link("przygotowanie strony do wyszukiwania w AI", "/pl/oferty/przygotowanie-strony-do-ai"),
+          link("przygotowanie strony do wyszukiwania w AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),
           ". A jeśli sklep jest zrobiony dobrze, ale wyszukiwarka nic nie przynosi, to ",
           link("pozycjonowanie sklepów internetowych", "/pl/oferty/pozycjonowanie-sklepow-internetowych"),
           " — praca osobna od wdrożenia, a wyniki wyszukiwania dla jednej i drugiej frazy prawie się nie pokrywają.",

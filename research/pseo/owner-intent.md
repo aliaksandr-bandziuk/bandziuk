@@ -526,3 +526,93 @@
     Parc Shop - Minneapolis shop for apparel, lifestyle ...
     https://www.parcboutique.com
 
+## en · «pawn shop website» — 720/мес
+Источник строки: ломбард: сдать вещь или заказать сайт?. AI Overview: есть. Рекламных блоков: 0.
+
+ 1. google.com
+    CashCo Pawn Shop | San Diego – Pawn It. Sell It. Buy It ...
+    https://cashcopawn.com
+ 2. www.webuyeverything.com
+    We Buy Everything Pawn Shop | Gold, Tools & Electronics in ...
+    https://www.webuyeverything.com
+ 3. google.com
+    Cash America: Home
+    https://search.cashamerica.com
+ 4. google.com
+    Pawn Depot - Your Trusted Pawn Shop for Quick ... - Hammond
+    https://www.pawndepot.net
+ 5. google.com
+    Shopping
+    https://www.pawnamerica.com › shop
+ 6. google.com
+    Pawn Pro: Pawn Shop in Syracuse, NY | Buy, Sell, Trade ...
+    https://pawnpro.com
+ 7. www.pawnamerica.com
+    WEST ST. PAUL
+    https://www.pawnamerica.com › Store
+ 8. google.com
+    Pawn Minnesota - Faribault
+    https://pawnmn.com
+ 9. google.com
+    Pawn1st: Pawn Shops in Arizona
+    https://www.pawn1st.com
+
+## en · «currency exchange website» — 720/мес
+Источник строки: обменник: обменять деньги или заказать сайт?. AI Overview: есть. Рекламных блоков: 0.
+
+ 1. wise.com
+    Live Exchange Rates - Customise and Track Your Currencies
+    https://wise.com › currency-converter › live-exchange-r...
+ 2. google.com
+    Currency Exchange Table (US Dollar - USD)
+    https://www.x-rates.com › table
+ 3. google.com
+    Currency converter and MoneyGram's live exchange rates
+    https://www.moneygram.com › currency-converter
+ 4. google.com
+    Currency converter - latest exchange rates and ... - Markets data
+    https://markets.ft.com › data › currencies
+ 5. google.com
+    Currency >> globalEDGE: Your source for Global Business ...
+    https://globaledge.msu.edu › resourcesbytag › currency
+ 6. google.com
+    Where to Exchange Currency Without Paying Huge Fees
+    https://www.nerdwallet.com › Banking › Learn
+ 7. www.oanda.com
+    FX Currency Converter
+    https://www.oanda.com › currency-converter
+ 8. google.com
+    How to Exchange Currency Online, What You need to know?
+    https://www.westernunion.com › blog › how-to-exchang...
+ 9. www.ofx.com
+    Currency Converter & Free Live Exchange Rate Calculator
+    https://www.ofx.com › en-us › currency-converter
+
+## en · «bookkeeper website» — 320/мес
+Источник строки: контроль, рядом есть website for bookkeepers 320. AI Overview: есть. Рекламных блоков: 0.
+
+ 1. paro.ai
+    Accounting & Bookkeeping Services for Small Businesses - Paro
+    https://paro.ai › accounting-bookkeeping-services
+ 2. google.com
+    10 Best Online Bookkeeping Services Of 2026
+    https://www.forbes.com › Advisor › Business › Software
+ 3. google.com
+    BooXkeeping: Outsourced Bookkeeping for Small Businesses
+    https://www.booxkeeping.com
+ 4. www.youtube.com
+    Simple Way Bookkeeper Learned to Sell TAX ADVISORY
+    430+ views  ·  1 year ago
+ 5. google.com
+    20+ Best Bookkeeping Software for Businesses (2026 Tool ...
+    https://pilot.com › blog › bookkeeping-software-for-bu...
+ 6. google.com
+    Outsource Financial Solutions | BELAY Tax & Bookkeeping
+    https://belaysolutions.com › services › financial
+ 7. bookkeeping-services.com
+    12 Best Bookkeeping Services (2026): Pricing & Reviews
+    https://bookkeeping-services.com › Blog
+ 8. google.com
+    Bookkeeping From Home | Starting a Bookkeeping Business
+    https://www.xero.com › accountant-bookkeeper-guides
+

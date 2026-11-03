@@ -71,6 +71,14 @@ const PHRASES = [
   ["en", "woodworking website", 1000, "gap"],
   ["en", "notary website", 720, "gap"],
   ["en", "clothing store website", 720, "gap"],
+  // Финансовый сектор, дельта 03.11.2026. Замер девяти новых финансовых
+  // отраслей ($0.54) дал 2450 запросов/мес на все три языка, и два самых
+  // крупных английских числа — одиночные формы, то есть под подозрением.
+  ["en", "pawn shop website", 720, "ломбард: сдать вещь или заказать сайт?"],
+  ["en", "currency exchange website", 720, "обменник: обменять деньги или заказать сайт?"],
+  // Контроль: у бухгалтера есть и владельческая форма «website for
+  // bookkeepers» 320, так что выдача должна отличаться от двух предыдущих.
+  ["en", "bookkeeper website", 320, "контроль, рядом есть website for bookkeepers 320"],
 ];
 
 const auth = Buffer.from(`${process.env.DATAFORSEO_API_LOGIN}:${process.env.DATAFORSEO_API_PASSWORD}`).toString("base64");
@@ -90,7 +98,7 @@ async function serp(lang, keyword) {
         aio: items.some((i) => i.type === "ai_overview"),
         ads: items.filter((i) => i.type === "paid").length,
         organic: items.filter((i) => i.type === "organic").slice(0, 10).map((i) => ({
-          domain: i.domain || "", title: i.title || "", breadcrumb: i.breadcrumb || "",
+          domain: i.domain || "", title: i.title || "", breadcrumb: i.breadcrumb || "", url: i.url || "",
         })),
       };
     } catch (e) {
@@ -98,6 +106,21 @@ async function serp(lang, keyword) {
       await new Promise((r) => setTimeout(r, 6500 * attempt));
     }
   }
+}
+
+// Настоящий хост результата. Google заворачивает часть ссылок в свой
+// редирект, и тогда в поле domain приходит google.com — в первом прогоне
+// 03.11.2026 из-за этого вся выдача выглядела как девять google.com подряд и
+// читать её было нельзя. Настоящий адрес берётся из видимой «крошки».
+// Тот же приём, что в identify() в pseo-intent.cjs.
+function host(item) {
+  const d = String(item.domain || "").toLowerCase();
+  const u = String(item.url || "");
+  const wrapped = /^(www\.)?google\./i.test(d) || /google\.[a-z.]+\/goto/i.test(u);
+  if (!wrapped && d) return d.replace(/^www\./, "");
+  const m = String(item.breadcrumb || "").match(/^https?:\/\/([^\s\u203a/]+)/i);
+  if (m) return m[1].toLowerCase().replace(/^www\./, "");
+  return "(не опознан)";
 }
 
 async function main() {
@@ -126,10 +149,10 @@ async function main() {
     }
     const flags = [r.aio ? "AIO" : null, r.ads ? `реклама ${r.ads}` : null].filter(Boolean).join(", ");
     say(`${lang} ${String(vol).padStart(6)}  «${kw}»${flags ? "  [" + flags + "]" : ""}`);
-    say(`        ${r.organic.map((o) => o.domain).join("  ")}`);
+    say(`        ${r.organic.map(host).join("  ")}`);
     file.push(`## ${lang} · «${kw}» — ${vol}/мес`, `Источник строки: ${src}. AI Overview: ${r.aio ? "есть" : "нет"}. Рекламных блоков: ${r.ads}.`, "");
     r.organic.forEach((o, n) => {
-      file.push(`${String(n + 1).padStart(2)}. ${o.domain}`, `    ${o.title}`, o.breadcrumb ? `    ${o.breadcrumb}` : "");
+      file.push(`${String(n + 1).padStart(2)}. ${host(o)}`, `    ${o.title}`, o.breadcrumb ? `    ${o.breadcrumb}` : "");
     });
     file.push("");
   }

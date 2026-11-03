@@ -186,6 +186,25 @@ const INDUSTRY_TABLE = [
   { key: "wineries", en: "wineries", pl: "winnicy", ru: "винодельни" },
   { key: "auto-detailing", en: "auto detailing businesses", pl: "studia detailingu", ru: "детейлинг-студии" },
   { key: "podcasters", en: "podcasters", pl: "podcastera", ru: "подкастера" },
+  // — финансовый сектор, дельта 03.11.2026 —
+  // В таблице уже стояли шесть финансовых отраслей: бухгалтерские фирмы,
+  // налоговые и финансовые консультанты, страховые компании и агенты,
+  // ипотечные брокеры. Английский спрос по ним — 13 430 запросов в месяц, и
+  // семь страниц под них уже есть. Эти девять в таблице отсутствовали вовсе,
+  // то есть их спрос никогда не измерялся.
+  // Банки, платёжные операторы и кредитные союзы сознательно НЕ добавлены:
+  // частного исполнителя они не наймут, у них свои команды.
+  { key: "credit-brokers", en: "credit brokers", pl: "brokera kredytowego", ru: "кредитного брокера" },
+  { key: "leasing", en: "leasing companies", pl: "firmy leasingowej", ru: "лизинговой компании" },
+  { key: "investment-firms", en: "investment firms", pl: "firmy inwestycyjnej", ru: "инвестиционной компании" },
+  { key: "currency-exchange", en: "currency exchange offices", pl: "kantoru wymiany walut", ru: "обменного пункта" },
+  { key: "pawn-shops", en: "pawn shops", pl: "lombardu", ru: "ломбарда" },
+  { key: "bookkeepers", en: "bookkeepers", pl: "księgowej", ru: "бухгалтера" },
+  { key: "fintech", en: "fintech companies", pl: "firmy fintech", ru: "финтех-компании" },
+  { key: "audit-firms", en: "audit firms", pl: "firmy audytorskiej", ru: "аудиторской компании" },
+  // Взыскание долгов — отрасль законная, но репутационно спорная. Оставлена
+  // на решение владельца: если не нужна, строка удаляется одной правкой.
+  { key: "debt-collection", en: "debt collection agencies", pl: "firmy windykacyjnej", ru: "коллекторского агентства" },
 ];
 
 // Английская форма в единственном числе для шаблонов «bakery website», «roofing seo»
@@ -343,6 +362,16 @@ const ONE = {
   "wineries": "winery",
   "auto-detailing": "auto detailing",
   "podcasters": "podcast",
+  // финансовый сектор, дельта 03.11.2026
+  "credit-brokers": "credit broker",
+  "leasing": "leasing company",
+  "investment-firms": "investment firm",
+  "currency-exchange": "currency exchange",
+  "pawn-shops": "pawn shop",
+  "bookkeepers": "bookkeeper",
+  "fintech": "fintech company",
+  "audit-firms": "audit firm",
+  "debt-collection": "debt collection agency",
 };
 const oneForms = () => INDUSTRY_TABLE.filter((r) => ONE[r.key]).map((r) => [r.en, ONE[r.key]]);
 

@@ -677,6 +677,16 @@ PAIR_SETS.aisearch = [
   ["6 geo и llm seo services", "en", "generative engine optimization", "llm seo services"],
 ];
 
+// Бухгалтерская фирма и частный бухгалтер: один заказчик или два? Добавлено
+// 03.11.2026 перед сборкой кластера. В английском вокруг темы 2420 запросов в
+// месяц, из них формы SEO (400) не закрыты ничем, а формы бухгалтера (410)
+// тоже. Делать один кластер или два — решает пересечение выдачи, потому что в
+// США это потенциально разные заказчики: фирма с сертификатом CPA и частник.
+PAIR_SETS.accounting = [
+  ["1 seo фирмы и бухгалтера", "en", "seo for accounting firms", "seo for bookkeepers"],
+  ["2 сайт фирмы и бухгалтера", "en", "website for accounting firms", "website for bookkeepers"],
+];
+
 const SET = (() => { const i = process.argv.indexOf("--set"); return i > -1 ? process.argv[i + 1] : "restaurant"; })();
 const PAIRS = PAIR_SETS[SET];
 if (!PAIRS) throw new Error(`Unknown --set ${SET}. Known: ${Object.keys(PAIR_SETS).join(", ")}`);
@@ -785,7 +795,18 @@ async function main() {
     const [lang, kw] = k.split("|");
     // cached per query: a rerun after a failure pays only for what is missing
     const file = path.join(DIR, "raw", "intent", `${lang}-${kw.replace(/[^\p{L}\p{N}]+/gu, "-")}.json`);
-    if (fs.existsSync(file)) { process.stdout.write("c"); queries.set(k, JSON.parse(fs.readFileSync(file, "utf8"))); continue; }
+    // Кэш проверяется на форму, а не берётся на веру. До правки от 30.10.2026
+    // записи складывались как { aio, urls } — без hosts, появившихся вместе с
+    // восстановлением домена из «крошки». Такая запись роняла весь прогон на
+    // первой же паре (02.11.2026, набор aisearch: «Cannot read properties of
+    // undefined (reading 'length')»). Устаревшая форма считается промахом
+    // кэша и перезапрашивается — это $0.006 за фразу и дешевле, чем падение.
+    if (fs.existsSync(file)) {
+      let cached = null;
+      try { cached = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { cached = null; }
+      if (cached && Array.isArray(cached.hosts)) { process.stdout.write("c"); queries.set(k, cached); continue; }
+      process.stdout.write("o"); // устаревшая форма, перезапрашиваю
+    }
     process.stdout.write(".");
     try {
       const r = await serp(lang, kw);
@@ -812,7 +833,8 @@ async function main() {
   for (const [topic, lang, a, b] of PAIRS) {
     const A = queries.get(`${lang}|${a}`);
     const B = queries.get(`${lang}|${b}`);
-    if (!A || !B) { say(""); say(`## ${topic} · ${lang}: «${a}» и «${b}»`); say("  нет данных — запрос не удался, перезапустить"); continue; }
+    const ok = (q) => q && Array.isArray(q.hosts);
+    if (!ok(A) || !ok(B)) { say(""); say(`## ${topic} · ${lang}: «${a}» и «${b}»`); say("  нет данных — запрос не удался или запись кэша негодна, перезапустить"); continue; }
     const uniq = (xs) => [...new Set(xs)];
     const shared = uniq(A.hosts).filter((h) => B.hosts.includes(h));
     const note = (q) => (q.unknown ? `, не опознано ${q.unknown}` : "");

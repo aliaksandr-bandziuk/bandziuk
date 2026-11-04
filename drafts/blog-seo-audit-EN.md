@@ -44,7 +44,7 @@ Every number in a real audit has a source and a date, so the client can open the
 - **Every page, read from the content system.** Title, meta title, meta description, H1 and every H2 and H3 of all 645 pages, plus the block structure of each. This is what makes statements like «62 headings are labels» countable rather than impressionistic.
 - **The site's own keyword plan, reconciled against reality.** Each query the site intends to answer, checked against the page that is supposed to answer it. In the sample: 1,328 assignments, of which the head query of the entire niche pointed at an unrelated page.
 - **Live search results, read for intent.** The top ten for each query family the site targets, read to establish one thing: is the searcher a business owner looking for a contractor, or their own customer? This is the step that decides what gets written and what does not.
-- **[Presence in AI answers](/ai-visibility-audit).** Whether an AI answer appears for the queries the site targets, and whether the site is anywhere in the pool those answers are assembled from. In the sample: an AI answer showed on 304 of 321 query families, and the site was in the top ten of none of them.
+- **[Presence in AI answers](/services/ai-visibility-audit).** Whether an AI answer appears for the queries the site targets, and whether the site is anywhere in the pool those answers are assembled from. In the sample: an AI answer showed on 304 of 321 query families, and the site was in the top ten of none of them.
 - **Internal links and reachability.** Whether the pages can be reached and are actually being shown, and whether the links between them resolve.
 
 Notice what is missing from that list: a tool score. No audit worth paying for reports a number out of 100, because that number is a weighted average of things that do not share a unit.
@@ -104,7 +104,7 @@ There is a smaller version of the same test. Ask what the auditor chose not to r
 
 ## What an SEO audit costs and how long it takes
 
-[A full audit of a small site](/seo-audit) costs around 250 euro and takes two to five working days. The range is driven by page count and by how many languages the site runs, because every language multiplies the reading, not the thinking.
+[A full audit of a small site](/services/seo-audit) costs around 250 euro and takes two to five working days. The range is driven by page count and by how many languages the site runs, because every language multiplies the reading, not the thinking.
 
 What the price should include: the measurement with sources, the ordered plan, the expected result per action, and a follow-up conversation once you have read it. What it should not include is implementation — those are different jobs with different prices, and bundling them is how an audit turns into a sales document for the work it recommends.
 

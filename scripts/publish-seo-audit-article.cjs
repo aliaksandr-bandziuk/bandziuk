@@ -17,7 +17,8 @@
 // «audyt seo», «аудит сайта») stay on the service pages; this article takes the
 // informational tail only and links to them.
 //
-// Usage: node scripts/publish-seo-audit-article.cjs           dry run
+// Usage: node scripts/publish-seo-audit-article.cjs                      dry run
+//        node scripts/publish-seo-audit-article.cjs --apply --replace    переписать опубликованное
 //        node scripts/publish-seo-audit-article.cjs --apply   upload images and publish
 
 const fs = require("fs");
@@ -31,6 +32,9 @@ const DRAFTS = path.join(ROOT, "drafts");
 const FIGDIR = path.join(DRAFTS, "article-figures");
 const ASSET_CACHE = path.join(FIGDIR, ".sanity-assets.json");
 const APPLY = process.argv.includes("--apply");
+// --replace: переписать уже опубликованные документы этой же статьи.
+// Без него скрипт отказывается трогать существующие — защита от случайной перезаписи.
+const REPLACE = process.argv.includes("--replace");
 
 const client = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
@@ -204,14 +208,16 @@ async function relatedFor(lang) {
   if (!process.env.SANITY_API_TOKEN) throw new Error("SANITY_API_TOKEN missing");
   const ids = [...Object.values(LANGS).map((c) => c.id), META_ID];
   const clash = await client.fetch(`*[_id in $all]._id`, { all: [...ids, ...ids.map((i) => `drafts.${i}`)] });
-  if (clash.length) { console.log(`Aborting — already exists: ${clash.join(", ")}`); process.exit(1); }
+  if (clash.length && !REPLACE) { console.log(`Aborting — already exists: ${clash.join(", ")}`);
+    console.log("Та же статья? Перезаписать: добавьте --replace к --apply."); process.exit(1); }
+  if (clash.length) console.log(`--replace: переписываю ${clash.join(", ")}`);
 
   const docs = [];
   for (const [lang, cfg] of Object.entries(LANGS)) {
     const { meta, body } = parseDraft(fs.readFileSync(path.join(DRAFTS, cfg.file), "utf8"));
     for (const f of ["title", "slug", "meta_title", "meta_description"]) if (!meta[f]) throw new Error(`${lang}: «${f}» missing in ${cfg.file}`);
     const slugClash = await client.fetch(`*[_type == "blog" && slug[$lang].current == $s][0]._id`, { lang, s: meta.slug });
-    if (slugClash) { console.log(`Aborting — ${lang} slug «${meta.slug}» is taken by ${slugClash}`); process.exit(1); }
+    if (slugClash && slugClash !== cfg.id) { console.log(`Aborting — ${lang} slug «${meta.slug}» is taken by ${slugClash}`); process.exit(1); }
     const services = await client.fetch(`*[_id in $ids]._id`, { ids: cfg.services });
     const missingSvc = cfg.services.filter((s) => !services.includes(s));
     if (missingSvc.length) console.log(`note: ${lang} service pages not found, left out: ${missingSvc.join(", ")}`);
@@ -264,8 +270,8 @@ async function relatedFor(lang) {
   if (!APPLY) return console.log("\nDry run — nothing uploaded or written. Add --apply to publish.");
 
   const tx = client.transaction();
-  docs.forEach((d) => tx.create(d));
-  tx.create(metaDoc);
+  docs.forEach((d) => (REPLACE ? tx.createOrReplace(d) : tx.create(d)));
+  REPLACE ? tx.createOrReplace(metaDoc) : tx.create(metaDoc);
   await tx.commit();
   console.log(`\nPublished: ${[...docs.map((d) => d._id), META_ID].join(", ")}`);
   console.log("Next: redeploy (date > .redeploy && git add .redeploy && git commit -m \"add seo audit article\" && git push), then check the live pages.");

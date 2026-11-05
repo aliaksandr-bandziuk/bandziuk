@@ -8,6 +8,7 @@ import CustomCookieConsent from "../components/shared/CustomCookieConsent/Custom
 import GoogleAdsScript from "../components/scripts/GoogleAdsScript/GoogleAdsScript";
 import GoogleAnalyticsWrapper from "../components/scripts/GoogleAnalyticsWrapper/GoogleAnalyticsWrapper";
 import MicrosoftClarity from "../components/scripts/MicrosoftClarity/MicrosoftClarity";
+import MetaPixel from "../components/scripts/MetaPixel/MetaPixel";
 import LenisProvider from "../components/animations/LenisProvider/LenisProvider";
 import SchemaIdentity from "../components/seo/SchemaIdentity/SchemaIdentity";
 import { locales } from "@/i18n.config";
@@ -93,6 +94,9 @@ export default async function RootLayout(
             these load unconditionally and no longer wait on analytics consent. */}
         <GoogleAnalyticsWrapper />
         <MicrosoftClarity />
+        {/* Inert until PIXEL_ID is filled in. Owner's decision (05.11.2026):
+            loads unconditionally, like the two above. */}
+        <MetaPixel />
 
         {/* <GoogleTagManager gtmId="GTM-MQNF6L9V" /> */}
         {/* <GoogleAdsScript /> */}

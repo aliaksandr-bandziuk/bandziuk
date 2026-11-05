@@ -19,8 +19,9 @@ export default function GoogleAnalyticsWrapper() {
       window.gtag("js", new Date());
       window.gtag("config", GA_ID);
     }
-    // The library itself (~170 KB) loads on the first interaction or 4 s
-    // after load, outside the window PageSpeed measures.
+    // The library itself (~170 KB) loads on the first interaction, on a tab
+    // switch, or 1.5 s after load — still after the window PageSpeed measures,
+    // but short enough to count a visitor who leaves almost immediately.
     return afterInteraction(() => injectScript(`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`));
   }, []);
 

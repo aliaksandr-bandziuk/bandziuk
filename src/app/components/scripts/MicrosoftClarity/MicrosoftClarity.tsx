@@ -13,7 +13,7 @@ export default function MicrosoftClarity() {
         (w.clarity!.q = w.clarity!.q || []).push(args);
       };
     }
-    // Loads on the first interaction or 4 s after load, like GA.
+    // Loads on the first interaction, a tab switch, or 1.5 s after load, like GA.
     return afterInteraction(() => injectScript("https://www.clarity.ms/tag/shkdmxspc0"));
   }, []);
 

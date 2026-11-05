@@ -39,8 +39,17 @@ const INTERACTION_EVENTS = ["scroll", "pointerdown", "touchstart", "keydown", "m
 /**
  * On the visitor's first interaction, or `fallbackMs` after `load` if they
  * do nothing — whichever comes first. Used for analytics.
+ *
+ * The fallback is deliberately short. A visitor who leaves before it elapses
+ * is not counted at all, and arrivals from deep search positions are exactly
+ * the ones that leave in the first second or two. Measured 05.11.2026:
+ * Search Console reported 145 clicks over 28 days where GA4 recorded 52
+ * organic sessions (see claude/analytics-discrepancy-2026-11-05.md).
+ * `visibilitychange` is in the trigger list for the same reason: opening a
+ * page and switching tab is a real visit that the interaction events alone
+ * never see.
  */
-export function afterInteraction(fn: () => void, fallbackMs = 4000): () => void {
+export function afterInteraction(fn: () => void, fallbackMs = 1500): () => void {
   let done = false;
   let timerId = 0;
   const run = () => {
@@ -53,10 +62,13 @@ export function afterInteraction(fn: () => void, fallbackMs = 4000): () => void 
     timerId = window.setTimeout(run, fallbackMs);
   });
   INTERACTION_EVENTS.forEach((e) => window.addEventListener(e, run, { once: true, passive: true }));
+  // Dispatched on document rather than window: catches a tab switch either way.
+  document.addEventListener("visibilitychange", run, { once: true });
   function cleanup() {
     cancelLoad();
     window.clearTimeout(timerId);
     INTERACTION_EVENTS.forEach((e) => window.removeEventListener(e, run));
+    document.removeEventListener("visibilitychange", run);
   }
   return () => {
     done = true;

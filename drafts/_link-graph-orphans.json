@@ -1,42 +1,34 @@
 [
   {
-    "id": "blog-llms-txt",
+    "id": "blog-new-site-first-month",
     "type": "blog",
     "lang": "en",
-    "title": "Does Your Site Need an llms.txt File? An Honest Answer",
-    "slug": "/blog/does-your-site-need-llms-txt",
+    "title": "\"Discovered — currently not indexed\": 28 days of tatsianabandziuk.com in Search Console",
+    "slug": "/blog/discovered-currently-not-indexed-new-site-data",
     "inbound": 0
   },
   {
-    "id": "blog-black-gold-premium",
+    "id": "blog-seo-audit-value",
     "type": "blog",
     "lang": "en",
-    "title": "Black and Gold Web Design No Longer Reads as Expensive",
-    "slug": "/blog/black-and-gold-web-design-no-longer-reads-expensive",
+    "title": "What You Pay For in an SEO Audit, and What the Report Must Contain",
+    "slug": "/blog/what-you-pay-for-in-an-seo-audit",
     "inbound": 0
   },
   {
-    "id": "blog-llms-txt.pl",
+    "id": "blog-new-site-first-month.pl",
     "type": "blog",
     "lang": "pl",
-    "title": "Czy Twoja strona potrzebuje pliku llms.txt? Uczciwa odpowiedź",
-    "slug": "/pl/blog/czy-strona-potrzebuje-pliku-llms-txt",
+    "title": "Ile trwa indeksowanie nowej strony: 28 dni tatsianabandziuk.com w raportach Search Console",
+    "slug": "/pl/blog/ile-trwa-indeksowanie-nowej-strony-dane",
     "inbound": 0
   },
   {
-    "id": "blog-black-gold-premium.pl",
+    "id": "blog-seo-audit-value.pl",
     "type": "blog",
     "lang": "pl",
-    "title": "Czarno-złoty projekt strony nie czyta się już jako drogi",
-    "slug": "/pl/blog/czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi",
-    "inbound": 0
-  },
-  {
-    "id": "blog-llms-txt.ru",
-    "type": "blog",
-    "lang": "ru",
-    "title": "Нужен ли сайту файл llms.txt: честный ответ",
-    "slug": "/ru/blog/nuzhen-li-saitu-fail-llms-txt",
+    "title": "Za co płacisz w audycie SEO i co musi zawierać raport",
+    "slug": "/pl/blog/za-co-placisz-w-audycie-seo",
     "inbound": 0
   },
   {
@@ -48,27 +40,171 @@
     "inbound": 0
   },
   {
-    "id": "e0fd3298-9a46-4281-bbea-e23dca38284c",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "About",
-    "slug": "/about",
+    "id": "blog-new-site-first-month.ru",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько длится индексация нового сайта: 28 дней tatsianabandziuk.com в отчётах Search Console",
+    "slug": "/ru/blog/skolko-dlitsya-indeksaciya-novogo-sayta",
     "inbound": 0
   },
   {
-    "id": "7d66c37d-0158-4aa4-9293-8f4a9e8891e9",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Contact with Alex Bandziuk",
-    "slug": "/contacts",
+    "id": "blog-seo-audit-value.ru",
+    "type": "blog",
+    "lang": "ru",
+    "title": "За что вы платите в SEO-аудите и что обязан содержать отчёт",
+    "slug": "/ru/blog/za-chto-platit-klient-v-seo-audite",
     "inbound": 0
   },
   {
-    "id": "singlepage-medtourism-de-pl.en",
+    "id": "singlepage-ecommerce-web-design",
     "type": "singlepage",
     "lang": "en",
-    "title": "SEO for Polish clinics targeting German patients",
-    "slug": "/services/seo-for-polish-clinics-targeting-german-patients",
+    "title": "Ecommerce Web Design and Store Development",
+    "slug": "/services/ecommerce-web-design",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-artist-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Artists: Selling Paintings and Sculpture from Your Own Site",
+    "slug": "/seo-for-artists",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-author-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Authors and Novelists",
+    "slug": "/seo-for-authors",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-carpentry-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Carpenters, Joiners and Bespoke Furniture Makers",
+    "slug": "/seo-for-carpenters",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-coaching-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Coaches and Consultants",
+    "slug": "/seo-for-coaches",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-courier-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Courier and Same-Day Delivery Companies",
+    "slug": "/seo-for-courier-companies",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-daycare-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Daycares, Nurseries and Preschools",
+    "slug": "/seo-for-daycares",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-debt-collection-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Debt Collection and Receivables Agencies",
+    "slug": "/seo-for-debt-collection-agencies",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-driving-school-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Driving Schools and Instructors",
+    "slug": "/seo-for-driving-schools",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-furniture-store-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Furniture Stores and Showrooms",
+    "slug": "/seo-for-furniture-stores",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-massage-therapy-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Massage Therapists and Therapeutic Practices",
+    "slug": "/seo-for-massage-therapists",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-nail-salon-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Nail Salons and Nail Technicians",
+    "slug": "/seo-for-nail-salons",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-pharmacy-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Pharmacies Within Advertising Restrictions",
+    "slug": "/seo-for-pharmacies",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-photographer-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Photographers and Wedding Photographers",
+    "slug": "/seo-for-photographers",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-remodeling-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Remodeling and Renovation Companies",
+    "slug": "/seo-for-remodeling-companies",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-security-company-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Security Companies: Guarding, Alarms and CCTV",
+    "slug": "/seo-for-security-companies",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-tattoo-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Tattoo Artists and Studios",
+    "slug": "/seo-for-tattoo-artists",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-wedding-planner-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Wedding Planners and Destination Weddings",
+    "slug": "/seo-for-wedding-planners",
+    "inbound": 0
+  },
+  {
+    "id": "singlepage-handyman-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for a Handyman Business",
+    "slug": "/seo-for-handyman-services",
     "inbound": 0
   },
   {
@@ -80,19 +216,11 @@
     "inbound": 0
   },
   {
-    "id": "c046dd91-3a5c-4774-a069-1a5778d79bfb",
+    "id": "singlepage-ecommerce-web-design.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Kontakt",
-    "slug": "/pl/kontakt",
-    "inbound": 0
-  },
-  {
-    "id": "5fb61b86-903d-4cdb-81b6-55ce34d1d319",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "O mnie",
-    "slug": "/pl/o-mnie",
+    "title": "Tworzenie sklepu internetowego",
+    "slug": "/pl/oferty/tworzenie-sklepu-internetowego",
     "inbound": 0
   },
   {
@@ -104,19 +232,11 @@
     "inbound": 0
   },
   {
-    "id": "d9c9cdff-b48c-43c0-a8b2-657007757dc7",
+    "id": "singlepage-ecommerce-web-design.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Контакты",
-    "slug": "/ru/kontakty",
-    "inbound": 0
-  },
-  {
-    "id": "55558168-9538-43ee-be55-6f7f62a777ef",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Обо мне",
-    "slug": "/ru/obo-mne",
+    "title": "Разработка интернет-магазина",
+    "slug": "/ru/uslugi/razrabotka-internet-magazina",
     "inbound": 0
   },
   {
@@ -136,27 +256,11 @@
     "inbound": 1
   },
   {
-    "id": "blog-construction-website-cost",
+    "id": "blog-psychologist-website-checklist",
     "type": "blog",
     "lang": "en",
-    "title": "How Much a Construction Company Website Costs: Price and Scope",
-    "slug": "/blog/construction-company-website-cost",
-    "inbound": 1
-  },
-  {
-    "id": "blog-legal-seo-cost",
-    "type": "blog",
-    "lang": "en",
-    "title": "How Much SEO for a Law Firm Costs: A Complete Pricing Guide",
-    "slug": "/blog/how-much-legal-seo-costs",
-    "inbound": 1
-  },
-  {
-    "id": "blog-ai-brand-monitoring",
-    "type": "blog",
-    "lang": "en",
-    "title": "How to Monitor Brand Mentions in AI Answers",
-    "slug": "/blog/how-to-monitor-brand-mentions-in-ai-answers",
+    "title": "What a Psychologist Website Needs: A Section-by-Section Breakdown",
+    "slug": "/blog/what-a-psychologist-website-needs",
     "inbound": 1
   },
   {
@@ -184,6 +288,22 @@
     "inbound": 1
   },
   {
+    "id": "blog-black-gold-premium",
+    "type": "blog",
+    "lang": "en",
+    "title": "Black and Gold Web Design No Longer Reads as Expensive",
+    "slug": "/blog/black-and-gold-web-design-no-longer-reads-expensive",
+    "inbound": 1
+  },
+  {
+    "id": "blog-sitemap-lastmod",
+    "type": "blog",
+    "lang": "en",
+    "title": "Sitemap lastmod: why Google stops re-reading your sitemap and how to fix it",
+    "slug": "/blog/sitemap-lastmod",
+    "inbound": 1
+  },
+  {
     "id": "600594dc-8578-41ba-81d8-49af59922ac0",
     "type": "blog",
     "lang": "pl",
@@ -192,35 +312,11 @@
     "inbound": 1
   },
   {
-    "id": "d7c4dc47-ce4c-4324-b334-46300222b521",
+    "id": "blog-psychologist-website-checklist.pl",
     "type": "blog",
     "lang": "pl",
-    "title": "Dlaczego prawnikowi potrzebna jest strona internetowa — pełny przewodnik",
-    "slug": "/pl/blog/dlaczego-prawnikowi-potrzebna-strona-www",
-    "inbound": 1
-  },
-  {
-    "id": "blog-beauty-salon-website-cost.pl",
-    "type": "blog",
-    "lang": "pl",
-    "title": "Ile kosztuje strona dla salonu kosmetycznego: kompletny przewodnik po cenie",
-    "slug": "/pl/blog/ile-kosztuje-strona-dla-salonu-kosmetycznego",
-    "inbound": 1
-  },
-  {
-    "id": "blog-legal-seo-cost.pl",
-    "type": "blog",
-    "lang": "pl",
-    "title": "Ile kosztuje pozycjonowanie SEO strony kancelarii prawnej",
-    "slug": "/pl/blog/ile-kosztuje-seo-dla-kancelarii-prawnej",
-    "inbound": 1
-  },
-  {
-    "id": "blog-ai-brand-monitoring.pl",
-    "type": "blog",
-    "lang": "pl",
-    "title": "Monitoring wzmianek o marce w odpowiedziach AI: jak go prowadzić",
-    "slug": "/pl/blog/monitoring-wzmianek-o-marce-w-odpowiedziach-ai",
+    "title": "Co powinno być na stronie psychologa: rozbiór sekcja po sekcji",
+    "slug": "/pl/blog/co-powinno-byc-na-stronie-psychologa",
     "inbound": 1
   },
   {
@@ -248,6 +344,22 @@
     "inbound": 1
   },
   {
+    "id": "blog-black-gold-premium.pl",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Czarno-złoty projekt strony nie czyta się już jako drogi",
+    "slug": "/pl/blog/czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi",
+    "inbound": 1
+  },
+  {
+    "id": "blog-sitemap-lastmod.pl",
+    "type": "blog",
+    "lang": "pl",
+    "title": "lastmod w mapie witryny: dlaczego Google przestaje ją czytać i jak to naprawić",
+    "slug": "/pl/blog/lastmod-w-mapie-witryny",
+    "inbound": 1
+  },
+  {
     "id": "5df13421-2160-4793-8efe-4b3d283dcf31",
     "type": "blog",
     "lang": "ru",
@@ -256,11 +368,11 @@
     "inbound": 1
   },
   {
-    "id": "blog-beauty-salon-website-cost.ru",
+    "id": "blog-psychologist-website-checklist.ru",
     "type": "blog",
     "lang": "ru",
-    "title": "Сколько стоит сайт салона красоты: полное руководство по цене",
-    "slug": "/ru/blog/skolko-stoit-sait-salona-krasoty",
+    "title": "Что должно быть на сайте психолога: разбор по разделам",
+    "slug": "/ru/blog/chto-dolzhno-byt-na-saite-psihologa",
     "inbound": 1
   },
   {
@@ -296,467 +408,211 @@
     "inbound": 1
   },
   {
-    "id": "singlepage-accounting-firm",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Accounting firm website development",
-    "slug": "/accounting-firm-website",
+    "id": "blog-sitemap-lastmod.ru",
+    "type": "blog",
+    "lang": "ru",
+    "title": "lastmod в карте сайта: почему Google перестаёт её перечитывать и как это исправить",
+    "slug": "/ru/blog/lastmod-v-karte-saita",
     "inbound": 1
   },
   {
-    "id": "singlepage-architecture-studio",
+    "id": "singlepage-adult-seo",
     "type": "singlepage",
     "lang": "en",
-    "title": "Architecture studio website development",
-    "slug": "/architecture-studio-website",
+    "title": "Adult SEO",
+    "slug": "/adult-seo",
     "inbound": 1
   },
   {
-    "id": "singlepage-cleaning-company",
+    "id": "singlepage-adult-website-design",
     "type": "singlepage",
     "lang": "en",
-    "title": "Cleaning company website development",
-    "slug": "/cleaning-company-website",
+    "title": "Adult website design for creators, agencies and 18+ brands",
+    "slug": "/adult-website-design",
     "inbound": 1
   },
   {
-    "id": "singlepage-language-school",
+    "id": "singlepage-auto-detailing-website-design",
     "type": "singlepage",
     "lang": "en",
-    "title": "Language school website development",
-    "slug": "/language-school-website",
+    "title": "Auto detailing website design",
+    "slug": "/auto-detailing-website-design",
     "inbound": 1
   },
   {
-    "id": "singlepage-photographer",
+    "id": "singlepage-car-rental-seo",
     "type": "singlepage",
     "lang": "en",
-    "title": "Photographer website development",
-    "slug": "/photographer-website",
+    "title": "Car rental SEO",
+    "slug": "/car-rental-seo",
     "inbound": 1
   },
   {
-    "id": "singlepage-recruitment-agency",
+    "id": "singlepage-gym-seo",
     "type": "singlepage",
     "lang": "en",
-    "title": "Recruitment agency website development",
-    "slug": "/recruitment-agency-website",
+    "title": "Gym SEO",
+    "slug": "/gym-seo",
     "inbound": 1
   },
   {
-    "id": "singlepage-restaurant",
+    "id": "singlepage-musician-seo",
     "type": "singlepage",
     "lang": "en",
-    "title": "Restaurant website development",
-    "slug": "/restaurant-website",
+    "title": "SEO for Musicians, Bands and DJs",
+    "slug": "/seo-for-musicians",
     "inbound": 1
   },
   {
-    "id": "923390d3-cf00-427c-bef1-2fdf903a7808",
+    "id": "singlepage-physiotherapy-seo",
     "type": "singlepage",
     "lang": "en",
-    "title": "SEO for Auto Repair Shop",
-    "slug": "/seo-for-auto-repair-shop",
+    "title": "SEO for Physiotherapists and Physical Therapy Clinics",
+    "slug": "/seo-for-physiotherapists",
     "inbound": 1
   },
   {
-    "id": "5869ba72-348b-498e-b419-861e52ccb6ef",
+    "id": "singlepage-medtourism-de-pl.en",
     "type": "singlepage",
     "lang": "en",
-    "title": "SEO for Beauty Salons",
-    "slug": "/seo-for-beauty-salons",
+    "title": "SEO for Polish clinics targeting German patients",
+    "slug": "/services/seo-for-polish-clinics-targeting-german-patients",
     "inbound": 1
   },
   {
-    "id": "9b8d7d33-0df4-4d4f-967c-9ff454a07a39",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "SEO for Real Estate Businesses Focused on Traffic, Rankings and Buyer Leads",
-    "slug": "/seo-for-real-estate",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-travel-agency",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Travel agency website development",
-    "slug": "/travel-agency-website",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-veterinary-clinic",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Veterinary clinic website development",
-    "slug": "/veterinary-clinic-website",
-    "inbound": 1
-  },
-  {
-    "id": "636f4976-f588-4f6c-a386-23feb6570fbf",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website Design for Models and Portfolio Development",
-    "slug": "/website-design-for-models",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-australia",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website SEO and AI search for the Australian market",
-    "slug": "/services/locations/seo-for-australian-market",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-baltics",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website SEO and AI search for the Baltic markets",
-    "slug": "/services/locations/seo-for-baltic-markets",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-netherlands",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website SEO and AI search for the Dutch market",
-    "slug": "/services/locations/seo-for-dutch-market",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-france",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website SEO and AI search for the French market",
-    "slug": "/services/locations/seo-for-french-market",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-ireland",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website SEO and AI search for the Irish market",
-    "slug": "/services/locations/seo-for-irish-market",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-italy",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website SEO and AI search for the Italian market",
-    "slug": "/services/locations/seo-for-italian-market",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-montenegro",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website development for businesses in Montenegro",
-    "slug": "/services/locations/website-development-montenegro",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-portugal",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website development for businesses in Portugal",
-    "slug": "/services/locations/website-development-portugal",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-thailand",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website development for businesses in Thailand",
-    "slug": "/services/locations/website-development-thailand",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-georgia",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website development for companies in Georgia",
-    "slug": "/services/locations/website-development-georgia",
-    "inbound": 1
-  },
-  {
-    "id": "34295d10-118c-4e25-aacd-599fab92f23f",
+    "id": "singlepage-adult-seo.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "SEO i pozycjonowanie stron nieruchomości nastawione na leady i sprzedaż",
-    "slug": "/pl/seo-dla-stron-nieruchomosci",
+    "title": "Pozycjonowanie stron dla branży adult",
+    "slug": "/pl/pozycjonowanie-stron-dla-branzy-adult",
     "inbound": 1
   },
   {
-    "id": "fc3bbb10-9408-4ceb-9d00-3a2f22b32b21",
+    "id": "singlepage-gym-seo.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Strona internetowa dla modelki",
-    "slug": "/pl/strona-internetowa-dla-modelki",
+    "title": "Pozycjonowanie strony siłowni",
+    "slug": "/pl/pozycjonowanie-strony-silowni",
     "inbound": 1
   },
   {
-    "id": "singlepage-recruitment-agency.pl",
+    "id": "singlepage-car-rental-seo.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla agencji rekrutacyjnej",
-    "slug": "/pl/strona-dla-agencji-rekrutacyjnej",
+    "title": "Pozycjonowanie strony wypożyczalni samochodów",
+    "slug": "/pl/pozycjonowanie-strony-wypozyczalni-samochodow",
     "inbound": 1
   },
   {
-    "id": "singlepage-architecture-studio.pl",
+    "id": "singlepage-adult-website-design.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla biura architektonicznego",
-    "slug": "/pl/strona-dla-biura-architektonicznego",
+    "title": "Strona internetowa dla branży adult",
+    "slug": "/pl/strona-internetowa-dla-branzy-adult",
     "inbound": 1
   },
   {
-    "id": "singlepage-travel-agency.pl",
+    "id": "singlepage-life-coach-website-design.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla biura podróży",
-    "slug": "/pl/strona-dla-biura-podrozy",
+    "title": "Strona internetowa dla coacha",
+    "slug": "/pl/strona-internetowa-dla-coacha",
     "inbound": 1
   },
   {
-    "id": "singlepage-accounting-firm.pl",
+    "id": "singlepage-nonprofit-website-design.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla biura rachunkowego",
-    "slug": "/pl/strona-dla-biura-rachunkowego",
+    "title": "Strona internetowa dla fundacji i stowarzyszenia",
+    "slug": "/pl/strona-internetowa-dla-fundacji",
     "inbound": 1
   },
   {
-    "id": "singlepage-photographer.pl",
+    "id": "singlepage-auto-detailing-website-design.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla fotografa",
-    "slug": "/pl/strona-dla-fotografa",
+    "title": "Strona internetowa dla studia detailingu",
+    "slug": "/pl/strona-internetowa-dla-studia-detailingu",
     "inbound": 1
   },
   {
-    "id": "singlepage-veterinary-clinic.pl",
+    "id": "singlepage-pozycjonowanie-warszawa.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla przychodni weterynaryjnej",
-    "slug": "/pl/strona-dla-przychodni-weterynaryjnej",
+    "title": "Pozycjonowanie stron w Warszawie",
+    "slug": "/pl/oferty/pozycjonowanie-stron-warszawa",
     "inbound": 1
   },
   {
-    "id": "singlepage-language-school.pl",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Tworzenie strony dla szkoły językowej",
-    "slug": "/pl/strona-dla-szkoly-jezykowej",
-    "inbound": 1
-  },
-  {
-    "id": "5ddf5532-8ec3-4bb8-a031-6fd3967aefc3",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Integracja CMS i API",
-    "slug": "/pl/oferty/integracja-cms-i-api",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-australia.pl",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek australijski",
-    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-australijski",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-france.pl",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek francuski",
-    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-netherlands.pl",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek holenderski",
-    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-holenderski",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-ireland.pl",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek irlandzki",
-    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-irlandzki",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-italy.pl",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek włoski",
-    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-baltics.pl",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynki bałtyckie",
-    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-architecture-studio.ru",
+    "id": "singlepage-adult-seo.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для архитектурного бюро",
-    "slug": "/ru/sait-dlya-arhitekturnogo-byuro",
+    "title": "SEO для адалт-сайтов",
+    "slug": "/ru/seo-dlya-adalt-saitov",
     "inbound": 1
   },
   {
-    "id": "singlepage-accounting-firm.ru",
+    "id": "singlepage-car-rental-seo.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для бухгалтерской фирмы",
-    "slug": "/ru/sait-dlya-buhgalterskoy-firmy",
+    "title": "Продвижение проката автомобилей",
+    "slug": "/ru/prodvizhenie-prokata-avtomobiley",
     "inbound": 1
   },
   {
-    "id": "singlepage-veterinary-clinic.ru",
+    "id": "singlepage-gym-seo.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для ветеринарной клиники",
-    "slug": "/ru/sait-dlya-veterinarnoy-kliniki",
+    "title": "Продвижение фитнес-клуба",
+    "slug": "/ru/prodvizhenie-fitnes-kluba",
     "inbound": 1
   },
   {
-    "id": "singlepage-recruitment-agency.ru",
+    "id": "singlepage-auto-detailing-website-design.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для кадрового агентства",
-    "slug": "/ru/sait-dlya-kadrovogo-agentstva",
+    "title": "Сайт детейлинг-студии",
+    "slug": "/ru/sait-deteyling-studii",
     "inbound": 1
   },
   {
-    "id": "singlepage-travel-agency.ru",
+    "id": "singlepage-adult-website-design.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для турагентства",
-    "slug": "/ru/sait-dlya-turagentstva",
+    "title": "Сайт для адалт-проекта",
+    "slug": "/ru/sait-dlya-adalt-proekta",
     "inbound": 1
   },
   {
-    "id": "singlepage-photographer.ru",
+    "id": "singlepage-life-coach-website-design.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для фотографа",
-    "slug": "/ru/sait-dlya-fotografa",
+    "title": "Сайт для коуча",
+    "slug": "/ru/sait-dlya-koucha",
     "inbound": 1
   },
   {
-    "id": "singlepage-language-school.ru",
+    "id": "d0eb4a85-35a0-4738-be86-148e6cbdb398",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для языковой школы",
-    "slug": "/ru/sait-dlya-yazykovoy-shkoly",
+    "title": "SEO для продвижения недвижимости на Кипре",
+    "slug": "/ru/seo-dlya-nedvizhimosti-na-kipre",
     "inbound": 1
   },
   {
-    "id": "835b0b35-29d4-4854-9d8a-bb3c52c0e468",
+    "id": "singlepage-pozycjonowanie-warszawa.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Создание сайта модели и фотомодели",
-    "slug": "/ru/sozdanie-saita-modeli",
+    "title": "Продвижение сайтов в Варшаве",
+    "slug": "/ru/uslugi/prodvizhenie-saitov-varshava",
     "inbound": 1
   },
   {
-    "id": "singlepage-seo-australia.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "SEO-продвижение сайта на австралийский рынок",
-    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-avstraliyskiy-rynok",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-italy.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "SEO-продвижение сайта на итальянский рынок",
-    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-baltics.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "SEO-продвижение сайта на рынки Балтии",
-    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-rynki-baltii",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-ireland.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Продвижение сайта в Ирландии",
-    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-netherlands.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Продвижение сайта в Нидерландах",
-    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-seo-france.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Продвижение сайта во Франции",
-    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-portugal.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Разработка сайтов для бизнеса в Португалии",
-    "slug": "/ru/uslugi/lokacii/razrabotka-saitov-portugaliya",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-thailand.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Разработка сайтов для бизнеса в Таиланде",
-    "slug": "/ru/uslugi/lokacii/razrabotka-saitov-tailand",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-montenegro.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Разработка сайтов для бизнеса в Черногории",
-    "slug": "/ru/uslugi/lokacii/razrabotka-saitov-chernogoriya",
-    "inbound": 1
-  },
-  {
-    "id": "singlepage-georgia.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Разработка сайтов для компаний в Грузии",
-    "slug": "/ru/uslugi/lokacii/razrabotka-saitov-gruziya",
-    "inbound": 1
-  },
-  {
-    "id": "blog-psychologist-website-checklist",
+    "id": "blog-construction-website-cost",
     "type": "blog",
     "lang": "en",
-    "title": "What a Psychologist Website Needs: A Section-by-Section Breakdown",
-    "slug": "/blog/what-a-psychologist-website-needs",
+    "title": "How Much a Construction Company Website Costs: Price and Scope",
+    "slug": "/blog/construction-company-website-cost",
     "inbound": 2
   },
   {
@@ -765,14 +621,6 @@
     "lang": "en",
     "title": "How Much a Beauty Salon Website Costs: A Complete Pricing Guide",
     "slug": "/blog/beauty-salon-website-cost",
-    "inbound": 2
-  },
-  {
-    "id": "blog-ai-outdated-information",
-    "type": "blog",
-    "lang": "en",
-    "title": "Where AI Gets Outdated Information About Your Company",
-    "slug": "/blog/where-ai-gets-outdated-information-about-your-company",
     "inbound": 2
   },
   {
@@ -800,27 +648,19 @@
     "inbound": 2
   },
   {
-    "id": "blog-psychologist-website-checklist.pl",
+    "id": "blog-beauty-salon-website-cost.pl",
     "type": "blog",
     "lang": "pl",
-    "title": "Co powinno być na stronie psychologa: rozbiór sekcja po sekcji",
-    "slug": "/pl/blog/co-powinno-byc-na-stronie-psychologa",
+    "title": "Ile kosztuje strona dla salonu kosmetycznego: kompletny przewodnik po cenie",
+    "slug": "/pl/blog/ile-kosztuje-strona-dla-salonu-kosmetycznego",
     "inbound": 2
   },
   {
-    "id": "blog-construction-website-cost.pl",
+    "id": "blog-ai-brand-monitoring.pl",
     "type": "blog",
     "lang": "pl",
-    "title": "Ile kosztuje strona dla firmy budowlanej: cena i zakres prac",
-    "slug": "/pl/blog/ile-kosztuje-strona-dla-firmy-budowlanej",
-    "inbound": 2
-  },
-  {
-    "id": "blog-ai-outdated-information.pl",
-    "type": "blog",
-    "lang": "pl",
-    "title": "Skąd AI bierze nieaktualne informacje o Twojej firmie",
-    "slug": "/pl/blog/skad-ai-bierze-nieaktualne-informacje-o-firmie",
+    "title": "Monitoring wzmianek o marce w odpowiedziach AI: jak go prowadzić",
+    "slug": "/pl/blog/monitoring-wzmianek-o-marce-w-odpowiedziach-ai",
     "inbound": 2
   },
   {
@@ -840,43 +680,11 @@
     "inbound": 2
   },
   {
-    "id": "996d404e-2638-48ec-95f3-9ef5c06bf74e",
+    "id": "blog-beauty-salon-website-cost.ru",
     "type": "blog",
     "lang": "ru",
-    "title": "Сколько стоит создание сайта на Кипре в 2026 году",
-    "slug": "/ru/blog/skolko-stoit-sozdanie-saita-na-kipre",
-    "inbound": 2
-  },
-  {
-    "id": "blog-psychologist-website-checklist.ru",
-    "type": "blog",
-    "lang": "ru",
-    "title": "Что должно быть на сайте психолога: разбор по разделам",
-    "slug": "/ru/blog/chto-dolzhno-byt-na-saite-psihologa",
-    "inbound": 2
-  },
-  {
-    "id": "blog-construction-website-cost.ru",
-    "type": "blog",
-    "lang": "ru",
-    "title": "Сколько стоит сайт для строительной компании: цена и что в неё входит",
-    "slug": "/ru/blog/skolko-stoit-sait-dlya-stroitelnoy-kompanii",
-    "inbound": 2
-  },
-  {
-    "id": "blog-ai-outdated-information.ru",
-    "type": "blog",
-    "lang": "ru",
-    "title": "Откуда ИИ берёт устаревшие сведения о вашей компании",
-    "slug": "/ru/blog/otkuda-ii-beryot-ustarevshie-svedeniya-o-kompanii",
-    "inbound": 2
-  },
-  {
-    "id": "blog-legal-seo-cost.ru",
-    "type": "blog",
-    "lang": "ru",
-    "title": "Сколько стоит SEO-продвижение сайта юридической компании",
-    "slug": "/ru/blog/skolko-stoit-seo-yuristov",
+    "title": "Сколько стоит сайт салона красоты: полное руководство по цене",
+    "slug": "/ru/blog/skolko-stoit-sait-salona-krasoty",
     "inbound": 2
   },
   {
@@ -896,51 +704,171 @@
     "inbound": 2
   },
   {
-    "id": "singlepage-fitness-studio",
+    "id": "e0fd3298-9a46-4281-bbea-e23dca38284c",
     "type": "singlepage",
     "lang": "en",
-    "title": "Fitness studio website development",
-    "slug": "/fitness-studio-website",
+    "title": "About",
+    "slug": "/about",
     "inbound": 2
   },
   {
-    "id": "61a47860-d61d-499c-8606-1831231b222e",
+    "id": "singlepage-appliance-repair-seo",
     "type": "singlepage",
     "lang": "en",
-    "title": "Garage & Auto Repair Website Design and Development",
-    "slug": "/garage-and-auto-repair-website",
+    "title": "Appliance repair SEO",
+    "slug": "/appliance-repair-seo",
     "inbound": 2
   },
   {
-    "id": "singlepage-logistics-company",
+    "id": "singlepage-car-dealer-website-design",
     "type": "singlepage",
     "lang": "en",
-    "title": "Transport company website development",
-    "slug": "/logistics-company-website",
+    "title": "Car dealer website design",
+    "slug": "/car-dealer-website-design",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-financial-advisor-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Financial advisor SEO for independent advisors and RIAs",
+    "slug": "/financial-advisor-seo",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-financial-advisor-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Financial advisor website design",
+    "slug": "/financial-advisor-website-design",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-florist-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Florist website design and development",
+    "slug": "/florist-website-design",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-food-truck-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Food truck website design and development",
+    "slug": "/food-truck-website-design",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-garage-door-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Garage door SEO",
+    "slug": "/garage-door-seo",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-insurance-agency-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Insurance agency website design",
+    "slug": "/insurance-agency-website-design",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-insurance-agency-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Insurance agent SEO and insurance agency SEO",
+    "slug": "/insurance-agency-seo",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-life-coach-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Life coach website design",
+    "slug": "/life-coach-website-design",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-mortgage-broker-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Mortgage broker SEO for brokers and loan officers",
+    "slug": "/mortgage-broker-seo",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-personal-trainer-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Personal trainer website design",
+    "slug": "/personal-trainer-website-design",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-accounting-firm-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Accounting Firms",
+    "slug": "/seo-for-accounting-firms",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-flooring-companies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for flooring companies",
+    "slug": "/seo-for-flooring-companies",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-home-inspectors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for home inspectors",
+    "slug": "/seo-for-home-inspectors",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-painting-contractors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for painting contractors",
+    "slug": "/seo-for-painting-contractors",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-recruitment-agencies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for recruitment agencies",
+    "slug": "/seo-for-recruitment-agencies",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-tour-operators",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for tour operators",
+    "slug": "/seo-for-tour-operators",
     "inbound": 2
   },
   {
     "id": "dab61d1a-28d8-4a10-a2c4-de17399cdbe7",
     "type": "singlepage",
     "lang": "en",
-    "title": "Website Development for Beauty Professionals That Attracts and Converts",
+    "title": "Website Development for Beauty Businesses",
     "slug": "/website-development-for-beauty-professionals",
     "inbound": 2
   },
   {
-    "id": "service-ai-misinformation-correction",
+    "id": "singlepage-winery-seo",
     "type": "singlepage",
     "lang": "en",
-    "title": "Correcting wrong information about your company in AI answers",
-    "slug": "/services/fix-ai-misinformation",
-    "inbound": 2
-  },
-  {
-    "id": "service-local-seo",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Local SEO for businesses with an address",
-    "slug": "/services/local-seo-services",
+    "title": "Winery SEO",
+    "slug": "/winery-seo",
     "inbound": 2
   },
   {
@@ -984,11 +912,83 @@
     "inbound": 2
   },
   {
+    "id": "singlepage-shopify-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Shopify SEO Services",
+    "slug": "/services/shopify-seo-services",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-australia",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Australian market",
+    "slug": "/services/locations/seo-for-australian-market",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-baltics",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Baltic markets",
+    "slug": "/services/locations/seo-for-baltic-markets",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-netherlands",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Dutch market",
+    "slug": "/services/locations/seo-for-dutch-market",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-france",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the French market",
+    "slug": "/services/locations/seo-for-french-market",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-ireland",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Irish market",
+    "slug": "/services/locations/seo-for-irish-market",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-italy",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website SEO and AI search for the Italian market",
+    "slug": "/services/locations/seo-for-italian-market",
+    "inbound": 2
+  },
+  {
     "id": "singlepage-seo-usa",
     "type": "singlepage",
     "lang": "en",
     "title": "Website SEO and AI search for the US market",
     "slug": "/services/locations/seo-for-us-market",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-montenegro",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for businesses in Montenegro",
+    "slug": "/services/locations/website-development-montenegro",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-portugal",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website development for businesses in Portugal",
+    "slug": "/services/locations/website-development-portugal",
     "inbound": 2
   },
   {
@@ -1000,35 +1000,235 @@
     "inbound": 2
   },
   {
-    "id": "6d8ed7b1-9fac-49b9-b25f-632f52e94ae3",
+    "id": "singlepage-thailand",
     "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie strony salonu kosmetycznego",
-    "slug": "/pl/seo-salonu-kosmetycznego",
+    "lang": "en",
+    "title": "Website development for businesses in Thailand",
+    "slug": "/services/locations/website-development-thailand",
     "inbound": 2
   },
   {
-    "id": "c8cf5d0e-433d-4b3c-b080-2ceaef128848",
+    "id": "singlepage-georgia",
     "type": "singlepage",
-    "lang": "pl",
-    "title": "SEO dla stron nieruchomości na Cyprze",
-    "slug": "/pl/seo-dla-nieruchomosci-na-cyprze",
+    "lang": "en",
+    "title": "Website development for companies in Georgia",
+    "slug": "/services/locations/website-development-georgia",
     "inbound": 2
   },
   {
-    "id": "55f6003b-f543-4591-8bea-d1a327144c73",
+    "id": "4de72361-ec2a-469d-8b56-813ddbf3adca",
     "type": "singlepage",
-    "lang": "pl",
-    "title": "SEO dla warsztatu samochodowego",
-    "slug": "/pl/seo-dla-warsztatu-samochodowego",
+    "lang": "en",
+    "title": "Services",
+    "slug": "/services",
     "inbound": 2
   },
   {
-    "id": "f62631da-bb64-44fb-8a41-6f2ee35d13c5",
+    "id": "5fb61b86-903d-4cdb-81b6-55ce34d1d319",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie stron dla warsztatów samochodowych",
-    "slug": "/pl/tworzenie-stron-dla-warsztatow-samochodowych",
+    "title": "O mnie",
+    "slug": "/pl/o-mnie",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-recruitment-agencies.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony agencji pracy",
+    "slug": "/pl/pozycjonowanie-strony-agencji-pracy",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-insurance-agency-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony agenta ubezpieczeniowego",
+    "slug": "/pl/pozycjonowanie-strony-agenta-ubezpieczeniowego",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-architects.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony biura architektonicznego",
+    "slug": "/pl/pozycjonowanie-strony-biura-architektonicznego",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-tour-operators.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony biura podróży",
+    "slug": "/pl/pozycjonowanie-strony-biura-podrozy",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-financial-advisor-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony doradcy finansowego",
+    "slug": "/pl/pozycjonowanie-strony-doradcy-finansowego",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-garage-door-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy bram garażowych",
+    "slug": "/pl/pozycjonowanie-strony-firmy-bram-garazowych",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-solar-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy fotowoltaicznej",
+    "slug": "/pl/pozycjonowanie-strony-firmy-fotowoltaicznej",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-flooring-companies.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy montażu podłóg",
+    "slug": "/pl/pozycjonowanie-strony-firmy-montazu-podlog",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-home-inspectors.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy odbiorów mieszkań",
+    "slug": "/pl/pozycjonowanie-strony-firmy-odbiorow-mieszkan",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-tree-service-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy wycinki drzew",
+    "slug": "/pl/pozycjonowanie-strony-firmy-wycinki-drzew",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-photographer-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony fotografa",
+    "slug": "/pl/pozycjonowanie-strony-fotografa",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-appliance-repair-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony serwisu AGD",
+    "slug": "/pl/pozycjonowanie-strony-serwisu-agd",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-winery-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony winnicy",
+    "slug": "/pl/pozycjonowanie-strony-winnicy",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-locksmith-seo.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony ślusarza",
+    "slug": "/pl/pozycjonowanie-strony-slusarza",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-insurance-agency-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla agenta ubezpieczeniowego",
+    "slug": "/pl/strona-internetowa-dla-agenta-ubezpieczeniowego",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-accounting-firm.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla biura rachunkowego",
+    "slug": "/pl/strona-dla-biura-rachunkowego",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-financial-advisor-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla doradcy finansowego",
+    "slug": "/pl/strona-internetowa-dla-doradcy-finansowego",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-food-truck-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla food trucka",
+    "slug": "/pl/strona-internetowa-dla-food-trucka",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-car-dealer-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla komisu samochodowego",
+    "slug": "/pl/strona-internetowa-dla-komisu-samochodowego",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-florist-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla kwiaciarni",
+    "slug": "/pl/strona-internetowa-dla-kwiaciarni",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-author-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla pisarza",
+    "slug": "/pl/strona-internetowa-dla-pisarza",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-daycare-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla przedszkola i żłobka",
+    "slug": "/pl/strona-internetowa-dla-przedszkola",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-personal-trainer-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla trenera personalnego",
+    "slug": "/pl/strona-internetowa-dla-trenera-personalnego",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-makeup-artist-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla wizażystki",
+    "slug": "/pl/strona-internetowa-dla-wizazystki",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-band-website-design.pl",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla zespołu muzycznego",
+    "slug": "/pl/strona-internetowa-dla-zespolu-muzycznego",
     "inbound": 2
   },
   {
@@ -1040,163 +1240,299 @@
     "inbound": 2
   },
   {
-    "id": "singlepage-cleaning-company.pl",
+    "id": "singlepage-veterinary-clinic.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla firmy sprzątającej",
-    "slug": "/pl/strona-dla-firmy-sprzatajacej",
+    "title": "Tworzenie strony dla przychodni weterynaryjnej",
+    "slug": "/pl/strona-dla-przychodni-weterynaryjnej",
     "inbound": 2
   },
   {
-    "id": "singlepage-logistics-company.pl",
+    "id": "singlepage-seo-baltics.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla firmy transportowej",
-    "slug": "/pl/strona-dla-firmy-transportowej",
+    "title": "Pozycjonowanie stron na Litwie, Łotwie i w Estonii",
+    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",
     "inbound": 2
   },
   {
-    "id": "singlepage-restaurant.pl",
+    "id": "singlepage-seo-australia.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla restauracji",
-    "slug": "/pl/strona-dla-restauracji",
+    "title": "Pozycjonowanie stron w Australii",
+    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-australijski",
     "inbound": 2
   },
   {
-    "id": "singlepage-fitness-studio.pl",
+    "id": "singlepage-seo-netherlands.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony dla studia fitness",
-    "slug": "/pl/strona-dla-studia-fitness",
+    "title": "Pozycjonowanie stron w Holandii",
+    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-holenderski",
     "inbound": 2
   },
   {
-    "id": "service-ai-misinformation-correction.pl",
+    "id": "singlepage-seo-ireland.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Poprawa błędnych informacji o firmie w odpowiedziach AI",
-    "slug": "/pl/oferty/poprawa-blednych-danych-w-ai",
+    "title": "Pozycjonowanie stron w Irlandii",
+    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-irlandzki",
     "inbound": 2
   },
   {
-    "id": "singlepage-medtourism-de-pl",
+    "id": "singlepage-seo-france.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie kliniki na pacjentów z Niemiec",
-    "slug": "/pl/oferty/pozycjonowanie-kliniki-na-pacjentow-z-niemiec",
+    "title": "Pozycjonowanie stron we Francji",
+    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski",
     "inbound": 2
   },
   {
-    "id": "singlepage-seo-usa.pl",
+    "id": "singlepage-seo-italy.pl",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek amerykański",
-    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-amerykanski",
+    "title": "Pozycjonowanie stron we Włoszech",
+    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski",
     "inbound": 2
   },
   {
-    "id": "singlepage-seo-switzerland.pl",
+    "id": "c8cf5d0e-433d-4b3c-b080-2ceaef128848",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek szwajcarski",
-    "slug": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-szwajcarski",
+    "title": "SEO dla stron nieruchomości na Cyprze",
+    "slug": "/pl/seo-dla-nieruchomosci-na-cyprze",
     "inbound": 2
   },
   {
-    "id": "singlepage-seo-restauracja-warszawa.pl",
+    "id": "631d883e-6f87-4346-9c6d-48b596c2daa7",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie strony restauracji w Warszawie",
-    "slug": "/pl/oferty/pozycjonowanie-strony-restauracji-warszawa",
+    "title": "Oferty",
+    "slug": "/pl/oferty",
     "inbound": 2
   },
   {
-    "id": "078241d2-78f2-4f3c-a919-022e1de7b2da",
+    "id": "55558168-9538-43ee-be55-6f7f62a777ef",
     "type": "singlepage",
     "lang": "ru",
-    "title": "SEO для недвижимости: продвижение сайта, трафик и клиенты из поиска",
-    "slug": "/ru/seo-dlya-nedvizhimosti",
+    "title": "Обо мне",
+    "slug": "/ru/obo-mne",
     "inbound": 2
   },
   {
-    "id": "d0eb4a85-35a0-4738-be86-148e6cbdb398",
+    "id": "singlepage-veterinary-seo.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "SEO для продвижения недвижимости на Кипре",
-    "slug": "/ru/seo-dlya-nedvizhimosti-na-kipre",
+    "title": "Продвижение ветеринарной клиники",
+    "slug": "/ru/prodvizhenie-veterinarnoy-kliniki",
     "inbound": 2
   },
   {
-    "id": "4238514d-8c66-4766-8b78-71675a466b7a",
+    "id": "singlepage-winery-seo.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "SEO-продвижение автосервиса с оптимизацией под ИИ-поиск",
-    "slug": "/ru/seo-prodvizhenie-avtoservisa",
+    "title": "Продвижение винодельни",
+    "slug": "/ru/prodvizhenie-vinodelni",
     "inbound": 2
   },
   {
-    "id": "79ec90f6-dd97-4c3d-8378-83a4512cc676",
+    "id": "singlepage-seo-for-flooring-companies.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "SEO-продвижение сайта салона красоты",
-    "slug": "/ru/seo-salona-krasoty",
+    "title": "Продвижение компании по укладке напольных покрытий",
+    "slug": "/ru/prodvizhenie-ukladki-napolnyh-pokrytiy",
     "inbound": 2
   },
   {
-    "id": "singlepage-cleaning-company.ru",
+    "id": "singlepage-garage-door-seo.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для клининговой компании",
-    "slug": "/ru/sait-dlya-kliningovoy-kompanii",
+    "title": "Продвижение сайта автоматических ворот",
+    "slug": "/ru/prodvizhenie-saita-avtomaticheskih-vorot",
     "inbound": 2
   },
   {
-    "id": "singlepage-restaurant.ru",
+    "id": "singlepage-locksmith-seo.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для ресторана",
-    "slug": "/ru/sait-dlya-restorana",
+    "title": "Продвижение сайта вскрытия замков",
+    "slug": "/ru/prodvizhenie-saita-vskrytiya-zamkov",
     "inbound": 2
   },
   {
-    "id": "singlepage-logistics-company.ru",
+    "id": "singlepage-seo-for-recruitment-agencies.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для транспортной компании",
-    "slug": "/ru/sait-dlya-transportnoy-kompanii",
+    "title": "Продвижение сайта кадрового агентства",
+    "slug": "/ru/prodvizhenie-saita-kadrovogo-agentstva",
     "inbound": 2
   },
   {
-    "id": "singlepage-fitness-studio.ru",
+    "id": "singlepage-tree-service-seo.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка сайта для фитнес-студии",
-    "slug": "/ru/sait-dlya-fitnes-studii",
+    "title": "Продвижение сайта по спилу деревьев",
+    "slug": "/ru/prodvizhenie-saita-spila-derevev",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-home-inspectors.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта приёмки квартир",
+    "slug": "/ru/prodvizhenie-saita-priemki-kvartir",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-appliance-repair-seo.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта ремонта бытовой техники",
+    "slug": "/ru/prodvizhenie-remonta-bytovoy-tehniki",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-solar-seo.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта солнечных панелей",
+    "slug": "/ru/prodvizhenie-saita-solnechnyh-panelei",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-insurance-agency-seo.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта страхового агента",
+    "slug": "/ru/prodvizhenie-saita-strahovogo-agenta",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-financial-advisor-seo.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта финансового консультанта",
+    "slug": "/ru/prodvizhenie-saita-finansovogo-konsultanta",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-seo-for-tour-operators.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение туроператора",
+    "slug": "/ru/prodvizhenie-turoperatora",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-architecture-studio.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайта для архитектурного бюро",
+    "slug": "/ru/sait-dlya-arhitekturnogo-byuro",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-makeup-artist-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт визажиста",
+    "slug": "/ru/sait-vizazhista",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-accounting-firm.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для бухгалтерской фирмы",
+    "slug": "/ru/sait-dlya-buhgalterskoy-firmy",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-daycare-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для детского сада",
+    "slug": "/ru/sait-dlya-detskogo-sada",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-band-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для музыкальной группы",
+    "slug": "/ru/sait-dlya-muzykalnoy-gruppy",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-author-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для писателя",
+    "slug": "/ru/sait-dlya-pisatelya",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-insurance-agency-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для страхового агента",
+    "slug": "/ru/sait-dlya-strahovogo-agenta",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-financial-advisor-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для финансового консультанта",
+    "slug": "/ru/sait-dlya-finansovogo-konsultanta",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-personal-trainer-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для фитнес-тренера",
+    "slug": "/ru/sait-dlya-fitnes-trenera",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-food-truck-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для фудтрака",
+    "slug": "/ru/sait-dlya-fudtraka",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-florist-website-design.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт цветочного магазина",
+    "slug": "/ru/sait-cvetochnogo-magazina",
     "inbound": 2
   },
   {
     "id": "4128719c-e187-4191-9120-eee3f5f9fa6f",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Создание сайтов для бьюти-услуг, которые приносят клиентов",
+    "title": "Создание сайтов для бьюти-услуг",
     "slug": "/ru/sozdanie-saitov-dlya-byuti-uslug",
     "inbound": 2
   },
   {
-    "id": "fe3ab5a9-816f-4562-b412-602ef6bd1bb1",
+    "id": "singlepage-seo-australia.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Интеграция CMS и API",
-    "slug": "/ru/uslugi/integraciya-cms-i-api",
+    "title": "SEO-продвижение сайта на австралийский рынок",
+    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-avstraliyskiy-rynok",
     "inbound": 2
   },
   {
-    "id": "service-ai-misinformation-correction.ru",
+    "id": "singlepage-seo-baltics.ru",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Исправление неверных данных о компании в ИИ-ответах",
-    "slug": "/ru/uslugi/ispravlenie-nevernyh-dannyh-v-ii",
+    "title": "SEO-продвижение сайта на рынки Балтии",
+    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-rynki-baltii",
     "inbound": 2
   },
   {
@@ -1205,14 +1541,6 @@
     "lang": "ru",
     "title": "Продвижение и раскрутка клиники в Польше на немецких пациентов",
     "slug": "/ru/uslugi/prodvizhenie-kliniki-v-polshe-na-nemeckih-pacientov",
-    "inbound": 2
-  },
-  {
-    "id": "singlepage-seo-restauracja-warszawa.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Продвижение и раскрутка сайта ресторана в Варшаве",
-    "slug": "/ru/uslugi/prodvizhenie-saita-restorana-varshava",
     "inbound": 2
   },
   {
@@ -1240,14 +1568,6 @@
     "inbound": 2
   },
   {
-    "id": "singlepage-seo-usa.ru",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Продвижение сайта в США",
-    "slug": "/ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok",
-    "inbound": 2
-  },
-  {
     "id": "singlepage-swiss-consulting.ru",
     "type": "singlepage",
     "lang": "ru",
@@ -1269,6 +1589,46 @@
     "lang": "ru",
     "title": "Разработка сайтов для бизнеса в Испании",
     "slug": "/ru/uslugi/lokacii/razrabotka-saitov-ispaniya",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-portugal.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для бизнеса в Португалии",
+    "slug": "/ru/uslugi/lokacii/razrabotka-saitov-portugaliya",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-thailand.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для бизнеса в Таиланде",
+    "slug": "/ru/uslugi/lokacii/razrabotka-saitov-tailand",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-montenegro.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для бизнеса в Черногории",
+    "slug": "/ru/uslugi/lokacii/razrabotka-saitov-chernogoriya",
+    "inbound": 2
+  },
+  {
+    "id": "singlepage-georgia.ru",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка сайтов для компаний в Грузии",
+    "slug": "/ru/uslugi/lokacii/razrabotka-saitov-gruziya",
+    "inbound": 2
+  },
+  {
+    "id": "3774c0a1-8857-4149-be24-9a357af4be00",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Услуги",
+    "slug": "/ru/uslugi",
     "inbound": 2
   }
 ]

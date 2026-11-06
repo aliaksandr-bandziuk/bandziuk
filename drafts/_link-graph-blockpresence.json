@@ -393,6 +393,156 @@
       "tableBlock": 1
     }
   },
+  "blog-sitemap-lastmod": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 1
+    }
+  },
+  "blog-ai-assistant-study": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "tableBlock": 9,
+      "imageFullBlock": 4
+    }
+  },
+  "blog-legalizacja-cudzoziemcy": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 7,
+      "tableBlock": 3,
+      "imageFullBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-new-site-first-month": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "imageFullBlock": 7,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-geo-vs-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 15,
+      "tableBlock": 7,
+      "imageFullBlock": 9,
+      "faqBlock": 1
+    }
+  },
+  "blog-what-is-geo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 14,
+      "tableBlock": 7,
+      "imageFullBlock": 6,
+      "faqBlock": 1
+    }
+  },
+  "blog-what-is-aeo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "tableBlock": 5,
+      "imageFullBlock": 5,
+      "faqBlock": 1
+    }
+  },
+  "blog-llm-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 11,
+      "imageFullBlock": 7,
+      "tableBlock": 4,
+      "faqBlock": 1
+    }
+  },
+  "blog-chatgpt-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 9,
+      "imageFullBlock": 5,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-attorney-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 9,
+      "imageFullBlock": 4,
+      "tableBlock": 4,
+      "faqBlock": 1
+    }
+  },
+  "blog-small-business-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 7,
+      "imageFullBlock": 3,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-small-business-website-cost": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 8,
+      "imageFullBlock": 4,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-seo-audit-value": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 3,
+      "imageFullBlock": 2
+    }
+  },
   "df268cec-62b6-4079-b231-591a5dfbbe07": {
     "textContent": true,
     "faqBlock": true,
@@ -773,6 +923,156 @@
     "allBlockTypes": {
       "textContent": 2,
       "tableBlock": 1
+    }
+  },
+  "blog-sitemap-lastmod.pl": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 1
+    }
+  },
+  "blog-ai-assistant-study.pl": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "tableBlock": 9,
+      "imageFullBlock": 4
+    }
+  },
+  "blog-legalizacja-cudzoziemcy.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 6,
+      "tableBlock": 2,
+      "imageFullBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-new-site-first-month.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "imageFullBlock": 7,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-geo-vs-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 15,
+      "tableBlock": 7,
+      "imageFullBlock": 9,
+      "faqBlock": 1
+    }
+  },
+  "blog-what-is-geo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 14,
+      "tableBlock": 7,
+      "imageFullBlock": 6,
+      "faqBlock": 1
+    }
+  },
+  "blog-what-is-aeo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "tableBlock": 5,
+      "imageFullBlock": 5,
+      "faqBlock": 1
+    }
+  },
+  "blog-llm-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 11,
+      "imageFullBlock": 7,
+      "tableBlock": 4,
+      "faqBlock": 1
+    }
+  },
+  "blog-chatgpt-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 9,
+      "imageFullBlock": 5,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-attorney-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 9,
+      "tableBlock": 4,
+      "imageFullBlock": 4,
+      "faqBlock": 1
+    }
+  },
+  "blog-small-business-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 8,
+      "imageFullBlock": 4,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-small-business-website-cost.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 8,
+      "imageFullBlock": 4,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-seo-audit-value.pl": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 3,
+      "imageFullBlock": 2
     }
   },
   "90cd9906-6186-4afd-be5c-1d1243f2c844": {
@@ -1170,6 +1470,156 @@
       "tableBlock": 1
     }
   },
+  "blog-sitemap-lastmod.ru": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 1
+    }
+  },
+  "blog-ai-assistant-study.ru": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "tableBlock": 9,
+      "imageFullBlock": 4
+    }
+  },
+  "blog-legalizacja-cudzoziemcy.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 6,
+      "tableBlock": 2,
+      "imageFullBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-new-site-first-month.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "imageFullBlock": 7,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-geo-vs-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 15,
+      "tableBlock": 7,
+      "imageFullBlock": 9,
+      "faqBlock": 1
+    }
+  },
+  "blog-what-is-geo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 14,
+      "tableBlock": 7,
+      "imageFullBlock": 6,
+      "faqBlock": 1
+    }
+  },
+  "blog-what-is-aeo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 10,
+      "tableBlock": 5,
+      "imageFullBlock": 5,
+      "faqBlock": 1
+    }
+  },
+  "blog-llm-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 11,
+      "imageFullBlock": 7,
+      "tableBlock": 4,
+      "faqBlock": 1
+    }
+  },
+  "blog-chatgpt-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 9,
+      "imageFullBlock": 5,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-attorney-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 9,
+      "imageFullBlock": 4,
+      "tableBlock": 4,
+      "faqBlock": 1
+    }
+  },
+  "blog-small-business-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 8,
+      "imageFullBlock": 4,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-small-business-website-cost.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 8,
+      "imageFullBlock": 4,
+      "tableBlock": 2,
+      "faqBlock": 1
+    }
+  },
+  "blog-seo-audit-value.ru": {
+    "textContent": true,
+    "faqBlock": false,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "textContent": 3,
+      "imageFullBlock": 2
+    }
+  },
   "e0fd3298-9a46-4281-bbea-e23dca38284c": {
     "textContent": true,
     "faqBlock": true,
@@ -1192,12 +1642,48 @@
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1,
-      "landingCtaBlock": 1
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-adult-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 2,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-adult-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 2,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-appliance-repair-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
     }
   },
   "singlepage-architecture-studio": {
@@ -1214,22 +1700,250 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-architecture-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-artist-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-author-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-auto-detailing-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-b2b-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-b2b-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bakery-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bakery-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-band-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "405bd22d-5aee-45a3-8f9b-108821d9006a": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bed-and-breakfast-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-cafe-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-cafe-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-cafe-website": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-dealer-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-dealer-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-rental-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-carpentry-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-carpet-cleaning-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -1247,6 +1961,58 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-catering-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-catering-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-charity-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-chiropractor-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-cleaning-company": {
     "textContent": true,
     "faqBlock": true,
@@ -1261,6 +2027,32 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-construction-company-website": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-construction-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "7d66c37d-0158-4aa4-9293-8f4a9e8891e9": {
     "textContent": true,
     "faqBlock": true,
@@ -1272,6 +2064,32 @@
       "formFullBlock": 1,
       "locationBlock": 1,
       "textContent": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-contractor-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-daycare-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -1290,6 +2108,110 @@
       "relatedServicesBlock": 1
     }
   },
+  "singlepage-dental-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-dentist-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-dermatology-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-ecommerce-web-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-electrician-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-farm-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-financial-advisor-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-financial-advisor-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-fitness-studio": {
     "textContent": true,
     "faqBlock": true,
@@ -1304,22 +2226,198 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-florist-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-florist-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-food-truck-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "61a47860-d61d-499c-8606-1831231b222e": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-garage-door-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-gym-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hvac-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hvac-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hvac-websites": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hair-salon-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-handyman-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-healthcare-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-home-builder-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hotel-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hotel-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -1337,6 +2435,110 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-it-company-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-insurance-agency-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-insurance-agency-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-interior-designer-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-jewelry-store-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-junk-removal-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-landscaping-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-landscaping-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-language-school": {
     "textContent": true,
     "faqBlock": true,
@@ -1351,22 +2553,172 @@
       "landingCtaBlock": 1
     }
   },
+  "dc0a0998-d7e5-485a-b405-233ebfcb1630": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-law-firm-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "f4a4b3c0-2d0e-4416-9909-04dcc667318b": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-lawn-care-website": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-life-coach-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-local-seo-for-contractors": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-local-seo-for-dentists": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-local-seo-for-lawyers": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-local-seo-for-plumbers": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-local-seo-for-small-business": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-locksmith-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-makeup-artist-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-manufacturing-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -1384,18 +2736,212 @@
       "landingCtaBlock": 1
     }
   },
-  "singlepage-multilingual-website": {
+  "singlepage-manufacturing-website-design": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1,
-      "landingCtaBlock": 1
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-med-spa-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-med-spa-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-medical-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-medical-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "636f4976-f588-4f6c-a386-23feb6570fbf": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-mortgage-broker-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-mortgage-broker-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-nonprofit-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-optometrist-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-optometry-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-orthodontist-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-personal-injury-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-personal-trainer-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pest-control-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pest-control-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
     }
   },
   "singlepage-photographer": {
@@ -1412,19 +2958,55 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-plastic-surgeon-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-plumbing-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pressure-washing-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-property-developer-website": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
-    "reviewsFullBlock": true,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
@@ -1432,15 +3014,25 @@
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
-    "reviewsFullBlock": true,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-realtor-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -1458,6 +3050,32 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-restaurant-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-restaurant-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-restaurant": {
     "textContent": true,
     "faqBlock": true,
@@ -1470,6 +3088,58 @@
       "stepsBlock": 1,
       "faqBlock": 1,
       "landingCtaBlock": 1
+    }
+  },
+  "singlepage-restoration-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-roofing-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-roofing-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-roofing-websites": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
     }
   },
   "16ee2ac2-4506-4d2e-bd9f-3519c5ecf794": {
@@ -1485,99 +3155,744 @@
       "faqBlock": 1
     }
   },
+  "singlepage-accounting-firm-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-artist-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-author-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
   "923390d3-cf00-427c-bef1-2fdf903a7808": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
   "5869ba72-348b-498e-b419-861e52ccb6ef": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
-  "dc0a0998-d7e5-485a-b405-233ebfcb1630": {
+  "singlepage-carpentry-seo": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
+      "offerListBlock": 1,
       "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
-      "faqBlock": 1,
-      "formMinimalBlock": 1
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-coaching-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-courier-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-daycare-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-debt-collection-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-driving-school-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-furniture-store-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-it-companies": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-massage-therapy-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-musician-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-nail-salon-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pharmacy-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-photographer-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-physiotherapy-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
     }
   },
   "9b8d7d33-0df4-4d4f-967c-9ff454a07a39": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
-  "3399fa5f-8de5-4b6c-8b31-6b5068b9692f": {
+  "singlepage-remodeling-seo": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
+      "offerListBlock": 1,
       "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-security-company-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tattoo-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-wedding-planner-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-handyman-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-architects": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-chiropractors": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-construction-companies": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-contractors": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-dermatologists": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-doctors": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-electricians": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-flooring-companies": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-home-builders": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-home-inspectors": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-interior-designers": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-moving-companies": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-nonprofit-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-orthodontists": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-painting-contractors": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-plastic-surgeons": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-plumbers": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-real-estate-developers": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-realtors": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-recruitment-agencies": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-solar-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-startups": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-therapists": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-tour-operators": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-services-for-small-business": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-saas-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-saas-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-senior-living-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-senior-living-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-small-business-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-spa-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-startup-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -1593,6 +3908,32 @@
       "stepsBlock": 1,
       "faqBlock": 1,
       "landingCtaBlock": 1
+    }
+  },
+  "singlepage-tattoo-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-psychologists-therapists": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
     }
   },
   "singlepage-logistics-company": {
@@ -1623,6 +3964,45 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-tree-service-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-vacation-rental-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-veterinary-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-veterinary-clinic": {
     "textContent": true,
     "faqBlock": true,
@@ -1637,76 +4017,42 @@
       "landingCtaBlock": 1
     }
   },
-  "d629bed8-f17a-47df-9ced-ba4c8236a463": {
+  "singlepage-veterinary-website-design": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
-  "636f4976-f588-4f6c-a386-23feb6570fbf": {
+  "d629bed8-f17a-47df-9ced-ba4c8236a463": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
+      "offerListBlock": 1,
       "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
   "dab61d1a-28d8-4a10-a2c4-de17399cdbe7": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
-      "faqBlock": 1
-    }
-  },
-  "singlepage-psychologists-therapists": {
-    "textContent": true,
-    "faqBlock": true,
     "doubleTextBlock": false,
-    "reviewsFullBlock": true,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
@@ -1738,6 +4084,45 @@
       "landingCtaBlock": 1
     }
   },
+  "singlepage-website-for-contractors": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-website-for-electricians": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-website-for-plumbers": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-platform-migration": {
     "textContent": true,
     "faqBlock": true,
@@ -1750,6 +4135,58 @@
       "stepsBlock": 1,
       "faqBlock": 1,
       "landingCtaBlock": 1
+    }
+  },
+  "singlepage-winery-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-winery-website-design": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-ai-seo-consultant": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-ai-seo-services": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
     }
   },
   "service-ai-brand-monitoring": {
@@ -1778,16 +4215,17 @@
       "faqBlock": 1
     }
   },
-  "831dc620-2863-4d55-baa0-aa874a7374ac": {
+  "singlepage-answer-engine-optimization": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "serviceFeaturesBlock": 1,
-      "textContent": 2,
-      "tableBlock": 1,
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
       "imageFullBlock": 1,
+      "stepsBlock": 1,
       "faqBlock": 1
     }
   },
@@ -1798,9 +4236,35 @@
     "reviewsFullBlock": false,
     "allBlockTypes": {
       "serviceFeaturesBlock": 1,
-      "textContent": 2,
+      "textContent": 3,
       "tableBlock": 1,
       "imageFullBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-chatgpt-seo-services": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-conversion-rate-optimization-services": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -1817,6 +4281,33 @@
       "faqBlock": 1
     }
   },
+  "singlepage-ecommerce-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "imageFullBlock": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "831dc620-2863-4d55-baa0-aa874a7374ac": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "serviceFeaturesBlock": 1,
+      "textContent": 2,
+      "tableBlock": 1,
+      "imageFullBlock": 1,
+      "faqBlock": 1
+    }
+  },
   "service-international-seo": {
     "textContent": true,
     "faqBlock": true,
@@ -1827,6 +4318,19 @@
       "gridBlock": 1,
       "textContent": 1,
       "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-llm-seo-services": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -1856,6 +4360,33 @@
       "faqBlock": 1
     }
   },
+  "singlepage-multilingual-website": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1,
+      "landingCtaBlock": 1
+    }
+  },
+  "singlepage-nextjs-development-services": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "service-ai-search-readiness": {
     "textContent": true,
     "faqBlock": true,
@@ -1882,6 +4413,19 @@
       "faqBlock": 1
     }
   },
+  "singlepage-seo-consultant": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-medtourism-de-pl.en": {
     "textContent": true,
     "faqBlock": true,
@@ -1892,6 +4436,25 @@
       "gridBlock": 1,
       "textContent": 1,
       "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "3399fa5f-8de5-4b6c-8b31-6b5068b9692f": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": true,
+    "reviewsFullBlock": true,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "doubleTextBlock": 2,
+      "serviceFeaturesBlock": 1,
+      "workProcessBlock": 1,
+      "landingCtaBlock": 1,
+      "textContent": 4,
+      "tableBlock": 1,
+      "reviewsFullBlock": 1,
+      "gridBlock": 1,
+      "formFullBlock": 1,
       "faqBlock": 1
     }
   },
@@ -1999,6 +4562,33 @@
       "faqBlock": 1
     }
   },
+  "singlepage-shopify-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "imageFullBlock": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-technical-seo": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
   "service-traffic-drop-recovery": {
     "textContent": true,
     "faqBlock": true,
@@ -2032,10 +4622,10 @@
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "serviceFeaturesBlock": 1,
-      "textContent": 2,
-      "tableBlock": 1,
-      "imageFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
@@ -2274,6 +4864,46 @@
       "faqBlock": 1
     }
   },
+  "singlepage-website-maintenance": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-website-redesign": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "imageFullBlock": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-wordpress-development-services": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-locations": {
     "textContent": true,
     "faqBlock": false,
@@ -2290,10 +4920,9 @@
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "textContent": 2,
-      "imageFullBlock": 1,
+      "textContent": 1,
       "faqBlock": 1,
-      "relatedServicesBlock": 5
+      "relatedServicesBlock": 6
     }
   },
   "70ddf25f-9982-4f9c-a81b-084ff5e9dbf6": {
@@ -2362,137 +4991,1314 @@
       "faqBlock": 1
     }
   },
-  "6d8ed7b1-9fac-49b9-b25f-632f52e94ae3": {
+  "singlepage-pozycjonowanie-stron-bialystok.pl": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
-  "1c9c94f6-3eb3-4f2a-8e8e-7e7ce88ce196": {
+  "singlepage-pozycjonowanie-stron-bydgoszcz.pl": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
-      "faqBlock": 1,
-      "formMinimalBlock": 1
-    }
-  },
-  "c8cf5d0e-433d-4b3c-b080-2ceaef128848": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
-  "55f6003b-f543-4591-8bea-d1a327144c73": {
+  "singlepage-pozycjonowanie-stron-gdansk.pl": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-poznan.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-radom.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-szczecin.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-torun.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-wroclaw.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-adult-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 2,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
   "34295d10-118c-4e25-aacd-599fab92f23f": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-czestochowa.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-katowice.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-krakow.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-lublin.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-opole.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-rzeszow.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pozycjonowanie-stron-lodz.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-saas-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-recruitment-agencies.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-realtors.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-insurance-agency-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-architects.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-tour-operators.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-plastic-surgeons.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-real-estate-developers.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-senior-living-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-financial-advisor-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pest-control-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-garage-door-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-construction-companies.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-home-builders.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-catering-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-solar-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-flooring-companies.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-home-inspectors.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-restoration-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-carpet-cleaning-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-manufacturing-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-moving-companies.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tree-service-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-junk-removal-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-photographer-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-dermatologists.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-chiropractors.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-orthodontists.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-dentist-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hotel-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "1c9c94f6-3eb3-4f2a-8e8e-7e7ce88ce196": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-cafe-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-med-spa-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-florist-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-services-for-small-business.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bakery-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-mortgage-broker-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-interior-designers.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-therapists.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-restaurant-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "6d8ed7b1-9fac-49b9-b25f-632f52e94ae3": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-optometry-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-dealer-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-appliance-repair-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-gym-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-jewelry-store-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "55f6003b-f543-4591-8bea-d1a327144c73": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-winery-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-rental-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-locksmith-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-realtor-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-insurance-agency-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-artist-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-accounting-firm.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
       "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-adult-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 2,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-plastic-surgeon-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-life-coach-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-financial-advisor-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pest-control-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-saas-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-construction-company-website.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-home-builder-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-catering-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pressure-washing-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-chiropractor-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-food-truck-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-nonprofit-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-dermatology-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-farm-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "9f22ba45-fc9d-4644-8d6f-ec4696618d63": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-cafe-website.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-med-spa-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-dealer-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-florist-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-medical-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-small-business-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
   "fc3bbb10-9408-4ceb-9d00-3a2f22b32b21": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
-  "a095405f-8a0a-4f89-ba80-8e287923e2a8": {
+  "singlepage-orthodontist-website-design.pl": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bed-and-breakfast-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bakery-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-author-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-mortgage-broker-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-interior-designer-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-daycare-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -2500,34 +6306,298 @@
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
-    "reviewsFullBlock": true,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
-  "f62631da-bb64-44fb-8a41-6f2ee35d13c5": {
+  "singlepage-hair-salon-website-design.pl": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-optometrist-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-spa-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-carpentry-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-auto-detailing-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tattoo-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-personal-trainer-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-winery-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-makeup-artist-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-band-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-handyman-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-senior-living-website-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "a095405f-8a0a-4f89-ba80-8e287923e2a8": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-ecommerce-web-design.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
       "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-bialystok.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-bydgoszcz.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-gdansk.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-poznan.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-radom.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-szczecin.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-torun.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-wroclaw.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -2535,34 +6605,25 @@
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
-    "reviewsFullBlock": true,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
   "a2b00f93-6d28-4b36-b2c9-e5c01867b5b4": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
+      "offerListBlock": 1,
       "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
@@ -2570,15 +6631,90 @@
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
-    "reviewsFullBlock": true,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-czestochowa.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-katowice.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-krakow.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-lublin.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-opole.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-rzeszow.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -2594,6 +6730,19 @@
       "stepsBlock": 1,
       "faqBlock": 1,
       "landingCtaBlock": 1
+    }
+  },
+  "singlepage-tworzenie-stron-internetowych-lodz.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
     }
   },
   "singlepage-recruitment-agency.pl": {
@@ -2625,20 +6774,6 @@
     }
   },
   "singlepage-travel-agency.pl": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": false,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1,
-      "landingCtaBlock": 1
-    }
-  },
-  "singlepage-accounting-firm.pl": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -2807,40 +6942,20 @@
       "landingCtaBlock": 1
     }
   },
-  "9f22ba45-fc9d-4644-8d6f-ec4696618d63": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
-      "faqBlock": 1
-    }
-  },
-  "singlepage-catalog-website.pl": {
+  "f62631da-bb64-44fb-8a41-6f2ee35d13c5": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1,
-      "landingCtaBlock": 1
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
     }
   },
-  "singlepage-multilingual-website.pl": {
+  "singlepage-catalog-website.pl": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -2866,19 +6981,6 @@
       "stepsBlock": 1,
       "faqBlock": 1,
       "landingCtaBlock": 1
-    }
-  },
-  "3a759a28-4135-4731-a318-cffee1b512f0": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": false,
-    "allBlockTypes": {
-      "serviceFeaturesBlock": 1,
-      "textContent": 2,
-      "tableBlock": 1,
-      "imageFullBlock": 1,
-      "faqBlock": 1
     }
   },
   "8b7c6b4c-412c-4fa1-b8f8-ec0a1b2816b5": {
@@ -2913,6 +7015,45 @@
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-ai-seo-consultant.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-consultant.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "3a759a28-4135-4731-a318-cffee1b512f0": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
       "serviceFeaturesBlock": 1,
       "textContent": 2,
       "tableBlock": 1,
@@ -2927,9 +7068,35 @@
     "reviewsFullBlock": false,
     "allBlockTypes": {
       "serviceFeaturesBlock": 1,
-      "textContent": 2,
+      "textContent": 3,
       "tableBlock": 1,
       "imageFullBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-consultation.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-llm-seo-services.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -2956,6 +7123,19 @@
       "gridBlock": 1,
       "textContent": 1,
       "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-conversion-rate-optimization-services.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -2998,7 +7178,34 @@
       "faqBlock": 1
     }
   },
-  "singlepage-seo-usa.pl": {
+  "singlepage-ecommerce-seo.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "imageFullBlock": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "77c5f5df-a6f3-49ca-8f42-f1439e3490c6": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "serviceFeaturesBlock": 1,
+      "textContent": 3,
+      "tableBlock": 1,
+      "imageFullBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-baltics.pl": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -3012,32 +7219,6 @@
     }
   },
   "singlepage-seo-australia.pl": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": false,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1
-    }
-  },
-  "singlepage-seo-uk.pl": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": false,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1
-    }
-  },
-  "singlepage-seo-france.pl": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -3102,7 +7283,7 @@
       "faqBlock": 1
     }
   },
-  "singlepage-seo-italy.pl": {
+  "singlepage-seo-usa.pl": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -3115,7 +7296,46 @@
       "faqBlock": 1
     }
   },
-  "singlepage-seo-baltics.pl": {
+  "singlepage-pozycjonowanie-warszawa.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-uk.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-france.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-italy.pl": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -3245,6 +7465,47 @@
       "faqBlock": 1
     }
   },
+  "singlepage-answer-engine-optimization.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "imageFullBlock": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-chatgpt-seo-services.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-website-redesign.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "imageFullBlock": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
   "service-ai-search-readiness.pl": {
     "textContent": true,
     "faqBlock": true,
@@ -3255,6 +7516,25 @@
       "gridBlock": 1,
       "textContent": 1,
       "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "c8cf5d0e-433d-4b3c-b080-2ceaef128848": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": true,
+    "reviewsFullBlock": true,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "doubleTextBlock": 2,
+      "serviceFeaturesBlock": 1,
+      "workProcessBlock": 1,
+      "landingCtaBlock": 1,
+      "textContent": 4,
+      "tableBlock": 1,
+      "reviewsFullBlock": 1,
+      "gridBlock": 1,
+      "formFullBlock": 1,
       "faqBlock": 1
     }
   },
@@ -3271,16 +7551,16 @@
       "faqBlock": 1
     }
   },
-  "77c5f5df-a6f3-49ca-8f42-f1439e3490c6": {
+  "singlepage-technical-seo.pl": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "serviceFeaturesBlock": 1,
-      "textContent": 2,
-      "tableBlock": 1,
-      "imageFullBlock": 1,
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
       "faqBlock": 1
     }
   },
@@ -3294,6 +7574,45 @@
       "gridBlock": 1,
       "textContent": 1,
       "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-wordpress-development-services.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-business-card-website.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-nextjs-development-services.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -3323,6 +7642,46 @@
       "faqBlock": 1
     }
   },
+  "singlepage-multilingual-website.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1,
+      "landingCtaBlock": 1
+    }
+  },
+  "singlepage-ai-seo-services.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-website-maintenance.pl": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
   "singlepage-locations.pl": {
     "textContent": true,
     "faqBlock": false,
@@ -3339,10 +7698,9 @@
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "textContent": 2,
-      "imageFullBlock": 1,
+      "textContent": 1,
       "faqBlock": 1,
-      "relatedServicesBlock": 6
+      "relatedServicesBlock": 7
     }
   },
   "6bdfd047-dcab-4bdb-bec9-fbfc643934b0": {
@@ -3354,101 +7712,120 @@
       "textContent": 1
     }
   },
-  "078241d2-78f2-4f3c-a919-022e1de7b2da": {
+  "singlepage-adult-seo.ru": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 2,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
-  "d0eb4a85-35a0-4738-be86-148e6cbdb398": {
+  "078241d2-78f2-4f3c-a919-022e1de7b2da": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
   "4238514d-8c66-4766-8b78-71675a466b7a": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
-      "faqBlock": 1,
-      "imageFullBlock": 1
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-restaurant-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-construction-companies.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
     }
   },
   "79ec90f6-dd97-4c3d-8378-83a4512cc676": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
-  "84798707-8328-4ca5-ad3f-6e4f17c95664": {
+  "singlepage-dentist-seo.ru": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
-      "faqBlock": 1,
-      "formMinimalBlock": 1
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-restaurant-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-construction-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
     }
   },
   "d9c9cdff-b48c-43c0-a8b2-657007757dc7": {
@@ -3495,35 +7872,631 @@
       "landingCtaBlock": 1
     }
   },
-  "singlepage-multilingual-website.ru": {
+  "singlepage-saas-seo.ru": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1,
-      "landingCtaBlock": 1
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-dealer-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-veterinary-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-winery-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-dermatologists.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-interior-designers.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-cafe-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-catering-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-med-spa-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-flooring-companies.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-medical-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-senior-living-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bakery-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-rental-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-b2b-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-garage-door-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-advocate-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-locksmith-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-junk-removal-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pest-control-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-real-estate-developers.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-mortgage-broker-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-recruitment-agencies.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-services-for-small-business.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-orthodontists.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-chiropractors.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-restoration-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hotel-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-moving-companies.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-plastic-surgeons.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tree-service-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-home-builders.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-home-inspectors.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-manufacturing-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-therapists.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-appliance-repair-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-realtors.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-solar-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-insurance-agency-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-financial-advisor-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-jewelry-store-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "84798707-8328-4ca5-ad3f-6e4f17c95664": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-optometry-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-for-tour-operators.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-gym-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-carpet-cleaning-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-florist-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-ecommerce-web-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
     }
   },
   "singlepage-architecture-studio.ru": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": false,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1,
-      "landingCtaBlock": 1
-    }
-  },
-  "singlepage-accounting-firm.ru": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -3605,22 +8578,6 @@
       "stepsBlock": 1,
       "faqBlock": 1,
       "landingCtaBlock": 1
-    }
-  },
-  "singlepage-psychologists-therapists.ru": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": true,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
-      "faqBlock": 1
     }
   },
   "singlepage-restaurant.ru": {
@@ -3782,15 +8739,12 @@
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
-    "reviewsFullBlock": true,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
@@ -3798,129 +8752,674 @@
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
-    "reviewsFullBlock": true,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "stepsBlock": 1,
-      "landingCtaBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-spa-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-car-dealer-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-makeup-artist-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-winery-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bed-and-breakfast-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-auto-detailing-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-interior-designer-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-saas-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-adult-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 2,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-accounting-firm.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-dermatology-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-daycare-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-mortgage-broker-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-cafe-website.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-catering-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-medical-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-life-coach-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-small-business-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pressure-washing-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-band-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-chiropractor-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-bakery-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-author-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-psychologists-therapists.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-realtor-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-pest-control-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-carpentry-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-insurance-agency-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-construction-company-website.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-home-builder-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-tattoo-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-farm-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-financial-advisor-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-personal-trainer-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-food-truck-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-artist-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-med-spa-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-handyman-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-orthodontist-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-senior-living-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-hair-salon-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-plastic-surgeon-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-website-for-contractors.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-optometrist-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-florist-website-design.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
   "d0a6b052-1ea6-41ba-9e6f-4bb873946e29": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
   "2fedad09-513a-438c-950a-8562d0a89b8f": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
   "ec128e15-9d97-47df-9aaa-d5b0db480966": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "textContent": 4,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
   "835b0b35-29d4-4854-9d8a-bb3c52c0e468": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
-      "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
   "4128719c-e187-4191-9120-eee3f5f9fa6f": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
+      "offerListBlock": 1,
       "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
   "c524242b-5bfe-41a3-ae41-9acd93f64559": {
     "textContent": true,
     "faqBlock": true,
-    "doubleTextBlock": true,
-    "reviewsFullBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
     "allBlockTypes": {
-      "benefitsBlock": 1,
-      "doubleTextBlock": 2,
-      "serviceFeaturesBlock": 1,
-      "workProcessBlock": 1,
-      "landingCtaBlock": 1,
+      "offerListBlock": 1,
       "textContent": 3,
-      "tableBlock": 1,
-      "reviewsFullBlock": 1,
-      "gridBlock": 1,
-      "formFullBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "faqBlock": 1
     }
   },
@@ -3937,6 +9436,32 @@
       "faqBlock": 1
     }
   },
+  "singlepage-ai-seo-consultant.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-ai-seo-services.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "1c0a4ea3-2dd6-4081-a0a0-58ee87633f71": {
     "textContent": true,
     "faqBlock": true,
@@ -3947,6 +9472,38 @@
       "textContent": 2,
       "tableBlock": 1,
       "imageFullBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-llm-seo-services.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "d0eb4a85-35a0-4738-be86-148e6cbdb398": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": true,
+    "reviewsFullBlock": true,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "doubleTextBlock": 2,
+      "serviceFeaturesBlock": 1,
+      "workProcessBlock": 1,
+      "landingCtaBlock": 1,
+      "textContent": 4,
+      "tableBlock": 1,
+      "reviewsFullBlock": 1,
+      "gridBlock": 1,
+      "formFullBlock": 1,
       "faqBlock": 1
     }
   },
@@ -3964,6 +9521,19 @@
       "faqBlock": 1
     }
   },
+  "singlepage-seo-consultation.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "6a81eab0-6993-41a6-adc3-d9047a3b35a0": {
     "textContent": true,
     "faqBlock": true,
@@ -3978,45 +9548,6 @@
     }
   },
   "singlepage-seo-australia.ru": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": false,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1
-    }
-  },
-  "singlepage-seo-uk.ru": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": false,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1
-    }
-  },
-  "singlepage-seo-italy.ru": {
-    "textContent": true,
-    "faqBlock": true,
-    "doubleTextBlock": false,
-    "reviewsFullBlock": false,
-    "allBlockTypes": {
-      "benefitsBlock": 1,
-      "gridBlock": 1,
-      "textContent": 1,
-      "stepsBlock": 1,
-      "faqBlock": 1
-    }
-  },
-  "singlepage-seo-germany.ru": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -4055,6 +9586,19 @@
       "faqBlock": 1
     }
   },
+  "24354662-e684-4a9c-ad37-3e196d3b40c4": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "textContent": 3,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "faqBlock": 1
+    }
+  },
   "service-traffic-drop-recovery.ru": {
     "textContent": true,
     "faqBlock": true,
@@ -4075,7 +9619,7 @@
     "reviewsFullBlock": false,
     "allBlockTypes": {
       "serviceFeaturesBlock": 1,
-      "textContent": 2,
+      "textContent": 3,
       "tableBlock": 1,
       "imageFullBlock": 1,
       "faqBlock": 1
@@ -4133,6 +9677,19 @@
       "faqBlock": 1
     }
   },
+  "singlepage-conversion-rate-optimization-services.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "service-ai-search-readiness.ru": {
     "textContent": true,
     "faqBlock": true,
@@ -4143,6 +9700,32 @@
       "gridBlock": 1,
       "textContent": 1,
       "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-website-maintenance.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-chatgpt-seo-services.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -4315,7 +9898,73 @@
       "faqBlock": 1
     }
   },
+  "singlepage-ecommerce-seo.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "imageFullBlock": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-website-promotion.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-uk.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-germany.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
   "singlepage-seo-ireland.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-italy.ru": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
@@ -4406,6 +10055,19 @@
       "faqBlock": 1
     }
   },
+  "singlepage-pozycjonowanie-warszawa.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
   "singlepage-swiss-consulting.ru": {
     "textContent": true,
     "faqBlock": true,
@@ -4455,6 +10117,33 @@
       "textContent": 2,
       "tableBlock": 1,
       "imageFullBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-multilingual-website.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1,
+      "landingCtaBlock": 1
+    }
+  },
+  "singlepage-nextjs-development-services.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
       "faqBlock": 1
     }
   },
@@ -4536,6 +10225,46 @@
       "faqBlock": 1
     }
   },
+  "singlepage-website-redesign.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "imageFullBlock": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-wordpress-development-services.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-business-card-website.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
+      "textContent": 2,
+      "faqBlock": 1
+    }
+  },
   "singlepage-lingerie-website.ru": {
     "textContent": true,
     "faqBlock": true,
@@ -4549,16 +10278,29 @@
       "faqBlock": 1
     }
   },
-  "24354662-e684-4a9c-ad37-3e196d3b40c4": {
+  "singlepage-technical-seo.ru": {
     "textContent": true,
     "faqBlock": true,
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "serviceFeaturesBlock": 1,
+      "benefitsBlock": 1,
+      "gridBlock": 1,
+      "textContent": 1,
+      "stepsBlock": 1,
+      "faqBlock": 1
+    }
+  },
+  "singlepage-seo-consultant.ru": {
+    "textContent": true,
+    "faqBlock": true,
+    "doubleTextBlock": false,
+    "reviewsFullBlock": false,
+    "allBlockTypes": {
+      "offerListBlock": 1,
+      "portfolioPickBlock": 1,
+      "quoteFormBlock": 1,
       "textContent": 2,
-      "tableBlock": 1,
-      "imageFullBlock": 1,
       "faqBlock": 1
     }
   },
@@ -4578,10 +10320,9 @@
     "doubleTextBlock": false,
     "reviewsFullBlock": false,
     "allBlockTypes": {
-      "textContent": 2,
-      "imageFullBlock": 1,
+      "textContent": 1,
       "faqBlock": 1,
-      "relatedServicesBlock": 6
+      "relatedServicesBlock": 7
     }
   },
   "697b1a85-7a96-4a70-b4e9-e6b1b3a96a76": {

@@ -25,6 +25,15 @@
 //   * документ с черновиком не правится;
 //   * первый патч документа идёт с ifRevisionId, всё одной транзакцией.
 //
+// Дополнено 06.11.2026: 27 статей блога. Повторный замер `check-headings.cjs`
+// показал 30 совпадений H1 и метатайтла, а не 47 — коммерческие закрыты, три
+// политики конфиденциальности не трогаем, остаются статьи. Для статьи это
+// упущенная возможность, а не поломка: H1 остаётся редакционным и работает на
+// читателя, метатайтл говорит, что человек получит, открыв статью.
+// Восемь статей серии про ответы ИИ получили метатайтлы, различающиеся по
+// существу, а не нумерацией: иначе вышло бы то же, от чего ушли на варшавских
+// страницах, где восемь страниц несли один метатайтл слово в слово.
+//
 // Использование:
 //   node scripts/fix-meta-titles.cjs            сухой прогон
 //   node scripts/fix-meta-titles.cjs --apply    запись
@@ -100,9 +109,97 @@ const EDITS = [
   ["/pl/oferty/przebudowa-strony-internetowej",
    "Przebudowa strony internetowej bez utraty pozycji",
    "Przebudowa strony: nowy wygląd, te same pozycje w Google"],
+  // Метатайтл этой страницы поменяли после замера 02.11, поэтому строка
+  // приведена к текущему состоянию сайта: прогон 06.11 показывает «done».
   ["/services/website-performance-and-code-audit",
-   "Website Performance Optimization & Code Audit",
-   "Website performance and code audit — scope and price"],
+   "Website performance audit and code audit — €250",
+   "Website performance audit and code audit — €250"],
+
+  // ── 06.11.2026: статьи блога ─────────────────────────────────────────────
+  // Серия про ответы ИИ: восемь материалов, метатайтлы разведены по теме.
+  ["/blog/how-to-check-what-ai-says-about-your-company",
+   "How to Check What AI Assistants Say About Your Company",
+   "AI brand audit: the prompts to run and what to log"],
+  ["/pl/blog/co-asystenci-ai-mowia-o-twojej-firmie",
+   "Co asystenci AI mówią o Twojej firmie: jak to sprawdzić",
+   "Audyt odpowiedzi AI o firmie: metoda i zestaw zapytań"],
+  ["/ru/blog/chto-ii-assistenty-govoryat-o-vashey-kompanii",
+   "Что ИИ-ассистенты говорят о вашей компании: аудит",
+   "Аудит ИИ-ответов о компании: метод и набор запросов"],
+  ["/blog/how-to-monitor-brand-mentions-in-ai-answers",
+   "How to Monitor Brand Mentions in AI Answers",
+   "Monitoring brand mentions in AI: what to track monthly"],
+  ["/pl/blog/monitoring-wzmianek-o-marce-w-odpowiedziach-ai",
+   "Monitoring wzmianek o marce w odpowiedziach AI: jak go prowadzić",
+   "Monitoring marki w odpowiedziach AI: co śledzić"],
+  ["/blog/when-ai-describes-your-company-as-unreliable",
+   "When AI Describes Your Company as Unreliable",
+   "AI calls your company unreliable: how to respond"],
+  ["/pl/blog/gdy-ai-opisuje-wasza-firme-jako-niewiarygodna",
+   "Gdy AI opisuje Waszą firmę jako niewiarygodną",
+   "AI nazywa firmę niewiarygodną: co z tym zrobić"],
+  ["/ru/blog/esli-ii-opisyvaet-kompaniyu-kak-nenadyozhnuyu",
+   "Если ИИ описывает вашу компанию как ненадёжную",
+   "ИИ называет компанию ненадёжной: что делать"],
+  ["/blog/how-ai-answers-distort-your-marketing-message",
+   "How AI Answers Distort Your Marketing Message",
+   "AI retells your positioning: what survives it"],
+  ["/pl/blog/jak-odpowiedzi-ai-znieksztalcaja-przekaz-marketingowy",
+   "Jak odpowiedzi AI zniekształcają Wasz przekaz marketingowy",
+   "AI streszcza pozycjonowanie: co z niego zostaje"],
+  ["/ru/blog/kak-ii-otvety-iskazhayut-marketingovoe-soobshchenie",
+   "Как ИИ-ответы искажают ваше маркетинговое сообщение",
+   "ИИ пересказывает позиционирование: что уцелеет"],
+  ["/blog/when-ai-attributes-your-features-to-a-competitor",
+   "When AI Attributes Your Features to a Competitor",
+   "AI credits your features to a competitor: the fix"],
+  ["/blog/where-ai-gets-outdated-information-about-your-company",
+   "Where AI Gets Outdated Information About Your Company",
+   "AI describes you as you were: where stale data lives"],
+  ["/pl/blog/skad-ai-bierze-nieaktualne-informacje-o-firmie",
+   "Skąd AI bierze nieaktualne informacje o Twojej firmie",
+   "Nieaktualne dane o firmie w AI: gdzie żyją"],
+  ["/ru/blog/otkuda-ii-beryot-ustarevshie-svedeniya-o-kompanii",
+   "Откуда ИИ берёт устаревшие сведения о вашей компании",
+   "Устаревшие данные о компании в ИИ: где живут"],
+  ["/blog/ai-response-risks",
+   "AI Response Risks: How AI Can Misrepresent Your Brand and How to Protect It",
+   "When AI misrepresents your brand: risks and fixes"],
+  ["/pl/blog/jak-trafic-do-rekomendacji-chatgpt",
+   "Jak trafić do rekomendacji ChatGPT: checklista dla firm",
+   "Jak trafić do odpowiedzi ChatGPT: praktyczne AEO"],
+  ["/ru/blog/kak-popast-v-rekomendacii-chatgpt",
+   "Как попасть в рекомендации ChatGPT: чек-лист для бизнеса",
+   "Как попасть в ответы ChatGPT: практическое AEO"],
+
+  // ── остальные статьи ─────────────────────────────────────────────────────
+  ["/blog/black-and-gold-web-design-no-longer-reads-expensive",
+   "Black and Gold Web Design No Longer Reads as Expensive",
+   "Why black and gold stopped looking expensive"],
+  ["/pl/blog/czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi",
+   "Czarno-złoty projekt strony nie czyta się już jako drogi",
+   "Dlaczego czarno-złoty przestał znaczyć premium"],
+  ["/ru/blog/chernyy-s-zolotom-dizayn-sayta-ne-chitaetsya-kak-dorogo",
+   "Дизайн сайта в чёрном с золотом больше не читается как дорого",
+   "Почему чёрный с золотом перестал значить дорого"],
+  ["/blog/why-lingerie-brands-lose-to-their-retailers",
+   "Why a Lingerie Brand Loses in Search to Its Own Retailers",
+   "A brand losing in search to its own retailers"],
+  ["/pl/blog/freelancer-czy-agencja",
+   "Freelancer czy agencja: komu zlecić stronę internetową",
+   "Freelancer czy agencja: realne różnice i ryzyka"],
+  ["/pl/blog/czy-strona-potrzebuje-pliku-llms-txt",
+   "Czy Twoja strona potrzebuje pliku llms.txt? Uczciwa odpowiedź",
+   "llms.txt: co pokazują pomiary i komu się przyda"],
+  ["/pl/blog/ile-kosztuje-strona-wielojezyczna",
+   "Ile kosztuje strona wielojęzyczna: z czego składa się cena",
+   "Koszt strony wielojęzycznej: co poza tłumaczeniem"],
+  ["/blog/how-much-seo-costs",
+   "How Much SEO Costs: A Complete Pricing Guide",
+   "SEO prices: what the number is actually made of"],
+  ["/pl/blog/dlaczego-strona-nie-generuje-zapytan",
+   "Dlaczego strona nie generuje zapytań: diagnoza krok po kroku",
+   "Strona bez zapytań: cztery przyczyny i jak je rozdzielić"],
 ];
 
 async function main() {

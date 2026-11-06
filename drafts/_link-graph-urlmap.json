@@ -345,7 +345,7 @@
     "path": "/blog/does-your-site-need-llms-txt",
     "type": "blog",
     "lang": "en",
-    "title": "Does Your Site Need an llms.txt File? An Honest Answer",
+    "title": "llms.txt: what it is, how to write one, and whether it does anything",
     "slug": "does-your-site-need-llms-txt",
     "publishedAt": "2026-08-14T12:00:00Z",
     "category": "AI for SEO & Web"
@@ -367,6 +367,123 @@
     "slug": "black-and-gold-web-design-no-longer-reads-expensive",
     "publishedAt": "2026-09-03T12:00:00Z",
     "category": "Web Development"
+  },
+  "blog-sitemap-lastmod": {
+    "path": "/blog/sitemap-lastmod",
+    "type": "blog",
+    "lang": "en",
+    "title": "Sitemap lastmod: why Google stops re-reading your sitemap and how to fix it",
+    "slug": "sitemap-lastmod",
+    "publishedAt": "2026-09-08T12:00:00Z",
+    "category": "Technical SEO"
+  },
+  "blog-ai-assistant-study": {
+    "path": "/blog/ai-assistant-recommendations-study",
+    "type": "blog",
+    "lang": "en",
+    "title": "What AI Assistants Answer When Asked Who to Hire: 141 Answers Analysed",
+    "slug": "ai-assistant-recommendations-study",
+    "publishedAt": "2026-09-13T12:47:17Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-legalizacja-cudzoziemcy": {
+    "path": "/blog/search-queries-that-bring-immigration-clients",
+    "type": "blog",
+    "lang": "en",
+    "title": "Immigration and relocation consultancies: which search queries actually bring clients",
+    "slug": "search-queries-that-bring-immigration-clients",
+    "publishedAt": "2026-09-27T09:00:00Z",
+    "category": "SEO Strategy"
+  },
+  "blog-new-site-first-month": {
+    "path": "/blog/discovered-currently-not-indexed-new-site-data",
+    "type": "blog",
+    "lang": "en",
+    "title": "\"Discovered — currently not indexed\": 28 days of tatsianabandziuk.com in Search Console",
+    "slug": "discovered-currently-not-indexed-new-site-data",
+    "publishedAt": "2026-10-15T09:00:00.000Z",
+    "category": "Analytics"
+  },
+  "blog-geo-vs-seo": {
+    "path": "/blog/geo-vs-seo",
+    "type": "blog",
+    "lang": "en",
+    "title": "SEO vs GEO vs AEO: How Search Engine Optimization and Generative Engine Optimization Really Differ",
+    "slug": "geo-vs-seo",
+    "publishedAt": "2026-10-23T12:46:15.678Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-what-is-geo": {
+    "path": "/blog/what-is-generative-engine-optimization",
+    "type": "blog",
+    "lang": "en",
+    "title": "What Is Generative Engine Optimization (GEO)? Definition, How AI Engines Choose Sources and What Works",
+    "slug": "what-is-generative-engine-optimization",
+    "publishedAt": "2026-10-23T14:16:15.465Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-what-is-aeo": {
+    "path": "/blog/what-is-answer-engine-optimization",
+    "type": "blog",
+    "lang": "en",
+    "title": "What Is Answer Engine Optimization (AEO)? Meaning, How Answers Are Chosen and How to Do It",
+    "slug": "what-is-answer-engine-optimization",
+    "publishedAt": "2026-10-23T19:05:23.704Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-llm-seo": {
+    "path": "/blog/llm-seo",
+    "type": "blog",
+    "lang": "en",
+    "title": "LLM SEO: How to Optimize Your Website for ChatGPT, Claude, Gemini and Perplexity",
+    "slug": "llm-seo",
+    "publishedAt": "2026-10-23T19:56:45.563Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-chatgpt-seo": {
+    "path": "/blog/chatgpt-seo",
+    "type": "blog",
+    "lang": "en",
+    "title": "ChatGPT SEO: How to Rank in ChatGPT Search and Get Your Pages Cited",
+    "slug": "chatgpt-seo",
+    "publishedAt": "2026-10-24T14:31:32.454Z",
+    "category": "AI for SEO & Web"
+  },
+  "blog-attorney-seo": {
+    "path": "/blog/attorney-seo",
+    "type": "blog",
+    "lang": "en",
+    "title": "Attorney SEO: A Step-by-Step Guide for Lawyers and Small Law Firms",
+    "slug": "attorney-seo",
+    "publishedAt": "2026-10-27T16:06:44.153Z",
+    "category": "SEO Strategy"
+  },
+  "blog-small-business-seo": {
+    "path": "/blog/small-business-seo",
+    "type": "blog",
+    "lang": "en",
+    "title": "Small Business SEO: A Step-by-Step Guide You Can Do Yourself",
+    "slug": "small-business-seo",
+    "publishedAt": "2026-10-29T13:22:42.661Z",
+    "category": "SEO Strategy"
+  },
+  "blog-small-business-website-cost": {
+    "path": "/blog/small-business-website-cost",
+    "type": "blog",
+    "lang": "en",
+    "title": "How Much a Small Business Website Costs: Real Prices, Hidden Costs and What Drives Them",
+    "slug": "small-business-website-cost",
+    "publishedAt": "2026-10-29T15:39:48.667Z",
+    "category": "Web Development"
+  },
+  "blog-seo-audit-value": {
+    "path": "/blog/what-you-pay-for-in-an-seo-audit",
+    "type": "blog",
+    "lang": "en",
+    "title": "What You Pay For in an SEO Audit, and What the Report Must Contain",
+    "slug": "what-you-pay-for-in-an-seo-audit",
+    "publishedAt": "2026-11-04T08:39:54.165Z",
+    "category": "SEO Strategy"
   },
   "df268cec-62b6-4079-b231-591a5dfbbe07": {
     "path": "/pl/blog/jak-rozpoznac-kiepskiego-specjaliste-seo",
@@ -727,6 +844,123 @@
     "slug": "czarno-zloty-projekt-strony-nie-czyta-sie-jako-drogi",
     "publishedAt": "2026-09-03T12:00:00Z",
     "category": "Tworzenie Stron"
+  },
+  "blog-sitemap-lastmod.pl": {
+    "path": "/pl/blog/lastmod-w-mapie-witryny",
+    "type": "blog",
+    "lang": "pl",
+    "title": "lastmod w mapie witryny: dlaczego Google przestaje ją czytać i jak to naprawić",
+    "slug": "lastmod-w-mapie-witryny",
+    "publishedAt": "2026-09-08T12:00:00Z",
+    "category": "Techniczne SEO"
+  },
+  "blog-ai-assistant-study.pl": {
+    "path": "/pl/blog/pozycjonowanie-w-ai-badanie",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Co odpowiadają asystenci AI zapytani, kogo zatrudnić: analiza 141 odpowiedzi",
+    "slug": "pozycjonowanie-w-ai-badanie",
+    "publishedAt": "2026-09-13T12:47:17Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-legalizacja-cudzoziemcy.pl": {
+    "path": "/pl/blog/strona-biura-obslugi-cudzoziemcow",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Strona biura obsługi cudzoziemców: dlaczego klienci trafiają do konkurencji",
+    "slug": "strona-biura-obslugi-cudzoziemcow",
+    "publishedAt": "2026-09-27T09:00:00Z",
+    "category": "Strategia SEO"
+  },
+  "blog-new-site-first-month.pl": {
+    "path": "/pl/blog/ile-trwa-indeksowanie-nowej-strony-dane",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile trwa indeksowanie nowej strony: 28 dni tatsianabandziuk.com w raportach Search Console",
+    "slug": "ile-trwa-indeksowanie-nowej-strony-dane",
+    "publishedAt": "2026-10-15T09:00:00.000Z",
+    "category": "Analityka"
+  },
+  "blog-geo-vs-seo.pl": {
+    "path": "/pl/blog/geo-vs-seo-roznice",
+    "type": "blog",
+    "lang": "pl",
+    "title": "SEO, GEO i AEO: czym pozycjonowanie w Google różni się od optymalizacji pod AI",
+    "slug": "geo-vs-seo-roznice",
+    "publishedAt": "2026-10-23T12:46:15.678Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-what-is-geo.pl": {
+    "path": "/pl/blog/geo-co-to-jest",
+    "type": "blog",
+    "lang": "pl",
+    "title": "GEO (generative engine optimization): co to jest, jak AI wybiera źródła i co naprawdę działa",
+    "slug": "geo-co-to-jest",
+    "publishedAt": "2026-10-23T14:16:15.465Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-what-is-aeo.pl": {
+    "path": "/pl/blog/aeo-answer-engine-optimization",
+    "type": "blog",
+    "lang": "pl",
+    "title": "AEO (answer engine optimization): czym jest, jak Google i AI wybierają odpowiedź i jak to robić krok po kroku",
+    "slug": "aeo-answer-engine-optimization",
+    "publishedAt": "2026-10-23T19:05:23.704Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-llm-seo.pl": {
+    "path": "/pl/blog/pozycjonowanie-w-llm",
+    "type": "blog",
+    "lang": "pl",
+    "title": "LLM SEO, czyli pozycjonowanie w LLM: jak przygotować stronę pod ChatGPT, Claude, Gemini i Perplexity",
+    "slug": "pozycjonowanie-w-llm",
+    "publishedAt": "2026-10-23T19:56:45.563Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-chatgpt-seo.pl": {
+    "path": "/pl/blog/jak-pojawic-sie-w-chatgpt",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak pojawić się w ChatGPT: jak działa wyszukiwarka ChatGPT i jak zdobyć cytowania strony",
+    "slug": "jak-pojawic-sie-w-chatgpt",
+    "publishedAt": "2026-10-24T14:31:32.454Z",
+    "category": "AI dla SEO i Stron"
+  },
+  "blog-attorney-seo.pl": {
+    "path": "/pl/blog/marketing-i-seo-kancelarii-prawnej",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Marketing kancelarii prawnej i SEO: poradnik dla adwokatów i radców prawnych",
+    "slug": "marketing-i-seo-kancelarii-prawnej",
+    "publishedAt": "2026-10-27T16:06:44.153Z",
+    "category": "Strategia SEO"
+  },
+  "blog-small-business-seo.pl": {
+    "path": "/pl/blog/jak-samemu-zrobic-seo",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Jak samemu zrobić SEO: przewodnik krok po kroku dla właściciela małej firmy",
+    "slug": "jak-samemu-zrobic-seo",
+    "publishedAt": "2026-10-29T13:22:42.661Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-small-business-website-cost.pl": {
+    "path": "/pl/blog/ile-kosztuje-strona-internetowa-dla-firmy",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Ile kosztuje strona internetowa dla firmy: realne ceny, ukryte koszty i co je podnosi",
+    "slug": "ile-kosztuje-strona-internetowa-dla-firmy",
+    "publishedAt": "2026-10-29T15:39:48.667Z",
+    "category": "Tworzenie Stron"
+  },
+  "blog-seo-audit-value.pl": {
+    "path": "/pl/blog/za-co-placisz-w-audycie-seo",
+    "type": "blog",
+    "lang": "pl",
+    "title": "Za co płacisz w audycie SEO i co musi zawierać raport",
+    "slug": "za-co-placisz-w-audycie-seo",
+    "publishedAt": "2026-11-04T08:39:54.165Z",
+    "category": "Strategia SEO"
   },
   "90cd9906-6186-4afd-be5c-1d1243f2c844": {
     "path": "/ru/blog/kak-ponyat-chto-pered-vami-plokhoi-seo-specialist",
@@ -1097,6 +1331,137 @@
     "publishedAt": "2026-09-03T12:00:00Z",
     "category": "Веб-разработка"
   },
+  "blog-sitemap-lastmod.ru": {
+    "path": "/ru/blog/lastmod-v-karte-saita",
+    "type": "blog",
+    "lang": "ru",
+    "title": "lastmod в карте сайта: почему Google перестаёт её перечитывать и как это исправить",
+    "slug": "lastmod-v-karte-saita",
+    "publishedAt": "2026-09-08T12:00:00Z",
+    "category": "Техническое SEO"
+  },
+  "blog-ai-assistant-study.ru": {
+    "path": "/ru/blog/issledovanie-otvetov-ii-assistentov",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Что отвечают ИИ-ассистенты на вопрос «кого нанять»: разбор 141 ответа",
+    "slug": "issledovanie-otvetov-ii-assistentov",
+    "publishedAt": "2026-09-13T12:47:17Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-legalizacja-cudzoziemcy.ru": {
+    "path": "/ru/blog/sait-agentstva-po-legalizacii",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сайт агентства по легализации: почему клиенты уходят к конкурентам",
+    "slug": "sait-agentstva-po-legalizacii",
+    "publishedAt": "2026-09-27T09:00:00Z",
+    "category": "SEO-стратегия"
+  },
+  "blog-new-site-first-month.ru": {
+    "path": "/ru/blog/skolko-dlitsya-indeksaciya-novogo-sayta",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько длится индексация нового сайта: 28 дней tatsianabandziuk.com в отчётах Search Console",
+    "slug": "skolko-dlitsya-indeksaciya-novogo-sayta",
+    "publishedAt": "2026-10-15T09:00:00.000Z",
+    "category": "Аналитика"
+  },
+  "blog-geo-vs-seo.ru": {
+    "path": "/ru/blog/geo-vs-seo-raznica",
+    "type": "blog",
+    "lang": "ru",
+    "title": "SEO, GEO и AEO: чем продвижение в Google отличается от оптимизации под нейросети",
+    "slug": "geo-vs-seo-raznica",
+    "publishedAt": "2026-10-23T12:46:15.678Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-what-is-geo.ru": {
+    "path": "/ru/blog/chto-takoe-geo",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Что такое GEO: генеративная оптимизация под нейросети — определение, откуда ИИ берёт источники и что работает",
+    "slug": "chto-takoe-geo",
+    "publishedAt": "2026-10-23T14:16:15.465Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-what-is-aeo.ru": {
+    "path": "/ru/blog/chto-takoe-aeo",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Что такое AEO: оптимизация под ответы поисковиков и нейросетей — значение, как выбирают ответ и как это делать",
+    "slug": "chto-takoe-aeo",
+    "publishedAt": "2026-10-23T19:05:23.704Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-llm-seo.ru": {
+    "path": "/ru/blog/llm-seo",
+    "type": "blog",
+    "lang": "ru",
+    "title": "LLM SEO: как оптимизировать сайт под ChatGPT, Claude, Gemini и Perplexity",
+    "slug": "llm-seo",
+    "publishedAt": "2026-10-23T19:56:45.563Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-chatgpt-seo.ru": {
+    "path": "/ru/blog/seo-dlya-chatgpt",
+    "type": "blog",
+    "lang": "ru",
+    "title": "SEO для ChatGPT: как попасть в поиск ChatGPT и в источники его ответов",
+    "slug": "seo-dlya-chatgpt",
+    "publishedAt": "2026-10-24T14:31:32.454Z",
+    "category": "ИИ для SEO и веб-разработки"
+  },
+  "blog-attorney-seo.ru": {
+    "path": "/ru/blog/prodvizhenie-saita-yuridicheskoi-kompanii",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Продвижение сайта юридической компании и адвоката: пошаговое руководство",
+    "slug": "prodvizhenie-saita-yuridicheskoi-kompanii",
+    "publishedAt": "2026-10-27T16:06:44.153Z",
+    "category": "SEO-стратегия"
+  },
+  "blog-small-business-seo.ru": {
+    "path": "/ru/blog/kak-samomu-prodvigat-sait",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Как самому продвигать сайт: пошаговое руководство для небольшого бизнеса",
+    "slug": "kak-samomu-prodvigat-sait",
+    "publishedAt": "2026-10-29T13:22:42.661Z",
+    "category": "Веб-разработка"
+  },
+  "blog-small-business-website-cost.ru": {
+    "path": "/ru/blog/skolko-stoit-sozdanie-saita",
+    "type": "blog",
+    "lang": "ru",
+    "title": "Сколько стоит создание сайта: реальные цены, скрытые расходы и что их поднимает",
+    "slug": "skolko-stoit-sozdanie-saita",
+    "publishedAt": "2026-10-29T15:39:48.667Z",
+    "category": "Веб-разработка"
+  },
+  "blog-seo-audit-value.ru": {
+    "path": "/ru/blog/za-chto-platit-klient-v-seo-audite",
+    "type": "blog",
+    "lang": "ru",
+    "title": "За что вы платите в SEO-аудите и что обязан содержать отчёт",
+    "slug": "za-chto-platit-klient-v-seo-audite",
+    "publishedAt": "2026-11-04T08:39:54.165Z",
+    "category": "SEO-стратегия"
+  },
+  "portfolio-tatsianabandziuk": {
+    "path": "/portfolio/consultant-website-design-retail-analytics",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "A consultant website for a retail analytics expert",
+    "slug": "consultant-website-design-retail-analytics"
+  },
+  "portfolio-przechowalniaopon": {
+    "path": "/portfolio/tyre-storage-landing-page-with-editable-seo",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "A multilingual landing page for a wheel and tyre storage business",
+    "slug": "tyre-storage-landing-page-with-editable-seo"
+  },
   "portfolio-moveandinvest": {
     "path": "/portfolio/residency-by-investment-guide-with-sourced-figures",
     "type": "portfolio",
@@ -1125,12 +1490,12 @@
     "title": "Auto Repair SEO & UX Boost",
     "slug": "auto-repair-seo-and-ux-boost"
   },
-  "0d395501-cc48-4c01-a395-789065b976eb": {
-    "path": "/portfolio/build-and-optimize-a-multilingual-real-estate-platform",
+  "portfolio-giuseppeiannone": {
+    "path": "/portfolio/psychotherapist-website-milan",
     "type": "portfolio",
     "lang": "en",
-    "title": "Build and optimize a multilingual real estate platform",
-    "slug": "build-and-optimize-a-multilingual-real-estate-platform"
+    "title": "Bilingual psychotherapist website in Italy",
+    "slug": "psychotherapist-website-milan"
   },
   "b2f47b45-2a4a-4812-a236-63a3f6cee106": {
     "path": "/portfolio/develop-and-optimize-a-personal-website-with-seo",
@@ -1174,6 +1539,13 @@
     "title": "Investment Platform with AI-Guided Learning",
     "slug": "investment-platform-with-ai-guided-learning"
   },
+  "0d395501-cc48-4c01-a395-789065b976eb": {
+    "path": "/portfolio/build-and-optimize-a-multilingual-real-estate-platform",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "Multilingual real estate platform in Cyprus: SEO and GEO without bought links",
+    "slug": "build-and-optimize-a-multilingual-real-estate-platform"
+  },
   "6d40e06c-7257-4eaa-950b-3f1166b22d1b": {
     "path": "/portfolio/official-website-for-dj-and-producer-sasha-dith",
     "type": "portfolio",
@@ -1188,12 +1560,26 @@
     "title": "Renovation and investment website with a premium feel and 96/98/100/100 performance",
     "slug": "renovation-and-investment-website-with-premium-design"
   },
+  "portfolio-academgo": {
+    "path": "/portfolio/seo-case-study-education-agency",
+    "type": "portfolio",
+    "lang": "en",
+    "title": "SEO case study: an education agency site, one country to ten",
+    "slug": "seo-case-study-education-agency"
+  },
   "8b0ed15c-bf8e-4659-80a4-6accd7f11fcc": {
     "path": "/portfolio/web-development-a-website-for-internet-prowider",
     "type": "portfolio",
     "lang": "en",
     "title": "Web Development a Website for Internet Prowider",
     "slug": "web-development-a-website-for-internet-prowider"
+  },
+  "portfolio-academgo.pl": {
+    "path": "/pl/portfolio/case-study-pozycjonowania-agencji-edukacyjnej",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Case study pozycjonowania: agencja edukacyjna i dziesięć krajów",
+    "slug": "case-study-pozycjonowania-agencji-edukacyjnej"
   },
   "3f848cef-12c8-466f-8f9f-57f8537e89b6": {
     "path": "/pl/portfolio/przebudowa-strony-felgilab-wordpress",
@@ -1244,13 +1630,6 @@
     "title": "Rozwój platformy inwestycyjnej PeakProfit",
     "slug": "rozwoj-platformy-inwestycyjnej-peakprofit"
   },
-  "b0bcc24a-a4ec-497b-8e87-47729903ec43": {
-    "path": "/pl/portfolio/rozwoj-wielojezycznej-platformy-nieruchomosci-premium",
-    "type": "portfolio",
-    "lang": "pl",
-    "title": "Rozwój wielojęzycznej platformy nieruchomości premium",
-    "slug": "rozwoj-wielojezycznej-platformy-nieruchomosci-premium"
-  },
   "4e0cfdf8-4ffa-4dba-a9b4-753b9b91fcc8": {
     "path": "/pl/portfolio/seo-warsztatu-i-wzrost-konwersji",
     "type": "portfolio",
@@ -1264,6 +1643,20 @@
     "lang": "pl",
     "title": "Strona dla firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100",
     "slug": "strona-dla-firmy-remontowej-i-inwestycyjnej-warszawa"
+  },
+  "portfolio-tatsianabandziuk.pl": {
+    "path": "/pl/portfolio/strona-dla-eksperta-od-analityki-handlu",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Strona internetowa dla eksperta od analityki handlu",
+    "slug": "strona-dla-eksperta-od-analityki-handlu"
+  },
+  "portfolio-giuseppeiannone.pl": {
+    "path": "/pl/portfolio/strona-internetowa-dla-psychoterapeuty",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Strona internetowa dla psychoterapeuty we Włochach",
+    "slug": "strona-internetowa-dla-psychoterapeuty"
   },
   "e9967345-4a53-4cfe-903b-3b5f891c398d": {
     "path": "/pl/portfolio/stworzenie-strony-internetowej-dla-agencji-marketingowej-proscore",
@@ -1279,6 +1672,13 @@
     "title": "Stworzenie strony internetowej dostawcy internetu",
     "slug": "stworzenie-strony-internetowej-dostawcy-internetu"
   },
+  "portfolio-przechowalniaopon.pl": {
+    "path": "/pl/portfolio/landing-przechowalni-opon-w-warszawie",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Trójjęzyczny landing przechowalni opon w Warszawie",
+    "slug": "landing-przechowalni-opon-w-warszawie"
+  },
   "ab135ddf-f66b-4ef8-b83a-0b0b1a74a3ab": {
     "path": "/pl/portfolio/tworzenie-i-seo-strony-architektonicznej-scan",
     "type": "portfolio",
@@ -1293,6 +1693,13 @@
     "title": "Tworzenie i optymalizacja strony osobistej z SEO",
     "slug": "tworzenie-i-optymalizacja-strony-osobistej-z-seo"
   },
+  "b0bcc24a-a4ec-497b-8e87-47729903ec43": {
+    "path": "/pl/portfolio/rozwoj-wielojezycznej-platformy-nieruchomosci-premium",
+    "type": "portfolio",
+    "lang": "pl",
+    "title": "Wielojęzyczna platforma nieruchomości na Cyprze: SEO i GEO bez kupowania linków",
+    "slug": "rozwoj-wielojezycznej-platformy-nieruchomosci-premium"
+  },
   "8e9a1788-18c1-4c1f-a329-3bf0a2c432e1": {
     "path": "/ru/portfolio/e-commerce-lending-i-zashita-videokursa",
     "type": "portfolio",
@@ -1306,6 +1713,20 @@
     "lang": "ru",
     "title": "Защита форм от спама без CAPTCHA",
     "slug": "zashita-form-ot-spama"
+  },
+  "portfolio-academgo.ru": {
+    "path": "/ru/portfolio/keys-prodvizheniya-sayta-obrazovatelnogo-agentstva",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Кейс продвижения сайта образовательного агентства",
+    "slug": "keys-prodvizheniya-sayta-obrazovatelnogo-agentstva"
+  },
+  "27524aa0-da00-4e24-8862-6e92b967082e": {
+    "path": "/ru/portfolio/razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Многоязычный сайт недвижимости на Кипре: SEO и GEO без покупки ссылок",
+    "slug": "razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre"
   },
   "2530b598-90c4-456d-8ffc-82718be69fc5": {
     "path": "/ru/portfolio/oficialnyi-sait-sasha-dith",
@@ -1342,19 +1763,26 @@
     "title": "Разработка инвестиционного вебсайта PeakProfit",
     "slug": "razrabotka-investicionnogo-vebsaita-peakprofit"
   },
-  "27524aa0-da00-4e24-8862-6e92b967082e": {
-    "path": "/ru/portfolio/razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre",
-    "type": "portfolio",
-    "lang": "ru",
-    "title": "Разработка сайта для агентства элитной недвижимости на Кипре",
-    "slug": "razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre"
-  },
   "portfolio-orzel-realty.ru": {
     "path": "/ru/portfolio/sayt-dlya-remontnoy-i-investicionnoy-kompanii",
     "type": "portfolio",
     "lang": "ru",
     "title": "Сайт для ремонтной и инвестиционной компании с результатом 96/98/100/100",
     "slug": "sayt-dlya-remontnoy-i-investicionnoy-kompanii"
+  },
+  "portfolio-giuseppeiannone.ru": {
+    "path": "/ru/portfolio/sayt-psikhoterapevta-v-italii",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Сайт психотерапевта в Италии на двух языках",
+    "slug": "sayt-psikhoterapevta-v-italii"
+  },
+  "portfolio-tatsianabandziuk.ru": {
+    "path": "/ru/portfolio/sayt-eksperta-po-analitike-riteyla",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Сайт эксперта по аналитике ритейла на трёх языках",
+    "slug": "sayt-eksperta-po-analitike-riteyla"
   },
   "6419ee71-18ca-4b7e-8e25-a6d7ddb7057b": {
     "path": "/ru/portfolio/sozdanie-i-seo-prodvizhenie-saita-arkhitekturnoi-tematiki",
@@ -1384,6 +1812,13 @@
     "title": "Справочник по ВНЖ за инвестиции в пяти юрисдикциях",
     "slug": "spravochnik-po-vnzh-za-investicii-s-pervoistochnikami"
   },
+  "portfolio-przechowalniaopon.ru": {
+    "path": "/ru/portfolio/lending-sklada-sezonnogo-hraneniya-koles",
+    "type": "portfolio",
+    "lang": "ru",
+    "title": "Трёхъязычный лендинг склада сезонного хранения колёс",
+    "slug": "lending-sklada-sezonnogo-hraneniya-koles"
+  },
   "38d19fbe-6676-4c5c-ab23-a3aa05f2b869": {
     "path": "/ru/portfolio/seo-i-ux-dlya-avtoremontnoi-kompanii",
     "type": "portfolio",
@@ -1404,8 +1839,35 @@
     "path": "/accounting-firm-website",
     "type": "singlepage",
     "lang": "en",
-    "title": "Accounting firm website development",
+    "title": "Accounting Firm Website Development",
     "slug": "accounting-firm-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-adult-seo": {
+    "path": "/adult-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Adult SEO",
+    "slug": "adult-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-adult-website-design": {
+    "path": "/adult-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Adult website design for creators, agencies and 18+ brands",
+    "slug": "adult-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-appliance-repair-seo": {
+    "path": "/appliance-repair-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Appliance repair SEO",
+    "slug": "appliance-repair-seo",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1418,6 +1880,87 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-architecture-website-design": {
+    "path": "/architecture-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Architecture website design",
+    "slug": "architecture-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-artist-website-design": {
+    "path": "/artist-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Artist website design",
+    "slug": "artist-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-author-website-design": {
+    "path": "/author-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Author website design",
+    "slug": "author-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-auto-detailing-website-design": {
+    "path": "/auto-detailing-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Auto detailing website design",
+    "slug": "auto-detailing-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-b2b-seo": {
+    "path": "/b2b-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "B2B SEO services",
+    "slug": "b2b-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-b2b-website-design": {
+    "path": "/b2b-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "B2B website design",
+    "slug": "b2b-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-bakery-seo": {
+    "path": "/bakery-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Bakery SEO",
+    "slug": "bakery-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-bakery-website-design": {
+    "path": "/bakery-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Bakery website design and development",
+    "slug": "bakery-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-band-website-design": {
+    "path": "/band-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Band website design for bands, musicians and DJs",
+    "slug": "band-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "405bd22d-5aee-45a3-8f9b-108821d9006a": {
     "path": "/website-development-for-beauty-professionals/beauty-salon-website",
     "type": "singlepage",
@@ -1427,12 +1970,129 @@
     "pageType": "page",
     "parentSlug": "website-development-for-beauty-professionals"
   },
+  "singlepage-bed-and-breakfast-website-design": {
+    "path": "/bed-and-breakfast-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Bed and breakfast website design",
+    "slug": "bed-and-breakfast-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cafe-seo": {
+    "path": "/cafe-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Cafe SEO",
+    "slug": "cafe-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cafe-website-design": {
+    "path": "/cafe-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Cafe website design",
+    "slug": "cafe-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cafe-website": {
+    "path": "/cafe-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Cafe website development",
+    "slug": "cafe-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-car-dealer-seo": {
+    "path": "/car-dealer-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Car dealer SEO",
+    "slug": "car-dealer-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-car-dealer-website-design": {
+    "path": "/car-dealer-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Car dealer website design",
+    "slug": "car-dealer-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-car-rental-seo": {
+    "path": "/car-rental-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Car rental SEO",
+    "slug": "car-rental-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-carpentry-website-design": {
+    "path": "/carpentry-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Carpentry website design",
+    "slug": "carpentry-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-carpet-cleaning-seo": {
+    "path": "/carpet-cleaning-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Carpet cleaning SEO",
+    "slug": "carpet-cleaning-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "singlepage-catalog-website": {
     "path": "/catalog-website-with-filters",
     "type": "singlepage",
     "lang": "en",
     "title": "Catalogue website development",
     "slug": "catalog-website-with-filters",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-catering-seo": {
+    "path": "/catering-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Catering SEO",
+    "slug": "catering-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-catering-website-design": {
+    "path": "/catering-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Catering website design",
+    "slug": "catering-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-charity-website-design": {
+    "path": "/charity-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Charity website design",
+    "slug": "charity-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-chiropractor-website-design": {
+    "path": "/chiropractor-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Chiropractor website design",
+    "slug": "chiropractor-website-design",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1445,12 +2105,48 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-construction-company-website": {
+    "path": "/construction-company-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Construction company website",
+    "slug": "construction-company-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-construction-website-design": {
+    "path": "/construction-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Construction website design",
+    "slug": "construction-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "7d66c37d-0158-4aa4-9293-8f4a9e8891e9": {
     "path": "/contacts",
     "type": "singlepage",
     "lang": "en",
     "title": "Contact with Alex Bandziuk",
     "slug": "contacts",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-contractor-website-design": {
+    "path": "/contractor-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Contractor website design",
+    "slug": "contractor-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-daycare-website-design": {
+    "path": "/daycare-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Daycare and preschool website design",
+    "slug": "daycare-website-design",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1463,6 +2159,78 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-dental-website-design": {
+    "path": "/dental-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Dental website design",
+    "slug": "dental-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-dentist-seo": {
+    "path": "/dentist-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Dentist SEO services",
+    "slug": "dentist-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-dermatology-website-design": {
+    "path": "/dermatology-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Dermatology website design",
+    "slug": "dermatology-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-ecommerce-web-design": {
+    "path": "/services/ecommerce-web-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Ecommerce Web Design and Store Development",
+    "slug": "ecommerce-web-design",
+    "pageType": "page",
+    "parentSlug": "services"
+  },
+  "singlepage-electrician-website-design": {
+    "path": "/electrician-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Electrician website design",
+    "slug": "electrician-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-farm-website-design": {
+    "path": "/farm-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Farm website design and development",
+    "slug": "farm-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-financial-advisor-seo": {
+    "path": "/financial-advisor-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Financial advisor SEO for independent advisors and RIAs",
+    "slug": "financial-advisor-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-financial-advisor-website-design": {
+    "path": "/financial-advisor-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Financial advisor website design",
+    "slug": "financial-advisor-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "singlepage-fitness-studio": {
     "path": "/fitness-studio-website",
     "type": "singlepage",
@@ -1472,12 +2240,138 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-florist-seo": {
+    "path": "/florist-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Florist SEO",
+    "slug": "florist-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-florist-website-design": {
+    "path": "/florist-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Florist website design and development",
+    "slug": "florist-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-food-truck-website-design": {
+    "path": "/food-truck-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Food truck website design and development",
+    "slug": "food-truck-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "61a47860-d61d-499c-8606-1831231b222e": {
     "path": "/garage-and-auto-repair-website",
     "type": "singlepage",
     "lang": "en",
-    "title": "Garage & Auto Repair Website Design and Development",
+    "title": "Garage and Auto Repair Website Design",
     "slug": "garage-and-auto-repair-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-garage-door-seo": {
+    "path": "/garage-door-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Garage door SEO",
+    "slug": "garage-door-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-gym-seo": {
+    "path": "/gym-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Gym SEO",
+    "slug": "gym-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hvac-seo": {
+    "path": "/hvac-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "HVAC SEO services",
+    "slug": "hvac-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hvac-website-design": {
+    "path": "/hvac-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "HVAC website design",
+    "slug": "hvac-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hvac-websites": {
+    "path": "/hvac-websites",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "HVAC websites",
+    "slug": "hvac-websites",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hair-salon-website-design": {
+    "path": "/hair-salon-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Hair salon website design for salons and barbershops",
+    "slug": "hair-salon-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-handyman-website-design": {
+    "path": "/handyman-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Handyman website design",
+    "slug": "handyman-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-healthcare-seo": {
+    "path": "/healthcare-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Healthcare SEO",
+    "slug": "healthcare-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-home-builder-website-design": {
+    "path": "/home-builder-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Home builder website design",
+    "slug": "home-builder-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hotel-seo": {
+    "path": "/hotel-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Hotel SEO services",
+    "slug": "hotel-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hotel-website-design": {
+    "path": "/hotel-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Hotel website design",
+    "slug": "hotel-website-design",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1490,6 +2384,78 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-it-company-website-design": {
+    "path": "/it-company-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "IT company website design",
+    "slug": "it-company-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-insurance-agency-website-design": {
+    "path": "/insurance-agency-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Insurance agency website design",
+    "slug": "insurance-agency-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-insurance-agency-seo": {
+    "path": "/insurance-agency-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Insurance agent SEO and insurance agency SEO",
+    "slug": "insurance-agency-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-interior-designer-website-design": {
+    "path": "/interior-designer-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Interior designer website design",
+    "slug": "interior-designer-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-jewelry-store-seo": {
+    "path": "/jewelry-store-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Jewelry store SEO",
+    "slug": "jewelry-store-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-junk-removal-seo": {
+    "path": "/junk-removal-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Junk removal SEO",
+    "slug": "junk-removal-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-landscaping-seo": {
+    "path": "/landscaping-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Landscaping SEO",
+    "slug": "landscaping-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-landscaping-website-design": {
+    "path": "/landscaping-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Landscaping website design",
+    "slug": "landscaping-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "singlepage-language-school": {
     "path": "/language-school-website",
     "type": "singlepage",
@@ -1499,12 +2465,120 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "dc0a0998-d7e5-485a-b405-233ebfcb1630": {
+    "path": "/seo-for-law-firms",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Law firm SEO and lawyer SEO services",
+    "slug": "seo-for-law-firms",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-law-firm-website-design": {
+    "path": "/law-firm-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Law firm website design",
+    "slug": "law-firm-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "f4a4b3c0-2d0e-4416-9909-04dcc667318b": {
     "path": "/lawyer-website-development",
     "type": "singlepage",
     "lang": "en",
-    "title": "Lawyer Website Development",
+    "title": "Law firm website development",
     "slug": "lawyer-website-development",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-lawn-care-website": {
+    "path": "/lawn-care-website",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Lawn care website",
+    "slug": "lawn-care-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-life-coach-website-design": {
+    "path": "/life-coach-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Life coach website design",
+    "slug": "life-coach-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-local-seo-for-contractors": {
+    "path": "/local-seo-for-contractors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Local SEO for contractors",
+    "slug": "local-seo-for-contractors",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-local-seo-for-dentists": {
+    "path": "/local-seo-for-dentists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Local SEO for dentists",
+    "slug": "local-seo-for-dentists",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-local-seo-for-lawyers": {
+    "path": "/local-seo-for-lawyers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Local SEO for lawyers and law firms",
+    "slug": "local-seo-for-lawyers",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-local-seo-for-plumbers": {
+    "path": "/local-seo-for-plumbers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Local SEO for plumbers",
+    "slug": "local-seo-for-plumbers",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-local-seo-for-small-business": {
+    "path": "/local-seo-for-small-business",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Local SEO for small business",
+    "slug": "local-seo-for-small-business",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-locksmith-seo": {
+    "path": "/locksmith-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Locksmith SEO",
+    "slug": "locksmith-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-makeup-artist-website-design": {
+    "path": "/makeup-artist-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Makeup artist website design",
+    "slug": "makeup-artist-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-manufacturing-seo": {
+    "path": "/manufacturing-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Manufacturing SEO and SEO for manufacturers",
+    "slug": "manufacturing-seo",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1517,12 +2591,147 @@
     "pageType": "page",
     "parentSlug": null
   },
-  "singlepage-multilingual-website": {
-    "path": "/multilingual-website-development",
+  "singlepage-manufacturing-website-design": {
+    "path": "/manufacturing-website-design",
     "type": "singlepage",
     "lang": "en",
-    "title": "Multilingual website development",
-    "slug": "multilingual-website-development",
+    "title": "Manufacturing website design",
+    "slug": "manufacturing-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-med-spa-seo": {
+    "path": "/med-spa-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Med spa SEO services for aesthetic clinics",
+    "slug": "med-spa-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-med-spa-website-design": {
+    "path": "/med-spa-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Med spa website design and development",
+    "slug": "med-spa-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-medical-seo": {
+    "path": "/medical-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Medical SEO for private practices and clinics",
+    "slug": "medical-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-medical-website-design": {
+    "path": "/medical-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Medical website design",
+    "slug": "medical-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "636f4976-f588-4f6c-a386-23feb6570fbf": {
+    "path": "/website-design-for-models",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Model portfolio website design",
+    "slug": "website-design-for-models",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-mortgage-broker-seo": {
+    "path": "/mortgage-broker-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Mortgage broker SEO for brokers and loan officers",
+    "slug": "mortgage-broker-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-mortgage-broker-website-design": {
+    "path": "/mortgage-broker-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Mortgage broker website design",
+    "slug": "mortgage-broker-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-nonprofit-website-design": {
+    "path": "/nonprofit-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Nonprofit website design",
+    "slug": "nonprofit-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-optometrist-website-design": {
+    "path": "/optometrist-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Optometrist website design",
+    "slug": "optometrist-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-optometry-seo": {
+    "path": "/optometry-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Optometry SEO for eye care practices and optical shops",
+    "slug": "optometry-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-orthodontist-website-design": {
+    "path": "/orthodontist-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Orthodontist website design",
+    "slug": "orthodontist-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-personal-injury-seo": {
+    "path": "/personal-injury-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Personal injury SEO for lawyers and law firms",
+    "slug": "personal-injury-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-personal-trainer-website-design": {
+    "path": "/personal-trainer-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Personal trainer website design",
+    "slug": "personal-trainer-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pest-control-seo": {
+    "path": "/pest-control-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Pest control SEO",
+    "slug": "pest-control-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pest-control-website-design": {
+    "path": "/pest-control-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Pest control website design",
+    "slug": "pest-control-website-design",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1532,6 +2741,33 @@
     "lang": "en",
     "title": "Photographer website development",
     "slug": "photographer-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-plastic-surgeon-website-design": {
+    "path": "/plastic-surgeon-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Plastic surgeon website design",
+    "slug": "plastic-surgeon-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-plumbing-website-design": {
+    "path": "/plumbing-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Plumbing website design",
+    "slug": "plumbing-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pressure-washing-website-design": {
+    "path": "/pressure-washing-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Pressure washing website design",
+    "slug": "pressure-washing-website-design",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1553,12 +2789,39 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-realtor-website-design": {
+    "path": "/realtor-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Realtor website design",
+    "slug": "realtor-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "singlepage-recruitment-agency": {
     "path": "/recruitment-agency-website",
     "type": "singlepage",
     "lang": "en",
     "title": "Recruitment agency website development",
     "slug": "recruitment-agency-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restaurant-seo": {
+    "path": "/restaurant-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Restaurant SEO",
+    "slug": "restaurant-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restaurant-website-design": {
+    "path": "/restaurant-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Restaurant website design",
+    "slug": "restaurant-website-design",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1571,6 +2834,42 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-restoration-seo": {
+    "path": "/restoration-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Restoration SEO",
+    "slug": "restoration-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-roofing-seo": {
+    "path": "/roofing-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Roofing SEO",
+    "slug": "roofing-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-roofing-website-design": {
+    "path": "/roofing-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Roofing website design",
+    "slug": "roofing-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-roofing-websites": {
+    "path": "/roofing-websites",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Roofing websites",
+    "slug": "roofing-websites",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "16ee2ac2-4506-4d2e-bd9f-3519c5ecf794": {
     "path": "/pricing",
     "type": "singlepage",
@@ -1580,11 +2879,38 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-accounting-firm-seo": {
+    "path": "/seo-for-accounting-firms",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Accounting Firms",
+    "slug": "seo-for-accounting-firms",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-artist-seo": {
+    "path": "/seo-for-artists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Artists: Selling Paintings and Sculpture from Your Own Site",
+    "slug": "seo-for-artists",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-author-seo": {
+    "path": "/seo-for-authors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Authors and Novelists",
+    "slug": "seo-for-authors",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "923390d3-cf00-427c-bef1-2fdf903a7808": {
     "path": "/seo-for-auto-repair-shop",
     "type": "singlepage",
     "lang": "en",
-    "title": "SEO for Auto Repair Shop",
+    "title": "SEO for Auto Repair Shops",
     "slug": "seo-for-auto-repair-shop",
     "pageType": "page",
     "parentSlug": null
@@ -1598,12 +2924,129 @@
     "pageType": "page",
     "parentSlug": null
   },
-  "dc0a0998-d7e5-485a-b405-233ebfcb1630": {
-    "path": "/seo-for-law-firms",
+  "singlepage-carpentry-seo": {
+    "path": "/seo-for-carpenters",
     "type": "singlepage",
     "lang": "en",
-    "title": "SEO for Law Firms and Legal Websites",
-    "slug": "seo-for-law-firms",
+    "title": "SEO for Carpenters, Joiners and Bespoke Furniture Makers",
+    "slug": "seo-for-carpenters",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-coaching-seo": {
+    "path": "/seo-for-coaches",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Coaches and Consultants",
+    "slug": "seo-for-coaches",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-courier-seo": {
+    "path": "/seo-for-courier-companies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Courier and Same-Day Delivery Companies",
+    "slug": "seo-for-courier-companies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-daycare-seo": {
+    "path": "/seo-for-daycares",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Daycares, Nurseries and Preschools",
+    "slug": "seo-for-daycares",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-debt-collection-seo": {
+    "path": "/seo-for-debt-collection-agencies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Debt Collection and Receivables Agencies",
+    "slug": "seo-for-debt-collection-agencies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-driving-school-seo": {
+    "path": "/seo-for-driving-schools",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Driving Schools and Instructors",
+    "slug": "seo-for-driving-schools",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-furniture-store-seo": {
+    "path": "/seo-for-furniture-stores",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Furniture Stores and Showrooms",
+    "slug": "seo-for-furniture-stores",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-it-companies": {
+    "path": "/seo-for-it-companies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for IT companies",
+    "slug": "seo-for-it-companies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-massage-therapy-seo": {
+    "path": "/seo-for-massage-therapists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Massage Therapists and Therapeutic Practices",
+    "slug": "seo-for-massage-therapists",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-musician-seo": {
+    "path": "/seo-for-musicians",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Musicians, Bands and DJs",
+    "slug": "seo-for-musicians",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-nail-salon-seo": {
+    "path": "/seo-for-nail-salons",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Nail Salons and Nail Technicians",
+    "slug": "seo-for-nail-salons",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pharmacy-seo": {
+    "path": "/seo-for-pharmacies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Pharmacies Within Advertising Restrictions",
+    "slug": "seo-for-pharmacies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-photographer-seo": {
+    "path": "/seo-for-photographers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Photographers and Wedding Photographers",
+    "slug": "seo-for-photographers",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-physiotherapy-seo": {
+    "path": "/seo-for-physiotherapists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Physiotherapists and Physical Therapy Clinics",
+    "slug": "seo-for-physiotherapists",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1611,17 +3054,341 @@
     "path": "/seo-for-real-estate",
     "type": "singlepage",
     "lang": "en",
-    "title": "SEO for Real Estate Businesses Focused on Traffic, Rankings and Buyer Leads",
+    "title": "SEO for Real Estate Websites",
     "slug": "seo-for-real-estate",
     "pageType": "page",
     "parentSlug": null
   },
-  "3399fa5f-8de5-4b6c-8b31-6b5068b9692f": {
-    "path": "/seo-for-real-estate-in-cyprus",
+  "singlepage-remodeling-seo": {
+    "path": "/seo-for-remodeling-companies",
     "type": "singlepage",
     "lang": "en",
-    "title": "SEO for Real Estate in Cyprus That Brings Buyer Leads",
-    "slug": "seo-for-real-estate-in-cyprus",
+    "title": "SEO for Remodeling and Renovation Companies",
+    "slug": "seo-for-remodeling-companies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-security-company-seo": {
+    "path": "/seo-for-security-companies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Security Companies: Guarding, Alarms and CCTV",
+    "slug": "seo-for-security-companies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tattoo-seo": {
+    "path": "/seo-for-tattoo-artists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Tattoo Artists and Studios",
+    "slug": "seo-for-tattoo-artists",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-wedding-planner-seo": {
+    "path": "/seo-for-wedding-planners",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Wedding Planners and Destination Weddings",
+    "slug": "seo-for-wedding-planners",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-handyman-seo": {
+    "path": "/seo-for-handyman-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for a Handyman Business",
+    "slug": "seo-for-handyman-services",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-architects": {
+    "path": "/seo-for-architects",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for architects and architecture firms",
+    "slug": "seo-for-architects",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-chiropractors": {
+    "path": "/seo-for-chiropractors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for chiropractors",
+    "slug": "seo-for-chiropractors",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-construction-companies": {
+    "path": "/seo-for-construction-companies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for construction companies",
+    "slug": "seo-for-construction-companies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-contractors": {
+    "path": "/seo-for-contractors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for contractors",
+    "slug": "seo-for-contractors",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-dermatologists": {
+    "path": "/seo-for-dermatologists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for dermatologists and dermatology practices",
+    "slug": "seo-for-dermatologists",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-doctors": {
+    "path": "/seo-for-doctors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for doctors",
+    "slug": "seo-for-doctors",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-electricians": {
+    "path": "/seo-for-electricians",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for electricians",
+    "slug": "seo-for-electricians",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-flooring-companies": {
+    "path": "/seo-for-flooring-companies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for flooring companies",
+    "slug": "seo-for-flooring-companies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-home-builders": {
+    "path": "/seo-for-home-builders",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for home builders",
+    "slug": "seo-for-home-builders",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-home-inspectors": {
+    "path": "/seo-for-home-inspectors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for home inspectors",
+    "slug": "seo-for-home-inspectors",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-interior-designers": {
+    "path": "/seo-for-interior-designers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for interior designers",
+    "slug": "seo-for-interior-designers",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-moving-companies": {
+    "path": "/seo-for-moving-companies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for moving companies and movers",
+    "slug": "seo-for-moving-companies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-nonprofit-seo": {
+    "path": "/nonprofit-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for nonprofits",
+    "slug": "nonprofit-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-orthodontists": {
+    "path": "/seo-for-orthodontists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for orthodontists",
+    "slug": "seo-for-orthodontists",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-painting-contractors": {
+    "path": "/seo-for-painting-contractors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for painting contractors",
+    "slug": "seo-for-painting-contractors",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-plastic-surgeons": {
+    "path": "/seo-for-plastic-surgeons",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for plastic surgeons",
+    "slug": "seo-for-plastic-surgeons",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-plumbers": {
+    "path": "/seo-for-plumbers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for plumbers",
+    "slug": "seo-for-plumbers",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-real-estate-developers": {
+    "path": "/seo-for-real-estate-developers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for real estate developers",
+    "slug": "seo-for-real-estate-developers",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-realtors": {
+    "path": "/seo-for-realtors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for realtors and real estate agents",
+    "slug": "seo-for-realtors",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-recruitment-agencies": {
+    "path": "/seo-for-recruitment-agencies",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for recruitment agencies",
+    "slug": "seo-for-recruitment-agencies",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-solar-seo": {
+    "path": "/solar-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for solar companies",
+    "slug": "solar-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-startups": {
+    "path": "/seo-for-startups",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for startups",
+    "slug": "seo-for-startups",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-therapists": {
+    "path": "/seo-for-therapists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for therapists, psychologists and counselors",
+    "slug": "seo-for-therapists",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-tour-operators": {
+    "path": "/seo-for-tour-operators",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for tour operators",
+    "slug": "seo-for-tour-operators",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-services-for-small-business": {
+    "path": "/seo-services-for-small-business",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO services for small business",
+    "slug": "seo-services-for-small-business",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-saas-seo": {
+    "path": "/saas-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SaaS SEO",
+    "slug": "saas-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-saas-website-design": {
+    "path": "/saas-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SaaS website design and development",
+    "slug": "saas-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-senior-living-seo": {
+    "path": "/senior-living-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Senior living SEO",
+    "slug": "senior-living-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-senior-living-website-design": {
+    "path": "/senior-living-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Senior living website design",
+    "slug": "senior-living-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-small-business-website-design": {
+    "path": "/small-business-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Small business website design",
+    "slug": "small-business-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-spa-website-design": {
+    "path": "/spa-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Spa website design for day spas and massage studios",
+    "slug": "spa-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-startup-website-design": {
+    "path": "/startup-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Startup website design",
+    "slug": "startup-website-design",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1631,6 +3398,24 @@
     "lang": "en",
     "title": "Startup website development",
     "slug": "startup-website",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tattoo-website-design": {
+    "path": "/tattoo-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Tattoo website design for studios and artists",
+    "slug": "tattoo-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-psychologists-therapists": {
+    "path": "/website-for-psychologists-therapists",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Therapist website design for private practices",
+    "slug": "website-for-psychologists-therapists",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1652,6 +3437,33 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-tree-service-seo": {
+    "path": "/tree-service-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Tree service SEO",
+    "slug": "tree-service-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-vacation-rental-website-design": {
+    "path": "/vacation-rental-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Vacation rental website design",
+    "slug": "vacation-rental-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-veterinary-seo": {
+    "path": "/veterinary-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Veterinary SEO",
+    "slug": "veterinary-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "singlepage-veterinary-clinic": {
     "path": "/veterinary-clinic-website",
     "type": "singlepage",
@@ -1661,21 +3473,21 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-veterinary-website-design": {
+    "path": "/veterinary-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Veterinary website design",
+    "slug": "veterinary-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "d629bed8-f17a-47df-9ced-ba4c8236a463": {
     "path": "/web-development-cyprus",
     "type": "singlepage",
     "lang": "en",
-    "title": "Web Design & Website Development in Cyprus",
+    "title": "Web Design and Website Development in Cyprus",
     "slug": "web-development-cyprus",
-    "pageType": "page",
-    "parentSlug": null
-  },
-  "636f4976-f588-4f6c-a386-23feb6570fbf": {
-    "path": "/website-design-for-models",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website Design for Models and Portfolio Development",
-    "slug": "website-design-for-models",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1683,17 +3495,8 @@
     "path": "/website-development-for-beauty-professionals",
     "type": "singlepage",
     "lang": "en",
-    "title": "Website Development for Beauty Professionals That Attracts and Converts",
+    "title": "Website Development for Beauty Businesses",
     "slug": "website-development-for-beauty-professionals",
-    "pageType": "page",
-    "parentSlug": null
-  },
-  "singlepage-psychologists-therapists": {
-    "path": "/website-for-psychologists-therapists",
-    "type": "singlepage",
-    "lang": "en",
-    "title": "Website Development for Psychologists & Therapists",
-    "slug": "website-for-psychologists-therapists",
     "pageType": "page",
     "parentSlug": null
   },
@@ -1715,6 +3518,33 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-website-for-contractors": {
+    "path": "/website-for-contractors",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website for contractors",
+    "slug": "website-for-contractors",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-website-for-electricians": {
+    "path": "/website-for-electricians",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website for electricians",
+    "slug": "website-for-electricians",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-website-for-plumbers": {
+    "path": "/website-for-plumbers",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website for plumbers",
+    "slug": "website-for-plumbers",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "singlepage-platform-migration": {
     "path": "/website-platform-migration",
     "type": "singlepage",
@@ -1723,6 +3553,42 @@
     "slug": "website-platform-migration",
     "pageType": "page",
     "parentSlug": null
+  },
+  "singlepage-winery-seo": {
+    "path": "/winery-seo",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Winery SEO",
+    "slug": "winery-seo",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-winery-website-design": {
+    "path": "/winery-website-design",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Winery website design and development",
+    "slug": "winery-website-design",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-ai-seo-consultant": {
+    "path": "/services/ai-seo-consultant",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "AI SEO consultant",
+    "slug": "ai-seo-consultant",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-ai-seo-services": {
+    "path": "/services/ai-seo-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "AI SEO services",
+    "slug": "ai-seo-services",
+    "pageType": "service",
+    "parentSlug": "services"
   },
   "service-ai-brand-monitoring": {
     "path": "/services/ai-brand-monitoring",
@@ -1742,12 +3608,12 @@
     "pageType": "service",
     "parentSlug": "services"
   },
-  "831dc620-2863-4d55-baa0-aa874a7374ac": {
-    "path": "/services/ai-ready-seo-and-geo-optimization",
+  "singlepage-answer-engine-optimization": {
+    "path": "/services/answer-engine-optimization-services",
     "type": "singlepage",
     "lang": "en",
-    "title": "AI-Ready SEO & GEO Optimization",
-    "slug": "ai-ready-seo-and-geo-optimization",
+    "title": "Answer Engine Optimization (AEO) Services",
+    "slug": "answer-engine-optimization-services",
     "pageType": "service",
     "parentSlug": "services"
   },
@@ -1760,6 +3626,24 @@
     "pageType": "service",
     "parentSlug": "services"
   },
+  "singlepage-chatgpt-seo-services": {
+    "path": "/services/chatgpt-seo-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "ChatGPT SEO services",
+    "slug": "chatgpt-seo-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-conversion-rate-optimization-services": {
+    "path": "/services/conversion-rate-optimization-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Conversion rate optimization services",
+    "slug": "conversion-rate-optimization-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
   "service-ai-misinformation-correction": {
     "path": "/services/fix-ai-misinformation",
     "type": "singlepage",
@@ -1769,12 +3653,39 @@
     "pageType": "service",
     "parentSlug": "services"
   },
+  "singlepage-ecommerce-seo": {
+    "path": "/services/ecommerce-seo-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Ecommerce SEO Services",
+    "slug": "ecommerce-seo-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "831dc620-2863-4d55-baa0-aa874a7374ac": {
+    "path": "/services/ai-ready-seo-and-geo-optimization",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Generative Engine Optimization Services (GEO) & AI-Ready SEO",
+    "slug": "ai-ready-seo-and-geo-optimization",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
   "service-international-seo": {
     "path": "/services/international-seo",
     "type": "singlepage",
     "lang": "en",
     "title": "International and multilingual SEO",
     "slug": "international-seo",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-llm-seo-services": {
+    "path": "/services/llm-seo-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "LLM SEO services",
+    "slug": "llm-seo-services",
     "pageType": "service",
     "parentSlug": "services"
   },
@@ -1796,6 +3707,24 @@
     "pageType": "service",
     "parentSlug": "services"
   },
+  "singlepage-multilingual-website": {
+    "path": "/services/multilingual-website-development",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Multilingual website development",
+    "slug": "multilingual-website-development",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-nextjs-development-services": {
+    "path": "/services/nextjs-development-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Next.js development services",
+    "slug": "nextjs-development-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
   "service-ai-search-readiness": {
     "path": "/services/ai-search-readiness",
     "type": "singlepage",
@@ -1814,6 +3743,15 @@
     "pageType": "service",
     "parentSlug": "services"
   },
+  "singlepage-seo-consultant": {
+    "path": "/services/seo-consultant",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO consultant",
+    "slug": "seo-consultant",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
   "singlepage-medtourism-de-pl.en": {
     "path": "/services/seo-for-polish-clinics-targeting-german-patients",
     "type": "singlepage",
@@ -1822,6 +3760,15 @@
     "slug": "seo-for-polish-clinics-targeting-german-patients",
     "pageType": "service",
     "parentSlug": "services"
+  },
+  "3399fa5f-8de5-4b6c-8b31-6b5068b9692f": {
+    "path": "/seo-for-real-estate-in-cyprus",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "SEO for Real Estate in Cyprus That Brings Buyer Leads",
+    "slug": "seo-for-real-estate-in-cyprus",
+    "pageType": "service",
+    "parentSlug": null
   },
   "singlepage-swiss-premium": {
     "path": "/services/locations/seo-for-swiss-market/seo-for-luxury-goods-switzerland",
@@ -1895,6 +3842,24 @@
     "pageType": "service",
     "parentSlug": "locations"
   },
+  "singlepage-shopify-seo": {
+    "path": "/services/shopify-seo-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Shopify SEO Services",
+    "slug": "shopify-seo-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-technical-seo": {
+    "path": "/services/technical-seo-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Technical SEO services: the fixes, not another report",
+    "slug": "technical-seo-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
   "service-traffic-drop-recovery": {
     "path": "/services/traffic-drop-recovery",
     "type": "singlepage",
@@ -1917,7 +3882,7 @@
     "path": "/services/website-performance-and-code-audit",
     "type": "singlepage",
     "lang": "en",
-    "title": "Website Performance & Code Audit",
+    "title": "Website Performance and Code Audit",
     "slug": "website-performance-and-code-audit",
     "pageType": "service",
     "parentSlug": "services"
@@ -2084,6 +4049,33 @@
     "pageType": "service",
     "parentSlug": "services"
   },
+  "singlepage-website-maintenance": {
+    "path": "/services/website-maintenance-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website maintenance and support, by the developer who built it",
+    "slug": "website-maintenance-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-website-redesign": {
+    "path": "/services/website-redesign-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "Website redesign services that keep your rankings",
+    "slug": "website-redesign-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
+  "singlepage-wordpress-development-services": {
+    "path": "/services/wordpress-development-services",
+    "type": "singlepage",
+    "lang": "en",
+    "title": "WordPress development services",
+    "slug": "wordpress-development-services",
+    "pageType": "service",
+    "parentSlug": "services"
+  },
   "singlepage-locations": {
     "path": "/services/locations",
     "type": "singlepage",
@@ -2147,6 +4139,519 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-pozycjonowanie-stron-bialystok.pl": {
+    "path": "/pl/pozycjonowanie-stron-bialystok",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Białystok",
+    "slug": "pozycjonowanie-stron-bialystok",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-bydgoszcz.pl": {
+    "path": "/pl/pozycjonowanie-stron-bydgoszcz",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Bydgoszcz",
+    "slug": "pozycjonowanie-stron-bydgoszcz",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-gdansk.pl": {
+    "path": "/pl/pozycjonowanie-stron-gdansk",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Gdańsk",
+    "slug": "pozycjonowanie-stron-gdansk",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-poznan.pl": {
+    "path": "/pl/pozycjonowanie-stron-poznan",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Poznań",
+    "slug": "pozycjonowanie-stron-poznan",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-radom.pl": {
+    "path": "/pl/pozycjonowanie-stron-radom",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Radom",
+    "slug": "pozycjonowanie-stron-radom",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-szczecin.pl": {
+    "path": "/pl/pozycjonowanie-stron-szczecin",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Szczecin",
+    "slug": "pozycjonowanie-stron-szczecin",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-torun.pl": {
+    "path": "/pl/pozycjonowanie-stron-torun",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Toruń",
+    "slug": "pozycjonowanie-stron-torun",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-wroclaw.pl": {
+    "path": "/pl/pozycjonowanie-stron-wroclaw",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Wrocław",
+    "slug": "pozycjonowanie-stron-wroclaw",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-adult-seo.pl": {
+    "path": "/pl/pozycjonowanie-stron-dla-branzy-adult",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron dla branży adult",
+    "slug": "pozycjonowanie-stron-dla-branzy-adult",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "34295d10-118c-4e25-aacd-599fab92f23f": {
+    "path": "/pl/seo-dla-stron-nieruchomosci",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron nieruchomości",
+    "slug": "seo-dla-stron-nieruchomosci",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-czestochowa.pl": {
+    "path": "/pl/pozycjonowanie-stron-czestochowa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w Częstochowie",
+    "slug": "pozycjonowanie-stron-czestochowa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-katowice.pl": {
+    "path": "/pl/pozycjonowanie-stron-katowice",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w Katowicach",
+    "slug": "pozycjonowanie-stron-katowice",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-krakow.pl": {
+    "path": "/pl/pozycjonowanie-stron-krakow",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w Krakowie",
+    "slug": "pozycjonowanie-stron-krakow",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-lublin.pl": {
+    "path": "/pl/pozycjonowanie-stron-lublin",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w Lublinie",
+    "slug": "pozycjonowanie-stron-lublin",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-opole.pl": {
+    "path": "/pl/pozycjonowanie-stron-opole",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w Opolu",
+    "slug": "pozycjonowanie-stron-opole",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-rzeszow.pl": {
+    "path": "/pl/pozycjonowanie-stron-rzeszow",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w Rzeszowie",
+    "slug": "pozycjonowanie-stron-rzeszow",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pozycjonowanie-stron-lodz.pl": {
+    "path": "/pl/pozycjonowanie-stron-lodz",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron Łódź",
+    "slug": "pozycjonowanie-stron-lodz",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-saas-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-saas",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony SaaS",
+    "slug": "pozycjonowanie-strony-saas",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-recruitment-agencies.pl": {
+    "path": "/pl/pozycjonowanie-strony-agencji-pracy",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony agencji pracy",
+    "slug": "pozycjonowanie-strony-agencji-pracy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-realtors.pl": {
+    "path": "/pl/pozycjonowanie-strony-agenta-nieruchomosci",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony agenta nieruchomości",
+    "slug": "pozycjonowanie-strony-agenta-nieruchomosci",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-insurance-agency-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-agenta-ubezpieczeniowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony agenta ubezpieczeniowego",
+    "slug": "pozycjonowanie-strony-agenta-ubezpieczeniowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-architects.pl": {
+    "path": "/pl/pozycjonowanie-strony-biura-architektonicznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony biura architektonicznego",
+    "slug": "pozycjonowanie-strony-biura-architektonicznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-tour-operators.pl": {
+    "path": "/pl/pozycjonowanie-strony-biura-podrozy",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony biura podróży",
+    "slug": "pozycjonowanie-strony-biura-podrozy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-plastic-surgeons.pl": {
+    "path": "/pl/pozycjonowanie-strony-chirurga-plastycznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony chirurga plastycznego",
+    "slug": "pozycjonowanie-strony-chirurga-plastycznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-real-estate-developers.pl": {
+    "path": "/pl/pozycjonowanie-strony-dewelopera",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony dewelopera",
+    "slug": "pozycjonowanie-strony-dewelopera",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-senior-living-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-domu-opieki",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony domu opieki",
+    "slug": "pozycjonowanie-strony-domu-opieki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-financial-advisor-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-doradcy-finansowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony doradcy finansowego",
+    "slug": "pozycjonowanie-strony-doradcy-finansowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pest-control-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-ddd",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy DDD",
+    "slug": "pozycjonowanie-strony-firmy-ddd",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-garage-door-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-bram-garazowych",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy bram garażowych",
+    "slug": "pozycjonowanie-strony-firmy-bram-garazowych",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-construction-companies.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-budowlanej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy budowlanej",
+    "slug": "pozycjonowanie-strony-firmy-budowlanej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-home-builders.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-budujacej-domy",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy budującej domy",
+    "slug": "pozycjonowanie-strony-firmy-budujacej-domy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-catering-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-cateringowej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy cateringowej",
+    "slug": "pozycjonowanie-strony-firmy-cateringowej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-solar-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-fotowoltaicznej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy fotowoltaicznej",
+    "slug": "pozycjonowanie-strony-firmy-fotowoltaicznej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-flooring-companies.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-montazu-podlog",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy montażu podłóg",
+    "slug": "pozycjonowanie-strony-firmy-montazu-podlog",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-home-inspectors.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-odbiorow-mieszkan",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy odbiorów mieszkań",
+    "slug": "pozycjonowanie-strony-firmy-odbiorow-mieszkan",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restoration-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-osuszania-po-zalaniu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy osuszania po zalaniu",
+    "slug": "pozycjonowanie-strony-firmy-osuszania-po-zalaniu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-carpet-cleaning-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-prania-dywanow",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy prania dywanów",
+    "slug": "pozycjonowanie-strony-firmy-prania-dywanow",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-manufacturing-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-produkcyjnej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy produkcyjnej",
+    "slug": "pozycjonowanie-strony-firmy-produkcyjnej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-moving-companies.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-przeprowadzkowej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy przeprowadzkowej",
+    "slug": "pozycjonowanie-strony-firmy-przeprowadzkowej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tree-service-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-wycinki-drzew",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy wycinki drzew",
+    "slug": "pozycjonowanie-strony-firmy-wycinki-drzew",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-junk-removal-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-firmy-wywozu-gruzu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony firmy wywozu gruzu",
+    "slug": "pozycjonowanie-strony-firmy-wywozu-gruzu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-photographer-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-fotografa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony fotografa",
+    "slug": "pozycjonowanie-strony-fotografa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-dermatologists.pl": {
+    "path": "/pl/pozycjonowanie-strony-gabinetu-dermatologicznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony gabinetu dermatologicznego",
+    "slug": "pozycjonowanie-strony-gabinetu-dermatologicznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-chiropractors.pl": {
+    "path": "/pl/pozycjonowanie-strony-gabinetu-fizjoterapii",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony gabinetu fizjoterapii",
+    "slug": "pozycjonowanie-strony-gabinetu-fizjoterapii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-orthodontists.pl": {
+    "path": "/pl/pozycjonowanie-strony-gabinetu-ortodontycznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony gabinetu ortodontycznego",
+    "slug": "pozycjonowanie-strony-gabinetu-ortodontycznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-dentist-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-gabinetu-stomatologicznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony gabinetu stomatologicznego",
+    "slug": "pozycjonowanie-strony-gabinetu-stomatologicznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hotel-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-hotelu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony hotelu",
+    "slug": "pozycjonowanie-strony-hotelu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "1c9c94f6-3eb3-4f2a-8e8e-7e7ce88ce196": {
+    "path": "/pl/seo-dla-kancelarii-prawnych",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony kancelarii prawnej i adwokata",
+    "slug": "seo-dla-kancelarii-prawnych",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cafe-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-kawiarni",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony kawiarni",
+    "slug": "pozycjonowanie-strony-kawiarni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-med-spa-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-kliniki-medycyny-estetycznej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony kliniki medycyny estetycznej",
+    "slug": "pozycjonowanie-strony-kliniki-medycyny-estetycznej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-florist-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-kwiaciarni",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony kwiaciarni",
+    "slug": "pozycjonowanie-strony-kwiaciarni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-services-for-small-business.pl": {
+    "path": "/pl/pozycjonowanie-strony-malej-firmy",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony małej firmy",
+    "slug": "pozycjonowanie-strony-malej-firmy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-bakery-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-piekarni",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony piekarni",
+    "slug": "pozycjonowanie-strony-piekarni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-mortgage-broker-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-posrednika-kredytowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony pośrednika kredytowego",
+    "slug": "pozycjonowanie-strony-posrednika-kredytowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-interior-designers.pl": {
+    "path": "/pl/pozycjonowanie-strony-projektanta-wnetrz",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony projektanta wnętrz",
+    "slug": "pozycjonowanie-strony-projektanta-wnetrz",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-therapists.pl": {
+    "path": "/pl/pozycjonowanie-strony-psychologa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony psychologa i psychoterapeuty",
+    "slug": "pozycjonowanie-strony-psychologa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restaurant-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-restauracji",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony restauracji",
+    "slug": "pozycjonowanie-strony-restauracji",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "6d8ed7b1-9fac-49b9-b25f-632f52e94ae3": {
     "path": "/pl/seo-salonu-kosmetycznego",
     "type": "singlepage",
@@ -2156,21 +4661,48 @@
     "pageType": "page",
     "parentSlug": null
   },
-  "1c9c94f6-3eb3-4f2a-8e8e-7e7ce88ce196": {
-    "path": "/pl/seo-dla-kancelarii-prawnych",
+  "singlepage-optometry-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-salonu-optycznego",
     "type": "singlepage",
     "lang": "pl",
-    "title": "SEO dla kancelarii prawnych i adwokatów",
-    "slug": "seo-dla-kancelarii-prawnych",
+    "title": "Pozycjonowanie strony salonu optycznego",
+    "slug": "pozycjonowanie-strony-salonu-optycznego",
     "pageType": "page",
     "parentSlug": null
   },
-  "c8cf5d0e-433d-4b3c-b080-2ceaef128848": {
-    "path": "/pl/seo-dla-nieruchomosci-na-cyprze",
+  "singlepage-car-dealer-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-salonu-samochodowego",
     "type": "singlepage",
     "lang": "pl",
-    "title": "SEO dla stron nieruchomości na Cyprze",
-    "slug": "seo-dla-nieruchomosci-na-cyprze",
+    "title": "Pozycjonowanie strony salonu samochodowego",
+    "slug": "pozycjonowanie-strony-salonu-samochodowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-appliance-repair-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-serwisu-agd",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony serwisu AGD",
+    "slug": "pozycjonowanie-strony-serwisu-agd",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-gym-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-silowni",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony siłowni",
+    "slug": "pozycjonowanie-strony-silowni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-jewelry-store-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-sklepu-jubilerskiego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony sklepu jubilerskiego",
+    "slug": "pozycjonowanie-strony-sklepu-jubilerskiego",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2178,17 +4710,269 @@
     "path": "/pl/seo-dla-warsztatu-samochodowego",
     "type": "singlepage",
     "lang": "pl",
-    "title": "SEO dla warsztatu samochodowego",
+    "title": "Pozycjonowanie strony warsztatu samochodowego",
     "slug": "seo-dla-warsztatu-samochodowego",
     "pageType": "page",
     "parentSlug": null
   },
-  "34295d10-118c-4e25-aacd-599fab92f23f": {
-    "path": "/pl/seo-dla-stron-nieruchomosci",
+  "singlepage-winery-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-winnicy",
     "type": "singlepage",
     "lang": "pl",
-    "title": "SEO i pozycjonowanie stron nieruchomości nastawione na leady i sprzedaż",
-    "slug": "seo-dla-stron-nieruchomosci",
+    "title": "Pozycjonowanie strony winnicy",
+    "slug": "pozycjonowanie-strony-winnicy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-car-rental-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-wypozyczalni-samochodow",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony wypożyczalni samochodów",
+    "slug": "pozycjonowanie-strony-wypozyczalni-samochodow",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-locksmith-seo.pl": {
+    "path": "/pl/pozycjonowanie-strony-slusarza",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie strony ślusarza",
+    "slug": "pozycjonowanie-strony-slusarza",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-realtor-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-agenta-nieruchomosci",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla agenta nieruchomości",
+    "slug": "strona-internetowa-dla-agenta-nieruchomosci",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-insurance-agency-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-agenta-ubezpieczeniowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla agenta ubezpieczeniowego",
+    "slug": "strona-internetowa-dla-agenta-ubezpieczeniowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-artist-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-artysty",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla artysty",
+    "slug": "strona-internetowa-dla-artysty",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-accounting-firm.pl": {
+    "path": "/pl/strona-dla-biura-rachunkowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla biura rachunkowego",
+    "slug": "strona-dla-biura-rachunkowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-adult-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-branzy-adult",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla branży adult",
+    "slug": "strona-internetowa-dla-branzy-adult",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-plastic-surgeon-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-chirurga-plastycznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla chirurga plastycznego",
+    "slug": "strona-internetowa-dla-chirurga-plastycznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-life-coach-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-coacha",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla coacha",
+    "slug": "strona-internetowa-dla-coacha",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-financial-advisor-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-doradcy-finansowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla doradcy finansowego",
+    "slug": "strona-internetowa-dla-doradcy-finansowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pest-control-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-firmy-ddd",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla firmy DDD",
+    "slug": "strona-internetowa-dla-firmy-ddd",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-saas-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-firmy-saas",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla firmy SaaS",
+    "slug": "strona-internetowa-dla-firmy-saas",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-construction-company-website.pl": {
+    "path": "/pl/strona-internetowa-dla-firmy-budowlanej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla firmy budowlanej",
+    "slug": "strona-internetowa-dla-firmy-budowlanej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-home-builder-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-firmy-budujacej-domy",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla firmy budującej domy",
+    "slug": "strona-internetowa-dla-firmy-budujacej-domy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-catering-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-firmy-cateringowej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla firmy cateringowej",
+    "slug": "strona-internetowa-dla-firmy-cateringowej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pressure-washing-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-firmy-mycia-cisnieniowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla firmy mycia ciśnieniowego",
+    "slug": "strona-internetowa-dla-firmy-mycia-cisnieniowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-chiropractor-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-fizjoterapeuty",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla fizjoterapeuty",
+    "slug": "strona-internetowa-dla-fizjoterapeuty",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-food-truck-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-food-trucka",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla food trucka",
+    "slug": "strona-internetowa-dla-food-trucka",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-nonprofit-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-fundacji",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla fundacji i stowarzyszenia",
+    "slug": "strona-internetowa-dla-fundacji",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-dermatology-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-gabinetu-dermatologicznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla gabinetu dermatologicznego",
+    "slug": "strona-internetowa-dla-gabinetu-dermatologicznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-farm-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-gospodarstwa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla gospodarstwa",
+    "slug": "strona-internetowa-dla-gospodarstwa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "9f22ba45-fc9d-4644-8d6f-ec4696618d63": {
+    "path": "/pl/strona-internetowa-dla-adwokata",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla kancelarii adwokackiej i prawnej",
+    "slug": "strona-internetowa-dla-adwokata",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cafe-website.pl": {
+    "path": "/pl/strona-internetowa-dla-kawiarni",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla kawiarni",
+    "slug": "strona-internetowa-dla-kawiarni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-med-spa-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-kliniki-medycyny-estetycznej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla kliniki medycyny estetycznej",
+    "slug": "strona-internetowa-dla-kliniki-medycyny-estetycznej",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-car-dealer-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-komisu-samochodowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla komisu samochodowego",
+    "slug": "strona-internetowa-dla-komisu-samochodowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-florist-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-kwiaciarni",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla kwiaciarni",
+    "slug": "strona-internetowa-dla-kwiaciarni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-medical-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-lekarza",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla lekarza",
+    "slug": "strona-internetowa-dla-lekarza",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-small-business-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-malej-firmy",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla małej firmy",
+    "slug": "strona-internetowa-dla-malej-firmy",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2201,30 +4985,273 @@
     "pageType": "page",
     "parentSlug": null
   },
-  "a095405f-8a0a-4f89-ba80-8e287923e2a8": {
-    "path": "/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",
+  "singlepage-orthodontist-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-ortodonty",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Strona internetowa salonu kosmetycznego",
-    "slug": "strona-salonu-kosmetycznego",
+    "title": "Strona internetowa dla ortodonty",
+    "slug": "strona-internetowa-dla-ortodonty",
     "pageType": "page",
-    "parentSlug": "tworzenie-stron-internetowych-dla-branzy-beauty"
+    "parentSlug": null
+  },
+  "singlepage-bed-and-breakfast-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-pensjonatu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla pensjonatu",
+    "slug": "strona-internetowa-dla-pensjonatu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-bakery-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-piekarni",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla piekarni",
+    "slug": "strona-internetowa-dla-piekarni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-author-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-pisarza",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla pisarza",
+    "slug": "strona-internetowa-dla-pisarza",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-mortgage-broker-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-posrednika-kredytowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla pośrednika kredytowego",
+    "slug": "strona-internetowa-dla-posrednika-kredytowego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-interior-designer-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-projektanta-wnetrz",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla projektanta wnętrz",
+    "slug": "strona-internetowa-dla-projektanta-wnetrz",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-daycare-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-przedszkola",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla przedszkola i żłobka",
+    "slug": "strona-internetowa-dla-przedszkola",
+    "pageType": "page",
+    "parentSlug": null
   },
   "singlepage-psychologists-therapists.pl": {
     "path": "/pl/strona-dla-psychologow-terapeutow",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie stron dla psychologów i terapeutów",
+    "title": "Strona internetowa dla psychologa i psychoterapeuty",
     "slug": "strona-dla-psychologow-terapeutow",
     "pageType": "page",
     "parentSlug": null
   },
-  "f62631da-bb64-44fb-8a41-6f2ee35d13c5": {
-    "path": "/pl/tworzenie-stron-dla-warsztatow-samochodowych",
+  "singlepage-hair-salon-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-salonu-fryzjerskiego",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie stron dla warsztatów samochodowych",
-    "slug": "tworzenie-stron-dla-warsztatow-samochodowych",
+    "title": "Strona internetowa dla salonu fryzjerskiego",
+    "slug": "strona-internetowa-dla-salonu-fryzjerskiego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-optometrist-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-salonu-optycznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla salonu optycznego",
+    "slug": "strona-internetowa-dla-salonu-optycznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-spa-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-spa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla spa",
+    "slug": "strona-internetowa-dla-spa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-carpentry-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-stolarza",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla stolarza",
+    "slug": "strona-internetowa-dla-stolarza",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-auto-detailing-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-studia-detailingu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla studia detailingu",
+    "slug": "strona-internetowa-dla-studia-detailingu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tattoo-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-studia-tatuazu",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla studia tatuażu",
+    "slug": "strona-internetowa-dla-studia-tatuazu",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-personal-trainer-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-trenera-personalnego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla trenera personalnego",
+    "slug": "strona-internetowa-dla-trenera-personalnego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-winery-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-winnicy",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla winnicy",
+    "slug": "strona-internetowa-dla-winnicy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-makeup-artist-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-wizazystki",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla wizażystki",
+    "slug": "strona-internetowa-dla-wizazystki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-band-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-zespolu-muzycznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla zespołu muzycznego",
+    "slug": "strona-internetowa-dla-zespolu-muzycznego",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-handyman-website-design.pl": {
+    "path": "/pl/strona-internetowa-dla-zlotej-raczki",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa dla złotej rączki",
+    "slug": "strona-internetowa-dla-zlotej-raczki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-senior-living-website-design.pl": {
+    "path": "/pl/strona-internetowa-domu-opieki",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona internetowa domu opieki",
+    "slug": "strona-internetowa-domu-opieki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "a095405f-8a0a-4f89-ba80-8e287923e2a8": {
+    "path": "/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona salonu kosmetycznego",
+    "slug": "strona-salonu-kosmetycznego",
+    "pageType": "page",
+    "parentSlug": "tworzenie-stron-internetowych-dla-branzy-beauty"
+  },
+  "singlepage-ecommerce-web-design.pl": {
+    "path": "/pl/oferty/tworzenie-sklepu-internetowego",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie sklepu internetowego",
+    "slug": "tworzenie-sklepu-internetowego",
+    "pageType": "page",
+    "parentSlug": "oferty"
+  },
+  "singlepage-tworzenie-stron-internetowych-bialystok.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-bialystok",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Białystok",
+    "slug": "tworzenie-stron-internetowych-bialystok",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-bydgoszcz.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-bydgoszcz",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Bydgoszcz",
+    "slug": "tworzenie-stron-internetowych-bydgoszcz",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-gdansk.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-gdansk",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Gdańsk",
+    "slug": "tworzenie-stron-internetowych-gdansk",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-poznan.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-poznan",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Poznań",
+    "slug": "tworzenie-stron-internetowych-poznan",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-radom.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-radom",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Radom",
+    "slug": "tworzenie-stron-internetowych-radom",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-szczecin.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-szczecin",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Szczecin",
+    "slug": "tworzenie-stron-internetowych-szczecin",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-torun.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-torun",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Toruń",
+    "slug": "tworzenie-stron-internetowych-torun",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-wroclaw.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-wroclaw",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Wrocław",
+    "slug": "tworzenie-stron-internetowych-wroclaw",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2255,12 +5282,75 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-tworzenie-stron-internetowych-czestochowa.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-czestochowa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych w Częstochowie",
+    "slug": "tworzenie-stron-internetowych-czestochowa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-katowice.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-katowice",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych w Katowicach",
+    "slug": "tworzenie-stron-internetowych-katowice",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-krakow.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-krakow",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych w Krakowie",
+    "slug": "tworzenie-stron-internetowych-krakow",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-lublin.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-lublin",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych w Lublinie",
+    "slug": "tworzenie-stron-internetowych-lublin",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-opole.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-opole",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych w Opolu",
+    "slug": "tworzenie-stron-internetowych-opole",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-rzeszow.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-rzeszow",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych w Rzeszowie",
+    "slug": "tworzenie-stron-internetowych-rzeszow",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "singlepage-web-development-warsaw.pl": {
     "path": "/pl/tworzenie-stron-internetowych-warszawa",
     "type": "singlepage",
     "lang": "pl",
     "title": "Tworzenie stron internetowych w Warszawie",
     "slug": "tworzenie-stron-internetowych-warszawa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tworzenie-stron-internetowych-lodz.pl": {
+    "path": "/pl/tworzenie-stron-internetowych-lodz",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie stron internetowych Łódź",
+    "slug": "tworzenie-stron-internetowych-lodz",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2288,15 +5378,6 @@
     "lang": "pl",
     "title": "Tworzenie strony dla biura podróży",
     "slug": "strona-dla-biura-podrozy",
-    "pageType": "page",
-    "parentSlug": null
-  },
-  "singlepage-accounting-firm.pl": {
-    "path": "/pl/strona-dla-biura-rachunkowego",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Tworzenie strony dla biura rachunkowego",
-    "slug": "strona-dla-biura-rachunkowego",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2399,12 +5480,12 @@
     "pageType": "page",
     "parentSlug": null
   },
-  "9f22ba45-fc9d-4644-8d6f-ec4696618d63": {
-    "path": "/pl/strona-internetowa-dla-adwokata",
+  "f62631da-bb64-44fb-8a41-6f2ee35d13c5": {
+    "path": "/pl/tworzenie-stron-dla-warsztatow-samochodowych",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Tworzenie strony internetowej dla adwokata",
-    "slug": "strona-internetowa-dla-adwokata",
+    "title": "Tworzenie strony dla warsztatu samochodowego",
+    "slug": "tworzenie-stron-dla-warsztatow-samochodowych",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2417,15 +5498,6 @@
     "pageType": "page",
     "parentSlug": null
   },
-  "singlepage-multilingual-website.pl": {
-    "path": "/pl/tworzenie-stron-wielojezycznych",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Tworzenie strony wielojęzycznej",
-    "slug": "tworzenie-stron-wielojezycznych",
-    "pageType": "page",
-    "parentSlug": null
-  },
   "singlepage-online-booking.pl": {
     "path": "/pl/strona-z-rezerwacja-online",
     "type": "singlepage",
@@ -2434,15 +5506,6 @@
     "slug": "strona-z-rezerwacja-online",
     "pageType": "page",
     "parentSlug": null
-  },
-  "3a759a28-4135-4731-a318-cffee1b512f0": {
-    "path": "/pl/oferty/ai-seo-and-geo-optymalizacja",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "AI SEO & GEO Optymalizacja ",
-    "slug": "ai-seo-and-geo-optymalizacja",
-    "pageType": "service",
-    "parentSlug": "oferty"
   },
   "8b7c6b4c-412c-4fa1-b8f8-ec0a1b2816b5": {
     "path": "/pl/oferty/audyt-seo-strony-internetowej",
@@ -2466,8 +5529,35 @@
     "path": "/pl/oferty/audyt-wydajnosci-i-kodu",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Audyt wydajności i kodu",
+    "title": "Audyt wydajności i kodu strony",
     "slug": "audyt-wydajnosci-i-kodu",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-ai-seo-consultant.pl": {
+    "path": "/pl/oferty/ekspert-ai-seo",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Ekspert AI SEO",
+    "slug": "ekspert-ai-seo",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-consultant.pl": {
+    "path": "/pl/oferty/freelancer-seo",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Freelancer SEO",
+    "slug": "freelancer-seo",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "3a759a28-4135-4731-a318-cffee1b512f0": {
+    "path": "/pl/oferty/ai-seo-and-geo-optymalizacja",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "GEO SEO i optymalizacja pod AI",
+    "slug": "ai-seo-and-geo-optymalizacja",
     "pageType": "service",
     "parentSlug": "oferty"
   },
@@ -2477,6 +5567,24 @@
     "lang": "pl",
     "title": "Integracja CMS i API",
     "slug": "integracja-cms-i-api",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-consultation.pl": {
+    "path": "/pl/oferty/konsultacje-seo",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Konsultacje SEO",
+    "slug": "konsultacje-seo",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-llm-seo-services.pl": {
+    "path": "/pl/oferty/llm-seo",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "LLM SEO",
+    "slug": "llm-seo",
     "pageType": "service",
     "parentSlug": "oferty"
   },
@@ -2495,6 +5603,15 @@
     "lang": "pl",
     "title": "Odzyskanie pozycji po spadku ruchu",
     "slug": "odzyskanie-pozycji-po-spadku-ruchu",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-conversion-rate-optimization-services.pl": {
+    "path": "/pl/oferty/optymalizacja-konwersji",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Optymalizacja konwersji",
+    "slug": "optymalizacja-konwersji",
     "pageType": "service",
     "parentSlug": "oferty"
   },
@@ -2525,12 +5642,30 @@
     "pageType": "service",
     "parentSlug": "oferty"
   },
-  "singlepage-seo-usa.pl": {
-    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-amerykanski",
+  "singlepage-ecommerce-seo.pl": {
+    "path": "/pl/oferty/pozycjonowanie-sklepow-internetowych",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek amerykański",
-    "slug": "pozycjonowanie-na-rynek-amerykanski",
+    "title": "Pozycjonowanie sklepów internetowych",
+    "slug": "pozycjonowanie-sklepow-internetowych",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "77c5f5df-a6f3-49ca-8f42-f1439e3490c6": {
+    "path": "/pl/oferty/strategia-i-optymalizacja-seo",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron internetowych",
+    "slug": "strategia-i-optymalizacja-seo",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-baltics.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron na Litwie, Łotwie i w Estonii",
+    "slug": "pozycjonowanie-na-rynki-baltyckie",
     "pageType": "service",
     "parentSlug": "lokalizacje"
   },
@@ -2538,26 +5673,8 @@
     "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-australijski",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek australijski",
+    "title": "Pozycjonowanie stron w Australii",
     "slug": "pozycjonowanie-na-rynek-australijski",
-    "pageType": "service",
-    "parentSlug": "lokalizacje"
-  },
-  "singlepage-seo-uk.pl": {
-    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-brytyjski",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek brytyjski",
-    "slug": "pozycjonowanie-na-rynek-brytyjski",
-    "pageType": "service",
-    "parentSlug": "lokalizacje"
-  },
-  "singlepage-seo-france.pl": {
-    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek francuski",
-    "slug": "pozycjonowanie-na-rynek-francuski",
     "pageType": "service",
     "parentSlug": "lokalizacje"
   },
@@ -2565,7 +5682,7 @@
     "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-holenderski",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek holenderski",
+    "title": "Pozycjonowanie stron w Holandii",
     "slug": "pozycjonowanie-na-rynek-holenderski",
     "pageType": "service",
     "parentSlug": "lokalizacje"
@@ -2574,7 +5691,7 @@
     "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-irlandzki",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek irlandzki",
+    "title": "Pozycjonowanie stron w Irlandii",
     "slug": "pozycjonowanie-na-rynek-irlandzki",
     "pageType": "service",
     "parentSlug": "lokalizacje"
@@ -2583,7 +5700,7 @@
     "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-niemiecki",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek niemiecki",
+    "title": "Pozycjonowanie stron w Niemczech",
     "slug": "pozycjonowanie-na-rynek-niemiecki",
     "pageType": "service",
     "parentSlug": "lokalizacje"
@@ -2592,8 +5709,44 @@
     "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-szwajcarski",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek szwajcarski",
+    "title": "Pozycjonowanie stron w Szwajcarii",
     "slug": "pozycjonowanie-na-rynek-szwajcarski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-usa.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-amerykanski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w USA",
+    "slug": "pozycjonowanie-na-rynek-amerykanski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-pozycjonowanie-warszawa.pl": {
+    "path": "/pl/oferty/pozycjonowanie-stron-warszawa",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w Warszawie",
+    "slug": "pozycjonowanie-stron-warszawa",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-seo-uk.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-brytyjski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron w Wielkiej Brytanii",
+    "slug": "pozycjonowanie-na-rynek-brytyjski",
+    "pageType": "service",
+    "parentSlug": "lokalizacje"
+  },
+  "singlepage-seo-france.pl": {
+    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie stron we Francji",
+    "slug": "pozycjonowanie-na-rynek-francuski",
     "pageType": "service",
     "parentSlug": "lokalizacje"
   },
@@ -2601,17 +5754,8 @@
     "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynek włoski",
+    "title": "Pozycjonowanie stron we Włoszech",
     "slug": "pozycjonowanie-na-rynek-wloski",
-    "pageType": "service",
-    "parentSlug": "lokalizacje"
-  },
-  "singlepage-seo-baltics.pl": {
-    "path": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",
-    "type": "singlepage",
-    "lang": "pl",
-    "title": "Pozycjonowanie stron internetowych na rynki bałtyckie",
-    "slug": "pozycjonowanie-na-rynki-baltyckie",
     "pageType": "service",
     "parentSlug": "lokalizacje"
   },
@@ -2696,6 +5840,33 @@
     "pageType": "service",
     "parentSlug": "oferty"
   },
+  "singlepage-answer-engine-optimization.pl": {
+    "path": "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie w AI (AEO)",
+    "slug": "pozycjonowanie-w-ai-i-chatgpt",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-chatgpt-seo-services.pl": {
+    "path": "/pl/oferty/pozycjonowanie-w-chatgpt",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Pozycjonowanie w ChatGPT",
+    "slug": "pozycjonowanie-w-chatgpt",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-website-redesign.pl": {
+    "path": "/pl/oferty/przebudowa-strony-internetowej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Przebudowa strony internetowej bez utraty pozycji",
+    "slug": "przebudowa-strony-internetowej",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
   "service-ai-search-readiness.pl": {
     "path": "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai",
     "type": "singlepage",
@@ -2704,6 +5875,15 @@
     "slug": "przygotowanie-strony-do-wyszukiwania-ai",
     "pageType": "service",
     "parentSlug": "oferty"
+  },
+  "c8cf5d0e-433d-4b3c-b080-2ceaef128848": {
+    "path": "/pl/seo-dla-nieruchomosci-na-cyprze",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "SEO dla stron nieruchomości na Cyprze",
+    "slug": "seo-dla-nieruchomosci-na-cyprze",
+    "pageType": "service",
+    "parentSlug": null
   },
   "service-international-seo.pl": {
     "path": "/pl/oferty/seo-miedzynarodowe",
@@ -2714,12 +5894,12 @@
     "pageType": "service",
     "parentSlug": "oferty"
   },
-  "77c5f5df-a6f3-49ca-8f42-f1439e3490c6": {
-    "path": "/pl/oferty/strategia-i-optymalizacja-seo",
+  "singlepage-technical-seo.pl": {
+    "path": "/pl/oferty/seo-techniczne",
     "type": "singlepage",
     "lang": "pl",
-    "title": "Strategia i optymalizacja SEO",
-    "slug": "strategia-i-optymalizacja-seo",
+    "title": "SEO techniczne: poprawki w kodzie, a nie kolejny raport",
+    "slug": "seo-techniczne",
     "pageType": "service",
     "parentSlug": "oferty"
   },
@@ -2729,6 +5909,33 @@
     "lang": "pl",
     "title": "Strona internetowa dla producenta bielizny",
     "slug": "strona-internetowa-dla-producenta-bielizny",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-wordpress-development-services.pl": {
+    "path": "/pl/oferty/strona-na-wordpress",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona na WordPress",
+    "slug": "strona-na-wordpress",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-business-card-website.pl": {
+    "path": "/pl/oferty/strona-wizytowka",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strona wizytówka",
+    "slug": "strona-wizytowka",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-nextjs-development-services.pl": {
+    "path": "/pl/oferty/strony-w-nextjs",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Strony w Next.js",
+    "slug": "strony-w-nextjs",
     "pageType": "service",
     "parentSlug": "oferty"
   },
@@ -2747,6 +5954,33 @@
     "lang": "pl",
     "title": "Tworzenie stron internetowych",
     "slug": "tworzenie-stron-internetowych",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-multilingual-website.pl": {
+    "path": "/pl/oferty/tworzenie-stron-wielojezycznych",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Tworzenie strony wielojęzycznej",
+    "slug": "tworzenie-stron-wielojezycznych",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-ai-seo-services.pl": {
+    "path": "/pl/oferty/uslugi-ai-seo",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Usługi AI SEO",
+    "slug": "uslugi-ai-seo",
+    "pageType": "service",
+    "parentSlug": "oferty"
+  },
+  "singlepage-website-maintenance.pl": {
+    "path": "/pl/oferty/utrzymanie-strony-internetowej",
+    "type": "singlepage",
+    "lang": "pl",
+    "title": "Utrzymanie i opieka nad stroną internetową",
+    "slug": "utrzymanie-strony-internetowej",
     "pageType": "service",
     "parentSlug": "oferty"
   },
@@ -2777,21 +6011,21 @@
     "pageType": null,
     "parentSlug": null
   },
+  "singlepage-adult-seo.ru": {
+    "path": "/ru/seo-dlya-adalt-saitov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO для адалт-сайтов",
+    "slug": "seo-dlya-adalt-saitov",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "078241d2-78f2-4f3c-a919-022e1de7b2da": {
     "path": "/ru/seo-dlya-nedvizhimosti",
     "type": "singlepage",
     "lang": "ru",
-    "title": "SEO для недвижимости: продвижение сайта, трафик и клиенты из поиска",
+    "title": "SEO для сайтов недвижимости",
     "slug": "seo-dlya-nedvizhimosti",
-    "pageType": "page",
-    "parentSlug": null
-  },
-  "d0eb4a85-35a0-4738-be86-148e6cbdb398": {
-    "path": "/ru/seo-dlya-nedvizhimosti-na-kipre",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "SEO для продвижения недвижимости на Кипре",
-    "slug": "seo-dlya-nedvizhimosti-na-kipre",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2799,8 +6033,26 @@
     "path": "/ru/seo-prodvizhenie-avtoservisa",
     "type": "singlepage",
     "lang": "ru",
-    "title": "SEO-продвижение автосервиса с оптимизацией под ИИ-поиск",
+    "title": "SEO-продвижение сайта автосервиса",
     "slug": "seo-prodvizhenie-avtoservisa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restaurant-seo.ru": {
+    "path": "/ru/seo-prodvizhenie-saita-restorana",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение сайта ресторана",
+    "slug": "seo-prodvizhenie-saita-restorana",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-construction-companies.ru": {
+    "path": "/ru/seo-prodvizhenie-saita-stroitelnoi-kompanii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-продвижение сайта строительной компании",
+    "slug": "seo-prodvizhenie-saita-stroitelnoi-kompanii",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2808,17 +6060,35 @@
     "path": "/ru/seo-salona-krasoty",
     "type": "singlepage",
     "lang": "ru",
-    "title": "SEO-продвижение сайта салона красоты",
+    "title": "SEO-продвижение салона красоты",
     "slug": "seo-salona-krasoty",
     "pageType": "page",
     "parentSlug": null
   },
-  "84798707-8328-4ca5-ad3f-6e4f17c95664": {
-    "path": "/ru/seo-dlya-yuridicheskogo-sayta",
+  "singlepage-dentist-seo.ru": {
+    "path": "/ru/seo-prodvizhenie-stomatologii",
     "type": "singlepage",
     "lang": "ru",
-    "title": "SEO-продвижение юридического сайта",
-    "slug": "seo-dlya-yuridicheskogo-sayta",
+    "title": "SEO-продвижение стоматологии",
+    "slug": "seo-prodvizhenie-stomatologii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restaurant-website-design.ru": {
+    "path": "/ru/dizain-saita-restorana",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Дизайн сайта ресторана",
+    "slug": "dizain-saita-restorana",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-construction-website-design.ru": {
+    "path": "/ru/dizain-saita-stroitelnoi-kompanii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Дизайн сайта строительной компании",
+    "slug": "dizain-saita-stroitelnoi-kompanii",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2849,14 +6119,437 @@
     "pageType": "page",
     "parentSlug": null
   },
-  "singlepage-multilingual-website.ru": {
-    "path": "/ru/razrabotka-multiyazychnogo-saita",
+  "singlepage-saas-seo.ru": {
+    "path": "/ru/prodvizhenie-saas",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Разработка мультиязычного сайта",
-    "slug": "razrabotka-multiyazychnogo-saita",
+    "title": "Продвижение SaaS",
+    "slug": "prodvizhenie-saas",
     "pageType": "page",
     "parentSlug": null
+  },
+  "singlepage-car-dealer-seo.ru": {
+    "path": "/ru/prodvizhenie-avtosalona",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение автосалона",
+    "slug": "prodvizhenie-avtosalona",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-veterinary-seo.ru": {
+    "path": "/ru/prodvizhenie-veterinarnoy-kliniki",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение ветеринарной клиники",
+    "slug": "prodvizhenie-veterinarnoy-kliniki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-winery-seo.ru": {
+    "path": "/ru/prodvizhenie-vinodelni",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение винодельни",
+    "slug": "prodvizhenie-vinodelni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-dermatologists.ru": {
+    "path": "/ru/prodvizhenie-dermatologicheskoy-kliniki",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение дерматологической клиники",
+    "slug": "prodvizhenie-dermatologicheskoy-kliniki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-interior-designers.ru": {
+    "path": "/ru/prodvizhenie-dizainera-interera",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение дизайнера интерьера",
+    "slug": "prodvizhenie-dizainera-interera",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cafe-seo.ru": {
+    "path": "/ru/prodvizhenie-kafe",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение кафе",
+    "slug": "prodvizhenie-kafe",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-catering-seo.ru": {
+    "path": "/ru/prodvizhenie-keiteringa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение кейтеринга",
+    "slug": "prodvizhenie-keiteringa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-med-spa-seo.ru": {
+    "path": "/ru/prodvizhenie-kliniki-kosmetologii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение клиники косметологии",
+    "slug": "prodvizhenie-kliniki-kosmetologii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-flooring-companies.ru": {
+    "path": "/ru/prodvizhenie-ukladki-napolnyh-pokrytiy",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение компании по укладке напольных покрытий",
+    "slug": "prodvizhenie-ukladki-napolnyh-pokrytiy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-medical-seo.ru": {
+    "path": "/ru/prodvizhenie-medicinskogo-saita",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение медицинского сайта",
+    "slug": "prodvizhenie-medicinskogo-saita",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-senior-living-seo.ru": {
+    "path": "/ru/prodvizhenie-pansionata-dlya-pozhilyh",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение пансионата для пожилых",
+    "slug": "prodvizhenie-pansionata-dlya-pozhilyh",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-bakery-seo.ru": {
+    "path": "/ru/prodvizhenie-pekarni",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение пекарни",
+    "slug": "prodvizhenie-pekarni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-car-rental-seo.ru": {
+    "path": "/ru/prodvizhenie-prokata-avtomobiley",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение проката автомобилей",
+    "slug": "prodvizhenie-prokata-avtomobiley",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-b2b-seo.ru": {
+    "path": "/ru/prodvizhenie-b2b",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта B2B-компании",
+    "slug": "prodvizhenie-b2b",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-garage-door-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-avtomaticheskih-vorot",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта автоматических ворот",
+    "slug": "prodvizhenie-saita-avtomaticheskih-vorot",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-advocate-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-advokata",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта адвоката",
+    "slug": "prodvizhenie-saita-advokata",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-locksmith-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-vskrytiya-zamkov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта вскрытия замков",
+    "slug": "prodvizhenie-saita-vskrytiya-zamkov",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-junk-removal-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-vyvoza-musora",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта вывоза мусора",
+    "slug": "prodvizhenie-saita-vyvoza-musora",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pest-control-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-dezinsekcii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта дезинсекции",
+    "slug": "prodvizhenie-saita-dezinsekcii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-real-estate-developers.ru": {
+    "path": "/ru/prodvizhenie-saita-zastroishchika",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта застройщика",
+    "slug": "prodvizhenie-saita-zastroishchika",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-mortgage-broker-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-ipotechnogo-brokera",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта ипотечного брокера",
+    "slug": "prodvizhenie-saita-ipotechnogo-brokera",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-recruitment-agencies.ru": {
+    "path": "/ru/prodvizhenie-saita-kadrovogo-agentstva",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта кадрового агентства",
+    "slug": "prodvizhenie-saita-kadrovogo-agentstva",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-services-for-small-business.ru": {
+    "path": "/ru/prodvizhenie-saita-malogo-biznesa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта малого бизнеса",
+    "slug": "prodvizhenie-saita-malogo-biznesa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-orthodontists.ru": {
+    "path": "/ru/prodvizhenie-saita-ortodonta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта ортодонта",
+    "slug": "prodvizhenie-saita-ortodonta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-chiropractors.ru": {
+    "path": "/ru/prodvizhenie-saita-osteopata",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта остеопата и мануального терапевта",
+    "slug": "prodvizhenie-saita-osteopata",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-restoration-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-osusheniya-posle-zatopleniya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта осушения после затопления",
+    "slug": "prodvizhenie-saita-osusheniya-posle-zatopleniya",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hotel-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-otelya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта отеля",
+    "slug": "prodvizhenie-saita-otelya",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-moving-companies.ru": {
+    "path": "/ru/prodvizhenie-saita-pereezdov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта переездов и грузоперевозок",
+    "slug": "prodvizhenie-saita-pereezdov",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-plastic-surgeons.ru": {
+    "path": "/ru/prodvizhenie-saita-plasticheskogo-hirurga",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта пластического хирурга",
+    "slug": "prodvizhenie-saita-plasticheskogo-hirurga",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tree-service-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-spila-derevev",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта по спилу деревьев",
+    "slug": "prodvizhenie-saita-spila-derevev",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-home-builders.ru": {
+    "path": "/ru/prodvizhenie-saita-stroitelstva-domov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта по строительству домов",
+    "slug": "prodvizhenie-saita-stroitelstva-domov",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-home-inspectors.ru": {
+    "path": "/ru/prodvizhenie-saita-priemki-kvartir",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта приёмки квартир",
+    "slug": "prodvizhenie-saita-priemki-kvartir",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-manufacturing-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-proizvoditelya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта производителя",
+    "slug": "prodvizhenie-saita-proizvoditelya",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-therapists.ru": {
+    "path": "/ru/prodvizhenie-saita-psihologa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта психолога и психотерапевта",
+    "slug": "prodvizhenie-saita-psihologa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-appliance-repair-seo.ru": {
+    "path": "/ru/prodvizhenie-remonta-bytovoy-tehniki",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта ремонта бытовой техники",
+    "slug": "prodvizhenie-remonta-bytovoy-tehniki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-realtors.ru": {
+    "path": "/ru/prodvizhenie-saita-rieltora",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта риелтора",
+    "slug": "prodvizhenie-saita-rieltora",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-solar-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-solnechnyh-panelei",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта солнечных панелей",
+    "slug": "prodvizhenie-saita-solnechnyh-panelei",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-insurance-agency-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-strahovogo-agenta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта страхового агента",
+    "slug": "prodvizhenie-saita-strahovogo-agenta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-financial-advisor-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-finansovogo-konsultanta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта финансового консультанта",
+    "slug": "prodvizhenie-saita-finansovogo-konsultanta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-jewelry-store-seo.ru": {
+    "path": "/ru/prodvizhenie-saita-yuvelirnogo-magazina",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта ювелирного магазина",
+    "slug": "prodvizhenie-saita-yuvelirnogo-magazina",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "84798707-8328-4ca5-ad3f-6e4f17c95664": {
+    "path": "/ru/seo-dlya-yuridicheskogo-sayta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта юридической компании",
+    "slug": "seo-dlya-yuridicheskogo-sayta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-optometry-seo.ru": {
+    "path": "/ru/prodvizhenie-salona-optiki",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение салона оптики",
+    "slug": "prodvizhenie-salona-optiki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-seo-for-tour-operators.ru": {
+    "path": "/ru/prodvizhenie-turoperatora",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение туроператора",
+    "slug": "prodvizhenie-turoperatora",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-gym-seo.ru": {
+    "path": "/ru/prodvizhenie-fitnes-kluba",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение фитнес-клуба",
+    "slug": "prodvizhenie-fitnes-kluba",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-carpet-cleaning-seo.ru": {
+    "path": "/ru/prodvizhenie-himchistki-kovrov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение химчистки ковров",
+    "slug": "prodvizhenie-himchistki-kovrov",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-florist-seo.ru": {
+    "path": "/ru/prodvizhenie-cvetochnogo-magazina",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение цветочного магазина",
+    "slug": "prodvizhenie-cvetochnogo-magazina",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-ecommerce-web-design.ru": {
+    "path": "/ru/uslugi/razrabotka-internet-magazina",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка интернет-магазина",
+    "slug": "razrabotka-internet-magazina",
+    "pageType": "page",
+    "parentSlug": "uslugi"
   },
   "singlepage-architecture-studio.ru": {
     "path": "/ru/sait-dlya-arhitekturnogo-byuro",
@@ -2864,15 +6557,6 @@
     "lang": "ru",
     "title": "Разработка сайта для архитектурного бюро",
     "slug": "sait-dlya-arhitekturnogo-byuro",
-    "pageType": "page",
-    "parentSlug": null
-  },
-  "singlepage-accounting-firm.ru": {
-    "path": "/ru/sait-dlya-buhgalterskoy-firmy",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Разработка сайта для бухгалтерской фирмы",
-    "slug": "sait-dlya-buhgalterskoy-firmy",
     "pageType": "page",
     "parentSlug": null
   },
@@ -2918,15 +6602,6 @@
     "lang": "ru",
     "title": "Разработка сайта для производственной компании",
     "slug": "sait-dlya-proizvodstvennoy-kompanii",
-    "pageType": "page",
-    "parentSlug": null
-  },
-  "singlepage-psychologists-therapists.ru": {
-    "path": "/ru/sait-dlya-psihologov-terapevtov",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "Разработка сайта для психолога и психотерапевта",
-    "slug": "sait-dlya-psihologov-terapevtov",
     "pageType": "page",
     "parentSlug": null
   },
@@ -3047,11 +6722,416 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-spa-website-design.ru": {
+    "path": "/ru/sait-spa-salona",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт СПА-салона",
+    "slug": "sait-spa-salona",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-car-dealer-website-design.ru": {
+    "path": "/ru/sait-avtosalona",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт автосалона",
+    "slug": "sait-avtosalona",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-makeup-artist-website-design.ru": {
+    "path": "/ru/sait-vizazhista",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт визажиста",
+    "slug": "sait-vizazhista",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-winery-website-design.ru": {
+    "path": "/ru/sait-vinodelni",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт винодельни",
+    "slug": "sait-vinodelni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-bed-and-breakfast-website-design.ru": {
+    "path": "/ru/sait-gostevogo-doma",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт гостевого дома",
+    "slug": "sait-gostevogo-doma",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-auto-detailing-website-design.ru": {
+    "path": "/ru/sait-deteyling-studii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт детейлинг-студии",
+    "slug": "sait-deteyling-studii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-interior-designer-website-design.ru": {
+    "path": "/ru/sait-dizainera-interera",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт дизайнера интерьера",
+    "slug": "sait-dizainera-interera",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-saas-website-design.ru": {
+    "path": "/ru/sait-dlya-saas",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для SaaS",
+    "slug": "sait-dlya-saas",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-adult-website-design.ru": {
+    "path": "/ru/sait-dlya-adalt-proekta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для адалт-проекта",
+    "slug": "sait-dlya-adalt-proekta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-accounting-firm.ru": {
+    "path": "/ru/sait-dlya-buhgalterskoy-firmy",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для бухгалтерской фирмы",
+    "slug": "sait-dlya-buhgalterskoy-firmy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-dermatology-website-design.ru": {
+    "path": "/ru/sait-dlya-dermatologa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для дерматолога",
+    "slug": "sait-dlya-dermatologa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-daycare-website-design.ru": {
+    "path": "/ru/sait-dlya-detskogo-sada",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для детского сада",
+    "slug": "sait-dlya-detskogo-sada",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-mortgage-broker-website-design.ru": {
+    "path": "/ru/sait-dlya-ipotechnogo-brokera",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для ипотечного брокера",
+    "slug": "sait-dlya-ipotechnogo-brokera",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-cafe-website.ru": {
+    "path": "/ru/sait-dlya-kafe",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для кафе и кофейни",
+    "slug": "sait-dlya-kafe",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-catering-website-design.ru": {
+    "path": "/ru/sait-dlya-keiteringa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для кейтеринга",
+    "slug": "sait-dlya-keiteringa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-medical-website-design.ru": {
+    "path": "/ru/sait-dlya-kliniki",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для клиники и врача",
+    "slug": "sait-dlya-kliniki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-life-coach-website-design.ru": {
+    "path": "/ru/sait-dlya-koucha",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для коуча",
+    "slug": "sait-dlya-koucha",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-small-business-website-design.ru": {
+    "path": "/ru/sait-dlya-malogo-biznesa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для малого бизнеса",
+    "slug": "sait-dlya-malogo-biznesa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pressure-washing-website-design.ru": {
+    "path": "/ru/sait-dlya-moyki-vysokim-davleniem",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для мойки высоким давлением",
+    "slug": "sait-dlya-moyki-vysokim-davleniem",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-band-website-design.ru": {
+    "path": "/ru/sait-dlya-muzykalnoy-gruppy",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для музыкальной группы",
+    "slug": "sait-dlya-muzykalnoy-gruppy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-chiropractor-website-design.ru": {
+    "path": "/ru/sait-dlya-osteopata",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для остеопата и мануального терапевта",
+    "slug": "sait-dlya-osteopata",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-bakery-website-design.ru": {
+    "path": "/ru/sait-dlya-pekarni",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для пекарни",
+    "slug": "sait-dlya-pekarni",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-author-website-design.ru": {
+    "path": "/ru/sait-dlya-pisatelya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для писателя",
+    "slug": "sait-dlya-pisatelya",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-psychologists-therapists.ru": {
+    "path": "/ru/sait-dlya-psihologov-terapevtov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для психолога и психотерапевта",
+    "slug": "sait-dlya-psihologov-terapevtov",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-realtor-website-design.ru": {
+    "path": "/ru/sait-dlya-rieltora",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для риелтора",
+    "slug": "sait-dlya-rieltora",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-pest-control-website-design.ru": {
+    "path": "/ru/sait-dlya-sluzhby-dezinsekcii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для службы дезинсекции",
+    "slug": "sait-dlya-sluzhby-dezinsekcii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-carpentry-website-design.ru": {
+    "path": "/ru/sait-dlya-stolyarnoi-masterskoi",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для столярной мастерской",
+    "slug": "sait-dlya-stolyarnoi-masterskoi",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-insurance-agency-website-design.ru": {
+    "path": "/ru/sait-dlya-strahovogo-agenta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для страхового агента",
+    "slug": "sait-dlya-strahovogo-agenta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-construction-company-website.ru": {
+    "path": "/ru/sait-dlya-stroitelnoi-kompanii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для строительной компании",
+    "slug": "sait-dlya-stroitelnoi-kompanii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-home-builder-website-design.ru": {
+    "path": "/ru/sait-dlya-stroitelstva-domov",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для строительства домов",
+    "slug": "sait-dlya-stroitelstva-domov",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-tattoo-website-design.ru": {
+    "path": "/ru/sait-dlya-tatu-salona",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для тату-салона и тату-мастера",
+    "slug": "sait-dlya-tatu-salona",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-farm-website-design.ru": {
+    "path": "/ru/sait-dlya-fermy",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для фермы",
+    "slug": "sait-dlya-fermy",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-financial-advisor-website-design.ru": {
+    "path": "/ru/sait-dlya-finansovogo-konsultanta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для финансового консультанта",
+    "slug": "sait-dlya-finansovogo-konsultanta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-personal-trainer-website-design.ru": {
+    "path": "/ru/sait-dlya-fitnes-trenera",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для фитнес-тренера",
+    "slug": "sait-dlya-fitnes-trenera",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-food-truck-website-design.ru": {
+    "path": "/ru/sait-dlya-fudtraka",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для фудтрака",
+    "slug": "sait-dlya-fudtraka",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-artist-website-design.ru": {
+    "path": "/ru/sait-dlya-hudozhnika",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт для художника",
+    "slug": "sait-dlya-hudozhnika",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-med-spa-website-design.ru": {
+    "path": "/ru/sait-kliniki-kosmetologii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт клиники косметологии и эстетической медицины",
+    "slug": "sait-kliniki-kosmetologii",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-handyman-website-design.ru": {
+    "path": "/ru/sait-mastera-na-chas",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт мастера на час",
+    "slug": "sait-mastera-na-chas",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-orthodontist-website-design.ru": {
+    "path": "/ru/sait-ortodonta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт ортодонта",
+    "slug": "sait-ortodonta",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-senior-living-website-design.ru": {
+    "path": "/ru/sait-pansionata-dlya-pozhilyh",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт пансионата для пожилых",
+    "slug": "sait-pansionata-dlya-pozhilyh",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-hair-salon-website-design.ru": {
+    "path": "/ru/sait-parikmaherskoy-i-barbershopa",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт парикмахерской и барбершопа",
+    "slug": "sait-parikmaherskoy-i-barbershopa",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-plastic-surgeon-website-design.ru": {
+    "path": "/ru/sait-plasticheskogo-hirurga",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт пластического хирурга",
+    "slug": "sait-plasticheskogo-hirurga",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-website-for-contractors.ru": {
+    "path": "/ru/sait-po-remontu-kvartir",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт по ремонту квартир",
+    "slug": "sait-po-remontu-kvartir",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-optometrist-website-design.ru": {
+    "path": "/ru/sait-salona-optiki",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт салона оптики",
+    "slug": "sait-salona-optiki",
+    "pageType": "page",
+    "parentSlug": null
+  },
+  "singlepage-florist-website-design.ru": {
+    "path": "/ru/sait-cvetochnogo-magazina",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт цветочного магазина",
+    "slug": "sait-cvetochnogo-magazina",
+    "pageType": "page",
+    "parentSlug": null
+  },
   "d0a6b052-1ea6-41ba-9e6f-4bb873946e29": {
     "path": "/ru/sozdanie-saita-dlya-avtoservisa",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Создание сайта для автосервиса с фокусом на заявки",
+    "title": "Создание сайта для автосервиса",
     "slug": "sozdanie-saita-dlya-avtoservisa",
     "pageType": "page",
     "parentSlug": null
@@ -3060,7 +7140,7 @@
     "path": "/ru/sozdanie-saita-dlya-advokata",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Создание сайта для адвоката под ключ",
+    "title": "Создание сайта для адвоката и юриста",
     "slug": "sozdanie-saita-dlya-advokata",
     "pageType": "page",
     "parentSlug": null
@@ -3069,7 +7149,7 @@
     "path": "/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Создание сайта для салона красоты",
+    "title": "Создание сайта салона красоты",
     "slug": "sait-salona-krasoty",
     "pageType": "page",
     "parentSlug": "sozdanie-saitov-dlya-byuti-uslug"
@@ -3078,7 +7158,7 @@
     "path": "/ru/sozdanie-saita-modeli",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Создание сайта модели и фотомодели",
+    "title": "Создание сайта-портфолио модели",
     "slug": "sozdanie-saita-modeli",
     "pageType": "page",
     "parentSlug": null
@@ -3087,7 +7167,7 @@
     "path": "/ru/sozdanie-saitov-dlya-byuti-uslug",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Создание сайтов для бьюти-услуг, которые приносят клиентов",
+    "title": "Создание сайтов для бьюти-услуг",
     "slug": "sozdanie-saitov-dlya-byuti-uslug",
     "pageType": "page",
     "parentSlug": null
@@ -3096,7 +7176,7 @@
     "path": "/ru/sozdanie-saitov-na-kipre",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Создание сайтов на Кипре для роста бизнеса",
+    "title": "Создание сайтов на Кипре",
     "slug": "sozdanie-saitov-na-kipre",
     "pageType": "page",
     "parentSlug": null
@@ -3110,14 +7190,50 @@
     "pageType": "page",
     "parentSlug": null
   },
+  "singlepage-ai-seo-consultant.ru": {
+    "path": "/ru/uslugi/ai-seo-konsultant",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "AI SEO-консультант",
+    "slug": "ai-seo-konsultant",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-ai-seo-services.ru": {
+    "path": "/ru/uslugi/ai-seo-prodvizhenie",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "AI SEO-продвижение",
+    "slug": "ai-seo-prodvizhenie",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
   "1c0a4ea3-2dd6-4081-a0a0-58ee87633f71": {
     "path": "/ru/uslugi/ai-seo-i-geo-optimizaciya",
     "type": "singlepage",
     "lang": "ru",
-    "title": "AI SEO и GEO-оптимизация",
+    "title": "GEO-оптимизация",
     "slug": "ai-seo-i-geo-optimizaciya",
     "pageType": "service",
     "parentSlug": "uslugi"
+  },
+  "singlepage-llm-seo-services.ru": {
+    "path": "/ru/uslugi/llm-seo",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "LLM SEO",
+    "slug": "llm-seo",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "d0eb4a85-35a0-4738-be86-148e6cbdb398": {
+    "path": "/ru/seo-dlya-nedvizhimosti-na-kipre",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO для продвижения недвижимости на Кипре",
+    "slug": "seo-dlya-nedvizhimosti-na-kipre",
+    "pageType": "service",
+    "parentSlug": null
   },
   "0ba09f41-cdc6-40b1-8b57-e56ac656e979": {
     "path": "/ru/uslugi/seo-audit-saita",
@@ -3125,6 +7241,15 @@
     "lang": "ru",
     "title": "SEO-аудит сайта",
     "slug": "seo-audit-saita",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-consultation.ru": {
+    "path": "/ru/uslugi/seo-konsultaciya",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "SEO-консультация",
+    "slug": "seo-konsultaciya",
     "pageType": "service",
     "parentSlug": "uslugi"
   },
@@ -3146,33 +7271,6 @@
     "pageType": "service",
     "parentSlug": "lokacii"
   },
-  "singlepage-seo-uk.ru": {
-    "path": "/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "SEO-продвижение сайта на британский рынок",
-    "slug": "prodvizhenie-na-britanskiy-rynok",
-    "pageType": "service",
-    "parentSlug": "lokacii"
-  },
-  "singlepage-seo-italy.ru": {
-    "path": "/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "SEO-продвижение сайта на итальянский рынок",
-    "slug": "prodvizhenie-na-italyanskiy-rynok",
-    "pageType": "service",
-    "parentSlug": "lokacii"
-  },
-  "singlepage-seo-germany.ru": {
-    "path": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok",
-    "type": "singlepage",
-    "lang": "ru",
-    "title": "SEO-продвижение сайта на немецкий рынок",
-    "slug": "prodvizhenie-na-nemetskiy-rynok",
-    "pageType": "service",
-    "parentSlug": "lokacii"
-  },
   "singlepage-seo-baltics.ru": {
     "path": "/ru/uslugi/lokacii/prodvizhenie-na-rynki-baltii",
     "type": "singlepage",
@@ -3188,6 +7286,15 @@
     "lang": "ru",
     "title": "Аудит видимости в ИИ-поиске",
     "slug": "audit-vidimosti-v-ii-poiske",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "24354662-e684-4a9c-ad37-3e196d3b40c4": {
+    "path": "/ru/uslugi/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Аудит производительности и кода сайта",
+    "slug": "uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
     "pageType": "service",
     "parentSlug": "uslugi"
   },
@@ -3245,12 +7352,39 @@
     "pageType": "service",
     "parentSlug": "uslugi"
   },
+  "singlepage-conversion-rate-optimization-services.ru": {
+    "path": "/ru/uslugi/optimizaciya-konversii",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Оптимизация конверсии",
+    "slug": "optimizaciya-konversii",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
   "service-ai-search-readiness.ru": {
     "path": "/ru/uslugi/podgotovka-saita-k-ii-poisku",
     "type": "singlepage",
     "lang": "ru",
     "title": "Подготовка сайта к ИИ-поиску",
     "slug": "podgotovka-saita-k-ii-poisku",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-website-maintenance.ru": {
+    "path": "/ru/uslugi/podderzhka-saita",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Поддержка и сопровождение сайта разработчиком",
+    "slug": "podderzhka-saita",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-chatgpt-seo-services.ru": {
+    "path": "/ru/uslugi/prodvizhenie-v-chatgpt",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение в ChatGPT",
+    "slug": "prodvizhenie-v-chatgpt",
     "pageType": "service",
     "parentSlug": "uslugi"
   },
@@ -3371,12 +7505,57 @@
     "pageType": "service",
     "parentSlug": "lokacii"
   },
+  "singlepage-ecommerce-seo.ru": {
+    "path": "/ru/uslugi/prodvizhenie-internet-magazina",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение интернет-магазина",
+    "slug": "prodvizhenie-internet-magazina",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-website-promotion.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saita",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта",
+    "slug": "prodvizhenie-saita",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-uk.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта в Великобритании",
+    "slug": "prodvizhenie-na-britanskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-germany.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта в Германии",
+    "slug": "prodvizhenie-na-nemetskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
   "singlepage-seo-ireland.ru": {
     "path": "/ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok",
     "type": "singlepage",
     "lang": "ru",
     "title": "Продвижение сайта в Ирландии",
     "slug": "prodvizhenie-na-irlandskiy-rynok",
+    "pageType": "service",
+    "parentSlug": "lokacii"
+  },
+  "singlepage-seo-italy.ru": {
+    "path": "/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайта в Италии",
+    "slug": "prodvizhenie-na-italyanskiy-rynok",
     "pageType": "service",
     "parentSlug": "lokacii"
   },
@@ -3434,6 +7613,15 @@
     "pageType": "service",
     "parentSlug": "prodvizhenie-na-shveytsarskiy-rynok"
   },
+  "singlepage-pozycjonowanie-warszawa.ru": {
+    "path": "/ru/uslugi/prodvizhenie-saitov-varshava",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Продвижение сайтов в Варшаве",
+    "slug": "prodvizhenie-saitov-varshava",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
   "singlepage-swiss-consulting.ru": {
     "path": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-konsaltinga-shveytsariya",
     "type": "singlepage",
@@ -3467,6 +7655,24 @@
     "lang": "ru",
     "title": "Разработка кастомных посадочных страниц",
     "slug": "razrabotka-lendingov",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-multilingual-website.ru": {
+    "path": "/ru/uslugi/razrabotka-multiyazychnogo-saita",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка мультиязычного сайта",
+    "slug": "razrabotka-multiyazychnogo-saita",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-nextjs-development-services.ru": {
+    "path": "/ru/uslugi/razrabotka-na-nextjs",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Разработка на Next.js",
+    "slug": "razrabotka-na-nextjs",
     "pageType": "service",
     "parentSlug": "uslugi"
   },
@@ -3524,6 +7730,33 @@
     "pageType": "service",
     "parentSlug": "lokacii"
   },
+  "singlepage-website-redesign.ru": {
+    "path": "/ru/uslugi/redizayn-sayta",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Редизайн сайта без потери позиций",
+    "slug": "redizayn-sayta",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-wordpress-development-services.ru": {
+    "path": "/ru/uslugi/sait-na-wordpress",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт на WordPress",
+    "slug": "sait-na-wordpress",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-business-card-website.ru": {
+    "path": "/ru/uslugi/sait-vizitka",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Сайт-визитка",
+    "slug": "sait-vizitka",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
   "singlepage-lingerie-website.ru": {
     "path": "/ru/uslugi/sozdanie-saita-dlya-proizvoditelya-nizhnego-belya",
     "type": "singlepage",
@@ -3533,12 +7766,21 @@
     "pageType": "service",
     "parentSlug": "uslugi"
   },
-  "24354662-e684-4a9c-ad37-3e196d3b40c4": {
-    "path": "/ru/uslugi/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
+  "singlepage-technical-seo.ru": {
+    "path": "/ru/uslugi/tehnicheskoe-seo",
     "type": "singlepage",
     "lang": "ru",
-    "title": "Ускорение сайта и улучшение поисковой видимости",
-    "slug": "uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
+    "title": "Техническое SEO: правки в коде, а не ещё один отчёт",
+    "slug": "tehnicheskoe-seo",
+    "pageType": "service",
+    "parentSlug": "uslugi"
+  },
+  "singlepage-seo-consultant.ru": {
+    "path": "/ru/uslugi/chastnyi-seo-specialist",
+    "type": "singlepage",
+    "lang": "ru",
+    "title": "Частный SEO-специалист",
+    "slug": "chastnyi-seo-specialist",
     "pageType": "service",
     "parentSlug": "uslugi"
   },

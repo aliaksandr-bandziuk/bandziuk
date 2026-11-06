@@ -1,5 +1,21 @@
 [
   {
+    "_createdAt": "2026-09-18T18:44:16Z",
+    "_id": "portfolio-tatsianabandziuk",
+    "contentBlocks": null,
+    "language": "en",
+    "slug": "consultant-website-design-retail-analytics",
+    "title": "A consultant website for a retail analytics expert"
+  },
+  {
+    "_createdAt": "2026-09-09T14:20:32Z",
+    "_id": "portfolio-przechowalniaopon",
+    "contentBlocks": null,
+    "language": "en",
+    "slug": "tyre-storage-landing-page-with-editable-seo",
+    "title": "A multilingual landing page for a wheel and tyre storage business"
+  },
+  {
     "_createdAt": "2026-09-07T11:08:03Z",
     "_id": "portfolio-moveandinvest",
     "contentBlocks": null,
@@ -32,12 +48,12 @@
     "title": "Auto Repair SEO & UX Boost"
   },
   {
-    "_createdAt": "2025-08-30T13:19:45Z",
-    "_id": "0d395501-cc48-4c01-a395-789065b976eb",
+    "_createdAt": "2026-09-22T17:04:02Z",
+    "_id": "portfolio-giuseppeiannone",
     "contentBlocks": null,
     "language": "en",
-    "slug": "build-and-optimize-a-multilingual-real-estate-platform",
-    "title": "Build and optimize a multilingual real estate platform"
+    "slug": "psychotherapist-website-milan",
+    "title": "Bilingual psychotherapist website in Italy"
   },
   {
     "_createdAt": "2025-08-31T21:17:44Z",
@@ -88,6 +104,14 @@
     "title": "Investment Platform with AI-Guided Learning"
   },
   {
+    "_createdAt": "2025-08-30T13:19:45Z",
+    "_id": "0d395501-cc48-4c01-a395-789065b976eb",
+    "contentBlocks": null,
+    "language": "en",
+    "slug": "build-and-optimize-a-multilingual-real-estate-platform",
+    "title": "Multilingual real estate platform in Cyprus: SEO and GEO without bought links"
+  },
+  {
     "_createdAt": "2025-10-29T13:50:18Z",
     "_id": "6d40e06c-7257-4eaa-950b-3f1166b22d1b",
     "contentBlocks": null,
@@ -104,12 +128,28 @@
     "title": "Renovation and investment website with a premium feel and 96/98/100/100 performance"
   },
   {
+    "_createdAt": "2026-10-04T11:14:39Z",
+    "_id": "portfolio-academgo",
+    "contentBlocks": null,
+    "language": "en",
+    "slug": "seo-case-study-education-agency",
+    "title": "SEO case study: an education agency site, one country to ten"
+  },
+  {
     "_createdAt": "2025-08-31T22:05:07Z",
     "_id": "8b0ed15c-bf8e-4659-80a4-6accd7f11fcc",
     "contentBlocks": null,
     "language": "en",
     "slug": "web-development-a-website-for-internet-prowider",
     "title": "Web Development a Website for Internet Prowider"
+  },
+  {
+    "_createdAt": "2026-10-04T11:14:39Z",
+    "_id": "portfolio-academgo.pl",
+    "contentBlocks": null,
+    "language": "pl",
+    "slug": "case-study-pozycjonowania-agencji-edukacyjnej",
+    "title": "Case study pozycjonowania: agencja edukacyjna i dziesięć krajów"
   },
   {
     "_createdAt": "2026-07-02T11:47:34Z",
@@ -168,14 +208,6 @@
     "title": "Rozwój platformy inwestycyjnej PeakProfit"
   },
   {
-    "_createdAt": "2025-08-30T13:19:45Z",
-    "_id": "b0bcc24a-a4ec-497b-8e87-47729903ec43",
-    "contentBlocks": null,
-    "language": "pl",
-    "slug": "rozwoj-wielojezycznej-platformy-nieruchomosci-premium",
-    "title": "Rozwój wielojęzycznej platformy nieruchomości premium"
-  },
-  {
     "_createdAt": "2026-02-02T19:43:54Z",
     "_id": "4e0cfdf8-4ffa-4dba-a9b4-753b9b91fcc8",
     "contentBlocks": null,
@@ -190,6 +222,22 @@
     "language": "pl",
     "slug": "strona-dla-firmy-remontowej-i-inwestycyjnej-warszawa",
     "title": "Strona dla firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100"
+  },
+  {
+    "_createdAt": "2026-09-18T18:44:16Z",
+    "_id": "portfolio-tatsianabandziuk.pl",
+    "contentBlocks": null,
+    "language": "pl",
+    "slug": "strona-dla-eksperta-od-analityki-handlu",
+    "title": "Strona internetowa dla eksperta od analityki handlu"
+  },
+  {
+    "_createdAt": "2026-09-22T17:04:02Z",
+    "_id": "portfolio-giuseppeiannone.pl",
+    "contentBlocks": null,
+    "language": "pl",
+    "slug": "strona-internetowa-dla-psychoterapeuty",
+    "title": "Strona internetowa dla psychoterapeuty we Włochach"
   },
   {
     "_createdAt": "2025-10-28T22:18:44Z",
@@ -208,6 +256,14 @@
     "title": "Stworzenie strony internetowej dostawcy internetu"
   },
   {
+    "_createdAt": "2026-09-09T14:20:32Z",
+    "_id": "portfolio-przechowalniaopon.pl",
+    "contentBlocks": null,
+    "language": "pl",
+    "slug": "landing-przechowalni-opon-w-warszawie",
+    "title": "Trójjęzyczny landing przechowalni opon w Warszawie"
+  },
+  {
     "_createdAt": "2025-10-29T12:28:42Z",
     "_id": "ab135ddf-f66b-4ef8-b83a-0b0b1a74a3ab",
     "contentBlocks": null,
@@ -224,6 +280,14 @@
     "title": "Tworzenie i optymalizacja strony osobistej z SEO"
   },
   {
+    "_createdAt": "2025-08-30T13:19:45Z",
+    "_id": "b0bcc24a-a4ec-497b-8e87-47729903ec43",
+    "contentBlocks": null,
+    "language": "pl",
+    "slug": "rozwoj-wielojezycznej-platformy-nieruchomosci-premium",
+    "title": "Wielojęzyczna platforma nieruchomości na Cyprze: SEO i GEO bez kupowania linków"
+  },
+  {
     "_createdAt": "2025-07-28T13:34:29Z",
     "_id": "8e9a1788-18c1-4c1f-a329-3bf0a2c432e1",
     "contentBlocks": null,
@@ -238,6 +302,22 @@
     "language": "ru",
     "slug": "zashita-form-ot-spama",
     "title": "Защита форм от спама без CAPTCHA"
+  },
+  {
+    "_createdAt": "2026-10-04T11:14:39Z",
+    "_id": "portfolio-academgo.ru",
+    "contentBlocks": null,
+    "language": "ru",
+    "slug": "keys-prodvizheniya-sayta-obrazovatelnogo-agentstva",
+    "title": "Кейс продвижения сайта образовательного агентства"
+  },
+  {
+    "_createdAt": "2025-08-30T13:19:45Z",
+    "_id": "27524aa0-da00-4e24-8862-6e92b967082e",
+    "contentBlocks": null,
+    "language": "ru",
+    "slug": "razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre",
+    "title": "Многоязычный сайт недвижимости на Кипре: SEO и GEO без покупки ссылок"
   },
   {
     "_createdAt": "2025-10-29T13:50:18Z",
@@ -280,20 +360,28 @@
     "title": "Разработка инвестиционного вебсайта PeakProfit"
   },
   {
-    "_createdAt": "2025-08-30T13:19:45Z",
-    "_id": "27524aa0-da00-4e24-8862-6e92b967082e",
-    "contentBlocks": null,
-    "language": "ru",
-    "slug": "razrabotka-saita-dlya-agentstva-elitnoi-nedvizhimosti-na-kipre",
-    "title": "Разработка сайта для агентства элитной недвижимости на Кипре"
-  },
-  {
     "_createdAt": "2026-08-26T08:57:28Z",
     "_id": "portfolio-orzel-realty.ru",
     "contentBlocks": null,
     "language": "ru",
     "slug": "sayt-dlya-remontnoy-i-investicionnoy-kompanii",
     "title": "Сайт для ремонтной и инвестиционной компании с результатом 96/98/100/100"
+  },
+  {
+    "_createdAt": "2026-09-22T17:04:02Z",
+    "_id": "portfolio-giuseppeiannone.ru",
+    "contentBlocks": null,
+    "language": "ru",
+    "slug": "sayt-psikhoterapevta-v-italii",
+    "title": "Сайт психотерапевта в Италии на двух языках"
+  },
+  {
+    "_createdAt": "2026-09-18T18:44:16Z",
+    "_id": "portfolio-tatsianabandziuk.ru",
+    "contentBlocks": null,
+    "language": "ru",
+    "slug": "sayt-eksperta-po-analitike-riteyla",
+    "title": "Сайт эксперта по аналитике ритейла на трёх языках"
   },
   {
     "_createdAt": "2025-10-29T12:28:42Z",
@@ -326,6 +414,14 @@
     "language": "ru",
     "slug": "spravochnik-po-vnzh-za-investicii-s-pervoistochnikami",
     "title": "Справочник по ВНЖ за инвестиции в пяти юрисдикциях"
+  },
+  {
+    "_createdAt": "2026-09-09T14:20:32Z",
+    "_id": "portfolio-przechowalniaopon.ru",
+    "contentBlocks": null,
+    "language": "ru",
+    "slug": "lending-sklada-sezonnogo-hraneniya-koles",
+    "title": "Трёхъязычный лендинг склада сезонного хранения колёс"
   },
   {
     "_createdAt": "2026-02-02T19:43:54Z",

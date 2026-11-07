@@ -129,6 +129,8 @@ const SECTORS = [
   { title: t("Health and medicine", "Medycyna i zdrowie", "Медицина и здоровье"), icon: "med", items: [
     [t("Dental clinics", "Gabinety stomatologiczne", "Стоматологии"), ["dental-website-design", "dental-clinic-website"], ["dentist-seo"]],
     [t("Medical practices", "Lekarze i przychodnie", "Клиники и врачи"), ["medical-website-design"], ["medical-seo", "healthcare-seo"]],
+    [t("Pediatricians", "Pediatrzy", "Педиатры"), ["pediatrician-website-design"]],
+    [t("Psychiatrists", "Psychiatrzy", "Психиатры"), ["psychiatrist-website-design"]],
     [t("Psychologists and therapists", "Psycholodzy i terapeuci", "Психологи и терапевты"), ["website-for-psychologists-therapists"], ["seo-for-therapists"]],
     [t("Med spas", "Medycyna estetyczna", "Косметология"), ["med-spa-website-design"], ["med-spa-seo"]],
     [t("Plastic surgeons", "Chirurdzy plastyczni", "Пластические хирурги"), ["plastic-surgeon-website-design"], ["seo-for-plastic-surgeons"]],

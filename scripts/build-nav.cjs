@@ -147,6 +147,7 @@ const SECTORS = [
     [t("Insurance agencies", "Agenci ubezpieczeniowi", "Страховые агенты"), ["insurance-agency-website-design"], ["insurance-agency-seo"]],
     [t("Mortgage brokers", "Pośrednicy kredytowi", "Ипотечные брокеры"), ["mortgage-broker-website-design"], ["mortgage-broker-seo"]],
     [t("Accounting firms", "Biura rachunkowe", "Бухгалтерские фирмы"), ["accounting-firm-website"], []],
+    [t("Banks", "Banki", "Банки"), ["bank-website-design"], ["seo-for-banks"]],
   ] },
   { title: t("Hotels, food and travel", "Hotele, gastronomia, turystyka", "Отели, еда, туризм"), icon: "hotel", items: [
     [t("Hotels", "Hotele", "Отели"), ["hotel-website-design", "hotel-website"], ["hotel-seo"]],

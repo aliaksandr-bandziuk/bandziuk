@@ -1,28 +1,21 @@
 # Матрица спроса: услуга × отрасль × город
 
-Построено: 2026-11-03 10:09 UTC. Порог 10/мес.
-Проверено комбинаций: 80 607. Заплачено $0.54, из кеша $4.41.
+Построено: 2026-11-07 09:57 UTC. Порог 10/мес.
+Проверено комбинаций: 14 200. Заплачено $0.63, из кеша $4.41.
 
 | язык | проверено | со спросом | доля |
 | --- | --- | --- | --- |
-| pl | 23 018 | 390 | 1.7% |
-| ru | 25 551 | 399 | 1.6% |
-| en | 32 038 | 1 580 | 4.9% |
+| pl | 4 208 | 33 | 0.8% |
+| ru | 4 471 | 209 | 4.7% |
+| en | 5 521 | 1 212 | 22.0% |
 
 ## По осям
 
 | язык | ось | тем | сумма частот |
 | --- | --- | --- | --- |
-| pl | service-only | 37 | 359 770 |
-| pl | service-industry | 31 | 2 790 |
-| pl | service-city | 322 | 50 390 |
-| ru | service-only | 40 | 157 080 |
-| ru | service-industry | 187 | 10 700 |
-| ru | service-city | 172 | 15 190 |
-| en | service-only | 39 | 1 496 690 |
-| en | service-industry | 1 028 | 1 256 650 |
-| en | service-city | 477 | 398 730 |
-| en | industry-city | 36 | 1 000 |
+| pl | service-industry | 33 | 2 840 |
+| ru | service-industry | 209 | 11 180 |
+| en | service-industry | 1 212 | 1 364 550 |
 
 ## pl: отрасли с наибольшим спросом
 
@@ -41,6 +34,7 @@
 | przedszkola | 2 | 90 |
 | drukarni | 2 | 80 |
 | biura rachunkowego | 1 | 70 |
+| pizzerii | 1 | 40 |
 | agencji nieruchomości | 1 | 40 |
 | projektanta wnętrz | 1 | 30 |
 | biura podróży | 1 | 10 |
@@ -63,6 +57,7 @@
 | отеля | 7 | 370 |
 | художника | 3 | 360 |
 | ресторана | 8 | 360 |
+| банка | 6 | 250 |
 | строительной компании | 8 | 250 |
 | агентства недвижимости | 6 | 230 |
 | писателя | 1 | 210 |
@@ -71,17 +66,17 @@
 | кафе | 6 | 170 |
 | туроператора | 3 | 150 |
 | адвоката | 4 | 120 |
-| косметолога | 2 | 120 |
 
 ## en: отрасли с наибольшим спросом
 
 | отрасль | тем | сумма частот |
 | --- | --- | --- |
-| doctors | 16 | 188 070 |
+| doctors | 15 | 188 060 |
+| ecommerce stores | 8 | 69 910 |
 | consultants | 11 | 54 930 |
-| small business | 46 | 53 500 |
-| hotels | 14 | 53 180 |
-| ecommerce stores | 5 | 47 510 |
+| hotels | 13 | 53 170 |
+| small business | 18 | 52 580 |
+| pizzerias | 3 | 49 700 |
 | restaurants | 14 | 45 270 |
 | wedding planners | 7 | 44 660 |
 | translators | 3 | 42 160 |
@@ -89,158 +84,82 @@
 | law firms | 15 | 40 660 |
 | real estate agencies | 8 | 36 800 |
 | dentists | 15 | 32 790 |
-| lawyers | 18 | 32 100 |
+| lawyers | 17 | 32 090 |
 | architects | 12 | 25 780 |
 | realtors | 13 | 25 260 |
 | djs | 8 | 20 850 |
 | gyms | 11 | 19 430 |
 | coaches | 8 | 16 520 |
 | plumbers | 14 | 15 410 |
-| painting contractors | 7 | 14 390 |
-
-## pl: города с наибольшим спросом
-
-| город | тем | сумма частот |
-| --- | --- | --- |
-| poznań | 7 | 3 730 |
-| warszawa | 7 | 3 290 |
-| toruń | 6 | 3 010 |
-| wrocław | 7 | 2 620 |
-| katowice | 7 | 2 160 |
-| kraków | 7 | 2 020 |
-| rzeszów | 7 | 1 740 |
-| szczecin | 6 | 1 650 |
-| łódź | 7 | 1 480 |
-| bydgoszcz | 7 | 1 460 |
-| lublin | 6 | 1 370 |
-| opole | 6 | 1 280 |
-| częstochowa | 7 | 1 220 |
-| gdańsk | 7 | 1 070 |
-| radom | 6 | 990 |
-| białystok | 6 | 980 |
-| gdynia | 7 | 960 |
-| olsztyn | 6 | 950 |
-| gliwice | 6 | 890 |
-| kielce | 6 | 870 |
-
-## ru: города с наибольшим спросом
-
-| город | тем | сумма частот |
-| --- | --- | --- |
-| астана | 7 | 6 780 |
-| алматы | 7 | 4 210 |
-| киев | 8 | 940 |
-| бишкек | 7 | 510 |
-| ташкент | 6 | 400 |
-| одесса | 8 | 330 |
-| харьков | 8 | 220 |
-| днепр | 7 | 210 |
-| кишинев | 5 | 190 |
-| николаев | 6 | 120 |
-| полтава | 5 | 110 |
-| запорожье | 8 | 100 |
-| львов | 7 | 80 |
-| черкассы | 6 | 70 |
-| винница | 7 | 70 |
-| шымкент | 4 | 60 |
-| чернигов | 6 | 60 |
-| прага | 3 | 50 |
-| караганда | 4 | 50 |
-| дубай | 1 | 40 |
-
-## en: города с наибольшим спросом
-
-| город | тем | сумма частот |
-| --- | --- | --- |
-| dubai | 7 | 26 720 |
-| ottawa | 6 | 26 010 |
-| auckland | 8 | 22 470 |
-| toronto | 8 | 21 910 |
-| london | 8 | 17 940 |
-| perth | 8 | 16 030 |
-| singapore | 7 | 14 110 |
-| edmonton | 7 | 13 400 |
-| dallas | 6 | 12 800 |
-| sydney | 8 | 11 810 |
-| brisbane | 8 | 11 280 |
-| austin | 7 | 10 550 |
-| denver | 8 | 10 050 |
-| calgary | 7 | 9 370 |
-| vancouver | 8 | 8 830 |
-| cape town | 6 | 7 920 |
-| houston | 8 | 7 580 |
-| melbourne | 8 | 7 030 |
-| chicago | 8 | 7 000 |
-| phoenix | 8 | 6 420 |
 
 ## pl: двадцать самых частотных
 
-- **landing page** — 246000/мес, ось service-only
-- **headless cms** — 22200/мес, ось service-only
-- **core web vitals** — 22200/мес, ось service-only
-- **sklep internetowy** — 12100/мес, ось service-only
-- **audyt seo** — 9900/мес, ось service-only
-- **freelancer seo** — 9900/мес, ось service-only
-- **agencja seo** — 9900/мес, ось service-only
-- **pozycjonowanie stron** — 6600/мес, ось service-only
-- **tworzenie stron internetowych** — 5400/мес, ось service-only
-- **projektowanie stron internetowych** — 2400/мес, ось service-only
-- **pozycjonowanie stron toruń** — 2400/мес, ось service-city
-- **pozycjonowanie stron internetowych** — 1900/мес, ось service-only
-- **cennik pozycjonowania** — 1300/мес, ось service-only
-- **ile kosztuje strona internetowa** — 1300/мес, ось service-only
-- **pozycjonowanie lokalne** — 1000/мес, ось service-only
-- **pozycjonowanie stron warszawa** — 1000/мес, ось service-city
-- **pozycjonowanie stron poznań** — 1000/мес, ось service-city
-- **pozycjonowanie stron katowice** — 1000/мес, ось service-city
-- **pozycjonowanie sklepu internetowego** — 880/мес, ось service-only
-- **audyt strony internetowej** — 880/мес, ось service-only
+- **seo dla sklepu internetowego** — 320/мес, ось service-industry
+- **strona dla fotografa** — 210/мес, ось service-industry
+- **pozycjonowanie strony hotelu** — 170/мес, ось service-industry
+- **pozycjonowanie strony sklepu internetowego** — 170/мес, ось service-industry
+- **strona internetowa dla psychologa** — 170/мес, ось service-industry
+- **strona internetowa dla firmy budowlanej** — 170/мес, ось service-industry
+- **strona dla dewelopera** — 170/мес, ось service-industry
+- **strona internetowa dla dewelopera** — 140/мес, ось service-industry
+- **strona internetowa dla fotografa** — 140/мес, ось service-industry
+- **strona internetowa dla restauracji** — 110/мес, ось service-industry
+- **strona dla restauracji** — 110/мес, ось service-industry
+- **strona dla psychologa** — 110/мес, ось service-industry
+- **strona internetowa dla firmy transportowej** — 90/мес, ось service-industry
+- **strona internetowa dla trenera personalnego** — 90/мес, ось service-industry
+- **strona internetowa dla małej firmy** — 90/мес, ось service-industry
+- **strona internetowa dla hotelu** — 70/мес, ось service-industry
+- **strona internetowa dla biura rachunkowego** — 70/мес, ось service-industry
+- **sklep internetowy dla drukarni** — 70/мес, ось service-industry
+- **strona internetowa dla przedszkola** — 50/мес, ось service-industry
+- **strona dla hotelu** — 50/мес, ось service-industry
 
 ## ru: двадцать самых частотных
 
-- **интернет магазин** — 40500/мес, ось service-only
-- **headless cms** — 22200/мес, ось service-only
-- **core web vitals** — 22200/мес, ось service-only
-- **лендинг** — 14800/мес, ось service-only
-- **продвижение сайта** — 12100/мес, ось service-only
-- **создание сайта** — 9900/мес, ось service-only
-- **создание сайта астана** — 6600/мес, ось service-city
-- **seo продвижение сайта** — 5400/мес, ось service-only
-- **разработка сайта** — 5400/мес, ось service-only
-- **раскрутка сайта** — 4400/мес, ось service-only
-- **seo специалист** — 3600/мес, ось service-only
-- **создание сайта алматы** — 3600/мес, ось service-city
-- **сайт визитка** — 2400/мес, ось service-only
-- **поддержка сайта** — 1900/мес, ось service-only
-- **seo агентство** — 1900/мес, ось service-only
-- **стоимость продвижения сайта** — 1600/мес, ось service-only
-- **продвижение интернет магазина** — 1000/мес, ось service-only
-- **аудит сайта** — 1000/мес, ось service-only
-- **оптимизация сайта** — 1000/мес, ось service-only
-- **сайт под ключ** — 1000/мес, ось service-only
+- **сайт для фотографа** — 880/мес, ось service-industry
+- **seo продвижение интернет-магазина** — 720/мес, ось service-industry
+- **продвижение сайта автосервиса** — 480/мес, ось service-industry
+- **продвижение сайта интернет-магазина** — 480/мес, ось service-industry
+- **сайт для репетитора** — 390/мес, ось service-industry
+- **seo продвижение стоматологии** — 320/мес, ось service-industry
+- **сайт для художника** — 320/мес, ось service-industry
+- **продвижение сайта стоматологии** — 260/мес, ось service-industry
+- **продвижение сайта салона красоты** — 260/мес, ось service-industry
+- **продвижение сайта клиники** — 260/мес, ось service-industry
+- **продвижение сайта ювелирного магазина** — 210/мес, ось service-industry
+- **раскрутка сайта автосервиса** — 210/мес, ось service-industry
+- **сайт для писателя** — 210/мес, ось service-industry
+- **продвижение сайта банка** — 170/мес, ось service-industry
+- **раскрутка сайта клиники** — 170/мес, ось service-industry
+- **раскрутка сайта интернет-магазина** — 170/мес, ось service-industry
+- **продвижение сайта ресторана** — 140/мес, ось service-industry
+- **продвижение сайта строительной компании** — 140/мес, ось service-industry
+- **seo продвижение ювелирного магазина** — 140/мес, ось service-industry
+- **раскрутка сайта ювелирного магазина** — 140/мес, ось service-industry
 
 ## en: двадцать самых частотных
 
-- **website development** — 673000/мес, ось service-only
-- **web design** — 201000/мес, ось service-only
-- **website design** — 201000/мес, ось service-only
-- **seo services** — 110000/мес, ось service-only
 - **website for doctors** — 90500/мес, ось service-industry
 - **doctor website** — 90500/мес, ось service-industry
-- **conversion rate optimization** — 40500/мес, ось service-only
+- **pizzeria seo** — 49500/мес, ось service-industry
 - **musician website** — 40500/мес, ось service-industry
 - **ecommerce website** — 33100/мес, ось service-industry
 - **real estate website** — 27100/мес, ось service-industry
 - **translator website** — 27100/мес, ось service-industry
-- **seo consultant** — 22200/мес, ось service-only
-- **seo audit** — 22200/мес, ось service-only
-- **website redesign** — 22200/мес, ось service-only
-- **headless cms** — 22200/мес, ось service-only
-- **core web vitals** — 22200/мес, ось service-only
 - **consultants seo** — 22200/мес, ось service-industry
 - **website for wedding planners** — 22200/мес, ось service-industry
 - **wedding planner website** — 22200/мес, ось service-industry
 - **consulting seo** — 22200/мес, ось service-industry
+- **website for hotels** — 18100/мес, ось service-industry
+- **hotel website** — 18100/мес, ось service-industry
+- **website for restaurants** — 14800/мес, ось service-industry
+- **website for translators** — 14800/мес, ось service-industry
+- **restaurant website** — 14800/мес, ось service-industry
+- **coaching website** — 12100/мес, ось service-industry
+- **painting website** — 12100/мес, ось service-industry
+- **website for architects** — 9900/мес, ось service-industry
+- **website for djs** — 9900/мес, ось service-industry
 
 ## Оговорка про латинские термины
 

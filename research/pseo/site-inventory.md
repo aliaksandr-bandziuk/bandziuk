@@ -1,37 +1,37 @@
 # Что на сайте уже есть и где языковые пробелы
 
-Снято: 2026-11-03 09:41 UTC.
-Документов: 856. Тем: 347.
-Связано по суффиксу идентификатора: 75, по translation.metadata: 781.
+Снято: 2026-11-07 09:42 UTC.
+Документов: 884. Тем: 371.
+Связано по суффиксу идентификатора: 98, по translation.metadata: 786.
 
 ## Сколько документов на каждом языке
 
 | тип | en | pl | ru | всего тем |
 | --- | --- | --- | --- | --- |
-| singlepage | 232 | 212 | 200 | 276 |
-| blog | 53 | 52 | 53 | 53 |
+| singlepage | 255 | 212 | 202 | 299 |
+| blog | 54 | 53 | 54 | 54 |
 | portfolio | 18 | 18 | 18 | 18 |
 
 ## Полнота по языкам
 
 | языков у темы | тем |
 | --- | --- |
-| 3 | 237 |
-| 2 | 35 |
-| 1 | 75 |
+| 3 | 238 |
+| 2 | 37 |
+| 1 | 96 |
 
-## Пробелы: 110 тем переведены не полностью
+## Пробелы: 133 тем переведены не полностью
 
 | чего не хватает | тем |
 | --- | --- |
-| pl+ru | 42 |
-| en+ru | 31 |
-| pl | 21 |
+| pl+ru | 63 |
+| en+ru | 30 |
+| pl | 22 |
 | en | 11 |
-| ru | 3 |
-| en+pl | 2 |
+| ru | 4 |
+| en+pl | 3 |
 
-## Страницы, которые есть только по-английски: 42
+## Страницы, которые есть только по-английски: 63
 
 Это главный результат инвентаризации. Такую страницу не надо придумывать —
 содержимое уже написано, нужен перевод и локальные факты.
@@ -65,21 +65,42 @@
 - `/roofing-seo` — Roofing SEO
 - `/roofing-website-design` — Roofing website design
 - `/roofing-websites` — Roofing websites
+- `/seo-for-accounting-firms` — SEO for Accounting Firms
+- `/seo-for-artists` — SEO for Artists: Selling Paintings and Sculpture from Your Own Site
+- `/seo-for-authors` — SEO for Authors and Novelists
+- `/seo-for-carpenters` — SEO for Carpenters, Joiners and Bespoke Furniture Makers
+- `/seo-for-coaches` — SEO for Coaches and Consultants
 - `/seo-for-contractors` — SEO for contractors
+- `/seo-for-courier-companies` — SEO for Courier and Same-Day Delivery Companies
+- `/seo-for-daycares` — SEO for Daycares, Nurseries and Preschools
+- `/seo-for-debt-collection-agencies` — SEO for Debt Collection and Receivables Agencies
 - `/seo-for-doctors` — SEO for doctors
+- `/seo-for-driving-schools` — SEO for Driving Schools and Instructors
 - `/seo-for-electricians` — SEO for electricians
+- `/seo-for-furniture-stores` — SEO for Furniture Stores and Showrooms
+- `/seo-for-handyman-services` — SEO for a Handyman Business
 - `/seo-for-it-companies` — SEO for IT companies
+- `/seo-for-massage-therapists` — SEO for Massage Therapists and Therapeutic Practices
+- `/seo-for-musicians` — SEO for Musicians, Bands and DJs
+- `/seo-for-nail-salons` — SEO for Nail Salons and Nail Technicians
 - `/seo-for-painting-contractors` — SEO for painting contractors
+- `/seo-for-pharmacies` — SEO for Pharmacies Within Advertising Restrictions
+- `/seo-for-physiotherapists` — SEO for Physiotherapists and Physical Therapy Clinics
 - `/seo-for-plumbers` — SEO for plumbers
+- `/seo-for-remodeling-companies` — SEO for Remodeling and Renovation Companies
+- `/seo-for-security-companies` — SEO for Security Companies: Guarding, Alarms and CCTV
 - `/seo-for-startups` — SEO for startups
+- `/seo-for-tattoo-artists` — SEO for Tattoo Artists and Studios
+- `/seo-for-wedding-planners` — SEO for Wedding Planners and Destination Weddings
 - `/shopify-seo-services` — Shopify SEO Services
 - `/startup-website-design` — Startup website design
 - `/vacation-rental-website-design` — Vacation rental website design
 - `/veterinary-website-design` — Veterinary website design
+- `/web-design-cyprus` — Web design in Cyprus
 - `/website-for-electricians` — Website for electricians
 - `/website-for-plumbers` — Website for plumbers
 
-## Темы на двух языках из трёх: 35
+## Темы на двух языках из трёх: 37
 
 - en+ru (нет pl) — How Much Does Website Development Cost in Cyprus in 2026?
 - en+pl (нет ru) — Answer Engine Optimization (AEO) Services
@@ -94,6 +115,7 @@
 - en+ru (нет pl) — SEO for car exporters in the UAE
 - en+ru (нет pl) — SEO for consulting and professional firms in Switzerland
 - en+ru (нет pl) — SEO for Swiss watchmakers, jewellers and premium makers
+- en+pl (нет ru) — SEO for Photographers and Wedding Photographers
 - en+ru (нет pl) — SEO for real estate agencies in Spain
 - en+ru (нет pl) — SEO for real estate agencies in the UAE
 - pl+ru (нет en) — Strona wizytówka
@@ -109,6 +131,7 @@
 - pl+ru (нет en) — Pozycjonowanie strony warsztatu samochodowego w Warszawie
 - en+ru (нет pl) — Veterinary SEO
 - en+ru (нет pl) — Web Design and Website Development in Cyprus
+- en+ru (нет pl) — Web development in Limassol
 - en+ru (нет pl) — Website development for companies in Georgia
 - en+ru (нет pl) — Website development for businesses in Montenegro
 - en+ru (нет pl) — Website development for businesses in Portugal
@@ -119,7 +142,7 @@
 
 ## Заголовки внутри страниц
 
-Собраны у 329 тем из 347. Сопоставление спроса теперь
+Собраны у 353 тем из 371. Сопоставление спроса теперь
 сверяется и с ними: запрос, на который страница отвечает разделом H2, больше
 не попадёт в «переформулировать».
 

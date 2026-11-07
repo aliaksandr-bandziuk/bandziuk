@@ -103,14 +103,14 @@ const MARKETS = {
   en: [
     ["United States", ["seo-for-us-market"]], ["United Kingdom", ["seo-for-uk-market"]], ["Germany", ["seo-for-german-market"]],
     ["France", ["seo-for-french-market"]], ["Switzerland", ["seo-for-swiss-market"]], ["Netherlands", ["seo-for-dutch-market"]],
-    ["Cyprus", ["web-development-cyprus"]], ["Limassol", ["web-development-limassol"]], ["Warsaw", ["web-development-warsaw"]],
+    ["Cyprus", ["web-development-cyprus"]], ["Limassol", ["web-development-limassol"]], ["Cyprus web design", ["web-design-cyprus"]], ["Warsaw", ["web-development-warsaw"]],
   ],
   pl: [
     ["Rynek niemiecki", ["seo-for-german-market"]], ["Rynek brytyjski", ["seo-for-uk-market"]], ["Rynek amerykański", ["seo-for-us-market"]],
     ["Rynek francuski", ["seo-for-french-market"]], ["Rynek szwajcarski", ["seo-for-swiss-market"]], ["Rynek holenderski", ["seo-for-dutch-market"]],
   ],
   ru: [
-    ["Кипр", ["web-development-cyprus"]], ["Лимассол", ["web-development-limassol"]], ["ОАЭ", ["website-development-uae"]], ["Испания", ["website-development-spain"]],
+    ["Кипр", ["web-development-cyprus"]], ["Лимассол", ["web-development-limassol"]], ["Польша", ["ru:prodvizhenie-na-polskiy-rynok"]], ["ОАЭ", ["website-development-uae"]], ["Испания", ["website-development-spain"]],
     ["Португалия", ["website-development-portugal"]], ["Грузия", ["website-development-georgia"]], ["Черногория", ["website-development-montenegro"]],
     ["Германия", ["seo-for-german-market"]], ["Франция", ["seo-for-french-market"]], ["Швейцария", ["seo-for-swiss-market"]],
     ["США", ["seo-for-us-market"]], ["Великобритания", ["seo-for-uk-market"]],

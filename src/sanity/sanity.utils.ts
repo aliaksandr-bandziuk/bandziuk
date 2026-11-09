@@ -102,6 +102,11 @@ export async function getStaticSlugParams(
       const slugs: string[] = await client.fetch(
         groq`*[_type == $type && language == $lang && !(_id in path("drafts.**")) && defined(slug[$lang].current)].slug[$lang].current`,
         { type, lang },
+        // no-store on purpose: this list decides which addresses the build
+        // creates, and Vercel keeps the Next data cache between builds, so a
+        // cached list means a new article stays 404 until the cache expires.
+        // Same reason as generateStaticParams in app/[lang]/[...slug].
+        { cache: "no-store" },
       );
       return slugs.map((slug) => ({ lang, slug }));
     }),

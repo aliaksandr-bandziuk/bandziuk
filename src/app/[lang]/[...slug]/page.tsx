@@ -108,6 +108,13 @@ export async function generateStaticParams(): Promise<{ lang: string; slug: stri
         "parent": parentPage->slug[$lang].current
       }`,
       { lang },
+      // no-store on purpose. Every other query is cached for a day, but this
+      // one decides which addresses the build creates at all, and Vercel keeps
+      // the Next data cache between builds: on 07.11.2026 fifteen new pages
+      // stayed 404 through two deploys because every build re-read the page
+      // list the first build of that day had cached. With dynamicParams = false
+      // a missing address is a 404 for a day, so this list is always fetched.
+      { cache: "no-store" },
     );
 
     // строим вложенные массивы slug

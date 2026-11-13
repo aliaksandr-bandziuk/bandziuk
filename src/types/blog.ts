@@ -1,7 +1,7 @@
 import { FormStandardDocument } from "./formStandardDocument";
 import { navLink } from "./header";
 import { BenefitsBlock, ServiceItem } from "./homepage";
-import { Portfolio } from "./portfolio";
+import { Portfolio, ImageWithMetadata, ContentBlock } from "./portfolio";
 import { GeoPoint, ImageAlt } from "./common";
 
 type ContactType = "Email" | "Phone" | "Link";
@@ -177,6 +177,23 @@ export type ImageFullBlock = {
   // description?: DescriptionFull;
 };
 // === Конец типов для imageFullBlock ===
+
+// === Типы для logSliderBlock ===
+export type LogSliderScreenshot = {
+  _key: string;
+  _type: "screenshot";
+  title?: string;
+  image: ImageWithMetadata;
+  caption?: ContentBlock;
+};
+
+export type LogSliderBlock = {
+  _key: string;
+  _type: "logSliderBlock";
+  title?: string;
+  screenshots: LogSliderScreenshot[];
+};
+// === Конец типов для logSliderBlock ===
 
 // === Типы для DoubleTextBlock ===
 export type BlockContentWithStyle = {
@@ -475,6 +492,7 @@ export type Blog = {
     | TeamBlock
     | LocationBlock
     | ImageFullBlock
+    | LogSliderBlock
     | ButtonBlock
     | ImageBulletsBlock
     | BenefitsBlock

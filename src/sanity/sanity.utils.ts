@@ -914,10 +914,39 @@ export async function getBlogPostByLang(
             }
           }
         },
+        // === слайдер кадров лога ===
+        // Нужна своя проекция: ScreenshotSlide берёт width/height из
+        // asset.metadata.dimensions, а сквозной `@` отдаёт только ссылку.
+        _type == "logSliderBlock" => {
+          _key,
+          _type,
+          title,
+          screenshots[]{
+            _key,
+            _type,
+            title,
+            caption,
+            image{
+              alt,
+              asset->{
+                _id,
+                url,
+                metadata{
+                  dimensions{
+                    width,
+                    height,
+                    aspectRatio
+                  }
+                }
+              }
+            }
+          }
+        },
         // === секция проектов ===
         // все прочие блоки пропускаем «как есть»
         _type != "textContent" &&
         _type != "contactFullBlock" &&
+        _type != "logSliderBlock" &&
         _type != "formMinimalBlock" => @
       },
       serviceOffered[]->{

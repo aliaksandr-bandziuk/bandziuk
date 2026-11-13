@@ -25,6 +25,7 @@ import {
   FaqBlock,
   FormMinimalBlock,
   TableBlock,
+  LogSliderBlock,
   RelatedArticle as RelatedArticleType,
 } from "@/types/blog";
 import { FormStandardDocument } from "@/types/formStandardDocument";
@@ -36,6 +37,8 @@ import ImageFullBlockComponent from "@/app/components/blocks/ImageFullBlockCompo
 import DoubleTextBlockComponent from "@/app/components/blocks/DoubleTextBlockComponent/DoubleTextBlockComponent";
 import FormBlockOnView from "@/app/components/blocks/FormBlockOnView/FormBlockOnView";
 import TableBlockComponent from "@/app/components/blocks/TableBlockComponent/TableBlockComponent";
+import PortfolioScreenshotsClient from "@/app/components/sections/PortfolioScreenshots/PortfolioScreenshotsClient";
+import { Screenshot } from "@/types/portfolio";
 import Header from "@/app/components/layout/Header/Header";
 import SchemaBlogPost from "@/app/components/seo/SchemaBlogPost/SchemaBlogPost";
 import Footer from "@/app/components/layout/Footer/Footer";
@@ -231,6 +234,17 @@ const PagePost = async (props: Props) => {
             lang={lang}
             offerButtonCustomText={(block as FormMinimalBlock).buttonText}
           />
+        );
+      case "logSliderBlock":
+        return (
+          <div className="container" key={block._key}>
+            <PortfolioScreenshotsClient
+              screenshots={
+                ((block as LogSliderBlock).screenshots ||
+                  []) as unknown as Screenshot[]
+              }
+            />
+          </div>
         );
       case "tableBlock":
         return (

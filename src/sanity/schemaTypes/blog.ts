@@ -102,6 +102,7 @@ const blog = {
         { type: "faqBlock" },
         { type: "locationBlock" },
         { type: "imageFullBlock" },
+        { type: "logSliderBlock" },
         { type: "benefitsBlock" },
         { type: "reviewsFullBlock" },
         { type: "formMinimalBlock" },

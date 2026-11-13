@@ -10,6 +10,7 @@ import localizedSlug from "./localizedSlug";
 import textContent from "./textContent";
 import locationBlock from "./locationBlock";
 import imageFullBlock from "./imageFullBlock";
+import logSliderBlock from "./logSliderBlock";
 import doubleTextBlock from "./doubleTextBlock";
 import blockContentWithStyle from "./blockContentWithStyle";
 import benefitsBlock from "./benefitsBlock";
@@ -66,6 +67,7 @@ export const schemaTypes = [
   formMinimalBlock,
   formFullBlock,
   imageFullBlock,
+  logSliderBlock,
   doubleTextBlock,
   blockContentWithStyle,
   accordionBlock,

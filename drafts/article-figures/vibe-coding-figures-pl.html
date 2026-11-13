@@ -1,0 +1,71 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><style>
+:root{--surface:#111114;--ink:#fff;--ink-2:#c3c2b7;--muted:#898781;--s1:#3987e5;--s2:#d95926;--s3:#199e70;
+--sans:"Inter",system-ui,"DejaVu Sans",sans-serif;--mono:"DejaVu Sans Mono",monospace;}
+*{box-sizing:border-box}body{margin:0;background:#000;font-family:var(--sans)}
+.fig{width:720px;background:var(--surface);padding:34px 36px 30px;margin:0 0 24px}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--muted);margin:0 0 9px}
+h2{font-size:25px;line-height:1.22;font-weight:600;color:var(--ink);margin:0 0 8px}
+.sub{font-size:16px;line-height:1.45;color:var(--ink-2);margin:0 0 22px}
+.note{font-size:14px;color:var(--muted);margin:20px 0 0;line-height:1.45}
+.loads{display:flex;flex-direction:column;gap:9px}
+.load{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;border-radius:11px;padding:13px 16px;
+background:rgba(217,89,38,.09);border:1px solid rgba(217,89,38,.4)}
+.load .l{font-size:16px;color:#fff}.load .v{font-family:var(--mono);font-size:16px;color:#ffa882}
+.tot{margin:12px 0 0;display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid rgba(255,255,255,.14);padding-top:12px}
+.tot span{font-size:16px;color:var(--ink-2)}.tot b{font-family:var(--mono);font-size:22px;color:#ffa882}
+.arrow{height:26px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:18px}
+.res{border-radius:12px;border:1px solid rgba(25,158,112,.55);background:rgba(25,158,112,.07);padding:16px 18px;
+display:flex;justify-content:space-between;align-items:center;gap:16px}
+.res .rl{font-size:14px;color:var(--muted)}.res .rv{font-family:var(--mono);font-size:19px;color:#71dfb3}
+.need{font-size:14px;color:var(--ink-2);margin:10px 0 0}
+.bar{display:flex;height:52px;border-radius:10px;overflow:hidden;margin:0 0 10px}
+.bar .p1{background:rgba(217,89,38,.75);display:flex;align-items:center;justify-content:center}
+.bar .p2{background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center}
+.bar b{font-family:var(--mono);font-size:17px;color:#fff}
+.barlab{display:flex;justify-content:space-between;font-size:14px;color:var(--muted);margin:0 0 20px}
+.rows{display:flex;flex-direction:column;gap:8px}
+.row{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;border-radius:10px;padding:12px 15px;
+background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09)}
+.row.hot{border-color:rgba(217,89,38,.45);background:rgba(217,89,38,.07)}
+.row .l{font-size:16px;color:#fff}.row .v{font-family:var(--mono);font-size:14px;color:var(--ink-2)}
+.ax{font-family:var(--mono);font-size:11px;fill:var(--muted)}
+.lbl{font-family:var(--sans);font-size:13px;fill:var(--ink-2)}
+.lbl.grn{fill:#71dfb3}.lbl.dim{fill:var(--muted)}
+</style></head><body>
+<div class="fig" id="f1">
+  <p class="kicker">JEDNA WIZYTA</p><h2>Jedna wizyta wczytywała cały katalog trzy razy</h2><p class="sub">Na tej samej stronie stały trzy osobne zapytania. Każde wczytywało wszystkie 433 oferty, razem z 6 377 mieszkaniami i pięcioma wersjami językowymi każdego tekstu.</p>
+  <div class="loads">
+    <div class="load"><span class="l">zapytanie 1 — kafelki, które widać</span><span class="v">≈ 20 MB</span></div>
+    <div class="load"><span class="l">zapytanie 2 — liczba „433”</span><span class="v">≈ 20 MB</span></div>
+    <div class="load"><span class="l">zapytanie 3 — pinezki na mapie</span><span class="v">≈ 20 MB</span></div>
+  </div>
+  <div class="tot"><span>przechodziło przez serwer przy każdym kliknięciu</span><b>60 MB</b></div>
+  <div class="arrow">&#8595;</div>
+  <div class="res"><span class="rl">Co zobaczył ekran</span><span class="rv">14 kafelków · 331 pinezek</span></div>
+  <p class="need">Dane faktycznie potrzebne ekranowi: około 1,1 MB</p>
+  <p class="note">Zwykła strona internetowa waży dwa, trzy megabajty. Tutaj było ich dwadzieścia, na każde kliknięcie.</p>
+</div>
+<div class="fig" id="f2">
+  <p class="kicker">BUDŻET INDEKSOWANIA</p><h2>Dwa typy stron z osiemnastu zabrały 60% czasu Google</h2><p class="sub">Google daje serwisowi ograniczony czas i wychodzi, gdy go zużyje. Przez dwa dni spędził tutaj 1 512 sekund na czekaniu.</p>
+  <div class="bar"><div class="p1" style="flex:900"><b>900 s</b></div><div class="p2" style="flex:612"><b>612 s</b></div></div>
+  <div class="barlab"><span>dwa wolne typy stron</span><span>wszystkie pozostałe szesnaście</span></div>
+  <div class="rows">
+    <div class="row hot"><span class="l">strony pojedynczych ofert</span><span class="v">typowo 1,136 s · najgorzej 108 s</span></div>
+    <div class="row hot"><span class="l">lista ofert</span><span class="v">typowo 0,012 s · najgorzej 69 s</span></div>
+    <div class="row"><span class="l">cała reszta</span><span class="v">typowo 0,009–0,013 s</span></div>
+  </div>
+  <p class="note">Szybkie podstrony nie dostały za to nagrody. Dostały to, co zostało.</p>
+</div>
+<div class="fig" id="f3">
+  <p class="kicker">KLIKNIĘCIA NA 28 DNI</p><h2>Osiem miesięcy poniżej poziomu z lutego, potem trzy progi w trzynaście dni</h2><p class="sub">Search Console liczy kliknięcia w oknach 28-dniowych. Nic nie spadło — i nic się nie ruszyło.</p>
+  <svg viewBox="0 0 624 250" width="624" height="250">
+      <line x1="44" y1="208.7" x2="608" y2="208.7" stroke="rgba(255,255,255,.08)"/><text x="34" y="212.7" text-anchor="end" class="ax">500</text><line x1="44" y1="135.3" x2="608" y2="135.3" stroke="rgba(255,255,255,.08)"/><text x="34" y="139.3" text-anchor="end" class="ax">700</text><line x1="44" y1="62.0" x2="608" y2="62.0" stroke="rgba(255,255,255,.08)"/><text x="34" y="66.0" text-anchor="end" class="ax">900</text><rect x="118.2" y="138.3" width="385.9" height="44.4" fill="rgba(217,89,38,.10)" stroke="rgba(217,89,38,.35)" stroke-dasharray="3 3"/><line x1="504.1" y1="14" x2="504.1" y2="216" stroke="rgba(25,158,112,.7)" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M 118.2 135.3 L 353.8 146.7" stroke="rgba(255,255,255,.28)" stroke-width="2" stroke-dasharray="5 5" fill="none"/>
+      <polyline points="353.8,146.7 366.8,166.1 379.8,174.2 392.8,173.1 405.8,167.2 418.8,143.0 431.8,146.3 444.7,138.3 457.7,144.5 470.7,153.3 483.7,159.9 496.7,175.7 509.7,165.8 522.7,175.3 535.6,176.8 548.6,161.4 561.6,130.6 574.6,101.2 587.6,65.7" fill="none" stroke="#3987e5" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="58.8" cy="208.7" r="5" fill="#111114" stroke="#f5a05c" stroke-width="2.5"/><circle cx="88.5" cy="172.0" r="5" fill="#111114" stroke="#f5a05c" stroke-width="2.5"/><circle cx="118.2" cy="135.3" r="5" fill="#111114" stroke="#f5a05c" stroke-width="2.5"/><circle cx="572.8" cy="98.7" r="5" fill="#111114" stroke="#f5a05c" stroke-width="2.5"/><circle cx="589.4" cy="62.0" r="5" fill="#111114" stroke="#f5a05c" stroke-width="2.5"/><circle cx="596.9" cy="25.3" r="5" fill="#111114" stroke="#f5a05c" stroke-width="2.5"/><text x="81.1" y="240" text-anchor="middle" class="ax">II</text><text x="190.6" y="240" text-anchor="middle" class="ax">IV</text><text x="303.7" y="240" text-anchor="middle" class="ax">VI</text><text x="416.9" y="240" text-anchor="middle" class="ax">VIII</text><text x="530.1" y="240" text-anchor="middle" class="ax">X</text>
+      <text x="281.5" y="157.3" text-anchor="middle" class="lbl">571–692 przez całe lato, poniżej lutego</text>
+      <text x="496.1" y="28" text-anchor="end" class="lbl grn">opisy przepisane</text>
+      <text x="225.8" y="113.3" text-anchor="middle" class="lbl dim">poza wyeksportowanym okresem</text>
+    </svg>
+  <p class="note">Okrągłe znaczniki to progi Search Console, linia ciągła to zmierzona suma 28-dniowa, 1 czerwca – 1 listopada. Poprawka wydajności przyszła później, w listopadzie — tego wykres jeszcze nie pokazuje.</p>
+</div>
+</body></html>

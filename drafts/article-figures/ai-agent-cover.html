@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* Обложка ко второй статье, без текста. Сюжет: слева зона, освещённая
+   фонарём агента, — плотная сетка аккуратных одинаковых элементов, всё видно.
+   Справа за пунктирной границей темнота, в которой угадываются более крупные
+   формы: они есть, но в круг света не попадают. Луч упирается в границу. */
+:root{--bg:#0a0a0b;--accent:#f5a05c;--cool:#3987e5}
+*{box-sizing:border-box}body{margin:0;background:#000}
+.cover{position:relative;width:1672px;height:941px;overflow:hidden;background:
+ radial-gradient(900px 700px at 26% 50%, rgba(57,135,229,.18), transparent 62%),
+ radial-gradient(900px 600px at 96% 120%, rgba(245,160,92,.10), transparent 60%), var(--bg)}
+.stars i{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.2}
+svg{position:absolute;inset:0}
+</style></head><body>
+<div class="cover"><div class="stars" id="s"></div>
+<svg viewBox="0 0 1672 941">
+  <defs>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(57,135,229,.30)"/><stop offset="100%" stop-color="rgba(57,135,229,0)"/>
+    </linearGradient>
+  </defs>
+  <path d="M 60 470 L 880 120 L 880 820 Z" fill="url(#beam)"/>
+  <g id="lit"></g>
+  <line x1="880" y1="60" x2="880" y2="881" stroke="rgba(255,255,255,.35)" stroke-width="2" stroke-dasharray="10 10"/>
+  <g id="dark"></g>
+</svg></div>
+<script>
+const S=document.getElementById('s');let h='';
+for(let i=0;i<80;i++)h+=`<i style="left:${Math.random()*1672}px;top:${Math.random()*941}px;opacity:${0.05+Math.random()*0.18}"></i>`;
+S.innerHTML=h;
+// освещённая зона: ровная сетка маленьких одинаковых карточек с галочками
+let lit='';
+for(let r=0;r<6;r++)for(let c=0;c<5;c++){
+  const x=170+c*120, y=250+r*78;
+  lit+=`<rect x="${x}" y="${y}" width="96" height="54" rx="10" fill="rgba(57,135,229,.10)" stroke="rgba(57,135,229,.55)" stroke-width="2"/>`;
+  lit+=`<path d="M ${x+36} ${y+28} l 8 9 l 17 -19" fill="none" stroke="rgba(113,223,179,.9)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`;
+}
+document.getElementById('lit').innerHTML=lit;
+// тёмная зона: крупные формы, едва различимые
+const shapes=[[1010,210,260,150],[1330,330,230,210],[990,520,300,120],[1300,640,250,160],[1060,730,180,120]];
+let dk='';
+shapes.forEach(([x,y,w,hh],i)=>{dk+=`<rect x="${x}" y="${y}" width="${w}" height="${hh}" rx="16" fill="rgba(245,160,92,${0.030+i*0.006})" stroke="rgba(245,160,92,${0.16+i*0.03})" stroke-width="2"/>`;});
+document.getElementById('dark').innerHTML=dk;
+</script></body></html>

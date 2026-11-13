@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* Обложка без текста. Сюжет: сверху — ровная линия, на которую все смотрят
+   (дашборд, трафик: ничего не падает). Снизу от той же оси — растущая вниз
+   масса, которую не видит никто: цена одного визита. Справа масса срывается
+   за край, линия рвётся и возобновляется выше. */
+:root{--bg:#0a0a0b;--accent:#f5a05c;--cool:#3987e5;}
+*{box-sizing:border-box}body{margin:0;background:#000}
+.cover{position:relative;width:1672px;height:941px;overflow:hidden;
+ background:radial-gradient(1100px 620px at 14% -16%, rgba(57,135,229,.14), transparent 62%),
+            radial-gradient(1000px 560px at 88% 118%, rgba(245,160,92,.16), transparent 60%), var(--bg);}
+.stars i{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.2}
+svg{position:absolute;inset:0}
+</style></head><body>
+<div class="cover"><div class="stars" id="s"></div>
+<svg viewBox="0 0 1672 941">
+  <g id="bars"></g>
+  <line x1="150" y1="420" x2="1180" y2="420" stroke="rgba(255,255,255,.14)" stroke-width="1"/>
+  <path id="flat" d="" fill="none" stroke="#3987e5" stroke-width="4" stroke-linecap="round"/>
+  <path id="rise" d="" fill="none" stroke="#3987e5" stroke-width="4" stroke-linecap="round"/>
+  <g id="nodes"></g>
+</svg></div>
+<script>
+const S=document.getElementById('s');let h='';
+for(let i=0;i<90;i++)h+=`<i style="left:${Math.random()*1672}px;top:${Math.random()*941}px;opacity:${0.06+Math.random()*0.2}"></i>`;
+S.innerHTML=h;
+// растущая вниз масса
+const bars=[];const x0=168,x1=1150,n=46;
+for(let i=0;i<n;i++){
+  const t=i/(n-1), x=x0+t*(x1-x0);
+  const len=34+Math.pow(t,2.2)*430;
+  const o=0.18+Math.pow(t,1.6)*0.6;
+  bars.push(`<rect x="${x.toFixed(1)}" y="424" width="12" height="${len.toFixed(1)}" rx="6" fill="rgba(245,160,92,${o.toFixed(2)})"/>`);
+}
+// последний столбец уходит за край
+bars.push('<rect x="1168" y="424" width="12" height="560" rx="6" fill="rgba(245,160,92,.95)"/>');
+document.getElementById('bars').innerHTML=bars.join('');
+// ровная линия с лёгким дрожанием, обрыв, затем подъём
+let d='M 150 420';
+for(let x=150;x<=1150;x+=25){const j=Math.sin(x/37)*5+Math.cos(x/61)*4;d+=` L ${x} ${(420+j).toFixed(1)}`;}
+document.getElementById('flat').setAttribute('d',d);
+document.getElementById('rise').setAttribute('d','M 1240 404 C 1330 398, 1380 330, 1450 268 S 1520 196, 1530 182');
+let nd='';[[150,420],[1150,418],[1530,182]].forEach(([x,y],i)=>{
+  nd+=`<circle cx="${x}" cy="${y}" r="9" fill="#0a0a0b" stroke="${i===2?'#3987e5':'rgba(57,135,229,.7)'}" stroke-width="3"/>`;});
+document.getElementById('nodes').innerHTML=nd;
+</script></body></html>

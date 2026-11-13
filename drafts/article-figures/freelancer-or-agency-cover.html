@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Обложка без текста — как все предыдущие в серии. Одна картинка на все три
+     локали: подписей нет, переводить нечего.
+
+     Сюжет: слева бриф, справа две дороги от него к результату. Верхняя —
+     сплошная, один исполнитель. Нижняя — та же дистанция, разбитая на четыре
+     отрезка разными руками, и на каждом стыке теряется часть сигнала: полосы
+     в итоговой карточке короче и бледнее. Это тезис статьи, нарисованный
+     формой, а не словами. */
+  :root{
+    --bg:#0a0a0b; --accent:#f5a05c; --cool:#3987e5;
+    --line:#2a2a2d; --card:#131316; --muted:#3a3a3e;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000}
+  .cover{
+    position:relative;width:1672px;height:941px;overflow:hidden;
+    background:
+      radial-gradient(1100px 620px at 16% -14%, rgba(245,160,92,.15), transparent 62%),
+      radial-gradient(900px 520px at 92% 114%, rgba(57,135,229,.12), transparent 60%),
+      var(--bg);
+  }
+  .stars i{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.22}
+
+  .brief{position:absolute;left:118px;top:300px;width:300px}
+  .brief .bar{height:54px;border-radius:12px;background:var(--card);border:1px solid var(--line);margin-bottom:14px;display:flex;align-items:center;padding:0 18px;gap:12px}
+  .brief .dot{width:12px;height:12px;border-radius:50%;background:var(--muted);flex:none}
+  .brief .fill{display:block;height:8px;border-radius:4px;background:var(--muted)}
+  .brief .bar.on{border-color:rgba(245,160,92,.55);background:rgba(245,160,92,.09)}
+  .brief .bar.on .dot{background:var(--accent)}
+  .brief .bar.on .fill{background:rgba(245,160,92,.75)}
+
+  .out{position:absolute;width:380px;border-radius:18px;background:var(--card);border:1px solid var(--line);padding:22px}
+  .out .row{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+  .out .row:last-child{margin-bottom:0}
+  .out .c{width:26px;height:26px;border-radius:50%;flex:none}
+  .out .lines{display:block;flex:1}
+  .out .l{display:block;height:9px;border-radius:5px;margin-bottom:7px}
+  .out .l:last-child{margin-bottom:0}
+
+  .full .c{background:var(--accent)}
+  .full .l{background:rgba(245,160,92,.85)}
+  .lossy .c{background:rgba(57,135,229,.8)}
+  .lossy .l{background:rgba(57,135,229,.5)}
+
+  svg{position:absolute;inset:0;overflow:visible}
+  .node{position:absolute;width:16px;height:16px;border-radius:50%;background:var(--bg);border:2px solid rgba(57,135,229,.55)}
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="stars" id="stars"></div>
+
+  <!-- бриф -->
+  <div class="brief">
+    <div class="bar"><span class="dot"></span><span class="fill" style="width:62%"></span></div>
+    <div class="bar"><span class="dot"></span><span class="fill" style="width:48%"></span></div>
+    <div class="bar on"><span class="dot"></span><span class="fill" style="width:70%"></span></div>
+    <div class="bar"><span class="dot"></span><span class="fill" style="width:40%"></span></div>
+    <div class="bar"><span class="dot"></span><span class="fill" style="width:55%"></span></div>
+  </div>
+
+  <!-- дороги -->
+  <svg viewBox="0 0 1672 941">
+    <!-- верхняя: сплошная, один исполнитель -->
+    <path d="M 438 366 C 640 366, 720 268, 920 268 S 1120 268, 1186 268"
+          fill="none" stroke="#f5a05c" stroke-width="4" stroke-linecap="round"/>
+    <!-- нижняя: четыре отрезка, между ними настоящие разрывы -->
+    <path d="M 438 452 C 548 452, 592 548, 668 572" fill="none" stroke="#3987e5" stroke-width="4" stroke-linecap="round" opacity=".95"/>
+    <path d="M 716 582 L 844 602" fill="none" stroke="#3987e5" stroke-width="4" stroke-linecap="round" opacity=".72"/>
+    <path d="M 892 609 L 1020 625" fill="none" stroke="#3987e5" stroke-width="4" stroke-linecap="round" opacity=".52"/>
+    <path d="M 1068 631 C 1120 637, 1152 640, 1186 642" fill="none" stroke="#3987e5" stroke-width="4" stroke-linecap="round" opacity=".34"/>
+  </svg>
+
+  <!-- стыки: место, где сигнал передают из рук в руки -->
+  <div class="node" style="left:684px;top:566px"></div>
+  <div class="node" style="left:860px;top:593px"></div>
+  <div class="node" style="left:1036px;top:617px"></div>
+
+<!-- результаты -->
+  <div class="out full" style="left:1186px;top:204px">
+    <div class="row"><span class="c"></span><span class="lines"><span class="l" style="width:100%"></span><span class="l" style="width:78%"></span></span></div>
+    <div class="row"><span class="c" style="background:rgba(245,160,92,.55)"></span><span class="lines"><span class="l" style="width:92%"></span><span class="l" style="width:64%"></span></span></div>
+  </div>
+
+  <div class="out lossy" style="left:1186px;top:578px">
+    <div class="row"><span class="c"></span><span class="lines"><span class="l" style="width:62%"></span><span class="l" style="width:38%"></span></span></div>
+    <div class="row"><span class="c" style="background:rgba(57,135,229,.45)"></span><span class="lines"><span class="l" style="width:44%"></span><span class="l" style="width:26%"></span></span></div>
+  </div>
+</div>
+<script>
+  const s = document.getElementById("stars");
+  let h = "";
+  for (let i = 0; i < 90; i++) {
+    h += `<i style="left:${Math.random()*1672}px;top:${Math.random()*941}px;opacity:${0.08+Math.random()*0.22}"></i>`;
+  }
+  s.innerHTML = h;
+</script>
+</body>
+</html>

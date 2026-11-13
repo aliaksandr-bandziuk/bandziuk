@@ -72,8 +72,8 @@ Każda podstrona oferty bierze opis z pisemnej specyfikacji. Agent napisał tę 
 Po polsku: nigdy nie nazywaj inwestycji ani dewelopera, w żadnym języku, bez transliteracji i skrótów; i nigdy nie pisz cyfry — żadnych liczb mieszkań, cen, terminów oddania, metrów ani procentów.
 
 [slider]
-![Zrzut sesji: te dwie reguły promptu obok pomiaru mówiącego, że podstrony rankują na 77 zapytań, z których wszystkie są nazwami inwestycji i deweloperów, oraz wniosek agenta, że strona z założenia nie mogła rankować](article-figures/log-ai-prompt-rules.png) :: Reguły, pomiar popytu i arytmetyka, której nikt nie zrobił. Oryginalny zapis sesji, po rosyjsku; ścieżka do pliku i rynek są zamazane.
-![Końcowa odpowiedź agenta: jest dobry, kiedy ktoś wskaże mu problem, i słaby w zauważaniu problemu, na który nikt go nie skierował, a biznes da się tak prowadzić tylko wtedy, gdy przestaniesz być jedynym czujnikiem w systemie](article-figures/log-vibe-verdict.png) :: Zapytany, czy da się tak prowadzić biznes, agent postawił jeden warunek: przestań być jedynym czujnikiem w systemie.
+![Zrzut sesji: te dwie reguły promptu obok pomiaru mówiącego, że podstrony rankują na 77 zapytań, z których wszystkie są nazwami inwestycji i deweloperów, oraz wniosek agenta, że strona z założenia nie mogła rankować](article-figures/log-ai-prompt-rules-pl.png) :: Reguły, pomiar popytu i arytmetyka, której nikt nie zrobił. Tłumaczenie oryginalnego zapisu sesji; ścieżka do pliku, rynek i wszystkie nazwy usunięte.
+![Końcowa odpowiedź agenta: jest dobry, kiedy ktoś wskaże mu problem, i słaby w zauważaniu problemu, na który nikt go nie skierował, a biznes da się tak prowadzić tylko wtedy, gdy przestaniesz być jedynym czujnikiem w systemie](article-figures/log-vibe-verdict-pl.png) :: Zapytany, czy da się tak prowadzić biznes, agent postawił jeden warunek: przestań być jedynym czujnikiem w systemie. Tłumaczenie oryginalnego zapisu.
 [/slider]
 
 Strona popytu, której nikt obok tego nie położył: te podstrony dostają wyświetlenia na 77 zapytaniach i wszystkie 77 to nazwy — nazwa inwestycji albo nazwa firmy, która ją buduje. Ani jednego zapytania na poziomie samej nieruchomości.

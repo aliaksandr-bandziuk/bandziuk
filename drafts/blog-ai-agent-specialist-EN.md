@@ -70,8 +70,8 @@ Every property page takes its description from a written specification. The agen
 > NEVER write a digit. No unit counts, no prices, no completion dates or quarters, no square metres, no percentages.
 
 [slider]
-![A session log showing those two prompt rules next to the measurement that the pages rank on 77 queries, all of them project and developer names, and the agent's conclusion that the page was by construction incapable of ranking](article-figures/log-ai-prompt-rules.png) :: The rules, the demand measurement and the arithmetic nobody had done. Original session log, in Russian; the file path and the market are blurred.
-![The agent's closing answer: it is good when pointed at a problem and bad at noticing one nobody pointed at, and a business can be run this way only if you stop being the only sensor in the system](article-figures/log-vibe-verdict.png) :: Asked whether a business can be run this way, the agent set one condition: stop being the only sensor in the system.
+![A session log showing those two prompt rules next to the measurement that the pages rank on 77 queries, all of them project and developer names, and the agent's conclusion that the page was by construction incapable of ranking](article-figures/log-ai-prompt-rules-en.png) :: The rules, the demand measurement and the arithmetic nobody had done. Translated from the original session log; the file path, the market and all names are removed.
+![The agent's closing answer: it is good when pointed at a problem and bad at noticing one nobody pointed at, and a business can be run this way only if you stop being the only sensor in the system](article-figures/log-vibe-verdict-en.png) :: Asked whether a business can be run this way, the agent set one condition: stop being the only sensor in the system. Translated from the original log.
 [/slider]
 
 The demand side, which nobody had placed beside it: those pages bring impressions on 77 queries, and all 77 are names — a development's name, or the name of the company building it. Not one query at the level of the property itself.

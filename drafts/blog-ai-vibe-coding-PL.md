@@ -108,9 +108,9 @@ Agent podsumował to tak:
 > Żadna pojedyncza decyzja nie była błędem. Problem złożył się z trzech kroków, z których każdy był rozsądny w swoim momencie, i przy żadnym z nich nikt nie zmierzył wyniku. To nie jest błąd projektowy ani jeden zły commit — to brak pomiaru jako nawyku.
 
 [slider]
-![Diagnoza agenta z tabelą czasów na serwerze: lista ofert powstaje 3,63–4,86 sekundy, a porównywalna podstrona 0,057, i 84 procent zapytania to czas procesora](article-figures/log-vibe-diagnosis.png) :: Diagnoza: baza odpowiadała w 7 ms, a sekundy schodziły serwerowi na przeliczanie. Oryginalny zapis sesji, po rosyjsku.
-![Rekonstrukcja tego, jak koszt złożył się na przestrzeni trzech dat w czerwcu, lipcu i wrześniu, wraz z opisem zmiany twierdzącym, że migracja nie zmienia istniejącego zachowania](article-figures/log-vibe-three-dates.png) :: Trzy daty, jedna przyczyna: filtrowanie wyszło z bazy w lipcu, a we wrześniu nowe kolumny same dołączyły do zapytania.
-![Końcowa odpowiedź agenta: jest dobry, kiedy ktoś wskaże mu problem, i słaby w zauważaniu problemu, na który nikt go nie skierował, a biznes da się tak prowadzić tylko wtedy, gdy przestaniesz być jedynym czujnikiem w systemie](article-figures/log-vibe-verdict.png) :: Końcowa odpowiedź i zdanie, którym kończy się ten tekst.
+![Diagnoza agenta z tabelą czasów na serwerze: lista ofert powstaje 3,63–4,86 sekundy, a porównywalna podstrona 0,057, i 84 procent zapytania to czas procesora](article-figures/log-vibe-diagnosis-pl.png) :: Diagnoza: baza odpowiadała w 7 ms, a sekundy schodziły serwerowi na przeliczanie. Tłumaczenie oryginalnego zapisu sesji; nazwy i identyfikatory usunięte.
+![Rekonstrukcja tego, jak koszt złożył się na przestrzeni trzech dat w czerwcu, lipcu i wrześniu, wraz z opisem zmiany twierdzącym, że migracja nie zmienia istniejącego zachowania](article-figures/log-vibe-three-dates-pl.png) :: Trzy daty, jedna przyczyna: filtrowanie wyszło z bazy w lipcu, a we wrześniu nowe kolumny same dołączyły do zapytania. Tłumaczenie oryginalnego zapisu.
+![Końcowa odpowiedź agenta: jest dobry, kiedy ktoś wskaże mu problem, i słaby w zauważaniu problemu, na który nikt go nie skierował, a biznes da się tak prowadzić tylko wtedy, gdy przestaniesz być jedynym czujnikiem w systemie](article-figures/log-vibe-verdict-pl.png) :: Końcowa odpowiedź i zdanie, którym kończy się ten tekst. Tłumaczenie oryginalnego zapisu.
 [/slider]
 
 ## Ten sam błąd znaleziono miesiąc wcześniej w panelu administracyjnym i nie sprawdzono strony publicznej

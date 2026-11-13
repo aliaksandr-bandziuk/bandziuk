@@ -159,5 +159,16 @@
   "fig-agent-boundary-pl.png": "image-ff84f3eea00c28b6f8bff9f6dbdbc05f951bb058-1440x986-png",
   "fig-rule-vs-demand-pl.png": "image-9cf43cdb322add7a51827ed3380801e0ddb42115-1440x1228-png",
   "fig-agent-boundary-ru.png": "image-d0ee3e45014f7d8f6e556ab778472d6e91d7d622-1440x1022-png",
-  "fig-rule-vs-demand-ru.png": "image-d52217d69a53cd14e6d66e0a70716810fdd00f29-1440x1262-png"
+  "fig-rule-vs-demand-ru.png": "image-d52217d69a53cd14e6d66e0a70716810fdd00f29-1440x1262-png",
+  "log-vibe-diagnosis-en.png": "image-5bccacbc72a6fec3bf09a1ebff930b444fb53943-1600x1374-png",
+  "log-vibe-three-dates-en.png": "image-a002dc2307990469c6faea1b00706b71523b611e-1600x1692-png",
+  "log-vibe-verdict-en.png": "image-8ee8c461225d6828b946c4925a5d12ba523766e2-1600x1382-png",
+  "log-vibe-diagnosis-pl.png": "image-590d82b255731cde58de291d8efafa6f12f3db81-1600x1374-png",
+  "log-vibe-three-dates-pl.png": "image-eb87e0845c44c758dce6d0a79409ac6cee77c90f-1600x1692-png",
+  "log-vibe-verdict-pl.png": "image-537f2c012342bee9494c24c16d1ef1f5bc93aedd-1600x1348-png",
+  "log-vibe-diagnosis.png": "image-845dc9983f2be08a8dd237031f8b743be5d13b20-760x601-png",
+  "log-vibe-three-dates.png": "image-b2705465fe92e87af2cf7447e7e7d0fafeed9c1d-736x719-png",
+  "log-vibe-verdict.png": "image-86672bd48b63b435b8f645931f1039adb2b1f83d-797x528-png",
+  "log-ai-prompt-rules-en.png": "image-8092b05e51ea7d5c5d4c42ded26c145f4a921e28-1600x1714-png",
+  "log-ai-prompt-rules-pl.png": "image-8b559b4644f615a79c8e5fc802a3b2e6b24d8315-1600x1616-png"
 }

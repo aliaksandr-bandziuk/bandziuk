@@ -218,7 +218,6 @@ async function toContentBlocks(body, cfg) {
           const assetId = await uploadImage(path.basename(m[2]));
           const shot = {
             _type: "screenshot", _key: key(),
-            title: (m[3] || m[1]).slice(0, 60),
             image: { _type: "image", alt: m[1], asset: { _type: "reference", _ref: assetId } },
           };
           if (m[3]) shot.caption = [block("normal", m[3])];

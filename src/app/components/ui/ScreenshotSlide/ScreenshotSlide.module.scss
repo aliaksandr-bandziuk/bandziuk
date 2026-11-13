@@ -42,4 +42,14 @@
     object-fit: contain;
     margin-top: auto;
   }
+}
+
+// Один кадр лога на весь слайд: текст сверху, скриншот во всю ширину и в
+// полтора раза выше, иначе страницу приходится открывать в лайтбоксе.
+.logSlide {
+  .slideImage img {
+    max-height: 640px;
+    object-fit: contain;
+    object-position: top;
+  }
 } 

@@ -239,6 +239,7 @@ const PagePost = async (props: Props) => {
         return (
           <div className="container" key={block._key}>
             <PortfolioScreenshotsClient
+              variant="log"
               screenshots={
                 ((block as LogSliderBlock).screenshots ||
                   []) as unknown as Screenshot[]

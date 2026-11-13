@@ -15,9 +15,15 @@ import ScreenshotSlide from "../../ui/ScreenshotSlide/ScreenshotSlide";
 type Props = {
   screenshots: Screenshot[];
   onSlideClick?: (index: number) => void;
+  variant?: "portfolio" | "log";
 };
 
-const SliderScreenshots: FC<Props> = ({ screenshots, onSlideClick }) => {
+const SliderScreenshots: FC<Props> = ({
+  screenshots,
+  onSlideClick,
+  variant = "portfolio",
+}) => {
+  const isLog = variant === "log";
   const slidesRef = useRef<HTMLDivElement[]>([]);
   // Drag detection: track pointer origin so a swipe doesn't open the lightbox.
   const pointerStart = useRef<{ x: number; y: number } | null>(null);
@@ -60,10 +66,10 @@ const SliderScreenshots: FC<Props> = ({ screenshots, onSlideClick }) => {
           grabCursor={true}
           resistanceRatio={0}
           edgeSwipeDetection={true}
-          slidesPerView={1.3}
+          slidesPerView={isLog ? 1 : 1.3}
           breakpoints={{
             980: {
-              slidesPerView: 2.3,
+              slidesPerView: isLog ? 1 : 2.3,
             },
           }}
         >
@@ -88,7 +94,7 @@ const SliderScreenshots: FC<Props> = ({ screenshots, onSlideClick }) => {
                   if (!didDrag.current) onSlideClick?.(i);
                 }}
               >
-                <ScreenshotSlide screenshot={screenshot} />
+                <ScreenshotSlide screenshot={screenshot} variant={variant} />
               </div>
             </SwiperSlide>
           ))}

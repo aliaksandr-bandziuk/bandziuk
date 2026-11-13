@@ -8,11 +8,14 @@ import { urlFor } from "@/sanity/sanity.client";
 
 type Props = {
   screenshot: Screenshot;
+  variant?: "portfolio" | "log";
 };
 
-const ScreenshotSlide: FC<Props> = ({ screenshot }) => {
+const ScreenshotSlide: FC<Props> = ({ screenshot, variant = "portfolio" }) => {
   return (
-    <div className={styles.slide}>
+    <div
+      className={`${styles.slide} ${variant === "log" ? styles.logSlide : ""}`}
+    >
       <div className={styles.slideWrapper}>
         <div className={styles.slideText}>
           {screenshot.title && (

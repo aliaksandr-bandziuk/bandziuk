@@ -39,6 +39,16 @@ const SliderScreenshots: FC<Props> = ({
   useEffect(() => {
     if (!slidesRef.current.length) return;
 
+    // В варианте лога кадр на экране один, и выравнивание по самому высокому
+    // слайду оставляло под коротким кадром пустое поле в несколько сотен
+    // пикселей. Высоту здесь задаёт сам слайд.
+    if (isLog) {
+      slidesRef.current.forEach((slide) => {
+        if (slide) slide.style.height = "auto";
+      });
+      return;
+    }
+
     // Обнуляем высоты перед перерасчётом
     slidesRef.current.forEach((slide) => {
       if (slide) slide.style.height = "auto";
@@ -51,12 +61,14 @@ const SliderScreenshots: FC<Props> = ({
     slidesRef.current.forEach((slide) => {
       if (slide) slide.style.height = `${maxHeight}px`;
     });
-  }, [screenshots]);
+  }, [screenshots, isLog]);
 
   if (!screenshots || screenshots.length === 0) return null;
 
   return (
-    <div className={styles.sliderScreenshots}>
+    <div
+      className={`${styles.sliderScreenshots} ${isLog ? styles.logSlider : ""}`}
+    >
       <div className="container-content">
         <Swiper
           modules={[Pagination]}

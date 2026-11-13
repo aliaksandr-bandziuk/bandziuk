@@ -46,10 +46,32 @@
 
 // Один кадр лога на весь слайд: текст сверху, скриншот во всю ширину и в
 // полтора раза выше, иначе страницу приходится открывать в лайтбоксе.
+// Подпись здесь единственный текст слайда, поэтому крупнее обычной, а
+// распорки портфолио (space-between, margin-top: auto, отбивка в 70px под
+// пагинацию) убраны: с одним кадром они превращались в пустые поля.
 .logSlide {
-  .slideImage img {
-    max-height: 640px;
-    object-fit: contain;
-    object-position: top;
+  margin-bottom: 24px;
+
+  .slideWrapper {
+    height: auto;
+    justify-content: flex-start;
+    gap: clamp(1rem, 0.875rem + 0.5vw, 1.25rem);
+  }
+
+  .slideText p {
+    font-size: clamp(1.125rem, 1.063rem + 0.25vw, 1.25rem);
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .slideImage {
+    margin-top: 0;
+
+    img {
+      margin-top: 0;
+      max-height: 640px;
+      object-fit: contain;
+      object-position: top;
+    }
   }
 } 

@@ -22,3 +22,13 @@
   justify-content: center;
   margin-top: 2rem;
 }
+
+// Слайдер лога внутри статьи: отбивка под кадром уже своя, и прежние 2rem
+// отрывали точки пагинации от слайда.
+.logSlider {
+  margin-bottom: clamp(2.5rem, 2rem + 2vw, 3.75rem);
+
+  .pagination {
+    margin-top: 0.75rem;
+  }
+}

@@ -1,0 +1,1034 @@
+{
+ "label": "before-geo-hub-2026-11-09",
+ "generatedAt": "2026-11-09T10:57:36.775Z",
+ "spent": 0.008,
+ "rows": [
+  {
+   "lang": "en",
+   "q": "Who can build a website for a company based in Cyprus?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "clutch.co",
+     "exceltic.dev",
+     "absolute-websites.com",
+     "six2eight.com",
+     "sortlist.com",
+     "sorank.com",
+     "ebos.ae"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Which web developer works with businesses in Poland in English and Russian?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "clutch.co",
+     "it-deweloper.pl",
+     "companies.marketercoffee.com",
+     "sortlist.com",
+     "linkedin.com",
+     "webflow.com",
+     "mojafirma.org"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Can a freelance web developer in Poland invoice an EU company in euros?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "eubiztools.com",
+     "fakturium.pl",
+     "komplet.app",
+     "eurofiscalis.com",
+     "4dev.com",
+     "pragmago.com",
+     "businessage.com",
+     "blog.xolo.io",
+     "globalvatcompliance.com",
+     "stripe.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Who does SEO for companies entering the German market?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "searchgptagentur.de",
+     "smartranking.nl",
+     "ga.agency",
+     "marketercoffee.com",
+     "localsmallbusinessseo.company",
+     "seoprofy.com",
+     "semtrix.de",
+     "jademond.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "How do you work with a web developer remotely across European time zones?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "empiricinfotech.com",
+     "webzeto.com",
+     "genesiswtech.com",
+     "a.team",
+     "fullscale.io",
+     "devteam.space",
+     "kokil.com.np",
+     "codeable.io",
+     "senorit.de",
+     "companionlink.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "Which SEO specialist works in English, Polish and Russian?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": true,
+    "sourceCount": 6,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": true,
+    "sourceCount": 10,
+    "sources": [
+     "icomseo.pl",
+     "designrush.com",
+     "sortlist.com",
+     "onlinuum.com",
+     "linkedin.com",
+     "it-deweloper.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "en",
+   "q": "What should a company check before hiring a web developer in another country?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "toptal.com",
+     "ncube.com",
+     "mlsdev.com",
+     "fastlanerecruit.com",
+     "gun.io",
+     "inapps.net",
+     "hirewithnear.com",
+     "westaway.com",
+     "spaceotechnologies.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Kto zbuduje stronę internetową dla firmy wchodzącej na rynek niemiecki?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "db99.pl",
+     "imado.co",
+     "ea-digitalsolutions.at",
+     "mmdigitalmarketingkenya.com",
+     "ventas-webdesign.com",
+     "wito.ai",
+     "sortlist.com",
+     "semyweb.de",
+     "deltaweb.com.tr"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Kto robi strony internetowe dla firm z Polski po angielsku i rosyjsku?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": true,
+     "tatsianabandziuk.com": false
+    },
+    "named": true,
+    "sourceCount": 10,
+    "sources": [
+     "cyberlab.team",
+     "mitgroup.pl",
+     "oferteo.pl",
+     "bandziuk.com",
+     "jflowlabs.pl",
+     "semidea.pl",
+     "designsolutions.pl",
+     "buildbyalex.com",
+     "it-deweloper.pl"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Czy wykonawca z Polski może wystawić fakturę firmie z UE w euro?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "sip.lex.pl",
+     "eur-lex.europa.eu",
+     "podatki-arch.mf.gov.pl",
+     "ksef.podatki.gov.pl",
+     "pomoc.fakturomania.pl",
+     "pkobp.pl",
+     "biznes.gov.pl",
+     "taxation-customs.ec.europa.eu"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Kto pozycjonuje strony na rynki zagraniczne?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "foxstrategy.pl",
+     "mojolinks.com",
+     "pozycjonowaniestron.pl",
+     "justidea.agency",
+     "eactive.pl",
+     "icomseo.pl",
+     "widoczni.com",
+     "semidea.pl",
+     "maxroy.agency"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Jak zlecić stronę internetową wykonawcy zdalnie?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "smartwww.pl",
+     "zaprojektowani.com",
+     "kkmmedia.pl",
+     "informatix.com.pl",
+     "mcprodukt.pl",
+     "profilio.link",
+     "kcmobile.pl",
+     "qa10.io"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Kto robi strony internetowe dla firm na Cyprze?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "clutch.co",
+     "foxvisits.com",
+     "sortlist.com",
+     "themanifest.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "pl",
+   "q": "Na co zwrócić uwagę, zlecając stronę wykonawcy z innego kraju?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "tianwenseo.com",
+     "blinkad.kr",
+     "dev.to",
+     "genesiswtech.com",
+     "kcmobile.pl",
+     "jaaqob.pl",
+     "informatix.com.pl",
+     "monterail.com",
+     "clivio.pl",
+     "bablic.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Кто сделает сайт для компании на Кипре?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 7,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": true,
+     "tatsianabandziuk.com": false
+    },
+    "named": true,
+    "sourceCount": 10,
+    "sources": [
+     "foryoudigitalsolutions.com",
+     "cyprusweb.eu",
+     "sortlist.com",
+     "exceltic.dev",
+     "absolute-websites.com",
+     "bandziuk.com",
+     "six2eight.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Кто делает сайты для русскоязычного бизнеса в Польше?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 8,
+    "sources": [
+     "google.com"
+    ]
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "companies.marketercoffee.com",
+     "buildbyalex.com",
+     "mmix.ua",
+     "it-deweloper.pl",
+     "sortlist.com",
+     "tema.name",
+     "designrush.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Может ли подрядчик из Польши выставить счёт в евро компании из ЕС?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "contractor-of-record.com",
+     "norman.finance",
+     "pragmago.com",
+     "accessfinancial.com",
+     "progressholding.pl",
+     "uniconsulting.group",
+     "lawyersinpoland.com",
+     "getsix.eu",
+     "polishtax.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Кто занимается продвижением сайта на американский рынок?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "rush-agency.ru",
+     "pmd-agency.ru",
+     "expertnoeseo.ru",
+     "ru.toimi.pro",
+     "advermedia.ua",
+     "victoryagency.ru",
+     "seonova.ru",
+     "seobro.ru",
+     "smirnov.marketing"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Как работать с веб-разработчиком удалённо из другой страны?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "stackzeno.com",
+     "devteam.space",
+     "smamarketing.net",
+     "freelancer.co.nz",
+     "codementor.io",
+     "shakuro.com",
+     "remote.com",
+     "roamingdev.co",
+     "vc.ru",
+     "dev.to"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "Кто делает сайты на русском, польском и английском?",
+   "recommendation": true,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": true,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "bandziuk.com",
+     "cyberlab.team",
+     "it-deweloper.pl",
+     "orlena.pl",
+     "mavial.pl",
+     "buildbyalex.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  },
+  {
+   "lang": "ru",
+   "q": "На что смотреть, заказывая сайт у подрядчика из другой страны?",
+   "recommendation": false,
+   "chatgpt": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 0,
+    "sources": []
+   },
+   "perplexity": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "sourceCount": 10,
+    "sources": [
+     "tianwenseo.com",
+     "blinkad.kr",
+     "scalinghigh.com",
+     "buildbyalex.com",
+     "dev.to",
+     "outsourceaccelerator.com",
+     "sivenkov.media",
+     "up-im.ru",
+     "vardot.com"
+    ]
+   },
+   "google": {
+    "answered": true,
+    "cited": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "named": false,
+    "organicTop10": {
+     "bandziuk.com": false,
+     "tatsianabandziuk.com": false
+    },
+    "sourceCount": 0,
+    "sources": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "generatedAt": "2026-11-09T13:17:30.504Z",
+ "languages": {
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "freelancer vs agency",
+      "volume": 10,
+      "group": "decision"
+     },
+     {
+      "keyword": "freelance web designer vs agency",
+      "volume": null,
+      "group": "decision"
+     },
+     {
+      "keyword": "web design agency vs freelancer",
+      "volume": null,
+      "group": "decision"
+     },
+     {
+      "keyword": "should i hire a freelancer or an agency",
+      "volume": null,
+      "group": "decision"
+     },
+     {
+      "keyword": "hire freelancer or agency",
+      "volume": null,
+      "group": "decision"
+     },
+     {
+      "keyword": "freelancer or agency for website",
+      "volume": null,
+      "group": "decision"
+     },
+     {
+      "keyword": "seo freelancer vs agency",
+      "volume": null,
+      "group": "seo variant"
+     },
+     {
+      "keyword": "seo agency vs freelancer",
+      "volume": null,
+      "group": "seo variant"
+     },
+     {
+      "keyword": "hire an seo freelancer or agency",
+      "volume": null,
+      "group": "seo variant"
+     },
+     {
+      "keyword": "freelance seo consultant vs agency",
+      "volume": null,
+      "group": "seo variant"
+     },
+     {
+      "keyword": "is a freelancer cheaper than an agency",
+      "volume": null,
+      "group": "cost"
+     },
+     {
+      "keyword": "freelance web designer cost",
+      "volume": 20,
+      "group": "cost"
+     },
+     {
+      "keyword": "web design agency cost",
+      "volume": 10,
+      "group": "cost"
+     },
+     {
+      "keyword": "how much does a freelance web developer charge",
+      "volume": 20,
+      "group": "cost"
+     },
+     {
+      "keyword": "risks of hiring a freelance web developer",
+      "volume": null,
+      "group": "risk"
+     },
+     {
+      "keyword": "pros and cons of hiring a freelancer",
+      "volume": null,
+      "group": "risk"
+     },
+     {
+      "keyword": "what to ask a freelance web developer",
+      "volume": null,
+      "group": "risk"
+     },
+     {
+      "keyword": "how to vet a freelance web developer",
+      "volume": null,
+      "group": "risk"
+     },
+     {
+      "keyword": "freelance web developer",
+      "volume": 1000,
+      "group": "control (commercial)"
+     },
+     {
+      "keyword": "web design agency",
+      "volume": 12100,
+      "group": "control (commercial)"
+     },
+     {
+      "keyword": "hire web developer",
+      "volume": 590,
+      "group": "control (commercial)"
+     }
+    ]
+   }
+  },
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "freelancer czy agencja",
+      "volume": null,
+      "group": "decyzja"
+     },
+     {
+      "keyword": "agencja czy freelancer",
+      "volume": null,
+      "group": "decyzja"
+     },
+     {
+      "keyword": "strona internetowa freelancer czy agencja",
+      "volume": null,
+      "group": "decyzja"
+     },
+     {
+      "keyword": "freelancer czy agencja seo",
+      "volume": null,
+      "group": "decyzja"
+     },
+     {
+      "keyword": "ile kosztuje strona u freelancera",
+      "volume": null,
+      "group": "koszt"
+     },
+     {
+      "keyword": "czy freelancer jest tańszy niż agencja",
+      "volume": null,
+      "group": "koszt"
+     },
+     {
+      "keyword": "ile bierze freelancer za stronę",
+      "volume": null,
+      "group": "koszt"
+     },
+     {
+      "keyword": "czy warto zatrudnić freelancera",
+      "volume": null,
+      "group": "ryzyko"
+     },
+     {
+      "keyword": "wady i zalety freelancera",
+      "volume": null,
+      "group": "ryzyko"
+     },
+     {
+      "keyword": "jak sprawdzić freelancera",
+      "volume": null,
+      "group": "ryzyko"
+     },
+     {
+      "keyword": "freelancer seo",
+      "volume": 880,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "agencja seo",
+      "volume": 2400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "tworzenie stron internetowych",
+      "volume": 4400,
+      "group": "kontrola (komercyjne)"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "фрилансер или агентство",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "агентство или фрилансер",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "фрилансер или студия",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "заказать сайт у фрилансера или в студии",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "чем отличается фрилансер от агентства",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "сколько стоит сайт у фрилансера",
+      "volume": null,
+      "group": "стоимость"
+     },
+     {
+      "keyword": "дешевле ли фрилансер чем агентство",
+      "volume": null,
+      "group": "стоимость"
+     },
+     {
+      "keyword": "стоит ли заказывать сайт у фрилансера",
+      "volume": null,
+      "group": "риск"
+     },
+     {
+      "keyword": "как проверить фрилансера",
+      "volume": null,
+      "group": "риск"
+     },
+     {
+      "keyword": "плюсы и минусы фрилансера",
+      "volume": null,
+      "group": "риск"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 50,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 20,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "заказать сайт",
+      "volume": 20,
+      "group": "контроль (коммерческие)"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "фрилансер или агентство",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "агентство или фрилансер",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "фрилансер или студия",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "заказать сайт у фрилансера или в студии",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "чем отличается фрилансер от агентства",
+      "volume": null,
+      "group": "решение"
+     },
+     {
+      "keyword": "сколько стоит сайт у фрилансера",
+      "volume": null,
+      "group": "стоимость"
+     },
+     {
+      "keyword": "дешевле ли фрилансер чем агентство",
+      "volume": null,
+      "group": "стоимость"
+     },
+     {
+      "keyword": "стоит ли заказывать сайт у фрилансера",
+      "volume": null,
+      "group": "риск"
+     },
+     {
+      "keyword": "как проверить фрилансера",
+      "volume": null,
+      "group": "риск"
+     },
+     {
+      "keyword": "плюсы и минусы фрилансера",
+      "volume": null,
+      "group": "риск"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 880,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 210,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "заказать сайт",
+      "volume": 90,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,435 @@
+{
+ "generatedAt": "2026-11-13T08:27:42.443Z",
+ "languages": {
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "ai agent",
+      "volume": 60500,
+      "group": "ai agent"
+     },
+     {
+      "keyword": "ai coding agent",
+      "volume": 8100,
+      "group": "ai agent"
+     },
+     {
+      "keyword": "ai agent for website",
+      "volume": 70,
+      "group": "ai agent"
+     },
+     {
+      "keyword": "ai agent mistakes",
+      "volume": null,
+      "group": "ai agent"
+     },
+     {
+      "keyword": "ai agent oversight",
+      "volume": null,
+      "group": "ai agent"
+     },
+     {
+      "keyword": "who checks ai work",
+      "volume": null,
+      "group": "ai agent"
+     },
+     {
+      "keyword": "ai seo",
+      "volume": 6600,
+      "group": "ai + seo"
+     },
+     {
+      "keyword": "ai seo specialist",
+      "volume": 40,
+      "group": "ai + seo"
+     },
+     {
+      "keyword": "ai for seo",
+      "volume": 6600,
+      "group": "ai + seo"
+     },
+     {
+      "keyword": "ai seo audit",
+      "volume": 90,
+      "group": "ai + seo"
+     },
+     {
+      "keyword": "ai generated website seo",
+      "volume": null,
+      "group": "ai + seo"
+     },
+     {
+      "keyword": "seo for ai generated content",
+      "volume": null,
+      "group": "ai + seo"
+     },
+     {
+      "keyword": "does ai content rank on google",
+      "volume": 10,
+      "group": "ai + seo"
+     },
+     {
+      "keyword": "do i need an seo specialist",
+      "volume": 10,
+      "group": "need a specialist"
+     },
+     {
+      "keyword": "can ai replace seo",
+      "volume": 10,
+      "group": "need a specialist"
+     },
+     {
+      "keyword": "is seo dead with ai",
+      "volume": 30,
+      "group": "need a specialist"
+     },
+     {
+      "keyword": "ai vs seo specialist",
+      "volume": null,
+      "group": "need a specialist"
+     },
+     {
+      "keyword": "hire seo specialist",
+      "volume": 90,
+      "group": "need a specialist"
+     },
+     {
+      "keyword": "ai generated website problems",
+      "volume": null,
+      "group": "problems with ai builds"
+     },
+     {
+      "keyword": "website built with ai",
+      "volume": 20,
+      "group": "problems with ai builds"
+     },
+     {
+      "keyword": "ai code review",
+      "volume": 1300,
+      "group": "problems with ai builds"
+     },
+     {
+      "keyword": "ai code audit",
+      "volume": 20,
+      "group": "problems with ai builds"
+     },
+     {
+      "keyword": "fix ai generated website",
+      "volume": null,
+      "group": "problems with ai builds"
+     },
+     {
+      "keyword": "generative engine optimization",
+      "volume": 4400,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "answer engine optimization",
+      "volume": 2400,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "how to get cited by chatgpt",
+      "volume": 260,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "ai search visibility",
+      "volume": 480,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "seo services",
+      "volume": 40500,
+      "group": "control (commercial)"
+     },
+     {
+      "keyword": "seo audit",
+      "volume": 2900,
+      "group": "control (commercial)"
+     },
+     {
+      "keyword": "ai seo services",
+      "volume": 1000,
+      "group": "control (commercial)"
+     }
+    ]
+   }
+  },
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "agent ai",
+      "volume": 6600,
+      "group": "agent ai"
+     },
+     {
+      "keyword": "agenci ai",
+      "volume": 1300,
+      "group": "agent ai"
+     },
+     {
+      "keyword": "błędy agenta ai",
+      "volume": null,
+      "group": "agent ai"
+     },
+     {
+      "keyword": "ai do tworzenia stron",
+      "volume": null,
+      "group": "agent ai"
+     },
+     {
+      "keyword": "ai seo",
+      "volume": 720,
+      "group": "ai i seo"
+     },
+     {
+      "keyword": "seo a sztuczna inteligencja",
+      "volume": null,
+      "group": "ai i seo"
+     },
+     {
+      "keyword": "czy ai zastąpi seo",
+      "volume": null,
+      "group": "ai i seo"
+     },
+     {
+      "keyword": "audyt seo ai",
+      "volume": null,
+      "group": "ai i seo"
+     },
+     {
+      "keyword": "strona zrobiona przez ai seo",
+      "volume": null,
+      "group": "ai i seo"
+     },
+     {
+      "keyword": "czy specjalista seo jest potrzebny",
+      "volume": null,
+      "group": "czy potrzebny specjalista"
+     },
+     {
+      "keyword": "czy ai zastąpi specjalistów",
+      "volume": null,
+      "group": "czy potrzebny specjalista"
+     },
+     {
+      "keyword": "pozycjonowanie a ai",
+      "volume": null,
+      "group": "czy potrzebny specjalista"
+     },
+     {
+      "keyword": "optymalizacja pod ai",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "widoczność w chatgpt",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "pozycjonowanie w ai",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "pozycjonowanie stron",
+      "volume": 5400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "audyt seo",
+      "volume": 1600,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "tworzenie stron internetowych",
+      "volume": 4400,
+      "group": "kontrola (komercyjne)"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "ии агент",
+      "volume": null,
+      "group": "ии-агент"
+     },
+     {
+      "keyword": "ai агент",
+      "volume": null,
+      "group": "ии-агент"
+     },
+     {
+      "keyword": "агент разработчик ии",
+      "volume": null,
+      "group": "ии-агент"
+     },
+     {
+      "keyword": "ошибки ии агента",
+      "volume": null,
+      "group": "ии-агент"
+     },
+     {
+      "keyword": "ии и seo",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "seo с помощью ии",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "заменит ли ии seo специалиста",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "продвижение сайта сделанного нейросетью",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "нужен ли seo специалист",
+      "volume": null,
+      "group": "нужен ли специалист"
+     },
+     {
+      "keyword": "заменит ли нейросеть специалиста",
+      "volume": null,
+      "group": "нужен ли специалист"
+     },
+     {
+      "keyword": "нужен ли программист если есть ии",
+      "volume": null,
+      "group": "нужен ли специалист"
+     },
+     {
+      "keyword": "оптимизация под ии",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "видимость в chatgpt",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "продвижение в нейросетях",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 40,
+      "group": "контроль (коммерческие)"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "ии агент",
+      "volume": null,
+      "group": "ии-агент"
+     },
+     {
+      "keyword": "ai агент",
+      "volume": null,
+      "group": "ии-агент"
+     },
+     {
+      "keyword": "агент разработчик ии",
+      "volume": null,
+      "group": "ии-агент"
+     },
+     {
+      "keyword": "ошибки ии агента",
+      "volume": null,
+      "group": "ии-агент"
+     },
+     {
+      "keyword": "ии и seo",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "seo с помощью ии",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "заменит ли ии seo специалиста",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "продвижение сайта сделанного нейросетью",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "нужен ли seo специалист",
+      "volume": null,
+      "group": "нужен ли специалист"
+     },
+     {
+      "keyword": "заменит ли нейросеть специалиста",
+      "volume": null,
+      "group": "нужен ли специалист"
+     },
+     {
+      "keyword": "нужен ли программист если есть ии",
+      "volume": null,
+      "group": "нужен ли специалист"
+     },
+     {
+      "keyword": "оптимизация под ии",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "видимость в chatgpt",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "продвижение в нейросетях",
+      "volume": null,
+      "group": "geo / aeo"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 140,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 50,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 880,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  }
+ }
+}

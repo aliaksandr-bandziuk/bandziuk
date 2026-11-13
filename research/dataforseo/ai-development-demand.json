@@ -1,0 +1,450 @@
+{
+ "generatedAt": "2026-11-12T11:44:27.114Z",
+ "languages": {
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "vibe coding",
+      "volume": 110000,
+      "group": "vibe coding"
+     },
+     {
+      "keyword": "vibe coding problems",
+      "volume": 20,
+      "group": "vibe coding"
+     },
+     {
+      "keyword": "vibe coded app",
+      "volume": 1900,
+      "group": "vibe coding"
+     },
+     {
+      "keyword": "is vibe coding good",
+      "volume": 70,
+      "group": "vibe coding"
+     },
+     {
+      "keyword": "vibe coding production",
+      "volume": 10,
+      "group": "vibe coding"
+     },
+     {
+      "keyword": "can ai build a website",
+      "volume": 260,
+      "group": "ai builds the site"
+     },
+     {
+      "keyword": "ai generated website",
+      "volume": 1000,
+      "group": "ai builds the site"
+     },
+     {
+      "keyword": "ai website builder vs developer",
+      "volume": null,
+      "group": "ai builds the site"
+     },
+     {
+      "keyword": "build a website with chatgpt",
+      "volume": 50,
+      "group": "ai builds the site"
+     },
+     {
+      "keyword": "do i still need a developer with ai",
+      "volume": null,
+      "group": "ai builds the site"
+     },
+     {
+      "keyword": "ai generated code problems",
+      "volume": null,
+      "group": "ai code quality"
+     },
+     {
+      "keyword": "is ai generated code reliable",
+      "volume": null,
+      "group": "ai code quality"
+     },
+     {
+      "keyword": "ai code technical debt",
+      "volume": null,
+      "group": "ai code quality"
+     },
+     {
+      "keyword": "fix ai generated code",
+      "volume": null,
+      "group": "ai code quality"
+     },
+     {
+      "keyword": "hire developer to fix ai code",
+      "volume": null,
+      "group": "ai code quality"
+     },
+     {
+      "keyword": "ai code review",
+      "volume": 1300,
+      "group": "ai code quality"
+     },
+     {
+      "keyword": "why is my website slow",
+      "volume": 40,
+      "group": "slow site"
+     },
+     {
+      "keyword": "website slow after redesign",
+      "volume": null,
+      "group": "slow site"
+     },
+     {
+      "keyword": "slow database queries website",
+      "volume": null,
+      "group": "slow site"
+     },
+     {
+      "keyword": "crawl budget seo",
+      "volume": 50,
+      "group": "slow site"
+     },
+     {
+      "keyword": "googlebot slow response time",
+      "volume": null,
+      "group": "slow site"
+     },
+     {
+      "keyword": "ai generated content seo",
+      "volume": 30,
+      "group": "ai content and seo"
+     },
+     {
+      "keyword": "does ai content rank on google",
+      "volume": 10,
+      "group": "ai content and seo"
+     },
+     {
+      "keyword": "ai content hurt seo",
+      "volume": null,
+      "group": "ai content and seo"
+     },
+     {
+      "keyword": "ai written product descriptions seo",
+      "volume": null,
+      "group": "ai content and seo"
+     },
+     {
+      "keyword": "web development services",
+      "volume": 2900,
+      "group": "control (commercial)"
+     },
+     {
+      "keyword": "seo services",
+      "volume": 40500,
+      "group": "control (commercial)"
+     },
+     {
+      "keyword": "hire web developer",
+      "volume": 590,
+      "group": "control (commercial)"
+     }
+    ]
+   }
+  },
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "vibe coding",
+      "volume": null,
+      "group": "vibe coding"
+     },
+     {
+      "keyword": "czym jest vibe coding",
+      "volume": null,
+      "group": "vibe coding"
+     },
+     {
+      "keyword": "programowanie z ai",
+      "volume": null,
+      "group": "vibe coding"
+     },
+     {
+      "keyword": "strona internetowa zrobiona przez ai",
+      "volume": null,
+      "group": "ai buduje stronę"
+     },
+     {
+      "keyword": "czy ai zrobi stronę internetową",
+      "volume": null,
+      "group": "ai buduje stronę"
+     },
+     {
+      "keyword": "tworzenie stron z chatgpt",
+      "volume": null,
+      "group": "ai buduje stronę"
+     },
+     {
+      "keyword": "czy programista jest jeszcze potrzebny",
+      "volume": null,
+      "group": "ai buduje stronę"
+     },
+     {
+      "keyword": "błędy w kodzie generowanym przez ai",
+      "volume": null,
+      "group": "jakość kodu ai"
+     },
+     {
+      "keyword": "poprawa kodu po ai",
+      "volume": null,
+      "group": "jakość kodu ai"
+     },
+     {
+      "keyword": "audyt kodu strony",
+      "volume": null,
+      "group": "jakość kodu ai"
+     },
+     {
+      "keyword": "dlaczego strona wolno się ładuje",
+      "volume": null,
+      "group": "wolna strona"
+     },
+     {
+      "keyword": "optymalizacja szybkości strony",
+      "volume": null,
+      "group": "wolna strona"
+     },
+     {
+      "keyword": "budżet indeksowania",
+      "volume": null,
+      "group": "wolna strona"
+     },
+     {
+      "keyword": "treści generowane przez ai a seo",
+      "volume": null,
+      "group": "ai i seo"
+     },
+     {
+      "keyword": "czy google karze za treści ai",
+      "volume": null,
+      "group": "ai i seo"
+     },
+     {
+      "keyword": "opisy produktów ai seo",
+      "volume": null,
+      "group": "ai i seo"
+     },
+     {
+      "keyword": "tworzenie stron internetowych",
+      "volume": 4400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "pozycjonowanie stron",
+      "volume": 5400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "audyt seo",
+      "volume": 1600,
+      "group": "kontrola (komercyjne)"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "вайбкодинг",
+      "volume": null,
+      "group": "вайбкодинг"
+     },
+     {
+      "keyword": "вайб кодинг",
+      "volume": null,
+      "group": "вайбкодинг"
+     },
+     {
+      "keyword": "что такое вайбкодинг",
+      "volume": null,
+      "group": "вайбкодинг"
+     },
+     {
+      "keyword": "сайт сделанный нейросетью",
+      "volume": null,
+      "group": "ии делает сайт"
+     },
+     {
+      "keyword": "может ли нейросеть сделать сайт",
+      "volume": null,
+      "group": "ии делает сайт"
+     },
+     {
+      "keyword": "создание сайта с помощью нейросети",
+      "volume": 10,
+      "group": "ии делает сайт"
+     },
+     {
+      "keyword": "нужен ли программист если есть нейросеть",
+      "volume": null,
+      "group": "ии делает сайт"
+     },
+     {
+      "keyword": "ошибки в коде нейросети",
+      "volume": null,
+      "group": "качество кода ии"
+     },
+     {
+      "keyword": "исправить код после нейросети",
+      "volume": null,
+      "group": "качество кода ии"
+     },
+     {
+      "keyword": "аудит кода сайта",
+      "volume": 0,
+      "group": "качество кода ии"
+     },
+     {
+      "keyword": "почему сайт медленно загружается",
+      "volume": null,
+      "group": "медленный сайт"
+     },
+     {
+      "keyword": "оптимизация скорости сайта",
+      "volume": 10,
+      "group": "медленный сайт"
+     },
+     {
+      "keyword": "краулинговый бюджет",
+      "volume": 10,
+      "group": "медленный сайт"
+     },
+     {
+      "keyword": "тексты нейросети и seo",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "наказывает ли google за ии тексты",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "описания товаров нейросетью seo",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 40,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 20,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "вайбкодинг",
+      "volume": null,
+      "group": "вайбкодинг"
+     },
+     {
+      "keyword": "вайб кодинг",
+      "volume": null,
+      "group": "вайбкодинг"
+     },
+     {
+      "keyword": "что такое вайбкодинг",
+      "volume": null,
+      "group": "вайбкодинг"
+     },
+     {
+      "keyword": "сайт сделанный нейросетью",
+      "volume": null,
+      "group": "ии делает сайт"
+     },
+     {
+      "keyword": "может ли нейросеть сделать сайт",
+      "volume": null,
+      "group": "ии делает сайт"
+     },
+     {
+      "keyword": "создание сайта с помощью нейросети",
+      "volume": 10,
+      "group": "ии делает сайт"
+     },
+     {
+      "keyword": "нужен ли программист если есть нейросеть",
+      "volume": null,
+      "group": "ии делает сайт"
+     },
+     {
+      "keyword": "ошибки в коде нейросети",
+      "volume": null,
+      "group": "качество кода ии"
+     },
+     {
+      "keyword": "исправить код после нейросети",
+      "volume": null,
+      "group": "качество кода ии"
+     },
+     {
+      "keyword": "аудит кода сайта",
+      "volume": 10,
+      "group": "качество кода ии"
+     },
+     {
+      "keyword": "почему сайт медленно загружается",
+      "volume": null,
+      "group": "медленный сайт"
+     },
+     {
+      "keyword": "оптимизация скорости сайта",
+      "volume": 10,
+      "group": "медленный сайт"
+     },
+     {
+      "keyword": "краулинговый бюджет",
+      "volume": 10,
+      "group": "медленный сайт"
+     },
+     {
+      "keyword": "тексты нейросети и seo",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "наказывает ли google за ии тексты",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "описания товаров нейросетью seo",
+      "volume": null,
+      "group": "ии и seo"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 880,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 210,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 50,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  }
+ }
+}

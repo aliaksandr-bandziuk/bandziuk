@@ -2,6 +2,375 @@
 
 Скрипт оценок не ставит. Домены и заголовки читает человек.
 
+## pl · «pozycjonowanie stron toruń» — 2400/мес
+Источник строки: калибровка: наша страница на позиции 58, ноль кликов. AI Overview: есть. Рекламных блоков: 0.
+
+ 1. seonim.pl
+    Pozycjonowanie stron Toruń - Seonim
+    https://seonim.pl › Pozycjonowanie stron
+ 2. lukaszwisniak.pl
+    Pozycjonowanie stron Toruń | Skuteczne SEO
+    https://lukaszwisniak.pl › seo-pozycjonowanie-stron-tor...
+ 3. oferteo.pl
+    Pozycjonowanie stron Toruń: 10 Najlepszych ofert 2026
+    https://www.oferteo.pl › pozycjonowanie-stron › torun
+ 4. widzialni.pl
+    Pozycjonowanie stron Toruń
+    https://widzialni.pl › ... › Pozycjonowanie lokalne
+ 5. rocketmedia.pl
+    Pozycjonowanie stron Toruń - Agencja SEO Rocket Media
+    https://rocketmedia.pl › uslugi › pozycjonowanie-torun
+ 6. semlife.pl
+    • Pozycjonowanie stron i sklepów Toruń | Agencja SEO ...
+    https://semlife.pl › uslugi › pozycjonowanie-torun
+ 7. afterweb.pl
+    Agencja SEO Toruń
+    https://afterweb.pl › Pozycjonowanie stron › Toruń
+ 8. illustriseo.com
+    Pozycjonowanie stron Toruń - Illustriseo
+    https://illustriseo.com › Pozycjonowanie
+ 9. westart.com.pl
+    Pozycjonowanie Toruń - Westart - SEO i szkolenia
+    https://www.westart.com.pl › pozycjonowanie-torun
+10. joomlaterra.pl
+    Tworzenie stron internetowych Toruń – strony Joomla i SEO
+    https://www.joomlaterra.pl › strony-internetowe-torun
+
+## ru · «создание сайта астана» — 6600/мес
+Источник строки: лучший географический спрос в ru. AI Overview: есть. Рекламных блоков: 4.
+
+ 1. kursy-astana.kz
+    Обучение разработке и созданию сайтов
+    https://kursy-astana.kz › prof › comps › site-builder
+ 2. kontekstnayareklamaalmaty.kz
+    Создание сайтов в Астане под ключ: Tilda, WordPress ...
+    https://kontekstnayareklamaalmaty.kz › sozdanie-saitov
+ 3. olx.kz
+    Создание и продвижение сайтов / приложений
+    https://www.olx.kz › Услуги › Деловые услуги
+ 4. yandex.kz
+    Разработка сайта в Астане на карте рядом со мной
+    https://yandex.kz › Карты › Астана › Разработка сайта
+ 5. dizastana.kz
+    создание сайтов — DIZASTANA.KZ
+    https://dizastana.kz › создание-сайтов
+ 6. site-plus.kz
+    Создание сайтов Астана (Нурсултан) (7172)95-10-36
+    https://site-plus.kz
+ 7. obyavleniya.kaspi.kz
+    Объявления по запросу создание и продвижение в Астане
+    https://obyavleniya.kaspi.kz › ... › Создание сайтов
+ 8. profi.kz
+    Создание корпоративных сайтов в Астане - Профи.ру
+    https://profi.kz › sozdanie-saita › korporativnyi-sait
+ 9. siter.kz
+    Создание сайтов, разработка веб-сайтов в Казахстане ...
+    https://siter.kz
+
+## ru · «создание сайта алматы» — 3600/мес
+Источник строки: второй по величине в ru. AI Overview: есть. Рекламных блоков: 1.
+
+ 1. splus.kz
+    Создание сайтов в Казахстане: Алматы, Шымкент ...
+    https://splus.kz › katalog › sozdanie_saytov
+ 2. uslugi.yandex.ru
+    Результаты по запросу «Создание сайтов» в Алматы
+    https://uslugi.yandex.ru › Алматы › Все услуги
+ 3. (не опознан)
+    Создание сайтов в Алматы - Clickweb.kz
+    Просмотров: более 110  ·  11 лет назад
+ 4. netlight.kz
+    Разработка Сайтов в Алматы & Астане — NetLight
+    https://netlight.kz › dev
+ 5. obyavleniya.kaspi.kz
+    web в Алматы — Интернет и компьютеры на Kaspi ...
+    https://obyavleniya.kaspi.kz › ... › Создание сайтов
+ 6. ratingruneta.ru
+    Рейтинг ведущих веб-студий Алматы - 2023
+    https://ratingruneta.ru › web › almaty
+ 7. uslugi.yandex.ru
+    Результаты по запросу «Создание сайта» в Алматы
+    https://uslugi.yandex.ru › Алматы › Все услуги
+ 8. olx.kz
+    создание и разработка сайтов в алматы под ключ
+    https://www.olx.kz › uslugi › delovye-uslugi › alma-ata
+ 9. angels24.kz
+    Как создать сайт и раскрутить его? - Интернет Ангелы
+    https://angels24.kz › Интернет-маркетинг
+
+## ru · «продвижение сайта в сша» — 170/мес
+Источник строки: единственная заметная страновая форма в ru. AI Overview: есть. Рекламных блоков: 1.
+
+ 1. http.com.ua
+    Продвижение сайтов в США: особенности и методы
+    https://http.com.ua › Блог
+ 2. qmedia.by
+    Англоязычное SEO — продвижение сайтов в США ... - Qmedia
+    https://www.qmedia.by › ... › SEO для регионов
+ 3. (не опознан)
+    SEO продвижение сайта в США
+    Подписчиков: более 7,9 тыс.
+ 4. wezom.com.ua
+    SEO-продвижение в США — вывод сайтов в ТОП по ...
+    https://wezom.com.ua › Блог
+ 5. oneaso.com
+    SEO в США: национальное и локальное продвижение
+    https://oneaso.com › ... › Международное SEO
+ 6. bazar.club
+    Для чего моему бизнесу услуги SEO продвижение сайта ...
+    https://www.bazar.club › Главная › Блог
+ 7. seorating.by
+    Продвижение сайта в США: SEO в Google, цены и сроки 2026
+    https://seorating.by › Статьи
+ 8. ux-journal.ru
+    SEO-продвижение сайтов в США и Европе
+    https://ux-journal.ru › seo-usa-europe
+
+## en · «seo brighton» — 5400/мес
+Источник строки: город добавлен 09.11. AI Overview: есть. Рекламных блоков: 0.
+
+ 1. brightonseo.com
+    brightonSEO UK October 2024 - search marketing ...
+    https://brightonseo.com › events › october-2024
+ 2. brightonseo.com
+    brightonSEO October 2025 schedule
+    https://brightonseo.com › events › schedule-october-2025
+ 3. (не опознан)
+    A few moments from #brightonSEO San Diego this week. ...
+    8 reactions  ·  1 year ago
+ 4. brightonseo.com
+    Register tickets for brightonSEO's UK October 2026 search ...
+    https://brightonseo.com › events › register-october-2026
+ 5. brightonseo.com
+    brightonSEO search marketing conference sponsors
+    https://brightonseo.com › events › april-2024 › sponsors
+ 6. (не опознан)
+    At brightonSEO we do our networking parties a little ...
+    1 week ago
+ 7. brightonseo.com
+    brightonSEO UK April 2024 - search marketing conference
+    https://brightonseo.com › events › april-2024
+ 8. brightonseo.com
+    Video
+    https://brightonseo.com › sessions › video
+
+## en · «seo raleigh» — 5400/мес
+Источник строки: город добавлен 09.11. AI Overview: нет. Рекламных блоков: 0.
+
+ 1. theedigital.com
+    Local SEO Agency in Raleigh
+    https://www.theedigital.com › Digital Marketing › SEO
+ 2. designrush.com
+    Top Raleigh SEO Companies | 2026
+    https://www.designrush.com › ... › US › North Carolina
+ 3. revenuebase.ai
+    Top 18 Company SEO agencies based in Raleigh, United ...
+    https://revenuebase.ai › ... › United States
+ 4. getfoundquick.com
+    SEO Raleigh NC, Search Engine Optimization Company
+    https://www.getfoundquick.com › seo-raleigh-nc
+ 5. linkedin.com
+    Hire Top SEO Consultants in Raleigh, NC ❘ ...
+    https://www.linkedin.com › services › raleigh-nc
+ 6. raleighseocompany.org
+    Digital Marketing Agency Locations - The Raleigh SEO ...
+    https://www.raleighseocompany.org › locations
+ 7. themanifest.com
+    The Best Local SEO Companies in Raleigh - Oct 2026 - Manifest
+    https://themanifest.com › ... › United States › Raleigh
+ 8. raleighdigital.com
+    SEO Services That Fill the Pipeline
+    https://www.raleighdigital.com › seo
+ 9. rankrisestudio.com
+    Best Local SEO Companies in Raleigh, NC for Small ...
+    https://www.rankrisestudio.com › rank-rise-insights › bes...
+
+## en · «seo las vegas» — 4400/мес
+Источник строки: город добавлен 09.11. AI Overview: нет. Рекламных блоков: 0.
+
+ 1. nventmarketing.com
+    Las Vegas SEO Services
+    https://nventmarketing.com › las-vegas-seo
+ 2. builtin.com
+    Top SEO Companies in Las Vegas, NV 2026
+    https://builtin.com › las-vegas › type
+ 3. icecubedigital.com
+    Las Vegas SEO Services Company
+    https://www.icecubedigital.com › las-vegas-seo-company
+ 4. skyfielddigital.com
+    Las Vegas SEO Services That Deliver Real Business Results
+    https://skyfielddigital.com › las-vegas-seo-services-that-...
+ 5. yelp.com
+    TOP 10 BEST Seo Agency in Las Vegas, NV - Updated 2026
+    https://www.yelp.com › Professional Services
+ 6. agencies.semrush.com
+    Best SEO Companies for Mid Business in Las Vegas 2026
+    https://agencies.semrush.com › list › seo › mid-business
+ 7. revenuebase.ai
+    Top 11 Local SEO services based in Las Vegas, United ...
+    https://revenuebase.ai › ... › United States
+ 8. agencylist.com
+    Top SEO Agencies in Las Vegas, Nevada
+    https://agencylist.com › ... › United States › Nevada
+ 9. (не опознан)
+    Las Vegas SEO Expert
+    10+ followers
+
+## en · «web design ottawa» — 8100/мес
+Источник строки: лидер по сайтам. AI Overview: нет. Рекламных блоков: 0.
+
+ 1. ottawawebdesign.ca
+    Ignite Web Solutions: Ottawa Web Design & Database Experts
+    https://ottawawebdesign.ca
+ 2. clutch.co
+    Top Web Design Companies in Ottawa - Nov 2026 Rankings
+    https://clutch.co › web-designers › ottawa
+ 3. proloyalweb.com
+    ProLoyalWeb: Expert Website Design, SEO, Marketing Services
+    https://proloyalweb.com
+ 4. revenuebase.ai
+    Top 25 Business web design companies based in Ottawa ...
+    https://revenuebase.ai › ... › Canada
+ 5. (не опознан)
+    Ottawa Web Designer (@ottawawebgenius)
+    460+ followers
+ 6. algorank.weebly.com
+    Ottawa Web Design
+    https://algorank.weebly.com › ottawa-webdesign
+ 7. upwork.com
+    Hire the Best Web Designers in Ottawa, ON
+    https://www.upwork.com › ... › Web Designers › Canada
+ 8. meerkatmarketing.ca
+    Website & Graphic Design in Ottawa
+    https://meerkatmarketing.ca › website-and-graphic-design
+ 9. ottawawebdesign.ca
+    Custom Web Design Services Ottawa | Ignite
+    https://ottawawebdesign.ca › creative-marketing › websites
+
+## en · «web design auckland» — 9900/мес
+Источник строки: лидер по сайтам. AI Overview: нет. Рекламных блоков: 0.
+
+ 1. webdesignauckland.co
+    Web Design Auckland | Top Web Design Company in Auckland.
+    https://www.webdesignauckland.co
+ 2. horntech.co.nz
+    Web Design Auckland | Website Design & Web
+    https://horntech.co.nz › web-design-development
+ 3. designrush.com
+    New Zealand Web Design Companies For Small Business
+    https://www.designrush.com › agency › small-business
+ 4. auckland.scoop.co.nz
+    The Ultimate Guide To Website Design In Auckland & Across ...
+    https://auckland.scoop.co.nz › 2025/10 › the-ultimate-gu...
+ 5. forge.co.nz
+    Forge Creative: Web Design Agency Auckland | Custom ...
+    https://forge.co.nz
+ 6. openpr.com
+    Top Auckland Web Design Agencies in 2025
+    https://www.openpr.com › news › top-auckland-web-de...
+ 7. fabricdigital.co.nz
+    Website Design Auckland | Local Web Design Company NZ
+    https://fabricdigital.co.nz › web-design
+ 8. clutch.co
+    Top Web Design Companies in Auckland
+    https://clutch.co › web-designers › auckland
+ 9. whattheheck.co.nz
+    Web Designers Auckland | Websites & Shopify Support
+    https://www.whattheheck.co.nz › Locations
+
+## en · «seo agency dubai» — 9900/мес
+Источник строки: лидер по продвижению. AI Overview: нет. Рекламных блоков: 1.
+
+ 1. aundigital.ae
+    Top SEO Agency Dubai | Best SEO Services With ...
+    https://aundigital.ae › services › seo-agency-dubai
+ 2. digitalagencynetwork.com
+    Top SEO Agencies in Dubai (2026)
+    https://digitalagencynetwork.com › agencies › seo
+ 3. bestseo.ae
+    Best SEO: Dubai's Top SEO Company and Digital Marketing ...
+    https://bestseo.ae
+ 4. themanifest.com
+    The Best International SEO Companies in Dubai - Sep 2026
+    https://themanifest.com › ... › United Arab Emirates
+ 5. brandcaredigital.com
+    Best SEO Agency in Dubai, UAE
+    https://www.brandcaredigital.com › best-seo-agency-du...
+ 6. seosherpa.com
+    Top SEO Companies in Dubai (July 2025)
+    https://seosherpa.com › blog
+ 7. hubsol.ae
+    SEO Services Company in Dubai | Best SEO Agency in ...
+    https://www.hubsol.ae › seo
+ 8. netstager.ae
+    Top 10 Dubai SEO Companies in 2025 - Rankings & ...
+    https://netstager.ae › blog › 10-best-seo-companies-in-d...
+ 9. joinindexed.com
+    Best SEO Services in Dubai | Indexed
+    https://www.joinindexed.com › blog › best-seo-services-i...
+
+## en · «seo company in uae» — 9900/мес
+Источник строки: страновая форма, агентская. AI Overview: нет. Рекламных блоков: 0.
+
+ 1. cloudsync.ae
+    Best SEO Company in Dubai, UAE | SEO Services
+    https://cloudsync.ae › Services
+ 2. icreativez.com
+    Top 10 SEO Companies in Dubai (2026 Edition)
+    https://www.icreativez.com › Top-10-SEO-Companies-i...
+ 3. revenuebase.ai
+    Top 25 Ecommerce SEO agencies based in Dubai, United ...
+    https://revenuebase.ai › ... › United Arab Emirates
+ 4. tomsher.com
+    SEO Dubai | Best SEO Company and Expert in ...
+    https://www.tomsher.com › seo-services-company
+ 5. facebook.com
+    Top SEO Companies in UAE
+    https://www.facebook.com › fb-answers › top-seo-com...
+ 6. hirolainfotech.com
+    Top 20 SEO Agencies in Dubai
+    https://hirolainfotech.com › blog › top-20-seo-agencies...
+ 7. dedote.com
+    List Of Top SEO Companies In UAE - 2026
+    https://www.dedote.com › blog › top-seo-companies-in-...
+ 8. agencies.semrush.com
+    Best Mobile SEO Companies in United Arab Emirates 2026
+    https://agencies.semrush.com › list › united-arab-emirates
+ 9. themanifest.com
+    The Best International SEO Companies in United Arab Emirates
+    https://themanifest.com › SEO › International SEO
+
+## en · «seo agency in usa» — 6600/мес
+Источник строки: страновая форма, агентская. AI Overview: есть. Рекламных блоков: 1.
+
+ 1. americaneagle.com
+    Local SEO Services | Local Search Engine Optimization ...
+    https://www.americaneagle.com › expertise › local-seo-...
+ 2. seoprofy.com
+    Best SEO Companies in the USA: Top 10 Agencies in 2026
+    https://seoprofy.com › blog › top-seo-companies-in-the-...
+ 3. itprofiles.com
+    Top United States-based SEO Firms
+    https://itprofiles.com › Services › Marketing › SEO
+ 4. accordtechsolutions.com
+    Best SEO Company & Agency in the USA
+    https://www.accordtechsolutions.com › Services
+ 5. sortlist.com
+    The 10 Best On-Page SEO Experts in the United States
+    https://www.sortlist.com › SEO › On-Page SEO
+ 6. digitalthirdcoast.com
+    Best SEO Agencies in the U.S. (2026)
+    https://www.digitalthirdcoast.com › Without rubric
+ 7. themanifest.com
+    The Best SEO Companies in United States - Nov 2026 - Manifest
+    https://themanifest.com › SEO › Veteran Owned
+ 8. outsourceaccelerator.com
+    Top SEO companies in the United States in 2026
+    https://www.outsourceaccelerator.com › Guides
+ 9. agencies.semrush.com
+    Best SEO Companies for Mid Business in United States 2026
+    https://agencies.semrush.com › list › seo › mid-business
+
 ## en · «doctor website» — 90500/мес
 Источник строки: stale-gap, своей страницы нет. AI Overview: есть. Рекламных блоков: 0.
 

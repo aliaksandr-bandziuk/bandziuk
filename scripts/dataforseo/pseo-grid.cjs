@@ -59,7 +59,7 @@ const BUDGET_USD = Number(flag("budget", 6));
 const MIN_VOLUME = Number(flag("min", 10));
 const ONLY_LANG = flag("lang", null);
 const LANGS = ONLY_LANG ? [ONLY_LANG] : ["pl", "ru", "en"];
-const ALL_AXES = ["service-only", "service-industry", "service-city", "industry-city"];
+const ALL_AXES = ["service-only", "service-industry", "service-city", "service-country", "industry-city"];
 const AXES = (flag("axes", null) || ALL_AXES.join(",")).split(",").map((s) => s.trim()).filter(Boolean);
 
 const BATCH = 1000; // предел эндпоинта
@@ -132,6 +132,14 @@ function buildPhrases(lang) {
     for (const tpl of V.CITY_TEMPLATES[lang] || []) {
       for (const c of V.CITIES[lang] || []) {
         add(tpl.t(c), "service-city", { service: tpl.key, industry: "", city: c });
+      }
+    }
+  }
+  if (AXES.includes("service-country")) {
+    // Страна приходит объектом {key, loc, adj}: шаблон сам выбирает форму.
+    for (const tpl of V.COUNTRY_TEMPLATES[lang] || []) {
+      for (const c of V.COUNTRIES[lang] || []) {
+        add(tpl.t(c), "service-country", { service: tpl.key, industry: "", city: "", country: c.key });
       }
     }
   }
@@ -241,7 +249,7 @@ async function priceBatch(lang, keywords, label) {
 
 // -------------------------------------------------------------------- csv --
 
-const COLS = ["keyword", "volume", "axis", "service", "industry", "city", "competition", "cpc"];
+const COLS = ["keyword", "volume", "axis", "service", "industry", "city", "country", "competition", "cpc"];
 
 function writeCsv(file, cols, rows) {
   const esc = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;

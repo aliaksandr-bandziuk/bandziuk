@@ -28,6 +28,7 @@ const DRY_RUN = process.argv.includes("--dry-run");
 const arg = (name, fallback) => { const i = process.argv.indexOf(name); return i > -1 ? process.argv[i + 1] : fallback; };
 const BUDGET_USD = Number(arg("--budget", 4));
 const LABEL = arg("--label", "before-2026-09-18");
+const QUESTIONS_FILE = arg("--questions", "case-page-recommendations.md");
 
 const AUTH = { username: process.env.DATAFORSEO_API_LOGIN, password: process.env.DATAFORSEO_API_PASSWORD };
 const OWN = ["bandziuk.com", "tatsianabandziuk.com"];
@@ -43,7 +44,10 @@ const ENGINES = {
 
 // ---------------------------------------------------------------- questions --
 function loadQuestions() {
-  const md = fs.readFileSync(path.join(OUT, "case-page-recommendations.md"), "utf8");
+  // По умолчанию — контрольные вопросы кейса. Флаг --questions позволяет взять
+  // другой набор: замер «до» и «после» имеет смысл только тогда, когда вопросы
+  // те самые, на которые должна повлиять правка (09.11.2026).
+  const md = fs.readFileSync(path.join(OUT, QUESTIONS_FILE), "utf8");
   const section = md.split("## 6.")[1].split("\n## ")[0];
   const out = { en: [], pl: [], ru: [] };
   let lang = null;

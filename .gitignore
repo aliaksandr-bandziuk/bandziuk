@@ -55,3 +55,6 @@ __pycache__/
 # on another machine pays DataForSEO again. For a one-person project that is
 # the cheaper side of the deal.
 research/**/raw/
+
+.claude/
+drafts/ai-article/

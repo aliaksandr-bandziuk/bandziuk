@@ -143,27 +143,110 @@ const CITIES = {
     "гамбург", "франкфурт", "лимассол", "никосия", "пафос", "ларнака", "дубай",
     "абу-даби", "стамбул", "анталия", "тель-авив", "хайфа", "будва", "белград",
     "барселона", "мадрид", "лиссабон", "милан", "лондон", "вена", "хельсинки", "стокгольм",
+    "валенсия", "аликанте", "малага", "торревьеха", "бангкок", "пхукет", "бали",
+    "самарканд", "варна", "софия", "подгорица", "тиват", "котор", "юрмала", "кутаиси", "дюссельдорф",
   ],
   en: [
     // Великобритания и Ирландия
     "london", "manchester", "birmingham", "leeds", "glasgow", "edinburgh", "liverpool",
     "bristol", "cardiff", "belfast", "sheffield", "nottingham", "leicester", "newcastle",
-    "dublin", "cork", "galway", "limerick",
-    // США и Канада
+    "brighton", "southampton", "portsmouth", "oxford", "cambridge", "reading",
+    "milton keynes", "coventry", "hull", "derby", "stoke", "plymouth", "aberdeen",
+    "dundee", "swansea", "norwich", "york", "bournemouth", "luton", "bath", "exeter",
+    "ipswich", "sunderland", "wolverhampton", "bradford", "blackpool", "preston", "chester",
+    "dublin", "cork", "galway", "limerick", "waterford",
+    // США и Канада. Список расширен 09.11.2026: пятнадцати городов для рынка,
+    // где городская выдача и есть основной формат услуги, недостаточно.
     "new york", "los angeles", "chicago", "houston", "phoenix", "philadelphia", "san diego",
     "dallas", "austin", "san francisco", "seattle", "denver", "boston", "atlanta", "miami",
+    "san antonio", "jacksonville", "fort worth", "columbus", "charlotte", "indianapolis",
+    "san jose", "washington dc", "nashville", "detroit", "oklahoma city", "portland",
+    "las vegas", "memphis", "louisville", "baltimore", "milwaukee", "albuquerque", "tucson",
+    "fresno", "sacramento", "kansas city", "omaha", "colorado springs", "raleigh",
+    "long beach", "virginia beach", "oakland", "minneapolis", "tulsa", "tampa", "orlando",
+    "new orleans", "cleveland", "cincinnati", "pittsburgh", "st louis", "buffalo",
+    "salt lake city", "boise", "richmond", "charleston", "savannah", "scottsdale", "reno",
+    "jersey city", "madison", "fort lauderdale", "sarasota", "west palm beach", "asheville",
+    "boulder", "ann arbor", "providence", "hartford", "albany", "syracuse", "des moines",
+    "spokane", "chattanooga", "knoxville", "baton rouge", "little rock",
+    "greensboro", "durham", "newark", "irvine", "anaheim", "honolulu", "lexington",
     "toronto", "vancouver", "montreal", "calgary", "ottawa", "edmonton",
+    "winnipeg", "mississauga", "hamilton", "halifax", "quebec city", "kitchener",
     // Австралия и Новая Зеландия
     "sydney", "melbourne", "brisbane", "perth", "adelaide", "canberra", "gold coast",
-    "auckland", "wellington", "christchurch",
+    "hobart", "darwin", "geelong", "sunshine coast", "wollongong", "cairns",
+    "auckland", "wellington", "christchurch", "dunedin", "tauranga", "queenstown",
     // Ближний Восток, Азия, Африка
     "dubai", "abu dhabi", "sharjah", "doha", "riyadh", "singapore", "hong kong",
-    "cape town", "johannesburg", "tel aviv",
+    "jeddah", "dammam", "kuwait city", "manama", "muscat", "amman", "beirut", "istanbul",
+    "bangkok", "phuket", "kuala lumpur", "jakarta", "bali", "manila", "ho chi minh city",
+    "hanoi", "tokyo", "osaka", "seoul", "taipei", "shanghai", "tel aviv",
+    "jerusalem", "cape town", "johannesburg", "durban", "pretoria", "nairobi", "lagos",
+    "accra", "casablanca", "cairo", "tunis",
     // Европа, где бизнес говорит по-английски
     "amsterdam", "rotterdam", "berlin", "munich", "frankfurt", "zurich", "geneva",
     "vienna", "brussels", "copenhagen", "stockholm", "oslo", "helsinki", "warsaw",
     "prague", "lisbon", "madrid", "barcelona", "milan", "rome", "athens", "nicosia",
     "limassol", "malta", "luxembourg", "tallinn", "riga", "vilnius",
+    "dusseldorf", "cologne", "stuttgart", "paris", "lyon", "marseille", "valencia",
+    "seville", "malaga", "porto", "naples", "turin", "florence", "budapest", "bucharest",
+    "sofia", "zagreb", "ljubljana", "bratislava", "krakow", "gdansk", "antwerp", "basel",
+    "lausanne", "bergen", "gothenburg", "aarhus", "tampere", "kaunas", "larnaca", "paphos",
+  ],
+};
+
+// ---------------------------------------------------------------- страны --
+//
+// Таблица форм лежит в pseo-countries.cjs: предложная форма с предлогом
+// («в германии», «на кипре», «na słowacji») и прилагательное для рыночной
+// формы. Здесь из неё собираются списки по языкам.
+
+const { COUNTRY_TABLE, formFor: countryFormFor } = require("./pseo-countries.cjs");
+
+const COUNTRIES = Object.fromEntries(
+  ["pl", "ru", "en"].map((lang) => [
+    lang,
+    COUNTRY_TABLE.map((row) => ({ key: row.key, ...countryFormFor(row, lang) })),
+  ]),
+);
+
+// Родительный падеж прилагательного для «сайт для немецкого рынка». Для всех
+// форм в таблице правило одно: -ий/-ый → -ого. Без него выйдет «для немецкий
+// рынка», и фраза уйдёт в замер мёртвой.
+const ruGen = (adj) => adj.replace(/(ий|ый)$/u, "ого");
+
+const COUNTRY_TEMPLATES = {
+  pl: [
+    { key: "tworzenie", t: (c) => `tworzenie stron internetowych ${c.loc}` },
+    { key: "pozycjonowanie", t: (c) => `pozycjonowanie stron ${c.loc}` },
+    { key: "rynek-seo", t: (c) => `pozycjonowanie na rynek ${c.adj}` },
+    { key: "rynek-strona", t: (c) => `strona na rynek ${c.adj}` },
+  ],
+  ru: [
+    { key: "sozdanie", t: (c) => `создание сайта ${c.loc}` },
+    { key: "razrabotka", t: (c) => `разработка сайта ${c.loc}` },
+    { key: "zakaz", t: (c) => `заказать сайт ${c.loc}` },
+    { key: "prodvizhenie", t: (c) => `продвижение сайта ${c.loc}` },
+    { key: "seo", t: (c) => `seo продвижение ${c.loc}` },
+    { key: "rynok-seo", t: (c) => `продвижение на ${c.adj} рынок` },
+    { key: "rynok-sait", t: (c) => `сайт для ${ruGen(c.adj)} рынка` },
+  ],
+  en: [
+    // Голые формы: их меряем, но интент у них смешанный. «web development in
+    // germany» одинаково пишут и тот, кто ищет подрядчика, и разработчик,
+    // который ищет там работу или смотрит зарплаты. Тот же класс ошибки, что
+    // «online course website development» в дельте 07.11.2026, поэтому перед
+    // тем как что-то строить по этим фразам, их выдачу надо проверить.
+    { key: "development", t: (c) => `web development ${c.loc}` },
+    { key: "design", t: (c) => `web design ${c.loc}` },
+    { key: "seo-services", t: (c) => `seo services ${c.loc}` },
+    { key: "seo", t: (c) => `seo ${c.loc}` },
+    // Явно исполнительские формы: ищут подрядчика и никого больше. Если
+    // частота есть здесь, проверять интент не нужно — он задан словом.
+    { key: "agency-web", t: (c) => `web design company ${c.loc}` },
+    { key: "agency-web", t: (c) => `web development agency ${c.loc}` },
+    { key: "agency-seo", t: (c) => `seo agency ${c.loc}` },
+    { key: "agency-seo", t: (c) => `seo company ${c.loc}` },
   ],
 };
 
@@ -196,6 +279,10 @@ const CITY_TEMPLATES = {
     { key: "development", t: (c) => `website development ${c}` },
     { key: "seo", t: (c) => `seo consultant ${c}` },
     { key: "ecommerce", t: (c) => `ecommerce website ${c}` },
+    // Агентские формы добавлены 09.11.2026: в городских запросах они самые
+    // частотные и интент у них задан словом — ищут подрядчика.
+    { key: "agency-seo", t: (c) => `seo agency ${c}` },
+    { key: "agency-web", t: (c) => `web design agency ${c}` },
   ],
 };
 
@@ -300,4 +387,4 @@ const SERVICE_ONLY = {
   ],
 };
 
-module.exports = { SERVICE_TEMPLATES, SERVICE_TEMPLATES_ONE, INDUSTRY_ONE, INDUSTRIES, CITIES, CITY_TEMPLATES, INDUSTRY_CITY_TEMPLATES, SERVICE_ONLY, SERVICE_GROUP, serviceGroup };
+module.exports = { SERVICE_TEMPLATES, SERVICE_TEMPLATES_ONE, INDUSTRY_ONE, INDUSTRIES, CITIES, CITY_TEMPLATES, COUNTRIES, COUNTRY_TEMPLATES, INDUSTRY_CITY_TEMPLATES, SERVICE_ONLY, SERVICE_GROUP, serviceGroup };

@@ -916,7 +916,7 @@ export async function getBlogPostByLang(
         },
         // === слайдер кадров лога ===
         // Нужна своя проекция: ScreenshotSlide берёт width/height из
-        // asset.metadata.dimensions, а сквозной `@` отдаёт только ссылку.
+        // asset.metadata.dimensions, а сквозная ветка отдаёт только ссылку.
         _type == "logSliderBlock" => {
           _key,
           _type,

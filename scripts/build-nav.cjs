@@ -177,7 +177,7 @@ const SECTORS = [
     [t("Interior designers", "Projektanci wnętrz", "Дизайнеры интерьера"), ["interior-designer-website-design"], ["seo-for-interior-designers"]],
     [t("Carpenters", "Stolarze i meble na wymiar", "Столярные мастерские"), ["carpentry-website-design"], ["seo-for-carpenters"]],
     [t("Handyman services", "Złota rączka", "Мастер на час"), ["handyman-website-design"], ["seo-for-handyman-services"]],
-    [t("Land surveyors", "Firmy geodezyjne", "Геодезические компании"), [], ["seo-for-land-surveyors"]],
+    [t("Land surveyors", "Firmy geodezyjne", "Геодезические компании"), ["website-design-for-land-surveyors"], ["seo-for-land-surveyors"]],
     [t("Cleaning companies", "Firmy sprzątające", "Клининговые компании"), ["cleaning-company-website"], []],
     [t("Solar installers", "Fotowoltaika", "Солнечные панели"), [], ["solar-seo"]],
     [t("Moving companies", "Firmy przeprowadzkowe", "Переезды"), [], ["seo-for-moving-companies"]],

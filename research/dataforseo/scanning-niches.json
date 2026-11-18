@@ -1,0 +1,1210 @@
+{
+ "generatedAt": "2026-11-18T10:03:49.190Z",
+ "languages": {
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "seo for 3d scanning companies",
+      "volume": null,
+      "group": "3d сканирование · продвижение"
+     },
+     {
+      "keyword": "3d laser scanning seo",
+      "volume": null,
+      "group": "3d сканирование · продвижение"
+     },
+     {
+      "keyword": "marketing for 3d scanning companies",
+      "volume": null,
+      "group": "3d сканирование · продвижение"
+     },
+     {
+      "keyword": "how to get clients for 3d scanning",
+      "volume": null,
+      "group": "3d сканирование · продвижение"
+     },
+     {
+      "keyword": "website for 3d scanning company",
+      "volume": null,
+      "group": "3d сканирование · сайт"
+     },
+     {
+      "keyword": "web design for 3d scanning company",
+      "volume": null,
+      "group": "3d сканирование · сайт"
+     },
+     {
+      "keyword": "3d scanning company website",
+      "volume": null,
+      "group": "3d сканирование · сайт"
+     },
+     {
+      "keyword": "3d laser scanning services",
+      "volume": 480,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "laser scanning services",
+      "volume": 70,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "3d scanning company",
+      "volume": 140,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "point cloud services",
+      "volume": 10,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "scan to bim",
+      "volume": 390,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "seo for bim companies",
+      "volume": null,
+      "group": "bim · продвижение"
+     },
+     {
+      "keyword": "bim services seo",
+      "volume": null,
+      "group": "bim · продвижение"
+     },
+     {
+      "keyword": "marketing for bim companies",
+      "volume": null,
+      "group": "bim · продвижение"
+     },
+     {
+      "keyword": "website for bim company",
+      "volume": null,
+      "group": "bim · сайт"
+     },
+     {
+      "keyword": "bim company website design",
+      "volume": null,
+      "group": "bim · сайт"
+     },
+     {
+      "keyword": "bim modeling services",
+      "volume": 320,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "bim services",
+      "volume": 480,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "scan to bim services",
+      "volume": 260,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "revit modeling services",
+      "volume": 70,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "seo for land surveyors",
+      "volume": null,
+      "group": "геодезия · продвижение"
+     },
+     {
+      "keyword": "land surveyor seo",
+      "volume": null,
+      "group": "геодезия · продвижение"
+     },
+     {
+      "keyword": "marketing for land surveyors",
+      "volume": null,
+      "group": "геодезия · продвижение"
+     },
+     {
+      "keyword": "how to get surveying clients",
+      "volume": null,
+      "group": "геодезия · продвижение"
+     },
+     {
+      "keyword": "website design for land surveyors",
+      "volume": null,
+      "group": "геодезия · сайт"
+     },
+     {
+      "keyword": "land surveyor website",
+      "volume": 40,
+      "group": "геодезия · сайт"
+     },
+     {
+      "keyword": "surveying company website",
+      "volume": null,
+      "group": "геодезия · сайт"
+     },
+     {
+      "keyword": "land surveying services",
+      "volume": 2400,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "topographic survey",
+      "volume": 2400,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "as built survey",
+      "volume": 880,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "seo for drone companies",
+      "volume": null,
+      "group": "дроны · продвижение"
+     },
+     {
+      "keyword": "drone business marketing",
+      "volume": null,
+      "group": "дроны · продвижение"
+     },
+     {
+      "keyword": "how to get drone clients",
+      "volume": 10,
+      "group": "дроны · продвижение"
+     },
+     {
+      "keyword": "drone company website",
+      "volume": 10,
+      "group": "дроны · сайт"
+     },
+     {
+      "keyword": "website for drone business",
+      "volume": null,
+      "group": "дроны · сайт"
+     },
+     {
+      "keyword": "drone survey services",
+      "volume": 140,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "aerial survey services",
+      "volume": 50,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "drone mapping services",
+      "volume": 210,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "drone inspection services",
+      "volume": 390,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "seo for cad companies",
+      "volume": null,
+      "group": "cad и обмеры · продвижение"
+     },
+     {
+      "keyword": "marketing for drafting services",
+      "volume": null,
+      "group": "cad и обмеры · продвижение"
+     },
+     {
+      "keyword": "cad company website",
+      "volume": null,
+      "group": "cad и обмеры · сайт"
+     },
+     {
+      "keyword": "website for drafting company",
+      "volume": null,
+      "group": "cad и обмеры · сайт"
+     },
+     {
+      "keyword": "cad drafting services",
+      "volume": 590,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "as built drawings services",
+      "volume": 320,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "reverse engineering services",
+      "volume": 110,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "floor plan drafting services",
+      "volume": 20,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "seo for engineering firms",
+      "volume": null,
+      "group": "инженерные бюро · продвижение"
+     },
+     {
+      "keyword": "engineering firm marketing",
+      "volume": 50,
+      "group": "инженерные бюро · продвижение"
+     },
+     {
+      "keyword": "seo for engineers",
+      "volume": 50,
+      "group": "инженерные бюро · продвижение"
+     },
+     {
+      "keyword": "marketing for structural engineers",
+      "volume": null,
+      "group": "инженерные бюро · продвижение"
+     },
+     {
+      "keyword": "engineering firm website design",
+      "volume": null,
+      "group": "инженерные бюро · сайт"
+     },
+     {
+      "keyword": "website for engineering company",
+      "volume": 20,
+      "group": "инженерные бюро · сайт"
+     },
+     {
+      "keyword": "engineering company website",
+      "volume": 10,
+      "group": "инженерные бюро · сайт"
+     },
+     {
+      "keyword": "structural engineering services",
+      "volume": 1600,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "mep engineering services",
+      "volume": 480,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "civil engineering services",
+      "volume": 590,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "seo for inspection companies",
+      "volume": null,
+      "group": "инспекция и ndt · продвижение"
+     },
+     {
+      "keyword": "marketing for inspection companies",
+      "volume": null,
+      "group": "инспекция и ndt · продвижение"
+     },
+     {
+      "keyword": "ndt company marketing",
+      "volume": null,
+      "group": "инспекция и ndt · продвижение"
+     },
+     {
+      "keyword": "inspection company website",
+      "volume": null,
+      "group": "инспекция и ndt · сайт"
+     },
+     {
+      "keyword": "website for inspection company",
+      "volume": null,
+      "group": "инспекция и ndt · сайт"
+     },
+     {
+      "keyword": "ndt services",
+      "volume": 140,
+      "group": "инспекция и ndt · услуга"
+     },
+     {
+      "keyword": "non destructive testing services",
+      "volume": 480,
+      "group": "инспекция и ndt · услуга"
+     },
+     {
+      "keyword": "industrial inspection services",
+      "volume": 90,
+      "group": "инспекция и ndt · услуга"
+     },
+     {
+      "keyword": "building inspection services",
+      "volume": 480,
+      "group": "инспекция и ndt · услуга"
+     },
+     {
+      "keyword": "seo for 3d printing companies",
+      "volume": null,
+      "group": "3d печать · продвижение"
+     },
+     {
+      "keyword": "3d printing business marketing",
+      "volume": null,
+      "group": "3d печать · продвижение"
+     },
+     {
+      "keyword": "how to get 3d printing clients",
+      "volume": null,
+      "group": "3d печать · продвижение"
+     },
+     {
+      "keyword": "3d printing company website",
+      "volume": null,
+      "group": "3d печать · сайт"
+     },
+     {
+      "keyword": "website for 3d printing business",
+      "volume": null,
+      "group": "3d печать · сайт"
+     },
+     {
+      "keyword": "3d printing services",
+      "volume": 49500,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "rapid prototyping services",
+      "volume": 1000,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "3d printing service near me",
+      "volume": 8100,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "seo for metrology companies",
+      "volume": null,
+      "group": "метрология · продвижение"
+     },
+     {
+      "keyword": "marketing for calibration services",
+      "volume": null,
+      "group": "метрология · продвижение"
+     },
+     {
+      "keyword": "metrology company website",
+      "volume": null,
+      "group": "метрология · сайт"
+     },
+     {
+      "keyword": "calibration company website",
+      "volume": null,
+      "group": "метрология · сайт"
+     },
+     {
+      "keyword": "metrology services",
+      "volume": 720,
+      "group": "метрология · услуга"
+     },
+     {
+      "keyword": "dimensional inspection services",
+      "volume": 50,
+      "group": "метрология · услуга"
+     },
+     {
+      "keyword": "calibration services",
+      "volume": 1300,
+      "group": "метрология · услуга"
+     },
+     {
+      "keyword": "seo services",
+      "volume": 40500,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo agency",
+      "volume": 22200,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "website design",
+      "volume": 40500,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "b2b seo services",
+      "volume": 320,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  },
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "pozycjonowanie firmy technicznej",
+      "volume": null,
+      "group": "skanowanie 3d · pozycjonowanie"
+     },
+     {
+      "keyword": "seo dla firm technicznych",
+      "volume": null,
+      "group": "skanowanie 3d · pozycjonowanie"
+     },
+     {
+      "keyword": "marketing firmy skanowanie 3d",
+      "volume": null,
+      "group": "skanowanie 3d · pozycjonowanie"
+     },
+     {
+      "keyword": "strona internetowa dla firmy technicznej",
+      "volume": null,
+      "group": "skanowanie 3d · strona"
+     },
+     {
+      "keyword": "tworzenie stron dla firm budowlanych",
+      "volume": null,
+      "group": "skanowanie 3d · strona"
+     },
+     {
+      "keyword": "skanowanie laserowe 3d",
+      "volume": 110,
+      "group": "skanowanie 3d · usługa"
+     },
+     {
+      "keyword": "skanowanie 3d budynków",
+      "volume": 110,
+      "group": "skanowanie 3d · usługa"
+     },
+     {
+      "keyword": "inwentaryzacja skanowanie 3d",
+      "volume": null,
+      "group": "skanowanie 3d · usługa"
+     },
+     {
+      "keyword": "chmura punktów",
+      "volume": 260,
+      "group": "skanowanie 3d · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie bim",
+      "volume": null,
+      "group": "bim · pozycjonowanie"
+     },
+     {
+      "keyword": "marketing bim",
+      "volume": 10,
+      "group": "bim · pozycjonowanie"
+     },
+     {
+      "keyword": "strona internetowa dla firmy bim",
+      "volume": null,
+      "group": "bim · strona"
+     },
+     {
+      "keyword": "modelowanie bim",
+      "volume": 140,
+      "group": "bim · usługa"
+     },
+     {
+      "keyword": "usługi bim",
+      "volume": 10,
+      "group": "bim · usługa"
+     },
+     {
+      "keyword": "scan to bim",
+      "volume": 40,
+      "group": "bim · usługa"
+     },
+     {
+      "keyword": "modelowanie revit",
+      "volume": 30,
+      "group": "bim · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie dla geodety",
+      "volume": null,
+      "group": "geodezja · pozycjonowanie"
+     },
+     {
+      "keyword": "seo dla geodety",
+      "volume": null,
+      "group": "geodezja · pozycjonowanie"
+     },
+     {
+      "keyword": "marketing dla geodety",
+      "volume": null,
+      "group": "geodezja · pozycjonowanie"
+     },
+     {
+      "keyword": "jak zdobyć klientów geodeta",
+      "volume": null,
+      "group": "geodezja · pozycjonowanie"
+     },
+     {
+      "keyword": "strona internetowa dla geodety",
+      "volume": null,
+      "group": "geodezja · strona"
+     },
+     {
+      "keyword": "tworzenie stron dla geodetów",
+      "volume": null,
+      "group": "geodezja · strona"
+     },
+     {
+      "keyword": "strona dla firmy geodezyjnej",
+      "volume": null,
+      "group": "geodezja · strona"
+     },
+     {
+      "keyword": "usługi geodezyjne",
+      "volume": 1900,
+      "group": "geodezja · usługa"
+     },
+     {
+      "keyword": "geodeta",
+      "volume": 14800,
+      "group": "geodezja · usługa"
+     },
+     {
+      "keyword": "pomiary geodezyjne",
+      "volume": 320,
+      "group": "geodezja · usługa"
+     },
+     {
+      "keyword": "inwentaryzacja powykonawcza",
+      "volume": 320,
+      "group": "geodezja · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie firmy dronowej",
+      "volume": null,
+      "group": "drony · pozycjonowanie"
+     },
+     {
+      "keyword": "marketing usług dronowych",
+      "volume": null,
+      "group": "drony · pozycjonowanie"
+     },
+     {
+      "keyword": "strona dla firmy dronowej",
+      "volume": null,
+      "group": "drony · strona"
+     },
+     {
+      "keyword": "usługi dronem",
+      "volume": 320,
+      "group": "drony · usługa"
+     },
+     {
+      "keyword": "pomiary dronem",
+      "volume": 70,
+      "group": "drony · usługa"
+     },
+     {
+      "keyword": "fotogrametria z drona",
+      "volume": 50,
+      "group": "drony · usługa"
+     },
+     {
+      "keyword": "inspekcje dronem",
+      "volume": 170,
+      "group": "drony · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie biura projektowego",
+      "volume": null,
+      "group": "cad i inwentaryzacje · pozycjonowanie"
+     },
+     {
+      "keyword": "strona internetowa dla biura projektowego",
+      "volume": null,
+      "group": "cad i inwentaryzacje · strona"
+     },
+     {
+      "keyword": "inwentaryzacja budynku",
+      "volume": 590,
+      "group": "cad i inwentaryzacje · usługa"
+     },
+     {
+      "keyword": "rysunki powykonawcze",
+      "volume": null,
+      "group": "cad i inwentaryzacje · usługa"
+     },
+     {
+      "keyword": "usługi cad",
+      "volume": 50,
+      "group": "cad i inwentaryzacje · usługa"
+     },
+     {
+      "keyword": "projekty wykonawcze",
+      "volume": 40,
+      "group": "cad i inwentaryzacje · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie dla firm inżynieryjnych",
+      "volume": null,
+      "group": "biura inżynierskie · pozycjonowanie"
+     },
+     {
+      "keyword": "seo dla inżynierów",
+      "volume": null,
+      "group": "biura inżynierskie · pozycjonowanie"
+     },
+     {
+      "keyword": "strona internetowa dla firmy inżynieryjnej",
+      "volume": null,
+      "group": "biura inżynierskie · strona"
+     },
+     {
+      "keyword": "usługi inżynierskie",
+      "volume": 90,
+      "group": "biura inżynierskie · usługa"
+     },
+     {
+      "keyword": "projektowanie konstrukcji",
+      "volume": 480,
+      "group": "biura inżynierskie · usługa"
+     },
+     {
+      "keyword": "biuro projektowe",
+      "volume": 4400,
+      "group": "biura inżynierskie · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie firmy inspekcyjnej",
+      "volume": null,
+      "group": "inspekcje i ndt · pozycjonowanie"
+     },
+     {
+      "keyword": "strona dla firmy inspekcyjnej",
+      "volume": null,
+      "group": "inspekcje i ndt · strona"
+     },
+     {
+      "keyword": "badania nieniszczące",
+      "volume": 590,
+      "group": "inspekcje i ndt · usługa"
+     },
+     {
+      "keyword": "inspekcje przemysłowe",
+      "volume": null,
+      "group": "inspekcje i ndt · usługa"
+     },
+     {
+      "keyword": "przeglądy techniczne budynków",
+      "volume": 210,
+      "group": "inspekcje i ndt · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie druk 3d",
+      "volume": null,
+      "group": "druk 3d · pozycjonowanie"
+     },
+     {
+      "keyword": "marketing druk 3d",
+      "volume": null,
+      "group": "druk 3d · pozycjonowanie"
+     },
+     {
+      "keyword": "strona dla firmy druk 3d",
+      "volume": null,
+      "group": "druk 3d · strona"
+     },
+     {
+      "keyword": "druk 3d usługi",
+      "volume": 210,
+      "group": "druk 3d · usługa"
+     },
+     {
+      "keyword": "wydruki 3d na zamówienie",
+      "volume": 590,
+      "group": "druk 3d · usługa"
+     },
+     {
+      "keyword": "prototypowanie 3d",
+      "volume": 70,
+      "group": "druk 3d · usługa"
+     },
+     {
+      "keyword": "usługi metrologiczne",
+      "volume": 20,
+      "group": "metrologia · usługa"
+     },
+     {
+      "keyword": "wzorcowanie przyrządów",
+      "volume": 40,
+      "group": "metrologia · usługa"
+     },
+     {
+      "keyword": "pomiary współrzędnościowe",
+      "volume": 10,
+      "group": "metrologia · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie stron",
+      "volume": 5400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "tworzenie stron internetowych",
+      "volume": 4400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "audyt seo",
+      "volume": 1600,
+      "group": "kontrola (komercyjne)"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "продвижение сайта 3d сканирование",
+      "volume": null,
+      "group": "3d сканирование · продвижение"
+     },
+     {
+      "keyword": "seo для технических компаний",
+      "volume": null,
+      "group": "3d сканирование · продвижение"
+     },
+     {
+      "keyword": "сайт для компании 3d сканирования",
+      "volume": null,
+      "group": "3d сканирование · сайт"
+     },
+     {
+      "keyword": "создание сайта для технической компании",
+      "volume": null,
+      "group": "3d сканирование · сайт"
+     },
+     {
+      "keyword": "лазерное сканирование зданий",
+      "volume": 10,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "3d сканирование услуги",
+      "volume": 10,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "облако точек",
+      "volume": 10,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "обмерные работы",
+      "volume": 10,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "продвижение bim",
+      "volume": null,
+      "group": "bim · продвижение"
+     },
+     {
+      "keyword": "сайт для bim компании",
+      "volume": null,
+      "group": "bim · сайт"
+     },
+     {
+      "keyword": "bim моделирование",
+      "volume": 10,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "услуги bim",
+      "volume": null,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "проектирование в revit",
+      "volume": 10,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "продвижение сайта геодезия",
+      "volume": null,
+      "group": "геодезия · продвижение"
+     },
+     {
+      "keyword": "seo для геодезической компании",
+      "volume": null,
+      "group": "геодезия · продвижение"
+     },
+     {
+      "keyword": "сайт для геодезической компании",
+      "volume": null,
+      "group": "геодезия · сайт"
+     },
+     {
+      "keyword": "создание сайта геодезия",
+      "volume": null,
+      "group": "геодезия · сайт"
+     },
+     {
+      "keyword": "геодезические услуги",
+      "volume": 10,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "геодезическая съемка",
+      "volume": 10,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "исполнительная съемка",
+      "volume": 10,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "продвижение услуг аэросъемки",
+      "volume": null,
+      "group": "дроны · продвижение"
+     },
+     {
+      "keyword": "сайт для компании аэросъемки",
+      "volume": null,
+      "group": "дроны · сайт"
+     },
+     {
+      "keyword": "аэросъемка услуги",
+      "volume": 0,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "съемка с дрона",
+      "volume": 10,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "фотограмметрия с дрона",
+      "volume": 0,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "услуги cad",
+      "volume": null,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "обмерный план",
+      "volume": 10,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "исполнительная документация",
+      "volume": 10,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "продвижение проектной организации",
+      "volume": null,
+      "group": "инженерные бюро · продвижение"
+     },
+     {
+      "keyword": "сайт для проектного бюро",
+      "volume": null,
+      "group": "инженерные бюро · сайт"
+     },
+     {
+      "keyword": "проектное бюро",
+      "volume": 10,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "инженерные изыскания",
+      "volume": 10,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "проектирование конструкций",
+      "volume": 0,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "техническое обследование зданий",
+      "volume": 10,
+      "group": "инспекция · услуга"
+     },
+     {
+      "keyword": "неразрушающий контроль",
+      "volume": 10,
+      "group": "инспекция · услуга"
+     },
+     {
+      "keyword": "промышленная инспекция",
+      "volume": null,
+      "group": "инспекция · услуга"
+     },
+     {
+      "keyword": "продвижение 3d печати",
+      "volume": null,
+      "group": "3d печать · продвижение"
+     },
+     {
+      "keyword": "сайт для 3d печати",
+      "volume": 10,
+      "group": "3d печать · сайт"
+     },
+     {
+      "keyword": "3d печать на заказ",
+      "volume": 10,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "услуги 3d печати",
+      "volume": 10,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "прототипирование",
+      "volume": 20,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 40,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "продвижение сайта 3d сканирование",
+      "volume": null,
+      "group": "3d сканирование · продвижение"
+     },
+     {
+      "keyword": "seo для технических компаний",
+      "volume": null,
+      "group": "3d сканирование · продвижение"
+     },
+     {
+      "keyword": "сайт для компании 3d сканирования",
+      "volume": null,
+      "group": "3d сканирование · сайт"
+     },
+     {
+      "keyword": "создание сайта для технической компании",
+      "volume": null,
+      "group": "3d сканирование · сайт"
+     },
+     {
+      "keyword": "лазерное сканирование зданий",
+      "volume": 10,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "3d сканирование услуги",
+      "volume": 10,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "облако точек",
+      "volume": 20,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "обмерные работы",
+      "volume": 10,
+      "group": "3d сканирование · услуга"
+     },
+     {
+      "keyword": "продвижение bim",
+      "volume": null,
+      "group": "bim · продвижение"
+     },
+     {
+      "keyword": "сайт для bim компании",
+      "volume": null,
+      "group": "bim · сайт"
+     },
+     {
+      "keyword": "bim моделирование",
+      "volume": 30,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "услуги bim",
+      "volume": null,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "проектирование в revit",
+      "volume": 10,
+      "group": "bim · услуга"
+     },
+     {
+      "keyword": "продвижение сайта геодезия",
+      "volume": null,
+      "group": "геодезия · продвижение"
+     },
+     {
+      "keyword": "seo для геодезической компании",
+      "volume": null,
+      "group": "геодезия · продвижение"
+     },
+     {
+      "keyword": "сайт для геодезической компании",
+      "volume": null,
+      "group": "геодезия · сайт"
+     },
+     {
+      "keyword": "создание сайта геодезия",
+      "volume": null,
+      "group": "геодезия · сайт"
+     },
+     {
+      "keyword": "геодезические услуги",
+      "volume": 30,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "геодезическая съемка",
+      "volume": 30,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "исполнительная съемка",
+      "volume": 90,
+      "group": "геодезия · услуга"
+     },
+     {
+      "keyword": "продвижение услуг аэросъемки",
+      "volume": null,
+      "group": "дроны · продвижение"
+     },
+     {
+      "keyword": "сайт для компании аэросъемки",
+      "volume": null,
+      "group": "дроны · сайт"
+     },
+     {
+      "keyword": "аэросъемка услуги",
+      "volume": null,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "съемка с дрона",
+      "volume": 20,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "фотограмметрия с дрона",
+      "volume": 10,
+      "group": "дроны · услуга"
+     },
+     {
+      "keyword": "услуги cad",
+      "volume": null,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "обмерный план",
+      "volume": 90,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "исполнительная документация",
+      "volume": 110,
+      "group": "cad и обмеры · услуга"
+     },
+     {
+      "keyword": "продвижение проектной организации",
+      "volume": 0,
+      "group": "инженерные бюро · продвижение"
+     },
+     {
+      "keyword": "сайт для проектного бюро",
+      "volume": null,
+      "group": "инженерные бюро · сайт"
+     },
+     {
+      "keyword": "проектное бюро",
+      "volume": 20,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "инженерные изыскания",
+      "volume": 50,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "проектирование конструкций",
+      "volume": 10,
+      "group": "инженерные бюро · услуга"
+     },
+     {
+      "keyword": "техническое обследование зданий",
+      "volume": 70,
+      "group": "инспекция · услуга"
+     },
+     {
+      "keyword": "неразрушающий контроль",
+      "volume": 90,
+      "group": "инспекция · услуга"
+     },
+     {
+      "keyword": "промышленная инспекция",
+      "volume": null,
+      "group": "инспекция · услуга"
+     },
+     {
+      "keyword": "продвижение 3d печати",
+      "volume": null,
+      "group": "3d печать · продвижение"
+     },
+     {
+      "keyword": "сайт для 3d печати",
+      "volume": 10,
+      "group": "3d печать · сайт"
+     },
+     {
+      "keyword": "3d печать на заказ",
+      "volume": 30,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "услуги 3d печати",
+      "volume": 10,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "прототипирование",
+      "volume": 110,
+      "group": "3d печать · услуга"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 140,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 880,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 50,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  }
+ }
+}

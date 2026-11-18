@@ -39,11 +39,11 @@ export const landSurveyorSeoEn = {
   seo: {
     metaTitle: "SEO for Land Surveyors — audit from €250",
     metaDescription:
-      "SEO for land surveying companies: pages per survey type and county, turnaround and price on the page, local search and being quoted by ChatGPT and Perplexity.",
+      "SEO for land surveying companies: pages per survey type and county, turnaround and price on the page, local SEO, and AI SEO in ChatGPT and Perplexity.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per survey type", "Quoted by ChatGPT and Perplexity", "Audit from €250"],
+  heroChips: ["A page per survey type", "AI SEO: ChatGPT and Perplexity", "Audit from €250"],
   heroPhonePoints: ["ALTA survey for a closing", "Boundary survey before a fence", "Topographic survey for a permit", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a land surveying company: site, local profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -95,12 +95,12 @@ export const landSurveyorSeoEn = {
         li("state the turnaround in working days and a price range with its conditions;"),
         li("and leave out the deliverables you take on reluctantly, because they bring the enquiries you dislike."),
 
-        h2("Survey types as separate pages: ALTA/NSPS, boundary, topographic, as-built"),
+        h2("SEO pages per survey type: ALTA/NSPS, boundary, topographic, as-built"),
         p("The measured demand sits on the document names, not on the trade. In the US market «land surveying services» draws 2,400 searches a month, «topographic survey» another 2,400 and «as built survey» 880 — the deliverables together carry more search than the profession does. Each of them is a different buyer with a different deadline, and a page that tries to serve all of them at once serves none."),
         p("An ALTA/NSPS survey is ordered by a commercial buyer or a lender working through a closing checklist, and the question behind the search is which Table A items are included and whether the schedule can be met. A boundary survey is ordered by a homeowner mid-argument, and the question is what a surveyor can actually settle and what needs a lawyer. A topographic survey is ordered because a design cannot start without contours. The pages are different documents for different people, and they should read that way."),
         p("This is also where AI answers enter, earlier than most firms expect. «Which survey do I need to refinance» and «difference between a boundary survey and an ALTA survey» are now typed into ChatGPT and Perplexity before any search engine is opened, and the assistant answers from pages that explain the document plainly. A firm whose site lists services gets no mention; the firm that wrote two clear paragraphs about what an ALTA survey contains is the one quoted, with its name attached."),
 
-        h2("County and jurisdiction pages: local rules that change the price and the turnaround"),
+        h2("Local SEO by county: the rules that change the price and the turnaround"),
         p("Surveying is licensed by state and recorded by county, and the practical details differ at every line on the map: what the recording office accepts, which monuments are required, what the filing costs, how long the review takes. Clients feel this as confusion — the price they were quoted by a firm two counties away does not match the one they are quoted at home — and a page that explains the local procedure answers a question nobody else is answering."),
         p("The restraint matters more than the tactic. A page for each of four hundred counties, built by swapping a name in a template, is the textbook definition of a thin page and will be treated as one. Pages are worth writing for the counties where you have actually filed, where you can say what the office is like, what it charges and how long it takes — and that limit is usually between three and a dozen pages, not hundreds."),
 
@@ -125,14 +125,22 @@ export const landSurveyorSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("ChatGPT, Perplexity and AI Overviews as a source of surveying enquiries"),
-        p("A property owner who has been told to get a survey usually does not know which one, and that is precisely the kind of question people now put to an assistant rather than to a search box. The assistant replies in prose, often names two or three firms, and the owner contacts one of them having never seen a results page. For a trade whose buyers start confused, this channel matters more than it does for most industries."),
-        p("Three things decide whether a surveying firm is among the names. The first is text an assistant can actually read: surveying sites hide everything in PDFs, sample drawings and scanned brochures, and a page whose explanation lives inside an attachment is invisible to the systems doing the answering. The second is figures worth quoting — a turnaround in working days, a price range, a service area stated as counties — because an assistant prefers a source that commits to something. The third is agreement between sources: the same firm name, the same licence details, the same services and the same phone number on the site, on the map profile and in the directories, since contradictions are the fastest way to be left out."),
-        p("The same holds inside Google itself, where AI Overviews now answer «which survey do I need» above the links. The firm cited there is rarely the largest in the state; it is the one that explained the document in plain words on a page a machine could read end to end."),
+        h2("AI SEO for a surveying company: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("A property owner is told to get a survey. They do not know which one. That question now goes to an assistant rather than a search box."),
+        p("The assistant answers in prose and often names two or three firms. The owner calls one of them without ever seeing a results page. In a trade where the buyer starts confused, this channel matters more than in most industries."),
+        p("Three things decide whether a surveying firm is among the names."),
+        li("Text a machine can read. Surveying sites hide everything in PDFs, sample drawings and scanned brochures. To an assistant, that content does not exist."),
+        li("Figures worth quoting: a turnaround in working days, a price range, a service area listed by county. A source that commits to nothing does not get cited."),
+        li("Agreement between sources. The same firm name, licence details, services and phone number on the site, the map profile and the directories. A contradiction gets you skipped."),
+        p("The same holds inside Google. AI Overviews answer «which survey do I need» above the links. The firm cited there is rarely the largest in the state. It is the one that explained the document in plain words."),
+
+        h3("Generative engine optimization (GEO), answer engine optimization (AEO) and LLM SEO in practice"),
+        p("GEO and AEO mean the same thing from two angles: getting your name into the generated answer, not just into the list of links. LLM SEO is the same work across language models."),
+        p("In practice it is five or six concrete fixes. Lift the text out of the PDFs. Add structured data for the firm and its services. Put numbers into the copy. Make the data agree everywhere it appears. Write pages that answer the questions people ask out loud."),
         p(
           "Getting an existing site into that state is ",
           link("preparing a site for AI search", "/services/ai-search-readiness"),
-          ", and when assistants describe a firm wrongly — a county it no longer covers, a service it dropped years ago — that is ",
+          ". When assistants describe a firm wrongly — a county it no longer covers, a service it dropped — that is ",
           link("fixing AI misinformation", "/services/fix-ai-misinformation"),
           ".",
         ),
@@ -148,11 +156,11 @@ export const landSurveyorSeoEn = {
         h3("Construction staking: repeat work from builders, not one-off orders from owners"),
         p("Every other deliverable on this list is bought once by someone who will never need it again. Staking is different: a builder who trusts a crew calls that crew on every project, and the enquiry is worth a multiple of a single residential survey. The page for it should therefore be written for a contractor, not a homeowner — scheduling around their sequence, how quickly you can re-stake after a change, who pays for the re-stake, and how you handle a site where the work started before you arrived."),
 
-        h2("Local search and the Google Business Profile of a surveying company"),
+        h2("Local SEO and the Google Business Profile of a surveying company"),
         p("A surveying firm is a service-area business: the crew travels, the client rarely visits the office. The profile should therefore state the counties covered rather than a radius around a pin, carry the licence details, and collect reviews from the people who actually refer this work — attorneys, builders, title companies and architects — because a referral-shaped review reads as evidence to a buyer who cannot judge the survey itself."),
         p("The same profile data feeds the assistants described above. When the service area on the site, the counties in the profile and the description in a directory disagree, both the map results and the AI answers lose confidence, and the firm quietly drops out of both."),
 
-        h2("Site speed and the parcel-address enquiry form on a surveying site"),
+        h2("Technical SEO: site speed and the parcel-address enquiry form"),
         p("The enquiry form on most surveying sites asks for a name, an email and a message, which guarantees a reply that says «could you tell me the address». The form that saves a day asks for the parcel address or the parcel number, the deadline, and who asked for the survey — the lender, the city, the attorney — because those three answers are what decides whether the job is yours and what it costs."),
         p("Speed matters for a reason specific to this trade: the sites are heavy with sample drawings and scanned certificates, and the people opening them are often standing on a site with one bar of signal. A page that takes nine seconds on a phone loses an enquiry that was already in hand."),
       ],

@@ -1,42 +1,43 @@
-// Landing page fixture: Pozycjonowanie strony geodety (PL), group «land-surveyor-seo».
-// NEW page — create-landing.cjs, root level like the other industry SEO pages.
+// Landing page fixture: Pozycjonowanie strony geodety (PL),
+// group «land-surveyor-seo». Przepisane 18.11.2026 — druga redakcja.
 //
-// Why it exists (18.11.2026). Measured in research/dataforseo/scanning-niches.md:
-// the owner-side intent is zero in Polish too — «pozycjonowanie dla geodety»,
-// «seo dla geodety», «marketing dla geodety» all return no data. The market
-// itself is the largest in the whole cluster: «geodeta» 14 800,
-// «usługi geodezyjne» 1 900, «pomiary geodezyjne» 320,
-// «inwentaryzacja powykonawcza» 320.
+// Pierwsza redakcja odrzucona: tekst pisany długimi okresami, dla wyszukiwarki
+// i AI zamiast dla właściciela firmy, a słowa kluczowe w nagłówkach stały z
+// sensu, nie z pomiaru.
 //
-// Market adaptation, not a translation of the EN page: the trigger documents
-// are the Polish ones (mapa do celów projektowych, tyczenie, inwentaryzacja
-// powykonawcza, wznowienie granic), and the local-rules section is about
-// PODGiK and zgłoszenie pracy geodezyjnej rather than US counties.
+// Pomiar słownika usług: research/dataforseo/service-wording.md (18.11.2026).
+// PL: seo 12 100, pozycjonowanie stron 5 400, pozycjonowanie strony 5 400,
+// agencja seo 2 400, audyt seo 1 600, pozycjonowanie lokalne 720,
+// specjalista seo 390. Strona AI: ai seo 720, pozycjonowanie w ai 260,
+// pozycjonowanie w chatgpt 170, widoczność w ai 110, llm seo 110.
+// GEO i AEO po polsku prawie nie istnieją (310 i 50 łącznie, w tym angielska
+// forma 260), więc w H2 ich nie ma — idą do tekstu i do H3 z rozwinięciem.
 //
-// Heading form per the owner's rule: «pozycjonowanie strony X», not «firmy».
+// Nisza zmierzona osobno: research/dataforseo/scanning-niches.md
+// (geodeta 14 800, usługi geodezyjne 1 900, inwentaryzacja powykonawcza 320).
 import { p, h2, h3, li, link, k } from "./pt";
 
 export const landSurveyorSeoPl = {
   lang: "pl",
   group: "land-surveyor-seo",
   slug: "pozycjonowanie-strony-geodety",
-  title: "Pozycjonowanie strony geodety i firmy geodezyjnej",
+  title: "Pozycjonowanie strony geodety i SEO firmy geodezyjnej",
   heading:
-    "Pozycjonowanie strony geodety: jak trafiać do klienta, któremu urząd, bank albo kierownik budowy kazał dostarczyć dokument",
+    "SEO i pozycjonowanie strony geodety: jak trafiać do klienta, któremu urząd, bank albo kierownik budowy kazał dostarczyć dokument",
   excerpt:
-    "Zajmuję się pozycjonowaniem stron firm geodezyjnych: podstrony pod poszczególne opracowania i powiaty, terminy i widełki cenowe tam, gdzie klient je zobaczy, wyszukiwanie lokalne i odpowiedzi asystentów AI. Nikt nie chce mapy czy tyczenia — ktoś kazał dostarczyć dokument, a zlecenie dostaje firma, która ten dokument wytłumaczyła. Audyt 1000 zł, stała praca 3500 zł miesięcznie.",
+    "Zajmuję się SEO i pozycjonowaniem stron firm geodezyjnych. Robię osobną podstronę na każde opracowanie, podaję termin i widełki cenowe tam, gdzie klient je zobaczy, ustawiam pozycjonowanie lokalne i doprowadzam do tego, żeby wymieniał was ChatGPT, Perplexity i Gemini. Pomiaru nikt nie chce. Pomiar jest wymagany. Zlecenie bierze ta firma, która wytłumaczyła potrzebny dokument. Audyt 1000 zł, stała praca 3500 zł miesięcznie.",
   seo: {
     metaTitle: "Pozycjonowanie strony geodety — audyt 1000 zł",
     metaDescription:
-      "Pozycjonowanie strony geodety: podstrony pod mapę do celów projektowych, tyczenie i inwentaryzację, terminy i ceny, widoczność w ChatGPT i Perplexity.",
+      "SEO firmy geodezyjnej: podstrony pod mapę do celów projektowych, tyczenie i inwentaryzację, terminy i ceny, pozycjonowanie lokalne i AI SEO w ChatGPT.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podstrona na każde opracowanie", "Cytowania w ChatGPT i Perplexity", "Audyt 1000 zł"],
-  heroPhonePoints: ["Mapa do celów projektowych", "Tyczenie przed startem budowy", "Inwentaryzacja powykonawcza", "Wymieniany przez ChatGPT"],
+  heroChips: ["Podstrona na każde opracowanie", "AI SEO: ChatGPT i Perplexity", "Audyt 1000 zł"],
+  heroPhonePoints: ["Mapa do celów projektowych", "Tyczenie przed startem budowy", "Inwentaryzacja powykonawcza", "Wymienia was ChatGPT"],
   offers: [
-    { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy geodezyjnej: frazy, podstrony opracowań, wizytówka Google i widoczność w AI", price: 1000, currency: "PLN", unit: "one-off" },
-    { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO dla geodety: podstrony opracowań i powiatów, dane strukturalne, formularz zapytania", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
+    { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy geodezyjnej: frazy, podstrony opracowań, wizytówka Google, widoczność w AI", price: 1000, currency: "PLN", unit: "one-off" },
+    { _key: "offer2", _type: "offer", name: "Jednorazowe prace SEO: podstrony opracowań i powiatów, dane strukturalne, formularz, przygotowanie pod odpowiedzi AI", price: 1000, maxPrice: 3000, currency: "PLN", unit: "one-off" },
     { _key: "offer3", _type: "offer", name: "Stałe pozycjonowanie strony firmy geodezyjnej", price: 3500, currency: "PLN", unit: "month" },
   ],
   contentBlocks: [
@@ -44,23 +45,23 @@ export const landSurveyorSeoPl = {
       _type: "offerListBlock",
       _key: k("b"),
       eyebrow: "Zakres prac",
-      title: "Pozycjonowanie strony geodety: z czego składa się ta praca",
+      title: "Pozycjonowanie strony geodety: co wchodzi w pracę",
       items: [
-        { _key: k("o"), iconName: "file-text", title: "Podstrona na każde opracowanie", text: "Mapa do celów projektowych, tyczenie, inwentaryzacja, podziały" },
-        { _key: k("o"), iconName: "map-pin", title: "Podstrony pod powiaty i ośrodki", text: "Lokalne zasady, opłaty i realne terminy" },
-        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i Perplexity", text: "Tam najpierw pada pytanie, jaki dokument jest potrzebny" },
-        { _key: k("o"), iconName: "gauge", title: "Termin i widełki cenowe na stronie", text: "Dwa pytania, od których zaczyna się każda rozmowa" },
-        { _key: k("o"), iconName: "search", title: "Wyszukiwanie lokalne i wizytówka", text: "Powiaty, w których realnie pracujecie" },
-        { _key: k("o"), iconName: "target", title: "Podstrony pisane dla wykonawców", text: "Tyczenie i obsługa budowy to zlecenia powtarzalne" },
+        { _key: k("o"), iconName: "file-text", title: "Podstrona na każde opracowanie", text: "Mapa do celów projektowych, tyczenie, inwentaryzacja" },
+        { _key: k("o"), iconName: "map-pin", title: "Podstrony pod powiaty i ośrodki", text: "Terminy weryfikacji i opłaty tam, gdzie składacie" },
+        { _key: k("o"), iconName: "sparkles", title: "AI SEO: ChatGPT, Perplexity, Gemini", text: "Tam pada pytanie, jaka mapa jest potrzebna" },
+        { _key: k("o"), iconName: "gauge", title: "Termin i cena na widocznym miejscu", text: "Dwa pytania, od których zaczyna się rozmowa" },
+        { _key: k("o"), iconName: "search", title: "Pozycjonowanie lokalne i wizytówka", text: "Powiaty, w których naprawdę pracujecie" },
+        { _key: k("o"), iconName: "target", title: "Osobna podstrona dla wykonawców", text: "Tyczenie daje zlecenia powtarzalne" },
       ],
     },
     {
       _type: "portfolioPickBlock",
       _key: k("b"),
       eyebrow: "Portfolio",
-      title: "Portfolio: usługi techniczne sprzedawane klientom, którzy nie ocenią pracy sami",
+      title: "Portfolio: usługi techniczne, których klient sam nie oceni",
       subtitle:
-        "Co łączy te realizacje z firmą geodezyjną: klient nie jest w stanie ocenić efektu, zapytanie przychodzi z konkretnego adresu albo obiektu, a wzrost dała struktura i treść, nie kupione linki. Firma skanowania laserowego 3D i BIM z dwudziestodziewięciokrotnym wzrostem ruchu, dostawca internetu sprawdzany adres po adresie, wielojęzyczna platforma nieruchomości, warsztat przyjmujący zlecenia pojedynczo i serwis samochodowy z tym samym schematem zapytań.",
+        "Wspólne z geodezją: klient nie oceni efektu, zapytanie jest przypisane do adresu, a wzrost dała struktura i treść, nie kupione linki. Firma skanowania laserowego 3D i BIM — ruch z wyszukiwarki wzrósł dwudziestodziewięciokrotnie. Dostawca internetu sprawdzany adres po adresie. Platforma nieruchomości z tysiącami obiektów. Warsztat i serwis samochodowy z tym samym schematem zapytań.",
       picks: [
         "architecture-website-rebuild-and-seo-scan",
         "web-development-a-website-for-internet-prowider",
@@ -74,26 +75,29 @@ export const landSurveyorSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Pozycjonowanie strony geodety zaczyna się od dokumentu, który kazano klientowi dostarczyć"),
-        p("Nikt nie budzi się z potrzebą pomiaru geodezyjnego. Zlecenie pojawia się dlatego, że ktoś inny zażądał dokumentu: projektant przed złożeniem wniosku, kierownik budowy przed wytyczeniem, urząd przed odbiorem, sąsiad w sporze o płot. Zanim klient trafi do wyszukiwarki, nie szuka zawodu — powtarza frazę z pisma, którego do końca nie rozumie."),
-        p("Dlatego w tej branży szuka się nazw opracowań, a nie nazwy zawodu. Ludzie wpisują «mapa do celów projektowych», «tyczenie budynku», «inwentaryzacja powykonawcza», «wznowienie granic» — słowa podane im przez projektanta albo urzędnika. Strona zbudowana jako Usługi, O nas, Kontakt nie odpowiada na żadne z nich, bo jedna podstrona o nazwie Usługi wymienia wszystkie opracowania i nie wyjaśnia żadnego."),
-        p("Praca zaczyna się więc od zamiany każdego opracowania, które faktycznie wykonujecie, w osobną podstronę: czym jest, kto go zwykle żąda, ile kosztuje, ile trwa i co klient dostaje na końcu. Ta jedna zmiana daje firmie geodezyjnej więcej niż dowolna ilość tekstu o dokładności i doświadczeniu, bo dopasowuje podstronę do zdania, które klient usłyszał."),
-        li("jedna podstrona na jedno opracowanie, nazwana dokładnie tak, jak nazywa je urząd i projektant;"),
-        li("napisane, kto zwykle go wymaga — projektant, kierownik budowy, bank, sąd;"),
-        li("pokazany gotowy dokument, a nie zdjęcie statywu z banku zdjęć;"),
-        li("termin w dniach roboczych i widełki cenowe wraz z warunkami;"),
-        li("i bez opracowań, które bierzecie niechętnie — przynoszą zapytania, których nie lubicie."),
+        h2("SEO dla firmy geodezyjnej zaczyna się od dokumentu, który kazano klientowi dostarczyć"),
+        p("Pomiaru nikt nie chce. Pomiar jest wymagany. Przez projektanta przed wnioskiem. Przez urząd przed odbiorem. Przez kierownika budowy przed wytyczeniem. Przez sąsiada, z którym trwa spór o płot."),
+        p("Dlatego do wyszukiwarki nie trafia słowo „geodeta”. Trafia nazwa dokumentu z pisma, które klient dostał. „Mapa do celów projektowych”. „Tyczenie budynku”. „Inwentaryzacja powykonawcza”. „Wznowienie granic”."),
+        p("Strona z jedną podstroną „Usługi” na te zapytania nie odpowiada. Wymienia wszystkie opracowania i nie tłumaczy żadnego."),
+        p("Pierwsze, co robię, to rozdzielam opracowania na osobne podstrony. Na każdej: czym jest ten dokument, kto go wymaga, ile kosztuje, ile trwa, co klient dostaje do ręki. To daje więcej niż akapity o dokładności i doświadczeniu."),
+        li("jedna podstrona to jedno opracowanie, nazwane tak, jak nazywa je projektant;"),
+        li("od razu napisane, kto go zwykle wymaga: urząd, bank, wykonawca, sąd;"),
+        li("pokazany gotowy dokument, a nie zdjęcie statywu;"),
+        li("termin w dniach roboczych i widełki cenowe z warunkami;"),
+        li("opracowania, które bierzecie niechętnie, nie trafiają na stronę — inaczej właśnie one będą przychodzić."),
 
-        h2("Podstrony pod rodzaje opracowań: mapa do celów projektowych, tyczenie, inwentaryzacja powykonawcza"),
-        p("Zmierzony popyt siedzi na nazwach opracowań i na samym zawodzie, nie na marketingowych frazach: «geodeta» to 14 800 wyszukiwań miesięcznie, «usługi geodezyjne» 1 900, «pomiary geodezyjne» i «inwentaryzacja powykonawcza» po 320. Za każdą z tych fraz stoi inny klient z innym terminem, a podstrona próbująca obsłużyć wszystkich naraz nie obsługuje nikogo."),
-        p("Mapę do celów projektowych zamawia projektant albo inwestor przed wnioskiem i pyta o termin oraz o to, czy opracowanie obejmie przyłącza. Tyczenie zamawia kierownik budowy, który bez niego nie ruszy, i liczy się dla niego wyłącznie to, jak szybko przyjedziecie. Wznowienie granic zamawia właściciel w trakcie sporu i pyta, co geodeta może rozstrzygnąć, a czego nie. To są różne dokumenty dla różnych ludzi i podstrony powinny tak właśnie brzmieć."),
-        p("Tu też wchodzą odpowiedzi AI, wcześniej niż większość firm się spodziewa. «Jaka mapa jest potrzebna do pozwolenia na budowę» albo «różnica między wznowieniem granic a rozgraniczeniem» to pytania zadawane dziś ChatGPT i Perplexity, zanim ktokolwiek otworzy wyszukiwarkę. Asystent odpowiada z podstron, które tłumaczą dokument prostym językiem, i wymienia przy tym nazwy firm. Serwis, który tylko wylicza usługi, nie zostaje wymieniony wcale."),
+        h2("Podstrony SEO pod rodzaje opracowań: mapa do celów projektowych, tyczenie, inwentaryzacja"),
+        p("Każde opracowanie ma innego klienta i inny termin."),
+        p("Mapę do celów projektowych zamawia projektant. Interesuje go, czy w opracowaniu znajdą się przyłącza. Wznowienie granic zamawia właściciel w trakcie sporu. Interesuje go, co wolno rozstrzygnąć geodecie, a co tylko sądowi. Inwentaryzacja powykonawcza jest potrzebna do odbioru. Tam liczy się jedno pytanie: jak szybko."),
+        p("Jedna podstrona dla całej trójki nie zadziała. Każdy potrzebuje własnego tekstu."),
+        p("Pomiar popytu to potwierdza: „geodeta” to 14 800 wyszukiwań miesięcznie, „usługi geodezyjne” 1 900, „inwentaryzacja powykonawcza” 320. Ludzie szukają zawodu i nazw opracowań, nie haseł marketingowych."),
 
-        h2("Podstrony pod powiaty i ośrodki dokumentacji: lokalne zasady zmieniają termin i cenę"),
-        p("Geodezja jest obsługiwana powiatowo, a praktyka różni się przy każdej granicy: co przyjmuje ośrodek dokumentacji, ile trwa weryfikacja operatu, jakie są opłaty, jak długo czeka się na materiały po zgłoszeniu pracy geodezyjnej. Klient odczuwa to jako chaos — wycena z sąsiedniego powiatu nie zgadza się z tą u siebie — a podstrona tłumacząca lokalną procedurę odpowiada na pytanie, na które nikt inny nie odpowiada."),
-        p("Ważniejsze od samego pomysłu jest ograniczenie. Podstrona dla każdego z trzystu osiemdziesięciu powiatów, zrobiona przez podmianę nazwy w szablonie, to podręcznikowa definicja treści ubogiej i tak zostanie potraktowana. Warto pisać te powiaty, w których naprawdę składaliście operaty i możecie powiedzieć, ile trwa weryfikacja i ile kosztują materiały — zwykle od trzech do kilkunastu podstron, nie kilkaset."),
+        h2("Podstrony pod powiaty i ośrodki dokumentacji: terminy weryfikacji i opłaty na miejscu"),
+        p("W każdym powiecie jest inaczej: co przyjmuje ośrodek, ile trwa weryfikacja operatu, ile kosztują materiały po zgłoszeniu pracy geodezyjnej. Klient widzi rozrzut cen i nie rozumie, skąd się bierze."),
+        p("Podstrona, która to tłumaczy, odpowiada na pytanie, na które nie odpowiada nikt."),
+        p("Trzeba się przy tym powstrzymać. Kilkaset podstron z szablonu i podmienioną nazwą powiatu to treść uboga i tak zostanie oceniona. Piszemy powiaty, w których naprawdę składaliście operaty: od trzech do kilkunastu podstron."),
 
-        h3("Rodzaj opracowania, zdarzenie, które je wymusiło, i podstrona, która łapie to wyszukiwanie"),
+        h3("Rodzaj opracowania, zdarzenie, które je wymusiło, i podstrona, która łapie wyszukiwanie"),
       ],
     },
     {
@@ -101,12 +105,12 @@ export const landSurveyorSeoPl = {
       _key: k("b"),
       columns: ["Opracowanie", "Co wymusiło zlecenie", "Podstrona, która łapie wyszukiwanie"],
       rows: [
-        { _type: "tableRow", _key: k("r"), cells: ["Mapa do celów projektowych", "Projekt i wniosek o pozwolenie na budowę", "Zakres opracowania, przyłącza i realny termin w waszym ośrodku"] },
-        { _type: "tableRow", _key: k("r"), cells: ["Tyczenie budynku i obsługa budowy", "Kierownik budowy nie może ruszyć z pracami", "Podstrona pisana dla wykonawcy: terminy, ponowne tyczenie, kto za nie płaci"] },
-        { _type: "tableRow", _key: k("r"), cells: ["Inwentaryzacja powykonawcza", "Odbiór budynku i przyłączenie mediów", "Co wchodzi w operat, ile trwa weryfikacja, co dostaje inwestor"] },
-        { _type: "tableRow", _key: k("r"), cells: ["Wznowienie granic i rozgraniczenie", "Płot, zajęcie terenu, spór z sąsiadem", "Co geodeta rozstrzyga, a co wymaga sądu i czym są znaki graniczne"] },
-        { _type: "tableRow", _key: k("r"), cells: ["Podział nieruchomości", "Sprzedaż części działki albo podział majątku", "Przebieg procedury, udział gminy i czas całej sprawy"] },
-        { _type: "tableRow", _key: k("r"), cells: ["Mapa do celów prawnych", "Sprawa w sądzie, u notariusza albo w księdze wieczystej", "Do czego służy, czym różni się od zwykłej mapy i co zawiera"] },
+        { _type: "tableRow", _key: k("r"), cells: ["Mapa do celów projektowych", "Projekt i wniosek o pozwolenie na budowę", "Zakres opracowania, przyłącza, realny termin w waszym ośrodku"] },
+        { _type: "tableRow", _key: k("r"), cells: ["Tyczenie i obsługa budowy", "Kierownik budowy nie może ruszyć", "Podstrona dla wykonawcy: terminy, ponowne tyczenie, kto płaci"] },
+        { _type: "tableRow", _key: k("r"), cells: ["Inwentaryzacja powykonawcza", "Odbiór budynku, przyłączenie mediów", "Co wchodzi w operat, ile trwa weryfikacja, co dostaje inwestor"] },
+        { _type: "tableRow", _key: k("r"), cells: ["Wznowienie granic i rozgraniczenie", "Płot, zajęty teren, spór z sąsiadem", "Co rozstrzyga geodeta, co sąd, czym są znaki graniczne"] },
+        { _type: "tableRow", _key: k("r"), cells: ["Podział nieruchomości", "Sprzedaż części działki, podział majątku", "Przebieg procedury, udział gminy, czas całej sprawy"] },
+        { _type: "tableRow", _key: k("r"), cells: ["Mapa do celów prawnych", "Sprawa w sądzie, u notariusza, księga wieczysta", "Do czego służy, czym różni się od zwykłej mapy, co zawiera"] },
       ],
     },
     {
@@ -114,50 +118,63 @@ export const landSurveyorSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("ChatGPT, Perplexity i AI Overviews jako źródło zleceń geodezyjnych"),
-        p("Inwestor, któremu kazano dostarczyć mapę, zwykle nie wie jaką, a to jest dokładnie ten rodzaj pytania, które dziś zadaje się asystentowi, a nie wyszukiwarce. Asystent odpowiada zdaniami, często wymienia dwie, trzy firmy, a klient dzwoni do jednej z nich, nie zobaczywszy ani razu listy wyników. Dla branży, w której klient zaczyna od niewiedzy, ten kanał znaczy więcej niż gdzie indziej."),
-        p("O tym, czy firma geodezyjna znajdzie się wśród wymienionych, decydują trzy rzeczy. Pierwsza to tekst, który asystent jest w stanie przeczytać: strony geodezyjne chowają wszystko w PDF-ach, skanach i przykładowych operatach, a wyjaśnienie zamknięte w załączniku dla tych systemów nie istnieje. Druga to liczby warte zacytowania — termin w dniach roboczych, widełki cenowe, obszar działania podany powiatami — bo asystent woli źródło, które do czegoś się zobowiązuje. Trzecia to zgodność źródeł: ta sama nazwa firmy, te same uprawnienia, te same usługi i ten sam telefon na stronie, w wizytówce i w katalogach, bo sprzeczności to najszybsza droga do pominięcia."),
-        p("To samo dzieje się wewnątrz Google, gdzie AI Overviews odpowiadają na pytanie o rodzaj mapy ponad linkami. Cytowana jest tam rzadko największa firma w województwie — zwykle ta, która wytłumaczyła dokument prostymi słowami na podstronie możliwej do przeczytania od początku do końca."),
+        h2("AI SEO dla firmy geodezyjnej: ChatGPT, Perplexity, Gemini i AI Overviews"),
+        p("Inwestorowi kazano zrobić mapę. Jaką — nie wie. To pytanie coraz częściej trafia nie do wyszukiwarki, tylko do asystenta."),
+        p("Asystent odpowiada zdaniami i wymienia dwie, trzy firmy. Klient dzwoni do jednej z nich i nigdy nie widzi listy wyników. W branży, w której klient zaczyna od niewiedzy, ten kanał waży więcej niż gdzie indziej."),
+        p("O tym, czy znajdziecie się w odpowiedzi, decydują trzy rzeczy."),
+        li("Tekst, który maszyna może przeczytać. Strony geodezyjne chowają wszystko w PDF-ach i skanach. Dla asystenta tej treści nie ma."),
+        li("Liczby do zacytowania: termin w dniach roboczych, widełki cenowe, powiaty wypisane z nazwy. Źródła bez konkretów się nie cytuje."),
+        li("Zgodność danych. Nazwa, telefon, zakres prac i powiaty muszą się zgadzać na stronie, w wizytówce i w katalogach. Rozbieżność oznacza pominięcie."),
+        p("W samym Google działa to tak samo. Blok AI Overviews odpowiada na pytanie o rodzaj mapy nad linkami. Cytowana jest nie największa firma w województwie, tylko ta, która wytłumaczyła dokument prostymi słowami."),
+
+        h3("GEO, AEO i LLM SEO: co się za tym kryje i co z tego robi się ręcznie"),
+        p("Generative engine optimization (GEO) i answer engine optimization (AEO) to praca nad tym, żeby wasza nazwa padła w wygenerowanej odpowiedzi, a nie tylko w liście linków. LLM SEO to to samo w odniesieniu do modeli językowych."),
+        p("W praktyce to nie magia, tylko pięć, sześć konkretnych poprawek: wyjąć tekst z PDF-ów, dodać dane strukturalne firmy i usług, wstawić liczby do treści, uzgodnić dane na wszystkich platformach, napisać podstrony pod pytania zadawane na głos."),
         p(
-          "Doprowadzenie istniejącego serwisu do tego stanu to ",
-          link("przygotowanie strony pod wyszukiwanie AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),
-          ", a kiedy asystenci opisują firmę błędnie — powiat, w którym już nie pracujecie, usługa porzucona dwa lata temu — to ",
-          link("naprawa błędnych informacji w AI", "/pl/oferty/poprawa-blednych-danych-w-ai"),
+          "Doprowadzenie serwisu do tego stanu to ",
+          link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),
+          ". Sprawdzenie, co asystenci mówią o was teraz, to ",
+          link("audyt widoczności w AI", "/pl/oferty/audyt-widocznosci-w-ai"),
           ".",
         ),
 
         h2("Termin i widełki cenowe na stronie: dwa pytania, od których zaczyna się każde zapytanie"),
-        p("Każde zapytanie w tej branży zaczyna się tak samo: ile to kosztuje i na kiedy. Większość stron geodezyjnych nie odpowiada na żadne z nich, i to z sensownego powodu — jedno i drugie zależy od działki. Skutek jest taki, że klient dzwoni do czterech firm, a zlecenie bierze ta, która odpowiedziała pierwsza: zwykle ta, która podała widełki na stronie, a nie ta, która zażądała oględzin przed jakąkolwiek rozmową."),
-        p("Widełki z warunkami działają odwrotnie, niż firmy się obawiają. Do niczego nie zobowiązują — filtrują. Podstrona mówiąca, że wznowienie granic działki budowlanej w tym powiecie mieści się zwykle w podanym przedziale, trwa podaną liczbę dni roboczych i drożeje przy złych materiałach albo zadrzewionym terenie, odcina telefony o zleceniach, których nie chcecie, i przyciąga te, które chcecie."),
+        p("Każde zapytanie zaczyna się tak samo: ile to kosztuje i na kiedy. Większość stron nie odpowiada na żadne z nich."),
+        p("Powód jest sensowny: wszystko zależy od działki. Skutek też jest przewidywalny. Klient dzwoni do czterech firm, a zlecenie bierze ta, która odpowiedziała pierwsza."),
+        p("Widełki z warunkami do niczego was nie zobowiązują. One filtrują. Napiszcie: wznowienie granic działki budowlanej w tym powiecie mieści się w takim przedziale, trwa tyle dni roboczych, drożeje przy złych materiałach i zadrzewionym terenie. Telefony „a ile najtaniej” się skończą."),
 
         h3("Spory o granice: zapytania, które rodzi kłótnia z sąsiadem"),
-        p("Sprawy graniczne trafiają do was w określonym stanie emocjonalnym i widać to w wyszukiwaniach: ludzie szukają, czy sąsiad może przesunąć płot, czym są znaki graniczne, kto płaci, gdy granica okaże się nie tam, gdzie stoi ogrodzenie. To nie są zapytania o cenę, a podstrona, która na nie odpowiada, zbiera czytelnika na długo przed zleceniem — czyli dokładnie wtedy, gdy firma geodezyjna zarabia zaufanie, bo alternatywnym źródłem jest wątek na forum pełen pewnych siebie nieznajomych."),
-        p("Działa tu podstrona, która mówi wprost, gdzie pomiar kończy sprawę, a gdzie jej nie kończy, i że geodeta ustala przebieg granicy, a spór o nią rozstrzyga sąd. Napisanie tego nic nie kosztuje, a przynosi telefon, bo tej różnicy właściciel nie usłyszał od nikogo."),
+        p("Ci klienci przychodzą na emocjach. Szukają: czy sąsiad może przesunąć płot, czym są znaki graniczne, kto płaci, gdy granica jest gdzie indziej niż ogrodzenie."),
+        p("To nie są zapytania o cenę. Podstrona, która na nie odpowiada, zabiera czytelnika na długo przed zleceniem. Alternatywą dla niego jest wątek na forum."),
+        p("Napiszcie wprost, gdzie pomiar kończy sprawę, a gdzie nie. Geodeta ustala przebieg granicy, spór rozstrzyga sąd. To zdanie nic nie kosztuje i przynosi telefon."),
 
-        h3("Tyczenie i obsługa budowy: zlecenia powtarzalne od wykonawców, nie jednorazowe od właścicieli"),
-        p("Każde inne opracowanie z tej listy kupuje się raz w życiu. Z tyczeniem jest inaczej: wykonawca, który zaufał ekipie, dzwoni do niej na każdej budowie, a wartość takiego kontaktu jest wielokrotnością pojedynczego zlecenia od właściciela działki. Podstrona o tyczeniu powinna więc być pisana do kierownika budowy, a nie do inwestora — o dopasowaniu do harmonogramu, o tym, jak szybko wracacie po zmianie projektu, kto płaci za ponowne tyczenie i co robicie na budowie, która ruszyła przed waszym przyjazdem."),
+        h3("Tyczenie i obsługa budowy: zlecenia powtarzalne od wykonawców"),
+        p("Pozostałe opracowania kupuje się raz w życiu. Tyczenie nie. Kierownik budowy, który wam zaufał, dzwoni przy każdej inwestycji."),
+        p("Dlatego ta podstrona jest pisana do wykonawcy, nie do inwestora. Harmonogram. Jak szybko wracacie po zmianie projektu. Kto płaci za ponowne tyczenie. Co robicie na budowie, która ruszyła przed waszym przyjazdem."),
 
-        h2("Wyszukiwanie lokalne i wizytówka Google firmy geodezyjnej"),
-        p("Firma geodezyjna działa w terenie: ekipa jeździ, klient prawie nigdy nie przychodzi do biura. Wizytówka powinna więc podawać powiaty, a nie promień wokół pinezki, zawierać numer uprawnień i zbierać opinie od tych, którzy realnie polecają tę pracę — projektantów, kierowników budowy, biur nieruchomości i notariuszy — bo opinia w formie polecenia czyta się jako dowód dla kogoś, kto sam operatu nie oceni."),
-        p("Te same dane z wizytówki zasilają asystentów opisanych wyżej. Kiedy obszar działania na stronie, powiaty w wizytówce i opis w katalogu nie zgadzają się ze sobą, firma po cichu wypada i z map, i z odpowiedzi AI."),
+        h2("Pozycjonowanie lokalne i wizytówka Google firmy geodezyjnej"),
+        p("Pracujecie w terenie. Klient do biura nie przychodzi."),
+        p("Wizytówka powinna więc podawać powiaty, a nie promień wokół pinezki. Do tego numer uprawnień. Opinie zbieracie u tych, którzy was polecają: projektantów, kierowników budowy, biur nieruchomości, notariuszy. Taka opinia działa jak dowód dla kogoś, kto operatu sam nie oceni."),
+        p("Te same dane czytają asystenci. Jeśli powiaty na stronie i w wizytówce się rozjeżdżają, wypadacie i z map, i z odpowiedzi AI."),
 
-        h2("Szybkość strony i formularz z adresem działki w serwisie geodezyjnym"),
-        p("Formularz na większości stron geodezyjnych pyta o imię, e-mail i wiadomość, co gwarantuje odpowiedź w stylu «proszę podać adres działki». Formularz, który oszczędza dzień, pyta o numer działki i obręb, o termin oraz o to, kto zażądał opracowania — projektant, urząd, bank — bo te trzy odpowiedzi rozstrzygają, czy zlecenie jest wasze i ile kosztuje."),
-        p("Szybkość ma tu powód specyficzny dla branży: serwisy są ciężkie od skanów map i przykładowych operatów, a otwierają je często ludzie stojący w terenie z jedną kreską zasięgu. Strona ładująca się dziewięć sekund na telefonie traci zapytanie, które było już w rękach."),
+        h2("Szybkość strony i formularz z numerem działki"),
+        p("Zwykły formularz pyta o imię, e-mail i wiadomość. Odpowiedź na niego jest zawsze ta sama: „proszę podać adres działki”."),
+        p("Formularz, który oszczędza dzień, pyta o numer działki i obręb, o termin i o to, kto zażądał opracowania. Te trzy odpowiedzi rozstrzygają, czy to wasze zlecenie."),
+        p("O szybkości. Wasze strony są ciężkie: skany map, przykładowe operaty. Otwierają je ludzie stojący w terenie z jedną kreską zasięgu. Dziewięć sekund ładowania to zapytanie, którego nie będzie."),
       ],
     },
     {
       _type: "quoteFormBlock",
       _key: k("b"),
       title: "Audyt SEO strony firmy geodezyjnej",
-      subtitle: "Prześlij adres strony, a w ciągu jednego dnia roboczego odpiszę, co ją blokuje i od czego bym zaczął.",
+      subtitle: "Prześlij adres strony. Odpiszę w ciągu jednego dnia roboczego: co ją blokuje i od czego zacząć.",
       contextLabel: "Firma albo adres strony",
       contextPlaceholder: "Link albo nazwa",
       buttonText: "Wyślij i odbierz audyt",
       note: "Możesz też napisać na WhatsAppie — odpowiadam równie szybko.",
       formVariant: "auto",
       quizQuestions: [
-        { _key: k("z"), question: "Jakich zleceń chcesz więcej?", options: ["Mapy do celów projektowych", "Tyczenia i obsługi budowy", "Inwentaryzacji powykonawczych", "Granic i podziałów"] },
+        { _key: k("z"), question: "Jakich zleceń chcesz więcej?", options: ["Map do celów projektowych", "Tyczenia i obsługi budowy", "Inwentaryzacji powykonawczych", "Granic i podziałów"] },
         { _key: k("z"), question: "Skąd przychodzą zlecenia teraz?", options: ["Od projektantów i wykonawców", "Z polecenia", "Z katalogów i ogłoszeń", "Wyszukiwarka już trochę działa"] },
         { _key: k("z"), question: "Co jest dziś na stronie?", options: ["Jedna podstrona z usługami", "Podstrona na każdą usługę", "Głównie PDF-y i przykłady", "Nie wiem"] },
       ],
@@ -169,15 +186,16 @@ export const landSurveyorSeoPl = {
       faq: {
         _type: "accordionBlock",
         items: [
-          ["Ile kosztuje pozycjonowanie strony firmy geodezyjnej?", "Audyt 1000 zł, prace jednorazowe 1000–3000 zł w zależności od zakresu, stała praca 3500 zł miesięcznie. O kwocie decyduje liczba opracowań, pod które chcecie mieć podstrony, liczba powiatów, w których realnie składacie operaty, i to, czy obecna strona w ogóle pozwala dodawać podstrony i edytować adresy."],
-          ["Czy klient naprawdę znajdzie mnie przez ChatGPT albo Perplexity?", "Tak, i w tej branży wcześniej niż w innych, bo klient zaczyna od pytania, jaki dokument jest mu potrzebny. Asystent odpowiada z czytelnego tekstu i wymienia firmy, których podstrony tłumaczą opracowanie i podają konkretne liczby. Serwis, którego wyjaśnienia siedzą w PDF-ach, jest dla niego niewidoczny — i to jest zwykle powód, dla którego firma nie pada w odpowiedzi."],
-          ["Pracujemy dokładniej od firmy, która jest nade mną w wynikach. Dlaczego ona jest pierwsza?", "Bo dokładność jest dla wyszukiwarki niewidoczna. Czyta tekst, a konkurencja, która napisała dwa zrozumiałe akapity o tym, co zawiera mapa do celów projektowych, odpowiedziała na pytanie zostawione przez was bez odpowiedzi. Tę różnicę zasypuje się pisaniem, nie lepszym sprzętem."],
-          ["Czy potrzebuję podstrony na każdy powiat?", "Nie, a zbudowanie ich kilkuset z szablonu wręcz szkodzi — to treść uboga i tak zostanie oceniona. Warto opisać powiaty, w których faktycznie składaliście operaty i możecie powiedzieć, ile trwa weryfikacja i ile kosztują materiały. Zwykle wychodzi od trzech do kilkunastu podstron."],
-          ["Czy podawać ceny, skoro każda działka jest inna?", "Podawajcie widełki z warunkami, a nie jedną kwotę. Do niczego nie zobowiązują, a filtrują zapytania: klienci, których na to nie stać, przestają dzwonić, a ci, którzy mieli obdzwonić cztery firmy, zatrzymują się na tej, która odpowiedziała."],
-          ["Co zrobić z zapytaniami spoza naszego profilu?", "Ułożyć podstrony tak, żeby przychodziły rzadziej. Większość niechcianych zapytań bierze się z jednej podstrony o usługach, która sugeruje, że robicie wszystko; kiedy każde opracowanie dostaje własną podstronę z opisem, dla kogo jest, niedopasowane telefony znikają same."],
-          ["Po jakim czasie to widać w zleceniach?", "Pierwsze ruchy po około sześciu tygodniach, realny wzrost w horyzoncie trzech do sześciu miesięcy. Tyczenie i obsługa budowy potrafią ruszyć szybciej, bo wykonawca, który znalazł was raz, dzwoni potem bez szukania."],
-          ["Czy gwarantujesz pozycję?", "Nie, i nikt nie może — o kolejności decyduje system, nad którym żadne z nas nie panuje. Mogę powiedzieć, co zostanie zmienione, w jakiej kolejności i co mierzymy po miesiącu oraz po trzech."],
-          ["Kto pisze podstrony o opracowaniach?", "Ja piszę szkic, wy poprawiacie. To, co czyni taką podstronę wartą przeczytania — jak naprawdę pracuje wasz ośrodek dokumentacji, dlaczego jedno zlecenie się przeciąga, czego nie podpisujecie — istnieje tylko wewnątrz firmy i żadne zewnętrzne poszukiwania tego nie zastąpią."],
+          ["Ile kosztuje pozycjonowanie strony firmy geodezyjnej?", "Audyt 1000 zł. Prace jednorazowe 1000–3000 zł w zależności od zakresu. Stała praca 3500 zł miesięcznie. O kwocie decyduje liczba opracowań na osobnych podstronach, liczba powiatów i to, czy obecna strona pozwala dodawać podstrony."],
+          ["Czy klient naprawdę znajdzie mnie przez ChatGPT albo Perplexity?", "Tak, i w geodezji wcześniej niż w innych branżach. Klient zaczyna od pytania, jaki dokument jest mu potrzebny. Asystent odpowiada z tekstu, który potrafi przeczytać, i wymienia firmy z konkretnymi liczbami na stronie. Jeśli wasze wyjaśnienia siedzą w PDF-ach, nie zostaniecie wymienieni."],
+          ["Co to jest GEO i AEO po ludzku?", "Generative engine optimization i answer engine optimization to praca nad tym, żeby wasza nazwa padała w gotowej odpowiedzi asystenta, a nie tylko na liście linków. Robi się to zwykłymi rzeczami: tekst zamiast PDF, dane strukturalne, liczby w treści, zgodność danych na wszystkich platformach."],
+          ["Pracujemy dokładniej od firmy, która jest nade mną. Dlaczego ona jest pierwsza?", "Dokładności wyszukiwarka nie widzi. Czyta tekst. Konkurencja napisała dwa zrozumiałe akapity o mapie do celów projektowych i odpowiedziała na pytanie, które wy zostawiliście bez odpowiedzi. Tę różnicę zasypuje się pisaniem."],
+          ["Czy potrzebuję podstrony na każdy powiat?", "Nie. Kilkaset podstron z szablonu szkodzi, bo to treść uboga. Piszemy powiaty, w których składaliście operaty i możecie podać czas weryfikacji oraz koszt materiałów. Zwykle od trzech do kilkunastu."],
+          ["Czy podawać ceny, skoro każda działka jest inna?", "Podawajcie widełki z warunkami, nie jedną kwotę. Do niczego nie zobowiązują, a odcinają tych, których nie stać, i zatrzymują tych, którzy mieli obdzwonić cztery firmy."],
+          ["Co zrobić z zapytaniami spoza profilu?", "Przebudować podstrony. Takie zapytania biorą się z jednej podstrony o usługach, która sugeruje, że robicie wszystko. Gdy każde opracowanie ma własną podstronę, niedopasowane telefony znikają same."],
+          ["Po jakim czasie widać to w zleceniach?", "Pierwsze ruchy po około sześciu tygodniach. Realny wzrost w trzy do sześciu miesięcy. Tyczenie idzie szybciej: wykonawca, który znalazł was raz, dzwoni potem bez szukania."],
+          ["Gwarantujesz pozycję?", "Nie. O kolejności decyduje system, nad którym nie panuje ani jedno, ani drugie z nas. Mówię, co zostanie zrobione, w jakiej kolejności i co mierzymy po miesiącu oraz po trzech."],
+          ["Kto pisze podstrony o opracowaniach?", "Szkic ja, poprawki wy. Najcenniejsze na takiej podstronie jest to, jak naprawdę działa wasz ośrodek dokumentacji, dlaczego zlecenie się przeciąga i czego nie podpisujecie. Tego z zewnątrz się nie wymyśli."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },
@@ -186,7 +204,8 @@ export const landSurveyorSeoPl = {
       _key: k("b"),
       content: [
         h2("Zamów audyt SEO strony firmy geodezyjnej: co przysłać"),
-        p("Prześlij adres strony, napisz, jakich opracowań chcesz więcej, a jakich wolisz nie brać, i wymień powiaty, w których realnie składacie operaty. W ciągu jednego dnia roboczego odpiszę, co blokuje serwis, ile jego treści siedzi w PDF-ach nieczytelnych ani dla wyszukiwarki, ani dla asystenta, i od czego bym zaczął — łącznie z tym, których podstron nie warto pisać, bo w waszym rejonie nikt ich nie szuka."),
+        p("Prześlij adres strony. Napisz, jakich opracowań chcesz więcej, a jakich wolisz nie brać. Wymień powiaty, w których składacie operaty."),
+        p("W ciągu jednego dnia roboczego odpiszę, co blokuje serwis, ile treści siedzi w PDF-ach nieczytelnych dla wyszukiwarki i dla asystenta, i od czego bym zaczął. Powiem też, których podstron nie warto pisać, bo w waszym rejonie nikt ich nie szuka."),
       ],
     },
   ],

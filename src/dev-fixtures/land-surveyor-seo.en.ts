@@ -86,6 +86,7 @@ export const landSurveyorSeoEn = {
       layout: "guide",
       content: [
         h2("SEO for land surveyors begins with the document the client was told to produce"),
+        p("I do SEO for land surveying companies. The work starts with a list you give me and I turn into pages: the documents clients actually order from you. Then the site answers someone searching for a document, not for a profession."),
         p("Nobody wants a survey. A survey is demanded. By a lender before a closing. By a city before a permit. By a contractor who cannot break ground. By a neighbour in an argument about a fence."),
         p("So the search is not «land surveyor». The search is the name of a document, copied from an email the owner half understands."),
         p("«ALTA survey». «As built survey». «Topographic survey for permit». «Elevation certificate». Those words came from the bank or the planning department."),

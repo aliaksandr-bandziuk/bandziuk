@@ -79,6 +79,7 @@ export const landSurveyorWebsiteEn = {
       layout: "guide",
       content: [
         h2("Website design for land surveyors starts with the enquiry form, not the home page"),
+        p("I build websites for land surveying companies. The work starts with the enquiry you want to receive, and I design the site backwards from it: the form first, then the pages that feed it."),
         p("Most surveying sites open with a photograph of a total station and the word «precision». Then a form asks for a name, an email and a message."),
         p("That form guarantees one reply: «could you tell me the address». A day is gone before anything can be quoted."),
         p("I start from the other end. The form asks for the parcel address or number, the deadline, and who demanded the survey — the lender, the city, the attorney, the builder. Those three answers decide whether the job is yours and what it costs."),

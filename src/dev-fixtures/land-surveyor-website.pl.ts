@@ -72,6 +72,7 @@ export const landSurveyorWebsitePl = {
       layout: "guide",
       content: [
         h2("Tworzenie strony dla geodety zaczyna się od formularza, nie od strony głównej"),
+        p("Buduję strony dla firm geodezyjnych. Praca zaczyna się od zapytania, które chcecie dostawać, i projektuję stronę od niego do tyłu: najpierw formularz, potem podstrony, które go karmią."),
         p("Większość serwisów geodezyjnych otwiera zdjęcie tachimetru i słowo „precyzja”. Potem formularz pyta o imię, e-mail i wiadomość."),
         p("Taki formularz gwarantuje jedną odpowiedź: „proszę podać adres działki”. Dzień przepada, zanim cokolwiek da się wycenić."),
         p("Zaczynam od drugiej strony. Formularz pyta o numer działki i obręb, o termin i o to, kto zażądał opracowania: projektant, urząd, bank, kierownik budowy. Te trzy odpowiedzi rozstrzygają, czy to wasze zlecenie i ile kosztuje."),

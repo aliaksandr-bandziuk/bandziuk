@@ -79,6 +79,7 @@ export const engineeringFirmSeoEn = {
       layout: "guide",
       content: [
         h2("SEO for engineering firms starts with the discipline and the code, not the company name"),
+        p("I do SEO for engineering firms. The work starts with what your firm may sign, and I write that into the site: the disciplines, the codes, the stages. Then the site is found by the discipline, not by the company name."),
         p("Nobody searches for an engineering firm. They search for the thing they were told to produce."),
         p("A permit office asked for a stamped letter. A lender asked for a soils report. An architect needs the systems designed before the drawings go in. The words typed into search are the discipline and the standard, not your name."),
         p("A site organised as Services, Projects, About answers none of that. One page listing six disciplines explains none of them."),

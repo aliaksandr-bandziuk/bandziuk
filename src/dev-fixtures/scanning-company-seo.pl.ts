@@ -72,6 +72,7 @@ export const scanningCompanySeoPl = {
       layout: "guide",
       content: [
         h2("SEO firmy skanowania 3D zaczyna się od efektu, nie od skanera"),
+        p("Zajmuję się SEO firm skanowania 3D i BIM. Praca zaczyna się od plików, które oddajecie klientowi, i każdemu robię własną podstronę. Potem strona jest znajdowana po efekcie, a nie po skanerze."),
         p("Wasz klient ma budynek i nie ma rysunków. Zaczyna się remont. Najemca chce dokładnych powierzchni. Zakład potrzebuje modelu przed modernizacją."),
         p("Nie wpisuje „skanowanie laserowe 3D”. Większość tych ludzi nigdy nie słyszała tego określenia."),
         p("Wpisują to, co chcą dostać: inwentaryzacja budynku, rzut istniejącego obiektu, model BIM, powierzchnie, którym można zaufać."),

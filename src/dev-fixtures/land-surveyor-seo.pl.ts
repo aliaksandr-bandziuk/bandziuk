@@ -76,6 +76,7 @@ export const landSurveyorSeoPl = {
       layout: "guide",
       content: [
         h2("SEO dla firmy geodezyjnej zaczyna się od dokumentu, który kazano klientowi dostarczyć"),
+        p("Zajmuję się SEO firm geodezyjnych. Praca zaczyna się od listy, którą od was dostaję i zamieniam na podstrony: dokumenty, które klienci u was zamawiają. Potem strona odpowiada komuś, kto szuka dokumentu, a nie zawodu."),
         p("Pomiaru nikt nie chce. Pomiar jest wymagany. Przez projektanta przed wnioskiem. Przez urząd przed odbiorem. Przez kierownika budowy przed wytyczeniem. Przez sąsiada, z którym trwa spór o płot."),
         p("Dlatego do wyszukiwarki nie trafia słowo „geodeta”. Trafia nazwa dokumentu z pisma, które klient dostał. „Mapa do celów projektowych”. „Tyczenie budynku”. „Inwentaryzacja powykonawcza”. „Wznowienie granic”."),
         p("Strona z jedną podstroną „Usługi” na te zapytania nie odpowiada. Wymienia wszystkie opracowania i nie tłumaczy żadnego."),

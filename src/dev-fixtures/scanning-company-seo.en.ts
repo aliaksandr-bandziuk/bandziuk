@@ -78,6 +78,7 @@ export const scanningCompanySeoEn = {
       layout: "guide",
       content: [
         h2("SEO for a 3D scanning company starts with the deliverable, not the scanner"),
+        p("I do SEO for 3D scanning and BIM companies. The work starts with the files you hand over, and I give each one its own page. Then the site is found by the result, not by the scanner."),
         p("Your buyer has a building and no drawings. A renovation is starting. A tenant wants exact areas. A plant needs a model before a retrofit."),
         p("They do not type «3D laser scanning». Most of them have never heard the phrase."),
         p("They type what they want to end up with: as-built drawings, a floor plan of an existing building, a BIM model of a site, measured areas they can trust."),

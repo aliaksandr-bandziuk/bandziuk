@@ -74,6 +74,7 @@ export const engineeringFirmSeoPl = {
       layout: "guide",
       content: [
         h2("SEO dla biura projektowego zaczyna się od branży i przepisu, nie od nazwy firmy"),
+        p("Zajmuję się SEO biur projektowych. Praca zaczyna się od tego, co wasze biuro może podpisać, i to wpisuję na stronę: branże, przepisy, etapy. Potem strona jest znajdowana po branży, a nie po nazwie firmy."),
         p("Nikt nie szuka biura projektowego. Szukają tego, co kazano im dostarczyć."),
         p("Urząd zażądał ekspertyzy. Inwestor potrzebuje projektu budowlanego przed wnioskiem. Architekt nie zamknie projektu bez instalacji. W wyszukiwarce ląduje nazwa branży i dokumentu, a nie wasza nazwa."),
         p("Strona zbudowana jako Usługi, Realizacje, O nas nie odpowiada na żadne z tych zapytań. Jedna podstrona z sześcioma branżami nie tłumaczy żadnej."),

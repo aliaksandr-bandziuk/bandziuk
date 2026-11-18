@@ -35,7 +35,7 @@ export const landSurveyorSeoEn = {
   heading:
     "SEO for land surveyors: getting found by the client whose lender, city or closing demanded a survey",
   excerpt:
-    "I do SEO for land surveying companies: pages per survey type and county, turnaround and price where a buyer can see them, local search, and the AI answers that now decide which firm gets named. Nobody wants a survey — somebody was told to produce a document, and the firm that explains that document gets the call. Audit €250, ongoing €800 a month.",
+    "I do SEO for land surveying companies. A page per survey type and per county. Turnaround and price where the buyer can see them. Local SEO, and AI SEO so that ChatGPT, Perplexity and Gemini name you. Nobody wants a survey. Somebody was told to produce a document, and the firm that explains that document gets the call. Audit €250, ongoing €800 a month.",
   seo: {
     metaTitle: "SEO for Land Surveyors — audit from €250",
     metaDescription:
@@ -86,9 +86,11 @@ export const landSurveyorSeoEn = {
       layout: "guide",
       content: [
         h2("SEO for land surveyors begins with the document the client was told to produce"),
-        p("Nobody wakes up wanting a land survey. The order arrives because somebody else demanded a document: a lender before a closing, a city before a permit, a neighbour in an argument about a fence, a contractor who cannot break ground without stakes in the right places. By the time the owner reaches a search engine, they are not looking for a profession — they are repeating a phrase from an email they half understand."),
-        p("That is why the search terms in this trade are document names rather than job titles. People type «ALTA survey», «as built survey», «topographic survey for permit», «elevation certificate» — words handed to them by a bank or a planning department. A site organised as Services, About, Contact answers none of those searches, because the one page called Services mentions every document and explains none of them."),
-        p("The work starts by turning each document you actually produce into its own page: what it is, who typically demands it, what it costs, how long it takes, and what the client receives at the end. That single change does more for a surveying firm than any amount of writing about precision and experience, because it matches the page to the sentence the client was given."),
+        p("Nobody wants a survey. A survey is demanded. By a lender before a closing. By a city before a permit. By a contractor who cannot break ground. By a neighbour in an argument about a fence."),
+        p("So the search is not «land surveyor». The search is the name of a document, copied from an email the owner half understands."),
+        p("«ALTA survey». «As built survey». «Topographic survey for permit». «Elevation certificate». Those words came from the bank or the planning department."),
+        p("A site built as Services, About, Contact answers none of them. One page called Services lists every document and explains none."),
+        p("The first thing I do is split the deliverables onto separate pages. On each one: what the document is, who demands it, what it costs, how long it takes, what you hand over. That beats any number of paragraphs about precision and experience."),
         li("one page per deliverable, named exactly as lenders and planning departments name it;"),
         li("say who usually asks for it — the bank, the city, the attorney, the builder;"),
         li("show what the finished document looks like, not a stock photo of a tripod;"),
@@ -96,13 +98,16 @@ export const landSurveyorSeoEn = {
         li("and leave out the deliverables you take on reluctantly, because they bring the enquiries you dislike."),
 
         h2("SEO pages per survey type: ALTA/NSPS, boundary, topographic, as-built"),
-        p("The measured demand sits on the document names, not on the trade. In the US market «land surveying services» draws 2,400 searches a month, «topographic survey» another 2,400 and «as built survey» 880 — the deliverables together carry more search than the profession does. Each of them is a different buyer with a different deadline, and a page that tries to serve all of them at once serves none."),
-        p("An ALTA/NSPS survey is ordered by a commercial buyer or a lender working through a closing checklist, and the question behind the search is which Table A items are included and whether the schedule can be met. A boundary survey is ordered by a homeowner mid-argument, and the question is what a surveyor can actually settle and what needs a lawyer. A topographic survey is ordered because a design cannot start without contours. The pages are different documents for different people, and they should read that way."),
-        p("This is also where AI answers enter, earlier than most firms expect. «Which survey do I need to refinance» and «difference between a boundary survey and an ALTA survey» are now typed into ChatGPT and Perplexity before any search engine is opened, and the assistant answers from pages that explain the document plainly. A firm whose site lists services gets no mention; the firm that wrote two clear paragraphs about what an ALTA survey contains is the one quoted, with its name attached."),
+        p("Each deliverable has its own buyer and its own deadline."),
+        p("The measured demand backs this up. «Land surveying services» draws 2,400 searches a month. «Topographic survey» another 2,400. «As built survey» 880. Together the documents carry more search than the profession does."),
+        p("An ALTA/NSPS survey is ordered off a lender\u2019s closing checklist. The question is which Table A items are included and whether the schedule holds. A boundary survey is ordered mid-argument. The question is what a surveyor can settle and what needs a lawyer. A topographic survey is ordered because a design cannot start without contours."),
+        p("One page for all three serves none of them. Each needs its own text."),
+        p("AI answers enter here too, earlier than most firms expect. «Which survey do I need to refinance» goes to ChatGPT and Perplexity before any search engine. The assistant answers from pages that explain the document plainly, and names the firm that wrote them."),
 
         h2("Local SEO by county: the rules that change the price and the turnaround"),
-        p("Surveying is licensed by state and recorded by county, and the practical details differ at every line on the map: what the recording office accepts, which monuments are required, what the filing costs, how long the review takes. Clients feel this as confusion — the price they were quoted by a firm two counties away does not match the one they are quoted at home — and a page that explains the local procedure answers a question nobody else is answering."),
-        p("The restraint matters more than the tactic. A page for each of four hundred counties, built by swapping a name in a template, is the textbook definition of a thin page and will be treated as one. Pages are worth writing for the counties where you have actually filed, where you can say what the office is like, what it charges and how long it takes — and that limit is usually between three and a dozen pages, not hundreds."),
+        p("Surveying is licensed by state and recorded by county. Every line on the map changes the details: what the recording office accepts, which monuments are required, what filing costs, how long review takes."),
+        p("The client sees a spread of prices and does not understand why. A page that explains the local procedure answers a question nobody else answers."),
+        p("Restraint matters more than the tactic. Four hundred county pages built from a template are thin pages, and they are treated as such. Write the counties where you have actually filed and can say what the office charges and how long it takes. Usually three to a dozen pages."),
 
         h3("Survey type, the event that triggers it, and the page that catches the search"),
       ],
@@ -146,23 +151,28 @@ export const landSurveyorSeoEn = {
         ),
 
         h2("Turnaround and price range on the page: the two questions every surveying enquiry opens with"),
-        p("Every enquiry in this trade begins the same way: how much, and how soon. Most surveying sites answer neither, on the reasonable ground that both depend on the parcel. The result is that the client calls four firms, and the job goes to whichever one answered the question first — usually the one that published a range on the page rather than the one that insisted on a site visit before discussing anything."),
-        p("A range with its conditions attached does the opposite of what firms fear. It does not commit you to a number; it filters. A page that says a residential boundary survey in this county typically runs within a stated band, takes a stated number of working days, and costs more when the records are poor or the lot is wooded, removes the calls about half-acre jobs you do not want and brings the ones you do."),
+        p("Every enquiry begins the same way: how much, and how soon. Most surveying sites answer neither."),
+        p("The reason is sound: both depend on the parcel. The result is predictable. The client calls four firms, and the job goes to whoever answered first."),
+        p("A range with conditions commits you to nothing. It filters. Say that a residential boundary survey in this county runs within a stated band, takes so many working days, and costs more when the records are poor or the lot is wooded. The bargain-hunting calls stop."),
 
         h3("Boundary disputes: the queries a neighbour argument produces"),
-        p("Boundary work arrives in a particular emotional state, and the searches show it: people look for whether a neighbour can move a fence, what a monument means, who pays when the line turns out to be wrong. These are not price queries, and a page that answers them collects a reader long before they are ready to order — which is exactly when a surveying firm earns the job, because the alternative source is a forum thread full of confident strangers."),
-        p("The page that works here says plainly where a survey settles the matter and where it does not, and that a surveyor establishes the line while a lawyer argues about it. Saying so costs nothing and wins the call, because the owner has been unable to get that distinction from anyone."),
+        p("These clients arrive upset. They search whether a neighbour can move a fence, what a monument means, who pays when the line is wrong."),
+        p("None of that is a price query. A page that answers it collects the reader long before they order. The alternative source is a forum thread full of confident strangers."),
+        p("Say plainly where a survey settles the matter and where it does not. A surveyor establishes the line; a lawyer argues about it. That sentence costs nothing and wins the call."),
 
         h3("Construction staking: repeat work from builders, not one-off orders from owners"),
-        p("Every other deliverable on this list is bought once by someone who will never need it again. Staking is different: a builder who trusts a crew calls that crew on every project, and the enquiry is worth a multiple of a single residential survey. The page for it should therefore be written for a contractor, not a homeowner — scheduling around their sequence, how quickly you can re-stake after a change, who pays for the re-stake, and how you handle a site where the work started before you arrived."),
+        p("Every other deliverable here is bought once. Staking is not. A builder who trusts a crew calls that crew on every project."),
+        p("So the page is written for a contractor, not a homeowner. Scheduling around their sequence. How fast you re-stake after a change. Who pays for it. What you do on a site where work started before you arrived."),
 
         h2("Local SEO and the Google Business Profile of a surveying company"),
-        p("A surveying firm is a service-area business: the crew travels, the client rarely visits the office. The profile should therefore state the counties covered rather than a radius around a pin, carry the licence details, and collect reviews from the people who actually refer this work — attorneys, builders, title companies and architects — because a referral-shaped review reads as evidence to a buyer who cannot judge the survey itself."),
-        p("The same profile data feeds the assistants described above. When the service area on the site, the counties in the profile and the description in a directory disagree, both the map results and the AI answers lose confidence, and the firm quietly drops out of both."),
+        p("The crew travels. The client rarely visits the office."),
+        p("So the profile lists counties, not a radius around a pin. It carries the licence details. Reviews come from the people who refer this work: attorneys, builders, title companies, architects. A referral-shaped review reads as evidence to someone who cannot judge a survey."),
+        p("Assistants read the same profile data. When the service area on the site and the counties in the profile disagree, you drop out of the map results and out of the AI answers."),
 
         h2("Technical SEO: site speed and the parcel-address enquiry form"),
-        p("The enquiry form on most surveying sites asks for a name, an email and a message, which guarantees a reply that says «could you tell me the address». The form that saves a day asks for the parcel address or the parcel number, the deadline, and who asked for the survey — the lender, the city, the attorney — because those three answers are what decides whether the job is yours and what it costs."),
-        p("Speed matters for a reason specific to this trade: the sites are heavy with sample drawings and scanned certificates, and the people opening them are often standing on a site with one bar of signal. A page that takes nine seconds on a phone loses an enquiry that was already in hand."),
+        p("The usual form asks for a name, an email and a message. The reply is always the same: «could you tell me the address»."),
+        p("The form that saves a day asks for the parcel address or number, the deadline, and who demanded the survey. Those three answers decide whether the job is yours and what it costs."),
+        p("On speed. These sites are heavy with sample drawings and scanned certificates. The people opening them are standing on a site with one bar of signal. Nine seconds to load is an enquiry you no longer have."),
       ],
     },
     {
@@ -205,7 +215,8 @@ export const landSurveyorSeoEn = {
       _key: k("b"),
       content: [
         h2("Order an SEO audit for a land surveying company: what to send me"),
-        p("Send the site, say which deliverables you want more of and which you would rather stop taking, and name the counties where you actually file. I reply within one working day with what is holding the site back, how much of it is locked inside PDFs that neither a search engine nor an assistant can read, and what I would do first — including which pages are not worth writing because nobody in your area searches for them."),
+        p("Send the site. Say which deliverables you want more of and which you would rather stop taking. Name the counties where you actually file."),
+        p("I reply within one working day: what is holding the site back, how much of it is locked inside PDFs that neither a search engine nor an assistant can read, and what I would do first. That includes which pages are not worth writing, because nobody in your area searches for them."),
       ],
     },
   ],

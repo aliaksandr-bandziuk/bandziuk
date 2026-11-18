@@ -179,6 +179,7 @@ const SECTORS = [
     [t("Handyman services", "Złota rączka", "Мастер на час"), ["handyman-website-design"], ["seo-for-handyman-services"]],
     [t("Land surveyors", "Firmy geodezyjne", "Геодезические компании"), ["website-design-for-land-surveyors"], ["seo-for-land-surveyors"]],
     [t("Engineering firms", "Biura projektowe", "Проектные бюро"), [], ["seo-for-engineering-firms"]],
+    [t("3D scanning and BIM", "Skanowanie 3D i BIM", "3D-сканирование и BIM"), [], ["seo-for-3d-scanning-companies"]],
     [t("Cleaning companies", "Firmy sprzątające", "Клининговые компании"), ["cleaning-company-website"], []],
     [t("Solar installers", "Fotowoltaika", "Солнечные панели"), [], ["solar-seo"]],
     [t("Moving companies", "Firmy przeprowadzkowe", "Переезды"), [], ["seo-for-moving-companies"]],

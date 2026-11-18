@@ -43,7 +43,7 @@ export const landSurveyorSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per survey type", "Quoted by ChatGPT and Perplexity", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["A page per survey type", "Quoted by ChatGPT and Perplexity", "Audit from €250"],
   heroPhonePoints: ["ALTA survey for a closing", "Boundary survey before a fence", "Topographic survey for a permit", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a land surveying company: site, local profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },

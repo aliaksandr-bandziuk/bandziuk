@@ -23,7 +23,7 @@ export const landSurveyorWebsitePl = {
   excerpt:
     "Robię strony internetowe dla firm geodezyjnych. Formularz pyta o numer działki, termin i o to, kto zażądał opracowania. Przykładowe operaty zastępują zdjęcia statywu. Termin i widełki cenowe stoją tam, gdzie klient je przeczyta. Wykonawcy mają osobne wejście. Strona od 8500 zł, pojedynczy landing 3000–6000 zł.",
   seo: {
-    metaTitle: "Strona internetowa dla geodety — od 8500 zł",
+    metaTitle: "Strona dla firmy geodezyjnej: formularz i operaty",
     metaDescription:
       "Tworzenie stron internetowych dla firm geodezyjnych: formularz z numerem działki, przykładowe operaty, termin i cena na stronie, szybkość i gotowość pod AI.",
   },

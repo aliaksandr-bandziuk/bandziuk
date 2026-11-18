@@ -27,7 +27,7 @@ export const landSurveyorSeoPl = {
   excerpt:
     "Zajmuję się SEO i pozycjonowaniem stron firm geodezyjnych. Robię osobną podstronę na każde opracowanie, podaję termin i widełki cenowe tam, gdzie klient je zobaczy, ustawiam pozycjonowanie lokalne i doprowadzam do tego, żeby wymieniał was ChatGPT, Perplexity i Gemini. Pomiaru nikt nie chce. Pomiar jest wymagany. Zlecenie bierze ta firma, która wytłumaczyła potrzebny dokument. Audyt 1000 zł, stała praca 3500 zł miesięcznie.",
   seo: {
-    metaTitle: "Pozycjonowanie strony geodety — audyt 1000 zł",
+    metaTitle: "SEO strony geodety: opracowania, powiaty i AI",
     metaDescription:
       "SEO firmy geodezyjnej: podstrony pod mapę do celów projektowych, tyczenie i inwentaryzację, terminy i ceny, pozycjonowanie lokalne i AI SEO w ChatGPT.",
   },

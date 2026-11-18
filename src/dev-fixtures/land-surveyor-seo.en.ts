@@ -37,7 +37,7 @@ export const landSurveyorSeoEn = {
   excerpt:
     "I do SEO for land surveying companies. A page per survey type and per county. Turnaround and price where the buyer can see them. Local SEO, and AI SEO so that ChatGPT, Perplexity and Gemini name you. Nobody wants a survey. Somebody was told to produce a document, and the firm that explains that document gets the call. Audit €250, ongoing €800 a month.",
   seo: {
-    metaTitle: "SEO for Land Surveyors — audit from €250",
+    metaTitle: "Land Surveyor SEO: Survey Types, Local, AI",
     metaDescription:
       "SEO for land surveying companies: pages per survey type and county, turnaround and price on the page, local SEO, and AI SEO in ChatGPT and Perplexity.",
   },

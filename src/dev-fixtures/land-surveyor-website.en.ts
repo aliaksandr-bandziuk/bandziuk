@@ -30,7 +30,7 @@ export const landSurveyorWebsiteEn = {
   excerpt:
     "I build websites for land surveying companies. The form asks for the parcel, the deadline and who demanded the survey. Sample deliverables replace stock photos of tripods. Turnaround and price range sit where the client reads them. Contractors get their own entrance. A site from €2,000, a single landing page €700–1,400.",
   seo: {
-    metaTitle: "Website Design for Land Surveyors — from €2,000",
+    metaTitle: "Surveying Company Website: Form, Samples, Speed",
     metaDescription:
       "Websites for land surveying companies: an enquiry form keyed to the parcel, sample deliverables, turnaround and price on the page, fast on site, AI-ready.",
   },

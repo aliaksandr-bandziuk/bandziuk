@@ -1,0 +1,635 @@
+{
+ "generatedAt": "2026-11-18T11:59:58.331Z",
+ "languages": {
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "seo services",
+      "volume": 40500,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo agency",
+      "volume": 22200,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo company",
+      "volume": 18100,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "search engine optimization",
+      "volume": 12100,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "local seo",
+      "volume": 8100,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "technical seo",
+      "volume": 1300,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo consultant",
+      "volume": 6600,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo audit",
+      "volume": 2900,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "generative engine optimization",
+      "volume": 4400,
+      "group": "geo"
+     },
+     {
+      "keyword": "geo optimization",
+      "volume": 1000,
+      "group": "geo"
+     },
+     {
+      "keyword": "geo seo",
+      "volume": 2400,
+      "group": "geo"
+     },
+     {
+      "keyword": "generative seo",
+      "volume": 70,
+      "group": "geo"
+     },
+     {
+      "keyword": "answer engine optimization",
+      "volume": 2400,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "aeo seo",
+      "volume": 720,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "ai overviews optimization",
+      "volume": 110,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "ai overview seo",
+      "volume": 90,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "ai seo",
+      "volume": 6600,
+      "group": "ии-поиск, общие"
+     },
+     {
+      "keyword": "ai seo services",
+      "volume": 1000,
+      "group": "ии-поиск, общие"
+     },
+     {
+      "keyword": "llm seo",
+      "volume": 720,
+      "group": "ии-поиск, общие"
+     },
+     {
+      "keyword": "ai search optimization",
+      "volume": 1600,
+      "group": "ии-поиск, общие"
+     },
+     {
+      "keyword": "ai visibility",
+      "volume": 1000,
+      "group": "ии-поиск, общие"
+     },
+     {
+      "keyword": "ai search visibility",
+      "volume": 480,
+      "group": "ии-поиск, общие"
+     },
+     {
+      "keyword": "seo for ai",
+      "volume": 1000,
+      "group": "ии-поиск, общие"
+     },
+     {
+      "keyword": "optimize for ai search",
+      "volume": 110,
+      "group": "ии-поиск, общие"
+     },
+     {
+      "keyword": "chatgpt seo",
+      "volume": 390,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "seo for chatgpt",
+      "volume": 320,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "how to rank in chatgpt",
+      "volume": 170,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "perplexity seo",
+      "volume": 110,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "how to get cited by chatgpt",
+      "volume": 260,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "gemini seo",
+      "volume": 50,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "google ai mode seo",
+      "volume": 20,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "website design",
+      "volume": 40500,
+      "group": "сайты"
+     },
+     {
+      "keyword": "web development services",
+      "volume": 2900,
+      "group": "сайты"
+     },
+     {
+      "keyword": "website redesign",
+      "volume": 2900,
+      "group": "сайты"
+     }
+    ]
+   }
+  },
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "pozycjonowanie stron",
+      "volume": 5400,
+      "group": "seo, podstawowe formy"
+     },
+     {
+      "keyword": "pozycjonowanie strony",
+      "volume": 5400,
+      "group": "seo, podstawowe formy"
+     },
+     {
+      "keyword": "agencja seo",
+      "volume": 2400,
+      "group": "seo, podstawowe formy"
+     },
+     {
+      "keyword": "seo",
+      "volume": 12100,
+      "group": "seo, podstawowe formy"
+     },
+     {
+      "keyword": "pozycjonowanie lokalne",
+      "volume": 720,
+      "group": "seo, podstawowe formy"
+     },
+     {
+      "keyword": "audyt seo",
+      "volume": 1600,
+      "group": "seo, podstawowe formy"
+     },
+     {
+      "keyword": "specjalista seo",
+      "volume": 390,
+      "group": "seo, podstawowe formy"
+     },
+     {
+      "keyword": "optymalizacja geo",
+      "volume": 10,
+      "group": "geo"
+     },
+     {
+      "keyword": "generative engine optimization",
+      "volume": 260,
+      "group": "geo"
+     },
+     {
+      "keyword": "geo pozycjonowanie",
+      "volume": 40,
+      "group": "geo"
+     },
+     {
+      "keyword": "answer engine optimization",
+      "volume": 50,
+      "group": "aeo i aio"
+     },
+     {
+      "keyword": "optymalizacja pod ai overviews",
+      "volume": null,
+      "group": "aeo i aio"
+     },
+     {
+      "keyword": "ai seo",
+      "volume": 720,
+      "group": "ai, ogólne"
+     },
+     {
+      "keyword": "pozycjonowanie w ai",
+      "volume": 260,
+      "group": "ai, ogólne"
+     },
+     {
+      "keyword": "optymalizacja pod ai",
+      "volume": null,
+      "group": "ai, ogólne"
+     },
+     {
+      "keyword": "widoczność w ai",
+      "volume": 110,
+      "group": "ai, ogólne"
+     },
+     {
+      "keyword": "llm seo",
+      "volume": 110,
+      "group": "ai, ogólne"
+     },
+     {
+      "keyword": "seo dla ai",
+      "volume": 20,
+      "group": "ai, ogólne"
+     },
+     {
+      "keyword": "pozycjonowanie w chatgpt",
+      "volume": 170,
+      "group": "asystenci po nazwie"
+     },
+     {
+      "keyword": "seo chatgpt",
+      "volume": 10,
+      "group": "asystenci po nazwie"
+     },
+     {
+      "keyword": "jak pojawić się w chatgpt",
+      "volume": null,
+      "group": "asystenci po nazwie"
+     },
+     {
+      "keyword": "perplexity seo",
+      "volume": 10,
+      "group": "asystenci po nazwie"
+     },
+     {
+      "keyword": "gemini seo",
+      "volume": 10,
+      "group": "asystenci po nazwie"
+     },
+     {
+      "keyword": "tworzenie stron internetowych",
+      "volume": 4400,
+      "group": "strony"
+     },
+     {
+      "keyword": "projektowanie stron",
+      "volume": 880,
+      "group": "strony"
+     },
+     {
+      "keyword": "przebudowa strony",
+      "volume": 50,
+      "group": "strony"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "продвижение сайта",
+      "volume": 20,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "раскрутка сайта",
+      "volume": 10,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 10,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "сео продвижение",
+      "volume": 10,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "поисковое продвижение",
+      "volume": 10,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo оптимизация",
+      "volume": 30,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "локальное продвижение",
+      "volume": 10,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 10,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo специалист",
+      "volume": 30,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "geo оптимизация",
+      "volume": 10,
+      "group": "geo"
+     },
+     {
+      "keyword": "гео оптимизация",
+      "volume": 10,
+      "group": "geo"
+     },
+     {
+      "keyword": "generative engine optimization",
+      "volume": 260,
+      "group": "geo"
+     },
+     {
+      "keyword": "answer engine optimization",
+      "volume": 50,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "aeo оптимизация",
+      "volume": 10,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "оптимизация под ai overviews",
+      "volume": null,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "ai seo",
+      "volume": 720,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "ии продвижение",
+      "volume": null,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "продвижение в ии",
+      "volume": 10,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "оптимизация под ии",
+      "volume": null,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "видимость в ии",
+      "volume": null,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "llm seo",
+      "volume": 110,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "продвижение в нейросетях",
+      "volume": 10,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "оптимизация под нейросети",
+      "volume": null,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "продвижение в chatgpt",
+      "volume": null,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "seo для chatgpt",
+      "volume": null,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "как попасть в chatgpt",
+      "volume": 10,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "perplexity продвижение",
+      "volume": null,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "gemini seo",
+      "volume": 10,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 40,
+      "group": "сайты"
+     },
+     {
+      "keyword": "разработка сайта",
+      "volume": 10,
+      "group": "сайты"
+     },
+     {
+      "keyword": "редизайн сайта",
+      "volume": 10,
+      "group": "сайты"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "продвижение сайта",
+      "volume": 210,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "раскрутка сайта",
+      "volume": 20,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 140,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "сео продвижение",
+      "volume": 70,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "поисковое продвижение",
+      "volume": 10,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo оптимизация",
+      "volume": 170,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "локальное продвижение",
+      "volume": 10,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo аудит",
+      "volume": 50,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "seo специалист",
+      "volume": 110,
+      "group": "seo, базовые формы"
+     },
+     {
+      "keyword": "geo оптимизация",
+      "volume": 20,
+      "group": "geo"
+     },
+     {
+      "keyword": "гео оптимизация",
+      "volume": 10,
+      "group": "geo"
+     },
+     {
+      "keyword": "generative engine optimization",
+      "volume": 20,
+      "group": "geo"
+     },
+     {
+      "keyword": "answer engine optimization",
+      "volume": 10,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "aeo оптимизация",
+      "volume": 10,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "оптимизация под ai overviews",
+      "volume": null,
+      "group": "aeo и aio"
+     },
+     {
+      "keyword": "ai seo",
+      "volume": 20,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "ии продвижение",
+      "volume": null,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "продвижение в ии",
+      "volume": 10,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "оптимизация под ии",
+      "volume": null,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "видимость в ии",
+      "volume": null,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "llm seo",
+      "volume": 10,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "продвижение в нейросетях",
+      "volume": 10,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "оптимизация под нейросети",
+      "volume": null,
+      "group": "ии, общие"
+     },
+     {
+      "keyword": "продвижение в chatgpt",
+      "volume": null,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "seo для chatgpt",
+      "volume": null,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "как попасть в chatgpt",
+      "volume": 0,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "perplexity продвижение",
+      "volume": null,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "gemini seo",
+      "volume": 10,
+      "group": "ассистенты по именам"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 880,
+      "group": "сайты"
+     },
+     {
+      "keyword": "разработка сайта",
+      "volume": 260,
+      "group": "сайты"
+     },
+     {
+      "keyword": "редизайн сайта",
+      "volume": 10,
+      "group": "сайты"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -180,6 +180,7 @@ const SECTORS = [
     [t("Land surveyors", "Firmy geodezyjne", "Геодезические компании"), ["website-design-for-land-surveyors"], ["seo-for-land-surveyors"]],
     [t("Engineering firms", "Biura projektowe", "Проектные бюро"), [], ["seo-for-engineering-firms"]],
     [t("3D scanning and BIM", "Skanowanie 3D i BIM", "3D-сканирование и BIM"), [], ["seo-for-3d-scanning-companies"]],
+    [t("Drone services", "Usługi dronowe", "Услуги дронов"), [], ["seo-for-drone-service-companies"]],
     [t("Cleaning companies", "Firmy sprzątające", "Клининговые компании"), ["cleaning-company-website"], []],
     [t("Solar installers", "Fotowoltaika", "Солнечные панели"), [], ["solar-seo"]],
     [t("Moving companies", "Firmy przeprowadzkowe", "Переезды"), [], ["seo-for-moving-companies"]],
@@ -419,6 +420,9 @@ async function load() {
 
 function makeResolver({ paths, bySlug, byId, group }) {
   const misses = new Set();
+  // Адреса, которых нет в сайтмапе: он отдаётся через CDN с s-maxage=3600, то
+  // есть может отстать от свежего деплоя на час. Их проверяем живым запросом.
+  const probe = new Set();
   const pathFor = (lang, slug) => {
     const pre = lang === "en" ? "" : `/${lang}`;
     return paths.find((p) => {
@@ -451,10 +455,13 @@ function makeResolver({ paths, bySlug, byId, group }) {
     }
     if (!target?.slug) return null;
     const p = pathFor(lang, target.slug);
-    if (!p) misses.add(`${lang}:${target.slug} (not in sitemap)`);
+    if (!p) {
+      misses.add(`${lang}:${target.slug} (not in sitemap)`);
+      probe.add((lang === "en" ? "" : `/${lang}`) + `/${target.slug}`);
+    }
     return p || null;
   };
-  return { misses, first: (lang, cands) => { for (const c of cands || []) { const p = one(lang, c); if (p) return p; } return null; } };
+  return { misses, probe, first: (lang, cands) => { for (const c of cands || []) { const p = one(lang, c); if (p) return p; } return null; } };
 }
 
 // ------------------------------------------------------------------- build --
@@ -597,6 +604,22 @@ function build(lang, r) {
 (async () => {
   const data = await load();
   console.log(`sitemap: ${data.paths.length} urls from ${BASE}; ${data.bySlug.size} documents\n`);
+  // Прогон вхолостую: собираем адреса, которых нет в сайтмапе, и проверяем их
+  // живым запросом. Иначе страница, созданная после последнего обновления
+  // кэша сайтмапа, молча выпадает из меню.
+  const pre = makeResolver(data);
+  for (const lang of LANGS) build(lang, pre);
+  if (pre.probe.size) {
+    console.log(`sitemap may be stale — checking ${pre.probe.size} address(es) with a live request:`);
+    for (const p of pre.probe) {
+      let status = 0;
+      try { status = (await fetch(`${BASE}${p}`, { redirect: "manual" })).status; } catch {}
+      if (status === 200) { data.paths.push(p); console.log(`  + ${p} (200, added)`); }
+      else console.log(`  - ${p} (${status || "no response"})`);
+    }
+    console.log("");
+  }
+
   const r = makeResolver(data);
 
   for (const lang of LANGS) {

@@ -1,0 +1,320 @@
+{
+ "generatedAt": "2026-11-19T12:23:24.763Z",
+ "languages": {
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "demand generation seo",
+      "volume": 10,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "seo for b2b services",
+      "volume": null,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "b2b seo strategy",
+      "volume": 210,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "seo for technical companies",
+      "volume": null,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "how to get clients for a new service",
+      "volume": null,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "how to market a new service",
+      "volume": 10,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "how to sell a service nobody knows about",
+      "volume": null,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "programmatic seo",
+      "volume": 590,
+      "group": "программные страницы · тема статьи"
+     },
+     {
+      "keyword": "landing page strategy seo",
+      "volume": null,
+      "group": "программные страницы · тема статьи"
+     },
+     {
+      "keyword": "niche seo services",
+      "volume": 10,
+      "group": "программные страницы · тема статьи"
+     },
+     {
+      "keyword": "geo generative engine optimization",
+      "volume": null,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "answer engine optimization",
+      "volume": 2400,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "how to appear in chatgpt answers",
+      "volume": null,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "seo services",
+      "volume": 40500,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo agency",
+      "volume": 22200,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "website design",
+      "volume": 40500,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "b2b seo services",
+      "volume": 320,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  },
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "pozycjonowanie usług b2b",
+      "volume": null,
+      "group": "popyt bez nazwy usługi · temat artykułu"
+     },
+     {
+      "keyword": "seo dla firm technicznych",
+      "volume": null,
+      "group": "popyt bez nazwy usługi · temat artykułu"
+     },
+     {
+      "keyword": "strategia seo b2b",
+      "volume": null,
+      "group": "popyt bez nazwy usługi · temat artykułu"
+     },
+     {
+      "keyword": "jak zdobyć klientów na nową usługę",
+      "volume": null,
+      "group": "edukacja właściciela · temat artykułu"
+     },
+     {
+      "keyword": "jak sprzedawać usługi b2b",
+      "volume": null,
+      "group": "edukacja właściciela · temat artykułu"
+     },
+     {
+      "keyword": "jak promować nową usługę",
+      "volume": null,
+      "group": "edukacja właściciela · temat artykułu"
+     },
+     {
+      "keyword": "programmatic seo",
+      "volume": 90,
+      "group": "strony programowe · temat artykułu"
+     },
+     {
+      "keyword": "strategia landing page",
+      "volume": null,
+      "group": "strony programowe · temat artykułu"
+     },
+     {
+      "keyword": "optymalizacja pod ai",
+      "volume": null,
+      "group": "wyszukiwanie ai · temat artykułu"
+     },
+     {
+      "keyword": "pozycjonowanie w chatgpt",
+      "volume": null,
+      "group": "wyszukiwanie ai · temat artykułu"
+     },
+     {
+      "keyword": "answer engine optimization",
+      "volume": 50,
+      "group": "wyszukiwanie ai · temat artykułu"
+     },
+     {
+      "keyword": "pozycjonowanie stron",
+      "volume": 5400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "tworzenie stron internetowych",
+      "volume": 4400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "agencja seo",
+      "volume": 2400,
+      "group": "kontrola (komercyjne)"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "продвижение b2b услуг",
+      "volume": 0,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "seo для b2b",
+      "volume": 10,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "продвижение нишевых услуг",
+      "volume": null,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "как привлечь клиентов на новую услугу",
+      "volume": null,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "как продвигать новую услугу",
+      "volume": null,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "как найти клиентов на услугу",
+      "volume": null,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "программное seo",
+      "volume": null,
+      "group": "страницы под запросы · тема статьи"
+     },
+     {
+      "keyword": "посадочные страницы seo",
+      "volume": null,
+      "group": "страницы под запросы · тема статьи"
+     },
+     {
+      "keyword": "продвижение в chatgpt",
+      "volume": null,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "оптимизация под ии",
+      "volume": null,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "gеo оптимизация",
+      "volume": null,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 40,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 20,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "продвижение b2b услуг",
+      "volume": 10,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "seo для b2b",
+      "volume": 0,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "продвижение нишевых услуг",
+      "volume": null,
+      "group": "спрос без названия услуги · тема статьи"
+     },
+     {
+      "keyword": "как привлечь клиентов на новую услугу",
+      "volume": null,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "как продвигать новую услугу",
+      "volume": null,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "как найти клиентов на услугу",
+      "volume": null,
+      "group": "обучение владельца · тема статьи"
+     },
+     {
+      "keyword": "программное seo",
+      "volume": null,
+      "group": "страницы под запросы · тема статьи"
+     },
+     {
+      "keyword": "посадочные страницы seo",
+      "volume": null,
+      "group": "страницы под запросы · тема статьи"
+     },
+     {
+      "keyword": "продвижение в chatgpt",
+      "volume": null,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "оптимизация под ии",
+      "volume": null,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "gеo оптимизация",
+      "volume": null,
+      "group": "ии-поиск · тема статьи"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 880,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 210,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 140,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  }
+ }
+}

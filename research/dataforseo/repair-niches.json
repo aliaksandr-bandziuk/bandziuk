@@ -1,0 +1,370 @@
+{
+ "generatedAt": "2026-11-19T13:02:44.419Z",
+ "languages": {
+  "en": {
+   "markets": {
+    "US": [
+     {
+      "keyword": "seo for phone repair shops",
+      "volume": null,
+      "group": "телефоны · продвижение"
+     },
+     {
+      "keyword": "phone repair marketing",
+      "volume": null,
+      "group": "телефоны · продвижение"
+     },
+     {
+      "keyword": "how to get customers for phone repair",
+      "volume": null,
+      "group": "телефоны · продвижение"
+     },
+     {
+      "keyword": "phone repair website",
+      "volume": null,
+      "group": "телефоны · сайт"
+     },
+     {
+      "keyword": "website for phone repair shop",
+      "volume": null,
+      "group": "телефоны · сайт"
+     },
+     {
+      "keyword": "phone screen repair",
+      "volume": 49500,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "screen protector installation",
+      "volume": 720,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "laptop repair service",
+      "volume": null,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "tablet repair service",
+      "volume": 1900,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "seo for appliance repair",
+      "volume": 20,
+      "group": "бытовая техника · продвижение"
+     },
+     {
+      "keyword": "appliance repair marketing",
+      "volume": 70,
+      "group": "бытовая техника · продвижение"
+     },
+     {
+      "keyword": "appliance repair leads",
+      "volume": 170,
+      "group": "бытовая техника · продвижение"
+     },
+     {
+      "keyword": "appliance repair website",
+      "volume": 170,
+      "group": "бытовая техника · сайт"
+     },
+     {
+      "keyword": "appliance repair service",
+      "volume": 18100,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "washing machine repair",
+      "volume": 165000,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "refrigerator repair",
+      "volume": 90500,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "dishwasher repair",
+      "volume": 74000,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "seo services",
+      "volume": 40500,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "website design",
+      "volume": 40500,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo agency",
+      "volume": 22200,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  },
+  "pl": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "pozycjonowanie serwisu telefonow",
+      "volume": null,
+      "group": "telefony · pozycjonowanie"
+     },
+     {
+      "keyword": "marketing serwisu gsm",
+      "volume": null,
+      "group": "telefony · pozycjonowanie"
+     },
+     {
+      "keyword": "strona dla serwisu telefonow",
+      "volume": null,
+      "group": "telefony · strona"
+     },
+     {
+      "keyword": "strona internetowa serwis gsm",
+      "volume": null,
+      "group": "telefony · strona"
+     },
+     {
+      "keyword": "naprawa telefonow",
+      "volume": 1300,
+      "group": "telefony · usługa"
+     },
+     {
+      "keyword": "wymiana szybki w telefonie",
+      "volume": 1300,
+      "group": "telefony · usługa"
+     },
+     {
+      "keyword": "naklejanie szkla hartowanego",
+      "volume": null,
+      "group": "telefony · usługa"
+     },
+     {
+      "keyword": "naprawa laptopow",
+      "volume": 4400,
+      "group": "telefony · usługa"
+     },
+     {
+      "keyword": "serwis gsm",
+      "volume": 6600,
+      "group": "telefony · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie serwisu agd",
+      "volume": null,
+      "group": "agd · pozycjonowanie"
+     },
+     {
+      "keyword": "marketing serwisu agd",
+      "volume": null,
+      "group": "agd · pozycjonowanie"
+     },
+     {
+      "keyword": "strona dla serwisu agd",
+      "volume": null,
+      "group": "agd · strona"
+     },
+     {
+      "keyword": "naprawa pralek",
+      "volume": 4400,
+      "group": "agd · usługa"
+     },
+     {
+      "keyword": "serwis agd",
+      "volume": 8100,
+      "group": "agd · usługa"
+     },
+     {
+      "keyword": "naprawa lodowek",
+      "volume": 2900,
+      "group": "agd · usługa"
+     },
+     {
+      "keyword": "naprawa zmywarek",
+      "volume": 2400,
+      "group": "agd · usługa"
+     },
+     {
+      "keyword": "pozycjonowanie stron",
+      "volume": 5400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "tworzenie stron internetowych",
+      "volume": 4400,
+      "group": "kontrola (komercyjne)"
+     },
+     {
+      "keyword": "agencja seo",
+      "volume": 2400,
+      "group": "kontrola (komercyjne)"
+     }
+    ]
+   }
+  },
+  "ru": {
+   "markets": {
+    "PL": [
+     {
+      "keyword": "продвижение ремонта телефонов",
+      "volume": null,
+      "group": "телефоны · продвижение"
+     },
+     {
+      "keyword": "реклама ремонта телефонов",
+      "volume": 10,
+      "group": "телефоны · продвижение"
+     },
+     {
+      "keyword": "сайт для ремонта телефонов",
+      "volume": null,
+      "group": "телефоны · сайт"
+     },
+     {
+      "keyword": "ремонт телефонов",
+      "volume": null,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "замена экрана телефона",
+      "volume": 10,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "наклейка защитного стекла",
+      "volume": 10,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "ремонт ноутбуков",
+      "volume": null,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "продвижение ремонта бытовой техники",
+      "volume": null,
+      "group": "бытовая техника · продвижение"
+     },
+     {
+      "keyword": "сайт для ремонта бытовой техники",
+      "volume": null,
+      "group": "бытовая техника · сайт"
+     },
+     {
+      "keyword": "ремонт стиральных машин",
+      "volume": 90,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "ремонт холодильников",
+      "volume": 70,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "ремонт бытовой техники на дому",
+      "volume": 10,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 40,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 20,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 10,
+      "group": "контроль (коммерческие)"
+     }
+    ],
+    "KZ": [
+     {
+      "keyword": "продвижение ремонта телефонов",
+      "volume": null,
+      "group": "телефоны · продвижение"
+     },
+     {
+      "keyword": "реклама ремонта телефонов",
+      "volume": 10,
+      "group": "телефоны · продвижение"
+     },
+     {
+      "keyword": "сайт для ремонта телефонов",
+      "volume": null,
+      "group": "телефоны · сайт"
+     },
+     {
+      "keyword": "ремонт телефонов",
+      "volume": null,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "замена экрана телефона",
+      "volume": 50,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "наклейка защитного стекла",
+      "volume": 10,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "ремонт ноутбуков",
+      "volume": null,
+      "group": "телефоны · услуга"
+     },
+     {
+      "keyword": "продвижение ремонта бытовой техники",
+      "volume": null,
+      "group": "бытовая техника · продвижение"
+     },
+     {
+      "keyword": "сайт для ремонта бытовой техники",
+      "volume": null,
+      "group": "бытовая техника · сайт"
+     },
+     {
+      "keyword": "ремонт стиральных машин",
+      "volume": 9900,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "ремонт холодильников",
+      "volume": 2900,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "ремонт бытовой техники на дому",
+      "volume": 10,
+      "group": "бытовая техника · услуга"
+     },
+     {
+      "keyword": "создание сайта",
+      "volume": 880,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "продвижение сайта",
+      "volume": 210,
+      "group": "контроль (коммерческие)"
+     },
+     {
+      "keyword": "seo продвижение",
+      "volume": 140,
+      "group": "контроль (коммерческие)"
+     }
+    ]
+   }
+  }
+ }
+}

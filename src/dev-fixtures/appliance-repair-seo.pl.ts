@@ -29,12 +29,13 @@ export const applianceRepairSeoPl = {
   lang: "pl",
   group: "appliance-repair-seo",
   slug: "pozycjonowanie-strony-serwisu-agd",
-  title: "Pozycjonowanie strony serwisu AGD",
-  heading: "Pozycjonowanie strony serwisu AGD",
+  title: "SEO i pozycjonowanie strony serwisu AGD",
+  heading:
+    "Pozycjonowanie strony serwisu AGD: zgłoszenia od ludzi, którym dziś zepsuła się pralka, a nie zlecenia z portali",
   excerpt:
     "Zajmuję się pozycjonowaniem serwisów AGD: podstrony urządzeń i marek, obszar dojazdu, koszt diagnozy, naprawy gwarancyjne, wizytówka Google i odpowiedzi AI, żeby klient z zepsutą pralką dzwonił do Was, a nie do portalu.",
   seo: {
-    metaTitle: "SEO dla serwisu AGD i naprawy sprzętu | Bandziuk",
+    metaTitle: "SEO serwisu AGD: urządzenia, marki i dojazd",
     metaDescription:
       "Pozycjonowanie strony serwisu AGD: podstrony urządzeń i marek, obszar dojazdu, koszt diagnozy, gwarancja, wizytówka Google i AI. Audyt od 1000 zł.",
   },
@@ -159,6 +160,22 @@ export const applianceRepairSeoPl = {
 
         h2("Jak mierzę wyniki pozycjonowania strony serwisu AGD: telefony i zgłoszenia"),
         p("Raport z samymi pozycjami fraz nie mówi, czy serwisanci mają więcej pracy. Ustawiam w GA4 zdarzenia na kliknięcia w numer telefonu, WhatsApp i wysłanie formularza zgłoszenia, a w Google Search Console sprawdzam, które podstrony urządzeń i marek przyciągają ludzi. W raporcie widać, ile zgłoszeń przyszło z wyszukiwarki i z Map, i przy jakich urządzeniach — dzięki temu wiadomo, które podstrony rozwijać dalej."),
+
+        h2("Kto pozycjonuje strony serwisów AGD i co konkretnie zmienia"),
+        p("Krótka odpowiedź: prawie nikt nie robi tego porządnie i właśnie dlatego to działa."),
+        p("Agencje sprzedające pozycjonowanie lokalne traktują serwis AGD jak hydraulika — jedna podstrona miasta, wizytówka, kilka opinii. Ta branża tak nie działa. Zlecenie wygrywa to, czy podstrona odpowiada urządzeniu, marce i usterce, którą człowiek przed chwilą wpisał, i czy koszt dojazdu widać przed telefonem."),
+        p("Co zmieniam, po kolei: podstrony urządzeń i marek, które naprawiacie naprawdę, obszar działania zapisany jako miejscowości, do których dojeżdżacie, koszt dojazdu i zasady gwarancji napisane zwykłymi słowami, formularz proszący o zdjęcie tabliczki znamionowej i wizytówkę, która mówi to samo co strona."),
+
+        h2("Pozycjonowanie serwisu AGD w Warszawie i w całej Polsce"),
+        p("Warszawa rządzi się tu własnymi prawami: konkurencja jest największa, ale i zleceń najwięcej, a klient prawie zawsze dopisuje dzielnicę albo „dojazd dzisiaj”. Podstrona miejska ma więc nieść czas dojazdu i godziny, a nie ogólne zdania o jakości."),
+        p("Poza Warszawą działa coś odwrotnego: w mniejszych miastach wystarczy jedna porządna podstrona na miasto i uczciwie wypisany obszar dojazdu, żeby wejść wysoko — bo konkurencja ma tam zwykle samą wizytówkę i numer telefonu."),
+        p(
+          "Jeśli zaczynacie od stolicy, warto zobaczyć też ",
+          link("pozycjonowanie stron w Warszawie", "/pl/oferty/pozycjonowanie-stron-warszawa"),
+          " i ",
+          link("tworzenie stron internetowych w Warszawie", "/pl/tworzenie-stron-internetowych-warszawa"),
+          " — tam opisuję samą pracę nad miastem, bez branży.",
+        ),
 
         h2("Ile kosztuje pozycjonowanie strony serwisu AGD"),
         li("Audyt SEO serwisu AGD — strona, wizytówka i konkurenci w Waszym mieście: od 1000 zł jednorazowo, z poprawkami w kolejności ważności."),

@@ -27,12 +27,13 @@ export const applianceRepairSeoEn = {
   lang: "en",
   group: "appliance-repair-seo",
   slug: "appliance-repair-seo",
-  title: "Appliance repair SEO",
-  heading: "Appliance Repair SEO",
+  title: "SEO for Appliance Repair Companies and Technicians",
+  heading:
+    "SEO for appliance repair companies: calls from homeowners who book you directly instead of a lead platform",
   excerpt:
     "I do appliance repair SEO for repair companies and independent technicians: pages for each appliance and brand you fix, your service area, diagnostic fee and warranty work, Google Maps and AI answers, so local customers book you.",
   seo: {
-    metaTitle: "SEO for Appliance Repair Companies | Bandziuk",
+    metaTitle: "Appliance Repair SEO: Appliances, Brands, Local",
     metaDescription:
       "Appliance repair SEO services: appliance and brand pages, service area, diagnostic fee and warranty pages, Google Maps and AI answers. Audit from 250 €.",
   },
@@ -152,6 +153,11 @@ export const applianceRepairSeoEn = {
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
           " page.",
         ),
+
+        h2("Who does SEO for an appliance repair company, and what they actually change"),
+        p("Short answer: almost nobody does it properly, which is exactly why it works."),
+        p("Agencies that sell local SEO treat a repair company like a plumber — one city page, a profile, a few reviews. This trade does not behave that way. The job is won or lost on whether the page matches the appliance, the brand and the fault the person has just typed, and on whether the diagnostic fee is visible before they pick up the phone."),
+        p("What I change, in order: pages for the appliances and brands you really repair, the service area written as the towns your vans reach, the diagnostic fee and warranty terms in plain words, a booking form that asks for the model plate, and a Google profile that agrees with all of it."),
 
         h2("How much appliance repair SEO services cost"),
         li("Audit of the repair website, the Google profile and local competitors: from 250 €, one-off, with a list of fixes by priority."),

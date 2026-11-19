@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Textless cover for «SEO for a service nobody searches for» (also the OG image).
+     Left: a magnifier over an empty search field — the tool returns nothing.
+     Right: the demand itself, a drift of documents, three of them lit, their
+     threads converging on one point. Palette and geometry as the GEO/AEO covers. */
+  :root{ --bg:#0a0a0b; --warm:#d95926; --cool:#3987e5; --green:#199e70; }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000}
+  .cover{position:relative;width:1672px;height:941px;overflow:hidden;
+    background:
+      radial-gradient(900px 560px at 12% -10%, rgba(57,135,229,.16), transparent 62%),
+      radial-gradient(1000px 620px at 92% 110%, rgba(25,158,112,.16), transparent 60%),
+      var(--bg);}
+  .grain{position:absolute;inset:0;opacity:.35}
+  .grain i{position:absolute;border-radius:50%;background:#fff}
+
+  /* magnifier */
+  .lens{position:absolute;left:150px;top:230px;width:470px;height:470px;border-radius:50%;
+    border:12px solid rgba(255,255,255,.17);background:rgba(255,255,255,.028);
+    box-shadow:0 50px 120px rgba(0,0,0,.6), inset 0 0 90px rgba(57,135,229,.07);}
+  .handle{position:absolute;left:546px;top:626px;width:150px;height:26px;border-radius:13px;
+    background:rgba(255,255,255,.17);transform:rotate(42deg);transform-origin:left center;
+    box-shadow:0 30px 70px rgba(0,0,0,.5)}
+  .field{position:absolute;left:228px;top:430px;width:314px;height:72px;border-radius:36px;
+    background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);
+    display:flex;align-items:center;gap:16px;padding:0 26px}
+  .field .g{width:22px;height:22px;border-radius:50%;border:3px solid rgba(255,255,255,.3);position:relative;flex:none}
+  .field .g::after{content:"";position:absolute;right:-9px;bottom:-8px;width:10px;height:3px;background:rgba(255,255,255,.3);transform:rotate(45deg)}
+  .field .caret{width:3px;height:26px;background:rgba(255,255,255,.22)}
+
+  /* documents */
+  .doc{position:absolute;width:168px;height:118px;border-radius:14px;
+    background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);padding:20px 20px}
+  .doc .l{height:9px;border-radius:5px;background:rgba(255,255,255,.17);margin:0 0 12px}
+  .doc .l.sh{width:62%}
+  .doc.dim{opacity:.4}
+  .doc.lit{background:rgba(25,158,112,.13);border:2px solid rgba(25,158,112,.85);
+    box-shadow:0 34px 90px rgba(0,0,0,.55)}
+  .doc.lit .l:first-child{background:rgba(255,255,255,.6)}
+  .doc.lit .l{background:rgba(255,255,255,.28)}
+  .stamp{position:absolute;right:-18px;top:-18px;width:40px;height:40px;border-radius:50%;background:var(--green);
+    box-shadow:0 18px 40px rgba(0,0,0,.5)}
+  .hub{position:absolute;left:1516px;top:432px;width:86px;height:86px;border-radius:50%;
+    background:rgba(217,89,38,.18);border:3px solid rgba(217,89,38,.9);
+    box-shadow:0 40px 100px rgba(0,0,0,.55)}
+  .hub i{position:absolute;inset:26px;border-radius:50%;background:var(--warm)}
+  svg{position:absolute;inset:0}
+</style>
+</head>
+<body>
+<div class="cover" id="root">
+  <div class="grain" id="grain"></div>
+
+  <div class="lens"></div>
+  <div class="handle"></div>
+  <div class="field"><div class="g"></div><div class="caret"></div></div>
+
+  <svg viewBox="0 0 1672 941" id="wires"></svg>
+  <div id="docs"></div>
+
+  <div class="hub"><i></i></div>
+</div>
+<script>
+  const grain = document.getElementById("grain");
+  let g = "";
+  for (let i = 0; i < 160; i++) {
+    const s = Math.random() < .85 ? 2 : 3;
+    g += `<i style="left:${(Math.random()*1672).toFixed(0)}px;top:${(Math.random()*941).toFixed(0)}px;width:${s}px;height:${s}px;opacity:${(.05+Math.random()*.16).toFixed(2)}"></i>`;
+  }
+  grain.innerHTML = g;
+
+  // drift of documents: three lit ones carry the real demand
+  const docs = [
+    [820, 140, 0], [1010, 96, 0], [1200, 160, 0],
+    [790, 318, 1], [1000, 286, 0], [1196, 330, 1],
+    [838, 500, 0], [1024, 470, 0], [1214, 514, 0],
+    [812, 676, 0], [1012, 648, 1], [1206, 690, 0],
+  ];
+  const wrap = document.getElementById("docs");
+  wrap.innerHTML = docs.map(([x, y, lit]) =>
+    `<div class="doc ${lit ? "lit" : "dim"}" style="left:${x}px;top:${y}px">
+       ${lit ? '<div class="stamp"></div>' : ""}
+       <div class="l"></div><div class="l"></div><div class="l sh"></div>
+     </div>`).join("");
+
+  // threads from the lit documents to the hub
+  const hub = [1559, 475];
+  const lit = docs.filter((d) => d[2]).map(([x, y]) => [x + 168, y + 59]);
+  document.getElementById("wires").innerHTML = lit.map(([x, y]) => {
+    const cx = (x + hub[0]) / 2;
+    return `<path d="M ${x} ${y} C ${cx} ${y}, ${cx} ${hub[1]}, ${hub[0]} ${hub[1]}"
+      fill="none" stroke="rgba(25,158,112,.55)" stroke-width="3"/>`;
+  }).join("");
+</script>
+</body>
+</html>

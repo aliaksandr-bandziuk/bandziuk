@@ -193,6 +193,7 @@ const SECTORS = [
     [t("B2B companies", "Firmy B2B", "B2B-компании"), ["b2b-website-design"], ["b2b-seo"]],
     [t("IT companies", "Firmy IT", "IT-компании"), ["it-company-website-design"], ["seo-for-it-companies"]],
     [t("Manufacturers", "Producenci", "Производители"), ["manufacturing-website-design", "manufacturing-company-website"], ["manufacturing-seo"]],
+    [t("3D printing", "Druk 3D", "3D-печать"), [], ["seo-for-3d-printing-services"]],
     [t("Lingerie brands", "Producenci bielizny", "Производители белья"), ["website-development-for-lingerie-manufacturers"], ["seo-for-lingerie-manufacturers"]],
     [t("Recruitment agencies", "Agencje pracy", "Кадровые агентства"), ["recruitment-agency-website"], ["seo-for-recruitment-agencies"]],
     [t("Nonprofits", "Fundacje", "НКО и фонды"), ["nonprofit-website-design"], ["nonprofit-seo"]],

@@ -28,7 +28,7 @@ export const phoneRepairSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podstrona pod model i naprawę", "Wizytówka Google i opinie", "Audyt od 1000 zł"],
+  heroChips: ["Podstrona pod model i naprawę", "Widoczność w ChatGPT i Mapach", "Audyt od 1000 zł"],
   heroPhonePoints: ["Wymiana szybki, model po modelu", "Cena i czas wprost", "Naprawa laptopów osobno", "ChatGPT podaje punkt"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony serwisu GSM: strona, podstrony modeli, wizytówka Google, widoczność w AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -131,21 +131,21 @@ export const phoneRepairSeoPl = {
           ".",
         ),
 
-        h2("Cennik na stronie i dlaczego strach przed nim jest nie na miejscu"),
+        h2("Cennik serwisu GSM na stronie: dlaczego strach przed nim jest nie na miejscu"),
         p("Większość punktów nie podaje cen, z pozornie rozsądnego powodu: konkurencja zejdzie niżej."),
         p("Ona i tak zna wasze ceny. Wystarczy, że ktoś zadzwoni albo wejdzie. Milczenie odstrasza wyłącznie klienta, który decyduje w tej chwili."),
         p("Cena przy modelu i naprawie, ze zdaniem o tym, co ją zmienia — oryginał czy zamiennik, wygięta ramka, zalanie odkryte po otwarciu — przyprowadza ludzi gotowych zapłacić i kończy dwadzieścia telefonów dziennie zaczynających się od „ile za szybkę”."),
 
-        h3("Tanie naprawy jako drzwi do drogich"),
+        h3("Tanie naprawy w serwisie GSM jako drzwi do drogich"),
         p("Naklejenie szkła czy wymiana baterii nie zarabiają prawie nic. W wyszukiwarce są warte więcej, niż wyglądają, bo wprowadzają do punktu człowieka, który za pół roku przyjdzie po szybkę."),
         p("Sztuka polega na tym, żeby ich wpuścić i się w nich nie utopić: wypiszcie drobne usługi z ceną i adnotacją, że robi się je od ręki, i trzymajcie je z dala od podstron, na których decyduje się droga naprawa."),
 
-        h2("Wizytówka Google decyduje w tej branży częściej niż strona"),
+        h2("Wizytówka Google serwisu GSM decyduje częściej niż strona"),
         p("Duża część klientów nigdy nie otworzy waszej strony. Otworzy mapę, obejrzy zdjęcia, przeczyta trzy opinie i pójdzie."),
         p("Dlatego wizytówka i strona muszą mówić to samo: te same godziny, te same ceny, te same usługi, prawdziwe zdjęcia lady i stanowiska, opinie odpisane w języku, w którym je napisano."),
         p("Zadaniem strony jest być tym, do czego wizytówka prowadzi — i nieść podstrony modeli, których wizytówka pomieścić nie może."),
 
-        h2("Widoczność w AI: ChatGPT, Perplexity, Gemini i AI Overviews"),
+        h2("Widoczność serwisu GSM w AI: ChatGPT, Perplexity, Gemini i AI Overviews"),
         p("„Czy opłaca się naprawiać telefon ze zbitą szybką, czy kupić nowy” i „ile kosztuje wymiana wyświetlacza w iPhonie” to pytania do asystenta. Padają, zanim ktokolwiek wybierze punkt."),
         p("Asystent odpowiada z czytelnego tekstu i podaje serwisy, które na stronie zobowiązały się do liczb: cena po modelu, czas, rodzaj części, gwarancja."),
         p("O tym, czy was wymieni, decydują trzy rzeczy: tekst zamiast galerii zdjęć, liczby warte zacytowania, te same dane punktu wszędzie."),
@@ -161,7 +161,7 @@ export const phoneRepairSeoPl = {
           ".",
         ),
 
-        h2("Techniczne SEO: szybkość, zdjęcia i formularz pytający o model"),
+        h2("Techniczne SEO strony serwisu GSM: szybkość, zdjęcia, formularz o model"),
         p("Te strony są zbudowane ze zdjęć naprawionych urządzeń i ładują się wolno na jedynym sprzęcie, który się liczy — uszkodzonym telefonie na transmisji komórkowej."),
         p("Zdjęcia zostawcie, podawajcie je małe, a strona niech otwiera się poniżej dwóch sekund."),
         p("Formularz ma pytać o model, usterkę i to, czy telefon się jeszcze włącza. Te trzy odpowiedzi pozwalają powiedzieć przez telefon, czy część jest na stanie — a tylko to klienta interesowało."),

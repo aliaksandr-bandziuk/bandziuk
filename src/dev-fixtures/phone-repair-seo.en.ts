@@ -35,7 +35,7 @@ export const phoneRepairSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per model and repair", "Google Maps and reviews", "Audit from €250"],
+  heroChips: ["A page per model and repair", "Found by ChatGPT and Maps", "Audit from €250"],
   heroPhonePoints: ["iPhone screen, by model", "Price and time in the open", "Parts in stock today", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a phone repair shop: website, model pages, Google Business Profile, AI visibility", price: 250, currency: "EUR", unit: "one-off" },
@@ -122,17 +122,17 @@ export const phoneRepairSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Publishing the price list, and why the fear of it is misplaced"),
+        h2("Publishing a phone repair price list, and why the fear of it is misplaced"),
         p("Most shops refuse to publish prices, for a reason that sounds sensible: the competitor will undercut us."),
         p("He already knows your prices. He has a friend call you, or he walks in. The only person your silence keeps away is the customer deciding right now."),
         p("A price per model and repair, with a line on what changes it — original versus compatible part, a bent frame, water damage found after opening — brings people who arrive ready to pay, and ends the twenty calls a day that start with «how much for a screen».")
 
         ,
-        h3("Cheap repairs as doors to expensive ones"),
+        h3("Cheap phone repairs as doors to expensive ones"),
         p("Fitting a glass protector or swapping a battery earns almost nothing. In search they are worth more than they look, because they bring somebody into the shop who later needs a screen."),
         p("The trick is to let them in without drowning in them: publish the small services with their price and the note that they are done while you wait, and keep them off the pages where the expensive repairs are decided."),
 
-        h3("Laptops and tablets: the bigger ticket most shops forget"),
+        h3("Laptops and tablets: the bigger ticket most repair shops forget"),
         p("«Laptop repair service» and «tablet repair service» are searched by people with a far higher budget and much less patience for a trip across town."),
         p("Most phone shops repair them already and never say so on the site. Two pages, written properly, often change the shop's average order value more than anything done to the phone pages."),
 
@@ -157,7 +157,7 @@ export const phoneRepairSeoEn = {
           ".",
         ),
 
-        h2("Technical SEO: speed, photographs and a form that asks for the model"),
+        h2("Technical SEO for a repair shop site: speed, photographs, a form that asks the model"),
         p("These sites are built from photographs of repaired devices, and they load slowly on the one device that matters — a damaged phone on mobile data."),
         p("Keep the photographs, serve them small, and let the page open in under two seconds."),
         p("The form should ask for the model, the fault and whether the phone still turns on. Those three answers let you tell him on the phone whether the part is in stock, which is the only thing he wanted to know."),

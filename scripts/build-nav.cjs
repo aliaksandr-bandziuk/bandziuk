@@ -192,6 +192,7 @@ const SECTORS = [
     [t("SaaS companies", "Firmy SaaS", "SaaS"), ["saas-website-design"], ["saas-seo"]],
     [t("B2B companies", "Firmy B2B", "B2B-компании"), ["b2b-website-design"], ["b2b-seo"]],
     [t("IT companies", "Firmy IT", "IT-компании"), ["it-company-website-design"], ["seo-for-it-companies"]],
+    [t("Phone and electronics repair", "Serwisy GSM", "Ремонт телефонов"), [], ["seo-for-phone-repair-shops"]],
     [t("Manufacturers", "Producenci", "Производители"), ["manufacturing-website-design", "manufacturing-company-website"], ["manufacturing-seo"]],
     [t("3D printing", "Druk 3D", "3D-печать"), [], ["seo-for-3d-printing-services"]],
     [t("Lingerie brands", "Producenci bielizny", "Производители белья"), ["website-development-for-lingerie-manufacturers"], ["seo-for-lingerie-manufacturers"]],

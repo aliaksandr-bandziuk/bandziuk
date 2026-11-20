@@ -164,7 +164,7 @@ export const seoForDermatologistsPl = {
         ),
 
         h2("Pozycjonowanie strony gabinetu dermatologicznego w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pacjenci pytają ChatGPT, Perplexity i podsumowania AI w Google, „gdzie w Gdańsku zrobić wideodermatoskopię”, „czy z trądzikiem różowatym iść do dermatologa czy kosmetologa”, „który dermatolog w Lublinie leczy łysienie”. Odpowiedź powstaje z porównania kilku źródeł naraz: strony gabinetu, wizytówki Google, profili w ZnanyLekarz i opinii pacjentów. Pracę nad tym nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). Dla gabinetu dermatologicznego to:"),
+        p("Pacjenci pytają ChatGPT, Perplexity, Gemini i podsumowania AI w Google, „gdzie w Gdańsku zrobić wideodermatoskopię”, „czy z trądzikiem różowatym iść do dermatologa czy kosmetologa”, „który dermatolog w Lublinie leczy łysienie”. Odpowiedź powstaje z porównania kilku źródeł naraz: strony gabinetu, wizytówki Google, profili w ZnanyLekarz i opinii pacjentów. Pracę nad tym nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). Dla gabinetu dermatologicznego to:"),
         li("jasno opisane choroby, badania, lekarze, języki, placówki, umowa z NFZ i ceny"),
         li("pytania, które pacjenci zadają w rejestracji, z odpowiedziami zatwierdzonymi przez lekarza"),
         li("dane strukturalne gabinetu, lekarzy i placówek"),

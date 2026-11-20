@@ -44,7 +44,7 @@ export const constructionSeoPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrony usług i miejscowości", text: "Pod to, co wpisują klienci: usługa plus miasto" },
         { _key: k("o"), iconName: "image", title: "Realizacje czytelne dla wyszukiwarki", text: "Rodzaj prac, miejsce i metraż tekstem obok zdjęć" },
         { _key: k("o"), iconName: "message-circle", title: "Opinie przypisane do realizacji", text: "Prośba przy odbiorze, odpowiedź w ciągu kilku dni" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w zapytaniach", text: "Telefony i prośby o wycenę, nie tylko pozycje" },
       ],
       prices: [

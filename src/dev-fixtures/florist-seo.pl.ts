@@ -158,7 +158,7 @@ export const floristSeoPl = {
         p("Spokojniejsze tygodnie idą na nowe podstrony dostaw, realizacje ślubne i poprawki techniczne, żeby przed kolejnym szczytem strona była mocniejsza niż przed poprzednim."),
 
         h2("Pozycjonowanie strony kwiaciarni w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pytania „która kwiaciarnia w Łodzi dowozi kwiaty w niedzielę”, „jakie kwiaty na 18. urodziny” czy „ile kosztuje bukiet ślubny” trafiają dziś także do ChatGPT, Perplexity i podsumowań AI w Google. Asystent składa odpowiedź z tekstów, które umie odczytać i porównać z innymi źródłami. Starania o miejsce w takich odpowiedziach to GEO i AEO (generative i answer engine optimization); w kwiaciarni sprowadzają się do czterech rzeczy:"),
+        p("Pytania „która kwiaciarnia w Łodzi dowozi kwiaty w niedzielę”, „jakie kwiaty na 18. urodziny” czy „ile kosztuje bukiet ślubny” trafiają dziś także do ChatGPT, Perplexity, Gemini i podsumowań AI w Google. Asystent składa odpowiedź z tekstów, które umie odczytać i porównać z innymi źródłami. Starania o miejsce w takich odpowiedziach to GEO i AEO (generative i answer engine optimization); w kwiaciarni sprowadzają się do czterech rzeczy:"),
         li("obszar i koszt dostawy, godzinę zamówień na dziś i godziny otwarcia zapisane zwykłymi zdaniami"),
         li("poradniki okazji i widełki cen florystyki ślubnej podpisane przez właścicielkę albo florystkę"),
         li("dane strukturalne opisujące kwiaciarnię, adres, godziny i obszar dostaw"),

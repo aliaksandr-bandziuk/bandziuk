@@ -116,7 +116,7 @@ export const restaurantSeoPl = {
         ),
 
         h2("Pozycjonowanie strony restauracji w AI: widoczność w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Coraz więcej gości pyta ChatGPT, Perplexity albo podsumowania AI w Google, gdzie zjeść — „spokojna włoska restauracja na Starym Mieście”, „gdzie zjeść dobry ramen dziś wieczorem”. Odpowiedź wymienia kilka lokali i cytuje to, co asystent mógł o nich przeczytać. Pracę nad tym, żeby trafić do takich odpowiedzi, nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). W restauracji opiera się ona na tym samym co pozycjonowanie lokalne:"),
+        p("Coraz więcej gości pyta ChatGPT, Perplexity, Gemini albo podsumowania AI w Google, gdzie zjeść — „spokojna włoska restauracja na Starym Mieście”, „gdzie zjeść dobry ramen dziś wieczorem”. Odpowiedź wymienia kilka lokali i cytuje to, co asystent mógł o nich przeczytać. Pracę nad tym, żeby trafić do takich odpowiedzi, nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). W restauracji opiera się ona na tym samym co pozycjonowanie lokalne:"),
         li("menu, kuchnia, przedział cen i godziny otwarcia zapisane tekstem na Waszej stronie i w wizytówce Google"),
         li("opinie, które wspominają dania i okazje, żeby asystent dopasował Was do „miejsca na kolację urodzinową”"),
         li("dane strukturalne Restaurant i Menu, które podają fakty w formie czytelnej dla maszyn"),

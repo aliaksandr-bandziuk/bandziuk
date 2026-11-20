@@ -161,7 +161,7 @@ export const treeServiceSeoPl = {
         ),
 
         h2("Pozycjonowanie strony firmy wycinki drzew w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pytania o drzewa ludzie coraz częściej zadają nie wyszukiwarce, tylko ChatGPT, Perplexity albo podsumowaniom AI w Google: „czy na wycięcie brzozy na mojej działce potrzebuję zezwolenia”, „kiedy można ciąć drzewa owocowe”, „kto odpowiada za drzewo sąsiada, które spadło na płot”. Asystent odpowiada na podstawie stron, które potrafi przeczytać, i coraz częściej poleca też wykonawców. GEO (generative engine optimization) i AEO (answer engine optimization) dla firmy wycinki drzew to:"),
+        p("Pytania o drzewa ludzie coraz częściej zadają nie wyszukiwarce, tylko ChatGPT, Perplexity, Gemini albo podsumowaniom AI w Google: „czy na wycięcie brzozy na mojej działce potrzebuję zezwolenia”, „kiedy można ciąć drzewa owocowe”, „kto odpowiada za drzewo sąsiada, które spadło na płot”. Asystent odpowiada na podstawie stron, które potrafi przeczytać, i coraz częściej poleca też wykonawców. GEO (generative engine optimization) i AEO (answer engine optimization) dla firmy wycinki drzew to:"),
         li("odpowiedzi na pytania o przepisy, terminy i stan drzew, podpisane imieniem autora i jego kwalifikacjami"),
         li("zasady wyceny i widełki cen zapisane tekstem"),
         li("gminy, w których pracujesz, polisa OC i kwalifikacje zespołu — identycznie na stronie, w wizytówce i w katalogach"),

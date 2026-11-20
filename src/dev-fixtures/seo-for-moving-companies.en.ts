@@ -112,7 +112,7 @@ export const seoForMovingCompaniesEn = {
         li("the Google Business Profile and the map results for “movers near me”"),
         li("the quote form and how fast a request reaches your estimator"),
         li("registration, insurance and reviews — what a customer checks before handing over everything they own"),
-        li("answers in ChatGPT, Perplexity and Google AI Overviews"),
+        li("answers in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p(
           "Hauling unwanted furniture and clearing out houses is a different trade with different searches; if that is where your trucks spend most days, see the ",
           link("junk removal SEO", "/junk-removal-seo"),

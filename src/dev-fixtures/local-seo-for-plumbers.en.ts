@@ -152,7 +152,7 @@ export const localSeoForPlumbersEn = {
         p("The report then shows calls from the map, calls from the website and calls from ads as separate lines, which is the only way to see what each one brings."),
 
         h2("Local AI search for plumbers: how ChatGPT and Google AI Overviews pick a plumber (GEO, AEO)"),
-        p("Ask ChatGPT, Perplexity or Google’s AI Overviews for “a good emergency plumber in [town]” and the answer is assembled from business listings, review sites and the companies’ own websites. For a plumber, generative engine optimization (GEO) and answer engine optimization (AEO) build on local SEO:"),
+        p("Ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews for “a good emergency plumber in [town]” and the answer is assembled from business listings, review sites and the companies’ own websites. For a plumber, generative engine optimization (GEO) and answer engine optimization (AEO) build on local SEO:"),
         li("the same name, phone and service area on every listing, so the assistant does not confuse you with a similarly named company"),
         li("reviews that say what was fixed and where, which assistants summarize"),
         li("24/7 availability, license and insurance written on your website as text, not only in a badge image"),

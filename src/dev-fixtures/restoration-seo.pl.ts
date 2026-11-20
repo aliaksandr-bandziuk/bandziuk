@@ -165,7 +165,7 @@ export const restorationSeoPl = {
         p("Wyszukiwarka to jedyne z tych źródeł, które nie bierze nic od zlecenia. Rozkręca się miesiącami, więc większość firm nie rezygnuje z pozostałych, tylko z czasem mniej od nich zależy. Przy okazji warto mieć podstronę dla zarządców i wspólnot: szukają firmy, którą wezwą do kilku budynków i która wystawi fakturę na wspólnotę."),
 
         h2("Pozycjonowanie firmy osuszania w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pytania „jak długo trwa osuszanie mieszkania po zalaniu”, „czy po zalaniu trzeba zrywać panele” albo „kto osusza mieszkania w Łodzi” coraz częściej trafiają do ChatGPT, Perplexity i podsumowań AI w Google. Asystent buduje odpowiedź ze stron, które może przeczytać i porównać z innymi źródłami. Ta część pozycjonowania ma dwie nazwy — GEO (generative engine optimization) i AEO (answer engine optimization) — a w firmie osuszania sprowadza się do tego, żeby:"),
+        p("Pytania „jak długo trwa osuszanie mieszkania po zalaniu”, „czy po zalaniu trzeba zrywać panele” albo „kto osusza mieszkania w Łodzi” coraz częściej trafiają do ChatGPT, Perplexity, Gemini i podsumowań AI w Google. Asystent buduje odpowiedź ze stron, które może przeczytać i porównać z innymi źródłami. Ta część pozycjonowania ma dwie nazwy — GEO (generative engine optimization) i AEO (answer engine optimization) — a w firmie osuszania sprowadza się do tego, żeby:"),
         li("czasy osuszania, kolejność prac i przebieg zgłoszenia szkody były opisane na Waszych podstronach"),
         li("obszar działania, dostępność, sprzęt i lata na rynku stały na stronie jako fakty"),
         li("dane strukturalne wskazywały nazwę firmy, usługi i miejscowości"),

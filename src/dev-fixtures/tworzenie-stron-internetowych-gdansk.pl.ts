@@ -152,7 +152,7 @@ export const tworzenieStronInternetowychGdanskPl = {
         ),
 
         h2("Strona internetowa, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Gość planujący weekend w Gdańsku pyta ChatGPT o nocleg blisko Długiego Targu z parkingiem, a kupiec z Hamburga — o gdańską firmę, która serwisuje określone urządzenia. Asystent poleca tylko tych, o których coś przeczyta. Na gdańskich stronach, które buduję, oferta, ceny, adres z dzielnicą, języki obsługi i godziny w sezonie są zwykłym tekstem, który asystent może zacytować, a znaczniki schema.org powtarzają dane z wizytówki Google. Wersja angielska i niemiecka mają te same fakty co polska."),
+        p("Gość planujący weekend w Gdańsku pyta ChatGPT, Perplexity i Gemini o nocleg blisko Długiego Targu z parkingiem, a kupiec z Hamburga — o gdańską firmę, która serwisuje określone urządzenia. Asystent poleca tylko tych, o których coś przeczyta. Na gdańskich stronach, które buduję, oferta, ceny, adres z dzielnicą, języki obsługi i godziny w sezonie są zwykłym tekstem, który asystent może zacytować, a znaczniki schema.org powtarzają dane z wizytówki Google. Wersja angielska i niemiecka mają te same fakty co polska."),
         p(
           "O stałej pracy nad poleceniami w asystentach piszę na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

@@ -163,7 +163,7 @@ export const localSeoForLawyersEn = {
         ),
 
         h2("Local SEO for lawyers in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("When someone asks ChatGPT, Perplexity or Google’s AI Overviews to recommend an immigration lawyer in their city who speaks Spanish, the assistant builds the answer from map data, reviews, legal directories and firm websites. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a law firm it rests on local SEO:"),
+        p("When someone asks ChatGPT, Perplexity, Gemini or Google’s AI Overviews to recommend an immigration lawyer in their city who speaks Spanish, the assistant builds the answer from map data, reviews, legal directories and firm websites. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a law firm it rests on local SEO:"),
         li("the same firm and attorney details on Google, Avvo, Justia, the state bar directory and your site"),
         li("reviews that describe the kind of matter in the client’s words, which assistants summarize"),
         li("practice areas, languages, offices and counties served written as text on the office pages"),

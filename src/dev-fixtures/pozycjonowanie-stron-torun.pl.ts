@@ -57,7 +57,7 @@ export const pozycjonowanieStronTorunPl = {
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google przy Starówce i na osiedlach", text: "Kategoria, zdjęcia, godziny, obszar działania" },
         { _key: k("o"), iconName: "layers", title: "Podstrony usług i miejscowości", text: "Toruń, Lubicz, Obrowo, Chełmża — tam, gdzie pracujecie" },
         { _key: k("o"), iconName: "message-circle", title: "Wersje dla turystów i studentów z zagranicy", text: "Angielska lub niemiecka, z własnymi adresami" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w telefonach i rezerwacjach", text: "Z podziałem na sezon i resztę roku" },
       ],
       prices: [

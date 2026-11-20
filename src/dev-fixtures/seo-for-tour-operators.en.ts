@@ -111,7 +111,7 @@ export const seoForTourOperatorsEn = {
         li("your website: tour pages, destination and activity pages, planning guides"),
         li("Google Search, Maps and the Things to do results for your destination"),
         li("reviews on Google and Tripadvisor, and your OTA listings"),
-        li("answers in ChatGPT, Perplexity and Google AI Overviews"),
+        li("answers in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p(
           "Agencies that resell other companies’ packages face a different search problem, described on the ",
           link("travel agency website", "/travel-agency-website"),

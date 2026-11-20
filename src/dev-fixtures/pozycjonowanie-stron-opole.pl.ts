@@ -64,7 +64,7 @@ export const pozycjonowanieStronOpolePl = {
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google i obszar działania", text: "Opole, Brzeg, Nysa, Krapkowice — tam, gdzie jeździcie" },
         { _key: k("o"), iconName: "layers", title: "Podstrony usług i miejscowości", text: "Każda pisana osobno, bez kopii z podmienionym miastem" },
         { _key: k("o"), iconName: "message-circle", title: "Wersja niemiecka z własnymi frazami", text: "Dla klientów, którzy szukają po niemiecku" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini, podsumowania AI w Google" },
         { _key: k("o"), iconName: "gauge", title: "Poprawki techniczne w kodzie", text: "Szybkość, indeksowanie, przekierowania" },
       ],
       prices: [

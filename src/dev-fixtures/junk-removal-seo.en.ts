@@ -109,7 +109,7 @@ export const junkRemovalSeoEn = {
         li("cleanout pages for estates, rentals, foreclosures and hoarding situations"),
         li("a pricing page built around truck loads"),
         li("service-area pages and the Google Business Profile"),
-        li("answers in ChatGPT, Perplexity and Google AI Overviews"),
+        li("answers in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p(
           "If residential moving is your main line and hauling a side business, the ",
           link("SEO for moving companies", "/seo-for-moving-companies"),

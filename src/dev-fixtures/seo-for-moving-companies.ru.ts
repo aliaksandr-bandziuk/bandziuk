@@ -111,7 +111,7 @@ export const seoForMovingCompaniesRu = {
         li("Google Карты, 2GIS и отзывы"),
         li("цены, кнопки WhatsApp и Telegram, короткая форма"),
         li("версии сайта на языках ваших клиентов"),
-        li("ответы ChatGPT, Perplexity и обзоры от ИИ в Google"),
+        li("ответы ChatGPT, Perplexity, Gemini и обзоры от ИИ в Google"),
         p(
           "Если основная работа — вывоз старой мебели и строительного мусора, а переезды идут дополнительно, вам ближе страница ",
           link("продвижение сайта вывоза мусора", "/ru/prodvizhenie-saita-vyvoza-musora"),

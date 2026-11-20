@@ -50,7 +50,7 @@ export const dentistSeoRu = {
         { _key: k("o"), iconName: "layers", title: "Страница на каждую услугу и врача", text: "Что входит, сколько визитов, вилка цены, кто лечит" },
         { _key: k("o"), iconName: "map-pin", title: "2GIS и Google Карты", text: "Одинаковые адрес, часы и услуги во всех сервисах" },
         { _key: k("o"), iconName: "message-circle", title: "Сайт на нескольких языках", text: "Русский плюс казахский, польский, греческий или грузинский" },
-        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity и обзоры от ИИ в Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity, Gemini и обзоры от ИИ в Google" },
         { _key: k("o"), iconName: "trending-up", title: "Отчёт в записях на приём", text: "Звонки и онлайн-записи из поиска, а не только позиции" },
       ],
       prices: [

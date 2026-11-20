@@ -58,7 +58,7 @@ export const seoServicesForSmallBusinessPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdej usługi", text: "Pod frazy, które wpisują klienci, z miastem lub dzielnicą" },
         { _key: k("o"), iconName: "gauge", title: "Poprawki techniczne w kodzie", text: "Szybkość, indeksowanie, tytuły — robi je ta sama osoba" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google zgodna ze stroną", text: "Kategoria, usługi, godziny i link do właściwej podstrony" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w telefonach i zapytaniach", text: "Co przyniosła wyszukiwarka, nie tylko pozycje" },
       ],
       prices: [

@@ -145,7 +145,7 @@ export const bankSeoPl = {
       _key: k("b"),
       content: [
         h2("Jak sprawić, żeby asystenci AI cytowali produkty banku (GEO, AEO)"),
-        p("Coraz częściej pierwsze pytanie pada nie do wyszukiwarki, tylko do ChatGPT, Perplexity albo przeglądu AI w Google: konto bez opłat dla małej firmy, kredyt dla osoby na działalności, lokata z możliwością wcześniejszego zerwania. Asystent odpowiada z tekstu, który potrafi przeczytać, i ze źródeł, które się ze sobą zgadzają. Bank jest tu wyjątkowo narażony: jeśli warunki leżą w PDF-ie albo w obrazku z tabelą, asystent zacytuje porównywarkę, a ta bywa nieaktualna."),
+        p("Coraz częściej pierwsze pytanie pada nie do wyszukiwarki, tylko do ChatGPT, Perplexity, Gemini albo przeglądu AI w Google: konto bez opłat dla małej firmy, kredyt dla osoby na działalności, lokata z możliwością wcześniejszego zerwania. Asystent odpowiada z tekstu, który potrafi przeczytać, i ze źródeł, które się ze sobą zgadzają. Bank jest tu wyjątkowo narażony: jeśli warunki leżą w PDF-ie albo w obrazku z tabelą, asystent zacytuje porównywarkę, a ta bywa nieaktualna."),
         p(
           "Potrzebne jest zwyczajne i precyzyjne: warunki jako tekst na podstronie, dane strukturalne zgodne z tym, co widać, te same nazwy produktów wszędzie i cykl aktualizacji, który zmienia podstronę wtedy, gdy zmienia się oprocentowanie, a nie miesiąc później. Doprowadzenie działającej strony do tego stanu to osobna praca — ",
           link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),

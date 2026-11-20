@@ -59,7 +59,7 @@ export const pozycjonowanieStronPoznanPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrony usług z dzielnicą lub gminą", text: "Jeżyce, Rataje, Swarzędz, Luboń — tam, gdzie pracujecie" },
         { _key: k("o"), iconName: "gauge", title: "Poprawki w kodzie bez pośredników", text: "Szybkość, indeksowanie, tytuły — robi je ta sama osoba" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google zgodna ze stroną", text: "Kategoria, obszar działania i link do właściwej podstrony" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w telefonach i zapytaniach", text: "Co przyniosła wyszukiwarka, a nie tylko pozycje fraz" },
       ],
       prices: [

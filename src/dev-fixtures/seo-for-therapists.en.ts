@@ -107,7 +107,7 @@ export const seoForTherapistsEn = {
         li("directories such as Psychology Today, which hold most top results for “therapist + city”"),
         li("the map results shown for “near me” searches"),
         li("your own website, for searches about one issue, approach or client group"),
-        li("answers from ChatGPT, Perplexity and Google AI Overviews, which now name individual practitioners"),
+        li("answers from ChatGPT, Perplexity, Gemini and Google AI Overviews, which now name individual practitioners"),
 
         h2("Psychology Today, Headway and directories vs your own therapist website"),
         p("For a search like “therapist Austin”, page one is mostly directories: Psychology Today, GoodTherapy, Zocdoc, and marketplaces such as Headway or Alma. A good directory profile still brings inquiries, and I would not tell anyone to drop it. Its limits are plain, though: you sit in a list of twenty colleagues with the same photo size, the platform sets the rules, and the profile text is short."),

@@ -178,7 +178,7 @@ export const carpentryWebsiteDesignPl = {
         ),
 
         h2("Strona stolarza, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Coraz więcej osób pyta ChatGPT albo podsumowanie AI w Google, kto w okolicy zrobi garderobę na wymiar albo dębowe schody i ile to kosztuje. Asystent odpowiada na podstawie tekstu, który potrafi przeczytać. Rodzaje prac, materiały, ceny „od”, termin realizacji i obszar montażu zapisuję więc w HTML zwykłym tekstem, nie na grafikach, a firmę i usługi opisuję danymi strukturalnymi."),
+        p("Coraz więcej osób pyta ChatGPT, Perplexity, Gemini albo podsumowanie AI w Google, kto w okolicy zrobi garderobę na wymiar albo dębowe schody i ile to kosztuje. Asystent odpowiada na podstawie tekstu, który potrafi przeczytać. Rodzaje prac, materiały, ceny „od”, termin realizacji i obszar montażu zapisuję więc w HTML zwykłym tekstem, nie na grafikach, a firmę i usługi opisuję danymi strukturalnymi."),
         p(
           "Stałą pracę nad tym, żeby asystenci wymieniali stolarnię w odpowiedziach, opisuje strona ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

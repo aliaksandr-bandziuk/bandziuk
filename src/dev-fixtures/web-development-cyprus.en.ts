@@ -171,7 +171,7 @@ export const webDevelopmentCyprusEn = {
       _key: k("b"),
       content: [
         h2("Being found by AI assistants, not only by Google (GEO, AEO)"),
-        p("People choosing a supplier in Cyprus increasingly ask ChatGPT, Perplexity or Google's AI Overviews first — «who builds websites in Limassol», «which firms handle multilingual property sites». An assistant answers from text it can read and from sources that agree with each other. What that requires of a site: services and prices written as text rather than shown in images, markup that matches the visible page, and the same company name, address and service names on the site, the Google Business Profile and any directory that lists you."),
+        p("People choosing a supplier in Cyprus increasingly ask ChatGPT, Perplexity, Gemini or Google's AI Overviews first — «who builds websites in Limassol», «which firms handle multilingual property sites». An assistant answers from text it can read and from sources that agree with each other. What that requires of a site: services and prices written as text rather than shown in images, markup that matches the visible page, and the same company name, address and service names on the site, the Google Business Profile and any directory that lists you."),
         p(
           "Getting an existing site into that state is a separate job: ",
           link("preparing a site for AI search", "/services/ai-search-readiness"),

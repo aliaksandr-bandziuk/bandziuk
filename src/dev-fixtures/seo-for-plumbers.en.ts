@@ -158,7 +158,7 @@ export const seoForPlumbersEn = {
         p("The paid channels bring calls in the first week and stop when the budget does. SEO takes months, but the calls it brings are not shared with competitors and not billed one by one. Many plumbing companies keep Local Services Ads for emergencies and use SEO to rely on them less over time. I do the SEO; I do not run ads or manage platform accounts, but I make sure the pages your ads point to are the same pages that rank."),
 
         h2("AI SEO for plumbers: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Questions like “why is my water heater making noise”, “is a slab leak an emergency” or “who is a reliable plumber in [town]” are now often answered by Google’s AI Overviews, ChatGPT or Perplexity before anyone clicks a link. Getting a plumbing company into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a plumber it means:"),
+        p("Questions like “why is my water heater making noise”, “is a slab leak an emergency” or “who is a reliable plumber in [town]” are now often answered by Google’s AI Overviews, ChatGPT, Perplexity or Gemini before anyone clicks a link. Getting a plumbing company into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a plumber it means:"),
         li("answers to the common “what is wrong with my pipes” questions on your own pages, written with trade knowledge"),
         li("cost ranges and what changes them, in text an assistant can quote"),
         li("license, insurance, years in business, emergency availability and service area stated as plain facts"),

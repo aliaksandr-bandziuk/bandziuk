@@ -143,7 +143,7 @@ export const seoForStartupsEn = {
         li("a changelog with a page per release, so each new feature has an address that can be found and quoted"),
         li("help-center articles open to search engines, unless they contain account-specific details"),
 
-        h2("AI search optimization for startups: how ChatGPT and Perplexity shortlist tools (GEO, AEO)"),
+        h2("AI search optimization for startups: how ChatGPT, Perplexity and Gemini shortlist tools (GEO, AEO)"),
         p("Buyers now ask ChatGPT, Perplexity or Google’s AI Overviews “what is the best tool for X for a team of ten” and get a shortlist before they open a single website. Getting onto that list is the work of generative engine optimization (GEO) and answer engine optimization (AEO). Assistants build such answers from what they can read and cross-check:"),
         li("your own pages, when they state plainly what the product does, for whom, at what price and with which integrations"),
         li("comparison articles, directories, review sites and community threads where your product is discussed"),

@@ -157,7 +157,7 @@ export const carpetCleaningSeoEn = {
         p("Each of them brings bookings while you keep paying. SEO costs work up front and then brings people who chose you by your pages, photos and reviews, without a fee per job. My part is the search side: the site, the profile and the pages your ads point to, so paid and unpaid visitors land on the same strong pages."),
 
         h2("AI SEO for carpet cleaners: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Homeowners now type questions into ChatGPT, Perplexity or Google’s AI Overviews: “is steam cleaning or dry cleaning better for carpet”, “can pet urine be removed from carpet” or “who cleans area rugs near me”. Assistants build those answers from pages they can read and listings they can cross-check. Work on being named in those answers goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). For a carpet cleaner it comes down to:"),
+        p("Homeowners now type questions into ChatGPT, Perplexity, Gemini or Google’s AI Overviews: “is steam cleaning or dry cleaning better for carpet”, “can pet urine be removed from carpet” or “who cleans area rugs near me”. Assistants build those answers from pages they can read and listings they can cross-check. Work on being named in those answers goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). For a carpet cleaner it comes down to:"),
         li("your method, drying time and the products you use written as plain sentences"),
         li("price rules and add-ons stated in text, not only in an image or a PDF"),
         li("structured data naming the business, each cleaning service and the towns you cover"),

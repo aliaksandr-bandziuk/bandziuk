@@ -40,7 +40,7 @@ export const websitePromotionRu = {
   seo: {
     metaTitle: "Раскрутка и SEO-продвижение сайта в Google | Bandziuk",
     metaDescription:
-      "Продвижение сайта в Google и ChatGPT: аудит, семантика, исправления в коде, тексты и отчёт о заявках. Без обещаний «топ-10». Аудит от 250 €, от 800 € в месяц.",
+      "Продвижение сайта в Google и ChatGPT, Perplexity и Gemini: аудит, семантика, исправления в коде, тексты и отчёт о заявках. Без обещаний «топ-10». Аудит от 250 €, от 800 € в месяц.",
   },
   stickyCta: true,
   heroLayout: "landing",

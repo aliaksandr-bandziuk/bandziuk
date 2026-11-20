@@ -143,7 +143,7 @@ export const ecommerceWebDesignEn = {
       _key: k("b"),
       content: [
         h2("Ecommerce website design for AI shopping answers (GEO, AEO)"),
-        p("Buyers increasingly ask ChatGPT, Perplexity or Google's AI Overviews to compare before they open a store. An assistant answers from text and structured data it can read, and a store built as a picture gallery gives it nothing. What makes a catalogue readable: product name, price, availability and delivery terms as text rather than inside an image; product and offer markup that matches what the page shows; one address per product; and the same price and availability on the store, the marketplace listing and the Google Merchant feed."),
+        p("Buyers increasingly ask ChatGPT, Perplexity, Gemini or Google's AI Overviews to compare before they open a store. An assistant answers from text and structured data it can read, and a store built as a picture gallery gives it nothing. What makes a catalogue readable: product name, price, availability and delivery terms as text rather than inside an image; product and offer markup that matches what the page shows; one address per product; and the same price and availability on the store, the marketplace listing and the Google Merchant feed."),
         p(
           "Getting an existing store into that state is its own job: ",
           link("preparing a site for AI search", "/services/ai-search-readiness"),

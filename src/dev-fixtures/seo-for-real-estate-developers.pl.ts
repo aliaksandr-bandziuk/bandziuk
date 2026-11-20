@@ -167,7 +167,7 @@ export const seoForRealEstateDevelopersPl = {
         p("Wynik: od zera do około 2500 wejść organicznych miesięcznie, 96% ruchu z wyszukiwarek, około 10% wizyt organicznych z asystentów AI i wysokie pozycje na wiele niemieckojęzycznych zapytań z krajów DACH. Ani jednego kupionego linku, żadnych Google Ads."),
 
         h2("Pozycjonowanie strony dewelopera w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("„Który deweloper w Krakowie oddaje mieszkania w terminie?”, „Czy ten deweloper jest wiarygodny?”, „Nowe osiedla w Gdyni z dobrym dojazdem?” — takie pytania kupujący zadają asystentom, takim jak ChatGPT i Perplexity, a w Google czytają podsumowanie AI nad wynikami. Odpowiedź to krótka lista firm z uzasadnieniem. Żeby na nią trafić, potrzebne jest GEO (generative engine optimization), nazywane też AEO (answer engine optimization). W praktyce dewelopera to:"),
+        p("„Który deweloper w Krakowie oddaje mieszkania w terminie?”, „Czy ten deweloper jest wiarygodny?”, „Nowe osiedla w Gdyni z dobrym dojazdem?” — takie pytania kupujący zadają asystentom, takim jak ChatGPT, Perplexity i Gemini, a w Google czytają podsumowanie AI nad wynikami. Odpowiedź to krótka lista firm z uzasadnieniem. Żeby na nią trafić, potrzebne jest GEO (generative engine optimization), nazywane też AEO (answer engine optimization). W praktyce dewelopera to:"),
         li("fakty o firmie zwykłym tekstem: lata działalności, oddane inwestycje, liczba lokali"),
         li("zrealizowane inwestycje na stronie z datami i zdjęciami"),
         li("nazwa, adres biura i liczby identyczne na stronie, portalach i w katalogach firm"),

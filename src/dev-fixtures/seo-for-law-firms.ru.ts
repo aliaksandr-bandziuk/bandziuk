@@ -59,7 +59,7 @@ export const seoForLawFirmsRu = {
         { _key: k("o"), iconName: "file-text", title: "Профили юристов и статьи с автором", text: "Опыт, статус и дата — то, что Google проверяет у юридических тем" },
         { _key: k("o"), iconName: "map-pin", title: "2GIS и Google Карты для каждого офиса", text: "Рубрики по практикам, название без ключевых слов" },
         { _key: k("o"), iconName: "message-circle", title: "Версии на языках ваших клиентов", text: "Русский, язык страны и английский через hreflang" },
-        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity и обзоры от ИИ в Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity, Gemini и обзоры от ИИ в Google" },
         { _key: k("o"), iconName: "trending-up", title: "Отчёт в обращениях по практикам", text: "Звонки, WhatsApp, Telegram и формы по направлениям" },
       ],
       prices: [

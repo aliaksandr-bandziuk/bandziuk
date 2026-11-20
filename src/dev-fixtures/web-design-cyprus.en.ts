@@ -151,7 +151,7 @@ export const webDesignCyprusEn = {
       _key: k("b"),
       content: [
         h2("Getting a designed Cyprus site read by AI assistants (GEO, AEO)"),
-        p("A design can quietly hide a business from the assistants people now ask first. Services set in images, prices inside a PDF, a portfolio that loads only after a script runs, an address that appears as part of a picture — all of it looks fine to a visitor and is invisible to ChatGPT, Perplexity or Google's AI overviews. They answer from text they can read and from sources that agree with each other."),
+        p("A design can quietly hide a business from the assistants people now ask first. Services set in images, prices inside a PDF, a portfolio that loads only after a script runs, an address that appears as part of a picture — all of it looks fine to a visitor and is invisible to ChatGPT, Perplexity, Gemini or Google's AI overviews. They answer from text they can read and from sources that agree with each other."),
         p(
           "So the design keeps services, prices and the address as text, structured data that matches what is visible, and content that is present before any script executes. Bringing an existing site to that state is its own job: ",
           link("AI search readiness", "/services/ai-search-readiness"),

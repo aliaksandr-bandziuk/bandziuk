@@ -112,7 +112,7 @@ export const seoForTourOperatorsPl = {
         li("strona: podstrony wycieczek, kierunków i rodzajów wyjazdów, poradniki przed podróżą"),
         li("wizytówka Google i opinie klientów"),
         li("profile w serwisach, w których sprzedajesz wycieczki lub które o Tobie piszą"),
-        li("odpowiedzi ChatGPT, Perplexity i podsumowań AI w Google"),
+        li("odpowiedzi ChatGPT, Perplexity, Gemini i podsumowań AI w Google"),
         p(
           "Jeśli strona wymaga najpierw przebudowy albo zaprojektowania od nowa, opisuję to na stronie ",
           link("strona dla biura podróży", "/pl/strona-dla-biura-podrozy"),

@@ -112,7 +112,7 @@ export const seoForMovingCompaniesPl = {
         li("podstrony usług i kierunków na Twojej stronie"),
         li("wizytówka w Mapach Google i opinie klientów"),
         li("cennik i formularz wyceny, który da się wypełnić w telefonie"),
-        li("odpowiedzi ChatGPT, Perplexity i podsumowania AI w Google"),
+        li("odpowiedzi ChatGPT, Perplexity, Gemini i podsumowania AI w Google"),
         p(
           "Jeśli głównie wywozisz meble i opróżniasz mieszkania, a przeprowadzki są dodatkiem, lepiej pasuje strona ",
           link("pozycjonowanie firmy wywozu gruzu", "/pl/pozycjonowanie-strony-firmy-wywozu-gruzu"),

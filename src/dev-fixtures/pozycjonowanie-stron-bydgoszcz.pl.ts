@@ -63,7 +63,7 @@ export const pozycjonowanieStronBydgoszczPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrony technologii i usług", text: "Obróbka, materiały, branże — frazy, które wpisują zaopatrzeniowcy" },
         { _key: k("o"), iconName: "map-pin", title: "Mapy Google dla Fordonu i okolic", text: "Wizytówka, obszar działania, podstrony miejscowości" },
         { _key: k("o"), iconName: "plug", title: "Zmiany wprowadzane w kodzie strony", text: "WordPress, Next.js i inne systemy, bez pośrednika" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport z zapytań ofertowych i telefonów", text: "Mierzone w GA4 i Google Search Console" },
       ],
       prices: [

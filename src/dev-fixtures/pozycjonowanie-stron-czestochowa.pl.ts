@@ -65,7 +65,7 @@ export const pozycjonowanieStronCzestochowaPl = {
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google przy Jasnej Górze i w dzielnicach", text: "Kategorie, atrybuty, zdjęcia, opinie" },
         { _key: k("o"), iconName: "layers", title: "Podstrony pod pytania gości i klientów", text: "Grupy, parking, dojazd, usługi z dzielnicą" },
         { _key: k("o"), iconName: "message-circle", title: "Wersje językowe dla gości z zagranicy", text: "Angielska i języki, w których przychodzą rezerwacje" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini, podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport z rezerwacji i telefonów", text: "GA4 i Search Console co miesiąc" },
       ],
       prices: [

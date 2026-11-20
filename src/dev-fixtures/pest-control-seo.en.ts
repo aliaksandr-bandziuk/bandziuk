@@ -171,7 +171,7 @@ export const pestControlSeoEn = {
         p("Pest control marketing companies often sell SEO together with ads, call answering and door hangers, sometimes to several firms in one market. Whoever you hire, ask whether reports show booked services from your routing software — PestPac, FieldRoutes, GorillaDesk or similar — whether they work for a competitor in your towns, and who owns the site and profile if you part ways."),
 
         h2("Pest control SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Homeowners type questions such as “how do I know if I have termites”, “is heat treatment better than spraying for bed bugs” or “who does rodent exclusion in [town]” into ChatGPT, Perplexity or Google’s AI Overviews. Assistants assemble those answers from sources they can read and verify. Work on being included is known as generative engine optimization (GEO) or answer engine optimization (AEO). For a pest control company it comes down to:"),
+        p("Homeowners type questions such as “how do I know if I have termites”, “is heat treatment better than spraying for bed bugs” or “who does rodent exclusion in [town]” into ChatGPT, Perplexity, Gemini or Google’s AI Overviews. Assistants assemble those answers from sources they can read and verify. Work on being included is known as generative engine optimization (GEO) or answer engine optimization (AEO). For a pest control company it comes down to:"),
         li("direct answers to identification, prep and safety questions on your own pages, with the owner or a named technician as author"),
         li("plan contents, cost ranges, license and service area written as plain sentences"),
         li("structured data describing the business, its pest services and the towns it covers"),

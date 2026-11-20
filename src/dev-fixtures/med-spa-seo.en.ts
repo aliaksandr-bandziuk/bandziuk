@@ -155,7 +155,7 @@ export const medSpaSeoEn = {
         p("I do SEO and websites; I do not run Instagram, paid social or ads."),
 
         h2("Med spa SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Clients now ask ChatGPT, Perplexity or Google’s AI Overviews questions like “Botox or Dysport for crow’s feet”, “how many laser hair removal sessions do I need” or “which med spa in Tampa has a nurse practitioner for lip filler”. An assistant builds its answer from sources it can compare — treatment pages, the map listing, review sites and directories — and favors a med spa whose facts agree across all of them. Getting a med spa into those answers goes by two names, GEO (generative engine optimization) and AEO (answer engine optimization), and in practice it comes down to:"),
+        p("Clients now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews questions like “Botox or Dysport for crow’s feet”, “how many laser hair removal sessions do I need” or “which med spa in Tampa has a nurse practitioner for lip filler”. An assistant builds its answer from sources it can compare — treatment pages, the map listing, review sites and directories — and favors a med spa whose facts agree across all of them. Getting a med spa into those answers goes by two names, GEO (generative engine optimization) and AEO (answer engine optimization), and in practice it comes down to:"),
         li("treatments, providers and credentials, the medical director, locations, hours and price ranges written as plain sentences"),
         li("two- or three-sentence answers to frequent treatment questions, signed off by your medical director"),
         li("the same business details on the site, Google, Yelp and RealSelf"),

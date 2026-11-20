@@ -172,7 +172,7 @@ export const financialAdvisorSeoEn = {
         p("Pre-written vendor content libraries are often licensed to many firms at once, so the same article appears on many sites and rarely ranks on any of them."),
 
         h2("Financial advisor SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("People now ask ChatGPT, Perplexity and Google’s AI Overviews how to choose a financial advisor, what a fee-only planner charges or which advisors in their city work with physicians. Because money questions are YMYL, assistants lean on sources with verifiable credentials. Work on those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For an advisory firm it means:"),
+        p("People now ask ChatGPT, Perplexity, Gemini and Google’s AI Overviews how to choose a financial advisor, what a fee-only planner charges or which advisors in their city work with physicians. Because money questions are YMYL, assistants lean on sources with verifiable credentials. Work on those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For an advisory firm it means:"),
         li("niches, services, fee model, minimums, locations and credentials written as plain sentences an assistant can quote"),
         li("the same firm and advisor details on the site, in your Form ADV, on FINRA BrokerCheck or the SEC’s Investment Adviser Public Disclosure site, and in the directories you belong to"),
         li("structured data that links the firm, its advisors and its offices"),

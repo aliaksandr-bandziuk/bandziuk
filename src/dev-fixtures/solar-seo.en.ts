@@ -201,7 +201,7 @@ export const solarSeoEn = {
         ),
 
         h2("Solar SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Solar buyers ask AI assistants what they would type into Google, only longer: “which solar installers in Tucson have the best reviews”, “is [company] legit”, “is a battery worth it if my utility pays less for exported power”. ChatGPT, Perplexity and Google’s AI Overviews reply with a few names and the reasons for each. The trade names for working on those replies are GEO (generative engine optimization) and AEO (answer engine optimization); for an installer they mean:"),
+        p("Solar buyers ask AI assistants what they would type into Google, only longer: “which solar installers in Tucson have the best reviews”, “is [company] legit”, “is a battery worth it if my utility pays less for exported power”. ChatGPT, Perplexity, Gemini and Google’s AI Overviews reply with a few names and the reasons for each. The trade names for working on those replies are GEO (generative engine optimization) and AEO (answer engine optimization); for an installer they mean:"),
         li("service area, products, years installing, licenses and warranties stated as plain sentences"),
         li("dated answers to cost, payback and incentive questions on your own pages"),
         li("structured data for the business, its services and the areas it covers"),

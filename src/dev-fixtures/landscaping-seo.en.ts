@@ -160,7 +160,7 @@ export const landscapingSeoEn = {
         ),
 
         h2("AI SEO for landscapers: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Homeowners ask ChatGPT and Google’s AI Overviews “how much does a paver patio cost”, “what grass grows in shade” or “best landscaping companies near me”. The answers come from pages the assistant can read and trust. For a landscaping company, generative engine optimization (GEO) and answer engine optimization (AEO) mean:"),
+        p("Homeowners ask ChatGPT, Perplexity, Gemini and Google’s AI Overviews “how much does a paver patio cost”, “what grass grows in shade” or “best landscaping companies near me”. The answers come from pages the assistant can read and trust. For a landscaping company, generative engine optimization (GEO) and answer engine optimization (AEO) mean:"),
         li("cost ranges for patios, retaining walls, sod and maintenance plans written on your pages, with what changes the price"),
         li("planting and lawn care answers for your climate, not copied from a national guide"),
         li("project pages with text that assistants can cite as examples"),

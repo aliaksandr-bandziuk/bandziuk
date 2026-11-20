@@ -173,7 +173,7 @@ export const dentistSeoEn = {
         p("An independent practice cannot outspend a group on ads, but it can win where group sites are thin: the dentist’s own name and background, real photos of the office and team, and detailed pages for the treatments the practice is known for."),
 
         h2("Dentist SEO for ChatGPT and Google AI Overviews: visibility in AI answers (GEO, AEO)"),
-        p("Patients now ask ChatGPT, Perplexity or Google’s AI Overviews which dentist in their town does implants with sedation, or how much veneers cost, and the answer may name practices before anyone clicks a link. Getting a practice into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a dentist it means:"),
+        p("Patients now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which dentist in their town does implants with sedation, or how much veneers cost, and the answer may name practices before anyone clicks a link. Getting a practice into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a dentist it means:"),
         li("treatments, dentists, credentials, languages spoken, hours and accepted insurance written as plain facts on the site"),
         li("price ranges and financing options in text an assistant can quote"),
         li("structured data marking the practice as a dentist, with its dentists and locations"),

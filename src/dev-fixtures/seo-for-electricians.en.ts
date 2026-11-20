@@ -139,7 +139,7 @@ export const seoForElectriciansEn = {
         p("SEO takes longer — usually two to four months for new pages — but the calls it brings are yours alone. A common setup is to keep Local Services Ads for emergencies while SEO builds the planned-work pages that bring larger jobs. My work covers search; running ads or lead-platform accounts stays with you or your ad agency."),
 
         h2("AI SEO for electricians: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Electrical questions are a natural fit for AI answers: “do I need a permit to install an EV charger”, “why do my lights flicker when the AC starts”, “how much is a panel upgrade”. Google’s AI Overviews and ChatGPT answer them directly, and when the question ends in “who can do this near me”, they name local electricians. This work goes by two names, generative engine optimization (GEO) and answer engine optimization (AEO), and for an electrician it means:"),
+        p("Electrical questions are a natural fit for AI answers: “do I need a permit to install an EV charger”, “why do my lights flicker when the AC starts”, “how much is a panel upgrade”. Google’s AI Overviews and ChatGPT, Perplexity and Gemini answer them directly, and when the question ends in “who can do this near me”, they name local electricians. This work goes by two names, generative engine optimization (GEO) and answer engine optimization (AEO), and for an electrician it means:"),
         li("service pages that answer the cost, permit and safety questions in a few clear sentences"),
         li("license, insurance, service area and years in business written as plain facts"),
         li("structured data that names the business, each service and the areas you cover"),

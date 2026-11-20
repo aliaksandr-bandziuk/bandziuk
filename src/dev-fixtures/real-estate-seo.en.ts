@@ -36,7 +36,7 @@ export const realEstateSeoEn = {
   title: "SEO for Real Estate Websites",
   heading: "SEO for real estate: enquiries that reach your own site, not the portal",
   excerpt:
-    "I do SEO for real estate websites — agencies, investment companies and property businesses — including GEO and AEO, the work that gets a site named in ChatGPT, Perplexity and AI Overviews. A catalogue search engines can crawl, location pages portals cannot match, and prices a buyer can see. Whoever runs the audit also writes the fixes.",
+    "I do SEO for real estate websites — agencies, investment companies and property businesses — including GEO and AEO, the work that gets a site named in ChatGPT, Perplexity, Gemini and AI Overviews. A catalogue search engines can crawl, location pages portals cannot match, and prices a buyer can see. Whoever runs the audit also writes the fixes.",
   seo: {
     metaTitle: "Real estate SEO — enquiries to your site, not the portal",
     metaDescription:

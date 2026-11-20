@@ -173,7 +173,7 @@ export const saasSeoPl = {
         p("Przy sprzedaży przez demo raport idzie dalej, do szans sprzedaży i wartości lejka z ruchu organicznego."),
 
         h2("Pozycjonowanie strony SaaS w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Polscy przedsiębiorcy pytają ChatGPT, Perplexity i Google po polsku: „jaki program do fakturowania dla JDG z KSeF”, „najlepszy CRM dla małej firmy”. Asystent podaje kilka nazw z uzasadnieniem. Zbadałem to sam: 47 pytań zakupowych zadanych ChatGPT, Perplexity i Google AI Mode, 141 przeanalizowanych odpowiedzi. Praca nad takimi odpowiedziami to GEO i AEO, a na stronie SaaS oznacza:"),
+        p("Polscy przedsiębiorcy pytają ChatGPT, Perplexity, Gemini i Google po polsku: „jaki program do fakturowania dla JDG z KSeF”, „najlepszy CRM dla małej firmy”. Asystent podaje kilka nazw z uzasadnieniem. Zbadałem to sam: 47 pytań zakupowych zadanych ChatGPT, Perplexity i Google AI Mode, 141 przeanalizowanych odpowiedzi. Praca nad takimi odpowiedziami to GEO i AEO, a na stronie SaaS oznacza:"),
         li("dla kogo jest program, limity planów, ceny i integracje zapisane tekstem"),
         li("obecność w rankingach i profilach opinii, które asystenci cytują w Waszej kategorii"),
         li("te same fakty na stronie, w Capterra, G2 i katalogach partnerów"),

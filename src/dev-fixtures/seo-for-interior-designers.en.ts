@@ -109,7 +109,7 @@ export const seoForInteriorDesignersEn = {
         li("your website: service pages, area pages, project pages and articles"),
         li("your Google Business Profile and the map results for “interior designer near me”"),
         li("your profiles on Houzz, Instagram and Pinterest, and articles about you in the press"),
-        li("answers in ChatGPT, Perplexity and Google AI Overviews"),
+        li("answers in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p(
           "Layout, portfolio design and the inquiry form are covered on the ",
           link("interior designer website design", "/interior-designer-website-design"),

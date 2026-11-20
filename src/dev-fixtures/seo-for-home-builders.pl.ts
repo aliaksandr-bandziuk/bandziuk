@@ -63,7 +63,7 @@ export const seoForHomeBuildersPl = {
         { _key: k("o"), iconName: "file-text", title: "Cennik etapów, który da się znaleźć", text: "Co obejmuje każdy stan i od czego zależy cena" },
         { _key: k("o"), iconName: "image", title: "Realizacje z miejscowością i metrażem", text: "Opis, technologia i zdjęcia z kolejnych etapów" },
         { _key: k("o"), iconName: "map-pin", title: "Mapy Google i opinie inwestorów", text: "Obszar działania, zdjęcia z budów, odpowiedzi" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w zapytaniach i umowach", text: "Telefon, formularz, WhatsApp — z podstroną" },
       ],
       prices: [

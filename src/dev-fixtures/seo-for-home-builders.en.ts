@@ -114,7 +114,7 @@ export const seoForHomeBuildersEn = {
         li("community and builder names, typed after a drive past a sign or a mention by a realtor"),
         li("plan and product searches — “single-story 4-bedroom homes”, “homes with a casita”, “quick move-in homes”"),
         li("custom-build questions — “custom home builder [county]”, “build on your own lot”, “cost to build a house in [state]”"),
-        li("the same questions asked in ChatGPT, Perplexity and Google AI Overviews"),
+        li("the same questions asked in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p(
           "Everything here is about companies that build houses. General contractors, remodelers and commercial construction firms are searched in other ways; their version is on the ",
           link("SEO for construction companies", "/seo-for-construction-companies"),

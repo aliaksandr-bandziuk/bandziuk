@@ -160,7 +160,7 @@ export const pozycjonowanieStronKrakowPl = {
         ),
 
         h2("Pozycjonowanie stron w Krakowie w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Turysta pyta ChatGPT, gdzie zjeść obiad z widokiem na Wawel, a mieszkaniec — który ortodonta w Krakowie przyjmuje w soboty. Asystenci i podsumowania AI w Google polecają firmy, o których mogą przeczytać konkretne, spójne informacje. Tę pracę nazywa się GEO (generative engine optimization) lub AEO (answer engine optimization), a w moim pozycjonowaniu obejmuje:"),
+        p("Turysta pyta ChatGPT, Perplexity, Gemini, gdzie zjeść obiad z widokiem na Wawel, a mieszkaniec — który ortodonta w Krakowie przyjmuje w soboty. Asystenci i podsumowania AI w Google polecają firmy, o których mogą przeczytać konkretne, spójne informacje. Tę pracę nazywa się GEO (generative engine optimization) lub AEO (answer engine optimization), a w moim pozycjonowaniu obejmuje:"),
         li("fakty o firmie zapisane zdaniami, które da się zacytować: usługi, dzielnica, godziny, języki obsługi, widełki cen"),
         li("dane strukturalne zgodne z wizytówką Google, także w wersjach językowych"),
         li("odpowiedzi na pytania, które klienci zadają po polsku i po angielsku"),

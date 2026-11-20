@@ -139,7 +139,7 @@ export const veterinarySeoEn = {
         p("Corporate groups such as VCA or Banfield have strong brands, hundreds of location pages and budgets to match. An independent practice wins on what a template location page cannot show: the names and faces of its vets, how long they have served the town, the species and services they really handle, and reviews that mention them by name. Detailed care pages, a real team page and a well-kept profile let a single clinic outrank a chain location for its own neighborhood."),
 
         h2("Veterinary SEO and AI search: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Pet owners now ask ChatGPT, Perplexity or Google’s AI Overviews “which vet near me treats rabbits” or “is it an emergency if my dog is vomiting” before they open any website. Getting a clinic into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a veterinary practice it means:"),
+        p("Pet owners now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews “which vet near me treats rabbits” or “is it an emergency if my dog is vomiting” before they open any website. Getting a clinic into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a veterinary practice it means:"),
         li("services, species, hours, emergency policy and the vets’ credentials written as plain text an assistant can quote"),
         li("structured data marking the business as a veterinary care provider, with its services and locations"),
         li("reviewed answers to common owner questions on your own pages"),

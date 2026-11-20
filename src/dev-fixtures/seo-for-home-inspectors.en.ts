@@ -155,7 +155,7 @@ export const seoForHomeInspectorsEn = {
         p("Inspections follow the housing market: busy from spring through summer, slower in the colder months and when mortgage rates rise. The slow weeks are the best time to write add-on pages, update the sample report and collect photos, because new pages take weeks to settle in search. Pre-listing and new construction pages can help keep the calendar fuller when buyer inspections drop."),
 
         h2("SEO for home inspectors in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("“What does a home inspection include?”, “Is a sewer scope worth it?” and “Who is a good home inspector in [town]?” are now often answered by ChatGPT, Perplexity or Google’s AI Overviews before anyone opens a website. Being part of those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For an inspector it comes down to:"),
+        p("“What does a home inspection include?”, “Is a sewer scope worth it?” and “Who is a good home inspector in [town]?” are now often answered by ChatGPT, Perplexity, Gemini or Google’s AI Overviews before anyone opens a website. Being part of those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For an inspector it comes down to:"),
         li("clear answers about scope, duration, price and add-ons on your own pages"),
         li("license, memberships, insurance and service area stated as plain facts"),
         li("structured data marking the business, its services and the area it covers"),

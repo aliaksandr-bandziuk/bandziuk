@@ -64,7 +64,7 @@ export const mortgageBrokerSeoPl = {
         { _key: k("o"), iconName: "map-pin", title: "Miasta i wizytówka Google eksperta", text: "Biuro, dojazd do klienta, opinie po podpisaniu umowy" },
         { _key: k("o"), iconName: "shield-check", title: "Dane z rejestru KNF i ostrożne sformułowania", text: "Numer wpisu, status, RRSO tam, gdzie potrzebne" },
         { _key: k("o"), iconName: "message-circle", title: "Wersje dla klientów z zagranicy", text: "Angielski, ukraiński lub rosyjski — gdy ich obsługujecie" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport we wnioskach i umowach", text: "Z wyszukiwarki, bez żadnych danych klientów" },
       ],
       prices: [

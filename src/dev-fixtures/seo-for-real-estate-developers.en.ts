@@ -182,7 +182,7 @@ export const seoForRealEstateDevelopersEn = {
         p("The numbers: organic traffic went from nothing to about 2,500 visits a month; search brings 96% of all traffic; AI assistants account for about 10% of organic visits; and many German-language queries from the DACH countries show the site in top positions. Not a single bought link, no Google Ads."),
 
         h2("SEO for real estate developers in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("“Which developers in Austin deliver on time?”, “Is this off-plan project reliable?”, “Best new condo developments near the beach in Sarasota?” — buyers type these into ChatGPT and Perplexity and read Google’s AI Overviews before they call anyone. The assistant shortlists a few companies and says why. Getting onto that shortlist is what GEO (generative engine optimization) and AEO (answer engine optimization) mean. For a developer the groundwork is:"),
+        p("“Which developers in Austin deliver on time?”, “Is this off-plan project reliable?”, “Best new condo developments near the beach in Sarasota?” — buyers type these into ChatGPT, Perplexity and Gemini and read Google’s AI Overviews before they call anyone. The assistant shortlists a few companies and says why. Getting onto that shortlist is what GEO (generative engine optimization) and AEO (answer engine optimization) mean. For a developer the groundwork is:"),
         li("company facts as plain text: years active, completed projects, licenses, warranties"),
         li("completed developments kept online with dates and photos"),
         li("the same company name, addresses and figures on your site, portals and directories"),

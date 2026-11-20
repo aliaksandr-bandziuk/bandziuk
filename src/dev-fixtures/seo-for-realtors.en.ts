@@ -118,7 +118,7 @@ export const seoForRealtorsEn = {
         li("your own website: bio page, neighborhood pages, market reports, valuation and contact forms"),
         li("your Google Business Profile and the map results for “realtor near me”"),
         li("your profiles and reviews on Zillow, Realtor.com and your brokerage’s site"),
-        li("answers in ChatGPT, Perplexity and Google AI Overviews"),
+        li("answers in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p(
           "This page is for individual agents and teams. Brokerages that run a full listings catalog and developers selling a project have different problems, described on the ",
           link("SEO for real estate", "/seo-for-real-estate"),

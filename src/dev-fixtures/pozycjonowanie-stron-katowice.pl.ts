@@ -173,7 +173,7 @@ export const pozycjonowanieStronKatowicePl = {
         ),
 
         h2("Pozycjonowanie stron w Katowicach w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Coraz więcej osób zamiast przeglądać wyniki pyta ChatGPT albo czyta podsumowanie AI nad wynikami Google: „kto montuje klimatyzację w Katowicach i okolicach”, „sala na konferencję dla 80 osób w Katowicach”. Asystent wskazuje te firmy, o których w sieci leżą konkretne, zgodne ze sobą informacje. Tę pracę nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization) i w moim pozycjonowaniu jest jej stałą częścią:"),
+        p("Coraz więcej osób zamiast przeglądać wyniki pyta ChatGPT, Perplexity, Gemini albo czyta podsumowanie AI nad wynikami Google: „kto montuje klimatyzację w Katowicach i okolicach”, „sala na konferencję dla 80 osób w Katowicach”. Asystent wskazuje te firmy, o których w sieci leżą konkretne, zgodne ze sobą informacje. Tę pracę nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization) i w moim pozycjonowaniu jest jej stałą częścią:"),
         li("usługi, obszar działania w metropolii, widełki cen i godziny zapisane zwykłymi zdaniami"),
         li("dane strukturalne opisujące firmę dokładnie tak, jak robi to jej wizytówka w Mapach"),
         li("odpowiedzi na pytania, które klienci zadają, zanim zamówią usługę"),

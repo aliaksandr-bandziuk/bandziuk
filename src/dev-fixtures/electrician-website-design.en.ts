@@ -158,7 +158,7 @@ export const electricianWebsiteDesignEn = {
         ),
 
         h2("Electrician website design that ChatGPT and Google AI Overviews can read"),
-        p("When someone asks ChatGPT or Google’s AI Overviews for an electrician nearby who installs chargers, the answer is built from what the assistant can read. A design that puts facts in images — a license number inside a badge, services inside a banner — hides them. Here every fact stays as text: services, areas, license, insurance, hours, with structured data and the same details as your Google profile."),
+        p("When someone asks ChatGPT, Perplexity, Gemini or Google’s AI Overviews for an electrician nearby who installs chargers, the answer is built from what the assistant can read. A design that puts facts in images — a license number inside a badge, services inside a banner — hides them. Here every fact stays as text: services, areas, license, insurance, hours, with structured data and the same details as your Google profile."),
         p(
           "Getting into AI answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

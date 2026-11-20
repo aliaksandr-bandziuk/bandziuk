@@ -176,7 +176,7 @@ export const jewelryStoreSeoPl = {
         p("Marki biżuterii autorskiej często zaczynają od Allegro, Etsy, Pakamery albo Instagrama. Tam sprzedaż przychodzi szybko, ale z prowizją i obok dziesiątek podobnych ofert, a pozycjonowanie w samym serwisie rządzi się jego zasadami. Własna strona może być wysoko na nazwę marki, nazwy kolekcji i techniki, z którymi pracujesz, a każde zamówienie z niej jest wyłącznie Twoje. Te same fakty o marce na stronie i w serwisach pomagają Google i asystentom AI połączyć je w jedną całość."),
 
         h2("Pozycjonowanie strony sklepu jubilerskiego w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pytania „gdzie w Krakowie kupić pierścionek z diamentem laboratoryjnym”, „który jubiler w Gdańsku robi obrączki na zamówienie” czy „złoto 585 czy 750 na pierścionek na co dzień” coraz częściej trafiają do ChatGPT, Perplexity i podsumowań AI w Google. Asystent poleca sklepy, o których znajduje sprawdzalne fakty. GEO i AEO dla jubilera oznaczają:"),
+        p("Pytania „gdzie w Krakowie kupić pierścionek z diamentem laboratoryjnym”, „który jubiler w Gdańsku robi obrączki na zamówienie” czy „złoto 585 czy 750 na pierścionek na co dzień” coraz częściej trafiają do ChatGPT, Perplexity, Gemini i podsumowań AI w Google. Asystent poleca sklepy, o których znajduje sprawdzalne fakty. GEO i AEO dla jubilera oznaczają:"),
         li("kruszce, próby, certyfikaty, zasady zwrotu i przebieg zamówienia indywidualnego zapisane tekstem, a nie tylko na zdjęciach czy w PDF"),
         li("poradniki, które odpowiadają na pytanie w pierwszych zdaniach, podpisane przez jubilera albo złotnika"),
         li("dane strukturalne Product, Offer i JewelryStore łączące katalog z firmą"),

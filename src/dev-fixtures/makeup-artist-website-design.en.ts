@@ -173,7 +173,7 @@ export const makeupArtistWebsiteDesignEn = {
         ),
 
         h2("A makeup artist website that ChatGPT and Google AI Overviews can read"),
-        p("Brides and planners now ask assistants questions like “a bridal makeup artist in Napa who travels to wineries” or “an SFX makeup artist in Atlanta for a short film”. ChatGPT and Google’s AI Overviews answer from text they can read. So services, areas, prices, languages and the kinds of work you take are written on the page as text, not inside images, the pages are served as HTML from the server, structured data describes you as a local business with a service area, and robots.txt names the AI crawlers that may visit. That is how I set up Giuseppe’s psychotherapy site, and ChatGPT now quotes pages he published after launch."),
+        p("Brides and planners now ask assistants questions like “a bridal makeup artist in Napa who travels to wineries” or “an SFX makeup artist in Atlanta for a short film”. ChatGPT, Perplexity, Gemini and Google’s AI Overviews answer from text they can read. So services, areas, prices, languages and the kinds of work you take are written on the page as text, not inside images, the pages are served as HTML from the server, structured data describes you as a local business with a service area, and robots.txt names the AI crawlers that may visit. That is how I set up Giuseppe’s psychotherapy site, and ChatGPT now quotes pages he published after launch."),
         p(
           "Getting named in those answers over time is the subject of the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

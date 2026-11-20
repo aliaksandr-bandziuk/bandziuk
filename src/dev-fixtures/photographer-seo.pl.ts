@@ -165,7 +165,7 @@ export const photographerSeoPl = {
         p("Pilnuję, żeby nazwa, telefon i adres strony były wszędzie takie same, a link prowadził do podstrony gatunku. Płatnych wpisów w katalogach, których nikt nie przegląda, nie polecam."),
 
         h2("Pozycjonowanie fotografa w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Ludzie pytają ChatGPT, Perplexity i podsumowania AI w Google: „polecisz fotografa ślubnego w stylu reportażowym w Trójmieście?”, „ile kosztuje sesja noworodkowa w Krakowie?”, „gdzie zrobić zdjęcia produktów do sklepu w Poznaniu?”. Asystent wymienia fotografów, o których znajduje konkretne informacje. Pracę nad tym nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization):"),
+        p("Ludzie pytają ChatGPT, Perplexity, Gemini i podsumowania AI w Google: „polecisz fotografa ślubnego w stylu reportażowym w Trójmieście?”, „ile kosztuje sesja noworodkowa w Krakowie?”, „gdzie zrobić zdjęcia produktów do sklepu w Poznaniu?”. Asystent wymienia fotografów, o których znajduje konkretne informacje. Pracę nad tym nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization):"),
         li("gatunki, miasto, obszar dojazdu, ceny lub widełki i czas oddania zdjęć zapisane prostymi zdaniami"),
         li("odpowiedzi na pytania, które klienci zadają w wiadomościach"),
         li("dane strukturalne firmy i usług zgodne z wizytówką Google"),

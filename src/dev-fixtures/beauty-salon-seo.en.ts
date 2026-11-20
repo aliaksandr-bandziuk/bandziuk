@@ -38,7 +38,7 @@ export const beautySalonSeoEn = {
   title: "SEO for Beauty Salons",
   heading: "SEO for beauty salons: filled appointment slots, not a ranking report",
   excerpt:
-    "I do SEO for beauty salons, including GEO and AEO — the work that gets a salon named in ChatGPT, Perplexity and Google's AI answers. A page per treatment, a Google Business Profile that wins the map pack, prices and durations as text rather than as an Instagram photo, and a booking path short enough to finish. Whoever runs the audit also writes the fixes.",
+    "I do SEO for beauty salons, including GEO and AEO — the work that gets a salon named in ChatGPT, Perplexity, Gemini and Google's AI answers. A page per treatment, a Google Business Profile that wins the map pack, prices and durations as text rather than as an Instagram photo, and a booking path short enough to finish. Whoever runs the audit also writes the fixes.",
   seo: {
     metaTitle: "Beauty salon SEO — bookings from Google and AI answers",
     metaDescription:

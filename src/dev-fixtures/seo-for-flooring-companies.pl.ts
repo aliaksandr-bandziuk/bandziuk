@@ -176,7 +176,7 @@ export const seoForFlooringCompaniesPl = {
         ),
 
         h2("Pozycjonowanie strony firmy montażu podłóg w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Coraz więcej pytań o podłogi trafia najpierw do ChatGPT, Perplexity albo do podsumowań AI w Google: „panele winylowe czy deska warstwowa na ogrzewanie podłogowe”, „ile schnie lakier po cyklinowaniu”, „dobra firma od cyklinowania na Ursynowie”. Odpowiedź powstaje z tekstów, które model może odczytać i porównać z innymi źródłami. Pracę nad obecnością w takich odpowiedziach określa się skrótami GEO (generative engine optimization) i AEO (answer engine optimization); w firmie podłogowej obejmuje ona:"),
+        p("Coraz więcej pytań o podłogi trafia najpierw do ChatGPT, Perplexity, Gemini albo do podsumowań AI w Google: „panele winylowe czy deska warstwowa na ogrzewanie podłogowe”, „ile schnie lakier po cyklinowaniu”, „dobra firma od cyklinowania na Ursynowie”. Odpowiedź powstaje z tekstów, które model może odczytać i porównać z innymi źródłami. Pracę nad obecnością w takich odpowiedziach określa się skrótami GEO (generative engine optimization) i AEO (answer engine optimization); w firmie podłogowej obejmuje ona:"),
         li("porównania materiałów pisane z Twoich realizacji, także z tym, gdzie dany materiał się nie sprawdza"),
         li("widełki cen i czas prac zapisane tekstem, a nie tylko w PDF z ofertą"),
         li("marki, które montujesz albo sprzedajesz, i gwarancja na montaż opisane tak samo na stronie i w wizytówce"),

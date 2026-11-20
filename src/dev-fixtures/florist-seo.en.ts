@@ -158,7 +158,7 @@ export const floristSeoEn = {
         p("Quiet months go to new delivery area pages, wedding pages and technical fixes, so the site is stronger before the next peak than it was before the last one."),
 
         h2("Florist SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("People now ask ChatGPT, Perplexity or Google’s AI Overviews things like “which florist in [town] delivers on Sunday”, “what flowers to send for a 50th anniversary” or “how much do wedding flowers cost in [city]”. Those answers are assembled from pages the assistant can read and cross-check; the work of getting into them goes by the names GEO (generative engine optimization) and AEO (answer engine optimization). In a flower shop it comes down to four things:"),
+        p("People now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews things like “which florist in [town] delivers on Sunday”, “what flowers to send for a 50th anniversary” or “how much do wedding flowers cost in [city]”. Those answers are assembled from pages the assistant can read and cross-check; the work of getting into them goes by the names GEO (generative engine optimization) and AEO (answer engine optimization). In a flower shop it comes down to four things:"),
         li("delivery areas, fees, cutoff times and hours written as plain sentences, not only inside a checkout widget"),
         li("occasion guides and wedding price ranges answered directly on your pages, signed by the owner or the lead florist"),
         li("structured data that describes the business as a Florist, with its address, hours and delivery area"),

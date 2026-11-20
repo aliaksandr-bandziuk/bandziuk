@@ -149,7 +149,7 @@ export const spaWebsiteDesignPl = {
         ),
 
         h2("Strona spa, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Goście pytają już ChatGPT: „spa dla dwojga w Krakowie z sauną” albo „gdzie kupić voucher na masaż w Gdyni”. Asystent poleci tylko miejsce, o którym przeczyta konkretne fakty. Dlatego zabiegi, czas trwania, ceny, pakiety, vouchery i godziny są na stronie tekstem wysyłanym z serwera, a nie w PDF-ie czy na grafice, i są opisane w danych strukturalnych."),
+        p("Goście pytają już ChatGPT, Perplexity i Gemini: „spa dla dwojga w Krakowie z sauną” albo „gdzie kupić voucher na masaż w Gdyni”. Asystent poleci tylko miejsce, o którym przeczyta konkretne fakty. Dlatego zabiegi, czas trwania, ceny, pakiety, vouchery i godziny są na stronie tekstem wysyłanym z serwera, a nie w PDF-ie czy na grafice, i są opisane w danych strukturalnych."),
         p(
           "Dalszą pracę nad tym, żeby ChatGPT i inni asystenci wymieniali Twoje spa, opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

@@ -112,7 +112,7 @@ export const seoForRecruitmentAgenciesEn = {
         li("the candidate side: job pages, Google for Jobs, permanent job category pages and advice for job seekers"),
         li("the employer side: sector and city pages, recruiter profiles, salary guides and placement stories"),
         li("the map: a Google Business Profile for each office, with reviews from candidates and clients"),
-        li("answers in ChatGPT, Perplexity and Google AI Overviews"),
+        li("answers in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p("Candidates bring volume; employers bring the fees. On many agency sites the job board gets all the attention and the employer gets one “Hire talent” page. I usually start on the employer side and keep the candidate side technically clean."),
 
         h2("Employer-side recruitment agency SEO: sector and city pages for hiring managers"),

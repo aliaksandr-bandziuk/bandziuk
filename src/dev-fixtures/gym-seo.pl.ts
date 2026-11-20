@@ -63,7 +63,7 @@ export const gymSeoPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrony zajęć, których ludzie szukają", text: "Pilates, zdrowy kręgosłup, boks, cross" },
         { _key: k("o"), iconName: "shield-check", title: "Karty sportowe opisane wprost", text: "MultiSport, Medicover Sport, FitProfit" },
         { _key: k("o"), iconName: "message-circle", title: "Opinie, które wymieniają zajęcia", text: "Prośba w dobrym momencie, odpowiedź zawsze" },
-        { _key: k("o"), iconName: "sparkles", title: "Klub w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Klub w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w zapisach i karnetach", text: "Źródło klienta z systemu klubowego" },
       ],
       prices: [

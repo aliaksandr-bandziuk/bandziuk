@@ -155,7 +155,7 @@ export const hairSalonWebsiteDesignPl = {
         ),
 
         h2("Strona salonu fryzjerskiego, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Klientki pytają już ChatGPT: „dobry salon do kręconych włosów w Krakowie” albo „barber w Poznaniu czynny w niedzielę”. Asystent poleci tylko salon, o którym coś przeczyta. Dlatego usługi, specjalizacje fryzjerów, ceny, godziny i zasady wizyt są na stronie zwykłym tekstem wysyłanym z serwera, a nie obrazkiem, i powtórzone w danych strukturalnych zgodnych z wizytówką Google."),
+        p("Klientki pytają już ChatGPT, Perplexity i Gemini: „dobry salon do kręconych włosów w Krakowie” albo „barber w Poznaniu czynny w niedzielę”. Asystent poleci tylko salon, o którym coś przeczyta. Dlatego usługi, specjalizacje fryzjerów, ceny, godziny i zasady wizyt są na stronie zwykłym tekstem wysyłanym z serwera, a nie obrazkiem, i powtórzone w danych strukturalnych zgodnych z wizytówką Google."),
         p(
           "Stała praca nad tym, by asystenci AI polecali Twój salon, to osobna usługa: ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

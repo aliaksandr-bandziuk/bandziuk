@@ -61,7 +61,7 @@ export const insuranceAgencySeoPl = {
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google każdej placówki", text: "Kategoria, godziny, zdjęcia i link do podstrony placówki" },
         { _key: k("o"), iconName: "shield-check", title: "Dane zgodne z rejestrem KNF", text: "Numer wpisu, towarzystwa, autor i data przy poradnikach" },
         { _key: k("o"), iconName: "message-circle", title: "Opinie po likwidacji szkody", text: "Prośba w dobrym momencie, odpowiedź bez szczegółów polisy" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w kalkulacjach i polisach", text: "Telefony, formularze i WhatsApp według rodzaju ubezpieczenia" },
       ],
       prices: [

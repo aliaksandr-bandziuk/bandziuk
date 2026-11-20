@@ -163,7 +163,7 @@ export const websitePerformanceAndCodeAuditEn = {
       _key: k("b"),
       content: [
         h2("Why speed decides whether AI assistants can read your site at all (GEO, AEO)"),
-        p("The crawlers behind ChatGPT, Perplexity and Google's AI answers are stricter than Googlebot in one specific way: most of them do not execute JavaScript, and the ones that fetch a page give it far less time. A site that renders its content in the browser sends them an almost empty document, so an assistant asked about your company finds nothing to quote — not because the text is wrong, but because it was never in the HTML."),
+        p("The crawlers behind ChatGPT, Perplexity, Gemini and Google's AI answers are stricter than Googlebot in one specific way: most of them do not execute JavaScript, and the ones that fetch a page give it far less time. A site that renders its content in the browser sends them an almost empty document, so an assistant asked about your company finds nothing to quote — not because the text is wrong, but because it was never in the HTML."),
         p(
           "That makes rendering a visibility question, not only a speed question: whatever you want quoted has to be in the server's response, as text. Getting an existing site into that state is ",
           link("preparing a site for AI search", "/services/ai-search-readiness"),

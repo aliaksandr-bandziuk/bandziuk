@@ -193,7 +193,7 @@ export const carpentryWebsiteDesignEn = {
         p("They show real projects sorted by type, say where the shop works, give a price range and make sending measurements easy. Fonts and colors matter less than whether a client finds a staircase like theirs in two taps."),
 
         h2("A carpentry website that ChatGPT and Google AI Overviews can read"),
-        p("People now ask ChatGPT or Google’s AI Overviews who builds custom kitchens or oak stairs nearby and what that costs. The assistant answers from text it can parse. Types of work, wood species, starting prices, lead time, install area and license details sit in the page code as plain text rather than inside photos or a gallery script, and the business and its services get structured data."),
+        p("People now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews who builds custom kitchens or oak stairs nearby and what that costs. The assistant answers from text it can parse. Types of work, wood species, starting prices, lead time, install area and license details sit in the page code as plain text rather than inside photos or a gallery script, and the business and its services get structured data."),
         p(
           "Being named in those answers over time is a separate job; I describe it on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

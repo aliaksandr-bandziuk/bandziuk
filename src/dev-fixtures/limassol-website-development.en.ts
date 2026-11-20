@@ -161,7 +161,7 @@ export const limassolWebsiteDevelopmentEn = {
       _key: k("b"),
       content: [
         h2("Getting a Limassol company recommended by AI assistants (GEO, AEO)"),
-        p("Buyers increasingly ask ChatGPT, Perplexity or Google's AI overviews before they ask anyone else: who builds multilingual websites in Limassol, who takes on a site with a catalogue. An assistant answers from text it can read and from sources that agree with each other. So services and prices belong in text rather than in an image; structured data has to match what is visible on the page; and the company name, address and service names have to be identical on the site, in the maps profile and in the directories that list the company."),
+        p("Buyers increasingly ask ChatGPT, Perplexity, Gemini or Google's AI overviews before they ask anyone else: who builds multilingual websites in Limassol, who takes on a site with a catalogue. An assistant answers from text it can read and from sources that agree with each other. So services and prices belong in text rather than in an image; structured data has to match what is visible on the page; and the company name, address and service names have to be identical on the site, in the maps profile and in the directories that list the company."),
         p(
           "Bringing a working site to that state is its own job: ",
           link("AI search readiness", "/services/ai-search-readiness"),

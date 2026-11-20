@@ -161,7 +161,7 @@ export const seoForChiropractorsEn = {
         p("I write the structure, the search data and the drafts; the chiropractor checks every clinical statement before it goes live."),
 
         h2("SEO for chiropractors in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Patients now ask ChatGPT, Perplexity or Google “what does a chiropractor do for sciatica” or “which chiropractor near me takes Blue Cross and works on Saturdays”. The assistant names a few offices with reasons for each. Earning a place in those replies goes by two names, generative engine optimization (GEO) and answer engine optimization (AEO); in a chiropractic office it comes down to:"),
+        p("Patients now ask ChatGPT, Perplexity, Gemini or Google “what does a chiropractor do for sciatica” or “which chiropractor near me takes Blue Cross and works on Saturdays”. The assistant names a few offices with reasons for each. Earning a place in those replies goes by two names, generative engine optimization (GEO) and answer engine optimization (AEO); in a chiropractic office it comes down to:"),
         li("conditions, techniques, doctors, hours, insurance plans and languages written as plain sentences"),
         li("answers to common patient questions on the condition pages, signed by the chiropractor"),
         li("the same office details on the site, Google, Yelp and Healthgrades"),

@@ -169,7 +169,7 @@ export const carDealerWebsiteDesignPl = {
         ),
 
         h2("Strona komisu samochodowego, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Część kupujących pyta ChatGPT albo podsumowania AI w Google, który komis w okolicy ma auta z fakturą VAT albo daje leasing na auto używane. Asystent korzysta tylko z tego, co da się przeczytać. Oferta i warunki zapisane na grafikach albo w zewnętrznym widżecie są dla niego niewidoczne; te same informacje jako tekst, z danymi strukturalnymi Car i AutoDealer generowanymi z importu, dają mu materiał do odpowiedzi."),
+        p("Część kupujących pyta ChatGPT, Perplexity, Gemini albo podsumowania AI w Google, który komis w okolicy ma auta z fakturą VAT albo daje leasing na auto używane. Asystent korzysta tylko z tego, co da się przeczytać. Oferta i warunki zapisane na grafikach albo w zewnętrznym widżecie są dla niego niewidoczne; te same informacje jako tekst, z danymi strukturalnymi Car i AutoDealer generowanymi z importu, dają mu materiał do odpowiedzi."),
         p(
           "Żeby asystenci faktycznie polecali Twój komis, trzeba nad tym pracować dalej; zakres tej usługi opisuje strona ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

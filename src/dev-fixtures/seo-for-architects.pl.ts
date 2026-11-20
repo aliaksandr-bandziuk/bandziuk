@@ -187,7 +187,7 @@ export const seoForArchitectsPl = {
         p("Zbudowałem stronę od nowa na WordPressie, zachowując projekt graficzny, który klient lubił, ze strukturą SEO gotową na rozbudowę, sekcją realizacji i wersjami EN, PL i DE. Ruch organiczny wzrósł 29 razy, a zapytania przychodzą co tydzień. Wniosek dla pracowni architektonicznej: w branży, w której klient nie zna fachowych nazw, podstrony muszą odpowiadać na pytania zadane jego słowami."),
 
         h2("Pozycjonowanie pracowni architektonicznej w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Coraz więcej osób pyta ChatGPT, Perplexity albo podsumowania AI w Google: „który architekt w Trójmieście projektuje nowoczesne stodoły”, „ile trwa projekt domu z pozwoleniem na budowę”, „kto zrobi adaptację projektu gotowego w okolicach Opola”. Asystent wymienia pracownie, o których znajduje sprawdzalne fakty. Pracę nad tym nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization):"),
+        p("Coraz więcej osób pyta ChatGPT, Perplexity, Gemini albo podsumowania AI w Google: „który architekt w Trójmieście projektuje nowoczesne stodoły”, „ile trwa projekt domu z pozwoleniem na budowę”, „kto zrobi adaptację projektu gotowego w okolicach Opola”. Asystent wymienia pracownie, o których znajduje sprawdzalne fakty. Pracę nad tym nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization):"),
         li("usługi, typy budynków, miasto i obszar działania zapisane prostymi zdaniami"),
         li("realizacje z opisem, które asystent może przytoczyć jako przykład"),
         li("dane strukturalne pracowni, usług i realizacji zgodne z wizytówką Google"),

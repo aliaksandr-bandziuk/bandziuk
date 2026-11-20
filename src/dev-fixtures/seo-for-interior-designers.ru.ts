@@ -110,7 +110,7 @@ export const seoForInteriorDesignersRu = {
         li("сайт: страницы услуг и городов, страницы проектов, статьи"),
         li("карточка в Google Картах, а в Казахстане и на Кипре — ещё и в 2GIS"),
         li("Instagram, Pinterest, Behance и публикации о вас"),
-        li("ответы нейросетей: ChatGPT, Perplexity, обзоры от ИИ в Google"),
+        li("ответы нейросетей: ChatGPT, Perplexity, Gemini, обзоры от ИИ в Google"),
         p(
           "Как устроить сам сайт — портфолио, страницы проектов, анкету — рассказано на странице ",
           link("сайт дизайнера интерьера", "/ru/sait-dizainera-interera"),

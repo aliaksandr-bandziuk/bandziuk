@@ -107,7 +107,7 @@ export const pozycjonowanieStronGdanskPl = {
         li("strona — podstrony usług, tytuły, szybkość na telefonie, dane strukturalne i treść odpowiadająca na pytania klientów"),
         li("Mapy Google — wizytówka, która pokazuje się przy wyszukiwaniach z „Gdańsk” albo z nazwą dzielnicy"),
         li("wersje językowe — tam, gdzie klienci szukają po angielsku, po niemiecku albo w innym języku"),
-        li("odpowiedzi ChatGPT, Perplexity i podsumowania AI w Google"),
+        li("odpowiedzi ChatGPT, Perplexity, Gemini i podsumowania AI w Google"),
         p("Nie dzielę tego na pakiety. Po audycie dostajecie jedną listę zadań, ułożoną według tego, co przyniesie najwięcej telefonów i rezerwacji, i ta lista jest planem na kolejne miesiące."),
 
         h2("Gdańsk jako rynek: port, stocznie, turystyka i usługi dla mieszkańców"),

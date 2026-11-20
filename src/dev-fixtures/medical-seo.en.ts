@@ -105,7 +105,7 @@ export const medicalSeoEn = {
         p("A patient choosing a dermatologist or a physical therapist usually looks in three places before booking:"),
         li("the map results — three practices with a rating, hours and a phone number, shown first for “near me” searches"),
         li("the regular results, where your site competes with Zocdoc, Healthgrades, WebMD and the hospital system in town"),
-        li("AI answers — Google AI Overviews and assistants like ChatGPT, which recommend practices by name"),
+        li("AI answers — Google AI Overviews and assistants like ChatGPT, Perplexity, Gemini, which recommend practices by name"),
         p("SEO for a medical practice works on all three: the website pages that answer what patients search, the Google profile, reviews, and the facts assistants read. Unlike a hospital, a private practice has a handful of locations and a short list of treatments it wants more of, so the work is focused and results are easier to trace."),
 
         h2("Procedure and treatment pages in medical practice SEO"),

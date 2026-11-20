@@ -60,7 +60,7 @@ export const pozycjonowanieStronWroclawPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrony usług, osiedli i gmin", text: "Krzyki, Psie Pole, Smolec, Długołęka — tam, gdzie pracujecie" },
         { _key: k("o"), iconName: "message-circle", title: "Wersje językowe pod wyszukiwania", text: "Angielska, ukraińska, niemiecka — gdy dane to uzasadniają" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google w dużym mieście", text: "Kategoria, obszar działania, zgodność ze stroną" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w zapytaniach, nie w pozycjach", text: "Telefony, formularze i zapytania ofertowe z wyszukiwarki" },
       ],
       prices: [

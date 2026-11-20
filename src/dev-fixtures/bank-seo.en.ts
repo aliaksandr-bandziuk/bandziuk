@@ -147,7 +147,7 @@ export const bankSeoEn = {
       _key: k("b"),
       content: [
         h2("Getting a bank's products quoted by AI assistants (GEO, AEO)"),
-        p("People increasingly ask ChatGPT, Perplexity or Google's AI overviews which bank does what: an account with no monthly fee for a small company, a mortgage for a self-employed borrower, a deposit that allows early withdrawal. An assistant answers from text it can read and from sources that agree with each other, and a bank is unusually exposed here — if the conditions live in a PDF or a table image, the assistant quotes a comparison site instead, and the comparison site may be out of date."),
+        p("People increasingly ask ChatGPT, Perplexity, Gemini or Google's AI overviews which bank does what: an account with no monthly fee for a small company, a mortgage for a self-employed borrower, a deposit that allows early withdrawal. An assistant answers from text it can read and from sources that agree with each other, and a bank is unusually exposed here — if the conditions live in a PDF or a table image, the assistant quotes a comparison site instead, and the comparison site may be out of date."),
         p(
           "What this requires is ordinary and precise: conditions as text on the page, structured data matching what is visible, the same product names everywhere, and a review cycle that updates the page when the rate changes rather than a month later. Bringing an existing site to that state is its own job — ",
           link("AI search readiness", "/services/ai-search-readiness"),

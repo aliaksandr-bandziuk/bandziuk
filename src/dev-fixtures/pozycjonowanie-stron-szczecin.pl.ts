@@ -60,7 +60,7 @@ export const pozycjonowanieStronSzczecinPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrony usług z dzielnicą lub gminą", text: "Pogodno, Prawobrzeże, Mierzyn, Police — tam, gdzie pracujecie" },
         { _key: k("o"), iconName: "message-circle", title: "Niemieckie podstrony pod „Stettin”", text: "Dla klientów z Meklemburgii i Brandenburgii" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google po obu stronach Odry", text: "Kategoria, obszar działania, opinie po polsku i niemiecku" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w telefonach i zapytaniach", text: "GA4 i Search Console, pozycje fraz obok, nie zamiast" },
       ],
       prices: [

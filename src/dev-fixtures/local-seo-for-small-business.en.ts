@@ -152,7 +152,7 @@ export const localSeoForSmallBusinessEn = {
         li("local business associations and the chamber of commerce"),
 
         h2("Local SEO for small business in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("When someone asks ChatGPT, Perplexity or Google’s AI Overviews where to get keys cut nearby or which bakery makes gluten-free cakes in their town, the assistant builds the answer from map data, listings, reviews and business websites. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a local business it rests on local SEO:"),
+        p("When someone asks ChatGPT, Perplexity, Gemini or Google’s AI Overviews where to get keys cut nearby or which bakery makes gluten-free cakes in their town, the assistant builds the answer from map data, listings, reviews and business websites. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a local business it rests on local SEO:"),
         li("the same details on Google, Apple, Bing, Yelp and your website, so the assistant can be sure which business it is describing"),
         li("reviews that say what was done, which assistants summarize"),
         li("your services, area and hours written as text on the website, not only shown in images"),

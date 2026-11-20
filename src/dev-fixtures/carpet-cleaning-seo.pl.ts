@@ -158,7 +158,7 @@ export const carpetCleaningSeoPl = {
         p("Pozycjonowanie wymaga pracy na początku, a potem przynosi klientów, którzy wybrali Was po stronie, zdjęciach i opiniach, bez opłaty za każde zapytanie. Portale nie muszą znikać od razu — z czasem po prostu coraz mniej od nich zależycie."),
 
         h2("Pozycjonowanie strony firmy prania dywanów w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pytania typu „czy pranie kanapy na mokro jest bezpieczne”, „jak długo schnie dywan po praniu”, „kto pierze dywany z odbiorem w Gdańsku” ludzie zadają dziś ChatGPT, Perplexity i podsumowaniom AI w Google. Asystent odpowiada na podstawie stron, które może przeczytać, i danych, które może sprawdzić w kilku miejscach. Taką pracę nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization); w firmie prania dywanów oznacza ona:"),
+        p("Pytania typu „czy pranie kanapy na mokro jest bezpieczne”, „jak długo schnie dywan po praniu”, „kto pierze dywany z odbiorem w Gdańsku” ludzie zadają dziś ChatGPT, Perplexity, Gemini i podsumowaniom AI w Google. Asystent odpowiada na podstawie stron, które może przeczytać, i danych, które może sprawdzić w kilku miejscach. Taką pracę nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization); w firmie prania dywanów oznacza ona:"),
         li("metodę prania, czas schnięcia i używane środki opisane zwykłymi zdaniami"),
         li("zasady cennika i dopłaty zapisane tekstem, nie tylko na grafice"),
         li("dane strukturalne z nazwą firmy, usługami i obszarem działania"),

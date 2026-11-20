@@ -111,7 +111,7 @@ export const seoServicesForSmallBusinessEn = {
         p("For a small business, search decides in three places whether a customer gets in touch:"),
         li("your website — service pages, titles, speed, structured data and the text that answers customers’ questions"),
         li("your Google Business Profile — the listing that appears in Google Maps and next to searches for your name"),
-        li("AI answers — ChatGPT, Perplexity and Google AI Overviews, which name businesses they can read about"),
+        li("AI answers — ChatGPT, Perplexity, Gemini and Google AI Overviews, which name businesses they can read about"),
         p(
           "Small business SEO services treat these as one job: research, fixes, new pages, the listing and reporting. The map side in depth — reviews, citations, service areas, location pages — has its own page, ",
           link("local SEO for small business", "/local-seo-for-small-business"),

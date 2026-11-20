@@ -150,7 +150,7 @@ export const hvacSeoEn = {
         p("HVAC companies usually book jobs in field service software such as ServiceTitan, Housecall Pro or Jobber. SEO for an HVAC company should be measured there: calls and online bookings from organic search and the map tagged as their own source, so you see booked jobs and revenue from SEO next to ads and referrals. I set up call tracking and booking-form tracking that keeps your main number consistent on the profile and listings."),
 
         h2("AI SEO for HVAC companies: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Questions like “should I replace my furnace or repair it”, “are heat pumps worth it” or “best HVAC company near me” now get an answer from ChatGPT, Perplexity or Google’s AI Overviews before any website is opened. Generative engine optimization (GEO) and answer engine optimization (AEO) work on what those answers are built from:"),
+        p("Questions like “should I replace my furnace or repair it”, “are heat pumps worth it” or “best HVAC company near me” now get an answer from ChatGPT, Perplexity, Gemini or Google’s AI Overviews before any website is opened. Generative engine optimization (GEO) and answer engine optimization (AEO) work on what those answers are built from:"),
         li("clear, dated answers to repair-or-replace, heat pump and efficiency questions on your pages"),
         li("license, insurance, dealer status and emergency hours written as plain facts"),
         li("structured data for the business, its services and service area"),

@@ -173,7 +173,7 @@ export const manufacturingSeoEn = {
         ),
 
         h2("Manufacturing SEO for ChatGPT and Google AI Overviews: supplier shortlists (GEO, AEO)"),
-        p("Procurement teams and engineers now ask ChatGPT, Perplexity or Google’s AI Overviews for a first list of suppliers: “contract manufacturers in the US with ISO 13485 that do silicone overmolding”, “machine shops in Ohio that work Inconel”. The assistant answers with a few names and a reason for each. A plant that is not described clearly anywhere does not make the list. Work on those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a manufacturer it means:"),
+        p("Procurement teams and engineers now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews for a first list of suppliers: “contract manufacturers in the US with ISO 13485 that do silicone overmolding”, “machine shops in Ohio that work Inconel”. The assistant answers with a few names and a reason for each. A plant that is not described clearly anywhere does not make the list. Work on those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a manufacturer it means:"),
         li("processes, materials, tolerances, lot sizes and industries written as plain sentences on your pages"),
         li("certifications with their scope, and the plant locations, stated as text"),
         li("structured data for the company and its locations"),

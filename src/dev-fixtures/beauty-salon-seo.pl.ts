@@ -33,7 +33,7 @@ export const beautySalonSeoPl = {
   title: "Pozycjonowanie strony salonu kosmetycznego",
   heading: "Pozycjonowanie strony salonu kosmetycznego: zapełnione okna w grafiku, a nie raport o pozycjach",
   excerpt:
-    "Zajmuję się pozycjonowaniem stron salonów kosmetycznych razem z GEO i AEO — pracą, po której salon jest wymieniany w odpowiedziach ChatGPT, Perplexity i przeglądów AI w Google. Podstrona pod każdy zabieg, profil Google wygrywający mapę, ceny i czas trwania tekstem, a nie zdjęciem cennika, i droga do rezerwacji, którą da się dokończyć. Audyt i poprawki robi jedna osoba.",
+    "Zajmuję się pozycjonowaniem stron salonów kosmetycznych razem z GEO i AEO — pracą, po której salon jest wymieniany w odpowiedziach ChatGPT, Perplexity, Gemini i przeglądów AI w Google. Podstrona pod każdy zabieg, profil Google wygrywający mapę, ceny i czas trwania tekstem, a nie zdjęciem cennika, i droga do rezerwacji, którą da się dokończyć. Audyt i poprawki robi jedna osoba.",
   seo: {
     metaTitle: "SEO salonu kosmetycznego — rezerwacje z Google i AI",
     metaDescription:

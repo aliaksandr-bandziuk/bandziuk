@@ -21,7 +21,7 @@ export const chatgptSeoServicesEn = {
   title: "ChatGPT SEO services",
   heading: "ChatGPT SEO Services: Getting Your Business Named in ChatGPT",
   excerpt:
-    "I provide ChatGPT SEO services: work that gets your business named — with the right facts — when buyers ask ChatGPT who to hire or what to buy, measured with a fixed set of questions before and after.",
+    "I provide ChatGPT, Perplexity and Gemini SEO services: work that gets your business named — with the right facts — when buyers ask ChatGPT who to hire or what to buy, measured with a fixed set of questions before and after.",
   seo: {
     metaTitle: "ChatGPT SEO Services: Get Named in ChatGPT | Bandziuk",
     metaDescription:

@@ -158,7 +158,7 @@ export const tworzenieStronInternetowychKrakowPl = {
         p("Krakowskie firmy instalacyjne mają też swój lokalny temat: w mieście, w którym od kilku lat nie wolno palić w domach węglem ani drewnem, mieszkańcy szukają informacji o wymianie ogrzewania, pompach ciepła i dofinansowaniach. Podstrona, która spokojnie odpowiada na te pytania, przyprowadza klientów lepiej niż sama lista usług."),
 
         h2("Strona internetowa, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Ludzie pytają ChatGPT: „apartament na Kazimierzu z parkingiem”, „English-speaking dentist in Kraków”, „szkoła językowa dla dzieci na Ruczaju”. Asystenci polecają miejsca, o których mogą przeczytać konkretne informacje. Dlatego na stronach, które buduję, usługi, dzielnica, godziny, ceny i języki obsługi są zapisane tekstem w każdej wersji językowej, a dane strukturalne opisują firmę tak samo jak wizytówka Google."),
+        p("Ludzie pytają ChatGPT, Perplexity i Gemini: „apartament na Kazimierzu z parkingiem”, „English-speaking dentist in Kraków”, „szkoła językowa dla dzieci na Ruczaju”. Asystenci polecają miejsca, o których mogą przeczytać konkretne informacje. Dlatego na stronach, które buduję, usługi, dzielnica, godziny, ceny i języki obsługi są zapisane tekstem w każdej wersji językowej, a dane strukturalne opisują firmę tak samo jak wizytówka Google."),
         p(
           "Systematyczne budowanie obecności w odpowiedziach asystentów to temat strony ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

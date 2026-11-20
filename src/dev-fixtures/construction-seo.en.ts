@@ -127,7 +127,7 @@ export const constructionSeoEn = {
         p("Credentials work the same way on the website: licences, insurance, warranties and memberships written as text and marked up as structured data, so both clients and search engines can read them. What is not done: bought reviews or reviews only from happy clients. Both break Google’s rules and are easy to detect."),
 
         h2("AI SEO for construction companies: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("More clients now ask ChatGPT, Perplexity or Google’s AI Overviews to recommend a builder before they open any website. Those answers are put together from what the assistant can read and trust: your Google profile, reviews, directory listings and your own pages. Getting into them is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a construction company it is part of the same SEO work:"),
+        p("More clients now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews to recommend a builder before they open any website. Those answers are put together from what the assistant can read and trust: your Google profile, reviews, directory listings and your own pages. Getting into them is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a construction company it is part of the same SEO work:"),
         li("services, areas, years in business and credentials written as plain facts an assistant can quote, not only shown in images"),
         li("structured data that names the company, its services and the areas it covers"),
         li("the same company details on the website, the profile and directories, so an assistant does not confuse you with another firm"),

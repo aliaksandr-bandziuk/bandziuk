@@ -158,7 +158,7 @@ export const b2bSeoEn = {
         ),
 
         h2("B2B SEO for ChatGPT and Google AI Overviews: getting onto AI vendor shortlists (GEO, AEO)"),
-        p("B2B buyers now ask ChatGPT, Perplexity or Google’s AI Overviews to suggest suppliers before they open a list of links: “which EU manufacturers make food-grade conveyor belts”, “compare WMS vendors for a mid-sized 3PL”. The assistant returns a short list, and a company that is not on it may never be considered. Getting onto that list is called generative engine optimization (GEO) or answer engine optimization (AEO). For a B2B company it means:"),
+        p("B2B buyers now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews to suggest suppliers before they open a list of links: “which EU manufacturers make food-grade conveyor belts”, “compare WMS vendors for a mid-sized 3PL”. The assistant returns a short list, and a company that is not on it may never be considered. Getting onto that list is called generative engine optimization (GEO) or answer engine optimization (AEO). For a B2B company it means:"),
         li("what you make or do, for which industries, in which countries and from what order size — written as plain facts on your pages"),
         li("certificates, standards and capacities stated as text, not only as logos"),
         li("use-case and comparison pages that answer the questions buyers put to assistants"),

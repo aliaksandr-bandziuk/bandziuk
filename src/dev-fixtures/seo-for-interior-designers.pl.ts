@@ -109,7 +109,7 @@ export const seoForInteriorDesignersPl = {
         li("strona: podstrony usług, miast i dzielnic, realizacje, artykuły"),
         li("wizytówka Google i wyniki w Mapach na „projektant wnętrz w pobliżu”"),
         li("profile na Homebooku, Instagramie i Pinterest oraz publikacje o Tobie"),
-        li("odpowiedzi ChatGPT, Perplexity i podsumowania AI w Google"),
+        li("odpowiedzi ChatGPT, Perplexity, Gemini i podsumowania AI w Google"),
         p(
           "Układ strony, portfolio i formularz opisuję na stronie ",
           link("strona internetowa dla projektanta wnętrz", "/pl/strona-internetowa-dla-projektanta-wnetrz"),

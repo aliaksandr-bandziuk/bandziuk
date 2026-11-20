@@ -163,7 +163,7 @@ export const cateringSeoEn = {
         p("During its season a page is linked from the home page; afterwards it stays live, so the photos and reviews from this year’s holiday parties help sell next year’s."),
 
         h2("Catering SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Planners increasingly type their questions into ChatGPT, Perplexity or Google’s AI Overviews: “who does corporate catering in [city] for 150 people”, “which caterers near [venue] offer halal menus” or “how much should I budget for wedding catering for 120 guests”. The answers are put together from pages the assistant can read and compare with other sources; the work of getting into them is called GEO (generative engine optimization) or AEO (answer engine optimization). For a caterer it rests on four things:"),
+        p("Planners increasingly type their questions into ChatGPT, Perplexity, Gemini or Google’s AI Overviews: “who does corporate catering in [city] for 150 people”, “which caterers near [venue] offer halal menus” or “how much should I budget for wedding catering for 120 guests”. The answers are put together from pages the assistant can read and compare with other sources; the work of getting into them is called GEO (generative engine optimization) or AEO (answer engine optimization). For a caterer it rests on four things:"),
         li("headcounts, service area, lead time and price-per-person ranges written as plain sentences"),
         li("event-type pages that answer planning questions directly, signed by the owner or the chef"),
         li("structured data that describes the business, its services and the area it serves"),

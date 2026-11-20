@@ -44,7 +44,7 @@ export const constructionSeoRu = {
         { _key: k("o"), iconName: "layers", title: "Страницы для каждой услуги и района", text: "Под то, что вводят клиенты: работа плюс город" },
         { _key: k("o"), iconName: "image", title: "Страницы объектов, которые читает поиск", text: "Вид работ, место и площадь текстом рядом с фото" },
         { _key: k("o"), iconName: "message-circle", title: "Отзывы, привязанные к объектам", text: "Просьба при сдаче, ответ в течение нескольких дней" },
-        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity и обзоры от ИИ в Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity, Gemini и обзоры от ИИ в Google" },
         { _key: k("o"), iconName: "trending-up", title: "Отчёт в заявках", text: "Звонки и запросы расчёта, а не только позиции" },
       ],
       prices: [

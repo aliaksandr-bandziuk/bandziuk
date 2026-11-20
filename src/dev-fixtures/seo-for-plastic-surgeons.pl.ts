@@ -149,7 +149,7 @@ export const seoForPlasticSurgeonsPl = {
         p("„Ile kosztuje powiększanie piersi”, „plastyka powiek cena” i „operacja plastyczna na raty” to jedne z najczęstszych pytań. Polskie kliniki zwykle publikują cenniki, a ceny w tekście — nie w PDF ani na grafice — są informacją, nie reklamą. Podstrona kosztów dla każdej operacji podaje widełki, wyjaśnia, od czego zależy cena — technika, znieczulenie, pobyt, odzież uciskowa, kontrole — i mówi, że ostateczną kwotę ustala chirurg na konsultacji. Osobna podstrona opisuje raty: z kim współpracujecie i jak złożyć wniosek."),
 
         h2("Pozycjonowanie strony chirurga plastycznego w ChatGPT i AI Overviews (GEO, AEO)"),
-        p("Pacjenci pytają dziś ChatGPT, Perplexity i przegląd AI w Google, który chirurg w Poznaniu specjalizuje się w plastyce nosa albo jak długo trwa powrót do pracy po abdominoplastyce. Mówi się o tym GEO — od generative engine optimization — lub AEO, od answer engine optimization. Asystent cytuje fakty, które potrafi przeczytać i potwierdzić w kilku źródłach:"),
+        p("Pacjenci pytają dziś ChatGPT, Perplexity, Gemini i przegląd AI w Google, który chirurg w Poznaniu specjalizuje się w plastyce nosa albo jak długo trwa powrót do pracy po abdominoplastyce. Mówi się o tym GEO — od generative engine optimization — lub AEO, od answer engine optimization. Asystent cytuje fakty, które potrafi przeczytać i potwierdzić w kilku źródłach:"),
         li("chirurdzy, specjalizacje, operacje, adresy i języki zapisane prostymi faktami"),
         li("krótkie odpowiedzi na pytania o operacje, sprawdzone przez chirurga"),
         li("identyczne dane kliniki na stronie, w Mapach Google i w ZnanyLekarz"),

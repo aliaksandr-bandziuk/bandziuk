@@ -63,7 +63,7 @@ export const pozycjonowanieStronLodzPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrony osiedli i miast aglomeracji", text: "Bałuty, Retkinia, Zgierz, Pabianice — gdzie pracujecie" },
         { _key: k("o"), iconName: "gauge", title: "Zmiany w kodzie robione od razu", text: "Szybkość, indeksowanie, przekierowania, tytuły" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google i opinie", text: "Kategorie, usługi, obszar działania, odpowiedzi" },
-        { _key: k("o"), iconName: "sparkles", title: "Obecność w odpowiedziach AI", text: "ChatGPT, Perplexity, podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini, podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport z zapytań, nie z samych pozycji", text: "Telefony, formularze i rezerwacje z wyszukiwarki" },
       ],
       prices: [

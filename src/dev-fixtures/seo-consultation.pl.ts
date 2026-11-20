@@ -185,7 +185,7 @@ export const seoConsultationPl = {
         p("Dla zespołu oznacza to mniej zgadywania i mniej poprawek po wdrożeniu, a wiedza o SEO zostaje w firmie."),
 
         h2("Konsultacje SEO o widoczności w ChatGPT i Google AI Overviews"),
-        p("Coraz więcej pytań na konsultacjach dotyczy wyszukiwania AI: dlaczego ChatGPT poleca konkurencję, czy podsumowania AI w Google odbierają stronie ruch, jak pisać podstrony, które asystenci cytują. To zwykła część konsultacji SEO, bo asystenci w dużej mierze korzystają z tych samych stron, które widzi Google."),
+        p("Coraz więcej pytań na konsultacjach dotyczy wyszukiwania AI: dlaczego ChatGPT, Perplexity i Gemini poleca konkurencję, czy podsumowania AI w Google odbierają stronie ruch, jak pisać podstrony, które asystenci cytują. To zwykła część konsultacji SEO, bo asystenci w dużej mierze korzystają z tych samych stron, które widzi Google."),
         p(
           "Odpowiadam na podstawie pomiarów: zadałem 47 pytań zakupowych ChatGPT, Perplexity i Google AI Mode i opublikowałem ",
           link("analizę 141 odpowiedzi", "/pl/blog/pozycjonowanie-w-ai-badanie"),

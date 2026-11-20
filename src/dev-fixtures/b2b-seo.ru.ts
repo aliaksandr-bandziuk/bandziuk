@@ -52,7 +52,7 @@ export const b2bSeoRu = {
         { _key: k("o"), iconName: "layers", title: "Страницы отраслей и применений", text: "Под каждую отрасль клиентов и каждую задачу" },
         { _key: k("o"), iconName: "file-text", title: "Каталог, который читает поиск", text: "Характеристики текстом, PDF и запрос КП" },
         { _key: k("o"), iconName: "message-circle", title: "Языковые версии для экспорта", text: "Английский, польский, немецкий — через hreflang" },
-        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity и обзоры от ИИ в Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity, Gemini и обзоры от ИИ в Google" },
         { _key: k("o"), iconName: "trending-up", title: "Отчёт в заявках и сделках", text: "Источник каждой заявки виден в CRM" },
       ],
       prices: [

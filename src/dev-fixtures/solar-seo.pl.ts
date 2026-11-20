@@ -184,7 +184,7 @@ export const solarSeoPl = {
         ),
 
         h2("Pozycjonowanie strony firmy fotowoltaicznej w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pytania „która firma fotowoltaiczna pod Opolem ma dobre opinie”, „czy magazyn energii opłaca się w net-billingu” albo „czy ta firma PV jest wiarygodna” coraz częściej zadaje się ChatGPT, Perplexity albo podsumowaniom AI nad wynikami Google. W odpowiedzi padają dwie, trzy nazwy firm i krótkie uzasadnienie. Pracę nad tymi odpowiedziami nazywa się GEO i AEO, a u instalatora oznacza ona:"),
+        p("Pytania „która firma fotowoltaiczna pod Opolem ma dobre opinie”, „czy magazyn energii opłaca się w net-billingu” albo „czy ta firma PV jest wiarygodna” coraz częściej zadaje się ChatGPT, Perplexity, Gemini albo podsumowaniom AI nad wynikami Google. W odpowiedzi padają dwie, trzy nazwy firm i krótkie uzasadnienie. Pracę nad tymi odpowiedziami nazywa się GEO i AEO, a u instalatora oznacza ona:"),
         li("obszar działania, usługi, lata na rynku, gwarancje i certyfikaty zapisane zwykłymi zdaniami"),
         li("odpowiedzi o kosztach, opłacalności i dotacjach z datą aktualizacji"),
         li("dane strukturalne firmy, usług i obszaru działania"),

@@ -36,7 +36,7 @@ export const realEstateSeoPl = {
   title: "Pozycjonowanie stron nieruchomości",
   heading: "Pozycjonowanie strony nieruchomości: zapytania trafiają na Waszą stronę, a nie na portal",
   excerpt:
-    "Zajmuję się pozycjonowaniem stron nieruchomości — biur, firm inwestycyjnych i deweloperskich — razem z GEO i AEO, czyli pracą, po której stronę wymieniają odpowiedzi ChatGPT, Perplexity i AI Overviews. Katalog, który wyszukiwarka potrafi przejść, podstrony lokalizacji, jakich nie mają portale, i ceny, które klient widzi. Audyt i poprawki robi jedna osoba.",
+    "Zajmuję się pozycjonowaniem stron nieruchomości — biur, firm inwestycyjnych i deweloperskich — razem z GEO i AEO, czyli pracą, po której stronę wymieniają odpowiedzi ChatGPT, Perplexity, Gemini i AI Overviews. Katalog, który wyszukiwarka potrafi przejść, podstrony lokalizacji, jakich nie mają portale, i ceny, które klient widzi. Audyt i poprawki robi jedna osoba.",
   seo: {
     metaTitle: "SEO nieruchomości — zapytania na Waszą stronę, nie portal",
     metaDescription:

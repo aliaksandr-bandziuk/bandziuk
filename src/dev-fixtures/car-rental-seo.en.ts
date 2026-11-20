@@ -108,7 +108,7 @@ export const carRentalSeoEn = {
         li("the website — fleet, location and airport pages, the booking engine, and answers about deposits and insurance"),
         li("a Google Business Profile for each office and pickup point"),
         li("aggregator listings and directories, where your details must match the site"),
-        li("answers in ChatGPT, Perplexity and Google’s AI Overviews"),
+        li("answers in ChatGPT, Perplexity, Gemini and Google’s AI Overviews"),
 
         h2("Car rental SEO keywords: how travelers and locals search for a rental car"),
         p("Before any page is written I collect search data for your city, airport and fleet. The phrases fall into groups that need different pages:"),

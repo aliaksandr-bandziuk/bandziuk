@@ -55,7 +55,7 @@ export const hotelSeoRu = {
         { _key: k("o"), iconName: "layers", title: "Страница на каждую категорию номера", text: "Стандарт, семейный, люкс, апартаменты, залы" },
         { _key: k("o"), iconName: "map-pin", title: "2GIS и Google Карты", text: "Рубрика, удобства, фото и ссылка на бронирование" },
         { _key: k("o"), iconName: "message-circle", title: "Языковые версии для иностранных гостей", text: "Русский, английский и язык страны через hreflang" },
-        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity и обзоры от ИИ в Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity, Gemini и обзоры от ИИ в Google" },
         { _key: k("o"), iconName: "trending-up", title: "Отчёт в прямых бронированиях", text: "Брони через модуль на сайте, а не только позиции" },
       ],
       prices: [

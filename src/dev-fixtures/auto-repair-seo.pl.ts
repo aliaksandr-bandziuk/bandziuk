@@ -56,7 +56,7 @@ export const autoRepairSeoPl = {
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google, która trafia do map", text: "Kategoria, usługi, zdjęcia hali, godziny, telefon" },
         { _key: k("o"), iconName: "file-text", title: "Widełki cenowe zamiast „zadzwoń”", text: "Przedział i od czego zależy, na każdej podstronie" },
         { _key: k("o"), iconName: "search", title: "Frazy po naprawach i markach", text: "Prawdziwe dane wyszukiwań, a nie domysły" },
-        { _key: k("o"), iconName: "sparkles", title: "GEO i AEO dla odpowiedzi AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "GEO i AEO dla odpowiedzi AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w telefonach i zapisach", text: "Nie tylko pozycje, ale zgłoszenia" },
       ],
     },    {

@@ -173,7 +173,7 @@ export const seoForItCompaniesEn = {
         li("staging and preview deployments indexed next to the live site"),
 
         h2("SEO for IT companies in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Before they open a single vendor site, many CTOs and IT managers ask an AI assistant — ChatGPT, Perplexity, Google’s AI Overviews — for a shortlist: “software development companies in Poland with healthcare experience”, “MSPs in Chicago that support Mac environments”. The assistant names a few firms with a reason for each. Getting into those lists is the job of GEO and AEO, generative and answer engine optimization. On an IT company’s site and profiles it comes down to:"),
+        p("Before they open a single vendor site, many CTOs and IT managers ask an AI assistant — ChatGPT, Perplexity, Gemini, Google’s AI Overviews — for a shortlist: “software development companies in Poland with healthcare experience”, “MSPs in Chicago that support Mac environments”. The assistant names a few firms with a reason for each. Getting into those lists is the job of GEO and AEO, generative and answer engine optimization. On an IT company’s site and profiles it comes down to:"),
         li("services, stacks, industries, team size, time zones and locations written as plain sentences"),
         li("case studies with facts an assistant can repeat"),
         li("the same details on the site, Clutch, G2, LinkedIn and partner directories"),

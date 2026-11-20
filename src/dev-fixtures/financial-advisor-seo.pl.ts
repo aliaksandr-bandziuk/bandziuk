@@ -61,7 +61,7 @@ export const financialAdvisorSeoPl = {
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google w Twoim mieście", text: "Kategoria, obszar działania, spotkania online" },
         { _key: k("o"), iconName: "file-text", title: "Artykuły z autorem i datą", text: "Odpowiedzi na pytania, z którymi klienci przychodzą" },
         { _key: k("o"), iconName: "shield-check", title: "Ostrożne sformułowania", text: "Bez obietnic zysku, z danymi z rejestrów" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w umówionych spotkaniach", text: "Telefony, formularze i kalendarz z wyszukiwarki" },
       ],
       prices: [

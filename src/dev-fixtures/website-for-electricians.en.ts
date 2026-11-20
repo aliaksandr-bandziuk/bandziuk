@@ -139,7 +139,7 @@ export const websiteForElectriciansEn = {
         p("Hosting is fast, with SSL, daily backups and spam filtering on forms. The domain is registered in your name, and you get admin access from day one. No retainer is required; later changes are billed per task."),
 
         h2("An electrician website that ChatGPT and Google AI Overviews can read"),
-        p("People now ask ChatGPT or Google’s AI Overviews whether a charger needs a permit, why breakers trip and which electrician nearby does panel upgrades. An assistant only names a business it can verify, so the build puts these facts where machines find them:"),
+        p("People now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews whether a charger needs a permit, why breakers trip and which electrician nearby does panel upgrades. An assistant only names a business it can verify, so the build puts these facts where machines find them:"),
         li("services, areas, license number and insurance as text, not inside images"),
         li("structured data for the electrician business, each service and each area"),
         li("short answers to cost, permit and safety questions on every job page"),

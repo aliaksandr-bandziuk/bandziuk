@@ -159,7 +159,7 @@ export const pozycjonowanieStronRadomPl = {
         ),
 
         h2("Pozycjonowanie stron w Radomiu w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Coraz więcej osób zadaje pytania asystentom: „elektryk w Radomiu na jutro”, „hurtownia stali niedaleko Radomia”, „dentysta na Ustroniu przyjmujący w sobotę”. ChatGPT, Perplexity i podsumowania AI w Google wybierają firmy, o których znajdują konkretne fakty. Ten obszar pracy ma swoje skróty: GEO od generative engine optimization i AEO od answer engine optimization. W mniejszym mieście daje ona sporo, bo wiele firm nie opisuje na stronie nawet podstawowych faktów, więc asystent nie ma czego cytować:"),
+        p("Coraz więcej osób zadaje pytania asystentom: „elektryk w Radomiu na jutro”, „hurtownia stali niedaleko Radomia”, „dentysta na Ustroniu przyjmujący w sobotę”. ChatGPT, Perplexity, Gemini i podsumowania AI w Google wybierają firmy, o których znajdują konkretne fakty. Ten obszar pracy ma swoje skróty: GEO od generative engine optimization i AEO od answer engine optimization. W mniejszym mieście daje ona sporo, bo wiele firm nie opisuje na stronie nawet podstawowych faktów, więc asystent nie ma czego cytować:"),
         li("usługi, ceny, godziny i obszar działania zapisane zwykłymi zdaniami"),
         li("dane strukturalne zgodne z wizytówką Google"),
         li("te same dane firmy w katalogach i na portalach"),

@@ -67,7 +67,7 @@ export const seoForRecruitmentAgenciesPl = {
         { _key: k("o"), iconName: "code", title: "Oferty pracy w Google for Jobs", text: "Dane JobPosting: stawka, miejsce, rodzaj umowy, termin" },
         { _key: k("o"), iconName: "layers", title: "Porządek z ogłoszeniami po terminie", text: "Bez martwych „Aplikuj”, stałe strony dla stałych stanowisk" },
         { _key: k("o"), iconName: "shield-check", title: "Numer KRAZ i zaufanie na stronie", text: "Rejestr, zasady dla kandydatów, opinie firm i ludzi" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w zapytaniach i aplikacjach", text: "Firmy i kandydaci liczeni osobno" },
       ],
       prices: [

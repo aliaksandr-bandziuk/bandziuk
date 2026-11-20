@@ -58,7 +58,7 @@ export const advocateSeoRu = {
         { _key: k("o"), iconName: "file-text", title: "Статьи с вашей подписью", text: "Ответы на вопросы клиентов, дата и статус адвоката" },
         { _key: k("o"), iconName: "shield-check", title: "В рамках адвокатской этики", text: "Факты о практике без обещаний результата" },
         { _key: k("o"), iconName: "map-pin", title: "Google Карты, 2GIS и реестры", text: "Одинаковые имя, адрес и телефон везде" },
-        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity и обзоры от ИИ в Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Видимость в ответах ИИ", text: "ChatGPT, Perplexity, Gemini и обзоры от ИИ в Google" },
       ],
       prices: [
         { _key: k("r"), label: "SEO-аудит: имя, сайт, профили, карточка", value: "от 250 €", note: "разово" },

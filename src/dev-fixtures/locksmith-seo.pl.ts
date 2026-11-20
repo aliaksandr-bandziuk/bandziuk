@@ -58,7 +58,7 @@ export const locksmithSeoPl = {
         { _key: k("o"), iconName: "shield-check", title: "Zgłoszenia fałszywych wizytówek", text: "Spam w Twojej okolicy opisany i wysłany do Google" },
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdej usługi", text: "Drzwi, samochody, wkładki, sejfy, kodowanie kluczy" },
         { _key: k("o"), iconName: "file-text", title: "Cennik, który odpowiada na pytania", text: "„Ile kosztuje otwarcie drzwi” — w dzień i w nocy" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "phone", title: "Raport w telefonach", text: "Z Map, ze strony i z AI, z nieodebranymi włącznie" },
       ],
       prices: [

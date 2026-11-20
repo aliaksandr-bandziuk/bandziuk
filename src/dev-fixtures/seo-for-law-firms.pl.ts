@@ -61,7 +61,7 @@ export const seoForLawFirmsPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego rodzaju sprawy", text: "Rozwód, spadek, obrona karna, obsługa firm — z miastem" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google dla każdego biura", text: "Kategorie, godziny, dane zgodne z rejestrem" },
         { _key: k("o"), iconName: "shield-check", title: "Treści w granicach zasad etyki", text: "Informacja o kancelarii, bez superlatywów i obietnic" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w telefonach i konsultacjach", text: "Bez żadnych danych o klientach i sprawach" },
       ],
       prices: [

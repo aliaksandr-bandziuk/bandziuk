@@ -139,7 +139,7 @@ export const seoForContractorsEn = {
         p("SEO is slower: new pages take two to four months to rank. But the calls it brings come to you alone, and they do not cost per lead. Many contractors keep a paid channel for the busy season and build SEO so that, a year later, they depend on it less. I do the SEO part; paid ads and lead platforms are not something I manage."),
 
         h2("AI SEO for contractors: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("More homeowners now ask ChatGPT, Perplexity or Google’s AI Overviews “who is a good roofer near me” or “how much does a basement remodel cost” before they open any website. The answers are built from what the assistant can read and trust: your profile, reviews, directory listings and your own pages. Getting into them is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a contractor it is part of the same SEO work:"),
+        p("More homeowners now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews “who is a good roofer near me” or “how much does a basement remodel cost” before they open any website. The answers are built from what the assistant can read and trust: your profile, reviews, directory listings and your own pages. Getting into them is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a contractor it is part of the same SEO work:"),
         li("services, areas, licence, insurance and years in business written as plain facts an assistant can quote"),
         li("structured data that names the business, its services and the areas it covers"),
         li("answers to cost, timing and permit questions written on the service pages"),

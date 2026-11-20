@@ -114,7 +114,7 @@ export const restaurantSeoEn = {
         ),
 
         h2("AI SEO for restaurants: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("More guests now ask ChatGPT, Perplexity or Google’s AI Overviews where to eat — “a quiet Italian place near the old town”, “where to get good ramen tonight”. The answer names a few restaurants and quotes what the assistant could read about them. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a restaurant it rests on the same work as local SEO:"),
+        p("More guests now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews where to eat — “a quiet Italian place near the old town”, “where to get good ramen tonight”. The answer names a few restaurants and quotes what the assistant could read about them. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a restaurant it rests on the same work as local SEO:"),
         li("the menu, cuisine, price range and opening hours written as text on your own site and in the Google profile"),
         li("reviews that mention dishes and occasions, so an assistant can match you to “a place for a birthday dinner”"),
         li("Restaurant and Menu structured data that states the facts in a form machines read reliably"),

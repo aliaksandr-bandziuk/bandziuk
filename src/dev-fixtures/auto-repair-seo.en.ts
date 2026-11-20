@@ -24,7 +24,7 @@ export const autoRepairSeoEn = {
   title: "SEO for Auto Repair Shops",
   heading: "SEO for auto repair shops: calls from drivers whose car is already off the road",
   excerpt:
-    "I do SEO for auto repair shops and garages, including GEO and AEO — being named in ChatGPT, Perplexity and AI Overviews. A page per repair, a Google Business Profile that works with the site, and prices a driver can actually see. Whoever runs the audit also writes the fixes.",
+    "I do SEO for auto repair shops and garages, including GEO and AEO — being named in ChatGPT, Perplexity, Gemini and AI Overviews. A page per repair, a Google Business Profile that works with the site, and prices a driver can actually see. Whoever runs the audit also writes the fixes.",
   seo: {
     metaTitle: "Auto repair shop SEO and GEO — found in Google and by AI",
     metaDescription:

@@ -118,7 +118,7 @@ export const mortgageBrokerSeoEn = {
         li("local pages for the cities and counties where you are licensed and active"),
         li("licensing details and rate wording that hold up in a compliance review"),
         li("a site that loads fast on a phone and leads to the application without detours"),
-        li("visibility in ChatGPT, Perplexity and Google AI Overviews"),
+        li("visibility in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
 
         h2("Mortgage broker SEO and YMYL: NMLS ID, Equal Housing Opportunity and licensing on the website"),
         p("Google treats mortgage content as “Your Money or Your Life” (YMYL): a wrong answer can cost a family real money, so pages need visible proof of who stands behind them. For a broker that proof is largely the same information regulators already expect:"),

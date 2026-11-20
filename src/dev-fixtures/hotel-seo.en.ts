@@ -181,7 +181,7 @@ export const hotelSeoEn = {
         li("low-season offers such as spa weekends or long stays get their own pages, because that is when a direct booking is worth most"),
 
         h2("Hotel SEO for ChatGPT and Google AI Overviews: when travelers ask AI where to stay (GEO, AEO)"),
-        p("Travelers now ask ChatGPT, Perplexity or Google’s AI Overviews for a quiet hotel near the old town with parking, and the answer names properties before anyone sees a list of links. Getting a hotel into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a hotel it means:"),
+        p("Travelers now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews for a quiet hotel near the old town with parking, and the answer names properties before anyone sees a list of links. Getting a hotel into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a hotel it means:"),
         li("the location described in words, with distances to the places guests ask about"),
         li("amenities and policies — parking, pets, children, breakfast hours, accessibility, check-in — written as plain text, not only in icons and images"),
         li("who the hotel suits and who it does not, which assistants often repeat"),

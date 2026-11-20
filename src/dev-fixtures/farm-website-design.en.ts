@@ -186,7 +186,7 @@ export const farmWebsiteDesignEn = {
         ),
 
         h2("A farm website that ChatGPT and Google AI Overviews can read"),
-        p("People now ask ChatGPT or Google’s AI Overviews things like “where can I pick blueberries near Lancaster this weekend” or “which farm nearby sells pasture-raised eggs”. The reply is built from text the assistant can read, so everything that matters sits in the HTML as words: products and their status, prices and units, stand hours, market days, pickup sites, practices and the town you are in. None of it lives only in a chalkboard photo or a PDF price list. Pages carry LocalBusiness, Product and Event structured data, and the facts match your Google profile. I built Giuseppe’s practice site in Milan on these rules, and ChatGPT already shows its new pages in answers."),
+        p("People now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews things like “where can I pick blueberries near Lancaster this weekend” or “which farm nearby sells pasture-raised eggs”. The reply is built from text the assistant can read, so everything that matters sits in the HTML as words: products and their status, prices and units, stand hours, market days, pickup sites, practices and the town you are in. None of it lives only in a chalkboard photo or a PDF price list. Pages carry LocalBusiness, Product and Event structured data, and the facts match your Google profile. I built Giuseppe’s practice site in Milan on these rules, and ChatGPT already shows its new pages in answers."),
         p(
           "Keeping a farm in those answers over time is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

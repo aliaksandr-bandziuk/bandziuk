@@ -181,7 +181,7 @@ export const seoForArchitectsEn = {
         ),
 
         h2("SEO for architects in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("A growing share of clients put the question to an AI assistant first: “find an architect in Seattle who does passive house retrofits”, “what does an architect charge for a home extension”. ChatGPT, Perplexity and Google’s AI Overviews reply with a handful of studio names or a summary of a few sources. Optimizing for these replies goes by two names, GEO (generative engine optimization) and AEO (answer engine optimization). For an architecture practice the work looks like this:"),
+        p("A growing share of clients put the question to an AI assistant first: “find an architect in Seattle who does passive house retrofits”, “what does an architect charge for a home extension”. ChatGPT, Perplexity, Gemini and Google’s AI Overviews reply with a handful of studio names or a summary of a few sources. Optimizing for these replies goes by two names, GEO (generative engine optimization) and AEO (answer engine optimization). For an architecture practice the work looks like this:"),
         li("services, project types, places and sustainability expertise written as plain sentences"),
         li("project pages with facts an assistant can repeat: type, place, size, standard, year"),
         li("structured data for the practice, its office and its architects"),

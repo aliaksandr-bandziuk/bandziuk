@@ -113,7 +113,7 @@ export const seoForLawFirmsEn = {
         li("attorney profiles and content that meet Google’s higher standard for legal topics"),
         li("wording that stays within your bar’s advertising rules"),
         li("technical fixes: speed, indexing, structured data, tracking of calls and forms"),
-        li("visibility in ChatGPT, Perplexity and Google AI Overviews"),
+        li("visibility in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p(
           "Most firms also get calls from Google Maps. The profile, reviews, legal directories and office pages are a separate job with their own rules, described on the ",
           link("local SEO for lawyers", "/local-seo-for-lawyers"),

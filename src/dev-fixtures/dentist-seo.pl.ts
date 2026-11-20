@@ -56,7 +56,7 @@ export const dentistSeoPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego zabiegu", text: "Implanty, kanałowe, ortodoncja, protetyka, dzieci" },
         { _key: k("o"), iconName: "file-text", title: "NFZ i leczenie prywatne osobno", text: "Co w ramach umowy, co odpłatnie, jak się zapisać" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google i ZnanyLekarz", text: "Te same dane, godziny i lekarze wszędzie" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w rejestracjach", text: "Telefony i wizyty z wyszukiwarki, nie tylko pozycje" },
       ],
       prices: [

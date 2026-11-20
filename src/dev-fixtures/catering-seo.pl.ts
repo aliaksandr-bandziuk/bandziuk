@@ -162,7 +162,7 @@ export const cateringSeoPl = {
         p("W sezonie podstrona jest podlinkowana ze strony głównej, a po nim zostaje pod tym samym adresem, żeby zdjęcia i opinie z tegorocznych wigilii pracowały na przyszłoroczne zamówienia."),
 
         h2("Pozycjonowanie strony cateringu w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pytania „kto robi catering na konferencję dla 150 osób w Poznaniu”, „ile kosztuje catering na komunię w domu” czy „który catering w Gdańsku ma menu wegańskie” organizatorzy wpisują dziś także w ChatGPT, Perplexity i podsumowania AI w Google. Odpowiedź powstaje z tekstów, które asystent potrafi odczytać i zestawić z innymi źródłami, a pracę nad tym, by firma się w niej znalazła, nazywa się GEO lub AEO — optymalizacją pod wyszukiwarki generatywne i silniki odpowiedzi. W cateringu sprowadza się ona do czterech rzeczy:"),
+        p("Pytania „kto robi catering na konferencję dla 150 osób w Poznaniu”, „ile kosztuje catering na komunię w domu” czy „który catering w Gdańsku ma menu wegańskie” organizatorzy wpisują dziś także w ChatGPT, Perplexity, Gemini i podsumowania AI w Google. Odpowiedź powstaje z tekstów, które asystent potrafi odczytać i zestawić z innymi źródłami, a pracę nad tym, by firma się w niej znalazła, nazywa się GEO lub AEO — optymalizacją pod wyszukiwarki generatywne i silniki odpowiedzi. W cateringu sprowadza się ona do czterech rzeczy:"),
         li("obszar działania, liczba gości, wyprzedzenie rezerwacji i widełki ceny za osobę zapisane zwykłymi zdaniami"),
         li("podstrony okazji, które wprost odpowiadają na pytania organizatorów, podpisane przez właściciela albo szefa kuchni"),
         li("dane strukturalne opisujące firmę, jej usługi i obszar dostaw"),

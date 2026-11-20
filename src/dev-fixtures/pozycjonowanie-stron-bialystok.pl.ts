@@ -59,7 +59,7 @@ export const pozycjonowanieStronBialystokPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrony usług dla miasta i regionu", text: "Białystok, gminy wokół, całe Podlasie — według danych" },
         { _key: k("o"), iconName: "message-circle", title: "Wersje językowe pod klientów zza granicy", text: "Litewska, angielska, ukraińska — gdy ktoś tak szuka" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google w Białymstoku", text: "Kategoria, usługi, zdjęcia, opinie, godziny" },
-        { _key: k("o"), iconName: "sparkles", title: "Obecność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport z telefonów i zapytań", text: "Co miesiąc, z GA4 i Search Console" },
       ],
       prices: [

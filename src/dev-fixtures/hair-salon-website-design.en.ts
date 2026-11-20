@@ -171,7 +171,7 @@ export const hairSalonWebsiteDesignEn = {
         ),
 
         h2("A hair salon website that ChatGPT and Google AI Overviews can read"),
-        p("Clients now ask ChatGPT or read Google’s AI Overviews with questions like “a salon in Austin that is good with curly hair” or “a barber open on Sunday in Queens”. An assistant can only recommend a salon whose facts it can read. So services, stylists and their specialties, prices, hours and walk-in rules are written as text in the page code, delivered by the server rather than drawn by scripts after loading, and repeated in structured data that matches your Google listing."),
+        p("Clients now ask ChatGPT, Perplexity, Gemini or read Google’s AI Overviews with questions like “a salon in Austin that is good with curly hair” or “a barber open on Sunday in Queens”. An assistant can only recommend a salon whose facts it can read. So services, stylists and their specialties, prices, hours and walk-in rules are written as text in the page code, delivered by the server rather than drawn by scripts after loading, and repeated in structured data that matches your Google listing."),
         p(
           "Being named in those answers over time is a separate job, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

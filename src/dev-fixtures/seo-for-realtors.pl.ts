@@ -65,7 +65,7 @@ export const seoForRealtorsPl = {
         { _key: k("o"), iconName: "map-pin", title: "Podstrony dzielnic i osiedli", text: "Pisane z Twoich transakcji, z własnymi zdjęciami" },
         { _key: k("o"), iconName: "file-text", title: "Artykuły na pytania sprzedających", text: "Prowizja, umowa na wyłączność, wycena mieszkania" },
         { _key: k("o"), iconName: "shield-check", title: "Zaufanie w deregulowanym zawodzie", text: "OC, firma, opinie i jasne zasady współpracy" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w wycenach i telefonach", text: "Każde zapytanie w CRM z podstroną, z której przyszło" },
       ],
       prices: [

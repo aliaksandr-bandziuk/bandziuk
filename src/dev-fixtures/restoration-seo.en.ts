@@ -152,7 +152,7 @@ export const restorationSeoEn = {
         p("A restoration customer is not happy on the day the crew arrives; they are relieved weeks later, when the house is dry and the claim is settled. That is the moment to ask for a review, with a direct link. Reviews that mention the damage type, the response time and the help with paperwork match what the next customer is searching for. Answer every review, including angry ones about insurance outcomes you did not control, calmly and without the customer’s details."),
 
         h2("AI SEO for restoration companies: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Questions like “how long does it take to dry a flooded basement”, “is mold after a leak dangerous” or “who does fire damage cleanup near me” are now answered by ChatGPT, Perplexity or Google’s AI Overviews before anyone clicks. The work of being cited there is known as generative engine optimization (GEO) or answer engine optimization (AEO). In restoration it involves:"),
+        p("Questions like “how long does it take to dry a flooded basement”, “is mold after a leak dangerous” or “who does fire damage cleanup near me” are now answered by ChatGPT, Perplexity, Gemini or Google’s AI Overviews before anyone clicks. The work of being cited there is known as generative engine optimization (GEO) or answer engine optimization (AEO). In restoration it involves:"),
         li("drying times, the order of work and the claim process explained on your own pages"),
         li("certifications, licenses, response area and availability written as plain facts"),
         li("structured data naming the business, each type of damage you handle and the areas you serve"),

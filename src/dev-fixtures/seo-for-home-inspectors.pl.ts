@@ -154,7 +154,7 @@ export const seoForHomeInspectorsPl = {
         p("Dzięki temu w raporcie widać nie tylko wejścia na stronę, ale liczbę rezerwacji z Google i z Map, osobno dla odbiorów mieszkań, domów i rynku wtórnego. To pozwala ocenić, które podstrony zarabiają, a które trzeba poprawić."),
 
         h2("Pozycjonowanie strony firmy odbiorów mieszkań w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Kupujący pytają ChatGPT albo Perplexity, czy warto zamówić odbiór, ile to kosztuje i kogo wybrać w ich mieście, a Google coraz częściej odpowiada podsumowaniem AI nad wynikami. Pracę nad obecnością w tych odpowiedziach nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). Dla firmy odbiorów oznacza to:"),
+        p("Kupujący pytają ChatGPT, Perplexity albo Gemini, czy warto zamówić odbiór, ile to kosztuje i kogo wybrać w ich mieście, a Google coraz częściej odpowiada podsumowaniem AI nad wynikami. Pracę nad obecnością w tych odpowiedziach nazywa się GEO (generative engine optimization) albo AEO (answer engine optimization). Dla firmy odbiorów oznacza to:"),
         li("ceny, zakres odbioru i czas oczekiwania na protokół opisane zwykłymi zdaniami"),
         li("uprawnienia, OC, sprzęt i obszar działania podane jako fakty"),
         li("dane strukturalne, które łączą stronę z wizytówką Google"),

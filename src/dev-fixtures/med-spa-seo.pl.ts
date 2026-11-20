@@ -62,7 +62,7 @@ export const medSpaSeoPl = {
         { _key: k("o"), iconName: "shield-check", title: "Informacja zamiast reklamy", text: "Bez obietnic efektu i bez eksponowania leków na receptę" },
         { _key: k("o"), iconName: "file-text", title: "Lekarze i kosmetolodzy z kwalifikacjami", text: "PWZ, szkolenia, zakres zabiegów, data weryfikacji" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google, Booksy i ZnanyLekarz", text: "Te same dane, godziny i link do rezerwacji" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i przeglądy AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i przeglądy AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w konsultacjach i rezerwacjach", text: "Według grup zabiegów, nie tylko pozycje" },
       ],
       prices: [

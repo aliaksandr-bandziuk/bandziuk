@@ -185,7 +185,7 @@ export const farmWebsiteDesignPl = {
         ),
 
         h2("Strona gospodarstwa, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Coraz więcej osób pyta ChatGPT albo podsumowanie AI w Google: „gdzie pod Grójcem jest samozbiór czereśni”, „kto koło Gniezna sprzedaje jaja od kur z pastwiska”. Odpowiedź powstaje z tekstu, który asystent potrafi odczytać. Dlatego produkty z ich statusem, ceny, godziny sklepiku, dni targów, punkty odbioru i sposób uprawy zapisuję w HTML zwykłym tekstem, a nie na zdjęciu tablicy kredowej czy w cenniku w PDF. Podstrony dostają dane strukturalne LocalBusiness, Product i Event, zgodne z wizytówką Google. Na tych zasadach postawiłem stronę Giuseppe, psychoterapeuty z Mediolanu, i ChatGPT już cytuje jej nowe podstrony."),
+        p("Coraz więcej osób pyta ChatGPT, Perplexity, Gemini albo podsumowanie AI w Google: „gdzie pod Grójcem jest samozbiór czereśni”, „kto koło Gniezna sprzedaje jaja od kur z pastwiska”. Odpowiedź powstaje z tekstu, który asystent potrafi odczytać. Dlatego produkty z ich statusem, ceny, godziny sklepiku, dni targów, punkty odbioru i sposób uprawy zapisuję w HTML zwykłym tekstem, a nie na zdjęciu tablicy kredowej czy w cenniku w PDF. Podstrony dostają dane strukturalne LocalBusiness, Product i Event, zgodne z wizytówką Google. Na tych zasadach postawiłem stronę Giuseppe, psychoterapeuty z Mediolanu, i ChatGPT już cytuje jej nowe podstrony."),
         p(
           "Stałą obecność w odpowiedziach AI opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

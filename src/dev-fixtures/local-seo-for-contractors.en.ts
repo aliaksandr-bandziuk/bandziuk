@@ -132,7 +132,7 @@ export const localSeoForContractorsEn = {
         ),
 
         h2("Local AI search for contractors: how ChatGPT and Google AI Overviews pick local businesses (GEO, AEO)"),
-        p("When a homeowner asks ChatGPT, Perplexity or Google’s AI Overviews to recommend a contractor nearby, the assistant puts the answer together from the same sources as the map: the business profile, reviews, listings and your own pages. That makes local SEO the base of generative engine optimization (GEO) and answer engine optimization (AEO) for a contractor:"),
+        p("When a homeowner asks ChatGPT, Perplexity, Gemini or Google’s AI Overviews to recommend a contractor nearby, the assistant puts the answer together from the same sources as the map: the business profile, reviews, listings and your own pages. That makes local SEO the base of generative engine optimization (GEO) and answer engine optimization (AEO) for a contractor:"),
         li("the same business details on every listing, so the assistant is sure who you are"),
         li("reviews that name the job and the town, which assistants quote"),
         li("services, areas, licence and insurance written as text on your website"),

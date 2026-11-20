@@ -119,7 +119,7 @@ export const insuranceAgencySeoEn = {
         li("a Google Business Profile for every office, and the reviews behind it"),
         li("license details, author bylines and careful wording, because insurance is a YMYL topic"),
         li("technical fixes: speed, indexing, structured data, tracking of quote forms and calls"),
-        li("visibility in ChatGPT, Perplexity and Google AI Overviews"),
+        li("visibility in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p("Insurance agent SEO and insurance agency SEO are one job: Google shows nearly the same results for both searches, so one plan serves a solo agent and a ten-producer agency."),
 
         h2("Independent vs captive insurance agent SEO: carrier names, co-branding and your own domain"),

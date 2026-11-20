@@ -146,7 +146,7 @@ export const nonprofitSeoEn = {
         p("Annual and impact reports usually sit in a PDF nobody finds. Turned into web pages — a summary page per year, a page per program outcome, client and volunteer stories used with consent — they answer searches about the issue, give journalists and partners something to cite and give assistants facts to quote. The PDF stays for the board; the text lives on the site, with a date and an author."),
 
         h2("Nonprofit SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Donors ask ChatGPT, Perplexity or Google’s AI Overviews “which charities help refugees in Chicago” or “how can I volunteer with seniors on weekends”, and get a short list before any links. Getting onto that list is called generative engine optimization (GEO) or answer engine optimization (AEO). For a nonprofit it means:"),
+        p("Donors ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews “which charities help refugees in Chicago” or “how can I volunteer with seniors on weekends”, and get a short list before any links. Getting onto that list is called generative engine optimization (GEO) or answer engine optimization (AEO). For a nonprofit it means:"),
         li("mission, programs, service area, eligibility and ways to give written as plain sentences"),
         li("the same name, EIN and address on your site, your Candid profile, Charity Navigator and volunteer platforms"),
         li("impact figures with a year and a source, which assistants can cite"),

@@ -60,7 +60,7 @@ export const pestControlSeoPl = {
         { _key: k("o"), iconName: "layers", title: "Podstrona dla każdego szkodnika", text: "Objawy, metoda, przygotowanie lokalu, gwarancja" },
         { _key: k("o"), iconName: "file-text", title: "Oferta dla gastronomii i wspólnot", text: "Umowy stałe, protokoły, dokumentacja pod HACCP" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka Google i obszar działania", text: "Miasta i powiaty, do których naprawdę jeździcie" },
-        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
+        { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI", text: "ChatGPT, Perplexity, Gemini i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w telefonach i zleceniach", text: "Obok tego, co dają Oferteo, Fixly i OLX" },
       ],
       prices: [

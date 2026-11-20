@@ -173,7 +173,7 @@ export const seoForFlooringCompaniesEn = {
         ),
 
         h2("Flooring SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("A growing share of flooring questions never reach a search results page: “vinyl plank or engineered hardwood for a basement”, “how long does hardwood refinishing take” or “good flooring installers near me” go to ChatGPT, Perplexity or Google’s AI Overviews, which build the answer from sources they can read and verify. Work on those answers goes by two names, generative engine optimization (GEO) and answer engine optimization (AEO). For a flooring business it covers:"),
+        p("A growing share of flooring questions never reach a search results page: “vinyl plank or engineered hardwood for a basement”, “how long does hardwood refinishing take” or “good flooring installers near me” go to ChatGPT, Perplexity, Gemini or Google’s AI Overviews, which build the answer from sources they can read and verify. Work on those answers goes by two names, generative engine optimization (GEO) and answer engine optimization (AEO). For a flooring business it covers:"),
         li("material comparisons written from your installs, including where each material fails"),
         li("cost ranges and timelines in plain text, not only inside a PDF quote"),
         li("the brands you are authorized to sell or certified to install, stated the same way on the site and the profile"),

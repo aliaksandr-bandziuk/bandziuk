@@ -154,7 +154,7 @@ export const seoForChiropractorsPl = {
         p("Google ocenia treści o zdrowiu surowiej niż większość tematów i szuka śladów, kto za nimi stoi. Każda podstrona problemu podaje fizjoterapeutę, który ją napisał albo sprawdził, z linkiem do jego profilu: tytuł, numer prawa wykonywania zawodu fizjoterapeuty, ukończone kursy terapii manualnej czy osteopatii i data ostatniej weryfikacji tekstu. Ja przygotowuję strukturę, dane wyszukiwań i szkic, a terapeuta zatwierdza treść merytoryczną. Strona nie stawia diagnoz; osobę z niepokojącymi objawami kieruje do lekarza."),
 
         h2("Pozycjonowanie strony gabinetu fizjoterapii w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Pacjenci pytają ChatGPT, Perplexity albo podsumowania AI w Google, gdzie w ich mieście jest osteopata albo fizjoterapeuta, który pracuje z biegaczami. Zabieganie o miejsce w tych odpowiedziach to GEO (generative engine optimization), nazywane też AEO (answer engine optimization). Asystenci polecają gabinety, o których mają rzeczowe i spójne dane:"),
+        p("Pacjenci pytają ChatGPT, Perplexity, Gemini albo podsumowania AI w Google, gdzie w ich mieście jest osteopata albo fizjoterapeuta, który pracuje z biegaczami. Zabieganie o miejsce w tych odpowiedziach to GEO (generative engine optimization), nazywane też AEO (answer engine optimization). Asystenci polecają gabinety, o których mają rzeczowe i spójne dane:"),
         li("metody, problemy, terapeuci, godziny i informacja o NFZ zapisane prostymi zdaniami"),
         li("cennik wizyt w tekście, a nie w grafice"),
         li("dane strukturalne łączące gabinet, terapeutów i adres"),

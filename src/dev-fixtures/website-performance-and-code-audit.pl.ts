@@ -152,7 +152,7 @@ export const websitePerformanceAndCodeAuditPl = {
       _key: k("b"),
       content: [
         h2("Dlaczego szybkość decyduje, czy asystenci AI w ogóle przeczytają stronę (GEO, AEO)"),
-        p("Roboty stojące za ChatGPT, Perplexity i odpowiedziami AI w Google są surowsze od Googlebota w jednej konkretnej sprawie: większość z nich nie wykonuje JavaScriptu, a te, które pobierają stronę, dają jej znacznie mniej czasu. Strona rysująca treść w przeglądarce wysyła im niemal pusty dokument, więc asystent zapytany o twoją firmę nie znajduje nic do zacytowania — nie dlatego, że tekst jest zły, ale dlatego, że nigdy nie było go w HTML-u."),
+        p("Roboty stojące za ChatGPT, Perplexity, Gemini i odpowiedziami AI w Google są surowsze od Googlebota w jednej konkretnej sprawie: większość z nich nie wykonuje JavaScriptu, a te, które pobierają stronę, dają jej znacznie mniej czasu. Strona rysująca treść w przeglądarce wysyła im niemal pusty dokument, więc asystent zapytany o twoją firmę nie znajduje nic do zacytowania — nie dlatego, że tekst jest zły, ale dlatego, że nigdy nie było go w HTML-u."),
         p(
           "To czyni renderowanie sprawą widoczności, a nie tylko szybkości: to, co ma być cytowane, musi być w odpowiedzi serwera, jako tekst. Doprowadzenie do tego stanu działającej strony to ",
           link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),

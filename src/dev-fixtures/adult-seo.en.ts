@@ -146,7 +146,7 @@ export const adultSeoEn = {
         h2("Adult SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
         p("Assistants refuse explicit queries, but business ones get full answers: “best OnlyFans management agencies in the UK”, “is it legal to be an OnlyFans manager”, “which payment processors accept adult sites”. Work on those answers is called GEO (generative engine optimization) or AEO (answer engine optimization). For an adult business it means facts on SFW pages in plain text, an About page with the legal entity, consistent descriptions across directories and review sites, and AI crawlers allowed in robots.txt for public sections."),
         p(
-          "A fixed set of business questions goes to ChatGPT, Perplexity and Google at the start and again a few months later, so you see which brands they name and whether yours joins them. More on this in ",
+          "A fixed set of business questions goes to ChatGPT, Perplexity, Gemini and Google at the start and again a few months later, so you see which brands they name and whether yours joins them. More on this in ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
           ".",
         ),

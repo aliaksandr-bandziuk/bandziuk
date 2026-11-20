@@ -64,7 +64,7 @@ export const saasSeoEn = {
         { _key: k("o"), iconName: "file-text", title: "Content judged by trials", text: "Every article has a path into the product" },
         { _key: k("o"), iconName: "plug", title: "Free tools and templates from the product", text: "Calculators and generators people search for" },
         { _key: k("o"), iconName: "languages", title: "Localized pages for EU markets", text: "Local keywords, prices and hreflang, not a translation" },
-        { _key: k("o"), iconName: "sparkles", title: "On “best software” shortlists in AI", text: "ChatGPT, Perplexity and Google AI Overviews" },
+        { _key: k("o"), iconName: "sparkles", title: "On “best software” shortlists in AI", text: "ChatGPT, Perplexity, Gemini and Google AI Overviews" },
         { _key: k("o"), iconName: "trending-up", title: "Reports in signups, trials and demos", text: "From GA4 to your CRM, by landing page" },
       ],
       prices: [

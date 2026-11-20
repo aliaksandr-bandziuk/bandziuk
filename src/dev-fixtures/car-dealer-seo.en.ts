@@ -113,7 +113,7 @@ export const carDealerSeoEn = {
         li("make, model, body type and price pages built from the stock you actually carry"),
         li("a Google Business Profile for each lot, with reviews"),
         li("your name in search and the places where buyers check you: Google, DealerRater, Cars.com, CarGurus"),
-        li("answers in ChatGPT, Perplexity and Google AI Overviews"),
+        li("answers in ChatGPT, Perplexity, Gemini and Google AI Overviews"),
         p(
           "The site itself — how the inventory feed is wired, how a vehicle page looks, the financing and trade-in forms — is covered on the ",
           link("car dealer website design", "/car-dealer-website-design"),

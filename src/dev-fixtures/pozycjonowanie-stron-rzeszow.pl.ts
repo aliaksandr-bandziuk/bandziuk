@@ -166,7 +166,7 @@ export const pozycjonowanieStronRzeszowPl = {
         ),
 
         h2("Pozycjonowanie stron w Rzeszowie w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Klienci pytają asystentów AI: „kto w Rzeszowie robi obróbkę CNC na małe serie”, „dobry ortopeda w Rzeszowie, który mówi po ukraińsku”. ChatGPT, Perplexity i podsumowania AI w Google polecają firmy, o których mogą przeczytać sprawdzalne informacje. Tę pracę nazywa się GEO albo AEO i u mnie jest częścią pozycjonowania:"),
+        p("Klienci pytają asystentów AI: „kto w Rzeszowie robi obróbkę CNC na małe serie”, „dobry ortopeda w Rzeszowie, który mówi po ukraińsku”. ChatGPT, Perplexity, Gemini i podsumowania AI w Google polecają firmy, o których mogą przeczytać sprawdzalne informacje. Tę pracę nazywa się GEO albo AEO i u mnie jest częścią pozycjonowania:"),
         li("usługi, miejscowości, języki obsługi i widełki cen zapisane prostymi zdaniami"),
         li("dane strukturalne zgodne z wizytówką Google"),
         li("identyczna nazwa, adres i telefon w każdym miejscu, w którym firma występuje w sieci"),

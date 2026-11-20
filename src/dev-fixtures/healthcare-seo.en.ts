@@ -176,7 +176,7 @@ export const healthcareSeoEn = {
         li("keep a change log that shows what was changed, when and why"),
 
         h2("Healthcare SEO for ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Patients now ask ChatGPT, Perplexity or Google’s AI Overviews which hospital is good for a knee replacement, which urgent care is open now, or whether a doctor takes their insurance. The answers draw on what assistants can read and cross-check: your pages, Google listings, directories such as Healthgrades, and news. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a healthcare organization it means:"),
+        p("Patients now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which hospital is good for a knee replacement, which urgent care is open now, or whether a doctor takes their insurance. The answers draw on what assistants can read and cross-check: your pages, Google listings, directories such as Healthgrades, and news. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a healthcare organization it means:"),
         li("provider, location and service-line facts written as plain, current text, not only inside filters and widgets"),
         li("the same names, addresses and specialties on the website, the listings and the directories"),
         li("structured data that connects physicians, locations and the organization"),

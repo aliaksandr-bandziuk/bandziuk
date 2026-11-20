@@ -138,7 +138,7 @@ export const orthodontistWebsiteDesignPl = {
         p("Pacjenci w trakcie leczenia odwiedzają stronę częściej niż nowi. Osobna strefa odciąża rejestrację: co zrobić, gdy odklei się zamek albo drut kłuje policzek, które sytuacje wymagają telefonu tego samego dnia, jak czyścić aparat, ile godzin nosić nakładki, jak dbać o retainer. Krótkie filmy nagrane przez Wasz zespół sprawdzają się tu lepiej niż materiały z banku zdjęć."),
 
         h2("Strona internetowa dla ortodonty, którą ChatGPT i przeglądy AI w Google potrafią przeczytać"),
-        p("Rodzice pytają asystentów AI, który ortodonta w okolicy leczy małe dzieci, przyjmuje w soboty albo ma raty. Asystent składa odpowiedź z tekstu, który potrafi odczytać i porównać z wizytówką i ZnanyLekarz. Dlatego placówki z dniami przyjęć, wiek pacjentów, rodzaje leczenia, języki i formy płatności są zapisane w treści strony, nie na grafikach, a dane strukturalne łączą lekarzy z placówkami. Strona Giuseppe jest zbudowana w ten sposób i ChatGPT przytacza już podstrony opublikowane po starcie."),
+        p("Rodzice pytają asystentów AI, który ortodonta w okolicy leczy małe dzieci, przyjmuje w soboty albo ma raty. Asystent składa odpowiedź z tekstu, który potrafi odczytać i porównać z wizytówką i ZnanyLekarz. Dlatego placówki z dniami przyjęć, wiek pacjentów, rodzaje leczenia, języki i formy płatności są zapisane w treści strony, nie na grafikach, a dane strukturalne łączą lekarzy z placówkami. Strona Giuseppe jest zbudowana w ten sposób i ChatGPT, Perplexity i Gemini przytacza już podstrony opublikowane po starcie."),
         p(
           "Utrzymanie gabinetu w tych odpowiedziach to osobna usługa: ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

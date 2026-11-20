@@ -157,7 +157,7 @@ export const garageDoorSeoPl = {
         p("Brama garażowa należy do stanu surowego zamkniętego, więc inwestor szuka jej razem z oknami i drzwiami zewnętrznymi — zwykle wiosną i latem, kilka tygodni przed montażem. Podstrony bram powinny być gotowe zimą, bo nowa podstrona potrzebuje miesięcy, żeby wejść wysoko. Serwis i automatyka są potrzebne przez cały rok. Część zapytań o bramy przychodzi też z Oferteo i od firm budujących domy; strona z realizacjami i jasnym opisem montażu pomaga wygrać także te zapytania, bo klient z portalu i tak sprawdza firmę w Google."),
 
         h2("Pozycjonowanie strony firmy bram garażowych w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Inwestorzy pytają ChatGPT i podsumowania AI w Google: „brama segmentowa czy uchylna”, „ile kosztuje brama garażowa z montażem”, „jaki napęd do bramy przesuwnej”. Asystenci odpowiadają na podstawie stron, które mogą przeczytać i sprawdzić. Praca nad tym — GEO (generative engine optimization) i AEO (answer engine optimization) — oznacza dla firmy bramowej:"),
+        p("Inwestorzy pytają ChatGPT, Perplexity, Gemini i podsumowania AI w Google: „brama segmentowa czy uchylna”, „ile kosztuje brama garażowa z montażem”, „jaki napęd do bramy przesuwnej”. Asystenci odpowiadają na podstawie stron, które mogą przeczytać i sprawdzić. Praca nad tym — GEO (generative engine optimization) i AEO (answer engine optimization) — oznacza dla firmy bramowej:"),
         li("odpowiedzi na pytania o rodzaje bram, napędy i ceny na Waszych podstronach, z tym, co wpływa na koszt"),
         li("producentów, obszar montażu, gwarancję i serwis zapisane zwykłymi zdaniami"),
         li("dane strukturalne firmy, usług i obszaru działania"),

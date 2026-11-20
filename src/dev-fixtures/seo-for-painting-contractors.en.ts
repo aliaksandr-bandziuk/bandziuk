@@ -143,7 +143,7 @@ export const seoForPaintingContractorsEn = {
         p("Marketing for a painting business usually mixes yard signs, referrals, door hangers, lead platforms like Angi or Thumbtack, Google Local Services Ads and sometimes Facebook ads. Each brings jobs; most stop when you stop paying. SEO is the part that keeps working: pages and a profile that bring estimate requests month after month, without a fee per lead. It also makes the other channels work better — a neighbor who saw your yard sign searches your name and finds a site full of finished projects and reviews. I do the SEO part; ads and lead platforms are not something I manage."),
 
         h2("AI SEO for painting contractors: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Questions like “how much does it cost to paint a 2,000 sq ft house”, “is cabinet painting worth it” or “good house painters near me” are now answered by ChatGPT, Perplexity and Google’s AI Overviews. Generative engine optimization (GEO) and answer engine optimization (AEO) make your company one of the sources:"),
+        p("Questions like “how much does it cost to paint a 2,000 sq ft house”, “is cabinet painting worth it” or “good house painters near me” are now answered by ChatGPT, Perplexity, Gemini and Google’s AI Overviews. Generative engine optimization (GEO) and answer engine optimization (AEO) make your company one of the sources:"),
         li("price ranges, prep steps and timelines written on your own pages"),
         li("paint brands you use, warranty on your work, license and insurance as plain facts"),
         li("structured data for the business, its services and service area"),

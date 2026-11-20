@@ -114,7 +114,7 @@ export const carDealerSeoPl = {
         li("podstronami marek, modeli, typów nadwozia i przedziałów cenowych"),
         li("wizytówką Google każdego placu i opiniami"),
         li("wynikami na nazwę salonu lub komisu"),
-        li("odpowiedziami ChatGPT, Perplexity i podsumowaniami AI w Google"),
+        li("odpowiedziami ChatGPT, Perplexity, Gemini i podsumowaniami AI w Google"),
         p(
           "Budowę samej strony — import ofert, kartę auta, formularze kredytu i zamiany — opisuję na stronie ",
           link("strona internetowa dla komisu samochodowego", "/pl/strona-internetowa-dla-komisu-samochodowego"),

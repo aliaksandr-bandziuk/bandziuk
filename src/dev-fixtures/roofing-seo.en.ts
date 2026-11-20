@@ -143,7 +143,7 @@ export const roofingSeoEn = {
         p("Bought leads start working this week and stop when the payments stop. SEO for roofing companies takes months to build, but the calls it brings come to you alone, without a per-lead fee. Many roofers keep Local Services Ads for the storm season and use SEO to depend less on bought leads over time. I do the SEO part; I do not run ads or sell leads."),
 
         h2("AI SEO for roofing companies: visibility in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Homeowners now ask ChatGPT, Perplexity or Google’s AI Overviews “is it worth replacing a 20-year-old roof”, “metal or shingle roof” or “who is a reliable roofer near me”. The answers are put together from sources the assistant can read and check. Getting into them is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a roofer it means:"),
+        p("Homeowners now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews “is it worth replacing a 20-year-old roof”, “metal or shingle roof” or “who is a reliable roofer near me”. The answers are put together from sources the assistant can read and check. Getting into them is called generative engine optimization (GEO) or answer engine optimization (AEO), and for a roofer it means:"),
         li("license number, insurance, manufacturer certifications and warranty terms written as plain text"),
         li("clear answers to cost, lifespan and repair-or-replace questions on your own pages"),
         li("structured data naming the business, roof services and service area"),

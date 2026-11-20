@@ -59,6 +59,20 @@ export const autoRepairSeoPl = {
         { _key: k("o"), iconName: "sparkles", title: "GEO i AEO dla odpowiedzi AI", text: "ChatGPT, Perplexity i podsumowania AI w Google" },
         { _key: k("o"), iconName: "trending-up", title: "Raport w telefonach i zapisach", text: "Nie tylko pozycje, ale zgłoszenia" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: strony firm usługowych, których widoczność prowadziłem",
+      subtitle:
+        "Pierwszy przykład to firma z branży napraw samochodowych — co dokładnie zmieniało się na stronie i po co. Pozostałe to lokalne firmy usługowe, które potrzebują tej samej pracy: podstron pod konkretne usługi, mocnej wizytówki i raportu w telefonach, a nie w pozycjach.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -94,21 +108,7 @@ export const autoRepairSeoPl = {
         p("Dlatego podstrony sezonowe przygotowuje się wcześniej i nie kasuje po sezonie — adres żyje cały rok i nabiera wagi przed kolejnym oknem. To samo dotyczy przechowywania opon: to w istocie abonament, który przyprowadza klienta wracającego potem na przeglądy."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: strony firm usługowych, których widoczność prowadziłem",
-      subtitle:
-        "Pierwszy przykład to firma z branży napraw samochodowych — co dokładnie zmieniało się na stronie i po co. Pozostałe to lokalne firmy usługowe, które potrzebują tej samej pracy: podstron pod konkretne usługi, mocnej wizytówki i raportu w telefonach, a nie w pozycjach.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

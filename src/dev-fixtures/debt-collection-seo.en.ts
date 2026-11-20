@@ -72,6 +72,20 @@ export const debtCollectionSeoEn = {
         { _key: k("o"), iconName: "layers", title: "Sector pages where late payment is chronic", text: "Construction, transport, staffing" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Agency for unpaid B2B invoices, no recovery no fee»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: professional service sites where tone and trust decide the enquiry",
+      subtitle:
+        "What these share with a collection agency: a service bought under pressure, where the visitor is judging judgement rather than price, and where what may be published is constrained. A psychotherapist's site in Italy, a consultant's own site, an architecture practice rebuilt and scanned for search problems, a renovation and investment firm, and an education agency taken from one country to ten.",
+      picks: [
+        "psychotherapist-website-milan",
+        "consultant-website-design-retail-analytics",
+        "architecture-website-rebuild-and-seo-scan",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -125,21 +139,7 @@ export const debtCollectionSeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: professional service sites where tone and trust decide the enquiry",
-      subtitle:
-        "What these share with a collection agency: a service bought under pressure, where the visitor is judging judgement rather than price, and where what may be published is constrained. A psychotherapist's site in Italy, a consultant's own site, an architecture practice rebuilt and scanned for search problems, a renovation and investment firm, and an education agency taken from one country to ten.",
-      picks: [
-        "psychotherapist-website-milan",
-        "consultant-website-design-retail-analytics",
-        "architecture-website-rebuild-and-seo-scan",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

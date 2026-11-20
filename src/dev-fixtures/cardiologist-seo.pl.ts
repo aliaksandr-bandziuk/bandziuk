@@ -56,6 +56,20 @@ export const cardiologistSeoPl = {
         { _key: k("o"), iconName: "file-search", title: "Druga opinia na gotowych wynikach", text: "Usługa z własnym popytem" },
         { _key: k("o"), iconName: "badge-check", title: "Autor, rejestr, data sprawdzenia", text: "Po tym ocenia się podstrony medyczne" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: platformy wielojęzyczne i praca w branżach regulowanych",
+      subtitle:
+        "Wielojęzyczna platforma nieruchomości z widocznością zbudowaną bez kupowanych linków; strona agencji edukacyjnej, która urosła z jednego kraju do dziesięciu; strona firmy remontowo-inwestycyjnej w premium; wielojęzyczna strona usług studenckich; strona konsultantki zbudowana wokół jednej specjalizacji.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -114,21 +128,7 @@ export const cardiologistSeoPl = {
         p("Pierwszy ruch widać zwykle po około półtora miesiąca, wzrost w horyzoncie trzech–sześciu miesięcy. Pozycji nie obiecuję, a w kardiologii nie wierzyłbym nikomu, kto obiecuje: zapytania o objawy nie są dostępne za żaden budżet, a zapytania o badania ruszają się szybciej niż każda prognoza, bo zależą od tego, ile praktyk w twoim mieście w ogóle publikuje cenę."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: platformy wielojęzyczne i praca w branżach regulowanych",
-      subtitle:
-        "Wielojęzyczna platforma nieruchomości z widocznością zbudowaną bez kupowanych linków; strona agencji edukacyjnej, która urosła z jednego kraju do dziesięciu; strona firmy remontowo-inwestycyjnej w premium; wielojęzyczna strona usług studenckich; strona konsultantki zbudowana wokół jednej specjalizacji.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

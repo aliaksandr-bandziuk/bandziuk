@@ -60,6 +60,20 @@ export const musicianSeoEn = {
         { _key: k("o"), iconName: "music", title: "Releases findable after the hype week", text: "Album and track pages that keep working" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«A jazz trio for a wedding in Warsaw»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: sites where the visitor arrives to listen, read or book",
+      subtitle:
+        "What these have in common with a musical act: a personal brand is the product, the visitor checks before making contact, and growth came from structure and content rather than bought links. A DJ and producer's official site, a retail-analytics consultant, an education agency taken from one country to ten, a personal site built and optimised from scratch, and a multilingual site for student services.",
+      picks: [
+        "consultant-website-design-retail-analytics",
+        "develop-and-optimize-a-personal-website-with-seo",
+        "seo-case-study-education-agency",
+        "proscore-agency-website-development",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -94,21 +108,7 @@ export const musicianSeoEn = {
         p("Most advice about music SEO is published by the platforms musicians already pay — hosting, distribution, booking tools. It is usually accurate and it stops at the same place every time: optimise your titles, write your show notes, fill in your metadata. That is the part of the work that happens inside their product, which is why it ends there. What follows — competing for the booking query, owning the name search, keeping a release findable after the hype week — happens on a site they do not host, so nobody writing those guides has a reason to explain it."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: sites where the visitor arrives to listen, read or book",
-      subtitle:
-        "What these have in common with a musical act: a personal brand is the product, the visitor checks before making contact, and growth came from structure and content rather than bought links. A DJ and producer's official site, a retail-analytics consultant, an education agency taken from one country to ten, a personal site built and optimised from scratch, and a multilingual site for student services.",
-      picks: [
-        "consultant-website-design-retail-analytics",
-        "develop-and-optimize-a-personal-website-with-seo",
-        "seo-case-study-education-agency",
-        "proscore-agency-website-development",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

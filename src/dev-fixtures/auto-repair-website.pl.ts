@@ -51,6 +51,20 @@ export const autoRepairWebsitePl = {
         { _key: k("o"), iconName: "sparkles", title: "Struktura czytelna dla AI", text: "Bezpośrednie odpowiedzi i dane zgodne z treścią" },
         { _key: k("o"), iconName: "shield-check", title: "Kod i domena zostają u Was", text: "Bez blokowania eksportu i obcego hostingu" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: strony firm usługowych, które zbudowałem",
+      subtitle:
+        "Pierwszy przykład to firma z branży napraw samochodowych. Dalej landing przechowalni opon z edytowalnym SEO, przebudowa strony na WordPressie i projekty, w których struktura i szybkość ważyły więcej niż oprawa graficzna.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -88,21 +102,7 @@ export const autoRepairWebsitePl = {
         p("Dlatego buduję na Next.js, z lekkimi obrazami i bez zbędnych skryptów, a numer i przycisk zapisu umieszczam tak, żeby nie trzeba było do nich przewijać."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: strony firm usługowych, które zbudowałem",
-      subtitle:
-        "Pierwszy przykład to firma z branży napraw samochodowych. Dalej landing przechowalni opon z edytowalnym SEO, przebudowa strony na WordPressie i projekty, w których struktura i szybkość ważyły więcej niż oprawa graficzna.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

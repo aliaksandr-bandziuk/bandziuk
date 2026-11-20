@@ -60,6 +60,20 @@ export const webDesignCyprusEn = {
         { _key: k("o"), iconName: "refresh-cw", title: "Redesign of an existing site", text: "New look, rankings kept" },
         { _key: k("o"), iconName: "eye", title: "Trust on the page", text: "People, office, licences, real work" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: how these designs look once they are built",
+      subtitle:
+        "A multilingual real estate platform in Cyprus with a catalogue and filters, a renovation and investment company site with a premium look, an education agency site that grew from one country to ten, a multilingual student services site, and a consultant site built around a single expertise.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -115,21 +129,7 @@ export const webDesignCyprusEn = {
         p("A landing page takes two to three weeks, a company website four to six, a site with a catalogue or a client area is quoted separately. What stretches it is almost never the drawing — it is content and decisions: who approves the wording, which services get their own page, which languages are needed, whether the photographs exist."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: how these designs look once they are built",
-      subtitle:
-        "A multilingual real estate platform in Cyprus with a catalogue and filters, a renovation and investment company site with a premium look, an education agency site that grew from one country to ten, a multilingual student services site, and a consultant site built around a single expertise.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

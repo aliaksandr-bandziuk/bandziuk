@@ -52,6 +52,20 @@ export const autoRepairWebsiteEn = {
         { _key: k("o"), iconName: "sparkles", title: "Structure AI assistants can read", text: "Direct answers and markup that matches the text" },
         { _key: k("o"), iconName: "shield-check", title: "Code and domain stay yours", text: "No locked exports, no hosting held hostage" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: service business websites I have built",
+      subtitle:
+        "The first case is an auto repair company. After it: a tyre storage landing page with editable SEO, a WordPress rebuild, and projects where structure and speed mattered more than decoration.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -89,21 +103,7 @@ export const autoRepairWebsiteEn = {
         p("So I build on Next.js with light images and without unnecessary scripts, and put the phone number and the booking button where nobody has to scroll to reach them."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: service business websites I have built",
-      subtitle:
-        "The first case is an auto repair company. After it: a tyre storage landing page with editable SEO, a WordPress rebuild, and projects where structure and speed mattered more than decoration.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

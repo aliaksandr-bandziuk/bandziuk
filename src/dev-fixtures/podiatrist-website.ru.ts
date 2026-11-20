@@ -55,6 +55,20 @@ export const podiatristWebsiteRu = {
         { _key: k("o"), iconName: "footprints", title: "Стельки как два визита", text: "Замер, примерка, полная стоимость" },
         { _key: k("o"), iconName: "shield-check", title: "Стерилизация показана прямо", text: "Вопрос, который не задают вслух" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: сайты, где всё решают первый контакт и прайс",
+      subtitle:
+        "Двуязычный сайт психотерапевтической практики в Милане, сайт консультанта, собранный вокруг одной специализации, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, который вырос с одной страны до десяти, и сайт ремонтно-инвестиционной компании в премиуме.",
+      picks: [
+        "psychotherapist-website-milan",
+        "consultant-website-design-retail-analytics",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -101,21 +115,7 @@ export const podiatristWebsiteRu = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: сайты, где всё решают первый контакт и прайс",
-      subtitle:
-        "Двуязычный сайт психотерапевтической практики в Милане, сайт консультанта, собранный вокруг одной специализации, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, который вырос с одной страны до десяти, и сайт ремонтно-инвестиционной компании в премиуме.",
-      picks: [
-        "psychotherapist-website-milan",
-        "consultant-website-design-retail-analytics",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

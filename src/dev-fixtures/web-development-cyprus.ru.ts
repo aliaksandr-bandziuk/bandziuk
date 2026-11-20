@@ -64,6 +64,20 @@ export const webDevelopmentCyprusRu = {
         { _key: k("o"), iconName: "shield-check", title: "Хостинг и данные в ЕС", text: "Согласие на cookie до аналитики" },
         { _key: k("o"), iconName: "receipt", title: "Цены с ответом про НДС", text: "19 % включены или нет — написано" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: многоязычные сайты и проекты с несколькими рынками",
+      subtitle:
+        "Платформа элитной недвижимости на Кипре с каталогом, фильтрами и поисковой видимостью; сайт образовательного агентства, выросший с одной страны до десяти; сайт ремонтно-инвестиционной компании в премиуме; многоязычный сайт студенческих услуг; сайт консультанта вокруг одной экспертизы.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -125,21 +139,7 @@ export const webDevelopmentCyprusRu = {
 
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: многоязычные сайты и проекты с несколькими рынками",
-      subtitle:
-        "Платформа элитной недвижимости на Кипре с каталогом, фильтрами и поисковой видимостью; сайт образовательного агентства, выросший с одной страны до десяти; сайт ремонтно-инвестиционной компании в премиуме; многоязычный сайт студенческих услуг; сайт консультанта вокруг одной экспертизы.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

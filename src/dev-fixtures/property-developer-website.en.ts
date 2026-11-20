@@ -72,6 +72,20 @@ export const propertyDeveloperWebsiteEn = {
         { _key: k("o"), iconName: "plug", title: "CRM integration per development", text: "Each enquiry reaches the people selling that project" },
         { _key: k("o"), iconName: "globe", title: "Languages your buyers search in", text: "Separate keyword work per language, not a translation pass" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: property, investment and construction websites I have built",
+      subtitle:
+        "The first case is a renovation and property investment company — premium feel with 96/98/100/100 performance. After it: a multilingual real estate platform with catalogue and locations, an architecture practice rebuilt with an SEO scan, and projects where structure decided the outcome.",
+      picks: [
+        "renovation-and-investment-website-with-premium-design",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "architecture-website-rebuild-and-seo-scan",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+      ],
     },
     {
       _type: "textContent",
@@ -121,21 +135,7 @@ export const propertyDeveloperWebsiteEn = {
         p("The second and third language are separate work, not translation: their own keyword research, text adapted to how that market reads, and a URL structure search engines can tell apart. Built into the structure from the start, each extra language is cheap; retrofitted later, it is the expensive version of the same job."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: property, investment and construction websites I have built",
-      subtitle:
-        "The first case is a renovation and property investment company — premium feel with 96/98/100/100 performance. After it: a multilingual real estate platform with catalogue and locations, an architecture practice rebuilt with an SEO scan, and projects where structure decided the outcome.",
-      picks: [
-        "renovation-and-investment-website-with-premium-design",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "architecture-website-rebuild-and-seo-scan",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

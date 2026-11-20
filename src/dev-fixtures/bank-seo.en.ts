@@ -65,6 +65,20 @@ export const bankSeoEn = {
         { _key: k("o"), iconName: "shield-check", title: "One domain, no look-alikes", text: "Campaign microsites cost trust and rankings" },
         { _key: k("o"), iconName: "bot", title: "Answers in AI assistants", text: "Conditions readable as text, not as images" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: multilingual platforms and work in regulated fields",
+      subtitle:
+        "A multilingual real estate platform with a catalogue, filters and search visibility built without bought links; an education agency site that grew from one country to ten; a renovation and investment company site with a premium look; a multilingual student services site; and a consultant site built around a single expertise.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -111,21 +125,7 @@ export const bankSeoEn = {
         p("First movement is usually visible after about a month and a half, steady growth over three to six months. In a regulated institution the arithmetic has an extra term: if a text change waits three weeks for approval, the whole schedule stretches by three weeks. I plan around that rather than pretend it does not exist, and I do not promise positions — nobody can."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: multilingual platforms and work in regulated fields",
-      subtitle:
-        "A multilingual real estate platform with a catalogue, filters and search visibility built without bought links; an education agency site that grew from one country to ten; a renovation and investment company site with a premium look; a multilingual student services site; and a consultant site built around a single expertise.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

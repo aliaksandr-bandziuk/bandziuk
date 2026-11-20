@@ -57,6 +57,20 @@ export const websitePerformanceAndCodeAuditRu = {
         { _key: k("o"), iconName: "server", title: "Ответ сервера и кеширование", text: "Где теряется первый байт" },
         { _key: k("o"), iconName: "list-checks", title: "Список починок по порядку", text: "Цена в миллисекундах против цены в часах" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: производительность измеренная, а не обещанная",
+      subtitle:
+        "Эти проекты показывают свои числа Lighthouse, потому что здесь числа и есть содержание, а не украшение: сайт ремонтной и инвестиционной компании с результатом 96/98/100/100, сайт консультанта со 100/100/100/100, сайт образовательного агентства, поднятый с 61 до 91 по производительности, полная перестройка на WordPress и многоязычная платформа недвижимости с большим каталогом.",
+      picks: [
+        "renovation-and-investment-website-with-premium-design",
+        "consultant-website-design-retail-analytics",
+        "seo-case-study-education-agency",
+        "felgilab-wordpress-rebuild",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+      ],
     },
     {
       _type: "textContent",
@@ -127,21 +141,7 @@ export const websitePerformanceAndCodeAuditRu = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: производительность измеренная, а не обещанная",
-      subtitle:
-        "Эти проекты показывают свои числа Lighthouse, потому что здесь числа и есть содержание, а не украшение: сайт ремонтной и инвестиционной компании с результатом 96/98/100/100, сайт консультанта со 100/100/100/100, сайт образовательного агентства, поднятый с 61 до 91 по производительности, полная перестройка на WordPress и многоязычная платформа недвижимости с большим каталогом.",
-      picks: [
-        "renovation-and-investment-website-with-premium-design",
-        "consultant-website-design-retail-analytics",
-        "seo-case-study-education-agency",
-        "felgilab-wordpress-rebuild",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

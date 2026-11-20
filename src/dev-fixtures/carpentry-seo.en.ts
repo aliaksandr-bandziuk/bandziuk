@@ -58,6 +58,20 @@ export const carpentrySeoEn = {
         { _key: k("o"), iconName: "tag", title: "Minimum project size on the page", text: "Fewer quotes, better ones" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Bespoke wardrobe maker in my city, oak, three-month lead»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: trade and local service businesses whose visibility I have run",
+      subtitle:
+        "What these share with a carpentry business: the client is local, the job is quoted rather than bought off a shelf, and the growth came from pages for specific services plus a strong local profile rather than bought links. A car service business, a landing page with editable SEO, a WordPress rebuild, a renovation and investment firm, and an education agency taken from one country to ten.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -98,21 +112,7 @@ export const carpentrySeoEn = {
         p("This is cheap work with a fast return, and it is usually where I start on a carpentry business, because it tends to move within weeks while the pages are still maturing. It also needs maintaining: photographs added as jobs finish, hours corrected before holidays, and replies to reviews written by the person who did the work rather than by an agency."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: trade and local service businesses whose visibility I have run",
-      subtitle:
-        "What these share with a carpentry business: the client is local, the job is quoted rather than bought off a shelf, and the growth came from pages for specific services plus a strong local profile rather than bought links. A car service business, a landing page with editable SEO, a WordPress rebuild, a renovation and investment firm, and an education agency taken from one country to ten.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

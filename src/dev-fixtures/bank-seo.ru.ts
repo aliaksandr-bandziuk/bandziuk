@@ -63,6 +63,20 @@ export const bankSeoRu = {
         { _key: k("o"), iconName: "shield-check", title: "Один домен вместо микросайтов", text: "Кампании на отдельных доменах делят вес" },
         { _key: k("o"), iconName: "bot", title: "Присутствие в ответах ИИ", text: "Условия текстом, а не картинкой" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: многоязычные платформы и работа в регулируемых сферах",
+      subtitle:
+        "Многоязычная платформа недвижимости с каталогом, фильтрами и поисковой видимостью, собранной без покупных ссылок; сайт образовательного агентства, выросший с одной страны до десяти; сайт ремонтной и инвестиционной компании с премиальным видом; многоязычный сайт студенческих услуг; сайт консультанта вокруг одной экспертизы.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -109,21 +123,7 @@ export const bankSeoRu = {
         p("Первые сдвиги обычно примерно через полтора месяца, устойчивый рост — на горизонте трёх–шести месяцев. В регулируемой организации к этому расчёту добавляется ещё одно слагаемое: если правка текста ждёт согласования три недели, весь график сдвигается на три недели. Я закладываю это в план вместо того, чтобы делать вид, что этого нет, и позиций не обещаю — их не может обещать никто."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: многоязычные платформы и работа в регулируемых сферах",
-      subtitle:
-        "Многоязычная платформа недвижимости с каталогом, фильтрами и поисковой видимостью, собранной без покупных ссылок; сайт образовательного агентства, выросший с одной страны до десяти; сайт ремонтной и инвестиционной компании с премиальным видом; многоязычный сайт студенческих услуг; сайт консультанта вокруг одной экспертизы.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

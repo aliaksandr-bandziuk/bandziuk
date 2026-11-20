@@ -64,6 +64,20 @@ export const photographerSeoEn = {
         { _key: k("o"), iconName: "calendar", title: "Published ahead of the booking season", text: "Couples book twelve to eighteen months out" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«A documentary wedding photographer near me»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: sites where the work is judged before anyone writes",
+      subtitle:
+        "What these have in common with a photography business: the portfolio is the product, the visitor decides from the site alone, and the growth came from structure and content rather than bought links. A retail-analytics consultant, a personal site built and optimised from scratch, an education agency taken from one country to ten, a digital agency site, and a multilingual site for student services.",
+      picks: [
+        "develop-and-optimize-a-personal-website-with-seo",
+        "consultant-website-design-retail-analytics",
+        "seo-case-study-education-agency",
+        "proscore-agency-website-development",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -112,21 +126,7 @@ export const photographerSeoEn = {
         p("The practical consequence is that venue and season pages are written in the quiet months and left to mature, and the measurement window stretches accordingly: first movement in about six weeks, bookings on a horizon that follows the couple's planning cycle rather than the search engine's. A wedding photographer who starts this work in peak season should expect the return a season later, and anyone promising otherwise is selling the calendar they do not control."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: sites where the work is judged before anyone writes",
-      subtitle:
-        "What these have in common with a photography business: the portfolio is the product, the visitor decides from the site alone, and the growth came from structure and content rather than bought links. A retail-analytics consultant, a personal site built and optimised from scratch, an education agency taken from one country to ten, a digital agency site, and a multilingual site for student services.",
-      picks: [
-        "develop-and-optimize-a-personal-website-with-seo",
-        "consultant-website-design-retail-analytics",
-        "seo-case-study-education-agency",
-        "proscore-agency-website-development",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

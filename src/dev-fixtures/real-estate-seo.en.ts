@@ -65,6 +65,20 @@ export const realEstateSeoEn = {
         { _key: k("o"), iconName: "zap", title: "Speed on image-heavy pages", text: "Property photography is what makes these sites slow" },
         { _key: k("o"), iconName: "sparkles", title: "Visibility in AI answers (GEO, AEO)", text: "ChatGPT, Perplexity and Google AI Overviews" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: real estate and investment websites I have worked on",
+      subtitle:
+        "The first case is a multilingual real estate platform — catalogue, locations and several languages at once. After it: a renovation and property investment site, an architecture practice rebuilt with an SEO scan, and multilingual projects where structure decided the outcome.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "renovation-and-investment-website-with-premium-design",
+        "architecture-website-rebuild-and-seo-scan",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+      ],
     },
     {
       _type: "textContent",
@@ -99,21 +113,7 @@ export const realEstateSeoEn = {
         p("The recurring mistakes: hreflang that points at pages which do not exist, one language machine-translated from another and indexed as thin duplicate content, locations named differently in each language so none of them builds authority, and a language switcher that drops the visitor onto the home page instead of the same property. Each of these is fixable, and each one is currently costing rankings on sites that look fine from the outside."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: real estate and investment websites I have worked on",
-      subtitle:
-        "The first case is a multilingual real estate platform — catalogue, locations and several languages at once. After it: a renovation and property investment site, an architecture practice rebuilt with an SEO scan, and multilingual projects where structure decided the outcome.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "renovation-and-investment-website-with-premium-design",
-        "architecture-website-rebuild-and-seo-scan",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

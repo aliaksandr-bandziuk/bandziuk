@@ -57,6 +57,20 @@ export const beautySalonWebsiteRu = {
         { _key: k("o"), iconName: "zap", title: "Скорость на телефоне", text: "Next.js, лёгкие картинки, без лишних скриптов" },
         { _key: k("o"), iconName: "sparkles", title: "Структура, понятная ИИ-ассистентам", text: "Цены текстом и разметка, которая с ними совпадает" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: локальные сервисные компании, для которых я делал сайты",
+      subtitle:
+        "Что в этих проектах общего с салоном: клиент решает с телефона, за минуты, по цене и расстоянию. Лендинг с закрытым доступом к видео, премиальный сайт по ремонту и инвестициям, SEO и UX для авторемонтной компании, переработка сайта на WordPress и лендинг склада колёс с редактируемым SEO.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "renovation-and-investment-website-with-premium-design",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "tyre-storage-landing-page-with-editable-seo",
+      ],
     },
     {
       _type: "textContent",
@@ -94,21 +108,7 @@ export const beautySalonWebsiteRu = {
         p("Поэтому делаю на Next.js, с нормально сжатыми картинками и без лишних скриптов, а цену, кнопку записи и телефон ставлю там, где до них не нужно прокручивать."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: локальные сервисные компании, для которых я делал сайты",
-      subtitle:
-        "Что в этих проектах общего с салоном: клиент решает с телефона, за минуты, по цене и расстоянию. Лендинг с закрытым доступом к видео, премиальный сайт по ремонту и инвестициям, SEO и UX для авторемонтной компании, переработка сайта на WordPress и лендинг склада колёс с редактируемым SEO.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "renovation-and-investment-website-with-premium-design",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "tyre-storage-landing-page-with-editable-seo",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

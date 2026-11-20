@@ -71,6 +71,20 @@ export const pharmacySeoEn = {
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Pharmacy open now near me»" },
         { _key: k("o"), iconName: "file-text", title: "A written note of what was excluded", text: "And which rule excluded it" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: regulated and local businesses whose visibility I have run",
+      subtitle:
+        "The first is a psychotherapist's site in Italy, where what may be published is limited by professional rules — the closest case to a pharmacy. The rest are businesses needing accurate location data and pages for specific services: an architecture practice rebuilt and scanned for search problems, a car service business, a renovation and investment firm, and an education agency taken from one country to ten.",
+      picks: [
+        "psychotherapist-website-milan",
+        "architecture-website-rebuild-and-seo-scan",
+        "auto-repair-seo-and-ux-boost",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -126,21 +140,7 @@ export const pharmacySeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: regulated and local businesses whose visibility I have run",
-      subtitle:
-        "The first is a psychotherapist's site in Italy, where what may be published is limited by professional rules — the closest case to a pharmacy. The rest are businesses needing accurate location data and pages for specific services: an architecture practice rebuilt and scanned for search problems, a car service business, a renovation and investment firm, and an education agency taken from one country to ten.",
-      picks: [
-        "psychotherapist-website-milan",
-        "architecture-website-rebuild-and-seo-scan",
-        "auto-repair-seo-and-ux-boost",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

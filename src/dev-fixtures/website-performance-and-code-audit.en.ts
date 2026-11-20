@@ -68,6 +68,20 @@ export const websitePerformanceAndCodeAuditEn = {
         { _key: k("o"), iconName: "server", title: "Server response and caching", text: "Where the first byte is lost" },
         { _key: k("o"), iconName: "list-checks", title: "A prioritised fix list", text: "Cost in milliseconds against cost in hours" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: measured performance, not promised performance",
+      subtitle:
+        "These cases carry their Lighthouse numbers because here the numbers are the point: a renovation and investment site at 96/98/100/100, a consultant's site at 100/100/100/100, an education agency site taken from 61 to 91 on performance, a full WordPress rebuild, and a multilingual property platform with a large catalogue.",
+      picks: [
+        "renovation-and-investment-website-with-premium-design",
+        "consultant-website-design-retail-analytics",
+        "seo-case-study-education-agency",
+        "felgilab-wordpress-rebuild",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+      ],
     },
     {
       _type: "textContent",
@@ -128,21 +142,7 @@ export const websitePerformanceAndCodeAuditEn = {
         p("The report takes three working days. Implementation depends on what is found and is quoted after the audit rather than before it — anyone quoting the fix before measuring is guessing. Field data in Search Console moves on a 28-day rolling window, so Core Web Vitals there change about a month after the fixes ship, not the same week."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: measured performance, not promised performance",
-      subtitle:
-        "These cases carry their Lighthouse numbers because here the numbers are the point: a renovation and investment site at 96/98/100/100, a consultant's site at 100/100/100/100, an education agency site taken from 61 to 91 on performance, a full WordPress rebuild, and a multilingual property platform with a large catalogue.",
-      picks: [
-        "renovation-and-investment-website-with-premium-design",
-        "consultant-website-design-retail-analytics",
-        "seo-case-study-education-agency",
-        "felgilab-wordpress-rebuild",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

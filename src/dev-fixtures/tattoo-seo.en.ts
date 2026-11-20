@@ -56,6 +56,20 @@ export const tattooSeoEn = {
         { _key: k("o"), iconName: "tag", title: "Minimum charge and hourly rate on the page", text: "Fewer enquiries, better ones" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Fine line artist in my city, books three months out»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: local service businesses whose visibility I have run",
+      subtitle:
+        "What these share with a tattoo studio: the client is local, the decision is made on the phone within minutes, and the work was pages for specific services plus a strong local profile rather than bought links. A car service business, a landing page with editable SEO, a WordPress rebuild, a renovation and investment firm, and an education agency taken from one country to ten.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -100,21 +114,7 @@ export const tattooSeoEn = {
         p("It also matters for a reason that has nothing to do with clients. A figure written on the page is something a search engine and an AI assistant can quote, and a studio that publishes nothing gets described by whatever a third-party directory guessed."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: local service businesses whose visibility I have run",
-      subtitle:
-        "What these share with a tattoo studio: the client is local, the decision is made on the phone within minutes, and the work was pages for specific services plus a strong local profile rather than bought links. A car service business, a landing page with editable SEO, a WordPress rebuild, a renovation and investment firm, and an education agency taken from one country to ten.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

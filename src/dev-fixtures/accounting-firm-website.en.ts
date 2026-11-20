@@ -65,6 +65,20 @@ export const accountingFirmWebsiteEn = {
         { _key: k("o"), iconName: "edit", title: "Editable without a developer", text: "Fees, people, deadlines — you change them" },
         { _key: k("o"), iconName: "refresh-cw", title: "Move off a vendor template", text: "Your own site, rankings kept" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: professional services where credibility is checked before contact",
+      subtitle:
+        "What these share with an accounting practice: expertise is the product, the buyer verifies the firm before writing, and the structure had to carry long explanatory material without becoming unreadable. A retail-analytics consultant, a digital agency site, an education agency taken from one country to ten, a personal site built and optimised from scratch, and a multilingual site for student services.",
+      picks: [
+        "consultant-website-design-retail-analytics",
+        "proscore-agency-website-development",
+        "seo-case-study-education-agency",
+        "develop-and-optimize-a-personal-website-with-seo",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -122,21 +136,7 @@ export const accountingFirmWebsiteEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: professional services where credibility is checked before contact",
-      subtitle:
-        "What these share with an accounting practice: expertise is the product, the buyer verifies the firm before writing, and the structure had to carry long explanatory material without becoming unreadable. A retail-analytics consultant, a digital agency site, an education agency taken from one country to ten, a personal site built and optimised from scratch, and a multilingual site for student services.",
-      picks: [
-        "consultant-website-design-retail-analytics",
-        "proscore-agency-website-development",
-        "seo-case-study-education-agency",
-        "develop-and-optimize-a-personal-website-with-seo",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

@@ -53,6 +53,20 @@ export const autoRepairSeoEn = {
         { _key: k("o"), iconName: "sparkles", title: "GEO and AEO for AI answers", text: "ChatGPT, Perplexity and Google's AI Overviews" },
         { _key: k("o"), iconName: "trending-up", title: "Reporting in calls and bookings", text: "Not positions alone, but enquiries" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: service businesses whose search visibility I worked on",
+      subtitle:
+        "The first case is an auto repair company — what was changed on the site and why. The rest are local service businesses needing the same work: pages for specific jobs, a strong map profile, and reporting in calls rather than positions.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -83,21 +97,7 @@ export const autoRepairSeoEn = {
         p("So seasonal pages are prepared ahead and not deleted afterwards — the URL lives all year and gains weight before the next window. The same goes for tyre storage, which is a subscription in all but name and brings a customer who comes back for servicing."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: service businesses whose search visibility I worked on",
-      subtitle:
-        "The first case is an auto repair company — what was changed on the site and why. The rest are local service businesses needing the same work: pages for specific jobs, a strong map profile, and reporting in calls rather than positions.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

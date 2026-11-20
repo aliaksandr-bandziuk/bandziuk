@@ -57,6 +57,20 @@ export const psychiatristWebsiteRu = {
         { _key: k("o"), iconName: "file-lock", title: "Формулировки в рамках закона", text: "Состояния и методы, не названия препаратов" },
         { _key: k("o"), iconName: "globe", title: "Где вы вправе лечить дистанционно", text: "Лицензия названа, а не подразумевается" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: сайты, где всё решают доверие и первый контакт",
+      subtitle:
+        "Двуязычный сайт психотерапевтической практики в Милане, сайт консультанта, собранный вокруг одной специализации, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, который вырос с одной страны до десяти, и сайт ремонтно-инвестиционной компании в премиуме.",
+      picks: [
+        "psychotherapist-website-milan",
+        "consultant-website-design-retail-analytics",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -103,21 +117,7 @@ export const psychiatristWebsiteRu = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: сайты, где всё решают доверие и первый контакт",
-      subtitle:
-        "Двуязычный сайт психотерапевтической практики в Милане, сайт консультанта, собранный вокруг одной специализации, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, который вырос с одной страны до десяти, и сайт ремонтно-инвестиционной компании в премиуме.",
-      picks: [
-        "psychotherapist-website-milan",
-        "consultant-website-design-retail-analytics",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

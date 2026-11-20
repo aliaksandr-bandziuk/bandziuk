@@ -65,6 +65,20 @@ export const drivingSchoolSeoEn = {
         { _key: k("o"), iconName: "credit-card", title: "Hourly and block prices on the page", text: "Learners compare before calling" },
         { _key: k("o"), iconName: "users", title: "A page for instructors you want to hire", text: "Your second audience, and nobody writes for it" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: course and local service businesses whose visibility I have run",
+      subtitle:
+        "The first two are education projects where the buyer compares providers and prices before enquiring — the closest case to a driving school. Then local service businesses: a car service business, a landing page with editable SEO, and a renovation and investment firm.",
+      picks: [
+        "seo-case-study-education-agency",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -108,21 +122,7 @@ export const drivingSchoolSeoEn = {
         p("And remember there are two readers on most enquiries: the learner, who is young and on a phone, and whoever is paying, who is often a parent reading the same page with different questions about safety, cost and whether the money is refundable. A page that answers both converts a conversation that is happening at a kitchen table rather than on your website."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: course and local service businesses whose visibility I have run",
-      subtitle:
-        "The first two are education projects where the buyer compares providers and prices before enquiring — the closest case to a driving school. Then local service businesses: a car service business, a landing page with editable SEO, and a renovation and investment firm.",
-      picks: [
-        "seo-case-study-education-agency",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

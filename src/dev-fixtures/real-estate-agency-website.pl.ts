@@ -69,6 +69,20 @@ export const realEstateAgencyWebsitePl = {
         { _key: k("o"), iconName: "zap", title: "Szybkość na podstronach ze zdjęciami", text: "To zdjęcia nieruchomości spowalniają takie strony" },
         { _key: k("o"), iconName: "sparkles", title: "Struktura czytelna dla asystentów AI", text: "Bezpośrednie odpowiedzi i dane zgodne z tekstem" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: strony nieruchomości i inwestycji, które zbudowałem",
+      subtitle:
+        "Pierwszy case to wielojęzyczna platforma nieruchomości: katalog, lokalizacje i kilka języków naraz. Dalej: strona o remontach i inwestowaniu w nieruchomości, przebudowa strony biura architektonicznego ze skanem SEO i projekty, w których zadecydowała struktura.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "renovation-and-investment-website-with-premium-design",
+        "architecture-website-rebuild-and-seo-scan",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+      ],
     },
     {
       _type: "textContent",
@@ -114,21 +128,7 @@ export const realEstateAgencyWebsitePl = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: strony nieruchomości i inwestycji, które zbudowałem",
-      subtitle:
-        "Pierwszy case to wielojęzyczna platforma nieruchomości: katalog, lokalizacje i kilka języków naraz. Dalej: strona o remontach i inwestowaniu w nieruchomości, przebudowa strony biura architektonicznego ze skanem SEO i projekty, w których zadecydowała struktura.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "renovation-and-investment-website-with-premium-design",
-        "architecture-website-rebuild-and-seo-scan",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

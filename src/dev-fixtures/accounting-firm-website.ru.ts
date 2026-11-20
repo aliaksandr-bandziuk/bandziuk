@@ -57,6 +57,20 @@ export const accountingFirmWebsiteRu = {
         { _key: k("o"), iconName: "globe", title: "Работа на несколько стран", text: "Если клиенты в разных юрисдикциях" },
         { _key: k("o"), iconName: "edit", title: "Правки без разработчика", text: "Цены, людей, сроки меняете сами" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: услуги, где надёжность проверяют до первого письма",
+      subtitle:
+        "Что у этих проектов общего с бухгалтерской практикой: продуктом является знание, покупатель проверяет исполнителя прежде чем написать, а структура должна была выдержать длинные объяснения и не стать нечитаемой. Сайт консультанта по аналитике ритейла, сайт digital-агентства, кейс образовательного агентства, выросшего с одной страны до десяти, личный сайт, собранный и оптимизированный с нуля, и многоязычный сайт студенческих услуг.",
+      picks: [
+        "consultant-website-design-retail-analytics",
+        "proscore-agency-website-development",
+        "seo-case-study-education-agency",
+        "develop-and-optimize-a-personal-website-with-seo",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -118,21 +132,7 @@ export const accountingFirmWebsiteRu = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: услуги, где надёжность проверяют до первого письма",
-      subtitle:
-        "Что у этих проектов общего с бухгалтерской практикой: продуктом является знание, покупатель проверяет исполнителя прежде чем написать, а структура должна была выдержать длинные объяснения и не стать нечитаемой. Сайт консультанта по аналитике ритейла, сайт digital-агентства, кейс образовательного агентства, выросшего с одной страны до десяти, личный сайт, собранный и оптимизированный с нуля, и многоязычный сайт студенческих услуг.",
-      picks: [
-        "consultant-website-design-retail-analytics",
-        "proscore-agency-website-development",
-        "seo-case-study-education-agency",
-        "develop-and-optimize-a-personal-website-with-seo",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

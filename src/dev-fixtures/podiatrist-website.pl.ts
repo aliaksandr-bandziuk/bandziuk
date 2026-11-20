@@ -58,6 +58,20 @@ export const podiatristWebsitePl = {
         { _key: k("o"), iconName: "footprints", title: "Wkładki jako dwie wizyty", text: "Pomiar, dopasowanie, pełny koszt" },
         { _key: k("o"), iconName: "shield-check", title: "Sterylizacja pokazana wprost", text: "Pytanie, którego nikt nie zadaje głośno" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: strony, w których decyduje pierwszy kontakt i cennik",
+      subtitle:
+        "Dwujęzyczna strona praktyki psychoterapeutycznej w Mediolanie, strona konsultantki zbudowana wokół jednej specjalizacji, wielojęzyczna platforma nieruchomości z katalogiem i filtrami, strona agencji edukacyjnej, która urosła z jednego kraju do dziesięciu, i strona firmy remontowo-inwestycyjnej w premium.",
+      picks: [
+        "psychotherapist-website-milan",
+        "consultant-website-design-retail-analytics",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -105,21 +119,7 @@ export const podiatristWebsitePl = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: strony, w których decyduje pierwszy kontakt i cennik",
-      subtitle:
-        "Dwujęzyczna strona praktyki psychoterapeutycznej w Mediolanie, strona konsultantki zbudowana wokół jednej specjalizacji, wielojęzyczna platforma nieruchomości z katalogiem i filtrami, strona agencji edukacyjnej, która urosła z jednego kraju do dziesięciu, i strona firmy remontowo-inwestycyjnej w premium.",
-      picks: [
-        "psychotherapist-website-milan",
-        "consultant-website-design-retail-analytics",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

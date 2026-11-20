@@ -58,6 +58,20 @@ export const speechTherapistWebsiteRu = {
         { _key: k("o"), iconName: "list-checks", title: "Домашние задания названы заранее", text: "Фильтр ожиданий до записи" },
         { _key: k("o"), iconName: "heart-pulse", title: "Отдельная страница для взрослых", text: "После инсульта решает другой человек" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: сайты, где всё решают доверие и первый контакт",
+      subtitle:
+        "Двуязычный сайт психотерапевтической практики в Милане, сайт консультанта, собранный вокруг одной специализации, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, который вырос с одной страны до десяти, и сайт ремонтно-инвестиционной компании в премиуме.",
+      picks: [
+        "psychotherapist-website-milan",
+        "consultant-website-design-retail-analytics",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -107,21 +121,7 @@ export const speechTherapistWebsiteRu = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: сайты, где всё решают доверие и первый контакт",
-      subtitle:
-        "Двуязычный сайт психотерапевтической практики в Милане, сайт консультанта, собранный вокруг одной специализации, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, который вырос с одной страны до десяти, и сайт ремонтно-инвестиционной компании в премиуме.",
-      picks: [
-        "psychotherapist-website-milan",
-        "consultant-website-design-retail-analytics",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

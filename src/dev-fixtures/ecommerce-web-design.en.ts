@@ -62,6 +62,20 @@ export const ecommerceWebDesignEn = {
         { _key: k("o"), iconName: "credit-card", title: "One product, one page", text: "A landing page with payment, no catalogue" },
         { _key: k("o"), iconName: "plug", title: "Integrations for an existing store", text: "Stock, accounting, delivery, CRM" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: catalogues, payments and multilingual builds",
+      subtitle:
+        "What these have in common with a store: a large catalogue that has to stay findable, payments and protected access, accounts, and several languages at once. An ecommerce landing page with payment and secured video access, a multilingual property platform, a WordPress rebuild, a multilingual site for student services, and an investment platform with paid access.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "felgilab-wordpress-rebuild",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "investment-platform-with-ai-guided-learning",
+      ],
     },
     {
       _type: "textContent",
@@ -107,21 +121,7 @@ export const ecommerceWebDesignEn = {
         p("A store with a catalogue takes four to eight weeks, a single-product landing page two to three. What stretches it is almost never the code: it is the product data. Photographs, descriptions, variants, weights for delivery, and the decisions about what happens to items you no longer stock. Stores that launch on time are the ones where somebody on your side owns the catalogue file from day one."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: catalogues, payments and multilingual builds",
-      subtitle:
-        "What these have in common with a store: a large catalogue that has to stay findable, payments and protected access, accounts, and several languages at once. An ecommerce landing page with payment and secured video access, a multilingual property platform, a WordPress rebuild, a multilingual site for student services, and an investment platform with paid access.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "felgilab-wordpress-rebuild",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "investment-platform-with-ai-guided-learning",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

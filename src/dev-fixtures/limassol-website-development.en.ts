@@ -56,6 +56,20 @@ export const limassolWebsiteDevelopmentEn = {
         { _key: k("o"), iconName: "database", title: "Custom development", text: "Catalogues, filters, portals, integrations" },
         { _key: k("o"), iconName: "wrench", title: "Website support", text: "Updates, backups, edits when you need them" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: a Cyprus real estate platform and other multilingual projects",
+      subtitle:
+        "The first case is in Cyprus: a multilingual real estate platform with a catalogue, filters and search visibility built without bought links. Alongside it — an education agency site that grew from one country to ten, a renovation and investment company site with a premium look, a multilingual student services site, and a consultant site built around a single expertise.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -125,21 +139,7 @@ export const limassolWebsiteDevelopmentEn = {
         p("A landing page takes two to three weeks, a company website four to six, a site with a catalogue or a client area is quoted separately. What stretches a timeline is almost never the code — it is decisions: who approves wording, which services get their own page, which languages are needed. Projects finish on time when one person decides on your side."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: a Cyprus real estate platform and other multilingual projects",
-      subtitle:
-        "The first case is in Cyprus: a multilingual real estate platform with a catalogue, filters and search visibility built without bought links. Alongside it — an education agency site that grew from one country to ten, a renovation and investment company site with a premium look, a multilingual student services site, and a consultant site built around a single expertise.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

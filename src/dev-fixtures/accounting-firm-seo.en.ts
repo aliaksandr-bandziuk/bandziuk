@@ -70,6 +70,20 @@ export const accountingFirmSeoEn = {
         { _key: k("o"), iconName: "calendar", title: "Content ready before the busy season", text: "Published months early, not in March" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Find me an accountant for an LLC»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: professional services, where credibility is checked before contact",
+      subtitle:
+        "What these have in common with an accounting practice: expertise is the product, the buyer verifies credibility before writing, and the search growth came from structure and content rather than bought links. An education agency taken from one country to ten, a retail-analytics consultant, a digital agency site, a personal site built and optimised from scratch, and a multilingual site for student services.",
+      picks: [
+        "seo-case-study-education-agency",
+        "consultant-website-design-retail-analytics",
+        "proscore-agency-website-development",
+        "develop-and-optimize-a-personal-website-with-seo",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -125,21 +139,7 @@ export const accountingFirmSeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: professional services, where credibility is checked before contact",
-      subtitle:
-        "What these have in common with an accounting practice: expertise is the product, the buyer verifies credibility before writing, and the search growth came from structure and content rather than bought links. An education agency taken from one country to ten, a retail-analytics consultant, a digital agency site, a personal site built and optimised from scratch, and a multilingual site for student services.",
-      picks: [
-        "seo-case-study-education-agency",
-        "consultant-website-design-retail-analytics",
-        "proscore-agency-website-development",
-        "develop-and-optimize-a-personal-website-with-seo",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

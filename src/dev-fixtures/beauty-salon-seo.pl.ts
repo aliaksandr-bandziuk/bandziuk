@@ -62,6 +62,20 @@ export const beautySalonSeoPl = {
         { _key: k("o"), iconName: "zap", title: "Szybkość na telefonie", text: "Te strony otwiera się na telefonie, między klientkami" },
         { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI (GEO, AEO)", text: "ChatGPT, Perplexity i przeglądy AI w Google" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: lokalne firmy usługowe, z którymi pracowałem",
+      subtitle:
+        "Co te projekty mają wspólnego z salonem: klient decyduje na telefonie, w kilka minut, po cenie i odległości. Landing z zabezpieczonym dostępem do wideo, premium strona o remontach i inwestycjach, SEO i UX dla firmy auto, przebudowa strony na WordPressie i landing przechowalni opon z edytowalnym SEO.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "renovation-and-investment-website-with-premium-design",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "tyre-storage-landing-page-with-editable-seo",
+      ],
     },
     {
       _type: "textContent",
@@ -108,21 +122,7 @@ export const beautySalonSeoPl = {
         p("Działa to wyraźnie mocniej, kiedy salon rozumie swoją ekonomię: które zabiegi są marżowe i kogo z zespołu trzeba dociążyć. Wtedy pozycjonowanie wzmacnia właśnie te usługi, które dają zysk, a nie ruch średnio."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: lokalne firmy usługowe, z którymi pracowałem",
-      subtitle:
-        "Co te projekty mają wspólnego z salonem: klient decyduje na telefonie, w kilka minut, po cenie i odległości. Landing z zabezpieczonym dostępem do wideo, premium strona o remontach i inwestycjach, SEO i UX dla firmy auto, przebudowa strony na WordPressie i landing przechowalni opon z edytowalnym SEO.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "renovation-and-investment-website-with-premium-design",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "tyre-storage-landing-page-with-editable-seo",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

@@ -66,6 +66,20 @@ export const securityCompanySeoEn = {
         { _key: k("o"), iconName: "shield-check", title: "Licensing and insurance stated", text: "Trust, and a search term in its own right" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Monitored alarm for a warehouse, response under 15 minutes»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: service businesses and technical work whose visibility I have run",
+      subtitle:
+        "What these share with a security company: a service bought on specifications, a local or contract buyer, and work that included the technical state of the site rather than content alone. Anti-spam protection for website forms, an architecture practice rebuilt and scanned for search problems, a car service business, a renovation and investment firm, and an education agency taken from one country to ten.",
+      picks: [
+        "anti-spam-protection-for-website-forms",
+        "architecture-website-rebuild-and-seo-scan",
+        "auto-repair-seo-and-ux-boost",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -112,21 +126,7 @@ export const securityCompanySeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: service businesses and technical work whose visibility I have run",
-      subtitle:
-        "What these share with a security company: a service bought on specifications, a local or contract buyer, and work that included the technical state of the site rather than content alone. Anti-spam protection for website forms, an architecture practice rebuilt and scanned for search problems, a car service business, a renovation and investment firm, and an education agency taken from one country to ten.",
-      picks: [
-        "anti-spam-protection-for-website-forms",
-        "architecture-website-rebuild-and-seo-scan",
-        "auto-repair-seo-and-ux-boost",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

@@ -65,6 +65,20 @@ export const realEstateSeoPl = {
         { _key: k("o"), iconName: "zap", title: "Szybkość na podstronach ze zdjęciami", text: "To zdjęcia nieruchomości spowalniają takie strony" },
         { _key: k("o"), iconName: "sparkles", title: "Widoczność w odpowiedziach AI (GEO, AEO)", text: "ChatGPT, Perplexity i AI Overviews w Google" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: strony nieruchomości i inwestycji, nad którymi pracowałem",
+      subtitle:
+        "Pierwszy case to wielojęzyczna platforma nieruchomości: katalog, lokalizacje i kilka języków naraz. Dalej: strona o remontach i inwestowaniu w nieruchomości, przebudowa strony biura architektonicznego ze skanem SEO i projekty wielojęzyczne, w których zadecydowała struktura.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "renovation-and-investment-website-with-premium-design",
+        "architecture-website-rebuild-and-seo-scan",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+      ],
     },
     {
       _type: "textContent",
@@ -95,21 +109,7 @@ export const realEstateSeoPl = {
         p("Powtarza się to samo: hreflang prowadzi do podstron, których nie ma; jedna wersja językowa jest tłumaczona maszynowo z drugiej i wchodzi do indeksu jako cienki duplikat; lokalizacje w różnych językach nazwane są inaczej, więc żadna nie zbiera mocy; przełącznik języka wyrzuca na stronę główną zamiast na tę samą ofertę. Wszystko to da się naprawić i wszystko to kosztuje dziś pozycje stronom, które z zewnątrz wyglądają dobrze."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: strony nieruchomości i inwestycji, nad którymi pracowałem",
-      subtitle:
-        "Pierwszy case to wielojęzyczna platforma nieruchomości: katalog, lokalizacje i kilka języków naraz. Dalej: strona o remontach i inwestowaniu w nieruchomości, przebudowa strony biura architektonicznego ze skanem SEO i projekty wielojęzyczne, w których zadecydowała struktura.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "renovation-and-investment-website-with-premium-design",
-        "architecture-website-rebuild-and-seo-scan",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

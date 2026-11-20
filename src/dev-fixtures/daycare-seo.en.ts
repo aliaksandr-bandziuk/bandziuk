@@ -61,6 +61,20 @@ export const daycareSeoEn = {
         { _key: k("o"), iconName: "shield-check", title: "Register entry and inspection record", text: "Trust is checked before anyone calls" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Nursery near me with a free toddler place in January»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: local and education businesses whose visibility I have run",
+      subtitle:
+        "What these share with a nursery: the decision is local or family-made, trust is checked before anyone makes contact, and the growth came from pages for specific services plus a strong local profile rather than bought links. An education agency taken from one country to ten, a multilingual site for student services, a car service business, a landing page with editable SEO, and a renovation and investment firm.",
+      picks: [
+        "seo-case-study-education-agency",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -106,21 +120,7 @@ export const daycareSeoEn = {
         p("This is also the fastest-moving part of the work. The profile tends to respond within weeks, while age-group pages take longer to mature, which is why I usually start there when a setting has places to fill in the current term rather than the next one."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: local and education businesses whose visibility I have run",
-      subtitle:
-        "What these share with a nursery: the decision is local or family-made, trust is checked before anyone makes contact, and the growth came from pages for specific services plus a strong local profile rather than bought links. An education agency taken from one country to ten, a multilingual site for student services, a car service business, a landing page with editable SEO, and a renovation and investment firm.",
-      picks: [
-        "seo-case-study-education-agency",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

@@ -60,6 +60,20 @@ export const cardiologistSeoEn = {
         { _key: k("o"), iconName: "badge-check", title: "Author, credentials, review date", text: "What medical pages are judged on" },
         { _key: k("o"), iconName: "gauge", title: "Speed and booking that works", text: "The technical side that moves things" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: multilingual platforms and work in regulated fields",
+      subtitle:
+        "A multilingual real estate platform whose search visibility was built without bought links, an education agency site that grew from one country to ten, a renovation and investment company site with a premium look, a multilingual student services site, and a consultant site built around a single expertise.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -116,21 +130,7 @@ export const cardiologistSeoEn = {
         p("First movement usually shows at about a month and a half, growth over three to six months. I do not promise positions, and in cardiology I would distrust anyone who does: the symptom queries are not available at any budget, and the test queries move faster than anybody's forecast because they depend on how many practices in your city publish a price at all."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: multilingual platforms and work in regulated fields",
-      subtitle:
-        "A multilingual real estate platform whose search visibility was built without bought links, an education agency site that grew from one country to ten, a renovation and investment company site with a premium look, a multilingual student services site, and a consultant site built around a single expertise.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

@@ -136,7 +136,10 @@ for (const name of names) {
 
   const types = (fx.contentBlocks || []).map((b) => b._type);
   const iOffer = types.indexOf("offerListBlock"), iPf = types.indexOf("portfolioPickBlock");
-  if (iPf === -1) bad.push("нет блока с кейсами");
+  // Страницы 18+ сознательно идут без кейсов: проекты клиентов не ставятся
+  // рядом с темой adult. Для них блок не требуется.
+  const isAdult = /adult|branzy-adult|adalt/.test(fx.slug);
+  if (iPf === -1 && !isAdult) bad.push("нет блока с кейсами");
   else if (iOffer !== -1 && iPf !== iOffer + 1) bad.push(`блок кейсов стоит не сразу после «что входит в работу» (${types.join(" → ")})`);
 
   (fx.contentBlocks || []).forEach((b, i) => {
@@ -157,11 +160,20 @@ for (const name of names) {
   }
 
   if (lang === "ru") {
-    const n = (whole.match(/раскрутк/gi) || []).length;
-    // Страница, которая сама нацелена на фразу «раскрутка сайта», из правила
-    // исключена: там это главное ключевое слово, а не синоним для одного раза.
+    // Требование владельца: синоним «раскрутка сайта» стоит один раз и именно
+    // в подзаголовке. Заголовок плюс абзац под ним, который его подхватывает, —
+    // это обычная речь, а не переспам, поэтому считаются подзаголовки, а не все
+    // вхождения корня. Страница, нацеленная на саму эту фразу, исключена.
+    // Считается существительное «раскрутка» — это и есть ключевая фраза.
+    // Глагол («как раскрутить сайт») — другой запрос и правилу не мешает.
+    const inHeads = heads.filter((h) => /раскрутк/i.test(h)).length;
+    const total = (whole.match(/раскрутк/gi) || []).length;
     const isPromoPage = /^prodvizhenie-saita$/.test(fx.slug);
-    if (isSeo && !isPromoPage && n !== 1) bad.push(`«раскрутка сайта» встречается ${n} раз, нужно ровно один`);
+    if (isSeo && !isPromoPage) {
+      if (inHeads === 0) bad.push("нет подзаголовка с синонимом «раскрутка сайта»");
+      else if (inHeads > 1) bad.push(`синоним «раскрутка» стоит в ${inHeads} подзаголовках, нужен один`);
+      if (total > 5) warn.push(`корень «раскрутк» встречается ${total} раз — похоже на переспам`);
+    }
     if (/честн/i.test(whole)) bad.push("встречается слово «честный» и производные");
   }
   if (lang === "pl" && isSeo && !/pozycjonowanie strony/i.test(heading)) warn.push("в H1 нет формы «pozycjonowanie strony X»");

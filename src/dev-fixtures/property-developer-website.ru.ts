@@ -72,6 +72,20 @@ export const propertyDeveloperWebsiteRu = {
         { _key: k("o"), iconName: "plug", title: "Подключение заявок к CRM по проектам", text: "Заявка доходит до тех, кто продаёт этот дом" },
         { _key: k("o"), iconName: "globe", title: "Языки, на которых ищут ваши покупатели", text: "Со своим сбором ключей, а не переводом существующего" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: сайты по недвижимости, инвестициям и строительству",
+      subtitle:
+        "Первый кейс — компания по ремонту и инвестициям в недвижимость: премиальное ощущение при показателях 96/98/100/100. Дальше: многоязычная платформа недвижимости с каталогом и локациями, переработка сайта архитектурного бюро со SEO-разбором и проекты, где всё решила структура.",
+      picks: [
+        "renovation-and-investment-website-with-premium-design",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "architecture-website-rebuild-and-seo-scan",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+      ],
     },
     {
       _type: "textContent",
@@ -121,21 +135,7 @@ export const propertyDeveloperWebsiteRu = {
         p("Вторая и третья версия — отдельная работа, а не перевод: свой сбор ключевых слов, текст, приведённый к тому, как читает этот рынок, и структура адресов, которую поисковик различает. Заложенная в структуру с самого начала, каждая следующая версия стоит немного; достроенная потом — это дорогой вариант той же работы."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: сайты по недвижимости, инвестициям и строительству",
-      subtitle:
-        "Первый кейс — компания по ремонту и инвестициям в недвижимость: премиальное ощущение при показателях 96/98/100/100. Дальше: многоязычная платформа недвижимости с каталогом и локациями, переработка сайта архитектурного бюро со SEO-разбором и проекты, где всё решила структура.",
-      picks: [
-        "renovation-and-investment-website-with-premium-design",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "architecture-website-rebuild-and-seo-scan",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

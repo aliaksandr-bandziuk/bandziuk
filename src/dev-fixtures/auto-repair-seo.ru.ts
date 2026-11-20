@@ -60,6 +60,20 @@ export const autoRepairSeoRu = {
         { _key: k("o"), iconName: "sparkles", title: "GEO и AEO для ответов ИИ", text: "ChatGPT, Perplexity и AI Overviews в Google" },
         { _key: k("o"), iconName: "trending-up", title: "Отчёт в звонках и записях", text: "Не только позиции, но и обращения" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: сайты сервисных компаний, которые я продвигал",
+      subtitle:
+        "Первый кейс — авторемонтная компания: что именно меняли на сайте и зачем. Остальные — локальные сервисные бизнесы, которым нужна та же работа: страницы под конкретные услуги, сильная карточка на картах и отчёт в звонках, а не в позициях.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -95,21 +109,7 @@ export const autoRepairSeoRu = {
         p("Поэтому сезонные страницы готовятся заранее, а не в неделю ажиотажа, и не удаляются после — адрес живёт весь год и набирает вес к следующему окну. То же касается хранения шин: это услуга с подпиской по смыслу, и она приводит клиента, который потом возвращается на обслуживание."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: сайты сервисных компаний, которые я продвигал",
-      subtitle:
-        "Первый кейс — авторемонтная компания: что именно меняли на сайте и зачем. Остальные — локальные сервисные бизнесы, которым нужна та же работа: страницы под конкретные услуги, сильная карточка на картах и отчёт в звонках, а не в позициях.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),
@@ -152,7 +152,7 @@ export const autoRepairSeoRu = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Продвижение автосервиса в ChatGPT и AI Overviews: что такое GEO и AEO"),
+        h2("Раскрутка сайта автосервиса в ChatGPT и AI Overviews: что такое GEO и AEO"),
         p("Водители всё чаще спрашивают ассистента напрямую: «где починить АКПП в таком-то городе», «сколько стоит замена ремня ГРМ», «что значит ошибка P0420». ChatGPT, Perplexity и AI Overviews в Google отвечают и называют конкретные сервисы — но берут их не из рекламы, а из текста, который могут прочитать и пересказать."),
         p("Этим занимаются две смежные работы, и их стоит различать. GEO (Generative Engine Optimization) — чтобы вашу компанию упоминали в ответах генеративных моделей, и упоминали правильно. AEO (Answer Engine Optimization) — чтобы страница давала прямой ответ на вопрос в первых же предложениях, потому что именно его ассистент и процитирует. Классическое SEO при этом никуда не девается: оно отвечает за позиции в Google, а GEO и AEO — за то, назовут ли вас, когда клиент вместо поиска спросил."),
         p("На практике это: прямой ответ в начале каждого раздела, факты вместо оценок, структурированные данные, совпадающие с текстом, доступность содержимого без выполнения скриптов. И замер на постоянном наборе вопросов до и после — иначе про видимость в ИИ можно только рассуждать."),

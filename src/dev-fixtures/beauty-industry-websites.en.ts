@@ -66,6 +66,20 @@ export const beautyIndustryWebsitesEn = {
         { _key: k("o"), iconName: "pen-tool", title: "Tattoo studio", text: "Portfolio by style, by artist, and a deposit" },
         { _key: k("o"), iconName: "layers", title: "Not sure yet", text: "Send what you do and I will say which fits" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: local service businesses I have built for",
+      subtitle:
+        "What these cases have in common with a beauty business: a client who decides on a phone, in minutes, by price and distance. A landing page with secured video access, a premium renovation site, SEO and UX for an auto repair company, a WordPress rebuild, and a tyre storage landing page with editable SEO.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "renovation-and-investment-website-with-premium-design",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "tyre-storage-landing-page-with-editable-seo",
+      ],
     },
     {
       _type: "textContent",
@@ -120,21 +134,7 @@ export const beautyIndustryWebsitesEn = {
         p("A landing page takes two to three weeks, a full site three to six. What stretches it is the material rather than the code: photographs, the treatment list with prices and durations, and who on your side signs off on the text."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: local service businesses I have built for",
-      subtitle:
-        "What these cases have in common with a beauty business: a client who decides on a phone, in minutes, by price and distance. A landing page with secured video access, a premium renovation site, SEO and UX for an auto repair company, a WordPress rebuild, and a tyre storage landing page with editable SEO.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "renovation-and-investment-website-with-premium-design",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "tyre-storage-landing-page-with-editable-seo",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

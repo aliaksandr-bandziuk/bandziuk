@@ -60,6 +60,20 @@ export const artistSeoEn = {
         { _key: k("o"), iconName: "credit-card", title: "Commissions and prints as their own pages", text: "Two different buyers, two different searches" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Large abstract canvas, artist I can buy from directly»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: sites where the visitor judges the work before reading a word",
+      subtitle:
+        "What these share with an artist's site: the portfolio is the product, the decision is made from the site alone, and growth came from structure and content rather than bought links. A personal site built and optimised from scratch, a retail-analytics consultant, an education agency taken from one country to ten, an agency site, and a multilingual site for student services.",
+      picks: [
+        "develop-and-optimize-a-personal-website-with-seo",
+        "consultant-website-design-retail-analytics",
+        "seo-case-study-education-agency",
+        "proscore-agency-website-development",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -121,21 +135,7 @@ export const artistSeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: sites where the visitor judges the work before reading a word",
-      subtitle:
-        "What these share with an artist's site: the portfolio is the product, the decision is made from the site alone, and growth came from structure and content rather than bought links. A personal site built and optimised from scratch, a retail-analytics consultant, an education agency taken from one country to ten, an agency site, and a multilingual site for student services.",
-      picks: [
-        "develop-and-optimize-a-personal-website-with-seo",
-        "consultant-website-design-retail-analytics",
-        "seo-case-study-education-agency",
-        "proscore-agency-website-development",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

@@ -60,6 +60,20 @@ export const bankWebsitePl = {
         { _key: k("o"), iconName: "eye", title: "Dostępność od początku", text: "Dla usług bankowych to wymóg prawny" },
         { _key: k("o"), iconName: "file-lock", title: "Budowa pod audyt dostawcy", text: "Ankiety, skrypty, przepływy danych" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: katalogi, serwisy wielojęzyczne i praca w ograniczeniach",
+      subtitle:
+        "Wielojęzyczna platforma nieruchomości z katalogiem, filtrami i widocznością zbudowaną bez kupowania linków; strona agencji edukacyjnej, która urosła z jednego kraju do dziesięciu; strona firmy remontowo-inwestycyjnej w premium; wielojęzyczny serwis usług studenckich; strona konsultantki zbudowana wokół jednej specjalizacji.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -107,21 +121,7 @@ export const bankWebsitePl = {
         p("Landing produktowy dwa–trzy tygodnie, pełna strona cztery–sześć, strona z siecią placówek i biblioteką dokumentów dłużej i wyceniana osobno. Wydłuża to prawie nigdy nie kod: akceptacje, audyt bezpieczeństwa i ustalanie brzmienia warunków produktów. W terminie kończą się projekty, w których po Waszej stronie decyduje jedna osoba i akceptuje jedna osoba."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: katalogi, serwisy wielojęzyczne i praca w ograniczeniach",
-      subtitle:
-        "Wielojęzyczna platforma nieruchomości z katalogiem, filtrami i widocznością zbudowaną bez kupowania linków; strona agencji edukacyjnej, która urosła z jednego kraju do dziesięciu; strona firmy remontowo-inwestycyjnej w premium; wielojęzyczny serwis usług studenckich; strona konsultantki zbudowana wokół jednej specjalizacji.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

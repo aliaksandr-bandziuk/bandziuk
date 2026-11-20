@@ -66,6 +66,20 @@ export const beautyIndustryWebsitesRu = {
         { _key: k("o"), iconName: "pen-tool", title: "Тату-студия", text: "Портфолио по стилям и мастерам плюс предоплата" },
         { _key: k("o"), iconName: "eye", title: "Салон оптики", text: "Рецепт, бренды и запись на проверку зрения" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: локальные сервисные компании, для которых я делал сайты",
+      subtitle:
+        "Что в этих проектах общего с бьюти-бизнесом: клиент решает с телефона, за минуты, по цене и расстоянию. Лендинг с закрытым доступом к видео, премиальный сайт по ремонту и инвестициям, SEO и UX для авторемонтной компании, переработка сайта на WordPress и лендинг склада колёс с редактируемым SEO.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "renovation-and-investment-website-with-premium-design",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "tyre-storage-landing-page-with-editable-seo",
+      ],
     },
     {
       _type: "textContent",
@@ -124,21 +138,7 @@ export const beautyIndustryWebsitesRu = {
         p("Лендинг — две-три недели, полный сайт — три-шесть. Растягивает разработку материал, а не код: фотографии, список процедур с ценами и длительностью и ответ на вопрос, кто с вашей стороны утверждает тексты."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: локальные сервисные компании, для которых я делал сайты",
-      subtitle:
-        "Что в этих проектах общего с бьюти-бизнесом: клиент решает с телефона, за минуты, по цене и расстоянию. Лендинг с закрытым доступом к видео, премиальный сайт по ремонту и инвестициям, SEO и UX для авторемонтной компании, переработка сайта на WordPress и лендинг склада колёс с редактируемым SEO.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "renovation-and-investment-website-with-premium-design",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "tyre-storage-landing-page-with-editable-seo",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

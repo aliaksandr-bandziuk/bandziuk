@@ -72,6 +72,20 @@ export const massageTherapySeoEn = {
         { _key: k("o"), iconName: "refresh-cw", title: "Making the second appointment easy", text: "The first visit is what search buys" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Sports massage near me, evenings, qualified»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: practitioner and appointment-based businesses whose visibility I have run",
+      subtitle:
+        "The first is a psychotherapist's site in Italy, where professional rules limit what may be published — the closest case to a practice that has to be careful about wording. The rest are appointment and local businesses: a consultant's site, a car service business, a renovation and investment firm, and an education agency taken from one country to ten.",
+      picks: [
+        "psychotherapist-website-milan",
+        "consultant-website-design-retail-analytics",
+        "auto-repair-seo-and-ux-boost",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -123,21 +137,7 @@ export const massageTherapySeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: practitioner and appointment-based businesses whose visibility I have run",
-      subtitle:
-        "The first is a psychotherapist's site in Italy, where professional rules limit what may be published — the closest case to a practice that has to be careful about wording. The rest are appointment and local businesses: a consultant's site, a car service business, a renovation and investment firm, and an education agency taken from one country to ten.",
-      picks: [
-        "psychotherapist-website-milan",
-        "consultant-website-design-retail-analytics",
-        "auto-repair-seo-and-ux-boost",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

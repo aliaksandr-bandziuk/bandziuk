@@ -67,6 +67,20 @@ export const beautySalonSeoEn = {
         { _key: k("o"), iconName: "zap", title: "Speed on a phone", text: "These sites are opened on a phone, between appointments" },
         { _key: k("o"), iconName: "sparkles", title: "Visibility in AI answers (GEO, AEO)", text: "ChatGPT, Perplexity and Google AI Overviews" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: local service businesses I have worked on",
+      subtitle:
+        "What these cases have in common with a salon: a client who decides on a phone, in minutes, by price and distance. A landing page with secured video access, a premium renovation site, SEO and UX for an auto repair company, a WordPress rebuild, and a tyre storage landing page with editable SEO.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "renovation-and-investment-website-with-premium-design",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "tyre-storage-landing-page-with-editable-seo",
+      ],
     },
     {
       _type: "textContent",
@@ -105,21 +119,7 @@ export const beautySalonSeoEn = {
         p("In practice that means a booking button on every treatment page rather than only in the menu, the same booking system the front desk actually uses, visible evening and weekend availability, and a phone number that is tappable. If bookings run through Booksy or a similar system, the site links straight into the right treatment instead of dropping the client on its home screen."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: local service businesses I have worked on",
-      subtitle:
-        "What these cases have in common with a salon: a client who decides on a phone, in minutes, by price and distance. A landing page with secured video access, a premium renovation site, SEO and UX for an auto repair company, a WordPress rebuild, and a tyre storage landing page with editable SEO.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "renovation-and-investment-website-with-premium-design",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "tyre-storage-landing-page-with-editable-seo",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

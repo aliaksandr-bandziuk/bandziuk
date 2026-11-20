@@ -72,6 +72,20 @@ export const remodelingSeoEn = {
         { _key: k("o"), iconName: "trending-up", title: "Enquiries that do not cost per lead", text: "Instead of one enquiry sold to four firms" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Kitchen renovation in my city, rough cost, how long»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: a renovation firm and other local businesses whose visibility I have run",
+      subtitle:
+        "The first is a renovation and property-investment company — the closest case to a remodeling business, where the work was project pages and a site that holds up against comparison. The rest are local businesses needing the same thing: pages for specific services, a strong local profile, and growth without bought links.",
+      picks: [
+        "renovation-and-investment-website-with-premium-design",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "tyre-storage-landing-page-with-editable-seo",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -125,21 +139,7 @@ export const remodelingSeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: a renovation firm and other local businesses whose visibility I have run",
-      subtitle:
-        "The first is a renovation and property-investment company — the closest case to a remodeling business, where the work was project pages and a site that holds up against comparison. The rest are local businesses needing the same thing: pages for specific services, a strong local profile, and growth without bought links.",
-      picks: [
-        "renovation-and-investment-website-with-premium-design",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "tyre-storage-landing-page-with-editable-seo",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

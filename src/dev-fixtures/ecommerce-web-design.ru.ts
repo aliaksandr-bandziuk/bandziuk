@@ -55,6 +55,20 @@ export const ecommerceWebDesignRu = {
         { _key: k("o"), iconName: "credit-card", title: "Один товар, одна страница", text: "Страница с оплатой, без каталога" },
         { _key: k("o"), iconName: "plug", title: "Интеграции работающего магазина", text: "Склад, учёт, доставка, CRM" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: каталоги, оплата и многоязычные проекты",
+      subtitle:
+        "Что у этих проектов общего с магазином: большой каталог, который должен оставаться находимым, оплата и доступ после неё, личные кабинеты и несколько языков сразу. Продающая страница с оплатой и защищённым видеокурсом, многоязычная платформа недвижимости, перестройка на WordPress, многоязычный сайт студенческих услуг и инвестиционная платформа с платным доступом.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "felgilab-wordpress-rebuild",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "investment-platform-with-ai-guided-learning",
+      ],
     },
     {
       _type: "textContent",
@@ -105,21 +119,7 @@ export const ecommerceWebDesignRu = {
         p("Это та часть, которую переносы портят чаще всего. Каталог сохраняет адреса там, где это возможно, каждый изменившийся адрес получает редирект 301, данные о товарах переезжают данными, а не переписываются руками, и вместе с ними переезжает то, чего не видно: разметка товара и предложения, карта сайта, языковые версии. Без этого магазин теряет позиции на месяцы, и восстановление стоит дороже самого переноса."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: каталоги, оплата и многоязычные проекты",
-      subtitle:
-        "Что у этих проектов общего с магазином: большой каталог, который должен оставаться находимым, оплата и доступ после неё, личные кабинеты и несколько языков сразу. Продающая страница с оплатой и защищённым видеокурсом, многоязычная платформа недвижимости, перестройка на WordPress, многоязычный сайт студенческих услуг и инвестиционная платформа с платным доступом.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "felgilab-wordpress-rebuild",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "investment-platform-with-ai-guided-learning",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

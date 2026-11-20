@@ -64,6 +64,20 @@ export const courierSeoEn = {
         { _key: k("o"), iconName: "shield-check", title: "Tracking, insurance, proof of delivery", text: "What a first-time sender checks" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Same-day courier for a pallet, booked this morning»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: logistics-adjacent and multilingual work whose visibility I have run",
+      subtitle:
+        "What these share with a courier business: a service bought quickly on specifics, often across borders and languages, with growth from structure rather than bought links. A wheel and tyre storage business, a car service business, a WordPress rebuild, a multilingual property platform, and a multilingual site for student services.",
+      picks: [
+        "tyre-storage-landing-page-with-editable-seo",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -113,21 +127,7 @@ export const courierSeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: logistics-adjacent and multilingual work whose visibility I have run",
-      subtitle:
-        "What these share with a courier business: a service bought quickly on specifics, often across borders and languages, with growth from structure rather than bought links. A wheel and tyre storage business, a car service business, a WordPress rebuild, a multilingual property platform, and a multilingual site for student services.",
-      picks: [
-        "tyre-storage-landing-page-with-editable-seo",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

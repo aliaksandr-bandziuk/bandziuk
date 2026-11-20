@@ -57,6 +57,20 @@ export const speechTherapistWebsiteEn = {
         { _key: k("o"), iconName: "video", title: "What works online and what does not", text: "A line drawn, not a promise" },
         { _key: k("o"), iconName: "heart-pulse", title: "A separate page for adults", text: "After a stroke somebody else decides" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: sites where trust and the first contact decide",
+      subtitle:
+        "A psychotherapist's bilingual practice site in Milan, a consultant site built around a single expertise, a multilingual real estate platform with a catalogue and filters, an education agency site that grew from one country to ten, and a renovation company site with a premium look.",
+      picks: [
+        "psychotherapist-website-milan",
+        "consultant-website-design-retail-analytics",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -110,21 +124,7 @@ export const speechTherapistWebsiteEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: sites where trust and the first contact decide",
-      subtitle:
-        "A psychotherapist's bilingual practice site in Milan, a consultant site built around a single expertise, a multilingual real estate platform with a catalogue and filters, an education agency site that grew from one country to ten, and a renovation company site with a premium look.",
-      picks: [
-        "psychotherapist-website-milan",
-        "consultant-website-design-retail-analytics",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

@@ -54,6 +54,20 @@ export const autoRepairWebsiteRu = {
         { _key: k("o"), iconName: "sparkles", title: "Структура, понятная ИИ", text: "Прямые ответы и разметка, совпадающая с текстом" },
         { _key: k("o"), iconName: "shield-check", title: "Код и домен остаются у вас", text: "Без блокировки экспорта и чужого хостинга" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: сайты сервисных компаний, которые я сделал",
+      subtitle:
+        "Первый кейс — авторемонтная компания. Дальше — лендинг хранения шин с редактируемым SEO, перестройка сайта на WordPress и проекты, где структура и скорость решали больше, чем оформление.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -91,21 +105,7 @@ export const autoRepairWebsiteRu = {
         p("Поэтому я собираю сайт на Next.js с лёгкими изображениями и без лишних скриптов, а телефон и кнопку записи ставлю так, чтобы до них не нужно было прокручивать."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: сайты сервисных компаний, которые я сделал",
-      subtitle:
-        "Первый кейс — авторемонтная компания. Дальше — лендинг хранения шин с редактируемым SEO, перестройка сайта на WordPress и проекты, где структура и скорость решали больше, чем оформление.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

@@ -58,6 +58,20 @@ export const handymanSeoEn = {
         { _key: k("o"), iconName: "shield-check", title: "What you are not licensed to do", text: "Written down, so nobody wastes a visit" },
         { _key: k("o"), iconName: "users", title: "Landlords and letting agents", text: "Their own page, and repeat work" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: trade and local service businesses whose visibility I have run",
+      subtitle:
+        "What these share with a handyman business: the customer is local, the job is quoted on the phone, and the growth came from pages for specific services plus a strong local profile rather than bought links. A car service business, a landing page with editable SEO, a WordPress rebuild, a renovation and investment firm, and an education agency taken from one country to ten.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -102,21 +116,7 @@ export const handymanSeoEn = {
         p("It is also the fastest-moving part of the work: the profile usually responds within weeks, while job pages take a couple of months to mature. For a business that needs better work this month rather than next quarter, that is where I would start."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: trade and local service businesses whose visibility I have run",
-      subtitle:
-        "What these share with a handyman business: the customer is local, the job is quoted on the phone, and the growth came from pages for specific services plus a strong local profile rather than bought links. A car service business, a landing page with editable SEO, a WordPress rebuild, a renovation and investment firm, and an education agency taken from one country to ten.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

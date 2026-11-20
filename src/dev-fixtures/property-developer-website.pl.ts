@@ -76,6 +76,20 @@ export const propertyDeveloperWebsitePl = {
         { _key: k("o"), iconName: "plug", title: "Podłączenie zapytań do CRM per inwestycja", text: "Zapytanie dociera do tych, którzy sprzedają ten budynek" },
         { _key: k("o"), iconName: "globe", title: "Języki, w których szukają Wasi kupujący", text: "Z własnym doborem fraz, a nie tłumaczeniem istniejącej" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: strony o nieruchomościach, inwestycjach i budownictwie",
+      subtitle:
+        "Pierwszy case to firma remontowa i inwestycyjna: premium w odbiorze przy wynikach 96/98/100/100. Dalej: wielojęzyczna platforma nieruchomości z katalogiem i lokalizacjami, przebudowa strony biura architektonicznego ze skanem SEO i projekty, w których zadecydowała struktura.",
+      picks: [
+        "renovation-and-investment-website-with-premium-design",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "architecture-website-rebuild-and-seo-scan",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+      ],
     },
     {
       _type: "textContent",
@@ -125,21 +139,7 @@ export const propertyDeveloperWebsitePl = {
         p("Druga i trzecia wersja to osobna praca, nie tłumaczenie: własny dobór fraz, treść doprowadzona do tego, jak czyta ten rynek, i struktura adresów, którą wyszukiwarka rozróżnia. Założona w strukturę od początku, każda kolejna wersja kosztuje niewiele; dobudowana później to droga wersja tej samej pracy."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: strony o nieruchomościach, inwestycjach i budownictwie",
-      subtitle:
-        "Pierwszy case to firma remontowa i inwestycyjna: premium w odbiorze przy wynikach 96/98/100/100. Dalej: wielojęzyczna platforma nieruchomości z katalogiem i lokalizacjami, przebudowa strony biura architektonicznego ze skanem SEO i projekty, w których zadecydowała struktura.",
-      picks: [
-        "renovation-and-investment-website-with-premium-design",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "architecture-website-rebuild-and-seo-scan",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

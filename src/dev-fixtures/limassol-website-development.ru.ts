@@ -55,6 +55,20 @@ export const limassolWebsiteDevelopmentRu = {
         { _key: k("o"), iconName: "database", title: "Разработка под задачу", text: "Каталоги, фильтры, кабинеты, интеграции" },
         { _key: k("o"), iconName: "wrench", title: "Поддержка сайта", text: "Обновления, копии, правки по мере надобности" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: кипрская платформа недвижимости и другие многоязычные проекты",
+      subtitle:
+        "Первый кейс — на Кипре: многоязычная платформа недвижимости с каталогом, фильтрами и поисковой видимостью, собранной без покупных ссылок. Рядом — сайт образовательного агентства, выросший с одной страны до десяти, сайт ремонтной и инвестиционной компании с премиальным видом, многоязычный сайт студенческих услуг и сайт консультанта вокруг одной экспертизы.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -124,21 +138,7 @@ export const limassolWebsiteDevelopmentRu = {
         p("Лендинг — две-три недели, сайт компании — четыре-шесть, сайт с каталогом или закрытым разделом считается отдельно. Срок растягивает не код, а решения: кто утверждает формулировки, какие услуги получают свою страницу, какие языки нужны. В срок укладываются проекты, где с вашей стороны решает один человек."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: кипрская платформа недвижимости и другие многоязычные проекты",
-      subtitle:
-        "Первый кейс — на Кипре: многоязычная платформа недвижимости с каталогом, фильтрами и поисковой видимостью, собранной без покупных ссылок. Рядом — сайт образовательного агентства, выросший с одной страны до десяти, сайт ремонтной и инвестиционной компании с премиальным видом, многоязычный сайт студенческих услуг и сайт консультанта вокруг одной экспертизы.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

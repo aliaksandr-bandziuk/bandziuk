@@ -63,6 +63,20 @@ export const bankSeoPl = {
         { _key: k("o"), iconName: "shield-check", title: "Jedna domena zamiast mikrostron", text: "Kampanie na osobnych domenach dzielą moc" },
         { _key: k("o"), iconName: "bot", title: "Obecność w odpowiedziach AI", text: "Warunki jako tekst, nie jako obrazek" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: serwisy wielojęzyczne i praca w branżach regulowanych",
+      subtitle:
+        "Wielojęzyczna platforma nieruchomości z katalogiem, filtrami i widocznością zbudowaną bez kupowania linków; strona agencji edukacyjnej, która urosła z jednego kraju do dziesięciu; strona firmy remontowo-inwestycyjnej w premium; wielojęzyczny serwis usług studenckich; strona konsultantki zbudowana wokół jednej specjalizacji.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -109,21 +123,7 @@ export const bankSeoPl = {
         p("Pierwsze ruchy zwykle po około półtora miesiąca, stabilny wzrost w perspektywie trzech–sześciu miesięcy. W instytucji regulowanej do tego rachunku dochodzi jeszcze jeden składnik: jeśli zmiana tekstu czeka trzy tygodnie na akceptację, cały harmonogram przesuwa się o trzy tygodnie. Planuję to zamiast udawać, że tego nie ma, i nie obiecuję pozycji — nikt nie może ich obiecać."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: serwisy wielojęzyczne i praca w branżach regulowanych",
-      subtitle:
-        "Wielojęzyczna platforma nieruchomości z katalogiem, filtrami i widocznością zbudowaną bez kupowania linków; strona agencji edukacyjnej, która urosła z jednego kraju do dziesięciu; strona firmy remontowo-inwestycyjnej w premium; wielojęzyczny serwis usług studenckich; strona konsultantki zbudowana wokół jednej specjalizacji.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

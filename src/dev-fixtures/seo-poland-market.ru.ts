@@ -53,6 +53,20 @@ export const seoPolandMarketRu = {
         { _key: k("o"), iconName: "message-circle", title: "Отзывы и репутация", text: "Где их собирают в Польше и как отвечать" },
         { _key: k("o"), iconName: "bot", title: "Видимость в ИИ-ответах", text: "Чтобы вас называли, когда спрашивают ИИ" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: многоязычные проекты и работы для польского рынка",
+      subtitle:
+        "Сайт ремонтной и инвестиционной компании с премиальным видом, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, выросший с одной страны до десяти, многоязычный сайт студенческих услуг и сайт консультанта, построенный вокруг одной экспертизы.",
+      picks: [
+        "renovation-and-investment-website-with-premium-design",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -108,21 +122,7 @@ export const seoPolandMarketRu = {
         p("Первые сдвиги обычно видны примерно через полтора месяца: появляются показы по тем запросам, под которые сделаны страницы. Устойчивый рост — на горизонте трёх–шести месяцев. Локальная часть работает быстрее: заполненная карточка и первые отзывы дают звонки раньше, чем страницы выходят в топ."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: многоязычные проекты и работы для польского рынка",
-      subtitle:
-        "Сайт ремонтной и инвестиционной компании с премиальным видом, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, выросший с одной страны до десяти, многоязычный сайт студенческих услуг и сайт консультанта, построенный вокруг одной экспертизы.",
-      picks: [
-        "renovation-and-investment-website-with-premium-design",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

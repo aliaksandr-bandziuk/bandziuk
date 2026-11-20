@@ -66,6 +66,20 @@ export const realEstateAgencyWebsiteRu = {
         { _key: k("o"), iconName: "zap", title: "Скорость на страницах с фотографиями", text: "Именно фотографии объектов тормозят такие сайты" },
         { _key: k("o"), iconName: "sparkles", title: "Структура, понятная ИИ-ассистентам", text: "Прямые ответы и разметка, совпадающая с текстом" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: сайты недвижимости и инвестиций, которые я сделал",
+      subtitle:
+        "Первый кейс — многоязычная платформа недвижимости: каталог, локации и несколько языков одновременно. Дальше: сайт по ремонту и инвестициям в недвижимость, переработка сайта архитектурного бюро со SEO-разбором и проекты, где всё решила структура.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "renovation-and-investment-website-with-premium-design",
+        "architecture-website-rebuild-and-seo-scan",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "auto-repair-seo-and-ux-boost",
+      ],
     },
     {
       _type: "textContent",
@@ -111,21 +125,7 @@ export const realEstateAgencyWebsiteRu = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: сайты недвижимости и инвестиций, которые я сделал",
-      subtitle:
-        "Первый кейс — многоязычная платформа недвижимости: каталог, локации и несколько языков одновременно. Дальше: сайт по ремонту и инвестициям в недвижимость, переработка сайта архитектурного бюро со SEO-разбором и проекты, где всё решила структура.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "renovation-and-investment-website-with-premium-design",
-        "architecture-website-rebuild-and-seo-scan",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "auto-repair-seo-and-ux-boost",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

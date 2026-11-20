@@ -67,6 +67,20 @@ export const physiotherapySeoEn = {
         { _key: k("o"), iconName: "calendar", title: "Booking that survives a phone screen", text: "The slot, not a contact form" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Find me a physio for post-op knee nearby»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: practices and services where the visit is booked after the website is checked",
+      subtitle:
+        "What these have in common with a physiotherapy clinic: a local or expert service, a visitor who verifies before contacting, and growth that came from structure and content rather than bought links. A clinic site aimed at patients from another country, an education agency taken from one country to ten, a retail-analytics consultant, a personal site built and optimised from scratch, and a multilingual site for student services.",
+      picks: [
+        "seo-case-study-education-agency",
+        "consultant-website-design-retail-analytics",
+        "develop-and-optimize-a-personal-website-with-seo",
+        "proscore-agency-website-development",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -105,21 +119,7 @@ export const physiotherapySeoEn = {
         p("Health advertising is regulated, and the rules differ by country — in Poland and much of the EU a clinic may inform but not advertise in the way a shop may, and patient testimonials are restricted or forbidden outright depending on the jurisdiction. This matters for SEO because the usual conversion advice — before-and-after photos, outcome promises, patient stories — can be the exact thing that is not allowed. The safe and effective version is describing the method, the qualification, the equipment and the process precisely, which happens also to be what a search engine can read and what a cautious patient is actually looking for. I write to the rules of the country the clinic operates in and flag anything I am unsure about rather than guessing."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: practices and services where the visit is booked after the website is checked",
-      subtitle:
-        "What these have in common with a physiotherapy clinic: a local or expert service, a visitor who verifies before contacting, and growth that came from structure and content rather than bought links. A clinic site aimed at patients from another country, an education agency taken from one country to ten, a retail-analytics consultant, a personal site built and optimised from scratch, and a multilingual site for student services.",
-      picks: [
-        "seo-case-study-education-agency",
-        "consultant-website-design-retail-analytics",
-        "develop-and-optimize-a-personal-website-with-seo",
-        "proscore-agency-website-development",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

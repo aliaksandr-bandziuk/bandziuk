@@ -62,6 +62,20 @@ export const authorSeoEn = {
         { _key: k("o"), iconName: "file-text", title: "Book data machines can read", text: "Titles, ISBNs, series, formats, dates" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Recommend me a novel like this one»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: sites where a personal name is the product",
+      subtitle:
+        "What these have in common with an author's site: the person is the brand, the visitor checks before committing, and the growth came from structure and content rather than bought links. A retail-analytics consultant, a personal site built and optimised from scratch, an education agency taken from one country to ten, a digital agency site, and a multilingual site for student services.",
+      picks: [
+        "consultant-website-design-retail-analytics",
+        "develop-and-optimize-a-personal-website-with-seo",
+        "seo-case-study-education-agency",
+        "proscore-agency-website-development",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -94,21 +108,7 @@ export const authorSeoEn = {
         p("Most author sites cannot be used this way, because the only description on them is the publisher's cover copy, which is written to sell and not to inform. The version that works says what the book is actually like, for whom, and when it is not the right choice. That last part is the one authors resist and the one that makes the page quotable."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: sites where a personal name is the product",
-      subtitle:
-        "What these have in common with an author's site: the person is the brand, the visitor checks before committing, and the growth came from structure and content rather than bought links. A retail-analytics consultant, a personal site built and optimised from scratch, an education agency taken from one country to ten, a digital agency site, and a multilingual site for student services.",
-      picks: [
-        "consultant-website-design-retail-analytics",
-        "develop-and-optimize-a-personal-website-with-seo",
-        "seo-case-study-education-agency",
-        "proscore-agency-website-development",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

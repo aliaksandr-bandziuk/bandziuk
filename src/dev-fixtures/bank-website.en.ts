@@ -66,6 +66,20 @@ export const bankWebsiteEn = {
         { _key: k("o"), iconName: "eye", title: "Accessibility built in", text: "A legal requirement for banking services" },
         { _key: k("o"), iconName: "file-lock", title: "Built to pass a security review", text: "Questionnaires, scripts, data flows" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: catalogues, multilingual builds and work under constraints",
+      subtitle:
+        "A multilingual real estate platform with a catalogue, filters and search visibility built without bought links; an education agency site that grew from one country to ten; a renovation and investment company site with a premium look; a multilingual student services site; and a consultant site built around a single expertise.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -113,21 +127,7 @@ export const bankWebsiteEn = {
         p("A product landing page takes two to three weeks, a full site four to six, a site with a branch network and a document library longer and quoted per case. What stretches it is almost never the code: it is approvals, the security review and the wording of product conditions. Projects finish on time when one person on your side can decide and one reviewer can approve."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: catalogues, multilingual builds and work under constraints",
-      subtitle:
-        "A multilingual real estate platform with a catalogue, filters and search visibility built without bought links; an education agency site that grew from one country to ten; a renovation and investment company site with a premium look; a multilingual student services site; and a consultant site built around a single expertise.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

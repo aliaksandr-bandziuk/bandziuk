@@ -59,6 +59,20 @@ export const bankWebsiteRu = {
         { _key: k("o"), iconName: "eye", title: "Доступность с самого начала", text: "Для банковских услуг это требование" },
         { _key: k("o"), iconName: "file-lock", title: "Сборка под проверку безопасности", text: "Анкеты, скрипты, потоки данных" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: каталоги, многоязычные сборки и работа в ограничениях",
+      subtitle:
+        "Многоязычная платформа недвижимости с каталогом, фильтрами и поисковой видимостью, собранной без покупных ссылок; сайт образовательного агентства, выросший с одной страны до десяти; сайт ремонтной и инвестиционной компании с премиальным видом; многоязычный сайт студенческих услуг; сайт консультанта вокруг одной экспертизы.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -106,21 +120,7 @@ export const bankWebsiteRu = {
         p("Лендинг под продукт — две-три недели, полный сайт — четыре-шесть, сайт с сетью отделений и библиотекой документов дольше и считается отдельно. Растягивает срок почти никогда не код: согласования, проверка безопасности и формулировки условий продуктов. В срок укладываются проекты, где с вашей стороны решает один человек и утверждает один человек."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: каталоги, многоязычные сборки и работа в ограничениях",
-      subtitle:
-        "Многоязычная платформа недвижимости с каталогом, фильтрами и поисковой видимостью, собранной без покупных ссылок; сайт образовательного агентства, выросший с одной страны до десяти; сайт ремонтной и инвестиционной компании с премиальным видом; многоязычный сайт студенческих услуг; сайт консультанта вокруг одной экспертизы.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

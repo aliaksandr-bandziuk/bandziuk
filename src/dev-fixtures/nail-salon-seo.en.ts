@@ -64,6 +64,20 @@ export const nailSalonSeoEn = {
         { _key: k("o"), iconName: "image", title: "Work shown with the technique named", text: "A gallery without words ranks for nothing" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Nail salon open now near me that does BIAB»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: local businesses chosen on the phone within minutes",
+      subtitle:
+        "What these share with a nail salon: the client is nearby, the decision is fast, and the work was correct local data plus pages for specific services rather than bought links. A car service business, a landing page with editable SEO, a WordPress rebuild, a renovation and investment firm, and an education agency taken from one country to ten.",
+      picks: [
+        "auto-repair-seo-and-ux-boost",
+        "tyre-storage-landing-page-with-editable-seo",
+        "felgilab-wordpress-rebuild",
+        "renovation-and-investment-website-with-premium-design",
+        "seo-case-study-education-agency",
+      ],
     },
     {
       _type: "textContent",
@@ -106,21 +120,7 @@ export const nailSalonSeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: local businesses chosen on the phone within minutes",
-      subtitle:
-        "What these share with a nail salon: the client is nearby, the decision is fast, and the work was correct local data plus pages for specific services rather than bought links. A car service business, a landing page with editable SEO, a WordPress rebuild, a renovation and investment firm, and an education agency taken from one country to ten.",
-      picks: [
-        "auto-repair-seo-and-ux-boost",
-        "tyre-storage-landing-page-with-editable-seo",
-        "felgilab-wordpress-rebuild",
-        "renovation-and-investment-website-with-premium-design",
-        "seo-case-study-education-agency",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

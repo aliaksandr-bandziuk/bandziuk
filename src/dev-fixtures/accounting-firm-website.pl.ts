@@ -53,6 +53,20 @@ export const accountingFirmWebsitePl = {
         { _key: k("o"), iconName: "file-text", title: "Treści o KSeF i JPK", text: "Pytania, które klienci zadają co miesiąc" },
         { _key: k("o"), iconName: "edit", title: "Edycja bez programisty", text: "Ceny, osoby, terminy zmieniasz sam" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: usługi profesjonalne, gdzie wiarygodność sprawdza się przed kontaktem",
+      subtitle:
+        "Co te projekty mają wspólnego z biurem rachunkowym: produktem jest wiedza, kupujący sprawdza wykonawcę przed napisaniem, a struktura musiała udźwignąć długie wyjaśnienia, nie stając się nieczytelna. Strona konsultantki analityki retailowej, strona agencji digitalowej, sajt agencji edukacyjnej wyprowadzony z jednego kraju do dziesięciu, strona osobista zbudowana i zoptymalizowana od zera oraz wielojęzyczna strona usług studenckich.",
+      picks: [
+        "consultant-website-design-retail-analytics",
+        "proscore-agency-website-development",
+        "seo-case-study-education-agency",
+        "develop-and-optimize-a-personal-website-with-seo",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -114,21 +128,7 @@ export const accountingFirmWebsitePl = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: usługi profesjonalne, gdzie wiarygodność sprawdza się przed kontaktem",
-      subtitle:
-        "Co te projekty mają wspólnego z biurem rachunkowym: produktem jest wiedza, kupujący sprawdza wykonawcę przed napisaniem, a struktura musiała udźwignąć długie wyjaśnienia, nie stając się nieczytelna. Strona konsultantki analityki retailowej, strona agencji digitalowej, sajt agencji edukacyjnej wyprowadzony z jednego kraju do dziesięciu, strona osobista zbudowana i zoptymalizowana od zera oraz wielojęzyczna strona usług studenckich.",
-      picks: [
-        "consultant-website-design-retail-analytics",
-        "proscore-agency-website-development",
-        "seo-case-study-education-agency",
-        "develop-and-optimize-a-personal-website-with-seo",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

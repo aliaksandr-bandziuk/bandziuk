@@ -57,6 +57,20 @@ export const ecommerceWebDesignPl = {
         { _key: k("o"), iconName: "credit-card", title: "Jeden produkt, jedna strona", text: "Strona z płatnością, bez katalogu" },
         { _key: k("o"), iconName: "plug", title: "Integracje istniejącego sklepu", text: "Magazyn, księgowość, kurierzy, CRM" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: katalogi, płatności i wdrożenia wielojęzyczne",
+      subtitle:
+        "Co te projekty mają wspólnego ze sklepem: duży katalog, który musi pozostać znajdowalny, płatności i dostęp po opłaceniu, konta użytkowników i kilka języków naraz. Strona sprzedażowa z płatnością i zabezpieczonym kursem wideo, wielojęzyczna platforma nieruchomości, przebudowa na WordPressie, wielojęzyczna strona usług studenckich i platforma inwestycyjna z dostępem płatnym.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "felgilab-wordpress-rebuild",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "investment-platform-with-ai-guided-learning",
+      ],
     },
     {
       _type: "textContent",
@@ -109,21 +123,7 @@ export const ecommerceWebDesignPl = {
         p("To część, którą migracje psują najczęściej. Katalog zachowuje adresy tam, gdzie to możliwe, każdy zmieniony adres dostaje przekierowanie 301, dane produktowe przenoszą się jako dane, a nie przepisywane ręcznie, i razem z nimi przenosi się to, czego nie widać: znaczniki produktu i oferty, mapa witryny, wersje językowe. Bez tego sklep traci pozycje na wiele miesięcy, a odbudowa kosztuje więcej niż sama migracja."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: katalogi, płatności i wdrożenia wielojęzyczne",
-      subtitle:
-        "Co te projekty mają wspólnego ze sklepem: duży katalog, który musi pozostać znajdowalny, płatności i dostęp po opłaceniu, konta użytkowników i kilka języków naraz. Strona sprzedażowa z płatnością i zabezpieczonym kursem wideo, wielojęzyczna platforma nieruchomości, przebudowa na WordPressie, wielojęzyczna strona usług studenckich i platforma inwestycyjna z dostępem płatnym.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "felgilab-wordpress-rebuild",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "investment-platform-with-ai-guided-learning",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

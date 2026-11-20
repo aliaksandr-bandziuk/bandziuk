@@ -59,6 +59,20 @@ export const pediatricianWebsiteRu = {
         { _key: k("o"), iconName: "camera", title: "Правила для фотографий детей", text: "Согласие родителя до публикации" },
         { _key: k("o"), iconName: "map-pin", title: "Вызов на дом и вечерние часы", text: "Два факта, которые ищут первыми" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: сайты, где решают доверие и запись",
+      subtitle:
+        "Двуязычный сайт психотерапевтической практики в Милане, сайт консультанта вокруг одной экспертизы, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, выросший с одной страны до десяти, и сайт ремонтной компании с премиальным видом.",
+      picks: [
+        "psychotherapist-website-milan",
+        "consultant-website-design-retail-analytics",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -102,21 +116,7 @@ export const pediatricianWebsiteRu = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: сайты, где решают доверие и запись",
-      subtitle:
-        "Двуязычный сайт психотерапевтической практики в Милане, сайт консультанта вокруг одной экспертизы, многоязычная платформа недвижимости с каталогом и фильтрами, сайт образовательного агентства, выросший с одной страны до десяти, и сайт ремонтной компании с премиальным видом.",
-      picks: [
-        "psychotherapist-website-milan",
-        "consultant-website-design-retail-analytics",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

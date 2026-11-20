@@ -66,6 +66,20 @@ export const furnitureStoreSeoEn = {
         { _key: k("o"), iconName: "shield-check", title: "Delivery access, assembly, old piece removed", text: "The questions asked before the price" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Corner sofa under 240cm, in stock, delivered this month»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: catalogues and local retail sites whose visibility I have run",
+      subtitle:
+        "What these share with a furniture retailer: a catalogue that has to be readable at scale, a local buyer who wants to see the thing, and growth from structure and content rather than bought links. A multilingual property catalogue, an e-commerce landing page with secured video, a WordPress rebuild, a car service business, and a renovation and investment firm.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "e-commerce-landing-page-with-secured-video-access",
+        "felgilab-wordpress-rebuild",
+        "auto-repair-seo-and-ux-boost",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -117,21 +131,7 @@ export const furnitureStoreSeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: catalogues and local retail sites whose visibility I have run",
-      subtitle:
-        "What these share with a furniture retailer: a catalogue that has to be readable at scale, a local buyer who wants to see the thing, and growth from structure and content rather than bought links. A multilingual property catalogue, an e-commerce landing page with secured video, a WordPress rebuild, a car service business, and a renovation and investment firm.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "e-commerce-landing-page-with-secured-video-access",
-        "felgilab-wordpress-rebuild",
-        "auto-repair-seo-and-ux-boost",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

@@ -66,6 +66,20 @@ export const coachingSeoEn = {
         { _key: k("o"), iconName: "globe", title: "Competing by language, not by city", text: "Remote work widens the field beyond local search" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Find me a career coach for a mid-life change»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: work where expertise is the product and credibility is checked before contact",
+      subtitle:
+        "What these have in common with a coaching practice: the person is the service, the buyer verifies credibility before writing, and the search growth came from structure and content rather than bought links. A retail-analytics consultant, an education agency taken from one country to ten, a digital agency site, a personal site built and optimised from scratch, and a multilingual site for student services.",
+      picks: [
+        "consultant-website-design-retail-analytics",
+        "seo-case-study-education-agency",
+        "proscore-agency-website-development",
+        "develop-and-optimize-a-personal-website-with-seo",
+        "full-multilingual-website-development-and-seo-for-student-services",
+      ],
     },
     {
       _type: "textContent",
@@ -104,21 +118,7 @@ export const coachingSeoEn = {
         li("and keep the same name, credential and wording on the site and on any directory that lists you."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: work where expertise is the product and credibility is checked before contact",
-      subtitle:
-        "What these have in common with a coaching practice: the person is the service, the buyer verifies credibility before writing, and the search growth came from structure and content rather than bought links. A retail-analytics consultant, an education agency taken from one country to ten, a digital agency site, a personal site built and optimised from scratch, and a multilingual site for student services.",
-      picks: [
-        "consultant-website-design-retail-analytics",
-        "seo-case-study-education-agency",
-        "proscore-agency-website-development",
-        "develop-and-optimize-a-personal-website-with-seo",
-        "full-multilingual-website-development-and-seo-for-student-services",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

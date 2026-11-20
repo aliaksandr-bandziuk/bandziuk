@@ -56,6 +56,20 @@ export const cardiologistSeoRu = {
         { _key: k("o"), iconName: "badge-check", title: "Автор, регистрация, дата проверки", text: "То, по чему судят медицинские страницы" },
         { _key: k("o"), iconName: "gauge", title: "Запись и скорость на телефоне", text: "Техническая часть, которая сдвигает" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Портфолио",
+      title: "Портфолио: многоязычные платформы и работа в регулируемых сферах",
+      subtitle:
+        "Многоязычная платформа недвижимости с поисковой видимостью, собранной без покупных ссылок; сайт образовательного агентства, выросший с одной страны до десяти; сайт ремонтной и инвестиционной компании с премиальным видом; многоязычный сайт студенческих услуг; сайт консультанта вокруг одной экспертизы.",
+      picks: [
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "renovation-and-investment-website-with-premium-design",
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "consultant-website-design-retail-analytics",
+      ],
     },
     {
       _type: "textContent",
@@ -115,21 +129,7 @@ export const cardiologistSeoRu = {
         p("Первое движение обычно видно примерно через месяц с половиной, рост — на горизонте трёх–шести месяцев. Позиции я не обещаю, и в кардиологии я бы не доверял тому, кто обещает: симптомные запросы недоступны ни за какой бюджет, а запросы на исследования двигаются быстрее любого прогноза, потому что зависят от того, сколько практик в вашем городе вообще публикует цену."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Портфолио",
-      title: "Портфолио: многоязычные платформы и работа в регулируемых сферах",
-      subtitle:
-        "Многоязычная платформа недвижимости с поисковой видимостью, собранной без покупных ссылок; сайт образовательного агентства, выросший с одной страны до десяти; сайт ремонтной и инвестиционной компании с премиальным видом; многоязычный сайт студенческих услуг; сайт консультанта вокруг одной экспертизы.",
-      picks: [
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "renovation-and-investment-website-with-premium-design",
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "consultant-website-design-retail-analytics",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

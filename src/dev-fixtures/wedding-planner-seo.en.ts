@@ -66,6 +66,20 @@ export const weddingPlannerSeoEn = {
         { _key: k("o"), iconName: "map-pin", title: "Regions and venues you know", text: "Short, specific, and almost uncontested" },
         { _key: k("o"), iconName: "bot", title: "Being named by AI assistants", text: "«Planner for a 60-guest wedding abroad, English-speaking»" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: multilingual and cross-border work, which is what destination weddings need",
+      subtitle:
+        "The first three are multilingual projects where the client searched in one country for a service in another — the same problem a destination wedding planner has. Then a consultant's own site and a renovation and investment firm, both judged by the site before anyone makes contact.",
+      picks: [
+        "full-multilingual-website-development-and-seo-for-student-services",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+        "seo-case-study-education-agency",
+        "consultant-website-design-retail-analytics",
+        "renovation-and-investment-website-with-premium-design",
+      ],
     },
     {
       _type: "textContent",
@@ -116,21 +130,7 @@ export const weddingPlannerSeoEn = {
         ),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: multilingual and cross-border work, which is what destination weddings need",
-      subtitle:
-        "The first three are multilingual projects where the client searched in one country for a service in another — the same problem a destination wedding planner has. Then a consultant's own site and a renovation and investment firm, both judged by the site before anyone makes contact.",
-      picks: [
-        "full-multilingual-website-development-and-seo-for-student-services",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-        "seo-case-study-education-agency",
-        "consultant-website-design-retail-analytics",
-        "renovation-and-investment-website-with-premium-design",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

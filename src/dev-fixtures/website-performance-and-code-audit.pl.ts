@@ -53,6 +53,20 @@ export const websitePerformanceAndCodeAuditPl = {
         { _key: k("o"), iconName: "server", title: "Odpowiedź serwera i cache", text: "Gdzie tracony jest pierwszy bajt" },
         { _key: k("o"), iconName: "list-checks", title: "Lista napraw w kolejności", text: "Koszt w milisekundach wobec kosztu w godzinach" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: wydajność zmierzona, nie obiecana",
+      subtitle:
+        "Te projekty podają swoje wyniki Lighthouse, bo tutaj liczby są treścią, a nie ozdobą: strona firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100, strona konsultantki z 100/100/100/100, strona agencji edukacyjnej podniesiona z 61 na 91 w wydajności, pełna przebudowa na WordPressie i wielojęzyczna platforma nieruchomości z dużym katalogiem.",
+      picks: [
+        "renovation-and-investment-website-with-premium-design",
+        "consultant-website-design-retail-analytics",
+        "seo-case-study-education-agency",
+        "felgilab-wordpress-rebuild",
+        "build-and-optimize-a-multilingual-real-estate-platform",
+      ],
     },
     {
       _type: "textContent",
@@ -117,21 +131,7 @@ export const websitePerformanceAndCodeAuditPl = {
           ": strona raz przyspieszona zwalnia z powrotem, gdy nikt nie pilnuje wtyczek i obrazów."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: wydajność zmierzona, nie obiecana",
-      subtitle:
-        "Te projekty podają swoje wyniki Lighthouse, bo tutaj liczby są treścią, a nie ozdobą: strona firmy remontowej i inwestycyjnej z wynikiem 96/98/100/100, strona konsultantki z 100/100/100/100, strona agencji edukacyjnej podniesiona z 61 na 91 w wydajności, pełna przebudowa na WordPressie i wielojęzyczna platforma nieruchomości z dużym katalogiem.",
-      picks: [
-        "renovation-and-investment-website-with-premium-design",
-        "consultant-website-design-retail-analytics",
-        "seo-case-study-education-agency",
-        "felgilab-wordpress-rebuild",
-        "build-and-optimize-a-multilingual-real-estate-platform",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

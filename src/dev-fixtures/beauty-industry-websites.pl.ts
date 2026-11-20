@@ -76,6 +76,20 @@ export const beautyIndustryWebsitesPl = {
         { _key: k("o"), iconName: "pen-tool", title: "Studio tatuażu", text: "Portfolio po stylach i artystach plus zadatek" },
         { _key: k("o"), iconName: "eye", title: "Salon optyczny", text: "Recepta, marki i zapis na badanie wzroku" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: lokalne firmy usługowe, dla których budowałem strony",
+      subtitle:
+        "Co te projekty mają wspólnego z branżą beauty: klient decyduje na telefonie, w kilka minut, po cenie i odległości. Landing z zabezpieczonym dostępem do wideo, premium strona o remontach i inwestycjach, SEO i UX dla firmy auto, przebudowa strony na WordPressie i landing przechowalni opon z edytowalnym SEO.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "renovation-and-investment-website-with-premium-design",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "tyre-storage-landing-page-with-editable-seo",
+      ],
     },
     {
       _type: "textContent",
@@ -144,21 +158,7 @@ export const beautyIndustryWebsitesPl = {
         li("praca idzie na umowie z ustalonym zakresem, terminem i etapami."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: lokalne firmy usługowe, dla których budowałem strony",
-      subtitle:
-        "Co te projekty mają wspólnego z branżą beauty: klient decyduje na telefonie, w kilka minut, po cenie i odległości. Landing z zabezpieczonym dostępem do wideo, premium strona o remontach i inwestycjach, SEO i UX dla firmy auto, przebudowa strony na WordPressie i landing przechowalni opon z edytowalnym SEO.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "renovation-and-investment-website-with-premium-design",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "tyre-storage-landing-page-with-editable-seo",
-      ],
-    },
+
     {
       _type: "quoteFormBlock",
       _key: k("b"),

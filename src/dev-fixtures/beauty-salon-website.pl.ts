@@ -63,6 +63,20 @@ export const beautySalonWebsitePl = {
         { _key: k("o"), iconName: "zap", title: "Szybkość na telefonie", text: "Next.js, lekkie zdjęcia, bez zbędnych skryptów" },
         { _key: k("o"), iconName: "sparkles", title: "Struktura czytelna dla asystentów AI", text: "Ceny tekstem i dane strukturalne, które się z nimi zgadzają" },
       ],
+    },    {
+      _type: "portfolioPickBlock",
+      _key: k("b"),
+      eyebrow: "Portfolio",
+      title: "Portfolio: lokalne firmy usługowe, dla których budowałem strony",
+      subtitle:
+        "Co te projekty mają wspólnego z salonem: klient decyduje na telefonie, w kilka minut, po cenie i odległości. Landing z zabezpieczonym dostępem do wideo, premium strona o remontach i inwestycjach, SEO i UX dla firmy auto, przebudowa strony na WordPressie i landing przechowalni opon z edytowalnym SEO.",
+      picks: [
+        "e-commerce-landing-page-with-secured-video-access",
+        "renovation-and-investment-website-with-premium-design",
+        "auto-repair-seo-and-ux-boost",
+        "felgilab-wordpress-rebuild",
+        "tyre-storage-landing-page-with-editable-seo",
+      ],
     },
     {
       _type: "textContent",
@@ -100,21 +114,7 @@ export const beautySalonWebsitePl = {
         p("Dlatego buduję na Next.js, z porządnie skompresowanymi zdjęciami i bez zbędnych skryptów, a cenę, przycisk rezerwacji i numer stawiam tam, gdzie nie trzeba do nich przewijać."),
       ],
     },
-    {
-      _type: "portfolioPickBlock",
-      _key: k("b"),
-      eyebrow: "Portfolio",
-      title: "Portfolio: lokalne firmy usługowe, dla których budowałem strony",
-      subtitle:
-        "Co te projekty mają wspólnego z salonem: klient decyduje na telefonie, w kilka minut, po cenie i odległości. Landing z zabezpieczonym dostępem do wideo, premium strona o remontach i inwestycjach, SEO i UX dla firmy auto, przebudowa strony na WordPressie i landing przechowalni opon z edytowalnym SEO.",
-      picks: [
-        "e-commerce-landing-page-with-secured-video-access",
-        "renovation-and-investment-website-with-premium-design",
-        "auto-repair-seo-and-ux-boost",
-        "felgilab-wordpress-rebuild",
-        "tyre-storage-landing-page-with-editable-seo",
-      ],
-    },
+
     {
       _type: "textContent",
       _key: k("b"),

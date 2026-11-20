@@ -37,7 +37,7 @@ export const seoForLawFirmsPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem stron kancelarii adwokackich i radcowskich z całej Polski: podstrony spraw, wizytówka Google każdego biura, artykuły z autorem i widoczność w odpowiedziach AI — w granicach kodeksów etyki adwokatów i radców prawnych: rzeczowo, bez porównań i obietnic wyniku.",
   seo: {
-    metaTitle: "Pozycjonowanie kancelarii prawnej w Google i AI | Bandziuk",
+    metaTitle: "Pozycjonowanie kancelarii prawnej: Google i AI",
     metaDescription:
       "Pozycjonowanie strony kancelarii adwokackiej i radcy prawnego: podstrony spraw, wizytówka Google, artykuły z autorem, AI. W granicach etyki. Audyt od 1000 zł.",
   },

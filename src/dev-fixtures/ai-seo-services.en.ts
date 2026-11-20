@@ -23,7 +23,7 @@ export const aiSeoServicesEn = {
   excerpt:
     "I provide AI SEO services: one piece of work that gets your business found in Google and named — correctly — in ChatGPT, Perplexity and Google AI Overviews, measured before and after.",
   seo: {
-    metaTitle: "AI SEO Services: Rank in Google and AI Answers | Bandziuk",
+    metaTitle: "AI SEO Services: Google, ChatGPT and AI Answers",
     metaDescription:
       "AI SEO services: get found in Google and named in ChatGPT, Perplexity and AI Overviews. Site, mentions and structured data, measured. Audit from 250 €.",
   },

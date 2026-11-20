@@ -35,7 +35,7 @@ export const tworzenieStronInternetowychCzestochowaPl = {
   excerpt:
     "Tworzenie stron internetowych w Częstochowie dla noclegów, restauracji, firm produkcyjnych i lokalnych usług: projekt graficzny w cenie, rezerwacja lub zapytanie ofertowe, wersje językowe dla gości z zagranicy i szybkość na telefonie — od jednej osoby, za cenę z cennika.",
   seo: {
-    metaTitle: "Strony internetowe Częstochowa: cennik od 3000 zł | Bandziuk",
+    metaTitle: "Strony internetowe Częstochowa: cennik od 3000 zł",
     metaDescription:
       "Strony internetowe dla firm z Częstochowy: noclegi i restauracje przy Jasnej Górze, przemysł, usługi. Projekt w cenie, rezerwacje, języki. Od 3000 zł.",
   },

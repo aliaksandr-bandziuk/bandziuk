@@ -37,7 +37,7 @@ export const realtorWebsiteDesignPl = {
   excerpt:
     "Tworzę strony internetowe dla agentów nieruchomości i pośredników na własnej działalności: marka osobista, podstrony dzielnic, oferty ze zdjęciami i wideo, strona dla sprzedających i formularz wyceny mieszkania — projekt w cenie, ceny podane w cenniku.",
   seo: {
-    metaTitle: "Strona dla pośrednika nieruchomości od 3000 zł | Bandziuk",
+    metaTitle: "Strona pośrednika nieruchomości: oferty i wycena",
     metaDescription:
       "Strona internetowa dla agenta nieruchomości: marka osobista, dzielnice, oferty z wideo, wycena mieszkania, import ofert z programu. Projekt w cenie, od 3000 zł.",
   },

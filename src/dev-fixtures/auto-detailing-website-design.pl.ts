@@ -35,7 +35,7 @@ export const autoDetailingWebsiteDesignPl = {
   excerpt:
     "Strona internetowa dla studia detailingu, zaprojektowana i zbudowana przez jedną osobę: pakiety od prania tapicerki po powłokę ceramiczną i folię PPF, zdjęcia przed i po, cennik według wielkości auta i rezerwacja terminu z zadatkiem, bez wymiany dziesięciu wiadomości.",
   seo: {
-    metaTitle: "Strona dla studia detailingu i auto detailingu | Bandziuk",
+    metaTitle: "Strona dla studia detailingu: zapisy i cennik usług",
     metaDescription:
       "Strona dla studia detailingu: pakiety od prania tapicerki po ceramikę i PPF, galerie przed i po, detailing mobilny, rezerwacja z zadatkiem. Od 3000 zł.",
   },

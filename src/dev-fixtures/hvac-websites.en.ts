@@ -31,7 +31,7 @@ export const hvacWebsitesEn = {
   excerpt:
     "I build websites for HVAC companies and HVAC contractors — your own heating and cooling business site: no-heat and no-AC pages that end in a call, maintenance plans sold online, booking through ServiceTitan, Housecall Pro or FieldEdge, and code you own.",
   seo: {
-    metaTitle: "HVAC Websites with Booking and Maintenance Plans | Bandziuk",
+    metaTitle: "HVAC Websites with Booking and Maintenance Plans",
     metaDescription:
       "HVAC websites for heating and cooling companies: no-heat and no-AC pages, online booking, maintenance plan sign-up, financing and rebate pages. From 700 €.",
   },

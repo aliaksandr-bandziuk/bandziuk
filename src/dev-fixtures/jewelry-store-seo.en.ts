@@ -43,7 +43,7 @@ export const jewelryStoreSeoEn = {
   excerpt:
     "I do SEO for jewelry stores and jewelry brands: category and filter pages that match how people search for rings, earrings and chains, product pages with metal, stone and certificate details, an engagement ring section, Google Maps for your showroom and a place in AI answers, measured in sales and appointments.",
   seo: {
-    metaTitle: "Jewelry Store SEO: Catalog, Local and AI Search | Bandziuk",
+    metaTitle: "Jewelry Store SEO: Catalog, Local Maps, AI Search",
     metaDescription:
       "SEO for jewelry stores: category and filter pages, product data, engagement rings, Google Maps for the showroom, AI answers, sales reports. Audit from 250 €.",
   },

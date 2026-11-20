@@ -37,7 +37,7 @@ export const winerySeoPl = {
   seo: {
     metaTitle: "Pozycjonowanie strony winnicy i enoturystyka | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony winnicy: frazy enoturystów, degustacje i zwiedzanie, wizytówka Google, winobranie i wesela, podstrony win, odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony winnicy: frazy enoturystów, degustacje i zwiedzanie, wizytówka Google, winobranie i wesela, odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

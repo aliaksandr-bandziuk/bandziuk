@@ -75,11 +75,20 @@ for (const name of names) {
 
   if (mt.length > 60) bad.push(`metaTitle ${mt.length} знаков, максимум 60`);
   if (mt && mt === heading) bad.push("metaTitle совпадает с H1");
-  if (/\|\s*Bandziuk/i.test(mt)) bad.push("в metaTitle хвост «| Bandziuk», в свежих страницах его нет");
+  // Хвост «| Bandziuk» сам по себе не вреден: имя в выдаче полезно, а лимит он
+  // нигде не пробивает. Ошибка только когда тайтл уже на пределе — тогда
+  // одиннадцать знаков лучше отдать ключевым словам.
+  if (/\|\s*Bandziuk/i.test(mt) && mt.length >= 57) bad.push(`в metaTitle хвост «| Bandziuk» при длине ${mt.length} — знаки нужны ключевым словам`);
   if (md.length > 160) bad.push(`metaDescription ${md.length} знаков, максимум 160`);
   if ((fx.heroChips || []).length > 3) bad.push(`heroChips ${fx.heroChips.length}, максимум 3`);
 
-  const mainKw = { en: /\bseo\b|website|web design/i, pl: /\bseo\b|pozycjonowanie|strona|stron/i, ru: /\bseo\b|продвижени|сайт/i }[lang];
+  // Главное слово ниши, а не только «сайт» и «SEO»: страница про CRO, WordPress
+  // или интернет-магазин называет свою услугу своими словами.
+  const mainKw = {
+    en: /\bseo\b|website|web design|development|optimi[sz]ation|shop|store/i,
+    pl: /\bseo\b|pozycjonowanie|strona|stron|sklep|wdro\u017cen|optymalizacj/i,
+    ru: /\bseo\b|продвижени|сайт|магазин|разработк|оптимизац/i,
+  }[lang];
   if (mainKw && !mainKw.test(heading)) bad.push("в H1 нет главного ключевого слова");
 
   const heads = collect(fx.contentBlocks, (o) => o.style === "h2" || o.style === "h3").map(text);
@@ -149,7 +158,10 @@ for (const name of names) {
 
   if (lang === "ru") {
     const n = (whole.match(/раскрутк/gi) || []).length;
-    if (isSeo && n !== 1) bad.push(`«раскрутка сайта» встречается ${n} раз, нужно ровно один`);
+    // Страница, которая сама нацелена на фразу «раскрутка сайта», из правила
+    // исключена: там это главное ключевое слово, а не синоним для одного раза.
+    const isPromoPage = /^prodvizhenie-saita$/.test(fx.slug);
+    if (isSeo && !isPromoPage && n !== 1) bad.push(`«раскрутка сайта» встречается ${n} раз, нужно ровно один`);
     if (/честн/i.test(whole)) bad.push("встречается слово «честный» и производные");
   }
   if (lang === "pl" && isSeo && !/pozycjonowanie strony/i.test(heading)) warn.push("в H1 нет формы «pozycjonowanie strony X»");

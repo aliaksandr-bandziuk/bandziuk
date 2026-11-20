@@ -44,7 +44,7 @@ export const daycareWebsiteDesignPl = {
   excerpt:
     "Strona internetowa dla przedszkola niepublicznego albo żłobka, którą projektuję i wykonuję sam: grupy wiekowe i plan dnia, czesne z wpisowym i wyżywieniem podane wprost, wolne miejsca w każdej grupie, zapisy na dni otwarte i listę oczekujących, kadra oraz zdjęcia sal i ogrodu publikowane zgodnie ze zgodami rodziców.",
   seo: {
-    metaTitle: "Strona dla przedszkola i żłobka niepublicznego | Bandziuk",
+    metaTitle: "Strona dla przedszkola i żłobka: zapisy i cennik",
     metaDescription:
       "Strona internetowa dla przedszkola i żłobka: grupy i plan dnia, czesne i wolne miejsca, dni otwarte i lista oczekujących, kadra. Projekt w cenie, od 3000 zł.",
   },

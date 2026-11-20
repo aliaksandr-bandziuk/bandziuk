@@ -41,7 +41,7 @@ export const solarSeoPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem stron firm fotowoltaicznych: podstrony montażu PV, magazynów energii i pomp ciepła, strony miejscowości z prawdziwymi realizacjami, aktualne opisy Mój Prąd i net-billingu, odpowiedź na opinie z forów i widoczność w AI — tak, żeby zapytania o wycenę trafiały prosto do Ciebie, a nie przez porównywarkę.",
   seo: {
-    metaTitle: "SEO dla instalatorów fotowoltaiki i pomp ciepła | Bandziuk",
+    metaTitle: "SEO instalatorów fotowoltaiki i pomp ciepła",
     metaDescription:
       "Pozycjonowanie strony firmy fotowoltaicznej: montaż PV, magazyny energii, podstrony miejscowości, Mój Prąd i net-billing, opinie i AI. Audyt od 1000 zł.",
   },

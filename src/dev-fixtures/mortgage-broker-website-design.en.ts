@@ -45,7 +45,7 @@ export const mortgageBrokerWebsiteDesignEn = {
   excerpt:
     "Mortgage broker website design and build from one person: licensing details on every page, a four-question first form with call booking, document upload through your secure portal, calculators that show their assumptions and a page for each loan officer, design included.",
   seo: {
-    metaTitle: "Mortgage Website Design for Brokers from 700 € | Bandziuk",
+    metaTitle: "Mortgage Broker Website Design and Rates from €700",
     metaDescription:
       "Mortgage broker website design and build: NMLS and licensing on every page, a short first form, a secure document handoff and clear calculators. From 700 €.",
   },

@@ -34,7 +34,7 @@ export const b2bWebsiteDesignEn = {
   excerpt:
     "I design and build B2B websites for manufacturers, distributors and B2B service companies: catalogs with spec sheets and CAD downloads, RFQ forms that reach your CRM, a dealer locator and language versions for export markets.",
   seo: {
-    metaTitle: "Website Design for B2B: Catalogs, RFQs, Export | Bandziuk",
+    metaTitle: "B2B Website Design: Catalogs, RFQs and Export Pages",
     metaDescription:
       "B2B website design with the build included: product catalogs, spec sheets and CAD files, RFQ forms, dealer locator, language versions for export. From 700 €.",
   },

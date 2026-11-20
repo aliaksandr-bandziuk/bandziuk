@@ -35,7 +35,7 @@ export const seoForChiropractorsPl = {
   seo: {
     metaTitle: "Pozycjonowanie fizjoterapii i osteopatii | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony gabinetu fizjoterapii, osteopatii i terapii manualnej: wizytówka Google, podstrony problemów, NFZ, opinie i widoczność w AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony fizjoterapii, osteopatii i terapii manualnej: wizytówka Google, podstrony problemów, NFZ, opinie i widoczność w AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

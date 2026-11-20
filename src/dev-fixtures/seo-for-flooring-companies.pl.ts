@@ -35,7 +35,7 @@ export const seoForFlooringCompaniesPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem firm montażu podłóg i cyklinowania: podstrony paneli, deski, parkietu i renowacji, cennik za m², realizacje z nazwą materiału i wzoru, wizytówka Google i odpowiedzi AI — tak, żeby właściciel mieszkania w stanie deweloperskim dzwonił do Ciebie, zamiast rozsyłać zapytanie na Oferteo.",
   seo: {
-    metaTitle: "SEO dla firmy podłogowej: montaż i cyklinowanie | Bandziuk",
+    metaTitle: "SEO firmy podłogowej: montaż i cyklinowanie",
     metaDescription:
       "Pozycjonowanie strony firmy montażu podłóg: podstrony paneli, deski, parkietu i cyklinowania, cennik za m², realizacje, wizytówka Google i AI. Audyt od 1000 zł.",
   },

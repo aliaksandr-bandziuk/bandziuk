@@ -33,7 +33,7 @@ export const seoForDermatologistsEn = {
   excerpt:
     "I do SEO for dermatologists and dermatology practices: condition pages for acne, eczema and psoriasis, skin cancer screening and Mohs pages, insurance and self-pay information, teledermatology, a Google profile for each location and a place in AI answers — with medical and cosmetic dermatology kept apart on one site.",
   seo: {
-    metaTitle: "Dermatology SEO for Skin Clinics and Practices | Bandziuk",
+    metaTitle: "Dermatology SEO for Skin Clinics and Practices",
     metaDescription:
       "SEO for dermatologists: condition and skin check pages, insurance, teledermatology, local SEO per location and AI answers, counted in appointments. From 250 €.",
   },

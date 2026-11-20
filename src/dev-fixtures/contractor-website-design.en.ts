@@ -23,7 +23,7 @@ export const contractorWebsiteDesignEn = {
   excerpt:
     "I design and build websites for contractors — general contractors, remodelers and specialty trades: service pages, before-and-after project galleries and an estimate request that works in two taps on a phone.",
   seo: {
-    metaTitle: "Contractor Website Design for General Contractors | Bandziuk",
+    metaTitle: "Contractor Website Design: Quotes, Jobs, Reviews",
     metaDescription:
       "Contractor website design built to book estimates: click-to-call, estimate form with photos, before-and-after galleries, licences and reviews. From 700 €.",
   },

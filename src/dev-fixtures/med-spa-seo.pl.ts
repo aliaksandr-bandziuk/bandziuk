@@ -40,7 +40,7 @@ export const medSpaSeoPl = {
   seo: {
     metaTitle: "Pozycjonowanie gabinetu medycyny estetycznej | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony kliniki medycyny estetycznej: podstrony zabiegów, lekarze z PWZ, cennik i karnety, wizytówka Google, Booksy, widoczność w AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony kliniki medycyny estetycznej: podstrony zabiegów, lekarze z PWZ, cennik, wizytówka Google, Booksy i widoczność w AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

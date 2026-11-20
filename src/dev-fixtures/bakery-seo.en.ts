@@ -33,7 +33,7 @@ export const bakerySeoEn = {
   excerpt:
     "I do bakery SEO for neighborhood bakeries, cake shops and patisseries: “bakery near me” on Google Maps, custom cake and wedding cake pages that rank, gluten-free and vegan pages people trust, holiday pre-orders ready before the season and a place in AI answers, measured in cake orders and calls.",
   seo: {
-    metaTitle: "SEO for Bakeries: Custom Cakes and Google Maps | Bandziuk",
+    metaTitle: "Bakery SEO: Custom Cakes, Google Maps and AI Search",
     metaDescription:
       "Bakery SEO: “bakery near me” on the map, custom and wedding cake pages, gluten-free pages, holiday pre-orders, wholesale and AI answers. Audit from 250 €.",
   },

@@ -42,7 +42,7 @@ export const dermatologyWebsiteDesignPl = {
   excerpt:
     "Tworzę strony internetowe dla prywatnych gabinetów dermatologicznych: osobne ścieżki dla leczenia chorób skóry i dermatologii estetycznej, podstrony chorób sprawdzone przez lekarza, zapisy według rodzaju wizyty, także przez ZnanyLekarz, i zdjęcia zmian skórnych przesyłane poza stroną — projekt w cenie.",
   seo: {
-    metaTitle: "Strona www gabinetu dermatologicznego od 3000 zł | Bandziuk",
+    metaTitle: "Strona gabinetu dermatologicznego: wizyty i cennik",
     metaDescription:
       "Strona dla gabinetu dermatologicznego: leczenie i dermatologia estetyczna osobno, zapisy według rodzaju wizyty, ZnanyLekarz, zgodność z RODO. Od 3000 zł.",
   },

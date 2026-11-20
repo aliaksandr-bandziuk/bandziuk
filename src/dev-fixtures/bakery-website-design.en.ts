@@ -38,7 +38,7 @@ export const bakeryWebsiteDesignEn = {
   excerpt:
     "I design and build bakery websites: a catalog of breads, pastries and cakes with the days each is baked, a custom cake order form with servings, a reference photo and an online deposit, pre-orders with pickup slots, allergens on every product and a wholesale page for cafes.",
   seo: {
-    metaTitle: "Bakery Website with Cake Orders and Pre-Orders | Bandziuk",
+    metaTitle: "Bakery Website Design with Cake Orders and Pickup",
     metaDescription:
       "Bakery website design: product catalog, custom cake orders with deposits, pickup slots, allergens on every item, wholesale page. Design included, from 700 €.",
   },

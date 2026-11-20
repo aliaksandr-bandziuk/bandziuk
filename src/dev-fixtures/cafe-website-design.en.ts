@@ -40,7 +40,7 @@ export const cafeWebsiteDesignEn = {
   excerpt:
     "I design cafe websites that look like the cafe itself: colors and marks taken from your cups and sign, photos of drinks and the room planned for the screen, a menu layout that reads at a glance and a first screen designed for the phone. Design is included in the price of the site.",
   seo: {
-    metaTitle: "Coffee Shop Website Design: Brand, Photos, Menu | Bandziuk",
+    metaTitle: "Coffee Shop Website Design: Menu, Photos, Booking",
     metaDescription:
       "Cafe website design: your brand from cup to screen, drink and room photos, a menu that reads at a glance, a phone-first look. Included in the site, from 700 €.",
   },

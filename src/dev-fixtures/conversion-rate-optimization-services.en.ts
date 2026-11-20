@@ -39,7 +39,7 @@ export const conversionRateOptimizationServicesEn = {
   excerpt:
     "I provide conversion rate optimization services as the developer who also fixes what the analysis finds: tracking you can trust, then changes to forms, first screens, checkout and speed, measured against a baseline.",
   seo: {
-    metaTitle: "Conversion Rate Optimization Services from 250 € | Bandziuk",
+    metaTitle: "Conversion Rate Optimization: Audit and Code Fixes",
     metaDescription:
       "CRO services from a developer: event tracking, funnel analysis, then fixes to forms, checkout, speed and contact buttons in your code. CRO audit from 250 €.",
   },

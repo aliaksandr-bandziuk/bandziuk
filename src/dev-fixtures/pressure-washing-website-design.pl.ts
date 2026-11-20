@@ -34,7 +34,7 @@ export const pressureWashingWebsiteDesignPl = {
   excerpt:
     "Strona internetowa dla firmy mycia ciśnieniowego, zaprojektowana i zbudowana przez jedną osobę: zdjęcia przed i po z tego samego miejsca, wycena za m², osobne podstrony mycia kostki brukowej, elewacji i dachów oraz oferta dla wspólnot i zarządców.",
   seo: {
-    metaTitle: "Strona dla firmy mycia kostki, elewacji i dachów | Bandziuk",
+    metaTitle: "Strona firmy mycia kostki, elewacji i dachów",
     metaDescription:
       "Strona dla firmy mycia ciśnieniowego: zdjęcia przed i po, wycena za m², podstrony mycia kostki, elewacji i dachów, oferta dla wspólnot. Od 3000 zł.",
   },

@@ -35,7 +35,7 @@ export const wineryWebsiteDesignEn = {
   excerpt:
     "I design and build winery websites: tasting experiences guests can compare and reserve in two taps, wine club pages with clear tiers, a shop that sells only where shipping is legal, an event and wedding section, an age check where it is required and language versions for visitors from abroad.",
   seo: {
-    metaTitle: "Winery Websites: Tasting Bookings and Wine Club | Bandziuk",
+    metaTitle: "Winery Websites: Tasting Bookings and Wine Club",
     metaDescription:
       "Winery website design: tasting reservations, wine club tiers, a shop where shipping is legal, events, age gate, languages and photography. From 700 €.",
   },

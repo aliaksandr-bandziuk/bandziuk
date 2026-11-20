@@ -35,7 +35,7 @@ export const tworzenieStronInternetowychOpolePl = {
   excerpt:
     "Tworzenie stron internetowych w Opolu od jednej osoby: projekt graficzny w cenie, teksty, wersja niemiecka dla klientów z Niemiec, obszar działania w całym regionie i formularz zgodny z RODO — dla firm budowlanych, producentów i usług, za cenę z cennika.",
   seo: {
-    metaTitle: "Strony www Opole: projekt i wykonanie od 3000 zł | Bandziuk",
+    metaTitle: "Strony www Opole: projekt i wykonanie od 3000 zł",
     metaDescription:
       "Strony www dla firm z Opola i regionu: wersja polska i niemiecka, projekt graficzny w cenie, formularz RODO, panel do edycji, bez abonamentu. Od 3000 zł.",
   },

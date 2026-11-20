@@ -38,7 +38,7 @@ export const cafeWebsiteEn = {
   excerpt:
     "I build cafe websites: a menu written as text with sizes and milk options, today’s hours and holiday hours, directions, order-ahead pickup on your own site next to Uber Eats and DoorDash, a shop for beans and gift cards, and event sign-ups you manage from a phone.",
   seo: {
-    metaTitle: "Website for Cafes and Coffee Shops, from 700 € | Bandziuk",
+    metaTitle: "Cafe and Coffee Shop Website Development from €700",
     metaDescription:
       "Cafe website: menu as text, holiday hours, directions, pickup ordering next to Uber Eats and DoorDash, bean shop, events. Design included, from 700 €.",
   },

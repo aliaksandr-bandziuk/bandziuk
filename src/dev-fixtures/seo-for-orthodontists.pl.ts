@@ -33,7 +33,7 @@ export const seoForOrthodontistsPl = {
   seo: {
     metaTitle: "SEO dla ortodonty: aparaty, nakładki, raty | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony gabinetu ortodontycznego: podstrony dla rodziców i dorosłych, ceny aparatów i nakładek, wizytówka Google każdej placówki, AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony gabinetu ortodontycznego: podstrony dla rodziców i dorosłych, ceny aparatów i nakładek, wizytówka Google i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

@@ -37,7 +37,7 @@ export const garageDoorSeoPl = {
   seo: {
     metaTitle: "SEO dla firm od bram garażowych i napędów | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony firmy bram garażowych: podstrony bram, napędów i serwisu, strony producentów, realizacje, wizytówka Google i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy bram garażowych: podstrony bram, napędów i serwisu, strony producentów, wizytówka Google i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

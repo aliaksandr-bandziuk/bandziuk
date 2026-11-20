@@ -39,7 +39,7 @@ export const pozycjonowanieStronKatowicePl = {
   excerpt:
     "Pozycjonowanie stron w Katowicach prowadzę zdalnie dla firm z Katowic i całej metropolii: audyt, poprawki w kodzie, podstrony usług, wizytówka Google i widoczność w odpowiedziach AI. Całą pracę wykonuje jeden specjalista SEO, a ceny są opublikowane.",
   seo: {
-    metaTitle: "Pozycjonowanie stron Katowice: audyt od 1000 zł | Bandziuk",
+    metaTitle: "Pozycjonowanie stron Katowice: audyt od 1000 zł",
     metaDescription:
       "Pozycjonowanie stron w Katowicach i metropolii: audyt SEO, podstrony usług, wizytówka Google, AI. Jeden specjalista, jawne ceny. Audyt od 1000 zł.",
   },

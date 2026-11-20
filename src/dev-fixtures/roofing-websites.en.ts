@@ -27,7 +27,7 @@ export const roofingWebsitesEn = {
   excerpt:
     "I build roofing websites for roofing companies and roofing contractors: a page for each roof job, roof system and town, storm-area pages your office opens itself, inspection requests with photos sent to your CRM, and a site you own.",
   seo: {
-    metaTitle: "Roofing Company Websites Built for Inspections | Bandziuk",
+    metaTitle: "Roofing Company Websites for Inspections and Leads",
     metaDescription:
       "Roofing websites with pages per service, roof system and storm area, inspection requests with photos sent to your CRM, and a site you own. From 700 €.",
   },

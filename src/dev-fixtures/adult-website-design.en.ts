@@ -39,7 +39,7 @@ export const adultWebsiteDesignEn = {
   excerpt:
     "Adult website design and development from one person: own-domain sites for creators, websites for OnlyFans management agencies and builds for legal 18+ brands, with an age gate, high-risk payments, adult-friendly hosting and fast video.",
   seo: {
-    metaTitle: "Adult Web Designer for Creators and 18+ Brands | Bandziuk",
+    metaTitle: "Adult Website Design for Creators, Studios, Brands",
     metaDescription:
       "Adult website development for creators, OnlyFans agencies and 18+ brands: age gate, CCBill or Segpay payments, adult-friendly hosting, video. From 700 €.",
   },

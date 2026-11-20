@@ -46,7 +46,7 @@ export const healthcareSeoEn = {
   excerpt:
     "I do healthcare SEO for hospitals, health systems, multi-site clinic groups, urgent care networks, diagnostic labs and telehealth companies: provider directories, location and service-line pages, medically reviewed content and technical SEO, as a single specialist who takes a defined project or works with your in-house team.",
   seo: {
-    metaTitle: "Healthcare SEO for Hospitals and Health Systems | Bandziuk",
+    metaTitle: "Healthcare SEO for Hospitals, Clinics and Systems",
     metaDescription:
       "SEO for hospitals, clinic groups and telehealth: provider directories, location and service-line pages, schema and site migrations. Audit from 250 €.",
   },

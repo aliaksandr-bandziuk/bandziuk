@@ -19,7 +19,7 @@ export const chatgptSeoServicesPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem w ChatGPT: pracą, dzięki której ChatGPT wymienia Waszą firmę — z poprawnymi faktami — gdy klienci pytają, kogo wybrać, z pomiarem na stałym zestawie pytań przed i po.",
   seo: {
-    metaTitle: "Pozycjonowanie w ChatGPT: firma w odpowiedziach | Bandziuk",
+    metaTitle: "Pozycjonowanie w ChatGPT, Perplexity i Gemini",
     metaDescription:
       "Pozycjonowanie w ChatGPT: jak ChatGPT wybiera firmy, co czyta i jaka praca sprawia, że wymienia Waszą — z pomiarem przed i po. Audyt od 1000 zł.",
   },

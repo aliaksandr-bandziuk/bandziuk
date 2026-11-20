@@ -35,7 +35,7 @@ export const seoForDermatologistsPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem gabinetów dermatologicznych: podstrony chorób skóry, badania znamion i wideodermatoskopii, jasna informacja o wizytach na NFZ i prywatnie, wizytówka Google, ZnanyLekarz i widoczność w odpowiedziach AI — rzeczowo, w granicach zasad, które pozwalają lekarzom informować, a nie reklamować.",
   seo: {
-    metaTitle: "SEO dla dermatologa i kliniki dermatologicznej | Bandziuk",
+    metaTitle: "SEO dermatologa i kliniki: Google, mapy i AI",
     metaDescription:
       "Pozycjonowanie strony gabinetu dermatologicznego: choroby skóry, badanie znamion, NFZ i prywatnie, wizytówka Google, ZnanyLekarz, RODO i AI. Audyt od 1000 zł.",
   },

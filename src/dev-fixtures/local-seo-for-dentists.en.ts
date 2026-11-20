@@ -28,7 +28,7 @@ export const localSeoForDentistsEn = {
   excerpt:
     "I do local SEO for dentists: the Google Business Profile, patient reviews, Healthgrades, ZocDoc and insurance listings, and office pages that put a dental practice in the map results when someone nearby searches for a dentist.",
   seo: {
-    metaTitle: "Dentist Local SEO: Google Maps, Reviews, Listings | Bandziuk",
+    metaTitle: "Dentist Local SEO: Maps, Reviews and Listings",
     metaDescription:
       "Local SEO for dentists: Google Business Profile, emergency hours, patient reviews answered without revealing patient details, ZocDoc listings. Audit from 250 €.",
   },

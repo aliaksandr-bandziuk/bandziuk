@@ -39,7 +39,7 @@ export const saasSeoPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem stron SaaS: frazy „program do…” i „system do…” w języku polskich klientów, podstrony na zmiany w przepisach takie jak KSeF, darmowe kalkulatory i wzory prowadzące do rejestracji, wersje językowe na rynki zagraniczne i obecność w odpowiedziach AI — z raportem w kontach testowych, demo i płatnych abonamentach.",
   seo: {
-    metaTitle: "SEO dla SaaS: rejestracje, demo i odpowiedzi AI | Bandziuk",
+    metaTitle: "SEO dla SaaS: rejestracje, demo i odpowiedzi AI",
     metaDescription:
       "Pozycjonowanie strony SaaS: frazy „program do…”, KSeF, kalkulatory, wersje językowe, techniczne SEO, ChatGPT i raport w rejestracjach. Audyt od 1000 zł.",
   },

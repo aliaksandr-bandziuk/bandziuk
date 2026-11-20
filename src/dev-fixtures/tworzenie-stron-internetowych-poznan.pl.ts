@@ -31,7 +31,7 @@ export const tworzenieStronInternetowychPoznanPl = {
   excerpt:
     "Tworzenie stron internetowych w Poznaniu dla firm usługowych, producentów i firm logistycznych: projekt graficzny w cenie, podstrony usług, dzielnic i gmin, wersja niemiecka lub angielska dla partnerów z targów i panel do samodzielnej edycji — od 3000 zł, zdalnie, z jedną osobą od projektu do uruchomienia.",
   seo: {
-    metaTitle: "Strony internetowe Poznań: projekt i wykonanie | Bandziuk",
+    metaTitle: "Strony internetowe Poznań: projekt i wykonanie",
     metaDescription:
       "Strony internetowe dla firm z Poznania: projekt graficzny w cenie, podstrony usług i dzielnic, wersje językowe, szybkie na telefonie. Od 3000 zł, cennik online.",
   },

@@ -36,7 +36,7 @@ export const seoForInteriorDesignersPl = {
   seo: {
     metaTitle: "SEO dla architekta i projektanta wnętrz | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony projektanta wnętrz: frazy z miastem, wizytówka Google, realizacje w Google Grafika, Homebook, artykuły dla klientów i AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony projektanta wnętrz: frazy z miastem, wizytówka Google, realizacje w Google Grafika, Homebook, artykuły i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

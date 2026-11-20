@@ -34,7 +34,7 @@ export const junkRemovalSeoEn = {
   excerpt:
     "I do junk removal SEO for hauling companies: pages for what you take, cleanouts and truck-load pricing, service areas, Google Maps and reviews, and answers in ChatGPT, so people clearing a garage or a rental call your truck before a franchise.",
   seo: {
-    metaTitle: "SEO for Junk Removal Companies: Pages and Maps | Bandziuk",
+    metaTitle: "Junk Removal SEO: Service Pages, Maps and Quotes",
     metaDescription:
       "SEO for junk removal: item and cleanout pages, truck-load pricing, same-day booking, Google Maps, reviews and AI answers, counted in pickups. From 250 €.",
   },

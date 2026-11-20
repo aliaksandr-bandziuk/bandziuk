@@ -36,7 +36,7 @@ export const floristSeoPl = {
   seo: {
     metaTitle: "SEO kwiaciarni: dostawa kwiatów i Mapy Google | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony kwiaciarni: podstrony dostawy kwiatów w dzielnicach, Dzień Kobiet i Dzień Matki, wizytówka Google, Allegro i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony kwiaciarni: podstrony dostawy w dzielnicach, Dzień Kobiet i Dzień Matki, wizytówka Google, Allegro i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

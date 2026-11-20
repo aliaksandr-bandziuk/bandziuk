@@ -41,7 +41,7 @@ export const landSurveyorWebsiteEn = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Website for a land surveying company: structure, deliverable pages, enquiry form, speed, structured data", price: 2000, currency: "EUR", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Landing page for one deliverable: ALTA survey, staking or as-built", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "SEO for a surveying company after launch, monthly", price: 800, currency: "EUR", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Audit of an existing surveying company website: structure, enquiries, speed", price: 250, currency: "EUR", unit: "one-off" },
   ],
   contentBlocks: [
     {

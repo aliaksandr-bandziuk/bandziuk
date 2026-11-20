@@ -32,7 +32,7 @@ export const optometrySeoPl = {
   seo: {
     metaTitle: "Pozycjonowanie strony salonu optycznego | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony salonu optycznego: badanie wzroku, soczewki, marki opraw, wizytówka Google każdego salonu, opinie, RODO i widoczność w AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony salonu optycznego: badanie wzroku, soczewki, marki opraw, wizytówka każdego salonu, opinie i widoczność w AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

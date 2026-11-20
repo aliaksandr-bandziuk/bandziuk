@@ -38,7 +38,7 @@ export const seoForLawFirmsEn = {
   excerpt:
     "I provide law firm SEO and lawyer SEO services for solo attorneys and small firms: a page for each practice area and legal problem, attorney profiles Google trusts, content within bar advertising rules and visibility in AI answers, reported in consultations and signed cases.",
   seo: {
-    metaTitle: "SEO for Law Firms and Attorneys: One Consultant | Bandziuk",
+    metaTitle: "Law Firm SEO for Attorneys: Practice Area Pages",
     metaDescription:
       "Legal SEO services for law firms: practice-area pages, YMYL content within bar rules, AI answers, results in signed cases. Audit from 250 €, prices published.",
   },

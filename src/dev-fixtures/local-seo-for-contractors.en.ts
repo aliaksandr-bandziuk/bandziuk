@@ -18,7 +18,7 @@ export const localSeoForContractorsEn = {
   excerpt:
     "I do local SEO for contractors: the Google Business Profile, service areas, reviews and listings, so your business shows up in the map results when homeowners nearby search for your kind of job.",
   seo: {
-    metaTitle: "Local SEO for Contractors: Google Maps, Reviews | Bandziuk",
+    metaTitle: "Local SEO for Contractors: Maps, Reviews, Service",
     metaDescription:
       "Local SEO for contractors: Google Business Profile, service areas, reviews, listings and area pages, so homeowners nearby find you in the map. Audit from 250 €.",
   },

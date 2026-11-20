@@ -37,7 +37,7 @@ export const insuranceAgencySeoPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem stron agentów ubezpieczeniowych i multiagencji: podstrony OC/AC, ubezpieczeń mieszkań, na życie i dla firm, wizytówka Google każdej placówki, dane zgodne z rejestrem KNF i widoczność w odpowiedziach AI — z wynikiem liczonym w kalkulacjach i polisach.",
   seo: {
-    metaTitle: "SEO dla agenta ubezpieczeniowego i multiagencji | Bandziuk",
+    metaTitle: "SEO agenta ubezpieczeniowego i multiagencji: Google",
     metaDescription:
       "Pozycjonowanie strony agenta ubezpieczeniowego: podstrony OC/AC, mieszkań, życia i firm, wizytówka Google, opinie, odpowiedzi AI. Audyt SEO od 1000 zł.",
   },

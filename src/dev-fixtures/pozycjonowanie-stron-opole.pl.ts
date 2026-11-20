@@ -40,7 +40,7 @@ export const pozycjonowanieStronOpolePl = {
   excerpt:
     "Pozycjonowanie stron w Opolu i na całej Opolszczyźnie: audyt, poprawki techniczne, podstrony usług i miejscowości, wizytówka Google, wersja niemiecka dla klientów z Niemiec i widoczność w odpowiedziach AI — jeden specjalista, online, z cenami w cenniku.",
   seo: {
-    metaTitle: "SEO Opole: pozycjonowanie stron www od 1000 zł | Bandziuk",
+    metaTitle: "SEO Opole: pozycjonowanie stron www od 1000 zł",
     metaDescription:
       "Pozycjonowanie stron www w Opolu i regionie: audyt, podstrony usług, wizytówka Google, SEO po niemiecku i widoczność w AI. Jawne ceny, audyt od 1000 zł.",
   },

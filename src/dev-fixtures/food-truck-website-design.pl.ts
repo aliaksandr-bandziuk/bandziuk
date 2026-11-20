@@ -41,7 +41,7 @@ export const foodTruckWebsiteDesignPl = {
   excerpt:
     "Tworzę strony internetowe dla food trucków: dzisiejszy postój i grafik na tydzień, który zmieniacie z telefonu, menu z cenami i oznaczeniem „wyprzedane”, formularz rezerwacji na wesela, imprezy firmowe i festiwale z zaliczką BLIK oraz strony, które otwierają się szybko nawet przy słabym zasięgu.",
   seo: {
-    metaTitle: "Strona food trucka: grafik postojów i rezerwacje | Bandziuk",
+    metaTitle: "Strona food trucka: grafik postojów i rezerwacje",
     metaDescription:
       "Strona internetowa dla food trucka: dzisiejszy postój i grafik zmieniany z telefonu, menu z cenami, rezerwacje na wesela i eventy z zaliczką BLIK. Od 3000 zł.",
   },

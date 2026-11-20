@@ -41,7 +41,7 @@ export const gymSeoPl = {
   seo: {
     metaTitle: "Pozycjonowanie strony siłowni: Mapy, zajęcia | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony siłowni i klubu fitness: wizytówka w Mapach Google, podstrony zajęć i karnetów, MultiSport i FitProfit, opinie i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony siłowni i klubu fitness: wizytówka Google, podstrony zajęć i karnetów, MultiSport, opinie i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

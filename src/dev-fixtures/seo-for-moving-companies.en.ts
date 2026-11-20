@@ -37,7 +37,7 @@ export const seoForMovingCompaniesEn = {
   excerpt:
     "I do SEO for moving companies and movers: local, long-distance and route pages, quote forms that reach your estimator fast, USDOT and insurance facts, Google Maps and reviews, and answers in ChatGPT, so moves are booked with you, not sold as shared leads.",
   seo: {
-    metaTitle: "Mover SEO: Route Pages, Quotes and Google Maps | Bandziuk",
+    metaTitle: "Mover SEO: Route Pages, Quotes and Google Maps",
     metaDescription:
       "SEO for movers: local and long-distance pages, city-to-city routes, quote forms, USDOT trust signals, reviews and AI answers. Moving SEO audit from 250 €.",
   },

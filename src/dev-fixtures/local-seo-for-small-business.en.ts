@@ -32,7 +32,7 @@ export const localSeoForSmallBusinessEn = {
   excerpt:
     "I do local SEO for small business owners: the Google Business Profile, reviews, listings and location pages that put a shop, an office or a service-area business into Google Maps when people nearby search for what it offers.",
   seo: {
-    metaTitle: "Small Business Local SEO: Google Maps, Reviews | Bandziuk",
+    metaTitle: "Small Business Local SEO: Maps, Reviews, Citations",
     metaDescription:
       "Local SEO for small business: Google Business Profile, reviews, NAP, citations on Yelp, Apple and Bing, location pages and AI answers. Audit from 250 €.",
   },

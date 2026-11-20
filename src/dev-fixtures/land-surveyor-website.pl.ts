@@ -34,7 +34,7 @@ export const landSurveyorWebsitePl = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona internetowa dla firmy geodezyjnej: struktura, podstrony opracowań, formularz, szybkość, dane strukturalne", price: 8500, currency: "PLN", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Landing page pod jedno opracowanie: mapa do celów projektowych, tyczenie albo inwentaryzacja", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Pozycjonowanie strony firmy geodezyjnej po starcie, miesięcznie", price: 3500, currency: "PLN", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Audyt istniejącej strony firmy geodezyjnej: struktura, zapytania, szybkość", price: 1000, currency: "PLN", unit: "one-off" },
   ],
   contentBlocks: [
     {

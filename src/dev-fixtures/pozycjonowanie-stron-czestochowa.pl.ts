@@ -41,7 +41,7 @@ export const pozycjonowanieStronCzestochowaPl = {
   excerpt:
     "Pozycjonowanie stron w Częstochowie dla noclegów i restauracji obsługujących pielgrzymów, firm produkcyjnych i lokalnych usług: audyt, podstrony pod pytania gości i klientów, wizytówka Google, wersje językowe i widoczność w odpowiedziach AI — jeden specjalista, online.",
   seo: {
-    metaTitle: "Pozycjonowanie stron internetowych Częstochowa | Bandziuk",
+    metaTitle: "Pozycjonowanie stron Częstochowa: audyt od 1000 zł",
     metaDescription:
       "Pozycjonowanie stron w Częstochowie: noclegi przy Jasnej Górze, gastronomia, przemysł, usługi. Wizytówka Google, wersje językowe, AI. Audyt od 1000 zł.",
   },

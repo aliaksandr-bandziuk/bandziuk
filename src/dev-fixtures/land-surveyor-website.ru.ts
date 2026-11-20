@@ -33,7 +33,7 @@ export const landSurveyorWebsiteRu = {
   offers: [
     { _key: "offer1", _type: "offer", name: "Сайт для геодезической компании: структура, страницы работ, форма заявки, скорость, разметка", price: 2000, currency: "EUR", unit: "one-off" },
     { _key: "offer2", _type: "offer", name: "Лендинг под один вид работ: топосъёмка, вынос границ или исполнительная", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
-    { _key: "offer3", _type: "offer", name: "Продвижение сайта геодезической компании после запуска, ежемесячно", price: 800, currency: "EUR", unit: "month" },
+    { _key: "offer3", _type: "offer", name: "Аудит существующего сайта геодезической компании: структура, заявки, скорость", price: 250, currency: "EUR", unit: "one-off" },
   ],
   contentBlocks: [
     {

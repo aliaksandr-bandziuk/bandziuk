@@ -30,7 +30,7 @@ export const seoConsultantPl = {
   excerpt:
     "Jestem freelancerem SEO: sam robię audyt strony, wdrażam poprawki w kodzie i mierzę efekty w ruchu i zapytaniach — bez opiekuna klienta i podwykonawców pomiędzy Wami a osobą, która pracuje nad stroną.",
   seo: {
-    metaTitle: "SEO freelancer: pozycjonowanie stron na zlecenie | Bandziuk",
+    metaTitle: "SEO freelancer: pozycjonowanie stron na zlecenie",
     metaDescription:
       "Freelancer SEO z Warszawy: audyt, poprawki w kodzie strony i raporty w zapytaniach, a nie tylko pozycjach. Faktura z JDG, praca zdalna. Audyt od 1000 zł.",
   },

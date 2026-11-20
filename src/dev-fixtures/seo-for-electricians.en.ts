@@ -22,7 +22,7 @@ export const seoForElectriciansEn = {
   excerpt:
     "I do SEO for electricians and electrical contractors: pages for panel upgrades, EV chargers, generators and emergency calls, the Google map results and AI answers, so the people who need an electrician nearby call you.",
   seo: {
-    metaTitle: "SEO for Electricians and Electrical Contractors | Bandziuk",
+    metaTitle: "SEO for Electricians and Electrical Contractors",
     metaDescription:
       "SEO services for electricians: pages for panel upgrades, EV chargers and emergency calls, Google Maps, reviews and AI answers. Audit from 250 €.",
   },

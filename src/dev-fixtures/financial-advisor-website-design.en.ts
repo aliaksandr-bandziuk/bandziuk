@@ -39,7 +39,7 @@ export const financialAdvisorWebsiteDesignEn = {
   excerpt:
     "I design financial advisor websites and build them myself: a first screen that says who you serve and how you are paid, credential and team pages, disclosure slots your compliance team can approve, and scheduling and client login one tap away.",
   seo: {
-    metaTitle: "Website Design for Financial Advisors and RIAs | Bandziuk",
+    metaTitle: "Financial Advisor and RIA Website Design from €2000",
     metaDescription:
       "Financial advisor website design with the build included: who-we-serve pages, fee and credential pages, compliance-ready disclosures, scheduling. From 700 €.",
   },

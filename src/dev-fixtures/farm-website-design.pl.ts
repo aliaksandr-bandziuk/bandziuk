@@ -38,7 +38,7 @@ export const farmWebsiteDesignPl = {
   excerpt:
     "Tworzę strony internetowe dla gospodarstw rolnych, które sprzedają bezpośrednio: lista „co mamy w tym tygodniu” zmieniana z telefonu, zamówienia paczek warzyw z odbiorem w gospodarstwie lub w punkcie w mieście, płatność BLIK-iem, zapisy do RWS, samozbiór, dojazd, który znajduje nawigacja, i oferta dla restauracji.",
   seo: {
-    metaTitle: "Strona www gospodarstwa: sprzedaż bezpośrednia | Bandziuk",
+    metaTitle: "Strona gospodarstwa rolnego: sprzedaż bezpośrednia",
     metaDescription:
       "Strona internetowa dla gospodarstwa: lista produktów zmieniana z telefonu, zamówienia paczek z odbiorem, BLIK, RWS, samozbiór, dojazd, restauracje. Od 3000 zł.",
   },

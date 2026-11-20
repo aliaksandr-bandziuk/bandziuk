@@ -39,7 +39,7 @@ export const personalTrainerWebsiteDesignEn = {
   excerpt:
     "I design and build personal trainer websites for independent trainers: separate pages for in-person and online coaching, packages people can compare, booking and payment on the site, programs you can sell online and local pages for clients who search for a trainer nearby.",
   seo: {
-    metaTitle: "Personal Trainer Website: In-Person and Online | Bandziuk",
+    metaTitle: "Personal Trainer Website Design: Online and Gym",
     metaDescription:
       "Personal trainer website design: in-person and online coaching pages, packages, consult booking and payments, program sales, local search. From 700 €.",
   },

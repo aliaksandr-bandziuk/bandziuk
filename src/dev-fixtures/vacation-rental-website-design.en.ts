@@ -42,7 +42,7 @@ export const vacationRentalWebsiteDesignEn = {
   excerpt:
     "I design and build direct-booking websites for vacation rental owners and property managers: property pages guests can decide on, the booking widget from your PMS or channel manager, and the trust a guest needs to book a stranger without Airbnb or Vrbo in between.",
   seo: {
-    metaTitle: "Build a Direct-Booking Vacation Rental Website | Bandziuk",
+    metaTitle: "Vacation Rental Website for Direct Bookings",
     metaDescription:
       "Vacation rental website design and build for owners and managers: direct bookings, your PMS booking widget, property pages, B&B sites. From 700 €.",
   },

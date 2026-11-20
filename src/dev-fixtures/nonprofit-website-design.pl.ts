@@ -38,7 +38,7 @@ export const nonprofitWebsiteDesignPl = {
   excerpt:
     "Tworzę strony internetowe dla fundacji i stowarzyszeń: dane z KRS, numer do przekazania 1,5% podatku, darowizny online, wolontariat, sprawozdania i projekty z informacją o dofinansowaniu — z panelem, w którym zarząd sam dodaje aktualności, za cenę z cennika.",
   seo: {
-    metaTitle: "Strona dla fundacji i stowarzyszenia od 3000 zł | Bandziuk",
+    metaTitle: "Strona dla fundacji i stowarzyszenia: wpłaty i cele",
     metaDescription:
       "Strona internetowa dla fundacji i stowarzyszenia: dane z KRS, 1,5% dla OPP, darowizny online, wolontariat, RODO, edycja przez zarząd. Od 3000 zł.",
   },

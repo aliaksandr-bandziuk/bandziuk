@@ -40,7 +40,7 @@ export const mortgageBrokerSeoPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem stron pośredników kredytu hipotecznego i ekspertów kredytowych: podstrony kredytów i sytuacji klientów, miasta i wizytówka Google, dane z rejestru KNF w widocznym miejscu, szybka droga do wniosku i widoczność w odpowiedziach AI — z wynikiem liczonym w wnioskach, a nie w odsłonach.",
   seo: {
-    metaTitle: "Pozycjonowanie pośrednika kredytu hipotecznego | Bandziuk",
+    metaTitle: "Pozycjonowanie pośrednika kredytowego: Google i AI",
     metaDescription:
       "Pozycjonowanie strony pośrednika kredytowego: podstrony kredytów, miasta, wizytówka Google, dane z rejestru KNF, odpowiedzi AI. Audyt SEO od 1000 zł.",
   },

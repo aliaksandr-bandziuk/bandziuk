@@ -37,7 +37,7 @@ export const adultWebsiteDesignPl = {
   excerpt:
     "Strona internetowa dla branży adult od jednej osoby — projekt i wykonanie: własna domena dla twórców treści, strona agencji OnlyFans, serwis lub sklep 18+ z bramką wiekową, płatnościami, hostingiem dopuszczającym treści dla dorosłych i szybkim wideo.",
   seo: {
-    metaTitle: "Strony dla dorosłych (18+): projekt i wykonanie | Bandziuk",
+    metaTitle: "Strony dla dorosłych 18+: projekt, wykonanie, hosting",
     metaDescription:
       "Strona internetowa dla branży adult: twórcy treści, agencje OnlyFans, sklepy i serwisy 18+. Bramka wiekowa, płatności, hosting, wideo, RODO. Od 3000 zł.",
   },

@@ -36,7 +36,7 @@ export const pozycjonowanieStronSzczecinPl = {
   excerpt:
     "Pozycjonowanie stron w Szczecinie robię dla firm z miasta i okolicznych gmin: audyt SEO, poprawki w kodzie, podstrony usług z dzielnicami, wizytówka Google, niemieckie podstrony dla klientów zza granicy i widoczność w odpowiedziach AI. Jedna osoba od audytu do wdrożenia, ceny w cenniku.",
   seo: {
-    metaTitle: "Pozycjonowanie Szczecin: SEO także po niemiecku | Bandziuk",
+    metaTitle: "Pozycjonowanie Szczecin: SEO także po niemiecku",
     metaDescription:
       "Pozycjonowanie stron w Szczecinie: audyt SEO, podstrony dzielnic, wizytówka Google, frazy „Stettin” dla klientów z Niemiec i AI. Audyt od 1000 zł.",
   },

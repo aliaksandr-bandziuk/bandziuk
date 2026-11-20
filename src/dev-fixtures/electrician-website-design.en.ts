@@ -25,7 +25,7 @@ export const electricianWebsiteDesignEn = {
   excerpt:
     "I design and build websites for electricians: a first screen that shows who you are and where you work, one path for emergencies and one for planned jobs, license and insurance in plain view, and real photos of panels and lighting you have done.",
   seo: {
-    metaTitle: "Website Design for Electricians That Gets Calls | Bandziuk",
+    metaTitle: "Electrician Website Design: Calls, Quotes, Service",
     metaDescription:
       "Electrician website design: emergency and planned-work paths, license and insurance up front, before-and-after panel photos, built for phones first. From 700 €.",
   },

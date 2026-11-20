@@ -39,7 +39,7 @@ export const seoForTourOperatorsPl = {
   seo: {
     metaTitle: "SEO dla organizatora turystyki i wycieczek | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony biura podróży: podstrony wycieczek według kierunku, nisza zamiast walki z Itaką, sezon ferii, języki, opinie i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony biura podróży: podstrony wycieczek według kierunku, nisza zamiast walki z Itaką, sezon ferii, języki i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

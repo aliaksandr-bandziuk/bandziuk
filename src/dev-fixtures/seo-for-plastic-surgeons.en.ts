@@ -31,7 +31,7 @@ export const seoForPlasticSurgeonsEn = {
   excerpt:
     "I do SEO for plastic surgeons and plastic surgery practices: a page for every operation you perform, board certification stated correctly, before-and-after galleries built on patient consent, cost and financing pages and visibility for patients who travel to you.",
   seo: {
-    metaTitle: "Plastic Surgeon SEO: Procedures, Galleries, AI | Bandziuk",
+    metaTitle: "Plastic Surgeon SEO: Procedures, Galleries, AI",
     metaDescription:
       "SEO for plastic surgeons: procedure and cost pages, board certification, consented before-and-after galleries, traveling patients and AI answers. From 250 €.",
   },

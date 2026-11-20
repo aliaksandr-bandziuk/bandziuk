@@ -22,7 +22,7 @@ export const seoForPaintingContractorsEn = {
   excerpt:
     "I do SEO for painting contractors: pages for interior, exterior, cabinet and commercial painting, before-and-after photos, Google Maps and reviews, so homeowners and property managers ask you for an estimate.",
   seo: {
-    metaTitle: "SEO for Painters: Interior, Exterior, Commercial | Bandziuk",
+    metaTitle: "SEO for Painters: Interior, Exterior, Commercial",
     metaDescription:
       "SEO for painting contractors: interior, exterior, cabinet and commercial pages, job photos, Google Maps and AI answers that bring estimates. Audit from 250 €.",
   },

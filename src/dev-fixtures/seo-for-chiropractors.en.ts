@@ -33,7 +33,7 @@ export const seoForChiropractorsEn = {
   excerpt:
     "I do SEO for chiropractors: a Google Business Profile that reaches the map pack, a page for each condition you treat, auto-injury and first-visit pages, reviews that respect privacy and a place in AI answers, measured in booked first visits.",
   seo: {
-    metaTitle: "Chiropractic SEO: Map Pack and Condition Pages | Bandziuk",
+    metaTitle: "Chiropractic SEO: Map Pack and Condition Pages",
     metaDescription:
       "SEO for chiropractors: Google Business Profile and map pack, pages for back pain and sciatica, reviews, online booking and AI answers. Audit from 250 €.",
   },

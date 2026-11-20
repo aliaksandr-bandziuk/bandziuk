@@ -40,7 +40,7 @@ export const medicalWebsiteDesignEn = {
   excerpt:
     "I design and build medical websites for doctors, private practices and clinics: doctor profiles with credentials, a booking path that takes a few taps, insurance and portal links patients can find, and forms that keep health details safe.",
   seo: {
-    metaTitle: "Medical Website Design for Doctors and Clinics | Bandziuk",
+    metaTitle: "Medical Website Design for Doctors, Clinics, Labs",
     metaDescription:
       "Medical website design for doctors and clinics: doctor profiles, booking and portal links, WCAG accessibility, privacy-safe forms. Design + build from 700 €.",
   },

@@ -37,7 +37,7 @@ export const nextjsDevelopmentServicesEn = {
   excerpt:
     "I offer Next.js development services as one developer: websites on Next.js, React and TypeScript with Sanity as the CMS, SEO set up in the code and migration from WordPress without losing rankings — at prices published up front.",
   seo: {
-    metaTitle: "Next.js Developer for Websites with Sanity CMS | Bandziuk",
+    metaTitle: "Next.js Development with Sanity CMS from €2000",
     metaDescription:
       "Next.js development services by one developer: React, TypeScript, Sanity CMS, SEO in code, WordPress migration with 301 redirects. Websites from 700 €.",
   },

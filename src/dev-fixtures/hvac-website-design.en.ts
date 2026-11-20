@@ -31,7 +31,7 @@ export const hvacWebsiteDesignEn = {
   excerpt:
     "I design and build websites for HVAC companies: a first screen that follows the season, separate paths for a repair today and a new system next month, maintenance plans that compare at a glance, and your own technicians instead of stock models.",
   seo: {
-    metaTitle: "Website Design for HVAC Companies and Contractors | Bandziuk",
+    metaTitle: "HVAC Website Design: Booking, Service Areas, Plans",
     metaDescription:
       "HVAC website design for both seasons: repair and replacement paths, membership plans, financing, licenses and real technicians. Design + build from 700 €.",
   },

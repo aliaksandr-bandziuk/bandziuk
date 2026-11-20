@@ -37,7 +37,7 @@ export const financialAdvisorSeoPl = {
   excerpt:
     "Zajmuję się pozycjonowaniem stron doradców finansowych: podstrony usług od kredytu po emeryturę, wizytówka Google w Twoim mieście, artykuły z autorem i datą aktualizacji, ostrożne sformułowania i widoczność w odpowiedziach AI — dla niezależnych doradców i multiagencji, które chcą klientów spoza banku.",
   seo: {
-    metaTitle: "Pozycjonowanie doradcy finansowego w Google i AI | Bandziuk",
+    metaTitle: "Pozycjonowanie doradcy finansowego: Google i AI",
     metaDescription:
       "Pozycjonowanie strony doradcy finansowego: podstrony usług, wizytówka Google, artykuły z autorem, marka osobista i odpowiedzi AI. Audyt SEO od 1000 zł.",
   },

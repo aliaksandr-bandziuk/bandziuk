@@ -35,7 +35,7 @@ export const treeServiceSeoPl = {
   seo: {
     metaTitle: "SEO dla firmy wycinki drzew i arborysty | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony firmy wycinki drzew: wycinka alpinistyczna, pielęgnacja koron, frezowanie pni, zezwolenia z gminy, wizytówka Google i AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy wycinki drzew: wycinka alpinistyczna, pielęgnacja koron, frezowanie pni, zezwolenia, wizytówka Google i AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

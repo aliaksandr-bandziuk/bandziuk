@@ -34,7 +34,7 @@ export const insuranceAgencyWebsiteDesignPl = {
   excerpt:
     "Tworzę strony internetowe dla agentów ubezpieczeniowych i multiagencji: podstrona dla każdego ubezpieczenia, formularz wyceny bez zbędnych danych, przypomnienie o końcu polisy OC, zakładka „zgłoś szkodę”, informacje o pośredniku i wersje językowe — projekt w cenie, ceny w cenniku.",
   seo: {
-    metaTitle: "Strona dla agencji ubezpieczeniowej od 3000 zł | Bandziuk",
+    metaTitle: "Strona agencji ubezpieczeniowej: wnioski i kontakt",
     metaDescription:
       "Strona dla agenta ubezpieczeniowego i multiagencji: podstrony OC/AC i firm, formularz zgodny z RODO, dane z rejestru KNF, projekt w cenie. Od 3000 zł.",
   },

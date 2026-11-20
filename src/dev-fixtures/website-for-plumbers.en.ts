@@ -23,7 +23,7 @@ export const websiteForPlumbersEn = {
   excerpt:
     "I build websites for plumbers and plumbing companies — your own business site, not a directory listing: a 24/7 emergency path to your phone, a page for each service and town, booking through ServiceTitan, Housecall Pro or Jobber, and code you own.",
   seo: {
-    metaTitle: "Plumbing Websites Built for Calls and Bookings | Bandziuk",
+    metaTitle: "Plumbing Websites Built for Calls and Bookings",
     metaDescription:
       "Websites for plumbing companies: 24/7 emergency pages, a page per service and town, booking via ServiceTitan, Housecall Pro or Jobber. From 700 €.",
   },

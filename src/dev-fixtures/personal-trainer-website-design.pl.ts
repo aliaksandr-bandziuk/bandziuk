@@ -35,7 +35,7 @@ export const personalTrainerWebsiteDesignPl = {
   excerpt:
     "Tworzę strony internetowe dla trenerów personalnych: osobno treningi w klubie, z dojazdem i online, pakiety z cenami, zapisy z kalendarza, płatność BLIK-iem lub kartą, sprzedaż planów treningowych z chronionym wideo i podstrony dla dzielnic, w których pracujesz.",
   seo: {
-    metaTitle: "Strona trenera personalnego: zapisy i płatności | Bandziuk",
+    metaTitle: "Strona trenera personalnego: zapisy i płatności",
     metaDescription:
       "Strona internetowa dla trenera personalnego: klub, dojazd i online, pakiety, zapisy z kalendarza, BLIK i Przelewy24, sprzedaż planów online. Od 3000 zł.",
   },

@@ -38,7 +38,7 @@ export const pestControlSeoPl = {
   seo: {
     metaTitle: "SEO dla firmy DDD: dezynsekcja i deratyzacja | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony firmy DDD: podstrony szkodników, deratyzacja dla wspólnot, oferta HACCP dla gastronomii, wizytówka Google i odpowiedzi AI. Audyt od 1000 zł.",
+      "Pozycjonowanie strony firmy DDD: podstrony szkodników, deratyzacja dla wspólnot, HACCP dla gastronomii, wizytówka Google i odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",

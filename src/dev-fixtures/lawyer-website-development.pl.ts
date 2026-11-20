@@ -37,7 +37,7 @@ export const lawyerWebsiteDevelopmentPl = {
   excerpt:
     "Tworzę strony internetowe dla kancelarii adwokackich i radcowskich: specjalizacje, sylwetki prawników, artykuły z autorem, formularz zgodny z RODO i tajemnicą zawodową oraz wersje językowe dla klientów z zagranicy — rzeczowo, zgodnie z kodeksami etyki, za cenę z cennika.",
   seo: {
-    metaTitle: "Strona dla kancelarii i radcy prawnego od 3000 zł | Bandziuk",
+    metaTitle: "Strona kancelarii i radcy prawnego od 3000 zł",
     metaDescription:
       "Strona internetowa dla kancelarii adwokackiej i radcy prawnego: specjalizacje, zespół, formularz zgodny z RODO, wersje językowe, projekt w cenie. Od 3000 zł.",
   },

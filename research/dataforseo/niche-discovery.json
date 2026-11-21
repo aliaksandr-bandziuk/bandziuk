@@ -1,0 +1,7801 @@
+{
+ "generatedAt": "2026-11-21T18:42:53.113Z",
+ "minVolume": 20,
+ "markets": {
+  "EN/US": [
+   {
+    "tail": "marketers",
+    "volume": 410100,
+    "examples": [
+     "seo for marketers (8100)",
+     "digital marketing for marketers (201000)",
+     "digital marketing for marketers (201000)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "agencies",
+    "volume": 111780,
+    "examples": [
+     "seo for agencies (22200)",
+     "white label seo for agencies (390)",
+     "seo services for agencies (590)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "providers",
+    "volume": 105660,
+    "examples": [
+     "seo for service providers (720)",
+     "uhc website for providers (49500)",
+     "metlife dental website for providers (40500)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "wedding",
+    "volume": 63000,
+    "examples": [
+     "website design for wedding (3600)",
+     "website for wedding (49500)",
+     "free website for wedding (9900)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "weddings",
+    "volume": 59400,
+    "examples": [
+     "website for weddings (49500)",
+     "free website for weddings (9900)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "doctors",
+    "volume": 50710,
+    "examples": [
+     "seo for doctors (260)",
+     "seo services for doctors (90)",
+     "digital marketing for doctors (260)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "hotels",
+    "volume": 39640,
+    "examples": [
+     "seo for hotels (480)",
+     "seo services for hotels (20)",
+     "digital marketing for hotels (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "apple store",
+    "volume": 33100,
+    "examples": [
+     "website for apple store (33100)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "booking hotel",
+    "volume": 26900,
+    "examples": [
+     "website for booking hotel (14800)",
+     "best website for booking hotel (12100)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "booking hotels",
+    "volume": 26900,
+    "examples": [
+     "website for booking hotels (14800)",
+     "best website for booking hotels (12100)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "law firms",
+    "volume": 20570,
+    "examples": [
+     "seo for law firms (3600)",
+     "local seo for law firms (720)",
+     "seo services for law firms (720)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "digital marketers",
+    "volume": 18100,
+    "examples": [
+     "seo for digital marketers (18100)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "ecommerce",
+    "volume": 17810,
+    "examples": [
+     "seo for ecommerce (1900)",
+     "seo for ecommerce website (480)",
+     "seo for ecommerce sites (480)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "freelancers",
+    "volume": 15900,
+    "examples": [
+     "seo for freelancers (1600)",
+     "marketing for freelancers (1000)",
+     "web design for freelancers (480)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "lawyers",
+    "volume": 15740,
+    "examples": [
+     "local seo for lawyers (720)",
+     "seo for lawyers (720)",
+     "best seo for lawyers (390)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "wedding planners",
+    "volume": 14820,
+    "examples": [
+     "website design for wedding planners (20)",
+     "website for wedding planners (14800)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "banners",
+    "volume": 14800,
+    "examples": [
+     "website for banners (14800)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "planning wedding",
+    "volume": 14800,
+    "examples": [
+     "website for planning a wedding (14800)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "law firm",
+    "volume": 14770,
+    "examples": [
+     "seo for law firm (3600)",
+     "local seo for law firm (720)",
+     "seo services for law firm (480)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "attorneys",
+    "volume": 14010,
+    "examples": [
+     "seo for attorneys (2400)",
+     "local seo for attorneys (480)",
+     "seo services for attorneys (880)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "bloggers",
+    "volume": 13520,
+    "examples": [
+     "seo for bloggers (1900)",
+     "seo services for bloggers (110)",
+     "affiliate marketing for bloggers (2400)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "hotel",
+    "volume": 12420,
+    "examples": [
+     "seo for hotel (480)",
+     "digital marketing for hotel (110)",
+     "web design for hotel (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "freelancer",
+    "volume": 12100,
+    "examples": [
+     "website for freelancer (12100)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "lawyer",
+    "volume": 10010,
+    "examples": [
+     "seo for lawyer (2400)",
+     "internet marketing for lawyer (880)",
+     "online marketing for lawyer (880)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "animators",
+    "volume": 9900,
+    "examples": [
+     "website for animators (9900)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "building computers",
+    "volume": 9900,
+    "examples": [
+     "website for building computers (9900)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "sam club",
+    "volume": 8100,
+    "examples": [
+     "website for sam's club (8100)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "ross stores",
+    "volume": 6600,
+    "examples": [
+     "website for ross stores (6600)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "renters",
+    "volume": 6600,
+    "examples": [
+     "website for renters (6600)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "managers",
+    "volume": 6200,
+    "examples": [
+     "marketing for managers (3600)",
+     "digital marketing for managers (1300)",
+     "digital marketing for managers (1300)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "realtors",
+    "volume": 5520,
+    "examples": [
+     "seo for realtors (880)",
+     "marketing for realtors (720)",
+     "real estate marketing for realtors (720)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "hackers",
+    "volume": 5400,
+    "examples": [
+     "website for hackers (5400)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "sneakers",
+    "volume": 5400,
+    "examples": [
+     "website for sneakers (5400)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "dentists",
+    "volume": 5110,
+    "examples": [
+     "seo for dentists (880)",
+     "local seo for dentists (720)",
+     "seo services for dentists (170)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "contractors",
+    "volume": 5050,
+    "examples": [
+     "local seo for contractors (480)",
+     "seo for local contractors (390)",
+     "seo for contractors (390)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dentist",
+    "volume": 4840,
+    "examples": [
+     "seo for dentist (880)",
+     "local seo for dentist (590)",
+     "seo services for dentist (170)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "nonprofit",
+    "volume": 4840,
+    "examples": [
+     "seo for nonprofit (320)",
+     "marketing for a nonprofit (880)",
+     "marketing for nonprofit (880)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "youtubers",
+    "volume": 4400,
+    "examples": [
+     "affiliate marketing for youtubers (4400)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "nonprofits",
+    "volume": 4380,
+    "examples": [
+     "seo for nonprofits (320)",
+     "seo services for nonprofits (20)",
+     "marketing for nonprofits (880)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "restaurant",
+    "volume": 4210,
+    "examples": [
+     "local seo for restaurant (320)",
+     "seo for restaurant (320)",
+     "seo services for restaurant (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "legal firms",
+    "volume": 3990,
+    "examples": [
+     "seo for legal firms (3600)",
+     "digital marketing for legal firms (390)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "realtor",
+    "volume": 3800,
+    "examples": [
+     "seo for realtor (880)",
+     "marketing for realtor (720)",
+     "digital marketing for realtor (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "event",
+    "volume": 3800,
+    "examples": [
+     "marketing for event (1900)",
+     "marketing for an event (1900)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "lawfirms",
+    "volume": 3600,
+    "examples": [
+     "seo for lawfirms (3600)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "attorneys lawyers",
+    "volume": 3600,
+    "examples": [
+     "seo for attorneys lawyers (3600)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "restaurants",
+    "volume": 3530,
+    "examples": [
+     "seo for restaurants (320)",
+     "local seo for restaurants (320)",
+     "seo services for restaurants (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "roofers",
+    "volume": 3040,
+    "examples": [
+     "seo for roofers (1900)",
+     "seo services for roofers (20)",
+     "marketing for roofers (480)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "plumbers",
+    "volume": 2960,
+    "examples": [
+     "seo for plumbers (480)",
+     "local seo for plumbers (390)",
+     "seo services for plumbers (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "contractor",
+    "volume": 2590,
+    "examples": [
+     "seo for contractor (590)",
+     "web design for contractor (1000)",
+     "website design for contractor (1000)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "saas",
+    "volume": 2580,
+    "examples": [
+     "seo for saas (480)",
+     "seo services for saas (20)",
+     "seo services for saas companies (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "franchises",
+    "volume": 2260,
+    "examples": [
+     "seo for franchises (260)",
+     "seo services for franchises (170)",
+     "marketing for franchises (1300)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "events",
+    "volume": 2190,
+    "examples": [
+     "marketing for events (1900)",
+     "digital marketing for events (20)",
+     "web design for events (110)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "general contractors",
+    "volume": 2090,
+    "examples": [
+     "digital marketing for general contractors (20)",
+     "web design for general contractors (1000)",
+     "website design for general contractors (1000)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "consultants",
+    "volume": 2080,
+    "examples": [
+     "online marketing for consultants (720)",
+     "marketing for small business consultants (590)",
+     "website design for business consultants (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "musicians",
+    "volume": 2050,
+    "examples": [
+     "marketing for musicians (1300)",
+     "social media marketing for musicians (590)",
+     "digital marketing for musicians (90)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "schools",
+    "volume": 1960,
+    "examples": [
+     "marketing for schools (720)",
+     "digital marketing for schools (390)",
+     "web design for schools (390)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "blogger",
+    "volume": 1920,
+    "examples": [
+     "seo for blogger (1900)",
+     "google ads for blogger (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "tiktok shop",
+    "volume": 1900,
+    "examples": [
+     "affiliate marketing for tiktok shop (1900)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "therapists",
+    "volume": 1750,
+    "examples": [
+     "seo for therapists (480)",
+     "seo services for therapists (30)",
+     "digital marketing for therapists (90)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "therapist",
+    "volume": 1700,
+    "examples": [
+     "seo for therapist (590)",
+     "digital marketing for therapist (70)",
+     "web design for therapist (390)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "personal injury attorneys",
+    "volume": 1470,
+    "examples": [
+     "seo for personal injury attorneys (880)",
+     "marketing for personal injury attorneys (590)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "churches",
+    "volume": 1430,
+    "examples": [
+     "digital marketing for churches (70)",
+     "web design for churches (590)",
+     "free web design for churches (50)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "chiropractors",
+    "volume": 1390,
+    "examples": [
+     "seo for chiropractors (390)",
+     "seo services for chiropractors (20)",
+     "digital marketing for chiropractors (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "startups",
+    "volume": 1360,
+    "examples": [
+     "seo for startups (390)",
+     "seo services for startups (140)",
+     "digital marketing for startups (210)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "personal injury law firms",
+    "volume": 1300,
+    "examples": [
+     "seo for personal injury law firms (1300)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "startup",
+    "volume": 1300,
+    "examples": [
+     "seo for startup (480)",
+     "seo services for startup (140)",
+     "digital marketing for a startup (170)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "franchisees",
+    "volume": 1300,
+    "examples": [
+     "marketing for franchisees (1300)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "electricians",
+    "volume": 1260,
+    "examples": [
+     "seo for electricians (480)",
+     "seo services for electricians (50)",
+     "digital marketing for electricians (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "colleges",
+    "volume": 1100,
+    "examples": [
+     "marketing for colleges (880)",
+     "web design for colleges (110)",
+     "website design for colleges (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "influencers",
+    "volume": 1000,
+    "examples": [
+     "affiliate marketing for influencers (1000)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "general contractor",
+    "volume": 1000,
+    "examples": [
+     "web design for general contractor (1000)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "retailers",
+    "volume": 970,
+    "examples": [
+     "marketing for retailers (880)",
+     "digital marketing for retailers (90)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "dealers",
+    "volume": 960,
+    "examples": [
+     "seo for dealers (480)",
+     "automotive seo for dealers (480)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "recruitment agencies",
+    "volume": 890,
+    "examples": [
+     "marketing for recruitment agencies (720)",
+     "digital marketing for recruitment agencies (50)",
+     "web design for recruitment agencies (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "photographers",
+    "volume": 880,
+    "examples": [
+     "seo for photographers (390)",
+     "seo services for photographers (140)",
+     "web design for photographers (90)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "financial advisors",
+    "volume": 870,
+    "examples": [
+     "seo for financial advisors (320)",
+     "seo services for financial advisors (40)",
+     "digital marketing for financial advisors (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "personal injury lawyers",
+    "volume": 800,
+    "examples": [
+     "marketing for personal injury lawyers (590)",
+     "digital marketing for personal injury lawyers (70)",
+     "lead generation for personal injury lawyers (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "auto repair shop",
+    "volume": 780,
+    "examples": [
+     "seo for auto repair shop (260)",
+     "marketing for auto repair shop (480)",
+     "digital marketing for auto repair shop (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "insurance brokers",
+    "volume": 760,
+    "examples": [
+     "seo for insurance brokers (480)",
+     "digital marketing for insurance brokers (170)",
+     "website design for insurance brokers (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "auto dealers",
+    "volume": 760,
+    "examples": [
+     "seo for auto dealers (480)",
+     "digital marketing for auto dealers (140)",
+     "website design for auto dealers (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "movers",
+    "volume": 720,
+    "examples": [
+     "seo for movers (590)",
+     "seo services for movers (20)",
+     "google ads for movers (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "conferences",
+    "volume": 720,
+    "examples": [
+     "marketing for conferences (720)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "auto shop",
+    "volume": 720,
+    "examples": [
+     "marketing for auto shop (720)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "real estate brokers",
+    "volume": 720,
+    "examples": [
+     "marketing for real estate brokers (720)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "car dealerships",
+    "volume": 690,
+    "examples": [
+     "seo for car dealerships (480)",
+     "digital marketing for car dealerships (40)",
+     "lead generation for car dealerships (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "accountants",
+    "volume": 690,
+    "examples": [
+     "seo for accountants (210)",
+     "local seo services for accountants (30)",
+     "seo services for accountants (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "music artists",
+    "volume": 650,
+    "examples": [
+     "social media marketing for music artists (590)",
+     "web design for music artists (30)",
+     "website design for music artists (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "doctor",
+    "volume": 640,
+    "examples": [
+     "seo services for doctor (140)",
+     "web design for doctor (140)",
+     "website design for doctor (320)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "universities",
+    "volume": 640,
+    "examples": [
+     "marketing for universities (590)",
+     "digital marketing for universities (50)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "dealerships",
+    "volume": 620,
+    "examples": [
+     "seo for dealerships (480)",
+     "digital marketing for dealerships (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "auto dealerships",
+    "volume": 620,
+    "examples": [
+     "seo for auto dealerships (480)",
+     "digital marketing for auto dealerships (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "hvac contractors",
+    "volume": 620,
+    "examples": [
+     "seo for hvac contractors (480)",
+     "local seo services for hvac contractors (30)",
+     "local seo for hvac contractors (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "affiliate marketers",
+    "volume": 590,
+    "examples": [
+     "seo for affiliate marketers (590)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "personal injury lawyer",
+    "volume": 590,
+    "examples": [
+     "marketing for personal injury lawyer (590)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "advertisers",
+    "volume": 590,
+    "examples": [
+     "google ads for advertisers (590)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "property managers",
+    "volume": 570,
+    "examples": [
+     "seo for property managers (480)",
+     "digital marketing for property managers (20)",
+     "lead generation for property managers (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "photographer",
+    "volume": 530,
+    "examples": [
+     "seo for photographer (390)",
+     "website design for photographer (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dealership",
+    "volume": 480,
+    "examples": [
+     "seo for dealership (480)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "shopify store",
+    "volume": 460,
+    "examples": [
+     "seo for shopify store (390)",
+     "google ads for shopify store (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "auto repair shops",
+    "volume": 460,
+    "examples": [
+     "seo for auto repair shops (260)",
+     "digital marketing for auto repair shops (40)",
+     "google ads for auto repair shops (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "car dealers",
+    "volume": 440,
+    "examples": [
+     "digital marketing for car dealers (140)",
+     "web design for car dealers (90)",
+     "website design for car dealers (90)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "artists",
+    "volume": 400,
+    "examples": [
+     "digital marketing for artists (20)",
+     "web design for artists (170)",
+     "best web design for artists (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "starters",
+    "volume": 390,
+    "examples": [
+     "web design for starters (390)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "brands",
+    "volume": 390,
+    "examples": [
+     "web design for brands (320)",
+     "best generative engine optimization brands for ai (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "online store",
+    "volume": 370,
+    "examples": [
+     "seo for online store (260)",
+     "web design for online store (40)",
+     "website design for online store (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "home builders",
+    "volume": 370,
+    "examples": [
+     "digital marketing for home builders (50)",
+     "web design for home builders (140)",
+     "website design for home builders (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "veterinarians",
+    "volume": 360,
+    "examples": [
+     "digital marketing for veterinarians (40)",
+     "web design for veterinarians (140)",
+     "website design for veterinarians (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "manufacturers",
+    "volume": 340,
+    "examples": [
+     "digital marketing for manufacturers (140)",
+     "lead generation for manufacturers (110)",
+     "google ads for manufacturers (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "hospital",
+    "volume": 340,
+    "examples": [
+     "digital marketing for hospital (110)",
+     "web design for hospital (70)",
+     "website design for hospital (140)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "spas",
+    "volume": 330,
+    "examples": [
+     "seo for spas (260)",
+     "digital marketing for spas (20)",
+     "web design for spas (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "painters",
+    "volume": 330,
+    "examples": [
+     "digital marketing for painters (260)",
+     "web design for painters (30)",
+     "website design for painters (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "online retailers",
+    "volume": 320,
+    "examples": [
+     "seo for online retailers (320)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "professional firms",
+    "volume": 320,
+    "examples": [
+     "seo for professional services firms (320)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "shopify stores",
+    "volume": 320,
+    "examples": [
+     "seo for shopify stores (320)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "painting contractors",
+    "volume": 320,
+    "examples": [
+     "seo for painting contractors (320)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "physicians",
+    "volume": 320,
+    "examples": [
+     "seo services for physicians (20)",
+     "digital marketing for physicians (140)",
+     "web design for physicians (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "engineers",
+    "volume": 310,
+    "examples": [
+     "digital marketing for engineers (90)",
+     "web design for engineers (110)",
+     "website design for engineers (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "online shop",
+    "volume": 300,
+    "examples": [
+     "seo for online shop (260)",
+     "web design for online shop (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "online stores",
+    "volume": 290,
+    "examples": [
+     "seo for online stores (260)",
+     "google ads for online stores (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "spa",
+    "volume": 280,
+    "examples": [
+     "seo for spa (260)",
+     "digital marketing for spa (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "auto shops",
+    "volume": 260,
+    "examples": [
+     "seo for auto shops (260)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "online shops",
+    "volume": 260,
+    "examples": [
+     "seo for online shops (260)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "landscapers",
+    "volume": 260,
+    "examples": [
+     "digital marketing for landscapers (70)",
+     "web design for landscapers (30)",
+     "website design for landscapers (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "healers",
+    "volume": 260,
+    "examples": [
+     "web design for healers (90)",
+     "website design for healers (170)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "marketing agencies",
+    "volume": 260,
+    "examples": [
+     "lead generation for marketing agencies (260)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "platform marketers",
+    "volume": 260,
+    "examples": [
+     "leading ai search optimization platform for marketers (260)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "tool marketers",
+    "volume": 260,
+    "examples": [
+     "what's the best ai search optimization tool for marketers (260)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "accountant",
+    "volume": 250,
+    "examples": [
+     "seo for accountant (210)",
+     "web design for accountant (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "car dealership",
+    "volume": 230,
+    "examples": [
+     "digital marketing for car dealership (140)",
+     "lead generation for car dealership (50)",
+     "local seo for car dealership (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "architects",
+    "volume": 230,
+    "examples": [
+     "digital marketing for architects (30)",
+     "web design for architects (30)",
+     "website design for architects (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "medical practices",
+    "volume": 220,
+    "examples": [
+     "digital marketing for medical practices (50)",
+     "web design for medical practices (110)",
+     "google ads for medical practices (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "coaches",
+    "volume": 220,
+    "examples": [
+     "digital marketing for coaches (20)",
+     "web design for coaches (90)",
+     "website design for coaches (90)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "family lawyers",
+    "volume": 210,
+    "examples": [
+     "seo for family lawyers (210)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "medical spa",
+    "volume": 210,
+    "examples": [
+     "seo for medical spa (210)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "consultant",
+    "volume": 210,
+    "examples": [
+     "ai seo consultant (210)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "accounting firms",
+    "volume": 200,
+    "examples": [
+     "seo services for accounting firms (20)",
+     "digital marketing for accounting firms (40)",
+     "web design for accounting firms (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "medical practice",
+    "volume": 200,
+    "examples": [
+     "digital marketing for medical practice (50)",
+     "website design for medical practice (110)",
+     "google ads for medical practice (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "vets",
+    "volume": 200,
+    "examples": [
+     "digital marketing for vets (40)",
+     "website design for vets (110)",
+     "google ads for vets (50)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "real estate investors",
+    "volume": 190,
+    "examples": [
+     "seo services for real estate investors (20)",
+     "google ads for real estate investors (140)",
+     "ppc for real estate investors (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "real estate agencies",
+    "volume": 170,
+    "examples": [
+     "digital marketing for real estate agencies (170)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dental practice",
+    "volume": 170,
+    "examples": [
+     "digital marketing for dental practice (30)",
+     "web design for dental practice (70)",
+     "website design for dental practice (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "gym",
+    "volume": 170,
+    "examples": [
+     "digital marketing for gym (30)",
+     "web design for gym (70)",
+     "website design for gym (70)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "recruiters",
+    "volume": 170,
+    "examples": [
+     "web design for recruiters (140)",
+     "lead generation for recruiters (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "gyms",
+    "volume": 160,
+    "examples": [
+     "digital marketing for gyms (30)",
+     "website design for gyms (70)",
+     "google ads for gyms (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "clinics",
+    "volume": 150,
+    "examples": [
+     "digital marketing for clinics (110)",
+     "web design for clinics (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "automotive dealers",
+    "volume": 140,
+    "examples": [
+     "digital marketing for automotive dealers (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "associations",
+    "volume": 140,
+    "examples": [
+     "digital marketing for associations (70)",
+     "website design for associations (70)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "hospitals",
+    "volume": 140,
+    "examples": [
+     "digital marketing for hospitals (70)",
+     "website design for hospitals (70)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "jewelers",
+    "volume": 140,
+    "examples": [
+     "web design for jewelers (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "authors",
+    "volume": 140,
+    "examples": [
+     "web design for authors (70)",
+     "website design for authors (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "accounting firm",
+    "volume": 140,
+    "examples": [
+     "web design for accounting firm (70)",
+     "website design for accounting firm (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "graphic designers",
+    "volume": 140,
+    "examples": [
+     "web design for graphic designers (70)",
+     "website design for graphic designers (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "beauty salon",
+    "volume": 140,
+    "examples": [
+     "web design for beauty salon (70)",
+     "website design for beauty salon (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "medical doctors",
+    "volume": 140,
+    "examples": [
+     "website design for medical doctors (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "homebuilders",
+    "volume": 140,
+    "examples": [
+     "website design for homebuilders (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "builders",
+    "volume": 130,
+    "examples": [
+     "digital marketing for builders (70)",
+     "web design for builders (20)",
+     "website design for builders (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "salons",
+    "volume": 130,
+    "examples": [
+     "digital marketing for salons (30)",
+     "web design for salons (50)",
+     "website design for salons (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "psychologists",
+    "volume": 120,
+    "examples": [
+     "digital marketing for psychologists (20)",
+     "web design for psychologists (50)",
+     "website design for psychologists (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "clinic",
+    "volume": 110,
+    "examples": [
+     "digital marketing for clinic (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "optometrists",
+    "volume": 110,
+    "examples": [
+     "website design for optometrists (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "insurance agencies",
+    "volume": 110,
+    "examples": [
+     "website design for insurance agencies (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "interior designers",
+    "volume": 100,
+    "examples": [
+     "web design for interior designers (50)",
+     "website design for interior designers (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "florists",
+    "volume": 90,
+    "examples": [
+     "website design for florists (90)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "mortgage brokers",
+    "volume": 90,
+    "examples": [
+     "lead generation for mortgage brokers (70)",
+     "google ads for mortgage brokers (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "actors",
+    "volume": 80,
+    "examples": [
+     "web design for actors (40)",
+     "website design for actors (40)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "life coaches",
+    "volume": 80,
+    "examples": [
+     "web design for life coaches (40)",
+     "website design for life coaches (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "personal trainers",
+    "volume": 80,
+    "examples": [
+     "web design for personal trainers (30)",
+     "website design for personal trainers (30)",
+     "lead generation for personal trainers (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "practices",
+    "volume": 80,
+    "examples": [
+     "generative ai seo best practices (20)",
+     "ai seo best practices (20)",
+     "generative engine optimization best practices (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "photoshop",
+    "volume": 70,
+    "examples": [
+     "web design for photoshop (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "counsellors",
+    "volume": 70,
+    "examples": [
+     "web design for counsellors (40)",
+     "website design for counsellors (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "charities",
+    "volume": 70,
+    "examples": [
+     "web design for charities (30)",
+     "website design for charities (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "orthodontists",
+    "volume": 70,
+    "examples": [
+     "local seo for orthodontists (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "architecture firms",
+    "volume": 60,
+    "examples": [
+     "digital marketing for architecture firms (30)",
+     "website design for architecture firms (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "publishers",
+    "volume": 60,
+    "examples": [
+     "digital marketing for publishers (30)",
+     "google ads for publishers (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dental clinics",
+    "volume": 50,
+    "examples": [
+     "digital marketing for dental clinics (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "home remodelers",
+    "volume": 50,
+    "examples": [
+     "digital marketing for home remodelers (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dental clinic",
+    "volume": 50,
+    "examples": [
+     "digital marketing for dental clinic (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "content creators",
+    "volume": 50,
+    "examples": [
+     "digital marketing for content creators (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "home inspectors",
+    "volume": 50,
+    "examples": [
+     "digital marketing for home inspectors (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "brokers",
+    "volume": 50,
+    "examples": [
+     "digital marketing for business brokers (30)",
+     "digital marketing for brokers (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "massage therapist",
+    "volume": 50,
+    "examples": [
+     "web design for massage therapist (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "rehab centers",
+    "volume": 50,
+    "examples": [
+     "local seo for rehab centers (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dermatologists",
+    "volume": 50,
+    "examples": [
+     "local seo for dermatologists (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "criminal defense attorneys",
+    "volume": 40,
+    "examples": [
+     "digital marketing for criminal defense attorneys (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "luxury brands",
+    "volume": 40,
+    "examples": [
+     "digital marketing for luxury brands (20)",
+     "web design for luxury brands (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "med spas",
+    "volume": 40,
+    "examples": [
+     "digital marketing for med spas (20)",
+     "ppc for med spas (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dog breeders",
+    "volume": 40,
+    "examples": [
+     "web design for dog breeders (20)",
+     "website design for dog breeders (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "coffee shop",
+    "volume": 40,
+    "examples": [
+     "website design for coffee shop (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "travel agencies",
+    "volume": 40,
+    "examples": [
+     "website design for travel agencies (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "digital agencies",
+    "volume": 40,
+    "examples": [
+     "lead generation for digital agencies (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "locksmiths",
+    "volume": 40,
+    "examples": [
+     "google ads for locksmiths (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "house cleaners",
+    "volume": 40,
+    "examples": [
+     "local seo for house cleaners (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dental practices",
+    "volume": 30,
+    "examples": [
+     "digital marketing for dental practices (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "salon",
+    "volume": 30,
+    "examples": [
+     "digital marketing for salon (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "property developers",
+    "volume": 30,
+    "examples": [
+     "digital marketing for property developers (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "private schools",
+    "volume": 30,
+    "examples": [
+     "digital marketing for private schools (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "family lawyer",
+    "volume": 30,
+    "examples": [
+     "web design for family lawyer (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "architecture firm",
+    "volume": 30,
+    "examples": [
+     "website design for architecture firm (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dance studios",
+    "volume": 30,
+    "examples": [
+     "website design for dance studios (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "financial planners",
+    "volume": 30,
+    "examples": [
+     "lead generation for financial planners (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "mortgage lenders",
+    "volume": 30,
+    "examples": [
+     "lead generation for mortgage lenders (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "tech startups",
+    "volume": 20,
+    "examples": [
+     "seo services for tech startups (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "politicians",
+    "volume": 20,
+    "examples": [
+     "digital marketing for politicians (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "healthcare providers",
+    "volume": 20,
+    "examples": [
+     "digital marketing for healthcare providers (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "remodeling contractors",
+    "volume": 20,
+    "examples": [
+     "digital marketing for remodeling contractors (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "med spa",
+    "volume": 20,
+    "examples": [
+     "digital marketing for med spa (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "exporters",
+    "volume": 20,
+    "examples": [
+     "digital marketing for exporters (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "roofing contractors",
+    "volume": 20,
+    "examples": [
+     "digital marketing for roofing contractors (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "fashion brands",
+    "volume": 20,
+    "examples": [
+     "digital marketing for fashion brands (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "owners",
+    "volume": 20,
+    "examples": [
+     "digital marketing for small business owners (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "tour operators",
+    "volume": 20,
+    "examples": [
+     "digital marketing for tour operators (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "beauty brands",
+    "volume": 20,
+    "examples": [
+     "digital marketing for beauty brands (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "jewelry stores",
+    "volume": 20,
+    "examples": [
+     "digital marketing for jewelry stores (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "freshers",
+    "volume": 20,
+    "examples": [
+     "jobs in digital marketing for freshers (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "remodelers",
+    "volume": 20,
+    "examples": [
+     "digital marketing for remodelers (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "customers",
+    "volume": 20,
+    "examples": [
+     "benefits of digital marketing for customers (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "government agencies",
+    "volume": 20,
+    "examples": [
+     "web design for government agencies (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "teachers",
+    "volume": 20,
+    "examples": [
+     "web design for teachers (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "clothing store",
+    "volume": 20,
+    "examples": [
+     "website design for clothing store (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "electrical contractors",
+    "volume": 20,
+    "examples": [
+     "website design for electrical contractors (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "digital marketing agencies",
+    "volume": 20,
+    "examples": [
+     "lead generation for digital marketing agencies (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "advertising agencies",
+    "volume": 20,
+    "examples": [
+     "lead generation for advertising agencies (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "advisors",
+    "volume": 20,
+    "examples": [
+     "lead generation for advisors (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "b2b saas",
+    "volume": 20,
+    "examples": [
+     "google ads for b2b saas (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "wedding photographers",
+    "volume": 20,
+    "examples": [
+     "google ads for wedding photographers (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "geo conference",
+    "volume": 20,
+    "examples": [
+     "generative engine optimization geo conference (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "conference",
+    "volume": 20,
+    "examples": [
+     "generative engine optimization conference (20)"
+    ],
+    "covered": false
+   }
+  ],
+  "EN/US · ИИ-фразы": [
+   {
+    "keyword": "surfer seo ai humanizer",
+    "volume": 27100,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai for seo",
+    "volume": 6600,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai and seo",
+    "volume": 6600,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-seo",
+    "volume": 6600,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo",
+    "volume": 6600,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai",
+    "volume": 6600,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai in seo",
+    "volume": 6600,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai search engine optimization",
+    "volume": 6600,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai and search engine optimization",
+    "volume": 6600,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai in search engine optimization",
+    "volume": 6600,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "generative engine optimization",
+    "volume": 4400,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "semrush ai visibility toolkit",
+    "volume": 3600,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "answer engine optimization",
+    "volume": 2400,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "ai seo tool",
+    "volume": 1900,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo courses",
+    "volume": 1900,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tools",
+    "volume": 1900,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo course",
+    "volume": 1900,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai search engine optimization tools",
+    "volume": 1900,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai seo agencies",
+    "volume": 1600,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo agency",
+    "volume": 1600,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is generative engine optimization",
+    "volume": 1600,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "ai visibility tool",
+    "volume": 1600,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "generative engine optimization geo",
+    "volume": 1300,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "ai search visibility tools",
+    "volume": 1300,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search optimization",
+    "volume": 1300,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai seo service",
+    "volume": 1000,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for ai",
+    "volume": 1000,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo tool",
+    "volume": 1000,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo tools",
+    "volume": 1000,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo services",
+    "volume": 1000,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is answer engine optimization",
+    "volume": 1000,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "ai search engine optimization services",
+    "volume": 1000,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai tool for seo",
+    "volume": 880,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative engine optimization tools",
+    "volume": 880,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization tool",
+    "volume": 880,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization aeo",
+    "volume": 880,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "ai visibility",
+    "volume": 880,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tools",
+    "volume": 880,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai seo optimization",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered seo tool",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "semrush ai seo tool",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered seo tools",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai driven seo strategies",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-driven seo strategies",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-powered seo tools",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "geo generative engine optimization",
+    "volume": 720,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization geo services",
+    "volume": 720,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative-engine-optimization-services",
+    "volume": 720,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization services",
+    "volume": 720,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization service",
+    "volume": 720,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "geo: generative engine optimization",
+    "volume": 720,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "llm seo",
+    "volume": 720,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "ai search visibility tool",
+    "volume": 720,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai seo near me",
+    "volume": 590,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo company",
+    "volume": 590,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered seo platform",
+    "volume": 590,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tools for seo",
+    "volume": 590,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo companies",
+    "volume": 590,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-tools-for-seo",
+    "volume": 590,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tool",
+    "volume": 590,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is ai seo",
+    "volume": 590,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "answer engine optimization tool",
+    "volume": 590,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization tools",
+    "volume": 590,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization services",
+    "volume": 590,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "llm seo tools",
+    "volume": 590,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "best ai visibility tool",
+    "volume": 590,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility tools",
+    "volume": 590,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "seo writing ai",
+    "volume": 480,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "chatgpt seo tools",
+    "volume": 480,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "generative engine optimization agency",
+    "volume": 480,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "ai search visibility",
+    "volume": 480,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search optimization services",
+    "volume": 480,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "what is ai search optimization",
+    "volume": 480,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai search optimization tool",
+    "volume": 480,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai search optimization agency",
+    "volume": 480,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai search optimization tools",
+    "volume": 480,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "seo ai tools",
+    "volume": 390,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "chatgpt seo",
+    "volume": 390,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "chatgpt for seo",
+    "volume": 390,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "profound generative engine optimization",
+    "volume": 390,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "ai seo software",
+    "volume": 320,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo agencies",
+    "volume": 320,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai tools for seo",
+    "volume": 320,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai seo tool",
+    "volume": 320,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is seo for ai called",
+    "volume": 320,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is ai seo called",
+    "volume": 320,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for chatgpt",
+    "volume": 320,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "leading software for ai visibility and generative engine optimization",
+    "volume": 320,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "ai tools with best generative engine optimization features",
+    "volume": 320,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best ai tools for generative engine optimization",
+    "volume": 320,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "what is generative engine optimization geo",
+    "volume": 320,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "aeo answer engine optimization",
+    "volume": 320,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization agency",
+    "volume": 320,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization aeo services",
+    "volume": 320,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "semrush ai search visibility checker",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tracking tools",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "semrush ai visibility",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility checker",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tracker",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility platform",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility platforms",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "se ranking ai visibility tracker",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "visibility ai",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tracking",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tracking tool",
+    "volume": 320,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "what is search engine optimization for ai called",
+    "volume": 320,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best ai search optimization historical data software",
+    "volume": 320,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai-based seo tools",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for ai search",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo agents",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai based seo tools",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai seo tools",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo agent",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "semrush ai seo",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo platform",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free seo ai tools",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free seo ai tool",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo platforms",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo agency",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai based seo tool",
+    "volume": 260,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best tools for ai generative engine optimization",
+    "volume": 260,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization geo tools",
+    "volume": 260,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best rated answer engine optimization tools",
+    "volume": 260,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "what is answer engine optimization aeo",
+    "volume": 260,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization aeo tools",
+    "volume": 260,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "top answer engine optimization software",
+    "volume": 260,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "recommendations for answer engine optimization software",
+    "volume": 260,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "what is ai visibility",
+    "volume": 260,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "which platform excels in ai visibility metrics",
+    "volume": 260,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best software for ai visibility in search",
+    "volume": 260,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "recommended tools for accurate data in ai search optimization",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "recommended tools for ai search optimization competitor tracking",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best accurate data platform for ai search optimization",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "which ai search optimization tool is most intuitive",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "leading ai search optimization platform for marketers",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best ai search optimization platform for beginners",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "most reliable ai search optimization tool for data accuracy",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "top user friendly ai search optimization tools",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "what's the best ai search optimization tool for marketers",
+    "volume": 260,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "seo ai agents",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai agent",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo and ai",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai agency",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo expert",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo consultant",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai for seo",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo content generator",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo experts",
+    "volume": 210,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best generative engine optimization tools",
+    "volume": 210,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best generative engine optimization tool",
+    "volume": 210,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization tools",
+    "volume": 210,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "llm seo tool",
+    "volume": 210,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "ai visibility optimization",
+    "volume": 210,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai brand visibility",
+    "volume": 210,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility score",
+    "volume": 210,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "go big ai visibility checker",
+    "volume": 210,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to measure ai search visibility",
+    "volume": 210,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "gobig ai visibility checker",
+    "volume": 210,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai search optimization software for precise data",
+    "volume": 210,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai-powered seo",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered seo",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo with ai",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "google ai overviews seo",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-driven seo",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai tool for seo",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "google ai overview seo",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo optimization tool",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best seo ai tool",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "semrush ai seo toolkit",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best seo ai tools",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai visibility platforms with seo capabilities",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai driven seo",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo analyzer",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo strategy",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "auto seo ai",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai ai content detector",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo writer ai",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo optimization tools",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo strategies",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai visibility solutions with best generative engine optimization",
+    "volume": 170,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization software",
+    "volume": 170,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "recommended generative engine optimization software",
+    "volume": 170,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "how does generative engine optimization work",
+    "volume": 170,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best generative engine optimization tools for ai",
+    "volume": 170,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "llm seo services",
+    "volume": 170,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "best ai optimization tools for visibility",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "what's the best ai optimization tool for visibility",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai brand visibility tool",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility audit",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "most accurate ai visibility metrics software",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best software for ai visibility enhancement",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "amplitude ai visibility",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai brand visibility tools",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "free ai visibility checker",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "free ai visibility check",
+    "volume": 170,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search engine optimization strategies",
+    "volume": 170,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "leading competitor analysis software for ai search optimization",
+    "volume": 170,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "which ai search optimization tool provides the best data accuracy",
+    "volume": 170,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best seo ai",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how to use ai for seo",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "otto seo ai",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai ai detector",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo software",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai tools for seo optimization",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai driven seo tools",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "automated seo ai",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai search seo",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo vs traditional seo",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai driven seo tool",
+    "volume": 140,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "chatgpt seo services",
+    "volume": 140,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "top ai visibility products for generative engine optimization",
+    "volume": 140,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "top solutions for ai visibility and generative engine optimization",
+    "volume": 140,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "what is geo generative engine optimization",
+    "volume": 140,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "most recommended answer engine optimization tools",
+    "volume": 140,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization services",
+    "volume": 140,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "what is aeo answer engine optimization",
+    "volume": 140,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "most popular answer engine optimization tools",
+    "volume": 140,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "profound answer engine optimization",
+    "volume": 140,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "llm seo agency",
+    "volume": 140,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "leading ai visibility metrics platform",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility optimization tools which is the best",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best llm optimization tools for ai visibility",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "which ai tool offers the best visibility optimization",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best rated software for ai visibility",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "top rated ai optimization for visibility solutions",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "top ai visibility tools for optimization",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "profound ai visibility",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best platform for ai visibility metrics",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best llm optimization options for ai visibility tools",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "what is the top ai visibility optimization tool",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility service providers",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "leading ai visibility optimization platforms",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai optimization solutions for visibility",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai tools for optimizing product visibility",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility optimization software available",
+    "volume": 140,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best rated competitor analysis tools for ai search optimization",
+    "volume": 140,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "search engine optimization with ai",
+    "volume": 140,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai search optimization platform",
+    "volume": 140,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "what is ai search optimization called",
+    "volume": 140,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "top ai search optimization tool",
+    "volume": 140,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai seo audit",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best free ai tools for seo",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is the ai version of seo",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "leading ai visibility products with strong seo",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo free",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai seo",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai driven seo software",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai tools for seo optimization",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "surfer seo ai",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best seo for ai visibility products",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "profound ai seo",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is seo for ai",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai tool for seo optimization",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai optimization seo",
+    "volume": 110,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best generative engine optimization company for ai visibility",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "why is generative engine optimization important",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization companies",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "most effective ai visibility tools with generative engine optimization",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "leading generative engine optimization services in ai industry",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization statistics",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best ai visibility products with generative engine optimization",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best practices for generative engine optimization in ai products",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "what's the best generative engine optimization strategy for ai",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization company",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best tools for generative engine optimization",
+    "volume": 110,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best practices for answer engine optimization",
+    "volume": 110,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "top answer engine optimization companies",
+    "volume": 110,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best software for answer engine optimization in ai",
+    "volume": 110,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "ai search optimization startups with top visibility metrics",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "top rated ai visibility optimization software",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "semrush ai visibility index",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search visibility audit",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility agency",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility platforms",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to improve ai search visibility",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai platforms for visibility",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai solutions for visibility optimization",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility solutions available",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best solutions for ai visibility",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility report",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai optimization best practices for visibility products",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "leading ai visibility optimization tools",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "top ai visibility products with optimization features",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility analytics for search optimization",
+    "volume": 110,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best platform for ai search optimization competitor analysis",
+    "volume": 110,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "top historical data providers for ai search optimization",
+    "volume": 110,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "optimization for ai search",
+    "volume": 110,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai search optimization with top historical data",
+    "volume": 110,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai search optimization platforms ranked by ease of use",
+    "volume": 110,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "top rated ai search optimization platforms for data accuracy",
+    "volume": 110,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai overviews optimization",
+    "volume": 110,
+    "seed": "ai overviews optimization"
+   },
+   {
+    "keyword": "geo ai seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best seo strategies for ai visibility tools",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-powered seo services",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered tools for seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai driven seo services",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tools comparison",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tool free",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo tool ai",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai agent for seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai overview seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "top ai seo tools",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo title generator",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo tools ai",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tools for website seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai seo tools",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai optimized seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai agents for seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is ai-generated content good for seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo geo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tools for small business",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tools free",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is ai generated content good for seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for ai is called",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered seo services",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "agencja seo ai",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai overviews seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tutorial",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo optimization ai",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai version of seo",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tools analysis",
+    "volume": 90,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "chatgpt seo tool",
+    "volume": 90,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "generative engine optimization course",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "what's the best generative engine optimization for ai products",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "leading generative engine optimization services for ai products",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization strategy",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization courses",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "top generative engine optimization strategies for ai visibility",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "top generative engine optimization companies in ai",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization strategies",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "how to do generative engine optimization",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "most effective generative engine optimization solutions",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization marketing",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization vs generative engine optimization",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "semrush generative engine optimization",
+    "volume": 90,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "top answer engine optimization services for ai industry",
+    "volume": 90,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "what are the best tools for answer engine optimization",
+    "volume": 90,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization companies",
+    "volume": 90,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best ai platforms for answer engine optimization",
+    "volume": 90,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "what's the best answer engine optimization tool",
+    "volume": 90,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "seo llm",
+    "volume": 90,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "best rated ai visibility products optimization",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to measure ai visibility",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best reviewed ai optimization for visibility",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search visibility strategy",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best rated ai visibility generative optimization",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility tracking tools",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "which ai optimization software improves visibility the most",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai driven visibility optimization services",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility optimization platforms",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "trusted llm optimization for ai visibility enhancement",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility optimization systems",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai search visibility tools",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "profound ai visibility tool",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "free ai visibility tool",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tool free",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "most effective ai visibility optimization software",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai platforms for enhancing visibility",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tool searchable com",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility products with optimization features",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ahrefs ai visibility checker",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "recommended llm optimization for ai visibility",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "semrush ai visibility tool",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai solutions for visibility improvement",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai optimization for visibility best options",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "which ai service offers the best visibility optimization",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "most effective ai optimization for visibility improvements",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility software",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tools searchable.com",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "top ai optimization for visibility enhancement",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai optimization for visibility top choices",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tools free",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai brand visibility checker",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "who offers the best ai visibility platform",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "recommended ai visibility optimization services",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "which ai optimization is best for product visibility",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "world's most renowned ai visibility expert",
+    "volume": 90,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai search optimization system for data accuracy",
+    "volume": 90,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best ai tools for search optimization metrics",
+    "volume": 90,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "top rated ai search optimization using perplexity",
+    "volume": 90,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "use ai for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is the ai equivalent of seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for ai search engines",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai for seo optimization",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "automatic ai seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo marketing",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo content writing",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how to do ai seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo check",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "automated ai seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "most popular ai visibility products for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "will ai replace seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai software for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo optimization ai tool",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "which citation analysis service is best for ai seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-generated seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo content writer",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo keywords",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is ai content bad for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "auto ai seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai tools for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai rank checker",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo tools for small businesses",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo checker",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tracker",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo company coalition",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai seo software",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "perplexity ai seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tool free",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo optimization ai tools",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo but for ai",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "jasper ai seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai writing tools for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tracking",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai generated content seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "using ai for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tool seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "surfer seo ai detector",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is ai content good for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is ai-generated content bad for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai domain authority checker",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tools seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tools free",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is ai generated content bad for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai software",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai tool for seo",
+    "volume": 70,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "chatgpt seo optimization",
+    "volume": 70,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "top rated generative engine optimization for ai",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "what is generative engine optimization and how does it work",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "which generative engine optimization is best for ai",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "top generative engine optimization platforms for ai",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best generative engine optimization brands for ai",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best rated generative engine optimization for ai",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best options for generative engine optimization in ai",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best companies for generative engine optimization in ai",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "top rated generative engine optimization in ai",
+    "volume": 70,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "leading answer engine optimization platforms for ai products",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization in ai industry",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "top rated answer engine optimization service",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "top answer engine optimization options for ai visibility products",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization software tools for boosting ai visibility",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization solutions for ai tech",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "what are the leading answer engine optimization options",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization for ai driven platforms",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best techniques for answer engine optimization in ai",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "top answer engine optimization strategies",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "top answer engine optimization strategies for ai products",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization solutions",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best practices for answer engine optimization in ai industry",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization for enhancing ai visibility",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization for ai focused tech",
+    "volume": 70,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "llm visibility tools seo",
+    "volume": 70,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "llm seo company coalition",
+    "volume": 70,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "what is llm seo",
+    "volume": 70,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "llm for seo",
+    "volume": 70,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "ai visibility monitoring",
+    "volume": 70,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search visibility checker",
+    "volume": 70,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility optimization which is the best",
+    "volume": 70,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to track ai visibility",
+    "volume": 70,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search visibility platform",
+    "volume": 70,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility products with optimized answer engines",
+    "volume": 70,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "which ai optimization service is best for visibility",
+    "volume": 70,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "brand visibility in ai search",
+    "volume": 70,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "premier ai tool for search optimization in marketing",
+    "volume": 70,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best ai marketing platform for search optimization",
+    "volume": 70,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "search engine optimization ai",
+    "volume": 70,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "top service for analyzing citations in ai search optimization",
+    "volume": 70,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best ai seo tools 2025",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tools for seo keyword research",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai content generator seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "jasper ai surfer seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai generator",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai agent seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai and machine learning in seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "top seo ai tools",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for ai overviews",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "super intelligent ai-seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo content",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "mega ai seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo statistics",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tool for seo optimization",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best free ai seo tools",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-generated seo content",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo term",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai content",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo company",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for ai overview",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo terms",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "super intelligent ai seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai software seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tool for seo keyword research",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "google ai seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai optimization",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai agents seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo in the age of ai",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free seo tools ai",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "search atlas ai seo software",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "top ai tools for seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tools for seo optimization",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best free seo ai tools",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai based seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how is ai changing seo",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo writer",
+    "volume": 50,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative engine optimization definition",
+    "volume": 50,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization tutorial",
+    "volume": 50,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "geo generative engine optimization tutorial",
+    "volume": 50,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best generative engine optimization for ai focused businesses",
+    "volume": 50,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative ai search engine optimization",
+    "volume": 50,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative optimization engine",
+    "volume": 50,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "top rated answer engine optimization for ai products",
+    "volume": 50,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best ai visibility solution for answer engine optimization",
+    "volume": 50,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization examples",
+    "volume": 50,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "what is the best software for answer engine optimization",
+    "volume": 50,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "best rated answer engine optimization for ai applications",
+    "volume": 50,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "which service offers the best answer engine optimization",
+    "volume": 50,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "llm txt for seo",
+    "volume": 50,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "llm seo optimization",
+    "volume": 50,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "attorney visibility ai",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "semrush ai visibility checker",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility product reviews",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "what is ai search visibility",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility index",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "semrush ai visibility score",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best ai visibility tracker",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility checker searchable com",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "similarweb ai brand visibility",
+    "volume": 50,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "which ai platform is ideal for search optimization",
+    "volume": 50,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai powered search engine optimization",
+    "volume": 50,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "profound ai search optimization",
+    "volume": 50,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "jasper ai and surfer seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai local seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo app",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai overviews",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai optimization for seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai free",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "alli ai seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo specialist",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how does ai impact seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai blog writer",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tracking tools",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best seo ai tools free",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo content writing ai",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is seo called for ai",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tools in seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo writer",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai optimization vs seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what do you call seo for ai",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai for seo content",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "aeo ai seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo writing ai free",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tool for seo free",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo using ai",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai for seo optimization",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo tools free",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai keyword tool for seo research",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tool for seo analysis",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo optimization free",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "yoast seo ai",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai impact on seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "wordpress seo ai",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo packages",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai keyword rank checker",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo and ai optimization",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo name",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "top ai seo agencies",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai humanizer surfer seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "wp seo ai",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo description generator",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai tools for seo free",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo automation",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ctrify ai seo tool",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "jarvis ai seo",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai writer",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo keyword",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai google website rank checker",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo blog writer",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo vs ai optimization",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "surfer seo ai tracker",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "can chatgpt do seo",
+    "volume": 40,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "can chatgpt help with seo",
+    "volume": 40,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "how to use chatgpt for seo",
+    "volume": 40,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "seo chatgpt",
+    "volume": 40,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "can chatgpt do seo optimization",
+    "volume": 40,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "how to do seo for chatgpt",
+    "volume": 40,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "generative engine optimization how to dominate ai search",
+    "volume": 40,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative ai engine optimization",
+    "volume": 40,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization: how to dominate ai search",
+    "volume": 40,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization best practices",
+    "volume": 40,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative search engine optimization",
+    "volume": 40,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization platform",
+    "volume": 40,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "compare top generative engine optimization platforms for ai visibility",
+    "volume": 40,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization market size",
+    "volume": 40,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "ai answer engine optimization",
+    "volume": 40,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "profound ai answer engine optimization",
+    "volume": 40,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization certification",
+    "volume": 40,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "llm seo checklist",
+    "volume": 40,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "seo for llm",
+    "volume": 40,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "llm seo company",
+    "volume": 40,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "how to improve ai visibility",
+    "volume": 40,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai content visibility checker",
+    "volume": 40,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility check",
+    "volume": 40,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ahrefs ai visibility",
+    "volume": 40,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "generative ai search optimization",
+    "volume": 40,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "geo ai search optimization",
+    "volume": 40,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "search engine optimization using ai",
+    "volume": 40,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best free ai for seo optimization",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how to automate seo with ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo content ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "future of seo with ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-generated content seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai mode",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo writing tool",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai free tool",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "blog seo ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai search impact on seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is the equivalent of seo for ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is the new seo for ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is seo in ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo in ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is seo dead with ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "google seo ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo meaning",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo com's ai overview checker",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo writing",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what do you call ai seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai keyword tool",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo com ai overview checker",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai free tools",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how ai affects seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo vs ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "small seo tool ai detector",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai overviews and seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai overview",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo writing tools",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo tools 2026",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai for seo optimization free",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo content writer ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "learn ai seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai generated seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai in seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for ai agents",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "google ai seo tool",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "jasper ai for seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai for seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai mode seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo called",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "can ai do seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "surfer seo free ai humanizer",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is the future of seo with ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "small seo tools ai detector",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai seo optimization",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai overview and seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo equivalent for ai",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "claude ai seo",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo is called",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo and ai search",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "chatgpt seo agency",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "chatgpt for seo optimization",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "chatgpt seo prompts",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "using chatgpt for seo",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "use chatgpt for seo",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "chatgpt prompts for seo",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "chatgpt prompt for seo",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "chatgpt seo prompt",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "is chatgpt good for seo",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "seo tools for chatgpt",
+    "volume": 30,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "generative engine optimization example",
+    "volume": 30,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization checklist",
+    "volume": 30,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization guide",
+    "volume": 30,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization seo",
+    "volume": 30,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization examples",
+    "volume": 30,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "how to learn generative engine optimization",
+    "volume": 30,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization certification",
+    "volume": 30,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "ai tools for generative engine optimization",
+    "volume": 30,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization course",
+    "volume": 30,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "how to do answer engine optimization",
+    "volume": 30,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "llm optimization seo",
+    "volume": 30,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "llm seo check",
+    "volume": 30,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "llm seo checker",
+    "volume": 30,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "free ai visibility report",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility checker free",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "improve ai search visibility",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search visibility optimization",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility analysis",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "improve ai visibility",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility metrics",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search visibility tracker",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility rank tracker",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to increase ai visibility",
+    "volume": 30,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to compare ai search optimization tools",
+    "volume": 30,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "search engine optimization for ai",
+    "volume": 30,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "what is ai search engine optimization",
+    "volume": 30,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "seo bot ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo content writing free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tools 4 0",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "geo seo ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is the new seo for ai called",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo mastery with caleb ulku",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai reviews",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "nightowl ai seo agent",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo core ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo tools ai free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo audit tool",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "otto ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo jobs",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "which ai is best for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai agents for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai and seo strategy",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai seo best practices",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "using ai for seo optimization",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "using ai in seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "can ai help with seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo tools 2024",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo writing ai pricing",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai serp checker",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is seo ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo agents ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best free ai for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is ai version of seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai visibility seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai video seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo generator free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo optimization for ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo and generative ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai writing seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo copilot",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo for website",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best seo ai writer",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo certification",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo studio ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai seo keyword research tool",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai for seo free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "athena seo ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo llm optimization",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo statistics 2026",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai overview google seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "google ai mode seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo content generator free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tools tutorial",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for google ai mode",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo course",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai impact on seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai writing tools",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered seo agents",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is seo dead because of ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo optimization ai free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo for ecommerce",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "open ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai writer free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo for wordpress",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-generated content for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo wordpress",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo ranking",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "can ai do seo for my website",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how to use ai for seo optimization",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo solutions",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo writing tools",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo audit ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai tools for seo content writing",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how has seo changed with ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai seo content generator",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best seo ai agent",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo for small business",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai generated content for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo optimization software",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai review",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tools 2025",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai content for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how is seo changing with ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo optimizer ai free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo vs ai search optimization",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how does ai seo work",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai generator free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered seo software",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai seo content writer",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how to optimize seo for ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "cluster ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "is seo still relevant with ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is seo but for ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "searchable ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo analysis",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai google rank checker",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "squarespace ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai seo optimization",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "surfer ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai content seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "new seo for ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai humanizer",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free seo ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "geo seo for ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "generative ai and seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo hero ai alt text generator",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "local seo ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo text generator free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "copy ai seo title generator",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "youtube seo ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tools tag generator",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "optimizing seo for ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tools xpath on url",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai powered seo assistant",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for google ai overviews",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo free tools",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tools scale agile solutions",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ranked ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free ai seo for website",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai for seo writing",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo article",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai humanizer seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "will seo be replaced by ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how to use ai for on page seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai generated seo content",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "best ai agent for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is the ai version of seo called",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how to optimize for ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai tools list",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai vs seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai-assisted seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "how ai is changing seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "soro ai powered seo content",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo assistant",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo agency london",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo company india",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo for ai search results",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tools 2022",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo skill",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "soro ai seo reviews",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo agent ai",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "small seo tools ai checker",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo content ai free",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo reddit",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tips",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo checklist",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo training",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo articles",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai detector",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo best practices",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo and ai content",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo services india",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "free seo ai writer",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "can ai replace seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "surfer seo ai content detector",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo for law firms",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai prompts for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "what is the best ai for seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ranking ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo vs ai search",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "chatgpt para seo",
+    "volume": 20,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "how to use chatgpt for seo optimization",
+    "volume": 20,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "chatgpt and seo",
+    "volume": 20,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "chatgpt seo content",
+    "volume": 20,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "is chatgpt bad for seo",
+    "volume": 20,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "can i use chatgpt for seo",
+    "volume": 20,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "seo prompts for chatgpt",
+    "volume": 20,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "how to use chatgpt for seo keyword research",
+    "volume": 20,
+    "seed": "chatgpt seo"
+   },
+   {
+    "keyword": "how does generative ai assist in search engine optimization",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization platforms comparison",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "was ist geo generative engine optimization",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization vs answer engine optimization",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization vs seo",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization jobs",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization geo course",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "compare top generative engine optimization platforms for ai search visibility",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization meaning",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization geo conference",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization course free",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "generative engine optimization conference",
+    "volume": 20,
+    "seed": "generative engine optimization"
+   },
+   {
+    "keyword": "best answer engine optimization services for ai visibility",
+    "volume": 20,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization meaning",
+    "volume": 20,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "answer engine optimization definition",
+    "volume": 20,
+    "seed": "answer engine optimization"
+   },
+   {
+    "keyword": "llm seo meaning",
+    "volume": 20,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "what is llm in seo",
+    "volume": 20,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "best llm for seo",
+    "volume": 20,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "llm in seo",
+    "volume": 20,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "what is llm seo called",
+    "volume": 20,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "llm vs seo",
+    "volume": 20,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "profound llm seo",
+    "volume": 20,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "writesonic ai visibility tool",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "amplitude ai visibility tool",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "gen ai visibility",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility tools searchable com",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility toolkit semrush",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "rankmath ai visibility",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "what strategies improve brand visibility in ai search engines",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "rank math ai visibility",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ahrefs ai visibility tool",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "wix ai visibility overview",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ahrefs free ai visibility checker",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai content visibility checker chrome extension",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility overview",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility dashboard",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility scanner",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility platform searchable com",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai search visibility monitor",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility semrush",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "best answer optimization tools for ai visibility",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility amplitude",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "semrush ai visibility toolkit pricing",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "free ai visibility tracker",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "brand visibility ai",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to check ai visibility",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to track ai search visibility",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai visibility score checker",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "how to increase ai visibility of website",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "semrush ai visibility report",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "hubspot ai visibility",
+    "volume": 20,
+    "seed": "ai visibility"
+   },
+   {
+    "keyword": "ai tools for search engine optimization",
+    "volume": 20,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "what is ai search optimization also known as",
+    "volume": 20,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "google ai search optimization guide",
+    "volume": 20,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai optimization search",
+    "volume": 20,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "best ai content optimization tools for generative search results",
+    "volume": 20,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "google ai search optimization",
+    "volume": 20,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "search ai optimization",
+    "volume": 20,
+    "seed": "ai search optimization"
+   },
+   {
+    "keyword": "ai search optimization course",
+    "volume": 20,
+    "seed": "ai search optimization"
+   }
+  ],
+  "PL/PL": [
+   {
+    "tail": "kraków",
+    "volume": 590,
+    "examples": [
+     "pozycjonowanie strony kraków (590)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "rzeszów",
+    "volume": 480,
+    "examples": [
+     "pozycjonowanie strony rzeszów (480)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "deweloperów",
+    "volume": 260,
+    "examples": [
+     "marketing dla deweloperów (260)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "hotelu",
+    "volume": 160,
+    "examples": [
+     "marketing dla hotelu (110)",
+     "strona internetowa dla hotelu (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "restauracji",
+    "volume": 160,
+    "examples": [
+     "marketing dla restauracji (70)",
+     "strona internetowa dla restauracji (90)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "sklepu",
+    "volume": 140,
+    "examples": [
+     "pozycjonowanie strony sklepu (140)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "hoteli",
+    "volume": 110,
+    "examples": [
+     "marketing dla hoteli (110)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "prawników",
+    "volume": 90,
+    "examples": [
+     "marketing dla prawników (90)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "lekarzy",
+    "volume": 50,
+    "examples": [
+     "marketing dla lekarzy (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "sklepów",
+    "volume": 50,
+    "examples": [
+     "seo dla sklepów (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "dentystów",
+    "volume": 40,
+    "examples": [
+     "marketing dla dentystów (40)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "przedszkola",
+    "volume": 40,
+    "examples": [
+     "strona internetowa dla przedszkola (40)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "architektów",
+    "volume": 30,
+    "examples": [
+     "marketing dla architektów (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "psów",
+    "volume": 30,
+    "examples": [
+     "sklep internetowy dla psów (30)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "kancelarii",
+    "volume": 20,
+    "examples": [
+     "marketing dla kancelarii (20)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "startupów",
+    "volume": 20,
+    "examples": [
+     "marketing dla startupów (20)"
+    ],
+    "covered": false
+   }
+  ],
+  "PL/PL · ИИ-фразы": [
+   {
+    "keyword": "seo ai",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "agencja seo ai",
+    "volume": 170,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "pozycjonowanie w chatgpt",
+    "volume": 170,
+    "seed": "pozycjonowanie w chatgpt"
+   },
+   {
+    "keyword": "llm seo",
+    "volume": 110,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "seo writer ai",
+    "volume": 40,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tools",
+    "volume": 30,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "seo ai checker",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "ai seo tool",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "llm seo agency",
+    "volume": 20,
+    "seed": "llm seo"
+   }
+  ],
+  "RU/PL": [
+   {
+    "tail": "интернет магазина",
+    "volume": 30,
+    "examples": [
+     "поисковое продвижение сайта интернет магазина (10)",
+     "сео продвижение сайта интернет магазина (10)",
+     "продвижение сайта интернет магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "фрилансеров",
+    "volume": 30,
+    "examples": [
+     "сайт для фрилансеров (30)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "магазина",
+    "volume": 20,
+    "examples": [
+     "seo продвижение сайта сайта магазина (0)",
+     "реклама для магазина (10)",
+     "раскрутка сайта магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "начинающих стримеров",
+    "volume": 10,
+    "examples": [
+     "реклама для начинающих стримеров (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "кафе",
+    "volume": 10,
+    "examples": [
+     "реклама для кафе (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "автосервиса",
+    "volume": 10,
+    "examples": [
+     "реклама для автосервиса (10)",
+     "эффективная реклама для автосервиса (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "клиники",
+    "volume": 10,
+    "examples": [
+     "реклама для клиники (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "магазина автозапчастей",
+    "volume": 10,
+    "examples": [
+     "реклама для магазина автозапчастей (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "магазина цветов",
+    "volume": 10,
+    "examples": [
+     "реклама для магазина цветов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "ресторана",
+    "volume": 10,
+    "examples": [
+     "реклама для ресторана (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "салона",
+    "volume": 10,
+    "examples": [
+     "реклама для салона (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "сервисного центра",
+    "volume": 10,
+    "examples": [
+     "реклама для сервисного центра (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "стримеров",
+    "volume": 10,
+    "examples": [
+     "реклама для стримеров (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "турагентства",
+    "volume": 10,
+    "examples": [
+     "реклама для турагентства (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "фотостудии",
+    "volume": 10,
+    "examples": [
+     "реклама для фотостудии (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "цветочного магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для цветочного магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "привлечения клиентов",
+    "volume": 10,
+    "examples": [
+     "самая эффективная реклама для привлечения клиентов (10)",
+     "реклама для привлечения клиентов (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "создания сайтов",
+    "volume": 10,
+    "examples": [
+     "сайт для создания сайтов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "фотографов",
+    "volume": 10,
+    "examples": [
+     "сайт для фотографов (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "веб дизайнеров",
+    "volume": 10,
+    "examples": [
+     "сайт для веб дизайнеров (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "графических дизайнеров",
+    "volume": 10,
+    "examples": [
+     "сайт для графических дизайнеров (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "дизайнеров",
+    "volume": 10,
+    "examples": [
+     "сайт для дизайнеров (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "подбора цветов",
+    "volume": 10,
+    "examples": [
+     "сайт для подбора цветов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "школы",
+    "volume": 10,
+    "examples": [
+     "сайт для школы (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "чайников",
+    "volume": 10,
+    "examples": [
+     "контекстная реклама для чайников (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "гарантией",
+    "volume": 0,
+    "examples": [
+     "seo продвижение сайта с гарантией (0)",
+     "продвижение сайта с гарантией (0)",
+     "раскрутка сайта с гарантией (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "веб студии",
+    "volume": 0,
+    "examples": [
+     "заказать продвижение сайта в веб студии (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "границей",
+    "volume": 0,
+    "examples": [
+     "продвижение сайта за границей (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "продвижение сайтов",
+    "volume": 0,
+    "examples": [
+     "продвижение сайта продвижение сайтов (0)",
+     "раскрутка сайта продвижение сайтов (0)",
+     "раскрутка сайта цена продвижение сайтов (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "рекламного агентства",
+    "volume": 0,
+    "examples": [
+     "продвижение сайта рекламного агентства (0)",
+     "реклама для рекламного агентства (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "маркетплейсов",
+    "volume": 0,
+    "examples": [
+     "контекстная реклама для маркетплейсов (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "автомагазина",
+    "volume": 0,
+    "examples": [
+     "реклама для автомагазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "зоомагазина",
+    "volume": 0,
+    "examples": [
+     "реклама для зоомагазина (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "инвесторов",
+    "volume": 0,
+    "examples": [
+     "реклама для инвесторов (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "инстаграм магазина",
+    "volume": 0,
+    "examples": [
+     "реклама для инстаграм магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "магазина подарков",
+    "volume": 0,
+    "examples": [
+     "реклама для магазина подарков (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "магазина продуктов",
+    "volume": 0,
+    "examples": [
+     "реклама для магазина продуктов (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "маникюрного салона",
+    "volume": 0,
+    "examples": [
+     "реклама для маникюрного салона (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "мебельного магазина",
+    "volume": 0,
+    "examples": [
+     "реклама для мебельного магазина (0)",
+     "эффективная реклама для мебельного магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "ногтевого сервиса",
+    "volume": 0,
+    "examples": [
+     "реклама для ногтевого сервиса (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "образовательного центра",
+    "volume": 0,
+    "examples": [
+     "реклама для образовательного центра (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "овощного магазина",
+    "volume": 0,
+    "examples": [
+     "реклама для овощного магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "оптовиков",
+    "volume": 0,
+    "examples": [
+     "реклама для оптовиков (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "открытия магазина",
+    "volume": 0,
+    "examples": [
+     "реклама для открытия магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "привлечения туристов",
+    "volume": 0,
+    "examples": [
+     "реклама для привлечения туристов (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "продуктового магазина",
+    "volume": 0,
+    "examples": [
+     "реклама для продуктового магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "рыбного магазина",
+    "volume": 0,
+    "examples": [
+     "реклама для рыбного магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "соц сетей",
+    "volume": 0,
+    "examples": [
+     "реклама для соц сетей (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "строительного магазина",
+    "volume": 0,
+    "examples": [
+     "реклама для строительного магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "танцевальной студии",
+    "volume": 0,
+    "examples": [
+     "реклама для танцевальной студии (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "туристического агентства",
+    "volume": 0,
+    "examples": [
+     "реклама для туристического агентства (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "туристов",
+    "volume": 0,
+    "examples": [
+     "реклама для туристов (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "цветов",
+    "volume": 0,
+    "examples": [
+     "реклама для цветов (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "ювелирного магазина",
+    "volume": 0,
+    "examples": [
+     "реклама для ювелирного магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "создание интернет магазина",
+    "volume": 0,
+    "examples": [
+     "раскрутка сайта создание интернет магазина (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "создания буклетов",
+    "volume": 0,
+    "examples": [
+     "сайт для создания буклетов (0)"
+    ],
+    "covered": true
+   }
+  ],
+  "RU/PL · ИИ-фразы": [
+   {
+    "keyword": "ai seo",
+    "volume": 720,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "llm seo",
+    "volume": 110,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "продвижение в нейросетях",
+    "volume": 10,
+    "seed": "продвижение в нейросетях"
+   },
+   {
+    "keyword": "продвижение в chatgpt",
+    "volume": 0,
+    "seed": "продвижение в chatgpt"
+   },
+   {
+    "keyword": "видимость в нейросетях",
+    "volume": 0,
+    "seed": "видимость в нейросетях"
+   },
+   {
+    "keyword": "оптимизация под ии",
+    "volume": 0,
+    "seed": "оптимизация под ии"
+   },
+   {
+    "keyword": "комбинаторная оптимизация теория и алгоритмы",
+    "volume": 0,
+    "seed": "оптимизация под ии"
+   }
+  ],
+  "RU/KZ": [
+   {
+    "tail": "фрилансеров",
+    "volume": 90,
+    "examples": [
+     "сайт для фрилансеров (90)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "интернет магазина",
+    "volume": 70,
+    "examples": [
+     "поисковое продвижение сайта интернет магазина (10)",
+     "продвижение сайта интернет магазина (10)",
+     "продвижение сайта интернет магазина цена (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "сервисного центра",
+    "volume": 70,
+    "examples": [
+     "реклама для сервисного центра (70)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "магазина",
+    "volume": 50,
+    "examples": [
+     "seo продвижение сайта сайта магазина (10)",
+     "реклама для магазина (30)",
+     "раскрутка сайта магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "создания сайтов",
+    "volume": 50,
+    "examples": [
+     "сайт для создания сайтов (50)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "продвижение сайтов",
+    "volume": 30,
+    "examples": [
+     "продвижение сайта продвижение сайтов (10)",
+     "раскрутка сайта продвижение сайтов (10)",
+     "раскрутка сайта цена продвижение сайтов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "дизайнеров",
+    "volume": 30,
+    "examples": [
+     "сайт для дизайнеров (30)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "рекламного агентства",
+    "volume": 20,
+    "examples": [
+     "продвижение сайта рекламного агентства (10)",
+     "реклама для рекламного агентства (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "привлечения клиентов",
+    "volume": 20,
+    "examples": [
+     "реклама для привлечения клиентов (10)",
+     "самая эффективная реклама для привлечения клиентов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "мебельного магазина",
+    "volume": 20,
+    "examples": [
+     "реклама для мебельного магазина (10)",
+     "эффективная реклама для мебельного магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "фотографов",
+    "volume": 20,
+    "examples": [
+     "сайт для фотографов (20)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "веб студии",
+    "volume": 10,
+    "examples": [
+     "заказать продвижение сайта в веб студии (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "гарантией",
+    "volume": 10,
+    "examples": [
+     "seo продвижение сайта с гарантией (0)",
+     "продвижение сайта с гарантией (0)",
+     "раскрутка сайта с гарантией (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "начинающих стримеров",
+    "volume": 10,
+    "examples": [
+     "реклама для начинающих стримеров (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "кафе",
+    "volume": 10,
+    "examples": [
+     "реклама для кафе (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "автомагазина",
+    "volume": 10,
+    "examples": [
+     "реклама для автомагазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "автосервиса",
+    "volume": 10,
+    "examples": [
+     "реклама для автосервиса (10)",
+     "эффективная реклама для автосервиса (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "зоомагазина",
+    "volume": 10,
+    "examples": [
+     "реклама для зоомагазина (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "инстаграм магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для инстаграм магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "клиники",
+    "volume": 10,
+    "examples": [
+     "реклама для клиники (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "магазина автозапчастей",
+    "volume": 10,
+    "examples": [
+     "реклама для магазина автозапчастей (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "магазина продуктов",
+    "volume": 10,
+    "examples": [
+     "реклама для магазина продуктов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "магазина цветов",
+    "volume": 10,
+    "examples": [
+     "реклама для магазина цветов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "маникюрного салона",
+    "volume": 10,
+    "examples": [
+     "реклама для маникюрного салона (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "образовательного центра",
+    "volume": 10,
+    "examples": [
+     "реклама для образовательного центра (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "овощного магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для овощного магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "оптовиков",
+    "volume": 10,
+    "examples": [
+     "реклама для оптовиков (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "открытия магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для открытия магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "привлечения туристов",
+    "volume": 10,
+    "examples": [
+     "реклама для привлечения туристов (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "продуктового магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для продуктового магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "ресторана",
+    "volume": 10,
+    "examples": [
+     "реклама для ресторана (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "рыбного магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для рыбного магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "салона",
+    "volume": 10,
+    "examples": [
+     "реклама для салона (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "стримеров",
+    "volume": 10,
+    "examples": [
+     "реклама для стримеров (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "строительного магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для строительного магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "танцевальной студии",
+    "volume": 10,
+    "examples": [
+     "реклама для танцевальной студии (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "турагентства",
+    "volume": 10,
+    "examples": [
+     "реклама для турагентства (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "туристического агентства",
+    "volume": 10,
+    "examples": [
+     "реклама для туристического агентства (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "туристов",
+    "volume": 10,
+    "examples": [
+     "реклама для туристов (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "фотостудии",
+    "volume": 10,
+    "examples": [
+     "реклама для фотостудии (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "цветов",
+    "volume": 10,
+    "examples": [
+     "реклама для цветов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "цветочного магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для цветочного магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "ювелирного магазина",
+    "volume": 10,
+    "examples": [
+     "реклама для ювелирного магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "создание интернет магазина",
+    "volume": 10,
+    "examples": [
+     "раскрутка сайта создание интернет магазина (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "веб дизайнеров",
+    "volume": 10,
+    "examples": [
+     "сайт для веб дизайнеров (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "графических дизайнеров",
+    "volume": 10,
+    "examples": [
+     "сайт для графических дизайнеров (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "подбора цветов",
+    "volume": 10,
+    "examples": [
+     "сайт для подбора цветов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "создания буклетов",
+    "volume": 10,
+    "examples": [
+     "сайт для создания буклетов (10)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "школы",
+    "volume": 10,
+    "examples": [
+     "сайт для школы (10)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "границей",
+    "volume": 0,
+    "examples": [
+     "продвижение сайта за границей (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "маркетплейсов",
+    "volume": 0,
+    "examples": [
+     "контекстная реклама для маркетплейсов (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "инвесторов",
+    "volume": 0,
+    "examples": [
+     "реклама для инвесторов (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "магазина подарков",
+    "volume": 0,
+    "examples": [
+     "реклама для магазина подарков (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "ногтевого сервиса",
+    "volume": 0,
+    "examples": [
+     "реклама для ногтевого сервиса (0)"
+    ],
+    "covered": true
+   },
+   {
+    "tail": "соц сетей",
+    "volume": 0,
+    "examples": [
+     "реклама для соц сетей (0)"
+    ],
+    "covered": false
+   },
+   {
+    "tail": "чайников",
+    "volume": 0,
+    "examples": [
+     "контекстная реклама для чайников (0)"
+    ],
+    "covered": false
+   }
+  ],
+  "RU/KZ · ИИ-фразы": [
+   {
+    "keyword": "ai seo",
+    "volume": 20,
+    "seed": "ai seo"
+   },
+   {
+    "keyword": "продвижение в нейросетях",
+    "volume": 10,
+    "seed": "продвижение в нейросетях"
+   },
+   {
+    "keyword": "llm seo",
+    "volume": 10,
+    "seed": "llm seo"
+   },
+   {
+    "keyword": "продвижение в chatgpt",
+    "volume": 0,
+    "seed": "продвижение в chatgpt"
+   },
+   {
+    "keyword": "видимость в нейросетях",
+    "volume": 0,
+    "seed": "видимость в нейросетях"
+   },
+   {
+    "keyword": "оптимизация под ии",
+    "volume": 0,
+    "seed": "оптимизация под ии"
+   },
+   {
+    "keyword": "комбинаторная оптимизация теория и алгоритмы",
+    "volume": 0,
+    "seed": "оптимизация под ии"
+   }
+  ]
+ }
+}

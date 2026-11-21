@@ -30,11 +30,11 @@ export const localSeoForDentistsEn = {
   seo: {
     metaTitle: "Dentist Local SEO: Maps, Reviews and Listings",
     metaDescription:
-      "Local SEO for dentists: Google Business Profile, emergency hours, patient reviews answered without revealing patient details, ZocDoc listings. Audit from 250 €.",
+      "Local SEO for dentists: Google Business Profile, emergency hours, reviews answered without patient details, ZocDoc, AI answers. Audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Google Maps for dental practices", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Google Maps for dental practices", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Dentist · Open today", "Emergency dental service", "Reviews from patients", "Book online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Local SEO audit for a dental practice: Google Business Profile, listings, office pages", price: 250, currency: "EUR", unit: "one-off" },
@@ -97,7 +97,7 @@ export const localSeoForDentistsEn = {
       content: [
         p("I do local SEO for dentists: the work on the Google Business Profile, patient reviews and dental listings that decides whether your practice is one of the three offices on the map when someone nearby searches for a dentist. Patients choose a dentist near home or work, open when it suits them and in their insurance network, and the map shows all of that before your website is opened."),
 
-        h2("What local SEO for dentists covers, and what stays on the website"),
+        h2("Local SEO for dentists: what it covers, and what stays on the website"),
         p("A search such as “dentist near me”, “emergency dentist” or “pediatric dentist [town]” shows a map with three practices, a rating, opening hours and a call button. Local dentist SEO is the work on that map: the profile, the reviews, the listings on other sites and the office pages that support them. Google ranks practices there on three things:"),
         li("relevance — how well the profile’s categories and services match the search"),
         li("distance — how close the office is to the person searching"),
@@ -214,6 +214,7 @@ export const localSeoForDentistsEn = {
           ["Can a dentist rank on Google Maps in a town without an office?", "On the map, rarely: Google ranks the office from its real address and distance counts. Patients from neighboring towns can still find you through searches with the town name, an office page that names the area, and listings on Healthgrades and ZocDoc."],
           ["How should a dentist reply to a negative review?", "Briefly, and in a way that neither confirms the person was seen at the practice nor names a procedure. Describe the practice’s general policy and invite the person to call the office. In the US this matters under HIPAA; elsewhere data protection law raises the same concern. Check your reply policy with your compliance adviser."],
           ["Should each dentist in our practice have a Google profile?", "Google allows profiles for individual practitioners, but for most general practices the office profile should carry the weight. Practitioner profiles make sense for a well-known specialist and need the same upkeep, or they compete with the office profile."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: treatments, hours and locations named in text with prices, each dentist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Do you do local SEO for dentists outside Poland?", "Yes. Local SEO is done remotely — the profile, listings for your country, the review routine and reporting — for practices in the US, Canada, the UK, Australia and the EU. I work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

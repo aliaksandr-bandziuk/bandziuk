@@ -169,7 +169,7 @@ export const authorWebsiteDesignPl = {
         ),
 
         h2("Strona pisarza, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Coraz więcej czytelników zamiast w wyszukiwarkę wpisuje pytania w ChatGPT, Perplexity lub Google z podsumowaniem AI, na przykład: „polski kryminał retro, pierwszy tom cyklu” albo „w jakiej kolejności czytać sagę o Wrzosowisku”. Asystent poleca tylko tych autorów, o których może coś przeczytać. Na stronie nazwisko, pseudonimy, gatunki, cykle i kolejność tomów stoją więc jako zwykły tekst, a w kodzie dane strukturalne oznaczają autora, każdą książkę z numerem ISBN i formatami oraz każdy cykl."),
+        p("Coraz więcej czytelników zamiast w wyszukiwarkę wpisuje pytania w ChatGPT, Perplexity lub Google z podsumowaniem AI, na przykład: „polski kryminał retro, pierwszy tom cyklu” albo „w jakiej kolejności czytać sagę o Wrzosowisku”. Asystent poleca tylko tych autorów, o których może coś przeczytać. Na stronie nazwisko, pseudonimy, gatunki, cykle i kolejność tomów stoją więc jako zwykły tekst, a w kodzie dane strukturalne oznaczają autora, każdą książkę z numerem ISBN i formatami oraz każdy cykl. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "To podstawa; żeby asystenci rzeczywiście wymieniali Twoje tytuły, trzeba nad tym dalej pracować — więcej na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

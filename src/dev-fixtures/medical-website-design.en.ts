@@ -160,7 +160,7 @@ export const medicalWebsiteDesignEn = {
         p("I have built a medical system that handled patient data, under NDA, so I cannot name it. The rule I carry from that work into every medical website: collect as little health information on the site as the task allows."),
 
         h2("A medical website that ChatGPT and Google AI Overviews can read"),
-        p("Patients increasingly ask ChatGPT, Perplexity or Google’s AI Overviews which doctor nearby treats a condition, takes their insurance or speaks their language. Assistants answer from what they can read and check. The design keeps those facts in text and in structured data: doctors with their specialties and credentials, services, locations, hours, insurance plans and languages — matching your Google Business Profile and directories such as Healthgrades or Vitals."),
+        p("Patients increasingly ask ChatGPT, Perplexity or Google’s AI Overviews which doctor nearby treats a condition, takes their insurance or speaks their language. Assistants answer from what they can read and check. The design keeps those facts in text and in structured data: doctors with their specialties and credentials, services, locations, hours, insurance plans and languages — matching your Google Business Profile and directories such as Healthgrades or Vitals. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting a practice into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

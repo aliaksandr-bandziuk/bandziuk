@@ -191,7 +191,7 @@ export const wordpressDevelopmentServicesEn = {
         ),
 
         h2("A WordPress website that ChatGPT and Google AI Overviews can read"),
-        p("ChatGPT, Perplexity and Google AI Overviews now answer questions that used to send people to search results, and they recommend companies they can read and check. WordPress sites often hide facts inside sliders, images and builder markup. I build them so the important facts — services, prices, areas, languages, contact details — are plain HTML text, with structured data for the business, its services, FAQs and articles."),
+        p("ChatGPT, Perplexity and Google AI Overviews now answer questions that used to send people to search results, and they recommend companies they can read and check. WordPress sites often hide facts inside sliders, images and builder markup. I build them so the important facts — services, prices, areas, languages, contact details — are plain HTML text, with structured data for the business, its services, FAQs and articles. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p("The robots.txt file is set deliberately: search crawlers such as OAI-SearchBot and PerplexityBot are allowed in, and you decide separately whether training crawlers like GPTBot and Google-Extended may use your content. Blocking Google-Extended does not remove a site from AI Overviews, which rely on the normal Googlebot."),
         p(
           "Getting mentioned in AI answers is ongoing work, described on the ",

@@ -131,7 +131,7 @@ export const landSurveyorWebsiteEn = {
         p("The fix is ordinary engineering: correct image formats and sizes, nothing loaded that is not on the screen, PDFs linked rather than embedded. It is also the cheapest part of the build."),
 
         h2("AI SEO built into the site: ChatGPT, Perplexity, Gemini and AI Overviews"),
-        p("Your buyer asks an assistant which survey they need before they open a search engine."),
+        p("Your buyer asks an assistant which survey they need before they open a search engine. Being present in what assistants answer has two names: generative engine optimization (GEO) and answer engine optimization (AEO)."),
         p("The assistant reads text. It cannot read a scanned PDF, and it will not quote a page that commits to nothing."),
         p("So the build puts the explanations in text, adds structured data for the firm and its services, states turnaround and coverage as facts, and keeps the name, licence and phone identical everywhere. That is what gets a firm named in an answer."),
         p(

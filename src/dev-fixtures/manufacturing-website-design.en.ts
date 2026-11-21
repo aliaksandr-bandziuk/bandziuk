@@ -176,7 +176,7 @@ export const manufacturingWebsiteDesignEn = {
         ),
 
         h2("A manufacturing website that ChatGPT and Google AI Overviews can read"),
-        p("Engineers and procurement teams ask ChatGPT, Perplexity and Google’s AI Overviews for supplier lists. Assistants can only repeat what they can read. A design that keeps capabilities in banner images, certificates as logos and the equipment list in a PDF hides exactly the facts they look for. The same facts as page text, with structured data for the company and its locations, stay visible."),
+        p("Engineers and procurement teams ask ChatGPT, Perplexity and Google’s AI Overviews for supplier lists. Assistants can only repeat what they can read. A design that keeps capabilities in banner images, certificates as logos and the equipment list in a PDF hides exactly the facts they look for. The same facts as page text, with structured data for the company and its locations, stay visible. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting onto those lists is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

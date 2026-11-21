@@ -44,7 +44,7 @@ export const seoForDermatologistsRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Заболевания, родинки, карты", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Заболевания, родинки, карты", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Дерматолог в Алматы", "Проверить родинки", "Записаться в WhatsApp", "Советует ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит дерматологической клиники: сайт, карточки в Google и 2GIS, ответы нейросетей", price: 250, currency: "EUR", unit: "one-off" },

@@ -182,7 +182,7 @@ export const nextjsDevelopmentServicesEn = {
         ),
 
         h2("A Next.js website that ChatGPT and Google AI Overviews can read"),
-        p("AI assistants and their crawlers read HTML, and many of them do not run JavaScript. A site that assembles its text in the browser can look almost empty to them. A Next.js site rendered on the server or at build time hands over the full text of each page in the first response."),
+        p("AI assistants and their crawlers read HTML, and many of them do not run JavaScript. A site that assembles its text in the browser can look almost empty to them. A Next.js site rendered on the server or at build time hands over the full text of each page in the first response. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         li("server-rendered HTML with real headings, lists and tables that a crawler parses without executing scripts"),
         li("structured data that names the business, its services and the authors of its articles"),
         li("robots.txt rules written explicitly for GPTBot, OAI-SearchBot, PerplexityBot and Google-Extended, so you decide which bots may read and which may use content for training"),

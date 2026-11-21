@@ -170,7 +170,7 @@ export const pressureWashingWebsiteDesignEn = {
         ),
 
         h2("A pressure washing website that ChatGPT and Google AI Overviews can read"),
-        p("People also ask ChatGPT, Perplexity or Google’s AI Overviews whether roof soft washing is safe, how often to clean siding, or who does it nearby. Assistants answer from text they can read. Surfaces, methods, the area you cover and your insurance written as text, with structured data for the business and each service, give them something to quote; a price list set inside a photo gives them nothing."),
+        p("People also ask ChatGPT, Perplexity or Google’s AI Overviews whether roof soft washing is safe, how often to clean siding, or who does it nearby. Assistants answer from text they can read. Surfaces, methods, the area you cover and your insurance written as text, with structured data for the business and each service, give them something to quote; a price list set inside a photo gives them nothing. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Getting your business named there is its own line of work — more on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

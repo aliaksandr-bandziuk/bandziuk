@@ -182,7 +182,7 @@ export const conversionRateOptimizationServicesEn = {
         ),
 
         h2("CRO for visitors who come from ChatGPT and Google AI Overviews"),
-        p("Visitors who arrive from ChatGPT, Perplexity or a link in Google AI Overviews rarely see your homepage. The assistant sends them to the page it quoted: a service page, a price list, a blog post from two years ago. They come with part of their question already answered and a specific reason to click. So every page that can be cited has to work as a first page: who you are, what you offer, the price level and the next step, without assuming the visitor has seen anything else on the site."),
+        p("Visitors who arrive from ChatGPT, Perplexity or a link in Google AI Overviews rarely see your homepage. The assistant sends them to the page it quoted: a service page, a price list, a blog post from two years ago. They come with part of their question already answered and a specific reason to click. So every page that can be cited has to work as a first page: who you are, what you offer, the price level and the next step, without assuming the visitor has seen anything else on the site. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "In analytics I separate this traffic — ChatGPT adds utm_source=chatgpt.com to its links, and other assistants show up as referrers — so you can compare how these visitors convert against search and ads. Giuseppe, a psychotherapist in Milan whose site I rebuilt, found me through ChatGPT. Getting cited at all is the work described on ",
           link("AI-ready SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

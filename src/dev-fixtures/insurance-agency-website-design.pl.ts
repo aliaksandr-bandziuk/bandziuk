@@ -154,7 +154,7 @@ export const insuranceAgencyWebsiteDesignPl = {
         ),
 
         h2("Strona agenta ubezpieczeniowego, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Klienci pytają ChatGPT, Perplexity albo podsumowania AI w Google: „multiagencja w Gdyni, która ubezpiecza firmy transportowe”, „agent ubezpieczeniowy w Poznaniu mówiący po ukraińsku”. Ubezpieczenia to dla Google tematy YMYL („Your Money or Your Life”), oceniane ostrzej pod kątem wiarygodności, a asystenci AI opierają się na tych samych sygnałach. Dlatego produkty, towarzystwa, miasta, godziny, języki i dane z rejestru są zapisane tekstem, a nie na grafikach, dane strukturalne opisują agencję i biura tak samo jak wizytówka Google, a poradniki mają autora i datę aktualizacji."),
+        p("Klienci pytają ChatGPT, Perplexity albo podsumowania AI w Google: „multiagencja w Gdyni, która ubezpiecza firmy transportowe”, „agent ubezpieczeniowy w Poznaniu mówiący po ukraińsku”. Ubezpieczenia to dla Google tematy YMYL („Your Money or Your Life”), oceniane ostrzej pod kątem wiarygodności, a asystenci AI opierają się na tych samych sygnałach. Dlatego produkty, towarzystwa, miasta, godziny, języki i dane z rejestru są zapisane tekstem, a nie na grafikach, dane strukturalne opisują agencję i biura tak samo jak wizytówka Google, a poradniki mają autora i datę aktualizacji. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "Widoczność w odpowiedziach asystentów to dalsza praca, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

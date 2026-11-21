@@ -161,7 +161,7 @@ export const floristWebsiteDesignEn = {
         ),
 
         h2("A florist website that ChatGPT and Google AI Overviews can read"),
-        p("When someone asks ChatGPT or Google’s AI Overviews which florist nearby delivers on Sunday or has wedding packages within a budget, the assistant answers from what it can parse on your pages. So delivery areas, fees, cutoff times, hours, product names and prices are written into the HTML as text — not baked into banners or hidden in the cart script — and the shop and its products get Florist and Product structured data. Giuseppe’s site in Milan is built on the same rules, and ChatGPT already cites its new pages."),
+        p("When someone asks ChatGPT, Perplexity, Gemini or Google’s AI Overviews which florist nearby delivers on Sunday or has wedding packages within a budget, the assistant answers from what it can parse on your pages. So delivery areas, fees, cutoff times, hours, product names and prices are written into the HTML as text — not baked into banners or hidden in the cart script — and the shop and its products get Florist and Product structured data. Giuseppe’s site in Milan is built on the same rules, and ChatGPT already cites its new pages. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "How I keep a business in those answers over time is on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

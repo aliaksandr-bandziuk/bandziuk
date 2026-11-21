@@ -101,7 +101,7 @@ export const seoForTherapistsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Pozycjonowanie strony psychologa robię sam: od analizy fraz, przez podstrony o problemach i nurtach terapii, po wizytówkę Google i widoczność w ChatGPT. Pracuję z psychologami, psychoterapeutami i gabinetami psychologicznymi z kilkoma terapeutami w całej Polsce, a także z osobami prowadzącymi terapię online dla Polaków mieszkających za granicą."),
+        p("Pozycjonowanie strony psychologa robię sam: od analizy fraz, przez podstrony o problemach i nurtach terapii, po wizytówkę Google i widoczność w ChatGPT, Perplexity i Gemini. Pracuję z psychologami, psychoterapeutami i gabinetami psychologicznymi z kilkoma terapeutami w całej Polsce, a także z osobami prowadzącymi terapię online dla Polaków mieszkających za granicą."),
 
         h2("Na czym polega pozycjonowanie strony psychologa"),
         p("Osoba, która szuka psychologa, rzadko wpisuje jedno słowo. Pisze o tym, co ją boli, i dodaje miejsce albo formę spotkań: „psychoterapeuta od lęku Kraków”, „terapia par Wrocław”, „psycholog Mokotów”, „psycholog online po polsku”. Często szuka długo i wraca do kilku stron, zanim napisze. Pozycjonowanie gabinetu psychologicznego polega na tym, żeby na każde takie wyszukiwanie istniała u Ciebie jedna rzeczowa odpowiedź."),

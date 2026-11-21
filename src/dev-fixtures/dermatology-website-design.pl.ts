@@ -44,11 +44,11 @@ export const dermatologyWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona gabinetu dermatologicznego: wizyty i cennik",
     metaDescription:
-      "Strona dla gabinetu dermatologicznego: leczenie i dermatologia estetyczna osobno, zapisy według rodzaju wizyty, ZnanyLekarz, zgodność z RODO. Od 3000 zł.",
+      "Strona dla gabinetu dermatologicznego: leczenie i dermatologia estetyczna osobno, zapisy według wizyty, ZnanyLekarz, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Leczenie i estetyka osobno"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Badanie znamion", "Dermatolog prywatnie", "Konsultacja estetyczna", "Zapis przez ZnanyLekarz"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla gabinetu dermatologicznego, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -196,7 +196,7 @@ export const dermatologyWebsiteDesignPl = {
         ),
 
         h2("Strona gabinetu dermatologicznego, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Pacjenci pytają ChatGPT, Perplexity i podsumowania AI w Google na przykład: „który dermatolog w Toruniu przyjmuje prywatnie dzieci” albo „gdzie w Katowicach usunąć znamię z badaniem histopatologicznym”. Asystent wymienia tylko gabinety, o których potrafi przeczytać fakty i porównać je z innymi źródłami. Dlatego choroby, rodzaje wizyt, lekarze z dokładnymi tytułami, adres, godziny, języki i ceny są na stronie tekstem, zgodnym z wizytówką Google i profilem w ZnanyLekarz. Dane strukturalne opisują gabinet i każdego lekarza, a podstrony chorób mają w kodzie nazwisko lekarza sprawdzającego i datę. Plik robots.txt zawiera jawne zasady dla robotów AI, tak jak na stronie Giuseppe, psychoterapeuty z Mediolanu, którego nowe podstrony pojawiają się już w odpowiedziach ChatGPT."),
+        p("Pacjenci pytają ChatGPT, Perplexity, Gemini i podsumowania AI w Google na przykład: „który dermatolog w Toruniu przyjmuje prywatnie dzieci” albo „gdzie w Katowicach usunąć znamię z badaniem histopatologicznym”. Asystent wymienia tylko gabinety, o których potrafi przeczytać fakty i porównać je z innymi źródłami. Dlatego choroby, rodzaje wizyt, lekarze z dokładnymi tytułami, adres, godziny, języki i ceny są na stronie tekstem, zgodnym z wizytówką Google i profilem w ZnanyLekarz. Dane strukturalne opisują gabinet i każdego lekarza, a podstrony chorób mają w kodzie nazwisko lekarza sprawdzającego i datę. Plik robots.txt zawiera jawne zasady dla robotów AI, tak jak na stronie Giuseppe, psychoterapeuty z Mediolanu, którego nowe podstrony pojawiają się już w odpowiedziach ChatGPT. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
         p(
           "Żeby gabinet pojawiał się w tych odpowiedziach stale, potrzebna jest dalsza praca — szczegóły w ofercie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
@@ -229,6 +229,7 @@ export const dermatologyWebsiteDesignPl = {
           ["Czy pacjent może wpłacić zadatek za konsultację estetyczną przez stronę?", "Tak. Zadatek może przyjąć Wasz system rezerwacji, o ile to potrafi, albo Stripe Checkout dołączony do formularza konsultacji, z BLIK-iem i Przelewy24. Na stronie warszawskiego salonu kosmetycznego Stripe obsłużył ponad 100 zakupów kursu online z pierwszej kampanii Google Ads."],
           ["Jak opisać na stronie lekarzy w trakcie specjalizacji i kosmetologów?", "Dokładnie tym, kim są: „lekarz w trakcie specjalizacji z dermatologii i wenerologii”, „kosmetolog”, z zakresem wizyt i zabiegów, które prowadzą. Specjaliści mają podany tytuł i numer prawa wykonywania zawodu. Każdy opis zatwierdzacie przed uruchomieniem."],
           ["Gdzie pacjent wysyła zdjęcia zmian skórnych, skoro nie przez stronę?", "Do systemu, którego używacie do teleporad lub dokumentacji. Strona tylko do niego prowadzi z przycisku „Wyślij zdjęcia”, więc plik nie ląduje na zwykłej skrzynce ani w formularzu. To wskazówka projektowa, nie opinia prawna."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: zabiegi, ceny i lekarze nazwane tekstem razem z cenami, każdy lekarz ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy pracujesz z gabinetami spoza Warszawy?", "Tak, z całej Polski. Praca toczy się zdalnie: rozmowy wideo, wspólny plik z projektem i uwagi na bieżąco, po polsku. Za stronę wystawiam fakturę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

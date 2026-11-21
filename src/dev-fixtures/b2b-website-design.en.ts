@@ -161,7 +161,7 @@ export const b2bWebsiteDesignEn = {
         p("What can be connected depends on what your systems offer; I check that before quoting. A full B2B ecommerce shop with customer-specific prices and checkout is a separate, larger project."),
 
         h2("A B2B website that ChatGPT and Google AI Overviews can read"),
-        p("Buyers increasingly ask ChatGPT, Perplexity or Google’s AI Overviews to list suppliers for a product or a task. Assistants work from text they can read and check. A design that keeps capabilities in images, certificates in logos and specifications in PDFs hides them; the same facts as page text, with structured data for the company and its products, can be read and repeated."),
+        p("Buyers increasingly ask ChatGPT, Perplexity or Google’s AI Overviews to list suppliers for a product or a task. Assistants work from text they can read and check. A design that keeps capabilities in images, certificates in logos and specifications in PDFs hides them; the same facts as page text, with structured data for the company and its products, can be read and repeated. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Getting onto those lists is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

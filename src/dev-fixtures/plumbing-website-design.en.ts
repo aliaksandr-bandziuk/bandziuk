@@ -161,7 +161,7 @@ export const plumbingWebsiteDesignEn = {
         p("A template is a fair start for a one-van business. A custom design is worth it when you take emergency calls, sell several services, cover several towns or pay for ads that land on the site. Moving off a template later usually means designing from the beginning."),
 
         h2("Plumbing website design that ChatGPT and Google AI Overviews can read"),
-        p("More customers ask ChatGPT, Perplexity or Google’s AI Overviews to suggest a plumber or explain a repair before calling anyone. Assistants work from text, not pictures. A design that keeps licenses, guarantees, prices and service areas inside images and badges hides them; the same facts set as real text, with structured data for the business and its services, can be read and repeated."),
+        p("More customers ask ChatGPT, Perplexity or Google’s AI Overviews to suggest a plumber or explain a repair before calling anyone. Assistants work from text, not pictures. A design that keeps licenses, guarantees, prices and service areas inside images and badges hides them; the same facts set as real text, with structured data for the business and its services, can be read and repeated. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

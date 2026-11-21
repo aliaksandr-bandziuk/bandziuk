@@ -175,7 +175,7 @@ export const websiteDesignForModelsPl = {
         ),
 
         h2("Strona modelki, którą czytają ChatGPT i przeglądy AI w Google"),
-        p("Bookerzy i marki wpisują dziś w asystentach AI pytania w rodzaju „modelka fitness w Warszawie do sesji odzieży sportowej” albo „jaka agencja reprezentuje tę modelkę”. ChatGPT i przeglądy AI w Google powtarzają tylko to, co przeczytały. Imię i nazwisko, miasto, agencja, wzrost, rodzaje zleceń i języki są więc zapisane tekstem, serwer wysyła gotowy HTML, znaczniki schema.org opisują Cię jako osobę powiązaną z agencją, a robots.txt wpuszcza wybrane roboty AI. Tak zbudowałem stronę Giuseppe, psychoterapeuty z Mediolanu, i jego podstrony pojawiają się już w odpowiedziach ChatGPT."),
+        p("Bookerzy i marki wpisują dziś w asystentach AI pytania w rodzaju „modelka fitness w Warszawie do sesji odzieży sportowej” albo „jaka agencja reprezentuje tę modelkę”. ChatGPT, Perplexity, Gemini i przeglądy AI w Google powtarzają tylko to, co przeczytały. Imię i nazwisko, miasto, agencja, wzrost, rodzaje zleceń i języki są więc zapisane tekstem, serwer wysyła gotowy HTML, znaczniki schema.org opisują Cię jako osobę powiązaną z agencją, a robots.txt wpuszcza wybrane roboty AI. Tak zbudowałem stronę Giuseppe, psychoterapeuty z Mediolanu, i jego podstrony pojawiają się już w odpowiedziach ChatGPT. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "Stałą pracę nad tym, by asystenci AI wymieniali Twoje nazwisko, opisuję na podstronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

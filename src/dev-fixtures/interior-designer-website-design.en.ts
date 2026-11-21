@@ -135,7 +135,7 @@ export const interiorDesignerWebsiteDesignEn = {
         li("the solution: layout changes, materials and finishes, custom pieces, where the budget went"),
         li("before photos or plans next to the finished rooms, where the clients agreed"),
         li("credits: architect, contractor, photographer, stylist"),
-        p("The story sits beside the images as page text, not lettered onto graphics, so a client, a search engine and an AI assistant can all read it."),
+        p("The story sits beside the images as page text, not lettered onto graphics, so a client, a search engine and an AI assistant can all read it. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
 
         h2("Services and fee structure on an interior designer website: flat fee, hourly or per square foot"),
         p("Someone who has never hired a designer does not know whether you charge a flat design fee, an hourly rate, a fee per square foot or a percentage of the project, and some leave because they assume the worst. A services page removes the guess without forcing you to publish numbers:"),

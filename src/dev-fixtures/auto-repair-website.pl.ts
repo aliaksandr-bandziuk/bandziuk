@@ -86,7 +86,7 @@ export const autoRepairWebsitePl = {
 
         h2("Ceny na stronie: widełki zamiast „zadzwoń”"),
         p("„Ceny po telefonie” odsiewa więcej klientów niż cena wysoka. Człowiek z zepsutym autem nie będzie obdzwaniał pięciu warsztatów dla rzędu wielkości."),
-        p("Na stronie stoi przedział i wyjaśnienie, od czego zależy: zakres prac, część oryginalna czy zamiennik, stan sąsiednich podzespołów widoczny po rozebraniu. Osobno: czy diagnostyka jest płatna i czy wlicza się w naprawę. Cennik grafiką albo w PDF tego nie załatwia — ani wyszukiwarka, ani asystent AI nie czytają tekstu w obrazku."),
+        p("Na stronie stoi przedział i wyjaśnienie, od czego zależy: zakres prac, część oryginalna czy zamiennik, stan sąsiednich podzespołów widoczny po rozebraniu. Osobno: czy diagnostyka jest płatna i czy wlicza się w naprawę. Cennik grafiką albo w PDF tego nie załatwia — ani wyszukiwarka, ani asystent AI nie czytają tekstu w obrazku. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
 
         h2("Zapis online: o co formularz ma pytać, a o co nie"),
         p("Formularz zapisu to nie ankieta. Każde dodatkowe pole kosztuje zgłoszenia, a szczegóły i tak wychodzą w rozmowie."),

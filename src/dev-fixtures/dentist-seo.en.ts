@@ -102,7 +102,7 @@ export const dentistSeoEn = {
       content: [
         p("Dentist SEO services are the work that gets a dental practice found when people search for a dentist, a treatment or an urgent appointment in their town: treatment pages, keyword data, technical fixes and the facts Google and AI assistants need before they trust a health website. I do this work myself, as a single SEO specialist who also builds websites, so the person who audits your site is the person who fixes it. Dental SEO is measured in new patients and booked consultations, not in a traffic chart."),
 
-        h2("What is SEO in dentistry: how a dental practice gets found in Google"),
+        h2("SEO in dentistry: how a dental practice gets found in Google"),
         p("SEO in dentistry means making the practice website and its listings the answer to the searches patients make before they book. Those searches fall into three groups, and each needs different work:"),
         li("urgent searches — “emergency dentist near me”, “broken tooth”, “toothache weekend” — where the patient calls one of the first practices they see"),
         li("treatment research — “dental implants cost”, “Invisalign vs braces”, “veneers before and after” — where the patient reads for weeks and compares practices"),
@@ -218,6 +218,7 @@ export const dentistSeoEn = {
           ["How long does SEO take for a dental practice?", "Fixes to the Google profile and existing pages can show within weeks. New treatment pages usually take two to four months to rank, and longer in large cities, where implants and Invisalign are among the most contested local searches."],
           ["Who writes the content, and does a dentist need to review it?", "I research and draft the pages from your treatments, prices and processes. A dentist from your practice reviews the clinical content and is named on the page; Google expects that from health content, and patients do too."],
           ["Is SEO worth it if we already run ads?", "Ads bring patients from the first week and stop when the budget does. SEO takes months, but patients from search are not paid for per click. Many practices keep ads for implants or emergencies and use SEO to depend on them less over time."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: treatments, implants and aligners named in text with prices, each dentist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Do you work with dental practices outside Poland?", "Yes. Dentist SEO is done remotely — the website, the profile and the search data for your towns — for practices in the US, Canada, the UK, Australia and Europe. I work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

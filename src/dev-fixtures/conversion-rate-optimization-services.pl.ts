@@ -173,7 +173,7 @@ export const conversionRateOptimizationServicesPl = {
         ),
 
         h2("CRO dla odwiedzających z ChatGPT i Google AI Overviews"),
-        p("Osoba, która przychodzi z ChatGPT, Perplexity albo z linku w podsumowaniu AI w Google, rzadko widzi stronę główną. Trafia na podstronę, którą asystent zacytował: usługę, cennik, artykuł sprzed dwóch lat. Każda taka podstrona musi działać jak strona pierwszego kontaktu i mówić, kim jesteście, co oferujecie, za ile i co zrobić dalej."),
+        p("Osoba, która przychodzi z ChatGPT, Perplexity albo z linku w podsumowaniu AI w Google, rzadko widzi stronę główną. Trafia na podstronę, którą asystent zacytował: usługę, cennik, artykuł sprzed dwóch lat. Każda taka podstrona musi działać jak strona pierwszego kontaktu i mówić, kim jesteście, co oferujecie, za ile i co zrobić dalej. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "W analityce wydzielam ten ruch osobno — ChatGPT dopisuje do linków utm_source=chatgpt.com — żeby było widać, jak konwertuje na tle Google i reklam. Mój klient, psychoterapeuta z Mediolanu, znalazł mnie właśnie przez ChatGPT. Jak trafić do odpowiedzi asystentów, opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

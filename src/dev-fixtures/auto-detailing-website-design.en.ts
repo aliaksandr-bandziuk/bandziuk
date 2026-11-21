@@ -171,7 +171,7 @@ export const autoDetailingWebsiteDesignEn = {
         ),
 
         h2("An auto detailing website that ChatGPT and Google AI Overviews can read"),
-        p("Car owners ask ChatGPT, Perplexity and Google’s AI Overviews questions like “is ceramic coating worth it on a new car” or “who installs PPF near me”. Assistants recommend businesses they can read about. Packages shown as images, prices hidden inside a booking widget and a gallery without captions give them nothing to quote. The same facts as text — packages, starting prices, duration, service area, coating and film brands — with structured data for the business and its services, can be read and repeated."),
+        p("Car owners ask ChatGPT, Perplexity and Google’s AI Overviews questions like “is ceramic coating worth it on a new car” or “who installs PPF near me”. Assistants recommend businesses they can read about. Packages shown as images, prices hidden inside a booking widget and a gallery without captions give them nothing to quote. The same facts as text — packages, starting prices, duration, service area, coating and film brands — with structured data for the business and its services, can be read and repeated. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Getting named in those answers is ongoing work; see ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

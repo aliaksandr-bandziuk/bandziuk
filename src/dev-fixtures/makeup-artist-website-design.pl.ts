@@ -173,7 +173,7 @@ export const makeupArtistWebsiteDesignPl = {
         ),
 
         h2("Strona wizażystki, którą czytają ChatGPT i przeglądy AI w Google"),
-        p("Coraz więcej klientek pyta asystenta: „wizażystka ślubna w Krakowie z dojazdem do Zakopanego” albo „makijaż na studniówkę Poznań cena”. Asystenci odpowiadają tym, co znaleźli na stronach. Rodzaje makijażu, miasta, strefy dojazdu i ceny „od” są więc wpisane w treść, nie w grafiki; HTML przychodzi z serwera gotowy do czytania; znaczniki schema.org mówią, że jesteś lokalną usługą z obszarem dojazdu; robots.txt wpuszcza wybrane roboty AI. Tak samo zbudowałem stronę Giuseppe, psychoterapeuty z Mediolanu, i ChatGPT, Perplexity i Gemini przytacza już treści z jego nowych podstron."),
+        p("Coraz więcej klientek pyta asystenta: „wizażystka ślubna w Krakowie z dojazdem do Zakopanego” albo „makijaż na studniówkę Poznań cena”. Asystenci odpowiadają tym, co znaleźli na stronach. Rodzaje makijażu, miasta, strefy dojazdu i ceny „od” są więc wpisane w treść, nie w grafiki; HTML przychodzi z serwera gotowy do czytania; znaczniki schema.org mówią, że jesteś lokalną usługą z obszarem dojazdu; robots.txt wpuszcza wybrane roboty AI. Tak samo zbudowałem stronę Giuseppe, psychoterapeuty z Mediolanu, i ChatGPT, Perplexity i Gemini przytacza już treści z jego nowych podstron. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
         p(
           "O tym, jak zostać polecaną wizażystką w odpowiedziach AI, piszę na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

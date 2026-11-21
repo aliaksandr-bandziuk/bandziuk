@@ -33,11 +33,11 @@ export const orthodontistWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www gabinetu ortodontycznego | Bandziuk",
     metaDescription:
-      "Strona internetowa dla ortodonty: ścieżki dla rodziców i dorosłych, aparaty i nakładki, galeria ze zgodą, cennik z ratami, mapa placówek, RODO. Od 3000 zł.",
+      "Strona internetowa dla ortodonty: ścieżki dla rodziców i dorosłych, aparaty i nakładki, cennik z ratami, mapa placówek, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Umów konsultację", "Aparat czy nakładki?", "Cennik i raty", "Nasze gabinety"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona gabinetu ortodontycznego, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -98,6 +98,7 @@ export const orthodontistWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Buduję strony dla gabinetów ortodontycznych: podstrony leczenia, ceny i raty tekstem, zapis na konsultację i struktura czytelna dla asystentów AI."),
         p("Strona internetowa dla ortodonty to w moim wykonaniu projekt i kod od jednej osoby: układam strukturę, projektuję ekrany, programuję i uruchamiam stronę, więc nie ma przekazywania pracy między grafikiem a programistą. Taka strona ma dwóch bardzo różnych gości — rodzica, który decyduje o aparacie dla dziecka, i dorosłego, który chce prostych zębów bez zwracania uwagi w pracy — i obu ma doprowadzić do zapisu na konsultację."),
 
         h2("Strona internetowa dla ortodonty: pierwszy ekran dla rodziców i dla dorosłych"),
@@ -138,7 +139,7 @@ export const orthodontistWebsiteDesignPl = {
         p("Pacjenci w trakcie leczenia odwiedzają stronę częściej niż nowi. Osobna strefa odciąża rejestrację: co zrobić, gdy odklei się zamek albo drut kłuje policzek, które sytuacje wymagają telefonu tego samego dnia, jak czyścić aparat, ile godzin nosić nakładki, jak dbać o retainer. Krótkie filmy nagrane przez Wasz zespół sprawdzają się tu lepiej niż materiały z banku zdjęć."),
 
         h2("Strona internetowa dla ortodonty, którą ChatGPT i przeglądy AI w Google potrafią przeczytać"),
-        p("Rodzice pytają asystentów AI, który ortodonta w okolicy leczy małe dzieci, przyjmuje w soboty albo ma raty. Asystent składa odpowiedź z tekstu, który potrafi odczytać i porównać z wizytówką i ZnanyLekarz. Dlatego placówki z dniami przyjęć, wiek pacjentów, rodzaje leczenia, języki i formy płatności są zapisane w treści strony, nie na grafikach, a dane strukturalne łączą lekarzy z placówkami. Strona Giuseppe jest zbudowana w ten sposób i ChatGPT, Perplexity i Gemini przytacza już podstrony opublikowane po starcie."),
+        p("Rodzice pytają asystentów AI, który ortodonta w okolicy leczy małe dzieci, przyjmuje w soboty albo ma raty. Asystent składa odpowiedź z tekstu, który potrafi odczytać i porównać z wizytówką i ZnanyLekarz. Dlatego placówki z dniami przyjęć, wiek pacjentów, rodzaje leczenia, języki i formy płatności są zapisane w treści strony, nie na grafikach, a dane strukturalne łączą lekarzy z placówkami. Strona Giuseppe jest zbudowana w ten sposób i ChatGPT, Perplexity i Gemini przytacza już podstrony opublikowane po starcie. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
         p(
           "Utrzymanie gabinetu w tych odpowiedziach to osobna usługa: ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
@@ -182,6 +183,7 @@ export const orthodontistWebsiteDesignPl = {
           ["Czy pacjenci mogą przesłać zdjęcia zębów przez stronę?", "Tak, jeśli upload obsługuje dostawca, któremu powierzyliście przetwarzanie danych na piśmie. Zwykły formularz i e-mail odpadają, a konfigurację zatwierdza Wasz inspektor ochrony danych."],
           ["Czy da się podłączyć kalendarz z ZnanyLekarz?", "Tak, jeśli korzystacie z kalendarza ZnanyLekarz albo programu gabinetowego z rezerwacją online. Gdy to niemożliwe, krótki formularz przekazuje prośbę o termin do rejestracji."],
           ["Czy sami zmienimy cennik, godziny i galerię?", "Tak. Placówki, dni przyjęć, karty cen, zespół i przypadki w galerii zmienia rejestracja w panelu redakcyjnym — da się to zrobić nawet na telefonie. Do tego instrukcja i krótkie nagrania."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: leczenie, ceny i raty nazwane tekstem razem z cenami, każdy ortodonta ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy pracujesz z gabinetami spoza Warszawy?", "Tak, z całej Polski, zdalnie. Gabinety z Warszawy i okolic mogę odwiedzić na miejscu, na przykład przy sesji zdjęciowej zespołu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

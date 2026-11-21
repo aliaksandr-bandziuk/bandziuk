@@ -189,7 +189,7 @@ export const businessCardWebsitePl = {
         li("szybkie ładowanie na telefonie, ważne i dla Google, i dla klienta"),
 
         h2("Strona wizytówka, którą rozumieją ChatGPT i Google AI Overviews"),
-        p("Coraz więcej osób zamiast wpisywać hasło w wyszukiwarkę pyta ChatGPT, Perplexity, Gemini albo czyta podsumowanie Google AI Overviews nad wynikami: „polecisz tłumacza przysięgłego niemieckiego w Poznaniu?”. Asystent AI może polecić tylko kogoś, o kim przeczyta konkretne fakty. Dlatego na wizytówce zapisuję je zwykłym tekstem, a nie na grafikach: kim jesteś, co dokładnie robisz, gdzie, w jakich językach i od jakiej ceny. Do tego dochodzą dane strukturalne i reguły w pliku robots.txt, które pozwalają robotom AI czytać stronę."),
+        p("Coraz więcej osób zamiast wpisywać hasło w wyszukiwarkę pyta ChatGPT, Perplexity, Gemini albo czyta podsumowanie Google AI Overviews nad wynikami: „polecisz tłumacza przysięgłego niemieckiego w Poznaniu?”. Asystent AI może polecić tylko kogoś, o kim przeczyta konkretne fakty. Dlatego na wizytówce zapisuję je zwykłym tekstem, a nie na grafikach: kim jesteś, co dokładnie robisz, gdzie, w jakich językach i od jakiej ceny. Do tego dochodzą dane strukturalne i reguły w pliku robots.txt, które pozwalają robotom AI czytać stronę. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "To, jak asystenci wybierają firmy do polecenia, sprawdzałem w ",
           link("badaniu 141 odpowiedzi asystentów AI", "/pl/blog/pozycjonowanie-w-ai-badanie"),

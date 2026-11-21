@@ -120,7 +120,7 @@ export const cafeWebsiteEn = {
         li("each drink with its sizes and a price per size, and add-ons stored as options with their surcharge, so a new price for oat milk is one edit in the admin panel"),
         li("food marked as baked in house or brought in, with vegan, gluten-free and allergen notes"),
         li("a “today” line for the filter coffee of the day or a pastry that has sold out, changed in seconds"),
-        p("Written as text, the menu can be searched on the page and read by Google and AI assistants. The order-ahead page takes its items and prices from the same list, so the two never disagree."),
+        p("Written as text, the menu can be searched on the page and read by Google and AI assistants. The order-ahead page takes its items and prices from the same list, so the two never disagree. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
 
         h2("Opening hours, holiday hours and directions on a cafe website"),
         p("Cafe hours change more often than a restaurant’s: earlier openings in summer, a shorter Sunday, a 2 p.m. close on a holiday, a day off for a private booking. On the site the regular hours and the exceptions are separate fields, so a guest sees “Open today 7 a.m.–2 p.m. (holiday hours)” instead of a weekly table that is wrong for today. A line at the top of every page says whether you are open now and until when."),

@@ -41,7 +41,7 @@ export const seoForDermatologistsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Choroby skóry, znamiona, Mapy", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Choroby skóry, znamiona, Mapy", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dermatolog prywatnie Łódź", "Badanie znamion", "Wolne terminy", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO gabinetu dermatologicznego: strona, wizytówka Google, ZnanyLekarz i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -103,6 +103,7 @@ export const seoForDermatologistsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem stron gabinetów dermatologicznych: podstrony schorzeń i zabiegów, ceny tekstem, wizytówka i obecność w odpowiedziach AI."),
         p("Pozycjonowanie strony gabinetu dermatologicznego to moja usługa dla prywatnych gabinetów i klinik dermatologicznych z całej Polski: praca nad tym, żeby pacjent szukający pomocy przy chorobie skóry, badania znamion albo zabiegu znalazł w Google i w odpowiedziach AI właśnie Wasz gabinet i umówił wizytę. Pracuję bez pośredników: ta sama osoba sprawdza stronę, pisze z lekarzami podstrony chorób, wprowadza zmiany w kodzie i co miesiąc pokazuje, ile wizyt przyszło z wyszukiwarki."),
 
         h2("Pozycjonowanie strony gabinetu dermatologicznego: co obejmuje usługa"),
@@ -201,6 +202,7 @@ export const seoForDermatologistsPl = {
           ["Czy pacjent może przesłać zdjęcie znamienia przez stronę?", "Nie przez zwykły formularz ani e-mail. Zdjęcie skóry to dane o zdrowiu w rozumieniu RODO i powinno trafić przez system do teleporad lub rejestracji, który zapewnia ich ochronę. To ogólna wskazówka, nie opinia prawna."],
           ["Czy dermatologia estetyczna powinna mieć osobną stronę?", "Zwykle nie: jedna strona z wyraźnie oddzieloną częścią leczniczą i estetyczną buduje wiarygodność lekarzy w jednym miejscu. Osobna strona ma sens, gdy zabiegi estetyczne działają jako odrębna klinika z własną marką."],
           ["Ile trwa pozycjonowanie strony gabinetu dermatologicznego?", "Poprawki w wizytówce i w ZnanyLekarz potrafią zadziałać w kilka tygodni. Nowe podstrony chorób i badania znamion zwykle potrzebują dwóch–czterech miesięcy, w Warszawie, Krakowie czy Wrocławiu dłużej."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: schorzenia, zabiegi i ceny nazwane tekstem razem z cenami, każdy lekarz ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy pozycjonujesz gabinety dermatologiczne w całej Polsce?", "Tak. Pracuję zdalnie z Warszawy, a dane wyszukiwań sprawdzam dla Waszego miasta i miejscowości, z których dojeżdżają pacjenci. W mniejszych miastach często wystarczy kilka dobrych podstron i porządna wizytówka, żeby gabinet był pierwszy przy swoich chorobach i badaniach."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

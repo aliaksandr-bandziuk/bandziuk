@@ -82,7 +82,7 @@ export const llmSeoServicesPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Świadczę usługi LLM SEO: pracę, dzięki której firma jest widoczna i poprawnie opisana w odpowiedziach dużych modeli językowych — ChatGPT, Perplexity, Gemini, Claude i odpowiedzi AI w Google. LLM SEO to nie jedna optymalizacja dla wszystkich: każdy model wie co innego i czyta inne źródła, więc praca i pomiar są osobne dla każdego modelu."),
+        p("Świadczę usługi LLM SEO: pracę, dzięki której firma jest widoczna i poprawnie opisana w odpowiedziach dużych modeli językowych — ChatGPT, Perplexity, Gemini, Claude i odpowiedzi AI w Google. LLM SEO to nie jedna optymalizacja dla wszystkich: każdy model wie co innego i czyta inne źródła, więc praca i pomiar są osobne dla każdego modelu. Dla odpowiedzi pokazywanej wprost w wyszukiwarce używa się nazwy answer engine optimization (AEO)."),
 
         h2("Czym jest LLM SEO: dane treningowe i wyszukiwanie na żywo"),
         p("Model językowy może wiedzieć o Waszej firmie na dwa sposoby:"),

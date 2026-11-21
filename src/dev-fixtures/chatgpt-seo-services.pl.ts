@@ -85,7 +85,7 @@ export const chatgptSeoServicesPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Zajmuję się pozycjonowaniem w ChatGPT: pracą, dzięki której ChatGPT wymienia firmę, z poprawnymi faktami, gdy klienci pytają „kogo zatrudnić” albo „co wybrać”. ChatGPT nie pokazuje dziesięciu linków: podaje dwie–trzy firmy, a ta, której wśród nich nie ma, dla tego pytania nie istnieje. Praca opiera się na tym, jak ChatGPT naprawdę wybiera te nazwy, i jest mierzona przed i po."),
+        p("Zajmuję się pozycjonowaniem w ChatGPT: pracą, dzięki której ChatGPT wymienia firmę, z poprawnymi faktami, gdy klienci pytają „kogo zatrudnić” albo „co wybrać”. ChatGPT nie pokazuje dziesięciu linków: podaje dwie–trzy firmy, a ta, której wśród nich nie ma, dla tego pytania nie istnieje. Praca opiera się na tym, jak ChatGPT naprawdę wybiera te nazwy, i jest mierzona przed i po. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
 
         h2("Jak wyszukiwanie ChatGPT wybiera firmy, które poleca"),
         p(

@@ -38,11 +38,11 @@ export const medSpaWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www kliniki medycyny estetycznej | Bandziuk",
     metaDescription:
-      "Strona internetowa dla kliniki medycyny estetycznej: menu zabiegów, rezerwacja Booksy, profile lekarzy, metamorfozy za zgodą, karnety, RODO. Od 3000 zł.",
+      "Strona dla kliniki medycyny estetycznej: menu zabiegów, rezerwacja Booksy, profile lekarzy, karnety, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Umów konsultację", "Zabiegi według problemu", "Karnety i bony", "Nasi lekarze"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla gabinetu medycyny estetycznej, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -103,6 +103,7 @@ export const medSpaWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Buduję strony dla klinik medycyny estetycznej: podstrony zabiegów, ceny i karnety tekstem, zapis online i struktura czytelna dla asystentów AI."),
         p("Strona internetowa dla kliniki medycyny estetycznej to miejsce, w którym pacjentka po obejrzeniu Instagrama sprawdza, czy może Wam zaufać, i rezerwuje wizytę. Projektuję ją i buduję sam — od listy podstron, przez projekt graficzny, po podłączenie rezerwacji i uruchomienie — więc za wygląd i działanie odpowiada jedna osoba, a cena jest znana z góry."),
 
         h2("Strona internetowa dla kliniki medycyny estetycznej: pierwszy ekran na telefonie"),
@@ -148,7 +149,7 @@ export const medSpaWebsiteDesignPl = {
         p("Kilka lat temu pracowałem przy oprogramowaniu medycznym z dokumentacją pacjentów; umowa o poufności nie pozwala podać nazwy. Wyniosłem z tego zasadę: przez stronę klinika pyta tylko o to, czego wymaga umówienie wizyty. Ostateczną ocenę daje inspektor ochrony danych albo prawnik."),
 
         h2("Strona kliniki medycyny estetycznej, którą ChatGPT i przeglądy AI w Google potrafią przeczytać"),
-        p("Pacjentki pytają ChatGPT, Perplexity, Gemini albo przegląd od AI w Google, gdzie w mieście lekarz wykonuje wolumetrię albo która klinika ma laser frakcyjny. Asystent odpowiada na podstawie tekstu, który potrafi przeczytać. Dlatego zabiegi, lekarze z kwalifikacjami, adresy, godziny, ceny i zasady karnetów są w kodzie strony jako tekst, a nie grafika czy skrypt, mają dane strukturalne i zgadzają się z wizytówką Google. Na stronie Giuseppe pomogły temu jawne zasady dla robotów AI w robots.txt i dane strukturalne praktyki, a nowe podstrony pojawiają się już w odpowiedziach ChatGPT."),
+        p("Pacjentki pytają ChatGPT, Perplexity, Gemini albo przegląd od AI w Google, gdzie w mieście lekarz wykonuje wolumetrię albo która klinika ma laser frakcyjny. Asystent odpowiada na podstawie tekstu, który potrafi przeczytać. Dlatego zabiegi, lekarze z kwalifikacjami, adresy, godziny, ceny i zasady karnetów są w kodzie strony jako tekst, a nie grafika czy skrypt, mają dane strukturalne i zgadzają się z wizytówką Google. Na stronie Giuseppe pomogły temu jawne zasady dla robotów AI w robots.txt i dane strukturalne praktyki, a nowe podstrony pojawiają się już w odpowiedziach ChatGPT. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "Dalszą pracę nad widocznością w AI opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
@@ -196,6 +197,7 @@ export const medSpaWebsiteDesignPl = {
           ["Czy na stronie można sprzedawać bony podarunkowe?", "Tak — przez system rezerwacji, jeśli ma taką funkcję, albo przez bramkę płatności z bonem wysyłanym mailem. Wybór zależy od tego, jak recepcja rozlicza bony."],
           ["Czy sami zmienimy cennik, zabiegi i zespół?", "Tak. Recepcja zmienia cennik, zabiegi, profile i metamorfozy w panelu z gotowymi polami, więc nowa treść wygląda tak samo jak reszta strony — również wtedy, gdy edytuje z telefonu."],
           ["Czy strona kliniki może pokazywać metamorfozy i opinie?", "Metamorfozy — tylko za pisemną zgodą pacjentów i bez retuszu, a przy zabiegach lekarskich po sprawdzeniu z prawnikiem. Opinie zwykle lepiej zostawić w Google i Booksy, gdzie są niezależne, i podlinkować je ze strony."],
+          ["Czy pacjenci znajdą klinikę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: zabiegi, ceny i lekarze nazwane tekstem razem z cenami, każdy lekarz ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza klinikę z odpowiedzi."],
           ["Jak wygląda współpraca z kliniką z innego miasta?", "Tak samo jak z kliniką w Warszawie: brief, akceptacja projektu i szkolenie z panelu odbywają się na rozmowach wideo, a zdjęcia gabinetów i zespołu robi wybrany przez Was fotograf."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

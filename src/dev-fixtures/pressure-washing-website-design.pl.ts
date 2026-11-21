@@ -170,7 +170,7 @@ export const pressureWashingWebsiteDesignPl = {
         ),
 
         h2("Strona firmy mycia ciśnieniowego, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Klienci pytają ChatGPT i podsumowania AI w Google, czy mycie dachu ciśnieniem jest bezpieczne, jak często myć kostkę albo kto robi to w okolicy. Asystent odpowiada na podstawie tekstu, który może przeczytać. Jeśli powierzchnie, metody, obszar i ubezpieczenie są opisane słowami i oznaczone danymi strukturalnymi, model może je zacytować; cennik wklejony jako zdjęcie pozostaje dla niego niewidoczny."),
+        p("Klienci pytają ChatGPT, Perplexity, Gemini i podsumowania AI w Google, czy mycie dachu ciśnieniem jest bezpieczne, jak często myć kostkę albo kto robi to w okolicy. Asystent odpowiada na podstawie tekstu, który może przeczytać. Jeśli powierzchnie, metody, obszar i ubezpieczenie są opisane słowami i oznaczone danymi strukturalnymi, model może je zacytować; cennik wklejony jako zdjęcie pozostaje dla niego niewidoczny. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "Zdobywanie wzmianek w odpowiedziach AI to osobna usługa — szczegóły na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

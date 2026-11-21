@@ -32,11 +32,11 @@ export const orthodontistWebsiteDesignEn = {
   seo: {
     metaTitle: "Orthodontic Practice Websites: Design + Build | Bandziuk",
     metaDescription:
-      "Orthodontist website design: paths for parents and adults, braces and aligner pages, smile galleries with consent, payment plans, office finder. From 700 €.",
+      "Orthodontist website design: paths for parents and adults, braces and aligner pages, galleries with consent, payment plans, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Parents and adults in one design", "From 700 €", "Reply within one business day"],
+  heroChips: ["Parents and adults in one design", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book a consultation", "Braces or aligners?", "Monthly payment plans", "Find an office"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple orthodontic practice website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -96,6 +96,7 @@ export const orthodontistWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for orthodontic practices: a page per treatment, prices and plans in text, consultation booking, and a structure assistants can read."),
         p("I design orthodontist websites and write their code myself; there is no hand-off between a designer and a developer, and the quote is a single figure. An orthodontic site serves two very different visitors — a parent deciding about a child’s treatment and an adult who wants straighter teeth without anyone at work noticing — and both have to reach a consultation request without hunting for it."),
 
         h2("Orthodontist website design for parents and adult patients: the first screen"),
@@ -132,7 +133,7 @@ export const orthodontistWebsiteDesignEn = {
         p("Giuseppe’s site follows the same pattern on a smaller scale: one map showing where he sees clients — Milan, Monza, Cernusco sul Naviglio — a page for each place and a separate page for online sessions with Italians abroad."),
 
         h2("Orthodontist profile pages and a section for referring dentists"),
-        p("Parents and dentists both read the doctor page. It shows the dental degree, the specialty residency, board certification where it applies, years in practice and the offices where the orthodontist sees patients, with a real portrait. Assistants and coordinators get a photo and a line each; families meet them more often than the doctor."),
+        p("Parents and dentists both read the doctor page. It shows the dental degree, the specialty residency, board certification where it applies, years in practice and the offices where the orthodontist sees patients, with a real portrait. Assistants and coordinators get a photo and a line each; families meet them more often than the doctor. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p("Referring dentists get a small section of their own: how to refer, a form that sends records through a secure provider, what you report back after the first visit and a direct number. Two pages save a busy dental office a phone call for every referral."),
 
         h2("Pages for current orthodontic patients: emergencies, appliance care and aligners"),
@@ -186,6 +187,7 @@ export const orthodontistWebsiteDesignEn = {
           ["Can patients upload smile photos for a virtual consultation?", "Yes, through a provider built for health data that signs a HIPAA business associate agreement with your practice. Photos never travel by email or a plain contact form. Your compliance adviser approves the final setup."],
           ["Can we show before-and-after photos of teenage patients?", "With written consent from a parent or guardian, matching angles and lighting, and no editing. The gallery shows the treatment and its length and never names the patient."],
           ["Can our team update offices, hours and the gallery?", "Yes. Offices, hours, team members, gallery cases and cost cards are edited in a simple CMS, also from a phone, while the layout stays consistent. You get a written manual and short video walkthroughs."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: treatments, prices and plans named in text with prices, each orthodontist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Is it a problem that you are based in Poland and we are in the US?", "No. The project runs online, and design reviews fit into your morning because that is my afternoon in Warsaw. You pay euro invoices, and we talk in English."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

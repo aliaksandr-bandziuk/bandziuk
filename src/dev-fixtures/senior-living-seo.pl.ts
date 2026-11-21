@@ -111,7 +111,7 @@ export const seniorLivingSeoPl = {
         p("Rodzina szuka w kilku miejscach naraz i każde wymaga innej pracy:"),
         li("w Mapach Google — „dom opieki w pobliżu”, „dom seniora Łódź” — gdzie kilka pierwszych domów z oceną i telefonem dostaje wiele pierwszych telefonów"),
         li("w zwykłych wynikach, gdzie stronę domu wyprzedzają katalogi domów opieki i artykuły poradnikowe"),
-        li("w odpowiedziach AI — ChatGPT i podsumowaniach w Google — które coraz częściej wymieniają konkretne domy z nazwy"),
+        li("w odpowiedziach AI — ChatGPT, Perplexity, Gemini i podsumowaniach w Google — które coraz częściej wymieniają konkretne domy z nazwy"),
         p("Pozycjonowanie łączy te miejsca: rzeczowe podstrony, kompletna wizytówka, opinie rodzin i dane zapisane tak, żeby asystent AI mógł je przeczytać. Wynik liczę w zapytaniach i wizytach rodzin w domu, a nie w samych pozycjach."),
 
         h2("Frazy w pozycjonowaniu strony domu opieki: miejscowość, rodzaj opieki i cena"),

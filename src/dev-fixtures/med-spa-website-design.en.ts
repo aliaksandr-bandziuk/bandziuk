@@ -37,11 +37,11 @@ export const medSpaWebsiteDesignEn = {
   seo: {
     metaTitle: "Medspa Website Design for Aesthetic Clinics | Bandziuk",
     metaDescription:
-      "Med spa website design: treatment menu, booking with deposits, memberships, consented before-and-after galleries, provider pages, design included. From 700 €.",
+      "Med spa website design: treatment menu, booking with deposits, memberships, consented galleries, provider pages, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book a consultation", "Treatment menu", "Join the membership", "Before & after"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple med spa website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -101,6 +101,7 @@ export const medSpaWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for med spas and aesthetic clinics: treatment pages, prices and memberships in text, booking, and a structure assistants can read."),
         p("Med spa website design shapes what most clients see before they walk in, and I design and build the site myself, so the look, the booking flow and the code come from one person at one price. A medspa website has a narrower job than it seems: help someone who already wants a treatment choose you, trust the person who will perform it and book — usually on a phone, often late in the evening."),
 
         h2("Medspa website first screen: treatments, location, provider and a booking button"),
@@ -147,7 +148,7 @@ export const medSpaWebsiteDesignEn = {
         p("About five years ago I worked on a medical software project with patient records; an NDA keeps its name private. It left me with one rule for clinic sites: ask online only for what the booking needs. Your compliance adviser confirms the final setup."),
 
         h2("A med spa website that ChatGPT and Google AI Overviews can read"),
-        p("When a client asks ChatGPT or Google’s AI Overviews which med spa nearby offers a treatment or has a nurse practitioner for lip filler, the answer is built from text the assistant can read. The build keeps treatments, providers and credentials, locations, hours, prices and membership terms in plain HTML rather than images or scripts, adds structured data for the business, its providers and locations, and matches your Google profile. Giuseppe’s site shows how this pays off: explicit rules for AI crawlers in robots.txt and structured data for the practitioner and services, and his new pages already appear in ChatGPT answers."),
+        p("When a client asks ChatGPT, Perplexity, Gemini or Google’s AI Overviews which med spa nearby offers a treatment or has a nurse practitioner for lip filler, the answer is built from text the assistant can read. The build keeps treatments, providers and credentials, locations, hours, prices and membership terms in plain HTML rather than images or scripts, adds structured data for the business, its providers and locations, and matches your Google profile. Giuseppe’s site shows how this pays off: explicit rules for AI crawlers in robots.txt and structured data for the practitioner and services, and his new pages already appear in ChatGPT answers. Named for the answer shown in search itself, the same work is answer engine optimization (AEO)."),
         p(
           "Ongoing work on those answers is described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
@@ -196,6 +197,7 @@ export const medSpaWebsiteDesignEn = {
           ["Can clients buy a membership on the website?", "The membership page explains the terms and sends the client to your system’s membership or checkout page, so billing stays where your staff manage it. If your system has no online sign-up, the button opens a short request form."],
           ["Can our staff update prices, treatments and providers?", "Yes. Prices, treatment pages, provider profiles and gallery cases are edited in a simple CMS, on WordPress or a headless CMS such as Sanity, and the layout stays consistent whatever is added."],
           ["Can you redesign our med spa website without losing Google rankings?", "Yes. I list every URL the old site has, point each one to its new page with a 301 redirect, keep the page titles and markup, and watch Search Console for errors in the weeks after launch."],
+          ["Will patients find the med spa through ChatGPT?", "Increasingly, when there is something to quote: treatments, prices and providers named in text with prices, each practitioner with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the med spa out of the answer."],
           ["Can a web designer in Poland build a site for a US med spa?", "Yes. The whole project runs online and in English; I work from Warsaw, and my CET afternoon is your morning, so review calls fit before the spa opens. Invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

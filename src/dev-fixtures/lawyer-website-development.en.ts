@@ -180,7 +180,7 @@ export const lawyerWebsiteDevelopmentEn = {
         ),
 
         h2("A law firm website that ChatGPT and Google AI Overviews can read"),
-        p("People ask ChatGPT, Perplexity and Google’s AI Overviews how custody works in their state or which immigration lawyer speaks their language. Google treats legal content as “Your Money or Your Life” and holds it to a higher standard, and assistants lean on the same trust signals. The build supports them: pages served as plain HTML that crawlers read without running scripts, LegalService and Person structured data for the firm and each attorney, author bylines with bar admissions, publication and review dates on every article, and the same name, address and phone as in your Google profile and legal directories."),
+        p("People ask ChatGPT, Perplexity and Google’s AI Overviews how custody works in their state or which immigration lawyer speaks their language. Google treats legal content as “Your Money or Your Life” and holds it to a higher standard, and assistants lean on the same trust signals. The build supports them: pages served as plain HTML that crawlers read without running scripts, LegalService and Person structured data for the firm and each attorney, author bylines with bar admissions, publication and review dates on every article, and the same name, address and phone as in your Google profile and legal directories. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

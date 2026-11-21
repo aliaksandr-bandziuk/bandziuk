@@ -154,7 +154,7 @@ export const bedAndBreakfastWebsiteDesignPl = {
         li("co jest w zasięgu spaceru: szlak, jezioro, plaża, restauracja, którą polecasz"),
         li("wycieczki na jeden dzień, z czasem dojazdu"),
         li("pory roku: narty zimą, spływy latem, grzyby jesienią — i co zamyka się poza sezonem"),
-        p("Takie podstrony przyciągają z Google ludzi, którzy planują wyjazd w Twoją okolicę, i dają asystentom AI konkretne fakty o Twoim obiekcie."),
+        p("Takie podstrony przyciągają z Google ludzi, którzy planują wyjazd w Twoją okolicę, i dają asystentom AI konkretne fakty o Twoim obiekcie. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
 
         h2("Strona pensjonatu w kilku językach dla gości z zagranicy"),
         p(

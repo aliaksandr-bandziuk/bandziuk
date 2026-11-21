@@ -175,7 +175,7 @@ export const artistWebsiteDesignEn = {
         p("Instagram is where many collectors discover new work, and it is worth keeping active. It is still a feed: posts sink within days, sizes and order belong to the platform, and the reach of your next post is decided by an algorithm. Your website is the permanent record — every series, every price, your full CV — and the link in your bio leads to the current series or the available works page rather than the home page."),
 
         h2("An artist website that ChatGPT and Google AI Overviews can read"),
-        p("Buyers and curators increasingly ask AI assistants things like “abstract landscape painters in New Mexico” or “artists who paint large commissions for hotel lobbies”. An assistant can only recommend an artist whose site it can read. Your name, medium, themes, city, galleries and exhibitions are written as text, and structured data describes you, each artwork with medium, size and year, and each exhibition with its venue and dates."),
+        p("Buyers and curators increasingly ask AI assistants things like “abstract landscape painters in New Mexico” or “artists who paint large commissions for hotel lobbies”. An assistant can only recommend an artist whose site it can read. Your name, medium, themes, city, galleries and exhibitions are written as text, and structured data describes you, each artwork with medium, size and year, and each exhibition with its venue and dates. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting named in those answers takes further work; I describe it on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

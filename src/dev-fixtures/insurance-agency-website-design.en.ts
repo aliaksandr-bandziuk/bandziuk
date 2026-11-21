@@ -163,7 +163,7 @@ export const insuranceAgencyWebsiteDesignEn = {
         ),
 
         h2("An insurance agency website that ChatGPT and Google AI Overviews can read"),
-        p("Shoppers ask ChatGPT, Perplexity and Google’s AI Overviews things like “independent insurance agent in El Paso who speaks Spanish” or “who insures food trucks in Austin”. Insurance is a “Your Money or Your Life” topic for Google, held to a stricter standard of trust, and AI assistants lean on the same signals. The design keeps the facts as page text: lines of coverage, carriers, towns served, hours, languages, license details and the agents’ names, with InsuranceAgency structured data and the same name, address and phone as your Google profile. Every coverage guide shows its author and a review date."),
+        p("Shoppers ask ChatGPT, Perplexity and Google’s AI Overviews things like “independent insurance agent in El Paso who speaks Spanish” or “who insures food trucks in Austin”. Insurance is a “Your Money or Your Life” topic for Google, held to a stricter standard of trust, and AI assistants lean on the same signals. The design keeps the facts as page text: lines of coverage, carriers, towns served, hours, languages, license details and the agents’ names, with InsuranceAgency structured data and the same name, address and phone as your Google profile. Every coverage guide shows its author and a review date. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Being named in those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

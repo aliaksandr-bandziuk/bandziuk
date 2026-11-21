@@ -113,7 +113,7 @@ export const seniorLivingSeoEn = {
         p("The person typing “assisted living near me” is rarely the future resident. More often it is a daughter or son, sometimes in another state, searching at lunch or late at night after a fall, a hospital discharge or a worrying phone call. They open several tabs and call the two or three communities that answer their questions first. That search happens in three places:"),
         li("the map results, where three communities with a rating and a phone number take many of the first calls"),
         li("the regular results, crowded with referral services, directories and large operators"),
-        li("AI answers in Google and ChatGPT, which now name communities when asked which memory care nearby has good reviews"),
+        li("AI answers in Google and ChatGPT, Perplexity, Gemini, which now name communities when asked which memory care nearby has good reviews"),
         p("SEO for senior living works on all three: your pages, your profile, your reviews and the plain facts that assistants can quote."),
 
         h2("Senior living keywords by level of care: independent living, assisted living and memory care pages"),

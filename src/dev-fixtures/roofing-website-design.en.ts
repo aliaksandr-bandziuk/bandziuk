@@ -162,7 +162,7 @@ export const roofingWebsiteDesignEn = {
         li("Do we get the design files and the finished site when the project ends?"),
 
         h2("Roofing website design that ChatGPT and Google AI Overviews can read"),
-        p("Homeowners increasingly ask ChatGPT, Perplexity or Google’s AI Overviews which roofers nearby are certified, or how a metal roof compares with shingles. Assistants read text, not pictures. A design that puts certifications in badge images, warranty terms in a graphic and service areas on a map image hides the very facts an assistant needs. The same facts set as real text beside the badges, with structured data behind the page, can be read and repeated."),
+        p("Homeowners increasingly ask ChatGPT, Perplexity or Google’s AI Overviews which roofers nearby are certified, or how a metal roof compares with shingles. Assistants read text, not pictures. A design that puts certifications in badge images, warranty terms in a graphic and service areas on a map image hides the very facts an assistant needs. The same facts set as real text beside the badges, with structured data behind the page, can be read and repeated. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

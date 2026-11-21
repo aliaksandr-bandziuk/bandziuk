@@ -158,7 +158,7 @@ export const vacationRentalWebsiteDesignEn = {
         p("Which deposit and damage options are available depends on your booking software, payment provider and local rules; the design makes the one you choose visible before the guest pays."),
 
         h2("Local area guides on a vacation rental website"),
-        p("Guests choose a rental by the place around it as much as by the property. Guides written by the owner — the bakery that opens at seven, the beach that stays quiet in August, where to park for the trail, what to do on a rainy day — help guests decide, give past guests a reason to return to the site and give search engines and AI assistants real local text. Each guide links to the nearby properties. Check-in instructions, Wi-Fi details and house manuals can sit in a private section for booked guests."),
+        p("Guests choose a rental by the place around it as much as by the property. Guides written by the owner — the bakery that opens at seven, the beach that stays quiet in August, where to park for the trail, what to do on a rainy day — help guests decide, give past guests a reason to return to the site and give search engines and AI assistants real local text. Each guide links to the nearby properties. Check-in instructions, Wi-Fi details and house manuals can sit in a private section for booked guests. The label for the answer shown in search itself is answer engine optimization (AEO)."),
 
         h2("Bed and breakfast website design and B&B website builders"),
         p("A bed and breakfast sells something different from a whole-home rental: rooms in a house where the hosts live, breakfast and the hosts themselves. Bed and breakfast website design reflects that:"),

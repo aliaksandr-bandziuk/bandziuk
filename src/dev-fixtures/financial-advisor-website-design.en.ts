@@ -192,7 +192,7 @@ export const financialAdvisorWebsiteDesignEn = {
         p("When you look at examples, open the fee page and a team profile, not only the home page. That is where a prospect decides."),
 
         h2("A financial advisor website that ChatGPT and Google AI Overviews can read"),
-        p("People ask ChatGPT, Perplexity and Google’s AI Overviews to find a fee-only planner who works with teachers or an advisor who understands US and UK pensions. Google treats financial content as “Your Money or Your Life” and holds it to a higher standard, and AI assistants lean on the same trust signals. The design keeps the facts readable: names, designations, niches, locations and the firm’s regulatory status as text, structured data for the firm and each advisor, and an author and review date on every article."),
+        p("People ask ChatGPT, Perplexity and Google’s AI Overviews to find a fee-only planner who works with teachers or an advisor who understands US and UK pensions. Google treats financial content as “Your Money or Your Life” and holds it to a higher standard, and AI assistants lean on the same trust signals. The design keeps the facts readable: names, designations, niches, locations and the firm’s regulatory status as text, structured data for the firm and each advisor, and an author and review date on every article. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Being named in those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

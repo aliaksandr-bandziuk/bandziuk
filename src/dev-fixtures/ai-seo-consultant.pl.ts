@@ -85,7 +85,7 @@ export const aiSeoConsultantPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Jestem niezależnym ekspertem AI SEO: pomagam firmom być widocznymi w Google i wymienianymi, z poprawnymi faktami, gdy klienci pytają ChatGPT, Perplexity, Gemini albo podsumowania AI w Google. Pracę wykonuję sam — analizę, zmiany na stronie i pomiar — więc osoba, z którą rozmawiacie, odpowiada za wynik."),
+        p("Jestem niezależnym ekspertem AI SEO: pomagam firmom być widocznymi w Google i wymienianymi, z poprawnymi faktami, gdy klienci pytają ChatGPT, Perplexity, Gemini albo podsumowania AI w Google. Pracę wykonuję sam — analizę, zmiany na stronie i pomiar — więc osoba, z którą rozmawiacie, odpowiada za wynik. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
 
         h2("Czym zajmuje się ekspert AI SEO"),
         p("Ta praca ma cztery części i konsultant powinien umieć wykonać wszystkie, nie tylko pierwszą:"),

@@ -164,7 +164,7 @@ export const smallBusinessWebsiteDesignEn = {
         li("text that can be read without zooming and colors that stay readable outdoors"),
 
         h2("A small business website that ChatGPT and Google AI Overviews can read"),
-        p("People now ask ChatGPT, Perplexity or Google’s AI Overviews for recommendations: a bakery that makes custom cakes, an accountant who speaks Polish, a bike repair shop open on Sunday. Assistants can only suggest what they can read and check. The site is built so the facts about your business are text, not pictures — services, prices, area, hours and languages — with structured data for the business, its services and reviews, and the same name, address and phone number as on your Google Business Profile and in directories."),
+        p("People now ask ChatGPT, Perplexity or Google’s AI Overviews for recommendations: a bakery that makes custom cakes, an accountant who speaks Polish, a bike repair shop open on Sunday. Assistants can only suggest what they can read and check. The site is built so the facts about your business are text, not pictures — services, prices, area, hours and languages — with structured data for the business, its services and reviews, and the same name, address and phone number as on your Google Business Profile and in directories. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting mentioned in those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

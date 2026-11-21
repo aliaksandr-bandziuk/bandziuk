@@ -167,7 +167,7 @@ export const hvacWebsiteDesignEn = {
         p("A template is a reasonable start for a new one-truck company. A custom design pays off once you sell replacements and memberships, or pay for ads that send visitors to the site. Leaving a template later usually means designing again from the start."),
 
         h2("HVAC website design that ChatGPT and Google AI Overviews can read"),
-        p("Homeowners now ask ChatGPT, Perplexity or Google’s AI Overviews to compare HVAC companies nearby or explain whether a heat pump suits their house. Assistants read text, not pictures. A license number inside a badge image, a plan table made as a graphic or a rebate inside a banner is invisible to them. The design keeps those facts as real text on the page, with structured data for the company, its services and its plans."),
+        p("Homeowners now ask ChatGPT, Perplexity or Google’s AI Overviews to compare HVAC companies nearby or explain whether a heat pump suits their house. Assistants read text, not pictures. A license number inside a badge image, a plan table made as a graphic or a rebate inside a banner is invisible to them. The design keeps those facts as real text on the page, with structured data for the company, its services and its plans. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

@@ -191,7 +191,7 @@ export const propertyDeveloperWebsiteEn = {
       _key: k("b"),
       content: [
         h2("A developer website that AI assistants can read"),
-        p("Buyers and investors increasingly ask ChatGPT, Perplexity or Google's AI Overviews which developments are being built in an area, who the developer behind one is, what a completion date and payment schedule look like, and whether previous projects were delivered on time. The assistant answers from text it can read and restate, and it names sources — so the structure of the site decides whether your company appears in that answer at all."),
+        p("Buyers and investors increasingly ask ChatGPT, Perplexity or Google's AI Overviews which developments are being built in an area, who the developer behind one is, what a completion date and payment schedule look like, and whether previous projects were delivered on time. The assistant answers from text it can read and restate, and it names sources — so the structure of the site decides whether your company appears in that answer at all. Getting a company named in those answers is called generative engine optimization (GEO), or answer engine optimization (AEO)."),
         p("In practice: a direct answer at the top of each section, facts about locations, dates, areas and terms rather than adjectives, Schema.org markup for the organisation and the developments that matches the visible text, and content available without running scripts. A render carousel with the facts inside the images is invisible to all of it."),
         p(
           "How this is done on a site that already exists is a separate job: ",

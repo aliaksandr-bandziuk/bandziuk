@@ -39,7 +39,7 @@ export const seoForDermatologistsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Conditions, skin checks, Maps", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Conditions, skin checks, Maps", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Skin check near me", "Eczema dermatologist", "In-network with your plan", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Dermatology SEO audit: website, Google Business Profiles and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -102,7 +102,7 @@ export const seoForDermatologistsEn = {
       content: [
         p("SEO for dermatologists means that a person with a rash, a changing mole or a question about laser treatment finds your practice — on its own website, on Google Maps and in AI answers — and books an appointment. I do this myself, as a single consultant who also builds websites, for private practices that run medical, surgical and cosmetic dermatology under one name. One person audits the site, writes the condition pages with your dermatologists and makes the changes in the code."),
 
-        h2("What SEO for dermatologists covers: medical, surgical and cosmetic dermatology"),
+        h2("SEO for dermatologists: medical, surgical and cosmetic dermatology"),
         p("A dermatology practice serves at least three kinds of patients, and each of them searches in a different way:"),
         li("someone living with a condition — “adult acne dermatologist”, “eczema on hands won’t heal”, “psoriasis biologics” — who wants to know whether a specialist can help and whether insurance pays"),
         li("someone worried about a spot — “mole changed color”, “full body skin check near me” — who wants an appointment soon"),
@@ -169,7 +169,7 @@ export const seoForDermatologistsEn = {
         ),
 
         h2("Dermatology SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("More and more patients ask assistants “should I get this mole checked”, “which dermatologist in Denver treats hidradenitis” or “dermatologist or med spa for rosacea laser”. An assistant builds its reply from sources it can compare: the practice website, the Google profile, Healthgrades or Zocdoc listings and reviews. On health questions it favors sources that name a qualified author. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a dermatology practice it means:"),
+        p("More and more patients ask ChatGPT, Perplexity and Gemini “should I get this mole checked”, “which dermatologist in Denver treats hidradenitis” or “dermatologist or med spa for rosacea laser”. An assistant builds its reply from sources it can compare: the practice website, the Google profile, Healthgrades or Zocdoc listings and reviews. On health questions it favors sources that name a qualified author. Getting into those answers is called generative engine optimization (GEO) or answer engine optimization (AEO). For a dermatology practice it means:"),
         li("conditions treated, procedures, locations, languages, accepted plans and new-patient availability written as plain facts"),
         li("short, clinician-reviewed answers to the questions patients ask the front desk"),
         li("the same practice and doctor details everywhere assistants look"),
@@ -206,6 +206,7 @@ export const seoForDermatologistsEn = {
           ["Should cosmetic dermatology have its own website?", "Usually not. One site with separate medical and cosmetic sections keeps the reputation of the practice and its doctors in one place. A separate site makes sense when the cosmetic side runs as its own med spa brand with its own booking and memberships."],
           ["Can patients send photos of a rash or a mole through our website?", "Not through an ordinary form or email. In the US, skin photos are health information and belong in a HIPAA-compliant patient portal or telehealth tool. The website form should ask only for contact details and a preferred time. Your compliance adviser should confirm the setup for your practice."],
           ["How long does dermatology SEO take?", "Profile fixes and corrected pages can show within weeks. A new condition or skin check page typically starts bringing patients after two to four months; cosmetic treatment pages in large metros need more time."],
+          ["Will patients find the clinic through ChatGPT?", "Increasingly, when there is something to quote: conditions, procedures and prices named in text with prices, each dermatologist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the clinic out of the answer."],
           ["Can you work with a US dermatology practice from Poland?", "Yes. Everything — the website, the profiles, the search data for your area — is done remotely and in English. Central European afternoons and evenings fall within US business hours, so we can talk during your morning on the East Coast or in Central time. I invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

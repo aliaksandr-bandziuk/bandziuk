@@ -111,7 +111,7 @@ export const junkRemovalSeoPl = {
         li("opróżnianie mieszkań, piwnic, strychów i garaży"),
         li("wywóz mebli i gabarytów"),
         li("cennik, wizytówka w Mapach Google i opinie"),
-        li("odpowiedzi ChatGPT i podsumowania AI w Google"),
+        li("odpowiedzi ChatGPT, Perplexity, Gemini i podsumowania AI w Google"),
         p(
           "Jeśli Twoja firma zajmuje się głównie przeprowadzkami, a wywóz to dodatek, lepiej pasuje strona ",
           link("pozycjonowanie firmy przeprowadzkowej", "/pl/pozycjonowanie-strony-firmy-przeprowadzkowej"),

@@ -101,7 +101,7 @@ export const cateringWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("Catering website design is the service I offer catering companies that want their site to bring quote requests and orders, not only to show nice photos. I design and build the whole site myself — the look, the menus, the quote form and the payments — so you deal with one person for both the design and the way the site works, at a price fixed before the start. A catering site has two kinds of visitors: a planner preparing an event weeks ahead who needs enough detail to send a request, and an office assistant who needs lunch for twelve people tomorrow and wants to order in a few minutes."),
+        p("Catering website design is the service I offer catering companies that want their site to bring quote requests and orders, not only to show nice photos. I design and build the whole site myself — the look, the menus, the quote form and the payments — so you deal with one person for both the design and the way the site works, at a price fixed before the start. A catering site has two kinds of visitors: a planner preparing an event weeks ahead who needs enough detail to send a request, and an office assistant who needs lunch for twelve people tomorrow and wants to order in a few minutes. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
 
         h2("What the first screen of a catering website shows"),
         p("The visitor decides within seconds whether to keep reading, so the first screen on a phone answers four things without scrolling:"),
@@ -156,7 +156,7 @@ export const cateringWebsiteDesignEn = {
         ),
 
         h2("A catering website that ChatGPT and Google AI Overviews can read"),
-        p("A planner may ask ChatGPT or Google’s AI Overviews which caterers in their city can serve eighty guests with vegan options, the assistant answers from text it can parse. So the service area, headcounts you handle, menus, dietary options, lead times and price ranges sit in the page HTML as plain text — not locked in a PDF menu or an image — and the business and its services get structured data. Giuseppe’s site in Milan is built this way, and ChatGPT already quotes his newer pages."),
+        p("A planner may ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which caterers in their city can serve eighty guests with vegan options, the assistant answers from text it can parse. So the service area, headcounts you handle, menus, dietary options, lead times and price ranges sit in the page HTML as plain text — not locked in a PDF menu or an image — and the business and its services get structured data. Giuseppe’s site in Milan is built this way, and ChatGPT already quotes his newer pages."),
         p(
           "Ongoing work on AI answers is described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

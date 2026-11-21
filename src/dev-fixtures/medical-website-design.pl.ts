@@ -151,7 +151,7 @@ export const medicalWebsiteDesignPl = {
         ),
 
         h2("Strona internetowa dla lekarza, którą ChatGPT i przeglądy AI w Google potrafią przeczytać"),
-        p("Pacjenci coraz częściej pytają ChatGPT, Perplexity albo przegląd od AI w Google, który lekarz w okolicy przyjmuje z danym problemem, mówi po angielsku albo ma wolne terminy prywatnie. Asystenci odpowiadają na podstawie tego, co potrafią przeczytać i sprawdzić. Dlatego lekarze ze specjalizacjami, usługi, adresy, godziny, języki i informacja o NFZ są zapisane tekstem i danymi strukturalnymi, zgodnie z wizytówką Google i profilem w ZnanyLekarz."),
+        p("Pacjenci coraz częściej pytają ChatGPT, Perplexity albo przegląd od AI w Google, który lekarz w okolicy przyjmuje z danym problemem, mówi po angielsku albo ma wolne terminy prywatnie. Asystenci odpowiadają na podstawie tego, co potrafią przeczytać i sprawdzić. Dlatego lekarze ze specjalizacjami, usługi, adresy, godziny, języki i informacja o NFZ są zapisane tekstem i danymi strukturalnymi, zgodnie z wizytówką Google i profilem w ZnanyLekarz. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "Widoczność w odpowiedziach AI to dalsza praca, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

@@ -37,11 +37,11 @@ export const dentalWebsiteDesignEn = {
   seo: {
     metaTitle: "Dentist Website Design for Nervous Patients | Bandziuk",
     metaDescription:
-      "Dental website design for anxious patients: calm visuals, real team photos, smile galleries with consent, insurance, booking on every screen. From 700 €.",
+      "Dental website design for anxious patients: calm visuals, smile galleries with consent, insurance, booking on every screen, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["New patients welcome", "Dental emergency? Call", "Insurance we accept", "Book a visit"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple dental practice website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -175,7 +175,7 @@ export const dentalWebsiteDesignEn = {
         p("Accessibility is also a legal question for businesses open to the public in several countries. A design that works for a seventy-year-old patient works better for everyone else too."),
 
         h2("A dental website design that ChatGPT and Google AI Overviews can read"),
-        p("More patients now ask ChatGPT, Perplexity or Google’s AI Overviews which dentist nearby takes their insurance, sees children or treats nervous patients. An assistant cannot read an insurance logo wall or a slider of treatment banners. So the design puts the facts it needs in plain HTML: the list of plans, each dentist’s degree and specialty, emergency hours and treatments, plus Dentist and Person structured data that ties them to the practice."),
+        p("More patients now ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which dentist nearby takes their insurance, sees children or treats nervous patients. An assistant cannot read an insurance logo wall or a slider of treatment banners. So the design puts the facts it needs in plain HTML: the list of plans, each dentist’s degree and specialty, emergency hours and treatments, plus Dentist and Person structured data that ties them to the practice. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
@@ -190,7 +190,7 @@ export const dentalWebsiteDesignEn = {
         p("Dental website design templates and dental clinic website templates come from three places: dental marketing platforms that bundle a site with their software, general builders such as Webflow, and theme stores. Dribbble and Pinterest add inspiration shots. All of them look calm and polished in the demo, because the demo uses a model’s smile and lorem ipsum. The trouble starts with your content: twelve treatments squeezed into one services page, no slot for an insurance list, a gallery with no field for consent, and a booking embed that breaks the layout on a phone."),
         p("For a newly opened practice with one dentist and a tight budget, a template can carry the first year. Custom dental website design earns its cost once implants, aligners or veneers are a large part of revenue, once there are several dentists or offices, or once paid campaigns send patients to treatment pages — the cases where a page that fails costs real appointments."),
 
-        h2("What the best dental websites have in common"),
+        h2("Dental websites that win patients: what the best ones share"),
         p("Lists of the best dental websites mix large groups with small family practices. The decisions behind the good ones are simple and fit any practice:"),
         li("a first screen that names the practice and the area and shows real people"),
         li("a booking button and an emergency phone number that never leave the screen"),
@@ -228,6 +228,7 @@ export const dentalWebsiteDesignEn = {
           ["How long does dental website design take?", "Expect the phone mock-ups of the home screen, one treatment page and the new-patient page about two weeks after I have your brief and photos. A finished, built site usually needs four to six weeks; waiting for a photo shoot or for dentists to review treatment pages is what most often stretches it."],
           ["Do you design dental websites without building them?", "No. Design and build come together. How the booking button, the gallery and the emergency line behave on a phone is decided while building, and a design handed over as pictures loses most of that."],
           ["Can you redesign our dental website without losing Google rankings?", "Yes. Every existing address is mapped to its new page and redirected, and structured data is carried over before the new design goes live, so the positions the site already has are kept."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: treatments, prices and booking named in text with prices, each dentist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Do you work with dental practices outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, insurance or private-pay pricing, and the review platforms your patients use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

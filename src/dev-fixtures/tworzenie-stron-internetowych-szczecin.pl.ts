@@ -152,7 +152,7 @@ export const tworzenieStronInternetowychSzczecinPl = {
         p("Blog zakładam tylko wtedy, gdy ktoś będzie w nim pisał. Trzy wpisy sprzed lat robią gorsze wrażenie niż brak bloga."),
 
         h2("Strona internetowa firmy ze Szczecina, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Klienci coraz częściej pytają asystentów AI: „dentysta w Szczecinie, gdzie mówią po niemiecku”, „spedycja Szczecin z transportem do Skandynawii”, „ekipa wykończeniowa Mierzyn”. ChatGPT, Perplexity i podsumowania AI w Google polecają firmy, o których mogą przeczytać konkretne fakty. Dlatego na stronach, które buduję, usługi, ceny, obszar działania, godziny i języki obsługi są zapisane zwykłym tekstem, a znaczniki schema.org powtarzają dane z wizytówki Google."),
+        p("Klienci coraz częściej pytają asystentów AI: „dentysta w Szczecinie, gdzie mówią po niemiecku”, „spedycja Szczecin z transportem do Skandynawii”, „ekipa wykończeniowa Mierzyn”. ChatGPT, Perplexity i podsumowania AI w Google polecają firmy, o których mogą przeczytać konkretne fakty. Dlatego na stronach, które buduję, usługi, ceny, obszar działania, godziny i języki obsługi są zapisane zwykłym tekstem, a znaczniki schema.org powtarzają dane z wizytówki Google. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "Dalsza praca nad widocznością w asystentach jest opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

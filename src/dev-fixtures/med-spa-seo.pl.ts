@@ -216,6 +216,7 @@ export const medSpaSeoPl = {
           ["Czy można publikować zdjęcia przed i po?", "Tylko z pisemną zgodą pacjenta na rozpowszechnianie wizerunku, w tym samym świetle i kadrze, bez retuszu. Przy zabiegach lekarskich zakres publikacji warto sprawdzić z prawnikiem, bo takie zdjęcia łatwo uznać za reklamę."],
           ["Czy wystarczą Booksy i Instagram?", "Przynoszą rezerwacje, ale na Booksy stoicie obok konkurencji, a Instagram rzadko trafia do wyników dla „zabieg + miasto”. Własna strona i wizytówka Google zbierają pacjentów, którzy szukają w wyszukiwarce i pytają asystentów AI."],
           ["Ile trwa pozycjonowanie strony kliniki medycyny estetycznej?", "Uporządkowana wizytówka i lepsze tytuły dają pierwsze efekty po kilku tygodniach. Na wynik nowej podstrony zabiegu czeka się zwykle od dwóch do czterech miesięcy, a przy wypełnianiu ust czy depilacji laserowej w dużym mieście — dłużej."],
+          ["Czy pacjenci znajdą klinikę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: zabiegi, ceny i karnety nazwane tekstem razem z cenami, każdy lekarz ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza klinikę z odpowiedzi."],
           ["Czy pracujesz z klinikami spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie robię zdalnie: rozmowy wideo, wspólne dokumenty i jasne etapy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

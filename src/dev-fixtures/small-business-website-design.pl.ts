@@ -166,7 +166,7 @@ export const smallBusinessWebsiteDesignPl = {
         ),
 
         h2("Strona małej firmy, którą ChatGPT i AI Overviews w Google potrafią przeczytać"),
-        p("Klienci coraz częściej pytają ChatGPT, Perplexity albo podsumowania AI w Google: „dobry mechanik na Woli”, „księgowa dla JDG, która mówi po ukraińsku”, „fryzjer otwarty w niedzielę”. Asystenci polecają tylko te firmy, o których potrafią coś przeczytać. Dlatego usługi, ceny, obszar działania, godziny i języki obsługi są na stronie zapisane tekstem, a nie na grafikach, a dane strukturalne opisują firmę, jej usługi i opinie tak samo jak wizytówka Google."),
+        p("Klienci coraz częściej pytają ChatGPT, Perplexity albo podsumowania AI w Google: „dobry mechanik na Woli”, „księgowa dla JDG, która mówi po ukraińsku”, „fryzjer otwarty w niedzielę”. Asystenci polecają tylko te firmy, o których potrafią coś przeczytać. Dlatego usługi, ceny, obszar działania, godziny i języki obsługi są na stronie zapisane tekstem, a nie na grafikach, a dane strukturalne opisują firmę, jej usługi i opinie tak samo jak wizytówka Google. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
         p(
           "Widoczność w odpowiedziach AI to dalsza, stała praca, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

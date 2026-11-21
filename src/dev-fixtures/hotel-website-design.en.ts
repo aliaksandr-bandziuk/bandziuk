@@ -168,7 +168,7 @@ export const hotelWebsiteDesignEn = {
         p("Accessibility has two sides. The site follows the WCAG guidelines: readable text, enough contrast, a date picker that works with a keyboard and a screen reader. And guests with reduced mobility need facts, not a wheelchair icon: step-free entrance, lift, door widths, roll-in shower, which rooms are adapted — on an accessibility page and on each adapted room page."),
 
         h2("A hotel website that ChatGPT and Google AI Overviews can read"),
-        p("Travelers increasingly ask ChatGPT, Perplexity or Google’s AI Overviews where to stay: “a hotel with a spa and sea-view rooms, good for a long weekend”. Assistants answer from what they can read and verify. Room sizes, amenities and check-in times inside images and sliders are hidden from them; the same facts as text, with Hotel structured data and details that match your Google Business Profile and OTA listings, can be read and repeated."),
+        p("Travelers increasingly ask ChatGPT, Perplexity or Google’s AI Overviews where to stay: “a hotel with a spa and sea-view rooms, good for a long weekend”. Assistants answer from what they can read and verify. Room sizes, amenities and check-in times inside images and sliders are hidden from them; the same facts as text, with Hotel structured data and details that match your Google Business Profile and OTA listings, can be read and repeated. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Becoming a source for those answers takes ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

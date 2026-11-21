@@ -188,7 +188,7 @@ export const mortgageBrokerWebsiteDesignEn = {
         ),
 
         h2("A mortgage broker website that ChatGPT and Google AI Overviews can read"),
-        p("Borrowers now type questions into ChatGPT, Perplexity or Google’s AI Overviews such as “a mortgage broker in Phoenix who works with self-employed buyers” or “a loan officer in Houston who speaks Spanish”. An assistant can only name someone whose details it can read, so the build keeps them as page text — names, NMLS IDs, licensed states, languages, borrower types, contacts — consistent with your Google Business Profile and NMLS record. FinancialService and Person markup describe the brokerage and each loan officer; disclosures are HTML, not images or PDFs."),
+        p("Borrowers now type questions into ChatGPT, Perplexity or Google’s AI Overviews such as “a mortgage broker in Phoenix who works with self-employed buyers” or “a loan officer in Houston who speaks Spanish”. An assistant can only name someone whose details it can read, so the build keeps them as page text — names, NMLS IDs, licensed states, languages, borrower types, contacts — consistent with your Google Business Profile and NMLS record. FinancialService and Person markup describe the brokerage and each loan officer; disclosures are HTML, not images or PDFs. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Whether assistants then recommend you depends on further work, which I describe on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

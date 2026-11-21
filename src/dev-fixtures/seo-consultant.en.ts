@@ -131,7 +131,7 @@ export const seoConsultantEn = {
         li("In-house SEO specialist — a full-time employee who knows your product deeply. Worth it when SEO fills a full week, every week; for most small and mid-size sites it does not."),
         li("Freelancer from a marketplace — quick to hire and cheap per task. Fine for a defined job such as fixing broken links; risky for strategy, because nobody checks the decisions."),
         li("Independent SEO consultant — one experienced person who plans the work and does it. You get senior SEO skills and the speed of someone who can change the live site the same day."),
-        p("My focus is organic search: Google and AI answers. If you also buy ads or post on social media, I work alongside the people who manage them — shared data on landing pages, search terms and conversions helps both sides."),
+        p("My focus is organic search: Google and AI answers. If you also buy ads or post on social media, I work alongside the people who manage them — shared data on landing pages, search terms and conversions helps both sides. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
 
         h2("Freelance SEO consultant working remotely: CET hours, English and invoices in EUR"),
         p("I am a freelance SEO consultant registered as a sole trader in Warsaw, Poland. All work happens remotely: video calls with screen sharing, shared documents, access to Search Console and your CMS. My hours follow Central European Time, which overlaps with the UK and Israel for almost the whole working day and with the US East Coast in your morning."),

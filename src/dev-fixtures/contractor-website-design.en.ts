@@ -132,7 +132,7 @@ export const contractorWebsiteDesignEn = {
         li("memberships and certifications — only real ones"),
 
         h2("Contractor website design that ChatGPT and Google AI Overviews can read"),
-        p("Homeowners increasingly ask ChatGPT, Perplexity or Google’s AI Overviews for a recommended contractor nearby. Assistants recommend what they can read and verify, so the design keeps the important facts machine-readable: services, service areas, licence, insurance and years in business written as text, structured data for the business and its services, and the same details as in your Google Business Profile."),
+        p("Homeowners increasingly ask ChatGPT, Perplexity or Google’s AI Overviews for a recommended contractor nearby. Assistants recommend what they can read and verify, so the design keeps the important facts machine-readable: services, service areas, licence, insurance and years in business written as text, structured data for the business and its services, and the same details as in your Google Business Profile. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

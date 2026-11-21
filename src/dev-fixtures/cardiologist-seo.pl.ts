@@ -35,7 +35,7 @@ export const cardiologistSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Badania, ceny, wizytówka", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Badania, ceny, wizytówka", "Widoczność w ChatGPT i AI", "Audyt od 1000 zł"],
   heroPhonePoints: ["Echo serca — 350 zł", "Holter, jutro", "Druga opinia online", "Zapisz się"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt strony kardiologa: podstrony badań, ceny, wizytówka, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -54,7 +54,7 @@ export const cardiologistSeoPl = {
         { _key: k("o"), iconName: "clock", title: "Termin obok kolejki NFZ", text: "Powód, dla którego pacjent płaci" },
         { _key: k("o"), iconName: "map-pin", title: "Wizytówka jako lista badań", text: "A nie jedno słowo „kardiologia”" },
         { _key: k("o"), iconName: "file-search", title: "Druga opinia na gotowych wynikach", text: "Usługa z własnym popytem" },
-        { _key: k("o"), iconName: "badge-check", title: "Autor, rejestr, data sprawdzenia", text: "Po tym ocenia się podstrony medyczne" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Badania, ceny i numery, które asystent zacytuje" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -76,7 +76,8 @@ export const cardiologistSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego strona kardiologa nie wygra zapytań o objawy i nie musi ich wygrywać"),
+        h2("Zapytania o objawy należą do portali: na czym wygrywa strona kardiologa"),
+        p("Zajmuję się pozycjonowaniem stron kardiologów i praktyk kardiologicznych, a pierwsza zmiana dotyczy zwykle celu: nie objawy, a badania, na które pacjent ma już skierowanie."),
         p("Prawie każda strona kardiologa, którą mam obejrzeć, próbuje rankować na objawy: ból w klatce piersiowej, wysokie ciśnienie, kołatanie serca, duszność. Te zapytania należą do portali zdrowotnych i dużych sieci klinicznych z setkami sprawdzonych artykułów i jedna praktyka ich nie weźmie. Gorsza prawda jest inna: gdyby nawet wzięła, zmieniłoby to niewiele — ktoś, kto o północy wpisuje „ból w klatce”, szuka uspokojenia, nie wizyty za trzy tygodnie."),
         p("Zapytania, które przyprowadzają pacjentów, nie dotyczą choroby. Dotyczą tego, co pacjentowi właśnie kazano zrobić. Lekarz rodzinny mówi: proszę zrobić echo serca. Pacjent wychodzi z gabinetu, otwiera telefon i wpisuje nazwę badania, miasto i słowo „cena”. To zapytanie jest krótkie, komercyjne, niedoobsłużone i do wygrania — i właśnie pod nie prawie żadna strona kardiologa nie jest zbudowana."),
         p(
@@ -150,7 +151,7 @@ export const cardiologistSeoPl = {
       _key: k("b"),
       content: [
         h2("Żeby praktykę kardiologiczną cytowały asystenty AI (GEO, AEO)"),
-        p("Pytanie „gdzie w tym tygodniu założą holtera” zadaje się dziś asystentowi tak często jak wyszukiwarce, a asystent odpowiada z tekstu, który potrafi przeczytać. Praktyka, której badania nazwane są tylko na zdjęciu cennika, termin zna wyłącznie rejestracja, a numery prawa wykonywania zawodu nie stoją nigdzie tekstem, w tej odpowiedzi nie występuje — nie jest nisko, nie występuje."),
+        p("Pytanie „gdzie w tym tygodniu założą holtera” zadaje się dziś ChatGPT, Perplexity i Gemini tak często jak wyszukiwarce, a asystent odpowiada z tekstu, który potrafi przeczytać. Praktyka, której badania nazwane są tylko na zdjęciu cennika, termin zna wyłącznie rejestracja, a numery prawa wykonywania zawodu nie stoją nigdzie tekstem, w tej odpowiedzi nie występuje — nie jest nisko, nie występuje."),
         p(
           "Cytowalną praktykę robi to samo, co robi ją użyteczną: każde badanie nazwane tekstem razem z ceną, termin w jednym utrzymywanym zdaniu, każdy lekarz ze specjalizacją i numerem, języki konsultacji jako dane. Sama praca to ",
           link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),
@@ -176,6 +177,7 @@ export const cardiologistSeoPl = {
           ["Czy strona może opisywać, jak leczycie?", "Może opisywać schorzenia, badania i podejścia, ale bez cech reklamy i bez nazw handlowych: art. 14 ust. 1 ustawy o działalności leczniczej wyłącza formę reklamową, a art. 57 ust. 1 Prawa farmaceutycznego zakazuje reklamy publicznej leków na receptę. Odpowiedzialność za treści publikowane w imieniu lekarza nakłada art. 71 KEL."],
           ["Czy warto zrobić podstronę drugiej opinii?", "Często to najbardziej opłacalna podstrona na stronie kardiologa: wyniki pacjent ma już w ręku, miasta taka usługa nie ma, a na podstronie trzeba napisać, w jakich krajach konsultujesz i czego nie robisz bez badania."],
           ["Kiedy będzie efekt?", "Pierwszy ruch po około półtora miesiąca, wzrost w horyzoncie trzech–sześciu miesięcy. Pozycji nie obiecuję, a w kardiologii taka obietnica byłaby warta jeszcze mniej niż zwykle."],
+          ["Czy ChatGPT i inni asystenci będą wymieniać praktykę?", "Coraz częściej, jeśli jest co zacytować: badania nazwane tekstem razem z ceną, aktualny termin, każdy lekarz ze specjalizacją i numerem prawa wykonywania zawodu. Asystent powtarza to, co potrafi przeczytać, więc cennik na zdjęciu wyklucza praktykę z odpowiedzi."],
           ["Co jest potrzebne, żeby zacząć?", "Adres strony, obecny cennik, lista badań, które faktycznie wykonujecie, i na jakim sprzęcie, wasze terminy, imiona i numery prawa wykonywania zawodu lekarzy oraz języki konsultacji."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

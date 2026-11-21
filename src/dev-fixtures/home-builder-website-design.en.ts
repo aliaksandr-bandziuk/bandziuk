@@ -166,7 +166,7 @@ export const homeBuilderWebsiteDesignEn = {
         p("Inspiration galleries show home pages; open a plan page and a community page too. That is where a buyer decides to book a tour."),
 
         h2("A home builder website that ChatGPT and Google AI Overviews can read"),
-        p("A buyer can ask ChatGPT, Perplexity or Google’s AI Overviews to “compare new home builders near Boise” or “find single-story new homes near Raleigh with a big lot”. An assistant can suggest only what it can read. The design keeps community names, locations, price ranges, plan specifications, warranty terms and years in business as page text, not inside renderings, PDFs or map widgets, with structured data describing the company, its offices and the homes for sale. Prices and availability carry the date they were last checked."),
+        p("A buyer can ask ChatGPT, Perplexity or Google’s AI Overviews to “compare new home builders near Boise” or “find single-story new homes near Raleigh with a big lot”. An assistant can suggest only what it can read. The design keeps community names, locations, price ranges, plan specifications, warranty terms and years in business as page text, not inside renderings, PDFs or map widgets, with structured data describing the company, its offices and the homes for sale. Prices and availability carry the date they were last checked. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Getting named in those answers takes ongoing work; it is described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

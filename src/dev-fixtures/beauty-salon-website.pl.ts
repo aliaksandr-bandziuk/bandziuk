@@ -89,7 +89,7 @@ export const beautySalonWebsitePl = {
 
         h2("Podstrona pod każdy zabieg, z ceną i czasem trwania"),
         p("Trzon strony salonu to osobne podstrony pod pracę, a nie jedna lista: koloryzacja i techniki rozjaśniające, strzyżenie, przedłużanie i laminacja rzęs, brwi, manicure hybrydowy, pedicure, oczyszczanie i peelingi, depilacja laserowa, woskowanie."),
-        p("Na każdej stoi cena albo „od”, ile trwa, kto wykonuje, jak długo trzyma się efekt, czy potrzebne jest przygotowanie albo próba uczuleniowa, jak pielęgnować potem. To samo pozwala podstronie w ogóle się znaleźć: opis w dwóch linijkach to nie coś, z czym poradzi sobie wyszukiwarka albo asystent."),
+        p("Na każdej stoi cena albo „od”, ile trwa, kto wykonuje, jak długo trzyma się efekt, czy potrzebne jest przygotowanie albo próba uczuleniowa, jak pielęgnować potem. To samo pozwala podstronie w ogóle się znaleźć: opis w dwóch linijkach to nie coś, z czym poradzi sobie wyszukiwarka albo asystent. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
         p("Cennik sfotografowany z kartki albo zrzut z relacji się nie liczy. Ani wyszukiwarka, ani asystent AI nie czytają tekstu wewnątrz zdjęcia, więc salon, którego ceny istnieją tylko jako obrazek, jest niewidoczny dla obu."),
 
         h2("Rezerwacja online: podłączenie do systemu, w którym pracuje recepcja"),

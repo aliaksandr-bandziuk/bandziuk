@@ -128,7 +128,7 @@ export const interiorDesignerWebsiteDesignPl = {
         li("rozwiązanie: zmiany układu, materiały, meble na wymiar, na co poszedł budżet"),
         li("rzut przed i po oraz zdjęcia „przed”, jeśli inwestor się zgodził"),
         li("z kim pracowałeś: wykonawca, stolarz, fotograf"),
-        p("Wizualizacje podpisuję jako wizualizacje, a zdjęcia z realizacji jako zdjęcia, bo klient to rozróżnia. Opis stoi obok zdjęć jako zwykły tekst strony, nie napis na grafice — przeczyta go klient, Google i asystent AI."),
+        p("Wizualizacje podpisuję jako wizualizacje, a zdjęcia z realizacji jako zdjęcia, bo klient to rozróżnia. Opis stoi obok zdjęć jako zwykły tekst strony, nie napis na grafice — przeczyta go klient, Google i asystent AI. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
 
         h2("Zakres usług i cena projektu wnętrz za m² na stronie pracowni"),
         p("Klient, który pierwszy raz zamawia projekt, nie wie, czym koncepcja różni się od projektu wykonawczego ani czy płaci za metr, za pomieszczenie, czy ryczałtem. Podstrona usług wyjaśnia to, zanim padnie pytanie „ile to kosztuje”:"),

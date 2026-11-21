@@ -189,7 +189,7 @@ export const lawFirmWebsiteDesignEn = {
         p("Owners and in-house counsel read on a desktop as often as on a phone. Industry and service pages, bios that list the kinds of transactions handled, and dated articles count for more than emotional photography."),
 
         h2("A law firm website design that ChatGPT and Google AI Overviews can read"),
-        p("Design choices decide whether AI assistants can see the facts. A practice list drawn into an image, credentials inside a slider or a PDF résumé, an address shown only on an embedded map stay invisible to ChatGPT, Perplexity and Google’s AI Overviews. The design keeps them as page text: names, bar admissions, languages, practice areas, offices and hours, with the author and the review date shown on every article, a signal Google expects on legal pages."),
+        p("Design choices decide whether AI assistants can see the facts. A practice list drawn into an image, credentials inside a slider or a PDF résumé, an address shown only on an embedded map stay invisible to ChatGPT, Perplexity and Google’s AI Overviews. The design keeps them as page text: names, bar admissions, languages, practice areas, offices and hours, with the author and the review date shown on every article, a signal Google expects on legal pages. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting cited in those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

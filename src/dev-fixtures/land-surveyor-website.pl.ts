@@ -124,7 +124,7 @@ export const landSurveyorWebsitePl = {
         p("Naprawa to zwykła inżynieria: poprawne formaty i rozmiary obrazów, nic niewczytywanego poza ekranem, PDF-y linkowane zamiast osadzanych. To też najtańsza część wdrożenia."),
 
         h2("AI SEO wbudowane w stronę: ChatGPT, Perplexity, Gemini i AI Overviews"),
-        p("Wasz klient pyta asystenta, jaka mapa jest mu potrzebna, zanim otworzy wyszukiwarkę."),
+        p("Wasz klient pyta asystenta, jaka mapa jest mu potrzebna, zanim otworzy wyszukiwarkę. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p("Asystent czyta tekst. Zeskanowanego PDF-a nie przeczyta, a strony, która do niczego się nie zobowiązuje, nie zacytuje."),
         p("Dlatego wdrożenie od razu wynosi wyjaśnienia do tekstu, dodaje dane strukturalne firmy i usług, podaje termin i zasięg jako fakty i pilnuje, żeby nazwa, uprawnienia i telefon były wszędzie identyczne."),
         p(

@@ -92,10 +92,15 @@ for (const name of names) {
   if (mainKw && !mainKw.test(heading)) bad.push("в H1 нет главного ключевого слова");
 
   const heads = collect(fx.contentBlocks, (o) => o.style === "h2" || o.style === "h3").map(text);
-  const key = new Set(words(heading));
-  const hit = heads.filter((h) => words(h).some((w) => key.has(w))).length;
+  // Сравниваем основы, а не словоформы: «cardiologists» в H1 и «cardiology»
+  // в подзаголовке — одно и то же слово, как «продвижение» и «продвижения».
+  const stem = (w) => (w.length > 6 ? w.slice(0, 6) : w);
+  const key = new Set(words(heading).map(stem));
+  const hit = heads.filter((h) => words(h).map(stem).some((w) => key.has(w))).length;
   if (heads.length && hit / heads.length < 0.6) warn.push(`ключевые слова только в ${hit} из ${heads.length} подзаголовков (ниже 60%)`);
-  const openers = heads.filter((h) => /^(Почему|Что|Why|What|Dlaczego|Co)\b/.test(h));
+  // \b в JS работает по латинице, поэтому после «Почему» и «Что» границы нет и
+  // русские заголовки правило раньше пропускало. Смотрим на следующий символ.
+  const openers = heads.filter((h) => /^(Почему|Что|Why|What|Dlaczego|Co)([\s:,—-]|$)/.test(h));
   if (openers.length) bad.push(`подзаголовки начинаются с «почему/что»: ${openers.map((h) => `«${h.slice(0, 40)}…»`).join(", ")}`);
 
   const whole = JSON.stringify(fx);
@@ -111,7 +116,7 @@ for (const name of names) {
   // отдельный вопрос FAQ. На страницах про сайты она нужна так же.
   // Границы слова \b в JS работают по латинице, поэтому для кириллицы их не
   // ставим: «с ИИ» и «ИИ-поиск» иначе не находятся.
-  const AI = /ChatGPT|Perplexity|Gemini|AI Overviews|\bGEO\b|\bAEO\b|ИИ|\bAI\b/;
+  const AI = /ChatGPT|Perplexity|Gemini|AI Overviews|\bGEO\b|\bAEO\b|ИИ|нейросет|\bAI\b/i;
   const where = {
     "метаописание": AI.test(md),
     "чип героя": (fx.heroChips || []).some((c2) => AI.test(c2)),
@@ -155,7 +160,9 @@ for (const name of names) {
   const guide = (fx.contentBlocks || []).find((b) => b._type === "textContent" && (b.content || []).some((c) => c.style === "h2"));
   if (guide) {
     const firstP = (guide.content || []).find((c) => c.style === "normal" && !c.listItem);
-    const SELF = /\bI do\b|\bI build\b|\bI work\b|Zajmuję się|Buduję|Robię|Я занимаюсь|Я делаю|Делаю |Занимаюсь /;
+    // Первое лицо бывает и в середине фразы, и со строчной буквы:
+    // «Pozycjonowanie … robię sam» — такой абзац правилу удовлетворяет.
+    const SELF = /\bI do\b|\bI build\b|\bI work\b|\bI provide\b|\bI make\b|\bI run\b|[Zz]ajmuję się|[Bb]uduję|[Rr]obię|[Pp]rojektuję|[Pp]rowadzę|[Яя] занимаюсь|[Яя] делаю|[Дд]елаю |[Зз]анимаюсь |[Пп]ровожу |[Сс]обираю /;
     if (!firstP || !SELF.test(text(firstP))) bad.push("в первом абзаце основного текста нет прямой фразы про то, что вы оказываете эту услугу");
   }
 

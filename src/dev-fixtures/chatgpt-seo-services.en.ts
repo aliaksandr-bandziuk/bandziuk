@@ -89,7 +89,7 @@ export const chatgptSeoServicesEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("I provide ChatGPT SEO services: work that gets a business named, with the right facts, when buyers ask ChatGPT “who should I hire” or “what should I buy”. ChatGPT does not show ten links: it names two or three companies, and a business that is not among them does not exist for that question. The work is built on how ChatGPT actually chooses those names, and measured before and after."),
+        p("I provide ChatGPT SEO services: work that gets a business named, with the right facts, when buyers ask ChatGPT “who should I hire” or “what should I buy”. ChatGPT does not show ten links: it names two or three companies, and a business that is not among them does not exist for that question. The work is built on how ChatGPT actually chooses those names, and measured before and after. Getting a company named in those answers is called generative engine optimization (GEO), or answer engine optimization (AEO)."),
 
         h2("How ChatGPT search picks the businesses it names"),
         p(

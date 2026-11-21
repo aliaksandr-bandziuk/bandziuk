@@ -178,7 +178,7 @@ export const itCompanyWebsiteDesignEn = {
         ),
 
         h2("An IT company website that ChatGPT and Google AI Overviews can read"),
-        p("Buyers ask ChatGPT, Perplexity and Google’s AI Overviews for vendors with a certain stack, industry or location. IT company sites often hide exactly those facts: services behind animated tabs, the stack as a row of logos, case studies as PDFs, everything rendered in the browser. The design keeps services, technologies, industries, team size and locations as text on server-rendered pages, with structured data for the company and its offices."),
+        p("Buyers ask ChatGPT, Perplexity and Google’s AI Overviews for vendors with a certain stack, industry or location. IT company sites often hide exactly those facts: services behind animated tabs, the stack as a row of logos, case studies as PDFs, everything rendered in the browser. The design keeps services, technologies, industries, team size and locations as text on server-rendered pages, with structured data for the company and its offices. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting onto AI vendor shortlists is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

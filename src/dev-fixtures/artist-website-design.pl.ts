@@ -173,7 +173,7 @@ export const artistWebsiteDesignPl = {
         ),
 
         h2("Strona artysty, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Kolekcjonerzy i kuratorzy coraz częściej pytają asystentów AI: „polscy malarze abstrakcji tworzący duże formaty”, „artysta, który namaluje mural w kawiarni w Gdańsku”. ChatGPT, Perplexity czy odpowiedź AI nad wynikami Google wskażą jednak tylko artystę, o którym coś przeczytają. Na stronie nazwisko, technika, tematy, miasto, galerie i wystawy są więc zwykłym tekstem, a w kodzie dane strukturalne oznaczają Ciebie, każdą pracę z techniką, wymiarami i rokiem oraz każdą wystawę z miejscem i datami."),
+        p("Kolekcjonerzy i kuratorzy coraz częściej pytają asystentów AI: „polscy malarze abstrakcji tworzący duże formaty”, „artysta, który namaluje mural w kawiarni w Gdańsku”. ChatGPT, Perplexity czy odpowiedź AI nad wynikami Google wskażą jednak tylko artystę, o którym coś przeczytają. Na stronie nazwisko, technika, tematy, miasto, galerie i wystawy są więc zwykłym tekstem, a w kodzie dane strukturalne oznaczają Ciebie, każdą pracę z techniką, wymiarami i rokiem oraz każdą wystawę z miejscem i datami. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
         p(
           "Żeby asystenci faktycznie wymieniali Twoje nazwisko, trzeba nad tym dalej pracować — tym zajmuje się ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

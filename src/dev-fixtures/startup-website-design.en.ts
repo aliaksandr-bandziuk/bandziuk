@@ -138,7 +138,7 @@ export const startupWebsiteDesignEn = {
         li("monthly and yearly prices, with the difference shown in money, not only as a percentage"),
         li("a clear answer to “what happens when I go over the limit”"),
         li("short answers to billing questions — trial length, cancellation, invoices, VAT — under the table"),
-        p("If the price is not settled yet, the page can show plans without numbers and a “talk to us” button, but the plans and limits should still be there. Buyers and AI assistants both treat a missing pricing page as a warning sign."),
+        p("If the price is not settled yet, the page can show plans without numbers and a “talk to us” button, but the plans and limits should still be there. Buyers and AI assistants both treat a missing pricing page as a warning sign. The label for the answer shown in search itself is answer engine optimization (AEO)."),
 
         h2("Pages for investors on a startup company website"),
         p("Investors usually open the site after reading the deck. They are checking whether the company is what the deck says. Startup company website design takes this into account without turning the site into a pitch:"),

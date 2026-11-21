@@ -178,7 +178,7 @@ export const wordpressDevelopmentServicesPl = {
         ),
 
         h2("Strona na WordPress, którą rozumieją ChatGPT i Google AI Overviews"),
-        p("Klienci coraz częściej pytają ChatGPT, Perplexity albo podsumowania AI w Google, kogo wybrać. Asystenci polecają firmy, o których mogą coś przeczytać, a na stronach z WordPressa fakty często siedzą w sliderach i grafikach. Usługi, ceny, obszar działania i dane kontaktowe zapisuję zwykłym tekstem w HTML, a dane strukturalne opisują firmę, usługi, FAQ i artykuły."),
+        p("Klienci coraz częściej pytają ChatGPT, Perplexity albo podsumowania AI w Google, kogo wybrać. Asystenci polecają firmy, o których mogą coś przeczytać, a na stronach z WordPressa fakty często siedzą w sliderach i grafikach. Usługi, ceny, obszar działania i dane kontaktowe zapisuję zwykłym tekstem w HTML, a dane strukturalne opisują firmę, usługi, FAQ i artykuły. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "W pliku robots.txt świadomie wpuszczam roboty wyszukiwarek AI, takie jak OAI-SearchBot i PerplexityBot, a o robotach trenujących modele, jak GPTBot, decydujecie osobno. Dalszą pracę nad obecnością w odpowiedziach AI opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

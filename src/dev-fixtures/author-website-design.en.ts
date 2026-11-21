@@ -171,7 +171,7 @@ export const authorWebsiteDesignEn = {
         ),
 
         h2("An author website that ChatGPT and Google AI Overviews can read"),
-        p("More and more readers type questions into ChatGPT, Perplexity or Google’s AI Overviews, such as “a cozy mystery series with a bookshop owner, first book” or “in what order should I read the Harbor Lights novels?” An assistant answers from pages it can read. Your author name, pen names, genres, series and reading order are written as page text, and structured data marks up the author, every book with its ISBNs and formats, and each series with its order. Review lines carry their source and date, so they can be checked."),
+        p("More and more readers type questions into ChatGPT, Perplexity or Google’s AI Overviews, such as “a cozy mystery series with a bookshop owner, first book” or “in what order should I read the Harbor Lights novels?” An assistant answers from pages it can read. Your author name, pen names, genres, series and reading order are written as page text, and structured data marks up the author, every book with its ISBNs and formats, and each series with its order. Review lines carry their source and date, so they can be checked. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Being named in those answers is further work; I describe it on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

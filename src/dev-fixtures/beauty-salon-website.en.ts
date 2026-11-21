@@ -90,7 +90,7 @@ export const beautySalonWebsiteEn = {
 
         h2("A page per treatment, with the price and the duration on it"),
         p("The backbone of a salon site is separate pages for the work rather than one list: colour and balayage, cuts, lash extensions and lifts, brows, manicure and gel, pedicure, facials and peels, laser, waxing."),
-        p("Each one carries the price or a «from» price, how long it takes, who performs it, how long the result lasts, whether preparation or a patch test is needed, and what aftercare looks like. This is also the content that lets the page be found at all: a two-line description is not something search or an assistant can work with."),
+        p("Each one carries the price or a «from» price, how long it takes, who performs it, how long the result lasts, whether preparation or a patch test is needed, and what aftercare looks like. This is also the content that lets the page be found at all: a two-line description is not something search or an assistant can work with. Being present in what assistants answer has two names: generative engine optimization (GEO) and answer engine optimization (AEO)."),
         p("A price list as a photographed sheet or an Instagram screenshot does not count. Neither search engines nor AI assistants read text inside images, so a salon whose prices exist only as a picture is invisible to both."),
 
         h2("Online booking: connecting the system your front desk already uses"),

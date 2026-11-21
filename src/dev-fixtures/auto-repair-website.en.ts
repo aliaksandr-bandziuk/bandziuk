@@ -87,7 +87,7 @@ export const autoRepairWebsiteEn = {
 
         h2("Prices on the site: a range instead of «call us»"),
         p("«Call for pricing» loses more customers than a high price does. Somebody with a broken car will not ring five garages to find the ballpark."),
-        p("The site carries a range and explains what moves it: scope, OEM or aftermarket parts, the condition of neighbouring components that only shows once it is apart. State whether diagnostics is charged and whether it comes off the bill. A price list as an image or a PDF does not work — neither search engines nor AI assistants read text inside pictures."),
+        p("The site carries a range and explains what moves it: scope, OEM or aftermarket parts, the condition of neighbouring components that only shows once it is apart. State whether diagnostics is charged and whether it comes off the bill. A price list as an image or a PDF does not work — neither search engines nor AI assistants read text inside pictures. Work on being named in assistant answers goes by two labels: generative engine optimization (GEO) and answer engine optimization (AEO)."),
 
         h2("Online booking: what the form should ask and what it should not"),
         p("A booking form is not a questionnaire. Every extra field costs you bookings, and the detail comes out in conversation anyway."),

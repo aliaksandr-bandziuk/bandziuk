@@ -151,7 +151,7 @@ export const spaWebsiteDesignEn = {
         ),
 
         h2("A spa website that ChatGPT and Google AI Overviews can read"),
-        p("Guests now ask assistants for “a day spa in Scottsdale with a couples suite” or “where to buy a massage gift card in Portland”. ChatGPT, Perplexity, Gemini and Google AI Overviews can only recommend a spa whose facts they can read. So treatments, durations, prices, packages, voucher options and hours are written as text delivered by the server, not locked in a PDF or image, and described again in structured data."),
+        p("Guests now ask assistants for “a day spa in Scottsdale with a couples suite” or “where to buy a massage gift card in Portland”. ChatGPT, Perplexity, Gemini and Google AI Overviews can only recommend a spa whose facts they can read. So treatments, durations, prices, packages, voucher options and hours are written as text delivered by the server, not locked in a PDF or image, and described again in structured data. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting named in those answers over time is ongoing work; see ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

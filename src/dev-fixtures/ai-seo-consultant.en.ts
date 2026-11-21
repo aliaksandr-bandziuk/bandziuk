@@ -91,7 +91,7 @@ export const aiSeoConsultantEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        p("I am an independent AI SEO consultant: I help businesses get found in Google and named, with the right facts, when buyers ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews. I do the work myself — the research, the changes to the site and the measurement — so the person you talk to is the person who is responsible for the result."),
+        p("I am an independent AI SEO consultant: I help businesses get found in Google and named, with the right facts, when buyers ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews. I do the work myself — the research, the changes to the site and the measurement — so the person you talk to is the person who is responsible for the result. Work on being named in assistant answers goes by two labels: generative engine optimization (GEO) and answer engine optimization (AEO)."),
 
         h2("What an AI SEO consultant does"),
         p("The job has four parts, and a consultant should be able to do all of them, not only the first:"),

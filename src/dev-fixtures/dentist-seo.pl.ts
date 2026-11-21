@@ -38,7 +38,7 @@ export const dentistSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Informacja, nie reklama", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Informacja, nie reklama", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Stomatolog w Twoim mieście", "Rejestracja online", "NFZ i prywatnie", "Lekarze i kwalifikacje"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO gabinetu stomatologicznego: strona i wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },
@@ -194,6 +194,7 @@ export const dentistSeoPl = {
           ["Ile kosztuje pozycjonowanie strony gabinetu stomatologicznego?", "Audyt strony i wizytówki od 1000 zł jednorazowo, pojedyncze prace od 1000 do 3000 zł, stałe pozycjonowanie od 3500 zł miesięcznie, w bardzo konkurencyjnych miastach od 5500 zł. Stałą cenę podaję po krótkim opisie gabinetu."],
           ["Czy wystarczy profil w ZnanyLekarz?", "Dla wielu gabinetów to ważne źródło rejestracji, ale profil stoi obok innych lekarzy i zależy od zasad portalu. Własna strona wygrywa wyszukiwania nazwy gabinetu, opisuje zabiegi pełniej i jest źródłem dla odpowiedzi AI. Najlepiej prowadzić jedno i drugie."],
           ["Ile trwa pozycjonowanie gabinetu stomatologicznego?", "Poprawki w wizytówce Google potrafią zadziałać w kilka tygodni. Nowe podstrony zabiegów zwykle potrzebują dwóch–czterech miesięcy, w dużych miastach dłużej."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: zabiegi, implanty i nakładki nazwane tekstem razem z cenami, każdy lekarz ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy pracujesz z gabinetami spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie robię zdalnie: strona, wizytówka i dane wyszukiwań dla Waszej miejscowości."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

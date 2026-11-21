@@ -151,7 +151,7 @@ export const tworzenieStronInternetowychTorunPl = {
         ),
 
         h2("Strona internetowa, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Goście pytają ChatGPT albo Perplexity: „hotel w Toruniu blisko Starówki z parkingiem”, „restauracja w Toruniu z daniami wegańskimi”. Mieszkańcy — o szkołę językową albo fizjoterapeutę w swojej dzielnicy. Asystent poleca firmy, o których może przeczytać fakty, więc odległości, godziny, języki obsługi, ceny i udogodnienia zapisuję tekstem, a dane strukturalne opisują firmę tak samo jak wizytówka Google."),
+        p("Goście pytają ChatGPT albo Perplexity: „hotel w Toruniu blisko Starówki z parkingiem”, „restauracja w Toruniu z daniami wegańskimi”. Mieszkańcy — o szkołę językową albo fizjoterapeutę w swojej dzielnicy. Asystent poleca firmy, o których może przeczytać fakty, więc odległości, godziny, języki obsługi, ceny i udogodnienia zapisuję tekstem, a dane strukturalne opisują firmę tak samo jak wizytówka Google. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "Dalsza praca nad widocznością w asystentach jest opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

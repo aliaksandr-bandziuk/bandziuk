@@ -140,7 +140,7 @@ export const optometristWebsiteDesignEn = {
         p("Years ago I worked on a medical system that processed patient records; it is under NDA and stays unnamed. The habit it left me: a practice website should hold the least health data its job needs. Whether a setup meets your obligations is confirmed by your compliance adviser."),
 
         h2("An optometrist website that ChatGPT and Google AI Overviews can read"),
-        p("Questions like “which eye doctor near me fits contacts for astigmatism” or “who sees kids and takes my vision plan” now go to ChatGPT, Perplexity and Google’s AI Overviews as often as to the search box. An assistant can only repeat facts it finds as text. So offices, doctors and their credentials, services, hours, languages and plans live in HTML and structured data, word for word the same as on your Google profiles."),
+        p("Questions like “which eye doctor near me fits contacts for astigmatism” or “who sees kids and takes my vision plan” now go to ChatGPT, Perplexity and Google’s AI Overviews as often as to the search box. An assistant can only repeat facts it finds as text. So offices, doctors and their credentials, services, hours, languages and plans live in HTML and structured data, word for word the same as on your Google profiles. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Giuseppe found me by asking ChatGPT, and the new pages of his site already appear in ChatGPT answers. Earning a place in those answers takes steady work after launch — see the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

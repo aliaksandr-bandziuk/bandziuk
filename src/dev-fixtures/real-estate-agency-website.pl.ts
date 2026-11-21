@@ -175,7 +175,7 @@ export const realEstateAgencyWebsitePl = {
       _key: k("b"),
       content: [
         h2("Strona agencji czytelna dla asystentów AI"),
-        p("Klienci coraz częściej pytają ChatGPT, Perplexity albo przeglądy AI w Google: które agencje prowadzą tę dzielnicę albo inwestycję, ile kosztuje zakup dla obcokrajowca, która lokalizacja będzie odpowiednia. Asystent odpowiada z tekstu, który potrafi przeczytać i streścić, i podaje źródła — więc struktura strony rozstrzyga, czy Wasza agencja w ogóle pojawi się w tej odpowiedzi."),
+        p("Klienci coraz częściej pytają ChatGPT, Perplexity albo przeglądy AI w Google: które agencje prowadzą tę dzielnicę albo inwestycję, ile kosztuje zakup dla obcokrajowca, która lokalizacja będzie odpowiednia. Asystent odpowiada z tekstu, który potrafi przeczytać i streścić, i podaje źródła — więc struktura strony rozstrzyga, czy Wasza agencja w ogóle pojawi się w tej odpowiedzi. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p("W praktyce: bezpośrednia odpowiedź na początku każdej sekcji, fakty o dzielnicach, segmentach i warunkach zamiast przymiotników, dane strukturalne Schema.org dla ofert i samej agencji zgodne z widocznym tekstem oraz treść dostępna bez uruchamiania skryptów. To zakłada się przy budowie, bo dołożenie później kosztuje więcej niż zrobienie od razu."),
         p(
           "Jak to się robi na już istniejącej stronie, to osobna praca: ",

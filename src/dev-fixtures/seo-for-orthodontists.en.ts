@@ -35,7 +35,7 @@ export const seoForOrthodontistsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Parents + adults + referrals", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Parents + adults + referrals", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Braces for kids near me", "Invisalign cost", "Monthly payment plans", "Orthodontist open Saturday"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Orthodontic SEO audit: practice website and Google profiles for each office", price: 250, currency: "EUR", unit: "one-off" },
@@ -171,7 +171,7 @@ export const seoForOrthodontistsEn = {
         ),
 
         h2("SEO for orthodontists in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Parents ask ChatGPT what age a child should see an orthodontist, then which orthodontist in their town offers payment plans. Adults ask whether aligners suit them and who nearby offers both options. Earning a place in those replies is called GEO or AEO — generative or answer engine optimization. In orthodontics it comes down to:"),
+        p("Parents ask ChatGPT, Perplexity and Gemini what age a child should see an orthodontist, then which orthodontist in their town offers payment plans. Adults ask whether aligners suit them and who nearby offers both options. Earning a place in those replies is called GEO or AEO — generative or answer engine optimization. In orthodontics it comes down to:"),
         li("treatments, ages treated, offices, days open, languages and payment options written as plain facts"),
         li("cost ranges and what they include, in sentences an assistant can quote"),
         li("identical names, addresses and hours on your site, Google, the aligner locator and dental directories"),
@@ -210,6 +210,7 @@ export const seoForOrthodontistsEn = {
           ["How long does SEO take to bring new starts?", "Corrected office profiles often move within a few weeks. Fresh pages on braces, aligners and cost need a few months to climb, and families then take weeks to decide, so measure consultations over roughly half a year."],
           ["Should every office have its own page and Google profile?", "Yes. Each office needs a profile with its own days and hours and a page on the site with the orthodontists who treat there. Offices open only a few days a week need extra care with hours and photos."],
           ["What are the best SEO strategies for healthcare websites?", "Pages that answer what patients search, written or reviewed by a named clinician; correct and consistent details on maps and directories; a steady, honest review routine; privacy-safe forms; and facts written plainly enough for AI assistants to quote. For orthodontists, add pages for parents, cost and referrals."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: braces, aligners and monthly plans named in text with prices, each orthodontist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Can a consultant in Poland handle SEO for a US orthodontic practice?", "Yes — everything happens online. I am in Warsaw, so when your doctors start the day I am in my afternoon, and a call before the first patient is easy to fit. I invoice in euros and work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

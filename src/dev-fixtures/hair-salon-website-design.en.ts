@@ -116,7 +116,7 @@ export const hairSalonWebsiteDesignEn = {
         li("a second axis for stylist level where your prices differ — junior, senior, creative director"),
         li("the appointment length next to the price, so a client knows full highlights take an afternoon"),
         li("one line on what changes the final price, and a consultation button for color corrections and big changes"),
-        p("The table lives in the CMS as text. When you raise prices in January, you change the numbers in one place and every page that shows them updates; search engines and AI assistants read the same numbers your clients see."),
+        p("The table lives in the CMS as text. When you raise prices in January, you change the numbers in one place and every page that shows them updates; search engines and AI assistants read the same numbers your clients see. The label for the answer shown in search itself is answer engine optimization (AEO)."),
 
         h2("Stylist and barber pages on a hair salon website"),
         p("Many clients follow a person, not a brand. A page for each stylist or barber keeps that loyalty inside your salon’s site: a real photo, years behind the chair, what they love doing (lived-in blondes, textured hair, precision bobs, beard work), the days they work, the languages they speak and a Book with… button that opens the app with that stylist already chosen, where the app allows it."),

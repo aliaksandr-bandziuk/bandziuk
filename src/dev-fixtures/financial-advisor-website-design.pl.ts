@@ -167,7 +167,7 @@ export const financialAdvisorWebsiteDesignPl = {
         ),
 
         h2("Strona doradcy finansowego, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Klienci pytają ChatGPT, Perplexity albo podsumowania AI w Google: „doradca kredytowy w Poznaniu, który mówi po ukraińsku”, „kto pomoże wybrać IKZE dla przedsiębiorcy”. Asystent poleca tych, o których potrafi coś przeczytać i sprawdzić. Dlatego uprawnienia, numery wpisów, miasta, języki i grupy klientów są na stronie zapisane tekstem, a dane strukturalne opisują doradcę, firmę i usługi tak samo jak wizytówka Google."),
+        p("Klienci pytają ChatGPT, Perplexity albo podsumowania AI w Google: „doradca kredytowy w Poznaniu, który mówi po ukraińsku”, „kto pomoże wybrać IKZE dla przedsiębiorcy”. Asystent poleca tych, o których potrafi coś przeczytać i sprawdzić. Dlatego uprawnienia, numery wpisów, miasta, języki i grupy klientów są na stronie zapisane tekstem, a dane strukturalne opisują doradcę, firmę i usługi tak samo jak wizytówka Google. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "Widoczność w odpowiedziach AI to dalsza praca, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

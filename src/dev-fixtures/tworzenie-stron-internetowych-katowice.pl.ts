@@ -168,7 +168,7 @@ export const tworzenieStronInternetowychKatowicePl = {
         p("Uwagi zbieram w jednym miejscu, a decyzje zapadają w wiadomości, a nie na kolejnym spotkaniu. Zdjęcia z realizacji czy z obiektu możecie zrobić telefonem albo zlecić lokalnemu fotografowi; podpowiem, jakich ujęć potrzeba do każdej podstrony."),
 
         h2("Strona internetowa, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Coraz więcej osób pyta ChatGPT, Perplexity, Gemini albo czyta podsumowanie AI w Google: „hotel blisko Spodka z salą na szkolenie”, „firma od elewacji kamienic w Katowicach”. Polecenie dostaje firma, której strona odpowiada na takie pytanie wprost. Dlatego usługi, miasta, ceny lub widełki, godziny i języki obsługi zapisuję na stronie tekstem, a nie na grafikach, a dane strukturalne opisują firmę tak samo jak wizytówka Google."),
+        p("Coraz więcej osób pyta ChatGPT, Perplexity, Gemini albo czyta podsumowanie AI w Google: „hotel blisko Spodka z salą na szkolenie”, „firma od elewacji kamienic w Katowicach”. Polecenie dostaje firma, której strona odpowiada na takie pytanie wprost. Dlatego usługi, miasta, ceny lub widełki, godziny i języki obsługi zapisuję na stronie tekstem, a nie na grafikach, a dane strukturalne opisują firmę tak samo jak wizytówka Google. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
         p(
           "Widoczność w odpowiedziach AI rozwijana po uruchomieniu strony to osobna praca, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

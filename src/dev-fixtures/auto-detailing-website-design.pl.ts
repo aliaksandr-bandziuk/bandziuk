@@ -158,7 +158,7 @@ export const autoDetailingWebsiteDesignPl = {
         ),
 
         h2("Strona studia detailingu, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Kierowcy pytają ChatGPT, Perplexity, Gemini albo podsumowania AI w Google, czy ceramika ma sens w nowym aucie, ile wytrzymuje folia PPF i kto w okolicy robi korektę lakieru. Asystent poleca firmy, o których znajdzie konkretne informacje w kilku miejscach. Studio, którego cennik to zdjęcie kartki wrzucone na Instagram, dla niego nie istnieje. Pakiety, ceny „od”, czas pracy, miejscowości dojazdu i marki powłok zapisane zwykłym tekstem, razem z danymi strukturalnymi firmy, asystent może przeczytać i powtórzyć."),
+        p("Kierowcy pytają ChatGPT, Perplexity, Gemini albo podsumowania AI w Google, czy ceramika ma sens w nowym aucie, ile wytrzymuje folia PPF i kto w okolicy robi korektę lakieru. Asystent poleca firmy, o których znajdzie konkretne informacje w kilku miejscach. Studio, którego cennik to zdjęcie kartki wrzucone na Instagram, dla niego nie istnieje. Pakiety, ceny „od”, czas pracy, miejscowości dojazdu i marki powłok zapisane zwykłym tekstem, razem z danymi strukturalnymi firmy, asystent może przeczytać i powtórzyć. Pracę nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
         p(
           "Regularne wzmianki w odpowiedziach asystentów to osobne zadanie, opisane na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

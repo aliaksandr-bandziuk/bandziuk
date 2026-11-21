@@ -136,7 +136,7 @@ export const optometristWebsiteDesignPl = {
         p("Kilka lat temu pracowałem przy systemie medycznym z danymi pacjentów; obejmuje go NDA, więc nie podaję nazwy. Wyniosłem stamtąd prostą zasadę: strona trzyma tylko tyle danych o zdrowiu, ile naprawdę musi. Czy Wasza konfiguracja spełnia przepisy, ocenia inspektor ochrony danych albo prawnik."),
 
         h2("Strona salonu optycznego, którą ChatGPT i przeglądy AI w Google potrafią przeczytać"),
-        p("Klienci pytają ChatGPT, Perplexity, Gemini albo przegląd AI w Google, który salon w okolicy bada wzrok dzieciom, prowadzi daną markę opraw albo jest otwarty w sobotę. Asystenci odpowiadają na podstawie tego, co mogą przeczytać, więc salony, specjaliści, usługi, godziny i marki są zapisane tekstem i danymi strukturalnymi, zgodnie z wizytówkami Google."),
+        p("Klienci pytają ChatGPT, Perplexity, Gemini albo przegląd AI w Google, który salon w okolicy bada wzrok dzieciom, prowadzi daną markę opraw albo jest otwarty w sobotę. Asystenci odpowiadają na podstawie tego, co mogą przeczytać, więc salony, specjaliści, usługi, godziny i marki są zapisane tekstem i danymi strukturalnymi, zgodnie z wizytówkami Google. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "Do mnie Giuseppe trafił właśnie z ChatGPT, a dziś ChatGPT cytuje już nowe podstrony jego praktyki. Stałą pracę nad obecnością w odpowiedziach asystentów opisuję na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

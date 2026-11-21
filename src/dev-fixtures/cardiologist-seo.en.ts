@@ -39,7 +39,7 @@ export const cardiologistSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Tests, prices, local search", "Audit from €250", "Answer within 1 working day"],
+  heroChips: ["Tests, prices, local search", "Named by ChatGPT and AI search", "Audit from €250"],
   heroPhonePoints: ["Echocardiogram — €90", "Holter, next day", "Second opinion online", "Book a test"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit of a cardiology practice site: test pages, prices, local listing, AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -58,7 +58,7 @@ export const cardiologistSeoEn = {
         { _key: k("o"), iconName: "map-pin", title: "A map listing written as tests", text: "Not one line saying «cardiology»" },
         { _key: k("o"), iconName: "file-search", title: "Second opinions on existing results", text: "A service with its own demand" },
         { _key: k("o"), iconName: "badge-check", title: "Author, credentials, review date", text: "What medical pages are judged on" },
-        { _key: k("o"), iconName: "gauge", title: "Speed and booking that works", text: "The technical side that moves things" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Tests, prices and credentials an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -80,7 +80,8 @@ export const cardiologistSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a cardiologist cannot win the symptom queries, and does not need them"),
+        h2("Symptom queries belong to publishers: where a cardiology practice wins instead"),
+        p("I do SEO for cardiologists and cardiology practices, and the first change is usually the target: away from symptoms and towards the tests patients are already sent for."),
         p("Almost every cardiology site I am asked to look at is trying to rank for symptoms: chest pain, high blood pressure, palpitations, shortness of breath. Those queries belong to health publishers and large hospital systems with hundreds of reviewed articles, and a single practice will not take them. The harder truth is that it would not help much if it did: somebody typing «chest pain» at midnight is looking for reassurance, not for a private appointment three weeks out."),
         p("The queries that bring patients are not about the illness, they are about the thing the patient has just been told to get. A GP says get an echo. The patient walks out, opens their phone and types the name of the test, their city and the word price. That query is short, commercial, under-served and winnable — and it is the one almost no cardiology site is built around."),
         p(
@@ -119,7 +120,7 @@ export const cardiologistSeoEn = {
         h2("The technical work that actually moves a cardiology site"),
         p("Three things, in order of how often they are broken: a booking flow that works on a phone with one hand, because that is where the patient is standing when they read the price; speed on a mobile connection, since test pages are usually opened outside the home; and structured data for the practice, the physicians and the services, so that the test names and prices can be read as data rather than as decoration."),
 
-        h2("What SEO for a cardiologist costs"),
+        h2("SEO for a cardiologist: what each option costs"),
         p(
           "An audit is €250 and tells you which test pages are missing, where the prices and waits should sit, and what the map listing is losing. One-off work is €250–800 and covers building out the test pages and the structure. Ongoing work is €800 a month. The figures are on the ",
           link("pricing", "/pricing"),
@@ -152,7 +153,7 @@ export const cardiologistSeoEn = {
       _key: k("b"),
       content: [
         h2("Getting a cardiology practice quoted by AI assistants (GEO, AEO)"),
-        p("The question «where can I get a Holter fitted this week» is now asked of an assistant as often as of a search box, and the assistant answers from text it can read. A practice whose tests are named only inside a photograph of a price list, whose waiting time is known only by phone and whose doctors' registrations appear nowhere in text is absent from that answer — not ranked low, absent."),
+        p("The question «where can I get a Holter fitted this week» now goes to ChatGPT, Perplexity, Gemini or Google’s AI Overviews as often as to a search box, and the assistant answers from text it can read. A practice whose tests are named only inside a photograph of a price list, whose waiting time is known only by phone and whose doctors' registrations appear nowhere in text is absent from that answer — not ranked low, absent."),
         p(
           "What makes a practice quotable is the same thing that makes it useful: every test named in text with its price, the wait in a maintained sentence, each physician with their specialisation and registration, the languages you consult in as data. The work itself is ",
           link("AI search readiness", "/services/ai-search-readiness"),
@@ -178,6 +179,7 @@ export const cardiologistSeoEn = {
           ["Is a second-opinion service worth a page?", "Often it is the most profitable page on a cardiology site: the patient already has results, there is no local limit on who can book, and the page has to state which countries you can consult in and what you will not do remotely."],
           ["How long before we see results?", "First movement at about a month and a half, growth over three to six months. I do not promise positions, and in cardiology that promise would be worth even less than usual."],
           ["Do you work with medical practices?", "Yes, and the method accounts for it: wording without outcome claims, a review step before publishing, author and review data on every clinical page, and careful handling of patient data in booking forms."],
+          ["Will the practice be named by ChatGPT and other assistants?", "Increasingly, when there is something to quote: tests named in text with their prices, the current waiting time, each physician with a specialisation and a registration number. An assistant repeats what it can read, so a price list kept as an image leaves the practice out of the answer."],
           ["What do you need from us to start?", "The site address, your price list as it stands, the list of tests you actually perform and on what equipment, your waiting times, the doctors' names and registrations, and the languages you consult in."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

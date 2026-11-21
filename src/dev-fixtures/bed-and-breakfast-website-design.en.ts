@@ -147,7 +147,7 @@ export const bedAndBreakfastWebsiteDesignEn = {
         li("what is within walking distance: the restaurant you send people to, the trail, the beach, Main Street"),
         li("day trips — wineries, state parks, historic towns — with driving times"),
         li("the seasons: fall color, ski weeks, summer festivals, and what closes in winter"),
-        p("These pages also bring visitors from search, because people read about an area before they pick where to sleep, and they give AI assistants concrete facts to quote about your inn."),
+        p("These pages also bring visitors from search, because people read about an area before they pick where to sleep, and they give AI assistants concrete facts to quote about your inn. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
 
         h2("A multilingual bed and breakfast website for international guests"),
         p("A B&B in a tourist region hosts travelers from abroad, and many of them prefer to book in their own language. The site gets a language version only where you actually see those guests — for example Spanish, French or German — and that version covers the whole path to a booking:"),

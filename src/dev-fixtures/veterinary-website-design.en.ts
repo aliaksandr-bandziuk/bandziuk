@@ -181,7 +181,7 @@ export const veterinaryWebsiteDesignEn = {
         ),
 
         h2("A veterinary website that ChatGPT and Google AI Overviews can read"),
-        p("More owners ask ChatGPT, Perplexity or Google’s AI Overviews to suggest a vet nearby or to say whether a symptom is urgent. Assistants work from text, not pictures. A design that keeps hours, species, prices and the vets’ credentials inside images hides them; the same facts set as real text, with structured data for the clinic, its services and its vets, can be read and repeated."),
+        p("More owners ask ChatGPT, Perplexity or Google’s AI Overviews to suggest a vet nearby or to say whether a symptom is urgent. Assistants work from text, not pictures. A design that keeps hours, species, prices and the vets’ credentials inside images hides them; the same facts set as real text, with structured data for the clinic, its services and its vets, can be read and repeated. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

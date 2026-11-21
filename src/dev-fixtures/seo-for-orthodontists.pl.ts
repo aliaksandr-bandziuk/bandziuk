@@ -37,7 +37,7 @@ export const seoForOrthodontistsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Rodzice, dorośli, skierowania", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Rodzice, dorośli, skierowania", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Ortodonta dla dziecka", "Aparat stały — cena", "Nakładki przezroczyste", "Raty i płatność"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO gabinetu ortodontycznego: strona i wizytówki Google placówek", price: 1000, currency: "PLN", unit: "one-off" },
@@ -162,7 +162,7 @@ export const seoForOrthodontistsPl = {
         ),
 
         h2("Pozycjonowanie strony gabinetu ortodontycznego w ChatGPT i Google AI Overviews (GEO, AEO)"),
-        p("Rodzice pytają ChatGPT, w jakim wieku iść z dzieckiem do ortodonty, a zaraz potem, który gabinet w ich mieście ma raty albo przyjmuje w soboty. Odpowiedź powstaje z porównania kilku źródeł naraz: Waszej strony, wizytówek i ZnanyLekarz. Starania o miejsce w takich odpowiedziach nazywa się GEO albo AEO. Dla gabinetu ortodontycznego to:"),
+        p("Rodzice pytają ChatGPT, Perplexity, Gemini, w jakim wieku iść z dzieckiem do ortodonty, a zaraz potem, który gabinet w ich mieście ma raty albo przyjmuje w soboty. Odpowiedź powstaje z porównania kilku źródeł naraz: Waszej strony, wizytówek i ZnanyLekarz. Starania o miejsce w takich odpowiedziach nazywa się GEO albo AEO. Dla gabinetu ortodontycznego to:"),
         li("rodzaje leczenia, wiek pacjentów, placówki, dni przyjęć i formy płatności zapisane prostymi zdaniami"),
         li("widełki cen z opisem, co obejmują"),
         li("dane strukturalne łączące lekarzy z placówkami"),
@@ -203,6 +203,7 @@ export const seoForOrthodontistsPl = {
           ["Czym różni się pozycjonowanie ortodonty od pozycjonowania dentysty?", "Innym pacjentem i inną decyzją. W ortodoncji szukają rodzice dzieci, dorośli porównujący nakładki z aparatem i pacjenci z polecenia stomatologa, a leczenie trwa latami. Dlatego frazy, podstrony i raport wyglądają inaczej."],
           ["Czy wystarczy profil w ZnanyLekarz?", "Profil przynosi umówienia, ale wyświetla się w towarzystwie innych ortodontów z okolicy. Na własnej stronie nazwisko lekarza wygrywa w Google, leczenie można opisać dokładnie, a asystenci AI mają z czego czerpać. Warto mieć oba, z identycznymi danymi."],
           ["Kiedy widać efekty pozycjonowania strony gabinetu ortodontycznego?", "Poprawione wizytówki potrafią przesunąć się w kilka tygodni. Nowe podstrony o aparatach i nakładkach potrzebują kilku miesięcy, a rodziny podejmują decyzję jeszcze przez kilka tygodni, dlatego zgłoszenia oceniam w perspektywie około pół roku."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: aparaty, nakładki i raty nazwane tekstem razem z cenami, każdy ortodonta ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy pracujesz z gabinetami spoza Warszawy?", "Tak, z całej Polski — pracuję zdalnie, a strona, wizytówki i dane wyszukiwań dla Waszego miasta nie wymagają mojej obecności. Gabinety z Warszawy i okolic mogę też odwiedzić na miejscu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

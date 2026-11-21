@@ -163,7 +163,7 @@ export const floristWebsiteDesignPl = {
         ),
 
         h2("Strona kwiaciarni, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Gdy ktoś pyta ChatGPT albo podsumowanie AI w Google, która kwiaciarnia w okolicy dowozi w niedzielę albo robi bukiety ślubne w określonym budżecie, odpowiedź powstaje z tekstu, który asystent potrafi przeczytać. Strefy i koszt dostawy, godziny, nazwy i ceny bukietów zapisuję więc w HTML zwykłym tekstem — nie na banerach i nie wewnątrz skryptu koszyka — a kwiaciarnię i produkty opisuję znacznikami schema. Według tych samych zasad zbudowana jest strona Giuseppe z Mediolanu, a ChatGPT już cytuje jej nowe podstrony."),
+        p("Gdy ktoś pyta ChatGPT, Perplexity, Gemini albo podsumowanie AI w Google, która kwiaciarnia w okolicy dowozi w niedzielę albo robi bukiety ślubne w określonym budżecie, odpowiedź powstaje z tekstu, który asystent potrafi przeczytać. Strefy i koszt dostawy, godziny, nazwy i ceny bukietów zapisuję więc w HTML zwykłym tekstem — nie na banerach i nie wewnątrz skryptu koszyka — a kwiaciarnię i produkty opisuję znacznikami schema. Według tych samych zasad zbudowana jest strona Giuseppe z Mediolanu, a ChatGPT już cytuje jej nowe podstrony. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "Jak dbam o obecność firmy w odpowiedziach AI na stałe, wyjaśniam na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

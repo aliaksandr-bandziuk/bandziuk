@@ -170,7 +170,7 @@ export const handymanWebsiteDesignEn = {
         ),
 
         h2("A handyman website that ChatGPT and Google AI Overviews can read"),
-        p("Some customers now ask ChatGPT, Perplexity or Google’s AI Overviews who can fix a door or hang a heavy mirror nearby. These assistants recommend businesses they can read about. A site that shows its jobs, prices, service area and insurance as images or inside a booking widget gives them nothing; the same facts written as text, with structured data describing the business and its services, can be read and quoted."),
+        p("Some customers now ask ChatGPT, Perplexity or Google’s AI Overviews who can fix a door or hang a heavy mirror nearby. These assistants recommend businesses they can read about. A site that shows its jobs, prices, service area and insurance as images or inside a booking widget gives them nothing; the same facts written as text, with structured data describing the business and its services, can be read and quoted. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Being recommended there is a separate, ongoing job; see ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

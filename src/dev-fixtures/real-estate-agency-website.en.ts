@@ -173,7 +173,7 @@ export const realEstateAgencyWebsiteEn = {
       _key: k("b"),
       content: [
         h2("An agency website that AI assistants can read"),
-        p("Buyers increasingly ask ChatGPT, Perplexity or Google's AI Overviews which agencies work a particular area or development, what buying costs a foreign buyer, and which district suits them. The assistant answers from text it can read and restate, and it names sources — so the structure of the site decides whether your agency appears in that answer at all."),
+        p("Buyers increasingly ask ChatGPT, Perplexity or Google's AI Overviews which agencies work a particular area or development, what buying costs a foreign buyer, and which district suits them. The assistant answers from text it can read and restate, and it names sources — so the structure of the site decides whether your agency appears in that answer at all. Work on being named in assistant answers goes by two labels: generative engine optimization (GEO) and answer engine optimization (AEO)."),
         p("In practice: a direct answer at the top of each section, facts about areas, segments and terms rather than adjectives, Schema.org markup for listings and the agency that matches the visible text, and content available without running scripts. This is built in during development, because adding it afterwards costs more than doing it at the start."),
         p(
           "How it is done on a site that already exists is a separate job: ",

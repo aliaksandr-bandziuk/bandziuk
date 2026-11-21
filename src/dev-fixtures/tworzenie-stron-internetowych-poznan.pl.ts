@@ -148,7 +148,7 @@ export const tworzenieStronInternetowychPoznanPl = {
         p("Na pierwszym ekranie strony głównej musi się zmieścić to, po co klient przyszedł: co robicie, gdzie w Poznaniu albo w jakich gminach i jak się z Wami skontaktować. Dalej są usługi z cenami lub widełkami, realizacje, opinie z wizytówki Google i dojazd. Przyciski są duże, tekst czytelny w słońcu na przystanku, a formularz ma tylko te pola, które naprawdę są potrzebne do odpowiedzi."),
 
         h2("Strona internetowa, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Klienci pytają ChatGPT, Perplexity albo podsumowania AI w Google o firmy w Poznaniu: „warsztat na Ratajach, który naprawia hybrydy”, „hurtownia opakowań pod Poznaniem z dostawą”. Asystent poleca firmy, o których może przeczytać fakty. Dlatego usługi, obszar działania, godziny i języki obsługi zapisuję tekstem, a nie na grafikach, a dane strukturalne opisują firmę tak samo jak wizytówka Google."),
+        p("Klienci pytają ChatGPT, Perplexity albo podsumowania AI w Google o firmy w Poznaniu: „warsztat na Ratajach, który naprawia hybrydy”, „hurtownia opakowań pod Poznaniem z dostawą”. Asystent poleca firmy, o których może przeczytać fakty. Dlatego usługi, obszar działania, godziny i języki obsługi zapisuję tekstem, a nie na grafikach, a dane strukturalne opisują firmę tak samo jak wizytówka Google. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "Dalsza praca nad widocznością w asystentach to osobna usługa, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

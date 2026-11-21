@@ -182,7 +182,7 @@ export const landscapingWebsiteDesignEn = {
         li("photos of the company’s own work and crew, not stock gardens"),
 
         h2("Landscaping website design that ChatGPT and Google AI Overviews can read"),
-        p("Homeowners ask ChatGPT, Perplexity or Google’s AI Overviews to suggest a landscape designer nearby or to explain what a retaining wall costs. The answers name companies whose facts the assistant can read and check. A design that keeps everything inside photos and sliders gives it nothing to work with. Here, services, areas, licenses, warranty terms and project descriptions stay as real text, with structured data for the business, its services and its projects."),
+        p("Homeowners ask ChatGPT, Perplexity or Google’s AI Overviews to suggest a landscape designer nearby or to explain what a retaining wall costs. The answers name companies whose facts the assistant can read and check. A design that keeps everything inside photos and sliders gives it nothing to work with. Here, services, areas, licenses, warranty terms and project descriptions stay as real text, with structured data for the business, its services and its projects. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

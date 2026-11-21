@@ -156,7 +156,7 @@ export const beautyIndustryWebsitesEn = {
       _key: k("b"),
       content: [
         h2("Being found by AI assistants, in any of these formats"),
-        p("Clients increasingly ask ChatGPT, Perplexity or Google's AI Overviews before opening a booking app. The assistant answers from text it can read, which is why the same rule applies to every format on this page: treatments as text with prices and durations, markup that matches the visible text, and the same name, hours and treatment names on the site, the Google Business Profile and the booking platform."),
+        p("Clients increasingly ask ChatGPT, Perplexity or Google's AI Overviews before opening a booking app. The assistant answers from text it can read, which is why the same rule applies to every format on this page: treatments as text with prices and durations, markup that matches the visible text, and the same name, hours and treatment names on the site, the Google Business Profile and the booking platform. Being present in what assistants answer has two names: generative engine optimization (GEO) and answer engine optimization (AEO)."),
         p(
           "How this is done on a site that already exists is a separate job: ",
           link("preparing a site for AI search", "/services/ai-search-readiness"),

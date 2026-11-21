@@ -180,7 +180,7 @@ export const beautyIndustryWebsitesPl = {
       _key: k("b"),
       content: [
         h2("Jak strony beauty są znajdowane przez asystentów AI"),
-        p("Klientki coraz częściej pytają ChatGPT, Perplexity albo przeglądy AI w Google, zanim otworzą aplikację do rezerwacji. Asystent odpowiada z tekstu, który potrafi przeczytać — dlatego do wszystkich formatów z tej podstrony stosuje się jedna reguła: zabiegi tekstem z cenami i czasem trwania, dane strukturalne zgodne z widocznym tekstem oraz identyczne nazwa, godziny i nazwy zabiegów na stronie, w profilu Google i w systemie rezerwacji."),
+        p("Klientki coraz częściej pytają ChatGPT, Perplexity albo przeglądy AI w Google, zanim otworzą aplikację do rezerwacji. Asystent odpowiada z tekstu, który potrafi przeczytać — dlatego do wszystkich formatów z tej podstrony stosuje się jedna reguła: zabiegi tekstem z cenami i czasem trwania, dane strukturalne zgodne z widocznym tekstem oraz identyczne nazwa, godziny i nazwy zabiegów na stronie, w profilu Google i w systemie rezerwacji. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p(
           "Jak to się robi na już istniejącej stronie, to osobna praca: ",
           link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),

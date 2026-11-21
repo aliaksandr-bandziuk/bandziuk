@@ -48,11 +48,11 @@ export const dermatologyWebsiteDesignEn = {
   seo: {
     metaTitle: "Dermatologist Website Design for Skin Clinics | Bandziuk",
     metaDescription:
-      "Dermatology website design and build: medical and cosmetic paths, condition pages with a named reviewer, booking by visit type, safe photo routing. From 700 €.",
+      "Dermatology website design: medical and cosmetic paths, condition pages with a named reviewer, booking by visit type, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Medical and cosmetic, kept apart"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book a skin check", "Conditions we treat", "Cosmetic consultations", "Plans we accept"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple dermatology practice website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -190,7 +190,7 @@ export const dermatologyWebsiteDesignEn = {
         p("The visual style stays calm: a light background, one accent color kept for booking and no video that starts on its own on condition pages. The cosmetic side can be warmer, but it keeps the same type and spacing."),
 
         h2("A dermatology website that ChatGPT and Google AI Overviews can read"),
-        p("Questions like “a dermatologist near me who takes my plan and sees children” or “who does Mohs surgery in [town]” are now typed into ChatGPT, Perplexity or Google’s AI Overviews. An assistant names only practices whose facts it can read and cross-check. The build keeps those facts as page text — conditions treated, visit types, clinicians with exact titles, locations, plans, languages and hours — and adds structured data for the practice, each location and each dermatologist, plus the reviewer and date on every condition page. Explicit rules in robots.txt tell AI crawlers what they may read, as on Giuseppe’s site, whose new pages already appear in ChatGPT answers."),
+        p("Questions like “a dermatologist near me who takes my plan and sees children” or “who does Mohs surgery in [town]” are now typed into ChatGPT, Perplexity, Gemini or Google’s AI Overviews. When the answer appears in search itself, the same work is called answer engine optimization (AEO). An assistant names only practices whose facts it can read and cross-check. The build keeps those facts as page text — conditions treated, visit types, clinicians with exact titles, locations, plans, languages and hours — and adds structured data for the practice, each location and each dermatologist, plus the reviewer and date on every condition page. Explicit rules in robots.txt tell AI crawlers what they may read, as on Giuseppe’s site, whose new pages already appear in ChatGPT answers."),
         p(
           "Staying in those answers takes continued work; see the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
@@ -234,6 +234,7 @@ export const dermatologyWebsiteDesignEn = {
           ["How do clinician pages show board certification and the roles of PAs and NPs?", "Each profile names the certifying board in text, lists completed fellowships and introduces physician assistants and nurse practitioners by their exact title, with the visits they handle. Condition pages show which of them see that problem. You confirm every title before launch."],
           ["Where do patients send skin photos if not through the website form?", "Through your patient portal or teledermatology tool. The website links to it from the booking and online-visit pages, so the photo goes straight into a system built for health data and never sits in a website inbox or an email account."],
           ["Can we take deposits for cosmetic consultations online?", "Yes — through your scheduling tool if it handles deposits, or through a Stripe Checkout step added to the consultation request. I built Stripe payments into a page for a Warsaw beauty salon that sold more than 100 online courses from its first Google Ads campaign."],
+          ["Will patients find the clinic through ChatGPT?", "Increasingly, when there is something to quote: procedures, prices and doctors named in text with prices, each dermatologist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the clinic out of the answer."],
           ["How do you work with a US dermatology practice from Poland?", "Remotely and in English. My afternoons and evenings in Warsaw overlap with the morning and early afternoon across US time zones, so review calls fit before or between clinic sessions, and design comments go into a shared file in between. I invoice in EUR or, by agreement, in another currency."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

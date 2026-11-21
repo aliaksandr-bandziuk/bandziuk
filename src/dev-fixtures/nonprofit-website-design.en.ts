@@ -183,7 +183,7 @@ export const nonprofitWebsiteDesignEn = {
         p("Nonprofit website templates copy the look of these sites, rarely the structure: one generic “Our work” page, a Donate button that opens a bare payment link, no place for reports. When you browse nonprofit website design examples for ideas, look past the home page at the donation and program pages."),
 
         h2("A nonprofit website that ChatGPT and Google AI Overviews can read"),
-        p("Donors and volunteers now ask ChatGPT, Perplexity or Google’s AI Overviews which organizations work on a cause in their city. Assistants can only mention what they can read. The design keeps the mission, programs, service area, EIN, walk-in hours and contacts as page text, adds structured data for the organization and keeps key facts out of images, sliders and PDFs."),
+        p("Donors and volunteers now ask ChatGPT, Perplexity or Google’s AI Overviews which organizations work on a cause in their city. Assistants can only mention what they can read. The design keeps the mission, programs, service area, EIN, walk-in hours and contacts as page text, adds structured data for the organization and keeps key facts out of images, sliders and PDFs. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Getting mentioned in those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

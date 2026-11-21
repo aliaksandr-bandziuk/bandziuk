@@ -165,7 +165,7 @@ export const carDealerWebsiteDesignEn = {
         p("The best car dealership websites share habits rather than a look: real photos of every car taken in the same spot, prices with fees shown openly, one tap to call or text from any vehicle, and inventory that matches the lot to the hour."),
 
         h2("A car dealer website that ChatGPT and Google AI Overviews can read"),
-        p("Some buyers now ask ChatGPT, Perplexity or Google’s AI Overviews which dealers nearby have a certain model or offer financing for first-time buyers. These assistants can only use what they can read. A site that shows inventory, hours and financing terms as images, or loads everything inside a third-party widget, gives them nothing. The same facts as text, with Car and AutoDealer structured data generated from the feed, can be read and quoted."),
+        p("Some buyers now ask ChatGPT, Perplexity or Google’s AI Overviews which dealers nearby have a certain model or offer financing for first-time buyers. These assistants can only use what they can read. A site that shows inventory, hours and financing terms as images, or loads everything inside a third-party widget, gives them nothing. The same facts as text, with Car and AutoDealer structured data generated from the feed, can be read and quoted. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Being recommended there is separate, ongoing work; see ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

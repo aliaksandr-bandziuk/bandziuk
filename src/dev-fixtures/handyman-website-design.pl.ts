@@ -164,7 +164,7 @@ export const handymanWebsiteDesignPl = {
         ),
 
         h2("Strona złotej rączki, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Część klientów pyta ChatGPT, Perplexity, Gemini albo podsumowania AI w Google, kto w okolicy złoży szafę czy wymieni baterię i ile to kosztuje. Asystent poleca firmy, o których może coś przeczytać. Jeśli lista usług, ceny i obszar są na grafice albo w zewnętrznym widżecie, nic z nich nie wyczyta. Te same informacje zapisane tekstem, z danymi strukturalnymi firmy i usług, dają mu materiał do odpowiedzi."),
+        p("Część klientów pyta ChatGPT, Perplexity, Gemini albo podsumowania AI w Google, kto w okolicy złoży szafę czy wymieni baterię i ile to kosztuje. Asystent poleca firmy, o których może coś przeczytać. Jeśli lista usług, ceny i obszar są na grafice albo w zewnętrznym widżecie, nic z nich nie wyczyta. Te same informacje zapisane tekstem, z danymi strukturalnymi firmy i usług, dają mu materiał do odpowiedzi. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "Żeby asystenci faktycznie Cię polecali, potrzebna jest dalsza praca — piszę o niej na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),

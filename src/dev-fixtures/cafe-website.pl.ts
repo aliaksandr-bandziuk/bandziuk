@@ -123,7 +123,7 @@ export const cafeWebsitePl = {
         li("przy każdym napoju rozmiary i cena za rozmiar, a dopłaty za mleko roślinne i syropy jako opcje — nowa cena mleka owsianego to jedna zmiana w panelu"),
         li("ciasta, bajgle i kanapki z oznaczeniem, co pieczecie na miejscu, z opisem wegańskich i bezglutenowych pozycji oraz alergenów"),
         li("linijka „dziś” na kawę dnia z przelewu albo ciasto, które już się skończyło"),
-        p("Menu zapisane tekstem da się przeszukać na telefonie, przeczyta je Google i asystent AI, a strona zamówień bierze pozycje i ceny z tej samej listy, więc nigdy się nie rozjeżdżają."),
+        p("Menu zapisane tekstem da się przeszukać na telefonie, przeczyta je Google i asystent AI, a strona zamówień bierze pozycje i ceny z tej samej listy, więc nigdy się nie rozjeżdżają. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
 
         h2("Godziny otwarcia kawiarni, dni świąteczne i dojazd na stronie"),
         p("Godziny kawiarni zmieniają się częściej, niż się wydaje: dłużej latem i w ogródku, krócej w Wigilię, inaczej 1 listopada i w majówkę, zamknięte w dniu imprezy zamkniętej. Na stronie godziny stałe i wyjątki to osobne pola, więc gość widzi „Dziś otwarte 9:00–14:00 (godziny świąteczne)”, a nie tygodniową tabelkę, która akurat dziś się nie zgadza. U góry każdej podstrony jest linijka, czy lokal jest teraz otwarty."),

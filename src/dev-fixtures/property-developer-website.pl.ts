@@ -186,7 +186,7 @@ export const propertyDeveloperWebsitePl = {
       _key: k("b"),
       content: [
         h2("Strona dewelopera czytelna dla asystentów AI"),
-        p("Kupujący i inwestorzy coraz częściej pytają ChatGPT, Perplexity albo przeglądy AI w Google: co powstaje w tej okolicy, kto jest deweloperem, jaki jest termin odbioru i harmonogram płatności, czy poprzednie inwestycje oddano w terminie. Asystent odpowiada z tekstu, który potrafi przeczytać i streścić, i podaje źródła — więc struktura strony rozstrzyga, czy Wasza firma w ogóle pojawi się w tej odpowiedzi."),
+        p("Kupujący i inwestorzy coraz częściej pytają ChatGPT, Perplexity albo przeglądy AI w Google: co powstaje w tej okolicy, kto jest deweloperem, jaki jest termin odbioru i harmonogram płatności, czy poprzednie inwestycje oddano w terminie. Asystent odpowiada z tekstu, który potrafi przeczytać i streścić, i podaje źródła — więc struktura strony rozstrzyga, czy Wasza firma w ogóle pojawi się w tej odpowiedzi. Wejście firmy do odpowiedzi asystentów to GEO (generative engine optimization), inaczej AEO (answer engine optimization)."),
         p("W praktyce: bezpośrednia odpowiedź na początku każdej sekcji, fakty o lokalizacji, terminach, powierzchniach i warunkach zamiast przymiotników, dane strukturalne Schema.org dla firmy i inwestycji zgodne z widocznym tekstem oraz treść dostępna bez uruchamiania skryptów. Karuzela wizualizacji, w której zaszyte są wszystkie fakty, jest dla tego wszystkiego niewidoczna."),
         p(
           "Jak to się robi na już istniejącej stronie, to osobna praca: ",

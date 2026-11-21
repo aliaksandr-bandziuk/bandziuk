@@ -180,7 +180,7 @@ export const architectureWebsiteDesignEn = {
         p("When you collect ideas, open a project page and the contact page on your phone, not only the home page on a desktop."),
 
         h2("An architecture website that ChatGPT and Google AI Overviews can read"),
-        p("When someone asks ChatGPT, Perplexity or Google’s AI Overviews for an architect who designs a certain type of building in a certain place, the answer comes from text the assistant can read. A site where projects exist only as images, services sit in a PDF and the address appears only on an embedded map gives assistants nothing to repeat. The design keeps services, project types, places, team and awards as page text, with structured data for the practice and each project."),
+        p("When someone asks ChatGPT, Perplexity or Google’s AI Overviews for an architect who designs a certain type of building in a certain place, the answer comes from text the assistant can read. A site where projects exist only as images, services sit in a PDF and the address appears only on an embedded map gives assistants nothing to repeat. The design keeps services, project types, places, team and awards as page text, with structured data for the practice and each project. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Being named in those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),

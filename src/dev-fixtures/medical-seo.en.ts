@@ -38,7 +38,7 @@ export const medicalSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Procedures + Maps + reviews", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Procedures + Maps + reviews", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Dermatologist near me", "Accepts your insurance", "Book online today", "Board-certified"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Medical practice SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -101,7 +101,7 @@ export const medicalSeoEn = {
       content: [
         p("I do medical SEO for private practices and small clinics — dermatology, plastic surgery, med spas, physical therapy, chiropractic, primary care and specialist practices: procedure pages, a Google Business Profile for each location, reviews, booking and insurance pages. Medical practice SEO is measured in new patient appointments, not in traffic, and I do the work myself, from the audit to the code."),
 
-        h2("What medical SEO covers for private practices and small clinics"),
+        h2("Medical SEO for private practices and small clinics: the scope"),
         p("A patient choosing a dermatologist or a physical therapist usually looks in three places before booking:"),
         li("the map results — three practices with a rating, hours and a phone number, shown first for “near me” searches"),
         li("the regular results, where your site competes with Zocdoc, Healthgrades, WebMD and the hospital system in town"),
@@ -205,6 +205,7 @@ export const medicalSeoEn = {
           ["How should a practice answer negative reviews?", "Politely and in general terms, without confirming that the reviewer is a patient or mentioning their care, and with an invitation to call the office. Patient privacy rules apply to public replies too."],
           ["Is an appointment form on our website safe?", "It can be. In the US, use a form provider that signs a business associate agreement, or ask only for name, contact details and a preferred time and leave symptoms for the call. This is general guidance; your compliance adviser decides."],
           ["Do you write the medical content?", "I write the structure, the search data and drafts. Your clinicians check and approve every clinical statement, and the page names the reviewer. I do not give medical advice."],
+          ["Will patients find the clinic through ChatGPT?", "Increasingly, when there is something to quote: services, doctors and prices named in text with prices, each doctor with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the clinic out of the answer."],
           ["Do you do medical SEO outside Poland?", "Yes. The work is remote — the website, the Google profile and the search data for your area — for practices in the US, the UK, Canada and the EU. I work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

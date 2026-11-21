@@ -37,7 +37,7 @@ export const seoForPlasticSurgeonsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Procedures + galleries + maps", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Procedures + galleries + maps", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Rhinoplasty surgeon near me", "Certified by the ABPS", "Tummy tuck cost", "Request a consultation"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a plastic surgery practice: website, galleries and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -100,7 +100,7 @@ export const seoForPlasticSurgeonsEn = {
       content: [
         p("I do SEO for plastic surgeons — solo surgeons, group practices and plastic surgery centers — so that people researching an operation find your practice, read about your surgeons and request a consultation. The work covers procedure pages, credentials, before-and-after galleries, cost and financing pages, your Google profile and AI answers, and I do it myself, from the audit to the code."),
 
-        h2("What SEO for plastic surgeons covers, and how it differs from med spa SEO"),
+        h2("SEO for plastic surgeons: what it covers, and how it differs from med spa SEO"),
         p("Nobody books a facelift after one search. A patient reads for weeks, compares two or three surgeons, looks through hundreds of photos, checks credentials and asks about cost and time off work. SEO for a plastic surgery practice follows that research: your practice should appear at each step, and each page should answer the question the patient had when they arrived."),
         p(
           "This is a different job from SEO for a med spa. Injectables, laser and body contouring are frequent, lower-cost visits, often chosen by distance and price; surgery is one large decision made on the surgeon. Practices that offer both need both kinds of pages, and the non-surgical side is covered on the ",
@@ -151,7 +151,7 @@ export const seoForPlasticSurgeonsEn = {
         p("“How much is a breast augmentation”, “tummy tuck cost near me” and “facelift financing” are among the most searched plastic surgery questions, and practices that hide prices lose them to directories and price articles. A cost page per procedure gives a range, explains what moves the price — technique, anesthesia, facility fee, garments, follow-up visits — and says that the exact fee is set at consultation. A financing page lists the medical credit providers you accept, such as CareCredit, and how to apply. Prices stay in text, not inside an image."),
 
         h2("Plastic surgeon SEO in ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("Before opening a single site, many patients type into an assistant “which surgeon in Dallas specializes in revision rhinoplasty” or “what is recovery like after a deep plane facelift”. This work goes by two names, GEO (generative engine optimization) and AEO (answer engine optimization). Assistants quote facts they can read and confirm in several places, so the work is:"),
+        p("Before opening a single site, many patients type into ChatGPT, Perplexity or Gemini “which surgeon in Dallas specializes in revision rhinoplasty” or “what is recovery like after a deep plane facelift”. This work goes by two names, GEO (generative engine optimization) and AEO (answer engine optimization). Assistants quote facts they can read and confirm in several places, so the work is:"),
         li("surgeons, boards, training, procedures, locations and languages written as plain facts"),
         li("short answers to procedure questions, reviewed by a surgeon"),
         li("the same practice and surgeon details on the site, the Google profile, RealSelf and hospital pages"),
@@ -202,6 +202,7 @@ export const seoForPlasticSurgeonsEn = {
           ["Can we show before-and-after photos on the website?", "Yes, with each patient’s written consent for marketing use, matching lighting and angles and no retouching. In the US a signed HIPAA authorization is generally needed. Captions and alt text describe the procedure, not the person."],
           ["Is RealSelf enough, or do we need our own site to rank?", "RealSelf brings patients who already compare surgeons, and its reviews help. Your own site wins searches for your name and your procedures in your city, and it is the source assistants read. Keep the details identical in both places."],
           ["Do you write the procedure content?", "I prepare the outline, the search data and a draft; a surgeon from your practice corrects and approves anything clinical, and the page shows who approved it and when. Medical advice stays with your surgeons."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: procedures, recovery and prices named in text with prices, each surgeon with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Can a US plastic surgery practice work with an SEO consultant in Poland?", "Yes. I work remotely from Warsaw; my working afternoon and evening fall on the East Coast morning and the West Coast early morning, so calls are easy to schedule. Invoices are in euros, calls and reports in English."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

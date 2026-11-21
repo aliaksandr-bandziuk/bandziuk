@@ -43,7 +43,7 @@ export const seniorLivingSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Opieka, cena i mapy", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Opieka, cena i mapy", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dom seniora Kraków", "Opieka nad osobą z demencją", "Cena pobytu miesięcznie", "Umów wizytę w domu"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO domu opieki: strona i wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },
@@ -105,6 +105,7 @@ export const seniorLivingSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem stron domów opieki: podstrony poziomów opieki, opłaty tekstem, wizytówka i obecność w odpowiedziach AI."),
         p("Pozycjonowanie strony domu opieki robię sam — od audytu strony i wizytówki Google, przez podstrony rodzajów opieki, po pomiar zapytań od rodzin — dla prywatnych domów opieki i domów seniora w całej Polsce. Miejsca dla mamy czy taty zwykle nie szuka sam senior, tylko jego dorosłe dzieci, często w pośpiechu: po wypisie ze szpitala, po upadku albo wtedy, gdy opieka w domu przestaje wystarczać."),
 
         h2("Na czym polega pozycjonowanie strony domu opieki i domu seniora"),
@@ -193,6 +194,7 @@ export const seniorLivingSeoPl = {
           ["Czy podawać cenę pobytu na stronie domu seniora?", "Tak, przynajmniej „od” dla każdego rodzaju pokoju, z listą tego, co jest w cenie. To odpowiada na częste wyszukiwania rodzin i oszczędza rozmów, które nie skończą się przyjęciem. Kwota końcowa może zależeć od stanu zdrowia — strona może to wyjaśnić."],
           ["Jak odpowiadać na opinie o domu opieki?", "Spokojnie i ogólnie, bez potwierdzania, że ktoś jest mieszkańcem, i bez informacji o jego zdrowiu. Podziękować, zaprosić do rozmowy z kierownikiem domu."],
           ["Kto pisze teksty o opiece i zdrowiu?", "Szkic tekstu i plan podstron są po mojej stronie. Każde zdanie o pielęgnacji, lekach czy demencji zatwierdza przed publikacją kierownik domu albo pielęgniarka koordynująca. Porad medycznych na stronie nie ma."],
+          ["Czy pacjenci znajdą dom opieki przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: poziomy opieki, pokoje i opłaty nazwane tekstem razem z cenami, każdy opiekun ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza dom opieki z odpowiedzi."],
           ["Czy pracujesz z domami opieki spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie robię zdalnie: strona, wizytówka i dane wyszukiwań dla Waszej miejscowości i okolicy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -101,6 +101,7 @@ export const seoForTherapistsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem stron psychologów i terapeutów: podstrony metod i problemów, ceny i formaty sesji tekstem oraz obecność w odpowiedziach AI."),
         p("Pozycjonowanie strony psychologa robię sam: od analizy fraz, przez podstrony o problemach i nurtach terapii, po wizytówkę Google i widoczność w ChatGPT, Perplexity i Gemini. Pracuję z psychologami, psychoterapeutami i gabinetami psychologicznymi z kilkoma terapeutami w całej Polsce, a także z osobami prowadzącymi terapię online dla Polaków mieszkających za granicą."),
 
         h2("Na czym polega pozycjonowanie strony psychologa"),
@@ -193,6 +194,7 @@ export const seoForTherapistsPl = {
           ["Jak psycholog może zdobywać klientów z Google?", "Przez podstrony dla konkretnych problemów i nurtów, wizytówkę Google w miejscu, gdzie przyjmuje, spójne profile w katalogach i teksty odpowiadające na pytania zadawane przed pierwszą wizytą."],
           ["Ile trwa pozycjonowanie gabinetu psychologicznego?", "Poprawki w wizytówce i profilach działają często w kilka tygodni. Nowe podstrony zwykle potrzebują od dwóch do czterech miesięcy, w Warszawie i Krakowie dłużej."],
           ["Czy pozycjonujesz terapię online dla Polaków za granicą?", "Tak. To osobna podstrona i osobne frazy, np. „psycholog po polsku Londyn”, z informacją o platformie, płatności i strefach czasowych."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: metody, formaty i ceny sesji nazwane tekstem razem z cenami, każdy terapeuta ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy piszesz teksty o terapii?", "Przygotowuję frazy, plan i wersję roboczą. Treść merytoryczną piszesz albo zatwierdzasz Ty, a Twoje imię i kwalifikacje są podane jako autor."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

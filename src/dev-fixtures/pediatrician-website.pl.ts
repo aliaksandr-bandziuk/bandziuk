@@ -38,11 +38,11 @@ export const pediatricianWebsitePl = {
   seo: {
     metaTitle: "Strona dla pediatry i poradni dziecięcej od 8500 zł",
     metaDescription:
-      "Strona internetowa dla pediatry: pierwszy ekran dla rodzica, podstrony według wieku dziecka, szczepienia, bilanse, zgody na zdjęcia. Od 8500 zł.",
+      "Strona internetowa dla pediatry: pierwszy ekran dla rodzica, podstrony według wieku dziecka, szczepienia, bilanse, zgody na zdjęcia, odpowiedzi AI. Od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Pediatrzy i poradnie dziecięce", "Od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Pediatrzy i poradnie dziecięce", "Od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dziś otwarte do 20:00", "Wizyty domowe", "Kalendarz szczepień", "Zadzwoń"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona poradni dziecięcej: struktura według wieku, lekarze, sekcja szczepień, projekt w cenie", price: 8500, currency: "PLN", unit: "one-off" },
@@ -61,7 +61,7 @@ export const pediatricianWebsitePl = {
         { _key: k("o"), iconName: "shield-check", title: "Sekcja o szczepieniach", text: "PSO i Wasze stanowisko, raz i jasno" },
         { _key: k("o"), iconName: "calendar", title: "Bilanse i opieka roczna", text: "Co dokładnie obejmuje pakiet" },
         { _key: k("o"), iconName: "camera", title: "Zasady zdjęć dzieci", text: "Zgoda rodzica przed publikacją" },
-        { _key: k("o"), iconName: "file-lock", title: "Informacja bez cech reklamy", text: "art. 14 ustawy i wykaz z uchwały NRL" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Rodzaje wizyt i ceny do zacytowania" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -84,6 +84,7 @@ export const pediatricianWebsitePl = {
       layout: "guide",
       content: [
         h2("Kto otwiera stronę pediatry i w jakim stanie"),
+        p("Buduję strony dla gabinetów pediatrycznych: podstrony rodzajów wizyt, informacje o szczepieniach, ceny tekstem, zapis online i struktura czytelna dla asystentów AI."),
         p("Projektuję i buduję strony dla pediatrów i poradni dziecięcych, a projekt graficzny jest częścią budowy, nie osobną fakturą. Brief jest tu nietypowy i warto powiedzieć go wprost: spora część odwiedzających trafia na stronę w nocy, jedną ręką, z płaczącym dzieckiem na drugiej, i jest przestraszona. Nie przegląda strony. Chce trzech rzeczy w pięć sekund: czy jesteście teraz otwarci, jaki jest numer telefonu i czy to może poczekać do rana."),
         p("Prawie każda strona pediatryczna przegrywa ten moment tak samo: na pierwszym ekranie zdjęcie uśmiechniętej rodziny i hasło o trosce, godziny trzy kliknięcia dalej w zakładce Kontakt, a numer telefonu wstawiony jako obrazek. Poprawka nic nie kosztuje projektu, a zmienia wynik: dzisiejsze godziny jako tekst, który zmienia się sam, numer dzwoniący po jednym dotknięciu i krótka informacja, co robić poza godzinami przyjęć."),
 
@@ -145,7 +146,7 @@ export const pediatricianWebsitePl = {
       _key: k("b"),
       content: [
         h2("Strona pediatry, którą ChatGPT i przeglądy AI potrafią przeczytać (GEO, AEO)"),
-        p("Rodzice coraz częściej pytają asystenta, zanim zapytają kogokolwiek: pediatra przyjmujący wieczorem, mówiący po ukraińsku albo po angielsku, przyjmujący noworodki. Asystent odpowiada z tekstu, który potrafi przeczytać. Praktyka, której godziny są obrazkiem, cennik PDF-em, a lekarze tylko zdjęciami, dla tego pytania nie istnieje — i asystent poleci poradnię, która to wszystko wypisała."),
+        p("Rodzice coraz częściej pytają ChatGPT, Perplexity albo Gemini, zanim zapytają kogokolwiek: pediatra przyjmujący wieczorem, mówiący po ukraińsku albo po angielsku, przyjmujący noworodki. Asystent odpowiada z tekstu, który potrafi przeczytać. Praktyka, której godziny są obrazkiem, cennik PDF-em, a lekarze tylko zdjęciami, dla tego pytania nie istnieje — i asystent poleci poradnię, która to wszystko wypisała."),
         p(
           "Dlatego godziny, języki, wiek dzieci, zakres i ceny zostają tekstem, dane strukturalne zgadzają się z tym, co widać, a nazwa i adres są identyczne na stronie, w wizytówce i w katalogach. Doprowadzenie istniejącej strony do tego stanu to ",
           link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),
@@ -169,6 +170,7 @@ export const pediatricianWebsitePl = {
           ["Robimy wizyty domowe. Gdzie to umieścić?", "Na pierwszym ekranie i na osobnej podstronie, z obszarem dojazdu i ceną. Razem z godzinami wieczornymi decyduje to o większej liczbie zapytań niż cokolwiek w projekcie graficznym."],
           ["Czy rodzice będą mogli zapisać się online?", "Tak, a rejestracja mówi, do którego lekarza jest wizyta, nie tylko na kiedy. W pediatrii nazwisko lekarza bywa powodem, dla którego wizyta w ogóle się odbywa."],
           ["Czy przebudowa nie zabierze nam ruchu?", "Nie, jeśli zrobić mapę adresów i przekierowania, a podstrony, które już przyprowadzają rodziców, zachowują swój tekst zamiast być przepisane pod nowy wygląd."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: rodzaje wizyt, szczepienia i ceny nazwane tekstem razem z cenami, każdy pediatra ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy strona będzie nasza?", "Tak: kod, domena, konto hostingowe, treści i wszystkie dostępy. Nic nie zostaje u mnie jako dźwignia."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -38,11 +38,11 @@ export const veterinaryWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Veterinary Clinics | Bandziuk",
     metaDescription:
-      "Veterinary website design for clinics and animal hospitals: an emergency path, warm but clear layouts, real team and pet photos, booking up front. From 700 €.",
+      "Veterinary website design: an emergency path, clear layouts, real team photos, booking up front, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Emergency? Call now", "Book an appointment", "Dogs · Cats · Exotics", "Meet our vets"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple veterinary clinic website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -102,6 +102,7 @@ export const veterinaryWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for veterinary clinics: service pages, emergency hours and prices in text, booking, and a structure assistants can read."),
         p("I design veterinary websites for clinics and animal hospitals and build them myself, so design and build come from one person at one price. Veterinary website design is about what a pet owner sees and does in the first seconds — sometimes calmly booking a puppy’s first shots, sometimes holding a phone in one hand and a bleeding dog in the other. Every page is laid out so that each of those owners finds their action without reading what is meant for the other."),
 
         h2("Veterinary website design for two paths: the emergency and the routine visit"),
@@ -155,7 +156,7 @@ export const veterinaryWebsiteDesignEn = {
         h2("Pricing transparency on veterinary websites: exam fees, vaccines and wellness plans"),
         p("Cost is one of the main reasons owners delay a visit. A clinic does not need to publish its full fee schedule, but a page or a section that shows the exam fee, the price of a vaccination visit, a range for spay and neuter, and the monthly price of each wellness plan answers the first question before the phone rings. Where a price depends on weight or tests, say what it depends on. If an emergency exam has a separate fee, it belongs on the emergency page, stated calmly."),
 
-        h2("What the best veterinary websites have in common"),
+        h2("Veterinary websites that get calls: what the best ones share"),
         p("Lists of the best veterinary websites mix large hospital groups with single clinics. The decisions that make the good ones work fit any practice:"),
         li("one sentence on the first screen saying what the clinic is and where"),
         li("an emergency path and a booking path that never get mixed up"),
@@ -181,7 +182,7 @@ export const veterinaryWebsiteDesignEn = {
         ),
 
         h2("A veterinary website that ChatGPT and Google AI Overviews can read"),
-        p("More owners ask ChatGPT, Perplexity or Google’s AI Overviews to suggest a vet nearby or to say whether a symptom is urgent. Assistants work from text, not pictures. A design that keeps hours, species, prices and the vets’ credentials inside images hides them; the same facts set as real text, with structured data for the clinic, its services and its vets, can be read and repeated. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
+        p("More owners ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews to suggest a vet nearby or to say whether a symptom is urgent. Assistants work from text, not pictures. A design that keeps hours, species, prices and the vets’ credentials inside images hides them; the same facts set as real text, with structured data for the clinic, its services and its vets, can be read and repeated. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
         p(
           "Getting into those answers is ongoing work, described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
@@ -217,6 +218,7 @@ export const veterinaryWebsiteDesignEn = {
           ["Should we publish our prices?", "Publishing the exam fee, vaccine visits, a spay and neuter range and wellness plan prices helps owners decide and cuts routine calls. You do not need to publish the full fee schedule."],
           ["Can the design work with PetDesk, Vetstoria or our booking tool?", "Yes. The booking button and widget are placed in the design where owners decide to book, and styled to match the site as far as the tool allows. The technical connection is part of the build."],
           ["Can you redesign our veterinary website without losing Google rankings?", "Yes. Every existing address is mapped to its new page and redirected, and structured data is carried over before the new design goes live, so the positions the site already has are kept."],
+          ["Will patients find the clinic through ChatGPT?", "Increasingly, when there is something to quote: services, hours and prices named in text with prices, each vet with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the clinic out of the answer."],
           ["Do you work with veterinary clinics outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian, for clinics in the US, the UK, Europe and elsewhere. The site is set up for your country: phone formats, units and the review platforms your clients use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

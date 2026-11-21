@@ -36,7 +36,7 @@ export const optometrySeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Badanie wzroku + okulary + soczewki", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Badanie wzroku + okulary + soczewki", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Badanie wzroku w Twoim mieście", "Optometrysta dziś", "Oprawki Ray-Ban w salonie", "Zapisz się online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO salonu optycznego: strona i wizytówki Google", price: 1000, currency: "PLN", unit: "one-off" },
@@ -98,6 +98,7 @@ export const optometrySeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem stron salonów optycznych: podstrony badania wzroku, soczewek i marek opraw, wizytówka każdego salonu i obecność w odpowiedziach AI."),
         p("Pozycjonowanie strony salonu optycznego robię sam — od danych wyszukiwań, przez podstrony badania wzroku, soczewek i marek opraw, po wizytówkę Google każdego salonu. Pracuję z niezależnymi salonami, gabinetami optometrycznymi i salonami, w których przyjmuje lekarz okulista. Wynik liczę w zapisach na badanie i telefonach, a nie w samych pozycjach."),
 
         h2("Na czym polega pozycjonowanie strony salonu optycznego: badanie wzroku, okulary i soczewki"),
@@ -189,6 +190,7 @@ export const optometrySeoPl = {
           ["Czy optometrysta może reklamować badanie wzroku?", "Bezpieczniej informować niż reklamować: opisać badanie, kwalifikacje, cenę i warunki, bez obietnic efektów. Informacja o świadczeniach lekarza okulisty nie może mieć cech reklamy, a zasady dla optometrystów warto sprawdzić na bieżąco, bo zawód jest dziś uregulowany ustawowo."],
           ["Czy każdy salon powinien mieć osobną wizytówkę Google?", "Tak, jeśli ma własny adres, godziny i obsługę. Każda wizytówka prowadzi do podstrony swojego salonu z osobami badającymi, markami i dojazdem."],
           ["Czy wystarczy profil w ZnanyLekarz albo Booksy?", "To dobre źródła zapisów, ale profil należy do platformy i stoi obok konkurencji. Własna strona wygrywa wyszukiwania nazwy salonu i marek opraw, a asystenci AI chętnie z niej cytują. Najlepiej prowadzić jedno i drugie z tymi samymi danymi."],
+          ["Czy pacjenci znajdą salon przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: badanie wzroku, soczewki i marki opraw nazwane tekstem razem z cenami, każdy optometrysta ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza salon z odpowiedzi."],
           ["Czy pracujesz z salonami spoza Warszawy?", "Tak. Salon może być w Szczecinie, Rzeszowie czy małym mieście — strona, wizytówki i dane wyszukiwań nie wymagają mojej obecności na miejscu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

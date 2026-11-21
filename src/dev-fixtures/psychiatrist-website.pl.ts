@@ -34,11 +34,11 @@ export const psychiatristWebsitePl = {
   seo: {
     metaTitle: "Strona internetowa dla psychiatry i gabinetu od 8500 zł",
     metaDescription:
-      "Strona dla psychiatry: kryteria przyjęć i czas oczekiwania, podstrona dla lekarzy kierujących, informacja bez cech reklamy. Od 8500 zł.",
+      "Strona dla psychiatry: kryteria przyjęć i czas oczekiwania, podstrona dla lekarzy kierujących, informacja bez cech reklamy, odpowiedzi AI. Od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Gabinety psychiatryczne", "Od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Gabinety psychiatryczne", "Od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Kogo przyjmuję", "Czas oczekiwania: 3 tygodnie", "W nagłym kryzysie", "Zapytaj o termin"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona gabinetu psychiatrycznego: kryteria przyjęć, lekarze kierujący, blok kryzysowy, projekt w cenie", price: 8500, currency: "PLN", unit: "one-off" },
@@ -57,7 +57,7 @@ export const psychiatristWebsitePl = {
         { _key: k("o"), iconName: "users", title: "Podstrona dla lekarzy kierujących", text: "Co przysłać i jak się skontaktować" },
         { _key: k("o"), iconName: "shield-check", title: "Blok o nagłym kryzysie", text: "Gdzie się zgłosić, gdy nie może czekać" },
         { _key: k("o"), iconName: "file-lock", title: "Treści w granicach prawa", text: "Zaburzenia i metody, nie nazwy leków" },
-        { _key: k("o"), iconName: "globe", title: "Teleporada i e-recepta", text: "Kogo możesz prowadzić zdalnie" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Formy wizyt i ceny do zacytowania" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -79,7 +79,8 @@ export const psychiatristWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego strona psychiatry ma inne zadanie niż strona psychoterapeuty"),
+        h2("Strona psychiatry ma inne zadanie niż strona psychoterapeuty"),
+        p("Buduję strony dla gabinetów psychiatrycznych: podstrony konsultacji, ceny i formy tekstem, dyskretny zapis i struktura czytelna dla asystentów AI."),
         p("Projektuję i buduję strony dla gabinetów psychiatrycznych, a projekt graficzny jest w cenie wykonania, nie na osobnej fakturze. To osobna strona, a nie akapit w tekście o psychoterapii, z trzech powodów: psychiatra wypisuje recepty, ma zwykle zamkniętą albo prawie zamkniętą listę przyjęć i jest czytany nie tylko przez pacjentów, ale też przez kolegów, którzy kierują. Te trzy fakty zmieniają prawie każdą decyzję na stronie."),
         p(
           "Jeśli jesteś psychologiem albo psychoterapeutą, właściwa strona to ",
@@ -98,7 +99,7 @@ export const psychiatristWebsitePl = {
         p("Duża część pacjentów gabinetu psychiatrycznego przychodzi przez innych specjalistów: lekarzy rodzinnych, psychoterapeutów, pediatrów, medycynę pracy. Oni potrzebują z tej samej strony czegoś innego i szukają tego szybko, między wizytami: co przyjmujesz, co powinno znaleźć się w skierowaniu albo w liście, jak traktujesz przypadki pilne, numer, który nie jest ogólną rejestracją, i czy odpisujesz kierującemu po wizycie."),
         p("Jedna podstrona odpowiada na to wszystko i zwykle jest najtańsza do zrobienia i najbardziej opłacalna w utrzymaniu."),
 
-        h2("Co strona psychiatry może napisać o lekach"),
+        h2("Leki na stronie psychiatry: co wolno napisać"),
         p("Leczenie farmakologiczne wyróżnia gabinet, a jednocześnie jest obszarem, w którym strona musi być ostrożna. Art. 57 ust. 1 Prawa farmaceutycznego zakazuje reklamy publicznej leków wydawanych na receptę, co w praktyce oznacza, że strona opisuje zaburzenia, diagnostykę i podejście do leczenia, nie podając nazw handlowych i nie obiecując, co lek zrobi."),
         p("To ograniczenie jest łatwiejsze w życiu, niż brzmi, i zwykle poprawia tekst: pacjent, który szuka, nie szuka nazwy leku, tylko kogoś, kto potraktuje jego sytuację poważnie i wyjaśni, jak wygląda pierwsza wizyta."),
 
@@ -145,7 +146,7 @@ export const psychiatristWebsitePl = {
       _key: k("b"),
       content: [
         h2("Strona gabinetu psychiatrycznego czytelna dla asystentów AI (GEO, AEO)"),
-        p("Pacjenci i lekarze kierujący pytają dziś najpierw asystenta: psychiatra, który przyjmuje młodzież, mówi w danym języku, ma otwartą listę. Asystent odpowiada z tekstu, który potrafi przeczytać, a gabinet, którego kryteria siedzą w akapicie opisowym, czas oczekiwania zna tylko rejestracja, a cennik leży w PDF, w tej odpowiedzi nie pojawia się wcale."),
+        p("Pacjenci i lekarze kierujący pytają dziś najpierw ChatGPT, Perplexity albo Gemini: psychiatra, który przyjmuje młodzież, mówi w danym języku, ma otwartą listę. Asystent odpowiada z tekstu, który potrafi przeczytać, a gabinet, którego kryteria siedzą w akapicie opisowym, czas oczekiwania zna tylko rejestracja, a cennik leży w PDF, w tej odpowiedzi nie pojawia się wcale."),
         p(
           "Cytowalny gabinet wygląda tak samo jak gabinet wygodny dla człowieka: kryteria jako lista, wiek i języki jako tekst, cennik na stronie, czas oczekiwania w jednym aktualizowanym zdaniu. Doprowadzenie istniejącej strony do tego stanu to ",
           link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),
@@ -169,6 +170,7 @@ export const psychiatristWebsitePl = {
           ["Prowadzimy teleporady dla pacjentów z zagranicy. Czy to zmienia stronę?", "Tak. Strona pisze wprost, kogo prowadzisz zdalnie i w jakich krajach, a formularz pyta o to przed zajęciem terminu, nie po — bo o granicach leczenia zdalnego najgorzej dowiedzieć się na wizycie."],
           ["Czy pacjent będzie mógł zapisać się online?", "Jeśli tak pracuje gabinet. Wiele gabinetów psychiatrycznych woli formularz zgłoszenia, który zespół weryfikuje wobec kryteriów przyjęć, niż otwarty kalendarz, i stronę robię pod ten wariant, który naprawdę chcesz."],
           ["Czy da się przebudować stronę bez utraty ruchu z wyszukiwania?", "Da się. Każdy istniejący adres zostaje spisany, każdy zmieniony przekierowany, a podstrony, które już przyprowadzają pacjentów, zachowują tekst zamiast być przepisane pod nowy wygląd."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: formy konsultacji, ceny i języki nazwane tekstem razem z cenami, każdy psychiatra ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Do kogo należy strona?", "Do ciebie: kod, domena, konto hostingowe, treści i wszystkie dostępy. Nic nie zostaje u mnie jako dźwignia."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

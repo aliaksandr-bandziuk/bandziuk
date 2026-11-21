@@ -40,7 +40,7 @@ export const seoForDoctorsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["For physicians and specialists", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["For physicians and specialists", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Dr. [Name], MD", "Board-certified", "Accepting new patients", "Book a visit"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a physician: profile pages, directories, Google profile, AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -103,7 +103,7 @@ export const seoForDoctorsEn = {
       content: [
         p("I do SEO for doctors as individual physicians and specialists: the work that makes a patient who searches for your name, your specialty or their condition find you — and trust what they find. A practice or a hospital has its own website and marketing; you as a physician have a name, credentials and reviews that follow you from one employer to the next. This page is about that personal side of search."),
 
-        h2("What SEO for doctors covers: your name, your specialty and the conditions you treat"),
+        h2("SEO for doctors: your name, your specialty and the conditions you treat"),
         p("Patients look for physicians in three ways, and each needs its own work. These are the SEO keywords for doctors that matter most:"),
         li("the doctor’s name — after a referral, a recommendation from a friend or a hospital stay, often typed with a spelling mistake"),
         li("the specialty and the place — “rheumatologist [city]”, “pediatric cardiologist near me”, “female dermatologist”"),
@@ -213,6 +213,7 @@ export const seoForDoctorsEn = {
           ["Can a doctor reply to a patient’s online review?", "Yes, carefully. A reply should not confirm that the person is your patient or mention their care. In the US that can be a HIPAA issue; elsewhere data protection law applies. Thank them, state a general policy and invite them to call the office."],
           ["Who writes the medical content on condition pages?", "I research the searches and draft the structure and text; you review and correct the medicine, and the page carries your name, credentials and the review date. Nothing medical is published without a physician’s review."],
           ["How long does SEO take for a doctor?", "Name searches can improve within weeks once the profile page and directories are corrected. Condition and specialty pages usually take three to six months to rank, longer in large cities and competitive specialties."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: services, credentials and prices named in text with prices, each doctor with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Do you work with doctors outside Poland?", "Yes. SEO is done remotely, for physicians in the US, Canada, the UK, Australia and the EU, with the directories and rules of your country. I work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

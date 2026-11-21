@@ -47,11 +47,11 @@ export const massageTherapySeoEn = {
   seo: {
     metaTitle: "Massage Therapy SEO — audit from €250",
     metaDescription:
-      "SEO for massage therapists: filtering the wrong enquiries, modality searches, what may be claimed, one practitioner's capacity and rebooking. Audit €250.",
+      "SEO for massage therapists: filtering wrong enquiries, modality searches, what may be claimed, capacity, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Right clients, wrong ones filtered", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Right clients, wrong ones filtered", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Modality and purpose searches", "Qualifications stated plainly", "Rates and booking on the page", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a massage practice: site, map profile, wording and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -93,6 +93,7 @@ export const massageTherapySeoEn = {
       layout: "guide",
       content: [
         h2("Which practices this page is for, and where the neighbouring trades are covered"),
+        p("I do SEO for massage studios and therapists: a page per massage type, prices and session lengths in text, the map listing, and visibility in AI answers."),
         p("This page is for therapeutic and sports massage practised as its own discipline: a single practitioner or a small studio, by appointment, selling sessions to people who come back. The neighbouring trades on this site need different work, and separating them matters more here than anywhere else, because the search terms overlap while the buyers do not."),
         p(
           "For a salon selling appearance treatments alongside massage, the structure is on ",
@@ -117,7 +118,7 @@ export const massageTherapySeoEn = {
         h3("Mobile and studio are two different searches, and a mobile practice needs more precision, not less"),
         p("Visiting clients at home is a legitimate and well-paid part of many practices, and it is also where ambiguity does the most damage. A mobile practice therefore benefits from being more explicit than a studio one: the area covered, the hours, what equipment is brought, what space is needed, what the client should expect on arrival, and the same qualification and registration details. Written that way, it ranks for a separate set of searches and reads as a professional service rather than an unspecified call-out."),
 
-        h2("What a massage practice may claim, which sits between the clinics and the salons"),
+        h2("A massage practice between clinics and salons: what it may claim"),
         p("Much of the valuable demand is about a purpose: people search for massage after surgery, during pregnancy, for desk-bound shoulders and necks, for marathon preparation and recovery. That demand is real and specific, and capturing it requires walking a line that neither the clinics nor the salons have to walk."),
         p("The clinics are governed by rules on advertising health services, which in several markets restrict what a practice may publish at all. The salons mostly sell appearance and are barely touched by those rules. Massage sits between them: it is not a medical treatment in most jurisdictions, and a page promising to treat a condition, relieve a diagnosis or replace medical care invites exactly the regulatory attention the clinics live under — and is also simply unprovable."),
         p("The version that works describes the session rather than the result. What happens during it, how long it lasts, what the therapist will ask beforehand, what clients commonly come for in their own words, who should speak to a doctor first, and what the practice does not do. This captures the search, because the search is phrased as a purpose rather than a promise, and it keeps the page defensible. Where the line falls exactly depends on your market and your professional body, and a borderline page is worth a question to them rather than to me."),
@@ -159,7 +160,7 @@ export const massageTherapySeoEn = {
       _key: k("b"),
       content: [
         h2("Being named when a client asks ChatGPT for a massage therapist (GEO, AEO)"),
-        p("«Find me a qualified sports massage therapist near me with evening appointments» is a request people now make of an assistant rather than scrolling a map, and it suits this trade well, because the client is asking about a modality, a qualification and a time — all facts. The assistant answers from text it can read, so the same things decide whether a practice is named: modalities and qualifications written as text rather than implied, rates it can quote, hours and address that are current, and the same practice name and details across the site, the map profile and any directory you are listed in."),
+        p("«Find me a qualified sports massage therapist near me with evening appointments» is a request people now make of ChatGPT, Perplexity or Gemini rather than scrolling a map, and it suits this trade well, because the client is asking about a modality, a qualification and a time — all facts. The assistant answers from text it can read, so the same things decide whether a practice is named: modalities and qualifications written as text rather than implied, rates it can quote, hours and address that are current, and the same practice name and details across the site, the map profile and any directory you are listed in."),
         p(
           "Getting a site into that state is ",
           link("preparing a site for AI search", "/services/ai-search-readiness"),
@@ -183,6 +184,7 @@ export const massageTherapySeoEn = {
           ["My book is full. Should I do this?", "Not as a monthly retainer. The work worth buying is an audit and the pages that support a higher rate, or filling specific quiet hours. I would rather say that than take a fee for traffic you have no hours to serve."],
           ["Do I need a page for every type of massage I offer?", "For the ones you want more of, and for the purposes people search by — sports, deep tissue, prenatal, desk-related. Not for twelve named modalities most clients cannot distinguish. The pages that earn their place are the ones matching a search somebody actually makes."],
           ["How long before it brings clients?", "First movement after about a month and a half, growth on a three to six month horizon. The map profile usually responds fastest. After that the limit is your diary rather than the search results, which is why the plan should be about rate and gaps rather than volume."],
+          ["Will patients find the studio through ChatGPT?", "Increasingly, when there is something to quote: massage types, lengths and prices named in text with prices, each therapist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the studio out of the answer."],
           ["Who writes the pages?", "I draft and you correct. What makes these pages work is the part only the therapist knows — what you ask before a first session, what you decline, what clients actually say when they book — and that is also what makes a page read as a practitioner's rather than a marketer's."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

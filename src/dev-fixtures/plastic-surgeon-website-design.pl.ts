@@ -34,11 +34,11 @@ export const plasticSurgeonWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www kliniki chirurgii plastycznej | Bandziuk",
     metaDescription:
-      "Strona internetowa dla chirurga plastycznego: profile chirurgów, podstrony operacji, galeria za zgodą pacjentów, formularze zgodne z RODO, języki. Od 3000 zł.",
+      "Strona dla chirurga plastycznego: profile chirurgów, podstrony operacji, galeria za zgodą, formularze RODO, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Poznaj chirurga", "Operacje i rekonwalescencja", "Konsultacja online", "Cennik i raty"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla chirurga plastycznego", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -99,6 +99,7 @@ export const plasticSurgeonWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Buduję strony dla klinik chirurgii plastycznej: podstrony operacji, ceny i rekonwalescencja tekstem, zapis na konsultację i struktura czytelna dla asystentów AI."),
         p("Tworzę strony internetowe dla chirurgów plastycznych i klinik chirurgii plastycznej — projekt, wykonanie i uruchomienie — więc za wygląd i działanie strony odpowiada jedna osoba. Taka strona ma jedno zadanie: pomóc osobie, która rozważa operację, przekonać się, że ten chirurg jest właściwy, i umówić konsultację. Każdy element projektu oceniam właśnie pod tym kątem."),
 
         h2("Strona internetowa dla chirurga plastycznego: co pacjent sprawdza przed konsultacją"),
@@ -174,6 +175,9 @@ export const plasticSurgeonWebsiteDesignPl = {
           ".",
         ),
 
+        h2("Strona kliniki, którą przeczytają ChatGPT, Perplexity i Gemini"),
+        p("Pacjenci pytają asystentów, który chirurg w ich mieście robi korektę nosa po nieudanej operacji, ile trwa rekonwalescencja i ile kosztuje zabieg. Asystent odpowiada z tekstu, który potrafi odczytać, więc operacje, kwalifikacje chirurgów, ceny i czas powrotu stoją w treści słowami, a nie na grafikach."),
+        p("Pracę nad obecnością w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization). Na nowej stronie nie kosztuje osobno, bo robi się ją przy budowie."),
         h2("Ile kosztuje strona internetowa dla chirurga plastycznego"),
         li("Prosta strona chirurga — strona główna, chirurg, najważniejsze operacje, cennik, kontakt: od 3000 do 6000 zł."),
         li("Strona kliniki chirurgii plastycznej z profilami chirurgów, podstronami operacji, galerią, bezpiecznym formularzem konsultacji i wersjami językowymi: od 8500 zł."),
@@ -197,6 +201,7 @@ export const plasticSurgeonWebsiteDesignPl = {
           ["Jak pacjent może bezpiecznie przesłać zdjęcia do konsultacji online?", "Przez system gabinetowy albo dostawcę, z którym klinika ma umowę powierzenia danych — nie przez zwykły formularz ani e-mail. Krótki formularz zgłoszenia nie zbiera zdjęć ani informacji o zdrowiu."],
           ["Czy sami możemy dodawać operacje, ceny i przypadki?", "Tak. Operacje, cennik, profile chirurgów i galerię edytuje się w prostym panelu, a układ zostaje spójny. Najważniejszych stron nie da się przypadkiem usunąć."],
           ["Czy przebudowa strony nie zaszkodzi pozycjom w Google?", "Nie, jeśli każdy stary adres dostaje przekierowanie na nową podstronę. U Giuseppe przeniosłem w ten sposób wszystkie 468 artykułów."],
+          ["Czy pacjenci znajdą klinikę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: operacje, ceny i chirurdzy nazwane tekstem razem z cenami, każdy chirurg ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza klinikę z odpowiedzi."],
           ["Czy współpracujesz z klinikami spoza Warszawy?", "Tak. Projekt i wykonanie robię zdalnie dla klinik z całej Polski: rozmowy wideo, wspólne dokumenty i akceptacja każdego etapu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

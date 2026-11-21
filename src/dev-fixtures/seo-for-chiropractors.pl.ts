@@ -39,7 +39,7 @@ export const seoForChiropractorsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Mapy + podstrony problemów", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Mapy + podstrony problemów", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Fizjoterapeuta w pobliżu", "Rwa kulszowa — terapia", "Prywatnie bez skierowania", "Polecany przez ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO gabinetu fizjoterapii: strona, wizytówka Google, profile w serwisach rezerwacji i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -101,6 +101,7 @@ export const seoForChiropractorsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem stron gabinetów fizjoterapii i terapii manualnej: podstrony schorzeń, metody i ceny tekstem, wizytówka i obecność w odpowiedziach AI."),
         p("Pozycjonowanie strony gabinetu fizjoterapii robię sam — od danych wyszukiwań, przez wizytówkę Google, po podstrony problemów i poprawki w kodzie — dla gabinetów fizjoterapii, osteopatii i terapii manualnej. Celem nie są same pozycje, tylko pacjenci z okolicy, którzy po wpisaniu swojego problemu trafiają do Was i umawiają pierwszą wizytę."),
 
         h2("Na czym polega pozycjonowanie strony gabinetu fizjoterapii, osteopatii i terapii manualnej"),
@@ -195,6 +196,7 @@ export const seoForChiropractorsPl = {
           ["Czy fizjoterapeuta może reklamować swój gabinet?", "Gabinet działający jako podmiot leczniczy powinien informować o usługach, a nie je reklamować, a fizjoterapeutów obowiązują też zasady etyki zawodowej. Strona podaje fakty bez obietnic efektów; aktualne zasady warto sprawdzić w Krajowej Izbie Fizjoterapeutów."],
           ["Czy pozycjonujesz też gabinety osteopatii i terapii manualnej?", "Tak. Osteopatia i terapia manualna to osobne frazy i osobne podstrony, z opisem kwalifikacji osoby, która prowadzi terapię."],
           ["Kto pisze treści o problemach i metodach?", "Ja przygotowuję strukturę, dane wyszukiwań i szkic. Fizjoterapeuta sprawdza i zatwierdza treść merytoryczną, a podstrona podaje jego nazwisko i datę weryfikacji."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: schorzenia, metody i ceny nazwane tekstem razem z cenami, każdy terapeuta ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy pracujesz z gabinetami spoza Warszawy?", "Tak, z całej Polski. Pracuję zdalnie: strona, wizytówka i dane wyszukiwań dla Waszej miejscowości. Gabinety w Warszawie mogę też odwiedzić."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

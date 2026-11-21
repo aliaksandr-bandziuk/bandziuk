@@ -40,7 +40,7 @@ export const optometrySeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Exams + optical + contacts", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Exams + optical + contacts", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Eye exam near me", "Takes VSP and EyeMed", "Book an eye exam", "Ray-Ban frames in stock"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Optometry SEO audit: website and Google Business Profile of each office", price: 250, currency: "EUR", unit: "one-off" },
@@ -103,7 +103,7 @@ export const optometrySeoEn = {
       content: [
         p("I do optometry SEO for independent eye care practices and optical shops: a page for each service people search for — eye exams, contact lens fittings, myopia management, dry eye — a Google Business Profile for every office, insurance and frame brand pages, and facts AI assistants can quote. I work alone, from the audit to the code, and I measure the result in booked exams and calls, not in traffic."),
 
-        h2("What optometry SEO covers: eye exams, the optical shop and contact lenses"),
+        h2("Optometry SEO: eye exams, the optical shop and contact lenses"),
         p("An eye care practice is three businesses under one roof, and people search for each one differently:"),
         li("eye exams — “eye doctor near me”, “eye exam that takes VSP”, “kids eye exam” — searched by people who want a time slot this week"),
         li("the optical shop — “Ray-Ban glasses near me”, “progressive lenses”, “glasses in one day” — where people compare frames, lenses and prices"),
@@ -156,7 +156,7 @@ export const optometrySeoEn = {
         ),
 
         h2("Optometry SEO for ChatGPT and Google AI Overviews (GEO, AEO)"),
-        p("People now ask an assistant which eye doctor nearby takes their vision plan, who fits contacts for astigmatism or whether a child needs myopia management. Assistants build those answers from sources they can read and compare — your pages, your profiles, reviews and plan provider lists. The work has two names, generative engine optimization (GEO) and answer engine optimization (AEO); for an eye care practice it comes down to:"),
+        p("People now ask ChatGPT, Perplexity and Gemini which eye doctor nearby takes their vision plan, who fits contacts for astigmatism or whether a child needs myopia management. Assistants build those answers from sources they can read and compare — your pages, your profiles, reviews and plan provider lists. The work has two names, generative engine optimization (GEO) and answer engine optimization (AEO); for an eye care practice it comes down to:"),
         li("services, doctors, offices, hours, languages and accepted plans written as plain facts"),
         li("short answers to common patient questions on each service page, reviewed by an optometrist"),
         li("the same details on the site, the Google profiles and the plan provider lists"),
@@ -201,6 +201,7 @@ export const optometrySeoEn = {
           ["Should each office have its own Google profile and page?", "Yes. Each real office with its own address and staff gets its own profile and a page with its doctors, hours, parking and accepted plans. A profile that links to the home page wastes the visitor’s first click."],
           ["Can an independent optical shop compete with online contact lens sellers?", "On price alone, rarely. In search, yes: fittings for astigmatism, multifocal and specialty lenses, a quick reorder path and same-week appointments are things an online seller cannot offer, and pages about them rank locally."],
           ["Do you write the clinical content?", "I prepare the outline, the search data and first drafts. An optometrist from your practice signs off the clinical parts, and that name and date appear on the page. Medical advice stays with your doctors."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: eye exams, lenses and frame brands named in text with prices, each optometrist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Can you work with a US practice from Poland?", "Yes. The work is remote: the website, the profiles and search data for your area. My afternoon and evening in Central European Time overlap with the US morning, so calls are easy to schedule. Invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

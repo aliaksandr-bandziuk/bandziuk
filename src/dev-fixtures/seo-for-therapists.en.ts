@@ -101,7 +101,7 @@ export const seoForTherapistsEn = {
       content: [
         p("I do SEO for therapists, psychologists and counselors in private practice — LMFTs, LCSWs, LPCs and small group practices too: a page for each issue and modality you work with, location and telehealth pages, a Google Business Profile, directory listings that match your site, and the facts ChatGPT and Google AI Overviews rely on. I work alone, from the audit to the code, so the person who finds a problem is the person who fixes it."),
 
-        h2("What SEO in mental health means for a private therapy practice"),
+        h2("SEO in mental health: what it means for a private therapy practice"),
         p("SEO in mental health is the work of making a practice visible at the moment someone looks for help: “therapist for panic attacks near me”, “couples counseling Denver”, “EMDR therapist online”. These are rarely casual searches. Many people read for weeks before they write to anyone, and they choose the therapist whose pages describe their situation in words they recognize."),
         p("A therapy practice is found in four places, and SEO for therapists works on all of them:"),
         li("directories such as Psychology Today, which hold most top results for “therapist + city”"),
@@ -197,6 +197,7 @@ export const seoForTherapistsEn = {
           ["How long does SEO for a therapy practice take?", "Fixes to the Google profile and directory listings can show within weeks. A new niche page typically needs two to four months to climb, and more where many practices compete for the same city."],
           ["How much does SEO for therapists cost?", "An audit costs from 250 €, single pieces of work 250–700 €, monthly SEO from 800 € per month, and from 1,300 € in the most competitive metros. Describe the practice in a few lines and you get a fixed quote."],
           ["Can you work with a US practice from Poland?", "Yes. I work remotely from Warsaw, and my afternoon and evening overlap with US mornings, so calls are easy to schedule. Invoices are in euros. The site, the profile and the search data are all worked on online."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: methods, formats and session prices named in text with prices, each therapist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Do you write the text for my niche pages?", "I research the searches, plan the pages and draft them. You write or approve every clinical statement, and your name and credentials appear as the author. I do not give clinical advice."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

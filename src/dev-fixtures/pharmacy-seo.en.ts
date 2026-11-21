@@ -50,7 +50,7 @@ export const pharmacySeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Within the advertising rules", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Within the advertising rules", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["«Pharmacy open now» searches", "Night and duty hours", "Location and hours, done properly", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a pharmacy, including what the advertising rules permit", price: 250, currency: "EUR", unit: "one-off" },
@@ -92,6 +92,7 @@ export const pharmacySeoEn = {
       layout: "guide",
       content: [
         h2("Which pharmacies this page is for, and what it deliberately leaves out"),
+        p("I do SEO for pharmacies: pages for the services you actually offer, opening hours and stock in text, the map listing, and visibility in AI answers."),
         p("This page is about community pharmacies — a dispensary serving the people who live and work nearby. It is not about pharmaceutical manufacturing or distribution, which shares the word and almost nothing else: that is a business-to-business market with its own regulations, its own buyers and a completely different kind of website."),
         p(
           "If you run a clinic or a practice rather than a pharmacy, the governing rules are different and the pages for that are ",
@@ -101,7 +102,7 @@ export const pharmacySeoEn = {
           ". The distinction is not cosmetic: a pharmacy is not a healthcare provider in the legal sense used by those rules, and the norm that applies to it is stricter.",
         ),
 
-        h2("Why the advertising rules decide this work before a single keyword is looked at"),
+        h2("Advertising rules decide this work before a single keyword is looked at"),
         p("In most of Europe a pharmacy cannot advertise itself the way a shop can, and in several markets it cannot advertise itself at all. That is not a detail to be managed later; it decides what the website is allowed to contain, and therefore what the work can consist of. An agency that sells a pharmacy the standard package — promotional landing pages, offers, product promotions, review campaigns — is selling something that in some markets carries an order to take it down and a fine."),
         p("So the first thing I do on a pharmacy is not keyword research. It is establishing which regime applies where you operate, what the published exceptions are, and what is left. That usually turns out to be less than the owner was promised by somebody else and more than the owner feared, because being findable and advertising are not the same activity, and search rewards the first."),
         p("This page describes rules as they stood when it was written and is not legal advice. I am not a lawyer, and for a pharmacy the stakes are high enough that the final word on a borderline page should come from one, or from the supervising inspectorate."),
@@ -111,7 +112,7 @@ export const pharmacySeoEn = {
         p("That regime is in the middle of being replaced. A law lifting the total ban passed the Sejm in September 2026, was amended by the Senate in October, and went to the President on 23 October 2026 for a decision within twenty-one days; it takes effect fourteen days after publication. The replacement is not simply a liberalisation: the penalty ceiling rises from fifty thousand złoty to a million, and where a breach covers several pharmacies, a separate fine applies to each one."),
         p("The practical consequence for anyone commissioning work on a Polish pharmacy right now is that the answer depends on the date the page goes live, and the cost of getting it wrong is going up twentyfold. This is a reason to check the position on the day rather than to rely on what an agency wrote in a blog post last spring — including what is written here, which I will keep current but which is dated by definition."),
 
-        h2("What remains legal and still works: being findable rather than advertised"),
+        h2("Being findable rather than advertised: what stays legal and still works"),
         p("Strip out everything promotional and a surprising amount is left, because the searches that bring somebody to a pharmacy are not persuadable. Nobody is talked into needing a dispensary. They need one now, near where they are standing, that is open, and the pharmacy that answers those three things first gets the visit."),
         li("the location, written as an address a search engine and a map can both read, with the entrance described;"),
         li("the opening hours, accurate, including the days and weeks you are closed;"),
@@ -162,7 +163,7 @@ export const pharmacySeoEn = {
       _key: k("b"),
       content: [
         h2("Being named when somebody asks ChatGPT for an open pharmacy (GEO, AEO)"),
-        p("«Which pharmacy near me is open now» is a question people increasingly put to an assistant rather than a map, and for a pharmacy it is unusually important, because the answer is built from exactly the two facts the rules permit you to publish: where you are and when you are open. There is nothing promotional to argue about — the assistant either has current, consistent hours for you or it does not, and if it does not it names a competitor."),
+        p("«Which pharmacy near me is open now» is a question people increasingly put to ChatGPT, Perplexity or Gemini rather than to a map, and for a pharmacy it is unusually important, because the answer is built from exactly the two facts the rules permit you to publish: where you are and when you are open. There is nothing promotional to argue about — the assistant either has current, consistent hours for you or it does not, and if it does not it names a competitor."),
         p(
           "Getting a site into a state where that data is readable is ",
           link("preparing a site for AI search", "/services/ai-search-readiness"),
@@ -186,6 +187,7 @@ export const pharmacySeoEn = {
           ["Do reviews and the Google profile matter?", "The profile matters enormously, because it is where the location and hours live and where the «open now» search is answered. Soliciting reviews is a different matter and is exactly the kind of activity that can be read as promotion in a restrictive market, so I would not run a review campaign for a Polish pharmacy without legal advice."],
           ["What is the first thing you would fix?", "The hours, in every place they appear, including the duty roster. It sounds trivial and it is the highest-value change on most pharmacy sites: it is permitted everywhere, it answers the largest search in the sector, and when it is wrong somebody drives to a closed door."],
           ["How long before it shows?", "First movement after about a month and a half, growth on a three to six month horizon. For a pharmacy the map results usually move faster than that once the data is correct and consistent, because the fix is a data problem rather than a content one."],
+          ["Will patients find the pharmacy through ChatGPT?", "Increasingly, when there is something to quote: services, stock and opening hours named in text with prices, each pharmacist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the pharmacy out of the answer."],
           ["Will you tell me if there is nothing you can legally do?", "Yes, and I would rather do it in the first email than after an invoice. If your market's rules leave only the permitted information and your site already has it right, the work is an audit and the technical state, not a retainer."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

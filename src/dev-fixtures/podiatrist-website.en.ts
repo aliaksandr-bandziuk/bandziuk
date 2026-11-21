@@ -36,11 +36,11 @@ export const podiatristWebsiteEn = {
   seo: {
     metaTitle: "Podiatry Clinic Website Design and Build from €2,000",
     metaDescription:
-      "Websites for podiatry clinics: earliest slot on the first screen, prices per procedure, before-and-after photos, diabetic foot page. From €2,000.",
+      "Websites for podiatry clinics: earliest slot on the first screen, prices per procedure, before-and-after photos, diabetic foot page, AI answers. From €2,000.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podiatry and foot clinics", "From €2,000", "Answer within 1 working day"],
+  heroChips: ["Podiatry and foot clinics", "From €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Earliest slot: tomorrow", "Ingrown nail", "Prices per procedure", "Book a visit"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Podiatry clinic website: procedure prices, before-and-after gallery, diabetic foot page, design included", price: 2000, currency: "EUR", unit: "one-off" },
@@ -59,7 +59,7 @@ export const podiatristWebsiteEn = {
         { _key: k("o"), iconName: "image", title: "A before-and-after gallery that holds up", text: "Consent, context, no promises" },
         { _key: k("o"), iconName: "users", title: "A page for diabetic foot and referrals", text: "What you take and what you send on" },
         { _key: k("o"), iconName: "footprints", title: "Custom orthoses as two appointments", text: "Measurement, fitting, what it costs" },
-        { _key: k("o"), iconName: "shield-check", title: "Hygiene and sterilisation shown plainly", text: "The question nobody asks out loud" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Problems treated and prices to quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -81,7 +81,8 @@ export const podiatristWebsiteEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a podiatry website depends on which kind of podiatrist you are"),
+        h2("A podiatry website depends on which kind of podiatrist you are"),
+        p("I build websites for podiatry practices: pages per problem, visit length and prices in text, booking, and a structure assistants can read."),
         p("I design and build websites for podiatry practices and foot clinics, and design comes with the build rather than on a separate invoice. The first decision is not visual: the word podiatrist names two different businesses. In the United States it is a physician with surgical training; across much of Europe it is a specialist in foot care working alongside doctors rather than as one. A site built for the wrong one of those two reads as either overreaching or underqualified, and both cost appointments."),
         p(
           "So the site states the profession, the training behind it and the limits of what the practice does, in the first paragraph rather than on an about page. If you run a general clinic with several specialties, the page you want is ",
@@ -113,7 +114,7 @@ export const podiatristWebsiteEn = {
         h2("Showing hygiene and sterilisation without turning the site into a brochure"),
         p("The unspoken fear in foot care is catching something. Nobody asks about sterilisation at the front desk, and everybody wonders. A short block with real photographs of the autoclave and the instrument packaging, and one sentence on what is single-use, does more for conversion than a paragraph about the practice's values."),
 
-        h2("What a podiatrist website costs and how long it takes"),
+        h2("A podiatrist website: cost and build time"),
         p(
           "A practice website starts at €2,000 with design included. A landing page for one procedure or for custom orthoses is €700–1,400. A redesign that keeps rankings starts at €1,000. A landing page takes two to three weeks, a full site four to six. The number of procedures with their own pages, the number of languages and how quickly photographs and consents are ready move both the price and the schedule. The figures are on the ",
           link("pricing", "/pricing"),
@@ -143,7 +144,7 @@ export const podiatristWebsiteEn = {
       _key: k("b"),
       content: [
         h2("A podiatry clinic website that AI assistants can read (GEO, AEO)"),
-        p("Patients now ask an assistant before they open a map: a podiatrist who treats diabetic foot, one who can see them this week, one who makes orthoses, one who speaks their language. The assistant answers from text it can read, and a clinic whose procedures live inside photographs, whose prices sit in a PDF and whose availability is only known by phone does not appear in that answer at all."),
+        p("Patients now ask ChatGPT, Perplexity or Gemini before they open a map: a podiatrist who treats diabetic foot, one who can see them this week, one who makes orthoses, one who speaks their language. The assistant answers from text it can read, and a clinic whose procedures live inside photographs, whose prices sit in a PDF and whose availability is only known by phone does not appear in that answer at all."),
         p(
           "What makes a clinic quotable is the same thing that makes it convenient for a human: procedures as text with their prices, the conditions you treat named plainly, opening hours and languages as data, the earliest slot in one maintained sentence. Bringing an existing site to that state is ",
           link("AI search readiness", "/services/ai-search-readiness"),
@@ -167,6 +168,7 @@ export const podiatristWebsiteEn = {
           ["Do you work with medical practices?", "Yes, and the method accounts for it: wording without outcome promises, a review step before publishing, careful handling of health data in forms, and a photograph workflow that keeps consent attached to the image."],
           ["We also do medical pedicure. Should that be on the same site?", "Yes, but as its own page with its own wording, because it is a different purchase made by a different person. Mixing it into the clinical pages makes the practice read as a salon to patients and as a salon to referring doctors, which costs both."],
           ["Can you redesign our site without losing search traffic?", "Yes. Every existing address is mapped, every changed one redirected, and pages that already bring patients keep their text instead of being rewritten for a new look."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: problems treated, visit length and prices named in text with prices, each podiatrist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Who owns the site?", "You do: the code, the domain, the hosting account, the content and every access credential. Nothing stays with me as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

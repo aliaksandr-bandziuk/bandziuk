@@ -38,11 +38,11 @@ export const psychiatristWebsiteEn = {
   seo: {
     metaTitle: "Psychiatrist Website Design and Development from €2,000",
     metaDescription:
-      "Websites for psychiatric practices: intake criteria, waiting list, a page for referrers, emergency signposting, careful wording. From €2,000.",
+      "Websites for psychiatric practices: intake criteria, waiting list, a page for referrers, emergency signposting, AI answers. From €2,000.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Psychiatric practices", "From €2,000", "Answer within 1 working day"],
+  heroChips: ["Psychiatric practices", "From €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Who I see", "Current wait: 3 weeks", "In an emergency", "Request an appointment"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Website for a psychiatric practice: intake, referrers, emergency block, design included", price: 2000, currency: "EUR", unit: "one-off" },
@@ -61,7 +61,7 @@ export const psychiatristWebsiteEn = {
         { _key: k("o"), iconName: "users", title: "A page for referring colleagues", text: "What to send and how to reach you" },
         { _key: k("o"), iconName: "shield-check", title: "An emergency block", text: "Where to go when it cannot wait" },
         { _key: k("o"), iconName: "file-lock", title: "Wording within the rules", text: "Conditions and methods, not drug brands" },
-        { _key: k("o"), iconName: "globe", title: "Where you may treat remotely", text: "Licensing stated, not implied" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Formats and prices to quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -83,7 +83,8 @@ export const psychiatristWebsiteEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a psychiatrist's website has a different job from a therapist's"),
+        h2("A psychiatrist's website has a different job from a therapist's"),
+        p("I build websites for psychiatric practices: consultation pages, prices and formats in text, private booking, and a structure assistants can read."),
         p("I design and build websites for psychiatric practices, and design comes with the build rather than on a separate invoice. The reason this is its own page rather than a line on the therapy one: a psychiatrist prescribes, usually has a closed or nearly closed appointment book, and is read by colleagues as well as patients. Those three facts change almost every decision on the site."),
         p(
           "If you are a psychologist or psychotherapist, the page you want is ",
@@ -102,7 +103,7 @@ export const psychiatristWebsiteEn = {
         p("A psychiatric practice gets a large share of its patients through other professionals: GPs, therapists, paediatricians, occupational health. They need different things from the same site and they look for them quickly between appointments — what you accept, what to put in a referral letter, how urgent cases are handled, a direct line that is not the general phone number, and whether you write back to the referrer afterwards."),
         p("One page answers all of it, and it is usually the cheapest page on the site to build and the most profitable to have."),
 
-        h2("What the site may say about medication"),
+        h2("Medication on a psychiatrist's website: what may be said"),
         p("Prescribing is what distinguishes the practice, and it is also the area where the website has to be careful. Across the EU, advertising prescription-only medicines to the public is prohibited, which in practice means the site describes conditions, assessment and treatment approaches without naming brands or promising what a medicine will do."),
         p("That constraint is easier to live with than it sounds, and it usually improves the page: patients searching are not looking for a drug name, they are looking for someone who will take their situation seriously and explain what the first appointment involves."),
 
@@ -115,7 +116,7 @@ export const psychiatristWebsiteEn = {
         h2("The first appointment, described before anybody asks"),
         p("Psychiatric first appointments are longer, more expensive and more intimidating than most medical visits, and the fear of the unknown is what stops the booking. A page that says how long it lasts, what happens in it, what to bring, whether a family member can come, what it costs and what happens after converts better than any reassurance about the practice's philosophy."),
 
-        h2("What a psychiatrist website costs and how long it takes"),
+        h2("A psychiatrist website: cost and build time"),
         p(
           "A practice website starts at €2,000 with design included. A landing page for one assessment or service is €700–1,400. A redesign that keeps rankings starts at €1,000. A landing page takes two to three weeks, a full site four to six. The number of clinicians with their own pages, the number of languages and how quickly clinical wording gets approved move both the price and the schedule. The figures are on the ",
           link("pricing", "/pricing"),
@@ -145,7 +146,7 @@ export const psychiatristWebsiteEn = {
       _key: k("b"),
       content: [
         h2("A psychiatric practice website that AI assistants can read (GEO, AEO)"),
-        p("Patients and referrers now ask assistants first: a psychiatrist who takes adolescents, one who speaks a particular language, one whose book is open. An assistant answers from text it can read, and a practice whose criteria live in a paragraph of prose, whose wait is only known by phone and whose fees sit in a PDF does not appear in that answer at all."),
+        p("Patients and referrers now ask ChatGPT, Perplexity or Gemini first: a psychiatrist who takes adolescents, one who speaks a particular language, one whose book is open. An assistant answers from text it can read, and a practice whose criteria live in a paragraph of prose, whose wait is only known by phone and whose fees sit in a PDF does not appear in that answer at all."),
         p(
           "What makes a practice quotable is the same thing that makes it easy for a human: criteria as a list, ages and languages as text, fees on the page, the wait in a sentence that is kept current. Bringing an existing site to that state is ",
           link("AI search readiness", "/services/ai-search-readiness"),
@@ -169,6 +170,7 @@ export const psychiatristWebsiteEn = {
           ["Do you work with medical practices?", "Yes, and the method accounts for it: wording that avoids promises, a review step before publishing, and forms that handle health data carefully rather than as an afterthought."],
           ["Will patients be able to book online?", "Where it suits the practice. Many psychiatric practices prefer a request form that your team triages against intake criteria rather than an open calendar, and the site is built for whichever of the two you actually want."],
           ["Can you redesign our site without losing search traffic?", "Yes. Every existing address is mapped, every changed one redirected, and pages that already bring patients keep their text instead of being rewritten for a new look."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: consultation formats, prices and languages named in text with prices, each psychiatrist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Who owns the site?", "You do: the code, the domain, the hosting account, the content and every access credential. Nothing stays with me as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

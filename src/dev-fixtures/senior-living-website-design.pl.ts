@@ -39,11 +39,11 @@ export const seniorLivingWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla domu seniora od 3000 zł | Bandziuk",
     metaDescription:
-      "Strona internetowa domu opieki: rodzaje opieki, zdjęcia i film z domu, cennik tekstem, umówienie wizyty, RODO i dostępność. Projekt w cenie, od 3000 zł.",
+      "Strona internetowa domu opieki: rodzaje opieki, zdjęcia i film, cennik tekstem, umówienie wizyty, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Umów wizytę w domu", "Pokoje i ogród", "Cennik pobytu", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa domu opieki lub domu seniora", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -104,6 +104,7 @@ export const seniorLivingWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Buduję strony dla domów opieki: podstrony poziomów opieki, opłaty i rodzaje pokoi tekstem, zapis na wizytę i struktura czytelna dla asystentów AI."),
         p("Tworzę strony internetowe domów opieki i prywatnych domów seniora — od układu podstron i projektu po wykonanie i uruchomienie — więc za to, jak strona wygląda i działa, odpowiada jedna osoba. Stronę domu opieki czytają zwykle dwie osoby: córka lub syn, którzy porównują kilka domów na telefonie, i senior, któremu ktoś pokaże ją później na tablecie. Projekt musi być jasny dla pierwszej i życzliwy dla drugiej."),
 
         h2("Strona internetowa domu opieki: co rodzina musi znaleźć, zanim zadzwoni"),
@@ -151,7 +152,8 @@ export const seniorLivingWebsiteDesignPl = {
         ),
 
         h2("Strona internetowa domu opieki, którą ChatGPT i Google AI Overviews potrafią przeczytać"),
-        p("Rodziny pytają asystentów AI, który dom w okolicy przyjmuje osoby leżące albo ile kosztuje miesiąc pobytu. Asystent poleci tylko dom, o którym przeczyta konkretne fakty. Dlatego w kodzie strony fakty o domu — rodzaje opieki, liczba miejsc, cena od, zezwolenie, adres, godziny odwiedzin — są zwykłym tekstem i znacznikami danych strukturalnych, identycznymi jak w Mapach Google. Tak zbudowałem stronę Giuseppe, psychoterapeuty z Mediolanu, i jego nowe podstrony już pojawiają się w odpowiedziach ChatGPT."),
+        p("Praca nad obecnością w odpowiedziach asystentów nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."),
+        p("Rodziny pytają asystentów AI, który dom w okolicy przyjmuje osoby leżące albo ile kosztuje miesiąc pobytu. Asystent poleci tylko dom, o którym przeczyta konkretne fakty. Dlatego w kodzie strony fakty o domu — rodzaje opieki, liczba miejsc, cena od, zezwolenie, adres, godziny odwiedzin — są zwykłym tekstem i znacznikami danych strukturalnych, identycznymi jak w Mapach Google. Tak zbudowałem stronę Giuseppe, psychoterapeuty z Mediolanu, i jego nowe podstrony już pojawiają się w odpowiedziach ChatGPT, Perplexity i Gemini."),
         p(
           "Dalsza praca nad widocznością w AI opisana jest na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
@@ -204,6 +206,7 @@ export const seniorLivingWebsiteDesignPl = {
           ["Czy na stronie domu opieki powinien być cennik?", "Tak. Rodziny otwierają cennik jako pierwszy, więc przy pokoju jedno- i dwuosobowym widnieje kwota początkowa i krótkie wyjaśnienie, że końcowa zależy od potrzeb opiekuńczych."],
           ["Jak strona domu opieki spełnia wymogi RODO?", "Formularze nie zbierają danych o zdrowiu, przy formularzu jest klauzula informacyjna, a dane wrażliwe przechodzą tylko przez dostawcę z umową powierzenia. Ostateczną ocenę daje inspektor ochrony danych albo prawnik."],
           ["Czy sami możemy zmieniać cennik, jadłospis i zajęcia?", "Tak. Personel zmienia jadłospis, plan zajęć, ceny i zdjęcia sam, w panelu dostępnym też z telefonu, bez ryzyka, że rozjedzie się wygląd strony."],
+          ["Czy pacjenci znajdą dom opieki przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: poziomy opieki, pokoje i opłaty nazwane tekstem razem z cenami, każdy opiekun ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza dom opieki z odpowiedzi."],
           ["Czy pracujesz z domami opieki z całej Polski?", "Tak. Projekt i wykonanie robię zdalnie, a rozmowy prowadzimy przez telefon lub wideo. Dom pokazujecie mi na zdjęciach i krótkim filmie z telefonu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

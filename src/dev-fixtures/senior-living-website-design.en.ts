@@ -38,11 +38,11 @@ export const seniorLivingWebsiteDesignEn = {
   seo: {
     metaTitle: "Assisted Living and Senior Living Websites | Bandziuk",
     metaDescription:
-      "Senior living and assisted living website design: care-level pages, real photos and video tours, starting prices, tour booking, WCAG. Design + build from 700 €.",
+      "Senior living website design: care-level pages, photos and video tours, starting prices, tour booking, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Schedule a tour", "Assisted living · Memory care", "Pricing starts at", "Call · Text"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple senior living community website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -102,6 +102,7 @@ export const seniorLivingWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for senior living communities: care level pages, fees and room types in text, tour booking, and a structure assistants can read."),
         p("Senior living website design is my work for independent, assisted and memory care communities, and the person who draws the pages is the one who codes them, so nothing is lost between a designer and a developer. An assisted living website has two readers at once: an adult child comparing options on a phone between meetings, and a parent who may read the same page later on a tablet. The design has to serve both without talking down to either."),
 
         h2("Senior living website design for two readers: the adult child and the future resident"),
@@ -143,7 +144,7 @@ export const seniorLivingWebsiteDesignEn = {
         p("An operator with several communities needs one design system and a full section per community: its own address, photos, care levels, prices, team and tour calendar. Families search for a town, not for your company name, so a community page has to make sense on its own when someone lands on it from Maps. Shared content — care philosophy, careers, company history — lives once at the brand level and links down to each community."),
 
         h2("A senior living website that ChatGPT and Google AI Overviews can read"),
-        p("Adult children ask ChatGPT, Perplexity and Google’s AI Overviews to shortlist communities near a parent, with a memory care wing and within a budget. Assistants can recommend only what they can read. The design keeps the facts as text and structured data — levels of care, license, apartment types, starting prices, visiting hours, address — and in agreement with your Google Business Profile. Giuseppe’s site in Milan is built this way, and his new pages already appear in ChatGPT answers."),
+        p("Adult children ask ChatGPT, Perplexity, Gemini and Google’s AI Overviews (work known as GEO and answer engine optimization, AEO) to shortlist communities near a parent, with a memory care wing and within a budget. Assistants can recommend only what they can read. The design keeps the facts as text and structured data — levels of care, license, apartment types, starting prices, visiting hours, address — and in agreement with your Google Business Profile. Giuseppe’s site in Milan is built this way, and his new pages already appear in ChatGPT answers."),
         p(
           "Earning a place in those answers takes continuing work — see the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
@@ -197,6 +198,7 @@ export const seniorLivingWebsiteDesignEn = {
           ["Can we show photos of our residents?", "Only with written consent from the resident or the person legally entitled to give it. For memory care, photos of spaces, meals and staff are usually the safer choice. Your attorney confirms the consent form."],
           ["Should an assisted living website show prices?", "A starting price per level of care, with a list of what it includes and what adds to it, answers the first question families have. The final price can still depend on the care assessment, and the page says so."],
           ["Can you redesign our site without losing Google rankings?", "Yes. Every existing address is mapped to its new page and redirected, and structured data is carried over before launch, so the positions the site already has are kept."],
+          ["Will patients find the community through ChatGPT?", "Increasingly, when there is something to quote: care levels, rooms and fees named in text with prices, each carer with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the community out of the answer."],
           ["Do you work with US senior living communities from Poland?", "Yes. All design reviews happen over video and shared links, in English. Poland’s working afternoon falls on the American morning, so we can talk while your office is open. Invoices are issued in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

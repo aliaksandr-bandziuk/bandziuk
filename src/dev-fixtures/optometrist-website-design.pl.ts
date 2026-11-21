@@ -36,7 +36,7 @@ export const optometristWebsiteDesignPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Umów badanie wzroku", "Nasze oprawki", "Zamów soczewki", "Salony i godziny"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla salonu optycznego lub optometrysty", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -97,6 +97,7 @@ export const optometristWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Buduję strony dla salonów optycznych: zapis na badanie wzroku, podstrony soczewek i marek, ceny tekstem i struktura czytelna dla asystentów AI."),
         p("Strona internetowa dla salonu optycznego, którą robię, obejmuje strukturę, projekt, wykonanie i podłączenie zapisów — wszystko od jednej osoby, w jednej cenie. Pracuję z niezależnymi salonami, gabinetami optometrycznymi i salonami z lekarzem okulistą. Taką stronę często otwiera ktoś bez okularów, na telefonie, czasem tuż po badaniu z rozszerzonymi źrenicami — i od tego zaczynam projekt."),
 
         h2("Strona internetowa dla salonu optycznego: pierwszy ekran z zapisem na badanie wzroku"),
@@ -187,6 +188,7 @@ export const optometristWebsiteDesignPl = {
           ["Czy potrzebujemy sklepu internetowego z okularami?", "Zwykle nie. Katalog z filtrami i rezerwacją przymiarki sprowadza klienta do salonu, gdzie dobór szkieł i dopasowanie oprawki robi się porządnie. Sklep z okularami korekcyjnymi to osobny projekt."],
           ["Czy sami zmienimy oprawki, ceny i godziny?", "Tak. Oprawki, cennik, godziny salonów i profile specjalistów edytuje się w prostym panelu, także z telefonu."],
           ["Czy przeniesiecie naszą stronę bez utraty pozycji w Google?", "Tak. Każdy stary adres dostaje przekierowanie na nową podstronę, a dane strukturalne są przenoszone przed uruchomieniem."],
+          ["Czy pacjenci znajdą salon przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: badania, soczewki i ceny nazwane tekstem razem z cenami, każdy optometrysta ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza salon z odpowiedzi."],
           ["Jak strona salonu optycznego spełnia wymogi RODO?", "Zwykłe formularze nie zbierają danych o zdrowiu, klauzula informacyjna jest przy formularzu, a wyniki badań zostają w programie salonu. Ostateczną ocenę daje inspektor ochrony danych albo prawnik."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

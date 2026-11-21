@@ -35,11 +35,11 @@ export const medicalWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www dla lekarza i przychodni | Bandziuk",
     metaDescription:
-      "Strona internetowa dla lekarza i przychodni: informacja zamiast reklamy, profile lekarzy, rejestracja online, formularze zgodne z RODO. Od 3000 zł.",
+      "Strona dla lekarza i przychodni: informacja zamiast reklamy, profile lekarzy, rejestracja online, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Umów wizytę", "Nasi lekarze", "NFZ i prywatnie", "Cennik wizyt"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla lekarza lub gabinetu", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -100,6 +100,7 @@ export const medicalWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Buduję strony dla przychodni i gabinetów lekarskich: podstrony usług, profile lekarzy, ceny tekstem, zapis online i struktura czytelna dla asystentów AI."),
         p("Tworzę strony internetowe dla lekarzy — prywatnych gabinetów lekarskich, praktyk specjalistycznych i przychodni — od struktury i projektu po wykonanie i uruchomienie, więc za wygląd i działanie odpowiada jedna osoba. Strona lekarza ma pomóc pacjentowi w trzech sprawach: sprawdzić, kto przyjmuje i z jakimi kwalifikacjami, zrozumieć, z czym może przyjść, i umówić wizytę bez dzwonienia w godzinach pracy rejestracji."),
 
         h2("Strona www dla lekarza: informacja o usługach, nie reklama"),
@@ -151,7 +152,7 @@ export const medicalWebsiteDesignPl = {
         ),
 
         h2("Strona internetowa dla lekarza, którą ChatGPT i przeglądy AI w Google potrafią przeczytać"),
-        p("Pacjenci coraz częściej pytają ChatGPT, Perplexity albo przegląd od AI w Google, który lekarz w okolicy przyjmuje z danym problemem, mówi po angielsku albo ma wolne terminy prywatnie. Asystenci odpowiadają na podstawie tego, co potrafią przeczytać i sprawdzić. Dlatego lekarze ze specjalizacjami, usługi, adresy, godziny, języki i informacja o NFZ są zapisane tekstem i danymi strukturalnymi, zgodnie z wizytówką Google i profilem w ZnanyLekarz. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
+        p("Pacjenci coraz częściej pytają ChatGPT, Perplexity, Gemini albo przegląd od AI w Google, który lekarz w okolicy przyjmuje z danym problemem, mówi po angielsku albo ma wolne terminy prywatnie. Asystenci odpowiadają na podstawie tego, co potrafią przeczytać i sprawdzić. Dlatego lekarze ze specjalizacjami, usługi, adresy, godziny, języki i informacja o NFZ są zapisane tekstem i danymi strukturalnymi, zgodnie z wizytówką Google i profilem w ZnanyLekarz. Obecność w odpowiedziach asystentów ma dwie nazwy: generative engine optimization (GEO) i answer engine optimization (AEO)."),
         p(
           "Widoczność w odpowiedziach AI to dalsza praca, opisana na stronie ",
           link("pozycjonowanie w AI i ChatGPT", "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt"),
@@ -200,6 +201,7 @@ export const medicalWebsiteDesignPl = {
           ["Czy strona może mieć rejestrację online?", "Tak, jeśli Wasz system gabinetowy albo serwis rezerwacji udostępnia kalendarz do osadzenia lub link — większość to umożliwia. W innym przypadku formularz prośby o termin przekazuje zgłoszenie do rejestracji."],
           ["Jak strona lekarza spełnia wymogi RODO?", "Formularze nie zbierają danych o zdrowiu, obok nich jest klauzula informacyjna, a dane medyczne przechodzą tylko przez system, z którego dostawcą macie umowę powierzenia. Analityka nie przekazuje danych z formularzy. Ostateczną ocenę zgodności daje inspektor ochrony danych albo prawnik."],
           ["Ile trwa stworzenie strony dla przychodni?", "Zwykle od czterech do siedmiu tygodni od briefu, zależnie od liczby lekarzy i specjalizacji, wersji językowych i od tego, jak szybko gotowe są zdjęcia i zatwierdzone teksty."],
+          ["Czy pacjenci znajdą przychodnię przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi, lekarze i ceny nazwane tekstem razem z cenami, każdy lekarz ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza przychodnię z odpowiedzi."],
           ["Czy sami możemy zmieniać cennik, godziny i lekarzy?", "Tak. Cennik, godziny przyjęć, profile lekarzy i aktualności edytuje się w prostym panelu, także z telefonu, a układ strony zostaje spójny."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

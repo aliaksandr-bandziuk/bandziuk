@@ -33,11 +33,11 @@ export const podiatristWebsitePl = {
   seo: {
     metaTitle: "Strona internetowa dla podologa i gabinetu od 8500 zł",
     metaDescription:
-      "Strona dla podologa: najbliższy termin na pierwszym ekranie, cennik za zabieg, zdjęcia przed i po, stopa cukrzycowa, wkładki. Od 8500 zł.",
+      "Strona dla podologa: najbliższy termin na pierwszym ekranie, cennik za zabieg, zdjęcia przed i po, stopa cukrzycowa, wkładki, odpowiedzi AI. Od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Gabinety podologiczne", "Od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Gabinety podologiczne", "Od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Najbliższy termin: wtorek", "Wrastający paznokieć", "Cennik za zabieg", "Zapisz się"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona gabinetu podologicznego: cennik za zabieg, galeria przed i po, stopa cukrzycowa, projekt w cenie", price: 8500, currency: "PLN", unit: "one-off" },
@@ -56,7 +56,7 @@ export const podiatristWebsitePl = {
         { _key: k("o"), iconName: "image", title: "Galeria przed i po, która się obroni", text: "Zgoda, kontekst, bez obietnic" },
         { _key: k("o"), iconName: "users", title: "Podstrona o stopie cukrzycowej", text: "Co bierzesz i co odsyłasz dalej" },
         { _key: k("o"), iconName: "footprints", title: "Wkładki jako dwie wizyty", text: "Pomiar, dopasowanie, pełny koszt" },
-        { _key: k("o"), iconName: "shield-check", title: "Sterylizacja pokazana wprost", text: "Pytanie, którego nikt nie zadaje głośno" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Problemy i ceny do zacytowania" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -79,6 +79,7 @@ export const podiatristWebsitePl = {
       layout: "guide",
       content: [
         h2("Podolog czy podiatra: jaką nazwą wolno posługiwać się na stronie gabinetu"),
+        p("Buduję strony dla gabinetów podologicznych: podstrony problemów, czas wizyty i ceny tekstem, zapis online i struktura czytelna dla asystentów AI."),
         p("Projektuję i buduję strony dla gabinetów podologicznych, a projekt graficzny jest w cenie wykonania, nie na osobnej fakturze. Pierwsza decyzja na takiej stronie nie jest wizualna, tylko dotyczy nazwy. Od 26 marca 2024 r. podiatra jest jednym z zawodów objętych ustawą z 17 sierpnia 2023 r. o niektórych zawodach medycznych: jego wykonywanie wymaga wpisu do Centralnego Rejestru Osób Uprawnionych do Wykonywania Zawodu Medycznego, a ustawa przewiduje odpowiedzialność za posługiwanie się tytułem zawodu medycznego bez uprawnień. Nazwa „podolog” nie jest tytułem z tej ustawy."),
         p("Dla strony wynika z tego konkretna rzecz: tytuł, którym się na niej posługujesz, musi odpowiadać twojemu wpisowi — to warto potwierdzić u swojego doradcy przed publikacją, a nie po. Jednocześnie pacjenci w Polsce szukają „podologa”, nie „podiatry”, więc nazwa usługi w tekstach i adresach podstron idzie za tym, co ludzie wpisują, a tytuł osoby jest podany dokładnie, raz i bez ozdób. To nie sprzeczność, tylko dwie różne rzeczy w dwóch różnych miejscach strony."),
         p(
@@ -141,7 +142,7 @@ export const podiatristWebsitePl = {
       _key: k("b"),
       content: [
         h2("Strona gabinetu podologicznego czytelna dla asystentów AI (GEO, AEO)"),
-        p("Pacjenci pytają dziś asystenta, zanim otworzą mapę: podolog, który zajmuje się stopą cukrzycową, który przyjmie w tym tygodniu, który robi wkładki, który mówi w ich języku. Asystent odpowiada z tekstu, który potrafi przeczytać, a gabinet, którego zabiegi siedzą na zdjęciach, cennik leży w PDF, a wolne terminy zna tylko rejestracja, w tej odpowiedzi nie pojawia się wcale."),
+        p("Pacjenci pytają dziś ChatGPT, Perplexity albo Gemini, zanim otworzą mapę: podolog, który zajmuje się stopą cukrzycową, który przyjmie w tym tygodniu, który robi wkładki, który mówi w ich języku. Asystent odpowiada z tekstu, który potrafi przeczytać, a gabinet, którego zabiegi siedzą na zdjęciach, cennik leży w PDF, a wolne terminy zna tylko rejestracja, w tej odpowiedzi nie pojawia się wcale."),
         p(
           "Cytowalny gabinet wygląda tak samo jak gabinet wygodny dla człowieka: zabiegi tekstem razem z cenami, nazwane dolegliwości, godziny i języki jako dane, najbliższy termin w jednym aktualizowanym zdaniu. Doprowadzenie istniejącej strony do tego stanu to ",
           link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),
@@ -165,6 +166,7 @@ export const podiatristWebsitePl = {
           ["Czy pacjent będzie mógł zapisać się online?", "Jeśli tak pracuje gabinet. Część gabinetów chce otwartego kalendarza, część formularza, który rejestracja weryfikuje, bo wrastający paznokieć i wizyta kontrolna to nie ten sam termin. Stronę robię pod ten wariant, który naprawdę prowadzisz."],
           ["Robimy też pedicure leczniczy. Ma być na tej samej stronie?", "Tak, ale jako własna podstrona z własnym tekstem, bo to inny zakup robiony przez inną osobę. Wmieszanie go w podstrony zabiegowe sprawia, że gabinet czyta się jak salon — i dla pacjentów, i dla lekarzy kierujących."],
           ["Czy da się przebudować stronę bez utraty ruchu z wyszukiwania?", "Da się. Każdy istniejący adres zostaje spisany, każdy zmieniony przekierowany, a podstrony, które już przyprowadzają pacjentów, zachowują tekst zamiast być przepisane pod nowy wygląd."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: problemy, czas wizyty i ceny nazwane tekstem razem z cenami, każdy podolog ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Do kogo należy strona?", "Do ciebie: kod, domena, konto hostingowe, treści i wszystkie dostępy. Nic nie zostaje u mnie jako dźwignia."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

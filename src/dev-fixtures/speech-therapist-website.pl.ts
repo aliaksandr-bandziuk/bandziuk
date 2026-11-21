@@ -29,11 +29,11 @@ export const speechTherapistWebsitePl = {
   seo: {
     metaTitle: "Strona internetowa dla logopedy i gabinetu od 8500 zł",
     metaDescription:
-      "Strona dla logopedy: podstrony według wieku i wady wymowy, dzieci dwujęzyczne, termin obok NFZ, opinia logopedyczna, zajęcia online. Od 8500 zł.",
+      "Strona dla logopedy: podstrony według wieku i wady wymowy, dzieci dwujęzyczne, termin obok NFZ, opinia logopedyczna, zajęcia online, odpowiedzi AI. Od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Logopedzi i gabinety", "Od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Logopedzi i gabinety", "Od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["2 lata, nie mówi", "Nie wymawia „r”", "Rodzina dwujęzyczna", "Zapisz na diagnozę"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona gabinetu logopedycznego: podstrony według wieku i wady wymowy, dzieci dwujęzyczne, diagnoza, projekt w cenie", price: 8500, currency: "PLN", unit: "one-off" },
@@ -52,7 +52,7 @@ export const speechTherapistWebsitePl = {
         { _key: k("o"), iconName: "clock", title: "Termin obok kolejki NFZ", text: "Powód, dla którego rodzic płaci prywatnie" },
         { _key: k("o"), iconName: "file-text", title: "Informacja o opinii logopedycznej", text: "Dokument, którego rodzic szuka z nazwy" },
         { _key: k("o"), iconName: "video", title: "Co idzie online, a co nie", text: "Napisane wprost, bez obietnic" },
-        { _key: k("o"), iconName: "heart-pulse", title: "Osobna podstrona dla dorosłych", text: "Po udarze decyduje ktoś inny" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Problemy i ceny zajęć do zacytowania" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -74,7 +74,8 @@ export const speechTherapistWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego strona logopedy zaczyna się od słów rodzica, a nie od nazw diagnoz"),
+        h2("Strona logopedy zaczyna się od słów rodzica, a nie od nazw diagnoz"),
+        p("Buduję strony dla gabinetów logopedycznych: podstrony problemów, czas zajęć i ceny tekstem, zapis online i struktura czytelna dla asystentów AI."),
         p("Projektuję i buduję strony dla logopedów i gabinetów logopedycznych, a projekt graficzny jest w cenie wykonania, nie na osobnej fakturze. Największy problem prawie każdej strony logopedy nie leży w wyglądzie: specjalista pisze „dyslalia”, „opóźniony rozwój mowy”, „jąkanie wczesnodziecięce”, a rodzic w wyszukiwarce wpisuje „dwulatek nie mówi”, „sepleni”, „nie wymawia r”, „zacina się”. To dwa różne języki i strona napisana pierwszym nie spotyka się z człowiekiem, który szuka drugim."),
         p("Dlatego struktura powstaje z formułowań rodzica, a terminy stoją obok nich, w tym samym akapicie: podstrona jest znajdowana na żywe zapytanie i zostaje poprawna zawodowo. Daje to jeszcze jedno: rodzic, który słowo „dyslalia” słyszy pierwszy raz od pediatry, trafia na stronę, gdzie jest ono wyjaśnione jego słowami, i zostaje."),
         p(
@@ -105,7 +106,7 @@ export const speechTherapistWebsitePl = {
         p("Rodzic pyta o to w pierwszej wiadomości, a wymijająca odpowiedź kosztuje zapis. Dokładnej liczby podać nie można i terminu obiecać nie można, ale można opisać, jak to działa: diagnoza trwa tyle, po niej podajesz przedział i częstotliwość, po kilku tygodniach patrzysz, co się zmieniło, i przedział się uściśla."),
         p("Tam samo stoi zdanie o zadaniach domowych: że od rodzica potrzebne jest dziesięć–piętnaście minut dziennie. Postawione przed zapisem, a nie po, działa jak filtr — odchodzą ci, którzy liczą, że specjalista zrobi wszystko sam, zostają ci, z którymi będzie efekt. Obok tego cena diagnozy i cena zajęć, bo rodzic i tak liczy miesiąc."),
 
-        h2("Co logopeda robi online, a czego nie robi"),
+        h2("Zajęcia online u logopedy: co robi, a czego nie robi"),
         p("Zajęcia online otworzyły gabinety na całą Polskę i na rodziny za granicą, i właśnie dlatego na stronie potrzebna jest granica. Część pracy idzie przez wideo normalnie: automatyzacja głoski, słownictwo i gramatyka, praca z czytaniem i pisaniem, zajęcia z nastolatkiem i z dorosłym. Część wymaga obecności albo zastrzeżeń: wywołanie niektórych głosek, gdzie trzeba blisko widzieć układ artykulacyjny, praca z małym dzieckiem, które nie utrzyma uwagi przy ekranie, zadania miofunkcjonalne."),
         p("Strona, która to rozdziela, dostaje zgłoszenia z innych miast i krajów, a nie dostaje odwołanych zajęć i zwrotów. Tam też wymóg techniczny dla rodzica: komputer, nie telefon, i dorosły obok dziecka na pierwszych zajęciach."),
 
@@ -143,7 +144,7 @@ export const speechTherapistWebsitePl = {
       _key: k("b"),
       content: [
         h2("Strona logopedy czytelna dla asystentów AI (GEO, AEO)"),
-        p("Rodzice pytają dziś asystenta, zanim otworzą wyszukiwarkę: logopeda, który pracuje z dziećmi dwujęzycznymi, który prowadzi zajęcia online, który weźmie trzylatka, który mówi w ich języku. Asystent odpowiada z tekstu, który potrafi przeczytać, a gabinet, którego kierunki opisuje jeden ogólny akapit, ceny leżą na grafice, a wiek dzieci nie jest nigdzie nazwany, w tej odpowiedzi nie pojawia się wcale."),
+        p("Rodzice pytają dziś ChatGPT, Perplexity albo Gemini, zanim otworzą wyszukiwarkę: logopeda, który pracuje z dziećmi dwujęzycznymi, który prowadzi zajęcia online, który weźmie trzylatka, który mówi w ich języku. Asystent odpowiada z tekstu, który potrafi przeczytać, a gabinet, którego kierunki opisuje jeden ogólny akapit, ceny leżą na grafice, a wiek dzieci nie jest nigdzie nazwany, w tej odpowiedzi nie pojawia się wcale."),
         p(
           "Cytowalny gabinet wygląda tak samo jak gabinet zrozumiały dla rodzica: wiek i wady wymowy tekstem, języki pracy jako dane, cena diagnozy i zajęć na stronie, granica pracy online napisana wprost. Doprowadzenie istniejącej strony do tego stanu to ",
           link("przygotowanie strony do wyszukiwania AI", "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai"),
@@ -167,6 +168,7 @@ export const speechTherapistWebsitePl = {
           ["Jak opisać zajęcia online?", "Z granicą: co przez wideo idzie normalnie — automatyzacja głoski, słownictwo i gramatyka, czytanie i pisanie, nastolatki i dorośli — a co wymaga obecności albo zastrzeżeń. Taka strona przynosi zgłoszenia z innych miast, a nie odwołania i zwroty."],
           ["Czy potrzebna jest podstrona dla dorosłych po udarze?", "Jeśli bierzesz takich pacjentów — tak, osobna. Czyta ją nie sam pacjent, a jego dorosłe dzieci, w pierwszych tygodniach po zdarzeniu, i potrzebują innych odpowiedzi niż rodzice dzieci."],
           ["Czy da się przebudować stronę bez utraty ruchu z wyszukiwania?", "Da się. Każdy istniejący adres zostaje spisany, każdy zmieniony przekierowany, a podstrony, które już przynoszą zgłoszenia, zachowują tekst zamiast być przepisane pod nowy wygląd."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: problemy, czas zajęć i ceny nazwane tekstem razem z cenami, każdy logopeda ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Do kogo należy strona?", "Do ciebie: kod, domena, konto hostingowe, treści i wszystkie dostępy. Nic nie zostaje u mnie jako dźwignia."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -32,11 +32,11 @@ export const speechTherapistWebsiteEn = {
   seo: {
     metaTitle: "Speech Therapy Practice Website Design from €2,000",
     metaDescription:
-      "Websites for speech therapists: pages by age and concern, bilingual families, licence and teletherapy limits, school reports. From €2,000.",
+      "Websites for speech therapists: pages by age and concern, bilingual families, licence and teletherapy limits, school reports, AI answers. From €2,000.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Speech and language therapy", "From €2,000", "Answer within 1 working day"],
+  heroChips: ["Speech and language therapy", "From €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Two and not talking yet", "Trouble with «r»", "Bilingual family", "Book an evaluation"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Speech therapy practice website: pages by age and concern, bilingual families, evaluations, design included", price: 2000, currency: "EUR", unit: "one-off" },
@@ -55,7 +55,7 @@ export const speechTherapistWebsiteEn = {
         { _key: k("o"), iconName: "badge-check", title: "Credential and jurisdictions stated", text: "Where you may treat, said once and clearly" },
         { _key: k("o"), iconName: "file-text", title: "School reports, and whether you write them", text: "Parents search for the document" },
         { _key: k("o"), iconName: "video", title: "What works online and what does not", text: "A line drawn, not a promise" },
-        { _key: k("o"), iconName: "heart-pulse", title: "A separate page for adults", text: "After a stroke somebody else decides" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Problems and session prices to quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -77,7 +77,8 @@ export const speechTherapistWebsiteEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a speech therapist's website opens with the parent's words, not the clinical terms"),
+        h2("A speech therapist's website opens with the parent's words, not clinical terms"),
+        p("I build websites for speech therapy practices: pages per problem, session length and prices in text, booking, and a structure assistants can read."),
         p("I design and build websites for speech and language therapy practices, and design comes with the build rather than on a separate invoice. The biggest problem with almost every speech therapy site is not the design: the therapist writes «expressive language delay», «articulation disorder», «childhood-onset fluency disorder», and the parent types «two year old not talking», «can't say r», «stutters», «hard to understand». Those are two different languages, and a site written in the first never meets the person searching in the second."),
         p("So the structure is built out of the parent's phrasing, with the clinical term standing next to it in the same paragraph: the page gets found on the live query and stays professionally correct. There is a second gain. A parent who hears «articulation disorder» for the first time from a paediatrician lands on a page where that term is explained in their own words, and stays."),
         p(
@@ -108,7 +109,7 @@ export const speechTherapistWebsiteEn = {
         p("Parents ask this in their first message, and an evasive answer costs the booking. You cannot give a number and you cannot promise a date, but you can describe how it works: the evaluation takes this long, after it you give a range and a frequency, after a few weeks you look at what changed and the range narrows."),
         p("The same place carries the sentence about practice at home — ten to fifteen minutes a day from the parent. Placed before the booking rather than after, it works as a filter: the families expecting the therapist to fix it alone go elsewhere, and the ones who will see progress stay. Next to it goes the price of the evaluation and of a session, because the parent is working out a monthly figure either way."),
 
-        h2("What a speech therapist does online and what they do not"),
+        h2("Online speech therapy: what a therapist does and does not do"),
         p("Teletherapy made practices international, which is exactly why the site needs a line. Some work goes well over video: carryover of a sound, vocabulary and grammar, reading and writing, sessions with teenagers and adults. Some needs presence or at least caveats: eliciting certain sounds, where you have to see the articulators closely; a small child who will not hold attention at a screen; myofunctional work."),
         p("A site that separates the two gets enquiries from other countries and does not get cancellations and refunds. The same block carries the technical ask: a computer rather than a phone, and an adult sitting with the child for the first sessions."),
 
@@ -116,7 +117,7 @@ export const speechTherapistWebsiteEn = {
         p("Aphasia and dysarthria in adults are a different service, a different urgency and a different buyer: usually it is not the person searching but their adult children, in the first weeks after the event, when starting quickly matters. They need to know whether you take these patients, whether you work at home or at the practice, what the first session involves and how it fits the rehabilitation a doctor has already prescribed."),
         p("That is its own page, not a paragraph among the children's ones: mixed together, it loses the parents and the family both."),
 
-        h2("What a speech therapist website costs and how long it takes"),
+        h2("A speech therapist website: cost and build time"),
         p(
           "A practice website starts at €2,000 with design included. A landing page for a solo therapist is €700–1,400 and for a private practice with no premises that is usually the right size. A redesign that keeps rankings starts at €1,000. A landing page takes two to three weeks, a full site four to six. The number of age and concern pages, the number of languages and whether you run a teletherapy arm move both the price and the schedule. The figures are on the ",
           link("pricing", "/pricing"),
@@ -146,7 +147,7 @@ export const speechTherapistWebsiteEn = {
       _key: k("b"),
       content: [
         h2("A speech therapy website that AI assistants can read (GEO, AEO)"),
-        p("Parents now ask an assistant before they open a search box: a speech therapist who works with bilingual children, one who offers teletherapy, one who takes three-year-olds, one who is licensed where they live. The assistant answers from text it can read, and a practice whose services sit in one general paragraph, whose prices live in an image and whose age range is never written down does not appear in that answer at all."),
+        p("Parents now ask ChatGPT, Perplexity or Gemini before they open a search box: a speech therapist who works with bilingual children, one who offers teletherapy, one who takes three-year-olds, one who is licensed where they live. The assistant answers from text it can read, and a practice whose services sit in one general paragraph, whose prices live in an image and whose age range is never written down does not appear in that answer at all."),
         p(
           "What makes a practice quotable is the same thing that makes it clear to a parent: ages and concerns as text, languages and licensed jurisdictions as data, the evaluation and session price on the page, the boundary of online work stated plainly. Bringing an existing site to that state is ",
           link("AI search readiness", "/services/ai-search-readiness"),
@@ -170,6 +171,7 @@ export const speechTherapistWebsiteEn = {
           ["How should teletherapy be described?", "With a line drawn: what goes well over video — carryover of a sound, vocabulary and grammar, reading and writing, teenagers and adults — and what needs presence or caveats. That site brings enquiries from other regions and avoids cancellations and refunds."],
           ["Do we need a page for adults after a stroke?", "If you take those patients, yes, a separate one. It is read by the patient's adult children in the first weeks after the event, and they need different answers from the parents of young children."],
           ["Can you redesign our site without losing search traffic?", "Yes. Every existing address is mapped, every changed one redirected, and pages that already bring enquiries keep their text instead of being rewritten for a new look."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: problems, session length and prices named in text with prices, each therapist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Who owns the site?", "You do: the code, the domain, the hosting account, the content and every access credential. Nothing stays with me as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

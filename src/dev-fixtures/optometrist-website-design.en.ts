@@ -33,11 +33,11 @@ export const optometristWebsiteDesignEn = {
   seo: {
     metaTitle: "Eye Care Website Design for Optometrists | Bandziuk",
     metaDescription:
-      "Optometrist website design: low-vision friendly layout, exam booking, frame catalog, contact lens reorders, insurance info, HIPAA-aware forms. From 700 €.",
+      "Optometrist website design: low-vision friendly layout, exam booking, frame catalog, lens reorders, insurance info, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book an eye exam", "Browse our frames", "Reorder contacts", "Insurance we accept"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple website for an optometrist or optical shop, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -140,7 +140,7 @@ export const optometristWebsiteDesignEn = {
         p("Years ago I worked on a medical system that processed patient records; it is under NDA and stays unnamed. The habit it left me: a practice website should hold the least health data its job needs. Whether a setup meets your obligations is confirmed by your compliance adviser."),
 
         h2("An optometrist website that ChatGPT and Google AI Overviews can read"),
-        p("Questions like “which eye doctor near me fits contacts for astigmatism” or “who sees kids and takes my vision plan” now go to ChatGPT, Perplexity and Google’s AI Overviews as often as to the search box. An assistant can only repeat facts it finds as text. So offices, doctors and their credentials, services, hours, languages and plans live in HTML and structured data, word for word the same as on your Google profiles. The label for the answer shown in search itself is answer engine optimization (AEO)."),
+        p("Questions like “which eye doctor near me fits contacts for astigmatism” or “who sees kids and takes my vision plan” now go to ChatGPT, Perplexity, Gemini and Google’s AI Overviews as often as to the search box. An assistant can only repeat facts it finds as text. So offices, doctors and their credentials, services, hours, languages and plans live in HTML and structured data, word for word the same as on your Google profiles. The label for the answer shown in search itself is answer engine optimization (AEO)."),
         p(
           "Giuseppe found me by asking ChatGPT, and the new pages of his site already appear in ChatGPT answers. Earning a place in those answers takes steady work after launch — see the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
@@ -197,6 +197,7 @@ export const optometristWebsiteDesignEn = {
           ["Do we need an online store to show our frames?", "No. A catalog with filters and a “reserve to try in store” button brings people to the shop, where fitting and lenses are handled properly. An online store for prescription glasses is a separate project."],
           ["Can we leave our eye care vendor without losing Google rankings?", "Yes. Before launch each old vendor URL gets a 301 redirect to its new page and the structured data moves with it — the same method kept 468 blog posts of a Milan psychotherapy practice in place."],
           ["Is the contact form on an optometry website HIPAA compliant?", "The general form has no field for symptoms or prescriptions, so no health information reaches the website. Intake and prescription forms run through a provider that signs a business associate agreement. Your compliance adviser confirms the setup."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: exams, lenses and prices named in text with prices, each optometrist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Can you build a site for a US practice from Poland?", "Yes. Everything runs remotely in English, and review calls fit into your morning, which is my afternoon or evening in Poland. I invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

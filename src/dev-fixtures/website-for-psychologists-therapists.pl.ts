@@ -34,11 +34,11 @@ export const websiteForPsychologistsTherapistsPl = {
   seo: {
     metaTitle: "Strona www dla gabinetu psychologicznego | Bandziuk",
     metaDescription:
-      "Strona internetowa dla psychologa i psychoterapeuty: spokojny projekt, prosta droga do pierwszej wizyty, RODO, przeniesienie bloga bez strat. Od 3000 zł.",
+      "Strona dla psychologa i psychoterapeuty: spokojny projekt, droga do pierwszej wizyty, RODO, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Psychoterapia indywidualna", "Spotkania online", "Cennik sesji", "Napisz do mnie"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla psychologa lub psychoterapeuty", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -99,6 +99,7 @@ export const websiteForPsychologistsTherapistsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Buduję strony dla psychologów i terapeutów: podstrony metod i problemów, ceny i formaty tekstem, zapis online i struktura czytelna dla asystentów AI."),
         p("Tworzę strony internetowe dla psychologów, psychoterapeutów i gabinetów psychologicznych — projekt, wykonanie i uruchomienie robię sam, więc za wygląd i działanie strony odpowiada jedna osoba. Stronę psychologa czyta ktoś, kto często jeszcze nie wie, czy jest gotowy poprosić o pomoc. Jej zadanie jest proste: pokazać, kim jesteś, pozwolić rozpoznać własny problem w Twoich słowach i sprawić, że pierwsza wiadomość nie będzie trudna."),
 
         h2("Strona internetowa dla psychologa: spokojny projekt dla osoby w trudnym momencie"),
@@ -106,7 +107,7 @@ export const websiteForPsychologistsTherapistsPl = {
         p("Dla Giuseppe, psychologa i psychoterapeuty z Mediolanu, który pracuje z lękiem i napadami paniki, zaprojektowałem spokojny projekt od zera: ciemny motyw z jasnymi sekcjami, krój szeryfowy z prawdziwą kursywą i wyłącznie zasoby na otwartych licencjach. Nie jest to przerobiony szablon i to widać."),
         p("Projekt trzyma się wytycznych WCAG: kontrast, wielkość tekstu, obsługa klawiaturą i czytnikiem ekranu. Krótkie akapity i wyraźne nagłówki pomagają też osobom z ADHD czy dysleksją, które często trafiają na strony psychologów."),
 
-        h2("Co widać na pierwszym ekranie strony dla gabinetu psychologicznego"),
+        h2("Pierwszy ekran strony gabinetu psychologicznego: co na nim stoi"),
         p("Zanim ktoś przewinie stronę, powinien wiedzieć cztery rzeczy:"),
         li("z czym pracujesz, językiem klienta: „Psychoterapia lęku i napadów paniki — Poznań i online”, a nie „Przestrzeń do rozwoju”"),
         li("czy przyjmujesz stacjonarnie, online, czy w obu formach"),
@@ -158,7 +159,7 @@ export const websiteForPsychologistsTherapistsPl = {
         p("W Polsce listę ostrzeżeń ustalasz według zasad samorządu psychologów i kodeksu swojego towarzystwa — sprawdź ich aktualną wersję. Typowo trafiają na nią „gwarancja”, „skuteczna terapia”, „pierwsza wizyta gratis” i cytaty z klientów."),
 
         h2("Strona dla psychologa, którą rozumieją ChatGPT i Google AI Overviews"),
-        p("Asystent opisze tylko gabinet, o którym przeczyta jasne fakty. Strona jest zbudowana tak, żeby to było możliwe: treść przychodzi z serwera jako tekst, dane strukturalne opisują terapeutę, gabinety, problemy, formy terapii, usługi i pytania z odpowiedziami, a w robots.txt zapisane są reguły dla robotów AI. Nowe podstrony Giuseppe już pojawiają się w odpowiedziach ChatGPT — a on sam znalazł mnie, pytając ChatGPT."),
+        p("ChatGPT, Perplexity i Gemini opiszą tylko gabinet, o którym przeczytają jasne fakty, a pracę nad obecnością w ich odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization). Strona jest zbudowana tak, żeby to było możliwe: treść przychodzi z serwera jako tekst, dane strukturalne opisują terapeutę, gabinety, problemy, formy terapii, usługi i pytania z odpowiedziami, a w robots.txt zapisane są reguły dla robotów AI. Nowe podstrony Giuseppe już pojawiają się w odpowiedziach ChatGPT — a on sam znalazł mnie, pytając ChatGPT."),
         p(
           "Bycie znalezionym na dłuższą metę opisuję na stronie ",
           link("pozycjonowanie strony psychologa", "/pl/pozycjonowanie-strony-psychologa"),
@@ -195,6 +196,7 @@ export const websiteForPsychologistsTherapistsPl = {
           ["Czy przeniesiesz mojego bloga z WordPressa bez utraty pozycji?", "Tak. Każdy stary adres dostaje przekierowanie 301 na nową podstronę, a tytuły i dane strukturalne są przenoszone, więc wpisy zachowują swoją historię."],
           ["Czy można podpiąć kalendarz z ZnanyLekarz?", "Tak, kalendarz można osadzić na stronie albo podlinkować z przycisku. Obok może być krótki formularz dla osób, które wolą najpierw napisać."],
           ["Czy sam(a) będę mógł edytować stronę?", "Tak. Dostajesz panel z chronionymi podstronami, zablokowanymi adresami opublikowanych stron i — jeśli chcesz — ostrzeżeniami o sformułowaniach, których nie wolno używać, a do tego instrukcję i krótkie filmy."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: metody, formaty i ceny nazwane tekstem razem z cenami, każdy terapeuta ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy RODO na stronie psychologa wymaga czegoś szczególnego?", "Tak, bo wiadomości łatwo zawierają dane o zdrowiu. Formularz nie pyta o objawy, ma klauzulę informacyjną, dostawca ma umowę powierzenia, a analityka działa po zgodzie. Ostateczną ocenę daje inspektor ochrony danych albo prawnik."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

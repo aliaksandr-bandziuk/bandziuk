@@ -48,11 +48,11 @@ export const healthcareSeoEn = {
   seo: {
     metaTitle: "Healthcare SEO for Hospitals, Clinics and Systems",
     metaDescription:
-      "SEO for hospitals, clinic groups and telehealth: provider directories, location and service-line pages, schema and site migrations. Audit from 250 €.",
+      "SEO for hospitals, clinic groups and telehealth: provider directories, location and service-line pages, schema, AI answers. Audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Directories, locations, service lines", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Directories, locations, service lines", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Find a cardiologist near me", "Accepting new patients", "Open today until 9 pm", "Book online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Healthcare SEO audit of a website or one section", price: 250, currency: "EUR", unit: "one-off" },
@@ -115,7 +115,7 @@ export const healthcareSeoEn = {
       content: [
         p("I do healthcare SEO for hospitals, health systems, multi-site clinic groups, urgent care networks, diagnostic labs and telehealth companies: provider directories, location and service-line pages, medically reviewed content, schema and the technical work on large websites. I am a single specialist, not an agency, so I take a defined piece of work — an audit, one section of the site, a migration plan — or work alongside your in-house marketing and web team."),
 
-        h2("What healthcare SEO covers for hospitals, health systems and clinic networks"),
+        h2("Healthcare SEO for hospitals, health systems and clinic networks: the scope"),
         p("A health system website can hold thousands of pages: a profile for every physician, a page for every hospital, clinic, urgent care center and imaging site, service lines, a condition library and the patient portal. Most of the search demand that brings patients lands on four types of page:"),
         li("provider profiles — searches for a physician’s name, or for a specialty with a town"),
         li("location pages — “urgent care near me”, “hospital in [town]”, “MRI near me”"),
@@ -232,6 +232,7 @@ export const healthcareSeoEn = {
           ["How long does SEO take for a hospital website?", "Template fixes on provider and location pages can show within weeks, because they apply to hundreds of pages at once. New service-line content usually takes three to six months, and the approval process often takes longer than the SEO itself."],
           ["Do you write medical content?", "I write the structure, the search data and the briefs, and I can draft non-clinical parts. Clinical statements are written or reviewed by your clinicians and approved by your compliance team. I do not give medical advice and do not publish health claims without sign-off."],
           ["How do you handle SEO during a merger or rebrand?", "With a migration plan: a full URL inventory, a redirect map for every provider and location page, changes to templates and markup, a check on staging before launch and monitoring after it. This is usually a one-off project with a fixed price."],
+          ["Will patients find the organisation through ChatGPT?", "Increasingly, when there is something to quote: services, locations and clinicians named in text with prices, each clinician with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the organisation out of the answer."],
           ["Do you work with healthcare organizations outside Poland?", "Yes. The work is remote, for organizations in the US, the UK and the EU. I work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

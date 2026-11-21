@@ -40,7 +40,7 @@ export const seoForPlasticSurgeonsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Informacja, nie reklama", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Informacja, nie reklama", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Plastyka nosa Kraków", "Specjalista chirurgii plastycznej", "Cena i raty", "Konsultacja online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO kliniki chirurgii plastycznej: strona, wizytówka Google i ZnanyLekarz", price: 1000, currency: "PLN", unit: "one-off" },
@@ -102,6 +102,7 @@ export const seoForPlasticSurgeonsPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem stron klinik chirurgii plastycznej: podstrona na każdą operację, rekonwalescencja i ceny tekstem, galerie za zgodą i obecność w odpowiedziach AI."),
         p("Pozycjonowanie strony chirurga plastycznego robię sam: od danych wyszukiwań i audytu, przez podstrony operacji i profile chirurgów, po wizytówkę Google i widoczność w odpowiedziach AI. Pracuję dla chirurgów z własną praktyką i dla klinik chirurgii plastycznej w całej Polsce, także tych, które przyjmują pacjentów z zagranicy."),
 
         h2("Na czym polega pozycjonowanie strony chirurga plastycznego"),
@@ -195,6 +196,7 @@ export const seoForPlasticSurgeonsPl = {
           ["Czym różni się chirurg plastyczny od lekarza medycyny estetycznej?", "Chirurg plastyczny ma specjalizację z chirurgii plastycznej zakończoną egzaminem państwowym i wykonuje operacje. Zabiegi medycyny estetycznej wykonują lekarze różnych specjalności. Strona kliniki powinna to wyjaśniać rzeczowo."],
           ["Czy wystarczy profil w ZnanyLekarz?", "Profil przynosi rejestracje, ale stoi obok innych chirurgów i zależy od zasad portalu. Własna strona wygrywa wyszukiwania nazwiska i operacji w Waszym mieście, a asystenci AI czerpią z niej fakty. Warto mieć jedno i drugie, z identycznymi danymi."],
           ["Ile trwa pozycjonowanie kliniki chirurgii plastycznej?", "Poprawki wizytówki i istniejących podstron dają efekt w kilka tygodni. Nowe podstrony operacji potrzebują zwykle trzech–sześciu miesięcy, w Warszawie i Krakowie często dłużej."],
+          ["Czy pacjenci znajdą klinikę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: operacje, rekonwalescencja i ceny nazwane tekstem razem z cenami, każdy chirurg ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza klinikę z odpowiedzi."],
           ["Czy współpraca zdalna z kliniką w innym mieście działa?", "Działa: audyt, podstrony, wizytówkę i raporty robię zdalnie dla klinik w całej Polsce i za granicą, a rozmowy prowadzimy w dogodnych godzinach. Klinikę w Warszawie mogę też odwiedzić osobiście."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -33,11 +33,11 @@ export const websiteForPsychologistsTherapistsEn = {
   seo: {
     metaTitle: "Websites for Psychologists and Therapists | Bandziuk",
     metaDescription:
-      "Therapist website design: calm layouts for anxious visitors, a clear path to the first session, private forms, blog migration with redirects. From 700 €.",
+      "Therapist website design: calm layouts, a clear path to the first session, private forms, blog migration, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Therapy for anxiety", "In person and online", "Fees and insurance", "Send a short message"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple therapist website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -97,13 +97,14 @@ export const websiteForPsychologistsTherapistsEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for psychologists and therapists: method and problem pages, prices and formats in text, booking, and a structure assistants can read."),
         p("I design and build therapist websites for psychologists, counselors, marriage and family therapists and small group practices — design, code and launch by one person, at one price. A private practice website is read by someone who is not sure they are ready to ask for help. Its job is to make the next step feel small: see who you are, recognize their own problem in your words and send a short message."),
 
         h2("Therapist website design for anxious visitors: calm, slow and readable"),
         p("Many visitors arrive late in the evening, on a phone, after weeks of hesitating. A busy page makes them close the tab. What I leave out: pop-ups asking for an email, chat bubbles, sliders, stock photos of people holding their heads, red buttons. What I put in: wide margins, a muted palette, type large enough to read without zooming, real photos of you and your room, and one accent color kept for the button that starts contact."),
         p("For Giuseppe, a psychologist and psychotherapist in Milan who works with anxiety and panic attacks, I made a custom calm design: a dark theme with light sections, a serif typeface with a true italic for quieter emphasis, and only open-licensed resources. It does not look like a template because it is not one."),
 
-        h2("What a private practice website shows on the first screen"),
+        h2("The first screen of a private practice website: what it shows"),
         p("Before scrolling, a visitor should know four things:"),
         li("who you help, in their words — “Therapy for anxiety and panic attacks in Portland and online”, not “A safe space to grow”"),
         li("whether you see clients in person, by video or both"),
@@ -152,7 +153,7 @@ export const websiteForPsychologistsTherapistsEn = {
         p("For a US practice, the list of warnings comes from your own ethics code and board: “guaranteed”, “cure”, client quotes, claims about results. You decide the list; the editor reminds you of it every time you publish."),
 
         h2("A therapist website that ChatGPT and Google AI Overviews can read"),
-        p("Assistants can only describe a practice whose facts they can read. The build takes care of that: pages delivered as text by the server, not assembled by scripts after loading; structured data for the practitioner, the practice, the conditions, therapies and services, and the Q&A; and explicit robots.txt rules saying which AI crawlers may read the site. Giuseppe’s new pages already appear in ChatGPT answers, and he found me by asking ChatGPT himself."),
+        p("ChatGPT, Perplexity and Gemini can only describe a practice whose facts they can read, and being named in their answers is called generative engine optimization (GEO), or answer engine optimization (AEO) when the answer appears in search itself. The build takes care of that: pages delivered as text by the server, not assembled by scripts after loading; structured data for the practitioner, the practice, the conditions, therapies and services, and the Q&A; and explicit robots.txt rules saying which AI crawlers may read the site. Giuseppe’s new pages already appear in ChatGPT answers, and he found me by asking ChatGPT himself."),
         p(
           "Being found over time — niche pages, local search, directories, assistants — is ongoing work described on ",
           link("SEO for therapists", "/seo-for-therapists"),
@@ -189,6 +190,7 @@ export const websiteForPsychologistsTherapistsEn = {
           ["Can I keep my blog and Google rankings when I move to a new site?", "Yes. Every old address is mapped to its new page with a 301 redirect, and titles and structured data are carried over, so the posts keep their history."],
           ["Can clients book directly through SimplePractice or Calendly?", "Yes, if your system offers a booking link or widget. Many therapists still prefer a short message first; the site can offer both and make one the main path."],
           ["Can I update the website myself?", "Yes. You get an editor with protected key pages, locked addresses for published pages and, if you want, warnings for wording your ethics code rules out, plus a written manual and short videos."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: methods, formats and prices named in text with prices, each therapist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Do you build websites for US therapists from Poland?", "Yes. Everything is done remotely from Warsaw, and a call in your morning lands in my afternoon or evening. You are invoiced in euros, and the site uses US date and phone formats, your time zone and your state’s details."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

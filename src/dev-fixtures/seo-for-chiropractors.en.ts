@@ -39,7 +39,7 @@ export const seoForChiropractorsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Map pack + condition pages", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Map pack + condition pages", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Chiropractor near me", "Chiropractor for sciatica", "Open Saturday", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Chiropractic SEO audit: website, Google Business Profile, reviews, booking path and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -100,9 +100,10 @@ export const seoForChiropractorsEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I do SEO for chiropractic and manual therapy practices: a page per condition, techniques and prices in text, the map listing, and visibility in AI answers."),
         p("SEO for chiropractors is the work that puts a chiropractic office in the map results for “chiropractor near me”, on the first page for the conditions you treat and in AI answers, and turns those searches into booked first visits. One person does all of it — I am an independent SEO consultant and web developer — so whoever reviews your Google Business Profile also writes the condition pages and changes the code."),
 
-        h2("What SEO for chiropractors covers: map searches, condition searches and name searches"),
+        h2("SEO for chiropractors: map searches, condition searches and name searches"),
         p("People look for a chiropractor in three different situations, and each one is won in a different place:"),
         li("in pain today — “chiropractor near me”, “chiropractor open Saturday”, “walk-in chiropractor” — they call one of the three offices shown on the map"),
         li("researching a problem — “chiropractor for sciatica”, “is a chiropractor good for neck pain”, “chiropractor after car accident” — they read websites over several days"),
@@ -212,6 +213,7 @@ export const seoForChiropractorsEn = {
           ["Can I promote a new patient special on my website?", "Often yes, but states differ: some require a set disclaimer next to free or discounted services, and offers to patients with federal coverage raise separate questions. I design the page to carry whatever wording your board requires; check the current rules with the board or a healthcare attorney."],
           ["How should a chiropractor reply to a negative review?", "Briefly and in general terms, without confirming that the person is a patient or mentioning any treatment, and with an invitation to call the office. Privacy rules apply to public replies as much as to records."],
           ["Who writes the condition pages?", "I write the structure, the search data and the drafts. The chiropractor checks every clinical statement and is named as the reviewer with a review date. I do not give medical advice."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: conditions, techniques and prices named in text with prices, each practitioner with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Can a consultant in Poland do SEO for a US chiropractic office?", "Yes. The work is remote and in English: the website, the Google profile and the search data for your town. My afternoon and evening in Central European Time overlap with the US working day, so calls fit East Coast and Central mornings. Contracts and invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

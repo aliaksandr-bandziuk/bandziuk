@@ -46,7 +46,7 @@ export const seniorLivingSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Care pages + Maps + reviews", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Care pages + Maps + reviews", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Assisted living near me", "Memory care cost", "Schedule a tour", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Senior living SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -107,9 +107,10 @@ export const seniorLivingSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I do SEO for senior living communities and care homes: pages per care level, monthly fees in text, the map listing, and visibility in AI answers."),
         p("Senior living SEO is the work that brings families to your community from Google, Maps and AI assistants rather than from paid referral lists: a page for each level of care, a Google Business Profile for each community, clear cost information, reviews and a tour request that takes a minute. One person handles it end to end — audit, page plans, code and reports — for independent living, assisted living and memory care communities and for operators with several locations."),
 
-        h2("What senior living SEO covers: how adult children search for a community"),
+        h2("Senior living SEO: how adult children search for a community"),
         p("The person typing “assisted living near me” is rarely the future resident. More often it is a daughter or son, sometimes in another state, searching at lunch or late at night after a fall, a hospital discharge or a worrying phone call. They open several tabs and call the two or three communities that answer their questions first. That search happens in three places:"),
         li("the map results, where three communities with a rating and a phone number take many of the first calls"),
         li("the regular results, crowded with referral services, directories and large operators"),
@@ -201,6 +202,7 @@ export const seniorLivingSeoEn = {
           ["Should a senior living community show prices online?", "A starting price for each level of care, with what it includes, answers the cost searches families make and filters out inquiries that will not fit. The exact price can still depend on the care assessment; the page can say so."],
           ["How should we reply to a review that mentions a resident?", "Without confirming that the person’s relative lives with you and without discussing care. Thank them, say you take the feedback seriously and invite them to call the executive director."],
           ["Do you write the content about care and dementia?", "I bring the search data, the page outline and a draft. Your director of nursing or wellness signs off every line about care, and the page shows who reviewed it and when. Medical advice stays out of it."],
+          ["Will patients find the community through ChatGPT?", "Increasingly, when there is something to quote: care levels, rooms and monthly fees named in text with prices, each carer with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the community out of the answer."],
           ["Can you work with a US senior living community from Poland?", "Yes. Everything is done online — site, profiles, local search data. Warsaw is usually six hours ahead of New York, so an East Coast morning call is my afternoon, and a West Coast morning is my evening. I invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

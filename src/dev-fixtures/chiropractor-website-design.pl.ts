@@ -35,11 +35,11 @@ export const chiropractorWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www dla fizjoterapeuty i osteopaty | Bandziuk",
     metaDescription:
-      "Strona internetowa dla fizjoterapeuty i osteopaty: podstrony terapii, profile z PWZFz, cennik, rezerwacja online, formularze zgodne z RODO. Od 3000 zł.",
+      "Strona dla fizjoterapeuty i osteopaty: podstrony terapii, profile z PWZFz, cennik, rezerwacja online, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Strona należy do Was"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Umów pierwszą wizytę", "Terapia manualna", "Cennik i pakiety", "Zadzwoń"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla fizjoterapeuty lub osteopaty, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -100,6 +100,7 @@ export const chiropractorWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Buduję strony dla gabinetów fizjoterapii i terapii manualnej: podstrony schorzeń, ceny i czas wizyty tekstem, zapis online i struktura czytelna dla asystentów AI."),
         p("Tworzę strony internetowe dla fizjoterapeutów — gabinetów fizjoterapii, osteopatów i terapeutów manualnych — od układu i projektu po wykonanie, więc za wygląd i działanie strony odpowiada jedna osoba. Strona fizjoterapeuty jest otwierana najczęściej na telefonie, przez kogoś, kogo coś boli albo kto właśnie wyszedł od ortopedy ze skierowaniem. Ma mu pozwolić w minutę sprawdzić, czy trafił we właściwe miejsce, komu może zaufać i jak umówić pierwszą wizytę."),
 
         h2("Strona internetowa dla fizjoterapeuty: co pacjent sprawdza na pierwszym ekranie"),
@@ -187,6 +188,7 @@ export const chiropractorWebsiteDesignPl = {
           ["Czy sam mogę zmieniać cennik, godziny i terapeutów?", "Tak. Edycja odbywa się w prostym panelu, także z telefonu, a układ strony pozostaje spójny. Dostajecie krótką instrukcję."],
           ["Czy strona dla osteopaty różni się od strony fizjoterapeuty?", "Układ jest ten sam, różni się treść: podstrony metod, opis kwalifikacji i tego, z czym pacjenci przychodzą. W gabinetach, gdzie fizjoterapeuta pracuje też osteopatią, obie metody mają osobne podstrony."],
           ["Czy można zamieszczać opinie pacjentów na stronie?", "Bezpieczniej linkować do opinii w Google, ZnanyLekarz albo Booksy niż cytować je na własnej stronie, bo cytaty łatwo uznać za reklamę. Aktualne zasady warto sprawdzić w Krajowej Izbie Fizjoterapeutów."],
+          ["Czy pacjenci znajdą gabinet przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: schorzenia, wizyty i ceny nazwane tekstem razem z cenami, każdy terapeuta ze specjalizacją i numerem prawa wykonywania zawodu, godziny i języki. Asystent powtarza to, co przeczyta, więc cennik na obrazku wyklucza gabinet z odpowiedzi."],
           ["Czy pracujesz z gabinetami spoza Warszawy?", "Tak, z całej Polski. Projekt i wykonanie robię zdalnie, a rozmowy prowadzimy przez wideo lub telefon."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

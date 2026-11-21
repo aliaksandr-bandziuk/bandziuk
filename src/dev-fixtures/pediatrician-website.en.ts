@@ -38,11 +38,11 @@ export const pediatricianWebsiteEn = {
   seo: {
     metaTitle: "Pediatrician Website Design and Development, from €2,000",
     metaDescription:
-      "Websites for pediatric practices: a first screen for a worried parent, pages by the child's age, a vaccination section, consent for photos. From €2,000.",
+      "Websites for pediatric practices: a first screen for a worried parent, pages by age, vaccinations, AI answers. From €2,000.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Pediatric practices and clinics", "From €2,000", "Answer within 1 working day"],
+  heroChips: ["Pediatric practices and clinics", "From €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Open until 21:00 today", "Home visits", "Vaccination schedule", "Call now"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Website for a pediatric practice: age-based structure, doctors, vaccination section, design included", price: 2000, currency: "EUR", unit: "one-off" },
@@ -61,7 +61,7 @@ export const pediatricianWebsiteEn = {
         { _key: k("o"), iconName: "shield-check", title: "A vaccination section", text: "Schedule and your position, stated once" },
         { _key: k("o"), iconName: "calendar", title: "Observation plans and prices", text: "What a year of care actually includes" },
         { _key: k("o"), iconName: "camera", title: "Photo rules that hold", text: "Written consent before a child is shown" },
-        { _key: k("o"), iconName: "map-pin", title: "Out-of-hours and home visits", text: "The two facts parents look for first" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Visit types and prices to quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -84,6 +84,7 @@ export const pediatricianWebsiteEn = {
       layout: "guide",
       content: [
         h2("Who opens a pediatrician website, and in what state"),
+        p("I build websites for paediatric practices: visit type pages, vaccination information, prices in text, booking, and a structure assistants can read."),
         p("I design and build websites for pediatric practices and children's clinics, and design comes with the build rather than on a separate invoice. The design brief here is unusual and it is worth stating plainly: a large share of your visitors arrive at night, one-handed, with a child who is crying, and they are frightened. They are not browsing. They want three things in the first five seconds — whether you are open now, what the phone number is, and whether this can wait until morning."),
         p("Almost every pediatric site fails that moment in the same way: the first screen carries a photograph of a smiling family and a slogan about care, the hours are three clicks away inside a page called Contact, and the phone number is an image. The fix costs nothing in design quality and everything in outcomes: today's hours as text that changes itself, a phone number that dials on one tap, and a short block about what to do outside working hours."),
 
@@ -110,7 +111,7 @@ export const pediatricianWebsiteEn = {
         h2("Prices and annual observation plans stated in full"),
         p("Paediatrics sells two different things — a single visit and a year of care — and the second one is where parents compare hardest. An observation plan priced as a single number with no list underneath invites a phone call that your receptionist has to answer thirty times a day. A page that lists what a year includes, how many visits, which tests, what is extra and what happens if the family moves away answers it once."),
 
-        h2("What a pediatrician website costs and how long it takes"),
+        h2("A pediatrician website: cost and build time"),
         p(
           "A website for a practice starts at €2,000 with design included. A landing page for one service or one observation plan is €700–1,400. A redesign that keeps existing rankings starts at €1,000. A landing page takes two to three weeks, a full site four to six. What moves both the price and the schedule is how many doctors have pages, how many languages you need, and whether someone on your side can approve medical wording quickly. The figures are on the ",
           link("pricing", "/pricing"),
@@ -142,7 +143,7 @@ export const pediatricianWebsiteEn = {
       _key: k("b"),
       content: [
         h2("A pediatric website that ChatGPT and AI overviews can read (GEO, AEO)"),
-        p("Parents increasingly ask an assistant before they ask anyone else: a pediatrician who sees children in the evening, one who speaks their language, one who takes newborns. The assistant answers from text it can read. A practice whose hours live in an image, whose prices sit in a PDF and whose doctors are listed only as photographs is invisible to that question, and the assistant recommends the clinic down the road that wrote it all out."),
+        p("Parents increasingly ask ChatGPT, Perplexity or Gemini before they ask anyone else: a pediatrician who sees children in the evening, one who speaks their language, one who takes newborns. The assistant answers from text it can read. A practice whose hours live in an image, whose prices sit in a PDF and whose doctors are listed only as photographs is invisible to that question, and the assistant recommends the clinic down the road that wrote it all out."),
         p(
           "So hours, languages, ages, services and prices stay as text, structured data matches what is visible, and the practice name and address are identical on the site, in the maps profile and in the directories. Bringing an existing site to that state is ",
           link("AI search readiness", "/services/ai-search-readiness"),
@@ -166,6 +167,7 @@ export const pediatricianWebsiteEn = {
           ["Do you work with medical practices?", "Yes, and the method accounts for it: wording that avoids promises, a review step before publishing, and forms that handle health data carefully rather than as an afterthought."],
           ["Will parents be able to book online?", "Yes, and the booking says who the appointment is with, not only when. In paediatrics the doctor's name is often the reason the appointment happens at all."],
           ["Can you redesign our site without losing search traffic?", "Yes. Every existing address is mapped, every changed one redirected, and the pages that already bring parents keep their text rather than being rewritten for the sake of a new look."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: visit types, vaccinations and prices named in text with prices, each paediatrician with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Who owns the site?", "You do: the code, the domain, the hosting account, the content and every access credential. Nothing stays with me as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

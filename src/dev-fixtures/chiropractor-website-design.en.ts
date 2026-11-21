@@ -34,11 +34,11 @@ export const chiropractorWebsiteDesignEn = {
   seo: {
     metaTitle: "Chiropractic Website Design and Build | Bandziuk",
     metaDescription:
-      "Chiropractor website design with the build included: first-visit page, online scheduling, doctor bios, safe intake forms, fast on a phone. From 700 €.",
+      "Chiropractor website design: first-visit page, online scheduling, doctor bios, safe intake forms, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Your domain, your content"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book a first visit", "What to expect", "Meet the doctors", "Call · Text"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple chiropractic website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -138,7 +138,7 @@ export const chiropractorWebsiteDesignEn = {
         p("Adjustment clips, exercise demonstrations and an office tour make a chiropractic site feel real, and they are also what makes it slow. Each video loads only when tapped and shows a still image until then; photos are cropped for phones and served in modern formats. The target is the main content visible in under 2.5 seconds on a mid-range phone, measured before launch, not assumed."),
 
         h2("A chiropractic website that ChatGPT and Google AI Overviews can read"),
-        p("People ask assistants which chiropractor nearby works on Saturdays, takes their insurance or treats sports injuries. Assistants can only repeat what they can read and verify, so those facts live on the page as text and in structured data — doctors, techniques, conditions, hours, insurance and languages, matching your Google Business Profile. Giuseppe’s site was built this way, with structured data for the practitioner, his consulting rooms, conditions and therapies and explicit rules for AI crawlers in robots.txt; its new pages already appear in ChatGPT answers."),
+        p("People ask ChatGPT, Perplexity and Gemini which chiropractor nearby works on Saturdays, takes their insurance or treats sports injuries. Being named in that answer is called generative engine optimization (GEO), or answer engine optimization (AEO) when the answer shows in search itself. Assistants can only repeat what they can read and verify, so those facts live on the page as text and in structured data — doctors, techniques, conditions, hours, insurance and languages, matching your Google Business Profile. Giuseppe’s site was built this way, with structured data for the practitioner, his consulting rooms, conditions and therapies and explicit rules for AI crawlers in robots.txt; its new pages already appear in ChatGPT answers."),
         p(
           "Getting your office into those answers over time is described on the ",
           link("AI SEO and GEO optimization", "/services/ai-ready-seo-and-geo-optimization"),
@@ -192,6 +192,7 @@ export const chiropractorWebsiteDesignEn = {
           ["Can you move my site away from a chiropractic website platform?", "Yes. I copy the content you own, rebuild the pages on your own hosting and redirect the old addresses. Check your contract first: some platforms keep the pre-written articles or the domain when you leave."],
           ["Can you connect my scheduling software?", "Yes, if it offers an embeddable widget, a booking link or an online request page — most chiropractic practice software does. The design keeps the book button on every page."],
           ["Who hosts the website?", "You do, on hosting in your name; I set it up and can maintain it. The domain, the code and the content stay yours whoever looks after the site later."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: conditions, sessions and prices named in text with prices, each practitioner with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Can a web developer in Poland build a site for a US chiropractor?", "Yes. The whole project runs remotely in English. I work from Warsaw, and my afternoons overlap with mornings on the East Coast and in the Central time zone, which is when design reviews usually happen. You are invoiced in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

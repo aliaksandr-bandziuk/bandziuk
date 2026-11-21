@@ -42,11 +42,11 @@ export const medicalWebsiteDesignEn = {
   seo: {
     metaTitle: "Medical Website Design for Doctors, Clinics, Labs",
     metaDescription:
-      "Medical website design for doctors and clinics: doctor profiles, booking and portal links, WCAG accessibility, privacy-safe forms. Design + build from 700 €.",
+      "Medical website design for doctors and clinics: doctor profiles, booking, WCAG accessibility, privacy-safe forms, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Accepting new patients", "Book an appointment", "Insurance we accept", "Meet our doctors"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple medical practice website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -118,7 +118,7 @@ export const medicalWebsiteDesignEn = {
         p("The language stays plain: “hypertension” once, then “high blood pressure”. Medical practice websites fail more often on jargon and on menus that copy internal departments than on looks."),
 
         h2("Doctors website design: profile pages with credentials and photos of the real team"),
-        p("For many patients the doctor matters more than the clinic. Every physician, nurse practitioner and physician assistant gets a profile page, and doctors website design starts with that template, because it is reused more than any other:"),
+        p("Patients increasingly ask ChatGPT, Perplexity and Gemini which clinic nearby treats their problem, and the assistant answers from text it can read. For many patients the doctor matters more than the clinic. Every physician, nurse practitioner and physician assistant gets a profile page, and doctors website design starts with that template, because it is reused more than any other:"),
         li("a real photo taken in your own rooms, in natural light, framed the same way for everyone"),
         li("full name, title, specialty and board certification, written as text"),
         li("medical school, residency and hospital affiliations"),
@@ -226,6 +226,7 @@ export const medicalWebsiteDesignEn = {
           ["Who writes the medical content on service and condition pages?", "Your clinicians write or approve it. I structure the pages, edit the text for plain language and search, and add the reviewer’s name, credentials and review date. I do not write medical advice."],
           ["Can I use a medical website template instead of a custom design?", "Yes, for a solo practice that needs a basic presence. A template becomes a limit once you need a profile per doctor, several locations, online booking, language versions and tested accessibility. Changing later usually means starting again."],
           ["Can you redesign our medical website without losing Google rankings?", "Yes. Every existing address is mapped to its new page and redirected, and structured data is carried over before the new design goes live, so the positions the site already has are kept."],
+          ["Will patients find the clinic through ChatGPT?", "Increasingly, when there is something to quote: services, doctors and prices named in text with prices, each doctor with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the clinic out of the answer."],
           ["Do you work with medical practices outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian. The site is set up for your country: phone and date formats, insurance and registration details, and the directories your patients use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

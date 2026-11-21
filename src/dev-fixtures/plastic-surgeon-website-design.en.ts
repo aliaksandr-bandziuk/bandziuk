@@ -30,11 +30,11 @@ export const plasticSurgeonWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Plastic Surgeons | Bandziuk",
     metaDescription:
-      "Plastic surgeon website design: surgeon profiles, procedure pages, consented before-and-after galleries, secure consultation forms. Design + build from 700 €.",
+      "Plastic surgeon website design: surgeon profiles, procedure pages, consented galleries, secure forms, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Surgeon, procedures, gallery", "From 700 €", "Reply within one business day"],
+  heroChips: ["Surgeon, procedures, gallery", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Meet the surgeon", "Before & after gallery", "Virtual consultation", "Financing options"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple plastic surgeon website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -177,6 +177,9 @@ export const plasticSurgeonWebsiteDesignEn = {
           ".",
         ),
 
+        h2("A plastic surgery website that ChatGPT, Perplexity and Gemini can read"),
+        p("Patients ask assistants which surgeon in their city does revision rhinoplasty, how long recovery takes and what a procedure costs. The assistant answers from text it can read, so procedures, surgeon credentials, prices and recovery times sit in the page as words, with structured data for the practice and each surgeon."),
+        p("Work on being named in those answers goes by two labels: generative engine optimization (GEO) and answer engine optimization (AEO). On a new site it costs nothing extra, because it is done while building."),
         h2("How much plastic surgeon website design costs"),
         li("A simple plastic surgeon website — home, surgeon, main procedures, gallery, financing and contact: 700–1,400 €."),
         li("A practice website with surgeon profiles, procedure pages, galleries with filters, secure consultation requests, travel pages and language versions: from 2,000 €."),
@@ -200,6 +203,7 @@ export const plasticSurgeonWebsiteDesignEn = {
           ["How do you handle nudity in before-and-after galleries?", "Images with nudity sit behind a short notice and open on tap, faces and identifying marks are cropped unless the patient agreed otherwise, and every case has written consent on file. Each case can be removed in one step."],
           ["Can patients send photos for a virtual consultation safely?", "Yes, if the upload runs on a form or portal service that has signed a business associate agreement with you. Ordinary contact forms and email are not used for photos, and the short request form asks for no medical details at all."],
           ["Can you redesign our site without losing rankings?", "Yes. Every old URL is mapped to its new page and redirected. For Giuseppe I moved all 468 blog posts this way, with 301 redirects from every old address."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: procedures, prices and surgeons named in text with prices, each surgeon with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Do you work with US practices from Poland?", "Yes. I design and build remotely from Warsaw, and the second half of my working day falls on US mornings, so calls fit your schedule. Invoices are in euros."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

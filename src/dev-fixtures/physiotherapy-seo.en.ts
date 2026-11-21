@@ -46,7 +46,7 @@ export const physiotherapySeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per condition and area", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["A page per condition and area", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Sciatica physio in your district", "Post-op knee rehab, week six", "Direct access, no referral", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a physiotherapy clinic: site, Google Business Profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -87,7 +87,8 @@ export const physiotherapySeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why physiotherapy websites lose in search to software vendors"),
+        h2("Software vendors outrank physiotherapy clinics: how that happens"),
+        p("I do SEO for physiotherapy clinics: a page per condition, techniques and prices in text, the map listing, and visibility in AI answers."),
         p("Search for almost any physiotherapy question and the first page is not clinics. It is practice-management software companies and billing vendors, who publish long guides about conditions and rehabilitation because content is how they sell subscriptions to clinics. They have budgets a four-therapist practice does not, and they are not going anywhere."),
         p("That sounds discouraging and is actually the opposite. Those vendors cannot treat anybody. They rank for «what is physical therapy» and «exercises for rotator cuff», which bring readers from everywhere and patients from nowhere. The queries that produce an appointment have a place attached — a condition and a district, a condition and a city — and on those the vendors do not compete at all."),
 
@@ -115,7 +116,7 @@ export const physiotherapySeoEn = {
           " for general practices and clinics.",
         ),
 
-        h3("What a physiotherapy website may and may not claim"),
+        h3("A physiotherapy website: what it may and may not claim"),
         p("Health advertising is regulated, and the rules differ by country — in Poland and much of the EU a clinic may inform but not advertise in the way a shop may, and patient testimonials are restricted or forbidden outright depending on the jurisdiction. This matters for SEO because the usual conversion advice — before-and-after photos, outcome promises, patient stories — can be the exact thing that is not allowed. The safe and effective version is describing the method, the qualification, the equipment and the process precisely, which happens also to be what a search engine can read and what a cautious patient is actually looking for. I write to the rules of the country the clinic operates in and flag anything I am unsure about rather than guessing."),
       ],
     },
@@ -141,7 +142,7 @@ export const physiotherapySeoEn = {
       _key: k("b"),
       content: [
         h2("Being named when a patient asks ChatGPT for a physiotherapist (GEO, AEO)"),
-        p("«My knee replacement was six weeks ago and I need rehab near me» is a question people now put to an assistant before they open a search engine, and in healthcare they are especially likely to, because they want to be told what kind of specialist they need before they choose one. The assistant answers from text it can read and from sources that agree with each other, so three things decide whether a clinic is named: the conditions and methods written as text rather than set inside a designed image, the practical facts it can quote — location, hours, whether a referral is needed, what a session costs — and the same clinic name, address and service wording on the site, the profile and every directory listing."),
+        p("«My knee replacement was six weeks ago and I need rehab near me» is a question people now put to ChatGPT, Perplexity or Gemini before they open a search engine, and in healthcare they are especially likely to, because they want to be told what kind of specialist they need before they choose one. The assistant answers from text it can read and from sources that agree with each other, so three things decide whether a clinic is named: the conditions and methods written as text rather than set inside a designed image, the practical facts it can quote — location, hours, whether a referral is needed, what a session costs — and the same clinic name, address and service wording on the site, the profile and every directory listing."),
         p(
           "Getting an existing site into a readable state is ",
           link("preparing a site for AI search", "/services/ai-search-readiness"),
@@ -165,6 +166,7 @@ export const physiotherapySeoEn = {
           ["Can we publish patient testimonials and before-and-after photos?", "It depends on the country, and in several it is restricted or not allowed for health services. I write to the rules of the jurisdiction the clinic operates in. Where testimonials are out, process, qualification and method descriptions do the same job for the reader and are read just as well by a search engine."],
           ["Our site is from a practice-software vendor. Can you work with it?", "Usually yes, if pages can be added and headings edited. If the structure is locked and changes go through a support ticket, SEO work on it is paying rent, and a site you own is cheaper within the year. I say which case it is before quoting."],
           ["Can you guarantee a position?", "No, and nobody honest can — the ranking is decided by a system neither of us controls. What I can state is what will be changed, in what order, and what we measure at one month and at three."],
+          ["Will patients find the clinic through ChatGPT?", "Increasingly, when there is something to quote: conditions, techniques and prices named in text with prices, each physiotherapist with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the clinic out of the answer."],
           ["Who writes the clinical parts?", "I write and a therapist corrects. Text about conditions and rehabilitation without a practitioner's review is how a clinic site ends up with something confidently wrong on it, and in healthcare that costs more than a ranking."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

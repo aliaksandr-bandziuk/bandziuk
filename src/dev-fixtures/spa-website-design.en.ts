@@ -31,11 +31,11 @@ export const spaWebsiteDesignEn = {
   seo: {
     metaTitle: "Web Design for Spas and Wellness Centers | Bandziuk",
     metaDescription:
-      "Web design for spas, wellness centers and massage studios: treatment menu with durations and prices, couples packages, gift vouchers online. From 700 €.",
+      "Web design for spas, wellness centers and massage studios: treatment menu with durations and prices, couples packages, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Gift vouchers sold online"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Gift vouchers sold online"],
   heroPhonePoints: ["Massage · 60 or 90 min", "Spa day for two", "Buy a gift voucher", "Book a treatment"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple spa or massage studio website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -95,6 +95,7 @@ export const spaWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for spas myself: structure, design, build and launch, with no handover between people."),
         p("Spa website design is a quieter job than most web work: the site has to feel like your treatment rooms, yet answer practical questions fast — what a treatment includes, how long it lasts, what it costs, and how to book it or give it as a gift. I design and build websites for day spas, wellness centers, massage studios and hotel spas myself, from the page list to launch, and connect them to the booking and payment tools you already use."),
 
         h2("Web design for spas: who opens the site and what they look for"),
@@ -184,6 +185,7 @@ export const spaWebsiteDesignEn = {
           ["Can our front desk update treatments and prices?", "Yes. Treatments, durations, prices and packages are edited in a simple CMS, and each change appears on every page that shows that treatment."],
           ["Should a massage studio have a separate website from a day spa?", "If it is a separate business, yes: guests look for techniques and therapists rather than packages and facilities. If massage is one service inside your spa, it gets its own section and pages on the spa site."],
           ["How long does building a spa website take?", "Most simple spa sites are ready in a few weeks; the main factor is how fast the menu, photos and texts arrive. Sites with vouchers, several languages or a hotel integration take longer; the timeline is agreed with the quote."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Can a US spa work with a web designer in Poland?", "Yes, and the time difference helps: your morning in the US is my afternoon or evening in Warsaw, so calls happen before your first treatments. We talk in English over video, you leave comments directly on the design, and invoices are in euros."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

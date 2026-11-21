@@ -44,11 +44,11 @@ export const wordpressDevelopmentServicesPl = {
   seo: {
     metaTitle: "Strona na WordPress: cena i wykonanie | Bandziuk",
     metaDescription:
-      "Strona na WordPress na zamówienie: własny motyw bez ciężkiego page buildera, tylko potrzebne wtyczki, szybka i bezpieczna. Od 3000 zł, projekt w cenie.",
+      "Strona na WordPress na zamówienie: własny motyw bez ciężkiego page buildera, tylko potrzebne wtyczki, odpowiedzi AI. Od 3000 zł, projekt w cenie.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Własny motyw, bez page buildera", "Od 3000 zł", "Projekt w cenie"],
+  heroChips: ["Własny motyw, bez page buildera", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Oferta i cennik", "Realizacje", "PL · EN", "Zadzwoń teraz"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona firmowa na WordPress na lekkim motywie, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -214,6 +214,7 @@ export const wordpressDevelopmentServicesPl = {
           ["Ile trwa zrobienie strony na WordPress?", "Niewielką stronę firmową wdrażam zwykle w dwa–cztery tygodnie, a rozbudowaną z wersjami językowymi w cztery–sześć. Termin skraca się, gdy teksty i zdjęcia są gotowe na starcie, a poprawki wracają w ciągu dnia lub dwóch."],
           ["Czy sami możemy edytować stronę po uruchomieniu?", "Tak. Teksty, ceny, zdjęcia, nowe podstrony i wpisy dodajecie w panelu WordPressa za pomocą bloków przygotowanych pod Waszą treść. Dostajecie krótką instrukcję."],
           ["Czy pracujesz zdalnie i wystawiasz fakturę?", "Tak. Prowadzę działalność w Warszawie i wystawiam fakturę. Pracuję zdalnie z firmami z całej Polski i z zagranicy, po polsku, angielsku albo rosyjsku — przez e-mail, komunikator i rozmowy wideo."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Do kogo należą motyw i wtyczki?", "Do Was. Motyw, wtyczki pisane na zamówienie, treści i domena są Wasze, a stronę możecie w każdej chwili przenieść do innego hostingu albo wykonawcy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

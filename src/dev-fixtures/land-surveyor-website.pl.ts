@@ -92,7 +92,7 @@ export const landSurveyorWebsitePl = {
         p("Rzeczywiście zależy. Widełki z warunkami i tak odpowiadają, a przy okazji filtrują: łowcy okazji przestają dzwonić, poważni przestają porównywać."),
         p("Zasięg też tam należy, jako lista powiatów, a nie promień na mapie. Klient z drugiego końca województwa ma w sekundę wiedzieć, czy czytać dalej."),
 
-        h3("Co stoi na stronie, co z tego wynika i jakie zapytanie przynosi"),
+        h3("Strona firmy geodezyjnej: co na niej stoi i jakie zapytanie przynosi"),
       ],
     },
     {

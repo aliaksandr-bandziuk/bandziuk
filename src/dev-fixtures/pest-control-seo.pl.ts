@@ -42,7 +42,7 @@ export const pestControlSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Dezynsekcja, deratyzacja, dezynfekcja", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Dezynsekcja, deratyzacja, dezynfekcja", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Pluskwy Kraków — szybki termin", "Deratyzacja wspólnoty", "Umowa DDD dla restauracji", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy DDD: strona, wizytówka Google, konkurencja w Twoich miastach", price: 1000, currency: "PLN", unit: "one-off" },
@@ -104,6 +104,7 @@ export const pestControlSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem firm DDD sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Pozycjonowanie strony firmy DDD to praca nad tym, żeby osoba z pluskwami w wynajmowanym mieszkaniu, właściciel restauracji przed kontrolą sanepidu i zarządca, który szuka wykonawcy deratyzacji dla kilku budynków, znajdowali w Google Twoją firmę, a nie kolejny portal z ofertami. Pracuję sam, bez opiekuna klienta: ten, kto przegląda Twoją stronę i wizytówkę, sam pisze podstrony, zmienia kod i przygotowuje raport."),
 
         h2("Pozycjonowanie strony firmy DDD: dom, gastronomia i wspólnoty to trzy różne rynki"),

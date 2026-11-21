@@ -41,7 +41,7 @@ export const authorSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Own your name and series", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Own your name and series", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["«Books like» your title", "Series in reading order", "Newsletter that keeps the reader", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for an author site: name search, series, retailers and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -83,13 +83,14 @@ export const authorSeoEn = {
       layout: "guide",
       content: [
         h3("Three different things are called author SEO, and this is one of them"),
+        p("I do SEO for authors and their books myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("The phrase is used for three unrelated jobs. Academic publishers use it for helping researchers get papers found and cited. SEO software uses it for author bylines and expertise as a ranking factor on any website. Writers use it for getting books and themselves discovered by readers. This page is about the third one: novelists, non-fiction authors and self-published writers with a backlist to sell."),
 
-        h2("What an author site can win in search, and what it cannot"),
+        h2("An author site in search: what it can win and what it cannot"),
         p("Start with the limit. Search your book title and the first screen is Amazon, Goodreads, a retailer or two and possibly a pirate site. Your page will not take that first place, and chasing it is how authors waste a year. Title search is also the least valuable query you could win, because the person typing it already knows the book exists and will buy it wherever they land."),
         p("Three things are winnable and worth more. Your own name, which readers search after finishing something and liking it — that search should reach you, not a retailer page that sells one book and shows nothing else you wrote. Your series, which readers search in confusion about reading order more often than anything else. And the recommendation questions, where somebody does not know your name at all and asks for a book like one they loved."),
 
-        h2("Why a series page earns more than a book page"),
+        h2("A series page earns more than a book page"),
         p("A reader who finished book two does not search for book three by its title; they search for the series and the order. A reader who heard about a series searches for where to start. A reader halfway through searches whether the spin-off matters. These are small, specific, repeating queries that retailers answer badly, because a retailer page is built to sell one item rather than to explain a shelf."),
         p("So the structure is a page for the series that states the reading order plainly, what each book covers without spoiling it, where the novellas and prequels fit, and what to read next when the series ends. It is the page readers bookmark and send to each other, and it is the one an assistant can quote when asked where to start."),
         li("state the reading order in text, numbered, near the top;"),
@@ -154,6 +155,7 @@ export const authorSeoEn = {
           ["Does this work for non-fiction?", "It works better. Non-fiction readers search for the problem rather than the title — a topic, a question, a method — and those searches can be answered by pages around the book, which is a larger surface than fiction offers."],
           ["How long before anything changes?", "First movement after about a month and a half, steadier growth on a three to six month horizon. Name and series queries usually move first, because the competition on them is thin by definition."],
           ["Can you guarantee a position?", "No, and nobody honest can — the ranking is decided by a system neither of us controls. What I can state is what will be changed, in what order, and what we measure at one month and at three."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Who writes the book descriptions?", "I draft and you correct. The description that works in search is not the cover copy: it says what the book is actually like and who it suits, including who it does not, and only the author can supply that."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

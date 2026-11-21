@@ -38,11 +38,11 @@ export const floristWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www kwiaciarni ze sklepem i dostawą | Bandziuk",
     metaDescription:
-      "Strona internetowa dla kwiaciarni: sklep z kwiatami, strefy i godziny dostawy, zdjęcia bukietów, bilecik i BLIK, subskrypcje, zapytania ślubne. Od 3000 zł.",
+      "Strona internetowa dla kwiaciarni: sklep z kwiatami, strefy i godziny dostawy, zdjęcia bukietów, bilecik i BLIK, subskrypcje, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dostawa jeszcze dziś", "Wybierz godzinę dostawy", "Dodaj bilecik", "Zapytaj o ślub"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla kwiaciarni, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -199,6 +199,7 @@ export const floristWebsiteDesignPl = {
           ["Jakie płatności będą na stronie kwiaciarni?", "BLIK, szybkie przelewy i karty przez Przelewy24 lub PayU, a jeśli chcecie — także płatność przy odbiorze w kwiaciarni. Faktura na firmę generuje się po wpisaniu NIP."],
           ["Czy możemy dalej sprzedawać na Allegro?", "Tak. Strona przyjmuje zamówienia bezpośrednie bez prowizji, a Allegro działa jak dotąd. Bukiety i ceny prowadzicie w panelu strony, a ofertę na Allegro aktualizujecie po swojej stronie."],
           ["Czy sami zmienimy bukiety, ceny i dni dostaw?", "Tak. Produkty, ceny, rozmiary, koszty dostawy i zablokowane dni zmieniacie w prostym panelu, także z telefonu, a nowy bukiet wygląda tak samo jak reszta katalogu."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pracujesz z kwiaciarniami z innych miast?", "Tak, z każdego miasta. Omawiamy wszystko przez wideo i maile, akceptujecie kolejne etapy online, a zdjęcia bukietów robi Wasz fotograf albo ktoś z kwiaciarni według mojej instrukcji: tło, światło, kadr."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -102,6 +102,7 @@ export const medSpaSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I do SEO for med spas and aesthetic clinics myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Med spa SEO is the work that brings people who search for Botox, lip filler, laser hair removal or body contouring near them to your own website and Google listing, and turns those visits into booked consultations and treatments. I work on my own and also build websites, so one person reads your search data, drafts the treatment pages with your providers and edits the code."),
 
         h2("Med spa SEO: treatment pages, Google Maps and AI answers"),
@@ -215,7 +216,7 @@ export const medSpaSeoEn = {
           ["Can we show before-and-after photos?", "Yes, with the client’s written consent, the same light and angle before and after, and no filters or retouching. Each case gets a short text with the treatment, sessions and time between photos, which also helps the gallery in search."],
           ["Who writes the medical content on treatment pages?", "I prepare the page plan and the drafts from search data and your notes; anything clinical — indications, risks, downtime — is corrected and signed off by your medical director or a named provider before it goes live. Medical advice stays with your team."],
           ["Is Instagram enough for a med spa?", "It brings attention, but people ready to book often search Google or ask an assistant, and those answers come from websites, map listings and reviews. The two work best together: Instagram shows your work, the site and profile turn the search into a booking."],
-          ["Will patients find the med spa through ChatGPT?", "Increasingly, when there is something to quote: treatments, prices and memberships named in text with prices, each practitioner with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the med spa out of the answer."],
+          ["Will patients find the med spa through ChatGPT?", "Increasingly, when there is something to quote: treatments, prices and memberships named in text with prices, each practitioner with a specialisation and registration, hours and languages. ChatGPT, Perplexity and Gemini repeat what they can read, so a price list kept as an image leaves the med spa out of the answer."],
           ["Can an SEO consultant in Poland work for a US med spa?", "Yes. Everything is done online and in English. I am in Warsaw, and my CET afternoon and evening fall on the US morning, so a call before your first client is easy to schedule. I invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

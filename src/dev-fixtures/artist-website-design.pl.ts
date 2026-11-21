@@ -38,11 +38,11 @@ export const artistWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona artysty malarza i portfolio prac | Bandziuk",
     metaDescription:
-      "Strona internetowa dla artysty: portfolio w cyklach, karty prac z wymiarami i ceną, CV i wystawy, obrazy na zamówienie, sprzedaż grafik. Od 3000 zł.",
+      "Strona internetowa dla artysty: portfolio w cyklach, karty prac z wymiarami i ceną, CV i wystawy, obrazy na zamówienie, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt graficzny w cenie", "Od 3000 zł", "Duże zdjęcia bez czekania"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Duże zdjęcia bez czekania"],
   heroPhonePoints: ["Cykl „Wisła”, 2026", "Olej na płótnie, 100 × 80 cm", "Dostępny · Zapytaj o cenę", "Linoryty sygnowane, nakład 30"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona-portfolio dla artysty, projekt graficzny w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -205,7 +205,7 @@ export const artistWebsiteDesignPl = {
           ["Czy ktoś może ukraść zdjęcia moich obrazów?", "Skopiować da się wszystko, co widać na ekranie. Strona pokazuje więc tylko zdjęcia w rozdzielczości ekranowej, z Twoim nazwiskiem w metadanych i opisie, a pliki do druku zostają u Ciebie. Taka kopia nie przyda się nikomu do wydruku."],
           ["Mam galerię — po co mi własna strona?", "Galeria pokazuje prace, które ma u siebie. Twoja strona pokazuje całą twórczość, CV i kontakt, a przy pracach z galerii kieruje kolekcjonera prosto do niej, więc obie strony się uzupełniają."],
           ["Czy pracujesz z artystami spoza Warszawy?", "Tak, z całej Polski. Cała praca toczy się zdalnie: spotkania online, uwagi do projektu zaznaczasz bezpośrednio na makiecie, a zdjęcia prac przesyłasz przez dysk w chmurze. Rozliczamy się na podstawie umowy i faktury."],
-          ["Czy moje prace pojawią się w odpowiedziach ChatGPT?", "Buduję ją tak, żeby asystent AI znalazł na niej fakty: kim jesteś i co tworzysz — tekstem, a prace i wystawy — w danych strukturalnych. Polecanie przy konkretnych pytaniach to już stała praca nad pozycjonowaniem w AI, którą wykonuję osobno."],
+          ["Czy moje prace pojawią się w odpowiedziach ChatGPT, Perplexity i Gemini?", "Buduję ją tak, żeby asystent AI znalazł na niej fakty: kim jesteś i co tworzysz — tekstem, a prace i wystawy — w danych strukturalnych. Polecanie przy konkretnych pytaniach to już stała praca nad pozycjonowaniem w AI, którą wykonuję osobno."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

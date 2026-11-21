@@ -48,7 +48,7 @@ export const solarSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Product, area and incentive pages", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Product, area and incentive pages", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Solar installers near me", "Is solar worth it here?", "Battery backup quote", "Recommended in AI answers"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Solar SEO audit: website, Google Business Profile, trust searches and AI answers", price: 250, currency: "EUR", unit: "one-off" },

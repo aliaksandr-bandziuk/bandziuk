@@ -35,11 +35,11 @@ export const tworzenieStronInternetowychKrakowPl = {
   seo: {
     metaTitle: "Strony internetowe Kraków: projekt i cennik | Bandziuk",
     metaDescription:
-      "Strony internetowe dla firm z Krakowa: projekt w cenie, wersje PL/EN, podstrony usług i dzielnic, formularz zgodny z RODO, szybkie na telefonie. Od 3000 zł.",
+      "Strony internetowe dla firm z Krakowa: projekt w cenie, wersje PL/EN, podstrony usług i dzielnic, formularz zgodny z RODO, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt w cenie strony", "Od 3000 zł", "Wersje PL · EN · UA"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersje PL · EN · UA"],
   heroPhonePoints: ["Book a table · Zarezerwuj", "Menu i godziny", "Dojazd: Kazimierz", "Napisz na WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Krakowa, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -206,6 +206,7 @@ export const tworzenieStronInternetowychKrakowPl = {
           ["Ile trwa stworzenie strony internetowej w Krakowie?", "Na prostą stronę trzeba zwykle zarezerwować dwa–cztery tygodnie, na pełną z kilkoma językami cztery–osiem. Najczęściej czeka się na zdjęcia i tłumaczenia sprawdzone przez Was."],
           ["Czy przyjedziesz na spotkanie do Krakowa?", "Pracuję z Warszawy, a z firmami z Krakowa ustalamy wszystko przez wideo i wiadomości, a postęp prac oglądacie na roboczej wersji strony pod osobnym adresem."],
           ["Czy sami możemy zmieniać menu, ceny i zdjęcia?", "Tak, w prostym panelu, także z telefonu i w każdej wersji językowej. Do codziennych zmian nie potrzebujecie programisty."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Do kogo należy strona?", "Do Was: domena, kod i treści. Możecie w każdej chwili przenieść stronę do innego hostingu lub wykonawcy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

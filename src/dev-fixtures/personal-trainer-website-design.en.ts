@@ -41,11 +41,11 @@ export const personalTrainerWebsiteDesignEn = {
   seo: {
     metaTitle: "Personal Trainer Website Design: Online and Gym",
     metaDescription:
-      "Personal trainer website design: in-person and online coaching pages, packages, consult booking and payments, program sales, local search. From 700 €.",
+      "Personal trainer website design: in-person and online coaching pages, packages, consult booking and payments, program sales, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Booking and payments built in"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Booking and payments built in"],
   heroPhonePoints: ["Strength coaching, Denver", "Gym · Your home · Online", "Compare packages", "Book a free consult"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple personal trainer website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -105,6 +105,7 @@ export const personalTrainerWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build personal trainer websites for independent trainers myself: structure, design, build and launch, with no handover between people."),
         p("I design and build personal trainer websites for independent trainers who coach in a gym, in clients’ homes, in a park or online. One person does the design, the code and the launch, for one fixed price. Instagram shows how you train. The website answers what a ready-to-start client checks before paying anyone: where you train, what a package includes, what it costs, how to book a first meeting and how to pay — all without sending you a DM."),
 
         h2("Personal trainer website design: what the first screen tells a new client"),
@@ -153,7 +154,7 @@ export const personalTrainerWebsiteDesignEn = {
         p("Coaching platforms such as Trainerfu, PT Distinction and FitBudd include a simple trainer website, and Wix or Squarespace sell personal trainer website templates. If you are starting out, train in one gym and need four pages, a template is enough — I will say so on the first call, and the budget is better spent on a photo shoot."),
         p("Your own site pays off when you sell local and online coaching side by side, sell programs, need area pages or a second language, or expect to switch apps one day. The app keeps the training itself — programs, check-ins, progress logs. The site takes the first impression, search, booking and sales, and links to the app for login. Before signing with any platform, ask whether your domain, pages and addresses stay yours when you leave."),
 
-        h2("What the best personal trainer websites have in common"),
+        h2("Personal trainer websites that fill slots: what the best ones share"),
         p("Lists of the best personal trainer website examples mostly show handsome home pages. What the useful ones share is less visible:"),
         li("the city, or “online”, in the first line"),
         li("one button, repeated, leading to a consult"),
@@ -198,6 +199,7 @@ export const personalTrainerWebsiteDesignEn = {
           ["Can I sell a video program without people sharing it?", "Yes. After payment each buyer gets a personal video link that expires after a set time, and the video cannot be downloaded — the setup I built for Landi Room’s online course, which had no case of unauthorized sharing."],
           ["Is my coaching app’s website or a template enough?", "If you train in one place and need a few pages, it usually is. Your own site makes sense when local and online coaching sit side by side, when you sell programs, or when your pages must survive a change of app."],
           ["Can I update packages, prices and client stories myself?", "Yes. They are fields in the CMS, key pages are protected, and a client story cannot go live without the consent field filled in. You also get a short manual and video walkthroughs."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you build websites for US personal trainers from Poland?", "Yes. I work remotely from Warsaw; my afternoon and evening (CET) overlap with the US morning, so calls fit into your workday. Invoices are in euros, and the site shows US dates, phone formats and your time zone."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

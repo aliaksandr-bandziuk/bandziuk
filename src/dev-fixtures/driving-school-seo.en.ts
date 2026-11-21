@@ -40,11 +40,11 @@ export const drivingSchoolSeoEn = {
   seo: {
     metaTitle: "Driving School SEO — audit from €250",
     metaDescription:
-      "SEO for driving schools: automatic versus manual searches, test-centre content, test waiting times, intensive courses and hiring instructors. Audit €250.",
+      "SEO for driving schools: automatic versus manual searches, test-centre content, test waiting times, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Automatic and manual separated", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Automatic and manual separated", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Automatic lessons found properly", "Test centre pages only you can write", "Current test waiting times", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a driving school: site, local profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -63,7 +63,7 @@ export const drivingSchoolSeoEn = {
         { _key: k("o"), iconName: "calendar", title: "Current test waiting times", text: "The most urgent question a learner has" },
         { _key: k("o"), iconName: "zap", title: "Intensive courses as their own offer", text: "A deadline is a different purchase" },
         { _key: k("o"), iconName: "credit-card", title: "Hourly and block prices on the page", text: "Learners compare before calling" },
-        { _key: k("o"), iconName: "users", title: "A page for instructors you want to hire", text: "Your second audience, and nobody writes for it" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -86,6 +86,7 @@ export const drivingSchoolSeoEn = {
       layout: "guide",
       content: [
         h2("Automatic or manual: the search that decides the enrolment before anything else"),
+        p("I do SEO for driving schools myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Nobody searches for a driving school in the abstract. The first thing a learner settles is the gearbox, and it is now the sharpest division in the industry: automatic-only licences have gone from a niche to a large and growing share, pushed along by electric cars, and a learner who has decided on automatic will not consider a school that does not say it teaches in one."),
         p("Yet a great many school websites mention it nowhere, or bury it in a sentence on a general lessons page. If you have automatic cars, that is a page: how many, which instructors drive them, what the licence restriction means in practice, what it costs, and how the waiting time compares with manual. If you only teach manual, say so plainly, because the enquiries you lose that way are enquiries you could not serve anyway."),
         li("a page for automatic lessons and a page for manual, not one page mentioning both;"),
@@ -168,6 +169,7 @@ export const drivingSchoolSeoEn = {
           ["Should prices be on the site?", "Hourly and block prices, yes. Learners compare four or five schools in one sitting, and one without figures is skipped before the phone is picked up. It also gives assistants a number to quote instead of one a directory guessed."],
           ["We can't find instructors. Can SEO help with that?", "Yes, and it is the page I would write first if instructors are your constraint. Instructors search for schools to join — about franchise terms, car provision, what share of the lesson fee they keep, how pupils are allocated — and almost no school has a page answering it. It is nearly uncontested and it addresses the thing actually capping the business."],
           ["How long before enrolments increase?", "First movement after about a month and a half, growth on a three to six month horizon. The map profile usually responds first. Test-centre pages take longer but keep working for years, because the searches behind them never stop."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Who writes the test-centre pages?", "I draft them from what you tell me and an instructor corrects them. The value is entirely in the specifics — which roundabout, which hill start, what the examiners there notice — and that cannot be researched from outside the car."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

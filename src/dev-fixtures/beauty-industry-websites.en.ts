@@ -41,11 +41,11 @@ export const beautyIndustryWebsitesEn = {
   seo: {
     metaTitle: "Beauty industry websites — formats, cost and timeline",
     metaDescription:
-      "Websites for beauty businesses: salon, hair studio, spa, aesthetic clinic, tattoo studio. What each format needs, what they share, what it costs.",
+      "Websites for beauty businesses: salon, hair studio, spa, aesthetic clinic, tattoo studio, AI answers. What each format needs, what they share, what it costs.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Five formats, five builds", "Websites from €2,000", "Reply in 1 working day"],
+  heroChips: ["Five formats, five builds", "Websites from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book a treatment", "Price list", "Our team", "Open Saturday"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Single-service landing page for a beauty business", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -64,7 +64,7 @@ export const beautyIndustryWebsitesEn = {
         { _key: k("o"), iconName: "droplet", title: "Day spa", text: "Packages, vouchers and slots booked for two" },
         { _key: k("o"), iconName: "shield-check", title: "Aesthetic clinic", text: "Qualifications, contraindications, no promised results" },
         { _key: k("o"), iconName: "pen-tool", title: "Tattoo studio", text: "Portfolio by style, by artist, and a deposit" },
-        { _key: k("o"), iconName: "layers", title: "Not sure yet", text: "Send what you do and I will say which fits" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Treatments, prices and booking an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -87,6 +87,7 @@ export const beautyIndustryWebsitesEn = {
       layout: "guide",
       content: [
         h2("Which page fits your beauty business"),
+        p("I build websites for beauty businesses myself: structure, design, build and launch, with no handover between people."),
         p(
           "A multi-service salon — hair, nails, brows, facials under one roof — is covered on ",
           link("beauty salon website design", "/website-development-for-beauty-professionals/beauty-salon-website"),
@@ -102,7 +103,7 @@ export const beautyIndustryWebsitesEn = {
         ),
         p("These are separate pages because they are separate jobs, not because it looks thorough. The questions a client asks before booking are different in each, and a site that answers the wrong set loses the booking while looking fine."),
 
-        h2("What every beauty website needs, whatever the format"),
+        h2("Every beauty website: what it needs, whatever the format"),
         li("a page per treatment with the price or a «from» price and how long it takes;"),
         li("booking that lands in the system the front desk already watches, not a second one;"),
         li("the people: who performs the work, with a photograph and a direct booking link;"),
@@ -111,7 +112,7 @@ export const beautyIndustryWebsitesEn = {
         li("prices as text rather than as a photographed price list, or search and AI assistants cannot read them."),
         p("That list is short and it is most of the value. The differences below are what the format pages are for."),
 
-        h2("What actually differs between the formats"),
+        h2("Salon, barbershop or spa: what actually differs between the formats"),
         h3("Multi-service salon"),
         p("The hardest part is the treatment list: twenty or thirty items, several specialists, and a client who wants one of them. The structure has to let somebody arrive on «lash lift» and book it without passing through a general services page."),
         h3("Hair studio and barbershop"),
@@ -123,7 +124,7 @@ export const beautyIndustryWebsitesEn = {
         h3("Tattoo studio"),
         p("Portfolio by style and by artist, because nobody books «a tattoo» — they book a style from a person. And a deposit, because no-shows cost a full session, which makes the deposit flow part of the site rather than a detail."),
 
-        h2("What a beauty website costs and what moves the price"),
+        h2("A beauty website: what it costs and what moves the price"),
         p(
           "A single-service landing page runs €700–1,400. A full website with treatment pages, prices, team profiles and online booking starts at €2,000. A redesign that keeps the existing rankings starts at €1,000. What moves the price: the number of treatment pages, whether booking has to integrate with an existing system, how many specialists get their own page, and how many languages. Design is included, never a separate line. The full list is on the ",
           link("pricing page", "/pricing"),
@@ -179,6 +180,7 @@ export const beautyIndustryWebsitesEn = {
           ["Can the booking connect to the system we already use?", "Yes, and it should. A site that books into a second system nobody watches creates double bookings, which costs more than having no online booking at all."],
           ["We are an aesthetic clinic. Is anything different?", "Yes, and it matters. Advertising rules in several markets limit what a clinic may claim, so the pages state qualifications, contraindications and recovery instead of promising a result. A clinic page written like a salon page is a liability."],
           ["Do you build on website builders?", "No. A treatment catalogue with booking and a team section is exactly where builders run out, and moving off one later costs more than building on Next.js or WordPress in the first place."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Who owns the site after launch?", "You do: the code, the domain, the content and the CMS logins. Prices and the treatment list are edited by you without a developer, because in this business they change often."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

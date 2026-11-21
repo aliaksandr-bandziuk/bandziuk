@@ -48,11 +48,11 @@ export const realtorWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Realtors and Agents | Bandziuk",
     metaDescription:
-      "Realtor website design with the build included: agent bio and brand, neighborhood pages, listings with video, valuation leads sent to your CRM. From 700 €.",
+      "Realtor website design with the build included: agent bio and brand, neighborhood pages, listings with video, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Your domain, your site"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Your domain, your site"],
   heroPhonePoints: ["What is my home worth?", "Neighborhood guides", "Featured listings", "Call · Text"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple realtor website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -239,7 +239,7 @@ export const realtorWebsiteDesignEn = {
           ["What CRM do realtors use, and can the website send leads to it?", "Agents use many CRMs — Follow Up Boss, kvCORE, Lofty and others, often the one their brokerage provides. The website sends valuation, showing and contact requests to yours through its form, API or an automation service, depending on your plan. I confirm what your account supports before the quote."],
           ["What happens to my website if I change brokerage?", "It stays yours. The domain, hosting, code and content are in your name, so moving brokerage means changing the logo, the footer and the required brokerage details, not rebuilding the site."],
           ["How do you work with a US or Canadian agent from Poland?", "Remotely and in English. Calls and design reviews fit my afternoon and evening in Warsaw, which is the morning and early afternoon on the East Coast; between calls we comment in a shared design file. Contracts and invoices are in euros."],
-          ["Will my realtor website show up in ChatGPT answers?", "Design alone does not put an agent into AI answers, but it can keep one out: facts hidden in images, sliders and videos cannot be read. The site keeps your name, areas, languages and brokerage as text with structured data; the ongoing visibility work is part of my SEO and GEO service."],
+          ["Will my realtor website show up in ChatGPT, Perplexity and Gemini answers?", "Design alone does not put an agent into AI answers, but it can keep one out: facts hidden in images, sliders and videos cannot be read. The site keeps your name, areas, languages and brokerage as text with structured data; the ongoing visibility work is part of my SEO and GEO service."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

@@ -33,11 +33,11 @@ export const carpentrySeoEn = {
   seo: {
     metaTitle: "Carpenter SEO — audit from €250",
     metaDescription:
-      "SEO for carpenters, joiners and bespoke furniture makers: pages by room and material, contractor vs homeowner searches, quotes and lead times. Audit €250.",
+      "SEO for carpenters, joiners and bespoke furniture makers: pages by room and material, contractor vs homeowner searches, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Pages by room and material", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Pages by room and material", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Fitted wardrobes in your city", "Kitchens, stairs, built-ins", "Minimum project size stated", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a carpentry or joinery business: site, local profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -79,6 +79,7 @@ export const carpentrySeoEn = {
       layout: "guide",
       content: [
         h2("Carpentry is two businesses with one name, and that decides the whole site"),
+        p("I do SEO for carpenters and joinery shops myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("A carpenter on a building site and a joiner in a workshop share a trade and almost nothing else commercially. Site carpentry is sold to contractors, developers and builders, who search for capacity, certification, day rates and whether you can start on the fourteenth. Workshop joinery is sold to homeowners, who search for a thing in a room — a wardrobe in an alcove, a kitchen, a staircase, shelving for a loft — and who compare photographs and lead times."),
         p("These two clients do not read the same page, do not use the same words, and do not decide on the same timescale. Most carpentry websites address both at once, which produces a home page saying «domestic and commercial carpentry, no job too small» — a sentence that answers no search anybody makes. The first decision in this work is which of the two you want more of, and then the site is built to say so."),
         li("if you want contractors: capacity, insurance, certifications, day rates, references from sites;"),
@@ -158,6 +159,7 @@ export const carpentrySeoEn = {
           ["Should I publish prices?", "A minimum project size and a range for common jobs. It is the single fastest way to stop losing days to quoting work you did not want, and it gives search engines and AI assistants a figure to quote instead of one a directory invented."],
           ["Do reviews matter?", "For the map results, a great deal — together with photographs of finished work and correct hours. For domestic clients the profile is often the whole decision, since many never reach the website at all."],
           ["How long before it brings enquiries?", "First movement after about a month and a half, growth on a three to six month horizon. Local and map searches usually move first; job-type pages take longer. Carpentry also has its own seasonality — enquiries for fitted furniture cluster before the holidays and in early spring — so the work is best started ahead of the season you want to fill."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Who writes the job-type pages?", "I draft them and you correct them. What makes these pages convert is what only the maker knows: what a job that size really costs, why a material is the wrong choice for a bathroom, how long a staircase actually takes. A client can tell immediately whether a tradesman or a marketer wrote it."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

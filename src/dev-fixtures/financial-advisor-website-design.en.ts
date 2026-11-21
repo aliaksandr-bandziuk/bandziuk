@@ -41,11 +41,11 @@ export const financialAdvisorWebsiteDesignEn = {
   seo: {
     metaTitle: "Financial Advisor and RIA Website Design from €2000",
     metaDescription:
-      "Financial advisor website design with the build included: who-we-serve pages, fee and credential pages, compliance-ready disclosures, scheduling. From 700 €.",
+      "Financial advisor website design with the build included: who-we-serve pages, fee and credential pages, compliance-ready disclosures, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Built for compliance review"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Built for compliance review"],
   heroPhonePoints: ["Who we serve", "How we are paid", "Meet your advisor", "Book an intro call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple financial advisor website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -105,6 +105,7 @@ export const financialAdvisorWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for financial advisors myself: structure, design, build and launch, with no handover between people."),
         p("I design financial advisor websites and build them myself, so the structure, the design and the build come from one person at one price. A prospect who finds an advisory firm is about to hand over retirement savings, the proceeds of a business sale or a family’s plan for the next twenty years. Before booking a call they check three things: whether you work with people like them, how you are paid and whether the person behind the site is real and qualified. The design is built around those three checks."),
 
         h2("Financial advisor website design: what the first screen has to say"),
@@ -115,7 +116,7 @@ export const financialAdvisorWebsiteDesignEn = {
         li("what to do next — a button that books a short intro call, with the phone number beside it"),
         p("The client login sits in the top corner, where existing clients look for it, so it never competes with the button meant for prospects."),
 
-        h2("What a financial advisor website should contain"),
+        h2("A financial advisor website: what it should contain"),
         p("A site that turns visitors into intro calls needs a small set of page types, each built as its own template:"),
         li("“who we serve” pages, one for each kind of client you focus on"),
         li("services and process: what planning, investment management and ongoing reviews include, step by step"),
@@ -229,7 +230,7 @@ export const financialAdvisorWebsiteDesignEn = {
           ["Do you build sites for advisors affiliated with a broker-dealer?", "Yes, when the broker-dealer allows an outside developer. Many require approval of every change and some accept only approved vendors, so check your broker-dealer’s policy first; the review workflow is built to fit its process."],
           ["Can the site connect to our scheduling tool and client portal?", "Yes. The booking button opens your scheduling tool with a few intake questions, and the client login menu links to the custodian and planning portals your clients use. The site itself never collects account numbers or statements."],
           ["How do you work with a US advisory firm from Poland?", "Remotely and in English. Calls and design reviews happen in my afternoon and evening Central European Time, which is the US business morning, with comments in a shared design file in between. Contracts and invoices are in euros."],
-          ["Will a new design help us appear in ChatGPT answers?", "Design alone does not put a firm into AI answers, but it can keep it out: credentials in images and services hidden in PDFs cannot be read. The design keeps them as text with structured data, and the ongoing visibility work is part of my SEO and GEO service."],
+          ["Will a new design help us appear in ChatGPT, Perplexity and Gemini answers?", "Design alone does not put a firm into AI answers, but it can keep it out: credentials in images and services hidden in PDFs cannot be read. The design keeps them as text with structured data, and the ongoing visibility work is part of my SEO and GEO service."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

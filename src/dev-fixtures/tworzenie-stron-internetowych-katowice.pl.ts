@@ -35,11 +35,11 @@ export const tworzenieStronInternetowychKatowicePl = {
   seo: {
     metaTitle: "Strony internetowe Katowice od 3000 zł | Bandziuk",
     metaDescription:
-      "Strony internetowe dla firm z Katowic i metropolii: projekt w cenie, podstrony usług i miast, wersje językowe, formularz zgodny z RODO. Od 3000 zł.",
+      "Strony internetowe dla firm z Katowic i metropolii: projekt w cenie, podstrony usług i miast, wersje językowe, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt i wykonanie: jedna osoba", "Od 3000 zł", "Firmy z całej metropolii"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Firmy z całej metropolii"],
   heroPhonePoints: ["Zadzwoń · WhatsApp", "Obsługujemy Katowice, Chorzów, Sosnowiec", "Realizacje z regionu", "Wersja EN"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Katowic, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -211,6 +211,7 @@ export const tworzenieStronInternetowychKatowicePl = {
           ["Czy przyjedziesz na spotkanie do Katowic?", "Pracuję z Warszawy, a z firmami z Katowic współpracuję online: rozmowa wideo, wspólny dokument i podgląd strony na każdym etapie. Projekt nie wymaga spotkań na miejscu."],
           ["Czy strona może mieć wersję angielską lub ukraińską?", "Tak. Każda wersja ma własne adresy podstron i oznaczenia dla Google, a tłumaczone są te podstrony, z którymi naprawdę przychodzą goście, odbiorcy z zagranicy albo pracownicy."],
           ["Czy zmiany na stronie zrobimy bez programisty?", "Tak. Teksty, ceny, zdjęcia, realizacje i godziny zmieniacie w prostym panelu, także z telefonu. Programista nie jest potrzebny do codziennych zmian."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Do kogo należy strona po uruchomieniu?", "Do Was: domena, kod i treści. Rachunek za hosting przychodzi od jego dostawcy, a ode mnie tylko za zlecone poprawki."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

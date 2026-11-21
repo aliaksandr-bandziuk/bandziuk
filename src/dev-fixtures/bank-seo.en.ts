@@ -44,7 +44,7 @@ export const bankSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Product and branch pages", "Audit from €250", "Answer within 1 working day"],
+  heroChips: ["Product and branch pages", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Mortgage calculator", "Find a branch", "Business account", "Call us"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a bank: product pages, branches, compliance constraints, AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -85,11 +85,11 @@ export const bankSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a bank's SEO report looks healthy and still brings no applications"),
+        h2("A bank's SEO report looks healthy and still brings no applications"),
         p("I do SEO for banks and cooperative banks, and that includes being found in AI answers rather than only in Google. The first thing an analytics report hides is that almost all of a bank's organic traffic is branded: people typing the bank's own name plus login, hours, swift code or contact. That traffic would arrive with or without SEO, and it makes the chart look fine while the searches that decide where someone opens an account go to somebody else."),
         p("The searches that matter happen earlier and without your name in them: a mortgage with a given down payment, a business account for a one-person company, a deposit for a specific term, a card without a monthly fee, a branch in a particular district. Those are the ones to win, and they are won on pages that most bank sites do not have."),
 
-        h2("Why comparison sites outrank banks, and what to do instead"),
+        h2("Comparison sites outrank banks, and what to do instead"),
         p("For a query like best mortgage or cheapest business account, the first page belongs to comparison and aggregator sites almost everywhere. They have more pages, more links and no compliance department. A bank that tries to beat them head-on spends a year and loses."),
         p("What works is the layer underneath: the long tail where the query already contains a condition, a situation or a place. A page about a mortgage for a plot of land, about an account for a freelancer registering for VAT, about a deposit that allows early withdrawal, about what happens to the rate after the first year. Comparison sites cover these thinly because their format is a table; a bank can answer them properly, and that is where the enquiries sit."),
 
@@ -114,7 +114,7 @@ export const bankSeoEn = {
         li("accessibility treated as a requirement rather than a nice-to-have — for banking services in the EU it is now law, and the semantic structure it demands is the same structure search engines read;"),
         li("indexing control over the thousands of near-identical pages banks generate: archived rate tables, branch finders with parameters, old campaign pages."),
 
-        h2("What SEO for a bank costs"),
+        h2("SEO for a bank: what it costs"),
         p(
           "An audit is from €250: product pages, branches, the compliance constraints as they actually are in your institution, and what AI assistants currently say about you. One-off work is €250–800. Ongoing work is from €800 a month. What moves the price is the number of products, the number of branches and how long an approval round takes at your institution — that last one more than anything else. The figures are on the ",
           link("pricing", "/pricing"),

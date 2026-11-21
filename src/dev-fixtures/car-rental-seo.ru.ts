@@ -44,7 +44,7 @@ export const carRentalSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Автопарк, аэропорты, языки", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Автопарк, аэропорты, языки", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Аренда авто Тбилиси аэропорт", "Без депозита? Условия здесь", "Забронировать в WhatsApp", "Советует ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит проката автомобилей: сайт, система бронирования, Google Карты и 2GIS", price: 250, currency: "EUR", unit: "one-off" },

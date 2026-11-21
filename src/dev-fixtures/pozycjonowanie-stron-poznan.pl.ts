@@ -41,7 +41,7 @@ export const pozycjonowanieStronPoznanPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista od audytu do wdrożenia", "Audyt od 1000 zł", "Firmy z Poznania i Wielkopolski"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Firmy z Poznania i Wielkopolski"],
   heroPhonePoints: ["Hydraulik Poznań Rataje", "Wasza firma w Mapach Google", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Poznania: strona, wizytówka Google, lokalna konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -138,7 +138,7 @@ export const pozycjonowanieStronPoznanPl = {
 
         h2("Pozycjonowanie lokalne w Poznaniu: wizytówka Google i Mapy"),
         p("O tym, kogo Google pokaże w Mapach, decyduje trafność wizytówki, odległość od osoby szukającej i rozpoznawalność firmy. W dużym mieście odległość ma ogromne znaczenie: gabinet na Łazarzu rzadko pojawi się w Mapach komuś na Piątkowie. Dlatego firmy, które dojeżdżają do klienta, ustawiają obszar działania i mają podstrony dla dzielnic i gmin, a firmy z lokalem walczą przede wszystkim o swoją okolicę."),
-        h3("Co porządkuję w wizytówce firmy z Poznania"),
+        h3("Wizytówka firmy z Poznania: co w niej porządkuję"),
         li("kategorię główną i dodatkowe zgodne z tym, co naprawdę sprzedajecie"),
         li("usługi, godziny, zdjęcia i link do podstrony, która opisuje daną usługę"),
         li("te same dane firmy na stronie, w wizytówce i w katalogach branżowych"),
@@ -196,6 +196,7 @@ export const pozycjonowanieStronPoznanPl = {
           ["Kto zajmuje się pozycjonowaniem stron w Poznaniu?", "Agencje SEO, lokalne studia, ogólnopolskie firmy z podstroną dla Poznania i pojedynczy specjaliści. Ja pracuję sam: ta sama osoba robi audyt, wdraża poprawki i odpowiada za raport."],
           ["Jak samemu pozycjonować stronę?", "Osobna podstrona dla każdej usługi z miastem w tytule, ceny zapisane tekstem, opinie w Google i Google Search Console to dobry, bezpłatny początek. Technikę i strukturę strony zwykle warto zlecić."],
           ["Jak pojawić się w Mapach Google w Poznaniu i okolicach?", "Potrzebna jest wizytówka z trafną kategorią, usługami i obszarem działania, zgodna ze stroną, oraz regularne opinie. Firmy ze Swarzędza, Lubonia czy Suchego Lasu walczą o swoją gminę, nie o całe miasto."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy firma z Poznania może współpracować ze specjalistą z Warszawy?", "Tak. Cała praca toczy się online: rozmowa wideo, wspólny dokument z zadaniami, dostęp do strony i comiesięczny raport. Dane wyszukiwań i konkurencję sprawdzam dla Poznania, nie dla Warszawy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

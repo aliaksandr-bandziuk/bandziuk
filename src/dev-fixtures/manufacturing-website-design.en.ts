@@ -50,11 +50,11 @@ export const manufacturingWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Manufacturing Companies | Bandziuk",
     metaDescription:
-      "Manufacturing website design with the build included: real plant photos, capability pages, spec tables that work on a phone, RFQs with CAD upload. From 700 €.",
+      "Manufacturing website design with the build included: real plant photos, capability pages, spec tables that work on a phone, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Capabilities and equipment", "Specs in mm / in", "Upload STEP or DXF", "Deutsch · English"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple manufacturing website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -72,7 +72,7 @@ export const manufacturingWebsiteDesignEn = {
         { _key: k("o"), iconName: "gauge", title: "Spec tables that work on a phone", text: "Units, tolerances and materials without zooming" },
         { _key: k("o"), iconName: "file-text", title: "RFQ forms with CAD and drawing upload", text: "Several files, one request, a clear confirmation" },
         { _key: k("o"), iconName: "shield-check", title: "A quality page procurement can check", text: "Certificates, scope, inspection equipment" },
-        { _key: k("o"), iconName: "message-circle", title: "German and other language versions", text: "Layouts drawn for the longest language" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Capabilities, tolerances and lead times to quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple manufacturing website", value: "700–1,400 €", note: "design and build" },
@@ -235,6 +235,7 @@ export const manufacturingWebsiteDesignEn = {
           ["Can the site show specifications in both millimeters and inches?", "Yes. Tables can show both units side by side, or one unit per language version, with decimal separators that match the language."],
           ["How long does a manufacturing website take to design and build?", "Most of the time goes into collecting content: equipment data, certificates and photos. With those ready, the phone layouts take about two to three weeks and the finished site with language versions six to ten weeks in total."],
           ["Can you redesign our manufacturing website without losing Google rankings?", "Yes. Before launch I list every address that currently brings visitors, point each one to its new page with a permanent redirect and check the result in Google Search Console after the switch."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Do you work with manufacturers outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian, for plants that sell in one country or export to many. Contracts and invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

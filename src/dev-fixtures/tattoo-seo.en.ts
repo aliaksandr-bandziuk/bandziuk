@@ -35,7 +35,7 @@ export const tattooSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per artist and style", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["A page per artist and style", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Style plus city searches", "Cover-up and rework enquiries", "Waiting time stated up front", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a tattoo studio: site, Google profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -76,7 +76,8 @@ export const tattooSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("What a tattoo client actually types, and why one studio page cannot answer it"),
+        h2("A tattoo client's actual searches: why one studio page cannot answer them"),
+        p("I do SEO for tattoo studios and artists myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Almost nobody searches for a tattoo studio by category. They search for a style in a place — fine line in a particular city, blackwork, realism, lettering, a specific traditional school — or they search for a problem, which is usually an old piece they want covered. The searcher has already decided what they want on their skin and is looking for the hand that can do it."),
         p("The standard studio site answers none of that. It has a home page, an «our artists» page with six names and six Instagram links, a prices page saying «from», and a contact form. One page cannot rank for eight different styles, and six artists sharing one page means a client searching for the one who does fine line is shown a page that is mostly about five people who do not."),
 
@@ -160,6 +161,7 @@ export const tattooSeoEn = {
           ["Can you get me ranked for cover-ups?", "Usually, because almost nobody writes that page properly — which is odd, since it brings the most decided client in the trade. What I cannot do is promise a position; what I can do is write the page that answers what the client cannot judge alone and put it where it gets found."],
           ["Do reviews matter for the ranking?", "For the map results they matter a great deal, together with the photographs and whether your hours are right. A studio with sixty reviews and no replies usually does worse than one with thirty and a human voice in the answers."],
           ["How long before it brings clients?", "First movement after about a month and a half, growth on a three to six month horizon. Walk-in and local searches tend to move first because the map results respond faster than the main listings; style searches take longer because the pages have to mature."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Who writes the artist and style pages?", "I draft them and each artist corrects their own. What makes these pages work is what only the artist knows — what they decline, how they price, what a piece that size really takes — and a client reading it can tell at once whether a practitioner wrote it or a marketer did."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -44,7 +44,7 @@ export const cafeSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Карты, завтраки, кофе specialty", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Карты, завтраки, кофе specialty", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Кофейня рядом · с 7:30", "Кафе для работы с ноутбуком", "Завтраки весь день, Батуми", "Написать в WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит кафе: карточки в 2GIS и Google Картах, сайт, кафе по соседству и ответы ИИ", price: 250, currency: "EUR", unit: "one-off" },

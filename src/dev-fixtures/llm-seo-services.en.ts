@@ -89,13 +89,13 @@ export const llmSeoServicesEn = {
       content: [
         p("I provide LLM SEO services: work that makes a business visible and correctly described in the answers of large language models — ChatGPT, Perplexity, Gemini, Claude and Google’s AI answers. LLM SEO is not one optimisation applied to all of them: each model knows different things and reads different sources, so the work and the measurement are done per model. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
 
-        h2("What LLM SEO is: training data and live search"),
+        h2("LLM SEO: training data and live search"),
         p("A language model can know about your business in two ways:"),
         li("from training data — what was published about you before the model was trained, often months ago; this is what the model “remembers” without searching"),
         li("from live retrieval — what it finds when it searches the web while answering; this is current, and this is where most buying questions are answered"),
         p("LLM SEO works on both: being described consistently in the places that end up in training data, and being findable and quotable when a model searches today."),
 
-        h2("Why ChatGPT, Perplexity, Gemini and Claude cite different sources"),
+        h2("ChatGPT, Perplexity, Gemini and Claude cite different sources"),
         p(
           "In my analysis of ",
           link("141 AI answers to buying questions", "/blog/ai-assistant-recommendations-study"),

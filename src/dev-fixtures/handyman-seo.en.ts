@@ -33,11 +33,11 @@ export const handymanSeoEn = {
   seo: {
     metaTitle: "Handyman SEO — audit from €250",
     metaDescription:
-      "SEO for a handyman business: pages for named jobs, half-day bookings, a stated radius and call-out minimum, landlords as repeat clients. Audit €250.",
+      "SEO for a handyman business: pages for named jobs, half-day bookings, a stated radius and call-out minimum, landlords as repeat clients, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Larger jobs, shorter drives", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Larger jobs, shorter drives", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Pages for named jobs", "Half-day bookings, not single tasks", "Radius and minimum stated", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a handyman business: site, Google profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -52,7 +52,7 @@ export const handymanSeoEn = {
       title: "What SEO for a handyman business actually consists of",
       items: [
         { _key: k("o"), iconName: "list-checks", title: "A page per job worth travelling for", text: "Not one page offering everything" },
-        { _key: k("o"), iconName: "calendar", title: "Half-day and day bookings", text: "Four tasks in one visit, not one" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
         { _key: k("o"), iconName: "map-pin", title: "A radius you actually state", text: "Instead of «and surrounding areas»" },
         { _key: k("o"), iconName: "tag", title: "Call-out minimum and hourly rate", text: "Published, so the small jobs filter themselves" },
         { _key: k("o"), iconName: "shield-check", title: "What you are not licensed to do", text: "Written down, so nobody wastes a visit" },
@@ -78,7 +78,8 @@ export const handymanSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why more enquiries usually makes a handyman business worse"),
+        h2("More enquiries usually makes a handyman business worse"),
+        p("I do SEO for handyman services myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Most trades come to me because the phone is not ringing. A handyman normally has the opposite problem: it rings constantly, with jobs that take forty minutes and sit on the other side of the city. The business is busy, the van is always moving, and the money at the end of the month does not reflect either, because half the working day was spent driving between jobs too small to carry the travel."),
         p("So the goal of this work is not volume. It is a higher average job value and a shorter average drive, and those two numbers are what I would look at before and after. That changes what gets built: not a site that ranks for the broadest possible term, but pages for the jobs you want, with the price floor and the radius stated plainly enough that the rest filter themselves out before they call."),
 
@@ -162,6 +163,7 @@ export const handymanSeoEn = {
           ["Do I need a page for every job I do?", "For every job you want more of. Ten pages for the work that pays, not thirty covering everything you are capable of — pages for jobs you take reluctantly bring more of those jobs."],
           ["How do I get landlord and letting-agent work?", "A page written for them rather than for homeowners: response times, invoicing, key handling, schedule of rates, changeover work between tenancies. It is a different reader with a different list of worries, and one landlord with eight flats is worth more than forty one-off calls."],
           ["Do reviews matter more than the website?", "For this trade, often yes. Most customers decide in the map results, where reviews, photographs of finished work and correctly listed services do the work. The website then has to answer the price and radius questions without a phone call."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["How long before it changes anything?", "The profile usually moves within weeks. Job pages take about a month and a half to show movement and three to six months to grow. The half-day booking page can change your average job value immediately, which is why I start there rather than with rankings."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

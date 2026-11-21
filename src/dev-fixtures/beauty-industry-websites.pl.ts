@@ -52,11 +52,11 @@ export const beautyIndustryWebsitesPl = {
   seo: {
     metaTitle: "Strony internetowe dla branży beauty — formaty i ceny",
     metaDescription:
-      "Tworzenie stron internetowych dla branży beauty: salon kosmetyczny, fryzjer, spa, kosmetologia, tatuaż, optyk. Czego wymaga każdy format i ile kosztuje.",
+      "Tworzenie stron internetowych dla branży beauty: salon kosmetyczny, fryzjer, spa, kosmetologia, tatuaż, odpowiedzi AI. Czego wymaga każdy format i ile kosztuje.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Sześć formatów, sześć rozwiązań", "Strony od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Sześć formatów, sześć rozwiązań", "Strony od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Zarezerwuj zabieg", "Cennik", "Nasz zespół", "Otwarte w sobotę"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona beauty na WordPressie, z projektem graficznym w cenie", price: 3000, currency: "PLN", unit: "one-off" },
@@ -74,7 +74,7 @@ export const beautyIndustryWebsitesPl = {
         { _key: k("o"), iconName: "droplet", title: "Spa", text: "Pakiety, vouchery i rezerwacja dla dwóch osób" },
         { _key: k("o"), iconName: "shield-check", title: "Gabinet kosmetologii", text: "Kwalifikacje, przeciwwskazania, bez obiecywania efektu" },
         { _key: k("o"), iconName: "pen-tool", title: "Studio tatuażu", text: "Portfolio po stylach i artystach plus zadatek" },
-        { _key: k("o"), iconName: "eye", title: "Salon optyczny", text: "Recepta, marki i zapis na badanie wzroku" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Zabiegi, ceny i rezerwacja, które asystent zacytuje" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -97,6 +97,7 @@ export const beautyIndustryWebsitesPl = {
       layout: "guide",
       content: [
         h2("Która podstrona pasuje do Waszego biznesu beauty"),
+        p("Strony dla branży beauty buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p(
           "Salon wielousługowy — włosy, paznokcie, brwi, pielęgnacja twarzy pod jednym dachem — to ",
           link("strona salonu kosmetycznego", "/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego"),
@@ -136,7 +137,7 @@ export const beautyIndustryWebsitesPl = {
         h3("Salon optyczny"),
         p("Tu droga zaczyna się nie od zabiegu, a od recepty i badania wzroku, więc strona ma prowadzić do zapisu na badanie, a nie od razu do katalogu opraw. Do tego marki: po nich się szuka, a podstrona marki często przyprowadza kogoś, kto salonu jeszcze nie wybrał."),
 
-        h2("Co klientka sprawdza, zanim w ogóle otworzy Waszą stronę"),
+        h2("Przed wejściem na stronę: co klientka sprawdza najpierw"),
         p("W tej branży wyniki lokalne i mapa stoją zwykle wyżej niż zwykłe linki, a część rezerwacji powstaje bez otwierania strony. Dlatego profil Google traktuję jako część pracy, a nie jako dodatek: pełna lista zabiegów, aktualne godziny włącznie z wieczornymi, prawdziwe zdjęcia i link do rezerwacji prowadzący do zabiegu."),
         p("Potem strona i profil są doprowadzane do zgodności. Klientka, która zobaczy dwie różne ceny albo dwie różne godziny zamknięcia, przestaje wierzyć obu."),
 
@@ -150,7 +151,7 @@ export const beautyIndustryWebsitesPl = {
         h2("Ile trwa budowa strony dla branży beauty"),
         p("Rozbudowana strona to trzy do sześciu tygodni. Wydłuża ją materiał, a nie kod: zdjęcia, lista zabiegów z cenami i czasem trwania oraz odpowiedź, kto po Waszej stronie zatwierdza teksty. Jeśli czegoś nie ma, pomagam to zebrać."),
 
-        h2("Co zostaje u Was po uruchomieniu"),
+        h2("Po uruchomieniu: co zostaje u Was"),
         li("kod, domena, treści i dostępy do panelu są Wasze od pierwszego dnia;"),
         li("ceny i listę zabiegów zmieniacie sami, bez programisty;"),
         li("strona nie stoi na moim hostingu, eksporty nie są zablokowane;"),
@@ -204,6 +205,7 @@ export const beautyIndustryWebsitesPl = {
           ["Jesteśmy gabinetem kosmetologii. Czy coś się różni", "Tak, i to istotnie. Reklama usług medycznych jest na części rynków ograniczona prawem, więc podstrony podają kwalifikacje, przeciwwskazania i rekonwalescencję zamiast obiecywać efekt. Podstrona gabinetu napisana jak podstrona salonu jest ryzykiem."],
           ["Produkujemy kosmetyki, nie wykonujemy zabiegów", "To inna praca: marka sprzedaje przez sklep i treści produktowe, a nie przez grafik i rezerwacje. Napiszcie, co robicie, a powiem, od czego zacząć i czy to w ogóle moja robota."],
           ["Budujecie na kreatorach stron", "Nie. Katalog zabiegów z rezerwacją i sekcja zespołu to dokładnie miejsce, w którym kreatory się kończą, a zejście z kreatora później kosztuje więcej niż zbudowanie od razu na Next.js albo WordPressie."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Do kogo należy strona po uruchomieniu", "Do Was: kod, domena, treści i dostępy do panelu. Ceny i listę zabiegów zmieniacie sami bez programisty, bo w tym biznesie zmieniają się często."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

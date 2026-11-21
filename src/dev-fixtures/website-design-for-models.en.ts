@@ -53,11 +53,11 @@ export const websiteDesignForModelsEn = {
   seo: {
     metaTitle: "Modeling Portfolio Website for Models | Bandziuk",
     metaDescription:
-      "Model website design and build: book by category, dated polaroids, online comp card in cm and inches, agency links, walk video, your name on Google. From 700 €.",
+      "Model website design and build: book by category, dated polaroids, online comp card in cm and inches, agency links, walk video, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Polaroids, comp card, agency links"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Polaroids, comp card, agency links"],
   heroPhonePoints: ["Polaroids, taken this month", "Height 5′10″ · 178 cm", "Represented by", "Request a booking"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple model portfolio website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -117,6 +117,7 @@ export const websiteDesignForModelsEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for models myself: structure, design, build and launch, with no handover between people."),
         p("Model portfolio website design is the service on this page: I plan, design, code and launch personal websites for fashion, commercial, fitness and runway models, and the whole job stays with me. Bookers, casting directors and clients first meet you on an agency board, through a referral or on Instagram, then look you up by name. A website for models is where that search should end: your current look, your stats and one clear way to reach you or your agent."),
 
         h2("Model portfolio website: what agents, casting directors and clients check first"),
@@ -217,6 +218,7 @@ export const websiteDesignForModelsEn = {
           ["Can booking requests go to my agency instead of me?", "Yes. The contact button can lead to your booker, to you, or to either depending on the kind of job, and freelance work can come through a direct form."],
           ["Can the website be in more than one language?", "Yes, usually English plus the language of your home market. Each version has its own addresses, and measurements switch between centimeters and inches."],
           ["How is my privacy protected on the site?", "The site shows the city you work from, not your address. Location data is removed from photos on upload, your email stays behind a form, and private pages can be shared by link only."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Can you build a model website for me from Poland?", "Yes. I work remotely and in English: video calls, comments left right on the design and a shared folder for photos. A US morning is my CET afternoon, so calls fit around castings, and I invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

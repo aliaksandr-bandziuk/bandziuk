@@ -40,7 +40,7 @@ export const winerySeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Tastings, events, wine club", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Tastings, events, wine club", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Wineries near me open now", "Private tasting for 6", "Harvest party tickets", "Directions · Reserve"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Winery SEO audit: website, Google Business Profile and competing wineries in your region", price: 250, currency: "EUR", unit: "one-off" },

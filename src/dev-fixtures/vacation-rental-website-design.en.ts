@@ -44,11 +44,11 @@ export const vacationRentalWebsiteDesignEn = {
   seo: {
     metaTitle: "Vacation Rental Website for Direct Bookings",
     metaDescription:
-      "Vacation rental website design and build for owners and managers: direct bookings, your PMS booking widget, property pages, B&B sites. From 700 €.",
+      "Vacation rental website design and build for owners and managers: direct bookings, your PMS booking widget, property pages, B&B sites, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Check availability", "Book direct with the host", "Sleeps 6 · 3 bedrooms", "Secure payment"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple vacation rental or B&B website with your booking widget, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -108,9 +108,10 @@ export const vacationRentalWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build direct-booking websites for vacation rental owners and property managers myself: structure, design, build and launch, with no handover between people."),
         p("I design and build vacation rental websites for owners and property managers who want more direct bookings and less dependence on Airbnb and Vrbo. Design and build come from one person at one price. A direct-booking site has a harder job than a platform listing: the guest does not know you, has no platform guarantee to lean on and must decide to pay a stranger. Every page is laid out to make that first direct booking feel safe and the second one routine."),
 
-        h2("Why build a vacation rental website: direct bookings, lower platform fees and your own guests"),
+        h2("Build a vacation rental website: direct bookings, lower platform fees and your own guests"),
         p("Airbnb, Vrbo and Booking.com bring guests and charge for it, through service fees, commission or both, on every stay. They also keep the relationship: next year the same guest searches the platform again and may book the listing next door. Your own site changes that:"),
         li("a direct booking carries no platform commission, only your payment provider’s fee and your booking software"),
         li("with the guest’s consent you keep their email, so you can invite them back next season or offer an off-season rate"),
@@ -225,6 +226,7 @@ export const vacationRentalWebsiteDesignEn = {
           ["How do I get my property into Google Vacation Rentals?", "Through a connectivity partner, usually your channel manager or PMS, which sends Google your rates and availability. Google sets the eligibility rules. Your website is the official site those listings can link to."],
           ["Can guests pay deposits online?", "Yes, through your booking software and its payment provider: full payment, a deposit with the balance later, or a refundable security deposit or card hold, depending on what the tool supports. The design shows the terms before the guest pays."],
           ["What is a vacation rental website built around?", "Around the booking: property pages with photos, amenities, house rules and prices, the availability calendar and booking widget from your PMS or channel manager, and the trust signals a guest needs before a first direct booking. My portfolio shows property, multilingual and booking-focused sites built on the same principles."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Do you work with owners and managers outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian, for properties in any country, with the languages, currency and local rules your guests need."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -86,7 +86,7 @@ export const cadDraftingSeoPl = {
         p("Dlatego zapytanie wygrywa nie galeria ładnych rysunków. Wygrywają warstwy nazwane tak, jak nazywa je jego biuro, jego tabelka rysunkowa, jego jednostki, jego wersja programu i termin poprawek, który da się wpisać w harmonogram."),
         p("Napiszcie to faktami: w jakich standardach pracujecie, jakie szablony przyjmujecie, czyj jest plik po oddaniu, ile trwa rewizja i czy podpisujecie NDA przed zobaczeniem czegokolwiek."),
 
-        h3("Co dostajecie, czego szuka klient i co musi udowodnić podstrona"),
+        h3("Pliki na wejściu, zapytania w Google: co musi udowodnić podstrona"),
       ],
     },
     {

@@ -41,7 +41,7 @@ export const beautySalonSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podstrona pod każdy zabieg", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Podstrona pod każdy zabieg", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Laminacja rzęs w pobliżu", "Koloryzacja na ciemnych włosach", "Otwarte w sobotę wieczorem", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO salonu kosmetycznego: strona, profil Google i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -83,6 +83,7 @@ export const beautySalonSeoPl = {
       layout: "guide",
       content: [
         h2("Jak klientka naprawdę szuka salonu i dlaczego to rozstrzyga o strukturze strony"),
+        p("Zajmuję się pozycjonowaniem stron salonów kosmetycznych sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("W branży beauty prawie nie ma zapytań ogólnych. Nikt nie szuka «usług kosmetycznych» — szuka jednego zabiegu, w jednym miejscu, często na jeden konkretny wieczór. Ten fakt rozstrzyga o tym, jak powinna być zbudowana strona."),
         p("Popyt niosą dwie grupy. Zabieg plus miejsce: «koloryzacja <miasto>», «laminacja rzęs <dzielnica>», «depilacja laserowa <miasto>», «hybryda blisko biura». I grupa «w pobliżu»: «salon kosmetyczny w pobliżu», «paznokcie blisko mnie», «brwi w pobliżu», «salon otwarty teraz». Druga grupa to podstawa lokalnego SEO: klientka już wie, czego chce, i wybiera wyłącznie po odległości i wolnym terminie."),
         p("Strona zbudowana wokół jednej podstrony „Usługi” nie odpowiada żadnej z tych grup. Strona zbudowana wokół zabiegów odpowiada obu — i dokładnie tę strukturę może potem przeczytać asystent AI."),
@@ -100,7 +101,7 @@ export const beautySalonSeoPl = {
         p("„Ceny na zapytanie” kosztuje salon więcej rezerwacji niż wysoka cena. Klientka wybiera między trzema salonami na telefonie, a wiadomość dostaje ten, który liczbę podał."),
         p("Cennik jako obrazek albo zrzut z relacji też nie działa: ani wyszukiwarka, ani asystent AI nie czytają tekstu wewnątrz zdjęcia, więc jest niewidoczny dokładnie dla tych kanałów, o których jest ta strona. Widełki z wyjaśnieniem, od czego zależą — długość i gęstość włosów, stan paznokci, poziom osoby wykonującej — działają lepiej niż jedna liczba i odstraszają mniej osób."),
 
-        h2("Dlaczego strony salonów się nie wyświetlają, po częstotliwości przyczyn"),
+        h2("Strony salonów się nie wyświetlają, po częstotliwości przyczyn"),
         li("dwie linijki tekstu na zabieg — nie ma czym się wyświetlać;"),
         li("żadnych sygnałów lokalnych poza adresem w stopce;"),
         li("cennik wyłącznie jako obrazek;"),
@@ -113,7 +114,7 @@ export const beautySalonSeoPl = {
         p("Salon żyje z gęstości grafiku: puste okno o szóstej w piątek to przychód, który nie wróci. Dlatego strona mierzy się rezerwacjami, a nie pozycjami."),
         p("W praktyce to znaczy przycisk rezerwacji na każdej podstronie zabiegu, a nie tylko w menu; ten sam system rezerwacji, z którego faktycznie korzysta recepcja; widoczne wolne terminy wieczorne i weekendowe; numer, w który da się kliknąć. Jeśli rezerwacje idą przez Booksy albo podobny system, strona prowadzi od razu do właściwego zabiegu, a nie na jego ekran startowy."),
 
-        h2("Co pozycjonowanie daje salonowi w liczbach biznesowych"),
+        h2("Pozycjonowanie salonu w liczbach biznesowych: co daje"),
         li("mniej pustych okien w grafiku;"),
         li("więcej powrotów — klientka zapamiętała i wróciła;"),
         li("możliwość planowania obłożenia zespołu;"),

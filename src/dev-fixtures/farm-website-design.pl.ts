@@ -40,11 +40,11 @@ export const farmWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona gospodarstwa rolnego: sprzedaż bezpośrednia",
     metaDescription:
-      "Strona internetowa dla gospodarstwa: lista produktów zmieniana z telefonu, zamówienia paczek z odbiorem, BLIK, RWS, samozbiór, dojazd, restauracje. Od 3000 zł.",
+      "Strona internetowa dla gospodarstwa: lista produktów zmieniana z telefonu, zamówienia paczek z odbiorem, BLIK, RWS, samozbiór, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Listę produktów zmieniacie sami"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Listę produktów zmieniacie sami"],
   heroPhonePoints: ["W tym tygodniu: szparagi", "Odbiór w piątek 16–18", "Zapłać BLIK-iem", "Samozbiór dziś czynny"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla gospodarstwa, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -217,6 +217,7 @@ export const farmWebsiteDesignPl = {
           ["Czy strona obsłuży zapisy do RWS i kilka punktów odbioru?", "Tak. Udziały, daty sezonu, punkty odbioru i raty ustawiacie w panelu, a członkowie sami pomijają tydzień albo zmieniają punkt. Gdy miejsc zabraknie, zapisy przechodzą na listę oczekujących."],
           ["Czy przez stronę wolno sprzedawać produkty z RHD?", "To zależy od produktu i od tego, jak jesteście zarejestrowani — warunki potwierdzi sanepid albo inspekcja weterynaryjna. Strona dostosowuje się do tego, na co macie zgodę: sklep z wysyłką, zamówienie z odbiorem w gospodarstwie albo sam cennik z telefonem."],
           ["Czy wystarczy profil na Facebooku albo darmowy szablon?", "Gospodarstwu, które sprzedaje jedną rzecz w jednym miejscu, często tak. Strona na zamówienie opłaca się, gdy łączycie sklepik, targi, paczki, RWS albo restauracje i chcecie, żeby lista produktów, zamówienia i dojazd zawsze się zgadzały."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy pracujesz z gospodarstwami z całej Polski?", "Tak, z każdego regionu. Rozmawiamy przez wideo i telefon, materiały przesyłacie mailem albo przez WhatsApp, a etapy akceptujecie online. Zdjęcia robi ktoś z Was albo fotograf według krótkiej instrukcji ode mnie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

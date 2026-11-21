@@ -42,7 +42,7 @@ export const bankSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Produkty i placówki", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Produkty i placówki", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Kalkulator kredytu", "Znajdź placówkę", "Konto dla firmy", "Zadzwoń"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO banku: podstrony produktów, placówki, ograniczenia zgodności, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -83,11 +83,11 @@ export const bankSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego raport SEO banku wygląda dobrze, a wniosków z niego nie ma"),
+        h2("Raport SEO banku wygląda dobrze, a wniosków z niego nie ma"),
         p("Zajmuję się pozycjonowaniem stron banków i banków spółdzielczych — w Google i w odpowiedziach asystentów AI. Raport z analityki zwykle ukrywa jedno: prawie cały ruch organiczny banku to ruch z własnej nazwy — logowanie, godziny, numer rachunku, kontakt. Ten ruch przyszedłby i bez pozycjonowania, a wykres przy nim wygląda zdrowo, podczas gdy wyszukiwania, które decydują o tym, gdzie klient założy konto, trafiają gdzie indziej."),
         p("Te wyszukiwania dzieją się wcześniej i bez nazwy banku: kredyt hipoteczny przy określonym wkładzie własnym, konto dla jednoosobowej działalności, lokata na konkretny termin, karta bez opłaty miesięcznej, placówka w danej dzielnicy albo w małym mieście. To są zapytania do wygrania, a odpowiadają na nie podstrony, których większość stron bankowych nie ma."),
 
-        h2("Dlaczego porównywarki stoją wyżej od banku i co z tym zrobić"),
+        h2("Porównywarki stoją wyżej od banku i co z tym zrobić"),
         p("Na zapytania w rodzaju najlepszy kredyt hipoteczny czy ranking kont firmowych pierwszą stronę wyników zajmują porównywarki i serwisy finansowe. Mają więcej podstron, więcej linków i nie mają działu zgodności. Bank, który próbuje pokonać je wprost, traci rok."),
         p("Działa warstwa poniżej: długi ogon, w którym zapytanie samo zawiera warunek, sytuację albo miejsce. Kredyt na działkę, konto dla freelancera rejestrującego się do VAT, lokata z możliwością wcześniejszego zerwania, co dzieje się z oprocentowaniem po pierwszym roku, kredyt dla rolnika. Porównywarka odpowiada na to tabelką, bank może odpowiedzieć naprawdę — i stamtąd biorą się wnioski."),
 

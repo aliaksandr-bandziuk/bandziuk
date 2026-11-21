@@ -27,11 +27,11 @@ export const electricianWebsiteDesignEn = {
   seo: {
     metaTitle: "Electrician Website Design: Calls, Quotes, Service",
     metaDescription:
-      "Electrician website design: emergency and planned-work paths, license and insurance up front, before-and-after panel photos, built for phones first. From 700 €.",
+      "Electrician website design: emergency and planned-work paths, license and insurance up front, before-and-after panel photos, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design and build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design and build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Power out? Call now", "Licensed · Insured", "Panel before / after", "Book an estimate"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple electrician website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -49,7 +49,7 @@ export const electricianWebsiteDesignEn = {
         { _key: k("o"), iconName: "image", title: "Before-and-after panel and lighting photos", text: "Same angle, the job and the town named" },
         { _key: k("o"), iconName: "file-text", title: "Prices and estimates that read clearly", text: "Ranges, or what decides the price" },
         { _key: k("o"), iconName: "layers", title: "Layouts designed on a phone first", text: "Call and estimate buttons stay on screen" },
-        { _key: k("o"), iconName: "sparkles", title: "Your van colors, not a template’s", text: "One look from the truck to the screen" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple electrician website", value: "700–1,400 €", note: "design included" },
@@ -91,6 +91,7 @@ export const electricianWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build websites for electricians myself: structure, design, build and launch, with no handover between people."),
         p("I design websites for electricians and build them myself, so what you approve on screen is what goes live, at one price. Most visitors to an electrician’s site are either worried — something stopped working or smells wrong — or planning — a charger, a generator, a remodel. The design is there to show both of them, within seconds, that you are licensed, nearby and easy to reach."),
 
         h2("Electrician website design: what the first screen has to show"),
@@ -193,6 +194,7 @@ export const electricianWebsiteDesignEn = {
           ["Should an electrician show prices on the website?", "Showing ranges or the factors that decide the price helps: callers arrive with realistic expectations and fewer estimate visits end without a job. Exact prices are only shown where you already use flat-rate pricing."],
           ["Do you design electrician websites without building them?", "No. Design and build come together, because how the call buttons, emergency path and galleries behave on a phone is settled while building, not in a picture."],
           ["Can our crews add before-and-after photos themselves?", "Yes. A finished job is a short form in the admin panel, from a phone: two photos, the job, the town and a sentence. The job page is laid out automatically."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Do you design websites for electricians outside Poland?", "Yes. I work remotely with electricians in the US, Canada, the UK and Australia, in English, Polish or Russian. License details, phone formats and review platforms are set up for your country."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -201,6 +203,10 @@ export const electricianWebsiteDesignEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("An electrician website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which electrician nearby works evenings and what a panel upgrade costs. The assistant answers from text it can read, and names companies whose pages carry the facts: services, call-out fee, licence number and the towns you cover."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order electrician website design: what to send me"),
         p(
           "Send the business name, a link to the current site or Google profile, a photo of your van or logo, the jobs you want more of and the towns you cover. A few before-and-after photos of recent jobs help me sketch the pages. I will reply with a layout plan and a fixed price. Use the ",

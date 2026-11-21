@@ -45,7 +45,7 @@ export const insuranceAgencySeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Страховка на русском за рубежом", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Страховка на русском за рубежом", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Медстраховка для ВНЖ на Кипре", "Агент в Дубае на русском", "Написать в WhatsApp", "Советует ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит сайта страхового агента: страницы продуктов, карты, языки и ответы ИИ", price: 250, currency: "EUR", unit: "one-off" },

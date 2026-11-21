@@ -99,7 +99,7 @@ export const landSurveyorWebsiteEn = {
         p("It does depend on the parcel. A range with conditions still answers it, and it filters: the bargain hunters stop calling, the serious ones stop comparing."),
         p("Coverage belongs there too, as a list of counties rather than a radius on a map. A client two counties away needs to know in one second whether to keep reading."),
 
-        h3("What goes on the site, and the enquiry it is meant to produce"),
+        h3("A surveyor's site and the enquiry it produces: what goes on it"),
       ],
     },
     {

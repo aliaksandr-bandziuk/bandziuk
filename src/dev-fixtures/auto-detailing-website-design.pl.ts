@@ -37,11 +37,11 @@ export const autoDetailingWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla studia detailingu: zapisy i cennik usług",
     metaDescription:
-      "Strona dla studia detailingu: pakiety od prania tapicerki po ceramikę i PPF, galerie przed i po, detailing mobilny, rezerwacja z zadatkiem. Od 3000 zł.",
+      "Strona dla studia detailingu: pakiety od prania tapicerki po ceramikę i PPF, galerie przed i po, detailing mobilny, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Dla studiów i detailingu mobilnego"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Dla studiów i detailingu mobilnego"],
   heroPhonePoints: ["Zarezerwuj termin", "Tapicerka · Ceramika · PPF", "Zdjęcia przed i po", "Faktura VAT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla studia detailingu, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -200,6 +200,7 @@ export const autoDetailingWebsiteDesignPl = {
           ["Zadatek czy zaliczka przy rezerwacji powłoki ceramicznej?", "To zależy od Twoich zasad. Zadatek przy rezygnacji klienta zwykle przepada, zaliczka jest zwracana. Strona używa słowa, które pasuje do regulaminu, i pokazuje zasady przed płatnością."],
           ["Czy sam dodam nowe zdjęcia przed i po?", "Tak. Panel działa w przeglądarce telefonu: po odbiorze auta wrzucasz zdjęcia, wybierasz pakiet i wpisujesz model, a strona sama zmniejsza pliki."],
           ["Czy strona pomoże mi pojawić się w Mapach Google?", "Strona daje Google podstrony usług, listę miejscowości i dane strukturalne. Na pozycję w Mapach wpływa też sama wizytówka: kategorie, zdjęcia i opinie. Ustawiam ją przy starcie strony, a stałą pracę nad nią wyceniam osobno."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Czy współpraca może być zdalna, jeśli studio jest poza Warszawą?", "Tak. Studia z Krakowa, Poznania czy Rzeszowa obsługuję tak samo jak warszawskie: zdjęcia i cennik przesyłasz w wiadomości, rozmawiamy przez telefon lub wideo, a projekt oglądasz na swoim telefonie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

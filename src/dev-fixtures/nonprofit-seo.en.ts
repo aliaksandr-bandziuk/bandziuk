@@ -106,7 +106,7 @@ export const nonprofitSeoEn = {
       content: [
         p("SEO for nonprofits is the work that brings people searching around your cause — those who need help, want to volunteer or are ready to give — to your own website, and turns those visits into sign-ups and donations. I do nonprofit SEO myself, as one consultant who also builds websites, so the person who finds the problems on your site is the person who fixes them."),
 
-        h2("What nonprofit SEO includes: searches for help, volunteering and giving"),
+        h2("Nonprofit SEO include: searches for help, volunteering and giving"),
         p("A nonprofit has three kinds of searchers, and each types something different:"),
         li("people who need help: “free tax help for seniors Denver”, “food pantry open Saturday”, “shelter for women near me”"),
         li("volunteers: “volunteer with animals on weekends”, “volunteer opportunities near me for teens”"),

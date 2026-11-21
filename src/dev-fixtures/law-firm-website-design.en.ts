@@ -46,11 +46,11 @@ export const lawFirmWebsiteDesignEn = {
   seo: {
     metaTitle: "Web Design for Lawyers and Attorneys | Bandziuk",
     metaDescription:
-      "Law firm website design with the build included: real attorney photos, practice and bio pages, case results with disclaimers, click-to-call. From 700 €.",
+      "Law firm website design with the build included: real attorney photos, practice and bio pages, case results with disclaimers, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Meet the attorneys", "Practice areas", "Free consultation", "Tap to call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple law firm website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -110,6 +110,7 @@ export const lawFirmWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for law firms myself: structure, design, build and launch, with no handover between people."),
         p("I design law firm websites and build them myself, so design and development come from one person at one price. Someone looking for a lawyer is usually worried — about a divorce, a visa, an arrest, an injury, a dispute with a business partner. They open two or three firms’ sites on a phone and decide within seconds which one feels safe to call. Web design for lawyers is mostly about those seconds."),
 
         h2("Law firm website design: what a potential client checks in the first seconds"),
@@ -239,7 +240,7 @@ export const lawFirmWebsiteDesignEn = {
           ["Is a law firm website template enough for a small firm?", "For a new solo practice with one or two practice areas, it can be. Once the firm has several attorneys, several practices or a second language, a template’s single practice page and team grid start to hold it back, and a custom design pays off."],
           ["Can the design work in English and Spanish, or in other languages?", "Yes. Layouts are drawn for the longest language you publish in, the language switch sits on the first screen, and each version shows the attorneys who speak that language."],
           ["How do you work with a US, UK or Canadian law firm from Poland?", "Remotely and in English: design reviews on video calls late in my working day in Warsaw, when it is morning on the US East Coast and the UK office is still open, with comments in a shared design file in between. Contracts and invoices are in euros."],
-          ["Will a new design help the firm appear in ChatGPT answers?", "Design alone does not put a firm into AI answers, but it can keep it out: facts hidden in images, sliders and PDFs cannot be read. The design keeps them as text with structured data, and the ongoing visibility work is part of my SEO and GEO service."],
+          ["Will a new design help the firm appear in ChatGPT, Perplexity and Gemini answers?", "Design alone does not put a firm into AI answers, but it can keep it out: facts hidden in images, sliders and PDFs cannot be read. The design keeps them as text with structured data, and the ongoing visibility work is part of my SEO and GEO service."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

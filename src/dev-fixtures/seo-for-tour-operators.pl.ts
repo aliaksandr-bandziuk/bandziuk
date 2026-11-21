@@ -43,7 +43,7 @@ export const seoForTourOperatorsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Wycieczki, kierunki i rodzaje wyjazdów", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Wycieczki, kierunki i rodzaje wyjazdów", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Wycieczka szkolna do Krakowa", "3 dni · autokar · przewodnik", "Opinie w Google", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO biura podróży: strona, podstrony wycieczek, system rezerwacji, wizytówka Google, opinie i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },

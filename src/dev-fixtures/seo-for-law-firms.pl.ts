@@ -43,7 +43,7 @@ export const seoForLawFirmsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Zgodnie z kodeksem etyki", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Zgodnie z kodeksem etyki", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Adwokat rozwód Poznań", "Kancelaria w Mapach Google", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO kancelarii prawnej: strona, wizytówki Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -117,7 +117,7 @@ export const seoForLawFirmsPl = {
 
         h2("SEO dla kancelarii a zasady reklamy i informowania adwokatów i radców prawnych"),
         p("Od 26 maja 2023 roku adwokaci mogą posługiwać się informacją handlową (uchwała NRA nr 93/2023), ale Kodeks Etyki Adwokackiej nadal zakazuje m.in. treści porównawczych, ocennych i stwarzających nieuzasadnione oczekiwania co do wyników. Radcowie prawni mają prawo informować o wykonywaniu zawodu (art. 31 Kodeksu Etyki Radcy Prawnego), bez treści nierzeczowych, obietnic i porównań. Dla pozycjonowania to dobra wiadomość, bo wyszukiwarka nagradza właśnie rzeczową informację: jakimi sprawami się zajmujecie, kto je prowadzi, gdzie i w jakich językach, jak wygląda pierwszy kontakt. Rzeczowa strona, która jest wysoko w Google, mieści się w zasadach obu samorządów."),
-        h3("Co pomaga w pozycjonowaniu i mieści się w informacji o kancelarii"),
+        h3("Informacja o kancelarii, która pomaga w pozycjonowaniu"),
         li("opis specjalizacji i rodzajów spraw, z którymi przychodzą klienci"),
         li("imiona i nazwiska prawników, tytuł zawodowy, izba, języki"),
         li("adres, godziny i sposób umówienia spotkania, także konsultacji online"),

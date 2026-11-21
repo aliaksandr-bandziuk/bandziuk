@@ -38,7 +38,7 @@ export const pozycjonowanieStronGdanskPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista od audytu do wdrożenia", "Audyt od 1000 zł", "Online z firmami z Gdańska"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Online z firmami z Gdańska"],
   heroPhonePoints: ["Apartamenty Gdańsk Oliwa", "Wizytówka w Mapach Google", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Gdańska: strona, wizytówka Google, konkurencja w Gdańsku", price: 1000, currency: "PLN", unit: "one-off" },
@@ -100,6 +100,7 @@ export const pozycjonowanieStronGdanskPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Pozycjonowaniem stron firm z Gdańska zajmuję się sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Pozycjonowanie stron w Gdańsku to moja usługa dla firm, które chcą, żeby klienci z Gdańska, z całego Trójmiasta i goście z zagranicy trafiali z Google, Map Google i asystentów AI na ich stronę, a potem dzwonili, rezerwowali albo wysyłali zapytanie. Pracuję sam, z Warszawy, a z gdańskimi firmami współpracuję online: rozmowy wideo, wspólne dokumenty i etapy ustalone z góry. Audyt, poprawki w kodzie, podstrony usług, wizytówkę i raport robi ta sama osoba."),
 
         h2("Pozycjonowanie stron w Gdańsku: co obejmuje usługa"),
@@ -210,6 +211,7 @@ export const pozycjonowanieStronGdanskPl = {
           ["Kto zajmuje się pozycjonowaniem stron w Gdańsku: agencja czy specjalista?", "Jedni i drudzy — w wynikach są trójmiejskie studia, agencje ogólnopolskie i pojedynczy specjaliści. U mnie audyt, wdrożenie i raport robi jedna osoba, bez opiekuna klienta, a ceny są opublikowane w cenniku."],
           ["Czy zajmujesz się wizytówką Google firmy z Gdańska?", "Tak. Kategoria, usługi, zdjęcia, godziny sezonowe, opinie i zgodność danych ze stroną to część pozycjonowania. Odległość od szukającego jest stała, resztę można poprawić."],
           ["Czy można pozycjonować stronę jednocześnie w Gdańsku i w Gdyni?", "Można, ale to dwa osobne zestawy wyników. Potrzebne są treści napisane pod każde miasto i obszar działania w wizytówce, a nie tylko nazwa Gdyni dopisana do tekstu o Gdańsku."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Jak wygląda współpraca zdalna z Warszawy z firmą z Gdańska?", "Rozmowa wideo na start, dostęp do Search Console, Analytics i wizytówki, wspólny dokument z zadaniami i raport co miesiąc. Wszystko odbywa się online, więc nie trzeba planować spotkań."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

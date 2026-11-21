@@ -44,7 +44,7 @@ export const cafeSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Mapy, śniadania, kawa specialty", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Mapy, śniadania, kawa specialty", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Kawiarnia blisko mnie · od 7:00", "Kawiarnia do pracy z laptopem", "Śniadania w weekend", "Trasa · Kawa na wynos"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO kawiarni: wizytówka Google, strona, lokale w okolicy i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },

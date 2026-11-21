@@ -14,11 +14,11 @@ export const restaurantSeoEn = {
   seo: {
     metaTitle: "Restaurant SEO: Local SEO for Restaurants | Bandziuk",
     metaDescription:
-      "SEO for restaurants: Google Maps, a menu search engines can read, local pages and reviews, so guests find you before a booking portal. Audit from 250 €.",
+      "SEO for restaurants: Google Maps, a menu search engines can read, local pages and reviews, AI answers. Audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Google Maps + website", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Google Maps + website", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Top 3 on the map", "Open now · 4.7 ★", "Menu found by dish", "Book directly, no portal"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Restaurant SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -81,7 +81,7 @@ export const restaurantSeoEn = {
       content: [
         p("I do SEO for restaurants myself — the Google Business Profile, the website and the local pages — so the person who audits the site is the one who fixes it. Restaurant SEO is mostly local: guests choose from the map results and the first few links, on a phone, within minutes of deciding to eat out."),
 
-        h2("What restaurant SEO covers: Google Maps, local search and the website"),
+        h2("Restaurant SEO covers: Google Maps, local search and the website"),
         p("Restaurant SEO is the work that makes a restaurant appear when someone searches for a kind of food, a dish or a place to eat nearby, and makes the restaurant’s own website win the search for its own name. Three places decide this:"),
         li("the map results — three restaurants with a map, rating and hours, shown above everything else for searches like “sushi near me”"),
         li("the regular results, where the restaurant’s website competes with booking portals, delivery apps and review sites"),

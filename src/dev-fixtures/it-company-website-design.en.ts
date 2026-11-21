@@ -43,11 +43,11 @@ export const itCompanyWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for IT Companies and MSPs | Bandziuk",
     metaDescription:
-      "IT company website design with the build included: diagrams instead of stock photos, service and case study pages, engineers, careers, dark mode. From 700 €.",
+      "IT company website design with the build included: diagrams instead of stock photos, service and case study pages, engineers, careers, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + Next.js build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + Next.js build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Cloud migration, step by step", "Services · Stack · Industries", "Meet the engineers", "Open roles"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple IT company website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -107,6 +107,7 @@ export const itCompanyWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for IT companies myself: structure, design, build and launch, with no handover between people."),
         p("I offer IT company website design to development studios, MSPs, outsourcing providers and cloud or security consultancies, and I code the result myself in Next.js or WordPress, so the design and the build are a single price. An IT company sells something nobody can see — code, infrastructure, uptime, security — and the design has to make that work visible to a buyer who is not always technical."),
 
         h2("IT company website design: what a CTO, a business buyer and a candidate look for"),
@@ -219,6 +220,7 @@ export const itCompanyWebsiteDesignEn = {
           ["Our clients are under NDA. How can we show case studies?", "Anonymize them: name the industry, company size, region, the problem, the architecture and the stack, and leave the client’s name out. Buyers care more about whether you solved a problem like theirs than about the logo."],
           ["Who draws the diagrams?", "I do, from your engineers’ sketches or a short call with them. Each diagram is simplified for a non-technical reader, checked by the engineer who knows the system, and delivered as an SVG in the site’s style."],
           ["Can HR publish open positions without a developer?", "Yes. Roles are added in the admin panel, or pulled automatically from your applicant tracking system if it offers an embed or an API, so the careers page is always current."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Do you work with IT companies outside Poland?", "Yes. Remote delivery is routine in IT, and my clients’ teams sit in different countries and time zones. I work in English, Polish and Russian; invoices are issued in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

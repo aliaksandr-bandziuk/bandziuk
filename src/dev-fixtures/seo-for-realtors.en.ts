@@ -50,7 +50,7 @@ export const seoForRealtorsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Name, neighborhood and seller searches", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Name, neighborhood and seller searches", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Realtor in Brookside", "What’s my home worth?", "Agent bio + 5★ reviews", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Realtor SEO audit: name searches, website, IDX setup, Google Business Profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -113,7 +113,7 @@ export const seoForRealtorsEn = {
       content: [
         p("SEO for realtors is the work that makes a real estate agent show up when people in your market search for your name, your neighborhoods or how to sell their home, and turns those visits into buyer and seller conversations in your CRM. I do it myself, as a single SEO consultant who also builds websites, for individual agents and small teams, so the person who reviews your site is the person who writes the neighborhood pages and changes the code."),
 
-        h2("What SEO for real estate agents covers: your name, your neighborhoods and seller leads"),
+        h2("SEO for real estate agents covers: your name, your neighborhoods and seller leads"),
         p("Most of an agent’s business comes from people who already know them or were referred, and most of those people still type the agent’s name into Google before they call. The rest search for a place or a decision: “realtor in Brookside Kansas City”, “best time to sell a house in Raleigh”, “condos near Lake Merritt”. Real estate agent SEO works on the four places where those searches end:"),
         li("your own website: bio page, neighborhood pages, market reports, valuation and contact forms"),
         li("your Google Business Profile and the map results for “realtor near me”"),
@@ -239,6 +239,7 @@ export const seoForRealtorsEn = {
           ["Do IDX listings on my site help SEO?", "Rarely on their own, because the same listings appear on every IDX site in your MLS, and many feeds load in an iframe that counts for the vendor. Listing searches placed inside your neighborhood pages, under your own text, do help those pages rank."],
           ["How long does SEO for realtors take?", "Name searches and the Business Profile can improve within weeks. New neighborhood pages usually need three to six months to bring steady contacts, longer in large metros where many agents write about the same areas."],
           ["Does my brokerage need to approve my website?", "Often yes. Many brokerages review agent websites and advertising, and state rules usually require the brokerage name on them. Check with your managing broker; I can send pages for review before they go live."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Can a consultant in Poland do SEO for a US realtor?", "Yes. All the work is remote and in English. My afternoon and evening in Central European Time overlap with the US working day, so calls fit East Coast and Central mornings. Contracts and invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

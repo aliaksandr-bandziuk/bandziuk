@@ -47,7 +47,7 @@ export const pozycjonowanieStronLublinPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista od audytu do wdrożenia", "Audyt od 1000 zł", "Współpraca online"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Współpraca online"],
   heroPhonePoints: ["Dentysta Lublin Czuby", "Mapy Google", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Lublina: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -218,6 +218,7 @@ export const pozycjonowanieStronLublinPl = {
           ["Jak samemu pozycjonować stronę?", "Zacznijcie od osobnej podstrony dla każdej usługi z Lublinem lub dzielnicą w tytule, opisu obszaru działania, opinii w Google i Google Search Console. Technikę, przebudowę strony i wersje językowe najczęściej warto zlecić."],
           ["Kto zajmuje się pozycjonowaniem stron: agencja SEO czy specjalista?", "Pozycjonowaniem zajmują się zarówno agencje, jak i specjaliści pracujący samodzielnie. W agencji Wasze sprawy prowadzi opiekun, a zadania wykonuje ktoś inny; ja robię wszystko osobiście i publikuję ceny w cenniku."],
           ["Czy zajmujesz się wizytówką Google w Lublinie?", "Tak. Porządkuję kategorie, usługi, zdjęcia, godziny i dane firmy, żeby zgadzały się ze stroną i katalogami, a firmom z kilkoma punktami w Lublinie i okolicy zakładam osobne wizytówki i podstrony."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Jak wygląda współpraca z Lublinem, skoro pracujesz w Warszawie?", "W całości przez internet: na początek rozmowa wideo, potem lista zadań, którą widzicie na bieżąco, i raport po każdym miesiącu. Do pozycjonowania nie jest potrzebne biuro w Lublinie — liczą się strona, wizytówka i dane wyszukiwań dla Lublina, a do nich mam dostęp zdalnie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

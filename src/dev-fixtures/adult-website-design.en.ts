@@ -41,11 +41,11 @@ export const adultWebsiteDesignEn = {
   seo: {
     metaTitle: "Adult Website Design for Creators, Studios, Brands",
     metaDescription:
-      "Adult website development for creators, OnlyFans agencies and 18+ brands: age gate, CCBill or Segpay payments, adult-friendly hosting, video. From 700 €.",
+      "Adult website development for creators, OnlyFans agencies and 18+ brands: age gate, CCBill or Segpay payments, adult-friendly hosting, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Discreet, NDA on request"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Discreet, NDA on request"],
   heroPhonePoints: ["18+ check before entry", "Join the free list", "Secure checkout", "Creators: apply here"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple adult website for a creator or a small agency, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -102,6 +102,7 @@ export const adultWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for 18+ brands, creators and agencies myself: structure, design, build and launch, with no handover between people."),
         p("Adult website design and development is the service on this page: I plan, design and build websites for adult content creators, OnlyFans management agencies and legal 18+ brands such as shops, membership sites, studios and platforms. I am one web developer in Warsaw rather than an agency, so the person who drafts your page structure is the same one who connects the age gate, the payment processor and the video delivery."),
 
         h2("Adult website development: three kinds of 18+ projects"),
@@ -111,7 +112,7 @@ export const adultWebsiteDesignEn = {
         li("adult brands and 18+ businesses whose website is the product or the shop: memberships, video libraries, legal adult products, studios"),
         p("Many projects mix these. An agency may want a page per creator it represents; a creator may add a small store. The page list follows how the business earns money, not a template from a theme marketplace."),
 
-        h2("Why Wix and Squarespace rarely fit an adult website"),
+        h2("Wix and Squarespace rarely fit an adult website"),
         p("Most general website builders limit or forbid adult content in their terms of use, and an account that breaks those terms can be suspended with little warning — together with the domain connection, forms and customer records. Read the acceptable use policy before investing in any hosted platform. Niche adult website builders avoid the ban, but tie you to their templates, their fees and often their own payment setup."),
         p("A custom site on hosting that permits adult content in writing keeps the decisions with you. You can move it to another server, switch processor or add a language without rebuilding. I work in WordPress or in Next.js with a headless CMS, and you edit pages, prices and posts yourself."),
 
@@ -189,6 +190,7 @@ export const adultWebsiteDesignEn = {
           ["Which payment processors work for adult websites?", "Processors that accept high-risk merchants, such as CCBill, Segpay and Epoch. Each reviews your site before approval, so terms, refund rules, support contacts and age checks are built in before you apply."],
           ["Will you keep my project and my name confidential?", "Yes. We can sign an NDA before you share details, nothing about the project is published, and the work runs on the access you choose to give."],
           ["Can you build a site for a US or UK agency from Poland?", "Yes. Everything is done online in English. My working day in Central European Time overlaps with UK hours fully and with US mornings, so calls fit your schedule. I invoice in EUR."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["What should be ready before the build starts?", "A domain, a decision on the processor (or an open application), legal texts from your lawyer and an idea of who the site serves first: fans, creators you recruit or customers. Hosting can be chosen together."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

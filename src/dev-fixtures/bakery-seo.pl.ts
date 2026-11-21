@@ -44,7 +44,7 @@ export const bakerySeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Torty, święta, Mapy Google", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Torty, święta, Mapy Google", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Piekarnia blisko mnie · od 6:00", "Tort komunijny na zamówienie", "Pączki na tłusty czwartek", "Zadzwoń · Trasa"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO piekarni lub cukierni: strona, wizytówka Google, konkurencja w okolicy i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },

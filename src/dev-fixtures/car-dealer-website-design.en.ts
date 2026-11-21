@@ -38,11 +38,11 @@ export const carDealerWebsiteDesignEn = {
   seo: {
     metaTitle: "Car Dealership Website Design and Build | Bandziuk",
     metaDescription:
-      "Car dealer website design: inventory synced from your feed, clear vehicle pages, financing and trade-in forms, fast photos. Design included, from 700 €.",
+      "Car dealer website design: inventory synced from your feed, clear vehicle pages, financing and trade-in forms, AI answers. Design included, from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Independent lots and small groups"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Independent lots and small groups"],
   heroPhonePoints: ["2019 RAV4 XLE · 41k miles", "Get pre-qualified", "Value your trade", "Text us about this car"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple car dealer website with inventory list and vehicle pages, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -161,7 +161,7 @@ export const carDealerWebsiteDesignEn = {
         li("a monthly fee that never ends, and a site that disappears when you cancel"),
         li("little control over page speed, forms and what goes into the page code"),
         p("Franchise dealers often have to use a provider certified by the manufacturer, so an own site fits independents and groups with their own used-car brand best. Your feed, lender platform and CRM connect to it the same way they connect to a vendor site."),
-        h3("What the best car dealership websites have in common"),
+        h3("Car dealership websites that sell: what the best ones share"),
         p("The best car dealership websites share habits rather than a look: real photos of every car taken in the same spot, prices with fees shown openly, one tap to call or text from any vehicle, and inventory that matches the lot to the hour."),
 
         h2("A car dealer website that ChatGPT and Google AI Overviews can read"),
@@ -201,6 +201,7 @@ export const carDealerWebsiteDesignEn = {
           ["Is it safe to take credit applications on my website?", "It can be, if the application goes through your lender platform or a secure form and never through plain email. Dealers fall under the FTC Safeguards Rule for customer financial data; the build follows it, and your compliance contact confirms the details."],
           ["Will a site with thousands of photos be slow?", "Not if the photos are resized and converted when they are imported and loaded only when the buyer swipes to them. That is part of every dealer site I build."],
           ["Can I edit cars, specials and fees myself?", "Yes. Cars come from the feed, and you can add notes, highlights, specials and fee text in a simple admin, also from a phone."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Do you work with car dealers in the US from Poland?", "Yes. The project runs remotely and in English. I am in Warsaw, and my working afternoon falls in your morning, so we can talk before your lot gets busy. You receive invoices in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

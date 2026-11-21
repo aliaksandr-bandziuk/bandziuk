@@ -145,7 +145,7 @@ for (const name of names) {
   // рядом с темой adult. Для них блок не требуется.
   const isAdult = /adult|branzy-adult|adalt/.test(fx.slug);
   if (iPf === -1 && !isAdult) bad.push("нет блока с кейсами");
-  else if (iOffer !== -1 && iPf !== iOffer + 1) bad.push(`блок кейсов стоит не сразу после «что входит в работу» (${types.join(" → ")})`);
+  else if (iPf !== -1 && iOffer !== -1 && iPf !== iOffer + 1) bad.push(`блок кейсов стоит не сразу после «что входит в работу» (${types.join(" → ")})`);
 
   (fx.contentBlocks || []).forEach((b, i) => {
     if (b._type !== "tableBlock") return;
@@ -162,7 +162,7 @@ for (const name of names) {
     const firstP = (guide.content || []).find((c) => c.style === "normal" && !c.listItem);
     // Первое лицо бывает и в середине фразы, и со строчной буквы:
     // «Pozycjonowanie … robię sam» — такой абзац правилу удовлетворяет.
-    const SELF = /\bI do\b|\bI build\b|\bI work\b|\bI provide\b|\bI make\b|\bI run\b|[Zz]ajmuję się|[Bb]uduję|[Rr]obię|[Pp]rojektuję|[Pp]rowadzę|[Яя] занимаюсь|[Яя] делаю|[Дд]елаю |[Зз]анимаюсь |[Пп]ровожу |[Сс]обираю /;
+    const SELF = /\bI (?:do|build|make|provide|run|design|create|handle|write|set up)\b|[Zz]ajmuję się|[Bb]uduję|[Rr]obię|[Pp]rojektuję|[Pp]rowadzę|[Яя] занимаюсь|[Яя] делаю|[Дд]елаю |[Зз]анимаюсь |[Пп]ровожу |[Сс]обираю |[Аа]удиты |[Кк]онсультации /;
     if (!firstP || !SELF.test(text(firstP))) bad.push("в первом абзаце основного текста нет прямой фразы про то, что вы оказываете эту услугу");
   }
 

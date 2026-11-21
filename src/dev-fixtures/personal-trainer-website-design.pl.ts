@@ -37,11 +37,11 @@ export const personalTrainerWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona trenera personalnego: zapisy i płatności",
     metaDescription:
-      "Strona internetowa dla trenera personalnego: klub, dojazd i online, pakiety, zapisy z kalendarza, BLIK i Przelewy24, sprzedaż planów online. Od 3000 zł.",
+      "Strona internetowa dla trenera personalnego: klub, dojazd i online, pakiety, zapisy z kalendarza, BLIK i Przelewy24, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Zapisy i płatność BLIK"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Zapisy i płatność BLIK"],
   heroPhonePoints: ["Trening siłowy, Mokotów", "Klub · Dojazd · Online", "Pakiety i ceny", "Umów konsultację"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla trenera personalnego, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -185,6 +185,7 @@ export const personalTrainerWebsiteDesignPl = {
           ["Czy mogę sprzedawać plan treningowy online tak, żeby nie krążył po grupach?", "Tak. Każdy kupujący dostaje po płatności osobisty link do wideo, który wygasa po ustalonym czasie, a filmu nie da się pobrać. Tak działa kurs online salonu Landi Room, bez ani jednego przypadku nieuprawnionego udostępnienia."],
           ["Czy wystarczy mi Instagram i aplikacja trenerska?", "Na start, przy jednym klubie i kilku pakietach, często tak. Własna strona przydaje się, gdy łączysz treningi w klubie z prowadzeniem online, sprzedajesz plany albo chcesz, żeby klienci z okolicy znajdowali Cię w Google."],
           ["Czy sam zmienię ceny, pakiety i metamorfozy?", "Tak. To pola w panelu, ważne strony są chronione, a metamorfoza nie opublikuje się bez wypełnionego pola zgody. Dostajesz też krótką instrukcję i nagrania wideo."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Jak wygląda współpraca i czy dostanę fakturę?", "Pracuję zdalnie z Warszawy: rozmowy telefoniczne lub wideo, materiały mailem albo przez WhatsApp. Działam jako jednoosobowa firma i wystawiam fakturę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

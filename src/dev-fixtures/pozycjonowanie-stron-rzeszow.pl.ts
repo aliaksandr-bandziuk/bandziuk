@@ -41,7 +41,7 @@ export const pozycjonowanieStronRzeszowPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista, jawne ceny", "Audyt od 1000 zł", "Rzeszów i Podkarpacie"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Rzeszów i Podkarpacie"],
   heroPhonePoints: ["Elektryk Rzeszów Słocina", "Zadzwoń", "Wasza firma w Mapach Google", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Rzeszowa: strona, wizytówka Google, konkurencja na Podkarpaciu", price: 1000, currency: "PLN", unit: "one-off" },
@@ -125,7 +125,7 @@ export const pozycjonowanieStronRzeszowPl = {
 
         h2("Agencja SEO w Rzeszowie czy jeden specjalista: kto zajmuje się pozycjonowaniem"),
         p("Na „pozycjonowanie stron Rzeszów” wysoko są lokalne firmy i studia z Podkarpacia, ogólnopolskie agencje z podstroną dla Rzeszowa, pojedynczy specjaliści SEO i portal Oferteo. Lokalnych wykonawców jest mniej niż w Krakowie czy we Wrocławiu, ale konkurencja w samych branżach bywa zacięta, bo o tych samych klientów walczą firmy z Rzeszowa i z sąsiednich powiatów."),
-        h3("Co zyskujecie, pracując z jednym specjalistą"),
+        h3("Praca z jednym specjalistą: co zyskujecie"),
         li("rozmawiacie z osobą, która sama robi audyt, zmienia kod i pisze podstrony"),
         li("budżet idzie na pracę, a nie na opiekuna klienta i dział sprzedaży"),
         li("cenę znacie z cennika, zanim zadzwonicie"),
@@ -214,6 +214,7 @@ export const pozycjonowanieStronRzeszowPl = {
           ["Jak samemu pozycjonować stronę?", "Podstrona dla każdej usługi z miejscem w tytule, pełna wizytówka Google, opinie klientów i Google Search Console to dobry początek. Technikę i strukturę strony warto zlecić."],
           ["Agencja SEO w Rzeszowie czy jeden specjalista?", "Agencja ma sens, gdy razem z SEO kupujecie reklamę i social media. Specjalista, który sam wykonuje całą pracę, wystarczy, gdy chodzi o widoczność w Google i AI."],
           ["Czy zajmujesz się wizytówką w Mapach Google?", "Tak: kategorie, usługi, obszar działania, zdjęcia, opinie i zgodność danych ze stroną. W Rzeszowie i okolicy często to pierwsze źródło telefonów."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Czy pozycjonujesz strony firm z Rzeszowa zdalnie?", "Tak. Pracuję z Warszawy, a z firmami z Rzeszowa współpracuję online: rozmowa wideo, wspólny dokument i dostęp do danych strony."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

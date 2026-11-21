@@ -41,7 +41,7 @@ export const locksmithSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Двери, авто, сейфы", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Двери, авто, сейфы", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Вскрытие замков Алматы", "Написать в WhatsApp", "Цена до выезда", "Чип-ключ на месте"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит службы вскрытия замков: сайт, Google Карты и 2GIS, конкуренты, ответы ИИ", price: 250, currency: "EUR", unit: "one-off" },

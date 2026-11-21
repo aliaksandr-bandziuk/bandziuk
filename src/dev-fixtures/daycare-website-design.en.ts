@@ -47,11 +47,11 @@ export const daycareWebsiteDesignEn = {
   seo: {
     metaTitle: "Daycare Website Design for Childcare Centers | Bandziuk",
     metaDescription:
-      "Daycare and preschool website design: age-group pages, tuition and openings, tour and waitlist forms, staff and licensing pages. Design and build from 700 €.",
+      "Daycare and preschool website design: age-group pages, tuition and openings, tour and waitlist forms, AI answers. Design and build from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book a tour", "Infants · Toddlers · Pre-K", "Openings this fall", "Join the waitlist"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple daycare or preschool website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -111,6 +111,7 @@ export const daycareWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for daycares and preschools myself: structure, design, build and launch, with no handover between people."),
         p("Daycare website design is the service I offer owners of private daycares, preschools, nurseries and early learning centers: I plan the pages, draw the design and build the site myself, so the person who sketches the tour form is the one who makes it work. Parents choosing childcare are matching a child’s age, a start date and a commute against the places that might have room, and they leave a site the moment it makes them hunt for an answer."),
 
         h2("Daycare and preschool website design: what parents look for first"),
@@ -216,6 +217,7 @@ export const daycareWebsiteDesignEn = {
           ["Can we post photos of the children in our care?", "Only with a signed release from the parents. Even then, rooms, materials, outdoor space and children seen from behind make safer main photos, and no names appear next to faces."],
           ["Can our director update openings, menus and staff without a developer?", "Yes. Openings per age group, the monthly menu, staff profiles and tuition are edited in a simple admin panel, from a computer or a phone."],
           ["Is a daycare website template enough for a home daycare?", "Often, at the start. A custom design pays off when you run several programs or locations, keep a waitlist by age group, teach in two languages or want tours, payments and the parent login in one place."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data. The same work for the answer shown in search itself is answer engine optimization (AEO)."],
           ["Can a web designer in Poland work with a US daycare?", "Yes. I work in English over video calls and shared design links. My afternoon and evening in Warsaw overlap with the US morning and early afternoon, so calls fit around nap time. Invoices are in EUR or another currency by agreement."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

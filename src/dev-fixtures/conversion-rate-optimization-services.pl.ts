@@ -34,11 +34,11 @@ export const conversionRateOptimizationServicesPl = {
   seo: {
     metaTitle: "Optymalizacja konwersji (CRO) od 1000 zł | Bandziuk",
     metaDescription:
-      "Optymalizacja konwersji strony przez programistę: pomiar w GA4, analiza ścieżki klienta, poprawki formularzy, koszyka i szybkości w kodzie. Audyt od 1000 zł.",
+      "Optymalizacja konwersji strony przez programistę: pomiar w GA4, analiza ścieżki klienta, poprawki formularzy, odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Analiza + poprawki w kodzie", "Audyt konwersji od 1000 zł", "Umowa i faktura"],
+  heroChips: ["Analiza + poprawki w kodzie", "Audyt konwersji od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Oferta w jednym zdaniu", "Zadzwoń · WhatsApp", "BLIK i Paczkomat", "Zapytanie wysłane"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt konwersji: pomiar, analiza ścieżki klienta i lista poprawek według efektu", price: 1000, currency: "PLN", unit: "one-off" },
@@ -55,7 +55,7 @@ export const conversionRateOptimizationServicesPl = {
         { _key: k("o"), iconName: "search", title: "Analiza ścieżki klienta", text: "Gdzie odwiedzający wchodzą, wahają się i rezygnują" },
         { _key: k("o"), iconName: "layers", title: "Pierwszy ekran, który mówi, co sprzedajecie", text: "Oferta, poziom cen i jeden następny krok" },
         { _key: k("o"), iconName: "file-text", title: "Formularze zgodne z RODO, które da się wysłać", text: "Krótka klauzula, tylko potrzebne pola" },
-        { _key: k("o"), iconName: "phone", title: "Telefon i WhatsApp jednym dotknięciem", text: "Każde kliknięcie liczone jako kontakt" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Usługi, ceny i obszar, które asystent zacytuje" },
         { _key: k("o"), iconName: "gauge", title: "Szybkość i wersja mobilna", text: "Poprawione w szablonach, nie kolejną wtyczką" },
       ],
       prices: [
@@ -210,6 +210,7 @@ export const conversionRateOptimizationServicesPl = {
           ["Ile kosztuje audyt konwersji?", "Od 1000 zł. Jednorazowe poprawki kosztują od 1000 do 3000 zł za zadanie, a stała optymalizacja konwersji od 3500 zł miesięcznie. Pierwsza rozmowa, 15–30 minut, jest bezpłatna."],
           ["Czy wystawiasz fakturę i pracujesz zdalnie?", "Tak. Prowadzę jednoosobową działalność w Warszawie i wystawiam fakturę. Pracuję zdalnie z firmami z całej Polski: rozmowy online, dostęp do analityki i kodu, raporty na piśmie."],
           ["Kiedy widać efekty optymalizacji konwersji?", "Naprawiony pomiar daje wiarygodne liczby od razu. Efekt zmian na stronie przy dużym ruchu widać po kilku tygodniach, przy małym po kilku miesiącach, bo uczciwe porównanie wymaga odpowiedniej liczby konwersji."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Lepiej zacząć od audytu konwersji czy od razu od poprawek?", "Jeśli pomiar działa, a problem jest znany, na przykład formularz nie wysyła się na telefonie, można go naprawić od razu jako zadanie jednorazowe. Jeśli wiecie tylko, że zapytań lub zamówień jest za mało, zacznijcie od audytu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

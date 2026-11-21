@@ -36,11 +36,11 @@ export const insuranceAgencyWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona agencji ubezpieczeniowej: wnioski i kontakt",
     metaDescription:
-      "Strona dla agenta ubezpieczeniowego i multiagencji: podstrony OC/AC i firm, formularz zgodny z RODO, dane z rejestru KNF, projekt w cenie. Od 3000 zł.",
+      "Strona dla agenta ubezpieczeniowego i multiagencji: podstrony OC/AC i firm, formularz zgodny z RODO, dane z rejestru KNF, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Dla agentów i multiagencji"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Dla agentów i multiagencji"],
   heroPhonePoints: ["Wycena OC/AC", "Zgłoś szkodę", "Zadzwoń · WhatsApp", "PL · UA · EN"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla agenta ubezpieczeniowego, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -101,6 +101,7 @@ export const insuranceAgencyWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla agentów i multiagencji ubezpieczeniowych buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla agentów ubezpieczeniowych i multiagencji — strukturę, projekt graficzny, wykonanie, teksty i uruchomienie — więc za całość odpowiada jedna osoba, a cena jest znana z góry. Do agenta trafiają trzy rodzaje ludzi: kierowca, któremu za dwa tygodnie kończy się OC, przedsiębiorca, który potrzebuje polisy do przetargu albo umowy z kontrahentem, i stały klient po szkodzie. Strona ma obsłużyć każdego z nich, zanim ktokolwiek w biurze podniesie słuchawkę."),
 
         h2("Strona internetowa dla agenta ubezpieczeniowego: co klient sprawdza na pierwszym ekranie"),
@@ -203,6 +204,7 @@ export const insuranceAgencyWebsiteDesignPl = {
           ["Czy strona może liczyć składkę OC online?", "Jeśli macie dostęp do kalkulatora udostępnianego agentom przez dostawcę oprogramowania, można go osadzić na stronie. Bez niego dobrze działa krótki formularz z datą końca polisy i szybkim oddzwonieniem — wielu klientów i tak chce porozmawiać przed zakupem."],
           ["Czy formularz wyceny jest zgodny z RODO?", "Tak. Pyta tylko o dane potrzebne do kontaktu i wyceny, nie zbiera PESEL-u ani danych o zdrowiu, ma klauzulę informacyjną, a zgłoszenia trafiają szyfrowanym połączeniem na skrzynkę agencji albo do CRM."],
           ["Kto pisze teksty o ubezpieczeniach na stronę?", "Piszę je na podstawie briefu i pytań Waszych klientów, prostym językiem. Wy sprawdzacie zakresy ochrony i zgodność z zasadami towarzystw. Teksty powstają dla Waszej agencji, a nie są kopiowane z bazy używanej przez innych agentów."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy robisz strony dla agentów spoza Warszawy?", "Tak, dla agencji z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. Rozmowy odbywają się przez telefon lub wideo."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

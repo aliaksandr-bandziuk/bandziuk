@@ -47,11 +47,11 @@ export const propertyDeveloperWebsiteEn = {
   seo: {
     metaTitle: "Property developer website — scope, cost and timeline",
     metaDescription:
-      "Property developer website development: project and unit catalogue, availability board, floor plans, construction progress, CRM and languages. From €2,500.",
+      "Property developer website development: project and unit catalogue, availability board, floor plans, construction progress, AI answers. From €2,500.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Availability board per development", "Websites from €2,500", "Reply in 1 working day"],
+  heroChips: ["Availability board per development", "Websites from €2,500", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Building B, floor 7", "Completion Q3 2027", "Payment schedule", "Reserve this unit"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Basic catalogue website for a developer: developments, units, enquiry forms", price: 2500, currency: "EUR", unit: "one-off" },
@@ -70,7 +70,7 @@ export const propertyDeveloperWebsiteEn = {
         { _key: k("o"), iconName: "file-text", title: "Floor plans that open on a phone", text: "Areas in square metres, readable without pinching" },
         { _key: k("o"), iconName: "camera", title: "Dated construction progress", text: "Documented rather than promised" },
         { _key: k("o"), iconName: "plug", title: "CRM integration per development", text: "Each enquiry reaches the people selling that project" },
-        { _key: k("o"), iconName: "globe", title: "Languages your buyers search in", text: "Separate keyword work per language, not a translation pass" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Units, stages and prices an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -92,11 +92,12 @@ export const propertyDeveloperWebsiteEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a developer website has to sell something the buyer cannot see yet"),
+        h2("A developer website has to sell something the buyer cannot see yet"),
+        p("I build websites for property developers myself: structure, design, build and launch, with no handover between people."),
         p("A developer sells a building that does not exist. There is nothing to walk through, nothing to touch, and often nothing on site but a fence and a board. Everything the buyer uses to decide has to be carried by the website, which makes it a different instrument from an agency site: not a catalogue of what is available, but the substitute for a physical object."),
         p("That changes what belongs on it. Floor plans and renders are the easy part. What decides the enquiry is the material that makes an unbuilt property feel real and safe — construction progress with dates, the permits and the legal structure of the purchase, the payment schedule, and who exactly is behind the company."),
 
-        h2("What a buyer of an off-plan unit checks on a developer website"),
+        h2("A developer website for off-plan buyers: what they check"),
         p("Someone buying before completion is managing risk, not choosing a kitchen layout. They look for what has already been delivered, whether the previous projects were finished on time, whether progress is documented rather than promised, and whether the terms of the deal are written down before a call."),
         p("A site that answers those questions loses fewer buyers at the point where they hesitate. A site that shows only renders leaves the question open, and an open question at that price point usually ends the visit."),
 
@@ -111,14 +112,14 @@ export const propertyDeveloperWebsiteEn = {
 
         h2("Floor plans, renders and construction progress: what belongs where"),
         p("Renders sell the idea, floor plans sell the unit, and progress photographs sell the company. Mixing them into one gallery wastes all three."),
-        h3("What each one has to do"),
+        h3("Each page of a developer website: its job"),
         li("floor plans: open full-size on a phone, areas in square metres per room, orientation marked, downloadable;"),
         li("renders: labelled as renders, with the view and the floor they are taken from;"),
         li("progress: dated, in order, from the same angles each time, so a buyer can see movement rather than a mood board;"),
         li("the finished previous project: the strongest page on the site, and usually the one nobody builds."),
         p("This is also the material that ages, so it needs to be editable by whoever is on site, not by whoever built the website."),
 
-        h2("Why a developer website needs traffic before the launch, not after"),
+        h2("A developer website needs traffic before the launch, not after"),
         p("Search visibility takes months to build. A developer's selling window is fixed by the construction schedule, so a site that starts earning organic traffic at launch has already missed the part of the cycle where enquiries matter most."),
         p(
           "The work has to begin while the project is still in permits — the pages, the structure and the search visibility built ahead of the sales phase, not alongside it. ",
@@ -149,7 +150,7 @@ export const propertyDeveloperWebsiteEn = {
         li("one enquiry path per development, sent to the people selling it."),
         p("A real estate developer website template can present one project well. It rarely copes with several developments, each with its own units and sales status, without turning into pages nobody keeps up to date."),
 
-        h2("What a property developer website costs and what is included"),
+        h2("A property developer website: what it costs and what is included"),
         p(
           "A basic catalogue site with developments, units and enquiry forms starts at €2,500. A site with CRM integration and advanced functionality starts at €4,000. A full platform starts at €7,000 and is scoped individually. Design is included, never a separate line. The breakdown by tier is in ",
           link("how much a property developer website costs", "/blog/property-developer-website-cost"),
@@ -162,7 +163,7 @@ export const propertyDeveloperWebsiteEn = {
         p("A basic catalogue site takes three to six weeks. The availability board, CRM integration and each additional language extend that, and I give the figure before we start rather than during. A full platform is scoped with its own timeline because the functionality decides it."),
         p("What stretches a build here is material rather than code: floor plans in a usable format, the unit list with current statuses, progress photographs, and who on your side will keep them current after launch."),
 
-        h2("What stays with you after launch"),
+        h2("After launch: what stays with you"),
         li("the code, the domain, the content and the CMS logins are yours from day one;"),
         li("the availability board is editable by your sales team, not only by a developer;"),
         li("the site does not live on my hosting account and exports are not blocked;"),
@@ -214,6 +215,7 @@ export const propertyDeveloperWebsiteEn = {
           ["We are still in permits. Is it too early for a website?", "It is the right time. Search visibility takes months, and the selling window is fixed by the construction schedule, so a site that launches with the sales phase has already missed the part of the cycle where enquiries matter most."],
           ["Do you work with developers outside your own country?", "Yes. Off-plan property is bought across borders more often than finished property, and multilingual sites are most of this kind of work — this site itself runs in three languages."],
           ["We build for clients rather than selling our own units. Is this the right page?", "No — that is a contractor rather than a developer, and the work is different. See the construction company website page."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Who owns the site after launch?", "You do: the code, the domain, the content, the CMS logins and the unit data in a movable form. The site does not live on my hosting, exports are not blocked, and it can be handed to another developer at any time."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

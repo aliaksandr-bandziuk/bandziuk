@@ -43,7 +43,7 @@ export const gymSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Карты, направления, языки", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Карты, направления, языки", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Тренажёрный зал Сабуртало", "Пилатес на русском, Лимассол", "Пробная тренировка", "Написать в WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит фитнес-клуба: сайт, карточки в Google Картах и 2GIS, конкуренты рядом и ответы ИИ", price: 250, currency: "EUR", unit: "one-off" },

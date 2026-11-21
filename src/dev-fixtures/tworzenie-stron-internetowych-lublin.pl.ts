@@ -37,11 +37,11 @@ export const tworzenieStronInternetowychLublinPl = {
   seo: {
     metaTitle: "Strony internetowe Lublin: projekt w cenie | Bandziuk",
     metaDescription:
-      "Strony internetowe dla firm z Lublina: projekt w cenie, teksty, wersje UA i EN, RODO, szybkie na telefonie i Wasze, bez abonamentu. Od 3000 zł, ceny w cenniku.",
+      "Strony internetowe dla firm z Lublina: projekt w cenie, teksty, wersje UA i EN, RODO, szybkie na telefonie i Wasze, odpowiedzi AI. Od 3000 zł, ceny w cenniku.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Wersje PL · UA · EN"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersje PL · UA · EN"],
   heroPhonePoints: ["Fizjoterapia Lublin Czechów", "Umów wizytę", "Українська · English", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Lublina, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -207,6 +207,7 @@ export const tworzenieStronInternetowychLublinPl = {
           ["Czy tworzysz sklepy internetowe?", "Nie. Buduję strony firmowe: usługi, oferta dla klientów hurtowych, formularze zapytań, rezerwacje i wersje językowe. Sklepów internetowych nie tworzę."],
           ["Czy strona jest od razu przygotowana pod Google?", "Tak. Tytuły i opisy podstron, dane strukturalne, szybkość na telefonie, Search Console i połączenie z wizytówką Google są w cenie. Stałe pozycjonowanie w Lublinie to osobna usługa."],
           ["Do kogo należy strona?", "Do Waszej firmy. Domena, kod i treści są Wasze, dostępy do hostingu i panelu dostajecie przy uruchomieniu, a stronę można w każdej chwili przenieść do innego wykonawcy."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy można zamówić stronę zdalnie, z Lublina?", "Tak. Pracuję z Warszawy, a projekty dla firm z Lublina prowadzę online: rozmowy wideo, wspólny dokument z ustaleniami i podgląd strony w przeglądarce na każdym etapie. Rozmawiam po polsku, angielsku albo rosyjsku."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

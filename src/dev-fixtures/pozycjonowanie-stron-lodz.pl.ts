@@ -45,7 +45,7 @@ export const pozycjonowanieStronLodzPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Specjalista SEO, nie agencja", "Audyt od 1000 zł", "Ceny jawne w cenniku"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Ceny jawne w cenniku"],
   heroPhonePoints: ["Fizjoterapia Łódź Widzew", "Zadzwoń", "Twoja firma w Mapach", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Łodzi: strona, wizytówka Google, łódzka konkurencja", price: 1000, currency: "PLN", unit: "one-off" },

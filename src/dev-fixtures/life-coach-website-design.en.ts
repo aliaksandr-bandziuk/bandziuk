@@ -40,11 +40,11 @@ export const lifeCoachWebsiteDesignEn = {
   seo: {
     metaTitle: "Life Coach Websites That Book Discovery Calls | Bandziuk",
     metaDescription:
-      "Life coach website design: your niche in the first line, programs and prices, discovery call booking, lead magnet and email list, course sales. From 700 €.",
+      "Life coach website design: your niche in the first line, programs and prices, discovery call booking, lead magnet and email list, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Booking, email list, courses"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Booking, email list, courses"],
   heroPhonePoints: ["Career coaching for engineers", "12-week program", "Free career checklist", "Book a discovery call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple life coach website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -186,6 +186,7 @@ export const lifeCoachWebsiteDesignEn = {
           ["Can you connect my scheduler and email tool?", "Yes. Calendly, Acuity, TidyCal or your platform’s scheduler for discovery calls, and Kit, MailerLite, Mailchimp or Flodesk for the list, with subscribers tagged by the page they joined from."],
           ["Can I sell a course on my own site instead of Kajabi?", "Yes. Stripe Checkout takes the payment, then the buyer receives a private lesson link with an end date; the videos stream but cannot be saved. For larger course libraries a platform can host the lessons while your site sells them."],
           ["Can you help with the page texts?", "Yes. I write the texts from a short interview about your niche and programs, and you approve every page. Testimonials come only from your clients, with their permission."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Do you build websites for US coaches from Poland?", "Yes. Everything runs remotely from Warsaw. Your morning in New York or Chicago is my afternoon or evening in CET, so we can talk on any weekday. I invoice in euros; the site uses US dates and shows session times in each visitor’s zone."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

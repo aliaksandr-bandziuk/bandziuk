@@ -40,11 +40,11 @@ export const floristWebsiteDesignEn = {
   seo: {
     metaTitle: "Flower Shop Website Design with Online Orders | Bandziuk",
     metaDescription:
-      "Florist website design: online flower shop with delivery areas and time slots, real product photos, gift checkout, subscriptions, wedding inquiries. From 700 €.",
+      "Florist website design: online flower shop with delivery areas and time slots, real product photos, gift checkout, subscriptions, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Deliver today", "Choose a delivery window", "Add a card message", "Wedding inquiry"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple florist website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -104,6 +104,7 @@ export const floristWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build florist websites myself: structure, design, build and launch, with no handover between people."),
         p("Florist website design is the service I offer flower shops that want to take orders on their own site: I design and build the whole shop myself — the look, the product pages, the delivery rules and the checkout — so one person answers for how it looks and how it sells, at a price fixed in advance. A flower shop site has an unusual job. It sells something perishable and handmade, delivered at a set time to someone who is not the buyer, usually to a customer on a phone who decided a few minutes ago."),
 
         h2("Florist website design: what the first screen of a flower shop shows"),
@@ -198,6 +199,7 @@ export const floristWebsiteDesignEn = {
           ["Can I keep my wire service and point-of-sale system?", "Yes. The website takes your direct orders; network orders keep arriving the way they do now. Before the quote I check what your point-of-sale system allows, and if it has no connection, web orders arrive by email and in the shop’s admin panel."],
           ["Is a florist website template enough?", "For a new shop with a short catalog and simple delivery, often yes. A custom design pays off when you have several delivery zones and windows, subscriptions, weddings and a catalog you want to photograph yourself."],
           ["Can my staff update products, prices and holiday dates?", "Yes. Products, prices, sizes, delivery fees and blocked dates are edited in a simple admin panel, and new products follow the same layout as the rest of the catalog."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Can a web designer in Poland build a site for a US flower shop?", "Yes. We work by video call and email, in English. Warsaw afternoons line up with US mornings, so we can review designs before your first deliveries go out. I invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

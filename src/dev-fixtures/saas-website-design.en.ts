@@ -48,11 +48,11 @@ export const saasWebsiteDesignEn = {
   seo: {
     metaTitle: "SaaS Marketing Website Design on Next.js | Bandziuk",
     metaDescription:
-      "SaaS website design and build: feature and use-case pages, integrations directory, trial and demo paths, security pages, EU languages. Full sites from 2,000 €.",
+      "SaaS website design and build: feature and use-case pages, integrations directory, trial and demo paths, security pages, AI answers. Full sites from 2,000 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + Next.js build, one price", "Full SaaS site from 2,000 €", "Reply within one business day"],
+  heroChips: ["Design + Next.js build, one price", "Full SaaS site from 2,000 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Start free trial", "Book a demo", "Integrations", "Security and GDPR"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple SaaS website with product, plans, about and contact pages linked to your signup, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -112,9 +112,10 @@ export const saasWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for SaaS companies myself: structure, design, build and launch, with no handover between people."),
         p("SaaS website design is the service I offer software companies whose product already has paying customers: I design the marketing site and build it myself on Next.js with a headless CMS, so the page plan, the visual design, the code and the signup paths come from one person at a price fixed in advance. At this stage a SaaS product website sells a working product to buyers comparing it with two or three others."),
 
-        h2("What is a SaaS website, and what it does once the product sells"),
+        h2("A SaaS website: what it is and what it does once the product sells"),
         p("A SaaS website is the public marketing site of a software-as-a-service product: the pages that explain what the product does, who it is for, what it costs and how to start, kept apart from the app customers log into. Once revenue comes in, it is a sales channel with its own targets — trial signups, demo requests, upgrades — read by the person with the problem, the manager who approves the spend and the IT team that signs off on a new vendor."),
         p(
           "Products before launch or still looking for their first customers need fewer pages and different ones: a waitlist, an MVP page, material for investors. Those are on the ",
@@ -229,6 +230,7 @@ export const saasWebsiteDesignEn = {
           ["We are on Webflow. Will we lose rankings if we move?", "Not if the move is planned around the URLs. Every old address gets a 301 redirect to its new page, titles and structured data move with the pages, and I check Search Console for errors in the weeks after launch."],
           ["Can you build our SaaS website from our designer’s Figma files?", "Yes. I build from an existing Figma design as readily as from my own: Sasha Dith’s DJ and producer site went from the client’s Figma straight to Next.js. Where a design lacks a template — an integration page, a customer story — I design it in the same style."],
           ["Does the marketing site affect our app?", "It is a separate project with its own hosting. It links to your signup and login and passes the chosen plan and campaign parameters, so publishing a page never requires an app release."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote. The same work for the answer shown in search itself is answer engine optimization (AEO)."],
           ["Can you work with a US SaaS team from Poland?", "Yes, remotely and in English. My afternoon and evening in Warsaw (CET) overlap with the morning on the US East Coast and the early morning on the West Coast, so calls and design reviews fit into your day; between calls we comment in Figma or a shared document. I invoice in EUR, or in another currency if we agree on it."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

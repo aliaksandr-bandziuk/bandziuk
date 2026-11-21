@@ -31,7 +31,7 @@ export const autoRepairWebsiteEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per repair", "Websites from €2,000", "Reply in 1 working day"],
+  heroChips: ["A page per repair", "Websites from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book a repair online", "Price list", "Clutch replacement", "Diagnostics today"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Single-service landing page for a garage", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -72,7 +72,8 @@ export const autoRepairWebsiteEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("What a driver has to find on a garage website inside a minute"),
+        h2("A garage website in one minute: what a driver has to find"),
+        p("I build websites for garages and auto repair shops myself: structure, design, build and launch, with no handover between people."),
         p("People arrive on a garage website in one of two states: the car is already off the road and it is urgent, or they are planning maintenance and comparing. Either way the decision is quick and runs on the same questions — do you do the specific thing, roughly what does it cost, when can I come in, and who will be working on my car."),
         p("A site that answers that in a minute beats a prettier one that makes people hunt. So the structure follows the questions, not the sections agencies default to: «About us», «Why choose us» and «Our advantages» are read last, if at all."),
 
@@ -108,7 +109,7 @@ export const autoRepairWebsiteEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("What a garage website costs and what is included"),
+        h2("A garage website: what it costs and what is included"),
         p(
           "A single-service landing page runs €700–1,400. A full garage site with repair pages, prices and online booking starts at €2,000. A redesign of an existing site that keeps its rankings starts at €1,000. Design is included, never a separate line. The full price list is on the ",
           link("pricing page", "/pricing"),
@@ -119,7 +120,7 @@ export const autoRepairWebsiteEn = {
         p("A landing page takes two to three weeks. A full garage site with repair pages, prices and booking takes three to six weeks. Pages for separate areas or additional languages extend that, and I say so before we start rather than during."),
         p("What usually stretches a build is not the code but the material: photographs of the workshop, the service list with prices, and sign-off on the text. If some of it does not exist, I help put it together."),
 
-        h2("What stays with you after launch"),
+        h2("After launch: what stays with you"),
         li("the code, the domain, the content and the CMS logins are yours from day one;"),
         li("the site does not live on my hosting account and exports are not blocked;"),
         li("the project can be handed to someone else at any point;"),
@@ -169,6 +170,7 @@ export const autoRepairWebsiteEn = {
           ["Can the booking form connect to our shop management system?", "Yes. The form connects to a calendar or a management system so bookings land where somebody sees them."],
           ["Do you build on website builders?", "No. Builders limit structure and speed, and moving off one later is harder than building on Next.js or WordPress in the first place."],
           ["What do you need from us to start?", "A service list with rough prices, photographs of the workshop, which makes you work with, and who will handle enquiries. The rest we assemble as we go."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Who owns the site after launch?", "You do: the code, the domain, the content and the CMS logins. The site does not live on my hosting, exports are not blocked, and it can be handed to another developer at any time."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

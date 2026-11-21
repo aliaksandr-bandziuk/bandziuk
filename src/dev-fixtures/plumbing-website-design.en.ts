@@ -28,11 +28,11 @@ export const plumbingWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Plumbers: Calls and Trust | Bandziuk",
     metaDescription:
-      "Plumbing website design for emergencies and planned jobs: sticky call button, upfront prices, license and reviews, real van photos. Design + build from 700 €.",
+      "Plumbing website design for emergencies and planned jobs: sticky call button, upfront prices, license and reviews, AI answers. Design + build from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Call now · 24/7", "Licensed · Insured", "Upfront pricing", "Book online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple plumbing website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -92,6 +92,7 @@ export const plumbingWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build websites for plumbers and plumbing companies myself: structure, design, build and launch, with no handover between people."),
         p("I design websites for plumbers and plumbing companies and build them myself, so design and build come from one person at one price. Plumbing website design is about what a customer sees and does in the first seconds on your site — usually on a phone, sometimes with water spreading across the floor. Everything on the page is arranged to lead to one of two actions: a call now or a booked visit later."),
 
         h2("Plumbing website design for two visitors: the emergency and the planned job"),
@@ -212,6 +213,7 @@ export const plumbingWebsiteDesignEn = {
           ["Are phone photos of our vans and team good enough?", "Usually yes, if they are taken in daylight, from the same angles and without clutter. I send a short shot list. Your own van and plumbers convince more than any stock photo."],
           ["Should the call button say “24/7” if nobody answers at night?", "No. The button shows the hours you really answer, or says when you call back. A 24/7 promise that ends in voicemail loses the customer and often brings a bad review."],
           ["Can you redesign our plumbing website without losing Google rankings?", "Yes. Every existing address is mapped to its new page and redirected, and structured data is carried over before the new design goes live, so the positions the site already has are kept."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Do you work with plumbing companies outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, units, license details and the review platforms your customers use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -220,6 +222,10 @@ export const plumbingWebsiteDesignEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("A plumbing website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which plumber nearby comes out at night and what unblocking a drain costs. The assistant answers from text it can read, and names companies whose pages carry the facts: services, call-out fee, hours and the area you cover."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order plumbing website design: what to send me"),
         p(
           "Send the business name, a link to your current website or Google profile, the services you offer, the towns you cover and the hours you answer the phone. A few photos of your vans, team and recent jobs help me show you a first screen that looks like your company. I will reply with a proposed layout and a fixed price. Use the ",

@@ -31,11 +31,11 @@ export const roofingWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Roofing Contractors | Bandziuk",
     metaDescription:
-      "Roofing website design for storm calls and planned replacements: drone and before-after photos, license, warranties, financing. Design + build from 700 €.",
+      "Roofing website design for storm calls and planned replacements: drone and before-after photos, license, warranties, AI answers. Design + build from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Licensed · Insured", "Before and after from above", "Free roof inspection", "Financing available"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple roofing website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -95,6 +95,7 @@ export const roofingWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for roofing companies myself: structure, design, build and launch, with no handover between people."),
         p("I design roofing websites and build them myself, so design and build come from one person at one price. Roofing website design decides what a homeowner sees and does on your site — usually on a phone, sometimes standing in the yard looking at shingles the wind tore off, sometimes weeks into planning a new roof. Every screen is laid out to end in one of two actions: a call about a roof that leaks now, or a request for an inspection and estimate."),
 
         h2("Roofing website design for two visitors: an urgent leak or storm, and a planned roof replacement"),
@@ -201,6 +202,7 @@ export const roofingWebsiteDesignEn = {
           ["Do we need drone photos for our roofing website?", "They help more than anything else, because they show the finished roof the way the homeowner never sees it. Use a certified drone pilot where the law requires one. Until you have them, careful phone photos of details and before-and-after pairs from the ground work well."],
           ["Can we show manufacturer certification logos on the website?", "Yes, if you hold the certification. Manufacturers usually have rules on how their program name and logo may be used, and the design follows them. The certification is also written as text, so search engines and AI assistants can read it."],
           ["Can you redesign our roofing website without losing Google rankings?", "Yes. Every existing address is mapped to its new page and redirected, and structured data is carried over before the new design goes live, so the positions the site already has are kept."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Do you work with roofing companies outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, units, license details and the review platforms your customers use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -209,6 +211,10 @@ export const roofingWebsiteDesignEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("A roofing website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which roofer nearby repairs flat roofs and what a roof replacement costs per square. The assistant answers from text it can read, and names companies whose pages carry the facts: roof types, warranty terms, licence and finished roofs with dates."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order roofing website design: what to send me"),
         p(
           "Send the company name, a link to your current website or Google profile, the roof jobs you want more of and the towns you cover. A few aerial or before-and-after photos of finished roofs, your certifications and warranty terms help me show you a first screen that looks like your company. I will reply with a proposed layout and a fixed price. Use the ",

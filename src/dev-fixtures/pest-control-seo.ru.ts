@@ -43,7 +43,7 @@ export const pestControlSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Клопы, тараканы, клещи, грызуны", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Клопы, тараканы, клещи, грызуны", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Обработка от клопов Алматы", "Написать в WhatsApp", "Договор для кафе", "Советует ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит службы дезинсекции: сайт, 2GIS и Google Карты, конкуренты в вашем городе", price: 250, currency: "EUR", unit: "one-off" },

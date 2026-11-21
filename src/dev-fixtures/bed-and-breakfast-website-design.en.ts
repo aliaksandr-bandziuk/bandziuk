@@ -40,11 +40,11 @@ export const bedAndBreakfastWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for B&Bs and Small Inns | Bandziuk",
     metaDescription:
-      "Bed and breakfast website design: direct bookings through your own booking engine, room pages, breakfast and local guide, languages for guests. From 700 €.",
+      "Bed and breakfast website design: direct bookings through your own booking engine, room pages, breakfast and local guide, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Built for direct bookings"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Built for direct bookings"],
   heroPhonePoints: ["Check availability", "The Garden Room · king bed", "Breakfast 8–10 am", "Book direct with us"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple bed and breakfast website with a booking engine widget, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -226,7 +226,7 @@ export const bedAndBreakfastWebsiteDesignEn = {
           ["Can I change rates, photos and room details myself?", "Yes. Rates and availability live in the booking engine, and texts and photos are edited in a simple admin panel. Photos are resized automatically, so a new room page looks like the rest."],
           ["Does my B&B website need more than one language?", "Only if you host guests who speak another language. Then the room pages, policies and booking step are translated, not just the home page, and each version is linked so Google shows the right one."],
           ["Can you move my current site without losing my Google rankings?", "Yes. Every old address gets a 301 redirect to its new page before launch, and titles and descriptions move with it. I used the same method when moving 468 blog posts for a psychotherapist in Milan to a new site."],
-          ["Will ChatGPT recommend my bed and breakfast?", "Nobody can promise a mention. The site gives assistants what they need — rooms, rates, policies and location as text, plus structured data — and the odds improve with consistent details and fresh reviews on Google and Tripadvisor."],
+          ["Will ChatGPT, Perplexity and Gemini recommend my bed and breakfast?", "Nobody can promise a mention. The site gives assistants what they need — rooms, rates, policies and location as text, plus structured data — and the odds improve with consistent details and fresh reviews on Google and Tripadvisor."],
           ["Can you design a website for a US inn while working from Poland?", "Yes. Everything happens online and in English. My afternoons and evenings in Central European Time overlap with US mornings, so a call fits after your breakfast service. I invoice in EUR under a written contract."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

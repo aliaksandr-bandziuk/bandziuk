@@ -37,11 +37,11 @@ export const wineryWebsiteDesignEn = {
   seo: {
     metaTitle: "Winery Websites: Tasting Bookings and Wine Club",
     metaDescription:
-      "Winery website design: tasting reservations, wine club tiers, a shop where shipping is legal, events, age gate, languages and photography. From 700 €.",
+      "Winery website design: tasting reservations, wine club tiers, a shop where shipping is legal, events, age gate, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Reserve a tasting", "Open today 11–5", "Join the wine club", "Plan a vineyard wedding"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple winery website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -197,6 +197,7 @@ export const wineryWebsiteDesignEn = {
           ["Can we sell and ship wine through the website?", "Where the law allows it, yes: the shop connects to your wine platform, which handles addresses, age and taxes. Rules differ by state and country, so check local rules first; where shipping is not possible, the site offers pickup or a where-to-buy page."],
           ["Can our staff update tastings, wines and events themselves?", "Yes. Tasting room staff edit experiences, wines, event dates and prices in WordPress or a headless CMS like Sanity, with fixed fields that keep every new entry looking like the rest."],
           ["Can you redesign our winery website without losing Google rankings?", "Yes. Before launch I map each old address to its new one with a 301 redirect and carry over page titles and markup; after launch I check Search Console until the new pages are indexed without errors."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Can a Warsaw-based designer build a website for a winery in the US?", "Yes. Everything happens online and in English. I am in Warsaw, six to nine hours ahead of the US, so a review call in my afternoon or evening lands in your morning. Invoices are issued in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

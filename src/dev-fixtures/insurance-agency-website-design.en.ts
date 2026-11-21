@@ -43,11 +43,11 @@ export const insuranceAgencyWebsiteDesignEn = {
   seo: {
     metaTitle: "Websites for Insurance Agents and Agencies | Bandziuk",
     metaDescription:
-      "Insurance agency website design with the build included: coverage pages, quote forms, a service center for clients, license details, fast on phones. From 700 €.",
+      "Insurance agency website design with the build included: coverage pages, quote forms, a service center for clients, license details, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Remote, overlapping US hours"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Remote, overlapping US hours"],
   heroPhonePoints: ["Get an auto quote", "Report a claim", "Talk to your agent", "Call · Text"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple insurance agency website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -107,6 +107,7 @@ export const insuranceAgencyWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build insurance agency websites myself: structure, design, build and launch, with no handover between people."),
         p("I design insurance agency websites and build them myself, for independent agencies, captive agents and small brokerages in the US, the UK, Canada and Australia. People open an agent’s site in one of two moods: shopping for a better price on auto or home coverage, or worried — about a claim, a non-renewal letter, a contract that demands a certificate of insurance by Friday. The design has to work for both, and for the existing clients who come back to pay a bill or download an ID card."),
 
         h2("Insurance agency website design: what the best agency websites show on the first screen"),
@@ -213,7 +214,7 @@ export const insuranceAgencyWebsiteDesignEn = {
           ["Can quote requests go into our agency management system or CRM?", "Usually yes — through the system’s own web form, its API or an automation service, depending on the system and your plan. I check what your account supports before the quote. Where no connection is possible, requests arrive by email with every field filled in."],
           ["Do you write the coverage pages, or do we?", "I write them from your brief and the questions your clients ask, in plain language; you check the facts and the coverage details. Pages are written for your agency, not copied from a shared library used by other agents."],
           ["How do you work with a US agency from Poland?", "Remotely and in English. My afternoon and evening in Central European Time overlap with the US business morning, so calls and design reviews fit your day, with comments in a shared file between them. Contracts and invoices are in euros."],
-          ["Will a new website get our agency into ChatGPT answers?", "The design makes the agency readable — lines, carriers, towns, languages and agents as text with structured data. Being named in answers to competitive questions takes ongoing SEO and GEO work on top of the site, which I also do."],
+          ["Will a new website get our agency into ChatGPT, Perplexity and Gemini answers?", "The design makes the agency readable — lines, carriers, towns, languages and agents as text with structured data. Being named in answers to competitive questions takes ongoing SEO and GEO work on top of the site, which I also do."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

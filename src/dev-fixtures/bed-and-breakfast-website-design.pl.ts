@@ -39,11 +39,11 @@ export const bedAndBreakfastWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla pensjonatu i agroturystyki | Bandziuk",
     metaDescription:
-      "Strona internetowa dla pensjonatu: rezerwacje bez prowizji portali, kalendarz z zadatkiem, pokoje, śniadania, okolica i języki dla gości. Od 3000 zł.",
+      "Strona internetowa dla pensjonatu: rezerwacje bez prowizji portali, kalendarz z zadatkiem, pokoje, śniadania, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Rezerwacje bezpośrednie"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Rezerwacje bezpośrednie"],
   heroPhonePoints: ["Sprawdź wolne terminy", "Pokój z balkonem na Tatry", "Śniadanie 8:00–10:00", "Zadatek BLIK-iem"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla pensjonatu lub agroturystyki z kalendarzem rezerwacji, projekt graficzny w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -215,6 +215,7 @@ export const bedAndBreakfastWebsiteDesignPl = {
           ["Czy sam zmienię ceny i zdjęcia pokoi?", "Tak. Ceny i dostępność ustawiasz w systemie rezerwacji, a teksty i zdjęcia w prostym panelu. Zdjęcia zmniejszają się automatycznie, więc nowy pokój wygląda jak pozostałe."],
           ["Czy strona agroturystyki różni się od strony pensjonatu?", "Układ jest podobny, ale agroturystyka pokazuje więcej: gospodarstwo, zwierzęta, zajęcia dla dzieci, domowe wyżywienie i dojazd na wieś. To właśnie te informacje przekonują rodziny z miasta."],
           ["Czy przeniesiesz moją starą stronę bez utraty pozycji w Google?", "Tak. Przed uruchomieniem każdy stary adres dostaje przekierowanie 301 na nową podstronę. Tak samo przeniosłem 468 wpisów psychoterapeuty z Mediolanu na nową stronę."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pracujesz z pensjonatami spoza Warszawy?", "Tak, z obiektami z całej Polski. Wszystko odbywa się zdalnie: rozmawiamy online, zdjęcia i teksty przesyłasz mailem albo przez dysk, a stronę uruchamiam na Twoim hostingu i domenie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

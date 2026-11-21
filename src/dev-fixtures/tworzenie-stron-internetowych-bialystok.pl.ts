@@ -36,7 +36,7 @@ export const tworzenieStronInternetowychBialystokPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt graficzny w cenie", "Od 3000 zł", "Wersje PL · LT · EN · UA"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersje PL · LT · EN · UA"],
   heroPhonePoints: ["Oferta i ceny", "Lietuvių · English", "Dojazd i parking", "Zapytaj · Zadzwoń"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Białegostoku, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -97,6 +97,7 @@ export const tworzenieStronInternetowychBialystokPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla firm z Białegostoku buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzenie stron internetowych w Białymstoku obejmuje u mnie cały proces: ustalenie, dla kogo jest strona, listę podstron, projekt graficzny, wykonanie, teksty, wersje językowe i uruchomienie. Robi to jedna osoba, więc nie płacicie za koordynację między działami, a cenę znacie z cennika jeszcze przed pierwszą wiadomością. Pracuję z Warszawy, a z firmami z Białegostoku i Podlasia współpracuję online."),
 
         h2("Tworzenie stron internetowych w Białymstoku: zakres i podstawy"),
@@ -194,6 +195,7 @@ export const tworzenieStronInternetowychBialystokPl = {
           ["Czy pracujesz z firmami z Białegostoku na odległość?", "Tak. Pracuję z Warszawy, a rozmowy, projekt, poprawki i start odbywają się online. Projekt oglądacie w przeglądarce na swoim telefonie i komputerze."],
           ["Czy strona pomoże firmie pojawić się w Mapach Google?", "Strona ma te same dane co wizytówka i potwierdza je danymi strukturalnymi, co wspiera widoczność w Mapach. Prowadzenie wizytówki i walka o miejsca w Mapach to część pozycjonowania."],
           ["Czy zrobisz sklep internetowy dla producenta?", "Nie. Buduję strony firmowe z katalogiem produktów i zapytaniem ofertowym, ale nie sklepy z koszykiem i płatnościami online."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Czy strona będzie nasza?", "Tak. Domena, kod i treści należą do Was, a stronę można w każdej chwili przenieść do innego hostingu lub wykonawcy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

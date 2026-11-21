@@ -37,11 +37,11 @@ export const tworzenieStronInternetowychCzestochowaPl = {
   seo: {
     metaTitle: "Strony internetowe Częstochowa: cennik od 3000 zł",
     metaDescription:
-      "Strony internetowe dla firm z Częstochowy: noclegi i restauracje przy Jasnej Górze, przemysł, usługi. Projekt w cenie, rezerwacje, języki. Od 3000 zł.",
+      "Strony internetowe dla firm z Częstochowy: noclegi i restauracje przy Jasnej Górze, przemysł, usługi. Projekt w cenie, rezerwacje, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Rezerwacje i wersje językowe"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Rezerwacje i wersje językowe"],
   heroPhonePoints: ["5 minut do Jasnej Góry", "Oferta dla grup", "Zarezerwuj · Zadzwoń", "English · Italiano"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Częstochowy, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -214,6 +214,7 @@ export const tworzenieStronInternetowychCzestochowaPl = {
           ["Ile trwa stworzenie strony internetowej?", "Od briefu do uruchomienia prostej strony mijają zwykle dwa–cztery tygodnie, pełnej cztery–sześć. Noclegom i restauracjom radzę zacząć kilka miesięcy przed sezonem pielgrzymkowym, żeby strona zdążyła pojawić się w Google."],
           ["Czy tworzysz sklepy internetowe?", "Nie. Buduję strony firmowe z ofertą, rezerwacjami, formularzami zapytań i wersjami językowymi; sklepów internetowych nie tworzę."],
           ["Do kogo należy strona?", "Do właściciela obiektu lub firmy: domena, kod, treści i zdjęcia. Hasła do hostingu i panelu przekazuję przy uruchomieniu, więc niczego nie musicie odzyskiwać przy zmianie wykonawcy."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy pracujesz z firmami z Częstochowy zdalnie?", "Tak. Cały projekt prowadzę z Warszawy przez internet: krótka rozmowa wideo na start, dokument z ustaleniami, do którego macie dostęp, i link do podglądu strony, który otworzycie na telefonie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

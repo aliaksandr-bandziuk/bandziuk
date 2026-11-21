@@ -35,7 +35,7 @@ export const carpetCleaningSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Carpet, rugs, upholstery", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Carpet, rugs, upholstery", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Carpet cleaning near me", "Pet odor treatment", "Price per room", "Book a time"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Carpet cleaning SEO audit: website, Google Business Profile and competitors", price: 250, currency: "EUR", unit: "one-off" },

@@ -37,7 +37,7 @@ export const seoForFlooringCompaniesEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Install, refinish, showroom", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Install, refinish, showroom", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["LVP installation near me", "Hardwood refinishing", "Free in-home measure", "Tap to call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Flooring SEO audit: website, product pages and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },

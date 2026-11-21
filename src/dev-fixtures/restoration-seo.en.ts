@@ -37,7 +37,7 @@ export const restorationSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Water, fire, mold", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Water, fire, mold", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Water damage near me", "24/7 emergency line", "Insurance claim help", "IICRC certified crew"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Restoration SEO audit: website, Google Business Profile and emergency pages", price: 250, currency: "EUR", unit: "one-off" },

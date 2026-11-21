@@ -50,11 +50,11 @@ export const websiteDesignForModelsPl = {
   seo: {
     metaTitle: "Portfolio modelki online — strona www | Bandziuk",
     metaDescription:
-      "Strona internetowa dla modelki: portfolio online według rodzaju sesji, polaroidy, karta z wymiarami, link do agencji, wersja angielska na castingi. Od 3000 zł.",
+      "Strona internetowa dla modelki: portfolio online według rodzaju sesji, polaroidy, karta z wymiarami, link do agencji, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Polaroidy, wymiary, agencja"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Polaroidy, wymiary, agencja"],
   heroPhonePoints: ["Polaroidy z tego miesiąca", "Wzrost 176 cm, Warszawa", "Agencja macierzysta", "Zapytaj o termin sesji"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla modelki lub modela, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -211,6 +211,7 @@ export const websiteDesignForModelsPl = {
           ["Czy sama zaktualizuję polaroidy i wymiary?", "Tak. Nowe polaroidy to wgranie zdjęć z datą, wymiary to pola w panelu. Strona sama pokazuje je w centymetrach i calach i odświeża kartę modelki w PDF."],
           ["Czy mogę pokazać na stronie zdjęcia z kampanii?", "Tak, gdy pozwala na to umowa z klientem i minęło ewentualne embargo. Zdjęcia z sesji publikujesz za zgodą fotografa i z jego podpisem."],
           ["Czy strona może być po angielsku?", "Tak, i warto, jeśli myślisz o pracy za granicą. Wersja angielska ma własne adresy podstron, a wymiary pokazują się w calach."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Jak wygląda współpraca zdalna?", "Rozmawiamy przez wideo, uwagi wpisujesz bezpośrednio w projekcie, a zdjęcia wrzucasz na wspólny dysk. Siedzę w Warszawie, ale miasto klientki nie ma znaczenia; rozliczam się fakturą z mojej jednoosobowej firmy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

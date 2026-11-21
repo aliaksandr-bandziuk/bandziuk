@@ -41,7 +41,7 @@ export const adultSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["SafeSearch, SFW pages, clean links", "Audit from 250 €", "Discreet, NDA on request"],
+  heroChips: ["SafeSearch, SFW pages, AI answers", "Audit from 250 €", "Discreet, NDA on request"],
   heroPhonePoints: ["Agency found by creators", "SFW guide ranks", "Fewer duplicate pages", "Named in AI answers"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Adult SEO audit: indexing, SafeSearch classification, duplicates, links, competitors and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -100,6 +100,7 @@ export const adultSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I do SEO for 18+ sites, creators and agencies myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Adult SEO is search engine optimization for legal 18+ businesses — membership and video sites, adult shops, studios and platforms, OnlyFans management agencies and independent creators — and it is the service on this page. The work is mine from research to reports. Paid search barely helps in this niche: Google Ads restricts sexual content and refuses adult offers in many countries, and most social networks limit what you may promote. Organic search, AI answers and your own list therefore carry more of the load than in almost any other industry."),
 
         h2("Adult SEO services from one consultant instead of an adult SEO agency"),
@@ -181,6 +182,7 @@ export const adultSeoEn = {
           ["Can an adult website rank with SafeSearch on?", "Its SFW pages can. Explicit pages are filtered for many users; guides, service pages and clean category pages are not, which is why a clear structure matters."],
           ["Do you keep adult SEO work confidential?", "Yes. An NDA can be signed before you send any access, and reports, accounts and documents stay private."],
           ["Can you do SEO for a US or UK adult business from Poland?", "Yes. All work is remote and in English. Central European Time overlaps with the whole UK working day and with US mornings, which is enough for regular calls. I invoice in EUR."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["How long does adult SEO take?", "Technical fixes on a large catalog can show in crawling within weeks; new SFW pages and earned links usually need three to six months before they bring steady traffic."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

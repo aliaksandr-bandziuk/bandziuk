@@ -106,7 +106,7 @@ export const financialAdvisorSeoEn = {
       content: [
         p("Financial advisor SEO is the work that brings people who are choosing an advisor to your firm’s own website and turns those visits into booked introductory calls. I do it myself, as a single SEO consultant who also builds websites, for independent RIAs, hybrid advisors, flat-fee planners and small wealth management teams. The person who audits your site writes the pages, makes the changes and prepares the drafts your compliance team reviews."),
 
-        h2("What financial advisor SEO includes: niche pages, credentials and AI answers"),
+        h2("Financial advisor SEO include: niche pages, credentials and AI answers"),
         p("Few people search for “financial advisor” and hire the first result. They search for their situation: “fee-only advisor for doctors”, “should I roll over my 401(k) when I retire”, “financial planner for small business owners Denver”, “fiduciary financial advisor near me”. SEO for financial advisors makes sure a page on your site answers that search and makes booking a call easy. The work covers:"),
         li("a page for each client niche you serve and each planning service you offer"),
         li("advisor bios with credentials and registration a prospect can verify"),
@@ -118,7 +118,7 @@ export const financialAdvisorSeoEn = {
           " page. This page covers what is specific to advisors.",
         ),
 
-        h2("Why financial advisor websites are YMYL: credentials, bylines and E-E-A-T"),
+        h2("Financial advisor websites are YMYL: credentials, bylines and E-E-A-T"),
         p("Google groups topics that can affect a person’s money, health or safety as “Your Money or Your Life” (YMYL) and asks its quality raters to look harder at the experience, expertise, authoritativeness and trust (E-E-A-T) behind such pages. Retirement income, investing and taxes sit at the center of that category. On an advisor site this means:"),
         li("an author byline on every article, linked to a bio with credentials such as CFP®, CFA or ChFC® and years in practice"),
         li("“reviewed on” dates on articles about tax brackets, contribution limits or rules that change every year"),

@@ -42,11 +42,11 @@ export const cafeWebsitePl = {
   seo: {
     metaTitle: "Strona www kawiarni z menu i zamówieniami | Bandziuk",
     metaDescription:
-      "Strona internetowa dla kawiarni: menu tekstem, godziny i dojazd, zamówienia z odbiorem i BLIK, sklep z kawą, warsztaty i wynajem. Projekt w cenie, od 3000 zł.",
+      "Strona internetowa dla kawiarni: menu tekstem, godziny i dojazd, zamówienia z odbiorem i BLIK, sklep z kawą, odpowiedzi AI. Projekt w cenie, od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Otwarte dziś do 19:00", "Menu i ceny", "Zamów i odbierz", "Jak dojechać"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla kawiarni z menu, godzinami i dojazdem, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -205,6 +205,7 @@ export const cafeWebsitePl = {
           ["Czy sami zmienimy menu, ceny i godziny świąteczne?", "Tak. Napoje, rozmiary, dopłaty, ceny, kawę dnia, godziny stałe i wyjątki zmieniacie w prostym panelu, także z telefonu, a układ strony się nie psuje."],
           ["Czy mała kawiarnia potrzebuje strony, skoro ma Instagram i wizytówkę Google?", "Często wystarczy strona wizytówka: menu tekstem, godziny, dojazd i linki do zamówień. Trzyma fakty, które na Instagramie giną pod nowymi postami, i jako jedyna należy do Was."],
           ["Ile trwa zrobienie strony dla kawiarni?", "Na prostą stronę kawiarni trzeba zwykle dwóch–czterech tygodni, na stronę ze sklepem i zamówieniami pięciu–siedmiu. Najwięcej czasu zajmuje spisanie menu i przygotowanie zdjęć."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy pracujesz z kawiarniami spoza Warszawy?", "Tak, z całej Polski. Rozmawiamy przez wideo i maile, kolejne etapy akceptujecie online, a zdjęcia robi Wasz fotograf albo ktoś z zespołu według mojej listy kadrów. Po zakończeniu prac wystawiam fakturę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -34,7 +34,7 @@ export const tworzenieStronInternetowychRadomPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie w jednej cenie", "Od 3000 zł", "Bez abonamentu po starcie"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Bez abonamentu po starcie"],
   heroPhonePoints: ["Usługi i ceny", "Dojeżdżamy: Radom i okolice", "Realizacje", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Radomia, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -203,6 +203,7 @@ export const tworzenieStronInternetowychRadomPl = {
           ["Czy strona może pokazać, że dojeżdżamy do okolicznych miejscowości?", "Tak. Obszar działania jest opisany na stronie, a przy pełnej stronie dostajecie podstrony dla miejscowości, z których naprawdę przychodzą zlecenia, z treścią o pracy w tej okolicy."],
           ["Czy pracujesz z firmami z Radomia zdalnie?", "Tak. Pracuję z Warszawy, a cały proces — rozmowa, projekt, uwagi i start — odbywa się online. Projekt oglądacie na podglądzie w przeglądarce, a poprawki zbieramy w jednym dokumencie."],
           ["Czy strona będzie widoczna w Mapach Google?", "Strona podaje te same dane co wizytówka Google i potwierdza je danymi strukturalnymi, co pomaga w Mapach. Samą wizytówką i pozycjami w Mapach zajmuję się w ramach pozycjonowania."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Do kogo należy gotowa strona?", "Do Was: domena, kod i treści. Możecie przenieść stronę do innego hostingu albo wykonawcy w dowolnym momencie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

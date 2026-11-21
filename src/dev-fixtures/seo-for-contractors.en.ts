@@ -29,7 +29,7 @@ export const seoForContractorsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Website + Google Maps", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Website + Google Maps", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Kitchen remodel near me", "Top 3 on the map", "Calls you own", "Free estimate"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Contractor SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -92,7 +92,7 @@ export const seoForContractorsEn = {
       content: [
         p("I do SEO for contractors myself — the website, the Google Business Profile and the pages for each job and area — so the person who finds the problems is the one who fixes them. Contractor SEO has one measure: how many homeowners who search for your kind of job end up calling you or asking for an estimate, instead of going to a competitor or a lead platform."),
 
-        h2("What SEO for contractors covers: the website, Google Maps and AI answers"),
+        h2("SEO for contractors covers: the website, Google Maps and AI answers"),
         p("When a homeowner searches for “bathroom remodel” or “roof repair near me”, three places decide who gets the call:"),
         li("the map results — three businesses with a rating and a phone number, shown above everything else for local searches"),
         li("the regular results, where your site competes with lead platforms, directories and national franchises"),

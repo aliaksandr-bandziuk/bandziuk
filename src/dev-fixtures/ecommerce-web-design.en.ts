@@ -37,11 +37,11 @@ export const ecommerceWebDesignEn = {
   seo: {
     metaTitle: "Ecommerce web design and development — from €2,000",
     metaDescription:
-      "Online store design and development: catalogue, cart, payments, delivery. Shopify, WooCommerce or a custom build. From €2,000, reply in a working day.",
+      "Online store design and development: catalogue, cart, payments, delivery. Shopify, AI answers. From €2,000, reply in a working day.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Catalogue, cart, payments, delivery", "Stores from €2,000", "Reply in 1 working day"],
+  heroChips: ["Catalogue, cart, payments, delivery", "Stores from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Add to cart", "Size and fit", "Delivery and returns", "Secure checkout"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Online store: catalogue, cart, payments and delivery", price: 2000, currency: "EUR", unit: "one-off" },
@@ -60,7 +60,7 @@ export const ecommerceWebDesignEn = {
         { _key: k("o"), iconName: "refresh-cw", title: "Redesign of a store that already sells", text: "New design without losing the rankings" },
         { _key: k("o"), iconName: "move", title: "Migration to another platform", text: "Catalogue, addresses and redirects kept" },
         { _key: k("o"), iconName: "credit-card", title: "One product, one page", text: "A landing page with payment, no catalogue" },
-        { _key: k("o"), iconName: "plug", title: "Integrations for an existing store", text: "Stock, accounting, delivery, CRM" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Catalogue, delivery and prices an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -82,7 +82,8 @@ export const ecommerceWebDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("What ecommerce web design decides that a template does not"),
+        h2("Ecommerce web design: what it decides that a template does not"),
+        p("I design and build online stores myself: structure, design, build and launch, with no handover between people."),
         p("A store template gives you a grid of products and a checkout. What it does not give you is the set of decisions that determine whether someone buys: how a product with four variants is shown, what happens when a size is out of stock, where the delivery cost appears, and how many steps stand between the cart and the payment. Those decisions are the design work, and they are made per store, because they depend on what you sell."),
         p("Two examples of what this means in practice. A clothing store that hides the size chart behind a tab loses the hesitant buyer, who would rather close the page than guess; the same store that shows the size chart next to the size selector converts the same visitor. A store with free delivery above a threshold that mentions it only at the final step gets abandoned carts, because the visitor priced the order wrong at the start."),
 
@@ -110,7 +111,7 @@ export const ecommerceWebDesignEn = {
           ".",
         ),
 
-        h2("What an ecommerce website costs and what moves the price"),
+        h2("An ecommerce website: what it costs and what moves the price"),
         p(
           "An online store with a catalogue, cart, payments and delivery starts at €2,000. A single-product landing page with payment is €700–1,400. A redesign of a store that already sells, keeping its rankings, starts at €1,000. What moves the price: how many products and variants, whether stock and accounting have to be integrated, how many payment and delivery providers, how many languages and currencies, and whether the catalogue arrives as a clean file or as a spreadsheet nobody has touched in two years. Design is included, never a separate line. The full list is on the ",
           link("pricing page", "/pricing"),
@@ -167,6 +168,7 @@ export const ecommerceWebDesignEn = {
           ["Do you set up the payments yourself?", "I set up the integration; the account with the payment provider is opened in your name, because it is tied to your business and your bank. I say which provider fits your country and what it charges before we start."],
           ["How long does it take?", "Four to eight weeks for a store with a catalogue, two to three for a single-product landing page. The product data is what stretches it, not the code — photographs, descriptions, variants and delivery weights."],
           ["Does the store come with SEO?", "It comes built so that SEO is possible: one address per product, readable category pages, markup that matches the page, and speed on the templates that sell. Ongoing promotion is separate work and a separate price, on the ecommerce SEO page."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Who owns the store after launch?", "You do: the code, the domain, the catalogue, the CMS and provider logins. Prices, products and texts are edited by you without a developer, because in a store they change weekly."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -45,11 +45,11 @@ export const lawyerWebsiteDevelopmentEn = {
   seo: {
     metaTitle: "Website Development for Law Firms and Lawyers | Bandziuk",
     metaDescription:
-      "Law firm website development: practice-area and attorney bio pages, intake forms with confidentiality notices, WCAG accessibility, owned by you. From 700 €.",
+      "Law firm website development: practice-area and attorney bio pages, intake forms with confidentiality notices, WCAG accessibility, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Remote, in English"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Remote, in English"],
   heroPhonePoints: ["Practice areas", "Meet the attorneys", "Request a consultation", "Call · Text"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple law firm website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -220,7 +220,7 @@ export const lawyerWebsiteDevelopmentEn = {
           ["Do we own the website, or is it rented like some agency sites?", "You own it: the domain is in the firm’s name, the hosting is on your account, and the code and content are handed over at launch. There is no platform fee and no contract that takes the site away if you stop working with me."],
           ["Can you move our law firm website without losing Google rankings?", "Yes. Old addresses are mapped and redirected to the new pages, titles and structured data are carried over before launch, and Search Console is checked after it, so links from bar associations and directories keep working."],
           ["Can a law firm website developer in Poland work for a US or UK firm?", "Yes. I work remotely and in English, with calls and messages in my afternoon and evening Central European Time — the US business morning and most of the UK working day. Contracts and invoices are in euros, and the site is set up for your jurisdiction: phone formats, bar details, disclaimers and the review platforms your clients use."],
-          ["Will the website be found in ChatGPT and Google AI Overviews?", "The build makes the site readable for assistants: plain HTML, structured data for the firm and each attorney, bylines and dates on articles, and details that match your Google profile and directories such as Avvo, Justia and FindLaw. Being named in answers to competitive questions is ongoing SEO and GEO work on top of the build, which I also do."],
+          ["Will the website be found in ChatGPT, Perplexity and Gemini and Google AI Overviews?", "The build makes the site readable for assistants: plain HTML, structured data for the firm and each attorney, bylines and dates on articles, and details that match your Google profile and directories such as Avvo, Justia and FindLaw. Being named in answers to competitive questions is ongoing SEO and GEO work on top of the build, which I also do."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

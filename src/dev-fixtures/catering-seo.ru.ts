@@ -43,7 +43,7 @@ export const cateringSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Корпоративы, свадьбы, офисы", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Корпоративы, свадьбы, офисы", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Кейтеринг на корпоратив Алматы", "Кофе-брейк на конференцию", "Цена за персону", "Написать в WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит кейтеринга: сайт, 2GIS и Google Карты, конкуренты в вашем городе", price: 250, currency: "EUR", unit: "one-off" },

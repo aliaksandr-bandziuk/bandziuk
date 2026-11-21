@@ -39,11 +39,11 @@ export const handymanWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Handyman Businesses | Bandziuk",
     metaDescription:
-      "Handyman website design for owner-operators and small teams: job list with “from” prices, photo uploads, service area, trust for home visits. Built from 700 €.",
+      "Handyman website design for owner-operators and small teams: job list with “from” prices, photo uploads, service area, AI answers. Built from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Made for owner-operators"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Made for owner-operators"],
   heroPhonePoints: ["Call · Text", "Send a photo of the job", "Prices from, per job", "Insured · Reviewed"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple handyman website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -152,7 +152,7 @@ export const handymanWebsiteDesignEn = {
         li("templates built for demo photos, not for a long list of jobs with prices"),
         p("An own site does not mean dropping the tools. Your Jobber or Housecall Pro request and booking forms can sit inside it, styled to match, while the pages, the domain and the content belong to you."),
 
-        h2("What the best handyman websites have in common"),
+        h2("Handyman websites that get calls: what the best ones share"),
         p("Searches for the best handyman website and for handyman website examples turn up galleries of polished screens. The ones that bring jobs share a few plain habits rather than a look:"),
         li("the first screen says what you do and where, with a phone number and a text button"),
         li("real photos — you, your truck, finished jobs — and no stock carpenter with a perfect smile"),
@@ -214,6 +214,7 @@ export const handymanWebsiteDesignEn = {
           ["Where do the photos from the request form go?", "To your email and phone, or into Jobber or Housecall Pro if you use one. You see the job before calling back, so you can quote, ask a question or decline quickly."],
           ["Are handyman website templates good enough?", "For a first site, often yes. Templates struggle with a long job list with prices, a ZIP check and per-job pages, and moving off one later usually means starting again."],
           ["Will the website help me show up for “handyman near me”?", "The site is built for it: job pages, service area, consistent details and structured data. Results on the map also depend on your Google profile and reviews, which I can set up and keep working on."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Do you work with handyman businesses in the US and other countries?", "Yes. I work remotely from Poland in English; my afternoon and evening in Central European Time overlap with the US morning, so calls are easy to schedule. Invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -36,11 +36,11 @@ export const pressureWashingWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona firmy mycia kostki, elewacji i dachów",
     metaDescription:
-      "Strona dla firmy mycia ciśnieniowego: zdjęcia przed i po, wycena za m², podstrony mycia kostki, elewacji i dachów, oferta dla wspólnot. Od 3000 zł.",
+      "Strona dla firmy mycia ciśnieniowego: zdjęcia przed i po, wycena za m², podstrony mycia kostki, elewacji i dachów, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Zdjęcia przed i po w centrum"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Zdjęcia przed i po w centrum"],
   heroPhonePoints: ["Przed · Po", "Wycena za m²", "Kostka · Elewacja · Dach", "Zadzwoń · SMS"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy mycia ciśnieniowego, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -100,6 +100,7 @@ export const pressureWashingWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla firm mycia ciśnieniowego buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Strona internetowa dla firmy mycia ciśnieniowego powstaje u mnie w całości: plan podstron, grafika, teksty i kod. Jeden wykonawca odpowiada za efekt, a stała cena jest ustalona przed rozpoczęciem. W tej branży efekt pracy widać gołym okiem, więc zdjęcia sprzedają same. Trudność jest gdzie indziej: każda posesja ma inną powierzchnię i inny stan, klient chce znać koszt, zanim zadzwoni, i boi się, że myjka zniszczy mu elewację albo wypłucze fugi."),
 
         h2("Strona internetowa dla jednoosobowej firmy mycia ciśnieniowego"),
@@ -204,6 +205,7 @@ export const pressureWashingWebsiteDesignPl = {
           ["Czy potrzebuję osobnej podstrony do mycia dachów?", "Jeśli myjesz dachy, tak. Klienci szukają tej usługi innymi słowami i mają inne obawy niż przy kostce czy elewacji, a jedna podstrona nie odpowie na wszystko."],
           ["Czy strona przyda się przy zleceniach od wspólnot i zarządców?", "Tak. Osobna podstrona z fakturą VAT, OC, terminami pracy i formularzem dla firm odpowiada na pytania, które zadaje zarządca, zanim poprosi o ofertę."],
           ["Czy sam mogę dodawać zdjęcia i zmieniać ceny?", "Tak. Galerię, ceny za m² i baner sezonowy zmieniasz w prostym panelu, także z telefonu."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy współpraca może być zdalna?", "Tak. Mam siedzibę w Warszawie, ale z firmami z innych województw wszystko załatwiamy online: zdjęcia i stawki wysyłasz mailem lub na WhatsApp, makiety oglądasz na telefonie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

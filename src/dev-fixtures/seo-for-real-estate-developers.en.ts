@@ -42,7 +42,7 @@ export const seoForRealEstateDevelopersEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Developments, units and buyers", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Developments, units and buyers", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Pre-construction condos", "2-bed units, completion 2027", "Floor plans and prices", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a real estate developer: development pages, catalog, feeds, crawling, portals and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -103,9 +103,10 @@ export const seoForRealEstateDevelopersEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I do SEO for real estate developers myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("SEO for real estate developers is the work that puts your developments, and the units still for sale in them, in front of buyers who are searching by city, property type, construction stage and budget — months before they walk into a sales office. All of it is done by me personally: I also build and run property catalogs, so whoever spots a crawling problem in your listings is the same person who rewrites the template."),
 
-        h2("What SEO for real estate developers covers"),
+        h2("SEO for real estate developers covers"),
         p("A developer’s site is not a brochure with a contact form. It is a catalog that changes every week: units sell, prices move, a new phase launches, a completed building leaves the market. Search engines rank it like any large catalog, and buyers judge it like a sales office. The work covers five areas:"),
         li("search demand for your cities and products, from “pre-construction condos Miami” to “new construction townhomes Raleigh”"),
         li("one strong page per development, plus pages for areas, unit types and price bands"),
@@ -142,7 +143,7 @@ export const seoForRealEstateDevelopersEn = {
 
         h2("Unit availability and prices from a feed: keeping a developer catalog current"),
         p("A price list that is three months old costs more than it earns: buyers call about units that are gone, and assistants quote the wrong numbers. The fix is a single source of truth. Most developers already keep prices and availability in a spreadsheet, a CRM or a sales system; that data can feed the website automatically, daily or more often, so each unit shows its current status without anyone editing pages by hand."),
-        h3("What to do with sold-out units and completed developments"),
+        h3("Sold-out units and completed developments: what to do with those pages"),
         li("a sold unit stays on its page marked as sold, linking to similar units still available"),
         li("a sold-out development keeps its URL as a reference project: photos, completion date, what was built"),
         li("removed pages get a 301 redirect to the closest live page, never a dead end"),

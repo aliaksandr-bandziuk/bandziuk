@@ -35,11 +35,11 @@ export const artistSeoEn = {
   seo: {
     metaTitle: "Artist SEO — audit from €250",
     metaDescription:
-      "SEO for artists and art websites: a page per artwork, subject and medium queries, owning your own name, prints and commissions. Audit €250, ongoing €800/month.",
+      "SEO for artists and art websites: a page per artwork, subject and medium queries, owning your own name, AI answers. Audit €250, ongoing €800/month.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per artwork", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["A page per artwork", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Searches by subject and size", "Your name, not a marketplace", "Commissions with price ranges", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for an artist's website: artwork pages, search visibility and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -81,6 +81,7 @@ export const artistSeoEn = {
       layout: "guide",
       content: [
         h2("Which artists this page is about, and where the other meanings are covered"),
+        p("I do SEO for artists and art websites myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("«Artist» carries several trades, and they need different work, so to be clear about what is on this page: it is for visual artists who make objects — painters, printmakers, sculptors, ceramicists, illustrators — selling originals, prints or commissions from their own site."),
         p(
           "If you are a recording or performing artist, the work is different and it is on the ",
@@ -92,7 +93,7 @@ export const artistSeoEn = {
           ".",
         ),
 
-        h2("Why an artist's website usually gives a search engine nothing to read"),
+        h2("An artist's website usually gives a search engine nothing to read"),
         p("The standard artist site is one portfolio page holding forty images, a short bio, and a contact form. To a visitor it reads as confident restraint. To a search engine it is a single page with almost no text, where forty works are indistinguishable from each other and none of them has an address of its own, so there is nothing to match against any search a collector could type."),
         p("This is not a matter of writing more for the sake of it. A search engine cannot see a painting: it cannot tell oil from acrylic, it cannot measure the canvas, and it has no idea the piece is predominantly blue. Every fact a buyer would filter by has to exist as text somewhere, and on most artist sites it exists nowhere — not in the image file names, not in the alt text, not on the page."),
 
@@ -181,6 +182,7 @@ export const artistSeoEn = {
           ["Isn't Instagram where art actually sells?", "It is where art is discovered by people already looking at art. Search reaches someone furnishing a room who has never heard of you, and it is the only channel where your own name leads to your own site rather than to a profile you do not own. Most artists need both."],
           ["My site is on a portfolio platform. Can you work with it?", "Usually yes, if pages can be added and headings and addresses edited. Some art-portfolio platforms lock all three, and SEO work on those is paying rent. I check which case yours is before quoting, not after."],
           ["How long before it brings buyers?", "First movement after about a month and a half, growth on a three to six month horizon. Art has a slower decision than most purchases — people return to a piece several times — so the enquiry often arrives weeks after the visit that search produced."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Who writes the text for each work?", "I draft the structure and you supply what only you know: what the piece is about, how it was made, what the series is doing. That cannot be researched from outside the studio, and a buyer can tell the difference immediately."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

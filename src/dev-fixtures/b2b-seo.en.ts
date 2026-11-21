@@ -98,7 +98,7 @@ export const b2bSeoEn = {
       content: [
         p("I provide B2B SEO services for companies that sell to other businesses — manufacturers, distributors, wholesalers, software and IT service firms. I do the work myself, as a single consultant who also builds websites. The measure is simple: how many relevant companies find you in search and AI answers and ask for a quote, a sample or a demo."),
 
-        h2("What B2B SEO is: search work measured in qualified leads, not traffic"),
+        h2("B2B SEO: search work measured in qualified leads, not traffic"),
         p("B2B SEO uses the same tools as any other SEO — keyword research, pages, technical fixes, links — but aims at a different result. A consumer shop can win on volume: thousands of visits, a small share buying. A B2B company may need ten good enquiries a month, and one signed contract can pay for a year of work. That changes three questions:"),
         li("who searches: an engineer looking for a part, a procurement manager comparing suppliers, an operations lead looking for software"),
         li("what they type: the problem, the specification, the application or the certificate — rarely the name of your company category"),

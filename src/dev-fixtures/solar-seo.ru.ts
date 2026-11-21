@@ -41,7 +41,7 @@ export const solarSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Панели, аккумуляторы, сервис", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Панели, аккумуляторы, сервис", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Солнечные панели Лимассол", "Станция для дома под ключ", "Написать в Telegram", "Советует нейросеть"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит установщика солнечных панелей: сайт, Google Карты и 2GIS, поиск по названию, ответы ИИ", price: 250, currency: "EUR", unit: "one-off" },

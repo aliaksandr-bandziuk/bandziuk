@@ -39,7 +39,7 @@ export const treeServiceSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Спил, обрезка, пни", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Спил, обрезка, пни", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Спил дерева Алматы", "Альпинисты и автовышка", "Написать в WhatsApp", "Фото до и после"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит службы спила деревьев: сайт, 2GIS и Google Карты, конкуренты", price: 250, currency: "EUR", unit: "one-off" },

@@ -25,11 +25,11 @@ export const websiteForPlumbersEn = {
   seo: {
     metaTitle: "Plumbing Websites Built for Calls and Bookings",
     metaDescription:
-      "Websites for plumbing companies: 24/7 emergency pages, a page per service and town, booking via ServiceTitan, Housecall Pro or Jobber. From 700 €.",
+      "Websites for plumbing companies: 24/7 emergency pages, a page per service and town, booking via ServiceTitan, Housecall Pro or Jobber, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Burst pipe? Call now", "Services and towns", "Book via your software", "Yours, no lock-in"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple plumbing website", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -45,7 +45,7 @@ export const websiteForPlumbersEn = {
         { _key: k("o"), iconName: "phone", title: "An emergency path to your phone", text: "Burst pipe and no-hot-water pages that end in a call" },
         { _key: k("o"), iconName: "layers", title: "A page for each plumbing service", text: "Drains, water heaters, sewer lines, repiping, leaks" },
         { _key: k("o"), iconName: "map-pin", title: "Pages for the towns your vans reach", text: "Built from one template, a new town in minutes" },
-        { _key: k("o"), iconName: "plug", title: "Booking that lands on the dispatch board", text: "ServiceTitan, Housecall Pro, Jobber or email" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
         { _key: k("o"), iconName: "gauge", title: "Loads fast on one bar of signal", text: "Phone number first, widgets after, under 2.5 s" },
         { _key: k("o"), iconName: "shield-check", title: "The site belongs to you", text: "Code, content and domain; no platform fee" },
       ],
@@ -95,7 +95,7 @@ export const websiteForPlumbersEn = {
           " page.",
         ),
 
-        h2("What a website for plumbers has to handle: emergencies today, planned jobs next month"),
+        h2("A plumbing website: emergencies today, planned jobs next month"),
         p("A plumbing business gets two kinds of work through its website, and they behave differently. Emergency calls — a burst pipe, a backed-up toilet, no hot water before work — come from someone who will phone the first plumber who looks available and close. Planned jobs — a new water heater, a whole-house repipe, a sewer line replacement — come from someone who reads, compares two or three companies and wants an idea of the price before calling."),
         p("A website for plumbers is built for both at once:"),
         li("a short, fast path from any page to a phone call for emergencies"),
@@ -161,7 +161,7 @@ export const websiteForPlumbersEn = {
           " page.",
         ),
 
-        h2("What the best plumbing websites have in common"),
+        h2("Plumbing websites that get calls: what the best ones share"),
         p("Lists of the best plumbing websites usually pick sites by looks. Seen from the build side, the ones that bring steady work share a few plain decisions:"),
         li("a separate page for each emergency, each service and each area, not one long list"),
         li("a phone link that works on every page and loads first"),
@@ -224,6 +224,10 @@ export const websiteForPlumbersEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("A plumbing website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews who repairs a boiler on a Sunday and how much a leak repair costs. The assistant answers from text it can read, and names companies whose pages carry the facts: services, hours, call-out fee and licence."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order a website for your plumbing business: what to send me"),
         p(
           "Send the business name, a link to your current website or Google profile, the services you want more of, the towns you cover, your hours and the software you use for dispatch. Your prices, if you work flat-rate, help me plan the price pages. I will reply with a list of pages and a fixed price. Use the ",

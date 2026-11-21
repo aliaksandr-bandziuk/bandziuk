@@ -39,7 +39,7 @@ export const musicianSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Own your name in search", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Own your name in search", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Jazz trio for a corporate event", "Wedding band in your city", "EPK a booker can actually open", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a musician, band or DJ: site, name search and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -81,6 +81,7 @@ export const musicianSeoEn = {
       layout: "guide",
       content: [
         h2("Where Google helps a musician and where it does not"),
+        p("I do SEO for musicians and bands myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Start with the part most SEO pages for musicians leave out. If your goal is more listeners, Google is not the main instrument: discovery of music happens inside Spotify, YouTube and TikTok search, and the work there is metadata, playlists and release strategy, which is a different job from this one. Hiring me to do Google SEO for streaming numbers would be selling you the wrong thing."),
         p("Google decides a different half, and it is the half that pays. Who gets booked for the wedding, the corporate night, the festival slot. Who is found by the journalist writing about the scene. Who owns the first screen when somebody hears a track in a bar, remembers the name and searches it. That half is winnable by a site you control, and it is what this page is about."),
 
@@ -104,7 +105,7 @@ export const musicianSeoEn = {
           ".",
         ),
 
-        h3("Why the guides written by music platforms stop where they do"),
+        h3("The guides written by music platforms stop where they do"),
         p("Most advice about music SEO is published by the platforms musicians already pay — hosting, distribution, booking tools. It is usually accurate and it stops at the same place every time: optimise your titles, write your show notes, fill in your metadata. That is the part of the work that happens inside their product, which is why it ends there. What follows — competing for the booking query, owning the name search, keeping a release findable after the hype week — happens on a site they do not host, so nobody writing those guides has a reason to explain it."),
       ],
     },
@@ -154,6 +155,7 @@ export const musicianSeoEn = {
           ["Does any of this matter for a DJ as opposed to a band?", "The name-search half is identical. The booking half differs: DJs are hired for the occasion and the room more than for a repertoire, so the pages are built around event types and formats rather than around a setlist."],
           ["How long before a booker finds me?", "First movement after about a month and a half, steadier growth on a three to six month horizon. Name-search work often shows first because the competition for your own name is weakest."],
           ["Can you guarantee a position?", "No, and nobody honest can — the ranking is decided by a system neither of us controls. What I can state is what will be changed, in what order, and what we measure at one month and at three."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Who writes the text?", "I do, and you correct it. Everything that makes an act specific — the line-up, the repertoire, what a night with you actually sounds like — has to come from you, because it cannot be researched from outside the band."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

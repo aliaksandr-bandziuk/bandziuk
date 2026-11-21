@@ -39,11 +39,11 @@ export const fitnessStudioWebsiteEn = {
   seo: {
     metaTitle: "Website Design for Gyms and Fitness Studios | Bandziuk",
     metaDescription:
-      "Gym website design: live class schedule, booking and membership sign-up, a trial pass page, trainer profiles, real photos and fast mobile pages. From 700 €.",
+      "Gym website design: live class schedule, booking and membership sign-up, a trial pass page, trainer profiles, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Today’s classes", "Claim a free trial", "Join online", "Meet the coaches"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple gym or fitness studio website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -191,6 +191,7 @@ export const fitnessStudioWebsiteEn = {
           ["Can new members join and pay on the website?", "They start on the site and finish in your gym software’s checkout, so contracts, billing and waivers stay where your staff manage them. Without online joining, the button opens a short form for the front desk."],
           ["Can our staff update prices, classes and trainers?", "Yes, in an editor such as WordPress or Sanity, without touching the design. The schedule updates itself from your software."],
           ["Do we need a website if our gym software has an app?", "The app serves people who are already members. New people find you on Google, on the map and in AI answers, then compare memberships and claim a trial on the website before they install anything."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them. The same work for the answer shown in search itself is answer engine optimization (AEO)."],
           ["Can you build a website for a US gym from Warsaw?", "Yes. Calls, design reviews and launch all happen online and in English. Afternoons and evenings in Central European Time are mornings in the US, so reviews fit before your after-work rush. Invoices are in EUR, and the site uses US formats for dates, prices and phone numbers."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

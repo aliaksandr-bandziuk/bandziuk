@@ -41,7 +41,7 @@ export const pozycjonowanieStronBialystokPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Specjalista SEO zamiast agencji", "Audyt od 1000 zł", "Białystok i całe Podlasie"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Białystok i całe Podlasie"],
   heroPhonePoints: ["Stomatolog Białystok Bojary", "Wizytówka w Mapach Google", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Białegostoku: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -212,6 +212,7 @@ export const pozycjonowanieStronBialystokPl = {
           ["Kto zajmuje się pozycjonowaniem stron w Białymstoku?", "Białostockie studia i agencje, specjaliści pracujący samodzielnie, agencje ogólnopolskie i portale z ofertami. Ja pracuję sam: od audytu po wdrożenie i raport, bez pośredników i z cennikiem dostępnym na stronie."],
           ["Czy warto mieć wersję litewską lub angielską strony?", "Warto, jeśli takie osoby już do Was przychodzą albo szukają Waszej usługi. Sprawdzam to w Search Console i danych wyszukiwań; zwykle wystarcza kilka przetłumaczonych podstron zamiast całej strony."],
           ["Czy pomagasz z wizytówką Google firmy z Białegostoku?", "Tak, wizytówka jest częścią pozycjonowania: kategoria, usługi, zdjęcia, godziny, opinie i obszar działania obejmujący okoliczne gminy."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Jak wygląda współpraca zdalna z firmą z Białegostoku?", "Pracuję z Warszawy, a współpraca toczy się online: rozmowa wideo na start, wspólny dokument z zadaniami, dostęp do Search Console i wizytówki oraz raport co miesiąc."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -32,11 +32,11 @@ export const seoConsultantPl = {
   seo: {
     metaTitle: "SEO freelancer: pozycjonowanie stron na zlecenie",
     metaDescription:
-      "Freelancer SEO z Warszawy: audyt, poprawki w kodzie strony i raporty w zapytaniach, a nie tylko pozycjach. Faktura z JDG, praca zdalna. Audyt od 1000 zł.",
+      "Freelancer SEO z Warszawy: audyt, poprawki w kodzie strony i raporty w zapytaniach, a nie tylko pozycjach. Faktura z JDG, odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Bez agencji i pośredników", "Faktura z JDG w Warszawie", "Bezpłatna rozmowa 15–30 min"],
+  heroChips: ["Bez agencji i pośredników", "Faktura z JDG w Warszawie", "Widoczność w ChatGPT i AI"],
   // Desktop hero shows the owner's portrait instead of the phone sketch (the
   // same transparent-background photo as on the About page).
   heroVisual: "photo",
@@ -57,7 +57,7 @@ export const seoConsultantPl = {
         { _key: k("o"), iconName: "file-text", title: "Dziennik zmian na stronie", text: "Wiecie, co zmieniono, gdzie i kiedy" },
         { _key: k("o"), iconName: "shield-check", title: "Konta i treści zostają u Was", text: "Search Console, Analytics i wizytówka Google" },
         { _key: k("o"), iconName: "languages", title: "Frazy osobno dla każdego rynku", text: "Strony po polsku, angielsku i rosyjsku" },
-        { _key: k("o"), iconName: "trending-up", title: "Raport w ruchu i zapytaniach", text: "Porównanie z punktem wyjścia co miesiąc" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Zakres, ceny i raporty, które asystent zacytuje" },
       ],
       prices: [
         { _key: k("r"), label: "Audyt SEO strony", value: "od 1000 zł", note: "jednorazowo" },
@@ -99,6 +99,7 @@ export const seoConsultantPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Pozycjonowaniem zajmuję się sam, jako freelancer: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Jestem freelancerem SEO: sam, bez agencji i podwykonawców, sprawdzam, dlaczego strona nie przyciąga ruchu z Google, poprawiam przyczyny bezpośrednio w kodzie i mierzę, co się zmieniło. Pracuję zdalnie z Warszawy, po polsku, angielsku i rosyjsku, dla firm z Polski, innych krajów Europy, Wielkiej Brytanii, USA, Cypru i Izraela."),
 
         h2("Czym zajmuje się freelancer SEO: od audytu do poprawek w kodzie strony"),
@@ -120,7 +121,7 @@ export const seoConsultantPl = {
         p("Specjalista SEO na etacie ma sens, gdy pozycjonowanie wypełnia mu cały tydzień przez cały rok: duży sklep, portal, serwis z setkami nowych podstron miesięcznie. W małej i średniej firmie po pierwszych miesiącach porządków zadań jest mniej, a pensja, składki, sprzęt i płatne narzędzia zostają."),
         p("Współpraca na zlecenie odwraca ten rachunek. Płacicie za konkretny zakres — audyt, projekt albo miesiąc pracy — a narzędzia, bazy danych o frazach i doświadczenie z innych branż są po mojej stronie. Jeśli macie już marketingowca, mogę być jego wsparciem: biorę na siebie zadania techniczne, a on zostaje przy treściach i komunikacji."),
 
-        h2("Co przekazuje freelancer SEO, a co zostaje po stronie firmy"),
+        h2("Freelancer SEO i firma: co przekazuje, a co zostaje po Waszej stronie"),
         p("Jasny podział pracy oszczędza obu stronom nerwów. Ode mnie dostajecie:"),
         li("audyt i plan prac z kolejnością według wpływu na ruch"),
         li("wdrożone poprawki opisane w dzienniku zmian — co, gdzie i kiedy"),
@@ -208,6 +209,7 @@ export const seoConsultantPl = {
           ["Czy współpraca z freelancerem SEO odbywa się zdalnie?", "Tak, w całości: rozmowy wideo z udostępnianiem ekranu, wspólne dokumenty, dostęp do Search Console i panelu strony. Pracuję z Warszawy, w polskich godzinach pracy, dla firm z całej Polski i z zagranicy."],
           ["Czy freelancer SEO gwarantuje pierwsze miejsce w Google?", "Nie, i nikt uczciwie tego nie obieca, bo wyniki zależą od Google i od konkurencji. Gwarantuję zakres pracy, pomiar od punktu wyjścia i raporty, z których widać, co się zmieniło."],
           ["Co się dzieje z dostępami po zakończeniu współpracy?", "Wszystkie konta od początku należą do Was. Po zakończeniu współpracy oddaję dostępy, a dziennik zmian, briefy treści i raporty zostają u Was."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Czy możesz pracować z naszym programistą albo agencją reklamową?", "Tak. Mogę sam wprowadzać zmiany albo przygotować dla programisty zadania tak dokładne, że wdroży je bez spotkania. Z osobami od reklam wymieniam się danymi o frazach i konwersjach."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

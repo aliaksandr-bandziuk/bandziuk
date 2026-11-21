@@ -47,11 +47,11 @@ export const mortgageBrokerWebsiteDesignEn = {
   seo: {
     metaTitle: "Mortgage Broker Website Design and Rates from €700",
     metaDescription:
-      "Mortgage broker website design and build: NMLS and licensing on every page, a short first form, a secure document handoff and clear calculators. From 700 €.",
+      "Mortgage broker website design and build: NMLS and licensing on every page, a short first form, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design included in the price", "From 700 €", "Compliance details built in"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Compliance details built in"],
   heroPhonePoints: ["How much can I afford?", "Book a call with a loan officer", "Upload documents securely", "Licensed in TX · FL · GA"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Mortgage broker website with licensing details, a short first form, call booking and a link to your secure portal, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -175,7 +175,7 @@ export const mortgageBrokerWebsiteDesignEn = {
           link("multilingual website development", "/services/multilingual-website-development"),
           ". Free mortgage broker website templates for WordPress sit in between: workable, but the licensing components, rate rules and portal handoff usually have to be added.",
         ),
-        h3("What the best mortgage broker websites have in common"),
+        h3("Mortgage broker websites that convert: what the best ones share"),
         li("a person and a licensed area on the first screen"),
         li("a first step that takes under a minute"),
         li("disclosures that are complete without crowding the page"),
@@ -230,7 +230,7 @@ export const mortgageBrokerWebsiteDesignEn = {
           ["Does my NMLS ID need to be on every page?", "A footer with the company NMLS ID on every page is common practice, and many state rules and lender policies expect it in advertising. Requirements differ by state and by sponsor, so your compliance contact confirms placement and wording; this is general information, not legal advice."],
           ["Can the calculators show today’s mortgage rates?", "They can use a rate you set in the CMS, with its date shown, or a feed from a pricing engine if your plan includes one. Without a feed, a dated sample rate the borrower can change is safer than a figure that looks live but is not."],
           ["How do you work with a US mortgage broker from Poland?", "Everything happens online and in English. Warsaw is six hours ahead of New York, so a call at 3 or 4 pm my time is 9 or 10 am on the East Coast; between calls, designs are reviewed in a shared file. Invoices are in EUR or another currency by agreement."],
-          ["Will my mortgage website appear in ChatGPT answers?", "Nobody can promise that. The build removes the usual obstacles — details locked in images, PDFs or scripts — and keeps your licensing, states, languages and loan officers on the page as text with structured data. Ongoing work on AI answers is part of my SEO and GEO service."],
+          ["Will my mortgage website appear in ChatGPT, Perplexity and Gemini answers?", "Nobody can promise that. The build removes the usual obstacles — details locked in images, PDFs or scripts — and keeps your licensing, states, languages and loan officers on the page as text with structured data. Ongoing work on AI answers is part of my SEO and GEO service."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

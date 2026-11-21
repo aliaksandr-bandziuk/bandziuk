@@ -34,11 +34,11 @@ export const hairSalonWebsiteDesignEn = {
   seo: {
     metaTitle: "Websites for Hair Salons and Barbershops | Bandziuk",
     metaDescription:
-      "Hair salon website design: prices by service and hair length, stylist pages, color gallery, Booksy or Vagaro booking, barbershop walk-ins. From 700 €.",
+      "Hair salon website design: prices by service and hair length, stylist pages, color gallery, Booksy or Vagaro booking, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Works with Booksy and Vagaro"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Works with Booksy and Vagaro"],
   heroPhonePoints: ["Book your stylist", "Cut · Color · Blonding", "Prices by hair length", "Walk-ins until 6 pm"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple hair salon or barbershop website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -151,7 +151,7 @@ export const hairSalonWebsiteDesignEn = {
         p("“Hair salon website template” is searched more than any other phrase in this niche, and for a good reason: a template is cheap and fast. A one-chair studio with a booking link and a steady Instagram following can start on one and be fine — and if that describes your salon, my reply will say so."),
         p("Templates start to cost you as the salon grows. Stylist pages, price tables by length and level, filtered galleries and course sales each become a plugin or a paid upgrade, and the result looks like hundreds of other salons on the same theme. A custom site is built around your price list and your team from day one, belongs to you, and keeps working if you switch booking software."),
 
-        h2("What the best hair salon websites do on a phone"),
+        h2("Hair salon websites on a phone: what the best ones do"),
         p("Lists of the best hair salon websites tend to praise big videos and unusual fonts. Opened on a phone, the sites that actually fill chairs share plainer habits:"),
         li("the salon’s specialty and neighborhood in one line at the top"),
         li("a Book button that never leaves the screen"),
@@ -206,6 +206,7 @@ export const hairSalonWebsiteDesignEn = {
           ["Can stylists update their own photos and prices?", "Photos, yes: each stylist can have a login limited to their own page and gallery. Prices are usually kept with the owner or manager, so one person decides what clients see."],
           ["Is one page enough for a barbershop?", "Often it is: hours, walk-in rules, a short menu, the barbers, a booking link and a map fit on one fast page. More pages come when the team grows or a second location opens."],
           ["Can I sell a hair course or products through the website?", "Yes. For Landi Room I built a course page with Stripe payment and a private video link sent automatically after purchase; the same approach works for classes, gift cards or products for pickup."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["How do we work together if my salon is in the US?", "Online, in English. My afternoon and evening in Warsaw overlap your morning, so calls happen before your first appointments, and the rest moves through comments on the design. Invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

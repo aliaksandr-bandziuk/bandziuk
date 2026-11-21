@@ -51,7 +51,7 @@ export const seoForRecruitmentAgenciesRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Работодатели и кандидаты", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Работодатели и кандидаты", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Подбор персонала Алматы", "Работа в Праге на русском", "Написать в Telegram", "Советует ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит сайта кадрового агентства: страницы для работодателей, вакансии в Google, карточки офисов, языки и ответы ИИ", price: 250, currency: "EUR", unit: "one-off" },

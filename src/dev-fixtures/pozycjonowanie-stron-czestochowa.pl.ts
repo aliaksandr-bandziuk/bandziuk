@@ -47,7 +47,7 @@ export const pozycjonowanieStronCzestochowaPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista, jawne ceny", "Audyt od 1000 zł", "Współpraca online"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Współpraca online"],
   heroPhonePoints: ["Nocleg blisko Jasnej Góry", "Mapy Google", "Zarezerwuj", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Częstochowy: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -221,6 +221,7 @@ export const pozycjonowanieStronCzestochowaPl = {
           ["Jak samemu pozycjonować stronę?", "Zacznijcie od pełnej wizytówki Google, podstron usług z miastem lub dzielnicą w tytule, konkretów dla gości — odległość, parking, grupy — i Google Search Console. Technikę i wersje językowe najczęściej warto zlecić."],
           ["Kto zajmuje się pozycjonowaniem stron: agencja SEO czy specjalista?", "Agencja ma opiekuna klienta i specjalistów, z którymi zwykle nie rozmawiacie. Specjalista pracujący sam, tak jak ja, robi wszystko osobiście — audyt, zmiany na stronie, raport — i publikuje ceny."],
           ["Czy pomagasz z wizytówką Google i Mapami w Częstochowie?", "Tak: kategorie, atrybuty, zdjęcia, godziny, opinie i zgodność danych z katalogami oraz serwisami rezerwacyjnymi."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Jak wygląda współpraca z Częstochową, skoro pracujesz w Warszawie?", "Przez internet: na początek rozmowa wideo, potem zadania w dokumencie, który widzicie na bieżąco, i raport co miesiąc. Strona, wizytówka i dane wyszukiwań dla Częstochowy są dostępne zdalnie, więc spotkania na miejscu nie są potrzebne."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

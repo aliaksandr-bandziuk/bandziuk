@@ -45,11 +45,11 @@ export const bandWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www dla zespołu muzycznego i DJ-a | Bandziuk",
     metaDescription:
-      "Strona internetowa dla zespołu muzycznego: koncerty i bilety, repertuar i terminy wesel, EPK i rider, sklep z merchem, newsletter, sekcja DJ. Od 3000 zł.",
+      "Strona internetowa dla zespołu muzycznego: koncerty i bilety, repertuar i terminy wesel, EPK i rider, sklep z merchem, newsletter, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Zespoły weselne, koncertowe i DJ-e"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Zespoły weselne, koncertowe i DJ-e"],
   heroPhonePoints: ["Najbliższe koncerty", "Posłuchaj na żywo", "Sprawdź wolny termin", "EPK i rider"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla zespołu muzycznego lub DJ-a, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -110,6 +110,7 @@ export const bandWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla zespołów muzycznych i DJ-ów buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Strona internetowa dla zespołu muzycznego to usługa, którą wykonuję w całości sam: układ podstron, projekt graficzny, kod, podłączenie biletów, odtwarzaczy i newslettera oraz uruchomienie. W Polsce zespół często gra dwie role naraz — w weekendy wesela i imprezy firmowe, między nimi koncerty z własnym materiałem — więc strona musi obsłużyć i fana, i parę młodą, i organizatora festiwalu."),
 
         h2("Strona internetowa dla zespołu muzycznego: co sprawdzają fani, organizatorzy i pary młode"),
@@ -195,6 +196,7 @@ export const bandWebsiteDesignPl = {
           ["Czy sami dodamy koncerty, nagrania i zajęte terminy?", "Tak. W panelu są gotowe pola na koncerty, płyty, filmy i daty, a nowe wpisy wyglądają tak samo jak reszta strony. Dostajecie krótką instrukcję i nagrania wideo z obsługi panelu."],
           ["Czy na stronie można sprzedawać płyty i koszulki?", "Tak — w małym sklepie z płatnościami BLIK, kartą i Przelewy24 albo przez link do Bandcampa czy drukarni na żądanie. Wybór zależy od tego, ile produktów macie i kto ma zajmować się wysyłką."],
           ["Ile trwa wykonanie strony zespołu?", "Najwięcej zależy od tego, jak szybko będą gotowe bio, zdjęcia, nagrania i repertuar. Razem z wyceną dostajecie harmonogram; prosta strona powstaje wyraźnie szybciej niż serwis z archiwum płyt, sklepem i wersją angielską."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Jak wygląda współpraca, jeśli zespół jest spoza Warszawy?", "Cała współpraca odbywa się online: rozmawiamy przez wideo, poprawki zaznaczacie bezpośrednio w projekcie, a nagrania i zdjęcia wrzucacie na wspólny dysk. Miasto nie ma znaczenia — pracuję z Warszawy dla zespołów z różnych regionów i wystawiam fakturę jako jednoosobowa działalność."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

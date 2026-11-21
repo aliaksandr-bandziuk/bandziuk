@@ -167,7 +167,7 @@ export const pediatricianWebsiteEn = {
           ["Do you work with medical practices?", "Yes, and the method accounts for it: wording that avoids promises, a review step before publishing, and forms that handle health data carefully rather than as an afterthought."],
           ["Will parents be able to book online?", "Yes, and the booking says who the appointment is with, not only when. In paediatrics the doctor's name is often the reason the appointment happens at all."],
           ["Can you redesign our site without losing search traffic?", "Yes. Every existing address is mapped, every changed one redirected, and the pages that already bring parents keep their text rather than being rewritten for the sake of a new look."],
-          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: visit types, vaccinations and prices named in text with prices, each paediatrician with a specialisation and registration, hours and languages. Assistants repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
+          ["Will patients find the practice through ChatGPT?", "Increasingly, when there is something to quote: visit types, vaccinations and prices named in text with prices, each paediatrician with a specialisation and registration, hours and languages. ChatGPT, Perplexity and Gemini repeat what they can read, so a price list kept as an image leaves the practice out of the answer."],
           ["Who owns the site?", "You do: the code, the domain, the hosting account, the content and every access credential. Nothing stays with me as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

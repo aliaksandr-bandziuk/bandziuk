@@ -42,7 +42,7 @@ export const pozycjonowanieStronSzczecinPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista, bez opiekuna klienta", "Audyt od 1000 zł", "Frazy po polsku i po niemiecku"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Frazy po polsku i po niemiecku"],
   heroPhonePoints: ["Mechanik Szczecin Pogodno", "Zahnarzt Stettin", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy ze Szczecina: strona, wizytówka Google, konkurencja w mieście", price: 1000, currency: "PLN", unit: "one-off" },
@@ -210,6 +210,7 @@ export const pozycjonowanieStronSzczecinPl = {
           ["Kto zajmuje się pozycjonowaniem stron w Szczecinie: agencja SEO czy specjalista?", "W szczecińskich wynikach są lokalne studia, ogólnopolskie agencje i pojedynczy specjaliści. Ja pracuję sam, od audytu po zmiany w kodzie, bez opiekuna klienta i z cenami w cenniku. Agencja ma sens, gdy razem z SEO potrzebujecie reklam i mediów społecznościowych."],
           ["Jak samemu pozycjonować stronę firmy w Szczecinie?", "Zacznijcie od wizytówki Google z dokładną kategorią i opiniami, osobnych podstron usług z nazwą miasta lub dzielnicy w tytule i Google Search Console. Niemieckie podstrony, technikę i przebudowę strony lepiej zlecić."],
           ["Czy można być widocznym w Mapach Google w innej części Szczecina?", "Częściowo. Odległości od szukającego nie zmienimy, ale trafna kategoria, opinie, zdjęcia i podstrona dla danej dzielnicy lub gminy pomagają pokazywać się dalej od adresu firmy, zwłaszcza przy rzadszych usługach."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pozycjonujesz strony firm ze Szczecina zdalnie, z Warszawy?", "Tak. Rozmawiamy online, pracujemy na wspólnych dokumentach, a dostęp do strony, wizytówki i Search Console dostaję od Was. Do pozycjonowania nie są potrzebne spotkania na miejscu, tylko dane i szybkie decyzje."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

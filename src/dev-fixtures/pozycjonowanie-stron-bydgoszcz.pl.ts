@@ -45,7 +45,7 @@ export const pozycjonowanieStronBydgoszczPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jedna osoba od audytu do wdrożenia", "Audyt od 1000 zł", "SEO także dla przemysłu"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "SEO także dla przemysłu"],
   heroPhonePoints: ["Wtryskiwanie tworzyw — Bydgoszcz", "Hydraulik Fordon", "Zapytanie ofertowe", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Bydgoszczy: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -202,6 +202,7 @@ export const pozycjonowanieStronBydgoszczPl = {
           ["Kto zajmuje się pozycjonowaniem stron w Bydgoszczy?", "Bydgoskie agencje reklamowe i marketingowe, ogólnopolskie firmy SEO i samodzielni specjaliści. Ja pracuję sam, od audytu do zmian w kodzie, i sam wprowadzam zmiany, które proponuję; ceny są publiczne."],
           ["Jak samemu pozycjonować stronę firmy w Bydgoszczy?", "Opiszcie każdą usługę lub technologię na osobnej podstronie, dodajcie nazwę dzielnicy lub gminy tam, gdzie pracujecie lokalnie, uzupełnijcie wizytówkę Google i podłączcie Google Search Console."],
           ["Czy jedna strona wystarczy na Bydgoszcz i Toruń?", "Zwykle nie. Google pokazuje dla obu miast inne wyniki, więc firma, która działa w obu, potrzebuje osobnej podstrony dla każdego miasta, z prawdziwymi informacjami, a przy lokalu w obu miastach — dwóch wizytówek."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy pracujesz z firmami z Bydgoszczy zdalnie?", "Tak. Pracuję z Warszawy, a bydgoskie firmy dodają mnie jako użytkownika do strony, wizytówki i Search Console. Ustalenia zapadają na krótkich rozmowach online i zostają na piśmie, więc wizyty na miejscu nie są potrzebne."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -35,11 +35,11 @@ export const tworzenieStronInternetowychRzeszowPl = {
   seo: {
     metaTitle: "Strona internetowa Rzeszów od 3000 zł | Bandziuk",
     metaDescription:
-      "Strona internetowa dla firmy z Rzeszowa i Podkarpacia: projekt w cenie, podstrony usług i miejscowości, wersje UA i EN, formularz zgodny z RODO. Od 3000 zł.",
+      "Strona internetowa dla firmy z Rzeszowa i Podkarpacia: projekt w cenie, podstrony usług i miejscowości, wersje UA i EN, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt w cenie strony", "Od 3000 zł", "Wersje PL · UA · EN"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersje PL · UA · EN"],
   heroPhonePoints: ["Zadzwoń · WhatsApp", "Obróbka CNC · zapytanie ofertowe", "Realizacje: Rzeszów, Łańcut", "Українською"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Rzeszowa, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -209,6 +209,7 @@ export const tworzenieStronInternetowychRzeszowPl = {
           ["Czy formularz może przyjmować rysunki techniczne?", "Tak. Formularz zapytania ofertowego może przyjmować pliki, a zgłoszenia trafiają bezpośrednio na Waszą skrzynkę, z klauzulą RODO przy formularzu."],
           ["Czy przyjedziesz na spotkanie do Rzeszowa?", "Pracuję z Warszawy, więc z firmami z Rzeszowa kontaktuję się online. Brief omawiamy na wideo, uwagi zbieramy we wspólnym pliku, a działającą wersję roboczą strony możecie otworzyć w każdej chwili."],
           ["Czy sami możemy edytować stronę?", "Tak. Teksty, zdjęcia, realizacje i oferty pracy zmieniacie w prostym panelu, także z telefonu, bez programisty."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Do kogo należy strona po uruchomieniu?", "Do Waszej firmy. Domenę rejestrujemy na Was, a kod i treści możecie zabrać do dowolnego hostingu albo innego wykonawcy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -37,11 +37,11 @@ export const cateringWebsiteDesignEn = {
   seo: {
     metaTitle: "Website for a Catering Business with Quotes | Bandziuk",
     metaDescription:
-      "Catering website design: menus by event type, price per person, a quote form with date and guest count, office lunch ordering and online deposits. From 700 €.",
+      "Catering website design: menus by event type, price per person, a quote form with date and guest count, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Request a catering quote", "Menus by event type", "Order lunch for the office", "Pay the deposit online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple catering website with menus and a quote form, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -101,9 +101,10 @@ export const cateringWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build catering websites myself: structure, design, build and launch, with no handover between people."),
         p("Catering website design is the service I offer catering companies that want their site to bring quote requests and orders, not only to show nice photos. I design and build the whole site myself — the look, the menus, the quote form and the payments — so you deal with one person for both the design and the way the site works, at a price fixed before the start. A catering site has two kinds of visitors: a planner preparing an event weeks ahead who needs enough detail to send a request, and an office assistant who needs lunch for twelve people tomorrow and wants to order in a few minutes. When the answer appears in search itself, the same work is called answer engine optimization (AEO)."),
 
-        h2("What the first screen of a catering website shows"),
+        h2("The first screen of a catering website: what it shows"),
         p("The visitor decides within seconds whether to keep reading, so the first screen on a phone answers four things without scrolling:"),
         li("what you cater and where — “Corporate and wedding catering in Denver and the Front Range”, with your own words and area"),
         li("two clear paths: Request a quote for events, and Order lunch for offices if you sell drop-off"),
@@ -192,6 +193,7 @@ export const cateringWebsiteDesignEn = {
           ["Is a catering website template enough?", "For a new caterer with one menu and simple quotes, often yes. A custom site pays off when you sell several event types, take deposits, run office ordering or want a quote form that collects everything you need."],
           ["Will the quote form work with my CRM or catering software?", "Before the quote I check what your software accepts. Many tools take requests by email or through an integration; if yours does not, requests arrive by email and in the site’s admin panel in one format."],
           ["Can my team update menus, prices and photos?", "Yes. Your team changes menus, packages, prices, service zones, booked dates and galleries in the admin panel, and anything new takes on the existing layout automatically."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Can you build a website for a US caterer from Poland?", "Yes. We talk by video call and email, in English. Afternoons in Warsaw are mornings in the US, so we can review designs before your day gets busy. I invoice in EUR or, by agreement, in another currency."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

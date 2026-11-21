@@ -44,7 +44,7 @@ export const seoForRecruitmentAgenciesEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Employer and candidate searches", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Employer and candidate searches", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["IT recruiters in Austin", "Warehouse jobs, weekly pay", "Jobs block in Google", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Recruitment agency SEO audit: employer pages, job markup, expired vacancies, office profiles and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -107,7 +107,7 @@ export const seoForRecruitmentAgenciesEn = {
       content: [
         p("SEO for recruitment agencies is the work that brings two kinds of people to your site from Google and AI assistants: employers looking for an agency to fill a role, and candidates looking for that role. I do it myself, as an independent SEO consultant and web developer, for recruitment agencies, executive search firms and staffing companies, so the person who reads your search data is the one who writes the sector pages and fixes the job markup."),
 
-        h2("What SEO for recruitment agencies covers: candidate searches and employer searches"),
+        h2("SEO for recruitment agencies covers: candidate searches and employer searches"),
         p("A recruitment agency is searched for from both sides of the hire. Candidates type “accounting jobs in Denver”, “remote Java developer jobs” or “staffing agencies hiring near me”. Employers type “IT recruitment agency Chicago”, “executive search firm for healthcare” or “temp agency for warehouse staff”. The two groups use different words, land on different pages and are worth different amounts to you:"),
         li("the candidate side: job pages, Google for Jobs, permanent job category pages and advice for job seekers"),
         li("the employer side: sector and city pages, recruiter profiles, salary guides and placement stories"),

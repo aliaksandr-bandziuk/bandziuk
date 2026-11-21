@@ -41,7 +41,7 @@ export const restorationSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Zalanie, pożar, grzyb", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Zalanie, pożar, grzyb", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Osuszanie po zalaniu", "Dojazd całą dobę", "Pomiary wilgotności", "Dokumenty do szkody"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy osuszania: strona, wizytówka Google, podstrona pilnych zleceń", price: 1000, currency: "PLN", unit: "one-off" },
@@ -202,6 +202,7 @@ export const restorationSeoPl = {
           ["Czy pisać na stronie o odszkodowaniach?", "Tak, w ogólnych słowach: jaką dokumentację przygotowujecie, jak kosztorys trafia do likwidatora i jak się rozliczacie. Bez obiecywania wypłaty — ta zależy od polisy i ubezpieczyciela."],
           ["Czy zalanie, pożar i grzyb potrzebują osobnych podstron?", "Tak. Każdą z tych szkód ludzie opisują innymi słowami i szukają jej w innym momencie: zalania od razu, pożaru kilka dni później, grzyba po tygodniach. Jedna wspólna strona przegrywa we wszystkich trzech wynikach."],
           ["Czy warto pozycjonować wynajem osuszaczy osobno?", "Jeśli go oferujecie, tak. Osoby, które chcą osuszać same, i wykonawcy na budowach szukają wynajmu innymi frazami niż usługi osuszania, a osobna podstrona z warunkami i kaucją odpowiada na ich pytania."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy pracujesz z firmami osuszania z całej Polski?", "Tak. Pracuję zdalnie, na danych wyszukiwań dla Waszego regionu: strona, wizytówka, podstrony i raporty. Kontakt przez telefon, WhatsApp albo wideo, w porze, w której nie jesteście na zleceniu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -39,11 +39,11 @@ export const adultWebsiteDesignPl = {
   seo: {
     metaTitle: "Strony dla dorosłych 18+: projekt, wykonanie, hosting",
     metaDescription:
-      "Strona internetowa dla branży adult: twórcy treści, agencje OnlyFans, sklepy i serwisy 18+. Bramka wiekowa, płatności, hosting, wideo, RODO. Od 3000 zł.",
+      "Strona internetowa dla branży adult: twórcy treści, agencje OnlyFans, sklepy i serwisy 18+. Bramka wiekowa, płatności, hosting, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Dyskrecja i NDA"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Dyskrecja i NDA"],
   heroPhonePoints: ["Mam ukończone 18 lat", "Zapisz się na listę", "Bezpieczna płatność", "Dołącz do agencji"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona dla twórcy treści lub małej agencji z branży adult, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -100,6 +100,7 @@ export const adultWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla branży 18+ buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Strona internetowa dla branży adult to usługa, którą wykonuję w całości sam: plan podstron, projekt graficzny, kod, bramka wiekowa, płatności, wideo i uruchomienie. Pracuję dla twórców i twórczyń treści, agencji OnlyFans oraz legalnych firm 18+ — sklepów z artykułami dla dorosłych, serwisów z płatnym dostępem i studiów. Jestem jednym programistą z Warszawy, nie agencją, więc nikt nie przekazuje Twoich danych dalej."),
 
         h2("Strona internetowa dla branży adult: twórcy, agencje i firmy 18+"),
@@ -180,6 +181,7 @@ export const adultWebsiteDesignPl = {
           ["Czy twórczyni z OnlyFans potrzebuje własnej strony?", "Gdy zarobki zaczynają mieć znaczenie — tak. Własna domena to strona SFW do udostępniania, lista mailowa i linki do wszystkich platform, więc blokada jednego konta nie odcina Cię od fanów."],
           ["Czy na stronie 18+ zadziała BLIK?", "Zależy od rodzaju sprzedaży i operatora. Sklep z legalnymi akcesoriami często może przyjmować BLIK przez polskiego operatora; płatny dostęp do treści 18+ zwykle wymaga operatora high-risk. Przed wdrożeniem sprawdzamy aktualny regulamin."],
           ["Czy zachowasz poufność projektu?", "Tak. Możemy podpisać NDA przed przesłaniem materiałów, a dostęp do kont i serwerów jest tylko taki, jaki sam przyznasz."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Jak wygląda współpraca, jeśli nie jesteś z Warszawy?", "W całości zdalnie: rozmowy wideo lub czat, pliki na wspólnym dysku, poprawki w projekcie. Pracuję z Warszawy dla klientów z całej Polski i z zagranicy, fakturę wystawiam jako jednoosobowa działalność."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

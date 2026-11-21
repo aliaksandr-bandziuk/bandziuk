@@ -39,11 +39,11 @@ export const beautySalonWebsiteEn = {
   seo: {
     metaTitle: "Beauty salon website design — scope, cost and timeline",
     metaDescription:
-      "Beauty salon website design: a page per treatment with price and duration, online booking, team profiles, speed on a phone. Websites from €2,000.",
+      "Beauty salon website design: a page per treatment with price and duration, online booking, team profiles, speed on a phone, AI answers. Websites from €2,000.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per treatment", "Websites from €2,000", "Reply in 1 working day"],
+  heroChips: ["A page per treatment", "Websites from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Book with Anna, Friday 18:00", "Balayage from €120", "Lash lift, 60 min", "Price list"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Single-service landing page for a salon", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -84,7 +84,8 @@ export const beautySalonWebsiteEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("What a client checks on a salon website before booking"),
+        h2("A salon website before booking: what a client checks"),
+        p("I build websites for beauty salons myself: structure, design, build and launch, with no handover between people."),
         p("A salon site is opened with one treatment already in mind and a decision to make in about a minute. Four questions decide it: do you do this exact thing, what does it cost, who will do it, and is there a slot when I need one."),
         p("A site that answers those four in a minute wins against a prettier one that hides them behind a contact form. That is why the structure follows the questions and not the sections agencies default to — «about the salon», «our philosophy» and «why choose us» are read last, if at all."),
 
@@ -103,7 +104,7 @@ export const beautySalonWebsiteEn = {
 
         h2("Photographs of your own rooms instead of stock images"),
         p("A stock model with perfect hair reads as «not our salon». Real photographs of the interior, the chairs, the equipment and the actual work build more trust than any text about quality."),
-        h3("What is worth photographing before the build starts"),
+        h3("Before the build starts: what is worth photographing"),
         li("the interior, in daylight, without people in frame;"),
         li("each treatment room or station separately;"),
         li("the work itself: before and after, same light, same angle;"),
@@ -120,7 +121,7 @@ export const beautySalonWebsiteEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("What a beauty salon website costs and what is included"),
+        h2("A beauty salon website: what it costs and what is included"),
         p(
           "A single-service landing page runs €700–1,400. A full salon site with treatment pages, prices, team profiles and online booking starts at €2,000. A redesign of an existing site that keeps its rankings starts at €1,000. Design is included, never a separate line. The full price list is on the ",
           link("pricing page", "/pricing"),
@@ -134,7 +135,7 @@ export const beautySalonWebsiteEn = {
         h2("Analytics from the first day, not added later"),
         p("Google Analytics and Search Console are set up as part of the build, with the booking button and the phone tap counted as events. Without that, three months later there is no way to tell whether the site is working, and the conversation turns into opinions about the design."),
 
-        h2("What stays with you after launch"),
+        h2("After launch: what stays with you"),
         li("the code, the domain, the content and the CMS logins are yours from day one;"),
         li("prices and the treatment list are edited by you, without a developer;"),
         li("the site does not live on my hosting account and exports are not blocked;"),
@@ -186,6 +187,7 @@ export const beautySalonWebsiteEn = {
           ["Can we edit prices ourselves?", "Yes, and that is the point. Prices, durations, the treatment list and the team page are edited in the CMS without a developer, because in this business they change often."],
           ["Do you build on website builders?", "No. Builders limit structure and speed, and moving off one later is harder than building on Next.js or WordPress in the first place."],
           ["What do you need from us to start?", "A treatment list with prices and durations, photographs of the interior and of the work, who is on the team, and which booking system you use. The rest we assemble as we go."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Who owns the site after launch?", "You do: the code, the domain, the content and the CMS logins. The site does not live on my hosting, exports are not blocked, and it can be handed to another developer at any time."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -194,7 +196,7 @@ export const beautySalonWebsiteEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("What a good website does for a beauty salon"),
+        h2("A good beauty salon website: what it does for the business"),
         p("It answers the four questions a client has before booking, it takes the booking into the system your front desk already watches, and it keeps working at eleven at night when nobody is at the desk. That is the whole claim — no more than that, and it is enough to be worth building properly."),
 
         h2("Hairdressing, spa or promoting an existing site: the pages next to this one"),

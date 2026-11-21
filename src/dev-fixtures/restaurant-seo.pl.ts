@@ -17,11 +17,11 @@ export const restaurantSeoPl = {
   seo: {
     metaTitle: "Pozycjonowanie strony restauracji w Google | Bandziuk",
     metaDescription:
-      "Pozycjonowanie strony restauracji: wizytówka Google, menu czytelne dla wyszukiwarki i opinie, żeby goście trafiali do Was, a nie na portal. Audyt od 1000 zł.",
+      "Pozycjonowanie strony restauracji: wizytówka Google, menu czytelne dla wyszukiwarki i opinie, żeby goście trafiali do Was, odpowiedzi AI. Audyt od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Mapy Google + strona", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Mapy Google + strona", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Top 3 w Mapach", "Otwarte · 4,7 ★", "Menu znalezione po daniu", "Rezerwacja bez portalu"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO restauracji: strona i wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },

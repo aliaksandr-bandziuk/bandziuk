@@ -33,11 +33,11 @@ export const tworzenieStronInternetowychPoznanPl = {
   seo: {
     metaTitle: "Strony internetowe Poznań: projekt i wykonanie",
     metaDescription:
-      "Strony internetowe dla firm z Poznania: projekt graficzny w cenie, podstrony usług i dzielnic, wersje językowe, szybkie na telefonie. Od 3000 zł, cennik online.",
+      "Strony internetowe dla firm z Poznania: projekt graficzny w cenie, podstrony usług i dzielnic, wersje językowe, odpowiedzi AI. Od 3000 zł, cennik online.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Firmy z Poznania i okolic"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Firmy z Poznania i okolic"],
   heroPhonePoints: ["Zadzwoń · WhatsApp", "Usługi i ceny", "Dojazd: Poznań i gminy", "Wersja DE · EN"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Poznania, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -98,6 +98,7 @@ export const tworzenieStronInternetowychPoznanPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla firm z Poznania buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzenie stron internetowych w Poznaniu wykonuję od początku do końca sam: układ podstron, projekt graficzny, teksty, wykonanie w Next.js albo WordPressie i uruchomienie. Mieszkam i pracuję w Warszawie, a z poznańskimi firmami współpracuję zdalnie — rozmowy wideo, projekt do komentowania w przeglądarce i jasno opisane etapy. Cenę znacie przed startem, bo widełki są opublikowane w cenniku."),
 
         h2("Strona internetowa dla firmy z Poznania: co dostajecie w cenie"),
@@ -196,6 +197,7 @@ export const tworzenieStronInternetowychPoznanPl = {
           ["Kreator stron czy strona na zamówienie?", "Kreator wystarczy przy jednej–dwóch usługach i klientach z polecenia. Strona na zamówienie opłaca się, gdy chcecie być znajdowani w Google na kilka usług i w kilku miejscowościach, potrzebujecie wersji językowych albo integracji."],
           ["Czy sami możemy zmieniać treści na stronie?", "Tak. Ceny, godziny, zdjęcia, teksty i nowe podstrony edytuje się w prostym panelu, także z telefonu."],
           ["Do kogo należy strona?", "Do Was: domena, kod i treści. Możecie w każdej chwili przenieść stronę do innego hostingu albo wykonawcy."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy firma z Poznania może zamówić stronę u wykonawcy z Warszawy?", "Tak. Cała współpraca odbywa się online: rozmowy wideo, projekt do komentowania w przeglądarce i uzgodnione etapy. Treści i podstrony obszarów działania przygotowuję dla Poznania i okolic."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

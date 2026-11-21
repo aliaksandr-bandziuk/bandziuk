@@ -45,7 +45,7 @@ export const gymSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Mapy, zajęcia, karty sportowe", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Mapy, zajęcia, karty sportowe", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Siłownia Ursus 24h", "Honorujemy MultiSport", "Zdrowy kręgosłup, wt. 18:00", "Trasa · Zadzwoń"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO siłowni: strona, wizytówki Google, kluby w okolicy, karty sportowe i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },

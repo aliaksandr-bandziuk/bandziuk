@@ -36,7 +36,7 @@ export const tworzenieStronInternetowychGdanskPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt graficzny w cenie", "Od 3000 zł", "Wersje PL · EN · DE"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersje PL · EN · DE"],
   heroPhonePoints: ["Zarezerwuj nocleg", "Ceny i dojazd", "English · Deutsch", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Gdańska, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -97,6 +97,7 @@ export const tworzenieStronInternetowychGdanskPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla firm z Gdańska buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzenie stron internetowych w Gdańsku to u mnie projekt, wykonanie, teksty i uruchomienie strony dla firmy, której klienci mieszkają w Gdańsku i Trójmieście albo przyjeżdżają tu z zagranicy. Całość robi jedna osoba, cena jest znana z cennika, zanim napiszecie, a projekt graficzny jest w niej zawarty. Pracuję z Warszawy, a z gdańskimi firmami współpracuję online."),
 
         h2("Tworzenie stron internetowych w Gdańsku: co dostajecie"),
@@ -199,6 +200,7 @@ export const tworzenieStronInternetowychGdanskPl = {
           ["Agencja interaktywna z Gdańska czy wykonawca z Warszawy — jak wygląda kontakt?", "Pracuję z Warszawy, a z firmami z Gdańska współpracuję online: rozmowa wideo, podgląd projektu w przeglądarce, uwagi w jednym dokumencie. Rozmawiacie bezpośrednio z osobą, która projektuje i programuje stronę."],
           ["Czy strona pomoże w Mapach Google?", "Strona ma te same dane co wizytówka — nazwę, adres, telefon i godziny — oraz dane strukturalne, które je potwierdzają. To podstawa widoczności w Mapach; dalsza praca nad wizytówką jest częścią pozycjonowania."],
           ["Czy kreator stron wystarczy małej firmie z Gdańska?", "Czasem tak — przy jednej usłudze i klientach z polecenia. Gdy potrzebujecie wersji językowych, rezerwacji albo kilku usług widocznych w Google osobno, strona na zamówienie opłaca się bardziej niż rosnący abonament."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy robisz sklepy internetowe?", "Nie. Buduję strony firmowe, usługowe i wielojęzyczne, z rezerwacją lub zapytaniem ofertowym, ale nie sklepy z koszykiem i płatnościami."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

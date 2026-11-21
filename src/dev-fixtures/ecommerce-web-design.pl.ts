@@ -33,11 +33,11 @@ export const ecommerceWebDesignPl = {
   seo: {
     metaTitle: "Sklep internetowy od 8500 zł — projekt i wdrożenie",
     metaDescription:
-      "Tworzenie sklepu internetowego: katalog, koszyk, BLIK i Przelewy24, Paczkomaty, zwroty. Shopify, WooCommerce, PrestaShop lub własny sklep. Od 8500 zł.",
+      "Tworzenie sklepu internetowego: katalog, koszyk, BLIK i Przelewy24, Paczkomaty, zwroty. Shopify, WooCommerce, odpowiedzi AI. Od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Katalog, koszyk, płatności, dostawa", "Sklepy od 8500 zł", "Odpowiadam w 1 dzień roboczy"],
+  heroChips: ["Katalog, koszyk, płatności, dostawa", "Sklepy od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dodaj do koszyka", "Tabela rozmiarów", "Dostawa i zwroty", "Zapłać BLIKiem"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Sklep internetowy: katalog, koszyk, płatności i dostawa", price: 8500, currency: "PLN", unit: "one-off" },
@@ -55,7 +55,7 @@ export const ecommerceWebDesignPl = {
         { _key: k("o"), iconName: "refresh-cw", title: "Przebudowa sklepu, który już sprzedaje", text: "Nowy wygląd bez utraty pozycji" },
         { _key: k("o"), iconName: "move", title: "Migracja sklepu internetowego", text: "Katalog, adresy i przekierowania zachowane" },
         { _key: k("o"), iconName: "credit-card", title: "Jeden produkt, jedna strona", text: "Strona z płatnością, bez katalogu" },
-        { _key: k("o"), iconName: "plug", title: "Integracje istniejącego sklepu", text: "Magazyn, księgowość, kurierzy, CRM" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Katalog, dostawa i ceny, które asystent zacytuje" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -77,7 +77,8 @@ export const ecommerceWebDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Co rozstrzyga projektowanie sklepu internetowego, czego nie da szablon"),
+        h2("Projektowanie sklepu internetowego: co rozstrzyga, czego nie da szablon"),
+        p("Projektuję i buduję sklepy internetowe sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Szablon daje siatkę produktów i kasę. Czego nie daje — decyzji, od których zależy, czy ktoś kupi: jak pokazać produkt w czterech wariantach, co się dzieje, gdy jednego rozmiaru nie ma na stanie, w którym miejscu pojawia się koszt dostawy i ile kroków stoi między koszykiem a płatnością. To jest właśnie praca projektowa i podejmuje się ją osobno dla każdego sklepu, bo zależy od tego, co sprzedajesz."),
         p("Dwa przykłady, co to znaczy w praktyce. Sklep z odzieżą, który chowa tabelę rozmiarów w zakładce, traci niepewnego kupującego — ten woli zamknąć stronę niż zgadywać; ten sam sklep z tabelą rozmiarów obok wyboru rozmiaru sprzedaje temu samemu odwiedzającemu. Sklep z darmową dostawą od pewnej kwoty, który wspomina o niej dopiero w ostatnim kroku, zbiera porzucone koszyki, bo kupujący na początku policzył zamówienie inaczej."),
 
@@ -170,6 +171,7 @@ export const ecommerceWebDesignPl = {
           ["Ile to trwa?", "Od czterech do ośmiu tygodni przy sklepie z katalogiem, dwa do trzech przy stronie jednego produktu. Wydłużają to dane produktowe, nie kod: zdjęcia, opisy, warianty i wagi do dostawy."],
           ["Czy sklep przychodzi z pozycjonowaniem?", "Przychodzi zbudowany tak, że pozycjonowanie jest możliwe: jeden adres na produkt, czytelne kategorie, znaczniki zgodne ze stroną i szybkość na szablonach, które sprzedają. Bieżące pozycjonowanie to osobna praca i osobna cena, na stronie pozycjonowania sklepów."],
           ["Czy wystawiasz fakturę?", "Tak, prowadzę jednoosobową działalność w Warszawie i wystawiam fakturę za każdą pracę."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Do kogo należy sklep po uruchomieniu?", "Do ciebie: kod, domena, katalog, dostępy do CMS i do operatorów. Ceny, produkty i teksty zmieniasz sam, bez programisty, bo w sklepie zmieniają się co tydzień."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

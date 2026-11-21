@@ -36,11 +36,11 @@ export const daycareSeoEn = {
   seo: {
     metaTitle: "Daycare SEO — audit from €250",
     metaDescription:
-      "SEO for daycares, nurseries and preschools: availability by age group, waiting lists, local searches, the register and inspection record. Audit €250.",
+      "SEO for daycares, nurseries and preschools: availability by age group, waiting lists, local searches, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Places filled by age group", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Places filled by age group", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Availability shown by age band", "Waiting list that collects names", "Fees and hours on the page", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a daycare or nursery: site, Google profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -81,7 +81,8 @@ export const daycareSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a nursery is the one business where more traffic is not the goal"),
+        h2("A nursery is the one business where more traffic is not the goal"),
+        p("I do SEO for daycares and preschools myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Almost every business I work with wants as many enquiries as it can handle. A nursery is the exception: the building holds a fixed number of children, the law sets how many of them can be in each age group, and the intake is seasonal. Success is not a larger number of visitors — it is four free places in the toddler group filled before September, and the parents of those four children living close enough to walk."),
         p("That changes what the work is for. The aim is to fill specific gaps, which means the site has to say which gaps exist, and it means the campaign has a natural end. If you are full across every group with a waiting list already, there is nothing for me to sell you that month, and I would rather say that than take a retainer for traffic you cannot use. What is worth doing in that situation is preparing for the next intake and keeping the waiting list growing."),
 
@@ -166,6 +167,7 @@ export const daycareSeoEn = {
           ["How important are reviews and photographs?", "For the map results, decisive — together with correct hours. Many parents never reach the website at all. Current photographs of the actual rooms and garden matter more than a stock image of children, and replies written by the director rather than an agency read as what they are."],
           ["Do we need a page for each age group?", "For each group you need to fill. A parent of a two-year-old and a parent of a four-year-old have different questions about hours, ratios, food and settling in, and one page about «our programme» answers neither."],
           ["How long before enrolments come in?", "First movement after about a month and a half, growth on a three to six month horizon. The map results usually move first. Enrolment is seasonal, though, so the work has to be timed to the intake: starting in June for September is late, and starting in January is not."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Who writes the pages?", "I draft and you correct, and in this sector the correcting matters more than usual: ratios, hours, what the fee covers, how settling in works and what the inspection said all have to be exactly right. I will not write anything about what the setting does for a child's development, because it cannot be substantiated."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

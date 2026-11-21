@@ -28,7 +28,7 @@ export const aiSeoConsultantEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["One person, no handover", "15 years in search", "Free 15–30 min call"],
+  heroChips: ["One person, no handover", "15 years in search", "Named by ChatGPT and AI search"],
   // Desktop hero shows the owner's portrait instead of the phone sketch (the
   // same transparent-background photo as on the About page).
   heroVisual: "photo",
@@ -93,7 +93,7 @@ export const aiSeoConsultantEn = {
       content: [
         p("I am an independent AI SEO consultant: I help businesses get found in Google and named, with the right facts, when buyers ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews. I do the work myself — the research, the changes to the site and the measurement — so the person you talk to is the person who is responsible for the result. Work on being named in assistant answers goes by two labels: generative engine optimization (GEO) and answer engine optimization (AEO)."),
 
-        h2("What an AI SEO consultant does"),
+        h2("An AI SEO consultant: what the work involves"),
         p("The job has four parts, and a consultant should be able to do all of them, not only the first:"),
         li("measure where you stand: what Google and the assistants say about you now, for the questions your buyers actually ask"),
         li("find why: unclear facts on your site, a name the assistant confuses with another company, sources it trusts that say nothing about you"),

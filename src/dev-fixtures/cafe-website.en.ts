@@ -40,11 +40,11 @@ export const cafeWebsiteEn = {
   seo: {
     metaTitle: "Cafe and Coffee Shop Website Development from €700",
     metaDescription:
-      "Cafe website: menu as text, holiday hours, directions, pickup ordering next to Uber Eats and DoorDash, bean shop, events. Design included, from 700 €.",
+      "Cafe website: menu as text, holiday hours, directions, pickup ordering next to Uber Eats and DoorDash, bean shop, AI answers. Design included, from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Open now · until 6 p.m.", "Menu with sizes", "Order ahead for pickup", "Directions"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple cafe website with menu, hours and directions, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -106,7 +106,7 @@ export const cafeWebsiteEn = {
       content: [
         p("I build cafe websites for owners of cafes and coffee shops: I design and develop the site myself, connect ordering and payments, and hand over an editor your team can use from behind the counter, at a price fixed before work starts. Guests open a cafe site to check a few facts — what you serve and for how much, whether you are open right now, where to pick up an order — and leave within a minute. The site does its job when those facts are correct and quick to find."),
 
-        h2("What a cafe website does that Instagram and a Google listing cannot"),
+        h2("A cafe website next to Instagram and a Google listing: what only it does"),
         p("Many cafes run on an Instagram account and a Google Business Profile, and both are worth keeping. Instagram shows the mood of the week; the Google listing puts you on the map. Neither is a good home for facts that change and must be right:"),
         li("the full drink menu with sizes, milk options and current prices — highlights go stale and captions cannot be searched"),
         li("this week’s hours, including a holiday or a private event that closes the room early"),
@@ -202,6 +202,7 @@ export const cafeWebsiteEn = {
           ["Can my staff change the menu, prices and holiday hours?", "Yes. Drinks, sizes, add-ons, prices, seasonal items, regular hours and exceptions are edited in a simple admin panel, from a phone too, and the layout stays the same."],
           ["Does a small cafe need a website if it has Instagram and a Google listing?", "A one-page site is often enough: the menu, the hours, the address and links to ordering. It holds the facts that posts bury, and it is the one channel the cafe owns."],
           ["How long does it take to build a cafe website?", "A simple cafe site usually takes two to four weeks from the brief. With ordering, a shop and events, plan on five to seven weeks; entering the menu data and preparing product photos take the most time."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Do you build websites for cafes in the US?", "Yes. I work from Warsaw by video call and email, in English. My afternoons and evenings overlap with US mornings, so calls fit before your morning rush or after it. I invoice in EUR, or in another currency if we agree on it."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

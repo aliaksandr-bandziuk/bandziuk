@@ -46,7 +46,7 @@ export const pozycjonowanieStronOpolePl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista, nie agencja", "Audyt od 1000 zł", "SEO po polsku i niemiecku"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "SEO po polsku i niemiecku"],
   heroPhonePoints: ["Hydraulik Opole Zaodrze", "Mapy Google", "Deutsch · Polski", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Opola: strona, wizytówka Google, konkurencja w regionie", price: 1000, currency: "PLN", unit: "one-off" },
@@ -218,6 +218,7 @@ export const pozycjonowanieStronOpolePl = {
           ["Jak samemu pozycjonować stronę?", "Osobna podstrona dla każdej usługi z miastem w tytule, pełna wizytówka Google, opinie i Google Search Console to bezpłatny początek. Technikę i wersję językową najczęściej warto zlecić."],
           ["Kto zajmuje się pozycjonowaniem stron: agencja SEO czy specjalista?", "Agencja marketingowa przydaje się, gdy potrzebujecie też kampanii i mediów społecznościowych. U mnie jedna osoba robi audyt, wdrożenie i raport, bez opiekuna klienta, z cenami w cenniku."],
           ["Czy zajmujesz się wizytówką Google w Opolu?", "Tak: kategorie, usługi, zdjęcia, godziny, obszar działania i zgodność danych z katalogami. Firmom, które jeżdżą do klientów w regionie, ustawiam obszar działania zamiast adresu tam, gdzie nie mają biura."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Jak wygląda współpraca z Opolem, skoro pracujesz w Warszawie?", "Zdalnie, jak z większością firm spoza Warszawy: krótka rozmowa wideo, lista zadań we wspólnym dokumencie i raport raz w miesiącu. Wszystko, czego potrzebuje pozycjonowanie — strona, wizytówka, dane wyszukiwań dla Opola i regionu — jest dostępne zdalnie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

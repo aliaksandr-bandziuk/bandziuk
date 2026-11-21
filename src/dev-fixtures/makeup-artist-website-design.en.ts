@@ -46,11 +46,11 @@ export const makeupArtistWebsiteDesignEn = {
   seo: {
     metaTitle: "Makeup Artist Portfolio Website Design | Bandziuk",
     metaDescription:
-      "Makeup artist website design: portfolio by category, bridal packages, prices and travel fees, booking with deposit, online courses. From 700 €.",
+      "Makeup artist website design: portfolio by category, bridal packages, prices and travel fees, booking with deposit, online courses, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Bridal, editorial, SFX portfolio"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Bridal, editorial, SFX portfolio"],
   heroPhonePoints: ["Bridal makeup and trials", "Prices and travel fees", "Check my date", "Online makeup course"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple makeup artist website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -110,6 +110,7 @@ export const makeupArtistWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for makeup artists myself: structure, design, build and launch, with no handover between people."),
         p("Makeup artist website design is what I offer here: I design and build sites for freelance makeup artists and small bridal teams myself, from the portfolio layout to the booking form and launch. Brides, wedding planners and photo producers usually see your Instagram first; your website is where they check what you charge, whether you travel to their venue and how to secure the date."),
 
         h2("Makeup artist website design: what brides and producers check before they write"),
@@ -207,6 +208,7 @@ export const makeupArtistWebsiteDesignEn = {
           ["Can I sell an online makeup course on my website?", "Yes. The course page takes payment through Stripe Checkout and sends each buyer a private video link automatically; the link can expire after a set number of days and the video cannot be downloaded. That is how the Landi Room course page works."],
           ["Can I add new looks to my portfolio myself?", "Yes. A new look is a short form in the editor: category, photos, credits and a line of text. The site resizes the photos and places them in the right gallery."],
           ["Can the website show travel fees by area?", "Yes — as a list of zones with prices, or as a short note per area page. You change the amounts yourself when fuel or tolls change."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Can you build a website for a US makeup artist from Poland?", "Yes. The work is remote and in English; your morning is my afternoon or evening in CET, which leaves time for calls before your first client of the day. You pay in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

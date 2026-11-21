@@ -43,7 +43,7 @@ export const pozycjonowanieStronKrakowPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista SEO, bez opiekuna klienta", "Audyt od 1000 zł", "Wyniki po polsku i angielsku"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Wyniki po polsku i angielsku"],
   heroPhonePoints: ["Dentysta Kraków Podgórze", "Restaurant Kazimierz Kraków", "Wasza firma w Mapach", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Krakowa: strona, wizytówka Google, konkurencja, wersje językowe", price: 1000, currency: "PLN", unit: "one-off" },
@@ -105,6 +105,7 @@ export const pozycjonowanieStronKrakowPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Pozycjonowaniem stron firm z Krakowa zajmuję się sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Pozycjonowanie stron w Krakowie to moja usługa dla firm, które chcą zdobywać klientów z Google, z Map Google i z odpowiedzi asystentów AI w mieście, w którym o każdą frazę walczy wiele firm. Pracuję jako jeden specjalista SEO: audyt, poprawki w kodzie, podstrony, wizytówkę i raport wykonuję osobiście. Z Warszawy współpracuję z firmami z Krakowa zdalnie, a ceny są podane w cenniku."),
 
         h2("Pozycjonowanie stron w Krakowie: turystyka, IT, uczelnie i usługi dla mieszkańców"),
@@ -208,6 +209,7 @@ export const pozycjonowanieStronKrakowPl = {
           ["Jak samemu pozycjonować stronę?", "Podstrona dla każdej usługi z miejscem w tytule, uzupełniona wizytówka Google, odpowiedzi na opinie i Google Search Console to darmowy początek. Technikę i wersje językowe warto zlecić."],
           ["Agencja SEO w Krakowie czy specjalista?", "Agencja sprawdza się, gdy kupujecie SEO razem z kampaniami i social media. Specjalista, który sam wykonuje pracę, sprawdza się, gdy chodzi o Google i AI, a budżet ma iść na zmiany na stronie, nie na obsługę."],
           ["Czy pomagasz z wizytówką w Mapach Google w Krakowie?", "Tak: kategorie, usługi, zdjęcia, opinie w kilku językach i zgodność danych ze stroną. W centrum Krakowa to często decyduje o tym, czy restauracja lub gabinet trafia do pierwszej trójki w Mapach."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pozycjonujesz firmy z Krakowa zdalnie z Warszawy?", "Tak. Kontakt odbywa się przez wideo, wiadomości i wspólną tabelę zadań, a zmiany na stronie widzicie na bieżąco. Wizyta w Krakowie nie jest do tego potrzebna."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

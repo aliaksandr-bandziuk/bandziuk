@@ -41,7 +41,7 @@ export const manufacturingSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Frazy techniczne PL · DE · EN", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Frazy techniczne PL · DE · EN", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Obróbka CNC aluminium seria", "Lohnfertigung Polen", "Wyślij rysunek", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy produkcyjnej: frazy, podstrony, wersje językowe, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },

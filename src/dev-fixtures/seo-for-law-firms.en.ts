@@ -107,7 +107,7 @@ export const seoForLawFirmsEn = {
       content: [
         p("Law firm SEO is the work that brings people with a legal problem to your firm’s own website when they search for it, and turns those visits into consultation requests and signed cases. I provide lawyer SEO services myself, as a single SEO consultant who also builds websites, so the person who audits your site is the person who writes the pages and changes the code."),
 
-        h2("What law firm SEO includes: practice-area pages, attorney profiles and AI answers"),
+        h2("Law firm SEO include: practice-area pages, attorney profiles and AI answers"),
         p("A prospective client rarely searches for “law firm”. They search for their problem — “how to get full custody”, “green card through marriage”, “first DUI what happens” — and law firm SEO makes sure a page on your site answers that search and that Google trusts it. The work covers:"),
         li("a structure of practice-area pages and pages for the specific legal problems inside each area"),
         li("attorney profiles and content that meet Google’s higher standard for legal topics"),

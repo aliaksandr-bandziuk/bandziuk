@@ -36,11 +36,11 @@ export const pestControlWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www dla dezynsekcji i deratyzacji | Bandziuk",
     metaDescription:
-      "Strona internetowa dla firmy DDD: wybór szkodnika, zdjęcie owada w zgłoszeniu, oferta dla gastronomii i wspólnot, formularz zgodny z RODO. Od 3000 zł.",
+      "Strona internetowa dla firmy DDD: wybór szkodnika, zdjęcie owada w zgłoszeniu, oferta dla gastronomii i wspólnot, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Wybierz szkodnika", "Wyślij zdjęcie owada", "Umowa dla gastronomii", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy DDD, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -101,6 +101,7 @@ export const pestControlWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla firm DDD buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla firm DDD — od projektu graficznego, przez wykonanie i teksty, po uruchomienie — więc całość robi jedna osoba, a cenę znasz przed pierwszą rozmową. Strona firmy zajmującej się dezynsekcją, deratyzacją i dezynfekcją ma jedno zadanie: żeby człowiek, który właśnie zobaczył coś pod zlewem, szybko zrozumiał, że trafił dobrze, i zadzwonił albo napisał."),
 
         h2("Strona internetowa dla firmy DDD: kto na nią wchodzi i czego szuka"),
@@ -202,6 +203,7 @@ export const pestControlWebsiteDesignPl = {
           ["Czy klient może przysłać zdjęcie owada przez stronę?", "Tak. Formularz przy opcji „Nie wiem, co to” przyjmuje zdjęcie z telefonu, a WhatsApp otwiera się z gotową wiadomością. Biuro rozpoznaje szkodnika przed wyceną."],
           ["Co z RODO, skoro klienci wysyłają przez stronę zdjęcia z mieszkań?", "Formularz zbiera dane osobowe, a zdjęcia bywają bardzo prywatne, więc obok niego stoi informacja o administratorze danych, zdjęcia trafiają tylko do biura, a analityka działa dopiero po zgodzie na cookies."],
           ["Czy sami możemy zmieniać ceny i włączać pasek z terminami deratyzacji?", "Tak. Teksty, widełki cen, zdjęcia i pasek z wolnymi terminami zmienia się w prostym panelu, także z telefonu, bez programisty."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy robisz strony dla firm DDD spoza Warszawy?", "Tak, w całej Polsce. Cała praca odbywa się zdalnie — po polsku, a w razie potrzeby po angielsku lub rosyjsku: brief, uwagi do makiet i odbiór idą przez wiadomości i krótkie rozmowy wideo."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

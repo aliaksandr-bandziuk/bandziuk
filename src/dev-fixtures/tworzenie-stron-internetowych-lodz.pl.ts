@@ -36,11 +36,11 @@ export const tworzenieStronInternetowychLodzPl = {
   seo: {
     metaTitle: "Projektowanie stron Łódź: projekt w cenie | Bandziuk",
     metaDescription:
-      "Strony internetowe dla firm z Łodzi i aglomeracji: projekt graficzny w cenie, teksty, wersje językowe, formularz zgodny z RODO, panel do zmian. Od 3000 zł.",
+      "Strony internetowe dla firm z Łodzi i aglomeracji: projekt graficzny w cenie, teksty, wersje językowe, formularz zgodny z RODO, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt graficzny w cenie", "Od 3000 zł", "Jedna osoba od projektu do startu"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Jedna osoba od projektu do startu"],
   heroPhonePoints: ["Realizacje i zdjęcia", "Zadzwoń · WhatsApp", "Oferta dla firm", "Wersja EN · UA"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Łodzi, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -208,6 +208,7 @@ export const tworzenieStronInternetowychLodzPl = {
           ["Ile trwa stworzenie strony internetowej?", "Prosta strona zwykle dwa–cztery tygodnie od briefu, pełna z wersjami językowymi cztery–osiem tygodni. Najdłużej trwa zwykle zebranie zdjęć i uwag do tekstów."],
           ["Agencja interaktywna w Łodzi czy jeden wykonawca?", "Agencja interaktywna przyda się, gdy razem ze stroną chcecie kampanii i mediów społecznościowych. Przy samej stronie współpraca z wykonawcą bez pośredników skraca drogę od uwagi do poprawki, a cena jest znana z góry."],
           ["Czy strona może powstać zdalnie, bez spotkań w Łodzi?", "Tak. Pracuję z Warszawy i współpracuję z łódzkimi firmami online: rozmowy wideo, projekt w przeglądarce, wspólne dokumenty. Sesję zdjęciową w Łodzi organizujecie po swojej stronie; podpowiem, jakich ujęć potrzeba."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy po uruchomieniu sami zmienimy treści?", "Tak. Teksty, ceny, zdjęcia i realizacje zmieniacie w panelu, także z telefonu. Domena, kod i treści należą do Was."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -41,7 +41,7 @@ export const seoForFlooringCompaniesPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Montaż, cyklinowanie, renowacja", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Montaż, cyklinowanie, renowacja", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Cyklinowanie parkietu Wola", "Jodełka z deski dębowej", "Cena za m²", "Zadzwoń"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy montażu podłóg: strona, wizytówka Google, konkurencja z okolicy", price: 1000, currency: "PLN", unit: "one-off" },

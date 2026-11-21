@@ -41,7 +41,7 @@ export const treeServiceSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Removal, trimming, storm work", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Removal, trimming, storm work", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Tree removal near me", "24/7 storm cleanup", "ISA Certified Arborist", "Free estimate"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Tree service SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -208,6 +208,7 @@ export const treeServiceSeoEn = {
           ["Should a tree service website show prices?", "Show the factors and typical ranges from your jobs — height, diameter, access, cleanup — rather than a fixed price per tree. Customers search for costs before they call, and a clear cost section keeps them on your site instead of a national cost guide."],
           ["Do I need an ISA certified arborist to rank in Google?", "No, Google does not require it. But if someone on your team holds the credential, show it with the number: customers and AI assistants both use it to judge whom to trust with a large tree near the house."],
           ["How do I choose a tree service SEO company or agency?", "Ask whether reports show calls and estimate requests or only rankings, whether they work for another tree company in your area, and who keeps the website and the Google profile if you part ways. Be careful with anyone who promises first place."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Can you do SEO for a US tree service from Poland?", "Yes. All the work is remote and in English. I work on Central European Time, so my afternoons and evenings fall on US mornings and middle of the day — enough for calls on most weekdays. Contracts and invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

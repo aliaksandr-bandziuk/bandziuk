@@ -40,11 +40,11 @@ export const mortgageBrokerWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla eksperta kredytowego od 3000 zł | Bandziuk",
     metaDescription:
-      "Strona internetowa dla pośrednika kredytowego: dane z rejestru KNF, krótki formularz z kalendarzem, bezpieczne dokumenty, kalkulator raty. Od 3000 zł.",
+      "Strona internetowa dla pośrednika kredytowego: dane z rejestru KNF, krótki formularz z kalendarzem, bezpieczne dokumenty, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt graficzny w cenie", "Od 3000 zł", "Dane z rejestru KNF w stopce"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Dane z rejestru KNF w stopce"],
   heroPhonePoints: ["Ile wyniesie moja rata?", "Umów rozmowę z ekspertem", "Prześlij dokumenty bezpiecznie", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona internetowa dla pośrednika kredytowego z danymi z rejestru KNF, krótkim formularzem, kalendarzem rozmów i bezpiecznym przesyłaniem dokumentów, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -214,7 +214,7 @@ export const mortgageBrokerWebsiteDesignPl = {
           ["Czy kalkulator może pokazywać aktualne oprocentowanie banków?", "Może korzystać z wartości, które ustawiasz w panelu, z datą przy każdej z nich. Bez stałego źródła danych bezpieczniejszy jest datowany przykład z RRSO, który klient może zmienić, niż liczba udająca dzisiejszą ofertę banku."],
           ["Czy agent działający w sieci może mieć własną stronę?", "Tak, jeśli pozwala na to umowa agencyjna. W stopce stoi wtedy nazwa pośrednika, w imieniu którego działasz, a domena i treści należą do Ciebie, więc po zmianie sieci wymieniasz dane w stopce, a nie całą stronę."],
           ["Jak wygląda zdalna współpraca nad stroną pośrednika kredytowego?","Pracuję zdalnie z Warszawy z pośrednikami z całej Polski. Rozmawiamy przez wideo po polsku, angielsku albo rosyjsku, projekt komentujesz we wspólnym pliku, a na koniec dostajesz fakturę."],
-          ["Czy strona pośrednika kredytowego pojawi się w odpowiedziach ChatGPT?", "Nikt nie może tego zagwarantować. Strona usuwa typowe przeszkody: dane ukryte w grafikach, PDF-ach i skryptach. Numer wpisu, miasta, języki i eksperci są tekstem z danymi strukturalnymi, a dalszą pracę nad obecnością w odpowiedziach AI też prowadzę."],
+          ["Czy strona pośrednika kredytowego pojawi się w odpowiedziach ChatGPT, Perplexity i Gemini?", "Nikt nie może tego zagwarantować. Strona usuwa typowe przeszkody: dane ukryte w grafikach, PDF-ach i skryptach. Numer wpisu, miasta, języki i eksperci są tekstem z danymi strukturalnymi, a dalszą pracę nad obecnością w odpowiedziach AI też prowadzę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

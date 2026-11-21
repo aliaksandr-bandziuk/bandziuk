@@ -33,11 +33,11 @@ export const hvacWebsitesEn = {
   seo: {
     metaTitle: "HVAC Websites with Booking and Maintenance Plans",
     metaDescription:
-      "HVAC websites for heating and cooling companies: no-heat and no-AC pages, online booking, maintenance plan sign-up, financing and rebate pages. From 700 €.",
+      "HVAC websites for heating and cooling companies: no-heat and no-AC pages, online booking, maintenance plan sign-up, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["No heat? Call now", "Book a tune-up online", "Join the maintenance plan", "Yours, no lock-in"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple HVAC website", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -52,7 +52,7 @@ export const hvacWebsitesEn = {
       items: [
         { _key: k("o"), iconName: "phone", title: "No-heat and no-AC pages that end in a call", text: "Safety line, quick checks, then your number" },
         { _key: k("o"), iconName: "layers", title: "A page for each heating and cooling service", text: "Repair, replacement, heat pumps, ductless, air quality" },
-        { _key: k("o"), iconName: "plug", title: "Bookings that reach your dispatch board", text: "ServiceTitan, Housecall Pro, FieldEdge or email" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
         { _key: k("o"), iconName: "trending-up", title: "Maintenance plans sold on the website", text: "Sign-up and payment; new members land in your software" },
         { _key: k("o"), iconName: "file-text", title: "Rebates with end dates", text: "An expired rebate disappears from every page by itself" },
         { _key: k("o"), iconName: "shield-check", title: "Code, content and domain are yours", text: "No platform fee; you switch the seasons yourself" },
@@ -230,6 +230,10 @@ export const hvacWebsitesEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("HVAC websites and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews who repairs a furnace the same day and how much a tune-up costs. The assistant answers from text it can read, and names companies whose pages carry the facts: services, brands, plans and emergency hours."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order a website for your HVAC company: what to send me"),
         p(
           "Send the company name, a link to your current website or Google profile, the services you want more of, the towns you cover, the software you dispatch from and the terms of your maintenance plan. Your financing partner and the rebates you currently promote help me plan those pages. I will reply with a sitemap and a fixed price. Use the ",

@@ -47,11 +47,11 @@ export const remodelingSeoEn = {
   seo: {
     metaTitle: "Remodeling SEO — audit from €250",
     metaDescription:
-      "SEO for remodeling and renovation companies: project pages with real costs, duration and disruption, and search instead of resold leads. Audit €250.",
+      "SEO for remodeling and renovation companies: project pages with real costs, duration and disruption, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Project pages with real costs", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Project pages with real costs", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Kitchen and bathroom cost pages", "Duration and disruption answered", "No per-lead fees to platforms", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a remodeling company: site, project pages, local profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -93,6 +93,7 @@ export const remodelingSeoEn = {
       layout: "guide",
       content: [
         h2("Which businesses this page is for, and where the neighbouring trades are covered"),
+        p("I do SEO for remodeling companies myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("This page is about renovating homes people already live in, sold to the homeowner: kitchens, bathrooms, loft and basement conversions, extensions, whole-house refurbishment. That client, that price and that decision process are specific enough to need their own approach, and different enough from the neighbouring trades to be worth separating before anything else."),
         p(
           "If you build new houses, the buyer and the cycle are different and that is ",
@@ -115,7 +116,7 @@ export const remodelingSeoEn = {
         li("what pushes a job to the top of the range: structural work, moving services, a difficult building;"),
         li("and the minimum project you take, which saves everybody the enquiry."),
 
-        h3("Why «from €X» and «every project is unique» both lose the search"),
+        h3("«from €X» and «every project is unique» both lose the search"),
         p("Two habits keep remodelers off these pages. The first is a single «from» figure, which the homeowner correctly reads as the cheapest job you ever did and discounts entirely. The second is the sentence that every project is unique, which is true and answers nothing: the person asking knows their kitchen is not identical to the last one, and is asking for an order of magnitude so they can decide whether to keep reading."),
         p("The version that works gives three bands with what distinguishes them, and says plainly which band most of your work falls into. It takes an afternoon with your own invoices, and it is the highest-value page most remodeling companies do not have."),
 
@@ -185,6 +186,7 @@ export const remodelingSeoEn = {
           ["How long before enquiries arrive?", "First movement after about a month and a half, growth on a three to six month horizon. Then add this trade's own delay: the homeowner who finds you in March may sign in June. The first results that look like anything are usually cost-page visits and saved pages rather than calls."],
           ["Do I need a page for every project type?", "For every type you want more of. Kitchens, bathrooms, loft conversions and extensions are four different budgets and four different anxieties, and one page about renovation answers none of them properly."],
           ["Is the Google profile as important as for smaller trades?", "It matters, and less than it does for an emergency plumber. Remodeling clients compare over weeks and end up on the website, so the profile earns the first visit while the project and cost pages win the comparison. Both get attention, in that order."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Who writes the project pages?", "I draft them from what you give me — scope, duration, cost band, what was found behind the wall — and you correct them. The detail that makes these pages convert is the part only the company that did the job knows, and a homeowner reading them can tell whether a builder or a copywriter supplied it."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -193,6 +195,10 @@ export const remodelingSeoEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("Remodeling SEO and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which remodeler nearby does whole-house projects and what a kitchen remodel costs in their city. The assistant answers from text it can read, and names companies whose pages carry the facts: project types, price ranges, service area and finished projects."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order an SEO audit for a remodeling company: what to send me"),
         p("Send the site, say which project types you want more of, and tell me whether you are currently paying a platform per lead. I reply within one working day with what is holding the site back, which cost and duration pages are missing, and what I would do first — including an estimate of how long it would take before search replaces any part of what you are paying per enquiry now."),
       ],

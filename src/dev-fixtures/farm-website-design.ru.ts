@@ -43,11 +43,11 @@ export const farmWebsiteDesignRu = {
   seo: {
     metaTitle: "Создание сайта для фермерского хозяйства | Bandziuk",
     metaDescription:
-      "Сайт для фермы: список продуктов с телефона, заказ в WhatsApp и Telegram, доставка по дням, предоплата за мясо и наборы, 2GIS, агротуризм, опт. От 700 €.",
+      "Сайт для фермы: список продуктов с телефона, заказ в WhatsApp и Telegram, доставка по дням, предоплата за мясо и наборы, 2GIS, агротуризм, ответы ИИ. От 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Дизайн + разработка, одна цена", "От 700 €", "RU · EN · язык страны"],
+  heroChips: ["Видимость в ChatGPT и ИИ", "От 700 €", "RU · EN · язык страны"],
   heroPhonePoints: ["На этой неделе: сыр и мёд", "Доставка по городу в пятницу", "Заказать в WhatsApp", "Как доехать до фермы"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Простой сайт для фермы, дизайн включён", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },

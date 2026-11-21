@@ -44,7 +44,7 @@ export const realEstateSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Katalog i podstrony lokalizacji", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Katalog i podstrony lokalizacji", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Mieszkania Wilanów", "Ile kosztuje zakup mieszkania", "Nowe inwestycje w pobliżu", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony nieruchomości: katalog, lokalizacje i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -85,7 +85,8 @@ export const realEstateSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego strona biura nieruchomości przegrywa z portalami w Google i co da się zmienić"),
+        h2("Strona biura nieruchomości przegrywa z portalami w Google i co da się zmienić"),
+        p("Zajmuję się pozycjonowaniem stron nieruchomości sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Strony nieruchomości nie są niewidoczne z powodu wyglądu. Są niewidoczne, bo podstrony, które mogłyby się wyświetlać, po prostu nie istnieją, a te, które istnieją, są rozsypane po setkach adresów z filtrami. Przyczyna jest prawie zawsze strukturalna, a nie kosmetyczna."),
         p("Druga przyczyna to konkurencja. Otodom, OLX, Morizon i Nieruchomości-online trzymają zapytania ogólne w rodzaju «mieszkania <miasto>» i żadna optymalizacja nie postawi biura wyżej od nich. Tam ta praca się nie zwraca i nie będę obiecywać inaczej."),
         p("Zwraca się tam, gdzie portale odpowiadają słabo. Klient pyta, która dzielnica będzie dobra dla rodziny, ile w sumie kosztuje zakup razem z podatkiem i notariuszem, co faktycznie obejmuje konkretna inwestycja, czym różni się rentowność najmu w dwóch dzielnicach — i dostaje od portalu listę ogłoszeń zamiast odpowiedzi. Tę lukę zamyka własna strona, a zapytanie przychodzi wtedy bezpośrednio, nie jest kupowane."),
@@ -183,6 +184,7 @@ export const realEstateSeoPl = {
           ["Po jakim czasie będą efekty", "Około półtora miesiąca do pierwszych mierzalnych zmian, trzy do sześciu miesięcy do stałego wzrostu zapytań. Zapytania ogólne, które trzymają portale, idą dłużej; długi ogon rusza pierwszy, dlatego od niego zaczynamy."],
           ["Jak sprawdzić, czy SEO działa", "Po zapytaniach, nie po pozycjach. Ile zapytań przyszło z wyszukiwarki, ile z nich jest wartościowych, ile kosztuje zapytanie z wyszukiwarki w porównaniu z reklamowym i jak rośnie udział wyszukiwarki w całym strumieniu. Pozycje są wskaźnikiem pośrednim — pokazuję je, ale wynikiem nie są."],
           ["Jesteśmy agentem indywidualnym, nie biurem. Ta strona jest dla nas?", "Nie. Agent indywidualny sprzedaje swoje nazwisko, kilka dzielnic i własną historię transakcji — praca wygląda inaczej i ma osobną podstronę o pozycjonowaniu strony agenta nieruchomości. Deweloper sprzedający własne inwestycje ma swoją."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Pracujecie ze stronami w kilku językach?", "Tak, ta strona sama działa w trzech. Wielojęzyczne strony nieruchomości to właśnie miejsce, gdzie zwykle siedzi naprawialna szkoda techniczna: zepsuty hreflang, tłumaczenia maszynowe w indeksie, różne nazwy tych samych lokalizacji."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

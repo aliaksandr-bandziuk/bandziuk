@@ -42,7 +42,7 @@ export const pozycjonowanieStronWroclawPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista zamiast agencji", "Audyt od 1000 zł", "Firmy z Wrocławia i Dolnego Śląska"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Firmy z Wrocławia i Dolnego Śląska"],
   heroPhonePoints: ["Fizjoterapia Wrocław Krzyki", "Wasza firma w Mapach Google", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Wrocławia: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -154,7 +154,7 @@ export const pozycjonowanieStronWroclawPl = {
 
         h2("Pozycjonowanie stron B2B i stron w kilku językach dla wrocławskich firm"),
         p("Firmy IT, produkcyjne i logistyczne z Wrocławia rzadko są szukane z nazwą miasta. Klient wpisuje usługę, technologię albo rodzaj produkcji, porównuje dostawców przez kilka tygodni i wraca na stronę kilka razy. Pozycjonowanie opiera się tu na podstronach usług z konkretami — dla kogo, w jakim zakresie, jak wygląda współpraca — na opisach realizacji i na wersjach językowych, w których każda ma własne adresy i oznaczenia hreflang."),
-        h3("Co mierzę przy pozycjonowaniu B2B"),
+        h3("Pozycjonowanie B2B: co mierzę"),
         p("Zapytania ofertowe z formularza, wiadomości do handlowców i pobrania materiałów, rozdzielone na kraje i języki. Sama liczba wejść w B2B mówi niewiele. Jedno trafne zapytanie od zakładu z drugiego końca Europy może być warte więcej niż setki wizyt studentów, którzy trafili na artykuł przypadkiem, dlatego raport pokazuje, które podstrony przyniosły rozmowy handlowe, a nie tylko ruch."),
 
         h2("Pozycjonowanie stron we Wrocławiu w ChatGPT i Google AI Overviews (GEO, AEO)"),
@@ -200,6 +200,7 @@ export const pozycjonowanieStronWroclawPl = {
           ["Kto zajmuje się pozycjonowaniem stron we Wrocławiu?", "Wrocławskie agencje, ogólnopolskie firmy z podstroną dla miasta i pojedynczy specjaliści. Ja pracuję sam: audyt, wdrożenie i raport robi ta sama osoba."],
           ["Jak samemu pozycjonować stronę?", "Osobna podstrona dla każdej usługi z miastem lub osiedlem w tytule, uzupełniona wizytówka Google, opinie i Google Search Console. Technikę, wersje językowe i przebudowę zwykle warto zlecić."],
           ["Czy warto mieć stronę po ukraińsku lub po angielsku?", "Jeśli dane wyszukiwań w Waszej branży to pokazują — tak. Każda wersja potrzebuje własnych adresów, oznaczeń hreflang i treści napisanej dla tamtejszego klienta."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Czy firma z Wrocławia może współpracować ze specjalistą z Warszawy?", "Tak. Cała współpraca toczy się online: rozmowa wideo, wspólny dokument z zadaniami i raport co miesiąc. Dane i konkurencję sprawdzam dla Wrocławia."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

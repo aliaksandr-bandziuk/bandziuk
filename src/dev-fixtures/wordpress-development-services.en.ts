@@ -48,11 +48,11 @@ export const wordpressDevelopmentServicesEn = {
   seo: {
     metaTitle: "WordPress Website Development from 700 € | Bandziuk",
     metaDescription:
-      "WordPress development services by one developer: custom theme, no heavy page builder, only needed plugins, fast and secure. From 700 €, design included.",
+      "WordPress development services by one developer: custom theme, no heavy page builder, only needed plugins, AI answers. From 700 €, design included.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Custom theme, no page builder", "From 700 €", "Design included"],
+  heroChips: ["Custom theme, no page builder", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Services and prices", "Case studies", "EN · PL · DE", "Book a call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Custom WordPress website on a lean theme, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -114,7 +114,7 @@ export const wordpressDevelopmentServicesEn = {
       content: [
         p("I provide WordPress development services for companies that have already decided on WordPress, or already run on it, and want a site that is fast, safe to update and pleasant to edit. I design, code and launch the site myself, so the person who answers your questions is the person who writes the theme. I have worked with WordPress for years next to my SEO work, which is why every site I build starts with how it will be found, not only how it will look."),
 
-        h2("What WordPress website development services include"),
+        h2("WordPress website development services include"),
         p("A typical project covers the whole path from an empty folder to a site your team edits on its own:"),
         li("page structure planned around what people search for, with one page per service or product line"),
         li("design for phones and desktops, agreed with you before the build"),
@@ -233,6 +233,7 @@ export const wordpressDevelopmentServicesEn = {
           ["Will my team be able to edit the site without a developer?", "Yes. Texts, images, prices, new pages and blog posts are edited in the WordPress admin with blocks designed for your content. You get a short guide, and the layout stays intact whatever is typed in."],
           ["Who owns the theme, plugins and content?", "You do. The custom theme and plugins are handed over with the site, the domain and hosting are in your name, and you can move to another developer or host at any time."],
           ["Can you work with my team from Poland, in my time zone?", "Yes. I work remotely from Warsaw on Central European Time, which overlaps with UK and European working hours fully and with US East Coast mornings. I invoice as a registered sole trader, in EUR or another currency by agreement, and we work in English by email, chat and video calls."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you also maintain WordPress sites after launch?", "Yes. You can handle updates yourself with the guide, or leave updates, backups, uptime checks and small changes to me on a maintenance plan."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

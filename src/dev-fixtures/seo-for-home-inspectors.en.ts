@@ -36,7 +36,7 @@ export const seoForHomeInspectorsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Buyer, pre-listing, add-on pages", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Buyer, pre-listing, add-on pages", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Home inspector near me", "Book online", "Sample report", "Radon + sewer scope"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Home inspector SEO audit: website, Google Business Profile, competitors", price: 250, currency: "EUR", unit: "one-off" },
@@ -194,6 +194,7 @@ export const seoForHomeInspectorsEn = {
           ["Should a home inspector publish prices online?", "In most cases, yes. Buyers are working against a deadline and compare quickly. A base price by square footage with add-on prices listed lets them book without calling, and it gives AI assistants a figure to quote with your name next to it."],
           ["Does it matter which inspection software I use?", "Not for SEO. Spectora, HomeGauge, ISN and similar tools all offer booking and web reports. What matters is that the booking and the sample report sit on pages of your own site that search engines can read."],
           ["Can I do SEO for my home inspection business myself?", "Part of it: keep the Google profile complete, add photos after inspections and ask every client for a review. Page structure, technical fixes and structured data are where inspectors usually save time by handing the work over."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you work with home inspectors in the US from Poland?", "Yes. The work is remote: website, profile and search data for your counties. My afternoon and evening in Central European Time overlap with the US morning, so calls are easy to schedule, and invoices are in euros."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

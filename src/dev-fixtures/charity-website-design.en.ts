@@ -38,11 +38,11 @@ export const charityWebsiteDesignEn = {
   seo: {
     metaTitle: "Charity Web Design for UK Charities | Bandziuk",
     metaDescription:
-      "Charity website design for UK charities, build included: charity number shown, Gift Aid on the donation form, consent under UK GDPR and PECR. From 700 €.",
+      "Charity website design for UK charities, build included: charity number shown, Gift Aid on the donation form, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €, invoiced in EUR", "Reply within one working day"],
+  heroChips: ["Design + build, one price", "From 700 €, invoiced in EUR", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Donate · Gift Aid it", "Registered charity no.", "Volunteer with us", "Annual report"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple charity website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -202,6 +202,7 @@ export const charityWebsiteDesignEn = {
           ["Will the website follow UK GDPR and PECR?", "The design gives every form separate, unticked opt-ins, a linked privacy notice and a cookie banner with a real choice, and records consent. Your charity remains the data controller and decides the wording; check the ICO’s current guidance."],
           ["Can our staff and volunteers update the charity website?", "Yes. News, appeals, events, reports and photos are edited in a simple admin panel. Each person gets a role, so a volunteer can post an event without being able to change the donation form."],
           ["How do you design a charity website, and how long does it take?", "I do the structure, design and build myself. You send your objects, services, current site and donation platform; I lay out the home, donation and governance pages for a phone, design them in full, then build the site with an admin panel for staff. A simple site usually takes three to five weeks, a full one six to eight, depending on how quickly texts and photos arrive."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["How do you work with a UK charity from Poland?", "Remotely and in English. Warsaw is one hour ahead of the UK, so calls and design reviews fit easily into your working day, with comments in a shared design file in between. Contracts and invoices are in euros."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

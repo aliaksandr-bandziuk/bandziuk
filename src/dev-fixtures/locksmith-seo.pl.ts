@@ -40,7 +40,7 @@ export const locksmithSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Mapy Google, drzwi, auta", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Mapy Google, drzwi, auta", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Ślusarz Mokotów 24h", "Zadzwoń teraz", "Cena przed dojazdem", "Kodowanie kluczyków"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO ślusarza: wizytówka Google, strona, konkurencja w Mapach, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -197,6 +197,7 @@ export const locksmithSeoPl = {
           ["Jak zgłosić fałszywą wizytówkę ślusarza?", "Przez „Zaproponuj zmianę” w Mapach, z dowodem, że pod adresem nie ma firmy, a przy wizytówkach, które wracają — przez formularz skarg Google. Trzeba się uzbroić w cierpliwość i sprawdzać okolicę co miesiąc."],
           ["Co jest lepsze: pozycjonowanie czy Google Ads?", "Reklama daje telefony od pierwszego dnia, ale za każde kliknięcie, a nocne frazy ślusarskie są drogie. Pozycjonowanie potrzebuje miesięcy, za to telefony z Map i strony nie kosztują za połączenie. Kampanie może dalej prowadzić osoba, która już się nimi zajmuje; moja część to SEO, które z czasem zmniejsza zależność od płatnych kliknięć."],
           ["Jak długo trwa pozycjonowanie strony ślusarza?", "Porządek w wizytówce i usunięcie spamu potrafią zmienić wynik w Mapach w kilka tygodni. Nowe podstrony usług zwykle potrzebują dwóch–czterech miesięcy, w dużych miastach dłużej."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy pracujesz ze ślusarzami spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie robię zdalnie: wizytówka, strona i dane wyszukiwań dla Twojego miasta i dzielnic."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

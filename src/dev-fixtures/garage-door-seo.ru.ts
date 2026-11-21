@@ -41,7 +41,7 @@ export const garageDoorSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Ворота, автоматика, ремонт", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Ворота, автоматика, ремонт", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Откатные ворота под ключ", "Привод с открытием с телефона", "Шлагбаум для ЖК", "Замер бесплатно"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит компании по воротам: сайт, 2GIS и Google Карты, конкуренты, ответы ИИ", price: 250, currency: "EUR", unit: "one-off" },

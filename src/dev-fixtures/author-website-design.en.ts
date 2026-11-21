@@ -41,11 +41,11 @@ export const authorWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Authors and Novelists | Bandziuk",
     metaDescription:
-      "Author website design and build: book pages with retailer links, series reading order, newsletter sign-up, ARC requests, media kit and events. From 700 €.",
+      "Author website design and build: book pages with retailer links, series reading order, newsletter sign-up, ARC requests, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design and build in one price", "From 700 €", "Made for series and backlists"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Made for series and backlists"],
   heroPhonePoints: ["Book 4 · Preorder now", "Reading order: start here", "Free prequel for subscribers", "Bookshop.org · Kindle · Kobo"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple author website with design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -105,6 +105,7 @@ export const authorWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for authors myself: structure, design, build and launch, with no handover between people."),
         p("Author website design is the service: I plan, design and build websites for novelists and nonfiction writers, so the same person draws your book pages, codes them and puts the site live. Retailers show one title at a time next to other people’s books. Your site shows your whole shelf, tells a new reader where to begin and asks them to stay in touch when they finish."),
 
         h2("Author website design starts with the reader who just finished your book"),
@@ -203,7 +204,7 @@ export const authorWebsiteDesignEn = {
           ["Can I add a new book myself?", "Yes. In the editor a new book is a form: title, cover, blurb, formats, ISBNs, series number and retailer links. It appears on the book list, its series page and the home page without any code."],
           ["One website for several pen names, or one each?", "One site with a hub per pen name is usually cheaper to run and update. When the audiences should not cross, for example picture books and adult thrillers, separate sites are the safer choice."],
           ["How does a US author work with a web designer in Poland?", "Fully online, in English. Warsaw is six hours ahead of New York, so my afternoon is your morning and a review call fits easily, and comments on the designs cover the rest. You get a written contract and invoices in EUR."],
-          ["Will my books appear in ChatGPT answers?", "The site gives AI assistants what they need to read: author and book facts as text and structured data for books and series. Getting named for particular questions is ongoing SEO and GEO work that I offer separately."],
+          ["Will my books appear in ChatGPT, Perplexity and Gemini answers?", "The site gives AI assistants what they need to read: author and book facts as text and structured data for books and series. Getting named for particular questions is ongoing SEO and GEO work that I offer separately."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

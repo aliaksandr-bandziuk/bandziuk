@@ -40,7 +40,7 @@ export const restorationSeoRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Залив, пожар, плесень", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Залив, пожар, плесень", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Залили соседи сверху", "Выезд круглосуточно", "Замер влажности", "Фото в WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит компании по осушению: сайт, Google Карты и 2GIS, страница срочных заказов", price: 250, currency: "EUR", unit: "one-off" },

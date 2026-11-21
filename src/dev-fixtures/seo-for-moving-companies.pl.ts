@@ -43,7 +43,7 @@ export const seoForMovingCompaniesPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Lokalne, krajowe, zagraniczne", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Lokalne, krajowe, zagraniczne", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Przeprowadzki Wrocław", "Wycena po zdjęciach", "Opinie w Google", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy przeprowadzkowej: strona, formularz wyceny, wizytówka Google i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -212,6 +212,7 @@ export const seoForMovingCompaniesPl = {
           ["Czy warto dalej brać zlecenia z Oferteo i Fixly?", "Jeśli się opłacają, tak. Warto jednak policzyć, ile płacisz za jedno wygrane zlecenie, skoro to samo zapytanie widzi kilka firm. Pozycjonowanie pozwala z czasem mniej od nich zależeć."],
           ["Czy potrzebuję podstrony dla każdego miasta?", "Tylko dla miast i kierunków, w których naprawdę pracujesz i możesz napisać coś konkretnego. Kopiowane podstrony z podmienioną nazwą miasta Google traktuje jako spam."],
           ["Czy publikować cennik przeprowadzek na stronie?", "Warto pokazać przynajmniej zasady: stawkę za godzinę lub ryczałt, minimalny czas i dopłaty. Klient szybciej decyduje, a asystenci AI mają liczbę z Twoją nazwą. Ostateczną cenę możesz dalej podawać po zdjęciach lub oględzinach."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pracujesz z firmami przeprowadzkowymi spoza Warszawy?", "Tak, z całej Polski. Pozycjonowanie robię zdalnie, na danych wyszukiwań dla Twojego miasta i kierunków, po polsku, a wersje dla klientów z zagranicy — także po angielsku."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

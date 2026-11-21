@@ -40,7 +40,7 @@ export const seoForHomeInspectorsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Odbiory mieszkań i domów", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Odbiory mieszkań i domów", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Odbiór mieszkania Wrocław", "Wolny termin w czwartek", "Przykładowy protokół", "Cena za m²"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy odbiorów mieszkań: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -194,6 +194,7 @@ export const seoForHomeInspectorsPl = {
           ["Czy pisać ceny odbiorów na stronie?", "Tak. Kupujący ma mało czasu i porównuje szybko; cena za metr z dopłatami pozwala mu zarezerwować bez telefonu, a asystenci AI chętniej cytują firmę, która podaje konkretną kwotę."],
           ["Czy mogę pisać o konkretnych deweloperach i osiedlach?", "Tak, jeśli opisujesz fakty z własnych odbiorów i nie oskarżasz. Podstrona o osiedlu, na którym zrobiłeś wiele odbiorów, ma realną treść; lista „najgorszych deweloperów” to ryzyko, a nie SEO."],
           ["Czy pozycjonujesz firmy odbiorów spoza Warszawy?", "Tak, z całej Polski. Pracuję zdalnie: strona, wizytówka i dane wyszukiwań dla Twoich miast."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy da się pozycjonować samą wizytówkę bez strony?", "Wizytówka bez strony potrafi przynieść telefony, ale trudno jej wygrać z firmami, które mają podstrony usług, cen i przykładowy protokół. Strona daje też treść, którą cytują ChatGPT i podsumowania AI."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

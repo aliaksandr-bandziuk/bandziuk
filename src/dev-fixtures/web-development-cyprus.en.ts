@@ -42,11 +42,11 @@ export const webDevelopmentCyprusEn = {
   seo: {
     metaTitle: "Website design and development in Cyprus from €2,000",
     metaDescription:
-      "Websites for Cyprus businesses: Limassol, Paphos, Larnaca, Nicosia. Multilingual, SEO in the code, built by one developer. From €2,000, reply in a working day.",
+      "Websites for Cyprus businesses: Limassol, Paphos, Larnaca, Nicosia. Multilingual, SEO in the code, AI answers. From €2,000, reply in a working day.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Limassol, Paphos, Larnaca, Nicosia", "Websites from €2,000", "Reply in 1 working day"],
+  heroChips: ["Limassol, Paphos, Larnaca, Nicosia", "Websites from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Our services", "Request a quote", "English · Ελληνικά · Русский", "Call us"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Business website: structure, pages, forms, multilingual", price: 2000, currency: "EUR", unit: "one-off" },
@@ -65,7 +65,7 @@ export const webDevelopmentCyprusEn = {
         { _key: k("o"), iconName: "zap", title: "Single-service landing page", text: "One offer, one page, built to convert" },
         { _key: k("o"), iconName: "shopping-cart", title: "Online store", text: "Catalogue, cart, payments, delivery" },
         { _key: k("o"), iconName: "wrench", title: "Web maintenance in Cyprus", text: "Updates, backups, fixes, small changes" },
-        { _key: k("o"), iconName: "search", title: "Custom web development", text: "Portals, listings, accounts, integrations" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -87,7 +87,8 @@ export const webDevelopmentCyprusEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why websites in Cyprus so often fail to bring enquiries"),
+        h2("Websites in Cyprus so often fail to bring enquiries"),
+        p("I design and build websites for companies in Cyprus myself: structure, design, build and launch, with no handover between people."),
         p("Most Cyprus business sites are built as brochures: a homepage, an «about us», a services page listing everything in one block, and a contact form. They look finished and they rank for the company name, which is the one query where the company would be found anyway. Nothing on them answers the question a buyer actually types, so nothing on them can be found by a buyer who does not yet know the company exists."),
         p("The second reason is language. A Cyprus business often serves three audiences at once — local Greek-speaking customers, English-speaking expats and residents, and Russian-speaking buyers and business owners — and a site built in one language with a translation plugin bolted on serves none of them properly. Search engines treat a half-translated site as a weaker version of itself, and a buyer who lands on a page in the wrong language leaves."),
         p("The third is speed and structure, which nobody notices until a competitor outranks them. A site on a page builder with twelve plugins loads slowly on the phone, where almost all of these sites are actually opened."),
@@ -136,7 +137,7 @@ export const webDevelopmentCyprusEn = {
           ".",
         ),
 
-        h2("What a website costs in Cyprus and what moves the price"),
+        h2("A website: what it costs in Cyprus and what moves the price"),
         p(
           "A business website starts at €2,000. A single-service landing page is €700–1,400. A redesign that keeps the existing rankings starts at €1,000. What moves the price: how many service pages, how many languages, whether anything has to be integrated with a system you already run, and whether the content exists or has to be written. Design is included and never appears as a separate line, because a design nobody builds is not worth paying for. The figures with what sits behind them are in the article ",
           link("what a website costs in Cyprus", "/blog/website-development-cost-in-cyprus"),
@@ -197,6 +198,7 @@ export const webDevelopmentCyprusEn = {
           ["Will the site be ready for search engines?", "It is built so that search is possible: a page per service, structure planned around real queries, markup that matches the page, and speed on the templates that matter. Ongoing promotion is separate work with its own price."],
           ["How long does website development take?", "Two to three weeks for a landing page, four to six for a business website, longer for listings or accounts. The content and the sign-off decisions stretch the timeline far more often than the code does."],
           ["Who maintains the site after launch?", "You can, for everything that changes week to week — prices, services, team, text. For updates, backups and the technical side there is a separate maintenance service, and you are not obliged to take it from me."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Who owns the site?", "You do: the code, the domain, the content and every login. Nothing is held back as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

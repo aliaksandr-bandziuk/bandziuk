@@ -42,11 +42,11 @@ export const cafeWebsiteDesignEn = {
   seo: {
     metaTitle: "Coffee Shop Website Design: Menu, Photos, Booking",
     metaDescription:
-      "Cafe website design: your brand from cup to screen, drink and room photos, a menu that reads at a glance, a phone-first look. Included in the site, from 700 €.",
+      "Cafe website design: your brand from cup to screen, drink and room photos, a menu that reads at a glance, AI answers. Included in the site, from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design included in the site", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design included in the site", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Your cup, your colors", "This season’s drink", "Menu at a glance", "One photo, one mood"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple cafe website with custom design", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -64,7 +64,7 @@ export const cafeWebsiteDesignEn = {
         { _key: k("o"), iconName: "file-text", title: "A menu layout that reads at a glance", text: "Sizes in columns, add-ons on one line" },
         { _key: k("o"), iconName: "phone", title: "A first screen designed for the phone", text: "Vertical crop, one line in your voice, two buttons" },
         { _key: k("o"), iconName: "sparkles", title: "Seasonal looks without a redesign", text: "Accent color, photo and banner set from the CMS" },
-        { _key: k("o"), iconName: "gauge", title: "Rich photos, light pages", text: "Images sized per screen, no loading animation" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple cafe website", value: "700–1,400 €", note: "design included" },
@@ -195,6 +195,7 @@ export const cafeWebsiteDesignEn = {
           ["Will the design match our online ordering and loyalty pages?", "Hosted ordering and loyalty pages from POS providers usually let you set a logo and colors, and I set them to match the site. Their layout stays the provider’s, so the same button style and wording lead guests from the site into ordering without a jolt."],
           ["Can we change the seasonal look ourselves?", "Yes. Each season’s accent color, hero photo and banner are set in the CMS with a start and end date. The layout and the menu structure stay fixed, so nothing breaks."],
           ["Can you redesign our cafe website without losing its place in Google?", "Yes. The new design keeps the existing page addresses where it can; where an address changes, it gets a 301 redirect to the new page, and structured data carries over."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["How do we review the design if you work from Poland?", "You get a link to the design on a phone and a desktop and leave comments on it; we talk it through on a video call in English. Warsaw afternoons and evenings fall in US mornings. I invoice in EUR, or in another currency by agreement."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

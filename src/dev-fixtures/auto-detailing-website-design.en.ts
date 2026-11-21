@@ -36,11 +36,11 @@ export const autoDetailingWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Auto Detailing Businesses | Bandziuk",
     metaDescription:
-      "Auto detailing website design: packages from interior detail to ceramic coating and PPF, before/after galleries, mobile service areas, deposits. From 700 €.",
+      "Auto detailing website design: packages from interior detail to ceramic coating and PPF, before/after galleries, mobile service areas, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "For shops and mobile detailers"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "For shops and mobile detailers"],
   heroPhonePoints: ["Book a detail", "Interior · Coating · PPF", "Before / after photos", "We come to you"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple auto detailing website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -151,7 +151,7 @@ export const autoDetailingWebsiteDesignEn = {
         li("the site lives on the platform and disappears when the subscription ends"),
         p("A custom site keeps your booking tool and adds what the template lacks: a page per package, a fast gallery and service area pages under your own domain."),
 
-        h2("What the best auto detailing websites have in common"),
+        h2("Auto detailing websites that book jobs: what the best ones share"),
         p("Lists of the best auto detailing websites mostly show dark themes and glossy sports cars. The sites that keep a calendar full share less visible habits:"),
         li("the first screen says what you do, where, and how to book, with call and text buttons"),
         li("work from your own shop and your own van rather than stock photos of supercars"),
@@ -213,6 +213,7 @@ export const autoDetailingWebsiteDesignEn = {
           ["Should I take a deposit for detailing appointments?", "Many detailers do, especially for coatings, film and full-day jobs. The site shows the amount and the cancellation rules before payment, so a deposit reads as a fair rule, not a surprise."],
           ["Are auto detailing website templates good enough?", "For a first site with a few packages, often yes. They get awkward once you need a page per package, a gallery of hundreds of before/after sets and service area pages, and switching later means rebuilding from zero."],
           ["Will the website help me show up for “ceramic coating near me”?", "It gives search engines what they need: a page per package, the service area in text, matching business details and structured data. The map ranking itself also rests on your Google profile and steady reviews; I can handle both as ongoing work."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you work with detailing businesses in the US?", "Yes. Everything is done remotely from Poland, in English. Calls go in my afternoon or evening, which is morning across most of the US, and invoices are issued in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

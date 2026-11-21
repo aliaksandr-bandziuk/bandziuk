@@ -22,11 +22,11 @@ export const websiteForContractorsEn = {
   seo: {
     metaTitle: "Websites for Contractors: Custom-Built, Yours | Bandziuk",
     metaDescription:
-      "Contractor websites built to bring calls and estimate requests: service and area pages, a form linked to your scheduling tool, no lock-in. From 700 €.",
+      "Contractor websites built to bring calls and estimate requests: service and area pages, a form linked to your scheduling tool, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Services and areas", "Estimate requests", "Projects from a phone", "Yours, no lock-in"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple contractor website", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -88,7 +88,7 @@ export const websiteForContractorsEn = {
       content: [
         p("I build websites for contractors from start to finish — structure, design, development and launch — and the site is yours when it is done. A contractor website is not a brochure: it is where homeowners and property managers decide whether to call you, so it is built around calls and estimate requests, and around the way your office actually handles them."),
 
-        h2("What a website for contractors needs to bring calls and estimate requests"),
+        h2("A contractor website that brings calls and estimate requests: what it needs"),
         p("Most contractor websites have a home page, an “about us”, a list of services on one page and a contact form. That is enough to exist, not enough to be found or chosen. A contractor website that brings work has:"),
         li("a page for each service — the jobs you want more of, not everything you have ever done"),
         li("a page for each town or area you cover, with projects from there"),
@@ -182,6 +182,7 @@ export const websiteForContractorsEn = {
           ["Do we pay a monthly fee?", "No platform fee. You pay for hosting and the domain at cost, usually a few euros a month. Changes after launch are paid as work done, not as a retainer."],
           ["Can our crew add projects themselves?", "Yes. A new project is a short form in a simple admin panel, including from a phone: photos, the job, the town and a few sentences. The page is laid out automatically."],
           ["We already have a Wix or Squarespace site. Can you move it?", "Yes. The content is moved, every old address is redirected to its new page and structured data is set up, so the positions the old site had in Google are kept."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Do you build websites for contractors outside Poland?", "Yes. The work is done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, units, licence details and the review platforms your customers use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -190,6 +191,10 @@ export const websiteForContractorsEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("A contractor website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews who renovates kitchens in the area and what a remodel costs per room. The assistant answers from text it can read, and names companies whose pages carry the facts: trades, areas, licence numbers and project photos with dates."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order a contractor website: what to send me"),
         p(
           "Send the business name, a link to the current website or Google profile, the services you want more of and the areas you cover. A few recent projects with photos help me propose the structure. I will reply with a page plan and a fixed price. Use the ",

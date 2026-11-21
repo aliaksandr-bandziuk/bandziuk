@@ -35,11 +35,11 @@ export const bankWebsitePl = {
   seo: {
     metaTitle: "Strona dla banku: budowa i projekt od 8500 zł",
     metaDescription:
-      "Strona internetowa dla banku: warunki produktów jako dane, jedna domena, czytelne dokumenty, dostępność i audyt bezpieczeństwa. Projekt w cenie, od 8500 zł.",
+      "Strona internetowa dla banku: warunki produktów jako dane, jedna domena, czytelne dokumenty, odpowiedzi AI. Projekt w cenie, od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt w cenie", "Od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt w cenie", "Od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Konta i karty", "Kalkulator kredytu", "Znajdź placówkę", "Zaloguj się"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona banku: struktura, podstrony produktów i placówek, projekt w cenie", price: 8500, currency: "PLN", unit: "one-off" },
@@ -58,7 +58,7 @@ export const bankWebsitePl = {
         { _key: k("o"), iconName: "file-text", title: "Czytelne dokumenty", text: "Tabele opłat jako podstrony, nie tylko PDF" },
         { _key: k("o"), iconName: "map-pin", title: "Podstrona każdej placówki", text: "Godziny, usługi, bankomat, dostępność" },
         { _key: k("o"), iconName: "eye", title: "Dostępność od początku", text: "Dla usług bankowych to wymóg prawny" },
-        { _key: k("o"), iconName: "file-lock", title: "Budowa pod audyt dostawcy", text: "Ankiety, skrypty, przepływy danych" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Warunki produktów, które asystent zacytuje" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -169,6 +169,7 @@ export const bankWebsitePl = {
           ["Czy pracujecie z klientami regulowanymi?", "Tak. Praca regulowana to teksty pod akceptacją, obowiązkowe informacje i publikacja z udziałem kilku osób — to część metody, a nie przeszkoda."],
           ["Czy strona będzie dostępna cyfrowo?", "Tak, a dla usług bankowych jest to wymóg prawny, nie preferencja. Wchodzi do budowy od początku, bo dokładanie dostępności po starcie kosztuje więcej i zwykle tak wygląda."],
           ["Czy przebudowa nie zabierze nam ruchu z wyszukiwarki?", "Nie, jeśli zrobić mapę adresów i przekierowania — a dokumenty dostają to samo traktowanie co podstrony, razem z PDF-ami, na które wskazują inne serwisy i Wasze pisma."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy strona będzie nasza?", "Tak: kod, repozytorium, domena, konto hostingowe, treści i wszystkie dostępy. Nic nie zostaje u mnie jako dźwignia."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

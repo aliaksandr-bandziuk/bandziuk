@@ -44,7 +44,7 @@ export const pestControlSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Pest, plan and area pages", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Pest, plan and area pages", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Bed bug exterminator near me", "Termite inspection this week", "Licensed & insured", "Call or book online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Pest control SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },

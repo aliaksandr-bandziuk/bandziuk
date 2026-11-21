@@ -34,11 +34,11 @@ export const lawnCareWebsiteEn = {
   seo: {
     metaTitle: "Lawn Care Website Design and Development | Bandziuk",
     metaDescription:
-      "Websites for lawn care companies: instant quotes by lawn size, online program sign-up, billing via Jobber or FieldRoutes, neighborhood pages. From 700 €.",
+      "Websites for lawn care companies: instant quotes by lawn size, online program sign-up, billing via Jobber or FieldRoutes, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Price by address", "Sign up for a program", "Autopay, card on file", "Add fall aeration"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple lawn care website", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -56,7 +56,7 @@ export const lawnCareWebsiteEn = {
         { _key: k("o"), iconName: "plug", title: "Sign-ups that land in your software", text: "Customer, program and card on file — no retyping" },
         { _key: k("o"), iconName: "map-pin", title: "Neighborhood pages along your routes", text: "More customers on streets you already mow" },
         { _key: k("o"), iconName: "trending-up", title: "Add-ons offered in their season", text: "Aeration, overseeding, leaf cleanup, snow removal" },
-        { _key: k("o"), iconName: "shield-check", title: "The site belongs to you", text: "Code, content and domain; no builder fee" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple lawn care website", value: "700–1,400 €", note: "design included" },
@@ -104,7 +104,7 @@ export const lawnCareWebsiteEn = {
           " page.",
         ),
 
-        h2("What a lawn care website has to do for a recurring-service business"),
+        h2("A lawn care website for a recurring-service business: its job"),
         p("Most lawn care company websites are built like a contractor’s: a services list, a gallery, a contact form and a promise to call back. The customer waits for a price on something they expected to buy in five minutes, and often signs up with whoever answers first. A website for lawn care works more like a small subscription shop:"),
         li("a price, or at least a range, before the customer gives a phone number"),
         li("programs the customer can compare and choose: weekly mowing, a fertilization and weed control program, a full-season plan"),
@@ -218,7 +218,7 @@ export const lawnCareWebsiteEn = {
           ["Is a lawn care website template enough for a small lawn care business?", "For a new company with one truck, often yes. Once you want instant quotes, a page per program and neighborhood, and sign-ups that go straight into your software, a custom-built site usually costs less over a few seasons than a builder fee."],
           ["Do I need a website if I get customers from Thumbtack, Angi or Nextdoor?", "Yes. People who find you on a platform or through a neighbor’s post often check your own site before they sign up, and customers who come through your site are not shared with competitors or charged per lead."],
           ["When should a lawn care company launch a new website?", "Before spring. Building in fall or winter, while crews are quieter, means the site, the quote and the sign-up are tested and live when the first customers start looking for a mowing service."],
-          ["Will ChatGPT recommend my lawn care company?", "Assistants recommend businesses whose services, areas and prices they can read and confirm. The site is built with those as text and structured data. Getting recommended is ongoing work beyond the build."],
+          ["Will ChatGPT, Perplexity and Gemini recommend my lawn care company?", "Assistants recommend businesses whose services, areas and prices they can read and confirm. The site is built with those as text and structured data. Getting recommended is ongoing work beyond the build. The same work for the answer shown in search itself is answer engine optimization (AEO)."],
           ["Do you build lawn care websites outside Poland?", "Yes. The work is done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, units, license details and the review platforms your customers use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

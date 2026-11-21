@@ -40,11 +40,11 @@ export const nonprofitWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla fundacji i stowarzyszenia: wpłaty i cele",
     metaDescription:
-      "Strona internetowa dla fundacji i stowarzyszenia: dane z KRS, 1,5% dla OPP, darowizny online, wolontariat, RODO, edycja przez zarząd. Od 3000 zł.",
+      "Strona internetowa dla fundacji i stowarzyszenia: dane z KRS, 1,5% dla OPP, darowizny online, wolontariat, RODO, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Edytuje zarząd, nie programista"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Edytuje zarząd, nie programista"],
   heroPhonePoints: ["Wesprzyj nas · BLIK", "Przekaż 1,5% podatku", "Zostań wolontariuszem", "Sprawozdania"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla fundacji lub stowarzyszenia, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -105,6 +105,7 @@ export const nonprofitWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla fundacji i stowarzyszeń buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla fundacji i stowarzyszeń — strukturę, projekt graficzny, wykonanie, teksty i uruchomienie — więc za całość odpowiada jedna osoba, a cena jest znana z góry. Strona organizacji pozarządowej ma kilku odbiorców naraz: darczyńcę, który chce wpłacić pieniądze albo przekazać 1,5% podatku, wolontariusza, grantodawcę sprawdzającego, czy projekt jest opisany, i osobę, która szuka pomocy. Każdy z nich powinien w kilka sekund znaleźć swoją ścieżkę."),
 
         h2("Strona internetowa dla fundacji i stowarzyszenia: co powinna zawierać"),
@@ -209,6 +210,7 @@ export const nonprofitWebsiteDesignPl = {
           ["Czy strona fundacji musi spełniać wymagania dostępności cyfrowej?", "Obowiązki mogą mieć organizacje realizujące zadania ze środków publicznych, a wymagania często są w umowach dotacyjnych. Sprawdźcie przepisy i umowę. Stronę i tak buduję według WCAG 2.1 AA."],
           ["Czy zarząd sam zmieni treści na stronie?", "Tak. Aktualności, projekty, sprawozdania i ogłoszenia dodaje się w prostym panelu, każda osoba ma własne konto, a przy zmianie zarządu konta przekazuje się bez programisty."],
           ["Do kogo należy strona i domena?", "Do organizacji: domena, kod i treści. Domenę rejestrujemy na fundację lub stowarzyszenie, nie na osobę prywatną."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy pracujesz z organizacjami spoza Warszawy?", "Tak, z fundacjami i stowarzyszeniami z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. Z zarządem rozmawiam na wideo."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

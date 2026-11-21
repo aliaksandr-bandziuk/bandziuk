@@ -36,11 +36,11 @@ export const tworzenieStronInternetowychBydgoszczPl = {
   seo: {
     metaTitle: "Strony internetowe Bydgoszcz: od 3000 zł | Bandziuk",
     metaDescription:
-      "Strony internetowe dla firm z Bydgoszczy: zakłady produkcyjne, usługi w Fordonie i okolicach. Projekt w cenie, zapytanie ofertowe z rysunkiem, RODO. Od 3000 zł.",
+      "Strony internetowe dla firm z Bydgoszczy: zakłady produkcyjne, usługi w Fordonie i okolicach. Projekt w cenie, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Strony dla przemysłu i usług"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Strony dla przemysłu i usług"],
   heroPhonePoints: ["Park maszynowy", "Wyślij rysunek", "Zadzwoń · WhatsApp", "Praca u nas"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Bydgoszczy, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -206,6 +206,7 @@ export const tworzenieStronInternetowychBydgoszczPl = {
           ["Ile trwa stworzenie strony dla firmy z Bydgoszczy?", "Na prostą stronę trzeba zwykle zarezerwować dwa–cztery tygodnie, na pełną z wersją językową cztery–osiem. Najdłużej trwa zwykle zebranie danych technicznych i zdjęć."],
           ["Agencja reklamowa w Bydgoszczy czy jeden wykonawca?", "Agencja reklamowa przyda się, jeśli oprócz strony zamawiacie druk, reklamy i obsługę mediów społecznościowych. Gdy chodzi tylko o stronę, rozmawiacie u mnie bezpośrednio z wykonawcą i znacie cenę przed startem."],
           ["Czy pracujesz z firmami z Bydgoszczy zdalnie?", "Tak, z Warszawy, w całości online: rozmowa wideo, projekt w przeglądarce, wspólne dokumenty. Listę potrzebnych zdjęć dostajecie ode mnie, a robi je ktoś z firmy albo fotograf z Bydgoszczy."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Do kogo należy strona po uruchomieniu?", "Do Was: domena, kod i treści. Stronę można przenieść do innego hostingu lub wykonawcy, a ja nie pobieram abonamentu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -41,7 +41,7 @@ export const cafeSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Map pack, brunch, beans, events", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Map pack, brunch, beans, events", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Coffee near me · Open 7 a.m.", "Laptop-friendly cafe", "Weekend brunch", "Directions · Order pickup"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Cafe SEO audit: Google Business Profile, website, cafes within walking distance and AI answers", price: 250, currency: "EUR", unit: "one-off" },

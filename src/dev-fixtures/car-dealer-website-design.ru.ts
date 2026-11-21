@@ -41,11 +41,11 @@ export const carDealerWebsiteDesignRu = {
   seo: {
     metaTitle: "Сайт для автосалона и автодилера | Bandziuk",
     metaDescription:
-      "Сайт автосалона: выгрузка машин из 1С или таблицы, карточка с VIN и ценой, кредит и trade-in, WhatsApp, быстрые фото. Дизайн включён, от 700 €.",
+      "Сайт автосалона: выгрузка машин из 1С или таблицы, карточка с VIN и ценой, кредит и trade-in, WhatsApp, быстрые фото, ответы ИИ. Дизайн включён, от 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Дизайн + разработка, одна цена", "От 700 €", "Для салонов и площадок"],
+  heroChips: ["Видимость в ChatGPT и ИИ", "От 700 €", "Для салонов и площадок"],
   heroPhonePoints: ["Hyundai Tucson 2022 · в пути", "Заявка на кредит", "Оценить мою машину", "Написать в WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Простой сайт автосалона с каталогом и карточками машин, дизайн включён", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },

@@ -40,7 +40,7 @@ export const floristSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Dostawa, okazje, śluby", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Dostawa, okazje, śluby", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dostawa kwiatów dzisiaj", "Bukiet na Dzień Matki", "Florystyka ślubna", "Zadzwoń · zamów online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO kwiaciarni: strona, wizytówka Google, konkurencja w Twojej okolicy", price: 1000, currency: "PLN", unit: "one-off" },

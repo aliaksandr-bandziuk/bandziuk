@@ -43,11 +43,11 @@ export const foodTruckWebsiteDesignEn = {
   seo: {
     metaTitle: "Food Truck Website: Schedule, Menu, Bookings | Bandziuk",
     metaDescription:
-      "Food truck website design: today’s location and a schedule you edit from your phone, menu with prices, booking form for events, fast on mobile data. From 700 €.",
+      "Food truck website design: today’s location and a schedule you edit from your phone, menu with prices, booking form for events, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Today: 5th & Main, 11–2", "This week’s stops", "Menu · sold out marked", "Book us for your event"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple food truck website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -107,6 +107,7 @@ export const foodTruckWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build food truck websites myself: structure, design, build and launch, with no handover between people."),
         p("Food truck website design is how I help a truck owner put the moving parts of the business — where you park today, what you serve, how to hire you — on one site you update from the phone in the cab. I design and build it myself, so the look and the working schedule come from one person at a price agreed in advance. A truck changes location more often than any other food business, and the site exists to keep up with that."),
 
         h2("Food truck website design: today’s location and hours on the first screen"),
@@ -137,7 +138,7 @@ export const foodTruckWebsiteDesignEn = {
         li("a budget range or the minimum spend you work with, picked from options"),
         p("Requests arrive in your inbox in one format. If you take deposits, a confirmed booking ends with a payment link through Stripe Checkout, the same tool Landi Room uses to sell its online course, and the date is marked as taken in the calendar."),
 
-        h2("What festival organizers and corporate clients look for on a food truck website"),
+        h2("A food truck website for organizers and corporate clients: what they look for"),
         p("Organizers compare several trucks before they choose, and they look for facts that rarely make it onto Instagram. A page for organizers lists the truck’s length and width, its power needs, how many guests you can serve in an hour, your permits and insurance, and photos of the truck set up at real events. Corporate clients also want to know that you send invoices and answer email. Keeping all of this on one page saves a round of questions and shows you are ready for larger bookings."),
 
         h2("Instagram, Facebook and the food truck website: what goes where"),
@@ -195,6 +196,7 @@ export const foodTruckWebsiteDesignEn = {
           ["Can customers order ahead on the food truck website?", "Yes, if your kitchen can handle it. Pickup orders with a time slot and card payment can be built into the site, or the site can link to the ordering app you already use."],
           ["Can event clients pay a deposit online?", "Yes. Once you confirm a booking, the client gets a payment link for the deposit, and the date is marked as taken in your calendar after it is paid."],
           ["How long does it take to build a food truck website?", "Two to four weeks for a one-page site from the brief, four to six for a site with a calendar, event booking and deposits. Most of the time goes into your menu, regular stops and event terms."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Can you build a food truck website for a US business from Poland?", "Yes. We work by video call, email or WhatsApp, in English. My afternoons and evenings in Central European Time overlap with US mornings, before lunch service. I invoice in EUR or another currency by agreement."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -40,7 +40,7 @@ export const garageDoorSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Repair, install, openers", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Repair, install, openers", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Broken spring? Same day", "New insulated doors", "Opener installation", "Book a free quote"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Garage door SEO audit: website, Google Business Profile, competitors and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -195,7 +195,7 @@ export const garageDoorSeoEn = {
           ["Should repairs and new doors be on separate pages?", "Yes. A homeowner with a broken spring and one choosing a new door search with different words and need different answers. One shared page usually ranks for neither."],
           ["Is SEO worth it if I already run Local Services Ads?", "Often yes. Local Services Ads bring repair calls at a price per lead; SEO pages and galleries win the researched door sales and make your reviews and profile stronger, which the ads use as well."],
           ["Do manufacturer dealer listings help my SEO?", "They do. A dealer locator link is a strong local link, and brand pages on your own site rank for brand-and-city searches. Make sure the listing uses your current name and links to the right page."],
-          ["Can ChatGPT write my garage door pages?", "It can draft them. It does not know your towns, your installs, the brands you carry or your prices, and pages without those details rarely rank or win quotes."],
+          ["Can ChatGPT, Perplexity and Gemini write my garage door pages?", "It can draft them. It does not know your towns, your installs, the brands you carry or your prices, and pages without those details rarely rank or win quotes."],
           ["Can a consultant in Poland do SEO for a US garage door company?", "Yes. Everything is done remotely, in English. I am based in Warsaw, and my afternoons and evenings in Central European Time fall in the US morning — the best slot for calls with East Coast and Central companies. Contracts and invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

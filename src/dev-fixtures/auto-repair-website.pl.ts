@@ -31,7 +31,7 @@ export const autoRepairWebsitePl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podstrona pod każdą naprawę", "Strona od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Podstrona pod każdą naprawę", "Strona od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Umów naprawę online", "Cennik usług", "Wymiana sprzęgła", "Diagnostyka dzisiaj"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona warsztatu na WordPressie, z projektem graficznym w cenie", price: 3000, currency: "PLN", unit: "one-off" },
@@ -71,7 +71,8 @@ export const autoRepairWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Co kierowca musi znaleźć na stronie warsztatu w ciągu minuty"),
+        h2("Strona warsztatu w ciągu minuty: co kierowca musi znaleźć"),
+        p("Strony dla warsztatów samochodowych buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Na stronę warsztatu wchodzi się w jednym z dwóch stanów: albo auto już stoi i jest pilnie, albo ktoś planuje przegląd i porównuje. W obu przypadkach decyzja zapada szybko i na te same pytania: czy robicie dokładnie to, ile to mniej więcej kosztuje, kiedy można przyjechać i kto będzie pracował przy aucie."),
         p("Strona, która odpowiada na to w minutę, wygrywa z ładniejszą, która każe szukać. Dlatego strukturę buduję od pytań, a nie od działów przyjętych w agencjach: „O nas”, „Nasze atuty” i „Dlaczego my” czyta się na końcu albo wcale."),
 
@@ -118,7 +119,7 @@ export const autoRepairWebsitePl = {
         p("Prosta strona — dwa do trzech tygodni. Rozbudowana strona warsztatu ze strukturą napraw, cenami i zapisem — cztery do ośmiu tygodni. Podstrony pod dzielnice albo kolejne języki wydłużają ten czas, i mówię o tym przed startem, a nie w trakcie."),
         p("To, co zwykle wydłuża pracę, to nie kod, tylko materiały: zdjęcia hali, lista usług z cenami i akceptacja tekstów. Jeśli czegoś nie ma, pomagam to zebrać."),
 
-        h2("Co zostaje u Was po uruchomieniu"),
+        h2("Po uruchomieniu: co zostaje u Was"),
         li("kod, domena, treści i dostępy do CMS — Wasze od pierwszego dnia;"),
         li("strona nie stoi na moim koncie hostingowym, eksport nie jest zablokowany;"),
         li("projekt można w każdej chwili przekazać komu innemu;"),
@@ -168,6 +169,7 @@ export const autoRepairWebsitePl = {
           ["Czy zapis można podłączyć do systemu warsztatowego?", "Tak. Formularz łączy się z kalendarzem albo z systemem zarządzania warsztatem, żeby zgłoszenia trafiały tam, gdzie ktoś je widzi."],
           ["Czy robicie strony na kreatorach?", "Nie. Kreator ogranicza strukturę i szybkość, a przeniesienie z niego strony później jest trudniejsze niż zbudowanie od razu na Next.js albo WordPressie."],
           ["Czego potrzebujecie od nas na start?", "Listy usług z orientacyjnymi cenami, zdjęć hali, informacji, jakimi markami się zajmujecie, i tego, kto będzie obsługiwał zgłoszenia. Resztę zbieramy po drodze."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Do kogo należy strona po uruchomieniu?", "Do Was: kod, domena, treści i dostępy do CMS. Strona nie stoi na moim hostingu, eksport nie jest zablokowany, a projekt można w każdej chwili przekazać komu innemu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

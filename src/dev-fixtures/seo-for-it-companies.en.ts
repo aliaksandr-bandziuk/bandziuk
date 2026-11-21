@@ -107,7 +107,7 @@ export const seoForItCompaniesEn = {
       content: [
         p("I provide SEO for IT companies, so that a CTO, an IT manager or an operations lead who searches for a service, a technology or a partner who knows their industry lands on your site and books a sales call. The work is done by one person, me, an SEO consultant who also builds sites in React and Next.js, and I take it on for software houses, managed service providers, IT outsourcing firms and cloud, DevOps and security consultancies."),
 
-        h2("What SEO for IT companies is: service, technology and industry in one search"),
+        h2("SEO for IT companies: service, technology and industry in one search"),
         p("Buyers of IT services describe a need, not a vendor category: “Azure migration partner”, “React development company for fintech”, “managed IT services for dental practices”, “Kubernetes consulting Germany”, “SOC 2 readiness help”. Each phrase joins a service, often a technology, and sometimes an industry or a region. IT company SEO builds pages for the combinations you can deliver and prove."),
         p(
           "IT services share long sales cycles and buying committees with other B2B companies; that general side is on the ",

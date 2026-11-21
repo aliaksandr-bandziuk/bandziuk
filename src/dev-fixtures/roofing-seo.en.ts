@@ -31,7 +31,7 @@ export const roofingSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Storm, repair, replacement", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Storm, repair, replacement", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Hail damage roof repair", "Top 3 on the map", "Free roof inspection", "Calls you own"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Roofing SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -94,7 +94,7 @@ export const roofingSeoEn = {
       content: [
         p("I do SEO for roofing companies: the website, the Google Business Profile and the pages a homeowner finds when the roof leaks, the hail has passed or the shingles are twenty years old. Roofing jobs are large and rare — a homeowner replaces a roof once or twice in a lifetime — so a single extra replacement job a month pays for the work many times over. That is also why every roofer in town fights for the same searches."),
 
-        h2("Why SEO for roofing is harder than for most local trades"),
+        h2("SEO for roofing is harder than for most local trades"),
         p("Roofing is one of the most competitive local niches in search. On a search like “roof replacement” in a mid-sized city you compete with:"),
         li("local roofers who have collected reviews for a decade"),
         li("national replacement brands with big advertising budgets"),

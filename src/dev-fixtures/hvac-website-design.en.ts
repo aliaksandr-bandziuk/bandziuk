@@ -33,11 +33,11 @@ export const hvacWebsiteDesignEn = {
   seo: {
     metaTitle: "HVAC Website Design: Booking, Service Areas, Plans",
     metaDescription:
-      "HVAC website design for both seasons: repair and replacement paths, membership plans, financing, licenses and real technicians. Design + build from 700 €.",
+      "HVAC website design for both seasons: repair and replacement paths, membership plans, financing, AI answers. Design + build from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["AC repair today", "NATE-certified techs", "Financing available", "Join the comfort plan"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple HVAC website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -55,7 +55,7 @@ export const hvacWebsiteDesignEn = {
         { _key: k("o"), iconName: "layers", title: "Maintenance plans that compare at a glance", text: "Two or three tiers, one sign-up button each" },
         { _key: k("o"), iconName: "file-text", title: "Monthly payments next to system prices", text: "Your lender’s terms shown beside every figure" },
         { _key: k("o"), iconName: "shield-check", title: "License, certifications and warranties in view", text: "Set as text next to the buttons that ask for a decision" },
-        { _key: k("o"), iconName: "image", title: "Your technicians and trucks, not stock", text: "So the customer knows who is coming to the door" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple HVAC website", value: "700–1,400 €", note: "design included" },
@@ -97,6 +97,7 @@ export const hvacWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build websites for HVAC companies myself: structure, design, build and launch, with no handover between people."),
         p("I design websites for HVAC companies and build them myself, so design and build come from one person at one price. HVAC website design decides what a homeowner in a too-hot or too-cold house sees on a phone, and what they do next: call for a repair, ask for a replacement estimate or join a maintenance plan. Layout, photos and wording are chosen for those three actions and nothing else."),
 
         h2("Website design for HVAC: a seasonal home page for heating in winter and cooling in summer"),
@@ -231,6 +232,10 @@ export const hvacWebsiteDesignEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("An HVAC website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which HVAC company nearby services heat pumps and what an AC install costs. The assistant answers from text it can read, and names companies whose pages carry the facts: brands serviced, maintenance plans, hours and the area covered."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order HVAC website design: what to send me"),
         p(
           "Send the company name, a link to your current website or Google profile, the services you offer, your plan tiers and your financing partner. A few photos of your technicians, trucks and recent installs help me show a first screen that looks like your company in both seasons. I will reply with a proposed layout and a fixed price. Use the ",

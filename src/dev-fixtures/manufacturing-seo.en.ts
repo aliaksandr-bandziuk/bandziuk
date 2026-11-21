@@ -115,7 +115,7 @@ export const manufacturingSeoEn = {
       content: [
         p("Manufacturing SEO is the work that brings engineers, buyers and procurement teams to your own website when they search for a process, a material or a supplier, and turns those visits into requests for quotes. I do it myself, as a single SEO consultant who also builds websites, for machine shops, fabricators, molders, contract manufacturers and companies that make their own components."),
 
-        h2("What SEO in manufacturing is: matching the way engineers describe a job"),
+        h2("SEO in manufacturing: matching the way engineers describe a job"),
         p("An engineer with a part to source does not search for “precision manufacturing solutions”. They type the job: “5-axis CNC machining titanium aerospace”, “tight tolerance Swiss turning medical”, “low-volume aluminum die casting”, “powder coating extrusions Ohio”. Each search combines a process, a material, often a tolerance or a volume, and sometimes an industry or a region. SEO for manufacturers makes sure that a page on your site matches that combination, says plainly that you can do the job, and leads to an RFQ."),
         p(
           "Manufacturers share a lot with other B2B companies — long sales cycles, several people involved in a decision, leads that need tracking into a CRM. That general side is on the ",

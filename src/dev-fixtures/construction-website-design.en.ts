@@ -18,11 +18,11 @@ export const constructionWebsiteDesignEn = {
   seo: {
     metaTitle: "Construction Company Website Design | Bandziuk",
     metaDescription:
-      "Construction company website design built to win work: project pages with real photos, services by type and area, and a quote form that asks the right things.",
+      "Construction company website design built to win work: project pages with real photos, services by type and area, AI answers.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["What you build, and where", "Recent projects", "Insured · Warranty", "Get a quote"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple construction company website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -40,7 +40,7 @@ export const constructionWebsiteDesignEn = {
         { _key: k("o"), iconName: "file-text", title: "A quote form your estimator can use", text: "Project type, size, budget, timing, photos and plans" },
         { _key: k("o"), iconName: "shield-check", title: "Trust where clients look for it", text: "Licences, insurance, warranties and reviews" },
         { _key: k("o"), iconName: "pencil", title: "You add new projects yourself", text: "From a phone, without breaking the layout" },
-        { _key: k("o"), iconName: "gauge", title: "Fast on a phone, even on site", text: "Main image under 2.5 s, photos compressed" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple construction company site", value: "700–1,400 €", note: "design included" },
@@ -82,9 +82,10 @@ export const constructionWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build websites for construction companies myself: structure, design, build and launch, with no handover between people."),
         p("I design websites for construction companies and build them myself, so the design and the build come from one person at one price. A construction website is judged the way a client judges a builder: by finished work, by whether you take on jobs like theirs in their area, and by how easy it is to ask for a price. The design is built around those three checks."),
 
-        h2("What a construction company website design has to show in the first minute"),
+        h2("A construction website in the first minute: what it has to show"),
         p("A client looking for a construction company is comparing three or four firms, often on a phone, often between other things. On the home page the design answers four questions before anything else:"),
         li("what you build — new homes, renovations, extensions, commercial fit-outs — in plain words, not “quality construction solutions”"),
         li("where you work — the towns and regions, named"),
@@ -182,6 +183,7 @@ export const constructionWebsiteDesignEn = {
           ["Are photos from a phone good enough for project pages?", "Usually yes, if they are taken the same way every time: in daylight, from the same points, before, during and after the work. I prepare a short checklist for the site team. Stock photos do more harm than good on a construction site."],
           ["Can the quote form accept photos and drawings?", "Yes. Clients can upload photos of the site and plans or drawings from their phone or computer, and they arrive with the request by email."],
           ["Can you redesign our construction website without losing Google rankings?", "Yes. Before the new design goes live, every existing address is mapped to its new page, redirects are set up and structured data is carried over, so the positions the site already has are not lost."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Can the website have several language versions?", "Yes. For companies that work with foreign clients or investors, the service, area and project pages are translated in full, and each language version has its own address so it can be found in search in that language."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -190,6 +192,10 @@ export const constructionWebsiteDesignEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("A construction company website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which builder in the area does extensions and what a loft conversion costs per square metre. The assistant answers from text it can read, and names companies whose pages carry the facts: services, areas covered, project photos with dates and a price range."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order construction website design: what to send me"),
         p(
           "Send the company name, a link to the current website or social profile, the services you offer and the areas you cover. A few recent projects with photos help me propose the structure. I will reply with a plan for the home, service and project pages and a fixed price. Use the ",

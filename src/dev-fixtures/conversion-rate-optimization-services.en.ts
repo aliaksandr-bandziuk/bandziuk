@@ -41,11 +41,11 @@ export const conversionRateOptimizationServicesEn = {
   seo: {
     metaTitle: "Conversion Rate Optimization: Audit and Code Fixes",
     metaDescription:
-      "CRO services from a developer: event tracking, funnel analysis, then fixes to forms, checkout, speed and contact buttons in your code. CRO audit from 250 €.",
+      "CRO services from a developer: event tracking, funnel analysis, then fixes to forms, checkout, AI answers. CRO audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Analysis + fixes in the code", "CRO audit from 250 €", "Measured against a baseline"],
+  heroChips: ["Analysis + fixes in the code", "CRO audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["What you get, in one line", "Call · WhatsApp", "Three-field form", "Request sent"],
   offers: [
     { _key: "offer1", _type: "offer", name: "CRO audit: tracking check, funnel analysis and a list of fixes sorted by effect", price: 250, currency: "EUR", unit: "one-off" },
@@ -62,7 +62,7 @@ export const conversionRateOptimizationServicesEn = {
         { _key: k("o"), iconName: "search", title: "Funnel and behavior analysis", text: "Where visitors enter, hesitate and leave" },
         { _key: k("o"), iconName: "layers", title: "First screens that say what you sell", text: "Offer, price level and one clear next step" },
         { _key: k("o"), iconName: "phone", title: "Forms and contact paths that work", text: "Fewer fields, tap to call, WhatsApp with context" },
-        { _key: k("o"), iconName: "gauge", title: "Speed and mobile layout fixed in code", text: "Templates and images, not another plugin" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
         { _key: k("o"), iconName: "shield-check", title: "Trust where the decision is made", text: "Prices, reviews, terms and real photos" },
       ],
       prices: [
@@ -223,6 +223,7 @@ export const conversionRateOptimizationServicesEn = {
           ["How soon do CRO changes show results?", "Tracking fixes give you reliable numbers right away. The effect of page changes shows within weeks on a busy site and over a few months on a small one, because a fair comparison needs enough conversions."],
           ["Do you work remotely with clients in the US, UK and EU?", "Yes, all CRO work is remote. I am based in Warsaw on Central European Time, which covers the whole UK and EU working day and the morning of the US East Coast. Invoices are issued by my Polish business, in EUR or another currency by agreement, and we work in English."],
           ["How much do CRO services cost?", "A CRO audit costs from 250 €, one-off fixes 250–700 € per task, and monthly CRO work from 800 € per month. The first 15–30 minute call is free."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Should I start with a CRO audit or go straight to fixes?", "If tracking works and you already know the problem, for example a form that fails on phones, we can fix it directly as a one-off task. If you only know that the site brings too few inquiries or orders, start with the audit."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -31,11 +31,11 @@ export const startupWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Startups: MVP to Growth | Bandziuk",
     metaDescription:
-      "Startup website design with development: waitlist and pre-launch pages, product demo, pricing page, analytics from day one, fast Next.js build. From 700 €.",
+      "Startup website design with development: waitlist and pre-launch pages, product demo, pricing page, analytics from day one, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Join the waitlist", "See it in 60 seconds", "Free · Pro · Team", "Book a demo"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Pre-launch or waitlist website for a startup, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -209,6 +209,7 @@ export const startupWebsiteDesignEn = {
           ["Can we change texts and add pages ourselves after launch?", "Yes. Texts, screenshots and new pages built from existing components are edited in a simple CMS. New types of sections need a small design and development step."],
           ["What do you need from us to start the design?", "The one-sentence description of the product, who it is for, two or three competitors, current product screens or a prototype and the action that counts as success. Brand colors and a logo help; if there are none yet, the design starts from a clean neutral system."],
           ["Can you redesign our startup website without losing Google rankings?", "Yes. Every existing address is mapped to its new page and redirected, and metadata and structured data are carried over before launch, so the positions the site already has are kept."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you work with startups outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian, for teams in Europe, North America and elsewhere."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

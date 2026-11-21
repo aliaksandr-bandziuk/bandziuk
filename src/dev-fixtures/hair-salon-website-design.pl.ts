@@ -33,11 +33,11 @@ export const hairSalonWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www dla fryzjera i barbershopu | Bandziuk",
     metaDescription:
-      "Strona internetowa dla salonu fryzjerskiego: cennik według długości włosów, fryzjerzy z portfolio, rezerwacja przez Booksy, szkolenia online. Od 3000 zł.",
+      "Strona internetowa dla salonu fryzjerskiego: cennik według długości włosów, fryzjerzy z portfolio, rezerwacja przez Booksy, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Działa z Booksy"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Działa z Booksy"],
   heroPhonePoints: ["Umów się do fryzjera", "Strzyżenie · Koloryzacja", "Cennik: włosy krótkie, długie", "Barber bez zapisów"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona dla salonu fryzjerskiego lub barbershopu", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -189,6 +189,7 @@ export const hairSalonWebsiteDesignPl = {
           ["Czy fryzjerzy mogą sami dodawać metamorfozy?", "Tak. Każdy może mieć konto w panelu ograniczone do swojego profilu i galerii. Cennik zwykle zostaje w rękach właścicielki lub managerki."],
           ["Czy barbershopowi wystarczy jedna podstrona?", "Często tak: godziny, informacja o wizytach bez zapisów, krótki cennik, barberzy, link do rezerwacji i mapa mieszczą się na jednej szybkiej stronie. Kolejne podstrony dochodzą przy drugim lokalu."],
           ["Czy na stronie można sprzedawać kurs fryzjerski?", "Tak. Dla Landi Room zrobiłem stronę kursu nanoplastyki z płatnością przez Stripe i linkiem do wideo wysyłanym automatycznie po zakupie. Podobnie działa sprzedaż szkoleń stacjonarnych i voucherów."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy pracujesz z salonami spoza Warszawy?", "Tak, z salonami z całej Polski. Wszystko załatwiamy online: rozmowa wideo, uwagi bezpośrednio w projekcie, zdjęcia i cennik przez komunikator. Spotkanie na miejscu nie jest potrzebne, żeby strona powstała."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

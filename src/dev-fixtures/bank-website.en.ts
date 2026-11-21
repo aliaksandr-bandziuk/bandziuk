@@ -41,11 +41,11 @@ export const bankWebsiteEn = {
   seo: {
     metaTitle: "Bank Website Design and Development from €2,000",
     metaDescription:
-      "Website design and development for banks: product conditions as data, one domain, accessible documents, a build that passes vendor security review. From €2,000.",
+      "Website design and development for banks: product conditions as data, one domain, accessible documents, AI answers. From €2,000.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design included in the build", "From €2,000", "Answer within 1 working day"],
+  heroChips: ["Design included in the build", "From €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Accounts and cards", "Mortgage calculator", "Find a branch", "Log in"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Bank website: structure, product pages, branch pages, design included", price: 2000, currency: "EUR", unit: "one-off" },
@@ -60,7 +60,7 @@ export const bankWebsiteEn = {
       title: "What a bank website build covers",
       items: [
         { _key: k("o"), iconName: "database", title: "Conditions stored as data", text: "Approve a rate once, it appears everywhere" },
-        { _key: k("o"), iconName: "shield-check", title: "One domain, no look-alikes", text: "The address itself is a security control" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Product conditions an assistant can quote" },
         { _key: k("o"), iconName: "file-text", title: "Documents that stay readable", text: "Tariffs and terms as pages, not only PDFs" },
         { _key: k("o"), iconName: "map-pin", title: "A page for every branch", text: "Hours, services, ATM, accessibility" },
         { _key: k("o"), iconName: "eye", title: "Accessibility built in", text: "A legal requirement for banking services" },
@@ -87,6 +87,7 @@ export const bankWebsiteEn = {
       layout: "guide",
       content: [
         h2("Where a bank website breaks: the seam between the site and the login"),
+        p("I design and build websites for banks and cooperative banks myself: structure, design, build and launch, with no handover between people."),
         p("I design and build websites for banks and cooperative banks, and design is part of the build rather than a separate invoice. The first thing to settle is the seam. A bank runs two things that customers experience as one: a public site that explains products and a banking application behind a login. They are different systems with different risk profiles, and almost every expensive mistake on a bank website happens where they meet."),
         p("The practical version of that: the public site must never imitate the login, never collect anything that looks like a credential, and never live on a domain that merely resembles the main one. A campaign microsite on its own address teaches customers that bank-like domains are fine to trust — which is exactly the habit phishing depends on, and it also splits the search authority you already paid for."),
 
@@ -116,7 +117,7 @@ export const bankWebsiteEn = {
           ".",
         ),
 
-        h2("What a bank website costs and what moves the price"),
+        h2("A bank website: what it costs and what moves the price"),
         p(
           "A website starts at €2,000 with design included — I do not sell drawings I am not going to build. A landing page for one product is €700–1,400. A redesign that keeps rankings and documents starts at €1,000. What moves the price: the number of products, the number of branches, how many languages, whether conditions come from a system you already run, and how long approvals take. The figures are on the ",
           link("pricing", "/pricing"),
@@ -175,6 +176,7 @@ export const bankWebsiteEn = {
           ["Do you work with regulated clients?", "Yes. Regulated work means wording under review, mandatory disclosures and publishing with more than one person involved — that is part of the method rather than an obstacle to it."],
           ["Will the site be accessible?", "Yes, and for banking services in the EU that is a legal requirement rather than a preference. It is built in from the start, because retrofitting accessibility after launch costs more and usually looks it."],
           ["Can you redesign without losing our search traffic?", "Yes, and the document links get the same treatment as the pages: every existing address is mapped, every changed one redirected, including the PDFs other sites and your own letters point at."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Who owns the site?", "You do: the code, the repository, the domain, the hosting account, the content and every access credential. Nothing stays with me as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

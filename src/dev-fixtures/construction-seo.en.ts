@@ -19,11 +19,11 @@ export const constructionSeoEn = {
   seo: {
     metaTitle: "Construction Company SEO Services | Bandziuk",
     metaDescription:
-      "SEO for construction companies: Google Maps, pages for each service and area, project pages Google can read, reviews tied to real jobs. Audit from 250 €.",
+      "SEO for construction companies: Google Maps, pages for each service and area, project pages Google can read, AI answers. Audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Google Maps + website", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Google Maps + website", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Top 3 on the map", "Extensions in your town", "Projects with photos", "Request a quote"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Construction company SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -86,7 +86,7 @@ export const constructionSeoEn = {
       content: [
         p("I do SEO for construction companies myself — the Google Business Profile, the website and the pages for services, areas and projects — so the person who audits the site is the one who fixes it. Construction SEO is local: a client looks for a specific job in a specific place, and most of them choose from the map results and the first few links."),
 
-        h2("What construction company SEO covers: Google Maps, service pages and project pages"),
+        h2("Construction company SEO covers: Google Maps, service pages and project pages"),
         p("SEO for a construction company is the work that makes the company appear when someone searches for the job they need — “house extension”, “loft conversion”, “commercial fit-out” — together with their town, and that makes its own website win the search for its own name. Three places decide this:"),
         li("the map results — three companies with a map, rating and phone number, shown above the regular results for local searches"),
         li("the regular results, where the company’s site competes with directories, lead-generation portals and big national firms"),

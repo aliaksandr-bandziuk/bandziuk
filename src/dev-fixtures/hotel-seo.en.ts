@@ -104,7 +104,7 @@ export const hotelSeoEn = {
       content: [
         p("Hotel SEO services are the work that puts a hotel’s own website in front of travelers who search for a place to stay in your destination, and turns those visits into direct bookings instead of commission paid to an OTA. I do it myself, as a single SEO specialist who also builds websites, and I report on bookings that came through your own booking engine from search."),
 
-        h2("What is SEO in hotels: how an independent hotel gets found and booked through Google"),
+        h2("SEO in hotels: how an independent hotel gets found and booked through Google"),
         p("SEO in hotels, or SEO for the hotel industry, means making your website and Google presence the place where a guest finishes the booking. A guest usually touches search several times:"),
         li("choosing the area — “hotel near the convention center”, “quiet hotel in the old town with parking”, “family hotel by the lake” — often on a phone, weeks before the trip"),
         li("comparing rates and reviews on Google Hotels, Booking.com or TripAdvisor"),

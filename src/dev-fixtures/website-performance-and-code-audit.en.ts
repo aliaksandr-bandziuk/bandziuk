@@ -44,11 +44,11 @@ export const websitePerformanceAndCodeAuditEn = {
   seo: {
     metaTitle: "Website performance audit and code audit — €250",
     metaDescription:
-      "Website performance and code audit: Core Web Vitals, JavaScript and rendering, server response. A prioritised fix list with before-and-after numbers. €250.",
+      "Website performance and code audit: Core Web Vitals, JavaScript and rendering, AI answers. €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Core Web Vitals and code", "Audit €250", "Report in 3 working days"],
+  heroChips: ["Core Web Vitals and code", "Audit €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["LCP 4.1s", "INP 320ms", "CLS 0.24", "Fix list"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Website performance and code audit with a prioritised fix list", price: 250, currency: "EUR", unit: "one-off" },
@@ -66,7 +66,7 @@ export const websitePerformanceAndCodeAuditEn = {
         { _key: k("o"), iconName: "zap", title: "JavaScript and rendering", text: "What runs before the page becomes usable" },
         { _key: k("o"), iconName: "image", title: "Images, fonts and third parties", text: "The three things that usually carry the weight" },
         { _key: k("o"), iconName: "server", title: "Server response and caching", text: "Where the first byte is lost" },
-        { _key: k("o"), iconName: "list-checks", title: "A prioritised fix list", text: "Cost in milliseconds against cost in hours" },
+        { _key: k("o"), iconName: "sparkles", title: "Readability for ChatGPT and AI", text: "A prioritised fix list, assistants included" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -88,7 +88,8 @@ export const websitePerformanceAndCodeAuditEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("What a website performance audit actually measures"),
+        h2("A website performance audit: what it actually measures"),
+        p("I run performance and code audits myself: measurements on your real pages, then a prioritised list of fixes."),
         p("A score out of 100 is not a diagnosis. The audit measures what a visitor waits for, on the pages that matter to the business rather than on the homepage: how long until the main content appears, how long until a tap does something, and whether the layout jumps while they are reading. Then it explains which piece of the page is responsible for each of those numbers."),
         p("Two things make this different from running a free test yourself. The first is that a test gives you a symptom and the audit gives you the cause — «the largest element takes 4.1 seconds» becomes «the hero image is a 2.4 MB PNG served at full size and the font blocks rendering until it loads». The second is prioritisation: of the twenty things a test flags, usually three carry almost all the delay, and the rest are noise that costs more to fix than it returns."),
 
@@ -131,7 +132,7 @@ export const websitePerformanceAndCodeAuditEn = {
           ". Speed does affect rankings, but it is a tie-breaker between pages that are otherwise equal — it will not rank a page that answers nothing.",
         ),
 
-        h2("What a website performance audit costs and what you get"),
+        h2("A website performance audit: what it costs and what you get"),
         p(
           "The audit is €250 and you get a document, not a dashboard screenshot: measured numbers for the templates that matter, the cause behind each number, a fix list ordered by milliseconds gained against hours spent, and what I would not touch. If the site turns out to be too tangled to fix in place, a rebuild that keeps the existing rankings starts at €1,000, and I will say which of the two is cheaper for you. The full list is on the ",
           link("pricing page", "/pricing"),
@@ -162,7 +163,7 @@ export const websitePerformanceAndCodeAuditEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Why speed decides whether AI assistants can read your site at all (GEO, AEO)"),
+        h2("Speed decides whether AI assistants can read your site at all (GEO, AEO)"),
         p("The crawlers behind ChatGPT, Perplexity, Gemini and Google's AI answers are stricter than Googlebot in one specific way: most of them do not execute JavaScript, and the ones that fetch a page give it far less time. A site that renders its content in the browser sends them an almost empty document, so an assistant asked about your company finds nothing to quote — not because the text is wrong, but because it was never in the HTML."),
         p(
           "That makes rendering a visibility question, not only a speed question: whatever you want quoted has to be in the server's response, as text. Getting an existing site into that state is ",
@@ -185,6 +186,7 @@ export const websitePerformanceAndCodeAuditEn = {
           ["Can you audit WordPress and Next.js sites?", "Both, and the findings differ by stack. On WordPress it is usually plugins, a page builder and unoptimised images; on Next.js and React it is usually the bundle, client-side data fetching and components re-rendering more than they need to."],
           ["How soon do the numbers change?", "The report takes three working days. After the fixes ship, your own measurements change immediately, but Search Console field data moves on a 28-day rolling window, so the official Core Web Vitals follow about a month later."],
           ["What if the site is too slow to be worth fixing?", "That happens, and I will say so instead of selling an audit's worth of patches. A rebuild that keeps the existing rankings starts at €1,000, which is often cheaper than a year of fighting the current build."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["What do you need from me to start?", "The address, and access to the hosting or the code if the fixes are also mine to make. The audit itself needs nothing but the public site."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

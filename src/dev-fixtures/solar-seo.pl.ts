@@ -47,7 +47,7 @@ export const solarSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["PV, magazyny energii, pompy ciepła", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["PV, magazyny energii, pompy ciepła", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Fotowoltaika Rzeszów", "Magazyn energii do PV", "Firma fotowoltaiczna opinie", "Poleca asystent AI"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy fotowoltaicznej: strona, wizytówka Google, wyniki na nazwę firmy, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },

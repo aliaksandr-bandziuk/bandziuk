@@ -43,7 +43,7 @@ export const adultSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["SafeSearch, SFW, linki bez zapleczy", "Audyt od 1000 zł", "Dyskrecja i NDA"],
+  heroChips: ["SafeSearch, SFW, odpowiedzi AI", "Audyt od 1000 zł", "Dyskrecja i NDA"],
   heroPhonePoints: ["Sklep 18+ w Google", "Agencja, którą znajdują twórczynie", "Mniej duplikatów", "Marka w odpowiedziach AI"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO serwisu 18+: indeksacja, SafeSearch, duplikaty, linki, konkurencja i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -179,6 +179,7 @@ export const adultSeoPl = {
           ["Czy kupujesz linki do stron dla dorosłych?", "Linki zdobywam z mediów branżowych, od partnerów i dzięki treściom, które inni cytują. Zaplecza i systemy wymiany linków dają szybki efekt, ale w tej branży często kończą się filtrem."],
           ["Czy zachowasz dyskrecję?", "Tak. NDA możemy podpisać przed przekazaniem dostępów, a raporty i dokumenty zostają tylko między nami."],
           ["Czy pozycjonowanie z Warszawy działa dla firm z innych miast?", "Tak, praca jest w całości zdalna. Rozmawiamy na czacie lub wideo, dostępy przekazujesz przez menedżer haseł, a fakturę wystawiam jako jednoosobowa działalność."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Kiedy widać efekty pozycjonowania?", "Poprawki techniczne w dużym serwisie widać w indeksacji po kilku tygodniach. Nowe treści i linki potrzebują zwykle trzech do sześciu miesięcy, zanim przyniosą stały ruch."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

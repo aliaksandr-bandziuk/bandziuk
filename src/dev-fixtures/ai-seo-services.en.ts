@@ -92,7 +92,7 @@ export const aiSeoServicesEn = {
       content: [
         p("I provide AI SEO services: SEO work that gets a business found in Google and named, with the right facts, when buyers ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews instead of searching. These are two channels that reward different things — Google ranks pages, assistants quote sources they trust — so the work covers both and measures each separately."),
 
-        h2("What AI SEO services include: Google rankings and AI answers, measured separately"),
+        h2("AI SEO services include: Google rankings and AI answers, measured separately"),
         p("A buyer who asks an assistant “which accounting firm in Warsaw works with startups” gets two or three names and usually contacts one of them. Whether yours is among them depends on three things:"),
         li("whether the assistant can tell your business apart from others with a similar name"),
         li("whether it can find pages that state clearly what you do, for whom and where"),
@@ -100,7 +100,7 @@ export const aiSeoServicesEn = {
         li("whether those facts agree with each other, so the assistant is sure it is talking about you"),
         p("AI SEO services work on all of these, and regular SEO stays part of the job: Google’s AI Overviews draw on pages that already rank, while ChatGPT and Perplexity lean more on video, professional networks, forums and established publishers. Effort on one channel does not carry over to the other by itself, so it is split between them on purpose."),
 
-        h2("What is AI SEO, and what it is not"),
+        h2("AI SEO: what it is and what it is not"),
         p("“AI SEO” is used for two different things. One is SEO for AI search: making a business visible and correctly described in AI answers. The other is SEO done with AI tools: content generators, “AI humanizers”, automated link building. These services are the first. I use AI tools where they save time — clustering keywords, checking pages at scale — but I do not sell mass-generated content: it rarely ranks, and assistants have little reason to quote a page that says what a thousand other pages say."),
 
         h2("How AI assistants decide which businesses to name"),

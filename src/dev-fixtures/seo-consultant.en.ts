@@ -34,11 +34,11 @@ export const seoConsultantEn = {
   seo: {
     metaTitle: "SEO Consultant Services: Freelance and Local | Bandziuk",
     metaDescription:
-      "Independent SEO consultant: one person audits your site, fixes it in the code and reports leads, not just rankings. CET hours, EUR invoices. Audit from 250 €.",
+      "Independent SEO consultant: one person audits your site, fixes it in the code and reports leads, not just rankings. CET hours, AI answers. Audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Audit, fixes and reports by one person", "CET hours, invoices in EUR", "Free 15–30 min call"],
+  heroChips: ["Audit, fixes and reports by one person", "CET hours, invoices in EUR", "Named by ChatGPT and AI search"],
   // Desktop hero shows the owner's portrait instead of the phone sketch (the
   // same transparent-background photo as on the About page).
   heroVisual: "photo",
@@ -59,7 +59,7 @@ export const seoConsultantEn = {
         { _key: k("o"), iconName: "layers", title: "A page plan built on real searches", text: "Which pages to create, merge or rewrite" },
         { _key: k("o"), iconName: "map-pin", title: "Local SEO when you serve an area", text: "Google Business Profile and map pack basics" },
         { _key: k("o"), iconName: "message-circle", title: "A second opinion for your team", text: "A review of agency plans or in-house work" },
-        { _key: k("o"), iconName: "trending-up", title: "Reports in leads, not only rankings", text: "Search Console and analytics, month against month" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Scope, prices and reporting an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "SEO audit", value: "from 250 €", note: "one-off" },
@@ -101,9 +101,10 @@ export const seoConsultantEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I do the SEO work myself, as an independent consultant: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("I am an SEO consultant: an independent specialist who finds out why a website gets less search traffic than it should, fixes the causes in the site itself and measures what changed. I work alone and remotely from Warsaw, for businesses in Europe, the UK, the US, Cyprus and Israel — so the person who reviews your site is the same person who edits its templates and sends you the report."),
 
-        h2("What an SEO consultant does: audit, fixes in the code, measurement"),
+        h2("An SEO consultant's work: audit, fixes in the code, measurement"),
         p("SEO consultant services are often sold as advice. Advice alone rarely moves a site, because the recommendations wait in someone’s backlog for months. My work has three stages, and I do all three:"),
         li("Audit. I crawl the site, read Search Console and analytics, compare your pages with the ones Google ranks for your searches and write down what blocks you: indexing problems, thin or duplicate pages, slow templates, weak internal linking, titles that do not match what people type."),
         li("Fixes. I make the changes myself — in WordPress, in Next.js and React code, in a headless CMS — or give your developer tickets precise enough to apply without a meeting."),
@@ -220,7 +221,7 @@ export const seoConsultantEn = {
           ["How long before SEO work shows results?", "Technical fixes are usually picked up by Google within weeks; growth in rankings and traffic takes months and depends on competition. Reports compare each month with the baseline, so you see the trend early."],
           ["Will you cooperate with our in-house developer and marketer?", "Yes. I can make the SEO changes myself or write tickets precise enough for your developer, and I review content briefs with your marketer. A second opinion on an agency’s plan is also a common request."],
           ["Can you guarantee first-page rankings in Google?", "No one can. Google’s results depend on hundreds of signals and on what competitors do. What I commit to is the scope of work, the measurement and clear reports on what changed."],
-          ["Is SEO still worth it with ChatGPT and AI Overviews?", "Yes: assistants that search the web rely on pages that rank and quote sites with clear facts. SEO work now includes checking how AI answers describe your business, and I do that in every audit."],
+          ["Is SEO still worth it with ChatGPT, Perplexity and Gemini and AI Overviews?", "Yes: assistants that search the web rely on pages that rank and quote sites with clear facts. SEO work now includes checking how AI answers describe your business, and I do that in every audit."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

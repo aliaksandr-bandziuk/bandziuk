@@ -41,11 +41,11 @@ export const securityCompanySeoEn = {
   seo: {
     metaTitle: "Security Company SEO — audit from €250",
     metaDescription:
-      "SEO for security companies: guarding versus alarm and CCTV buyers, response times, data-protection duties, licensing and local search. Audit €250.",
+      "SEO for security companies: guarding versus alarm and CCTV buyers, response times, data-protection duties, licensing and local search, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Guarding and installation split", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Guarding and installation split", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Pages per site type you protect", "Response time published", "CCTV and data-protection duties", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a security company: site, service pages, local profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -87,6 +87,7 @@ export const securityCompanySeoEn = {
       layout: "guide",
       content: [
         h2("Which security businesses this page is for, and which it is not"),
+        p("I do SEO for security companies myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("This page is about physical security: manned guarding, monitored alarms, access control, and camera installation and monitoring. If you sell information security — penetration testing, managed detection, compliance work — the word is the same and nothing else is: that is a business-to-business software market with its own buyers, its own publications and a sales cycle that has little to do with being found locally."),
         p(
           "If you fit locks and respond to lockouts rather than monitor premises, the trade is closer to ",
@@ -172,6 +173,7 @@ export const securityCompanySeoEn = {
           ["Why would we write about data protection? We only install the cameras.", "Because your customer acquires the obligations and usually does not know it — signage, retention periods, who may view recordings. A page explaining what you handle and what they must do is useful, almost unique among competitors, and it signals a company that will not cut corners on the installation either. It is not legal advice, and it should say so."],
           ["Does the Google profile matter for contract work?", "For installation and small business work, a great deal. For large guarding contracts, less — though a thin or inconsistent profile is noticed by anyone checking you, which is the stage where most of this industry's reputational damage happens quietly."],
           ["How long before it produces work?", "First movement after about a month and a half, growth on a three to six month horizon. Installation enquiries tend to arrive first because the decision is fast; contract work follows later and usually starts as somebody checking you rather than enquiring."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Who writes the sector pages?", "I draft them and you correct them. What makes a warehouse page convincing is what only an operator knows — where intruders actually enter, what a patrol route looks like, why one camera position is useless — and a facilities manager reading it can tell immediately whether the company has stood on a site at three in the morning."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

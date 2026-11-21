@@ -36,11 +36,11 @@ export const pestControlWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Pest Control Companies | Bandziuk",
     metaDescription:
-      "Pest control website design: pest finder, quarterly plan pages, online booking, license and safety facts, landing pages for ads. Design + build from 700 €.",
+      "Pest control website design: pest finder, quarterly plan pages, online booking, license and safety facts, AI answers. Design + build from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["What pest do you have?", "Quarterly plan · sign up", "Licensed technicians", "Call · Book online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple pest control website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -100,6 +100,7 @@ export const pestControlWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build websites for pest control companies myself: structure, design, build and launch, with no handover between people."),
         p("I design websites for pest control companies and write the code myself, so you deal with one person and one price for both. Pest control website design decides what a visitor sees and does in the first minute: name the pest, decide whether to trust you, then call, book or sign up for a plan. Most visitors arrive on a phone, some still holding a flashlight over whatever they found under the sink."),
 
         h2("Pest control website design for three visitors: the one-time call, the plan buyer and the commercial manager"),
@@ -201,6 +202,7 @@ export const pestControlWebsiteDesignEn = {
           ["Should a pest control website show photos of bugs?", "On the pest pages, yes, small and lower down, so visitors can compare them with what they found. The home page works better with simple pest icons and photos of your technicians, which build trust rather than disgust."],
           ["Can I start with a pest control website template?", "Yes, if you run one or two trucks and mostly one-time jobs. A template becomes a limit once recurring plans, commercial contracts or paid ads matter, and moving off it later usually means designing from the beginning."],
           ["Can you rebuild our pest control site without losing the rankings it has?", "Yes. Before launch I list every address the old site has, old pest and town pages included, and point each one to its new page with a permanent redirect. After launch I watch Search Console for errors for several weeks."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you design websites for US pest control companies from Poland?", "Yes. Design and development are remote and in English. My afternoon and evening in Central European Time overlap with the US morning and midday, so design reviews fit East Coast and Central hours. Contracts and invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

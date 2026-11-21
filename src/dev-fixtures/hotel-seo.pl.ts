@@ -210,6 +210,7 @@ export const hotelSeoPl = {
           ["Czy można samemu pozycjonować stronę pensjonatu?", "Część tak: uzupełnić wizytówkę Google, zrobić osobną podstronę dla każdego pokoju, opisać dojazd i odpowiadać na opinie. Audyt pomaga ustalić, co daje najwięcej, a technikę — szybkość, silnik rezerwacyjny, dane strukturalne i wersje językowe — zwykle lepiej zlecić."],
           ["Czy stronę z silnikiem Profitroom albo innym systemem rezerwacji da się pozycjonować?", "Tak. Silnik obsługuje rezerwację, a pozycjonowanie dotyczy strony, z której gość do niej trafia. Sprawdzam, czy widżet nie spowalnia strony i czy rezerwacje z Google są poprawnie liczone."],
           ["Czy prowadzisz też kampanie i media społecznościowe hotelu?", "Nie. Robię pozycjonowanie i, jeśli trzeba, stronę. Kampanie i media społecznościowe lepiej powierzyć agencji albo osobie w hotelu; SEO działa obok nich."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy pracujesz z obiektami spoza Warszawy?", "Tak, z całej Polski: nad morzem, w górach, na Mazurach i w miastach. Pozycjonowanie robię zdalnie: strona, wizytówka i dane wyszukiwań dla Waszej miejscowości."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

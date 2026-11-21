@@ -33,11 +33,11 @@ export const seoConsultationPl = {
   seo: {
     metaTitle: "Konsultacje SEO online — cena i przebieg | Bandziuk",
     metaDescription:
-      "Konsultacje SEO online: bezpłatna rozmowa 15–30 min, przygotowanie na danych z Search Console i pisemne podsumowanie z priorytetami. Od 1000 zł.",
+      "Konsultacje SEO online: bezpłatna rozmowa 15–30 min, przygotowanie na danych z Search Console i pisemne podsumowanie z priorytetami, odpowiedzi AI. Od 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Pierwsza rozmowa 15–30 min gratis", "Pisemne podsumowanie z priorytetami", "Po polsku, angielsku i rosyjsku"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Pisemne podsumowanie z priorytetami", "Po polsku, angielsku i rosyjsku"],
   heroVisual: "photo",
   heroPhoto: { _type: "image", asset: { _type: "reference", _ref: "image-f672c00fe2c4d1b2e6dfd5f64d9b65c50f20a3d1-446x559-png" }, alt: "Aliaksandr Bandziuk prowadzi konsultacje SEO online" },
   offers: [
@@ -153,7 +153,7 @@ export const seoConsultationPl = {
         li("informację, kto po konsultacji będzie wdrażał zmiany: Wasz programista, agencja czy ja"),
         p("Brak Search Console to też informacja. Pomogę ją skonfigurować, a pierwsze wnioski oprzemy na tym, co widać z zewnątrz: indeksacji, wynikach wyszukiwania i kodzie strony."),
 
-        h2("Co dostajecie po konsultacji SEO: pisemne podsumowanie z priorytetami"),
+        h2("Po konsultacji SEO dostajecie pisemne podsumowanie z priorytetami"),
         p("Po rozmowie przesyłam pisemne podsumowanie. To nie jest raport na kilkadziesiąt stron, tylko dokument roboczy, z którym można od razu zacząć pracę:"),
         li("odpowiedzi na Wasze pytania, razem z danymi, na których je oparłem"),
         li("listę zadań według priorytetu: co zrobić w tym tygodniu, co w tym miesiącu, a co może poczekać"),

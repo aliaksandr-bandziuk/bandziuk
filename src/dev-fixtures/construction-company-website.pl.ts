@@ -19,11 +19,11 @@ export const constructionCompanyWebsitePl = {
   seo: {
     metaTitle: "Strona internetowa dla firmy budowlanej | Bandziuk",
     metaDescription:
-      "Strona internetowa dla firmy budowlanej: usługi i miejscowości, realizacje dodawane przez ekipę, formularz wyceny ze zdjęciami, szybka i Wasza. Od 3000 zł.",
+      "Strona internetowa dla firmy budowlanej: usługi i miejscowości, realizacje dodawane przez ekipę, formularz wyceny ze zdjęciami, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Usługi i miejscowości", "Realizacje dodawane przez Was", "Wycena ze zdjęciami", "Telefon · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa firmy budowlanej", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -84,6 +84,7 @@ export const constructionCompanyWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla firm budowlanych buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla firm budowlanych od początku do końca — struktura, projekt, wykonanie i uruchomienie — więc jedna osoba odpowiada za to, jak strona wygląda i jak działa. Strona firmy budowlanej ma jedno zadanie: zamieniać ludzi, którzy porównują wykonawców, w prośby o wycenę. Wszystko na niej jest zaplanowane pod to."),
 
         h2("Czego potrzebuje strona firmy budowlanej: podstrony i funkcje"),
@@ -175,6 +176,10 @@ export const constructionCompanyWebsitePl = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("Strona firmy budowlanej a wyszukiwanie AI: ChatGPT, Perplexity, Gemini i podsumowania AI"),
+        p("Ludzie pytają ChatGPT, Perplexity, Gemini albo podsumowania AI w Google kto buduje domy pod klucz w okolicy i ile kosztuje stan surowy zamknięty. Asystent odpowiada z tekstu, który potrafi przeczytać, i wymienia firmy, których strony podają fakty: zakres prac, obszar działania, realizacje z datami i widełki cen."),
+        p("Pracę nad obecnością w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization). W praktyce to tekst zamiast grafik, dane strukturalne firmy i usług oraz dane zgodne z wizytówką Google."),
+
         h2("Zamów stronę internetową dla firmy budowlanej: co mi wysłać"),
         p(
           "Wyślijcie nazwę firmy, link do obecnej strony albo profilu, usługi, które oferujecie, i miejscowości, w których pracujecie. Kilka ostatnich realizacji ze zdjęciami pomoże mi zaproponować strukturę. Odpowiem planem podstron i stałą ceną. Skorzystajcie z ",

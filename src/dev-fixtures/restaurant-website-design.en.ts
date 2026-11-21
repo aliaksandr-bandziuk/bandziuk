@@ -14,11 +14,11 @@ export const restaurantWebsiteDesignEn = {
   seo: {
     metaTitle: "Restaurant Web Design: Mobile, Menu, Photos | Bandziuk",
     metaDescription:
-      "Restaurant website design built for the phone: a first screen that answers what, when and how to book, a readable menu and food photos that load fast.",
+      "Restaurant website design built for the phone: a first screen that answers what, when and how to book, AI answers.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["What you cook", "Open today until 23:00", "One real photo", "Menu · Book a table"],
   contentBlocks: [
     {
@@ -32,7 +32,7 @@ export const restaurantWebsiteDesignEn = {
         { _key: k("o"), iconName: "image", title: "Food photos that load fast", text: "8–12 strong shots, main image under 2.5 s" },
         { _key: k("o"), iconName: "palette", title: "Your venue’s colours and type", text: "Taken from the sign, the menu card, the room" },
         { _key: k("o"), iconName: "pencil", title: "You edit menu, hours and photos", text: "From a phone, without breaking the layout" },
-        { _key: k("o"), iconName: "languages", title: "Language versions where guests need them", text: "The full menu translated, each with its own address" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Menu, hours and booking an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple restaurant site", value: "700–1,400 €", note: "design included" },
@@ -75,8 +75,9 @@ export const restaurantWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build restaurant websites myself: structure, design, build and launch, with no handover between people."),
         p("I design restaurant websites and build them myself, so the design and the build come from one person at one price. The design starts from how guests choose a restaurant: on their phone, in a few seconds, often while standing outside another one. In those seconds the site has to show what you cook, whether you are open and how to get a table."),
-        h2("What restaurant website design has to answer in the first five seconds"),
+        h2("Restaurant website design: the answers needed in the first five seconds"),
         p("Almost every visit to a restaurant website starts with one of three questions: what do they serve, are they open, can I get a table. A good design answers all three on the first screen of a phone, before anyone scrolls."),
         p("That first screen holds four things and nothing else:"),
         li("the name of the place and what kind of food it serves, in plain words"),
@@ -159,6 +160,7 @@ export const restaurantWebsiteDesignEn = {
           ["Will the new design work with our table booking system?", "Most booking systems provide a widget or a booking link. The design places it where guests expect it — on the first screen and in a fixed button on mobile — and keeps the look consistent with the rest of the site."],
           ["Do we need a professional photographer for the restaurant website?", "It is the single best investment in the design. If you do not have one, I prepare a shot list of the dishes and spaces the design needs, so one session covers everything."],
           ["Can we change the menu, photos and opening hours ourselves after launch?", "Yes. The menu, hours, photos and events are edited from a simple admin panel, including from a phone. The layout stays consistent whatever you add."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote. Being named there is called generative engine optimization (GEO), or answer engine optimization (AEO) when the answer shows in search itself."],
           ["Can the restaurant website have several language versions?", "Yes. For restaurants with tourists or expat guests, the menu and booking page are translated in full, and each language version has its own address so it can be found in search in that language."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -167,6 +169,8 @@ export const restaurantWebsiteDesignEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("A restaurant website that ChatGPT, Perplexity and Gemini can read"),
+        p("Guests ask assistants which restaurant nearby is open now, takes a table for six or has a vegan menu. The assistant answers from text it can read, so the menu, hours, booking and location stay in the page as words, with structured data for the restaurant and its menu."),
         h2("Order restaurant website design: what to send me"),
         p(
           "Send the name and address of the restaurant, a link to the current website or social profile, and the menu. If you use a booking system, name it. I will reply with a proposed structure for the home page and menu page, and a fixed price. Use the ",

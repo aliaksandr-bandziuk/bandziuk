@@ -39,7 +39,7 @@ export const pozycjonowanieStronRadomPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista SEO, bez opiekuna klienta", "Audyt od 1000 zł", "Radom i okoliczne gminy"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Radom i okoliczne gminy"],
   heroPhonePoints: ["Elektryk Radom Kozienice", "Mapy Google: 3 firmy", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Radomia: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -206,6 +206,7 @@ export const pozycjonowanieStronRadomPl = {
           ["Kto zajmuje się pozycjonowaniem stron w Radomiu?", "W wynikach są radomscy wykonawcy, agencje ogólnopolskie, firmy z Warszawy i portal Oferteo. Ja pracuję sam: robię audyt, wdrożenie i raport, bez opiekuna klienta i z cenami podanymi w cenniku."],
           ["Czy da się być wyżej w Mapach Google w Radomiu?", "Tak. Kategoria, usługi, zdjęcia, godziny, opinie i obszar działania obejmujący okoliczne gminy poprawiają pozycję w Mapach. W Radomiu często to najszybsze źródło telefonów."],
           ["Czy radomska firma może pozycjonować się także w Warszawie?", "Może, ale to osobne wyniki i większa konkurencja. Potrzebne są podstrony napisane pod Warszawę i realny zasięg usług. W audycie sprawdzam, czy to się opłaca."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Jak wygląda współpraca zdalna z Warszawy dla firmy z Radomia?", "Rozmowa wideo, dostęp do Search Console, Analytics i wizytówki, lista zadań we wspólnym dokumencie i miesięczny raport. Całość prowadzę online."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

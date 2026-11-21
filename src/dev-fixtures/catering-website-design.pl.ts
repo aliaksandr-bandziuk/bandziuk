@@ -39,11 +39,11 @@ export const cateringWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www cateringu z formularzem wyceny | Bandziuk",
     metaDescription:
-      "Strona internetowa dla firmy cateringowej: menu według okazji, cena za osobę, formularz wyceny, lunche do biura z fakturą i zaliczka BLIK-iem. Od 3000 zł.",
+      "Strona internetowa dla firmy cateringowej: menu według okazji, cena za osobę, formularz wyceny, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Wycena przyjęcia", "Menu na wesele i komunię", "Lunch do biura na jutro", "Zaliczka BLIK-iem"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy cateringowej z menu i formularzem wyceny, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -193,6 +193,7 @@ export const cateringWebsiteDesignPl = {
           ["Czy strona przyjmie zamówienia lunchy do biura z godziną graniczną?", "Tak. Godzina zamówień, przedziały dostawy, minimum i dni bez dostaw to ustawienia w panelu. Stali klienci powtarzają zamówienia i dostają fakturę zbiorczą."],
           ["Czy wystarczy szablon strony cateringu?", "Dla nowej firmy z jednym menu często tak. Strona na zamówienie opłaca się, gdy sprzedajecie kilka rodzajów przyjęć, pobieracie zaliczki, dowozicie lunche firmom albo chcecie formularza, który zbiera wszystko do wyceny."],
           ["Czy sami zmienimy menu, ceny i zdjęcia?", "Tak. Menu, zestawy, ceny, strefy dostaw, zajęte terminy i galerie edytujecie w panelu, również na telefonie, a nowe pozycje dostają ten sam wygląd co reszta strony."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Czy pracujesz z firmami cateringowymi z innych miast?", "Tak, z całej Polski. Omawiamy wszystko przez wideo i maile, kolejne etapy akceptujecie online, a za stronę wystawiam fakturę na firmę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

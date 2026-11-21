@@ -39,7 +39,7 @@ export const treeServiceSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Wycinka, pielęgnacja, pnie", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Wycinka, pielęgnacja, pnie", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Wycinka drzew Piaseczno", "Wycinka alpinistyczna", "Pomoc z wnioskiem do gminy", "Zadzwoń"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy wycinki drzew: strona, wizytówka Google, konkurencja z okolicy", price: 1000, currency: "PLN", unit: "one-off" },

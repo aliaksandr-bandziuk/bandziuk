@@ -45,7 +45,7 @@ export const seoForHomeBuildersEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Communities, plans and custom builds", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Communities, plans and custom builds", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["New homes north of Austin", "The Madison plan · 4 bed", "Sales office open today", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Home builder SEO audit: website, community and plan pages, Google profiles, listing sites and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -108,7 +108,7 @@ export const seoForHomeBuildersEn = {
       content: [
         p("SEO for home builders is the work that brings people searching for a new house in your area — by town, by community name, by floor plan or by “build on my lot” — to your website, and keeps them coming back over the months it takes to sign a contract. I do it myself, as a single SEO consultant who also builds websites, for custom, semi-custom and production builders, so the same person audits the site, writes the community pages and changes the code."),
 
-        h2("What SEO for home builders covers: communities, floor plans, custom builds and AI answers"),
+        h2("SEO for home builders covers: communities, floor plans, custom builds and AI answers"),
         p("A home builder is searched differently from a contractor called for a repair. Nobody needs a new house by tonight. A family starts looking a year or more ahead, compares areas, saves floor plans, tours models on weekends and talks to a lender long before signing. Search touches every one of those steps:"),
         li("town and area searches — “new construction homes in [town]”, “new homes near [school district]”"),
         li("community and builder names, typed after a drive past a sign or a mention by a realtor"),
@@ -136,7 +136,7 @@ export const seoForHomeBuildersEn = {
         li("amenities that exist today, kept apart from those still planned"),
         li("links to the school district’s own site and to the plans and homes on offer there"),
         li("the sales office address and the hours someone is there"),
-        h3("What to do with the page when a community sells out"),
+        h3("A community page when it sells out: what to do with it"),
         p("Deleting it throws away years of links and rankings. The page stays, says the community is sold out, and points to your nearest active community. The same goes for plan names you retire: their pages redirect to the plan that replaced them."),
 
         h2("Floor plan, model home and quick move-in pages that rank"),

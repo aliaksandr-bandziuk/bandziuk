@@ -43,7 +43,7 @@ export const seoForMovingCompaniesEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Local, long-distance, interstate", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Local, long-distance, interstate", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Movers Austin to Denver", "Free video estimate", "USDOT number shown", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Moving company SEO audit: website, quote form, Google Business Profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -106,7 +106,7 @@ export const seoForMovingCompaniesEn = {
       content: [
         p("SEO for moving companies is the work that puts your crews in front of people searching for movers in your towns and on your routes, and turns those searches into quote requests and booked moves. I do it myself, as a single SEO consultant who also builds websites, for independent movers with a few trucks and for family moving companies that have grown into a warehouse and a sales office. Call it SEO for movers or for moving companies — it is measured in booked estimates."),
 
-        h2("What SEO for moving companies covers: from “movers near me” to a booked estimate"),
+        h2("SEO for moving companies covers: from “movers near me” to a booked estimate"),
         p("A move usually starts with a search weeks before the date: “movers near me”, “cheap movers in Tampa”, “long distance moving company Dallas”, “movers from Boston to Chicago”. The customer opens four or five sites, fills in two forms and books whoever replies first with a clear price and looks trustworthy. Moving company SEO works on each step of that path:"),
         li("pages that answer local, long-distance and route searches"),
         li("the Google Business Profile and the map results for “movers near me”"),
@@ -217,6 +217,7 @@ export const seoForMovingCompaniesEn = {
           ["Should a mover buy leads or invest in SEO?", "Bought leads start at once and cost per lead, and the same customer often gets calls from four or five movers. SEO takes months, then brings requests that come only to you. Many companies keep a paid channel for the peak and rely on it less as their pages grow."],
           ["Do I need a separate page for every city-to-city route?", "Only for routes you really run often enough to say something specific: frequency, transit time, shared-load options and reviews from that lane. Hundreds of copied route pages are treated as doorway pages and can hurt the whole site."],
           ["Should my USDOT number be on the website?", "Yes, as text on the about page and in the footer, together with state license numbers where they apply. Customers check them, and so do the AI assistants that answer “is this mover legit” questions."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Can a consultant in Poland do SEO for a US moving company?", "Yes. Everything is done online and in English, from the route pages to the map profile. Warsaw afternoons and evenings fall on US mornings, so a call can fit before your crews head out on the East Coast or in the Central time zone. I invoice in EUR under a written contract."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -38,11 +38,11 @@ export const wineryWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www winnicy: degustacje i enoturystyka | Bandziuk",
     metaDescription:
-      "Strona internetowa dla winnicy: rezerwacja degustacji, klub wina, wydarzenia i wesela, bramka 18+, wersje językowe i zdjęcia, projekt w cenie. Od 3000 zł.",
+      "Strona internetowa dla winnicy: rezerwacja degustacji, klub wina, wydarzenia i wesela, bramka 18+, wersje językowe i zdjęcia, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Zarezerwuj degustację", "Otwarte w sobotę 12–18", "Klub wina", "Wesele w winnicy"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla winnicy, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -201,6 +201,7 @@ export const wineryWebsiteDesignPl = {
           ["Czy strona winnicy musi mieć bramkę 18+?", "Na stronie o winie warto ją mieć. Robię ją lekką: jedno pytanie, zapamiętana odpowiedź i treść dostępna dla wyszukiwarek. Wiek przy odbiorze wina i tak sprawdza obsługa."],
           ["Czy goście mogą zapłacić za degustację z góry?", "Tak, przez BLIK, Przelewy24 albo inną bramkę płatności, z zasadami zwrotu widocznymi przed płatnością. Przedpłata ogranicza puste miejsca po rezerwacjach, z których nikt nie przyjechał."],
           ["Czy sam zmienię terminy, ceny i wydarzenia?", "Tak. Terminy degustacji, ceny, wina i wydarzenia edytujesz w prostym panelu — na WordPressie albo w CMS-ie typu Sanity — także z telefonu, a układ strony się nie rozjeżdża."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pracujesz z winnicami spoza Warszawy?", "Tak, z całej Polski. Cały projekt prowadzę zdalnie — rozmowy, akceptacje, uruchomienie — po polsku, a wersje dla gości z zagranicy mogę przygotować po angielsku i rosyjsku; niemiecką czy czeską dostarcza tłumacz."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

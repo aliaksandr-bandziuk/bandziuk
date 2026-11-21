@@ -107,7 +107,7 @@ export const carDealerSeoEn = {
       content: [
         p("Car dealer SEO is the work that puts your inventory, your lot and your dealership name in front of people searching for a car in your area, and turns those searches into calls, test drives and credit applications. I do it myself, as a single SEO consultant and web developer, for independent used car dealers and small dealer groups: the person who audits your vehicle pages is the person who fixes the templates and writes the model pages."),
 
-        h2("What SEO for car dealers covers: inventory, the lot and the dealership name"),
+        h2("SEO for car dealers covers: inventory, the lot and the dealership name"),
         p("A car shopper searches in stages: first a model and a budget (“used Honda CR-V Columbus”), then a type of dealer (“buy here pay here near me”, “Subaru dealer Plano”), and finally your name, typed by someone who already saw one of your cars on a marketplace. SEO for a car dealer works on:"),
         li("vehicle detail pages and inventory lists that Google indexes and keeps current"),
         li("make, model, body type and price pages built from the stock you actually carry"),
@@ -128,7 +128,7 @@ export const carDealerSeoEn = {
         li("descriptions are the same feed boilerplate on hundreds of pages and on every marketplace"),
         li("the XML sitemap updates once a week while cars sell every day"),
         p("These are fixed in the templates, once: vehicle pages rendered on the server, a stable address per stock number, titles built from the feed fields plus your location, a sitemap regenerated with each import, and a few lines per car from your staff — condition, options, who it suits — that no other site carries."),
-        h3("What to do with a vehicle page when the car is sold"),
+        h3("A vehicle page when the car is sold: what to do with it"),
         p("Deleting a page the moment the car sells throws away the visits and links it had; leaving it live with a “buy now” button annoys people. What works for most dealers: keep the page for a short period marked as sold, with similar vehicles in stock and a link to the model page, then let it return 410 or redirect it to that model page."),
 
         h2("Make, model and price pages: which inventory filters to index in car dealer SEO"),

@@ -40,11 +40,11 @@ export const accountingFirmWebsiteEn = {
   seo: {
     metaTitle: "Accounting firm website design and build — €2,000",
     metaDescription:
-      "Website for an accounting firm: a page per client type, pricing, secure document exchange, visible credentials, editable without a developer. From €2,000.",
+      "Website for an accounting firm: a page per client type, pricing, secure document exchange, visible credentials, AI answers. From €2,000.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per client type", "Websites from €2,000", "Reply in 1 working day"],
+  heroChips: ["A page per client type", "Websites from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Who we work with", "Fees", "Send documents", "Book a call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Accounting firm website: client-type pages, fees, document exchange", price: 2000, currency: "EUR", unit: "one-off" },
@@ -63,7 +63,7 @@ export const accountingFirmWebsiteEn = {
         { _key: k("o"), iconName: "file-lock", title: "Document exchange that is not a liability", text: "Into the portal your practice software already has" },
         { _key: k("o"), iconName: "award", title: "Credentials and the signing accountant", text: "Licences, memberships, who is responsible" },
         { _key: k("o"), iconName: "edit", title: "Editable without a developer", text: "Fees, people, deadlines — you change them" },
-        { _key: k("o"), iconName: "refresh-cw", title: "Move off a vendor template", text: "Your own site, rankings kept" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -85,7 +85,8 @@ export const accountingFirmWebsiteEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why accounting firm websites all look the same"),
+        h2("Accounting firm websites all look the same"),
+        p("I build websites for accounting firms myself: structure, design, build and launch, with no handover between people."),
         p("Because a large share of them come from a handful of vendors who build sites for the profession by the hundred. The result is the same structure, the same stock photograph of a handshake, and the same sentence: «we provide tax, audit and advisory services to businesses of all sizes». It is not laziness on the firm's part — it is what the product delivers, and it is cheap for a reason."),
         p("The cost shows up in the one moment that matters. A prospect comparing three firms in three browser tabs sees three pages that say the same thing, so the decision falls back to whichever answered the phone first or quoted lowest. A site that names the client's situation in its heading does not enter that comparison on price."),
 
@@ -118,7 +119,7 @@ export const accountingFirmWebsiteEn = {
         h2("A site for a solo bookkeeping practice"),
         p("A solo practice sells a recurring operational service rather than an annual engagement, and the buyer compares monthly price, the software and how fast you answer. So the site is shorter and sharper: the software named on the first screen, the monthly fee stated, what is and is not included, and how handover works. A five-page site does this job; a twenty-page firm site does not suit it."),
 
-        h2("What an accounting firm website costs and what moves the price"),
+        h2("An accounting firm website: what it costs and what moves the price"),
         p(
           "A full site with client-type pages, fees, document routing and an editable CMS starts at €2,000. A landing page for one segment is €700–1,400. Moving off a vendor template while keeping the rankings starts at €1,000. What moves the price: how many client segments get their own page, how many offices and team members, whether the fee structure is ready or has to be worked out, and whether the content exists. Design is included and never quoted separately. The full list is on the ",
           link("pricing page", "/pricing"),
@@ -181,6 +182,7 @@ export const accountingFirmWebsiteEn = {
           ["Do you design as well as build?", "Both, and the design is included in the price rather than quoted separately — a design nobody builds is not worth paying for. The design is also drawn against your real service list and bios, not against placeholder text, because that is where template designs fall apart."],
           ["Can we update the site ourselves?", "Yes, and in this profession you will need to: fees, people and deadline dates change. Those are edited without a developer. Structural changes, like adding a new client segment, are quick work but not yours to do."],
           ["Will the site be ready for search?", "It is built so search is possible — a page per segment, structure around real queries, markup matching the page. Being found is separate work with its own price, on the SEO page for accounting firms."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Who owns the site?", "You do: the code, the domain, the content and every login. Nothing stays with me as leverage, which is the main practical difference from a vendor template you rent."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

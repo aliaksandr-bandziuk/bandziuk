@@ -42,7 +42,7 @@ export const personalInjurySeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Case-type pages first", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Case-type pages first", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Truck accident lawyer", "Free case review", "Call answered 24/7", "Callback in minutes"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Personal injury SEO audit: website, case-type pages, competitors and intake", price: 250, currency: "EUR", unit: "one-off" },
@@ -106,7 +106,7 @@ export const personalInjurySeoEn = {
       content: [
         p("Personal injury SEO is the work that brings people hurt in an accident to your firm’s website when they search for help, and turns those visits into calls and signed contingency cases. I do SEO for personal injury attorneys myself, as a single consultant who also builds websites, and I start where your firm can realistically win, because in this market the head terms belong to firms with national budgets."),
 
-        h2("Why SEO for personal injury lawyers matters: injured people search before they call"),
+        h2("SEO for personal injury lawyers matters: injured people search before they call"),
         p("After a crash or a fall, most people do not have a lawyer’s name. They search from a phone, sometimes from a hospital bed or the roadside: “do I need a lawyer after a car accident”, “truck accident lawyer near me”, “how much is my settlement worth”. The firm whose page answers that search, and whose phone is answered, gets the call."),
         p("Referrals still matter, but the referred client also searches your name and compares you with the firms they see. TV and billboards make people remember a name; search decides who they call when the moment comes. SEO for personal injury law firms is how a smaller firm takes part in that decision without matching the advertising budgets of the largest firms."),
 
@@ -206,6 +206,7 @@ export const personalInjurySeoEn = {
           ["How long does personal injury lawyer SEO take?", "In a small town, case-type pages can bring calls within a few months. In large cities, expect six to twelve months for a niche to bring steady cases, and longer for the main terms."],
           ["Can we say “no fee unless we win” on our website?", "Usually yes, but many states require an explanation of costs and expenses next to it and set rules on how the fee is described. Check your state bar’s rules; I write the fee section to fit them, and the firm approves it."],
           ["Should a PI firm buy leads, run Local Services Ads or invest in SEO?", "Leads and ads bring cases now and cost per enquiry; SEO costs more at the start and then brings calls you do not pay for one by one. Many PI firms keep paid channels while SEO builds up."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Can a consultant in Poland do SEO for a US personal injury firm?", "Yes. The work is remote and in English. My afternoon and evening in Central European Time overlap with the US working day, so calls fit your morning. Contracts and invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

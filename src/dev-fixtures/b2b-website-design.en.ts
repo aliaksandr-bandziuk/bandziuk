@@ -36,11 +36,11 @@ export const b2bWebsiteDesignEn = {
   seo: {
     metaTitle: "B2B Website Design: Catalogs, RFQs and Export Pages",
     metaDescription:
-      "B2B website design with the build included: product catalogs, spec sheets and CAD files, RFQ forms, dealer locator, language versions for export. From 700 €.",
+      "B2B website design with the build included: product catalogs, spec sheets and CAD files, RFQ forms, dealer locator, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["ISO 9001 certified", "Download datasheet", "Request a quote", "Find a distributor"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple B2B website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -58,7 +58,7 @@ export const b2bWebsiteDesignEn = {
         { _key: k("o"), iconName: "message-circle", title: "RFQ forms sales can act on", text: "Product, quantity, deadline and drawings in one request" },
         { _key: k("o"), iconName: "map-pin", title: "Dealer and distributor locator", text: "“Where to buy” by country or region" },
         { _key: k("o"), iconName: "shield-check", title: "Certificates and references up front", text: "ISO, approvals and years in market as text" },
-        { _key: k("o"), iconName: "plug", title: "CRM, ERP and PIM connections", text: "Requests and product data without copy-paste" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Specs, applications and certificates an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple B2B website", value: "700–1,400 €", note: "design included" },
@@ -221,6 +221,7 @@ export const b2bWebsiteDesignEn = {
           ["Can the site connect to our CRM or ERP?", "In most cases, yes. Forms can send requests into HubSpot, Salesforce, Pipedrive or another CRM, and product data can come from an ERP or PIM export. What is possible depends on your systems, so I check that before the quote."],
           ["Do you design B2B websites without building them?", "No. Design and build come together. How catalogs, filters, forms and downloads behave is decided while building, and a design handed over as pictures loses much of that."],
           ["Can you redesign our B2B website without losing Google rankings?", "Yes. Every existing address is mapped to its new page, redirects are set up and structured data is carried over before launch, so the positions the site already has are kept."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Do you work with B2B companies outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian, for companies selling in one country or exporting to many."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

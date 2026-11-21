@@ -38,7 +38,7 @@ export const localSeoForSmallBusinessEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Google Maps + reviews", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Google Maps + reviews", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Open now · Directions", "In the map pack", "Reviews that name the service", "Call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Local SEO audit for a small business: Google Business Profile, listings, location pages", price: 250, currency: "EUR", unit: "one-off" },
@@ -101,7 +101,7 @@ export const localSeoForSmallBusinessEn = {
       content: [
         p("Local SEO for small business is the work that gets a shop, an office or a business that travels to its customers into Google Maps and the three map results when people nearby search for what it offers. I do it myself — the Google Business Profile, reviews, listings and the location pages on your website — so you get the map side handled without learning every Google Maps rule yourself."),
 
-        h2("Why local SEO is important for small business: the map pack and “near me” searches"),
+        h2("Local SEO is important for small business: the map pack and “near me” searches"),
         p("For searches with local intent — “dry cleaner”, “bike repair near me”, “accountant in [town]” — Google shows a map with three businesses above the regular results. On a phone those three fill most of the screen and carry a call button, directions and a star rating. A small business outside them stays unseen by most people searching nearby, however good its website is."),
         p("Google picks the three by how well a business matches the search, how near it is to the person searching, and how well known it is through reviews, mentions and links. Where your customer stands is fixed; everything else can be worked on."),
 
@@ -203,6 +203,7 @@ export const localSeoForSmallBusinessEn = {
           ["How long does local SEO take for a small business?", "Profile corrections often show in the map within a few weeks. Reviews, listings and location pages build up over two to four months, longer in big cities and busy categories."],
           ["How do I choose the best local SEO services for a small business?", "Ask who will do the work, whether you keep ownership of the Google profile, how results are reported — calls and directions, not only rank — and whether the provider avoids fake reviews and mass directory submissions."],
           ["Do I need a website if I have a Google Business Profile?", "A profile alone can bring calls, but a website gives Google and AI assistants more to confirm what the profile says, and gives customers prices and answers before they call. Even one good page helps."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you do local SEO for small businesses outside Poland?", "Yes. Local SEO is done remotely — the profile, listings for your country, reviews and tracking — for small businesses in the US, Canada, the UK, Australia and elsewhere. I work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

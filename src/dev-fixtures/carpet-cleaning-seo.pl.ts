@@ -39,7 +39,7 @@ export const carpetCleaningSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Dywany, tapicerka, materace", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Dywany, tapicerka, materace", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Pranie kanapy Kraków", "Odbiór dywanu", "Cennik za m²", "Zadzwoń"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy prania dywanów: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -197,6 +197,7 @@ export const carpetCleaningSeoPl = {
           ["Czy podawać ceny prania tapicerki na stronie?", "Tak, przynajmniej widełki i zasady: za m², za miejsce siedzące, dojazd, dopłaty. Ludzie szukają cen, podsumowania AI je cytują, a jasny cennik oszczędza nieporozumień na miejscu."],
           ["Czy jedna strona wystarczy na pranie u klienta i pralnię z odbiorem?", "Jedna domena tak, ale z osobnymi podstronami. Pranie u klienta i pralnia stacjonarna odpowiadają na inne pytania — o czas schnięcia albo o odbiór i termin zwrotu — i każda podstrona pozycjonuje się na swoje frazy."],
           ["Czy da się pozycjonować samą wizytówkę Google, bez strony?", "Da się, i dla małej firmy to często najszybsze źródło telefonów. Strona z podstronami usług i cennikiem wzmacnia jednak wizytówkę i jest potrzebna, żeby pojawiać się w zwykłych wynikach i w odpowiedziach AI."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy pracujesz z firmami prania dywanów spoza Warszawy?", "Tak. Całą pracę wykonuję zdalnie: dane wyszukiwań dla Waszych miejscowości, strona, wizytówka i raporty. Rozmawiamy przez telefon, WhatsApp albo wideo, w porze, która nie koliduje z wyjazdami ekip."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

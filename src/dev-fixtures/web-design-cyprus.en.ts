@@ -35,11 +35,11 @@ export const webDesignCyprusEn = {
   seo: {
     metaTitle: "Web Design in Cyprus: Design Built In, from €2,000",
     metaDescription:
-      "Web design for companies in Cyprus: layouts made to be built, English, Greek and Russian on one page, speed kept on mobile. Design included, from €2,000.",
+      "Web design for companies in Cyprus: layouts made to be built, English, Greek and Russian on one page, AI answers. Design included, from €2,000.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design included in the build", "Websites from €2,000", "Answer within 1 working day"],
+  heroChips: ["Design included in the build", "Websites from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Services", "Request a quote", "English · Ελληνικά · Русский", "Call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Website for a Cyprus company, design included", price: 2000, currency: "EUR", unit: "one-off" },
@@ -58,7 +58,7 @@ export const webDesignCyprusEn = {
         { _key: k("o"), iconName: "smartphone", title: "Phone first, not phone later", text: "Checked where the traffic actually is" },
         { _key: k("o"), iconName: "image", title: "Photography plan", text: "What to shoot and what to leave out" },
         { _key: k("o"), iconName: "refresh-cw", title: "Redesign of an existing site", text: "New look, rankings kept" },
-        { _key: k("o"), iconName: "eye", title: "Trust on the page", text: "People, office, licences, real work" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -80,12 +80,13 @@ export const webDesignCyprusEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("What a Cyprus company is buying when it searches for web design"),
+        h2("A Cyprus company searching for web design: what it is buying"),
+        p("I design and build websites for companies in Cyprus myself: structure, design, build and launch, with no handover between people."),
         p("I design websites for companies in Cyprus, and the design comes with the build rather than on its own invoice. That is worth saying first, because the word design is used for two very different purchases. One is a picture of a website: screens in Figma, a palette, a font pairing, delivered as a file. The other is a website that looks the way it was meant to look once it is live, on a phone, in three languages, with real photographs and real text in it."),
         p("The first purchase is the one that strands companies. The pictures are approved, everyone is pleased, and then a developer quotes to build them and the quote is larger than the design was. Parts get cut, the live site drifts from the file, and nobody is responsible for the gap because each side delivered what was agreed."),
         p("So on my projects design and build are one job with one person answerable for both. There is no separate design line in the price, and there is no handover where the result can go wrong."),
 
-        h2("Why a design file is not the thing that earns"),
+        h2("A design file is not the thing that earns"),
         p("A design decides the order in which a visitor meets your business: what is seen before scrolling, what a service page promises, where the price appears, what the form asks for and how many taps separate reading from enquiring. Those are commercial decisions wearing visual clothes, and they are made well only by someone who knows what the finished page has to do in search and on a phone."),
         p("A layout that is drawn without those constraints tends to fail in predictable ways: a photograph that takes a second and a half to appear on mobile data, a headline that no one searches for, a menu that hides the pages that bring enquiries, a form asking for eight fields when two would do."),
 
@@ -113,7 +114,7 @@ export const webDesignCyprusEn = {
           ".",
         ),
 
-        h2("What a designed and built website costs in Cyprus"),
+        h2("A designed and built website: what it costs in Cyprus"),
         p(
           "A company website with design included starts at €2,000. A single-service landing page is €700–1,400. A redesign that keeps the rankings starts at €1,000. Design never appears as a separate line, because I do not sell drawings I am not going to build. What moves the price is the number of service pages, the number of languages, whether the site connects to a system you already run, and whether the photographs and text exist. The numbers are on the ",
           link("pricing", "/pricing"),
@@ -175,6 +176,7 @@ export const webDesignCyprusEn = {
           ["Do you have work from Cyprus to show?", "Yes — a multilingual real estate platform, the case in the portfolio above: a catalogue with filters, four language versions and search visibility built without bought links. I can walk you through the design decisions in it."],
           ["Who writes the text for the design?", "I can, you can, or we split it. Design and text are decided together rather than in sequence, because a layout drawn around placeholder text falls apart when the real wording arrives."],
           ["Will I be able to change the design myself later?", "Content, prices, people and pages are yours to change in the content system. Changing the design itself is a separate piece of work, and the build is set up so it can be done without rewriting the site."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Who owns the design files?", "You do, along with the code, the domain and every access credential. Nothing stays with me as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

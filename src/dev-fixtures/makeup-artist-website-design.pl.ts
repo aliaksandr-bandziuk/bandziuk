@@ -46,11 +46,11 @@ export const makeupArtistWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www i portfolio dla wizażystki | Bandziuk",
     metaDescription:
-      "Strona internetowa dla wizażystki: portfolio makijażu ślubnego i sesyjnego, cennik z dojazdem, rezerwacja daty z zadatkiem BLIK, kurs online. Od 3000 zł.",
+      "Strona internetowa dla wizażystki: portfolio makijażu ślubnego i sesyjnego, cennik z dojazdem, rezerwacja daty z zadatkiem BLIK, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Makijaż ślubny, okazje, sesje"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Makijaż ślubny, okazje, sesje"],
   heroPhonePoints: ["Makijaż ślubny z próbą", "Cennik i dojazd", "Sprawdź wolny termin", "Kurs makijażu online"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla wizażystki, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -206,6 +206,7 @@ export const makeupArtistWebsiteDesignPl = {
           ["Czy mogę sprzedawać kurs makijażu na swojej stronie?", "Tak. Podstrona kursu przyjmuje płatność przez Stripe Checkout, także BLIK-iem, i automatycznie wysyła kupującej osobisty link do nagrań. Link może wygasać po ustalonej liczbie dni, a wideo nie da się pobrać — tak działa kurs salonu Landi Room."],
           ["Czy sama dodam nowe zdjęcia do portfolio?", "Tak. Nowa praca to krótki formularz w panelu: galeria, zdjęcia, podpis fotografa i zdanie opisu. Strona sama zmniejsza zdjęcia i układa je w odpowiedniej galerii."],
           ["Czy na stronie mogą być zdjęcia moich klientek?", "Tak, za ich pisemną zgodą na publikację wizerunku — najlepiej jako osobny punkt umowy. Zdjęcia od fotografa publikujesz z jego zgodą i podpisem."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Jak wygląda współpraca zdalna?", "Wszystko załatwiamy online, niezależnie od Twojego miasta: krótkie rozmowy wideo, komentarze wpisywane w projekt i zdjęcia na wspólnym dysku. Po uruchomieniu dostajesz krótką instrukcję i nagrania z obsługi panelu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

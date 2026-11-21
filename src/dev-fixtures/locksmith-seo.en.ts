@@ -40,7 +40,7 @@ export const locksmithSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Maps, lockouts, car keys", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Maps, lockouts, car keys", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Locked out? Call now", "Car key programming", "Real business on the map", "Price explained first"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Locksmith SEO audit: Google Business Profile, website, map competitors and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -103,7 +103,7 @@ export const locksmithSeoEn = {
       content: [
         p("I do locksmith SEO for local locksmith businesses: the Google Business Profile, the website and a page for each job — home and car lockouts, rekeying, key programming, commercial locks — so that the person standing outside a locked door calls a real locksmith, not a call center renting out its listing. Almost every locksmith customer phones rather than fills in a form, so the result is counted in calls answered and jobs done."),
 
-        h2("Why SEO for locksmiths differs from other local trades"),
+        h2("SEO for locksmiths differs from other local trades"),
         p("Three things set locksmiths apart in search. Most searches are urgent and made on a phone, often in a parking lot or a hallway. The map carries more weight than the website, because people tap the first number that looks trustworthy. And the map itself is crowded with listings that are not real businesses. Locksmith SEO deals with all three at once: a profile Google trusts, pages that answer the job on the first screen, and visible proof that you are the business you claim to be."),
 
         h2("Fake locksmith listings on Google Maps: how a real locksmith competes"),

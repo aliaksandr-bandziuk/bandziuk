@@ -44,7 +44,7 @@ export const seoServicesForSmallBusinessEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["One consultant, no agency layers", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["One consultant, no agency layers", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Found on Google", "Quote request sent", "Call from search", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a small business: website, Google listing, competitors", price: 250, currency: "EUR", unit: "one-off" },
@@ -107,7 +107,7 @@ export const seoServicesForSmallBusinessEn = {
       content: [
         p("SEO services for small business are the work that brings people who search for what you sell to your own website and Google listing, and turns those visits into calls, bookings and quote requests. I do this work myself, as an SEO consultant who also builds websites, so the person who audits your site is the person who fixes it, and your budget goes into the work rather than into account managers."),
 
-        h2("What small business SEO services include: the website, the Google listing and AI answers"),
+        h2("Small business SEO services include: the website, the Google listing and AI answers"),
         p("For a small business, search decides in three places whether a customer gets in touch:"),
         li("your website — service pages, titles, speed, structured data and the text that answers customers’ questions"),
         li("your Google Business Profile — the listing that appears in Google Maps and next to searches for your name"),
@@ -144,7 +144,7 @@ export const seoServicesForSmallBusinessEn = {
           " page describes the audit in more detail.",
         ),
 
-        h2("What a monthly SEO service for a small business includes"),
+        h2("A monthly SEO service for a small business include"),
         p("Monthly SEO is worth paying for when there are more services, areas or competitors than one round of fixes can handle. A month of SEO service for a small business usually covers:"),
         li("a new or rewritten page for a service or area you want more work in"),
         li("the next fixes from the audit list, in order of impact"),

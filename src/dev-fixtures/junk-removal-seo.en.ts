@@ -40,7 +40,7 @@ export const junkRemovalSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Items, cleanouts, truck loads", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Items, cleanouts, truck loads", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Couch removal near me", "Half truck load price", "Text a photo for a quote", "Booked for today"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Junk removal SEO audit: website, Google Business Profile, pricing page and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -103,7 +103,7 @@ export const junkRemovalSeoEn = {
       content: [
         p("Junk removal SEO is the work that brings calls from people clearing out a garage, a rental unit or a remodel to your truck, instead of to a franchise or a lead platform. I do it myself — one SEO consultant who also builds websites — for owner-operators with a single truck and for local companies running a few crews. Results are counted in booked pickups and photo quotes, with rankings as a side note."),
 
-        h2("What junk removal SEO covers: items, cleanouts, prices and towns"),
+        h2("Junk removal SEO covers: items, cleanouts, prices and towns"),
         p("People rarely search for “junk removal” and stop there. They search for the thing that has to go and the situation they are in: “couch removal near me”, “hot tub removal cost”, “estate cleanout company”, “construction debris pickup”, “same day junk removal”. Each of those can be a page that ranks, and together they make SEO for junk removal its own discipline:"),
         li("“what we take” pages for items and materials"),
         li("cleanout pages for estates, rentals, foreclosures and hoarding situations"),

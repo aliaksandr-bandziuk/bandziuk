@@ -39,11 +39,11 @@ export const realtorWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona pośrednika nieruchomości: oferty i wycena",
     metaDescription:
-      "Strona internetowa dla agenta nieruchomości: marka osobista, dzielnice, oferty z wideo, wycena mieszkania, import ofert z programu. Projekt w cenie, od 3000 zł.",
+      "Strona internetowa dla agenta nieruchomości: marka osobista, dzielnice, oferty z wideo, wycena mieszkania, odpowiedzi AI. Projekt w cenie, od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Strona zostaje z Tobą po zmianie biura"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Strona zostaje z Tobą po zmianie biura"],
   heroPhonePoints: ["Ile jest warte moje mieszkanie?", "Oferty z wideo", "Mokotów · Wilanów · Ursynów", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla agenta nieruchomości, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -104,6 +104,7 @@ export const realtorWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla pośredników nieruchomości buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla agentów nieruchomości — pośredników na własnej działalności, agentów, którzy w biurze budują markę pod własnym nazwiskiem, i małych zespołów. Projekt graficzny, wykonanie, teksty i uruchomienie robi jedna osoba, a cena jest znana z góry. Kupujący znajduje mieszkanie na Otodom, Morizonie, Gratce albo w OLX. Sprzedający, zanim podpisze umowę pośrednictwa, wpisuje w Google imię i nazwisko agenta. Twoja strona jest odpowiedzią na to drugie wyszukiwanie."),
 
         h2("Strona internetowa dla agenta nieruchomości: co sprawdza sprzedający przed podpisaniem umowy"),
@@ -217,7 +218,7 @@ export const realtorWebsiteDesignPl = {
           ["Co się stanie ze stroną, gdy zmienię biuro?", "Nic złego: domena, hosting, kod i treści są Twoje. Zmieniasz logo i dane biura w stopce, a podstrony dzielnic, opinie i filmy zostają."],
           ["Ile trwa stworzenie strony dla agenta nieruchomości?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna z importem ofert od czterech do sześciu. Najwięcej zależy od zdjęć, filmów i tego, jak szybko odpowiada dostawca programu do ofert."],
           ["Czy robisz strony dla agentów spoza Warszawy?", "Tak, dla pośredników z całej Polski. Pracuję zdalnie, po polsku, angielsku albo rosyjsku. Zdjęcia do strony robi Twój fotograf według listy ujęć, którą przygotowuję."],
-          ["Czy strona agenta będzie widoczna w ChatGPT?", "Strona jest zbudowana tak, żeby asystenci mogli ją przeczytać: fakty tekstem, dane strukturalne i daty. Polecanie w odpowiedziach na konkretne pytania to dalsza praca nad SEO i widocznością w AI, którą też prowadzę."],
+          ["Czy strona agenta będzie widoczna w ChatGPT, Perplexity i Gemini?", "Strona jest zbudowana tak, żeby asystenci mogli ją przeczytać: fakty tekstem, dane strukturalne i daty. Polecanie w odpowiedziach na konkretne pytania to dalsza praca nad SEO i widocznością w AI, którą też prowadzę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

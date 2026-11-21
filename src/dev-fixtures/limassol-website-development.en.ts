@@ -31,11 +31,11 @@ export const limassolWebsiteDevelopmentEn = {
   seo: {
     metaTitle: "Web Development in Limassol for Companies — from €2,000",
     metaDescription:
-      "Website development in Limassol: a page per service, English and Russian versions, WhatsApp forms, speed on mobile. From €2,000, answer within a working day.",
+      "Website development in Limassol: a page per service, English and Russian versions, WhatsApp forms, AI answers. From €2,000, answer within a working day.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Companies in Limassol", "Websites from €2,000", "Answer within 1 working day"],
+  heroChips: ["Companies in Limassol", "Websites from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Services", "Request a quote", "English · Русский · Ελληνικά", "Call"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Company website in Limassol: structure, service pages, forms, languages", price: 2000, currency: "EUR", unit: "one-off" },
@@ -54,7 +54,7 @@ export const limassolWebsiteDevelopmentEn = {
         { _key: k("o"), iconName: "languages", title: "English and Russian versions", text: "Separate pages, not a translation plugin" },
         { _key: k("o"), iconName: "refresh-cw", title: "Redesign without losing rankings", text: "New look, same URLs, same traffic" },
         { _key: k("o"), iconName: "database", title: "Custom development", text: "Catalogues, filters, portals, integrations" },
-        { _key: k("o"), iconName: "wrench", title: "Website support", text: "Updates, backups, edits when you need them" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -76,7 +76,7 @@ export const limassolWebsiteDevelopmentEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a Limassol company website gets read before anyone calls"),
+        h2("A Limassol company website gets read before anyone calls"),
         p("I build websites for companies that work out of Limassol. Here a website has a job that a neighbourhood workshop's site never has: it is opened after someone has already heard your name. A partner you were recommended to, a client in another country, a bank, a contractor, a candidate — each of them types the company name and checks whether the site matches what they were told."),
         p("That is why sites in Limassol lose on omissions rather than on design. No office address and no names of the people who sign. Nothing about what the company has actually delivered beyond a line about being on the market for over ten years. Not one page about a specific service that someone could find without already knowing the company. The person checking closes the tab not because they disliked it, but because there was nothing to read."),
         p("The second job is bringing in people who have never heard the name. That is a different task, and structure solves it: one page per service instead of a single page listing everything. A site can do both jobs at once, but only if it was designed to."),
@@ -92,7 +92,7 @@ export const limassolWebsiteDevelopmentEn = {
         p("The working language of business Limassol is English, and for an international company it comes first on the site. A Russian version earns its place where a large share of buyers and partners are Russian-speaking: property, professional services, medicine, schools, premium and everyday service businesses. Greek earns its place where you work with local clients, suppliers and institutions."),
         p("A language version means separate pages with their own URLs, not a switcher that translates on the fly. Search treats machine translation as a weakened copy of the page, and a visitor who lands in the wrong language leaves without saying so. How many versions to build is something I check against demand before you pay for any of them: there is no point paying for Greek if nobody searches for your service in Greek."),
 
-        h2("What a company website in Limassol includes"),
+        h2("A company website in Limassol include"),
         li("a page for each service rather than one list, because buyers search for a service and not for your catalogue;"),
         li("a company section that survives a check: people, office, work delivered, memberships and licences where they exist;"),
         li("English as the main version, with Russian or Greek where demand is confirmed;"),
@@ -126,7 +126,7 @@ export const limassolWebsiteDevelopmentEn = {
           ". First movement is usually visible after about a month and a half, steady growth over three to six months.",
         ),
 
-        h2("What a website in Limassol costs and what moves the price"),
+        h2("A website in Limassol: what it costs and what moves the price"),
         p(
           "A company website starts at €2,000. A landing page for one service is €700–1,400. A redesign with rankings kept starts at €1,000. The price moves with the number of service pages, the number of languages, whether the site connects to a system you already run, and whether the text exists. Design is included and never appears as a separate line. The numbers and what sits behind them are in ",
           link("how much a website costs in Cyprus", "/blog/website-development-cost-in-cyprus"),
@@ -187,6 +187,7 @@ export const limassolWebsiteDevelopmentEn = {
           ["Who writes the text?", "I can, you can, or we split it: you supply the substance and I put it into a form people read and search engines find. Text you send ready is checked for structure and queries, not rewritten on principle."],
           ["Will I be able to edit the site myself?", "Yes. Prices, services, people, text and articles are yours to change in the content system without a developer. Updates and the technical side are a separate support arrangement, and you are not obliged to buy it from me."],
           ["When should I expect results in search?", "First movement is usually visible after about a month and a half, steady growth over three to six months. A small site is built in two to three weeks, but that is the build time, not the time to results."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Who owns the website?", "You do: the code, the domain, the text and every access credential. Nothing stays with me as leverage."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

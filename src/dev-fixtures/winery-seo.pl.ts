@@ -41,7 +41,7 @@ export const winerySeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Degustacje, zwiedzanie, wydarzenia", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Degustacje, zwiedzanie, wydarzenia", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Winnica z degustacją w sobotę", "Zwiedzanie dla grupy 10 osób", "Winobranie — program", "Zadzwoń · Dojazd"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO winnicy: strona, wizytówka Google, inne winnice w regionie", price: 1000, currency: "PLN", unit: "one-off" },
@@ -103,6 +103,7 @@ export const winerySeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem winnic sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Pozycjonowanie strony winnicy to praca nad tym, żeby para planująca weekend w Zielonej Górze, firma szukająca degustacji dla zespołu i narzeczeni, którzy marzą o ślubie wśród winorośli, znajdowali w Google, w Mapach i w odpowiedziach AI Twoją winnicę. Winnice w Polsce to zwykle małe, rodzinne gospodarstwa, w których właściciel jest jednocześnie winiarzem, przewodnikiem i księgowym. Dlatego pracuję sam i biorę na siebie całość: audyt, podstrony, poprawki w kodzie, wizytówkę i raport."),
 
         h2("Pozycjonowanie strony winnicy: jak szukają enoturyści"),

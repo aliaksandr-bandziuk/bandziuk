@@ -22,11 +22,11 @@ export const constructionCompanyWebsiteEn = {
   seo: {
     metaTitle: "Website for a Construction Company | Bandziuk",
     metaDescription:
-      "A website for a construction company: service and area pages, projects your team adds itself, a quote form with photo upload, fast and yours. From 700 €.",
+      "A website for a construction company: service and area pages, projects your team adds itself, a quote form with photo upload, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Services and areas", "Projects you add yourself", "Quote with photos", "Call · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple construction company website", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -88,7 +88,7 @@ export const constructionCompanyWebsiteEn = {
       content: [
         p("I build websites for construction companies from start to finish — structure, design, development and launch — so one person is responsible for how the site looks and how it works. A construction company website has one job: turn people who are comparing builders into requests for a price. Everything on it is planned around that."),
 
-        h2("What a construction company website needs: pages and features"),
+        h2("A construction company website: the pages and features it needs"),
         p("Most construction company websites are a home page, an “about us”, a gallery and a contact form. That is not enough to be found or to be chosen. A website that brings work has:"),
         li("a page for each service you sell — new builds, renovations, extensions, roofing, finishing"),
         li("a page for each town or area you cover, with projects from there"),
@@ -186,6 +186,10 @@ export const constructionCompanyWebsiteEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("A construction company website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews who builds warehouses in the region and how long a shell and core takes. The assistant answers from text it can read, and names companies whose pages carry the facts: project types, capacity, certificates and completed objects."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order a construction company website: what to send me"),
         p(
           "Send the company name, a link to the current website or social profile, the services you offer and the areas you cover. A few recent projects with photos help me propose the structure. I will reply with a page plan and a fixed price. Use the ",

@@ -20,11 +20,11 @@ export const localSeoForContractorsEn = {
   seo: {
     metaTitle: "Local SEO for Contractors: Maps, Reviews, Service",
     metaDescription:
-      "Local SEO for contractors: Google Business Profile, service areas, reviews, listings and area pages, so homeowners nearby find you in the map. Audit from 250 €.",
+      "Local SEO for contractors: Google Business Profile, service areas, reviews, listings and area pages, AI answers. Audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Google Maps + reviews", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Google Maps + reviews", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Top 3 on the map", "4.9 ★ from real jobs", "Your service area", "Call now"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Local SEO audit for a contractor: Google Business Profile, listings, website", price: 250, currency: "EUR", unit: "one-off" },
@@ -172,6 +172,7 @@ export const localSeoForContractorsEn = {
           ["Can you rank us in towns where we have no office?", "In the map results it is hard: distance to the business counts. In the regular results and AI answers, a strong area page with real projects and reviews from that town often does rank."],
           ["How many reviews does a contractor need?", "There is no fixed number. What matters is having more recent reviews than the businesses you compete with in the map, and a steady flow of new ones after every job."],
           ["What if our Google Business Profile is suspended?", "I check what caused it — usually the address, the name or duplicate profiles — fix it and file the reinstatement request with the proof Google asks for."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you do local SEO for contractors in other countries?", "Yes. Local SEO is done remotely: the profile, listings for your country and trade, and the search data for your towns. I work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

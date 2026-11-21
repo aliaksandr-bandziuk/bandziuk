@@ -22,7 +22,7 @@ export const aiSeoConsultantRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Один человек, без передачи дел", "15 лет в поиске", "Бесплатный созвон 15–30 мин"],
+  heroChips: ["Один человек, без передачи дел", "15 лет в поиске", "Видимость в ChatGPT и ИИ"],
   // Desktop hero shows the owner's portrait instead of the phone sketch (the
   // same transparent-background photo as on the About page).
   heroVisual: "photo",

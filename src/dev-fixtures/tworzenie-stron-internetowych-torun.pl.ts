@@ -30,11 +30,11 @@ export const tworzenieStronInternetowychTorunPl = {
   seo: {
     metaTitle: "Strony internetowe Toruń: projekt od 3000 zł | Bandziuk",
     metaDescription:
-      "Strony internetowe w Toruniu dla hoteli, restauracji i firm usługowych: projekt w cenie, wersje dla turystów, szybkie na telefonie. Od 3000 zł, ceny w cenniku.",
+      "Strony internetowe w Toruniu dla hoteli, restauracji i firm usługowych: projekt w cenie, wersje dla turystów, odpowiedzi AI. Od 3000 zł, ceny w cenniku.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Wersje PL · EN · DE"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersje PL · EN · DE"],
   heroPhonePoints: ["Zarezerwuj bezpośrednio", "Menu i godziny", "5 minut od Rynku", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Torunia, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -192,6 +192,7 @@ export const tworzenieStronInternetowychTorunPl = {
           ["Ile trwa stworzenie strony internetowej?", "Prosta strona powstaje zwykle w dwa–cztery tygodnie, a pełna z wersjami dla turystów w cztery–osiem, zależnie od tłumaczeń i zdjęć. Obiektom turystycznym radzę zacząć przed sezonem."],
           ["Kreator stron czy strona na zamówienie?", "Kreator wystarczy przy prostej wizytówce. Strona na zamówienie opłaca się, gdy potrzebujecie wersji językowych, rezerwacji, kilku usług lub miejscowości i pełnej kontroli nad SEO."],
           ["Do kogo należy strona?", "Do Was: domena, kod i treści. Możecie w każdej chwili przenieść ją do innego hostingu albo wykonawcy."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Czy firma z Torunia może zamówić stronę zdalnie?", "Tak. Pracuję z Warszawy, a cała współpraca — rozmowy, projekt, poprawki i uruchomienie — odbywa się online, w ustalonych etapach."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

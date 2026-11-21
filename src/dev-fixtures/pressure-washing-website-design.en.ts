@@ -39,11 +39,11 @@ export const pressureWashingWebsiteDesignEn = {
   seo: {
     metaTitle: "Websites for Pressure Washing Businesses | Bandziuk",
     metaDescription:
-      "Pressure washing website design: before-and-after sliders, quotes by square foot, pages for house wash, roofs, driveways and commercial work. From 700 €.",
+      "Pressure washing website design: before-and-after sliders, quotes by square foot, pages for house wash, roofs, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Built around before and after"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Built around before and after"],
   heroPhonePoints: ["Before · After", "Quote by square foot", "House · Roof · Driveway", "Call · Text"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple pressure washing website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -204,6 +204,7 @@ export const pressureWashingWebsiteDesignEn = {
           ["Do I need a separate page for roof soft washing?", "If you do roofs, yes. Roof customers have different worries and search with different words than people looking for driveway or house washing, and one page cannot answer both."],
           ["Is a free pressure washing website template enough to start?", "For the first season it can be. It becomes a limit when you want a page per surface, a gallery by surface and a quote form that asks for size, and moving later means rebuilding."],
           ["Can I keep using Jobber or GoSite with my own website?", "Yes. Their request and booking forms can be embedded in your site, so scheduling and invoicing stay where they are while the site and domain belong to you."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Do you work with pressure washing businesses in the US?", "Yes. Everything runs remotely from Poland, in English. I am six to nine hours ahead of US time zones, so your morning is my afternoon or evening — enough overlap for calls. I invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

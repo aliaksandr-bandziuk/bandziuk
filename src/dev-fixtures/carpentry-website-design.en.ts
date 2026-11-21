@@ -46,11 +46,11 @@ export const carpentryWebsiteDesignEn = {
   seo: {
     metaTitle: "Website for Carpenters and Cabinet Makers | Bandziuk",
     metaDescription:
-      "Carpentry website design: project gallery by type of work, quote requests with photos and drawings, prices per job, a trade page for builders. From 700 €.",
+      "Carpentry website design: project gallery by type of work, quote requests with photos and drawings, prices per job, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "For carpenters and joinery shops"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "For carpenters and joinery shops"],
   heroPhonePoints: ["Kitchens · Stairs · Built-ins", "Send photos and sizes", "Prices from, per job", "Booking installs for March"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple carpentry website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -110,6 +110,7 @@ export const carpentryWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for carpenters and joinery shops myself: structure, design, build and launch, with no handover between people."),
         p("Carpentry website design is the service I offer carpenters, cabinet makers and joinery workshops: I plan, design and build the whole site myself, so there is no hand-off between a designer and a developer, and the price is agreed before the start. A carpentry services website sells something hard to sell online — a custom job worth thousands, made to measure, which the client cannot see until it is installed. The site has to replace the showroom, the first conversation and part of the estimate."),
 
         h2("Carpentry website design for carpenters, cabinet makers and joinery workshops"),
@@ -189,7 +190,7 @@ export const carpentryWebsiteDesignEn = {
           link("WordPress development", "/services/wordpress-development-services"),
           " page.",
         ),
-        h3("What the best carpentry websites have in common"),
+        h3("Carpentry websites that bring quote requests: what the best ones share"),
         p("They show real projects sorted by type, say where the shop works, give a price range and make sending measurements easy. Fonts and colors matter less than whether a client finds a staircase like theirs in two taps."),
 
         h2("A carpentry website that ChatGPT and Google AI Overviews can read"),
@@ -226,6 +227,7 @@ export const carpentryWebsiteDesignEn = {
           ["Can clients send architects’ drawings and large files?", "Yes. The form accepts PDF and image files, and large sets of drawings go to a shared folder linked to the request, so nothing bounces from your inbox."],
           ["Should a custom furniture maker show prices?", "Starting prices or ranges work well even for one-off pieces: a dining table from a stated amount in oak, with a note on what changes it. They cut calls from people expecting store prices."],
           ["Can I add new projects and change my lead time myself?", "Yes. You open the admin panel on your phone or laptop, change the lead-time line or prices, or upload a finished job; each new project takes the same layout as the others."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Do you build websites for carpenters in the US?", "Yes. All the work is remote, in English, from Poland. Central European afternoons and evenings fall on US mornings, so a call fits before you head into the shop. I invoice in EUR or another currency by agreement."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

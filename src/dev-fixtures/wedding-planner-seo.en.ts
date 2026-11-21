@@ -41,11 +41,11 @@ export const weddingPlannerSeoEn = {
   seo: {
     metaTitle: "Wedding Planner SEO — audit from €250",
     metaDescription:
-      "SEO for wedding planners: pages that explain the service, package tiers and costs, destination weddings in other languages, booking a year ahead. Audit €250.",
+      "SEO for wedding planners: pages that explain the service, package tiers and costs, destination weddings in other languages, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Explaining the service, not the portfolio", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Explaining the service, not the portfolio", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Full planning or day-of coordination", "Package tiers with figures", "Destination couples, in their language", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a wedding planner: site, service pages, local profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -87,6 +87,7 @@ export const weddingPlannerSeoEn = {
       layout: "guide",
       content: [
         h2("Your client is a first-time buyer who does not know what a planner does"),
+        p("I do SEO for wedding planners myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Almost every other business I work with sells to someone who has bought the thing before. A wedding planner does not. The couple is buying this service once, they have no reference price, no vocabulary for the different levels of it, and no way to judge a portfolio of twelve beautiful weddings against another portfolio of twelve beautiful weddings."),
         p("The practical consequence is counter-intuitive: the pages that win enquiries are not the gallery. They are the pages that explain the service. Couples routinely believe that the venue's coordinator will do what a planner does, that a planner is only for very large budgets, or that hiring one costs a percentage they have invented. Each of those beliefs is a page, and the planner who writes them gets the enquiry, because they are the only one in the search results who answered the question the couple was actually asking."),
         li("what full planning includes, month by month, and when you join;"),
@@ -109,7 +110,7 @@ export const weddingPlannerSeoEn = {
           ", and it is the strongest opportunity in this trade, because a destination wedding is both the largest project a planner takes and the one with the least competition in search.",
         ),
 
-        h2("Why a wedding planner's pages have to be published for next season rather than this one"),
+        h2("A wedding planner's pages have to be published for next season rather than this one"),
         p("Couples book a planner twelve to eighteen months ahead, which means content published in spring is not competing for this summer. It is competing for the summer after, and a page that goes live in March for a season already full has missed by a year rather than by a month."),
         p("So the schedule matters more here than the volume. Pages written in the quiet months mature in time for the enquiry season that leads to the season after. And the measurement window stretches accordingly: first movement in search within about six weeks, enquiries on the couple's planning cycle rather than the search engine's. A planner who starts this work in peak season should expect the return a year out, and I would rather set that expectation now than explain it in August."),
 
@@ -176,6 +177,7 @@ export const weddingPlannerSeoEn = {
           ["Do I need pages for specific venues?", "Only where you genuinely work repeatedly, and then write what you actually know — logistics, where guests stay, what the weather does in that month. A thin page per venue scraped from the venue's own site is worse than none."],
           ["How does destination work change things?", "It turns a local problem into an international one. The couple searches in their own language for a country they do not live in, so the page has to exist in that language, be aimed at that market and answer the paperwork questions. Translating one page and stopping is the usual mistake."],
           ["How long before enquiries arrive?", "First movement after about a month and a half, growth on a three to six month horizon, and then the booking cycle on top: couples book twelve to eighteen months out, so work started now is aimed at the season after next. Anyone promising bookings for this summer is selling you a calendar they do not control."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["My season is full. Should I still do this?", "Not as a retainer. The work worth buying is the pages that support a higher fee and, if it interests you, the destination market — which is where the largest projects and the least competition both are."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

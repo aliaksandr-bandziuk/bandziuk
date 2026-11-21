@@ -40,7 +40,7 @@ export const seoForInteriorDesignersPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Miasto, realizacje i projekt online", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Miasto, realizacje i projekt online", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Projektant wnętrz Wrocław Krzyki", "Projekt łazienki w bloku", "Opinie w Google", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO projektanta wnętrz: strona, wizytówka Google, profile, realizacje, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -102,6 +102,7 @@ export const seoForInteriorDesignersPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem projektantów wnętrz i małych pracowni sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Pozycjonowanie strony projektanta wnętrz to moja usługa dla architektów i projektantów wnętrz oraz małych pracowni: praca nad tym, żeby klient szukający projektu mieszkania, domu albo łazienki w Twoim mieście znalazł Cię w Google, w Mapach i w odpowiedziach AI, a potem wysłał zapytanie. Całość wykonuję osobiście: od audytu i nowych podstron, przez zmiany w kodzie i wizytówce, po raport — więc problem znajduje i naprawia ta sama osoba."),
 
         h2("Pozycjonowanie strony projektanta wnętrz: na czym polega i co obejmuje"),

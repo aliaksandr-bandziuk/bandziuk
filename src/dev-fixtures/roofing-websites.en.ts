@@ -29,11 +29,11 @@ export const roofingWebsitesEn = {
   seo: {
     metaTitle: "Roofing Company Websites for Inspections and Leads",
     metaDescription:
-      "Roofing websites with pages per service, roof system and storm area, inspection requests with photos sent to your CRM, and a site you own. From 700 €.",
+      "Roofing websites with pages per service, roof system and storm area, inspection requests with photos sent to your CRM, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Hail last night? Book an inspection", "Pages per roof and town", "Requests into your CRM", "Yours, no lock-in"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple roofing website", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -51,7 +51,7 @@ export const roofingWebsitesEn = {
         { _key: k("o"), iconName: "file-text", title: "Inspection requests with photos", text: "Address, damage, claim stage and pictures in one go" },
         { _key: k("o"), iconName: "plug", title: "Leads straight into your roofing CRM", text: "JobNimbus, AccuLynx, Roofr, ServiceTitan or email" },
         { _key: k("o"), iconName: "gauge", title: "Fast despite heavy aerial photos", text: "Images resized on upload, pages under 2.5 s" },
-        { _key: k("o"), iconName: "shield-check", title: "The site is yours, not rented", text: "Code, content and domain in your name" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple roofing website", value: "700–1,400 €", note: "design included" },
@@ -99,7 +99,7 @@ export const roofingWebsitesEn = {
           " page.",
         ),
 
-        h2("What roofing contractor websites have to handle: storm calls, active leaks and replacement decisions"),
+        h2("Roofing contractor websites: storm calls, active leaks and replacement decisions"),
         p("Work reaches a roofer’s website in three moods. After a hailstorm, homeowners in a few zip codes want an inspection this week. A homeowner with water dripping through a ceiling wants a tarp on the roof today. A homeowner with twenty-year-old curling shingles reads for weeks about materials and payments before inviting anyone to measure. A roofing contractor website takes in all three:"),
         li("a quick path to a phone call for active leaks and emergency tarping"),
         li("an inspection request that collects the address and photos, for storm damage and planned work alike"),
@@ -207,6 +207,7 @@ export const roofingWebsitesEn = {
           ["Do roofing companies’ websites still matter if we get leads from Angi, HomeAdvisor or Local Services Ads?", "Yes. Homeowners who find you on a lead platform or in Google Local Services Ads often open your site before they call back, because a roof is too large a purchase to choose blind. Your own site also brings requests you do not pay per lead for."],
           ["Our website belongs to a marketing company. Can we move to a site we own?", "Usually yes. Content and photos are moved, the domain is transferred to your name if it is not already, every old address is redirected and structured data is set up again, so the positions the old site had in Google are kept. What can be taken depends on your contract with that company."],
           ["Can our crew add finished roofs to the website from a phone?", "Yes. A new project is a short form in the admin panel: photos, roof system, the town and a few sentences. It appears on the matching service, material and area pages by itself."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Do you build roofing websites outside Poland?", "Yes. The work is done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, units such as roofing squares, license details and the review platforms your customers use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -215,6 +216,10 @@ export const roofingWebsitesEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("Roofing websites and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews who inspects a roof after a storm and how long a re-roof takes. The assistant answers from text it can read, and names companies whose pages carry the facts: services, warranty, insurance work and the towns covered."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order a website for your roofing company: what to send me"),
         p(
           "Send the company name, a link to your current website or Google profile, the roof jobs and systems you want more of, the towns you cover and the CRM you use. A few finished roofs with photos, and your financing partner if you have one, help me plan the pages. I will reply with a list of pages and a fixed price. Use the ",

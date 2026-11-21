@@ -38,11 +38,11 @@ export const localSeoForLawyersEn = {
   seo: {
     metaTitle: "Law Firm Local SEO: Google Maps and Reviews | Bandziuk",
     metaDescription:
-      "Local SEO for law firms: Google Business Profile per office, reviews within bar rules, Avvo and Justia listings, office pages, LSA vs organic. Audit from 250 €.",
+      "Local SEO for law firms: Google Business Profile per office, reviews within bar rules, Avvo and Justia listings, office pages, AI answers. Audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Google Maps + legal directories", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Google Maps + legal directories", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Family lawyer near me", "Top 3 on the map", "Reviews from past clients", "Call the office"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Local SEO audit for a law firm: Google Business Profiles, directories, office pages", price: 250, currency: "EUR", unit: "one-off" },
@@ -118,7 +118,7 @@ export const localSeoForLawyersEn = {
         p("Google has categories by practice area: “Family law attorney”, “Divorce lawyer”, “Immigration attorney”, “Criminal justice attorney”, “DUI attorney”, “Employment attorney”, “Personal injury attorney” and others; the list changes, so I check it when setting up the profile. The primary category should be the practice that brings the most valuable cases; secondary categories cover the other practices you really handle. “Law firm” alone is too broad to win specific searches."),
         h3("The firm name in the profile: no keywords added"),
         p("The name must match what is on your sign, your letterhead and your bar registration. “Smith & Lee Law” is correct; “Smith & Lee Law — Best Divorce Lawyer Chicago” breaks Google’s guidelines, invites edits from competitors and can get the profile suspended."),
-        h3("What else to fill in on a lawyer’s profile"),
+        h3("A lawyer's Google profile: the fields worth filling in"),
         li("services listed per practice area, each with a short plain description"),
         li("hours, including whether you take calls after hours"),
         li("photos of the office entrance, the reception and the attorneys"),
@@ -205,6 +205,7 @@ export const localSeoForLawyersEn = {
           ["Are lawyers allowed to ask clients for Google reviews?", "In most places, yes, if you ask every client, offer nothing in exchange and do not write or edit reviews. Some states limit how reviews and testimonials may be used in advertising, so check your state bar’s rules."],
           ["Are Avvo, Justia and FindLaw profiles worth keeping?", "Yes, as citations: they confirm the firm’s details for Google and AI assistants, and some clients find lawyers there. What matters is that each profile is claimed, accurate and matches your Google profile."],
           ["Should we run Local Services Ads or invest in local SEO?", "They do different jobs. Local Services Ads bring calls quickly and charge per lead; local SEO takes months and then brings calls without a per-lead cost. Many firms run both and compare the calls each brings."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Can a consultant in Poland do local SEO for a US, UK or Canadian firm?", "Yes. Profiles, directories and reporting are managed remotely, in English. My afternoon and evening in Central European Time overlap with the North American working day, and contracts and invoices are in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

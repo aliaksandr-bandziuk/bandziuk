@@ -25,11 +25,11 @@ export const contractorWebsiteDesignEn = {
   seo: {
     metaTitle: "Contractor Website Design: Quotes, Jobs, Reviews",
     metaDescription:
-      "Contractor website design built to book estimates: click-to-call, estimate form with photos, before-and-after galleries, licences and reviews. From 700 €.",
+      "Contractor website design built to book estimates: click-to-call, estimate form with photos, before-and-after galleries, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Licensed · Insured", "Before and after", "Free estimate", "Call now"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple contractor website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -89,9 +89,10 @@ export const contractorWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I design and build websites for contractors myself: structure, design, build and launch, with no handover between people."),
         p("I design websites for contractors and build them myself, so the design and the build come from one person at one price. A contractor’s website is usually opened on a phone by a homeowner with a problem or a plan, who is comparing two or three companies. The design has one job: get that person to call or ask for an estimate before they go back to the search results."),
 
-        h2("What contractor website design has to do: turn visits into estimate requests"),
+        h2("Contractor website design: turning visits into estimate requests"),
         p("Most contractor websites lose people in the first screen: a stock photo, a slogan and a menu with ten items. The first screen of a contractor site answers four things and nothing else:"),
         li("what you do and where — “Kitchen and bathroom remodeling in [your area]”, not “Quality you can trust”"),
         li("a call button and an estimate button, both visible without scrolling"),
@@ -193,6 +194,7 @@ export const contractorWebsiteDesignEn = {
           ["Can we add before-and-after projects ourselves?", "Yes. A new project is a short form in a simple admin panel: before and after photos, the job, the town and a few sentences. The page is laid out automatically."],
           ["Are phone photos good enough for a contractor website?", "Usually yes, if they are taken the same way every time: daylight, the same angle before and after, no clutter. I prepare a short checklist for your crew. Stock photos hurt more than they help."],
           ["Can you redesign our contractor website without losing Google rankings?", "Yes. Every existing address is mapped to its new page, redirects are set up and structured data is carried over before the new design goes live, so the positions the site already has are kept."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Do you work with contractors outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, units, licence details and the review platforms your clients use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -201,6 +203,10 @@ export const contractorWebsiteDesignEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("A contractor website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which contractor nearby takes on bathroom remodels and how soon a crew can start. The assistant answers from text it can read, and names companies whose pages carry the facts: trades covered, service area, licence and insurance, typical lead times."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order contractor website design: what to send me"),
         p(
           "Send the business name, a link to the current website or Google profile, the services you offer and the areas you cover. A few recent projects with before-and-after photos help me propose the structure. I will reply with a plan for the home, service and project pages and a fixed price. Use the ",

@@ -42,11 +42,11 @@ export const saasWebsiteDesignPl = {
   seo: {
     metaTitle: "Projektowanie strony SaaS w Next.js | Bandziuk",
     metaDescription:
-      "Strona internetowa dla firmy SaaS: podstrony funkcji, katalog integracji, okres próbny i demo, RODO i umowa powierzenia, wersje językowe. Pełna od 8500 zł.",
+      "Strona internetowa dla firmy SaaS: podstrony funkcji, katalog integracji, okres próbny i demo, RODO i umowa powierzenia, odpowiedzi AI. Pełna od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie w Next.js, jedna cena", "Pełna strona SaaS od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie w Next.js, jedna cena", "Pełna strona SaaS od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Wypróbuj za darmo", "Umów prezentację", "Integracje: KSeF, Allegro", "PL · EN · DE"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy SaaS z opisem produktu, planami i przyciskiem rejestracji, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -214,6 +214,7 @@ export const saasWebsiteDesignPl = {
           ["Czy po przeniesieniu z WordPressa stracimy pozycje w Google?", "Nie, jeśli przeprowadzka jest zaplanowana wokół adresów. Każdy stary URL dostaje przekierowanie 301, tytuły i dane strukturalne przechodzą bez zmian, a po uruchomieniu przez kilka tygodni sprawdzam błędy w Search Console."],
           ["Czy zbudujesz stronę z projektu naszego grafika w Figmie?", "Tak. Stronę DJ-a i producenta Sashy Dith zbudowałem w Next.js właśnie z projektu klienta w Figmie. Jeśli w projekcie brakuje jakiegoś szablonu, na przykład podstrony integracji, dorysowuję go w tym samym stylu."],
           ["Czy strona obsłuży wersję angielską i niemiecką z cenami w euro?", "Tak. Każda wersja ma własne adresy, hreflang i ceny w swojej walucie, a przełącznik języka prowadzi do tej samej podstrony w innym języku. Teksty po polsku i angielsku piszę sam, niemieckie — native speaker po Waszej stronie."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy pracujesz z firmami SaaS spoza Warszawy?", "Tak, z całej Polski i z zagranicy. Pracuję zdalnie: rozmowy wideo, komentarze w Figmie i we wspólnym dokumencie, akceptacja kolejnych etapów online. Rozliczam się na podstawie faktury."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

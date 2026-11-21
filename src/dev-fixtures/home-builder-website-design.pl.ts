@@ -40,11 +40,11 @@ export const homeBuilderWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla firmy budującej domy od 3000 zł | Bandziuk",
     metaDescription:
-      "Strona internetowa dla firmy budującej domy: pakiety od stanu surowego do pod klucz, wycena projektu, realizacje, osiedla. Projekt w cenie, od 3000 zł.",
+      "Strona internetowa dla firmy budującej domy: pakiety od stanu surowego do pod klucz, wycena projektu, realizacje, odpowiedzi AI. Projekt w cenie, od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Realizacje dodajesz sam z telefonu"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Realizacje dodajesz sam z telefonu"],
   heroPhonePoints: ["Wyceń swój projekt", "SSO · SSZ · deweloperski · pod klucz", "Dom 140 m² w Markach", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy budującej domy, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -105,6 +105,7 @@ export const homeBuilderWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Projektuję i buduję strony internetowe dla firm budujących domy sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla firm budujących domy — generalnych wykonawców, firm stanu surowego, wykonawców domów szkieletowych i małych deweloperów osiedli. Za wygląd, kod, teksty i start strony odpowiada jedna osoba, a kwotę znasz, zanim zaczniemy. Inwestor wybiera wykonawcę na rok budowy i kilkaset tysięcy złotych, więc zanim zadzwoni, ogląda Twoją stronę kilka razy — wieczorem, na telefonie, razem z rodziną."),
 
         h2("Strona internetowa dla firmy budującej domy: co inwestor sprawdza, zanim zadzwoni"),
@@ -202,6 +203,7 @@ export const homeBuilderWebsiteDesignPl = {
           ["Jak pokazać ceny, skoro każdy dom jest inny?", "Jako przedział za m² dla każdego pakietu, z datą aktualizacji i krótkim wyjaśnieniem, co go przesuwa w górę lub w dół. Inwestor od razu sprawdza, czy mieści się w budżecie, a konkretną kwotę dostaje po wycenie projektu."],
           ["Czy formularz może przyjmować projekt domu w PDF?", "Tak. Inwestor dołącza plik z rzutami albo podaje nazwę projektu z katalogu, a zgłoszenie z załącznikiem trafia na Twoją skrzynkę. Przy formularzu jest klauzula RODO."],
           ["Czy deweloper domów musi publikować ceny na stronie?", "Przepisy o jawności cen z 2025 roku nakładają na deweloperów obowiązek publikowania cen ofertowych, także na stronie internetowej. Strona ma na nie stałe miejsce przy każdym domu; szczegóły obowiązku uzgodnij z prawnikiem."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Czy robisz strony dla firm budowlanych spoza Warszawy?", "Tak, lokalizacja firmy nie gra roli. Cała współpraca odbywa się online — po polsku, angielsku lub rosyjsku: brief i poprawki omawiamy na wideo, a uwagi do projektu zostawiasz w udostępnionym pliku."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

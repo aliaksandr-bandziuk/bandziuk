@@ -107,7 +107,7 @@ export const seoForArchitectsEn = {
       content: [
         p("I provide SEO for architects: the practice’s own website shows up when a homeowner, a developer or a company looks for an architect for their kind of building in their area, and those visits become project inquiries. There is no agency team behind me: I research, write and change the site myself, and I also build websites. The service is for residential studios, commercial and public-sector practices, interior architects and landscape architects."),
 
-        h2("What SEO for architects is: matching building type, place and service"),
+        h2("SEO for architects: matching building type, place and service"),
         p("Clients rarely type a studio’s name or the word “architecture”. They describe their own project: “residential architect Denver”, “architect for a rear extension”, “passive house architect near me”, “architect for a restaurant fit-out”, “barn conversion planning”. Each search joins three things — the kind of building, the place and the service — and architect SEO puts a page of yours in front of every combination that matches the work you want more of."),
         p("Search engines read text. A site made of full-screen images with one-word captions impresses a visitor who is already on it but tells Google almost nothing. Most of the work below turns what the studio knows into pages that can be found."),
 

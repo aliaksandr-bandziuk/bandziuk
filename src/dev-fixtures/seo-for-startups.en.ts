@@ -161,7 +161,7 @@ export const seoForStartupsEn = {
         li("Can you work in our repository, or only send recommendations?"),
         li("Is there a minimum contract, and what happens to the work if we pivot?"),
 
-        h2("What SEO services for startups include in the first three months"),
+        h2("SEO services for startups include: in the first three months"),
         ol("Audit: crawling, rendering, indexing in Google Search Console, metadata, speed and the searches you can realistically win."),
         ol("Technical fixes in the code — made by me or written as tickets for your developers."),
         ol("The first pages: the most valuable use-case, integration and comparison pages, with structured data."),

@@ -112,7 +112,7 @@ export const mortgageBrokerSeoEn = {
       content: [
         p("Mortgage broker SEO is the work that brings home buyers and homeowners to your own website when they search for a loan, a program or a broker in their area, and turns those visits into applications and funded loans. I do it myself, as a single SEO consultant who also builds websites, for independent brokers, small brokerages and loan officers who want borrowers who found them, not leads shared with five other lenders."),
 
-        h2("What SEO for mortgage brokers covers: loan programs, local markets, compliance and AI answers"),
+        h2("SEO for mortgage brokers covers: loan programs, local markets, compliance and AI answers"),
         p("A borrower rarely types “mortgage broker”. They type their situation: “FHA loan with 580 credit score”, “VA loan for a condo”, “mortgage for self-employed with bank statements”, “first-time home buyer programs in Ohio”. Mortgage broker SEO puts a page on your site in front of each of those searches and makes it easy to start a conversation. The work covers:"),
         li("a page for every loan program you offer and every borrower type you want more of"),
         li("local pages for the cities and counties where you are licensed and active"),

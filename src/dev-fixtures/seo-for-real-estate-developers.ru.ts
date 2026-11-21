@@ -46,7 +46,7 @@ export const seoForRealEstateDevelopersRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["ЖК, квартиры и покупатели", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["ЖК, квартиры и покупатели", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Новостройки Батуми у моря", "Off-plan, сдача в 2027", "Планировки и цены", "Советует ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит сайта застройщика: страницы ЖК, каталог, фиды, индексация, порталы и ответы ИИ", price: 250, currency: "EUR", unit: "one-off" },

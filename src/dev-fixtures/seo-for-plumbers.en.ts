@@ -33,7 +33,7 @@ export const seoForPlumbersEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Emergency + service pages", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Emergency + service pages", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Emergency plumber near me", "Tap to call", "Licensed & insured", "Upfront prices"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Plumbing SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },

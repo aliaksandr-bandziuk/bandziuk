@@ -29,11 +29,11 @@ export const accountingFirmWebsitePl = {
   seo: {
     metaTitle: "Strona dla biura rachunkowego — projekt i wdrożenie",
     metaDescription:
-      "Strona internetowa dla biura rachunkowego: podstrony według typu klienta, cennik, KSeF, przekazywanie dokumentów, edycja bez programisty. Od 8500 zł.",
+      "Strona internetowa dla biura rachunkowego: podstrony według typu klienta, cennik, KSeF, przekazywanie dokumentów, odpowiedzi AI. Od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podstrona na typ klienta", "Strony od 8500 zł", "Odpowiadam w 1 dzień roboczy"],
+  heroChips: ["Podstrona na typ klienta", "Strony od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dla kogo pracujemy", "Cennik", "Prześlij dokumenty", "Umów rozmowę"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona biura rachunkowego: podstrony według typu klienta, cennik, dokumenty", price: 8500, currency: "PLN", unit: "one-off" },
@@ -51,7 +51,7 @@ export const accountingFirmWebsitePl = {
         { _key: k("o"), iconName: "file-lock", title: "Dokumenty bez tworzenia ryzyka", text: "Do portalu w programie, który już prowadzisz" },
         { _key: k("o"), iconName: "award", title: "Uprawnienia i osoba odpowiedzialna", text: "Kto podpisuje, kto ma licencję" },
         { _key: k("o"), iconName: "file-text", title: "Treści o KSeF i JPK", text: "Pytania, które klienci zadają co miesiąc" },
-        { _key: k("o"), iconName: "edit", title: "Edycja bez programisty", text: "Ceny, osoby, terminy zmieniasz sam" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Usługi, ceny i obszar, które asystent zacytuje" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -73,7 +73,8 @@ export const accountingFirmWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego strony biur rachunkowych wyglądają tak samo"),
+        h2("Strony biur rachunkowych wyglądają tak samo"),
+        p("Strony dla biur rachunkowych buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Bo spora ich część pochodzi od kilku dostawców, którzy robią strony dla tej branży setkami. Wychodzi z tego ta sama struktura, to samo zdjęcie uścisku dłoni i to samo zdanie: «świadczymy kompleksowe usługi księgowe dla firm każdej wielkości». To nie lenistwo biura — to właśnie dostaje się w pakiecie, i jest tanie nie bez powodu."),
         p("Koszt widać w jednym momencie, który się liczy. Osoba porównująca trzy biura w trzech kartach przeglądarki widzi trzy strony mówiące to samo, więc decyzja wraca do tego, kto odebrał telefon pierwszy albo podał niższą kwotę. Strona, która w nagłówku nazywa sytuację klienta, do tego porównania po cenie w ogóle nie wchodzi."),
 
@@ -120,7 +121,7 @@ export const accountingFirmWebsitePl = {
         h2("Ile trwa zrobienie strony dla biura rachunkowego"),
         p("Strona na WordPressie dwa do trzech tygodni, pełna cztery do sześciu. Wydłuża to rzadko kod: decyzje o segmentach, układ cennika i to, kto w biurze zatwierdza sformułowania o przepisach. Na czas kończą się te projekty, w których jedna osoba może zdecydować bez zebrania."),
 
-        h2("Co zrobić, żeby stronę znaleziono"),
+        h2("Strona biura rachunkowego w wyszukiwarce: co zrobić, żeby ją znaleziono"),
         p(
           "Strona zbudowana w ten sposób da się znaleźć, ale samo znalezienie to osobna praca: podstrony segmentów muszą zdobyć pozycje, profil w Google musi zgadzać się ze stroną, a treści związane z terminami trzeba publikować przed sezonem, nie w jego trakcie. Po polsku zmierzony popyt na pozycjonowanie w tej branży jest zerowy, więc osobnej polskiej strony o tym nie ma — jest ",
           link("strategia i optymalizacja SEO", "/pl/oferty/strategia-i-optymalizacja-seo"),
@@ -173,6 +174,7 @@ export const accountingFirmWebsitePl = {
           ["Czy piszecie też treści o KSeF i przepisach?", "Tak, w formie krótkich wyjaśnień dla konkretnego typu klienta, a nie przepisywania przepisu. Wersję ostateczną zatwierdza ktoś po twojej stronie: teksty o podatkach bez zatwierdzenia przez praktyka to najkrótsza droga do zdania pewnego siebie i nieprawdziwego."],
           ["Czy możemy sami aktualizować stronę?", "Tak, i w tej branży będziecie musieli: ceny, osoby i terminy się zmieniają. To edytujecie bez programisty. Zmiany strukturalne, jak dodanie nowego segmentu klientów, to szybka praca, ale nie wasza."],
           ["Czy wystawiasz fakturę?", "Tak, prowadzę jednoosobową działalność w Warszawie i wystawiam fakturę za każdą pracę."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Do kogo należy strona?", "Do ciebie: kod, domena, treści i wszystkie dostępy. Nic nie zostaje u mnie jako dźwignia — i to jest główna praktyczna różnica wobec szablonu, który się wynajmuje."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

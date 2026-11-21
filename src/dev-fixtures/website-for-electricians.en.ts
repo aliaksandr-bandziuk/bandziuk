@@ -24,11 +24,11 @@ export const websiteForElectriciansEn = {
   seo: {
     metaTitle: "Electrician Websites That Bring Service Calls | Bandziuk",
     metaDescription:
-      "Websites for electricians: a page per job and area, a request form with panel photos linked to ServiceTitan or Jobber, a site you own. From 700 €.",
+      "Websites for electricians: a page per job and area, a request form with panel photos linked to ServiceTitan or Jobber, a site you own, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Built around service calls", "From 700 €", "Reply within one business day"],
+  heroChips: ["Built around service calls", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["24/7 emergency line", "EV charger installs", "Send a panel photo", "License # shown"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple electrician website", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -46,7 +46,7 @@ export const websiteForElectriciansEn = {
         { _key: k("o"), iconName: "file-text", title: "A request form that takes panel photos", text: "So the estimate starts before the visit" },
         { _key: k("o"), iconName: "plug", title: "Requests into ServiceTitan, Jobber or Housecall Pro", text: "Or into email — nobody retypes a job" },
         { _key: k("o"), iconName: "gauge", title: "Fast on a phone in a basement", text: "Pages in under 2.5 s on a weak signal" },
-        { _key: k("o"), iconName: "shield-check", title: "Your code, content and domain", text: "No platform fee, no lock-in" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "Simple electrician website", value: "700–1,400 €", note: "design included" },
@@ -90,7 +90,7 @@ export const websiteForElectriciansEn = {
       content: [
         p("I build websites for electricians and electrical contractors, from the page plan to launch, and hand over a site that belongs to you. An electrician’s website has a narrow job: turn a search for a specific piece of work — a charger, a panel, a dead circuit — into a call or a request your office can schedule without phoning the customer back three times."),
 
-        h2("What electrician websites need: a structure built around jobs and calls"),
+        h2("Electrician websites: a structure built around jobs and calls"),
         p("A typical electrician site is a home page, a list of services and a contact form. It exists, but it cannot be found for “EV charger installation” in your town, and it gives the office nothing to work with. The structure I build has:"),
         li("one page for each job you want more of, each with its own request button"),
         li("one page for each town or county you serve"),
@@ -191,6 +191,7 @@ export const websiteForElectriciansEn = {
           ["Is an electrician website builder enough for a small shop?", "For one electrician working one town on referrals, it can be. Once you want more work from search, more jobs or more towns, a builder’s single services page and platform fee start to cost more than they save."],
           ["Can our office add jobs and photos without a developer?", "Yes. From a phone or the office computer, a finished job is entered as photos, job type, town and a few sentences, and it then shows up on the matching service and area pages."],
           ["Will a new website lose the Google rankings of our current one?", "Not if the move is done properly: each old URL gets a redirect to its replacement, and structured data moves with the content before launch."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Do you build websites for electricians outside Poland?", "Yes. I work remotely with electricians in the US, Canada, the UK and Australia, in English, Polish or Russian. Phone formats, license details and review platforms are set up for your country."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -199,6 +200,10 @@ export const websiteForElectriciansEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("An electrician website and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews who can fix a tripping breaker today and how much an EV charger install costs. The assistant answers from text it can read, and names companies whose pages carry the facts: services, call-out fee, licence and response time."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order an electrician website: what to send me"),
         p(
           "Send the business name, a link to the current site or Google profile, the jobs you want more of, the towns you cover and the software your office uses. A few recent jobs with photos help me plan the pages. I will reply with a page plan and a fixed price. Use the ",

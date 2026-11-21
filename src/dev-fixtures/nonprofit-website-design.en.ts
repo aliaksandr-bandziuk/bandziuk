@@ -46,11 +46,11 @@ export const nonprofitWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Nonprofit Organizations | Bandziuk",
     metaDescription:
-      "Nonprofit website design with the build included: a donation page that converts, program and impact pages, volunteer sign-ups, Form 990 links. From 700 €.",
+      "Nonprofit website design with the build included: a donation page that converts, program and impact pages, volunteer sign-ups, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Give monthly", "Our programs", "Volunteer this Saturday", "Annual impact report"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple nonprofit website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -231,6 +231,7 @@ export const nonprofitWebsiteDesignEn = {
           ["Which is better for nonprofits, Wix or Squarespace?", "Squarespace gives tidy layouts with little effort; Wix gives more freedom in the editor. Both can take donations through a built-in tool or an embedded platform form. Try both editors for an afternoon and pick the one your team finds easier."],
           ["Can our staff and board members update the website themselves?", "Yes. Text, programs, events, reports and photos are edited in a simple admin panel, and each person gets a role, so a volunteer can add an event without being able to change the donation page."],
           ["Which donation platform will the website work with?", "The one you use, where its options allow: Givebutter, Donorbox, GoFundMe Pro, a Stripe or PayPal form or another. Platforms differ in how far a form can be embedded and styled, so I check yours before the quote."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Can you design a website for a US nonprofit from Poland?", "Yes. The work is remote and in English: design reviews on video calls in my afternoon, which is morning on the US East Coast, and comments in a shared design file in between. Contracts and invoices are in euros."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

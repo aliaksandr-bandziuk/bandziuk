@@ -39,11 +39,11 @@ export const lawyerWebsiteDevelopmentPl = {
   seo: {
     metaTitle: "Strona kancelarii i radcy prawnego od 3000 zł",
     metaDescription:
-      "Strona internetowa dla kancelarii adwokackiej i radcy prawnego: specjalizacje, zespół, formularz zgodny z RODO, wersje językowe, projekt w cenie. Od 3000 zł.",
+      "Strona internetowa dla kancelarii adwokackiej i radcy prawnego: specjalizacje, zespół, formularz zgodny z RODO, wersje językowe, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Zgodna z zasadami etyki i RODO"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Zgodna z zasadami etyki i RODO"],
   heroPhonePoints: ["Specjalizacje kancelarii", "Zespół i wpisy na listę", "Formularz bez szczegółów sprawy", "Wersje PL · EN · UA"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla kancelarii adwokackiej lub radcy prawnego, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -104,13 +104,14 @@ export const lawyerWebsiteDevelopmentPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla kancelarii adwokackich i radców prawnych buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla kancelarii adwokackich i radcowskich — strukturę, projekt graficzny, wykonanie, teksty i uruchomienie — więc za całość odpowiada jedna osoba, a cena jest znana z góry. Strona kancelarii ma pomóc klientowi w dwóch rzeczach: sprawdzić, czy trafił do właściwego prawnika, i bezpiecznie się z nim skontaktować. Wszystko na niej jest rzeczową informacją o kancelarii, bez porównań i obietnic wyniku, bo tak wyznaczają kodeksy etyki adwokatów i radców prawnych."),
 
         h2("Strona internetowa dla kancelarii adwokackiej: rzeczowa informacja zgodna z kodeksem etyki"),
         p("Od 2023 roku adwokaci mogą posługiwać się informacją handlową (uchwała NRA nr 93/2023), a radcowie prawni mają prawo informować o wykonywaniu zawodu. Oba kodeksy etyki zakazują jednak m.in. porównań, obietnic wyniku i treści wprowadzających w błąd. W praktyce to wskazówka, jak strona ma wyglądać: rzeczowo, spokojnie, z faktami zamiast haseł. Człowiek w trudnej sytuacji i tak nie szuka sloganów, tylko odpowiedzi, czy kancelaria zajmuje się jego sprawą i kto ją poprowadzi."),
         p("Projekt graficzny jest w cenie. Zamiast Temidy, paragrafów i młotka sędziowskiego ze stocku — którego zresztą w polskich sądach się nie używa — są prawdziwe zdjęcia prawników i biura, czytelna typografia i kontakt widoczny na każdej podstronie. To ogólny opis zasad, nie porada prawna; ostateczne brzmienie tekstów zatwierdzacie Wy, zgodnie z uchwałami swojego samorządu."),
 
-        h2("Co może być na stronie kancelarii: specjalizacje, zespół, kontakt i artykuły"),
+        h2("Strona kancelarii: specjalizacje, zespół, kontakt i artykuły"),
         p("Strona, która informuje i jednocześnie przyprowadza klientów, składa się z kilku stałych elementów:"),
         li("specjalizacje i rodzaje spraw — każda z własną podstroną: czym się zajmujecie, jak wygląda współpraca, co przygotować na pierwsze spotkanie"),
         li("zespół — sylwetka każdego prawnika z tytułem zawodowym, izbą, wykształceniem, językami i obszarami pracy"),
@@ -211,6 +212,7 @@ export const lawyerWebsiteDevelopmentPl = {
           ["Czy strona może mieć wersję angielską i ukraińską?", "Tak. Każda wersja ma własne adresy i oznaczenia dla Google, a tłumaczone są podstrony, z którymi naprawdę przychodzą cudzoziemcy. Terminologię sprawdza prawnik, który prowadzi sprawy w tym języku."],
           ["Ile trwa stworzenie strony dla kancelarii?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna z wersjami językowymi od czterech do ośmiu. Najwięcej zależy od tego, jak szybko gotowe są sylwetki prawników i uwagi do tekstów."],
           ["Do kogo należy strona kancelarii?", "Do kancelarii: domena, kod i treści. Możecie w każdej chwili przenieść stronę do innego hostingu albo innego wykonawcy."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Czy robisz strony dla kancelarii spoza Warszawy?", "Tak, dla kancelarii z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku. Spotykamy się na rozmowach wideo."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

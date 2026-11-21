@@ -44,11 +44,11 @@ export const smallBusinessWebsiteDesignEn = {
   seo: {
     metaTitle: "Small Business Website Design and Development | Bandziuk",
     metaDescription:
-      "Small business website design and build by one person: service pages, one-tap contact, fast on phones, yours to edit and own. From 700 €, prices published.",
+      "Small business website design and build by one person: service pages, one-tap contact, fast on phones, AI answers. From 700 €, prices published.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Prices published up front"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Prices published up front"],
   heroPhonePoints: ["Call · WhatsApp", "Services and prices", "Open today 8–18", "Request a quote"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple small business website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -143,7 +143,7 @@ export const smallBusinessWebsiteDesignEn = {
 
         h2("Website developers for small business: one person from design to launch"),
         p("An agency splits a small website between a project manager, a designer, a developer and a copywriter, and the price reflects four people. I do all of it myself: the structure, the design, the build in Next.js or WordPress, the page texts together with you, the SEO basics and the launch. You talk to the person who does the work, and a decision takes a message instead of a meeting."),
-        h3("What website design services for small business include"),
+        h3("Website design services for small business include"),
         p("In both price ranges you get:"),
         li("the design for phones and desktops, agreed with you before the build"),
         li("development, hosting setup, SSL and your domain connected"),
@@ -232,6 +232,7 @@ export const smallBusinessWebsiteDesignEn = {
           ["How long does it take to build a small business website?", "A simple site usually takes two to four weeks from the brief, a full site four to six. Most of the time depends on how quickly texts, photos and feedback are ready."],
           ["Can I update the website myself after launch?", "Yes. Texts, prices, photos, hours and new pages are edited in a simple admin panel, including from a phone. You do not need a developer for everyday changes."],
           ["Do I need a website if I have a Google Business Profile and social media?", "A profile brings people to you; a website is where they check you before calling — services, prices, photos, reviews. It is also the only place you own: a profile or a social page can change its rules, but your site and domain stay yours."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Do you design websites for small businesses outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, currency, address format and the review platforms your customers use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

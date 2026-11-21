@@ -31,11 +31,11 @@ export const spaWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www dla spa, wellness i masażu | Bandziuk",
     metaDescription:
-      "Strona internetowa dla spa i salonu masażu: menu zabiegów z czasem i ceną, rytuały dla dwojga, vouchery online z BLIK, rezerwacja Booksy. Od 3000 zł.",
+      "Strona internetowa dla spa i salonu masażu: menu zabiegów z czasem i ceną, rytuały dla dwojga, vouchery online z BLIK, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Vouchery sprzedawane online"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Vouchery sprzedawane online"],
   heroPhonePoints: ["Masaż · 60 lub 90 min", "Rytuał dla dwojga", "Kup voucher na prezent", "Zarezerwuj zabieg"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona dla spa lub salonu masażu", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -181,6 +181,7 @@ export const spaWebsiteDesignPl = {
           ["Czy recepcja sama zmieni cennik i pakiety?", "Tak. Zabiegi, czasy, ceny i pakiety edytuje się w prostym panelu, a zmiana pojawia się na każdej podstronie, gdzie ten zabieg występuje."],
           ["Czy salon masażu potrzebuje innej strony niż day spa?", "Jeśli to osobna firma — tak, bo klienci szukają technik i masażystów, a nie pakietów i strefy wellness. Jeśli masaż jest jedną z usług spa, dostaje własną sekcję na stronie spa."],
           ["Ile trwa stworzenie strony dla spa?", "Prosta strona zwykle kilka tygodni, zależnie od tego, jak szybko gotowe są menu, zdjęcia i teksty. Strony z voucherami, kilkoma językami albo integracją hotelową trwają dłużej; termin ustalamy razem z wyceną."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy pracujesz ze spa spoza Warszawy?", "Tak, z całej Polski — od spa w górach po hotele nad morzem. Rozmowy prowadzimy online, uwagi zbieram bezpośrednio w projekcie, a zdjęcia i cennik wystarczy przesłać mailem lub komunikatorem."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

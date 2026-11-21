@@ -43,7 +43,7 @@ export const photographerSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Genre, place and venue pages", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Genre, place and venue pages", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Wedding photographer at a named venue", "Newborn photographer in your district", "Packages with prices", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a photographer: site, galleries, local profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -84,7 +84,8 @@ export const photographerSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why the best portfolio in the city can be invisible in search"),
+        h2("The best portfolio in the city can be invisible in search"),
+        p("I do SEO for photographers myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("A search engine cannot see your photographs. It cannot tell a beautifully lit ceremony from a snapshot, and no amount of talent changes that. What it can read is the text around the pictures: the headings, the descriptions, the file names, the alt text, the page addresses. A portfolio of four hundred untitled JPEGs in a slider is, to a search engine, an empty page that takes nine seconds to load."),
         p("This is why photographers who are plainly better than their competitors sit below them in the results, and it is also good news, because the gap is closed with writing rather than with equipment. The photographer who describes the wedding — the venue, the season, the light, how the day ran — gets found for the searches the photographs themselves can never answer."),
 
@@ -105,7 +106,7 @@ export const photographerSeoEn = {
         li("include the practical details a couple cannot find elsewhere;"),
         li("and check with the venue before using their name prominently — many will link back."),
 
-        h3("Why blogging every wedding does not rank, and what to publish instead"),
+        h3("Blogging every wedding does not rank, and what to publish instead"),
         p("The standard recommendation in photography circles is to blog every single wedding. As a content habit it is sound: it produces text, images and venue names regularly. As an SEO plan it produces two hundred near-identical posts titled with two first names, which compete with each other and rank for nothing, and the practice has a name in search — thin pages."),
         p("The version that works keeps the habit and changes the shape. The gallery post stays as a gallery post for the clients and for social media. The searchable material inside it — the venue, the season, the style, the logistics — is lifted into pages built around those things, where one strong venue page replaces eleven weak ones that happened to be shot at the same place."),
 
@@ -172,6 +173,7 @@ export const photographerSeoEn = {
           ["My site is on a portfolio platform. Can you work with it?", "Usually yes, if pages can be added and headings and addresses edited. Some portfolio platforms lock all three, and then SEO work on them is paying rent. I check which case it is before quoting rather than after."],
           ["How long before I see bookings?", "First movement after about a month and a half, growth on a three to six month horizon. For weddings, add the booking cycle: couples book twelve to eighteen months out, so work started in peak season returns a season later. I would rather say that now than explain it in July."],
           ["Can you guarantee a position?", "No, and nobody honest can — the ranking is decided by a system neither of us controls. What I can state is what will be changed, in what order, and what we measure at one month and at three."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Who writes the venue pages?", "I draft and you correct. What makes a venue page useful is what only the photographer knows — where the light is at four, what happens when it rains, how long the walk from the ceremony takes — and that cannot be researched from outside the job."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

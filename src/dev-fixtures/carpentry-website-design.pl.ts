@@ -38,11 +38,11 @@ export const carpentryWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www dla stolarni i mebli na wymiar | Bandziuk",
     metaDescription:
-      "Strona internetowa dla stolarza: realizacje według rodzaju prac, wycena mebli na wymiar z wymiarami i rzutem, ceny „od”, podstrona dla architektów. Od 3000 zł.",
+      "Strona internetowa dla stolarza: realizacje według rodzaju prac, wycena mebli na wymiar z wymiarami i rzutem, ceny „od”, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Dla stolarzy i stolarni"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Dla stolarzy i stolarni"],
   heroPhonePoints: ["Kuchnie · Szafy · Schody", "Wyślij wymiary i rzut", "Ceny „od” za metr", "Wolne terminy: luty"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla stolarza, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -166,7 +166,7 @@ export const carpentryWebsiteDesignPl = {
           link("strona na WordPress", "/pl/oferty/strona-na-wordpress"),
           ".",
         ),
-        h3("Co łączy najlepsze strony stolarni"),
+        h3("Najlepsze strony stolarni: co je łączy"),
         p("Prawdziwe realizacje podzielone na rodzaje prac, jasno podany obszar montażu, widełki cen i łatwe wysłanie wymiarów. Krój pisma i kolory mają mniejsze znaczenie niż to, czy klient w dwóch kliknięciach znajdzie schody podobne do swoich."),
 
         h2("Pozycjonowanie lokalne strony stolarza w Mapach Google: warsztat, salon i obszar montażu"),
@@ -211,6 +211,7 @@ export const carpentryWebsiteDesignPl = {
           ["Czy klient może przesłać projekt od architekta albo rzut od dewelopera?", "Tak. Formularz przyjmuje pliki PDF i zdjęcia, a większe komplety rysunków trafiają do wspólnego folderu powiązanego z zapytaniem, więc nic nie odbija się od skrzynki."],
           ["Czy podawać ceny, skoro każdy mebel jest na wymiar?", "Tak, jako ceny „od” za metr bieżący, stopień albo sztukę, z uwagą, co je podnosi. Mniej rozmów z osobami, które liczyły na ceny z marketu, i więcej konkretnych zapytań."],
           ["Czy sam dodam nowe realizacje i zmienię termin realizacji?", "Tak. Realizacje, zdjęcia, ceny i zdanie o terminie zmieniasz w prostym panelu, także z telefonu, a każda nowa realizacja ma ten sam układ."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Czy pracujesz ze stolarniami spoza Warszawy?", "Tak, z całej Polski. Pracuję zdalnie: rozmawiamy przez wideo i telefon, brief możesz nagrać jako wiadomość głosową, a projekt strony oglądasz i akceptujesz online. Wystawiam fakturę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

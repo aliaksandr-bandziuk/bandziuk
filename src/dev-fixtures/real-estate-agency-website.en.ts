@@ -46,7 +46,7 @@ export const realEstateAgencyWebsiteEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Catalogue with working filters", "Websites from €2,000", "Reply in 1 working day"],
+  heroChips: ["Catalogue with working filters", "Websites from €2,000", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["3 bedrooms, sea view", "Add to shortlist", "Book a viewing", "Price on request"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Basic catalogue website for an agency: listings, filters, enquiry forms", price: 2000, currency: "EUR", unit: "one-off" },
@@ -87,11 +87,12 @@ export const realEstateAgencyWebsiteEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why an agency website loses to the portals it competes with"),
+        h2("An agency website loses to the portals it competes with"),
+        p("I build websites for real estate agencies myself: structure, design, build and launch, with no handover between people."),
         p("An agency website almost always starts as a catalogue. Listings go up, filters get added, and the site is considered done. The problem is that a catalogue is the one thing an agency will never win on: portals hold more inventory, more traffic and larger search budgets, and a buyer looking only for listings goes there first. A site that competes on inventory competes on the single axis where it is guaranteed to lose."),
         p("What the agency does own is everything a portal cannot show: which districts you actually work in, which segment you know, which language your buyers speak, and what happens after the first enquiry. That is the material the site should be built from."),
 
-        h2("What a buyer checks on an agency website before making contact"),
+        h2("An agency website before first contact: what a buyer checks"),
         p("By the time someone reaches your site they have usually seen the property somewhere else. The visit is not a search, it is a check: they are deciding whether to send the enquiry to you or to the agency open in the next tab."),
         p("They look for how long you have worked this market, whether the listings are current, whether a named person answers, and whether terms are stated or withheld until a call. None of that is decoration — it is the content that decides between an enquiry and a closed tab, and it is exactly what a catalogue with a contact form at the bottom leaves out."),
 
@@ -106,7 +107,7 @@ export const realEstateAgencyWebsiteEn = {
 
         h2("Listing import and updates: where the data comes from and what breaks"),
         p("The question that decides the build is where listings live today. A feed from a portal or an MLS, an export from your CRM, a spreadsheet, or three agents each keeping their own — each answer produces a different site."),
-        h3("What breaks in practice"),
+        h3("Agency websites in practice: what breaks"),
         li("a listing sells and its page disappears, leaving a dead end or a soft 404;"),
         li("the same property arrives twice from two sources under two addresses;"),
         li("photographs come in at full camera resolution and the catalogue slows to a crawl;"),
@@ -131,7 +132,7 @@ export const realEstateAgencyWebsiteEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("What a real estate agency website costs and what is included"),
+        h2("A real estate agency website: what it costs and what is included"),
         p(
           "A basic catalogue site with listings, filters and enquiry forms starts at €2,000. A site with CRM integration, listing import and advanced search starts at €3,500. A large portal with extended functionality starts at €5,500 and is scoped individually. Design is included, never a separate line. The full breakdown by tier is in ",
           link("how much a real estate agency website costs", "/blog/real-estate-agency-website-cost"),
@@ -144,7 +145,7 @@ export const realEstateAgencyWebsiteEn = {
         p("A basic catalogue site takes three to six weeks. CRM integration, listing import and each additional language extend that, and I give the figure before we start rather than during. A portal is scoped with its own timeline because the functionality decides it."),
         p("What usually stretches a build is not the code but the data: where listings come from, in what shape, and who keeps them current. The sooner that is settled, the shorter the rest."),
 
-        h2("What stays with you after launch"),
+        h2("After launch: what stays with you"),
         li("the code, the domain, the content and the CMS logins are yours from day one;"),
         li("the site does not live on my hosting account and exports are not blocked;"),
         li("the listing data stays in a form you can move elsewhere;"),
@@ -196,6 +197,7 @@ export const realEstateAgencyWebsiteEn = {
           ["Do you work with agencies outside your own country?", "Yes. Multilingual property sites are most of what this kind of work is, and this site itself runs in three languages."],
           ["We only need two languages now, a third later. Is that a problem?", "No, as long as the structure is built for it from the start. Retrofitting a second language onto a site built for one is the expensive version of the same job."],
           ["Do you build on website builders?", "No. A catalogue with filters, import and CRM is exactly where builders run out, and moving off one later costs more than building on Next.js or WordPress in the first place."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Who owns the site after launch?", "You do: the code, the domain, the content, the CMS logins and the listing data in a movable form. The site does not live on my hosting, exports are not blocked, and it can be handed to another developer at any time."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

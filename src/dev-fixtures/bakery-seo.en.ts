@@ -39,7 +39,7 @@ export const bakerySeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Custom cakes, holidays, Google Maps", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Custom cakes, holidays, Google Maps", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Bakery near me · Open now", "Custom birthday cake", "Gluten-free cupcakes", "Pre-order holiday pies"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Bakery SEO audit: website, Google Business Profile, local competitors and AI answers", price: 250, currency: "EUR", unit: "one-off" },

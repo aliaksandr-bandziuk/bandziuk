@@ -113,7 +113,7 @@ export const insuranceAgencySeoEn = {
       content: [
         p("Insurance agent SEO is the work that brings people shopping for auto, home, life or business coverage to your agency’s own website when they search, and turns those visits into quote requests and calls. I do insurance agency SEO myself, as a single SEO consultant who also builds websites, for independent agencies, captive agents whose carrier allows their own site, and small agency groups with a few offices."),
 
-        h2("What insurance agency SEO covers: line pages, office profiles, reviews and AI answers"),
+        h2("Insurance agency SEO covers: line pages, office profiles, reviews and AI answers"),
         p("Someone who needs insurance types a coverage and a place — “cheap car insurance Dayton”, “homeowners insurance agent near me”, “workers comp for roofers Texas” — or a question such as “does renters insurance cover theft from a car”. Carriers, comparison sites and lead marketplaces hold much of the first page; an agency wins where local knowledge, a choice of carriers or a niche matters. The work covers:"),
         li("a page for each line of insurance you write and for the niches where you want more policies"),
         li("a Google Business Profile for every office, and the reviews behind it"),

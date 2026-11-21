@@ -44,7 +44,7 @@ export const realEstateSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Catalogue and location pages", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Catalogue and location pages", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Apartments in Limassol", "Property investment guide", "New builds near me", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit of a real estate website: catalogue, locations and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -85,7 +85,8 @@ export const realEstateSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why a real estate website loses to portals in Google, and what can be changed"),
+        h2("A real estate website loses to portals in Google, and what can be changed"),
+        p("I do SEO for real estate agencies myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p(
           "Most real estate websites are not invisible because of their design. They are invisible because the pages that could rank do not exist, and the pages that do exist are fragmented across hundreds of filter URLs. ",
           link("A site that does not appear in Google", "/blog/website-not-showing-in-google"),
@@ -122,7 +123,7 @@ export const realEstateSeoEn = {
         p("First measurable movement appears in about a month and a half: pages that were not indexed get indexed, and queries the site never appeared for start showing impressions. Steady growth in enquiries builds over three to six months, as location and property-type pages accumulate authority and the catalogue fixes work through the index."),
         p("Real estate is slower than most industries on the head queries, because portals hold them, and faster than most on the long tail, because almost nobody writes proper location content. That is why the work starts with the long tail."),
 
-        h2("What SEO for a real estate website costs and what is included"),
+        h2("SEO for a real estate website: what it costs and what is included"),
         p(
           "An audit of the site, the catalogue and the AI answers is €250. One-off work — catalogue architecture, location pages, structured data — runs €250–800 depending on scope. Ongoing SEO is €800 a month and includes the technical work, the content plan, new pages and the reporting. The full price list is on the ",
           link("pricing page", "/pricing"),
@@ -160,7 +161,7 @@ export const realEstateSeoEn = {
         h2("Real estate in AI search: what GEO and AEO mean and how they are done"),
         p("Buyers increasingly start in ChatGPT, Perplexity or Google's AI Overviews rather than in a list of ten links: «which district of Limassol suits a family», «what does buying an apartment cost a foreign buyer in Spain», «which agencies work with this development». The assistant answers from text it can read and restate, and it names sources."),
         p("Two acronyms describe the work. GEO, generative engine optimization, is getting a site used and named as a source by AI assistants. AEO, answer engine optimization, is getting it quoted in the direct answer rather than the link list. Both reward the same things, and they are not the same things that classic rankings reward."),
-        h3("What AI assistants actually use"),
+        h3("ChatGPT, Perplexity and Gemini: what they actually use"),
         li("a direct answer at the top of a section, before the context and the caveats;"),
         li("facts — prices, areas, fees, timelines — instead of adjectives about the market;"),
         li("Schema.org markup that matches the visible text rather than contradicting it;"),
@@ -187,6 +188,7 @@ export const realEstateSeoEn = {
           ["How long does real estate SEO take to produce results?", "About a month and a half to the first measurable movement, three to six months for steady growth in enquiries. Head queries held by portals take longer; the long tail moves first, which is why the work starts there."],
           ["How do you measure whether real estate SEO is working?", "By enquiries, not rankings. Organic enquiry volume, how many of them are qualified, what an organic enquiry costs next to a paid one, and organic's growing share of the total. Rankings are an input and I report them, but they are not the result."],
           ["We are an individual agent, not an agency. Is this the right page?", "No — an individual agent sells a name, a few neighbourhoods and a personal track record, and the work is different. That is covered on the SEO for realtors page. A developer selling its own projects has its own page too."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Do you work with sites in several languages?", "Yes, and this site itself runs in three. Multilingual real estate sites are where most of the fixable technical damage sits: broken hreflang, machine-translated duplicates, inconsistent location names."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

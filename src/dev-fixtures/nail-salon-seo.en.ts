@@ -39,11 +39,11 @@ export const nailSalonSeoEn = {
   seo: {
     metaTitle: "Nail Salon SEO — audit from €250",
     metaDescription:
-      "SEO for nail salons: technique names that change every season, walk-in and «open now» searches, hygiene as a conversion point, the infill cycle. Audit €250.",
+      "SEO for nail salons: technique names that change every season, walk-in and «open now» searches, hygiene as a conversion point, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Technique names kept current", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Technique names kept current", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Walk-ins and «open now»", "Current technique terms", "Hygiene explained plainly", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a nail salon: site, map profile, technique terms and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -84,7 +84,8 @@ export const nailSalonSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("What this page adds to the general salon advice, and what it does not repeat"),
+        h2("Nail salon SEO beyond the general salon advice: what this page adds"),
+        p("I do SEO for nail salons myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p(
           "If you run a salon offering several kinds of treatment, the structural work — a page per treatment, prices and durations on the site, the map profile, the path from a treatment page to a booked slot — is on the ",
           link("SEO for beauty salons page", "/seo-for-beauty-salons"),
@@ -166,6 +167,7 @@ export const nailSalonSeoEn = {
           ["Should we write about hygiene? It feels defensive.", "It reads as confident rather than defensive, as long as it describes practice instead of making claims. Clients worry about this and ask each other rather than you, which means the salon that answers it in writing gets the cautious client — who is usually the one who then comes every three weeks for years."],
           ["Do we need a page for every technique?", "For the ones you want more of and the ones clients currently search for. Not for every variation on a price list. And retire the pages for things you no longer do, rather than leaving them to collect enquiries you have to turn down."],
           ["Is Instagram not where nail work gets seen?", "It is where your existing clients see it. Search reaches somebody standing two streets away who has never heard of you and wants to know if you are open. The two do different jobs, and the website is the one that answers the second."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["How long before it shows?", "First movement after about a month and a half, growth on a three to six month horizon. Correcting hours and the map profile often shows faster than that, because it is a data fix rather than a ranking contest."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -42,7 +42,7 @@ export const cateringSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Firmy, wesela, komunie", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Firmy, wesela, komunie", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Catering dla firm Kraków", "Catering na wesele", "Cena za osobę", "Poproś o wycenę"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy cateringowej: strona, wizytówka Google, konkurencja w Twoim mieście", price: 1000, currency: "PLN", unit: "one-off" },

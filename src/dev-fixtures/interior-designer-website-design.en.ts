@@ -46,11 +46,11 @@ export const interiorDesignerWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Interior Designers | Bandziuk",
     metaDescription:
-      "Interior designer website design with the build included: fast portfolio, project pages, services and fees, e-design, inquiry form that qualifies. From 700 €.",
+      "Interior designer website design with the build included: fast portfolio, project pages, services and fees, e-design, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Portfolio that opens fast"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Portfolio that opens fast"],
   heroPhonePoints: ["Project: 1920s Tudor kitchen", "Full-service · E-design", "How we work and fees", "Start a project"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple interior designer website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -231,7 +231,7 @@ export const interiorDesignerWebsiteDesignEn = {
           ["Should an interior designer show fees on the website?", "Show how you charge — flat fee, hourly, per square foot or a percentage — and what each service includes. Numbers are optional; a starting point or minimum project size, if you share one, filters out inquiries that would not fit."],
           ["Can you move my current site without losing Google traffic?", "Yes. Before launch every old address gets a 301 redirect to its new page, and titles and project text move with it. That is how a psychotherapist’s site in Milan kept all 468 posts through a move to a new platform."],
           ["How do you work with a US interior designer from Poland?", "Online and in English. Warsaw afternoons and evenings fall on US mornings and early afternoons, so we review the design live once or twice and leave everything else as comments on the page mockups. I invoice in euros under a written contract."],
-          ["Will my interior design website appear in ChatGPT answers?", "The site is built so AI assistants can read it: studio facts as text, structured data and dated press items. Being named in answers to specific questions takes ongoing SEO and GEO work, which I also do."],
+          ["Will my interior design website appear in ChatGPT, Perplexity and Gemini answers?", "The site is built so AI assistants can read it: studio facts as text, structured data and dated press items. Being named in answers to specific questions takes ongoing SEO and GEO work, which I also do."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

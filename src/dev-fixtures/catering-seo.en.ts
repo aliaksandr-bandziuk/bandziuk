@@ -40,7 +40,7 @@ export const cateringSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Event-type and service-area pages", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Event-type and service-area pages", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Corporate catering near me", "Wedding catering menus", "Price per person shown", "Request a quote"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Catering SEO audit: website, Google Business Profile and local competitors", price: 250, currency: "EUR", unit: "one-off" },

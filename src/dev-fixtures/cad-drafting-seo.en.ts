@@ -96,7 +96,7 @@ export const cadDraftingSeoEn = {
         p("So the thing that wins the enquiry is not a portfolio of pretty drawings. It is layers named the way his office names them, his title block, his units, his software version, and a redline turnaround he can plan around."),
         p("Write it as facts: the standards you work to, the templates you accept, who owns the file afterwards, how long a revision takes, and whether you sign an NDA before seeing anything."),
 
-        h3("What you are handed, what the client searches, and what the page has to prove"),
+        h3("Files in, searches out: what the page has to prove"),
       ],
     },
     {

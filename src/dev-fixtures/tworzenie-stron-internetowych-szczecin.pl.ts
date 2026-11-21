@@ -35,11 +35,11 @@ export const tworzenieStronInternetowychSzczecinPl = {
   seo: {
     metaTitle: "Strony internetowe Szczecin: PL, DE, EN | Bandziuk",
     metaDescription:
-      "Strony internetowe dla firm ze Szczecina: projekt w cenie, wersja niemiecka dla klientów z Niemiec, formularz zgodny z RODO, szybka na telefonie. Od 3000 zł.",
+      "Strony internetowe dla firm ze Szczecina: projekt w cenie, wersja niemiecka dla klientów z Niemiec, formularz zgodny z RODO, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Wersje PL · DE · EN"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersje PL · DE · EN"],
   heroPhonePoints: ["Zadzwoń · WhatsApp", "Usługi i ceny", "Auf Deutsch", "Dojazd i parking"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy ze Szczecina, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -207,6 +207,7 @@ export const tworzenieStronInternetowychSzczecinPl = {
           ["Ile trwa stworzenie strony dla firmy ze Szczecina?", "Prostą stronę uruchamiamy zwykle w dwa–cztery tygodnie, pełną z wersją niemiecką w cztery–osiem. Termin wydłuża się głównie wtedy, gdy czekamy na zdjęcia albo akceptację tłumaczeń."],
           ["Czy strona może powstać zdalnie, skoro pracujesz z Warszawy?", "Tak, tak pracuję z firmami ze Szczecina i całej Polski: rozmowy wideo, wspólne dokumenty, projekt do akceptacji w przeglądarce. Zdjęcia lokalu czy warsztatu możecie zrobić sami albo zlecić lokalnemu fotografowi."],
           ["Agencja interaktywna czy jeden wykonawca strony?", "Agencja ma sens, gdy razem ze stroną potrzebujecie kampanii i mediów społecznościowych. Jeśli chodzi o samą stronę, jedna osoba od projektu do uruchomienia oznacza mniej przekazywania uwag i znaną z góry cenę."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Do kogo należy strona po uruchomieniu?", "Do Was: domena, kod i treści. Możecie przenieść stronę do innego hostingu albo innego wykonawcy, a ja nie pobieram abonamentu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

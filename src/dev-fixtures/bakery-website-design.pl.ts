@@ -42,11 +42,11 @@ export const bakeryWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www piekarni z zamawianiem tortów | Bandziuk",
     metaDescription:
-      "Strona internetowa dla piekarni i cukierni: katalog wypieków, torty na zamówienie z zaliczką BLIK, odbiór o wybranej godzinie, alergeny, hurt. Od 3000 zł.",
+      "Strona internetowa dla piekarni i cukierni: katalog wypieków, torty na zamówienie z zaliczką BLIK, odbiór o wybranej godzinie, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dziś otwarte 6:00–18:00", "Zamów tort", "Odbiór w czwartek 7:00", "Alergeny przy produkcie"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla piekarni lub cukierni, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -201,6 +201,7 @@ export const bakeryWebsiteDesignPl = {
           ["Czy strona wytrzyma tłusty czwartek?", "Tak. Strony katalogu są przygotowane z wyprzedzeniem i nie obciążają serwera, a każdy przedział godzin odbioru ma limit zamówień. Gdy przedział się zapełni, klient widzi kolejny wolny."],
           ["Czy nadal możemy sprzedawać przez Pyszne.pl, Glovo i Wolt?", "Tak. Strona nie zastępuje tych serwisów, tylko daje klientom drogę do zamówień bez prowizji: tortów, zamówień świątecznych i odbioru w sklepie. Linki do aplikacji dostaw mogą zostać na stronie."],
           ["Czy sami zmienimy ceny, skład i godziny otwarcia?", "Tak. Produkty, ceny, dni wypieku, alergeny, godziny odbioru i godziny świąteczne zmieniacie w prostym panelu, z komputera albo z telefonu."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Czy pracujesz z piekarniami spoza Warszawy?", "Tak, z całej Polski. Wszystko omawiamy przez wideo, telefon i maile, kolejne etapy akceptujecie online, a po zakończeniu pracy wystawiam fakturę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

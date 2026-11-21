@@ -40,11 +40,11 @@ export const hotelWebsiteDesignEn = {
   seo: {
     metaTitle: "Hotel Website Design for Independent Hotels | Bandziuk",
     metaDescription:
-      "Hotel website design for independent and boutique hotels: photo-led pages, a booking bar on mobile, room comparison, languages. Design + build from 700 €.",
+      "Hotel website design for independent and boutique hotels: photo-led pages, a booking bar on mobile, room comparison, AI answers. Design + build from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Check-in · Check-out · Guests", "Best rate when you book direct", "Rooms and suites", "Restaurant · Spa · Map"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple hotel website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -232,6 +232,7 @@ export const hotelWebsiteDesignEn = {
           ["Do we need professional photos for the new design?", "For a hotel, yes, in most cases: photos are what guests book on. If a shoot is planned, I send the photographer a shot list based on the layout, so every picture has a place. Existing photos can be used where they are good enough."],
           ["How long does it take to design and build a hotel website?", "The phone layouts of the first screen, a room page and the rooms overview are usually ready one to two weeks after the brief. The whole site typically takes four to seven weeks, depending on the number of room types, languages and sections such as spa and events."],
           ["What is the design of our hotel website based on?", "On how your guests decide and book: your rooms, your photos, your booking engine and the reasons to book direct. I design the booking path first, then the pages around it, and test the result on a phone before launch. My portfolio shows multilingual sites, image-led premium sites and businesses with online booking built the same way."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you work with hotels outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian, for hotels in any country. The site is set up for your guests’ languages, your currency and the review platforms they use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

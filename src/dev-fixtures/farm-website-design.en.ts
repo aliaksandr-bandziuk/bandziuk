@@ -46,11 +46,11 @@ export const farmWebsiteDesignEn = {
   seo: {
     metaTitle: "Farm Web Design: Orders, CSA and Farm Stand | Bandziuk",
     metaDescription:
-      "Farm website design: weekly harvest list, online orders with pickup slots, meat share deposits, CSA sign-ups, farm stand hours, U-pick and events. From 700 €.",
+      "Farm website design: weekly harvest list, online orders with pickup slots, meat share deposits, CSA sign-ups, farm stand hours, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Harvest list you edit yourself"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Harvest list you edit yourself"],
   heroPhonePoints: ["In season this week", "Reserve a half hog", "Farm stand open 9–6", "U-pick today: open"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple farm website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -110,6 +110,7 @@ export const farmWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for farms and farm shops myself: structure, design, build and launch, with no handover between people."),
         p("Farm website design is the service I offer family farms that sell straight to the people who eat their food: the planning, design and build are mine alone, from the weekly harvest list to online orders and pickup, for one price agreed up front. The site tells a neighbor what is for sale this Saturday, takes a deposit on a half hog in February, sends a CSA member to the right pickup point and gets a chef’s order in before Tuesday’s delivery run."),
 
         h2("Farm website design for farms that sell direct"),
@@ -219,6 +220,7 @@ export const farmWebsiteDesignEn = {
           ["Can the site run CSA sign-ups and several pickup locations?", "Yes. Shares, season dates, pickup sites and installment payments are set in the admin, and members skip weeks or change their pickup site themselves. If your CSA already runs in a platform you like, the site links to it with the right share selected."],
           ["Is a free farm website template enough?", "For a farm that sells one thing in one place, often it is. A custom site pays off once you combine a stand, markets, pre-orders, a CSA or wholesale, and want the weekly list, the orders and the visit details to stay in step."],
           ["How long does it take to build a farm website?", "Most of the time goes into gathering product lists, prices, photos and pickup rules rather than into code. You get the schedule together with the fixed price; a project started in late fall or winter is live before spring sign-ups and the first harvest."],
+          ["How does a company get into AI answers?", "That is the GEO and AEO part of the work: text instead of pictures, structured data for the company and its services, and the same details everywhere. Progress is measured by putting a fixed set of questions to ChatGPT, Perplexity and Gemini before and after."],
           ["Can a web designer in Poland build a website for a US farm?", "Yes. All of it runs online and in English. Warsaw is on Central European Time, so my afternoon and evening fall in your morning, and a call fits before market or after morning chores. I invoice in EUR or another currency by agreement."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

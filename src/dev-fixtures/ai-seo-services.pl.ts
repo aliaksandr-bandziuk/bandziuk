@@ -86,9 +86,10 @@ export const aiSeoServicesPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Usługami AI SEO zajmuję się sam: audyt, poprawki w kodzie i treściach oraz pomiar obecności w Google i w odpowiedziach AI."),
         p("Świadczę usługi AI SEO: pracę, dzięki której firmę znajdują w Google i wymieniają, z poprawnymi faktami, gdy klienci zamiast szukać pytają ChatGPT, Perplexity, Gemini albo podsumowania AI w Google. To dwa kanały, które nagradzają co innego — Google układa strony, asystenci cytują źródła, którym ufają — więc praca obejmuje oba, a każdy mierzę osobno."),
 
-        h2("Co obejmują usługi AI SEO: pozycje w Google i odpowiedzi AI, mierzone osobno"),
+        h2("Usługi AI SEO obejmują: pozycje w Google i odpowiedzi AI, mierzone osobno"),
         p("Klient, który pyta asystenta „które biuro rachunkowe w Warszawie obsługuje startupy”, dostaje dwie–trzy nazwy i zwykle kontaktuje się z jedną z nich. To, czy będzie wśród nich Wasza firma, zależy od tego:"),
         li("czy asystent odróżnia Waszą firmę od innych o podobnej nazwie"),
         li("czy znajduje podstrony, które jasno mówią, co robicie, dla kogo i gdzie"),

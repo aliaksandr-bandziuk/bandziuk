@@ -38,11 +38,11 @@ export const homeBuilderWebsiteDesignEn = {
   seo: {
     metaTitle: "Custom Home Builder Websites: Design + Build | Bandziuk",
     metaDescription:
-      "Home builder website design with the build included: community pages and lot maps, floor plans, move-in homes, project galleries, leads to your CRM. From 700 €.",
+      "Home builder website design with the build included: community pages and lot maps, floor plans, move-in homes, project galleries, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Custom and production builders"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Custom and production builders"],
   heroPhonePoints: ["Communities · Plans · Move-in ready", "Lot 14 — available", "Schedule a model tour", "Floor plans from 1,850 sq ft"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple home builder website, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -205,6 +205,7 @@ export const homeBuilderWebsiteDesignEn = {
           ["Can you connect our existing lot map or plan configurator?", "Usually, if the vendor offers an embed or an API. The key facts — homesites left, sizes, prices — are also written on the page as text, so the site still works for buyers and search engines when the widget loads slowly."],
           ["Should a home builder show prices on the website?", "In most cases, yes: a price range or a “from” price per community and plan. Buyers filter by budget, and a site with no prices sends them to listing sites that show them. Custom builders can show ranges per square foot or per finish level with what changes them."],
           ["What is the difference between a custom home builder website and a production builder website?", "A custom builder’s site sells trust: projects, process, people and how pricing works. A production builder’s site is a catalog of communities, plans and available homes with filters. Builders who do both get a separate path for each."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["How do you work with a US home builder from Poland?", "Everything happens online and in English. I am in Warsaw, six hours ahead of New York, so a 9 a.m. Eastern call is mid-afternoon for me; between calls, design reviews happen as comments on a shared file. I invoice in euros."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

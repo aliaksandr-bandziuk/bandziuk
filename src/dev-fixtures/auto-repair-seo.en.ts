@@ -32,7 +32,7 @@ export const autoRepairSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per repair", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["A page per repair", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Clutch replacement Golf", "Transmission repair near me", "Diagnostics today", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for an auto repair shop: site, Google Business Profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -73,7 +73,8 @@ export const autoRepairSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why searches for an auto repair shop work differently from other local services"),
+        h2("Searches for an auto repair shop work differently from other local services"),
+        p("I do SEO for auto repair shops and garages myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("A driver almost never chooses calmly. The car is already off the road, or it started making a noise nobody wants to drive on. So the search is urgent and very specific: not «car repair» but make plus part plus symptom — «clutch replacement Golf», «suspension noise Focus», «P0171 code what to do»."),
         p("Two things follow. The driver will not read your site; they will open two or three tabs and call whoever answered fastest. And a single «our services» page answers none of those searches, so it does not appear for them."),
         p("There is a second audience that behaves nothing like the first: scheduled maintenance, pre-purchase inspections, getting a car ready to sell. They search ahead, compare and read. One page written to serve both usually loses both."),

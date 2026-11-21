@@ -37,11 +37,11 @@ export const interiorDesignerWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla pracowni projektowania wnętrz | Bandziuk",
     metaDescription:
-      "Strona internetowa dla projektanta wnętrz: szybkie portfolio, opisy realizacji, zakres usług i cena za m², projekt online, formularz RODO. Od 3000 zł.",
+      "Strona internetowa dla projektanta wnętrz: szybkie portfolio, opisy realizacji, zakres usług i cena za m², projekt online, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Portfolio, które nie każe czekać"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Portfolio, które nie każe czekać"],
   heroPhonePoints: ["Mieszkanie 62 m², Wilanów", "Koncepcja · Projekt wykonawczy", "Projekt online", "Zapytaj o termin"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla projektanta wnętrz, projekt graficzny w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -210,7 +210,7 @@ export const interiorDesignerWebsiteDesignPl = {
           ["Czy sam dodam nowe realizacje?", "Tak. Nowa realizacja to formularz w panelu: tytuł, miasto, metraż, opis, zdjęcia i podpisy. Rozmiary zdjęć, układ i szybkość strona ustawia sama, więc nowy projekt wygląda jak poprzednie bez dotykania kodu."],
           ["Czy przeniesiesz moją stronę z Wixa bez utraty pozycji w Google?", "Tak. Przed uruchomieniem każdy stary adres dostaje przekierowanie 301 na nową podstronę, a tytuły i opisy realizacji przechodzą razem z nim. Ten sam sposób zastosowałem przy przenosinach 468 wpisów psychoterapeuty z Mediolanu."],
           ["Czy pracujesz z projektantami spoza Warszawy?", "Tak, z pracowniami z całej Polski. Wszystko odbywa się zdalnie: rozmawiamy online po polsku, angielsku albo rosyjsku, uwagi do projektu zostawiasz w udostępnionym pliku, a stronę uruchamiam na Twoim hostingu."],
-          ["Czy strona pracowni będzie widoczna w ChatGPT?", "Buduję ją tak, by asystent AI miał co przeczytać: dane pracowni zapisane tekstem, opisane realizacje, dane strukturalne. To warunek konieczny; żeby ChatGPT wymieniał Twoją pracownię przy konkretnych pytaniach, potrzebne jest jeszcze pozycjonowanie w AI, które również prowadzę."],
+          ["Czy strona pracowni będzie widoczna w ChatGPT, Perplexity i Gemini?", "Buduję ją tak, by asystent AI miał co przeczytać: dane pracowni zapisane tekstem, opisane realizacje, dane strukturalne. To warunek konieczny; żeby ChatGPT wymieniał Twoją pracownię przy konkretnych pytaniach, potrzebne jest jeszcze pozycjonowanie w AI, które również prowadzę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

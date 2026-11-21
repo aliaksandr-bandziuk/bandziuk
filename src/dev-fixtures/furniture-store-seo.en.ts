@@ -41,11 +41,11 @@ export const furnitureStoreSeoEn = {
   seo: {
     metaTitle: "Furniture Store SEO — audit from €250",
     metaDescription:
-      "SEO for furniture stores: dimension and access searches, lead times and stock, brand pages that fill the showroom, delivery and returns. Audit €250.",
+      "SEO for furniture stores: dimension and access searches, lead times and stock, brand pages that fill the showroom, delivery and returns, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Searches by size and access", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Searches by size and access", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Widths, doorways, left or right facing", "In stock and lead times", "Brands you stock, by city", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a furniture store: catalogue, showroom pages and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -86,7 +86,8 @@ export const furnitureStoreSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why furniture searches are dimensions and doorways rather than product names"),
+        h2("Furniture searches are dimensions and doorways rather than product names"),
+        p("I do SEO for furniture stores myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Furniture is the one retail category bought against a physical space. The customer has already measured the alcove, counted the stairs and worried about the front door, and that is what they type: a console under eighty centimetres, a two-and-a-half-seat sofa, a corner unit facing left, a wardrobe for a sloped ceiling, a table that seats eight in a room four metres long. Nobody searches the name of a sofa they have never heard of."),
         p("Almost every furniture site makes those facts unsearchable. The dimensions live in a diagram image, the configuration lives in a dropdown, and the page text is three sentences about Scandinavian warmth. A search engine cannot read a drawing, so a shop with four hundred products that would each solve somebody's measuring problem is invisible to all of them."),
         li("every dimension in the page text, in the units your market uses, not only in an image;"),
@@ -177,6 +178,7 @@ export const furnitureStoreSeoEn = {
           ["We stock well-known brands. Does that help?", "It does, and most shops waste it. A brand name plus a city is a high-intent search by somebody who has already chosen the product and wants to try it nearby. A strip of unlinked logos answers none of it; a page per brand saying what is on the floor does."],
           ["Is the Google profile important if we also sell online?", "Very, because people want to sit on furniture before buying it. The profile earns the showroom visit, and current photographs of the actual floor do more than catalogue renders."],
           ["How long before it shows?", "First movement after about a month and a half, growth on a three to six month horizon. Constraint and brand pages often move faster than broad category pages because so little competes with them."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Do you write product descriptions for the whole catalogue?", "Not one by one for a catalogue of thousands — that is a template and a data problem rather than a writing one. I would fix the structure so dimensions, configurations and availability appear as text everywhere, then write properly the pages that earn it: constraints, brands and the main categories."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -38,11 +38,11 @@ export const carDealerWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla komisu i salonu samochodowego | Bandziuk",
     metaDescription:
-      "Strona dla komisu samochodowego: import aut z Otomoto, karta auta z VIN i fakturą, kredyt, leasing i zamiana, szybkie zdjęcia. Projekt w cenie, od 3000 zł.",
+      "Strona dla komisu samochodowego: import aut z Otomoto, karta auta z VIN i fakturą, kredyt, leasing i zamiana, odpowiedzi AI. Projekt w cenie, od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Dla komisów i salonów"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Dla komisów i salonów"],
   heroPhonePoints: ["Skoda Superb 2020 · FV 23%", "Zapytaj o leasing", "Wyceń swoje auto", "Napisz na WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla komisu samochodowego z listą aut i kartami aut, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -103,6 +103,7 @@ export const carDealerWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla komisów i salonów samochodowych buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Strona internetowa dla komisu samochodowego to projekt, który wykonuję od początku do końca sam — układ, grafikę, połączenie z ogłoszeniami i uruchomienie — a więc jedna osoba odpowiada za całość, a cenę znasz przed startem. Strona komisu jest katalogiem, który zmienia się co tydzień: auta zjeżdżają z lawety, ceny spadają, zdjęcia dochodzą po myciu i detailingu, a strona musi za tym nadążać bez przepisywania ogłoszeń ręcznie."),
 
         h2("Strona internetowa dla komisu samochodowego: lista aut, karta auta i kontakt"),
@@ -203,6 +204,7 @@ export const carDealerWebsiteDesignPl = {
           ["Czy formularz kredytu na stronie jest bezpieczny?", "Strona zbiera tylko podstawowe informacje i zgodę na kontakt, z klauzulą RODO. Pełny wniosek z dochodami i dokumentami klient składa w systemie banku lub firmy leasingowej."],
           ["Czy strona z setkami zdjęć nie będzie wolna?", "Nie, jeśli zdjęcia są zmniejszane i konwertowane przy imporcie i ładowane dopiero wtedy, gdy kupujący do nich przewinie. Tak buduję każdą stronę komisu."],
           ["Czy sam mogę dodawać auta i zmieniać ceny?", "Auta przychodzą z importu, a w prostym panelu, także z telefonu, dopisujesz uwagi, promocje i opłaty. Jeśli import nie jest potrzebny, auta dodajesz ręcznie w tym samym panelu."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pracujesz z komisami spoza Warszawy?", "Tak, z całej Polski. Pracuję zdalnie, po polsku; opis komisu możesz nagrać na WhatsApp jako wiadomość głosową, a kolejne etapy projektu sprawdzasz na swoim telefonie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

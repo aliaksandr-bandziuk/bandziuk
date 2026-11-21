@@ -30,11 +30,11 @@ export const websitePerformanceAndCodeAuditPl = {
   seo: {
     metaTitle: "Audyt wydajności i kodu strony — 1000 zł",
     metaDescription:
-      "Audyt wydajności strony i kodu: Core Web Vitals, JavaScript i renderowanie, odpowiedź serwera. Lista napraw w kolejności, z pomiarem przed i po. 1000 zł.",
+      "Audyt wydajności strony i kodu: Core Web Vitals, JavaScript i renderowanie, odpowiedź serwera. Lista napraw w kolejności, odpowiedzi AI. 1000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Core Web Vitals i kod", "Audyt 1000 zł", "Raport w 3 dni robocze"],
+  heroChips: ["Core Web Vitals i kod", "Audyt 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["LCP 4,1 s", "INP 320 ms", "CLS 0,24", "Lista napraw"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt wydajności i kodu strony z listą napraw w kolejności", price: 1000, currency: "PLN", unit: "one-off" },
@@ -51,7 +51,7 @@ export const websitePerformanceAndCodeAuditPl = {
         { _key: k("o"), iconName: "zap", title: "JavaScript i renderowanie", text: "Co się wykonuje, zanim strona da się używać" },
         { _key: k("o"), iconName: "image", title: "Obrazy, fonty i skrypty zewnętrzne", text: "Trzy rzeczy, które zwykle ważą najwięcej" },
         { _key: k("o"), iconName: "server", title: "Odpowiedź serwera i cache", text: "Gdzie tracony jest pierwszy bajt" },
-        { _key: k("o"), iconName: "list-checks", title: "Lista napraw w kolejności", text: "Koszt w milisekundach wobec kosztu w godzinach" },
+        { _key: k("o"), iconName: "sparkles", title: "Czytelność dla ChatGPT i AI", text: "Lista napraw w kolejności, z asystentami" },
       ],
     },    {
       _type: "portfolioPickBlock",
@@ -73,7 +73,8 @@ export const websitePerformanceAndCodeAuditPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Co właściwie mierzy audyt wydajności strony"),
+        h2("Audyt wydajności strony: co właściwie mierzy"),
+        p("Audyty wydajności i kodu robię sam: pomiary na Waszych realnych podstronach, a potem lista napraw w kolejności."),
         p("Wynik na sto punktów nie jest diagnozą. Audyt mierzy to, na co czeka odwiedzający, i to na podstronach ważnych dla firmy, a nie na stronie głównej: ile trwa, aż pojawi się główna treść, ile trwa, aż kliknięcie coś zrobi, i czy układ skacze w trakcie czytania. Potem wyjaśnia, który element strony odpowiada za każdą z tych liczb."),
         p("Dwie rzeczy różnią to od darmowego testu, który uruchomisz sam. Pierwsza: test daje objaw, audyt daje przyczynę — «największy element zajmuje 4,1 sekundy» zamienia się w «obraz w nagłówku to PNG o wadze 2,4 MB podany w pełnym rozmiarze, a font blokuje renderowanie, dopóki się nie wczyta». Druga: kolejność. Z dwudziestu rzeczy, które zgłasza test, zwykle trzy odpowiadają za prawie całe opóźnienie, a reszta to szum, którego naprawa kosztuje więcej, niż zwraca."),
 
@@ -151,7 +152,7 @@ export const websitePerformanceAndCodeAuditPl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Dlaczego szybkość decyduje, czy asystenci AI w ogóle przeczytają stronę (GEO, AEO)"),
+        h2("Szybkość decyduje, czy asystenci AI w ogóle przeczytają stronę (GEO, AEO)"),
         p("Roboty stojące za ChatGPT, Perplexity, Gemini i odpowiedziami AI w Google są surowsze od Googlebota w jednej konkretnej sprawie: większość z nich nie wykonuje JavaScriptu, a te, które pobierają stronę, dają jej znacznie mniej czasu. Strona rysująca treść w przeglądarce wysyła im niemal pusty dokument, więc asystent zapytany o twoją firmę nie znajduje nic do zacytowania — nie dlatego, że tekst jest zły, ale dlatego, że nigdy nie było go w HTML-u."),
         p(
           "To czyni renderowanie sprawą widoczności, a nie tylko szybkości: to, co ma być cytowane, musi być w odpowiedzi serwera, jako tekst. Doprowadzenie do tego stanu działającej strony to ",
@@ -175,6 +176,7 @@ export const websitePerformanceAndCodeAuditPl = {
           ["Kiedy widać zmianę w liczbach?", "Raport zajmuje trzy dni robocze. Po wdrożeniu poprawek twoje pomiary zmieniają się od razu, ale dane z pola w Search Console liczone są z ostatnich 28 dni, więc oficjalne Core Web Vitals przesuwają się po około miesiącu."],
           ["A jeśli strona jest zbyt wolna, żeby warto ją było naprawiać?", "Tak się zdarza i powiem to, zamiast sprzedawać audyt wart łatania. Wtedy właściwą odpowiedzią jest przebudowa z zachowaniem pozycji, opisana na osobnej stronie."],
           ["Czy wystawiasz fakturę?", "Tak, prowadzę jednoosobową działalność w Warszawie i wystawiam fakturę za każdą pracę."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czego potrzebujesz, żeby zacząć?", "Adresu, a jeśli poprawki mam też wdrażać — dostępu do hostingu albo kodu. Sam audyt nie potrzebuje niczego poza publiczną stroną."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

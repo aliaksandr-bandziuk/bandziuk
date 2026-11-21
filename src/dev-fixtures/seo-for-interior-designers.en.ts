@@ -41,7 +41,7 @@ export const seoForInteriorDesignersEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["City, project and e-design searches", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["City, project and e-design searches", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Interior designer in Westport", "Kitchen and dining renovation", "Reviews on Google and Houzz", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for an interior designer: website, Google Business Profile, Houzz and other profiles, project pages, AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -104,7 +104,7 @@ export const seoForInteriorDesignersEn = {
       content: [
         p("SEO for interior designers is the work that gets a design studio found when homeowners search for a designer in their city, for the project they are planning or for your name after a referral, and turns those visits into project inquiries. I do it myself, as an SEO consultant who also builds websites, for solo designers and studios of a few people, so the person who finds a problem on your site is the person who fixes it."),
 
-        h2("What SEO for interior designers covers: name searches, local results and project pages"),
+        h2("SEO for interior designers covers: name searches, local results and project pages"),
         p("Most design clients still come by referral, and even a referred client types your name into Google before writing to you. The rest search by place, by room or by service. SEO for a design studio covers four places where those searches lead:"),
         li("your website: service pages, area pages, project pages and articles"),
         li("your Google Business Profile and the map results for “interior designer near me”"),

@@ -38,11 +38,11 @@ export const handymanWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla złotej rączki i męża na godzinę | Bandziuk",
     metaDescription:
-      "Strona dla złotej rączki: cennik drobnych napraw z cenami „od”, formularz ze zdjęciami usterki, obszar dojazdu, OC i opinie. Projekt w cenie, od 3000 zł.",
+      "Strona dla złotej rączki: cennik drobnych napraw z cenami „od”, formularz ze zdjęciami usterki, obszar dojazdu, odpowiedzi AI. Projekt w cenie, od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Dla firm jednoosobowych"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Dla firm jednoosobowych"],
   heroPhonePoints: ["Zadzwoń · SMS", "Wyślij zdjęcie usterki", "Ceny „od” przy usługach", "OC · Faktura"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla złotej rączki, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -206,6 +206,7 @@ export const handymanWebsiteDesignPl = {
           ["Gdzie trafiają zdjęcia z formularza?", "Na Twój e-mail i telefon, SMS-em albo na WhatsApp. Widzisz usterkę, zanim oddzwonisz, więc szybciej wyceniasz albo odmawiasz."],
           ["Czy sam mogę zmieniać ceny i dodawać usługi?", "Tak. Cennik, usługi, zdjęcia i obszar dojazdu edytujesz w prostym panelu, także z telefonu."],
           ["Czy strona pomoże mi pojawić się w Mapach Google?", "Strona jest do tego przygotowana: podstrony napraw, obszar dojazdu, spójne dane i dane strukturalne. Wynik w mapach zależy też od wizytówki i opinii — mogę je skonfigurować i dalej prowadzić."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy współpraca może być zdalna, jeśli działam poza Warszawą?", "Tak. Pracuję zdalnie z Warszawy, po polsku, z firmami z całej Polski. Brief możesz przesłać jako wiadomość głosową, a projekt oglądasz na telefonie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

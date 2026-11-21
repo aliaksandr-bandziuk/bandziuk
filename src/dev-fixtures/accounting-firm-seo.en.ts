@@ -49,7 +49,7 @@ export const accountingFirmSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per client type", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["A page per client type", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["CPA for ecommerce sellers", "Bookkeeping for restaurants", "Fixed monthly fee", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for an accounting firm: site, Google Business Profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -90,7 +90,8 @@ export const accountingFirmSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why most accounting firm websites are invisible in search"),
+        h2("Most accounting firm websites are invisible in search"),
+        p("I do SEO for accounting firms myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Open the search results for «website for accounting firms» and the top of the page is held by two template vendors who build sites for the profession by the hundred. That is the whole explanation. A large part of the industry sits on near-identical templates: the same page structure, the same service list, the same «we provide tax, audit and advisory services to businesses of all sizes». To a search engine those firms are interchangeable, so none of them can outrank another on anything except its own name."),
         p("The second reason is that the pages describe the service and not the client. «Tax planning» is what you do; «tax planning for an S-corp owner paying himself a salary» is what somebody searches. A firm that keeps the first wording competes with every other firm in the country, and a firm that writes the second competes with almost nobody."),
 
@@ -122,7 +123,7 @@ export const accountingFirmSeoEn = {
         p("A bookkeeping practice is not a smaller accounting firm — it sells a recurring operational service, usually to owners who do not want to touch their own books, and the buyer compares on monthly price, software and responsiveness rather than on credentials. Measured demand here is small: «seo for bookkeepers» and «bookkeeper seo» together run about thirty searches a month in English, which is why this is a section rather than a page of its own."),
         p("What differs in the work: the software is the keyword, because owners search «QuickBooks bookkeeper» or «Xero bookkeeper» and not «bookkeeping services»; the monthly price belongs on the page because that is the comparison being made; and a clear statement of what is and is not included prevents most of the bad-fit enquiries."),
 
-        h2("What SEO for accounting firms costs and when it shows results"),
+        h2("SEO for accounting firms: what it costs and when it shows results"),
         p(
           "An audit is €250 and covers the site, the Google Business Profile and what AI assistants currently say about the firm. One-off work — segment pages, pricing, structured data, the local profile — runs €250–800 depending on scope. Ongoing work is €800 a month. First movements are usually visible after about a month and a half; steady growth sits on a three to six month horizon, and anyone promising a position by a date is selling a date rather than a result. The full list is on the ",
           link("pricing page", "/pricing"),
@@ -185,6 +186,7 @@ export const accountingFirmSeoEn = {
           ["Our site is on an industry template. Can you work with it?", "Sometimes. If pages can be added and text edited, yes. If the structure is fixed and changes go through a support ticket, SEO work on it is paying rent, and a site you own is cheaper within the year. I say which case it is before quoting."],
           ["Do you work with bookkeeping practices as well as accounting firms?", "Yes, and the work differs. A bookkeeping buyer compares monthly price, software and responsiveness, so the software is the keyword and the monthly fee belongs on the page. The measured search volume is much smaller, which changes what the work is worth rather than whether it is possible."],
           ["Can you guarantee a position?", "No, and nobody honest can — the ranking is decided by a system neither of us controls. What I can state is what will be changed, in what order, and what we will measure a month and three months in."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Who writes the content?", "I do, and you correct it on the professional facts. Writing about tax and accounting without a practitioner's review is how a site ends up with something confidently wrong on it, and in this field that costs more than a ranking."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

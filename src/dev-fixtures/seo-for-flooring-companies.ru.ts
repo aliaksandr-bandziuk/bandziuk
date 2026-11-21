@@ -39,7 +39,7 @@ export const seoForFlooringCompaniesRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Ламинат, паркет, кварцвинил", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Ламинат, паркет, кварцвинил", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Укладка паркета Алматы", "Цена за м²", "Написать в WhatsApp", "Фото работ"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит компании по укладке полов: сайт, 2GIS и Google Карты, конкуренты", price: 250, currency: "EUR", unit: "one-off" },

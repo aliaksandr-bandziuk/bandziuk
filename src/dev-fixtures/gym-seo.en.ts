@@ -38,7 +38,7 @@ export const gymSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Map pack, classes, memberships", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Map pack, classes, memberships", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Gym near me · Open now", "Beginner boxing class", "7-day trial pass", "Named in AI Overviews"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Gym SEO audit: website, Google Business Profile, local competitors, booking setup and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -99,9 +99,10 @@ export const gymSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I do gym SEO for independent gyms myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Gym SEO is the work that puts your club in front of people nearby when they search for a gym, a class or a trial pass — in Google’s map pack, in the regular results and in AI assistants — and turns those searches into trial sign-ups and memberships. The work is mine from start to finish — I am one SEO consultant who also builds websites — and I take on independent gyms, boutique studios and small groups of clubs. Most members train within a short drive of home or work, so gym SEO is won neighborhood by neighborhood, not nationally."),
 
-        h2("What gym SEO covers: “gym near me”, class searches and membership questions"),
+        h2("Gym SEO covers: “gym near me”, class searches and membership questions"),
         p("“Gym near me” is one of the most searched phrases in fitness, and Google answers it with a map before any website. Around it sits a long tail that says what the person actually wants. I start with search data for your town and your programs, and it usually falls into four groups:"),
         li("type and access — “24 hour gym”, “gym with sauna”, “women’s gym”, “powerlifting gym”"),
         li("classes — “spin class near me”, “kickboxing for beginners”, “hot yoga” plus your town"),

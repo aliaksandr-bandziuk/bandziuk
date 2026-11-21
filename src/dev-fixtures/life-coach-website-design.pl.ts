@@ -36,11 +36,11 @@ export const lifeCoachWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona coacha: nisza, programy i zapisy | Bandziuk",
     metaDescription:
-      "Strona internetowa dla coacha: nisza w pierwszym zdaniu, programy i cennik, sesja zapoznawcza z kalendarza, newsletter zgodny z RODO, kurs online. Od 3000 zł.",
+      "Strona internetowa dla coacha: nisza w pierwszym zdaniu, programy i cennik, sesja zapoznawcza z kalendarza, newsletter zgodny z RODO, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Zapisy, newsletter, kursy"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Zapisy, newsletter, kursy"],
   heroPhonePoints: ["Coaching kariery dla menedżerów", "Program 10 sesji", "Bezpłatny test kompetencji", "Umów sesję zapoznawczą"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla coacha, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -184,6 +184,7 @@ export const lifeCoachWebsiteDesignPl = {
           ["Czy mogę sprzedawać kurs na własnej stronie zamiast na platformie?", "Tak. Płatność BLIK-iem, przez Przelewy24 lub kartą, a każdy kupujący dostaje osobisty link do wideo, który wygasa po ustalonym czasie i nie pozwala pobrać filmu. Przy dużej bibliotece kursów lekcje może trzymać platforma, a strona je sprzedaje."],
           ["Czy pomożesz z tekstami na stronę?", "Tak. Piszę teksty na podstawie krótkiej rozmowy o niszy i programach, a Ty zatwierdzasz każdą podstronę. Opinie pochodzą wyłącznie od Twoich klientów i są publikowane za ich zgodą."],
           ["Czy współpraca może przebiegać w całości zdalnie?", "Tak. Pracuję z Warszawy, a cały projekt prowadzimy przez rozmowy wideo, maila i WhatsApp — tak samo jak sesje online z Twoimi klientami. Po zakończeniu dostajesz fakturę od mojej jednoosobowej firmy."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy strona może mieć wersję angielską?", "Tak. Jeśli prowadzisz sesje po angielsku albo pracujesz z Polakami za granicą, druga wersja językowa ma własne adresy podstron i godziny sesji w strefie czasowej klienta."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

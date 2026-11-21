@@ -39,11 +39,11 @@ export const courierSeoEn = {
   seo: {
     metaTitle: "Courier SEO — audit from €250",
     metaDescription:
-      "SEO for courier and same-day delivery companies: route pages, cargo types, cut-off times, worked price examples instead of a quote form. Audit €250.",
+      "SEO for courier and same-day delivery companies: route pages, cargo types, cut-off times, worked price examples instead of a quote form, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Pages per route you run", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Pages per route you run", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Route and deadline searches", "Cargo types you actually carry", "Cut-off times published", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a courier company: site, route and service pages, AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -85,6 +85,7 @@ export const courierSeoEn = {
       layout: "guide",
       content: [
         h2("Which delivery businesses this page is for, and where the neighbours are covered"),
+        p("I do SEO for courier and delivery companies myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("This page is about courier work: parcels, documents, pallets and time-critical consignments, moved same day or next day, for businesses and for people who need something somewhere by a deadline."),
         p(
           "If you move households and offices, the purchase is entirely different — it is planned, priced per volume and sold on trust rather than speed — and that is ",
@@ -173,6 +174,7 @@ export const courierSeoEn = {
           ["Is the Google profile important for courier work?", "For local and same-day work, yes, and especially the phone number and hours — a sender in a hurry calls from the map result without visiting the site. For contract work it matters less, but an inconsistent profile is noticed by anyone checking you."],
           ["We mostly want contract work. Will this help?", "Partly, and I would rather be plain about it. Contract work is awarded by operations and procurement people who run a process, and search reaches them mainly when they are checking a firm they already heard about. The ad-hoc and route searches are where search produces actual enquiries, and they also tend to be the better-margin work."],
           ["How long before it brings jobs?", "First movement after about a month and a half, growth on a three to six month horizon. Route pages tend to start producing enquiries before they rank well, because the few people searching that route have nothing else to read."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Who writes the route pages?", "I draft them and your operations people correct them. The value is in the specifics — the real transit time, the real cut-off, what goes wrong at a particular border — and a sender can tell within a sentence whether somebody who dispatches vans wrote it."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

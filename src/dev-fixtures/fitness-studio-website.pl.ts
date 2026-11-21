@@ -40,11 +40,11 @@ export const fitnessStudioWebsitePl = {
   seo: {
     metaTitle: "Strona dla klubu fitness: projekt i wykonanie | Bandziuk",
     metaDescription:
-      "Strona internetowa dla siłowni i studia fitness: grafik z systemu klubowego, cennik z MultiSport, zakup online, trening próbny, instruktorzy. Od 3000 zł.",
+      "Strona internetowa dla siłowni i studia fitness: grafik z systemu klubowego, cennik z MultiSport, zakup online, trening próbny, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt i wykonanie w jednej cenie", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt i wykonanie w jednej cenie", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dziś 18:00 · pilates", "Kup karnet online", "Karty sportowe — zasady", "Trening próbny"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla siłowni lub studia fitness, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -189,6 +189,7 @@ export const fitnessStudioWebsitePl = {
           ["Czy klient kupi karnet na stronie i zapłaci BLIK-iem?", "Tak, jeśli Twój system klubowy sprzedaje karnety online: strona prowadzi do jego modułu sprzedaży, a BLIK obsługuje system lub jego operator płatności. Bez sprzedaży online przycisk otwiera krótki formularz do recepcji."],
           ["Czy sami zmienimy ceny, zajęcia i instruktorów?", "Tak, w panelu na WordPressie albo w Sanity, bez ruszania projektu. Grafik aktualizuje się sam z systemu klubowego."],
           ["Po co strona, skoro mamy fanpage na Facebooku i aplikację klubu?", "Aplikacja służy tym, którzy już są klubowiczami, a fanpage pokazuje bieżące posty. Na stronie nowa osoba porównuje karnety, sprawdza karty sportowe i zapisuje się na trening próbny — zanim cokolwiek zainstaluje."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy robisz strony dla klubów spoza Warszawy?", "Tak. Projekt od briefu do startu prowadzę zdalnie, więc miasto nie ma znaczenia. Pracujemy po polsku, a jeśli klub ma klubowiczów z zagranicy, mogę przygotować też wersję angielską."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

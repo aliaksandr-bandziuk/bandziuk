@@ -41,11 +41,11 @@ export const artistWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Artists and Painters | Bandziuk",
     metaDescription:
-      "Artist website design and build: fast portfolio, artwork pages with medium, size and price, series, CV and exhibitions, commissions and prints. From 700 €.",
+      "Artist website design and build: fast portfolio, artwork pages with medium, size and price, series, CV and exhibitions, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design and build in one price", "From 700 €", "Large images, short load times"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Large images, short load times"],
   heroPhonePoints: ["Tidewater series, 2026", "Oil on linen · 36 × 48 in", "Available · Enquire", "Signed prints from the studio"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple artist portfolio website with design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -207,7 +207,7 @@ export const artistWebsiteDesignEn = {
           ["Can someone steal my images from the site?", "Anything visible on a screen can be copied, so the site publishes web-size images only, never print files, with your name and copyright in the metadata and under each work. That keeps the value of anything copied low."],
           ["Why have my own site when a gallery represents me?", "Yes, as a record of your whole practice. Gallery pages show only the works they hold; your site shows every series, your CV and contact, and links collectors to the gallery for the works it represents."],
           ["How does a US artist work with a designer in Poland?", "Online and in English. 3 p.m. in Warsaw is 9 a.m. in New York and 6 a.m. in Los Angeles, so we meet in your morning and my afternoon or early evening. Design comments go straight onto the mockups. There is a written contract, and invoices are in EUR."],
-          ["Will my artwork show up in ChatGPT answers?", "I build the site so AI assistants have facts to read: artist details as text plus structured data for works and exhibitions. Being recommended for particular searches needs ongoing SEO and GEO work; I offer that separately."],
+          ["Will my artwork show up in ChatGPT, Perplexity and Gemini answers?", "I build the site so AI assistants have facts to read: artist details as text plus structured data for works and exhibitions. Being recommended for particular searches needs ongoing SEO and GEO work; I offer that separately."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

@@ -37,11 +37,11 @@ export const authorWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona autora książek: projekt i wykonanie | Bandziuk",
     metaDescription:
-      "Strona internetowa dla pisarza: podstrony książek z linkami do księgarni, kolejność tomów, newsletter, egzemplarze z autografem i spotkania. Od 3000 zł.",
+      "Strona internetowa dla pisarza: podstrony książek z linkami do księgarni, kolejność tomów, newsletter, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt graficzny w cenie", "Od 3000 zł", "Dla debiutantów i autorów cykli"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Dla debiutantów i autorów cykli"],
   heroPhonePoints: ["Tom 3 — przedsprzedaż", "Od czego zacząć cykl", "Egzemplarz z autografem", "Spotkanie: MBP Lublin, 14.11"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla pisarza, projekt graficzny w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -203,7 +203,7 @@ export const authorWebsiteDesignPl = {
           ["Jedna strona na kilka pseudonimów czy osobne?", "Zwykle jedna strona z osobnym działem dla każdego pseudonimu, bo łatwiej ją prowadzić. Osobne strony mają sens, gdy odbiorcy nie powinni się spotkać, na przykład przy książkach dla dzieci i powieściach dla dorosłych."],
           ["Czy mogę sprzedawać e-booki bezpośrednio ze strony?", "Tak. Płatność przez Przelewy24 albo Stripe, a plik trafia do czytelnika automatycznie po zaksięgowaniu wpłaty. Ten sam mechanizm automatycznej wysyłki po płatności działa w sprzedaży kursu wideo salonu Landi Room."],
           ["Czy pracujesz z autorami spoza Warszawy?", "Tak, z całej Polski i z autorami polonijnymi. Całą współpracę prowadzimy zdalnie: rozmowy online, uwagi wpisujesz bezpośrednio na makietach, a gotową stronę uruchamiam na hostingu zapisanym na Ciebie. Umowa i faktura są standardowe."],
-          ["Czy moje książki pojawią się w odpowiedziach ChatGPT?", "Strona daje asystentom AI to, czego potrzebują: fakty o autorze i książkach zapisane tekstem i dane strukturalne. Obecność w odpowiedziach na konkretne pytania to już osobna, stała praca nad pozycjonowaniem w AI — też ją wykonuję."],
+          ["Czy moje książki pojawią się w odpowiedziach ChatGPT, Perplexity i Gemini?", "Strona daje asystentom AI to, czego potrzebują: fakty o autorze i książkach zapisane tekstem i dane strukturalne. Obecność w odpowiedziach na konkretne pytania to już osobna, stała praca nad pozycjonowaniem w AI — też ją wykonuję."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
     },

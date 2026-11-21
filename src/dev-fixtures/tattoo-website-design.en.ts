@@ -46,11 +46,11 @@ export const tattooWebsiteDesignEn = {
   seo: {
     metaTitle: "Tattoo Shop Website with Booking and Deposits | Bandziuk",
     metaDescription:
-      "Tattoo website design: portfolio by style and artist, guest spots, booking requests with references, online deposits, aftercare, fast galleries. From 700 €.",
+      "Tattoo website design: portfolio by style and artist, guest spots, booking requests with references, online deposits, aftercare, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Deposits paid online"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Deposits paid online"],
   heroPhonePoints: ["Request a tattoo", "Fine line · Blackwork · Japanese", "Pay your deposit", "Guest artist dates"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple tattoo studio or tattoo artist website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -110,6 +110,7 @@ export const tattooWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for tattoo studios myself: structure, design, build and launch, with no handover between people."),
         p("Tattoo website design is my service for tattoo studios and independent artists who want their work, their artists and their booking rules on a site they own, not only in an Instagram grid. I plan, design and build it myself, at a price fixed before work starts, and at launch the studio manager gets an admin panel for new work and dates. A good tattoo shop website does three jobs: it shows a stranger enough of the right work to trust you, it filters out requests your artists would turn down, and it turns a serious request into a paid deposit and a date."),
 
         h2("Does a tattoo shop need a website when Instagram already shows the work?"),
@@ -212,6 +213,7 @@ export const tattooWebsiteDesignEn = {
           ["Should the portfolio pull posts from Instagram automatically?", "Not for the main gallery: an embedded feed is slow, unsorted and breaks whenever the platform changes its rules. Artists pick their best posts and add them with a style tag, and each artist page links to their Instagram."],
           ["Can guest artists get a page for just a few days?", "Yes. A guest page goes live before the visit with the dates and booking rules, flash sheets can be added, and after the visit the page stays as an archive or points to the artists page."],
           ["How long does it take to build a tattoo website?", "A simple studio or artist site usually takes two to three weeks. A full site with deposits and calendars takes longer, and the timing depends mostly on how quickly portfolio photos and policies are ready."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data. The same work for the answer shown in search itself is answer engine optimization (AEO)."],
           ["Do you build websites for US tattoo shops from Poland?", "Yes. The whole project runs online and in English. My working day in Warsaw continues into your morning, so video calls land before the studio opens its doors, and feedback on the design is left as written notes on the mockups. Invoices are issued in EUR or, if we agree, in another currency."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

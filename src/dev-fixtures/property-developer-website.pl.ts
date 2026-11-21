@@ -51,11 +51,11 @@ export const propertyDeveloperWebsitePl = {
   seo: {
     metaTitle: "Strona dla dewelopera — zakres, cena i termin budowy",
     metaDescription:
-      "Tworzenie strony dla dewelopera: katalog inwestycji i mieszkań, szachownica, plany, postęp budowy, połączenie z CRM i wersje językowe. Od 10 000 zł.",
+      "Tworzenie strony dla dewelopera: katalog inwestycji i mieszkań, szachownica, plany, postęp budowy, odpowiedzi AI. Od 10 000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Szachownica dla każdego budynku", "Strony od 10 000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Szachownica dla każdego budynku", "Strony od 10 000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Budynek B, 7 piętro", "Odbiór III kw. 2027", "Harmonogram płatności", "Zarezerwuj mieszkanie"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Podstawowa strona katalogowa dewelopera: inwestycje, mieszkania, formularze zapytań", price: 10000, currency: "PLN", unit: "one-off" },
@@ -71,7 +71,7 @@ export const propertyDeveloperWebsitePl = {
       items: [
         { _key: k("o"), iconName: "layers", title: "Podstrona na każdą inwestycję", text: "Lokalizacja, termin odbioru, typy mieszkań, ceny albo widełki" },
         { _key: k("o"), iconName: "grid", title: "Szachownica dla każdego budynku", text: "Sprzedane mieszkania oznaczone, a nie cicho usunięte" },
-        { _key: k("o"), iconName: "file-text", title: "Plany otwierające się na telefonie", text: "Powierzchnie w metrach, czytelne bez rozciągania" },
+        { _key: k("o"), iconName: "sparkles", title: "Obecność w ChatGPT i odpowiedziach AI", text: "Mieszkania, etapy i ceny, które asystent zacytuje" },
         { _key: k("o"), iconName: "camera", title: "Postęp budowy z datami", text: "Udokumentowany, a nie obiecany" },
         { _key: k("o"), iconName: "plug", title: "Podłączenie zapytań do CRM per inwestycja", text: "Zapytanie dociera do tych, którzy sprzedają ten budynek" },
         { _key: k("o"), iconName: "globe", title: "Języki, w których szukają Wasi kupujący", text: "Z własnym doborem fraz, a nie tłumaczeniem istniejącej" },
@@ -96,11 +96,12 @@ export const propertyDeveloperWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego strona dewelopera sprzedaje to, czego kupujący jeszcze nie może zobaczyć"),
+        h2("Strona dewelopera sprzedaje to, czego kupujący jeszcze nie może zobaczyć"),
+        p("Buduję strony dla firm deweloperskich sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Deweloper sprzedaje budynek, którego nie ma. Nie da się po nim przejść ani go dotknąć, a na placu często nie ma nic poza ogrodzeniem i tablicą. Wszystko, na czym kupujący buduje decyzję, musi przenieść strona — i to czyni z niej inne narzędzie niż strona agencji: nie katalog tego, co jest w sprzedaży, a zamiennik fizycznego obiektu."),
         p("To zmienia jej zawartość. Plany i wizualizacje są łatwą częścią. O zapytaniu decyduje materiał, od którego niewybudowana nieruchomość staje się prawdziwa i bezpieczna: postęp budowy z datami, pozwolenia i prawna konstrukcja zakupu, harmonogram płatności oraz to, kto dokładnie stoi za firmą."),
 
-        h2("Co kupujący mieszkania z rynku pierwotnego sprawdza na stronie dewelopera"),
+        h2("Strona dewelopera dla kupujących z rynku pierwotnego: co sprawdzają"),
         p("Ktoś, kto kupuje przed odbiorem, zarządza ryzykiem, a nie wybiera układ kuchni. Patrzy, co zostało już oddane, czy poprzednie inwestycje skończono w terminie, czy postęp jest udokumentowany, a nie obiecany, i czy warunki transakcji są zapisane przed rozmową."),
         p("Strona, która na te pytania odpowiada, traci mniej kupujących w momencie wahania. Strona pokazująca wyłącznie wizualizacje zostawia pytanie otwarte, a otwarte pytanie przy takiej kwocie zwykle kończy wizytę."),
 
@@ -115,14 +116,14 @@ export const propertyDeveloperWebsitePl = {
 
         h2("Plany, wizualizacje i postęp budowy: co gdzie ma stać"),
         p("Wizualizacje sprzedają ideę, plany sprzedają mieszkanie, zdjęcia z budowy sprzedają firmę. Zmieszane w jedną galerię nie działa żadne z trzech."),
-        h3("Co ma robić każde z nich"),
+        h3("Każda podstrona strony dewelopera: jej zadanie"),
         li("plany: otwierają się w pełnym rozmiarze na telefonie, powierzchnie pomieszczeń w metrach, zaznaczona orientacja, do pobrania;"),
         li("wizualizacje: podpisane jako wizualizacje, z widokiem i piętrem, z którego zostały zrobione;"),
         li("postęp budowy: z datami, po kolei, za każdym razem z tych samych punktów — żeby kupujący widział ruch, a nie nastrój;"),
         li("oddana poprzednia inwestycja: najmocniejsza podstrona na stronie i zwykle ta, której nikt nie robi."),
         p("To również materiał, który się starzeje — więc zmieniać go ma ten, kto jest na budowie, a nie ten, kto robił stronę."),
 
-        h2("Dlaczego strona dewelopera potrzebuje ruchu przed startem sprzedaży, a nie po nim"),
+        h2("Strona dewelopera potrzebuje ruchu przed startem sprzedaży, a nie po nim"),
         p("Widoczność w wyszukiwarce narasta miesiącami. Okno sprzedaży dewelopera wyznacza harmonogram budowy, więc strona, która zaczyna zdobywać ruch organiczny na starcie, przegapiła już tę część cyklu, w której zapytania są najważniejsze."),
         p(
           "Pracę trzeba zaczynać, kiedy inwestycja jest jeszcze w pozwoleniach: podstrony, struktura i widoczność budowane przed fazą sprzedaży, a nie razem z nią. ",
@@ -157,7 +158,7 @@ export const propertyDeveloperWebsitePl = {
         p("Podstawowa strona katalogowa to trzy do sześciu tygodni. Szachownica, połączenie z CRM i każda dodatkowa wersja językowa wydłużają termin, a ja podaję go przed startem, nie w trakcie. Pełna platforma liczona jest z własnym terminem, bo rozstrzyga o nim funkcjonalność."),
         p("Budowę wydłuża tu nie kod, a materiał: plany w nadającej się postaci, lista mieszkań z aktualnymi statusami, zdjęcia z budowy i odpowiedź, kto po Waszej stronie będzie to utrzymywać po uruchomieniu."),
 
-        h2("Co zostaje u Was po uruchomieniu"),
+        h2("Po uruchomieniu: co zostaje u Was"),
         li("kod, domena, treści i dostępy do panelu są Wasze od pierwszego dnia;"),
         li("szachownicę zmienia dział sprzedaży, a nie tylko programista;"),
         li("strona nie stoi na moim hostingu, eksporty nie są zablokowane;"),
@@ -209,6 +210,7 @@ export const propertyDeveloperWebsitePl = {
           ["Jesteśmy jeszcze w pozwoleniach. Czy nie za wcześnie na stronę", "To właściwy moment. Widoczność narasta miesiącami, a okno sprzedaży wyznacza harmonogram budowy: strona uruchamiana razem ze sprzedażą przegapiła już tę część cyklu, w której zapytania są najważniejsze."],
           ["Pracujecie z deweloperami poza Polską", "Tak. Mieszkania na etapie budowy kupuje się z zagranicy częściej niż gotowe, a strony wielojęzyczne to trzon takiej pracy; ta strona sama działa w trzech językach."],
           ["Budujemy dla zleceniodawców, a nie sprzedajemy własnych mieszkań. Ta strona jest dla nas", "Nie, to wykonawca, a nie deweloper, i praca wygląda inaczej — zobaczcie podstronę o stronie dla firmy budowlanej."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Do kogo należy strona po uruchomieniu", "Do Was: kod, domena, treści, dostępy do panelu i dane mieszkań w przenaszalnej postaci. Strona nie stoi na moim hostingu, eksporty nie są zablokowane, a projekt można w każdej chwili przekazać innemu programiście."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

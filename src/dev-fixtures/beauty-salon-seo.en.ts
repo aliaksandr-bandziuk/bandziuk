@@ -46,7 +46,7 @@ export const beautySalonSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per treatment", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["A page per treatment", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Lash lift near me", "Balayage on dark hair", "Open Saturday evening", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a beauty salon: site, Google Business Profile and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -88,6 +88,7 @@ export const beautySalonSeoEn = {
       layout: "guide",
       content: [
         h2("How clients actually search for a salon, and why it decides the page structure"),
+        p("I do SEO for beauty salons myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Beauty searches are almost never generic. Nobody looks for «beauty services»; they look for one treatment, in one place, often for one evening. That single fact decides everything about how the site should be built."),
         p("Two groups carry the demand. Treatment plus location: «balayage <city>», «lash lift <district>», «laser hair removal <city>», «gel manicure near the office». And the «near me» group: «nail salon near me», «beauty salon open now», «brow bar near me». The second group is where local SEO lives, because the client has already decided what they want and is choosing only by distance and availability."),
         p("A site built around one «Services» page cannot answer either group. A site built around treatments answers both, and the same structure is what an AI assistant can read later."),
@@ -105,7 +106,7 @@ export const beautySalonSeoEn = {
         p("«Prices on request» costs a salon more bookings than a high price does. The client is choosing between three salons on a phone, and the one that states the number gets the message."),
         p("A price list as an image or a story screenshot does not work either: neither search engines nor AI assistants read text inside pictures, so it is invisible to exactly the channels this page is about. A range with what moves it — length and density of hair, condition of nails, the specialist's level — works better than a single number and loses fewer people."),
 
-        h2("Why most salon websites do not rank, in order of frequency"),
+        h2("Most salon websites do not rank, in order of frequency"),
         li("two lines of text per treatment, which is nothing to rank with;"),
         li("no location signals at all beyond an address in the footer;"),
         li("the price list only as an image;"),
@@ -128,7 +129,7 @@ export const beautySalonSeoEn = {
         p("First movement appears in about six weeks: treatment pages that did not exist get indexed and start collecting impressions on long-tail searches. Steady growth in bookings builds over three to six months as the pages accumulate authority and the profile work compounds."),
         p("The map pack can move faster than that — sometimes within weeks — because the profile is a smaller object than a website. Anyone promising bookings in two weeks is promising something they do not control."),
 
-        h2("What SEO for a beauty salon costs and what is included"),
+        h2("SEO for a beauty salon: what it costs and what is included"),
         p(
           "An audit of the site, the Google Business Profile and the AI answers is €250. One-off work — treatment pages, prices, structured data, the booking path — runs €250–800 depending on scope. Ongoing SEO is €800 a month and includes the technical work, the content plan, new pages and the reporting. The full price list is on the ",
           link("pricing page", "/pricing"),
@@ -166,7 +167,7 @@ export const beautySalonSeoEn = {
         h2("Beauty salons in AI search: what GEO and AEO mean and how they are done"),
         p("More clients now ask an assistant before they open a booking app: «which salon near me does a lash lift after 7 pm», «who does balayage on dark hair without it turning orange, and for how much», «is there a salon in my district with laser and online booking». The assistant answers from text it can read and restate, and it names the places it found."),
         p("Two acronyms describe the work. GEO, generative engine optimization, is getting your salon picked up and named when an assistant assembles a recommendation. AEO, answer engine optimization, is having a sentence on your site that the assistant can repeat almost word for word."),
-        h3("What an assistant actually needs to find"),
+        h3("An assistant reading your salon pages: what it needs to find"),
         li("every treatment as text: duration, a price or a «from» price, the technique, and which specialist offers it;"),
         li("BeautySalon, HairSalon or NailSalon markup with address, opening hours and services, so the hours an assistant repeats are the ones on your door;"),
         li("Service markup with a price for each treatment, so nothing has to be guessed about what «facial» includes;"),

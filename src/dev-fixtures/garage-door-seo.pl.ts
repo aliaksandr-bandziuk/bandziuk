@@ -41,7 +41,7 @@ export const garageDoorSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Bramy, napędy, serwis", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Bramy, napędy, serwis", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Brama segmentowa z montażem", "Napęd do bramy wjazdowej", "Serwis bram i napędów", "Bezpłatny pomiar"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy bram garażowych: strona, wizytówka Google, konkurencja, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -195,6 +195,7 @@ export const garageDoorSeoPl = {
           ["Czy link z lokalizatora dealerów producenta pomaga w SEO?", "Tak, to mocny link lokalny. Sprawdźcie, czy wpis ma aktualną nazwę i prowadzi na podstronę danego producenta, a nie tylko na stronę główną."],
           ["Co jest lepsze: pozycjonowanie czy Google Ads?", "Reklama daje zapytania od razu, ale płaci się za każde kliknięcie. Pozycjonowanie rozkręca się miesiącami, za to podstrony bram i realizacji przynoszą zapytania bez opłaty za kliknięcie. Kampanie może dalej prowadzić osoba, która już się nimi zajmuje; moja część to SEO, które z czasem zmniejsza zależność od płatnych kliknięć."],
           ["Kiedy zacząć pozycjonowanie przed sezonem?", "Jesienią albo zimą. Nowe podstrony potrzebują zwykle dwóch–czterech miesięcy, a inwestorzy szukają bram wiosną i latem."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pracujesz z firmami spoza Warszawy?", "Pracuję sam i zdalnie, z firmami z całej Polski: strona, wizytówka i dane wyszukiwań dla miejscowości, w których montujecie."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

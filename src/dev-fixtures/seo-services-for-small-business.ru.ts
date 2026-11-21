@@ -41,7 +41,7 @@ export const seoServicesForSmallBusinessRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Один специалист вместо агентства", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Один специалист вместо агентства", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Барбершоп Алматы рядом", "Написать в WhatsApp", "Ваш сайт в Google", "Советует ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит малого бизнеса: сайт, 2GIS и Google Карты, конкуренты", price: 250, currency: "EUR", unit: "one-off" },

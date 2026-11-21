@@ -45,7 +45,7 @@ export const pozycjonowanieStronKatowicePl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista od audytu do wdrożenia", "Audyt od 1000 zł", "Katowice i cała metropolia"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Katowice i cała metropolia"],
   heroPhonePoints: ["Fizjoterapeuta Katowice Ligota", "Wasza firma w Mapach Google", "Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Katowic: strona, wizytówka Google, konkurencja w metropolii", price: 1000, currency: "PLN", unit: "one-off" },
@@ -219,6 +219,7 @@ export const pozycjonowanieStronKatowicePl = {
           ["Jak samemu pozycjonować stronę?", "Zacznijcie od osobnej podstrony dla każdej usługi z miastem w tytule, uzupełnionej wizytówki Google, opinii klientów i Google Search Console. Zmiany techniczne i strukturę strony warto zlecić."],
           ["Agencja SEO w Katowicach czy specjalista — kogo wybrać?", "Agencja ma sens, gdy razem z SEO chcecie kupić kampanie i media społecznościowe. Specjalista, który sam robi audyt i wdrożenie, sprawdza się, gdy chodzi tylko o widoczność w Google i AI, a budżet ma iść na pracę, nie na opiekuna klienta."],
           ["Czy pozycjonujesz wizytówkę w Mapach Google w Katowicach?", "Tak. Porządkuję kategorie, usługi, zdjęcia i dane firmy, łączę wizytówkę z właściwą podstroną i pomagam zbierać opinie. To często najszybsze źródło telefonów od klientów z Waszej dzielnicy."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy da się współpracować, skoro pracujesz z Warszawy?", "Tak. Z firmami z Katowic pracuję online: rozmowa wideo, wspólny dokument z zadaniami i dostęp do danych strony. Do pozycjonowania nie są potrzebne spotkania na miejscu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

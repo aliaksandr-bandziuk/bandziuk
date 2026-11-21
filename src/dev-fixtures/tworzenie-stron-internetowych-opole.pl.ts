@@ -37,11 +37,11 @@ export const tworzenieStronInternetowychOpolePl = {
   seo: {
     metaTitle: "Strony www Opole: projekt i wykonanie od 3000 zł",
     metaDescription:
-      "Strony www dla firm z Opola i regionu: wersja polska i niemiecka, projekt graficzny w cenie, formularz RODO, panel do edycji, bez abonamentu. Od 3000 zł.",
+      "Strony www dla firm z Opola i regionu: wersja polska i niemiecka, projekt graficzny w cenie, formularz RODO, panel do edycji, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt w cenie", "Od 3000 zł", "Wersja polska i niemiecka"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersja polska i niemiecka"],
   heroPhonePoints: ["Remonty Opole i okolice", "Realizacje", "Deutsch", "Zapytaj o wycenę"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Opola, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -207,6 +207,7 @@ export const tworzenieStronInternetowychOpolePl = {
           ["Czy można zacząć od prostej strony i rozbudować ją później?", "Tak. Struktura jest od początku przygotowana na kolejne podstrony i drugą wersję językową, więc rozbudowa nie wymaga budowania strony od nowa."],
           ["Czy strona będzie przygotowana pod Google?", "Tak. Każda podstrona dostaje własny tytuł i opis, strona ma dane strukturalne firmy, szybko działa na telefonie i jest zgłoszona w Search Console. Stała praca nad pozycjami w Opolu i regionie to osobna usługa."],
           ["Do kogo należy strona?", "Wszystko jest zarejestrowane na firmę: domena, hosting, kod i treści. Jeśli kiedyś zechcecie zmienić wykonawcę, przenosicie stronę bez żadnych opłat na moją rzecz."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy pracujesz z firmami z Opola zdalnie?", "Tak, i to standard: pracuję z Warszawy, a firmy z Opola i regionu widzą postęp na bieżąco — w dokumencie z ustaleniami i w podglądzie strony, a sprawy omawiamy na krótkich rozmowach wideo."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

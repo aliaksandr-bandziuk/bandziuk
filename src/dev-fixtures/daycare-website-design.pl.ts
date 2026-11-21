@@ -46,11 +46,11 @@ export const daycareWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla przedszkola i żłobka: zapisy i cennik",
     metaDescription:
-      "Strona internetowa dla przedszkola i żłobka: grupy i plan dnia, czesne i wolne miejsca, dni otwarte i lista oczekujących, kadra. Projekt w cenie, od 3000 zł.",
+      "Strona internetowa dla przedszkola i żłobka: grupy i plan dnia, czesne i wolne miejsca, odpowiedzi AI. Projekt w cenie, od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Zapisz się na dzień otwarty", "Maluchy · Średniaki · Starszaki", "Wolne miejsca od września", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla przedszkola lub żłobka, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -211,6 +211,7 @@ export const daycareWebsiteDesignPl = {
           ["Czy rodzice mogą zgłosić dziecko i zapłacić wpisowe online?", "Mogą zapisać się na listę oczekujących i od razu zapłacić wpisowe BLIK-iem lub kartą, z automatycznym potwierdzeniem. Umowę i kartę zgłoszenia z danymi dziecka podpisujecie już poza stroną."],
           ["Czy możemy publikować zdjęcia dzieci na stronie przedszkola?", "Tylko dzieci, których rodzice zgodzili się na publikację wizerunku. Nawet wtedy bezpieczniej pokazywać sale, ogród i dzieci od tyłu, bez imion przy zdjęciach."],
           ["Czy dyrekcja sama zmieni jadłospis, wolne miejsca i kadrę?", "Tak. Wolne miejsca w grupach, jadłospis, cennik i profile kadry zmieniacie w prostym panelu, także z telefonu."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Czy pracujesz z przedszkolami spoza Warszawy?", "Tak, z placówkami z całej Polski. Pracuję zdalnie: rozmawiamy przez telefon lub wideo, kolejne etapy akceptujecie online, a rozliczenie jest na fakturę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

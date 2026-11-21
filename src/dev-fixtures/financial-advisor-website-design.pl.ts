@@ -36,11 +36,11 @@ export const financialAdvisorWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla doradcy finansowego od 3000 zł | Bandziuk",
     metaDescription:
-      "Strona internetowa dla doradcy finansowego: uprawnienia i rejestry KNF, współpraca z bankami, grupy klientów, formularz RODO, kalendarz. Od 3000 zł.",
+      "Strona internetowa dla doradcy finansowego: uprawnienia i rejestry KNF, współpraca z bankami, grupy klientów, formularz RODO, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Strona i domena należą do Ciebie"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Strona i domena należą do Ciebie"],
   heroPhonePoints: ["Kredyt na mieszkanie", "Z kim współpracuję", "Umów rozmowę", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla doradcy finansowego, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -101,6 +101,7 @@ export const financialAdvisorWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla doradców finansowych buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla doradców finansowych — strukturę, projekt graficzny, wykonanie, teksty i uruchomienie — więc za całość odpowiada jedna osoba, a cena jest znana z góry. Ktoś, kto szuka doradcy, ma przed sobą kredyt na trzydzieści lat, oszczędności całego życia albo finanse własnej firmy. Zanim zadzwoni, chce wiedzieć trzy rzeczy: kim jesteś, z kim współpracujesz i czy zajmujesz się sprawami takimi jak jego. Strona odpowiada na te pytania, zanim padną."),
 
         h2("Strona internetowa dla doradcy finansowego: co klient sprawdza na pierwszym ekranie"),
@@ -208,6 +209,7 @@ export const financialAdvisorWebsiteDesignPl = {
           ["Mam podstronę w sieci pośrednictwa. Po co mi własna strona?", "Podstrona w sieci należy do sieci i znika, gdy ją zmieniasz. Własna strona buduje Twoją markę, pozwala opisać Twoje grupy klientów i zostaje z Tobą. Projekt uwzględnia zasady używania nazwy i logo sieci, jeśli umowa je określa."],
           ["Czy formularz na stronie doradcy musi być zgodny z RODO?", "Tak, bo zbiera dane osobowe. Formularz pyta tylko o kontakt i temat, prosi, żeby nie wpisywać PESEL ani danych o dochodach, ma klauzulę informacyjną, a zgłoszenie trafia tylko na Twoją skrzynkę lub do CRM."],
           ["Ile trwa stworzenie strony dla doradcy finansowego?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna z podstronami grup klientów od czterech do sześciu. Najwięcej zależy od tego, jak szybko gotowe są zdjęcia i uwagi do tekstów."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Czy robisz strony dla doradców spoza Warszawy?", "Tak, dla doradców z całej Polski. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku, a rozmowy odbywają się online."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

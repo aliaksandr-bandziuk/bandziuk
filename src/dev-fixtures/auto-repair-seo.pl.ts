@@ -38,7 +38,7 @@ export const autoRepairSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podstrona pod każdą naprawę", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Podstrona pod każdą naprawę", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Wymiana sprzęgła Octavia", "Naprawa skrzyni w pobliżu", "Diagnostyka na już", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO warsztatu samochodowego: strona, wizytówka Google i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -79,7 +79,8 @@ export const autoRepairSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego zapytania do warsztatu wyglądają inaczej niż w innych usługach"),
+        h2("Zapytania do warsztatu wyglądają inaczej niż w innych usługach"),
+        p("Zajmuję się pozycjonowaniem stron warsztatów samochodowych i serwisów sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Klient warsztatu prawie nigdy nie wybiera spokojnie. Auto albo już stoi, albo zaczęło wydawać dźwięk, z którym strach jechać dalej. Dlatego zapytanie jest pilne i bardzo konkretne: nie „naprawa samochodu”, tylko marka plus podzespół plus objaw — „wymiana sprzęgła Octavia”, „stuka zawieszenie Focus”, „błąd P0171 co to znaczy”."),
         p("Wynikają z tego dwie rzeczy, które zmieniają całą pracę. Po pierwsze, nikt nie będzie czytał Waszej strony: otworzy dwie, trzy karty i zadzwoni tam, gdzie szybciej znalazł odpowiedź. Po drugie, jedna podstrona „usługi” nie odpowiada na żadne z tych zapytań, więc się w nich nie pojawia."),
         p("Jest też druga grupa, zupełnie niepodobna do pierwszej: przeglądy, przygotowanie auta do sprzedaży, diagnostyka przed zakupem. Ci szukają wcześniej, porównują i czytają. Jeden tekst napisany „uniwersalnie” zwykle traci obie grupy."),

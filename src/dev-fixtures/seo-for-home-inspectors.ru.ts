@@ -38,7 +38,7 @@ export const seoForHomeInspectorsRu = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Приёмка квартир и домов", "Аудит от 250 €", "Ответ за 1 рабочий день"],
+  heroChips: ["Приёмка квартир и домов", "Аудит от 250 €", "Видимость в ChatGPT и ИИ"],
   heroPhonePoints: ["Приёмка квартиры Астана", "Написать в WhatsApp", "Пример акта осмотра", "Цена за м²"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO-аудит сайта приёмки квартир: сайт, 2GIS и Google Карты, конкуренты", price: 250, currency: "EUR", unit: "one-off" },

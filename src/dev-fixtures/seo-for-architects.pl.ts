@@ -43,7 +43,7 @@ export const seoForArchitectsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podstrony usług i realizacji", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Podstrony usług i realizacji", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Architekt projekt domu Gdańsk", "Pracownia w Mapach Google", "Umów spotkanie", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony biura architektonicznego: frazy, realizacje, zdjęcia, wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },

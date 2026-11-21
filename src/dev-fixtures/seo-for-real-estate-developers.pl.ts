@@ -44,7 +44,7 @@ export const seoForRealEstateDevelopersPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Inwestycje, mieszkania, ceny", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Inwestycje, mieszkania, ceny", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Mieszkania od dewelopera Kraków", "3 pokoje, oddanie 2027", "Cena za m² i rzut", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony dewelopera: podstrony inwestycji, oferta mieszkań, dane o cenach, indeksowanie, portale i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },

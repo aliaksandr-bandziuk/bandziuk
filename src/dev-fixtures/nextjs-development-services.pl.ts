@@ -39,11 +39,11 @@ export const nextjsDevelopmentServicesPl = {
   seo: {
     metaTitle: "Tworzenie stron w Next.js i Sanity CMS | Bandziuk",
     metaDescription:
-      "Strona w Next.js od programisty, nie software house’u: React, Sanity CMS, SEO w kodzie, migracja z WordPressa z przekierowaniami 301. Od 3000 zł.",
+      "Strona w Next.js od programisty, nie software house’u: React, Sanity CMS, SEO w kodzie, migracja z WordPressa z przekierowaniami 301, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Next.js · React · Sanity", "Od 3000 zł", "Umowa i faktura"],
+  heroChips: ["Next.js · React · Sanity", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Szybkie podstrony", "PL · EN · DE", "Edycja w Sanity", "Zapytaj o wycenę"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona lub landing page w Next.js z Sanity CMS, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -104,6 +104,7 @@ export const nextjsDevelopmentServicesPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony na Next.js buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony w Next.js jako niezależny programista z Warszawy: projekt, kod w React i TypeScript, treści w headless CMS Sanity, SEO i uruchomienie. Na tym stosie działa moja własna strona i większość projektów, które dziś zaczynam. Współpracujecie z jedną osobą na umowę i fakturę z JDG, a nie z działem handlowym software house’u."),
 
         h2("Tworzenie stron Next.js: jakie strony buduję w tej technologii"),
@@ -231,6 +232,7 @@ export const nextjsDevelopmentServicesPl = {
           ["Czy da się przenieść stronę z WordPressa do Next.js bez utraty pozycji?", "To główny cel migracji. Każdy stary adres dostaje przekierowanie 301, tytuły i opisy są przenoszone, a po starcie sprawdzam Search Console. Tak przeniosłem 468 wpisów na stronie psychoterapeuty z Mediolanu."],
           ["Czy wystawiasz fakturę?", "Tak. Prowadzę jednoosobową działalność gospodarczą w Warszawie i wystawiam fakturę. Pracuję na umowę, a cenę i zakres ustalamy przed rozpoczęciem prac."],
           ["Czy przejmiesz istniejący projekt w Next.js?", "Tak. Najpierw czytam repozytorium i wypisuję, co wymaga poprawy — SEO, szybkość, konfiguracja CMS, aktualizacje zależności — a potem podaję stałą cenę."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Czy współpraca może być w pełni zdalna?", "Tak. Pracuję zdalnie z firmami z całej Polski i z zagranicy, po polsku, angielsku albo rosyjsku. Brief, akceptacje i przekazanie strony odbywają się online."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

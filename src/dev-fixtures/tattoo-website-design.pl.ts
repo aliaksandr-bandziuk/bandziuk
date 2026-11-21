@@ -38,11 +38,11 @@ export const tattooWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona www studia tatuażu z zadatkiem online | Bandziuk",
     metaDescription:
-      "Strona internetowa dla studia tatuażu: portfolio według stylu, tatuatorzy i guest spoty, zapytania ze wzorami, zadatek BLIK, Booksy, wersja EN. Od 3000 zł.",
+      "Strona internetowa dla studia tatuażu: portfolio według stylu, tatuatorzy i guest spoty, zapytania ze wzorami, zadatek BLIK, Booksy, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Zadatek przez BLIK"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Zadatek przez BLIK"],
   heroPhonePoints: ["Zapytaj o tatuaż", "Fine line · Blackwork · Realizm", "Wpłać zadatek BLIK-iem", "Guest spot w tym miesiącu"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla studia tatuażu lub tatuatora, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -201,6 +201,7 @@ export const tattooWebsiteDesignPl = {
           ["Czy portfolio może się samo uzupełniać z Instagrama?", "W głównej galerii tego nie polecam: osadzony feed spowalnia stronę, nie ma podziału na style i przestaje działać, gdy platforma zmienia zasady. Tatuator wybiera najlepsze prace i dodaje je w panelu z oznaczeniem stylu."],
           ["Czy można dodać tatuatora gościnnego na kilka dni?", "Tak. Podstrona gościa pojawia się przed wizytą z datami i zasadami zapisów, można do niej dodać flash sheet, a po wizycie zostaje jako archiwum albo przekierowuje na listę tatuatorów."],
           ["Ile trwa wykonanie strony dla studia tatuażu?", "Prosta strona zwykle dwa–trzy tygodnie. Pełna strona z zadatkami, kalendarzem i wersją angielską trwa dłużej, a tempo wyznaczają głównie zdjęcia prac i treść regulaminu — im szybciej je masz, tym wcześniej start."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje. Obecność w tych odpowiedziach nazywa się GEO (generative engine optimization) i AEO (answer engine optimization)."],
           ["Czy pracujesz ze studiami spoza Warszawy?", "Tak, ze studiami z całej Polski. Rozmawiamy przez wideo, uwagi zostawiasz bezpośrednio w projekcie, a zdjęcia i teksty przesyłasz przez komunikator. Wszystko da się załatwić bez spotkania na miejscu."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

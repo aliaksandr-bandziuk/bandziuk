@@ -40,11 +40,11 @@ export const businessCardWebsitePl = {
   seo: {
     metaTitle: "Strona wizytówka dla firmy – cena od 3000 zł | Bandziuk",
     metaDescription:
-      "Strona wizytówka dla firmy lub specjalisty: jedna strona albo 3–7 podstron, projekt graficzny w cenie, domena i e-mail firmowy. Od 3000 do 6000 zł.",
+      "Strona wizytówka dla firmy lub specjalisty: jedna strona albo 3–7 podstron, projekt graficzny w cenie, odpowiedzi AI. Od 3000 do 6000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt graficzny w cenie", "Od 3000 zł", "Domena i e-mail firmowy"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Domena i e-mail firmowy"],
   heroPhonePoints: ["Kim jestem", "Usługi i ceny", "Realizacje", "Zadzwoń · napisz"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona wizytówka: jedna strona albo 3–7 podstron, projekt graficzny w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -105,6 +105,7 @@ export const businessCardWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony wizytówki buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony wizytówki dla małych firm, specjalistów i freelancerów — od projektu graficznego po uruchomienie na Twojej domenie. Strona wizytówka to najprostsza forma obecności w internecie: jedna dłuższa strona albo kilka podstron, z których klient w minutę dowie się, kim jesteś, co oferujesz, ile to kosztuje i jak się z Tobą skontaktować. Nie potrzebuje bloga, sklepu ani rozbudowanych formularzy, ale musi szybko działać na telefonie i dać się znaleźć."),
 
         h2("Czym jest strona typu wizytówka i co powinna zawierać"),
@@ -233,6 +234,7 @@ export const businessCardWebsitePl = {
           ["Czy napiszesz teksty na stronę wizytówkę?", "Tak. Na podstawie rozmowy lub kilku odpowiedzi na pytania piszę teksty po polsku, angielsku albo rosyjsku, a Ty sprawdzasz, czy fakty się zgadzają."],
           ["Czy wizytówkę można później rozbudować?", "Tak. Strona jest zbudowana tak, żeby dało się dodać podstrony usług, blog albo drugą wersję językową bez przebudowy całości."],
           ["Ile trwa wykonanie strony wizytówki?", "Zwykle od dwóch do trzech tygodni. Najwięcej zależy od tego, jak szybko są gotowe teksty, zdjęcia i Twoje uwagi do projektu."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy pracujesz zdalnie i wystawiasz fakturę?", "Tak. Pracuję zdalnie z Warszawy dla firm z całej Polski i z zagranicy, a za wykonanie strony wystawiam fakturę jako jednoosobowa działalność gospodarcza."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

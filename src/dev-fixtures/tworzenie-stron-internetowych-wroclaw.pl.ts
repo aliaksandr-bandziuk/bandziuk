@@ -32,11 +32,11 @@ export const tworzenieStronInternetowychWroclawPl = {
   seo: {
     metaTitle: "Strony internetowe Wrocław: od 3000 zł | Bandziuk",
     metaDescription:
-      "Strony internetowe dla firm z Wrocławia: projekt graficzny w cenie, podstrony usług i osiedli, wersje EN, UA i DE, szybkie na telefonie. Od 3000 zł, ceny jawne.",
+      "Strony internetowe dla firm z Wrocławia: projekt graficzny w cenie, podstrony usług i osiedli, wersje EN, UA i DE, odpowiedzi AI. Od 3000 zł, ceny jawne.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Wersje PL · EN · UA · DE"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Wersje PL · EN · UA · DE"],
   heroPhonePoints: ["Usługi i ceny", "Zapytanie ofertowe", "Dojazd: Wrocław i gminy", "Zadzwoń · WhatsApp"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla firmy z Wrocławia, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -199,6 +199,7 @@ export const tworzenieStronInternetowychWroclawPl = {
           ["Ile trwa stworzenie strony internetowej?", "Prostą stronę uruchamiam zwykle w dwa–cztery tygodnie od briefu; pełna z kilkoma językami zajmuje około sześciu–ośmiu tygodni, bo dochodzą tłumaczenia. Najwięcej zależy od tempa Waszych uwag i tłumaczeń."],
           ["Kreator stron czy strona na zamówienie?", "Kreator wystarczy przy prostej wizytówce z jedną usługą. Strona na zamówienie opłaca się, gdy potrzebujecie wersji językowych, podstron dla osiedli lub technologii, integracji z CRM albo pełnej kontroli nad SEO."],
           ["Do kogo należy strona?", "Do Was: domena, kod i treści. Możecie przenieść stronę do innego hostingu albo wykonawcy w każdej chwili."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Czy firma z Wrocławia może zamówić stronę u wykonawcy z Warszawy?", "Tak. Wszystko załatwiamy zdalnie: krótkie rozmowy wideo, komentarze do projektu wpisywane w przeglądarce i etapy z datami. Podstrony i treści przygotowuję dla klientów z Wrocławia i okolic."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

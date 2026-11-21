@@ -39,11 +39,11 @@ export const beautySalonWebsitePl = {
   seo: {
     metaTitle: "Strona salonu kosmetycznego — zakres, cena i termin",
     metaDescription:
-      "Tworzenie strony salonu kosmetycznego: podstrona pod każdy zabieg z ceną i czasem, rezerwacja online, podstrony zespołu, szybkość na telefonie. Od 8500 zł.",
+      "Tworzenie strony salonu kosmetycznego: podstrona pod każdy zabieg z ceną i czasem, rezerwacja online, podstrony zespołu, odpowiedzi AI. Od 8500 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Podstrona pod każdy zabieg", "Strony od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Podstrona pod każdy zabieg", "Strony od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Rezerwuj u Anny, pt 18:00", "Koloryzacja od 350 zł", "Laminacja rzęs, 60 min", "Cennik"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Strona salonu na WordPressie, z projektem graficznym w cenie", price: 3000, currency: "PLN", unit: "one-off" },
@@ -83,7 +83,8 @@ export const beautySalonWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Co klientka sprawdza na stronie salonu przed rezerwacją"),
+        h2("Strona salonu przed rezerwacją: co klientka sprawdza"),
+        p("Buduję strony salonów kosmetycznych sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Stronę salonu otwiera się z już wybranym zabiegiem i decyduje w około minutę. Rozstrzygają cztery pytania: czy robicie dokładnie to, ile to kosztuje, kto będzie wykonywał i czy jest wolny termin wtedy, kiedy potrzebuję."),
         p("Strona, która odpowiada na te cztery w minutę, wygrywa z ładniejszą, która ukrywa je za formularzem kontaktowym. Dlatego struktura idzie za pytaniami, a nie za działami stawianymi z przyzwyczajenia: „o salonie”, „nasza filozofia” i „dlaczego my” czyta się na końcu, jeśli w ogóle."),
 
@@ -102,7 +103,7 @@ export const beautySalonWebsitePl = {
 
         h2("Zdjęcia Waszych gabinetów zamiast zdjęć stockowych"),
         p("Stockowa modelka z idealnymi włosami czyta się jako „to nie nasz salon”. Prawdziwe zdjęcia wnętrza, foteli, sprzętu i samych prac budzą więcej zaufania niż jakikolwiek tekst o jakości."),
-        h3("Co warto sfotografować przed rozpoczęciem pracy"),
+        h3("Przed rozpoczęciem pracy: co warto sfotografować"),
         li("wnętrze, w świetle dziennym, bez ludzi w kadrze;"),
         li("każdy gabinet albo stanowisko osobno;"),
         li("same prace: przed i po, w tym samym świetle i z tego samego kąta;"),
@@ -133,7 +134,7 @@ export const beautySalonWebsitePl = {
         h2("Analityka od pierwszego dnia, a nie potem"),
         p("Google Analytics i Search Console konfiguruję jako część pracy, z przyciskiem rezerwacji i kliknięciem w numer jako zdarzeniami. Bez tego po trzech miesiącach nie ma czym odpowiedzieć na pytanie, czy strona działa, a rozmowa zamienia się w opinie o grafice."),
 
-        h2("Co zostaje u Was po uruchomieniu"),
+        h2("Po uruchomieniu: co zostaje u Was"),
         li("kod, domena, treści i dostępy do panelu są Wasze od pierwszego dnia;"),
         li("ceny i listę zabiegów zmieniacie sami, bez programisty;"),
         li("strona nie stoi na moim hostingu, eksporty nie są zablokowane;"),
@@ -185,6 +186,7 @@ export const beautySalonWebsitePl = {
           ["Czy będziemy mogli sami zmieniać ceny", "Tak, i o to chodzi. Ceny, czas trwania, listę zabiegów i podstrony zespołu zmienia się w panelu bez programisty, bo w tym biznesie zmieniają się często."],
           ["Budujecie na kreatorach stron", "Nie. Kreatory ograniczają strukturę i szybkość, a zejście z kreatora później kosztuje więcej niż zbudowanie od razu na Next.js albo WordPressie."],
           ["Co jest potrzebne od nas na start", "Lista zabiegów z cenami i czasem trwania, zdjęcia wnętrza i prac, kto jest w zespole i z jakiego systemu rezerwacji korzystacie. Resztę zbieramy po drodze."],
+          ["Czy to działa też w wyszukiwaniu AI, nie tylko w Google?", "Zwykle tak, bo pytania zadawane ChatGPT, Perplexity i Gemini to te same, na które ta strona i tak odpowiada: co robicie, gdzie, jak szybko i za ile. Czego asystent nie przeczyta, tego nie zacytuje."],
           ["Do kogo należy strona po uruchomieniu", "Do Was: kod, domena, treści i dostępy do panelu. Strona nie stoi na moim hostingu, eksporty nie są zablokowane, a projekt można w każdej chwili przekazać innemu programiście."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },
@@ -193,7 +195,7 @@ export const beautySalonWebsitePl = {
       _type: "textContent",
       _key: k("b"),
       content: [
-        h2("Co daje salonowi dobra strona internetowa"),
+        h2("Dobra strona salonu: co daje w liczbach"),
         p("Odpowiada na cztery pytania, które klientka ma przed rezerwacją, wysyła rezerwację do systemu, którego pilnuje recepcja, i działa dalej o jedenastej wieczorem, kiedy za biurkiem nikogo nie ma. To wszystko, co obiecuje — i to wystarczy, żeby zrobić ją porządnie."),
 
         h2("Fryzjer, spa albo pozycjonowanie gotowej strony: podstrony obok tej"),

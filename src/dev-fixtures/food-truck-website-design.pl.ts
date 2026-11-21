@@ -43,11 +43,11 @@ export const foodTruckWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona food trucka: grafik postojów i rezerwacje",
     metaDescription:
-      "Strona internetowa dla food trucka: dzisiejszy postój i grafik zmieniany z telefonu, menu z cenami, rezerwacje na wesela i eventy z zaliczką BLIK. Od 3000 zł.",
+      "Strona internetowa dla food trucka: dzisiejszy postój i grafik zmieniany z telefonu, menu z cenami, odpowiedzi AI. Od 3000 zł.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Dziś: Bulwary, 12:00–20:00", "Grafik na ten tydzień", "Menu · wyprzedane", "Zarezerwuj na wesele"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla food trucka, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -198,6 +198,7 @@ export const foodTruckWebsiteDesignPl = {
           ["Czy klient może wpłacić zaliczkę za wesele przez stronę?", "Tak. Po potwierdzeniu terminu klient dostaje link do zaliczki i płaci BLIK-iem, kartą albo szybkim przelewem, a data w kalendarzu oznacza się jako zajęta."],
           ["Czy można zamawiać na wynos z wyprzedzeniem?", "Tak, jeśli kuchnia to udźwignie: zamówienie z godziną odbioru i płatnością online może działać na stronie, albo strona może prowadzić do Glovo czy Wolt, jeśli stoicie w stałym miejscu i już z nich korzystacie."],
           ["Ile trwa zrobienie strony food trucka?", "Jednostronicowa strona zwykle od dwóch do czterech tygodni od briefu, rozbudowana z kalendarzem, rezerwacjami i zaliczkami — od czterech do sześciu. Najwięcej czasu zajmuje spisanie menu, stałych postojów i warunków imprez."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pracujesz z food truckami z całej Polski?", "Tak. Rozmawiamy przez WhatsApp, telefon albo wideo, projekt oglądacie i zatwierdzacie w przeglądarce, a za wykonaną stronę dostajecie ode mnie fakturę."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

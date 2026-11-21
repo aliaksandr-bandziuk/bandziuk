@@ -40,11 +40,11 @@ export const bakeryWebsiteDesignEn = {
   seo: {
     metaTitle: "Bakery Website Design with Cake Orders and Pickup",
     metaDescription:
-      "Bakery website design: product catalog, custom cake orders with deposits, pickup slots, allergens on every item, wholesale page. Design included, from 700 €.",
+      "Bakery website design: product catalog, custom cake orders with deposits, pickup slots, allergens on every item, AI answers. Design included, from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Open today 7 a.m.–2 p.m.", "Order a custom cake", "Pick up Saturday 9–10", "Allergens listed"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple bakery website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -199,6 +199,7 @@ export const bakeryWebsiteDesignEn = {
           ["Will the website work with our point-of-sale system?", "It depends on the system. Some let a website send orders straight into them; with others, web orders land in the site’s admin panel and your inbox, and staff see them on a tablet at the counter. I check which applies before quoting."],
           ["Do we need professional photos of our cakes and bread?", "Not to launch. Phone photos taken by a window, on one background and at one angle per category, look consistent and honest about the product. Professional photos can replace them later without any change to the design."],
           ["Can staff update products, sold-out items and holiday hours?", "Yes. Products, prices, baking days, allergens, pickup slots and holiday hours are edited in a simple admin panel, from a computer or a phone."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Can a web designer in Poland build a website for a US bakery?", "Yes. We work by video call and email, in English. Afternoons and evenings in Central European Time overlap with US mornings, so calls fit before your shop gets busy. I invoice in EUR or in another currency by agreement."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

@@ -39,7 +39,7 @@ export const photographerSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Gatunek + miasto w Google", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Gatunek + miasto w Google", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Fotograf ślubny Kraków", "Sesja ciążowa w plenerze", "Zapytaj o termin", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony fotografa: frazy, galerie, zdjęcia, wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },

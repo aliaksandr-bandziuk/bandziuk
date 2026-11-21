@@ -27,11 +27,11 @@ export const localSeoForPlumbersEn = {
   seo: {
     metaTitle: "Local SEO for Plumbing Companies: Map Pack | Bandziuk",
     metaDescription:
-      "Local SEO for plumbers: Google Business Profile, 24/7 hours, reviews by neighborhood, listings, fake-listing reports and call tracking. Audit from 250 €.",
+      "Local SEO for plumbers: Google Business Profile, 24/7 hours, reviews by neighborhood, listings, AI answers. Audit from 250 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Google Maps for plumbers", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Google Maps for plumbers", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Plumber · Open 24 hours", "In the map pack", "Reviews that name the job", "Call now"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Local SEO audit for a plumber: Google Business Profile, listings, website", price: 250, currency: "EUR", unit: "one-off" },
@@ -196,6 +196,7 @@ export const localSeoForPlumbersEn = {
           ["Do Local Services Ads help a plumber rank in the map?", "No. They are a separate paid placement and do not change your map position. The same habits — fast answers, a verified business, a steady flow of reviews — help in both."],
           ["How many Google reviews does a plumbing company need?", "There is no fixed number. Compare yourself with the three plumbers in the map for your main searches: you need a similar or larger number, more recent ones, and new reviews coming in after every job."],
           ["Can you get fake plumbing listings removed from Google Maps?", "I can report them with evidence through “Suggest an edit” and Google’s Business Redressal Complaint Form. Google makes the decision: some listings are removed within weeks, others need a second report, and some come back later under a new name."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you do local SEO for plumbers outside Poland?", "Yes. Local SEO is done remotely — the profile, listings for your country, review requests and tracking — for plumbing companies in the US, Canada, the UK or Australia. I work in English, Polish and Russian."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

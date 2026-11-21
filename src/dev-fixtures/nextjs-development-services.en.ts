@@ -39,11 +39,11 @@ export const nextjsDevelopmentServicesEn = {
   seo: {
     metaTitle: "Next.js Development with Sanity CMS from €2000",
     metaDescription:
-      "Next.js development services by one developer: React, TypeScript, Sanity CMS, SEO in code, WordPress migration with 301 redirects. Websites from 700 €.",
+      "Next.js development services by one developer: React, TypeScript, Sanity CMS, SEO in code, AI answers. Websites from 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Next.js · React · TypeScript", "Sanity headless CMS", "From 700 €"],
+  heroChips: ["Next.js · React · TypeScript", "Named by ChatGPT and AI search", "From 700 €"],
   heroPhonePoints: ["Fast static pages", "EN · IT · PL", "Edited in Sanity", "Request a quote"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Next.js website or landing page with Sanity CMS, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -103,9 +103,10 @@ export const nextjsDevelopmentServicesEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites on Next.js myself: structure, design, build and launch, with no handover between people."),
         p("I offer Next.js development services as an independent developer based in Warsaw: I design and build websites on Next.js, React and TypeScript, with Sanity as the headless CMS where your team edits content. It is the stack my own site runs on and the one I choose for most new projects. You work with one person who writes the code, sets up the SEO and is still reachable after launch."),
 
-        h2("What Next.js is used for: the websites I build with it"),
+        h2("Next.js in practice: the websites I build with it"),
         p("Next.js is a React framework that renders pages on the server or builds them in advance, so a visitor and a search engine receive finished HTML instead of an empty shell that JavaScript fills in later. It powers web apps and dashboards too, but my work with it is websites that have to be found, read and acted on:"),
         li("marketing sites for service businesses, with a page for every service and a clear way to get in touch from each one"),
         li("multilingual sites where every language has its own translated URLs"),
@@ -113,7 +114,7 @@ export const nextjsDevelopmentServicesEn = {
         li("personal-brand sites for consultants, therapists, artists and other specialists"),
         li("landing pages that sell a course, a consultation or a booking with online payment"),
 
-        h2("Why a Next.js website loads fast: static generation and image optimization"),
+        h2("A Next.js website loads fast: static generation and image optimization"),
         p("The speed comes from how pages are delivered. Most pages of a marketing site are generated once — at build time or right after an editor publishes a change — and served from a CDN close to the visitor. Nothing is assembled on each request, so there is no database query or theme rendering between the click and the page."),
         li("incremental static regeneration rebuilds a page in the background after an edit, so content stays current and nobody waits for it"),
         li("the Next.js image component serves every photo in a modern format at the size the screen actually needs"),
@@ -230,6 +231,7 @@ export const nextjsDevelopmentServicesEn = {
           ["Can you move my WordPress site to Next.js without losing rankings?", "That is the main goal of a migration. Every old URL is mapped and redirected with a 301, titles and descriptions are carried over, and Search Console is watched after launch. On a psychotherapist’s site in Milan I moved 468 posts this way."],
           ["Where is a Next.js website hosted?", "Usually on Vercel, which builds a preview for every change and serves pages from a global CDN; other Node.js hosting is possible too. The hosting and CMS accounts are opened in your name and paid by you directly."],
           ["Can you take over an existing Next.js project?", "Yes. I read the repository first, list what needs fixing — SEO, speed, CMS setup, dependency updates — and give a fixed price for the work before starting."],
+          ["Will ChatGPT and other assistants name the company?", "That depends on what the page states plainly. ChatGPT, Perplexity and Gemini name companies whose services, prices, area and contact details are text, agree with the Google profile and are backed by structured data."],
           ["Do you work with clients outside Poland?", "Yes, remotely, in English, Polish or Russian. I work on Central European Time, which overlaps with the UK and Europe for the whole day and with the US East Coast in the morning there. Invoices are issued in EUR, or in another currency by agreement."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

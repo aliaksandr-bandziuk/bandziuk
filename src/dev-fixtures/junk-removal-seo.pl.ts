@@ -41,7 +41,7 @@ export const junkRemovalSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Gruz, kontenery, opróżnianie", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Gruz, kontenery, opróżnianie", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Kontener na gruz Gdańsk", "Wycena po zdjęciu", "Podstawimy jutro rano", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy wywozu gruzu: strona, cennik, wizytówka Google i odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -103,6 +103,7 @@ export const junkRemovalSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem firm wywozu gruzu sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Pozycjonowanie strony firmy wywozu gruzu to praca nad tym, żeby osoba po remoncie, która wpisuje „kontener na gruz Wrocław”, „wywóz gruzu cena” albo „opróżnianie mieszkania po zmarłym”, znalazła Twoją firmę w Google i zadzwoniła. Całą pracę — od analizy fraz po zmiany na stronie i w Mapach — wykonuję osobiście, dla firm z jednym autem i dla tych, które mają hakowiec, kilkadziesiąt kontenerów i własny plac."),
 
         h2("Pozycjonowanie strony firmy wywozu gruzu: co obejmuje usługa"),
@@ -204,6 +205,7 @@ export const junkRemovalSeoPl = {
           ["Czy pokazywać ceny kontenerów na stronie?", "Warto pokazać przynajmniej zasady: rozmiary, różnicę między gruzem czystym a zmieszanym, dopłaty i czas podstawienia. Klient szybciej decyduje, a Ty masz mniej sporów przy odbiorze."],
           ["Czy opróżnianie mieszkań potrzebuje osobnej podstrony?", "Tak. To inny klient — spadkobierca, właściciel po najemcach, biuro nieruchomości — i inne wyszukiwania niż kontener po remoncie. Jedna podstrona dla obu usług zwykle nie pozycjonuje się na żadną."],
           ["Czy numer BDO powinien być na stronie?", "Tak, jako tekst, razem z pełną nazwą firmy i NIP. Klienci firmowi go sprawdzają, a asystenci AI traktują takie dane jako sygnał wiarygodności."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy pracujesz z firmami spoza Warszawy?", "Tak. Współpraca jest zdalna, więc firma z Lublina, Szczecina czy powiatu pod Rzeszowem dostaje to samo co warszawska: analizę fraz dla swojego miasta i okolicznych gmin."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

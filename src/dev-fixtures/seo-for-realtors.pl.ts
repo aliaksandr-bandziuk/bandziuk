@@ -47,7 +47,7 @@ export const seoForRealtorsPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Nazwisko, dzielnice i sprzedający", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Nazwisko, dzielnice i sprzedający", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Agent nieruchomości Ursynów", "Bezpłatna wycena mieszkania", "Opinie w Google", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO agenta nieruchomości: wyniki na nazwisko, strona, wizytówka Google, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },

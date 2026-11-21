@@ -28,7 +28,7 @@ export const seoForPaintingContractorsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Photos that rank", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Photos that rank", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["House painters near me", "Before & after", "4.9 ★ on the map", "Request an estimate"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a painting contractor: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -91,7 +91,7 @@ export const seoForPaintingContractorsEn = {
       content: [
         p("I do SEO for painting contractors: the website, the Google Business Profile and the project photos that make a homeowner or a property manager ask you for an estimate. Painting is a visual trade and a trust trade at once. The customer wants to see rooms and facades you have finished, and to know you will protect the floors, show up on the agreed day and leave clean lines."),
 
-        h2("What SEO for painting contractors covers: interior, exterior and commercial work"),
+        h2("SEO for painting contractors covers: interior, exterior and commercial work"),
         p("A painting company usually sells several different jobs, and each has its own customers and searches:"),
         li("interior painting — rooms, ceilings, trim, whole-house repaints before a sale or after a move"),
         li("exterior painting — siding, stucco, brick, decks and fences, with weather and prep as the main questions"),

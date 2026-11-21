@@ -35,11 +35,11 @@ export const landscapingWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Landscaping Companies | Bandziuk",
     metaDescription:
-      "Landscaping website design that sells projects: large galleries, before and after, design-build and maintenance paths, consultation requests. From 700 €.",
+      "Landscaping website design that sells projects: large galleries, before and after, design-build and maintenance paths, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Reply within one business day"],
+  heroChips: ["Design + build, one price", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Patio and wall projects", "Licensed · Insured", "Book a design consultation", "Plan your spring yard"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple landscaping website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -103,7 +103,7 @@ export const landscapingWebsiteDesignEn = {
           "I design websites for landscaping companies and build them myself — design-build firms, hardscape contractors and landscapers who also run maintenance crews — so design and build come from one person at one price. A landscaping company sells something the customer cannot see yet: a backyard that exists only as a plan. The design has to make that future garden believable through your finished work, then turn the visitor into a consultation or estimate request. This page is about websites for landscaping businesses, not about tools for homeowners who want to plan their own yard.",
         ),
 
-        h2("What landscaping website design has to do: sell the project before the site visit"),
+        h2("Landscaping website design: selling the project before the site visit"),
         p("A homeowner planning a new patio or a full backyard looks for weeks before calling anyone. They save photos, compare three or four companies and judge each one by the work it shows. Landscaping website design is built around that habit:"),
         li("finished projects are the main content of the site, not a section near the footer"),
         li("every project page ends in a request for a consultation or an estimate"),
@@ -229,6 +229,7 @@ export const landscapingWebsiteDesignEn = {
           ["Should a landscaping website show prices?", "Ranges for common project types, with what changes them — size, materials, access, drainage — help. They filter out requests that would never become contracts and show visitors you are open about cost. Exact prices are rarely possible for design-build work."],
           ["Can the website take bookings for paid design consultations?", "Yes. If your scheduling tool offers online booking and payment, it is placed on the consultation path; otherwise the form collects the request and you send a payment link. The design says clearly whether the fee is credited against the project."],
           ["Can you redesign our landscaping website without losing Google rankings?", "Yes. Every existing address is mapped to its new page and redirected, and structured data is carried over before the new design goes live, so the positions the site already has are kept."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Do you work with landscaping companies outside Poland?", "Yes. Design and development are done remotely, in English, Polish or Russian. The site is set up for your country: phone formats, units, license details and the review platforms your customers use."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

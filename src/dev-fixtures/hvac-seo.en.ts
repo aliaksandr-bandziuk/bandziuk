@@ -34,7 +34,7 @@ export const hvacSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Heating + cooling + maps", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Heating + cooling + maps", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["AC repair near me", "Open now · same day", "Maintenance plan", "Book a technician"],
   offers: [
     { _key: "offer1", _type: "offer", name: "HVAC SEO audit: website and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },
@@ -53,7 +53,7 @@ export const hvacSeoEn = {
         { _key: k("o"), iconName: "file-text", title: "Replacement, heat pump and rebate pages", text: "For the high-ticket jobs, not only repairs" },
         { _key: k("o"), iconName: "shield-check", title: "Maintenance plan and membership pages", text: "Recurring customers instead of one-off calls" },
         { _key: k("o"), iconName: "map-pin", title: "Google Maps and service areas", text: "Categories for heating and cooling, real towns" },
-        { _key: k("o"), iconName: "plug", title: "Reports tied to your field software", text: "Booked jobs from search, not positions alone" },
+        { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
       prices: [
         { _key: k("r"), label: "HVAC SEO audit: website and Google profile", value: "from 250 €", note: "one-off" },
@@ -97,7 +97,7 @@ export const hvacSeoEn = {
       content: [
         p("I do SEO for HVAC companies: the website, the Google Business Profile and the pages that come up when a house is too hot, too cold or the system is twenty years old. HVAC SEO services have an unusual mix to serve — urgent repair calls that must be answered today, expensive replacements that are researched for weeks, and maintenance plans that turn one call into a customer for years."),
 
-        h2("What HVAC SEO services cover for heating and cooling companies"),
+        h2("HVAC SEO services for heating and cooling companies: the scope"),
         p("An HVAC company sells at least three different things, and search treats them differently:"),
         li("repairs — urgent, local, decided in minutes, mostly from the map and the first few results"),
         li("replacements and new installs — furnaces, central air, heat pumps, ductless mini-splits; compared by price, efficiency and financing"),
@@ -207,6 +207,10 @@ export const hvacSeoEn = {
       _type: "textContent",
       _key: k("b"),
       content: [
+        h2("HVAC SEO and AI search: ChatGPT, Perplexity, Gemini and AI Overviews"),
+        p("People ask ChatGPT, Perplexity, Gemini or Google’s AI Overviews which company nearby installs a heat pump and what an AC repair costs. The assistant answers from text it can read, and names companies whose pages carry the facts: services by system, maintenance plans, hours and service area."),
+        p("Work on being named there goes by two labels, generative engine optimization (GEO) and answer engine optimization (AEO). In practice it comes down to plain text instead of images, structured data for the company and its services, and details that match the Google profile."),
+
         h2("Order SEO for your HVAC company: what to send me"),
         p(
           "Send the company name, links to the website and Google Maps profile, the jobs you want more of — repairs, replacements, heat pumps, memberships — the towns you cover and the software you book jobs in. I will reply with what I would fix first and a fixed price. Use the ",

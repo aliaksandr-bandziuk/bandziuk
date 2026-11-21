@@ -40,7 +40,7 @@ export const carRentalSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Fleet, location and airport pages", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Fleet, location and airport pages", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Car rental near the airport", "SUV · Automatic · 7 seats", "Deposit and insurance explained", "Book direct"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Car rental SEO audit: website, booking engine and Google Business Profile", price: 250, currency: "EUR", unit: "one-off" },

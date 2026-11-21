@@ -48,7 +48,7 @@ export const realEstateAgencyWebsitePl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Katalog z działającymi filtrami", "Strony od 8500 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Katalog z działającymi filtrami", "Strony od 8500 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["3 pokoje, balkon", "Dodaj do schowka", "Zamów prezentację", "Cena na zapytanie"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Podstawowa strona katalogowa agencji: oferty, filtry, formularze zapytań", price: 8500, currency: "PLN", unit: "one-off" },
@@ -89,11 +89,12 @@ export const realEstateAgencyWebsitePl = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Dlaczego strona agencji przegrywa z portalami, z którymi konkuruje"),
+        h2("Strona agencji przegrywa z portalami, z którymi konkuruje"),
+        p("Buduję strony dla agencji nieruchomości sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Strona agencji prawie zawsze zaczyna się jako katalog. Oferty wgrane, filtry dodane, strona uznana za gotową. Kłopot w tym, że katalog to jedyna rzecz, w której agencja nigdy nie wygra: portale mają więcej ofert, więcej ruchu i większe budżety na wyszukiwarkę, a klient szukający samych ogłoszeń idzie najpierw tam. Strona konkurująca wielkością bazy konkuruje dokładnie na tej osi, na której przegra na pewno."),
         p("Agencja ma natomiast wszystko to, czego portal nie pokaże: w jakich dzielnicach faktycznie pracujecie, jaki segment znacie, w jakim języku mówią Wasi klienci i co dzieje się po pierwszym zapytaniu. Z tego materiału trzeba budować stronę."),
 
-        h2("Co kupujący sprawdza na stronie agencji przed kontaktem"),
+        h2("Strona agencji przed kontaktem: co sprawdza kupujący"),
         p("Kiedy ktoś trafia na Waszą stronę, ofertę zwykle widział już gdzieś indziej. Ta wizyta to nie szukanie, a sprawdzanie: rozstrzyga się, czy zapytanie pójdzie do Was, czy do agencji otwartej w sąsiedniej karcie."),
         p("Patrzą, od ilu lat pracujecie na tym rynku, czy oferty są aktualne, czy odpowiada człowiek z imieniem i nazwiskiem i czy warunki są podane, czy przytrzymane do rozmowy. To nie ozdoba — to właśnie ta treść rozstrzyga między zapytaniem a zamkniętą kartą, i to jej nie ma w katalogu z formularzem w stopce."),
 
@@ -108,7 +109,7 @@ export const realEstateAgencyWebsitePl = {
 
         h2("Import i aktualizacja ofert: skąd biorą się dane i co się psuje"),
         p("Pytanie, które rozstrzyga o całej budowie: gdzie oferty są dzisiaj. Feed z portalu, eksport z CRM, arkusz, albo trzech agentów z własnymi plikami — każda odpowiedź daje inną stronę."),
-        h3("Co psuje się w praktyce"),
+        h3("Strony agencji w praktyce: co się psuje"),
         li("oferta sprzedana, podstrona zniknęła — zostaje martwy adres albo miękki błąd 404;"),
         li("ta sama nieruchomość przyszła dwa razy z dwóch źródeł pod dwoma adresami;"),
         li("zdjęcia wgrane w pełnej rozdzielczości z aparatu i katalog ledwo się rusza;"),
@@ -146,7 +147,7 @@ export const realEstateAgencyWebsitePl = {
         p("Podstawowa strona katalogowa to trzy do sześciu tygodni. Połączenie z CRM, import ofert i każda dodatkowa wersja językowa wydłużają termin, a ja podaję go przed startem, nie w trakcie. Portal liczony jest z własnym terminem, bo rozstrzyga o nim funkcjonalność."),
         p("Budowę wydłuża zwykle nie kod, a dane: skąd biorą się oferty, w jakiej postaci i kto pilnuje ich aktualności. Im szybciej to ustalone, tym krótsze wszystko dalsze."),
 
-        h2("Co zostaje u Was po uruchomieniu"),
+        h2("Po uruchomieniu: co zostaje u Was"),
         li("kod, domena, treści i dostępy do panelu są Wasze od pierwszego dnia;"),
         li("strona nie stoi na moim hostingu, eksporty nie są zablokowane;"),
         li("dane ofert zostają w postaci, którą da się przenieść gdzie indziej;"),
@@ -198,6 +199,7 @@ export const realEstateAgencyWebsitePl = {
           ["Pracujecie z agencjami poza Polską", "Tak. Wielojęzyczne strony nieruchomości to właśnie trzon takiej pracy, a ta strona sama działa w trzech językach."],
           ["Potrzebujemy dwóch języków teraz, trzeciego później — to problem", "Nie, o ile struktura od początku jest na to przygotowana. Droga wersja tej samej pracy to dobudowywanie drugiego języka do strony zrobionej pod jeden."],
           ["Budujecie na kreatorach stron", "Nie. Katalog z filtrami, importem i CRM to dokładnie miejsce, w którym kreatory się kończą, a zejście z kreatora później kosztuje więcej niż zbudowanie od razu na Next.js albo WordPressie."],
+          ["Jak firma trafia do odpowiedzi AI?", "To część pracy nazywana GEO i AEO: tekst zamiast obrazków, dane strukturalne firmy i usług oraz te same informacje wszędzie. Postęp mierzę, zadając ChatGPT, Perplexity i Gemini stały zestaw pytań przed i po."],
           ["Do kogo należy strona po uruchomieniu", "Do Was: kod, domena, treści, dostępy do panelu i dane ofert w przenaszalnej postaci. Strona nie stoi na moim hostingu, eksporty nie są zablokowane, a projekt można w każdej chwili przekazać innemu programiście."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

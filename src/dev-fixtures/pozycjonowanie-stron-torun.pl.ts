@@ -39,7 +39,7 @@ export const pozycjonowanieStronTorunPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Specjalista SEO, nie agencja", "Audyt od 1000 zł", "Firmy z Torunia i powiatu"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Audyt od 1000 zł", "Firmy z Torunia i powiatu"],
   heroPhonePoints: ["Apartament Toruń Starówka", "Wasza firma w Mapach Google", "Zarezerwuj · Zadzwoń", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO strony firmy z Torunia: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },
@@ -199,6 +199,7 @@ export const pozycjonowanieStronTorunPl = {
           ["Kto zajmuje się pozycjonowaniem stron w Toruniu?", "Lokalne agencje reklamowe i studia, ogólnopolskie firmy SEO i pojedynczy specjaliści. Ja pracuję sam: audyt, wdrożenie i raport robi ta sama osoba."],
           ["Jak samemu pozycjonować stronę?", "Uzupełniona wizytówka Google, osobna podstrona dla każdej usługi z miastem w tytule, opinie i Google Search Console to dobry początek bez kosztów."],
           ["Czy moja firma z Torunia może być widoczna także w Bydgoszczy?", "Tak, ale to osobny rynek w Google. Potrzebna jest rzetelna podstrona dla Bydgoszczy i obszar działania w wizytówce, który ją obejmuje."],
+          ["Czy klienci znajdą firmę przez ChatGPT?", "Coraz częściej, jeśli jest co zacytować: usługi nazwane tekstem razem z cenami, obszar działania i godziny. ChatGPT, Perplexity i Gemini powtarzają to, co przeczytają, więc fakty zamknięte w grafikach dla niego nie istnieją."],
           ["Czy pracujesz z firmami z Torunia zdalnie?", "Tak. Pracuję z Warszawy, a współpraca toczy się online: rozmowa wideo, wspólny dokument z zadaniami i comiesięczny raport. Dane i konkurencję sprawdzam dla Torunia."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

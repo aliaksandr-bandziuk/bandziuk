@@ -44,11 +44,11 @@ export const architectureWebsiteDesignEn = {
   seo: {
     metaTitle: "Website Design for Architecture Firms | Bandziuk",
     metaDescription:
-      "Architecture website design with the build included: project pages with drawings and before/after, typology filters, team and process pages. From 700 €.",
+      "Architecture website design with the build included: project pages with drawings and before/after, typology filters, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Portfolio that sells, built in", "From 700 €", "Reply within one business day"],
+  heroChips: ["Portfolio that sells, built in", "From 700 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Houses · Offices · Interiors", "Filter by type and city", "Plans, sections, before / after", "Start a project"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple architecture website with selected projects, design and build", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -108,6 +108,7 @@ export const architectureWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for architecture practices myself: structure, design, build and launch, with no handover between people."),
         p("I offer architecture website design for studios, interior architects and landscape practices, and the same person — me — builds the site, so one price covers the design and the code. An architect’s website is a portfolio first, but a portfolio that sells: a future client should leave a project page knowing what the studio would do with a brief like theirs and how to take the first step."),
 
         h2("Architecture website design that brings commissions, not only admiration"),
@@ -221,6 +222,7 @@ export const architectureWebsiteDesignEn = {
           ["What should an architecture project page include?", "A strong lead image, a title with the building type and place, the brief and site constraints, plans or sections, before-and-after views for renovations, a short table of facts and links to similar projects with a button to start a conversation."],
           ["We have hundreds of project photos. How many should go on the site?", "Fewer than you think: usually eight to fifteen per project, chosen to show the idea, the key spaces and the details. The rest can stay in your archive or go into a press kit for publications."],
           ["Can our team add new projects without a developer?", "Yes. Projects, team members and press items are added through an admin panel with fixed fields for texts, facts, images and drawings, so every new project page looks like the others."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Do you work with architecture firms outside Poland?", "Yes — studios abroad work with me remotely. We review layouts on video calls and leave comments in a shared design file between calls; I work in English, Polish and Russian and invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

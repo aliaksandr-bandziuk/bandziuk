@@ -43,7 +43,7 @@ export const seoForTourOperatorsEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Tour, destination and activity searches", "Audit from 250 €", "Reply within one business day"],
+  heroChips: ["Tour, destination and activity searches", "Audit from 250 €", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Sunset kayak tour, Key West", "2 hours · small group", "Reviews on Google and Tripadvisor", "Named in ChatGPT answers"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a tour operator: website, tour pages, booking widget, Google profile, reviews and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -106,7 +106,7 @@ export const seoForTourOperatorsEn = {
       content: [
         p("SEO for tour operators is the work that gets a tour company found when travelers search for things to do in your destination, for the activity they want or for your name after seeing you on Viator, and that turns those visits into bookings on your own site. I do it myself — audit, tour pages, code changes and reports — for small and mid-sized tour and activity companies, so the person who spots a problem is the one who fixes it."),
 
-        h2("What SEO for tour operators covers: tour pages, destination searches and direct bookings"),
+        h2("SEO for tour operators covers: tour pages, destination searches and direct bookings"),
         p("A tour company sells dated seats in an experience nobody can try in advance. Search work covers the places where travelers make that decision:"),
         li("your website: tour pages, destination and activity pages, planning guides"),
         li("Google Search, Maps and the Things to do results for your destination"),

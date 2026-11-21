@@ -45,11 +45,11 @@ export const bandWebsiteDesignEn = {
   seo: {
     metaTitle: "Music Band Website Design and Build | Bandziuk",
     metaDescription:
-      "Band website design with the build included: tour dates from Bandsintown, fast music embeds, EPK and rider, merch, mailing list, booking form. From 700 €.",
+      "Band website design with the build included: tour dates from Bandsintown, fast music embeds, EPK and rider, merch, mailing list, AI answers. From 700 €.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Design + build, one price", "From 700 €", "Tour dates, EPK, merch, mailing list"],
+  heroChips: ["Named by ChatGPT and AI search", "From 700 €", "Tour dates, EPK, merch, mailing list"],
   heroPhonePoints: ["Next shows and tickets", "Play the new single", "Join the mailing list", "Booking and EPK"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Simple band or musician website, design included", price: 700, maxPrice: 1400, currency: "EUR", unit: "one-off" },
@@ -109,6 +109,7 @@ export const bandWebsiteDesignEn = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("I build websites for bands, musicians and DJs myself: structure, design, build and launch, with no handover between people."),
         p("Band website design is the service on this page: I design and build websites for bands, solo musicians and DJs myself, so the person who picks your typeface is the one who connects your tour dates, players and mailing list. A music band website has a short list of jobs — tell a new listener who you are in seconds, show where you play next, play a track, collect an email address and give promoters what they need to book you."),
 
         h2("Band website design: what fans, promoters and press check first"),
@@ -207,6 +208,7 @@ export const bandWebsiteDesignEn = {
           ["Can we sell merch and music on the website?", "Yes — through Bandcamp links, Shopify buy buttons inside your pages or a print-on-demand store. The products appear in your design, and payment runs through the store you choose."],
           ["Can we add shows, releases and photos ourselves?", "Yes. You get an editor, built on WordPress or on Sanity, with ready fields for releases, shows, press photos and the EPK, plus a short written guide and video walkthroughs."],
           ["How long does it take to build a band website?", "It depends mostly on how quickly the bio, photos, music links and merch details are ready. Once they are in hand, the quote comes with a schedule, and a simple site is much quicker than one with a release archive, a store and language versions."],
+          ["Does this work for AI search as well as Google?", "Usually yes, because the questions people put to ChatGPT, Perplexity and Gemini are the ones these pages answer anyway: what you do, where, how soon and for how much. What an assistant cannot read, it cannot quote."],
           ["Can you build a website for a US band from Warsaw?", "Yes. We work over video calls and shared files, in English. A US morning lands in my CET afternoon or evening, so we can talk before rehearsal or your day job. I invoice in EUR."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

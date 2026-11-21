@@ -45,7 +45,7 @@ export const coachingSeoEn = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["A page per client situation", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["A page per client situation", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Career coaching after redundancy at 50", "Business coaching for solo consultants", "A package price, not «book a call»", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a coaching practice: site, positioning and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -86,7 +86,8 @@ export const coachingSeoEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Why most coaching websites are invisible in search"),
+        h2("Most coaching websites are invisible in search"),
+        p("I do SEO for coaches and coaching practices myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("Read ten coaching websites in a row and they merge into one. Unlock your potential, step into your power, transform your life, a three-month journey, a free discovery call. That is not laziness — much of it comes from certification programmes, which hand out a website structure and sample copy along with the credential. Thousands of coaches launched from the same script, so to a search engine they are interchangeable, and interchangeable pages cannot outrank each other on anything except the coach's own name."),
         p("The second reason is that the pages describe the method rather than the person in trouble. «Transformational coaching» is what you do; «I have managed people for fifteen years and I have just been made redundant» is what somebody types. A coach who writes the first competes with everyone holding the same certificate; a coach who writes the second competes with almost nobody."),
 
@@ -164,6 +165,7 @@ export const coachingSeoEn = {
           ["Is SEO worth it when I get clients from referrals and social media?", "Sometimes the honest answer is no — if referrals fill your calendar and you are not trying to change who you work with, SEO is a solution to a problem you do not have. It becomes worth it when you want a different kind of client than the one your network keeps sending, because search is where that person looks and your network is not."],
           ["My certification programme gave me a website. Can you work with it?", "Usually yes, if pages can be added and the text edited. If the structure is locked and changes go through support, SEO work on it is paying rent, and a site you own is cheaper within the year. I say which case it is before quoting."],
           ["Can you guarantee a position?", "No, and nobody honest can — the ranking is decided by a system neither of us controls. What I can state is what will be changed, in what order, and what we measure at one month and at three."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["Who writes the pages?", "I do, and you correct them. The situations have to come from you: which clients you are genuinely better with, in their words rather than the method's words. That part cannot be researched from outside the practice."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

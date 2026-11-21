@@ -45,7 +45,7 @@ export const seoForHomeBuildersPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Pod klucz, stan surowy, deweloperski", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Pod klucz, stan surowy, deweloperski", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Budowa domu pod klucz Piaseczno", "Stan surowy zamknięty — cennik", "Realizacje 2026", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO firmy budującej domy: strona, wizytówka Google, frazy z regionu, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },
@@ -107,6 +107,7 @@ export const seoForHomeBuildersPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem firm budujących domy sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Pozycjonowanie strony firmy budującej domy to praca nad tym, żeby inwestor szukający wykonawcy domu jednorodzinnego — pod klucz, w stanie surowym albo deweloperskim — znalazł w Google Twoją stronę, a nie tylko Oferteo i grupę na Facebooku, i zadzwonił do Ciebie. Całą pracę — od audytu przez teksty i zmiany w kodzie po wizytówkę i raporty — wykonuję osobiście, dla generalnych wykonawców domów, firm budujących w technologii szkieletowej lub modułowej i małych deweloperów osiedli domów."),
 
         h2("Pozycjonowanie strony firmy budującej domy: co obejmuje usługa"),

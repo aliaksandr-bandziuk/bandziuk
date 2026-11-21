@@ -40,7 +40,7 @@ export const seoServicesForSmallBusinessPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Jeden specjalista zamiast agencji", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Jeden specjalista zamiast agencji", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Księgowa Poznań Jeżyce", "Zadzwoń", "Twoja strona w Google", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO małej firmy: strona, wizytówka Google, konkurencja", price: 1000, currency: "PLN", unit: "one-off" },

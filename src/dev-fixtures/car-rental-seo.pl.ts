@@ -42,7 +42,7 @@ export const carRentalSeoPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Flota, lotniska, najem dla firm", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Flota, lotniska, najem dla firm", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Wynajem auta Modlin", "Bus 9-osobowy na weekend", "Auto zastępcze z OC sprawcy", "Kaucja i ubezpieczenie jasno"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO wypożyczalni samochodów: strona, system rezerwacji, wizytówka Google", price: 1000, currency: "PLN", unit: "one-off" },
@@ -104,6 +104,7 @@ export const carRentalSeoPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Zajmuję się pozycjonowaniem strony wypożyczalni samochodów sam: audyt, poprawki w kodzie i treściach oraz miesięczny raport o zapytaniach."),
         p("Pozycjonowanie strony wypożyczalni samochodów to praca nad tym, żeby turysta lądujący na Okęciu, firma szukająca trzech aut na rok i kierowca, którego samochód stoi w warsztacie po stłuczce, znaleźli w Google Twoją wypożyczalnię i zarezerwowali u Ciebie, a nie przez porównywarkę. Pracuję sam: ta sama osoba sprawdza stronę i system rezerwacji, pisze podstrony, poprawia kod i przygotowuje raport."),
 
         h2("Pozycjonowanie strony wypożyczalni samochodów: trzech klientów, trzy sposoby szukania"),

@@ -47,11 +47,11 @@ export const debtCollectionSeoEn = {
   seo: {
     metaTitle: "Debt Collection SEO — audit from €250",
     metaDescription:
-      "SEO for debt collection agencies: content for businesses with unpaid invoices, commission bands, B2B versus consumer debt, tone and compliance. Audit €250.",
+      "SEO for debt collection agencies: content for businesses with unpaid invoices, commission bands, B2B versus consumer debt, AI answers. Audit €250.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Written for a worried client", "Audit from €250", "Reply in 1 working day"],
+  heroChips: ["Written for a worried client", "Audit from €250", "Named by ChatGPT and AI search"],
   heroPhonePoints: ["Pages for «client not paying»", "Commission bands published", "B2B and consumer separated", "Named by ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "SEO audit for a debt collection agency: site, content, tone and AI answers", price: 250, currency: "EUR", unit: "one-off" },
@@ -93,6 +93,7 @@ export const debtCollectionSeoEn = {
       layout: "guide",
       content: [
         h2("Which firms this page is for, and where the neighbouring services are covered"),
+        p("I do SEO for debt collection agencies myself: audit, the fixes in the code and the text, and a monthly report on enquiries."),
         p("This page is for agencies recovering money owed: unpaid invoices, overdue accounts, receivables handed over after a company's own reminders have stopped working. It is not about litigation and not about bookkeeping, and the distinction matters because the three are often confused by the people searching."),
         p(
           "If you are a law firm conducting proceedings, the work is on ",
@@ -104,7 +105,7 @@ export const debtCollectionSeoEn = {
           ".",
         ),
 
-        h2("What your client is actually afraid of, and why it decides every page"),
+        h2("Your client's real fear: why it decides every page"),
         p("Agencies in this trade usually write as though the client's question were whether the money can be recovered. In my reading of how businesses actually choose, it is not. A company handing over an unpaid invoice is afraid of something else: that an agency acting in their name will be heavy-handed with a customer they would still like to work with, or with a person whose circumstances they do not know, and that the damage will come back to them."),
         p("That fear is the lens every page on the site is read through, and it explains why the aggressive register this industry often adopts — firm, relentless, uncompromising — loses business it was written to win. The client is not shopping for aggression. They are shopping for someone who will be effective without creating a problem that outlasts the debt."),
         p("So the pages that convert describe the process in order and in plain language: what happens first, what the debtor receives and in what tone, how long each stage lasts, when the client is consulted before anything escalates, what you will not do, and how a case is closed when the debtor genuinely cannot pay. A page that explains restraint reads as competence."),
@@ -185,6 +186,7 @@ export const debtCollectionSeoEn = {
           ["Can we write about the legal side?", "Describe your own process and point readers to proper advice for their situation. This is a regulated area in most markets, content that reads as legal guidance creates risk for the agency that published it, and I am not a lawyer — anything borderline should be reviewed by one before it goes live."],
           ["Do we need separate pages for business and consumer debt?", "Yes, if you do both. They are different operations with different obligations, consumer work is usually the more tightly regulated, and one page addressing both is specific to neither. If you only take business invoices, say so prominently — it filters the enquiries and reassures corporate clients."],
           ["What would you write first?", "A sector page for whichever industry sends you most work, in that industry's own language, and a process page that explains what the debtor actually receives. Those two reach the client at the moment of frustration and answer the fear at the same time."],
+          ["Will customers find us through ChatGPT?", "Increasingly, when there is something to quote: services named in text with prices, the area you cover and your hours. ChatGPT, Perplexity and Gemini repeat what they can read, so facts kept inside images stay invisible to them."],
           ["How long before enquiries come in?", "First movement after about a month and a half, growth on a three to six month horizon. Explanatory content in this trade tends to keep producing enquiries for years, because the underlying problem never stops recurring."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

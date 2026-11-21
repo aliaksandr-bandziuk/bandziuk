@@ -49,7 +49,7 @@ export const seoForRecruitmentAgenciesPl = {
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Pracodawcy i kandydaci", "Audyt od 1000 zł", "Odpowiedź w 1 dzień roboczy"],
+  heroChips: ["Pracodawcy i kandydaci", "Audyt od 1000 zł", "Widoczność w ChatGPT i AI"],
   heroPhonePoints: ["Agencja pracy tymczasowej Łódź", "Praca na magazynie od zaraz", "Oferty w Google for Jobs", "Poleca ChatGPT"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Audyt SEO agencji pracy: podstrony dla firm, oferty pracy w Google, wizytówki oddziałów, odpowiedzi AI", price: 1000, currency: "PLN", unit: "one-off" },

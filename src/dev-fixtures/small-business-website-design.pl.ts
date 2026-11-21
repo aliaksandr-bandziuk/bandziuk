@@ -37,11 +37,11 @@ export const smallBusinessWebsiteDesignPl = {
   seo: {
     metaTitle: "Strona dla małej firmy: projekt i wykonanie | Bandziuk",
     metaDescription:
-      "Strona internetowa dla małej firmy: usługi z cenami, telefon i WhatsApp, formularz zgodny z RODO, szybka na telefonie i Wasza. Od 3000 zł, ceny w cenniku.",
+      "Strona internetowa dla małej firmy: usługi z cenami, telefon i WhatsApp, formularz zgodny z RODO, odpowiedzi AI. Od 3000 zł, ceny w cenniku.",
   },
   stickyCta: true,
   heroLayout: "landing",
-  heroChips: ["Projekt + wykonanie, jedna cena", "Od 3000 zł", "Ceny podane w cenniku"],
+  heroChips: ["Widoczność w ChatGPT i AI", "Od 3000 zł", "Ceny podane w cenniku"],
   heroPhonePoints: ["Zadzwoń · WhatsApp", "Usługi i ceny", "Opinie z Google", "Zapytaj o termin"],
   offers: [
     { _key: "offer1", _type: "offer", name: "Prosta strona internetowa dla małej firmy, projekt w cenie", price: 3000, maxPrice: 6000, currency: "PLN", unit: "one-off" },
@@ -102,6 +102,7 @@ export const smallBusinessWebsiteDesignPl = {
       _key: k("b"),
       layout: "guide",
       content: [
+        p("Strony dla małych firm buduję sam: struktura, projekt, wdrożenie i start, bez przekazywania zadań."),
         p("Tworzę strony internetowe dla małych firm — projekt graficzny, wykonanie, teksty i uruchomienie — więc za całość odpowiada jedna osoba, a cena jest znana, zanim napiszecie. Właściciel małej firmy zwykle sam odbiera telefony, wystawia faktury i jeździ do klientów. Strona ma mu w tym pomagać: przyprowadzać zapytania, odpowiadać na powtarzające się pytania i nie wymagać opieki co tydzień."),
 
         h2("Czego mała firma potrzebuje od strony internetowej"),
@@ -229,6 +230,7 @@ export const smallBusinessWebsiteDesignPl = {
           ["Ile trwa stworzenie strony dla małej firmy?", "Prosta strona zwykle od dwóch do czterech tygodni od briefu, pełna od czterech do sześciu. Najwięcej zależy od tego, jak szybko gotowe są teksty, zdjęcia i Wasze uwagi."],
           ["Czy sami możemy zmieniać ceny, godziny i zdjęcia?", "Tak. Teksty, ceny, zdjęcia, godziny i nowe podstrony edytuje się w prostym panelu, także z telefonu. Do codziennych zmian programista nie jest potrzebny."],
           ["Do kogo należy strona?", "Do Was: domena, kod i treści. Możecie w każdej chwili przenieść stronę do innego hostingu albo innego wykonawcy."],
+          ["Czy ChatGPT i inni asystenci wymienią firmę?", "To zależy od tego, co strona mówi wprost. ChatGPT, Perplexity i Gemini wymieniają firmy, których usługi, ceny, obszar i kontakt stoją tekstem, zgadzają się z wizytówką Google i mają dane strukturalne."],
           ["Czy strona może powstać zdalnie, dla firmy spoza Warszawy?", "Tak. Projekt i wykonanie prowadzę zdalnie, po polsku, angielsku albo rosyjsku, dla firm z całej Polski i z zagranicy."],
         ].map(([question, answer]) => ({ _key: k("q"), question, answer: [p(answer)] })),
       },

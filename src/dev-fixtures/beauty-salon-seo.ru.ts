@@ -159,7 +159,7 @@ export const beautySalonSeoRu = {
       contextPlaceholder: "Ссылка или название",
       buttonText: "Отправить и получить оценку",
       note: "Или напишите в WhatsApp — отвечаю так же быстро.",
-      formVariant: "seo",
+      formVariant: "auto",
       quizQuestions: [
         { _key: k("z"), question: "Какие услуги?", options: ["Волосы", "Ногти и брови", "Косметология и лазер", "Всё вместе"] },
         { _key: k("z"), question: "Откуда записи сейчас?", options: ["Instagram", "Поиск и карта", "Booksy и подобные", "Сарафанное радио"] },

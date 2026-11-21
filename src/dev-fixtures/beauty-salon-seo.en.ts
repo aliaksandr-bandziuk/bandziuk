@@ -154,7 +154,7 @@ export const beautySalonSeoEn = {
       contextPlaceholder: "Link or name",
       buttonText: "Send and get a quote",
       note: "Or message me on WhatsApp — I answer just as quickly.",
-      formVariant: "seo",
+      formVariant: "auto",
       quizQuestions: [
         { _key: k("z"), question: "What do you offer?", options: ["Hair", "Nails and brows", "Aesthetics and laser", "All of it"] },
         { _key: k("z"), question: "Where do bookings come from now?", options: ["Instagram", "Google and the map", "Booksy or similar", "Word of mouth"] },

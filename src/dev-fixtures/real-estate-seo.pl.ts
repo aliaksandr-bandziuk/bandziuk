@@ -144,7 +144,7 @@ export const realEstateSeoPl = {
       contextPlaceholder: "Link albo nazwa",
       buttonText: "Wyślij i otrzymaj wycenę",
       note: "Albo napiszcie na WhatsAppie — odpowiadam równie szybko.",
-      formVariant: "seo",
+      formVariant: "auto",
       quizQuestions: [
         { _key: k("z"), question: "Co sprzedajecie?", options: ["Rynek wtórny", "Nowe inwestycje", "Najem", "Nieruchomości inwestycyjne"] },
         { _key: k("z"), question: "Skąd dziś przychodzą zapytania?", options: ["Portale ogłoszeniowe", "Reklama", "Wyszukiwarka", "Polecenia"] },

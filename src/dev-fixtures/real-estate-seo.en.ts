@@ -148,7 +148,7 @@ export const realEstateSeoEn = {
       contextPlaceholder: "Link or name",
       buttonText: "Send and get a quote",
       note: "Or message me on WhatsApp — I answer just as quickly.",
-      formVariant: "seo",
+      formVariant: "auto",
       quizQuestions: [
         { _key: k("z"), question: "What do you sell?", options: ["Resale property", "New builds", "Rentals", "Investment property"] },
         { _key: k("z"), question: "Where do enquiries come from now?", options: ["Portals", "Advertising", "Organic search", "Referrals"] },

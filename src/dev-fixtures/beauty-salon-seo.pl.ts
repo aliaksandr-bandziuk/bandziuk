@@ -157,7 +157,7 @@ export const beautySalonSeoPl = {
       contextPlaceholder: "Link albo nazwa",
       buttonText: "Wyślij i otrzymaj wycenę",
       note: "Albo napiszcie na WhatsAppie — odpowiadam równie szybko.",
-      formVariant: "seo",
+      formVariant: "auto",
       quizQuestions: [
         { _key: k("z"), question: "Jakie usługi?", options: ["Włosy", "Paznokcie i brwi", "Kosmetologia i laser", "Wszystko razem"] },
         { _key: k("z"), question: "Skąd dziś rezerwacje?", options: ["Instagram", "Wyszukiwarka i mapa", "Booksy i podobne", "Z polecenia"] },

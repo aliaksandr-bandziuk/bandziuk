@@ -146,7 +146,7 @@ export const realEstateSeoRu = {
       contextPlaceholder: "Ссылка или название",
       buttonText: "Отправить и получить оценку",
       note: "Или напишите в WhatsApp — отвечаю так же быстро.",
-      formVariant: "seo",
+      formVariant: "auto",
       quizQuestions: [
         { _key: k("z"), question: "Что продаёте?", options: ["Вторичное жильё", "Новостройки", "Аренду", "Инвестиционные объекты"] },
         { _key: k("z"), question: "Откуда заявки сейчас?", options: ["Порталы объявлений", "Реклама", "Поиск", "Рекомендации"] },

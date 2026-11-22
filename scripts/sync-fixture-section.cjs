@@ -86,7 +86,11 @@ async function main() {
     const fx = Object.values(mod).find((v) => v && v.contentBlocks);
     const guide = fx.contentBlocks.find(isTarget) || fx.contentBlocks.find((b) => b._type === "textContent");
     const content = guide.content;
-    const start = content.findIndex((b) => b.style === "h2" && plain(b).startsWith(spec.heading));
+    // Git Bash also rewrites a colon inside the heading itself into a
+    // semicolon, so «Pozycjonowanie stron Warszawa: cennik» arrives with a
+    // «;». Treat the two as the same character when matching.
+    const norm = (t) => String(t).replace(/[;:]/g, ":");
+    const start = content.findIndex((b) => b.style === "h2" && norm(plain(b)).startsWith(norm(spec.heading)));
     if (start < 0) throw new Error(`${spec.fixture}: no H2 starting «${spec.heading}»`);
     let end = content.findIndex((b, i) => i > start && b.style === "h2");
     const anchor = end > -1 ? plain(content[end]) : null;

@@ -47,16 +47,14 @@ async function main() {
     console.log(`  title: ${d.title}`);
     console.log(`  pageType: ${d.pageType}`);
     console.log(`  updated: ${d._updatedAt}`);
-    const guide = (d.contentBlocks || []).find(
-      (b) => b._type === "textContent" && b.layout === "guide",
-    );
-    if (!guide) {
-      console.log("  no guide textContent block");
-      continue;
+    console.log("  blocks:");
+    for (const b of d.contentBlocks || []) {
+      const extra = b.layout ? ` layout=${b.layout}` : "";
+      const n = Array.isArray(b.content) ? ` items=${b.content.length}` : "";
+      console.log(`    ${b._type}${extra}${n} _key=${b._key}`);
+      const h2 = (b.content || []).filter((x) => x.style === "h2").map(plain);
+      h2.forEach((t) => console.log(`        H2 ${t}`));
     }
-    const h2 = (guide.content || []).filter((b) => b.style === "h2").map(plain);
-    console.log(`  H2 (${h2.length}):`);
-    h2.forEach((t) => console.log(`    - ${t}`));
   }
 }
 

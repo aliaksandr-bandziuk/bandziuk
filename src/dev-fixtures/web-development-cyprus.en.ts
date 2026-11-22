@@ -87,7 +87,7 @@ export const webDevelopmentCyprusEn = {
       _key: k("b"),
       layout: "guide",
       content: [
-        h2("Websites in Cyprus so often fail to bring enquiries"),
+        h2("Websites in Cyprus that bring no enquiries: three common reasons"),
         p("I design and build websites for companies in Cyprus myself: structure, design, build and launch, with no handover between people."),
         p("Most Cyprus business sites are built as brochures: a homepage, an «about us», a services page listing everything in one block, and a contact form. They look finished and they rank for the company name, which is the one query where the company would be found anyway. Nothing on them answers the question a buyer actually types, so nothing on them can be found by a buyer who does not yet know the company exists."),
         p("The second reason is language. A Cyprus business often serves three audiences at once — local Greek-speaking customers, English-speaking expats and residents, and Russian-speaking buyers and business owners — and a site built in one language with a translation plugin bolted on serves none of them properly. Search engines treat a half-translated site as a weaker version of itself, and a buyer who lands on a page in the wrong language leaves."),

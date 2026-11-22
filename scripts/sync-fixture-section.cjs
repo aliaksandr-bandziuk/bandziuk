@@ -22,9 +22,28 @@ const { createClient } = require("@sanity/client");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env.local"), quiet: true });
 
 const argv = process.argv.slice(2);
-const APPLY = argv.includes("--apply");
+// Accept -apply as well as --apply: a single dash is an easy slip and the
+// script answering with a dry run looks like it simply refused to work.
+const APPLY = argv.includes("--apply") || argv.includes("-apply");
+// Which textContent block the section belongs in. Landing fixtures use the
+// «guide» layout, but pages built in the CMS can carry another one, so the
+// layout is a flag rather than a constant. --layout "" matches the first
+// textContent block whatever its layout.
+const LAYOUT_ARG = argv.flatMap((a, i) => (a === "--layout" ? [argv[i + 1]] : []));
+const LAYOUT = LAYOUT_ARG.length ? LAYOUT_ARG[0] : "guide";
+const isTarget = (b) => b._type === "textContent" && (LAYOUT === "" || b.layout === LAYOUT);
 const SPECS = argv.flatMap((a, i) => (a === "--sync" ? [argv[i + 1]] : [])).map((s) => {
-  const [fixture, heading] = s.split("::");
+  // Git Bash on Windows rewrites an argument that holds both a slash and «::»
+  // as if it were a path list: «sections/foo.en::H2» arrives as
+  // «sections\\foo.en;H2». Accept either separator, split on the first one
+  // only (a heading may contain a semicolon), and put the slashes back.
+  const at = (() => {
+    const i = s.indexOf("::");
+    return i > -1 ? { i, len: 2 } : { i: s.indexOf(";"), len: 1 };
+  })();
+  if (at.i < 1) throw new Error(`Bad --sync «${s}», expected fixture::H2 start`);
+  const fixture = s.slice(0, at.i).replace(/\\/g, "/");
+  const heading = s.slice(at.i + at.len);
   if (!fixture || !heading) throw new Error(`Bad --sync «${s}», expected fixture::H2 start`);
   return { fixture, heading };
 });
@@ -65,7 +84,7 @@ async function main() {
   for (const spec of SPECS) {
     const mod = jiti(path.resolve(__dirname, `../src/dev-fixtures/${spec.fixture}.ts`));
     const fx = Object.values(mod).find((v) => v && v.contentBlocks);
-    const guide = fx.contentBlocks.find((b) => b._type === "textContent" && b.layout === "guide");
+    const guide = fx.contentBlocks.find(isTarget) || fx.contentBlocks.find((b) => b._type === "textContent");
     const content = guide.content;
     const start = content.findIndex((b) => b.style === "h2" && plain(b).startsWith(spec.heading));
     if (start < 0) throw new Error(`${spec.fixture}: no H2 starting «${spec.heading}»`);
@@ -114,8 +133,14 @@ async function main() {
   for (const pl of plans) {
     const doc = docs.find((d) => d._id === pl.id);
     if (!doc) throw new Error(`${pl.id} not found in Sanity`);
-    const guide = doc.contentBlocks.find((b) => b._type === "textContent" && b.layout === "guide");
-    if (!guide) throw new Error(`${pl.id}: no guide text block`);
+    const guide = doc.contentBlocks.find(isTarget);
+    if (!guide) {
+      const seen = doc.contentBlocks
+        .filter((b) => b._type === "textContent")
+        .map((b) => `layout=${b.layout ?? "(none)"}`)
+        .join(", ") || "none";
+      throw new Error(`${pl.id}: no textContent block with layout «${LAYOUT}». Text blocks on this page: ${seen}. Pass --layout to pick one.`);
+    }
     if (guide.content.some((b) => b.style === "h2" && plain(b) === pl.h2)) {
       console.log(`skip  ${pl.id}: «${pl.h2}» already there`);
       continue;
@@ -128,7 +153,7 @@ async function main() {
       where = `before «${pl.anchor}»`;
       op = (p) => p.insert("before", `${base}[_key=="${a._key}"]`, pl.section.map(rekey));
     } else {
-      where = "at the end of the guide";
+      where = "at the end of the text block";
       op = (p) => p.insert("after", `${base}[-1]`, pl.section.map(rekey));
     }
     console.log(`\n${pl.id} — insert ${where}:`);

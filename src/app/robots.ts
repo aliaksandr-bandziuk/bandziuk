@@ -13,6 +13,12 @@ export default function robots(): MetadataRoute.Robots {
       // PerplexityBot, Google-Extended, Applebot (the AI answers this site is
       // optimising for), and facebookexternalhit, LinkedInBot, Twitterbot,
       // WhatsApp (link previews when the owner shares a page).
+      //
+      // meta-webindexer and meta-externalagent stay open on purpose as well:
+      // they are Meta's index and model-training crawlers, and Meta AI is one
+      // of the answer engines this site sells visibility in. On 22.11.2026 the
+      // Vercel log showed meta-webindexer sweeping some fifty pages in five
+      // seconds — that is traffic we want, not a nuisance to block.
       {
         userAgent: [
           "MJ12bot",

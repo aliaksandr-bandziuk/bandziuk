@@ -1,0 +1,66 @@
+// scripts/find-doc.cjs — find a singlepage document in Sanity by language and
+// slug, and print what sync-fixture-section.cjs needs to know about it: the
+// real _id (fixture-derived ids do not match pages that were rewritten over an
+// older document), whether an unpublished draft is in the way, and the H2
+// headings already present in the guide text block.
+//
+// Usage:
+//   node scripts/find-doc.cjs <lang> <slug>
+//   node scripts/find-doc.cjs pl seo-dla-kancelarii-prawnych
+
+const path = require("path");
+const { createClient } = require("@sanity/client");
+require("dotenv").config({ path: path.resolve(__dirname, "../.env.local"), quiet: true });
+
+const [lang, slug] = process.argv.slice(2);
+if (!lang || !slug) {
+  console.error("Usage: node scripts/find-doc.cjs <lang> <slug>");
+  process.exit(1);
+}
+
+const client = createClient({
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+  apiVersion: "2025-08-04",
+  token: process.env.SANITY_API_TOKEN,
+  useCdn: false,
+});
+
+const plain = (b) => (b.children || []).map((c) => c.text || "").join("");
+
+async function main() {
+  const docs = await client.fetch(
+    `*[_type == "singlepage" && language == $lang && slug[$lang].current == $slug]{
+      _id, _rev, _updatedAt, title, pageType, contentBlocks
+    }`,
+    { lang, slug },
+  );
+
+  if (!docs.length) {
+    console.log(`No singlepage with slug.${lang}.current == "${slug}"`);
+    return;
+  }
+
+  for (const d of docs) {
+    const isDraft = d._id.startsWith("drafts.");
+    console.log(`${isDraft ? "DRAFT " : ""}_id: ${d._id}`);
+    console.log(`  title: ${d.title}`);
+    console.log(`  pageType: ${d.pageType}`);
+    console.log(`  updated: ${d._updatedAt}`);
+    const guide = (d.contentBlocks || []).find(
+      (b) => b._type === "textContent" && b.layout === "guide",
+    );
+    if (!guide) {
+      console.log("  no guide textContent block");
+      continue;
+    }
+    const h2 = (guide.content || []).filter((b) => b.style === "h2").map(plain);
+    console.log(`  H2 (${h2.length}):`);
+    h2.forEach((t) => console.log(`    - ${t}`));
+  }
+}
+
+main().catch((e) => {
+  console.error(e.message);
+  process.exit(1);
+});

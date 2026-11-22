@@ -72,7 +72,34 @@ async function main() {
     let end = content.findIndex((b, i) => i > start && b.style === "h2");
     const anchor = end > -1 ? plain(content[end]) : null;
     if (end < 0) end = content.length;
-    plans.push({ ...spec, id: docIdOf(fx), h2: plain(content[start]), section: content.slice(start, end), anchor });
+    const slug = typeof fx.slug === "string" ? fx.slug : fx.slug?.[fx.lang]?.current;
+    plans.push({
+      ...spec,
+      id: docIdOf(fx),
+      lang: fx.lang,
+      slug,
+      h2: plain(content[start]),
+      section: content.slice(start, end),
+      anchor,
+    });
+  }
+
+  // A page rewritten over an older document keeps that document's id, which is
+  // not `singlepage-<group>.<lang>`. Resolve those by slug before anything else
+  // runs, so the draft check and the patches work on the real id.
+  const known = new Set(
+    await client.fetch(`*[_id in $ids]._id`, { ids: [...new Set(plans.map((p) => p.id))] }),
+  );
+  for (const pl of plans) {
+    if (known.has(pl.id)) continue;
+    if (!pl.lang || !pl.slug) throw new Error(`${pl.fixture}: cannot read lang/slug from the fixture`);
+    const found = await client.fetch(
+      `*[_type == "singlepage" && language == $lang && slug[$lang].current == $slug][0]._id`,
+      { lang: pl.lang, slug: pl.slug },
+    );
+    if (!found) throw new Error(`${pl.id} not found in Sanity, and no singlepage with slug.${pl.lang}.current == "${pl.slug}"`);
+    console.log(`id    ${pl.fixture}: ${pl.id} -> ${found} (resolved by slug)`);
+    pl.id = found;
   }
 
   const ids = [...new Set(plans.map((p) => p.id))];
@@ -111,15 +138,20 @@ async function main() {
 
   if (!patches.length) return console.log("\nNothing to do.");
   if (!APPLY) return console.log("\nDry run — nothing written. Add --apply to write.");
-  const byDoc = new Map();
-  for (const p of patches) {
-    if (!byDoc.has(p.id)) byDoc.set(p.id, { rev: p.rev, ops: [] });
-    byDoc.get(p.id).ops.push(p.op);
-  }
+  // One `insert` per patch. A Sanity patch carries a single insert operation,
+  // so chaining two of them onto the same patch silently keeps only the last —
+  // which is how a two-section run used to write one section. Mutations inside
+  // a transaction apply in order, so the revision guard goes on the first patch
+  // of each document only; the rest ride on the same transaction.
   const tx = client.transaction();
-  for (const [id, { rev, ops }] of byDoc) tx.patch(id, (p) => ops.reduce((acc, op) => op(acc), p.ifRevisionId(rev)));
+  const guarded = new Set();
+  for (const p of patches) {
+    const first = !guarded.has(p.id);
+    guarded.add(p.id);
+    tx.patch(p.id, (patch) => p.op(first ? patch.ifRevisionId(p.rev) : patch));
+  }
   await tx.commit();
-  console.log(`\nWritten: ${[...byDoc.keys()].join(", ")}`);
+  console.log(`\nWritten: ${[...new Set(patches.map((p) => p.id))].join(", ")}`);
   console.log("The webhook revalidates these pages; nothing to deploy.");
 }
 

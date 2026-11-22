@@ -1,0 +1,920 @@
+{
+ "generatedAt": "2026-11-22T09:37:32.149Z",
+ "perLang": {
+  "en": 58,
+  "pl": 55,
+  "ru": 69
+ },
+ "rules": [
+  {
+   "source": "/seo-audit",
+   "destination": "/services/seo-audit",
+   "permanent": true
+  },
+  {
+   "source": "/website-performance-and-code-audit",
+   "destination": "/services/website-performance-and-code-audit",
+   "permanent": true
+  },
+  {
+   "source": "/beauty-salon-website",
+   "destination": "/website-development-for-beauty-professionals/beauty-salon-website",
+   "permanent": true
+  },
+  {
+   "source": "/seo-optimization-and-strategy",
+   "destination": "/services/seo-optimization-and-strategy",
+   "permanent": true
+  },
+  {
+   "source": "/ai-ready-seo-and-geo-optimization",
+   "destination": "/services/ai-ready-seo-and-geo-optimization",
+   "permanent": true
+  },
+  {
+   "source": "/website-development",
+   "destination": "/services/website-development",
+   "permanent": true
+  },
+  {
+   "source": "/cms-integration-and-api-work",
+   "destination": "/services/cms-integration-and-api-work",
+   "permanent": true
+  },
+  {
+   "source": "/landing-page-development",
+   "destination": "/services/landing-page-development",
+   "permanent": true
+  },
+  {
+   "source": "/ai-brand-monitoring",
+   "destination": "/services/ai-brand-monitoring",
+   "permanent": true
+  },
+  {
+   "source": "/fix-ai-misinformation",
+   "destination": "/services/fix-ai-misinformation",
+   "permanent": true
+  },
+  {
+   "source": "/ai-search-readiness",
+   "destination": "/services/ai-search-readiness",
+   "permanent": true
+  },
+  {
+   "source": "/ai-visibility-audit",
+   "destination": "/services/ai-visibility-audit",
+   "permanent": true
+  },
+  {
+   "source": "/international-seo",
+   "destination": "/services/international-seo",
+   "permanent": true
+  },
+  {
+   "source": "/local-seo-services",
+   "destination": "/services/local-seo-services",
+   "permanent": true
+  },
+  {
+   "source": "/traffic-drop-recovery",
+   "destination": "/services/traffic-drop-recovery",
+   "permanent": true
+  },
+  {
+   "source": "/ai-seo-consultant",
+   "destination": "/services/ai-seo-consultant",
+   "permanent": true
+  },
+  {
+   "source": "/ai-seo-services",
+   "destination": "/services/ai-seo-services",
+   "permanent": true
+  },
+  {
+   "source": "/answer-engine-optimization-services",
+   "destination": "/services/answer-engine-optimization-services",
+   "permanent": true
+  },
+  {
+   "source": "/chatgpt-seo-services",
+   "destination": "/services/chatgpt-seo-services",
+   "permanent": true
+  },
+  {
+   "source": "/conversion-rate-optimization-services",
+   "destination": "/services/conversion-rate-optimization-services",
+   "permanent": true
+  },
+  {
+   "source": "/ecommerce-seo-services",
+   "destination": "/services/ecommerce-seo-services",
+   "permanent": true
+  },
+  {
+   "source": "/ecommerce-web-design",
+   "destination": "/services/ecommerce-web-design",
+   "permanent": true
+  },
+  {
+   "source": "/website-development-georgia",
+   "destination": "/services/locations/website-development-georgia",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-car-exporters-germany",
+   "destination": "/services/locations/seo-for-german-market/seo-for-car-exporters-germany",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-lingerie-manufacturers",
+   "destination": "/services/seo-for-lingerie-manufacturers",
+   "permanent": true
+  },
+  {
+   "source": "/website-development-for-lingerie-manufacturers",
+   "destination": "/services/website-development-for-lingerie-manufacturers",
+   "permanent": true
+  },
+  {
+   "source": "/llm-seo-services",
+   "destination": "/services/llm-seo-services",
+   "permanent": true
+  },
+  {
+   "source": "/locations",
+   "destination": "/services/locations",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-polish-clinics-targeting-german-patients",
+   "destination": "/services/seo-for-polish-clinics-targeting-german-patients",
+   "permanent": true
+  },
+  {
+   "source": "/website-development-montenegro",
+   "destination": "/services/locations/website-development-montenegro",
+   "permanent": true
+  },
+  {
+   "source": "/multilingual-website-development",
+   "destination": "/services/multilingual-website-development",
+   "permanent": true
+  },
+  {
+   "source": "/nextjs-development-services",
+   "destination": "/services/nextjs-development-services",
+   "permanent": true
+  },
+  {
+   "source": "/website-development-portugal",
+   "destination": "/services/locations/website-development-portugal",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-australian-market",
+   "destination": "/services/locations/seo-for-australian-market",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-baltic-markets",
+   "destination": "/services/locations/seo-for-baltic-markets",
+   "permanent": true
+  },
+  {
+   "source": "/seo-consultant",
+   "destination": "/services/seo-consultant",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-french-market",
+   "destination": "/services/locations/seo-for-french-market",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-german-market",
+   "destination": "/services/locations/seo-for-german-market",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-irish-market",
+   "destination": "/services/locations/seo-for-irish-market",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-italian-market",
+   "destination": "/services/locations/seo-for-italian-market",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-dutch-market",
+   "destination": "/services/locations/seo-for-dutch-market",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-swiss-market",
+   "destination": "/services/locations/seo-for-swiss-market",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-uk-market",
+   "destination": "/services/locations/seo-for-uk-market",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-us-market",
+   "destination": "/services/locations/seo-for-us-market",
+   "permanent": true
+  },
+  {
+   "source": "/shopify-seo-services",
+   "destination": "/services/shopify-seo-services",
+   "permanent": true
+  },
+  {
+   "source": "/website-development-spain",
+   "destination": "/services/locations/website-development-spain",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-real-estate-spain",
+   "destination": "/services/locations/seo-for-real-estate-spain",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-car-business-switzerland",
+   "destination": "/services/locations/seo-for-swiss-market/seo-for-car-business-switzerland",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-consulting-firms-switzerland",
+   "destination": "/services/locations/seo-for-swiss-market/seo-for-consulting-firms-switzerland",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-luxury-goods-switzerland",
+   "destination": "/services/locations/seo-for-swiss-market/seo-for-luxury-goods-switzerland",
+   "permanent": true
+  },
+  {
+   "source": "/technical-seo-services",
+   "destination": "/services/technical-seo-services",
+   "permanent": true
+  },
+  {
+   "source": "/website-development-thailand",
+   "destination": "/services/locations/website-development-thailand",
+   "permanent": true
+  },
+  {
+   "source": "/website-development-uae",
+   "destination": "/services/locations/website-development-uae",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-car-exporters-uae",
+   "destination": "/services/locations/seo-for-car-exporters-uae",
+   "permanent": true
+  },
+  {
+   "source": "/seo-for-real-estate-uae",
+   "destination": "/services/locations/seo-for-real-estate-uae",
+   "permanent": true
+  },
+  {
+   "source": "/website-maintenance-services",
+   "destination": "/services/website-maintenance-services",
+   "permanent": true
+  },
+  {
+   "source": "/website-redesign-services",
+   "destination": "/services/website-redesign-services",
+   "permanent": true
+  },
+  {
+   "source": "/wordpress-development-services",
+   "destination": "/services/wordpress-development-services",
+   "permanent": true
+  },
+  {
+   "source": "/pl/audyt-wydajnosci-i-kodu",
+   "destination": "/pl/oferty/audyt-wydajnosci-i-kodu",
+   "permanent": true
+  },
+  {
+   "source": "/pl/tworzenie-landing-page",
+   "destination": "/pl/oferty/tworzenie-landing-page",
+   "permanent": true
+  },
+  {
+   "source": "/pl/ai-seo-and-geo-optymalizacja",
+   "destination": "/pl/oferty/ai-seo-and-geo-optymalizacja",
+   "permanent": true
+  },
+  {
+   "source": "/pl/integracja-cms-i-api",
+   "destination": "/pl/oferty/integracja-cms-i-api",
+   "permanent": true
+  },
+  {
+   "source": "/pl/strategia-i-optymalizacja-seo",
+   "destination": "/pl/oferty/strategia-i-optymalizacja-seo",
+   "permanent": true
+  },
+  {
+   "source": "/pl/audyt-seo-strony-internetowej",
+   "destination": "/pl/oferty/audyt-seo-strony-internetowej",
+   "permanent": true
+  },
+  {
+   "source": "/pl/strona-salonu-kosmetycznego",
+   "destination": "/pl/tworzenie-stron-internetowych-dla-branzy-beauty/strona-salonu-kosmetycznego",
+   "permanent": true
+  },
+  {
+   "source": "/pl/tworzenie-stron-internetowych",
+   "destination": "/pl/oferty/tworzenie-stron-internetowych",
+   "permanent": true
+  },
+  {
+   "source": "/pl/monitoring-marki-w-ai",
+   "destination": "/pl/oferty/monitoring-marki-w-ai",
+   "permanent": true
+  },
+  {
+   "source": "/pl/poprawa-blednych-danych-w-ai",
+   "destination": "/pl/oferty/poprawa-blednych-danych-w-ai",
+   "permanent": true
+  },
+  {
+   "source": "/pl/przygotowanie-strony-do-wyszukiwania-ai",
+   "destination": "/pl/oferty/przygotowanie-strony-do-wyszukiwania-ai",
+   "permanent": true
+  },
+  {
+   "source": "/pl/audyt-widocznosci-w-ai",
+   "destination": "/pl/oferty/audyt-widocznosci-w-ai",
+   "permanent": true
+  },
+  {
+   "source": "/pl/seo-miedzynarodowe",
+   "destination": "/pl/oferty/seo-miedzynarodowe",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-lokalne",
+   "destination": "/pl/oferty/pozycjonowanie-lokalne",
+   "permanent": true
+  },
+  {
+   "source": "/pl/odzyskanie-pozycji-po-spadku-ruchu",
+   "destination": "/pl/oferty/odzyskanie-pozycji-po-spadku-ruchu",
+   "permanent": true
+  },
+  {
+   "source": "/pl/ekspert-ai-seo",
+   "destination": "/pl/oferty/ekspert-ai-seo",
+   "permanent": true
+  },
+  {
+   "source": "/pl/uslugi-ai-seo",
+   "destination": "/pl/oferty/uslugi-ai-seo",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-w-ai-i-chatgpt",
+   "destination": "/pl/oferty/pozycjonowanie-w-ai-i-chatgpt",
+   "permanent": true
+  },
+  {
+   "source": "/pl/strona-wizytowka",
+   "destination": "/pl/oferty/strona-wizytowka",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-w-chatgpt",
+   "destination": "/pl/oferty/pozycjonowanie-w-chatgpt",
+   "permanent": true
+  },
+  {
+   "source": "/pl/optymalizacja-konwersji",
+   "destination": "/pl/oferty/optymalizacja-konwersji",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-sklepow-internetowych",
+   "destination": "/pl/oferty/pozycjonowanie-sklepow-internetowych",
+   "permanent": true
+  },
+  {
+   "source": "/pl/tworzenie-sklepu-internetowego",
+   "destination": "/pl/oferty/tworzenie-sklepu-internetowego",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-producenta-bielizny",
+   "destination": "/pl/oferty/pozycjonowanie-strony-producenta-bielizny",
+   "permanent": true
+  },
+  {
+   "source": "/pl/strona-internetowa-dla-producenta-bielizny",
+   "destination": "/pl/oferty/strona-internetowa-dla-producenta-bielizny",
+   "permanent": true
+  },
+  {
+   "source": "/pl/llm-seo",
+   "destination": "/pl/oferty/llm-seo",
+   "permanent": true
+  },
+  {
+   "source": "/pl/lokalizacje",
+   "destination": "/pl/oferty/lokalizacje",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-kliniki-na-pacjentow-z-niemiec",
+   "destination": "/pl/oferty/pozycjonowanie-kliniki-na-pacjentow-z-niemiec",
+   "permanent": true
+  },
+  {
+   "source": "/pl/tworzenie-stron-wielojezycznych",
+   "destination": "/pl/oferty/tworzenie-stron-wielojezycznych",
+   "permanent": true
+  },
+  {
+   "source": "/pl/strony-w-nextjs",
+   "destination": "/pl/oferty/strony-w-nextjs",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-stron-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-stron-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-australijski",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-australijski",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynki-baltyckie",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynki-baltyckie",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-firmy-budowlanej-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-strony-firmy-budowlanej-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/freelancer-seo",
+   "destination": "/pl/oferty/freelancer-seo",
+   "permanent": true
+  },
+  {
+   "source": "/pl/konsultacje-seo",
+   "destination": "/pl/oferty/konsultacje-seo",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-francuski",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-francuski",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-niemiecki",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-niemiecki",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-irlandzki",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-irlandzki",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-wloski",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-wloski",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-kancelarii-prawnej-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-strony-kancelarii-prawnej-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-holenderski",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-holenderski",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-przychodni-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-strony-przychodni-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-restauracji-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-strony-restauracji-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-salonu-kosmetycznego-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-strony-salonu-kosmetycznego-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-firmy-sprzatajacej-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-strony-firmy-sprzatajacej-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-gabinetu-stomatologicznego-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-strony-gabinetu-stomatologicznego-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-szwajcarski",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-szwajcarski",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-brytyjski",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-brytyjski",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-na-rynek-amerykanski",
+   "destination": "/pl/oferty/lokalizacje/pozycjonowanie-na-rynek-amerykanski",
+   "permanent": true
+  },
+  {
+   "source": "/pl/pozycjonowanie-strony-warsztatu-samochodowego-warszawa",
+   "destination": "/pl/oferty/pozycjonowanie-strony-warsztatu-samochodowego-warszawa",
+   "permanent": true
+  },
+  {
+   "source": "/pl/seo-techniczne",
+   "destination": "/pl/oferty/seo-techniczne",
+   "permanent": true
+  },
+  {
+   "source": "/pl/utrzymanie-strony-internetowej",
+   "destination": "/pl/oferty/utrzymanie-strony-internetowej",
+   "permanent": true
+  },
+  {
+   "source": "/pl/przebudowa-strony-internetowej",
+   "destination": "/pl/oferty/przebudowa-strony-internetowej",
+   "permanent": true
+  },
+  {
+   "source": "/pl/strona-na-wordpress",
+   "destination": "/pl/oferty/strona-na-wordpress",
+   "permanent": true
+  },
+  {
+   "source": "/ru/seo-audit-saita",
+   "destination": "/ru/uslugi/seo-audit-saita",
+   "permanent": true
+  },
+  {
+   "source": "/ru/ai-seo-i-geo-optimizaciya",
+   "destination": "/ru/uslugi/ai-seo-i-geo-optimizaciya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-saitov",
+   "destination": "/ru/uslugi/razrabotka-saitov",
+   "permanent": true
+  },
+  {
+   "source": "/ru/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
+   "destination": "/ru/uslugi/uskorenie-saita-i-uluchshenie-poiskovoi-vidimosti",
+   "permanent": true
+  },
+  {
+   "source": "/ru/seo-optimizaciya-i-strategiya",
+   "destination": "/ru/uslugi/seo-optimizaciya-i-strategiya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-lendingov",
+   "destination": "/ru/uslugi/razrabotka-lendingov",
+   "permanent": true
+  },
+  {
+   "source": "/ru/sait-salona-krasoty",
+   "destination": "/ru/sozdanie-saitov-dlya-byuti-uslug/sait-salona-krasoty",
+   "permanent": true
+  },
+  {
+   "source": "/ru/integraciya-cms-i-api",
+   "destination": "/ru/uslugi/integraciya-cms-i-api",
+   "permanent": true
+  },
+  {
+   "source": "/ru/monitoring-brenda-v-ii",
+   "destination": "/ru/uslugi/monitoring-brenda-v-ii",
+   "permanent": true
+  },
+  {
+   "source": "/ru/ispravlenie-nevernyh-dannyh-v-ii",
+   "destination": "/ru/uslugi/ispravlenie-nevernyh-dannyh-v-ii",
+   "permanent": true
+  },
+  {
+   "source": "/ru/podgotovka-saita-k-ii-poisku",
+   "destination": "/ru/uslugi/podgotovka-saita-k-ii-poisku",
+   "permanent": true
+  },
+  {
+   "source": "/ru/audit-vidimosti-v-ii-poiske",
+   "destination": "/ru/uslugi/audit-vidimosti-v-ii-poiske",
+   "permanent": true
+  },
+  {
+   "source": "/ru/mezhdunarodnoe-seo",
+   "destination": "/ru/uslugi/mezhdunarodnoe-seo",
+   "permanent": true
+  },
+  {
+   "source": "/ru/lokalnoe-seo-prodvizhenie",
+   "destination": "/ru/uslugi/lokalnoe-seo-prodvizhenie",
+   "permanent": true
+  },
+  {
+   "source": "/ru/vosstanovlenie-pozitsiy-posle-padeniya-trafika",
+   "destination": "/ru/uslugi/vosstanovlenie-pozitsiy-posle-padeniya-trafika",
+   "permanent": true
+  },
+  {
+   "source": "/ru/ai-seo-konsultant",
+   "destination": "/ru/uslugi/ai-seo-konsultant",
+   "permanent": true
+  },
+  {
+   "source": "/ru/ai-seo-prodvizhenie",
+   "destination": "/ru/uslugi/ai-seo-prodvizhenie",
+   "permanent": true
+  },
+  {
+   "source": "/ru/sait-vizitka",
+   "destination": "/ru/uslugi/sait-vizitka",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-v-chatgpt",
+   "destination": "/ru/uslugi/prodvizhenie-v-chatgpt",
+   "permanent": true
+  },
+  {
+   "source": "/ru/optimizaciya-konversii",
+   "destination": "/ru/uslugi/optimizaciya-konversii",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-internet-magazina",
+   "destination": "/ru/uslugi/prodvizhenie-internet-magazina",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-internet-magazina",
+   "destination": "/ru/uslugi/razrabotka-internet-magazina",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-saitov-gruziya",
+   "destination": "/ru/uslugi/lokacii/razrabotka-saitov-gruziya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saitov-avtoeksporta-germaniya",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok/prodvizhenie-saitov-avtoeksporta-germaniya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-proizvoditelya-nizhnego-belya",
+   "destination": "/ru/uslugi/prodvizhenie-saita-proizvoditelya-nizhnego-belya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/sozdanie-saita-dlya-proizvoditelya-nizhnego-belya",
+   "destination": "/ru/uslugi/sozdanie-saita-dlya-proizvoditelya-nizhnego-belya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/llm-seo",
+   "destination": "/ru/uslugi/llm-seo",
+   "permanent": true
+  },
+  {
+   "source": "/ru/lokacii",
+   "destination": "/ru/uslugi/lokacii",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-kliniki-v-polshe-na-nemeckih-pacientov",
+   "destination": "/ru/uslugi/prodvizhenie-kliniki-v-polshe-na-nemeckih-pacientov",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-saitov-chernogoriya",
+   "destination": "/ru/uslugi/lokacii/razrabotka-saitov-chernogoriya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-multiyazychnogo-saita",
+   "destination": "/ru/uslugi/razrabotka-multiyazychnogo-saita",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-na-nextjs",
+   "destination": "/ru/uslugi/razrabotka-na-nextjs",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-saitov-portugaliya",
+   "destination": "/ru/uslugi/lokacii/razrabotka-saitov-portugaliya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saitov-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saitov-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-avstraliyskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-avstraliyskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-rynki-baltii",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-rynki-baltii",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-stroitelnoy-kompanii-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saita-stroitelnoy-kompanii-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/chastnyi-seo-specialist",
+   "destination": "/ru/uslugi/chastnyi-seo-specialist",
+   "permanent": true
+  },
+  {
+   "source": "/ru/seo-konsultaciya",
+   "destination": "/ru/uslugi/seo-konsultaciya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-frantsuzskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-frantsuzskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-nemetskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-nemetskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-irlandskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-irlandskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-italyanskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-italyanskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-yurista-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saita-yurista-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-gollandskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-gollandskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-polskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-polskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-medicinskoy-kliniki-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saita-medicinskoy-kliniki-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-restorana-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saita-restorana-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-salona-krasoty-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saita-salona-krasoty-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-kliningovoy-kompanii-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saita-kliningovoy-kompanii-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-stomatologii-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saita-stomatologii-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-shveytsarskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-britanskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-britanskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-na-amerikanskiy-rynok",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-amerikanskiy-rynok",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita-avtoservisa-varshava",
+   "destination": "/ru/uslugi/prodvizhenie-saita-avtoservisa-varshava",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saitov-nedvizhimosti-ispaniya",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-saitov-nedvizhimosti-ispaniya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-saitov-ispaniya",
+   "destination": "/ru/uslugi/lokacii/razrabotka-saitov-ispaniya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saitov-avtobiznesa-shveytsariya",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-avtobiznesa-shveytsariya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saitov-konsaltinga-shveytsariya",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-konsaltinga-shveytsariya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saitov-premialnyh-tovarov-shveytsariya",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-na-shveytsarskiy-rynok/prodvizhenie-saitov-premialnyh-tovarov-shveytsariya",
+   "permanent": true
+  },
+  {
+   "source": "/ru/tehnicheskoe-seo",
+   "destination": "/ru/uslugi/tehnicheskoe-seo",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-saitov-tailand",
+   "destination": "/ru/uslugi/lokacii/razrabotka-saitov-tailand",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saitov-avtoeksporta-oae",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-saitov-avtoeksporta-oae",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saitov-nedvizhimosti-oae",
+   "destination": "/ru/uslugi/lokacii/prodvizhenie-saitov-nedvizhimosti-oae",
+   "permanent": true
+  },
+  {
+   "source": "/ru/razrabotka-saitov-oae",
+   "destination": "/ru/uslugi/lokacii/razrabotka-saitov-oae",
+   "permanent": true
+  },
+  {
+   "source": "/ru/podderzhka-saita",
+   "destination": "/ru/uslugi/podderzhka-saita",
+   "permanent": true
+  },
+  {
+   "source": "/ru/prodvizhenie-saita",
+   "destination": "/ru/uslugi/prodvizhenie-saita",
+   "permanent": true
+  },
+  {
+   "source": "/ru/redizayn-sayta",
+   "destination": "/ru/uslugi/redizayn-sayta",
+   "permanent": true
+  },
+  {
+   "source": "/ru/sait-na-wordpress",
+   "destination": "/ru/uslugi/sait-na-wordpress",
+   "permanent": true
+  }
+ ]
+}

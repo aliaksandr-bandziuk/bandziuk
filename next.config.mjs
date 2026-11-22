@@ -1,6 +1,28 @@
 /** @type {import('next').NextConfig} */
 
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { STATIC_REDIRECTS } from "./src/lib/redirects/staticRedirects.mjs";
+
+// Список редиректов, собранный скриптом scripts/build-redirects.mjs и лежащий
+// в репозитории. Он — запасной источник на случай, когда Sanity при сборке не
+// ответил. До 22.11.2026 такого запаса не было: неудачный запрос означал деплой
+// вообще без динамических редиректов, набор правил менялся от сборки к сборке,
+// и Google ловил то петлю, то ошибку (20 адресов в «Ошибка переадресации» и 168
+// в «Страница с переадресацией» в Search Console).
+function cachedRedirects() {
+  const file = path.join(
+    path.dirname(fileURLToPath(import.meta.url)),
+    "src", "lib", "redirects", "generatedRedirects.json"
+  );
+  try {
+    const data = JSON.parse(fs.readFileSync(file, "utf8"));
+    return Array.isArray(data.rules) ? data.rules : [];
+  } catch {
+    return [];
+  }
+}
 
 
 async function buildDynamicRedirects() {
@@ -141,21 +163,34 @@ const nextConfig = {
   },
 
   async redirects() {
-    const dynamic = await buildDynamicRedirects();
-    const total = STATIC_REDIRECTS.length + dynamic.length;
+    let dynamic = await buildDynamicRedirects();
+    const cached = cachedRedirects();
 
-    if (dynamic.length === 0) {
+    // Sanity не ответил — берём список из репозитория. Деплой без динамических
+    // редиректов недопустим: он уводит сотни адресов из индекса.
+    if (dynamic.length === 0 && cached.length > 0) {
+      dynamic = cached;
       console.warn(
-        '[redirects] WARNING: dynamic redirect list is empty — Sanity fetch likely failed ' +
-        'for all locales. Verify SANITY_API_TOKEN is set in your Vercel environment variables ' +
-        'and that the Sanity project is reachable from the build runner.'
-      );
-    } else {
-      console.log(
-        `[redirects] Done: ${total} total redirects ` +
-        `(${dynamic.length} dynamic from Sanity + ${STATIC_REDIRECTS.length} static overrides)`
+        `[redirects] Sanity fetch returned nothing — using the committed list ` +
+        `(${cached.length} rules from src/lib/redirects/generatedRedirects.json).`
       );
     }
+
+    if (dynamic.length === 0) {
+      throw new Error(
+        '[redirects] No dynamic redirects: Sanity returned nothing and ' +
+        'src/lib/redirects/generatedRedirects.json is missing or empty. ' +
+        'Run `node scripts/build-redirects.mjs` and commit the file. ' +
+        'Failing the build on purpose: shipping without these redirects changes ' +
+        'the redirect set between deploys and breaks indexing.'
+      );
+    }
+
+    const total = STATIC_REDIRECTS.length + dynamic.length;
+    console.log(
+      `[redirects] Done: ${total} total redirects ` +
+      `(${dynamic.length} dynamic + ${STATIC_REDIRECTS.length} static overrides)`
+    );
 
     // Static one-offs first so they can override any auto-derived entry
     // for the same source path.

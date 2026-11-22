@@ -1,0 +1,338 @@
+[
+ {
+  "base": "ecommerce-web-design",
+  "lang": "en",
+  "slug": "ecommerce-web-design",
+  "bodyLinks": 0,
+  "inNav": false
+ },
+ {
+  "base": "ecommerce-web-design",
+  "lang": "pl",
+  "slug": "tworzenie-sklepu-internetowego",
+  "bodyLinks": 0,
+  "inNav": false
+ },
+ {
+  "base": "ecommerce-web-design",
+  "lang": "ru",
+  "slug": "razrabotka-internet-magazina",
+  "bodyLinks": 0,
+  "inNav": false
+ },
+ {
+  "base": "seo-poland-market",
+  "lang": "ru",
+  "slug": "prodvizhenie-na-polskiy-rynok",
+  "bodyLinks": 0,
+  "inNav": false
+ },
+ {
+  "base": "accounting-firm-seo",
+  "lang": "en",
+  "slug": "seo-for-accounting-firms",
+  "bodyLinks": 2,
+  "inNav": false
+ },
+ {
+  "base": "adult-seo",
+  "lang": "en",
+  "slug": "adult-seo",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "adult-seo",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-dla-branzy-adult",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "adult-seo",
+  "lang": "ru",
+  "slug": "seo-dlya-adalt-saitov",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "adult-website-design",
+  "lang": "en",
+  "slug": "adult-website-design",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "adult-website-design",
+  "lang": "pl",
+  "slug": "strona-internetowa-dla-branzy-adult",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "adult-website-design",
+  "lang": "ru",
+  "slug": "sait-dlya-adalt-proekta",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "advocate-seo",
+  "lang": "ru",
+  "slug": "prodvizhenie-saita-advokata",
+  "bodyLinks": 2,
+  "inNav": false
+ },
+ {
+  "base": "business-card-website",
+  "lang": "ru",
+  "slug": "sait-vizitka",
+  "bodyLinks": 2,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-bialystok",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-bialystok",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-bydgoszcz",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-bydgoszcz",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-czestochowa",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-czestochowa",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-gdansk",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-gdansk",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-katowice",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-katowice",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-krakow",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-krakow",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-lodz",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-lodz",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-lublin",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-lublin",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-opole",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-opole",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-poznan",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-poznan",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-radom",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-radom",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-rzeszow",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-rzeszow",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-szczecin",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-szczecin",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-torun",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-torun",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "pozycjonowanie-stron-wroclaw",
+  "lang": "pl",
+  "slug": "pozycjonowanie-stron-wroclaw",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "seo-consultation",
+  "lang": "pl",
+  "slug": "konsultacje-seo",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "seo-consultation",
+  "lang": "ru",
+  "slug": "seo-konsultaciya",
+  "bodyLinks": 2,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-bialystok",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-bialystok",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-bydgoszcz",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-bydgoszcz",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-czestochowa",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-czestochowa",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-gdansk",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-gdansk",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-katowice",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-katowice",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-krakow",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-krakow",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-lodz",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-lodz",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-lublin",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-lublin",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-opole",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-opole",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-poznan",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-poznan",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-radom",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-radom",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-rzeszow",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-rzeszow",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-szczecin",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-szczecin",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-torun",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-torun",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "tworzenie-stron-internetowych-wroclaw",
+  "lang": "pl",
+  "slug": "tworzenie-stron-internetowych-wroclaw",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "website-design-for-models",
+  "lang": "en",
+  "slug": "website-design-for-models",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "website-design-for-models",
+  "lang": "pl",
+  "slug": "strona-internetowa-dla-modelki",
+  "bodyLinks": 1,
+  "inNav": false
+ },
+ {
+  "base": "website-design-for-models",
+  "lang": "ru",
+  "slug": "sozdanie-saita-modeli",
+  "bodyLinks": 1,
+  "inNav": false
+ }
+]

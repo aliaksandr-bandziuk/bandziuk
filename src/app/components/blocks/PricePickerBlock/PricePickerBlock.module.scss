@@ -147,14 +147,21 @@
   // without this it pokes out past the panel's rounded bottom corners.
   overflow: hidden;
 
-  & + & {
+  &[data-anim] {
+    animation: panelIn 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+// Without JavaScript every panel is on the page at once, so they are stacked
+// as separate cards. This is written as "while the shell has no data-js"
+// rather than as a rule the JS case overrides: as an override it compiled to
+// a selector that never matched, and panels two and three kept the 18px gap
+// and the top border after the tab was switched.
+.shell:not([data-js]) {
+  .panel + .panel {
     margin-top: 18px;
     border-top: 1px solid var(--border-subtle);
     border-radius: var(--radius-lg);
-  }
-
-  &[data-anim] {
-    animation: panelIn 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -163,12 +170,6 @@
     display: none;
 
     &[data-on] { display: block; }
-
-    & + & {
-      margin-top: 0;
-      border-top: 0;
-      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-    }
   }
 }
 

@@ -10,6 +10,7 @@
 @mixin breadcrumb-nav {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   font-size: 13px;
   color: var(--text-tertiary);
 }
@@ -26,6 +27,11 @@
 @mixin breadcrumb-item {
   display: flex;
   align-items: center;
+  // A page title long enough to fill a phone's width has to be allowed both
+  // to wrap onto the next line as a crumb and to break inside itself.
+  flex-wrap: wrap;
+  min-width: 0;
+  white-space: normal;
 }
 
 @mixin breadcrumb-separator {

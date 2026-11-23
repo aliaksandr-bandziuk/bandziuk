@@ -32,3 +32,13 @@
 .noPaddingTop {
   padding-top: 0 !important;
 }
+
+// A self-banded block anywhere else on the page has the same problem on both
+// sides: its component already draws a bg-surface band with its own padding,
+// so the wrapper's padding adds a strip of bg-base above and below it.
+// Between two banded neighbours that reads as a seam — measured at 44px a
+// side on /pricing, where the CTA sits between a table and a card block.
+.noPaddingY {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}

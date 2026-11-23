@@ -33,6 +33,7 @@ import {
   TableBlock,
   ServiceFeaturesBlock,
   GridBlock,
+  PricePickerBlock as PricePickerBlockType,
   AnimationBulletsBlock,
   FormFullBlock,
   StepsBlock,
@@ -62,6 +63,7 @@ import FaqHomepage from "@/app/components/sections/FaqHomepage/FaqHomepage";
 import ServiceList from "@/app/components/sections/ServiceList/ServiceList";
 import DoubleTextBlockComponent from "@/app/components/blocks/DoubleTextBlockComponent/DoubleTextBlockComponent";
 import GridBlockComponent from "@/app/components/blocks/GridBlockComponent/GridBlockComponent";
+import PricePickerBlock from "@/app/components/blocks/PricePickerBlock/PricePickerBlock";
 import AnimationBulletsBlockComponent from "@/app/components/blocks/AnimationBulletsBlock/AnimationBulletsBlock";
 import WorkProcessBlockComponent from "@/app/components/blocks/WorkProcessBlockComponent/WorkProcessBlockComponent";
 import PortfolioBlockComponent from "@/app/components/blocks/PortfolioBlockComponent/PortfolioBlockComponent";
@@ -360,6 +362,8 @@ const SinglePage = async (props: Props) => {
         return <OfferListBlock key={block._key} block={block} />;
       case "portfolioPickBlock":
         return <PortfolioPickBlock key={block._key} block={block} lang={lang} />;
+      case "pricePickerBlock":
+        return <PricePickerBlock key={block._key} block={block as PricePickerBlockType} />;
       case "quoteFormBlock":
         return <QuoteFormBlock key={block._key} block={block} lang={lang} pageKey={page._id} />;
       case "serviceFeaturesBlock":
@@ -513,13 +517,18 @@ const SinglePage = async (props: Props) => {
           _key: fb._key,
           _type: "faqSection",
           title: fb.title ?? "",
-          pretitle: "",
+          pretitle: fb.pretitle ?? "",
           subtitle: "",
           faq: fb.faq,
         };
 
         return (
-          <FaqHomepage key={fb._key} faqSection={faqSection} noOuterMargin />
+          <FaqHomepage
+            key={fb._key}
+            faqSection={faqSection}
+            noOuterMargin
+            compact={fb.compact}
+          />
         );
       }
       case "contactMethodsBlock":
@@ -544,7 +553,10 @@ const SinglePage = async (props: Props) => {
   // component already draws a bg-surface card, so the wrapper's padding-top
   // (which would just be extra invisible bg-base space before that card)
   // gets zeroed for the first block instead.
-  const WRAPPER_BANDED_TYPES = new Set(["tableBlock", "serviceFeaturesBlock", "offerListBlock"]);
+  // gridBlock belongs here with the other card blocks: it was the only one
+  // rendered on the page background, which left the question cards on the
+  // pricing page sitting in a 3000px stretch of unbroken black.
+  const WRAPPER_BANDED_TYPES = new Set(["tableBlock", "serviceFeaturesBlock", "offerListBlock", "gridBlock", "pricePickerBlock"]);
   const SELF_BANDED_TYPES = new Set([
     "landingCtaBlock",
     "formMinimalBlock",
@@ -600,16 +612,27 @@ const SinglePage = async (props: Props) => {
         {allBlocks.map((block, index) => {
           // "Proof" sections get a surface band so long pages read as
           // chapters — same treatment landingCtaBlock already has.
-          const isBanded = WRAPPER_BANDED_TYPES.has(block._type);
+          // A block may override the band for its type. The default rhythm
+          // comes from the type, but a long page sometimes needs a text block
+          // on the surface or a card block on the page background so that two
+          // neighbours do not merge into one stretch of the same colour.
+          const banded = (block as { banded?: boolean }).banded;
+          // Set on a block that continues the section above it rather than
+          // starting a new one, so the two do not get a full section gap
+          // between them.
+          const tightTop = (block as { tightTop?: boolean }).tightTop === true;
+          const isBanded = banded === undefined ? WRAPPER_BANDED_TYPES.has(block._type) : banded;
+          const isSelfBanded = SELF_BANDED_TYPES.has(block._type);
           const isFirstSelfBanded =
-            index === 0 && firstBlockIsSelfBanded && SELF_BANDED_TYPES.has(block._type);
+            index === 0 && firstBlockIsSelfBanded && isSelfBanded;
           return (
             <div
               key={block._key}
               className={[
                 styles.sectionRhythm,
                 isBanded ? styles.sectionBanded : "",
-                isFirstSelfBanded ? styles.noPaddingTop : "",
+                isFirstSelfBanded || tightTop ? styles.noPaddingTop : "",
+                isSelfBanded && !isFirstSelfBanded ? styles.noPaddingY : "",
               ]
                 .filter(Boolean)
                 .join(" ")}

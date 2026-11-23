@@ -63,6 +63,16 @@
   max-width: 18.5em;
 }
 
+// The pricing page's scale: 22px on a phone to 30px on a desktop, against the
+// 40-55px default. A page that is a long document rather than a landing needs
+// its section headings to read as parts of one text, not as separate posters.
+.title.titleCompact {
+  font-size: clamp(1.375rem, 1.2rem + 0.7vw, 1.875rem);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
 .subtitle {
   font-family: var(--font-body);
   font-size: clamp(1.063rem, 1rem + 0.35vw, 1.25rem);

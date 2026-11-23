@@ -9,7 +9,7 @@ type Props = {
   subtitle?: string | React.ReactNode;
   align?: "center" | "left";
   as?: HeadingLevel;
-  size?: "default" | "hero";
+  size?: "default" | "hero" | "compact";
   /**
    * "pill" is the section default. "plain" drops the rounded background for
    * eyebrows that are a full sentence — the hero's name-and-role line wraps to
@@ -55,7 +55,11 @@ const SectionHeading: React.FC<Props> = ({
       )}
       {title && (
         <Heading
-          className={[styles.title, size === "hero" ? styles.titleHero : ""]
+          className={[
+            styles.title,
+            size === "hero" ? styles.titleHero : "",
+            size === "compact" ? styles.titleCompact : "",
+          ]
             .filter(Boolean)
             .join(" ")}
         >

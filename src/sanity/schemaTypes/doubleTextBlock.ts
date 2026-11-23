@@ -85,6 +85,20 @@ const doubleTextBlock = defineType({
       ],
     }),
     defineField({
+      name: "variant",
+      title: "Layout",
+      type: "string",
+      options: { list: [{ title: "Plain columns (default)", value: "plain" }, { title: "Two cards", value: "cards" }] },
+      description: "«Two cards» gives each column the card background, border and the denser type used on the pricing page.",
+    }),
+    defineField({
+      name: "tightTop",
+      title: "No gap above",
+      type: "boolean",
+      description:
+        "For a block that continues the section above it rather than starting a new one — it drops the section gap at the top.",
+    }),
+    defineField({
       name: "isDivider",
       title: "Is Divider",
       type: "boolean",

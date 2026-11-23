@@ -159,6 +159,7 @@ const singlepage = {
         { type: "formMinimalBlock" },
         { type: "formFullBlock" },
         { type: "gridBlock" },
+        { type: "pricePickerBlock" },
         { type: "landingCtaBlock" },
         { type: "animationBulletsBlock" },
         { type: "tableBlock" },

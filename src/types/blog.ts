@@ -65,6 +65,12 @@ export type TextContent = {
   backgroundFull: string;
   /** "guide": contents beside the text on desktop, collapsible H2 sections on phones. */
   layout?: "default" | "guide";
+  /** Small mono label above the first heading. */
+  eyebrow?: string;
+  /** Document-scale headings instead of the landing scale. */
+  compact?: boolean;
+  banded?: boolean;
+  tightTop?: boolean;
 };
 
 export type DoubleImagesBlock = {
@@ -216,6 +222,9 @@ export type DoubleTextBlock = {
   leftContent: ContentChoice;
   rightContent: ContentChoice;
   isDivider: boolean;
+  variant?: "plain" | "cards";
+  banded?: boolean;
+  tightTop?: boolean;
   marginTop?: "small" | "medium" | "large";
   marginBottom?: "small" | "medium" | "large";
   paddingTop?: "small" | "medium" | "large";
@@ -297,6 +306,10 @@ export type FaqBlock = {
   _key: string;
   _type: "faqBlock";
   title?: string;
+  pretitle?: string;
+  compact?: boolean;
+  banded?: boolean;
+  tightTop?: boolean;
   faq: AccordionBlock;
   marginTop?: "small" | "medium" | "large";
   marginBottom?: "small" | "medium" | "large";
@@ -361,10 +374,69 @@ export type GridBlock = {
   _type: "gridBlock";
   title: string;
   items: ServiceItem[];
+  eyebrow?: string;
+  align?: "center" | "left";
+  variant?: "cards" | "answers" | "numbered";
+  banded?: boolean;
+  tightTop?: boolean;
   marginTop?: "small" | "medium" | "large";
   marginBottom?: "small" | "medium" | "large";
 };
 // === Конец типов для GridBlock ===
+
+// === Типы для PricePickerBlock ===
+export type PickerOption = {
+  _key: string;
+  id: string;
+  name: string;
+  price: string;
+  term?: string;
+  includes?: string[];
+};
+
+export type PickerChoice = {
+  _key: string;
+  label: string;
+  picks?: string[];
+  push?: string;
+};
+
+export type PickerQuestion = {
+  _key: string;
+  id: string;
+  label: string;
+  choices: PickerChoice[];
+};
+
+export type PickerTrack = {
+  _key: string;
+  id: string;
+  label: string;
+  heading: string;
+  lead?: string;
+  options: PickerOption[];
+  questions: PickerQuestion[];
+  linkLabel?: string;
+  linkHref?: string;
+};
+
+export type PricePickerBlock = {
+  _key: string;
+  _type: "pricePickerBlock";
+  eyebrow?: string;
+  title: string;
+  intro?: string;
+  tracks: PickerTrack[];
+  coversLabel?: string;
+  movesLabel?: string;
+  noPushText?: string;
+  ctaLabel?: string;
+  ctaHref?: string;
+  disclaimer?: string;
+  marginTop?: "small" | "medium" | "large";
+  marginBottom?: "small" | "medium" | "large";
+};
+// === Конец типов для PricePickerBlock ===
 
 // === Типы для RelatedServicesBlock ===
 export type RelatedServiceItem = {

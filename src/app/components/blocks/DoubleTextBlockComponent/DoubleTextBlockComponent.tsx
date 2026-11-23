@@ -45,6 +45,11 @@ const DoubleTextBlockComponent: FC<Props> = ({ block }) => {
       ? marginValues[marginBottom]
       : "0";
 
+  // In the card variant the padding belongs to the card and is set in CSS;
+  // an inline "0" here would override the shorthand's top and bottom and
+  // leave the text sitting on the card's edge.
+  const isCards = block.variant === "cards";
+
   const computedPaddingTop =
     paddingTop && marginValues[paddingTop] ? marginValues[paddingTop] : "0";
 
@@ -91,7 +96,9 @@ const DoubleTextBlockComponent: FC<Props> = ({ block }) => {
   return (
     <div className="container">
       <div
-        className={styles.doubleTextBlock}
+        className={[styles.doubleTextBlock, block.variant === "cards" ? styles.cards : ""]
+          .filter(Boolean)
+          .join(" ")}
         style={{
           marginTop: computedMarginTop,
           marginBottom: computedMarginBottom,
@@ -103,20 +110,22 @@ const DoubleTextBlockComponent: FC<Props> = ({ block }) => {
         <div className={`${styles.wrapper} ${wrapperAlignClass}`}>
           <div
             className={styles.leftContent}
-            style={{
-              paddingTop: computedPaddingTop,
-              paddingBottom: computedPaddingBottom,
-            }}
+            style={
+              isCards
+                ? undefined
+                : { paddingTop: computedPaddingTop, paddingBottom: computedPaddingBottom }
+            }
           >
             {block.leftContent && renderContent(block.leftContent)}
           </div>
           {block.isDivider && <div className={styles.divider} />}
           <div
             className={styles.rightContent}
-            style={{
-              paddingTop: computedPaddingTop,
-              paddingBottom: computedPaddingBottom,
-            }}
+            style={
+              isCards
+                ? undefined
+                : { paddingTop: computedPaddingTop, paddingBottom: computedPaddingBottom }
+            }
           >
             {block.rightContent && renderContent(block.rightContent)}
           </div>

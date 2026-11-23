@@ -11,9 +11,11 @@ type Props = {
   // has no such wrapper and needs its own outer spacing), so the margin
   // stays the default and only the singlepage caller opts out of it.
   noOuterMargin?: boolean;
+  /** Document-scale heading, left-aligned. The accordion is untouched. */
+  compact?: boolean;
 };
 
-const FaqHomepage: FC<Props> = ({ faqSection, noOuterMargin }) => {
+const FaqHomepage: FC<Props> = ({ faqSection, noOuterMargin, compact }) => {
   const { title, pretitle, subtitle, faq } = faqSection;
 
   if (!faq) {
@@ -32,11 +34,14 @@ const FaqHomepage: FC<Props> = ({ faqSection, noOuterMargin }) => {
               pretitle string and dropped the whole heading, H2 included,
               whenever a pretitle was set: the homepage FAQ had no H2. */}
           {(pretitle || title || subtitle) && (
-            <div className={styles.text}>
+            <div className={[styles.text, compact ? styles.textCompact : ""].filter(Boolean).join(" ")}>
               <SectionHeading
                 eyebrow={pretitle}
+                eyebrowVariant={compact ? "plain" : "pill"}
                 title={title}
                 subtitle={subtitle}
+                align={compact ? "left" : "center"}
+                size={compact ? "compact" : "default"}
               />
             </div>
           )}

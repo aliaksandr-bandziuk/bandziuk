@@ -24,6 +24,14 @@
 
 .article {
   min-width: 0;
+
+  // The sidebar is only rendered when the block has more than one H2, but the
+  // grid keeps its 240px first column either way — so a single-section guide
+  // used to drop its whole text into that narrow column. Spanning both
+  // columns when nothing sits beside it keeps such a block readable.
+  &:only-child {
+    grid-column: 1 / -1;
+  }
 }
 
 // Phones: each section is a card whose H2 is a button.

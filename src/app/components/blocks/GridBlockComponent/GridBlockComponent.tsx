@@ -20,7 +20,13 @@ const marginValues: Record<string, string> = {
 };
 
 const GridBlockComponent: FC<Props> = ({ block }) => {
-  const { title, items, marginTop, marginBottom } = block;
+  const { title, items, eyebrow, align, variant, marginTop, marginBottom } = block;
+
+  // "answers" and "numbered" are the pricing-page layouts: left-aligned,
+  // denser, no icon badges. The default stays exactly as it was everywhere
+  // else on the site.
+  const dense = variant === "answers" || variant === "numbered";
+  const numbered = variant === "numbered";
 
   const computedMarginTop =
     marginTop && marginValues[marginTop] ? marginValues[marginTop] : "0";
@@ -34,15 +40,28 @@ const GridBlockComponent: FC<Props> = ({ block }) => {
 
   return (
     <section
-      className={styles.gridBlock}
+      className={[
+        styles.gridBlock,
+        variant === "answers" ? styles.answers : "",
+        numbered ? styles.numbered : "",
+      ]
+        .filter(Boolean)
+        .join(" ")}
       style={{
         marginTop: computedMarginTop,
         marginBottom: computedMarginBottom,
       }}
     >
       <div className="container">
-        {title && (
-          <SectionHeading title={title} align="center" className={styles.heading} />
+        {(title || eyebrow) && (
+          <SectionHeading
+            eyebrow={eyebrow}
+            eyebrowVariant={dense ? "plain" : "pill"}
+            title={title}
+            align={align ?? "center"}
+            size={dense ? "compact" : "default"}
+            className={dense ? styles.headingDense : styles.heading}
+          />
         )}
 
         <div className={styles.items}>
@@ -51,7 +70,12 @@ const GridBlockComponent: FC<Props> = ({ block }) => {
               <FadeInOnScroll index={index}>
                 <div className={styles.serviceItem}>
                   <div className={styles.serviceItemWrapper}>
-                    {item.iconName ? (
+                    {numbered && (
+                      <span className={styles.rowNumber} aria-hidden="true">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                    )}
+                    {dense ? null : item.iconName ? (
                       <IconBadge>
                         <Icon name={item.iconName} />
                       </IconBadge>

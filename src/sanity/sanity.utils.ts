@@ -265,6 +265,10 @@ export async function getSinglePageByLang(
           _key,
           _type,
           layout,
+          eyebrow,
+          compact,
+          banded,
+          tightTop,
           backgroundColor,
           paddingVertical,
           paddingHorizontal,
@@ -453,6 +457,9 @@ export async function getSinglePageByLang(
         _type == "quoteFormBlock" => {
           _key,
           _type,
+          // The only block with an explicit field list here, so anything new
+          // on it has to be named — everything else passes through via @.
+          banded,
           title,
           subtitle,
           contextLabel,

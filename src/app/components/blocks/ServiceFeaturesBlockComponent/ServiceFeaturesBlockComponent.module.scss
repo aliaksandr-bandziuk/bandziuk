@@ -50,7 +50,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  // Cards in a row hold different amounts of text. Centring them vertically
+  // left every title at its own height, so the row read as ragged; aligning
+  // from the top gives the eye one line to follow.
+  justify-content: flex-start;
   gap: 1rem;
   text-align: center;
 }

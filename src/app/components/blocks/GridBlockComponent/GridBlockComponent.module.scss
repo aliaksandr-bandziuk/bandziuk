@@ -89,3 +89,163 @@
     color: var(--accent-strong);
   }
 }
+
+// === Pricing-page layouts =================================================
+// Values taken from the approved prototype rather than from the landing
+// defaults: 24px above the items instead of up to 80px, 20px of padding in a
+// card instead of 55px, left-aligned text, no icon badges.
+
+.headingDense {
+  margin-bottom: 24px;
+}
+
+.answers {
+  // Two columns from the smallest phone up, four on a desktop. auto-fit put
+  // five in a row at 1758px, which left the last row with three.
+  .items {
+    // Phones: a rail instead of a grid. Two columns made every card a
+    // 140px-wide sliver; one column hid how many answers there are. A rail
+    // showing 1.2 cards says «there is more here» and keeps each card
+    // readable. The negative margin lets it run to the screen edges while
+    // the first card still lines up with the text above it.
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 12px;
+    margin-inline: -20px;
+    padding-inline: 20px;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 20px;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar { display: none; }
+
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-inline: 0;
+      padding-inline: 0;
+    }
+
+    @media screen and (min-width: 1024px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .serviceItemWrapperGrid {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+
+    @media screen and (min-width: 768px) {
+      flex: initial;
+    }
+  }
+
+  .serviceItem {
+    display: flex;
+    padding: 20px;
+
+    @media screen and (min-width: 768px) {
+      padding: 20px;
+    }
+  }
+
+  // The chain below exists so the link can be pushed to the bottom of the
+  // card: every wrapper between the card and the link has to stretch, or
+  // margin-top:auto has nothing to push against and the buttons sit at
+  // whatever height the text above them happens to end.
+  .serviceItemWrapper {
+    align-items: flex-start;
+    gap: 0;
+    flex: 1;
+    width: 100%;
+  }
+
+  .serviceItemText {
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+    flex: 1;
+    width: 100%;
+  }
+
+  .serviceItemLink {
+    margin-top: auto;
+  }
+
+  .serviceItemTitle {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+
+  .serviceItemDescription {
+    font-size: 14.5px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+  }
+
+  .serviceItemLink {
+    font-size: 14px;
+  }
+}
+
+// Numbered rows: no card, a rule above each row, two columns on desktop.
+.numbered {
+  .items {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0 44px;
+    max-width: 1000px;
+
+    @media screen and (min-width: 820px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .serviceItem {
+    background: none;
+    border: 0;
+    border-top: 1px solid var(--border-subtle);
+    border-radius: 0;
+    padding: 18px 0;
+
+    @media screen and (min-width: 768px) {
+      padding: 18px 0;
+    }
+  }
+
+  .serviceItemWrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .rowNumber {
+    flex: 0 0 28px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--accent);
+  }
+
+  .serviceItemText {
+    align-items: flex-start;
+    text-align: left;
+    gap: 3px;
+  }
+
+  .serviceItemTitle {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+
+  .serviceItemDescription {
+    font-size: 14.5px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    max-width: 46ch;
+  }
+}

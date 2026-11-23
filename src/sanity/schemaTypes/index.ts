@@ -30,6 +30,7 @@ import portfolioPage from "./portfolioPage";
 import serviceFeature from "./serviceFeature";
 import serviceFeaturesBlock from "./serviceFeaturesBlock";
 import gridBlock from "./gridBlock";
+import pricePickerBlock from "./pricePickerBlock";
 import animationBulletsBlock from "./animationBulletsBlock";
 import workProcessBlock from "./workProcessBlock";
 import portfolioBlock from "./portfolioBlock";
@@ -75,6 +76,7 @@ export const schemaTypes = [
   landingCtaBlock,
   portfolioBlock,
   gridBlock,
+  pricePickerBlock,
   tableBlock,
   reviewsFullBlock,
   animationBulletsBlock,

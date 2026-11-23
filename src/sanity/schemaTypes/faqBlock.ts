@@ -11,6 +11,17 @@ const faqBlock = defineType({
       type: "string",
     }),
     defineField({
+      name: "pretitle",
+      title: "Eyebrow",
+      type: "string",
+    }),
+    defineField({
+      name: "compact",
+      title: "Compact heading",
+      type: "boolean",
+      description: "Document-scale heading, left-aligned. Only the heading — the accordion is unchanged.",
+    }),
+    defineField({
       name: "faq",
       title: "FAQ",
       type: "accordionBlock",

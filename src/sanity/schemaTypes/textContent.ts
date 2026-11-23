@@ -57,6 +57,33 @@ const textContent = defineType({
       },
     }),
     defineField({
+      name: "eyebrow",
+      title: "Eyebrow",
+      type: "string",
+      description: "Small label above the first heading. Used on the pricing page to keep the sections labelled.",
+    }),
+    defineField({
+      name: "compact",
+      title: "Compact typography",
+      type: "boolean",
+      description:
+        "Smaller headings and a document-like rhythm instead of the landing scale. Used on long reading pages such as pricing.",
+    }),
+    defineField({
+      name: "tightTop",
+      title: "No gap above",
+      type: "boolean",
+      description:
+        "For a block that continues the section above it rather than starting a new one — it drops the section gap at the top.",
+    }),
+    defineField({
+      name: "banded",
+      title: "Background band",
+      type: "boolean",
+      description:
+        "Leave empty for the default for this block type. Set it to place the block on the surface band or on the page background — used to keep long pages alternating.",
+    }),
+    defineField({
       name: "marginTop",
       title: "Margin Top",
       type: "string",

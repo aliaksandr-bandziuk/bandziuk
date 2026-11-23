@@ -17,10 +17,15 @@ const marginValues: Record<string, string> = {
 const TextContentComponent: FC<Props> = ({ block }) => {
   const { paddingVertical, paddingHorizontal } = block;
 
+  // "none" has always been offered in the schema but never handled here, so
+  // a block that asked for no vertical padding still got the 25px default —
+  // which is what made the split sections on /pricing drift apart.
   const computedPaddingVertical =
-    paddingVertical && marginValues[paddingVertical]
-      ? marginValues[paddingVertical]
-      : "25px";
+    paddingVertical === "none"
+      ? "0"
+      : paddingVertical && marginValues[paddingVertical]
+        ? marginValues[paddingVertical]
+        : "25px";
 
   const computedPaddingHorizontal =
     paddingHorizontal && marginValues[paddingHorizontal]
@@ -43,7 +48,9 @@ const TextContentComponent: FC<Props> = ({ block }) => {
     >
       <div className="container">
         <div
-          className={styles.textContentComponent}
+          className={[styles.textContentComponent, block.compact ? styles.compact : ""]
+            .filter(Boolean)
+            .join(" ")}
           style={{
             background: block.backgroundColor || "transparent",
             paddingTop: computedPaddingVertical,
@@ -54,6 +61,7 @@ const TextContentComponent: FC<Props> = ({ block }) => {
             color: block.textColor || "inherit",
           }}
         >
+          {block.eyebrow && <div className={styles.eyebrow}>{block.eyebrow}</div>}
           <PortableText value={block.content} components={RichText} />
         </div>
       </div>

@@ -72,6 +72,13 @@ const quoteFormBlock = defineType({
         }),
       },
     }),
+    defineField({
+      name: "banded",
+      title: "Background band",
+      type: "boolean",
+      description:
+        "Leave empty for the default for this block type. Set it to place the block on the surface band or on the page background — used to keep long pages alternating.",
+    }),
   ],
   preview: {
     select: { title: "title" },

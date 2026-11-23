@@ -1,0 +1,374 @@
+// Sits inside the page's banded wrapper (bg-surface), like the other card
+// blocks — see WRAPPER_BANDED_TYPES in the page component.
+//
+// Visibility rule: with no JavaScript every tab and every option card stays on
+// screen, so the whole price list is readable and crawlable. The shell sets
+// data-js="on" once it has mounted, and from then on data-on decides.
+.picker {
+  padding: 4px 0;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: clamp(1.375rem, 1.2rem + 0.7vw, 1.875rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+
+.intro {
+  color: var(--text-secondary);
+  max-width: 62ch;
+  margin: 0 0 6px;
+}
+
+.shell {
+  margin-top: 26px;
+}
+
+/* tabs: real links, so each track has a fragment that can be shared */
+
+// The strip scrolls on a phone, and a scrollable strip has to say so. Two
+// signals, because one was not enough: the labels are tightened so the next
+// tab always peeks past the edge, and this wrapper fades whichever side has
+// more tabs behind it. data-fade is set by PickerShell from the strip's own
+// scroll position, so the fade disappears once there is nothing left to
+// reach.
+.tabsWrap {
+  position: relative;
+}
+
+.tabsWrap::before,
+.tabsWrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 1px;
+  width: 42px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 2;
+}
+
+.tabsWrap::before {
+  left: 0;
+  background: linear-gradient(to right, var(--bg-surface), rgba(0, 0, 0, 0));
+}
+
+.tabsWrap::after {
+  right: 0;
+  background: linear-gradient(to left, var(--bg-surface), rgba(0, 0, 0, 0));
+}
+
+.tabsWrap[data-fade="right"]::after,
+.tabsWrap[data-fade="both"]::after,
+.tabsWrap[data-fade="left"]::before,
+.tabsWrap[data-fade="both"]::before {
+  opacity: 1;
+}
+
+.tabs {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  // Three tabs do not fit on a phone. Wrapping put them on two lines and
+  // broke the strip; scrolling keeps one row and keeps the sliding
+  // indicator meaningful.
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  border-bottom: 1px solid var(--border-subtle);
+
+  &::-webkit-scrollbar { display: none; }
+}
+
+.tab {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  // Tight enough on a phone that the third tab starts before the screen
+  // edge; the full padding comes back as soon as there is room for it.
+  padding: 12px 12px;
+  color: var(--text-secondary);
+  font-size: 14px;
+
+  @media screen and (min-width: 560px) {
+    padding: 13px 20px;
+    font-size: 15px;
+  }
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 12px 12px 0 0;
+  transition: color 0.2s ease, background 0.2s ease;
+
+  &:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  &[data-on] {
+    color: var(--text-primary);
+    background: var(--bg-elevated);
+  }
+}
+
+.tabline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: var(--accent);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.panel {
+  border: 1px solid var(--border-subtle);
+  border-top: 0;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  background: var(--bg-elevated);
+  // No bottom padding: the result slab is full-bleed and darker than the
+  // panel, so 4px of panel showing under it read as a bottom border four
+  // times thicker than the 1px on the sides.
+  padding: 24px 24px 0;
+  // The result slab is full-bleed inside the panel and square-cornered, so
+  // without this it pokes out past the panel's rounded bottom corners.
+  overflow: hidden;
+
+  & + & {
+    margin-top: 18px;
+    border-top: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+  }
+
+  &[data-anim] {
+    animation: panelIn 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+[data-js="on"] {
+  .panel {
+    display: none;
+
+    &[data-on] { display: block; }
+
+    & + & {
+      margin-top: 0;
+      border-top: 0;
+      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    }
+  }
+}
+
+@keyframes panelIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.panelTitle {
+  font-size: clamp(1.0625rem, 1rem + 0.4vw, 1.25rem);
+  font-weight: 500;
+  margin: 0 0 6px;
+}
+
+.panelLead {
+  color: var(--text-secondary);
+  font-size: 15px;
+  margin: 0;
+  max-width: 68ch;
+}
+
+.questions {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.question {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.qLabel {
+  flex: 0 0 210px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  padding-top: 9px;
+
+  @media screen and (max-width: 760px) {
+    flex: 1 1 100%;
+    padding-top: 0;
+  }
+}
+
+.choices {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.choice {
+  cursor: pointer;
+  padding: 9px 15px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 14px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+
+  &:hover { border-color: rgba(255, 138, 60, 0.45); }
+
+  &[data-on] {
+    border-color: var(--accent);
+    background: rgba(255, 138, 60, 0.14);
+  }
+}
+
+.result {
+  margin: 22px -24px 0;
+  border-top: 1px solid var(--border-subtle);
+  background: var(--bg-base);
+}
+
+.option + .option {
+  border-top: 1px solid var(--border-subtle);
+}
+
+[data-js="on"] .option {
+  display: none;
+
+  &[data-on] { display: block; }
+
+  &[data-anim] { animation: cardIn 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+}
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel[data-anim],
+  [data-js="on"] .option[data-anim] { animation: none; }
+  .tabline { transition: none; }
+}
+
+.optionTop {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 20px 24px;
+}
+
+.optionName {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.optionPrice {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: clamp(1.5rem, 1.2rem + 1.1vw, 2.125rem);
+  margin-top: 4px;
+  white-space: nowrap;
+}
+
+.optionTerm {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.optionBody {
+  padding: 0 24px 20px;
+
+  ul {
+    margin: 8px 0 0;
+    padding-left: 18px;
+    font-size: 15px;
+  }
+
+  li { margin-bottom: 5px; }
+}
+
+.colTitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.moves {
+  padding: 18px 24px 20px;
+  border-top: 1px solid var(--border-subtle);
+
+  ul {
+    margin: 8px 0 0;
+    padding-left: 18px;
+    font-size: 15px;
+  }
+
+  li {
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+  }
+}
+
+[data-js="on"] .moves li {
+  display: none;
+
+  &[data-on] { display: list-item; }
+}
+
+.moves li[data-nopush] { display: none; }
+[data-js="on"] .moves li[data-nopush][data-on] { display: list-item; }
+
+.cta {
+  padding: 18px 24px 4px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #1a1200;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.disclaimer {
+  color: var(--text-secondary);
+  font-size: 13px;
+  padding: 14px 24px 0;
+  margin: 0;
+  max-width: 78ch;
+}
+
+.moreLink {
+  padding: 12px 24px 20px;
+  margin: 0;
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+  }
+}

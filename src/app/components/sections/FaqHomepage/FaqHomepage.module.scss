@@ -19,6 +19,15 @@
 }
 
 
+// Document-scale heading: left-aligned, and close enough to the accordion
+// to read as its heading rather than as a section of its own.
+.textCompact {
+  align-items: flex-start;
+  text-align: left;
+  gap: 0;
+  margin-bottom: 24px;
+}
+
 .faq {
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.05);

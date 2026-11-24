@@ -64,7 +64,7 @@ export const webDevelopmentCyprusEn = {
         { _key: k("o"), iconName: "refresh-cw", title: "Website redesign in Cyprus", text: "New design without losing the rankings" },
         { _key: k("o"), iconName: "zap", title: "Single-service landing page", text: "One offer, one page, built to convert" },
         { _key: k("o"), iconName: "shopping-cart", title: "Online store", text: "Catalogue, cart, payments, delivery" },
-        { _key: k("o"), iconName: "wrench", title: "Web maintenance in Cyprus", text: "Updates, backups, fixes, small changes" },
+        { _key: k("o"), iconName: "wrench", title: "Support for the sites I build", text: "Included after launch, continued by agreement" },
         { _key: k("o"), iconName: "sparkles", title: "Named in ChatGPT and AI answers", text: "Services, prices and area an assistant can quote" },
       ],
     },    {
@@ -101,6 +101,29 @@ export const webDevelopmentCyprusEn = {
         li("Nicosia — government, finance, law and B2B, where the site is read by people checking whether the company is credible before they call."),
         p("Which languages a site actually gets is a question I answer with data rather than by habit: there is no point paying for a Greek version if nobody searches your service in Greek."),
 
+        h2("Web developers in Cyprus: one developer instead of a studio"),
+        p("Most of what is sold here as web development in Cyprus is sold by an agency and delivered by a chain: an account manager who takes the brief, a designer who draws without knowing what is buildable, a developer who receives a file and builds what it literally shows, and a copywriter brought in at the end. Every handover is a place where the point of the project gets lost, and the client pays for all four people plus the coordination between them."),
+        p("You work with the person doing the work. That has a cost and a benefit, and both are worth knowing before you choose. The cost: one developer takes on fewer projects at once, so a start date is a real constraint rather than a formality, and there is no second person to hand your project to. The benefit: nothing is explained twice, a decision made on a call is in the build the same week, and the person who wrote the structure is the person who writes the code, so the structure survives contact with the build."),
+
+        h2("Website development in Cyprus: how a build runs from brief to launch"),
+        p("The sequence is the same for a four-page business site and for a property platform, and it is deliberately front-loaded: what is cheap to change in a document is expensive to change in code."),
+        li("one call to establish what the site is for, who buys from you, and in which languages they search;"),
+        li("a structure — the list of pages and what each one has to answer — agreed in writing before anything is drawn;"),
+        li("design of the templates that carry the business, not of every page separately, because pages repeat and templates do not;"),
+        li("the build, with the content going in as it is written rather than as lorem text replaced later;"),
+        li("checks on real devices, the markup and the speed, then the move to your own hosting and domain;"),
+        li("launch, and the support window that follows it."),
+        p("Nothing in that list is unusual. What makes builds here go wrong is skipping the second step: a site drawn before anyone decided what it is for ends up as a brochure, and no amount of code fixes that afterwards."),
+
+        h2("Web design in Cyprus: how a design gets drawn and approved"),
+        p("A design file is not the thing that earns. It is a picture of a site, and a picture can be beautiful and still be unbuildable, unreadable on a phone, or impossible to fill with the text a business actually has. I draw what I am going to build, which removes the whole category of problems where a design is approved and then quietly becomes something else during the build."),
+        p("Approval is the part that drags on most projects, so it is deliberately shaped: two templates are drawn first — the home page and the page type that repeats most, usually a service page — and those two carry every decision about type, spacing, colour and how a block behaves on a phone. Once those are agreed, the rest follows them rather than being re-argued one page at a time. Three rounds of revisions on two templates settle a site faster than one round on fifteen pages."),
+        p("A Cyprus site has one design problem that sites in a single language do not: the same block has to hold English, Greek and Russian, and the same sentence is roughly a third longer in Russian and different again in Greek. A layout drawn to fit the English version breaks on the other two, and the usual fix — shortening the Greek text until it fits — means the Greek-speaking buyer gets less information. The templates are drawn with the longest language in them from the start."),
+
+        h2("Photography for a Cyprus website: what to shoot before the build starts"),
+        p("Stock photography of generic offices is the single clearest signal that a site is a template, and buyers here read it that way — Cyprus is small, and a company that shows no real premises, no real people and no real work invites the question of whether it has any. Photographs of your own are worth more than any design decision on top of them."),
+        p("What is worth shooting, in rough order of value: the people who will answer the phone, the work itself or its result, the premises if clients ever come to them, and the equipment or tools if they are part of why you are credible. Horizontal frames with space around the subject, because a website crops to shapes a photographer does not expect. If a shoot is not realistic, say so early — the design can be built around text, structure and the work you can show, but that is a decision to make before the templates are drawn rather than after."),
+
         h2("Website design in Cyprus: what goes into a business site"),
         li("a page per service rather than one page listing all of them, because a buyer searches for one service, not for your catalogue;"),
         li("structure planned around what people search, so each page has a query it can realistically be found by;"),
@@ -129,11 +152,15 @@ export const webDevelopmentCyprusEn = {
           " walks through the whole sequence.",
         ),
 
-        h2("Web maintenance in Cyprus after the site is live"),
-        p("A site is not finished at launch; it is finished when somebody is responsible for it. Maintenance means updates and backups, fixing what breaks, and making the small changes a business needs every month — a new service, a new price, a new team member. Without it, a WordPress site becomes a security problem within a year and a custom site becomes impossible to change because nobody remembers how it works."),
+        h2("Web maintenance in Cyprus after launch: what I support and what I do not"),
+        p("A site is not finished at launch, and the first weeks are when the unpredicted things surface: a form a mail provider rejects, a page that reads badly on one phone, a price that changed before the site was published. Support covering that is included for one to six months by agreement, as part of the build rather than as a separate subscription."),
+        p("After that window I go on supporting what I built, for as long as it is useful to you — updates, fixes, new pages and new services. That is ordinary work and it is priced per case, because a site with four pages and a site with listings and accounts are not the same commitment. The site is also built so that the everyday part does not need me: the content lives in a system you edit yourself, so a new price or a new team member is your change to make."),
+        p("What I do not take on is maintaining a site somebody else built. Inheriting unfamiliar code means quoting for a risk neither of us can see yet, and the first month goes on reading another developer's decisions rather than on your business. If that is what you need, a local studio that works with your platform will serve you better than I would, and I will say so rather than take the work."),
         p(
-          "What this covers and what it costs is on the ",
+          "What a build includes and what it leaves to you is set out on the ",
           link("website maintenance page", "/services/website-maintenance-services"),
+          " and on the ",
+          link("pricing page", "/pricing"),
           ".",
         ),
 

@@ -11,6 +11,18 @@
 // ──────────────────────────────────────────────────────────────────────────────
 export const STATIC_REDIRECTS = [
 
+  // Сведение кипрского куста (24.11.2026). /web-design-cyprus и
+  // /web-development-cyprus боролись за одни и те же запросы: за 28 дней по
+  // Кипру основная страница собрала 1771 показ на позиции 29,3, а страница
+  // дизайна — 330 показов на 56,2, и за восемнадцать дней с момента создания
+  // не выросла. Её материал — утверждение дизайна, вёрстка под три языка,
+  // фотосъёмка — перенесён в основную страницу отдельными разделами. Ссылок
+  // внутри сайта на неё не было, языковых версий тоже (только en).
+  //
+  // После выката редиректа документ /web-design-cyprus нужно удалить в Sanity,
+  // иначе он останется в карте сайта и Google будет ходить на редирект.
+  { source: '/web-design-cyprus', destination: '/web-development-cyprus', permanent: true },
+
   // Dead URLs found in the Search Console «Not found (404)» drilldown, 29.10.2026.
   // Both were crawled this month, so a 301 passes their signals on instead of
   // letting Google keep a 404 in the report.

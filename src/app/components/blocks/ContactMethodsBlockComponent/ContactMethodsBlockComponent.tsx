@@ -65,6 +65,16 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
     }
   };
 
+  // Какое событие шлёт клик по контакту. WhatsApp отслеживался и раньше, а
+  // клик по телефону не отслеживался нигде на сайте: ссылка tel: просто
+  // открывала звонилку, и в GA4 от неё не оставалось следа. Для страницы цен
+  // это половина конверсий, которых не было видно.
+  const trackAs = (contact: FullContact) => {
+    if (contact.iconName === "whatsapp") return "whatsapp_click";
+    if (contact.type === "Phone") return "phone_click";
+    return undefined;
+  };
+
   const { title, contacts } = block;
   return (
     <section
@@ -87,7 +97,7 @@ const ContactMethodsBlockComponent: FC<Props> = ({ block, lang }) => {
                   rel="noopener noreferrer"
                   key={contact._key}
                   className={styles.contact}
-                  trackAs={contact.iconName === "whatsapp" ? "whatsapp_click" : undefined}
+                  trackAs={trackAs(contact)}
                   trackParams={{ placement: "contacts" }}
                 >
                   {contact.iconName ? (

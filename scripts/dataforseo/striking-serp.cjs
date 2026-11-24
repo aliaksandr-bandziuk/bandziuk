@@ -12,6 +12,8 @@
 //
 //   node scripts/dataforseo/striking-serp.cjs --dry-run
 //   node scripts/dataforseo/striking-serp.cjs --limit 85 --budget 1
+//   node scripts/dataforseo/striking-serp.cjs --ru-markets ua,pl,il,lv
+//   node scripts/dataforseo/striking-serp.cjs --ru-markets all --budget 4
 //
 // Вывод: research/dataforseo/striking-serp.{csv,md}
 
@@ -34,12 +36,53 @@ const argVal = (f, d) => { const i = process.argv.indexOf(f); return i > -1 ? pr
 const BUDGET_USD = Number(argVal("--budget", 1.5));
 const LIMIT = Number(argVal("--limit", 85));
 
-// Рынок по языку запроса. Точнее не определить: Search Console страну запроса
-// в выгрузке не даёт, а наши русские запросы задают и в Казахстане, и в Европе.
+// Рынок по языку запроса. Search Console страну запроса в выгрузке не даёт,
+// поэтому для русского мы раньше брали одну страну — Казахстан. Это оказалось
+// неверно: 22.11.2026 у юридического запроса 458 показов из 535 пришли с
+// Украины, то есть выдачу мы проверяли не там, где спрос. Теперь русские
+// запросы прогоняются по списку стран с большой русскоязычной аудиторией, и в
+// отчёт попадает по строке на страну — видно, где выдача слабая, а где занята.
+//
+// location_code страны у DataForSEO = 2000 + числовой код страны по ISO 3166-1
+// (Польша 616 -> 2616, Украина 804 -> 2804), поэтому коды ниже сверяются по
+// справочнику ISO, без обращения к API.
+const RU_MARKETS = {
+  ua: { location_code: 2804, label: "RU/UA" },
+  pl: { location_code: 2616, label: "RU/PL" },
+  de: { location_code: 2276, label: "RU/DE" },
+  cy: { location_code: 2196, label: "RU/CY" },
+  il: { location_code: 2376, label: "RU/IL" },
+  kz: { location_code: 2398, label: "RU/KZ" },
+  lv: { location_code: 2428, label: "RU/LV" },
+  lt: { location_code: 2440, label: "RU/LT" },
+  ee: { location_code: 2233, label: "RU/EE" },
+  md: { location_code: 2498, label: "RU/MD" },
+  ge: { location_code: 2268, label: "RU/GE" },
+  am: { location_code: 2051, label: "RU/AM" },
+  cz: { location_code: 2203, label: "RU/CZ" },
+  es: { location_code: 2724, label: "RU/ES" },
+  ae: { location_code: 2784, label: "RU/AE" },
+  uz: { location_code: 2860, label: "RU/UZ" },
+};
+
+// По умолчанию четыре страны, а не все шестнадцать: каждая добавленная страна
+// умножает число запросов к выдаче, а бюджет скрипта — полтора доллара.
+// Украина даёт основной объём показов, Польша и Кипр — рынки, где мы реально
+// продаём, Германия — крупнейшая русскоязычная диаспора в ЕС.
+// Другой список: --ru-markets ua,pl,il,lv   или   --ru-markets all
+const RU_DEFAULT = ["ua", "pl", "cy", "de"];
+const ruSelected = (() => {
+  const raw = String(argVal("--ru-markets", RU_DEFAULT.join(","))).toLowerCase();
+  const keys = raw === "all" ? Object.keys(RU_MARKETS) : raw.split(/[,\s]+/).filter(Boolean);
+  const unknown = keys.filter((k) => !RU_MARKETS[k]);
+  if (unknown.length) throw new Error(`Неизвестные страны в --ru-markets: ${unknown.join(", ")}. Доступны: ${Object.keys(RU_MARKETS).join(", ")}`);
+  return keys.length ? keys : RU_DEFAULT;
+})();
+
 const MARKET = {
-  en: { location_code: 2840, language_code: "en", label: "EN/US" },
-  pl: { location_code: 2616, language_code: "pl", label: "PL/PL" },
-  ru: { location_code: 2398, language_code: "ru", label: "RU/KZ" },
+  en: [{ location_code: 2840, language_code: "en", label: "EN/US" }],
+  pl: [{ location_code: 2616, language_code: "pl", label: "PL/PL" }],
+  ru: ruSelected.map((k) => ({ ...RU_MARKETS[k], language_code: "ru" })),
 };
 
 const AGGREGATOR = /^(www\.)?(clutch\.co|designrush\.com|themanifest\.com|sortlist\.com|semrush\.com|agencies\.semrush\.com|upwork\.com|fiverr\.com|freelancer\.com|yelp\.com|builtin\.com|goodfirms\.co|trustpilot\.com|oferteo\.pl|fixly\.pl|olx\.|kaspi\.kz|profi\.kz|ratingruneta\.ru|yandex\.|google\.|youtube\.com|facebook\.com|linkedin\.com|instagram\.com|reddit\.com|quora\.com|medium\.com|wikipedia\.org|hh\.|rabota\.|indeed\.)/i;
@@ -116,27 +159,37 @@ async function main() {
   if (!DRY_RUN && !CACHE_ONLY && (!LOGIN || !PASSWORD)) throw new Error("Нет доступов DATAFORSEO в .env.local");
   const list = queries();
   console.log(`запросов на позициях 11–20: ${list.length}`);
+  const calls = list.reduce((n, q) => n + MARKET[q.lang].length, 0);
+  console.log(`рынки для русских запросов: ${MARKET.ru.map((m) => m.label).join(", ")}`);
+  console.log(`вызовов выдачи: ${calls}`);
 
   const rows = [];
   const domains = new Set();
   for (const q of list) {
-    const m = MARKET[q.lang];
-    const body = await call("serp/google/organic/live/advanced", {
-      keyword: q.keyword, location_code: m.location_code, language_code: m.language_code, depth: 100, device: "desktop",
-    }, `${m.label} · ${q.keyword}`);
-    const res = result0(body);
-    const items = ((res && res.items) || []).filter((it) => it.type === "organic");
-    const hosts = items.map(hostOf);
-    const top10 = hosts.slice(0, 10).filter(Boolean);
-    const ours = hosts.findIndex((h) => h.includes(OUR));
-    top10.forEach((d) => { if (isDomain(d)) domains.add(d); });
-    rows.push({
-      market: m.label, keyword: q.keyword, impressions: q.impressions,
-      gscPosition: q.position, livePosition: ours > -1 ? ours + 1 : "",
-      aggregators: top10.filter((d) => AGGREGATOR.test(d)).length,
-      top10: top10.join(" "),
-    });
-    console.log(`  ${m.label} ${String(q.impressions).padStart(4)} поз${String(q.position).padStart(5)}  ${q.keyword}`);
+    // Русский запрос проверяется в нескольких странах сразу — показы у него
+    // собраны со всех, и одной выдачей они не описываются.
+    for (const m of MARKET[q.lang]) {
+      const body = await call("serp/google/organic/live/advanced", {
+        keyword: q.keyword, location_code: m.location_code, language_code: m.language_code, depth: 100, device: "desktop",
+      }, `${m.label} · ${q.keyword}`);
+      const res = result0(body);
+      const items = ((res && res.items) || []).filter((it) => it.type === "organic");
+      const hosts = items.map(hostOf);
+      const top10 = hosts.slice(0, 10).filter(Boolean);
+      const ours = hosts.findIndex((h) => h.includes(OUR));
+      top10.forEach((d) => { if (isDomain(d)) domains.add(d); });
+      rows.push({
+        market: m.label, keyword: q.keyword, impressions: q.impressions,
+        gscPosition: q.position, livePosition: ours > -1 ? ours + 1 : "",
+        aggregators: top10.filter((d) => AGGREGATOR.test(d)).length,
+        top10: top10.join(" "),
+        // Пустая выдача — это не «слабая выдача», а несостоявшийся вызов:
+        // не каждая пара «страна + язык» есть у DataForSEO. Помечаем, чтобы
+        // такая строка не попала в «берём».
+        empty: top10.length === 0,
+      });
+      console.log(`  ${m.label} ${String(q.impressions).padStart(4)} поз${String(q.position).padStart(5)}  ${q.keyword}${top10.length ? "" : "  (выдача не получена)"}`);
+    }
   }
 
   // Сила доменов из топ-10: одним вызовом на каждую сотню.
@@ -154,7 +207,7 @@ async function main() {
     r.medianStrength = vals.length ? vals[Math.floor(vals.length / 2)] : "";
     r.weakInTop10 = vals.filter((v) => v <= 200).length;
     // Берём, если выдача слабая: мало каталогов и есть домены нашего калибра.
-    r.verdict = r.aggregators <= 2 && r.weakInTop10 >= 3 ? "берём" : r.aggregators >= 4 ? "выдача занята каталогами" : "домены сильнее нас";
+    r.verdict = r.empty ? "выдача не получена" : r.aggregators <= 2 && r.weakInTop10 >= 3 ? "берём" : r.aggregators >= 4 ? "выдача занята каталогами" : "домены сильнее нас";
   }
   rows.sort((a, b) => (a.verdict === "берём" ? -1 : 1) - (b.verdict === "берём" ? -1 : 1) || b.impressions - a.impressions);
 

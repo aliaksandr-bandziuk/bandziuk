@@ -41,10 +41,22 @@ if (!names.length) {
     names = fs.readdirSync(DIR).filter((f) => f.endsWith(".ts") && !["registry.ts", "pt.ts"].includes(f)).map((f) => f.replace(/\.ts$/, ""));
   } else {
     const out = execSync("git status --porcelain -- src/dev-fixtures", { cwd: path.resolve(__dirname, "..") }).toString();
-    names = out.split("\n").map((l) => l.slice(3).trim()).filter((p) => p.endsWith(".ts") && !p.endsWith("registry.ts") && !p.endsWith("pt.ts"))
-      .map((p) => path.basename(p).replace(/\.ts$/, ""));
+    // Путь от src/dev-fixtures, а не basename: фикстуры лежат ещё и в
+    // подпапках, и basename превращал «pages/cennik.pl.ts» в «cennik.pl»,
+    // который потом не находился и выглядел как сломанная фикстура.
+    names = out.split("\n").map((l) => l.slice(3).trim().replace(/^"|"$/g, ""))
+      .filter((f) => f.endsWith(".ts") && !f.endsWith("registry.ts") && !f.endsWith("pt.ts"))
+      .map((f) => f.replace(/^src\/dev-fixtures\//, "").replace(/\.ts$/, ""));
   }
 }
+
+// Правила тут — правила посадочной страницы: metaTitle, heroChips, H1, блок
+// кейсов. У страниц в pages/ (цены, контакты) и у кусков в sections/ этих
+// полей нет по устройству, поэтому проверять их этими правилами бессмысленно.
+const SKIP = /^(pages|sections)\//;
+const skipped = names.filter((n) => SKIP.test(n));
+names = names.filter((n) => !SKIP.test(n));
+if (skipped.length) console.log(`Пропущено (не посадочные страницы): ${skipped.join(", ")}`);
 if (!names.length) { console.log("Нечего проверять: в src/dev-fixtures нет изменённых файлов."); process.exit(0); }
 
 const STOP = new Set("the a an and or of for in on to with your you we i is are that not what why how it as at by from do does can will их и в на по для с не что как из это а или к у же бы за до от при о со w i na do z nie to jest się o dla po od za przy że a oraz".split(/\s+/));

@@ -1,0 +1,122 @@
+# Второй, расширенный замер по двум нишам. 24.11.2026.
+#
+# Первый замер (demand-new-niches) имел дырку: Турция проверялась английскими
+# фразами, а турецкие клиники ищут подрядчика по-турецки. Здесь турецкий язык
+# проверяется по-настоящему, и добавлен медицинский туризм — настоящий угол
+# Турции, потому что турецкие клиники продвигаются на британского и
+# европейского пациента, а не на турецкого.
+#
+# Контроли обязательны в каждом языке: если у контроля ноль, вызов не прошёл
+# и нули остальных фраз ничего не значат.
+
+# ── Контроли ─────────────────────────────────────────────────────────────────
+control::seo services
+control::seo agency
+control::dental seo
+control::seo hizmeti
+control::seo ajansı
+control::web tasarım
+control::pozycjonowanie stron
+control::agencja seo
+
+# ── Пересадка волос, турецкий ────────────────────────────────────────────────
+tr-hair-seo::saç ekimi seo
+tr-hair-seo::saç ekimi kliniği seo
+tr-hair-seo::saç ekimi pozisyonlama
+tr-hair-mkt::saç ekimi pazarlama
+tr-hair-mkt::saç ekimi reklam
+tr-hair-mkt::saç ekimi reklamcılık
+tr-hair-mkt::saç ekimi dijital pazarlama
+tr-hair-web::saç ekimi web sitesi
+tr-hair-web::saç ekimi web tasarım
+tr-hair-web::saç ekimi kliniği web sitesi
+
+# ── Клиники и медтуризм, турецкий ────────────────────────────────────────────
+tr-clinic::klinik seo
+tr-clinic::medikal seo
+tr-clinic::estetik klinik seo
+tr-clinic::klinik dijital pazarlama
+tr-clinic::hastane seo
+tr-tourism::sağlık turizmi seo
+tr-tourism::sağlık turizmi pazarlama
+tr-tourism::sağlık turizmi dijital pazarlama
+tr-tourism::medikal turizm seo
+
+# ── Медицинский туризм, английский ───────────────────────────────────────────
+en-tourism::medical tourism seo
+en-tourism::seo for medical tourism
+en-tourism::medical tourism marketing
+en-tourism::medical tourism digital marketing
+en-tourism::health tourism seo
+en-tourism::health tourism marketing
+en-tourism::medical tourism website design
+en-tourism::dental tourism seo
+en-tourism::dental tourism marketing
+
+# ── Клиники, английский ──────────────────────────────────────────────────────
+en-clinic::clinic seo
+en-clinic::seo for clinics
+en-clinic::aesthetic clinic seo
+en-clinic::seo for aesthetic clinics
+en-clinic::cosmetic clinic seo
+en-clinic::plastic surgery seo
+en-clinic::seo for plastic surgeons
+en-clinic::plastic surgery marketing
+en-clinic::cosmetic surgery marketing
+en-clinic::clinic website design
+en-clinic::medical website design
+
+# ── Пересадка волос, платный трафик и лиды, английский ───────────────────────
+en-hair-paid::hair transplant ppc
+en-hair-paid::hair transplant google ads
+en-hair-paid::hair transplant lead generation
+en-hair-paid::hair transplant digital marketing
+en-hair-paid::hair transplant clinic marketing agency
+en-hair-paid::hair transplant seo agency
+
+# ── Модульные дома, расширенные формы, английский ────────────────────────────
+en-modular::modular construction seo
+en-modular::modular building seo
+en-modular::modular home marketing
+en-modular::modular home builder marketing
+en-modular::prefab home marketing
+en-modular::prefab builder marketing
+en-modular::seo for prefab builders
+en-modular::container home seo
+en-modular::tiny home builder seo
+en-modular::adu builder seo
+en-modular::adu builder marketing
+
+# ── Модульные дома, турецкий ─────────────────────────────────────────────────
+tr-modular::prefabrik ev seo
+tr-modular::prefabrik ev web sitesi
+tr-modular::modüler ev seo
+tr-modular::prefabrik ev pazarlama
+
+# ── Клиники и медтуризм, польский ────────────────────────────────────────────
+pl-clinic::seo dla kliniki
+pl-clinic::pozycjonowanie kliniki
+pl-clinic::marketing medyczny
+pl-clinic::marketing kliniki
+pl-clinic::seo dla gabinetu lekarskiego
+pl-clinic::pozycjonowanie gabinetu stomatologicznego
+pl-clinic::strona internetowa dla kliniki
+pl-tourism::turystyka medyczna seo
+pl-tourism::marketing turystyki medycznej
+pl-hair::przeszczep włosów seo
+pl-hair::marketing kliniki przeszczepu włosów
+pl-modular::domy modułowe seo
+pl-modular::marketing domów modułowych
+
+# ── Пересадка волос, русский ─────────────────────────────────────────────────
+ru-hair::пересадка волос seo
+ru-hair::продвижение клиники пересадки волос
+ru-hair::seo клиники трансплантации волос
+ru-clinic::продвижение клиники
+ru-clinic::seo для клиники
+ru-clinic::медицинский маркетинг
+ru-tourism::медицинский туризм продвижение
+ru-modular::продвижение модульных домов
+ru-modular::seo модульные дома
+ru-control::продвижение сайта
+ru-control::seo продвижение

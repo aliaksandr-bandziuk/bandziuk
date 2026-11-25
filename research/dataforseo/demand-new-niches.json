@@ -1,0 +1,1486 @@
+{
+ "generatedAt": "2026-11-24T16:48:29.710Z",
+ "terms": 42,
+ "markets": {
+  "EN/US": [
+   {
+    "keyword": "dental seo",
+    "volume": 880,
+    "competition": "",
+    "cpc": 47.31,
+    "group": "control"
+   },
+   {
+    "keyword": "medical seo",
+    "volume": 320,
+    "competition": "",
+    "cpc": 18.15,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for home builders",
+    "volume": 210,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "home builder marketing",
+    "volume": 210,
+    "competition": "",
+    "cpc": 16.44,
+    "group": "marketing"
+   },
+   {
+    "keyword": "construction seo",
+    "volume": 170,
+    "competition": "",
+    "cpc": 22.36,
+    "group": "control"
+   },
+   {
+    "keyword": "website design for home builders",
+    "volume": 140,
+    "competition": "",
+    "cpc": 9.35,
+    "group": "design"
+   },
+   {
+    "keyword": "home builder web design",
+    "volume": 140,
+    "competition": "",
+    "cpc": 9.35,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 90,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 40,
+    "competition": "",
+    "cpc": 5.85,
+    "group": "control"
+   },
+   {
+    "keyword": "hair transplant seo",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant advertising",
+    "volume": 20,
+    "competition": "",
+    "cpc": 18.98,
+    "group": "marketing"
+   },
+   {
+    "keyword": "seo for hair transplant clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair clinic website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair transplant clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "website design for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair transplant web design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "prefab home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "modular home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "prefab home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie strony kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "strony internetowe dla firm budowlanych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "seo для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение сайта модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "продвижение производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo dla kancelarii",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   }
+  ],
+  "EN/GB": [
+   {
+    "keyword": "dental seo",
+    "volume": 320,
+    "competition": "",
+    "cpc": 16.5,
+    "group": "control"
+   },
+   {
+    "keyword": "construction seo",
+    "volume": 110,
+    "competition": "",
+    "cpc": 19.43,
+    "group": "control"
+   },
+   {
+    "keyword": "medical seo",
+    "volume": 90,
+    "competition": "",
+    "cpc": 14.53,
+    "group": "control"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 40,
+    "competition": "",
+    "cpc": 8.63,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for home builders",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "home builder marketing",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "website design for home builders",
+    "volume": 20,
+    "competition": "",
+    "cpc": 8.07,
+    "group": "design"
+   },
+   {
+    "keyword": "home builder web design",
+    "volume": 20,
+    "competition": "",
+    "cpc": 8.07,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for hair transplant clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant advertising",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair clinic website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair transplant clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "website design for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair transplant web design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "prefab home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "modular home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "prefab home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie strony kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "strony internetowe dla firm budowlanych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "seo для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение сайта модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "продвижение производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo dla kancelarii",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   }
+  ],
+  "EN/TR": [
+   {
+    "keyword": "hair transplant seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant advertising",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair clinic website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo for home builders",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "home builder marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "website design for home builders",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "home builder web design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "dental seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "medical seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "construction seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 10,
+    "competition": "",
+    "cpc": 3.38,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "website design for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair transplant web design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "prefab home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "modular home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "prefab home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie strony kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "strony internetowe dla firm budowlanych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "seo для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение сайта модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "продвижение производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo dla kancelarii",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   }
+  ],
+  "PL/PL": [
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 5400,
+    "competition": "",
+    "cpc": 21.96,
+    "group": "control"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "hair transplant marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant advertising",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "seo for home builders",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "home builder marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "website design for home builders",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "home builder web design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "dental seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "medical seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "construction seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair clinic website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "website design for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair transplant web design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "prefab home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "modular home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "prefab home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie strony kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "strony internetowe dla firm budowlanych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "seo для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение сайта модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "продвижение производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo dla kancelarii",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   }
+  ],
+  "RU/PL": [
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 5400,
+    "competition": "",
+    "cpc": 21.96,
+    "group": "control"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "hair transplant marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant advertising",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "seo for home builders",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "home builder marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "website design for home builders",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "home builder web design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "dental seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "medical seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "construction seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "hair transplant clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "hair transplant website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair clinic website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "website design for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "hair transplant web design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "prefab home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "marketing for modular home builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "marketing"
+   },
+   {
+    "keyword": "modular home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "prefab home website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie strony kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "pozycjonowanie domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "pozycjonowanie producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "strona internetowa dla producenta domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "strony internetowe dla firm budowlanych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "seo для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "продвижение сайта модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "продвижение производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "seo"
+   },
+   {
+    "keyword": "сайт для производителя модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "design"
+   },
+   {
+    "keyword": "seo dla kancelarii",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   }
+  ]
+ }
+}

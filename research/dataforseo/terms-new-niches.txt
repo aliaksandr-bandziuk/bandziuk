@@ -1,0 +1,58 @@
+# Две ниши, предложенные владельцем 24.11.2026: пересадка волос и модульные дома.
+# Форма перед «::» — это то, что проверяется на самом деле. Проверка 04.11.2026
+# показала, что «X web design» приводит галереи шаблонов, а «seo for X» —
+# руководства платформ; здесь смотрим, повторится ли это на двух новых нишах.
+#
+# Контрольные фразы обязательны: если у них ноль, значит вызов не прошёл.
+
+# ── Пересадка волос, английский ──────────────────────────────────────────────
+seo::seo for hair transplant clinics
+seo::hair transplant seo
+seo::hair transplant clinic seo
+seo::hair clinic seo
+marketing::hair transplant marketing
+marketing::hair transplant clinic marketing
+marketing::marketing for hair transplant clinics
+marketing::hair transplant advertising
+design::hair transplant website design
+design::hair clinic website design
+design::website design for hair transplant clinics
+design::hair transplant web design
+
+# ── Модульные дома, английский ───────────────────────────────────────────────
+seo::seo for modular home builders
+seo::modular home seo
+seo::prefab home seo
+seo::seo for home builders
+marketing::modular home marketing
+marketing::marketing for modular home builders
+marketing::home builder marketing
+design::modular home website design
+design::prefab home website design
+design::website design for home builders
+design::home builder web design
+
+# ── Польский ─────────────────────────────────────────────────────────────────
+seo::pozycjonowanie kliniki przeszczepu włosów
+seo::pozycjonowanie strony kliniki
+design::strona internetowa dla kliniki przeszczepu włosów
+seo::pozycjonowanie domów modułowych
+seo::pozycjonowanie producenta domów modułowych
+design::strona internetowa dla producenta domów modułowych
+design::strony internetowe dla firm budowlanych
+
+# ── Русский ──────────────────────────────────────────────────────────────────
+seo::продвижение клиники пересадки волос
+seo::seo для клиники пересадки волос
+design::сайт для клиники пересадки волос
+seo::продвижение сайта модульных домов
+seo::продвижение производителя модульных домов
+design::сайт для производителя модульных домов
+
+# ── Контрольные: по ним спрос известен и страницы уже есть ────────────────────
+control::dental seo
+control::medical seo
+control::construction seo
+control::pozycjonowanie stron
+control::seo dla kancelarii
+control::продвижение сайта

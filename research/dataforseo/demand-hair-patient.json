@@ -1,0 +1,640 @@
+{
+ "generatedAt": "2026-11-25T09:25:04.270Z",
+ "terms": 45,
+ "markets": {
+  "EN/US": [
+   {
+    "keyword": "hair loss treatment",
+    "volume": 368000,
+    "competition": "",
+    "cpc": 16.88,
+    "group": "control"
+   },
+   {
+    "keyword": "hair transplant",
+    "volume": 60500,
+    "competition": "",
+    "cpc": 18.93,
+    "group": "control"
+   },
+   {
+    "keyword": "hairline transplant",
+    "volume": 60500,
+    "competition": "",
+    "cpc": 18.93,
+    "group": "area"
+   },
+   {
+    "keyword": "hair transplant cost",
+    "volume": 27100,
+    "competition": "",
+    "cpc": 12.3,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant turkey",
+    "volume": 27100,
+    "competition": "",
+    "cpc": 15.44,
+    "group": "destination"
+   },
+   {
+    "keyword": "fue hair transplant",
+    "volume": 18100,
+    "competition": "",
+    "cpc": 16.49,
+    "group": "technique"
+   },
+   {
+    "keyword": "follicular unit extraction",
+    "volume": 14800,
+    "competition": "",
+    "cpc": 12.04,
+    "group": "technique"
+   },
+   {
+    "keyword": "hair transplant surgeon",
+    "volume": 14800,
+    "competition": "",
+    "cpc": 9.47,
+    "group": "decision"
+   },
+   {
+    "keyword": "how much is a hair transplant",
+    "volume": 8100,
+    "competition": "",
+    "cpc": 10.58,
+    "group": "cost"
+   },
+   {
+    "keyword": "female hair transplant",
+    "volume": 8100,
+    "competition": "",
+    "cpc": 13.36,
+    "group": "area"
+   },
+   {
+    "keyword": "hair transplant before and after",
+    "volume": 8100,
+    "competition": "",
+    "cpc": 10.23,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant near me",
+    "volume": 6600,
+    "competition": "",
+    "cpc": 24.71,
+    "group": "decision"
+   },
+   {
+    "keyword": "beard transplant",
+    "volume": 5400,
+    "competition": "",
+    "cpc": 10.14,
+    "group": "area"
+   },
+   {
+    "keyword": "eyebrow transplant",
+    "volume": 5400,
+    "competition": "",
+    "cpc": 10.32,
+    "group": "area"
+   },
+   {
+    "keyword": "hair transplant financing",
+    "volume": 3600,
+    "competition": "",
+    "cpc": 18.24,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant istanbul",
+    "volume": 2900,
+    "competition": "",
+    "cpc": 20.35,
+    "group": "destination"
+   },
+   {
+    "keyword": "dhi hair transplant",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 9.69,
+    "group": "technique"
+   },
+   {
+    "keyword": "fut hair transplant",
+    "volume": 1900,
+    "competition": "",
+    "cpc": 14.28,
+    "group": "technique"
+   },
+   {
+    "keyword": "crown hair transplant",
+    "volume": 1600,
+    "competition": "",
+    "cpc": 8.95,
+    "group": "area"
+   },
+   {
+    "keyword": "hair transplant recovery",
+    "volume": 1600,
+    "competition": "",
+    "cpc": 7.5,
+    "group": "risk"
+   },
+   {
+    "keyword": "hair transplant scars",
+    "volume": 1600,
+    "competition": "",
+    "cpc": null,
+    "group": "risk"
+   },
+   {
+    "keyword": "hair transplant gone wrong",
+    "volume": 1600,
+    "competition": "",
+    "cpc": 26.36,
+    "group": "risk"
+   },
+   {
+    "keyword": "hair transplant results",
+    "volume": 1300,
+    "competition": "",
+    "cpc": 10.67,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant timeline",
+    "volume": 1300,
+    "competition": "",
+    "cpc": 7.92,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant price",
+    "volume": 1000,
+    "competition": "",
+    "cpc": 10.56,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant side effects",
+    "volume": 1000,
+    "competition": "",
+    "cpc": 14.01,
+    "group": "risk"
+   },
+   {
+    "keyword": "hair transplant success rate",
+    "volume": 720,
+    "competition": "",
+    "cpc": 12.63,
+    "group": "risk"
+   },
+   {
+    "keyword": "hair transplant consultation",
+    "volume": 590,
+    "competition": "",
+    "cpc": 132.44,
+    "group": "decision"
+   },
+   {
+    "keyword": "sapphire fue hair transplant",
+    "volume": 390,
+    "competition": "",
+    "cpc": 15.8,
+    "group": "technique"
+   },
+   {
+    "keyword": "best country for hair transplant",
+    "volume": 390,
+    "competition": "",
+    "cpc": 14.58,
+    "group": "destination"
+   },
+   {
+    "keyword": "afro hair transplant",
+    "volume": 320,
+    "competition": "",
+    "cpc": 15.73,
+    "group": "area"
+   },
+   {
+    "keyword": "hair transplant cost per graft",
+    "volume": 260,
+    "competition": "",
+    "cpc": 11.83,
+    "group": "cost"
+   },
+   {
+    "keyword": "best hair transplant clinic",
+    "volume": 170,
+    "competition": "",
+    "cpc": 14.93,
+    "group": "decision"
+   },
+   {
+    "keyword": "2000 grafts hair transplant cost",
+    "volume": 140,
+    "competition": "",
+    "cpc": 20.62,
+    "group": "cost"
+   },
+   {
+    "keyword": "3000 grafts hair transplant cost",
+    "volume": 140,
+    "competition": "",
+    "cpc": 8.65,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant reviews",
+    "volume": 140,
+    "competition": "",
+    "cpc": 17.89,
+    "group": "proof"
+   },
+   {
+    "keyword": "unshaven hair transplant",
+    "volume": 90,
+    "competition": "",
+    "cpc": 14.41,
+    "group": "technique"
+   },
+   {
+    "keyword": "hair transplant package",
+    "volume": 90,
+    "competition": "",
+    "cpc": 20.44,
+    "group": "destination"
+   },
+   {
+    "keyword": "hair transplant abroad",
+    "volume": 70,
+    "competition": "",
+    "cpc": 6.13,
+    "group": "destination"
+   },
+   {
+    "keyword": "4000 grafts hair transplant cost",
+    "volume": 50,
+    "competition": "",
+    "cpc": 9.3,
+    "group": "cost"
+   },
+   {
+    "keyword": "5000 grafts hair transplant cost",
+    "volume": 40,
+    "competition": "",
+    "cpc": 6.53,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant growth stages",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant 12 months",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant all inclusive",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "destination"
+   },
+   {
+    "keyword": "am i a candidate for a hair transplant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "decision"
+   }
+  ],
+  "EN/GB": [
+   {
+    "keyword": "hair transplant",
+    "volume": 22200,
+    "competition": "",
+    "cpc": 13.12,
+    "group": "control"
+   },
+   {
+    "keyword": "hairline transplant",
+    "volume": 22200,
+    "competition": "",
+    "cpc": 13.12,
+    "group": "area"
+   },
+   {
+    "keyword": "hair loss treatment",
+    "volume": 12100,
+    "competition": "",
+    "cpc": 14.49,
+    "group": "control"
+   },
+   {
+    "keyword": "hair transplant turkey",
+    "volume": 8100,
+    "competition": "",
+    "cpc": 22.55,
+    "group": "destination"
+   },
+   {
+    "keyword": "hair transplant cost",
+    "volume": 6600,
+    "competition": "",
+    "cpc": 6.86,
+    "group": "cost"
+   },
+   {
+    "keyword": "beard transplant",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 6.12,
+    "group": "area"
+   },
+   {
+    "keyword": "eyebrow transplant",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 4.68,
+    "group": "area"
+   },
+   {
+    "keyword": "female hair transplant",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 6.97,
+    "group": "area"
+   },
+   {
+    "keyword": "hair transplant before and after",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 5.29,
+    "group": "proof"
+   },
+   {
+    "keyword": "fue hair transplant",
+    "volume": 1900,
+    "competition": "",
+    "cpc": 7.37,
+    "group": "technique"
+   },
+   {
+    "keyword": "follicular unit extraction",
+    "volume": 1900,
+    "competition": "",
+    "cpc": 5.86,
+    "group": "technique"
+   },
+   {
+    "keyword": "how much is a hair transplant",
+    "volume": 1900,
+    "competition": "",
+    "cpc": 5.17,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant near me",
+    "volume": 1600,
+    "competition": "",
+    "cpc": 14.69,
+    "group": "decision"
+   },
+   {
+    "keyword": "dhi hair transplant",
+    "volume": 1000,
+    "competition": "",
+    "cpc": 8.78,
+    "group": "technique"
+   },
+   {
+    "keyword": "hair transplant istanbul",
+    "volume": 1000,
+    "competition": "",
+    "cpc": 26.49,
+    "group": "destination"
+   },
+   {
+    "keyword": "hair transplant gone wrong",
+    "volume": 880,
+    "competition": "",
+    "cpc": 2.01,
+    "group": "risk"
+   },
+   {
+    "keyword": "crown hair transplant",
+    "volume": 720,
+    "competition": "",
+    "cpc": 7.88,
+    "group": "area"
+   },
+   {
+    "keyword": "hair transplant price",
+    "volume": 590,
+    "competition": "",
+    "cpc": 6.3,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant results",
+    "volume": 590,
+    "competition": "",
+    "cpc": 8.42,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant timeline",
+    "volume": 590,
+    "competition": "",
+    "cpc": 2.79,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant recovery",
+    "volume": 480,
+    "competition": "",
+    "cpc": 3.77,
+    "group": "risk"
+   },
+   {
+    "keyword": "fut hair transplant",
+    "volume": 390,
+    "competition": "",
+    "cpc": 5.28,
+    "group": "technique"
+   },
+   {
+    "keyword": "hair transplant side effects",
+    "volume": 390,
+    "competition": "",
+    "cpc": 4.55,
+    "group": "risk"
+   },
+   {
+    "keyword": "hair transplant scars",
+    "volume": 320,
+    "competition": "",
+    "cpc": 7.34,
+    "group": "risk"
+   },
+   {
+    "keyword": "afro hair transplant",
+    "volume": 260,
+    "competition": "",
+    "cpc": 10.51,
+    "group": "area"
+   },
+   {
+    "keyword": "unshaven hair transplant",
+    "volume": 210,
+    "competition": "",
+    "cpc": 12.73,
+    "group": "technique"
+   },
+   {
+    "keyword": "hair transplant success rate",
+    "volume": 210,
+    "competition": "",
+    "cpc": 6.49,
+    "group": "risk"
+   },
+   {
+    "keyword": "best country for hair transplant",
+    "volume": 90,
+    "competition": "",
+    "cpc": 7.77,
+    "group": "destination"
+   },
+   {
+    "keyword": "best hair transplant clinic",
+    "volume": 90,
+    "competition": "",
+    "cpc": 16.48,
+    "group": "decision"
+   },
+   {
+    "keyword": "hair transplant consultation",
+    "volume": 90,
+    "competition": "",
+    "cpc": 80.12,
+    "group": "decision"
+   },
+   {
+    "keyword": "sapphire fue hair transplant",
+    "volume": 70,
+    "competition": "",
+    "cpc": 12.79,
+    "group": "technique"
+   },
+   {
+    "keyword": "hair transplant reviews",
+    "volume": 70,
+    "competition": "",
+    "cpc": 9.19,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant surgeon",
+    "volume": 70,
+    "competition": "",
+    "cpc": 11.96,
+    "group": "decision"
+   },
+   {
+    "keyword": "2000 grafts hair transplant cost",
+    "volume": 50,
+    "competition": "",
+    "cpc": 7.07,
+    "group": "cost"
+   },
+   {
+    "keyword": "3000 grafts hair transplant cost",
+    "volume": 50,
+    "competition": "",
+    "cpc": null,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant growth stages",
+    "volume": 40,
+    "competition": "",
+    "cpc": null,
+    "group": "proof"
+   },
+   {
+    "keyword": "4000 grafts hair transplant cost",
+    "volume": 30,
+    "competition": "",
+    "cpc": 4.3,
+    "group": "cost"
+   },
+   {
+    "keyword": "5000 grafts hair transplant cost",
+    "volume": 30,
+    "competition": "",
+    "cpc": 8.16,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant cost per graft",
+    "volume": 30,
+    "competition": "",
+    "cpc": 2.88,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant abroad",
+    "volume": 30,
+    "competition": "",
+    "cpc": 10.28,
+    "group": "destination"
+   },
+   {
+    "keyword": "hair transplant package",
+    "volume": 30,
+    "competition": "",
+    "cpc": 12.62,
+    "group": "destination"
+   },
+   {
+    "keyword": "hair transplant financing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "cost"
+   },
+   {
+    "keyword": "hair transplant 12 months",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "proof"
+   },
+   {
+    "keyword": "hair transplant all inclusive",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "destination"
+   },
+   {
+    "keyword": "am i a candidate for a hair transplant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "decision"
+   }
+  ]
+ }
+}

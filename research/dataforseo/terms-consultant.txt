@@ -1,0 +1,76 @@
+# Консультантская форма как собственное позиционирование, 24.11.2026.
+#
+# Повод: в Search Console 580 показов на 44 запросах со словом consultant,
+# средняя позиция 32.9, ноль кликов. Страница /services/seo-consultant стоит
+# на 48.3, а её обгоняют нишевые соседи: /seo-for-startups 16.1,
+# /seo-for-plastic-surgeons 21.7, /b2b-seo 28.1.
+#
+# Эта форма как УСЛУГА не мерялась ни разу. В keywords-en.csv есть только
+# «website seo consultant» 170 — но это про сайты для консультантов, другое.
+#
+# Контроли обязательны.
+
+control::seo services
+control::seo agency
+control::seo freelancer
+control::agencja seo
+control::freelancer seo
+control::pozycjonowanie stron
+control::продвижение сайта
+
+# ── Консультант, головные формы ──────────────────────────────────────────────
+head::seo consultant
+head::seo consultancy
+head::seo consulting
+head::freelance seo consultant
+head::independent seo consultant
+head::seo consultant near me
+head::hire seo consultant
+head::best seo consultant
+head::seo consultant services
+
+# ── Консультант с квалификатором рынка ───────────────────────────────────────
+segment::startup seo consultant
+segment::seo consultant for startups
+segment::b2b seo consultant
+segment::b2b seo consulting
+segment::saas seo consultant
+segment::ecommerce seo consultant
+segment::local seo consultant
+segment::technical seo consultant
+segment::enterprise seo consultant
+segment::small business seo consultant
+
+# ── Консультант в ИИ-формах ──────────────────────────────────────────────────
+ai::ai seo consultant
+ai::llm seo consultant
+ai::geo consultant
+ai::aeo consultant
+ai::generative engine optimization consultant
+ai::answer engine optimization consultant
+ai::chatgpt seo consultant
+ai::ai search consultant
+ai::ai visibility consultant
+
+# ── Эксперт и специалист как альтернативные формы ────────────────────────────
+expert::seo expert
+expert::seo specialist
+expert::freelance seo expert
+expert::seo expert for hire
+expert::seo audit consultant
+
+# ── Польский ─────────────────────────────────────────────────────────────────
+pl::konsultant seo
+pl::konsultant seo freelancer
+pl::doradca seo
+pl::ekspert seo
+pl::specjalista seo
+pl::konsultant seo dla startupów
+pl::niezależny konsultant seo
+
+# ── Русский ──────────────────────────────────────────────────────────────────
+ru::seo консультант
+ru::консультант по seo
+ru::seo специалист
+ru::seo эксперт
+ru::независимый seo консультант

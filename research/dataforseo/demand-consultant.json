@@ -1,0 +1,1470 @@
+{
+ "generatedAt": "2026-11-25T07:42:13.649Z",
+ "terms": 52,
+ "markets": {
+  "EN/US": [
+   {
+    "keyword": "seo services",
+    "volume": 40500,
+    "competition": "",
+    "cpc": 42.4,
+    "group": "control"
+   },
+   {
+    "keyword": "seo agency",
+    "volume": 22200,
+    "competition": "",
+    "cpc": 41.98,
+    "group": "control"
+   },
+   {
+    "keyword": "seo consultant",
+    "volume": 6600,
+    "competition": "",
+    "cpc": 65,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consultancy",
+    "volume": 6600,
+    "competition": "",
+    "cpc": 65,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consulting",
+    "volume": 6600,
+    "competition": "",
+    "cpc": 65,
+    "group": "head"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 4400,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo expert",
+    "volume": 3600,
+    "competition": "",
+    "cpc": 60.71,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo specialist",
+    "volume": 3600,
+    "competition": "",
+    "cpc": 72.24,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo consultant services",
+    "volume": 2900,
+    "competition": "",
+    "cpc": 46.66,
+    "group": "head"
+   },
+   {
+    "keyword": "seo freelancer",
+    "volume": 1600,
+    "competition": "",
+    "cpc": 38.71,
+    "group": "control"
+   },
+   {
+    "keyword": "freelancer seo",
+    "volume": 1600,
+    "competition": "",
+    "cpc": 38.71,
+    "group": "control"
+   },
+   {
+    "keyword": "seo consultant near me",
+    "volume": 1600,
+    "competition": "",
+    "cpc": 21.13,
+    "group": "head"
+   },
+   {
+    "keyword": "local seo consultant",
+    "volume": 880,
+    "competition": "",
+    "cpc": 28.52,
+    "group": "segment"
+   },
+   {
+    "keyword": "freelance seo consultant",
+    "volume": 390,
+    "competition": "",
+    "cpc": 508.51,
+    "group": "head"
+   },
+   {
+    "keyword": "ecommerce seo consultant",
+    "volume": 390,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "seo expert for hire",
+    "volume": 390,
+    "competition": "",
+    "cpc": 65.14,
+    "group": "expert"
+   },
+   {
+    "keyword": "technical seo consultant",
+    "volume": 320,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "small business seo consultant",
+    "volume": 320,
+    "competition": "",
+    "cpc": 58.5,
+    "group": "segment"
+   },
+   {
+    "keyword": "freelance seo expert",
+    "volume": 320,
+    "competition": "",
+    "cpc": 50.11,
+    "group": "expert"
+   },
+   {
+    "keyword": "hire seo consultant",
+    "volume": 260,
+    "competition": "",
+    "cpc": 40.36,
+    "group": "head"
+   },
+   {
+    "keyword": "best seo consultant",
+    "volume": 260,
+    "competition": "",
+    "cpc": 61.87,
+    "group": "head"
+   },
+   {
+    "keyword": "enterprise seo consultant",
+    "volume": 260,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "saas seo consultant",
+    "volume": 210,
+    "competition": "",
+    "cpc": 44.22,
+    "group": "segment"
+   },
+   {
+    "keyword": "ai seo consultant",
+    "volume": 210,
+    "competition": "",
+    "cpc": 17.82,
+    "group": "ai"
+   },
+   {
+    "keyword": "geo consultant",
+    "volume": 210,
+    "competition": "",
+    "cpc": 12.81,
+    "group": "ai"
+   },
+   {
+    "keyword": "independent seo consultant",
+    "volume": 140,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "b2b seo consultant",
+    "volume": 140,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "b2b seo consulting",
+    "volume": 140,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "aeo consultant",
+    "volume": 110,
+    "competition": "",
+    "cpc": 21.39,
+    "group": "ai"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 90,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "ai search consultant",
+    "volume": 70,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "seo audit consultant",
+    "volume": 70,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "startup seo consultant",
+    "volume": 50,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 40,
+    "competition": "",
+    "cpc": 5.85,
+    "group": "control"
+   },
+   {
+    "keyword": "konsultant seo",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "ekspert seo",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "seo специалист",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "seo consultant for startups",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "ai visibility consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "doradca seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "specjalista seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "seo консультант",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "seo эксперт",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "llm seo consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "generative engine optimization consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "answer engine optimization consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "chatgpt seo consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "konsultant seo freelancer",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "konsultant seo dla startupów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "niezależny konsultant seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "консультант по seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "независимый seo консультант",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   }
+  ],
+  "EN/GB": [
+   {
+    "keyword": "seo agency",
+    "volume": 4400,
+    "competition": "",
+    "cpc": 32.21,
+    "group": "control"
+   },
+   {
+    "keyword": "seo services",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 27.82,
+    "group": "control"
+   },
+   {
+    "keyword": "seo consultant",
+    "volume": 1900,
+    "competition": "",
+    "cpc": 23.62,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consultancy",
+    "volume": 1900,
+    "competition": "",
+    "cpc": 23.62,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consulting",
+    "volume": 1900,
+    "competition": "",
+    "cpc": 23.62,
+    "group": "head"
+   },
+   {
+    "keyword": "freelance seo consultant",
+    "volume": 1000,
+    "competition": "",
+    "cpc": 8.47,
+    "group": "head"
+   },
+   {
+    "keyword": "seo expert",
+    "volume": 720,
+    "competition": "",
+    "cpc": 48.67,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo specialist",
+    "volume": 720,
+    "competition": "",
+    "cpc": 21.46,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo freelancer",
+    "volume": 480,
+    "competition": "",
+    "cpc": 23.19,
+    "group": "control"
+   },
+   {
+    "keyword": "freelancer seo",
+    "volume": 480,
+    "competition": "",
+    "cpc": 23.19,
+    "group": "control"
+   },
+   {
+    "keyword": "seo consultant services",
+    "volume": 480,
+    "competition": "",
+    "cpc": 26.62,
+    "group": "head"
+   },
+   {
+    "keyword": "ecommerce seo consultant",
+    "volume": 260,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "seo consultant near me",
+    "volume": 170,
+    "competition": "",
+    "cpc": 16.52,
+    "group": "head"
+   },
+   {
+    "keyword": "technical seo consultant",
+    "volume": 170,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "freelance seo expert",
+    "volume": 170,
+    "competition": "",
+    "cpc": 44.6,
+    "group": "expert"
+   },
+   {
+    "keyword": "local seo consultant",
+    "volume": 140,
+    "competition": "",
+    "cpc": 26.09,
+    "group": "segment"
+   },
+   {
+    "keyword": "best seo consultant",
+    "volume": 90,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "b2b seo consultant",
+    "volume": 90,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "b2b seo consulting",
+    "volume": 90,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "enterprise seo consultant",
+    "volume": 90,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 70,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "small business seo consultant",
+    "volume": 70,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "ai seo consultant",
+    "volume": 70,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "seo expert for hire",
+    "volume": 70,
+    "competition": "",
+    "cpc": 13.57,
+    "group": "expert"
+   },
+   {
+    "keyword": "hire seo consultant",
+    "volume": 50,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "saas seo consultant",
+    "volume": 50,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "geo consultant",
+    "volume": 50,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 40,
+    "competition": "",
+    "cpc": 8.63,
+    "group": "control"
+   },
+   {
+    "keyword": "independent seo consultant",
+    "volume": 40,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "aeo consultant",
+    "volume": 30,
+    "competition": "",
+    "cpc": 38.88,
+    "group": "ai"
+   },
+   {
+    "keyword": "ai search consultant",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "seo audit consultant",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "startup seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "seo consultant for startups",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "ai visibility consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "konsultant seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "doradca seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "ekspert seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "specjalista seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "seo консультант",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "seo специалист",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "seo эксперт",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "llm seo consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "generative engine optimization consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "answer engine optimization consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "chatgpt seo consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "konsultant seo freelancer",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "konsultant seo dla startupów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "niezależny konsultant seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "консультант по seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "независимый seo консультант",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   }
+  ],
+  "PL/PL": [
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 5400,
+    "competition": "",
+    "cpc": 21.96,
+    "group": "control"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 12.31,
+    "group": "control"
+   },
+   {
+    "keyword": "seo freelancer",
+    "volume": 880,
+    "competition": "",
+    "cpc": 7.78,
+    "group": "control"
+   },
+   {
+    "keyword": "freelancer seo",
+    "volume": 880,
+    "competition": "",
+    "cpc": 7.78,
+    "group": "control"
+   },
+   {
+    "keyword": "specjalista seo",
+    "volume": 390,
+    "competition": "",
+    "cpc": 1.7,
+    "group": "pl"
+   },
+   {
+    "keyword": "konsultant seo",
+    "volume": 260,
+    "competition": "",
+    "cpc": 2.88,
+    "group": "pl"
+   },
+   {
+    "keyword": "seo agency",
+    "volume": 210,
+    "competition": "",
+    "cpc": 5.2,
+    "group": "control"
+   },
+   {
+    "keyword": "ekspert seo",
+    "volume": 210,
+    "competition": "",
+    "cpc": 11.41,
+    "group": "pl"
+   },
+   {
+    "keyword": "seo services",
+    "volume": 170,
+    "competition": "",
+    "cpc": 6.88,
+    "group": "control"
+   },
+   {
+    "keyword": "seo consultant",
+    "volume": 170,
+    "competition": "",
+    "cpc": 4.15,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consultancy",
+    "volume": 170,
+    "competition": "",
+    "cpc": 4.15,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consulting",
+    "volume": 170,
+    "competition": "",
+    "cpc": 4.15,
+    "group": "head"
+   },
+   {
+    "keyword": "seo specialist",
+    "volume": 170,
+    "competition": "",
+    "cpc": 2.09,
+    "group": "expert"
+   },
+   {
+    "keyword": "geo consultant",
+    "volume": 140,
+    "competition": "",
+    "cpc": 0.34,
+    "group": "ai"
+   },
+   {
+    "keyword": "seo expert",
+    "volume": 110,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "doradca seo",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "seo специалист",
+    "volume": 30,
+    "competition": "",
+    "cpc": 1.58,
+    "group": "ru"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo consultant services",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "freelance seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "independent seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consultant near me",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "hire seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "best seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "startup seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "seo consultant for startups",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "b2b seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "b2b seo consulting",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "saas seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "ecommerce seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "local seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "technical seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "enterprise seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "small business seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "ai seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "aeo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "ai search consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "ai visibility consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "freelance seo expert",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo expert for hire",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo audit consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo консультант",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "llm seo consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "generative engine optimization consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "answer engine optimization consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "chatgpt seo consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "konsultant seo freelancer",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "konsultant seo dla startupów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "niezależny konsultant seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "консультант по seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "seo эксперт",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "независимый seo консультант",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   }
+  ],
+  "RU/UA": [
+   {
+    "keyword": "seo специалист",
+    "volume": 480,
+    "competition": "",
+    "cpc": 2.74,
+    "group": "ru"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 320,
+    "competition": "",
+    "cpc": 7.9,
+    "group": "control"
+   },
+   {
+    "keyword": "seo specialist",
+    "volume": 170,
+    "competition": "",
+    "cpc": 4.14,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo agency",
+    "volume": 140,
+    "competition": "",
+    "cpc": 2.58,
+    "group": "control"
+   },
+   {
+    "keyword": "seo services",
+    "volume": 70,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo consultant",
+    "volume": 40,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consultancy",
+    "volume": 40,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consulting",
+    "volume": 40,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "seo expert",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo freelancer",
+    "volume": 10,
+    "competition": "",
+    "cpc": 0.29,
+    "group": "control"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "freelancer seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": 0.29,
+    "group": "control"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "freelance seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "independent seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consultant near me",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "hire seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "best seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "seo consultant services",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "head"
+   },
+   {
+    "keyword": "startup seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "b2b seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "b2b seo consulting",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "saas seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "ecommerce seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "local seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "technical seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "enterprise seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "small business seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "ai seo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "geo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "aeo consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "freelance seo expert",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo expert for hire",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "seo audit consultant",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "expert"
+   },
+   {
+    "keyword": "konsultant seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "ekspert seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "specjalista seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "seo консультант",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "seo эксперт",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "seo consultant for startups",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "segment"
+   },
+   {
+    "keyword": "llm seo consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "generative engine optimization consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "answer engine optimization consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "chatgpt seo consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "ai search consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "ai visibility consultant",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ai"
+   },
+   {
+    "keyword": "konsultant seo freelancer",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "doradca seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "konsultant seo dla startupów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "niezależny konsultant seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl"
+   },
+   {
+    "keyword": "консультант по seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   },
+   {
+    "keyword": "независимый seo консультант",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru"
+   }
+  ]
+ }
+}

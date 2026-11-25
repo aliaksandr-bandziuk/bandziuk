@@ -1,0 +1,44 @@
+# Пересадка волос, сторона покупателя услуги. Добор к замеру 24.11.2026.
+#
+# Пропуск первого замера: во всей выдаче вторым термином идёт «hair
+# restoration» — «SEO for Hair Restoration», «Hair Restoration Clinics»,
+# «Hair Restoration and Transplant Marketing». Эта форма не проверялась,
+# а она решает, что встанет в слаг и H1.
+#
+# Плюс фразы, добытые из блоков «похожие запросы» в сырой выдаче, то есть
+# живущие ниже порога планировщика в 10.
+
+control::dental seo
+control::seo for plastic surgeons
+control::medical seo
+
+# ── Восстановление волос как термин ──────────────────────────────────────────
+restoration::hair restoration seo
+restoration::seo for hair restoration clinics
+restoration::hair restoration marketing
+restoration::hair restoration clinic marketing
+restoration::hair restoration digital marketing
+restoration::hair restoration seo services
+restoration::marketing for hair restoration clinics
+
+# ── Клиника волос и выпадение волос ──────────────────────────────────────────
+clinic::hair clinic seo
+clinic::hair clinic marketing
+clinic::hair loss clinic seo
+clinic::hair loss clinic marketing
+clinic::trichology seo
+clinic::hair restoration practice marketing
+
+# ── Из похожих запросов выдачи ───────────────────────────────────────────────
+serp::hair transplant marketing strategy
+serp::hair transplant marketing cost
+serp::seo for hair transplant clinics near california
+serp::seo for hair transplant clinics near texas
+serp::hair transplant seo services
+serp::hair transplant tourism marketing
+
+# ── Привлечение пациентов как форма ──────────────────────────────────────────
+acquisition::patient acquisition for hair transplant clinics
+acquisition::hair transplant patient acquisition
+acquisition::medical tourism patient acquisition
+acquisition::clinic patient acquisition

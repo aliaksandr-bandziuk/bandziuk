@@ -1,0 +1,69 @@
+# Пациентская сторона пересадки волос, 25.11.2026.
+#
+# Зачем: раздел для seo-for-plastic-surgeons.en утверждает, что пациент ищет по
+# числу графтов и по названию техники, а не по хирургу. Это надо проверить, а не
+# предполагать: страница говорит владельцу клиники, как ищут его пациенты.
+#
+# Пациентские запросы высокочастотные, порог планировщика в 10 здесь не мешает.
+# Формы сравниваются между собой: решает не отдельная фраза, а какая ФОРМА
+# крупнее — техника, цена, направление, зона, доказательство или риск.
+
+control::hair transplant
+control::hair loss treatment
+
+# ── Техника ──────────────────────────────────────────────────────────────────
+technique::fue hair transplant
+technique::dhi hair transplant
+technique::sapphire fue hair transplant
+technique::fut hair transplant
+technique::unshaven hair transplant
+technique::follicular unit extraction
+
+# ── Цена, в том числе за число графтов ───────────────────────────────────────
+cost::hair transplant cost
+cost::how much is a hair transplant
+cost::hair transplant price
+cost::2000 grafts hair transplant cost
+cost::3000 grafts hair transplant cost
+cost::4000 grafts hair transplant cost
+cost::5000 grafts hair transplant cost
+cost::hair transplant cost per graft
+cost::hair transplant financing
+
+# ── Направление поездки ──────────────────────────────────────────────────────
+destination::hair transplant turkey
+destination::hair transplant istanbul
+destination::hair transplant abroad
+destination::best country for hair transplant
+destination::hair transplant package
+destination::hair transplant all inclusive
+
+# ── Зона операции ────────────────────────────────────────────────────────────
+area::beard transplant
+area::eyebrow transplant
+area::hairline transplant
+area::crown hair transplant
+area::female hair transplant
+area::afro hair transplant
+
+# ── Доказательство результата ────────────────────────────────────────────────
+proof::hair transplant before and after
+proof::hair transplant results
+proof::hair transplant reviews
+proof::hair transplant 12 months
+proof::hair transplant timeline
+proof::hair transplant growth stages
+
+# ── Выбор исполнителя ────────────────────────────────────────────────────────
+decision::hair transplant near me
+decision::best hair transplant clinic
+decision::hair transplant surgeon
+decision::hair transplant consultation
+decision::am i a candidate for a hair transplant
+
+# ── Риск и восстановление ────────────────────────────────────────────────────
+risk::hair transplant side effects
+risk::hair transplant recovery
+risk::hair transplant scars
+risk::hair transplant success rate
+risk::hair transplant gone wrong

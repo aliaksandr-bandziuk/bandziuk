@@ -1,0 +1,3236 @@
+{
+ "generatedAt": "2026-11-24T17:02:19.927Z",
+ "terms": 92,
+ "markets": {
+  "TR/TR": [
+   {
+    "keyword": "web tasarım",
+    "volume": 18100,
+    "competition": "",
+    "cpc": 2.58,
+    "group": "control"
+   },
+   {
+    "keyword": "seo ajansı",
+    "volume": 6600,
+    "competition": "",
+    "cpc": 4.53,
+    "group": "control"
+   },
+   {
+    "keyword": "seo hizmeti",
+    "volume": 1600,
+    "competition": "",
+    "cpc": 4.84,
+    "group": "control"
+   },
+   {
+    "keyword": "sağlık turizmi seo",
+    "volume": 320,
+    "competition": "",
+    "cpc": 7.06,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "seo agency",
+    "volume": 170,
+    "competition": "",
+    "cpc": 4.17,
+    "group": "control"
+   },
+   {
+    "keyword": "sağlık turizmi dijital pazarlama",
+    "volume": 170,
+    "competition": "",
+    "cpc": 4.43,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "seo services",
+    "volume": 70,
+    "competition": "",
+    "cpc": 3.53,
+    "group": "control"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "saç ekimi reklam",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "dental seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "medikal seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": 5.74,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "medical tourism marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "clinic seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for plastic surgeons",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "cosmetic surgery marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "clinic website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "medical website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "marketing medyczny",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "продвижение клиники",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский маркетинг",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 10,
+    "competition": "",
+    "cpc": 3.38,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "seo продвижение",
+    "volume": 10,
+    "competition": "",
+    "cpc": 4.82,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "saç ekimi seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi kliniği seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pozisyonlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi reklamcılık",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi web tasarım",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi kliniği web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "estetik klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "klinik dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "hastane seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "sağlık turizmi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medikal turizm seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medical tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "seo for medical tourism",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "aesthetic clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for aesthetic clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "cosmetic clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "hair transplant ppc",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant google ads",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant lead generation",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant clinic marketing agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant seo agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "modular construction seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular building seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "seo for prefab builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "container home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "tiny home builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefabrik ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "modüler ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "seo dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "marketing kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "seo dla gabinetu lekarskiego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie gabinetu stomatologicznego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "turystyka medyczna seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "marketing turystyki medycznej",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "przeszczep włosów seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "marketing kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "domy modułowe seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "marketing domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "пересадка волос seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo клиники трансплантации волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo для клиники",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский туризм продвижение",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-tourism"
+   },
+   {
+    "keyword": "продвижение модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   },
+   {
+    "keyword": "seo модульные дома",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   }
+  ],
+  "EN/US": [
+   {
+    "keyword": "seo services",
+    "volume": 40500,
+    "competition": "",
+    "cpc": 42.4,
+    "group": "control"
+   },
+   {
+    "keyword": "seo agency",
+    "volume": 22200,
+    "competition": "",
+    "cpc": 41.98,
+    "group": "control"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 4400,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo ajansı",
+    "volume": 2400,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "dental seo",
+    "volume": 880,
+    "competition": "",
+    "cpc": 47.31,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for plastic surgeons",
+    "volume": 390,
+    "competition": "",
+    "cpc": 40.57,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "medical website design",
+    "volume": 390,
+    "competition": "",
+    "cpc": 67.5,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery marketing",
+    "volume": 260,
+    "competition": "",
+    "cpc": 45.49,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery seo",
+    "volume": 210,
+    "competition": "",
+    "cpc": 67.61,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "web tasarım",
+    "volume": 110,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 90,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo продвижение",
+    "volume": 90,
+    "competition": "",
+    "cpc": 5.9,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "cosmetic surgery marketing",
+    "volume": 50,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "clinic website design",
+    "volume": 40,
+    "competition": "",
+    "cpc": 31.77,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 40,
+    "competition": "",
+    "cpc": 5.85,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "seo hizmeti",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for clinics",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "marketing medyczny",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "saç ekimi reklam",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "sağlık turizmi seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "sağlık turizmi dijital pazarlama",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medical tourism marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "clinic seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "aesthetic clinic seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for aesthetic clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "продвижение клиники",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский маркетинг",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "saç ekimi seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi kliniği seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pozisyonlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi reklamcılık",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi web tasarım",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi kliniği web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "medikal seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "estetik klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "klinik dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "hastane seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "sağlık turizmi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medikal turizm seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medical tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "seo for medical tourism",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "cosmetic clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "hair transplant ppc",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant google ads",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant lead generation",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant clinic marketing agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant seo agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "modular construction seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular building seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "seo for prefab builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "container home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "tiny home builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefabrik ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "modüler ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "seo dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "marketing kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "seo dla gabinetu lekarskiego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie gabinetu stomatologicznego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "turystyka medyczna seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "marketing turystyki medycznej",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "przeszczep włosów seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "marketing kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "domy modułowe seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "marketing domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "пересадка волос seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo клиники трансплантации волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo для клиники",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский туризм продвижение",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-tourism"
+   },
+   {
+    "keyword": "продвижение модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   },
+   {
+    "keyword": "seo модульные дома",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   }
+  ],
+  "EN/GB": [
+   {
+    "keyword": "seo agency",
+    "volume": 4400,
+    "competition": "",
+    "cpc": 32.21,
+    "group": "control"
+   },
+   {
+    "keyword": "seo services",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 27.82,
+    "group": "control"
+   },
+   {
+    "keyword": "dental seo",
+    "volume": 320,
+    "competition": "",
+    "cpc": 16.5,
+    "group": "control"
+   },
+   {
+    "keyword": "seo ajansı",
+    "volume": 210,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "medical website design",
+    "volume": 110,
+    "competition": "",
+    "cpc": 5.51,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 70,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 40,
+    "competition": "",
+    "cpc": 8.63,
+    "group": "control"
+   },
+   {
+    "keyword": "clinic website design",
+    "volume": 40,
+    "competition": "",
+    "cpc": 9.71,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "web tasarım",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "clinic seo",
+    "volume": 30,
+    "competition": "",
+    "cpc": 24.76,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for aesthetic clinics",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for plastic surgeons",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery seo",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "seo hizmeti",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "saç ekimi reklam",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "medikal seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "sağlık turizmi seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "sağlık turizmi dijital pazarlama",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medical tourism marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "seo for clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "aesthetic clinic seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": 12.02,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "cosmetic surgery marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "marketing medyczny",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "продвижение клиники",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский маркетинг",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "seo продвижение",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "saç ekimi seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi kliniği seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pozisyonlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi reklamcılık",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi web tasarım",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi kliniği web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "estetik klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "klinik dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "hastane seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "sağlık turizmi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medikal turizm seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medical tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "seo for medical tourism",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "cosmetic clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "hair transplant ppc",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant google ads",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant lead generation",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant clinic marketing agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant seo agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "modular construction seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular building seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "seo for prefab builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "container home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "tiny home builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefabrik ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "modüler ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "seo dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "marketing kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "seo dla gabinetu lekarskiego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie gabinetu stomatologicznego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "turystyka medyczna seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "marketing turystyki medycznej",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "przeszczep włosów seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "marketing kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "domy modułowe seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "marketing domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "пересадка волос seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo клиники трансплантации волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo для клиники",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский туризм продвижение",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-tourism"
+   },
+   {
+    "keyword": "продвижение модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   },
+   {
+    "keyword": "seo модульные дома",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   }
+  ],
+  "PL/PL": [
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 5400,
+    "competition": "",
+    "cpc": 21.96,
+    "group": "control"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 2400,
+    "competition": "",
+    "cpc": 12.31,
+    "group": "control"
+   },
+   {
+    "keyword": "marketing medyczny",
+    "volume": 260,
+    "competition": "",
+    "cpc": 5.82,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "seo agency",
+    "volume": 210,
+    "competition": "",
+    "cpc": 5.2,
+    "group": "control"
+   },
+   {
+    "keyword": "seo services",
+    "volume": 170,
+    "competition": "",
+    "cpc": 6.88,
+    "group": "control"
+   },
+   {
+    "keyword": "seo ajansı",
+    "volume": 110,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "продвижение сайта",
+    "volume": 20,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "dental seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo hizmeti",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "web tasarım",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "saç ekimi reklam",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "clinic seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for aesthetic clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for plastic surgeons",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "cosmetic surgery marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "clinic website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": 0.07,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "medical website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": 0.94,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "продвижение клиники",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский маркетинг",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "seo продвижение",
+    "volume": 10,
+    "competition": "",
+    "cpc": 4.31,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "saç ekimi seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi kliniği seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pozisyonlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi reklamcılık",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi web tasarım",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi kliniği web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "medikal seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "estetik klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "klinik dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "hastane seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "sağlık turizmi seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "sağlık turizmi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "sağlık turizmi dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medikal turizm seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medical tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "seo for medical tourism",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "aesthetic clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "cosmetic clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "hair transplant ppc",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant google ads",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant lead generation",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant clinic marketing agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant seo agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "modular construction seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular building seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "seo for prefab builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "container home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "tiny home builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefabrik ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "modüler ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "seo dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "marketing kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "seo dla gabinetu lekarskiego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie gabinetu stomatologicznego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "turystyka medyczna seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "marketing turystyki medycznej",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "przeszczep włosów seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "marketing kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "domy modułowe seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "marketing domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "пересадка волос seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo клиники трансплантации волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo для клиники",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский туризм продвижение",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-tourism"
+   },
+   {
+    "keyword": "продвижение модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   },
+   {
+    "keyword": "seo модульные дома",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   }
+  ],
+  "RU/UA": [
+   {
+    "keyword": "продвижение сайта",
+    "volume": 320,
+    "competition": "",
+    "cpc": 7.9,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "seo продвижение",
+    "volume": 210,
+    "competition": "",
+    "cpc": 6.79,
+    "group": "ru-control"
+   },
+   {
+    "keyword": "seo agency",
+    "volume": 140,
+    "competition": "",
+    "cpc": 2.58,
+    "group": "control"
+   },
+   {
+    "keyword": "seo ajansı",
+    "volume": 140,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo services",
+    "volume": 70,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "dental seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "seo hizmeti",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "web tasarım",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "pozycjonowanie stron",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "agencja seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "saç ekimi reklam",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "sağlık turizmi dijital pazarlama",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "clinic seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for aesthetic clinics",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "seo for plastic surgeons",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "plastic surgery marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "cosmetic surgery marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "clinic website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "medical website design",
+    "volume": 10,
+    "competition": "",
+    "cpc": 1.52,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "продвижение клиники",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский маркетинг",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "saç ekimi seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi kliniği seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pozisyonlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-seo"
+   },
+   {
+    "keyword": "saç ekimi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi reklamcılık",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-mkt"
+   },
+   {
+    "keyword": "saç ekimi web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi web tasarım",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "saç ekimi kliniği web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-hair-web"
+   },
+   {
+    "keyword": "klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "medikal seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "estetik klinik seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "klinik dijital pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "hastane seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-clinic"
+   },
+   {
+    "keyword": "sağlık turizmi seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "sağlık turizmi pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medikal turizm seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-tourism"
+   },
+   {
+    "keyword": "medical tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "seo for medical tourism",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "health tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "medical tourism website design",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "dental tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-tourism"
+   },
+   {
+    "keyword": "aesthetic clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "cosmetic clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-clinic"
+   },
+   {
+    "keyword": "hair transplant ppc",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant google ads",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant lead generation",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant clinic marketing agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "hair transplant seo agency",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-hair-paid"
+   },
+   {
+    "keyword": "modular construction seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular building seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "modular home builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab home marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefab builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "seo for prefab builders",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "container home seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "tiny home builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "adu builder marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "en-modular"
+   },
+   {
+    "keyword": "prefabrik ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev web sitesi",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "modüler ev seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "prefabrik ev pazarlama",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "tr-modular"
+   },
+   {
+    "keyword": "seo dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "marketing medyczny",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "marketing kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "seo dla gabinetu lekarskiego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "pozycjonowanie gabinetu stomatologicznego",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "strona internetowa dla kliniki",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-clinic"
+   },
+   {
+    "keyword": "turystyka medyczna seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "marketing turystyki medycznej",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-tourism"
+   },
+   {
+    "keyword": "przeszczep włosów seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "marketing kliniki przeszczepu włosów",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-hair"
+   },
+   {
+    "keyword": "domy modułowe seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "marketing domów modułowych",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "pl-modular"
+   },
+   {
+    "keyword": "пересадка волос seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "продвижение клиники пересадки волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo клиники трансплантации волос",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-hair"
+   },
+   {
+    "keyword": "seo для клиники",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-clinic"
+   },
+   {
+    "keyword": "медицинский туризм продвижение",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-tourism"
+   },
+   {
+    "keyword": "продвижение модульных домов",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   },
+   {
+    "keyword": "seo модульные дома",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "ru-modular"
+   }
+  ]
+ }
+}

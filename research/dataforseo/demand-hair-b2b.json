@@ -1,0 +1,374 @@
+{
+ "generatedAt": "2026-11-25T09:41:58.006Z",
+ "terms": 26,
+ "markets": {
+  "EN/US": [
+   {
+    "keyword": "dental seo",
+    "volume": 880,
+    "competition": "",
+    "cpc": 47.31,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for plastic surgeons",
+    "volume": 390,
+    "competition": "",
+    "cpc": 40.57,
+    "group": "control"
+   },
+   {
+    "keyword": "medical seo",
+    "volume": 320,
+    "competition": "",
+    "cpc": 18.15,
+    "group": "control"
+   },
+   {
+    "keyword": "hair restoration seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair restoration marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "seo for hair restoration clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair restoration clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair restoration digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair restoration seo services",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "marketing for hair restoration clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair loss clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair loss clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "trichology seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair restoration practice marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair transplant marketing strategy",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "hair transplant marketing cost",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "seo for hair transplant clinics near california",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "seo for hair transplant clinics near texas",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "hair transplant seo services",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "hair transplant tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "patient acquisition for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "acquisition"
+   },
+   {
+    "keyword": "hair transplant patient acquisition",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "acquisition"
+   },
+   {
+    "keyword": "medical tourism patient acquisition",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "acquisition"
+   },
+   {
+    "keyword": "clinic patient acquisition",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "acquisition"
+   }
+  ],
+  "EN/GB": [
+   {
+    "keyword": "dental seo",
+    "volume": 320,
+    "competition": "",
+    "cpc": 16.5,
+    "group": "control"
+   },
+   {
+    "keyword": "medical seo",
+    "volume": 90,
+    "competition": "",
+    "cpc": 14.53,
+    "group": "control"
+   },
+   {
+    "keyword": "seo for plastic surgeons",
+    "volume": 30,
+    "competition": "",
+    "cpc": null,
+    "group": "control"
+   },
+   {
+    "keyword": "hair restoration seo",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair restoration marketing",
+    "volume": 10,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "seo for hair restoration clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair restoration clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair restoration digital marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair restoration seo services",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "marketing for hair restoration clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "restoration"
+   },
+   {
+    "keyword": "hair clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair loss clinic seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair loss clinic marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "trichology seo",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair restoration practice marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "clinic"
+   },
+   {
+    "keyword": "hair transplant marketing strategy",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "hair transplant marketing cost",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "seo for hair transplant clinics near california",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "seo for hair transplant clinics near texas",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "hair transplant seo services",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "hair transplant tourism marketing",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "serp"
+   },
+   {
+    "keyword": "patient acquisition for hair transplant clinics",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "acquisition"
+   },
+   {
+    "keyword": "hair transplant patient acquisition",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "acquisition"
+   },
+   {
+    "keyword": "medical tourism patient acquisition",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "acquisition"
+   },
+   {
+    "keyword": "clinic patient acquisition",
+    "volume": 0,
+    "competition": "",
+    "cpc": null,
+    "group": "acquisition"
+   }
+  ]
+ }
+}

@@ -37,11 +37,18 @@ const offerListBlock = defineType({
       ],
     }),
     defineField({
+      name: "pricesIntro",
+      title: "Text beside the prices",
+      type: "contentBlock",
+      description:
+        "Optional. How to choose between the services and what the prices cover. On a service page it sits left of the price list; leave empty on landings.",
+    }),
+    defineField({
       name: "prices",
       title: "Price cards",
       description: "Only prices already stated elsewhere on the site. Leave empty to show no prices.",
       type: "array",
-      validation: (Rule) => Rule.max(3),
+      validation: (Rule) => Rule.max(4),
       of: [
         defineArrayMember({
           name: "offerPrice",

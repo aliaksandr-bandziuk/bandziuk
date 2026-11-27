@@ -25,15 +25,33 @@ function armFor(pageKey: string): "short" | "quiz" {
 const QuoteFormBlock: FC<Props> = ({ block, lang, pageKey }) => {
   const formTexts = (block.form as any)?.form;
   if (!formTexts) return null;
+  // What the visitor gets in reply, beside the form (2026-11). When it is
+  // filled the card's columns align to the top, so the list starts level
+  // with the first question instead of floating in the middle.
+  const returns = (block.returns ?? []).filter((r) => r.title);
   const variant = !block.formVariant || block.formVariant === "auto" ? armFor(pageKey) : block.formVariant;
 
   return (
     <section className={styles.quote} id="quote">
       <div className="container">
-        <div className={styles.card}>
+        <div className={returns.length > 0 ? `${styles.card} ${styles.cardTop}` : styles.card}>
           <div className={styles.intro}>
             <h2 className={styles.title}>{block.title}</h2>
-            {block.subtitle && <p className={styles.subtitle}>{block.subtitle}</p>}
+            {returns.length > 0 ? (
+              <>
+                {block.returnsIntro && <p className={styles.subtitle}>{block.returnsIntro}</p>}
+                <ul className={styles.returns}>
+                  {returns.map((r) => (
+                    <li key={r._key}>
+                      {r.title}
+                      {r.note && <small>{r.note}</small>}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              block.subtitle && <p className={styles.subtitle}>{block.subtitle}</p>
+            )}
           </div>
           <QuoteFormSwitch
             variant={variant}

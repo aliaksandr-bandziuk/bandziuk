@@ -74,7 +74,10 @@ export type Singlepage = {
   heroChips?: string[];
   heroPhonePoints?: string[];
   /** Landing hero, right side on desktop: phone sketch (default) or a photo. */
-  heroVisual?: "phone" | "photo";
+  heroVisual?: "phone" | "photo" | "answer" | "screen";
+  heroAnswer?: HeroAnswer | null;
+  heroScreen?: HeroScreen | null;
+  noIndex?: boolean;
   heroPhoto?: ImageAlt;
   contentBlocks: Array<
     | TextContent
@@ -116,4 +119,24 @@ export type Singlepage = {
   pageType?: PageType;
   childrenServices?: SinglepageRef[];
   areaServed?: string[];
+};
+
+/** The landing hero's phone when heroVisual = "screen": an example first screen. */
+export type HeroScreen = {
+  brand?: string;
+  title?: string;
+  subline?: string;
+  call?: string;
+  message?: string;
+  chips?: string[];
+  toast?: string;
+};
+
+/** The landing hero's right side when heroVisual = "answer". */
+export type HeroAnswer = {
+  label?: string;
+  question?: string;
+  answer?: string;
+  sources?: Array<{ _key: string; name?: string; ours?: boolean }>;
+  note?: string;
 };

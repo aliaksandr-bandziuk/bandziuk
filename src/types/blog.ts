@@ -64,7 +64,7 @@ export type TextContent = {
   textColor: string;
   backgroundFull: string;
   /** "guide": contents beside the text on desktop, collapsible H2 sections on phones. */
-  layout?: "default" | "guide";
+  layout?: "default" | "guide" | "chapters";
   /** Small mono label above the first heading. */
   eyebrow?: string;
   /** Document-scale headings instead of the landing scale. */
@@ -603,6 +603,8 @@ export type OfferListBlock = {
   title: string;
   items?: Array<{ _key: string; iconName?: string; title: string; text?: string }>;
   prices?: Array<{ _key: string; label: string; value: string; note?: string; highlight?: boolean }>;
+  /** Portable Text beside the prices; same shape as TextContent.content. */
+  pricesIntro?: any;
 };
 
 export type PortfolioPickBlock = {
@@ -626,5 +628,7 @@ export type QuoteFormBlock = {
   note?: string;
   formVariant?: "auto" | "short" | "quiz";
   quizQuestions?: Array<{ _key: string; question: string; options?: string[] }>;
+  returnsIntro?: string;
+  returns?: Array<{ _key: string; title?: string; note?: string }>;
   form: FormStandardDocument;
 };

@@ -158,3 +158,427 @@
   color: var(--accent);
   margin-top: 2px;
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Service pages only (main[data-page-type="service"], set in [...slug]/page.tsx).
+// The landing variant above is untouched: 500+ landings keep their look until
+// they get their own pass.
+//
+// Two changes, both from the prototype measured with taste-skill + apple-design:
+//   1. No rules. Every divider here (the grid's outer border, the line under
+//      each row, the outline round a price card) is replaced by a filled
+//      ground, so the block reads as material rather than as a ruled table.
+//      A page of repeated hairlines is the thing that reads as generated.
+//   2. Prices become one table-shaped list — what is priced, what it covers,
+//      the price — instead of three cards side by side. A buyer compares down
+//      a column, not across cards, and the note earns its own column.
+// ─────────────────────────────────────────────────────────────────────────────
+:global(main[data-page-type="service"]) {
+  .list {
+    gap: 10px;
+
+    @media screen and (min-width: 768px) {
+      border: 0;
+      border-radius: 0;
+      overflow: visible;
+      gap: 12px;
+    }
+  }
+
+  .item {
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px;
+    border: 0;
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.04);
+    transition: background-color 0.2s ease;
+
+    &:last-child {
+      border: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+      margin: 0;
+      padding: 22px;
+      border: 0;
+
+      &:last-child {
+        border: 0;
+      }
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background: rgba(255, 255, 255, 0.07);
+      }
+    }
+  }
+
+  // The icon is the row's mark, not a filled plate competing with the tile.
+  .icon {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background: none;
+  }
+
+  // Mark, title and line read together from the top (2026-11): a tile ends
+  // where its words end, with no hollow space above the title.
+  .itemText {
+    margin-top: 0;
+  }
+
+  .prices {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+    margin-top: 22px;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 2px;
+      margin-top: 34px;
+    }
+  }
+
+  .price {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: var(--radius-md);
+    padding: 16px 14px;
+    transition: background-color 0.18s ease;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) auto;
+      column-gap: 28px;
+      padding: 22px 16px;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background: rgba(255, 255, 255, 0.04);
+      }
+    }
+  }
+
+  // The recommended line is marked by a dot at its label and a filled price,
+  // not by a tinted band across the whole screen: a full-width band reads as
+  // a new section ground and breaks the one-section-per-screen rhythm.
+  .priceHighlight {
+    border: 0;
+
+    .priceLabel::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      margin-right: 9px;
+      vertical-align: 1px;
+      background: var(--accent);
+    }
+
+    .priceValue {
+      color: var(--text-primary);
+      background: rgba(255, 138, 60, 0.18);
+      border-radius: 999px;
+      padding: 6px 14px;
+    }
+  }
+
+  .priceLabel {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 15.5px;
+    font-weight: 500;
+    line-height: 1.45;
+    color: var(--text-primary);
+  }
+
+  .priceNote {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 15px;
+    line-height: 1.45;
+    color: var(--text-secondary);
+    margin-top: 0;
+
+    @media screen and (min-width: 768px) {
+      grid-column: 2;
+      grid-row: 1;
+    }
+  }
+
+  .priceValue {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: start;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    font-weight: 500;
+    color: var(--accent);
+    margin-top: 0;
+    white-space: nowrap;
+
+    @media screen and (min-width: 768px) {
+      grid-column: 3;
+      grid-row: 1;
+      justify-self: end;
+      text-align: right;
+    }
+  }
+}
+
+// The prices with the text that explains them (pricesIntro): prose left,
+// the list right, as every other section of a service page is laid out.
+// The list follows the prose down while it is read.
+.pricesRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+  margin-top: clamp(48px, 6vw, 96px);
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    gap: 72px;
+    align-items: start;
+
+    .prices {
+      position: sticky;
+      top: 110px;
+      margin-top: 0;
+    }
+  }
+}
+
+.pricesIntro {
+  min-width: 0;
+  color: var(--text-reading);
+
+  // Its H2 opens this section, so it takes the size every other section title
+  // on the page has, not the 55px of a heading inside a long article.
+  :global(h2) {
+    font-size: clamp(1.625rem, 1.2rem + 1.7vw, 2.5rem);
+    line-height: 1.12;
+    max-width: 24ch;
+  }
+}
+
+// ── Service pages: the tiles and the routing list, as in the prototype ───────
+:global(main[data-page-type="service"]) {
+  // Columns follow the count, so no tile is ever left alone on a last row:
+  // four in one row, three and six in rows of three, two side by side.
+  .list {
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media screen and (min-width: 1100px) {
+      &[data-count="3"],
+      &[data-count="6"],
+      &[data-count="9"] {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      &[data-count="4"] {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      &[data-count="5"],
+      &[data-count="7"],
+      &[data-count="8"] {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+  }
+
+  // A tile: mark, title and line together at the top; it lifts a little on hover.
+  .item {
+    gap: 18px;
+    justify-content: flex-start;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.055);
+    transition:
+      background-color 0.2s ease,
+      translate 0.2s ease;
+
+    @media screen and (min-width: 1100px) {
+      padding: 24px 24px 26px;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        translate: 0 -2px;
+      }
+    }
+  }
+
+  .icon {
+    color: var(--accent);
+  }
+
+  .itemTitle {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .itemLine {
+    margin-top: 3px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+  }
+
+  // The list beside the text: each entry a small card, three lines read top
+  // to bottom — the situation, the problem it is, the service that answers it.
+  // No pill, no right-aligned column squeezed into half a screen.
+  .pricesRow {
+    .prices {
+      gap: 10px;
+    }
+
+    .price {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 6px;
+      padding: 18px 20px;
+      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, 0.04);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    }
+
+    .priceLabel {
+      grid-column: 1;
+      grid-row: 1;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .priceNote {
+      grid-column: 1;
+      grid-row: 2;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+    }
+
+    .priceValue {
+      grid-column: 1;
+      grid-row: 3;
+      justify-self: start;
+      text-align: left;
+      margin-top: 6px;
+      padding: 0;
+      background: none;
+      border-radius: 0;
+      color: var(--accent);
+      font-size: 15px;
+      font-weight: 500;
+      white-space: normal;
+
+      &::before {
+        content: "→ ";
+      }
+    }
+
+    .priceHighlight {
+      background: rgba(255, 138, 60, 0.08);
+      box-shadow: inset 0 1px 0 rgba(255, 138, 60, 0.18);
+
+      .priceLabel::before {
+        display: none;
+      }
+
+      .priceValue {
+        background: none;
+        padding: 0;
+        color: var(--accent);
+      }
+    }
+  }
+}
+
+
+// ── Service pages: prices under the tiles as cards (2026-11-27) ─────────────
+// Two rows stretched across the container left a wide hole between the name
+// and the price. Now each price is a card like the tiles above it: what it is
+// and what it covers on the left, the amount on the right, set in the heading
+// face. The recommended one carries the accent on its amount — no pill.
+:global(main[data-page-type="service"]) {
+  .prices.pricesCards {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+    margin-top: 24px;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .pricesCards .price {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 20px;
+    row-gap: 4px;
+    align-items: center;
+    padding: 22px 24px;
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.055);
+
+    @media (hover: hover) {
+      &:hover {
+        background: rgba(255, 255, 255, 0.06);
+      }
+    }
+  }
+
+  .pricesCards .priceLabel {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.35;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .pricesCards .priceNote {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--text-secondary);
+  }
+
+  .pricesCards .priceValue {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    justify-self: end;
+    padding: 0;
+    border-radius: 0;
+    background: none;
+    font-family: var(--font-heading);
+    font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.75rem);
+    font-weight: 500;
+    line-height: 1;
+    color: var(--text-primary);
+    white-space: nowrap;
+  }
+
+  .pricesCards .priceHighlight .priceValue {
+    color: var(--accent);
+    background: none;
+    padding: 0;
+  }
+}

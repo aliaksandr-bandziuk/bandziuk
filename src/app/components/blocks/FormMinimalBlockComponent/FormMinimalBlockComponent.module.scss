@@ -154,3 +154,29 @@
 .loader {
   @include formFields.loader-spinner;
 }
+
+// Service pages only (main[data-page-type="service"]): the field is a filled
+// ground, and the focus ring is the one drawn edge left on these pages — so
+// the only outline a visitor sees is the one that tells them where they are
+// typing. The ring is 2px of the accent, which clears 3:1 against the field
+// and the page, so focus stays visible without a permanent border.
+:global(main[data-page-type="service"]) {
+  .inputField,
+  .phoneInput {
+    border: 0;
+    background: rgba(255, 255, 255, 0.06);
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.09);
+    }
+
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+      outline: 0;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 0 2px var(--accent);
+    }
+  }
+}

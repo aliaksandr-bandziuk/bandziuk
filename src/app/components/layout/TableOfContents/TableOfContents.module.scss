@@ -74,3 +74,12 @@
 .mobileToc .link {
   font-size: 15px;
 }
+
+// Service pages only (main[data-page-type="service"]): the contents list is
+// told from the text by its place and its smaller type, not by a box round it.
+:global(main[data-page-type="service"]) {
+  .toc {
+    border: 0;
+    background: none;
+  }
+}

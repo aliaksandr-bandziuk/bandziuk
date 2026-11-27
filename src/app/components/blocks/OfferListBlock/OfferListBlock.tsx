@@ -1,6 +1,8 @@
 import React, { FC } from "react";
 import styles from "./OfferListBlock.module.scss";
 import Icon from "../../ui/Icon/Icon";
+import { PortableText } from "@portabletext/react";
+import { RichText } from "../../shared/RichText/RichText";
 import { OfferListBlock as OfferListBlockType } from "@/types/blog";
 
 type Props = {
@@ -23,7 +25,7 @@ const OfferListBlock: FC<Props> = ({ block }) => {
         <h2 className={styles.title}>{block.title}</h2>
 
         {items.length > 0 && (
-          <ul className={styles.list}>
+          <ul className={styles.list} data-count={items.length}>
             {items.map((item) => (
               <li key={item._key} className={styles.item}>
                 <span className={styles.icon} aria-hidden="true">
@@ -39,7 +41,13 @@ const OfferListBlock: FC<Props> = ({ block }) => {
         )}
 
         {prices.length > 0 && (
-          <div className={styles.prices}>
+          <div className={block.pricesIntro ? styles.pricesRow : undefined}>
+          {block.pricesIntro && (
+            <div className={styles.pricesIntro}>
+              <PortableText value={block.pricesIntro} components={RichText} />
+            </div>
+          )}
+          <div className={block.pricesIntro ? styles.prices : `${styles.prices} ${styles.pricesCards}`}>
             {prices.map((price) => (
               <div
                 key={price._key}
@@ -50,6 +58,7 @@ const OfferListBlock: FC<Props> = ({ block }) => {
                 {price.note && <div className={styles.priceNote}>{price.note}</div>}
               </div>
             ))}
+          </div>
           </div>
         )}
       </div>

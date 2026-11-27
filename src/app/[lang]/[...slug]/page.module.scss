@@ -42,3 +42,46 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Service pages only (main[data-page-type="service"], set in page.tsx).
+//
+// The ribbon is what still made these pages read as generated after the type
+// and the outlines were fixed: every block sat 44px from the next, so twelve
+// blocks arrived as one undifferentiated scroll and nothing told the eye where
+// a subject ended. The prototype's rhythm is one subject per screen, and that
+// is what this does — a section claims most of a screen and is centred in it,
+// so scrolling moves from chapter to chapter instead of from paragraph to
+// paragraph.
+//
+// Not a hard 100vh: these pages carry real content of very uneven length, and
+// forcing a full screen on a short block only buys a hole under it. A floor of
+// 70% of the screen is enough for the rhythm to read, and anything taller than
+// that just grows.
+//
+// Phones keep a smaller scale: a screen there is short, and a 70% floor on a
+// phone turns a four-line block into a page of air.
+// ─────────────────────────────────────────────────────────────────────────────
+:global(main[data-page-type="service"]) {
+  .sectionRhythm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    // 2026-11-27: tighter. The 70%-of-screen floor and 112px padding left
+    // holes of 220px+ between blocks (owner: "большие пропуски").
+    @media screen and (min-width: 768px) {
+      padding-top: clamp(48px, 4vw, 72px);
+      padding-bottom: clamp(48px, 4vw, 72px);
+    }
+  }
+
+  // A block that draws its own band already owns its air: a floor here would
+  // put its card in the middle of an empty stretch of page ground.
+  .noPaddingY,
+  .noPaddingTop {
+    @media screen and (min-width: 768px) {
+      min-height: 0;
+      display: block;
+    }
+  }
+}

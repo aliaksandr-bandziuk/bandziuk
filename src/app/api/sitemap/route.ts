@@ -55,7 +55,7 @@ async function buildLastmodMap(): Promise<{ map: Map<string, string>; newest: st
     updated: string;
   };
   const rows: Row[] = await client.fetch(
-    groq`*[_type in ["singlepage", "blog", "portfolio"]]{
+    groq`*[_type in ["singlepage", "blog", "portfolio"] && noIndex != true]{
       "lang": language,
       "slugEn": slug.en.current,
       "slugPl": slug.pl.current,

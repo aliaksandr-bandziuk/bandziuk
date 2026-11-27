@@ -81,6 +81,7 @@ import OfferListBlock from "@/app/components/blocks/OfferListBlock/OfferListBloc
 import PortfolioPickBlock from "@/app/components/blocks/PortfolioPickBlock/PortfolioPickBlock";
 import QuoteFormBlock from "@/app/components/blocks/QuoteFormBlock/QuoteFormBlock";
 import GuideTextContent from "@/app/components/blocks/GuideTextContent/GuideTextContent";
+import ChaptersTextContent from "@/app/components/blocks/ChaptersTextContent/ChaptersTextContent";
 import LandingHero from "@/app/components/blocks/LandingHero/LandingHero";
 
 type Props = {
@@ -227,6 +228,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   return {
     title: page?.seo?.metaTitle,
     description: page?.seo?.metaDescription,
+    // A hidden test page (singlepage.noIndex) opens by URL but is never indexed.
+    ...((page as { noIndex?: boolean } | null)?.noIndex ? { robots: { index: false, follow: false } } : {}),
     alternates: {
       canonical: canonicalPath,
       languages: buildLanguageAlternates(altEntries),
@@ -351,13 +354,38 @@ const SinglePage = async (props: Props) => {
 
   const renderContentBlock = (block: any) => {
     switch (block._type) {
-      case "textContent":
-        if ((block as TextContent).layout === "guide") {
-          return <GuideTextContent key={block._key} block={block as TextContent} lang={lang} />;
+      case "textContent": {
+        const text = block as TextContent;
+        // Service pages default to the guide layout: a contents list beside
+        // the text instead of one wide column. Measured over the 175 service
+        // pages: 152 carry 500 words or more and 125 have two or more H2s, so
+        // the list has something to list. GuideTextContent itself falls back
+        // to full width when a block has one H2 or none, which covers the
+        // other 50. A layout set in Sanity still wins, so a page can opt out.
+        const useGuide =
+          text.layout === "guide" ||
+          (page.pageType === "service" && text.layout !== "default");
+        // "chapters" (2026-11): each H2 pinned on the left while its chapter
+        // is read, snippets of the work inside. Opt-in per block.
+        if (text.layout === "chapters") {
+          // The short form placed between chapters reuses the quote card's
+          // form texts (labels, validation, button) from this page.
+          const quoteBlock = allBlocks.find((b: any) => b._type === "quoteFormBlock") as any;
+          return (
+            <ChaptersTextContent
+              key={block._key}
+              block={text}
+              lang={lang}
+              formTexts={quoteBlock?.form?.form ?? null}
+              formNote={quoteBlock?.note}
+            />
+          );
         }
-        return (
-          <TextContentComponent key={block._key} block={block as TextContent} />
-        );
+        if (useGuide) {
+          return <GuideTextContent key={block._key} block={text} lang={lang} />;
+        }
+        return <TextContentComponent key={block._key} block={text} />;
+      }
       case "offerListBlock":
         return <OfferListBlock key={block._key} block={block} />;
       case "portfolioPickBlock":
@@ -574,7 +602,7 @@ const SinglePage = async (props: Props) => {
     <>
       <Header params={params} translations={translations} />
       <StructuredData {...structuredDataProps} />
-      <main className="singlepage">
+      <main className="singlepage" data-page-type={page.pageType}>
         {isLandingHero && (
           <LandingHero
             title={page.title}
@@ -586,6 +614,8 @@ const SinglePage = async (props: Props) => {
             chips={page.heroChips}
             phonePoints={page.heroPhonePoints}
             visual={page.heroVisual}
+            answer={page.heroAnswer}
+            screen={page.heroScreen}
             photo={page.heroPhoto}
           />
         )}

@@ -73,6 +73,40 @@ export default defineType({
         }),
       },
     }),
+    // A fragment of the work itself shown inside a chapter of a long service
+    // text (2026-11): the visitor's path, an audit row, a code change, a phone
+    // with contact buttons, a checkout, a form before and after, GA4 events.
+    // The words live in the component, per language, so an editor only picks
+    // which fragment goes where.
+    defineArrayMember({
+      type: "object",
+      name: "pageSnippet",
+      title: "Snippet (fragment of the work)",
+      fields: [
+        defineField({
+          name: "kind",
+          title: "Which fragment",
+          type: "string",
+          options: {
+            list: [
+              { title: "Visitor's path: entry → offer → form → request", value: "funnel" },
+              { title: "Audit report: problem, cost, effort", value: "auditReport" },
+              { title: "Code change of a contact form", value: "codeDiff" },
+              { title: "Phone: Call / WhatsApp / Route + ready WhatsApp message", value: "localPhone" },
+              { title: "Shop checkout: Paczkomat, BLIK, invoice", value: "checkout" },
+              { title: "Contact form before and after", value: "formBeforeAfter" },
+              { title: "Key events in Google Analytics 4", value: "ga4Events" },
+              { title: "Short request form (a band between two chapters)", value: "shortForm" },
+            ],
+          },
+          validation: (Rule) => Rule.required(),
+        }),
+      ],
+      preview: {
+        select: { kind: "kind" },
+        prepare: ({ kind }: { kind?: string }) => ({ title: `Snippet: ${kind ?? "—"}` }),
+      },
+    }),
     defineArrayMember({
       type: "image",
       options: { hotspot: true },

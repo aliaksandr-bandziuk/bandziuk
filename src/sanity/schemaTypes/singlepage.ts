@@ -68,6 +68,14 @@ const singlepage = {
       type: "boolean",
     }),
     defineField({
+      name: "noIndex",
+      title: "Hidden test page",
+      description:
+        "For trying a layout on a copy of a real page. The page still opens by its URL, but it is marked noindex, left out of the sitemap and not listed among the services. Never set this on a page meant to be found.",
+      type: "boolean",
+      initialValue: false,
+    }),
+    defineField({
       name: "heroLayout",
       title: "Hero layout",
       description:
@@ -101,11 +109,60 @@ const singlepage = {
         list: [
           { title: "Phone sketch with labels (default)", value: "phone" },
           { title: "Photo", value: "photo" },
+          { title: "Assistant's answer (pages about AI search)", value: "answer" },
+          { title: "Phone with a real first screen (labels sit beside its parts)", value: "screen" },
         ],
         layout: "radio",
       },
       initialValue: "phone",
       hidden: ({ document }) => (document as any)?.heroLayout !== "landing",
+    }),
+    defineField({
+      name: "heroAnswer",
+      title: "Hero: the assistant's answer",
+      description:
+        "Shown when Hero right side is “Assistant's answer”. An illustration of how an answer is built: no real firm or person is named, and the label says it is an illustration. A recorded run instead names the assistant and carries its date in the note.",
+      type: "object",
+      hidden: ({ document }) => (document as any)?.heroVisual !== "answer",
+      fields: [
+        defineField({ name: "label", title: "Label", type: "string", initialValue: "Asystent AI · ilustracja" }),
+        defineField({ name: "question", title: "The question", type: "string" }),
+        defineField({ name: "answer", title: "The answer", type: "text", rows: 4, description: "Wrap the decisive words in *asterisks* to mark them." }),
+        defineField({
+          name: "sources",
+          title: "Sources",
+          type: "array",
+          validation: (Rule) => Rule.max(5),
+          of: [
+            defineArrayMember({
+              name: "heroAnswerSource",
+              type: "object",
+              fields: [
+                defineField({ name: "name", title: "Source as shown", type: "string" }),
+                defineField({ name: "ours", title: "The client's own", type: "boolean", initialValue: false }),
+              ],
+            }),
+          ],
+        }),
+        defineField({ name: "note", title: "Note under the answer", type: "string" }),
+      ],
+    }),
+    defineField({
+      name: "heroScreen",
+      title: "Hero: the phone's first screen",
+      description:
+        "Shown when Hero right side is “Phone with a real first screen”. An example business, not a client. The four Hero phone labels sit beside, in order: the offer line, the two buttons, the chips, the confirmation.",
+      type: "object",
+      hidden: ({ document }) => (document as any)?.heroVisual !== "screen",
+      fields: [
+        defineField({ name: "brand", title: "Business name in the top bar", type: "string" }),
+        defineField({ name: "title", title: "Offer in one line", type: "string" }),
+        defineField({ name: "subline", title: "Line under the offer", type: "string" }),
+        defineField({ name: "call", title: "Primary button", type: "string" }),
+        defineField({ name: "message", title: "Second button", type: "string" }),
+        defineField({ name: "chips", title: "Chips (payment, delivery)", type: "array", of: [{ type: "string" }], validation: (Rule) => Rule.max(3) }),
+        defineField({ name: "toast", title: "Confirmation", type: "string" }),
+      ],
     }),
     defineField({
       name: "heroPhonePoints",

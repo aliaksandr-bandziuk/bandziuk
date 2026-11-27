@@ -39,3 +39,21 @@
   overflow: hidden;
 }
 
+
+// Service pages only (main[data-page-type="service"]): fill, no outline, and
+// the heading keeps the page's one left edge. Every other section on these
+// pages starts at the container's left line; a centred FAQ heading was the
+// only thing on the page that did not, and a single exception reads as an
+// accident rather than as emphasis.
+:global(main[data-page-type="service"]) {
+  .faq {
+    border: 0;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .text {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

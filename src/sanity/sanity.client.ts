@@ -61,6 +61,13 @@ type SanityFetchOptions = {
  */
 function withSanityCache(options: SanityFetchOptions = {}): SanityFetchOptions {
   if (options.cache === "no-store") return options;
+  // In development every query goes to Sanity fresh. With the production
+  // lifetime (a day) an edit made in Studio or by a script stayed invisible on
+  // localhost until the .next folder was deleted by hand — the dev server kept
+  // serving the copy it had cached. Production keeps the cache and the webhook.
+  if (process.env.NODE_ENV === "development") {
+    return { ...options, cache: "no-store" };
+  }
   const next = options.next ?? {};
   return {
     ...options,

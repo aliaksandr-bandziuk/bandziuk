@@ -216,3 +216,405 @@
   object-fit: contain;
   object-position: center bottom;
 }
+
+// The assistant's answer on the right (heroVisual = "answer"): the same card
+// the answers block draws further down, so the first screen already shows the
+// thing the page is about. Desktop only, like the sketch and the photo.
+.answerCard {
+  @media screen and (min-width: 1024px) {
+    display: block;
+    padding: 0;
+    min-height: 0;
+    overflow: hidden;
+    border: 0;
+    background: var(--bg-surface);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.055),
+      0 28px 64px -32px rgba(0, 0, 0, 0.9);
+  }
+}
+
+.answerAsk {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 18px 22px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.answerWho {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+
+.answerQ {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+.answerBody {
+  padding: 20px 22px 22px;
+}
+
+.answerText {
+  margin: 0 0 14px;
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: var(--text-primary);
+
+  mark {
+    background: rgba(255, 138, 60, 0.26);
+    color: var(--text-primary);
+    padding: 0 0.18em;
+    border-radius: 3px;
+  }
+}
+
+.answerSrcs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.answerSrc,
+.answerSrcOurs {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 11px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  line-height: 1.3;
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--text-secondary);
+
+  i {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    flex: none;
+  }
+}
+
+.answerSrcOurs {
+  background: rgba(255, 138, 60, 0.18);
+  color: var(--text-primary);
+
+  i {
+    background: var(--accent);
+  }
+}
+
+.answerNote {
+  margin: 14px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Service pages only (main[data-page-type="service"], set in [...slug]/page.tsx).
+//
+// The hero is already the split the prototype wanted — words left, a real
+// product sketch right — so nothing moves. What changes is that it claims a
+// screen of its own, as every section below it now does, and that it stops
+// drawing edges: the rule under the hero, the outline round the sketch card
+// and the outlines on the chips all become grounds, so the first screen sets
+// the material language the rest of the page follows.
+//
+// The screen floor is 88% rather than 100%: the fixed bar sits over the top of
+// it, and a full screen plus that bar pushes the first line of the offer below
+// the fold on a laptop.
+// ─────────────────────────────────────────────────────────────────────────────
+:global(main[data-page-type="service"]) {
+  .hero {
+    border-bottom: 0;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 88svh;
+      padding-top: 120px;
+      padding-bottom: 72px;
+    }
+  }
+
+  .chip {
+    border: 0;
+    background: rgba(255, 255, 255, 0.07);
+  }
+
+  .visual {
+    @media screen and (min-width: 1024px) {
+      border: 0;
+      background: rgba(255, 255, 255, 0.04);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.05),
+        0 28px 64px -32px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  .phone {
+    border: 0;
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  .btnGhost {
+    border: 0;
+    background: rgba(255, 255, 255, 0.12);
+  }
+}
+
+
+// ─────────────────────────────────────────────────────────────────────────────
+// heroVisual = "screen" (2026-11): the phone shows a real first screen and the
+// labels sit beside the parts they name. Mockup: cro-proto/index.html, hero.
+// ─────────────────────────────────────────────────────────────────────────────
+.screenCard {
+  @media screen and (min-width: 1024px) {
+    // The phone and its labels sit as one group in the middle of the card.
+    display: flex;
+    justify-content: center;
+    border: 0;
+    background: var(--bg-surface);
+    border-radius: 20px;
+    padding: 36px 34px;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.055),
+      0 28px 64px -32px rgba(0, 0, 0, 0.9);
+  }
+}
+
+.device {
+  position: relative;
+  flex: none;
+  // room for the labels, which hang outside the phone
+  margin-right: 190px;
+  width: 196px;
+  height: 380px;
+  border-radius: 30px;
+  background: #0d0d10;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.09);
+  padding: 14px 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.deviceBar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--text-tertiary);
+  padding: 0 6px 4px;
+}
+
+.deviceBrand {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 4px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--text-primary);
+
+  i {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    background: var(--accent);
+  }
+}
+
+.deviceImage {
+  position: relative;
+  height: 92px;
+  flex: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(160deg, #3a2a20, #1d1612 60%, #141012);
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 18px 30px 0;
+    border-radius: 40px 40px 6px 6px;
+    background: linear-gradient(180deg, #8a5a3a, #5b3a24);
+    opacity: 0.8;
+  }
+}
+
+// A part of the screen that has a label: the dot sits on the phone's edge,
+// the label outside it, level with the part.
+.part {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: -17px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+    border-radius: 50%;
+    background: var(--bg-elevated);
+    box-shadow: 0 0 0 3px var(--bg-surface);
+    animation: heroDotOn 0.35s ease forwards;
+    animation-delay: calc(500ms + var(--i) * 420ms);
+  }
+}
+
+.partTitle::after {
+  top: 9px;
+}
+
+.partToast {
+  margin-top: auto;
+}
+
+.label {
+  position: absolute;
+  left: calc(100% + 42px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+  font-size: 14px;
+  line-height: 1.35;
+  color: var(--text-tertiary);
+  animation: heroLabelOn 0.35s ease forwards;
+  animation-delay: calc(500ms + var(--i) * 420ms);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 50%;
+    width: 18px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.14);
+  }
+}
+
+.partTitle .label {
+  top: 9px;
+}
+
+@keyframes heroDotOn {
+  to {
+    background: var(--accent);
+  }
+}
+
+@keyframes heroLabelOn {
+  to {
+    color: var(--text-primary);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .part::after,
+  .label {
+    animation-duration: 0s;
+    animation-delay: 0s;
+  }
+}
+
+.deviceTitle {
+  display: block;
+  padding: 0 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.22;
+  color: var(--text-primary);
+}
+
+.deviceSub {
+  margin-top: -4px;
+  padding: 0 4px;
+  font-size: 10px;
+  line-height: 1.35;
+  color: var(--text-secondary);
+}
+
+.deviceCtas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+
+  span {
+    padding: 9px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+  }
+}
+
+.deviceCall {
+  background: var(--accent);
+  color: #0a0a0b;
+}
+
+.deviceMsg {
+  background: #1c2b22;
+  color: #6fe39a;
+}
+
+.deviceChips {
+  display: flex;
+  gap: 5px;
+
+  span {
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.07);
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--text-reading);
+  }
+}
+
+.deviceToast {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 10px;
+  border-radius: 10px;
+  background: #16241b;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--text-primary);
+
+  b {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #2fbf71;
+    color: #0a0a0b;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: center;
+  }
+}

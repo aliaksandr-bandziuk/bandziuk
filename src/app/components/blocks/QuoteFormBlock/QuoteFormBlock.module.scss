@@ -229,3 +229,105 @@
     color: var(--accent);
   }
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Service pages only (main[data-page-type="service"]). Same rule as the offer
+// list: no drawn edges. The card becomes a material (fill, a light inner edge
+// at the top, a soft shadow under it) and the answers become filled tiles laid
+// two to a row, so a long Polish or Russian answer gets a line of its own
+// instead of making one chip twice the width of its neighbour.
+// Press feedback is on pointer-down (apple-design §1), not on release.
+// ─────────────────────────────────────────────────────────────────────────────
+:global(main[data-page-type="service"]) {
+  .card {
+    border: 0;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.055),
+      0 24px 56px -28px rgba(0, 0, 0, 0.9);
+  }
+
+  .options {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+
+    @media screen and (min-width: 560px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .option {
+    display: flex;
+    min-height: 48px;
+    border: 0;
+    border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text-secondary);
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease,
+      transform 0.12s ease;
+
+    &:hover {
+      border: 0;
+      background: rgba(255, 255, 255, 0.11);
+      color: var(--text-primary);
+    }
+
+    &:active {
+      transform: scale(0.985);
+    }
+  }
+
+  .optionInput:checked + .option {
+    border: 0;
+    background: var(--accent);
+    color: var(--bg-base);
+    font-weight: 500;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .option {
+      transition: background-color 0.15s ease, color 0.15s ease;
+
+      &:active {
+        transform: none;
+      }
+    }
+  }
+}
+
+
+// "What comes back" list in the left column (quoteFormBlock.returns, 2026-11).
+.cardTop {
+  @media screen and (min-width: 900px) {
+    align-items: start;
+  }
+}
+
+.returns {
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+
+  li {
+    padding: 14px 16px;
+    border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.04);
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--text-primary);
+  }
+
+  small {
+    display: block;
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.45;
+    color: var(--text-secondary);
+  }
+}

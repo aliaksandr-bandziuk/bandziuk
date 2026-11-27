@@ -36,6 +36,8 @@ export type QuoteFormProps = {
   /** Quiz step 2: a button back to the questions. */
   onBack?: () => void;
   backLabel?: string;
+  /** Where the form sits, for analytics (default: the quote card). */
+  placement?: string;
 };
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -106,6 +108,7 @@ const QuoteForm: FC<QuoteFormProps> = ({
   extraLines = [],
   onBack,
   backLabel,
+  placement = "quote_form_block",
 }) => {
   const uid = useId();
   const { honeypot, guardFields } = useFormGuard();
@@ -151,7 +154,7 @@ const QuoteForm: FC<QuoteFormProps> = ({
       });
       if (!response.ok) throw new Error(String(response.status));
       trackEvent("form_submission_success", {
-        placement: "quote_form_block",
+        placement,
         form_variant: variant,
         page_path: window.location.pathname,
       });

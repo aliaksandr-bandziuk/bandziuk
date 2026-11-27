@@ -60,6 +60,30 @@ const quoteFormBlock = defineType({
       ],
     }),
     defineField({
+      name: "returnsIntro",
+      title: "Line above “What comes back”",
+      type: "string",
+      description: "Replaces the text under the title when the list below is filled.",
+    }),
+    defineField({
+      name: "returns",
+      title: "What comes back",
+      description: "Up to 3 things the visitor gets in reply, each with a short line under it. Shown in the left column of the card.",
+      type: "array",
+      validation: (Rule) => Rule.max(3),
+      of: [
+        defineArrayMember({
+          name: "quoteReturn",
+          type: "object",
+          fields: [
+            defineField({ name: "title", title: "Title", type: "string" }),
+            defineField({ name: "note", title: "Line under it", type: "string" }),
+          ],
+          preview: { select: { title: "title", subtitle: "note" } },
+        }),
+      ],
+    }),
+    defineField({
       name: "form",
       title: "Form texts",
       type: "reference",

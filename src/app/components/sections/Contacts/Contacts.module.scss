@@ -173,3 +173,9 @@
     margin-top: auto;
   }
 }
+// Service pages (2026-11-27): the last block above already carries 72px of
+// bottom padding, so the 150px top margin made a hole of 220px+ before the
+// final form. Half of that and less.
+:global(main[data-page-type="service"]) + .contactsSection {
+  margin-top: clamp(1rem, 0.5rem + 2vw, 2.5rem);
+}

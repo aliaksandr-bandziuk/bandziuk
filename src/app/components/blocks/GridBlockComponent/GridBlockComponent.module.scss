@@ -249,3 +249,50 @@
     max-width: 46ch;
   }
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Service pages only (main[data-page-type="service"], set in [...slug]/page.tsx).
+// Two changes:
+//   1. No outlines. The item and its link are filled grounds instead of boxes
+//      with a drawn edge, and the pricing layout's rule above each item goes
+//      too — a column of hairlines is the look being removed.
+//   2. The item's text stops being centred. Centred text in a card gives every
+//      line a different left edge, so a grid of them has no vertical line to
+//      read down; left-set text in a tile does.
+// ─────────────────────────────────────────────────────────────────────────────
+:global(main[data-page-type="service"]) {
+  .serviceItem {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    padding: 24px 22px;
+    transition: background-color 0.2s ease;
+
+    @media screen and (min-width: 768px) {
+      padding: 32px 28px;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.07);
+      }
+    }
+  }
+
+  .serviceItemWrapper {
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .serviceItemText {
+    align-items: flex-start;
+    text-align: left;
+    gap: 12px;
+  }
+
+  .serviceItemLink {
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+}

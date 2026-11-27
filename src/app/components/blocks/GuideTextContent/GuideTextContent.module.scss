@@ -126,3 +126,22 @@
 .open .body {
   display: block;
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Service pages only (main[data-page-type="service"], set in [...slug]/page.tsx).
+// The measure of the text itself is set once, in RichText.module.scss, so it
+// is the same whether a block renders as a guide or as plain text. Nothing
+// here may set a width on the paragraphs: a rule written here is more
+// specific than the one there and would silently win.
+// On a phone each section drops its outline and keeps the fill.
+// ─────────────────────────────────────────────────────────────────────────────
+:global(main[data-page-type="service"]) {
+  .section {
+    border: 0;
+    background: rgba(255, 255, 255, 0.04);
+
+    @media screen and (min-width: 768px) {
+      background: none;
+    }
+  }
+}

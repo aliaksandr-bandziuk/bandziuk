@@ -105,3 +105,16 @@
   background-color: #fff;
   color: #091728;
 }
+// ─────────────────────────────────────────────────────────────────────────────
+// Service pages only (main[data-page-type="service"], set in [...slug]/page.tsx).
+// An FAQ is the longest run of repeated boxes on these pages, so an outline
+// round it is where the ruled look shows most. Fill instead of outline; the
+// light inner edge at the top gives the thickness the outline stood in for.
+// ─────────────────────────────────────────────────────────────────────────────
+:global(main[data-page-type="service"]) {
+  .accordion {
+    border: 0;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+}

@@ -97,3 +97,12 @@
 .itemBtnCollapsed {
   color: var(--text-primary);
 }
+
+// Service pages only (main[data-page-type="service"]): a rule under every
+// question is the longest run of hairlines on the page. The questions are set
+// apart by their own air instead.
+:global(main[data-page-type="service"]) {
+  .item {
+    border-bottom: 0;
+  }
+}

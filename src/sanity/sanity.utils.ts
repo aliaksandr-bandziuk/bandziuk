@@ -256,6 +256,9 @@ export async function getSinglePageByLang(
       heroChips,
       heroPhonePoints,
       heroVisual,
+      heroAnswer,
+      heroScreen,
+      noIndex,
       heroPhoto,
       pageType,
       areaServed,
@@ -467,6 +470,8 @@ export async function getSinglePageByLang(
           buttonText,
           note,
           formVariant,
+          returnsIntro,
+          returns,
           quizQuestions[]{ _key, question, options },
           form->{
             _id,
@@ -542,6 +547,7 @@ export async function getSinglePageByLang(
         _type == "singlepage" &&
         language == $lang &&
         pageType == "service" &&
+        noIndex != true &&
         parentPage._ref == ^._id
       ] | order(_createdAt asc) {
         _id,

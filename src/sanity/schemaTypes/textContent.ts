@@ -20,6 +20,7 @@ const textContent = defineType({
         list: [
           { title: "Default", value: "default" },
           { title: "Guide (contents + collapsible sections)", value: "guide" },
+          { title: "Chapters (H2 on the left, pinned while its chapter is read)", value: "chapters" },
         ],
         layout: "radio",
       },

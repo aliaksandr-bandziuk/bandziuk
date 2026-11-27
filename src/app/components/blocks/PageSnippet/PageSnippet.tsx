@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./PageSnippet.module.scss";
 import GrowOnView from "./GrowOnView";
 import { Brand } from "./brands";
-import { SNIPPET_TEXTS, type SnippetKind } from "./texts";
+import { SNIPPET_TEXTS, type SnippetKind, type DockIcon, type PayLogo } from "./texts";
 
 type Props = { kind: SnippetKind | string; lang: string };
 
@@ -13,7 +13,7 @@ type Props = { kind: SnippetKind | string; lang: string };
 // The words are per language in texts.ts; a language without them renders
 // nothing rather than Polish on an English page.
 const PageSnippet = ({ kind, lang }: Props) => {
-  const t = SNIPPET_TEXTS[lang as keyof typeof SNIPPET_TEXTS];
+  const t = SNIPPET_TEXTS[lang];
   if (!t) return null;
 
   switch (kind) {
@@ -123,20 +123,12 @@ const PageSnippet = ({ kind, lang }: Props) => {
                 <span>{l.hours}</span>
               </div>
               <div className={styles.phDock}>
-                <span className={styles.phCall}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
-                  </svg>
-                  {l.call}
-                </span>
-                <span>
-                  <Brand name="whatsapp" color="#25D366" size={14} />
-                  {l.whatsapp}
-                </span>
-                <span>
-                  <Brand name="googleMaps" color="#ffffff" size={14} />
-                  {l.route}
-                </span>
+                {l.dock.map((d, i) => (
+                  <span key={d.label} className={i === 0 ? styles.phCall : undefined}>
+                    <DockGlyph icon={d.icon} />
+                    {d.label}
+                  </span>
+                ))}
               </div>
             </div>
             <div className={styles.duoRight}>
@@ -174,63 +166,40 @@ const PageSnippet = ({ kind, lang }: Props) => {
           <div className={styles.co} aria-hidden="true">
             <div className={styles.coCol}>
               <p className={styles.coHead}>{k.delivery}</p>
-              <div className={`${styles.opt} ${styles.optOn}`}>
-                <i />
-                <div>
-                  {k.locker}
-                  <small>{k.lockerWhere}</small>
+              {k.deliveries.map((d, i) => (
+                <div key={d.label} className={i === 0 ? `${styles.opt} ${styles.optOn}` : styles.opt}>
+                  <i />
+                  <div>
+                    {d.label}
+                    {d.note && <small>{d.note}</small>}
+                  </div>
+                  {d.map ? <span className={styles.optMap}>{d.map}</span> : <span />}
                 </div>
-                <span className={styles.optMap}>{k.changeOnMap}</span>
-              </div>
-              <div className={styles.opt}>
-                <i />
-                <div>{k.courier}</div>
-                <span />
-              </div>
-              <div className={styles.opt}>
-                <i />
-                <div>{k.pickup}</div>
-                <span />
-              </div>
+              ))}
               <div className={styles.invoice}>
                 <div className={styles.invoiceRow}>
                   {k.invoice}
                   <span className={styles.switch} />
                 </div>
-                <span className={styles.invoiceField}>NIP</span>
+                <span className={styles.invoiceField}>{k.invoiceField}</span>
               </div>
             </div>
             <div className={styles.coCol}>
               <p className={styles.coHead}>{k.payment}</p>
-              <div className={`${styles.opt} ${styles.optOn}`}>
-                <i />
-                <div>
-                  BLIK
-                  <small>{k.blikNote}</small>
+              {k.payments.map((p, i) => (
+                <div key={p.label} className={i === 0 ? `${styles.opt} ${styles.optOn}` : styles.opt}>
+                  <i />
+                  <div>
+                    {p.label}
+                    {p.note && <small>{p.note}</small>}
+                  </div>
+                  <span className={styles.logos}>
+                    {(p.logos ?? []).map((logo) => (
+                      <PayMark key={logo} logo={logo} />
+                    ))}
+                  </span>
                 </div>
-                <span className={styles.blik}>blik</span>
-              </div>
-              <div className={styles.opt}>
-                <i />
-                <div>{k.transfer}</div>
-                <span className={styles.p24}>Przelewy24</span>
-              </div>
-              <div className={styles.opt}>
-                <i />
-                <div>Apple Pay, Google Pay</div>
-                <span className={styles.logos}>
-                  <Brand name="applePay" color="#ffffff" size={30} />
-                  <Brand name="googlePay" color="#ffffff" size={30} />
-                </span>
-              </div>
-              <div className={styles.opt}>
-                <i />
-                <div>{k.card}</div>
-                <span className={styles.logos}>
-                  <Brand name="visa" color="#ffffff" size={22} />
-                  <Brand name="mastercard" color="#ffffff" size={18} />
-                </span>
-              </div>
+              ))}
               <span className={styles.coButton}>{k.button}</span>
               <span className={styles.coNote}>{k.noAccount}</span>
             </div>
@@ -297,10 +266,12 @@ const PageSnippet = ({ kind, lang }: Props) => {
                 </div>
               ))}
             </div>
-            <div className={styles.consentMode}>
-              <span>{g.consentMode}</span>
-              <b>{g.on}</b>
-            </div>
+            {g.consentMode && (
+              <div className={styles.consentMode}>
+                <span>{g.consentMode}</span>
+                <b>{g.on}</b>
+              </div>
+            )}
           </div>
         </Frame>
       );
@@ -310,6 +281,26 @@ const PageSnippet = ({ kind, lang }: Props) => {
       return null;
   }
 };
+
+function DockGlyph({ icon }: { icon: DockIcon }) {
+  if (icon === "whatsapp") return <Brand name="whatsapp" color="#25D366" size={14} />;
+  if (icon === "telegram") return <Brand name="telegram" color="#26A5E4" size={14} />;
+  if (icon === "maps") return <Brand name="googleMaps" color="#ffffff" size={14} />;
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
+    </svg>
+  );
+}
+
+function PayMark({ logo }: { logo: PayLogo }) {
+  if (logo === "blik") return <span className={styles.blik}>blik</span>;
+  if (logo === "p24") return <span className={styles.p24}>Przelewy24</span>;
+  if (logo === "applePay") return <Brand name="applePay" color="#ffffff" size={30} />;
+  if (logo === "googlePay") return <Brand name="googlePay" color="#ffffff" size={30} />;
+  if (logo === "visa") return <Brand name="visa" color="#ffffff" size={22} />;
+  return <Brand name="mastercard" color="#ffffff" size={18} />;
+}
 
 function Frame({
   title,

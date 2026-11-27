@@ -153,7 +153,7 @@ const LandingHero: FC<Props> = ({
                   {screen.brand}
                 </div>
               )}
-              <div className={styles.deviceImage} />
+              <div className={(screen.fields ?? []).length > 0 ? `${styles.deviceImage} ${styles.deviceImageShort}` : styles.deviceImage} />
               <div className={`${styles.part} ${styles.partTitle}`} style={{ "--i": 0 } as React.CSSProperties}>
                 <span className={styles.deviceTitle}>{screen.title}</span>
                 {points[0] && <span className={styles.label}>{points[0]}</span>}
@@ -162,11 +162,23 @@ const LandingHero: FC<Props> = ({
               <div className={styles.part} style={{ "--i": 1 } as React.CSSProperties}>
                 <span className={styles.deviceCtas}>
                   <span className={styles.deviceCall}>{screen.call}</span>
-                  <span className={styles.deviceMsg}>{screen.message}</span>
+                  <span className={/telegram/i.test(screen.message ?? "") ? `${styles.deviceMsg} ${styles.deviceMsgTg}` : styles.deviceMsg}>
+                    {screen.message}
+                  </span>
                 </span>
                 {points[1] && <span className={styles.label}>{points[1]}</span>}
               </div>
-              {(screen.chips ?? []).length > 0 && (
+              {(screen.fields ?? []).length > 0 && (
+                <div className={styles.part} style={{ "--i": 2 } as React.CSSProperties}>
+                  <span className={styles.deviceFields}>
+                    {(screen.fields ?? []).map((f) => (
+                      <span key={f}>{f}</span>
+                    ))}
+                  </span>
+                  {points[2] && <span className={styles.label}>{points[2]}</span>}
+                </div>
+              )}
+              {(screen.fields ?? []).length === 0 && (screen.chips ?? []).length > 0 && (
                 <div className={styles.part} style={{ "--i": 2 } as React.CSSProperties}>
                   <span className={styles.deviceChips}>
                     {(screen.chips ?? []).map((c) => (

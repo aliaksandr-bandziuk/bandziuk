@@ -129,6 +129,7 @@ export type HeroScreen = {
   call?: string;
   message?: string;
   chips?: string[];
+  fields?: string[];
   toast?: string;
 };
 

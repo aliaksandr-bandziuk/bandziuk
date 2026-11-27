@@ -101,6 +101,28 @@ export default defineType({
           },
           validation: (Rule) => Rule.required(),
         }),
+        defineField({
+          name: "title",
+          title: "Form band: title",
+          type: "string",
+          description: "Short form only. Leave empty for the general one in this language.",
+          hidden: ({ parent }) => (parent as any)?.kind !== "shortForm",
+        }),
+        defineField({
+          name: "text",
+          title: "Form band: line under the title",
+          type: "string",
+          hidden: ({ parent }) => (parent as any)?.kind !== "shortForm",
+        }),
+        defineField({
+          name: "facts",
+          title: "Form band: facts (chips)",
+          type: "array",
+          of: [{ type: "string" }],
+          validation: (Rule) => Rule.max(3),
+          description: "Up to 3, only figures the page already states. The first is highlighted.",
+          hidden: ({ parent }) => (parent as any)?.kind !== "shortForm",
+        }),
       ],
       preview: {
         select: { kind: "kind" },

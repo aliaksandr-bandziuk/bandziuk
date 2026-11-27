@@ -618,3 +618,28 @@
     text-align: center;
   }
 }
+
+// heroScreen.fields: a small three-field form instead of the chips; the
+// picture gives up height so the screen still fits.
+.deviceImageShort {
+  height: 56px;
+}
+
+.deviceFields {
+  display: grid;
+  gap: 5px;
+
+  span {
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.06);
+    font-size: 9px;
+    line-height: 1;
+    color: var(--text-tertiary);
+  }
+}
+
+.deviceMsgTg {
+  background: #14283a;
+  color: #6cc4f5;
+}

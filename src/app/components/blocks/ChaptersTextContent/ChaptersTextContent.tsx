@@ -19,14 +19,30 @@ type Props = {
 type Section = { id: string; title: string; body: any[] };
 
 // The short request form between two chapters (pageSnippet kind "shortForm").
-// Its words restate what the page already says about the first reply.
-const BAND: Record<string, { title: string; text: string; facts: string[]; context: string; placeholder: string }> = {
+// The snippet may carry its own title, text and facts for the service; these
+// are the general defaults per language.
+type BandText = { title: string; text: string; facts: string[]; context: string; placeholder: string };
+const BAND: Record<string, BandText> = {
   pl: {
-    title: "Wycena optymalizacji konwersji: odpowiedź w jeden dzień roboczy",
-    text: "Napiszcie adres strony i co jest dla Was konwersją. Odpiszę, od czego zacząłbym, i podam stałą cenę.",
-    facts: ["Audyt konwersji od 1000 zł", "Pierwsza rozmowa, 15–30 minut, bezpłatnie"],
+    title: "Wycena: odpowiedź w jeden dzień roboczy",
+    text: "Napiszcie adres strony i czego potrzebujecie. Odpiszę, od czego zacząłbym, i podam stałą cenę.",
+    facts: [],
     context: "Adres strony",
     placeholder: "np. twojafirma.pl",
+  },
+  en: {
+    title: "Get a quote: a reply within one business day",
+    text: "Send your website address and what you need. I will reply with what I would do first and a fixed price.",
+    facts: [],
+    context: "Website address",
+    placeholder: "e.g. yourcompany.com",
+  },
+  ru: {
+    title: "Расчёт стоимости: ответ в течение рабочего дня",
+    text: "Пришлите адрес сайта и что нужно сделать. Напишу, с чего начал бы, и назову фиксированную цену.",
+    facts: [],
+    context: "Адрес сайта",
+    placeholder: "например, vashsait.com",
   },
 };
 
@@ -188,37 +204,47 @@ const ChaptersTextContent: FC<Props> = ({ block, lang, formTexts, formNote }) =>
 
   const components = componentsFor(lang);
   const ask = ASK[lang] ?? ASK.en;
-  const band = BAND[lang];
+  const defaults = BAND[lang];
   const isFormMark = (n: any) => n?._type === "pageSnippet" && n.kind === "shortForm";
-  // A short form placed in a chapter is drawn after that chapter, across both
-  // columns — a pause between chapters, not a box inside the text.
-  const formBand =
-    band && formTexts ? (
-      <aside className={styles.band} aria-label={band.title}>
+  // A short form placed in a chapter is drawn after that chapter, across the
+  // full width of the screen — a pause between chapters, not a box in the text.
+  const formBand = (mark: any) => {
+    if (!defaults || !formTexts) return null;
+    const band: BandText = {
+      ...defaults,
+      title: mark?.title || defaults.title,
+      text: mark?.text || defaults.text,
+      facts: (mark?.facts ?? []).length ? mark.facts : defaults.facts,
+    };
+    return (
+      <aside key={mark?._key} className={styles.band} aria-label={band.title}>
         <div className={`container ${styles.bandGrid}`}>
-        <div className={styles.bandText}>
-          <p className={styles.bandTitle}>{band.title}</p>
-          <p className={styles.bandSub}>{band.text}</p>
-          <ul className={styles.bandFacts}>
-            {band.facts.map((f) => (
-              <li key={f}>{f}</li>
-            ))}
-          </ul>
-        </div>
-        <div className={styles.bandForm}>
-          <QuoteForm
-            lang={lang}
-            texts={formTexts}
-            contextLabel={band.context}
-            contextPlaceholder={band.placeholder}
-            note={formNote}
-            variant="short"
-            placement="chapters_short_form"
-          />
-        </div>
+          <div className={styles.bandText}>
+            <p className={styles.bandTitle}>{band.title}</p>
+            <p className={styles.bandSub}>{band.text}</p>
+            {band.facts.length > 0 && (
+              <ul className={styles.bandFacts}>
+                {band.facts.map((f) => (
+                  <li key={f}>{f}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+          <div className={styles.bandForm}>
+            <QuoteForm
+              lang={lang}
+              texts={formTexts}
+              contextLabel={band.context}
+              contextPlaceholder={band.placeholder}
+              note={formNote}
+              variant="short"
+              placement="chapters_short_form"
+            />
+          </div>
         </div>
       </aside>
-    ) : null;
+    );
+  };
 
   const renderSection = (section: Section) => (
     <section key={section.id} className={styles.chapter} aria-labelledby={section.id}>
@@ -239,9 +265,14 @@ const ChaptersTextContent: FC<Props> = ({ block, lang, formTexts, formNote }) =>
   // Chapters run in groups; a chapter that carries the short form closes its
   // group, and the form band follows across the full width of the screen.
   const groups: Section[][] = [[]];
+  const marks: any[] = [];
   for (const section of sections) {
     groups[groups.length - 1].push(section);
-    if (formBand && section.body.some(isFormMark)) groups.push([]);
+    const mark = section.body.find(isFormMark);
+    if (mark && defaults && formTexts) {
+      marks.push(mark);
+      groups.push([]);
+    }
   }
 
   return (
@@ -263,7 +294,7 @@ const ChaptersTextContent: FC<Props> = ({ block, lang, formTexts, formNote }) =>
               </div>
             </div>
           )}
-          {gi < groups.length - 1 && formBand}
+          {gi < groups.length - 1 && formBand(marks[gi])}
         </React.Fragment>
       ))}
     </>

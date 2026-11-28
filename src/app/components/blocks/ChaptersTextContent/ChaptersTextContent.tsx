@@ -14,6 +14,8 @@ type Props = {
   /** Form texts of the page's quote card; the short form between chapters uses them. */
   formTexts?: Record<string, string> | null;
   formNote?: string;
+  /** Without a placed short form, put one after the middle chapter (6+ chapters). */
+  autoForm?: boolean;
 };
 
 type Section = { id: string; title: string; body: any[] };
@@ -116,7 +118,10 @@ function prepare(body: any[]): any[] {
       if (rows.length > 1 && rows.every(Boolean)) {
         out.push({ _type: "chapterPrices", _key: `${run[0]._key}-prices`, rows });
       } else {
-        out.push(...run.map(withTerm));
+        // Bold terms only when most items in the list are "term: …" — a
+        // single bolded item among plain ones reads as an accident.
+        const termed = run.filter((n) => withTerm(n) !== n).length;
+        out.push(...(termed * 2 >= run.length ? run.map(withTerm) : run));
       }
       leadDone = true;
       continue;
@@ -186,7 +191,7 @@ function componentsFor(lang: string): PortableTextComponents {
 // the quote form under it; the text runs on the right at a reading width.
 // No contents list and no numbering — the pinned heading is the orientation.
 // Phones: the heading simply stands above its text. Mockup: cro-proto/text2.html.
-const ChaptersTextContent: FC<Props> = ({ block, lang, formTexts, formNote }) => {
+const ChaptersTextContent: FC<Props> = ({ block, lang, formTexts, formNote, autoForm }) => {
   const content: any[] = Array.isArray(block.content) ? block.content : [];
   const intro: any[] = [];
   const sections: Section[] = [];
@@ -266,14 +271,18 @@ const ChaptersTextContent: FC<Props> = ({ block, lang, formTexts, formNote }) =>
   // group, and the form band follows across the full width of the screen.
   const groups: Section[][] = [[]];
   const marks: any[] = [];
-  for (const section of sections) {
+  const placed = sections.some((s) => s.body.some(isFormMark));
+  // Service pages in general (stage 2, 2026-11-28): a long text without a
+  // placed form gets one after its middle chapter, with the general texts.
+  const autoAfter = !placed && autoForm && sections.length >= 6 ? Math.ceil(sections.length / 2) - 1 : -1;
+  sections.forEach((section, i) => {
     groups[groups.length - 1].push(section);
-    const mark = section.body.find(isFormMark);
+    const mark = section.body.find(isFormMark) ?? (i === autoAfter ? { _key: `${section.id}-auto` } : null);
     if (mark && defaults && formTexts) {
       marks.push(mark);
       groups.push([]);
     }
-  }
+  });
 
   return (
     <>

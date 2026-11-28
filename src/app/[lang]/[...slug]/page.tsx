@@ -352,35 +352,49 @@ const SinglePage = async (props: Props) => {
     });
   }
 
+  // Only the longest text on a service page (most H2s) can get the automatic
+  // form band; ChaptersTextContent adds it only from six chapters up.
+  const h2Count = (b: any) =>
+    (b.content || []).filter((n: any) => n?._type === "block" && n.style === "h2").length;
+  const firstChaptersKey = allBlocks
+    .filter(
+      (b: any) =>
+        b._type === "textContent" &&
+        (b.layout === "chapters" || (page.pageType === "service" && b.layout !== "default" && h2Count(b) >= 1)),
+    )
+    .sort((x: any, y: any) => h2Count(y) - h2Count(x))[0]?._key;
+
   const renderContentBlock = (block: any) => {
     switch (block._type) {
       case "textContent": {
         const text = block as TextContent;
-        // Service pages default to the guide layout: a contents list beside
-        // the text instead of one wide column. Measured over the 175 service
-        // pages: 152 carry 500 words or more and 125 have two or more H2s, so
-        // the list has something to list. GuideTextContent itself falls back
-        // to full width when a block has one H2 or none, which covers the
-        // other 50. A layout set in Sanity still wins, so a page can opt out.
-        const useGuide =
-          text.layout === "guide" ||
-          (page.pageType === "service" && text.layout !== "default");
-        // "chapters" (2026-11): each H2 pinned on the left while its chapter
-        // is read, snippets of the work inside. Opt-in per block.
-        if (text.layout === "chapters") {
-          // The short form placed between chapters reuses the quote card's
-          // form texts (labels, validation, button) from this page.
+        // Service pages (stage 2, 2026-11-28): every text with an H2 reads as
+        // chapters — heading pinned on the left, text on the right, snippets
+        // inside — unless the block is set to "default", so a page never mixes
+        // the two heading styles. A text without H2 stays a plain block.
+        // Other pages keep "guide" opt-in.
+        const h2s = Array.isArray(text.content)
+          ? text.content.filter((n: any) => n?._type === "block" && n.style === "h2").length
+          : 0;
+        const useChapters =
+          text.layout === "chapters" ||
+          (page.pageType === "service" && text.layout !== "default" && h2s >= 1);
+        if (useChapters) {
+          // The short form between chapters uses the quote card's form texts
+          // when the page has one, otherwise the site's standard form texts.
           const quoteBlock = allBlocks.find((b: any) => b._type === "quoteFormBlock") as any;
           return (
             <ChaptersTextContent
               key={block._key}
               block={text}
               lang={lang}
-              formTexts={quoteBlock?.form?.form ?? null}
+              formTexts={quoteBlock?.form?.form ?? (formDocument as any)?.form ?? null}
               formNote={quoteBlock?.note}
+              autoForm={block._key === firstChaptersKey}
             />
           );
         }
+        const useGuide = text.layout === "guide";
         if (useGuide) {
           return <GuideTextContent key={block._key} block={text} lang={lang} />;
         }
